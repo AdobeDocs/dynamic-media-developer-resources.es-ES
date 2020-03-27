@@ -1,0 +1,46 @@
+---
+description: nulo
+seo-description: nulo
+seo-title: ControlBar.transición
+solution: Experience Manager
+title: ControlBar.transición
+topic: Dynamic media
+uuid: 30f133bd-09c7-4d70-bcc4-d961bb028e55
+translation-type: tm+mt
+source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+
+---
+
+
+# ControlBar.transición{#controlbar-transition}
+
+[!DNL ` [ControlBar.|<containerId>_controls.]transition=none|fade[, *``*[, *`delaytohideduration`*]`]
+
+<table id="table_F71AA834FE494949A2D4B569EA5E721F"> 
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> ninguno|fundido </span> </p> </td> 
+   <td colname="col2"> <p> Especifica el tipo de efecto que se utiliza para mostrar u ocultar la barra de control y su contenido. Use <span class="codeph"> none </span> para mostrar y ocultar instantáneamente; El <span class="codeph"> fundido </span> proporciona un efecto de fundido y atenuación gradual (no admitido en Internet Explorer 8). </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delaytohide </span></span> </p> </td> 
+   <td colname="col2"> <p> Especifica el tiempo en segundos que transcurre entre el último evento táctil o de ratón que registra la barra de control y la barra de control de tiempo que se oculta. </p> <p> Si se establece en <span class="codeph"> -1 </span> , el componente nunca activa su efecto de ocultación automática y siempre permanece visible en la pantalla. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duración </span></span> </p> </td> 
+   <td colname="col2"> <p> Define la duración de la animación de fundido de entrada y fundido, en segundos. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Propiedades {#section-f42369774e2740dcb399626a0e4e930e}
+
+Opcional. Este comando se ignora en los dispositivos táctiles, donde la barra de control se oculta automáticamente.
+
+## Predeterminado {#section-d016470e92a74f98a18c4ab3489410a5}
+
+[!DNL `fade,2,0.5`]
+
+## Ejemplo {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
+
+[!DNL `transition=none`]
