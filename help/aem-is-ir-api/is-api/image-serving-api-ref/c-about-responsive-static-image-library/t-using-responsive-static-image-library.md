@@ -1,0 +1,112 @@
+---
+description: Para agregar una biblioteca de imágenes interactivas a una página web y administrar las imágenes existentes con la biblioteca, complete los siguientes pasos.
+seo-description: Para agregar una biblioteca de imágenes interactivas a una página web y administrar las imágenes existentes con la biblioteca, complete los siguientes pasos.
+seo-title: Uso de la biblioteca de imágenes interactivas
+solution: Experience Manager
+title: Uso de la biblioteca de imágenes interactivas
+topic: Scene7 Image Serving - Image Rendering API
+uuid: 325cdc8d-2bfa-4f9b-bf88-51d1dcc6c495
+translation-type: tm+mt
+source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+
+---
+
+
+# Uso de la biblioteca de imágenes interactivas{#using-responsive-image-library}
+
+Para agregar una biblioteca de imágenes interactivas a una página web y administrar las imágenes existentes con la biblioteca, complete los siguientes pasos.
+
+**Para utilizar la biblioteca de imágenes interactivas**
+
+1. En SPS, [cree un ajuste preestablecido](http://help.adobe.com/en_US/scene7/using/WS2F6A1049-B41F-447d-A520-91227F9CDABF.html) de imagen por si tiene pensado utilizar una biblioteca de imágenes adaptable con ajustes preestablecidos.
+
+   Al definir ajustes preestablecidos de imagen que se utilizan con la biblioteca de imágenes interactivas, no utilice ninguna configuración que afecte al tamaño de la imagen, como `wid=`, `hei=`o `scl=`. No especifique ningún campo de tamaño en el ajuste preestablecido de imagen. En su lugar, déjelos como valores en blanco.
+1. Añada el archivo JavaScript de la biblioteca en la página web.
+
+   Antes de poder utilizar la API de biblioteca, asegúrese de incluir `responsive_image.js`. Este archivo JavaScript se encuentra en la `libs/` subcarpeta de la implementación estándar de visores IS:
+
+   `<s7viewers_root>/libs/responsive_image.js`
+1. Configure las imágenes existentes.
+
+   La biblioteca lee determinados atributos de configuración de una instancia de imagen con la que está trabajando. Defina los atributos antes de que se llame a la función `s7responsiveImage` API para dicha imagen.
+
+   También se sugiere que coloque la dirección URL de imagen existente en el `data-src` atributo. A continuación, configure el atributo existente para que tenga una imagen GIF de 1x1 codificada como URI de datos. `src` Al hacerlo, se reduce el número de solicitudes HTTP que envía la página web en el momento de la carga. Sin embargo, tenga en cuenta que si se necesita SEO (optimización del motor de búsqueda), es mejor configurar un `title` atributo en la instancia de imagen.
+
+   A continuación se muestra un ejemplo de definición de `data-breakpoints` atributos para la imagen y uso de un GIF 1x1 codificado como URI de datos:
+
+   ```
+   <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
+   ```
+
+1. Llame a la función `s7responsiveImage` API para cada instancia de imagen que administra la biblioteca.
+
+   Llame a la función `s7responsiveImage` API para cada instancia de imagen que administra la biblioteca. Después de esta llamada, la biblioteca reemplaza la imagen original por la imagen que se descarga del servicio de imágenes según el tamaño de tiempo de ejecución del `IMG` elemento en el diseño de página web y la densidad de la pantalla del dispositivo.
+
+   El siguiente código es un ejemplo de llamada a la función `s7responsiveImage` API en una imagen, suponiendo que `responsiveImage` sea un ID de esa imagen:
+
+   ```
+   <script type="text/javascript"> 
+    s7responsiveImage(document.getElementById("responsiveImage")); 
+   </script>
+   ```
+
+## Ejemplo {#example-0509a0dd2a8e4fd58b5d39a0df47bd87}
+
+La biblioteca admite el trabajo simultáneo con muchas instancias de imagen en la página web. Por lo tanto, repita los pasos 1 y 2 anteriores para cada imagen que desee que administre la biblioteca.
+
+Es responsabilidad de la página web aplicar estilo al elemento de imagen para que sea flexible en tamaño. La propia biblioteca de imágenes interactivas no diferencia entre imágenes de tamaño fijo y imágenes &quot;fluidas&quot;. Si se aplica a una imagen de tamaño fijo, carga la nueva imagen solo una vez.
+
+El siguiente código es un ejemplo completo de una página web trivial que tiene una sola imagen fluida administrada por la biblioteca de imágenes interactivas. El ejemplo contiene estilos CSS adicionales para que la imagen sea &quot;adaptable&quot; al tamaño de la ventana del navegador web:
+
+```
+<!DOCTYPE html> 
+<html> 
+ <head> 
+  <style type="text/css"> 
+  .container { 
+   width: 50%; 
+  } 
+  .fluidimage { 
+   max-width: 100%; 
+  } 
+  </style> 
+ </head> 
+ <body> 
+  <div class="container"> 
+   <img id="responsiveImage" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="200,400,600,800" class="fluidimage"> 
+  </div> 
+  <script type="text/javascript" src="https://s7d9.scene7.com/s7viewers/libs/responsive_image.js"></script> 
+  <script type="text/javascript"> 
+   s7responsiveImage(document.getElementById("responsiveImage")); 
+  </script> 
+ </body> 
+</html>
+```
+
+**Uso de recorte inteligente**
+
+Existen dos modos de recorte inteligente disponibles en AEM 6.4 y visores de Scene7 5.9:
+
+* **Manual** : los puntos de interrupción definidos por el usuario y los comandos correspondientes del servicio de imágenes se definen en un atributo del elemento de imagen.
+* **Recorte** inteligente: las representaciones de recorte inteligente calculadas se recuperan automáticamente desde el servidor de envío. La mejor representación se selecciona con el tamaño de tiempo de ejecución del elemento de imagen.
+
+Para utilizar el modo de recorte inteligente, defina el `data-mode` atributo en `smart crop`. Por ejemplo:
+
+```
+<img 
+src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" 
+data-src="https://imageserver.com/is/image/ExampleCo/SmartCropAsset" 
+data-mode="smartcrop">
+```
+
+El elemento de imagen asociado distribuye un `s7responsiveViewer` evento durante el tiempo de ejecución cuando cambia el punto de interrupción.
+
+```
+         responsiveImage.addEventListener("s7responsiveViewer", function (event) { 
+           var s7event = event.s7responsiveViewerEvent; 
+           if(s7event.type == "breakpointchanged") { 
+              console.log("New width: " + s7event.width); 
+              console.log("Old width: " + s7event.oldWidth); 
+           } 
+        });
+```
