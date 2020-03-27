@@ -1,0 +1,29 @@
+---
+description: Establezca el valor del nodo de texto para s7 elementID.
+seo-description: Establezca el valor del nodo de texto para s7 elementID.
+seo-title: setVal
+solution: Experience Manager
+title: setVal
+topic: Scene7 Image Serving - Image Rendering API
+uuid: 27ced070-6434-477d-aacf-053d53ee58ff
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# setVal{#setval}
+
+Establezca el valor del nodo de texto para s7:elementID.
+
+`setVal.elementID= *[!DNL value]*`
+
+Si un elemento de nodo FXG tiene un elemento `s7:elementID` definido, se puede manipular el valor de texto de dicho nodo.
+
+## Ejemplo {#section-f574fd66dedd4a219aa537d7bdabea23}
+
+Supongamos que se define un `s7:elementID="paragraph1"` atributo para un `TextGraphic` nodo y que lo siguiente es válido:
+
+`&setVal.paragraph=Hello`
+
+En este ejemplo se establece el valor de texto del nodo de párrafo en &quot;Hello&quot;.
