@@ -1,0 +1,31 @@
+---
+description: Documentación de atributos de configuración para el visor de imágenes interactivo.
+seo-description: Documentación de atributos de configuración para el visor de imágenes interactivo.
+seo-title: 'Referencia de comandos: Atributos de configuración'
+solution: Experience Manager
+title: 'Referencia de comandos: Atributos de configuración'
+topic: Dynamic media
+uuid: ef118730-1bd2-4b88-917c-1fa51c6a488b
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# Referencia de comandos: Atributos de configuración{#command-reference-configuration-attributes}
+
+Documentación de atributos de configuración para el visor de imágenes interactivo.
+
+Cualquier comando de configuración se puede establecer en URL, usando `setParam()`o `setParams()`, o ambos, métodos API. También se puede especificar cualquier atributo de configuración en el registro de configuración del lado del servidor.
+
+Algunos comandos de configuración pueden llevar el prefijo nombre de clase o nombre de instancia del componente SDK del visor correspondiente. Un nombre de instancia del componente es dinámico y depende del ID del elemento DOM de contenedor del visor que se pasa al método `setContainerId()` API. La documentación incluye un prefijo opcional para dichos comandos. Por ejemplo, `zoomstep` el comando se documenta de la siguiente manera:
+
+`[ZoomView.|<containerId>_zoomView].fmt`
+
+lo que significa que puede utilizar este comando como:
+
+* `fmt` (sintaxis corta)
+* `ZoomView.fmt` (calificado con el nombre de clase de componente)
+* `cont_zoomView.fmt` (calificado con ID de componente, suponiendo `cont` que es el ID del elemento de contenedor)
+
+Consulte también Referencia [de comandos común a todos los visores: Atributos de configuración](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)
