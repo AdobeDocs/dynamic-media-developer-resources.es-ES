@@ -1,11 +1,11 @@
 ---
-source-git-commit: 4570f1ca946a2ecff1969043ab64a164139ef03e
+source-git-commit: 70fe30f1fc89a52be8984832a4ba184fda8e7380
 translation-type: tm+mt
 
 ---
 # Directrices para contribuir a la documentación de los recursos para desarrolladores de Dynamic Media de Adobe
 
-## Filosofía de documentación de recursos para desarrolladores de Adobe Dynamic Media
+## Filosofía de la documentación
 
 Sabemos que los usuarios de Dynamic Media de Adobe trabajan en entornos muy competitivos, esforzándose por crear experiencias digitales que los diferencien de sus competidoras. Por lo tanto, es vital que, cuando Adobe ofrece nuevas herramientas avanzadas, estas herramientas se complementen con una documentación precisa y clara que permita al cliente aprovechar inmediatamente su inversión en Dynamic Media y maximizar el ROI.
 
@@ -35,9 +35,9 @@ Las excepciones a esta regla se aplican a las notas de la versión, donde los pr
 
 Cualquier idea que tenga para mejorar la documentación es bienvenida como contribución. Sin embargo, los comentarios, los problemas y las solicitudes de extracción solo están destinados a *contribuciones* . No están pensados para utilizarse para responder a sus preguntas sobre cómo usar Dynamic Media, implementar su proyecto o resolver problemas técnicos.
 
-Todas las preguntas sobre el uso de Dynamic Media o los errores técnicos que pueda tener deben informarse a través del proceso de soporte normal.
+Cualquier pregunta sobre el uso de Dynamic Media o los errores técnicos que pueda haber tenido debe informarse a través del portal [de asistencia técnica de](https://helpx.adobe.com/contact/enterprise-support.ec.html) Experience Cloud Enterprise o analizarse en la comunidad de [Experience Manager.](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager)
 
-***Las contribuciones de documentación no sustituyen a la asistencia*** de Adobe y cualquier contribución de este tipo que busque respuestas a preguntas relacionadas con la asistencia técnica será rechazada.
+***Las contribuciones de documentación no sustituyen al Servicio de atención*** al cliente de Adobe y se rechazará cualquier contribución de este tipo que busque respuestas a preguntas relacionadas con la asistencia.
 
 ### Las contribuciones deben hacer referencia claramente a las páginas de documentación afectadas.
 
