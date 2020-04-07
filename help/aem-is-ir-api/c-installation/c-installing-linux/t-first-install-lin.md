@@ -21,8 +21,7 @@ Este procedimiento muestra cómo instalar el servicio de imágenes por primera v
 
    Si el archivo de clave de licencia de servicio de imágenes y/o procesamiento de imágenes (con [!DNL .sc8] sufijo de archivo) está disponible, cópielo en esta carpeta. De lo contrario, continúe con la instalación e instale la clave de licencia más tarde.
 1. Descomprima y descomprima el archivo tar de distribución de servicio de imágenes.
-1. 
-   4. Ejecute [!DNL ./install-is], ubicado en la [!DNL Setup] carpeta, para iniciar el asistente de instalación.
+1. Ejecute [!DNL ./install-is], ubicado en la [!DNL Setup] carpeta, para iniciar el asistente de instalación.
    Si no se encuentra ninguna clave de licencia, se muestran instrucciones que describen cómo obtener un archivo de licencia. Realice esta acción en este momento o continúe con la instalación del servicio de imágenes e instale la clave de licencia más tarde.
 1. Cuando aparezca el Contrato de licencia de usuario final (EULA), lea el contrato de licencia y, a continuación, introduzca `y` para continuar.
 
