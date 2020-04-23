@@ -7,14 +7,14 @@ title: Gestión de color
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 6c51d204-27ca-4fbd-a297-bf1d04b63a3f
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: 341693d69fc414dacf984d66e2eaeba2418e663b
 
 ---
 
 
 # Gestión de color{#color-handling}
 
-La especificación RTF permite valores de color RGB especificados con \colortbl. Cada componente se proporciona por separado con los comandos \red, \green y \blue.
+La especificación RTF permite valores de color RGB especificados con `\colortbl`. Cada componente se proporciona por separado con los comandos `\red`, `\green`y `\blue` .
 
 El comando de extensión RTF patentado `\cmykcolortbl` permite especificar colores CMYK, con cada componente de color proporcionado con los comandos `\cyan`, `\magenta`, `\yellow`y `\black` .
 
