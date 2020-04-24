@@ -7,7 +7,7 @@ title: Formato de texto
 topic: Scene7 Image Serving - Image Rendering API
 uuid: e67b6dd2-2a78-4014-9525-816d91c9e783
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
 
 ---
 
@@ -58,19 +58,19 @@ La tabla siguiente lista las funciones clave disponibles para cada comando de te
    <td> <p>Ajuste de copia </p> </td> 
    <td> <p>no </p> </td> 
    <td> <p>sí </p> </td> 
-   <td> Ajuste de copia <p>, \copyfit, \copyfitlines, \copyfitmaxlines </p> </td> 
+   <td> Ajuste de copia <p>, <pre>\copyfit</pre>, <pre>\copyfitlines</pre>, <pre>\copyfitmaxlines</pre> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Márgenes del cuadro de texto </p> </td> 
    <td> <p>no </p> </td> 
    <td> <p>sí </p> </td> 
-   <td> <p>\margl, \margr, \margt, \margb </p> </td> 
+   <td> <p><pre>\margl</pre>, <pre>\margr</pre>, <pre>\margt</pre>, <pre>\margb</pre> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Justificación completa del párrafo </p> </td> 
    <td> <p>no </p> </td> 
    <td> <p>sí </p> </td> 
-   <td> <p>\qj </p> </td> 
+   <td> <p><pre>\qj</pre> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>justificación de la última línea </p> </td> 
