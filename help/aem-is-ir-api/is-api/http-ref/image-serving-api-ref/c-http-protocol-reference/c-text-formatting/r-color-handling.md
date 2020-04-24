@@ -1,13 +1,11 @@
 ---
-description: La especificación RTF permite valores de color RGB especificados con \colortbl. Cada componente se proporciona por separado con los comandos \red, \green y \blue.
-seo-description: La especificación RTF permite valores de color RGB especificados con \colortbl. Cada componente se proporciona por separado con los comandos \red, \green y \blue.
-seo-title: Gestión de color
+description: La especificación RTF permite valores de color RGB especificados con &bsol;colortbl. Cada componente se proporciona por separado con los comandos &bsol;red, &bsol;verde y &bsol;azul.
 solution: Experience Manager
 title: Gestión de color
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 6c51d204-27ca-4fbd-a297-bf1d04b63a3f
 translation-type: tm+mt
-source-git-commit: 341693d69fc414dacf984d66e2eaeba2418e663b
+source-git-commit: 925fb4b0a9018d711ea9a1db248dc2ddc803c9fb
 
 ---
 
