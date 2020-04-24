@@ -7,7 +7,7 @@ title: Información general sobre la administración de servidores
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 83aa83b7-bb7a-4bbd-923c-dd69763fe9c9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
 
 ---
 
@@ -25,6 +25,6 @@ Ambos componentes se denominan colectivamente *Servidor* de procesamiento.
 
 El procesamiento de imágenes comparte muchas instalaciones de servidor con el servicio de imágenes y todas las opciones se configuran editando un archivo de configuración. El catálogo predeterminado ( [!DNL default.ini]) o los catálogos de material específicos proporcionan atributos de configuración adicionales. Consulte Catálogos de materiales para obtener más información.
 
-La carpeta de instalación de procesamiento de imágenes ( *[!DNL install_folder]*) es [!DNL *[!DNL install_root]*/ImageRendering]. En Windows, el valor predeterminado *[!DNL install_root]* es [!DNL C:\Program Files\Scene7]. Se puede especificar una carpeta diferente durante la instalación. En Linux, *[!DNL install_root]* siempre debe ser [!DNL /usr/local/scene7]. Pueden utilizarse enlaces simbólicos.
+La carpeta de instalación de procesamiento de imágenes ( *[!DNL install_folder]*) es [!DNL *[!DNL install_root]*/ImageRendering]. En Windows, el valor predeterminado *[!DNL install_root]* es `C:\Program Files\Scene7`. Se puede especificar una carpeta diferente durante la instalación. En Linux, *[!DNL install_root]* siempre debe ser [!DNL /usr/local/scene7]. Pueden utilizarse enlaces simbólicos.
 
 Todas las rutas de archivos distinguen entre mayúsculas y minúsculas en UNIX y, en Windows, no distinguen entre mayúsculas y minúsculas.
