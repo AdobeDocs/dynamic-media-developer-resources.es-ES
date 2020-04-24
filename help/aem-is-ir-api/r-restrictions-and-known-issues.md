@@ -7,7 +7,7 @@ title: Restricciones y problemas conocidos
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 9f9fad41-4828-4fba-8f5f-2c33e7811c71
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
 
 ---
 
@@ -80,7 +80,7 @@ La biblioteca Digimarc se niega a aplicar una marca de agua Digimarc a una image
 
 * Las solicitudes Tiff o Vignette no pirámidas producen un mensaje de error similar a
 
-   *&quot;La imagen C:\Program Files\Scene7\ImageRendering\resources\MyVignette.vnt no tiene un DSF válido y el área de 2,25MPixel supera el máximo de 2MPixel&quot;* .
+   *&quot;La imagen`C:\Program Files\Scene7\ImageRendering\resources\MyVignette.vnt`no tiene un DSF válido y el área de 2,25MPixel supera el máximo de 2MPixel&quot;* .
 
    Lo mejor es usar tiñas pirámidas y viñetas. Si necesita usar tifones o viñetas no piramidables, siga las instrucciones siguientes para aumentar el límite de tamaño.
 
