@@ -7,12 +7,17 @@ title: Notas de compatibilidad
 topic: Dynamic media
 uuid: cf732a03-bfaa-4838-862f-73343cefbd67
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: a0983053795cc119eb57386c005e1f8a7c2fa3e4
+workflow-type: tm+mt
+source-wordcount: '433'
+ht-degree: 1%
 
 ---
 
 
 # Notas de compatibilidad{#compatibility-notes}
+
+<!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
 Notas de compatibilidad para sistemas operativos, navegadores y dispositivos móviles.
 
