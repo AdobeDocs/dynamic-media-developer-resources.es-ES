@@ -1,20 +1,25 @@
 ---
-description: Instrucciones para instalar la API de visores de Scene7.
-seo-description: Instrucciones para instalar la API de visores de Scene7.
+description: Instrucciones para instalar la API de visores de Dynamic Media.
+seo-description: Instrucciones para instalar la API de visores de Dynamic Media.
 seo-title: Instalación de varios visores en el mismo servidor
 solution: Experience Manager
 title: Instalación de varios visores en el mismo servidor
 topic: Dynamic media
 uuid: 91ae8eb5-1d23-4fa3-a0d6-a4a0ed0eb104
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: a0983053795cc119eb57386c005e1f8a7c2fa3e4
+workflow-type: tm+mt
+source-wordcount: '177'
+ht-degree: 1%
 
 ---
 
 
 # Instalación de varios visores en el mismo servidor{#installing-multiple-viewers-on-the-same-server}
 
-Instrucciones para instalar la API de visores de Scene7.
+<!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
+
+Instrucciones para instalar la API de visores de Dynamic Media.
 
 Instale y pruebe el servicio de imágenes antes de instalar los visores del servicio de imágenes.
 
@@ -22,7 +27,7 @@ Copie los archivos de visores de IS en el disco duro y, a continuación, impleme
 
 >[!NOTE]
 >
->No hay ninguna instalación de actualización para los visores de servicio de imágenes. Adobe recomienda realizar una copia de seguridad de cualquier directorio de visores de Scene7 existente antes de continuar con la instalación.
+>No hay ninguna instalación de actualización para los visores de servicio de imágenes. Adobe recomienda realizar una copia de seguridad de cualquier directorio de visores de Dynamic Media existente antes de continuar con la instalación.
 
 **Para instalar los visores en el mismo servidor**
 
