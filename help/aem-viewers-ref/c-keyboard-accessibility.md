@@ -1,24 +1,29 @@
 ---
-description: Todas las funciones que se exponen en la interfaz de visor de zoom básico, catálogo electrónico, búsqueda en catálogos electrónicos, flotante, zoom en línea, medios mixtos, giro, vídeo, zoom, carrusel, imagen interactiva, vídeo interactivo y vídeo360 son accesibles mediante el teclado.
-seo-description: Todas las funciones que se exponen en la interfaz de visor de zoom básico, catálogo electrónico, búsqueda en catálogos electrónicos, flotante, zoom en línea, medios mixtos, giro, vídeo, zoom, carrusel, imagen interactiva, vídeo interactivo y vídeo360 son accesibles mediante el teclado.
+description: Todas las funciones expuestas en la interfaz de visor de zoom básico, catálogo electrónico, búsqueda en catálogos electrónicos, flotante, zoom en línea, medios mixtos, giro, vídeo, zoom, dimensión (3D), carrusel, imagen interactiva, vídeo interactivo y vídeo360 son accesibles mediante el teclado.
+seo-description: Todas las funciones expuestas en la interfaz de visor de zoom básico, catálogo electrónico, búsqueda en catálogos electrónicos, flotante, zoom en línea, medios mixtos, giro, vídeo, zoom, dimensión (3D), carrusel, imagen interactiva, vídeo interactivo y vídeo360 son accesibles mediante el teclado.
 seo-title: Navegación y accesibilidad del teclado
 solution: Experience Manager
 title: Navegación y accesibilidad del teclado
 topic: Dynamic media
 uuid: 9d7df3b0-2d77-4a2f-9ef1-210ccbd7a1a6
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: a0983053795cc119eb57386c005e1f8a7c2fa3e4
+workflow-type: tm+mt
+source-wordcount: '615'
+ht-degree: 0%
 
 ---
 
 
 # Navegación y accesibilidad del teclado{#keyboard-accessibility-and-navigation}
 
-Todas las funciones que se exponen en la interfaz de visor de zoom básico, catálogo electrónico, búsqueda en catálogos electrónicos, flotante, zoom en línea, medios mixtos, giro, vídeo, zoom, carrusel, imagen interactiva, vídeo interactivo y vídeo360 son accesibles mediante el teclado.
+Todas las funciones expuestas en la interfaz de visor de zoom básico, catálogo electrónico, búsqueda en catálogos electrónicos, flotante, zoom en línea, medios mixtos, giro, vídeo, zoom, carrusel, dimensional (3D), imagen interactiva, vídeo interactivo y vídeo360 son accesibles mediante el teclado.
+
+<!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
 ## Navegación y accesibilidad del teclado {#topic-f5650e9493404e55a3627c8d1366b861}
 
-Todas las funciones que se exponen en la interfaz de visor de zoom básico, catálogo electrónico, búsqueda en catálogos electrónicos, flotante, zoom en línea, medios mixtos, giro, vídeo, zoom, carrusel, imagen interactiva, vídeo interactivo y vídeo360 son accesibles mediante el teclado.
+Todas las funciones expuestas en la interfaz de visor de zoom básico, catálogo electrónico, búsqueda en catálogos electrónicos, flotante, zoom en línea, medios mixtos, giro, vídeo, zoom, carrusel, dimensional (3D), imagen interactiva, vídeo interactivo y vídeo360 son accesibles mediante el teclado.
 
 Un usuario final puede navegar entre los elementos de la interfaz de usuario del visor mediante **[!UICONTROL pulsaciones de teclas Tab]** y **[!UICONTROL Mayús+Tab]** . El uso del **[!UICONTROL tabulador]** hace que el enfoque de entrada avance hacia el siguiente elemento de la interfaz de usuario en el orden de tabulación; si se utiliza **[!UICONTROL Mayús+Tab]** , el enfoque de entrada vuelve al elemento de interfaz de usuario anterior. El recorrido de enfoque sigue la ubicación del elemento de interfaz de usuario natural en la pantalla y se mueve de izquierda a derecha y, a continuación, de arriba abajo.
 
