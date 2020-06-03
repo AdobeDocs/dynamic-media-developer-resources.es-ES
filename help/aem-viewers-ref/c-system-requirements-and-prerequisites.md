@@ -5,9 +5,13 @@ seo-title: Requisitos del sistema
 solution: Experience Manager
 title: Requisitos del sistema
 topic: Dynamic media
+contentOwner: Rick Brough
 uuid: d282af6a-112e-48d6-b3ad-bec0648f4654
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: a0983053795cc119eb57386c005e1f8a7c2fa3e4
+workflow-type: tm+mt
+source-wordcount: '359'
+ht-degree: 1%
 
 ---
 
@@ -16,10 +20,12 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 Requisitos del sistema para visores HTML5.
 
+<!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
+
 ## Hardware y software del servidor {#section-05099146f1f0418988c196635110bee6}
 
-* Servicio de imágenes de Dynamic Media Classic 6.5.3 o posterior.
-* Los visores HTML5 requieren bibliotecas de JavaScript del lado del servidor SDK 3.7.1 o posterior.
+* Servicio de imágenes de Dynamic Media Classic 6.7.1 o posterior.
+* Los visores HTML5 requieren bibliotecas de JavaScript del lado del servidor SDK 3.9.1 o posterior.
 * Las funciones sociales &quot;Enviar un correo electrónico a un amigo&quot; requieren s7ondemand 5.0.7 o posterior.
 * Visor de catálogos electrónicos: la compatibilidad del panel Información requiere el servidor de información 2.1.8 o posterior.
 * Los componentes de la función de búsqueda requieren s7search 2.3.0 o posterior.
@@ -28,18 +34,16 @@ Requisitos del sistema para visores HTML5.
 
 **Requisitos mínimos del navegador del cliente para visores de componentes**
 
-* Monitor en color y tarjeta de vídeo que admite color alto de 16 bits con una resolución de 1024 x 768 o superior.
-* Microsoft® Windows® 7 o posterior; Mac OS X 10.9 o posterior.
-* Firefox 61, Safari 10 (solo Mac OS), Chrome 66 (o la versión más reciente; Chrome se actualiza automáticamente a la última versión), Internet Explorer 11, Microsoft Edge.
+* Microsoft® Windows® 7 o posterior; macOS X 10.12 o posterior.
+* Firefox 69, Safari 11 (solo macOS), Chrome 75 (o versión más reciente; Chrome se actualiza automáticamente a la última versión), Internet Explorer 11, Microsoft Edge.
 * iOS6 o posterior.
 * Certificado en iPhone 3GS o posterior y en iPad 2 o posterior (solo en los navegadores Safari y Chrome).
 * Android OS 4.x o posterior.
 * BlackBerry 10 o posterior; solo exploradores nativos. La reproducción de vídeo solo se admite en este momento.
 * Internet Explorer en dispositivos móviles no es compatible en este momento.
-* El visor panorámico es compatible con iOS 10 o posterior, Firefox 61, Chrome 66, Safari 11 o posterior, Internet Explorer 11 o posterior, Microsoft Edge, Android 4.4 o posterior (solo dispositivos móviles).
-* El visor de vídeo 360 es compatible con iOS12 o posterior, Firefox 61, Chrome 66, Safari 12 o posterior, Microsoft Edge, Android 5 o posterior (solo dispositivos móviles).
-* El visor de zoom vertical es compatible con iOS 10 o posterior, Firefox 61, Chrome 66, Safari 11 o posterior, Internet Explorer 11, Microsoft Edge, Android 4.x o posterior.
-* El visor de vídeo no admite la reproducción de HLS (HTTP Live Streaming) en Internet Explorer 11 que se ejecuta en Windows 7.
+* El visor panorámico es compatible con iOS 10 o posterior, Firefox 69, Chrome 75, Safari 11 o posterior, Internet Explorer 11 o posterior, Microsoft Edge, Android 4.4 o posterior (solo dispositivos móviles).
+* El visor de vídeo 360 y el visor de dimensiones son compatibles con iOS12 o posterior, Firefox 69, Chrome 75, Safari 12 o posterior, Microsoft Edge, Android 5 o posterior (solo dispositivos móviles).
+* El visor de zoom vertical es compatible con iOS 10 o posterior, Firefox 69, Chrome 75, Safari 11 o posterior, Internet Explorer 11, Microsoft Edge, Android 4.x o posterior.
 
 <!--<a id="section_1486A48CD38F42E3956E022A48207727"></a>-->
 
