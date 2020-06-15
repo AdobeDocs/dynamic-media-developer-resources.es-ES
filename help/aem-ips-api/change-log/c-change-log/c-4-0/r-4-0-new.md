@@ -7,7 +7,10 @@ title: Nuevas adiciones y cambios
 topic: Scene7 Image Production System API
 uuid: ca4bbe36-c1b7-471f-90a8-6b695d56ac7a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '1234'
+ht-degree: 2%
 
 ---
 
@@ -115,7 +118,7 @@ Las apariencias de visor admiten dos parámetros: `skinFg` y `skinBg`. El códig
 
 Operación `getAssociatedAssets` implementada.
 
-Se ha Añadido `ReprocessAssets` el tipo de trabajo para permitir el reprocesamiento de los archivos principales cargados anteriormente, incluida la recuperación de archivos PDF y la reoptimización de imágenes.
+Se Añadió `ReprocessAssets` el tipo de trabajo para permitir el reprocesamiento de los archivos de origen principales cargados anteriormente, incluida la recuperación de archivos PDF y la reoptimización de imágenes.
 
 Se cambió el nombre `PropertySetType` del tipo de campo a `propertyType`. Esto afecta al `createPropertySetType` parámetro y a la `getPropertySetType/getPropertySetTypes` respuesta.
 
@@ -277,7 +280,7 @@ Se han Añadido opciones adicionales `UploadDirectoryJob` y `UploadUrlsJob` para
    <td colname="col4"> <p> 
      <ul id="ul_41924574773542B7BFC4989667C14E97"> 
       <li id="li_3886554059AB4F7383619A9CB7292E0E"> <p>Gestionar solo el activo y no crear ningún derivado al cargarlo. </p> </li> 
-      <li id="li_BF3F5E54484C46D8887CA48D8646648E"> <p>Procese el archivo en una imagen con la resolución y el espacio de color establecidos. </p> </li> 
+      <li id="li_BF3F5E54484C46D8887CA48D8646648E"> <p>Procese el archivo en una imagen con la resolución y el espacio de color prescritos. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -306,7 +309,7 @@ Se han Añadido opciones adicionales `UploadDirectoryJob` y `UploadUrlsJob` para
    <td colname="col4"> <p> 
      <ul id="ul_84EE74454FF5434087A895F915E68103"> 
       <li id="li_4312A1CD5F4B44589678311A59536FA7"> <p>Gestionar solo el activo y no crear ningún derivado al cargarlo. </p> </li> 
-      <li id="li_06FBA83EA3F248E288F4790255802DE6"> <p>Procese el archivo en una imagen con la resolución y el espacio de color establecidos. </p> </li> 
+      <li id="li_06FBA83EA3F248E288F4790255802DE6"> <p>Procese el archivo en una imagen con la resolución y el espacio de color prescritos. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
