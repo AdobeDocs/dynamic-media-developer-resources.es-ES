@@ -1,20 +1,23 @@
 ---
-description: Crea un nuevo recurso derivado de un recurso de imagen principal existente.
-seo-description: Crea un nuevo recurso derivado de un recurso de imagen principal existente.
+description: Crea un nuevo recurso derivado de un recurso de imagen de origen principal existente.
+seo-description: Crea un nuevo recurso derivado de un recurso de imagen de origen principal existente.
 seo-title: createDerivedAsset
 solution: Experience Manager
 title: createDerivedAsset
 topic: Scene7 Image Production System API
 uuid: e1f9b690-af34-4da5-a534-c3a8c6b0a8fc
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '276'
+ht-degree: 8%
 
 ---
 
 
 # createDerivedAsset{#createderivedasset}
 
-Crea un nuevo recurso derivado de un recurso de imagen principal existente.
+Crea un nuevo recurso derivado de un recurso de imagen de origen principal existente.
 
 Sintaxis
 
