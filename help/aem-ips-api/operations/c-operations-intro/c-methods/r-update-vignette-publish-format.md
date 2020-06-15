@@ -7,7 +7,10 @@ title: updateVignettePublishFormat
 topic: Scene7 Image Production System API
 uuid: ef8ae609-56e8-4ed6-906b-0668c5873946
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '441'
+ht-degree: 20%
 
 ---
 
@@ -32,8 +35,8 @@ Actualiza la configuración del formato de publicación de la viñeta.
 | ` *`companyHandle`*` | `xsd:string` | Sí | Identificador de Compañía. |
 | ` *`vignetteFormatHandle`*` | `xsd:string` | Sí | Identificador de formato de publicación. |
 | ` *`name`*` | `xsd:string` | No | Nombre del formato de publicación. |
-| ` *`targetWidth`*` | `xsd:int` | Sí | Especifica el ancho de destinatario de la vista de viñeta resultante en píxeles. Utilice cero para que la viñeta de salida tenga el mismo tamaño que la viñeta maestra. |
-| ` *`targetHeight`*` | `xsd:int` | Sí | Especifica la altura de destinatario de la vista de viñeta resultante en píxeles. Utilice cero para que la viñeta de salida tenga el mismo tamaño que la viñeta maestra. |
+| ` *`targetWidth`*` | `xsd:int` | Sí | Especifica el ancho de destinatario de la vista de viñeta resultante en píxeles. Utilice cero para que la viñeta de salida tenga el mismo tamaño que la viñeta principal. |
+| ` *`targetHeight`*` | `xsd:int` | Sí | Especifica la altura de destinatario de la vista de viñeta resultante en píxeles. Utilice cero para que la viñeta de salida tenga el mismo tamaño que la viñeta principal. |
 | ` *`createPyramid`*` | `xsd:boolean` | Sí | Crea una viñeta piramidal optimizada para la ampliación y la reducción en el servidor de procesamiento de imágenes. Partiendo desde el tamaño máximo, definido por los campos de tamaño de la viñeta de destino, esta opción crea múltiples vistas de tamaño en un solo archivo de salida de viñetas. Los tamaños de vista se van reduciendo a la mitad en orden hasta que la altura y la anchura están dentro del límite de 128 x 128 píxeles. |
 | ` *`thumbWidth`*` | `xsd:int` | Sí | Especifica la anchura de cada miniatura resultante en píxeles. Esta configuración es opcional. Deje como cero para que no haya ningún archivo en miniatura. |
 | ` *`saveAsVersion`*` | `xsd:int` | Sí | Especifica el formato de archivo para las viñetas publicadas. Dado que hay una nueva versión de Image Authoring y una versión anterior del servidor de procesamiento de imágenes, debe especificar una versión de viñeta que el servidor de procesamiento de imágenes pueda leer. Si especifica una versión posterior, el servidor de procesamiento de imágenes no podrá leer las viñetas publicadas. Establezca en cero para publicar viñetas en la última versión. |
