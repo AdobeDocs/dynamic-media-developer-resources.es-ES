@@ -7,7 +7,10 @@ title: DescompressOptions
 topic: Scene7 Image Production System API
 uuid: 1e6827db-8c5e-47db-b7ff-4e681e107e57
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '114'
+ht-degree: 6%
 
 ---
 
@@ -32,7 +35,7 @@ Ajuste de carga para procesar archivos ZIP y TAR como recursos principales (Ning
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> proceso</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> proceso</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Controla el procesamiento de archivos ZIP y TAR. Proporciona dos opciones: 
      <ul id="ul_F34E2F3B9B74450CA7E76BD9FD7137C2">
