@@ -10,7 +10,10 @@ tutorials-url: https://marketing.adobe.com/resources/help/en_US/s7/training-vide
 git-repo: https://github.com/AdobeDocs/dynamic-media-developer-resources.en
 index: true
 translation-type: tm+mt
-source-git-commit: 3c3386026eabee4fa9be3294a912d9d255ef622f
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 2%
 
 ---
 
@@ -27,4 +30,4 @@ El archivo metadata.md incluye metadatos de nivel de repos que pasan a los archi
 | getting-started-url | Vínculo a la página de introducción de ayuda |
 | tutorials-url | Vínculo a tutoriales de vídeo: tutoriales de ayuda o tutoriales de KT |
 | niveles de mini toc | Determina el número de niveles de encabezado que aparecen en el carril derecho. el valor predeterminado es 2 |
-| git-repo | Especifica la ubicación de la repo principal para uso interno |
+| git-repo | Especifica la ubicación de la repo de origen principal para uso interno |
