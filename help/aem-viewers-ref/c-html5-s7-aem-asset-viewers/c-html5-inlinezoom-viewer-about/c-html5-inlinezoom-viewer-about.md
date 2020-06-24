@@ -8,7 +8,10 @@ title: Zoom en línea
 topic: Dynamic media
 uuid: 2287aef0-79ba-4d63-911a-969fa1c63385
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '2457'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +30,7 @@ Consulte Requisitos y requisitos previos [del sistema](../../c-system-requiremen
 
 ## URL de demostración {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
-[http://s7d9.scene7.com/s7viewers/html5/FlyoutViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&amp;config=Scene7SharedAssets/Universal_HTML5_Zoom_Inline&amp;stagesize=500,400](http://s7d9.scene7.com/s7viewers/html5/FlyoutViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&config=Scene7SharedAssets/Universal_HTML5_Zoom_Inline&stagesize=500,400)
+[http://s7d9.scene7.com/s7viewers/html5/FlyoutViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&amp;config=Scene7SharedAssets/Universal_HTML5_Zoom_Inline&amp;stagesize=500,400](http://s7d9.scene7.com/s7viewers/html5/FlyoutViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&amp;config=Scene7SharedAssets/Universal_HTML5_Zoom_Inline&amp;stagesize=500,400)
 
 ## Uso del visor de zoom en línea {#section-f21ac23d3f6449ad9765588d69584772}
 
@@ -104,7 +107,7 @@ El modo de incrustación de tamaño fijo se utiliza cuando el visor no cambia su
 
 El modo de incrustación de diseño adaptable supone que el visor puede necesitar cambiar el tamaño durante el tiempo de ejecución en respuesta al cambio de tamaño de su contenedor `DIV`. El caso de uso más común es agregar un visor a una página web que utilice un diseño de página flexible.
 
-Al utilizar el modo de incrustación de diseño interactivo con el visor de zoom en línea, asegúrese de especificar puntos de interrupción explícitos para la imagen de vista principal mediante el `imagereload` parámetro . Lo ideal es que los puntos de interrupción coincidan con los puntos de interrupción del ancho del visor según lo dicta la CSS de la página web.
+Al utilizar el modo de incrustación de diseño interactivo con el visor de zoom en línea, asegúrese de especificar puntos de interrupción explícitos para la imagen de vista principal mediante el `imagereload` parámetro . Lo ideal es que los puntos de interrupción coincidan con los puntos de interrupción del ancho del visor según lo dicta el CSS de la página web.
 
 En el modo de incrustación de diseño interactivo, el visor se comporta de forma diferente en función de la forma en que una página web cambia el tamaño de su contenedor `DIV`. Si la página web establece únicamente la anchura del contenedor `DIV`, dejando su altura sin restricciones, el visor selecciona automáticamente la altura según la proporción de aspecto del recurso que se utilice. Esto significa que el recurso encaja perfectamente en la vista sin ningún relleno en los lados. Este caso de uso en particular es el más común para las páginas web que utilizan marcos de diseño interactivos como Bootstrap, Foundation, etc.
 
@@ -204,7 +207,7 @@ Una ruta relativa tiene el siguiente aspecto:
 
    Al mismo tiempo, el elemento contenedor no debe formar parte necesariamente del diseño de la página web. Por ejemplo, puede ocultarse con `display:none` el estilo asignado. En este caso, el visor retrasa el proceso de inicialización hasta el momento en que la página web devuelve el elemento de contenedor a la presentación. Cuando esto sucede, la carga del visor se reanuda automáticamente.
 
-   A continuación se muestra un ejemplo de creación de una instancia de visor, pasando las opciones de configuración mínimas necesarias al constructor y llamando al `init()` método. Se supone que el ejemplo `inlineZoomViewer` es la instancia del visor; `s7viewer` es el nombre del marcador de posición `DIV`; `http://s7d1.scene7.com/is/image/` es la dirección URL del servicio de imágenes; y `Scene7SharedAssets/ImageSet-Views-Sample` es el recurso:
+   A continuación se muestra un ejemplo de creación de una instancia de visor, pasando las opciones de configuración mínimas necesarias al constructor y llamando al `init()` método. Se supone que el ejemplo `inlineZoomViewer` es la instancia del visor; `s7viewer` es el nombre del marcador de posición `DIV`; `http://s7d1.scene7.com/is/image/` es la URL del servicio de imágenes; y `Scene7SharedAssets/ImageSet-Views-Sample` es el recurso:
 
    ```
    <script type="text/javascript"> 
@@ -329,7 +332,9 @@ var inlineZoomViewer = new s7viewers.FlyoutViewer({
 
 La siguiente página de ejemplos ilustra los usos más reales del diseño interactivo que se incrusta con altura ilimitada:
 
-[https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html)
+[Demostraciones en directo](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+
+<!-- KEEP (https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) -->
 
 ## Integración de tamaño flexible con anchura y altura definidas {#section-0a329016f9414d199039776645c693de}
 
