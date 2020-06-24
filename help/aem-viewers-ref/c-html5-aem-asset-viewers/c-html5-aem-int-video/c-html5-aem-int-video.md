@@ -7,7 +7,10 @@ title: Vídeo interactivo
 topic: Dynamic media
 uuid: 116c6b40-2490-4f1a-9c76-e06082069cc8
 translation-type: tm+mt
-source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '2243'
+ht-degree: 0%
 
 ---
 
@@ -74,7 +77,7 @@ La incrustación de tamaño fijo se utiliza cuando el visor no cambia su tamaño
 
 La incrustación de diseño adaptable supone que es posible que el visor tenga que cambiar el tamaño en tiempo de ejecución en respuesta al cambio de tamaño de su contenedor `DIV`. El caso de uso más común es agregar un visor a una página web que utilice un diseño de página flexible.
 
-En el modo de incrustación de diseño interactivo, el visor se comporta de forma diferente en función del tamaño de la página web en su contenedor `DIV`. Si la página web establece únicamente la anchura del contenedor `DIV`, dejando su altura sin restricciones, el visor selecciona automáticamente su altura según la proporción de aspecto del recurso que se utilice. Esta funcionalidad garantiza que el recurso encaje perfectamente en la vista sin ningún relleno en los lados. Este caso de uso es el más común para las páginas web que utilizan marcos de diseño de web interactivos como Bootstrap, Foundation, etc.
+En el modo de incrustación de diseño interactivo, el visor se comporta de forma diferente en función del tamaño de la página web en su contenedor `DIV`. Si la página web establece únicamente la anchura del contenedor `DIV`, dejando su altura sin restricciones, el visor selecciona automáticamente su altura según la proporción de aspecto del recurso que se utilice. Esta funcionalidad garantiza que el recurso encaje perfectamente en la vista sin ningún relleno en los lados. Este caso de uso es el más común para las páginas web que utilizan marcos de diseño web interactivos como Bootstrap, Foundation, etc.
 
 En caso contrario, si la página web establece la anchura y la altura del contenedor del visor `DIV`, el visor rellena solo esa área y sigue el tamaño que proporciona el diseño de la página web. Un buen ejemplo es la incrustación del visor en una superposición modal, donde el tamaño de la superposición depende del tamaño de la ventana del navegador web.
 
@@ -93,7 +96,7 @@ Para agregar el visor a una página web, haga lo siguiente:
 
 [!DNL <s7viewers_root>/etc/dam/viewers/s7viewers/html5/js/InteractiveVideoViewer.js]
 
-Puede utilizar una ruta relativa si el visor está implementado en uno de los servidores de Adobe Dynamic Media Classic y se suministra desde el mismo dominio. En caso contrario, especifique una ruta completa a uno de los servidores de Adobe Dynamic Media Classic que tenga instalados los visores IS.
+Puede utilizar una ruta relativa si el visor está implementado en uno de los servidores de Adobe Dynamic Media Classic y se suministra desde el mismo dominio. De lo contrario, debe especificar una ruta de acceso completa a uno de los servidores de Adobe Dynamic Media Classic que tenga instalados los visores IS.
 
 La ruta relativa tiene el siguiente aspecto:
 
@@ -126,7 +129,7 @@ La ruta relativa tiene el siguiente aspecto:
 
    Puede definir el tamaño estático del visor, ya sea declarándolo para la clase CSS de nivel `.s7interactivevideoviewer` superior en unidades absolutas o utilizando `stagesize` un modificador.
 
-   Puede colocar el tamaño en CSS directamente en la página HTML o en un archivo CSS de visor personalizado, que posteriormente se asignará a un registro de ajuste preestablecido de visor en Recursos AEM (On-Demand) o se pasará explícitamente mediante `style` un comando.
+   Puede colocar el tamaño en CSS directamente en la página HTML o en un archivo CSS de visor personalizado, que posteriormente se asignará a un registro de ajuste preestablecido de visor en AEM Assets (bajo demanda) o se pasará explícitamente mediante `style` un comando.
 
    Consulte [Personalización del visor](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) de vídeo interactivo para obtener más información sobre el estilo del visor con CSS.
 
@@ -139,7 +142,7 @@ La ruta relativa tiene el siguiente aspecto:
    }
    ```
 
-   Puede definir el `stagesize` modificador en el registro de ajustes preestablecidos de visor en Recursos AEM On-Demand. O bien, puede pasarlo explícitamente con el código de inicialización del visor con `params` la colección, o como una llamada de API como se describe en la sección Referencia de comandos, como se muestra a continuación:
+   Puede definir el `stagesize` modificador en el registro de ajustes preestablecidos de visor en AEM Assets (bajo demanda). O bien, puede pasarlo explícitamente con el código de inicialización del visor con `params` la colección, o como una llamada de API como se describe en la sección Referencia de comandos, como se muestra a continuación:
 
    ```
    interactivevideoviewer.setParam("stagesize", "640,640");
@@ -278,7 +281,9 @@ var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({
 
 La siguiente página de ejemplos ilustra los usos más reales del diseño interactivo que se incrusta con altura ilimitada:
 
-[https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html)
+[Demostraciones en directo](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+
+<!-- OLD DEMO LOCATION-KEEP (https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) -->
 
 **Incrustación adaptable con anchura y altura definidas**
 
