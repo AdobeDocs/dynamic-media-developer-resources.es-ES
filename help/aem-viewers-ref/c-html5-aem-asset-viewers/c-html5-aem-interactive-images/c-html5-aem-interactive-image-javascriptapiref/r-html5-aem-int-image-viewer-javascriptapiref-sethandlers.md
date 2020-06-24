@@ -1,20 +1,23 @@
 ---
-description: Referencia de la API de JavaScript para el visor de imágenes de vídeo
-seo-description: Referencia de la API de JavaScript para el visor de imágenes de vídeo
+description: Referencia de la API de JavaScript para el visor de imágenes interactivo
+seo-description: Referencia de la API de JavaScript para el visor de imágenes interactivo
 seo-title: setHandlers
 solution: Experience Manager
 title: setHandlers
 topic: Dynamic media
 uuid: 93db9c88-890e-4be8-b82f-d15978a0cfac
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 323a4f72b5bb46832a569ffad38104bac7da17df
+workflow-type: tm+mt
+source-wordcount: '95'
+ht-degree: 3%
 
 ---
 
 
 # setHandlers{#sethandlers}
 
-Referencia de la API de JavaScript para el visor de imágenes de vídeo
+Referencia de la API de JavaScript para el visor de imágenes interactivo
 
 `setHandlers(handlers)`
 
@@ -25,7 +28,7 @@ Especifica cero o más controladores de llamada de retorno. Una llamada a este m
 <table id="table_98A620DAE2C340FA97BF7204AE023CC8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> controladores </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> controladores </span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> {Object} </span> objeto JSON con rellamadas de evento de visor. El nombre de la propiedad es el nombre del evento del visor admitido. El valor de propiedad es una referencia de función JavaScript a una llamada de retorno adecuada. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local"> Devoluciones de llamada de Evento </a> para obtener más información sobre los eventos del visor. </p> </td> 
   </tr> 
  </tbody> 
