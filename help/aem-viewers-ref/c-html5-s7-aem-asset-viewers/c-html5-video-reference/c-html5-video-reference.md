@@ -1,21 +1,24 @@
 ---
-description: El visor de vídeo es un reproductor de vídeo que reproduce flujo continuo y vídeo progresivo codificado en formato H.264. Se distribuye desde Scene7 Publishing System o AEM Dynamic Media.
+description: El visor de vídeo es un reproductor de vídeo que reproduce flujo continuo y vídeo progresivo codificado en formato H.264. Se entrega desde Scene7 Publishing System o AEM Dynamic Media.
 keywords: responsive
-seo-description: El visor de vídeo es un reproductor de vídeo que reproduce flujo continuo y vídeo progresivo codificado en formato H.264. Se distribuye desde Scene7 Publishing System o AEM Dynamic Media.
+seo-description: El visor de vídeo es un reproductor de vídeo que reproduce flujo continuo y vídeo progresivo codificado en formato H.264. Se entrega desde Scene7 Publishing System o AEM Dynamic Media.
 seo-title: Vídeo
 solution: Experience Manager
 title: Vídeo
 topic: Dynamic media
 uuid: 961a9b99-5892-4ee3-a2df-13e299f5d086
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '2402'
+ht-degree: 0%
 
 ---
 
 
 # Vídeo{#video}
 
-El visor de vídeo es un reproductor de vídeo que reproduce flujo continuo y vídeo progresivo codificado en formato H.264. Se distribuye desde Scene7 Publishing System o AEM Dynamic Media.
+El visor de vídeo es un reproductor de vídeo que reproduce flujo continuo y vídeo progresivo codificado en formato H.264. Se entrega desde Scene7 Publishing System o AEM Dynamic Media.
 
 Consulte Requisitos y requisitos previos [del sistema](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
@@ -116,7 +119,7 @@ Para agregar el visor a una página web, haga lo siguiente:
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
-Puede utilizar una ruta relativa si el visor está implementado en uno de los servidores de Adobe Dynamic Media Classic y se suministra desde el mismo dominio. En caso contrario, especifique una ruta completa a uno de los servidores de Adobe Dynamic Media Classic que tenga instalados los visores IS.
+Puede utilizar una ruta relativa si el visor está implementado en uno de los servidores de Adobe Dynamic Media Classic y se suministra desde el mismo dominio. De lo contrario, debe especificar una ruta de acceso completa a uno de los servidores de Adobe Dynamic Media Classic que tenga instalados los visores IS.
 
 La ruta relativa tiene el siguiente aspecto:
 
@@ -282,7 +285,9 @@ var videoViewer = new s7viewers.VideoViewer({
 
 La siguiente página de ejemplos ilustra el uso más real del diseño interactivo incrustado con altura ilimitada:
 
-[https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html)
+[Demostraciones en directo](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+
+<!-- KEEP (https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) -->
 
 **Incrustación de diseño adaptable con anchura y altura definidas**
 
