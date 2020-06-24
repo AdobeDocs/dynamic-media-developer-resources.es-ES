@@ -1,20 +1,23 @@
 ---
-description: Últimas notas de la versión de Adobe Scene7 otoño de 2016, parte de la solución Adobe Experience Manager en Adobe Marketing Cloud.
-seo-description: Últimas notas de la versión de Adobe Scene7 otoño de 2016, parte de la solución Adobe Experience Manager en Adobe Marketing Cloud.
+description: Últimas notas de la versión de Adobe Scene7 otoño de 2016, parte de la solución de Adobe Experience Manager en el Adobe Marketing Cloud.
+seo-description: Últimas notas de la versión de Adobe Scene7 otoño de 2016, parte de la solución de Adobe Experience Manager en el Adobe Marketing Cloud.
 seo-title: Versión de otoño de 2016 de Scene7
 solution: Experience Manager
 title: Versión de otoño de 2016 de Scene7
 topic: Dynamic media
 uuid: 3fddda65-0c6e-48ec-bd60-7e0ca59421a8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '2263'
+ht-degree: 1%
 
 ---
 
 
 # Versión de otoño de 2016 de Scene7{#scene-fall-release}
 
-Últimas notas de la versión de Adobe Scene7 otoño de 2016, parte de la solución Adobe Experience Manager en Adobe Marketing Cloud.
+Últimas notas de la versión de Adobe Scene7 otoño de 2016, parte de la solución de Adobe Experience Manager en el Adobe Marketing Cloud.
 
 ## Versión de otoño de 2016 de Scene7 {#topic-791cdf80f91e457fbb63bfedf79f5a94}
 
@@ -58,7 +61,7 @@ Para obtener la documentación completa, consulte [https://docs.adobe.com/conten
 
 ## Visores (servicio de imágenes 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-Para obtener documentación completa, consulte Guía [de referencia de visores de](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/)Scene7.
+Para obtener documentación completa, consulte Guía de referencia de [visores](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
 
 **Corrección de errores para el servicio de imágenes 5.5.3**
 
@@ -68,7 +71,7 @@ Para obtener documentación completa, consulte Guía [de referencia de visores d
 
 ## Visores (servicio de imágenes 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-Para obtener documentación completa, consulte Guía [de referencia de visores de](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/)Scene7.
+Para obtener documentación completa, consulte Guía de referencia de [visores](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
 
 **Corrección de errores para el servicio de imágenes 5.5.2**
 
@@ -77,7 +80,7 @@ Para obtener documentación completa, consulte Guía [de referencia de visores d
 
 ## Visores (servicio de imágenes 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-Para obtener documentación completa, consulte Guía [de referencia de visores de](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/)Scene7.
+Para obtener documentación completa, consulte Guía de referencia de [visores](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
 
 **Nuevas funciones, mejoras y correcciones de errores para el servicio de imágenes 5.5.1**
 
@@ -151,7 +154,7 @@ Para obtener documentación completa, consulte Guía [de referencia de visores d
 
 **Problemas y restricciones conocidos**
 
-* Los modificadores del servicio de imágenes de `iscommands` no se agregan a la `req=set` solicitud por diseño. Los modificadores que solo afectan a la visualización de la imagen funcionan bien. Los modificadores que afectan al tamaño deben utilizarse en un recurso complejo. Por ejemplo,
+* Los modificadores del servicio de imágenes de `iscommands` no se agregan a la solicitud por diseño `req=set` . Los modificadores que solo afectan a la visualización de la imagen funcionan bien. Los modificadores que afectan al tamaño deben utilizarse en un recurso complejo. Por ejemplo,
 
    `https://s7d9.scene7.com/s7viewers/html5/BasicZoomViewer.html?asset= {Scene7SharedAssets/Backpack_B?extendn=0.5%252C0.5%252C0.5%252C0.5}`
 
