@@ -8,7 +8,10 @@ title: Flotante
 topic: Dynamic media
 uuid: 588e1baa-4165-4aec-8fbe-1a916c0f409f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '2130'
+ht-degree: 0%
 
 ---
 
@@ -80,7 +83,7 @@ El modo de incrustación de tamaño fijo se utiliza cuando el visor no cambia su
 
 El modo de incrustación de diseño adaptable supone que el visor puede necesitar cambiar el tamaño durante el tiempo de ejecución en respuesta al cambio de tamaño de su contenedor `DIV`. El caso de uso más común es agregar un visor a una página web que utilice un diseño de página flexible.
 
-Al utilizar el modo de incrustación de diseño interactivo con el visor flotante, asegúrese de especificar puntos de interrupción explícitos para la imagen de vista principal mediante el `imagereload` parámetro . Lo ideal es que los puntos de interrupción coincidan con los puntos de interrupción del ancho del visor según lo dicta la CSS de la página web.
+Al utilizar el modo de incrustación de diseño interactivo con el visor flotante, asegúrese de especificar puntos de interrupción explícitos para la imagen de vista principal mediante el `imagereload` parámetro . Lo ideal es que los puntos de interrupción coincidan con los puntos de interrupción del ancho del visor según lo dicta el CSS de la página web.
 
 En el modo de incrustación de diseño interactivo, el visor se comporta de forma diferente en función de la forma en que una página web cambia el tamaño de su contenedor `DIV`. Si la página web establece únicamente la anchura del contenedor `DIV`, dejando su altura sin restricciones, el visor selecciona automáticamente la altura según la proporción de aspecto del recurso que se utilice. Esto significa que el recurso encaja perfectamente en la vista sin ningún relleno en los lados. Este caso de uso en particular es el más común para las páginas web que utilizan marcos de diseño interactivos como Bootstrap, Foundation, etc.
 
@@ -151,7 +154,7 @@ Una ruta relativa tiene el siguiente aspecto:
 
    [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/FlyoutViewer-fixed-outer-area.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/FlyoutViewer-fixed-outer-area.html)
 
-   Para que las dimensiones de la vista principal sean estáticas, defina el tamaño del visor en unidades absolutas para el componente `Container` SDK interno mediante el selector de `.s7flyoutviewer .s7container` CSS. Además, debe anular el tamaño fijo definido para la clase CSS de nivel superior en la CSS del visor predeterminado, configurándola en `.s7flyoutviewer` `auto`.
+   Para que las dimensiones de la vista principal sean estáticas, defina el tamaño del visor en unidades absolutas para el componente `Container` SDK interno mediante el selector de `.s7flyoutviewer .s7container` CSS. Además, debe anular el tamaño fijo definido para la clase CSS de nivel superior en el CSS del visor predeterminado, configurándolo en `.s7flyoutviewer` `auto`.
 
    A continuación se muestra un ejemplo de definición del tamaño del visor para el componente `Container` SDK interno, de modo que el área de vista principal no cambie su tamaño al cambiar el recurso:
 
@@ -180,7 +183,7 @@ Una ruta relativa tiene el siguiente aspecto:
 
    Al mismo tiempo, el elemento contenedor no debe formar parte necesariamente del diseño de la página web. Por ejemplo, puede ocultarse con `display:none` el estilo asignado. En este caso, el visor retrasa el proceso de inicialización hasta el momento en que la página web devuelve el elemento de contenedor a la presentación. Cuando esto sucede, la carga del visor se reanuda automáticamente.
 
-   A continuación se muestra un ejemplo de creación de una instancia de visor, pasando las opciones de configuración mínimas necesarias al constructor y llamando al `init()` método. Se supone que el ejemplo `flyoutViewer` es la instancia del visor; `s7viewer` es el nombre del marcador de posición `DIV`; `http://s7d1.scene7.com/is/image/` es la dirección URL del servicio de imágenes; y `Scene7SharedAssets/ImageSet-Views-Sample` es el recurso:
+   A continuación se muestra un ejemplo de creación de una instancia de visor, pasando las opciones de configuración mínimas necesarias al constructor y llamando al `init()` método. Se supone que el ejemplo `flyoutViewer` es la instancia del visor; `s7viewer` es el nombre del marcador de posición `DIV`; `http://s7d1.scene7.com/is/image/` es la URL del servicio de imágenes; y `Scene7SharedAssets/ImageSet-Views-Sample` es el recurso:
 
    ```
    <script type="text/javascript"> 
@@ -300,7 +303,9 @@ var flyoutViewer = new s7viewers.FlyoutViewer({
 
 La siguiente página de ejemplos ilustra los usos más reales del diseño interactivo que se incrusta con altura ilimitada:
 
-[https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html)
+[Demostraciones en directo](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+
+<!-- KEEP (https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) -->
 
 ## Integración de tamaño flexible con anchura y altura definidas {#section-0a329016f9414d199039776645c693de}
 
