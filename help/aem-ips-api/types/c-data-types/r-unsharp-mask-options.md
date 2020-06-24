@@ -7,7 +7,10 @@ title: UnsharpMaskOptions
 topic: Scene7 Image Production System API
 uuid: 73073de0-41b6-471c-8887-f6b94ed2af90
 translation-type: tm+mt
-source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '201'
+ht-degree: 12%
 
 ---
 
@@ -56,7 +59,7 @@ Especifique un valor para `unsharpMaskOptions` las opciones con `minOccurs=" *`n
    <td colname="col3"><p>Determina cómo deben ser diferentes los píxeles del área circundante antes de que se consideren píxeles de borde y se puedan enfocar. 
      <ul id="ul_117E556E3ECF42CC878DD80D338D19CA">
       <li id="li_CFEE76DB78BF437E8463C9089486F8A6">Intervalo: 0 - 255 (sólo enteros). </li>
-      <li id="li_77113DC2698A4D48B11288718766E6A2">Predeterminado: 6 </li>
+      <li id="li_77113DC2698A4D48B11288718766E6A2"> </li>
      </ul></p></td>
   </tr>
   <tr>
@@ -92,5 +95,5 @@ El `unsharpMaskOptions` tipo lo utiliza:
 
 >[!MORELIKETHIS]
 >
->* [Referencia de API de servicio de imágenes: op_usm](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/http_ref/r_op_usm.html)
+>* [Referencia de API de servicio de imágenes: op_usm](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html)
 
