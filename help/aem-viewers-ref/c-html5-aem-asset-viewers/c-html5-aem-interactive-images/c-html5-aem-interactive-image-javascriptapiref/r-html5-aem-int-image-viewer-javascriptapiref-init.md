@@ -1,24 +1,27 @@
 ---
-description: Referencia de la API de JavaScript para el visor de imágenes de vídeo.
-seo-description: Referencia de la API de JavaScript para el visor de imágenes de vídeo.
+description: Referencia de la API de JavaScript para el visor de imágenes interactivo.
+seo-description: Referencia de la API de JavaScript para el visor de imágenes interactivo.
 seo-title: init
 solution: Experience Manager
 title: init
 topic: Dynamic media
 uuid: 915f15cf-152a-424d-b7ea-a083891bb954
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bea6e8f949a9ef0f3f56faac40092b5681a16ff6
+workflow-type: tm+mt
+source-wordcount: '131'
+ht-degree: 2%
 
 ---
 
 
 # init{#init}
 
-Referencia de la API de JavaScript para el visor de imágenes de vídeo.
+Referencia de la API de JavaScript para el visor de imágenes interactivo.
 
 `init()`
 
-Inicio la inicialización del visor de imágenes de vídeo. Para este momento, se debe crear el elemento DOM de contenedor para que el código del visor pueda encontrarlo por su ID.
+Inicio la inicialización del visor de imágenes interactivo. Para este momento, se debe crear el elemento DOM de contenedor para que el código del visor pueda encontrarlo por su ID.
 
 Si el elemento de contenedor no forma parte del diseño de página web todavía (por ejemplo, puede estar oculto con `display:none` el estilo asignado), el visor suspende el proceso de inicialización hasta el momento en que la página web vuelve a colocar el elemento de contenedor en el diseño. Cuando esto sucede, la carga del visor se reanuda automáticamente.
 
