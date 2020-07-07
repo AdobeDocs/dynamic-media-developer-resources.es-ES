@@ -7,7 +7,10 @@ title: TimeStamp
 topic: Scene7 Image Serving - Image Rendering API
 uuid: d2649e86-8a6f-4f63-ab6a-8b2d8c03f8c0
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '238'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +21,7 @@ Marca de hora de modificación. Especifica la fecha y la hora de la última modi
 
 Si `attribute::UseLastModified` se establece, el valor más reciente `vignette::TimeStamp` y `catalog::TimeStamp`el valor de la viñeta y todos los materiales involucrados en la solicitud se devuelven en la respuesta HTTP como encabezado modificado por última vez.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >El tiempo real de archivo del archivo de viñeta nunca se utiliza con este fin.
 
@@ -30,7 +33,7 @@ Valor de fecha y hora en formato Java. Puede ser el número entero de milisegund
 
 *[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]* *[!DNL zzz]*
 
-*[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]*GMT *[!DNL offset]*
+*[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*:: *[!DNL ss]*GMT *[!DNL offset]*
 
 * *[!DNL hh]* está en el rango de 0 a 23.
 * *[!DNL zzz]* es un código de zona horaria de 3 o 4 caracteres como &quot;GMT&quot; o &quot;PST&quot;. El horario de verano se debe contabilizar en el código de zona horaria (por ejemplo, &#39;PST&#39; para la hora estándar del Pacífico en comparación con &#39;PDT&#39; para la hora de verano del Pacífico).
