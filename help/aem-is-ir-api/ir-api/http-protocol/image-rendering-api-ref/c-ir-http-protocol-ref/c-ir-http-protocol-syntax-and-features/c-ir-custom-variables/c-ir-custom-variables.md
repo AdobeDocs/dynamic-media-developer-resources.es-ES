@@ -7,7 +7,10 @@ title: Variables personalizadas
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 933fba00-759c-4bd3-bada-eec751426d9e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '260'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +27,7 @@ La parte de consulta de las solicitudes y las cadenas vignette::Modifier pueden 
 
 Las variables se definen de forma similar a otros comandos del servidor, utilizando la sintaxis anterior. Las variables deben definirse para poder hacer referencia a ellas. Las variables definidas en se `vignette::Modifier` pueden hacer referencia en la solicitud de URL y viceversa.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >*[!DNL value]* debe tener codificación de dirección URL de paso único para la transmisión HTTP segura. La codificación de Doble es obligatoria si *[!DNL value]* se retransmite mediante HTTP. Este es el caso cuando *[!DNL value]* se sustituye en una solicitud externa anidada.
 
