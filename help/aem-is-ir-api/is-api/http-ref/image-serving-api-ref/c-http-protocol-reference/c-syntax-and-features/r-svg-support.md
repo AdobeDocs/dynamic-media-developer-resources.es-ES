@@ -7,7 +7,10 @@ title: Compatibilidad con SVG
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 30d7b37d-fdef-4518-a4b3-4baee56fa634
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '522'
+ht-degree: 0%
 
 ---
 
@@ -36,11 +39,11 @@ Las imágenes se pueden insertar en SVG mediante el `<image>` elemento . Las im�
 
 Especifique una solicitud de servicio de imágenes completa, comenzando por `http://`o una dirección URL relativa, comenzando por `/is/image`. Si se especifica una ruta HTTP completa, el nombre de dominio se eliminará de la ruta para convertirlo al formato relativo. El uso de una ruta HTTP completa puede resultar ventajoso, ya que permite previsualizar el archivo con un procesador SVG de terceros.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >La compatibilidad con el procesamiento de imágenes en esta versión del servicio de imágenes es limitada. Las imágenes de referencia desde SVG solo se deben usar en situaciones en las que los mecanismos tradicionales de creación de capas y plantillas del servicio de imágenes no sean suficientes para lograr el resultado deseado. Bajo ninguna circunstancia debe utilizarse SVG para generar composiciones de varias imágenes.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Las imágenes incrustadas en SVG no cambian de tamaño automáticamente en este momento. Asegúrese de que todas las referencias de imagen incluyen los comandos de servicio de imágenes necesarios para definir el tamaño de imagen deseado (p. ej. `wid=`). Si el tamaño de la imagen no se establece explícitamente, se aplicará `attribute::DefaultPix` .
 
