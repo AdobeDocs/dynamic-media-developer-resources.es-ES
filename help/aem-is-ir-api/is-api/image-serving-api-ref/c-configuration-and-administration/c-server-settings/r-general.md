@@ -7,7 +7,10 @@ title: General
 topic: Scene7 Image Serving - Image Rendering API
 uuid: d7ec3dba-64b8-431b-b446-84ab6139ba8a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '230'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +21,7 @@ Configuración general del servidor
 
 ## TC::PsPort - Puerto de escucha principal {#section-d31d3051aa994a76b60b70c3d9f7e89f}
 
-Especifica el puerto de escucha principal para el servidor de plataforma. Este puerto también se utiliza para acceder a la documentación y a las páginas de ejemplo para el servicio de imágenes, el procesamiento de imágenes y los visores de Scene7 (si están instalados).
+Especifica el puerto de escucha principal para Platform Server. Este puerto también se utiliza para acceder a la documentación y a las páginas de ejemplo para el servicio de imágenes, el procesamiento de imágenes y los visores de Scene7 (si están instalados).
 
 ## IS::CacheServerUrl - Dirección Url Raíz Del Servicio De Almacenamiento En Caché {#section-bcca227a1f91453b834db4ea050968e2}
 
@@ -36,7 +39,7 @@ Tiempo que el servidor de imágenes esperará a que un servidor remoto entregue 
 
 Establezca en false para no permitir solicitudes que no incluyan un ID de catálogo válido en la ruta. El valor predeterminado es `true`. Cuando se establece en `false`, se devuelve un error en las solicitudes sin ID de catálogo.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >`req=catalogprops` no está sujeto a esta configuración.
 
