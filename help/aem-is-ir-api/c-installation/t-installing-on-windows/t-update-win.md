@@ -7,7 +7,10 @@ title: Actualización desde IS 4.7.4 o posterior
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 3d23f13a-a9be-45ff-9765-c71bdeb77c5f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '222'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Utilice este procedimiento al actualizar el servicio de imágenes de Scene7.
 
 Si va a realizar la actualización desde una versión anterior del servicio de imágenes, póngase en contacto con el servicio de soporte técnico para conocer el proceso correcto.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >La [!DNL webapps] carpeta se puede eliminar al actualizar. Realice una copia de seguridad de la [!DNL webapps] carpeta antes de realizar la actualización.
 
@@ -30,7 +33,7 @@ Si va a realizar la actualización desde una versión anterior del servicio de i
    La página siguiente muestra las opciones de configuración anteriores.
 1. Haga clic en **[!UICONTROL Siguiente]** para inicio de la instalación de la actualización.
 
-   >[!NOTE] {class=&quot;- topic/note &quot;}
+   >[!NOTE]
    >
    >El programa de instalación realiza una copia de seguridad de los archivos de configuración antiguos del servidor en la [!DNL BACKUP/] carpeta.
 
