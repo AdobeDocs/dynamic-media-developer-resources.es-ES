@@ -7,7 +7,10 @@ title: Servidores
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 50db98cc-8354-4884-9416-00808828061b
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 0%
 
 ---
 
@@ -20,23 +23,23 @@ Utilice esta configuración del servidor para configurar el servidor.
 
 Tanto una versión de 32 bits como una versión de 64 bits del servidor de imágenes están disponibles para Linux. Especifique ImageServer64 cuando se instale en servidores Linux de 64 bits o ImageServer32 (predeterminado) cuando se instale en servidores de 32 bits.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >La versión de 64 bits del servidor de imágenes no admite archivos de origen FlashPix.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Windows no admite el modo de 64 bits. Solo `ImageServer32` se puede especificar. De lo contrario, el servicio de imágenes no se inicio.
 
-## SV::PsHeapSize - Tamaño del montón del servidor de plataforma {#section-fd83715948764aeda58d6b3a9f9f8be9}
+## SV::PsHeapSize - Tamaño de pila del servidor de Platform {#section-fd83715948764aeda58d6b3a9f9f8be9}
 
-El tamaño del montón de Java para el servidor de plataforma. El valor predeterminado es &quot; `512m`&quot; (512 Mbytes).
+El tamaño del montón de Java para Platform Server. El valor predeterminado es &quot; `512m`&quot; (512 Mbytes).
 
 ## IS::TcpPort, PS::isConnection.port - Puerto de escucha del servidor de imágenes {#section-5421bfd2ca2a4a979faf812b6fdb2887}
 
-Especifica el puerto utilizado para la comunicación entre el servidor de plataformas y el servidor de imágenes. Asegúrese de especificar un número de puerto que no se utilice de otro modo en el sistema host.
+Especifica el puerto utilizado para la comunicación entre el servidor de Platform y el servidor de imágenes. Asegúrese de especificar un número de puerto que no se utilice de otro modo en el sistema host.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Para que el servicio de imágenes funcione correctamente, se debe establecer el mismo valor para `IS::TcpPort` y `PS::isConnection.port`.
 
