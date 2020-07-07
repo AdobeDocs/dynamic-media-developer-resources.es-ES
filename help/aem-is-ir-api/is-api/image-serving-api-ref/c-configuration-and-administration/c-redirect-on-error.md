@@ -7,7 +7,10 @@ title: Redireccionamiento por error
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 894babe9-9c3c-4972-ae8f-387d65b4167d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '327'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +36,7 @@ Cuando se habilita y se produce un error de este tipo durante el procesamiento d
 
 La redirección de errores se habilita al establecer `PS::errorRedirect.rootUrl` el nombre de dominio HTTP y el número de puerto del servidor secundario. Además, el tiempo de espera de conexión se configura con `PS::errorRedirect.connectTimeout` y el tiempo máximo que el servidor primario espera una respuesta del servidor secundario antes de devolver un error al cliente se configura con `PS::errorRedirect.socketTimeout`.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Si no se puede establecer contacto con el servidor secundario, se devolverá al cliente una respuesta de error de texto, aunque se haya configurado una imagen o imagen de error predeterminada.
 
