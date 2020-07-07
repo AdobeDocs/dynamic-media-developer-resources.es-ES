@@ -7,7 +7,10 @@ title: Eliminación o reemplazo de archivos de datos
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 7b446144-48f6-4b50-93ec-0287425d932a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '393'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Aunque la adición de nuevos archivos de datos es sencilla y directa, se debe tener especial cuidado al reemplazar los archivos de datos existentes que el servidor utiliza activamente. En lugar de simplemente reemplazar estos archivos, se recomienda asignar un nuevo nombre al archivo de reemplazo (por ejemplo, anexar un sufijo de versión al nombre del archivo). Una vez activado el nuevo archivo, se puede eliminar la versión antigua.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Los archivos de datos no deben reemplazarse ni eliminarse durante el uso activo del servicio de imágenes. De lo contrario, pueden producirse errores o incluso un bloqueo del servidor.
 
