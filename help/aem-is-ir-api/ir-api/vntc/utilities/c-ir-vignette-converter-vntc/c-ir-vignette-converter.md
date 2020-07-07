@@ -7,9 +7,9 @@ title: Convertidor de viñetas
 topic: Scene7 Image Serving - Image Rendering API
 uuid: b32a30d6-ae4a-406f-88a9-e8b0eec394c9
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Al generar viñetas de producción, se añade el ancho de píxel de la viñeta d
 
 [!DNL vntc] se limita de forma predeterminada a un máximo de 3 GB de memoria. Cuando Vntc llegue a este límite, se detendrá el procesamiento y se producirá un error. Este límite se puede cambiar mediante `-maxmem`.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >La herramienta de actualización de viñetas de la creación de imágenes también se puede utilizar para preparar viñetas para su uso. Del mismo modo, la herramienta de creación de contenido puede generar archivos de estilo archivador para su uso con el procesamiento de imágenes. Se utiliza [!DNL vntc] si se va a automatizar el procesamiento. Las herramientas de Creación de imágenes incluyen una interfaz gráfica de usuario, por lo que suelen ser más fáciles de usar de forma interactiva.
 
