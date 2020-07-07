@@ -1,20 +1,23 @@
 ---
-description: Platform Server almacena en caché en disco toda la imagen de respuesta y ciertos datos de texto, a menos que una solicitud se marque como no se puede almacenar en caché.
-seo-description: Platform Server almacena en caché en disco toda la imagen de respuesta y ciertos datos de texto, a menos que una solicitud se marque como no se puede almacenar en caché.
+description: Platform Server almacena en caché en disco toda la imagen de respuesta y ciertos datos de texto, a menos que una solicitud esté marcada como no procesable.
+seo-description: Platform Server almacena en caché en disco toda la imagen de respuesta y ciertos datos de texto, a menos que una solicitud esté marcada como no procesable.
 seo-title: Caché de datos de respuesta
 solution: Experience Manager
 title: Caché de datos de respuesta
 topic: Scene7 Image Serving - Image Rendering API
 uuid: dbfda210-3b50-4e8c-8d77-7263ae4e80a2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '316'
+ht-degree: 0%
 
 ---
 
 
 # Caché de datos de respuesta{#response-data-cache}
 
-Platform Server almacena en caché en disco toda la imagen de respuesta y ciertos datos de texto, a menos que una solicitud se marque como no se puede almacenar en caché.
+Platform Server almacena en caché en disco toda la imagen de respuesta y ciertos datos de texto, a menos que una solicitud esté marcada como no procesable.
 
 La ubicación de la caché de disco de Platform Server se establece con `PS::cache.rootPaths`.
 
@@ -24,8 +27,8 @@ Para las aplicaciones con altas tasas de visitas de caché, puede aumentar el re
 
 Además de `PS::cache.maxSize`, la caché de respuesta también se administra limitando el número máximo de entradas de caché con `PS::cache.maxEntries`. En Linux, esta configuración debe especificar un valor no mayor que el número de nodos disponibles en la partición de caché.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
->Platform Server mantiene un índice de caché en memoria. El tamaño de este índice es 32 bytes por encima del valor de `PS::cache.maxEntries`. Es posible que tenga que aumentar el tamaño del montón del Servidor de plataformas para acomodar las cachés más grandes.
+>Platform Server mantiene un índice de caché en memoria. El tamaño de este índice es 32 bytes por encima del valor de `PS::cache.maxEntries`. Es posible que tenga que aumentar el tamaño del montón de Platform Server para poder admitir cachés más grandes.
 
-El sistema utiliza un archivo de índice de caché que se guarda en disco cuando el servidor se apaga de forma ordenada. En caso de eventos inesperados, como una falla de alimentación, es posible que este archivo no se guarde. Además, puede que el Servidor de plataformas tarde varios minutos en estar listo.
+El sistema utiliza un archivo de índice de caché que se guarda en disco cuando el servidor se apaga de forma ordenada. En caso de eventos inesperados, como una falla de alimentación, es posible que este archivo no se guarde. Además, el servidor de Platform puede tardar varios minutos en prepararse.
