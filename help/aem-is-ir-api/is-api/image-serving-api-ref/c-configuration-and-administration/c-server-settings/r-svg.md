@@ -7,7 +7,10 @@ title: SVG
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 9e69b150-46ac-480f-96db-afadccc40fe4
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '286'
+ht-degree: 1%
 
 ---
 
@@ -32,9 +35,9 @@ Tamaño máximo del archivo de origen SVG en kBytes. El servidor devuelve un err
 
 Limita el tamaño de las imágenes que SVGRender puede producir. Valor entero mayor que 0 en millones de píxeles. Se devuelve un error si una operación de procesamiento supera el límite de tamaño. El valor predeterminado es 4.
 
-## PS::svgProvider.port - Puerto de escucha del servidor de plataforma {#section-f7e42a96c2dd4523b46f0557c239e659}
+## PS::svgProvider.port: puerto de escucha de Platform Server {#section-f7e42a96c2dd4523b46f0557c239e659}
 
-El puerto utilizado para SvgRender para obtener imágenes del servidor de plataformas que se van a incrustar en representaciones SVG.
+El puerto utilizado para SvgRender para obtener imágenes del servidor de Platform que se van a incrustar en representaciones SVG.
 
 Importante Para el correcto funcionamiento del componente SVGRender, esta opción de configuración debe establecerse en el mismo valor que `TC::PsPort`.
 
@@ -46,7 +49,7 @@ Especifica dónde encontrará SvgRender los archivos de fuente necesarios para p
 
 Configura el puerto en el que se comunican el servidor de imágenes y el componente SVGRender.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Para el correcto funcionamiento del componente SVGRender, se debe especificar el mismo número de puerto para `SVG::SVGRender.port` y `IS::SVGTcpPort`.
 
