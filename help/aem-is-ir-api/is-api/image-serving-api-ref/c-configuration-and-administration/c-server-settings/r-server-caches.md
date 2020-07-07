@@ -7,7 +7,10 @@ title: Cachés de servidor
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 73745363-2011-453f-b7a0-96de4b44186d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '309'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Utilice esta configuración de servidor para las cachés de servidor.
 
 ## PS::cache.rootPaths - Carpetas de datos de caché {#section-f0aa808304d74ecdb0c3644f11906c53}
 
-Las carpetas raíz de la caché de disco del servidor de plataformas. Una o más rutas absolutas de archivos o rutas relativas a *[!DNL install_folder]*, separadas por punto y coma (;). Los datos de la caché de respuesta HTTP se distribuirán uniformemente en todas las carpetas especificadas. Las memorias caché de las memorias caché auxiliares (catálogos de imágenes compilados y datos de imágenes externas) se ubicarán en la carpeta de caché principal (la primera carpeta de la lista).
+Carpeta(s) raíz(es) de la caché de disco de Platform Server. Una o más rutas absolutas de archivos o rutas relativas a *[!DNL install_folder]*, separadas por punto y coma (;). Los datos de la caché de respuesta HTTP se distribuirán uniformemente en todas las carpetas especificadas. Las memorias caché de las memorias caché auxiliares (catálogos de imágenes compilados y datos de imágenes externas) se ubicarán en la carpeta de caché principal (la primera carpeta de la lista).
 
 ## PS::cache.maxSize: tamaño de caché de datos de respuesta {#section-ed2e1e7ba4bd4e13b77bb20c4cacddb4}
 
@@ -28,7 +31,7 @@ Tamaño máximo de la caché de respuesta HTTP en bytes. Esta configuración lim
 
 El número de entradas asignadas para el índice de caché de respuesta HTTP en memoria.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >En Linux, asegúrese de que se asignen suficientes nodos i a la partición de caché para evitar que se agoten los nodos i.
 
@@ -36,7 +39,7 @@ El número de entradas asignadas para el índice de caché de respuesta HTTP en 
 
 Ocasionalmente, el servidor de imágenes necesita guardar en disco los datos intermedios. La ruta puede ser absoluta o relativa a *[!DNL install_folder]*.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >La nueva carpeta debe crearse antes de cambiar esta configuración. Asegúrese de que los permisos de acceso están establecidos para que el servidor de imágenes tenga control total sobre la carpeta.
 
@@ -44,7 +47,7 @@ Ocasionalmente, el servidor de imágenes necesita guardar en disco los datos int
 
 Ocasionalmente, el Supervisor del servidor necesita guardar los datos intermedios en el disco. La ruta puede ser absoluta o relativa a *[!DNL install_folder]*. El valor predeterminado es [!DNL *[!DNL install_folder]*/temp].
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >La nueva carpeta debe crearse antes de cambiar esta configuración. Asegúrese de que los permisos de acceso están establecidos para que el Supervisor del servidor tenga control total de la carpeta.
 
