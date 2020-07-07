@@ -7,7 +7,10 @@ title: UseLastModified
 topic: Scene7 Image Serving - Image Rendering API
 uuid: f2ce2e04-4133-40af-ac82-cae57b253fe9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '246'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +23,7 @@ El servidor utiliza el valor más reciente `vignette::TimeStamp` y `catalog::Tim
 
 Solo debe habilitarse si se utiliza una red de almacenamiento en caché distribuida, como Akamai, que no admite encabezados de etiqueta.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Se debe tener cuidado al utilizar encabezados de última modificación en un entorno de equilibrio de carga que incluya varios hosts de servicio o procesamiento de imágenes. El almacenamiento en caché del cliente puede fallar y aumentar la carga del servidor si, por alguna razón, los servidores tienen diferentes marcas de hora para las mismas entradas de catálogo. Esta situación puede darse de la siguiente manera:
 
