@@ -7,7 +7,10 @@ title: Carpetas de datos de contenido
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 7c4d60ca-8a8b-453c-887d-a6a16eacc883
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '235'
+ht-degree: 0%
 
 ---
 
@@ -26,9 +29,9 @@ Ubicación de los datos de fuentes de contenido estático que se van a entregar 
 
 Se pueden especificar varios valores separados por punto y coma para distribuir contenido estático en varios sistemas de archivos. Generalmente se establece en los mismos valores que `IS::RootPath`.
 
-Platform Server prueba las rutas raíz en el orden especificado hasta que se encuentra el archivo solicitado.
+El servidor de Platform prueba las rutas raíz en el orden especificado hasta que se encuentra el archivo solicitado.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >De forma predeterminada, este campo se establece intencionalmente en una ubicación no existente ( [!DNL *[!DNL install_folder]*/static]), lo que deshabilita de forma efectiva el servicio de contenido estático.
 
