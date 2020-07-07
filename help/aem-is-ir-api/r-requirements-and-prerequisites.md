@@ -7,7 +7,10 @@ title: Requisitos y requisitos previos del sistema
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 80196574-f5a2-4298-880a-cc36f90b6e21
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '411'
+ht-degree: 0%
 
 ---
 
@@ -20,9 +23,9 @@ Antes de utilizar el servicio de imágenes de Scene7, asegúrese de que el siste
 
 El servidor debe cumplir los siguientes requisitos de hardware.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
->Los sistemas con procesadores con AMD64 e Intel® EM64T suelen configurarse como plataformas NUMA (Arquitectura de memoria no uniforme). Esto significa que el núcleo construye varios nodos de memoria en tiempo de arranque en lugar de construir un solo nodo de memoria. La construcción de varios nodos puede resultar en agotamiento de la memoria en uno o más nodos antes de agotarse otros nodos. Cuando ocurre el agotamiento de la memoria, el núcleo puede decidir eliminar procesos (por ejemplo, el Servidor de imágenes o el Servidor de plataformas) aunque haya memoria disponible. Por lo tanto, Adobe Systems recomienda que si está ejecutando un sistema de este tipo desactive NUMA. Utilice la opción `numa=off` inicio para evitar que el núcleo detenga estos procesos.
+>Los sistemas con procesadores con AMD64 e Intel® EM64T suelen configurarse como plataformas NUMA (Arquitectura de memoria no uniforme). Esto significa que el núcleo construye varios nodos de memoria en tiempo de arranque en lugar de construir un solo nodo de memoria. La construcción de varios nodos puede resultar en agotamiento de la memoria en uno o más nodos antes de agotarse otros nodos. Cuando ocurre el agotamiento de la memoria, el núcleo puede decidir eliminar procesos (por ejemplo, el Servidor de imágenes o el Servidor de Platform) aunque haya memoria disponible. Por lo tanto, Adobe Systems recomienda que si está ejecutando un sistema de este tipo desactive NUMA. Utilice la opción `numa=off` inicio para evitar que el núcleo detenga estos procesos.
 
 **Windows**
 
