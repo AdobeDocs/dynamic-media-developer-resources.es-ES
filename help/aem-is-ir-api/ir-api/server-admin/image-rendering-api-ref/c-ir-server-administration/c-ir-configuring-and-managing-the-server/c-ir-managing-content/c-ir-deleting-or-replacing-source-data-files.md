@@ -7,7 +7,10 @@ title: Eliminación o reemplazo de archivos de datos de origen
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 13dc0489-7ab0-481e-b213-214affe9819e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Los archivos de viñeta se pueden reemplazar o eliminar mientras el servidor esté activo mediante el comando req=release justo antes de que se sobrescriba el archivo.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >No se debe reemplazar ni eliminar un archivo de datos mientras el servidor de procesamiento accede a él.
 
