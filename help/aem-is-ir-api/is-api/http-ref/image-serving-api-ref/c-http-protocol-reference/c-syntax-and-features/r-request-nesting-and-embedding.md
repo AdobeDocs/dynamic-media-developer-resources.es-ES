@@ -7,7 +7,10 @@ title: Anidado e incrustación de solicitudes
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 59031329-e65f-4631-bc7d-83f2540cc836
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '1075'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 El servicio de imágenes admite la anidación ilimitada de solicitudes de servicio de imágenes, la incrustación de solicitudes de procesamiento de imágenes y la incrustación de imágenes recuperadas de servidores extranjeros. Solo las imágenes de capa y las máscaras de capa admiten estos mecanismos.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Ciertos clientes de correo electrónico y servidores proxy pueden codificar las llaves utilizadas para la sintaxis de anidación e incrustación. Las aplicaciones para las que este problema se presenta deben utilizar paréntesis en lugar de llaves.
 
@@ -30,7 +33,7 @@ El `is` token distingue entre mayúsculas y minúsculas.
 
 La solicitud anidada no debe incluir la ruta raíz del servidor (normalmente ` http:// *[!DNL server]*/is/image/'`).
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Los caracteres delimitadores de solicitud anidados ( `'(',')'`) y los caracteres delimitadores de comando ( `'?'`, `'&'`, `'='`) dentro de las solicitudes anidadas no deben tener codificación HTTP. De hecho, las solicitudes anidadas deben codificarse del mismo modo que la solicitud externa (anidamiento).
 
@@ -62,7 +65,7 @@ El `ir` token distingue entre mayúsculas y minúsculas.
 
 *[!DNL renderRequest]* es la solicitud de procesamiento de imágenes habitual, excluyendo la ruta raíz HTTP ` http:// *[!DNL server]*/ir/render/`.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Los caracteres delimitadores de solicitud anidados ( `'(',')'`) y los caracteres delimitadores de comando ( `'?'`, `'&'`, `'='`) dentro de las solicitudes anidadas no deben tener codificación HTTP. De hecho, las solicitudes incrustadas deben codificarse del mismo modo que la solicitud externa (incrustación).
 
@@ -87,13 +90,13 @@ Cuando el procesador de gráficos FXG (también conocido como [!DNL AGMServer]) 
 
 El `fxg` token distingue entre mayúsculas y minúsculas.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >La representación de gráficos FXG solo está disponible en el entorno alojado de Scene7 y puede requerir licencias adicionales. Póngase en contacto con la asistencia de Scene7 para obtener más información.
 
 *[!DNL renderRequest]* es la solicitud de procesamiento FXG habitual, excluyendo la ruta raíz HTTP ` http:// *[!DNL server]*/agm/render/`.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Los caracteres delimitadores ( `'(',')'`) y los caracteres delimitadores de comando ( `'?'`, `'&'`, `'='`) dentro de solicitudes anidadas no deben tener codificación HTTP. De hecho, las solicitudes incrustadas deben codificarse del mismo modo que la solicitud externa (incrustación).
 
@@ -119,7 +122,7 @@ Para especificar una URL externa para un `src=` comando o un comando `mask=` , d
 
 Importante Los caracteres delimitadores ( `'(',')'`) y los caracteres delimitadores de comando ( `'?'`, `'&'`, `'='`) dentro de solicitudes anidadas no deben tener codificación HTTP. De hecho, las solicitudes incrustadas deben codificarse del mismo modo que la solicitud externa (incrustación).
 
-Se permiten direcciones URL absolutas completas (si `attribute::AllowDirectUrls` se establece) y direcciones URL relativas a `attribute::RootUrl` . Se produce un error si se incrusta una dirección URL absoluta y se atribuye el atributo: `AllowDirectUrls` es 0, o si se especifica una dirección URL relativa y `attribute::RootUrl` está vacía.
+Se permiten direcciones URL absolutas completas (si `attribute::AllowDirectUrls` se establece) y direcciones URL relativas a `attribute::RootUrl` . Se produce un error si se incrusta una dirección URL absoluta y se atribuye el atributo: `AllowDirectUrls` es 0 o si se ha especificado una dirección URL relativa y `attribute::RootUrl` está vacía.
 
 Aunque las direcciones URL extranjeras no se pueden especificar directamente en el componente de ruta de la dirección URL de la solicitud, es posible configurar una regla de preprocesamiento para permitir la conversión de rutas relativas a direcciones URL absolutas (ver el ejemplo siguiente).
 
@@ -127,7 +130,7 @@ El servidor almacena en caché las imágenes externas según los encabezados de 
 
 Este mecanismo admite los mismos formatos de archivo de imagen que admite la utilidad de conversión de imagen (IC), con la excepción de las imágenes de origen con 16 bits por componente.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >El servicio de imágenes ejecutará automáticamente la utilidad de validación cuando se utilice una imagen externa por primera vez, para garantizar que la imagen sea válida y no se haya dañado durante la transmisión. Esto puede provocar un ligero retraso en el primer acceso. Para obtener el mejor rendimiento, se recomienda limitar el tamaño de dichas imágenes y/o utilizar un formato de archivo de imagen que comprima bien.
 
