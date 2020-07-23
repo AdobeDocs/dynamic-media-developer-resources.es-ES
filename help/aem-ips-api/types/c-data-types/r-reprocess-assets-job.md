@@ -7,9 +7,9 @@ title: ReprocessAssetsJob
 topic: Scene7 Image Production System API
 uuid: 5b4aa838-0fb4-4ae8-be5a-8ce1e1487127
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: fa8be83171215f39cd2593a3bfe75ffe5fb7abcd
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '484'
 ht-degree: 5%
 
 ---
@@ -55,7 +55,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> preserveCrop</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
-   <td colname="col3">Controla la preservación de cualquier definición de cultivo existente. El valor predeterminado es <span class="codeph"> true</span>. </td> 
+   <td colname="col3"> <p>Controla la preservación de cualquier definición de cultivo existente. El valor predeterminado es true.</p> <p>Si se proporciona el parámetro manualCropOptions y los valores correspondientes, los nuevos valores (excluyendo 0,0,0,0) se aplican al recurso independientemente del valor preserveCrop.</p><p>Si <i>no se proporciona</i> el parámetro manualCropOptions, se mantiene el valor de preserveCrop. Y, en el caso de true, se conservan los valores existentes de preserveCrop; en el caso de false, se eliminan los valores preserveCrop.</p><p>Ejemplo:</p><p><p>&lt;preserveCrop&gt;false&lt;/preserveCrop&gt;<br />&lt;manualCropOptions&gt;<br />&lt;left&gt;190&lt;/left&gt;<br />&lt;right&gt;310&lt;/right&gt;<br />&lt;top&gt;160&lt;/top&gt;<br />&lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualCropOptions&gt;</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </p> </td> 
