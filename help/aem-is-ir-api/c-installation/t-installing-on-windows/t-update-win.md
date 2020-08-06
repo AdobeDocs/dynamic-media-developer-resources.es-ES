@@ -7,7 +7,7 @@ title: Actualización desde IS 4.7.4 o posterior
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 3d23f13a-a9be-45ff-9765-c71bdeb77c5f
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: edb21832b3e36a6498c6aad27813cd4b3032b48f
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Si va a realizar la actualización desde una versión anterior del servicio de i
 1. Una vez completada la instalación, haga clic en &quot;Finalizar&quot; para salir del asistente de instalación.
 
    En algunos casos, el asistente de instalación puede solicitar reiniciar el sistema.
->Durante una actualización, el [!DNL ImageServing/conf/server.xml] archivo se actualiza a la configuración más reciente. Si ha cambiado o agregado algún valor, debe guardar el existente [!DNL server.xml] y volver a implementar los cambios después de la actualización.
->
->Después de una instalación de actualización, considere la posibilidad de calentar la caché de respuesta HTTP antes de activar el servidor. Consulte la descripción de la `playlog` utilidad para obtener más detalles.
 
+Durante una actualización, el [!DNL ImageServing/conf/server.xml] archivo se actualiza a la configuración más reciente. Si ha cambiado o agregado algún valor, debe guardar el existente [!DNL server.xml] y volver a implementar los cambios después de la actualización.
+
+Después de una instalación de actualización, considere la posibilidad de calentar la caché de respuesta HTTP antes de activar el servidor. Consulte la descripción de la `playlog` utilidad para obtener más detalles.
