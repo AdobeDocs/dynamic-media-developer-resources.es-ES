@@ -7,7 +7,10 @@ title: Instalación por primera vez
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 6a9a6dd2-2c69-447a-9628-eba08dc4f6c8
 translation-type: tm+mt
-source-git-commit: c5b68038fa5980c7051fae916520b40e17890a7f
+source-git-commit: edb21832b3e36a6498c6aad27813cd4b3032b48f
+workflow-type: tm+mt
+source-wordcount: '401'
+ht-degree: 0%
 
 ---
 
@@ -61,13 +64,14 @@ Este procedimiento muestra cómo instalar el servicio de imágenes por primera v
 
    Asegúrese de que todos los números de puerto especificados sean únicos y de que no se utilicen de otro modo en este host.
 
-   **Importante: **Si se especifica una cuenta que no sea la raíz, debe asegurarse de que los permisos de acceso para todos los archivos y carpetas que el servidor de imágenes necesita leer o escribir se configuran correctamente cuando estas carpetas se reconfiguran en los archivos de configuración.
->El servicio de imágenes ahora está instalado en [!DNL /usr/local/Scene7/ImageServing]. Se ha instalado cierto contenido de procesamiento de imágenes en [!DNL /usr/local/Scene7/ImageRendering].
->
->Hacia el final de la instalación, el asistente de instalación intenta realizar inicio de Image Server. Si no se encuentra ninguna clave de licencia válida, el servidor de imágenes no puede realizar inicios. Si hay una licencia válida y el servidor de imágenes aún no se está iniciando, consulte los archivos de registro.
->[!NOTE]
-Si la licencia se instala después de instalar el servicio de imágenes, el servidor de imágenes debe iniciarse manualmente antes de utilizarlo.
->
->
->
+   >[!IMPORTANT]
+   >
+   >Si se especifica una cuenta que no sea la raíz, debe asegurarse de que los permisos de acceso para todos los archivos y carpetas que el servidor de imágenes necesita leer y/o escribir se configuran correctamente cuando estas carpetas se reconfiguran en los archivos de configuración.
+   >
+   >El servicio de imágenes ahora está instalado en [!DNL /usr/local/Scene7/ImageServing]. Se ha instalado cierto contenido de procesamiento de imágenes en [!DNL /usr/local/Scene7/ImageRendering].
+   >
+   >Hacia el final de la instalación, el asistente de instalación intenta realizar inicio de Image Server. Si no se encuentra ninguna clave de licencia válida, el servidor de imágenes no puede realizar inicios. Si hay una licencia válida y el servidor de imágenes aún no se está iniciando, consulte los archivos de registro.
 
+>[!NOTE]
+>
+>Si la licencia se instala después de instalar el servicio de imágenes, el servidor de imágenes debe iniciarse manualmente antes de utilizarlo.
