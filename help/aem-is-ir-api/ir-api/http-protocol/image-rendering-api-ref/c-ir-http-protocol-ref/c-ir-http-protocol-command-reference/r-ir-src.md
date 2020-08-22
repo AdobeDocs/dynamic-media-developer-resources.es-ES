@@ -7,7 +7,10 @@ title: src
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 52751bcc-a65d-4441-a3b5-802d27b54b54
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '483'
+ht-degree: 2%
 
 ---
 
@@ -33,7 +36,7 @@ Archivo de material. Especifica datos de material, ya sea en forma de una única
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> EmbeddedReq</span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph">{'is{'<span class="varname"> isReq</span>'}'}|{'ir{'<span class="varname"> irReq</span>'}'|{'<span class="varname"> ForeignReq</span>'}'</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">&amp;lbrace;'is&amp;lbrace;'<span class="varname"> isReq</span>'&amp;rbrace;'&amp;rbrace;|&amp;lbrace;'ir&amp;lbrace;'<span class="varname"> irReq</span>'&amp;rbrace;'|&amp;lbrace;'&amp;lbrace;'<span class="varname"> &amp;ForeignReq</span>' amp;rbrace;'</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p></td> 
@@ -93,7 +96,7 @@ Si no *`catId`* se especifica, se utiliza el catálogo de sesiones.
 
 El procesamiento de imágenes admite los mismos formatos de imagen de origen que el servicio de imágenes de Scene7.
 
-Las aplicaciones que requieren datos de imagen en varias resoluciones diferentes tendrán un mejor rendimiento al utilizar el formato de varias resoluciones TIFF (PTIFF) piramidal de Scene7. El servicio de imágenes incluye la utilidad Image Converter (IC) que crea imágenes PTIFF desde cualquier formato admitido.
+Las aplicaciones que requieren datos de imagen en varias resoluciones diferentes funcionarán mejor al utilizar el formato de varias resoluciones TIFF (PTIFF) piramidal de Scene7. El servicio de imágenes incluye la utilidad Image Converter (IC) que crea imágenes PTIFF desde cualquier formato admitido.
 
 Consulte la descripción de la utilidad IC en la documentación del servicio de imágenes para obtener una lista completa de los formatos de archivo admitidos.
 
