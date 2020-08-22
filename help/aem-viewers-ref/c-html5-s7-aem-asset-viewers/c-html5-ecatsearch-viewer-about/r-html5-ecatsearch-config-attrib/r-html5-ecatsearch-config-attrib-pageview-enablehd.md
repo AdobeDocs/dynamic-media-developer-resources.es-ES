@@ -7,7 +7,10 @@ title: PageView.enableHD
 topic: Dynamic media
 uuid: 34c0e59f-4ed0-4b62-b661-aff20ff64ec4
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '286'
+ht-degree: 3%
 
 ---
 
@@ -35,7 +38,7 @@ Opcional.
 
 ## Predeterminado {#section-50b22de303c1432094530e6583132c02}
 
-[!DNL `limit,1500`
+`limit,1500`
 
 ## Ejemplo {#section-09433488774245d985acef6c0341ece0}
 
@@ -68,7 +71,7 @@ Los siguientes son los resultados esperados al utilizar este atributo de configu
      <ul id="ul_CEC06B2280164951BA1A0ADED99E8050"> 
       <li id="li_CA7A0980ACC54690A4F212DF53E2DC8A"> <p>Si el número límite es 1600 y la densidad de píxeles es 1,5, se muestra la imagen de 1500 x 1500. </p> </li> 
       <li id="li_A4AAD7FBFA0347B082789511CA6768A5"> <p>Si el número límite es 1600 y la densidad de píxeles es 2, se mostrará la imagen de 1000 x 1000 porque la imagen de 2000 x 2000 supera el límite. </p> </li> 
-     </ul> </p> <p><b>Práctica recomendada</b>: El número límite debe funcionar junto con la configuración de compañía para la imagen de tamaño máximo. Por lo tanto, establezca el número límite para que sea igual al tamaño máximo de imagen de la compañía. </p> </td> 
+     </ul> </p> <p><b>Práctica</b>recomendada: El número límite debe funcionar junto con la configuración de compañía para la imagen de tamaño máximo. Por lo tanto, establezca el número límite para que sea igual al tamaño máximo de imagen de la compañía. </p> </td> 
   </tr> 
  </tbody> 
 </table>
