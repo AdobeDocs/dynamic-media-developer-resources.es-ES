@@ -7,14 +7,17 @@ title: InfoPanelPopup.template
 topic: Dynamic media
 uuid: a7b49f82-9a8b-45f8-b933-9880659770de
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '205'
+ht-degree: 4%
 
 ---
 
 
 # InfoPanelPopup.template{#infopanelpopup-template}
 
-[!DNL `[InfoPanelPopup.|<containerId>_infoPanelPopup.]template= *`plantilla`*`]
+`[InfoPanelPopup.|<containerId>_infoPanelPopup.]template= *`plantilla`*`
 
 <table id="table_A6B1B446A7AE4A4A8B552C07EC88E518"> 
  <tbody> 
@@ -27,8 +30,8 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
       name&nbsp;CDATA&nbsp;#REQUIRED
       rollover&nbsp;CDATA&nbsp;#IMPLIED&nbsp;&gt;
       ]&gt;</code> </p> <p>La sintaxis real de la plantilla de contenido es la siguiente: </p> <p> <code>&lt;info&gt;
-      &lt;var&nbsp;name='VAR_NAME'&nbsp;rollover='ROLLOVER_KEY'&gt;&lt;!CDATA[&nbsp;VAR_VALUE&nbsp;]]&gt;
-      &lt;![CDATA[&nbsp;TEMPLATE_CONTENT&nbsp;]]&gt;
+      &lt;var&nbsp;name='VAR_NAME'&nbsp;rollover='ROLLOVER_KEY'&gt;&lt;!CDATA[&nbsp;VAR_VALUE&nbsp;]&gt;
+      &lt;![CDATA[&nbsp;TEMPLATE_CONTENT&nbsp;]&gt;
       &lt;/info&gt;</code> </p> <p>Es decir, la plantilla debe estar en inicio con el elemento <span class="codeph"> &lt;info&gt;</span> que puede contener elementos predeterminados opcionales <span class="codeph"> &lt;var&gt;</span> . El propio contenido de la plantilla, <span class="codeph"> TEMPLATE_CONTENT</span> , es texto HTML. Además, la plantilla de contenido puede contener nombres de variables entre <span class="codeph"> caracteres $</span> . Estos caracteres se reemplazan con los valores de variable que devuelve el servidor de información o con los predeterminados. </p> <p>Las variables predeterminadas que se definen en la plantilla pueden ser globales (si no se ha establecido el atributo rollover) o específicas de una determinada clave de rollover (si el atributo rollover está presente). </p> <p>Durante el procesamiento de plantillas, las variables específicas para pasar sobre las claves tienen prioridad sobre las variables globales. </p> </td> 
   </tr> 
  </tbody> 
