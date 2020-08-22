@@ -7,7 +7,10 @@ title: ImageSet
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 1a34aaef-4053-4474-abb8-794331898d88
 translation-type: tm+mt
-source-git-commit: 06f227705765e4173e1c4b49dd7d8202884f5e07
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '703'
+ht-degree: 2%
 
 ---
 
@@ -18,19 +21,19 @@ Datos del conjunto de imágenes. Proporciona un mecanismo para definir conjuntos
 
 Un conjunto de imágenes consta de una lista de elementos ordenada y separada por comas, cada elemento consta de uno o más subelementos (ID de imagen, ID de muestra, rutas de archivos de medios, etiquetas, etc.), separados por punto y coma y/o dos puntos.
 
-Las llaves &#39;{ }&#39; y los paréntesis &#39;( )&#39; pueden utilizarse para delimitar cierto contenido (como valores de color) o indicar conjuntos anidados. Las llaves o paréntesis utilizados de esta manera no deben codificarse y siempre deben aparecer como pares coincidentes; de lo contrario, se producirá un error de análisis del catálogo.
+Se pueden utilizar llaves `{ }` y paréntesis `( )` para delimitar cierto contenido (como valores de color) o indicar conjuntos anidados. Las llaves o paréntesis utilizados de esta manera no deben codificarse y siempre deben aparecer como pares coincidentes; de lo contrario, se producirá un error de análisis del catálogo.
 
 >[!NOTE]
 >
 >Los siguientes caracteres se utilizan como delimitadores establecidos y deben tener codificación HTTP cuando aparecen en el conjunto como parte de los valores de cadena o ID:
 >
->* ,
->* ;
->* :
->* {
->* }
->* (
->* .
+>* `,`
+>* `;`
+>* `:`
+>* `{`
+>* `}`
+>* `(`
+>* `)`
 
 
 
@@ -116,7 +119,7 @@ Un conjunto de vídeos consiste en una lista sencilla de ID de vídeo en la que 
 
 ## Propiedades {#section-17c731e5c46646aa90ac21f39bb693ca}
 
-Cadena de texto. lista separada por comas de `catalog::Id` valores, rutas absolutas de archivos del servidor de imágenes o rutas de archivos relativas a `attribute::RootPath`. Se puede hacer referencia a la misma imagen más de una vez en el conjunto. El registro de catálogo que define puede aparecer en el conjunto en cualquier ubicación.
+Cadena de texto. Lista separada por comas de `catalog::Id` valores, rutas absolutas de archivos del servidor de imágenes o rutas de archivos relativas a `attribute::RootPath`. Se puede hacer referencia a la misma imagen más de una vez en el conjunto. El registro de catálogo que define puede aparecer en el conjunto en cualquier ubicación.
 
 Este campo participa en la localización de cadenas de texto. Además de *`label`* las cadenas (parte de *`solidColorSpecifier`*), todos los campos delimitados se localizan si incluyen al menos un token de localización &#39; `^loc=…^`&#39;. Consulte la Localización [de cadena de](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) texto en la Referencia *del protocolo* HTTP para obtener más información.
 
