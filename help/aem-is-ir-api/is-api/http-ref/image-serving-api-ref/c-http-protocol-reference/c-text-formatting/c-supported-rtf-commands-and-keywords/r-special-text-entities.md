@@ -7,7 +7,10 @@ title: Entidades de texto especial
 topic: Scene7 Image Serving - Image Rendering API
 uuid: efcc3962-7097-4395-8b9f-f37c6e7f5b75
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '76'
+ht-degree: 3%
 
 ---
 
@@ -41,12 +44,12 @@ Utilice las siguientes entidades especiales al dar formato al texto.
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \{ </span> </td> 
+   <td> <span class="codeph"> &amp;llave; </span> </td> 
    <td> <p>Llave abierta. </p> </td> 
    <td> <p>La llave debe tener codificación HTTP. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \} </span> </td> 
+   <td> <span class="codeph"> &amp;rbrace; </span> </td> 
    <td> <p>Llave de cierre. </p> </td> 
    <td> <p>La llave debe tener codificación HTTP. </p> </td> 
   </tr> 
