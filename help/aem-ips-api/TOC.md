@@ -2,9 +2,12 @@
 cloud: experience-cloud
 product: adobe
 archtype: end-user
-user-guide-title: Dynamic Media Image Production System API
+user-guide-title: API de sistema de producción de imágenes de Dynamic Media
 translation-type: tm+mt
-source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
+source-git-commit: 88d3a65852365d7fcd7631ff5b5f7215b7c48618
+workflow-type: tm+mt
+source-wordcount: '640'
+ht-degree: 3%
 
 ---
 
@@ -48,7 +51,7 @@ source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
       + [createViewerPreset](operations/c-operations-intro/c-methods/r-create-viewer-preset.md)
       + [createVignettePublishFormat](operations/c-operations-intro/c-methods/r-create-vignette-publish-format.md)
       + [deleteAsset](operations/c-operations-intro/c-methods/r-delete-asset.md)
-      + [deleteAssets](operations/c-operations-intro/c-methods/r-delete-assets.md)
+      + [Metadatos](operations/c-operations-intro/c-methods/r-delete-assets.md)
       + [deleteAssetMetadata](operations/c-operations-intro/c-methods/r-delete-asset-metadata.md)
       + [deleteFolder](operations/c-operations-intro/c-methods/r-delete-folder.md)
       + [deleteGroup](operations/c-operations-intro/c-methods/r-delete-group.md)
@@ -63,7 +66,7 @@ source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
       + [deleteVignettePublishFormat](operations/c-operations-intro/c-methods/r-delete-vignette-publish-format.md)
       + [deleteZoomTarget](operations/c-operations-intro/c-methods/r-delete-zoom-target.md)
       + [emptyAssetsFromTrash](operations/c-operations-intro/c-methods/r-empty-assets-from-trash.md)
-      + [executeJob](operations/c-operations-intro/c-methods/r-execute-job.md)
+      + [deleteJob](operations/c-operations-intro/c-methods/r-execute-job.md)
       + [forceRepublishAssets](operations/c-operations-intro/c-methods/r-force-republish-assets.md)
       + [generatePassword](operations/c-operations-intro/c-methods/r-generate-password.md)
       + [getActiveJobs](operations/c-operations-intro/c-methods/r-get-active-jobs.md)
@@ -84,7 +87,7 @@ source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
       + [getCompanySettings](operations/c-operations-intro/c-methods/r-get-company-settings.md)
       + [getDiskUsage](operations/c-operations-intro/c-methods/r-get-disk-usage.md)
       + [getDistinctMetadataValues](operations/c-operations-intro/c-methods/r-get-distinct-metadata-values.md)
-      + [getFolders](operations/c-operations-intro/c-methods/r-get-folders.md)
+      + [La función getFolders](operations/c-operations-intro/c-methods/r-get-folders.md)
       + [getFolderTree](operations/c-operations-intro/c-methods/r-get-folder-tree.md)
       + [getGenerationInfo](operations/c-operations-intro/c-methods/r-get-generation-info.md)
       + [getGroupMembers](operations/c-operations-intro/c-methods/r-get-group-members.md)
@@ -118,7 +121,7 @@ source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
       + [getVignettePublishFormats](operations/c-operations-intro/c-methods/r-get-vignette-publish-formats.md)
       + [getXMPPaca](operations/c-operations-intro/c-methods/r-get-xmp-packet.md)
       + [getZipEntries](operations/c-operations-intro/c-methods/r-get-zip-entries.md)
-      + [moveAsset](operations/c-operations-intro/c-methods/r-move-asset.md)
+      + [getAsset](operations/c-operations-intro/c-methods/r-move-asset.md)
       + [moveAssets](operations/c-operations-intro/c-methods/r-move-assets.md)
       + [moveFolder](operations/c-operations-intro/c-methods/r-move-folder.md)
       + [pauseJob](operations/c-operations-intro/c-methods/r-pause-job.md)
@@ -195,7 +198,7 @@ source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
    + [AssetMoveArray](types/c-data-types/r-asset-move-array.md)
    + [AssetOperationFault](types/c-data-types/r-asset-operation-fault.md)
    + [AssetOperationFaultArray](types/c-data-types/r-asset-operation-fault-array.md)
-   + [AssetPublishContexts](types/c-data-types/r-asset-publish-context.md)
+   + [AssetPublishContext](types/c-data-types/r-asset-publish-context.md)
    + [AssetPublishContextArray](types/c-data-types/r-asset-publish-context-array.md)
    + [AssetSetInfo](types/c-data-types/r-asset-set-info.md)
    + [AssetSummary](types/c-data-types/r-asset-summary.md)
@@ -256,7 +259,7 @@ source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
    + [IllustratorOptions](types/c-data-types/r-illustrator-options.md)
    + [ImageFieldUpdate](types/c-data-types/r-image-field-update.md)
    + [ImageFieldUpdateArray](types/c-data-types/r-image-field-update-array.md)
-   + [ImageFormat](types/c-data-types/r-image-format.md)
+   + [JobFormat](types/c-data-types/r-image-format.md)
    + [ImageFormatArray](types/c-data-types/r-image-format-array.md)
    + [ImageInfo](types/c-data-types/r-image-info.md)
    + [Mapa de imagen](types/c-data-types/r-image-map.md)
@@ -271,7 +274,7 @@ source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
    + [ImageSetMemberUpdateArray](types/c-data-types/r-image-set-member-update-array.md)
    + [InDesignInfo](types/c-data-types/r-in-design-info.md)
    + [JavascriptInfo](types/c-data-types/r-javascriptinfo.md)
-   + [JobLog](types/c-data-types/r-job-log.md)
+   + [Registro de trabajos](types/c-data-types/r-job-log.md)
    + [JobLogArray](types/c-data-types/r-job-log-array.md)
    + [JobLogDetail](types/c-data-types/r-job-log-detail.md)
    + [JobLogDetailArray](types/c-data-types/r-job-log-detail-array.md)
@@ -320,15 +323,15 @@ source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
    + [PowerPointInfo](types/c-data-types/r-power-point-info.md)
    + [PremierExpressRemixInfo](types/c-data-types/r-premier-express-remix-info.md)
    + [Proyecto](types/c-data-types/r-project.md)
-   + [ProjectArray](types/c-data-types/r-project-array.md)
+   + [PropertyArray](types/c-data-types/r-project-array.md)
    + [Propiedad](types/c-data-types/r-property.md)
-   + [PropertyArray](types/c-data-types/r-property-array.md)
+   + [AssetArray](types/c-data-types/r-property-array.md)
    + [PropertySet](types/c-data-types/r-property-set.md)
    + [PropertySetArray](types/c-data-types/r-property-set-array.md)
    + [PropertySetType](types/c-data-types/r-property-set-type.md)
    + [PropertySetTypeArray](types/c-data-types/r-property-set-type-array.md)
    + [PsdInfo](types/c-data-types/r-psd-info.md)
-   + [PublishContext](types/c-data-types/r-publish-context.md)
+   + [ActiveContext](types/c-data-types/r-publish-context.md)
    + [PublishContextArray](types/c-data-types/r-publish-context-array.md)
    + [PublishHistory](types/c-data-types/r-publish-history.md)
    + [PublishHistoryArray](types/c-data-types/r-publish-history-array.md)
@@ -348,12 +351,11 @@ source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
    + [SetMetadataFaultArray](types/c-data-types/r-set-metadata-fault-array.md)
    + [SetPropertySetPermissions](types/c-data-types/r-set-property-set-permissions.md)
    + [SvgInfo](types/c-data-types/r-svg-info.md)
-   + [StringArray](types/c-data-types/r-string-array.md)
+   + [ArrayCadena](types/c-data-types/r-string-array.md)
    + [SwcInfo](types/c-data-types/r-swcinfo.md)
    + [SystemFieldCondition](types/c-data-types/r-system-field-condition.md)
    + [SystemFieldConditionArray](types/c-data-types/r-system-field-condition-array.md)
    + [TagCondition](types/c-data-types/r-tag-condition.md)
-   + [TagConditionArray](types/c-data-types/r-tag-condition-array.md)
    + [TagConditionArray](types/c-data-types/r-tag-condition-array.md)
    + [TagFieldValues](types/c-data-types/r-tag-field-values.md)
    + [TagFieldValuesArray](types/c-data-types/r-tag-field-values-array.md)
@@ -412,7 +414,7 @@ source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
    + [Estilos de fuente](string-constants/c-string-constants/r-font-styles.md)
    + [Tipos de fuentes](string-constants/c-string-constants/r-font-types.md)
    + [Información de generación](string-constants/c-string-constants/r-generation-info.md)
-   + [Procesos de Illustrator](string-constants/c-string-constants/r-illustrator-processes.md)
+   + [Constantes de Illustrator](string-constants/c-string-constants/r-illustrator-processes.md)
    + [Tipos de archivos de registro de trabajos](string-constants/c-string-constants/r-job-log-file-types.md)
    + [Campos de ordenación de registro de trabajos](string-constants/c-string-constants/r-job-log-sort-fields.md)
    + [Tipos de registro de trabajos](string-constants/c-string-constants/r-job-log-types.md)
@@ -425,7 +427,7 @@ source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
    + [Modos de anclaje de Photoshop](string-constants/c-string-constants/r-photoshop-anchor-modes.md)
    + [Modos de nombres de capas de Photoshop](string-constants/c-string-constants/r-photoshop-layer-naming-modes.md)
    + [Modos de espacio de color PostScript](string-constants/c-string-constants/r-postscript-colorspace-modes.md)
-   + [Clases de Perfil](string-constants/c-string-constants/r-profile-classes.md)
+   + [Clases de perfil](string-constants/c-string-constants/r-profile-classes.md)
    + [Estado de publicación](string-constants/c-string-constants/r-publish-state.md)
    + [Tipos de conjuntos de propiedades](string-constants/c-string-constants/r-property-set-types.md)
    + [Contexto de publicación](string-constants/c-string-constants/r-publish-context.md)
