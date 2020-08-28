@@ -7,7 +7,10 @@ title: Tipos de datos
 topic: Scene7 Image Production System API
 uuid: 49e99f49-5bab-460f-a5f4-c966027b77fe
 translation-type: tm+mt
-source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
+source-git-commit: 88d3a65852365d7fcd7631ff5b5f7215b7c48618
+workflow-type: tm+mt
+source-wordcount: '228'
+ht-degree: 5%
 
 ---
 
@@ -32,7 +35,7 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 + [AssetMoveArray](r-asset-move-array.md)
 + [AssetOperationFault](r-asset-operation-fault.md)
 + [AssetOperationFaultArray](r-asset-operation-fault-array.md)
-+ [AssetPublishContexts](r-asset-publish-context.md)
++ [AssetPublishContext](r-asset-publish-context.md)
 + [AssetPublishContextArray](r-asset-publish-context-array.md)
 + [AssetSetInfo](r-asset-set-info.md)
 + [AssetSummary](r-asset-summary.md)
@@ -93,7 +96,7 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 + [IllustratorOptions](r-illustrator-options.md)
 + [ImageFieldUpdate](r-image-field-update.md)
 + [ImageFieldUpdateArray](r-image-field-update-array.md)
-+ [ImageFormat](r-image-format.md)
++ [JobFormat](r-image-format.md)
 + [ImageFormatArray](r-image-format-array.md)
 + [ImageInfo](r-image-info.md)
 + [Mapa de imagen](r-image-map.md)
@@ -159,13 +162,13 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 + [Proyecto](r-project.md)
 + [ProjectArray](r-project-array.md)
 + [Propiedad](r-property.md)
-+ [PropertyArray](r-property-array.md)
++ [Proyecto PropertyArray](r-property-array.md)
 + [PropertySet](r-property-set.md)
 + [PropertySetArray](r-property-set-array.md)
 + [PropertySetType](r-property-set-type.md)
 + [PropertySetTypeArray](r-property-set-type-array.md)
 + [PsdInfo](r-psd-info.md)
-+ [PublishContext](r-publish-context.md)
++ [ActiveContext](r-publish-context.md)
 + [PublishContextArray](r-publish-context-array.md)
 + [PublishHistory](r-publish-history.md)
 + [PublishHistoryArray](r-publish-history-array.md)
@@ -190,7 +193,6 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 + [SystemFieldCondition](r-system-field-condition.md)
 + [SystemFieldConditionArray](r-system-field-condition-array.md)
 + [TagCondition](r-tag-condition.md)
-+ [TagConditionArray](r-tag-condition-array.md)
 + [TagConditionArray](r-tag-condition-array.md)
 + [TagFieldValues](r-tag-field-values.md)
 + [TagFieldValuesArray](r-tag-field-values-array.md)
