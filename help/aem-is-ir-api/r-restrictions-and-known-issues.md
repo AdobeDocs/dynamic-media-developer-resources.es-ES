@@ -1,15 +1,15 @@
 ---
-description: Existen algunas restricciones y problemas conocidos que deben tenerse en cuenta al utilizar el servicio de imágenes de Scene7.
-seo-description: Existen algunas restricciones y problemas conocidos que deben tenerse en cuenta al utilizar el servicio de imágenes de Scene7.
+description: Existen algunas restricciones y problemas conocidos que deben tenerse en cuenta al usar el servicio de imágenes de Scene7.
+seo-description: Existen algunas restricciones y problemas conocidos que deben tenerse en cuenta al usar el servicio de imágenes de Scene7.
 seo-title: Restricciones y problemas conocidos
 solution: Experience Manager
 title: Restricciones y problemas conocidos
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 9f9fad41-4828-4fba-8f5f-2c33e7811c71
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: 0e9d6a0ccbb040b27cc89b933442d8530c60d5c8
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1248'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Restricciones y problemas conocidos{#restrictions-and-known-issues}
 
-Existen algunas restricciones y problemas conocidos que deben tenerse en cuenta al utilizar el servicio de imágenes de Scene7.
+Existen algunas restricciones y problemas conocidos que deben tenerse en cuenta al usar el servicio de imágenes de Scene7.
 
 ## Errores de documentación {#section-b1579410b11e41e488c7de9ecc7e8d5c}
 
@@ -89,19 +89,19 @@ La biblioteca Digimarc se niega a aplicar una marca de agua Digimarc a una image
 
    *Solución*:
 
-   En el caso de las viñetas de procesamiento de imágenes que no son piramidables, aumente el valor de propiedad de IrMaxNonPyrVignetteSize en el archivo de configuración [!DNL *[!DNL install_root]*/ImageServing/bin/ ImageServerRegistry.xml].
+   En el caso de las viñetas de procesamiento de imágenes que no son piramidables, aumente el valor de propiedad de IrMaxNonPyrVignetteSize en el archivo de configuración [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] .
 
-   Para los TIFF que no son piramidables del servicio de imágenes, aumente el valor de la propiedad `MaxNonDsfSize` en el archivo de configuración [!DNL *[!DNL install_root]* /ImageServing/bin/ ImageServerRegistry.xml].
+   En el caso de los TIFF no piramidables de servicio de imágenes, aumente el valor de propiedad de `MaxNonDsfSize` en el archivo de configuración [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] .
 
 * Adobe Photoshop CS3 no guarda archivos PSD con capas de forma predeterminada en una imagen compuesta.
 
    *Síntomas*:
 
-   El archivo PSD con capas de Adobe Photoshop CS3 se muestra en negro con texto que indica: &quot;Este archivo de Photoshop con capas no se guardó con una imagen compuesta&quot;. para la imagen de respuesta del servicio de imágenes o en IPS.
+   El archivo PSD con capas de Adobe Photoshop CS3 se muestra en negro con el texto &quot;Este archivo Photoshop con capas no se guardó con una imagen compuesta&quot;. para la imagen de respuesta del servicio de imágenes o en IPS.
 
    *Solución*:
 
-   Guarde el archivo de Adobe Photoshop CS3 con la máxima compatibilidad activada.
+   Guarde el archivo Adobe Photoshop CS3 con la máxima compatibilidad activada.
 
 * La asignación de Perfil ICC a una imagen de respuesta CMYK/JPEG hace que los colores se inviertan en algunos exploradores.*Solución*:
 
@@ -135,7 +135,7 @@ La biblioteca Digimarc se niega a aplicar una marca de agua Digimarc a una image
 
    *Solución*
 
-   Establezca la propiedad `svgProvider.fontRoot=` en [!DNL *[!DNL install_root]* /ImageServing/conf/PlatformServer.conf].
+   Configure la propiedad `svgProvider.fontRoot=` en [!DNL install_root/ImageServing/conf/PlatformServer.conf] .
 
 * Actualmente, el recorte se utiliza `bgColor=` en lugar de `color=` para rellenar cualquier área recientemente extendida.
 
@@ -145,7 +145,7 @@ La biblioteca Digimarc se niega a aplicar una marca de agua Digimarc a una image
 ## Restricciones aplicables solo al procesamiento de imágenes {#section-4c6949e797174607a3d1ab4d3d4a725a}
 
 * Las cubiertas y los materiales murales no son extraíbles.
-* El tamaño de las texturas está limitado en relación con el tamaño de la vista de la viñeta. En circunstancias excepcionales, el límite predeterminado del 425 % del tamaño de vista puede interferir con una aplicación que utilice texturas no repetibles muy grandes. Si no es posible cambiar la aplicación o el contenido para que funcionen con las limitaciones predefinidas, el porcentaje se puede aumentar de la siguiente manera. Con un editor de texto, abra [!DNL *[!DNL install_root]*/ImageServing/conf/ImageServerRegistry.xml], busque `IrMaxTextureSizeFactor` e introduzca un nuevo valor de porcentaje. El cambio surte efecto inmediatamente sin reiniciar el servidor de imágenes.
+* El tamaño de las texturas está limitado en relación con el tamaño de la vista de la viñeta. En circunstancias excepcionales, el límite predeterminado del 425 % del tamaño de vista puede interferir con una aplicación que utilice texturas no repetibles muy grandes. Si no es posible cambiar la aplicación o el contenido para que funcionen con las limitaciones predefinidas, el porcentaje se puede aumentar de la siguiente manera. Con un editor de texto, abra [!DNL install_root/ImageServing/conf/ImageServerRegistry.xml], localice `IrMaxTextureSizeFactor` e introduzca un nuevo valor de porcentaje. El cambio surte efecto inmediatamente sin reiniciar el servidor de imágenes.
 
 * Los motores JavaScript de Netscape y Opera procesan los datos de respuesta de caché aunque se haya establecido el encabezado nocache. Esto interfiere con el correcto funcionamiento de las solicitudes de estado.
 
