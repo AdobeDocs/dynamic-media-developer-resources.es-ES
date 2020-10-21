@@ -1,9 +1,16 @@
 ---
-source-git-commit: 4570f1ca946a2ecff1969043ab64a164139ef03e
+source-git-commit: 250f3499a23461ed1fd6fb5440d74c71767f6ef3
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '157'
+ht-degree: 3%
 
 ---
-# Documentación de recursos para desarrolladores de Adobe Dynamic Media
+# Documentación de recursos para desarrolladores de Dynamic Media de Adobe
+
+| EXL-PR | EXL | Vista previa | Activar | Publicado | Ayuda |
+|--- |--- |--- |--- |--- |--- |
+| [![Estado de compilación](https://docs.ci.corp.adobe.com/view/exl-pr/job/dynamic-media-developer-resources.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/dynamic-media-developer-resources.en_pr-exl/lastBuild/) | [![Estado de compilación](https://docs.ci.corp.adobe.com/view/exl-pr/job/dynamic-media-developer-resources.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/dynamic-media-developer-resources.en_exl/lastBuild/lastBuild) | [URL de previsualización](https://experienceleague.corp.adobe.com/docs/dynamic-media-developer-resources/library/home.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [Dirección URL en directo](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html?lang=en) | [Guía de creación](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
 Este es el repositorio de la documentación de Recursos para desarrolladores de medios dinámicos de Adobe.
 
