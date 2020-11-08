@@ -7,7 +7,10 @@ title: Confusión de solicitudes
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 59b12a78-c4ba-4b6d-97bc-63150298ed73
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 80ae3a549340156bb74faa1793c43d3a8fa3853c
+workflow-type: tm+mt
+source-wordcount: '228'
+ht-degree: 1%
 
 ---
 
@@ -17,6 +20,10 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 El contenido de toda la parte de modificadores de la cadena de solicitud, incluido el sufijo de bloqueo opcional, puede quedar oscurecido al aplicar la codificación estándar base64.
 
 El servidor intenta descodificar si `attribute::RequestObfuscation` está configurado. Si la descodificación falla, se rechaza la solicitud. Si se aplican el bloqueo de solicitudes y la confusión de solicitudes, el sufijo de bloqueo debe generarse y anexarse antes de la codificación base64.
+
+>[!IMPORTANT]
+>
+>Si habilita esta función, tenga en cuenta que su uso tiene ciertas limitaciones que incluyen lo siguiente:<br>- Es posible que la interfaz de usuario de Dynamic Media no muestre los detalles correctos para el campo **[!UICONTROL Última publicación]** . Sin embargo, esto no afecta a la publicación.<br>- Actualmente, el flujo de vídeo HLS no funciona cuando se activan la confusión **[!UICONTROL de]** solicitudes y el bloqueo **[!UICONTROL de]** solicitudes.
 
 ## Ejemplo {#section-dd4bfab19aa040f8ba3f6e397c6b0941}
 
