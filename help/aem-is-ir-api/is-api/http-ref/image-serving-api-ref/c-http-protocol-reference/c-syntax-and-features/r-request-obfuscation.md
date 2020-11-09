@@ -7,7 +7,7 @@ title: Confusión de solicitudes
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 59b12a78-c4ba-4b6d-97bc-63150298ed73
 translation-type: tm+mt
-source-git-commit: 80ae3a549340156bb74faa1793c43d3a8fa3853c
+source-git-commit: 6b51248cdc6a6b9d36893545640dbbeb11a0c414
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 1%
@@ -23,7 +23,7 @@ El servidor intenta descodificar si `attribute::RequestObfuscation` está config
 
 >[!IMPORTANT]
 >
->Si habilita esta función, tenga en cuenta que su uso tiene ciertas limitaciones que incluyen lo siguiente:<br>- Es posible que la interfaz de usuario de Dynamic Media no muestre los detalles correctos para el campo **[!UICONTROL Última publicación]** . Sin embargo, esto no afecta a la publicación.<br>- Actualmente, el flujo de vídeo HLS no funciona cuando se activan la confusión **[!UICONTROL de]** solicitudes y el bloqueo **[!UICONTROL de]** solicitudes.
+>Si habilita esta función, tenga en cuenta que hay ciertas limitaciones en su uso que incluyen lo siguiente:<br>- Es posible que la interfaz de usuario de Dynamic Media no muestre los detalles correctos para el campo **[!UICONTROL Última publicación]** . Sin embargo, esto no afecta a la publicación.<br>- Actualmente, el flujo de vídeo HLS no funciona cuando se activan la confusión **[!UICONTROL de]** solicitudes y el bloqueo **[!UICONTROL de]** solicitudes.
 
 ## Ejemplo {#section-dd4bfab19aa040f8ba3f6e397c6b0941}
 
