@@ -2,9 +2,13 @@
 cloud: experience-cloud
 product: adobe
 archtype: end-user
-user-guide-title: Dynamic Media Image Serving and Rendering API
+user-guide-title: API de servicio y procesamiento de imágenes de Dynamic Media
+breadcrumb-title: API de servicio y procesamiento de imágenes de Dynamic Media
 translation-type: tm+mt
-source-git-commit: 79874613934ca399358bb74d6b911700f8df530d
+source-git-commit: 901f0c3986715279e0c696db93be2048343d2bc5
+workflow-type: tm+mt
+source-wordcount: '1465'
+ht-degree: 10%
 
 ---
 
@@ -18,7 +22,7 @@ source-git-commit: 79874613934ca399358bb74d6b911700f8df530d
 + [Requisitos y recomendaciones de espacio en disco](r-disk-space-reqs.md)
 + [Restricciones y problemas conocidos](r-restrictions-and-known-issues.md)
 + [Asistencia técnica](r-tech-support.md)
-+ [Convenciones de Documento](r-document-conventions.md)
++ [Convenciones de documento](r-document-conventions.md)
 + Instalación {#install}
    + [Información general sobre la instalación](c-installation/c-installation.md)
    + [Licencias](c-installation/c-licensing.md)
@@ -41,7 +45,7 @@ source-git-commit: 79874613934ca399358bb74d6b911700f8df530d
       + [Inicio o parada en Linux](c-installation/t-starting-and-stopping/t-startstop-linux.md)
 + API de servicio de imágenes {#image-serving-api}
    + [API de servicio de imágenes](is-api/image-serving-api-ref/c-is-home.md)
-   + [audiencia prevista](is-api/image-serving-api-ref/c-intended-audience.md)
+   + [Audiencia prevista](is-api/image-serving-api-ref/c-intended-audience.md)
    + [Componentes de servicio de imágenes](is-api/image-serving-api-ref/r-components.md)
    + Configuración y administración {#config-admin}
       + [Configuración y administración](is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md)
@@ -102,15 +106,15 @@ source-git-commit: 79874613934ca399358bb74d6b911700f8df530d
       + [Introducción a la referencia del protocolo HTTP](is-api/image-serving-api-ref/c-http-protocol-reference/c-http-protocol-reference.md)
       + Introducción al protocolo HTTP {#http-protocol-introduction}
          + [Introducción](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-introduction.md)
-         + [audiencia prevista](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-intended-audience.md)
-         + [Convenciones de Documento](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/r-document-conventions.md)
+         + [Audiencia prevista](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-intended-audience.md)
+         + [Convenciones de documento](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/r-document-conventions.md)
       + Sintaxis y características {#syntax-and-features}
          + [Sintaxis y características](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-syntax-and-features.md)
          + [Sintaxis básica del protocolo HTTP de servicio de imágenes](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-basic-syntax.md)
          + Servicio de imágenes, comando de protocolo HTTP {#image-serving-http}
             + [Descripción general del comando del protocolo HTTP de servicio de imágenes](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/c-command-overview.md)
             + [Comandos de solicitud](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-request-commands-and-attributes.md)
-            + [Comandos de Vista](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-view-commands-and-attributes.md)
+            + [Comandos de vista](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-view-commands-and-attributes.md)
             + [Operaciones comunes](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-common-operations-and-attributes.md)
             + [Operaciones de imagen de origen](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-source-image-operations-and-attributes.md)
             + [Comandos de capa comunes](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-common-layer-commands-and-attributes.md)
@@ -132,7 +136,7 @@ source-git-commit: 79874613934ca399358bb74d6b911700f8df530d
          + [Macros de comandos](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-command-macros.md)
          + [Catálogos de imágenes](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-catalogs.md)
          + [Traslación de ID de objeto](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md)
-         + [localización de cadena de texto](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)
+         + [Localización de cadena de texto](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)
          + [Compatibilidad con SVG](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-svg-support.md)
          + [Preprocesamiento de solicitud](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-preprocessing.md)
          + [Mapas de imagen](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md)
@@ -153,7 +157,7 @@ source-git-commit: 79874613934ca399358bb74d6b911700f8df530d
          + [Caracteres reservados](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-reserved-characters.md)
          + Compatibilidad con RTF {#rtf-support}
             + [Palabras clave y comandos RTF admitidos](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-supported-rtf-commands-and-keywords/c-supported-rtf-commands-and-keywords.md)
-            + [Propiedades de Documento (cuadro de texto)](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-supported-rtf-commands-and-keywords/r-document-text-box-properties.md)
+            + [Propiedades de documento (cuadro de texto)](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-supported-rtf-commands-and-keywords/r-document-text-box-properties.md)
             + [Formato de párrafo](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-supported-rtf-commands-and-keywords/r-paragraph-formatting.md)
             + [Formato básico de caracteres](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-supported-rtf-commands-and-keywords/r-basic-character-formatting.md)
             + [Formato de texto avanzado](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-supported-rtf-commands-and-keywords/r-advanced-text-formatting.md)
@@ -285,8 +289,8 @@ source-git-commit: 79874613934ca399358bb74d6b911700f8df530d
          + [Escala de miniaturas](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-thumbnail-scaling.md)
          + [Reglas de miniatura](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-thumbnail-rules.md)
          + [Colocación de capas](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-layer-placement.md)
-         + [Transformación de Vista para imágenes](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-view-transform-for-images.md)
-         + [Transformación de Vista para miniaturas](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-view-transform-for-thumbnails.md)
+         + [Transformación de vista para imágenes](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-view-transform-for-images.md)
+         + [Transformación de vista para miniaturas](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-view-transform-for-thumbnails.md)
       + Plantillas {#templates}
          + [Ejemplos de plantillas](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md)
          + [Ejemplo A](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md)
@@ -553,7 +557,7 @@ source-git-commit: 79874613934ca399358bb74d6b911700f8df530d
          + [Sintaxis básica del protocolo HTTP de procesamiento de imágenes](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/r-ir-basic-syntax.md)
          + Descripción general del comando del protocolo HTTP de procesamiento de imágenes {#image-rendering-http-protocol-command-overview}
             + [Descripción general del comando del protocolo HTTP de procesamiento de imágenes](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-command-overview/c-ir-command-overview.md)
-            + [Atributos de Vista](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-command-overview/r-ir-view-attributes.md)
+            + [Atributos de vista](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-command-overview/r-ir-view-attributes.md)
             + [Comandos de selección](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-command-overview/r-ir-selection-commands.md)
             + [Atributos de material](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-command-overview/r-ir-material-attributes.md)
             + [Comandos varios](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-command-overview/r-ir-miscellaneous-commands.md)
