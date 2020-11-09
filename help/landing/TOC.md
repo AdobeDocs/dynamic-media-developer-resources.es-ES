@@ -1,10 +1,17 @@
 ---
-title: Recursos para desarrolladores de Adobe Dynamic Media
-seo-title: Guías de recursos para desarrolladores de Adobe Dynamic Media para visores, servicio de imágenes, procesamiento de imágenes y producción de imágenes
-description: Recursos para desarrolladores de Adobe Dynamic Media
-seo-description: Guías de recursos para desarrolladores de Adobe Dynamic Media para visores, servicio de imágenes, procesamiento de imágenes y producción de imágenes
+title: Recursos para desarrolladores de Dynamic Media de Adobe
+cloud: experience-cloud
+product: Adobe Dynamic Media Developer Resources
+audience: end-user
+user-guide-title: Recursos para desarrolladores de Dynamic Media de Adobe
+breadcrumb-title: Recursos para desarrolladores de Dynamic Media
+user-guide-description: Acceda a recursos de desarrolladores de Dynamic Media como la Guía de referencia de visores, la API de Image Production System, la API de servicio y procesamiento de imágenes y las notas de la versión archivadas de Scene7.
+index: y
 translation-type: tm+mt
-source-git-commit: 48efa6eabf127265f24ec5986a46893cf431a07d
+source-git-commit: 901f0c3986715279e0c696db93be2048343d2bc5
+workflow-type: tm+mt
+source-wordcount: '44'
+ht-degree: 2%
 
 ---
 
