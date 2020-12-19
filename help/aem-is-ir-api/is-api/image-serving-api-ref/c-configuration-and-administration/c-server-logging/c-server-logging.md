@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: f6145737-e4c3-4533-9be5-5b5a0202fe33
 translation-type: tm+mt
 source-git-commit: 5717550d2dea8ec086875e770ff8f200aaa75ff3
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ Importante Debe reservarse una cantidad suficiente de espacio en disco para los 
 
 Platform Server y Image Server crean los tres tipos de archivos de registro que se describen a continuación.
 
-Otros componentes del servicio de imágenes y otros paquetes de Scene7, como los visores de Scene7, también pueden crear archivos de registro en la misma carpeta. Estos archivos de registro son para uso interno de Scene7 y pueden ser solicitados por la asistencia técnica de Scene7 para solucionar problemas.
+Otros componentes de servicio de imágenes y algunos otros paquetes de Scene7, como los visores de Scene7, también pueden crear archivos de registro en la misma carpeta. Estos archivos de registro son para uso interno de Scene7 y pueden ser solicitados por la asistencia de Scene7 para solucionar problemas.
 
 * [Registro de acceso](c-access-log.md)
 * [Registro de seguimiento](c-trace-log.md)
@@ -30,4 +33,4 @@ Otros componentes del servicio de imágenes y otros paquetes de Scene7, como los
 
 ## Véase también {#section-5ff5e46031b1461c92de24e632610d6d}
 
-[Registro](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-access-logging.md#reference-5d175921c12a48a6be7f722517615d0f)de acceso, registro de [depuración/seguimiento](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-debug-trace-logging.md#reference-4b372f81001849f5b495457da7af8e82)
+[Registro](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-access-logging.md#reference-5d175921c12a48a6be7f722517615d0f) de acceso, registro de  [depuración/seguimiento](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-debug-trace-logging.md#reference-4b372f81001849f5b495457da7af8e82)
