@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: a4062f3f-5dba-4514-acde-e1b7d608a2e9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,11 +25,11 @@ Ruta del clip de capa invertida. Especifica una ruta de clip de exclusión para 
 
 <table id="simpletable_27AFC3A694874CF8B673460820EFD90D"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> pathDefinition</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> pathDefinition</span> </span> </p> </td> 
   <td class="stentry"> <p>Path data. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> pathName</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> pathName</span> </span> </p> </td> 
   <td class="stentry"> <p>Nombre de la ruta incrustada en la imagen de origen de la capa (solo ASCII). </p></td> 
  </tr> 
 </table>
@@ -35,7 +38,7 @@ Consulte [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http
 
 ## Propiedades {#section-acf7272ba93a4bbba818b8e6aa4dcea5}
 
-Atributo de capa. Se aplica a la capa actual o a la imagen compuesta si `layer=comp`. Se omite si no `clipPath=` se especifica. Omitido por capas de efectos.
+Atributo de capa. Se aplica a la capa actual o a la imagen compuesta si `layer=comp`. Se omite si no se especifica `clipPath=`. Omitido por capas de efectos.
 
 ## Predeterminado {#section-d1986aa31af14767aeb1b4a57add67f4}
 
