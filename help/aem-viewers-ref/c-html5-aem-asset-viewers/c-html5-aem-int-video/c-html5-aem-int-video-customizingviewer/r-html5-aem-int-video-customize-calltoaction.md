@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 04a042d8-7329-4f1d-b3b9-312d620b1f29
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '1298'
+ht-degree: 3%
 
 ---
 
@@ -18,7 +21,7 @@ El panel Llamada a acción aparece cuando termina el vídeo y muestra todas las 
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-El panel consta de un área de encabezado que muestra el título del vídeo, un botón de reproducción en la esquina superior derecha y muestras interactivas reales que se muestran como una cuadrícula desplazable. Puede deshabilitar el panel mediante el atributo de configuración [callToActionRecap](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-calltoactionrecap.md#reference-3720b68800684ddabf523e9d81644ce6) .
+El panel consta de un área de encabezado que muestra el título del vídeo, un botón de reproducción en la esquina superior derecha y muestras interactivas reales que se muestran como una cuadrícula desplazable. Puede deshabilitar el panel mediante el atributo de configuración [callToActionRecap](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-calltoactionrecap.md#reference-3720b68800684ddabf523e9d81644ce6).
 
 El panel de llamada a acción siempre ocupa toda el área del visor disponible.
 
@@ -35,7 +38,7 @@ El siguiente selector de clase CSS controla el aspecto del color de fondo en el 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Color de fondo del panel de llamada a acción. </p> </td> 
   </tr> 
  </tbody> 
@@ -64,7 +67,7 @@ El siguiente selector de clase CSS controla el aspecto del encabezado en el pane
 <table id="table_DAA1770AB3074845B5E1B700CD6FC18A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Color de fondo del encabezado. </p> </td> 
   </tr> 
   <tr> 
@@ -72,7 +75,7 @@ El siguiente selector de clase CSS controla el aspecto del encabezado en el pane
    <td colname="col2"> <p>Altura del encabezado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-bottom  </span> </p> </td> 
    <td colname="col2"> <p>Borde inferior del encabezado. </p> </td> 
   </tr> 
  </tbody> 
@@ -107,27 +110,27 @@ El siguiente selector de clase CSS controla el aspecto del título del encabezad
    <td colname="col2"> <p> Color del texto dentro del letrero. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Tamaño de fuente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> line-height  </span> </p> </td> 
    <td colname="col2"> <p>Altura de línea. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p> Familia de fuentes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> text-align  </span> </p> </td> 
    <td colname="col2"> <p>Alineación del texto en la pancarta. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> relleno-izquierda </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> relleno-izquierda  </span> </p> </td> 
    <td colname="col2"> <p>Relleno izquierdo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> relleno-derecha </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> relleno-derecha  </span> </p> </td> 
    <td colname="col2"> <p> Relleno derecho para permitir espacio para el botón Reproducir. </p> </td> 
   </tr> 
  </tbody> 
@@ -171,15 +174,15 @@ El siguiente selector de clase CSS controla el aspecto del botón de cierre en e
    <td colname="col2"> <p>Ancho del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p> Altura del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Imagen mostrada para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p>Colocar dentro del elemento sprite de ilustración, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -187,7 +190,7 @@ El siguiente selector de clase CSS controla el aspecto del botón de cierre en e
 
 >[!NOTE]
 >
->Este botón admite el selector de `state` atributos, que se puede utilizar para aplicar diferentes apariencias a diferentes estados de botón.
+>Este botón admite el selector de atributos `state`, que se puede utilizar para aplicar diferentes apariencias a distintos estados de botones.
 
 ## Ejemplo {#example-3}
 
@@ -231,7 +234,7 @@ El siguiente selector de clase CSS controla el aspecto de la vista de cuadrícul
 <table id="table_A0DDD21C84944D48A639F51FCC8DF065"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Color de fondo del área de miniaturas. </p> </td> 
   </tr> 
  </tbody> 
@@ -261,7 +264,7 @@ El siguiente selector de clase CSS controla el aspecto de la celda de la miniatu
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> Tamaño del margen horizontal y vertical alrededor de cada miniatura. </p> <p>El espaciado de las miniaturas horizontales es igual a la suma de los márgenes izquierdo y derecho definidos para <span class="codeph"> .s7thumbcell </span>. La misma regla también se aplica, pero al espaciado vertical. </p> </td> 
+   <td colname="col2"> <p> Tamaño del margen horizontal y vertical alrededor de cada miniatura. </p> <p>El espaciado en miniatura horizontal real es igual a la suma del margen izquierdo y derecho establecido para <span class="codeph"> .s7thumbcell </span>. La misma regla también se aplica, pero al espaciado vertical. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -292,11 +295,11 @@ El siguiente selector de clase CSS controla el aspecto de la miniatura en el pan
 <table id="table_ECD7477F4BE94BA8943210FA8B6B8D01"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Anchura de la miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altura de la miniatura. </p> </td> 
   </tr> 
   <tr> 
@@ -308,7 +311,7 @@ El siguiente selector de clase CSS controla el aspecto de la miniatura en el pan
 
 >[!NOTE]
 >
->La miniatura admite el selector de `state` atributos, que se puede utilizar para aplicar diferentes apariencias a distintos estados de miniaturas. En particular, `state="selected"` corresponde a la miniatura de la imagen seleccionada actualmente; `state="default"` corresponde al resto de miniaturas; `state="over"` se utiliza al pasar el ratón por encima.
+>La miniatura admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes apariencias a distintos estados de miniaturas. En particular, `state="selected"` corresponde a la miniatura de la imagen seleccionada actualmente; `state="default"` corresponde al resto de las miniaturas; `state="over"` se utiliza al pasar el ratón por encima.
 
 ## Ejemplo {#example-6}
 
@@ -334,19 +337,19 @@ El siguiente selector de clase CSS controla el aspecto de la etiqueta de miniatu
 <table id="table_E2C9F21EBD9140FD9D20A4BBAD117E2F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
    <td colname="col2"> <p> Color del texto de la etiqueta. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> text-align  </span> </p> </td> 
    <td colname="col2"> <p>Alineación horizontal de la etiqueta. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Nombre de fuente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Familia de fuentes. </p> </td> 
   </tr> 
  </tbody> 
@@ -380,7 +383,7 @@ El siguiente selector de clase CSS controla el aspecto del área de la barra de 
 <table id="table_6D3A4A68BFDB44259A6E2E632B9195F3"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p> Ancho de la barra de desplazamiento. </p> </td> 
   </tr> 
   <tr> 
@@ -426,11 +429,11 @@ El siguiente selector de clase CSS controla el aspecto de la pista de la barra d
 <table id="table_7A7D40C332F4461FAAC623196C00D5A8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Ancho de la barra de seguimiento de desplazamiento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Color de fondo de la barra de seguimiento. </p> </td> 
   </tr> 
  </tbody> 
@@ -462,35 +465,35 @@ El siguiente selector de clase CSS controla el aspecto de la altura del pulgar y
 <table id="table_1F39948FC3924FA4B7F851B65B2D860B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Anchura del pulgar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altura del pulgar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-top  </span> </p> </td> 
    <td colname="col2"> <p>Relleno vertical entre la parte superior de la pista. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> relleno-inferior </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> relleno-inferior  </span> </p> </td> 
    <td colname="col2"> <p>Relleno vertical entre la parte inferior de la pista. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p>Radio del borde. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Color del pulgar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Imagen mostrada para un estado de pulgar determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -498,7 +501,7 @@ El siguiente selector de clase CSS controla el aspecto de la altura del pulgar y
 
 >[!NOTE]
 >
->Thumb admite el selector de `state` atributos, que se puede utilizar para aplicar diferentes apariencias a los siguientes estados de dedo: `"up"`, `"down"`, `"over"`y `"disabled"`.
+>Thumb admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes apariencias a los siguientes estados de pulgar: `"up"`, `"down"`, `"over"` y `"disabled"`.
 
 ## Ejemplo {#example-10}
 
@@ -531,19 +534,19 @@ No es posible colocar botones de desplazamiento mediante las propiedades CSS top
 <table id="table_FE17D19E0545424EADB0256524361359"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p> Ancho del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altura del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Imagen mostrada para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -551,9 +554,9 @@ No es posible colocar botones de desplazamiento mediante las propiedades CSS top
 
 >[!NOTE]
 >
->Estos botones admiten el selector de `state` atributos, que se puede utilizar para aplicar diferentes apariencias a los siguientes estados de dedo: `"up"`, `"down"`, `"over"`y `"disabled"`.
+>Estos botones admiten el selector de atributos `state`, que se puede utilizar para aplicar diferentes apariencias a los siguientes estados de pulgar: `"up"`, `"down"`, `"over"` y `"disabled"`.
 
-La información del objeto de botón se puede localizar. Consulte [Localización de los elementos](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)de la interfaz de usuario.
+La información del objeto de botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 ## Ejemplo {#example-11}
 
