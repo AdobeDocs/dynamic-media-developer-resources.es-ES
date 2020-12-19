@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 2f3fefac-d45e-4c53-854f-1fe16d0cedd9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,8 +19,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Las referencias $var$ pueden ocurrir en cualquier lugar dentro de las llaves de una solicitud de servicio de imágenes o procesamiento de imágenes anidada, incluso a la izquierda de &#39;?&#39; separar la ruta de la consulta.
 
-El servidor sustituye estas referencias por valores (ya sea de la dirección URL o `catalog::Modifier` del catálogo de imágenes principal) antes de seguir analizando y procesando la solicitud anidada.
+El servidor sustituye estas referencias por valores (ya sea de la dirección URL o de `catalog::Modifier` del catálogo de imágenes principal) antes de seguir analizando y procesando la solicitud anidada.
 
-Además, todas `$ *[!DNL var]*=` las definiciones de la dirección URL y `catalog::Modifier` se reenvían a todas las solicitudes anidadas de servicio de imágenes y procesamiento de imágenes. Esto garantiza que todas las definiciones de variables estén disponibles para todas las plantillas, independientemente del nivel de anidación.
+Además, todas las definiciones `$ *[!DNL var]*=` de la dirección URL y `catalog::Modifier` se reenvían a todas las solicitudes anidadas de servicio de imágenes y procesamiento de imágenes. Esto garantiza que todas las definiciones de variables estén disponibles para todas las plantillas, independientemente del nivel de anidación.
 
 Independientemente del nivel de anidación, solo se debe aplicar codificación HTTP de un solo paso a los valores de variables que se van a sustituir en cualquier lugar de las solicitudes anidadas de procesamiento de imágenes o de servicio de imágenes.
