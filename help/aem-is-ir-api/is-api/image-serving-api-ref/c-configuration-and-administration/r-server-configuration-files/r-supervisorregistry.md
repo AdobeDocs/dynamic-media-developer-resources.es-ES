@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 8442a3d6-5f45-48d1-8e6e-71f0ed384227
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Contiene la configuración del supervisor del servidor.
 
 Al editar este archivo XML, asegúrese de mantener una sintaxis XML válida; de lo contrario, el servidor de imágenes podría no tener inicios.
 
-Reinicie el servicio de imágenes después de editar este archivo para asegurarse de que los cambios surten efecto. Solo se admiten para la modificación los valores de elemento/atributo resaltados a continuación. Edite todos los demás contenidos de este archivo solo cuando el servicio de asistencia técnica de Scene7 lo aconseje.
+Reinicie el servicio de imágenes después de editar este archivo para asegurarse de que los cambios surten efecto. Solo se admiten para la modificación los valores de elemento/atributo resaltados a continuación. Edite todos los demás contenidos de este archivo solo cuando el servicio de asistencia técnica de Scene7 lo indique.
 
 ```
 <supervisor>
