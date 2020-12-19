@@ -8,11 +8,14 @@ topic: Scene7 Image Production System API
 uuid: 52ec039f-51ef-4e4a-a927-2616d3675e86
 translation-type: tm+mt
 source-git-commit: 657ad46b75f4b0c671d6601da8349e05af378d0f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Tipos de archivos de registro de trabajos{#job-log-file-types}
+# Tipos de archivo de registro de trabajo{#job-log-file-types}
 
 Utilizado por JobLogDetial/assetType.
 
