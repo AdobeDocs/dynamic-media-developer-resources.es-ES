@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 69c0f6cd-dfaf-47bf-bdd9-7abb4e6f7465
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '270'
+ht-degree: 0%
 
 ---
 
@@ -78,7 +81,7 @@ El catálogo de sesiones proporciona los siguientes valores predeterminados de s
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> atributo::OnFailSel</span> </p> </td> 
-   <td> <p> Especifica el comportamiento cuando un comando <span class="codeph"> sel=</span> falla </p> </td> 
+   <td> <p> Especifica el comportamiento cuando falla un comando <span class="codeph"> sel=</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> atributo::OnFailObj</span> </p> </td> 
