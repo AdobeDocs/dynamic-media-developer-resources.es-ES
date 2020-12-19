@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 92103806-59da-444f-b69c-d045d0ebf42e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Obtiene los recursos y el número de recursos asociados a una compañía específica.
 
-El `countArray` resultado consiste en una matriz de `assetTypes` (tipo de datos `xsd:string`), cada una con su propio campo de recuento (tipo de datos `xsd:int`), lo que permite la representación de varios tipos de recursos por elemento de la matriz.
+El `countArray` devuelto consiste en una matriz de `assetTypes` (tipo de datos `xsd:string`), cada una con su propio campo de recuento (tipo de datos `xsd:int`), lo que permite la representación de varios tipos de recursos por elemento de la matriz.
 Sintaxis
 
 ## Tipos de usuarios autorizados {#section-6234754722184e828352f10eb18fbce9}
