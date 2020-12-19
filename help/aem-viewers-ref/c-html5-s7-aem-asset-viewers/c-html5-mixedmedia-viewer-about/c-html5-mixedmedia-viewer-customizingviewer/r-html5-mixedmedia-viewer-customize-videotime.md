@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: f93e495b-44a1-493c-9bc6-5c088478ddce
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Video time{#video-time}
+# Tiempo de vídeo{#video-time}
 
 La hora del vídeo es la visualización numérica que muestra la hora y la duración actuales del vídeo que se está reproduciendo.
 
@@ -26,7 +29,7 @@ El aspecto del tiempo de vídeo se controla con el siguiente selector de clase C
 .s7mixedmediaviewer .s7videotime
 ```
 
-## Propiedades CSS de la hora del vídeo {#css-properties-of-video-time}
+## Propiedades CSS del tiempo de vídeo {#css-properties-of-video-time}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -43,11 +46,11 @@ El aspecto del tiempo de vídeo se controla con el siguiente selector de clase C
    <td colname="col2"> <p> Ancho del control de tiempo del vídeo. Esta propiedad es necesaria para que Internet Explorer 8 o bueno funcionen correctamente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Familia de fuentes que se va a utilizar para mostrar el texto durante el tiempo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>El tamaño de fuente que se va a utilizar para mostrar el texto durante el tiempo. </p> </td> 
   </tr> 
   <tr> 
