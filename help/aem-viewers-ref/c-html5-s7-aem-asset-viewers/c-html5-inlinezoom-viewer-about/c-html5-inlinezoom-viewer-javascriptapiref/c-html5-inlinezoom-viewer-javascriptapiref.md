@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: ed0fb9e4-8a65-4791-a428-4e950c492198
 translation-type: tm+mt
 source-git-commit: 8d7fdab78c5d23d0e541effa9b9c470921bd144b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 8d7fdab78c5d23d0e541effa9b9c470921bd144b
 
 La clase principal del visor de zoom en línea es FlyoutViewer. Se declara en la Área de nombres s7viewers. Esta API de JavaScript cubre el constructor, los métodos y las llamadas de retorno de esta clase en particular.
 
-En los siguientes ejemplos, `<instance>` significa el nombre real del objeto de visor de JavaScript al que se crea una instancia desde la `s7viewers.FlyoutViewer` clase.
+En todos los ejemplos siguientes, `<instance>` representa el nombre real del objeto de visor de JavaScript al que se crea una instancia desde la clase `s7viewers.FlyoutViewer`.
 
 * [eliminar](r-html5-inlinezoom-viewer-javascriptapiref-dispose.md)
 * [Visor flotante](r-html5-inlinezoom-viewer-javascriptapiref-inlinezoomviewer.md)
