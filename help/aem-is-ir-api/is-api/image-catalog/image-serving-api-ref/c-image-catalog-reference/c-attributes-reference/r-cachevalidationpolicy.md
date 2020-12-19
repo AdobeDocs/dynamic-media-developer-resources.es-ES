@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 371dadbf-d58e-4214-8050-7e8907b436e3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Directiva de validación de caché del servidor. Especifica cuándo se validan las entradas de caché del lado del servidor.
 
-Con la validación basada en la caducidad, las imágenes de origen se comprueban periódicamente si han cambiado. Con la validación basada en catálogo, las imágenes de origen solo se comprueban después de cambiar el `catalog::TimeStamp` valor.
+Con la validación basada en la caducidad, las imágenes de origen se comprueban periódicamente si han cambiado. Con la validación basada en catálogo, las imágenes de origen solo se comprueban después de cambiar el valor `catalog::TimeStamp`.
 
 Se recomienda la validación basada en catálogo cuando se utilizan catálogos de imágenes. La validación basada en la caducidad se debe utilizar cuando se haga referencia a las imágenes directamente, sin necesidad de utilizar un catálogo de imágenes.
 
