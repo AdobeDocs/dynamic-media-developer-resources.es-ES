@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: ae24f0cc-bcf0-4652-a67d-ed69f8a0da92
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '161'
+ht-degree: 19%
 
 ---
 
@@ -42,31 +45,31 @@ Sintaxis
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sí </p> </td> 
    <td colname="col4"> <p>Identificador de la compañía que contiene la imagen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sí </p> </td> 
    <td colname="col4"> <p>Identificador del recurso de imagen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> folderHandle</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> folderHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sí </p> </td> 
    <td colname="col4"> <p>Identificador de la carpeta en la que se va a copiar la imagen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> name</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> name</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sí </p> </td> 
    <td colname="col4"> <p>Nombre de la nueva imagen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> urlModifier</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> urlModifier</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sí </p> </td> 
    <td colname="col4"> <p> </p> </td> 
@@ -87,7 +90,7 @@ Sintaxis
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sí </p> </td> 
    <td colname="col4"> <p>Identificador de la imagen copiada. </p> </td> 
