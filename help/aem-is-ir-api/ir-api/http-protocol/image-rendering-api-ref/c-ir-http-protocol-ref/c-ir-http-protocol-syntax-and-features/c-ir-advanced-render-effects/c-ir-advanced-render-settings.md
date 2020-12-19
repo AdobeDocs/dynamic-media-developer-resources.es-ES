@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 18e7f3cf-4d30-445c-813c-546a91987b99
 translation-type: tm+mt
 source-git-commit: e3b096b97419a86de244b97876439ad9c491b950
+workflow-type: tm+mt
+source-wordcount: '630'
+ht-degree: 24%
 
 ---
 
@@ -18,9 +21,9 @@ La herramienta de creación de viñetas (que forma parte del paquete de creació
 
 >[!NOTE]
 >
->Ajustes de procesamiento es una función avanzada de Representación de imágenes y Creación de imágenes. Póngase en contacto con el servicio de asistencia técnica de Adobe o con su representante de consultoría de Adobe para obtener formación, consultas o ambos sobre el uso de la configuración de procesamiento.
+>Ajustes de procesamiento es una función avanzada de Representación de imágenes y Creación de imágenes. Póngase en contacto con el servicio de asistencia técnica de Adobe o con el representante de consultoría de Adobe para obtener formación, consultar o ambos sobre el uso de la configuración de procesamiento.
 
-Esta configuración se controla interactivamente en la creación de imágenes. Es posible aplicar la misma configuración en Procesamiento de imágenes mediante el `rs=` comando (o con el `catalog::RenderSettings` valor). Este mecanismo se utiliza para seleccionar diferentes opciones de enfoque para cada material y modificar el comportamiento de los algoritmos de representación de la iluminación, como por ejemplo, la variación de la saturación de los resaltados o el contraste en las sombras.
+Esta configuración se controla interactivamente en la creación de imágenes. Es posible aplicar la misma configuración en Procesamiento de imágenes mediante el comando `rs=` (o con el valor `catalog::RenderSettings`). Este mecanismo se utiliza para seleccionar diferentes opciones de enfoque para cada material y modificar el comportamiento de los algoritmos de representación de la iluminación, como por ejemplo, la variación de la saturación de los resaltados o el contraste en las sombras.
 
 ## Valores de configuración de procesamiento avanzada (rs=) {#section-d9e7f341ebd44f07a4e90f1f5910726b}
 
@@ -52,7 +55,7 @@ Esta configuración se controla interactivamente en la creación de imágenes. E
   <tr> 
    <td colname="col1"> <p>W </p> </td> 
    <td colname="col2"> <p>Cantidad de USM (%). </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>500 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
@@ -298,7 +301,7 @@ Esta configuración se controla interactivamente en la creación de imágenes. E
  </tbody> 
 </table>
 
-## Configuración de procesamiento avanzado de muestra {#section-56528569eae44ecd997a289b211ff256}
+## Configuración avanzada de procesamiento de muestra {#section-56528569eae44ecd997a289b211ff256}
 
 <table id="table_062DCF66ACCC4A6997E3CA951C0A12B8"> 
  <thead> 
