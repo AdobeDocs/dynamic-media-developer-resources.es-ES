@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 797a43d2-18f5-4735-8b19-da231952b1a2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ Este archivo es un archivo de propiedades de JAVA. Se debe velar por el cumplimi
 
 Los cambios realizados en este archivo surtirán efecto poco después de guardarlo.
 
-Solo se puede cambiar la configuración que se muestra a continuación en [!DNL catalog-service.conf]. Si no hay una configuración concreta, puede agregarla en cualquier parte del archivo. Solo puede haber una instancia de cada configuración.
+En [!DNL catalog-service.conf] sólo se pueden cambiar las opciones que se indican a continuación. Si no hay una configuración concreta, puede agregarla en cualquier parte del archivo. Solo puede haber una instancia de cada configuración.
 
 `catalog.rootPath=./catalog`
 
