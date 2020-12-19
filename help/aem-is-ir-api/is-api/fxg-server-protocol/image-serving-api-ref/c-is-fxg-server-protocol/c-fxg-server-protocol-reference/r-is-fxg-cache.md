@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 10332f0d-4ed3-4981-8034-46dffa5d68b0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,8 +38,8 @@ Control de caché. Permite desactivar de forma selectiva el almacenamiento en ca
  </tr> 
 </table>
 
-Si solo se especifica un *`cacheControl`* valor, se aplica a las cachés de cliente y de servidor.
+Si solo se especifica un valor *`cacheControl`*, se aplica a las cachés de cliente y de servidor.
 
-Solicitar atributo. Se omite cuando la solicitud no devuelve una imagen de respuesta. *`clientControl`* se omite cuando el catálogo de imágenes desactiva el almacenamiento en caché del lado del cliente (si `catalog::Expiration` tiene un valor negativo).
+Solicitar atributo. Se omite cuando la solicitud no devuelve una imagen de respuesta. *`clientControl`* se ignora cuando el catálogo de imágenes desactiva el almacenamiento en caché del lado del cliente (si  `catalog::Expiration` tiene un valor negativo).
 
 Defaults to `cache=on,on`.
