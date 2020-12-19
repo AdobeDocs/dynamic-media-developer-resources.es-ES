@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: b1ed5145-e5d1-4458-94c4-00ee55f58a05
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> maxitems</span></span> </p> </td> 
-   <td> <p>El número máximo de elementos de la tabla de contenido desplegable. </p> <p>Además, puede reducir el número de elementos visibles en la lista desplegable en caso de que se recorte por el contenedor exterior. </p> <p>Cuando se establece en <span class="codeph"> 0</span> , ese componente muestra tantos elementos como sea posible, dado el contenedor al que se agrega. </p> </td> 
+   <td> <p>El número máximo de elementos de la tabla de contenido desplegable. </p> <p>Además, puede reducir el número de elementos visibles en la lista desplegable en caso de que se recorte por el contenedor exterior. </p> <p>Cuando se establece en <span class="codeph"> 0</span>, ese componente muestra tantos elementos como sea posible, dado el contenedor al que se agrega. </p> </td> 
   </tr> 
  </tbody> 
 </table>
