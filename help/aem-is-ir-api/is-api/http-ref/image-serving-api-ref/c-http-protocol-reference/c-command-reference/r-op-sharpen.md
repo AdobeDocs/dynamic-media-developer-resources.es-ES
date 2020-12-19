@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 1a00c60a-0d5c-4a99-a649-f29ebd710cf3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ La máscara de capa o la máscara compuesta también se enfocan.
 
 ## Propiedades {#section-b27f3f6a27c34233b3f76805e18b2aa7}
 
-Atributo de capa o atributo de vista. Se aplica a la capa actual o a la imagen de la vista final si `layer=comp`. Omitido por capas de efectos.
+Atributo de capa o atributo de vista. Se aplica a la capa actual o a la imagen de vista final si `layer=comp`. Omitido por capas de efectos.
 
 ## Predeterminado {#section-665709700fff458e9dbbf8a78e8ecf71}
 
@@ -36,4 +39,4 @@ Compensa el ligero desenfoque causado por el remuestreo de imágenes. También a
 
 ## Véase también {#section-d659199fde0d4c9dadebf1f09802915d}
 
-[qlt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-qlt.md#reference-f69ed0758c784b0385d979820546d352) , [op_usm=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-sharpen.md#reference-c32573230c6140f883efdaa201ea8541)
+[qlt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-qlt.md#reference-f69ed0758c784b0385d979820546d352) ,  [op_usm=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-sharpen.md#reference-c32573230c6140f883efdaa201ea8541)
