@@ -35,15 +35,15 @@ Notas de compatibilidad para sistemas operativos, navegadores y dispositivos mó
 ## Galaxy SIII {#section-dfd5f46f39834223b544b1e2f7a770c1}
 
 * Pérdida de memoria observada con los visores de catálogos electrónicos y zoom. La navegación repetida a través de marcos puede provocar que el navegador se bloquee.
-* Al tocar el Doble en un visor, es posible que se aplique zoom a toda la página en lugar de solo al visor con la escala del navegador activada.
+* Al tocar el doble en un visor, es posible que se aplique zoom a toda la página en lugar de solo al visor con la escala del navegador activada.
 
-## Galaxia S4 {#section-7effabfea75b488399e0f71cab4ce76b}
+## Galaxy S4 {#section-7effabfea75b488399e0f71cab4ce76b}
 
 * Dispositivo detectado como tableta en modo vertical con pantalla completa marcada en la configuración del navegador.
 
 ## Nexo de galaxia {#section-9340b0b026bd48e8a8a6b837b59c6dc5}
 
-* Al tocar el Doble en un visor, es posible que toda la página se acerque en lugar de solo al visor, con el ajuste de escala del navegador activado.
+* Al tocar el doble en un visor, es posible que toda la página se acerque en lugar de solo al visor, con el ajuste de escala del navegador activado.
 
 ## Galaxy Nexus 10 y Galaxy Tablet {#section-ef52bd1249fe4f358c11838f7a557a00}
 
@@ -54,7 +54,7 @@ Notas de compatibilidad para sistemas operativos, navegadores y dispositivos mó
 * La incapacidad de desactivar el zoom de pellizco nativo es una &quot;característica&quot; del envoltorio de la interfaz de usuario de HTC (HTC Sense). Esta función puede hacer que una página entera se acerque al usar el gesto de &quot;pellizcar para hacer zoom&quot; en el visor. En su lugar, utilice un gesto de toque de doble.
 * Los iconos de mapas de imagen pueden superponerse si los mapas de imagen son pequeños y están próximos entre sí.
 
-## HTML5 Video Viewer {#section-3c2dd1220dea4093b17ca2dd0a688307}
+## Visor de vídeo HTML5 {#section-3c2dd1220dea4093b17ca2dd0a688307}
 
 * `IntialBitRate` solo se admite con la reproducción de software HLS y flash HDS. No funciona cuando la reproducción utiliza el reproductor nativo.
 * No se admite la reproducción progresiva de OGG y WebM.
