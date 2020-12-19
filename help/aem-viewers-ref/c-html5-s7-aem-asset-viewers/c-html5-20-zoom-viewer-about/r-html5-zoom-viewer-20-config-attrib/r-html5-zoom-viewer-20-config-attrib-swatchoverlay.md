@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 60419120-effc-4895-8bb1-7e4b70a67c5b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '62'
+ht-degree: 11%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
    <td colname="col2"> <p>Especifica el diseño del visor en dispositivos táctiles. Cuando el parámetro se establece en <span class="codeph"> 1 </span>, el visor muestra muestras debajo de la vista principal en el escritorio; en dispositivos táctiles, las muestras se superponen en la parte superior de la vista principal. </p> <p>Cuando el parámetro se establece en <span class="codeph"> 0 </span>, las muestras se representan debajo de la vista principal en todos los tipos de dispositivos. </p> </td> 
   </tr> 
  </tbody> 
