@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 08657925-c52a-4279-8357-c26ad5c5ef3d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,15 +34,15 @@ rgn= *`coord`*, *`size`*
 
 >[!NOTE]
 >
->`rgn=` solo define un ROI sin recortar la imagen. Cuando `wid=` y/o `hei=` más grande que el tamaño también se aplica, los datos adicionales de la imagen compuesta pueden ser visibles en la imagen de respuesta final.
+>`rgn=` solo define un ROI sin recortar la imagen. Cuando se aplican también `wid=` y/o `hei=` más grandes que el tamaño, los datos adicionales de la imagen compuesta pueden ser visibles en la imagen de respuesta final.
 
 ## Propiedades {#section-53edb35f4e364d7ca13fd0886e8b0c86}
 
-atributo de Vista. Se aplica independientemente de la configuración de la capa actual.
+atributo de vista. Se aplica independientemente de la configuración de la capa actual.
 
-Todas las áreas del ROI que se extiendan fuera de la imagen compuesta se rellenan con `bgc=`.
+Cualquier área del ROI que se extienda fuera de la imagen compuesta se rellena con `bgc=`.
 
-`rgn=` se aplica antes de la escala final y la conexión con `scl=`, `wid=`, `hei=`, `fit=`, `rect=`o `align=`.
+`rgn=` se aplica antes de la escala final y la conexión con  `scl=`,  `wid=`,  `hei=`,  `fit=`,  `rect=` o  `align=`.
 
 ## Predeterminado {#section-6a3df8f670084def900ffef9dab7e94a}
 
@@ -47,4 +50,4 @@ Imagen compuesta completa ( `rgn=0,0,width,height`).
 
 ## Véase también {#section-07883760f25c4d17aedbee36b7883891}
 
-[recortar=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab) , [extender=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac), [wid=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-wid.md#reference-bfeadcb67bf4485f851eb21345527e47), [hei=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-hei.md#reference-6d6f556ccc0e4b98a815e8a5c1944a96), [scl=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-scl.md#reference-b2a74e493d0d407e98fe350551ba3fcc)align= [](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-align.md#reference-b7d6b87c75124d78884f916dd6544bc7)[](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md#reference-f11bff6d93d143d6b135de3a923bc989)[,fit=,rect=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rect.md#reference-520b90d30b4c4b4692a723e4df6adaf3)
+[recortar=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab) ,  [extender=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac),  [wid=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-wid.md#reference-bfeadcb67bf4485f851eb21345527e47),  [hei=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-hei.md#reference-6d6f556ccc0e4b98a815e8a5c1944a96),  [scl=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-scl.md#reference-b2a74e493d0d407e98fe350551ba3fcc)align= [ ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-align.md#reference-b7d6b87c75124d78884f916dd6544bc7)  [ ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md#reference-f11bff6d93d143d6b135de3a923bc989)  [,fit=,rect=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rect.md#reference-520b90d30b4c4b4692a723e4df6adaf3)
