@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 5badee0b-3bbc-4306-bc60-a606775db2bd
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '78'
+ht-degree: 10%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> siempre|nunca|límite</span> </p> </td> 
-   <td colname="col2"> <p> Habilite, limite o deshabilite la optimización para dispositivos en los que <span class="codeph"> devicePixelRatio</span> es bueno a <span class="codeph"> 1</span>. Afecta a dispositivos con pantalla de alta densidad como iPhone4 y dispositivos similares. Si está activo, el componente limita el tamaño de la solicitud de imagen IS como si el dispositivo tuviera una proporción de píxeles de <span class="codeph"> 1</span>, reduciendo así el ancho de banda. </p> </td> 
+   <td colname="col2"> <p> Habilitar, limitar o deshabilitar la optimización para dispositivos donde <span class="codeph"> devicePixelRatio</span> es bueno que <span class="codeph"> 1</span>. Afecta a dispositivos con pantalla de alta densidad como iPhone4 y dispositivos similares. Si está activo, el componente limita el tamaño de la solicitud de imagen IS como si el dispositivo tuviera una proporción de píxeles de <span class="codeph"> 1</span>, reduciendo así el ancho de banda. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> número</span></span> </p> </td> 
