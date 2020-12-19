@@ -9,8 +9,8 @@ uuid: 91ae8eb5-1d23-4fa3-a0d6-a4a0ed0eb104
 translation-type: tm+mt
 source-git-commit: a0983053795cc119eb57386c005e1f8a7c2fa3e4
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ Instrucciones para instalar la API de visores de Dynamic Media.
 
 Instale y pruebe el servicio de imágenes antes de instalar los visores del servicio de imágenes.
 
-Copie los archivos de visores de IS en el disco duro y, a continuación, implemente el `s7viewers.war` archivo en el `../ImageServing/webapps` directorio. Consulte la documentación del servicio de imágenes para obtener instrucciones sobre cómo implementar, inicio, detener y administrar el servidor de imágenes.
+Copie los archivos de visores de IS en el disco duro y luego implemente el archivo `s7viewers.war` en el directorio `../ImageServing/webapps`. Consulte la documentación del servicio de imágenes para obtener instrucciones sobre cómo implementar, inicio, detener y administrar el servidor de imágenes.
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ Copie los archivos de visores de IS en el disco duro y, a continuación, impleme
 **Para instalar los visores en el mismo servidor**
 
 1. Cambie el nombre del archivo .war del visor al contexto deseado e implemente el archivo en la ubicación que desee.
-1. Defina `this.isViewerRoot` el parámetro en `config.js`.
-1. Se abre `config.js` en la raíz de la carpeta del visor recién creada.
-1. Establezca el parámetro `this.isViewerRoot = "/s7viewers"` en el contexto del `s7viewers.war` archivo. Por ejemplo, `"/s7viewers-4.0"`. Guarde y cierre el archivo.
+1. Establezca el parámetro `this.isViewerRoot` en `config.js`.
+1. Abra `config.js` ubicado en la raíz de la carpeta del visor recién creada.
+1. Establezca el parámetro `this.isViewerRoot = "/s7viewers"` en el contexto del archivo `s7viewers.war`. Por ejemplo, `"/s7viewers-4.0"`. Guarde y cierre el archivo.
 1. Guarde el archivo y cierre.
