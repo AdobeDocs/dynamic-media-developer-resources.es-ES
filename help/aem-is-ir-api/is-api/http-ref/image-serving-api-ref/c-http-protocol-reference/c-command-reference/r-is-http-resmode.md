@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 8e12aa06-072c-4e7a-84e6-01437c43c57b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '250'
+ht-degree: 16%
 
 ---
 
@@ -21,19 +24,19 @@ Modo de remuestreo. Selecciona el algoritmo de remuestreo o interpolación que s
 <table id="table_FD658AC521E24EB9ADBB87F98549BC3B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bilin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bilin  </span> </p> </td> 
    <td colname="col2"> <p>Selecciona la interpolación bilineal estándar. Método de remuestreo más rápido; pueden verse algunos defectos de solapamiento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bicub </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bicub  </span> </p> </td> 
    <td colname="col2"> <p>Selecciona la interpolación bicúbica. Más uso de CPU que interpolación bilineal, pero producirá imágenes más enfocadas con artefactos de solapamiento menos evidentes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> sharp2 </span> </p> </td> 
-   <td colname="col2"> <p>selecciona una función de ventana Lanczos modificada como un algoritmo de interpolación. Puede producir unos resultados algo más enfocados que la opción bicúbica con un uso mayor de CPU. <span class="codeph"> el punto </span> ha sido reemplazado por el <span class="codeph"> punto2 </span>, que tiene menos probabilidades de causar artefactos de solapamiento (Moiré). </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sharp2  </span> </p> </td> 
+   <td colname="col2"> <p>selecciona una función de ventana Lanczos modificada como un algoritmo de interpolación. Puede producir unos resultados algo más enfocados que la opción bicúbica con un uso mayor de CPU. <span class="codeph"> el punto  </span> se ha sustituido por el  <span class="codeph"> punto2  </span>, que tiene menos probabilidades de causar artefactos de solapamiento (Moiré). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bisharp </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bisharp  </span> </p> </td> 
    <td colname="col2"> <p>Selecciona el reampliador predeterminado de Photoshop para reducir el tamaño de la imagen, que se denomina "enfoque bicúbico" en Adobe Photoshop. </p> </td> 
   </tr> 
  </tbody> 
