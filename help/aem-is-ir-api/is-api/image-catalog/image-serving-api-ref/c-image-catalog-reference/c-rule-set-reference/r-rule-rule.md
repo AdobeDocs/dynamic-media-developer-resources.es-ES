@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 8b8e5b06-a0b7-47e1-942d-0297d08c313b
 translation-type: tm+mt
 source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+workflow-type: tm+mt
+source-wordcount: '311'
+ht-degree: 7%
 
 ---
 
 
 # regla{#rule}
 
-Solicitar elemento de regla. Una o más reglas son opcionales en el `<ruleset>` elemento.
+Solicitar elemento de regla. Una o más reglas son opcionales en el elemento `<ruleset>`.
 
 ## Atributos {#section-d4a3b0496c0c4aa5bd7da87203b9379b}
 
@@ -22,7 +25,7 @@ Solicitar elemento de regla. Una o más reglas son opcionales en el `<ruleset>` 
 
 `Replace = "first" | "all"`: Opcional. El valor predeterminado es &quot;first&quot;.
 
-`RequestType` = *&quot;`types`&quot;*: Opcional. Especifica el contexto de entrada al que se aplica la regla. *`types`* es una lista separada por comas, que puede incluir uno o varios de los tokens enumerados en la tabla siguiente. Si no `RequestType` se especifica, la regla se aplica a las solicitudes recibidas en todos los contextos admitidos.
+`RequestType` =  *&quot;`types`&quot;*: Opcional. Especifica el contexto de entrada al que se aplica la regla. *`types`* es una lista separada por comas, que puede incluir uno o varios de los tokens enumerados en la tabla siguiente. Si no se especifica `RequestType`, la regla se aplica a las solicitudes recibidas en todos los contextos admitidos.
 
 <table id="table_4935E1ED03624DA6AF3F8DC9AAA10237"> 
  <thead> 
@@ -51,14 +54,14 @@ Solicitar elemento de regla. Una o más reglas son opcionales en el `<ruleset>` 
  </tbody> 
 </table>
 
-**`Name = "text"`**: Opcional. Se utiliza para identificar el `<rule>` elemento en los registros de depuración y los mensajes de error.
+**`Name = "text"`**: Opcional. Se utiliza para identificar el elemento `<rule>` en los registros de depuración y los mensajes de error.
 
 `  *`Atributo`* ="value"`: Opcional. `<rule>` pueden definir cualquiera de los atributos siguientes en cualquier combinación. Si se especifica y la regla se coincide correctamente, se anularán los atributos de catálogo correspondientes para esta solicitud. El valor predeterminado es `RequestType="is"`.
 
 <table id="table_67AED5BEADDF4DAC99B5EF46438C1ABC"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> <span class="varname"> Atributo </span></b> </th> 
+   <th class="entry"> <b> <span class="varname"> Atributo  </span> </b> </th> 
    <th class="entry"> <p>Atributo de catálogo de imágenes correspondiente </p> </th> 
   </tr> 
  </thead>
@@ -77,7 +80,7 @@ Solicitar elemento de regla. Una o más reglas son opcionales en el `<ruleset>` 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> MaxPix</span> </p> </td> 
-   <td> <p><a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-maxpix.md#reference-e167d396ac794079ba8b5e6eb16eeda5" type="reference" format="dita" scope="local"> atributo::MaxPix </a> </p> </td> 
+   <td> <p><a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-maxpix.md#reference-e167d396ac794079ba8b5e6eb16eeda5" type="reference" format="dita" scope="local"> atributo::MaxPix  </a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> RequestLock</span> </p> </td> 
@@ -104,13 +107,13 @@ Solicitar elemento de regla. Una o más reglas son opcionales en el `<ruleset>` 
 
 Consulte la descripción del atributo correspondiente del catálogo de imágenes para obtener más información.
 
-Los atributos Caducidad solo anulan los valores de atributo predeterminados. La anulación se omite si se aplica un valor específico `catalog::Expiration` a la solicitud.
+Los atributos Caducidad solo anulan los valores de atributo predeterminados. La anulación se omite si se aplica un valor `catalog::Expiration` específico a la solicitud.
 
 ## Datos {#section-8fce013a4c724da58af3fee4e7a90e72}
 
 <table id="simpletable_4F1C03671DA942A3A332B2C686A63C52"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> &lt;expresión&gt;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> &lt;expression&gt;</span> </p></td> 
   <td class="stentry"> <p>Opcional </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -118,7 +121,7 @@ Los atributos Caducidad solo anulan los valores de atributo predeterminados. La 
   <td class="stentry"> <p>Opcional </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> &lt;address sfilter&gt;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> &lt;addressfilter&gt;</span> </p></td> 
   <td class="stentry"> <p>Opcional </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -129,10 +132,10 @@ Los atributos Caducidad solo anulan los valores de atributo predeterminados. La 
 
 ## Notas {#section-0c5fbc363070419d8c9800b0c02dc9f9}
 
-Si se especifican `<expression>` y `<substitution>` y no se utilizan subcadenas capturadas, la primera subcadena coincidente se sustituye por `<substitution>`.
+Si se especifican `<expression>` y `<substitution>` y no se utilizan subcadenas capturadas, la primera subcadena coincidente se reemplaza por `<substitution>`.
 
-Si no `<expression>` se especifica, cualquier ruta coincide y `<substitution>` se anexa al final de la ruta.
+Si no se especifica `<expression>`, cualquier ruta coincide y `<substitution>` se anexa al final de la ruta.
 
-Si no `<substitution>` se especifica, no se produce ninguna transformación de ruta o consulta, pero se sobrescriben los atributos de catálogo especificados. Si `<substitution>` está vacía, se elimina la subcadena coincidente.
+Si no se especifica `<substitution>`, no se produce ninguna transformación de ruta o consulta, pero se sobrescriben los atributos de catálogo especificados. Si `<substitution>` está vacío, se elimina la subcadena coincidente.
 
-El `<addressfilter>` se aplica solo cuando se produce una coincidencia y antes de que se apliquen las reglas de consulta.
+El `<addressfilter>` se aplica solamente cuando se produce una coincidencia y antes de que se apliquen las reglas de consulta.
