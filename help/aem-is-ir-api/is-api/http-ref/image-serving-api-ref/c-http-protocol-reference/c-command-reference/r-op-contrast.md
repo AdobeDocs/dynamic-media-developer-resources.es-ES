@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: d17b0b49-792b-41ce-a154-5e7635c9ab43
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# op_compare{#op-contrast}
+# op_contraste{#op-contrast}
 
 Ajustar contraste. Ajusta el contraste de la imagen aumentando el brillo de los píxeles con más del 50% de brillo y reduciendo el brillo de los píxeles con menos del 50% de brillo.
 
@@ -37,6 +40,6 @@ Capa. Se aplica a la capa actual o a la imagen compuesta si `layer=comp`. Omitid
 
 Disminuya el contraste y el enfoque de una capa de imagen de mayor calidad para que coincida visualmente con una foto de fondo de baja calidad:
 
-… `&op_blur=3&op_contrast=-12&`
+... `&op_blur=3&op_contrast=-12&`
 
 Una versión futura puede utilizar el brillo medio de la imagen en lugar de un brillo fijo del 50%.
