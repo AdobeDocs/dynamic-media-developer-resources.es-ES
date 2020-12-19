@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 90664bad-10e4-47fb-a630-a5c25a5beb79
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '61'
+ht-degree: 9%
 
 ---
 
@@ -19,8 +22,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_53A26E1617CB411B9586203CB9AA1AB2"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> none|playPause</span></span> </p> </td> 
-   <td colname="col2"> <p> Configura la asignación de un solo clic o toque para alternar la reproducción y la pausa. Si se establece en <span class="codeph"> ninguno</span> , se deshabilita el toque o clic único para reproducir o pausar. Si se establece en <span class="codeph"> playPause</span>, al hacer clic en el vídeo se alternará entre la reproducción y la pausa del vídeo. En algunos dispositivos, puede utilizar controles nativos. En ese caso, <span class="codeph"> el comportamiento de un solo clic</span> está desactivado. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> none|playPause</span> </span> </p> </td> 
+   <td colname="col2"> <p> Configura la asignación de un solo clic o toque para alternar la reproducción y la pausa. Si se establece en <span class="codeph"> none</span> deshabilita el toque o clic único para reproducir/pausa. Si se establece en <span class="codeph"> playPause</span>, al hacer clic en el vídeo se alternará entre la reproducción y la pausa del vídeo. En algunos dispositivos, puede utilizar controles nativos. En ese caso, se desactiva el comportamiento de <span class="codeph"> singleclick</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
