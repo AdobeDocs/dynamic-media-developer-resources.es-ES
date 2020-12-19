@@ -9,7 +9,7 @@ uuid: 73745363-2011-453f-b7a0-96de4b44186d
 translation-type: tm+mt
 source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,11 @@ Utilice esta configuración de servidor para las cachés de servidor.
 
 ## PS::cache.rootPaths - Carpetas de datos de caché {#section-f0aa808304d74ecdb0c3644f11906c53}
 
-Carpeta(s) raíz(es) de la caché de disco de Platform Server. Una o más rutas absolutas de archivos o rutas relativas a *[!DNL install_folder]*, separadas por punto y coma (;). Los datos de la caché de respuesta HTTP se distribuirán uniformemente en todas las carpetas especificadas. Las memorias caché de las memorias caché auxiliares (catálogos de imágenes compilados y datos de imágenes externas) se ubicarán en la carpeta de caché principal (la primera carpeta de la lista).
+Las carpetas raíz de la caché de disco del servidor de plataformas. Una o más rutas absolutas de archivos o rutas relativas a *[!DNL install_folder]*, separadas por punto y coma (;). Los datos de la caché de respuesta HTTP se distribuirán uniformemente en todas las carpetas especificadas. Las memorias caché de las memorias caché auxiliares (catálogos de imágenes compilados y datos de imágenes externas) se ubicarán en la carpeta de caché principal (la primera carpeta de la lista).
 
-## PS::cache.maxSize: tamaño de caché de datos de respuesta {#section-ed2e1e7ba4bd4e13b77bb20c4cacddb4}
+## PS::cache.maxSize - Tamaño de caché de datos de respuesta {#section-ed2e1e7ba4bd4e13b77bb20c4cacddb4}
 
-Tamaño máximo de la caché de respuesta HTTP en bytes. Esta configuración limita la cantidad de datos reales que se van a almacenar en caché; no tiene en cuenta la sobrecarga del sistema de archivos. (Consulte [Caché](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-response-data-cache.md#concept-81ea996c242441f2a69f7e9d9b3a29ca)de datos de respuesta). Si se especifican varias carpetas de datos de caché, los datos de caché se distribuirán uniformemente en todas las carpetas. El valor de `cache.maxSize` in [!DNL PlatformServer.conf] está en bytes.
+Tamaño máximo de la caché de respuesta HTTP en bytes. Esta configuración limita la cantidad de datos reales que se van a almacenar en caché; no tiene en cuenta la sobrecarga del sistema de archivos. (Consulte [Caché de datos de respuesta](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-response-data-cache.md#concept-81ea996c242441f2a69f7e9d9b3a29ca)). Si se especifican varias carpetas de datos de caché, los datos de caché se distribuirán uniformemente en todas las carpetas. El valor de `cache.maxSize` en [!DNL PlatformServer.conf] está en bytes.
 
 ## PS::cache.maxEntries - Entradas máximas de caché de datos de respuesta {#section-5603e327e90542a5b50aeeb27b080410}
 
