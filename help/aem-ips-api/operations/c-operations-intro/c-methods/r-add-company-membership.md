@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: be55041c-fc4e-46e8-bd2c-81b5931406f5
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -40,7 +43,7 @@ La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-5469f88bac7047cca131faa6b021e437}
 
-En este ejemplo se utiliza ` *`companyHandleArray`*` para agregar un usuario a una sola compañía.
+Este ejemplo utiliza ` *`companyHandleArray`*` para agregar un usuario a una sola compañía.
 
 **Solicitar**
 
