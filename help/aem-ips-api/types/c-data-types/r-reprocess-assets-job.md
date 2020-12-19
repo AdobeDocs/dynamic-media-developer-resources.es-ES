@@ -55,7 +55,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> preserveCrop</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
-   <td colname="col3"> <p>Controla la preservación de cualquier definición de cultivo existente. El valor predeterminado es true.</p> <p>Si se proporciona el parámetro manualCropOptions y los valores correspondientes, los nuevos valores (excluyendo 0,0,0,0) se aplican al recurso independientemente del valor preserveCrop.</p><p>Si <i>no se proporciona</i> el parámetro manualCropOptions, se mantiene el valor de preserveCrop. Y, en el caso de true, se conservan los valores existentes de preserveCrop; en el caso de false, se eliminan los valores preserveCrop.</p><p>Ejemplo:</p><p><p>&lt;preserveCrop&gt;false&lt;/preserveCrop&gt;<br />&lt;manualCropOptions&gt;<br />&lt;left&gt;190&lt;/left&gt;<br />&lt;right&gt;310&lt;/right&gt;<br />&lt;top&gt;160&lt;/top&gt;<br />&lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualCropOptions&gt;</p> </td> 
+   <td colname="col3"> <p>Controla la preservación de cualquier definición de cultivo existente. El valor predeterminado es true.</p> <p>Si se proporciona el parámetro manualCropOptions y los valores correspondientes, los nuevos valores (excluyendo 0,0,0,0) se aplican al recurso independientemente del valor preserveCrop.</p><p>Si <i>no</i> proporciona el parámetro manualCropOptions, se mantiene el valor de preserveCrop. Y, en el caso de true, se conservan los valores existentes de preserveCrop; en el caso de false, se eliminan los valores preserveCrop.</p><p>Ejemplo:</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />    &lt;left&gt;190&lt;/left&gt;<br />    &lt;right&gt;310&lt;/right&gt;<br />    &lt;top&gt;160&lt;/top&gt;<br />    &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </p> </td> 
@@ -145,7 +145,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> inDesignOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipos:InDesignOptions</span> </p> </td> 
-   <td colname="col3"> <p>Opciones para cargar archivos de InDesign en el servidor de imágenes. </p> </td> 
+   <td colname="col3"> <p>Opciones para cargar archivos InDesign en el servidor de imágenes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> knockoutBackground</span> </span> </p> </td> 
@@ -162,13 +162,13 @@ Sintaxis
 
 **Notas**
 
-Las opciones para `*CropOptions` incluir son:
+Las opciones para `*CropOptions` incluyen:
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-Las opciones para `*PublishJob` incluir son:
+Las opciones para `*PublishJob` incluyen:
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`
