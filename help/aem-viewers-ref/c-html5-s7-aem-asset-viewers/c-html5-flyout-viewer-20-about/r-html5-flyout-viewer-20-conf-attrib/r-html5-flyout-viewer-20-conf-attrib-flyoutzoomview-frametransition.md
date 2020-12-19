@@ -1,18 +1,21 @@
 ---
 description: nulo
 seo-description: nulo
-seo-title: Transición FlyoutZoomView.frame
+seo-title: FlyoutZoomView.frametransition
 solution: Experience Manager
-title: Transición FlyoutZoomView.frame
+title: FlyoutZoomView.frametransition
 topic: Dynamic media
 uuid: 39f74e9f-f04c-4c41-9669-029499388708
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '64'
+ht-degree: 14%
 
 ---
 
 
-# Transición FlyoutZoomView.frame{#flyoutzoomview-frametransition}
+# FlyoutZoomView.frametransition{#flyoutzoomview-frametransition}
 
 ` [FlyoutZoomView.|<containerId>_flyout.]frametransition=none|fade[, *`duración`*]`
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ninguno|fundido</span> </p> </td> 
-   <td colname="col2"> <p> Especifica el tipo de efecto aplicado a la vista principal en el cambio de recurso. El <span class="codeph"> ninguno</span> significa transición, el cambio de vista principal ocurre instantáneamente. El <span class="codeph"> fundido</span> activa la transición de fundido cruzado donde la imagen antigua se desvanece y la nueva imagen se desvanece </p> </td> 
+   <td colname="col2"> <p> Especifica el tipo de efecto aplicado a la vista principal en el cambio de recurso. El <span class="codeph"> none</span> significa que no hay transición, el cambio de vista principal se produce instantáneamente. El <span class="codeph"> fundido</span> activa la transición de fundido cruzado donde la imagen antigua se desvanece y la nueva imagen se desvanece </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> duración</span></span> </p> </td> 
