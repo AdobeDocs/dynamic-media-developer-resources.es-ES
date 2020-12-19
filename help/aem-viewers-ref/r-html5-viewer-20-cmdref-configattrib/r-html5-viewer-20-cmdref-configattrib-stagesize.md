@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: ad9404e4-a546-4db7-bb2d-d81a304dcb36
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> anchura</span>,<span class="varname"> altura</span></span> </p> </td> 
-   <td colname="col2"> <p> Anchura y altura totales del visor. El valor <span class="codeph"> 0,0</span> significa que el tamaño del visor se ajusta a las reglas CSS y al diseño de la página web. </p> </td> 
+   <td colname="col2"> <p> Anchura y altura totales del visor. El valor de <span class="codeph"> 0,0</span> significa que el tamaño del visor se ajusta a las reglas CSS y al diseño de la página web. </p> </td> 
   </tr> 
  </tbody> 
 </table>
