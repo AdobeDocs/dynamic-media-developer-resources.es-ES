@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 19e9599e-800b-4c22-9325-fc47b9e5e19a
 translation-type: tm+mt
 source-git-commit: 5717550d2dea8ec086875e770ff8f200aaa75ff3
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Debe instalar el servicio de imágenes para poder utilizarlo.
 
 El servicio de imágenes incluye dos componentes principales: el Servidor de imágenes, que es un ejecutable independiente de código nativo, y el Servidor de plataformas, que es una aplicación web Java independiente y un servidor de aplicaciones. El procesamiento de imágenes forma parte de estos componentes del servidor.
 
-En las instrucciones posteriores, `install_root` hace referencia a la carpeta raíz en la que están instalados el servicio de imágenes y el procesamiento de imágenes, y `server:port` hace referencia al nombre de host o la dirección IP y el número de puerto configurados como el puerto de escucha principal para el servidor de plataformas.
+En las instrucciones posteriores, `install_root` hace referencia a la carpeta raíz en la que se instalan el servicio de imágenes y el procesamiento de imágenes y `server:port` hace referencia al nombre de host o la dirección IP y el número de puerto configurados como el puerto de escucha principal para el servidor de plataforma.
 
 * [Licencias](c-licensing.md)
 * [Contenido](c-contents.md)
