@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 23f1952f-71b7-4b2a-917d-8161ea855ac9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ Cinco o seis números enteros separados por comas. Los números tercero y cuarto
 
 `creator-id, creator-pin, durability [ , chroma ]`
 
-Digimarc proporciona `creator-id` y `creator-pin` cuando se compra el servicio. Los valores no utilizados deben dejarse vacíos.
+Los `creator-id` y `creator-pin` son proporcionados por Digimarc cuando se compra el servicio. Los valores no utilizados deben dejarse vacíos.
 
 `durability` especifica la intensidad de incrustación de la marca de agua Digimarc. Puede ser 1, 2, 3 ó 4, con 1 indicando la menor duración y 4 la mayor durabilidad.
 
