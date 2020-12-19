@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 6e3b95b8-d585-4164-8665-6211000689fe
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 8%
 
 ---
 
@@ -22,7 +25,7 @@ Indica si el visor empieza a cargar contenido de vídeo antes de que se inicio l
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Si se establece en <span class="codeph"> 1 </span> , el vídeo empieza a descargarse inmediatamente después de que se haya configurado el recurso; de lo contrario, cargue los inicios previamente solo después de que el usuario final o una llamada de API inicien la reproducción. </p> <p>Si se establece en <span class="codeph"> 0 </span> , es posible que determinadas funciones no funcionen hasta que se inicio la reproducción; específicamente, la operación de búsqueda no actualizará el fotograma de vídeo. Si la imagen de póster está desactivada, el visor se muestra como un área vacía en lugar del primer fotograma de vídeo. </p> <p>Tenga en cuenta que la desactivación de la carga previa de vídeo puede omitirse en determinadas versiones de los exploradores Internet Explorer 11 y Edge. </p> </td> 
+   <td colname="col2"> <p> Si se establece en <span class="codeph"> 1 </span>, el vídeo empieza a descargarse inmediatamente después de que se haya configurado el recurso; de lo contrario, cargue los inicios previamente solo después de que el usuario final o una llamada de API inicien la reproducción. </p> <p>Si se establece en <span class="codeph"> 0 </span>, es posible que determinadas funciones no funcionen hasta que se inicio la reproducción; específicamente, la operación de búsqueda no actualizará el fotograma de vídeo. Si la imagen de póster está desactivada, el visor se muestra como un área vacía en lugar del primer fotograma de vídeo. </p> <p>Tenga en cuenta que la desactivación de la carga previa de vídeo puede omitirse en determinadas versiones de los exploradores Internet Explorer 11 y Edge. </p> </td> 
   </tr> 
  </tbody> 
 </table>
