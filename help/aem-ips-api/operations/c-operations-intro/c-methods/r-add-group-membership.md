@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: a8e25f27-c300-424d-83ac-e41bb4cb7964
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,13 +42,13 @@ Sintaxis
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Gestionar al usuario cuya pertenencia al grupo desee agregar. </p> </td> 
+   <td colname="col4"> <p>Gestionar al usuario cuya pertenencia al grupo desea agregar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> groupHandleArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> groupHandleArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:HandleArray</span> </td> 
    <td colname="col3"> <p>Sí </p> </td> 
    <td colname="col4"> <p>Matriz de identificadores de los grupos a los que desea que pertenezca la compañía. </p> </td> 
