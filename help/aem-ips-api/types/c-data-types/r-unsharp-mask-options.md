@@ -9,8 +9,8 @@ uuid: 73073de0-41b6-471c-8887-f6b94ed2af90
 translation-type: tm+mt
 source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 12%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ Configuración que ayuda a mejorar el enfoque de la imagen para los archivos TIF
 
 ## Parámetros {#section-c3f0d03136ba4422819cb463bd393885}
 
-Especifique un valor para `unsharpMaskOptions` las opciones con `minOccurs=" *`n`*".`
+Especifique un valor para las opciones `unsharpMaskOptions` con `minOccurs=" *`n`*".`
 
 <table id="table_D1392963C5694969A9D546F82DB6F45C">
  <thead>
@@ -59,13 +59,13 @@ Especifique un valor para `unsharpMaskOptions` las opciones con `minOccurs=" *`n
    <td colname="col3"><p>Determina cómo deben ser diferentes los píxeles del área circundante antes de que se consideren píxeles de borde y se puedan enfocar. 
      <ul id="ul_117E556E3ECF42CC878DD80D338D19CA">
       <li id="li_CFEE76DB78BF437E8463C9089486F8A6">Intervalo: 0 - 255 (sólo enteros). </li>
-      <li id="li_77113DC2698A4D48B11288718766E6A2"> </li>
+      <li id="li_77113DC2698A4D48B11288718766E6A2">Predeterminado: 6 </li>
      </ul></p></td>
   </tr>
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> monocromo</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:int</span></td>
-   <td colname="col3"><p>Los valores incluyen <span class="codeph"> 0</span> o <span class="codeph"> 1</span> solamente. </p><p>Establezca en <span class="codeph"> 0</span> para aplicar a cada componente de color por separado o en <span class="codeph"> 1</span> para aplicar solo al brillo (intensidad) de la imagen. La máscara de capa o la máscara compuesta también se enfoca. </p><p><span class="codeph"><span class="varname"> el monocromo</span></span> se ignora en las imágenes en escala de grises. </p></td>
+   <td colname="col3"><p>Los valores incluyen sólo <span class="codeph"> 0</span> o <span class="codeph"> 1</span>. </p><p>Establezca <span class="codeph"> 0</span> para aplicar a cada componente de color por separado o <span class="codeph"> 1</span> para aplicar solo al brillo (intensidad) de la imagen. La máscara de capa o la máscara compuesta también se enfoca. </p><p><span class="codeph"><span class="varname"> los </span></span> monocromos se omiten en las imágenes en escala de grises. </p></td>
   </tr>
  </tbody>
 </table>
@@ -84,9 +84,9 @@ Especifique un valor para `unsharpMaskOptions` las opciones con `minOccurs=" *`n
     </complexType>
 ```
 
-## Utilizado por {#section-db8124a5468b498694a780f8a56a4560}
+## Usado por {#section-db8124a5468b498694a780f8a56a4560}
 
-El `unsharpMaskOptions` tipo lo utiliza:
+El tipo `unsharpMaskOptions` lo utiliza:
 
 * [ReprocessAssetsJob](../../types/c-data-types/r-reprocess-assets-job.md#reference-a303f7832ae44fdab1dca7cc8bef3fa3)
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
