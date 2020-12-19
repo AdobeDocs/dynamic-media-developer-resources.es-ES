@@ -9,8 +9,8 @@ uuid: 1e6827db-8c5e-47db-b7ff-4e681e107e57
 translation-type: tm+mt
 source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -59,9 +59,9 @@ Ajuste de carga para procesar archivos ZIP y TAR como recursos principales (Ning
     </complexType>
 ```
 
-## Utilizado por {#section-b2a829cf5511412e968bb2000f85cc31}
+## Usado por {#section-b2a829cf5511412e968bb2000f85cc31}
 
-El `unCompressionOptions` tipo lo utiliza:
+El tipo `unCompressionOptions` lo utiliza:
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
