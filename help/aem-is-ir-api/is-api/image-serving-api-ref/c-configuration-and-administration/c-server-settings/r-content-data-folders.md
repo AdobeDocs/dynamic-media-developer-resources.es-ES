@@ -25,11 +25,11 @@ Ubicación de todos los datos de origen, incluidas las imágenes, las fuentes y 
 
 ## PS::staticContent.rootPath - Carpetas raíz de datos de contenido estático {#section-a4f5b6942b7b4abdbf825b1f2e932cfe}
 
-Ubicación de los datos de fuentes de contenido estático que se van a entregar a través del [!DNL /is/static] contexto. Puede ser una o más rutas absolutas de archivos o rutas relativas a *[!DNL install_folder]*, separadas con punto y coma. Si está vacío, *[!DNL install_folder]* es la raíz predeterminada.
+La ubicación de los datos de fuentes de contenido estático que se va a entregar a través del contexto [!DNL /is/static]. Puede ser una o más rutas absolutas de archivos o rutas relativas a *[!DNL install_folder]*, separadas por punto y coma. Si está vacío, *[!DNL install_folder]* es la raíz predeterminada.
 
-Se pueden especificar varios valores separados por punto y coma para distribuir contenido estático en varios sistemas de archivos. Generalmente se establece en los mismos valores que `IS::RootPath`.
+Se pueden especificar varios valores separados por punto y coma para distribuir contenido estático en varios sistemas de archivos. Generalmente se configura en los mismos valores que `IS::RootPath`.
 
-El servidor de Platform prueba las rutas raíz en el orden especificado hasta que se encuentra el archivo solicitado.
+Platform Server prueba las rutas raíz en el orden especificado hasta que se encuentra el archivo solicitado.
 
 >[!NOTE]
 >
@@ -37,4 +37,4 @@ El servidor de Platform prueba las rutas raíz en el orden especificado hasta qu
 
 ## IS::SaveDirectory - Archivo Guardar carpeta raíz {#section-1c517f8d49ce4cb8b9013e520bf309c9}
 
-Ruta de acceso raíz para `attribute::SavePath` (utilizada por `req=saveToFile`). El servidor de imágenes debe tener permisos de acceso de creación para la subcarpeta en la que creará archivos de imagen.
+La ruta raíz para `attribute::SavePath` (utilizada por `req=saveToFile`). El servidor de imágenes debe tener permisos de acceso de creación para la subcarpeta en la que creará archivos de imagen.
