@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: b1176c1a-9ec3-4a95-9f91-97f9f168c252
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '58'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +21,7 @@ Elimine cualquier atributo de un s7:elementID determinado.
 
 `deleteAttr.elementID={attributeName%26attributeName}`
 
-Si un elemento de nodo FXG tiene un elemento `s7:elementID` definido, los atributos de ese nodo se pueden eliminar con este comando.
+Si un elemento de nodo FXG tiene definida una `s7:elementID`, los atributos de ese nodo se pueden eliminar con este comando.
 
 ## Ejemplo {#section-dece7192384a412c9afdfbda6f08bc97}
 
