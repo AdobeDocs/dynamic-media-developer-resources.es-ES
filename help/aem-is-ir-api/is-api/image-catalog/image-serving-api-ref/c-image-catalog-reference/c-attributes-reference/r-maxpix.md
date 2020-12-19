@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 22c5fac8-1e64-4917-8bb8-69a95ab549cb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '116'
+ht-degree: 3%
 
 ---
 
@@ -20,7 +23,7 @@ El servidor devuelve un error si una solicitud provoca una imagen de respuesta c
 
 ## Propiedades {#section-b175425b9e9f48e0b1a71640f6a9e936}
 
-Dos números enteros, mayores que 0, separados por coma. Anchura y altura en píxeles. También se puede configurar para `0,0` permitir cualquier tamaño de imagen de respuesta sin limitaciones.
+Dos números enteros, mayores que 0, separados por coma. Anchura y altura en píxeles. También se puede establecer en `0,0` para permitir cualquier tamaño de imagen de respuesta sin limitaciones.
 
 ## Predeterminado {#section-1003537434da432fb2af100ecdbf9d72}
 
@@ -28,4 +31,4 @@ Se hereda de `default::MaxPix` si no está definida o si está vacía.
 
 ## Véase también {#section-7385697a1b86482bba19db894f7af95b}
 
-[wid=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-wid.md#reference-bfeadcb67bf4485f851eb21345527e47) , [hei=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-hei.md#reference-6d6f556ccc0e4b98a815e8a5c1944a96)
+[wid=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-wid.md#reference-bfeadcb67bf4485f851eb21345527e47) ,  [hei=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-hei.md#reference-6d6f556ccc0e4b98a815e8a5c1944a96)
