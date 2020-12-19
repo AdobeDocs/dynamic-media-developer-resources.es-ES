@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 5fef90d1-0507-497b-9187-869672996852
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Comandos del efecto Capa{#layer-effect-commands}
+# Comandos de efecto de capa{#layer-effect-commands}
 
 Estos comandos se pueden utilizar para definir efectos de capa, como efectos de sombra paralela o resplandor. Las capas de efectos omiten todos los demás comandos.
 
