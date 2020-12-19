@@ -8,11 +8,14 @@ topic: Scene7 Image Production System API
 uuid: 7f442019-37a9-4473-be92-a952a7a67664
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# batchGetAssetPublishContext{#batchgetassetpublishcontexts}
+# batchGetAssetPublishContexts{#batchgetassetpublishcontexts}
 
 Devuelve los contextos de publicación de los recursos marcados para la publicación.
 
@@ -34,6 +37,7 @@ Sintaxis
 >
 >* El usuario debe tener acceso de lectura para devolver los recursos.
 >* Todos los usuarios tienen acceso a la compañía compartida.
+
 >
 
 
@@ -45,7 +49,7 @@ Sintaxis
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | Sí | Manejar a la compañía. |
-| ` *`assetHandleArray`*` | ` `tipos:HandleArray&quot; | Sí | lista de recursos que desea consulta para contextos activos (marcados para publicación). |
+| ` *`assetHandleArray`*` | ` `tipos:HandleArray&quot; | Sí | Lista de recursos que desea consulta para contextos activos (marcados para publicación). |
 
 **Salida (batchGetAssetPublishContextReturn)**
 
