@@ -1,18 +1,21 @@
 ---
 description: Atributo de configuración para el visor de vídeo.
 seo-description: Atributo de configuración para el visor de vídeo.
-seo-title: EmbedShare.embesize
+seo-title: EmbedShare.embedsizes
 solution: Experience Manager
-title: EmbedShare.embesize
+title: EmbedShare.embedsizes
 topic: Dynamic media
 uuid: 1fc6057f-9e25-4e94-b516-e3e7af60188c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '63'
+ht-degree: 11%
 
 ---
 
 
-# EmbedShare.embesize{#embedshare-embedsizes}
+# EmbedShare.embedsizes{#embedshare-embedsizes}
 
 Atributo de configuración para el visor de vídeo.
 
