@@ -9,13 +9,13 @@ uuid: 49e99f49-5bab-460f-a5f4-c966027b77fe
 translation-type: tm+mt
 source-git-commit: 88d3a65852365d7fcd7631ff5b5f7215b7c48618
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Data types{#data-types}
+# Tipos de datos{#data-types}
 
 + [AcoInfo](r-aco-info.md)
 + [ActiveJob](r-active-job.md)
@@ -96,7 +96,7 @@ ht-degree: 5%
 + [IllustratorOptions](r-illustrator-options.md)
 + [ImageFieldUpdate](r-image-field-update.md)
 + [ImageFieldUpdateArray](r-image-field-update-array.md)
-+ [JobFormat](r-image-format.md)
++ [ImageFormat](r-image-format.md)
 + [ImageFormatArray](r-image-format-array.md)
 + [ImageInfo](r-image-info.md)
 + [Mapa de imagen](r-image-map.md)
@@ -162,13 +162,13 @@ ht-degree: 5%
 + [Proyecto](r-project.md)
 + [ProjectArray](r-project-array.md)
 + [Propiedad](r-property.md)
-+ [Proyecto PropertyArray](r-property-array.md)
++ [PropertyArray](r-property-array.md)
 + [PropertySet](r-property-set.md)
 + [PropertySetArray](r-property-set-array.md)
 + [PropertySetType](r-property-set-type.md)
 + [PropertySetTypeArray](r-property-set-type-array.md)
 + [PsdInfo](r-psd-info.md)
-+ [ActiveContext](r-publish-context.md)
++ [PublishContext](r-publish-context.md)
 + [PublishContextArray](r-publish-context-array.md)
 + [PublishHistory](r-publish-history.md)
 + [PublishHistoryArray](r-publish-history-array.md)
