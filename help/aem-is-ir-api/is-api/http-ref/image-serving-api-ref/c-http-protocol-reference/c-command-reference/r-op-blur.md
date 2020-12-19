@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 8405bbb5-fe09-412e-9b52-0af2c01f48b9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 2%
 
 ---
 
@@ -37,6 +40,6 @@ Capa. Se aplica a la capa actual o a la imagen compuesta si `layer=comp`.
 
 ## Ejemplo {#section-1ebacde68388492eb108ae0fcd7424db}
 
-Desenfocar el fondo de una imagen. Una imagen de máscara independiente es referenciada por `catalog::MaskPath`. Tenga en cuenta que `layer=0`debe especificarse explícitamente; de lo contrario, se `op_blur` aplicaría a toda la imagen compuesta.
+Desenfocar el fondo de una imagen. `catalog::MaskPath` hace referencia a una imagen de máscara independiente. Tenga en cuenta que `layer=0`debe especificarse explícitamente; de lo contrario, `op_blur` se aplicaría a toda la imagen compuesta.
 
 `http://server/myRootId/myImageId?wid=500&layer=0&maskUse=invert&op_blur=20&layer=1&src=myRootId/myImageId`
