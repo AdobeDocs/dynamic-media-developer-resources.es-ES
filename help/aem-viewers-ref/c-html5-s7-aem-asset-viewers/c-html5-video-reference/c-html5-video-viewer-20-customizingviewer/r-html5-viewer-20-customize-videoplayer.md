@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 2748c3d3-b974-4e54-8218-a2ec9e31a668
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Video player{#video-player}
+# Reproductor de vídeo{#video-player}
 
 El reproductor de vídeo es el área rectangular en la que se muestra el contenido del vídeo en el visor.
 
@@ -31,13 +34,13 @@ El siguiente selector de clase CSS controla el aspecto del reproductor de vídeo
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Color de fondo de la vista principal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Se puede localizar el mensaje de error que se muestra si el sistema no puede reproducir el vídeo. Consulte [Localización de los elementos](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) de la interfaz de usuario para obtener más información.
+Se puede localizar el mensaje de error que se muestra si el sistema no puede reproducir el vídeo. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
 
 Ejemplo: Para configurar un visor de vídeo con el tamaño del reproductor de vídeo definido en 512 x 288 píxeles.
 
@@ -56,7 +59,7 @@ Los subtítulos cerrados se colocan en un contenedor interno dentro del reproduc
 <table id="table_960E0D4FB91748FF9FC73C925B81879C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Fondo de texto de subtítulos opcionales. </p> </td> 
   </tr> 
   <tr> 
@@ -64,15 +67,15 @@ Los subtítulos cerrados se colocan en un contenedor interno dentro del reproduc
    <td colname="col2"> <p>Cierre el color del texto del rótulo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-peso </span> </p> </td> 
-   <td colname="col2"> <p> peso de fuente de subtítulos opcionales. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-peso  </span> </p> </td> 
+   <td colname="col2"> <p> Peso de fuente de subtítulos opcionales. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p> Tamaño de fuente de subtítulos opcionales. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Fuente de subtítulos opcionales. </p> </td> 
   </tr> 
  </tbody> 
@@ -115,15 +118,15 @@ El aspecto de la animación de almacenamiento en búfer se controla con el sigui
    <td colname="col2"> <p> Altura del icono de animación. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
    <td colname="col2"> <p> Icono de animación margen izquierdo, normalmente menos la mitad de la anchura del icono. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
    <td colname="col2"> <p> Margen superior del icono de animación, normalmente menos la mitad de la altura del icono. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Ilustración del botón. </p> </td> 
   </tr> 
  </tbody> 
