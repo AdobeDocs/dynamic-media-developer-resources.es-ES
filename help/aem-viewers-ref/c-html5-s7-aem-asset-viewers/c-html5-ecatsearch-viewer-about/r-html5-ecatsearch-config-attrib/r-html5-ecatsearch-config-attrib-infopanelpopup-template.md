@@ -32,7 +32,7 @@ ht-degree: 4%
       ]&gt;</code> </p> <p>La sintaxis real de la plantilla de contenido es la siguiente: </p> <p> <code>&lt;info&gt;
       &lt;var&nbsp;name='VAR_NAME'&nbsp;rollover='ROLLOVER_KEY'&gt;&lt;!CDATA[&nbsp;VAR_VALUE&nbsp;]&gt;
       &lt;![CDATA[&nbsp;TEMPLATE_CONTENT&nbsp;]&gt;
-      &lt;/info&gt;</code> </p> <p>Es decir, la plantilla debe estar en inicio con el elemento <span class="codeph"> &lt;info&gt;</span> que puede contener elementos predeterminados opcionales <span class="codeph"> &lt;var&gt;</span> . El propio contenido de la plantilla, <span class="codeph"> TEMPLATE_CONTENT</span> , es texto HTML. Además, la plantilla de contenido puede contener nombres de variables entre <span class="codeph"> caracteres $</span> . Estos caracteres se reemplazan con los valores de variable que devuelve el servidor de información o con los predeterminados. </p> <p>Las variables predeterminadas que se definen en la plantilla pueden ser globales (si no se ha establecido el atributo rollover) o específicas de una determinada clave de rollover (si el atributo rollover está presente). </p> <p>Durante el procesamiento de plantillas, las variables específicas para pasar sobre las claves tienen prioridad sobre las variables globales. </p> </td> 
+      &lt;/info&gt;</code> </p> <p>Es decir, la plantilla debe estar en inicio con el elemento <span class="codeph"> &lt;info&gt;</span> que puede contener elementos <span class="codeph"> &lt;var&gt;</span> predeterminados opcionales. El contenido de la plantilla en sí, <span class="codeph"> TEMPLATE_CONTENT</span> es texto HTML. Además, la plantilla de contenido puede contener nombres de variables entre <span class="codeph"> $</span> caracteres. Estos caracteres se reemplazan con los valores de variable que devuelve el servidor de información o con los predeterminados. </p> <p>Las variables predeterminadas que se definen en la plantilla pueden ser globales (si no se ha establecido el atributo rollover) o específicas de una determinada clave de rollover (si el atributo rollover está presente). </p> <p>Durante el procesamiento de plantillas, las variables específicas para pasar sobre las claves tienen prioridad sobre las variables globales. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -51,6 +51,6 @@ Ninguno.
 
 ## Ejemplo {#section-16d184665c484964af9a22f79ff3f840}
 
-Suponiendo que la respuesta del servidor de información devuelve el nombre del producto como variable `$1$` y que la URL de la imagen del producto se devuelve como variable `$2$`.
+Suponiendo que la respuesta del servidor de información devuelve el nombre del producto como variable `$1$` y que la dirección URL de la imagen del producto se devuelve como variable `$2$`.
 
 `template=<info><![CDATA[Product description:$1$<br>Product image:<img src="$2$">]]></info>`
