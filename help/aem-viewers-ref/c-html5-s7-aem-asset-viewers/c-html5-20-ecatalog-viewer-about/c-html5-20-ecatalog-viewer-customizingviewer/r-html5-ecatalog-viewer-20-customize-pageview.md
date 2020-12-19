@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 5e247f56-f0da-487b-8e03-587b9d36aa39
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,11 +38,11 @@ El aspecto del área de visualización se controla con el siguiente selector de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Color de fondo de la vista principal en formato hexadecimal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cursor </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cursor  </span> </p> </td> 
    <td colname="col2"> <p>Cursor que se muestra sobre la vista principal. </p> </td> 
   </tr> 
  </tbody> 
@@ -53,7 +56,7 @@ Ejemplo: para que la vista principal sea transparente.
 }
 ```
 
-En sistemas de escritorio, el componente admite el selector de `cursortype` atributos que se puede aplicar a `.s7pageview` la clase y controla el tipo del cursor en función del estado del componente y la acción del usuario. The following `cursortype` values are supported:
+En los sistemas de escritorio, el componente admite el selector de atributos `cursortype` que se puede aplicar a la clase `.s7pageview` y controla el tipo del cursor en función del estado del componente y la acción del usuario. Se admiten los siguientes valores `cursortype`:
 
 <table id="table_45B83F6CCDE84C36B0E087CA9144BFE6"> 
  <thead> 
@@ -68,7 +71,7 @@ En sistemas de escritorio, el componente admite el selector de `cursortype` atri
    <td colname="col2"> <p>Se muestra cuando la imagen no se puede ampliar debido a una resolución de imagen pequeña, a la configuración de componentes o a ambos. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomina </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zoomina  </span> </p> </td> 
    <td colname="col2"> <p>Se muestra cuando se puede ampliar la imagen. </p> </td> 
   </tr> 
   <tr> 
@@ -80,7 +83,7 @@ En sistemas de escritorio, el componente admite el selector de `cursortype` atri
    <td colname="col2"> <p>Se muestra cuando el usuario recorre la imagen que está en estado de zoom. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> slide </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> slide  </span> </p> </td> 
    <td colname="col2"> <p>Se muestra cuando el usuario realiza un intercambio de imágenes realizando un barrido horizontal o un gesto de gesto. </p> </td> 
   </tr> 
  </tbody> 
@@ -100,10 +103,10 @@ El divisor de páginas que separa visualmente las páginas izquierda y derecha d
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> Ancho del divisor de páginas. Establezca en <span class="codeph"> 0 </span> px para ocultar completamente el divisor. </p> </td> 
+   <td colname="col2"> <p> Ancho del divisor de páginas. Establezca <span class="codeph"> 0 </span> px para ocultar completamente el divisor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>La imagen que desea utilizar como divisor de página. </p> </td> 
   </tr> 
  </tbody> 
@@ -120,9 +123,9 @@ Ejemplo: para tener un separador de página de 40 píxeles de ancho con una imag
 
 >[!NOTE]
 >
->Cuando el `frametransition` modificador se establece en `turn` o `auto` (en sistemas de escritorio), el aspecto del divisor de página se controla con el `pageturnstyle` modificador y se omite la clase CSS `.s7pagedivider` .
+>Cuando el modificador `frametransition` se establece en `turn` o `auto` (en sistemas de escritorio), el aspecto del divisor de página se controla con el modificador `pageturnstyle` y se omite la clase CSS `.s7pagedivider`.
 
-Es posible configurar la visualización de los cursores personalizados del ratón sobre el área del visor principal. Esto se controla con los selectores de atributos adicionales aplicados a la clase `.s7ecatalogviewer .s7pageview` CSS:
+Es posible configurar la visualización de los cursores personalizados del ratón sobre el área del visor principal. Esto se controla con los selectores de atributos adicionales aplicados a la clase CSS `.s7ecatalogviewer .s7pageview`:
 
 <table id="table_908164DECF9347A19A9696A23BBDB1A2"> 
  <thead> 
@@ -137,7 +140,7 @@ Es posible configurar la visualización de los cursores personalizados del rató
    <td colname="col2"> <p> Normalmente, se muestra una flecha para una imagen que no se puede ampliar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomina </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zoomina  </span> </p> </td> 
    <td colname="col2"> <p> Muestra cuándo se puede ampliar una imagen. </p> </td> 
   </tr> 
   <tr> 
@@ -149,7 +152,7 @@ Es posible configurar la visualización de los cursores personalizados del rató
    <td colname="col2"> <p>Muestra cuándo el usuario realiza la operación de arrastrar en la imagen ampliada </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> slide </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> slide  </span> </p> </td> 
    <td colname="col2"> <p>Muestra cuándo el usuario realiza el intercambio de imágenes mediante gestos de diapositiva </p> </td> 
   </tr> 
  </tbody> 
