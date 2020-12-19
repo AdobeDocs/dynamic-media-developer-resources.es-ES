@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: dbf4ab5e-50fb-42f1-a97a-f8d07022b303
 translation-type: tm+mt
 source-git-commit: aa095022d43db4bf815aece9bc2b087c53a64e1b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +35,7 @@ Matriz de mensajes que responden a una URL proporcionada en la solicitud de inva
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> <span class="varname"> elementos</span></span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> elementos</span> </span> </p> </td> 
    <td> <p> <span class="codeph"> tipos:OperationFault</span> </p> </td> 
    <td> <p> La lista de los mensajes resultantes de la solicitud de invalidación de CDN. </p> </td> 
   </tr> 
