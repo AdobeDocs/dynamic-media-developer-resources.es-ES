@@ -1,6 +1,6 @@
 ---
-description: Platform Server almacena en caché en disco toda la imagen de respuesta y ciertos datos de texto, a menos que una solicitud esté marcada como no procesable.
-seo-description: Platform Server almacena en caché en disco toda la imagen de respuesta y ciertos datos de texto, a menos que una solicitud esté marcada como no procesable.
+description: Platform Server almacena en caché en disco toda la imagen de respuesta y ciertos datos de texto, a menos que una solicitud se marque como no se puede almacenar en caché.
+seo-description: Platform Server almacena en caché en disco toda la imagen de respuesta y ciertos datos de texto, a menos que una solicitud se marque como no se puede almacenar en caché.
 seo-title: Caché de datos de respuesta
 solution: Experience Manager
 title: Caché de datos de respuesta
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Caché de datos de respuesta{#response-data-cache}
 
-Platform Server almacena en caché en disco toda la imagen de respuesta y ciertos datos de texto, a menos que una solicitud esté marcada como no procesable.
+Platform Server almacena en caché en disco toda la imagen de respuesta y ciertos datos de texto, a menos que una solicitud se marque como no se puede almacenar en caché.
 
 La ubicación de la caché de disco de Platform Server se establece con `PS::cache.rootPaths`.
 
@@ -29,6 +29,6 @@ Además de `PS::cache.maxSize`, la caché de respuesta también se administra li
 
 >[!NOTE]
 >
->Platform Server mantiene un índice de caché en memoria. El tamaño de este índice es 32 bytes por encima del valor de `PS::cache.maxEntries`. Es posible que tenga que aumentar el tamaño del montón de Platform Server para poder admitir cachés más grandes.
+>Platform Server mantiene un índice de caché en memoria. El tamaño de este índice es 32 bytes por encima del valor de `PS::cache.maxEntries`. Es posible que tenga que aumentar el tamaño del montón del Servidor de plataformas para acomodar las cachés más grandes.
 
-El sistema utiliza un archivo de índice de caché que se guarda en disco cuando el servidor se apaga de forma ordenada. En caso de eventos inesperados, como una falla de alimentación, es posible que este archivo no se guarde. Además, el servidor de Platform puede tardar varios minutos en prepararse.
+El sistema utiliza un archivo de índice de caché que se guarda en disco cuando el servidor se apaga de forma ordenada. En caso de eventos inesperados, como una falla de alimentación, es posible que este archivo no se guarde. Además, puede que el Servidor de plataformas tarde varios minutos en estar listo.
