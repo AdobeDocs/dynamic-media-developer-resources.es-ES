@@ -1,18 +1,21 @@
 ---
 description: La vista principal consiste en la imagen ampliable.
 seo-description: La vista principal consiste en la imagen ampliable.
-seo-title: vista de zoom
+seo-title: Vista de zoom
 solution: Experience Manager
-title: vista de zoom
+title: Vista de zoom
 topic: Dynamic media
 uuid: 34cb6c80-77eb-42b0-91dd-ae0369ea2881
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Zoom view{#zoom-view}
+# Vista de zoom{#zoom-view}
 
 La vista principal consiste en la imagen ampliable.
 
@@ -35,11 +38,11 @@ El aspecto del área de visualización se controla con el siguiente selector de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Color de fondo en formato hexadecimal de la vista principal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cursor </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cursor  </span> </p> </td> 
    <td colname="col2"> <p>Se muestra el cursor sobre la vista principal. </p> </td> 
   </tr> 
  </tbody> 
@@ -53,7 +56,7 @@ Ejemplo: para que la vista principal sea transparente.
 }
 ```
 
-En sistemas de escritorio, el componente admite el selector de `cursortype` atributos que se puede aplicar a la `.s7zoomview` clase. Controla el tipo de cursor según el estado del componente y la acción del usuario. The following `cursortype` values are supported:
+En los sistemas de escritorio, el componente admite el selector de atributos `cursortype` que se puede aplicar a la clase `.s7zoomview`. Controla el tipo de cursor según el estado del componente y la acción del usuario. Se admiten los siguientes valores `cursortype`:
 
 * `default`
 
