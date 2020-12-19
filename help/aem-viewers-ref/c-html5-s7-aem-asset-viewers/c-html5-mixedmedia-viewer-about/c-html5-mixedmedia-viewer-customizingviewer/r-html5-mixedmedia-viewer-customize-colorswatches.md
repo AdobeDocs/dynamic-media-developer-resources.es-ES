@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 868d938f-578a-4ecf-8a71-9569450492fb
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Color swatches{#color-swatches}
+# Muestras de color{#color-swatches}
 
 Las muestras de color constan de una fila de imágenes en miniatura con botones de desplazamiento opcionales en los lados izquierdo y derecho. Las muestras de color solo son visibles en el escritorio si todas las miniaturas no se ajustan al ancho del contenedor. En los dispositivos móviles, o si las miniaturas pueden ajustarse al ancho del contenedor, no se muestran los botones de desplazamiento.
 
@@ -65,7 +68,7 @@ El espaciado entre las miniaturas de muestra se controla con el siguiente select
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> El tamaño de los márgenes horizontal y vertical alrededor de cada miniatura. El espaciado de miniaturas real es igual a la suma de los márgenes izquierdo y derecho definidos para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col2"> <p> El tamaño de los márgenes horizontal y vertical alrededor de cada miniatura. El espaciado de miniaturas real es igual a la suma de los márgenes izquierdo y derecho establecidos para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -93,11 +96,11 @@ El aspecto de la miniatura individual se controla con el siguiente selector de c
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Anchura de la miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altura de la miniatura. </p> </td> 
   </tr> 
   <tr> 
@@ -109,7 +112,7 @@ El aspecto de la miniatura individual se controla con el siguiente selector de c
 
 >[!NOTE]
 >
->La miniatura admite el selector de `state` atributos, que se puede utilizar para aplicar diferentes apariencias a distintos estados de miniaturas. En particular, `state="selected"` corresponde a la miniatura de la imagen que se muestra actualmente en la vista principal, `state="default"` corresponde al resto de las miniaturas y `state="over"` se utiliza al pasar el ratón por encima.
+>La miniatura admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes apariencias a distintos estados de miniaturas. En particular, `state="selected"` corresponde a la miniatura de la imagen que se muestra actualmente en la vista principal, `state="default"` corresponde al resto de las miniaturas y `state="over"` se utiliza al pasar el ratón.
 
 Ejemplo: para configurar miniaturas de 56 x 56 píxeles, tenga un borde predeterminado de color gris claro y un borde seleccionado de color gris oscuro.
 
@@ -132,7 +135,7 @@ El aspecto de los botones de desplazamiento izquierdo y derecho se controla con 
 
 `.s7mixedmediaviewer .s7colorswatches .s7swatches .s7scrollrightbutton`
 
-No es posible colocar botones de desplazamiento mediante propiedades CSS `top`, `left``bottom`y `right` . En su lugar, la lógica del visor las coloca automáticamente.
+No es posible colocar botones de desplazamiento mediante las propiedades CSS `top`, `left`, `bottom` y `right`. En su lugar, la lógica del visor las coloca automáticamente.
 
 <table id="table_A5663C4AAC4446168CAD8DBA2894BB9C"> 
  <thead> 
@@ -143,19 +146,19 @@ No es posible colocar botones de desplazamiento mediante propiedades CSS `top`, 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Ancho del botón de desplazamiento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altura del botón de desplazamiento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Imagen que se muestra para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -163,7 +166,7 @@ No es posible colocar botones de desplazamiento mediante propiedades CSS `top`, 
 
 >[!NOTE]
 >
->Este botón admite el selector de `state` atributos, que se puede utilizar para aplicar diferentes apariencias a diferentes estados de botón: `up`, `down`, `over`y `disabled`.
+>Este botón admite el selector de atributos `state`, que se puede utilizar para aplicar diferentes apariencias a diferentes estados de botón: `up`, `down`, `over` y `disabled`.
 
 Ejemplo: para configurar botones de desplazamiento de 56 x 56 píxeles y con diferentes ilustraciones para cada estado.
 
