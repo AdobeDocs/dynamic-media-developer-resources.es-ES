@@ -1,6 +1,6 @@
 ---
-description: Reenvía la lista proporcionada de direcciones URL al proveedor de CDN de Scene7 (Red de distribución de contenido) para invalidar la caché existente de las respuestas HTTP.
-seo-description: Reenvía la lista proporcionada de direcciones URL al proveedor de CDN de Scene7 (Red de distribución de contenido) para invalidar la caché existente de las respuestas HTTP.
+description: Reenvía la lista proporcionada de direcciones URL al proveedor de Scene7 CDN (Red de distribución de contenido) para invalidar la caché existente de las respuestas HTTP.
+seo-description: Reenvía la lista proporcionada de direcciones URL al proveedor de Scene7 CDN (Red de distribución de contenido) para invalidar la caché existente de las respuestas HTTP.
 seo-title: cdnCacheInvalidation
 solution: Experience Manager
 title: cdnCacheInvalidation
@@ -8,29 +8,32 @@ topic: Scene7 Image Production System API
 uuid: 16cf53d4-4101-405c-b008-009b6ac62169
 translation-type: tm+mt
 source-git-commit: aa095022d43db4bf815aece9bc2b087c53a64e1b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # cdnCacheInvalidation{#cdncacheinvalidation}
 
-Reenvía la lista proporcionada de direcciones URL al proveedor de CDN de Scene7 (Red de distribución de contenido) para invalidar la caché existente de las respuestas HTTP.
+Reenvía la lista proporcionada de direcciones URL al proveedor de Scene7 CDN (Red de distribución de contenido) para invalidar la caché existente de las respuestas HTTP.
 
 ## cdnCacheInvalidation: Acerca de {#section-4f70d2bc79d64288b961836ab17e9690}
 
-La invalidación de caché de CDN fuerza a todas las solicitudes HTTP para que estas direcciones URL se revaliden con los datos publicados actualmente en la red de Scene7 una vez que esta solicitud de invalidación se procesa a través de la red de CDN. Las direcciones URL que no estén conectadas a la estructura URL del servicio de Scene7 y que coincidan directamente con el ID de raíz de la compañía de Scene7 asignado al crear la compañía generarán un error de API para toda la solicitud. Cualquier dirección URL no válida que la CDN no admita y que considere no válida también generará un error de API para toda la solicitud.
+La invalidación de caché de CDN fuerza a todas las solicitudes HTTP para que estas direcciones URL se revaliden con los datos publicados actualmente en la red de Scene7 una vez que esta solicitud de invalidación se procesa a través de la red de CDN. Todas las direcciones URL que no estén conectadas a la estructura URL del servicio de Scene7 y que coincidan directamente con el ID raíz de la compañía de Scene7 asignado cuando se cree la compañía generarán un error de API para toda la solicitud. Cualquier dirección URL no válida que la CDN no admita y que considere no válida también generará un error de API para toda la solicitud.
 
 **Frecuencia de uso: Reglas**
 
-Las reglas que rigen la frecuencia de uso de esta función las controlan los socios de CDN de Scene7. La CDN conserva la discreción de degradar la capacidad de respuesta de estas invalidaciones para mantener un rendimiento óptimo de su servicio a sus usuarios. Si se notifica a Scene7 del uso excesivo de esta función, tendremos que deshabilitar la función por compañía o por completo en todo el servicio.
+Las reglas que rigen la frecuencia de uso de esta función son controladas por los socios CDN de Scene7. La CDN conserva la discreción de degradar la capacidad de respuesta de estas invalidaciones para mantener un rendimiento óptimo de su servicio a sus usuarios. Si se notifica a Scene7 del uso excesivo de esta función, tendremos que recurrir a la desactivación de la función por compañía o en todo el servicio.
 
 **Correos electrónicos de confirmación**
 
-Los mensajes de correo electrónico de confirmación del socio de CDN de Scene7 se pueden enviar al creador de la lista o a un máximo de cinco direcciones de correo electrónico más. La API envía la confirmación cuando se ha notificado a toda la red CDN que se han borrado las direcciones URL a las que se hace referencia en el correo electrónico. Una sola llamada para `cdnCacheInvalidation` enviar varios correos electrónicos si el número de direcciones URL suministradas supera el número que Scene7 puede enviar al socio de CDN en una sola notificación. Actualmente, esto sería si la solicitud supera las 100 direcciones URL, pero está sujeta a cambios según la solicitud del socio de CDN.
+Los correos electrónicos de confirmación del socio de CDN de Scene7 se pueden enviar al creador de la lista o a hasta cinco direcciones de correo electrónico más. La API envía la confirmación cuando se ha notificado a toda la red CDN que se han borrado las direcciones URL a las que se hace referencia en el correo electrónico. Una sola llamada a `cdnCacheInvalidation` puede enviar varios correos electrónicos si el número de direcciones URL suministradas supera el número que Scene7 puede enviar al socio de CDN en una sola notificación. Actualmente, esto sería si la solicitud supera las 100 direcciones URL, pero está sujeta a cambios según la solicitud del socio de CDN.
 
 **Admitido desde**
 
-6.0
+6,0
 
 ## Tipos de usuarios autorizados {#section-0d7895e733d54fb68beb8d231a04e4c9}
 
@@ -39,7 +42,7 @@ Los mensajes de correo electrónico de confirmación del socio de CDN de Scene7 
 
 ## Parámetros {#section-bd1ed2b7419945d19a2ebd5668499f72}
 
-**Entrada** ( `cdnCacheInvalidationParam`)
+**Input** (  `cdnCacheInvalidationParam`)
 
 <table id="table_EDD1875264C846BE951869D528A90D73"> 
  <thead> 
@@ -52,13 +55,13 @@ Los mensajes de correo electrónico de confirmación del socio de CDN de Scene7 
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> <span class="varname"> companyHandle</span></span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td> <p> <span class="codeph"> xsd:string</span> </p> </td> 
    <td> <p> Sí </p> </td> 
    <td> <p> Identificador de la compañía conectada con las direcciones URL para invalidar. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> <span class="varname"> urlArray</span></span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> urlArray</span> </span> </p> </td> 
    <td> <p> <span class="codeph"> tipos:UrlArray</span> </p> </td> 
    <td> <p> Sí </p> </td> 
    <td> <p> Lista de hasta 1000 direcciones URL para invalidar desde la caché de CDN. Todas las direcciones URL deben contener el ID raíz de compañía de Scene7 para invalidarlo. </p> </td> 
@@ -66,7 +69,7 @@ Los mensajes de correo electrónico de confirmación del socio de CDN de Scene7 
  </tbody> 
 </table>
 
-**Output**( `cdnCacheInvalidationReturn`)
+**Output**(  `cdnCacheInvalidationReturn`)
 
 <table id="table_1D947C1BF8864820AD7BA0CDC0F076F9"> 
  <thead> 
