@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: e83db949-67ba-4d70-8f66-41f5415c35ee
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Default request attributes{#default-request-attributes}
+# Atributos de solicitud predeterminados{#default-request-attributes}
 
 Los archivos de atributos del catálogo reconocen estos atributos de solicitud predeterminados.
 
