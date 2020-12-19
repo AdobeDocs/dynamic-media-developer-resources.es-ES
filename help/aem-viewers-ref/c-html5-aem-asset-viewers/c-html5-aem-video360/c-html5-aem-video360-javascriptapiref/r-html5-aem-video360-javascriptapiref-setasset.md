@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: db1321fb-6d52-4add-8877-0c13eb12e6af
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '60'
+ht-degree: 5%
 
 ---
 
@@ -18,7 +21,7 @@ Referencia de la API de JavaScript para el visor de vídeo360.
 
 `setAsset(asset)`
 
-Establece el nuevo recurso. Puede llamar a este parámetro en cualquier momento, ya sea antes o después `init()`. Si se llama después `init()`, el visor intercambia el recurso en tiempo de ejecución.
+Establece el nuevo recurso. Puede llamar a este parámetro en cualquier momento, ya sea antes o después de `init()`. Si se llama después de `init()`, el visor intercambia el recurso en tiempo de ejecución.
 
 Consulte también [init](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
@@ -26,12 +29,12 @@ Consulte también [init](../../../c-html5-aem-asset-viewers/c-html5-aem-video360
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> asset </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> Cadena</span>} ID de recurso nuevo. </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> String</span>} nuevo ID de recurso. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Returns {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Devuelve {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 Ninguno.
 
