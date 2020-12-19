@@ -1,18 +1,21 @@
 ---
 description: Atributo de configuración para el visor de vídeo interactivo.
 seo-description: Atributo de configuración para el visor de vídeo interactivo.
-seo-title: ControlBar.transición
+seo-title: ControlBar.transition
 solution: Experience Manager
-title: ControlBar.transición
+title: ControlBar.transition
 topic: Dynamic media
 uuid: cde4a5b9-4512-41a6-84ce-9f4fc2cc0399
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# ControlBar.transición{#controlbar-transition}
+# ControlBar.transition{#controlbar-transition}
 
 Atributo de configuración para el visor de vídeo interactivo.
 
@@ -22,11 +25,11 @@ Atributo de configuración para el visor de vídeo interactivo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ninguno|fundido</span> </p> </td> 
-   <td colname="col2"> <p> Especifica el tipo de efecto que se utilizará para mostrar u ocultar la barra de control y su contenido. </p> <p>Se establece en <span class="codeph"> ninguno</span> para mostrar/ocultar instantáneamente. </p> <p>Se configura para que <span class="codeph"> desaparezca</span> y proporcione un efecto de entrada y salida gradual. No compatible con Internet Explorer 8. </p> </td> 
+   <td colname="col2"> <p> Especifica el tipo de efecto que se utilizará para mostrar u ocultar la barra de control y su contenido. </p> <p>Se establece en <span class="codeph"> none</span> para mostrar/ocultar instantáneamente. </p> <p>Establezca <span class="codeph"> fundido</span> para proporcionar un efecto de fundido gradual de entrada y salida. No compatible con Internet Explorer 8. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> delaytohide</span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica el tiempo en segundos que transcurre entre el último evento táctil o de ratón registrado por la barra de control y la barra de control de tiempo que se oculta. Si se establece en <span class="codeph"> -1</span> , el componente nunca activa su efecto de ocultación automática y, por lo tanto, siempre permanece visible en la pantalla. </p> </td> 
+   <td colname="col2"> <p> Especifica el tiempo en segundos que transcurre entre el último evento táctil o de ratón registrado por la barra de control y la barra de control de tiempo que se oculta. Si se establece en <span class="codeph"> -1</span>, el componente nunca activa su efecto de ocultación automática y, por lo tanto, siempre permanece visible en la pantalla. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> duración</span></span> </p> </td> 
