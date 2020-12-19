@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 425624c5-3cbe-4b63-8c6b-eff31f2ed919
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '67'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p>Especifica el comportamiento de precarga del componente. </p> <p>Cuando se establece en <span class="codeph"> -1</span> , el componente carga previamente todos los cuadros de catálogo cuando están inactivos. </p> <p> Cuando se establece en <span class="codeph"> 0</span> , el componente carga solo el fotograma que está visible actualmente, anterior y siguiente. </p> <p>Configure <span class="codeph"><span class="varname"> preload</span></span> para definir cuántos fotogramas invisibles alrededor del marco mostrado actualmente se cargan previamente en estado inactivo. </p> </td> 
+   <td colname="col2"> <p>Especifica el comportamiento de precarga del componente. </p> <p>Cuando se establece en <span class="codeph"> -1</span>, el componente carga previamente todos los cuadros de catálogo cuando se encuentra en estado inactivo. </p> <p> Cuando se establece en <span class="codeph"> 0</span>, el componente carga solo el fotograma que está visible actualmente, anterior y siguiente. </p> <p>Establezca <span class="codeph"><span class="varname"> preloadnbr</span></span> para definir cuántos fotogramas invisibles alrededor del marco mostrado actualmente se cargan previamente en estado inactivo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
