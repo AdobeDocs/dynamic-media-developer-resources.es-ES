@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 347165d6-a9e7-406e-81a8-8a91f745ce27
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Agrupamiento de caché{#cache-clustering}
+# Clúster de caché{#cache-clustering}
 
 El agrupamiento de caché permite que varios servidores con equilibrio de carga intercambien entradas de caché en la caché de respuesta principal y la caché de datos secundaria (para solicitudes anidadas o incrustadas), con el potencial de aumentar significativamente la capacidad de respuesta del servidor eliminando la necesidad de generar la misma entrada de caché en varios servidores.
 
