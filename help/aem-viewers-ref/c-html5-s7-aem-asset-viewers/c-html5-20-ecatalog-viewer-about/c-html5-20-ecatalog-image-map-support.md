@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 69aeda21-909d-45da-bcf5-73ade8c5adda
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '325'
+ht-degree: 0%
 
 ---
 
@@ -16,29 +19,29 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 El visor de catálogos electrónicos admite la representación de iconos de mapas de imagen sobre la vista principal.
 
-El aspecto de los iconos de mapa se controla mediante CSS, tal como se describe en el efecto [de mapa de](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-imagemapeffect.md#reference-261df27d1ed145c882b26b88e33a0289)imagen.
+El aspecto de los iconos de mapa se controla mediante CSS, tal como se describe en [Efecto de mapa de imagen](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-imagemapeffect.md#reference-261df27d1ed145c882b26b88e33a0289).
 
 Los mapas de imagen realizan una de las tres acciones siguientes: redirija a una página web externa, a la activación emergente del panel Información y a los hipervínculos internos.
 
-## Redirigir a una página web externa {#section-32ebe3c3a7f74892a428c5d48801de4d}
+## Redirigir a una página Web externa {#section-32ebe3c3a7f74892a428c5d48801de4d}
 
-El `href` atributo del mapa de imagen tiene una dirección URL al recurso externo, especificada explícitamente o encerrada en una de las funciones de plantilla JavaScript admitidas: `loadProduct()`, `loadProductCW()`, y `loadProductPW()`.
+El atributo `href` del mapa de imagen tiene una dirección URL al recurso externo, especificada explícitamente o envuelta en una de las funciones de plantilla JavaScript admitidas: `loadProduct()`, `loadProductCW()` y `loadProductPW()`.
 
 A continuación se muestra un ejemplo de redirección de URL sencilla:
 
 `href=http://www.adobe.com`
 
-En este ejemplo, la misma dirección URL se ajusta a la `loadProduct()` función:
+En este ejemplo, la misma dirección URL se ajusta a la función `loadProduct()`:
 
 `href=javascript:loadProduct("http://www.adobe.com");void(0);`
 
-Be aware that when you add the JavaScript code into the `HREF` attribute of your image map, the code is run on the client’s computer. Por lo tanto, asegúrese de que el código JavaScript es seguro.
+Tenga en cuenta que cuando agrega el código JavaScript al atributo `HREF` del mapa de imágenes, el código se ejecuta en el equipo del cliente. Por lo tanto, asegúrese de que el código JavaScript es seguro.
 
-## activación emergente del panel de información {#section-7aa036420af646d1ad8cdc388add0b57}
+## Activación emergente del panel de información {#section-7aa036420af646d1ad8cdc388add0b57}
 
-Para trabajar con paneles de información, un mapa de imagen tiene el `ROLLOVER_KEY` atributo definido. Asimismo, defina el `href` atributo al mismo tiempo; de lo contrario, el procesamiento de la URL externa interfiere con la activación emergente del panel Información.
+Para trabajar con paneles de información, un mapa de imagen tiene el atributo `ROLLOVER_KEY` establecido. Además, configure el atributo `href` al mismo tiempo; de lo contrario, el procesamiento de la URL externa interfiere con la activación emergente del panel Información.
 
-Por último, asegúrese de que la configuración del visor incluye los valores adecuados para `InfoPanelPopup.template` y, opcionalmente, para los parámetros `InfoPanelPopup.infoServerUrl` .
+Por último, asegúrese de que la configuración del visor incluye los valores adecuados para los parámetros `InfoPanelPopup.template` y, opcionalmente, `InfoPanelPopup.infoServerUrl`.
 
 >[!NOTE]
 >
@@ -46,12 +49,12 @@ Por último, asegúrese de que la configuración del visor incluye los valores a
 
 ## Hipervínculos internos {#section-6afa4fb2fe564c429e0201f019a95849}
 
-Al hacer clic en un mapa de imagen, se realiza un intercambio de páginas internas dentro del visor. Para utilizar esa función, un `href` atributo del mapa de imagen tiene el siguiente formato especial:
+Al hacer clic en un mapa de imagen, se realiza un intercambio de páginas internas dentro del visor. Para utilizar esa función, un atributo `href` del mapa de imagen tiene el siguiente formato especial:
 
 ` href=target: *`idx`*`
 
-donde ` *`idx`*` es un índice basado en cero del pliego de catálogos.
+donde ` *`idx`*` es un índice basado en cero del pliego del catálogo.
 
-A continuación se muestra un ejemplo de un `href` atributo para un mapa de imagen que apunta al pliego 3D en el catálogo electrónico:
+A continuación se muestra un ejemplo de un atributo `href` para un mapa de imagen que apunta al pliego 3D en el catálogo electrónico:
 
 `href=target:2`
