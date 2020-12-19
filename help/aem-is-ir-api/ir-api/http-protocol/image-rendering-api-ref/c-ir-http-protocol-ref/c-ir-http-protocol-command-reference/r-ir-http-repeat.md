@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 6508fdff-27cd-4038-b506-39b927f3526a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '166'
+ht-degree: 16%
 
 ---
 
@@ -109,7 +112,7 @@ Atributo Material. Se ignora con materiales de color sólido, calado y gabinete.
 
 ## Predeterminado {#section-e5bbd7d9fbb74852849e605d20f550bb}
 
-`catalog::Repeat`, si el material está basado en una entrada de catálogo, en caso contrario `0` (repetición directa).
+`catalog::Repeat`, si el material está basado en una entrada de catálogo, en caso contrario  `0` (repetición directa).
 
 ## Véase también {#section-ac99113b64654d75a3a86e41db546269}
 
