@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 1a62611a-b3b9-4f20-834f-e34e75d33ddd
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +28,7 @@ Resolución de impresión. Sobrescribe el valor de resolución de impresión inc
  </tr> 
 </table>
 
-La resolución de impresión se define normalmente `catalog::PrintResolution` en el caso de una entrada de catálogo; en caso contrario, se define mediante el valor de resolución de impresión incrustado en la imagen de origen. En el caso de una plantilla o una imagen compuesta por capas, la resolución de impresión predeterminada incrustada en el archivo de respuesta es la resolución de impresión de la imagen de capa con el número de capa más bajo.
+La resolución de impresión se define normalmente por `catalog::PrintResolution` en el caso de una entrada de catálogo; en caso contrario, se define por el valor de resolución de impresión incrustado en la imagen de origen. En el caso de una plantilla o una imagen compuesta por capas, la resolución de impresión predeterminada incrustada en el archivo de respuesta es la resolución de impresión de la imagen de capa con el número de capa más bajo.
 
 La configuración de la resolución de impresión no cambia el tamaño de píxel de la imagen de respuesta.
 
