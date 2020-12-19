@@ -2,7 +2,7 @@
 cloud: experience-cloud
 product: adobe
 archtype: end-user
-user-guide-title: API de sistema de producción de imágenes de Dynamic Media
+user-guide-title: API de Dynamic Media Image Production System
 translation-type: tm+mt
 source-git-commit: 88d3a65852365d7fcd7631ff5b5f7215b7c48618
 workflow-type: tm+mt
@@ -12,9 +12,9 @@ ht-degree: 3%
 ---
 
 
-# API de sistema de producción de imágenes de Dynamic Media {#image-production-api}
+# Dynamic Media Image Production System API {#image-production-api}
 
-+ [Inicio de recursos para desarrolladores de Dynamic Media](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
++ [Página principal de recursos para desarrolladores de Dynamic Media](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
 + [Acerca de la API de Dynamic Media Image Production System](c-overview.md)
 + [Llamadas obsoletas](c-deprecated-calls.md)
 + [Versiones WSDL del servicio Web IPS](c-wsdl-versions.md)
@@ -51,7 +51,7 @@ ht-degree: 3%
       + [createViewerPreset](operations/c-operations-intro/c-methods/r-create-viewer-preset.md)
       + [createVignettePublishFormat](operations/c-operations-intro/c-methods/r-create-vignette-publish-format.md)
       + [deleteAsset](operations/c-operations-intro/c-methods/r-delete-asset.md)
-      + [Metadatos](operations/c-operations-intro/c-methods/r-delete-assets.md)
+      + [deleteAssets](operations/c-operations-intro/c-methods/r-delete-assets.md)
       + [deleteAssetMetadata](operations/c-operations-intro/c-methods/r-delete-asset-metadata.md)
       + [deleteFolder](operations/c-operations-intro/c-methods/r-delete-folder.md)
       + [deleteGroup](operations/c-operations-intro/c-methods/r-delete-group.md)
@@ -66,7 +66,7 @@ ht-degree: 3%
       + [deleteVignettePublishFormat](operations/c-operations-intro/c-methods/r-delete-vignette-publish-format.md)
       + [deleteZoomTarget](operations/c-operations-intro/c-methods/r-delete-zoom-target.md)
       + [emptyAssetsFromTrash](operations/c-operations-intro/c-methods/r-empty-assets-from-trash.md)
-      + [deleteJob](operations/c-operations-intro/c-methods/r-execute-job.md)
+      + [executeJob](operations/c-operations-intro/c-methods/r-execute-job.md)
       + [forceRepublishAssets](operations/c-operations-intro/c-methods/r-force-republish-assets.md)
       + [generatePassword](operations/c-operations-intro/c-methods/r-generate-password.md)
       + [getActiveJobs](operations/c-operations-intro/c-methods/r-get-active-jobs.md)
@@ -87,7 +87,7 @@ ht-degree: 3%
       + [getCompanySettings](operations/c-operations-intro/c-methods/r-get-company-settings.md)
       + [getDiskUsage](operations/c-operations-intro/c-methods/r-get-disk-usage.md)
       + [getDistinctMetadataValues](operations/c-operations-intro/c-methods/r-get-distinct-metadata-values.md)
-      + [La función getFolders](operations/c-operations-intro/c-methods/r-get-folders.md)
+      + [getFolders](operations/c-operations-intro/c-methods/r-get-folders.md)
       + [getFolderTree](operations/c-operations-intro/c-methods/r-get-folder-tree.md)
       + [getGenerationInfo](operations/c-operations-intro/c-methods/r-get-generation-info.md)
       + [getGroupMembers](operations/c-operations-intro/c-methods/r-get-group-members.md)
@@ -121,7 +121,7 @@ ht-degree: 3%
       + [getVignettePublishFormats](operations/c-operations-intro/c-methods/r-get-vignette-publish-formats.md)
       + [getXMPPaca](operations/c-operations-intro/c-methods/r-get-xmp-packet.md)
       + [getZipEntries](operations/c-operations-intro/c-methods/r-get-zip-entries.md)
-      + [getAsset](operations/c-operations-intro/c-methods/r-move-asset.md)
+      + [moveAsset](operations/c-operations-intro/c-methods/r-move-asset.md)
       + [moveAssets](operations/c-operations-intro/c-methods/r-move-assets.md)
       + [moveFolder](operations/c-operations-intro/c-methods/r-move-folder.md)
       + [pauseJob](operations/c-operations-intro/c-methods/r-pause-job.md)
@@ -178,7 +178,7 @@ ht-degree: 3%
       + [updateViewerConfigSettings](operations/c-operations-intro/c-methods/r-update-viewer-config-settings.md)
       + [updateVignettePublishFormat](operations/c-operations-intro/c-methods/r-update-vignette-publish-format.md)
       + [updateXMPPaca](operations/c-operations-intro/c-methods/r-update-xmp-packet.md)
-+ Data types {#data-types}
++ Tipos de datos {#data-types}
    + [Tipos de datos](types/c-data-types/c-data-types.md)
    + [AcoInfo](types/c-data-types/r-aco-info.md)
    + [ActiveJob](types/c-data-types/r-active-job.md)
@@ -259,7 +259,7 @@ ht-degree: 3%
    + [IllustratorOptions](types/c-data-types/r-illustrator-options.md)
    + [ImageFieldUpdate](types/c-data-types/r-image-field-update.md)
    + [ImageFieldUpdateArray](types/c-data-types/r-image-field-update-array.md)
-   + [JobFormat](types/c-data-types/r-image-format.md)
+   + [ImageFormat](types/c-data-types/r-image-format.md)
    + [ImageFormatArray](types/c-data-types/r-image-format-array.md)
    + [ImageInfo](types/c-data-types/r-image-info.md)
    + [Mapa de imagen](types/c-data-types/r-image-map.md)
@@ -274,7 +274,7 @@ ht-degree: 3%
    + [ImageSetMemberUpdateArray](types/c-data-types/r-image-set-member-update-array.md)
    + [InDesignInfo](types/c-data-types/r-in-design-info.md)
    + [JavascriptInfo](types/c-data-types/r-javascriptinfo.md)
-   + [Registro de trabajos](types/c-data-types/r-job-log.md)
+   + [JobLog](types/c-data-types/r-job-log.md)
    + [JobLogArray](types/c-data-types/r-job-log-array.md)
    + [JobLogDetail](types/c-data-types/r-job-log-detail.md)
    + [JobLogDetailArray](types/c-data-types/r-job-log-detail-array.md)
@@ -323,15 +323,15 @@ ht-degree: 3%
    + [PowerPointInfo](types/c-data-types/r-power-point-info.md)
    + [PremierExpressRemixInfo](types/c-data-types/r-premier-express-remix-info.md)
    + [Proyecto](types/c-data-types/r-project.md)
-   + [PropertyArray](types/c-data-types/r-project-array.md)
+   + [ProjectArray](types/c-data-types/r-project-array.md)
    + [Propiedad](types/c-data-types/r-property.md)
-   + [AssetArray](types/c-data-types/r-property-array.md)
+   + [PropertyArray](types/c-data-types/r-property-array.md)
    + [PropertySet](types/c-data-types/r-property-set.md)
    + [PropertySetArray](types/c-data-types/r-property-set-array.md)
    + [PropertySetType](types/c-data-types/r-property-set-type.md)
    + [PropertySetTypeArray](types/c-data-types/r-property-set-type-array.md)
    + [PsdInfo](types/c-data-types/r-psd-info.md)
-   + [ActiveContext](types/c-data-types/r-publish-context.md)
+   + [PublishContext](types/c-data-types/r-publish-context.md)
    + [PublishContextArray](types/c-data-types/r-publish-context-array.md)
    + [PublishHistory](types/c-data-types/r-publish-history.md)
    + [PublishHistoryArray](types/c-data-types/r-publish-history-array.md)
@@ -351,7 +351,7 @@ ht-degree: 3%
    + [SetMetadataFaultArray](types/c-data-types/r-set-metadata-fault-array.md)
    + [SetPropertySetPermissions](types/c-data-types/r-set-property-set-permissions.md)
    + [SvgInfo](types/c-data-types/r-svg-info.md)
-   + [ArrayCadena](types/c-data-types/r-string-array.md)
+   + [StringArray](types/c-data-types/r-string-array.md)
    + [SwcInfo](types/c-data-types/r-swcinfo.md)
    + [SystemFieldCondition](types/c-data-types/r-system-field-condition.md)
    + [SystemFieldConditionArray](types/c-data-types/r-system-field-condition-array.md)
@@ -414,7 +414,7 @@ ht-degree: 3%
    + [Estilos de fuente](string-constants/c-string-constants/r-font-styles.md)
    + [Tipos de fuentes](string-constants/c-string-constants/r-font-types.md)
    + [Información de generación](string-constants/c-string-constants/r-generation-info.md)
-   + [Constantes de Illustrator](string-constants/c-string-constants/r-illustrator-processes.md)
+   + [Procesos de Illustrator](string-constants/c-string-constants/r-illustrator-processes.md)
    + [Tipos de archivos de registro de trabajos](string-constants/c-string-constants/r-job-log-file-types.md)
    + [Campos de ordenación de registro de trabajos](string-constants/c-string-constants/r-job-log-sort-fields.md)
    + [Tipos de registro de trabajos](string-constants/c-string-constants/r-job-log-types.md)
@@ -448,32 +448,32 @@ ht-degree: 3%
    + [ipsApiFault](faults/c-faults/r-ips-api-fault.md)
 + Registro de cambios {#change-log}
    + [Registro de cambios](change-log/c-change-log.md)
-   + Version 6.0 {#version-6-0}
+   + Versión 6.0 {#version-6-0}
       + [Versión 6.0](change-log/c-change-log/c-6/c-6.md)
       + [Operaciones: Nuevo y modificado](change-log/c-change-log/c-6/r-6-operations.md)
       + [Tipos de datos: Nuevo y modificado](change-log/c-change-log/c-6/r-6-types.md)
-   + Version 4.5 {#version-4-5}
+   + Versión 4.5 {#version-4-5}
       + [Versión 4.5](change-log/c-change-log/c-4-5/c-4-5.md)
       + [Operaciones: Nuevo y modificado](change-log/c-change-log/c-4-5/r-4-5-operations.md)
       + [Tipos de datos: Nuevo y modificado](change-log/c-change-log/c-4-5/r-4-5-types.md)
       + [Uso restringido](change-log/c-change-log/c-4-5/r-restricted-use.md)
-   + Version 4.4 {#version-4-4}
+   + Versión 4.4 {#version-4-4}
       + [Versión 4.4](change-log/c-change-log/c-4-4/c-4-4.md)
       + [Operaciones: Nuevo y modificado](change-log/c-change-log/c-4-4/r-4-4-operations.md)
       + [Tipos de datos: Nuevo y modificado](change-log/c-change-log/c-4-4/r-4-4-types.md)
       + [Constantes de cadena: Nuevo y modificado](change-log/c-change-log/c-4-4/r-4-4-string-constants.md)
-   + Version 4.2 {#version-4-2}
+   + Versión 4.2 {#version-4-2}
       + [Versión 4.2](change-log/c-change-log/c-4-2/c-4-2.md)
       + [Tipos de datos: Nuevo y modificado](change-log/c-change-log/c-4-2/r-4-2-types.md)
-   + Version 4.0 {#version-4-0}
+   + Versión 4.0 {#version-4-0}
       + [Versión 4.0](change-log/c-change-log/c-4-0/c-4-0.md)
       + [Nuevas adiciones y cambios](change-log/c-change-log/c-4-0/r-4-0-new.md)
-   + Version 3.8 {#version-3-8}
+   + Versión 3.8 {#version-3-8}
       + [Versión 3.8](change-log/c-change-log/c-3-8/c-3-8.md)
       + [Operaciones: Nuevo y modificado](change-log/c-change-log/c-3-8/r-3-8-operations.md)
       + [Tipos de datos: Nuevo y modificado](change-log/c-change-log/c-3-8/r-3-8-types.md)
       + [Constantes de cadena: Nuevo y modificado](change-log/c-change-log/c-3-8/r-3-8-string-constants.md)
-   + Version 3.7 {#version-3-7}
+   + Versión 3.7 {#version-3-7}
       + [Versión 3.7](change-log/c-change-log/c-3-7/c-3-7.md)
       + [Operaciones: Nuevo y modificado](change-log/c-change-log/c-3-7/r-3-7-operations.md)
       + [Tipos de datos: Nuevo y modificado](change-log/c-change-log/c-3-7/r-3-7-types.md)
