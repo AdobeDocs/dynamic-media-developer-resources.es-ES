@@ -10,13 +10,16 @@ archtype: end-user
 user-guide: null
 translation-type: tm+mt
 source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
+workflow-type: tm+mt
+source-wordcount: '99'
+ht-degree: 1%
 
 ---
 
 
 # Notas de la versión de Dynamic Media {#release-notes}
 
-+ [Inicio de recursos para desarrolladores de Dynamic Media](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
++ [Página principal de recursos para desarrolladores de Dynamic Media](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
 + [Últimas notas de la versión](s7rn2017.md)
 + Archivo {#archive-release-notes}
    + [Versión de otoño de 2016 de Scene7](s7rnfall2016.md)
