@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 84e04972-32ce-4aca-aae6-d5b8bbe761e6
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '215'
+ht-degree: 2%
 
 ---
 
@@ -50,17 +53,17 @@ El servicio de imágenes de Scene7 consta de los siguientes componentes:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Componente de procesamiento de texto ATE </p> </td> 
-   <td colname="col2"> <p>Una o más instancias del servicio de procesamiento de texto pueden estar activas cuando se ejecutan <span class="codeph"> operaciones textPs=</span> . </p> </td> 
+   <td colname="col2"> <p>Una o más instancias del servicio de procesamiento de texto pueden estar activas cuando se ejecutan operaciones <span class="codeph"> textPs=</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Componente de procesamiento SVG </p> </td> 
    <td colname="col2"> <p>Aplicación Java independiente (no alojada por Tomcat). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Procesamiento de imágenes de Scene7 (también conocido como Render Server) </p> </td> 
+   <td colname="col1"> <p>Representación de imágenes de Scene7 (también conocida como Render Server) </p> </td> 
    <td colname="col2"> <p>Requiere una licencia independiente para activarse. Acceso HTTP en <span class="filepath"> /ir/procesar</span>. Toda la funcionalidad de procesamiento de imágenes está integrada en el servidor de plataformas y el servidor de imágenes, sin componentes ejecutables independientes. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-El catálogo predeterminado ( [!DNL default.ini]) o los catálogos de imágenes específicos proporcionan opciones de configuración adicionales (para obtener más información, consulte Catálogos [de imágenes](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) ).
+El catálogo predeterminado ( [!DNL default.ini]) o los catálogos de imágenes específicos proporcionan opciones de configuración adicionales (consulte [Catálogos de imágenes](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) para obtener más información).
