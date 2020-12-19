@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 46f5b0da-7fe7-4daf-947b-bb5f5f5f5e6d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,16 +27,16 @@ Calidad JPEG. Especifica los atributos de codificación JPEG para controlar el n
   <td class="stentry"> <p>Calidad de codificación JPEG (1...100) </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> cromatismo </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> cromatismo  </span> </p> </td> 
   <td class="stentry"> <p>Baja resolución de cromaticidad JPEG (0=normal, 1=disable); opcional, el valor predeterminado es 0. </p> </td> 
  </tr> 
 </table>
 
 Especifica los atributos de codificación JPEG para controlar el nivel de compresión. Esto a su vez varía el tamaño del archivo (cantidad de datos de respuesta) e, indirectamente, la calidad visual de la imagen resultante.
 
-Higher *`quality`* values increase file size and quality, lower values decrease file sizes and reduce perceived image quality. Si el valor es superior a 90, suele generar imágenes que no se distinguen de la imagen sin comprimir.
+Los valores *`quality`* más altos aumentan el tamaño y la calidad del archivo, los valores más bajos disminuyen el tamaño del archivo y reducen la calidad de imagen percibida. Si el valor es superior a 90, suele generar imágenes que no se distinguen de la imagen sin comprimir.
 
-Configure el *`chroma`* indicador para desactivar el muestreo de baja cromaticidad empleado por los codificadores JPEG típicos. Esto puede aumentar el enfoque percibido de los bordes de una imagen cuando el borde se define mediante un cambio de tono en lugar de un brillo. La configuración de este indicador puede provocar un ligero aumento en el tamaño del archivo. Experimente con esta configuración si el texto parece ligeramente borroso.
+Establezca el indicador *`chroma`* para desactivar el muestreo de disminución de cromaticidad empleado por los codificadores JPEG típicos. Esto puede aumentar el enfoque percibido de los bordes de una imagen cuando el borde se define mediante un cambio de tono en lugar de un brillo. La configuración de este indicador puede provocar un ligero aumento en el tamaño del archivo. Experimente con esta configuración si el texto parece ligeramente borroso.
 
 ## Propiedades {#section-897b61c786dd4230a2c5807f2f40e722}
 
@@ -47,4 +50,4 @@ Se omite si el formato de imagen de salida no admite compresión JPEG. Consulte 
 
 ## Véase también {#section-61871fbded3a42f68cf3bdcaed35eae1}
 
-[fmt=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-fmt.md#reference-4c743f67d56b47c5b774fcc900ff758c), [atributo::JpegQuality](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-jpegquality.md#reference-d86fc5ad18bb436891efdbe1f98fea50)
+[fmt=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-fmt.md#reference-4c743f67d56b47c5b774fcc900ff758c),  [atributo::JpegQuality](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-jpegquality.md#reference-d86fc5ad18bb436891efdbe1f98fea50)
