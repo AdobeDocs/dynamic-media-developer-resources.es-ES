@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 342def36-9dfb-487c-bed5-b0f301ce8430
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '256'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +21,7 @@ El botón Reproducir/Pausa permite al usuario pausar o reanudar el comportamient
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
-El botón solo está visible si el `CarouselViewer.autoplay` parámetro está establecido en `1`; de lo contrario, está oculta. Puede cambiar el tamaño, el aspecto y la posición de este botón, en relación con la barra de control que lo contiene, mediante CSS.
+El botón sólo está visible si el parámetro `CarouselViewer.autoplay` está establecido en `1`; de lo contrario, está oculta. Puede cambiar el tamaño, el aspecto y la posición de este botón, en relación con la barra de control que lo contiene, mediante CSS.
 
 **Propiedades CSS del área del visor principal**
 
@@ -59,15 +62,15 @@ El aspecto del botón se controla con el siguiente selector de clase CSS:
    <td colname="col2"> <p>Altura del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Imagen que se muestra para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> sprites CSS </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cursor </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cursor  </span> </p> </td> 
    <td colname="col2"> <p>Tipo de cursor. </p> </td> 
   </tr> 
  </tbody> 
@@ -75,9 +78,9 @@ El aspecto del botón se controla con el siguiente selector de clase CSS:
 
 >[!NOTE]
 >
->Este botón admite el selector de `state` atributos, que se puede utilizar para aplicar diferentes apariencias a diferentes estados de botón.
+>Este botón admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes apariencias a distintos estados de botones.
 
-La información de objeto del botón se puede localizar. Consulte [Localización de los elementos](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) de la interfaz de usuario para obtener más información.
+La información de objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) para obtener más información.
 
 Ejemplo: para configurar un botón de pausa de reproducción de 28 x 28 píxeles, que se posicione 17 píxeles desde la parte inferior y 12 píxeles desde el borde izquierdo del visor y que muestre una imagen diferente para cada uno de los cuatro estados de botón diferentes cuando se seleccione o no.
 
