@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 952c85b7-556c-4f58-aa65-003b0de70fd2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,4 +19,4 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 La clase principal del visor de imágenes interactivo es InteractiveImage. Se declara en la Área de nombres s7viewers. Esta API de JavaScript cubre el constructor, los métodos y las rellamadas de esta clase en particular.
 
-En los siguientes ejemplos, `<instance>` significa el nombre real del objeto de visor de JavaScript al que se crea una instancia desde la `s7viewers.InteractiveImage` clase.
+En todos los ejemplos siguientes, `<instance>` representa el nombre real del objeto de visor de JavaScript al que se crea una instancia desde la clase `s7viewers.InteractiveImage`.
