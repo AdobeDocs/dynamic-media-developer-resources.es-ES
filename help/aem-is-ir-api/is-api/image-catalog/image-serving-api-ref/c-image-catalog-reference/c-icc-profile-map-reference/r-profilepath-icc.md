@@ -1,6 +1,6 @@
 ---
-description: Ruta del archivo Perfil. Ruta y nombre del archivo de perfil de color ICC, incluido el sufijo de archivo.
-seo-description: Ruta del archivo Perfil. Ruta y nombre del archivo de perfil de color ICC, incluido el sufijo de archivo.
+description: Ruta del archivo perfil. Ruta y nombre del archivo de perfil de color ICC, incluido el sufijo de archivo.
+seo-description: Ruta del archivo perfil. Ruta y nombre del archivo de perfil de color ICC, incluido el sufijo de archivo.
 seo-title: ProfilePath
 solution: Experience Manager
 title: ProfilePath
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 59e78bfb-bc5c-45e4-aa70-d18cab2f9e39
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '71'
+ht-degree: 8%
 
 ---
 
 
 # ProfilePath{#profilepath}
 
-Ruta del archivo Perfil. Ruta y nombre del archivo de perfil de color ICC, incluido el sufijo de archivo.
+Ruta del archivo perfil. Ruta y nombre del archivo de perfil de color ICC, incluido el sufijo de archivo.
 
 ## Propiedades {#section-d342866853f24e168ba44215ef594e29}
 
