@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 12391b8b-532f-4e68-ad60-4dbcc86d9e58
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,8 +24,8 @@ Atributo de configuración para el visor de vídeo interactivo.
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph">1|0|<span class="varname"> precarga</span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica el comportamiento de precarga del componente. </p> <p>Cuando se establece en <span class="codeph"> -1</span> , todas las muestras se cargan simultáneamente cuando se inicializa el componente o se cambia el recurso. </p> <p>Cuando se establece en <span class="codeph"> 0</span> , solo se cargan muestras visibles. </p> <p>Se configura en <span class="codeph"><span class="varname"> precarga</span></span> para definir cuántas filas/columnas invisibles alrededor del área visible se cargan previamente. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
+   <td colname="col2"> <p> Especifica el comportamiento de precarga del componente. </p> <p>Cuando se establece en <span class="codeph"> -1</span>, todas las muestras se cargan simultáneamente cuando se inicializa el componente o se cambia el recurso. </p> <p>Cuando se establece en <span class="codeph"> 0</span> sólo se cargan muestras visibles. </p> <p>Establezca <span class="codeph"><span class="varname"> preloadnbr</span></span> para definir cuántas filas/columnas invisibles alrededor del área visible se cargan previamente. </p> </td> 
   </tr> 
  </tbody> 
 </table>
