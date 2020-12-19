@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: b660b9fd-592b-4072-83c9-f70330ee19ab
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '202'
+ht-degree: 0%
 
 ---
 
 
-# Favoritos, efecto{#favorites-effect}
+# Efecto Favoritos{#favorites-effect}
 
 El visor muestra los iconos de Favoritos sobre la vista principal en los lugares donde el usuario lo agregó originalmente.
 
@@ -29,11 +32,11 @@ El aspecto del icono Favorito se controla con el siguiente selector de clase CSS
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Imagen que se muestra para el icono. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -57,20 +60,20 @@ Ejemplo: configure un icono Favoritos de 36 x 36 píxeles.
 }
 ```
 
-En sistemas de escritorio, el componente admite el selector de `cursortype` atributos que puede aplicar a la `.s7favoriteseffect` clase y controla el tipo del cursor en función de la acción del usuario seleccionado. The following `cursortype` values are supported:
+En sistemas de escritorio, el componente admite el selector de atributos `cursortype` que puede aplicar a la clase `.s7favoriteseffect` y controla el tipo del cursor en función de la acción del usuario seleccionado. Se admiten los siguientes valores `cursortype`:
 
 <table id="table_71F8F333909247E4ACFEBDE3A1370EAB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mode_add </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mode_add  </span> </p> </td> 
    <td colname="col2"> <p>El usuario mostrado está agregando un nuevo icono Favorito. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mode_remove </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mode_remove  </span> </p> </td> 
    <td colname="col2"> <p>El usuario mostrado está eliminando un icono de Favorito existente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mode_vista </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mode_vista  </span> </p> </td> 
    <td colname="col2"> <p>Se muestra en el modo de operación normal cuando la edición de Favoritos no está activa. </p> </td> 
   </tr> 
  </tbody> 
