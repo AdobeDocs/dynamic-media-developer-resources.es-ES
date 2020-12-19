@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: e836c5af-53b8-4bfa-a93a-98750cca9745
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +35,7 @@ Sintaxis
 
 **searchAssets**
 
-* El `publishState` parámetro opcional permite buscar en el estado del `MarkedForPublish/NotMarkedForPublish` recurso.
+* El parámetro opcional `publishState` permite buscar en el estado del recurso `MarkedForPublish/NotMarkedForPublish`.
 
 **getJobLogs**
 
