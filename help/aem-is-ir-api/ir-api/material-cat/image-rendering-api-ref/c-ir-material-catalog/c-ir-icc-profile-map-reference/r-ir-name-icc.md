@@ -1,6 +1,6 @@
 ---
-description: Nombre de método abreviado de Perfil. Un nombre de método abreviado para el perfil de color.
-seo-description: Nombre de método abreviado de Perfil. Un nombre de método abreviado para el perfil de color.
+description: Nombre de método abreviado de perfil. Un nombre de método abreviado para el perfil de color.
+seo-description: Nombre de método abreviado de perfil. Un nombre de método abreviado para el perfil de color.
 seo-title: Nombre
 solution: Experience Manager
 title: Nombre
@@ -8,17 +8,20 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: f293ceb0-65dc-414c-8ff7-21e70f0315a4
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '64'
+ht-degree: 14%
 
 ---
 
 
 # Nombre{#name}
 
-Nombre de método abreviado de Perfil. Un nombre de método abreviado para el perfil de color.
+Nombre de método abreviado de perfil. Un nombre de método abreviado para el perfil de color.
 
 ## Propiedades {#section-52a4b91bbfa045c49c9541444fad2027}
 
-Cadena de texto. Obligatorio. Clave de índice principal para el mapa de perfiles ICC. Cada `icc::Name` valor debe ser único dentro de la tabla y no debe contener caracteres &#39;,&#39;.
+Cadena de texto. Obligatorio. Clave de índice principal para el mapa de perfiles ICC. Cada valor `icc::Name` debe ser único dentro de la tabla y no debe contener caracteres &#39;,&#39;.
 
 ## Predeterminado {#section-9d23d9b082f541b5b29b4ff92e942942}
 
