@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: b36cf09d-dee2-4e8b-9500-e8fa4c5c112f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ Valor de color. Valor RGB hexadecimal y empaquetado, opcionalmente precedido por
 
 **Indicador**
 
-`0`=false, `1`=true, cualquier otro valor significa desconocido o no especificado.
+`0`=false,  `1`=true, cualquier otro valor significa desconocido o no especificado.
 
 **Enum**
 
@@ -38,4 +41,4 @@ Valor de coma flotante firmado (p. ej. `0, 12.5, 245 , -2.34e4`). 0 o valores ne
 
 **Cadena de texto**
 
-Los delimitadores de cadena son opcionales, a menos que la cadena contenga caracteres `<CR>`, `<LF>`o `<TAB>` . Las comillas simples y las comillas de doble pueden utilizarse como delimitadores. Si se utilizan comillas, las comillas de este tipo incrustadas dentro de la cadena deben separarse mediante dos comillas consecutivas (p. ej. &#39; `This month''s Special`&#39;).
+Los delimitadores de cadena son opcionales, a menos que la cadena contenga caracteres `<CR>`, `<LF>` o `<TAB>`. Las comillas simples y las comillas de doble pueden utilizarse como delimitadores. Si se utilizan comillas, las comillas de este tipo incrustadas dentro de la cadena deben separarse mediante dos comillas consecutivas (p. ej. &#39; `This month''s Special`&#39;).
