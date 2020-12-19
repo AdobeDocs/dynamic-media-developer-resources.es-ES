@@ -1,18 +1,21 @@
 ---
 description: La vista principal consiste en la imagen estática.
 seo-description: La vista principal consiste en la imagen estática.
-seo-title: vista de zoom
+seo-title: Vista de zoom
 solution: Experience Manager
-title: vista de zoom
+title: Vista de zoom
 topic: Dynamic media
 uuid: d8349f8c-134f-4e74-9d0c-ab56981965d7
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '68'
+ht-degree: 1%
 
 ---
 
 
-# Zoom view{#zoom-view}
+# Vista de zoom{#zoom-view}
 
 La vista principal consiste en la imagen estática.
 
@@ -35,7 +38,7 @@ El aspecto del área de visualización se controla con el siguiente selector de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Color de fondo en formato hexadecimal de la vista principal. </p> </td> 
   </tr> 
  </tbody> 
