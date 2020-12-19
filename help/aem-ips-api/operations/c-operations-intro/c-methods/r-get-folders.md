@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 06e9d745-b711-43e3-8dc6-93da66b981b1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Devuelve todas las carpetas y subcarpetas, empezando por la ruta de la carpeta. La respuesta getFolders devuelve un máximo de 100.000 carpetas.
 
-## Finalidad de las carpetas {#section-66e344d5333f42f1b060a0cba25935c3}
+## Objetivo de las carpetas {#section-66e344d5333f42f1b060a0cba25935c3}
 
 Una carpeta le permite organizar subcarpetas y recursos. Todos los nombres de carpetas y recursos deben ser únicos. Las carpetas y los recursos que comparten el mismo nombre provocarán un conflicto de Áreas de nombres, incluso si se encuentran en jerarquías de carpetas diferentes.
 Sintaxis
