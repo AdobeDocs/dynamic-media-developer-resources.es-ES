@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 8371880e-47df-4333-b8a6-91feaf16c409
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '248'
+ht-degree: 14%
 
 ---
 
@@ -22,7 +25,7 @@ Cuatro valores enteros, separados por comas.
 
 ` *``*, *``*, *`typeflagsval1`*, *`val2`*`
 
-` *`type`*` habilita la incrustación de Digimarc y especifica el tipo de marca de agua:
+` *``*` typehabilita la incrustación Digimarc y especifica el tipo de marca de agua:
 
 <table id="table_3648951F14D94C5BAD097CFB783F1EE7"> 
  <thead> 
@@ -55,12 +58,12 @@ Cuatro valores enteros, separados por comas.
  </tbody> 
 </table>
 
-` *`indicadores`*` es un campo de bits con tres valores. Configure el bit 0 para indicar contenido protegido contra copia, el bit 1 para indicar contenido restringido y el bit 2 para indicar contenido adulto:
+` *``*` indica un campo de bits con tres valores. Configure el bit 0 para indicar contenido protegido contra copia, el bit 1 para indicar contenido restringido y el bit 2 para indicar contenido adulto:
 
 <table id="table_00F218515FBE484F9D05CBAF14F9D045"> 
  <thead> 
   <tr> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> indicadores</span></span> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname"> indicadores</span> </span> </p> </th> 
    <th class="entry"> <p><b>Descripción</b> </p> </th> 
   </tr> 
  </thead>
@@ -70,7 +73,7 @@ Cuatro valores enteros, separados por comas.
    <td> <p>- </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>Protegido con copia. </p> </td> 
   </tr> 
   <tr> 
@@ -78,7 +81,7 @@ Cuatro valores enteros, separados por comas.
    <td> <p>Restringido. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>Protegido con copia, restringido. </p> </td> 
   </tr> 
   <tr> 
@@ -100,14 +103,14 @@ Cuatro valores enteros, separados por comas.
  </tbody> 
 </table>
 
-La interpretación de ` *`val1`*` y ` *`val2`*` depende del ` *`tipo`*`:
+La interpretación de ` *`val1`*` y ` *`val2`*` depende de ` *`tipo`*`:
 
 <table id="table_6B29F76BC1974C12AB7124BF84B29EC2"> 
  <thead> 
   <tr> 
    <th class="entry"> <p><span class="codeph"> <span class="varname"> type</span> </span> </p> </th> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> val1 </span></span> </p> </th> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> val2 </span></span> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname"> val1  </span> </span> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname"> val2  </span> </span> </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -157,4 +160,4 @@ Se hereda del atributo::DigimarcInfo si el campo no está presente o si está va
 
 ## Véase también {#section-4bd3e7272c5c4b8cb8c5ca1ac7ed1012}
 
-[atributo::DigimarcInfo](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcinfo.md#reference-de88636cb9b4435a94e3d0a80f072667) , [atributo::DigimarcId](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcid.md#reference-33e3eca7f1874510904e5c8645cecd68)
+[atributo::DigimarcInfo](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcinfo.md#reference-de88636cb9b4435a94e3d0a80f072667) ,  [atributo::DigimarcId](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcid.md#reference-33e3eca7f1874510904e5c8645cecd68)
