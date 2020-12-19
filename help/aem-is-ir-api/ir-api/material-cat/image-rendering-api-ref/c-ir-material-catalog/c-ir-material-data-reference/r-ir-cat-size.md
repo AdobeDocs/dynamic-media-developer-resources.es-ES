@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 07d41f71-e18d-4559-afc7-75dc1c45be93
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ Tamaño de calcomanía. Anchura, altura y grosor de un objeto de material de cal
 
 Tres números reales separados por comas. No debe ser negativo. Establezca los valores no utilizados en 0. Se pueden omitir ceros finales.
 
-Especifique tanto la anchura como la altura si la imagen debe estirarse para ajustarse al tamaño especificado (la proporción de aspecto puede cambiar). Defina la anchura o la altura para escalar la imagen proporcionalmente. Defina la anchura y la altura en 0 para `catalog::Resolution`determinar el tamaño del objeto.
+Especifique tanto la anchura como la altura si la imagen debe estirarse para ajustarse al tamaño especificado (la proporción de aspecto puede cambiar). Defina la anchura o la altura para escalar la imagen proporcionalmente. Configure tanto la anchura como la altura en 0 para utilizar `catalog::Resolution`para determinar el tamaño del objeto.
 
 Proporcione un valor de grosor para agregar una sombra paralela al objeto de calcomanía. Opcional para materiales de calado, ignorados por todos los demás materiales.
 
@@ -40,7 +43,7 @@ Proporcione un valor de grosor para agregar una sombra paralela al objeto de cal
   <td class="stentry"> <p>La calcomanía tiene una anchura de 5 pulgadas, la altura viene determinada por la proporción de aspecto de la imagen y se representa una sombra paralela basada en un grosor de 1 pulgada. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>0,0,.5 </p></td> 
+  <td class="stentry"> <p>0,0, 0,5 </p></td> 
   <td class="stentry"> <p>La anchura y la altura de la calcomanía están determinadas por el catálogo::Resolution y que tiene un grosor de media pulgada. </p></td> 
  </tr> 
 </table>
