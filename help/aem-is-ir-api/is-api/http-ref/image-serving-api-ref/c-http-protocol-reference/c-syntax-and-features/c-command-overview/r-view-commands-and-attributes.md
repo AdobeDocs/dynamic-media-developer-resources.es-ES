@@ -1,18 +1,21 @@
 ---
 description: Estos comandos se aplican independientemente de dónde aparezca en la solicitud.
 seo-description: Estos comandos se aplican independientemente de dónde aparezca en la solicitud.
-seo-title: Comandos de Vista
+seo-title: Comandos de vista
 solution: Experience Manager
-title: Comandos de Vista
+title: Comandos de vista
 topic: Scene7 Image Serving - Image Rendering API
 uuid: f847a2ed-cd16-4342-9395-8f933ff2da6f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Comandos de Vista{#view-commands}
+# Comandos de vista{#view-commands}
 
 Estos comandos se aplican independientemente de dónde aparezca en la solicitud.
 
