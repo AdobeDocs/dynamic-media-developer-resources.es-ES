@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: b8c5ada6-470e-4795-a4f3-20750da709a9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Crea una cuenta de usuario y la agrega a una o varias compañías.
 
-Al agregar un usuario a varias compañías, especifique dichas compañías mediante sus controles de compañía en `companyHandleArray`. Esta operación devuelve el identificador al usuario que acaba de agregar.
+Al agregar un usuario a varias compañías, especifique dichas compañías mediante sus identificadores de compañía en `companyHandleArray`. Esta operación devuelve el identificador al usuario que acaba de agregar.
 
 ## Tipos de usuarios autorizados {#section-126ad42f844444fea11ecf8ad01fe1ec}
 
@@ -34,7 +37,7 @@ Al agregar un usuario a varias compañías, especifique dichas compañías media
 | ` *`firstName`*` | `xsd:string` | Sí | El nombre del usuario. |
 | ` *`lastName`*` | `xsd:string` | Sí | Apellido del usuario. |
 | ` *`correo electrónico`*` | `xsd:string` | Sí | La dirección de correo electrónico del usuario. |
-| ` *`defaultRole`*` | `xsd:string` | Sí | Define la función de un usuario en cada compañía a la que pertenece. Sin embargo, tenga en cuenta que la función `IpsAdmin` anula otros ajustes por compañía. |
+| ` *`defaultRole`*` | `xsd:string` | Sí | Define la función de un usuario en cada compañía a la que pertenece. Sin embargo, tenga en cuenta que la función `IpsAdmin` anula otras configuraciones por compañía. |
 | ` *`contraseña`*` | `xsd:string` | Sí | Establece la contraseña del usuario |
 | ` *`passwordExpires`*` | `xsd:dateTime` | No | Establece el período de caducidad de la contraseña. Proporcione el huso horario al pasar la solicitud. Los husos horarios se ajustan a la hora central. |
 | ` *`isvalid`*` | `xsd:boolean` | Sí | Determina si el usuario es válido. |
