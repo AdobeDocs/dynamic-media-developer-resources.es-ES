@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: f0eedfbd-eb32-49db-bca4-cc7b14d5495e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 1%
 
 ---
 
@@ -21,19 +24,19 @@ Referencia de la API de JavaScript para el visor de giros.
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> params</span></span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> Los pares de parámetros {string}</span> name=value separados por <span class="codeph"> &amp;</span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> params</span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> Los pares de parámetro {string}</span> name=value separados por  <span class="codeph"> &amp;</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Establece uno o más parámetros en un valor determinado. La sintaxis del argumento de método es idéntica a una cadena de consulta URL. Es decir, representa pares nombre=valor separados por `&`. Al igual que en una cadena de consulta, los nombres y los valores están codificados en porcentaje con UTF8. Antes de llamar `init()`, se debe llamar a este parámetro.
+Establece uno o más parámetros en un valor determinado. La sintaxis del argumento de método es idéntica a una cadena de consulta URL. Es decir, representa pares nombre=valor separados por `&`. Al igual que en una cadena de consulta, los nombres y los valores están codificados en porcentaje con UTF8. Antes de llamar a `init()`, se debe llamar a este parámetro.
 
-Este método es opcional si la información de configuración del visor se pasa con el objeto `config` JSON al constructor.
+Este método es opcional si la información de configuración del visor se pasa con el objeto JSON `config` al constructor.
 
 Consulte también [init](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae).
 
-## Returns {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Devuelve {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 Ninguno.
 
