@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 531f7a94-149b-4090-a163-a1895156250b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# op_sound{#op-noise}
+# op_ruido{#op-noise}
 
 Añadir ruido. Añade el ruido aleatorio en los datos de la imagen en primer plano o en el primer plano de una capa de efecto.
 
@@ -34,7 +37,7 @@ Añadir ruido. Añade el ruido aleatorio en los datos de la imagen en primer pla
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> monocromo</span> </p> </td> 
-   <td colname="col2"> <p>Se establece en 0 para el ruido de color, 1 para el ruido gris. </p> </td> 
+   <td colname="col2"> <p>Se establece en 0 para ruido de color, 1 para ruido gris. </p> </td> 
   </tr> 
  </tbody> 
 </table>
