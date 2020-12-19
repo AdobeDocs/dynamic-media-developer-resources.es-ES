@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: e8c0401b-9161-4624-babb-6c7afb443e65
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,8 +32,8 @@ Cada catálogo de imágenes consta de un archivo de atributos de catálogo reque
 
 Los archivos de datos del catálogo se asocian a los catálogos de imágenes mediante referencias de archivo en el archivo de atributos del catálogo. Varios catálogos de imágenes pueden compartir el mismo archivo de datos de catálogo.
 
-Los archivos de atributos del catálogo deben tener un sufijo de [!DNL .ini] archivo y estar ubicados en la carpeta del catálogo de Platform Server ( `PlatformServer::catalog.rootPath`). Los archivos de datos del catálogo se pueden ubicar en la misma carpeta o en cualquier otra carpeta accesible para el servidor de plataforma.
+Los archivos de atributos del catálogo deben tener un sufijo de archivo [!DNL .ini] y estar ubicados en la carpeta de catálogo de Platform Server ( `PlatformServer::catalog.rootPath`). Los archivos de datos del catálogo se pueden ubicar en la misma carpeta o en cualquier otra carpeta accesible para el servidor de plataforma.
 
-Este documento describe el formato de archivo del catálogo de imágenes para el sistema de servicio de imágenes de Scene7. La audiencia deseada son programadores experimentados y desarrolladores de sitios web que desean aprovechar el servicio de imágenes de Scene7 para una aplicación web o personalizada.
+Este documento describe el formato de archivo del catálogo de imágenes para el sistema Scene7 Image Serving. La audiencia deseada son programadores experimentados y desarrolladores de sitios web que desean aprovechar el servicio de imágenes de Scene7 para una aplicación web o personalizada.
 
-Se da por hecho que el lector conoce generalmente el sistema de servicio de imágenes de Scene7, las normas y convenciones generales del protocolo HTTP y la terminología básica de imágenes.
+Se supone que el lector está familiarizado generalmente con el sistema de servicio de imágenes de Scene7, las normas y convenciones generales del protocolo HTTP y la terminología básica de imágenes.
