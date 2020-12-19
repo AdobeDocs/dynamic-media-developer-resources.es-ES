@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 811095df-732d-48a3-a6ff-55d6dc602b54
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '127'
+ht-degree: 6%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Condición de búsqueda de campo del sistema para la operación searchAssets.
 
-Para las comparaciones unarias, pase exactamente un valor ( `boolVal`, `longVal`, `doubleVal`o `dateVal`) en función del tipo de campo del sistema. Para rangos de búsqueda, pase `min<Type>` y `max<Type>` parámetros y pase un `op` valor de `Between` o `NotBetween`.
+Para las comparaciones unarias, pase exactamente un valor ( `boolVal`, `longVal`, `doubleVal` o `dateVal`) según el tipo de campo del sistema. Para rangos de búsqueda, pase los parámetros `min<Type>` y `max<Type>` y pase un valor `op` de `Between` o `NotBetween`.
 
 ## Parámetros {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -29,7 +32,7 @@ Para las comparaciones unarias, pase exactamente un valor ( `boolVal`, `longVal`
 | ` *`longVal`*` | `xsd:long` | Valor de comparación largo. |
 | ` *`minLong`*` | `xsd:long` | Límite inferior de rango largo. |
 | ` *`maxLong`*` | `xsd:long` | Límite superior de rango largo. |
-| ` *`doubleVal`*` | `xsd:double` | Valor de comparación de Dobles. |
+| ` *`doubleVal`*` | `xsd:double` | Valor de comparación de dobles. |
 | ` *`minDouble`*` | `xsd:double` | Límite inferior del rango de dobles. |
 | ` *`maxDouble`*` | `xsd:double` | Límite superior del rango de dobles. |
 | ` *`dateVal`*` | `xsd:dateTime` | Valor de comparación de fechas. |
