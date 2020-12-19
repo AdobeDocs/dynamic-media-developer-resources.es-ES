@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: b0a6d252-4b9c-40c4-b321-eb71ebc3b276
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '108'
+ht-degree: 2%
 
 ---
 
@@ -21,17 +24,17 @@ Referencia de la API de JavaScript para el visor de giros.
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> recurso</span></span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> Cadena</span>} nueva ID de recurso, conjunto de giros único o multidimensional con modificadores opcionales de servicio de imágenes anexados después de <span class="codeph"> ?</span>. </p> <p> Este visor no admite las imágenes que utilizan IR (procesamiento de imágenes) o UGC (contenido generado por el usuario). </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> recurso</span> </span> </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> Cadena</span>} nueva identificación del recurso, conjunto de giros único o multidimensional con modificadores opcionales de servicio de imágenes anexados después de <span class="codeph"> ?</span>. </p> <p> Este visor no admite las imágenes que utilizan IR (procesamiento de imágenes) o UGC (contenido generado por el usuario). </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Establece el nuevo recurso. Puede llamar a este parámetro en cualquier momento, ya sea antes o después `init()`. Si se llama después `init()`, el visor intercambia el recurso en tiempo de ejecución.
+Establece el nuevo recurso. Puede llamar a este parámetro en cualquier momento, ya sea antes o después de `init()`. Si se llama después de `init()`, el visor intercambia el recurso en tiempo de ejecución.
 
 Consulte también [init](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae).
 
-## Returns {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Devuelve {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 Ninguno.
 
