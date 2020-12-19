@@ -8,19 +8,22 @@ topic: Dynamic media
 uuid: a0bb6c9a-f8f2-4560-a19e-6ab32868c5ff
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '43'
+ht-degree: 16%
 
 ---
 
 
-# Botón Cerrar{#closebutton}
+# Cerrar botón{#closebutton}
 
 [!DNL `closebutton=0|1`]
 
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p>Establezca en <span class="codeph"> 1 </span> para activar la visualización del botón de cierre. O bien, defina en <span class="codeph"> 0 </span> para ocultar el botón de cierre. </p> <p>El botón de cierre solo se admite en dispositivos táctiles; no se puede mostrar en sistemas de escritorio. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
+   <td colname="col2"> <p>Establezca <span class="codeph"> 1 </span> para habilitar la visualización del botón de cierre. O bien, configure <span class="codeph"> 0 </span> para ocultar el botón de cierre. </p> <p>El botón de cierre solo se admite en dispositivos táctiles; no se puede mostrar en sistemas de escritorio. </p> </td> 
   </tr> 
  </tbody> 
 </table>
