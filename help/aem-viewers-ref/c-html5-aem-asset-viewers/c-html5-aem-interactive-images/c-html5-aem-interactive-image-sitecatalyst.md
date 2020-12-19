@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: ae870d2e-2a09-4551-935a-916d0e657653
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '94'
+ht-degree: 4%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 De forma predeterminada, el visor envía una única solicitud HTTP de seguimiento al servidor de imágenes configurado con el tipo de visor y la información de versión.
 
-Para integrarse con sistemas de análisis de terceros, es necesario escuchar la llamada de retorno del `trackEvent` visor y procesar el argumento `eventInfo` de la función de llamada de retorno según sea necesario. El siguiente código es un ejemplo de dicha función de controlador:
+Para integrarse con sistemas de análisis de terceros, es necesario escuchar la llamada de retorno del visor `trackEvent` y procesar el argumento `eventInfo` de la función de llamada de retorno según sea necesario. El siguiente código es un ejemplo de dicha función de controlador:
 
 ```
 var interactiveImage = new s7viewers.InteractiveImage({ 
@@ -47,7 +50,7 @@ El visor realiza el seguimiento de los siguientes eventos de usuario del SDK:
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>evento del usuario del SDK </p> </th> 
+   <th colname="col1" class="entry"> <p>EVENTO del usuario del SDK </p> </th> 
    <th colname="col2" class="entry"> <p>Enviado cuando... </p> </th> 
   </tr> 
  </thead>
