@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 27eb2a48-008b-455e-9a03-41bb4030271b
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 9%
 
 ---
 
@@ -20,11 +23,11 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> paso</span></span> </p> </td> 
-   <td colname="col2"> <p> Configura el número de acciones de acercamiento y alejamiento necesarias para aumentar o reducir la resolución en un factor de dos. El cambio de resolución de cada acción de zoom es de 2^1 por paso. Establezca en <span class="codeph"> 0</span> para aplicar zoom a resolución completa con una sola acción de zoom. </p> </td> 
+   <td colname="col2"> <p> Configura el número de acciones de acercamiento y alejamiento necesarias para aumentar o reducir la resolución en un factor de dos. El cambio de resolución de cada acción de zoom es de 2^1 por paso. Establezca <span class="codeph"> 0</span> para aplicar zoom a resolución completa con una sola acción de zoom. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> límite</span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica la resolución máxima de zoom, en relación con la imagen de resolución completa. El valor predeterminado es <span class="codeph"> 1,0</span>, lo que no permite ampliar el zoom más allá de la resolución completa. </p> </td> 
+   <td colname="col2"> <p> Especifica la resolución máxima de zoom, en relación con la imagen de resolución completa. El valor predeterminado es <span class="codeph"> 1.0</span>, lo que no permite aplicar zoom más allá de la resolución completa. </p> </td> 
   </tr> 
  </tbody> 
 </table>
