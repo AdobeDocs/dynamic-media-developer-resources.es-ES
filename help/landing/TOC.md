@@ -1,5 +1,5 @@
 ---
-title: Recursos para desarrolladores de Dynamic Media de Adobe
+title: Recursos para desarrolladores de Adobe Dynamic Media
 cloud: experience-cloud
 product: Adobe Dynamic Media Developer Resources
 audience: end-user
@@ -10,8 +10,8 @@ index: y
 translation-type: tm+mt
 source-git-commit: 901f0c3986715279e0c696db93be2048343d2bc5
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
