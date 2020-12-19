@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 53e6f61c-ffbd-4795-bff3-7c03af584cec
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Describe los tipos de datos nuevos y modificados para la API de IPS versión 3.7
 
 Sintaxis
 
-## Tipos nuevos {#section-2c6007424e98462f868dc60548a57d19}
+## Nuevos tipos {#section-2c6007424e98462f868dc60548a57d19}
 
 * `ZipInfo`
 * `MetadataUpdate`
