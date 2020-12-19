@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 9218cba8-2873-46b7-90e3-7ab9d5018690
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '202'
+ht-degree: 8%
 
 ---
 
@@ -44,15 +47,15 @@ Sintaxis
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>Se requiere <span class="codeph"> <span class="varname"> companyHandle</span> </span> o <span class="codeph"> companyName <span class="varname"></span> </span> . </p> </td> 
+   <td colname="col3"> <p>Se requiere <span class="codeph"> <span class="varname"> companyHandle</span> </span> o <span class="codeph"> <span class="varname"> companyName</span> </span>. </p> </td> 
    <td colname="col4"> <p>El identificador de la compañía cuya información desea obtener. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>Se requiere <span class="codeph"> <span class="varname"> companyHandle</span> </span> o <span class="codeph"> companyName <span class="varname"></span> </span> . </p> </td> 
+   <td colname="col3"> <p>Se requiere <span class="codeph"> <span class="varname"> companyHandle</span> </span> o <span class="codeph"> <span class="varname"> companyName</span> </span>. </p> </td> 
    <td colname="col4"> <p>Nombre de la compañía cuya información desea obtener. </p> </td> 
   </tr> 
  </tbody> 
@@ -71,7 +74,7 @@ Sintaxis
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipos:Compañía</span> </p> </td> 
    <td colname="col3"> <p>Sí </p> </td> 
    <td colname="col4"> <p>Administrar y otra información descriptiva sobre la compañía. </p> </td> 
