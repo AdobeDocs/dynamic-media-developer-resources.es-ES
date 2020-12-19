@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 3f90a216-654f-44a9-947d-592bd5f342d4
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '338'
+ht-degree: 1%
 
 ---
 
 
-# Establecer indicador{#set-indicator}
+# Definir indicador{#set-indicator}
 
 El indicador de conjunto es una serie de puntos procesados en la parte inferior del visor. Muestra la posición actual dentro del conjunto.
 
@@ -35,7 +38,7 @@ El aspecto del contenedor del indicador establecido se controla con el siguiente
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Color de fondo en formato hexadecimal del indicador establecido. </p> </td> 
   </tr> 
  </tbody> 
@@ -43,7 +46,7 @@ El aspecto del contenedor del indicador establecido se controla con el siguiente
 
 >[!NOTE]
 >
->El indicador de conjunto admite el selector de atributos de modo, que puede utilizar para aplicar diferentes estilos a los modos de operación numérica y de puntos. En particular, `mode="numeric"` corresponde al modo numérico de operación; `mode="dotted"` corresponde al estado de punto predeterminado.
+>El indicador de conjunto admite el selector de atributos de modo, que puede utilizar para aplicar diferentes estilos a los modos de operación numérica y de puntos. En particular, `mode="numeric"` corresponde al modo de operación numérica; `mode="dotted"` corresponde al estado de punto predeterminado.
 
 Ejemplo: para configurar el indicador de configuración con un fondo blanco:
 
@@ -74,35 +77,35 @@ El aspecto de un punto indicador de conjunto individual se controla con el selec
    <td colname="col2"> <p>Altura del punto indicador establecido. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
    <td colname="col2"> <p>Margen izquierdo en píxeles. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
    <td colname="col2"> <p>Margen superior en píxeles. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-right  </span> </p> </td> 
    <td colname="col2"> <p>Margen derecho en píxeles. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-bottom  </span> </p> </td> 
    <td colname="col2"> <p>Margen inferior en píxeles. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p>Radio del borde en píxeles. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Color de fondo en formato hexadecimal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Nombre de la fuente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Tamaño de la fuente. </p> </td> 
   </tr> 
   <tr> 
@@ -110,11 +113,11 @@ El aspecto de un punto indicador de conjunto individual se controla con el selec
    <td colname="col2"> <p>Color de fuente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vertical-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> vertical-align  </span> </p> </td> 
    <td colname="col2"> <p>Alineación vertical del índice del letrero. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> line-height  </span> </p> </td> 
    <td colname="col2"> <p>Altura del texto para el índice del letrero. </p> </td> 
   </tr> 
  </tbody> 
@@ -122,7 +125,7 @@ El aspecto de un punto indicador de conjunto individual se controla con el selec
 
 >[!NOTE]
 >
->Los elementos del indicador de conjunto admiten el selector de `state` atributos, que se puede utilizar para aplicar diferentes apariencias a distintos estados de miniaturas. En particular, `state="selected"` corresponde al elemento actual del conjunto; `state="unselected"` corresponde al estado del elemento predeterminado.
+>Los elementos del indicador de conjunto admiten el selector de atributos `state`, que se puede utilizar para aplicar diferentes apariencias a diferentes estados de miniaturas. En particular, `state="selected"` corresponde al elemento actual del conjunto; `state="unselected"` corresponde al estado del elemento predeterminado.
 
 Ejemplo: para configurar el indicador de conjunto en modo de puntos para que los sistemas de escritorio se posicionen 20 píxeles desde la parte inferior del visor. Los puntos no seleccionados son negros con una transparencia del 50%, 15 x 15 píxeles con 7 píxeles de esquinas redondeadas. Los puntos seleccionados son negros con una transparencia del 90%, 18 x 18 píxeles con 9 píxeles de esquinas redondeadas. El espaciado entre puntos es de 5 píxeles.
 
