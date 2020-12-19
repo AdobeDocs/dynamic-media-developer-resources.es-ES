@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 551a0da8-dd1f-484a-bf7e-f4896370340a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '168'
+ht-degree: 7%
 
 ---
 
@@ -25,11 +28,11 @@ Color de fondo. Especifica el color sustractivo de las texturas y calcomanías c
  </tr> 
 </table>
 
-El algoritmo de colorización de textura del procesamiento de imágenes es bastante sencillo: los valores de los componentes de `bgc=` se restan de los píxeles de la textura, `color=` se agrega y, finalmente, el resultado se recorta a `0,0,0` y `255,255,255`.
+El algoritmo de colorización de textura del procesamiento de imágenes es bastante sencillo: los valores de los componentes `bgc=` se restan de los píxeles de textura, `color=` se agrega y, finalmente, el resultado se recorta a `0,0,0` y `255,255,255`.
 
-Para usos típicos de la colorización de textura, el valor de `bgc=` puede ser el color más importante o dominante de la imagen de textura. La creación de imágenes de Scene7 proporciona herramientas semiautomáticas que extraen valores `bgc=` de color razonables de las imágenes de texturas.
+Para usos típicos de la colorización de texturas, el valor de `bgc=` puede ser el color más importante o dominante de la imagen de textura. La creación de imágenes de Scene7 proporciona herramientas semiautomáticas que extraen valores de color razonables `bgc=` de las imágenes de texturas.
 
-Cuando se aplica un material de textura a un objeto de viñeta no texturable, `bgc=` se aplica como color de primer plano si no `color=` se especifica.
+Cuando se aplica un material de textura a un objeto de viñeta no texturable, `bgc=` se aplica como color de primer plano si no se especifica `color=`.
 
 ## Propiedades {#section-b2db6f147d7f443ba9f671de04c2ef19}
 
@@ -37,7 +40,7 @@ Atributo Material. Se ignora con materiales de color sólido y de gabinete.
 
 ## Predeterminado {#section-de10ef5985ee4ae1ba56d14ba8512b81}
 
-`catalog::BaseColor` si el material está basado en una entrada de catálogo, en caso contrario `bgc=808080` (gris neutro).
+`catalog::BaseColor` si el material está basado en una entrada de catálogo, en caso contrario  `bgc=808080` (gris neutro).
 
 ## Ejemplo {#section-bf5f0f296bc448ed9d5a84afabcf81e6}
 
@@ -47,4 +50,4 @@ Colorear una tela de vestir cuya textura tenga el color RGB dominante 120,34,193
 
 ## Véase también {#section-de9958dd63a742b4b5d780c59a57da33}
 
-[catálogo::BaseColor](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-basecolor.md#reference-5f02371b1d8e444ab12d2614d9792de8) , [color=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa)
+[catálogo::BaseColor](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-basecolor.md#reference-5f02371b1d8e444ab12d2614d9792de8) ,  [color=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa)
