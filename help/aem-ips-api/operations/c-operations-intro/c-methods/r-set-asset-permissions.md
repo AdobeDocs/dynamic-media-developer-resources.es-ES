@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 38f26482-bce9-4d2c-9714-e8c3ae40c2d1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '138'
+ht-degree: 8%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Define los permisos de un solo recurso mediante un recurso de permiso.
 
-Los recursos heredan los permisos de su carpeta principal de forma predeterminada. Una vez configurados los permisos en un recurso, ya no hereda los permisos de su elemento principal a menos que llame `removeAssetPermissions`.
+Los recursos heredan los permisos de su carpeta principal de forma predeterminada. Una vez configurados los permisos en un recurso, ya no hereda los permisos de su elemento principal a menos que llame a `removeAssetPermissions`.
 
 ## Tipos de usuarios autorizados {#section-91fafc170c734ed2a77beafda9221768}
 
