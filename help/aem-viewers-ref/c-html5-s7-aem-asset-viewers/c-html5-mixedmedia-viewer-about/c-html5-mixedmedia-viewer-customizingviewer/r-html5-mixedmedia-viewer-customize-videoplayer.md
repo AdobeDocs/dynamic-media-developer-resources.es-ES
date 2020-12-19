@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: d7431a7b-6078-45d6-a364-434b3b44ecf4
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Video player{#video-player}
+# Reproductor de vídeo{#video-player}
 
 El reproductor de vídeo es el área rectangular en la que se muestra el contenido del vídeo en el visor.
 
@@ -31,13 +34,13 @@ El siguiente selector de clase CSS controla el aspecto del reproductor de vídeo
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Color de fondo del reproductor de vídeo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Se puede localizar el mensaje de error que se muestra si el sistema no puede reproducir el vídeo. Consulte [Localización de los elementos](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) de la interfaz de usuario para obtener más información.
+Se puede localizar el mensaje de error que se muestra si el sistema no puede reproducir el vídeo. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obtener más información.
 
 Ejemplo: para hacer transparente el reproductor de vídeo:
 
@@ -64,7 +67,7 @@ Los subtítulos se colocan en el contenedor interno dentro del reproductor de v�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Fondo de texto del rótulo. </p> </td> 
   </tr> 
   <tr> 
@@ -72,15 +75,15 @@ Los subtítulos se colocan en el contenedor interno dentro del reproductor de v�
    <td colname="col2"> <p>Color del texto del rótulo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-peso </span> </p> </td> 
-   <td colname="col2"> <p>peso de fuentes. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-peso  </span> </p> </td> 
+   <td colname="col2"> <p>Peso de fuentes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Tamaño de fuente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Familia de fuentes. </p> </td> 
   </tr> 
  </tbody> 
@@ -123,15 +126,15 @@ El aspecto de la animación de almacenamiento en búfer se controla con el sigui
    <td colname="col2"> <p> Altura del icono de animación. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
    <td colname="col2"> <p> Icono de animación margen izquierdo, normalmente menos la mitad de la anchura del icono. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
    <td colname="col2"> <p> Margen superior del icono de animación, normalmente menos la mitad de la altura del icono. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Ilustración del botón. </p> </td> 
   </tr> 
  </tbody> 
