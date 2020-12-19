@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: dc4deefe-c354-4d01-a1d2-815597994adc
 translation-type: tm+mt
 source-git-commit: 5717550d2dea8ec086875e770ff8f200aaa75ff3
+workflow-type: tm+mt
+source-wordcount: '75'
+ht-degree: 5%
 
 ---
 
 
-# Ajustes del servidor{#server-settings}
+# Configuración del servidor{#server-settings}
 
 Esta sección describe todas las opciones de configuración editables, agrupadas por áreas de interés.
 
