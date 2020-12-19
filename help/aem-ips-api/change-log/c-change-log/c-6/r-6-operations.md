@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: e36f0d5c-0170-4a65-9347-c7fd3538726b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '96'
+ht-degree: 5%
 
 ---
 
@@ -31,23 +34,25 @@ Sintaxis
 
 **Agregado**
 
-* Añadido `isHidden` y `initialTagValue` a:
+* Se añadieron `isHidden` y `initialTagValue` a:
 
    * `saveMetadataField`
    * ` `updateMetadataField&quot;
    * `createMetadataField`
 
-* Añadido `thumbAssetHandle` a:
+* Se añadió `thumbAssetHandle` en:
 
    * `createImageSet`
    * `createAssetSet`
-   Añadido `companyHandle` a:
+
+   Se añadió `companyHandle` en:
 
    * `getViewerConfigSettings`
    * `setViewerConfigSettings`
    * `updateViewerConfigSettings`
    * `getSearchStrings`
-   Añadido `contextHandle` a:
+
+   Se añadió `contextHandle` en:
 
    * `getImageServingPublishSettings`
    * `getImageRenderingPublishSettings`
@@ -56,14 +61,14 @@ Sintaxis
 
 
 
-* Se Añadió includeInactive a:
+* Se añadió includeInactive a:
 
    * `getUsers`.
    * `getUserChars`.
 
-* Añadido `permissionArray` a `createPropertySet`.
+* Se añadió `permissionArray` a `createPropertySet`.
 
-* Añadido `exportJob` a `submitJob`.
+* Se añadió `exportJob` a `submitJob`.
 
 **Se cambió**
 
@@ -73,16 +78,16 @@ Sintaxis
 
 * En `getCompanyMembership`, cambió `companyArray` a `membershipArray`.
 
-* En `addUser`, `setCompanyMembership`, y `addCompanyMembership`, cambió `membershipArray` a `companyHandleArray`.
+* En `addUser`, `setCompanyMembership` y `addCompanyMembership`, cambió `membershipArray` a `companyHandleArray`.
 
 * En `getCompanyMembership`, cambió `companyArray` a `membershipArray`.
 
-* En `getUserChars`, ahora `includeInvalid` es opcional.
+* En `getUserChars`, `includeInvalid` es ahora opcional.
 
 **Eliminado**
 
-* Eliminado `renameFiles` de `renameAsset`.
+* Se eliminó `renameFiles` de `renameAsset`.
 
 * Eliminado `getXMPPanelViewDefinition`.
-* Eliminado `searchAssetsByFulltext` y `searchAssetsBySimilarity`.
+* Se han eliminado `searchAssetsByFulltext` y `searchAssetsBySimilarity`.
 
