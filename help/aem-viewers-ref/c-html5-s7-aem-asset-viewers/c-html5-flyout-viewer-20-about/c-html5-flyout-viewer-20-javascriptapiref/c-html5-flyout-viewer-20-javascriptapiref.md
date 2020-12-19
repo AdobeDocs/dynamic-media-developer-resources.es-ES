@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 45621805-8aa5-4ced-a36a-ebecb2a606a0
 translation-type: tm+mt
 source-git-commit: 8d7fdab78c5d23d0e541effa9b9c470921bd144b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 8d7fdab78c5d23d0e541effa9b9c470921bd144b
 
 La clase principal del visor flotante es FlyoutViewer. Se declara en la Área de nombres s7viewers. Esta API de JavaScript cubre el constructor, los métodos y las llamadas de retorno de esta clase en particular.
 
-En los siguientes ejemplos, `<instance>` significa el nombre real del objeto de visor de JavaScript al que se crea una instancia desde la `s7viewers.FlyoutViewer` clase.
+En todos los ejemplos siguientes, `<instance>` representa el nombre real del objeto de visor de JavaScript al que se crea una instancia desde la clase `s7viewers.FlyoutViewer`.
 
 * [eliminar](r-html5-flyout-viewer-20-javascriptapiref-dispose.md)
 * [Visor flotante](r-html5-flyout-viewer-20-javascriptapiref-.flyoutviewer.md)
