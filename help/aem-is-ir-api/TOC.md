@@ -15,7 +15,7 @@ ht-degree: 10%
 
 # API de servicio y procesamiento de imágenes de Dynamic Media {#image-serving-api}
 
-+ [Inicio de recursos para desarrolladores de Dynamic Media](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
++ [Página principal de recursos para desarrolladores de Dynamic Media](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
 + [Inicio de la API de servicio de imágenes y procesamiento de imágenes de Dynamic Media](home.md)
 + [Acerca de esta versión](r-about-this-release.md)
 + [Requisitos y requisitos previos del sistema](r-requirements-and-prerequisites.md)
@@ -28,7 +28,7 @@ ht-degree: 10%
    + [Licencias](c-installation/c-licensing.md)
    + [Contenido](c-installation/c-contents.md)
    + [Carpeta de instalación](c-installation/c-install-folder.md)
-   + Instalación en Windows {#windows-install}
+   + Instalando en Windows {#windows-install}
       + [Instalación en Windows](c-installation/t-installing-on-windows/t-installing-on-windows.md)
       + [Instalación por primera vez](c-installation/t-installing-on-windows/t-first-time-installation-win.md)
       + [Instalación con una cuenta de usuario diferente a la del administrador](c-installation/t-installing-on-windows/t-diff-account-win.md)
@@ -63,7 +63,7 @@ ht-degree: 10%
          + [Validación de caché de respuesta](is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-response-cache-validation.md)
          + [Cachés de datos auxiliares](is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-auxiliary-data-caches.md)
          + [Agrupamiento de caché](is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-cache-clustering.md)
-      + Ajustes del servidor {#server-settings}
+      + Configuración del servidor {#server-settings}
          + [Ajustes del servidor](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/c-server-settings.md)
          + [General](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-general.md)
          + [Carpetas de datos de contenido](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-content-data-folders.md)
@@ -90,7 +90,7 @@ ht-degree: 10%
          + [Registro de acceso](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-logging/c-access-log.md)
          + [Registro de seguimiento](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-logging/c-trace-log.md)
          + [Registro del servidor de imágenes](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-logging/c-image-server-log.md)
-      + Supervisión de servidores {#server-monitoring}
+      + Monitoreo del servidor {#server-monitoring}
          + [Supervisión de servidores](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-monitoring/c-server-monitoring.md)
          + [Alertas estándar](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-monitoring/r-standard-alerts.md)
          + [Alerta de prioridad de espacio de pila](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-monitoring/c-heap-space-priority-alert.md)
@@ -111,7 +111,7 @@ ht-degree: 10%
       + Sintaxis y características {#syntax-and-features}
          + [Sintaxis y características](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-syntax-and-features.md)
          + [Sintaxis básica del protocolo HTTP de servicio de imágenes](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-basic-syntax.md)
-         + Servicio de imágenes, comando de protocolo HTTP {#image-serving-http}
+         + Comando de protocolo HTTP de servicio de imágenes {#image-serving-http}
             + [Descripción general del comando del protocolo HTTP de servicio de imágenes](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/c-command-overview.md)
             + [Comandos de solicitud](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-request-commands-and-attributes.md)
             + [Comandos de vista](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-view-commands-and-attributes.md)
@@ -147,7 +147,7 @@ ht-degree: 10%
          + [Filigranas](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-watermarks.md)
          + [Servicio de contenido estático (sin imagen)](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-serving-static-non-image-content.md)
          + [Solicitudes de conjuntos de medios](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-media-set-requests.md)
-      + Text formatting {#text-formatting}
+      + Formato de texto {#text-formatting}
          + [Descripción general del formato de texto](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md)
          + [Gestión de fuentes](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-font-handling.md)
          + [Gestión de color](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-color-handling.md)
@@ -164,7 +164,7 @@ ht-degree: 10%
             + [Entidades de texto especial](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-supported-rtf-commands-and-keywords/r-special-text-entities.md)
             + [Codificación de caracteres](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-supported-rtf-commands-and-keywords/r-is-http-character-encoding.md)
          + [Ejemplos de codificación RTF](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-rtf-encoding-examples.md)
-      + Data types {#data-types}
+      + Tipos de datos {#data-types}
          + [Información general sobre los tipos de datos](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/c-data-types.md)
          + [color](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)
          + [coord](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-coord.md)
@@ -172,7 +172,7 @@ ht-degree: 10%
          + [objeto](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md)
          + [tamaño](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-size.md)
          + [sizeN](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-sizen.md)
-      + Referencia de comandos {#command-reference}
+      + Referencia de comando {#command-reference}
          + [Información general sobre la referencia de comandos](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/c-command-reference.md)
          + [align](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-align.md)
          + [delimitador](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md)
@@ -573,7 +573,7 @@ ht-degree: 10%
             + [Llamadas](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/r-ir-decals.md)
             + [Armarios](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/r-ir-cabinets.md)
             + [Cubiertas de ventanas](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/r-ir-window-coverings.md)
-         + Efectos de procesamiento avanzado {#advanced-render-effects}
+         + Efectos de procesamiento avanzados {#advanced-render-effects}
             + [Efectos de procesamiento avanzado](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-advanced-render-effects.md)
             + [Uso de mapas de iluminación múltiple](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-use-multiple-illumination-maps.md)
             + [Colorear materiales](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-colorizing-materials.md)
@@ -581,7 +581,7 @@ ht-degree: 10%
             + [Reflexiones](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/r-ir-reflections.md)
             + [Efectos de brillo](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-gloss-effects.md)
             + [Configuración avanzada de procesamiento](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-advanced-render-settings.md)
-         + Anidado e incrustación de solicitudes {#request-nesting-and-embedding}
+         + Anidación e incrustación de solicitudes {#request-nesting-and-embedding}
             + [Anidación e incrustación de solicitudes *](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-request-nesting-and-embedding/c-ir-request-nesting-and-embedding.md)
             + [Solicitudes del servidor de imágenes incrustadas](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-request-nesting-and-embedding/c-ir-embedded-image-serving-requests.md)
             + [Solicitudes de procesamiento de imágenes anidadas](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-request-nesting-and-embedding/c-ir-nested-image-rendering-requests.md)
@@ -591,7 +591,7 @@ ht-degree: 10%
             + [Catálogos de materiales *](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-material-catalogs/c-ir-http-material-catalogs.md)
             + [Catálogo de sesiones](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-material-catalogs/r-ir-session-catalog.md)
          + [Solicitud de preprocesamiento *](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-request-pre-processing.md)
-         + Custom variables {#custom-variables}
+         + Variables personalizadas {#custom-variables}
             + [Información general sobre las variables personalizadas](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-custom-variables/c-ir-custom-variables.md)
             + [Procesamiento de variables en solicitudes anidadas](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-custom-variables/c-ir-variable-processing-in-nested-requests.md)
             + [Procesamiento de variables en solicitudes externas incrustadas](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-custom-variables/c-ir-variable-processing-in-embedded-foreign-requests.md)
@@ -601,7 +601,7 @@ ht-degree: 10%
          + [Gestión de color de procesamiento de imágenes *](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-color-management.md)
          + [Valores de color](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/r-ir-color-values.md)
          + [Codificación HTTP de procesamiento de imágenes](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-encoding.md)
-      + Referencia de comandos del protocolo HTTP {#http-protocol-command-reference}
+      + Referencia de comando de protocolo HTTP {#http-protocol-command-reference}
          + [Referencia de comandos del protocolo HTTP](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/c-ir-http-protocol-command-reference.md)
          + [align](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-align.md)
          + [delimitador](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md)
