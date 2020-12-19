@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: e53d75f2-9b43-4e8f-8191-66f69f344cdd
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +40,7 @@ El cliente puede especificar un identificador de solicitud único opcional ( *`r
 </varname>" );
 ```
 
-El cliente debe definir la función `s7jsonResponse` JavaScript. En su forma más sencilla, la función podría tener el siguiente aspecto:
+La función `s7jsonResponse` JavaScript debe ser definida por el cliente. En su forma más sencilla, la función podría tener el siguiente aspecto:
 
 ```
 var responseData; 
@@ -47,7 +50,7 @@ S7jsonResponse(data, reqId)
 }
 ```
 
-Las solicitudes que admiten el formato de respuesta JSONP permiten especificar el nombre del controlador de llamada de retorno JS mediante la sintaxis extendida del `req=` parámetro:
+Las solicitudes que admiten el formato de respuesta JSONP permiten especificar el nombre del controlador de llamada de retorno JS mediante la sintaxis extendida del parámetro `req=`:
 
 `req=...,json [&handler = reqHandler]`
 
