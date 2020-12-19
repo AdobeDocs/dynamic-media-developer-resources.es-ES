@@ -1,18 +1,21 @@
 ---
 description: Atributo de configuración para el visor de vídeo interactivo.
 seo-description: Atributo de configuración para el visor de vídeo interactivo.
-seo-title: VideoPlayer.muevolume
+seo-title: VideoPlayer.mutevolume
 solution: Experience Manager
-title: VideoPlayer.muevolume
+title: VideoPlayer.mutevolume
 topic: Dynamic media
 uuid: 00a660f1-fa00-4821-aaec-7d370376c347
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# VideoPlayer.muevolume{#videoplayer-mutevolume}
+# VideoPlayer.mutevolume{#videoplayer-mutevolume}
 
 Atributo de configuración para el visor de vídeo interactivo.
 
@@ -22,7 +25,7 @@ Atributo de configuración para el visor de vídeo interactivo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Establece el modo silenciado para la reproducción de vídeo durante la carga inicial. Si se establece en <span class="codeph"> 1 </span> , el volumen se silenciará; de lo contrario, el vídeo se reproduce con sonido. En determinados dispositivos, el silencio de la reproducción de vídeo durante la carga también permite que el vídeo se reproduzca automáticamente. </p> </td> 
+   <td colname="col2"> <p> Establece el modo silenciado para la reproducción de vídeo durante la carga inicial. Si se establece en <span class="codeph"> 1 </span>, el volumen se silenciará; de lo contrario, el vídeo se reproduce con sonido. En determinados dispositivos, el silencio de la reproducción de vídeo durante la carga también permite que el vídeo se reproduzca automáticamente. </p> </td> 
   </tr> 
  </tbody> 
 </table>
