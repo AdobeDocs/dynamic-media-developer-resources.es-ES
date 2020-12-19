@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: b68f527b-7fa7-43e3-9517-57a6c3700b06
 translation-type: tm+mt
 source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,19 +19,19 @@ source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
 
 Filtro de dirección IP del cliente. Permite especificar una o más direcciones IP o intervalos de direcciones.
 
-Cuando se especifique, se rechazarán las solicitudes a este catálogo de imágenes que procedan de un cliente en una dirección IP no incluida en la lista. `localhost` siempre forma parte implícitamente de la `ClientAddressFilter` definición, aunque no se especifique explícitamente. Las solicitudes procedentes de `localhost` nunca se rechazan, independientemente de la `ClientAddressFilter` especificación.
+Cuando se especifique, se rechazarán las solicitudes a este catálogo de imágenes que procedan de un cliente en una dirección IP no incluida en la lista. `localhost` siempre forma parte implícitamente de la  `ClientAddressFilter` definición, aunque no se especifique explícitamente. Las solicitudes provenientes de `localhost` nunca se rechazan, independientemente de la especificación `ClientAddressFilter`.
 
 ## Propiedades {#section-21a2992f108d42fb8660c0d65aa61e13}
 
-lista separada por comas de direcciones IP con máscaras de red opcionales (se utiliza la notación[](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation) CIDR):
+Lista separada por comas de direcciones IP con máscaras de red opcionales ([se utiliza notación CIDR](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation)):
 
 ` *[!DNL ipAddress]*[/ *[!DNL netmask]*]&#42;[, *[!DNL ipAddress]*[/ *[!DNL netmask]*]]`
 
-* *[!DNL ipAddress]* Dirección IP en *[!DNL ddd.ddd.ddd.ddd]* formato
+* *[!DNL ipAddress]* Dirección IP en  *[!DNL ddd.ddd.ddd.ddd]* formato
 
 * *[!DNL netmask]* máscara de red (0...32)
 
-Este atributo se omite cuando se aplica una regla de preprocesamiento con un `<addressfilter>` elemento.
+Este atributo se omite cuando se aplica una regla de preprocesamiento con un elemento `<addressfilter>`.
 
 ## Predeterminado {#section-beddaa18ed6c4f3ba1eb2d4471267712}
 
