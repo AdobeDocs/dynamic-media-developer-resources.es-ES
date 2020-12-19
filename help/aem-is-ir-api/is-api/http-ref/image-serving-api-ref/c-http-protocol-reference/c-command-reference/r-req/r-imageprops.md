@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: e9bf2780-a520-4fb1-ab4c-40bb799e36a4
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '345'
+ht-degree: 7%
 
 ---
 
@@ -25,11 +28,11 @@ Propiedades de la imagen de origen. Devuelve las propiedades seleccionadas del a
  </tr> 
 </table>
 
-The HTTP response is cacheable with the TTL based on `attribute::NonImgExpiration`.
+La respuesta HTTP se puede almacenar en caché con el TTL basado en `attribute::NonImgExpiration`.
 
 Se omiten otros comandos de la cadena de solicitud.
 
-Las solicitudes que admiten el formato de respuesta JSONP permiten especificar el nombre del controlador de llamada de retorno JS mediante la sintaxis extendida del `req=` parámetro:
+Las solicitudes que admiten el formato de respuesta JSONP permiten especificar el nombre del controlador de llamada de retorno JS mediante la sintaxis extendida del parámetro `req=`:
 
 `req=...,json [&handler = reqHandler ]`
 
@@ -47,12 +50,12 @@ Se devuelven las siguientes propiedades:
   <tr> 
    <td> <p> <span class="codeph"> image.anchor</span> </p> </td> 
    <td> <p> int,int </p> </td> 
-   <td> <p> <span class="codeph"> catálogo::Anclaje</span> o punto de ancla predeterminado </p> </td> 
+   <td> <p> <span class="codeph"> catálogo::</span> Anclar el punto de ancla predeterminado </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.expiration</span> </p> </td> 
    <td> <p> doble </p> </td> 
-   <td> <p> <span class="codeph"> catálogo::Caducidad</span> o el tiempo de vida predeterminado </p> </td> 
+   <td> <p> <span class="codeph"> catálogo::</span> Caducidad o el tiempo de vida predeterminado </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.height</span> </p> </td> 
@@ -77,7 +80,7 @@ Se devuelven las siguientes propiedades:
   <tr> 
    <td> <p> <span class="codeph"> imagen. EmbeddedXmpData</span> </p> </td> 
    <td> <p> booleano </p> </td> 
-   <td> <p> 1 si la imagen incluye datos XMP </p> </td> 
+   <td> <p> 1 si la imagen incluye datos de XMP </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.mask</span> </p> </td> 
@@ -87,12 +90,12 @@ Se devuelven las siguientes propiedades:
   <tr> 
    <td> <p> <span class="codeph"> image.modifier</span> </p> </td> 
    <td> <p> cadena </p> </td> 
-   <td> <p> <span class="codeph"> catálogo::Modificador</span> o vacío si no es una entrada de catálogo </p> </td> 
+   <td> <p> <span class="codeph"> catálogo::</span> Modificador o vacío si no es una entrada de catálogo </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> imagen. photoshopPathNames</span> </p> </td> 
    <td> <p> cadena </p> </td> 
-   <td> <p> lista separada por comas de los nombres de todas las rutas de Photoshop asociadas con esta imagen </p> </td> 
+   <td> <p> Lista separada por comas de los nombres de todas las rutas de Photoshop asociadas con esta imagen </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.pixType</span> </p> </td> 
@@ -102,7 +105,7 @@ Se devuelven las siguientes propiedades:
   <tr> 
    <td> <p> <span class="codeph"> image.postModifier</span> </p> </td> 
    <td> <p> cadena </p> </td> 
-   <td> <p> <span class="codeph"> atributo::PostModifier</span> o vacío si no es una entrada de catálogo </p> </td> 
+   <td> <p> <span class="codeph"> atributo::</span> PostModieror o vacío si no es una entrada de catálogo </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.printRes</span> </p> </td> 
@@ -112,7 +115,7 @@ Se devuelven las siguientes propiedades:
   <tr> 
    <td> <p> <span class="codeph"> image.resolution</span> </p> </td> 
    <td> <p> real </p> </td> 
-   <td> <p> <span class="codeph"> catálogo::Resolución</span> o resolución de objeto predeterminada </p> </td> 
+   <td> <p> <span class="codeph"> catálogo::</span> Resolución o la resolución de objeto predeterminada </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.timeStamp</span> </p> </td> 
@@ -122,12 +125,12 @@ Se devuelven las siguientes propiedades:
   <tr> 
    <td> <p> <span class="codeph"> image.thumbRes</span> </p> </td> 
    <td> <p> real </p> </td> 
-   <td> <p> <span class="codeph"> catálogo::ThumbRes</span> o la resolución de miniatura predeterminada </p> </td> 
+   <td> <p> <span class="codeph"> catálogo::</span> ThumbResor la resolución de miniatura predeterminada </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.thumbType</span> </p> </td> 
    <td> <p> enum </p> </td> 
-   <td> <p> <span class="codeph"> catálogo::ThumbType</span> o el tipo de miniatura predeterminado </p> </td> 
+   <td> <p> <span class="codeph"> catálogo::</span> ThumbType es el tipo de miniatura predeterminado </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.width</span> </p> </td> 
@@ -137,7 +140,7 @@ Se devuelven las siguientes propiedades:
   <tr> 
    <td> <p> <span class="codeph"> image.translateId</span> </p> </td> 
    <td> <p> cadena </p> </td> 
-   <td> <p> ID del catálogo en el que se resuelve el <span class="varname"> objeto</span> especificado en la ruta de acceso (consulte Traducción <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414" type="reference" format="dita" scope="local"></a>de ID de objeto). </p> </td> 
+   <td> <p> ID de catálogo en el que se resuelve el objeto <span class="varname"></span> especificado en la ruta (consulte <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414" type="reference" format="dita" scope="local"> Traducción de ID de objeto</a>). </p> </td> 
   </tr> 
  </tbody> 
 </table>
