@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 670d83c2-bfc5-411a-8581-5103a62aa8cf
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +37,7 @@ El visor admite subtítulos opcionales a través de archivos WebVTT alojados. No
    <td colname="col1"> <p> A </p> </td> 
    <td colname="col2"> <p>alinear texto </p> </td> 
    <td colname="col3"> <p><span class="codeph"> left|right|middle|inicio|end</span> </p> </td> 
-   <td colname="col4"> <p> Controla la alineación del texto. </p> <p>El valor predeterminado es <span class="codeph"> medio</span>. </p> </td> 
+   <td colname="col4"> <p> Controla la alineación del texto. </p> <p>El valor predeterminado es <span class="codeph"> middle</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>T </p> </td> 
@@ -63,7 +66,7 @@ Otras funciones WebVTT presentes en el archivo WebVTT no son compatibles, pero n
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> archivo</span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica una dirección URL o ruta al contenido del subtítulo WebVTT. Proporcione el archivo WebVTT mediante ImageServing. </p> </td> 
+   <td colname="col2"> <p> Especifica una dirección URL o ruta al contenido del subtítulo WebVTT. Proporcione el archivo WebVTT por ImageServing. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
