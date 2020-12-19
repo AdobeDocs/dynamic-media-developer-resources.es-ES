@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e6e9e97c-5d9b-47ca-bae3-ed3371c5ff9b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Controla el aspecto del resaltado de la vista principal cuando el flotante está activo. Cuando se establece en <span class="codeph"> 0</span>, el área visible actualmente en la ventana flotante se resalta mediante estilos proporcionados por nombres de clase CSS <span class="codeph"> .s7highlight</span> o <span class="codeph"> .s7cursor</span> (en función del valor del modificador <span class="codeph"> highlightMode</span> ). Cuando se establece en <span class="codeph"> 1</span> , el componente entra en modo "inverso" donde el área visualizada actualmente es totalmente transparente (en caso de que <span class="codeph"> resaltmode</span> se establezca en <span class="codeph"> resaltado</span>) o tiene el estilo <span class="codeph"> .s7cursor</span> CSS nombre de clase (en caso de que <span class="codeph"> resaltmode</span> <span class="codeph"></span><span class="codeph"></span> se defina en el cursor), pero el área circundante se rellena con estilos proporcionados por la clase CSS .s7overlayNombre. </p> </td> 
+   <td colname="col2"> <p> Controla el aspecto del resaltado de la vista principal cuando el flotante está activo. Cuando se establece en <span class="codeph"> 0</span>, el área visible actualmente en la ventana flotante se resalta mediante estilos proporcionados por <span class="codeph">.s7highlight</span> o <span class="codeph"> .s7cursor</span> nombres de clase CSS (según el valor del modificador <span class="codeph"> resaltmode</span>). Cuando se establece en <span class="codeph"> 1</span> el componente entra en modo "inverso" donde el área visualizada actualmente es totalmente transparente (en caso de que <span class="codeph"> modo resaltado</span> se establezca en <span class="codeph"> resaltado</span>) o se le aplique un estilo con <span class="codeph"> .s7cursor</span> nombre de clase CSS (en caso de que <span class="codeph"> modo resaltado</span> esté establecido) en <span class="codeph"> cursor</span>), pero el área circundante se rellena con estilos proporcionados por <span class="codeph"> .s7overlay</span> nombre de clase CSS. </p> </td> 
   </tr> 
  </tbody> 
 </table>
