@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: d654eee7-ef2d-4546-93bb-72f80c38e018
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '210'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +29,7 @@ El servidor de imágenes debe tener acceso a todos los archivos de datos de orig
   <td class="stentry"> <p><span class="codeph"> IS::RootPath/attribute::RootPath</span> </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> filePath </span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> filePath  </span></span> </p></td> 
   <td class="stentry"> <p><span class="codeph"> catalogPath|requestPath</span> </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -43,7 +46,7 @@ El servidor combina segmentos de ruta de acceso de derecha a izquierda hasta que
 
 Todos los segmentos ` *`rootPath`*` pueden estar vacíos, relativos o absolutos.
 
-` *`catalogPath`*` es una ruta o nombre de archivo absoluta o relativa. ` *`requestPath`*` debe ser una ruta/nombre de archivo relativa.
+` *``*` catalogPath es una ruta de acceso o nombre de archivo absoluta o relativa. ` *``*` requestPath debe ser una ruta/nombre de archivo relativo.
 
 `Multiple IS::RootPath` los valores se pueden definir en ImageServerRegistry.xml (o a través de la interfaz de administración). Esto permite que los archivos de datos de origen se distribuyan en varios sistemas de archivos. El servidor de imágenes intentará rutas alternativas en el orden especificado hasta que se encuentre el archivo de datos.
 
