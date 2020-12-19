@@ -1,6 +1,6 @@
 ---
-description: La barra de desplazamiento de vídeo es el control deslizante horizontal que permite al usuario buscar dinámicamente cualquier posición de tiempo dentro del vídeo que se está reproduciendo.
-seo-description: La barra de desplazamiento de vídeo es el control deslizante horizontal que permite al usuario buscar dinámicamente cualquier posición de tiempo dentro del vídeo que se está reproduciendo.
+description: La barra de desplazamiento de vídeo es el control deslizante horizontal que permite al usuario buscar dinámicamente cualquier posición temporal dentro del vídeo que se está reproduciendo.
+seo-description: La barra de desplazamiento de vídeo es el control deslizante horizontal que permite al usuario buscar dinámicamente cualquier posición temporal dentro del vídeo que se está reproduciendo.
 seo-title: Borrador de vídeo
 solution: Experience Manager
 title: Borrador de vídeo
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: c68d3693-3772-470a-893a-b701ddec3414
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '380'
+ht-degree: 2%
 
 ---
 
 
-# Video scrubber{#video-scrubber}
+# Barra de desplazamiento de vídeo{#video-scrubber}
 
-La barra de desplazamiento de vídeo es el control deslizante horizontal que permite al usuario buscar dinámicamente cualquier posición de tiempo dentro del vídeo que se está reproduciendo.
+La barra de desplazamiento de vídeo es el control deslizante horizontal que permite al usuario buscar dinámicamente cualquier posición temporal dentro del vídeo que se está reproduciendo.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -45,7 +48,7 @@ El aspecto general de la barra de desplazamiento de vídeo se controla con el si
    <td colname="col2"> <p>Altura de la barra de desplazamiento del vídeo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Color de la barra de desplazamiento del vídeo. </p> </td> 
   </tr> 
  </tbody> 
@@ -64,11 +67,11 @@ Los siguientes selectores de clase CSS rastrean indicadores de fondo, reproducci
 <table id="table_46903DCACF314426B67783167ADF7715"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altura de la pista correspondiente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Color de la pista correspondiente. </p> </td> 
   </tr> 
  </tbody> 
@@ -93,15 +96,15 @@ El siguiente selector de clase CSS controla el control:
    <td colname="col2"> <p>Anchura del pomo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altura del pomo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Ilustración del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -118,11 +121,11 @@ El siguiente selector de clase CSS controla el tiempo de reproducción de la bur
 <table id="table_21E9AD3FBC8C4437BA02E5CD1BF7E831"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p> Familia de fuentes que se va a utilizar para mostrar el texto durante el tiempo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p> El tamaño de fuente que se va a utilizar para mostrar el texto durante el tiempo. </p> </td> 
   </tr> 
   <tr> 
@@ -130,11 +133,11 @@ El siguiente selector de clase CSS controla el tiempo de reproducción de la bur
    <td colname="col2"> <p> El color de fuente que se usará para mostrar el texto durante el tiempo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Ancho del área de burbujas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altura del área de burbujas. </p> </td> 
   </tr> 
   <tr> 
@@ -142,21 +145,21 @@ El siguiente selector de clase CSS controla el tiempo de reproducción de la bur
    <td colname="col2"> <p>Relleno del área de burbujas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Ilustración de burbujas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> text-align  </span> </p> </td> 
    <td colname="col2"> <p>Alineación del texto con el área de la burbuja. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-La información de la herramienta de limpieza de vídeo se puede localizar. Consulte [Localización de los elementos](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) de la interfaz de usuario para obtener más información.
+La información de la herramienta de limpieza de vídeo se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obtener más información.
 
 **Ejemplo** : Para configurar un visor de vídeo con una barra de desplazamiento de vídeo con colores de pista personalizados de 10 píxeles de altura y colocados 10 píxeles y 35 píxeles desde los bordes superior e izquierdo de la barra de control.
 
