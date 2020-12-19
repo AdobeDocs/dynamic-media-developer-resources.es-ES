@@ -8,19 +8,22 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 89ec0f27-fc12-47c2-b9dd-e0ee768587b5
 translation-type: tm+mt
 source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+workflow-type: tm+mt
+source-wordcount: '146'
+ht-degree: 4%
 
 ---
 
 
 # encabezado{#header}
 
-Elemento de encabezado de respuesta HTTP. Opcional en `<rule>` elementos.
+Elemento de encabezado de respuesta HTTP. Opcional en elementos `<rule>`.
 
 ## Atributos {#section-6e903ab4c64f4b1488b8ae74274f50a6}
 
-**`Name`= &quot;*text*&quot;**: Requerido. Especifica el nombre del encabezado HTTP.
+**`Name`= &quot;*text*&quot;** : Requerido. Especifica el nombre del encabezado HTTP.
 
-**`Action`= &quot;set&quot;|`"add"`**: Opcional. El valor predeterminado es`"set"`, que reemplaza cualquier valor de encabezado actual. Especifique`"add"`para anexar el valor del encabezado, separado con una coma.
+**`Action`= &quot;set&quot; |`"add"`**: Opcional. El valor predeterminado es `"set"`, que reemplaza cualquier valor de encabezado actual. Especifique `"add"` para anexar el valor del encabezado, separado con una coma.
 
 ## Datos {#section-a387f541396c49d99c29692a38032914}
 
