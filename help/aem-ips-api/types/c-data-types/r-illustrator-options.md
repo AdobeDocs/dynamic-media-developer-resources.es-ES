@@ -1,6 +1,6 @@
 ---
-description: Opciones para un archivo de Adobe Illustrator.
-seo-description: Opciones para un archivo de Adobe Illustrator.
+description: Opciones para un archivo Adobe Illustrator.
+seo-description: Opciones para un archivo Adobe Illustrator.
 seo-title: IllustratorOptions
 solution: Experience Manager
 title: IllustratorOptions
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: 87b38464-33db-4512-aa16-607b96a40673
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # IllustratorOptions{#illustratoroptions}
 
-Opciones para un archivo de Adobe Illustrator.
+Opciones para un archivo Adobe Illustrator.
 
 Sintaxis
 
@@ -24,6 +27,6 @@ Sintaxis
 |---|---|---|
 | ` *`proceso`*` | `xsd:string` | Elección de procesos de Illustrator. |
 | ` *`resolution`*` | `xsd:string` | Resolución de archivos. |
-| ` *`colorSpace`*` | `xsd:string` | Espacio de color del Destinatario. |
+| ` *`colorSpace`*` | `xsd:string` | Espacio de color del destinatario. |
 | ` *`alpha`*` | `xsd:boolean` | Si se va a rasterizar el archivo en una imagen. Si es así, cree un fondo transparente si el archivo original está definido de esta manera para crear logotipos superpuestos. |
 
