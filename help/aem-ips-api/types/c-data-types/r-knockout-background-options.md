@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 1486d646-f42a-4ed4-9450-313950969c39
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '198'
+ht-degree: 4%
 
 ---
 
@@ -30,9 +33,9 @@ Enmascarar (cubrir) el fondo de las imágenes seleccionadas. Esto permite superp
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> esquina</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> corner</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Selecciona la esquina con la que desea trabajar. <span class="codeph"> corner</span> acepta estos valores: 
+   <td colname="col3">Selecciona la esquina con la que desea trabajar. <span class="codeph"> </span> corneracepta estos valores: 
     <ul id="ul_36C2F07706764A7081010D5521BF3096">
      <li id="li_CBACE5C6AA8C48D3BEE033D3AE03AF3C"><span class="codeph"> UpperLeft</span></li>
      <li id="li_49AC53536B4B4D2CA3DD89E2A2B2E95D"><span class="codeph"> BottomLeft</span></li>
@@ -41,7 +44,7 @@ Enmascarar (cubrir) el fondo de las imágenes seleccionadas. Esto permite superp
     </ul></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> tolerancia</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> tolerancia</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:doble</span> </td> 
    <td colname="col3">Un ajuste opcional que elimina el espacio en blanco de los bordes de la imagen en función de la transparencia. Acepta un rango de valores de 0,0 a 1,0. Especifique: 
     <ul id="ul_FE5423B857AE43FCBA7A9AEA76C754CC">
@@ -50,9 +53,9 @@ Enmascarar (cubrir) el fondo de las imágenes seleccionadas. Esto permite superp
     </ul></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> fillMethod</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fillMethod</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Controle la transparencia de píxeles en la ubicación especificada por la variable de <span class="codeph"><span class="varname"> esquina</span></span> . El <span class="codeph"> método</span> fill acepta estos valores: </p> 
+   <td colname="col3"> <p>Controle la transparencia de píxeles en la ubicación especificada por la variable <span class="codeph"><span class="varname"> corner</span></span>. El <span class="codeph"> fillMethod</span> acepta estos valores: </p> 
     <ul id="ul_D95F3B613D344BB89487ED09D83F9217"> 
      <li id="li_3D7B7CA1B9094D16A98E0BA3D962E97F"> <span class="codeph"> FloodFill</span>: Convierte todos los píxeles de la esquina especificada en transparente. </li> 
      <li id="li_F97343C3DA7644BCBD1748AD8F9DCE2E"> <span class="codeph"> MatchPixel</span>: Convierte todos los píxeles coincidentes en transparentes independientemente de la ubicación. </li> 
@@ -76,9 +79,9 @@ Enmascarar (cubrir) el fondo de las imágenes seleccionadas. Esto permite superp
     </complexType>
 ```
 
-## Utilizado por {#section-28c43baafe85434a9ee9e303ed10569a}
+## Usado por {#section-28c43baafe85434a9ee9e303ed10569a}
 
-El `KnockoutBackgroundOptions` tipo lo utiliza:
+El tipo `KnockoutBackgroundOptions` lo utiliza:
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
