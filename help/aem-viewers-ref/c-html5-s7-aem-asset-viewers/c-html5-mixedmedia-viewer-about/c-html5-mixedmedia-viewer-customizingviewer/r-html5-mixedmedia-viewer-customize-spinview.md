@@ -1,18 +1,21 @@
 ---
 description: La vista principal consiste en la imagen de giro cuando el recurso actual es un conjunto de giros.
 seo-description: La vista principal consiste en la imagen de giro cuando el recurso actual es un conjunto de giros.
-seo-title: vista de giros
+seo-title: Vista de giros
 solution: Experience Manager
-title: vista de giros
+title: Vista de giros
 topic: Dynamic media
 uuid: f1edbcc4-966a-4ec6-8ba9-a76f3ae51733
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Spin view{#spin-view}
+# Vista de giro{#spin-view}
 
 La vista principal consiste en la imagen de giro cuando el recurso actual es un conjunto de giros.
 
@@ -35,7 +38,7 @@ El aspecto del área de visualización se controla con el siguiente selector de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Color de fondo en formato hexadecimal de la vista de giro. </p> </td> 
   </tr> 
  </tbody> 
