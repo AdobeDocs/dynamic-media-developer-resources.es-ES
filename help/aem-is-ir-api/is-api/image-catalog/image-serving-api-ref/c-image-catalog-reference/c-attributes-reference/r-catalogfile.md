@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 3599c8d3-dc4b-434e-8b11-775ea6f155ee
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 4%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Rutas de archivo de datos de imagen. Especifica los archivos que contienen los datos de imagen para este catálogo.
 
-Los archivos de datos de imagen se cargan en el orden especificado. Si el mismo `catalog::Id` valor se produce en más de un registro (en el mismo archivo de catálogo o en diferentes archivos), prevalecerá la última instancia.
+Los archivos de datos de imagen se cargan en el orden especificado. Si el mismo valor `catalog::Id` se produce en más de un registro (ya sea en el mismo archivo de catálogo o en diferentes archivos), prevalecerá la última instancia.
 
 ## Propiedades {#section-6da55f145ecd4e31a5de52637a436983}
 
