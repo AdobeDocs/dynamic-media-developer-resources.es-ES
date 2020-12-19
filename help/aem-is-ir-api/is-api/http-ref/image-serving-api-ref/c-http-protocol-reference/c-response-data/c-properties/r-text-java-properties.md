@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 5dba4cf7-9172-4195-968e-9ef76c25e90c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,4 +38,4 @@ Una respuesta típica de propiedades de texto tiene esta estructura general:
 
 *`propertyValue`* puede estar vacío. El espacio en blanco es opcional al principio y al final de cada línea y antes y después del separador =. Las comillas simples o dobles pueden utilizarse para incluir valores de cadena, pero no son obligatorias.
 
-Los valores de cadena pueden contener caracteres de escape de estilo JAVA, como `\n`, `\t`, `\:`o `\\`.
+Los valores de cadena pueden contener caracteres de escape de estilo JAVA, como `\n`, `\t`, `\:` o `\\`.
