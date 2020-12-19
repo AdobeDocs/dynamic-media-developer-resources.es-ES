@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 602c8f64-e018-4916-8141-09b36003a99d
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '206'
+ht-degree: 10%
 
 ---
 
@@ -33,7 +36,7 @@ El visor admite subtítulos opcionales a través de archivos WebVTT alojados. No
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> A </span> </p> </td> 
    <td colname="col2"> <p>alinear texto </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> left|right|middle|inicio|end </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> left|right|middle|inicio|end  </span> </p> </td> 
    <td colname="col4"> <p> Controla la alineación del texto. </p> <p>El valor predeterminado es <span class="codeph"> medio </span>. </p> </td> 
   </tr> 
   <tr> 
@@ -43,7 +46,7 @@ El visor admite subtítulos opcionales a través de archivos WebVTT alojados. No
    <td colname="col4"> <p> Porcentaje de inserción en el componente VideoPlayer para el principio del texto del rótulo. </p> <p>El valor predeterminado es 0%. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> S </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> S  </span> </p> </td> 
    <td colname="col2"> <p>tamaño de línea </p> </td> 
    <td colname="col3"> <p> 0%-100% </p> </td> 
    <td colname="col4"> <p> Porcentaje de anchura de vídeo utilizado para rótulos. </p> <p>El valor predeterminado es 100%. </p> </td> 
@@ -62,7 +65,7 @@ Otras funciones WebVTT presentes en el archivo WebVTT no son compatibles, pero n
 <table id="table_A5BB1C08DA4B425DBD0356C7D3693E75"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> archivo </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> file  </span> </span> </p> </td> 
    <td colname="col2"> <p> Especifica una dirección URL o ruta al contenido del subtítulo WebVTT. Proporcione el archivo WebVTT por servicio de imágenes. </p> </td> 
   </tr> 
   <tr> 
