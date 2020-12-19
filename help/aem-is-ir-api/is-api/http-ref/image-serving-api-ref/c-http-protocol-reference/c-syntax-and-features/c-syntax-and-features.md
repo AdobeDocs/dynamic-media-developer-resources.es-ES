@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 5f8df6a2-a8f9-4582-9e1e-8f26acf61df4
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '108'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +29,7 @@ Los temas de esta sección describen la sintaxis y las características de los p
 * [Macros de comandos](r-is-http-command-macros.md)
 * [Catálogos de imágenes](r-image-catalogs.md)
 * [Traslación de ID de objeto](r-object-id-translation.md)
-* [localización de cadena de texto](r-text-string-localization.md)
+* [Localización de cadena de texto](r-text-string-localization.md)
 * [Compatibilidad con SVG](r-svg-support.md)
 * [Preprocesamiento de solicitud](r-request-preprocessing.md)
 * [Mapas de imagen](r-image-maps.md)
