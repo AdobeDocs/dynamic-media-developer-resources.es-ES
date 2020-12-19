@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 9dae4f15-4323-4f68-917f-6d72ae52c753
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Habilite los encabezados de respuesta modificados por última vez. Activa o desactiva la inclusión del encabezado Última modificación en las respuestas HTTP almacenables emitidas por el servicio de imágenes.
 
-El servidor utiliza el valor más reciente `catalog::TimeStamp` de todos los catálogos o registros de catálogo implicados en una respuesta como el valor del encabezado Última modificación.
+El servidor utiliza el valor más reciente `catalog::TimeStamp` de todos los catálogos o registros de catálogo que intervienen en una respuesta como el valor del encabezado Última modificación.
 
 Solo debe habilitarse si se utiliza una red de almacenamiento en caché distribuida u otro sistema de almacenamiento en caché que no admita encabezados de etiqueta.
 
@@ -24,11 +27,12 @@ Solo debe habilitarse si se utiliza una red de almacenamiento en caché distribu
 >
 >Se debe tener cuidado al usar encabezados de última modificación en un entorno de equilibrio de carga que incluya varios hosts de servicio de imágenes. El almacenamiento en caché del cliente puede fallar y aumentar la carga del servidor si, por alguna razón, los servidores tienen diferentes marcas de hora para las mismas entradas de catálogo. Esta situación puede darse de la siguiente manera:
 >
->* Ni `catalog::TimeStamp` ni `attribute::TimeStamp`, de modo que el tiempo de modificación del [!DNL catalog.ini] archivo se utilice como valor predeterminado para `catalog::TimeStamp`.
+>* Ni `catalog::TimeStamp` ni `attribute::TimeStamp`, de modo que el tiempo de modificación del archivo [!DNL catalog.ini] se utilice como valor predeterminado para `catalog::TimeStamp`.
    >
    >
 * En lugar de compartir los archivos de catálogo de imágenes mediante un montaje en red, cada servidor tiene su propia instancia de los archivos de catálogo en un sistema de archivos local.
->* Dos o más instancias del mismo [!DNL catalog.ini] archivo tienen fechas de modificación de archivo diferentes, posiblemente debido a una copia incorrecta de los archivos.
+>* Dos o más instancias del mismo archivo [!DNL catalog.ini] tienen fechas de modificación de archivos diferentes, posiblemente debido a una copia incorrecta de los archivos.
+
 >
 
 
