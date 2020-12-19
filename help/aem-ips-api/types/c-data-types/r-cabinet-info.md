@@ -8,11 +8,14 @@ topic: Scene7 Image Production System API
 uuid: 5193f1e1-90d8-4c9a-b50d-a47a8b859992
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# InformaciónDeGabinete{#cabinetinfo}
+# abInfo{#cabinetinfo}
 
 Propiedades de un recurso de archivador.
 
