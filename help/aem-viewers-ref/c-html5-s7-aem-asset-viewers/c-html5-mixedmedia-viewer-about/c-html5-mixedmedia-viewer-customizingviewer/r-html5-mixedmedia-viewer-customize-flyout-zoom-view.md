@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: c4c94432-7b6f-40a8-ae5f-9423234f3656
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '280'
+ht-degree: 5%
 
 ---
 
@@ -35,7 +38,7 @@ El aspecto de la vista principal se controla con el siguiente selector de clase 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Color de fondo de la vista principal. </p> </td> 
   </tr> 
  </tbody> 
@@ -57,7 +60,7 @@ El aspecto del mensaje de sugerencia se controla con el siguiente selector de cl
 .s7mixedmediaviewer .s7flyoutzoomview .s7tip
 ```
 
-Es posible configurar el estilo de fuente, el aspecto del tamaño y el desplazamiento vertical mediante CSS. Sin embargo, la alineación horizontal se gestiona mediante la lógica del visor. No se admite la anulación de CSS mediante el uso `left` o `right` las propiedades.
+Es posible configurar el estilo de fuente, el aspecto del tamaño y el desplazamiento vertical mediante CSS. Sin embargo, la alineación horizontal se gestiona mediante la lógica del visor. No se admite su anulación mediante CSS con propiedades `left` o `right`.
 
 **Propiedades CSS del mensaje de sugerencia**
 
@@ -70,11 +73,11 @@ Es posible configurar el estilo de fuente, el aspecto del tamaño y el desplazam
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Color de relleno del fondo del mensaje. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p> Radio del borde de fondo del mensaje. </p> </td> 
   </tr> 
   <tr> 
@@ -86,15 +89,15 @@ Es posible configurar el estilo de fuente, el aspecto del tamaño y el desplazam
    <td colname="col2"> <p>Color del texto de la sugerencia. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Tamaño de fuente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Familia de fuentes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opacidad </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opacidad  </span> </p> </td> 
    <td colname="col2"> <p> Opacidad del fondo del mensaje. </p> </td> 
   </tr> 
   <tr> 
@@ -104,7 +107,7 @@ Es posible configurar el estilo de fuente, el aspecto del tamaño y el desplazam
  </tbody> 
 </table>
 
-El mensaje de sugerencia se puede localizar. Consulte [Localización de los elementos](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) de la interfaz de usuario para obtener más información.
+El mensaje de sugerencia se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obtener más información.
 
 Ejemplo: para configurar un mensaje de punta semitransparente con una fuente Arial blanca de 12 píxeles, 50 píxeles se desplazan de la parte inferior de la vista principal, el relleno y un borde redondeado:
 
