@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 38be0f94-42eb-42ca-8e56-935aeeb4dc2b
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '338'
+ht-degree: 2%
 
 ---
 
 
-# Botón Página siguiente{#next-page-button}
+# Botón de página siguiente{#next-page-button}
 
 Al tocar o hacer clic en este botón, el usuario pasa a la página siguiente del catálogo. Este botón aparece en la barra de control principal. Este botón no se muestra en los teléfonos móviles para guardar el espacio de la pantalla. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
 
@@ -57,11 +60,11 @@ El aspecto del botón se controla con el siguiente selector de clase CSS:
    <td colname="col2"> <p>Altura del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Imagen que se muestra para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -69,9 +72,9 @@ El aspecto del botón se controla con el siguiente selector de clase CSS:
 
 >[!NOTE]
 >
->Este botón admite el selector de `state` atributos, que se puede utilizar para aplicar diferentes apariencias a diferentes estados de botón.
+>Este botón admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes apariencias a distintos estados de botones.
 
-La información de objeto del botón se puede localizar. Consulte [Localización de los elementos](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) de la interfaz de usuario para obtener más información.
+La información de objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
 Ejemplo: para configurar un botón de página siguiente de 28 x 28 píxeles, situado 4 píxeles desde la parte inferior y 250 píxeles desde el borde derecho de la barra de control principal, y muestra una imagen diferente para cada uno de los cuatro estados de botón diferentes.
 
