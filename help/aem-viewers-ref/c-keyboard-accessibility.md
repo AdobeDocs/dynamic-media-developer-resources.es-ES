@@ -25,11 +25,11 @@ Todas las funciones expuestas en la interfaz de visor de zoom básico, catálogo
 
 Todas las funciones expuestas en la interfaz de visor de zoom básico, catálogo electrónico, búsqueda en catálogos electrónicos, flotante, zoom en línea, medios mixtos, giro, vídeo, zoom, carrusel, dimensional (3D), imagen interactiva, vídeo interactivo y vídeo360 son accesibles mediante el teclado.
 
-Un usuario final puede navegar entre los elementos de la interfaz de usuario del visor mediante **[!UICONTROL pulsaciones de teclas Tab]** y **[!UICONTROL Mayús+Tab]** . El uso del **[!UICONTROL tabulador]** hace que el enfoque de entrada avance hacia el siguiente elemento de la interfaz de usuario en el orden de tabulación; si se utiliza **[!UICONTROL Mayús+Tab]** , el enfoque de entrada vuelve al elemento de interfaz de usuario anterior. El recorrido de enfoque sigue la ubicación del elemento de interfaz de usuario natural en la pantalla y se mueve de izquierda a derecha y, a continuación, de arriba abajo.
+Un usuario final puede navegar entre los elementos de la interfaz de usuario del visor mediante las pulsaciones de tecla **[!UICONTROL Tab]** y **[!UICONTROL Mayús+Tab]**. Al utilizar **[!UICONTROL Tab]** se pasa el enfoque de entrada al siguiente elemento de interfaz de usuario en el orden de tabulación; el uso de **[!UICONTROL Mayús+Tab]** devuelve el enfoque de entrada al elemento de interfaz de usuario anterior. El recorrido de enfoque sigue la ubicación del elemento de interfaz de usuario natural en la pantalla y se mueve de izquierda a derecha y, a continuación, de arriba abajo.
 
 Según la configuración del sistema operativo y del explorador web, el elemento de la interfaz de usuario que tenga el enfoque de entrada puede recibir una indicación visual del enfoque. Por ejemplo, el indicador visual puede ser un borde delgado representado alrededor del elemento de interfaz de usuario.
 
-Es posible desactivar o personalizar este resaltado de enfoque en la CSS del visor. En la tabla de contenido de este sistema de ayuda, bajo un nombre de visor específico (por ejemplo, Zoom básico o Vídeo interactivo), haga clic en ***Personalización Nombre del visor ***> Resaltado**de **enfoque.
+Es posible desactivar o personalizar este resaltado de enfoque en la CSS del visor. En la tabla de contenido de este sistema de ayuda, bajo un nombre de visor específico (por ejemplo, Zoom básico o Vídeo interactivo), haga clic en **Personalización *nombre del visor*** >** Resaltado de enfoque **.
 
 Las pulsaciones de teclas admitidas por los elementos de la interfaz de usuario del visor individual son, en la mayoría de los casos, obvias y fáciles de detectar.
 
@@ -47,7 +47,7 @@ Las pulsaciones de teclas admitidas por los elementos de la interfaz de usuario 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Acercar o alejar </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> + </span> o <span class="uicontrol"> - </span>, respectivamente. </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> +  </span> o  <span class="uicontrol"> -  </span>, respectivamente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Restablecimiento de zoom </p> </td> 
@@ -66,7 +66,7 @@ Las pulsaciones de teclas admitidas por los elementos de la interfaz de usuario 
    <td colname="col2"> <p>Teclas de flecha arriba, abajo, izquierda o derecha; Tecla principal o final. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>activación de muestra de producto </p> </td> 
+   <td colname="col1"> <p>Activación de muestra de producto </p> </td> 
    <td colname="col2"> <p>Tecla Space o Enter. </p> </td> 
   </tr> 
   <tr> 
@@ -99,7 +99,7 @@ Las pulsaciones de teclas admitidas por los elementos de la interfaz de usuario 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Carrusel, selección de puntos interactivos y activación de puntos interactivos </p> </td> 
-   <td colname="col2"> <p>Selección de puntos interactivos: tecla de flecha arriba, abajo, izquierda o derecha </p> <p>activación de puntos interactivos: Tecla Space o Enter. </p> </td> 
+   <td colname="col2"> <p>Selección de puntos interactivos: tecla de flecha arriba, abajo, izquierda o derecha </p> <p>Activación de puntos interactivos: Tecla Space o Enter. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Catálogo electrónico, cambie la imagen de la página en la vista principal </p> </td> 
