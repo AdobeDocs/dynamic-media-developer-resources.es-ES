@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: cbe63f57-28d2-4cfa-8a7f-1b4ec01beb80
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '58'
+ht-degree: 10%
 
 ---
 
@@ -19,8 +22,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_8DA8AC17A6FB4EC09DC9384B812D841C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
-   <td colname="col2"> <p> Especifica la forma en que las muestras rellenan la vista. </p> <p> <span class="codeph"> left </span> establece el orden de relleno de izquierda a derecha; la <span class="codeph"> derecha </span> invierte el orden para que la vista se rellene en dirección de derecha a izquierda y de arriba abajo. Cuando <span class="codeph"> se establece </span> automáticamente, el componente aplica el modo derecho cuando la configuración regional se establece en <span class="codeph"> "ja" </span>y, en caso contrario, utiliza left. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> auto|left|right  </span> </p> </td> 
+   <td colname="col2"> <p> Especifica la forma en que las muestras rellenan la vista. </p> <p> <span class="codeph"> left  </span> establece el orden de relleno de izquierda a derecha;  <span class="codeph"> a la derecha  </span> invierte el orden para que la vista se rellene en dirección de derecha a izquierda y de arriba abajo. Cuando <span class="codeph"> auto </span> está establecido, el componente aplica el modo derecho cuando la configuración regional está configurada en <span class="codeph"> "ja" </span> y utiliza a la izquierda en caso contrario. </p> </td> 
   </tr> 
  </tbody> 
 </table>
