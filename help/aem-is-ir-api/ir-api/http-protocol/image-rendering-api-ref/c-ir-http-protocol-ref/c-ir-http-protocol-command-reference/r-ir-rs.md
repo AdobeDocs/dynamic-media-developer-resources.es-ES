@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 4ff7fcb4-a10a-4e82-80a1-edf79ae1f717
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '132'
+ht-degree: 3%
 
 ---
 
@@ -25,7 +28,7 @@ Configuración avanzada de procesamiento. Especifica una configuración de proce
  </tr> 
 </table>
 
-Se utiliza para ajustar el aspecto del procesamiento. Utilice la función de representación de la herramienta de creación de viñetas (que forma parte del paquete de creación de imágenes de Scene7) para crear cadenas de configuración de procesamiento.
+Se utiliza para ajustar el aspecto del procesamiento. Utilice la función de procesamiento de la herramienta de creación de viñetas (que forma parte del paquete de creación de imágenes de Scene7) para crear cadenas de configuración de procesamiento.
 
 ## Propiedades {#section-9a2b2228789046658cb80eddf343af75}
 
@@ -37,7 +40,7 @@ Atributo Material.
 
 ## Ejemplo {#section-47e4811882574441a4d517e42a35f352}
 
-Después de algunos experimentos con la creación de imágenes, se determina que la máscara de enfoque (USM) proporciona la cantidad correcta de enfoque para la aplicación y el material en cuestión. La cadena de configuración de procesamiento que configura USM se copia en el `rs=` comando para utilizarlo con este material:
+Después de algunos experimentos con la creación de imágenes, se determina que la máscara de enfoque (USM) proporciona la cantidad correcta de enfoque para la aplicación y el material en cuestión. La cadena de configuración de procesamiento que configura USM se copia al comando `rs=` para utilizarlo con este material:
 
 `…&rs=U2V20W50X2&…`
 
