@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 16a0ca99-1ed5-4f1d-b068-55adc46fde0b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '98'
+ht-degree: 8%
 
 ---
 
@@ -28,7 +31,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> fundido</span></span> </p> </td> 
-   <td colname="col2"> Especifica la duración de una animación de fundido que se produce cuando el texto aparece o desaparece. El valor <span class="codeph"> 0</span> indica que no hay transición de fundido. </td> 
+   <td colname="col2"> Especifica la duración de una animación de fundido que se produce cuando el texto aparece o desaparece. Un valor de <span class="codeph"> 0</span> indica que no hay transición de fundido. </td> 
   </tr> 
  </tbody> 
 </table>
