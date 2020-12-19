@@ -63,7 +63,7 @@ Especifique un valor de tipo de trabajo para devolver el tipo de trabajo. Puede 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Nombre original del tipo de <span class="codeph"> ActiveJob</span> enviado con el trabajo. </td> 
+   <td colname="col3">Nombre original del tipo <span class="codeph"> ActiveJob</span> enviado con el trabajo. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
@@ -88,7 +88,7 @@ Especifique un valor de tipo de trabajo para devolver el tipo de trabajo. Puede 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> description</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Descripción del trabajo especificada originalmente en <span class="codeph"> submitJob</span>. </td> 
+   <td colname="col3">Descripción del trabajo originalmente especificada en <span class="codeph"> submitJob</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> serverName</span> </span> </td> 
@@ -173,7 +173,7 @@ Especifique un valor de tipo de trabajo para devolver el tipo de trabajo. Puede 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:ExportJob</span> </td> 
-   <td colname="col3">Permitir la exportación autorizada de archivos cargados anteriormente. Consulte <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> Trabajo</a>de exportación. </td> 
+   <td colname="col3">Permitir la exportación autorizada de archivos cargados anteriormente. Consulte <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> Trabajo de exportación</a>. </td> 
   </tr> 
  </tbody> 
 </table>
