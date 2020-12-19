@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 4be4ff41-8ef1-4b56-b2dc-074992fe0d6b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '51'
+ht-degree: 21%
 
 ---
 
@@ -23,7 +26,7 @@ Sintaxis
 | Nombre | Tipo | Descripción |
 |---|---|---|
 | ` *`groupHandle`*` | `xsd:string` | Identificador de grupo. |
-| ` *`companyHandle`*` | `xsd:string` | Identificador de Compañía. |
+| ` *`companyHandle`*` | `xsd:string` | Identificador de compañía. |
 | ` *`name`*` | `xsd:string` | Nombre del grupo. |
 | ` *`is SystemDefined`*` | `xsd:string` | Si el sistema define el grupo. |
 
