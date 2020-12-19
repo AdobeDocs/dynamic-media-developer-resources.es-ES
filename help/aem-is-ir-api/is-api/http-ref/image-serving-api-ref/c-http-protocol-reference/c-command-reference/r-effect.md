@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 622dc7ca-55b8-4a82-b9a7-65588aee87d0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '196'
+ht-degree: 3%
 
 ---
 
@@ -25,13 +28,13 @@ Seleccione Capa de efecto. Selecciona una capa de efecto y inicio un nuevo segme
  </tr> 
 </table>
 
-Todos los comandos del nuevo segmento se aplican a la capa de efecto especificada. Un segmento de capa de efecto termina con el siguiente `layer=` o `effect=` comando o al final de la solicitud.
+Todos los comandos del nuevo segmento se aplican a la capa de efecto especificada. Un segmento de capa de efecto termina con el siguiente comando `layer=` o `effect=` o al final de la solicitud.
 
 *`n`* debe ser menor que 0 para efectos de capa externa (es decir, efectos detrás de la capa principal) y bueno que 0 para efectos de capa interna (es decir, efectos dentro de la capa principal). Los números de capas de efectos no tienen que ser consecutivos.
 
 El número de capa del efecto especifica el orden z, en el caso de varias capas de efecto para la misma capa principal. Las capas con mayor número se colocan encima de las capas con menor número.
 
-Las capas de efecto se pueden conectar a `layer=comp`.
+Las capas de efecto pueden estar conectadas a `layer=comp`.
 
 ## Propiedades {#section-e11f795deff345779ce280a82cf221ca}
 
