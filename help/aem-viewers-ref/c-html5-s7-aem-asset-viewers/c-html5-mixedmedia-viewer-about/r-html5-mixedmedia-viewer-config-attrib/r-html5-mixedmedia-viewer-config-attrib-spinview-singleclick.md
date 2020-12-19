@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 188a4e65-a93e-46c4-89b4-02e745ecf5eb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,8 +22,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_0824E332DF1340A2ABC40A3EB428F2D0"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> none|zoom|reset|zoomReset </span> </p> </td> 
-   <td colname="col2"> <p> Configura la asignación de un solo clic o toque para aplicar zoom a las acciones. Si se establece en <span class="codeph"> none, </span> se deshabilita el zoom de un solo clic o toque. Si se configura para <span class="codeph"> aplicar zoom al </span> hacer clic en la imagen, se amplía un paso de zoom; CTRL+clic reduce un paso de zoom. La configuración para <span class="codeph"> restablecer </span> hace que un solo clic en la imagen restablezca el nivel de giro inicial. Para <span class="codeph"> zoomReset </span>, el restablecimiento se aplica si el factor de zoom actual está en el límite especificado o por encima de él; de lo contrario, se aplica el zoom. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> none|zoom|reset|zoomReset  </span> </p> </td> 
+   <td colname="col2"> <p> Configura la asignación de un solo clic o toque para aplicar zoom a las acciones. Si se establece en <span class="codeph"> ninguno </span> se deshabilita el zoom de un solo clic o toque. Si se establece en <span class="codeph"> zoom </span> al hacer clic en la imagen se amplía un paso de zoom; CTRL+clic reduce un paso de zoom. Si se establece en <span class="codeph"> reset </span>, se hace un solo clic en la imagen para restablecer el zoom al nivel de giro inicial. Para <span class="codeph"> zoomReset </span>, el restablecimiento se aplica si el factor de zoom actual está en el límite especificado o por encima de él; de lo contrario, se aplica el zoom. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -31,7 +34,7 @@ Opcional.
 
 ## Predeterminado {#section-bd374ffc5182484faa77a7a3c8fa70f2}
 
-`zoomReset` en equipos de escritorio; `none` en dispositivos táctiles.
+`zoomReset` en equipos de escritorio;  `none` en dispositivos táctiles.
 
 ## Ejemplo {#section-bd6c4249bccf44aab13fee8552f5a8b3}
 
