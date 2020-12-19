@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 25f228c2-dc03-461a-aee8-40fdb3d4cf5e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '416'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ Una imagen de fondo contiene la fotografía de un modelo o maniquí. Los registr
 
 Cada imagen de vestimenta o accesorio se enmascara y se recorta al cuadro delimitador de máscara para minimizar el tamaño de la imagen. Los anclajes y las resoluciones de las imágenes se controlan cuidadosamente para mantener la alineación entre las capas y la imagen de fondo, y todas las imágenes se agregan a un catálogo de imágenes, con los valores adecuados almacenados en `catalog::Resolution` y `catalog::Anchor`.
 
-Además de las capas, también queremos cambiar el color de los elementos seleccionados. Los registros de estos elementos se preprocesan para eliminar el color original y ajustar el brillo y el contraste de una manera adecuada para el comando de coloreado. Este preprocesamiento puede realizarse sin conexión, utilizando una herramienta de edición de imágenes como Photoshop o, en casos sencillos, puede realizarse de forma trivial agregando `op_brightness=` y `op_contrast=` agregando al `catalog::Modifier`campo.
+Además de las capas, también queremos cambiar el color de los elementos seleccionados. Los registros de estos elementos se preprocesan para eliminar el color original y ajustar el brillo y el contraste de una manera adecuada para el comando de coloreado. Este preprocesamiento se puede realizar sin conexión, utilizando una herramienta de edición de imágenes como Photoshop o, en casos sencillos, se puede realizar trivialmente agregando `op_brightness=` y `op_contrast=` al campo `catalog::Modifier`.
 
 Esta aplicación no justifica una plantilla independiente, ya que todos los objetos ya están correctamente alineados por sus anclajes de imagen ( `catalog::Anchor`) y escalados ( `catalog::Resolution`). Dependemos del cliente para garantizar un orden de capas adecuado.
 
@@ -40,11 +43,11 @@ Solo se especifica la altura. Esto permite que la imagen devuelta varíe en anch
 
 No debe importar qué resolución se especifique para cada capa, siempre y cuando todos sean iguales. Es posible que esta versión no permita que las vistas sean más grandes que las imágenes compuestas. Especificar un valor de resolución grande evita problemas relacionados con esta limitación. Todo el procesamiento y la composición se realiza con la resolución óptima para el tamaño de imagen solicitado, con el fin de lograr el mejor rendimiento y la mejor calidad de salida.
 
-Los `res=` comandos se pueden omitir si todas las imágenes de origen tienen la misma resolución a escala completa (lo que es probable para este tipo de aplicación).
+Los comandos `res=` se pueden omitir si todas las imágenes de origen tienen la misma resolución a escala completa (lo que es probable para este tipo de aplicación).
 
-El `rootId` debe especificarse para todos los `src=` comandos, incluso si son iguales a los `rootId` especificados en la ruta de URL.
+Se debe especificar `rootId` para todos los comandos `src=`, incluso si son iguales a los `rootId` especificados en la ruta de URL.
 
-Si no se va a utilizar ningún catálogo de imágenes, no es posible un enfoque de escala basado en resolución. En este caso, se deben calcular factores de escala explícitos para cada elemento de capa, según la relación de los `catalog::Resolution` valores de cada capa con el valor `catalog::Resolution` de la capa de fondo. La solicitud de composición (con menos capas) puede tener este aspecto:
+Si no se va a utilizar ningún catálogo de imágenes, no es posible un enfoque de escala basado en resolución. En este caso, se deben calcular factores de escala explícitos para cada elemento de capa, en función de la relación de los valores `catalog::Resolution` de cada capa con el valor `catalog::Resolution` de la capa de fondo. La solicitud de composición (con menos capas) puede tener este aspecto:
 
 ```
 http://server/myApp/mannequin.tif?&hei=400&qlt=90&
