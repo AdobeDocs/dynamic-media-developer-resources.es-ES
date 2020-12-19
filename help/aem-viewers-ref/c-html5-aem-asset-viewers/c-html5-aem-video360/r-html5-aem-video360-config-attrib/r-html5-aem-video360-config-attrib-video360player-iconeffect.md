@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: a0a2f840-e330-4636-8daf-1cd3f2eddf01
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '134'
+ht-degree: 8%
 
 ---
 
@@ -22,11 +25,11 @@ Atributo de configuración para el visor de Video360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Habilita la visualización de IconEffect sobre el video cuando el video está en estado de pausa. En algunos dispositivos se utilizan controles nativos. En estos casos, se ignora el modificador <span class="codeph"> iconeffect</span> . </p> </td> 
+   <td colname="col2"> <p> Habilita la visualización de IconEffect sobre el video cuando el video está en estado de pausa. En algunos dispositivos se utilizan controles nativos. En estos casos, se ignora el modificador <span class="codeph"> iconeffect</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> contar</span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica el número máximo de veces que aparece y vuelve a aparecer IconEffect. El valor <span class="codeph"> -1</span> indica que el icono vuelve a aparecer indefinidamente. </p> </td> 
+   <td colname="col2"> <p> Especifica el número máximo de veces que aparece y vuelve a aparecer IconEffect. Un valor de <span class="codeph"> -1</span> indica que el icono vuelve a aparecer indefinidamente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> fundido</span></span> </p> </td> 
@@ -34,7 +37,7 @@ Atributo de configuración para el visor de Video360.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> autoHide</span></span> </p> </td> 
-   <td colname="col2"> <p> Establece el número de segundos que IconEffect permanece totalmente visible antes de que se oculte automáticamente. Es decir, el tiempo después de que se haya completado la atenuación en la animación y antes de que desaparezcan los inicios de animación. Establezca en <span class="codeph"> 0</span> para deshabilitar el comportamiento de ocultación automática. </p> </td> 
+   <td colname="col2"> <p> Establece el número de segundos que IconEffect permanece totalmente visible antes de que se oculte automáticamente. Es decir, el tiempo después de que se haya completado la atenuación en la animación y antes de que desaparezcan los inicios de animación. Establezca <span class="codeph"> 0</span> para deshabilitar el comportamiento de ocultación automática. </p> </td> 
   </tr> 
  </tbody> 
 </table>
