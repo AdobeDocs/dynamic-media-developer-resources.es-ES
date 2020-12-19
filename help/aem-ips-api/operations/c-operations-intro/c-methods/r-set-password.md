@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 78067f8d-4191-4580-a5a8-adb6edfcfab8
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '250'
+ht-degree: 8%
 
 ---
 
@@ -22,7 +25,7 @@ La fecha de caducidad de la contraseña es opcional. Si se omite, la contraseña
 
 >[!NOTE]
 >
->*Solo* el tipo de `IpsAdmin` usuario está autorizado para ejecutar llamadas setPassword en contra de otros usuarios.
+>** Solo el tipo de  `IpsAdmin` usuario está autorizado para ejecutar llamadas setPassword en otros usuarios.
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -49,14 +52,14 @@ La fecha de caducidad de la contraseña es opcional. Si se omite, la contraseña
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> userHandle </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> userHandle  </span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
    <td colname="col4"> <p>Identificador de usuario. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> contraseña </span></span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> password  </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> xsd:string  </span> </p> </td> 
    <td colname="col3"> <p>Sí </p> </td> 
    <td colname="col4"> <p>Contraseña. </p> <p>Los siguientes requisitos se aplican a la contraseña elegida: </p> <p> 
      <ul id="ul_E5BE3621127C476788412174584075B3"> 
@@ -64,15 +67,15 @@ La fecha de caducidad de la contraseña es opcional. Si se omite, la contraseña
       <li id="li_71224B3A89C8461AB689BAD383EC8CEA">La longitud mínima de la contraseña es de ocho caracteres. </li> 
       <li id="li_C21B6843EA734D1ABE0580185F775408">La contraseña debe contener uno o varios caracteres de las siguientes clases de caracteres: 
        <ul id="ul_D5D3911AD6214035BBD2AB8350A459C7"> 
-        <li id="li_6E3F084100104F2CBCF130EF8852C7B7">Caracteres en inglés minúscula. Por ejemplo, <span class="codeph"> a b c d e </span> y así sucesivamente </li> 
+        <li id="li_6E3F084100104F2CBCF130EF8852C7B7">Caracteres en inglés minúscula. Por ejemplo: <span class="codeph"> a b c d e </span> y así sucesivamente </li> 
         <li id="li_1FDED8D7348842BC857320D797D41217">Caracteres en inglés en mayúsculas. Por ejemplo, <span class="codeph"> A B C D E </span> y así sucesivamente. </li> 
-        <li id="li_C3C4D5412AA749F3B78F37B2B696CF80">Números. For example, <span class="codeph"> 1 2 3 4 5 </span> and so forth. </li> 
-        <li id="li_2730798F26E74B878BEDE510CD06D8DD">Caracteres de símbolo especiales. Por ejemplo, puede utilizar cualquiera de los siguientes métodos: <span class="codeph"> ` ~ ! @ # $ % ^ * ( ) _ + - = { }| [ ] y \ : " ; ' &lt; &gt; ? , . / </span> </li> 
+        <li id="li_C3C4D5412AA749F3B78F37B2B696CF80">Números. Por ejemplo: <span class="codeph"> 1 2 3 4 5 </span> y así sucesivamente. </li> 
+        <li id="li_2730798F26E74B878BEDE510CD06D8DD">Caracteres de símbolo especiales. Por ejemplo, puede utilizar cualquiera de los siguientes métodos: <span class="codeph"> ` ~ ! @ # $ % ^ * ( ) _ + - = { } | [ ] y \ : " ; ' &lt; &gt; ? , . / </span> </li> 
        </ul> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> passwordExpires </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> passwordExpires  </span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:dateTime </span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
    <td colname="col4"> <p>Determina la fecha de caducidad de la contraseña. <p>Nota:  Proporcione el huso horario con la solicitud para este campo. Los husos horarios se ajustan a la hora central. </p> </p> </td> 
@@ -86,7 +89,7 @@ La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-23a6fbabdb3c4c3180076057e47ae567}
 
-Este ejemplo de código crea una contraseña de usuario. La contraseña nunca caduca porque `passwordExpires` se omitió.
+Este ejemplo de código crea una contraseña de usuario. La contraseña nunca caduca porque se omitió `passwordExpires`.
 
 **Solicitar**
 
