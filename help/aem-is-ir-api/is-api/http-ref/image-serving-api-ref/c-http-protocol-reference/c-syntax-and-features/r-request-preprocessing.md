@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 375bbca2-7a4a-49a9-9577-86e6b2f19990
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '300'
+ht-degree: 0%
 
 ---
 
@@ -22,16 +25,16 @@ Las reglas de preprocesamiento de solicitudes pueden modificar la ruta y las par
 
 Las reglas de preprocesamiento de solicitudes son adecuadas para una variedad de aplicaciones, algunas de las cuales se enumeran a continuación:
 
-* Implemente un mecanismo de rutas ** virtuales que permita reasignar la ruta de solicitud a las rutas de archivo, FTP y HTTP.
+* Implementar un mecanismo *paths virtuales*, que permite reasignar la ruta de la solicitud a las rutas de archivo, FTP y HTTP.
 * Aplicación selectiva de funciones de seguridad, como la marca de agua, filtradas por nombre de imagen o ruta.
 * Omitir marcas de agua u otras características de seguridad al acceder al servidor desde direcciones IP específicas.
-* Obligar la aplicación de comandos, como `defaultImage=`a todas las solicitudes o a solicitudes que muestren un patrón específico en la ruta de URL o en las cadenas de consulta.
+* Obligar la aplicación de comandos, como `defaultImage=`, a todas las solicitudes o a aquellas que exhiban un patrón específico en la ruta de URL o en las cadenas de consulta.
 * No permitir el uso de comandos con uso intensivo de CPU para evitar el uso indebido del servidor.
-* Permitir que las imágenes de origen se encuentren en servidores HTTP o FTP mientras se siguen especificando en la ruta de solicitud en lugar de con `src=`.
+* Permitir que las imágenes de origen se encuentren en servidores HTTP o FTP mientras se siguen especificando en la ruta de solicitud en lugar de `src=`.
 * Controle los ajustes de calidad de imagen (como la calidad JPEG o el enfoque) en función de la ruta de acceso de la solicitud o del nombre de la imagen.
 
-Encontrará información detallada sobre la creación, el uso y la administración de conjuntos de reglas en la Referencia [de conjuntos de](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md#concept-3e5058cf3507470b82cac638df23ea8e)reglas.
+Encontrará información detallada sobre la creación, el uso y la administración de conjuntos de reglas en la [Referencia del conjunto de reglas](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md#concept-3e5058cf3507470b82cac638df23ea8e).
 
 ## Véase también {#see-also}
 
-[Referencia](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md#concept-3e5058cf3507470b82cac638df23ea8e)del conjunto de reglas, [atributo::RuleSetFile](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-file-formats/r-rule-set-files.md#reference-3e54cb5f4d74411a84889fed056ac093)
+[Referencia](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md#concept-3e5058cf3507470b82cac638df23ea8e) del conjunto de reglas,  [atributo::RuleSetFile](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-file-formats/r-rule-set-files.md#reference-3e54cb5f4d74411a84889fed056ac093)
