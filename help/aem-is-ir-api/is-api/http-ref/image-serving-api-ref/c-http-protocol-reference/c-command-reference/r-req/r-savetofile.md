@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 32a56d77-89e2-4f78-9fab-1b528e9a024a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '184'
+ht-degree: 3%
 
 ---
 
@@ -55,15 +58,15 @@ Cuando la solicitud de guardado se completa correctamente, devuelve varias propi
   <tr valign="top"> 
    <td> <p> <span class="codeph"> estado</span> </p> </td> 
    <td> <p> enum </p> </td> 
-   <td> <p> <span class="codeph"> realizado</span> si se realiza correctamente. </p> </td> 
+   <td> <p> <span class="codeph"> Si </span> tiene éxito. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 Devuelve el estado de respuesta HTTP 200 si se realiza correctamente y 403 si la solicitud falla o se agota el tiempo de espera. La respuesta tiene un tipo MIME `text/plain` y no se puede almacenar en caché.
 
-Importante Guardar en archivos debe habilitarse especificando la ruta a una carpeta grabable existente en `attribute::SavePath`. `saveToFile=` falla si `attribute::SavePath` está vacío.
+El almacenamiento importante en archivos debe habilitarse especificando la ruta a una carpeta grabable existente en `attribute::SavePath`. `saveToFile=` falla si  `attribute::SavePath` está vacío.
 
-*`file`* debe ser una ruta relativa combinada con `attribute::SavePath`. El servicio de imágenes no crea carpetas. La carpeta destinatario debe existir en el servidor y tener la configuración de permisos adecuada para el servicio de imágenes para crear archivos.
+*`file`* debe ser una ruta relativa combinada con  `attribute::SavePath`. El servicio de imágenes no crea carpetas. La carpeta destinatario debe existir en el servidor y tener la configuración de permisos adecuada para el servicio de imágenes para crear archivos.
 
-`timeout=` es opcional. El tiempo de espera predeterminado es de 60.000 ms o el valor con el que se haya configurado `PS::SaveTimeout`.
+`timeout=` es opcional. El tiempo de espera predeterminado es de 60.000 ms o el valor que se configure con `PS::SaveTimeout`.
