@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 90237128-8d29-45cc-90e8-7fe46c1dae38
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,6 +26,6 @@ Muestre marcos de texto desbordados con el signo más. El indicador de desbordam
  </tr> 
 </table>
 
-Al establecer el modificador `markOverflowingTextFrames=1` mediante una llamada mediante URL, se marcan todos los marcos de texto en los que el texto se desborda con un signo más. Además, en la vista previa de SPS, el indicador de desbordamiento de texto se establece en &quot; `TRUE`&quot; de forma predeterminada.
+Al establecer el modificador `markOverflowingTextFrames=1` mediante una llamada mediante URL, se marcan todos los marcos de texto donde el texto se desborda con un signo más. Además, en la vista previa de SPS, el indicador de desbordamiento de texto se establece en &quot; `TRUE`&quot; de forma predeterminada.
 
 El valor predeterminado es 0.
