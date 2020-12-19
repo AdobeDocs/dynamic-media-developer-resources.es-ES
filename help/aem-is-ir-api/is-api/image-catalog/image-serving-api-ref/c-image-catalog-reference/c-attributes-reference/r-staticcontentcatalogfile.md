@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 82d2a68a-255a-4e65-a29f-7022e7f0f5ec
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 3%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Rutas de archivo de datos del catálogo de contenido estático. Especifica los archivos que contienen los datos de contenido estático para este catálogo.
 
-Los archivos de datos del catálogo de contenido estático se cargan en el orden especificado. Si el mismo `static::Id` valor se produce en más de un registro (en el mismo archivo de catálogo o en diferentes archivos), prevalecerá la última instancia.
+Los archivos de datos del catálogo de contenido estático se cargan en el orden especificado. Si el mismo valor `static::Id` se produce en más de un registro (ya sea en el mismo archivo de catálogo o en diferentes archivos), prevalecerá la última instancia.
 
 ## Propiedades {#section-3f8dc8d21fa84fbeb71db6ca1ecbdd8c}
 
