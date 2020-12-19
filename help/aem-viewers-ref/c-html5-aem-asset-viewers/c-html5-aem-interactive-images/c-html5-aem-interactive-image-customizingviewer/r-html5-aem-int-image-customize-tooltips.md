@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 4cf5ce32-136e-4612-b550-715d51cef982
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '160'
+ht-degree: 5%
 
 ---
 
 
-# Tooltips{#tooltips}
+# Información del objeto{#tooltips}
 
 En los sistemas de escritorio, algunos elementos de la interfaz de usuario, como los botones, tienen información sobre herramientas que se muestra al pasar el ratón por encima.
 
@@ -35,15 +38,15 @@ El aspecto de la información del objeto se controla con el siguiente selector d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p> Radio del borde de fondo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-color  </span> </p> </td> 
    <td colname="col2"> <p> Color del borde de fondo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Color de fondo. </p> </td> 
   </tr> 
   <tr> 
@@ -51,11 +54,11 @@ El aspecto de la información del objeto se controla con el siguiente selector d
    <td colname="col2"> <p>Color de texto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Nombre de fuente del texto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Tamaño de fuente de texto. </p> </td> 
   </tr> 
  </tbody> 
@@ -63,7 +66,7 @@ El aspecto de la información del objeto se controla con el siguiente selector d
 
 >[!NOTE]
 >
->En caso de que los estilos de información del objeto se personalizen desde la página web de incrustación, todas las propiedades deben contener `!IMPORTANT` la regla. Esto no es necesario si la información del objeto está personalizada en el archivo CSS del visor.
+>Si los estilos de información del objeto se personalizan desde la página web de incrustación, todas las propiedades deben contener la regla `!IMPORTANT`. Esto no es necesario si la información del objeto está personalizada en el archivo CSS del visor.
 
 Ejemplo: para configurar información del objeto con un borde gris con un radio de esquina de 3 píxeles, fondo negro y texto blanco en arial, tamaño de 11 píxeles:
 
