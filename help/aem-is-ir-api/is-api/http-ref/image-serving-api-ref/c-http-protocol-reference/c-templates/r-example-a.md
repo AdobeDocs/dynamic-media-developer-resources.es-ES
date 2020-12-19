@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: c250dbc8-1e32-46b8-ba55-c1fb0ae62695
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '499'
+ht-degree: 0%
 
 ---
 
@@ -24,20 +27,20 @@ Insertar objeto
 
 <table id="simpletable_97ECA49445634F59B3F1D100412EFC70"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> catálogo::Id </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> myTemplate1 </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> catálogo::Id  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> myTemplate1  </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> catálogo::Modificador </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> src=backgroundImage&amp;size=1000,1000&amp;ourceN=0,0&amp; layer=1&amp;src=$object$&amp;size=800,800&amp;ourceN=-0.5,0&amp;posN=-0.5,0&amp; layer=2&amp;$text=layer+2+text+comes+here&amp;text tf...$text$...rtf-encoding&amp;rotate=-90&amp;ourceN=0.5,0&amp;posN=0.5,0 </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> catálogo::Modificador  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> src=backgroundImage&amp;size=1000,1000&amp;ourceN=0,0&amp; layer=1&amp;src=$object$&amp;size=800,800&amp;ourceN=-0.5,0&amp;posN=-0.5,0&amp; layer=2&amp;$text=layer+2+text+comes+here&amp;text tf...$text$...rtf-encoding&amp;rotate=-90&amp;ourceN=0.5,0&amp;posN=0.5,0  </span> </p> </td> 
  </tr> 
 </table>
 
-Los `origin=` valores de todas las capas se especifican explícitamente en la plantilla para controlar estrictamente el posicionamiento y la alineación de las capas. Cada origen de capa está configurado para coincidir con la alineación deseada para esa capa. El `origin=` fondo (capa 0) se define en el centro; esto es arbitrario porque la imagen de fondo no cambiará en tiempo de ejecución; se puede utilizar cualquier valor para el origen de capa 0.
+Los valores `origin=` de todas las capas se especifican explícitamente en la plantilla para controlar estrictamente el posicionamiento y la alineación de las capas. Cada origen de capa está configurado para coincidir con la alineación deseada para esa capa. El `origin=` del fondo (capa 0) se establece en el centro; esto es arbitrario porque la imagen de fondo no cambiará en tiempo de ejecución; se puede utilizar cualquier valor para el origen de capa 0.
 
-Los `pos=` valores proporcionan los desplazamientos necesarios entre los puntos de origen de la capa para conseguir la posición deseada.
+Los valores `pos=` proporcionan los desplazamientos necesarios entre los puntos de origen de la capa para lograr la posición deseada.
 
-El anclaje de la imagen de capa 1 se coloca en el centro izquierdo; junto con el `pos=` valor, esto logra la alineación central izquierda entre el fondo y la imagen de la capa 1, independientemente de la proporción de aspecto de la imagen de la capa 1.
+El anclaje de la imagen de capa 1 se coloca en el centro izquierdo; junto con el valor `pos=`, esto logra la alineación central izquierda entre el fondo y la imagen de la capa 1, independientemente de la proporción de aspecto de la imagen de la capa 1.
 
 Del mismo modo, el anclaje de la capa de texto se sitúa en el centro derecho del cuadro de texto de tamaño automático. Junto con pos= esto logra la alineación central derecha deseada para el texto rotado, independientemente del tamaño de fuente y la longitud de cadena.
 
