@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 010814a8-1d29-4b02-8449-cb26e4335e07
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +28,7 @@ Sintaxis
 | 30002 | `IPS_API_FAULT_CODE_MISSING_PARAMETER` |
 | 30003 | `IPS_API_FAULT_CODE_INVALID_REQUEST_XML` |
 
-## Campos predeterminados {#section-37fe1aef1d5f4ca480071ca933aba826}
+## Campos de error {#section-37fe1aef1d5f4ca480071ca933aba826}
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
