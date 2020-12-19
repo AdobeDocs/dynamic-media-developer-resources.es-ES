@@ -1,6 +1,6 @@
 ---
-description: Prefijo URL de Flash Streaming Server. Prefijo de URL de Flash Streaming Server que se utiliza al generar respuestas f4m de velocidad de bits múltiple con req=mbrSet.
-seo-description: Prefijo URL de Flash Streaming Server. Prefijo de URL de Flash Streaming Server que se utiliza al generar respuestas f4m de velocidad de bits múltiple con req=mbrSet.
+description: Prefijo de URL del servidor de flujo Flash. Prefijo de URL del servidor de flujo de Flash utilizado al generar respuestas f4m de velocidad de bits múltiple con req=mbrSet.
+seo-description: Prefijo de URL del servidor de flujo Flash. Prefijo de URL del servidor de flujo de Flash utilizado al generar respuestas f4m de velocidad de bits múltiple con req=mbrSet.
 seo-title: HttpFlashStreamingContext
 solution: Experience Manager
 title: HttpFlashStreamingContext
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 7a69e7ac-9a32-4e32-a7bc-cc90c5cbe49c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # HttpFlashStreamingContext{#httpflashstreamingcontext}
 
-Prefijo URL de Flash Streaming Server. Prefijo de URL de Flash Streaming Server que se utiliza al generar respuestas f4m de velocidad de bits múltiple con req=mbrSet.
+Prefijo de URL del servidor de flujo Flash. Prefijo de URL del servidor de flujo de Flash utilizado al generar respuestas f4m de velocidad de bits múltiple con req=mbrSet.
 
 ## Propiedades {#section-e7ae7d96a7cb40829de7e784fcbbad33}
 
