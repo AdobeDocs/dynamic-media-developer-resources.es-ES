@@ -75,12 +75,12 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> includeSubfolders</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Si se incluirán subcarpetas al cargar. </p> </td> 
+   <td colname="col3"> <p>Si se deben incluir subcarpetas al cargar. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> inDesignOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:InDesignOptions</span> </td> 
-   <td colname="col3"> <p>Opciones para cargar archivos de InDesign al servidor. </p> </td> 
+   <td colname="col3"> <p>Opciones para cargar archivos InDesign en el servidor. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> knockoutBackground</span> </span> </td> 
@@ -118,7 +118,7 @@ Sintaxis
    <td colname="col3"> <p>Dirección URL del destino de carga de archivos. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> postImageRenderingPublish</span> </span>Job </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> </span> </span>postImageRenderingPublishJob </td> 
    <td colname="col2"> <span class="codeph"> tipos:ImageRendingPublishJob</span> </td> 
    <td colname="col3"> <p>Detalles de un trabajo de publicación de procesamiento de imágenes que se ejecuta una vez completada la carga. </p> </td> 
   </tr> 
@@ -175,7 +175,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unCompressOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:UncompressOptions</span> </td> 
-   <td colname="col3"> <p>Extraiga y procese el contenido de los archivos TAR/ZIP cargados con esta configuración opcional. </p> <p>Consulte <a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> DescomprimirOpciones</a>. </p> </td> 
+   <td colname="col3"> <p>Extraiga y procese el contenido de los archivos TAR/ZIP cargados con esta configuración opcional. </p> <p>Consulte <a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> UnCompressOptions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </td> 
@@ -192,13 +192,13 @@ Sintaxis
 
 ## Notas {#section-637405ff7e0b4a71b83fd359b92fa0c2}
 
-Por `CropOptions`, puede elegir solo una de las siguientes opciones:
+Para `CropOptions`, puede elegir solo uno de los siguientes:
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-Por `PublishJob`, puede elegir solo una de las siguientes opciones:
+Para `PublishJob`, puede elegir solo uno de los siguientes:
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`
