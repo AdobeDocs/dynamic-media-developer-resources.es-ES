@@ -1,6 +1,6 @@
 ---
-description: En esta documentación se analizan los problemas de administración del servidor y se describen los ajustes de configuración del procesamiento de imágenes de Scene7.
-seo-description: En esta documentación se analizan los problemas de administración del servidor y se describen los ajustes de configuración del procesamiento de imágenes de Scene7.
+description: En esta documentación se analizan los problemas de administración del servidor y se describen los ajustes de configuración para el procesamiento de imágenes de Scene7.
+seo-description: En esta documentación se analizan los problemas de administración del servidor y se describen los ajustes de configuración para el procesamiento de imágenes de Scene7.
 seo-title: Prefacio de administración del servidor
 solution: Experience Manager
 title: Prefacio de administración del servidor
@@ -8,19 +8,22 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 182782f1-44a8-421d-bacc-f08dcf95f58b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Prefacio de administración del servidor{#server-administration-preface}
 
-En esta documentación se analizan los problemas de administración del servidor y se describen los ajustes de configuración del procesamiento de imágenes de Scene7.
+En esta documentación se analizan los problemas de administración del servidor y se describen los ajustes de configuración para el procesamiento de imágenes de Scene7.
 
-**audiencia prevista**
+**Audiencia prevista**
 
 Esta documentación está destinada a administradores de sistemas y administradores web que necesiten instalar, configurar y administrar el procesamiento de imágenes de Scene7.
 
-**Convenciones de Documento**
+**Convenciones de documento**
 
 Los elementos que se describen en esta documentación suelen ir precedidos de los siguientes tipos de elementos:
 
