@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 2dd8b350-9006-4f0b-b710-0a331357daf3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,8 +23,8 @@ Conversión de formato de explorador. Especifica si la funcionalidad de conversi
 
 <table id="simpletable_2D23B1B282CD4216AB5BE7E7430D1B3F"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> on|off </span> </p> </td> 
-  <td class="stentry"> <p>Especifica si la funcionalidad de conversión de formato del navegador (convertir imágenes JPEG o PNG a formatos de archivo específicos del explorador más pequeños) es verdadera ( <span class="codeph"> en </span>) o falsa ( <span class="codeph"> desactivada </span> para no tener conversión de formato específica del explorador). </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> on|off  </span> </p> </td> 
+  <td class="stentry"> <p>Especifica si la funcionalidad de conversión de formato del explorador (convertir imágenes JPEG o PNG a formatos de archivo específicos del explorador más pequeños) es verdadera ( <span class="codeph"> en </span>) o falsa ( <span class="codeph"> desactivada </span> para no generar conversión de formato específica del explorador). </p> </td> 
  </tr> 
 </table>
 
