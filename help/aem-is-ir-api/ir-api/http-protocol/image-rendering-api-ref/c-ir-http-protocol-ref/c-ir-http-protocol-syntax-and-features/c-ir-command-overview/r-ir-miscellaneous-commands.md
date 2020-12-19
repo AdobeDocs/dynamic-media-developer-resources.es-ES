@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 31718b04-f09c-4103-8ccb-6818f91a1e32
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '37'
+ht-degree: 0%
 
 ---
 
 
-# Comandos varios{#miscellaneous-commands}
+# Varios comandos{#miscellaneous-commands}
 
 Estos comandos también están disponibles.
 
