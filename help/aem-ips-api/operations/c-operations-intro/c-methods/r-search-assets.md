@@ -27,11 +27,11 @@ Sintaxis
 
 **Tamaño de respuesta**
 
-`searchAssets` devuelve hasta 1000 recursos en una sola llamada. Para devolver hasta 10.000 recursos por llamada, limite los datos de respuesta a un subconjunto de los campos `totalRows`, `name`, `handle`, `type`y `subType` . Para devolver conjuntos más grandes, configure la paginación con el `resultPage` parámetro .
+`searchAssets` devuelve hasta 1000 recursos en una sola llamada. Para devolver hasta 10.000 recursos por llamada, limite los datos de respuesta a un subconjunto de los campos `totalRows`, `name`, `handle`, `type` y `subType`. Para devolver conjuntos más grandes, configure la paginación con el parámetro `resultPage`.
 
 **Límite del tamaño del archivo de resultados con responseFieldArray o excludeFieldArray**
 
-Limite el tamaño del conjunto de datos con los `responseFieldArray` parámetros o `excludFieldArray` . Estos parámetros ayudan a reducir el uso de memoria y el ancho de banda y pueden mejorar los tiempos de respuesta del servidor.
+Limite el tamaño del conjunto de datos con los parámetros `responseFieldArray` o `excludFieldArray`. Estos parámetros ayudan a reducir el uso de memoria y el ancho de banda y pueden mejorar los tiempos de respuesta del servidor.
 
 ## Tipos de usuarios autorizados {#section-9c4bc41bb8b4493982197eb13c7cdc55}
 
@@ -93,7 +93,7 @@ Limite el tamaño del conjunto de datos con los `responseFieldArray` parámetros
    <td colname="col1"> <span class="codeph"> <span class="varname"> includeSubfolders</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4">Establezca en <span class="codeph"> true</span> para buscar subcarpetas. </td> 
+   <td colname="col4">Se establece en <span class="codeph"> true</span> para buscar subcarpetas. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span> </span> </td> 
@@ -111,7 +111,7 @@ Limite el tamaño del conjunto de datos con los `responseFieldArray` parámetros
    <td colname="col1"> <span class="codeph"> <span class="varname"> conditionMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Elección de los modos de coincidencia de búsqueda para combinar los resultados de <span class="codeph"> keywordArray</span>, </p> <p> <span class="codeph"> conditionMatchMode</span> </p> <p> <span class="codeph"> systemFieldConditionArray</span>y <span class="codeph"> metadataConditionArray</span>. El valor predeterminado es <span class="codeph"> MatchAll</span>. </p> </td> 
+   <td colname="col4"> <p>Elección de los modos de coincidencia de búsqueda para combinar resultados de <span class="codeph"> keywordArray</span>, </p> <p> <span class="codeph"> conditionMatchMode</span> </p> <p> <span class="codeph"> systemFieldConditionArray</span> y  <span class="codeph"> metadataConditionArray</span>. El valor predeterminado es <span class="codeph"> MatchAll</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> keywordArray</span> </span> </td> 
@@ -123,7 +123,7 @@ Limite el tamaño del conjunto de datos con los `responseFieldArray` parámetros
    <td colname="col1"> <span class="codeph"> <span class="varname"> systemFieldMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Elección de los modos de coincidencia de búsqueda para combinar coincidencias <span class="codeph"> systemFieldCondition</span> . El valor predeterminado es <span class="codeph"> MatchAll</span> </p>. </td> 
+   <td colname="col4"> <p>Elección de los modos de coincidencia de búsqueda para combinar las coincidencias de <span class="codeph"> systemFieldCondition</span>. El valor predeterminado es <span class="codeph"> MatchAll</span> </p>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> systemFieldConditionArray</span> </span> </p> </td> 
@@ -141,13 +141,13 @@ Limite el tamaño del conjunto de datos con los `responseFieldArray` parámetros
    <td colname="col1"> <span class="codeph"> <span class="varname"> tagConditionArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:TagConditionArray</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Una matriz de predicados de búsqueda de campos de etiqueta. </p> <p>Los predicados se combinan de acuerdo con la configuración <span class="codeph"> tagMatchMode</span> y, a continuación, se combinan con cualquier término de <span class="codeph"> palabra claveArray</span>, <span class="codeph"> systemFieldConditionArray</span>y <span class="codeph"> metadataConditionArray</span> de acuerdo con la configuración de <span class="codeph"> condiciónMatchMode</span> . </p> </td> 
+   <td colname="col4"> <p>Una matriz de predicados de búsqueda de campos de etiqueta. </p> <p>Los predicados se combinan según la configuración <span class="codeph"> tagMatchMode</span> y luego se combinan con cualquier término de <span class="codeph"> keywordArray</span>, <span class="codeph"> systemFieldConditionArray</span> y <span class="codeph"> metadataConditionArray</span> según la configuración <span class="codeph"> conditionMatchMode</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> metadataMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4">Modos de coincidencia de búsqueda para combinar coincidencias <span class="codeph"> de condición</span> de metadatos. El valor predeterminado es <span class="codeph"> MatchAll</span>. </td> 
+   <td colname="col4">Modos de coincidencia de búsqueda para combinar las coincidencias de <span class="codeph"> metadataCondition</span>. El valor predeterminado es <span class="codeph"> MatchAll</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> metadataConditionArray</span> </span> </td> 
@@ -171,13 +171,13 @@ Limite el tamaño del conjunto de datos con los `responseFieldArray` parámetros
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetSubTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:StringArray</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> lista de nombres de subtipos con los que filtrar. </td> 
+   <td colname="col4"> Lista de nombres de subtipos con los que filtrar. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> estrictoSubTypeCheck</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4">Si <span class="codeph"> true</span> y <span class="codeph"> assetSubTypeArray</span> no están vacíos, solo se devuelven los recursos cuyos subtipos están en <span class="codeph"> assetSubTypeArray</span> . Si es <span class="codeph"> false</span> (predeterminado), se devuelven los recursos sin ningún subtipo definido. </td> 
+   <td colname="col4">Si <span class="codeph"> true</span> y <span class="codeph"> assetSubTypeArray</span> no está vacío, solo se devuelven los recursos cuyos subtipos están en <span class="codeph"> assetSubTypeArray</span>. Si <span class="codeph"> false</span> (predeterminado), se devuelven los recursos sin ningún subtipo definido. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeByproducts</span> </span> </td> 
@@ -207,7 +207,7 @@ Limite el tamaño del conjunto de datos con los `responseFieldArray` parámetros
    <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4">Especifica la página de resultados que se devolverá en función del tamaño de página <span class="codeph"> recordsPerPage</span> . </td> 
+   <td colname="col4">Especifica la página de resultados que se devolverá, en función del <span class="codeph"> tamaño de página recordsPerPage</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 
