@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: c3b7aada-a03a-418d-80b2-31a86a1af786
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '90'
+ht-degree: 5%
 
 ---
 
@@ -22,6 +25,6 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| ` *`ccOriginator`*` | `xsd:boolean` | Si el valor es true, incluye la cuenta de usuario del servicio Web del usuario, que es una lista de correos electrónicos designados para recibir una confirmación por correo electrónico de la CDN de Scene7. |
-| ` *`ccOtherArray`*` | `types:EmailArray` | Matriz de direcciones de correo electrónico (5 como máximo) designada para recibir la notificación de confirmación de la CDN de Scene7. |
+| ` *`ccOriginator`*` | `xsd:boolean` | Si es true, incluye la cuenta de usuario del servicio Web del usuario, que es una lista de correos electrónicos designados para recibir una confirmación por correo electrónico de la CDN de Scene7. |
+| ` *`ccOtherArray`*` | `types:EmailArray` | Una matriz de direcciones de correo electrónico (5 como máximo) designada para recibir la notificación de confirmación de la CDN de Scene7. |
 
