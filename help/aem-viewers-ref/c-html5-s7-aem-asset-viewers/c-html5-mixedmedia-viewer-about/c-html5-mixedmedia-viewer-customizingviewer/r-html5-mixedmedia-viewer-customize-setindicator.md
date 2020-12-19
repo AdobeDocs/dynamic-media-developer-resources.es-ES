@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: e62fac7c-28b6-40bf-83cc-8bcfbaa0dfa3
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Establecer indicador{#set-indicator}
+# Definir indicador{#set-indicator}
 
 El indicador de conjunto es una serie de puntos procesados sobre las muestras principales cuando se utiliza un visor en un dispositivo táctil. Los puntos ayudan a los usuarios a navegar por las páginas de miniaturas cuando los botones de desplazamiento no están disponibles.
 
@@ -35,7 +38,7 @@ El aspecto del contenedor del indicador establecido se controla con el siguiente
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Color de fondo en formato hexadecimal del indicador establecido. </p> </td> 
   </tr> 
  </tbody> 
@@ -70,27 +73,27 @@ El aspecto de un punto indicador de conjunto individual se controla con el selec
    <td colname="col2"> <p>Altura del punto indicador establecido. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
    <td colname="col2"> <p>Margen izquierdo en píxeles. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
    <td colname="col2"> <p>Margen superior en píxeles. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-right  </span> </p> </td> 
    <td colname="col2"> <p>Margen derecho en píxeles. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-bottom  </span> </p> </td> 
    <td colname="col2"> <p>Margen inferior en píxeles. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p>Radio del borde en píxeles. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Color de fondo en formato hexadecimal. </p> </td> 
   </tr> 
  </tbody> 
@@ -98,7 +101,7 @@ El aspecto de un punto indicador de conjunto individual se controla con el selec
 
 >[!NOTE]
 >
->El punto indicador definido admite el selector de `state` atributos, que se puede utilizar para aplicar diferentes apariencias a distintos estados de miniaturas. En particular, `state="selected"` corresponde a la página actual de miniaturas, `state="unselected"` corresponde al estado de punto predeterminado.
+>El punto indicador de conjunto admite el selector de atributos `state`, que se puede utilizar para aplicar diferentes apariencias a distintos estados de miniaturas. En particular, `state="selected"` corresponde a la página actual de miniaturas, `state="unselected"` corresponde al estado de punto predeterminado.
 
 Ejemplo: para configurar un punto indicador definido de 15 x 15 píxeles, con dos píxeles de margen horizontal, cinco píxeles de margen superior, un píxel de margen inferior, doce píxeles de radio, #D5D3D3 color predeterminado y #939393 color activo:
 
