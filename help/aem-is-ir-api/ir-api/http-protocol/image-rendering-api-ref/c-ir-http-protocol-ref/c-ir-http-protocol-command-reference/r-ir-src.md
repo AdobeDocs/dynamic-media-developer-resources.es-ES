@@ -36,7 +36,7 @@ Archivo de material. Especifica datos de material, ya sea en forma de una única
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> EmbeddedReq</span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph">&amp;lbrace;'is&amp;lbrace;'<span class="varname"> isReq</span>'&amp;rbrace;'&amp;rbrace;|&amp;lbrace;'ir&amp;lbrace;'<span class="varname"> irReq</span>'&amp;rbrace;'|&amp;lbrace;'&amp;lbrace;'<span class="varname"> &amp;ForeignReq</span>' amp;rbrace;'</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">&amp;Lbrace;'is&amp;lbrace;'<span class="varname"> isReq</span>'&amp;rbrace;'&amp;rbrace;|&amp;lbrace;'ir&amp;lbrace;'<span class="varname"> irReq</span>'&amp;rbrace;'|&amp;lbrace;'&amp;lbrace;'<span class="varname"> ForeignReq</span>'&amp;rbrace;'</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p></td> 
@@ -82,15 +82,15 @@ Los materiales archivadores requieren un archivo de estilo archivador ( [!DNL .v
 
 Los materiales de coberturas de ventanas requieren un archivo de estilo de coberturas de ventanas ( [!DNL .vnw]), que no se puede especificar como una solicitud anidada. Un archivo de textura es opcional y, si se especifica, puede ser un archivo o una solicitud incrustada.
 
-El procesamiento de imágenes utiliza las mismas reglas que el servicio de imágenes para buscar catálogos de material, entradas de catálogo y archivos de datos. Consulte la descripción del tipo de *`object`* datos en la documentación del servicio de imágenes para obtener más información.
+El procesamiento de imágenes utiliza las mismas reglas que el servicio de imágenes para buscar catálogos de material, entradas de catálogo y archivos de datos. Consulte la descripción del tipo de datos *`object`* en la documentación del servicio de imágenes para obtener más información.
 
-*`materialFile`* es una ruta relativa a `attribute::RootPath`.
+*`materialFile`* es una ruta relativa a  `attribute::RootPath`.
 
-*`foreignReq`* puede ser una dirección URL relativa a `attribute::RootUrl`o una dirección URL absoluta si `attribute::AllowDirectUrls` está configurada.
+*`foreignReq`* puede ser una dirección URL relativa a  `attribute::RootUrl`o una dirección URL absoluta si  `attribute::AllowDirectUrls` está configurada.
 
-Si no *`catId`* se especifica, se utiliza el catálogo de sesiones.
+Si no se especifica *`catId`*, se utiliza el catálogo de sesiones.
 
-`srcE=` y `srcN=` proporcionar acceso a los materiales incrustados en la viñeta.
+`srcE=` y  `srcN=` proporcionar acceso a los materiales incrustados en la viñeta.
 
 ## Formatos de archivo admitidos {#section-f2186d3eef834fc8bbecb2bc68daacad}
 
@@ -124,4 +124,4 @@ Solicitud anidada al servicio de imágenes para obtener una imagen de textura:
 
 ## Véase también {#section-d01d25b8903e4f5ca6aef4a084fca6b7}
 
-[Catálogos](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-material-catalogs/c-ir-http-material-catalogs.md#concept-772742c1688f420a88a56f5136ad1db2)de materiales, [atributo::RootUrl](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402), [atributo::AllowDirectUrls](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-allowdirecturls.md#reference-02000c0f3c494292bad8425d06268882)
+[Catálogos](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-material-catalogs/c-ir-http-material-catalogs.md#concept-772742c1688f420a88a56f5136ad1db2) de materiales,  [atributo::RootUrl](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402),  [atributo::AllowDirectUrls](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-allowdirecturls.md#reference-02000c0f3c494292bad8425d06268882)
