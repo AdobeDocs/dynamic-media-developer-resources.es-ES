@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 15d555bc-f9f7-4d0e-809e-7a51358e5c03
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '54'
+ht-degree: 11%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> -1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica el comportamiento de precarga del componente. Cuando se establece en <span class="codeph"> -1</span> , todas las muestras se cargan simultáneamente cuando se inicializa el componente o se cambia el recurso. Cuando se establece en <span class="codeph"> 0</span> , solo se cargan muestras visibles. </p> <p><span class="codeph"> <span class="varname"> preload</span></span> define cuántas filas/columnas invisibles alrededor del área visible se precargarán. </p> </td> 
+   <td colname="col2"> <p> Especifica el comportamiento de precarga del componente. Cuando se establece en <span class="codeph"> -1</span>, todas las muestras se cargan simultáneamente cuando se inicializa el componente o se cambia el recurso. Cuando se establece en <span class="codeph"> 0</span> sólo se cargan muestras visibles. </p> <p><span class="codeph"> <span class="varname"> </span></span> preload define cuántas filas/columnas invisibles alrededor del área visible se precargarán. </p> </td> 
   </tr> 
  </tbody> 
 </table>
