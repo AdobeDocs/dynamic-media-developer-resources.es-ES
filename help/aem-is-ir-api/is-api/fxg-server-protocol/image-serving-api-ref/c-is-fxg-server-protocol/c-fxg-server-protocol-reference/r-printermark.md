@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 3e5699ce-3ccd-4f85-91dd-c40c252a758d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Mostrar marcas de impresora. Especifica cómo se muestran las marcas de impresora.
 
-` printerMark= *`recortar`*, *`marcas`*, *`de sangrado marcas de registro`*, *`marcas de color`*, *`de barrido`*, *``*, *`información de estillínea de`*, *`grosor incrustar capa`*`
+` printerMark= *`recortar `*, *`marcas `*, *`de sangrado marcas de registro `*, *`marcas de color `*, *`de barrido `*, *``*, *`información de estillínea de `*, *`grosor incrustar capa`*`
 
 Las distintas marcas pueden desactivarse o activarse. También se puede controlar el estilo de las marcas de impresora.
 
