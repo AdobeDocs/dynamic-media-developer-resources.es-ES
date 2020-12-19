@@ -22,9 +22,9 @@ Requisitos del sistema para visores HTML5.
 
 <!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
-## Hardware y software del servidor {#section-05099146f1f0418988c196635110bee6}
+## Hardware y software de servidor {#section-05099146f1f0418988c196635110bee6}
 
-* Servicio de imágenes de Dynamic Media Classic 6.7.1 o posterior.
+* Dynamic Media Classic Image Serving 6.7.1 o posterior.
 * Los visores HTML5 requieren bibliotecas de JavaScript del lado del servidor SDK 3.9.1 o posterior.
 * Las funciones sociales &quot;Enviar un correo electrónico a un amigo&quot; requieren s7ondemand 5.0.7 o posterior.
 * Visor de catálogos electrónicos: la compatibilidad del panel Información requiere el servidor de información 2.1.8 o posterior.
@@ -49,7 +49,7 @@ Requisitos del sistema para visores HTML5.
 
 >[!NOTE]
 >
->A partir del 30 de septiembre de 2018, los visores de Adobe Dynamic Media Classic dejarán de ofrecer compatibilidad con Transport Layer Security 1.0 (TLS 1.0). Como tal, Dynamic Media Classic ya no admite visores en los siguientes navegadores y/o plataformas que admiten TLS 1.0. (Adobe Systems recomienda el uso de TLS 1.2 o posterior).
+>A partir del 30 de septiembre de 2018, los visores Adobe Dynamic Media Classic dejarán de ofrecer compatibilidad con Transport Layer Security 1.0 (TLS 1.0). Como tal, Dynamic Media Classic ya no admite visores en los siguientes navegadores o plataformas que admiten TLS 1.0. (Adobe Systems recomienda el uso de TLS 1.2 o posterior).
 
 * Android 2.3.7
 * Android 4.0.4
@@ -71,6 +71,6 @@ Requisitos del sistema para visores HTML5.
 
 >[!NOTE]
 >
->FIN DE VIDA DE LOS VISORES FLASH: A partir del 31 de enero de 2017, Adobe Scene7 Publishing System ha dejado de ofrecer asistencia técnica para la plataforma de visor Flash. Para obtener más información sobre este cambio importante, consulte el siguiente sitio web de preguntas más frecuentes:
+>FIN DE VIDA DE LOS VISORES DE Flash: A partir del 31 de enero de 2017, Adobe Scene7 Publishing System ha dejado de ofrecer asistencia técnica para la plataforma de visor de Flash. Para obtener más información sobre este cambio importante, consulte el siguiente sitio web de preguntas más frecuentes:
 
 [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
