@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: ecbaad48-d725-4f7a-a37d-5e4cde3295cb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +34,7 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | No | El identificador de la compañía que posee el tipo de conjunto de propiedades. Si no `companyHandle` se pasa y el llamador es un `IpsAdmin`, se creará un tipo de conjunto de propiedades globales. |
+| ` *`companyHandle`*` | `xsd:string` | No | El identificador de la compañía que posee el tipo de conjunto de propiedades. Si `companyHandle` no se pasa y el llamador es `IpsAdmin`, se creará un tipo de conjunto de propiedades globales. |
 | ` *`name`*` | `xsd:string` | Sí | Nombre del tipo de conjunto de propiedades. |
 | ` *`propertyType`*` | `xsd:string` | Sí | Elección de tipos de conjuntos de propiedades. |
 | ` *`allowMultiple`*` | `xsd:boolean` | Sí | Determina si el programa puede tener varios conjuntos de propiedades. |
@@ -44,7 +47,7 @@ Sintaxis
 
 ## Ejemplos {#section-13396c9639a6475190e622eae3cdb534}
 
-Este ejemplo de código crea un conjunto de propiedades con un nombre y un tipo especificados por la `PropertySet Types` constante. El identificador de la compañía que posee el tipo de conjunto de propiedades. Si companyHandle no se pasa y el llamador es un IpsAdmin, se creará un tipo de conjunto de propiedades globales.
+Este ejemplo de código crea un conjunto de propiedades con un nombre y un tipo especificados por la constante `PropertySet Types`. El identificador de la compañía que posee el tipo de conjunto de propiedades. Si companyHandle no se pasa y el llamador es un IpsAdmin, se creará un tipo de conjunto de propiedades globales.
 
 **Solicitar**
 
