@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 25bc5185-e1cc-489f-bff5-996795e9b14f
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '284'
+ht-degree: 2%
 
 ---
 
@@ -55,11 +58,11 @@ El siguiente selector de clase CSS controla el aspecto del botón:
    <td colname="col2"> <p>Altura del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Imagen que se muestra para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -67,11 +70,11 @@ El siguiente selector de clase CSS controla el aspecto del botón:
 
 >[!NOTE]
 >
->Este botón admite los selectores `state`, `selected`y `replay` de atributos, que se pueden utilizar para aplicar diferentes apariencias a distintos estados de botón. En particular, `selected='true'` corresponde al estado &quot;play&quot; y `selected='false'` corresponde al estado &quot;pause&quot;;
+>Este botón admite los selectores de atributos `state`, `selected` y `replay`, que se pueden utilizar para aplicar diferentes apariencias a distintos estados de botones. En particular, `selected='true'` corresponde al estado &quot;play&quot; y `selected='false'` corresponde al estado &quot;pause&quot;;
 >
 >`replay='true'` se configura cuando el vídeo ha llegado al final y al hacer clic en el botón se reinicia la reproducción desde el principio.
 
-La información de objeto del botón se puede localizar. Consulte [Localización de los elementos](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) de la interfaz de usuario para obtener más información.
+La información de objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obtener más información.
 
 **Ejemplo** : Para configurar un botón de reproducción/pausa de 32 x 32 píxeles; se coloca seis píxeles desde el borde superior e izquierdo de la barra de control y muestra una imagen diferente para cada uno de los cuatro estados de botón diferentes cuando se selecciona o no se selecciona.
 
