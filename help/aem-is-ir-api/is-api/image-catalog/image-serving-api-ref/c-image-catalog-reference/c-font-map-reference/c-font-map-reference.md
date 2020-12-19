@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 7a6c5eda-3b47-4c23-8a33-7b7e39de29c9
 translation-type: tm+mt
 source-git-commit: 4169757880407b62addd0a70ef1807d8b195820b
+workflow-type: tm+mt
+source-wordcount: '130'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +21,7 @@ Si se requiere una asignación de fuentes para un catálogo de imágenes, la rut
 
 Las entradas del mapa de fuentes de un catálogo de imágenes específico anularán las entradas del mapa de fuentes del catálogo predeterminado.
 
-El servicio de imágenes admite fuentes Adobe Type 1, OpenType y TrueType.
+El servicio de imágenes admite las fuentes Adobe Type 1, OpenType y TrueType.
 
 `textPs=` también admite fuentes CID, ATC y bitmap.
 
