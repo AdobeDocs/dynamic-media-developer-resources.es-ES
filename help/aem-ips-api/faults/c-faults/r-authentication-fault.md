@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 89cc6f09-def6-4db1-a8b5-410909693dce
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +29,7 @@ Sintaxis
 | 10001 | `AUTHENTICATION_FAULT_CODE_INVALID_CREDENTIALS` |
 | 10002 | `AUTHENTICATION_FAULT_CODE_INVALID_USER` |
 
-## Campos predeterminados {#section-1fe84846a7154b03ab49552810ee9ac3}
+## Campos de error {#section-1fe84846a7154b03ab49552810ee9ac3}
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
