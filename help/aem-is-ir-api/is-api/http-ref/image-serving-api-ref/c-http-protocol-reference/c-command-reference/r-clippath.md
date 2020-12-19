@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: fe84cf7a-63af-47d3-ae4f-2122f2f0a262
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ Ruta del clip de capa. Especifica una ruta de clip para la capa actual.
 
 <table id="simpletable_275E2A5FAB804C6388BD110D2ACA3C82"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> pathDefinition</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> pathDefinition</span> </span> </p> </td> 
   <td class="stentry"> <p>Path data. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -33,25 +36,25 @@ Ruta del clip de capa. Especifica una ruta de clip para la capa actual.
 
 Todas las partes de la capa que queden fuera del área definida por `clipPath=` se mostrarán transparentes.
 
-` *`pathName`*` es el nombre de una ruta incrustada en la imagen de origen de la capa. La ruta se transforma automáticamente para mantener la alineación relativa con el contenido de la imagen. Si se especifica más de un ` *`pathName`*` , el servidor recorta la imagen a la intersección de estas rutas. Se ignora cualquier ` *`pathName`*` que no se encuentre en la imagen de origen.
+` *``*` pathName es el nombre de un trazado incrustado en la imagen de origen de la capa. La ruta se transforma automáticamente para mantener la alineación relativa con el contenido de la imagen. Si se especifica más de un ` *`pathName`*`, el servidor recorta la imagen a la intersección de estas rutas. Se ignora cualquier ` *`pathName`*` no encontrado en la imagen de origen.
 
 >[!NOTE]
 >
 >Solo se admiten cadenas ASCII para ` *`pathName`*`.
 
-` *`pathDefinition`*` permite especificar datos de ruta explícitos en las coordenadas de píxeles de la capa.
+` *``*` pathDefinitionpermite especificar datos de ruta explícitos en coordenadas de píxeles de capa.
 
-Si `size=` se especifica y no 0,0, la capa está presidida. En este caso, las coordenadas de trazado son relativas a la esquina superior izquierda del rectángulo de capa y la capa se coloca en función `origin=` o de su valor predeterminado. Todas las regiones del trazado situadas fuera del rectángulo de la capa permanecen transparentes.
+Si se especifica `size=` y no 0,0, la capa estará presidida. En este caso, las coordenadas de trazado son relativas a la esquina superior izquierda del rectángulo de capa y la capa se coloca en función de `origin=` o su valor predeterminado. Todas las regiones del trazado situadas fuera del rectángulo de la capa permanecen transparentes.
 
-Si no `size=` se especifica para un color sólido o una capa de texto, la capa se considera de tamaño propio con la extensión de la ruta que determina su tamaño. Si no `origin=` se especifica, el valor predeterminado es (0,0) del espacio de coordenadas de ruta. Esto permite especificar las coordenadas de ruta con relación al origen de la capa 0.
+Si no se especifica `size=` para una capa de texto o color sólido, la capa se considera de tamaño propio con la extensión de la ruta que determina su tamaño. Si no se especifica `origin=`, el valor predeterminado es (0,0) del espacio de coordenadas de ruta. Esto permite especificar las coordenadas de ruta con relación al origen de la capa 0.
 
 >[!NOTE]
 >
->`scale=`, `rotate=`, y `anchor=` no están permitidos para capas de color sólido de tamaño propio.
+>`scale=`no se permiten  `rotate=`ni  `anchor=` comandos para capas de color sólido de tamaño propio.
 
-` *`pathDefinition`*` acepta una cadena similar al valor del `d=` atributo del `<path>` elemento SVG, excepto que se utilizan comas en lugar de espacios para separar valores. ` *`pathDefinition`*` puede incluir uno o varios subpaths de bucle cerrado.
+` *``*` pathDefinitionacepta una cadena similar al valor del  `d=` atributo del  `<path>` elemento SVG, excepto que se utilizan comas en lugar de espacios para separar valores. ` *``*` pathDefinitionpuede incluir uno o más subpaths de bucle cerrado.
 
-Los siguientes comandos de ruta son compatibles con ` *`pathDefinition`*`:
+Los siguientes comandos de ruta se admiten en ` *`pathDefinition`*`:
 
 <table id="table_A74DD7A48B1C417D9D4BA46BECEAB981"> 
  <thead> 
@@ -63,12 +66,12 @@ Los siguientes comandos de ruta son compatibles con ` *`pathDefinition`*`:
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td> <b> M</b> <span class="varname"> x,y</span> </td> 
+   <td> <b> </b> <span class="varname"> Mx,y</span> </td> 
    <td> <p> moveto absoluto </p> </td> 
    <td> <p> Inicio un nuevo subtrazado en x,y. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <b> m</b> <span class="varname"> x,y</span> </td> 
+   <td> <b> </b> <span class="varname"> mx,y</span> </td> 
    <td> <p> moveto relativo </p> </td> 
   </tr> 
   <tr valign="top"> 
@@ -81,16 +84,16 @@ Los siguientes comandos de ruta son compatibles con ` *`pathDefinition`*`:
    <td> <p> lineto relativo </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <b> C</b> *{<span class="varname"> x1,y1,x2,y2,x,y</span>} </td> 
+   <td> <b> C</b> *{<span class="varname"> x1,y1,x2,y2,x,y,y</span>} </td> 
    <td> <p> curveto absoluto </p> </td> 
    <td> <p> Dibuje una curva Bézier desde la posición actual hasta x,y. x1,y1 es el punto de control al principio de la curva y x2,y2 es el punto de control al final de la curva. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <b> c</b> *{<span class="varname"> x1,y1,x2,y2,x,y</span>} </td> 
+   <td> <b> c</b> *{<span class="varname"> x1,y1,x2,y2,x,y,y</span>} </td> 
    <td> <p> curveto relativo </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <b> Z</b> | <b>z</b> </td> 
+   <td> <b> Z</b> |  <b>z</b> </td> 
    <td> <p> closepath </p> </td> 
    <td> <p> Cierre el subtrazado actual con una línea recta. </p> </td> 
   </tr> 
@@ -119,4 +122,4 @@ Ninguno, para que no se recorte la capa.
 
 ## Véase también {#section-dd8110fb6f5c45eba6284c5ec5f49056}
 
-[clipXpath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clipxpath.md#reference-17e5e4da3e044943af8f963f58a45f53) , [textFlowPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md#reference-0b8d9493d71342f0b6a64a6d221584ef) , [extension=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac)
+[clipXpath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clipxpath.md#reference-17e5e4da3e044943af8f963f58a45f53) ,  [textFlowPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md#reference-0b8d9493d71342f0b6a64a6d221584ef) ,  [extension=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac)
