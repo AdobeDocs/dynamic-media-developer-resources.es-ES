@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: c9fa7826-5174-4298-99e6-a0627e432567
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '187'
+ht-degree: 11%
 
 ---
 
@@ -36,7 +39,7 @@ Sintaxis
 | ` *`includeInvalid`*` | `xsd:boolean` | No | Incluir o excluir usuarios no válidos. |
 | ` *`companyHandleArray`*` | `types:HandleArray` | No | Filtre los resultados según la compañía. |
 | ` *`groupHandleArray`*` | `types:HandleArray` | No | Filtros los resultados en función de los grupos. |
-| ` *`userRoleArray`*` | `types:StringArray` | No | Resultados de Filtros basados en la función de usuario. |
+| ` *`userRoleArray`*` | `types:StringArray` | No | Resultados de filtros basados en la función de usuario. |
 | ` *`numChars`*` | `xsd:int` | No | Activar >1 carácter. |
 
 **Salida (getUserCharsReturn)**
