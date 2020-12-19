@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 58bea34f-357e-4d9b-a22d-7d0f177d8215
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '328'
+ht-degree: 2%
 
 ---
 
 
-# Full screen button{#full-screen-button}
+# Botón de pantalla completa{#full-screen-button}
 
 Hace que el usuario haga clic en el visor para entrar o salir del modo de pantalla completa. Este botón no se muestra si el visor funciona en modo emergente y el sistema no admite la pantalla completa nativa. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
 
@@ -59,11 +62,11 @@ El aspecto del botón se controla con el siguiente selector de clase CSS:
    <td colname="col2"> <p>Altura del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Imagen que se muestra para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -71,9 +74,9 @@ El aspecto del botón se controla con el siguiente selector de clase CSS:
 
 >[!NOTE]
 >
->Este botón admite los selectores de atributos `state` y `selected` atributos, que se pueden utilizar para aplicar diferentes apariencias a distintos estados de botón. En particular, `selected='true'` corresponde al estado de &quot;pantalla completa&quot; y `selected='false'` corresponde al estado &quot;normal&quot;.
+>Este botón admite los selectores de atributos `state` y `selected`, que pueden utilizarse para aplicar diferentes apariencias a diferentes estados de botón. En particular, `selected='true'` corresponde al estado de &quot;pantalla completa&quot; y `selected='false'` corresponde al estado &quot;normal&quot;.
 
-La información de objeto del botón se puede localizar. Consulte [Localización de los elementos](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)de la interfaz de usuario.
+La información de objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Ejemplo: para configurar un botón de pantalla completa de 32 x 32 píxeles, situado seis píxeles desde el borde superior y derecho del visor y muestra una imagen diferente para cada uno de los cuatro estados de botón diferentes cuando se selecciona o no se selecciona:
 
