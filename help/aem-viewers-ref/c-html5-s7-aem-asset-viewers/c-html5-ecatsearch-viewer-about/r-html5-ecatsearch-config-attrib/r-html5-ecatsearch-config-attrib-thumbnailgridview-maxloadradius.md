@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e72ae5d6-574e-4f30-827c-021ce5dafcee
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p>Especifica el comportamiento de precarga del componente. </p> <p>Cuando se establece en <span class="codeph"> -1</span> , las miniaturas se cargan simultáneamente cuando se inicializa el componente o cambia el recurso. </p> <p>Cuando se establece en <span class="codeph"> 0</span> , solo se cargan las miniaturas visibles. </p> <p>Establecer <span class="codeph"><span class="varname"> precarga</span></span> define cuántas filas/columnas invisibles alrededor del área visible se cargan previamente. </p> </td> 
+   <td colname="col2"> <p>Especifica el comportamiento de precarga del componente. </p> <p>Cuando se establece en <span class="codeph"> -1</span>, las miniaturas se cargan simultáneamente cuando se inicializa el componente o cambia el recurso. </p> <p>Cuando se establece en <span class="codeph"> 0</span> sólo se cargan las miniaturas visibles. </p> <p>El valor <span class="codeph"><span class="varname"> preloadnbr</span></span> define cuántas filas/columnas invisibles alrededor del área visible se cargan previamente. </p> </td> 
   </tr> 
  </tbody> 
 </table>
