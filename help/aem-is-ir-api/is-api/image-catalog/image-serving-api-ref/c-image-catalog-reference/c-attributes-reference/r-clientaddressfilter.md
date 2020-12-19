@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 6a557795-0caf-4b5f-974e-fb4c1481a83c
 translation-type: tm+mt
 source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,14 +23,14 @@ Cuando se especifique, se rechazarán las solicitudes a este catálogo de imáge
 
 ## Propiedades {#section-d785265988324af68835410c9ba54147}
 
-lista separada por comas de direcciones IP con máscaras de red opcionales (se utiliza notación CIDR):
+Lista separada por comas de direcciones IP con máscaras de red opcionales (se utiliza notación CIDR):
 
-`*`ipAddress`*` `[`/ *`netmask`*`]`*`[`,*`ipAddress`*`[`/*`netmask`*`]]`
+`*`ipAddress`*` `[`/  *`netmask`*`]`*  `[`,*`ipAddress`*`[`/*`netmask`*`]]`
 
 <table id="simpletable_9F82BB0D42A9434883F2F70A2A92898C"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> ipAddress</span> </p> </td> 
-  <td class="stentry"> <p>Dirección IP en <span class="varname"> formato ddd.ddd.ddd</span> . </p></td> 
+  <td class="stentry"> <p>Dirección IP en formato <span class="varname"> ddd.ddd.ddd.ddd</span>. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> netmask</span> </p></td> 
@@ -35,7 +38,7 @@ lista separada por comas de direcciones IP con máscaras de red opcionales (se u
  </tr> 
 </table>
 
-Este atributo se omite cuando se aplica una regla de preprocesamiento con un `<addressfilter>` elemento.
+Este atributo se omite cuando se aplica una regla de preprocesamiento con un elemento `<addressfilter>`.
 
 ## Predeterminado {#section-de26e8c9225745e985e4beac1f03f4f6}
 
