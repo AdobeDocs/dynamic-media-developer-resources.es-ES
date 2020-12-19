@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 62e0e55a-55a3-417d-ad51-ec77a7c16ac3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Compatibilidad con hotspot{#hotspot-support}
+# Compatibilidad con puntos interactivos{#hotspot-support}
 
 El visor admite la representación de iconos de zonas interactivas en la parte superior de la vista principal. El aspecto de los iconos de puntos interactivos se controla mediante CSS, tal como se describe en la sección Puntos interactivos.
 
@@ -22,8 +25,8 @@ Las zonas interactivas pueden activar una función de Vista rápida en la págin
 
 ## Puntos interactivos de Vista rápida {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Estos tipos de zonas interactivas deben crearse con el tipo de acción &quot;Vista rápida&quot; en Dynamic Media, de Recursos AEM On Demand. Cuando un usuario activa una zona interactiva de este tipo, el visor ejecuta la llamada de retorno de `quickViewActivate` JavaScript y le pasa los datos de zona interactiva. Se espera que la página web de incrustación escuche esta llamada de retorno. Cuando activa la página, abre su propia implementación de Vista rápida.
+Estos tipos de zonas interactivas deben crearse utilizando el tipo de acción &quot;Vista rápida&quot; en Dynamic Media, AEM Assets - On Demand. Cuando un usuario activa una zona interactiva de este tipo, el visor ejecuta la llamada de retorno de JavaScript `quickViewActivate` y le pasa los datos de zona interactiva. Se espera que la página web de incrustación escuche esta llamada de retorno. Cuando activa la página, abre su propia implementación de Vista rápida.
 
-## Redirigir a página web externa {#section-ef820c71251e4215800bb99c0c9ebe16}
+## Redirigir a la página Web externa {#section-ef820c71251e4215800bb99c0c9ebe16}
 
-Las zonas interactivas creadas para el tipo de acción &quot;Vista rápida&quot; en Dynamic Media de Recursos AEM: On Demand redirige al usuario a una URL externa. Según la configuración realizada durante la creación, la URL se abre en una nueva ficha del explorador, en la misma ventana o en la ventana del explorador con nombre.
+Puntos interactivos creados para el tipo de acción &quot;Vista rápida&quot; en Dynamic Media de AEM Assets: On Demand redirige al usuario a una dirección URL externa. Según la configuración realizada durante la creación, la URL se abre en una nueva ficha del explorador, en la misma ventana o en la ventana del explorador con nombre.
