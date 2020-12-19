@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 70b2ec2e-0ea7-461d-a185-731fb0ef8f3e
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '244'
+ht-degree: 0%
 
 ---
 
@@ -22,8 +25,8 @@ La muestra interactiva puede activar una Vista rápida en la página web de aloj
 
 ## Acerca de la Vista rápida {#section-7990e44f641042d2a38ba20c9413b3f8}
 
-Estos tipos de muestras interactivas se deben crear con el tipo de acción &quot;vista rápida&quot; en Recursos AEM - On-demand. Cuando un usuario activa una muestra de este tipo, el visor ejecuta la llamada de retorno de `quickViewActivate` JavaScript y le pasa los datos de la muestra. Se espera que la página web de incrustación escuche esta llamada de retorno y cuando se activa, la página abre su propia implementación de Vista rápida.
+Estos tipos de muestras interactivas deben crearse utilizando el tipo de acción &quot;vista rápida&quot; en AEM Assets - On-demand. Cuando un usuario activa una muestra de este tipo, el visor ejecuta la llamada de retorno de JavaScript `quickViewActivate` y le pasa los datos de muestra. Se espera que la página web de incrustación escuche esta llamada de retorno y cuando se activa, la página abre su propia implementación de Vista rápida.
 
-## Redirigir a una página web externa {#section-32ebe3c3a7f74892a428c5d48801de4d}
+## Redirigir a una página Web externa {#section-32ebe3c3a7f74892a428c5d48801de4d}
 
-Muestras creadas para el tipo de acción &quot;vista rápida&quot; en Recursos AEM: redireccionamiento a petición del usuario a una URL externa. Según la configuración en el momento de la creación, la dirección URL se puede abrir en una nueva ficha de explorador, en la misma ventana o en la ventana de explorador con nombre.
+Muestras creadas para el tipo de acción &quot;vista rápida&quot; en AEM Assets: redireccionamiento a petición del usuario a una dirección URL externa. Según la configuración en el momento de la creación, la dirección URL se puede abrir en una nueva ficha de explorador, en la misma ventana o en la ventana de explorador con nombre.
