@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 98d18948-d387-4890-9c27-e8ab60cded1d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '91'
+ht-degree: 18%
 
 ---
 
@@ -33,7 +36,7 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyName`*` | `xsd:string` | Sí | Identificador de Compañía. |
+| ` *`companyName`*` | `xsd:string` | Sí | Identificador de compañía. |
 | ` *`projectHandle`*` | `xsd:string` | Sí | Identificador del proyecto. |
 | ` *`assetHandleArray`*` | `types:HandleArray` | Sí | Matriz de controladores de recursos que desea asociar al proyecto. |
 
