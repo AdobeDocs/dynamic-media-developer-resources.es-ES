@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: f62f1123-bd7c-4099-b36d-58aff283bdb3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,5 +25,5 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| ` *`elementos`*` | `types:TaskItemProgress` | Matriz de progreso del elemento de Tarea. La incidencia mínima es cero. El máximo no está delimitado. |
+| ` *`elementos`*` | `types:TaskItemProgress` | Matriz de progreso del elemento de tarea. La incidencia mínima es cero. El máximo no está delimitado. |
 
