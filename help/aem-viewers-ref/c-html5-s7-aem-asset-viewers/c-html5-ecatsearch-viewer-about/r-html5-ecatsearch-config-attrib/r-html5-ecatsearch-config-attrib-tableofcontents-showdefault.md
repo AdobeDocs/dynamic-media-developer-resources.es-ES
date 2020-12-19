@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e5e9649e-6a4a-4a62-bc01-2e74bd95ffc5
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '46'
+ht-degree: 15%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> Cuando se establece en <span class="codeph"> 1</span> , el componente rellena el panel desplegable con elementos para todas las páginas, incluso para aquellas que no tengan definida la etiqueta. </p> <p>Cuando se establece en <span class="codeph"> 0</span> , solo se muestran en el panel desplegable los elementos con etiquetas explícitas. </p> </td> 
+   <td> <p> Cuando se establece en <span class="codeph"> 1</span>, el componente rellena el panel desplegable con elementos para todas las páginas, incluso para aquellas que no tienen definida la etiqueta. </p> <p>Cuando se establece en <span class="codeph"> 0</span>, solo se muestran en el panel desplegable los elementos con etiquetas explícitas. </p> </td> 
   </tr> 
  </tbody> 
 </table>
