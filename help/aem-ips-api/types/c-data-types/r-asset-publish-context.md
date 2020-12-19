@@ -1,13 +1,16 @@
 ---
 description: Asigna un recurso a los contextos PublishContext en los que se ha marcado un recurso para su publicación.
 seo-description: Asigna un recurso a los contextos PublishContext en los que se ha marcado un recurso para su publicación.
-seo-title: AssetPublishContexts
+seo-title: AssetPublishContext
 solution: Experience Manager
-title: AssetPublishContexts
+title: AssetPublishContext
 topic: Scene7 Image Production System API
 uuid: 85914db3-d2ea-4e73-8f8d-6e18d2d44f55
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
