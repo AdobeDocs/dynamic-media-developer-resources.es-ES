@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 82284e25-cfe0-4cf8-b410-b49196cc721c
 translation-type: tm+mt
 source-git-commit: 7721cccf3f779f258adcdcf886f7e01111e92be0
+workflow-type: tm+mt
+source-wordcount: '147'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ Un material consiste en un conjunto de *atributos*. Algunos atributos son obliga
 
 El servidor ignora todos los atributos que se producen dentro de un segmento de especificación de material (MSS) pero que no se enumeran arriba ni en las tablas de material específicas a continuación.
 
-Las siguientes tablas lista los atributos básicos del material. IR admite atributos adicionales para controlar los efectos [de procesamiento](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-advanced-render-effects.md#concept-bf8b6d8460244b9cacc7f4a3df4c5281)avanzados.
+Las siguientes tablas lista los atributos básicos del material. IR admite atributos adicionales para controlar [efectos de procesamiento avanzados](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-advanced-render-effects.md#concept-bf8b6d8460244b9cacc7f4a3df4c5281).
 
 A menos que se indique lo contrario, todos los atributos de material son opcionales, con valores predeterminados adecuados.
 
