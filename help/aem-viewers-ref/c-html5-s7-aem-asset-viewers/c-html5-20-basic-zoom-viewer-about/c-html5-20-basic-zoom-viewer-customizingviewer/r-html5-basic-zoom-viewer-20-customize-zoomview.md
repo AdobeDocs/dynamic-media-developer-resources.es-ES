@@ -1,18 +1,21 @@
 ---
 description: La vista principal consiste en la imagen ampliable.
 seo-description: La vista principal consiste en la imagen ampliable.
-seo-title: vista de zoom
+seo-title: Vista de zoom
 solution: Experience Manager
-title: vista de zoom
+title: Vista de zoom
 topic: Dynamic media
 uuid: 06464e36-8c9c-4d3c-b4e5-5911f002568c
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '173'
+ht-degree: 3%
 
 ---
 
 
-# Zoom view{#zoom-view}
+# Vista de zoom{#zoom-view}
 
 La vista principal consiste en la imagen ampliable.
 
@@ -35,11 +38,11 @@ El aspecto del área de visualización se controla con el siguiente selector de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Color de fondo en formato hexadecimal de la vista principal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cursor </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cursor  </span> </p> </td> 
    <td colname="col2"> <p>El cursor se muestra sobre la vista principal. </p> </td> 
   </tr> 
  </tbody> 
@@ -53,7 +56,7 @@ Ejemplo: para que la vista principal sea transparente.
 }
 ```
 
-En sistemas de escritorio, el componente admite el selector de `cursortype` atributos que se puede aplicar a la `.s7zoomview` clase y controla el tipo de cursor en función del estado del componente y la acción del usuario. The following `cursortype` values are supported:
+En los sistemas de escritorio, el componente admite el selector de atributos `cursortype` que se puede aplicar a la clase `.s7zoomview` y controla el tipo de cursor en función del estado del componente y la acción del usuario. Se admiten los siguientes valores `cursortype`:
 
 <table id="table_BC9FC40DA27B4A85995F4E9431AABF33"> 
  <thead> 
@@ -68,7 +71,7 @@ En sistemas de escritorio, el componente admite el selector de `cursortype` atri
    <td colname="col2"> <p>Se muestra cuando la imagen no se puede ampliar debido a una pequeña resolución de imagen, a una configuración de componente o a ambos. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomina </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zoomina  </span> </p> </td> 
    <td colname="col2"> <p>Se muestra cuando se puede ampliar la imagen. </p> </td> 
   </tr> 
   <tr> 
