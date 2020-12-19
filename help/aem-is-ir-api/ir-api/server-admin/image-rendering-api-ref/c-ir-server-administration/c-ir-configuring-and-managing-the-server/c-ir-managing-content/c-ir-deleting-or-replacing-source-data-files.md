@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# Eliminación o reemplazo de archivos de datos de origen{#deleting-or-replacing-source-data-files}
+# Eliminando o reemplazando archivos de datos de origen{#deleting-or-replacing-source-data-files}
 
 Los archivos de viñeta se pueden reemplazar o eliminar mientras el servidor esté activo mediante el comando req=release justo antes de que se sobrescriba el archivo.
 
