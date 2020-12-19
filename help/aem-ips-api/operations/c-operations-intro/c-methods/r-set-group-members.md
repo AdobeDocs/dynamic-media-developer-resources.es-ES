@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: fe6585ef-a4b3-4b3c-95d0-624017650497
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '139'
+ht-degree: 8%
 
 ---
 
@@ -30,7 +33,7 @@ La operación genera un error de autenticación si no tiene privilegios para rea
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sí | Identificador de Compañía. |
+| ` *`companyHandle`*` | `xsd:string` | Sí | Identificador de compañía. |
 | ` *`groupHandle`*` | `xsd:string` | Sí | Identificador de grupo. |
 | ` *`userHandleArray`*` | `types:HandleArray` | Sí | Matriz de identificadores para usuarios cuya pertenencia a grupos desea establecer. |
 
