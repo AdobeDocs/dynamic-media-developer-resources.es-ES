@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 3a076ff8-2da5-4020-8a77-8f5a256afefe
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '105'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +36,7 @@ El aspecto de las regiones de resultados de búsqueda se controla con el siguien
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> fondo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> fondo  </span> </p> </td> 
    <td colname="col2"> <p>Fondo de la región de resultados de búsqueda. </p> </td> 
   </tr> 
  </tbody> 
