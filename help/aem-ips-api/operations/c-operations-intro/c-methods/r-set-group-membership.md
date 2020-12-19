@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 3285fab0-92e4-4b88-9a3c-88cbb97d48c9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '103'
+ht-degree: 12%
 
 ---
 
@@ -31,7 +34,7 @@ Sintaxis
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
 | ` *`userHandle`*` | `xsd:string` | No | El identificador del usuario cuya pertenencia a un grupo desea establecer. |
-| ` *`companyHandle`*` | `xsd:string` | No | Identificador de Compañía. |
+| ` *`companyHandle`*` | `xsd:string` | No | Identificador de compañía. |
 | ` *`groupHandleArray`*` | `types:HandleArray` | Sí | Matriz de identificadores a grupos a los que pertenece el usuario. |
 
 **Output (setGroupMembershipReturn)**
