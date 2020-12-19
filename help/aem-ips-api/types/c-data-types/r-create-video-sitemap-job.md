@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 85db2e47-ee15-4fdd-a8e2-bb45078f814a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,9 +33,9 @@ Sintaxis
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> forceUpdate</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> forceUpdate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">Genera el mapa del sitio cuando se establece en <span class="codeph"> true</span>. <p><p>Nota: Si la Configuración de generación de mapas del sitio está configurada en manual y <span class="codeph"> forceUpdate</span> no está configurada, no se generará el mapa del sitio. </p></p></td> 
+   <td colname="col3">Genera el mapa del sitio cuando se establece en <span class="codeph"> true</span>. <p><p>Nota: Si la Configuración de generación de mapas de sitio está configurada en manual y <span class="codeph"> forceUpdate</span> no está configurada, no se generará el mapa del sitio. </p></p></td> 
   </tr> 
  </tbody> 
 </table>
