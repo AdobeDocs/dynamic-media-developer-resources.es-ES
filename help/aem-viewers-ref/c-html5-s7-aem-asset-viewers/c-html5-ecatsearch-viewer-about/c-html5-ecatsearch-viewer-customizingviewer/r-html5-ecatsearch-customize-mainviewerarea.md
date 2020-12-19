@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 2ad21319-7a0e-44fd-8866-3055e8ff8913
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '145'
+ht-degree: 2%
 
 ---
 
@@ -43,13 +46,13 @@ El aspecto del área de visualización se controla con el siguiente selector de 
    <td colname="col2"> <p>Altura del visor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Color de fondo en formato hexadecimal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ejemplo: para configurar un visor con un fondo blanco ( `#FFFFFF`) y lograr un tamaño de 512 x 288 píxeles.
+Ejemplo: para configurar un visor con un fondo blanco ( `#FFFFFF`) y hacer que su tamaño sea de 512 x 288 píxeles.
 
 ```
 .s7ecatalogsearchviewer { 
