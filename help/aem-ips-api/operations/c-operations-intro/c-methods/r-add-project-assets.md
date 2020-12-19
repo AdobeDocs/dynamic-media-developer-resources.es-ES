@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 48abea17-058e-4469-bb16-0abee8ef5214
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -49,7 +52,7 @@ Sintaxis
 
 ## Ejemplos {#section-bee5be2402f54cb9a3a02cc07def4135}
 
-En este ejemplo se agrega un solo recurso (al que hace referencia su identificador) en una matriz de controladores de recursos a un proyecto especificado en la solicitud. La operación se completó correctamente cuando la respuesta `successCount` regresa `1`.
+En este ejemplo se agrega un solo recurso (al que hace referencia su identificador) en una matriz de controladores de recursos a un proyecto especificado en la solicitud. La operación se completó correctamente cuando la respuesta `successCount` devuelve `1`.
 
 **Solicitar**
 
