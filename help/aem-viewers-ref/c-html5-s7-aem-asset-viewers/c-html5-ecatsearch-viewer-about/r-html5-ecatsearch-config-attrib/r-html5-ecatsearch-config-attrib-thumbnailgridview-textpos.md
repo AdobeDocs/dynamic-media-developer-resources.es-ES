@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: d38c614b-01ed-4fad-a510-30386ac9a63d
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td> <p> Especifica dónde se dibuja la etiqueta en relación con la imagen en miniatura. Es decir, la etiqueta se centra en la ubicación especificada en relación con la miniatura. </p> <p>Cuando se especifica <span class="codeph"> información sobre</span> herramientas, el texto de la etiqueta se muestra como información de objeto flotante sobre la imagen en miniatura. Establezca en <span class="codeph"> ninguno</span> para desactivar la etiqueta. </p> </td> 
+   <td> <p> Especifica dónde se dibuja la etiqueta en relación con la imagen en miniatura. Es decir, la etiqueta se centra en la ubicación especificada en relación con la miniatura. </p> <p>Cuando se especifica <span class="codeph"> tooltip</span>, el texto de la etiqueta se muestra como información de objeto flotante sobre la imagen en miniatura. Establezca <span class="codeph"> none</span> para desactivar la etiqueta. </p> </td> 
   </tr> 
  </tbody> 
 </table>
