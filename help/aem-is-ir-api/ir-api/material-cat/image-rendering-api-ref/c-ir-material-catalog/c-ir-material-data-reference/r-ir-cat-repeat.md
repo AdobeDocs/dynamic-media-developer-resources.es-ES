@@ -3,11 +3,14 @@ description: Modo de repetición de textura. Especifica cómo se segmentan las i
 seo-description: Modo de repetición de textura. Especifica cómo se segmentan las imágenes de textura para rellenar la superficie del destinatario.
 seo-title: Repeat
 solution: Experience Manager
-title: Repeat
+title: Repetir
 topic: Scene7 Image Serving - Image Rendering API
 uuid: bd15a573-9902-4672-992d-90d171160a46
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -57,7 +60,7 @@ Se permiten los siguientes valores para los materiales de textura repetitivos:
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>8 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Se cuelga el papel tapiz de la marcha atrás. </p></td> 
+  <td class="- topic/stentry stentry"> <p>El papel tapiz de reverso está colgado. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>9 </p></td> 
