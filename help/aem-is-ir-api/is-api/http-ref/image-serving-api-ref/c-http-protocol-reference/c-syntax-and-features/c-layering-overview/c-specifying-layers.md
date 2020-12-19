@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 86ece2a6-5b91-4a24-baaa-542d9ae1e544
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,4 +21,4 @@ En la secuencia de comandos URL o catálogo::Modifier, una secuencia de definici
 
 Todos los comandos de la secuencia de definición de capa están asociados a la capa.
 
-El `layer=` comando especifica un número de capa, que debe ser un número entero 0 o mayor. Todos los comandos de las secuencias de definición de capa con el mismo número de capa se aplican a la misma capa. Si el mismo comando se produce más de una vez, prevalecerá la última instancia.
+El comando `layer=` especifica un número de capa, que debe ser un número entero 0 o mayor. Todos los comandos de las secuencias de definición de capa con el mismo número de capa se aplican a la misma capa. Si el mismo comando se produce más de una vez, prevalecerá la última instancia.
