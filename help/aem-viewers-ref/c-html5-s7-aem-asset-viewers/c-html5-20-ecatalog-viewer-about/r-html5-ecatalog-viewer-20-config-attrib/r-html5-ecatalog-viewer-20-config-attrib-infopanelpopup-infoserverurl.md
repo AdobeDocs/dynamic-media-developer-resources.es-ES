@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 0d0f2fd8-b3fc-46fd-8720-9c4c51db9646
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '194'
+ht-degree: 3%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> infoserverurl</span></span> </p> </td> 
-   <td> <p>La plantilla URL del servidor de información se utiliza para recuperar pares de clave/valor para la sustitución de variables en la plantilla de contenido del panel de información. La plantilla especificada suele contener marcadores de posición de macro que se reemplazan con los datos reales antes de que la solicitud se envíe al servidor. </p> <p><span class="codeph"> $1$</span> se sustituye por el valor de rollover que activó la activación <span class="codeph"> InfoPanelPopup</span> . </p> <p><span class="codeph"> $2$</span> se sustituye por el número de secuencia del fotograma actual en el conjunto de imágenes. </p> <p><span class="codeph"> $3$</span> se sustituye por el primer elemento de ruta especificado en el nombre del conjunto principal del elemento actual. Normalmente corresponde al ID del catálogo. </p> <p><span class="codeph"> $4$</span> se sustituye por el siguiente elemento en la ruta y corresponde al ID del recurso. La sintaxis real de la solicitud del servidor de información depende del servidor de información y difiere de un servidor a otro. Por ejemplo, la siguiente es una plantilla de solicitud típica de servidor de información de Scene7: </p> <p><span class="codeph"> http://server_domain/s7info/s7/$3$/$4$/$1$</span> </p> </td> 
+   <td> <p>La plantilla URL del servidor de información se utiliza para recuperar pares de clave/valor para la sustitución de variables en la plantilla de contenido del panel de información. La plantilla especificada suele contener marcadores de posición de macro que se reemplazan con los datos reales antes de que la solicitud se envíe al servidor. </p> <p><span class="codeph"> $1$</span> se reemplaza por el valor de rollover que activó  <span class="codeph"> </span> InfoPanelPopupactivation. </p> <p><span class="codeph"> $2$</span> se sustituye por el número de secuencia del fotograma actual en el conjunto de imágenes. </p> <p><span class="codeph"> $3$</span> se sustituye por el primer elemento de ruta especificado en el nombre del conjunto principal del elemento actual. Normalmente corresponde al ID del catálogo. </p> <p><span class="codeph"> $4$</span> se sustituye por el siguiente elemento en la ruta y corresponde al ID del recurso. La sintaxis real de la solicitud del servidor de información depende del servidor de información y difiere de un servidor a otro. Por ejemplo, la siguiente es una plantilla de solicitud típica del servidor de información de Scene7: </p> <p><span class="codeph"> http://server_domain/s7info/s7/$3$/$4$/$1$</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
