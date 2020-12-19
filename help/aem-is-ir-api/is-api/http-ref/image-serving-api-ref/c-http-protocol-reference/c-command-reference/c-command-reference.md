@@ -8,29 +8,32 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 72c4ed61-3436-4df5-b586-77808fb1903a
 translation-type: tm+mt
 source-git-commit: c5bac2c6e3f3a05bf69924072c4305dbd7ba1f4f
+workflow-type: tm+mt
+source-wordcount: '224'
+ht-degree: 10%
 
 ---
 
 
-# Referencia de comandos{#command-reference}
+# Referencia de comando{#command-reference}
 
 Esta sección describe los comandos del protocolo HTTP.
 
-**Solo** para Dynamic Media en AEM: Más allá de los ajustes de imagen básicos disponibles en la interfaz de usuario, [!DNL Dynamic Media] en AEM ( [!DNL Adobe Experience Manager]) admite numerosas modificaciones de imagen avanzadas que se pueden especificar en el campo Modificadores **de** imagen. Estos parámetros se definen a continuación. Sin embargo, tenga en cuenta que las siguientes funciones no son compatibles con Dynamic Media en AEM.
+**Solo** para Dynamic Media en AEM: Más allá de los ajustes de imagen básicos disponibles en la interfaz de usuario,  [!DNL Dynamic Media] en AEM (  [!DNL Adobe Experience Manager]) admite numerosas modificaciones de imagen avanzadas que se pueden especificar en el campo  **Modificador de** imagen. Estos parámetros se definen a continuación. Sin embargo, tenga en cuenta que Dynamic Media no admite la siguiente funcionalidad en AEM.
 
 * Comandos de corrección de color: `icc=` y `iccEmbed=`.
 * Comandos básicos de creación de plantillas y procesamiento de texto: `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` y `textPs=`.
-* Comandos de Localización: `locale=` y `req=xlate`.
+* Comandos de localización: `locale=` y `req=xlate`.
 * `req=set` no está disponible para uso general.
 * `req=mbrset`
 * `req=saveToFile`
 * `req=targets`
 * `template=`
-* Servicios de Dynamic Media no principales: SVG, procesamiento de imágenes e impresión virtual.
+* Servicios no principales de Dynamic Media: SVG, procesamiento de imágenes e impresión virtual.
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-Consulte también Opciones [de ajustes preestablecidos de](https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/managing-image-presets.html#image-preset-options) imagen de Dynamic Media en la documentación de AEM 6.5.
+Consulte también las [Opciones de ajustes preestablecidos de imagen](https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/managing-image-presets.html#image-preset-options) de Dynamic Media en la documentación de AEM 6.5.
 
 * [align](r-align.md)
 * [delimitador](r-anchor.md)
