@@ -32,9 +32,9 @@ Se redirigen los siguientes tipos de solicitudes:
 
 La redirección de errores no se producirá en ningún otro caso.
 
-Cuando se habilita y se produce un error de este tipo durante el procesamiento de la solicitud, el servidor primario enviará la solicitud al servidor secundario para su procesamiento. La respuesta, independientemente de si indica éxito o fracaso, se reenvía directamente al cliente. El servidor principal marca las entradas de registro de dichas solicitudes reenviadas con el uso de la caché `REMOTE`. El servidor primario no almacena en caché localmente los datos de respuesta.
+Cuando se habilita y se produce un error de este tipo durante el procesamiento de la solicitud, el servidor primario enviará la solicitud al servidor secundario para su procesamiento. La respuesta, independientemente de si indica éxito o fracaso, se reenvía directamente al cliente. El servidor primario marca las entradas de registro de dichas solicitudes reenviadas con el uso de caché `REMOTE`. El servidor primario no almacena en caché localmente los datos de respuesta.
 
-La redirección de errores se habilita al establecer `PS::errorRedirect.rootUrl` el nombre de dominio HTTP y el número de puerto del servidor secundario. Además, el tiempo de espera de conexión se configura con `PS::errorRedirect.connectTimeout` y el tiempo máximo que el servidor primario espera una respuesta del servidor secundario antes de devolver un error al cliente se configura con `PS::errorRedirect.socketTimeout`.
+La redirección de errores está habilitada al establecer `PS::errorRedirect.rootUrl` en el nombre de dominio HTTP y el número de puerto del servidor secundario. Además, el tiempo de espera de conexión se configura con `PS::errorRedirect.connectTimeout` y el tiempo máximo que el servidor primario espera una respuesta del servidor secundario antes de devolver un error al cliente se configura con `PS::errorRedirect.socketTimeout`.
 
 >[!NOTE]
 >
