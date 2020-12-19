@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 9c664bde-a731-4d6b-ae6b-c862bda02d4c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,27 +33,27 @@ Sintaxis
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandleArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:HandleArray</span> </td> 
    <td colname="col3">Matriz de controladores de recursos utilizados para crear el conjunto. <p>De forma predeterminada, 1000 es el número máximo de recursos que puede tener en la matriz. </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> destFolder</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> destFolder</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ruta a la carpeta en la que desea guardar los conjuntos. Se guarda en la carpeta raíz de la compañía de forma predeterminada. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> readyForPublish</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> readyForPublish</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> Define un indicador para indicar si los recursos deben publicarse o no. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> autoSetCreationOptions</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> autoSetCreationOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:AutoSetCreationOptions</span> </td> 
    <td colname="col3">Matriz de secuencias de comandos de generación definidas que se pueden ejecutar en los archivos cargados. Consulte <a href="../../types/c-data-types/r-auto-set-creation-options.md#reference-58b42b39e53345aeb87cd1adc864e7ff" format="dita" scope="local"> AutoSetCreationOptions</a></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> emailSetting</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> emailSetting</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Configure una notificación de correo electrónico automatizada para el trabajo. </p> </td> 
   </tr> 
@@ -59,7 +62,7 @@ Sintaxis
 
 **opciones de configuración de correo electrónico**
 
-El `emailSetting` parámetro incluye las siguientes opciones:
+El parámetro `emailSetting` incluye las siguientes opciones:
 
 | Opción | Devuelve |
 |---|---|
