@@ -8,35 +8,38 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 49aa0861-9b03-4a62-8604-67e6cb7a621f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Proxy del servidor de imágenes{#image-server-proxy}
+# Proxy de servidor de imágenes{#image-server-proxy}
 
 Se puede utilizar un proxy de servidor de imágenes para cambiar el tamaño de las imágenes de los teléfonos japoneses.
 
 ## Formato URL {#section-2e8c40b0547c4f99874cdf502b338940}
 
-El formato de URL para el proxy IS es muy similar al de las solicitudes IS normales. Los modificadores IS que se pasan al proxy se pasan al servidor de imágenes. Puede encontrar información sobre los modificadores IS en la Referencia [de protocolo](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-introduction.md#concept-dbbd5241bc6248ad9b9d7f6c635c311e)HTTP.
+El formato de URL para el proxy IS es muy similar al de las solicitudes IS normales. Los modificadores IS que se pasan al proxy se pasan al servidor de imágenes. Puede encontrar información sobre los modificadores IS en la [Referencia del protocolo HTTP](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-introduction.md#concept-dbbd5241bc6248ad9b9d7f6c635c311e).
 
 `http://<server>/is-proxy/image/<company><asset>?<modifiers>`
 
 `http://<server>/is-proxy/image/sample/chair?qlt=75`
 
-## lista de modificador específica de proxy {#section-1bff28f9cf5b4e04a31308b06176ee5f}
+## Lista de modificador específica de proxy {#section-1bff28f9cf5b4e04a31308b06176ee5f}
 
 <table id="simpletable_40C1DFB183B54A79BCF65D51ED480CE0"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> widpercent = &lt;número&gt;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> widpercent =  &lt;number&gt;</span> </p></td> 
   <td class="stentry"> <p>Especifica el porcentaje del ancho utilizable del dispositivo para utilizarlo como ancho de imagen. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> heipercent = &lt;número&gt;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> heipercent =  &lt;number&gt;</span> </p></td> 
   <td class="stentry"> <p>Especifica el porcentaje de la altura utilizable del dispositivo para utilizarlo como altura de imagen. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> sizepercent = &lt;número&gt;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> sizepercent =  &lt;number&gt;</span> </p></td> 
   <td class="stentry"> <p>Especifica el porcentaje de la propiedad de medios incrustados de límite de memoria del dispositivo para limitar el tamaño de respuesta a. Esto solo se aplicará a las respuestas jpg. La calidad de la imagen se reducirá hasta que el tamaño de respuesta esté dentro del porcentaje especificado. </p></td> 
  </tr> 
 </table>
