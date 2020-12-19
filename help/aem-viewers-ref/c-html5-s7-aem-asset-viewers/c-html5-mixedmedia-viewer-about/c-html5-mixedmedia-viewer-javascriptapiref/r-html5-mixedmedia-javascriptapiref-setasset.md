@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 8c341a8a-25b5-4db9-ad1a-919ded79f2ed
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,17 +21,17 @@ Referencia de la API de JavaScript para el visor de medios mixtos.
 
 ` setAsset( *`asset`*[,data]))`
 
-Establece el nuevo recurso y los datos adicionales opcionales del recurso. Puede llamar a este parámetro en cualquier momento, ya sea antes o después `init()`. Si se llama después `init()`, el visor intercambia el recurso en tiempo de ejecución.
+Establece el nuevo recurso y los datos adicionales opcionales del recurso. Puede llamar a este parámetro en cualquier momento, ya sea antes o después de `init()`. Si se llama después de `init()`, el visor intercambia el recurso en tiempo de ejecución.
 
 Consulte también [init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae).
 
 ## Parámetros {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-` *`recurso`*` : { `String`} nuevo ID de recurso o conjunto de medios mixtos explícito, con los modificadores opcionales de servicio de imágenes añadidos después `?`.
+` *`recurso`*` : { `String`} nuevo ID de recurso o conjunto de medios mixtos explícito, con los modificadores opcionales de servicio de imágenes añadidos después  `?`.
 
 Este visor no admite las imágenes que utilizan IR (procesamiento de imágenes) o UGC (contenido generado por el usuario).
 
-` *`data`*` : { `JSON`} ubicación del nuevo archivo de rótulo.
+` *`data`*` - { `JSON`} ubicación del nuevo archivo de rótulo.
 
 Si no se especifica, el botón de rótulo no está visible en la interfaz de usuario. Los rótulos especificados con este parámetro se aplican al vídeo que aparece primero en el conjunto de medios mixtos; los vídeos subsiguientes se reproducen sin rótulos. Este visor admite los siguientes ID de componente:
 
@@ -41,17 +44,17 @@ Si no se especifica, el botón de rótulo no está visible en la interfaz de usu
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posterimage </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posterimage  </span> </p> </td> 
    <td colname="col2"> <p>Imagen que se muestra en el primer fotograma antes de que se reproduzca el inicio del vídeo. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-posterimage.md#reference-f424ad0f278b4d14b86ea55e3a73c52b" format="dita" scope="local"> VideoPlayer.posterimage </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> caption </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> caption  </span> </p> </td> 
    <td colname="col2"> <p> Ubicación del nuevo archivo de subtítulos. </p> <p>Si no se especifica, el botón de rótulo no está visible en la interfaz de usuario. Los rótulos especificados con este parámetro se aplican al vídeo que aparece primero en el conjunto de medios. Los vídeos posteriores se reproducen sin subtítulos. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Returns {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Devuelve {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 Ninguno.
 
