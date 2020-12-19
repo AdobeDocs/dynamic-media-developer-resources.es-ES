@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 632ae721-7b39-4cd1-a1c6-1a3554167a4e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '56'
+ht-degree: 12%
 
 ---
 
@@ -30,12 +33,12 @@ Sintaxis
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> esquina</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> corner</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Selección de la esquina de recorte automático. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> tolerancia</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> tolerancia</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:doble</span> </td> 
    <td colname="col3">Especificación de coincidencia de color. Usos: 
     <ul id="ul_FE5423B857AE43FCBA7A9AEA76C754CC">
