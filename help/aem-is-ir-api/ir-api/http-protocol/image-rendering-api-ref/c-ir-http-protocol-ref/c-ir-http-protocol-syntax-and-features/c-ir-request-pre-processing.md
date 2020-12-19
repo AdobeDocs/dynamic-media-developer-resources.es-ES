@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: ef69ea23-753c-40c8-9edd-eab9c8820c98
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '226'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ Las reglas de preprocesamiento de solicitudes pueden modificar la ruta y las par
 
 Las reglas de preprocesamiento de solicitudes son adecuadas para una variedad de aplicaciones, algunas de las cuales se enumeran a continuación:
 
-* Implemente un mecanismo de rutas ** virtuales que permita reasignar la ruta de solicitud a las rutas de archivo, FTP y HTTP.
+* Implementar un mecanismo *paths virtuales*, que permite reasignar la ruta de la solicitud a las rutas de archivo, FTP y HTTP.
 * No permitir el uso de comandos con uso intensivo de CPU para evitar el uso indebido del servidor.
 * Controle los ajustes de calidad de imagen (como la calidad JPEG o el enfoque) en función de la ruta de acceso de la solicitud o del nombre de la imagen.
 
