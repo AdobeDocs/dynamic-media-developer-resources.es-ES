@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: a6ff5642-6716-484f-b37e-066994362a9b
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '342'
+ht-degree: 1%
 
 ---
 
@@ -25,11 +28,11 @@ Las macros de comandos proporcionan accesos directos con nombre para conjuntos d
  </tr> 
 </table>
 
-` *`name`*` no distingue entre mayúsculas y minúsculas y puede constar de cualquier combinación de letras ASCII, números , &#39;-&#39;, &#39;_&#39; y &#39;.&#39; caracteres.
+` *`El `*` nombre no distingue entre mayúsculas y minúsculas y puede constar de cualquier combinación de letras ASCII, números , &#39;-&#39;, &#39;_&#39; y &#39;.&#39; caracteres.
 
-Las macros se pueden invocar en cualquier parte de una solicitud después de &#39;?&#39;, así como en cualquier parte dentro de un `catalog::Modifier` campo o `catalog::PostModifier` campo. Las macros solo pueden representar uno o más comandos completos del servicio de imágenes y deben separarse de otros comandos con separadores &#39;&amp;&#39;.
+Las macros se pueden invocar en cualquier parte de una solicitud después de &#39;?&#39;, así como en cualquier parte dentro de un campo `catalog::Modifier` o `catalog::PostModifier`. Las macros solo pueden representar uno o más comandos completos del servicio de imágenes y deben separarse de otros comandos con separadores &#39;&amp;&#39;.
 
-Las invocaciones de macro se sustituyen por sus cadenas de sustitución en un principio durante el análisis. Los comandos dentro de las macros anularán los mismos comandos en la solicitud si se producen antes de la invocación de macro en la solicitud. Esto es diferente a `catalog::Modifier`, donde los comandos de la cadena de solicitud siempre sobrescribirán los comandos de la `catalog::Modifier` cadena, independientemente de la posición en la solicitud.
+Las invocaciones de macro se sustituyen por sus cadenas de sustitución en un principio durante el análisis. Los comandos dentro de las macros anularán los mismos comandos en la solicitud si se producen antes de la invocación de macro en la solicitud. Esto es diferente a `catalog::Modifier`, donde los comandos de la cadena de solicitud siempre sobrescribirán los comandos de la cadena `catalog::Modifier`, independientemente de la posición en la solicitud.
 
 Las macros de comandos no pueden tener valores de argumento, pero se pueden utilizar variables personalizadas para pasar valores de la solicitud a la macro.
 
@@ -49,8 +52,8 @@ La macro se utilizaría de la siguiente manera:
 
 `http://server/cat/1345?$view$ http://server/cat/1435?$view$ http://server/cat/8243?$view$&wid=480`
 
-Dado que `wid=` es diferente para la tercera solicitud, simplemente anulamos el valor *después* de invocar la macro (especificando `wid=`*antes *`$view$`de que no tenga ningún efecto).
+Dado que `wid=` es diferente para la tercera solicitud, simplemente anulamos el valor *después de que se invoque* la macro (especificar `wid=`*antes* `$view$` no tendría ningún efecto).
 
 ## Véase también {#section-8cdba0ed2480444ca61e719e54f8871c}
 
-[catálogo::MacroFile](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-macrofile.md#reference-f91d717b3847458ca0f1fe95387554a2) , [catálogo::Modificador](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-modifier-cat.md), Referencia de definición de [macro](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-macro-definition-reference/c-macro-definition-reference.md#concept-5ec73f7636c1496fba1e94094e694e79)
+[catálogo::MacroFile](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-macrofile.md#reference-f91d717b3847458ca0f1fe95387554a2) ,  [catálogo::Modificador](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-modifier-cat.md), Referencia de definición de  [macro](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-macro-definition-reference/c-macro-definition-reference.md#concept-5ec73f7636c1496fba1e94094e694e79)
