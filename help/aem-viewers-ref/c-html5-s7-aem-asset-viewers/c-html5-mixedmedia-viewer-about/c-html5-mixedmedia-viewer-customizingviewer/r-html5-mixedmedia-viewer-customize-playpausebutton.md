@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: a02499da-e2d9-465f-b198-4b2221f3502b
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '284'
+ht-degree: 2%
 
 ---
 
@@ -55,11 +58,11 @@ El siguiente selector de clase CSS controla el aspecto del botón:
    <td colname="col2"> <p>Altura del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Imagen que se muestra para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -67,11 +70,11 @@ El siguiente selector de clase CSS controla el aspecto del botón:
 
 >[!NOTE]
 >
->Este botón admite los selectores `state`, `selected`y `replay` de atributos, que se pueden utilizar para aplicar diferentes apariencias a distintos estados de botón. En particular, `selected='true'` corresponde al estado &quot;play&quot; y `selected='false'` corresponde al estado &quot;pause&quot;;
+>Este botón admite los selectores de atributos `state`, `selected` y `replay`, que se pueden utilizar para aplicar diferentes apariencias a distintos estados de botones. En particular, `selected='true'` corresponde al estado &quot;play&quot; y `selected='false'` corresponde al estado &quot;pause&quot;;
 >
 >`replay='true'` se configura cuando el vídeo ha llegado al final y al hacer clic en el botón se reinicia la reproducción desde el principio.
 
-La información de objeto del botón se puede localizar. Consulte [Localización de los elementos](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) de la interfaz de usuario para obtener más información.
+La información de objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obtener más información.
 
 ## Ejemplo {#section-e8caea0a303c425a8a637c2a47c06355}
 
