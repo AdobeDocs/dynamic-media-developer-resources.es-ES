@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: feb2faf3-81de-436e-82de-1e41df03508f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +33,7 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sí | Identificador de Compañía. |
+| ` *`companyHandle`*` | `xsd:string` | Sí | Identificador de compañía. |
 | ` *`assetHandle`*` | `xsd:string` | Sí | Identificador de recurso. |
 | ` *`updateArray`*` | `types:PermissionUpdateArray` | Sí | Permisos que desea aplicar al recurso. |
 
