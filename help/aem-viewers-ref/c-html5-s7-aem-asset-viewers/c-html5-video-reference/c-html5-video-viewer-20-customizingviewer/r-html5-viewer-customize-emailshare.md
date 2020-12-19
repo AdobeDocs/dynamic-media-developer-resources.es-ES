@@ -1,6 +1,6 @@
 ---
 description: La herramienta para compartir correo electrónico consiste en un botón agregado al panel Compartir en redes sociales y el cuadro de diálogo modal, que se muestra cuando se activa la herramienta. La posición del botón la gestiona completamente la herramienta Compartir en Social.
-seo-description: La herramienta para compartir correo electrónico consta de un botón agregado al panel Compartir en redes sociales y el cuadro de diálogo modal, que se muestra cuando se activa la herramienta. La posición del botón la gestiona completamente la herramienta Compartir en Social.
+seo-description: La herramienta para compartir correo electrónico consiste en un botón agregado al panel Compartir en redes sociales y el cuadro de diálogo modal, que se muestra cuando se activa la herramienta. La posición del botón la gestiona completamente la herramienta Compartir en Social.
 seo-title: Uso compartido de correo electrónico
 solution: Experience Manager
 title: Uso compartido de correo electrónico
@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 4c6abb74-7e13-4fed-bbfb-45e388627578
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -37,21 +40,21 @@ El aspecto del botón para compartir correo electrónico se controla con el sigu
    <td colname="col2"> <p>Altura del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Imagen que se muestra para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Este botón admite el selector de `state` atributos, que se puede utilizar para aplicar diferentes apariencias a diferentes estados de botón.
+Este botón admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes apariencias a distintos estados de botones.
 
-Es posible quitar el botón del panel Compartir en Social estableciendo la propiedad CSS en su clase CSS `display:none` .
+Es posible quitar el botón del panel Compartir en Social estableciendo la propiedad `display:none` CSS en su clase CSS.
 
-La información de objeto del botón se puede localizar. Consulte [Localización de los elementos](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) de la interfaz de usuario para obtener más información.
+La información de objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
 
 Ejemplo: para configurar un botón de uso compartido de correo electrónico de 28 x 28 píxeles y que muestre una imagen diferente para cada uno de los cuatro estados de botón diferentes.
 
@@ -85,11 +88,11 @@ La superposición de fondo que cubre la página web cuando el cuadro de diálogo
 <table id="table_1A0C28D8C81D413C83D73DEAC53057C5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opacidad </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opacidad  </span> </p> </td> 
    <td colname="col2"> <p> Opacidad de superposición de fondo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Color de superposición de fondo. </p> </td> 
   </tr> 
  </tbody> 
@@ -115,19 +118,19 @@ De forma predeterminada, el cuadro de diálogo modal se muestra centrado en la p
 <table id="table_5272BC8EF9124018B4290356B95B5559"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p> Radio del borde del cuadro de diálogo (en caso de que el cuadro de diálogo no utilice toda la ventana del explorador); </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Color de fondo del cuadro de diálogo; </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p> Se debe desactivar o establecer en 100 %, en cuyo caso el cuadro de diálogo ocupa toda la ventana del navegador (este modo es preferible en dispositivos táctiles); </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p> Se debe desactivar o establecer en 100 %, en cuyo caso el cuadro de diálogo toma toda la ventana del navegador (este modo es preferible en dispositivos táctiles). </p> </td> 
   </tr> 
  </tbody> 
@@ -188,19 +191,19 @@ El icono de encabezado se controla con el siguiente selector de clase CSS
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Ancho del icono. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altura del icono. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Imagen de icono. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -217,15 +220,15 @@ El título del encabezado se controla con el siguiente selector de clase CSS:
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-peso </span> </p> </td> 
-   <td colname="col2"> <p>peso de fuentes. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-peso  </span> </p> </td> 
+   <td colname="col2"> <p>Peso de fuentes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Altura de fuente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Familia de fuentes. </p> </td> 
   </tr> 
   <tr> 
@@ -254,11 +257,11 @@ El botón Cerrar se controla con el siguiente selector de clase CSS:
    <td colname="col2"> <p> Posición horizontal del botón con respecto al contenedor del encabezado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Ancho del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altura del botón. </p> </td> 
   </tr> 
   <tr> 
@@ -266,11 +269,11 @@ El botón Cerrar se controla con el siguiente selector de clase CSS:
    <td colname="col2"> <p>Relleno interior del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Imagen de botón para cada estado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -278,9 +281,9 @@ El botón Cerrar se controla con el siguiente selector de clase CSS:
 
 >[!NOTE]
 >
->Este botón admite el selector de `state` atributos, que se puede utilizar para aplicar diferentes apariencias a diferentes estados de botón.
+>Este botón admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes apariencias a distintos estados de botones.
 
-Se pueden localizar la información del botón Cerrar y el título del cuadro de diálogo. Consulte [Localización de los elementos](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) de la interfaz de usuario para obtener más información.
+Se pueden localizar la información del botón Cerrar y el título del cuadro de diálogo. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
 
 Ejemplo: para configurar el encabezado del cuadro de diálogo con relleno, icono de 24 x 17 píxeles, título de 16 puntos en negrita y botón de cierre de 28 x 28 píxeles colocado 2 píxeles desde la parte superior y 2 píxeles desde la derecha del contenedor de diálogo:
 
@@ -367,11 +370,11 @@ El botón Cancelar se controla con el siguiente selector de clase CSS:
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Ancho del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altura del botón. </p> </td> 
   </tr> 
   <tr> 
@@ -379,7 +382,7 @@ El botón Cancelar se controla con el siguiente selector de clase CSS:
    <td colname="col2"> <p> Color del texto del botón para cada estado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Color de fondo del botón para cada estado. </p> </td> 
   </tr> 
  </tbody> 
@@ -387,7 +390,7 @@ El botón Cancelar se controla con el siguiente selector de clase CSS:
 
 >[!NOTE]
 >
->Este botón admite el selector de `state` atributos, que se puede utilizar para aplicar diferentes apariencias a diferentes estados de botón.
+>Este botón admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes apariencias a distintos estados de botones.
 
 El botón Enviar correo electrónico se controla con el siguiente selector de clase CSS:
 
@@ -400,19 +403,19 @@ El botón Enviar correo electrónico se controla con el siguiente selector de cl
 <table id="table_91C75B2470A24DC2AD3973A91FA8B325"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Ancho del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altura del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
    <td colname="col2"> <p> Color del texto del botón para cada estado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Color de fondo del botón para cada estado. </p> </td> 
   </tr> 
  </tbody> 
@@ -420,7 +423,7 @@ El botón Enviar correo electrónico se controla con el siguiente selector de cl
 
 >[!NOTE]
 >
->Este botón admite el selector de `state` atributos, que se puede utilizar para aplicar diferentes apariencias a diferentes estados de botón.
+>Este botón admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes apariencias a distintos estados de botones.
 
 Además, ambos botones comparten la misma clase CSS común que puede contener la configuración CSS que es la misma para otros botones de cuadro de diálogo:
 
@@ -433,35 +436,35 @@ Además, ambos botones comparten la misma clase CSS común que puede contener la
 <table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-peso </span> </p> </td> 
-   <td colname="col2"> <p>peso de fuente del botón. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-peso  </span> </p> </td> 
+   <td colname="col2"> <p>Peso de fuente del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Tamaño de fuente del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Familia de fuentes de botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> line-height  </span> </p> </td> 
    <td colname="col2"> <p> Altura del texto dentro del botón. Afecta a la alineación vertical. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> box-Shadow </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> box-Shadow  </span> </p> </td> 
    <td colname="col2"> <p>Sombra paralela. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-right  </span> </p> </td> 
    <td colname="col2"> <p>Margen del botón derecho. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-La información del objeto de botón se puede localizar. Consulte [Localización de los elementos](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) de la interfaz de usuario para obtener más información.
+La información del objeto de botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
 
-Ejemplo: para configurar un pie de página del cuadro de diálogo con el botón Cancelar 64 x 34 y un botón Enviar correo electrónico 82 x 34, con el color de texto y el color de fondo diferentes para cada estado del botón:
+Ejemplo: para configurar un pie de página del cuadro de diálogo con el botón Cancelar de 64 x 34 y un botón Enviar correo electrónico de 82 x 34, con el color de texto y el color de fondo diferentes para cada estado del botón:
 
 ```
 .s7videoviewer .s7emaildialog .s7dialogfooter { 
@@ -532,11 +535,11 @@ El área de diálogo principal (entre el encabezado y el pie de página) contien
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p> Altura del área del cuadro de diálogo principal. Solo debe especificarse cuando el cuadro de diálogo funciona en modo de escritorio. No es aplicable cuando el cuadro de diálogo está ajustado para ocupar toda la ventana del explorador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Color de fondo del área del cuadro de diálogo principal. </p> </td> 
   </tr> 
   <tr> 
@@ -548,7 +551,7 @@ El área de diálogo principal (entre el encabezado y el pie de página) contien
 
 >[!NOTE]
 >
->El área del cuadro de diálogo principal admite el selector de `state` atributos opcional. Se establece en `sendsuccess` cuando se envía el formulario de correo electrónico y el cuadro de diálogo muestra un mensaje de confirmación. Siempre que el mensaje de confirmación sea pequeño, este selector de atributos se puede utilizar para reducir la altura del cuadro de diálogo cuando se muestra dicho mensaje de confirmación.
+>El área del cuadro de diálogo principal admite el selector de atributos `state` opcional. Se establece en `sendsuccess` cuando se envía el formulario de correo electrónico y el cuadro de diálogo muestra un mensaje de confirmación. Siempre que el mensaje de confirmación sea pequeño, este selector de atributos se puede utilizar para reducir la altura del cuadro de diálogo cuando se muestra dicho mensaje de confirmación.
 
 Ejemplo: para configurar el área del cuadro de diálogo principal para que tenga una altura inicial de 300 píxeles y una altura de 100 píxeles cuando se muestre el mensaje de confirmación, tenga un margen de diez píxeles y utilice un fondo blanco:
 
@@ -628,25 +631,25 @@ Esta clase no es adecuada para controlar el tamaño o la posición de las etique
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-peso </span> </p> </td> 
-   <td colname="col2"> <p>peso de fuentes de etiquetas. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-peso  </span> </p> </td> 
+   <td colname="col2"> <p>Peso de fuentes de etiquetas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Tamaño de fuente de la etiqueta. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Familia de fuentes de etiquetas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
    <td colname="col2"> <p>Color del texto de la etiqueta. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Las etiquetas del cuadro de diálogo se pueden localizar. Consulte [Localización de los elementos](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) de la interfaz de usuario para obtener más información.
+Las etiquetas del cuadro de diálogo se pueden localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
 
 Ejemplo: para configurar todas las etiquetas para que sean grises, negrita con una fuente de nueve píxeles:
 
@@ -669,15 +672,15 @@ Todas las etiquetas estáticas que se muestran a la izquierda de los campos de e
 <table id="table_B5CF02837BAA42C7B79B6D9DA20792DF"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Ancho de la etiqueta estática. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> text-align  </span> </p> </td> 
    <td colname="col2"> <p>Alineación de texto horizontal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin  </span> </p> </td> 
    <td colname="col2"> <p>Margen de etiqueta estático. </p> </td> 
   </tr> 
   <tr> 
@@ -721,7 +724,7 @@ Cada campo de entrada de formulario se ajusta al contenedor, que le permite apli
 
 >[!NOTE]
 >
->El contenedor de campo de entrada admite el selector `state` de atributos opcional. Se establece en `verifyerror` cuando el usuario comete un error en el formato de datos de entrada y la validación en línea falla. Este selector de atributos se puede utilizar para resaltar datos incorrectos introducidos por el usuario en el formulario.
+>El contenedor de campo de entrada admite el selector de atributos `state` opcional. Se establece en `verifyerror` cuando el usuario comete un error en el formato de datos de entrada y falla la validación en línea. Este selector de atributos se puede utilizar para resaltar datos incorrectos introducidos por el usuario en el formulario.
 
 La mayoría de los campos de entrada que se extienden desde la etiqueta de la izquierda hasta el borde derecho del cuerpo del cuadro de diálogo (que incluye el campo &quot;de&quot; y el campo &quot;de mensaje&quot;) se controlan con:
 
@@ -734,7 +737,7 @@ La mayoría de los campos de entrada que se extienden desde la etiqueta de la iz
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Ancho del campo de entrada. </p> </td> 
   </tr> 
  </tbody> 
@@ -751,7 +754,7 @@ El campo de entrada &quot;A&quot; es más estrecho porque asigna espacio al bot�
 <table id="table_DFA9059209FF4184BD483A529424E97F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Ancho del campo de entrada. </p> </td> 
   </tr> 
  </tbody> 
@@ -781,24 +784,24 @@ El campo de entrada de mensajes de correo electrónico también se controla con:
 .s7videoviewer .s7emaildialog .s7dialogmessage
 ```
 
-Esta clase permite establecer propiedades específicas para el `TEXTAREA` elemento subyacente.
+Esta clase le permite establecer propiedades específicas para el elemento subyacente `TEXTAREA`.
 
 **Propiedades CSS del mensaje del cuadro de diálogo**
 
 <table id="table_9E9D5A0C3CDB45739615C4C07F8DC046"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altura del mensaje. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ajuste de palabras </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ajuste de palabras  </span> </p> </td> 
    <td colname="col2"> <p>Estilo de ajuste de palabras. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ejemplo: para configurar un mensaje de correo electrónico con una altura de 50 píxeles y utilizar el ajuste de `break-word` palabras:
+Ejemplo: para configurar un mensaje de correo electrónico con una altura de 50 píxeles y utilizar `break-word` ajuste de texto:
 
 ```
 .s7videoviewer .s7emaildialog .s7dialogmessage { 
@@ -818,39 +821,39 @@ El botón &quot;Añadir otra dirección de correo electrónico&quot; permite al 
 <table id="table_8829DC0694684E8BA427DFB821F7433D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altura del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
    <td colname="col2"> <p>Color del texto del botón para cada estado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Imagen de botón para cada estado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p>Posición de la imagen del botón dentro del área del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-peso </span> </p> </td> 
-   <td colname="col2"> <p>peso de fuente del botón. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-peso  </span> </p> </td> 
+   <td colname="col2"> <p>Peso de fuente del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Tamaño de fuente del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Familia de fuentes de botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> line-height  </span> </p> </td> 
    <td colname="col2"> <p>Altura del texto dentro del botón. Afecta a la alineación vertical. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> text-align  </span> </p> </td> 
    <td colname="col2"> <p>Alineación de texto horizontal. </p> </td> 
   </tr> 
   <tr> 
@@ -862,9 +865,9 @@ El botón &quot;Añadir otra dirección de correo electrónico&quot; permite al 
 
 >[!NOTE]
 >
->Este botón admite el selector de `state` atributos, que se puede utilizar para aplicar diferentes apariencias a diferentes estados de botón.
+>Este botón admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes apariencias a distintos estados de botones.
 
-La información de objeto del botón se puede localizar. Consulte [Localización de los elementos](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) de la interfaz de usuario para obtener más información.
+La información de objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
 
 Ejemplo: para configurar el botón &quot;Añadir otra dirección de correo electrónico&quot; en 25 píxeles de alto, utilice una fuente en negrita de 12 puntos con alineación a la derecha y un color e imagen de texto diferente para cada estado:
 
@@ -908,19 +911,19 @@ El botón &quot;Eliminar&quot; permite al usuario eliminar direcciones adicional
 <table id="table_79E4C65741E64859B9C9E9DCCB3D050B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Ancho del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altura del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Imagen de botón para cada estado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -928,9 +931,9 @@ El botón &quot;Eliminar&quot; permite al usuario eliminar direcciones adicional
 
 >[!NOTE]
 >
->Este botón admite el selector de `state` atributos, que se puede utilizar para aplicar diferentes apariencias a diferentes estados de botón.
+>Este botón admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes apariencias a distintos estados de botones.
 
-La información de objeto del botón se puede localizar. Consulte [Localización de los elementos](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) de la interfaz de usuario para obtener más información.
+La información de objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
 
 Ejemplo: para configurar un botón &quot;Eliminar&quot; para que sea de 25 x 25 píxeles y utilizar una imagen diferente para cada estado:
 
@@ -965,7 +968,7 @@ El contenido que se comparte se muestra en la parte inferior del cuerpo del cuad
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> borde </span> </p> </td> 
-   <td colname="col2"> <p>Borde del Contenedor. </p> </td> 
+   <td colname="col2"> <p>Borde del contenedor. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> relleno </span> </p> </td> 
@@ -989,22 +992,22 @@ La imagen en miniatura se controla con el siguiente selector de clase CSS:
 .s7videoviewer .s7emaildialog .s7dialogthumbnail
 ```
 
-La `background-image` propiedad se establece mediante la lógica del componente.
+La propiedad `background-image` se establece mediante la lógica del componente.
 
 **Propiedades CSS de la imagen en miniatura del cuadro de diálogo**
 
 <table id="table_4C614FF2CEB149DAB5B7D7BC38CD3CAE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Ancho de la miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altura de la miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vertical-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> vertical-align  </span> </p> </td> 
    <td colname="col2"> <p>Miniatura de alineación vertical. </p> </td> 
   </tr> 
   <tr> 
@@ -1036,7 +1039,7 @@ El título del contenido, el origen y la descripción se agrupan en un panel a l
 <table id="table_EDFA6229D8C3468E989E7EC05F23EF3B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Ancho del panel. </p> </td> 
   </tr> 
  </tbody> 
@@ -1061,19 +1064,19 @@ El título del contenido se controla con el siguiente selector de clase CSS:
 <table id="table_E83C149E66EC474092DF8A180DA9A550"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin  </span> </p> </td> 
    <td colname="col2"> <p>Margen exterior. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-peso </span> </p> </td> 
-   <td colname="col2"> <p>peso de fuentes. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-peso  </span> </p> </td> 
+   <td colname="col2"> <p>Peso de fuentes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Tamaño de fuente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Familia de fuentes. </p> </td> 
   </tr> 
  </tbody> 
@@ -1099,19 +1102,19 @@ El origen de contenido se controla con el siguiente selector de clase CSS:
 <table id="table_51763B532A9C4AE8AE54B69933A8C0B5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin  </span> </p> </td> 
    <td colname="col2"> <p>Margen exterior. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-peso </span> </p> </td> 
-   <td colname="col2"> <p>peso de fuentes. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-peso  </span> </p> </td> 
+   <td colname="col2"> <p>Peso de fuentes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Tamaño de fuente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Familia de fuentes. </p> </td> 
   </tr> 
  </tbody> 
@@ -1136,19 +1139,19 @@ La descripción del contenido se controla con el siguiente selector de clase CSS
 <table id="table_F0F917ED3D1D4FCE974F48214D287E14"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin  </span> </p> </td> 
    <td colname="col2"> <p>Margen exterior. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-peso </span> </p> </td> 
-   <td colname="col2"> <p>peso de fuentes. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-peso  </span> </p> </td> 
+   <td colname="col2"> <p>Peso de fuentes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Tamaño de fuente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Familia de fuentes. </p> </td> 
   </tr> 
  </tbody> 
@@ -1174,31 +1177,31 @@ Cuando un usuario introduce datos de entrada incorrectos y se produce un error e
 <table id="table_C114E1004C334D339C25A3438E8E6614"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Icono de error. El valor predeterminado es un signo de exclamación. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Posición del icono de error dentro del área del mensaje. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
    <td colname="col2"> <p>Color del texto del mensaje. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-peso </span> </p> </td> 
-   <td colname="col2"> <p>peso de fuentes. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-peso  </span> </p> </td> 
+   <td colname="col2"> <p>Peso de fuentes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Tamaño de fuente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Familia de fuentes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> line-height  </span> </p> </td> 
    <td colname="col2"> <p> Altura del texto dentro del mensaje. Afecta a la alineación vertical. </p> </td> 
   </tr> 
   <tr> 
@@ -1210,9 +1213,9 @@ Cuando un usuario introduce datos de entrada incorrectos y se produce un error e
 
 >[!NOTE]
 >
->Este mensaje admite el selector de `state` atributos con los siguientes valores posibles: `verifyerror`, `senderror`, y `sendsuccess`. `verifyerror` se configura cuando se muestra un mensaje debido a un error de validación de entrada en línea; `senderror` se configura cuando un servicio de correo electrónico back-end informa de un error; `sendsuccess` se establece cuando el correo electrónico se envía correctamente. De este modo, es posible aplicar un estilo diferente al mensaje en función del estado del cuadro de diálogo.
+>Este mensaje admite el selector de atributos `state` con los siguientes valores posibles: `verifyerror`, `senderror` y `sendsuccess`. `verifyerror` se configura cuando se muestra un mensaje debido a un error de validación de entrada en línea;  `senderror` se configura cuando un servicio de correo electrónico back-end informa de un error;  `sendsuccess` se configura cuando el correo electrónico se envía correctamente. De este modo, es posible aplicar un estilo diferente al mensaje en función del estado del cuadro de diálogo.
 
-El mensaje de error se puede localizar. Consulte [Localización de los elementos](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) de la interfaz de usuario para obtener más información.
+El mensaje de error se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
 
 Ejemplo: para configurar un mensaje para que utilice una fuente en negrita de diez puntos, tenga una altura de línea de 25 píxeles, un margen de 20 píxeles a la izquierda, utilice un icono de signo de exclamación, texto rojo en caso de error y sin icono y texto verde en caso de éxito:
 
@@ -1249,7 +1252,7 @@ Si se necesita desplazamiento vertical, la barra de desplazamiento se procesa en
 <table id="table_A0C3AC7E00544FFBB8E1364F4CDDB371"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Ancho del panel de desplazamiento. </p> </td> 
   </tr> 
  </tbody> 
@@ -1274,7 +1277,7 @@ El aspecto del área de la barra de desplazamiento se controla con el siguiente 
 <table id="table_2BF74CF43E9B42D79F99A3F5208D7051"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p> Ancho de la barra de desplazamiento. </p> </td> 
   </tr> 
   <tr> 
@@ -1314,11 +1317,11 @@ La pista de la barra de desplazamiento es el área entre los botones de desplaza
 <table id="table_EE990E7A342843619EDD84BAD29C6F2A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Ancho de la pista. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Color de fondo de la pista. </p> </td> 
   </tr> 
  </tbody> 
@@ -1344,27 +1347,27 @@ El pulgar de la barra de desplazamiento se mueve verticalmente dentro de un áre
 <table id="table_5A4A283A50044A51881D997885674BDF"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>La anchura del pulgar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>La altura del pulgar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-top  </span> </p> </td> 
    <td colname="col2"> <p> El margen vertical entre la parte superior de la pista. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> relleno-inferior </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> relleno-inferior  </span> </p> </td> 
    <td colname="col2"> <p> El margen vertical entre la parte inferior de la pista. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Imagen que se muestra para un estado de miniatura determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -1372,9 +1375,9 @@ El pulgar de la barra de desplazamiento se mueve verticalmente dentro de un áre
 
 >[!NOTE]
 >
->Thumb admite el selector de `state` atributos, que se puede utilizar para aplicar diferentes apariencias a diferentes estados de pulgar: `up`, `down`, `over`y `disabled`.
+>Thumb admite el selector de atributos `state`, que se puede utilizar para aplicar diferentes apariencias a diferentes estados de pulgar: `up`, `down`, `over` y `disabled`.
 
-La información del objeto de botón se puede localizar. Consulte [Localización de los elementos](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) de la interfaz de usuario para obtener más información.
+La información del objeto de botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
 
 Ejemplo: para configurar el pulgar de la barra de desplazamiento de 28 x 45 píxeles, tiene un margen de diez píxeles en la parte superior e inferior y tiene una ilustración diferente para cada estado:
 
@@ -1415,19 +1418,19 @@ El aspecto de los botones de desplazamiento superior e inferior se controla con 
 <table id="table_EB853317E08941979B0E141C3C9B2C49"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Ancho del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altura del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Imagen que se muestra para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -1435,7 +1438,7 @@ El aspecto de los botones de desplazamiento superior e inferior se controla con 
 
 >[!NOTE]
 >
->Estos botones admiten el selector de `state` atributos, que se puede utilizar para aplicar diferentes apariencias a distintos estados de botones: `up`, `down`, `over`y `disabled`.
+>Estos botones admiten el selector de atributos `state`, que se puede utilizar para aplicar diferentes apariencias a diferentes estados de botón: `up`, `down`, `over` y `disabled`.
 
 Ejemplo: para configurar botones de desplazamiento de 28 x 32 píxeles y con diferentes ilustraciones para cada estado:
 
