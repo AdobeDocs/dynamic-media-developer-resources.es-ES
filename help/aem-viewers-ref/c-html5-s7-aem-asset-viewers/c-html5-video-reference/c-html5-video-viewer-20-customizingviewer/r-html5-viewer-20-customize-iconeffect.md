@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: dcab487d-0bd6-4899-82e2-e29fa812a864
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Icon effect{#icon-effect}
+# Efecto de icono{#icon-effect}
 
 El icono de reproducción se superpone en el área de la vista principal. Se muestra cuando se pone en pausa el vídeo o cuando se llega al final del vídeo, y también depende del parámetro iconeffect.
 
@@ -29,11 +32,11 @@ El aspecto del icono de reproducción se controla con el siguiente selector de c
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Imagen que se muestra para el icono de reproducción. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -47,7 +50,7 @@ El aspecto del icono de reproducción se controla con el siguiente selector de c
  </tbody> 
 </table>
 
-El efecto Icono admite el selector de `state` atributos. `state="play"` se utiliza cuando el vídeo se pone en pausa durante la reproducción y `state="replay"` se utiliza cuando el cursor de reproducción se encuentra al final del flujo.
+El efecto Icono admite el selector de atributos `state`. `state="play"` se utiliza cuando el vídeo se pone en pausa durante la reproducción y  `state="replay"` se utiliza cuando el cursor de reproducción se encuentra al final del flujo.
 
 ## Ejemplo {#section-e8caea0a303c425a8a637c2a47c06355}
 
