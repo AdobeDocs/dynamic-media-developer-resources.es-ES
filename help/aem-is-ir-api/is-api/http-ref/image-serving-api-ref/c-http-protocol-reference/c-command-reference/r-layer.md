@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 882309b3-51d7-477e-bd09-068ce9e55eb5
 translation-type: tm+mt
 source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+workflow-type: tm+mt
+source-wordcount: '397'
+ht-degree: 1%
 
 ---
 
@@ -35,7 +38,7 @@ Seleccione Capa. Selecciona una capa y inicio un nuevo segmento de definición d
  </tr> 
 </table>
 
-Todos los comandos del segmento de capa se aplican a la capa especificada. Un segmento de capa finaliza con el siguiente `layer=` o `effect=` comando o el final de la solicitud.
+Todos los comandos del segmento de capa se aplican a la capa especificada. Un segmento de capa finaliza con el siguiente comando `layer=` o `effect=` o el final de la solicitud.
 
 Especifique `layer=comp` para seleccionar la imagen compuesta (o vista, para algunos comandos).
 
@@ -43,7 +46,7 @@ El número de capa especifica de forma efectiva el orden z de la capa. Las capas
 
 Los números de capa no necesitan ser consecutivos. Se requiere la capa 0.
 
-Se puede asignar un nombre a una capa con la variante de comando `layer= *``*, *`nname`*` . Una vez definida una capa con nombre, se puede hacer referencia a ella con ` layer= *`nombre`*`, sin necesidad de conocer el número de capa. Se pueden asignar varios nombres a la misma capa mediante varios comandos `layer= *``*, *`nname`*` .
+Se puede asignar un nombre a una capa con la variante de comando `layer= *`n`*, *`name`*`. Una vez definida una capa con nombre, se puede hacer referencia a ella con ` layer= *`nombre`*`, sin necesidad de conocer el número de capa. Se pueden asignar varios nombres a la misma capa mediante varios comandos `layer= *`n`*, *`name`*`.
 
 >[!NOTE]
 >
@@ -51,9 +54,9 @@ Se puede asignar un nombre a una capa con la variante de comando `layer= *``*, *
 
 ## Propiedades {#section-499963ee52c14f2898f0d0f90c1d01be}
 
-Capa. Las referencias de variables de sustitución no son compatibles en `layer=`.
+Capa. Las referencias de variables de sustitución no se admiten en `layer=`.
 
-`comp` no se permite como una *`name`* cadena. Se devuelve un error si el mismo *`name`* se asigna a más de una capa o si se hace referencia a una capa por la *`name`* que no se haya definido previamente.
+`comp` no se permite como  *`name`* cadena. Se devuelve un error si el mismo *`name`* está asignado a más de una capa o si *`name`* hace referencia a una capa que no se ha definido anteriormente.
 
 ## Predeterminado {#section-091859a03f8048c2b7092f0fec9c1006}
 
@@ -75,4 +78,4 @@ Capa. Las referencias de variables de sustitución no son compatibles en `layer=
 
 ## Ejemplo {#section-cc40de6a0a754178aa752601539c815b}
 
-Consulte los ejemplos en [Plantillas](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e).
+Consulte los ejemplos en [Templates](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e).
