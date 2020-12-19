@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: ce814963-5cb8-408e-9d57-e7b7e61e0fab
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ Atributo de configuración para el visor de Video360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|progresivo</span> </p> </td> 
-   <td colname="col2"> <p> Define el tipo de reproducción que utiliza el visor. </p> <p>Cuando se establece <span class="codeph"> auto</span> , en la mayoría de los navegadores de escritorio y en todos los dispositivos iOS el visor utiliza vídeo de flujo HTML5 en formato HLS y vuelve a la reproducción progresiva de HTML5 en determinados sistemas como Internet Explorer y Android. </p> <p>Cuando se establece <span class="codeph"> progresivo</span> , el visor solo se basa en la reproducción HTML5 como admitida de forma nativa por los navegadores y reproduce vídeo progresivamente en todos los sistemas. </p> <p>Para obtener más información sobre la selección de reproducción en los modos nativo <span class="codeph"> automático</span> y <span class="codeph"> progresivo</span> , consulte la Guía del usuario del SDK de visores HTML5. </p> </td> 
+   <td colname="col2"> <p> Define el tipo de reproducción que utiliza el visor. </p> <p>Cuando se establece <span class="codeph"> auto</span>, en la mayoría de los exploradores de escritorio y en todos los dispositivos iOS el visor utiliza vídeo de flujo HTML5 en formato HLS y vuelve a la reproducción progresiva de HTML5 en determinados sistemas como Internet Explorer y Android. </p> <p>Cuando <span class="codeph"> progresivo</span> está establecido, el visor solo se basa en la reproducción HTML5 como admitida de forma nativa por los navegadores y reproduce vídeo de forma progresiva en todos los sistemas. </p> <p>Para obtener más información sobre la selección de reproducción en los modos <span class="codeph"> auto</span> y <span class="codeph"> progresivo</span> nativos, consulte la Guía del usuario del SDK de visores HTML5. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -31,7 +34,7 @@ Atributo de configuración para el visor de Video360.
 
 Opcional. Se omite cuando el visor trabaja con vídeo externo.
 
-Consulte Compatibilidad con [vídeos](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760) externos para obtener más información.
+Consulte [Compatibilidad con vídeo externo](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760) para obtener más información.
 
 ## Predeterminado {#section-71fb773f814649b2885aefee68073641}
 
