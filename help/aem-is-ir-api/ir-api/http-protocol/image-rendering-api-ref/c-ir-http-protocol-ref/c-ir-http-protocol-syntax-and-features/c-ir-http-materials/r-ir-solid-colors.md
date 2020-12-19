@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 75b60e44-1727-4f3e-a186-df66fabeec0d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Esta categoría de material incluye pinturas para paredes, carpintería y guarnecido, automóviles y cualquier otra aplicación en la que no se requieran texturas.
 
-Por ejemplo, puede utilizar colores sólidos para variar el color de un elemento de vestimenta en el que no se requieran cambios de textura, o para definir el color del guarnecido de plástico y la alfombra de un interior de automóvil. Un material se considera de color sólido si no hay ningún `src=` valor en el MSS.
+Por ejemplo, puede utilizar colores sólidos para variar el color de un elemento de vestimenta en el que no se requieran cambios de textura, o para definir el color del guarnecido de plástico y la alfombra de un interior de automóvil. Un material se considera de color sólido si no hay ningún valor `src=` en el MSS.
 
 Los colores sólidos se pueden aplicar a todos los objetos procesables.
 
@@ -30,7 +33,7 @@ Los colores sólidos se pueden aplicar a todos los objetos procesables.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa" type="reference" format="dita" scope="local"> <span class="codeph"> color= </span></a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa" type="reference" format="dita" scope="local"> <span class="codeph"> color=  </span> </a> </p> </td> 
    <td colname="col2"> <p> Valor de color gris o RGB; requerido. </p> </td> 
    <td colname="col3"> <p>Ninguno. </p> </td> 
   </tr> 
