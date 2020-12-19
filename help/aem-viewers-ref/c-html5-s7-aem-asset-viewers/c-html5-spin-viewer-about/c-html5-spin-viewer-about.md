@@ -4,13 +4,13 @@ keywords: responsive
 seo-description: El visor de giros es un visor de imágenes que proporciona una vista de 360 grados de la imagen o incluso una vista multidimensional si se utiliza un conjunto de giros adecuado. Cuenta con herramientas de zoom y giro, compatibilidad con pantalla completa y un botón de cierre opcional. Está diseñado para trabajar en equipos de escritorio y dispositivos móviles.
 seo-title: Spin
 solution: Experience Manager
-title: Spin
+title: Giro
 topic: Dynamic media
 uuid: 5d5cdf83-cfe8-48cd-af74-b270f7400b14
 translation-type: tm+mt
 source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,9 @@ El visor de giros es un visor de imágenes que proporciona una vista de 360 grad
 
 Tipo de visor 503.
 
-Consulte Requisitos y requisitos previos [del sistema](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
+Consulte [Requisitos y requisitos previos del sistema](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
-## URL de demostración {#section-e1c3106f5b3e445d9b95be337c2f94e2}
+## Dirección URL de demostración {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
 [https://s7d9.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&amp;stagesize=500,400](https://s7d9.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&amp;stagesize=500,400)
 
@@ -40,9 +40,9 @@ El visor de giros se puede utilizar en modo emergente utilizando una página HTM
 
 La configuración y la aplicación de aspectos son similares a las de los demás visores. Todas las apariencias se pueden lograr mediante CSS personalizada.
 
-Consulte Referencia [de comandos común a todos los visores: Atributos](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) de configuración y referencia de [comandos comunes a todos los visores: URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+Consulte [Referencia de comandos común a todos los visores: Atributos de configuración](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) y [Referencia de comandos común a todos los visores: URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
-## Interacción con el visor de giros {#section-642e66ca38cd4032992840ec6c0b0cd2}
+## Interactuar con el visor de giros {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
 El visor de giros admite los siguientes gestos táctiles comunes en otras aplicaciones móviles. Cuando el visor no puede procesar el gesto de barrido de un usuario, reenvía el evento al navegador web para realizar un desplazamiento de página nativo. Esto permite al usuario navegar por la página aunque el visor ocupe la mayor parte del área de la pantalla del dispositivo.
 
@@ -55,7 +55,7 @@ El visor de giros admite los siguientes gestos táctiles comunes en otras aplica
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Tocar Doble </p> </td> 
+   <td colname="col1"> <p>Tocar doble </p> </td> 
    <td colname="col2"> <p> Amplía un nivel hasta que se alcanza la máxima ampliación. El siguiente gesto de toque de doble restablece el visor al estado de visualización inicial. </p> </td> 
   </tr> 
   <tr> 
@@ -79,7 +79,7 @@ El visor de giros admite los siguientes gestos táctiles comunes en otras aplica
 
 Este visor es totalmente accesible mediante teclado.
 
-Consulte Navegación y accesibilidad [del teclado](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
+Consulte [Navegación y accesibilidad del teclado](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
 ## Incrustación del visor de giros {#section-6bb5d3c502544ad18a58eafe12a13435}
 
@@ -89,9 +89,9 @@ Las diferentes páginas web tienen diferentes necesidades de comportamiento del 
 
 En el modo emergente, el visor se abre en una ventana o ficha separada del explorador Web. Toma todo el área de la ventana del navegador y se ajusta en caso de que se cambie el tamaño del navegador o la orientación del dispositivo móvil.
 
-El modo emergente es el más común para dispositivos móviles. La página web carga el visor mediante una llamada de `window.open()` JavaScript, un elemento `A` HTML configurado correctamente o cualquier otro método adecuado.
+El modo emergente es el más común para dispositivos móviles. La página web carga el visor mediante `window.open()` llamada de JavaScript, elemento HTML `A` configurado correctamente o cualquier otro método adecuado.
 
-Se recomienda utilizar una página HTML lista para usar en el modo de operación emergente. En este caso, se le llama [!DNL SpinViewer.html] y se encuentra dentro de la [!DNL html5/] subcarpeta de la implementación estándar de visores IS:
+Se recomienda utilizar una página HTML lista para usar en el modo de operación emergente. En este caso, se denomina [!DNL SpinViewer.html] y se encuentra dentro de la subcarpeta [!DNL html5/] de la implementación estándar de los visores de IS:
 
 [!DNL <s7viewers_root>/html5/SpinViewer.html]
 
@@ -113,11 +113,11 @@ Los casos de uso principales son las páginas web orientadas a equipos de escrit
 
 La incrustación de tamaño fijo se utiliza cuando el visor no cambia su tamaño después de la carga inicial. Esta es la mejor opción para las páginas web con un diseño estático.
 
-La incrustación de diseño adaptable supone que es posible que el visor tenga que cambiar el tamaño en tiempo de ejecución en respuesta al cambio de tamaño de su contenedor `DIV`. El caso de uso más común es agregar un visor a una página web que utilice un diseño de página flexible.
+La incrustación de diseño adaptable supone que el visor puede necesitar cambiar el tamaño en tiempo de ejecución en respuesta al cambio de tamaño de su contenedor `DIV`. El caso de uso más común es agregar un visor a una página web que utilice un diseño de página flexible.
 
-En el modo de incrustación de diseño interactivo, el visor se comporta de forma diferente en función del tamaño de la página web en su contenedor `DIV`. Si la página web establece únicamente la anchura del contenedor `DIV`, dejando su altura sin restricciones, el visor selecciona automáticamente su altura según la proporción de aspecto del recurso que se utilice. Esta funcionalidad garantiza que el recurso encaje perfectamente en la vista sin ningún relleno en los lados. Este caso de uso es el más común para las páginas web que utilizan marcos de diseño interactivos como Bootstrap, Foundation, etc.
+En el modo de incrustación de diseño interactivo, el visor se comporta de forma diferente en función del tamaño de la página web de su contenedor `DIV`. Si la página web establece únicamente la anchura del contenedor `DIV`, dejando su altura sin restricciones, el visor elige automáticamente su altura según la proporción de aspecto del recurso que se utilice. Esta funcionalidad garantiza que el recurso encaje perfectamente en la vista sin ningún relleno en los lados. Este caso de uso es el más común para las páginas web que utilizan marcos de diseño interactivos como Bootstrap, Foundation, etc.
 
-En caso contrario, si la página web establece la anchura y la altura del contenedor del visor `DIV`, el visor rellena solo esa área y sigue el tamaño que proporciona el diseño de la página web. Un buen ejemplo puede ser la incrustación del visor en una superposición modal, donde el tamaño de la superposición depende del tamaño de la ventana del navegador web.
+De lo contrario, si la página web establece tanto la anchura como la altura del contenedor del visor `DIV`, el visor rellena esa área y sigue el tamaño que proporciona el diseño de la página web. Un buen ejemplo puede ser la incrustación del visor en una superposición modal, donde el tamaño de la superposición depende del tamaño de la ventana del navegador web.
 
 **Incrustación de tamaño fijo**
 
@@ -130,11 +130,11 @@ Para agregar el visor de giros a una página web, haga lo siguiente:
 
 1. Añadir el archivo JavaScript del visor en la página web.
 
-   La creación de un visor requiere que agregue una etiqueta de script en el encabezado HTML. Antes de usar la API de visor, asegúrese de incluir `SpinViewer.js`. `SpinViewer.js` se encuentra en la [!DNL html5/js/] subcarpeta de la implementación estándar de visores IS:
+   La creación de un visor requiere que agregue una etiqueta de script en el encabezado HTML. Antes de usar la API de visor, asegúrese de incluir `SpinViewer.js`. `SpinViewer.js` se encuentra en la  [!DNL html5/js/] subcarpeta de la implementación estándar de los visores IS:
 
    `<s7viewers_root>/html5/js/SpinViewer.js`
 
-   Puede utilizar una ruta relativa si el visor está implementado en uno de los servidores de Adobe Scene7 y se suministra desde el mismo dominio. De lo contrario, debe especificar una ruta de acceso completa a uno de los servidores de Adobe Scene7 que tenga instalados los visores IS.
+   Puede utilizar una ruta relativa si el visor está implementado en uno de los servidores de Adobe Scene7 y se suministra desde el mismo dominio. De lo contrario, se especifica una ruta completa a uno de los servidores de Adobe Scene7 que tienen instalados los visores IS.
 
    La ruta relativa tiene el siguiente aspecto:
 
@@ -144,16 +144,16 @@ Para agregar el visor de giros a una página web, haga lo siguiente:
 
    >[!NOTE]
    >
-   >Solo debe hacer referencia al archivo JavaScript `include` del visor principal de la página. No debe hacer referencia a ningún archivo JavaScript adicional del código de la página web que pueda descargarse mediante la lógica del visor en tiempo de ejecución. En concreto, no haga referencia directa a la biblioteca del SDK `Utils.js` HTML5 cargada por el visor desde la ruta de `/s7viewers` contexto (el denominado SDK consolidado `include`). El motivo es que la ubicación de las bibliotecas de visores en tiempo de ejecución `Utils.js` o similares está totalmente gestionada por la lógica del visor y la ubicación cambia entre las versiones del visor. Adobe no mantiene versiones anteriores del visor secundario `includes` en el servidor.
+   >Solo debe hacer referencia al archivo JavaScript `include` del visor principal de la página. No debe hacer referencia a ningún archivo JavaScript adicional del código de la página web que pueda descargarse mediante la lógica del visor en tiempo de ejecución. En particular, no haga referencia directa a la biblioteca `Utils.js` del SDK de HTML5 cargada por el visor desde la ruta de contexto `/s7viewers` (denominada SDK consolidado `include`). El motivo es que la ubicación de `Utils.js` o bibliotecas de visores de tiempo de ejecución similares se administra completamente mediante la lógica del visor y la ubicación cambia entre las versiones del visor. Adobe no mantiene versiones anteriores del visor secundario `includes` en el servidor.
    >
    >
-   >Como resultado, la colocación de una referencia directa a cualquier JavaScript secundario `include` utilizado por el visor en la página interrumpe la funcionalidad del visor en el futuro cuando se implemente una nueva versión del producto.
+   >Como resultado, la colocación de una referencia directa a cualquier JavaScript `include` secundario utilizado por el visor en la página interrumpe la funcionalidad del visor en el futuro cuando se implemente una nueva versión del producto.
 
 1. Definición de la DIV de contenedor.
 
    Añada un elemento DIV vacío a la página en la que desea que aparezca el visor. El ID del elemento DIV debe estar definido porque este ID se pasa más tarde a la API del visor.
 
-   El marcador de posición DIV es un elemento posicionado, lo que significa que la propiedad `position` CSS está definida como `relative` o `absolute`.
+   El marcador de posición DIV es un elemento posicionado, lo que significa que la propiedad CSS `position` se establece en `relative` o `absolute`.
 
    A continuación se muestra un ejemplo de un elemento DIV de marcador de posición definido:
 
@@ -163,11 +163,11 @@ Para agregar el visor de giros a una página web, haga lo siguiente:
 
 1. Configuración del tamaño del visor
 
-   Puede definir el tamaño estático del visor, ya sea declarándolo para la clase CSS de nivel `.s7spinviewer` superior en unidades absolutas o utilizando `stagesize` un modificador.
+   Puede establecer el tamaño estático del visor declarándolo para la clase CSS de nivel superior `.s7spinviewer` en unidades absolutas o utilizando el modificador `stagesize`.
 
    Puede colocar el tamaño en CSS directamente en la página HTML o en un archivo CSS de visor personalizado, que posteriormente se asignará a un registro de ajuste preestablecido de visor en Scene7 Publishing System, o se pasará explícitamente mediante un comando de estilo.
 
-   Consulte [Personalización del visor](../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#concept-464f3bfa55764bc09c92d8c7480b0b55) de giros para obtener más información sobre el estilo del visor con CSS.
+   Consulte [Personalización del visor de giros](../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#concept-464f3bfa55764bc09c92d8c7480b0b55) para obtener más información sobre cómo aplicar estilo al visor con CSS.
 
    A continuación se muestra un ejemplo de definición de un tamaño de visor estático en una página HTML:
 
@@ -178,7 +178,7 @@ Para agregar el visor de giros a una página web, haga lo siguiente:
    }
    ```
 
-   Puede definir el `stagesize` modificador en el registro de ajustes preestablecidos de visor de Scene7 Publishing System o pasarlo explícitamente con el código de inicialización del visor con `params` colección, o como una llamada de API como se describe en la sección Referencia de comandos, como se indica a continuación:
+   Puede establecer el modificador `stagesize` en el registro de ajustes preestablecidos de visor de Scene7 Publishing System o pasarlo explícitamente con el código de inicialización del visor con la colección `params`, o como una llamada de API como se describe en la sección Referencia de comandos, como se indica a continuación:
 
    ```
     spinViewer.setParam("stagesize", 
@@ -189,13 +189,13 @@ Para agregar el visor de giros a una página web, haga lo siguiente:
 
 1. Creación e inicialización del visor.
 
-   Cuando haya completado los pasos anteriores, cree una instancia de `s7viewers.SpinViewer` clase, pase toda la información de configuración a su constructor y al `init()` método de llamada en una instancia de visor. La información de configuración se pasa al constructor como un objeto JSON. Como mínimo, este objeto tiene `containerId` `params` un campo que contiene el nombre del ID de contenedor del visor y el objeto JSON anidado con parámetros de configuración compatibles con el visor. En este caso de `params` objeto, debe tener al menos la URL de servicio de imágenes pasada como `serverUrl` propiedad y el recurso inicial como `asset` parámetro. La API de inicialización basada en JSON permite crear y inicio del visor con una sola línea de código.
+   Cuando haya completado los pasos anteriores, cree una instancia de la clase `s7viewers.SpinViewer`, pase toda la información de configuración a su constructor y llame al método `init()` en una instancia de visor. La información de configuración se pasa al constructor como un objeto JSON. Como mínimo, este objeto tiene un campo `containerId` que contiene el nombre del ID de contenedor del visor y el objeto `params` JSON anidado con parámetros de configuración compatibles con el visor. En este caso del objeto `params`, debe tener al menos la dirección URL del servicio de imágenes pasada como propiedad `serverUrl` y el recurso inicial como parámetro `asset`. La API de inicialización basada en JSON permite crear y inicio del visor con una sola línea de código.
 
-   Es importante que el contenedor del visor se añada al DOM para que el código del visor pueda encontrar el elemento de contenedor por su ID. Algunos exploradores retrasan la creación de DOM hasta el final de la página web. Para obtener la máxima compatibilidad, llame al `init()` método justo antes de la `BODY` etiqueta de cierre o en el `onload()` evento body.
+   Es importante que el contenedor del visor se añada al DOM para que el código del visor pueda encontrar el elemento de contenedor por su ID. Algunos exploradores retrasan la creación de DOM hasta el final de la página web. Para obtener la máxima compatibilidad, llame al método `init()` justo antes de la etiqueta `BODY` de cierre o en el evento body `onload()`.
 
-   Al mismo tiempo, el elemento contenedor no debe formar parte necesariamente del diseño de la página web. Por ejemplo, puede ocultarse con el `display:none` estilo asignado. En este caso, el visor retrasa el proceso de inicialización hasta el momento en que la página web devuelve el elemento de contenedor a la presentación. Cuando se produce esta acción, la carga del visor se reanuda automáticamente.
+   Al mismo tiempo, el elemento contenedor no debe formar parte necesariamente del diseño de la página web. Por ejemplo, puede ocultarse con el estilo `display:none` asignado. En este caso, el visor retrasa el proceso de inicialización hasta el momento en que la página web devuelve el elemento de contenedor a la presentación. Cuando se produce esta acción, la carga del visor se reanuda automáticamente.
 
-   A continuación se muestra un ejemplo de creación de una instancia de visor, pasando las opciones de configuración mínimas necesarias al constructor y llamando al `init()` método. El ejemplo asume `spinViewer` que es la instancia del visor, `s7viewer` es el nombre del marcador de posición `DIV`, [!DNL http://s7d1.scene7.com/is/image/] es la URL del servicio de imágenes y [!DNL Scene7SharedAssets/SpinSet_Sample] es el recurso.
+   A continuación se muestra un ejemplo de creación de una instancia de visor, pasando las opciones de configuración mínimas necesarias al constructor y llamando al método `init()`. El ejemplo asume que `spinViewer` es la instancia del visor, `s7viewer` es el nombre del marcador de posición `DIV`, [!DNL http://s7d1.scene7.com/is/image/] es la dirección URL del servicio de imágenes y [!DNL Scene7SharedAssets/SpinSet_Sample] es el recurso.
 
    ```
    <script type="text/javascript"> 
@@ -240,7 +240,7 @@ Para agregar el visor de giros a una página web, haga lo siguiente:
 
 **Incrustación de diseño adaptable con altura ilimitada**
 
-Con la incrustación de diseño interactivo, la página web normalmente tiene algún tipo de diseño flexible que determina el tamaño de tiempo de ejecución del contenedor del visor `DIV`. A efectos de este ejemplo, supongamos que la página web permite que el contenedor del visor `DIV` tome el 40 % del tamaño de la ventana del navegador web, dejando su altura sin restricciones. El código HTML de la página web resultante es similar al siguiente:
+Con la incrustación de diseño interactivo, la página web normalmente tiene algún tipo de diseño flexible que determina el tamaño de tiempo de ejecución del contenedor `DIV` del visor. A efectos de este ejemplo, supongamos que la página web permite que el contenedor del visor `DIV` ocupe el 40 % del tamaño de la ventana del explorador web, dejando su altura sin restricciones. El código HTML de la página web resultante es similar al siguiente:
 
 ```
 <!DOCTYPE html> 
@@ -264,7 +264,7 @@ Añadir el visor a una página de este tipo es similar a la incrustación de tam
 1. Definición de la DIV de contenedor.
 1. Creación e inicialización del visor.
 
-Todos los pasos anteriores son los mismos que con la incrustación de tamaño fijo. Añada el contenedor `DIV` al &quot;titular&quot; existente `DIV`. El siguiente código es un ejemplo completo. Puede ver cómo cambia el tamaño del visor cuando se cambia el tamaño del navegador y cómo coincide la proporción de aspecto del visor con el recurso.
+Todos los pasos anteriores son los mismos que con la incrustación de tamaño fijo. Añada el contenedor `DIV` al &quot;soporte&quot; existente `DIV`. El siguiente código es un ejemplo completo. Puede ver cómo cambia el tamaño del visor cuando se cambia el tamaño del navegador y cómo coincide la proporción de aspecto del visor con el recurso.
 
 ```
 <!DOCTYPE html> 
@@ -302,7 +302,7 @@ La siguiente página de ejemplos ilustra casos de uso más real de diseño inter
 
 **Integración de tamaño flexible con anchura y altura definidas**
 
-En caso de incrustación de tamaño flexible con anchura y altura definidas, el estilo de la página web es diferente. Es decir, proporciona ambos tamaños al &quot;marcador&quot; `DIV` y lo centra en la ventana del navegador. Además, la página web establece el tamaño del elemento `HTML` y en el `BODY` 100 %:
+En caso de incrustación de tamaño flexible con anchura y altura definidas, el estilo de la página web es diferente. Es decir, proporciona ambos tamaños al &quot;marcador&quot; `DIV` y lo centra en la ventana del explorador. Además, la página web establece el tamaño del elemento `HTML` y `BODY` en 100%:
 
 ```
 <!DOCTYPE html> 
@@ -368,7 +368,7 @@ var spinViewer = new s7viewers.SpinViewer({
 
 **Incrustación mediante API basada en Setter**
 
-En lugar de utilizar la inicialización basada en JSON, es posible utilizar la API basada en setter y el constructor no-args. Con ese constructor de API no toma ningún parámetro y los parámetros de configuración se especifican mediante métodos `setContainerId()`, `setParam()`y `setAsset()` API con llamadas JavaScript independientes.
+En lugar de utilizar la inicialización basada en JSON, es posible utilizar la API basada en setter y el constructor no-args. Con ese constructor de API no toma ningún parámetro y los parámetros de configuración se especifican mediante métodos de API `setContainerId()`, `setParam()` y `setAsset()` con llamadas JavaScript independientes.
 
 El siguiente ejemplo muestra la incrustación de tamaño fijo con la API basada en establecedor:
 
