@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 9eab6cb2-92a3-41d2-999a-254a7109d6b6
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> contar</span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica el número máximo de veces que aparece y vuelve a aparecer el <span class="codeph"> iconefecto</span> . El valor <span class="codeph"> -1</span> indica que el icono siempre vuelve a aparecer indefinidamente. </p> </td> 
+   <td colname="col2"> <p> Especifica el número máximo de veces que el <span class="codeph"> iconeffect</span> aparece y vuelve a aparecer. Un valor de <span class="codeph"> -1</span> indica que el icono siempre reaparece indefinidamente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> fundido</span></span> </p> </td> 
@@ -32,7 +35,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> autoHide</span></span> </p> </td> 
-   <td colname="col2"> <p>Define el número de segundos que el <span class="codeph"> iconefecto</span> permanece totalmente visible antes de que se oculte automáticamente. Es decir, el tiempo transcurrido desde que se completó la animación de fundido, pero antes de que se desactiven los inicios de animación. Un valor de <span class="codeph"> 0</span> desactiva el comportamiento de ocultación automática. </p> </td> 
+   <td colname="col2"> <p>Establece el número de segundos que el <span class="codeph"> iconeffect</span> permanece totalmente visible antes de que se oculte automáticamente. Es decir, el tiempo transcurrido desde que se completó la animación de fundido, pero antes de que se desactiven los inicios de animación. Una configuración de <span class="codeph"> 0</span> deshabilita el comportamiento de ocultación automática. </p> </td> 
   </tr> 
  </tbody> 
 </table>
