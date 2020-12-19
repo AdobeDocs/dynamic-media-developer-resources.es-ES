@@ -8,21 +8,24 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 77289c50-2f3a-4486-8274-eecfd6e5452f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Posición del texto{#text-positioning}
+# Colocación de texto{#text-positioning}
 
 El procesador text= coloca el texto fundamentalmente en una posición diferente al procesador textPs= cuando se aplica a capas de tamaño previo (es decir, cuando se especifica size= también).
 
-Las capas `text=``textPs=` y el tamaño propio tienen un aspecto y una posición similares.
+Las capas `text=`y `textPs=` de tamaño propio tienen una apariencia y posición similares.
 
-`textPs=` alinea la parte superior de la celda de caracteres con la parte superior del cuadro de texto (suponiendo `\vertalt`), aunque esto resulte en que partes de los glifos de texto procesados se extiendan parcialmente fuera del límite del cuadro de texto. Los glifos procesados de determinadas fuentes también pueden sobresalir ligeramente por encima de los bordes izquierdo y derecho del cuadro de texto. Para las aplicaciones que requieren que todo el texto procesado esté contenido dentro del rectángulo de la capa, los comandos RTF `\marg*` o `textFlowPath=` se pueden utilizar para ajustar el área de procesamiento del texto.
+`textPs=` alinea la parte superior de la celda de caracteres con la parte superior del cuadro de texto (suponiendo  `\vertalt`), aunque esto resulte en que partes de los glifos de texto procesados se extiendan parcialmente fuera del límite del cuadro de texto. Los glifos procesados de determinadas fuentes también pueden sobresalir ligeramente por encima de los bordes izquierdo y derecho del cuadro de texto. Para las aplicaciones que requieren que todo el texto procesado esté contenido dentro del rectángulo de capa, se pueden utilizar los comandos RTF `\marg*` o `textFlowPath=` para ajustar el área de procesamiento del texto.
 
 Por el contrario, `text=` cambiará el texto procesado según sea necesario y garantizará que todos los glifos procesados encajen completamente dentro del cuadro de texto especificado.
 
-Aunque `text=` puede ser un poco más fácil de usar para aplicaciones simples, `textPs=` oferta la posición precisa independientemente de las caras de la fuente y los efectos del texto.
+Mientras que `text=` puede ser un poco más fácil de usar para aplicaciones simples, `textPs=` oferta la posición precisa independientemente de las caras de las fuentes y los efectos de texto.
 
 ## Ejemplos {#section-1b6bdf2ea34447528188ae4e1430ee71}
 
@@ -34,7 +37,7 @@ Los siguientes ejemplos son para texto de tamaño previo. El comportamiento del 
 
 `/is/image/?size=230,50&bgc=f0f0f0&fmt=png&text=\fs40Normal%20Normal%20Normal`
 
-** `textPs=` procesa el texto perfectamente alineado en la parte superior del cuadro de texto, lo que puede resultar en un ligero recorte, incluso para fuentes comunes como Arial:**
+** `textPs=` representa el texto perfectamente alineado en la parte superior del cuadro de texto, lo que puede resultar en un ligero recorte, incluso para fuentes comunes como Arial:**
 
 ![](assets/tp02.png)
 
