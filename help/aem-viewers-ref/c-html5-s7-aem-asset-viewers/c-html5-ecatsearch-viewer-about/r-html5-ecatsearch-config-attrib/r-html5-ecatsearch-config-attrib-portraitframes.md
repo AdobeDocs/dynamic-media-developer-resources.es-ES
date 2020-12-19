@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: b915df14-62cf-4ff2-8336-dac4b3dd605f
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> split|solid</span> </p> </td> 
-   <td colname="col2"> <p>Se establece en <span class="codeph"> dividirse</span> para que el visor pueda mostrar los pliegos de páginas de doble como una página independiente cuando se utiliza en dispositivos móviles en orientación vertical. Se establece en <span class="codeph"> sólido</span> para mostrar siempre los pliegos de páginas de doble como una imagen sólida, independientemente de la orientación del dispositivo. </p> </td> 
+   <td colname="col2"> <p>Se establece en <span class="codeph"> split</span> para que el visor pueda mostrar los pliegos de páginas de doble como una página independiente cuando se utiliza en dispositivos móviles en orientación vertical. Establezca <span class="codeph"> solid</span> para mostrar siempre los pliegos de páginas de doble como imágenes sólidas, independientemente de la orientación del dispositivo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
