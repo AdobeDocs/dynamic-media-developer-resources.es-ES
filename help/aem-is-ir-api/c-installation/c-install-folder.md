@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 3e3a5077-f165-42e0-806b-c2cc97aa4f9a
 translation-type: tm+mt
 source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
+workflow-type: tm+mt
+source-wordcount: '79'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
 
 La carpeta de instalación del servicio de imágenes (carpeta_de_instalación) es install_root/ImageServing.
 
-*[!DNL install_root]* se establece de forma predeterminada `C:\Program Files\Scene7` en Windows (se puede seleccionar una *[!DNL install_root]* carpeta diferente durante la instalación). En Linux, *[!DNL install_root]* siempre debe ser [!DNL /usr/local/scene7] (se pueden utilizar enlaces simbólicos).
+*[!DNL install_root]* se establece de forma predeterminada  `C:\Program Files\Scene7` en Windows (se puede seleccionar una  *[!DNL install_root]* carpeta diferente durante la instalación). En Linux, *[!DNL install_root]* siempre debe ser [!DNL /usr/local/scene7] (se pueden usar vínculos simbólicos).
 
 En este documento, *[!DNL install_folder]* puede estar representado por &#39; [!DNL ./]&#39;.
 
