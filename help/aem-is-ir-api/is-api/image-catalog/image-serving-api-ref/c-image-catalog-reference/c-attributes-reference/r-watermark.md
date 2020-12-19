@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 18add7ab-0797-4ab3-a7e8-05c745abe605
 translation-type: tm+mt
 source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,11 +23,11 @@ Si se especifica, el servidor aplica la marca de agua a los datos de imagen soli
 
 ## Propiedades {#section-fad6ffff4c5f4b5c8010281bc1377055}
 
-Cadena de texto. Si se especifica, debe ser un valor válido `Catalog::Id` en este catálogo de imágenes (o en el catálogo predeterminado, si se especifica en [!DNL default.ini]).
+Cadena de texto. Si se especifica, debe ser un valor `Catalog::Id` válido en este catálogo de imágenes (o en el catálogo predeterminado, si se especifica en [!DNL default.ini]).
 
 ## Predeterminado {#section-f8a2029b5b8740b2af149bdbfa28fbae}
 
-Se hereda de `default::Watermark` si no se define. Si está definida pero está vacía, no se aplica ninguna marca de agua a este catálogo de imágenes, aunque `default::Watermark` esté definida.
+Se hereda de `default::Watermark` si no se define. Si está definida pero está vacía, no se aplica ninguna marca de agua para este catálogo de imágenes, aunque se haya definido `default::Watermark`.
 
 ## Véase también {#section-f15dbe31013849828d78588742dde58e}
 
