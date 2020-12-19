@@ -8,19 +8,22 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: e67b6dd2-2a78-4014-9525-816d91c9e783
 translation-type: tm+mt
 source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
+workflow-type: tm+mt
+source-wordcount: '573'
+ht-degree: 6%
 
 ---
 
 
-# Text formatting{#text-formatting}
+# Formato de texto{#text-formatting}
 
 El servicio de imágenes proporciona varias alternativas para procesar texto, accesibles con los comandos text= y textPs=.
 
-`textPs=` proporciona un alto nivel de similitud con el texto procesado con Adobe Photoshop e Illustrator. `text=` es razonablemente compatible con el texto procesado con Windows Wordpad.
+`textPs=` proporciona un alto nivel de similitud con el texto procesado con Adobe Photoshop y Illustrator. `text=` es razonablemente compatible con el texto procesado con Windows Wordpad.
 
 >[!NOTE]
 >
->Además de las diferencias enumeradas en otra parte, `text=` produce diferencias sutiles en el texto procesado cuando se compara con `textPs=`. Por ejemplo, los subrayados no tienen el mismo grosor y la posición y los cursiva sintetizados se representan con un ángulo ligeramente diferente. Si el texto no cabe en el espacio disponible, `text=` puede recortar parcialmente la última línea, mientras que solo `textPs=` representará líneas completas.
+>Además de las diferencias enumeradas en otra parte, `text=` produce diferencias sutiles en el texto procesado cuando se compara con `textPs=`. Por ejemplo, los subrayados no tienen el mismo grosor y la posición y los cursiva sintetizados se representan con un ángulo ligeramente diferente. Si el texto no cabe en el espacio disponible, `text=` puede recortar parcialmente la última línea, mientras que `textPs=` sólo representará líneas completas.
 
 Todos los comandos de texto aceptan texto con formato basado en un subconjunto de la especificación RTF (Formato de texto enriquecido). Cada capa de texto puede especificar un comando de texto diferente.
 
@@ -149,11 +152,11 @@ La tabla siguiente lista las funciones clave disponibles para cada comando de te
 
 Las cadenas compatibles con RTF pueden ensamblarse manualmente o dando formato al texto deseado en un editor de texto o procesador de textos capaz de guardar archivos RTF. El archivo RTF se puede abrir en un editor de texto sin formato y el contenido RTF sin procesar del archivo se copiará en la dirección URL de la solicitud.
 
-Algunos procesadores de texto generan archivos bastante grandes, que incluyen preámbulos sustanciales que el servicio de imágenes de Scene7 no utiliza. Se recomienda quitar los elementos RTF no utilizados de la cadena antes de pasar la cadena a los comandos de texto.
+Algunos procesadores de texto generan archivos bastante grandes, que incluyen preámbulos sustanciales que no se utilizan en el servicio de imágenes de Scene7. Se recomienda quitar los elementos RTF no utilizados de la cadena antes de pasar la cadena a los comandos de texto.
 
 La codificación de idioma basada en estándares UTF-8 e ISO se admite en cadenas RTF como alternativa a los mecanismos de codificación de caracteres RTF estándar. Esto permite a las aplicaciones enviar texto que no esté en inglés al servidor sin tener conocimiento de la codificación RTF.
 
-Todos los caracteres no compatibles con HTTP deben eliminarse correctamente si se va a transmitir la cadena mediante http. Solo es necesario que se escape &#39;=&#39;, &#39;&amp;&#39; y &#39;%&#39; si la cadena se incorpora al `catalog::Modifiers` campo de un registro de catálogo de imágenes. Los caracteres de control, incluidos `<CR>`, `<LF>`y `<TAB>` deben eliminarse siempre.
+Todos los caracteres no compatibles con HTTP deben eliminarse correctamente si se va a transmitir la cadena mediante http. Solo es necesario que se escape &#39;=&#39;, &#39;&amp;&#39; y &#39;%&#39; si la cadena se incorpora al campo `catalog::Modifiers` de un registro de catálogo de imágenes. Siempre se deben eliminar los caracteres de control, incluidos `<CR>`, `<LF>` y `<TAB>`.
 
 Los motores de texto del servicio de imágenes interpretan un subconjunto de comandos definidos por la Especificación de formato de texto enriquecido (RTF), versión 1.6. Este subconjunto se centra en el formato de fuente/carácter, el formato de párrafo sencillo y la compatibilidad con fuentes y conjuntos de caracteres internacionales. En este momento no se admiten construcciones de formato más avanzadas, como hojas de estilo y tablas.
 
