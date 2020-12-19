@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 52f5dad9-7309-4385-99bc-79d02d3ba2d9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '202'
+ht-degree: 0%
 
 ---
 
@@ -16,12 +19,12 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Todos los componentes del visor admiten funciones y atributos ARIA (Aplicaciones de Internet enriquecidas accesibles) para mejorar la integración con tecnologías de asistencia como lectores de pantalla.
 
-El elemento de visor de nivel superior tiene la función `region` y el `aria-label` atributo definidos de forma predeterminada en el nombre del visor. Puede controlar la etiqueta con el símbolo de `Container.LABEL` localización.
+El elemento de visor de nivel superior tiene la función `region` y el atributo `aria-label` establecidos de forma predeterminada en el nombre del visor. Puede controlar la etiqueta con el símbolo de localización `Container.LABEL`.
 
-Los botones tienen la función `button` y el texto descriptivo definidos con el `aria-label` atributo . El valor del `aria-label` atributo se rellena a partir del valor del símbolo de localización del botón. Cuando un botón está desactivado, `aria-disabled` el atributo se establece en consecuencia.
+Los botones tienen la función `button` y el texto descriptivo definido con el atributo `aria-label`. El valor del atributo `aria-label` se rellena a partir del valor del símbolo de localización del botón. Cuando se deshabilita un botón, el atributo `aria-disabled` se establece en consecuencia.
 
-Los componentes del deslizador tienen la función `slider` con atributos `aria-valuenow``aria-valuemin`y `aria-valuemax` para describir la posición actual del deslizador.
+Los componentes del deslizador tienen la función `slider` con los atributos `aria-valuenow`, `aria-valuemin` y `aria-valuemax` para describir la posición actual del deslizador.
 
-Las listas desplegables se activan mediante botones con un `aria-haspopup` atributo adicional definido en `true` `aria-controls` y un atributo que hace referencia al elemento del panel desplegable real. El propio panel desplegable tiene la función `menu` de subelementos con la función `menuitem`. Cada elemento de menú tiene el `aria-label` atributo especificado.
+Las listas desplegables se activan mediante botones con el atributo `aria-haspopup` adicional establecido en `true` y el atributo `aria-controls` que hace referencia al elemento real del panel desplegable. El propio panel desplegable tiene la función `menu` con subelementos que tienen la función `menuitem`. Cada elemento de menú tiene el atributo `aria-label` especificado.
 
-Los cuadros de diálogo Modal tienen la función `dialog`. El atributo hace referencia al elemento de encabezado del cuadro de diálogo `aria-labelledby` .
+Los cuadros de diálogo Modal tienen la función `dialog`. El atributo `aria-labelledby` hace referencia al elemento de encabezado del cuadro de diálogo.
