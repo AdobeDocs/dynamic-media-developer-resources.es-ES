@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 83220180-3272-4552-974d-a73e6aad3483
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '90'
+ht-degree: 15%
 
 ---
 
@@ -34,27 +37,27 @@ Los valores incluyen:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> typeHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> typeHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Identificador de tipo. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Identificador de Compañía. <p>Nota:  El tipo es global si el controlador de compañía no está presente. </p></td> 
+   <td colname="col3">Identificador de compañía. <p>Nota:  El tipo es global si el controlador de compañía no está presente. </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Escriba el nombre. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> propertyType</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> propertyType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3">Uno de los tipos de conjuntos de propiedades. Consulte Entrada (<span class="codeph"> createPropertySetTypeParam</span>). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> allowMultiple</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> allowMultiple</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> Si se permiten varias instancias de conjuntos de propiedades para adjuntar a un objeto de este tipo. </td> 
   </tr> 
