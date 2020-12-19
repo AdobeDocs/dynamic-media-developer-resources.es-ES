@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 832163ca-0554-481d-b87f-bf322f415274
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '172'
+ht-degree: 4%
 
 ---
 
@@ -20,7 +23,7 @@ Tamaño JPEG en KiloBytes. Especifica el tamaño máximo de la respuesta JPEG en
 
 <table id="simpletable_EC2A8D8B65854B45B9CB184DA1069355"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> tamaño</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> size</span></span> </p> </td> 
   <td class="stentry"> <p>Tamaño en kilobytes. </p></td> 
  </tr> 
 </table>
@@ -47,4 +50,4 @@ El tamaño de garantía no es demasiado grande para la entrega a un dispositivo 
 
 ## Véase también {#section-98d472b39d6547969fce6dd86748c153}
 
-[fmt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a) , [atributo::JpegQuality](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-jpegquality.md#reference-4a879e7c46024c8a898a9fd226f9eb09)
+[fmt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a) ,  [atributo::JpegQuality](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-jpegquality.md#reference-4a879e7c46024c8a898a9fd226f9eb09)
