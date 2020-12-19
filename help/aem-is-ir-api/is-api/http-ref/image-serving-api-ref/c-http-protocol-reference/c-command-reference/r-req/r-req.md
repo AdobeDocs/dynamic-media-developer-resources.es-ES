@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: b888be10-89e5-4b41-a2bd-f83533ea2481
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '99'
+ht-degree: 16%
 
 ---
 
@@ -39,8 +42,8 @@ Tipo de solicitud. Especifica el tipo de solicitud.
 * [xlate](r-xlate.md)
 * [xmp](r-xmp.md)
 
-A menos que se indique lo contrario en las descripciones detalladas, el servidor devolverá `text` respuestas con tipo MIME `text/plain`. Muchos tipos de solicitud permiten especificar un tipo de respuesta, como `text`, que suele ser el predeterminado, `javascript`, `xml`o `json`. Los tipos MIME de respuesta asociados son `text/plain`, `text/javascript`, `text/xml`y `text/javascript`, respectivamente.
+A menos que se indique lo contrario en las descripciones detalladas, el servidor devolverá `text` respuestas con tipo MIME `text/plain`. Muchos tipos de solicitud permiten especificar un tipo de respuesta, como `text`, que es generalmente el predeterminado, `javascript`, `xml` o `json`. Los tipos MIME de respuesta asociados son `text/plain`, `text/javascript`, `text/xml` y `text/javascript`, respectivamente.
 
-A menos que se indique lo contrario, las respuestas dan formato a la respuesta como un conjunto de `name=value` pares.
+A menos que se indique lo contrario, las respuestas dan formato a la respuesta como un conjunto de pares `name=value`.
 
 Consulte [Propiedades](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9).
