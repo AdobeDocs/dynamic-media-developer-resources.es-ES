@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 37ce59fe-f1f5-4226-af2e-5183ea8b7647
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Tooltips{#tooltips}
+# Información del objeto{#tooltips}
 
 En los sistemas de escritorio, algunos elementos de la interfaz de usuario, como los botones, tienen información sobre herramientas que se muestra al pasar el ratón por encima.
 
@@ -35,15 +38,15 @@ El aspecto de la información sobre herramientas se controla con el siguiente se
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p> Radio del borde de fondo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-color  </span> </p> </td> 
    <td colname="col2"> <p> Color del borde de fondo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Color de fondo. </p> </td> 
   </tr> 
   <tr> 
@@ -51,11 +54,11 @@ El aspecto de la información sobre herramientas se controla con el siguiente se
    <td colname="col2"> <p>Color de texto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Nombre de fuente del texto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Tamaño de fuente de texto. </p> </td> 
   </tr> 
  </tbody> 
@@ -63,7 +66,7 @@ El aspecto de la información sobre herramientas se controla con el siguiente se
 
 >[!NOTE]
 >
->Si los estilos de información sobre herramientas se personalizan desde la página web de incrustación, todas las propiedades deben contener la `!IMPORTANT` regla. Esto no es necesario si la información sobre herramientas se personaliza dentro del archivo CSS del visor.
+>Si los estilos de información sobre herramientas se personalizan desde la página web de incrustación, todas las propiedades deben contener la regla `!IMPORTANT`. Esto no es necesario si la información sobre herramientas se personaliza dentro del archivo CSS del visor.
 
 Ejemplo: para configurar información de objeto con un borde gris con un radio de esquina de tres píxeles, fondo negro y texto blanco en arial, 11 píxeles:
 
