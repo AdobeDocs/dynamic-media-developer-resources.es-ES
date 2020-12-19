@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 09d3940b-117d-4d83-8b12-e86520c9da34
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '223'
+ht-degree: 5%
 
 ---
 
@@ -32,37 +35,37 @@ Establece valores de metadatos para un recurso específico utilizado con setAsse
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Identificador del campo de metadatos. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> value</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> value</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Valor de actualización de metadatos. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> boolVal</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> boolVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> Valor de metadatos booleano (solo para campos con tipo booleano). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> longVal</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> longVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
    <td colname="col3"> Valor de metadatos largo (solo para campos interescritos). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> doubleVal</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> doubleVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:doble</span> </td> 
-   <td colname="col3"> Valor de metadatos de Doble (solo para campos con tipo flotante). </td> 
+   <td colname="col3"> Valor de metadatos de doble (solo para campos con tipo flotante). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> dateVal</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> dateVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
    <td colname="col3"> Valor de metadatos de fecha (solo para campos con fecha escrita). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> addTagValueArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> addTagValueArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:StringArray</span> </td> 
    <td colname="col3"> <p>Añade a la lista de valor de etiqueta existente para el recurso. 
      <ul id="ul_08DE6C490B614560A6118E7AC59720E3"> 
@@ -71,7 +74,7 @@ Establece valores de metadatos para un recurso específico utilizado con setAsse
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> setTagValueArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> setTagValueArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:StringArray</span> </td> 
    <td colname="col3">Reemplaza la lista de valor de etiqueta existente para el recurso. 
     <ul id="ul_941C915C69E84CF2AC5938378837EB92"> 
@@ -80,7 +83,7 @@ Establece valores de metadatos para un recurso específico utilizado con setAsse
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> deleteTagValueArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> deleteTagValueArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:StringArray</span> </td> 
    <td colname="col3"> Elimina los valores especificados de la lista de valor de etiqueta del recurso, si están presentes. </td> 
   </tr> 
