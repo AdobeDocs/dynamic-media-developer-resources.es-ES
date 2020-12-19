@@ -23,7 +23,7 @@ Consulte también [Carga de recursos mediante HTTP POST en la carga...](../../c-
 
 >[!NOTE]
 >
->Todas las solicitudes POST de un trabajo de carga deben proceder de la misma dirección IP.
+>Todas las solicitudes de POST para un trabajo de carga deben proceder de la misma dirección IP.
 
 ## Parámetros {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -77,7 +77,7 @@ Consulte también [Carga de recursos mediante HTTP POST en la carga...](../../c-
    <td colname="col1"> <span class="codeph"> <span class="varname"> inDesignOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:InDesignOptions</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Opciones para cargar archivos de InDesign en el servidor de imágenes. </p> </td> 
+   <td colname="col4"> <p>Opciones para cargar archivos InDesign en el servidor de imágenes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> IllustratorOptions</span> </span> </td> 
@@ -137,7 +137,7 @@ Consulte también [Carga de recursos mediante HTTP POST en la carga...](../../c-
    <td colname="col1"> <span class="codeph"> <span class="varname"> preserveCrop</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Controla la preservación de cualquier definición de cultivo existente. El valor predeterminado es true.</p> <p>Si se proporciona el parámetro manualCropOptions y los valores correspondientes, los nuevos valores (excluyendo 0,0,0,0) se aplican al recurso independientemente del valor preserveCrop.</p><p>Si <i>no se proporciona</i> el parámetro manualCropOptions, se mantiene el valor de preserveCrop. Y, en el caso de true, se conservan los valores existentes de preserveCrop; en el caso de false, se eliminan los valores preserveCrop.</p><p>Ejemplo:</p><p><p>&lt;preserveCrop&gt;false&lt;/preserveCrop&gt;<br />&lt;manualCropOptions&gt;<br />&lt;left&gt;190&lt;/left&gt;<br />&lt;right&gt;310&lt;/right&gt;<br />&lt;top&gt;160&lt;/top&gt;<br />&lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualCropOptions&gt;</p></td> 
+   <td colname="col4"> <p>Controla la preservación de cualquier definición de cultivo existente. El valor predeterminado es true.</p> <p>Si se proporciona el parámetro manualCropOptions y los valores correspondientes, los nuevos valores (excluyendo 0,0,0,0) se aplican al recurso independientemente del valor preserveCrop.</p><p>Si <i>no</i> proporciona el parámetro manualCropOptions, se mantiene el valor de preserveCrop. Y, en el caso de true, se conservan los valores existentes de preserveCrop; en el caso de false, se eliminan los valores preserveCrop.</p><p>Ejemplo:</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />    &lt;left&gt;190&lt;/left&gt;<br />    &lt;right&gt;310&lt;/right&gt;<br />    &lt;top&gt;160&lt;/top&gt;<br />    &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> preservePublishState</span> </span> </td> 
@@ -161,7 +161,7 @@ Consulte también [Carga de recursos mediante HTTP POST en la carga...](../../c-
    <td colname="col1"> <span class="codeph"> <span class="varname"> unCompressOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:UncompressOptions</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Extraiga y procese el contenido de los archivos TAR/ZIP cargados con esta configuración opcional. </p> <p>Consulte <a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> DescomprimirOpciones</a>. </p> </td> 
+   <td colname="col4"> <p>Extraiga y procese el contenido de los archivos TAR/ZIP cargados con esta configuración opcional. </p> <p>Consulte <a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> UnCompressOptions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </td> 
