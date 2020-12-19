@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 1fd27847-f00f-431f-8f4b-85817c4c3ac6
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ Atributo de configuración para el visor de vídeo interactivo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td colname="col2"> <p> Especifica dónde se dibuja la etiqueta en relación con la imagen de muestra. Es decir, la etiqueta se centra en la ubicación especificada en relación con la miniatura. </p> <p>Cuando se especifica <span class="codeph"> información sobre</span> herramientas, el texto de la etiqueta se muestra como información sobre herramientas flotante sobre la imagen en miniatura. </p> <p>Establezca en <span class="codeph"> ninguno</span> para desactivar la etiqueta. </p> </td> 
+   <td colname="col2"> <p> Especifica dónde se dibuja la etiqueta en relación con la imagen de muestra. Es decir, la etiqueta se centra en la ubicación especificada en relación con la miniatura. </p> <p>Cuando se especifica <span class="codeph"> tooltip</span>, el texto de la etiqueta se muestra como información flotante sobre la imagen en miniatura. </p> <p>Establezca <span class="codeph"> none</span> para desactivar la etiqueta. </p> </td> 
   </tr> 
  </tbody> 
 </table>
