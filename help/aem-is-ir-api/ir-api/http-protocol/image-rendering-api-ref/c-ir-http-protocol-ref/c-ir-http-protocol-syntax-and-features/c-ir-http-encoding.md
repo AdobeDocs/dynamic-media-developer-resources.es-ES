@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 37bd0040-7bad-4548-ab39-7f598a217732
 translation-type: tm+mt
 source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+workflow-type: tm+mt
+source-wordcount: '164'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +21,7 @@ Los valores de comando deben estar codificados en http con secuencias de escape 
 
 De lo contrario, se aplican las reglas de codificación HTTP estándar. La especificación HTTP requiere la codificación de caracteres no seguros como &#39; (espacio), &#39;&quot;(comillas de doble), &#39;#&#39;, &#39;%&#39;, &#39;&lt;&#39; y &#39;>&#39;, así como cualquier carácter de control, como `<return>` y `<tab>`.
 
-**Precaución:** Las llaves { } utilizadas como delimitadores de anidación de solicitudes no deben codificarse. Algunos clientes de correo electrónico desafortunadamente codifican llaves en solicitudes HTTP incrustadas. En caso de que esto ocurra, el procesamiento de imágenes permite el uso de paréntesis () en lugar de llaves.
+**Precaución:Las** llaves { } utilizadas como delimitadores de anidación de solicitudes no deben codificarse. Algunos clientes de correo electrónico desafortunadamente codifican llaves en solicitudes HTTP incrustadas. En caso de que esto ocurra, el procesamiento de imágenes permite el uso de paréntesis () en lugar de llaves.
 
 ## Ejemplo {#section-3edc5b8ee2354220a281b01722ad337a}
 
