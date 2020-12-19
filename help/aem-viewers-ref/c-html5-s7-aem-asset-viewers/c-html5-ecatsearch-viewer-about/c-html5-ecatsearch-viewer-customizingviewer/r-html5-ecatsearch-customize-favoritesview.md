@@ -1,18 +1,21 @@
 ---
 description: La vista Favoritos consiste en una columna de imágenes en miniatura.
 seo-description: La vista Favoritos consiste en una columna de imágenes en miniatura.
-seo-title: vista Favoritos
+seo-title: Vista Favoritos
 solution: Experience Manager
-title: vista Favoritos
+title: Vista Favoritos
 topic: Dynamic media
 uuid: e9d0380e-3b08-45e4-8419-447df2e8de37
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '293'
+ht-degree: 2%
 
 ---
 
 
-# vista Favoritos{#favorites-view}
+# Vista Favoritos{#favorites-view}
 
 La vista Favoritos consiste en una columna de imágenes en miniatura.
 
@@ -31,7 +34,7 @@ La posición y la altura de la vista Favoritos la gestiona la vista; en CSS solo
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Color de fondo de la vista Favoritos. </p> </td> 
   </tr> 
   <tr> 
@@ -62,7 +65,7 @@ El espaciado entre las miniaturas de Favoritos se controla con el siguiente sele
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> Tamaño del margen vertical alrededor de cada miniatura. El espaciado de la miniatura real es igual a la suma de los márgenes superior e inferior que se definen para la celda <span class="codeph"> .s7 </span>. </p> </td> 
+   <td colname="col2"> <p> Tamaño del margen vertical alrededor de cada miniatura. El espaciado de la miniatura real es igual a la suma de los márgenes superior e inferior que se configuran para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -86,7 +89,7 @@ El aspecto de la miniatura individual se controla con el siguiente selector de c
 <table id="table_6F5B1438CAFA49E9B33400C6970ABDA1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Anchura de la miniatura. </p> </td> 
   </tr> 
   <tr> 
@@ -102,7 +105,7 @@ El aspecto de la miniatura individual se controla con el siguiente selector de c
 
 >[!NOTE]
 >
->La miniatura admite el selector de `state` atributos, que se puede utilizar para aplicar diferentes apariencias a distintos estados de miniaturas. En particular, `state="selected"` corresponde a la miniatura seleccionada recientemente por el usuario. `state="default"` corresponde al resto de las miniaturas. Y `state="over"` se utiliza al pasar el ratón por encima.
+>La miniatura admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes apariencias a distintos estados de miniaturas. En particular, `state="selected"` corresponde a la miniatura seleccionada recientemente por el usuario. `state="default"` corresponde al resto de las miniaturas. Y `state="over"` se utiliza al pasar el ratón por encima.
 
 Ejemplo: para configurar miniaturas de 75 x 75 píxeles, tenga un borde predeterminado de gris claro y un borde seleccionado de color gris oscuro.
 
@@ -130,11 +133,11 @@ El aspecto de la etiqueta de miniatura se controla con el siguiente selector de 
 <table id="table_B41339A16ACB46CB87D3EB1FD05FA2CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Nombre de fuente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Tamaño de fuente. </p> </td> 
   </tr> 
  </tbody> 
