@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 7ca69994-e788-41a9-93ac-f22b6b9920d0
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '248'
+ht-degree: 2%
 
 ---
 
@@ -31,11 +34,11 @@ Extender la capa. Añade los márgenes en una capa o recorta el rectángulo de l
  </tr> 
 </table>
 
-`extend=` se aplica a la capa *después* de recortar la imagen ( `crop=`) y se han aplicado todas las transformaciones de capa, incluidas `rotate=`.
+`extend=` se aplica a la capa  ** después de recortar la imagen (  `crop=`) y se han aplicado todas las transformaciones de capa, incluidas  `rotate=`,
 
-El área extendida se rellena con `bgColor=`o, si no se especifica, permanece transparente.
+El área extendida se rellena con `bgColor=` o, si no se especifica, permanece transparente.
 
-Los valores de argumento de `extendN=` se normalizan en relación con el tamaño del rectángulo de la capa después de que se hayan aplicado las transformaciones de la capa, incluidas las `rotate=` realizadas.
+Los valores de argumento para `extendN=` se normalizan en relación con el tamaño del rectángulo de capa después de aplicar las transformaciones de capa, incluyendo `rotate=`.
 
 ## Propiedades {#section-8fc94de871f841f3bf5e1df135972ca9}
 
@@ -59,4 +62,4 @@ Tenga en cuenta que la altura de la imagen compuesta varía en función de la pr
 
 ## Véase también {#section-2d9572be32ca4602b60920b3810f3638}
 
-[recorte=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab) , [color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md), [tamaño=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-size.md#reference-04d383f32c7b4003bed9978cb854747b), [origen=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md#reference-e11c7ac06e2240cc884c3fec98f05138), [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)
+[recorte=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab) ,  [color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md),  [tamaño=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-size.md#reference-04d383f32c7b4003bed9978cb854747b),  [origen=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md#reference-e11c7ac06e2240cc884c3fec98f05138),  [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)
