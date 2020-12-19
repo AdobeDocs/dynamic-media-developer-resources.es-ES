@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e5a715c4-9b5b-48fc-8228-5e7416e2b71a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,8 +28,8 @@ Parámetro común a todos los visores.
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> archivo </span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica una dirección URL o ruta al contenido del subtítulo WebVTT. El servicio de imágenes proporciona el archivo WebVTT. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> file  </span> </span> </p> </td> 
+   <td colname="col2"> <p> Especifica una dirección URL o ruta al contenido del subtítulo WebVTT. El servicio de imágenes sirve el archivo WebVTT. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
@@ -50,26 +53,26 @@ Este visor admite subtítulos optativos mediante archivos WebVTT alojados. Los r
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> A </span> </p> </td> 
    <td colname="col2"> <p>alinear prueba </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> left|right|middle|inicio|end </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> left|right|middle|inicio|end  </span> </p> </td> 
    <td colname="col4"> <p> Controla la alineación del texto. </p> <p>El valor predeterminado es <span class="codeph"> medio </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">  </span> </p> </td> 
    <td colname="col2"> <p>posición de texto </p> </td> 
    <td colname="col3"> <p> 0%-100% </p> </td> 
-   <td colname="col4"> <p> Porcentaje de inserción en el componente VideoPlayer para el principio del texto del rótulo. </p> <p>Default is <span class="codeph"> 0% </span>. </p> </td> 
+   <td colname="col4"> <p> Porcentaje de inserción en el componente VideoPlayer para el principio del texto del rótulo. </p> <p>El valor predeterminado es <span class="codeph"> 0% </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> S </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> S  </span> </p> </td> 
    <td colname="col2"> <p>tamaño de línea </p> </td> 
    <td colname="col3"> <p> 0%-100% </p> </td> 
-   <td colname="col4"> <p> Porcentaje de anchura de vídeo utilizado para rótulos. </p> <p>Default is <span class="codeph"> 100% </span>. </p> </td> 
+   <td colname="col4"> <p> Porcentaje de anchura de vídeo utilizado para rótulos. </p> <p>El valor predeterminado es <span class="codeph"> 100% </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> L </span> </p> </td> 
    <td colname="col2"> <p>posición de línea </p> </td> 
    <td colname="col3"> <p> 0%-100%|entero </p> </td> 
-   <td colname="col4"> <p> Determina la posición de línea en la página. </p> <p>Si se expresa como un entero sin signo de porcentaje, es el número de líneas desde la parte superior donde se muestra el texto. </p> <p>Si se expresa como un porcentaje (el signo de porcentaje es el último carácter), se muestra el texto del rótulo ese porcentaje en el área de visualización. </p> <p>Default is <span class="codeph"> 100% </span>. </p> </td> 
+   <td colname="col4"> <p> Determina la posición de línea en la página. </p> <p>Si se expresa como un entero sin signo de porcentaje, es el número de líneas desde la parte superior donde se muestra el texto. </p> <p>Si se expresa como un porcentaje (el signo de porcentaje es el último carácter), se muestra el texto del rótulo ese porcentaje en el área de visualización. </p> <p>El valor predeterminado es <span class="codeph"> 100% </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -79,7 +82,7 @@ Tenga en cuenta que si hay otras funciones WebVTT presentes en el archivo WebVTT
 <table id="table_CB7B4DFC6B654AECA1AF6594E3FD5C46"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> archivo </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> file  </span> </span> </p> </td> 
    <td colname="col2"> <p> Especifica una dirección URL o ruta al contenido del subtítulo WebVTT. El servicio de imágenes proporciona el archivo WebVTT. </p> </td> 
   </tr> 
   <tr> 
