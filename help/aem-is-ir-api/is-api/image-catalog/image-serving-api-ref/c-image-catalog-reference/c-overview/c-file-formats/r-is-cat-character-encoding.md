@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: dfb56411-40d1-4bac-9213-9104ecba2a02
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Character encoding{#character-encoding}
+# Codificación de caracteres{#character-encoding}
 
 El servicio de imágenes admite catálogos de imágenes con codificación ISO-8859-1 y UTF-8.
 
