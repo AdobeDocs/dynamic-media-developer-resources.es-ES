@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 59568d38-6e05-45ca-8054-cec2c5ea8c02
 translation-type: tm+mt
 source-git-commit: aa095022d43db4bf815aece9bc2b087c53a64e1b
+workflow-type: tm+mt
+source-wordcount: '52'
+ht-degree: 11%
 
 ---
 
@@ -32,9 +35,9 @@ Una matriz de direcciones URL para invalidar la caché de CDN.
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> <span class="varname"> elementos</span></span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> elementos</span> </span> </p> </td> 
    <td> <p> <span class="codeph"> xsd:string</span> </p> </td> 
-   <td> <p> lista de direcciones URL para invalidar. Limitada a un máximo de 1000 direcciones URL según la definición WSDL. </p> </td> 
+   <td> <p> Lista de direcciones URL para invalidar. Limitada a un máximo de 1000 direcciones URL según la definición WSDL. </p> </td> 
   </tr> 
  </tbody> 
 </table>
