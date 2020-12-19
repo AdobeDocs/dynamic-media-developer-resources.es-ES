@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: aab11640-95d7-427d-b79f-c477b2c9047e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '180'
+ht-degree: 5%
 
 ---
 
@@ -41,7 +44,7 @@ Se permiten los siguientes valores:
 
 * Se recomienda el nivel 0 para los servidores activos a los que se puede acceder públicamente.
 * Se recomienda el nivel 2 para servidores de ensayo, garantía de calidad y desarrollo de aplicaciones.
-* La información de nivel 3 puede resultar útil cuando se producen problemas de sistema de informes a la asistencia técnica de Scene7.
+* La información de nivel 3 puede resultar útil cuando se producen problemas de sistema de informes en el soporte técnico de Scene7.
 
 ## Propiedades {#section-f03f9a8edd6a4d99aff38fbec41c4b80}
 
