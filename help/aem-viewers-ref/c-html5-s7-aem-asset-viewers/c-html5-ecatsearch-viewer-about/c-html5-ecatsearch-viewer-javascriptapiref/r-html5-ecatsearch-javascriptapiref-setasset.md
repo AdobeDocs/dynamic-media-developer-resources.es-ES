@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: ab078f32-c523-4b6c-a0d6-45dd2af35b36
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,17 +24,17 @@ Referencia de la API de JavaScript para el visor de vídeos.
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> recurso </span></span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="codeph"> Cadena </span>} nueva identificación de recurso o conjunto de imágenes explícito con los modificadores opcionales de servicio de imágenes añadidos después de <span class="codeph"> ? </span>. </p> <p> Este visor no admite las imágenes que utilizan IR (procesamiento de imágenes) o UGC (contenido generado por el usuario). </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> recurso  </span> </span> </p> </td> 
+   <td colname="col2"> <p>{ <span class="codeph"> Cadena </span>} nueva identificación del recurso o conjunto de imágenes explícitas con modificadores opcionales de servicio de imágenes anexados después de <span class="codeph"> ? </span>. </p> <p> Este visor no admite las imágenes que utilizan IR (procesamiento de imágenes) o UGC (contenido generado por el usuario). </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Define un nuevo recurso. Puede llamar a este parámetro en cualquier momento, ya sea antes o después [!DNL `init()`]. Si se llama después [!DNL `init()`], el visor intercambia el recurso en tiempo de ejecución.
+Define un nuevo recurso. Puede llamar a este parámetro en cualquier momento, ya sea antes o después de [!DNL `init()`]. Si se llama después de [!DNL `init()`], el visor intercambia el recurso en tiempo de ejecución.
 
 Consulte también [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
-## Returns {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Devuelve {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 Ninguno.
 
