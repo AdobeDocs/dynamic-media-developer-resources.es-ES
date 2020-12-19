@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: f4119ee9-f6d8-49fb-9d8c-bb200951d983
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '346'
+ht-degree: 10%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Busca en el repositorio de índices de metadatos los términos de búsqueda dados. Devuelve datos de recursos como el método searchAssets.
 
-Aunque `searchAssetsByMetadata` le permite buscar campos de metadatos definidos por el usuario, estos campos no se devuelven si se especifican en el `responseMetadataArray`. Para ilustrar este punto, el siguiente ejemplo de código:
+Mientras que `searchAssetsByMetadata` permite buscar en los campos de metadatos definidos por el usuario, esos campos no se devuelven si se especifican en `responseMetadataArray`. Para ilustrar este punto, el siguiente ejemplo de código:
 
 ```java
 <ns:responseMetadataArray>
@@ -33,7 +36,7 @@ devuelve un valor nulo:
 </items>
 ```
 
-Para solucionar este problema, puede utilizar el `fieldHandles` de los recursos devueltos por la búsqueda para ejecutarlos `getAssets` (consulte también [getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)). Este método obtiene los valores de campos definidos por el usuario para los recursos en cuestión. Utilice el siguiente ejemplo de sintaxis para buscar campos de metadatos definidos por el usuario:
+Para solucionar este problema, puede utilizar `fieldHandles` de los recursos devueltos por la búsqueda para ejecutar `getAssets` (consulte también [getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)). Este método obtiene los valores de campos definidos por el usuario para los recursos en cuestión. Utilice el siguiente ejemplo de sintaxis para buscar campos de metadatos definidos por el usuario:
 
 ```java
 <ns:metadataConditionArray>
@@ -70,49 +73,49 @@ Para solucionar este problema, puede utilizar el `fieldHandles` de los recursos 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sí </p> </td> 
    <td colname="col4"> <p>El identificador de la compañía. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> Filtro</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> Filtro</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> tipo:SearchFilter</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
    <td colname="col4"> <p>Filtros que ayudan a definir los criterios de búsqueda. </p> <p>Consulte <a href="../../../types/c-data-types/r-search-filter.md#reference-0e2eb87bccae4b69be6717267bcb80aa" format="dita" scope="local"> SearchFilter</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> metadataConditionArray</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> metadataConditionArray</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> type:MetadataConditionArray</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
    <td colname="col4"> <p>Condiciones que definen los criterios de búsqueda. Consulte a continuación para obtener más información. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> responseMetadataArray</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> responseMetadataArray</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> type:StringArray</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
    <td colname="col4"> <p>Campos adicionales que desea rellenar en la respuesta en el resumen de recursos. Los campos deben especificarse en el formato normalizado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> recordsPerPage</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
    <td colname="col4"> <p>Número de recursos devueltos por la respuesta. El valor predeterminado es 1000. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> resultsPage</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Especifica la página de resultados que se devolverá en función del tamaño de página <span class="codeph"> recordsPerPage</span> . </p> </td> 
+   <td colname="col4"> <p>Especifica la página de resultados que se devolverá, en función del <span class="codeph"> tamaño de página recordsPerPage</span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> sortBy</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> sortBy</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
    <td colname="col4"> <p>Ordenar por campo de recurso seleccionado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> sortDirection</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> sortDirection</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
    <td colname="col4"> <p>Elección de la dirección de clasificación. De subida es el valor predeterminado. </p> </td> 
@@ -156,7 +159,7 @@ Para solucionar este problema, puede utilizar el `fieldHandles` de los recursos 
 * `sku`
 * `modified_at`
 * `modified_by`
-* `created_at` (igual que `modified_at` (Fecha en el formulario: 25 de julio de 2014 22:13:45 GMT-0500 (CDT))
+* `created_at` (igual que  `modified_at` (Fecha en el formulario: 25 de julio de 2014 22:13:45 GMT-0500 (CDT))
 
 * `created_by`
 
@@ -171,15 +174,15 @@ El [!DNL operator] define cómo comparar el valor e incluye:
 * `StartsWith`
 * `EndsWith`
 
-El término `comparison_value` es el que se busca.
+El `comparison_value` es el término que se busca.
 
 ## Ejemplos {#section-53a12b9c023e4e629eddf5719c955ad4}
 
 Este ejemplo de código realiza una búsqueda con los siguientes criterios de metadatos:
 
-* `name` contiene `1000801`.
+* `name` contiene  `1000801`.
 
-* `dc.rights` field es igual a `Per Jessen Schmidt`.
+* `dc.rights` field es igual a  `Per Jessen Schmidt`.
 
 **Solicitar**
 
