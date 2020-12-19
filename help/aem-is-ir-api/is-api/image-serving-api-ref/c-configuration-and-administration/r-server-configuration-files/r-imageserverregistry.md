@@ -21,7 +21,7 @@ Contiene la configuración del servidor de imágenes.
 
 Al modificar este archivo XML, se debe tener cuidado de mantener una sintaxis XML válida; de lo contrario, el servidor de imágenes podría no realizar el inicio.
 
-Para que los cambios surtan efecto, reinicie el servidor de imágenes después de editar este archivo. Solo se admiten para la modificación los valores de elementos que se enumeran a continuación. Edite cualquier otro contenido de este archivo solo cuando el servicio de asistencia técnica de Scene7 lo aconseje.
+Para que los cambios surtan efecto, reinicie el servidor de imágenes después de editar este archivo. Solo se admiten para la modificación los valores de elementos que se enumeran a continuación. Edite cualquier otro contenido de este archivo únicamente cuando el servicio de asistencia técnica de Scene7 lo indique.
 
 >[!NOTE]
 >
