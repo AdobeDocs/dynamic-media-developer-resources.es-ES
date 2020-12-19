@@ -25,7 +25,7 @@ El servidor debe cumplir los siguientes requisitos de hardware.
 
 >[!NOTE]
 >
->Los sistemas con procesadores con AMD64 e Intel® EM64T suelen configurarse como plataformas NUMA (Arquitectura de memoria no uniforme). Esto significa que el núcleo construye varios nodos de memoria en tiempo de arranque en lugar de construir un solo nodo de memoria. La construcción de varios nodos puede resultar en agotamiento de la memoria en uno o más nodos antes de agotarse otros nodos. Cuando ocurre el agotamiento de la memoria, el núcleo puede decidir eliminar procesos (por ejemplo, el Servidor de imágenes o el Servidor de Platform) aunque haya memoria disponible. Por lo tanto, Adobe Systems recomienda que si está ejecutando un sistema de este tipo desactive NUMA. Utilice la opción `numa=off` inicio para evitar que el núcleo detenga estos procesos.
+>Los sistemas con procesadores con AMD64 e Intel® EM64T suelen configurarse como plataformas NUMA (Arquitectura de memoria no uniforme). Esto significa que el núcleo construye varios nodos de memoria en tiempo de arranque en lugar de construir un solo nodo de memoria. La construcción de varios nodos puede resultar en agotamiento de la memoria en uno o más nodos antes de agotarse otros nodos. Cuando ocurre el agotamiento de la memoria, el núcleo puede decidir eliminar procesos (por ejemplo, el Servidor de imágenes o el Servidor de plataformas) aunque haya memoria disponible. Por lo tanto, Adobe Systems recomienda que si está ejecutando un sistema de este tipo desactive NUMA. Utilice la opción de inicio `numa=off` para evitar que el núcleo detenga estos procesos.
 
 **Windows**
 
@@ -43,7 +43,7 @@ El servidor debe cumplir los siguientes requisitos de hardware.
 * 2 GB de espacio disponible en el disco duro para la instalación y el funcionamiento básico; se necesita espacio adicional en disco para las imágenes de origen, los registros, las memorias caché de datos y los archivos de manifiesto.
 * Tarjeta de interfaz de red Fast Ethernet.
 
-**Nota (Linux):** El servicio de imágenes no funciona con SELinux activado. Esta opción está activada de forma predeterminada. Para deshabilitar SELinux, edite el [!DNL /etc/selinux/config] archivo y cambie el valor de SELinux de:
+**Nota (Linux):El servicio** de imágenes no funciona con SELinux activado. Esta opción está activada de forma predeterminada. Para deshabilitar SELinux, edite el archivo [!DNL /etc/selinux/config] y cambie el valor de SELinux de:
 
 `SELINUX=enforcing`
 
@@ -51,7 +51,7 @@ a
 
 `SELINUX=disabled`
 
-**Nota (Linux):** Asegúrese de que el nombre de host del servidor se puede resolver en una dirección IP. Si esto no es posible, agregue el nombre de host completo y la dirección IP a [!DNL /etc/hosts] como en el ejemplo siguiente.
+**Nota (Linux):** Asegúrese de que el nombre de host del servidor se puede resolver en una dirección IP. Si esto no es posible, agregue el nombre de host completo y la dirección IP a [!DNL /etc/hosts] como en el siguiente ejemplo.
 
 `<ip address> <fully qualified hostname>`
 
@@ -69,7 +69,7 @@ El servicio de imágenes de Scene7 requiere el siguiente software de servidor.
 * Red Hat® Enterprise 5 o CentOS 5.5 y posterior, con los parches de corrección más recientes.
 * Sistema operativo de 64 bits.
 
-**Nota:** Para utilizar el servicio de imágenes en Windows, debe instalar el redistribuible de Microsoft Visual Studio 2010. El redistribuible está disponible en la siguiente ubicación:
+**Nota:** Para usar el servicio de imágenes en Windows, debe instalar el redistribuible de Microsoft Visual Studio 2010. El redistribuible está disponible en la siguiente ubicación:
 
 [http://www.microsoft.com/en-us/download/details.aspx?id=13523](http://www.microsoft.com/en-us/download/details.aspx?id=13523)
 
