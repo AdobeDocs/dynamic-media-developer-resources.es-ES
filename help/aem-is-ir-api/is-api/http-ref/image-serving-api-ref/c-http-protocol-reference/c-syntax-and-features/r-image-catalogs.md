@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: d329807a-22b0-42a3-9297-8dad7a1dce43
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '487'
+ht-degree: 0%
 
 ---
 
@@ -20,15 +23,15 @@ Los catálogos de imágenes oferta las siguientes funciones:
 
 * Permitir la asociación persistente de imágenes con determinados comandos de modificador y metadatos.
 
-   Se hace referencia a las entradas de los catálogos de imágenes mediante una notación de método abreviado ` *`rootId/objId`*`, donde ` *`rootId`*` identifica el catálogo de imágenes y ` *`objId`*` identifica un registro de datos del catálogo.
+   Se hace referencia a las entradas de los catálogos de imágenes mediante una notación de método abreviado ` *`rootId/objId`*`, donde ` *`rootId`*` identifica el catálogo de imágenes y ` *`objId`*` identifica un registro de datos en el catálogo.
 * Proporcione valores predeterminados para determinados atributos de solicitud, como la calidad JPEG o si se va a aplicar una marca de agua.
 * Administrar fuentes, perfiles ICC, definiciones de macros y plantillas de solicitud
 
 Aunque no se definan catálogos de imágenes específicos, todas las funciones de los catálogos de imágenes están disponibles a través del catálogo predeterminado ( [!DNL default.ini]).
 
-Si ` *`rootId`*` en la ruta de URL de la solicitud coincide con `attribute::RootId` un catálogo de imágenes específico, ese catálogo se convertirá en el catálogo principal para esta solicitud. El catálogo principal proporciona los atributos y la configuración predeterminados para toda la solicitud. Si no se encuentra ninguna coincidencia, se utiliza el catálogo predeterminado.
+Si ` *`rootId`*` en la ruta de URL de la solicitud coincide con `attribute::RootId` de un catálogo de imágenes específico, ese catálogo se convertirá en el catálogo principal para esta solicitud. El catálogo principal proporciona los atributos y la configuración predeterminados para toda la solicitud. Si no se encuentra ninguna coincidencia, se utiliza el catálogo predeterminado.
 
-Un catálogo identificado en un `src=` comando o `mask=` proporciona los siguientes atributos y datos de catálogo a la capa actual:
+Un catálogo identificado en un comando `src=` o `mask=` proporciona los siguientes atributos y datos de catálogo a la capa actual:
 
 <table id="table_D3FA66EA5D054745900DE5A120885AA8"> 
  <thead> 
@@ -44,7 +47,7 @@ Un catálogo identificado en un `src=` comando o `mask=` proporciona los siguien
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> atributo::Caducidad</span> </p> </td> 
-   <td> <p> predeterminado para <span class="codeph"> catálogo::Caducidad</span> o caducidad de la capa actual si no hay ningún registro de catálogo involucrado </p> </td> 
+   <td> <p> valor predeterminado para <span class="codeph"> catálogo::Caducidad</span> o caducidad de la capa actual si no hay ningún registro de catálogo involucrado </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::Icc*</span> </p> </td> 
@@ -56,7 +59,7 @@ Un catálogo identificado en un `src=` comando o `mask=` proporciona los siguien
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::Resolution</span> </p> </td> 
-   <td> <p> predeterminado para <span class="codeph"> catálogo::Solo resolución</span> </p> </td> 
+   <td> <p> predeterminado para <span class="codeph"> catálogo::Resolution</span> solamente </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catálogo::Anclaje</span> </p> </td> 
@@ -80,7 +83,7 @@ Un catálogo identificado en un `src=` comando o `mask=` proporciona los siguien
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catálogo::Modificador</span> </p> </td> 
-   <td> <p> comandos de prefijo para la capa actual (cada comando del <span class="codeph"> catálogo::Modificador</span> se puede anular con el mismo comando de la URL, si se especifica para la misma capa) </p> </td> 
+   <td> <p> comandos de prefijo para la capa actual (cada comando de <span class="codeph"> catálogo::Modifier</span> se puede anular con el mismo comando en la dirección URL, si se especifica para la misma capa) </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catálogo::Path</span> </p> </td> 
@@ -88,7 +91,7 @@ Un catálogo identificado en un `src=` comando o `mask=` proporciona los siguien
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catálogo::PostModifier</span> </p> </td> 
-   <td> <p> los comandos postfix de la capa actual (similar a <span class="codeph"> catálogo::Modificador</span>, pero los comandos de <span class="codeph"> catálogo::PostModifier</span> anulan los mismos comandos especificados en la URL o en el <span class="codeph"> catálogo::Modificador</span>) </p> </td> 
+   <td> <p> los comandos postfix de la capa actual (similar a <span class="codeph"> catálogo::Modificador</span>, pero los comandos de <span class="codeph"> catálogo::PostModifier</span> anulan los mismos comandos especificados en la dirección URL o en <span class="codeph"> catálogo::Modificador</span>) </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catálogo::Resolución</span> </p> </td> 
@@ -97,14 +100,14 @@ Un catálogo identificado en un `src=` comando o `mask=` proporciona los siguien
  </tbody> 
 </table>
 
-Dentro de la misma capa, `src=` y `mask=` debe hacer referencia al mismo catálogo de imágenes (si existe).
+Dentro de la misma capa, `src=` y `mask=` deben hacer referencia al mismo catálogo de imágenes (si existe).
 
-Un catálogo identificado en un `icc=` comando solo se utiliza para buscar una entrada de la tabla de perfil ICC del catálogo. No hay otros atributos o datos de catálogo involucrados.
+Un catálogo identificado en un comando `icc=` solo se utiliza para buscar una entrada de la tabla de perfil ICC del catálogo. No hay otros atributos o datos de catálogo involucrados.
 
-Si ` *`rootId`*` se resuelve en un catálogo y ` *`objId`*` coincide con un `catalog::Id` en este catálogo, ` *`rootId/objId`*` se reemplaza efectivamente por la entrada del catálogo de este modo:
+Si ` *`rootId`*` se resuelve en un catálogo y ` *`objId`*` coincide con un `catalog::Id` en este catálogo, ` *`rootId/objId`*` se reemplaza efectivamente por la entrada del catálogo de alguna manera como esta:
 
 `src=attribute::RootPath/catalog::Path& mask=attribute::RootPath/catalog::MaskPath& anchor=catalog::Anchor& catalog::Modifier& catalog::PostModifier`
 
 ## Véase también {#section-00e4f6b39cd14244bcce537a3f831259}
 
-[Referencia](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)del catálogo de imágenes, [src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1), [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [anchor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md#reference-6661e548ab284b82828d8d94c8ddeb7c)
+[Referencia](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) del catálogo de imágenes,  [src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1),  [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e),  [anchor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md#reference-6661e548ab284b82828d8d94c8ddeb7c)
