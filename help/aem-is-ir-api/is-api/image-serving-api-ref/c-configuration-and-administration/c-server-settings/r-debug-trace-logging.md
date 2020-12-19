@@ -21,7 +21,7 @@ Utilice esta configuración del servidor para depurar el registro de seguimiento
 
 >[!NOTE]
 >
->Se recomienda configurar todos los archivos de registro para que se escriban en la misma carpeta que `TC::directory`. Esto garantiza que todos los archivos de registro del servicio de imágenes participen en la rotación automática del archivo de registro configurada con `TC::maxDays`, lo que evitará la posible inestabilidad del servidor debido a condiciones de espacio fuera de disco.
+>Se recomienda configurar todos los archivos de registro para que se escriban en la misma carpeta que `TC::directory`. Esto garantiza que todos los archivos de registro del servicio de imágenes participen en la rotación automática del archivo de registro configurada con `TC::maxDays`, lo que evitará la posible inestabilidad del servidor debido a condiciones de espacio fuera del disco.
 
 ## SV::log - Ruta del archivo de registro de seguimiento del supervisor del servidor {#section-3697bc480ff646e79cacc2812c55ef26}
 
@@ -47,13 +47,13 @@ Carpeta y nombre de archivo base para los archivos de registro de seguimiento de
 
 El nivel de registro puede ser 1, 2, 3 o 4 (el valor predeterminado es 2)
 
-El nivel 1 registra eventos relacionados con las conexiones de inicio, apagado y Platform Server.
+El nivel 1 registra eventos relacionados con las conexiones de inicio, apagado y servidor de plataforma.
 
 El nivel 2 también registra la conexión y desconexión de las imágenes de origen.
 
-El nivel 3 agrega el registro de solicitudes de datos de píxeles y el envío de los mismos al servidor de Platform.
+El nivel 3 agrega el registro de solicitudes de datos de píxeles y el envío de la misma a Platform Server.
 
-Level 4 registra todos los mensajes recibidos del servidor de Platform.
+El nivel 4 registra todos los mensajes recibidos del servidor de plataformas.
 
 Los niveles 3 y 4 deben utilizarse únicamente con fines de depuración, ya que los archivos de registro pueden llegar a ser muy grandes.
 
