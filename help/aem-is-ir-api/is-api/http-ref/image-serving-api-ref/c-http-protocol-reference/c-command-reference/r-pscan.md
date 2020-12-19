@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: c8e1d7a9-679c-437f-aa53-67aca3f40b30
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '270'
+ht-degree: 1%
 
 ---
 
@@ -20,9 +23,9 @@ Análisis progresivo de JPEG. JPEG progresivo muestra una imagen de tal manera q
 
 La velocidad real de cada escaneo depende de la velocidad de transmisión del sistema del usuario y del equipo que recibe y descomprime los datos.
 
-`Auto` utiliza la configuración de exploración calculada por la biblioteca JPEG independiente y depende del modelo de color. Los valores de `3`, `4`, `5` corresponden a la configuración de exploración que se encuentra en Adobe Photoshop cuando se guarda un archivo JPEG como un pjpeg (JPEG progresivo).
+`Auto` utiliza la configuración de exploración calculada por la biblioteca JPEG independiente y depende del modelo de color. Los valores de `3`, `4`, `5` corresponden a la configuración de análisis que se encuentra en Adobe Photoshop al guardar un archivo JPEG como un pjpeg (JPEG progresivo).
 
-Si no `pscan` se establece, el valor predeterminado es `auto`.
+Si `pscan` no está establecido, el valor predeterminado es `auto`.
 
 ## Propiedades {#section-e36aa3c63a974b969d9e4f43fe5a37ab}
 
