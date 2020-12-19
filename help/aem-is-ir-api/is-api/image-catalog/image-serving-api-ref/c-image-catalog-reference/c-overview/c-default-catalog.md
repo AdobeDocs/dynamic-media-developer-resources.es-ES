@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 9f0c967e-a2fa-4ef0-bacb-3dcfb06a8027
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,9 +23,9 @@ Si no se encuentra un atributo concreto en un catálogo de imágenes específico
 
 Además, el catálogo predeterminado proporciona todos los atributos y registros de datos (macros, fuentes, perfiles ICC, reglas de preprocesamiento de solicitudes) cuando no hay ningún catálogo de imágenes específico involucrado en una operación.
 
-Para el correcto funcionamiento del servidor de plataformas, se debe asignar un nombre al archivo de atributos del catálogo predeterminado [!DNL default.ini], debe existir siempre en la carpeta del catálogo y debe rellenarse con todos los atributos necesarios, excluyendo `attribute::RootId` y las referencias a los distintos archivos de datos del catálogo, que son todos opcionales.
+Para el correcto funcionamiento del servidor de plataformas, el archivo de atributos del catálogo predeterminado debe tener el nombre [!DNL default.ini], debe existir siempre en la carpeta del catálogo y debe rellenarse con todos los atributos requeridos, excluyendo `attribute::RootId` y las referencias a los diversos archivos de datos del catálogo, que son todos opcionales.
 
 >[!NOTE]
 >
->Todos los archivos de atributos del catálogo excepto [!DNL default.ini] deben contener un `attribute::RootId` valor único. `attribute::RootId` en [!DNL default.ini] debe estar vacío.
+>Todos los archivos de atributos del catálogo excepto [!DNL default.ini] deben contener un valor `attribute::RootId` único. `attribute::RootId` en  [!DNL default.ini] debe estar vacío.
 
