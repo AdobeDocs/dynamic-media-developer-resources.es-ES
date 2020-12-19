@@ -37,6 +37,6 @@ Image Server se instala como un demonio Linux.
 
 [!DNL http:// *[!DNL server:port]*/ir/procesar]
 
-En las respuestas, compruebe la presencia de elementos que empiecen por &quot; `imageServer.`&quot;, lo que indica que el servidor de Platform puede comunicarse correctamente con el servidor de imágenes.
+En las respuestas, compruebe la presencia de elementos que empiecen por &quot; `imageServer.`&quot;, lo que indica que el Servidor de plataforma podría comunicarse correctamente con el Servidor de imágenes.
 >Se puede realizar una verificación adicional utilizando las páginas de muestra de los paquetes Documentación y Demostración, si están instalados.
 
