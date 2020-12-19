@@ -8,17 +8,20 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: aeec7597-4d23-4cf8-8bdc-3a133152eadb
 translation-type: tm+mt
 source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+workflow-type: tm+mt
+source-wordcount: '654'
+ht-degree: 0%
 
 ---
 
 
-# Referencia de conjunto de reglas{#rule-set-reference}
+# Referencia del conjunto de reglas{#rule-set-reference}
 
 El procesamiento de imágenes admite un mecanismo sencillo de preprocesamiento de solicitudes basado en reglas de coincidencia y sustitución de expresiones regulares.
 
 <!--<a id="section_F44601A65CE1451EAD0A449C66B773CC"></a>-->
 
-Las colecciones de reglas de preprocesamiento (conjuntos *de* reglas) se pueden adjuntar a catálogos de material o al catálogo predeterminado. Las reglas del catálogo predeterminado solo se aplican si la solicitud no adjunta un catálogo de material específico.
+Las colecciones de reglas de preprocesamiento (*conjuntos de reglas*) se pueden adjuntar a catálogos de material o al catálogo predeterminado. Las reglas del catálogo predeterminado solo se aplican si la solicitud no adjunta un catálogo de material específico.
 
 Las reglas de preprocesamiento de solicitudes pueden modificar la ruta y las partes de consulta de las solicitudes antes de que el analizador de solicitudes del servidor las procese, incluida la manipulación de la ruta, la adición de comandos, el cambio de valores de comandos y la aplicación de plantillas o macros. También se pueden usar reglas para configurar y anular algunos atributos de catálogo, así como para limitar el servicio a direcciones IP de cliente específicas.
 
@@ -47,9 +50,9 @@ Los conjuntos de reglas se almacenan como archivos documento XML. La ruta relati
 </ruleset>
 ```
 
-Los elementos `<?xml>`, `<!DOCTYPE>` y `<ruleset>` siempre son necesarios en un archivo XML de conjunto de reglas válido, aunque no se haya definido ninguna regla real.
+Los elementos `<?xml>`, `<!DOCTYPE>` y `<ruleset>` siempre se requieren en un archivo XML de conjunto de reglas válido, incluso si no se define ninguna regla real.
 
-Se permite un `<ruleset>` elemento que contenga cualquier número de `<rule>` elementos.
+Se permite un elemento `<ruleset>` que contenga cualquier número de elementos `<rule>`.
 
 El contenido de los archivos de reglas de preprocesamiento distingue entre mayúsculas y minúsculas.
 
@@ -57,15 +60,15 @@ El contenido de los archivos de reglas de preprocesamiento distingue entre mayú
 
 Antes de cualquier otro procesamiento, una solicitud HTTP entrante se analiza parcialmente para determinar qué catálogo de material debe aplicarse. Una vez identificado el catálogo, se aplica el conjunto de reglas para el catálogo seleccionado (o el catálogo predeterminado, si no se ha identificado ningún catálogo específico).
 
-Se busca en los `<rule>` elementos en el orden especificado para que coincidan con el contenido del `<expression>` elemento ( *`expression`*).
+Los elementos `<rule>` se buscan en el orden especificado para una coincidencia con el contenido del elemento `<expression>` ( *`expression`*).
 
-Si `<rule>` se coincide con un elemento, se aplica la opción *`substitution`* y la cadena de solicitud modificada se pasa al analizador de solicitudes del servidor para un procesamiento normal.
+Si coincide con un `<rule>`, se aplica el *`substitution`* opcional y la cadena de solicitud modificada se pasa al analizador de solicitudes del servidor para un procesamiento normal.
 
-Si no se realiza una coincidencia correcta cuando se llega al final del `<ruleset>` evento, la solicitud se pasa al analizador sin ninguna modificación.
+Si no se realiza una coincidencia correcta cuando se llega al final del `<ruleset>`, la solicitud se pasa al analizador sin ninguna modificación.
 
 ## El atributo OnMatch {#section-7a8ad3597780486985af5e9a3b1c7b56}
 
-El comportamiento predeterminado se puede modificar con el `OnMatch` atributo de los `<rule>` elementos. `OnMatch` puede establecerse en `break` (predeterminado), `continue`o `error.`
+El comportamiento predeterminado se puede modificar con el atributo `OnMatch` de los elementos `<rule>`. `OnMatch` puede establecerse en  `break` (predeterminado),  `continue`o  `error.`
 
 <table id="table_4CABF55B33854A128D5F326B31C6C397"> 
  <thead> 
@@ -90,23 +93,23 @@ El comportamiento predeterminado se puede modificar con el `OnMatch` atributo de
  </tbody> 
 </table>
 
-## Anulación de atributos de catálogo {#section-1f59ce84234f4576ba8473b0e6ba22ee}
+## Anulando atributos de catálogo {#section-1f59ce84234f4576ba8473b0e6ba22ee}
 
-`<rule>` de forma opcional, los elementos pueden definir atributos que anulan los atributos de catálogo correspondientes cuando la regla se coincide y `OnMatch="break"` se establece correctamente. No se aplican atributos si `OnMatch="continue"` está establecido. Consulte la descripción de `<rule>` para obtener una lista de atributos que se pueden controlar con reglas.
+`<rule>` de forma opcional, los elementos pueden definir atributos que anulan los atributos de catálogo correspondientes cuando la regla se coincide correctamente y  `OnMatch="break"` se establece. No se aplican atributos si `OnMatch="continue"` está establecido. Consulte la descripción de `<rule>` para obtener una lista de atributos que se pueden controlar con reglas.
 
-## expresiones regulares {#section-4d326507b52544b0960a9a5f303e3fe6}
+## Expresiones regulares {#section-4d326507b52544b0960a9a5f303e3fe6}
 
 La coincidencia simple de cadenas funciona para aplicaciones muy básicas, pero en la mayoría de los casos se requieren expresiones regulares. Aunque las expresiones regulares son estándar del sector, la implementación específica varía de una instancia a otra.
 
-[package java.util.regex](https://www2.cs.duke.edu/csed/java/jdk1.4.2/docs/api/) describe la implementación de expresión regular específica utilizada por el servicio de imágenes.
+[package java.util.](https://www2.cs.duke.edu/csed/java/jdk1.4.2/docs/api/) regexdescribe la implementación de expresión regular específica utilizada por el servicio de imágenes.
 
 ## Subcadenas capturadas {#section-8057cd65d48949ffb6a50e929bd3688b}
 
-Para facilitar las modificaciones de direcciones URL complejas, las subcadenas se pueden capturar en la expresión rodeando la subcadena con paréntesis (...). Las subcadenas capturadas se numeran secuencialmente comenzando por 1 según la posición del paréntesis inicial. Las subcadenas capturadas se pueden insertar en la sustitución utilizando *`$n`*, donde *`n`* es el número de secuencia de la subcadena capturada.
+Para facilitar las modificaciones de direcciones URL complejas, las subcadenas se pueden capturar en la expresión rodeando la subcadena con paréntesis (...). Las subcadenas capturadas se numeran secuencialmente comenzando por 1 según la posición del paréntesis inicial. Las subcadenas capturadas se pueden insertar en la sustitución mediante *`$n`*, donde *`n`* es el número de secuencia de la subcadena capturada.
 
 ## Administración de archivos de conjunto de reglas {#section-e8ce976b56404c009496426fd334d23d}
 
-Se puede adjuntar un archivo de conjunto de reglas a cada catálogo de materiales con el atributo de catálogo `attribute::RuleSetFile`. Aunque puede editar el archivo del conjunto de reglas en cualquier momento, el servidor de imágenes solo reconoce los cambios cuando se vuelve a cargar el catálogo de materiales asociado. Esto sucede cuando se inicia o reinicia el servidor de plataformas y cuando se modifica o se &quot;toca&quot; el archivo de catálogo principal (que tiene un sufijo de [!DNL .ini] archivo) (para cambiar la fecha del archivo).
+Se puede adjuntar un archivo de conjunto de reglas a cada catálogo de materiales con el atributo de catálogo `attribute::RuleSetFile`. Aunque puede editar el archivo del conjunto de reglas en cualquier momento, el servidor de imágenes solo reconoce los cambios cuando se vuelve a cargar el catálogo de materiales asociado. Esto sucede cuando se inicia o reinicia el Servidor de plataformas y cuando se modifica o se toca el archivo de catálogo principal (que tiene un sufijo de archivo [!DNL .ini]) (para cambiar la fecha del archivo).
 
 ## Ejemplos {#section-c4142a41f5cd4ff799a72fbc130c3700}
 
