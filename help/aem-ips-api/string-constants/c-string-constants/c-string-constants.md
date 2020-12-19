@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 2cc2fb9f-ad32-4ac6-8e58-c8a11b786d65
 translation-type: tm+mt
 source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,7 +42,7 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 * [Modos de anclaje de Photoshop](r-photoshop-anchor-modes.md)
 * [Modos de nombres de capas de Photoshop](r-photoshop-layer-naming-modes.md)
 * [Modos de espacio de color PostScript](r-postscript-colorspace-modes.md)
-* [Clases de Perfil](r-profile-classes.md)
+* [Clases de perfil](r-profile-classes.md)
 * [Estado de publicación](r-publish-state.md)
 * [Tipos de conjuntos de propiedades](r-property-set-types.md)
 * [Contexto de publicación](r-publish-context.md)
