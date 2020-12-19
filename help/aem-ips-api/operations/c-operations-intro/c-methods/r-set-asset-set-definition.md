@@ -9,8 +9,8 @@ uuid: 2a2dce5d-7a01-49af-ac8b-33ae0b234ecc
 translation-type: tm+mt
 source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -48,7 +48,7 @@ La API de IPS no devuelve una respuesta para esta operación.
 
 **funciones setDefinition**
 
-Especifique `setDefinition` las funciones de sustitución en línea. Se resuelven durante una búsqueda de catálogo o en una publicación. Las cadenas de sustitución tienen el formato `${<substitution_func>}`e incluyen lo siguiente:
+Especifique `setDefinition` funciones de sustitución en línea. Se resuelven durante una búsqueda de catálogo o en una publicación. Las cadenas de sustitución tienen el formato `${<substitution_func>}` e incluyen lo siguiente:
 
 >[!NOTE]
 >
@@ -63,19 +63,19 @@ Especifique `setDefinition` las funciones de sustitución en línea. Se resuelve
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getFilePath([ <span class="varname"> asset_handle </span>]) </span> </td> 
+   <td colname="col1"> <span class="codeph"> getFilePath([  <span class="varname"> asset_handle  </span>])  </span> </td> 
    <td colname="col2"> Ruta del archivo principal. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getCatalogd([ <span class="varname"> asset_handle </span>]) </span> </td> 
+   <td colname="col1"> <span class="codeph"> getCatalogd([  <span class="varname"> asset_handle  </span>])  </span> </td> 
    <td colname="col2"> ID del catálogo. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getMetaData([ <span class="varname"> asset_handle </span>],[ <span class="varname"> metadata_field_handle </span>]) </span> </td> 
+   <td colname="col1"> <span class="codeph"> getMetaData([  <span class="varname"> asset_handle  </span>],[  <span class="varname"> metadata_field_handle  </span>])  </span> </td> 
    <td colname="col2"> Valor de metadatos. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getThumbCatalogId([ <span class="varname"> asset_handle </span>]) </span> </td> 
+   <td colname="col1"> <span class="codeph"> getThumbCatalogId([  <span class="varname"> asset_handle  </span>])  </span> </td> 
    <td colname="col2"> ID del catálogo. Se aplica a recursos basados en imágenes (imagen, Vista ajustada, Vista de capas). <p>Para otros recursos, devuelve el ID de catálogo del recurso de miniatura (si lo hay). Si no hay ningún recurso de miniatura asociado al recurso, la función devuelve una cadena vacía. </p> </td> 
   </tr> 
  </tbody> 
