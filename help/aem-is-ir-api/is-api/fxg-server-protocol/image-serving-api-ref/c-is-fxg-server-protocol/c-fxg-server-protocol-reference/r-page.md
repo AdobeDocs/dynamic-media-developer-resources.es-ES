@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 3379c8d8-6e2e-4bd5-b683-a532330f1ddc
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '60'
+ht-degree: 6%
 
 ---
 
@@ -27,4 +30,4 @@ Recuperar página. Recupera una página específica en un FXG de varias páginas
 
 ## Predeterminado {#section-3fd7fcc525b947c7a95457e50414ac9e}
 
-Si no `page` se especifica, se devuelve la primera página para la salida rasterizada y todas las páginas para la salida PDF.
+Si no se especifica `page`, se devuelve la primera página para la salida de rasterizado y todas las páginas para la salida PDF.
