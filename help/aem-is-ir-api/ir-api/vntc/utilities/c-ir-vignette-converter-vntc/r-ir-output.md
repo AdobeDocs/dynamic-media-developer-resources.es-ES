@@ -8,15 +8,18 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: f2041600-408f-481c-95fc-3c112def7b8a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '688'
+ht-degree: 0%
 
 ---
 
 
-# Output{#output}
+# Salida{#output}
 
 vntc genera datos de texto que se envían al servidor o al archivo de registro.
 
-Los datos tienen un formato de una `name=value` propiedad por registro de texto. Los valores de cadena no están entre comillas. Los mensajes de advertencia y error siempre se envían a `stderr`, incluso si `-log` se especifica.
+Los datos tienen el formato de una propiedad `name=value` por registro de texto. Los valores de cadena no están entre comillas. Los mensajes de advertencia y error siempre se envían a `stderr`, incluso si se especifica `-log`.
 
 Determinadas propiedades se pueden producir varias veces en la misma salida. Se anexa un número de secuencia, comenzando por 0, al nombre de estas propiedades, separado por un punto. Estas propiedades se identifican a continuación con un sufijo `. *`n`*` después del nombre de la propiedad.
 
@@ -29,7 +32,7 @@ Se generan las siguientes propiedades:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">defaultFileVersion=<span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p>Versión predeterminada del archivo de salida. También puede generar el número de versión de archivo más alto que puede generar esta versión de <span class="filepath"> vntc</span> . </p></td> 
+  <td class="stentry"> <p>Versión predeterminada del archivo de salida. También puede generar el número de versión de archivo más alto que puede generar esta versión de <span class="filepath"> vntc</span>. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">error.<span class="varname"> n</span>=<span class="varname"> string</span></span> </p></td> 
@@ -41,11 +44,11 @@ Se generan las siguientes propiedades:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">vidrio=<span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p><span class="varname"> El ival</span> es 1 si el gabinete incluye puertas de vidrio, de lo contrario 0. Solo estilos de archivador. </p></td> 
+  <td class="stentry"> <p><span class="varname"> </span> ivalis 1 si el gabinete incluye puertas de vidrio, 0 en caso contrario. Solo estilos de archivador. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">iccProfile=<span class="varname"> string</span></span> </p></td> 
-  <td class="stentry"> <p>Nombre del iccProfile incrustado en el <span class="varname"> sourceFile</span>. </p> <p>Vacío si <span class="varname"> sourceFile</span> no está gestionado por el color. Solo viñetas. </p></td> 
+  <td class="stentry"> <p>Nombre del iccProfile incrustado en el <span class="varname"> sourceFile</span>. </p> <p>Vacío si <span class="varname"> sourceFile</span> no está administrado por color. Solo viñetas. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">info.<span class="varname"> n</span>=<span class="varname"> string</span></span> </p></td> 
@@ -53,23 +56,23 @@ Se generan las siguientes propiedades:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">sourceIsMaster=<span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p><span class="varname"> ival</span> es 1 si <span class="varname"> sourceFile</span> es una viñeta maestra, 0 si se ha procesado anteriormente con <span class="filepath"> vnUpdate</span> o <span class="filepath"> vntc</span>. Solo viñetas. </p></td> 
+  <td class="stentry"> <p><span class="varname"> </span> equivale a 1 si  <span class="varname"> </span> sourceFile es una viñeta maestra, 0 si se ha procesado anteriormente con  <span class="filepath"> </span> vnUpdateor  <span class="filepath"> vntc</span>. Solo viñetas. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">master=<span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p><span class="varname"> ival</span> es 0 si <span class="varname"> sourceFile</span> es un estilo de archivador que contiene datos de imagen JPEG (también se emite una advertencia en este caso), 1 en caso contrario. Solo los archivos de estilo archivadores y de cobertura de ventana. </p></td> 
+  <td class="stentry"> <p><span class="varname"> </span> equivale a 0 si  <span class="varname"> </span> sourceFile es un estilo de archivador que contiene datos de imagen JPEG (también se emite una advertencia en este caso); en caso contrario, 1. Solo los archivos de estilo archivadores y de cobertura de ventana. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">maxMem=<span class="varname"> string</span></span> </p></td> 
-  <td class="stentry"> <p>Límite máximo de memoria que se aplica al proceso vntc <span class="filepath"></span> en ejecución. <span class="varname"> la cadena</span> es <span class="varname"> ival</span>, <span class="varname"> ivalK</span>, <span class="varname"> ivalM</span>, <span class="varname"> ivalG</span>o <span class="codeph"></span> 0(deshabilitado). Donde <span class="varname"> K</span>, <span class="varname"> M</span>y <span class="varname"> G</span> se refieren a Kilobytes (1024 bytes), Megabytes (1048576 bytes) y Gigabytes (1073741824 bytes). </p></td> 
+  <td class="stentry"> <p>Límite máximo de memoria que se aplica al proceso <span class="filepath"> vntc</span> en ejecución. <span class="varname"> </span> stringes  <span class="varname"> ival</span>,  <span class="varname"> ivalK</span>,  <span class="varname"> ivalM</span>,  <span class="varname"> ivalG</span> o  <span class="codeph">  </span> 0(deshabilitado). Donde <span class="varname"> K</span>, <span class="varname"> M</span> y <span class="varname"> G</span> se refieren a Kilobytes (1024 bytes), Megabytes (1048576 bytes) y Gigabytes (1073741824 bytes). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">maxScl=<span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p>Escala del nivel de pirámide de menor resolución en la viñeta de salida. Sólo está presente si se especifica <span class="codeph"> -piramide</span> . </p></td> 
+  <td class="stentry"> <p>Escala del nivel de pirámide de menor resolución en la viñeta de salida. Sólo está presente si se especifica <span class="codeph"> -piramide</span>. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">numMaterials=<span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p>Número de materiales guardados en el <span class="varname"> archivo</span>de origen. Solo viñetas. </p></td> 
+  <td class="stentry"> <p>Número de materiales guardados en el <span class="varname"> sourceFile</span>. Solo viñetas. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">numPanels=<span class="codeph"> ival</span></span> </p></td> 
@@ -85,7 +88,7 @@ Se generan las siguientes propiedades:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">resolution=<span class="varname"> val</span></span> </p></td> 
-  <td class="stentry"> <p>Para los estilos de archivador, la resolución del<span class="varname"> objeto sourceFile</span>. Para las viñetas, esta es la resolución de material recomendada para obtener resultados de procesamiento de la mejor calidad al procesar la viñeta de salida. Píxeles/pulgada (ppp). </p></td> 
+  <td class="stentry"> <p>Para los estilos de archivador, la resolución de objeto del archivo<span class="varname"> sourceFile</span>. Para las viñetas, esta es la resolución de material recomendada para obtener resultados de procesamiento de la mejor calidad al procesar la viñeta de salida. Píxeles/pulgada (ppp). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">resolution.min=<span class="varname"> val</span></span> </p></td> 
@@ -97,7 +100,7 @@ Se generan las siguientes propiedades:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">sourceFile=<span class="varname"> string</span></span> </p></td> 
-  <td class="stentry"> <p>Ruta <span class="varname"> de archivo</span> de origen completa. </p></td> 
+  <td class="stentry"> <p>La ruta completa <span class="varname"> sourceFile</span>. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">sourceFileVersion=<span class="varname"> ival</span></span> </p></td> 
@@ -123,19 +126,19 @@ Se generan las siguientes propiedades:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">suffix=<span class="varname"> string</span></span> </p></td> 
-  <td class="stentry"> <p><span class="codeph"> vnt</span> si <span class="varname"> sourceFile</span> es una viñeta, <span class="codeph"> vnc</span> si <span class="varname"> sourceFile</span> es un estilo de archivador o <span class="codeph"> vnw</span> si <span class="varname"></span> sourceFilees un estilo de cobertura de ventana. </p></td> 
+  <td class="stentry"> <p><span class="codeph"> </span> vntif  <span class="varname"> </span> sourceFile es una viñeta,  <span class="codeph"> </span> vncif  <span class="varname"> </span> sourceFile es un estilo de archivador o  <span class="codeph"> </span> vnwif  <span class="varname"> </span> sourceFile es un estilo de cobertura de ventana. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">targetFileVersion=<span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p>El valor especificado con <span class="codeph"> -version</span>o el valor<span class="codeph"> defaultFileVersion</span> si<span class="codeph"> no se especificó -version</span> . </p></td> 
+  <td class="stentry"> <p>No se especificó el valor especificado con <span class="codeph"> -version</span> o el valor de<span class="codeph"> defaultFileVersion</span> si<span class="codeph"> -version</span>. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">targetSize=<span class="varname"> ival</span>,<span class="varname"> ival</span>*[,<span class="varname"> ival</span>,<span class="varname"> ival</span>]</span> </p></td> 
-  <td class="stentry"> <p>lista separada por comas de los tamaños de píxel de todas las vistas de la viñeta de salida (la vista de resolución completa para las viñetas piramidales), de la imagen predeterminada del panel en un archivo de estilo archivador o de la primera imagen de opacidad de un archivo de estilo de cobertura de ventana. </p> </td> 
+  <td class="stentry"> <p>Lista separada por comas de los tamaños de píxel de todas las vistas de la viñeta de salida (la vista de resolución completa para las viñetas piramidales), de la imagen predeterminada del panel en un archivo de estilo archivador o de la primera imagen de opacidad de un archivo de estilo de cobertura de ventana. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">texturable=<span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p><span class="varname"> ival</span> es 1 si el estilo del gabinete es texturable, 0 en caso contrario. No está presente para los archivos de estilo de viñetas y coberturas de ventanas. </p></td> 
+  <td class="stentry"> <p><span class="varname"> </span> equivale a 1 si el estilo del archivador es texturable, 0 en caso contrario. No está presente para los archivos de estilo de viñetas y coberturas de ventanas. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">advertencia.<span class="varname"> n</span>=<span class="varname"> string</span></span> </p></td> 
