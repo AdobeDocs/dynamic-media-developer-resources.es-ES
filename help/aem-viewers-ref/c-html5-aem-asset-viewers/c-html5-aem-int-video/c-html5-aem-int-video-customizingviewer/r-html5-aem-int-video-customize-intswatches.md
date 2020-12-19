@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 9f9df764-3dd0-414e-a0db-4287f0019313
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '939'
+ht-degree: 2%
 
 ---
 
@@ -103,7 +106,7 @@ El siguiente selector de clase CSS controla el aspecto del panel de pancartas:
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Color de fondo del panel de pancartas. </p> </td> 
   </tr> 
   <tr> 
@@ -115,25 +118,25 @@ El siguiente selector de clase CSS controla el aspecto del panel de pancartas:
    <td colname="col2"> <p>Borde alrededor del panel de pancartas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-peso </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-peso  </span> </p> </td> 
    <td colname="col2"> <p>El peso de fuente que se va a utilizar para el texto dentro del panel de pancartas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>El tamaño de fuente que se va a utilizar para el texto dentro del panel de pancartas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Familia de fuentes que se va a utilizar para el texto dentro del panel de pancartas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-align  </span> </p> </td> 
    <td colname="col2"> <p>Alineación de fuente que se utilizará para el texto dentro del panel de pancartas. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-La información del objeto de la pancarta se puede localizar. Consulte [Localización de los elementos](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) de la interfaz de usuario para obtener más información.
+La información del objeto de la pancarta se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
 ## Ejemplo {#section-e8caea0a303c425a8a637c2a47c06355}
 
@@ -159,7 +162,7 @@ El siguiente selector de clase CSS controla el aspecto de las muestras:
 <table id="table_45E98E96B07246CAA5D3076FAF62A0B3"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Color de fondo del área de muestras. </p> </td> 
   </tr> 
  </tbody> 
@@ -185,7 +188,7 @@ El siguiente selector de clase CSS controla el espaciado entre las miniaturas de
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> Tamaño del margen horizontal y vertical alrededor de cada miniatura. El espaciado de la miniatura real es igual a la suma de los márgenes izquierdo y derecho definidos para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col2"> <p> Tamaño del margen horizontal y vertical alrededor de cada miniatura. El espaciado de la miniatura real es igual a la suma del margen izquierdo y derecho establecido para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -209,11 +212,11 @@ El siguiente selector de clase CSS controla el aspecto de las miniaturas individ
 <table id="table_FB760FE6BEA44E129C07DD912C86DE57"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Anchura de la miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altura de la miniatura. </p> </td> 
   </tr> 
   <tr> 
@@ -225,7 +228,7 @@ El siguiente selector de clase CSS controla el aspecto de las miniaturas individ
 
 >[!NOTE]
 >
->La miniatura admite el selector de `state` atributos, que puede utilizar para aplicar diferentes apariencias a distintos estados de miniaturas. En particular, `state="selected"` corresponde a la miniatura de la imagen seleccionada actualmente; `state="default"` corresponde al resto de miniaturas; `state="over"` se utiliza al pasar el ratón por encima.
+>La miniatura admite el selector de atributos `state`, que puede utilizar para aplicar diferentes apariencias a distintos estados de miniaturas. En particular, `state="selected"` corresponde a la miniatura de la imagen seleccionada actualmente; `state="default"` corresponde al resto de las miniaturas; `state="over"` se utiliza al pasar el ratón por encima.
 
 ## Ejemplo {#section-69fec189ffaa440b97b6b846c320b75b}
 
@@ -247,7 +250,7 @@ El siguiente selector de clase CSS controla el aspecto de la etiqueta de miniatu
 <table id="table_81B3209FB8124FFA9DB81FD35717900D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
    <td colname="col2"> <p>Color de texto. </p> </td> 
   </tr> 
   <tr> 
@@ -255,11 +258,11 @@ El siguiente selector de clase CSS controla el aspecto de la etiqueta de miniatu
    <td colname="col2"> <p>Borde de etiqueta. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> text-align  </span> </p> </td> 
    <td colname="col2"> <p>Alineación de texto horizontal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Nombre de fuente. </p> </td> 
   </tr> 
  </tbody> 
@@ -285,26 +288,26 @@ El siguiente selector de clase CSS controla el aspecto de los botones de desplaz
 
 `.s7interactivevideoviewer .s7interactiveswatches .s7scrolldownbutton`
 
-No es posible colocar los botones de desplazamiento mediante las propiedades CSS `top`, `left``bottom`y `right` ; en su lugar, la lógica del visor los coloca automáticamente.
+No es posible colocar los botones de desplazamiento mediante las propiedades CSS `top`, `left`, `bottom` y `right`; en su lugar, la lógica del visor los coloca automáticamente.
 
 ## Propiedades CSS de la apariencia de los botones de desplazamiento hacia arriba y hacia abajo {#css-properties-of-the-appearance-of-the-up-and-down-scroll-buttons}
 
 <table id="table_48AF27AFBB1543288D45449D6900675C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Ancho del botón de desplazamiento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altura del botón de desplazamiento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Imagen que se muestra para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p>Posición dentro del elemento sprite de ilustración, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -312,9 +315,9 @@ No es posible colocar los botones de desplazamiento mediante las propiedades CSS
 
 >[!NOTE]
 >
->Este botón admite el selector de `state` atributos, que puede utilizar para aplicar diferentes apariencias a los estados del botón: &quot; `up`&quot;, &quot; `down`&quot;, &quot; `over`&quot; y &quot; `disabled`&quot;.
+>Este botón admite el selector de atributos `state`, que puede utilizar para aplicar diferentes apariencias a los estados del botón: &quot; `up`&quot;, &quot; `down`&quot;, &quot; `over`&quot; y &quot; `disabled`&quot;.
 
-La información del objeto de botón se puede localizar. Consulte [Localización de los elementos](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) de la interfaz de usuario para obtener más información.
+La información del objeto de botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
 ## Ejemplo {#section-e6ce4fa084b84288bc7583342b2c510c}
 
