@@ -1,18 +1,21 @@
 ---
 description: nulo
 seo-description: nulo
-seo-title: Transición FlyoutZoomView.frame
+seo-title: FlyoutZoomView.frametransition
 solution: Experience Manager
-title: Transición FlyoutZoomView.frame
+title: FlyoutZoomView.frametransition
 topic: Dynamic media
 uuid: c9cd5df1-fb7b-4acb-afc1-a62b563d8654
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Transición FlyoutZoomView.frame{#flyoutzoomview-frametransition}
+# FlyoutZoomView.frametransition{#flyoutzoomview-frametransition}
 
 ` [FlyoutZoomView.|<containerId>_flyout.]frametransition=none|fade[, *`duración`*]`
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ninguno|fundido</span> </p> </td> 
-   <td colname="col2"> <p> </p> <p> Especifica el tipo de efecto aplicado a la vista principal en el cambio de recurso. </p> <p><span class="codeph"> ninguno</span> significa transición, el cambio de vista principal ocurre instantáneamente. </p> <p><span class="codeph"> el fundido</span> activa la transición de fundido cruzado donde la imagen antigua desaparece y la nueva imagen desaparece </p> <p> </p> </td> 
+   <td colname="col2"> <p> </p> <p> Especifica el tipo de efecto aplicado a la vista principal en el cambio de recurso. </p> <p><span class="codeph"> </span> sin transición, el cambio de vista principal ocurre instantáneamente. </p> <p><span class="codeph"> Desactiva la transición de fundido </span> cruzado donde la imagen antigua se desvanece y la nueva imagen se desvanece </p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> duración</span></span> </p> </td> 
