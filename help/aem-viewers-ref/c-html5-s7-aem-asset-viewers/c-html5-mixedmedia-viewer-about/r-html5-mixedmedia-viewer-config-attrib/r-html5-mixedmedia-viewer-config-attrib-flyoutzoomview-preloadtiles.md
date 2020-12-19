@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: c9989916-d0f3-4268-932a-e12c693f5b74
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '65'
+ht-degree: 10%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Establezca el valor en <span class="codeph"> 1</span> para activar la precarga de la imagen ampliada. </p> <p>Establezca en <span class="codeph"> 0</span> para cargar la imagen de zoom de forma incremental, según sea necesario. </p> <p> <p>Nota:  Tenga en cuenta que si habilita esta opción, puede resultar en un uso de ancho de banda considerablemente mayor, ya que la imagen ampliada debe cargarse en su totalidad, incluso si el usuario no realiza ninguna acción de zoom. </p> </p> </td> 
+   <td colname="col2"> <p> Establezca <span class="codeph"> 1</span> para habilitar la precarga de la imagen ampliada. </p> <p>Establezca <span class="codeph"> 0</span> para cargar la imagen de zoom de forma incremental, según sea necesario. </p> <p> <p>Nota:  Tenga en cuenta que si habilita esta opción, puede resultar en un uso de ancho de banda considerablemente mayor, ya que la imagen ampliada debe cargarse en su totalidad, incluso si el usuario no realiza ninguna acción de zoom. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
