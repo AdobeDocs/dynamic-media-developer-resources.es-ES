@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 274e49da-9eb8-4082-971c-056acb47a53e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '67'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +21,7 @@ Describe los tipos de datos nuevos y modificados para la API de IPS versión 4.2
 
 Sintaxis
 
-## Tipos nuevos {#section-770a814386a44478881feeff2b6f65f5}
+## Nuevos tipos {#section-770a814386a44478881feeff2b6f65f5}
 
 * `AudioInfo`
 * `CuePointInfo`
