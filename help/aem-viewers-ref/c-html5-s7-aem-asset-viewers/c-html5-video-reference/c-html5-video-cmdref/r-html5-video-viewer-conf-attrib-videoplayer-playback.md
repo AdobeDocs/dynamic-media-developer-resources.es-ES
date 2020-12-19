@@ -1,18 +1,21 @@
 ---
 description: Atributo de configuración para el visor de vídeo.
 seo-description: Atributo de configuración para el visor de vídeo.
-seo-title: VideoPlayer.play
+seo-title: VideoPlayer.playback
 solution: Experience Manager
-title: VideoPlayer.play
+title: VideoPlayer.playback
 topic: Dynamic media
 uuid: 5ab7a322-9de0-4a26-95be-b9b2ff8e5a84
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# VideoPlayer.play{#videoplayer-playback}
+# VideoPlayer.playback{#videoplayer-playback}
 
 Atributo de configuración para el visor de vídeo.
 
@@ -22,7 +25,7 @@ Atributo de configuración para el visor de vídeo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|progresivo</span> </p> </td> 
-   <td colname="col2"> <p> Define el tipo de reproducción que utiliza el visor. Cuando <span class="codeph"> se establece auto</span> , en la mayoría de los navegadores de escritorio y en todos los dispositivos iOS, el visor utiliza vídeo de flujo HTML5 en formato HLS. Vuelve a la reproducción progresiva de HTML5 en determinados sistemas como Internet Explorer y Android. </p> <p>Si se especifica <span class="codeph"> progresivo</span> , el visor solo se basa en la reproducción HTML5 como admitida de forma nativa por los navegadores y reproduce vídeo progresivamente en todos los sistemas. </p> <p>Para obtener más información sobre la selección de reproducción en los modos automático y progresivo, consulte la Guía del usuario del SDK de visor. </p> </td> 
+   <td colname="col2"> <p> Define el tipo de reproducción que utiliza el visor. Cuando <span class="codeph"> auto</span> está establecido, en la mayoría de los exploradores de escritorio y en todos los dispositivos iOS, el visor utiliza vídeo de flujo HTML5 en formato HLS. Vuelve a la reproducción progresiva de HTML5 en determinados sistemas como Internet Explorer y Android. </p> <p>Si se especifica <span class="codeph"> progresivo</span>, el visor solo se basa en la reproducción de HTML5 como admitida de forma nativa por los navegadores y reproduce vídeo de forma progresiva en todos los sistemas. </p> <p>Para obtener más información sobre la selección de reproducción en los modos automático y progresivo, consulte la Guía del usuario del SDK de visor. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -31,7 +34,7 @@ Atributo de configuración para el visor de vídeo.
 
 Opcional.
 
-Se omite cuando el visor funciona con vídeo externo. Consulte Compatibilidad con [vídeo](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3)externo.
+Se omite cuando el visor funciona con vídeo externo. Consulte [Compatibilidad con video externo](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3).
 
 ## Predeterminado {#section-d016470e92a74f98a18c4ab3489410a5}
 
