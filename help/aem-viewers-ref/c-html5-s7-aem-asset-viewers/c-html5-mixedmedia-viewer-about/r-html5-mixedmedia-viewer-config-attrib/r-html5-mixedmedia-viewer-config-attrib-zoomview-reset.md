@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 5fd6c6c5-5fa5-498c-877a-1f50f710bf7a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Restaura el puerto de vista cuando cambia el marco (imagen). Si se establece en <span class="codeph"> 0</span> , se conserva el puerto de vista actual con el mejor ajuste posible y se conserva la proporción de aspecto de la imagen recién configurada. </p> </td> 
+   <td colname="col2"> <p> Restaura el puerto de vista cuando cambia el marco (imagen). Si se establece en <span class="codeph"> 0</span>, se conserva el puerto de vista actual con el mejor ajuste posible y se conserva la proporción de aspecto de la imagen recién configurada. </p> </td> 
   </tr> 
  </tbody> 
 </table>
