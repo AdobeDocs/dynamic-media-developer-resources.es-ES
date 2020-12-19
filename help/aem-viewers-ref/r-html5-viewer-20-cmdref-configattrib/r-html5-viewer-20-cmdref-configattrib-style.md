@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 6320c8dd-4827-41dc-a621-6fdf22e55003
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,8 +24,8 @@ Puede aplicar el siguiente comando desde la cadena de consulta URL y desde la co
 <table id="table_F800F787CF0342749B934DAEB600C0EB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> cssPath</span></span> </p> </td> 
-   <td colname="col2"> <p> Ubicación CSS relativa o absoluta. </p> <p>Especifica la ubicación del archivo CSS personalizado. Si <span class="codeph"><span class="varname"> cssPath</span></span> es relativo, se resuelve en la ubicación de la página HTML del visor y en el valor del parámetro <span class="codeph"> contentUrl=</span> . </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> cssPath</span> </span> </p> </td> 
+   <td colname="col2"> <p> Ubicación CSS relativa o absoluta. </p> <p>Especifica la ubicación del archivo CSS personalizado. Si el parámetro <span class="codeph"><span class="varname"> cssPath</span></span> es relativo, se resuelve en la ubicación de la página HTML del visor y en el valor del parámetro <span class="codeph"> contentUrl=</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
