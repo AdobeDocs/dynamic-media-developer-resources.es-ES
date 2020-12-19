@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 1ad94058-4dca-40b9-a694-a6c1452880c1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td> <p> Especifica dónde se dibuja la etiqueta en relación con la imagen en miniatura de la muestra. Es decir, la etiqueta se centra en la ubicación especificada en relación con la miniatura de la muestra. Cuando se especifica <span class="codeph"> información sobre</span> herramientas, no se dibuja ninguna etiqueta. </p> </td> 
+   <td> <p> Especifica dónde se dibuja la etiqueta en relación con la imagen en miniatura de la muestra. Es decir, la etiqueta se centra en la ubicación especificada en relación con la miniatura de la muestra. Cuando se especifica <span class="codeph"> tooltip</span>, no se dibuja ninguna etiqueta. </p> </td> 
   </tr> 
  </tbody> 
 </table>
