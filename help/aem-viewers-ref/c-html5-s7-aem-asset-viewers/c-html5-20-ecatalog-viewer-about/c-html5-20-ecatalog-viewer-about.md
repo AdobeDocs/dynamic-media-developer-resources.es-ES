@@ -26,11 +26,11 @@ El visor de catálogos electrónicos es un visor de catálogos que muestra los f
 
 Tipo de visor 507.
 
-Consulte Requisitos y requisitos previos [del sistema](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
+Consulte [Requisitos y requisitos previos del sistema](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
 Este visor funciona con ecatalogramas y admite mapas de imagen y herramientas de uso compartido en redes sociales opcionales. Cuenta con herramientas de zoom, herramientas de navegación por catálogos, compatibilidad con pantalla completa, miniaturas y un botón de cierre opcional. El visor también es compatible con las herramientas de uso compartido en redes sociales, Imprimir, Descargar y Favoritos. Está diseñado para trabajar en equipos de escritorio y dispositivos móviles.
 
-## URL de demostración {#section-e1c3106f5b3e445d9b95be337c2f94e2}
+## Dirección URL de demostración {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
 [http://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist](http://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist)
 
@@ -42,7 +42,7 @@ Puede utilizar el visor de catálogos electrónicos en modo emergente mediante u
 
 La configuración y la aplicación de aspectos son similares a las de los demás visores. Todos los aspectos se logran mediante CSS personalizada.
 
-Consulte Referencia [de comandos común a todos los visores: Atributos](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) de configuración y referencia de [comandos comunes a todos los visores: URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+Consulte [Referencia de comandos común a todos los visores: Atributos de configuración](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) y [Referencia de comandos común a todos los visores: URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
 ## Interacción con el visor de catálogos electrónicos {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
@@ -61,7 +61,7 @@ El visor de catálogos electrónicos admite los siguientes gestos táctiles comu
    <td colname="col2"> <p> Selecciona una nueva miniatura en las muestras. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Tocar Doble </p> </td> 
+   <td colname="col1"> <p>Tocar doble </p> </td> 
    <td colname="col2"> <p> Amplía un nivel hasta que se alcanza la máxima ampliación. El siguiente gesto de toque de doble restablece el visor al estado de visualización inicial. </p> </td> 
   </tr> 
   <tr> 
@@ -83,9 +83,9 @@ Es posible activar un efecto de animación de volteado de página realista para 
 
 Este visor también admite entrada táctil y entrada de ratón en dispositivos Windows con una pantalla táctil y un ratón. Sin embargo, esta compatibilidad está limitada a los exploradores web Chrome, Internet Explorer 11 y Edge.
 
-Este visor es totalmente accesible mediante el teclado, tal como se describe en la navegación [y accesibilidad del](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861)teclado.
+Este visor es totalmente accesible mediante el teclado, como se describe en [Navegación y accesibilidad del teclado](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
-## Herramientas de uso compartido en medios sociales con el visor de catálogos electrónicos {#section-eb575084a99647c3a9591f439f40b412}
+## Herramientas para compartir en medios sociales con el visor de catálogos electrónicos {#section-eb575084a99647c3a9591f439f40b412}
 
 El visor de catálogos electrónicos es compatible con las herramientas de uso compartido en redes sociales. Están disponibles como botón en la barra de control principal, que se expande a una barra de herramientas de uso compartido cuando un usuario hace clic o toca en ella.
 
@@ -99,9 +99,9 @@ Las diferentes páginas web tienen diferentes necesidades de comportamiento del 
 
 En el modo emergente, el visor se abre en una ventana o ficha separada del explorador Web. Toma todo el área de la ventana del navegador y se ajusta en caso de que se cambie el tamaño del navegador o la orientación del dispositivo móvil.
 
-El modo emergente es el más común para dispositivos móviles. La página web carga el visor mediante una llamada de `window.open()` JavaScript, un elemento `A` HTML configurado correctamente o cualquier otro método adecuado.
+El modo emergente es el más común para dispositivos móviles. La página web carga el visor mediante `window.open()` llamada de JavaScript, elemento HTML `A` configurado correctamente o cualquier otro método adecuado.
 
-Se recomienda utilizar una página HTML lista para usar en el modo de operación emergente. En este caso, se le llama [!DNL eCatalogViewer.html] y se encuentra dentro de la [!DNL html5/] subcarpeta de la implementación estándar de visores IS:
+Se recomienda utilizar una página HTML lista para usar en el modo de operación emergente. En este caso, se denomina [!DNL eCatalogViewer.html] y se encuentra dentro de la subcarpeta [!DNL html5/] de la implementación estándar de los visores de IS:
 
 [!DNL <s7viewers_root>/html5/eCatalogViewer.html]
 
@@ -121,11 +121,11 @@ Los casos de uso principales son páginas web orientadas a equipos de escritorio
 
 La incrustación de tamaño fijo se utiliza cuando el visor no cambia su tamaño después de la carga inicial. Esta es la mejor opción para las páginas web con un diseño estático.
 
-La incrustación de diseño adaptable supone que es posible que el visor tenga que cambiar el tamaño en tiempo de ejecución en respuesta al cambio de tamaño de su contenedor `DIV`. El caso de uso más común es agregar un visor a una página web que utilice un diseño de página flexible.
+La incrustación de diseño adaptable supone que el visor puede necesitar cambiar el tamaño en tiempo de ejecución en respuesta al cambio de tamaño de su contenedor `DIV`. El caso de uso más común es agregar un visor a una página web que utilice un diseño de página flexible.
 
-En el modo de incrustación de diseño interactivo, el visor se comporta de forma diferente en función del tamaño de la página web en su contenedor `DIV`. Si la página web establece únicamente la anchura del contenedor `DIV`, dejando su altura sin restricciones, el visor selecciona automáticamente su altura según la proporción de aspecto del recurso que se utilice. Esta funcionalidad garantiza que el recurso encaje perfectamente en la vista sin ningún relleno en los lados. Este caso de uso es el más común para las páginas web que utilizan marcos de diseño interactivos como Bootstrap, Foundation, etc.
+En el modo de incrustación de diseño interactivo, el visor se comporta de forma diferente en función del tamaño de la página web de su contenedor `DIV`. Si la página web establece únicamente la anchura del contenedor `DIV`, dejando su altura sin restricciones, el visor elige automáticamente su altura según la proporción de aspecto del recurso que se utilice. Esta funcionalidad garantiza que el recurso encaje perfectamente en la vista sin ningún relleno en los lados. Este caso de uso es el más común para las páginas web que utilizan marcos de diseño interactivos como Bootstrap, Foundation, etc.
 
-En caso contrario, si la página web establece la anchura y la altura del contenedor del visor `DIV`, el visor rellena solo esa área y sigue el tamaño que proporciona el diseño de la página web. Un buen ejemplo es la incrustación del visor en una superposición modal, donde el tamaño de la superposición depende del tamaño de la ventana del navegador web.
+De lo contrario, si la página web establece tanto la anchura como la altura del contenedor del visor `DIV`, el visor rellena esa área y sigue el tamaño que proporciona el diseño de la página web. Un buen ejemplo es la incrustación del visor en una superposición modal, donde el tamaño de la superposición depende del tamaño de la ventana del navegador web.
 
 **Incrustación de tamaño fijo**
 
@@ -138,11 +138,11 @@ Para agregar el visor a una página web, haga lo siguiente:
 
 1. Añadir el archivo JavaScript del visor en la página web.
 
-   La creación de un visor requiere que agregue una etiqueta de script en el encabezado HTML. Antes de utilizar la API de visor, asegúrese de incluir [!DNL eCatalogViewer.js]. El [!DNL eCatalogViewer.js] archivo se encuentra en la [!DNL html5/js/] subcarpeta de la implementación estándar de los visores de IS:
+   La creación de un visor requiere que agregue una etiqueta de script en el encabezado HTML. Antes de usar la API de visor, asegúrese de incluir [!DNL eCatalogViewer.js]. El archivo [!DNL eCatalogViewer.js] se encuentra en la subcarpeta [!DNL html5/js/] de la implementación estándar de IS-Viewers:
 
 [!DNL <s7viewers_root>/html5/js/eCatalogViewer.js]
 
-Puede utilizar una ruta relativa si el visor está implementado en uno de los servidores de Adobe Dynamic Media Classic y se suministra desde el mismo dominio. De lo contrario, debe especificar una ruta de acceso completa a uno de los servidores de Adobe Dynamic Media Classic que tenga instalados los visores IS.
+Puede utilizar una ruta relativa si el visor está implementado en uno de los servidores de Adobe Dynamic Media Classic y se suministra desde el mismo dominio. En caso contrario, especifique una ruta completa a uno de los servidores Adobe Dynamic Media Classic que tenga instalados los visores IS.
 
 La ruta relativa tiene el siguiente aspecto:
 
@@ -152,16 +152,16 @@ La ruta relativa tiene el siguiente aspecto:
 
 >[!NOTE]
 >
->Solo debe hacer referencia al archivo JavaScript `include` del visor principal de la página. No debe hacer referencia a ningún archivo JavaScript adicional del código de la página web que pueda descargarse mediante la lógica del visor en tiempo de ejecución. En concreto, no haga referencia directa a la biblioteca del SDK `Utils.js` HTML5 cargada por el visor desde la ruta de `/s7viewers` contexto (el denominado SDK consolidado `include`). El motivo es que la ubicación de las bibliotecas de visores en tiempo de ejecución `Utils.js` o similares está totalmente gestionada por la lógica del visor y la ubicación cambia entre las versiones del visor. Adobe no mantiene versiones anteriores del visor secundario `includes` en el servidor.
+>Solo debe hacer referencia al archivo JavaScript `include` del visor principal de la página. No debe hacer referencia a ningún archivo JavaScript adicional del código de la página web que pueda descargarse mediante la lógica del visor en tiempo de ejecución. En particular, no haga referencia directa a la biblioteca `Utils.js` del SDK de HTML5 cargada por el visor desde la ruta de contexto `/s7viewers` (denominada SDK consolidado `include`). El motivo es que la ubicación de `Utils.js` o bibliotecas de visores de tiempo de ejecución similares se administra completamente mediante la lógica del visor y la ubicación cambia entre las versiones del visor. Adobe no mantiene versiones anteriores del visor secundario `includes` en el servidor.
 >
 >
->Como resultado, la colocación de una referencia directa a cualquier JavaScript secundario `include` utilizado por el visor en la página interrumpe la funcionalidad del visor en el futuro cuando se implemente una nueva versión del producto.
+>Como resultado, la colocación de una referencia directa a cualquier JavaScript `include` secundario utilizado por el visor en la página interrumpe la funcionalidad del visor en el futuro cuando se implemente una nueva versión del producto.
 
 1. Definición de la DIV de contenedor.
 
    Añada un elemento DIV vacío a la página en la que desea que aparezca el visor. El ID del elemento DIV debe estar definido porque este ID se pasa más tarde a la API del visor.
 
-   El marcador de posición DIV es un elemento posicionado, lo que significa que la propiedad `position` CSS está definida como `relative` o `absolute`.
+   El marcador de posición DIV es un elemento posicionado, lo que significa que la propiedad CSS `position` se establece en `relative` o `absolute`.
 
    A continuación se muestra un ejemplo de un elemento DIV de marcador de posición definido:
 
@@ -171,11 +171,11 @@ La ruta relativa tiene el siguiente aspecto:
 
 1. Configuración del tamaño del visor
 
-   Puede definir el tamaño estático del visor, ya sea declarándolo para la clase CSS de nivel `.s7ecatalogviewer` superior en unidades absolutas o utilizando `stagesize` un modificador.
+   Puede establecer el tamaño estático del visor declarándolo para la clase CSS de nivel superior `.s7ecatalogviewer` en unidades absolutas o utilizando el modificador `stagesize`.
 
    Puede colocar el tamaño en CSS directamente en la página HTML o en un archivo CSS de visor personalizado, que posteriormente se asignará a un registro de ajuste preestablecido de visor en Scene7 Publishing System, o se pasará explícitamente mediante un comando de estilo.
 
-   Consulte [Personalización del visor](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) de catálogos electrónicos para obtener más información sobre el estilo del visor con CSS.
+   Consulte [Personalización del visor de catálogos electrónicos](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) para obtener más información sobre cómo aplicar estilo al visor con CSS.
 
    A continuación se muestra un ejemplo de definición de un tamaño de visor estático en una página HTML:
 
@@ -186,7 +186,7 @@ La ruta relativa tiene el siguiente aspecto:
    }
    ```
 
-   Puede definir el `stagesize` modificador en el registro de ajustes preestablecidos de visor de Scene7 Publishing System o pasarlo explícitamente con el código de inicialización del visor con `params` colección, o como una llamada de API como se describe en la sección Referencia de comandos, como se indica a continuación:
+   Puede establecer el modificador `stagesize` en el registro de ajustes preestablecidos de visor de Scene7 Publishing System o pasarlo explícitamente con el código de inicialización del visor con la colección `params`, o como una llamada de API como se describe en la sección Referencia de comandos, como se indica a continuación:
 
    ```
    eCatalogViewer.setParam("stagesize", 
@@ -195,13 +195,13 @@ La ruta relativa tiene el siguiente aspecto:
 
 1. Inicialización del visor.
 
-   Cuando haya completado los pasos anteriores, cree una instancia de `s7viewers.eCatalogViewer` clase, pase toda la información de configuración a su constructor y al `init()` método de llamada en una instancia de visor. La información de configuración se pasa al constructor como un objeto JSON. Como mínimo, este objeto tiene el `containerId` `params` campo que contiene el nombre del ID de contenedor del visor y el objeto JSON anidado con parámetros de configuración admitidos por el visor. En este caso, el `params` objeto debe tener al menos la URL del servicio de imágenes pasada como `serverUrl` propiedad y el recurso inicial como `asset` parámetro. La API de inicialización basada en JSON permite crear y inicio del visor con una sola línea de código.
+   Cuando haya completado los pasos anteriores, cree una instancia de la clase `s7viewers.eCatalogViewer`, pase toda la información de configuración a su constructor y llame al método `init()` en una instancia de visor. La información de configuración se pasa al constructor como un objeto JSON. Como mínimo, este objeto tiene el campo `containerId` que contiene el nombre del ID de contenedor del visor y el objeto `params` JSON anidado con parámetros de configuración admitidos por el visor. En este caso, el objeto `params` debe tener al menos la dirección URL del servicio de imágenes pasada como propiedad `serverUrl` y el recurso inicial como parámetro `asset`. La API de inicialización basada en JSON permite crear y inicio del visor con una sola línea de código.
 
-   Es importante que el contenedor del visor se añada al DOM para que el código del visor pueda encontrar el elemento de contenedor por su ID. Algunos exploradores retrasan la creación de DOM hasta el final de la página web. Sin embargo, para obtener la máxima compatibilidad, llame al `init()` método justo antes de la `BODY` etiqueta de cierre o en el `onload()` evento body.
+   Es importante que el contenedor del visor se añada al DOM para que el código del visor pueda encontrar el elemento de contenedor por su ID. Algunos exploradores retrasan la creación de DOM hasta el final de la página web. Sin embargo, para obtener la máxima compatibilidad, llame al método `init()` justo antes de la etiqueta `BODY` de cierre o en el evento body `onload()`.
 
-   Al mismo tiempo, el elemento contenedor no debe ser necesariamente parte del diseño de la página web. Por ejemplo, puede ocultarse con `display:none` el estilo asignado. En este caso, el visor retrasa el proceso de inicialización hasta el momento en que la página web devuelve el elemento de contenedor a la presentación. Cuando esto sucede, la carga del visor se reanuda automáticamente.
+   Al mismo tiempo, el elemento contenedor no debe ser necesariamente parte del diseño de la página web. Por ejemplo, puede ocultarse con el estilo `display:none` asignado. En este caso, el visor retrasa el proceso de inicialización hasta el momento en que la página web devuelve el elemento de contenedor a la presentación. Cuando esto sucede, la carga del visor se reanuda automáticamente.
 
-   A continuación se muestra un ejemplo de creación de una instancia de visor, pasando las opciones de configuración mínimas necesarias al constructor y llamando al `init()` método. Se supone que el ejemplo `eCatalogViewer` es la instancia del visor; `s7viewer` es el nombre del marcador de posición `DIV`; `http://s7d1.scene7.com/is/image/` es la URL del servicio de imágenes y `Viewers/Pluralist` es el recurso:
+   A continuación se muestra un ejemplo de creación de una instancia de visor, pasando las opciones de configuración mínimas necesarias al constructor y llamando al método `init()`. El ejemplo asume que `eCatalogViewer` es la instancia del visor; `s7viewer` es el nombre del marcador de posición `DIV`; `http://s7d1.scene7.com/is/image/` es la dirección URL del servicio de imágenes y `Viewers/Pluralist` es el recurso:
 
    ```
    <script type="text/javascript"> 
@@ -246,7 +246,7 @@ La ruta relativa tiene el siguiente aspecto:
 
 **Incrustación de diseño adaptable con altura ilimitada**
 
-Con la incrustación de diseño interactivo, la página web normalmente tiene algún tipo de diseño flexible que determina el tamaño de tiempo de ejecución del contenedor del visor `DIV`. A efectos de este ejemplo, supongamos que la página web permite que el contenedor del visor `DIV` tome el 40 % del tamaño de la ventana del navegador web, dejando su altura sin restricciones. El código HTML de la página web resultante es similar al siguiente:
+Con la incrustación de diseño interactivo, la página web normalmente tiene algún tipo de diseño flexible que determina el tamaño de tiempo de ejecución del contenedor `DIV` del visor. A efectos de este ejemplo, supongamos que la página web permite que el contenedor del visor `DIV` ocupe el 40 % del tamaño de la ventana del explorador web, dejando su altura sin restricciones. El código HTML de la página web resultante es similar al siguiente:
 
 ```
 <!DOCTYPE html> 
@@ -270,7 +270,7 @@ Añadir el visor a una página de este tipo es similar a la incrustación de tam
 1. Definición de la DIV de contenedor.
 1. Creación e inicialización del visor.
 
-Todos los pasos anteriores son los mismos que con la incrustación de tamaño fijo. Añada el contenedor `DIV` al &quot;titular&quot; existente `DIV`. El siguiente código es un ejemplo completo. Puede ver cómo cambia el tamaño del visor cuando se cambia el tamaño del navegador y cómo coincide la proporción de aspecto del visor con el recurso.
+Todos los pasos anteriores son los mismos que con la incrustación de tamaño fijo. Añada el contenedor `DIV` al &quot;soporte&quot; existente `DIV`. El siguiente código es un ejemplo completo. Puede ver cómo cambia el tamaño del visor cuando se cambia el tamaño del navegador y cómo coincide la proporción de aspecto del visor con el recurso.
 
 ```
 <!DOCTYPE html> 
@@ -306,7 +306,7 @@ La siguiente página de ejemplos ilustra casos de uso más real de diseño inter
 
 **Integración de tamaño flexible con anchura y altura definidas**
 
-En caso de incrustación de tamaño flexible con anchura y altura definidas, el estilo de la página web es diferente. Es decir, proporciona ambos tamaños al &quot;marcador&quot; `DIV` y lo centra en la ventana del navegador. Además, la página web establece el tamaño del elemento `HTML` y en el `BODY` 100 %:
+En caso de incrustación de tamaño flexible con anchura y altura definidas, el estilo de la página web es diferente. Es decir, proporciona ambos tamaños al &quot;marcador&quot; `DIV` y lo centra en la ventana del explorador. Además, la página web establece el tamaño del elemento `HTML` y `BODY` en 100%:
 
 ```
 <!DOCTYPE html> 
@@ -372,7 +372,7 @@ var eCatalogViewer = new s7viewers.eCatalogViewer({
 
 **Incrustación mediante API basada en Setter**
 
-En lugar de utilizar la inicialización basada en JSON, es posible utilizar la API basada en setter y el constructor no-args. Con ese constructor de API no toma ningún parámetro y los parámetros de configuración se especifican mediante métodos `setContainerId()`, `setParam()`y `setAsset()` API con llamadas JavaScript independientes.
+En lugar de utilizar la inicialización basada en JSON, es posible utilizar la API basada en setter y el constructor no-args. Con ese constructor de API no toma ningún parámetro y los parámetros de configuración se especifican mediante métodos de API `setContainerId()`, `setParam()` y `setAsset()` con llamadas JavaScript independientes.
 
 El siguiente ejemplo muestra la incrustación de tamaño fijo con la API basada en establecedor:
 
