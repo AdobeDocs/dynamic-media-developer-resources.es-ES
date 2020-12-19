@@ -1,6 +1,6 @@
 ---
-description: Obtiene una matriz de usuarios según lo especificado por los controladores de compañía, grupo y función de usuario. Esta operación permite ordenar los usuarios devueltos y filtrar por carácter.
-seo-description: Obtiene una matriz de usuarios según lo especificado por los controladores de compañía, grupo y función de usuario. Esta operación permite ordenar los usuarios devueltos y filtrar por carácter.
+description: Obtiene una matriz de usuarios según lo especificado por los identificadores de compañía, grupo y función de usuario. Esta operación permite ordenar los usuarios devueltos y filtrar por carácter.
+seo-description: Obtiene una matriz de usuarios según lo especificado por los identificadores de compañía, grupo y función de usuario. Esta operación permite ordenar los usuarios devueltos y filtrar por carácter.
 seo-title: getUsers
 solution: Experience Manager
 title: getUsers
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: f16ccd1b-0f00-4d9a-b6e1-6abc3bde1af9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # getUsers{#getusers}
 
-Obtiene una matriz de usuarios según lo especificado por los controladores de compañía, grupo y función de usuario. Esta operación permite ordenar los usuarios devueltos y filtrar por carácter.
+Obtiene una matriz de usuarios según lo especificado por los identificadores de compañía, grupo y función de usuario. Esta operación permite ordenar los usuarios devueltos y filtrar por carácter.
 
 ## Tipos de usuarios autorizados {#section-6a8f23cc6b22442d8776f701016971ed}
 
