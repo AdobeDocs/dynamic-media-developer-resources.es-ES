@@ -8,11 +8,14 @@ topic: Scene7 Image Production System API
 uuid: 20f870da-421b-4cb0-8287-0220ad9b9cb5
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Campos de ordenación de registro de trabajos{#job-log-sort-fields}
+# Campos de clasificación de registro de trabajo{#job-log-sort-fields}
 
 Utilizado por getJobLogsParam/sortBy
 
