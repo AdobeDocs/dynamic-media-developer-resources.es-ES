@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 076e98de-cbbb-457b-984a-367a935b4356
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '512'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +25,7 @@ Se puede asociar cualquier número de efectos de capa a una sola capa principal.
 
 ## Efectos interiores y exteriores {#section-2dade7ee98e041d1b4d1725e6f98a515}
 
-*Los efectos* interiores se representan sobre la capa principal y solo se ven en áreas opacas de la capa principal. *Los efectos* externos se procesan detrás de la capa principal (por lo que nunca serán visibles dentro de las áreas opacas de la capa principal) y se pueden colocar en cualquier lugar dentro del lienzo de la composición. Se elige un efecto interior o exterior asignando un número de capa de efecto positivo o negativo con el `effect=` comando. El `effect=` comando también controla el orden z entre varias capas de efecto conectadas a la misma capa principal.
+*Los* efectos interiores se representan sobre la capa principal y solo se ven en áreas opacas de la capa principal. *Los* efectos exteriores se representan detrás de la capa principal (por lo tanto, nunca serán visibles dentro de las áreas opacas de la capa principal) y se pueden colocar en cualquier lugar dentro del lienzo de composición. Se elige un efecto interior o exterior asignando un número de capa de efecto positivo o negativo con el comando `effect=`. El comando `effect=` también controla el orden z entre varias capas de efecto conectadas a la misma capa principal.
 
 ## Relación con la capa principal {#section-eb8bfc4f754a42fc973b562821d6f2d3}
 
@@ -46,7 +49,7 @@ Se omiten todos los demás comandos de imagen y capa contenidos en las capas de 
 
 ## Macros de efectos predeterminados {#section-a01e8dcc87c94495b54a6dfb21d2a718}
 
-Para facilitar el uso de los efectos de capa, IS proporciona dos macros con el catálogo de imágenes predeterminado `$shadow$` y `$glow$`, que proporcionan valores predeterminados para los atributos de capa de efecto que son similares a los efectos de capa de Photoshop. Las siguientes listas de tabla que afectan al comando y a la macro deben utilizarse para implementar los efectos de capa predeterminados. Naturalmente, cualquiera de los atributos especificados en las macros se puede modificar en la dirección URL o se pueden crear macros alternativas para implementar efectos de capa personalizados.
+Para facilitar el uso de los efectos de capa, IS proporciona dos macros con el catálogo de imágenes predeterminado, `$shadow$` y `$glow$`, que proporcionan valores predeterminados para los atributos de capa de efecto que son similares a los efectos de capa de Photoshop. Las siguientes listas de tabla que afectan al comando y a la macro deben utilizarse para implementar los efectos de capa predeterminados. Naturalmente, cualquiera de los atributos especificados en las macros se puede modificar en la dirección URL o se pueden crear macros alternativas para implementar efectos de capa personalizados.
 
 <table id="table_8089C41AD1F24223A58C7DD8F4DDF73C"> 
  <thead> 
@@ -81,7 +84,7 @@ Añada un borde rojo de tres píxeles de ancho con un 50 % de opacidad en una ca
 
 `…&effect=-1&op_grow=3&color=255,0,0,128&…`
 
-El borde seguirá los contornos del canal alfa o la máscara de la imagen. Al establecer `effect=1` se colocaría el borde en el borde interior.
+El borde seguirá los contornos del canal alfa o la máscara de la imagen. Si se establece `effect=1` se coloca el borde en el borde interior.
 
 Añada una sombra paralela azulada en una imagen mediante la configuración predeterminada del efecto (excepto el color):
 
@@ -91,4 +94,4 @@ Añada una sombra paralela azulada en una imagen mediante la configuración pred
 
 ## Véase también {#section-1acccccf534549aea23d4c008c17e7c0}
 
-[effect=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-effect.md#reference-b1296c4afed047fb921bbc1e33752135), [Macros de comando%l94560](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-command-macros.md#reference-ea2a9571c65a46da83eca27d0013cbf9)
+[effect=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-effect.md#reference-b1296c4afed047fb921bbc1e33752135),  [Macros de comando%l94560](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-command-macros.md#reference-ea2a9571c65a46da83eca27d0013cbf9)
