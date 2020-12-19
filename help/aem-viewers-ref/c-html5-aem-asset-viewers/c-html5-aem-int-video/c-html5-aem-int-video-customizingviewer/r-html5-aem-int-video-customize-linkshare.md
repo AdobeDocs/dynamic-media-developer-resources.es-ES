@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: c98cb3bd-0e94-46ef-8875-662925d3c067
 translation-type: tm+mt
 source-git-commit: f930a511ca83f81379b37fe7419c8e13736e78c7
+workflow-type: tm+mt
+source-wordcount: '1422'
+ht-degree: 2%
 
 ---
 
 
-# Uso compartido de vínculos{#link-share}
+# Vínculo compartido{#link-share}
 
 La herramienta para compartir vínculos consiste en un botón agregado al panel Compartir en redes sociales y el cuadro de diálogo modal que se muestra cuando se activa la herramienta. La posición del botón la gestiona completamente la herramienta Compartir en Social.
 
@@ -37,11 +40,11 @@ El aspecto del botón para compartir vínculos se controla con el siguiente sele
    <td colname="col2"> <p>Altura del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Imagen que se muestra para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -49,11 +52,11 @@ El aspecto del botón para compartir vínculos se controla con el siguiente sele
 
 >[!NOTE]
 >
->Este botón admite el selector de `state` atributos, que se puede utilizar para aplicar diferentes apariencias a diferentes estados de botón.
+>Este botón admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes apariencias a distintos estados de botones.
 
-Es posible quitar el botón del panel Compartir en Social estableciendo la propiedad CSS en su clase CSS `display:none` .
+Es posible quitar el botón del panel Compartir en Social estableciendo la propiedad `display:none` CSS en su clase CSS.
 
-La información de objeto del botón se puede localizar. Consulte [Localización de los elementos](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)de la interfaz de usuario.
+La información de objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
 Ejemplo: para configurar un botón de uso compartido de vínculos de 28 x 28 píxeles y mostrar una imagen diferente para cada uno de los cuatro estados de botón diferentes:
 
@@ -87,11 +90,11 @@ La superposición de fondo que cubre la página web cuando el cuadro de diálogo
 <table id="table_DB4183CE8061425084D495A355A941F8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opacidad </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opacidad  </span> </p> </td> 
    <td colname="col2"> <p>Opacidad de superposición de fondo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Color de superposición de fondo. </p> </td> 
   </tr> 
  </tbody> 
@@ -117,19 +120,19 @@ De forma predeterminada, el cuadro de diálogo modal se muestra centrado en la p
 <table id="table_E31711ADF4C7446182549244362199A3"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p> Radio del borde del cuadro de diálogo, en caso de que el cuadro de diálogo no ocupe todo el explorador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Color de fondo del cuadro de diálogo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Se debe desactivar o establecer en 100 %, en cuyo caso el cuadro de diálogo toma toda la ventana del navegador (este modo es preferible en dispositivos táctiles). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Se debe desactivar o establecer en 100 %, en cuyo caso el cuadro de diálogo toma toda la ventana del navegador (este modo es preferible en dispositivos táctiles). </p> </td> 
   </tr> 
  </tbody> 
@@ -190,19 +193,19 @@ El icono de encabezado se controla con el siguiente selector de clase CSS
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Ancho del icono. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altura del icono. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Imagen de icono. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -219,15 +222,15 @@ El título del encabezado se controla con el siguiente selector de clase CSS:
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-peso </span> </p> </td> 
-   <td colname="col2"> <p>peso de fuentes. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-peso  </span> </p> </td> 
+   <td colname="col2"> <p>Peso de fuentes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Altura de fuente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Familia de fuentes. </p> </td> 
   </tr> 
   <tr> 
@@ -256,11 +259,11 @@ El botón Cerrar se controla con el siguiente selector de clase CSS:
    <td colname="col2"> <p> Posición horizontal del botón con respecto al contenedor del encabezado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Ancho del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altura del botón. </p> </td> 
   </tr> 
   <tr> 
@@ -268,11 +271,11 @@ El botón Cerrar se controla con el siguiente selector de clase CSS:
    <td colname="col2"> <p>Relleno interior del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Imagen de botón para cada estado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -280,9 +283,9 @@ El botón Cerrar se controla con el siguiente selector de clase CSS:
 
 >[!NOTE]
 >
->Este botón admite el selector de `state` atributos, que se puede utilizar para aplicar diferentes apariencias a diferentes estados de botón.
+>Este botón admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes apariencias a distintos estados de botones.
 
-Se pueden localizar la información del botón Cerrar y el título del cuadro de diálogo. Consulte [Localización de los elementos](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)de la interfaz de usuario.
+Se pueden localizar la información del botón Cerrar y el título del cuadro de diálogo. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
 **Ejemplo** : para configurar un encabezado de cuadro de diálogo con relleno, un icono de 22 x 12 píxeles, un título de 16 puntos en negrita y un botón Cerrar de 28 x 28 píxeles que se sitúe a dos píxeles de la parte superior y a dos píxeles de la derecha del contenedor del cuadro de diálogo:
 
@@ -371,11 +374,11 @@ El botón solo está disponible en sistemas de escritorio.
 <table id="table_021D0467632F49FEBFDF4CF96D2D67C7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Ancho del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altura del botón. </p> </td> 
   </tr> 
   <tr> 
@@ -383,7 +386,7 @@ El botón solo está disponible en sistemas de escritorio.
    <td colname="col2"> <p> Color del texto del botón para cada estado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Color de fondo del botón para cada estado. </p> </td> 
   </tr> 
  </tbody> 
@@ -391,7 +394,7 @@ El botón solo está disponible en sistemas de escritorio.
 
 >[!NOTE]
 >
->El botón Seleccionar todo admite el selector de `state` atributos, que se puede utilizar para aplicar diferentes apariencias a distintos estados de botones.
+>El botón Seleccionar todo admite el selector de atributos `state`, que se puede utilizar para aplicar diferentes apariencias a distintos estados de botones.
 
 El botón Cancelar se controla con el siguiente selector de clase CSS:
 
@@ -404,19 +407,19 @@ El botón Cancelar se controla con el siguiente selector de clase CSS:
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Ancho del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altura del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
    <td colname="col2"> <p> Color del texto del botón para cada estado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Color de fondo del botón para cada estado. </p> </td> 
   </tr> 
  </tbody> 
@@ -424,7 +427,7 @@ El botón Cancelar se controla con el siguiente selector de clase CSS:
 
 >[!NOTE]
 >
->Este botón admite el selector de `state` atributos, que se puede utilizar para aplicar diferentes apariencias a diferentes estados de botón.
+>Este botón admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes apariencias a distintos estados de botones.
 
 Además, ambos botones comparten la misma clase CSS común que puede contener la configuración CSS que es la misma para otros botones de cuadro de diálogo:
 
@@ -437,33 +440,33 @@ Además, ambos botones comparten la misma clase CSS común que puede contener la
 <table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-peso </span> </p> </td> 
-   <td colname="col2"> <p>peso de fuente del botón. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-peso  </span> </p> </td> 
+   <td colname="col2"> <p>Peso de fuente del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Tamaño de fuente del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Familia de fuentes de botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> line-height  </span> </p> </td> 
    <td colname="col2"> <p> Altura del texto dentro del botón. Afecta a la alineación vertical. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> box-Shadow </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> box-Shadow  </span> </p> </td> 
    <td colname="col2"> <p>Sombra paralela. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-right  </span> </p> </td> 
    <td colname="col2"> <p>Margen del botón derecho. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-La información del objeto de botón se puede localizar. Consulte [Localización de los elementos](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)de la interfaz de usuario.
+La información del objeto de botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
 **Ejemplo** : para configurar un pie de página de cuadro de diálogo con un botón Cancelar de 64 x 34, con colores de color de texto y de fondo diferentes para cada estado de botón:
 
@@ -536,11 +539,11 @@ El área de diálogo principal (entre el encabezado y el pie de página) contien
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p> Altura del área del cuadro de diálogo principal. Solo debe especificarse cuando el cuadro de diálogo funciona en modo de escritorio. No es aplicable cuando el cuadro de diálogo está ajustado para ocupar toda la ventana del explorador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Color de fondo del área del cuadro de diálogo principal. </p> </td> 
   </tr> 
   <tr> 
@@ -550,7 +553,7 @@ El área de diálogo principal (entre el encabezado y el pie de página) contien
  </tbody> 
 </table>
 
-**Ejemplo** : para configurar un área de cuadro de diálogo principal con una altura de 300 píxeles, tenga un margen de 10 píxeles y utilice un fondo blanco:
+**Ejemplo** : para configurar un área de cuadro de diálogo principal con una altura de 300 píxeles, un margen de 10 píxeles y un fondo blanco:
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogviewarea { 
@@ -577,7 +580,7 @@ Todo el contenido del formulario, como las etiquetas y los campos de entrada, re
  </tbody> 
 </table>
 
-**Ejemplo** : para configurar el contenido del formulario con un margen de 10 píxeles:
+**Ejemplo** : configurar el contenido del formulario para que tenga un margen de 10 píxeles:
 
 ```
 .s7interactivevideoviewer .s7linkdialog .s7dialogbody { 
@@ -598,25 +601,25 @@ Esta clase no es adecuada para controlar el tamaño o la posición de la etiquet
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-peso </span> </p> </td> 
-   <td colname="col2"> <p>peso de fuentes de etiquetas. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-peso  </span> </p> </td> 
+   <td colname="col2"> <p>Peso de fuentes de etiquetas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Tamaño de fuente de la etiqueta. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Familia de fuentes de etiquetas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
    <td colname="col2"> <p>Color del texto de la etiqueta. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Las etiquetas del cuadro de diálogo se pueden localizar. Consulte [Localización de los elementos](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)de la interfaz de usuario.
+Las etiquetas del cuadro de diálogo se pueden localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
 **Ejemplo** : para configurar todas las etiquetas para que sean grises, negrita con una fuente de nueve píxeles:
 
@@ -639,7 +642,7 @@ El tamaño de la copia de texto que se muestra encima del vínculo se controla c
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Ancho del texto. </p> </td> 
   </tr> 
   <tr> 
@@ -699,13 +702,13 @@ El propio vínculo compartido se controla con el siguiente selector de clase CSS
 <table id="table_65CF778F5BDA45118208538DCBE203FB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Compartir ancho del vínculo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Ejemplo** : para que el vínculo compartido tenga una anchura de 450 píxeles:
+**Ejemplo** : para establecer el vínculo compartido en 450 píxeles de ancho:
 
 ```
 .s7video360viewer .s7linkdialog .s7dialoglink { 
