@@ -1,18 +1,21 @@
 ---
 description: Atributo de configuración para el visor de vídeo interactivo.
 seo-description: Atributo de configuración para el visor de vídeo interactivo.
-seo-title: InteractiveSwatches.enabledrag
+seo-title: InteractiveSwatches.enabledragging
 solution: Experience Manager
-title: InteractiveSwatches.enabledrag
+title: InteractiveSwatches.enabledragging
 topic: Dynamic media
 uuid: 9a93e6b3-3441-4987-b9e6-a964dbf2247d
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '90'
+ht-degree: 5%
 
 ---
 
 
-# InteractiveSwatches.enabledrag{#interactiveswatches-enabledragging}
+# InteractiveSwatches.enabledragging{#interactiveswatches-enabledragging}
 
 Atributo de configuración para el visor de vídeo interactivo.
 
@@ -25,8 +28,8 @@ Atributo de configuración para el visor de vídeo interactivo.
    <td colname="col2"> <p> Activa o desactiva la capacidad de un usuario para desplazarse por las muestras con un ratón o mediante gestos táctiles. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> overdragvalue </span></span> </p> </td> 
-   <td colname="col2"> <p> Está en el rango <span class="codeph"> 0-1 </span> y es un valor porcentual para el movimiento en la dirección incorrecta de la velocidad real. </p> <p>Si se establece en <span class="codeph"> 1, </span> se mueve con el ratón. </p> <p>Si se establece en <span class="codeph"> 0 </span> no le permite moverse en la dirección incorrecta. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> overdragvalue  </span> </span> </p> </td> 
+   <td colname="col2"> <p> Está en el rango <span class="codeph"> 0-1 </span> y es un valor porcentual para el movimiento en la dirección incorrecta de la velocidad real. </p> <p>Si se establece en <span class="codeph"> 1 </span> se mueve con el ratón. </p> <p>Si se establece en <span class="codeph"> 0 </span> no le permite moverse en la dirección incorrecta. </p> </td> 
   </tr> 
  </tbody> 
 </table>
