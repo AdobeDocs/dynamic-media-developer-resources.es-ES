@@ -1,18 +1,21 @@
 ---
 description: nulo
 seo-description: nulo
-seo-title: Swatches.enabledrag
+seo-title: Swatches.enabledragging
 solution: Experience Manager
-title: Swatches.enabledrag
+title: Swatches.enabledragging
 topic: Dynamic media
 uuid: 2b5dff77-25e3-42cd-bdae-0a96f04f881e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '77'
+ht-degree: 9%
 
 ---
 
 
-# Swatches.enabledrag{#swatches-enabledragging}
+# Swatches.enabledragging{#swatches-enabledragging}
 
 ` [Swatches.|<containerId>_swatches.]enabledragging=0|1[, *`overdragvalue`*]`
 
@@ -23,8 +26,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
    <td> <p> Habilita o deshabilita la capacidad de un usuario para desplazarse por las muestras con un ratón o mediante gestos táctiles </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> overdragvalue </span></span> </p> </td> 
-   <td> <p> Funciones dentro del intervalo <span class="codeph"> 0-1 </span> . Es un valor <span class="codeph"> % </span> para el movimiento en la dirección incorrecta de la velocidad real. Si se establece en <span class="codeph"> 1 </span>, se mueve con el ratón. Si se establece en <span class="codeph"> 0 </span>, no permite moverse en la dirección incorrecta. </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> overdragvalue  </span> </span> </p> </td> 
+   <td> <p> Funciones dentro del rango <span class="codeph"> 0-1 </span>. Es un valor <span class="codeph"> % </span> para el movimiento en la dirección incorrecta de la velocidad real. Si se establece en <span class="codeph"> 1 </span>, se mueve con el ratón. Si se establece en <span class="codeph"> 0 </span>, no le permite moverse en la dirección incorrecta. </p> </td> 
   </tr> 
  </tbody> 
 </table>
