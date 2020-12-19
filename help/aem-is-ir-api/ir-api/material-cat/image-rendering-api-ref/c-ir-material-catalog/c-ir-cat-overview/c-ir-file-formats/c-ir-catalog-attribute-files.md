@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: ea2bddad-2c4a-43c1-9b62-6e724fcfb8a0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '223'
+ht-degree: 0%
 
 ---
 
@@ -16,18 +19,18 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Los archivos de atributos del catálogo pueden tener cualquier nombre, pero deben tener un sufijo de archivo .ini. Se pueden mantener fácilmente con cualquier editor de texto.
 
-Los archivos de atributos del catálogo constan de un conjunto de registros de texto, separados por un único `<CR>` (código ASCII 0xD), un único `<LF>` (código ASCII 0xA) o un `<CR><LF>` par. Cada registro consta de un nombre de atributo y uno o varios valores de atributo separados por coma:
+Los archivos de atributos del catálogo constan de un conjunto de registros de texto, separados por un único `<CR>` (código ASCII 0xD), un único `<LF>` (código ASCII 0xA) o un par `<CR><LF>`. Cada registro consta de un nombre de atributo y uno o varios valores de atributo separados por coma:
 
 ` *``*= *``*&#42;[, *`nombevaluevalue`*]{<CR>|<LF>|<CR><LF>}`
 
 <table id="simpletable_8454AD549FDA421BA1469CDA44132773"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> name </span></span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> name  </span> </span> </p> </td> 
   <td class="stentry"> <p>Nombre del atributo; puede constar de una o varias letras, número, '-' y '_'; no distingue entre mayúsculas y minúsculas. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> valor </span></span> </p> </td> 
-  <td class="stentry"> <p>Valor del atributo; no debe incluir <span class="codeph"> &lt;CR&gt; </span>ni <span class="codeph"> &lt;LF&gt; </span> caracteres, a menos que se escape con una sola barra invertida justo antes del carácter de nueva línea. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> value  </span> </span> </p> </td> 
+  <td class="stentry"> <p>Valor del atributo; no debe incluir <span class="codeph"> &lt;CR&gt; </span> ni <span class="codeph"> &lt;LF&gt; </span> caracteres, a menos que se escape con una sola barra invertida justo antes del carácter de nueva línea. </p> </td> 
  </tr> 
 </table>
 
