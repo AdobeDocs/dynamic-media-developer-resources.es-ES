@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: ef7c43ee-467f-46b9-bd82-05e8359bd829
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '84'
+ht-degree: 3%
 
 ---
 
@@ -18,7 +21,7 @@ Describe los tipos nuevos y modificados para la versión 6 de la API de IPS.
 
 Sintaxis
 
-## Tipos nuevos {#section-71ba6954339e4ba899acdf8a3212d6f3}
+## Nuevos tipos {#section-71ba6954339e4ba899acdf8a3212d6f3}
 
 * `AssetContextStateUpdate`
 * `AssetContextStateUpdateArray`
@@ -40,24 +43,24 @@ Sintaxis
 
 **Agregado**
 
-* Añadido `numUrls` a `UploadUrlsJob`.
+* Se añadió `numUrls` a `UploadUrlsJob`.
 
 * Añadido `fileName` a `Asset.`
 
-* Añadido `isHidden` a `MetadataField`.
+* Se añadió `isHidden` a `MetadataField`.
 
-* Añadido `taskState` a `TaskProgress`.
+* Se añadió `taskState` a `TaskProgress`.
 
-* Añadido `exportJob` a `ActiveJob` y `ScheduledJob`.
+* Se añadió `exportJob` a `ActiveJob` y `ScheduledJob`.
 
-* Añadido `optmizedPath` y `optimizedFile` a `PsdInfo`.
+* Se añadieron `optmizedPath` y `optimizedFile` a `PsdInfo`.
 
-* Añadido `contextHandle` a:
+* Se añadió `contextHandle` en:
 
    * `ImageRenderingPublishJob`
    * `VideoPublishJob`
 
-* Se Añadieron los siguientes parámetros en `Asset`:
+* Se añadieron los siguientes parámetros en `Asset`:
 
    * `animatedGifInfo`
    * `swcInfo`
@@ -70,5 +73,5 @@ Sintaxis
 
 * En `Folder`, cambió `permissions` a `permissionsSetHandle`.
 
-* En `AssetSummary`, `type` y `name` ahora son opcionales.
+* En `AssetSummary`, `type` y `name` son ahora opcionales.
 
