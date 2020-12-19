@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 89138f10-c80b-49b8-886f-45b0960038b8
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '196'
+ht-degree: 21%
 
 ---
 
@@ -30,32 +33,32 @@ Sintaxis
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> originalPath</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> originalPath</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Ruta relativa al archivo original. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"><span class="varname"> originalFile</span></span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> originalFile</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Nombre del archivo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"><span class="varname"> optimizedPath</span></span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> optimizedPath</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Ruta al archivo de imagen optimizado para IPS. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> optimizedFile</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> optimizedFile</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>El archivo de imagen optimizado para IPS. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> maskPath</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> maskPath</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Ruta de la máscara de la imagen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> maskFile</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> maskFile</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Nombre de archivo de la máscara. </p> </td> 
   </tr> 
@@ -70,67 +73,67 @@ Sintaxis
    <td colname="col3"> <p>Altura de la imagen en píxeles. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> fileSize</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fileSize</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> <p>Tamaño de imagen en bytes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> resolución</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> resolution</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:doble</span> </td> 
    <td colname="col3"> <p>Píxeles por pulgada. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> sku</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> sku</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>ID del producto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> description</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> description</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Descripción de la imagen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> comentarios</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> comentarios</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Comentarios (obsoleto). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> userData</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> userData</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Información del usuario asociada a la imagen (desaprobada). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> anchorX</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> anchorX</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> <p>Punto de anclaje horizontal en píxeles. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> anchorY</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> anchorY</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> <p>Punto de ancla vertical en píxeles. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> urlModifier</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> urlModifier</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Parámetro URL del servidor de imágenes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> urlPostApplyModifier</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> urlPostApplyModifier</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Parámetros concatenados al final del <span class="codeph"> modificador</span>url. Formato de cadena de Consulta lista de parámetros que son comandos para el servidor de imágenes. Los valores se encuentran en la guía del protocolo del servidor de imágenes. </p> </td> 
+   <td colname="col3"> <p>Parámetros concatenados al final del <span class="codeph"> urlModifier</span>. Formato de cadena de consulta lista de parámetros que son comandos para el servidor de imágenes. Los valores se encuentran en la guía del protocolo del servidor de imágenes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> zoomTargets</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> zoomTargets</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:ZoomTargetArray</span> </td> 
    <td colname="col3"> <p>Matriz de destinatarios de zoom (5 máx.). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> máscaras</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> máscaras</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:MaskArray</span> </td> 
    <td colname="col3"> <p>Matriz de máscaras. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> imageMaps</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> imageMaps</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:ImageMapsArray</span> </td> 
    <td colname="col3"> <p>Matriz de mapas de imagen. </p> </td> 
   </tr> 
