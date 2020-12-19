@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: ab7d3a24-46a9-4c74-a7ba-6e53ebf4cf1c
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +38,7 @@ El aspecto se controla con el siguiente selector de clase CSS:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> contorno </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> contorno  </span> </p> </td> 
    <td colname="col2"> <p>Estilo de resaltado de enfoque. </p> </td> 
   </tr> 
  </tbody> 
