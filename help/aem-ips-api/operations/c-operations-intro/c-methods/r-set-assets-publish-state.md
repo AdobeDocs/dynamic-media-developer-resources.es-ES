@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 2910cd6c-573b-405c-864d-a0136ac5472d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '163'
+ht-degree: 11%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Determina si un lote de recursos está listo para publicarse.
 
-Es la versión por lotes de [setAssetState](../../../operations/c-operations-intro/c-methods/r-set-asset-publish-state.md#reference-9efc2eeea42348e0b1d5f3d1005c6563).
+Esta es la versión por lotes de [setAssetState](../../../operations/c-operations-intro/c-methods/r-set-asset-publish-state.md#reference-9efc2eeea42348e0b1d5f3d1005c6563).
 
 ## Tipos de usuarios autorizados {#section-0804726f683944dbbe9acfc3d35ccf25}
 
@@ -37,7 +40,7 @@ Es la versión por lotes de [setAssetState](../../../operations/c-operations-int
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sí | Identificador de Compañía. |
+| ` *`companyHandle`*` | `xsd:string` | Sí | Identificador de compañía. |
 | ` *`publishStateUpdateArray`*` | `types:PublishStateUpdateArray` | Sí | Matriz de valores de estado de publicación para los recursos. |
 
 **Salida (setAssetsPublishStateParam)**
