@@ -1,26 +1,29 @@
 ---
 description: nulo
 seo-description: nulo
-seo-title: SpinView.identity
+seo-title: SpinView.sensitivity
 solution: Experience Manager
-title: SpinView.identity
+title: SpinView.sensitivity
 topic: Dynamic media
 uuid: 7c63a7c5-ac75-485d-94ac-d1e133fbe44f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# SpinView.identity{#spinview-sensitivity}
+# SpinView.sensitivity{#spinview-sensitivity}
 
 ` [SpinView.|<containerId>_spinView.]sensitivity= *``*[, *`xSensitivitySensisibility`*]`
 
 <table id="table_18D47E7C6A2D4D68B94225CB621D5F7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> xSensitividad</span>[, <span class="varname"> Sensibilidad</span>]</span> </p> </td> 
-   <td colname="col2"> <p> Controla la sensibilidad de los giros horizontales y verticales realizados con un movimiento de arrastre o barrido del ratón. </p> <p> <span class="codeph"> Sensibilidad</span> establece cuántas rotaciones horizontales completas del producto se realizan si el usuario arrastra el ratón horizontalmente de un lado a otro de la vista. Por ejemplo, tres significa que el usuario ve tres giros completos para un gesto de arrastre completo. </p> <p>Del mismo modo, <span class="codeph"> Sensibilidad</span> controla la sensibilidad del giro vertical. Un valor de 1 significa que una operación de arrastrar o realizar un barrido vertical completa cambia el ángulo de vista del plano de giro superior al inferior (o viceversa). </p> <p>Si se establece un valor negativo para <span class="codeph"> Sensibilidad</span> , se invierte la dirección del giro vertical. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> xSensisibility</span>[,  <span class="varname"> ySensisibility</span>]</span> </p> </td> 
+   <td colname="col2"> <p> Controla la sensibilidad de los giros horizontales y verticales realizados con un movimiento de arrastre o barrido del ratón. </p> <p> <span class="codeph"> </span> xSensitivitydefine cuántas rotaciones horizontales completas del producto se realizan si el usuario arrastra el ratón horizontalmente de un lado a otro de la vista. Por ejemplo, tres significa que el usuario ve tres giros completos para un gesto de arrastre completo. </p> <p>Del mismo modo, <span class="codeph"> ySensisibility</span> controla la sensibilidad del giro vertical. Un valor de 1 significa que una operación de arrastrar o realizar un barrido vertical completa cambia el ángulo de vista del plano de giro superior al inferior (o viceversa). </p> <p>Al establecer un valor negativo para <span class="codeph"> ySensisibility</span> se invierte la dirección del giro vertical. </p> </td> 
   </tr> 
  </tbody> 
 </table>
