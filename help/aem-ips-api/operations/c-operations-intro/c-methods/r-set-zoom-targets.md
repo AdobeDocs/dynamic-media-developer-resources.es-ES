@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 5d0aecec-ebd8-4c69-9514-c29fae347ee6
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '136'
+ht-degree: 12%
 
 ---
 
@@ -18,7 +21,7 @@ Define el destinatario de zoom asociado a una imagen de recurso. Sobrescribe los
 
 Sintaxis
 
-## Tipos de usuarios autorizados {#section-c5e1863e9cb1426591bfea513620b6ab}
+## Tipos de usuario autorizados {#section-c5e1863e9cb1426591bfea513620b6ab}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,7 +36,7 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sí | Identificador de Compañía. |
+| ` *`companyHandle`*` | `xsd:string` | Sí | Identificador de compañía. |
 | ` *`assetHandle`*` | `xsd:string` | Sí | Recurso con el destinatario de zoom que desea establecer. |
 | ` *`zoomTargetArray`*` | `types:ZoomTargetDefinitionArray` | Sí | Matriz de definiciones de destinatario de zoom. |
 
