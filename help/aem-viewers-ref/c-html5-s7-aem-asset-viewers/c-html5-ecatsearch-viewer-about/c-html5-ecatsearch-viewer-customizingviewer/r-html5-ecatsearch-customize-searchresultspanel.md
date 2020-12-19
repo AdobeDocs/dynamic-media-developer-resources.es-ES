@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 43d8e003-79f7-4e41-98d7-b362ab7180ea
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,11 +38,11 @@ Cuando el panel está activo, la interfaz de usuario del visor está cubierta po
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Color de la superposición. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opacidad </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opacidad  </span> </p> </td> 
    <td colname="col2"> <p>Opacidad del color. </p> </td> 
   </tr> 
  </tbody> 
@@ -105,7 +108,7 @@ El campo de entrada de búsqueda está controlado por el siguiente selector de c
    <td colname="col2"> <p>Altura del campo de entrada de búsqueda. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> relleno-izquierda </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> relleno-izquierda  </span> </p> </td> 
    <td colname="col2"> <p> El margen interior entre los límites del campo de entrada y el texto de entrada. </p> </td> 
   </tr> 
   <tr> 
@@ -117,7 +120,7 @@ El campo de entrada de búsqueda está controlado por el siguiente selector de c
    <td colname="col2"> <p>Margen del campo de entrada de búsqueda </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Tamaño de la fuente de texto. </p> </td> 
   </tr> 
  </tbody> 
@@ -144,19 +147,19 @@ El botón de búsqueda a la izquierda del campo de entrada de búsqueda en forma
 <table id="table_CDD818B40BB1416CB47B7C52F799DE0C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Ancho del botón de entrada de búsqueda. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altura del botón de entrada de búsqueda. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>La dirección URL de la imagen del icono de "luce vidrio". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-size  </span> </p> </td> 
    <td colname="col2"> <p>El tamaño del icono "de cristal". </p> </td> 
   </tr> 
   <tr> 
@@ -164,7 +167,7 @@ El botón de búsqueda a la izquierda del campo de entrada de búsqueda en forma
    <td colname="col2"> <p>Borde del botón de entrada de búsqueda. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin  </span> </p> </td> 
    <td colname="col2"> <p>Margen del botón de entrada de búsqueda. </p> </td> 
   </tr> 
  </tbody> 
@@ -198,15 +201,15 @@ El panel de resultados de búsqueda puede mostrar un mensaje de texto cuando se 
    <td colname="col2"> <p> Color del texto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Nombre de la fuente de texto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-align  </span> </p> </td> 
    <td colname="col2"> <p>Alineación de texto horizontal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Tamaño del texto de fuente. </p> </td> 
   </tr> 
  </tbody> 
@@ -214,9 +217,9 @@ El panel de resultados de búsqueda puede mostrar un mensaje de texto cuando se 
 
 >[!NOTE]
 >
->Este panel de texto admite el selector de `state` atributos, que se puede utilizar para aplicar diferentes estilos a distintos mensajes de texto. En particular, `state='prompt'` corresponde al mensaje de texto que se muestra cuando se llama al panel por primera vez; `state='results'` corresponde al texto con información sobre las visitas de búsqueda; y `state='no_results'` corresponde al texto mostrado cuando la consulta de búsqueda no devolvió ningún resultado.
+>Este panel de texto admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes estilos a distintos mensajes de texto. En particular, `state='prompt'` corresponde al mensaje de texto que se muestra cuando se llama al panel por primera vez; `state='results'` corresponde al texto con información sobre las visitas de búsqueda; y `state='no_results'` corresponde al texto mostrado cuando la consulta de búsqueda no arrojó ningún resultado.
 
-El texto del mensaje se puede localizar. Consulte [Localización de los elementos](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) de la interfaz de usuario para obtener más información.
+El texto del mensaje se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
 Ejemplo: para configurar un panel de texto que utilice una fuente gris de 18 píxeles:
 
@@ -238,8 +241,8 @@ Los resultados de la búsqueda se representan como una sola columna o fila de mi
 <table id="table_26974E509F6943BB98CBC1E4BAE62D68"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> Tamaño del margen vertical alrededor de cada miniatura. El espaciado de miniaturas real es igual a la suma de los márgenes superior e inferior definidos para la celda <span class="codeph"> .s7 </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin  </span> </p> </td> 
+   <td colname="col2"> <p> Tamaño del margen vertical alrededor de cada miniatura. El espaciado de miniaturas real es igual a la suma de los márgenes superior e inferior definidos para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -263,11 +266,11 @@ El aspecto de las miniaturas individuales se controla con el siguiente selector 
 <table id="table_00829E44F75040A4B2AE19ACD550DA1E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Anchura de la miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altura de la miniatura. </p> </td> 
   </tr> 
   <tr> 
@@ -298,15 +301,15 @@ El aspecto de la etiqueta de miniatura se controla con el siguiente selector de 
 <table id="table_CA669F6AE7574FF389BF725B3F768E5E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
    <td colname="col2"> <p> Color de texto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Nombre de la fuente de texto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Tamaño de la fuente de texto. </p> </td> 
   </tr> 
  </tbody> 
@@ -336,19 +339,19 @@ No es posible colocar botones de desplazamiento con las propiedades CSS top, lef
 <table id="table_11063C7F428D4707A8138F17650F8F5F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Ancho del botón de desplazamiento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altura del botón de desplazamiento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Imagen que se muestra para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -356,9 +359,9 @@ No es posible colocar botones de desplazamiento con las propiedades CSS top, lef
 
 >[!NOTE]
 >
->Este botón admite el selector de `state` atributos, que se puede utilizar para aplicar diferentes apariencias a los estados `"up"`, `"down"`, `"over"`y `"disabled"` de botones.
+>Este botón admite el selector de atributos `state`, que se puede utilizar para aplicar diferentes apariencias a los estados de los botones `"up"`, `"down"`, `"over"` y `"disabled"`.
 
-La información del objeto de botón se puede localizar. Consulte [Localización de los elementos](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) de la interfaz de usuario para obtener más información.
+La información del objeto de botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
 Ejemplo: para configurar un botón de desplazamiento hacia arriba de 125 x 35 píxeles y con una ilustración diferente para cada estado:
 
