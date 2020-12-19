@@ -1,6 +1,6 @@
 ---
-description: La barra de desplazamiento de vídeo es el control deslizante horizontal que permite al usuario buscar dinámicamente cualquier posición de tiempo dentro del vídeo que se está reproduciendo.
-seo-description: La barra de desplazamiento de vídeo es el control deslizante horizontal que permite al usuario buscar dinámicamente cualquier posición de tiempo dentro del vídeo que se está reproduciendo.
+description: La barra de desplazamiento de vídeo es el control deslizante horizontal que permite al usuario buscar dinámicamente cualquier posición temporal dentro del vídeo que se está reproduciendo.
+seo-description: La barra de desplazamiento de vídeo es el control deslizante horizontal que permite al usuario buscar dinámicamente cualquier posición temporal dentro del vídeo que se está reproduciendo.
 seo-title: Borrador de vídeo
 solution: Experience Manager
 title: Borrador de vídeo
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: cfd1055b-c4d6-42e4-ad24-a897e923e8e9
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '1042'
+ht-degree: 2%
 
 ---
 
 
-# Video scrubber{#video-scrubber}
+# Barra de desplazamiento de vídeo{#video-scrubber}
 
-La barra de desplazamiento de vídeo es el control deslizante horizontal que permite al usuario buscar dinámicamente cualquier posición de tiempo dentro del vídeo que se está reproduciendo.
+La barra de desplazamiento de vídeo es el control deslizante horizontal que permite al usuario buscar dinámicamente cualquier posición temporal dentro del vídeo que se está reproduciendo.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -45,7 +48,7 @@ El aspecto general de la barra de desplazamiento de vídeo se controla con el si
    <td colname="col2"> <p>Altura de la barra de desplazamiento del vídeo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Color de la barra de desplazamiento del vídeo. </p> </td> 
   </tr> 
  </tbody> 
@@ -64,11 +67,11 @@ Los siguientes selectores de clase CSS rastrean indicadores de fondo, reproducci
 <table id="table_46903DCACF314426B67783167ADF7715"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altura de la pista correspondiente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Color de la pista correspondiente. </p> </td> 
   </tr> 
  </tbody> 
@@ -93,15 +96,15 @@ El siguiente selector de clase CSS controla el control:
    <td colname="col2"> <p>Anchura del pomo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altura del pomo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Ilustración del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -118,11 +121,11 @@ El siguiente selector de clase CSS controla el tiempo de reproducción de la bur
 <table id="table_21E9AD3FBC8C4437BA02E5CD1BF7E831"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p> Familia de fuentes que se va a utilizar para mostrar el texto durante el tiempo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p> El tamaño de fuente que se va a utilizar para mostrar el texto durante el tiempo. </p> </td> 
   </tr> 
   <tr> 
@@ -130,11 +133,11 @@ El siguiente selector de clase CSS controla el tiempo de reproducción de la bur
    <td colname="col2"> <p> El color de fuente que se usará para mostrar el texto durante el tiempo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Ancho del área de burbujas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altura del área de burbujas. </p> </td> 
   </tr> 
   <tr> 
@@ -142,21 +145,21 @@ El siguiente selector de clase CSS controla el tiempo de reproducción de la bur
    <td colname="col2"> <p>Relleno del área de burbujas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Ilustración de burbujas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> text-align  </span> </p> </td> 
    <td colname="col2"> <p>Alineación del texto con el área de la burbuja. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-La información de la herramienta de limpieza de vídeo se puede localizar. Consulte [Localización de los elementos](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) de la interfaz de usuario para obtener más información.
+La información de la herramienta de limpieza de vídeo se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
 **Ejemplo** : Para configurar un visor de vídeo con una barra de desplazamiento de vídeo con colores de pista personalizados de 10 píxeles de altura y colocados 10 píxeles y 35 píxeles desde los bordes superior e izquierdo de la barra de control.
 
@@ -181,7 +184,7 @@ background-color:#888888;
 }
 ```
 
-Cuando se habilita el capítulo de vídeo con el `navigation` parámetro, las ubicaciones de capítulo se muestran como marcadores en la parte superior de la pista de desplazamiento de vídeo.
+Cuando se habilita el capítulo de vídeo con el parámetro `navigation`, las ubicaciones de capítulo se muestran como marcadores en la parte superior de la pista de desplazamiento de vídeo.
 
 El marcador de capítulo de vídeo está controlado por el siguiente selector de clase CSS:
 
@@ -194,19 +197,19 @@ El marcador de capítulo de vídeo está controlado por el siguiente selector de
 <table id="table_51F16E47BEF3430B919ABEEDBE543973"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Ancho del marcador de capítulos de vídeo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altura del marcador de capítulos de vídeo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Ilustración del marcador de capítulos de vídeo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -214,9 +217,9 @@ El marcador de capítulo de vídeo está controlado por el siguiente selector de
 
 >[!NOTE]
 >
->Este botón admite el selector de `state` atributos, que puede utilizar para aplicar diferentes apariencias a diferentes estados de botón. En particular, `selected='default'` corresponde al estado del marcador de capítulo de vídeo predeterminado y `selected='over'` se utiliza cuando el marcador de capítulo de vídeo se activa mediante un gesto táctil o al pasar el ratón por encima.
+>Este botón admite el selector de atributos `state`, que puede utilizar para aplicar diferentes apariencias a distintos estados de botones. En particular, `selected='default'` corresponde al estado del marcador de capítulo de vídeo predeterminado y `selected='over'` se utiliza cuando el marcador de capítulo de vídeo se activa mediante un gesto de toque o de desplazamiento del ratón.
 
-**Ejemplo** : Para configurar un marcador de capítulo de vídeo de 5 x 8 píxeles y utilizar una ilustración diferente para los estados &quot;predeterminado&quot; y &quot;sobre&quot;.
+**Ejemplo** : para configurar un marcador de capítulo de vídeo de 5 x 8 píxeles y utilizar una ilustración diferente para los estados &quot;predeterminado&quot; y &quot;sobre&quot;.
 
 ```
 .s7interactivevideoviewer .s7videoscrubber .s7navigation { 
@@ -244,7 +247,7 @@ La burbuja de capítulos de vídeo está controlada por el siguiente selector de
 <table id="table_7F33738422F84978B9132495F67C2156"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> max-width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> max-width  </span> </p> </td> 
    <td colname="col2"> <p>Ancho máximo de la burbuja de capítulos de vídeo. </p> </td> 
   </tr> 
   <tr> 
@@ -276,7 +279,7 @@ El encabezado está controlado por el siguiente selector de clase CSS:
 <table id="table_56FBC3BADDEA4E15924DD750CADC474F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altura del encabezado de la burbuja de capítulos de vídeo. </p> </td> 
   </tr> 
   <tr> 
@@ -284,11 +287,11 @@ El encabezado está controlado por el siguiente selector de clase CSS:
    <td colname="col2"> <p>Relleno interior para texto de encabezado de burbujas de capítulos de vídeo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Color de fondo del encabezado de burbuja de capítulos de vídeo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> line-height  </span> </p> </td> 
    <td colname="col2"> <p>Altura de la línea de texto del encabezado de la burbuja de capítulos de vídeo. </p> </td> 
   </tr> 
  </tbody> 
@@ -316,23 +319,23 @@ El tiempo de inicio del capítulo de vídeo se controla mediante el siguiente se
 <table id="table_D58D6B22BAEE4E26BAAB34783AE5A044"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
    <td colname="col2"> <p>Color de texto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-peso </span> </p> </td> 
-   <td colname="col2"> <p>peso de fuentes. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-peso  </span> </p> </td> 
+   <td colname="col2"> <p>Peso de fuentes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Tamaño de fuente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Familia de fuentes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> relleno-derecha </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> relleno-derecha  </span> </p> </td> 
    <td colname="col2"> <p> Relleno entre el tiempo de inicio y el título del capítulo. </p> </td> 
   </tr> 
  </tbody> 
@@ -360,19 +363,19 @@ El título del capítulo de vídeo está controlado por el siguiente selector de
 <table id="table_240DD3E119584DCC95FF480B60266603"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
    <td colname="col2"> <p>Color del texto del título del capítulo de vídeo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-peso </span> </p> </td> 
-   <td colname="col2"> <p>peso de fuente del título del capítulo de vídeo. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-peso  </span> </p> </td> 
+   <td colname="col2"> <p>Peso de fuente del título del capítulo de vídeo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Tamaño de fuente del título del capítulo de vídeo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Familia de fuentes del título del capítulo de vídeo. </p> </td> 
   </tr> 
  </tbody> 
@@ -400,27 +403,27 @@ La descripción del capítulo de vídeo está controlada por el siguiente select
 <table id="table_780382ECB3D049118857DCA21D130326"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
    <td colname="col2"> <p>Color de texto de descripción del capítulo de vídeo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Color de fondo de descripción del capítulo de vídeo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-peso </span> </p> </td> 
-   <td colname="col2"> <p>peso de fuentes de descripción de capítulos de vídeo. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-peso  </span> </p> </td> 
+   <td colname="col2"> <p>Peso de fuentes de descripción de capítulos de vídeo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Tamaño de fuente de descripción del capítulo de vídeo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Descripción de la familia de fuentes del capítulo de vídeo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> line-height  </span> </p> </td> 
    <td colname="col2"> <p>Alto de línea de descripción del capítulo de vídeo. </p> </td> 
   </tr> 
   <tr> 
@@ -430,7 +433,7 @@ La descripción del capítulo de vídeo está controlada por el siguiente select
  </tbody> 
 </table>
 
-**Ejemplo** : Para configurar la descripción de capítulos de vídeo con una fuente Verdana de 11 píxeles y gris oscuro con un fondo gris claro; 5 píxeles de altura de línea, 12 píxeles de margen horizontal, 12 píxeles de relleno superior y 9 píxeles de relleno inferior.
+**Ejemplo** : para configurar la descripción de capítulos de vídeo con una fuente Verdana de 11 píxeles y gris oscuro con un fondo gris claro; 5 píxeles de altura de línea, 12 píxeles de margen horizontal, 12 píxeles de relleno superior y 9 píxeles de relleno inferior.
 
 ```
 .s7interactivevideoviewer .s7videoscrubber .s7chapter .s7description { 
@@ -454,21 +457,21 @@ El conector de cuña situado en la parte inferior de la burbuja de capítulos es
 <table id="table_BC6AFB57D9404A84A3AE657448C0EB06"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-color </span> </p> </td> 
-   <td colname="col2"> <p>Color del conector de arista. </p> <p>Se define como <span class="codeph"> &lt;color&gt; transparente </span> de modo que solo se defina el color del borde superior y los bordes restantes se dejen transparentes. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-color  </span> </p> </td> 
+   <td colname="col2"> <p>Color del conector de arista. </p> <p>Definido como <span class="codeph"> &lt;color&gt; transparente </span> de modo que sólo se defina el color del borde superior y los bordes restantes se dejen transparentes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-width </span> </p> </td> 
-   <td colname="col2"> <p> Anchura del conector Wedge. </p> <p>Definido como <span class="codeph"> &lt;width&gt; &lt;width&gt; 0 </span> de modo que la misma anchura se defina solo para los bordes superior y horizontal y la anchura del borde inferior sea <span class="codeph"> 0 </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-width  </span> </p> </td> 
+   <td colname="col2"> <p> Anchura del conector Wedge. </p> <p>Definido como <span class="codeph"> &lt;width&gt; &lt;width&gt; 0 </span> de manera que la misma anchura se defina sólo para los bordes superior y horizontal y la anchura del borde inferior sea <span class="codeph"> 0 </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> Define un margen inferior negativo solamente. Debe tener el mismo valor que el <span class="codeph"> borde-ancho </span>. </p> </td> 
+   <td colname="col2"> <p> Define un margen inferior negativo solamente. Debe tener el mismo valor que el de <span class="codeph"> border-width </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Ejemplo** : Para configurar un conector de seda de seis píxeles gris:
+**Ejemplo** : para configurar un conector de seis píxeles de cuña gris:
 
 ```
 .s7interactivevideoviewer .s7videoscrubber .s7chapter .s7tail { 
