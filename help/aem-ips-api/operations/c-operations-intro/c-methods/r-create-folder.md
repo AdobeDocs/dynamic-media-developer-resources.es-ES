@@ -21,7 +21,7 @@ Crea una carpeta.
 
 >[!NOTE]
 >
->La nueva carpeta está subordinada a la carpeta Images, aunque especifique un `/` valor para indicar la raíz de la compañía.
+>La nueva carpeta está subordinada a la carpeta Images, aunque especifique un `/` para indicar la raíz de la compañía.
 
 Sintaxis
 
