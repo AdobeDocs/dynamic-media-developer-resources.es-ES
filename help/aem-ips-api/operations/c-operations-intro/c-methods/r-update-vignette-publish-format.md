@@ -32,7 +32,7 @@ Actualiza la configuración del formato de publicación de la viñeta.
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sí | Identificador de Compañía. |
+| ` *`companyHandle`*` | `xsd:string` | Sí | Identificador de compañía. |
 | ` *`vignetteFormatHandle`*` | `xsd:string` | Sí | Identificador de formato de publicación. |
 | ` *`name`*` | `xsd:string` | No | Nombre del formato de publicación. |
 | ` *`targetWidth`*` | `xsd:int` | Sí | Especifica el ancho de destinatario de la vista de viñeta resultante en píxeles. Utilice cero para que la viñeta de salida tenga el mismo tamaño que la viñeta principal. |
