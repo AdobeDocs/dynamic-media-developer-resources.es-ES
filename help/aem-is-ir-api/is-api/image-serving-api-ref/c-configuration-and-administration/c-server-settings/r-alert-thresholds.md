@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# Alert thresholds{#alert-thresholds}
+# Umbrales de alerta{#alert-thresholds}
 
 Utilice esta configuración del servidor para configurar los umbrales de alerta.
 
@@ -39,7 +39,7 @@ Se envía una alerta de tráfico mínima cuando el número medio de solicitudes 
 
 ## AS::monitorAlertGenerator.minFreeHeapSpace -Umbral de espacio de montón libre {#section-ce6705045f6842769030ccb1894594cc}
 
-Especifica el espacio mínimo libre en la pila de Java. Una alerta de prioridad se envía inmediatamente después de un ciclo de recolección de elementos no utilizados de Java cuando el espacio libre del montón está por debajo de este umbral. Se recomiendan 50 MB para el funcionamiento seguro del servidor Platform. Mantener el espacio libre en el montón por encima de este valor reduce la frecuencia de los ciclos de recolección de elementos no utilizados, lo que puede mejorar el rendimiento general del servidor. Valor entero en bytes, 0 o más.
+Especifica el espacio mínimo libre en la pila de Java. Una alerta de prioridad se envía inmediatamente después de un ciclo de recolección de elementos no utilizados de Java cuando el espacio libre del montón está por debajo de este umbral. Se recomiendan 50 MB para el funcionamiento seguro del servidor de plataformas. Mantener el espacio libre en el montón por encima de este valor reduce la frecuencia de los ciclos de recolección de elementos no utilizados, lo que puede mejorar el rendimiento general del servidor. Valor entero en bytes, 0 o más.
 
 ## AS::monitorAlertGenerator.maxOverlap - Número máximo de solicitudes simultáneas {#section-ddc6925bff944758ab19bcc9cf3f2589}
 
@@ -47,7 +47,7 @@ Se activa una alerta de superposición cuando el número medio de solicitudes pr
 
 Valor entero 1 o superior. El intervalo típico es de 20 a 50, según la velocidad de visitas de la caché y la complejidad de la solicitud.
 
-## AS::monitorAlertGenerator.lockedThreshold - Umbral de solicitud bloqueada {#section-012a1c9937d445708380339279c62d80}
+## AS::monitorAlertGenerator.lockedThreshold - Umbral de solicitud bloqueado {#section-012a1c9937d445708380339279c62d80}
 
 Especifica el número de segundos que una solicitud debe estar pendiente antes de que se considere bloqueada o bloqueada. Se emite una alerta de solicitud bloqueada si al final de un intervalo de promedio al menos una solicitud ha estado pendiente durante más tiempo que el período de tiempo especificado. Valor entero positivo en mseg.
 
