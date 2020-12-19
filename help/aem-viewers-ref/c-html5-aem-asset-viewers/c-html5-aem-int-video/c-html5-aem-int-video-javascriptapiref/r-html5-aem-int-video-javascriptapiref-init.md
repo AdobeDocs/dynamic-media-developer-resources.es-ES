@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e6ec0730-1ddc-4026-939c-2c9f8ecee5c7
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '131'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +23,7 @@ Referencia de la API de JavaScript para el visor de vídeo interactivo.
 
 Inicio la inicialización del visor de vídeo interactivo. Para este momento, se debe crear el elemento DOM de contenedor para que el código del visor pueda encontrarlo por su ID.
 
-Si el elemento de contenedor no forma parte del diseño de página web todavía (por ejemplo, puede estar oculto con `display:none` el estilo asignado), el visor suspende el proceso de inicialización hasta el momento en que la página web vuelve a colocar el elemento de contenedor en el diseño. Cuando esto sucede, la carga del visor se reanuda automáticamente.
+Si el elemento contenedor no forma parte del diseño de página web todavía (por ejemplo, puede ocultarse con el estilo `display:none` asignado), el visor suspende el proceso de inicialización hasta el momento en que la página web vuelve a colocar el elemento contenedor en el diseño. Cuando esto sucede, la carga del visor se reanuda automáticamente.
 
 Llame a este método solo una vez durante el ciclo de vida del visor; las llamadas subsiguientes se omiten.
 
@@ -28,7 +31,7 @@ Llame a este método solo una vez durante el ciclo de vida del visor; las llamad
 
 Ninguno.
 
-## Returns {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Devuelve {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 `{Object}` Referencia a la instancia del visor.
 
