@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e5d990af-1c5a-4253-8ecd-b51119cee3a2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '129'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +23,7 @@ Referencia de la API de JavaScript para el visor flotante.
 
 Inicio la inicialización del visor flotante. Para este momento, se debe crear el elemento DOM de contenedor para que el código del visor pueda encontrarlo por su ID.
 
-Si el elemento de contenedor no forma parte del diseño de página web todavía (por ejemplo, puede estar oculto con `display:none` el estilo asignado), el visor suspende el proceso de inicialización hasta el momento en que la página web vuelve a colocar el elemento de contenedor en el diseño. Cuando esto sucede, la carga del visor se reanuda automáticamente.
+Si el elemento contenedor no forma parte del diseño de página web todavía (por ejemplo, puede ocultarse con el estilo `display:none` asignado), el visor suspende el proceso de inicialización hasta el momento en que la página web vuelve a colocar el elemento contenedor en el diseño. Cuando esto sucede, la carga del visor se reanuda automáticamente.
 
 Este método solo debe llamarse una vez durante el ciclo de vida del visor; se omiten las llamadas consiguientes.
 
@@ -28,7 +31,7 @@ Este método solo debe llamarse una vez durante el ciclo de vida del visor; se o
 
 Ninguno.
 
-## Returns {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Devuelve {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 `{Object}` Referencia a la instancia del visor.
 
