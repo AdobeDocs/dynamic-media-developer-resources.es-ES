@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 4b94f9ea-3f7b-45ee-9381-6434f2bc4e31
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -52,7 +55,7 @@ Configure o actualice el estado de publicación de uno o varios recursos. Puede 
 
 ## Ejemplos {#section-283a073f3cb14bcda5abed863c538aa4}
 
-Este ejemplo de código establece el estado de publicación de un recurso que utiliza `NotMarkedForPublish`.
+Este ejemplo de código establece el estado de publicación de un recurso mediante `NotMarkedForPublish`.
 
 **Solicitar**
 
