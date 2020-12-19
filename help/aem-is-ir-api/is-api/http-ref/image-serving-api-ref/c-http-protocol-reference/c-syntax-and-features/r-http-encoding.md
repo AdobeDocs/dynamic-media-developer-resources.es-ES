@@ -15,7 +15,7 @@ ht-degree: 21%
 ---
 
 
-# Codificación HTTP de servicio de imágenes{#image-serving-http-encoding}
+# Codificación HTTP del servicio de imágenes{#image-serving-http-encoding}
 
 Los valores de comando deben estar codificados en http con secuencias de escape %xx, de modo que las cadenas de valor no incluyan los caracteres reservados &#39;=&#39;, &#39;&amp;&#39; y &#39;%&#39;.
 
@@ -36,7 +36,7 @@ De lo contrario, se aplican las reglas de codificación HTTP estándar. La espec
    <td colname="col3"> <p>32 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&lt; </p> </td> 
+   <td colname="col1"> <p>&lt;&gt; </p> </td> 
    <td colname="col2"> <p>3C </p> </td> 
    <td colname="col3"> <p>60 </p> </td> 
   </tr> 
@@ -145,7 +145,7 @@ Los caracteres reservados también deben codificarse.
    <td colname="col3"> <p>47 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>: </p> </td> 
+   <td colname="col1"> <p>:: </p> </td> 
    <td colname="col2"> <p>3A </p> </td> 
    <td colname="col3"> <p>58 </p> </td> 
   </tr> 
@@ -186,4 +186,4 @@ Si se aplica confusión, la codificación puede limitarse a eliminar los caracte
 
 ## Véase también {#section-295476ec34c74973962d07dfa9eb2180}
 
-[Confusión](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d)de solicitudes, especificación [HTTP/1.1 (RFC 2616)](http://www.w3.org/Protocols/rfc2616/rfc2616.html)
+[Confusión](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d) de solicitudes, especificación  [HTTP/1.1 (RFC 2616)](http://www.w3.org/Protocols/rfc2616/rfc2616.html)
