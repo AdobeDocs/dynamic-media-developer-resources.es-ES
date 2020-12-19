@@ -9,7 +9,7 @@ uuid: 50db98cc-8354-4884-9416-00808828061b
 translation-type: tm+mt
 source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -29,15 +29,15 @@ Tanto una versión de 32 bits como una versión de 64 bits del servidor de imág
 
 >[!NOTE]
 >
->Windows no admite el modo de 64 bits. Solo `ImageServer32` se puede especificar. De lo contrario, el servicio de imágenes no se inicio.
+>Windows no admite el modo de 64 bits. Sólo se puede especificar `ImageServer32`. De lo contrario, el servicio de imágenes no se inicio.
 
-## SV::PsHeapSize - Tamaño de pila del servidor de Platform {#section-fd83715948764aeda58d6b3a9f9f8be9}
+## SV::PsHeapSize - Tamaño del montón del servidor de plataforma {#section-fd83715948764aeda58d6b3a9f9f8be9}
 
-El tamaño del montón de Java para Platform Server. El valor predeterminado es &quot; `512m`&quot; (512 Mbytes).
+El tamaño del montón de Java para el servidor de plataforma. El valor predeterminado es &quot; `512m`&quot; (512 Mbytes).
 
 ## IS::TcpPort, PS::isConnection.port - Puerto de escucha del servidor de imágenes {#section-5421bfd2ca2a4a979faf812b6fdb2887}
 
-Especifica el puerto utilizado para la comunicación entre el servidor de Platform y el servidor de imágenes. Asegúrese de especificar un número de puerto que no se utilice de otro modo en el sistema host.
+Especifica el puerto utilizado para la comunicación entre el servidor de plataformas y el servidor de imágenes. Asegúrese de especificar un número de puerto que no se utilice de otro modo en el sistema host.
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Número máximo de subprocesos que utiliza el servidor de imágenes para procesa
 
 Algunos sistemas operativos tienen modelos de subprocesos con una sobrecarga de conmutación de contexto alta. En este caso, el rendimiento general del servidor puede mejorar cuando se selecciona un recuento de subprocesos específico (por ejemplo, un subproceso por CPU). Es posible que se requiera cierta experimentación para encontrar la configuración óptima. Consulte las notas de la versión del servicio de imágenes y la documentación del sistema operativo para obtener información adicional.
 
-## IS::NumberOfTextServers - Número de instancias del servidor de texto {#section-971e20a90c1a473598fba738ed95671a}
+## IS::NumberOfTextServers - Número de instancias de servidor de texto {#section-971e20a90c1a473598fba738ed95671a}
 
 El número máximo de procesadores de texto que se activan al mismo tiempo. 0 (predeterminado) equivale a 1,5 veces el número de núcleos de CPU disponibles.
 
