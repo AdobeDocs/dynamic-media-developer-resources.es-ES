@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 940d7b63-80cf-4097-9cf9-8499b69181b7
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '76'
+ht-degree: 18%
 
 ---
 
@@ -30,7 +33,7 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sí | Identificador de Compañía. |
+| ` *`companyHandle`*` | `xsd:string` | Sí | Identificador de compañía. |
 | ` *`folderHandle`*` | `xsd:string` | Sí | Identificador de carpeta. |
 | ` *`updateChildren`*` | `xsd:boolean` | Sí | Determina si se deben actualizar los elementos secundarios con permisos establecidos para la carpeta de nivel superior. |
 | ` *`updateArray`*` | `types:PermissionUpdateArray` | Sí | Matriz de actualizaciones de permisos que desea aplicar a la carpeta. |
