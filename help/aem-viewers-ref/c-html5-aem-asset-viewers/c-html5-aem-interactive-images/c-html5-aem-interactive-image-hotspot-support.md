@@ -1,15 +1,13 @@
 ---
-description: nulo
-seo-description: nulo
-seo-title: Compatibilidad con hotspot
+description: Compatibilidad con hotspot
 solution: Experience Manager
 title: Compatibilidad con hotspot
 topic: Dynamic media
 uuid: 62e0e55a-55a3-417d-ad51-ec77a7c16ac3
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '184'
 ht-degree: 0%
 
 ---
@@ -25,7 +23,7 @@ Las zonas interactivas pueden activar una función de Vista rápida en la págin
 
 ## Puntos interactivos de Vista rápida {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Estos tipos de zonas interactivas deben crearse utilizando el tipo de acción &quot;Vista rápida&quot; en Dynamic Media, AEM Assets - On Demand. Cuando un usuario activa una zona interactiva de este tipo, el visor ejecuta la llamada de retorno de JavaScript `quickViewActivate` y le pasa los datos de zona interactiva. Se espera que la página web de incrustación escuche esta llamada de retorno. Cuando activa la página, abre su propia implementación de Vista rápida.
+Estos tipos de zonas interactivas deben crearse utilizando el tipo de acción &quot;Vista rápida&quot; en Dynamic Media, AEM Assets - On Demand. Cuando un usuario activa una zona interactiva de este tipo, el visor ejecuta la llamada de retorno de JavaScript `quickViewActivate` y le pasa los datos de zona interactiva. Se espera que la página web de incrustación escuche esta llamada de retorno. Cuando déclencheur la página, abre su propia implementación de Vista rápida.
 
 ## Redirigir a la página Web externa {#section-ef820c71251e4215800bb99c0c9ebe16}
 
