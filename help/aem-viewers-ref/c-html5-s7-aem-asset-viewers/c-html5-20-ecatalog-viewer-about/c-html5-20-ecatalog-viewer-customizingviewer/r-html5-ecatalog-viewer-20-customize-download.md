@@ -1,16 +1,14 @@
 ---
-description: nulo
-seo-description: nulo
-seo-title: Descargar
+description: Descargar
 solution: Experience Manager
 title: Descargar
 topic: Dynamic media
 uuid: 0a6c2362-6c2a-42cc-b274-377aa507a557
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '153'
+ht-degree: 3%
 
 ---
 
