@@ -1,16 +1,14 @@
 ---
-description: nulo
-seo-description: nulo
-seo-title: Tipos de datos
+description: Tipos de datos
 solution: Experience Manager
 title: Tipos de datos
 topic: Scene7 Image Production System API
 uuid: 49e99f49-5bab-460f-a5f4-c966027b77fe
 translation-type: tm+mt
-source-git-commit: 88d3a65852365d7fcd7631ff5b5f7215b7c48618
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '226'
+ht-degree: 4%
 
 ---
 
