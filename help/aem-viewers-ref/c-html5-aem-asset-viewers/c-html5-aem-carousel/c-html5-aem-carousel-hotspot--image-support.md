@@ -1,15 +1,13 @@
 ---
-description: nulo
-seo-description: nulo
-seo-title: Compatibilidad con zonas interactivas y mapas de imagen
+description: Compatibilidad con zonas interactivas y mapas de imagen
 solution: Experience Manager
 title: Compatibilidad con zonas interactivas y mapas de imagen
 topic: Dynamic media
 uuid: 839b6a7f-4f6f-43ad-8eb8-254959c7fbac
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -25,7 +23,7 @@ Las zonas interactivas y las regiones pueden activar una función de Vista rápi
 
 ## Puntos interactivos de Vista rápida {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Estos tipos de zonas interactivas o mapas de imagen deben crearse utilizando el tipo de acción &quot;Vista rápida&quot; en Dynamic Media, de AEM. Cuando un usuario activa una zona interactiva o mapa de imagen, el visor ejecuta la llamada de retorno de JavaScript `quickViewActivate` y le pasa los datos de zona interactiva o mapa de imagen. Se espera que la página web de incrustación escuche esta llamada de retorno. Cuando activa la página, abre su propia implementación de Vista rápida.
+Estos tipos de zonas interactivas o mapas de imagen deben crearse utilizando el tipo de acción &quot;Vista rápida&quot; en Dynamic Media, de AEM. Cuando un usuario activa una zona interactiva o mapa de imagen, el visor ejecuta la llamada de retorno de JavaScript `quickViewActivate` y le pasa los datos de zona interactiva o mapa de imagen. Se espera que la página web de incrustación escuche esta llamada de retorno. Cuando déclencheur la página, abre su propia implementación de Vista rápida.
 
 ## Redirigir a la página Web externa {#section-ef820c71251e4215800bb99c0c9ebe16}
 
