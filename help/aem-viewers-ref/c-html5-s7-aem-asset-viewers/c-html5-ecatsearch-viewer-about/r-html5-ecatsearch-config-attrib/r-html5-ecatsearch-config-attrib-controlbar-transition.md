@@ -1,16 +1,14 @@
 ---
-description: nulo
-seo-description: nulo
-seo-title: ControlBar.transition
+description: ControlBar.transition
 solution: Experience Manager
 title: ControlBar.transition
 topic: Dynamic media
 uuid: 30f133bd-09c7-4d70-bcc4-d961bb028e55
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '118'
+ht-degree: 3%
 
 ---
 
@@ -27,7 +25,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delaytohide  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Especifica el tiempo en segundos que transcurre entre el último evento táctil o de ratón que registra la barra de control y la barra de control de tiempo que se oculta. </p> <p> Si se establece en <span class="codeph"> -1 </span>, el componente nunca activa su efecto de ocultación automática y siempre permanece visible en la pantalla. </p> </td> 
+   <td colname="col2"> <p> Especifica el tiempo en segundos que transcurre entre el último evento táctil o de ratón que registra la barra de control y la barra de control de tiempo que se oculta. </p> <p> Si se establece en <span class="codeph"> -1 </span>, el componente nunca déclencheur su efecto de ocultación automática y siempre permanece visible en la pantalla. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duration  </span> </span> </p> </td> 
