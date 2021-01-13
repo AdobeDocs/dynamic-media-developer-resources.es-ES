@@ -1,16 +1,14 @@
 ---
-description: nulo
-seo-description: nulo
-seo-title: Convertidor de viñetas (vntc)
+description: Convertidor de viñetas (vntc)
 solution: Experience Manager
 title: Convertidor de viñetas (vntc)
 topic: Scene7 Image Serving - Image Rendering API
 uuid: b1eb0a58-3499-4a41-9054-86c7c8e31213
 translation-type: tm+mt
-source-git-commit: deb4b2f722397f269c3f558c1ba9a08d506d4c3a
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '26'
+ht-degree: 3%
 
 ---
 
