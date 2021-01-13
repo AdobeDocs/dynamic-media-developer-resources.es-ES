@@ -1,15 +1,13 @@
 ---
-description: nulo
-seo-description: nulo
-seo-title: Devoluciones de llamada de evento
+description: Devoluciones de llamada de evento
 solution: Experience Manager
 title: Devoluciones de llamada de evento
 topic: Dynamic media
 uuid: 0c4c4111-5ad7-458c-afa2-d551b5987322
 translation-type: tm+mt
-source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -23,9 +21,9 @@ Los controladores de llamada de retorno se asignan pasando nombres de evento y f
 
 Los eventos de visor admitidos son los siguientes:
 
-* `initComplete` - se activa cuando se completa la inicialización del visor y se crean todos los componentes internos, de modo que es posible utilizar  `getComponent()` API. El controlador de llamada de retorno no toma ningún argumento.
+* `initComplete` - déclencheur cuando se completa la inicialización del visor y se crean todos los componentes internos, para que sea posible utilizar  `getComponent()` API. El controlador de llamada de retorno no toma ningún argumento.
 
-* `trackEvent` - se desencadena cada vez que se produce un evento dentro del visor que puede ser gestionado por un sistema de seguimiento de evento, como Adobe Analytics. El controlador callback toma los siguientes argumentos:
+* `trackEvent` - déclencheur cada vez que se produce un evento dentro del visor que puede ser gestionado por un sistema de seguimiento de evento, como Adobe Analytics. El controlador callback toma los siguientes argumentos:
 
    * `objID {String}` no se está utilizando actualmente.
    * `compClass {String}` no se está utilizando actualmente.
