@@ -1,16 +1,14 @@
 ---
-description: nulo
-seo-description: nulo
-seo-title: FlyoutZoomView.highlightmode
+description: FlyoutZoomView.highlightmode
 solution: Experience Manager
 title: FlyoutZoomView.highlightmode
 topic: Dynamic media
 uuid: 397c1af0-f806-4555-83fa-ec7548b59a60
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '256'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +25,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showtime  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Define el tiempo (en segundos) que tarda el resaltado o el cursor en desaparecer después de que el usuario lo active. La entrada de fundido solo se aplica en dispositivos táctiles; en sistemas de escritorio, el componente lo ignora. </p> <p>La función Desvanecer se aplica a los siguientes elementos de la interfaz de usuario: marco de resaltado, cursor fijo, superposición (en caso de que el parámetro <span class="codeph"> superposición </span> esté establecido en <span class="codeph"> 1 </span>). La animación de vista flotante solo comienza después de que se haya completado la atenuación de resaltado/cursor en la animación. No hay animación de atenuación. Cuando el usuario desactiva el menú flotante, los elementos de la interfaz de usuario correspondientes (cursor, resaltado y superposición) se ocultan instantáneamente. </p> </td> 
+   <td colname="col2"> <p> Define el tiempo (en segundos) que tarda el resaltado o el cursor en aparecer después de que el usuario lo active. La entrada de fundido solo se aplica en dispositivos táctiles; en sistemas de escritorio, el componente lo ignora. </p> <p>La función Desvanecer se aplica a los siguientes elementos de la interfaz de usuario: marco de resaltado, cursor fijo, superposición (en caso de que el parámetro <span class="codeph"> superposición </span> esté establecido en <span class="codeph"> 1 </span>). La animación de vista flotante solo comienza después de que se haya completado la atenuación de resaltado/cursor en la animación. No hay animación de atenuación. Cuando el usuario desactiva el menú flotante, los elementos de la interfaz de usuario correspondientes (cursor, resaltado y superposición) se ocultan instantáneamente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> onimage|free  </span> </p> </td> 
