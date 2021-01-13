@@ -1,16 +1,14 @@
 ---
-description: nulo
+description: Personalización del visor flotante
 keywords: responsive
-seo-description: nulo
-seo-title: Personalización del visor flotante
 solution: Experience Manager
 title: Personalización del visor flotante
 topic: Dynamic media
 uuid: 10b5caa4-5298-43fa-af86-4f0b77be967b
 translation-type: tm+mt
-source-git-commit: 8d7fdab78c5d23d0e541effa9b9c470921bd144b
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1262'
 ht-degree: 0%
 
 ---
