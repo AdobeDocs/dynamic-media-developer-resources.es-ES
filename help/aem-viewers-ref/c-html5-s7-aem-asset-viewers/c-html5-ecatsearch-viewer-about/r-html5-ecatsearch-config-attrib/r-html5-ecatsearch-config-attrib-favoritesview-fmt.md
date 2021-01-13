@@ -1,16 +1,14 @@
 ---
-description: nulo
-seo-description: nulo
-seo-title: FavoritesView.fmt
+description: FavoritesView.fmt
 solution: Experience Manager
 title: FavoritesView.fmt
 topic: Dynamic media
 uuid: 777411ee-c73f-4921-8ee1-7eb002ac3e95
 translation-type: tm+mt
-source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '70'
+ht-degree: 5%
 
 ---
 
