@@ -1,16 +1,14 @@
 ---
-description: nulo
-seo-description: nulo
-seo-title: Servicio de contenido estático (sin imagen)
+description: Servicio de contenido estático (sin imagen)
 solution: Experience Manager
 title: Servicio de contenido estático (sin imagen)
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 4ec483fe-68a4-4ae2-b5ce-730229a9bc15
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 2%
+source-wordcount: '285'
+ht-degree: 1%
 
 ---
 
