@@ -1,16 +1,14 @@
 ---
-description: nulo
-seo-description: nulo
-seo-title: PageView.iconEffect
+description: PageView.iconEffect
 solution: Experience Manager
 title: PageView.iconEffect
 topic: Dynamic media
 uuid: c8adabf9-ccbf-4a46-b1e7-b4cb58d4e606
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '117'
+ht-degree: 5%
 
 ---
 
