@@ -1,15 +1,13 @@
 ---
-description: nulo
-seo-description: nulo
-seo-title: Parámetros de operación
+description: Parámetros de operación
 solution: Experience Manager
 title: Parámetros de operación
 topic: Scene7 Image Production System API
 uuid: 2515588d-e2eb-4ea6-ae9c-d6a873c712e8
 translation-type: tm+mt
-source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
