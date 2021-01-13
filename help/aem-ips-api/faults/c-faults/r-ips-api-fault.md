@@ -1,16 +1,14 @@
 ---
-description: nulo
-seo-description: nulo
-seo-title: ipsApiFault
+description: ipsApiFault
 solution: Experience Manager
 title: ipsApiFault
 topic: Scene7 Image Production System API
 uuid: 010814a8-1d29-4b02-8449-cb26e4335e07
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '25'
+ht-degree: 36%
 
 ---
 
