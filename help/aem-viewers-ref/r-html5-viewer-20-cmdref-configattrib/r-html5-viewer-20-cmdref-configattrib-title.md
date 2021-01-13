@@ -1,16 +1,14 @@
 ---
-description: nulo
-seo-description: nulo
-seo-title: título
+description: título
 solution: Experience Manager
 title: título
 topic: Dynamic media
 uuid: ff6c0e2e-ac59-4bcf-9ab9-227ba686914e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '38'
+ht-degree: 21%
 
 ---
 
