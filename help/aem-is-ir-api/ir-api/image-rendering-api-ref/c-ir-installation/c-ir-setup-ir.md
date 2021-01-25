@@ -4,12 +4,12 @@ seo-description: El procesamiento de imágenes se configura con el fileinstall_f
 seo-title: Configurar y configurar la representación de imágenes
 solution: Experience Manager
 title: Configurar y configurar la representación de imágenes
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ce76282d-d942-4378-b083-41c95ba97980
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
