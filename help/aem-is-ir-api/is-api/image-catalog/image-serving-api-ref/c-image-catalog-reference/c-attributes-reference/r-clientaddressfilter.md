@@ -4,13 +4,13 @@ seo-description: Filtro de dirección IP del cliente. Permite especificar una o 
 seo-title: ClientAddressFilter
 solution: Experience Manager
 title: ClientAddressFilter
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6a557795-0caf-4b5f-974e-fb4c1481a83c
 translation-type: tm+mt
-source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '144'
+ht-degree: 4%
 
 ---
 
