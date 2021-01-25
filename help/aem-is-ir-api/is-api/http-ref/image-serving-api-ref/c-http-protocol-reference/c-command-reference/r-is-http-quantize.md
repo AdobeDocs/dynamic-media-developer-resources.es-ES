@@ -4,10 +4,10 @@ seo-description: Cuantificación de color. Especifica atributos de cuantificaci�
 seo-title: cuantificar
 solution: Experience Manager
 title: cuantificar
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 4e9c4807-59bc-4eb9-bcab-0bf0cfdf56d4
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 3%
@@ -46,7 +46,7 @@ Cuantificación de color. Especifica atributos de cuantificación de color para 
 
 Solicitar atributo. Se aplica independientemente de la configuración de la capa actual. Se utiliza solamente si `fmt=gif`, `fmt=gif-alpha`, `fmt=png8` o `fmt=png8-alpha`. Omitido de otro modo.
 
-Los colores especificados con ` *`colorList`*` deben constar de valores RGB en formato hex6 (consulte ` [color](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md#reference-b044954ec6184253b8831579466b4423)`) sin el prefijo &#39; `0x`&#39;. No se permiten otros especificadores de color. *`numColors`* debe estar entre 2 y 256.
+Los colores especificados con `*`colorList`*` deben constar de valores RGB en formato hex6 (consulte ` [color](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md#reference-b044954ec6184253b8831579466b4423)`) sin el prefijo &#39; `0x`&#39;. No se permiten otros especificadores de color. *`numColors`* debe estar entre 2 y 256.
 
 ## Predeterminado {#section-ca3e817617244e8798ccff67b2023a32}
 
