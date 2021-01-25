@@ -1,15 +1,12 @@
 ---
-description: Este documento describe el protocolo HTTP para el procesamiento de imágenes de Scene7.
-seo-description: Este documento describe el protocolo HTTP para el procesamiento de imágenes de Scene7.
-seo-title: Introducción
+description: Este documento describe el protocolo HTTP para el procesamiento de imágenes de Dynamic Media.
 solution: Experience Manager
 title: Introducción
-topic: Scene7 Image Serving - Image Rendering API
-uuid: d709f1d2-e7cc-4e9f-b039-aa333e517cbb
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '384'
 ht-degree: 1%
 
 ---
@@ -17,15 +14,15 @@ ht-degree: 1%
 
 # Introducción{#introduction}
 
-Este documento describe el protocolo HTTP para el procesamiento de imágenes de Scene7.
+Este documento describe el protocolo HTTP para el procesamiento de imágenes de Dynamic Media.
 
-Sólo se describen los aspectos del protocolo que están a disposición del público. El servidor puede admitir comandos adicionales que están reservados para el uso del software cliente de Scene7.
+Sólo se describen los aspectos del protocolo que están a disposición del público. El servidor puede admitir comandos adicionales que están reservados para el uso del software cliente de Dynamic Media.
 
 **Audiencia prevista**
 
-Este documento está dirigido a programadores y desarrolladores de sitios web experimentados que deseen aprovechar el procesamiento de imágenes de Scene7 para un sitio web o una aplicación personalizada.
+Este documento está dirigido a programadores y desarrolladores de sitios web experimentados que deseen aprovechar el procesamiento de imágenes de Dynamic Media para un sitio web o una aplicación personalizada.
 
-Se supone que el lector está familiarizado con la creación de imágenes y el procesamiento de imágenes de Scene7, las normas y convenciones generales del protocolo HTTP y la terminología básica de imágenes.
+Se supone que el lector está familiarizado con la creación de imágenes y el procesamiento de imágenes de Dynamic Media, las normas y convenciones generales del protocolo HTTP y la terminología básica de imágenes.
 
 **Convenciones de documento**
 
@@ -100,4 +97,4 @@ Se supone que el lector está familiarizado con la creación de imágenes y el p
 
 ** *`MSS`* ** Segmento de especificación de materiales: un conjunto de atributos materiales entre dos comandos de selección en la solicitud.
 
-** *`vignette`* ** Una imagen preparada en Scene7 Image Authoring para su uso con el procesamiento de imágenes.
+** *`vignette`* ** Una imagen preparada en Dynamic Media Image Authoring para su uso con el procesamiento de imágenes.
