@@ -4,13 +4,13 @@ seo-description: Devuelve carpetas y subcarpetas de una estructura jerárquica d
 seo-title: getFolderTree
 solution: Experience Manager
 title: getFolderTree
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 93fda0d6-c656-4254-b07b-7a448e164f28
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '278'
+ht-degree: 8%
 
 ---
 
@@ -41,21 +41,21 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sí | El identificador de la compañía. |
-| ` *`accessUserHandle`*` | `xsd:string` | No | Solo lo utilizan los administradores para hacerse pasar por un usuario específico. |
-| ` *`accessGroupHandle`*` | `xsd:string` | No | Se utiliza para filtrar por un grupo específico, incluidos los grupos a los que pertenece la compañía. |
-| ` *`folderPath`*` | `xsd:string` | No | La carpeta raíz que se va a recuperar y todas las subcarpetas en el nivel de hoja. Si se excluye, se utiliza la raíz de compañía. |
-| ` *`profundidad`*` | `xsd:int` | Sí | Un valor de cero obtiene la carpeta de nivel superior. Cualquier otro valor especifica la profundidad que se va a descender en el árbol. |
-| ` *`assetTypeArray`*` | `types:StringArray` | No | Devuelve carpetas que solo contienen tipos de recursos especificados. |
-| ` *`responseFieldArray`*` | `types:StringArray` | No | Contiene una lista de campos que desea incluir en la respuesta. |
-| ` *`excludeFieldArray`*` | `types:StringArray` | No | Contiene una lista de campos que desea excluir en la respuesta. |
+| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la compañía. |
+| `*`accessUserHandle`*` | `xsd:string` | No | Solo lo utilizan los administradores para hacerse pasar por un usuario específico. |
+| `*`accessGroupHandle`*` | `xsd:string` | No | Se utiliza para filtrar por un grupo específico, incluidos los grupos a los que pertenece la compañía. |
+| `*`folderPath`*` | `xsd:string` | No | La carpeta raíz que se va a recuperar y todas las subcarpetas en el nivel de hoja. Si se excluye, se utiliza la raíz de compañía. |
+| `*`profundidad`*` | `xsd:int` | Sí | Un valor de cero obtiene la carpeta de nivel superior. Cualquier otro valor especifica la profundidad que se va a descender en el árbol. |
+| `*`assetTypeArray`*` | `types:StringArray` | No | Devuelve carpetas que solo contienen tipos de recursos especificados. |
+| `*`responseFieldArray`*` | `types:StringArray` | No | Contiene una lista de campos que desea incluir en la respuesta. |
+| `*`excludeFieldArray`*` | `types:StringArray` | No | Contiene una lista de campos que desea excluir en la respuesta. |
 
 **Salida (getFolderTreeReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`carpetas`*` | `types:folders` | No | La jerarquía de carpetas en una estructura de árbol. La respuesta está limitada a un máximo de 100.000 carpetas. |
-| ` *`permissionSetArray`*` | `types:PermissionSetArray` |  |  |
+| `*`carpetas`*` | `types:folders` | No | La jerarquía de carpetas en una estructura de árbol. La respuesta está limitada a un máximo de 100.000 carpetas. |
+| `*`permissionSetArray`*` | `types:PermissionSetArray` |  |  |
 
 ## Ejemplos {#section-a9fd2edb56574dd9bf8b0f2fd89367e4}
 
