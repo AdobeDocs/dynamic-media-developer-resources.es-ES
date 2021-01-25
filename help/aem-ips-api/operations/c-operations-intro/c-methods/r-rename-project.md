@@ -4,13 +4,13 @@ seo-description: Cambia el nombre de un proyecto.
 seo-title: RenameProject
 solution: Experience Manager
 title: RenameProject
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 6303c493-a6fe-4b32-80c3-947aba4190f7
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '75'
+ht-degree: 22%
 
 ---
 
@@ -36,15 +36,15 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyName`*` | `xsd:string` | Sí | Administre la compañía con el proyecto cuyo nombre desee cambiar. |
-| ` *`projectHandle`*` | `xsd:string` | Sí | Gestionar el proyecto. |
-| ` *`projectName`*` | `xsd:string` | Sí | Nuevo nombre de proyecto. |
+| `*`companyName`*` | `xsd:string` | Sí | Administre la compañía con el proyecto cuyo nombre desee cambiar. |
+| `*`projectHandle`*` | `xsd:string` | Sí | Gestionar el proyecto. |
+| `*`projectName`*` | `xsd:string` | Sí | Nuevo nombre de proyecto. |
 
 **Salida (cambiar el nombre de ProjectParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`projectHandle`*` | `xsd:string` | Sí | Identificador del proyecto cuyo nombre se ha cambiado. |
+| `*`projectHandle`*` | `xsd:string` | Sí | Identificador del proyecto cuyo nombre se ha cambiado. |
 
 ## Ejemplos {#section-a0a06d9244774795b695a10b92b2a5e7}
 
