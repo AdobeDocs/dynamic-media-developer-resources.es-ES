@@ -4,10 +4,10 @@ seo-description: Devuelve los miembros de un grupo.
 seo-title: getGroupMembership
 solution: Experience Manager
 title: getGroupMembership
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 5ec48e8c-378b-43a3-b3dc-aa21dbf339b5
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 18%
@@ -37,14 +37,14 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | No | El identificador del usuario. |
-| ` *`companyHandle`*` | `xsd:string` | No | El identificador de la compañía. |
+| `*`userHandle`*` | `xsd:string` | No | El identificador del usuario. |
+| `*`companyHandle`*` | `xsd:string` | No | El identificador de la compañía. |
 
 **Salida (getGroupMembershipReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`groupArray`*` | `types:GroupArray` | Sí | Matriz de grupos. |
+| `*`groupArray`*` | `types:GroupArray` | Sí | Matriz de grupos. |
 
 ## Ejemplos {#section-ebb437369f4f4487b3eb2ef0c078b8ae}
 
