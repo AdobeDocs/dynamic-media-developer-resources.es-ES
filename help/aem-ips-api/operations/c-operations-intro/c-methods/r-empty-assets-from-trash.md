@@ -4,10 +4,10 @@ seo-description: Vacía recursos de la papelera IPS.
 seo-title: emptyAssetsFromTrash
 solution: Experience Manager
 title: emptyAssetsFromTrash
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: de11a7b0-cd4b-4717-8596-d39afbcf7e9c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 7%
@@ -37,18 +37,18 @@ Los recursos viven en la basura hasta que se vacían manualmente o hasta que se 
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía propietaria de los recursos. |
-| ` *`assetHandleArray`*` | `types:HandleArray` | Sí | Matriz de controladores que representan los elementos que se van a vaciar de la papelera. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía propietaria de los recursos. |
+| `*`assetHandleArray`*` | `types:HandleArray` | Sí | Matriz de controladores que representan los elementos que se van a vaciar de la papelera. |
 
 **Salida (emptyAssetsFromTrashParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:Int` | Sí | Número de recursos vaciados correctamente de la papelera. |
-| ` *`warningCount`*` | `xsd:Int` | Sí | Número de advertencias generadas cuando la operación intentó vaciar recursos de la papelera. |
-| ` *`errorCount`*` | `xsd:Int` | Sí | Número de errores generados cuando la operación intentó vaciar recursos de la papelera. |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados a los recursos que generaron advertencias cuando la operación intentó vaciarlos de la papelera. |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados a los recursos que generaron errores cuando la operación intentó vaciarlos de la papelera. |
+| `*`successCount`*` | `xsd:Int` | Sí | Número de recursos vaciados correctamente de la papelera. |
+| `*`warningCount`*` | `xsd:Int` | Sí | Número de advertencias generadas cuando la operación intentó vaciar recursos de la papelera. |
+| `*`errorCount`*` | `xsd:Int` | Sí | Número de errores generados cuando la operación intentó vaciar recursos de la papelera. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados a los recursos que generaron advertencias cuando la operación intentó vaciarlos de la papelera. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados a los recursos que generaron errores cuando la operación intentó vaciarlos de la papelera. |
 
 ## Ejemplos {#section-6154a873b6c342bf92e2036280cafdcf}
 
