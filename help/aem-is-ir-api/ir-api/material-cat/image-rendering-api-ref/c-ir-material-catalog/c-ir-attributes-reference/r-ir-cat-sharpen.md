@@ -4,13 +4,13 @@ seo-description: Enfoque de imagen de respuesta predeterminado. Especifica si se
 seo-title: Enfocar
 solution: Experience Manager
 title: Enfocar
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d93aacf4-d4e7-4cf5-aa9e-e7a82630d4c0
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '65'
+ht-degree: 12%
 
 ---
 
