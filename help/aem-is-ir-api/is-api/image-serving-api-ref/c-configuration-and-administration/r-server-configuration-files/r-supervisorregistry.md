@@ -1,15 +1,12 @@
 ---
 description: Contiene la configuración del supervisor del servidor.
-seo-description: Contiene la configuración del supervisor del servidor.
-seo-title: SupervisorRegistry.xml
 solution: Experience Manager
 title: SupervisorRegistry.xml
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 8442a3d6-5f45-48d1-8e6e-71f0ed384227
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---
@@ -21,7 +18,7 @@ Contiene la configuración del supervisor del servidor.
 
 Al editar este archivo XML, asegúrese de mantener una sintaxis XML válida; de lo contrario, el servidor de imágenes podría no tener inicios.
 
-Reinicie el servicio de imágenes después de editar este archivo para asegurarse de que los cambios surten efecto. Solo se admiten para la modificación los valores de elemento/atributo resaltados a continuación. Edite todos los demás contenidos de este archivo solo cuando el servicio de asistencia técnica de Scene7 lo indique.
+Reinicie el servicio de imágenes después de editar este archivo para asegurarse de que los cambios surten efecto. Solo se admiten para la modificación los valores de elemento/atributo resaltados a continuación. Edite todos los demás contenidos de este archivo solo cuando el soporte técnico de Dynamic Media lo indique.
 
 ```
 <supervisor>
@@ -34,14 +31,14 @@ Reinicie el servicio de imágenes después de editar este archivo para asegurars
     </config>
     <servers>
         <server id="is">
-            <description>Scene7 Image Server</description>
+            <description>Dynamic Media Image Server</description>
             <profile ref="SV::ImageServerMode"/>
             <startPriority>1</startPriority>
             <startDelay>5</startDelay>
             <stopTimeout>60</stopTimeout>
         </server>
         <server id="svg">
-            <description>Scene7 SVG server</description>
+            <description>Dynamic Media SVG server</description>
             <profile ref="Java32"/>
             <profile ref="SVG"/>
             <arguments>
@@ -54,7 +51,7 @@ Reinicie el servicio de imágenes después de editar este archivo para asegurars
             <stopTimeout>60</stopTimeout>
         </server>
         <server id="ps">
-            <description>Scene7 Platform Server</description>
+            <description>Dynamic Media Platform Server</description>
             <profile ref="Java32"/>
             <profile ref="PlatformServer"/>
             <profile ref="Tomcat"/>
