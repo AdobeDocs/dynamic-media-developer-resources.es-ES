@@ -4,10 +4,10 @@ seo-description: Utilidad de conversión de imágenes.
 seo-title: ic
 solution: Experience Manager
 title: ic
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 08fabcc9-d0b5-4136-81fc-ac896c341e1d
 translation-type: tm+mt
-source-git-commit: e0f8153b038446180ddad313e591828223ed31e9
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 2%
@@ -27,11 +27,11 @@ Si no va a convertir imágenes de gran tamaño, no tiene que definir los paráme
 
 ## Uso {#section-fb5293fa79894442aba831c1e14c5cc9}
 
-`ic -convert` `[`*`options`*`]` *`sourceFiledestFile`*
+`ic -convert` `[`*`options`*`]`*`sourceFiledestFile`*
 
-` ic -convert` `[`*`options`*`]` *`sourceFolderdestFolder`*
+` ic -convert` `[`*`options`*`]`*`sourceFolderdestFolder`*
 
-` -c -convert` `[`*`options`*`]` *`sourceFiledestFolder`*
+` -c -convert` `[`*`options`*`]`*`sourceFiledestFolder`*
 
 <table id="table_E368E220299D449D8311478AB5042987"> 
  <tbody> 
@@ -256,7 +256,7 @@ La siguiente tabla lista los formatos de archivo de imagen y las opciones de for
   <tr> 
    <td> <b> BMP</b> <p> (Mapa de bits de Windows) </p> </td> 
    <td> <p> RGB | indexado </p> </td> 
-   <td> <p> 3 | 5/6 | 8 </p> </td> 
+   <td> <p> 1 | 5/6 | 8 </p> </td> 
    <td> <p> sin comprimir | RLE </p> </td> 
    <td> <p> 5/6 bits/canal indica la compatibilidad con RGB de 16 bits (5-5-5 y 5-6-5 bits/canal). </p> </td> 
   </tr> 
@@ -305,7 +305,7 @@ La siguiente tabla lista los formatos de archivo de imagen y las opciones de for
   <tr> 
    <td> <b> PNG</b> </td> 
    <td> <p> RGB | RGBA | gris | grisA | indexado </p> </td> 
-   <td> <p> 1 | 2 | 4 | 8 | 16 </p> </td> 
+   <td> <p> 3 | 2 | 4 | 8 | 16 </p> </td> 
    <td> <p> comprimido </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
