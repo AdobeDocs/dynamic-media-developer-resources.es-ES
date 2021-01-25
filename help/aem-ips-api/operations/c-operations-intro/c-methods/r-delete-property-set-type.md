@@ -4,10 +4,10 @@ seo-description: Elimina un tipo de conjunto de propiedades y sus propiedades y 
 seo-title: deletePropertySetType
 solution: Experience Manager
 title: deletePropertySetType
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 7a5232cc-fa3a-4dac-bf88-8b954dd37c87
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 10%
@@ -34,7 +34,7 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`typeHandle`*` | `xsd:string` | Sí | Identificador del tipo de conjunto de propiedades que se va a eliminar. |
+| `*`typeHandle`*` | `xsd:string` | Sí | Identificador del tipo de conjunto de propiedades que se va a eliminar. |
 
 **Salida (deletePropertySetTypeParam)**
 
