@@ -4,10 +4,10 @@ seo-description: Quita los permisos de los recursos seleccionados.
 seo-title: removeAssetPermissions
 solution: Experience Manager
 title: removeAssetPermissions
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 5a351862-f412-4d89-90b7-9e70a26eacbc
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 16%
@@ -33,8 +33,8 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sí | El identificador de la compañía. |
-| ` *`assetHandle`*` | `xsd:string` | Sí | Identificador del recurso con permisos que desea quitar. |
+| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la compañía. |
+| `*`assetHandle`*` | `xsd:string` | Sí | Identificador del recurso con permisos que desea quitar. |
 
 **Output (removeAssetPermissionsReturn)**
 
