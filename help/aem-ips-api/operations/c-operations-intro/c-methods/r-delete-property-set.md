@@ -4,13 +4,13 @@ seo-description: Elimina un conjunto de propiedades y todas las propiedades asoc
 seo-title: deletePropertySet
 solution: Experience Manager
 title: deletePropertySet
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: b4fdf51f-89ec-4a69-9179-078ee8e1937f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '92'
+ht-degree: 11%
 
 ---
 
@@ -34,7 +34,7 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`setHandle`*` | `xsd:string` | Sí | Identificador del conjunto de propiedades que se va a eliminar. |
+| `*`setHandle`*` | `xsd:string` | Sí | Identificador del conjunto de propiedades que se va a eliminar. |
 
 **Salida (deletePropertySetParam)**
 
