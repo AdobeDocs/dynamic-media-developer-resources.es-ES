@@ -4,13 +4,13 @@ seo-description: Un identificador a un recurso y el identificador al que se move
 seo-title: AssetMove
 solution: Experience Manager
 title: AssetMove
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 71335886-efe7-4565-a088-769bcbe7abaf
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '67'
+ht-degree: 7%
 
 ---
 
@@ -25,6 +25,6 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | Identificador del recurso que desea mover. |
-| ` *`folderHandle`*` | `xsd:string` | Identificador de la carpeta de destino. |
+| `*`assetHandle`*` | `xsd:string` | Identificador del recurso que desea mover. |
+| `*`folderHandle`*` | `xsd:string` | Identificador de la carpeta de destino. |
 
