@@ -4,12 +4,12 @@ seo-description: Archivo de material. Especifica datos de material, ya sea en fo
 seo-title: src
 solution: Experience Manager
 title: src
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 52751bcc-a65d-4441-a3b5-802d27b54b54
 translation-type: tm+mt
-source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '484'
 ht-degree: 2%
 
 ---
@@ -94,7 +94,7 @@ Si no se especifica *`catId`*, se utiliza el catálogo de sesiones.
 
 ## Formatos de archivo admitidos {#section-f2186d3eef834fc8bbecb2bc68daacad}
 
-El procesamiento de imágenes admite los mismos formatos de imagen de origen que el servicio de imágenes de Scene7.
+El procesamiento de imágenes admite los mismos formatos de imagen de origen que el servicio de imágenes de Dynamic Media.
 
 Las aplicaciones que requieren datos de imagen en varias resoluciones diferentes funcionarán mejor al utilizar el formato de varias resoluciones TIFF (PTIFF) piramidal de Scene7. El servicio de imágenes incluye la utilidad Image Converter (IC) que crea imágenes PTIFF desde cualquier formato admitido.
 
