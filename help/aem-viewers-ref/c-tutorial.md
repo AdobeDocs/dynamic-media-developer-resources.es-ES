@@ -1,15 +1,12 @@
 ---
-description: El SDK de visor proporciona un conjunto de componentes basados en JavaScript para el desarrollo de visores personalizados. Los visores son aplicaciones basadas en la web que permiten incrustar contenido multimedia enriquecido que Adobe Scene7 proporciona en las páginas web.
-seo-description: El SDK de visor proporciona un conjunto de componentes basados en JavaScript para el desarrollo de visores personalizados. Los visores son aplicaciones basadas en la web que permiten incrustar contenido multimedia enriquecido que Adobe Scene7 proporciona en las páginas web.
-seo-title: Tutorial del SDK de visor
+description: El SDK de visor proporciona un conjunto de componentes basados en JavaScript para el desarrollo de visores personalizados. Los visores son aplicaciones basadas en la web que permiten incrustar en las páginas web contenido de medios enriquecidos ofrecido por Adobe Dynamic Media.
 solution: Experience Manager
 title: Tutorial del SDK de visor
 topic: Dynamic media
-uuid: ea331f05-0c58-4e6b-b5a1-d9b8372d8e94
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
@@ -17,9 +14,9 @@ ht-degree: 0%
 
 # Tutorial de SDK de visor{#viewer-sdk-tutorial}
 
-El SDK de visor proporciona un conjunto de componentes basados en JavaScript para el desarrollo de visores personalizados. Los visores son aplicaciones basadas en la web que permiten incrustar contenido multimedia enriquecido que Adobe Scene7 proporciona en las páginas web.
+El SDK de visor proporciona un conjunto de componentes basados en JavaScript para el desarrollo de visores personalizados. Los visores son aplicaciones basadas en la web que permiten incrustar en las páginas web contenido de medios enriquecidos ofrecido por Adobe Dynamic Media.
 
-Por ejemplo, el SDK proporciona zoom y panorámica interactivos. También proporciona vista de 360° y reproducción de vídeo de los recursos que se han cargado en Adobe Scene7 a través de la aplicación back-end llamada SPS (Scene7 Publishing System).
+Por ejemplo, el SDK proporciona zoom y panorámica interactivos. También proporciona vista de 360° y reproducción de vídeo de los recursos que se han cargado en Adobe Dynamic Media a través de la aplicación back-end llamada SPS (Scene7 Publishing System).
 
 Aunque los componentes dependen de la funcionalidad HTML5, están diseñados para funcionar en dispositivos Android y Apple iOS, así como en equipos de escritorio, incluidos Internet Explorer y versiones posteriores. Este tipo de experiencia significa que puede proporcionar un único flujo de trabajo para todas las plataformas admitidas.
 
@@ -67,8 +64,8 @@ Este tutorial incluye el siguiente orden de tareas para ayudarle a crear un viso
                Include Utils.js before you use any of the SDK components. This file  
                contains SDK utilities and global functions that are used to initialize the viewer and load viewer  
                components. The path to the Utils.js determines which version of the SDK that the viewer uses. You  
-               can use a relative path if the viewer is deployed on one of the Adobe Scene7 servers and it is served  
-               from the same domain. Otherwise, specify a full path to one of Adobe Scene7 servers that have the SDK  
+               can use a relative path if the viewer is deployed on one of the Adobe Dynamic Media servers and it is served  
+               from the same domain. Otherwise, specify a full path to one of Adobe Dynamic Media servers that have the SDK  
                installed.  
            --> 
            <script language="javascript" type="text/javascript"      
@@ -392,5 +389,5 @@ Ahora agregará los botones de zoom, zoom y restablecimiento de zoom al visor.
 
    Ya se ha completado el visor de zoom básico.
 
-   Este tutorial de visor trata los aspectos básicos de lo que proporciona el SDK de visor de Scene7. Al trabajar con el SDK, puede utilizar los distintos componentes estándar para crear y aplicar estilo fácilmente a las experiencias de visualización enriquecidas para sus audiencias de destinatario.
+   Este tutorial de visor trata los aspectos básicos de lo que proporciona el SDK de visor de Dynamic Media. Al trabajar con el SDK, puede utilizar los distintos componentes estándar para crear y aplicar estilo fácilmente a las experiencias de visualización enriquecidas para sus audiencias de destinatario.
 
