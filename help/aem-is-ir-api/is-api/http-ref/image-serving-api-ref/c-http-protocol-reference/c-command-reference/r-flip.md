@@ -4,13 +4,13 @@ seo-description: Voltear capa. Voltea la capa horizontalmente, verticalmente o a
 seo-title: voltear
 solution: Experience Manager
 title: voltear
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d28631f3-2198-4ba3-ab4b-578832db926e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '172'
+ht-degree: 2%
 
 ---
 
