@@ -1,15 +1,12 @@
 ---
 description: Para agregar una biblioteca de imágenes interactivas a una página web y administrar las imágenes existentes con la biblioteca, complete los siguientes pasos.
-seo-description: Para agregar una biblioteca de imágenes interactivas a una página web y administrar las imágenes existentes con la biblioteca, complete los siguientes pasos.
-seo-title: Uso de la biblioteca de imágenes interactivas
 solution: Experience Manager
 title: Uso de la biblioteca de imágenes interactivas
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 325cdc8d-2bfa-4f9b-bf88-51d1dcc6c495
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -88,7 +85,7 @@ El siguiente código es un ejemplo completo de una página web trivial que tiene
 
 **Uso de recorte inteligente**
 
-Hay dos modos de recorte inteligente disponibles en AEM 6.4 y Scene7 Viewer 5.9:
+Hay dos modos de recorte inteligente disponibles en AEM 6.4 y Dynamic Media Viewer 5.9:
 
 * **Los puntos de interrupción manuales**  definidos por el usuario y los comandos correspondientes del servicio de imágenes se definen dentro de un atributo del elemento de imagen.
 * **Recorte**  inteligente: las representaciones de recorte inteligente calculadas se recuperan automáticamente desde el servidor de envío. La mejor representación se selecciona con el tamaño de tiempo de ejecución del elemento de imagen.
