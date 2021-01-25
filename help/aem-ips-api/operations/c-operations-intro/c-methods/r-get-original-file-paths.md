@@ -4,13 +4,13 @@ seo-description: Obtiene las rutas de archivo originales de los recursos de una 
 seo-title: getOriginalFilePaths
 solution: Experience Manager
 title: getOriginalFilePaths
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: c4acf288-1a57-4295-806b-348f15a089cc
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '109'
+ht-degree: 14%
 
 ---
 
@@ -41,14 +41,14 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sí | El identificador de la compañía. |
-| ` *`assetHandleArray`*` | `types:HandleArray` | Sí | Matriz de identificadores a recursos cuya ruta de archivo original desea obtener. |
+| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la compañía. |
+| `*`assetHandleArray`*` | `types:HandleArray` | Sí | Matriz de identificadores a recursos cuya ruta de archivo original desea obtener. |
 
 **Salida (getOriginalFilePathsReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`originalFileArray`*` | `types:StringArray` | Sí | Matriz de cadenas que representan las rutas de archivo originales. |
+| `*`originalFileArray`*` | `types:StringArray` | Sí | Matriz de cadenas que representan las rutas de archivo originales. |
 
 ## Ejemplos {#section-a966e783a2ba49f5b6b0f961329ab2f8}
 
