@@ -1,15 +1,12 @@
 ---
 description: 'Además del espacio necesario para instalar el software, el servicio de imágenes tiene los siguientes requisitos de espacio en disco '
-seo-description: 'Además del espacio necesario para instalar el software, el servicio de imágenes tiene los siguientes requisitos de espacio en disco '
-seo-title: Requisitos y recomendaciones de espacio en disco
 solution: Experience Manager
 title: Requisitos y recomendaciones de espacio en disco
-topic: Scene7 Image Serving - Image Rendering API
-uuid: a6a21886-94d6-45b3-af68-497e039bdbac
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -58,7 +55,7 @@ Además del espacio necesario para instalar el software, el servicio de imágene
 
 ## Requisitos de espacio en disco para imágenes de origen {#section-317da75099ad480d9a461c7e706d4f1c}
 
-Se recomienda convertir todas las imágenes de origen al formato de archivo TIFF piramidal (PTIFF) mediante la herramienta de línea de comandos (IC) Converter de imagen. Esta conversión garantiza un rendimiento óptimo en tiempo de ejecución del servicio de imágenes para todas las aplicaciones. Aunque el servidor de imágenes puede procesar todos los formatos de archivo de origen aceptados por IC, Scene7 no proporciona compatibilidad para estos usos.
+Se recomienda convertir todas las imágenes de origen al formato de archivo TIFF piramidal (PTIFF) mediante la herramienta de línea de comandos (IC) Converter de imagen. Esta conversión garantiza un rendimiento óptimo en tiempo de ejecución del servicio de imágenes para todas las aplicaciones. Aunque el servidor de imágenes puede procesar todos los formatos de archivo de origen aceptados por IC, Dynamic Media no proporciona compatibilidad para estos usos.
 
 Al utilizar archivos PTIFF, las siguientes reglas generales pueden ayudarle a determinar los requisitos de espacio.
 
