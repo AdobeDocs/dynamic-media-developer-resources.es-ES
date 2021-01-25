@@ -4,10 +4,10 @@ seo-description: Cree o edite un destinatario de zoom.
 seo-title: saveZoomTarget
 solution: Experience Manager
 title: saveZoomTarget
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 197f7a2a-39ea-41cc-8e3a-76f9fe1b37d0
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 20%
@@ -36,21 +36,21 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía con el destinatario de zoom que desea guardar. |
-| ` *`assetHandle`*` | `xsd:string` | Sí | Control del destinatario de zoom. |
-| ` *`zoomTargetHandle`*` | `xsd:string` | No | Edita o crea un destinatario de zoom. |
-| ` *`name`*` | `xsd:string` | Sí | Nombre del destinatario de zoom. |
-| ` *`xPosition`*` | `xsd:int` | Sí | Ubicación del píxel izquierdo. |
-| ` *`yPosition`*` | `xsd:int` | Sí | Ubicación en píxeles superior. |
-| ` *`width`*` | `xsd:int` | Sí | Zoom de anchura de destinatario. |
-| ` *`height`*` | `xsd:int` | Sí | Altura del destinatario de zoom. |
-| ` *`Datos de usuario`*` | `xsd:string` | Sí | Para obtener información específica del cliente. Puede contener cualquier tipo de datos. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía con el destinatario de zoom que desea guardar. |
+| `*`assetHandle`*` | `xsd:string` | Sí | Control del destinatario de zoom. |
+| `*`zoomTargetHandle`*` | `xsd:string` | No | Edita o crea un destinatario de zoom. |
+| `*`name`*` | `xsd:string` | Sí | Nombre del destinatario de zoom. |
+| `*`xPosition`*` | `xsd:int` | Sí | Ubicación del píxel izquierdo. |
+| `*`yPosition`*` | `xsd:int` | Sí | Ubicación en píxeles superior. |
+| `*`width`*` | `xsd:int` | Sí | Zoom de anchura de destinatario. |
+| `*`height`*` | `xsd:int` | Sí | Altura del destinatario de zoom. |
+| `*`Datos de usuario`*` | `xsd:string` | Sí | Para obtener información específica del cliente. Puede contener cualquier tipo de datos. |
 
 **Salida (saveZoomTargetReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`zoomTargetHandle`*` | `xsd:string` | Sí | Controlar el destinatario de zoom recién creado. |
+| `*`zoomTargetHandle`*` | `xsd:string` | Sí | Controlar el destinatario de zoom recién creado. |
 
 ## Ejemplos {#section-509c472c316549cdb228d7e1cfa8400a}
 
