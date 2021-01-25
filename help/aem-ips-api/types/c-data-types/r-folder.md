@@ -4,10 +4,10 @@ seo-description: Archivo jerárquico u objeto de almacenamiento de recursos. Las
 seo-title: Carpeta
 solution: Experience Manager
 title: Carpeta
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 8ba8d9cb-c4e5-423c-b8cb-ba8751952771
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 10%
@@ -25,11 +25,11 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| ` *`folderHandle`*` | `xsd:string` | Identificador de carpeta. |
-| ` *`ruta`*` | `xsd:string` | Ruta de carpeta. |
-| ` *`lastModified`*` | `xsd:dateTime` | Fecha de la última modificación. |
-| ` *`childLastModified`*` | `xsd:dateTime` | Fecha de la última modificación para subcarpetas y recursos secundarios de carpetas. |
-| ` *`permissionsSetHandle`*` | `xsd:string` | Identificador de permisos de carpetas. |
-| ` *`hasSubfolder`*` | `types:Boolean` | Determina si una carpeta tiene subcarpetas. |
-| ` *`subfolderArray`*` | `types:FolderArray` | Matriz de subcarpetas de una carpeta. |
+| `*`folderHandle`*` | `xsd:string` | Identificador de carpeta. |
+| `*`ruta`*` | `xsd:string` | Ruta de carpeta. |
+| `*`lastModified`*` | `xsd:dateTime` | Fecha de la última modificación. |
+| `*`childLastModified`*` | `xsd:dateTime` | Fecha de la última modificación para subcarpetas y recursos secundarios de carpetas. |
+| `*`permissionsSetHandle`*` | `xsd:string` | Identificador de permisos de carpetas. |
+| `*`hasSubfolder`*` | `types:Boolean` | Determina si una carpeta tiene subcarpetas. |
+| `*`subfolderArray`*` | `types:FolderArray` | Matriz de subcarpetas de una carpeta. |
 
