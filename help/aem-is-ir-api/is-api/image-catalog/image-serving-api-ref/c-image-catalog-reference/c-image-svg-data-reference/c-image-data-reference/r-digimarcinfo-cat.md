@@ -4,10 +4,10 @@ seo-description: Información de imagen Digimarc. Habilita la incrustación de D
 seo-title: DigimarcInfo
 solution: Experience Manager
 title: DigimarcInfo
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8371880e-47df-4333-b8a6-91feaf16c409
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 14%
@@ -23,9 +23,9 @@ Información de imagen Digimarc. Habilita la incrustación de Digimarc y especif
 
 Cuatro valores enteros, separados por comas.
 
-` *``*, *``*, *`typeflagsval1`*, *`val2`*`
+`*``*, *``*, *`typeflagsval1`*, *`val2`*`
 
-` *``*` typehabilita la incrustación Digimarc y especifica el tipo de marca de agua:
+`*``*` typehabilita la incrustación Digimarc y especifica el tipo de marca de agua:
 
 <table id="table_3648951F14D94C5BAD097CFB783F1EE7"> 
  <thead> 
@@ -58,7 +58,7 @@ Cuatro valores enteros, separados por comas.
  </tbody> 
 </table>
 
-` *``*` indica un campo de bits con tres valores. Configure el bit 0 para indicar contenido protegido contra copia, el bit 1 para indicar contenido restringido y el bit 2 para indicar contenido adulto:
+`*``*` indica un campo de bits con tres valores. Configure el bit 0 para indicar contenido protegido contra copia, el bit 1 para indicar contenido restringido y el bit 2 para indicar contenido adulto:
 
 <table id="table_00F218515FBE484F9D05CBAF14F9D045"> 
  <thead> 
@@ -73,7 +73,7 @@ Cuatro valores enteros, separados por comas.
    <td> <p>- </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>Protegido con copia. </p> </td> 
   </tr> 
   <tr> 
@@ -81,7 +81,7 @@ Cuatro valores enteros, separados por comas.
    <td> <p>Restringido. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>Protegido con copia, restringido. </p> </td> 
   </tr> 
   <tr> 
@@ -103,7 +103,7 @@ Cuatro valores enteros, separados por comas.
  </tbody> 
 </table>
 
-La interpretación de ` *`val1`*` y ` *`val2`*` depende de ` *`tipo`*`:
+La interpretación de `*`val1`*` y `*`val2`*` depende de `*`tipo`*`:
 
 <table id="table_6B29F76BC1974C12AB7124BF84B29EC2"> 
  <thead> 
