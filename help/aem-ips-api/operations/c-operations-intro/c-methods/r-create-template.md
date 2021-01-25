@@ -4,10 +4,10 @@ seo-description: Crea una imagen con capas que puede tener varias capas de texto
 seo-title: createTemplate
 solution: Experience Manager
 title: createTemplate
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: c54bd47c-13e1-4b0d-a24c-9829b0a6d5bf
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 10%
@@ -35,18 +35,18 @@ El parámetro `urlModifier` especifica los comandos de protocolo del servidor de
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sí | Compañía a la que pertenece la plantilla. |
-| ` *`folderHandle`*` | `xsd:string` | Sí | El identificador de carpeta que representa la carpeta en la que reside la plantilla. |
-| ` *`name`*` | `xsd:string` | Sí | Nombre de la plantilla. |
-| ` *`type`*` | `xsd:string` | Sí | Tipo de plantilla. |
-| ` *`urlModifier`*` | `xsd:string` | Sí | Especifica los comandos del servidor de imágenes almacenados en el catálogo IS que se aplican antes de cualquier comando proporcionado por el usuario en la dirección URL. |
-| ` *`urlPostApplyModifier`*` | `xsd:string` | No | Especifica los comandos de protocolo aplicados después de cualquier comando de URL, lo que anulará cualquier configuración proporcionada por el usuario en conflicto. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Compañía a la que pertenece la plantilla. |
+| `*`folderHandle`*` | `xsd:string` | Sí | El identificador de carpeta que representa la carpeta en la que reside la plantilla. |
+| `*`name`*` | `xsd:string` | Sí | Nombre de la plantilla. |
+| `*`type`*` | `xsd:string` | Sí | Tipo de plantilla. |
+| `*`urlModifier`*` | `xsd:string` | Sí | Especifica los comandos del servidor de imágenes almacenados en el catálogo IS que se aplican antes de cualquier comando proporcionado por el usuario en la dirección URL. |
+| `*`urlPostApplyModifier`*` | `xsd:string` | No | Especifica los comandos de protocolo aplicados después de cualquier comando de URL, lo que anulará cualquier configuración proporcionada por el usuario en conflicto. |
 
 **Salida (createTemplateParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | Sí | Identificador de la plantilla. |
+| `*`assetHandle`*` | `xsd:string` | Sí | Identificador de la plantilla. |
 
 ## Ejemplos {#section-09adb4d2f0c944af875c4463a461f55d}
 
