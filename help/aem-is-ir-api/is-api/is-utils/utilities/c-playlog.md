@@ -4,13 +4,13 @@ seo-description: La utilidad playlog se puede utilizar para generar previamente 
 seo-title: La utilidad 'playlog'
 solution: Experience Manager
 title: La utilidad 'playlog'
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9044515e-7cfb-4e86-9ac4-e071b60f38d1
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '438'
+ht-degree: 1%
 
 ---
 
