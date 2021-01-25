@@ -4,10 +4,10 @@ seo-description: Obtiene los registros de trabajo de un recurso. Los elementos d
 seo-title: getAssetJobLogs
 solution: Experience Manager
 title: getAssetJobLogs
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 7ea81baf-769b-4c73-bbc6-f52c89c98d50
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 8%
@@ -39,14 +39,14 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía a la que pertenece el recurso. |
-| ` *`assetHandle`*` | `xsd:string` | Sí | El identificador que se va a usar para el recurso con los registros de trabajo que se van a recuperar. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía a la que pertenece el recurso. |
+| `*`assetHandle`*` | `xsd:string` | Sí | El identificador que se va a usar para el recurso con los registros de trabajo que se van a recuperar. |
 
 **Salida (getAssetJobLogsReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`jobLogArray`*` | `types:AssetJobLogArray` | Sí | Matriz de registro de trabajos. |
+| `*`jobLogArray`*` | `types:AssetJobLogArray` | Sí | Matriz de registro de trabajos. |
 
 ## Ejemplos {#section-f03d7f3ec5d043d38227f926fb7609f6}
 
