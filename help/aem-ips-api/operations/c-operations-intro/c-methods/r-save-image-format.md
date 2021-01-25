@@ -4,13 +4,13 @@ seo-description: Crea un formato de imagen.
 seo-title: saveImageFormat
 solution: Experience Manager
 title: saveImageFormat
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: b11ea668-7a82-439c-b16b-909dc86c00a2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '151'
+ht-degree: 11%
 
 ---
 
@@ -36,16 +36,16 @@ Crea un formato de imagen.
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía con el formato de imagen con el que desea trabajar. |
-| ` *`imageFormatHandle`*` | `xsd:string` | No | Identificador de formato de imagen que desea guardar. |
-| ` *`name`*` | `xsd:string` | Sí | Nombre del formato de imagen. |
-| ` *`urlModifier`*` | `xsd:string` | Sí | Puede ser cualquier cadena de consulta del protocolo IPS. La forma más sencilla de generar un modificador de URL es crear uno con la interfaz de usuario de IPS y luego cortar y pegar la cadena de consulta. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía con el formato de imagen con el que desea trabajar. |
+| `*`imageFormatHandle`*` | `xsd:string` | No | Identificador de formato de imagen que desea guardar. |
+| `*`name`*` | `xsd:string` | Sí | Nombre del formato de imagen. |
+| `*`urlModifier`*` | `xsd:string` | Sí | Puede ser cualquier cadena de consulta del protocolo IPS. La forma más sencilla de generar un modificador de URL es crear uno con la interfaz de usuario de IPS y luego cortar y pegar la cadena de consulta. |
 
 **Salida (saveImageFormatReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`imageFormatHandle`*` | `xsd:string` | Sí | Controlar el formato de imagen. |
+| `*`imageFormatHandle`*` | `xsd:string` | Sí | Controlar el formato de imagen. |
 
 ## Ejemplos {#section-c7bd733212ef494297a97093f3af193f}
 
