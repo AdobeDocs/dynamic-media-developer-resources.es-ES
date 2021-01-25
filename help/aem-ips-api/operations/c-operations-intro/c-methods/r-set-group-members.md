@@ -4,10 +4,10 @@ seo-description: Establece la pertenencia a grupos de usuarios que pertenecen a 
 seo-title: setGroupMembers
 solution: Experience Manager
 title: setGroupMembers
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: fe6585ef-a4b3-4b3c-95d0-624017650497
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 8%
@@ -33,9 +33,9 @@ La operación genera un error de autenticación si no tiene privilegios para rea
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sí | Identificador de compañía. |
-| ` *`groupHandle`*` | `xsd:string` | Sí | Identificador de grupo. |
-| ` *`userHandleArray`*` | `types:HandleArray` | Sí | Matriz de identificadores para usuarios cuya pertenencia a grupos desea establecer. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de compañía. |
+| `*`groupHandle`*` | `xsd:string` | Sí | Identificador de grupo. |
+| `*`userHandleArray`*` | `types:HandleArray` | Sí | Matriz de identificadores para usuarios cuya pertenencia a grupos desea establecer. |
 
 **Salida (setGroupMembesReturn)**
 
