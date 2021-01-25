@@ -7,10 +7,10 @@ title: setAsset
 topic: Dynamic media
 uuid: 8c341a8a-25b5-4db9-ad1a-919ded79f2ed
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '225'
+ht-degree: 1%
 
 ---
 
@@ -27,11 +27,11 @@ Consulte también [init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedi
 
 ## Parámetros {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-` *`recurso`*` : { `String`} nuevo ID de recurso o conjunto de medios mixtos explícito, con los modificadores opcionales de servicio de imágenes añadidos después  `?`.
+`*`recurso`*` : { `String`} nuevo ID de recurso o conjunto de medios mixtos explícito, con los modificadores opcionales de servicio de imágenes añadidos después  `?`.
 
 Este visor no admite las imágenes que utilizan IR (procesamiento de imágenes) o UGC (contenido generado por el usuario).
 
-` *`data`*` - { `JSON`} ubicación del nuevo archivo de rótulo.
+`*`data`*` - { `JSON`} ubicación del nuevo archivo de rótulo.
 
 Si no se especifica, el botón de rótulo no está visible en la interfaz de usuario. Los rótulos especificados con este parámetro se aplican al vídeo que aparece primero en el conjunto de medios mixtos; los vídeos subsiguientes se reproducen sin rótulos. Este visor admite los siguientes ID de componente:
 
