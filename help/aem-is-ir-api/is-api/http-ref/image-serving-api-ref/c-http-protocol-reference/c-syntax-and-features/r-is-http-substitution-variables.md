@@ -4,10 +4,10 @@ seo-description: Las variables de sustitución se utilizan para transferir valor
 seo-title: Variables de sustitución
 solution: Experience Manager
 title: Variables de sustitución
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e369f2c3-8d89-4169-8869-f1d7ab89aab9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 0%
@@ -82,7 +82,7 @@ Los valores de variable que se van a sustituir en solicitudes externas generalme
 
 ## Variable de ruta predefinida {#section-930d0dd12e8f49499becc9fe8df24092}
 
-El *`object`* especificado en la ruta de la solicitud se asigna a la variable predefinida ` *`$object`*`. &#39; ` $ *`object`*$`&#39; se puede colocar en cualquier lugar de la solicitud, en la plantilla a la que hace referencia la solicitud o en una solicitud anidada o incrustada donde se permita dicho objeto, incluido el valor de `src=` y `mask=`, y la ruta de una solicitud anidada o incrustada.
+El *`object`* especificado en la ruta de la solicitud se asigna a la variable predefinida `*`$object`*`. &#39; ` $ *`object`*$`&#39; se puede colocar en cualquier lugar de la solicitud, en la plantilla a la que hace referencia la solicitud o en una solicitud anidada o incrustada donde se permita dicho objeto, incluido el valor de `src=` y `mask=`, y la ruta de una solicitud anidada o incrustada.
 
 Por ejemplo, la siguiente solicitud reutilizará la imagen especificada en la ruta como origen de una capa en una solicitud anidada:
 
@@ -92,13 +92,13 @@ Esto equivale a
 
 `/is/image/a/b?…&layer=3&src=is{…&src=a/b}&…`
 
-La definición de ` *`$object`*` se puede anular especificando explícitamente ` $ *`object`*=` con el valor deseado.
+La definición de `*`$object`*` se puede anular especificando explícitamente ` $ *`object`*=` con el valor deseado.
 
 La variable de ruta predefinida se utiliza comúnmente junto con `template=`.
 
 ## Predeterminado {#section-b02483d15529444586a2e9504805b155}
 
-Ninguno. El servidor sólo sustituirá las variables que se hayan definido (excepto la variable de ruta predefinida $object, que siempre se sustituirá). Todas las incidencias de ` $ *`var`*$` permanecen literales si ` *`var`*`no puede coincidir con una definición de variable existente.
+Ninguno. El servidor sólo sustituirá las variables que se hayan definido (excepto la variable de ruta predefinida $object, que siempre se sustituirá). Todas las incidencias de ` $ *`var`*$` permanecen literales si `*`var`*`no puede coincidir con una definición de variable existente.
 
 ## Ejemplos {#section-fba9393df6984247b7e30b3f93992e86}
 
