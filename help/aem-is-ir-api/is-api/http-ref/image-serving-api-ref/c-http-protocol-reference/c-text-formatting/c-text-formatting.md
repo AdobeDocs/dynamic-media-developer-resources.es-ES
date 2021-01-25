@@ -4,12 +4,12 @@ seo-description: El servicio de imágenes proporciona varias alternativas para p
 seo-title: Formato de texto
 solution: Experience Manager
 title: Formato de texto
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e67b6dd2-2a78-4014-9525-816d91c9e783
 translation-type: tm+mt
-source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '574'
 ht-degree: 6%
 
 ---
@@ -152,7 +152,7 @@ La tabla siguiente lista las funciones clave disponibles para cada comando de te
 
 Las cadenas compatibles con RTF pueden ensamblarse manualmente o dando formato al texto deseado en un editor de texto o procesador de textos capaz de guardar archivos RTF. El archivo RTF se puede abrir en un editor de texto sin formato y el contenido RTF sin procesar del archivo se copiará en la dirección URL de la solicitud.
 
-Algunos procesadores de texto generan archivos bastante grandes, que incluyen preámbulos sustanciales que no se utilizan en el servicio de imágenes de Scene7. Se recomienda quitar los elementos RTF no utilizados de la cadena antes de pasar la cadena a los comandos de texto.
+Algunos procesadores de texto generan archivos bastante grandes, que incluyen preámbulos sustanciales que no se utilizan en el servicio de imágenes de Dynamic Media. Se recomienda quitar los elementos RTF no utilizados de la cadena antes de pasar la cadena a los comandos de texto.
 
 La codificación de idioma basada en estándares UTF-8 e ISO se admite en cadenas RTF como alternativa a los mecanismos de codificación de caracteres RTF estándar. Esto permite a las aplicaciones enviar texto que no esté en inglés al servidor sin tener conocimiento de la codificación RTF.
 
