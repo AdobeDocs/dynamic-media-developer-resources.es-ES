@@ -4,10 +4,10 @@ seo-description: Crea un nuevo recurso derivado de un recurso de imagen de orige
 seo-title: createDerivedAsset
 solution: Experience Manager
 title: createDerivedAsset
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e1f9b690-af34-4da5-a534-c3a8c6b0a8fc
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 8%
@@ -42,19 +42,19 @@ A diferencia de una copia de imagen (consulte [copyImage](../../../operations/c-
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía que contiene el recurso del que se derivará el nuevo recurso. |
-| ` *`ownerHandle`*` | `xsd:string` | Sí | Identificador del recurso de imagen principal del que se derivará la nueva imagen. |
-| ` *`folderHandle`*` | `xsd:string` | Sí | Identificador de la carpeta en la que se creará el nuevo recurso derivado. |
-| ` *`name`*` | `xsd:string` | Sí | El nombre del recurso derivado. |
-| ` *`type`*` | `xsd:string` | Sí | El tipo de recurso del nuevo recurso derivado: `AdjustedView` o `LayerView`. |
-| ` *`urlModifier`*` | `xsd:string` | No | Comandos de protocolo de servicio de imágenes o procesamiento de imágenes aplicados *antes* de los comandos request o `urlPostApplyModifier`. |
-| ` *`urlPostApplyModifier`*` | `xsd:string` | No | Comandos de protocolo de servicio de imágenes o procesamiento de imágenes aplicados *después de* a los comandos de solicitud o `urlPostApplyModifier`. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía que contiene el recurso del que se derivará el nuevo recurso. |
+| `*`ownerHandle`*` | `xsd:string` | Sí | Identificador del recurso de imagen principal del que se derivará la nueva imagen. |
+| `*`folderHandle`*` | `xsd:string` | Sí | Identificador de la carpeta en la que se creará el nuevo recurso derivado. |
+| `*`name`*` | `xsd:string` | Sí | El nombre del recurso derivado. |
+| `*`type`*` | `xsd:string` | Sí | El tipo de recurso del nuevo recurso derivado: `AdjustedView` o `LayerView`. |
+| `*`urlModifier`*` | `xsd:string` | No | Comandos de protocolo de servicio de imágenes o procesamiento de imágenes aplicados *antes* de los comandos request o `urlPostApplyModifier`. |
+| `*`urlPostApplyModifier`*` | `xsd:string` | No | Comandos de protocolo de servicio de imágenes o procesamiento de imágenes aplicados *después de* a los comandos de solicitud o `urlPostApplyModifier`. |
 
 **Salida (createDerivedAssetParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | Sí | El identificador del recurso derivado. |
+| `*`assetHandle`*` | `xsd:string` | Sí | El identificador del recurso derivado. |
 
 ## Ejemplos {#section-5d5ea893a1ef4edc8b3a396f1936e8c9}
 
