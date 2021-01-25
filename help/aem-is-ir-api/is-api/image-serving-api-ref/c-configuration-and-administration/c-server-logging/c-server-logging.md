@@ -1,16 +1,13 @@
 ---
 description: Todos los archivos de registro se escriben en la misma carpeta de registro especificada con el directorio TC.
-seo-description: Todos los archivos de registro se escriben en la misma carpeta de registro especificada con el directorio TC.
-seo-title: Registro del servidor
 solution: Experience Manager
 title: Registro del servidor
-topic: Scene7 Image Serving - Image Rendering API
-uuid: f6145737-e4c3-4533-9be5-5b5a0202fe33
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 5717550d2dea8ec086875e770ff8f200aaa75ff3
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '169'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +22,7 @@ Importante Debe reservarse una cantidad suficiente de espacio en disco para los 
 
 Platform Server y Image Server crean los tres tipos de archivos de registro que se describen a continuación.
 
-Otros componentes de servicio de imágenes y algunos otros paquetes de Scene7, como los visores de Scene7, también pueden crear archivos de registro en la misma carpeta. Estos archivos de registro son para uso interno de Scene7 y pueden ser solicitados por la asistencia de Scene7 para solucionar problemas.
+Otros componentes de servicio de imágenes y algunos otros paquetes de Dynamic Media, como los visores de Dynamic Media, también pueden crear archivos de registro en la misma carpeta. Estos archivos de registro son para uso interno de Dynamic Media y pueden ser solicitados por el soporte técnico de Dynamic Media para resolución de problemas.
 
 * [Registro de acceso](c-access-log.md)
 * [Registro de seguimiento](c-trace-log.md)
