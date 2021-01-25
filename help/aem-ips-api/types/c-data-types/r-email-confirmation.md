@@ -1,16 +1,13 @@
 ---
 description: Envía un correo electrónico a un destinatario designado como respuesta a una operación cdnCacheInvalidation.
-seo-description: Envía un correo electrónico a un destinatario designado como respuesta a una operación cdnCacheInvalidation.
-seo-title: EmailConfirmation
 solution: Experience Manager
 title: EmailConfirmation
-topic: Scene7 Image Production System API
-uuid: c3b7aada-a03a-418d-80b2-31a86a1af786
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 5%
+source-wordcount: '78'
+ht-degree: 6%
 
 ---
 
@@ -25,6 +22,6 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| ` *`ccOriginator`*` | `xsd:boolean` | Si es true, incluye la cuenta de usuario del servicio Web del usuario, que es una lista de correos electrónicos designados para recibir una confirmación por correo electrónico de la CDN de Scene7. |
-| ` *`ccOtherArray`*` | `types:EmailArray` | Una matriz de direcciones de correo electrónico (5 como máximo) designada para recibir la notificación de confirmación de la CDN de Scene7. |
+| `*`ccOriginator`*` | `xsd:boolean` | Si es true, incluye la cuenta de usuario del servicio Web del usuario, que es una lista de correos electrónicos designados para recibir una confirmación por correo electrónico de la CDN de Dynamic Media. |
+| `*`ccOtherArray`*` | `types:EmailArray` | Una matriz de direcciones de correo electrónico (5 como máximo) designada para recibir la notificación de confirmación de la CDN de Dynamic Media. |
 
