@@ -4,10 +4,10 @@ seo-description: Cambia el nombre de un recurso.
 seo-title: changeAsset
 solution: Experience Manager
 title: changeAsset
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: f285d7e4-00df-4d90-a05a-71747a4c54cc
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 7%
@@ -42,10 +42,10 @@ Cambia el nombre de un recurso.
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía a la que pertenece el recurso. |
-| ` *`assetHandle`*` | `xsd:string` | Sí | Identificador del recurso cuyo nombre desea cambiar. |
-| ` *`newName`*` | `xsd:string` | Sí | Nombre nuevo del recurso. |
-| ` *`validateName`*` | `xsd:boolean` | Sí | Si `validateName` es `true` y el tipo de recurso requiere un ID IPS único, se comprueba la unicidad global del nuevo nombre y `renameAsset` genera un error si no es único. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía a la que pertenece el recurso. |
+| `*`assetHandle`*` | `xsd:string` | Sí | Identificador del recurso cuyo nombre desea cambiar. |
+| `*`newName`*` | `xsd:string` | Sí | Nombre nuevo del recurso. |
+| `*`validateName`*` | `xsd:boolean` | Sí | Si `validateName` es `true` y el tipo de recurso requiere un ID IPS único, se comprueba la unicidad global del nuevo nombre y `renameAsset` genera un error si no es único. |
 
 **Output (RenameAssetReturn)**
 
