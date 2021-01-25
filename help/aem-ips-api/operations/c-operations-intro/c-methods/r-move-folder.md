@@ -4,13 +4,13 @@ seo-description: Mueva una carpeta a una nueva ubicación.
 seo-title: moveFolder
 solution: Experience Manager
 title: moveFolder
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 424858c3-5796-4ae9-b5ad-fd50ddbee702
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '68'
+ht-degree: 25%
 
 ---
 
@@ -36,15 +36,15 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sí | Manejar a la compañía. |
-| ` *`folderHandle`*` | `xsd:string` | Sí | Identificador de carpeta. |
-| ` *`destFolderHandle`*` | `xsd:string` | Sí | Gestionar en la carpeta de destino. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Manejar a la compañía. |
+| `*`folderHandle`*` | `xsd:string` | Sí | Identificador de carpeta. |
+| `*`destFolderHandle`*` | `xsd:string` | Sí | Gestionar en la carpeta de destino. |
 
 **Output (moveFolderReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`folderHandle`*` | `xsd:string` | Sí | Gestionar en la carpeta movida. |
+| `*`folderHandle`*` | `xsd:string` | Sí | Gestionar en la carpeta movida. |
 
 ## Ejemplos {#section-6571c6ab89ce4cb9a139abdb29c6b279}
 
