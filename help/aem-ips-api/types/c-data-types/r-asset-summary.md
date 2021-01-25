@@ -4,13 +4,13 @@ seo-description: Resultados de búsqueda de metadatos que contienen información
 seo-title: AssetSummary
 solution: Experience Manager
 title: AssetSummary
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 0ac8f900-c16c-409d-b83c-3bdf0ad28fac
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '133'
+ht-degree: 11%
 
 ---
 
@@ -25,16 +25,16 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | Identificador de recurso. |
-| ` *`type`*` | `xsd:string` | Tipo de recurso. La constante &quot;Tipos de recursos&quot; define los valores posibles. Opcional. |
-| ` *`name`*` | `xsd:string` | Nombre del recurso. Opcional. |
-| ` *`carpeta`*` | `xsd:string` | Carpeta que contiene el recurso. |
-| ` *`filename`*` | `xsd:string` | Nombre de archivo del recurso. |
-| ` *`creado`*` | `xsd:dateTime` | Fecha de creación de recursos. |
-| ` *`createUser`*` | `xsd:string` | El usuario que creó el recurso. |
-| ` *`lastModified`*` | `xsd:dateTime` | Fecha en la que se actualizó el recurso por última vez. |
-| ` *`lastModifyUser`*` | `xsd:string` | Último usuario que modificó el recurso. |
-| ` *`metadataArray`*` | `types:MetadataArray` | Matriz de valores de metadatos asociados al recurso. |
-| ` *`puntaje`*` | `xsd:double` | Define la precisión en caso de búsqueda de similitudes (0 = sin coincidencia, 1 = coincidencia exacta). |
-| ` *`scoreDetail`*` | `xsd:string` | Contiene información detallada sobre áreas similares como resultado de una búsqueda por similitudes. |
+| `*`assetHandle`*` | `xsd:string` | Identificador de recurso. |
+| `*`type`*` | `xsd:string` | Tipo de recurso. La constante &quot;Tipos de recursos&quot; define los valores posibles. Opcional. |
+| `*`name`*` | `xsd:string` | Nombre del recurso. Opcional. |
+| `*`carpeta`*` | `xsd:string` | Carpeta que contiene el recurso. |
+| `*`filename`*` | `xsd:string` | Nombre de archivo del recurso. |
+| `*`creado`*` | `xsd:dateTime` | Fecha de creación de recursos. |
+| `*`createUser`*` | `xsd:string` | El usuario que creó el recurso. |
+| `*`lastModified`*` | `xsd:dateTime` | Fecha en la que se actualizó el recurso por última vez. |
+| `*`lastModifyUser`*` | `xsd:string` | Último usuario que modificó el recurso. |
+| `*`metadataArray`*` | `types:MetadataArray` | Matriz de valores de metadatos asociados al recurso. |
+| `*`puntaje`*` | `xsd:double` | Define la precisión en caso de búsqueda de similitudes (0 = sin coincidencia, 1 = coincidencia exacta). |
+| `*`scoreDetail`*` | `xsd:string` | Contiene información detallada sobre áreas similares como resultado de una búsqueda por similitudes. |
 
