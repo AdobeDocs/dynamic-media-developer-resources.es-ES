@@ -4,10 +4,10 @@ seo-description: Establece los valores del diccionario de etiquetas para un camp
 seo-title: setTagFieldValues
 solution: Experience Manager
 title: setTagFieldValues
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 56666c00-3694-4a43-a0ff-97af45c8df9f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 14%
@@ -33,9 +33,9 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sí | Identificador de compañía. |
-| ` *`fieldHandle`*` | `xsd:string` | Sí | Identificador del campo de etiqueta. |
-| ` *`valueArray`*` | `types:StringArray` | Sí | Matriz de valores de etiqueta que reemplazan al diccionario existente del campo. Las asociaciones de recursos se mantienen cuando un nuevo valor coincide con un valor existente. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de compañía. |
+| `*`fieldHandle`*` | `xsd:string` | Sí | Identificador del campo de etiqueta. |
+| `*`valueArray`*` | `types:StringArray` | Sí | Matriz de valores de etiqueta que reemplazan al diccionario existente del campo. Las asociaciones de recursos se mantienen cuando un nuevo valor coincide con un valor existente. |
 
 **Salida (setTagFieldValuesReturn)**
 
