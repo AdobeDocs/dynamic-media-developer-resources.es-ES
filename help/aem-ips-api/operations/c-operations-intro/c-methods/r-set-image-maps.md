@@ -4,13 +4,13 @@ seo-description: Define el mapa de imagen de un recurso.
 seo-title: setImageMaps
 solution: Experience Manager
 title: setImageMaps
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 1dd7e032-34b4-464d-8ec6-7ad282d12891
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '141'
+ht-degree: 10%
 
 ---
 
@@ -36,15 +36,15 @@ Debe haber creado ya los mapas de imagen. Los mapas de imagen se aplican en orde
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sí | Identificador de compañía. |
-| ` *`assetHandle`*` | `xsd:string` | Sí | Identificador de recurso. |
-| ` *`imageMapArray`*` | `types:ImageMapDefinitionArray` | Sí | Matriz de mapas de imagen predefinidos. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de compañía. |
+| `*`assetHandle`*` | `xsd:string` | Sí | Identificador de recurso. |
+| `*`imageMapArray`*` | `types:ImageMapDefinitionArray` | Sí | Matriz de mapas de imagen predefinidos. |
 
 **Salida (setImageMapsReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`imageMapHandleArray`*` | `types:HandleArray` | Sí | Matriz con controles de mapa de imagen aplicados al recurso. |
+| `*`imageMapHandleArray`*` | `types:HandleArray` | Sí | Matriz con controles de mapa de imagen aplicados al recurso. |
 
 ## Ejemplos {#section-fe2e35662a6a4ee29cf250c9fd180371}
 
