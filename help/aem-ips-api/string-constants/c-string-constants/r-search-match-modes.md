@@ -4,13 +4,13 @@ seo-description: Utilizado por searchAssetsParam/conditionMatchMode, searchAsset
 seo-title: Modos de coincidencia de búsqueda
 solution: Experience Manager
 title: Modos de coincidencia de búsqueda
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: bbc90f83-3e7a-428f-b9c7-1defaaa3af72
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '38'
+ht-degree: 5%
 
 ---
 
