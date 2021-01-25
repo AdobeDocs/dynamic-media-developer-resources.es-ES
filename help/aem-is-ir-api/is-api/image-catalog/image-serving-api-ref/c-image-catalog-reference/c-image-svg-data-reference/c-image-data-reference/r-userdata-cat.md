@@ -4,13 +4,13 @@ seo-description: Datos de usuario. El servidor devuelve el contenido de este cam
 seo-title: Datos de usuario
 solution: Experience Manager
 title: Datos de usuario
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: cadc9f3c-c0ca-4c88-bc8a-97c28b439b01
 translation-type: tm+mt
-source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '142'
+ht-degree: 9%
 
 ---
 
