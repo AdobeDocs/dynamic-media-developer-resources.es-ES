@@ -4,10 +4,10 @@ seo-description: Los catálogos de materiales proporcionan al servidor informaci
 seo-title: Descripción general del catálogo de materiales *
 solution: Experience Manager
 title: Descripción general del catálogo de materiales *
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f2128b64-8caf-4a59-b11f-604fe62bae69
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Los archivos de atributos del catálogo deben tener un sufijo de archivo [!DNL .
 
 **Actualización de catálogos de material**
 
-El servidor supervisa continuamente la carpeta del catálogo y vuelve a cargar automáticamente un catálogo de materiales, incluidos los archivos de datos del catálogo asociados, cuando detecta que se ha cambiado el archivo de atributos del catálogo principal. Por lo tanto, para actualizar los catálogos de material en el servidor, primero reemplace todos los archivos de datos del catálogo que deban cambiarse y, a continuación, sustituya (o &quot;toque&quot;) el archivo de atributos del catálogo para activar la recarga del catálogo.
+El servidor supervisa continuamente la carpeta del catálogo y vuelve a cargar automáticamente un catálogo de materiales, incluidos los archivos de datos del catálogo asociados, cuando detecta que se ha cambiado el archivo de atributos del catálogo principal. Por lo tanto, para actualizar los catálogos de material en el servidor, primero reemplace todos los archivos de datos del catálogo que deban cambiarse y, a continuación, reemplace (o &quot;toque&quot;) el archivo de atributos del catálogo para déclencheur de la recarga del catálogo.
 
 **Catálogo predeterminado**
 
