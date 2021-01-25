@@ -4,10 +4,10 @@ seo-description: Elimina un formato de publicación de viñeta.
 seo-title: deleteVignettePublishFormat
 solution: Experience Manager
 title: deleteVignettePublishFormat
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 3c8148d5-dec6-4ffa-8ab8-2cd70811ada6
 translation-type: tm+mt
-source-git-commit: d3766bba78cd1051538ff6a94f61ba61e989f1a5
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 13%
@@ -32,8 +32,8 @@ Elimina un formato de publicación de viñeta.
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía a la que pertenece la viñeta. |
-| ` *`vignetteFormatHandle`*` | `xsd:string` | Sí | Identificador del formato de publicación de la viñeta que se va a eliminar. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía a la que pertenece la viñeta. |
+| `*`vignetteFormatHandle`*` | `xsd:string` | Sí | Identificador del formato de publicación de la viñeta que se va a eliminar. |
 
 **Salida (deleteVignettePublishFormatParam)**
 
