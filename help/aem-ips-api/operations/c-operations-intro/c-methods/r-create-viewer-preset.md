@@ -4,10 +4,10 @@ seo-description: Crea una vista preestablecida que determina lo que un usuario p
 seo-title: createViewerPreset
 solution: Experience Manager
 title: createViewerPreset
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 4160d2b0-6147-459f-830a-43c99b8dc196
 translation-type: tm+mt
-source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 11%
@@ -34,17 +34,17 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sí | Control de la compañía que contiene los ajustes preestablecidos y los recursos del visor. |
-| ` *`folderHandle`*` | `xsd:string` | Sí | Identificador de la carpeta que contiene los recursos. |
-| ` *`name`*` | `xsd:string` | Sí | Nombre del visor. |
-| ` *`type`*` | `xsd:string` | Sí | Tipo de visor. |
-| ` *`configSettingArray`*` | `types:ConfigSettingArray` | No | Matriz que contiene nombres, valores y controladores de imágenes a los que se aplican ajustes preestablecidos. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Control de la compañía que contiene los ajustes preestablecidos y los recursos del visor. |
+| `*`folderHandle`*` | `xsd:string` | Sí | Identificador de la carpeta que contiene los recursos. |
+| `*`name`*` | `xsd:string` | Sí | Nombre del visor. |
+| `*`type`*` | `xsd:string` | Sí | Tipo de visor. |
+| `*`configSettingArray`*` | `types:ConfigSettingArray` | No | Matriz que contiene nombres, valores y controladores de imágenes a los que se aplican ajustes preestablecidos. |
 
 **Salida (createViewerPresetReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`viewerPresetHandle`*` | `xsd:string` | Sí | Control del ajuste preestablecido para el visor. |
+| `*`viewerPresetHandle`*` | `xsd:string` | Sí | Control del ajuste preestablecido para el visor. |
 
 ## Ejemplos {#section-c88ea63536f3461cbe4677ba53f875dd}
 
