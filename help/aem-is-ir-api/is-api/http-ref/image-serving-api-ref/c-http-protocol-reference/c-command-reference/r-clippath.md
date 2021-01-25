@@ -4,13 +4,13 @@ seo-description: Ruta del clip de capa. Especifica una ruta de clip para la capa
 seo-title: clipPath
 solution: Experience Manager
 title: clipPath
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: fe84cf7a-63af-47d3-ae4f-2122f2f0a262
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '556'
+ht-degree: 1%
 
 ---
 
@@ -36,13 +36,13 @@ Ruta del clip de capa. Especifica una ruta de clip para la capa actual.
 
 Todas las partes de la capa que queden fuera del área definida por `clipPath=` se mostrarán transparentes.
 
-` *``*` pathName es el nombre de un trazado incrustado en la imagen de origen de la capa. La ruta se transforma automáticamente para mantener la alineación relativa con el contenido de la imagen. Si se especifica más de un ` *`pathName`*`, el servidor recorta la imagen a la intersección de estas rutas. Se ignora cualquier ` *`pathName`*` no encontrado en la imagen de origen.
+`*``*` pathName es el nombre de un trazado incrustado en la imagen de origen de la capa. La ruta se transforma automáticamente para mantener la alineación relativa con el contenido de la imagen. Si se especifica más de un `*`pathName`*`, el servidor recorta la imagen a la intersección de estas rutas. Se ignora cualquier `*`pathName`*` no encontrado en la imagen de origen.
 
 >[!NOTE]
 >
->Solo se admiten cadenas ASCII para ` *`pathName`*`.
+>Solo se admiten cadenas ASCII para `*`pathName`*`.
 
-` *``*` pathDefinitionpermite especificar datos de ruta explícitos en coordenadas de píxeles de capa.
+`*``*` pathDefinitionpermite especificar datos de ruta explícitos en coordenadas de píxeles de capa.
 
 Si se especifica `size=` y no 0,0, la capa estará presidida. En este caso, las coordenadas de trazado son relativas a la esquina superior izquierda del rectángulo de capa y la capa se coloca en función de `origin=` o su valor predeterminado. Todas las regiones del trazado situadas fuera del rectángulo de la capa permanecen transparentes.
 
@@ -52,9 +52,9 @@ Si no se especifica `size=` para una capa de texto o color sólido, la capa se c
 >
 >`scale=`no se permiten  `rotate=`ni  `anchor=` comandos para capas de color sólido de tamaño propio.
 
-` *``*` pathDefinitionacepta una cadena similar al valor del  `d=` atributo del  `<path>` elemento SVG, excepto que se utilizan comas en lugar de espacios para separar valores. ` *``*` pathDefinitionpuede incluir uno o más subpaths de bucle cerrado.
+`*``*` pathDefinitionacepta una cadena similar al valor del  `d=` atributo del  `<path>` elemento SVG, excepto que se utilizan comas en lugar de espacios para separar valores. `*``*` pathDefinitionpuede incluir uno o más subpaths de bucle cerrado.
 
-Los siguientes comandos de ruta se admiten en ` *`pathDefinition`*`:
+Los siguientes comandos de ruta se admiten en `*`pathDefinition`*`:
 
 <table id="table_A74DD7A48B1C417D9D4BA46BECEAB981"> 
  <thead> 
