@@ -4,10 +4,10 @@ seo-description: Máscaras parte de una imagen. La máscara siempre está asocia
 seo-title: Máscara
 solution: Experience Manager
 title: Máscara
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 06ac0f76-13ce-434b-ac60-6a2af9648f92
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 12%
@@ -25,9 +25,9 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| ` *`maskHandle`*` | `xsd:string` | Control de máscara. |
-| ` *`name`*` | `xsd:string` | Nombre de la máscara. |
-| ` *`maskPath`*` | `xsd:string` | Ruta relativa a la máscara. |
-| ` *`maskFile`*` | `xsd:string` | Archivo de máscara. |
-| ` *`lastModified`*` | `types:dateTime` | Fecha, hora y zona horaria en la que se modificó la máscara por última vez. |
+| `*`maskHandle`*` | `xsd:string` | Control de máscara. |
+| `*`name`*` | `xsd:string` | Nombre de la máscara. |
+| `*`maskPath`*` | `xsd:string` | Ruta relativa a la máscara. |
+| `*`maskFile`*` | `xsd:string` | Archivo de máscara. |
+| `*`lastModified`*` | `types:dateTime` | Fecha, hora y zona horaria en la que se modificó la máscara por última vez. |
 
