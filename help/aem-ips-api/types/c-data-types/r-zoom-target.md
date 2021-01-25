@@ -4,13 +4,13 @@ seo-description: Propiedades de un destinatario de zoom.
 seo-title: Destino de zoom
 solution: Experience Manager
 title: Destino de zoom
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 08a03140-c8cc-49d8-9575-ae153b3899c9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '82'
+ht-degree: 15%
 
 ---
 
@@ -25,13 +25,13 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| ` *`zoomTargetHandle`*` | `xsd:string` | Control de destinatario de zoom. |
-| ` *`name`*` | `xsd:string` | Nombre del destinatario de zoom. |
-| ` *`xPosition`*` | `xsd:int` | Posición X del destinatario de zoom. |
-| ` *`yPosition`*` | `xsd:int` | Posición Y del destinatario de zoom. |
-| ` *`width`*` | `xsd:int` | Zoom de anchura de destinatario. |
-| ` *`height`*` | `xsd:int` | Altura del destinatario de zoom. |
-| ` *`Datos de usuario`*` | `xsd:string` | Datos de usuario asociados al destinatario de zoom. |
-| ` *`position`*` | `xsd:int` | Permite ordenar los destinatarios de zoom asociados a un recurso en función de la posición |
-| ` *`lastModified`*` | `xsd:dateTime` | Fecha de la última modificación. |
+| `*`zoomTargetHandle`*` | `xsd:string` | Control de destinatario de zoom. |
+| `*`name`*` | `xsd:string` | Nombre del destinatario de zoom. |
+| `*`xPosition`*` | `xsd:int` | Posición X del destinatario de zoom. |
+| `*`yPosition`*` | `xsd:int` | Posición Y del destinatario de zoom. |
+| `*`width`*` | `xsd:int` | Zoom de anchura de destinatario. |
+| `*`height`*` | `xsd:int` | Altura del destinatario de zoom. |
+| `*`Datos de usuario`*` | `xsd:string` | Datos de usuario asociados al destinatario de zoom. |
+| `*`position`*` | `xsd:int` | Permite ordenar los destinatarios de zoom asociados a un recurso en función de la posición |
+| `*`lastModified`*` | `xsd:dateTime` | Fecha de la última modificación. |
 
