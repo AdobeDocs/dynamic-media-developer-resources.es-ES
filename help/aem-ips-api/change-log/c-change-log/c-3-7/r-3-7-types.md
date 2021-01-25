@@ -1,16 +1,13 @@
 ---
 description: Describe los tipos de datos nuevos y modificados para la API de IPS versión 3.7.
-seo-description: Describe los tipos de datos nuevos y modificados para la API de IPS versión 3.7.
-seo-title: Tipos de datos nuevos y modificados
 solution: Experience Manager
 title: Tipos de datos nuevos y modificados
-topic: Scene7 Image Production System API
-uuid: 53e6f61c-ffbd-4795-bff3-7c03af584cec
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '39'
+ht-degree: 7%
 
 ---
 
