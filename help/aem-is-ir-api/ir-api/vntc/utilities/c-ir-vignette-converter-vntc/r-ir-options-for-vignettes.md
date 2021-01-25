@@ -4,12 +4,12 @@ seo-description: Las siguientes opciones controlan el procesamiento de los archi
 seo-title: Opciones de viñetas
 solution: Experience Manager
 title: Opciones de viñetas
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0cb40314-07ce-496b-a27b-560d7bb4fa8e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Las siguientes opciones controlan el procesamiento de los archivos de viñeta. S
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> -piramide</span> </p></td> 
-  <td class="stentry"> <p>Crea una viñeta piramidal. Necesario cuando las imágenes procesadas se van a mostrar con los visores de zoom de Scene7. Consulte <a href="../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585" type="concept" format="dita" scope="local"> Escalado de viñetas</a> para obtener más información. </p></td> 
+  <td class="stentry"> <p>Crea una viñeta piramidal. Necesario cuando las imágenes procesadas se van a mostrar con los visores de zoom de Dynamic Media. Consulte <a href="../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585" type="concept" format="dita" scope="local"> Escalado de viñetas</a> para obtener más información. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">- <span class="varname"> ival de ancho de miniatura</span></span> </p></td> 
