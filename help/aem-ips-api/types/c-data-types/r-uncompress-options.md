@@ -4,13 +4,13 @@ seo-description: Ajuste de carga para procesar archivos ZIP y TAR como recursos 
 seo-title: DescompressOptions
 solution: Experience Manager
 title: DescompressOptions
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 1e6827db-8c5e-47db-b7ff-4e681e107e57
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '114'
+ht-degree: 6%
 
 ---
 
