@@ -4,10 +4,10 @@ seo-description: Obtiene todos los valores del diccionario de etiquetas definido
 seo-title: getTagFieldValues
 solution: Experience Manager
 title: getTagFieldValues
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 92d84dfc-6a6c-4876-9670-1152adb6317c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 16%
@@ -39,14 +39,14 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía que contiene el campo de etiqueta. |
-| ` *`fieldHandleArray`*` | `types:HandleArray` | Sí | Matriz de identificadores de campo para los valores de etiqueta que desee que se devuelvan. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía que contiene el campo de etiqueta. |
+| `*`fieldHandleArray`*` | `types:HandleArray` | Sí | Matriz de identificadores de campo para los valores de etiqueta que desee que se devuelvan. |
 
 **Salida (getTagFieldValuesReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`fieldArray`*` | `types:TagFieldValuesArray` | Sí | Matriz de los valores de etiqueta en el diccionario para cada campo solicitado. |
+| `*`fieldArray`*` | `types:TagFieldValuesArray` | Sí | Matriz de los valores de etiqueta en el diccionario para cada campo solicitado. |
 
 ## Ejemplos {#section-4492742614e44bb191a7d397dc1a1407}
 
