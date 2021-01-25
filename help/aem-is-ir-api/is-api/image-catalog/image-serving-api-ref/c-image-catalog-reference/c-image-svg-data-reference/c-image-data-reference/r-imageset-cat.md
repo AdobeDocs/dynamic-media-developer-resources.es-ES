@@ -1,23 +1,20 @@
 ---
-description: Datos del conjunto de imágenes. Proporciona un mecanismo para definir conjuntos ordenados de imágenes y atributos de control utilizados por los visores de Scene7.
-seo-description: Datos del conjunto de imágenes. Proporciona un mecanismo para definir conjuntos ordenados de imágenes y atributos de control utilizados por los visores de Scene7.
-seo-title: ImageSet
+description: Datos del conjunto de imágenes. Proporciona un mecanismo para definir conjuntos ordenados de imágenes y atributos de control utilizados por los visores de Dynamic Media.
 solution: Experience Manager
 title: ImageSet
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 1a34aaef-4053-4474-abb8-794331898d88
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '684'
+ht-degree: 2%
 
 ---
 
 
 # Conjunto de imágenes{#imageset}
 
-Datos del conjunto de imágenes. Proporciona un mecanismo para definir conjuntos ordenados de imágenes y atributos de control utilizados por los visores de Scene7.
+Datos del conjunto de imágenes. Proporciona un mecanismo para definir conjuntos ordenados de imágenes y atributos de control utilizados por los visores de Dynamic Media.
 
 Un conjunto de imágenes consta de una lista de elementos ordenada y separada por comas, cada elemento consta de uno o más subelementos (ID de imagen, ID de muestra, rutas de archivos de medios, etiquetas, etc.), separados por punto y coma y/o dos puntos.
 
@@ -49,24 +46,24 @@ El servicio de imágenes admite de forma nativa las siguientes definiciones de c
 
 Cada elemento de un conjunto de muestras básico consta de una referencia a un registro de imagen y una referencia independiente opcional a un registro de imagen utilizado como muestra.
 
-| ` *`basicSwatchSet`*` | ` *``*&#42;[',' *`swatchItemswatchItem`*]` |
+| `*`basicSwatchSet`*` | `*``*&#42;[',' *`swatchItemswatchItem`*]` |
 |---|---|
-| ` *`swatchItem`*` | ` *``*[';' *`imageIdMuestra`*]` |
-| ` *`muestra`*` | ` *`swatchId`*|solidColorSpecifier` |
-| ` *`imageId`*` | Referencia de imagen IS (catálogo/id) |
-| ` *`swatchId`*` | Referencia de imagen IS (catálogo/id) |
-| ` *`solidColorSpecifier`*` | ` '{0x' *``* [ *`rrggblabel`*]'}'` |
-| ` *`rrggbb`*` | Valor de color RGB hexadecimal de 6 dígitos empaquetado para muestras de color sólido |
-| ` *`label`*` | Etiqueta de texto opcional para muestras de color sólido |
+| `*`swatchItem`*` | `*``*[';' *`imageIdMuestra`*]` |
+| `*`muestra`*` | `*`swatchId`*|solidColorSpecifier` |
+| `*`imageId`*` | Referencia de imagen IS (catálogo/id) |
+| `*`swatchId`*` | Referencia de imagen IS (catálogo/id) |
+| `*`solidColorSpecifier`*` | ` '{0x' *``* [ *`rrggblabel`*]'}'` |
+| `*`rrggbb`*` | Valor de color RGB hexadecimal de 6 dígitos empaquetado para muestras de color sólido |
+| `*`label`*` | Etiqueta de texto opcional para muestras de color sólido |
 
 **Conjuntos de muestras jerárquicos**
 
 Cada elemento de un conjunto de muestras jerárquico puede constar de un elemento de muestra básico o una referencia a un registro de conjunto de muestras (se requieren muestras para dichos elementos).
 
-| ` *`hierarchicalSwatchSet`*` | ` *``* &#42;[ ',' *`hierarchicalSwatchItemJerárquicoSwatchItem`* ]` |
+| `*`hierarchicalSwatchSet`*` | `*``* &#42;[ ',' *`hierarchicalSwatchItemJerárquicoSwatchItem`* ]` |
 |---|---|
-| ` *`hierarchicalSwatchItem`*` | ` *``* | { *``* ';' *`swatchItembasicSwatchSetIdswatch`* }` |
-| ` *`basicSwatchSetId`*` | Referencia IS (catálogo/id) a un registro de catálogo que define un conjunto de muestras básico |
+| `*`hierarchicalSwatchItem`*` | `*``* | { *``* ';' *`swatchItembasicSwatchSetIdswatch`* }` |
+| `*`basicSwatchSetId`*` | Referencia IS (catálogo/id) a un registro de catálogo que define un conjunto de muestras básico |
 
 **Conjuntos de giros básicos**
 
@@ -78,38 +75,38 @@ Un conjunto de giros básico consiste en una simple lista de los ID de imagen.
 
 Cada elemento de un conjunto de giros bidimensional puede constar de una imagen simple, una referencia a un conjunto de giros básico o un conjunto de giros básico en línea delimitado por llaves. Se pueden utilizar paréntesis en lugar de llaves.
 
-| ` *`2dSpinItem`*` | ` *`2dSpinSet`* *`2dSpinItem`* &#42;[ ',' *`2dSpinItem`* ]` |
+| `*`2dSpinItem`*` | `*`2dSpinSet`* *`2dSpinItem`* &#42;[ ',' *`2dSpinItem`* ]` |
 |---|---|
-| ` *`2dSpinItem`*` | ` *``* | { '{' *``* '}' } | *`imageIdbasicSpinSetbasicSpinSetId`*` |
-| ` *`basicSpinSetId`*` | Referencia IS (catálogo/id) a un registro de catálogo que define un conjunto de giros básico |
+| `*`2dSpinItem`*` | `*``* | { '{' *``* '}' } | *`imageIdbasicSpinSetbasicSpinSetId`*` |
+| `*`basicSpinSetId`*` | Referencia IS (catálogo/id) a un registro de catálogo que define un conjunto de giros básico |
 
 **Conjuntos de páginas**
 
 Cada elemento de un conjunto de páginas puede constar de hasta tres imágenes de página separadas por dos puntos.
 
-| ` *`pageSet`*` | ` *``* &#42;[ , *`pageItemPageItem`* ]` |
+| `*`pageSet`*` | `*``* &#42;[ , *`pageItemPageItem`* ]` |
 |---|---|
-| ` *`pageItem`*` | ` *``* [ : *``* [ : *`imageIdimageIdimageId`* ] ]` |
+| `*`pageItem`*` | `*``* [ : *``* [ : *`imageIdimageIdimageId`* ] ]` |
 
 **Conjuntos de medios**
 
 Cada elemento de un conjunto de medios puede constar de una imagen, un conjunto de muestras básico, un conjunto de muestras jerárquico, un conjunto de giros básico, un conjunto de giros bidimensional, un conjunto de páginas o un recurso de vídeo. Cada elemento de conjunto de medios también puede contener una muestra opcional y un identificador de tipo.
 
-| ` *`mediaSet`*` | ` *`elemento `* &#42;[ , *`elemento`* ]` |
+| `*`mediaSet`*` | `*`elemento `* &#42;[ , *`elemento`* ]` |
 |---|---|
-| ` *`elemento`*` | ` { *``* | *``* | *``*}} | *``* } [ ; [ *``* ] [ ; [ *`videoItemRecutItemimageItemItemIDreserved`* ] ] ]` |
-| ` *`videoItem`*` | ` *``* ; *`videoswatchId`*` |
-| ` *`recutItem`*` | ` *``* ; *`recutswatchId`*` |
-| ` *`imageItem`*` | ` *``* ; [ *`imageIdswatchId`* ]` |
-| ` *`setItem`*` | ` { *``* | { '{' *``* '}' } } ; *`setIdinlineSetswatchId`*` |
-| ` *`ID`*` | `media type identifier [ img | basic | advanced_image | img | img_set | advanced_imageset | advanced_swatchset | spin | video ]` |
-| ` *`swatchId`*` | ID de imagen IS |
-| ` *`video`*` | Ruta del archivo de vídeo o animación o identificación del catálogo estático |
-| ` *`reedición`*` | Ruta del archivo XML de definición de reedición o id. de catálogo estático |
-| ` *`imageId`*` | ID de imagen IS |
-| ` *`setId`*` | Referencia IS a un conjunto de imágenes, giros o catálogos electrónicos |
-| ` *`inlineSet`*` | Conjunto de imágenes, giros o catálogos electrónicos alineados |
-| ` *`reservado`*` | Reservado para uso futuro |
+| `*`elemento`*` | ` { *``* | *``* | *``*}} | *``* } [ ; [ *``* ] [ ; [ *`videoItemRecutItemimageItemItemIDreserved`* ] ] ]` |
+| `*`videoItem`*` | `*``* ; *`videoswatchId`*` |
+| `*`recutItem`*` | `*``* ; *`recutswatchId`*` |
+| `*`imageItem`*` | `*``* ; [ *`imageIdswatchId`* ]` |
+| `*`setItem`*` | ` { *``* | { '{' *``* '}' } } ; *`setIdinlineSetswatchId`*` |
+| `*`ID`*` | `media type identifier [ img | basic | advanced_image | img | img_set | advanced_imageset | advanced_swatchset | spin | video ]` |
+| `*`swatchId`*` | ID de imagen IS |
+| `*`video`*` | Ruta del archivo de vídeo o animación o identificación del catálogo estático |
+| `*`reedición`*` | Ruta del archivo XML de definición de reedición o id. de catálogo estático |
+| `*`imageId`*` | ID de imagen IS |
+| `*`setId`*` | Referencia IS a un conjunto de imágenes, giros o catálogos electrónicos |
+| `*`inlineSet`*` | Conjunto de imágenes, giros o catálogos electrónicos alineados |
+| `*`reservado`*` | Reservado para uso futuro |
 
 **Conjuntos de vídeos**
 
