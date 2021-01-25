@@ -4,10 +4,10 @@ seo-description: Un usuario de los recursos y tipos del sistema.
 seo-title: Usuario
 solution: Experience Manager
 title: Usuario
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 37e939ae-dd1a-4550-aa93-b7b091ebc339
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 10%
@@ -25,11 +25,11 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| ` *`userHandle`*` | `xsd:string` | Identificador de usuario. |
-| ` *`firstName`*` | `xsd:string` | Nombre de usuario. |
-| ` *`lastName`*` | `xsd:string` | Apellido del usuario. |
-| ` *`correo electrónico`*` | `xsd:string` | dirección de correo electrónico. |
-| ` *`defaultRole`*` | `xsd:string` | Define la función de un usuario en cada compañía a la que pertenece. Sin embargo, la función de usuario `IpsAmin` anula otras funciones de usuario. |
-| ` *`isvalid`*` | `xsd:boolean` | Determina si el usuario es válido. |
-| ` *`passwordExpires`*` | `xsd:dateTime` | Establece la fecha de caducidad de la contraseña. |
+| `*`userHandle`*` | `xsd:string` | Identificador de usuario. |
+| `*`firstName`*` | `xsd:string` | Nombre de usuario. |
+| `*`lastName`*` | `xsd:string` | Apellido del usuario. |
+| `*`correo electrónico`*` | `xsd:string` | dirección de correo electrónico. |
+| `*`defaultRole`*` | `xsd:string` | Define la función de un usuario en cada compañía a la que pertenece. Sin embargo, la función de usuario `IpsAmin` anula otras funciones de usuario. |
+| `*`isvalid`*` | `xsd:boolean` | Determina si el usuario es válido. |
+| `*`passwordExpires`*` | `xsd:dateTime` | Establece la fecha de caducidad de la contraseña. |
 
