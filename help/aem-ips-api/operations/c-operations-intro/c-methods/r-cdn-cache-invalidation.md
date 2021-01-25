@@ -1,35 +1,32 @@
 ---
-description: Reenvía la lista proporcionada de direcciones URL al proveedor de Scene7 CDN (Red de distribución de contenido) para invalidar la caché existente de las respuestas HTTP.
-seo-description: Reenvía la lista proporcionada de direcciones URL al proveedor de Scene7 CDN (Red de distribución de contenido) para invalidar la caché existente de las respuestas HTTP.
-seo-title: cdnCacheInvalidation
+description: Reenvía la lista proporcionada de direcciones URL al proveedor de Dynamic Media CDN (Red de distribución de contenido) para invalidar la caché existente de las respuestas HTTP.
 solution: Experience Manager
 title: cdnCacheInvalidation
-topic: Scene7 Image Production System API
-uuid: 16cf53d4-4101-405c-b008-009b6ac62169
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: aa095022d43db4bf815aece9bc2b087c53a64e1b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '476'
+ht-degree: 5%
 
 ---
 
 
 # cdnCacheInvalidation{#cdncacheinvalidation}
 
-Reenvía la lista proporcionada de direcciones URL al proveedor de Scene7 CDN (Red de distribución de contenido) para invalidar la caché existente de las respuestas HTTP.
+Reenvía la lista proporcionada de direcciones URL al proveedor de Dynamic Media CDN (Red de distribución de contenido) para invalidar la caché existente de las respuestas HTTP.
 
 ## cdnCacheInvalidation: Acerca de {#section-4f70d2bc79d64288b961836ab17e9690}
 
-La invalidación de caché de CDN fuerza a todas las solicitudes HTTP para que estas direcciones URL se revaliden con los datos publicados actualmente en la red de Scene7 una vez que esta solicitud de invalidación se procesa a través de la red de CDN. Todas las direcciones URL que no estén conectadas a la estructura URL del servicio de Scene7 y que coincidan directamente con el ID raíz de la compañía de Scene7 asignado cuando se cree la compañía generarán un error de API para toda la solicitud. Cualquier dirección URL no válida que la CDN no admita y que considere no válida también generará un error de API para toda la solicitud.
+La invalidación de caché de CDN fuerza a todas las solicitudes HTTP para que estas direcciones URL se revaliden con los datos publicados actualmente en la red de Dynamic Media después de procesar esta solicitud de invalidación a través de la red de CDN. Todas las direcciones URL que no estén conectadas a la estructura URL del servicio de Dynamic Media y que coincidan directamente con el ID raíz de la compañía de Dynamic Media asignado cuando se cree la compañía generarán un error de API para toda la solicitud. Cualquier dirección URL no válida que la CDN no admita y que considere no válida también generará un error de API para toda la solicitud.
 
 **Frecuencia de uso: Reglas**
 
-Las reglas que rigen la frecuencia de uso de esta función son controladas por los socios CDN de Scene7. La CDN conserva la discreción de degradar la capacidad de respuesta de estas invalidaciones para mantener un rendimiento óptimo de su servicio a sus usuarios. Si se notifica a Scene7 del uso excesivo de esta función, tendremos que recurrir a la desactivación de la función por compañía o en todo el servicio.
+Las reglas que rigen la frecuencia de uso de esta función están controladas por los socios CDN de Dynamic Media. La CDN conserva la discreción de degradar la capacidad de respuesta de estas invalidaciones para mantener un rendimiento óptimo de su servicio a sus usuarios. Si se notifica a Dynamic Media del uso excesivo de esta función, tendremos que recurrir a la desactivación de la función por compañía o en todo el servicio.
 
 **Correos electrónicos de confirmación**
 
-Los correos electrónicos de confirmación del socio de CDN de Scene7 se pueden enviar al creador de la lista o a hasta cinco direcciones de correo electrónico más. La API envía la confirmación cuando se ha notificado a toda la red CDN que se han borrado las direcciones URL a las que se hace referencia en el correo electrónico. Una sola llamada a `cdnCacheInvalidation` puede enviar varios correos electrónicos si el número de direcciones URL suministradas supera el número que Scene7 puede enviar al socio de CDN en una sola notificación. Actualmente, esto sería si la solicitud supera las 100 direcciones URL, pero está sujeta a cambios según la solicitud del socio de CDN.
+Los correos electrónicos de confirmación del socio de CDN de Dynamic Media se pueden enviar al creador de la lista o a hasta cinco direcciones de correo electrónico más. La API envía la confirmación cuando se ha notificado a toda la red CDN que se han borrado las direcciones URL a las que se hace referencia en el correo electrónico. Una sola llamada a `cdnCacheInvalidation` puede enviar varios correos electrónicos si el número de direcciones URL suministradas supera el número que Dynamic Media puede enviar al socio de CDN en una sola notificación. Actualmente, esto sería si la solicitud supera las 100 direcciones URL, pero está sujeta a cambios según la solicitud del socio de CDN.
 
 **Admitido desde**
 
@@ -64,7 +61,7 @@ Los correos electrónicos de confirmación del socio de CDN de Scene7 se pueden 
    <td> <p> <span class="codeph"> <span class="varname"> urlArray</span> </span> </p> </td> 
    <td> <p> <span class="codeph"> tipos:UrlArray</span> </p> </td> 
    <td> <p> Sí </p> </td> 
-   <td> <p> Lista de hasta 1000 direcciones URL para invalidar desde la caché de CDN. Todas las direcciones URL deben contener el ID raíz de compañía de Scene7 para invalidarlo. </p> </td> 
+   <td> <p> Lista de hasta 1000 direcciones URL para invalidar desde la caché de CDN. Todas las direcciones URL deben contener el ID raíz de compañía de Dynamic Media para invalidarlo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
