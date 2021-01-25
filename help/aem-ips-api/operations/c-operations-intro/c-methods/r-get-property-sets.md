@@ -4,13 +4,13 @@ seo-description: Obtiene conjuntos de propiedades asociados a un identificador d
 seo-title: getPropertySets
 solution: Experience Manager
 title: getPropertySets
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: fa3cadb3-92b3-4ffb-ac1e-87a01b98bcb2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '99'
+ht-degree: 17%
 
 ---
 
@@ -39,15 +39,15 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`typeHandle`*` | `xsd:string` | Sí | El identificador del tipo de conjunto de propiedades. |
-| ` *`PrimaryOwnerHandle`*` | `xsd:string` | Sí | El propietario principal de los datos enlazados al objeto de base de datos. |
-| ` *`secondaryOwnerHandle`*` | `xsd:string` | No | Un propietario secundario opcional de los datos. |
+| `*`typeHandle`*` | `xsd:string` | Sí | El identificador del tipo de conjunto de propiedades. |
+| `*`PrimaryOwnerHandle`*` | `xsd:string` | Sí | El propietario principal de los datos enlazados al objeto de base de datos. |
+| `*`secondaryOwnerHandle`*` | `xsd:string` | No | Un propietario secundario opcional de los datos. |
 
 **Output (getPropertySetsReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`setArray`*` | `types:PropertySetArray` | Sí | Conjunto de conjuntos de propiedades. |
+| `*`setArray`*` | `types:PropertySetArray` | Sí | Conjunto de conjuntos de propiedades. |
 
 ## Ejemplos {#section-1358af974eab4259864910337a6f0bd2}
 
