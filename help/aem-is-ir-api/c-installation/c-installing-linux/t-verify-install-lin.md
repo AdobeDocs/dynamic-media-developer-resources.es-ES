@@ -4,10 +4,10 @@ seo-description: Después de instalar el servicio de imágenes en Linux, verifiq
 seo-title: Verificación de la instalación
 solution: Experience Manager
 title: Verificación de la instalación
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 4fdf61c7-3c9f-4f3e-9696-60eb7e3f2209
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 0%
