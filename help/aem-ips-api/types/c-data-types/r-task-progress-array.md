@@ -4,13 +4,13 @@ seo-description: Una matriz de progreso de tarea. Contiene información sobre ta
 seo-title: TaskProgressArray
 solution: Experience Manager
 title: TaskProgressArray
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e5d9b6ce-f133-47de-beea-b8b395827bb8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '50'
+ht-degree: 12%
 
 ---
 
@@ -25,5 +25,5 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| ` *`elemento`*` | `types:TaskProgress` | Elementos de progreso de tarea. La incidencia mínima es cero. La incidencia máxima no está delimitada. |
+| `*`elemento`*` | `types:TaskProgress` | Elementos de progreso de tarea. La incidencia mínima es cero. La incidencia máxima no está delimitada. |
 
