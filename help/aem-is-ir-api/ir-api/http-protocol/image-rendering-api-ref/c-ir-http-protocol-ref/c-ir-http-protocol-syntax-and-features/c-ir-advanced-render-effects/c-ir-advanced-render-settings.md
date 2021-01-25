@@ -1,15 +1,15 @@
 ---
-description: La herramienta de creación de viñetas (que forma parte del paquete de creación de imágenes de Scene7) proporciona mecanismos para controlar los aspectos de bajo nivel del motor de procesamiento de viñetas.
-seo-description: La herramienta de creación de viñetas (que forma parte del paquete de creación de imágenes de Scene7) proporciona mecanismos para controlar los aspectos de bajo nivel del motor de procesamiento de viñetas.
+description: La herramienta de creación de viñetas (que forma parte del paquete de creación de imágenes de Dynamic Media) proporciona mecanismos para controlar los aspectos de bajo nivel del motor de procesamiento de viñetas.
+seo-description: La herramienta de creación de viñetas (que forma parte del paquete de creación de imágenes de Dynamic Media) proporciona mecanismos para controlar los aspectos de bajo nivel del motor de procesamiento de viñetas.
 seo-title: Configuración avanzada de procesamiento
 solution: Experience Manager
 title: Configuración avanzada de procesamiento
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 18e7f3cf-4d30-445c-813c-546a91987b99
 translation-type: tm+mt
-source-git-commit: e3b096b97419a86de244b97876439ad9c491b950
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '633'
 ht-degree: 24%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 24%
 
 # Configuración avanzada de procesamiento{#advanced-render-settings}
 
-La herramienta de creación de viñetas (que forma parte del paquete de creación de imágenes de Scene7) proporciona mecanismos para controlar los aspectos de bajo nivel del motor de procesamiento de viñetas.
+La herramienta de creación de viñetas (que forma parte del paquete de creación de imágenes de Dynamic Media) proporciona mecanismos para controlar los aspectos de bajo nivel del motor de procesamiento de viñetas.
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ Esta configuración se controla interactivamente en la creación de imágenes. E
   <tr> 
    <td colname="col1"> <p>W </p> </td> 
    <td colname="col2"> <p>Cantidad de USM (%). </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>500 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
@@ -112,7 +112,7 @@ Esta configuración se controla interactivamente en la creación de imágenes. E
   <tr> 
    <td colname="col1"> <p>S </p> </td> 
    <td colname="col2"> <p>Supersampling: Tasa aleatoria. </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>20 </p> </td> 
    <td colname="col5"> <p>El valor predeterminado es 5. </p> </td> 
   </tr> 
