@@ -4,13 +4,13 @@ seo-description: Recuperar el estado resumido de un trabajo enviado.
 seo-title: batchjobbristatus
 solution: Experience Manager
 title: batchjobbristatus
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 601e8395-8a77-4324-9cd7-5fe321bc91e3
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '56'
+ht-degree: 1%
 
 ---
 
