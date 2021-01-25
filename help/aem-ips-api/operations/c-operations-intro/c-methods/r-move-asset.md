@@ -4,13 +4,13 @@ seo-description: Mueve un recurso a una carpeta específica.
 seo-title: moveAsset
 solution: Experience Manager
 title: moveAsset
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: cabeb7b7-ab0b-44d0-ad90-623f76e4323d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '84'
+ht-degree: 15%
 
 ---
 
@@ -36,9 +36,9 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sí | Manejar a la compañía. |
-| ` *`assetHandle`*` | `xsd:string` | Sí | Administre el recurso que desea mover. |
-| ` *`folderHandle`*` | `xsd:string` | Sí | Gestionar en la carpeta de destino. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Manejar a la compañía. |
+| `*`assetHandle`*` | `xsd:string` | Sí | Administre el recurso que desea mover. |
+| `*`folderHandle`*` | `xsd:string` | Sí | Gestionar en la carpeta de destino. |
 
 **Output (moveAssetReturn)**
 
