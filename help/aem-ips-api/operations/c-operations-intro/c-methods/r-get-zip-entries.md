@@ -4,13 +4,13 @@ seo-description: Devuelve datos de archivo Zip.
 seo-title: getZipEntries
 solution: Experience Manager
 title: getZipEntries
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: cfc45f83-1cf9-4c50-9aac-5a731e62a839
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '75'
+ht-degree: 21%
 
 ---
 
@@ -39,14 +39,14 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía que contiene el archivo Zip. |
-| ` *`assetHandle`*` | `xsd:string` | Sí | Administre el archivo Zip. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía que contiene el archivo Zip. |
+| `*`assetHandle`*` | `xsd:string` | Sí | Administre el archivo Zip. |
 
 **Salida (getZipEntriesReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`zipArray`*` | `types:ZipEntryArray` | Sí | Matriz de entradas en un archivo Zip. |
+| `*`zipArray`*` | `types:ZipEntryArray` | Sí | Matriz de entradas en un archivo Zip. |
 
 ## Ejemplos {#section-1fc0ad8fa448492cb5a135d3e3d161ac}
 
