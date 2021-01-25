@@ -4,10 +4,10 @@ seo-description: Define los permisos de un solo recurso mediante un recurso de p
 seo-title: setAssetPermissions
 solution: Experience Manager
 title: setAssetPermissions
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 38f26482-bce9-4d2c-9714-e8c3ae40c2d1
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 8%
@@ -33,9 +33,9 @@ Los recursos heredan los permisos de su carpeta principal de forma predeterminad
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía que contiene la carpeta con la que desea trabajar. |
-| ` *`assetHandle`*` | `xsd:string` | Sí | Identificador de carpeta. |
-| ` *`permissionArray`*` | `types:PermissionsUpdateArray` | Sí | Matriz de permisos. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía que contiene la carpeta con la que desea trabajar. |
+| `*`assetHandle`*` | `xsd:string` | Sí | Identificador de carpeta. |
+| `*`permissionArray`*` | `types:PermissionsUpdateArray` | Sí | Matriz de permisos. |
 
 **Salida (setAssetPermissonsReturn)**
 
