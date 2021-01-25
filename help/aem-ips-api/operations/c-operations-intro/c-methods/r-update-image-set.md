@@ -4,10 +4,10 @@ seo-description: Actualiza un conjunto de imágenes.
 seo-title: updateImageSet
 solution: Experience Manager
 title: updateImageSet
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: df118ba3-d86f-4005-928e-76a5a9f899fc
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 19%
@@ -27,16 +27,16 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía que contiene el conjunto de imágenes que desea modificar. |
-| ` *`assetHandle`*` | `xsd:string` | Ys | Identificador del conjunto de imágenes que desea modificar. |
-| ` *`miembroArray`*` | `types:ImageSetMemberUpdateArray` | No | Restablece los miembros del conjunto de imágenes. |
-| ` *`thumbAssetHandle`*` | `xsd:string` | No | Identificador del recurso que actúa como miniatura del conjunto de imágenes. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía que contiene el conjunto de imágenes que desea modificar. |
+| `*`assetHandle`*` | `xsd:string` | Ys | Identificador del conjunto de imágenes que desea modificar. |
+| `*`miembroArray`*` | `types:ImageSetMemberUpdateArray` | No | Restablece los miembros del conjunto de imágenes. |
+| `*`thumbAssetHandle`*` | `xsd:string` | No | Identificador del recurso que actúa como miniatura del conjunto de imágenes. |
 
 **Salida (updateImageSetReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`secuencia`*` |  |  |  |
+| `*`secuencia`*` |  |  |  |
 
 ## Ejemplos {#section-ce47a4b6e062423fa55ed3a0fd26d7ff}
 
