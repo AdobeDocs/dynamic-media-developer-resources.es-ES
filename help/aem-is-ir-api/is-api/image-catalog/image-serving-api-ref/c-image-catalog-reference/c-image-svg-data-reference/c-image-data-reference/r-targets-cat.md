@@ -4,13 +4,13 @@ seo-description: Zoom de datos de destinatario. Ninguna o más propiedades de de
 seo-title: Objetivos
 solution: Experience Manager
 title: Objetivos
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ca02483a-9aa0-4b54-b6f0-4fd10d8b2b4c
 translation-type: tm+mt
-source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '347'
+ht-degree: 2%
 
 ---
 
@@ -64,7 +64,7 @@ Destino. *`num`*.rect es necesario para cada destinatario de zoom y debe especif
 
 En el caso de las aplicaciones que involucran los clientes del visor de giros y folletos, los destinatarios de zoom deben definirse en el mismo registro de catálogo que define el conjunto de imágenes. El visor ignora todas las definiciones de destinatario de zoom de los registros de catálogo de los miembros del conjunto de imágenes.
 
-Los visores de Scene7 esperan destinatarios de zoom en las coordenadas de la imagen de resolución completa ya ajustadas por los comandos de `catalog::Modifier`.
+Los visores de Dynamic Media esperan destinatarios de zoom en las coordenadas de la imagen de resolución completa ya ajustadas por los comandos de `catalog::Modifier`.
 
 ## Propiedades {#section-b3f8eba4985f4b00bb935d592fe770f9}
 
