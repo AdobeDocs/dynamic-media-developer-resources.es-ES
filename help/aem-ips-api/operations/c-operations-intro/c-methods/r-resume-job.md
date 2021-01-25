@@ -4,10 +4,10 @@ seo-description: Reinicia un trabajo pausado.
 seo-title: resumeJob
 solution: Experience Manager
 title: resumeJob
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 0ca5db75-cce0-4afc-9a58-c47c6229931e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 16%
@@ -38,8 +38,8 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía con el trabajo que desea reiniciar. |
-| ` *`jobHandle`*` | `xsd:string` | Sí | Identificador del trabajo pausado. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía con el trabajo que desea reiniciar. |
+| `*`jobHandle`*` | `xsd:string` | Sí | Identificador del trabajo pausado. |
 
 **Output (resumeJobReturn)**
 
