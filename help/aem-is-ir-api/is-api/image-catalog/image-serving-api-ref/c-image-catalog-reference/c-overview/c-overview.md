@@ -4,13 +4,13 @@ seo-description: Los catálogos de imágenes se utilizan para proporcionar al se
 seo-title: Información general
 solution: Experience Manager
 title: Información general
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e8c0401b-9161-4624-babb-6c7afb443e65
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '299'
+ht-degree: 1%
 
 ---
 
@@ -34,6 +34,6 @@ Los archivos de datos del catálogo se asocian a los catálogos de imágenes med
 
 Los archivos de atributos del catálogo deben tener un sufijo de archivo [!DNL .ini] y estar ubicados en la carpeta de catálogo de Platform Server ( `PlatformServer::catalog.rootPath`). Los archivos de datos del catálogo se pueden ubicar en la misma carpeta o en cualquier otra carpeta accesible para el servidor de plataforma.
 
-Este documento describe el formato de archivo del catálogo de imágenes para el sistema Scene7 Image Serving. La audiencia deseada son programadores experimentados y desarrolladores de sitios web que desean aprovechar el servicio de imágenes de Scene7 para una aplicación web o personalizada.
+Este documento describe el formato de archivo del catálogo de imágenes para el sistema Dynamic Media Image Serving. La audiencia deseada son programadores experimentados y desarrolladores de sitios web que desean aprovechar el servicio de imágenes de Dynamic Media para una aplicación web o personalizada.
 
-Se supone que el lector está familiarizado generalmente con el sistema de servicio de imágenes de Scene7, las normas y convenciones generales del protocolo HTTP y la terminología básica de imágenes.
+Se supone que el lector está familiarizado generalmente con el sistema de servicio de imágenes de Dynamic Media, las normas y convenciones generales del protocolo HTTP y la terminología básica de imágenes.
