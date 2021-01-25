@@ -4,10 +4,10 @@ seo-description: 'Solo para uso interno. Consulte la sección Referencia del cat
 seo-title: getImageRenderingPublishSettings
 solution: Experience Manager
 title: getImageRenderingPublishSettings
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: b1c253b5-febe-4dc7-95a1-a5f4789030e7
 translation-type: tm+mt
-source-git-commit: aa095022d43db4bf815aece9bc2b087c53a64e1b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 14%
@@ -34,12 +34,12 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía cuya configuración de publicación de procesamiento de imágenes desee obtener. |
-| ` *`contextHandle`*` | `xsd:string` | Sí | Gestionar en el contexto de publicación. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía cuya configuración de publicación de procesamiento de imágenes desee obtener. |
+| `*`contextHandle`*` | `xsd:string` | Sí | Gestionar en el contexto de publicación. |
 
 **Salida (getImageRenderingPublishSettingsReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`publishSettingsArray`*` | `type:ConfigSettingArray` | Sí | Configuración de publicación de procesamiento de imágenes. |
+| `*`publishSettingsArray`*` | `type:ConfigSettingArray` | Sí | Configuración de publicación de procesamiento de imágenes. |
 
