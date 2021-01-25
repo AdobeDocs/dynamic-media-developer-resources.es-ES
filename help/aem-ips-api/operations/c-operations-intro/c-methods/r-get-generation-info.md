@@ -4,13 +4,13 @@ seo-description: Devuelve 2 tipos diferentes de información según los parámet
 seo-title: getGenerationInfo
 solution: Experience Manager
 title: getGenerationInfo
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 4310a702-c08b-4479-9f57-9f2bc1d6b032
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '231'
+ht-degree: 8%
 
 ---
 
@@ -39,18 +39,18 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`Frase de código`*` | `xsd:string` | Sí | El identificador de la compañía. |
-| ` *`Frase de código`*` | `xsd:string` | No | Motor utilizado en la generación. Consulte Estilos de fuente. |
-| ` *`Frase de código`*` | `xsd:string` | No | Identificador del recurso que se va a consulta para los recursos generados. |
-| ` *`Frase de código`*` | `xsd:string` | No | Control del recurso a la consulta para los recursos y motores utilizados en su generación. |
-| ` *`Frase de código`*` | `xsd:StringArray` | No | Propiedades incluidas en la operación. |
-| ` *`Frase de código`*` | `xsd:StringArray` | No | Propiedades excluidas de la operación. |
+| `*`Frase de código`*` | `xsd:string` | Sí | El identificador de la compañía. |
+| `*`Frase de código`*` | `xsd:string` | No | Motor utilizado en la generación. Consulte Estilos de fuente. |
+| `*`Frase de código`*` | `xsd:string` | No | Identificador del recurso que se va a consulta para los recursos generados. |
+| `*`Frase de código`*` | `xsd:string` | No | Control del recurso a la consulta para los recursos y motores utilizados en su generación. |
+| `*`Frase de código`*` | `xsd:StringArray` | No | Propiedades incluidas en la operación. |
+| `*`Frase de código`*` | `xsd:StringArray` | No | Propiedades excluidas de la operación. |
 
 **Salida (getGenerationInfoReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`GenerationArray`*` | `types:GenerationInfoArray` | Sí | Matriz de información de generación. |
+| `*`GenerationArray`*` | `types:GenerationInfoArray` | Sí | Matriz de información de generación. |
 
 ## Ejemplos {#section-fdffe6ed82d94c7aa90e47f7ce889403}
 
