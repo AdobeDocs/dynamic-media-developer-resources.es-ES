@@ -1,16 +1,13 @@
 ---
 description: Describe los métodos de operaciones nuevos y modificados para la versión 6 de la API de IPS.
-seo-description: Describe los métodos de operaciones nuevos y modificados para la versión 6 de la API de IPS.
-seo-title: Operaciones nuevas y modificadas
 solution: Experience Manager
 title: Operaciones nuevas y modificadas
-topic: Scene7 Image Production System API
-uuid: e36f0d5c-0170-4a65-9347-c7fd3538726b
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 5%
+source-wordcount: '81'
+ht-degree: 6%
 
 ---
 
