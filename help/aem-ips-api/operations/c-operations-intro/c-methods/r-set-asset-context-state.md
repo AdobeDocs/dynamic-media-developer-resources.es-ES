@@ -4,13 +4,13 @@ seo-description: Configure o actualice el estado de publicación de uno o varios
 seo-title: setAssetsContextState
 solution: Experience Manager
 title: setAssetsContextState
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 4b94f9ea-3f7b-45ee-9381-6434f2bc4e31
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '183'
+ht-degree: 9%
 
 ---
 
@@ -41,17 +41,17 @@ Configure o actualice el estado de publicación de uno o varios recursos. Puede 
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sí | Manejar a la compañía. |
-| ` *`assetsContextHandle`*` | `types:AssetsContextStateUpdateArray` | Sí | Matriz de recursos y sus nuevos estados de publicación. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Manejar a la compañía. |
+| `*`assetsContextHandle`*` | `types:AssetsContextStateUpdateArray` | Sí | Matriz de recursos y sus nuevos estados de publicación. |
 
 **Salida (setAssetsContexStateReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Sí | Número de recursos que se han cambiado correctamente. |
-| ` *`warningCount`*` | `xsd:int` | Sí | Número de advertencias generadas cuando la operación intentó modificar recursos. |
-| ` *`errorCount`*` | `xsd:int` | Sí | Número de errores generados cuando la operación intentó modificar recursos. |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | Matriz de errores generados por los recursos cuando la operación intentó modificarlos. |
+| `*`successCount`*` | `xsd:int` | Sí | Número de recursos que se han cambiado correctamente. |
+| `*`warningCount`*` | `xsd:int` | Sí | Número de advertencias generadas cuando la operación intentó modificar recursos. |
+| `*`errorCount`*` | `xsd:int` | Sí | Número de errores generados cuando la operación intentó modificar recursos. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | Matriz de errores generados por los recursos cuando la operación intentó modificarlos. |
 
 ## Ejemplos {#section-283a073f3cb14bcda5abed863c538aa4}
 
