@@ -4,10 +4,10 @@ seo-description: Devuelve definiciones de campo de metadatos para tipos de recur
 seo-title: AssetMetadataFields
 solution: Experience Manager
 title: AssetMetadataFields
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: aefb734c-7609-4227-ae2c-48a1469740ec
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 8%
@@ -25,6 +25,6 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| ` *`assetType`*` | `xsd:string` | Tipo de recurso asociado con definiciones de campo (consulte &quot;Tipos de recursos&quot; para conocer los valores). |
-| ` *`fieldArray`*` | `types:MetadataFieldArray` | Matriz de definiciones de campo de metadatos asociadas con el tipo de recurso especificado en `assetType`. |
+| `*`assetType`*` | `xsd:string` | Tipo de recurso asociado con definiciones de campo (consulte &quot;Tipos de recursos&quot; para conocer los valores). |
+| `*`fieldArray`*` | `types:MetadataFieldArray` | Matriz de definiciones de campo de metadatos asociadas con el tipo de recurso especificado en `assetType`. |
 
