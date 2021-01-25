@@ -7,10 +7,10 @@ title: getComponent
 topic: Dynamic media
 uuid: 4e5b79b5-4a2b-427a-b527-81247a6b740d
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '295'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +25,7 @@ Devuelve una referencia al componente SDK de visor que utiliza el visor. La pág
 
 ## Parámetros {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-` *`componentID`*` :  `{String}` ID del componente SDK de visor que utiliza el visor. Este visor admite los siguientes ID de componente:
+`*`componentID`*` :  `{String}` ID del componente SDK de visor que utiliza el visor. Este visor admite los siguientes ID de componente:
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
