@@ -4,12 +4,12 @@ seo-description: Los archivos de conjunto de reglas son archivos de texto con fo
 seo-title: Archivos de conjunto de reglas
 solution: Experience Manager
 title: Archivos de conjunto de reglas
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c0c7ec7b-547b-4007-864b-bf551f041aff
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
