@@ -4,10 +4,10 @@ seo-description: Historial de publicación de un recurso.
 seo-title: PublishHistory
 solution: Experience Manager
 title: PublishHistory
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 842eafd8-dc41-4df0-96b0-de14357ac495
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 10%
@@ -25,8 +25,8 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| ` *`serverName`*` | `xsd:string` | Nombre del servidor propietario del historial de publicación. |
-| ` *`contextName`*` | `xsd:string` | Nombre de contexto del historial de publicación. |
-| ` *`publishFormat`*` | `xsd:string` | Formato de publicación. |
-| ` *`lastPublished`*` | `xsd:dateTime` | Fecha y hora de la última publicación del recurso. |
+| `*`serverName`*` | `xsd:string` | Nombre del servidor propietario del historial de publicación. |
+| `*`contextName`*` | `xsd:string` | Nombre de contexto del historial de publicación. |
+| `*`publishFormat`*` | `xsd:string` | Formato de publicación. |
+| `*`lastPublished`*` | `xsd:dateTime` | Fecha y hora de la última publicación del recurso. |
 
