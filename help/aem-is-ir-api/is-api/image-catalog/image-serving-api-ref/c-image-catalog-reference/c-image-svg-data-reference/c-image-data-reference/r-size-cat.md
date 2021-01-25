@@ -4,10 +4,10 @@ seo-description: Tamaño de imagen. Tamaño de píxel de la imagen de resolució
 seo-title: Tamaño
 solution: Experience Manager
 title: Tamaño
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6fe2aeb6-0dd7-4631-955f-ad74d11b613d
 translation-type: tm+mt
-source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 11%
