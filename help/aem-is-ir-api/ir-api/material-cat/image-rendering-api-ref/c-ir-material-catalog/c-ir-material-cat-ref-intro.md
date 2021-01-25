@@ -1,29 +1,29 @@
 ---
-description: Este documento describe el catálogo de materiales para el procesamiento de imágenes de Scene7.
-seo-description: Este documento describe el catálogo de materiales para el procesamiento de imágenes de Scene7.
+description: Este documento describe el catálogo de materiales para el procesamiento de imágenes de Dynamic Media.
+seo-description: Este documento describe el catálogo de materiales para el procesamiento de imágenes de Dynamic Media.
 seo-title: Introducción
 solution: Experience Manager
 title: Introducción
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 38da0561-7730-4170-bf29-02de325b3ad9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '340'
+ht-degree: 1%
 
 ---
 
 
 # Introducción{#introduction}
 
-Este documento describe el catálogo de materiales para el procesamiento de imágenes de Scene7.
+Este documento describe el catálogo de materiales para el procesamiento de imágenes de Dynamic Media.
 
 **Audiencia prevista**
 
-Este documento está dirigido a programadores y desarrolladores de sitios web experimentados que deseen aprovechar el procesamiento de imágenes de Scene7 para un sitio web o una aplicación personalizada.
+Este documento está dirigido a programadores y desarrolladores de sitios web experimentados que deseen aprovechar el procesamiento de imágenes de Dynamic Media para un sitio web o una aplicación personalizada.
 
-Se supone que el lector está familiarizado con la creación de imágenes y el procesamiento de imágenes de Scene7, las normas y convenciones generales del protocolo HTTP y la terminología básica de imágenes.
+Se supone que el lector está familiarizado con la creación de imágenes y el procesamiento de imágenes de Dynamic Media, las normas y convenciones generales del protocolo HTTP y la terminología básica de imágenes.
 
 **Convenciones de documento**
 
