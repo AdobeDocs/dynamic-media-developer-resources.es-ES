@@ -4,13 +4,13 @@ seo-description: Utilizado por ViewerPresetInfo.
 seo-title: Tipo de visor
 solution: Experience Manager
 title: Tipo de visor
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 95b438db-35a8-45cf-8ec0-4a85e8b869c5
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '17'
+ht-degree: 47%
 
 ---
 
