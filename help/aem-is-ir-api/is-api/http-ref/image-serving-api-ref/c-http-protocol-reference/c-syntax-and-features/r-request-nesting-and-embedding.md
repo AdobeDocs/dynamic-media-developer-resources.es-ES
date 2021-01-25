@@ -4,12 +4,12 @@ seo-description: El servicio de imágenes admite la anidación ilimitada de soli
 seo-title: Anidado e incrustación de solicitudes
 solution: Experience Manager
 title: Anidado e incrustación de solicitudes
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 59031329-e65f-4631-bc7d-83f2540cc836
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1081'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ El resultado de la imagen de una solicitud IS anidada se puede almacenar en cach
 
 ## Solicitudes de procesamiento de imágenes incrustadas {#section-69c5548db930412b9b90d9b2951a6969}
 
-Cuando el procesamiento de imágenes de Scene7 está activado en el servidor, las solicitudes de procesamiento se pueden utilizar como fuentes de capas especificándolas en el comando src= (o mask=). Utilice la sintaxis siguiente:
+Cuando el procesamiento de imágenes de Dynamic Media está activado en el servidor, las solicitudes de procesamiento se pueden utilizar como fuentes de capas especificándolas en el comando src= (o mask=). Utilice la sintaxis siguiente:
 
 ` …&src=ir( *[!DNL renderRequest]*)&…`
 
@@ -92,7 +92,7 @@ El token `fxg` distingue entre mayúsculas y minúsculas.
 
 >[!NOTE]
 >
->El procesamiento de gráficos FXG solo está disponible en el entorno alojado de Scene7 y puede requerir licencias adicionales. Póngase en contacto con la asistencia de Scene7 para obtener más información.
+>El procesamiento de gráficos FXG solo está disponible en el entorno alojado de Dynamic Media y puede requerir licencias adicionales. Póngase en contacto con el servicio de asistencia técnica de Dynamic Media para obtener más información.
 
 *[!DNL renderRequest]* es la solicitud de procesamiento FXG habitual, excluyendo la ruta raíz HTTP  ` http:// *[!DNL server]*/agm/render/`.
 
@@ -152,9 +152,9 @@ Con ligeras modificaciones, podemos escalar previamente la imagen de capa 0 y al
 
 `layer=0&src=is(?src=$img$&size=300,300&cache=on)&layer=1&text=$txt$`
 
-**Incrustación de solicitudes para procesamiento de imágenes de Scene7**
+**Incrustación de solicitudes para procesamiento de imágenes de Dynamic Media**
 
-Uso de una plantilla almacenada en [!DNL myCatalog/myTemplate]; genere la imagen para la capa 2 de la plantilla mediante el procesamiento de imágenes de Scene7:
+Uso de una plantilla almacenada en [!DNL myCatalog/myTemplate]; genere la imagen para la capa 2 de la plantilla mediante el procesamiento de imágenes de Dynamic Media:
 
 `http://server/is/image/myCatalog/myTemplate?layer=2&src=ir(myRenderCatalog/myRenderObject?id=myIdValue&sel=group&src=is(myCatalog/myTexture1?res=30)&res=30)&wid=300`
 
