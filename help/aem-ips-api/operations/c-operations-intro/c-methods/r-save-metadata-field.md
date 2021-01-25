@@ -4,13 +4,13 @@ seo-description: Cree o edite un campo de metadatos. Omita el controlador de cam
 seo-title: saveMetadataField
 solution: Experience Manager
 title: saveMetadataField
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: ccd84366-732a-4caf-914d-3bc5fe499e7a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '235'
+ht-degree: 15%
 
 ---
 
@@ -99,7 +99,7 @@ Cree o edite un campo de metadatos. Omita el controlador de campo opcional para 
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`fieldHandle`*` | `xsd:string` | Sí | Control del nuevo campo de metadatos. |
+| `*`fieldHandle`*` | `xsd:string` | Sí | Control del nuevo campo de metadatos. |
 
 ## Ejemplos {#section-4441c26d1f41466ba972b43dd5189e89}
 
