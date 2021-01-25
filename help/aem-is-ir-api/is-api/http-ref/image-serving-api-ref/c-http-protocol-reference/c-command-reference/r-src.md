@@ -4,13 +4,13 @@ seo-description: Imagen de capa.
 seo-title: src
 solution: Experience Manager
 title: src
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b4396848-b992-4371-a8ae-4ff1781ae1be
 translation-type: tm+mt
-source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '194'
+ht-degree: 3%
 
 ---
 
@@ -43,10 +43,6 @@ Consulte [objeto](../../../../../is-api/http-ref/image-serving-api-ref/c-http-pr
 Las solicitudes anidadas o incrustadas se encierran entre llaves. Prefijo una solicitud de servicio de imágenes incrustada con `is`, una solicitud de procesamiento de imágenes incrustada con `ir` y una solicitud de procesamiento de gráficos FXG con `fxg`. Se asume una solicitud a un servidor externo si no se especifica ningún prefijo.
 
 Consulte [Anidación e incrustación de solicitudes](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b).
-
->[!NOTE]
->
->El procesamiento de gráficos FXG solo está disponible en el entorno alojado de Scene7 y puede requerir licencias adicionales. Póngase en contacto con la asistencia de Scene7 para obtener más información.
 
 ## Propiedades {#section-2c22bb89a35d470f833df8ba898efd93}
 
