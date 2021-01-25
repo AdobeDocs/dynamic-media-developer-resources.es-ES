@@ -4,10 +4,10 @@ seo-description: Define el destinatario de zoom asociado a una imagen de recurso
 seo-title: setZoomTargets
 solution: Experience Manager
 title: setZoomTargets
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 5d0aecec-ebd8-4c69-9514-c29fae347ee6
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 12%
@@ -36,15 +36,15 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sí | Identificador de compañía. |
-| ` *`assetHandle`*` | `xsd:string` | Sí | Recurso con el destinatario de zoom que desea establecer. |
-| ` *`zoomTargetArray`*` | `types:ZoomTargetDefinitionArray` | Sí | Matriz de definiciones de destinatario de zoom. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de compañía. |
+| `*`assetHandle`*` | `xsd:string` | Sí | Recurso con el destinatario de zoom que desea establecer. |
+| `*`zoomTargetArray`*` | `types:ZoomTargetDefinitionArray` | Sí | Matriz de definiciones de destinatario de zoom. |
 
 **Salida (setZoomTargetsReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`zoomTargetHandleArray`*` | `types:HandleArray` | Sí | Conjunto de controladores para los destinatarios de zoom creados por esta operación. |
+| `*`zoomTargetHandleArray`*` | `types:HandleArray` | Sí | Conjunto de controladores para los destinatarios de zoom creados por esta operación. |
 
 ## Ejemplos {#section-a2f14c7a1499443e96d099ea8a76c182}
 
