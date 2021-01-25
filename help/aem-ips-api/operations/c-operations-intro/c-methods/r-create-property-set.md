@@ -4,13 +4,13 @@ seo-description: Los conjuntos de propiedades son conjuntos de pares nombre-valo
 seo-title: createPropertySet
 solution: Experience Manager
 title: createPropertySet
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: f0b5b951-143f-4a31-bb6b-cdeabdebbcbb
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '276'
+ht-degree: 6%
 
 ---
 
@@ -34,17 +34,17 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`typeHandle`*` | `xsd:string` | Sí | El identificador del tipo de conjunto de propiedades. |
-| ` *`PrimaryOwnerHandle`*` | `xsd:string` | Sí | Identificador del propietario principal del conjunto de propiedades. |
-| ` *`secondaryOwnerHandle`*` | `xsd:string` | No | Identificador del propietario secundario del conjunto de propiedades. |
-| ` *`propertyArray`*` | `types:PropertyArray` | Sí | Matriz de propiedades. |
-| ` *`permissionArray`*` | `types:PermissionUpdateArray` |  |  |
+| `*`typeHandle`*` | `xsd:string` | Sí | El identificador del tipo de conjunto de propiedades. |
+| `*`PrimaryOwnerHandle`*` | `xsd:string` | Sí | Identificador del propietario principal del conjunto de propiedades. |
+| `*`secondaryOwnerHandle`*` | `xsd:string` | No | Identificador del propietario secundario del conjunto de propiedades. |
+| `*`propertyArray`*` | `types:PropertyArray` | Sí | Matriz de propiedades. |
+| `*`permissionArray`*` | `types:PermissionUpdateArray` |  |  |
 
 **Output (createPropertySetParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`setHandle`*` | `xsd:string` | Sí | El identificador del nuevo conjunto de propiedades. |
+| `*`setHandle`*` | `xsd:string` | Sí | El identificador del nuevo conjunto de propiedades. |
 
 ## Ejemplos {#section-4e1f5b2883664bc88f590fcd253df22b}
 
