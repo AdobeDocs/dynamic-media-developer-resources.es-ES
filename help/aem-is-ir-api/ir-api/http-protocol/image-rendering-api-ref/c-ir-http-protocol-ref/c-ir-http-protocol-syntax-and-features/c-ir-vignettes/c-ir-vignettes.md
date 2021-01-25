@@ -1,15 +1,12 @@
 ---
-description: Las viñetas son imágenes creadas con la creación de imágenes de Scene7 para su uso con la representación de imágenes.
-seo-description: Las viñetas son imágenes creadas con la creación de imágenes de Scene7 para su uso con la representación de imágenes.
-seo-title: Viñetas
+description: Las viñetas son imágenes creadas con la creación de imágenes de Dynamic Media para su uso con la representación de imágenes.
 solution: Experience Manager
 title: Viñetas
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 31d6b2b7-57c4-4fef-a498-c357c3724356
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7721cccf3f779f258adcdcf886f7e01111e92be0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 0%
 
 # Viñetas{#vignettes}
 
-Las viñetas son imágenes creadas con la creación de imágenes de Scene7 para su uso con la representación de imágenes.
+Las viñetas son imágenes creadas con la creación de imágenes de Dynamic Media para su uso con la representación de imágenes.
 
 IR admite dos tipos básicos de viñetas: *2D* y *3D*. Las escenas de las habitaciones suelen ser viñetas 3D que pueden representar reflejos, mientras que la mayoría de las demás escenas, como ropa o tapicería, son normalmente viñetas 2D que no tienen capacidad de representación de reflejo.
 
