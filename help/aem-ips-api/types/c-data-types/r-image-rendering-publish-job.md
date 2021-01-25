@@ -4,13 +4,13 @@ seo-description: Publica archivos en los servidores de procesamiento de imágene
 seo-title: ImageRenderingPublishJob
 solution: Experience Manager
 title: ImageRenderingPublishJob
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 46dd5df4-2d20-444a-b5c3-200a74509798
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '47'
+ht-degree: 10%
 
 ---
 
@@ -25,7 +25,7 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| ` *`emailSetting`*` | `xsd:string` | Opción de configuración de correo electrónico. |
-| ` *`httpCompletionUrl`*` | `xsd:string` | URL para enviar un aviso de finalización. |
-| ` *`contextHandle`*` | `xsd:string` | Gestionar en el contexto de publicación. |
+| `*`emailSetting`*` | `xsd:string` | Opción de configuración de correo electrónico. |
+| `*`httpCompletionUrl`*` | `xsd:string` | URL para enviar un aviso de finalización. |
+| `*`contextHandle`*` | `xsd:string` | Gestionar en el contexto de publicación. |
 
