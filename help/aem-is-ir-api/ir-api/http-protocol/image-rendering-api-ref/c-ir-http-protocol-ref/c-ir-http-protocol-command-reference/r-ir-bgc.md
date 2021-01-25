@@ -4,12 +4,12 @@ seo-description: Color de fondo. Especifica el color sustractivo de las texturas
 seo-title: bgc
 solution: Experience Manager
 title: bgc
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 551a0da8-dd1f-484a-bf7e-f4896370340a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '169'
 ht-degree: 7%
 
 ---
@@ -30,7 +30,7 @@ Color de fondo. Especifica el color sustractivo de las texturas y calcomanías c
 
 El algoritmo de colorización de textura del procesamiento de imágenes es bastante sencillo: los valores de los componentes `bgc=` se restan de los píxeles de textura, `color=` se agrega y, finalmente, el resultado se recorta a `0,0,0` y `255,255,255`.
 
-Para usos típicos de la colorización de texturas, el valor de `bgc=` puede ser el color más importante o dominante de la imagen de textura. La creación de imágenes de Scene7 proporciona herramientas semiautomáticas que extraen valores de color razonables `bgc=` de las imágenes de texturas.
+Para usos típicos de la colorización de texturas, el valor de `bgc=` puede ser el color más importante o dominante de la imagen de textura. La creación de imágenes de Dynamic Media proporciona herramientas semiautomáticas que extraen valores de color razonables `bgc=` de las imágenes de texturas.
 
 Cuando se aplica un material de textura a un objeto de viñeta no texturable, `bgc=` se aplica como color de primer plano si no se especifica `color=`.
 
