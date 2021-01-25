@@ -2,12 +2,12 @@
 description: Ruta
 solution: Experience Manager
 title: Ruta
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d1ed8a98-60eb-4bdb-884e-ea08c018d834
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '129'
 ht-degree: 6%
 
 ---
@@ -25,7 +25,7 @@ Cadena de texto. Necesario para los registros de imagen y SVG, puede estar vací
 
 Consulte la descripción de la utilidad Image Converter (IC) para obtener una lista completa de los formatos de archivo de imagen admitidos.
 
-Las aplicaciones que requieren datos de imagen en varias resoluciones diferentes funcionarán mejor al utilizar el formato de varias resoluciones TIFF (PTIFF) piramidal de Scene7. La utilidad IC se utiliza para crear imágenes PTIFF a partir de cualquier formato de imagen admitido.
+Las aplicaciones que requieren datos de imagen en varias resoluciones diferentes funcionarán mejor al utilizar el formato de varias resoluciones TIFF (PTIFF) piramidal de Dynamic Media. La utilidad IC se utiliza para crear imágenes PTIFF a partir de cualquier formato de imagen admitido.
 
 ## Predeterminado {#section-82dad83ec3f84ae8bf2f850b4139f63e}
 
