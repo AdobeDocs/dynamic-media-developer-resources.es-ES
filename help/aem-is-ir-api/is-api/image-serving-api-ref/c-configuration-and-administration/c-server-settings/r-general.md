@@ -4,12 +4,12 @@ seo-description: Configuración general del servidor
 seo-title: General
 solution: Experience Manager
 title: General
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d7ec3dba-64b8-431b-b446-84ab6139ba8a
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '231'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ Configuración general del servidor
 
 ## TC::PsPort - Puerto de escucha principal {#section-d31d3051aa994a76b60b70c3d9f7e89f}
 
-Especifica el puerto de escucha principal para el servidor de plataforma. Este puerto también se utiliza para acceder a la documentación y a las páginas de ejemplo para el servicio de imágenes, el procesamiento de imágenes y los visores de Scene7 (si están instalados).
+Especifica el puerto de escucha principal para el servidor de plataforma. Este puerto también se utiliza para acceder a la documentación y a las páginas de ejemplo para el servicio de imágenes, el procesamiento de imágenes y los visores de Dynamic Media (si están instalados).
 
 ## IS::CacheServerUrl - Dirección Url Raíz Del Servicio De Almacenamiento En Caché {#section-bcca227a1f91453b834db4ea050968e2}
 
