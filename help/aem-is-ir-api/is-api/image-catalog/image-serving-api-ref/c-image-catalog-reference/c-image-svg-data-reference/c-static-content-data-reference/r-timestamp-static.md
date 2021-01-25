@@ -2,10 +2,10 @@
 description: TimeStamp
 solution: Experience Manager
 title: TimeStamp
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: fd60e5db-9219-41a8-947f-0d497b39e727
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 2%
@@ -33,7 +33,7 @@ Valor de fecha y hora en formato Java. Puede ser el número entero de milisegund
 
 *`offset`* es un huso horario compensado en horas o  `hours:minutes`, en relación con GMT. Por ejemplo, &#39;PDT&#39; equivale a &#39;GMT -7&#39;.
 
-Deben estar presentes todos los elementos de los valores de fecha y hora con formato de cadena. Si el valor de fecha y hora no tiene el formato correcto, se ignora y se utiliza la hora de modificación del archivo ` *`catálogo`*.ini` en su lugar.
+Deben estar presentes todos los elementos de los valores de fecha y hora con formato de cadena. Si el valor de fecha y hora no tiene el formato correcto, se ignora y se utiliza la hora de modificación del archivo `*`catálogo`*.ini` en su lugar.
 
 ## Predeterminado {#section-0cbf801401ff4857bdda168fd12358af}
 
