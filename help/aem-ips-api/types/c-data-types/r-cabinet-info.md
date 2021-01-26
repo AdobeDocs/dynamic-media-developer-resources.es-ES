@@ -4,13 +4,13 @@ seo-description: Propiedades de un recurso de archivador.
 seo-title: InformaciónDeGabinete
 solution: Experience Manager
 title: InformaciónDeGabinete
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 5193f1e1-90d8-4c9a-b50d-a47a8b859992
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '65'
+ht-degree: 7%
 
 ---
 
@@ -25,11 +25,11 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| ` *`originalPath`*` | `xsd:string` | Ruta relativa al gabinete original. |
-| ` *`originalFile`*` | `xsd:string` | Nombre del archivador. |
-| ` *`fileSize`*` | `xsd:int` | Tamaño del archivador. |
-| ` *`imagePath`*` | `xsd:string` | Ruta relativa al archivador asociado a la viñeta. |
-| ` *`imageFile`*` | `xsd:string` | Nombre de archivo del archivador asociado a la viñeta. |
-| ` *`optimizedPath`*` | `xsd:string` | Ruta al archivador optimizado para IPS. |
-| ` *`optimizedFile`*` | `xsd:string` | Archivo .CAB optimizado para IPS. |
+| `*`originalPath`*` | `xsd:string` | Ruta relativa al gabinete original. |
+| `*`originalFile`*` | `xsd:string` | Nombre del archivador. |
+| `*`fileSize`*` | `xsd:int` | Tamaño del archivador. |
+| `*`imagePath`*` | `xsd:string` | Ruta relativa al archivador asociado a la viñeta. |
+| `*`imageFile`*` | `xsd:string` | Nombre de archivo del archivador asociado a la viñeta. |
+| `*`optimizedPath`*` | `xsd:string` | Ruta al archivador optimizado para IPS. |
+| `*`optimizedFile`*` | `xsd:string` | Archivo .CAB optimizado para IPS. |
 
