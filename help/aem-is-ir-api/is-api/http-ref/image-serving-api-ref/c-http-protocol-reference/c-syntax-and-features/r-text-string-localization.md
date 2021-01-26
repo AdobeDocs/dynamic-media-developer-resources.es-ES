@@ -4,10 +4,10 @@ seo-description: La localización de cadenas de texto permite que los catálogos
 seo-title: Localización de cadena de texto
 solution: Experience Manager
 title: Localización de cadena de texto
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: bdff2403-e3bb-4b3f-a8d7-bb108c1fbee8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 3%
@@ -124,7 +124,7 @@ El mapa de traducción de ejemplo especifica que en tal caso se debe devolver *`
 
 Se pueden asociar varios valores *`locId`* con cada *`locale`* en el mapa de traducción. Esto permite soportar variaciones específicas del país o de la región (por ejemplo, inglés de EE. UU. o inglés de Reino Unido) para seleccionar *`stringElements`* mientras se controla la mayoría de los contenidos con configuraciones regionales de base comunes (por ejemplo, inglés internacional).
 
-Para nuestro ejemplo, queremos agregar compatibilidad con inglés específico de EE. UU. ( ` *`locId`* EUS`) e inglés específico del Reino Unido ( ` *`locId`* EUK`), para admitir la ortografía alternativa ocasional. Si no existiera EUK o EUS, volveríamos a E. Del mismo modo, las variantes alemanas específicas de Austria ( `DAT`) podrían estar disponibles cuando fuera necesario, mientras que se devolvía el alemán común *`localizedStrings`* (marcado con `D`) la mayor parte del tiempo.
+Para nuestro ejemplo, queremos agregar compatibilidad con inglés específico de EE. UU. ( `*`locId`* EUS`) e inglés específico del Reino Unido ( `*`locId`* EUK`), para admitir la ortografía alternativa ocasional. Si no existiera EUK o EUS, volveríamos a E. Del mismo modo, las variantes alemanas específicas de Austria ( `DAT`) podrían estar disponibles cuando fuera necesario, mientras que se devolvía el alemán común *`localizedStrings`* (marcado con `D`) la mayor parte del tiempo.
 
 `attribute::LocaleStrMap` tendría este aspecto:
 
