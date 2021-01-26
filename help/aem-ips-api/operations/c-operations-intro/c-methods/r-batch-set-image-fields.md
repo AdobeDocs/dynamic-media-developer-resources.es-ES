@@ -4,13 +4,13 @@ seo-description: Define los campos específicos de la imagen para uno o varios r
 seo-title: batchSetImageFields
 solution: Experience Manager
 title: batchSetImageFields
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e0ad7da4-cb28-4402-8b47-a600916d23b3
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '202'
+ht-degree: 9%
 
 ---
 
@@ -36,18 +36,18 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía que contiene los recursos de imagen. |
-| ` *`updateArray`*` | `types:ImageFieldUpdateArray` | Sí | Se actualiza la matriz de campos de imagen. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía que contiene los recursos de imagen. |
+| `*`updateArray`*` | `types:ImageFieldUpdateArray` | Sí | Se actualiza la matriz de campos de imagen. |
 
 **Output (batchSetImageFields)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Sí | Número de campos de imagen establecidos correctamente. |
-| ` *`warningCount`*` | `xsd:int` | Sí | Número de advertencias generadas cuando la operación intentó establecer los campos de imagen. |
-| ` *`errorCount`*` | `xsd:int` | Sí | Número de errores generados cuando la operación intentó establecer los campos de imagen. |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados a los recursos que generaron advertencias cuando la operación intentó aplicar las actualizaciones. |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | No | Matriz de detalles asociada con los recursos que generaron errores cuando la operación intentó aplicar las actualizaciones. |
+| `*`successCount`*` | `xsd:int` | Sí | Número de campos de imagen establecidos correctamente. |
+| `*`warningCount`*` | `xsd:int` | Sí | Número de advertencias generadas cuando la operación intentó establecer los campos de imagen. |
+| `*`errorCount`*` | `xsd:int` | Sí | Número de errores generados cuando la operación intentó establecer los campos de imagen. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados a los recursos que generaron advertencias cuando la operación intentó aplicar las actualizaciones. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | No | Matriz de detalles asociada con los recursos que generaron errores cuando la operación intentó aplicar las actualizaciones. |
 
 ## Ejemplos {#section-0476e3d6516a4f8bbaac9de983bc6d1e}
 
