@@ -4,10 +4,10 @@ seo-description: Recursos que pertenecen a un conjunto de imágenes.
 seo-title: ImageSetMember
 solution: Experience Manager
 title: ImageSetMember
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: bd013609-aed7-4c85-80f9-16be7fce99a3
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 6%
@@ -25,6 +25,6 @@ El restablecimiento de página significa que un [!DNL eCatalog] debe inicio de u
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| ` *`asset`*` | `type:Asset` | Recursos de la matriz de conjuntos de imágenes. |
-| ` *`pageReset`*` | `xsd:boolean` | Inicio una página nueva. Se omite la configuración y se fuerza el valor a `true` para `eCatalog` y `RenderSet` conjuntos. |
+| `*`asset`*` | `type:Asset` | Recursos de la matriz de conjuntos de imágenes. |
+| `*`pageReset`*` | `xsd:boolean` | Inicio una página nueva. Se omite la configuración y se fuerza el valor a `true` para `eCatalog` y `RenderSet` conjuntos. |
 
