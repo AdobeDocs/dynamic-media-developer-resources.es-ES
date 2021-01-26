@@ -1,15 +1,12 @@
 ---
-description: La biblioteca de imágenes adaptable es un módulo JavaScript que ajusta dinámicamente la calidad de las imágenes servidas desde Scene7 e incorporadas en páginas web adaptables. Además, proporciona una calidad de imagen mejorada en dispositivos con pantallas de alta densidad. La biblioteca también puede procesar los resultados de Smart Crop y Smart Swatch de forma interactiva.
-seo-description: La biblioteca de imágenes adaptable es un módulo JavaScript que ajusta dinámicamente la calidad de las imágenes servidas desde Scene7 e incorporadas en páginas web adaptables. Además, proporciona una calidad de imagen mejorada en dispositivos con pantallas de alta densidad. La biblioteca también puede procesar los resultados de Smart Crop y Smart Swatch de forma interactiva.
-seo-title: Acerca de la biblioteca de imágenes interactivas
+description: La biblioteca de imágenes adaptable es un módulo JavaScript que ajusta dinámicamente la calidad de las imágenes servidas desde Dynamic Media e incorporadas en páginas web adaptables. Además, proporciona una calidad de imagen mejorada en dispositivos con pantallas de alta densidad. La biblioteca también puede procesar los resultados de Smart Crop y Smart Swatch de forma interactiva.
 solution: Experience Manager
 title: Acerca de la biblioteca de imágenes interactivas
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 0906a940-59ff-45b0-b509-57bd02f2da57
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '917'
 ht-degree: 0%
 
 ---
@@ -17,11 +14,11 @@ ht-degree: 0%
 
 # Acerca de la biblioteca de imágenes interactivas{#about-responsive-image-library}
 
-La biblioteca de imágenes adaptable es un módulo JavaScript que ajusta dinámicamente la calidad de las imágenes servidas desde Scene7 e incorporadas en páginas web adaptables. Además, proporciona una calidad de imagen mejorada en dispositivos con pantallas de alta densidad. La biblioteca también puede procesar los resultados de Smart Crop y Smart Swatch de forma interactiva.
+La biblioteca de imágenes adaptable es un módulo JavaScript que ajusta dinámicamente la calidad de las imágenes servidas desde Dynamic Media e incorporadas en páginas web adaptables. Además, proporciona una calidad de imagen mejorada en dispositivos con pantallas de alta densidad. La biblioteca también puede procesar los resultados de Smart Crop y Smart Swatch de forma interactiva.
 
 ## Direcciones URL de demostración {#section-4f72c1dc38bf4e03acfa5205733a05a5}
 
-El caso de uso más sencillo de la biblioteca de imágenes interactivas es definir una lista de los valores de los puntos de interrupción para la anchura de la imagen. Esta lista garantiza que la representación adecuada se cargue y muestre cuando se cambia el tamaño de una imagen debido a que el diseño de la página web cambia de un usuario que cambia el tamaño de la ventana del navegador o la orientación del dispositivo. La biblioteca monitorea continuamente el tamaño de la imagen en pantalla y cada vez que se alcanza un nuevo ancho de punto de interrupción, obtiene una nueva representación de imagen de Scene7.
+El caso de uso más sencillo de la biblioteca de imágenes interactivas es definir una lista de los valores de los puntos de interrupción para la anchura de la imagen. Esta lista garantiza que la representación adecuada se cargue y muestre cuando se cambia el tamaño de una imagen debido a que el diseño de la página web cambia de un usuario que cambia el tamaño de la ventana del navegador o la orientación del dispositivo. La biblioteca monitorea continuamente el tamaño de la imagen en pantalla y cada vez que se alcanza un nuevo ancho de punto de interrupción, obtiene una nueva representación de imagen de Dynamic Media.
 
 <table id="table_3D3D3991B802461A888E1093C1217D26"> 
  <thead> 
@@ -42,7 +39,7 @@ El caso de uso más sencillo de la biblioteca de imágenes interactivas es defin
    <td colname="col01"> <p>2 </p> </td> 
    <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/responsive-static-image-bootstrap.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/responsive-static-image-bootstrap.html  </a> </p> <p> 
      <!-- http://sasha.s7qa.com/jira-bugs/S7-7729/responsive-static-image-bootstrap.htm--> </p> </td> 
-   <td colname="col2"> <p>El siguiente ejemplo de Bootstrap ilustra el mismo caso de uso en una página web. Según CSS Bootstrap, la celda de diseño a la que se agrega la imagen adaptable puede tener una de las siguientes anchuras: 360, 720 y 940 píxeles. Estos son los valores exactos que se pasan como puntos de interrupción a la biblioteca de imágenes interactivas. Como tal, Scene7 garantiza que el ancho de banda de red del cliente se utilice de manera eficaz. Además, garantiza que la imagen se muestre con el tamaño exacto necesario, dado el diseño de la página web actual, sin que ningún artefacto visual pueda cambiar la escala del navegador del cliente. </p> <p>Haga clic en la dirección URL para abrir la página web, cambie el tamaño de la ventana del explorador para que se acerque a diferentes puntos de interrupción del diseño y supervise el tráfico de red. </p> <p>Entre los casos de uso más avanzados se incluyen la asociación de diferentes ajustes preestablecidos de imagen, comandos de servicio de imágenes o ambos, con diferentes valores de punto de interrupción. </p> </td> 
+   <td colname="col2"> <p>El siguiente ejemplo de Bootstrap ilustra el mismo caso de uso en una página web. Según CSS Bootstrap, la celda de diseño a la que se agrega la imagen adaptable puede tener una de las siguientes anchuras: 360, 720 y 940 píxeles. Estos son los valores exactos que se pasan como puntos de interrupción a la biblioteca de imágenes interactivas. Como tal, Dynamic Media garantiza que el ancho de banda de red del cliente se utilice de manera eficaz. Además, garantiza que la imagen se muestre con el tamaño exacto necesario, dado el diseño de la página web actual, sin que ningún artefacto visual pueda cambiar la escala del navegador del cliente. </p> <p>Haga clic en la dirección URL para abrir la página web, cambie el tamaño de la ventana del explorador para que se acerque a diferentes puntos de interrupción del diseño y supervise el tráfico de red. </p> <p>Entre los casos de uso más avanzados se incluyen la asociación de diferentes ajustes preestablecidos de imagen, comandos de servicio de imágenes o ambos, con diferentes valores de punto de interrupción. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 
@@ -69,7 +66,7 @@ El caso de uso más sencillo de la biblioteca de imágenes interactivas es defin
 
 **Hardware y software del servidor**
 
-* Scene7 Image Serving 6.0.1 o posterior.
+* Dynamic Media Image Serving 6.0.1 o posterior.
 
 **Requisitos mínimos del explorador del cliente**
 
