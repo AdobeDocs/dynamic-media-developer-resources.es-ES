@@ -4,13 +4,13 @@ seo-description: Obtiene los tipos de conjunto de propiedades asociados con la c
 seo-title: getPropertySetTypes
 solution: Experience Manager
 title: getPropertySetTypes
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: b707344d-5571-45eb-9e37-cf0894ee81a0
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '134'
+ht-degree: 12%
 
 ---
 
@@ -60,7 +60,7 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`typeArray`*` | `types:PropertySetTypeArray` | Sí | Matriz de tipos de conjuntos de propiedades asociados con la compañía especificada o los tipos de conjuntos de propiedades globales si no se ha especificado ninguna compañía. |
+| `*`typeArray`*` | `types:PropertySetTypeArray` | Sí | Matriz de tipos de conjuntos de propiedades asociados con la compañía especificada o los tipos de conjuntos de propiedades globales si no se ha especificado ninguna compañía. |
 
 ## Ejemplos {#section-280c406a90864409856aee44d4069a52}
 
