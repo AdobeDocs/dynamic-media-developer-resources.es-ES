@@ -1,16 +1,13 @@
 ---
 description: Crea una cuenta de usuario y la agrega a una o varias compañías.
-seo-description: Crea una cuenta de usuario y la agrega a una o varias compañías.
-seo-title: addUser
 solution: Experience Manager
 title: addUser
-topic: Scene7 Image Production System API
-uuid: b8c5ada6-470e-4795-a4f3-20750da709a9
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '176'
+ht-degree: 13%
 
 ---
 
@@ -34,20 +31,20 @@ Al agregar un usuario a varias compañías, especifique dichas compañías media
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`firstName`*` | `xsd:string` | Sí | El nombre del usuario. |
-| ` *`lastName`*` | `xsd:string` | Sí | Apellido del usuario. |
-| ` *`correo electrónico`*` | `xsd:string` | Sí | La dirección de correo electrónico del usuario. |
-| ` *`defaultRole`*` | `xsd:string` | Sí | Define la función de un usuario en cada compañía a la que pertenece. Sin embargo, tenga en cuenta que la función `IpsAdmin` anula otras configuraciones por compañía. |
-| ` *`contraseña`*` | `xsd:string` | Sí | Establece la contraseña del usuario |
-| ` *`passwordExpires`*` | `xsd:dateTime` | No | Establece el período de caducidad de la contraseña. Proporcione el huso horario al pasar la solicitud. Los husos horarios se ajustan a la hora central. |
-| ` *`isvalid`*` | `xsd:boolean` | Sí | Determina si el usuario es válido. |
-| ` *`membershipArray`*` | `xsd:CompanyMembershipUpdateArray` | Sí | Matriz de controladores de compañía. |
+| `*`firstName`*` | `xsd:string` | Sí | El nombre del usuario. |
+| `*`lastName`*` | `xsd:string` | Sí | Apellido del usuario. |
+| `*`correo electrónico`*` | `xsd:string` | Sí | La dirección de correo electrónico del usuario. |
+| `*`defaultRole`*` | `xsd:string` | Sí | Define la función de un usuario en cada compañía a la que pertenece. Sin embargo, tenga en cuenta que la función `IpsAdmin` anula otras configuraciones por compañía. |
+| `*`contraseña`*` | `xsd:string` | Sí | Establece la contraseña del usuario |
+| `*`passwordExpires`*` | `xsd:dateTime` | No | Establece el período de caducidad de la contraseña. Proporcione el huso horario al pasar la solicitud. Los husos horarios se ajustan a la hora central. |
+| `*`isvalid`*` | `xsd:boolean` | Sí | Determina si el usuario es válido. |
+| `*`membershipArray`*` | `xsd:CompanyMembershipUpdateArray` | Sí | Matriz de controladores de compañía. |
 
 **Output (addUserParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | Sí | El identificador del usuario. |
+| `*`userHandle`*` | `xsd:string` | Sí | El identificador del usuario. |
 
 ## Ejemplos {#section-2547cef622734b71919eef849960b5cb}
 
