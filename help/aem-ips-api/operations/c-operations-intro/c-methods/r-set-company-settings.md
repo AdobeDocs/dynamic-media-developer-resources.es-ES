@@ -4,13 +4,13 @@ seo-description: Establece varios valores de configuración específicos de la c
 seo-title: setCompanySettings
 solution: Experience Manager
 title: setCompanySettings
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 5908082f-6743-4444-ba73-757ad4664890
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '157'
+ht-degree: 12%
 
 ---
 
@@ -34,15 +34,15 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sí | Identificador de compañía. |
-| ` *`overwriteMode`*` | `xsd:string` | No | Modo de sobrescritura de recursos. |
-| ` *`keepPublishState`*` | `xsd:boolean` | No | Establezca `true` para conservar el estado de publicación cuando se vuelva a cargar un recurso. |
-| ` *`defaultSourceProfileHandle`*` | `xsd:string` | No | Recurso IccProfile que se utilizará como perfil de color de origen predeterminado. |
-| ` *`defaultDisplayProfileHandle`*` | `xsd:string` | No | Recurso IccProfile que se utilizará como perfil de color de visualización predeterminado. |
-| ` *`iptcExifMappingXsltHandle`*` | `xsd:string` | No | Recurso XSL utilizado para asignar metadatos IPTC y EXIF a campos de metadatos IPS. |
-| ` *`xmpMappingXsltHandle`*` | `xsd:string` | No | Recurso XSL utilizado para asignar metadatos de XMP a campos de metadatos IPS. |
-| ` *`diskSpaceWarningMin`*` | `xsd:int` | No | Espacio mínimo disponible en disco (en KB) antes de enviar un mensaje de advertencia. |
-| ` *`emailTrashCleanupWarning`*` | `xsd:boolean` | No | Establezca `true` para enviar una notificación a los administradores de compañías cada vez que se vacían recursos de la papelera. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de compañía. |
+| `*`overwriteMode`*` | `xsd:string` | No | Modo de sobrescritura de recursos. |
+| `*`keepPublishState`*` | `xsd:boolean` | No | Establezca `true` para conservar el estado de publicación cuando se vuelva a cargar un recurso. |
+| `*`defaultSourceProfileHandle`*` | `xsd:string` | No | Recurso IccProfile que se utilizará como perfil de color de origen predeterminado. |
+| `*`defaultDisplayProfileHandle`*` | `xsd:string` | No | Recurso IccProfile que se utilizará como perfil de color de visualización predeterminado. |
+| `*`iptcExifMappingXsltHandle`*` | `xsd:string` | No | Recurso XSL utilizado para asignar metadatos IPTC y EXIF a campos de metadatos IPS. |
+| `*`xmpMappingXsltHandle`*` | `xsd:string` | No | Recurso XSL utilizado para asignar metadatos de XMP a campos de metadatos IPS. |
+| `*`diskSpaceWarningMin`*` | `xsd:int` | No | Espacio mínimo disponible en disco (en KB) antes de enviar un mensaje de advertencia. |
+| `*`emailTrashCleanupWarning`*` | `xsd:boolean` | No | Establezca `true` para enviar una notificación a los administradores de compañías cada vez que se vacían recursos de la papelera. |
 
 **Salida (setCompanySettingsReturn)**
 
