@@ -4,10 +4,10 @@ seo-description: Control de caché. Permite desactivar de forma selectiva el alm
 seo-title: caché
 solution: Experience Manager
 title: caché
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 08f4e4d0-0f7d-48fe-956c-284af97c902e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 1%
@@ -38,7 +38,7 @@ Control de caché. Permite desactivar de forma selectiva el almacenamiento en ca
  </tr> 
 </table>
 
-Si solo se especifica un valor ` *`cacheControl`*`, se aplica a las cachés de cliente y de servidor.
+Si solo se especifica un valor `*`cacheControl`*`, se aplica a las cachés de cliente y de servidor.
 
 La palabra clave `validate` permite actualizar las entradas de caché después de que los archivos de imagen hayan cambiado, sin tener que esperar a que la entrada de caché caduque automáticamente. Este comando no afecta al almacenamiento en caché del cliente.
 
