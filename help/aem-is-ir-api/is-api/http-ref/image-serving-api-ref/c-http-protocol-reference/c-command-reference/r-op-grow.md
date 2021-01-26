@@ -4,10 +4,10 @@ seo-description: Dilate/erode la imagen. Aplica un dilato morfológico (radio > 
 seo-title: op_Growth
 solution: Experience Manager
 title: op_Growth
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: bc9bf889-f7e1-4a65-b6d6-7e1257ef8c11
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 3%
@@ -28,7 +28,7 @@ Dilate/erode la imagen. Aplica un dilato morfológico (radio > 0) o un erosionad
  </tr> 
 </table>
 
-` *``*` radiusis en píxeles en relación con la imagen compuesta. Si la imagen es de color, cada componente se procesa de forma independiente.
+`*``*` radiusis en píxeles en relación con la imagen compuesta. Si la imagen es de color, cada componente se procesa de forma independiente.
 
 Se utiliza principalmente para modificar el tamaño de los efectos de capa. También es útil para lograr efectos especiales en capas de texto o capas de color sólido con máscaras.
 
