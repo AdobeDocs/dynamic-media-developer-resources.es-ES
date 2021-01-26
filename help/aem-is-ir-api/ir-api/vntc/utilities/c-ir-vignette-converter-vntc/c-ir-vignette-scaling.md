@@ -4,12 +4,12 @@ seo-description: Se admiten cuatro tipos generales de viñetas de producción.
 seo-title: Escala de viñeta
 solution: Experience Manager
 title: Escala de viñeta
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 08c8f826-7dce-4bcb-9323-4892262eb578
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Se admiten cuatro tipos generales de viñetas de producción.
    Se recomienda cuando se conozcan todos los tamaños de imagen de procesamiento deseados. Proporciona una mejor calidad y una representación más rápida que las viñetas de una sola resolución y pirámide, ya que no es necesario ajustar la escala de la imagen después del procesamiento.
 * Pirámide
 
-   Lo mejor para todo tipo de funciones, se recomienda cuando se necesitan varios tamaños de imagen y los tamaños exactos no están predeterminados y cuando se utiliza uno de los visores de zoom Flash de Scene7.
+   Lo mejor para todo tipo de funciones, se recomienda cuando se necesitan varios tamaños de imagen y los tamaños exactos no están predeterminados y cuando se utiliza el visor de zoom de Dynamic Media.
 * Pirámide con una o más resoluciones adicionales
 
    Proporciona una alta calidad para tamaños específicos, al tiempo que proporciona flexibilidad y compatibilidad con el visor de zoom.
