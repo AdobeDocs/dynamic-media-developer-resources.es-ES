@@ -7,9 +7,9 @@ title: Compatibilidad con mapas de imagen
 topic: Dynamic media
 uuid: 22ba8168-b384-4eda-a147-ce8172cfed11
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Al hacer clic en un mapa de imagen, se realiza un intercambio de páginas intern
 
 ` href=target: *`idx`*`
 
-donde ` *`idx`*` es un índice basado en cero del pliego del catálogo.
+donde `*`idx`*` es un índice basado en cero del pliego del catálogo.
 
 A continuación se muestra un ejemplo de un atributo `href` para un mapa de imagen que apunta al pliego 3D en el catálogo electrónico:
 
