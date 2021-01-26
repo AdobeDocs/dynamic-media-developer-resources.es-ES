@@ -4,13 +4,13 @@ seo-description: Devuelve una matriz de nombres de ruta de Photoshop para la ima
 seo-title: getPhotoshopPathNames
 solution: Experience Manager
 title: getPhotoshopPathNames
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: d3f1dea5-393b-498e-963d-37a4e38068a2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '89'
+ht-degree: 17%
 
 ---
 
@@ -37,14 +37,14 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sí | Controle la compañía que contiene la imagen con la que desea trabajar. |
-| ` *`assetHandle`*` | `xsd:string` | Sí | Gestionar el recurso de imagen. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Controle la compañía que contiene la imagen con la que desea trabajar. |
+| `*`assetHandle`*` | `xsd:string` | Sí | Gestionar el recurso de imagen. |
 
 **Salida (getPhotoshopPathNamesReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`pathNameArray`*` | `types:StringArray` | Sí | Matriz de nombres de ruta de Photoshop en una imagen. |
+| `*`pathNameArray`*` | `types:StringArray` | Sí | Matriz de nombres de ruta de Photoshop en una imagen. |
 
 ## Ejemplos {#section-6d316f14b4184d42af4ca3f717b042dd}
 
