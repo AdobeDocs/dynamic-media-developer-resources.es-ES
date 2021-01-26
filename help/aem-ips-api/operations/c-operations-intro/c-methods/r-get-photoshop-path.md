@@ -4,13 +4,13 @@ seo-description: Devuelve las coordenadas del cuadrilateral que rodea la ruta de
 seo-title: getPhotoshopPath
 solution: Experience Manager
 title: getPhotoshopPath
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e3ed4888-18db-40bc-a1db-f44a342d0293
 translation-type: tm+mt
-source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '97'
+ht-degree: 17%
 
 ---
 
@@ -38,15 +38,15 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sí | Controle la compañía con la imagen con la que desea trabajar. |
-| ` *`assetHandle`*` | `xsd:string` | Sí | Gestionar el recurso de imagen. |
-| ` *`pathName`*` | `xsd:string` | Sí | Nombre de la ruta de Photoshop que desea devolver. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Controle la compañía con la imagen con la que desea trabajar. |
+| `*`assetHandle`*` | `xsd:string` | Sí | Gestionar el recurso de imagen. |
+| `*`pathName`*` | `xsd:string` | Sí | Nombre de la ruta de Photoshop que desea devolver. |
 
 **Salida (getPhotoshopPathReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`PerspectivaQuad`*` | `types:PerspectiveQuad` | Sí | Devuelve las coordenadas de la imagen en función de la ruta. Consulte [PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204). |
+| `*`PerspectivaQuad`*` | `types:PerspectiveQuad` | Sí | Devuelve las coordenadas de la imagen en función de la ruta. Consulte [PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204). |
 
 ## Ejemplos {#section-1f0461cbdc184c8d8925336d5279db47}
 
