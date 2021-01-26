@@ -4,13 +4,13 @@ seo-description: Actualiza los valores del diccionario de etiquetas de un campo 
 seo-title: updateTagFieldValues
 solution: Experience Manager
 title: updateTagFieldValues
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 21689469-a0dd-480b-82ba-ebd12956ff8f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '166'
+ht-degree: 15%
 
 ---
 
@@ -66,11 +66,11 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Sí | El número de campos de etiqueta actualizados correctamente. |
-| ` *`warningCount`*` | `xsd:int` | Sí | Número de advertencias generadas cuando la operación intentó actualizar los campos de etiquetas. |
-| ` *`errorCount`*` | `xsd:int` | Sí | Número de errores generados cuando la operación intentó actualizar los campos de etiquetas. |
-| ` *`warningDetailArray`*` | `types:TagValueUpdateFaultArray` | No | Matriz de detalles asociada a los recursos que generaron advertencias cuando la operación intentó actualizar los campos de etiquetas. |
-| ` *`errorDetailArray`*` | `types:TagValueUpdateFaultArray` | No | Matriz de detalles asociada a los recursos que generaron errores cuando la operación intentó actualizar los campos de etiquetas. |
+| `*`successCount`*` | `xsd:int` | Sí | El número de campos de etiqueta actualizados correctamente. |
+| `*`warningCount`*` | `xsd:int` | Sí | Número de advertencias generadas cuando la operación intentó actualizar los campos de etiquetas. |
+| `*`errorCount`*` | `xsd:int` | Sí | Número de errores generados cuando la operación intentó actualizar los campos de etiquetas. |
+| `*`warningDetailArray`*` | `types:TagValueUpdateFaultArray` | No | Matriz de detalles asociada a los recursos que generaron advertencias cuando la operación intentó actualizar los campos de etiquetas. |
+| `*`errorDetailArray`*` | `types:TagValueUpdateFaultArray` | No | Matriz de detalles asociada a los recursos que generaron errores cuando la operación intentó actualizar los campos de etiquetas. |
 
 ## Ejemplos {#section-bb4dcf97044c4675974c9b8d27674001}
 
