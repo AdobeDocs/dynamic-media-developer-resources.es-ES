@@ -4,10 +4,10 @@ seo-description: Quita recursos de un proyecto. No destruye los recursos.
 seo-title: removeProjectAssets
 solution: Experience Manager
 title: removeProjectAssets
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: bae09dc3-4328-4264-8fb2-e4f0c53546eb
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 10%
@@ -35,19 +35,19 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía con los recursos que desea mover. |
-| ` *`projectHandle`*` | `xsd:string` | Sí | Identificador de los recursos de proyecto que desea mover. |
-| ` *`assetHandleArray`*` | `types:HandleArray` | Sí | Matriz de identificadores a los recursos que desea mover. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía con los recursos que desea mover. |
+| `*`projectHandle`*` | `xsd:string` | Sí | Identificador de los recursos de proyecto que desea mover. |
+| `*`assetHandleArray`*` | `types:HandleArray` | Sí | Matriz de identificadores a los recursos que desea mover. |
 
 **Output (removeProjectAssetsReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Sí | Se eliminó correctamente el recuento de recursos. |
-| ` *`warningCount`*` | `xsd:int` | Sí | Número de advertencias generadas cuando la operación intentó quitar recursos del proyecto. |
-| ` *`errorCount`*` | `xsd:int` | Sí | Número de errores generados cuando la operación intentó quitar recursos del proyecto. |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados a los recursos que generaron advertencias cuando la operación intentó quitarlos del proyecto. |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados a los recursos que generaron errores cuando la operación intentó quitarlos del proyecto. |
+| `*`successCount`*` | `xsd:int` | Sí | Se eliminó correctamente el recuento de recursos. |
+| `*`warningCount`*` | `xsd:int` | Sí | Número de advertencias generadas cuando la operación intentó quitar recursos del proyecto. |
+| `*`errorCount`*` | `xsd:int` | Sí | Número de errores generados cuando la operación intentó quitar recursos del proyecto. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados a los recursos que generaron advertencias cuando la operación intentó quitarlos del proyecto. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados a los recursos que generaron errores cuando la operación intentó quitarlos del proyecto. |
 
 ## Ejemplos {#section-13546cf0a98e4e1b91b8b7cd5724ced8}
 
