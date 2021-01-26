@@ -4,13 +4,13 @@ seo-description: El servicio de imágenes proporciona un mecanismo para traducir
 seo-title: Traslación de ID de objeto
 solution: Experience Manager
 title: Traslación de ID de objeto
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8b4c2f44-033a-428a-b505-af389865c70a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '741'
+ht-degree: 9%
 
 ---
 
@@ -35,7 +35,7 @@ Todas las referencias a las entradas de los catálogos de contenido estático, S
 
 `attribute::LocaleMap` define las reglas utilizadas por el servidor para determinar el ID del contenido localizado, dado como entradas el ID de objeto genérico y el  `locale=` valor.
 
-`attribute::LocaleMap` consiste en una lista de  *configuraciones regionales*  de entrada (que coinciden con los valores especificados con  `locale=`), cada una con ninguno o más sufijos de configuración regional de salida ( ` *`locSuffixes`*`).
+`attribute::LocaleMap` consiste en una lista de  *configuraciones regionales*  de entrada (que coinciden con los valores especificados con  `locale=`), cada una con ninguno o más sufijos de configuración regional de salida ( `*`locSuffixes`*`).
 
 Por ejemplo: `attribute::LocaleMap` puede tener este aspecto:
 
