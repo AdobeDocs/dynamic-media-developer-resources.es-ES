@@ -1,15 +1,12 @@
 ---
 description: Existen varios mecanismos para el inicio/parada del servidor de imágenes y del servidor de plataformas en Windows
-seo-description: Existen varios mecanismos para el inicio/parada del servidor de imágenes y del servidor de plataformas en Windows
-seo-title: Inicio o parada en Windows
 solution: Experience Manager
 title: Inicio o parada en Windows
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 79b7690a-cea1-4c5e-99d6-60febf0e85f5
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
@@ -21,6 +18,6 @@ Existen varios mecanismos para el inicio/parada del servidor de imágenes y del 
 
 1. Elija una de las siguientes opciones para inicio o detener el servicio de imágenes:
 
-* El Panel de control de Campaign de servicio de Windows se puede utilizar para inicio, parada, reinicio y verificación del estado del servicio &quot;Scene7 Image Serving&quot;.
-* **[!UICONTROL Menú]** inicio>  **[!UICONTROL Todos los Programas]**>  **[!UICONTROL Scene7]**> Servicio  **[!UICONTROL de imágenes]**>  **[!UICONTROL Control]** Services proporciona comandos para Inicio, detención y reinicio del servicio Scene7 Image Serving.
+* El Panel de control de Campaign de servicio de Windows se puede utilizar para inicio, parada, reinicio y verificación del estado del servicio &quot;Dynamic Media Image Serving&quot;.
+* **[!UICONTROL Menú]** inicio>  **[!UICONTROL Todos los Programas]**>  **[!UICONTROL Dynamic Media (Scene7)]**> Servicio  **[!UICONTROL de imágenes]**>  **[!UICONTROL Control]** Services proporciona comandos para Inicio, detención y reinicio del servicio Dynamic Media Image Serving.
 
