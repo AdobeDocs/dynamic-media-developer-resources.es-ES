@@ -1,15 +1,15 @@
 ---
-description: En esta sección se describe la sintaxis del protocolo HTTP y la presentación para el procesamiento de imágenes de Scene7.
-seo-description: En esta sección se describe la sintaxis del protocolo HTTP y la presentación para el procesamiento de imágenes de Scene7.
+description: En esta sección se describe la sintaxis del protocolo HTTP y la presentación para el procesamiento de imágenes de Dynamic Media.
+seo-description: En esta sección se describe la sintaxis del protocolo HTTP y la presentación para el procesamiento de imágenes de Dynamic Media.
 seo-title: Sintaxis y características del protocolo HTTP
 solution: Experience Manager
 title: Sintaxis y características del protocolo HTTP
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5badae8e-0874-43b1-b019-bd7445e6c2ce
 translation-type: tm+mt
-source-git-commit: 7721cccf3f779f258adcdcf886f7e01111e92be0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '98'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 # Sintaxis y características del protocolo HTTP{#http-protocol-syntax-and-features}
 
-En esta sección se describe la sintaxis del protocolo HTTP y la presentación para el procesamiento de imágenes de Scene7.
+En esta sección se describe la sintaxis del protocolo HTTP y la presentación para el procesamiento de imágenes de Dynamic Media.
 
 * [Sintaxis básica del protocolo HTTP de procesamiento de imágenes](r-ir-basic-syntax.md)
 * [Descripción general del comando del protocolo HTTP de procesamiento de imágenes](c-ir-command-overview/c-ir-command-overview.md)
