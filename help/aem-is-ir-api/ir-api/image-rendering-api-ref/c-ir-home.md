@@ -1,15 +1,15 @@
 ---
-description: La Referencia de la API de procesamiento de imágenes contiene información sobre la configuración y el uso de la API de procesamiento de imágenes de Scene7.
-seo-description: La Referencia de la API de procesamiento de imágenes contiene información sobre la configuración y el uso de la API de procesamiento de imágenes de Scene7.
+description: La Referencia de la API de procesamiento de imágenes contiene información sobre la configuración y el uso de la API de procesamiento de imágenes de Dynamic Media.
+seo-description: La Referencia de la API de procesamiento de imágenes contiene información sobre la configuración y el uso de la API de procesamiento de imágenes de Dynamic Media.
 seo-title: API de procesamiento de imágenes
 solution: Experience Manager
 title: API de procesamiento de imágenes
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 14e283bb-451c-4b6e-bd73-32488dcd93b6
 translation-type: tm+mt
-source-git-commit: deb4b2f722397f269c3f558c1ba9a08d506d4c3a
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '82'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 # API de procesamiento de imágenes{#image-rendering-api}
 
-La Referencia de la API de procesamiento de imágenes contiene información sobre la configuración y el uso de la API de procesamiento de imágenes de Scene7.
+La Referencia de la API de procesamiento de imágenes contiene información sobre la configuración y el uso de la API de procesamiento de imágenes de Dynamic Media.
 
 * [Configuración](c-ir-installation/c-ir-installation.md)
 * [Licencias](c-ir-installation/c-ir-licensing.md)
