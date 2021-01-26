@@ -4,13 +4,13 @@ seo-description: Ruta del archivo de fuente. Ruta y nombre del archivo de fuente
 seo-title: FontPath
 solution: Experience Manager
 title: FontPath
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 199a2acd-2b7f-41a0-88b2-4955a9bc9c63
 translation-type: tm+mt
-source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '67'
+ht-degree: 8%
 
 ---
 
