@@ -4,13 +4,13 @@ seo-description: Devuelve todas las carpetas y subcarpetas, empezando por la rut
 seo-title: getFolders
 solution: Experience Manager
 title: getFolders
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 06e9d745-b711-43e3-8dc6-93da66b981b1
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '256'
+ht-degree: 8%
 
 ---
 
@@ -46,20 +46,20 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sí | El identificador de la compañía. |
-| ` *`accessUserHandle`*` | `xsd:string` | No | Utilizado por los administradores para hacerse pasar por un usuario específico. |
-| ` *`accessGroupHandle`*` | `xsd:string` | No | Filtrar por un grupo específico. |
-| ` *`folderPath`*` | `xsd:string` | No | La carpeta raíz que se va a recuperar y todas las subcarpetas en el nivel de hoja. Si se excluye, se utiliza la raíz de compañía. |
-| ` *`assetTypeArray`*` | `types:StringArray` | No | Devuelve carpetas que solo contienen tipos de recursos especificados. |
-| ` *`responseFieldArray`*` | `types:StringArray` | No | Contiene una lista de campos que desea incluir en la respuesta. |
-| ` *`excludeFieldArray`*` | `types:StringArray` | No | Contiene una lista de los campos que desea excluir de la respuesta. |
+| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la compañía. |
+| `*`accessUserHandle`*` | `xsd:string` | No | Utilizado por los administradores para hacerse pasar por un usuario específico. |
+| `*`accessGroupHandle`*` | `xsd:string` | No | Filtrar por un grupo específico. |
+| `*`folderPath`*` | `xsd:string` | No | La carpeta raíz que se va a recuperar y todas las subcarpetas en el nivel de hoja. Si se excluye, se utiliza la raíz de compañía. |
+| `*`assetTypeArray`*` | `types:StringArray` | No | Devuelve carpetas que solo contienen tipos de recursos especificados. |
+| `*`responseFieldArray`*` | `types:StringArray` | No | Contiene una lista de campos que desea incluir en la respuesta. |
+| `*`excludeFieldArray`*` | `types:StringArray` | No | Contiene una lista de los campos que desea excluir de la respuesta. |
 
 **Salida (getFoldersReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`folderArray`*` | `types:FolderArray` | No | Matriz de carpetas que coincide con los criterios del filtro. La respuesta está limitada a un máximo de 100.000 carpetas. |
-| ` *`permissionsSetArray`*` | `types:PermissionSetArray` |  |  |
+| `*`folderArray`*` | `types:FolderArray` | No | Matriz de carpetas que coincide con los criterios del filtro. La respuesta está limitada a un máximo de 100.000 carpetas. |
+| `*`permissionsSetArray`*` | `types:PermissionSetArray` |  |  |
 
 ## Ejemplos {#section-b5cb06e9fb9945ad898dbdc3692b754e}
 
