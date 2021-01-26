@@ -4,13 +4,13 @@ seo-description: Opciones de archivo PostScript.
 seo-title: PostScriptOptions
 solution: Experience Manager
 title: PostScriptOptions
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 31526bfe-b651-47a8-98c0-2750a3d9cabf
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '71'
+ht-degree: 11%
 
 ---
 
@@ -25,9 +25,9 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| ` *`proceso`*` | `xsd:string` | Opción de proceso PostScript. |
-| ` *`resolution`*` | `xsd:double` | Resolución de archivos. |
-| ` *`Espacio de color`*` | `xsd:string` | Modo de espacio de color PostScript. |
-| ` *`alpha`*` | `xsd:boolean` | Si se va a rasterizar el archivo en una imagen. Si es así, creará un fondo transparente si el archivo original está definido de esta manera. Generalmente se utiliza para crear logotipos superpuestos. |
-| ` *`extractSearchWords`*` | `xsd:boolean` | Si se extraen palabras de búsqueda del archivo PostScript. |
+| `*`proceso`*` | `xsd:string` | Opción de proceso PostScript. |
+| `*`resolution`*` | `xsd:double` | Resolución de archivos. |
+| `*`Espacio de color`*` | `xsd:string` | Modo de espacio de color PostScript. |
+| `*`alpha`*` | `xsd:boolean` | Si se va a rasterizar el archivo en una imagen. Si es así, creará un fondo transparente si el archivo original está definido de esta manera. Generalmente se utiliza para crear logotipos superpuestos. |
+| `*`extractSearchWords`*` | `xsd:boolean` | Si se extraen palabras de búsqueda del archivo PostScript. |
 
