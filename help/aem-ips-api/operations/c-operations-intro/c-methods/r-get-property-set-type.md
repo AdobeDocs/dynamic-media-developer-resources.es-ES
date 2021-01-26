@@ -4,10 +4,10 @@ seo-description: Obtiene un tipo de conjunto de propiedades mediante un identifi
 seo-title: getPropertySetType
 solution: Experience Manager
 title: getPropertySetType
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 203fa949-a81e-455a-a83e-576b6f65e3af
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 9%
@@ -39,8 +39,8 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | No | El identificador de la compañía. Opcional porque un tipo de conjunto de propiedades puede pertenecer a varias compañías. |
-| ` *`name`*` | `xsd:string` | Sí | Nombre del tipo de conjunto de propiedades. |
+| `*`companyHandle`*` | `xsd:string` | No | El identificador de la compañía. Opcional porque un tipo de conjunto de propiedades puede pertenecer a varias compañías. |
+| `*`name`*` | `xsd:string` | Sí | Nombre del tipo de conjunto de propiedades. |
 
 **Output (getPropertySetTypeReturn)**
 
