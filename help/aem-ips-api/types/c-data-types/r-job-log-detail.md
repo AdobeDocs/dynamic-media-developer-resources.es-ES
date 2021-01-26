@@ -4,13 +4,13 @@ seo-description: Información del registro de trabajos.
 seo-title: JobLogDetail
 solution: Experience Manager
 title: JobLogDetail
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: cb1879d7-a554-4ff0-bba0-0758c43f2a99
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '65'
+ht-degree: 7%
 
 ---
 
@@ -25,10 +25,10 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| ` *`logMessage`*` | `xsd:string` | Mensajes en el registro de trabajos. |
-| ` *`logType`*` | `xsd:string` | Tipo de archivo de registro de trabajo. |
-| ` *`assetName`*` | `xsd:string` | Nombre del recurso en el registro de trabajos (opcional). |
-| ` *`assetType`*` | `xsd:string` | Opción del tipo de recurso. |
-| ` *`assetHandle`*` | `xsd:string` | Identificador de recurso al que se hace referencia en el registro de trabajos. |
-| ` *`auxArray`*` | `types:JobLogDetailAuxArray` | Proporciona información adicional detallada del registro de trabajos más allá de los cinco tipos de registro de trabajos descritos anteriormente. |
+| `*`logMessage`*` | `xsd:string` | Mensajes en el registro de trabajos. |
+| `*`logType`*` | `xsd:string` | Tipo de archivo de registro de trabajo. |
+| `*`assetName`*` | `xsd:string` | Nombre del recurso en el registro de trabajos (opcional). |
+| `*`assetType`*` | `xsd:string` | Opción del tipo de recurso. |
+| `*`assetHandle`*` | `xsd:string` | Identificador de recurso al que se hace referencia en el registro de trabajos. |
+| `*`auxArray`*` | `types:JobLogDetailAuxArray` | Proporciona información adicional detallada del registro de trabajos más allá de los cinco tipos de registro de trabajos descritos anteriormente. |
 
