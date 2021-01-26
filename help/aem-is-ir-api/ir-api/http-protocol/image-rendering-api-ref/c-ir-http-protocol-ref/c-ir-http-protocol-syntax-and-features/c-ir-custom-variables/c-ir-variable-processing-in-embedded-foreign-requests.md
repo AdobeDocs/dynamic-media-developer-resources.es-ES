@@ -4,12 +4,12 @@ seo-description: Las referencias $var$ que se producen en cualquier lugar dentro
 seo-title: Procesamiento de variables en solicitudes externas incrustadas
 solution: Experience Manager
 title: Procesamiento de variables en solicitudes externas incrustadas
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b4334a2e-dab1-4458-ab3d-bb79d2c4fdd4
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
