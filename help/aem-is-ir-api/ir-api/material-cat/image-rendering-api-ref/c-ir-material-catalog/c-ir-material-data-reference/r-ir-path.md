@@ -4,13 +4,13 @@ seo-description: Ruta del archivo de imagen. Ruta de acceso relativa y nombre de
 seo-title: Ruta *
 solution: Experience Manager
 title: Ruta *
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9e85a358-3f2f-4b8b-a98f-03de2a1a8a4c
 translation-type: tm+mt
-source-git-commit: 7d3902803d42f5d479dd04ac9470a4088809f3d6
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '223'
+ht-degree: 3%
 
 ---
 
@@ -29,9 +29,9 @@ Cadena de texto. Necesario para los materiales de textura y calado, opcional par
 
 ## Formatos de archivo admitidos {#section-7ef6c9f7c72c4f03ae926d030b6c46d8}
 
-El procesamiento de imágenes admite los mismos formatos de imagen de origen que el servicio de imágenes de Scene7.
+El procesamiento de imágenes admite los mismos formatos de imagen de origen que el servicio de imágenes de Dynamic Media.
 
-Las aplicaciones que requieren datos de imagen en varias resoluciones diferentes funcionarán mejor al utilizar el formato de varias resoluciones TIFF (PTIFF) piramidal de Scene7. El servicio de imágenes incluye la utilidad Image Converter (IC) que crea imágenes PTIFF desde cualquier formato admitido.
+Las aplicaciones que requieren datos de imagen en varias resoluciones diferentes funcionarán mejor al utilizar el formato de varias resoluciones TIFF (PTIFF) piramidal de Dynamic Media. El servicio de imágenes incluye la utilidad Image Converter (IC) que crea imágenes PTIFF desde cualquier formato admitido.
 
 Consulte la descripción de la utilidad IC en la documentación del servicio de imágenes para obtener una lista completa de los formatos de archivo admitidos.
 
