@@ -4,10 +4,10 @@ seo-description: Color y grosor del grueso del mosaico. Simula la roca para bald
 seo-title: grout
 solution: Experience Manager
 title: grout
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 00069004-40f2-4ab6-85d8-ca197b7bef69
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 2%
@@ -41,13 +41,13 @@ Para el máximo control del aspecto del grupo se aplican los siguientes requisit
 
 ## Propiedades {#section-de78b678245b4ffda48097c345949e77}
 
-Atributo Material. ` *`el `*` color debe ser un valor de color RGB. ` *`El `*` ancho debe ser un valor real 0 o mayor.
+Atributo Material. `*`el `*` color debe ser un valor de color RGB. `*`El `*` ancho debe ser un valor real 0 o mayor.
 
 Se omite si la repetición es igual o superior a 4, 5, 7, 8, 9, 14 o superior, o cuando se especifica para materiales que no sean texturas repetibles.
 
 ## Predeterminado {#section-bfab3621f70b4489a21994ab11b20cc6}
 
-Si no se especifica `grout=`, el grupo de la imagen no se modifica. Si se especifica ` grout= *`color`*`, ` *`anchura`*` tiene el valor predeterminado `catalog::GroutWidth`.
+Si no se especifica `grout=`, el grupo de la imagen no se modifica. Si se especifica ` grout= *`color`*`, `*`anchura`*` tiene el valor predeterminado `catalog::GroutWidth`.
 
 ## Véase también {#section-8d472906a44943f5a8557e98f2fbc71f}
 
