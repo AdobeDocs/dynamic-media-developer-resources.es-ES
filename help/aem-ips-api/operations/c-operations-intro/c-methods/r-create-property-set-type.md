@@ -4,13 +4,13 @@ seo-description: Un tipo de conjunto de propiedades especifica varias opciones d
 seo-title: createPropertySetType
 solution: Experience Manager
 title: createPropertySetType
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: ecbaad48-d725-4f7a-a37d-5e4cde3295cb
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '172'
+ht-degree: 11%
 
 ---
 
@@ -34,16 +34,16 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | No | El identificador de la compañía que posee el tipo de conjunto de propiedades. Si `companyHandle` no se pasa y el llamador es `IpsAdmin`, se creará un tipo de conjunto de propiedades globales. |
-| ` *`name`*` | `xsd:string` | Sí | Nombre del tipo de conjunto de propiedades. |
-| ` *`propertyType`*` | `xsd:string` | Sí | Elección de tipos de conjuntos de propiedades. |
-| ` *`allowMultiple`*` | `xsd:boolean` | Sí | Determina si el programa puede tener varios conjuntos de propiedades. |
+| `*`companyHandle`*` | `xsd:string` | No | El identificador de la compañía que posee el tipo de conjunto de propiedades. Si `companyHandle` no se pasa y el llamador es `IpsAdmin`, se creará un tipo de conjunto de propiedades globales. |
+| `*`name`*` | `xsd:string` | Sí | Nombre del tipo de conjunto de propiedades. |
+| `*`propertyType`*` | `xsd:string` | Sí | Elección de tipos de conjuntos de propiedades. |
+| `*`allowMultiple`*` | `xsd:boolean` | Sí | Determina si el programa puede tener varios conjuntos de propiedades. |
 
 **Output (createPropertySetTypeReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`typeHandle`*` | `xsd:string` | Sí | Un identificador para el tipo. |
+| `*`typeHandle`*` | `xsd:string` | Sí | Un identificador para el tipo. |
 
 ## Ejemplos {#section-13396c9639a6475190e622eae3cdb534}
 
