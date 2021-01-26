@@ -1,15 +1,15 @@
 ---
-description: En esta documentación se analizan los problemas de administración del servidor y se describen los ajustes de configuración para el procesamiento de imágenes de Scene7.
-seo-description: En esta documentación se analizan los problemas de administración del servidor y se describen los ajustes de configuración para el procesamiento de imágenes de Scene7.
+description: En esta documentación se analizan los problemas de administración del servidor y se describen los ajustes de configuración para el procesamiento de imágenes de Dynamic Media.
+seo-description: En esta documentación se analizan los problemas de administración del servidor y se describen los ajustes de configuración para el procesamiento de imágenes de Dynamic Media.
 seo-title: Prefacio de administración del servidor
 solution: Experience Manager
 title: Prefacio de administración del servidor
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 182782f1-44a8-421d-bacc-f08dcf95f58b
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 # Prefacio de administración del servidor{#server-administration-preface}
 
-En esta documentación se analizan los problemas de administración del servidor y se describen los ajustes de configuración para el procesamiento de imágenes de Scene7.
+En esta documentación se analizan los problemas de administración del servidor y se describen los ajustes de configuración para el procesamiento de imágenes de Dynamic Media.
 
 **Audiencia prevista**
 
-Esta documentación está destinada a administradores de sistemas y administradores web que necesiten instalar, configurar y administrar el procesamiento de imágenes de Scene7.
+Esta documentación está destinada a administradores de sistemas y administradores web que necesiten instalar, configurar y administrar el procesamiento de imágenes de Dynamic Media.
 
 **Convenciones de documento**
 
