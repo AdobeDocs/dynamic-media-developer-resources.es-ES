@@ -4,12 +4,12 @@ seo-description: El servidor supervisa continuamente la carpeta del catálogo y 
 seo-title: Actualización de catálogos de imágenes
 solution: Experience Manager
 title: Actualización de catálogos de imágenes
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7e2557c4-1155-429b-a630-a2aff6725a3b
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 El servidor supervisa continuamente la carpeta del catálogo y vuelve a cargar automáticamente un catálogo de imágenes, incluidos los archivos de datos del catálogo asociados, cuando detecta que se ha cambiado el archivo de atributos del catálogo principal.
 
-Para actualizar los catálogos de imágenes en el servidor, primero reemplace todos los archivos de datos del catálogo que deban cambiarse y, a continuación, reemplace (o &quot;toque&quot; para actualizar la fecha del archivo) el archivo de atributos del catálogo para activar la recarga del catálogo.
+Para actualizar los catálogos de imágenes en el servidor, primero reemplace todos los archivos de datos del catálogo que deban cambiarse y, a continuación, reemplace (o &quot;toque&quot; para actualizar la fecha del archivo) el archivo de atributos del catálogo para que se déclencheur la recarga del catálogo.
 
 ## Actualizaciones incrementales {#section-2c0f2c1b8480486d86920b5f2cfe72d2}
 
