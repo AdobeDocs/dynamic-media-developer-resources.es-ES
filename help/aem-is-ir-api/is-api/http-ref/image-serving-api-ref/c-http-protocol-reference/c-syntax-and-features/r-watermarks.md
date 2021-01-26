@@ -1,15 +1,12 @@
 ---
 description: El servicio de imágenes implementa una sencilla función visual de marcación de agua.
-seo-description: El servicio de imágenes implementa una sencilla función visual de marcación de agua.
-seo-title: Filigranas
 solution: Experience Manager
 title: Filigranas
-topic: Scene7 Image Serving - Image Rendering API
-uuid: b2bbaa59-dad9-4be3-bb92-142ed44f6d65
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '461'
 ht-degree: 1%
 
 ---
@@ -23,7 +20,7 @@ Una marca de agua suele ser una imagen semitransparente, pero puede ser texto o 
 
 La marca de agua se habilita configurando `attribute::Watermark` en una entrada de catálogo válida que contendría la imagen o plantilla de marca de agua. Si `attribute::Watermark` está establecido en un catálogo con nombre, el servidor agregará la marca de agua a todas las solicitudes de imagen que hagan referencia al ID de catálogo en la dirección URL de la solicitud. Si `default::Watermark` está establecido (en el catálogo predeterminado, [!DNL default.ini]), la marca de agua se aplicará a todas las solicitudes de imagen, independientemente de si hacen referencia a un catálogo o no.
 
-Las marcas de agua no se aplican a las imágenes devueltas en respuesta a solicitudes de miniaturas ( `req=tmb`) y a determinadas solicitudes de los visores de Scene7.
+Las marcas de agua no se aplican a las imágenes devueltas en respuesta a solicitudes de miniaturas ( `req=tmb`) y a determinadas solicitudes de los visores de Dynamic Media.
 
 ## Escala y alineación {#section-89ef9e5926ae438abbd8e70332749b76}
 
