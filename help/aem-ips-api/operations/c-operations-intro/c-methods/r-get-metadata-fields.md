@@ -4,13 +4,13 @@ seo-description: Obtiene los campos de metadatos definidos por el usuario asocia
 seo-title: getMetadataFields
 solution: Experience Manager
 title: getMetadataFields
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: bf891bae-53c8-4e3d-90df-caca9a7e022b
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '105'
+ht-degree: 14%
 
 ---
 
@@ -37,14 +37,14 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sí | El identificador de compañía. |
-| ` *`assetType`*` | `xsd:string` | Sí | Tipos de recursos de los que obtener metadatos. |
+| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de compañía. |
+| `*`assetType`*` | `xsd:string` | Sí | Tipos de recursos de los que obtener metadatos. |
 
 **Salida (getMetadataFieldsParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`Frase de código`*` | `Code Phrase` |  |  |
+| `*`Frase de código`*` | `Code Phrase` |  |  |
 
 ## Ejemplos {#section-dbfde1483d614b5aac2b491cb32115d7}
 
