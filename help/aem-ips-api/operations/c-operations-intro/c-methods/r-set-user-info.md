@@ -4,13 +4,13 @@ seo-description: Establece los atributos del usuario (por ejemplo, nombre, corre
 seo-title: setUserInfo
 solution: Experience Manager
 title: setUserInfo
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 52e3a21e-1dd5-4f9d-b460-506d280fff47
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '116'
+ht-degree: 19%
 
 ---
 
@@ -34,14 +34,14 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | No | Identificador de usuario. |
-| ` *`firstName`*` | `xsd:string` | Sí | Nombre. |
-| ` *`lastName`*` | `xsd:string` | Sí | Apellido. |
-| ` *`correo electrónico`*` | `xsd:string` | Sí | Correo electrónico del usuario. |
-| ` *`defaultRole`*` | `xsd:string` | Sí | Define la función de un usuario en cada compañía a la que pertenece. Sin embargo, tenga en cuenta que la función `IpsAdmin` anula otras configuraciones por compañía. |
-| ` *`passwordExpires`*` | `xsd:dateTime` | No | Fecha de caducidad de la contraseña establecida. |
-| ` *`isvalid`*` | `xsd:boolean` | Sí | Determina si el usuario es un usuario IPS válido. |
-| ` *`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Sí | Matriz de controladores de compañía. |
+| `*`userHandle`*` | `xsd:string` | No | Identificador de usuario. |
+| `*`firstName`*` | `xsd:string` | Sí | Nombre. |
+| `*`lastName`*` | `xsd:string` | Sí | Apellido. |
+| `*`correo electrónico`*` | `xsd:string` | Sí | Correo electrónico del usuario. |
+| `*`defaultRole`*` | `xsd:string` | Sí | Define la función de un usuario en cada compañía a la que pertenece. Sin embargo, tenga en cuenta que la función `IpsAdmin` anula otras configuraciones por compañía. |
+| `*`passwordExpires`*` | `xsd:dateTime` | No | Fecha de caducidad de la contraseña establecida. |
+| `*`isvalid`*` | `xsd:boolean` | Sí | Determina si el usuario es un usuario IPS válido. |
+| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Sí | Matriz de controladores de compañía. |
 
 **Salida (setUserInfoReturn)**
 
