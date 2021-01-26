@@ -1,15 +1,15 @@
 ---
-description: En esta documentación se explica cómo administrar el servidor de procesamiento de imágenes de Scene7.
-seo-description: En esta documentación se explica cómo administrar el servidor de procesamiento de imágenes de Scene7.
+description: En esta documentación se explica cómo administrar el servidor de procesamiento de imágenes de Dynamic Media.
+seo-description: En esta documentación se explica cómo administrar el servidor de procesamiento de imágenes de Dynamic Media.
 seo-title: Información general sobre la administración de servidores
 solution: Experience Manager
 title: Información general sobre la administración de servidores
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 83aa83b7-bb7a-4bbd-923c-dd69763fe9c9
 translation-type: tm+mt
-source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Información general sobre la administración de servidores{#server-administration-overview}
 
-En esta documentación se explica cómo administrar el servidor de procesamiento de imágenes de Scene7.
+En esta documentación se explica cómo administrar el servidor de procesamiento de imágenes de Dynamic Media.
 
 El procesamiento de imágenes consta de dos componentes principales:
 
