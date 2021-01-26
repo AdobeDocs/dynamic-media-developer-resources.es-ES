@@ -4,13 +4,13 @@ seo-description: Cambia el nombre de una carpeta.
 seo-title: RenameFolder
 solution: Experience Manager
 title: RenameFolder
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 7d190a57-1d81-4f41-9205-b8ffdf7330ec
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '79'
+ht-degree: 21%
 
 ---
 
@@ -40,15 +40,15 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sí | Administre la compañía con las carpetas cuyo nombre desee cambiar. |
-| ` *`folderHandle`*` | `xsd:string` | Sí | Gestionar en la carpeta. |
-| ` *`folderName`*` | `xsd:string` | Sí | Nuevo nombre de carpeta. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Administre la compañía con las carpetas cuyo nombre desee cambiar. |
+| `*`folderHandle`*` | `xsd:string` | Sí | Gestionar en la carpeta. |
+| `*`folderName`*` | `xsd:string` | Sí | Nuevo nombre de carpeta. |
 
 **Output (RenameFolderReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`folderHandle`*` | `xsd:string` | Sí | Gestionar en la carpeta cuyo nombre ha cambiado. |
+| `*`folderHandle`*` | `xsd:string` | Sí | Gestionar en la carpeta cuyo nombre ha cambiado. |
 
 ## Ejemplos {#section-98bdd2f88d164f488676e90aba1dc864}
 
