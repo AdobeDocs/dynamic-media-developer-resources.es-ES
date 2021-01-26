@@ -4,13 +4,13 @@ seo-description: Crea un conjunto de imágenes.
 seo-title: createImageSet
 solution: Experience Manager
 title: createImageSet
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 688f3954-bc8f-4687-8d66-e064561cd4a0
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '141'
+ht-degree: 14%
 
 ---
 
@@ -40,17 +40,17 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía a la que pertenece el conjunto de imágenes. |
-| ` *`folderHandle`*` | `xsd:string` | Sí | Identificador de la carpeta. |
-| ` *`name`*` | `xsd:string` | Sí | Nombre del conjunto de imágenes. |
-| ` *`type`*` | `xsd:string` | Sí | Tipo de conjunto de imágenes. |
-| ` *`thumbAssetHandle`*` | `xsd:string` | No | Control del recurso que actúa como miniatura para el nuevo conjunto de imágenes. Si no se especifica, IPS intenta utilizar el primer recurso de imagen al que hace referencia el conjunto. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía a la que pertenece el conjunto de imágenes. |
+| `*`folderHandle`*` | `xsd:string` | Sí | Identificador de la carpeta. |
+| `*`name`*` | `xsd:string` | Sí | Nombre del conjunto de imágenes. |
+| `*`type`*` | `xsd:string` | Sí | Tipo de conjunto de imágenes. |
+| `*`thumbAssetHandle`*` | `xsd:string` | No | Control del recurso que actúa como miniatura para el nuevo conjunto de imágenes. Si no se especifica, IPS intenta utilizar el primer recurso de imagen al que hace referencia el conjunto. |
 
 **Salida**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | Sí | Identificador del nuevo conjunto de imágenes. |
+| `*`assetHandle`*` | `xsd:string` | Sí | Identificador del nuevo conjunto de imágenes. |
 
 ## Ejemplos {#section-385fe3b0af8044b0a2451336ec137fc5}
 
