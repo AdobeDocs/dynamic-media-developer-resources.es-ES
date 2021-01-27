@@ -4,13 +4,13 @@ seo-description: Especifica el formato de imagen que utiliza el componente para 
 seo-title: ZoomView.fmt
 solution: Experience Manager
 title: ZoomView.fmt
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 73a2196f-0ece-497a-9a12-376dafbbae56
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '100'
+ht-degree: 4%
 
 ---
 
