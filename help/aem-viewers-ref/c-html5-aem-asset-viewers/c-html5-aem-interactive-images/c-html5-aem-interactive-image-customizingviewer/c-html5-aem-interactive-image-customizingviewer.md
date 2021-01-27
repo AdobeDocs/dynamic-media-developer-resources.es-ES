@@ -5,12 +5,12 @@ seo-description: Toda la personalización visual y la mayor parte del comportami
 seo-title: Personalización del visor de imágenes interactivo
 solution: Experience Manager
 title: Personalización del visor de imágenes interactivo
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 19868e4e-c2c9-41e0-82a6-20884a9454a4
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1302'
 ht-degree: 0%
 
 ---
