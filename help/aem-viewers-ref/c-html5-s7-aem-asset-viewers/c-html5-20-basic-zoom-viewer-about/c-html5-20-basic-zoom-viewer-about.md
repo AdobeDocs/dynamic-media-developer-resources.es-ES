@@ -8,9 +8,9 @@ title: Zoom básico
 topic: Dynamic Media
 uuid: 5466d647-af70-4503-9898-bb712ba6a007
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2072'
+source-wordcount: '2076'
 ht-degree: 0%
 
 ---
@@ -163,7 +163,7 @@ La ruta relativa tiene el siguiente aspecto:
 
    Puede establecer el tamaño estático del visor declarándolo para la clase CSS de nivel superior `.s7basiczoomviewer` en unidades absolutas o utilizando el modificador `stagesize`.
 
-   Puede colocar el tamaño en CSS directamente en la página HTML o en un archivo CSS de visor personalizado, que posteriormente se asignará a un registro de ajuste preestablecido de visor en SPS, o se pasará explícitamente mediante un comando de estilo.
+   Puede colocar el tamaño en CSS directamente en la página HTML o en un archivo CSS de visor personalizado, que posteriormente se asignará a un registro de ajuste preestablecido de visor en Dynamic Media Classic, o se pasará explícitamente mediante un comando de estilo.
 
    Consulte [Personalización del visor de zoom básico](../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/c-html5-20-basic-zoom-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) para obtener más información sobre cómo aplicar estilo al visor con CSS.
 
@@ -176,7 +176,7 @@ La ruta relativa tiene el siguiente aspecto:
    }
    ```
 
-   Puede establecer el modificador `stagesize` en el registro de ajustes preestablecidos de visor en SPS o pasarlo explícitamente con el código de inicialización del visor con la colección `params`, o como una llamada de API como se describe en la sección Referencia de comandos, como se indica a continuación:
+   Puede establecer el modificador `stagesize` en el registro de ajustes preestablecidos de visor de Dynamic Media Classic o pasarlo explícitamente con el código de inicialización del visor con la colección `params`, o como una llamada de API como se describe en la sección Referencia de comandos, como se indica a continuación:
 
    ```
    basicZoomViewer.setParam("stagesize", "640,480");
