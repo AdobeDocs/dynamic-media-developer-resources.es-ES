@@ -4,13 +4,13 @@ seo-description: La vista principal consiste en la imagen del catálogo. Se pued
 seo-title: Vista de la página
 solution: Experience Manager
 title: Vista de la página
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 5e247f56-f0da-487b-8e03-587b9d36aa39
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '401'
+ht-degree: 4%
 
 ---
 
