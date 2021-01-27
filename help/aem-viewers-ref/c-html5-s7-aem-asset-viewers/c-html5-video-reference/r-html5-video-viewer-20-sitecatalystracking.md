@@ -4,13 +4,13 @@ seo-description: El visor de vídeo admite el seguimiento de Adobe Analytics de 
 seo-title: Compatibilidad con el seguimiento de Adobe Analytics
 solution: Experience Manager
 title: Compatibilidad con el seguimiento de Adobe Analytics
-topic: Dynamic media
+topic: Dynamic Media
 uuid: c53b3d3b-42e5-4c87-8a1e-87c73eb32341
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '166'
+ht-degree: 3%
 
 ---
 
