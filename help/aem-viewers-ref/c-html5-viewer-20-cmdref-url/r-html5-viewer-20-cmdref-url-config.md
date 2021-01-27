@@ -4,13 +4,13 @@ seo-description: Parámetro común a todos los visores.
 seo-title: config
 solution: Experience Manager
 title: config
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 9e9bb580-a33a-4405-b05c-56962d702145
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '258'
+ht-degree: 2%
 
 ---
 
@@ -119,7 +119,7 @@ Esto equivale a los siguientes comandos especificados explícitamente en la dire
 style=etc/dam/presets/css/html5_interactivevideo_dark.css
 ```
 
-## Ejemplo 4 {#section-19b988551d1d492a9079948e0b04b38f}
+## Ejemplo 5 {#section-19b988551d1d492a9079948e0b04b38f}
 
 Un ajuste preestablecido de visor denominado `Carousel_Dotted_light` los datos siguientes:
 
