@@ -4,10 +4,10 @@ seo-description: El visor admite el modo de operación de pantalla completa.
 seo-title: Compatibilidad con pantalla completa
 solution: Experience Manager
 title: Compatibilidad con pantalla completa
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 476cb9b4-9ef0-404a-b857-8f5913c34259
 translation-type: tm+mt
-source-git-commit: b82b8eb6f8ac7c87b0c25d2b3915024ad220fa40
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
