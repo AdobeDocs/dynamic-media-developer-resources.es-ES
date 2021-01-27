@@ -4,10 +4,10 @@ seo-description: Al tocar o hacer clic en este botón, el usuario accede a la p�
 seo-title: Botón de página anterior grande
 solution: Experience Manager
 title: Botón de página anterior grande
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 12e12b82-88f2-4fbf-bbbb-dea027eb6775
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 2%
