@@ -4,10 +4,10 @@ seo-description: Hace que el usuario haga clic en el visor para entrar o salir d
 seo-title: Botón de pantalla completa
 solution: Experience Manager
 title: Botón de pantalla completa
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 58bea34f-357e-4d9b-a22d-7d0f177d8215
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 2%
