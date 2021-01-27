@@ -5,7 +5,7 @@ solution: Experience Manager
 title: Zoom en línea
 topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 0%
@@ -158,7 +158,7 @@ Una ruta relativa tiene el siguiente aspecto:
 
    Este visor muestra miniaturas al trabajar con conjuntos de varios elementos. En los sistemas de escritorio, las miniaturas se colocan debajo de la vista principal. Al mismo tiempo, el visor permite el intercambio del recurso principal durante la ejecución mediante la API `setAsset()`. Como desarrollador, tiene control sobre cómo gestiona el visor el área de miniaturas en el área inferior cuando el nuevo recurso solo tiene un elemento. Es posible mantener intacto el tamaño del visor exterior y permitir que la vista principal aumente su altura y ocupe el área de miniaturas. O bien, puede mantener el tamaño de vista principal estático y contraer el área del visor exterior, permitiendo así que el contenido de la página web se mueva hacia arriba y, a continuación, utilizar el espacio de la página libre que queda en las miniaturas.
 
-   Para mantener intactos los límites exteriores del visor, defina el tamaño de la clase CSS de nivel superior `.s7flyoutviewer` en unidades absolutas. El cambio de tamaño en CSS se puede colocar directamente en la página HTML o en un archivo CSS de visor personalizado, que posteriormente se asigna a un registro de ajuste preestablecido de visor en Scene7 Publishing System, o se pasa explícitamente mediante el comando style.
+   Para mantener intactos los límites exteriores del visor, defina el tamaño de la clase CSS de nivel superior `.s7flyoutviewer` en unidades absolutas. El tamaño en CSS se puede colocar directamente en la página HTML o en un archivo CSS de visor personalizado, que posteriormente se asigna a un registro de ajuste preestablecido de visor en Dynamic Media Classic, o se pasa explícitamente mediante el comando style.
 
    Consulte [Personalización del visor de zoom en línea](../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/c-html5-inlinezoom-viewer-customizingviewer.md#concept-82f8c71adbe54680a0c2f83f81e5f451) para obtener más información sobre cómo aplicar estilo al visor con CSS.
 
