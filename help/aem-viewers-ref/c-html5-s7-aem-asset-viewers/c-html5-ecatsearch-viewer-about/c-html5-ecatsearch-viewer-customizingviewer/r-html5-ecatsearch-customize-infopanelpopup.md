@@ -1,23 +1,20 @@
 ---
-description: La ventana emergente del panel de información se muestra en medio del área del visor cuando un usuario activa un mapa de imagen que tiene una propiedad rollover_key definida en Scene7 Publishing System y si la función del panel de información está correctamente configurada para el visor.
-seo-description: La ventana emergente del panel de información se muestra en medio del área del visor cuando un usuario activa un mapa de imagen que tiene una propiedad rollover_key definida en Scene7 Publishing System y si la función del panel de información está correctamente configurada para el visor.
-seo-title: Ventana emergente del panel Información
+description: La ventana emergente del panel de información se muestra en medio del área del visor cuando un usuario activa un mapa de imagen que tiene una propiedad rollover_key definida en Dynamic Media Classic y si la función del panel de información está correctamente configurada para el visor.
 solution: Experience Manager
 title: Ventana emergente del panel Información
 topic: Dynamic Media
-uuid: a5c50e54-1ea7-4908-a8a5-dbeea5c8eabb
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 2%
+source-wordcount: '458'
+ht-degree: 3%
 
 ---
 
 
 # Ventana emergente del panel Información{#info-panel-popup}
 
-La ventana emergente del panel de información se muestra en medio del área del visor cuando un usuario activa un mapa de imagen que tiene una propiedad rollover_key definida en Scene7 Publishing System y si la función del panel de información está correctamente configurada para el visor.
+La ventana emergente del panel de información se muestra en medio del área del visor cuando un usuario activa un mapa de imagen que tiene una propiedad rollover_key definida en Dynamic Media Classic y si la función del panel de información está correctamente configurada para el visor.
 
 El fondo del panel de información cubre toda el área del visor y se controla con el siguiente selector de clase CSS:
 
