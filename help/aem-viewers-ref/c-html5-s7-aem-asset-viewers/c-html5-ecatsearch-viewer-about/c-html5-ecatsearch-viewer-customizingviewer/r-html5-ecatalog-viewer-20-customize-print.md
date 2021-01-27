@@ -4,13 +4,13 @@ seo-description: La herramienta Imprimir consiste en un botón agregado a la bar
 seo-title: Imprimir
 solution: Experience Manager
 title: Imprimir
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 7be047d8-d1be-4bda-90ca-6b55c749cc64
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1493'
+ht-degree: 2%
 
 ---
 
