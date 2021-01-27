@@ -1,16 +1,13 @@
 ---
 description: El visor de catálogos electrónicos es un visor de catálogos que muestra los folletos electrónicos en un pliego o página por página. El catálogo electrónico permite a los usuarios navegar por el catálogo utilizando elementos adicionales de la interfaz de usuario o el modo de miniaturas dedicadas. Los usuarios también pueden acercar cada página para obtener buenos detalles.
 keywords: responsive
-seo-description: El visor de catálogos electrónicos es un visor de catálogos que muestra los folletos electrónicos en un pliego o página por página. El catálogo electrónico permite a los usuarios navegar por el catálogo utilizando elementos adicionales de la interfaz de usuario o el modo de miniaturas dedicadas. Los usuarios también pueden acercar cada página para obtener buenos detalles.
-seo-title: Catálogo electrónico
 solution: Experience Manager
 title: Catálogo electrónico
 topic: Dynamic Media
-uuid: 6950306d-637e-4932-ae96-c5366e5477f3
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2212'
+source-wordcount: '2163'
 ht-degree: 0%
 
 ---
@@ -173,7 +170,7 @@ La ruta relativa tiene el siguiente aspecto:
 
    Puede establecer el tamaño estático del visor declarándolo para la clase CSS de nivel superior `.s7ecatalogviewer` en unidades absolutas o utilizando el modificador `stagesize`.
 
-   Puede colocar el tamaño en CSS directamente en la página HTML o en un archivo CSS de visor personalizado, que posteriormente se asignará a un registro de ajuste preestablecido de visor en Scene7 Publishing System, o se pasará explícitamente mediante un comando de estilo.
+   Puede colocar el tamaño en CSS directamente en la página HTML o en un archivo CSS de visor personalizado, que posteriormente se asignará a un registro de ajuste preestablecido de visor en Dynamic Media Classic, o se pasará explícitamente mediante un comando de estilo.
 
    Consulte [Personalización del visor de catálogos electrónicos](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) para obtener más información sobre cómo aplicar estilo al visor con CSS.
 
@@ -186,7 +183,7 @@ La ruta relativa tiene el siguiente aspecto:
    }
    ```
 
-   Puede establecer el modificador `stagesize` en el registro de ajustes preestablecidos de visor de Scene7 Publishing System o pasarlo explícitamente con el código de inicialización del visor con la colección `params`, o como una llamada de API como se describe en la sección Referencia de comandos, como se indica a continuación:
+   Puede establecer el modificador `stagesize` en el registro de ajustes preestablecidos de visor de Dynamic Media Classic o pasarlo explícitamente con el código de inicialización del visor con la colección `params`, o como una llamada de API como se describe en la sección Referencia de comandos, como se indica a continuación:
 
    ```
    eCatalogViewer.setParam("stagesize", 
