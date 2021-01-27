@@ -4,12 +4,12 @@ seo-description: La clase principal del visor flotante es FlyoutViewer. Se decla
 seo-title: Referencia de la API de JavaScript para el visor flotante
 solution: Experience Manager
 title: Referencia de la API de JavaScript para el visor flotante
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 45621805-8aa5-4ced-a36a-ebecb2a606a0
 translation-type: tm+mt
-source-git-commit: 8d7fdab78c5d23d0e541effa9b9c470921bd144b
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---
