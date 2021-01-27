@@ -4,9 +4,9 @@ solution: Experience Manager
 title: Tutorial del SDK de visor
 topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '965'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 El SDK de visor proporciona un conjunto de componentes basados en JavaScript para el desarrollo de visores personalizados. Los visores son aplicaciones basadas en la web que permiten incrustar en las páginas web contenido de medios enriquecidos ofrecido por Adobe Dynamic Media.
 
-Por ejemplo, el SDK proporciona zoom y panorámica interactivos. También proporciona vista de 360° y reproducción de vídeo de los recursos que se han cargado en Adobe Dynamic Media a través de la aplicación back-end llamada SPS (Scene7 Publishing System).
+Por ejemplo, el SDK proporciona zoom y panorámica interactivos. También proporciona vista de 360° y reproducción de vídeo de los recursos que se han cargado en Adobe Dynamic Media a través de la aplicación back-end denominada Dynamic Media Classic.
 
 Aunque los componentes dependen de la funcionalidad HTML5, están diseñados para funcionar en dispositivos Android y Apple iOS, así como en equipos de escritorio, incluidos Internet Explorer y versiones posteriores. Este tipo de experiencia significa que puede proporcionar un único flujo de trabajo para todas las plataformas admitidas.
 
