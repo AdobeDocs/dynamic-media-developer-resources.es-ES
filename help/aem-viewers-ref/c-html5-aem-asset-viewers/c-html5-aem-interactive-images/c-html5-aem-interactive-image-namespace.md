@@ -5,7 +5,7 @@ title: Área de nombres del SDK del visor
 topic: Dynamic Media
 uuid: e1639806-3052-4913-aae0-ca9a79100d0f
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 0%
@@ -19,7 +19,7 @@ El visor está integrado por varios componentes del SDK de visor. En la mayoría
 
 Sin embargo, algunos casos de uso avanzados requieren que la página web obtenga una referencia a un componente de SDK interno mediante la API de visor `getComponent()` y, a continuación, utilice toda la flexibilidad de las API del propio SDK.
 
-La Área de nombres que el visor utiliza para cargar e inicializar los componentes del SDK depende del entorno en el que funciona el visor. Si el visor se está ejecutando en AEM (Adobe Experience Manager), el visor carga los componentes del SDK en la Área de nombres `s7viewers.s7sdk`. Y el visor que se proporciona desde Scene7 Publishing System carga el SDK en `s7classic.s7sdk`.
+La Área de nombres que el visor utiliza para cargar e inicializar los componentes del SDK depende del entorno en el que funciona el visor. Si el visor se está ejecutando en AEM (Adobe Experience Manager), el visor carga los componentes del SDK en la Área de nombres `s7viewers.s7sdk`. Y el visor que se proporciona desde Dynamic Media Classic carga el SDK en `s7classic.s7sdk`.
 
 En cualquier caso, la Área de nombres utilizada por el SDK dentro del visor tiene el prefijo `s7viewers` o `s7classic`. Además, es diferente de la Área de nombres `s7sdk` sin formato utilizada en la Guía del usuario del SDK o en la documentación de la API del SDK.
 
