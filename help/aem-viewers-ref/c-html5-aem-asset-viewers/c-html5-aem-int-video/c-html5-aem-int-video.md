@@ -4,10 +4,10 @@ seo-description: El visor de vídeo interactivo es un reproductor de vídeo que 
 seo-title: Vídeo interactivo
 solution: Experience Manager
 title: Vídeo interactivo
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 116c6b40-2490-4f1a-9c76-e06082069cc8
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '2243'
 ht-degree: 0%
@@ -53,7 +53,7 @@ Tenga en cuenta que en dispositivos táctiles el control de volumen está oculto
 
 Cuando el visor funciona en modo emergente, no hay un botón de pantalla completa disponible en la interfaz de usuario.
 
-El visor muestra un panel con muestras interactivas a la derecha del área de visualización de vídeo. La lista de las muestras avanza automáticamente a medida que se reproduce el vídeo, de modo que se muestren las muestras correspondientes a la región del vídeo actual. Al tocar o hacer clic en una muestra, se activa una acción asociada con dicha muestra durante el tiempo de creación. Según cómo lo configure, el activador puede redirigir a una página diferente del sitio Web o devolver la información del producto a la lógica de la página Web, lo que a su vez puede desencadenar la apertura de una Vista rápida que muestre el contenido del producto relacionado.
+El visor muestra un panel con muestras interactivas a la derecha del área de visualización de vídeo. La lista de las muestras avanza automáticamente a medida que se reproduce el vídeo, de modo que se muestren las muestras correspondientes a la región del vídeo actual. Al tocar o hacer clic en una muestra, se déclencheur una acción asociada con dicha muestra durante el tiempo de creación. Según cómo lo configure, el déclencheur puede redirigir a una página diferente del sitio web o devolver la información del producto a la lógica de la página web, lo que a su vez puede déclencheur la apertura de una Vista rápida que muestre el contenido del producto relacionado.
 
 Es posible navegar rápidamente por el contenido del vídeo cuando se activa la sección de vídeo. Los capítulos de vídeo se muestran como marcadores en la pista de desplazamiento de vídeo y muestran el título y la descripción del capítulo al pasar el cursor (o al tocar un solo toque en sistemas táctiles). El cliente puede &quot;buscar&quot; un capítulo determinado haciendo clic en un marcador de capítulo o tocando una burbuja de descripción de capítulo.
 
