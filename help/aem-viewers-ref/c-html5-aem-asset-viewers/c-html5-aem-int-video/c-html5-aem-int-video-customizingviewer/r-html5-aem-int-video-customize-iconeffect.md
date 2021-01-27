@@ -4,13 +4,13 @@ seo-description: El icono de reproducción se superpone en el área de la vista 
 seo-title: Efecto Icono
 solution: Experience Manager
 title: Efecto Icono
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 81c9c344-5256-4015-8d02-abbf09dca541
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '202'
+ht-degree: 1%
 
 ---
 
