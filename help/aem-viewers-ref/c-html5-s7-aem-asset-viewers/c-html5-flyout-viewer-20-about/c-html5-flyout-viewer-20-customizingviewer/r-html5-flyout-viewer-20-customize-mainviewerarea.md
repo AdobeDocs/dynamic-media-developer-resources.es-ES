@@ -4,13 +4,13 @@ seo-description: El área de vista principal es el área ocupada por la vista fl
 seo-title: Área del visor principal
 solution: Experience Manager
 title: Área del visor principal
-topic: Dynamic media
+topic: Dynamic Media
 uuid: bc0beeaf-3e7d-4ede-9a7d-04afb1724e44
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '109'
+ht-degree: 2%
 
 ---
 
