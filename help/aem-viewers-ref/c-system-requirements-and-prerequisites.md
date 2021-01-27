@@ -5,9 +5,9 @@ solution: Experience Manager
 topic: Dynamic Media
 contentOwner: Rick Brough
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Requisitos del sistema para visores HTML5 de Dynamic Media.
 
 ## Hardware y software de servidor {#section-05099146f1f0418988c196635110bee6}
 
-* Servicio de imágenes Dynamic Media Classic (anteriormente Scene7) 6.7.1 o posterior.
+* Dynamic Media Classic Image Serving 6.7.1 o posterior.
 * Los visores HTML5 requieren bibliotecas de JavaScript del lado del servidor SDK 3.10.2 o posterior.
 * Las funciones sociales &quot;Enviar un correo electrónico a un amigo&quot; requieren s7ondemand 5.0.9 o posterior.
 * Visor de catálogos electrónicos: la compatibilidad del panel Información requiere el servidor de información 2.1.8 o posterior.
