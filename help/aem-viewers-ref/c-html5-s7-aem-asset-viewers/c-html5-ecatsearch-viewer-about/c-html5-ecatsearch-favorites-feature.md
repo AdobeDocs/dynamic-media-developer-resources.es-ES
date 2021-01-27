@@ -5,7 +5,7 @@ title: Función de búsqueda
 topic: Dynamic Media
 uuid: eb8e79fa-893b-402c-a937-6d7121c95821
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Función de búsqueda{#search-feature}
 
-El visor admite la búsqueda de texto sobre el contenido del catálogo. Para que la función de búsqueda funcione, la función &quot;Extraer palabras de búsqueda&quot; del catálogo debe activarse cuando el archivo PDF de origen se cargue en Scene7 Publishing System.
+El visor admite la búsqueda de texto sobre el contenido del catálogo. Para que la función de búsqueda funcione, la función &quot;Extraer palabras de búsqueda&quot; del catálogo debe activarse cuando el archivo PDF de origen se cargue en Dynamic Media Classic.
 
 La función de búsqueda se activa activando un botón de búsqueda en la barra de herramientas principal. Esta acción abre un panel de resultados de búsqueda con un campo de entrada de texto. Un usuario puede ejecutar una búsqueda utilizando palabras clave separadas por espacios o frases que estén rodeadas de comillas de doble.
 
