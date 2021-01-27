@@ -4,10 +4,10 @@ seo-description: Cierto contenido que muestra el visor de catálogos electrónic
 seo-title: Localización de los elementos de la interfaz de usuario
 solution: Experience Manager
 title: Localización de los elementos de la interfaz de usuario
-topic: Dynamic media
+topic: Dynamic Media
 uuid: bd95c7dc-3158-4cca-81d4-f5efd57c0124
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 0%
