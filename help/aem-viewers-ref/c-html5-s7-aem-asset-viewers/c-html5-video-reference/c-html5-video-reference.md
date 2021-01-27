@@ -1,16 +1,13 @@
 ---
-description: El visor de vídeo es un reproductor de vídeo que reproduce flujo continuo y vídeo progresivo codificado en formato H.264. Se entrega desde Scene7 Publishing System o AEM Dynamic Media.
+description: El visor de vídeo es un reproductor de vídeo que reproduce flujo continuo y vídeo progresivo codificado en formato H.264. Se entrega desde Dynamic Media Classic o AEM Dynamic Media.
 keywords: responsive
-seo-description: El visor de vídeo es un reproductor de vídeo que reproduce flujo continuo y vídeo progresivo codificado en formato H.264. Se entrega desde Scene7 Publishing System o AEM Dynamic Media.
-seo-title: Vídeo
 solution: Experience Manager
 title: Vídeo
 topic: Dynamic Media
-uuid: 961a9b99-5892-4ee3-a2df-13e299f5d086
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2402'
+source-wordcount: '2372'
 ht-degree: 0%
 
 ---
@@ -18,7 +15,7 @@ ht-degree: 0%
 
 # Vídeo{#video}
 
-El visor de vídeo es un reproductor de vídeo que reproduce flujo continuo y vídeo progresivo codificado en formato H.264. Se entrega desde Scene7 Publishing System o AEM Dynamic Media.
+El visor de vídeo es un reproductor de vídeo que reproduce flujo continuo y vídeo progresivo codificado en formato H.264. Se entrega desde Dynamic Media Classic o AEM Dynamic Media.
 
 Consulte [Requisitos y requisitos previos del sistema](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
@@ -152,7 +149,7 @@ La ruta relativa tiene el siguiente aspecto:
 
    Puede establecer el tamaño estático del visor declarándolo para `.s7videoviewer` clase CSS de nivel superior en unidades absolutas o utilizando el modificador `stagesize`.
 
-   El tamaño en CSS se puede colocar directamente en la página HTML o en un archivo CSS de visor personalizado, que posteriormente se asigna a un registro de ajuste preestablecido de visor en Scene7 Publishing System o se pasa explícitamente mediante un comando de estilo.
+   El tamaño en CSS se puede colocar directamente en la página HTML o en un archivo CSS de visor personalizado, que posteriormente se asigna a un registro preestablecido de visor en Dynamic Media Classic o se pasa explícitamente mediante un comando de estilo.
 
    Consulte [Personalización del visor de vídeo](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#concept-072a52b10b5f4c0789393dc6e2134c0e) para obtener más información sobre cómo aplicar estilo al visor mediante CSS.
 
@@ -165,7 +162,7 @@ La ruta relativa tiene el siguiente aspecto:
    }
    ```
 
-   Puede establecer el modificador `stagesize` en el registro de ajustes preestablecidos de visor de Scene7 Publishing System o pasarlo explícitamente con el código de inicialización del visor con la colección `params`, o como una llamada de API como se describe en la sección Referencia del comando, como se muestra a continuación:
+   Puede establecer el modificador `stagesize` en el registro de ajustes preestablecidos de visor de Dynamic Media Classic o pasarlo explícitamente con el código de inicialización del visor con la colección `params`, o como una llamada de API como se describe en la sección Referencia del comando, como se muestra a continuación:
 
    ```
    videoViewer.setParam("stagesize", "640,480");
