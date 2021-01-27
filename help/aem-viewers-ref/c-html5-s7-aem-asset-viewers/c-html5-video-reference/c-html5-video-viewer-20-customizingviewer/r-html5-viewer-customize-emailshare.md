@@ -4,13 +4,13 @@ seo-description: La herramienta para compartir correo electrónico consiste en u
 seo-title: Uso compartido de correo electrónico
 solution: Experience Manager
 title: Uso compartido de correo electrónico
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 4c6abb74-7e13-4fed-bbfb-45e388627578
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3020'
+ht-degree: 2%
 
 ---
 
