@@ -4,13 +4,13 @@ seo-description: La hora del vídeo es la visualización numérica que muestra l
 seo-title: Tiempo de vídeo
 solution: Experience Manager
 title: Tiempo de vídeo
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 8cec89b9-b3e8-4c58-90d9-7ab56698e35d
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '216'
+ht-degree: 2%
 
 ---
 
