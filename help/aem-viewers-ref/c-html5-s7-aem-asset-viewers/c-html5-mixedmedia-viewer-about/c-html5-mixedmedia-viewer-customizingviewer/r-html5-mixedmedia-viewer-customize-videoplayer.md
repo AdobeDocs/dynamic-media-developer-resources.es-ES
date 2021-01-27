@@ -4,13 +4,13 @@ seo-description: El reproductor de vídeo es el área rectangular en la que se m
 seo-title: Reproductor de vídeo
 solution: Experience Manager
 title: Reproductor de vídeo
-topic: Dynamic media
+topic: Dynamic Media
 uuid: d7431a7b-6078-45d6-a364-434b3b44ecf4
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '296'
+ht-degree: 2%
 
 ---
 
