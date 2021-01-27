@@ -4,13 +4,13 @@ seo-description: Atributo de configuración para el visor de vídeo interactivo.
 seo-title: ControlBar.transition
 solution: Experience Manager
 title: ControlBar.transition
-topic: Dynamic media
+topic: Dynamic Media
 uuid: cde4a5b9-4512-41a6-84ce-9f4fc2cc0399
 translation-type: tm+mt
-source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '122'
+ht-degree: 4%
 
 ---
 
@@ -29,7 +29,7 @@ Atributo de configuración para el visor de vídeo interactivo.
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> delaytohide</span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica el tiempo en segundos que transcurre entre el último evento táctil o de ratón registrado por la barra de control y la barra de control de tiempo que se oculta. Si se establece en <span class="codeph"> -1</span>, el componente nunca activa su efecto de ocultación automática y, por lo tanto, siempre permanece visible en la pantalla. </p> </td> 
+   <td colname="col2"> <p> Especifica el tiempo en segundos que transcurre entre el último evento táctil o de ratón registrado por la barra de control y la barra de control de tiempo que se oculta. Si se establece en <span class="codeph"> -1</span>, el componente nunca déclencheur su efecto de ocultación automática y, por lo tanto, siempre permanece visible en la pantalla. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> duración</span></span> </p> </td> 
