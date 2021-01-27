@@ -4,10 +4,10 @@ seo-description: Documentación de atributos de configuración para el visor de 
 seo-title: 'Referencia de comandos: Atributos de configuración'
 solution: Experience Manager
 title: 'Referencia de comandos: Atributos de configuración'
-topic: Dynamic media
+topic: Dynamic Media
 uuid: ef118730-1bd2-4b88-917c-1fa51c6a488b
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 0%
