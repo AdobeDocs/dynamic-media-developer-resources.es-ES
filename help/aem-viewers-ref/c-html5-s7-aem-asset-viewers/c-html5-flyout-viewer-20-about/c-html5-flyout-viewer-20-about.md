@@ -1,16 +1,13 @@
 ---
 description: El visor flotante es un visor de imágenes. Muestra una imagen estática con la versión ampliada que se muestra en la vista flotante que activa el usuario. Este visor funciona con conjuntos de imágenes y la navegación se realiza mediante muestras. Está diseñado para trabajar en equipos de escritorio y dispositivos móviles.
 keywords: responsive
-seo-description: El visor flotante es un visor de imágenes. Muestra una imagen estática con la versión ampliada que se muestra en la vista flotante que activa el usuario. Este visor funciona con conjuntos de imágenes y la navegación se realiza mediante muestras. Está diseñado para trabajar en equipos de escritorio y dispositivos móviles.
-seo-title: Flotante
 solution: Experience Manager
 title: Flotante
-topic: Dynamic media
-uuid: 588e1baa-4165-4aec-8fbe-1a916c0f409f
+topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2084'
 ht-degree: 0%
 
 ---
@@ -104,7 +101,7 @@ Para agregar el visor a una página web, haga lo siguiente:
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
-Puede utilizar una ruta relativa si el visor está implementado en uno de los servidores de Adobe Scene7 y se suministra desde el mismo dominio. De lo contrario, se especifica una ruta completa a uno de los servidores de Adobe Scene7 que tienen instalados los visores IS.
+Puede utilizar una ruta relativa si el visor está implementado en uno de los servidores Dynamic Media de Adobe y se suministra desde el mismo dominio. En caso contrario, especifique una ruta completa a uno de los servidores Dynamic Media de Adobe que tenga instalados los visores IS.
 
 Una ruta relativa tiene el siguiente aspecto:
 
