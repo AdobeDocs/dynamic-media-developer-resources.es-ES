@@ -8,9 +8,9 @@ title: Giro
 topic: Dynamic Media
 uuid: 5d5cdf83-cfe8-48cd-af74-b270f7400b14
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2168'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ Para agregar el visor de giros a una página web, haga lo siguiente:
 
    `<s7viewers_root>/html5/js/SpinViewer.js`
 
-   Puede utilizar una ruta relativa si el visor está implementado en uno de los servidores de Adobe Scene7 y se suministra desde el mismo dominio. De lo contrario, se especifica una ruta completa a uno de los servidores de Adobe Scene7 que tienen instalados los visores IS.
+   Puede utilizar una ruta relativa si el visor está implementado en uno de los servidores Dynamic Media de Adobe y se suministra desde el mismo dominio. En caso contrario, especifique una ruta completa a uno de los servidores Dynamic Media de Adobe que tenga instalados los visores IS.
 
    La ruta relativa tiene el siguiente aspecto:
 
@@ -165,7 +165,7 @@ Para agregar el visor de giros a una página web, haga lo siguiente:
 
    Puede establecer el tamaño estático del visor declarándolo para la clase CSS de nivel superior `.s7spinviewer` en unidades absolutas o utilizando el modificador `stagesize`.
 
-   Puede colocar el tamaño en CSS directamente en la página HTML o en un archivo CSS de visor personalizado, que posteriormente se asignará a un registro de ajuste preestablecido de visor en Scene7 Publishing System, o se pasará explícitamente mediante un comando de estilo.
+   Puede colocar el tamaño en CSS directamente en la página HTML o en un archivo CSS de visor personalizado, que posteriormente se asignará a un registro de ajuste preestablecido de visor en Dynamic Media Classic, o se pasará explícitamente mediante un comando de estilo.
 
    Consulte [Personalización del visor de giros](../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#concept-464f3bfa55764bc09c92d8c7480b0b55) para obtener más información sobre cómo aplicar estilo al visor con CSS.
 
@@ -178,7 +178,7 @@ Para agregar el visor de giros a una página web, haga lo siguiente:
    }
    ```
 
-   Puede establecer el modificador `stagesize` en el registro de ajustes preestablecidos de visor de Scene7 Publishing System o pasarlo explícitamente con el código de inicialización del visor con la colección `params`, o como una llamada de API como se describe en la sección Referencia de comandos, como se indica a continuación:
+   Puede establecer el modificador `stagesize` en el registro de ajustes preestablecidos de visor de Dynamic Media Classic o pasarlo explícitamente con el código de inicialización del visor con la colección `params`, o como una llamada de API como se describe en la sección Referencia de comandos, como se indica a continuación:
 
    ```
     spinViewer.setParam("stagesize", 
