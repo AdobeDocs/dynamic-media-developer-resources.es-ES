@@ -4,10 +4,10 @@ seo-description: El visor muestra los iconos de zonas interactivas sobre la vist
 seo-title: Puntos interactivos y mapas de imagen
 solution: Experience Manager
 title: Puntos interactivos y mapas de imagen
-topic: Dynamic media
+topic: Dynamic Media
 uuid: de7f4dc7-1a55-49d5-a712-7f178cc49068
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 1%
