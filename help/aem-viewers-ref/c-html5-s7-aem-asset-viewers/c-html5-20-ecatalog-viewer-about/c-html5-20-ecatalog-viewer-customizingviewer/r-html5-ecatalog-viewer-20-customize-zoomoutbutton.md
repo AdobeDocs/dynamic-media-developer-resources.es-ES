@@ -4,13 +4,13 @@ seo-description: Al hacer clic o tocar este botón, se amplía una imagen de la 
 seo-title: Botón Reducir
 solution: Experience Manager
 title: Botón Reducir
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 5c373f5e-c25c-4a87-a78a-3b35e70de92f
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '308'
+ht-degree: 2%
 
 ---
 
