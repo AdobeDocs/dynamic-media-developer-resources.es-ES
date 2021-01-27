@@ -4,13 +4,13 @@ seo-description: Especifica la dirección de la animación de diapositivas para 
 seo-title: FavoritesMenu.bearing
 solution: Experience Manager
 title: FavoritesMenu.bearing
-topic: Dynamic media
+topic: Dynamic Media
 uuid: c3f415ad-f976-464a-9067-a5d526908352
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '196'
+ht-degree: 2%
 
 ---
 
