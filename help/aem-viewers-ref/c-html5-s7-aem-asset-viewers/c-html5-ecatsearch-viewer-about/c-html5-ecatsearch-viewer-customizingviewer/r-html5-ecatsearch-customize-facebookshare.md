@@ -4,12 +4,12 @@ seo-description: La herramienta Compartir Facebook consiste en un botón agregad
 seo-title: Uso compartido de Facebook
 solution: Experience Manager
 title: Uso compartido de Facebook
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 1b79ad43-7fdf-4046-a225-1f585ff839b6
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
