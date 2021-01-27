@@ -4,13 +4,13 @@ seo-description: Al tocar o hacer clic en este botón, el usuario pasa a la pág
 seo-title: Botón grande de página siguiente
 solution: Experience Manager
 title: Botón grande de página siguiente
-topic: Dynamic media
+topic: Dynamic Media
 uuid: b68332b1-7b6b-46d8-8a0a-aa5a78fca5fb
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '335'
+ht-degree: 2%
 
 ---
 
