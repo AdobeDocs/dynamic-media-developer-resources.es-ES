@@ -7,7 +7,7 @@ title: recurso
 topic: Dynamic Media
 uuid: 6a72257f-d204-4258-b6f8-de6f7b00fd54
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 2%
@@ -57,15 +57,15 @@ o
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> imageList  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Especifica un conjunto de imágenes explícito, que consiste en una secuencia ordenada de elementos o marcos, separados por comas. </p> <p> <p>Nota:  Esta función es compatible con Adobe Scene7 Publishing System; no se admite en Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col2"> <p> Especifica un conjunto de imágenes explícito, que consiste en una secuencia ordenada de elementos o marcos, separados por comas. </p> <p> <p>Nota:  Esta función es compatible con Adobe Dynamic Media Classic; no se admite en Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> imageListWithModifiers  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Especifica un conjunto de imágenes explícito en el que cada marco tiene sus propios modificadores de servicio de imágenes. En este caso, la lista de marcos se envuelve entre paréntesis. Asegúrese de aplicar codificación HTTP de doble a cualquier coma que esté presente en el modificador de servicio de imágenes específico del marco. </p> <p> <p>Nota:  Esta función es compatible con Adobe Scene7 Publishing System; no se admite en Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col2"> <p> Especifica un conjunto de imágenes explícito en el que cada marco tiene sus propios modificadores de servicio de imágenes. En este caso, la lista de marcos se envuelve entre paréntesis. Asegúrese de aplicar codificación HTTP de doble a cualquier coma que esté presente en el modificador de servicio de imágenes específico del marco. </p> <p> <p>Nota:  Esta función es compatible con Adobe Dynamic Media Classic; no se admite en Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> multiDimensionalSpinSet  </span> </span> </p> </td> 
-   <td colname="col2"> <p>Especifica un conjunto de giros multidimensional explícito con la siguiente sintaxis: </p> <p> <span class="codeph"> ((  <span class="varname"> horizontalSpinSet  </span>)[,(  <span class="varname"> horizontalSpinSet  </span>)])  </span> </p> <p> donde <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> es una lista de marcos separada por comas para un eje horizontal determinado. Todo <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> debe tener el mismo número de fotogramas. </p> <p> <p>Nota:  Esta función es compatible con Adobe Scene7 Publishing System; no se admite en Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col2"> <p>Especifica un conjunto de giros multidimensional explícito con la siguiente sintaxis: </p> <p> <span class="codeph"> ((  <span class="varname"> horizontalSpinSet  </span>)[,(  <span class="varname"> horizontalSpinSet  </span>)])  </span> </p> <p> donde <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> es una lista de marcos separada por comas para un eje horizontal determinado. Todo <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> debe tener el mismo número de fotogramas. </p> <p> <p>Nota:  Esta función es compatible con Adobe Dynamic Media Classic; no se admite en Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> modificadores  </span> </span> </p> </td> 
@@ -86,19 +86,19 @@ o
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> video  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Un solo vídeo o conjunto de vídeos adaptable. </p> <p> <p>Nota:  Esta función es compatible con Adobe Scene7 Publishing System; no se admite en Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col2"> <p> Un solo vídeo o conjunto de vídeos adaptable. </p> <p> <p>Nota:  Esta función es compatible con Adobe Dynamic Media Classic; no se admite en Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> image  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Imagen única. </p> <p> <p>Nota:  Esta función es compatible con Adobe Scene7 Publishing System; no se admite en Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col2"> <p> Imagen única. </p> <p> <p>Nota:  Esta función es compatible con Adobe Dynamic Media Classic; no se admite en Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> setId  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Conjunto de muestras. </p> <p> <p>Nota:  Esta función es compatible con Adobe Scene7 Publishing System; no se admite en Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col2"> <p> Conjunto de muestras. </p> <p> <p>Nota:  Esta función es compatible con Adobe Dynamic Media Classic; no se admite en Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> swatchId  </span> </span> </p> </td> 
-   <td colname="col2"> <p>Imagen de muestra. </p> <p> <p>Nota:  Esta función es compatible con Adobe Scene7 Publishing System; no se admite en Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col2"> <p>Imagen de muestra. </p> <p> <p>Nota:  Esta función es compatible con Adobe Dynamic Media Classic; no se admite en Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ID  </span> </span> </p> </td> 
@@ -109,7 +109,7 @@ o
       <li id="li_C942CED779B54110BCDC74188995FD5B"> <p> <span class="codeph"> girar  </span> </p> <p>Para conjunto de giros. </p> </li> 
       <li id="li_6EA5C54F078D4B24B44F1588BF083842"> <p> <span class="codeph"> video  </span> </p> <p>Para un solo vídeo. </p> </li> 
       <li id="li_8110FA7E0CAB4681A2D8C15F2A656E69"> <p> <span class="codeph"> video_set  </span> </p> <p>Para conjuntos de vídeos adaptables. </p> </li> 
-     </ul> </p> <p> <p>Nota:  Esta función es compatible con Adobe Scene7 Publishing System; no se admite en Adobe Experience Manager Assets. </p> </p> </td> 
+     </ul> </p> <p> <p>Nota:  Esta función es compatible con Adobe Dynamic Media Classic; no se admite en Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> modificadores  </span> </span> </p> </td> 
