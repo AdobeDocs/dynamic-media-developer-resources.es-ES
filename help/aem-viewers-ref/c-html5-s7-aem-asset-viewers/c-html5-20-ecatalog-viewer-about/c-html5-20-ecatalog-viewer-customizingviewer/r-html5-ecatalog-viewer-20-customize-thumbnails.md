@@ -4,13 +4,13 @@ seo-description: Las miniaturas constan de una cuadrícula de imágenes en minia
 seo-title: Miniaturas
 solution: Experience Manager
 title: Miniaturas
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 340b81e0-77df-4b44-a462-b98bcc96d707
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '913'
+ht-degree: 2%
 
 ---
 
