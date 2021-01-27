@@ -1,16 +1,13 @@
 ---
 description: El visor de zoom en línea es un visor de imágenes. Muestra una imagen estática con la versión ampliada que se muestra sobre esa imagen estática cuando un usuario pasa el cursor sobre la vista principal o la toca. Este visor funciona con conjuntos de imágenes y la navegación se realiza mediante muestras. Está diseñado para trabajar en equipos de escritorio y dispositivos móviles.
 keywords: responsive
-seo-description: El visor de zoom en línea es un visor de imágenes. Muestra una imagen estática con la versión ampliada que se muestra sobre esa imagen estática cuando un usuario pasa el cursor sobre la vista principal o la toca. Este visor funciona con conjuntos de imágenes y la navegación se realiza mediante muestras. Está diseñado para trabajar en equipos de escritorio y dispositivos móviles.
-seo-title: Zoom en línea
 solution: Experience Manager
 title: Zoom en línea
-topic: Dynamic media
-uuid: 2287aef0-79ba-4d63-911a-969fa1c63385
+topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '2457'
+source-wordcount: '2403'
 ht-degree: 0%
 
 ---
@@ -128,7 +125,7 @@ Para agregar el visor a una página web, haga lo siguiente:
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
-Puede utilizar una ruta relativa si el visor está implementado en uno de los servidores de Adobe Scene7 y se suministra desde el mismo dominio. De lo contrario, se especifica una ruta completa a uno de los servidores de Adobe Scene7 que tienen instalados los visores IS.
+Puede utilizar una ruta relativa si el visor está implementado en uno de los servidores Dynamic Media de Adobe y se suministra desde el mismo dominio. En caso contrario, especifique una ruta completa a uno de los servidores Dynamic Media de Adobe que tenga instalados los visores IS.
 
 Una ruta relativa tiene el siguiente aspecto:
 
