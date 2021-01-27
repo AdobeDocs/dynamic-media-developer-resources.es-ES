@@ -1,16 +1,13 @@
 ---
 description: Últimas notas de la versión de Adobe Scene7 de otoño de 2016, parte de la solución Adobe Experience Manager en Adobe Marketing Cloud.
-seo-description: Últimas notas de la versión de Adobe Scene7 de otoño de 2016, parte de la solución Adobe Experience Manager en Adobe Marketing Cloud.
-seo-title: Versión de otoño de 2016 de Scene7
 solution: Experience Manager
 title: Versión de otoño de 2016 de Scene7
 topic: Dynamic Media
-uuid: 3fddda65-0c6e-48ec-bd60-7e0ca59421a8
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2264'
-ht-degree: 1%
+source-wordcount: '2244'
+ht-degree: 0%
 
 ---
 
@@ -24,12 +21,12 @@ ht-degree: 1%
 Últimas notas de la versión de [!DNL Adobe Scene7] otoño de 2016, parte de la solución [!DNL Adobe Experience Manager] en [!DNL Adobe Marketing Cloud].
 
 * [General](s7rnfall2016.md#section-52afeb72ecb34c1585ea67a5051825a2)
-* [Scene7 Publishing System](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)
+* [Scene7](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)
 * [Visores (servicio de imágenes 5.5.3)](s7rnfall2016.md#section-1d59bcd5825d487b80b59a6d1a08ed30)
 * [Visores (servicio de imágenes 5.5.2)](s7rnfall2016.md#section-9932c988cfee45749594af481dfc6476)
 * [Visores (servicio de imágenes 5.5.1)](s7rnfall2016.md#section-833ab92c91c941d2bfdc27f233f582ad)
 * [HTML5 Viewer SDK 3.0.1](s7rnfall2016.md#section-30e2392859c442d1aab2766d0f1d1580)
-* [Dynamic Media Image Serving 6.3.2 y procesamiento de imágenes 6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
+* [Dynamic Media Classic Image Serving 6.3.2 y procesamiento de imágenes 6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
 
 ## General {#section-52afeb72ecb34c1585ea67a5051825a2}
 
@@ -46,7 +43,7 @@ Para obtener la documentación completa, consulte [https://docs.adobe.com/conten
 * Se ha eliminado la función de reedición de vídeo de la interfaz de usuario [!DNL Adobe Scene7 Publishing System].
 * Autenticación añadida a todos los servlets de Scene7 cuando sea necesario y posible.
 * Corrección de errores que involucra la Vista de Lista en la papelera.
-* Se ha eliminado **Crear la función de usuario SPSAdmin** de Administración de usuarios por problemas de seguridad.
+* Se ha eliminado **Crear la función de usuario de Administración de usuarios de Dynamic Media Classic (Scene7)** debido a problemas de seguridad.
 * FTP WebAdmin ahora admite la autenticación OKTA.
 * Se ha eliminado la función de la contraseña predeterminada que se creó para los nuevos usuarios de Media Portal.
 * Corrección de errores que implica la contraseña temporal que se generó al agregar un nuevo usuario. La contraseña no cumplía los requisitos de contraseña necesarios.
