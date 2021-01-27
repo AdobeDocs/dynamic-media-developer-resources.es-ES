@@ -4,13 +4,13 @@ seo-description: Atributo de configuración para el visor de vídeo de medios mi
 seo-title: VideoPlayer.waiticon
 solution: Experience Manager
 title: VideoPlayer.waiticon
-topic: Dynamic media
+topic: Dynamic Media
 uuid: d57aa367-27cd-4aa2-b1bb-05a29b0c245a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '37'
+ht-degree: 13%
 
 ---
 
