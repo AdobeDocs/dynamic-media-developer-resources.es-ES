@@ -1,16 +1,14 @@
 ---
 description: El visor de búsqueda de catálogos electrónicos es un visor de catálogos que muestra los folletos electrónicos en un pliego o página por página. El catálogo electrónico permite a los usuarios navegar por el catálogo utilizando elementos adicionales de la interfaz de usuario o el modo de miniaturas dedicadas. Los usuarios también pueden acercar cada página para obtener buenos detalles.
 keywords: responsive
-seo-description: El visor de búsqueda de catálogos electrónicos es un visor de catálogos que muestra los folletos electrónicos en un pliego o página por página. El catálogo electrónico permite a los usuarios navegar por el catálogo utilizando elementos adicionales de la interfaz de usuario o el modo de miniaturas dedicadas. Los usuarios también pueden acercar cada página para obtener buenos detalles.
-seo-title: Búsqueda de catálogos electrónicos
 solution: Experience Manager
 title: Búsqueda de catálogos electrónicos
-topic: Dynamic media
+topic: Dynamic Media
 uuid: f5ec33bf-e827-4709-9780-6f17096bf306
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '2228'
+source-wordcount: '2179'
 ht-degree: 0%
 
 ---
@@ -144,7 +142,7 @@ Para agregar el visor a una página web, haga lo siguiente:
 
 [!DNL <s7viewers_root>/html5/js/eCatalogSearchViewer.js]
 
-Puede utilizar una ruta relativa si el visor está implementado en uno de los servidores de Adobe Scene7 y se suministra desde el mismo dominio. De lo contrario, se especifica una ruta completa a uno de los servidores de Adobe Scene7 que tienen instalados los visores IS.
+Puede utilizar una ruta relativa si el visor está implementado en uno de los servidores Dynamic Media de Adobe y se suministra desde el mismo dominio. En caso contrario, especifique una ruta completa a uno de los servidores Dynamic Media de Adobe que tenga instalados los visores IS.
 
 La ruta relativa tiene el siguiente aspecto:
 
