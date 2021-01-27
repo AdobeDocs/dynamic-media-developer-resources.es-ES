@@ -4,13 +4,13 @@ seo-description: La herramienta de incrustación de elementos compartidos consis
 seo-title: Incrustar recurso compartido
 solution: Experience Manager
 title: Incrustar recurso compartido
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 73d259fe-0978-4f47-95f6-bbfcd3b7bad1
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2640'
+ht-degree: 2%
 
 ---
 
