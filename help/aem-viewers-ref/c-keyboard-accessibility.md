@@ -4,10 +4,10 @@ seo-description: Todas las funciones expuestas en la interfaz de visor de zoom b
 seo-title: Navegación y accesibilidad del teclado
 solution: Experience Manager
 title: Navegación y accesibilidad del teclado
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 9d7df3b0-2d77-4a2f-9ef1-210ccbd7a1a6
 translation-type: tm+mt
-source-git-commit: a0983053795cc119eb57386c005e1f8a7c2fa3e4
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 0%
