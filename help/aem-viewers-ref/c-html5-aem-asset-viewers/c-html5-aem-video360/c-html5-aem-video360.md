@@ -1,15 +1,12 @@
 ---
-description: El visor de vídeo HTML5 Video360 es un reproductor de vídeo de 360 grados que reproduce flujo continuo y vídeo progresivo de 360 grados codificado en el formato H.264, entregado desde Scene7 Publishing System o desde AEM Dynamic Media.
-seo-description: El visor de vídeo HTML5 Video360 es un reproductor de vídeo de 360 grados que reproduce flujo continuo y vídeo progresivo de 360 grados codificado en el formato H.264, entregado desde Scene7 Publishing System o desde AEM Dynamic Media.
-seo-title: Video360
+description: El visor de vídeo HTML5 Video360 es un reproductor de vídeo de 360 grados que reproduce flujo continuo y vídeo progresivo de 360 grados codificado en el formato H.264, entregado desde Dynamic Media Classic o desde AEM Dynamic Media.
 solution: Experience Manager
 title: Video360
-topic: Dynamic media
-uuid: b03e6289-e012-4c62-835f-814463a27774
+topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '2613'
+source-wordcount: '2582'
 ht-degree: 0%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 0%
 
 # Video360{#video}
 
-El visor de vídeo HTML5 Video360 es un reproductor de vídeo de 360 grados que reproduce flujo continuo y vídeo progresivo de 360 grados codificado en el formato H.264, entregado desde Scene7 Publishing System o desde AEM Dynamic Media.
+El visor de vídeo HTML5 Video360 es un reproductor de vídeo de 360 grados que reproduce flujo continuo y vídeo progresivo de 360 grados codificado en el formato H.264, suministrado desde Dynmaic Media Classic o desde AEM Dynamic Media.
 
 Los vídeos de 360 grados, también conocidos como vídeos envolventes o vídeos esféricos, son grabaciones de vídeo en las que se graba una vista en todas las direcciones al mismo tiempo, grabadas con una cámara omnidireccional o una colección de cámaras. Se admiten los conjuntos de vídeos únicos y los conjuntos de vídeos adaptables. El visor también admite el trabajo con flujos de vídeo progresivo y HLS alojados en una ubicación externa.
 
