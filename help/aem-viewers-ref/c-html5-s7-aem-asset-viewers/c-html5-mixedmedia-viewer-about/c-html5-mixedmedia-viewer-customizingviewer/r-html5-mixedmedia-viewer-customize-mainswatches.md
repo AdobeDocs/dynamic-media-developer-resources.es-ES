@@ -4,10 +4,10 @@ seo-description: Las muestras principales constan de una fila de imágenes en mi
 seo-title: Muestras principales
 solution: Experience Manager
 title: Muestras principales
-topic: Dynamic media
+topic: Dynamic Media
 uuid: a968372d-3d11-45d7-b17f-50ec998f5e88
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 2%
