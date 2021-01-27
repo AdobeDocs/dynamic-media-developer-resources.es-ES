@@ -8,7 +8,7 @@ title: Zoom
 topic: Dynamic Media
 uuid: ec2a91e2-ce2c-48b1-a2b2-8671524288c7
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '2460'
 ht-degree: 0%
@@ -167,7 +167,7 @@ La ruta relativa tiene el siguiente aspecto:
 
    Este visor muestra miniaturas al trabajar con conjuntos de varios elementos, en las miniaturas de los sistemas de escritorio que se colocan debajo de la vista principal. Al mismo tiempo, el visor permite el intercambio del recurso principal en tiempo de ejecución mediante la API `setAsset()`. Como desarrollador, tiene control sobre cómo gestiona el visor el área de miniaturas en la parte inferior cuando el nuevo recurso solo tiene un elemento. Es posible mantener intacto el tamaño del visor exterior y permitir que la vista principal aumente su altura y ocupe el área de miniaturas. O bien, puede mantener el tamaño de la vista principal estático y contraer el área del visor exterior, permitiendo que el contenido de la página web se mueva hacia arriba y utilice el espacio restante de la pantalla gratuita de las miniaturas.
 
-   Para mantener los límites exteriores del visor intactos, defina el tamaño de la clase CSS de nivel superior `.s7zoomviewer` en unidades absolutas. El tamaño en CSS se puede colocar directamente en la página HTML o en un archivo CSS de visor personalizado, que posteriormente se asigna a un registro de ajuste preestablecido de visor en Scene7 Publishing System o se pasa explícitamente mediante un comando de estilo.
+   Para mantener los límites exteriores del visor intactos, defina el tamaño de la clase CSS de nivel superior `.s7zoomviewer` en unidades absolutas. El tamaño en CSS se puede colocar directamente en la página HTML o en un archivo CSS de visor personalizado, que posteriormente se asigna a un registro preestablecido de visor en Dynamic Media Classic o se pasa explícitamente mediante un comando de estilo.
 
    Consulte [Personalización del visor de zoom](../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/c-html5-20-zoom-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) para obtener más información sobre cómo aplicar estilo al visor con CSS.
 
@@ -199,7 +199,7 @@ La ruta relativa tiene el siguiente aspecto:
 
    [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/ZoomViewer-fixed-main-view.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/ZoomViewer-fixed-main-view.html)
 
-   Puede establecer el modificador `stagesize` en el registro de ajustes preestablecidos de visor de Scene7 Publishing System, o bien puede pasarlo explícitamente con el código de inicialización del visor con la colección `params` o como una llamada de API como se describe en la sección Referencia de comandos de esta Ayuda, como se muestra a continuación:
+   Puede establecer el modificador `stagesize` en el registro de ajustes preestablecidos de visor de Dynamic Media Classic, o bien puede pasarlo explícitamente con el código de inicialización del visor con la colección `params` o como una llamada de API como se describe en la sección Referencia de comandos de esta Ayuda, como se muestra a continuación:
 
    ```
     zoomViewer.setParam("stagesize", 
