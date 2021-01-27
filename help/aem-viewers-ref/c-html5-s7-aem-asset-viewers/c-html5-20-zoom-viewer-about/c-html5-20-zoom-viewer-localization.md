@@ -4,12 +4,12 @@ seo-description: Cierto contenido que muestra el visor de vídeo está sujeto a 
 seo-title: Localización de los elementos de la interfaz de usuario
 solution: Experience Manager
 title: Localización de los elementos de la interfaz de usuario
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 00df92c5-3a10-4973-904d-de5a6b3b9258
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
