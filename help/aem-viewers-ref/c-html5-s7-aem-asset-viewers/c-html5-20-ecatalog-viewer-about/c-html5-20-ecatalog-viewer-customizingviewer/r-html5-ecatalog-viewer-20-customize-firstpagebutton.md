@@ -4,10 +4,10 @@ seo-description: Al tocar o hacer clic en este botón, el usuario llega a la pri
 seo-title: Botón de primera página
 solution: Experience Manager
 title: Botón de primera página
-topic: Dynamic media
+topic: Dynamic Media
 uuid: fd164899-505c-448b-8dba-7581d97d87b6
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 1%
