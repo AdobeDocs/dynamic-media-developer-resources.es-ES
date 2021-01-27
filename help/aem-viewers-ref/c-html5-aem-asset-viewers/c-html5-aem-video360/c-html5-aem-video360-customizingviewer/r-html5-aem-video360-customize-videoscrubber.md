@@ -4,10 +4,10 @@ seo-description: La barra de desplazamiento de vídeo es el control deslizante h
 seo-title: Borrador de vídeo
 solution: Experience Manager
 title: Borrador de vídeo
-topic: Dynamic media
+topic: Dynamic Media
 uuid: c68d3693-3772-470a-893a-b701ddec3414
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 2%
