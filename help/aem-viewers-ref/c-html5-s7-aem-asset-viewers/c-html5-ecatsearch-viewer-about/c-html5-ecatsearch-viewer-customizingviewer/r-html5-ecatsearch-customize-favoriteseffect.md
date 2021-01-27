@@ -4,12 +4,12 @@ seo-description: El visor muestra los iconos de Favoritos sobre la vista princip
 seo-title: Favoritos, efecto
 solution: Experience Manager
 title: Favoritos, efecto
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 5fbfe299-1fae-427f-8ade-e12cd168b8a7
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
