@@ -1,15 +1,12 @@
 ---
-description: Según el valor del parámetro mode, el visor muestra los iconos de mapa de imagen sobre la vista principal en lugares donde los mapas se crearon originalmente en Scene7 Publishing System o representa las regiones exactas que coinciden con la forma de los mapas de imagen originales.
-seo-description: Según el valor del parámetro mode, el visor muestra los iconos de mapa de imagen sobre la vista principal en lugares donde los mapas se crearon originalmente en Scene7 Publishing System o representa las regiones exactas que coinciden con la forma de los mapas de imagen originales.
-seo-title: Efecto de mapa de imagen
+description: Según el valor del parámetro mode, el visor muestra los iconos de mapa de imagen sobre la vista principal en lugares donde los mapas se crearon originalmente en Dynamic Media Classic o representa las regiones exactas que coinciden con la forma de los mapas de imagen originales.
 solution: Experience Manager
 title: Efecto de mapa de imagen
 topic: Dynamic Media
-uuid: 193d2f4e-77a2-4741-bf36-90ca31c600c6
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '314'
 ht-degree: 1%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 1%
 
 # Efecto de mapa de imagen{#image-map-effect}
 
-Según el valor del parámetro mode, el visor muestra los iconos de mapa de imagen sobre la vista principal en lugares donde los mapas se crearon originalmente en Scene7 Publishing System o representa las regiones exactas que coinciden con la forma de los mapas de imagen originales.
+Según el valor del parámetro mode, el visor muestra los iconos de mapa de imagen sobre la vista principal en lugares donde los mapas se crearon originalmente en Dynamic Media Classic o representa las regiones exactas que coinciden con la forma de los mapas de imagen originales.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
