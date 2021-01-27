@@ -4,12 +4,12 @@ seo-description: La clase principal del visor de medios mixtos es MixedMediaView
 seo-title: Referencia de la API de Javascript para el visor de medios mixtos
 solution: Experience Manager
 title: Referencia de la API de Javascript para el visor de medios mixtos
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 8a416e62-3ae1-4539-8757-d68f99ea1d1a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
