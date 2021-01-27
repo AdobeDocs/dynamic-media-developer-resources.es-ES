@@ -4,10 +4,10 @@ seo-description: El menú Favoritos administra completamente la posición del bo
 seo-title: Botón Eliminar favorito
 solution: Experience Manager
 title: Botón Eliminar favorito
-topic: Dynamic media
+topic: Dynamic Media
 uuid: c2e1929d-d859-49d5-8bdc-13507e25d02c
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 0%
