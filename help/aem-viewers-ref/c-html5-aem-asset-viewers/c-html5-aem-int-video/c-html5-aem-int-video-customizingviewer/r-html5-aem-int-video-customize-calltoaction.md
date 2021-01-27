@@ -4,10 +4,10 @@ seo-description: El panel Llamada a acción aparece cuando termina el vídeo y m
 seo-title: Llamada a acción
 solution: Experience Manager
 title: Llamada a acción
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 04a042d8-7329-4f1d-b3b9-312d620b1f29
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '1298'
 ht-degree: 3%
