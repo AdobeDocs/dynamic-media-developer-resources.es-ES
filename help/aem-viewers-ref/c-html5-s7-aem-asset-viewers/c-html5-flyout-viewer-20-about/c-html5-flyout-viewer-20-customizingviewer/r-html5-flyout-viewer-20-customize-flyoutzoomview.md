@@ -4,10 +4,10 @@ seo-description: La vista principal consiste en la imagen estática, la imagen a
 seo-title: Vista de zoom flotante
 solution: Experience Manager
 title: Vista de zoom flotante
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 35c60228-3044-442b-a8e2-e13d0bd306a5
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 3%
