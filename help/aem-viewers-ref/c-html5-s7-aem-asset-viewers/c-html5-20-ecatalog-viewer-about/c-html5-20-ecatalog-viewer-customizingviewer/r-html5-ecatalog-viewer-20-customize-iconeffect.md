@@ -4,13 +4,13 @@ seo-description: El indicador de zoom se superpone en el área de vista principa
 seo-title: Efecto Icono
 solution: Experience Manager
 title: Efecto Icono
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 9e8c0c6f-2c45-4acb-9acb-5b8494bfc69b
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '192'
+ht-degree: 1%
 
 ---
 
