@@ -4,10 +4,10 @@ seo-description: Cierto contenido que muestra el visor de zoom básico está suj
 seo-title: Localización de los elementos de la interfaz de usuario
 solution: Experience Manager
 title: Localización de los elementos de la interfaz de usuario
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 842970d9-0882-4163-8c49-3ea35d372d35
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 0%
