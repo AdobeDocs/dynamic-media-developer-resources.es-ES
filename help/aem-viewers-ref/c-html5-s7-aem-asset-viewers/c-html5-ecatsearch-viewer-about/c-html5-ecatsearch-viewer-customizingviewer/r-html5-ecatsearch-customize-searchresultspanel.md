@@ -4,13 +4,13 @@ seo-description: El panel de resultados de búsqueda consta del cuadro de entrad
 seo-title: Panel de resultados de búsqueda
 solution: Experience Manager
 title: Panel de resultados de búsqueda
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 43d8e003-79f7-4e41-98d7-b362ab7180ea
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '952'
+ht-degree: 2%
 
 ---
 
