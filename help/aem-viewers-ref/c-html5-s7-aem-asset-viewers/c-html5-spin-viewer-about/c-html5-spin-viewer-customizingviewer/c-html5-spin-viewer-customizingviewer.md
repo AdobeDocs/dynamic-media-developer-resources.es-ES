@@ -5,10 +5,10 @@ seo-description: Toda la personalización visual y la mayor parte del comportami
 seo-title: Personalización del visor de giros
 solution: Experience Manager
 title: Personalización del visor de giros
-topic: Dynamic media
+topic: Dynamic Media
 uuid: d951501c-d6da-454c-be2f-0887ffcac77c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '1341'
 ht-degree: 0%
