@@ -4,10 +4,10 @@ seo-description: El visor de carrusel es un visor que muestra un carrusel de im�
 seo-title: Carrusel
 solution: Experience Manager
 title: Carrusel
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 0ba4f40b-8dde-4479-b906-3115f09ab249
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '1978'
 ht-degree: 0%
@@ -49,7 +49,7 @@ La navegación por el conjunto de carrusel se realiza con un barrido horizontal 
 
 El visor puede representar zonas interactivas o regiones en la parte superior de la imagen del letrero para indicar el área interactiva del producto.
 
-Al tocar o hacer clic en una zona interactiva o una región, se activa una acción asociada a ella durante el tiempo de creación. La acción puede redirigirse a otra página del sitio web o puede devolver la información del producto a la lógica de la página web, lo que a su vez puede activar una vista rápida con el contenido del producto relacionado.
+Al tocar o hacer clic en un punto interactivo o una región, se déclencheur una acción asociada con ella durante el tiempo de creación. La acción puede redirigirse a otra página del sitio web o puede devolver la información del producto a la lógica de la página web, lo que a su vez puede déclencheur de una vista rápida con el contenido del producto relacionado.
 
 El visor es totalmente accesible mediante el teclado.
 
