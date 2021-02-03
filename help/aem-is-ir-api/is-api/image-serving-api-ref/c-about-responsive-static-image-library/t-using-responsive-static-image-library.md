@@ -4,9 +4,9 @@ solution: Experience Manager
 title: Uso de la biblioteca de imágenes interactivas
 topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '553'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Para agregar una biblioteca de imágenes interactivas a una página web y admini
 
 **Para utilizar la biblioteca de imágenes interactivas**
 
-1. En Dynamic Media Classic, [cree un ajuste preestablecido de imagen](http://help.adobe.com/en_US/scene7/using/WS2F6A1049-B41F-447d-A520-91227F9CDABF.html) en caso de que desee utilizar la biblioteca de imágenes interactivas con ajustes preestablecidos.
+1. En Dynamic Media Classic, [cree un ajuste preestablecido de imagen](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing) en caso de que desee utilizar la biblioteca de imágenes interactivas con ajustes preestablecidos.
 
    Al definir los ajustes preestablecidos de imagen que se utilizan con la biblioteca de imágenes interactivas, no utilice ninguna configuración que afecte al tamaño de la imagen, como `wid=`, `hei=` o `scl=`. No especifique ningún campo de tamaño en el ajuste preestablecido de imagen. En su lugar, déjelos como valores en blanco.
 1. Añada el archivo JavaScript de la biblioteca en la página web.
