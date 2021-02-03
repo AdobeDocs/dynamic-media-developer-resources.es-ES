@@ -5,9 +5,9 @@ archtype: end-user
 user-guide-title: API de servicio y procesamiento de imágenes de Dynamic Media
 breadcrumb-title: API de servicio y procesamiento de imágenes de Dynamic Media
 translation-type: tm+mt
-source-git-commit: 901f0c3986715279e0c696db93be2048343d2bc5
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1463'
 ht-degree: 10%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 10%
 
 # API de servicio y procesamiento de imágenes de Dynamic Media {#image-serving-api}
 
-+ [Página principal de recursos para desarrolladores de Dynamic Media](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
++ [Página principal de recursos para desarrolladores de Dynamic Media](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html)
 + [Inicio de la API de servicio de imágenes y procesamiento de imágenes de Dynamic Media](home.md)
 + [Acerca de esta versión](r-about-this-release.md)
 + [Requisitos y requisitos previos del sistema](r-requirements-and-prerequisites.md)
