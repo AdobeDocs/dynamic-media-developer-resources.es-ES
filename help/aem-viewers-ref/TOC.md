@@ -4,9 +4,9 @@ product: adobe
 archtype: end-user
 user-guide-title: Guía de referencia de visores de Dynamic Media
 translation-type: tm+mt
-source-git-commit: 31f2fdd45d950a8e0eae34d75abf956d305d3175
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
-source-wordcount: '1927'
+source-wordcount: '1925'
 ht-degree: 4%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # Guía de referencia de visores de Dynamic Media {#library}
 
-+ [Página principal de recursos para desarrolladores de Dynamic Media](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
++ [Página principal de recursos para desarrolladores de Dynamic Media](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html)
 + [Guía de referencia de visores de Dynamic Media](/help/aem-viewers-ref/home.md)
 + [Ejemplos de la biblioteca del visor](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 + [Requisitos del sistema](c-system-requirements-and-prerequisites.md)
