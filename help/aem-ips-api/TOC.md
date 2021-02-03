@@ -4,9 +4,9 @@ product: adobe
 archtype: end-user
 user-guide-title: API de Dynamic Media Image Production System
 translation-type: tm+mt
-source-git-commit: 88d3a65852365d7fcd7631ff5b5f7215b7c48618
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '638'
 ht-degree: 3%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # Dynamic Media Image Production System API {#image-production-api}
 
-+ [Página principal de recursos para desarrolladores de Dynamic Media](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
++ [Página principal de recursos para desarrolladores de Dynamic Media](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html)
 + [Acerca de la API de Dynamic Media Image Production System](c-overview.md)
 + [Llamadas obsoletas](c-deprecated-calls.md)
 + [Versiones WSDL del servicio Web IPS](c-wsdl-versions.md)
@@ -418,7 +418,7 @@ ht-degree: 3%
    + [Tipos de archivos de registro de trabajos](string-constants/c-string-constants/r-job-log-file-types.md)
    + [Campos de ordenación de registro de trabajos](string-constants/c-string-constants/r-job-log-sort-fields.md)
    + [Tipos de registro de trabajos](string-constants/c-string-constants/r-job-log-types.md)
-   + [Estados desencadenadores de trabajo](string-constants/c-string-constants/r-job-trigger-states.md)
+   + [Estados de Déclencheur de trabajo](string-constants/c-string-constants/r-job-trigger-states.md)
    + [Tipos de trabajo](string-constants/c-string-constants/r-job-types.md)
    + [Tipos de campos de metadatos](string-constants/c-string-constants/r-metadata-field-types.md)
    + [Operadores de comparación numérica/de fecha](string-constants/c-string-constants/r-numeric-date-comparison-operators.md)
