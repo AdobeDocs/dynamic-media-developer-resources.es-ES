@@ -4,9 +4,9 @@ solution: Experience Manager
 title: Versión de otoño de 2016 de Scene7
 topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
-source-wordcount: '2244'
+source-wordcount: '2231'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,11 @@ ht-degree: 0%
 
 Adobe está emocionado de anunciar la disponibilidad del envío de contenido HTTP/2 con el beneficio general de mejorar el rendimiento.
 
-Consulte [Preguntas más frecuentes sobre el Envío HTTP2](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html).
+Consulte [Preguntas más frecuentes sobre el Envío HTTP2](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
 
 ## Scene7 Publishing System {#section-24487cb493444d808fb7193f0a00cdd4}
 
-Para obtener la documentación completa, consulte [https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html)
+Para obtener la documentación completa, consulte [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)
 
 **Nuevas funciones, mejoras y correcciones de errores**
 
@@ -58,7 +58,7 @@ Para obtener la documentación completa, consulte [https://docs.adobe.com/conten
 
 ## Visores (servicio de imágenes 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-Para obtener documentación completa, consulte [Guía de referencia de visores](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
+Para obtener documentación completa, consulte [Guía de referencia de visores](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html).
 
 **Corrección de errores para el servicio de imágenes 5.5.3**
 
@@ -68,7 +68,7 @@ Para obtener documentación completa, consulte [Guía de referencia de visores](
 
 ## Visores (servicio de imágenes 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-Para obtener documentación completa, consulte [Guía de referencia de visores](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
+Para obtener documentación completa, consulte [Guía de referencia de visores](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html).
 
 **Corrección de errores para el servicio de imágenes 5.5.2**
 
@@ -77,7 +77,7 @@ Para obtener documentación completa, consulte [Guía de referencia de visores](
 
 ## Visores (servicio de imágenes 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-Para obtener documentación completa, consulte [Guía de referencia de visores](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
+Para obtener documentación completa, consulte [Guía de referencia de visores](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html).
 
 **Nuevas funciones, mejoras y correcciones de errores para el servicio de imágenes 5.5.1**
 
