@@ -1,15 +1,12 @@
 ---
 description: Todas las funciones expuestas en la interfaz de visor de zoom básico, catálogo electrónico, búsqueda en catálogos electrónicos, flotante, zoom en línea, medios mixtos, giro, vídeo, zoom, dimensión (3D), carrusel, imagen interactiva, vídeo interactivo y vídeo360 son accesibles mediante el teclado.
-seo-description: Todas las funciones expuestas en la interfaz de visor de zoom básico, catálogo electrónico, búsqueda en catálogos electrónicos, flotante, zoom en línea, medios mixtos, giro, vídeo, zoom, dimensión (3D), carrusel, imagen interactiva, vídeo interactivo y vídeo360 son accesibles mediante el teclado.
-seo-title: Navegación y accesibilidad del teclado
 solution: Experience Manager
 title: Navegación y accesibilidad del teclado
 topic: Dynamic Media
-uuid: 9d7df3b0-2d77-4a2f-9ef1-210ccbd7a1a6
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: e85ff41d20e7b39e023cba9bff58236e8b49d4f2
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
