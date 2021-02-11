@@ -6,8 +6,8 @@ seo-description: Guías de recursos para desarrolladores de Adobe Dynamic Media 
 translation-type: tm+mt
 source-git-commit: b82b8eb6f8ac7c87b0c25d2b3915024ad220fa40
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '164'
+ht-degree: 2%
 
 ---
 
