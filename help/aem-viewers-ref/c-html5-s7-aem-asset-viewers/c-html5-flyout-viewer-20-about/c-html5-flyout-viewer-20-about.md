@@ -1,13 +1,13 @@
 ---
 description: El visor flotante es un visor de imágenes. Muestra una imagen estática con la versión ampliada que se muestra en la vista flotante que activa el usuario. Este visor funciona con conjuntos de imágenes y la navegación se realiza mediante muestras. Está diseñado para trabajar en equipos de escritorio y dispositivos móviles.
-keywords: responsive
+keywords: adaptable
 solution: Experience Manager
 title: Flotante
 topic: Dynamic Media
 translation-type: tm+mt
 source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2084'
+source-wordcount: '2085'
 ht-degree: 0%
 
 ---
