@@ -1,6 +1,6 @@
 ---
 description: Toda la personalización visual y la mayor parte del comportamiento del visor de medios mixtos se realiza creando una CSS personalizada.
-keywords: responsive
+keywords: adaptable
 seo-description: Toda la personalización visual y la mayor parte del comportamiento del visor de medios mixtos se realiza creando una CSS personalizada.
 seo-title: Personalización del visor de medios mixtos
 solution: Experience Manager
@@ -10,7 +10,7 @@ uuid: 039462a7-2915-48f3-8d4b-0c527801b85a
 translation-type: tm+mt
 source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '1350'
+source-wordcount: '1351'
 ht-degree: 0%
 
 ---
