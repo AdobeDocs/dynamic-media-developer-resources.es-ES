@@ -1,6 +1,6 @@
 ---
 description: El visor de zoom básico es un visor de imágenes que muestra una sola imagen con zoom. Cuenta con herramientas de zoom, compatibilidad con pantalla completa y un botón de cierre opcional. Este visor es el más ligero. Está diseñado para trabajar en equipos de escritorio y dispositivos móviles.
-keywords: responsive
+keywords: adaptable
 seo-description: El visor de zoom básico es un visor de imágenes que muestra una sola imagen con zoom. Cuenta con herramientas de zoom, compatibilidad con pantalla completa y un botón de cierre opcional. Este visor es el más ligero. Está diseñado para trabajar en equipos de escritorio y dispositivos móviles.
 seo-title: Zoom básico
 solution: Experience Manager
@@ -10,7 +10,7 @@ uuid: 5466d647-af70-4503-9898-bb712ba6a007
 translation-type: tm+mt
 source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2076'
+source-wordcount: '2077'
 ht-degree: 0%
 
 ---
