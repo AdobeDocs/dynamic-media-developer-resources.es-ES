@@ -1,6 +1,6 @@
 ---
 description: Toda la personalización visual y la mayor parte del comportamiento del visor de giros se realiza mediante la creación de una CSS personalizada.
-keywords: responsive
+keywords: adaptable
 seo-description: Toda la personalización visual y la mayor parte del comportamiento del visor de giros se realiza mediante la creación de una CSS personalizada.
 seo-title: Personalización del visor de giros
 solution: Experience Manager
@@ -10,7 +10,7 @@ uuid: d951501c-d6da-454c-be2f-0887ffcac77c
 translation-type: tm+mt
 source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1342'
 ht-degree: 0%
 
 ---
