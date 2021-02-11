@@ -305,7 +305,7 @@ La siguiente tabla lista los formatos de archivo de imagen y las opciones de for
   <tr> 
    <td> <b> PNG</b> </td> 
    <td> <p> RGB | RGBA | gris | grisA | indexado </p> </td> 
-   <td> <p> 3 | 2 | 4 | 8 | 16 </p> </td> 
+   <td> <p> 1 | 2 | 4 | 8 | 16 </p> </td> 
    <td> <p> comprimido </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
