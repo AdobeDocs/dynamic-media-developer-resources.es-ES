@@ -99,7 +99,7 @@ Esto equivale a los siguientes comandos especificados explícitamente en la dire
 
 `style=etc/dam/presets/css/html5_interactiveimage.css`
 
-## Ejemplo 4 {#section-98dd1cc6b2a24375a1bd572fa83be35c}
+## Ejemplo 5 {#section-98dd1cc6b2a24375a1bd572fa83be35c}
 
 Un ajuste preestablecido de visor denominado `Shoppable_Video_Dark` contiene los datos siguientes:
 
@@ -119,7 +119,7 @@ Esto equivale a los siguientes comandos especificados explícitamente en la dire
 style=etc/dam/presets/css/html5_interactivevideo_dark.css
 ```
 
-## Ejemplo 5 {#section-19b988551d1d492a9079948e0b04b38f}
+## Ejemplo 4 {#section-19b988551d1d492a9079948e0b04b38f}
 
 Un ajuste preestablecido de visor denominado `Carousel_Dotted_light` los datos siguientes:
 
