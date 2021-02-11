@@ -1,6 +1,6 @@
 ---
 description: Toda la personalización visual y la mayor parte del comportamiento del visor de imágenes interactivo se realiza creando una CSS personalizada.
-keywords: responsive
+keywords: adaptable
 seo-description: Toda la personalización visual y la mayor parte del comportamiento del visor de imágenes interactivo se realiza creando una CSS personalizada.
 seo-title: Personalización del visor de imágenes interactivo
 solution: Experience Manager
@@ -10,7 +10,7 @@ uuid: 19868e4e-c2c9-41e0-82a6-20884a9454a4
 translation-type: tm+mt
 source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
