@@ -1,6 +1,6 @@
 ---
 description: El visor de búsqueda de catálogos electrónicos es un visor de catálogos que muestra los folletos electrónicos en un pliego o página por página. El catálogo electrónico permite a los usuarios navegar por el catálogo utilizando elementos adicionales de la interfaz de usuario o el modo de miniaturas dedicadas. Los usuarios también pueden acercar cada página para obtener buenos detalles.
-keywords: responsive
+keywords: adaptable
 solution: Experience Manager
 title: Búsqueda de catálogos electrónicos
 topic: Dynamic Media
@@ -8,7 +8,7 @@ uuid: f5ec33bf-e827-4709-9780-6f17096bf306
 translation-type: tm+mt
 source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2179'
+source-wordcount: '2180'
 ht-degree: 0%
 
 ---
