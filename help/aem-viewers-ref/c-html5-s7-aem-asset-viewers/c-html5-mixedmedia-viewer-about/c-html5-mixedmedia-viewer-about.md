@@ -1,13 +1,13 @@
 ---
 description: El visor de medios mixtos es un visor de medios. Admite conjuntos de medios que contienen imágenes, conjuntos de muestras, conjuntos de giros, vídeos y conjuntos de vídeos adaptables.
-keywords: responsive
+keywords: adaptable
 solution: Experience Manager
 title: Varios tipos de archivo
 topic: Dynamic Media
 translation-type: tm+mt
 source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2660'
+source-wordcount: '2661'
 ht-degree: 0%
 
 ---
