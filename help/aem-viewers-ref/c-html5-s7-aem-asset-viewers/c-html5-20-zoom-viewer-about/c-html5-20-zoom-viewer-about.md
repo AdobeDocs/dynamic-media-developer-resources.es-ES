@@ -1,6 +1,6 @@
 ---
 description: El visor de zoom es un visor de imágenes que muestra una imagen con zoom. Este visor funciona con conjuntos de imágenes y la navegación se realiza mediante muestras. Cuenta con herramientas de zoom, compatibilidad con pantalla completa, muestras y un botón de cierre opcional. Está diseñado para trabajar en equipos de escritorio y dispositivos móviles.
-keywords: responsive
+keywords: adaptable
 seo-description: El visor de zoom es un visor de imágenes que muestra una imagen con zoom. Este visor funciona con conjuntos de imágenes y la navegación se realiza mediante muestras. Cuenta con herramientas de zoom, compatibilidad con pantalla completa, muestras y un botón de cierre opcional. Está diseñado para trabajar en equipos de escritorio y dispositivos móviles.
 seo-title: Zoom
 solution: Experience Manager
@@ -10,7 +10,7 @@ uuid: ec2a91e2-ce2c-48b1-a2b2-8671524288c7
 translation-type: tm+mt
 source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2460'
+source-wordcount: '2461'
 ht-degree: 0%
 
 ---
