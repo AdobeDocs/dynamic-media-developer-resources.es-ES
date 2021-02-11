@@ -112,7 +112,7 @@ Esta configuración se controla interactivamente en la creación de imágenes. E
   <tr> 
    <td colname="col1"> <p>S </p> </td> 
    <td colname="col2"> <p>Supersampling: Tasa aleatoria. </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>20 </p> </td> 
    <td colname="col5"> <p>El valor predeterminado es 5. </p> </td> 
   </tr> 
