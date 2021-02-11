@@ -1,6 +1,6 @@
 ---
 description: Toda la personalización visual y la mayor parte del comportamiento del visor de zoom básico se realiza creando una CSS personalizada.
-keywords: responsive
+keywords: adaptable
 seo-description: Toda la personalización visual y la mayor parte del comportamiento del visor de zoom básico se realiza creando una CSS personalizada.
 seo-title: Personalización del visor de zoom básico
 solution: Experience Manager
@@ -10,7 +10,7 @@ uuid: 9f3c203e-ff6f-4bf1-a1dc-26495412af45
 translation-type: tm+mt
 source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '1353'
+source-wordcount: '1354'
 ht-degree: 0%
 
 ---
