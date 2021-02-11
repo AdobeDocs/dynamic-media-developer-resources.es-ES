@@ -1,13 +1,13 @@
 ---
 description: El visor de vídeo es un reproductor de vídeo que reproduce flujo continuo y vídeo progresivo codificado en formato H.264. Se entrega desde Dynamic Media Classic o AEM Dynamic Media.
-keywords: responsive
+keywords: adaptable
 solution: Experience Manager
 title: Vídeo
 topic: Dynamic Media
 translation-type: tm+mt
 source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2372'
+source-wordcount: '2373'
 ht-degree: 0%
 
 ---
