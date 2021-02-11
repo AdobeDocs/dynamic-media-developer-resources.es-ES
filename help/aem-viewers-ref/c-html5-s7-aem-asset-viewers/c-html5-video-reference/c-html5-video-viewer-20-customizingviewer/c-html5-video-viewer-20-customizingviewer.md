@@ -1,6 +1,6 @@
 ---
 description: Personalización del visor de vídeo
-keywords: responsive
+keywords: adaptable
 solution: Experience Manager
 title: Personalización del visor de vídeo
 topic: Dynamic Media
@@ -8,7 +8,7 @@ uuid: e18fdf8b-5834-4c99-b8a3-90d1f8310dc1
 translation-type: tm+mt
 source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '1256'
+source-wordcount: '1257'
 ht-degree: 0%
 
 ---
