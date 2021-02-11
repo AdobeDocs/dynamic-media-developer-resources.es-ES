@@ -1,6 +1,6 @@
 ---
 description: Toda la personalización visual y la mayor parte del comportamiento del visor de carrusel se realiza creando una CSS personalizada.
-keywords: responsive
+keywords: adaptable
 seo-description: Toda la personalización visual y la mayor parte del comportamiento del visor de carrusel se realiza creando una CSS personalizada.
 seo-title: Personalización del visor de carrusel
 solution: Experience Manager
@@ -10,7 +10,7 @@ uuid: a35dac3c-8785-42bf-8284-e400128f213c
 translation-type: tm+mt
 source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '1356'
+source-wordcount: '1357'
 ht-degree: 0%
 
 ---
