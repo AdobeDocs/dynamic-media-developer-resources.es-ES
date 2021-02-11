@@ -1,6 +1,6 @@
 ---
 description: El visor de giros es un visor de imágenes que proporciona una vista de 360 grados de la imagen o incluso una vista multidimensional si se utiliza un conjunto de giros adecuado. Cuenta con herramientas de zoom y giro, compatibilidad con pantalla completa y un botón de cierre opcional. Está diseñado para trabajar en equipos de escritorio y dispositivos móviles.
-keywords: responsive
+keywords: adaptable
 seo-description: El visor de giros es un visor de imágenes que proporciona una vista de 360 grados de la imagen o incluso una vista multidimensional si se utiliza un conjunto de giros adecuado. Cuenta con herramientas de zoom y giro, compatibilidad con pantalla completa y un botón de cierre opcional. Está diseñado para trabajar en equipos de escritorio y dispositivos móviles.
 seo-title: Spin
 solution: Experience Manager
@@ -10,7 +10,7 @@ uuid: 5d5cdf83-cfe8-48cd-af74-b270f7400b14
 translation-type: tm+mt
 source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2168'
+source-wordcount: '2169'
 ht-degree: 0%
 
 ---
