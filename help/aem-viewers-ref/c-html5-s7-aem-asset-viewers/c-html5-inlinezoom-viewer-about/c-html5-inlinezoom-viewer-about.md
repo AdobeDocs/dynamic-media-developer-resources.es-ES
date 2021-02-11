@@ -1,13 +1,13 @@
 ---
 description: El visor de zoom en línea es un visor de imágenes. Muestra una imagen estática con la versión ampliada que se muestra sobre esa imagen estática cuando un usuario pasa el cursor sobre la vista principal o la toca. Este visor funciona con conjuntos de imágenes y la navegación se realiza mediante muestras. Está diseñado para trabajar en equipos de escritorio y dispositivos móviles.
-keywords: responsive
+keywords: adaptable
 solution: Experience Manager
 title: Zoom en línea
 topic: Dynamic Media
 translation-type: tm+mt
 source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2403'
+source-wordcount: '2404'
 ht-degree: 0%
 
 ---
