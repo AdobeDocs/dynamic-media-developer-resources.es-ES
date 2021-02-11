@@ -1,13 +1,13 @@
 ---
 description: El visor de catálogos electrónicos es un visor de catálogos que muestra los folletos electrónicos en un pliego o página por página. El catálogo electrónico permite a los usuarios navegar por el catálogo utilizando elementos adicionales de la interfaz de usuario o el modo de miniaturas dedicadas. Los usuarios también pueden acercar cada página para obtener buenos detalles.
-keywords: responsive
+keywords: adaptable
 solution: Experience Manager
 title: Catálogo electrónico
 topic: Dynamic Media
 translation-type: tm+mt
 source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2163'
+source-wordcount: '2164'
 ht-degree: 0%
 
 ---
