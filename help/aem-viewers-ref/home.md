@@ -4,7 +4,7 @@ description: Guía de referencia de visores de Dynamic Media de Adobe para zoom 
 translation-type: tm+mt
 source-git-commit: 2f26ffbf4e1c7604fcffaed8fd0df591ea36763a
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
