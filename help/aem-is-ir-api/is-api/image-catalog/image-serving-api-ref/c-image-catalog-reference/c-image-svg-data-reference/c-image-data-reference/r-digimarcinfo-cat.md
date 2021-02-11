@@ -73,7 +73,7 @@ Cuatro valores enteros, separados por comas.
    <td> <p>- </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>Protegido con copia. </p> </td> 
   </tr> 
   <tr> 
@@ -81,7 +81,7 @@ Cuatro valores enteros, separados por comas.
    <td> <p>Restringido. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>Protegido con copia, restringido. </p> </td> 
   </tr> 
   <tr> 
@@ -130,7 +130,7 @@ La interpretación de `*`val1`*` y `*`val2`*` depende de `*`tipo`*`:
    <td> <p>No se usa. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>ID de la transacción. </p> </td> 
    <td> <p>No se usa. </p> </td> 
   </tr> 
