@@ -4,12 +4,13 @@ seo-description: Atributos de texto en ruta.
 seo-title: pathAttr
 solution: Experience Manager
 title: pathAttr
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b0ca5821-ee08-4c18-919d-775b75f19acd
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '154'
 ht-degree: 3%
 
 ---
@@ -24,27 +25,27 @@ Atributos de texto en ruta.
 <table id="simpletable_EC76095316AF4F07B1DDCC0D72B814CF"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> dirección </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> norm  </span> |  <span class="codeph"> inverso  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> norm  </span> |  <span class="codeph"> reverso  </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> startPos  </span> </p> </td> 
-  <td class="stentry"> <p>Posición del inicio de texto en la ruta (real 0.0...1.0). </p> </td> 
+  <td class="stentry"> <p>Posición de inicio del texto en la ruta (real 0.0...1.0). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> endPos  </span> </p> </td> 
-  <td class="stentry"> <p>Posición final del texto en la ruta (real 0.0...&lt;2.0). </p> </td> 
+  <td class="stentry"> <p>Posición del final del texto en la ruta (real 0.0...&lt;2.0). </p> </td> 
  </tr> 
 </table>
 
-Especifique `norm` para dibujar el texto comenzando cerca del primer vértice de ruta y `reverse` para dibujar el texto en la dirección opuesta, empezando cerca del último vértice.
+Especifique `norm` para dibujar texto empezando cerca del primer vértice de ruta y `reverse` para dibujar texto en la dirección opuesta, empezando cerca del último vértice.
 
-*`startPos`* y  *`endPos`* permitir el ajuste donde se dibuja el texto en la ruta. 0.0 corresponde al primer vértice de la ruta y 1.0 al último vértice; los valores intermedios expresan la distancia a lo largo de la ruta entre el primer y el último vértice.
+*`startPos`* y  *`endPos`* permiten ajustar dónde se dibuja el texto en la ruta. 0,0 corresponde al primer vértice de la ruta y 1,0 al último vértice; los valores intermedios expresan la distancia a lo largo de la ruta entre el primer y el último vértice.
 
 ## Propiedades {#section-80f266da4e2549d89f022a3f9ff4584d}
 
-Atributo de capa. Se omite si la capa no incluye comandos `textPs=` y `textPath=`.
+Atributo de capa. Se omite si la capa no incluye los comandos `textPs=` y `textPath=`.
 
-*`startPos`* debe ser bueno o igual a 0 y menor que 1.0.  *`endPos`* debe ser bueno  *`startPos`* y menor que o igual a 1,0 cuando se aplica a una ruta abierta, o menor o igual que (  *`startPos`* + 1,0) cuando se aplica a una ruta cerrada.
+*`startPos`* debe ser bueno o igual a 0 y menor que 1.0.  *`endPos`* debe ser bueno que  *`startPos`* y menor o igual que 1.0 cuando se aplique a una ruta abierta, o menor o igual que (  *`startPos`* + 1.0) cuando se aplique a una ruta cerrada.
 
 ## Predeterminado {#section-3e757970885c45e7b6100e78dc08626f}
 
