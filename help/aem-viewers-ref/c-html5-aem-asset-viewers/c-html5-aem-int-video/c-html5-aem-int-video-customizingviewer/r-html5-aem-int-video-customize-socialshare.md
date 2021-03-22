@@ -1,23 +1,24 @@
 ---
-description: La herramienta de uso compartido en redes sociales aparece en la esquina superior derecha de forma predeterminada. Consta de un botón y un panel que se expanden cuando el usuario hace clic o toca un botón y contiene herramientas individuales de uso compartido.
-seo-description: La herramienta de uso compartido en redes sociales aparece en la esquina superior derecha de forma predeterminada. Consta de un botón y un panel que se expanden cuando el usuario hace clic o toca un botón y contiene herramientas individuales de uso compartido.
-seo-title: Uso compartido social
+description: La herramienta de uso compartido en redes sociales aparece en la esquina superior derecha de forma predeterminada. Consiste en un botón y un panel que se expanden cuando el usuario hace clic o pulsa un botón y contiene herramientas de uso compartido individuales.
+seo-description: La herramienta de uso compartido en redes sociales aparece en la esquina superior derecha de forma predeterminada. Consiste en un botón y un panel que se expanden cuando el usuario hace clic o pulsa un botón y contiene herramientas de uso compartido individuales.
+seo-title: Uso compartido en medios sociales
 solution: Experience Manager
-title: Uso compartido social
-topic: Dynamic Media
+title: Uso compartido en medios sociales
 uuid: 1123e96a-581f-4c1c-ad95-9804e3235002
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '368'
 ht-degree: 1%
 
 ---
 
 
-# Uso compartido en redes sociales{#social-share}
+# Uso compartido en medios sociales{#social-share}
 
-La herramienta de uso compartido en redes sociales aparece en la esquina superior derecha de forma predeterminada. Consta de un botón y un panel que se expanden cuando el usuario hace clic o toca un botón y contiene herramientas individuales de uso compartido.
+La herramienta de uso compartido en redes sociales aparece en la esquina superior derecha de forma predeterminada. Consiste en un botón y un panel que se expanden cuando el usuario hace clic o pulsa un botón y contiene herramientas de uso compartido individuales.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -52,7 +53,7 @@ La posición y el tamaño de la herramienta de uso compartido en redes sociales 
 
 ## Ejemplo {#example}
 
-Para configurar una herramienta de uso compartido en redes sociales que se posiciona a cuatro píxeles de la parte superior y a cinco píxeles de la derecha del contenedor del visor y tiene un tamaño de 28 x 28 píxeles.
+Configurar una herramienta de uso compartido en redes sociales que se coloca a cuatro píxeles de la parte superior y a cinco píxeles de la derecha del contenedor de visor y cuyo tamaño es de 28 x 28 píxeles.
 
 ```
 .s7interactivevideoviewer .s7socialshare { 
@@ -63,32 +64,32 @@ Para configurar una herramienta de uso compartido en redes sociales que se posic
 }
 ```
 
-El aspecto del botón de la herramienta Compartir en redes sociales se controla con el siguiente selector de clases CSS:
+El aspecto del botón de la herramienta de uso compartido en redes sociales se controla con el siguiente selector de clases CSS:
 
 ```
 .s7interactivevideoviewer .s7socialshare .s7socialbutton
 ```
 
-**Propiedades CSS del botón de la herramienta Compartir en redes sociales**
+**Propiedades CSS del botón de herramienta de uso compartido en redes sociales**
 
 <table id="table_A18B6978EC304C378F5FE92DD44D138D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
    <td colname="col2"> <p> Imagen que se muestra para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
+   <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Este botón admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes apariencias a distintos estados de botones.
+>Este botón admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes aspectos a distintos estados de botones.
 
-La información de objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 ## Ejemplo {#example-1}
 
@@ -115,7 +116,7 @@ El aspecto del panel que contiene los iconos individuales de uso compartido en r
 .s7interactivevideoviewer .s7socialshare .s7socialsharepanel
 ```
 
-**Propiedades CSS del panel Compartir en redes sociales**
+**Propiedades CSS del panel de uso compartido en redes sociales**
 
 <table id="table_86E777A5851F47D6A49D966E24A9A6CD"> 
  <tbody> 
@@ -128,7 +129,7 @@ El aspecto del panel que contiene los iconos individuales de uso compartido en r
 
 ## Ejemplo {#example-2}
 
-Para configurar un panel para que tenga un color transparente:
+Para configurar un panel con un color transparente:
 
 ```
 .s7interactivevideoviewer .s7socialshare .s7socialsharepanel { 
