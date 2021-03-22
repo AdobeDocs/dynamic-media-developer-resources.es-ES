@@ -1,23 +1,24 @@
 ---
-description: Origen de capas.
-seo-description: Origen de capas.
-seo-title: origen
+description: Origen de la capa.
+seo-description: Origen de la capa.
+seo-title: origin
 solution: Experience Manager
-title: origen
-topic: Dynamic Media Image Serving - Image Rendering API
+title: origin
 uuid: a36fc0b6-7744-4c1c-b9f8-4aa31a886bff
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 3%
+source-wordcount: '169'
+ht-degree: 2%
 
 ---
 
 
-# origen{#origin}
+# origin{#origin}
 
-Origen de capas.
+Origen de la capa.
 
 `origin= *`coord`*`
 
@@ -26,7 +27,7 @@ Origen de capas.
 <table id="simpletable_A270FD92B1E841FE81F5AB300351FE01"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> coord</span> </p></td> 
-  <td class="stentry"> <p>Desplazamiento de píxeles desde la esquina superior izquierda del rectángulo de la capa (int, int). </p></td> 
+  <td class="stentry"> <p>Desplazamiento de píxeles desde la esquina superior izquierda del recto de capa (int, int). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> codeN</span> </p></td> 
@@ -36,17 +37,17 @@ Origen de capas.
 
 >[!NOTE]
 >
->El rect de capa siempre incluye cualquier modificación de `extend=`.
+>El recto de capas siempre incluye cualquier modificación de `extend=`.
 
-Define el punto de alineación del rectángulo de capa, que se utiliza para colocar el rectángulo de capa en relación con la capa 0 mediante `pos=`. `originN=0,0` coloca el origen de la capa en el centro del rectángulo de la capa. `originN=-0.5,-0.5` y  `origin=0,0` es la esquina superior izquierda y  `originN=0.5,0.5` es la esquina inferior derecha del rectángulo de la capa.
+Define el punto de alineación del rectángulo de capa, que se utiliza para colocar el rectángulo de capa en relación con la capa 0 a través de `pos=`. `originN=0,0` coloca el origen de la capa en el centro del rectángulo de la capa. `originN=-0.5,-0.5` y  `origin=0,0` es la esquina superior izquierda y  `originN=0.5,0.5` es la esquina inferior derecha del rectángulo de capa.
 
 ## Propiedades {#section-60f639e36ada43d1abc6bfc100afc925}
 
-Atributo de capa. Se aplica a la capa actual o a la capa 0 si `layer=comp`. No se ven afectadas por las transformaciones de capa ( `crop=`, `scale=`, `rotate=`, `flip=`) aplicadas al origen de capa. Anula `anchor=`. Omitido por capas de efectos.
+Atributo de capa. Se aplica a la capa actual o a la capa 0 si `layer=comp`. No se ve afectado por las transformaciones de capa ( `crop=`, `scale=`, `rotate=`, `flip=`) aplicadas al origen de capa. Anulaciones `anchor=`. Ignorado por capas de efecto.
 
 ## Predeterminado {#section-b7209e5c2ad6491fb0c2353cc3f1f703}
 
-Si no se especifica `origin=`, el origen de la capa se determina aplicando las transformaciones de la capa al anclaje de la imagen. Si no se conoce el anclaje de imagen, se utiliza el centro del rectángulo de capa ( `originN=0,0`).
+Si no se especifica `origin=`, el origen de la capa se determina aplicando las transformaciones de capa al anclaje de la imagen. Si no se conoce el anclaje de la imagen, se utiliza el centro del rectángulo de capa ( `originN=0,0`).
 
 ## Ejemplo {#section-13e38d6e17be4e6cbc6b27fbde63b291}
 
