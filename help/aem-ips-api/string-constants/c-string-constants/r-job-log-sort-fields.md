@@ -1,16 +1,17 @@
 ---
 description: Utilizado por getJobLogsParam/sortBy
 seo-description: Utilizado por getJobLogsParam/sortBy
-seo-title: Campos de ordenación de registro de trabajos
+seo-title: Campos de orden de registro de trabajo
 solution: Experience Manager
-title: Campos de ordenación de registro de trabajos
-topic: Dynamic Media Image Production System API
+title: Campos de orden de registro de trabajo
 uuid: 20f870da-421b-4cb0-8287-0220ad9b9cb5
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '26'
-ht-degree: 7%
+source-wordcount: '33'
+ht-degree: 6%
 
 ---
 
