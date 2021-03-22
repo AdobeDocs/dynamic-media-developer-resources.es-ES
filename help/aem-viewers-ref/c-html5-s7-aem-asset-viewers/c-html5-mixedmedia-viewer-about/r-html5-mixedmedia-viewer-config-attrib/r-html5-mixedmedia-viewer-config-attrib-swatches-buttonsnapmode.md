@@ -2,13 +2,14 @@
 description: Swatches.buttonsnapmode
 solution: Experience Manager
 title: Swatches.buttonsnapmode
-topic: Dynamic Media
 uuid: 1b0c5b5d-2a25-4899-8831-40fd0f364f42
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 10%
+source-wordcount: '51'
+ht-degree: 7%
 
 ---
 
@@ -21,11 +22,11 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> <span class="varname"> instantánea</span> </span> </p> </td> 
-   <td> <p>Alinea los botones junto a las muestras. </p> </td> 
+   <td> <p>Hace que los botones se alineen junto a las muestras. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> instantánea</span> </span> </p> </td> 
-   <td> <p>Alinea los botones junto al borde del componente. </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> resumen</span> </span> </p> </td> 
+   <td> <p>Hace que los botones se alineen junto al borde del componente. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> <span class="varname"> superposición</span> </span> </p> </td> 
