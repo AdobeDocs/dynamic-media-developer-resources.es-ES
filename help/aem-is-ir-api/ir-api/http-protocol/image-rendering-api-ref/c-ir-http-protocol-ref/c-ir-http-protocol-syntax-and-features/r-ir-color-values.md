@@ -1,28 +1,29 @@
 ---
-description: Los valores de color para los atributos color= y bgc= se pueden especificar mediante una lista de valores de componente decimales separados por comas o una notación hexadecimal, similar a HTML.
-seo-description: Los valores de color para los atributos color= y bgc= se pueden especificar mediante una lista de valores de componente decimales separados por comas o una notación hexadecimal, similar a HTML.
+description: Los valores de color para los atributos color= y bgc= se pueden especificar mediante una lista de valores de componentes decimales separados por coma o una notación hexadecimal, similar a HTML.
+seo-description: Los valores de color para los atributos color= y bgc= se pueden especificar mediante una lista de valores de componentes decimales separados por coma o una notación hexadecimal, similar a HTML.
 seo-title: Valores de color
 solution: Experience Manager
 title: Valores de color
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f8e3a8e7-3e0c-4ee6-8434-caba1f2bea1f
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 10%
+source-wordcount: '155'
+ht-degree: 9%
 
 ---
 
 
 # Valores de color{#color-values}
 
-Los valores de color para los atributos color= y bgc= se pueden especificar mediante una lista de valores de componente decimales separados por comas o una notación hexadecimal, similar a HTML.
+Los valores de color para los atributos color= y bgc= se pueden especificar mediante una lista de valores de componentes decimales separados por coma o una notación hexadecimal, similar a HTML.
 
 <table id="simpletable_9B3A231D5BB14A3DB2B42B341E198341"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> color</span> </p></td> 
-  <td class="stentry"> <p><span class="codeph">{ {rojo, verde, azul} | gris } | { [ 0x ] hex6 } | { 0xhex2 }</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">{ {red , green , blue} | gris } | { [ 0x ] hex6 } | { 0xhex2 }</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><i>rojo, verde, azul, gris</i> </p></td> 
