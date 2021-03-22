@@ -4,13 +4,14 @@ seo-description: Obtiene proyectos para un grupo de recursos relacionados.
 seo-title: getProjects
 solution: Experience Manager
 title: getProjects
-topic: Dynamic Media Image Production System API
 uuid: 46ec9a5d-4414-4c9c-aaf2-0db654204b61
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 20%
+source-wordcount: '82'
+ht-degree: 18%
 
 ---
 
@@ -32,17 +33,17 @@ Sintaxis
 
 ## Parámetros {#section-8d549237b8c440b4872a0a086ddc00a1}
 
-**Input (getProjectsParam)**
+**Entrada (getProjectsParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la compañía. |
+| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa. |
 
 **Salida (getProjectsReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`projectArray`*` | `types:ProjectArray` | Sí | Matriz de proyectos asociados a la compañía. |
+| `*`projectArray`*` | `types:ProjectArray` | Sí | Matriz de proyectos asociados a la empresa. |
 
 ## Ejemplos {#section-8b12d0b948f644f68bf9a16060d3849a}
 
