@@ -4,18 +4,19 @@ seo-description: Luminosidad de la superficie Especifica el brillo relativo de l
 seo-title: Brillo
 solution: Experience Manager
 title: Brillo
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7db83f99-15ab-4c43-adfb-07ad0b0c9707
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 3%
+source-wordcount: '135'
+ht-degree: 2%
 
 ---
 
 
-# Brillo{#gloss}
+# Gloss{#gloss}
 
 Luminosidad de la superficie Especifica el brillo relativo de la superficie del material.
 
@@ -27,7 +28,7 @@ El procesador utiliza este valor para los siguientes fines:
 
 ## Propiedades {#section-ddc475c0556f4f67b4cf62bd1bcd4bf7}
 
-Número entero. Número de porcentaje en el rango 0...100. Opcional para todos los materiales. Se utiliza únicamente para viñetas con varios mapas de reflexión o viñetas con capacidad de reflexión 3D. Deje vacío o defina en -1 si no se conoce o no es necesario.
+Número entero. Número de porcentaje en el rango 0...100. Opcional para todos los materiales. Solo se utiliza para viñetas con varios mapas de reflexión o viñetas con capacidad de reflexión 3D. Deje vacío o establezca en -1 si no se conoce o no es necesario.
 
 ## Predeterminado {#section-2352721073524f1a8d461f64a363aac9}
 
