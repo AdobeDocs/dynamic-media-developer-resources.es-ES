@@ -1,15 +1,16 @@
 ---
-description: Los conjuntos de propiedades son conjuntos de pares nombre-valor específicos de la aplicación que se pueden adjuntar a varios objetos IPS, según el tipo de conjunto de propiedades. Si el tipo de conjunto de propiedades no permite que se adjunten varios conjuntos a un objeto (PropertySetType/allowMultipleisfalse) y el objeto ya tiene un conjunto asociado del mismo tipo, el nuevo conjunto reemplazará al existente.
-seo-description: Los conjuntos de propiedades son conjuntos de pares nombre-valor específicos de la aplicación que se pueden adjuntar a varios objetos IPS, según el tipo de conjunto de propiedades. Si el tipo de conjunto de propiedades no permite que se adjunten varios conjuntos a un objeto (PropertySetType/allowMultipleisfalse) y el objeto ya tiene un conjunto asociado del mismo tipo, el nuevo conjunto reemplazará al existente.
+description: Los conjuntos de propiedades son conjuntos específicos de la aplicación de pares de nombre-valor que se pueden adjuntar a varios objetos IPS, según el tipo de conjunto de propiedades. Si el tipo de conjunto de propiedades no permite que se adjunten varios conjuntos a un objeto (PropertySetType/allowMultipleisfalse) y el objeto ya tiene un conjunto asociado del mismo tipo, el nuevo conjunto sustituirá al existente.
+seo-description: Los conjuntos de propiedades son conjuntos específicos de la aplicación de pares de nombre-valor que se pueden adjuntar a varios objetos IPS, según el tipo de conjunto de propiedades. Si el tipo de conjunto de propiedades no permite que se adjunten varios conjuntos a un objeto (PropertySetType/allowMultipleisfalse) y el objeto ya tiene un conjunto asociado del mismo tipo, el nuevo conjunto sustituirá al existente.
 seo-title: createPropertySet
 solution: Experience Manager
 title: createPropertySet
-topic: Dynamic Media Image Production System API
 uuid: f0b5b951-143f-4a31-bb6b-cdeabdebbcbb
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '283'
 ht-degree: 6%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 6%
 
 # createPropertySet{#createpropertyset}
 
-Los conjuntos de propiedades son conjuntos de pares nombre-valor específicos de la aplicación que se pueden adjuntar a varios objetos IPS, según el tipo de conjunto de propiedades. Si el tipo de conjunto de propiedades no permite que se adjunten varios conjuntos a un objeto (PropertySetType/allowMultipleisfalse) y el objeto ya tiene un conjunto asociado del mismo tipo, el nuevo conjunto reemplazará al existente.
+Los conjuntos de propiedades son conjuntos específicos de la aplicación de pares de nombre-valor que se pueden adjuntar a varios objetos IPS, según el tipo de conjunto de propiedades. Si el tipo de conjunto de propiedades no permite que se adjunten varios conjuntos a un objeto (PropertySetType/allowMultipleisfalse) y el objeto ya tiene un conjunto asociado del mismo tipo, el nuevo conjunto sustituirá al existente.
 
 Sintaxis
 
@@ -35,12 +36,12 @@ Sintaxis
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
 | `*`typeHandle`*` | `xsd:string` | Sí | El identificador del tipo de conjunto de propiedades. |
-| `*`PrimaryOwnerHandle`*` | `xsd:string` | Sí | Identificador del propietario principal del conjunto de propiedades. |
-| `*`secondaryOwnerHandle`*` | `xsd:string` | No | Identificador del propietario secundario del conjunto de propiedades. |
+| `*`primaryOwnerHandle`*` | `xsd:string` | Sí | El identificador del propietario principal del conjunto de propiedades. |
+| `*`childOwnerHandle`*` | `xsd:string` | No | El identificador del propietario secundario del conjunto de propiedades. |
 | `*`propertyArray`*` | `types:PropertyArray` | Sí | Matriz de propiedades. |
 | `*`permissionArray`*` | `types:PermissionUpdateArray` |  |  |
 
-**Output (createPropertySetParam)**
+**Salida (createPropertySetParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
