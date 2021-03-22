@@ -1,15 +1,16 @@
 ---
-description: Resolución de impresión. Resolución de impresión para la imagen a tamaño completo.
-seo-description: Resolución de impresión. Resolución de impresión para la imagen a tamaño completo.
-seo-title: PrintResolution
+description: Resolución de impresión. Resolución de impresión para la imagen de tamaño completo.
+seo-description: Resolución de impresión. Resolución de impresión para la imagen de tamaño completo.
+seo-title: Resolución de impresión
 solution: Experience Manager
-title: PrintResolution
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Resolución de impresión
 uuid: 1c7f504a-c69d-4cfc-af01-b2b6ac6f0fbf
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '83'
 ht-degree: 6%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 6%
 
 # PrintResolution{#printresolution}
 
-Resolución de impresión. Resolución de impresión para la imagen a tamaño completo.
+Resolución de impresión. Resolución de impresión para la imagen de tamaño completo.
 
-Este valor se incrusta en el encabezado de imagen de respuesta, a menos que se sobrescriba con `printRes=`.
+Este valor está incrustado en el encabezado de la imagen de respuesta, a menos que se sobrescriba con `printRes=`.
 
 ## Propiedades {#section-de3c1f73da7b43208beeec841c1778c1}
 
-Número entero, mayor que 0. Se expresa en puntos por pulgada. Opcional.
+Número entero mayor que 0. Se expresa en puntos por pulgada. Opcional.
 
 ## Predeterminado {#section-0cac992554ec4247ab05f70d9840a045}
 
