@@ -1,15 +1,16 @@
 ---
-description: Referencia de la API de JavaScript para el visor de giros.
-seo-description: Referencia de la API de JavaScript para el visor de giros.
+description: Referencia de la API de JavaScript para el visualizador de giros.
+seo-description: Referencia de la API de JavaScript para el visualizador de giros.
 seo-title: setParam
 solution: Experience Manager
 title: setParam
-topic: Dynamic Media
 uuid: 5f7be1d4-28aa-497c-9067-853c227aa11a
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de giros
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '99'
 ht-degree: 2%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 2%
 
 # setParam{#setparam}
 
-Referencia de la API de JavaScript para el visor de giros.
+Referencia de la API de JavaScript para el visualizador de giros.
 
 ` setParam( *`nombre, valor`*)`
 
@@ -29,7 +30,7 @@ Referencia de la API de JavaScript para el visor de giros.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}  </span> valor del parámetro. El valor no puede estar codificado en porcentaje. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}  </span> valor del parámetro. El valor no puede estar codificado por porcentajes. </p> </td> 
   </tr> 
  </tbody> 
 </table>
