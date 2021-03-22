@@ -2,13 +2,14 @@
 description: Visores para AEM Assets y Dynamic Media Classic
 solution: Experience Manager
 title: Visores para AEM Assets y Dynamic Media Classic
-topic: Dynamic Media
 uuid: 52f744df-8eee-45fe-8246-6f497d9feb66
+feature: Dynamic Media Classic,Visualizadores,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 13%
+source-wordcount: '61'
+ht-degree: 11%
 
 ---
 
@@ -19,7 +20,7 @@ Los siguientes visores funcionan en Adobe Experience Manager Assets y también e
 
 * [Zoom básico](c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-about.md)
 * [Catálogo electrónico](c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-about.md)
-* [Búsqueda de catálogos electrónicos](c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-about.md)
+* [Búsqueda en el catálogo electrónico](c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-about.md)
 * [Flotante](c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-about.md)
 * [Zoom en línea](c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-about.md)
 * [Varios tipos de archivo](c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-about.md)
