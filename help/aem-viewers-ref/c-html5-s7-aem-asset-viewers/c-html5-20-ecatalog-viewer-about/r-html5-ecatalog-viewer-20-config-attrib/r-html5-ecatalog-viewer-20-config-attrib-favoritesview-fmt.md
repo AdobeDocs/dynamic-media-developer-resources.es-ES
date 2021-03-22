@@ -2,12 +2,13 @@
 description: FavoritesView.fmt
 solution: Experience Manager
 title: FavoritesView.fmt
-topic: Dynamic Media
 uuid: 4d9d161e-e39b-4607-9fb1-9dbfb06d7704
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '80'
 ht-degree: 5%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> Especifica el formato de imagen utilizado por el componente para cargar imágenes desde el servidor de imágenes. El formato es cualquier valor admitido por el servidor de imágenes y el navegador del cliente. </p> <p>Si el formato de imagen termina con <span class="codeph"> -alpha</span>, el componente procesa las imágenes como contenido transparente. Para el resto de valores de formato de imagen, el componente trata las imágenes como opacas. </p> </td> 
+   <td colname="col2"> <p> Especifica el formato de imagen que utiliza el componente para cargar imágenes desde el servidor de imágenes. El formato es cualquier valor compatible con Image Server y el explorador del cliente. </p> <p>Si el formato de imagen termina con <span class="codeph"> -alpha</span>, el componente procesa las imágenes como contenido transparente. Para los demás valores de formato de imagen, el componente trata las imágenes como opacas. </p> </td> 
   </tr> 
  </tbody> 
 </table>
