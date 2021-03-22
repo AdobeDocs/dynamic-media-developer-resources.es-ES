@@ -1,15 +1,16 @@
 ---
-description: Las muestras principales constan de una fila de imágenes en miniatura con botones de desplazamiento opcionales en los lados izquierdo y derecho. Los botones de desplazamiento solo están visibles en el escritorio si todas las miniaturas no se ajustan al ancho del contenedor. En los dispositivos móviles, o si las miniaturas pueden ajustarse al ancho del contenedor, no se muestran los botones de desplazamiento.
-seo-description: Las muestras principales constan de una fila de imágenes en miniatura con botones de desplazamiento opcionales en los lados izquierdo y derecho. Los botones de desplazamiento solo están visibles en el escritorio si todas las miniaturas no se ajustan al ancho del contenedor. En los dispositivos móviles, o si las miniaturas pueden ajustarse al ancho del contenedor, no se muestran los botones de desplazamiento.
+description: Las muestras principales constan de una fila de imágenes en miniatura con botones de desplazamiento opcionales en los lados izquierdo y derecho. Los botones de desplazamiento solo están visibles en el escritorio si todas las miniaturas no se ajustan al ancho del contenedor. En dispositivos móviles, o si las miniaturas pueden ajustarse al ancho del contenedor, no se muestran los botones de desplazamiento.
+seo-description: Las muestras principales constan de una fila de imágenes en miniatura con botones de desplazamiento opcionales en los lados izquierdo y derecho. Los botones de desplazamiento solo están visibles en el escritorio si todas las miniaturas no se ajustan al ancho del contenedor. En dispositivos móviles, o si las miniaturas pueden ajustarse al ancho del contenedor, no se muestran los botones de desplazamiento.
 seo-title: Muestras principales
 solution: Experience Manager
 title: Muestras principales
-topic: Dynamic Media
 uuid: a968372d-3d11-45d7-b17f-50ec998f5e88
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '589'
 ht-degree: 2%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 2%
 
 # Muestras principales{#main-swatches}
 
-Las muestras principales constan de una fila de imágenes en miniatura con botones de desplazamiento opcionales en los lados izquierdo y derecho. Los botones de desplazamiento solo están visibles en el escritorio si todas las miniaturas no se ajustan al ancho del contenedor. En los dispositivos móviles, o si las miniaturas pueden ajustarse al ancho del contenedor, no se muestran los botones de desplazamiento.
+Las muestras principales constan de una fila de imágenes en miniatura con botones de desplazamiento opcionales en los lados izquierdo y derecho. Los botones de desplazamiento solo están visibles en el escritorio si todas las miniaturas no se ajustan al ancho del contenedor. En dispositivos móviles, o si las miniaturas pueden ajustarse al ancho del contenedor, no se muestran los botones de desplazamiento.
 
 El aspecto del contenedor de muestras se controla con el selector de clase CSS:
 
@@ -31,7 +32,7 @@ El aspecto del contenedor de muestras se controla con el selector de clase CSS:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>La altura de las muestras. </p> </td> 
+   <td colname="col2"> <p>Altura de las muestras. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> parte inferior </span> </p> </td> 
@@ -64,14 +65,14 @@ El espaciado entre las miniaturas de muestra se controla con el siguiente select
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> El tamaño de los márgenes horizontal y vertical alrededor de cada miniatura. El espaciado de miniaturas real es igual a la suma de los márgenes izquierdo y derecho establecidos para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col2"> <p> El tamaño de los márgenes horizontal y vertical alrededor de cada miniatura. El espaciado en miniatura real es igual a la suma de los márgenes izquierdo y derecho establecidos para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Ejemplo**
 
-Para definir el espaciado en diez píxeles tanto vertical como horizontalmente.
+Configurar el espaciado en diez píxeles tanto vertical como horizontalmente.
 
 ```
 .s7mixedmediaviewer .s7swatches .s7thumbcell { 
@@ -108,9 +109,9 @@ El aspecto de la miniatura individual se controla con el siguiente selector de c
 
 >[!NOTE]
 >
->La miniatura admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes apariencias a distintos estados de miniaturas. En particular, `state="selected"` corresponde a la miniatura de la imagen que se muestra actualmente en la vista principal, `state="default"` corresponde al resto de las miniaturas y `state="over"` se utiliza al pasar el ratón.
+>La miniatura admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes aspectos a diferentes estados de miniaturas. En concreto, `state="selected"` corresponde a la miniatura de la imagen que se muestra actualmente en la vista principal, `state="default"` corresponde al resto de miniaturas y `state="over"` se utiliza al pasar el ratón.
 
-Ejemplo: para configurar miniaturas de 56 x 56 píxeles, tenga un borde predeterminado de color gris claro y un borde seleccionado de color gris oscuro.
+Ejemplo: para configurar miniaturas de 56 x 56 píxeles, tenga un borde predeterminado de gris claro y un borde seleccionado de gris oscuro.
 
 ```
 .s7mixedmediaviewer .s7swatches .s7thumb { 
@@ -139,18 +140,18 @@ El tipo de recurso se muestra como un icono superpuesto sobre la imagen en minia
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
-   <td colname="col2"> <p>Anchura de la superposición de icono. </p> </td> 
+   <td colname="col2"> <p>Anchura de la superposición del icono. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
-   <td colname="col2"> <p>Altura de la superposición de icono. </p> </td> 
+   <td colname="col2"> <p>Altura de la superposición del icono. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-La superposición admite el selector de atributos `type` con los siguientes valores posibles: `image` (para imágenes únicas), `swatchset` (para conjuntos de muestras), `spinset` (para conjuntos de giros) y `video` (para vídeos únicos o conjuntos de vídeos adaptables).
+La superposición admite el selector de atributos `type` con los siguientes valores posibles: `image` (para imágenes únicas), `swatchset` (para conjuntos de muestras), `spinset` (para conjuntos de giros) y `video` (para vídeos individuales o conjuntos de vídeos adaptables).
 
-Ejemplo: para configurar superposiciones de icono para conjuntos de giros, conjuntos de muestras y vídeos:
+Ejemplo: para configurar superposiciones de iconos para conjuntos de giros, conjuntos de muestras y vídeos:
 
 ```
 .s7mixedmediaviewer .s7swatches .s7thumb .s7thumboverlay[type="swatchset"] { 
@@ -170,7 +171,7 @@ El aspecto de los botones de desplazamiento izquierdo y derecho se controla con 
 
 `.s7mixedmediaviewer .s7swatches .s7scrollrightbutton`
 
-No es posible colocar botones de desplazamiento mediante las propiedades CSS `top`, `left`, `bottom` y `right`. En su lugar, la lógica del visor las coloca automáticamente.
+No es posible colocar botones de desplazamiento utilizando las propiedades CSS `top`, `left`, `bottom` y `right`. En su lugar, la lógica del visor los coloca automáticamente.
 
 <table id="table_A5663C4AAC4446168CAD8DBA2894BB9C"> 
  <thead> 
@@ -182,30 +183,30 @@ No es posible colocar botones de desplazamiento mediante las propiedades CSS `to
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
-   <td colname="col2"> <p>Ancho del botón de desplazamiento. </p> </td> 
+   <td colname="col2"> <p>Anchura del botón de desplazamiento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altura del botón de desplazamiento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
    <td colname="col2"> <p>Imagen que se muestra para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
+   <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Este botón admite el selector de atributos `state`, que se puede utilizar para aplicar diferentes apariencias a diferentes estados de botón: `up`, `down`, `over` y `disabled`.
+>Este botón admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes aspectos a diferentes estados de botones: `up`, `down`, `over` y `disabled`.
 
-La información del objeto de botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obtener más información.
+La información sobre herramientas de botones se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obtener más información.
 
-Ejemplo: para configurar botones de desplazamiento de 56 x 56 píxeles y con diferentes ilustraciones para cada estado.
+Ejemplo: para configurar botones de desplazamiento de 56 x 56 píxeles y que tengan distintas ilustraciones para cada estado.
 
 ```
 .s7mixedmediaviewer .s7swatches .s7scrollleftbutton { 
