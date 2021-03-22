@@ -2,13 +2,14 @@
 description: InitialFrame
 solution: Experience Manager
 title: InitialFrame
-topic: Dynamic Media
 uuid: 3f805ef8-f5c4-42a1-952e-a21a0854446e
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 10%
+source-wordcount: '69'
+ht-degree: 8%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> frame</span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica un índice de propagación basado en cero para que se muestre al cargar el visor. El índice coincide con el índice del pliego en modo horizontal. Si se gira el visor a vertical, el visor muestra la página situada más a la izquierda del pliego al que apunta <span class="codeph"> frameIdx</span>. </p> </td> 
+   <td colname="col2"> <p> Especifica un índice de difusión basado en cero para mostrar al cargar el visor. El índice coincide con el índice de la extensión en modo horizontal. Si se gira el visor a vertical, el visor muestra la página situada más a la izquierda de la extensión señalada por <span class="codeph"> frameIdx</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -36,7 +37,7 @@ Opcional.
 
 ## Ejemplo {#section-cbc6684eb22e4d0883edc4b3d5742336}
 
-Cuando se especifica en la URL del visor.
+Cuando se especifique en la dirección URL del visor.
 
 ```
 [!DNL initialFrame=2
