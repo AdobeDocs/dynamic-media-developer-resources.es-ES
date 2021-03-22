@@ -1,21 +1,22 @@
 ---
 description: Cambia el nombre de un proyecto.
 seo-description: Cambia el nombre de un proyecto.
-seo-title: RenameProject
+seo-title: changeProject
 solution: Experience Manager
-title: RenameProject
-topic: Dynamic Media Image Production System API
+title: changeProject
 uuid: 6303c493-a6fe-4b32-80c3-947aba4190f7
+feature: Dynamic Media Classic,SDK/API,Administración de activos
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 22%
+source-wordcount: '84'
+ht-degree: 20%
 
 ---
 
 
-# RenameProject{#renameproject}
+# changeProject{#renameproject}
 
 Cambia el nombre de un proyecto.
 
@@ -32,23 +33,23 @@ Sintaxis
 
 ## Parámetros {#section-43ccd77648784be4a259a723c3e1db40}
 
-**Entrada (cambiar el nombre de ProjectParam)**
+**Entrada (cambiar nombre de ProjectParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyName`*` | `xsd:string` | Sí | Administre la compañía con el proyecto cuyo nombre desee cambiar. |
-| `*`projectHandle`*` | `xsd:string` | Sí | Gestionar el proyecto. |
-| `*`projectName`*` | `xsd:string` | Sí | Nuevo nombre de proyecto. |
+| `*`companyName`*` | `xsd:string` | Sí | Gestione a la empresa con el proyecto cuyo nombre desea cambiar. |
+| `*`projectHandle`*` | `xsd:string` | Sí | Gestione el proyecto. |
+| `*`projectName`*` | `xsd:string` | Sí | Nuevo nombre del proyecto. |
 
-**Salida (cambiar el nombre de ProjectParam)**
+**Salida (filenameProjectParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`projectHandle`*` | `xsd:string` | Sí | Identificador del proyecto cuyo nombre se ha cambiado. |
+| `*`projectHandle`*` | `xsd:string` | Sí | Identificador del proyecto cuyo nombre ha cambiado. |
 
 ## Ejemplos {#section-a0a06d9244774795b695a10b92b2a5e7}
 
-Este ejemplo de código cambia el nombre de un proyecto y devuelve el control del proyecto.
+Este ejemplo de código cambia el nombre de un proyecto y devuelve el identificador del proyecto.
 
 **Solicitar**
 
