@@ -1,23 +1,24 @@
 ---
-description: Calidad JPEG. Especifica los atributos de codificación JPEG para controlar el nivel de compresión. Esto a su vez varía el tamaño del archivo (cantidad de datos de respuesta) e, indirectamente, la calidad visual de la imagen resultante.
-seo-description: Calidad JPEG. Especifica los atributos de codificación JPEG para controlar el nivel de compresión. Esto a su vez varía el tamaño del archivo (cantidad de datos de respuesta) e, indirectamente, la calidad visual de la imagen resultante.
+description: Calidad JPEG. Especifica los atributos de codificación JPEG para controlar el nivel de compresión. Esto a su vez varía el tamaño del archivo (la cantidad de datos de respuesta) y, indirectamente, la calidad visual de la imagen resultante.
+seo-description: Calidad JPEG. Especifica los atributos de codificación JPEG para controlar el nivel de compresión. Esto a su vez varía el tamaño del archivo (la cantidad de datos de respuesta) y, indirectamente, la calidad visual de la imagen resultante.
 seo-title: qlt
 solution: Experience Manager
 title: qlt
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9f69845d-3b25-41a7-b6c0-83cf1d2bc450
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 6%
+source-wordcount: '274'
+ht-degree: 5%
 
 ---
 
 
 # qlt{#qlt}
 
-Calidad JPEG. Especifica los atributos de codificación JPEG para controlar el nivel de compresión. Esto a su vez varía el tamaño del archivo (cantidad de datos de respuesta) e, indirectamente, la calidad visual de la imagen resultante.
+Calidad JPEG. Especifica los atributos de codificación JPEG para controlar el nivel de compresión. Esto a su vez varía el tamaño del archivo (la cantidad de datos de respuesta) y, indirectamente, la calidad visual de la imagen resultante.
 
 ` qlt= *``*[, *`cualitychroma`*]`
 
@@ -27,20 +28,20 @@ Calidad JPEG. Especifica los atributos de codificación JPEG para controlar el n
   <td class="stentry"> <p>Calidad de codificación JPEG (1...100 int). </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> cromatismo  </span> </p> </td> 
-  <td class="stentry"> <p>Baja resolución de cromaticidad JPEG (0=normal, 1=disable); opcional, el valor predeterminado es 0. </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> croma  </span> </p> </td> 
+  <td class="stentry"> <p>Muestreo descendente de cromaticidad JPEG (0=normal, 1=disable); opcional, el valor predeterminado es 0. </p> </td> 
  </tr> 
 </table>
 
-Los valores *`quality`* más altos aumentan el tamaño y la calidad del archivo, los valores más bajos disminuyen el tamaño del archivo y reducen la calidad de imagen percibida. Si el valor es superior a 90, suele generar imágenes que no se distinguen de la imagen sin comprimir.
+Los valores más altos de *`quality`* aumentan el tamaño y la calidad del archivo, los valores más bajos reducen el tamaño de los archivos y reducen la calidad de imagen percibida. Si el valor es superior a 90, suele generar imágenes que no se distinguen de la imagen sin comprimir.
 
-Establezca el indicador *`chroma`* para desactivar el muestreo de cromaticidad RGB utilizado por los codificadores JPEG típicos. Esto puede aumentar el enfoque percibido de los bordes de una imagen cuando el borde se define mediante un cambio de tono en lugar de un brillo. La configuración de este indicador puede provocar un ligero aumento en el tamaño del archivo. Experimente con esta configuración si el texto parece ligeramente borroso.
+Establezca el indicador *`chroma`* para desactivar el muestreo descendente de cromaticidad RGB utilizado por los codificadores JPEG típicos. Esto puede aumentar la percepción de nitidez de los bordes en una imagen cuando el borde se define mediante un cambio de tono en lugar de un brillo. Configurar este indicador puede causar un ligero aumento en el tamaño del archivo. Experimente con esta configuración si el texto parece ligeramente borroso.
 
 ## Propiedades {#section-925a44cbdc9042db8d4eb149cd073d21}
 
-Solicitar atributo. Se aplica independientemente de la configuración de la capa actual. Se omite si el formato de archivo de imagen de salida no admite codificación JPEG. Consulte la descripción de `fmt=` para obtener información sobre los formatos de imagen de salida que admiten `qlt=`.
+Atributo de solicitud. Se aplica independientemente de la configuración de capa actual. Se omite si el formato de archivo de imagen de salida no admite codificación JPEG. Consulte la descripción de `fmt=` para obtener información sobre qué formatos de imagen de salida admiten `qlt=`.
 
-*`chroma`* se omite si el tipo de píxel de salida es CMYK o gris.
+*`chroma`* se ignora si el tipo de píxel de salida es CMYK o gris.
 
 ## Predeterminado {#section-0d8aa45d84df49e6b846596bbaf7f740}
 
@@ -52,7 +53,7 @@ Reduzca la calidad para una transmisión más rápida a través de una conexión
 
 `http://server/myRoodId/myImageId?qlt=60&wid=300`
 
-Aumente la calidad de las conexiones de ancho de banda alto:
+Aumente la calidad de las conexiones de gran ancho de banda:
 
 `http://server/myRootId/myImageId?qlt=95,1&wid=300`
 
