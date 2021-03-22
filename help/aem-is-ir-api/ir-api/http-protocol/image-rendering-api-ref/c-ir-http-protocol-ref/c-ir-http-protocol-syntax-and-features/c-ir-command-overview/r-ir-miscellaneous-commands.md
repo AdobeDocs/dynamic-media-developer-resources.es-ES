@@ -4,18 +4,19 @@ seo-description: Estos comandos también están disponibles.
 seo-title: Comandos varios
 solution: Experience Manager
 title: Comandos varios
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 31718b04-f09c-4103-8ccb-6818f91a1e32
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '37'
+source-wordcount: '45'
 ht-degree: 0%
 
 ---
 
 
-# Varios comandos{#miscellaneous-commands}
+# Comandos varios{#miscellaneous-commands}
 
 Estos comandos también están disponibles.
 
@@ -31,8 +32,8 @@ Estos comandos también están disponibles.
   <td class="stentry"></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-show.md#reference-f1824e1a501144bc9a6ae28de8e6bcb9" type="reference" format="dita" scope="local"> mostrar</a></span> </p> </td> 
-  <td class="stentry"> <p>Hacer visibles los objetos de superposición seleccionados. </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-show.md#reference-f1824e1a501144bc9a6ae28de8e6bcb9" type="reference" format="dita" scope="local"> show</a></span> </p> </td> 
+  <td class="stentry"> <p>Haga visibles los objetos de superposición seleccionados. </p></td> 
   <td class="stentry"></td> 
  </tr> 
 </table>
