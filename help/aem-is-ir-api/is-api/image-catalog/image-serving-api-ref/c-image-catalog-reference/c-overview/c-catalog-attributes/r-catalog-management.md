@@ -4,12 +4,13 @@ seo-description: Los archivos de atributos del catálogo reconocen estos atribut
 seo-title: Administración de catálogos
 solution: Experience Manager
 title: Administración de catálogos
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ef714ec5-8133-4d6f-bed0-29553fdb2af3
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
@@ -21,11 +22,11 @@ Los archivos de atributos del catálogo reconocen estos atributos de administrac
 
 <table id="simpletable_010A9494BFEB45F0A46FE9709E0404CA"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-catalogfile.md#reference-16498bb4cb33458697c1ab002ea8db79" type="reference" format="dita" scope="local"> CatalogFile</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-catalogfile.md#reference-16498bb4cb33458697c1ab002ea8db79" type="reference" format="dita" scope="local"> ArchivoCatálogo</a> </span> </p></td> 
   <td class="stentry"> <p>Nombres de los archivos de datos de imagen asociados. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-svgcatalogfile.md#reference-cd61769073f145e1ac37aa4fd53ae58d" type="reference" format="dita" scope="local"> SvgCatalogFile</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-svgcatalogfile.md#reference-cd61769073f145e1ac37aa4fd53ae58d" type="reference" format="dita" scope="local"> ArchivoCatálogoSvg</a> </span> </p></td> 
   <td class="stentry"> <p>Nombres de los archivos de datos SVG asociados. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -37,7 +38,7 @@ Los archivos de atributos del catálogo reconocen estos atributos de administrac
   <td class="stentry"> <p>Nombre del archivo de asignación de fuentes asociado. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-macrofile.md#reference-f91d717b3847458ca0f1fe95387554a2" type="reference" format="dita" scope="local"> MacroFile</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-macrofile.md#reference-f91d717b3847458ca0f1fe95387554a2" type="reference" format="dita" scope="local"> ArchivoMacro</a> </span> </p></td> 
   <td class="stentry"> <p>Nombre del archivo de definición de macro asociado. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -50,7 +51,7 @@ Los archivos de atributos del catálogo reconocen estos atributos de administrac
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootid.md#reference-13653312925e4a08b90f99961d53f546" type="reference" format="dita" scope="local"> RootId</a> </span> </p></td> 
-  <td class="stentry"> <p>Identificador del catálogo. </p></td> 
+  <td class="stentry"> <p>Identificador de catálogo. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md#reference-17d57e5967be403b8408fa7214017494" type="reference" format="dita" scope="local"> RootPath</a> </span> </p></td> 
@@ -58,11 +59,11 @@ Los archivos de atributos del catálogo reconocen estos atributos de administrac
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-staticcontentrootpath.md#reference-a2b5368d078349828d282357681bb2a5" type="reference" format="dita" scope="local"> StaticContentRootPath</a> </span> </p></td> 
-  <td class="stentry"> <p>Ruta raíz para archivos de datos de origen de contenido estático. </p></td> 
+  <td class="stentry"> <p>Ruta raíz para archivos de origen de contenido estático. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-savepath.md#reference-9c4686dc153b41d8a0751cde83615432" type="reference" format="dita" scope="local"> SavePath</a> </span> </p></td> 
-  <td class="stentry"> <p>Ruta raíz para las imágenes escritas en un archivo del servidor. </p></td> 
+  <td class="stentry"> <p>Ruta raíz para imágenes escritas en un archivo en el servidor. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-fullmatch.md#reference-c3a72f31672a48b386943d6781cf50d7" type="reference" format="dita" scope="local"> FullMatch</a> </span> </p></td> 
@@ -74,7 +75,7 @@ Los archivos de atributos del catálogo reconocen estos atributos de administrac
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-publishinfo.md#reference-3d772f2c98274a37ae7e35706e2db62d" type="reference" format="dita" scope="local"> PublishInfo</a> </span> </p></td> 
-  <td class="stentry"> <p>Cadena de anotación de catálogo. </p></td> 
+  <td class="stentry"> <p>Cadena de anotación del catálogo. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-cachevalidationpolicy.md#reference-e55e52fd749041718a9af69fa2027b57" type="reference" format="dita" scope="local"> CacheValidationPolicy</a> </span> </p></td> 
