@@ -1,21 +1,22 @@
 ---
-description: Solo visores para AEM Assets
+description: Visualizadores solo para AEM Assets
 solution: Experience Manager
-title: Solo visores para AEM Assets
-topic: Dynamic Media
+title: Visualizadores solo para AEM Assets
 uuid: ad815ca0-834c-404e-8baa-744a9d57dbd6
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 6%
+source-wordcount: '41'
+ht-degree: 4%
 
 ---
 
 
 # Solo visores para AEM Assets{#viewers-for-aem-assets-only}
 
-Los siguientes visores funcionan exclusivamente con Adobe Experience Manager Assets.
+Los siguientes visores funcionan exclusivamente en Adobe Experience Manager Assets.
 
 * [Carrusel](c-html5-aem-carousel/c-html5-aem-carousel.md)
 * [Imagen interactiva](c-html5-aem-interactive-images/c-html5-aem-interactive-images.md)
