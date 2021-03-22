@@ -1,23 +1,24 @@
 ---
-description: Referencia de la API de JavaScript para el visor de medios mixtos.
-seo-description: Referencia de la API de JavaScript para el visor de medios mixtos.
+description: Referencia de la API de JavaScript para el visualizador de medios mixtos.
+seo-description: Referencia de la API de JavaScript para el visualizador de medios mixtos.
 seo-title: setParam
 solution: Experience Manager
 title: setParam
-topic: Dynamic Media
 uuid: 427daeae-f7b4-4eb0-a285-e5b16c538239
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 2%
+source-wordcount: '102'
+ht-degree: 1%
 
 ---
 
 
 # setParam{#setparam}
 
-Referencia de la API de JavaScript para el visor de medios mixtos.
+Referencia de la API de JavaScript para el visualizador de medios mixtos.
 
 ` setParam( *`nombre, valor`*)`
 
@@ -33,7 +34,7 @@ Consulte también [init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedi
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}  </span> valor del parámetro. El valor no puede estar codificado en porcentaje. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}  </span> valor del parámetro. El valor no puede estar codificado por porcentajes. </p> </td> 
   </tr> 
  </tbody> 
 </table>
