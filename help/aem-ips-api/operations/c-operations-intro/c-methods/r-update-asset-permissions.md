@@ -1,23 +1,24 @@
 ---
-description: Actualiza los permisos de los recursos.
-seo-description: Actualiza los permisos de los recursos.
-seo-title: updateAssetPermissons
+description: Actualiza los permisos de recursos.
+seo-description: Actualiza los permisos de recursos.
+seo-title: updateAssetPermisos
 solution: Experience Manager
-title: updateAssetPermissons
-topic: Dynamic Media Image Production System API
+title: updateAssetPermisos
 uuid: feb2faf3-81de-436e-82de-1e41df03508f
+feature: Dynamic Media Classic,SDK/API,Administración de activos
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 22%
+source-wordcount: '67'
+ht-degree: 19%
 
 ---
 
 
-# updateAssetPermissons{#updateassetpermissons}
+# updateAssetPermisos{#updateassetpermissons}
 
-Actualiza los permisos de los recursos.
+Actualiza los permisos de recursos.
 
 Sintaxis
 
@@ -29,17 +30,17 @@ Sintaxis
 
 ## Parámetros {#section-392cb3076cf84790a32fd913f2b111a3}
 
-**Input (updateAssetPermissionsParam)**
+**Entrada (updateAssetPermissionsParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de compañía. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la empresa. |
 | `*`assetHandle`*` | `xsd:string` | Sí | Identificador de recurso. |
 | `*`updateArray`*` | `types:PermissionUpdateArray` | Sí | Permisos que desea aplicar al recurso. |
 
-**Output (updateAssetPermissionsReturn)**
+**Salida (updateAssetPermissionsReturn)**
 
-La API de IPS no devuelve una respuesta para esta operación.
+La API IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-1b7b7dbfdab34c819a53f3d33004e1f9}
 
