@@ -1,15 +1,16 @@
 ---
-description: Calidad de representación de conversión de color. Proporciona la interpretación predeterminada para las conversiones de color cuando la interpretación no se especifica con icc=.
-seo-description: Calidad de representación de conversión de color. Proporciona la interpretación predeterminada para las conversiones de color cuando la interpretación no se especifica con icc=.
+description: Interpretación de la conversión de color. Proporciona la interpretación predeterminada para conversiones de color cuando la interpretación no se especifica con icc=.
+seo-description: Interpretación de la conversión de color. Proporciona la interpretación predeterminada para conversiones de color cuando la interpretación no se especifica con icc=.
 seo-title: IccRenderIntent
 solution: Experience Manager
 title: IccRenderIntent
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a9648405-32c3-4762-bbb2-11e97d4f8374
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '126'
 ht-degree: 3%
 
 ---
@@ -17,15 +18,15 @@ ht-degree: 3%
 
 # IccRenderIntent{#iccrenderintent}
 
-Calidad de representación de conversión de color. Proporciona la interpretación predeterminada para las conversiones de color cuando la interpretación no se especifica con icc=.
+Interpretación de la conversión de color. Proporciona la interpretación predeterminada para conversiones de color cuando la interpretación no se especifica con icc=.
 
 ## Propiedades {#section-0a38c60e1525426185616c42824aee2c}
 
-Enum. Se establece en 0 para perceptual, 1 para colorimétrico relativo, 2 para saturación, 3 para colorimétrico absoluto. Mantenga vacío o defina cualquier otro valor para utilizar la interpretación predeterminada definida en el perfil de color.
+Enum. Se establece en 0 para perceptual, 1 para colorimétrico relativo, 2 para saturación, 3 para colorimétrico absoluto. Mantenga empty o establezca en cualquier otro valor para utilizar la interpretación predeterminada definida en el perfil de color.
 
 ## Predeterminado {#section-9301e3b7d0184ec5bf54a6eb73a6d3c1}
 
-Se hereda de `default::IccRenderIntent`si no se define. Si está vacío, se aplica &#39;colorimétrico relativo&#39;.
+Se hereda de `default::IccRenderIntent`si no se define. Si está vacío, se aplica &quot;colorimétrico relativo&quot;.
 
 ## Véase también {#section-e77bcdfef6d2486ebd545631ccb40ebd}
 
