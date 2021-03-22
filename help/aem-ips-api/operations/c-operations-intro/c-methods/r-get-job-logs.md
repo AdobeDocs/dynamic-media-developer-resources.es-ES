@@ -1,15 +1,16 @@
 ---
-description: Obtiene los registros de trabajo especificados para la compañía seleccionada. Puede ordenar por caracteres, dirección, fechas de inicio y finalización y número de filas.
-seo-description: Obtiene los registros de trabajo especificados para la compañía seleccionada. Puede ordenar por caracteres, dirección, fechas de inicio y finalización y número de filas.
+description: Obtiene los registros de trabajo especificados para la empresa seleccionada. Puede ordenar por caracteres, dirección, fechas de inicio y finalización y número de filas.
+seo-description: Obtiene los registros de trabajo especificados para la empresa seleccionada. Puede ordenar por caracteres, dirección, fechas de inicio y finalización y número de filas.
 seo-title: getJobLogs
 solution: Experience Manager
 title: getJobLogs
-topic: Dynamic Media Image Production System API
 uuid: 850ccfad-6cdb-4eda-a20a-762fadadf8b2
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '214'
 ht-degree: 10%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 10%
 
 # getJobLogs{#getjoblogs}
 
-Obtiene los registros de trabajo especificados para la compañía seleccionada. Puede ordenar por caracteres, dirección, fechas de inicio y finalización y número de filas.
+Obtiene los registros de trabajo especificados para la empresa seleccionada. Puede ordenar por caracteres, dirección, fechas de inicio y finalización y número de filas.
 
 Sintaxis
 
@@ -35,17 +36,17 @@ Sintaxis
 
 ## Parámetros {#section-8cfdc7994da24678a45edcb37e9a2166}
 
-**Input (getJobLogsParam)**
+**Entrada (getJobLogsParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | No | El identificador de compañía. |
+| `*`companyHandle`*` | `xsd:string` | No | El control de la empresa. |
 | `*`userHandle`*` | `xsd:string` | No | Obtiene registros de trabajos enviados por un usuario específico. |
 | `*`sortBy`*` | `xsd:string` | No | Permite seleccionar campos de ordenación. |
 | `*`sortDirection`*` | `xsd:string` | No | Orden (ascendente o descendente). |
-| `*`startDate`*` | `xsd:dateTime` | No | Fecha y hora del inicio del registro de trabajos. Proporcione el huso horario con la solicitud para este campo. |
-| `*`endDate`*` | `xsd:dateTime` | No | Fecha y hora del final del registro de trabajos. Proporcione el huso horario con la solicitud para este campo. |
-| `*`numRows`*` | `xsd:int` | No | Número máximo de filas que devolver. |
+| `*`startDate`*` | `xsd:dateTime` | No | La fecha y hora del inicio del registro de trabajos. Proporcione la zona horaria con la solicitud para este campo. |
+| `*`endDate`*` | `xsd:dateTime` | No | La fecha y hora del final del registro de trabajos. Proporcione la zona horaria con la solicitud para este campo. |
+| `*`numRows`*` | `xsd:int` | No | Número máximo de filas que se van a devolver. |
 
 **Salida (getJobLogsReturn)**
 
@@ -55,7 +56,7 @@ Sintaxis
 
 ## Ejemplos {#section-35871c94b4a44559912577efddbc46a6}
 
-Este ejemplo de código devuelve registros de trabajo IPS para una compañía específica. También puede utilizarla para devolver registros de trabajo para un usuario o compañía y usuario específicos.
+Este ejemplo de código devuelve registros de trabajo IPS para una empresa específica. También puede utilizarla para devolver registros de trabajo para un usuario o empresa y usuario específicos.
 
 **Solicitar**
 
