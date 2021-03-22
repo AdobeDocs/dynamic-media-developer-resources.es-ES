@@ -1,22 +1,23 @@
 ---
-description: Crea una cuenta de usuario y la agrega a una o varias compañías.
+description: Crea una cuenta de usuario y la agrega a una o varias empresas.
 solution: Experience Manager
 title: addUser
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 13%
+source-wordcount: '183'
+ht-degree: 12%
 
 ---
 
 
 # addUser{#adduser}
 
-Crea una cuenta de usuario y la agrega a una o varias compañías.
+Crea una cuenta de usuario y la agrega a una o varias empresas.
 
-Al agregar un usuario a varias compañías, especifique dichas compañías mediante sus identificadores de compañía en `companyHandleArray`. Esta operación devuelve el identificador al usuario que acaba de agregar.
+Cuando agregue un usuario a varias empresas, especifique dichas empresas según los identificadores de la empresa en `companyHandleArray`. Esta operación devuelve el identificador al usuario que acaba de agregar.
 
 ## Tipos de usuarios autorizados {#section-126ad42f844444fea11ecf8ad01fe1ec}
 
@@ -27,20 +28,20 @@ Al agregar un usuario a varias compañías, especifique dichas compañías media
 
 ## Parámetros {#section-40390a512e314b8d80ecffbb7729f6fb}
 
-**Input (addUserParam)**
+**Entrada (addUserParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
 | `*`firstName`*` | `xsd:string` | Sí | El nombre del usuario. |
-| `*`lastName`*` | `xsd:string` | Sí | Apellido del usuario. |
+| `*`lastName`*` | `xsd:string` | Sí | El apellido del usuario. |
 | `*`correo electrónico`*` | `xsd:string` | Sí | La dirección de correo electrónico del usuario. |
-| `*`defaultRole`*` | `xsd:string` | Sí | Define la función de un usuario en cada compañía a la que pertenece. Sin embargo, tenga en cuenta que la función `IpsAdmin` anula otras configuraciones por compañía. |
+| `*`defaultRole`*` | `xsd:string` | Sí | Establece la función de un usuario en cada empresa a la que pertenece. No obstante, tenga en cuenta que la función `IpsAdmin` anula otras configuraciones por empresa. |
 | `*`contraseña`*` | `xsd:string` | Sí | Establece la contraseña del usuario |
-| `*`passwordExpires`*` | `xsd:dateTime` | No | Establece el período de caducidad de la contraseña. Proporcione el huso horario al pasar la solicitud. Los husos horarios se ajustan a la hora central. |
-| `*`isvalid`*` | `xsd:boolean` | Sí | Determina si el usuario es válido. |
-| `*`membershipArray`*` | `xsd:CompanyMembershipUpdateArray` | Sí | Matriz de controladores de compañía. |
+| `*`passwordExpires`*` | `xsd:dateTime` | No | Establece el periodo de caducidad de la contraseña. Proporcione la zona horaria al pasar la solicitud. Las zonas horarias se ajustan a la hora central. |
+| `*`isValid`*` | `xsd:boolean` | Sí | Determina si el usuario es válido. |
+| `*`membershipArray`*` | `xsd:CompanyMembershipUpdateArray` | Sí | Matriz de controladores de empresa. |
 
-**Output (addUserParam)**
+**Salida (addUserParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
@@ -48,7 +49,7 @@ Al agregar un usuario a varias compañías, especifique dichas compañías media
 
 ## Ejemplos {#section-2547cef622734b71919eef849960b5cb}
 
-La API de IPS devuelve un elemento de control de usuario que especifica el nuevo usuario.
+La API IPS devuelve un elemento de control de usuario que especifica el nuevo usuario.
 
 **Solicitar**
 
