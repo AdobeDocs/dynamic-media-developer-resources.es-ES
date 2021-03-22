@@ -1,15 +1,16 @@
 ---
-description: Tipo opcional que permite elegir un fotograma de vídeo concreto para utilizarlo como imagen en miniatura.
-seo-description: Tipo opcional que permite elegir un fotograma de vídeo concreto para utilizarlo como imagen en miniatura.
+description: Un tipo opcional que permite elegir un fotograma de vídeo concreto para utilizarlo como imagen en miniatura.
+seo-description: Un tipo opcional que permite elegir un fotograma de vídeo concreto para utilizarlo como imagen en miniatura.
 seo-title: ThumbnailOptions
 solution: Experience Manager
 title: ThumbnailOptions
-topic: Dynamic Media Image Production System API
 uuid: 50b2ecee-8396-4323-83e1-1f5060bec6c4
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '120'
 ht-degree: 5%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 5%
 
 # ThumbnailOptions{#thumbnailoptions}
 
-Tipo opcional que permite elegir un fotograma de vídeo concreto para utilizarlo como imagen en miniatura.
+Un tipo opcional que permite elegir un fotograma de vídeo concreto para utilizarlo como imagen en miniatura.
 
 Sintaxis
 
@@ -35,7 +36,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailTime</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> <p>Establece el tiempo (en milisegundos desde el inicio de vídeo) del fotograma que desea utilizar para la miniatura de vídeo. Los valores van desde 0 hasta el final del vídeo. <p>Nota: El sistema utiliza el primer fotograma del vídeo para la miniatura si se especifica el tiempo incorrectamente. Consulte <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>. </p></p> </td> 
+   <td colname="col3"> <p>Establece el tiempo (en milisegundos desde el inicio del vídeo) del fotograma que desea utilizar para la miniatura del vídeo. Los valores van desde 0 hasta el final del vídeo. <p>Nota: El sistema utiliza el primer fotograma del vídeo para la miniatura si especifica el tiempo incorrectamente. Consulte <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>. </p></p> </td> 
   </tr> 
  </tbody> 
 </table>
