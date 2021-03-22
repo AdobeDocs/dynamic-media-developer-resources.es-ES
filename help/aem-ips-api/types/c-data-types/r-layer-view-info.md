@@ -1,23 +1,24 @@
 ---
-description: Propiedades de vista de capas.
-seo-description: Propiedades de vista de capas.
+description: Propiedades de la vista de capas.
+seo-description: Propiedades de la vista de capas.
 seo-title: LayerViewInfo
 solution: Experience Manager
 title: LayerViewInfo
-topic: Dynamic Media Image Production System API
 uuid: 58d26f4d-03a6-4f57-bc8e-117355c0d74c
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 11%
+source-wordcount: '58'
+ht-degree: 10%
 
 ---
 
 
 # LayerViewInfo{#layerviewinfo}
 
-Propiedades de vista de capas.
+Propiedades de la vista de capas.
 
 Sintaxis
 
@@ -25,7 +26,7 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| `*`url`*` | `xsd:string` | URL del servidor de imágenes que representa la plantilla. Combina campos `urlModifier` y `urlPostAp- plyModifier`. |
-| `*`urlModifier`*` | `xsd:string` | Comandos de protocolo de servicio de imágenes para aplicar antes de los comandos request o `urlPostApplyModifier`. |
+| `*`url`*` | `xsd:string` | URL del servidor de imágenes que representa la plantilla. Combina los campos `urlModifier` y `urlPostAp- plyModifier`. |
+| `*`urlModifier`*` | `xsd:string` | Comandos de protocolo de servicio de imágenes que se aplican antes de los comandos request o `urlPostApplyModifier`. |
 | `*`urlPostApplyModifier`*` | `xsd:string` | Comandos de protocolo de servicio de imágenes para aplicar después de `urlModifier` y comandos de solicitud. |
 
