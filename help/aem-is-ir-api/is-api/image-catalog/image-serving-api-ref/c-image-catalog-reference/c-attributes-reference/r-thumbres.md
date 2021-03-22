@@ -1,15 +1,16 @@
 ---
-description: Resolución de miniatura predeterminada. Proporciona una resolución de objeto de miniatura predeterminada en caso de que un registro de catálogo en particular no contenga un valor de catálogo ThumbRes válido.
-seo-description: Resolución de miniatura predeterminada. Proporciona una resolución de objeto de miniatura predeterminada en caso de que un registro de catálogo en particular no contenga un valor de catálogo ThumbRes válido.
+description: Resolución de miniatura predeterminada. Proporciona un valor predeterminado para la resolución del objeto de miniatura en caso de que un registro de catálogo concreto no contenga un valor de catálogo ThumbRes válido.
+seo-description: Resolución de miniatura predeterminada. Proporciona un valor predeterminado para la resolución del objeto de miniatura en caso de que un registro de catálogo concreto no contenga un valor de catálogo ThumbRes válido.
 seo-title: ThumbRes
 solution: Experience Manager
 title: ThumbRes
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 4a77d673-9d2e-4e62-a014-c99fa3df294a
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '129'
 ht-degree: 3%
 
 ---
@@ -17,9 +18,9 @@ ht-degree: 3%
 
 # ThumbRes{#thumbres}
 
-Resolución de miniatura predeterminada. Proporciona una resolución de objeto de miniatura predeterminada en caso de que un registro de catálogo en particular no contenga un valor de catálogo válido::ThumbRes.
+Resolución de miniatura predeterminada. Proporciona un valor predeterminado para la resolución del objeto de miniatura en caso de que un registro de catálogo concreto no contenga un valor de catálogo válido::ThumbRes.
 
-Solo se utiliza para solicitudes en miniatura ( `req=tmb`) y cuando `catalog::ThumbType=3`.
+Solo se usa para solicitudes de miniatura ( `req=tmb`) y cuando `catalog::ThumbType=3`.
 
 ## Propiedades {#section-88d37d0e030f4879a9e584dd2cc780f3}
 
@@ -27,7 +28,7 @@ Número real, mayor que 0.Normalmente expresado como píxeles por pulgada, pero 
 
 ## Predeterminado {#section-86588899ec9b4276a98b03d7faf64003}
 
-Se hereda de `default::ThumbRes` si no está definida o si está vacía.
+Se hereda de `default::ThumbRes` si no está definido o si está vacío.
 
 ## Véase también {#section-a6d2cce2e404441a996dba98a95c8e16}
 
