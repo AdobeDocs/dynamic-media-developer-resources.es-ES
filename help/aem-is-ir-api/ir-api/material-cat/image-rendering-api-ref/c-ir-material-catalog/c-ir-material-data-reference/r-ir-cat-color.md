@@ -1,15 +1,16 @@
 ---
-description: Color del material. El color principal de los materiales de color sólido y el color aditivo de los materiales de textura coloreados.
-seo-description: Color del material. El color principal de los materiales de color sólido y el color aditivo de los materiales de textura coloreados.
+description: Color del material. El color principal para materiales de color sólido y el color aditivo para materiales de textura coloreados.
+seo-description: Color del material. El color principal para materiales de color sólido y el color aditivo para materiales de textura coloreados.
 seo-title: Color
 solution: Experience Manager
 title: Color
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5bf6c586-8165-4a2b-97a3-ba88bb9f72df
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '109'
 ht-degree: 9%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 9%
 
 # Color{#color}
 
-Color del material. El color principal de los materiales de color sólido y el color aditivo de los materiales de textura coloreados.
+Color del material. El color principal para materiales de color sólido y el color aditivo para materiales de textura coloreados.
 
 ## Propiedades {#section-073772b43b264b37bd96d1fb7404d10b}
 
-Color. Necesario para materiales de color sólido. Opcional para materiales repetitivos de textura, gabinete y revestimiento de ventanas, para especificar el color de coloreado. Este campo debe dejarse vacío si no se va a modificar el color de una textura repetible o de los materiales del gabinete.
+Color. Necesario para materiales de color sólido. Opcional para materiales de textura, gabinete y recubrimiento de ventanas repetibles, para especificar el color de colorización. Este campo debe dejarse vacío si no se va a modificar el color de una textura repetible o de los materiales del gabinete.
 
 ## Predeterminado {#section-bf2c2ec642ed47da880ae2943b7d2c18}
 
