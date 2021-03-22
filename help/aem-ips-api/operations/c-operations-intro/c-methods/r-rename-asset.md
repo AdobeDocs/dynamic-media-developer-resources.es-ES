@@ -4,24 +4,25 @@ seo-description: Cambia el nombre de un recurso.
 seo-title: changeAsset
 solution: Experience Manager
 title: changeAsset
-topic: Dynamic Media Image Production System API
 uuid: f285d7e4-00df-4d90-a05a-71747a4c54cc
+feature: Dynamic Media Classic,SDK/API,Administración de activos
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 7%
+source-wordcount: '186'
+ht-degree: 6%
 
 ---
 
 
-# RenameAsset{#renameasset}
+# changeAsset{#renameasset}
 
 Cambia el nombre de un recurso.
 
 >[!NOTE]
 >
->El parámetro `renameFiles` ha quedado obsoleto para versiones anteriores y se ha eliminado de `renameAsset`. La ruta de acceso del archivo virtual se cambia para que coincida con el nuevo nombre del recurso (conservando la extensión del archivo), mientras que las rutas de acceso del archivo físico no se ven afectadas. Los clientes de API deben eliminar las referencias a este parámetro al actualizar a la nueva versión de API.
+>El parámetro `renameFiles` ha quedado obsoleto para versiones anteriores y se ha eliminado de `renameAsset`. La ruta del archivo virtual se cambia para que coincida con el nuevo nombre del recurso (conservando la extensión del archivo), mientras que las rutas de archivo físicas no se ven afectadas. Los clientes de API deben eliminar las referencias a este parámetro al actualizar a la nueva versión de API.
 
 ## Tipos de usuarios autorizados {#section-cc27ad713c6d498b8f056850b20976f4}
 
@@ -38,18 +39,18 @@ Cambia el nombre de un recurso.
 
 ## Parámetros {#section-ef95a994106841e0ab346dd4cf672258}
 
-**Entrada (cambiar el nombre de AssetParam)**
+**Entrada (cambiar nombre de AssetParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía a la que pertenece el recurso. |
-| `*`assetHandle`*` | `xsd:string` | Sí | Identificador del recurso cuyo nombre desea cambiar. |
+| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa a la que pertenece el recurso. |
+| `*`assetHandle`*` | `xsd:string` | Sí | El identificador del recurso cuyo nombre desea cambiar. |
 | `*`newName`*` | `xsd:string` | Sí | Nombre nuevo del recurso. |
-| `*`validateName`*` | `xsd:boolean` | Sí | Si `validateName` es `true` y el tipo de recurso requiere un ID IPS único, se comprueba la unicidad global del nuevo nombre y `renameAsset` genera un error si no es único. |
+| `*`validateName`*` | `xsd:boolean` | Sí | Si el `validateName` es `true` y el tipo de recurso requiere un ID de IPS único, se comprueba si el nuevo nombre es único global y `renameAsset` genera un error si no es único. |
 
-**Output (RenameAssetReturn)**
+**Salida (changeAssetReturn)**
 
-La API de IPS no devuelve una respuesta para esta operación. Consulte la descripción del elemento `<ns1:validateName>` para obtener más información sobre este elemento.
+La API IPS no devuelve una respuesta para esta operación. Consulte la descripción del elemento `<ns1:validateName>` para obtener advertencias sobre este elemento.
 
 ## Ejemplos {#section-a0ddffd62bec42e09069f22ceb486f8a}
 
