@@ -2,13 +2,14 @@
 description: Print.printquality
 solution: Experience Manager
 title: Print.printquality
-topic: Dynamic Media
 uuid: 5ed92338-d6d4-4f59-b2b9-5c0caceef6a4
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '18'
-ht-degree: 33%
+source-wordcount: '29'
+ht-degree: 20%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 33%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> tamaño</span></span> </p> </td> 
-   <td colname="col2"> <p> Tamaño máximo de la imagen que se va a imprimir. </p> </td> 
+   <td colname="col2"> <p> El tamaño máximo de la imagen que se va a imprimir. </p> </td> 
   </tr> 
  </tbody> 
 </table>
