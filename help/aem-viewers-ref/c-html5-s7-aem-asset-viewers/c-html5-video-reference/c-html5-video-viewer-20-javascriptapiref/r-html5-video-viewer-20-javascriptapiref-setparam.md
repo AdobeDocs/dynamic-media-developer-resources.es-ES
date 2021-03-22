@@ -1,15 +1,16 @@
 ---
-description: Referencia de la API de JavaScript para el visor de vídeos.
-seo-description: Referencia de la API de JavaScript para el visor de vídeos.
+description: Referencia de la API de JavaScript para el visualizador de vídeo.
+seo-description: Referencia de la API de JavaScript para el visualizador de vídeo.
 seo-title: setParam
 solution: Experience Manager
 title: setParam
-topic: Dynamic Media
 uuid: c1bc5271-2444-4f6b-8bed-5df88ecd59f8
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '98'
 ht-degree: 2%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 2%
 
 # setParam{#setparam}
 
-Referencia de la API de JavaScript para el visor de vídeos.
+Referencia de la API de JavaScript para el visualizador de vídeo.
 
 ` setParam( *`nombre, valor`*)`
 
@@ -35,7 +36,7 @@ Consulte también [init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-ref
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}  </span> valor del parámetro. El valor no puede estar codificado en porcentaje. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}  </span> valor del parámetro. El valor no puede estar codificado por porcentajes. </p> </td> 
   </tr> 
  </tbody> 
 </table>
