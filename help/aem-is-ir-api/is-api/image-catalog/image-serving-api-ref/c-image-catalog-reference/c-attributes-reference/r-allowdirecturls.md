@@ -4,13 +4,14 @@ seo-description: Permitir direcciones URL absolutas como fuentes de imagen.
 seo-title: AllowDirectUrls
 solution: Experience Manager
 title: AllowDirectUrls
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 91d46cc5-8ada-4bd4-b7ff-3d021f4f32ea
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 8%
+source-wordcount: '65'
+ht-degree: 7%
 
 ---
 
@@ -19,7 +20,7 @@ ht-degree: 8%
 
 Permitir direcciones URL absolutas como fuentes de imagen.
 
-Activa o desactiva la compatibilidad con direcciones URL absolutas incrustadas en comandos `src=` y `mask=`. Cuando se deshabilita, solo se permiten las direcciones URL relativas a `attribute::RootUrl`.
+Habilita o deshabilita la compatibilidad con direcciones URL absolutas incrustadas en los comandos `src=` y `mask=`. Cuando está desactivado, solo se permiten las direcciones URL relativas a `attribute::RootUrl`.
 
 ## Propiedades {#section-192825a6b02e4cc4a6aa102f93be89f0}
 
@@ -27,7 +28,7 @@ Indicador.
 
 ## Predeterminado {#section-c2eb9ab424db41c6aac91ba2cbe00ef5}
 
-Se hereda de `default::AllowDirectUrls` si no está definida o si está vacía.
+Se hereda de `default::AllowDirectUrls` si no está definido o si está vacío.
 
 ## Véase también {#section-604f9500749c4e1a968b260b9a3812b2}
 
