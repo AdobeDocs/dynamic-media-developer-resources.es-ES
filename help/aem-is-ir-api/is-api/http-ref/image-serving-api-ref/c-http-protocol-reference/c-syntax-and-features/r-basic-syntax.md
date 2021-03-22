@@ -1,15 +1,16 @@
 ---
-description: La sintaxis básica del protocolo HTTP es la siguiente.
-seo-description: La sintaxis básica del protocolo HTTP es la siguiente.
+description: 'La sintaxis básica del protocolo HTTP es la siguiente:'
+seo-description: 'La sintaxis básica del protocolo HTTP es la siguiente:'
 seo-title: Sintaxis básica del protocolo HTTP de servicio de imágenes
 solution: Experience Manager
 title: Sintaxis básica del protocolo HTTP de servicio de imágenes
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3269c2f2-df0f-4b62-ae9c-a267acae8071
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '292'
 ht-degree: 1%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 1%
 
 # Sintaxis básica del protocolo HTTP de servicio de imágenes{#image-serving-http-protocol-basic-syntax}
 
-La sintaxis básica del protocolo HTTP es la siguiente.
+La sintaxis básica del protocolo HTTP es la siguiente:
 
 <table id="simpletable_854C20D4C42247B99D9F123543C17E7C"> 
  <tr class="strow"> 
@@ -54,7 +55,7 @@ La sintaxis básica del protocolo HTTP es la siguiente.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> cmdName</span> </span> </p></td> 
-  <td class="stentry"> <p>Uno de los nombres de comando o atributo admitidos. </p></td> 
+  <td class="stentry"> <p>Uno de los nombres de comandos o atributos admitidos. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> var</span> </span> </p> </td> 
@@ -66,7 +67,7 @@ La sintaxis básica del protocolo HTTP es la siguiente.
  </tr> 
 </table>
 
-*`server_address`*,  *`cmdName`*,  *`macro`*, y  *`var`* distinguen entre mayúsculas y minúsculas. El servidor conserva las mayúsculas y minúsculas de todos los demás valores de cadena.
+*`server_address`*,  *`cmdName`*,  *`macro`*, y  *`var`* distinguen entre mayúsculas y minúsculas. El servidor conserva las mayúsculas y minúsculas del resto de los valores de cadena.
 
 *`value`* es específico para cada comando y puede constar de uno o más valores separados por comas. Consulte la descripción de los comandos individuales para obtener más detalles.
 
@@ -76,15 +77,15 @@ El contexto raíz [!DNL /is/image] es necesario para todas las solicitudes HTTP 
 
 ## Descodificación HTTP {#section-20922baccd804d2d986b44ce9a183a7d}
 
-El servicio de imágenes primero extrae *`object`* y *`modifiers`* de la solicitud entrante. *`object`* a continuación se separa en elementos de ruta que se descodifican individualmente en HTTP. La cadena *`modifiers`* se separa en pares *`command`*= *`value`* y *`value`* se descodifica entonces en HTTP antes de un procesamiento específico del comando.
+El servicio de imágenes extrae primero *`object`* y *`modifiers`* de la solicitud entrante. *`object`* a continuación, se separa en elementos de ruta que se decodifican individualmente con HTTP. La cadena *`modifiers`* se separa en pares *`command`*= *`value`* y *`value`* se decodifica HTTP antes del procesamiento específico del comando.
 
 >[!NOTE]
 >
->A menos que se indique lo contrario en la documentación, todos los caracteres no seguros deben codificarse según el estándar HTTP. Consulte la especificación HTTP para obtener más detalles.
+>A menos que se indique lo contrario en la documentación, todos los caracteres no seguros deben codificarse según el estándar HTTP. Consulte la especificación HTTP para obtener más información.
 
 ## Comentarios {#section-69ef0be0f17a418c87a0eba21c2ddb00}
 
-Los comentarios pueden incrustarse en cadenas de solicitud en cualquier lugar y se identifican mediante un punto (.) inmediatamente después del comando separator(&amp;). El comentario termina con la siguiente aparición de un separador de comandos (no codificado). Esta función se puede utilizar para agregar información a la solicitud que no se utiliza para el servicio de imágenes, como marcas de hora, ID de base de datos, etc.
+Los comentarios se pueden incrustar en cadenas de solicitud en cualquier lugar y se identifican mediante un punto (.) inmediatamente después del comando separator(&amp;). El comentario termina con la siguiente incidencia de un separador de comandos (sin codificar). Esta función se puede utilizar para añadir información a la solicitud que no se utilice con el servicio de imágenes, como marcas de hora, ID de base de datos, etc.
 
 ## Véase también {#section-d0b836568c31454b8dbeb136e6bbe0f0}
 
