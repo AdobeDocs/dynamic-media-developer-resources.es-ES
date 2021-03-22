@@ -1,15 +1,16 @@
 ---
-description: Datos de trabajo para un trabajo por lotes.
-seo-description: Datos de trabajo para un trabajo por lotes.
+description: Datos de trabajo de un trabajo por lotes.
+seo-description: Datos de trabajo de un trabajo por lotes.
 seo-title: jobdata
 solution: Experience Manager
 title: jobdata
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 4d0fca91-f08a-48cf-931a-504d295785fc
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '44'
+source-wordcount: '52'
 ht-degree: 0%
 
 ---
@@ -17,6 +18,6 @@ ht-degree: 0%
 
 # jobdata{#jobdata}
 
-Datos de trabajo para un trabajo por lotes.
+Datos de trabajo de un trabajo por lotes.
 
-Se utiliza en solicitudes de trabajo por lotes para describir completamente un trabajo al enviar un trabajo para su procesamiento. El valor es un fragmento XML con codificación URL.
+Se utiliza en las solicitudes de trabajos por lotes para describir completamente un trabajo al enviar un trabajo para su procesamiento. El valor es un fragmento XML con codificación URL.
