@@ -1,23 +1,24 @@
 ---
-description: Los siguientes campos se reconocen en los archivos de datos de imagen y SVG.
-seo-description: Los siguientes campos se reconocen en los archivos de datos de imagen y SVG.
-seo-title: Datos Image_SVG
+description: Los campos siguientes se reconocen en archivos de datos de imagen y SVG.
+seo-description: Los campos siguientes se reconocen en archivos de datos de imagen y SVG.
+seo-title: Datos de Image_SVG
 solution: Experience Manager
-title: Datos Image_SVG
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Datos de Image_SVG
 uuid: 6f9595b3-d448-4aa1-87fe-edddfdd48873
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 3%
+source-wordcount: '138'
+ht-degree: 2%
 
 ---
 
 
-# Datos Image_SVG{#image-svg-data}
+# Datos de Image_SVG{#image-svg-data}
 
-Los siguientes campos se reconocen en los archivos de datos de imagen y SVG.
+Los campos siguientes se reconocen en archivos de datos de imagen y SVG.
 
 ## Administración de catálogos {#section-1056bcc3b6d04166b3aa6ec48913b6b2}
 
@@ -40,7 +41,7 @@ Los siguientes campos se reconocen en los archivos de datos de imagen y SVG.
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-expiration-cat.md#reference-a7afd668ecbb4d2da65d86259aa6a28a" type="reference" format="dita" scope="local"> Caducidad</a></span> </p> </td> 
-   <td colname="col2"> <p>Caducidad de caché (tiempo de vida) para las imágenes de respuesta. </p> </td> 
+   <td colname="col2"> <p>Caducidad de caché (tiempo de vida) para imágenes de respuesta. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-modifier-cat.md" type="reference" format="dita" scope="local"> Modificador</a> </span> </p> </td> 
@@ -48,11 +49,11 @@ Los siguientes campos se reconocen en los archivos de datos de imagen y SVG.
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-postmodifier-cat.md" type="reference" format="dita" scope="local"> PostModifier</a> </span> </p> </td> 
-   <td colname="col2"> <p>Modificadores de solicitud Postfix. </p> </td> 
+   <td colname="col2"> <p>Modificadores de solicitud postfix. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-timestamp-cat.md#reference-59a27b72f4cb4a53a3baba83214c4ded" type="reference" format="dita" scope="local"> TimeStamp</a></span> </p> </td> 
-   <td colname="col2"> <p>Marca de hora de modificación de archivos. </p> </td> 
+   <td colname="col2"> <p>Marca de tiempo de modificación de archivo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,7 +64,7 @@ Los siguientes campos se reconocen en los archivos de datos de imagen y SVG.
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-anchor-cat.md" type="reference" format="dita" scope="local"> Anclaje</a></span> </p> </td> 
-   <td colname="col2"> <p>Punto de anclaje de la imagen. </p> </td> 
+   <td colname="col2"> <p>Punto de ancla de imagen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-maskpath-cat.md" type="reference" format="dita" scope="local"> MaskPath</a></span> </p> </td> 
@@ -74,12 +75,12 @@ Los siguientes campos se reconocen en los archivos de datos de imagen y SVG.
    <td colname="col2"> <p>Ruta del archivo de imagen/SVG. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-printresolution-cat.md#reference-4ebb2e136995470b84b7c5e10cb8e5f5" type="reference" format="dita" scope="local"> PrintResolution</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-printresolution-cat.md#reference-4ebb2e136995470b84b7c5e10cb8e5f5" type="reference" format="dita" scope="local"> Resolución de impresión</a></span> </p> </td> 
    <td colname="col2"> <p>Resolución de impresión. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-resolution-cat.md#reference-de489f5f36b64bd0831749546f8728e1" type="reference" format="dita" scope="local"> Resolución</a></span> </p> </td> 
-   <td colname="col2"> <p>Resolución de objetos. </p> </td> 
+   <td colname="col2"> <p>Resolución del objeto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-size-cat.md" type="reference" format="dita" scope="local"> Tamaño</a></span> </p> </td> 
@@ -94,7 +95,7 @@ Los siguientes campos se reconocen en los archivos de datos de imagen y SVG.
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-thumbres-cat.md#reference-eedb9991397347c3bed5bd0a785c4c69" type="reference" format="dita" scope="local"> ThumbRes</a></span> </p> </td> 
-   <td colname="col2"> <p>Resolución de miniatura. </p> </td> 
+   <td colname="col2"> <p>Resolución de miniaturas. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-thumbtype-cat.md#reference-41149ddffc8749cba2f8d9c8e2611e03" type="reference" format="dita" scope="local"> ThumbType</a></span> </p> </td> 
@@ -112,16 +113,16 @@ Los siguientes campos se reconocen en los archivos de datos de imagen y SVG.
    <td colname="col2"> <p>Tipo de recurso. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md" type="reference" format="dita" scope="local"> ImageSet</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md" type="reference" format="dita" scope="local"> Conjunto de imágenes</a></span> </p> </td> 
    <td colname="col2"> <p>Datos del conjunto de imágenes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-map-cat.md" type="reference" format="dita" scope="local"> Mapa</a></span> </p> </td> 
-   <td colname="col2"> <p>Datos del mapa de imagen. </p> </td> 
+   <td colname="col2"> <p>Datos del mapa de imágenes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-targets-cat.md" type="reference" format="dita" scope="local"> Destinatarios</a></span> </p> </td> 
-   <td colname="col2"> <p>Zoom de datos de destinatario. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-targets-cat.md" type="reference" format="dita" scope="local"> Objetivos</a></span> </p> </td> 
+   <td colname="col2"> <p>Ampliar los datos de destino. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md" type="reference" format="dita" scope="local"> UserData</a></span> </p> </td> 
