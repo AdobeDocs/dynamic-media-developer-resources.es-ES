@@ -1,15 +1,16 @@
 ---
-description: Referencia de la API de JavaScript para el visor de imágenes de vídeo.
-seo-description: Referencia de la API de JavaScript para el visor de imágenes de vídeo.
+description: Referencia de la API de JavaScript para el visualizador de imágenes de vídeo.
+seo-description: Referencia de la API de JavaScript para el visualizador de imágenes de vídeo.
 seo-title: setAsset
 solution: Experience Manager
 title: setAsset
-topic: Dynamic Media
 uuid: 8cb10b2e-addb-4659-a93b-5a53d0f8a5bb
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Imágenes interactivas
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '94'
 ht-degree: 3%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 3%
 
 # setAsset{#setasset}
 
-Referencia de la API de JavaScript para el visor de imágenes de vídeo.
+Referencia de la API de JavaScript para el visualizador de imágenes de vídeo.
 
 ` setAsset( *`asset`*)`
 
-Establece el nuevo recurso. Puede llamar a este parámetro en cualquier momento, ya sea antes o después de `init()`. Si se llama después de `init()`, el visor intercambia el recurso en tiempo de ejecución.
+Establece el nuevo recurso. Puede llamar a este parámetro en cualquier momento, ya sea antes o después de `init()`. Si se llama después de `init()`, el visor intercambia el recurso durante la ejecución.
 
 Consulte también [init](../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/r-html5-aem-int-image-viewer-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
@@ -29,7 +30,7 @@ Consulte también [init](../../../c-html5-aem-asset-viewers/c-html5-aem-interact
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> recurso</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> String</span>} nuevo ID de recurso. </p> <p>Este visor no admite las imágenes que utilizan IR (procesamiento de imágenes) o UGC (contenido generado por el usuario). </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> Cadena</span>} nuevo ID de recurso. </p> <p>Este visor no admite las imágenes que utilizan IR (Image Rendering) o UGC (User-Generated Content). </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -40,7 +41,7 @@ Ninguno.
 
 ## Ejemplo {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
-Referencia de una sola imagen:
+Referencia de imagen única:
 
 ```
 <instance>.setAsset("/content/dam/mac/aodmarketingna/shoppable-banner/shoppable-banner.jpg")
