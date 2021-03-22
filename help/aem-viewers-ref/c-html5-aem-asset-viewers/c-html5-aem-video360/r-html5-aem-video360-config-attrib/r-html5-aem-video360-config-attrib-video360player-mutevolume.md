@@ -1,23 +1,24 @@
 ---
-description: Atributo de configuración para el visor de Video360.
-seo-description: Atributo de configuración para el visor de Video360.
+description: Atributo de configuración para el visualizador de vídeo360.
+seo-description: Atributo de configuración para el visualizador de vídeo360.
 seo-title: Video360Player.mutevolume
 solution: Experience Manager
 title: Video360Player.mutevolume
-topic: Dynamic Media
 uuid: 02c5a8d9-c382-4762-84a6-120255a97840
+feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 17%
+source-wordcount: '74'
+ht-degree: 14%
 
 ---
 
 
 # Video360Player.mutevolume{#video-player-mutevolume}
 
-Atributo de configuración para el visor de Video360.
+Atributo de configuración para el visualizador de vídeo360.
 
 `[Video360Player.|<containerId>_video360Player.]mutevolume=0|1`
 
@@ -25,7 +26,7 @@ Atributo de configuración para el visor de Video360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Establece el modo silenciado para la reproducción de vídeo durante la carga inicial. Si se establece en <span class="codeph"> 1 </span>, el volumen se silenciará; de lo contrario, el vídeo se reproduce con sonido. En determinados dispositivos, el silencio de la reproducción de vídeo durante la carga también permite que el vídeo se reproduzca automáticamente. </p> </td> 
+   <td colname="col2"> <p> Establece el modo silenciado para la reproducción de vídeo durante la carga inicial. Si se establece en <span class="codeph"> 1 </span>, el volumen se silenciará; de lo contrario, el vídeo se reproduce con sonido. En algunos dispositivos, el silenciamiento de la reproducción de vídeo durante la carga también permite que el vídeo se reproduzca automáticamente. </p> </td> 
   </tr> 
  </tbody> 
 </table>
