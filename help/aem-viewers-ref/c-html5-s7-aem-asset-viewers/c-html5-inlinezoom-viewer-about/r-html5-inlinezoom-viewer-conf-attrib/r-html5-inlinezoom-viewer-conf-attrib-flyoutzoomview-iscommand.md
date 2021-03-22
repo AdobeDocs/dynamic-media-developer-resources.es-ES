@@ -2,13 +2,14 @@
 description: FlyoutZoomView.iscommand
 solution: Experience Manager
 title: FlyoutZoomView.iscommand
-topic: Dynamic Media
 uuid: 1b776481-c40b-4892-9891-ebf3e713a4dc
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom en línea
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 7%
+source-wordcount: '79'
+ht-degree: 6%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span> </span> </p> </td> 
-   <td colname="col2"> <p> </p> <p>La cadena de comandos del servicio de imágenes que se aplica a la imagen principal de FlyoutZoomView y a la vista ampliada. Si se especifica en la dirección URL, asegúrese de codificar HTTP todas las ocurrencias de <span class="codeph"> &amp;</span> y <span class="codeph"> =</span> como <span class="codeph"> %26</span> y <span class="codeph"> %3D</span>, respectivamente. </p> <p> <p>Nota:  No se admiten los comandos de manipulación de tamaño de imagen. </p> </p> </td> 
+   <td colname="col2"> <p> </p> <p>Cadena de comandos del servicio de imágenes que se aplica a la imagen principal de FlyoutZoomView y a la vista ampliada. Si se especifica en la dirección URL, asegúrese de codificar HTTP todas las ocurrencias de <span class="codeph"> &amp;</span> y <span class="codeph"> =</span> como <span class="codeph"> %26</span> y <span class="codeph"> %3D</span>, respectivamente. </p> <p> <p>Nota:  No se admiten los comandos de manipulación del tamaño de imagen. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -36,7 +37,7 @@ Ninguno.
 
 ## Ejemplo {#section-0338be21edd04ff1a3bed5c8319b61a4}
 
-Cuando se especifica en la URL del visor:
+Cuando se especifique en la dirección URL del visor:
 
 `iscommand=op_sharpen%3d1%26op_colorize%3d0xff0000`
 
