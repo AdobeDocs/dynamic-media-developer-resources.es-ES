@@ -2,13 +2,14 @@
 description: VideoPlayer.autoplay
 solution: Experience Manager
 title: VideoPlayer.autoplay
-topic: Dynamic Media
 uuid: 07576390-dd17-4a28-b372-7bba207bdebe
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 20%
+source-wordcount: '41'
+ht-degree: 14%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 20%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 0|1</span> </span> </p> </td> 
-   <td colname="col2"> <p> Indica si el visor inicio reproducir el vídeo al cargarlo. Algunos sistemas, como algunos dispositivos móviles, no admiten la reproducción automática. </p> </td> 
+   <td colname="col2"> <p> Indica si el espectador comienza a reproducir el vídeo al cargarlo. Algunos sistemas, como algunos dispositivos móviles, no admiten la reproducción automática. </p> </td> 
   </tr> 
  </tbody> 
 </table>
