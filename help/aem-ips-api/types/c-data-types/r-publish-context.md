@@ -1,29 +1,30 @@
 ---
-description: Define un destinatario de publicación para una compañía.
-seo-description: Define un destinatario de publicación para una compañía.
+description: Define un objetivo de publicación para una empresa.
+seo-description: Define un objetivo de publicación para una empresa.
 seo-title: PublishContext
 solution: Experience Manager
 title: PublishContext
-topic: Dynamic Media Image Production System API
 uuid: 62e2ba15-d966-48c7-86dc-373069c3ea46
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 18%
+source-wordcount: '83'
+ht-degree: 16%
 
 ---
 
 
 # PublishContext{#publishcontext}
 
-Define un destinatario de publicación para una compañía.
+Define un objetivo de publicación para una empresa.
 
 Sintaxis
 
 ## Parámetros {#section-577d46cc75774c7c8fbdcff203a0d9ac}
 
-Los recursos mantienen un marcador independiente para cada estado y contexto de publicación. Establezca el estado de publicación con [setAssetsContextState](../../operations/c-operations-intro/c-methods/r-set-asset-context-state.md#reference-da96f9caef734f2883fddaf58cd886d7).
+Los recursos mantienen un marcador independiente para cada estado de publicación y contexto. Establezca el estado de publicación con [setAssetsContextState](../../operations/c-operations-intro/c-methods/r-set-asset-context-state.md#reference-da96f9caef734f2883fddaf58cd886d7).
 
 <table id="table_1165D5DDC89140CD8222E5A04B39048E">
  <thead>
