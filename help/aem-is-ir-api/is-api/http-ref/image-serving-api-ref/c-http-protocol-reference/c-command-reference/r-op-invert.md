@@ -4,13 +4,14 @@ seo-description: Invertir colores. Invierte cada componente de color para obtene
 seo-title: op_invert
 solution: Experience Manager
 title: op_invert
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: bca91ce1-b105-42bf-b4ff-691f26218285
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 3%
+source-wordcount: '70'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +24,7 @@ Invertir colores. Invierte cada componente de color para obtener un efecto de im
 
 ## Propiedades {#section-2e7a7b340dd147db9bd68ff3bfb6f4c1}
 
-Capa. Se aplica a la capa actual o a la imagen compuesta si `layer=comp`. Omitido por capas de efectos.
+Capa. Se aplica a la capa actual o a la imagen compuesta si `layer=comp`. Ignorado por capas de efecto.
 
 ## Predeterminado {#section-8040bc4e2a684c629a28b155aa0ba289}
 
