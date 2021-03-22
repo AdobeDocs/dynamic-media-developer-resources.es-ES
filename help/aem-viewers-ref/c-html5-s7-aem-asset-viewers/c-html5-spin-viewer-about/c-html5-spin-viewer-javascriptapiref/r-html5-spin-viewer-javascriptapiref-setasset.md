@@ -1,15 +1,16 @@
 ---
-description: Referencia de la API de JavaScript para el visor de giros.
-seo-description: Referencia de la API de JavaScript para el visor de giros.
+description: Referencia de la API de JavaScript para el visualizador de giros.
+seo-description: Referencia de la API de JavaScript para el visualizador de giros.
 seo-title: setAsset
 solution: Experience Manager
 title: setAsset
-topic: Dynamic Media
 uuid: b0a6d252-4b9c-40c4-b321-eb71ebc3b276
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de giros
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '119'
 ht-degree: 2%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 2%
 
 # setAsset{#setasset}
 
-Referencia de la API de JavaScript para el visor de giros.
+Referencia de la API de JavaScript para el visualizador de giros.
 
 ` setAsset( *`asset`*)`
 
@@ -25,12 +26,12 @@ Referencia de la API de JavaScript para el visor de giros.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> recurso</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> Cadena</span>} nueva identificación del recurso, conjunto de giros único o multidimensional con modificadores opcionales de servicio de imágenes anexados después de <span class="codeph"> ?</span>. </p> <p> Este visor no admite las imágenes que utilizan IR (procesamiento de imágenes) o UGC (contenido generado por el usuario). </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> Cadena</span>} nuevo id de recurso, conjunto de giros unidimensional o multidimensional con modificadores opcionales de servicio de imágenes anexados después de <span class="codeph"> ?</span>. </p> <p> Este visor no admite las imágenes que utilizan IR (procesamiento de imágenes) o UGC (contenido generado por el usuario). </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Establece el nuevo recurso. Puede llamar a este parámetro en cualquier momento, ya sea antes o después de `init()`. Si se llama después de `init()`, el visor intercambia el recurso en tiempo de ejecución.
+Establece el nuevo recurso. Puede llamar a este parámetro en cualquier momento, ya sea antes o después de `init()`. Si se llama después de `init()`, el visor intercambia el recurso durante la ejecución.
 
 Consulte también [init](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae).
 
@@ -40,7 +41,7 @@ Ninguno.
 
 ## Ejemplo {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
-Una sola referencia a un conjunto de giros definido en un catálogo:
+Una única referencia a un conjunto de giros definido en un catálogo:
 
 ```
 <instance>.setAsset("Scene7SharedAssets/SpinSet_Sample")
