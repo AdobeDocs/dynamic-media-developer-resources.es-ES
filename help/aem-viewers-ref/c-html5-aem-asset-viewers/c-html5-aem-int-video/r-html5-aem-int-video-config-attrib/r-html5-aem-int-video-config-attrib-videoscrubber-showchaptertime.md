@@ -1,23 +1,24 @@
 ---
-description: Atributo de configuración para el visor de vídeo interactivo.
-seo-description: Atributo de configuración para el visor de vídeo interactivo.
+description: Atributo de configuración para el visualizador de vídeo interactivo.
+seo-description: Atributo de configuración para el visualizador de vídeo interactivo.
 seo-title: VideoScrubber.showchaptertime
 solution: Experience Manager
 title: VideoScrubber.showchaptertime
-topic: Dynamic Media
 uuid: 2a5e001d-14b6-41cd-938e-441ad0a789d2
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 12%
+source-wordcount: '50'
+ht-degree: 10%
 
 ---
 
 
 # VideoScrubber.showchaptertime{#videoscrubber-showchaptertime}
 
-Atributo de configuración para el visor de vídeo interactivo.
+Atributo de configuración para el visualizador de vídeo interactivo.
 
 `[VideoScrubber.|<containerId>_videoScrubber.]showchaptertime=0|1`
 
@@ -25,7 +26,7 @@ Atributo de configuración para el visor de vídeo interactivo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Activa o desactiva la hora del capítulo en la barra de título de la etiqueta del capítulo. </p> </td> 
+   <td colname="col2"> <p> Activa/desactiva la hora del capítulo en la barra de título de la etiqueta del capítulo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
