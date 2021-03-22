@@ -2,26 +2,27 @@
 description: PageView.maxloadradius
 solution: Experience Manager
 title: PageView.maxloadradius
-topic: Dynamic Media
 uuid: 425624c5-3cbe-4b63-8c6b-eff31f2ed919
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 6%
+source-wordcount: '75'
+ht-degree: 5%
 
 ---
 
 
 # PageView.maxloadradius{#pageview-maxloadradius}
 
-` [PageView.|<containerId>_pageView.]maxloadradius=-1|0| *`preloadnbr`*`
+` [PageView.|<containerId>_pageView.]maxloadradius=-1|0| *`precarga`*`
 
 <table id="table_985ADD6C9BD04C629A84C9C625CCCFEB"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p>Especifica el comportamiento de precarga del componente. </p> <p>Cuando se establece en <span class="codeph"> -1</span>, el componente carga previamente todos los cuadros de catálogo cuando se encuentra en estado inactivo. </p> <p> Cuando se establece en <span class="codeph"> 0</span>, el componente carga solo el fotograma que está visible actualmente, anterior y siguiente. </p> <p>Establezca <span class="codeph"><span class="varname"> preloadnbr</span></span> para definir cuántos fotogramas invisibles alrededor del marco mostrado actualmente se cargan previamente en estado inactivo. </p> </td> 
+   <td colname="col2"> <p>Especifica el comportamiento de precarga del componente. </p> <p>Cuando se establece en <span class="codeph"> -1</span>, el componente carga previamente todas las tramas del catálogo en estado inactivo. </p> <p> Cuando se establece en <span class="codeph"> 0</span>, el componente carga solo el fotograma que está visible actualmente, anterior y siguiente. </p> <p>Establezca <span class="codeph"><span class="varname"> precarga</span></span> para definir cuántos marcos invisibles alrededor del marco mostrado actualmente se cargan previamente en estado inactivo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
