@@ -1,23 +1,24 @@
 ---
-description: Calidad de representación de conversión de color. Proporciona la interpretación predeterminada para las conversiones de color cuando la interpretación no se especifica con icc=.
-seo-description: Calidad de representación de conversión de color. Proporciona la interpretación predeterminada para las conversiones de color cuando la interpretación no se especifica con icc=.
+description: Interpretación de la conversión de color. Proporciona la interpretación predeterminada para conversiones de color cuando la interpretación no se especifica con icc=.
+seo-description: Interpretación de la conversión de color. Proporciona la interpretación predeterminada para conversiones de color cuando la interpretación no se especifica con icc=.
 seo-title: IccRenderIntent
 solution: Experience Manager
 title: IccRenderIntent
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c7edd8d8-c513-48d9-b3f6-1c3ad39a67e3
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 4%
+source-wordcount: '104'
+ht-degree: 3%
 
 ---
 
 
 # IccRenderIntent{#iccrenderintent}
 
-Calidad de representación de conversión de color. Proporciona la interpretación predeterminada para las conversiones de color cuando la interpretación no se especifica con icc=.
+Interpretación de la conversión de color. Proporciona la interpretación predeterminada para conversiones de color cuando la interpretación no se especifica con icc=.
 
 ## Propiedades {#section-2540099fb2fc47d29b04642da4f5922a}
 
@@ -25,7 +26,7 @@ Enum. Se establece en 0 para perceptual, 1 para colorimétrico relativo, 2 para 
 
 ## Predeterminado {#section-61a05067905b44099c228e15de279dbd}
 
-Se hereda de `default::IccRenderIntent` si no está definida o si está vacía.
+Se hereda de `default::IccRenderIntent` si no está definido o si está vacío.
 
 ## Véase también {#section-7da9ff3038ca452a9f7375a1ca0581af}
 
