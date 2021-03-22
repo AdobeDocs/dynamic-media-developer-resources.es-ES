@@ -1,15 +1,16 @@
 ---
-description: Tiempo de espera de la caché del cliente. Número de horas hasta la caducidad. Se utiliza para administrar el almacenamiento en caché de cliente y servidor proxy.
-seo-description: Tiempo de espera de la caché del cliente. Número de horas hasta la caducidad. Se utiliza para administrar el almacenamiento en caché de cliente y servidor proxy.
+description: Tiempo de vida de la caché del cliente. Número de horas hasta la caducidad. Se utiliza para administrar el almacenamiento en caché del cliente y del servidor proxy.
+seo-description: Tiempo de vida de la caché del cliente. Número de horas hasta la caducidad. Se utiliza para administrar el almacenamiento en caché del cliente y del servidor proxy.
 seo-title: Vencimiento
 solution: Experience Manager
 title: Vencimiento
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: fa267728-9a36-4705-97d6-d567148fc2d7
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '158'
 ht-degree: 4%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 4%
 
 # Caducidad{#expiration}
 
-Tiempo de espera de la caché del cliente. Número de horas hasta la caducidad. Se utiliza para administrar el almacenamiento en caché de cliente y servidor proxy.
+Tiempo de vida de la caché del cliente. Número de horas hasta la caducidad. Se utiliza para administrar el almacenamiento en caché del cliente y del servidor proxy.
 
 Consulte ` [catalog::Expiration](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-expiration-dataref.md#reference-5e93943abff54c93bf85aae3b911a3ce)` para obtener más información.
 
 ## Propiedades {#section-dcdd44cc3f0a4849b968dbd4f1e3768a}
 
-Número real, -2, -1, 0 o bueno. Número de horas hasta la caducidad desde que se generó la imagen de respuesta. Establezca el valor 0 para que la imagen de respuesta caduque siempre inmediatamente, lo que deshabilita el almacenamiento en caché del cliente. Establezca en -1 para marcar como `never expire`; en este caso, el servidor siempre devuelve el estado 403 en respuesta a solicitudes condicionales `GET` sin comprobar si el archivo ha cambiado realmente. Establezca en -2 para utilizar el valor predeterminado proporcionado por `attribute::Expiration`.
+Número real, -2, -1, 0 o bueno. Número de horas hasta la caducidad desde que se generó la imagen de respuesta. Establézcalo en 0 para que siempre caduque la imagen de respuesta inmediatamente, lo que deshabilita efectivamente el almacenamiento en caché del cliente. Configure en -1 para marcar como `never expire`; en este caso, el servidor siempre devuelve el estado 403 en respuesta a solicitudes condicionales `GET` sin comprobar si el archivo ha cambiado realmente. Configúrelo en -2 para utilizar el valor predeterminado proporcionado por `attribute::Expiration`.
 
 ## Predeterminado {#section-fb8ea80975034b49af7510764758f123}
 
