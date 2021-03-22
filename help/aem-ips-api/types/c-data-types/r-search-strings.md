@@ -4,13 +4,14 @@ seo-description: Registro de cadena de búsqueda extraído de un archivo PDF.
 seo-title: SearchStrings
 solution: Experience Manager
 title: SearchStrings
-topic: Dynamic Media Image Production System API
 uuid: aade2741-3e77-44c6-ab3c-0810ff034412
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 13%
+source-wordcount: '98'
+ht-degree: 12%
 
 ---
 
@@ -25,7 +26,7 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| `*`searchString`*` | `xsd:string` | Texto de la cadena de búsqueda. |
+| `*`searchString`*` | `xsd:string` | Buscar texto de cadena. |
 | `*`keywordsArray`*` | `types:KeywordsArray` | Matriz de palabras clave en la cadena de búsqueda. |
 | `*`estado`*` | `xsd:boolean` | True si la cadena de búsqueda es válida y está habilitada. |
 | `*`x`*` | `xsd:int` | Posición del eje X de la cadena de búsqueda. |
