@@ -1,23 +1,24 @@
 ---
-description: Opciones especificadas durante la carga. Afecta al modo en que se administra el color para la carga.
-seo-description: Opciones especificadas durante la carga. Afecta al modo en que se administra el color para la carga.
+description: Opciones especificadas durante la carga. Afecta a cómo se administra el color para la carga.
+seo-description: Opciones especificadas durante la carga. Afecta a cómo se administra el color para la carga.
 seo-title: ColorManagementOptions
 solution: Experience Manager
 title: ColorManagementOptions
-topic: Dynamic Media Image Production System API
 uuid: ddf50d22-8d7b-4881-8023-bd7f58cbd882
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 8%
+source-wordcount: '64'
+ht-degree: 7%
 
 ---
 
 
 # ColorManagementOptions{#colormanagementoptions}
 
-Opciones especificadas durante la carga. Afecta al modo en que se administra el color para la carga.
+Opciones especificadas durante la carga. Afecta a cómo se administra el color para la carga.
 
 Sintaxis
 
@@ -25,7 +26,7 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| `*`colorManagement`*` | `xsd:string` | Opción del modo de gestión de color. |
+| `*`colorManagement`*` | `xsd:string` | Opción del modo de gestión del color. |
 | `*`sourceProfileHandle`*` | `xsd:string` | Identificador de perfil de origen. |
-| `*`outputProfileHandle`*` | `xsd:string` | Control de perfil de salida. |
+| `*`outputProfileHandle`*` | `xsd:string` | Identificador de perfil de salida. |
 
