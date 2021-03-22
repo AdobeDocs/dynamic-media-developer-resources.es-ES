@@ -4,13 +4,14 @@ seo-description: Publica metadatos en el servidor de metadatos.
 seo-title: MetadataPublishJobType
 solution: Experience Manager
 title: MetadataPublishJobType
-topic: Dynamic Media Image Production System API
 uuid: 14cbb67e-56dc-4a25-b871-740be7ea7858
+feature: Dynamic Media Classic,SDK/API,Metadatos
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 9%
+source-wordcount: '80'
+ht-degree: 8%
 
 ---
 
@@ -35,7 +36,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> forcePublish</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">Establezca <span class="codeph"> True</span> para publicar <i>todos</i> los datos en el servidor de metadatos de nuevo. <p>Nota:  Dependiendo de la cantidad de datos, esto puede llevar de varios minutos a algunas horas. </p><p>No configure este parámetro si desea publicar solo metadatos nuevos o modificados. </p></td> 
+   <td colname="col3">Configúrelo en <span class="codeph"> True</span> para publicar <i>todos los</i> datos en el servidor de metadatos de nuevo. <p>Nota:  En función de la cantidad de datos, esto puede tardar entre varios minutos y algunas horas. </p><p>No configure este parámetro si desea publicar solo metadatos nuevos o modificados. </p></td> 
   </tr> 
  </tbody> 
 </table>
