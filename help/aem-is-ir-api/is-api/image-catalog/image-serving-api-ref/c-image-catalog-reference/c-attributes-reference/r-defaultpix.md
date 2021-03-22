@@ -4,12 +4,13 @@ seo-description: Tamaño de vista predeterminado.
 seo-title: DefaultPix
 solution: Experience Manager
 title: DefaultPix
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f5d2e4f7-f9c5-40a5-8a64-67241fcb0242
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '96'
 ht-degree: 4%
 
 ---
@@ -19,17 +20,17 @@ ht-degree: 4%
 
 Tamaño de vista predeterminado.
 
-El servidor restringe las imágenes de respuesta para que no sean mayores que este ancho y alto, si la solicitud no especifica el tamaño de vista explícitamente mediante `wid=`, `hei=` o `scl=`.
+El servidor restringe el tamaño de las imágenes de respuesta a un tamaño no mayor que este ancho y alto, si la solicitud no especifica el tamaño de vista explícitamente utilizando `wid=`, `hei=` o `scl=`.
 
 ## Propiedades {#section-c3e658cf82c540d986b118f74f0fe1b2}
 
-Dos números enteros, 0 o más, separados por coma. Anchura y altura en píxeles. Puede que uno o ambos valores estén establecidos en 0 para mantenerlos sin restricciones.
+Dos números enteros, 0 o más grandes, separados por coma. Anchura y altura en píxeles. Puede que ambos valores estén establecidos en 0 para mantenerlos sin restricciones.
 
-No se aplica a solicitudes anidadas o incrustadas.
+No se aplica a solicitudes anidadas/incrustadas.
 
 ## Predeterminado {#section-b7338b2bf5114fff83b0714a57b20639}
 
-Se hereda de `default::DefaultPix` si no está definida o si está vacía.
+Se hereda de `default::DefaultPix` si no está definido o si está vacío.
 
 ## Véase también {#section-59088cd41da940e8ac0e74e2b049c6e9}
 
