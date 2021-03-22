@@ -4,12 +4,13 @@ seo-description: El componente SvgRender es una aplicación Java independiente.
 seo-title: Configuración de SVG
 solution: Experience Manager
 title: Configuración de SVG
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f6e131af-283e-4649-b349-123489c0838d
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '83'
 ht-degree: 2%
 
 ---
@@ -19,9 +20,9 @@ ht-degree: 2%
 
 El componente SvgRender es una aplicación Java independiente.
 
-La configuración de SVG se encuentra en [!DNL PlatformServer.conf], [!DNL SVG.conf], [!DNL ImageServerRegistry.xml] y [!DNL ServerSupervisorRegistry.xml].
+Los ajustes de configuración de SVG se encuentran en [!DNL PlatformServer.conf], [!DNL SVG.conf], [!DNL ImageServerRegistry.xml] y [!DNL ServerSupervisorRegistry.xml].
 
-Se utiliza una conexión de socket para comunicarse entre SvgRender y el servidor de imágenes. El número de puerto es 27346. Si es necesario, se puede cambiar configurando `SVGRender.port` en [!DNL svg.conf] y `<SVGTcpPort>` en [!DNL ImageServerRegistry.xml] en un nuevo valor.
+Se utiliza una conexión socket para comunicarse entre SvgRender y Image Server. El número de puerto es 27346. Si es necesario, se puede cambiar configurando `SVGRender.port` en [!DNL svg.conf] y `<SVGTcpPort>` en [!DNL ImageServerRegistry.xml] en un nuevo valor.
 
 ## Véase también {#section-c085b47d54d44059bdaa67fd5e226e91}
 
