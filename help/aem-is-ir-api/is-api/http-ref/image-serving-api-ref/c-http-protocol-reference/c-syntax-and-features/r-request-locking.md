@@ -1,15 +1,16 @@
 ---
-description: Para reducir la posibilidad de manipular las solicitudes, se ofrece una sencilla instalación de bloqueo.
-seo-description: Para reducir la posibilidad de manipular las solicitudes, se ofrece una sencilla instalación de bloqueo.
-seo-title: Solicitud de bloqueo
+description: Para reducir las posibilidades de manipular las solicitudes, se proporciona una sencilla instalación de bloqueo.
+seo-description: Para reducir las posibilidades de manipular las solicitudes, se proporciona una sencilla instalación de bloqueo.
+seo-title: Solicitar bloqueo
 solution: Experience Manager
-title: Solicitud de bloqueo
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Solicitar bloqueo
 uuid: 03239376-1e40-48d2-a396-c276802854ed
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -17,15 +18,15 @@ ht-degree: 0%
 
 # Solicitar bloqueo{#request-locking}
 
-Para reducir la posibilidad de manipular las solicitudes, se ofrece una sencilla instalación de bloqueo.
+Para reducir las posibilidades de manipular las solicitudes, se proporciona una sencilla instalación de bloqueo.
 
-Si se establece attribute::RequestLock, se debe anexar un valor de bloqueo a la solicitud, en forma de `&xxxx`, siendo xxxx un valor hexadecimal de cuatro dígitos. Este valor hexadecimal se genera mediante un algoritmo hash simple aplicado a la porción *modificadores* de la solicitud (después de &#39;?&#39; que separa la ruta de URL de los *modificadores*). Esto debe hacerse después de que la solicitud esté completamente codificada en http, pero antes de que se ofusque (opcionalmente). Después de anular la confusión de la solicitud, el servidor utilizará el mismo algoritmo hash en la cadena del modificador (excepto los últimos 5 caracteres, que contienen el valor de bloqueo). Si la clave generada no coincide con el bloqueo, se rechaza la solicitud.
+Si el atributo::RequestLock está establecido, se debe añadir un valor de bloqueo a la solicitud en forma de `&xxxx`, siendo xxxx un valor hexadecimal de cuatro dígitos. Este valor hexadecimal se genera utilizando un algoritmo hash simple aplicado a la porción *modificadores* de la solicitud (después de &quot;?&quot; que separa la ruta de URL de los *modificadores*). Esto debe hacerse después de que la solicitud esté completamente codificada en http, pero antes de que se confunda (opcionalmente). Después de desconfundir la solicitud, el servidor utilizará el mismo algoritmo de hash en la cadena del modificador (excepto los últimos 5 caracteres, que contienen el valor de bloqueo). Si la clave generada no coincide con el bloqueo, se rechaza la solicitud.
 
 >[!IMPORTANT]
 >
->Si habilita esta función, tenga en cuenta que su uso tiene ciertas limitaciones que incluyen:<br>- Es posible que la interfaz de usuario de Dynamic Media no muestre los detalles correctos para el campo **[!UICONTROL Última publicación]**. Sin embargo, esto no afecta a la publicación.<br>- Actualmente, el flujo de vídeo HLS no funciona cuando **[!UICONTROL Solicitar]** confusión y  **[!UICONTROL Solicitar]** bloqueo están activados.<br>- Actualmente, algunos visores de Dynamic Media no funcionan cuando  **[!UICONTROL Solicitar]** confusión y  **[!UICONTROL solicitar]** bloqueo están activados.
+>Si habilita esta función, tenga en cuenta que existen ciertas limitaciones en su uso que incluyen lo siguiente:<br>- Es posible que la interfaz de usuario de Dynamic Media no muestre los detalles correctos para el campo **[!UICONTROL Última publicación]**. Sin embargo, este efecto no afecta a la publicación.<br>- Actualmente, el flujo de vídeo HLS no funciona cuando se activan la **[!UICONTROL ofuscación de]** solicitudes y el  **[!UICONTROL bloqueo de]** solicitudes.<br>: Actualmente, algunos visores de Dynamic Media no funcionan cuando están activados la  **[!UICONTROL ofuscación de]** solicitudes y el  **[!UICONTROL bloqueo de]** solicitudes .
 
-Código de ejemplo de C++ para generar el valor de bloqueo de la solicitud:
+Código de ejemplo C++ para generar el valor de bloqueo de la solicitud:
 
 ```
 unsigned int lockValue(const char *str) 
@@ -41,4 +42,4 @@ unsigned int lockValue(const char *str)
 
 ## Véase también {#section-a6d45406c0354669ac581793e4fa8436}
 
-[Codificación](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-http-encoding.md#reference-bb34dd13f316462695448acfa8f92df7) HTTP, confusión  [de solicitud](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d),  [atributo::RequestLock](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-requestlock.md#reference-8bbe2f581be847d3b9fa123e8e5e94b0)
+[Codificación](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-http-encoding.md#reference-bb34dd13f316462695448acfa8f92df7) HTTP,  [ofuscación](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d) de solicitud,  [atributo::RequestLock](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-requestlock.md#reference-8bbe2f581be847d3b9fa123e8e5e94b0)
