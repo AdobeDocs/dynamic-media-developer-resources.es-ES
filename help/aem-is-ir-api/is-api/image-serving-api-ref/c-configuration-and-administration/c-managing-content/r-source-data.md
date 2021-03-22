@@ -4,12 +4,13 @@ seo-description: Los archivos de datos de origen del servicio de imágenes inclu
 seo-title: Datos de origen
 solution: Experience Manager
 title: Datos de origen
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d654eee7-ef2d-4546-93bb-72f80c38e018
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 0%
 
 Los archivos de datos de origen del servicio de imágenes incluyen archivos de imagen y máscara, fuentes y perfiles ICC.
 
-El servidor de imágenes debe tener acceso a todos los archivos de datos de origen. El servicio de imágenes ofrece una serie de alternativas para especificar la ubicación de los archivos de datos:
+El servidor de imágenes debe poder acceder a todos los archivos de datos de origen. El servicio de imágenes ofrece varias alternativas para especificar la ubicación de los archivos de datos:
 
 `*`install_`*/ *``*/ *`folderrootPathfilePath`*`
 
@@ -38,16 +39,16 @@ El servidor de imágenes debe tener acceso a todos los archivos de datos de orig
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> requestPath</span></span> </p></td> 
-  <td class="stentry"> <p><span class="codeph"> ruta y nombre relativos del archivo de imagen especificados en una solicitud HTTP de servicio de imágenes</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> ruta y nombre relativos del archivo de imagen especificado en una solicitud HTTP de servicio de imágenes</span> </p></td> 
  </tr> 
 </table>
 
-El servidor combina segmentos de ruta de acceso de derecha a izquierda hasta que se establece una ruta absoluta de archivo.
+El servidor combina los segmentos de ruta de acceso de derecha a izquierda hasta que se establezca una ruta de archivo absoluta.
 
-Todos los segmentos `*`rootPath`*` pueden estar vacíos, relativos o absolutos.
+Todos los segmentos `*`rootPath`*` pueden ser segmentos de ruta vacíos, relativos o absolutos.
 
-`*``*` catalogPath es una ruta de acceso o nombre de archivo absoluta o relativa. `*``*` requestPath debe ser una ruta/nombre de archivo relativo.
+`*``*` catalogPath es una ruta/nombre de archivo absoluta o relativa. `*``*` requestPath debe ser una ruta/nombre de archivo relativa.
 
-`Multiple IS::RootPath` los valores se pueden definir en ImageServerRegistry.xml (o a través de la interfaz de administración). Esto permite que los archivos de datos de origen se distribuyan en varios sistemas de archivos. El servidor de imágenes intentará rutas alternativas en el orden especificado hasta que se encuentre el archivo de datos.
+`Multiple IS::RootPath` Los valores de se pueden definir en ImageServerRegistry.xml (o a través de la interfaz de administración). Esto permite distribuir los archivos de datos de origen entre varios sistemas de archivos. El servidor de imágenes intentará rutas alternativas en el orden especificado hasta que se encuentre el archivo de datos.
 
 Se pueden agregar nuevos archivos de datos de cualquier tipo en cualquier momento sin detener el servidor.
