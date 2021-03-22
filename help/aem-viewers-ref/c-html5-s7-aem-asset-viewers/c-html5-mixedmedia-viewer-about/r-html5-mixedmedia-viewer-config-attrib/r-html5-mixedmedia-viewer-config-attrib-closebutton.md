@@ -1,14 +1,15 @@
 ---
-description: botón Cerrar
+description: botón cerrar
 solution: Experience Manager
-title: botón Cerrar
-topic: Dynamic Media
+title: botón cerrar
 uuid: 474ee727-8afc-4f5e-9bad-0d0e5da998ef
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '22'
-ht-degree: 22%
+source-wordcount: '34'
+ht-degree: 14%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 22%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
-   <td colname="col2"> <p> Establezca <span class="codeph"> 1</span> para habilitar la visualización del botón de cierre o defina <span class="codeph"> 0</span> para ocultar el botón de cierre. </p> </td> 
+   <td colname="col2"> <p> Configúrelo en <span class="codeph"> 1</span> para habilitar la visualización del botón de cierre o en <span class="codeph"> 0</span> para ocultar el botón de cierre. </p> </td> 
   </tr> 
  </tbody> 
 </table>
