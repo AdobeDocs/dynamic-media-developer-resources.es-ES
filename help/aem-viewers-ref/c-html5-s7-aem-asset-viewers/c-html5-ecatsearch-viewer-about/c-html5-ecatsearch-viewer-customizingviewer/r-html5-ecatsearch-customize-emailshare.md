@@ -1,15 +1,16 @@
 ---
-description: La herramienta para compartir correo electrónico consiste en un botón agregado al panel Compartir en redes sociales y el cuadro de diálogo modal, que se muestra cuando se activa la herramienta. La posición del botón la gestiona completamente la herramienta Compartir en Social.
-seo-description: La herramienta para compartir correo electrónico consiste en un botón agregado al panel Compartir en redes sociales y el cuadro de diálogo modal, que se muestra cuando se activa la herramienta. La posición del botón la gestiona completamente la herramienta Compartir en Social.
+description: La herramienta Uso compartido de correo electrónico consiste en un botón agregado al panel Uso compartido en Social y el cuadro de diálogo modal que se muestra cuando se activa la herramienta. La posición del botón la gestiona completamente la herramienta de uso compartido de Social.
+seo-description: La herramienta Uso compartido de correo electrónico consiste en un botón agregado al panel Uso compartido en Social y el cuadro de diálogo modal que se muestra cuando se activa la herramienta. La posición del botón la gestiona completamente la herramienta de uso compartido de Social.
 seo-title: Uso compartido de correo electrónico
 solution: Experience Manager
 title: Uso compartido de correo electrónico
-topic: Dynamic Media
 uuid: fc60dd7b-651e-458c-9057-693ca1c0afdc
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '3073'
+source-wordcount: '3084'
 ht-degree: 2%
 
 ---
@@ -17,46 +18,46 @@ ht-degree: 2%
 
 # Uso compartido de correo electrónico{#email-share}
 
-La herramienta para compartir correo electrónico consiste en un botón agregado al panel Compartir en redes sociales y el cuadro de diálogo modal, que se muestra cuando se activa la herramienta. La posición del botón la gestiona completamente la herramienta Compartir en Social.
+La herramienta Uso compartido de correo electrónico consiste en un botón agregado al panel Uso compartido en Social y el cuadro de diálogo modal que se muestra cuando se activa la herramienta. La posición del botón la gestiona completamente la herramienta de uso compartido de Social.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-El aspecto del botón para compartir correo electrónico se controla con el siguiente selector de clase CSS:
+El aspecto del botón de compartir correo electrónico se controla con el siguiente selector de clase CSS:
 
 ```
 .s7ecatalogsearchviewer .s7emailshare
 ```
 
-**Propiedades CSS de la herramienta para compartir correo electrónico**
+**Propiedades CSS de la herramienta de uso compartido de correo electrónico**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Ancho del botón. </p> </td> 
+   <td colname="col2"> <p>Anchura del botón. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Altura del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
    <td colname="col2"> <p> Imagen que se muestra para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
+   <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Este botón admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes apariencias a distintos estados de botones.
+>Este botón admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes aspectos a distintos estados de botones.
 
 Es posible quitar el botón del panel Compartir en Social estableciendo la propiedad `display:none` CSS en su clase CSS.
 
-La información de objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
+La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
 Ejemplo: para configurar un botón de uso compartido de correo electrónico de 28 x 28 píxeles y que muestre una imagen diferente para cada uno de los cuatro estados de botón diferentes.
 
@@ -85,13 +86,13 @@ La superposición de fondo que cubre la página web cuando el cuadro de diálogo
 .s7ecatalogsearchviewer .s7emaildialog .s7backoverlay
 ```
 
-**Propiedades CSS de la superposición posterior**
+**Propiedades CSS de la superposición**
 
 <table id="table_1A0C28D8C81D413C83D73DEAC53057C5"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> opacidad  </span> </p> </td> 
-   <td colname="col2"> <p> Opacidad de superposición de fondo. </p> </td> 
+   <td colname="col2"> <p> Opacidad de la superposición de fondo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
@@ -109,7 +110,7 @@ Ejemplo: para configurar la superposición de fondo para que sea gris con un 70 
 }
 ```
 
-De forma predeterminada, el cuadro de diálogo modal se muestra centrado en la pantalla en los sistemas de escritorio y toma todo el área de la página web en los dispositivos táctiles. En todos los casos, el componente gestiona la colocación y el tamaño del cuadro de diálogo. El cuadro de diálogo se controla con el siguiente selector de clase CSS:
+De forma predeterminada, el cuadro de diálogo modal se muestra centrado en la pantalla de los sistemas de escritorio y toma todo el área de la página web en dispositivos táctiles. En todos los casos, el componente gestiona la colocación y el tamaño del cuadro de diálogo. El cuadro de diálogo se controla con el siguiente selector de clase CSS:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialog
@@ -121,7 +122,7 @@ De forma predeterminada, el cuadro de diálogo modal se muestra centrado en la p
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
-   <td colname="col2"> <p> Radio del borde del cuadro de diálogo (en caso de que el cuadro de diálogo no utilice toda la ventana del explorador); </p> </td> 
+   <td colname="col2"> <p> Radio del borde del cuadro de diálogo (en caso de que el cuadro de diálogo no tome toda la ventana del explorador); </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
@@ -129,16 +130,16 @@ De forma predeterminada, el cuadro de diálogo modal se muestra centrado en la p
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
-   <td colname="col2"> <p> Se debe desactivar o establecer en 100 %, en cuyo caso el cuadro de diálogo ocupa toda la ventana del navegador (este modo es preferible en dispositivos táctiles); </p> </td> 
+   <td colname="col2"> <p> Debe estar desconfigurado o estar configurado al 100 %, en cuyo caso el cuadro de diálogo toma toda la ventana del navegador (este modo se prefiere en los dispositivos táctiles); </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
-   <td colname="col2"> <p> Se debe desactivar o establecer en 100 %, en cuyo caso el cuadro de diálogo toma toda la ventana del navegador (este modo es preferible en dispositivos táctiles). </p> </td> 
+   <td colname="col2"> <p> Debe estar desconfigurado o estar configurado al 100%, en cuyo caso el cuadro de diálogo toma toda la ventana del explorador (este modo se prefiere en los dispositivos táctiles). </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ejemplo: para configurar el cuadro de diálogo para que utilice toda la ventana del navegador y tenga un fondo blanco en los dispositivos táctiles:
+Ejemplo: Configurar el cuadro de diálogo para que utilice toda la ventana del explorador y tenga un fondo blanco en los dispositivos táctiles:
 
 ```
 .s7ecatalogsearchviewer .s7touchinput .s7emaildialog .s7dialog { 
@@ -148,7 +149,7 @@ background-color: #ffffff;
 }
 ```
 
-El encabezado del cuadro de diálogo consta de un icono, un texto de título y un botón de cierre. El contenedor del encabezado se controla con el siguiente selector de clase CSS
+El encabezado del cuadro de diálogo consta de un icono, un texto de título y un botón de cierre. El contenedor de encabezado se controla con el siguiente selector de clase CSS
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogheader
@@ -160,7 +161,7 @@ El encabezado del cuadro de diálogo consta de un icono, un texto de título y u
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> relleno </span> </p> </td> 
-   <td colname="col2"> <p> Relleno interior para el contenido del encabezado. </p> </td> 
+   <td colname="col2"> <p> Margen interior para el contenido del encabezado. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -177,7 +178,7 @@ El icono y el texto del título se envuelven en un contenedor adicional controla
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> relleno </span> </p> </td> 
-   <td colname="col2"> <p> Relleno interior para el icono y el título del encabezado. </p> </td> 
+   <td colname="col2"> <p> Margen interior para el icono y el título del encabezado. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -201,12 +202,12 @@ El icono de encabezado se controla con el siguiente selector de clase CSS:
    <td colname="col2"> <p>Altura del icono. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p>Imagen de icono. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
+   <td colname="col2"> <p>Icono imagen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
+   <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -222,12 +223,12 @@ El título del encabezado se controla con el siguiente selector de clase CSS:
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-peso  </span> </p> </td> 
-   <td colname="col2"> <p>Peso de fuentes. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col2"> <p>Grosor de fuente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
-   <td colname="col2"> <p>Altura de fuente. </p> </td> 
+   <td colname="col2"> <p>Altura de la fuente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
@@ -235,7 +236,7 @@ El título del encabezado se controla con el siguiente selector de clase CSS:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> relleno </span> </p> </td> 
-   <td colname="col2"> <p>Relleno de texto interno. </p> </td> 
+   <td colname="col2"> <p>Margen de texto interno. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -252,11 +253,11 @@ El botón Cerrar se controla con el siguiente selector de clase CSS:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> parte superior </span> </p> </td> 
-   <td colname="col2"> <p> Posición vertical del botón con respecto al contenedor del encabezado. </p> </td> 
+   <td colname="col2"> <p> Posición vertical del botón con respecto al contenedor de encabezado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> derecha </span> </p> </td> 
-   <td colname="col2"> <p> Posición horizontal del botón con respecto al contenedor del encabezado. </p> </td> 
+   <td colname="col2"> <p> Posición horizontal del botón en relación con el contenedor de encabezado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
@@ -268,26 +269,26 @@ El botón Cerrar se controla con el siguiente selector de clase CSS:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> relleno </span> </p> </td> 
-   <td colname="col2"> <p>Relleno interior del botón. </p> </td> 
+   <td colname="col2"> <p>Margen interior del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
    <td colname="col2"> <p>Imagen de botón para cada estado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
+   <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Este botón admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes apariencias a distintos estados de botones.
+>Este botón admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes aspectos a distintos estados de botones.
 
-Se pueden localizar la información del botón Cerrar y el título del cuadro de diálogo. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
+La información del objeto del botón Cerrar y el título del cuadro de diálogo se pueden localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
-Ejemplo: para configurar el encabezado del cuadro de diálogo con relleno, el icono de 24 x 17 píxeles, el título de 16 puntos en negrita y el botón Cerrar de 28 x 28 píxeles se han colocado dos píxeles desde la parte superior y dos píxeles desde el contenedor derecho del cuadro de diálogo:
+Ejemplo: para configurar el encabezado del cuadro de diálogo con relleno, icono de 24 x 17 píxeles, título en negrita de 16 puntos y botón Cerrar de 28 x 28 píxeles colocado dos píxeles desde la parte superior y dos píxeles desde la derecha del contenedor de cuadro de diálogo:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogheader { 
@@ -350,13 +351,13 @@ El pie de página tiene un contenedor interior que mantiene ambos botones. Se co
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogbuttoncontainer
 ```
 
-**Propiedades CSS del contenedor del botón del cuadro de diálogo**
+**Propiedades CSS del contenedor de botones de cuadro de diálogo**
 
 <table id="table_C34906888A8145C7A61E503DFC6B08A9"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> relleno </span> </p> </td> 
-   <td colname="col2"> <p> Relleno interior entre el pie de página y los botones. </p> </td> 
+   <td colname="col2"> <p> Margen interior entre el pie de página y los botones. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -385,14 +386,14 @@ El botón Cancelar se controla con el siguiente selector de clase CSS:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p> Color de fondo del botón para cada estado. </p> </td> 
+   <td colname="col2"> <p> Color de fondo de botón para cada estado. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Este botón admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes apariencias a distintos estados de botones.
+>Este botón admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes aspectos a distintos estados de botones.
 
 El botón Enviar correo electrónico se controla con el siguiente selector de clase CSS:
 
@@ -418,16 +419,16 @@ El botón Enviar correo electrónico se controla con el siguiente selector de cl
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p> Color de fondo del botón para cada estado. </p> </td> 
+   <td colname="col2"> <p> Color de fondo de botón para cada estado. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Este botón admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes apariencias a distintos estados de botones.
+>Este botón admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes aspectos a distintos estados de botones.
 
-Además, ambos botones comparten la misma clase CSS común que puede contener la configuración CSS que es la misma para otros botones de cuadro de diálogo:
+Además, ambos botones comparten la misma clase CSS común que puede contener ajustes CSS que son los mismos para otros botones del cuadro de diálogo:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogfooter .s7button
@@ -438,8 +439,8 @@ Además, ambos botones comparten la misma clase CSS común que puede contener la
 <table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-peso  </span> </p> </td> 
-   <td colname="col2"> <p>Peso de fuente del botón. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col2"> <p>Grosor de la fuente del botón. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
@@ -447,7 +448,7 @@ Además, ambos botones comparten la misma clase CSS común que puede contener la
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
-   <td colname="col2"> <p>Familia de fuentes de botón. </p> </td> 
+   <td colname="col2"> <p>Familia de fuentes del botón. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> line-height  </span> </p> </td> 
@@ -455,7 +456,7 @@ Además, ambos botones comparten la misma clase CSS común que puede contener la
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> box-Shadow  </span> </p> </td> 
-   <td colname="col2"> <p>Sombra paralela. </p> </td> 
+   <td colname="col2"> <p>Sombra. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-right  </span> </p> </td> 
@@ -466,7 +467,7 @@ Además, ambos botones comparten la misma clase CSS común que puede contener la
 
 Esta información sobre herramientas de botones se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
-Ejemplo: para configurar un pie de página del cuadro de diálogo con el botón Cancelar de 64 x 34 y un botón Enviar correo electrónico de 82 x 34, con el color de texto y el color de fondo diferentes para cada estado del botón:
+Ejemplo: para configurar un pie de página del cuadro de diálogo con el botón Cancelar 64 x 34 y un botón de envío de correo electrónico 82 x 34, con el color del texto y el color de fondo diferentes para cada estado del botón:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogfooter { 
@@ -526,7 +527,7 @@ Ejemplo: para configurar un pie de página del cuadro de diálogo con el botón 
 }
 ```
 
-El área de diálogo principal (entre el encabezado y el pie de página) contiene contenido de cuadro de diálogo desplazable y el panel de desplazamiento de la derecha. En todos los casos, el componente administra la anchura de esta área, no es posible configurarla en CSS. El área de diálogo principal se controla con el siguiente selector de clase CSS:
+El área de diálogo principal (entre el encabezado y el pie de página) contiene el contenido del cuadro de diálogo desplazable y el panel de desplazamiento de la derecha. En todos los casos, el componente administra la anchura de esta área, no es posible configurarla en CSS. El área de diálogo principal se controla con el siguiente selector de clase CSS:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogviewarea
@@ -538,7 +539,7 @@ El área de diálogo principal (entre el encabezado y el pie de página) contien
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
-   <td colname="col2"> <p> Altura del área del cuadro de diálogo principal. Solo debe especificarse cuando el cuadro de diálogo funciona en modo de escritorio. No es aplicable cuando el cuadro de diálogo está ajustado para ocupar toda la ventana del explorador. </p> </td> 
+   <td colname="col2"> <p> Altura del área principal del cuadro de diálogo. Solo debe especificarse cuando el cuadro de diálogo funciona en modo de escritorio. No es aplicable cuando el cuadro de diálogo tiene el tamaño necesario para ocupar toda la ventana del explorador. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
@@ -553,7 +554,7 @@ El área de diálogo principal (entre el encabezado y el pie de página) contien
 
 >[!NOTE]
 >
->El área del cuadro de diálogo principal admite el selector de atributos `state` opcional. Se establece en `sendsuccess` cuando se envía el formulario de correo electrónico y el cuadro de diálogo muestra un mensaje de confirmación. Siempre que el mensaje de confirmación sea pequeño, este selector de atributos se puede utilizar para reducir la altura del cuadro de diálogo cuando se muestra dicho mensaje de confirmación.
+>El área del cuadro de diálogo principal es compatible con el selector de atributos opcional `state`. Se establece en `sendsuccess` cuando se envía el formulario de correo electrónico y el cuadro de diálogo muestra un mensaje de confirmación. Siempre que el mensaje de confirmación sea pequeño, este selector de atributos se puede utilizar para reducir la altura del cuadro de diálogo cuando se muestra dicho mensaje de confirmación.
 
 Ejemplo: para configurar el área del cuadro de diálogo principal para que tenga una altura inicial de 300 píxeles y una altura de 100 píxeles cuando se muestre el mensaje de confirmación, tenga un margen de diez píxeles y utilice un fondo blanco:
 
@@ -568,7 +569,7 @@ Ejemplo: para configurar el área del cuadro de diálogo principal para que teng
 }
 ```
 
-Todo el contenido del formulario (como las etiquetas y los campos de entrada) reside dentro de un contenedor controlado con el siguiente selector de clase CSS:
+Todo el contenido del formulario (como etiquetas y campos de entrada) reside dentro de un contenedor controlado con el siguiente selector de clase CSS:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogbody
@@ -582,12 +583,12 @@ Si la altura de este contenedor parece ser mayor que el área del cuadro de diá
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> relleno </span> </p> </td> 
-   <td colname="col2"> <p>Relleno interior. </p> </td> 
+   <td colname="col2"> <p>Margen interior. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ejemplo: para configurar el contenido del formulario con un margen de diez píxeles:
+Ejemplo: Configurar el contenido del formulario para que tenga un relleno de diez píxeles:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogbody { 
@@ -595,7 +596,7 @@ Ejemplo: para configurar el contenido del formulario con un margen de diez píxe
 }
 ```
 
-El formulario de cuadro de diálogo se rellena línea a línea, donde cada línea tiene una parte del contenido del formulario (como una etiqueta y un campo de entrada de texto). La línea de un solo formulario se controla con el siguiente selector de clase CSS:
+El formulario del cuadro de diálogo se rellena línea a línea, donde cada línea tiene una parte del contenido del formulario (como una etiqueta y un campo de entrada de texto). La línea de formulario único se controla con el siguiente selector de clase CSS:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogbody .s7dialogline
@@ -607,7 +608,7 @@ El formulario de cuadro de diálogo se rellena línea a línea, donde cada líne
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> relleno </span> </p> </td> 
-   <td colname="col2"> <p>Relleno de línea interior. </p> </td> 
+   <td colname="col2"> <p>Margen de línea interior. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -620,21 +621,21 @@ Ejemplo: para configurar un formulario de cuadro de diálogo con un margen de di
 }
 ```
 
-Todas las etiquetas estáticas del formulario de cuadro de diálogo se controlan con el siguiente selector de clase CSS:
+Todas las etiquetas estáticas del formulario del cuadro de diálogo se controlan con el siguiente selector de clase CSS:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialoglabel
 ```
 
-Esta clase no es adecuada para controlar el tamaño o la posición de las etiquetas, ya que se puede aplicar a textos en varios lugares de la interfaz de usuario del formulario.
+Esta clase no es adecuada para controlar el tamaño o la posición de las etiquetas porque se puede aplicar a textos en varios lugares de la interfaz de usuario del formulario.
 
 **Propiedades CSS de la etiqueta del cuadro de diálogo. **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-peso  </span> </p> </td> 
-   <td colname="col2"> <p>Peso de fuentes de etiquetas. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col2"> <p>Grosor de fuente de la etiqueta. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
@@ -682,17 +683,17 @@ Todas las etiquetas estáticas que se muestran a la izquierda de los campos de e
    <td colname="col2"> <p>Alineación de texto horizontal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margen  </span> </p> </td> 
    <td colname="col2"> <p>Margen de etiqueta estático. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> relleno </span> </p> </td> 
-   <td colname="col2"> <p>Relleno estático de etiquetas. </p> </td> 
+   <td colname="col2"> <p>Margen de etiqueta estático. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ejemplo: para configurar las etiquetas de campo de entrada con una anchura de 50 píxeles, alineación a la derecha, con diez píxeles de relleno y un margen de diez píxeles a la derecha:
+Ejemplo: para configurar las etiquetas de campo de entrada para que tengan una anchura de 50 píxeles, alineación a la derecha, tengan diez píxeles de relleno y un margen de diez píxeles a la derecha:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialoginputlabel { 
@@ -703,7 +704,7 @@ Ejemplo: para configurar las etiquetas de campo de entrada con una anchura de 50
 }
 ```
 
-Cada campo de entrada de formulario se ajusta al contenedor, que le permite aplicar un borde personalizado alrededor del campo de entrada. Se controla con el siguiente selector de clase CSS:
+Cada campo de entrada del formulario está dentro del contenedor, lo que permite aplicar un borde personalizado alrededor del campo de entrada. Se controla con el siguiente selector de clase CSS:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialoginputcontainer
@@ -715,20 +716,20 @@ Cada campo de entrada de formulario se ajusta al contenedor, que le permite apli
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> borde </span> </p> </td> 
-   <td colname="col2"> <p>Borde alrededor del contenedor del campo de entrada. </p> </td> 
+   <td colname="col2"> <p>Borde alrededor del contenedor de campos de entrada. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> relleno </span> </p> </td> 
-   <td colname="col2"> <p>Relleno interior. </p> </td> 
+   <td colname="col2"> <p>Margen interior. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->El contenedor de campo de entrada admite el selector de atributos `state` opcional. Se establece en `verifyerror` cuando el usuario comete un error en el formato de datos de entrada y falla la validación en línea. Este selector de atributos se puede utilizar para resaltar datos incorrectos introducidos por el usuario en el formulario.
+>El contenedor de campos de entrada admite el selector de atributos opcional `state`. Se establece en `verifyerror` cuando el usuario comete un error en el formato de datos de entrada y la validación en línea falla. Este selector de atributos se puede utilizar para resaltar datos incorrectos introducidos por el usuario en el formulario.
 
-La mayoría de los campos de entrada que se extienden desde la etiqueta de la izquierda hasta el borde derecho del cuerpo del cuadro de diálogo (que incluye el campo De y el campo Mensaje) se controlan con el siguiente selector de clase CSS:
+La mayoría de los campos de entrada que se extienden desde la etiqueta de la izquierda hasta el borde derecho del cuerpo del cuadro de diálogo (que incluye el campo Desde y el campo Mensaje ) se controlan con el siguiente selector de clase CSS:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialoginputwide
@@ -745,7 +746,7 @@ La mayoría de los campos de entrada que se extienden desde la etiqueta de la iz
  </tbody> 
 </table>
 
-El campo Para es más estrecho porque asigna espacio al botón Eliminar correo electrónico de la derecha. Se controla con el siguiente selector de clase CSS:
+El campo To es más estrecho porque asigna espacio al botón Remove email de la derecha. Se controla con el siguiente selector de clase CSS:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialoginputshort
@@ -762,7 +763,7 @@ El campo Para es más estrecho porque asigna espacio al botón Eliminar correo e
  </tbody> 
 </table>
 
-Ejemplo: para configurar un formulario con un borde gris de un píxel con nueve píxeles de relleno alrededor de todos los campos de entrada; para tener el mismo borde en color rojo para los campos en los que se ha producido un error de validación, para tener 250 píxeles de ancho en el campo Para y el resto de los campos de entrada 300 píxeles de ancho:
+Ejemplo: para configurar un formulario con un borde gris de un píxel con nueve píxeles de relleno alrededor de todos los campos de entrada; para tener el mismo borde en color rojo para los campos en los que se ha producido un error de validación, para tener un campo To de 250 píxeles de ancho y el resto de los campos de entrada de 300 píxeles de ancho:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialoginputcontainer { 
@@ -786,7 +787,7 @@ El campo de entrada de mensajes de correo electrónico también se controla con:
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogmessage
 ```
 
-Esta clase le permite establecer propiedades específicas para el elemento subyacente `TEXTAREA`.
+Esta clase permite establecer propiedades específicas para el elemento `TEXTAREA` subyacente.
 
 **Propiedades CSS del mensaje del cuadro de diálogo**
 
@@ -803,7 +804,7 @@ Esta clase le permite establecer propiedades específicas para el elemento subya
  </tbody> 
 </table>
 
-Ejemplo: para configurar un mensaje de correo electrónico con una altura de 50 píxeles y utilizar `break-word` ajuste de texto:
+Ejemplo: para configurar un mensaje de correo electrónico con una altura de 50 píxeles y utilizar el ajuste de palabras `break-word`:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogmessage { 
@@ -812,7 +813,7 @@ Ejemplo: para configurar un mensaje de correo electrónico con una altura de 50 
 }
 ```
 
-El botón añadir otra dirección de correo electrónico permite al usuario agregar más de una dirección en el formulario de correo electrónico. Se controla con el siguiente selector de clase CSS:
+El botón Añadir otra dirección de correo electrónico permite que un usuario añada más de una dirección en el formulario de correo electrónico. Se controla con el siguiente selector de clase CSS:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogaddemailbutton
@@ -831,16 +832,16 @@ El botón añadir otra dirección de correo electrónico permite al usuario agre
    <td colname="col2"> <p>Color del texto del botón para cada estado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
    <td colname="col2"> <p>Imagen de botón para cada estado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
    <td colname="col2"> <p>Posición de la imagen del botón dentro del área del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-peso  </span> </p> </td> 
-   <td colname="col2"> <p>Peso de fuente del botón. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col2"> <p>Grosor de la fuente del botón. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
@@ -848,7 +849,7 @@ El botón añadir otra dirección de correo electrónico permite al usuario agre
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
-   <td colname="col2"> <p>Familia de fuentes de botón. </p> </td> 
+   <td colname="col2"> <p>Familia de fuentes del botón. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> line-height  </span> </p> </td> 
@@ -860,18 +861,18 @@ El botón añadir otra dirección de correo electrónico permite al usuario agre
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> relleno </span> </p> </td> 
-   <td colname="col2"> <p>Relleno interior. </p> </td> 
+   <td colname="col2"> <p>Margen interior. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Este botón admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes apariencias a distintos estados de botones.
+>Este botón admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes aspectos a distintos estados de botones.
 
-La información de objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
+La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
-Ejemplo: para configurar el botón &quot;Añadir otra dirección de correo electrónico&quot; en 25 píxeles de alto, utilice una fuente en negrita de 12 puntos con alineación a la derecha y un color e imagen de texto diferente para cada estado:
+Ejemplo: para configurar el botón &quot;Añadir otra dirección de correo electrónico&quot; para que tenga una altura de 25 píxeles, utilice una fuente en negrita de 12 puntos con alineación derecha y un color de texto e imagen diferentes para cada estado:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogaddemailbutton { 
@@ -908,7 +909,7 @@ El botón Eliminar permite al usuario eliminar direcciones adicionales del formu
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogremoveemailbutton
 ```
 
-**Propiedades CSS del cuadro de diálogo quitar botón de correo electrónico**
+**Propiedades CSS del cuadro de diálogo Quitar botón de correo electrónico**
 
 <table id="table_79E4C65741E64859B9C9E9DCCB3D050B"> 
  <tbody> 
@@ -921,23 +922,23 @@ El botón Eliminar permite al usuario eliminar direcciones adicionales del formu
    <td colname="col2"> <p>Altura del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
    <td colname="col2"> <p>Imagen de botón para cada estado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
+   <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Este botón admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes apariencias a distintos estados de botones.
+>Este botón admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes aspectos a distintos estados de botones.
 
-La información de objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
+La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
-Ejemplo: para configurar un botón Eliminar en 25 x 25 píxeles y utilizar una imagen diferente para cada estado:
+Ejemplo: para configurar un botón Eliminar para que tenga 25 x 25 píxeles y utilice una imagen diferente para cada estado:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogremoveemailbutton { 
@@ -958,7 +959,7 @@ Ejemplo: para configurar un botón Eliminar en 25 x 25 píxeles y utilizar una i
 }
 ```
 
-El contenido que se comparte se muestra en la parte inferior del cuerpo del cuadro de diálogo e incluye una miniatura, un título, una dirección URL de origen y una descripción. Se envuelve en un contenedor que se controla con el siguiente selector de clase CSS:
+El contenido que se está compartiendo se muestra en la parte inferior del cuerpo del cuadro de diálogo e incluye una miniatura, título, dirección URL de origen y descripción. Se envuelve en un contenedor que se controla con el siguiente selector de clase CSS:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogbody .s7dialogcontent
@@ -974,12 +975,12 @@ El contenido que se comparte se muestra en la parte inferior del cuerpo del cuad
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> relleno </span> </p> </td> 
-   <td colname="col2"> <p>Relleno interior. </p> </td> 
+   <td colname="col2"> <p>Margen interior. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ejemplo: para configurar un contenedor inferior con un borde punteado de un píxel y sin relleno:
+Ejemplo: para configurar un contenedor inferior con un borde punteado de un píxel y sin margen:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogbody .s7dialogcontent { 
@@ -994,7 +995,7 @@ La imagen en miniatura se controla con el siguiente selector de clase CSS:
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogthumbnail
 ```
 
-La propiedad `background-image` se establece mediante la lógica del componente.
+La propiedad `background-image` la establece la lógica del componente.
 
 **Propiedades CSS de la imagen en miniatura del cuadro de diálogo**
 
@@ -1002,24 +1003,24 @@ La propiedad `background-image` se establece mediante la lógica del componente.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
-   <td colname="col2"> <p>Ancho de la miniatura. </p> </td> 
+   <td colname="col2"> <p>Anchura de las miniaturas. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altura de la miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vertical-align  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> alineación vertical  </span> </p> </td> 
    <td colname="col2"> <p>Miniatura de alineación vertical. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> relleno </span> </p> </td> 
-   <td colname="col2"> <p>Relleno interior. </p> </td> 
+   <td colname="col2"> <p>Margen interior. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ejemplo: para configurar una miniatura de 90 x 60 píxeles y la alineación superior con diez píxeles de relleno:
+Ejemplo: para configurar la miniatura para que sea de 90 x 60 píxeles y alineación superior con diez píxeles de relleno:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogthumbnail { 
@@ -1030,7 +1031,7 @@ Ejemplo: para configurar una miniatura de 90 x 60 píxeles y la alineación supe
 }
 ```
 
-El título del contenido, el origen y la descripción se agrupan en un panel a la derecha de la miniatura de contenido. Se controla con el siguiente selector de clase CSS:
+El título, el origen y la descripción del contenido se agrupan en un panel a la derecha de la miniatura del contenido. Se controla con el siguiente selector de clase CSS:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialoginfopanel
@@ -1042,7 +1043,7 @@ El título del contenido, el origen y la descripción se agrupan en un panel a l
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
-   <td colname="col2"> <p>Ancho del panel. </p> </td> 
+   <td colname="col2"> <p>Anchura del panel. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1055,7 +1056,7 @@ Ejemplo: para configurar un panel de información de contenido con una anchura d
 }
 ```
 
-El título del contenido se controla con el siguiente selector de clase CSS:
+El título de contenido se controla con el siguiente selector de clase CSS:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogtitle
@@ -1066,12 +1067,12 @@ El título del contenido se controla con el siguiente selector de clase CSS:
 <table id="table_E83C149E66EC474092DF8A180DA9A550"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margen  </span> </p> </td> 
    <td colname="col2"> <p>Margen exterior. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-peso  </span> </p> </td> 
-   <td colname="col2"> <p>Peso de fuentes. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col2"> <p>Grosor de fuente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
@@ -1084,7 +1085,7 @@ El título del contenido se controla con el siguiente selector de clase CSS:
  </tbody> 
 </table>
 
-Ejemplo: para configurar un título de contenido para usar fuente en negrita y tener un margen de diez píxeles:
+Ejemplo: para configurar un título de contenido para utilizar fuentes en negrita y tener un margen de diez píxeles:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogtitle { 
@@ -1093,7 +1094,7 @@ Ejemplo: para configurar un título de contenido para usar fuente en negrita y t
 }
 ```
 
-El origen de contenido se controla con el siguiente selector de clase CSS:
+El origen del contenido se controla con el siguiente selector de clase CSS:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogorigin
@@ -1104,12 +1105,12 @@ El origen de contenido se controla con el siguiente selector de clase CSS:
 <table id="table_51763B532A9C4AE8AE54B69933A8C0B5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margen  </span> </p> </td> 
    <td colname="col2"> <p>Margen exterior. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-peso  </span> </p> </td> 
-   <td colname="col2"> <p>Peso de fuentes. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col2"> <p>Grosor de fuente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
@@ -1122,7 +1123,7 @@ El origen de contenido se controla con el siguiente selector de clase CSS:
  </tbody> 
 </table>
 
-Ejemplo: para configurar el origen de contenido para que tenga un margen de diez píxeles:
+Ejemplo: para configurar el origen del contenido con un margen de diez píxeles:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogorigin { 
@@ -1141,12 +1142,12 @@ La descripción del contenido se controla con el siguiente selector de clase CSS
 <table id="table_F0F917ED3D1D4FCE974F48214D287E14"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margen  </span> </p> </td> 
    <td colname="col2"> <p>Margen exterior. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-peso  </span> </p> </td> 
-   <td colname="col2"> <p>Peso de fuentes. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col2"> <p>Grosor de fuente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
@@ -1168,7 +1169,7 @@ Ejemplo: para configurar una descripción de contenido con un margen de diez pí
 }
 ```
 
-Cuando un usuario introduce datos de entrada incorrectos y se produce un error en la validación en línea, o cuando el cuadro de diálogo necesita mostrar un error o un mensaje de confirmación cuando se envía el formulario, se muestra un mensaje en la parte superior del cuerpo del cuadro de diálogo. Se controla con el siguiente selector de clase CSS:
+Cuando un usuario introduce datos de entrada incorrectos y la validación en línea falla, o cuando el cuadro de diálogo necesita representar un error o un mensaje de confirmación cuando se envía el formulario, se muestra un mensaje en la parte superior del cuerpo del cuadro de diálogo. Se controla con el siguiente selector de clase CSS:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogerrormessage
@@ -1179,11 +1180,11 @@ Cuando un usuario introduce datos de entrada incorrectos y se produce un error e
 <table id="table_C114E1004C334D339C25A3438E8E6614"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
    <td colname="col2"> <p> Icono de error. El valor predeterminado es un signo de exclamación. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
    <td colname="col2"> <p> Posición del icono de error dentro del área del mensaje. </p> </td> 
   </tr> 
   <tr> 
@@ -1191,8 +1192,8 @@ Cuando un usuario introduce datos de entrada incorrectos y se produce un error e
    <td colname="col2"> <p>Color del texto del mensaje. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-peso  </span> </p> </td> 
-   <td colname="col2"> <p>Peso de fuentes. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col2"> <p>Grosor de fuente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
@@ -1208,18 +1209,18 @@ Cuando un usuario introduce datos de entrada incorrectos y se produce un error e
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> relleno </span> </p> </td> 
-   <td colname="col2"> <p>Relleno interior. </p> </td> 
+   <td colname="col2"> <p>Margen interior. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Este mensaje admite el selector de atributos `state` con los siguientes valores posibles: `verifyerror`, `senderror` y `sendsuccess`. `verifyerror` se configura cuando se muestra un mensaje debido a un error de validación de entrada en línea;  `senderror` se configura cuando un servicio de correo electrónico back-end informa de un error;  `sendsuccess` se configura cuando el correo electrónico se envía correctamente. De este modo, es posible aplicar un estilo diferente al mensaje en función del estado del cuadro de diálogo.
+>Este mensaje es compatible con el selector de atributos `state` con los siguientes valores posibles: `verifyerror`, `senderror` y `sendsuccess`. `verifyerror` se establece cuando se muestra un mensaje debido a un error de validación de entrada en línea;  `senderror` se establece cuando un servicio de correo electrónico back-end informa de un error;  `sendsuccess` se establece cuando el correo electrónico se envía correctamente. De este modo, es posible aplicar un estilo diferente al mensaje según el estado del cuadro de diálogo.
 
-La información de objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
+La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
-Ejemplo: para configurar un mensaje para que utilice una fuente en negrita de diez puntos, tenga una altura de línea de 25 píxeles, un margen de 20 píxeles a la izquierda, utilice un icono de signo de exclamación, texto rojo en caso de error y sin icono y texto verde en caso de éxito:
+Ejemplo: para configurar un mensaje para que utilice una fuente en negrita de diez puntos, tenga una altura de línea de 25 píxeles, un relleno de 20 píxeles a la izquierda, utilice un icono de signo de exclamación, texto rojo en caso de error y sin icono y texto verde en caso de éxito:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogerrormessage[state="verifyerror"] { 
@@ -1243,7 +1244,7 @@ Ejemplo: para configurar un mensaje para que utilice una fuente en negrita de di
 }
 ```
 
-Si se necesita desplazamiento vertical, la barra de desplazamiento se procesa en el panel situado cerca del borde derecho del cuadro de diálogo, que se controla con el siguiente selector de clase CSS:
+Si se necesita desplazamiento vertical, la barra de desplazamiento se representa en el panel situado cerca del borde derecho del cuadro de diálogo, que se controla con el siguiente selector de clase CSS:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogscrollpanel
@@ -1260,7 +1261,7 @@ Si se necesita desplazamiento vertical, la barra de desplazamiento se procesa en
  </tbody> 
 </table>
 
-Ejemplo: para configurar un panel de desplazamiento para que tenga 44 píxeles de ancho:
+Ejemplo: para configurar un panel de desplazamiento con una anchura de 44 píxeles:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogscrollpanel { 
@@ -1284,20 +1285,20 @@ El aspecto del área de la barra de desplazamiento se controla con el siguiente 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> parte superior </span> </p> </td> 
-   <td colname="col2"> <p> Desplazamiento de la barra de desplazamiento vertical desde la parte superior del panel de desplazamiento. </p> </td> 
+   <td colname="col2"> <p> Desplazamiento vertical de la barra de desplazamiento desde la parte superior del panel de desplazamiento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> parte inferior </span> </p> </td> 
-   <td colname="col2"> <p> Desplazamiento de la barra de desplazamiento vertical desde la parte inferior del panel de desplazamiento. </p> </td> 
+   <td colname="col2"> <p> Desplazamiento vertical de la barra de desplazamiento desde la parte inferior del panel de desplazamiento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> derecha </span> </p> </td> 
-   <td colname="col2"> <p> Desplazamiento de la barra de desplazamiento horizontal desde el borde derecho del panel de desplazamiento. </p> </td> 
+   <td colname="col2"> <p> Desplazamiento horizontal de la barra de desplazamiento desde el borde derecho del panel de desplazamiento. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ejemplo: para configurar una barra de desplazamiento con una anchura de 28 píxeles, un margen de ocho píxeles desde la parte superior, derecha e inferior del panel de desplazamiento:
+Ejemplo: para configurar una barra de desplazamiento de 28 píxeles de ancho, un margen de ocho píxeles desde la parte superior, derecha y inferior del panel de desplazamiento:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7scrollbar { 
@@ -1308,7 +1309,7 @@ Ejemplo: para configurar una barra de desplazamiento con una anchura de 28 píxe
 }
 ```
 
-La pista de la barra de desplazamiento es el área entre los botones de desplazamiento superior e inferior. El componente establece automáticamente la posición y la altura de la pista. El seguimiento se controla con el siguiente selector de clase CSS:
+La barra de desplazamiento es el área entre los botones de desplazamiento superior e inferior. El componente establece automáticamente la posición y la altura de la pista. El seguimiento se controla con el siguiente selector de clase CSS:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7scrollbar .s7scrolltrack
@@ -1324,12 +1325,12 @@ La pista de la barra de desplazamiento es el área entre los botones de desplaza
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p>Color de fondo de la pista. </p> </td> 
+   <td colname="col2"> <p>El color de fondo de la pista. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ejemplo: para configurar una pista de barra de desplazamiento con una anchura de 28 píxeles y un fondo gris:
+Ejemplo: para configurar una pista de barra de desplazamiento de 28 píxeles de ancho y con un fondo gris:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7scrollbar .s7scrolltrack { 
@@ -1338,13 +1339,13 @@ background-color: #B2B2B2;
 }
 ```
 
-El pulgar de la barra de desplazamiento se mueve verticalmente dentro de un área de seguimiento de desplazamiento. Su posición vertical está totalmente controlada por la lógica del componente; sin embargo, la altura del pulgar no cambia dinámicamente según la cantidad de contenido. Puede configurar la altura de la miniatura y otros aspectos con el siguiente selector de clase CSS:
+La barra de desplazamiento se mueve verticalmente dentro de un área de seguimiento de desplazamiento. Su posición vertical está totalmente controlada por la lógica del componente, sin embargo, la altura del pulgar no cambia dinámicamente según la cantidad de contenido. Puede configurar la altura de la miniatura y otros aspectos con el siguiente selector de clase CSS:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7scrollbar .s7scrollthumb
 ```
 
-**Propiedades CSS de la miniatura de la barra de desplazamiento**
+**Propiedades CSS de la barra de desplazamiento**
 
 <table id="table_5A4A283A50044A51881D997885674BDF"> 
  <tbody> 
@@ -1357,29 +1358,29 @@ El pulgar de la barra de desplazamiento se mueve verticalmente dentro de un áre
    <td colname="col2"> <p>La altura del pulgar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> relleno superior  </span> </p> </td> 
    <td colname="col2"> <p> El margen vertical entre la parte superior de la pista. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> relleno-inferior  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> relleno inferior  </span> </p> </td> 
    <td colname="col2"> <p> El margen vertical entre la parte inferior de la pista. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p>Imagen que se muestra para un estado de miniatura determinado. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
+   <td colname="col2"> <p>Imagen que se muestra para un estado de pulgar determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
+   <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Thumb admite el selector de atributos `state`, que se puede utilizar para aplicar diferentes apariencias a diferentes estados de pulgar: `up`, `down`, `over` y `disabled`.
+>Thumb es compatible con el selector de atributos `state`, que puede utilizarse para aplicar diferentes aspectos a diferentes estados de los pulgares: `up`, `down`, `over` y `disabled`.
 
-Ejemplo: para configurar el pulgar de la barra de desplazamiento de 28 x 45 píxeles, tiene un margen de diez píxeles en la parte superior e inferior y tiene una ilustración diferente para cada estado:
+Ejemplo: para configurar el desplazamiento de la barra de desplazamiento de 28 x 45 píxeles, tiene un margen de diez píxeles en la parte superior e inferior y tiene distintas ilustraciones para cada estado:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7scrollbar .s7scrollthumb { 
@@ -1412,7 +1413,7 @@ El aspecto de los botones de desplazamiento superior e inferior se controla con 
 .s7ecatalogsearchviewer .s7emaildialog .s7scrollbar .s7scrolldownbutton
 ```
 
-No es posible colocar botones de desplazamiento mediante las propiedades CSS `top`, `left`, `bottom` y `right`. En su lugar, la lógica del visor las coloca automáticamente.
+No es posible colocar botones de desplazamiento utilizando las propiedades CSS `top`, `left`, `bottom` y `right`. En su lugar, la lógica del visor los coloca automáticamente.
 
 **Propiedades CSS de los botones de desplazamiento superior e inferior**
 
@@ -1427,23 +1428,23 @@ No es posible colocar botones de desplazamiento mediante las propiedades CSS `to
    <td colname="col2"> <p>Altura del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
    <td colname="col2"> <p>Imagen que se muestra para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
+   <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Estos botones admiten el selector de atributos `state`, que se puede utilizar para aplicar diferentes apariencias a diferentes estados de botón: `up`, `down`, `over` y `disabled`.
+>Estos botones admiten el selector de atributos `state`, que puede utilizarse para aplicar diferentes aspectos a distintos estados de botones: `up`, `down`, `over` y `disabled`.
 
-La información de objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
+La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
-Ejemplo: para configurar botones de desplazamiento de 28 x 32 píxeles y con diferentes ilustraciones para cada estado:
+Ejemplo: para configurar botones de desplazamiento de 28 x 32 píxeles y que tengan distintas ilustraciones para cada estado:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7scrollbar .s7scrollupbutton { 
