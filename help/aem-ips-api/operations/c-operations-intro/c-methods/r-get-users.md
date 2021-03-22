@@ -1,15 +1,16 @@
 ---
-description: Obtiene una matriz de usuarios según lo especificado por los identificadores de compañía, grupo y función de usuario. Esta operación permite ordenar los usuarios devueltos y filtrar por carácter.
-seo-description: Obtiene una matriz de usuarios según lo especificado por los identificadores de compañía, grupo y función de usuario. Esta operación permite ordenar los usuarios devueltos y filtrar por carácter.
+description: Obtiene una matriz de usuarios según lo especificado por los controladores de empresa, grupo y función de usuario. Esta operación permite ordenar los usuarios devueltos y filtrar por carácter.
+seo-description: Obtiene una matriz de usuarios según lo especificado por los controladores de empresa, grupo y función de usuario. Esta operación permite ordenar los usuarios devueltos y filtrar por carácter.
 seo-title: getUsers
 solution: Experience Manager
 title: getUsers
-topic: Dynamic Media Image Production System API
 uuid: f16ccd1b-0f00-4d9a-b6e1-6abc3bde1af9
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '242'
 ht-degree: 9%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 9%
 
 # getUsers{#getusers}
 
-Obtiene una matriz de usuarios según lo especificado por los identificadores de compañía, grupo y función de usuario. Esta operación permite ordenar los usuarios devueltos y filtrar por carácter.
+Obtiene una matriz de usuarios según lo especificado por los controladores de empresa, grupo y función de usuario. Esta operación permite ordenar los usuarios devueltos y filtrar por carácter.
 
 ## Tipos de usuarios autorizados {#section-6a8f23cc6b22442d8776f701016971ed}
 
@@ -29,26 +30,26 @@ Obtiene una matriz de usuarios según lo especificado por los identificadores de
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`includeInactive`*` | `xsd:boolean` | No | Incluir o excluir usuarios inactivos. Los usuarios administradores que no sean de IPS deben ser miembros activos de al menos una compañía para poder realizar llamadas de API. Se mostrará un error de autorización si el usuario no tiene miembros de compañía activos. |
+| `*`includeInactive`*` | `xsd:boolean` | No | Incluir o excluir usuarios inactivos. Los usuarios administradores que no sean de IPS deben ser miembros activos de al menos una empresa para poder realizar llamadas de API. Se devolverá un error de autorización si el usuario no tiene miembros activos de la empresa. |
 | `*`includeInvalid`*` | `xsd:boolean` | No | Permite incluir o excluir usuarios no válidos. |
-| `*`companyHandleArray`*` | `types:HandleArray` | No | Filtre los resultados por compañía. |
-| `*`groupHandleArray`*` | `types:HandleArray` | No | Filtre los resultados por grupo. |
+| `*`companyHandleArray`*` | `types:HandleArray` | No | Filtrar resultados por empresa. |
+| `*`groupHandleArray`*` | `types:HandleArray` | No | Filtrar resultados por grupo. |
 | `*`userRoleArray`*` | `types:StringArray` | No | Filtre los resultados por función de usuario. |
 | `*`charFilterField`*` | `xsd:string` | No | Filtrar los resultados por el prefijo de cadena del campo (consulte [!DNL Trash State).] |
 | `*`charFilter`*` | `xsd:string` | No | Filtre los resultados por un carácter específico. |
-| `*`sortBy`*` | `xsd:string` | No | Elección de campos de ordenación de usuarios. |
+| `*`sortBy`*` | `xsd:string` | No | Selección de campos de ordenación por el usuario. |
 | `*`recordsPerPage`*` | `xsd:int` | No | Devuelve el número especificado de registros por página. |
-| `*`resultsPage`*` | `xsd:int` | No | Página de resultados. |
+| `*`resultsPage`*` | `xsd:int` | No | Resultados . |
 
 **Salida (getUsersReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`userArray`*` | `types:UserArray` | Sí | Matriz de usuarios. |
+| `*`userArray`*` | `types:UserArray` | Sí | Una matriz de usuarios. |
 
 ## Ejemplos {#section-bc43a5dd7b4c4f048d25fc881554dab2}
 
-Este ejemplo de código devuelve la matriz de usuarios para varios parámetros opcionales. Las funciones de usuario, los campos de filtro de caracteres de usuario y los campos de ordenación de usuarios se determinan mediante constantes de cadena específicas.
+Este ejemplo de código devuelve la matriz de usuarios para varios parámetros opcionales. Las funciones de usuario, los campos de filtro de caracteres de usuario y los campos de ordenación de usuario se determinan mediante el uso de constantes de cadena específicas.
 
 **Solicitar**
 
