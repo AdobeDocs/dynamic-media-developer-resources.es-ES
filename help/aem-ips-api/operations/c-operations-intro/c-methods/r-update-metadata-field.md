@@ -1,23 +1,24 @@
 ---
-description: Actualizar metadatos de campo.
-seo-description: Actualizar metadatos de campo.
+description: Actualice los metadatos del campo.
+seo-description: Actualice los metadatos del campo.
 seo-title: updateMetadataField
 solution: Experience Manager
 title: updateMetadataField
-topic: Dynamic Media Image Production System API
 uuid: 8712b09b-b02a-4fb3-a0ed-084dc48a717a
+feature: Dynamic Media Classic,SDK/API,Metadatos
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 21%
+source-wordcount: '165'
+ht-degree: 20%
 
 ---
 
 
 # updateMetadataField{#updatemetadatafield}
 
-Actualizar metadatos de campo.
+Actualice los metadatos del campo.
 
 Sintaxis
 
@@ -45,13 +46,13 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> Identificador de compañía. </td> 
+   <td colname="col4"> Identificador de la empresa. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> Identificador del campo de metadatos. </td> 
+   <td colname="col4"> Control de campo de metadatos. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
@@ -69,32 +70,32 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Oculte o exponga metadatos específicos del sistema IPS. </td> 
+   <td colname="col4"> Ocultar o exponer metadatos específicos del sistema IPS. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"><span class="varname"> isEnforce</span></span> </td> 
+   <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Un indicador booleano que indica si el campo de metadatos se fuerza (se valida) cuando se establece el valor. </p> <p>Si se establece en true, se genera un error si se establece un valor no válido en <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
+   <td colname="col4"> <p>Un indicador booleano que indica si el campo de metadatos se aplica (validado) cuando se establece el valor. </p> <p>Si se establece en true, se genera un error si se establece un valor no válido en <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Permite crear un conjunto de valores enumerados compartidos al que pueden apuntar las etiquetas seleccionadas. </td> 
+   <td colname="col4"> Permite crear un conjunto de valores enumerados compartidos a los que las etiquetas seleccionadas pueden apuntar. </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Output (updateMetadataFieldReturn)**
+**Salida (updateMetadataFieldReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`fieldHandle`*` | `xsd:string` | Sí | Identificador del campo de metadatos. |
+| `*`fieldHandle`*` | `xsd:string` | Sí | Control de campo de metadatos. |
 
 ## Ejemplos {#section-bb7d93ab6d914ddfa294e08983e589ee}
 
-Esta actualización de ejemplo de código asigna un nuevo nombre y un valor predeterminado a un campo de metadatos. La respuesta devuelve un identificador al campo actualizado.
+Este ejemplo de actualización de código asigna un nuevo nombre y un valor predeterminado a un campo de metadatos. La respuesta devuelve un identificador al campo actualizado.
 
 **Solicitar**
 
