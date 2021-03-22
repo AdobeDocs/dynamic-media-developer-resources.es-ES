@@ -1,23 +1,24 @@
 ---
-description: Obtiene conjuntos de propiedades asociados a un identificador de tipo.
-seo-description: Obtiene conjuntos de propiedades asociados a un identificador de tipo.
+description: Obtiene conjuntos de propiedades asociados a un control de tipo.
+seo-description: Obtiene conjuntos de propiedades asociados a un control de tipo.
 seo-title: getPropertySets
 solution: Experience Manager
 title: getPropertySets
-topic: Dynamic Media Image Production System API
 uuid: fa3cadb3-92b3-4ffb-ac1e-87a01b98bcb2
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 17%
+source-wordcount: '106'
+ht-degree: 16%
 
 ---
 
 
 # getPropertySets{#getpropertysets}
 
-Obtiene conjuntos de propiedades asociados a un identificador de tipo.
+Obtiene conjuntos de propiedades asociados a un control de tipo.
 
 Sintaxis
 
@@ -35,15 +36,15 @@ Sintaxis
 
 ## Parámetros {#section-d8da2847e77e4a95a4441d9848cac775}
 
-**Input (getPropertySetsParam)**
+**Entrada (getPropertySetsParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
 | `*`typeHandle`*` | `xsd:string` | Sí | El identificador del tipo de conjunto de propiedades. |
-| `*`PrimaryOwnerHandle`*` | `xsd:string` | Sí | El propietario principal de los datos enlazados al objeto de base de datos. |
-| `*`secondaryOwnerHandle`*` | `xsd:string` | No | Un propietario secundario opcional de los datos. |
+| `*`primaryOwnerHandle`*` | `xsd:string` | Sí | Propietario principal de los datos enlazados al objeto de base de datos. |
+| `*`childOwnerHandle`*` | `xsd:string` | No | Un propietario secundario opcional de los datos. |
 
-**Output (getPropertySetsReturn)**
+**Salida (getPropertySetsReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
@@ -51,7 +52,7 @@ Sintaxis
 
 ## Ejemplos {#section-1358af974eab4259864910337a6f0bd2}
 
-Este ejemplo de código devuelve conjuntos de propiedades de su propietario principal, especificados por un identificador de tipo.
+Este ejemplo de código devuelve conjuntos de propiedades de su propietario principal, especificados por un identificador de tipo .
 
 **Solicitar**
 
