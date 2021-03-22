@@ -1,15 +1,16 @@
 ---
-description: Tamaño de imagen de procesamiento predeterminado. El servidor restringe las imágenes de respuesta para que no superen este ancho y alto, si la solicitud no especifica el tamaño de vista que utiliza explícitamente wid= o hei=.
-seo-description: Tamaño de imagen de procesamiento predeterminado. El servidor restringe las imágenes de respuesta para que no superen este ancho y alto, si la solicitud no especifica el tamaño de vista que utiliza explícitamente wid= o hei=.
+description: Tamaño de imagen de renderización predeterminado. El servidor restringe el tamaño de las imágenes de respuesta a un tamaño no mayor que este ancho y alto si la solicitud no especifica el tamaño de vista explícitamente mediante wid= o hei=.
+seo-description: Tamaño de imagen de renderización predeterminado. El servidor restringe el tamaño de las imágenes de respuesta a un tamaño no mayor que este ancho y alto si la solicitud no especifica el tamaño de vista explícitamente mediante wid= o hei=.
 seo-title: DefaultPix
 solution: Experience Manager
 title: DefaultPix
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 27574811-a920-4e54-8635-5a643b8655ef
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '155'
 ht-degree: 2%
 
 ---
@@ -17,17 +18,17 @@ ht-degree: 2%
 
 # DefaultPix{#defaultpix}
 
-Tamaño de imagen de procesamiento predeterminado. El servidor restringe las imágenes de respuesta para que no superen este ancho y alto, si la solicitud no especifica el tamaño de vista que utiliza explícitamente wid= o hei=.
+Tamaño de imagen de renderización predeterminado. El servidor restringe el tamaño de las imágenes de respuesta a un tamaño no mayor que este ancho y alto si la solicitud no especifica el tamaño de vista explícitamente mediante wid= o hei=.
 
 ## Propiedades {#section-9dc5474fc75842308796ab6440b29611}
 
-Dos números enteros, 0 o más, separados por coma. Anchura y altura en píxeles. Puede que uno o ambos valores estén establecidos en 0 para mantenerlos sin restricciones.
+Dos números enteros, 0 o más grandes, separados por coma. Anchura y altura en píxeles. Puede que ambos valores estén establecidos en 0 para mantenerlos sin restricciones.
 
-No aplicable a solicitudes anidadas o incrustadas.
+No aplicable a solicitudes anidadas/incrustadas.
 
 ## Predeterminado {#section-1935781c561e4679aa87a5bcced8df90}
 
-Se hereda de `default::DefaultPix` si no está definida o si está vacía.
+Se hereda de `default::DefaultPix` si no está definido o si está vacío.
 
 ## Véase también {#section-d28f18d29ef14692b8706ca08e754f54}
 
