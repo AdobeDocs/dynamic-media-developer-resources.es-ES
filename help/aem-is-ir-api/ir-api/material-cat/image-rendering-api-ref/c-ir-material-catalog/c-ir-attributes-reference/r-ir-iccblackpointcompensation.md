@@ -1,15 +1,16 @@
 ---
-description: Compensación Blackpoint. Especifica si la compensación de punto negro debe aplicarse a las conversiones de color cuando no se realiza ninguna selección explícita con icc=.
-seo-description: Compensación Blackpoint. Especifica si la compensación de punto negro debe aplicarse a las conversiones de color cuando no se realiza ninguna selección explícita con icc=.
+description: Compensación de punto negro. Especifica si se debe aplicar una compensación de punto negro a las conversiones de color cuando no se realiza ninguna selección explícita con icc=.
+seo-description: Compensación de punto negro. Especifica si se debe aplicar una compensación de punto negro a las conversiones de color cuando no se realiza ninguna selección explícita con icc=.
 seo-title: IccBlackPointCompensation
 solution: Experience Manager
 title: IccBlackPointCompensation
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 284339b1-e6fd-499a-a581-c87aa1765c0e
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '99'
 ht-degree: 5%
 
 ---
@@ -17,15 +18,15 @@ ht-degree: 5%
 
 # IccBlackPointCompensation{#iccblackpointcompensation}
 
-Compensación Blackpoint. Especifica si la compensación de punto negro debe aplicarse a las conversiones de color cuando no se realiza ninguna selección explícita con icc=.
+Compensación de punto negro. Especifica si se debe aplicar una compensación de punto negro a las conversiones de color cuando no se realiza ninguna selección explícita con icc=.
 
 ## Propiedades {#section-21fd20b16bea4a22aecab0ae8b81e332}
 
-Indicador. Establezca en 0 para deshabilitar o en 1 para habilitar la compensación de punto negro.
+Indicador. Establézcalo en 0 para deshabilitar o en 1 para habilitar la compensación del punto de interrupción.
 
 ## Predeterminado {#section-5bc6703a43a149f18af88b70baae568f}
 
-Se hereda de `default::IccBlackPointCompensation` si no está definida o si está vacía.
+Se hereda de `default::IccBlackPointCompensation` si no está definido o si está vacío.
 
 ## Véase también {#section-90fcbddf02c54846aa09f85fabc7b4d4}
 
