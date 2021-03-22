@@ -4,13 +4,14 @@ seo-description: Escalar imagen. Escala una imagen por factor en relación con l
 seo-title: scale
 solution: Experience Manager
 title: scale
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: db5bab94-e5c1-41fe-ab1b-5c62b6a798d0
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 9%
+source-wordcount: '63'
+ht-degree: 7%
 
 ---
 
@@ -30,7 +31,7 @@ Escalar imagen. Escala una imagen por factor en relación con la imagen de resol
 
 ## Predeterminado {#section-e9e53959b35844579f0f1d7721b71f8e}
 
-Si no se especifica, la imagen se utiliza sin escalar.
+Si no se especifica, la imagen se utilizará sin escalar.
 
 ## Ejemplo {#section-d5526953d6434c58bb2388bd936c13b5}
 
