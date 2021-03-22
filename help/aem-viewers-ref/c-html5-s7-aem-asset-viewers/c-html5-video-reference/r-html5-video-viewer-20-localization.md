@@ -1,15 +1,16 @@
 ---
-description: Cierto contenido que muestra el visor de vídeo está sujeto a localización. Este contenido incluye información del elemento de la interfaz de usuario y un mensaje de error que se muestra cuando no se puede reproducir el vídeo.
-seo-description: Cierto contenido que muestra el visor de vídeo está sujeto a localización. Este contenido incluye información del elemento de la interfaz de usuario y un mensaje de error que se muestra cuando no se puede reproducir el vídeo.
+description: El contenido que muestra el visor de vídeo está sujeto a localización. Este contenido incluye información sobre herramientas de elementos de la interfaz de usuario y un mensaje de error que se muestra cuando no se puede reproducir el vídeo.
+seo-description: El contenido que muestra el visor de vídeo está sujeto a localización. Este contenido incluye información sobre herramientas de elementos de la interfaz de usuario y un mensaje de error que se muestra cuando no se puede reproducir el vídeo.
 seo-title: Localización de los elementos de la interfaz de usuario
 solution: Experience Manager
 title: Localización de los elementos de la interfaz de usuario
-topic: Dynamic Media
 uuid: 05b88ef9-0d90-4143-8558-d0d32943c348
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '821'
 ht-degree: 0%
 
 ---
@@ -17,15 +18,15 @@ ht-degree: 0%
 
 # Localización de los elementos de la interfaz de usuario{#localization-of-user-interface-elements}
 
-Cierto contenido que muestra el visor de vídeo está sujeto a localización. Este contenido incluye información del elemento de la interfaz de usuario y un mensaje de error que se muestra cuando no se puede reproducir el vídeo.
+El contenido que muestra el visor de vídeo está sujeto a localización. Este contenido incluye información sobre herramientas de elementos de la interfaz de usuario y un mensaje de error que se muestra cuando no se puede reproducir el vídeo.
 
-Todo el contenido textual del visor que se puede localizar se representa mediante un identificador especial del SDK del visor denominado SYMBOL. Cualquier SYMBOL tiene un valor de texto asociado predeterminado para la configuración regional en inglés ( `"en"`) que se proporciona con el visor incorporado. También puede tener valores definidos por el usuario para tantas configuraciones regionales como sea necesario.
+Cada contenido textual del visualizador que se puede localizar se representa mediante un identificador especial del SDK del visualizador denominado SYMBOL. Cualquier SYMBOL tiene un valor de texto asociado predeterminado para la configuración regional de inglés ( `"en"`) que se proporciona con el visor predeterminado. También puede tener valores definidos por el usuario configurados para tantas configuraciones regionales como sea necesario.
 
-Cuando el visor inicio, comprueba la configuración regional actual para ver si hay un valor definido por el usuario para cada SÍMBOLO admitido para la configuración regional. Si la hay, utiliza el valor definido por el usuario; de lo contrario, se remonta al texto predeterminado predefinido.
+Cuando se inicia el visor, comprueba la configuración regional actual para ver si hay un valor definido por el usuario para cada SÍMBOLO admitido para la configuración regional. Si existe, utiliza el valor definido por el usuario; de lo contrario, vuelve al texto predeterminado predeterminado predeterminado predeterminado.
 
-Los datos de localización definidos por el usuario se pueden pasar al visor como un objeto JSON de localización. Dicho objeto contiene la lista de configuraciones regionales admitidas, los valores de texto SYMBOL para cada configuración regional y la configuración regional predeterminada.
+Los datos de localización definidos por el usuario se pueden pasar al visor como un objeto JSON de localización. Este objeto contiene la lista de configuraciones regionales admitidas, los valores de texto SYMBOL para cada configuración regional y la configuración regional predeterminada.
 
-Un ejemplo de este objeto de localización es el siguiente:
+Un ejemplo de este tipo de objeto de localización es el siguiente:
 
 ```
 { 
@@ -41,9 +42,9 @@ defaultLocale:"en"
 }
 ```
 
-En el ejemplo anterior, el objeto localización define dos configuraciones regionales ( `"en"` y `"fr"`) y proporciona localización para dos elementos de interfaz de usuario en cada configuración regional.
+En el ejemplo anterior, el objeto de localización define dos configuraciones regionales ( `"en"` y `"fr"`) y proporciona localización para dos elementos de interfaz de usuario en cada configuración regional.
 
-El código de página web debe pasar dicho objeto de localización al constructor del visor como un valor del campo `localizedTexts` del objeto de configuración. Una opción alternativa es pasar el objeto de localización llamando al método `setLocalizedTexts(localizationInfo)`.
+El código de la página web debe pasar dicho objeto de localización al constructor del visor como un valor del campo `localizedTexts` del objeto de configuración. Una opción alternativa es pasar el objeto de localización llamando al método `setLocalizedTexts(localizationInfo)`.
 
 Se admiten los siguientes SÍMBOLOS:
 
@@ -56,16 +57,16 @@ Se admiten los siguientes SÍMBOLOS:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Contenedor.ETIQUETA  </span> </p> </td> 
-   <td colname="col2"> <p> Etiqueta ARIA para el elemento de visor de nivel superior. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Container.LABEL  </span> </p> </td> 
+   <td colname="col2"> <p> Etiqueta ARIA para el elemento visualizador de nivel superior. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_SELECTED  </span> </p> </td> 
-   <td colname="col2"> <p>Información del objeto sobre el estado del botón de reproducción en pausa seleccionado. </p> </td> 
+   <td colname="col2"> <p>Información del objeto sobre el estado del botón de reproducción de pausa seleccionado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_UNSELECTED  </span> </p> </td> 
-   <td colname="col2"> <p>Información del objeto sobre el estado del botón de pausa de reproducción no seleccionado. </p> </td> 
+   <td colname="col2"> <p>Información del objeto para el estado del botón de pausa de reproducción no seleccionado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_REPLAY  </span> </p> </td> 
@@ -89,23 +90,23 @@ Se admiten los siguientes SÍMBOLOS:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_VOLUME  </span> </p> </td> 
-   <td colname="col2"> <p> Etiqueta del botón deslizante del volumen expuesta mediante el atributo ARIA <span class="codeph"> aria-valueext </span>. </p> </td> 
+   <td colname="col2"> <p> Etiqueta del botón deslizante del volumen expuesta a través del atributo ARIA <span class="codeph"> aria-value </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED  </span> </p> </td> 
-   <td colname="col2"> <p>Información del objeto sobre el estado del botón de pantalla completa seleccionado. </p> </td> 
+   <td colname="col2"> <p>Información del objeto para el estado del botón de pantalla completa seleccionado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECTED  </span> </p> </td> 
-   <td colname="col2"> <p>Información del objeto sobre el estado del botón de pantalla completa no seleccionado. </p> </td> 
+   <td colname="col2"> <p>Información del objeto para el estado del botón de pantalla completa no seleccionado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ClosedCaptionButton.TOOLTIP_SELECTED  </span> </p> </td> 
-   <td colname="col2"> <p>Información del objeto sobre el estado del botón de subtítulos opcionales seleccionado. </p> </td> 
+   <td colname="col2"> <p>Información del objeto sobre el estado del botón de subtítulos optativos seleccionado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ClosedCaptionButton.TOOLTIP_UNSELECTED  </span> </p> </td> 
-   <td colname="col2"> <p>Información del objeto sobre el estado del botón de subtítulos opcionales no seleccionado. </p> </td> 
+   <td colname="col2"> <p>Información del objeto para el estado del botón de subtítulos cerrados no seleccionado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SocialShare.TOOLTIP  </span> </p> </td> 
@@ -113,7 +114,7 @@ Se admiten los siguientes SÍMBOLOS:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Información del objeto para el botón Compartir correo electrónico. </p> </td> 
+   <td colname="col2"> <p>Información del objeto para el botón de compartir correo electrónico. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.HEADER  </span> </p> </td> 
@@ -125,19 +126,19 @@ Se admiten los siguientes SÍMBOLOS:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.INVALID_ADDRESSS  </span> </p> </td> 
-   <td colname="col2"> <p>Información del objeto para el mensaje de error que se muestra en caso de que la dirección de correo electrónico esté mal formada. </p> </td> 
+   <td colname="col2"> <p>La información del objeto para el mensaje de error mostrado en caso de que la dirección de correo electrónico tenga un formato incorrecto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TO  </span> </p> </td> 
    <td colname="col2"> <p>Etiqueta del campo de entrada "A". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_AÑADA  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_ADD  </span> </p> </td> 
    <td colname="col2"> <p>Información del objeto para el botón "Añadir otra dirección de correo electrónico". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmailShare.AÑADA  </span> </p> </td> 
-   <td colname="col2"> <p>Rótulo del botón "Añadir otra dirección de correo electrónico". </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmailShare.ADD  </span> </p> </td> 
+   <td colname="col2"> <p>Pie de ilustración para el botón "Añadir otra dirección de correo electrónico". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.FROM  </span> </p> </td> 
@@ -153,7 +154,7 @@ Se admiten los siguientes SÍMBOLOS:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.CANCEL  </span> </p> </td> 
-   <td colname="col2"> <p>Rótulo del botón "Cancelar". </p> </td> 
+   <td colname="col2"> <p>Pie de ilustración para el botón "Cancelar". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_CANCEL  </span> </p> </td> 
@@ -161,7 +162,7 @@ Se admiten los siguientes SÍMBOLOS:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.CLOSE  </span> </p> </td> 
-   <td colname="col2"> <p>El rótulo del botón de cierre se muestra en la parte inferior del cuadro de diálogo después del envío del formulario. </p> </td> 
+   <td colname="col2"> <p>Rótulo del botón de cierre que se muestra en la parte inferior del cuadro de diálogo después del envío del formulario. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_CLOSE  </span> </p> </td> 
@@ -169,7 +170,7 @@ Se admiten los siguientes SÍMBOLOS:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.ACTION  </span> </p> </td> 
-   <td colname="col2"> <p>Rótulo del botón de envío del formulario. </p> </td> 
+   <td colname="col2"> <p>Pie de ilustración del botón de envío del formulario. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_ACTION  </span> </p> </td> 
@@ -177,19 +178,19 @@ Se admiten los siguientes SÍMBOLOS:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.SEND_SUCCESS  </span> </p> </td> 
-   <td colname="col2"> <p>Se muestra un mensaje de confirmación cuando el correo electrónico se ha enviado correctamente. </p> </td> 
+   <td colname="col2"> <p>El mensaje de confirmación se mostraba cuando el correo electrónico se enviaba correctamente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.SEND_FAILURE  </span> </p> </td> 
-   <td colname="col2"> <p>Mensaje de error que se muestra cuando el correo electrónico no se ha enviado correctamente. </p> </td> 
+   <td colname="col2"> <p>Mensaje de error que se muestra cuando el correo electrónico no se envió correctamente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Información del objeto para el botón de incrustación compartida. </p> </td> 
+   <td colname="col2"> <p>Información del objeto para el botón Insertar uso compartido. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.HEADER  </span> </p> </td> 
-   <td colname="col2"> <p>Información del objeto para el encabezado del cuadro de diálogo incrustado. </p> </td> 
+   <td colname="col2"> <p>Información del objeto para el encabezado del cuadro de diálogo incrustar. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP_HEADER_CLOSE  </span> </p> </td> 
@@ -201,11 +202,11 @@ Se admiten los siguientes SÍMBOLOS:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.EMBED_SIZE  </span> </p> </td> 
-   <td colname="col2"> <p>Etiqueta para el cuadro combinado de tamaño incrustado. </p> </td> 
+   <td colname="col2"> <p>Etiqueta del cuadro combinado Tamaño incrustado . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.CANCEL  </span> </p> </td> 
-   <td colname="col2"> <p>Rótulo del botón "Cancelar". </p> </td> 
+   <td colname="col2"> <p>Pie de ilustración para el botón "Cancelar". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP_CANCEL  </span> </p> </td> 
@@ -213,11 +214,11 @@ Se admiten los siguientes SÍMBOLOS:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.ACTION  </span> </p> </td> 
-   <td colname="col2"> <p>Rótulo del botón "Seleccionar todo". </p> </td> 
+   <td colname="col2"> <p>Pie de ilustración para el botón "Seleccionar todo". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Acción de EmbedShare.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Información del objeto para el botón "Seleccionar todo". </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ACCIÓN EmbedShare.TOOLTIP  </span> </p> </td> 
+   <td colname="col2"> <p>Información del objeto para el botón Seleccionar todo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.CUSTOM_SIZE  </span> </p> </td> 
@@ -225,7 +226,7 @@ Se admiten los siguientes SÍMBOLOS:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Información del objeto para el botón de uso compartido de vínculos. </p> </td> 
+   <td colname="col2"> <p>Información del objeto para el botón de compartir vínculo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.HEADER  </span> </p> </td> 
@@ -233,7 +234,7 @@ Se admiten los siguientes SÍMBOLOS:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_HEADER_CLOSE  </span> </p> </td> 
-   <td colname="col2"> <p>Información del objeto para el botón de cierre superior derecho del cuadro de diálogo de vínculo. </p> </td> 
+   <td colname="col2"> <p>Información del objeto para el botón de cierre superior derecho del cuadro de diálogo del vínculo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.DESCRIPTION  </span> </p> </td> 
@@ -241,7 +242,7 @@ Se admiten los siguientes SÍMBOLOS:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.CANCEL  </span> </p> </td> 
-   <td colname="col2"> <p>Rótulo del botón "Cancelar". </p> </td> 
+   <td colname="col2"> <p>Pie de ilustración para el botón "Cancelar". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_CANCEL  </span> </p> </td> 
@@ -249,11 +250,11 @@ Se admiten los siguientes SÍMBOLOS:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.ACTION  </span> </p> </td> 
-   <td colname="col2"> <p>Rótulo del botón "Seleccionar todo". </p> </td> 
+   <td colname="col2"> <p>Pie de ilustración para el botón "Seleccionar todo". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Acción LinkShare.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Información del objeto para el botón "Seleccionar todo". </p> </td> 
+   <td colname="col2"> <p>Información del objeto para el botón Seleccionar todo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FacebookShare.TOOLTIP  </span> </p> </td> 
@@ -261,11 +262,11 @@ Se admiten los siguientes SÍMBOLOS:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Información del objeto para el botón Compartir en Twitter. </p> </td> 
+   <td colname="col2"> <p>Información del objeto para el botón Compartir de Twitter. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> VideoPlayer.ERROR  </span> </p> </td> 
-   <td colname="col2"> <p>Información del objeto para el mensaje de error que aparece cuando no es posible reproducir vídeo. </p> </td> 
+   <td colname="col2"> <p>Información del objeto para el mensaje de error que aparece cuando no es posible reproducir ningún vídeo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
