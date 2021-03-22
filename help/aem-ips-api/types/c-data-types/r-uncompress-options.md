@@ -1,23 +1,24 @@
 ---
-description: Ajuste de carga para procesar archivos ZIP y TAR como recursos principales (Ninguno) o para extraer y cargar su contenido (Descomprimir).
-seo-description: Ajuste de carga para procesar archivos ZIP y TAR como recursos principales (Ninguno) o para extraer y cargar su contenido (Descomprimir).
-seo-title: DescompressOptions
+description: Cargue la configuración para procesar archivos ZIP y TAR como recursos principales (Ninguno) o para extraer y cargar su contenido (No comprimir).
+seo-description: Cargue la configuración para procesar archivos ZIP y TAR como recursos principales (Ninguno) o para extraer y cargar su contenido (No comprimir).
+seo-title: Cancelar compresiónOpciones
 solution: Experience Manager
-title: DescompressOptions
-topic: Dynamic Media Image Production System API
+title: Cancelar compresiónOpciones
 uuid: 1e6827db-8c5e-47db-b7ff-4e681e107e57
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 6%
+source-wordcount: '121'
+ht-degree: 5%
 
 ---
 
 
-# DescompressOptions{#uncompressoptions}
+# DescomprimirOpciones{#uncompressoptions}
 
-Ajuste de carga para procesar archivos ZIP y TAR como recursos principales (Ninguno) o para extraer y cargar su contenido (Descomprimir).
+Cargue la configuración para procesar archivos ZIP y TAR como recursos principales (Ninguno) o para extraer y cargar su contenido (No comprimir).
 
 >[!NOTE]
 >
@@ -39,9 +40,9 @@ Ajuste de carga para procesar archivos ZIP y TAR como recursos principales (Ning
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Controla el procesamiento de archivos ZIP y TAR. Proporciona dos opciones: 
      <ul id="ul_F34E2F3B9B74450CA7E76BD9FD7137C2">
-      <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> Ninguno:</span> Procesar como recursos principales. </li>
-      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> Descomprimir:</span> Extraer y procesar contenido. </li>
-     </ul><p>Nota: Las constantes de cadena distinguen entre mayúsculas y minúsculas. Utilice <span class="codeph"> Descomprimir</span>, no <span class="codeph"> descomprimir</span> ni <span class="codeph"> descomprimir</span>. </p></p> </td> 
+      <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> Ninguno: </span> Procese como recursos principales. </li>
+      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> Descomprimir: </span> Extraiga y procese contenidos. </li>
+     </ul><p>Nota: Las constantes de cadena distinguen entre mayúsculas y minúsculas. Utilice <span class="codeph"> Descomprimir</span>, no <span class="codeph"> descomprimir</span> o <span class="codeph"> descomprimir</span>. </p></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,7 +60,7 @@ Ajuste de carga para procesar archivos ZIP y TAR como recursos principales (Ning
     </complexType>
 ```
 
-## Usado por {#section-b2a829cf5511412e968bb2000f85cc31}
+## Utilizado por {#section-b2a829cf5511412e968bb2000f85cc31}
 
 El tipo `unCompressionOptions` lo utiliza:
 
