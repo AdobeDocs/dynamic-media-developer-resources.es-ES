@@ -1,23 +1,24 @@
 ---
-description: Atributo de configuración para el visor de Video360.
-seo-description: Atributo de configuración para el visor de Video360.
+description: Atributo de configuración para el visualizador de vídeo360.
+seo-description: Atributo de configuración para el visualizador de vídeo360.
 seo-title: Video360Player.posterimage
 solution: Experience Manager
 title: Video360Player.posterimage
-topic: Dynamic Media
 uuid: a1adc3b7-2ea3-4f26-84f2-b5c2f4418038
+feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 14%
+source-wordcount: '93'
+ht-degree: 12%
 
 ---
 
 
 # Video360Player.posterimage{#video-player-posterimage}
 
-Atributo de configuración para el visor de Video360.
+Atributo de configuración para el visualizador de vídeo360.
 
 ` [Video360Player.|<containerId>_video360Player.]posterimage=none|[? *`isCommands`*]`
 
@@ -25,9 +26,9 @@ Atributo de configuración para el visor de Video360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|[?<span class="varname"> isCommands</span>]</span> </p> </td> 
-   <td colname="col2"> <p> Modificadores de servicio de imágenes que controlan el aspecto de la imagen de póster. Si se especifica en la dirección URL, codificar HTTP lo siguiente: </p> <p> 
+   <td colname="col2"> <p> Modificadores del servicio de imágenes que controlan el aspecto de la imagen del póster. Si se especifica en la dirección URL, HTTP codifica lo siguiente: </p> <p> 
      <ul id="ul_B38A687CEFE64C68A0B2C227A68A458F"> 
-      <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> <span class="codeph"> ?</span> as  <span class="codeph"> %3F</span> </p> </li> 
+      <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> <span class="codeph"> ?</span> como  <span class="codeph"> %3F</span> </p> </li> 
       <li id="li_391CCF067F734480B2B4AFC9760C479A"> <p> <span class="codeph"> &amp;</span> como  <span class="codeph"> %26</span> </p> </li> 
       <li id="li_6824B66A55554C5A8B12874DCF5BFAEE"> <p> <span class="codeph"> =</span> como  <span class="codeph"> %3D</span> </p> </li> 
      </ul> </p> <p> Este modificador funciona para el contenido de vídeo alojado en Dynamic Media Classic o AEM Dynamic Media. </p> <p>Para evitar que se muestre la imagen de póster predeterminada, especifique <span class="codeph"> none</span> como valor de imagen de póster. </p> </td> 
