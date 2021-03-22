@@ -1,15 +1,16 @@
 ---
-description: Modo de remuestreo. Selecciona el algoritmo de remuestreo y/o interpolación que se va a utilizar para escalar la imagen representada al tamaño especificado con wid=, hei= o scl=.
-seo-description: Modo de remuestreo. Selecciona el algoritmo de remuestreo y/o interpolación que se va a utilizar para escalar la imagen representada al tamaño especificado con wid=, hei= o scl=.
+description: Modo de remuestreo. Selecciona el algoritmo de remuestreo o interpolación que se utilizará para escalar la imagen representada al tamaño especificado con wid=, hei= o scl=.
+seo-description: Modo de remuestreo. Selecciona el algoritmo de remuestreo o interpolación que se utilizará para escalar la imagen representada al tamaño especificado con wid=, hei= o scl=.
 seo-title: resMode
 solution: Experience Manager
 title: resMode
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 106da74a-d7da-4998-a719-c4c69ae36f6b
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '211'
 ht-degree: 12%
 
 ---
@@ -17,9 +18,9 @@ ht-degree: 12%
 
 # resMode{#resmode}
 
-Modo de remuestreo. Selecciona el algoritmo de remuestreo y/o interpolación que se va a utilizar para escalar la imagen representada al tamaño especificado con wid=, hei= o scl=.
+Modo de remuestreo. Selecciona el algoritmo de remuestreo o interpolación que se utilizará para escalar la imagen representada al tamaño especificado con wid=, hei= o scl=.
 
-` `resMode=bilin|bicub|sharp2|bisharp&quot;
+` `resMode=bilin|bicub|Sharp2|biSharp&quot;
 
 <table id="table_AF954C101B30473FAFE9930C7B694305"> 
  <tbody> 
@@ -29,22 +30,22 @@ Modo de remuestreo. Selecciona el algoritmo de remuestreo y/o interpolación que
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph"> bicub  </span> </p> </td> 
-   <td colname="col2"> <p>Selecciona la interpolación bicúbica. Más uso de CPU que interpolación bilineal, pero producirá imágenes más enfocadas con artefactos de solapamiento menos evidentes. </p> </td> 
+   <td colname="col2"> <p>Selecciona la interpolación bicúbica. Mayor densidad de CPU que la interpolación bilineal, pero producirá imágenes más nítidas con menos artefactos de solapamiento visibles. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph"> sharp2  </span> </p> </td> 
-   <td colname="col2"> <p>selecciona una función de ventana Lanczos modificada como un algoritmo de interpolación. Puede producir resultados ligeramente más enfocados que los bicúbicos a un costo de CPU mayor. </p> <p> <span class="codeph"> el punto  </span> ha sido reemplazado por el  <span class="codeph"> punto2  </span>, que tiene menos posibilidades de causar artefactos de solapamiento, también conocidos como Moiré. </p> </td> 
+   <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph"> agudo2  </span> </p> </td> 
+   <td colname="col2"> <p>selecciona una función de ventana Lanczos modificada como un algoritmo de interpolación. Puede producir resultados ligeramente más nítidos que la bicúbica a un mayor costo de CPU. </p> <p> <span class="codeph"> el punto  </span> ha sido sustituido por el  <span class="codeph"> punto 2  </span>, que tiene menos probabilidades de causar artefactos de aliasing, también conocido como Moiré. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bisharp  </span> </p> </td> 
-   <td colname="col2"> <p>Selecciona el <span class="keyword"> reampliador predeterminado de Adobe Photoshop </span> para reducir el tamaño de la imagen, que se denomina "enfoque bicúbico" en <span class="keyword"> Adobe Photoshop </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bici  </span> </p> </td> 
+   <td colname="col2"> <p>Selecciona el <span class="keyword"> reampliador predeterminado </span> de Adobe Photoshop para reducir el tamaño de la imagen, que se denomina "nitidez bicúbica" en <span class="keyword"> Adobe Photoshop </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Propiedades {#section-ea7029f37e094d9cb85646b85fbac0ce}
 
-Puede ocurrir en cualquier lugar dentro de la solicitud. Se omite si no se aplica ninguna escala de imagen final.
+Puede ocurrir en cualquier lugar dentro de la solicitud. Se omite si no se aplica ningún escalado de imagen final.
 
 ## Predeterminado {#section-900872fb93dc41efb3e8ad5b62aadc38}
 
