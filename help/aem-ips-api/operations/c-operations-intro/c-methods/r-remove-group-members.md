@@ -1,15 +1,16 @@
 ---
-description: Quita los usuarios de compañía de un grupo específico.
-seo-description: Quita los usuarios de compañía de un grupo específico.
+description: Quita a los usuarios de la empresa de un grupo específico.
+seo-description: Quita a los usuarios de la empresa de un grupo específico.
 seo-title: removeGroupMembers
 solution: Experience Manager
 title: removeGroupMembers
-topic: Dynamic Media Image Production System API
 uuid: dd0ea335-bbd0-43b1-830b-77f32dc39b12
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '132'
 ht-degree: 9%
 
 ---
@@ -17,12 +18,12 @@ ht-degree: 9%
 
 # removeGroupMembers{#removegroupmembers}
 
-Quita los usuarios de compañía de un grupo específico.
+Quita a los usuarios de la empresa de un grupo específico.
 
-**Diferencias entre comandos de eliminación**
+**Diferencias entre los comandos Quitar**
 
-* `removeGroupMembers`:: Quita varios usuarios de un grupo.
-* `removeGroupMembership`:: Quita un usuario individual de una matriz de grupos.
+* `removeGroupMembers`: Quita varios usuarios de un grupo.
+* `removeGroupMembership`: Quita un usuario individual de una matriz de grupos.
 
 ## Tipos de usuarios autorizados {#section-2c64cdac15184fbba6c7b2945b5d87f7}
 
@@ -36,17 +37,17 @@ Quita los usuarios de compañía de un grupo específico.
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía con los usuarios con los que desea trabajar. |
+| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa con los usuarios con los que desea trabajar. |
 | `*`groupHandle`*` | `xsd:string` | Sí | Identificador de grupo. |
-| `*`userHandleArray`*` | `types:HandleArray` | Sí | Matriz de identificadores para usuarios cuyas pertenencias a grupos desee eliminar. |
+| `*`userHandleArray`*` | `types:HandleArray` | Sí | Matriz de controladores para usuarios cuyas pertenencias de grupo desee eliminar. |
 
 **Salida (removeGroupMembersParam)**
 
-La API de IPS no devuelve una respuesta para esta operación.
+La API IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-9eedac852cea46ec80de6a6928bf97ac}
 
-Este ejemplo de código elimina a un usuario de la compañía especificada. Elimine varios usuarios de un grupo con la matriz de control de usuario.
+Este ejemplo de código elimina a un usuario de la empresa especificada. Elimine varios usuarios de un grupo con la matriz de control de usuario.
 
 **Solicitar**
 
