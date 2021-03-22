@@ -2,13 +2,14 @@
 description: portraitFrames
 solution: Experience Manager
 title: portraitFrames
-topic: Dynamic Media
 uuid: b915df14-62cf-4ff2-8336-dac4b3dd605f
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 8%
+source-wordcount: '57'
+ht-degree: 7%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> split|solid</span> </p> </td> 
-   <td colname="col2"> <p>Se establece en <span class="codeph"> split</span> para que el visor pueda mostrar los pliegos de páginas de doble como una página independiente cuando se utiliza en dispositivos móviles en orientación vertical. Establezca <span class="codeph"> solid</span> para mostrar siempre los pliegos de páginas de doble como imágenes sólidas, independientemente de la orientación del dispositivo. </p> </td> 
+   <td colname="col2"> <p>Establézcalo en <span class="codeph"> split</span> para permitir que el visor muestre los pliegos de doble página como una página independiente cuando se utilice en dispositivos móviles en orientación vertical. Establézcalo en <span class="codeph"> sólido</span> para mostrar siempre pliegos de doble página como imagen sólida, independientemente de la orientación del dispositivo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
