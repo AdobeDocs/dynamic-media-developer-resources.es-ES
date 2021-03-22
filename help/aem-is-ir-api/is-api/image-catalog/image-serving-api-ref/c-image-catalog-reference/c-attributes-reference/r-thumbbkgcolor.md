@@ -1,15 +1,16 @@
 ---
-description: Color de fondo predeterminado para las miniaturas. Valor RGB utilizado para rellenar el área de una imagen en miniatura de salida que no contiene datos de imagen reales.
-seo-description: Color de fondo predeterminado para las miniaturas. Valor RGB utilizado para rellenar el área de una imagen en miniatura de salida que no contiene datos de imagen reales.
+description: Color de fondo predeterminado para miniaturas. Valor RGB utilizado para rellenar el área de una imagen en miniatura de salida que no contiene datos de imagen reales.
+seo-description: Color de fondo predeterminado para miniaturas. Valor RGB utilizado para rellenar el área de una imagen en miniatura de salida que no contiene datos de imagen reales.
 seo-title: ThumbBkgColor
 solution: Experience Manager
 title: ThumbBkgColor
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c75c01f4-036e-46fd-9bc1-480920c0c05a
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '111'
 ht-degree: 4%
 
 ---
@@ -17,9 +18,9 @@ ht-degree: 4%
 
 # ThumbBkgColor{#thumbbkgcolor}
 
-Color de fondo predeterminado para las miniaturas. Valor RGB utilizado para rellenar el área de una imagen en miniatura de salida que no contiene datos de imagen reales.
+Color de fondo predeterminado para miniaturas. Valor RGB utilizado para rellenar el área de una imagen en miniatura de salida que no contiene datos de imagen reales.
 
-Solo se utiliza para solicitudes en miniatura ( `req=tmb`) y cuando `catalog::ThumbType` se establece en 2 o 3.
+Solo se usa para solicitudes de miniatura ( `req=tmb`) y cuando `catalog::ThumbType` está configurado en 2 o 3.
 
 ## Propiedades {#section-a73e82c950cc4319bc3bccec14764c25}
 
@@ -27,7 +28,7 @@ Color.
 
 ## Predeterminado {#section-b02bb56dda684ff9969806ce82ba00c2}
 
-Se hereda de `default::ThumbBkgColor` si no está definida o si está vacía.
+Se hereda de `default::ThumbBkgColor` si no está definido o si está vacío.
 
 ## Véase también {#section-27983dc885424dfbba8c8e4192f3f88d}
 
