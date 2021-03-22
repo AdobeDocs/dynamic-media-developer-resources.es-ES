@@ -1,22 +1,23 @@
 ---
-description: Si se requieren datos de material para un catálogo de materiales, la ruta relativa o absoluta del archivo de datos de material debe especificarse en el atributo CatalogFile.
-seo-description: Si se requieren datos de material para un catálogo de materiales, la ruta relativa o absoluta del archivo de datos de material debe especificarse en el atributo CatalogFile.
-seo-title: Referencia de datos de materiales
+description: Si se necesitan datos materiales para un catálogo de materiales, la ruta relativa o absoluta del archivo de datos materiales debe especificarse en el atributo CatalogFile.
+seo-description: Si se necesitan datos materiales para un catálogo de materiales, la ruta relativa o absoluta del archivo de datos materiales debe especificarse en el atributo CatalogFile.
+seo-title: Referencia de datos materiales
 solution: Experience Manager
-title: Referencia de datos de materiales
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Referencia de datos materiales
 uuid: 1f2dae40-0314-483a-a731-11889e166dee
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
 
 
-# Referencia de datos de materiales{#material-data-reference}
+# Referencia de datos de material{#material-data-reference}
 
-Si se requieren datos de material para un catálogo de material, la ruta relativa o absoluta del archivo de datos de material debe especificarse en el atributo::CatalogFile.
+Si se necesitan datos materiales para un catálogo de materiales, la ruta relativa o absoluta del archivo de datos materiales debe especificarse en el atributo::CatalogFile.
 
-Las entradas del archivo de datos de material de un catálogo de material específico anulan las entradas del archivo de datos de material del catálogo predeterminado.
+Las entradas en el fichero de datos materiales de un catálogo de materiales específico anulan las entradas en el fichero de datos materiales del catálogo por defecto.
