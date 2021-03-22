@@ -1,16 +1,17 @@
 ---
 description: Propiedades de un recurso de archivo RTF.
 seo-description: Propiedades de un recurso de archivo RTF.
-seo-title: RTFInfo
+seo-title: Información de RTFI
 solution: Experience Manager
-title: RTFInfo
-topic: Dynamic Media Image Production System API
+title: Información de RTFI
 uuid: cd7744bd-d033-4095-82c7-2a7b7db7e97f
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 25%
+source-wordcount: '42'
+ht-degree: 21%
 
 ---
 
