@@ -1,15 +1,16 @@
 ---
-description: Hace que el usuario haga clic en el visor para entrar o salir del modo de pantalla completa. Este botón aparece en la barra de control principal. Este botón no se muestra si el visor funciona en modo emergente y el sistema no admite la pantalla completa nativa. Puede cambiar el tamaño, la apariencia y colocar el botón mediante CSS.
-seo-description: Hace que el usuario haga clic en el visor para entrar o salir del modo de pantalla completa. Este botón aparece en la barra de control principal. Este botón no se muestra si el visor funciona en modo emergente y el sistema no admite la pantalla completa nativa. Puede cambiar el tamaño, la apariencia y colocar el botón mediante CSS.
-seo-title: Botón de pantalla completa
+description: Hace que el usuario introduzca o salga del modo de pantalla completa cuando hace clic en él. Este botón aparece en la barra de control principal. Este botón no se muestra si el visor funciona en modo emergente y el sistema no admite pantalla completa nativa. Puede cambiar el tamaño, el aspecto y colocar el botón mediante CSS.
+seo-description: Hace que el usuario introduzca o salga del modo de pantalla completa cuando hace clic en él. Este botón aparece en la barra de control principal. Este botón no se muestra si el visor funciona en modo emergente y el sistema no admite pantalla completa nativa. Puede cambiar el tamaño, el aspecto y colocar el botón mediante CSS.
+seo-title: Botón Pantalla completa
 solution: Experience Manager
-title: Botón de pantalla completa
-topic: Dynamic Media
+title: Botón Pantalla completa
 uuid: 1ee32e71-78bc-4cb2-858c-083c750ff1c6
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '387'
 ht-degree: 1%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 1%
 
 # Botón de pantalla completa{#full-screen-button}
 
-Hace que el usuario haga clic en el visor para entrar o salir del modo de pantalla completa. Este botón aparece en la barra de control principal. Este botón no se muestra si el visor funciona en modo emergente y el sistema no admite la pantalla completa nativa. Puede cambiar el tamaño, la apariencia y colocar el botón mediante CSS.
+Hace que el usuario introduzca o salga del modo de pantalla completa cuando hace clic en él. Este botón aparece en la barra de control principal. Este botón no se muestra si el visor funciona en modo emergente y el sistema no admite pantalla completa nativa. Puede cambiar el tamaño, el aspecto y colocar el botón mediante CSS.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propiedades CSS del área del visor principal**
+**Propiedades CSS del área principal del visor**
 
 El aspecto del botón se controla con el siguiente selector de clase CSS:
 
@@ -53,30 +54,30 @@ El aspecto del botón se controla con el siguiente selector de clase CSS:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Ancho del botón. </p> </td> 
+   <td colname="col2"> <p>Anchura del botón. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Altura del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
    <td colname="col2"> <p>Imagen que se muestra para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
+   <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Este botón admite los selectores de atributos `state` y `selected`, que pueden utilizarse para aplicar diferentes apariencias a diferentes estados de botón. En particular, `selected='true'` corresponde al estado de &quot;pantalla completa&quot; y `selected='false'` corresponde al estado &quot;normal&quot;.
+>Este botón admite los selectores de atributos `state` y `selected`, que pueden utilizarse para aplicar diferentes aspectos a diferentes estados de botones. En concreto, `selected='true'` corresponde al estado &quot;pantalla completa&quot; y `selected='false'` corresponde al estado &quot;normal&quot;.
 
-La información de objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
+La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
-Ejemplo: para configurar un botón de pantalla completa de 28 x 28 píxeles, posicionado 4 píxeles desde la parte inferior y 5 píxeles desde el borde derecho de la barra de control principal, y muestra una imagen diferente para cada uno de los cuatro estados de botón diferentes cuando se selecciona o no se selecciona.
+Ejemplo: para configurar un botón de pantalla completa de 28 x 28 píxeles, colocado 4 píxeles desde la parte inferior y 5 píxeles desde el borde derecho de la barra de control principal, y muestra una imagen diferente para cada uno de los cuatro estados de botón diferentes cuando se selecciona o no se selecciona.
 
 ```
 .s7ecatalogviewer .s7fullscreenbutton { 
