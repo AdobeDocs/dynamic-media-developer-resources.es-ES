@@ -1,21 +1,22 @@
 ---
 description: El número de capa también determina el orden z.
 seo-description: El número de capa también determina el orden z.
-seo-title: Orden de capas
+seo-title: Orden de las capas
 solution: Experience Manager
-title: Orden de capas
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Orden de las capas
 uuid: 090f3873-8355-4b11-b05f-f34c74f02a5b
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
 
 
-# Orden de capas{#layer-order}
+# Orden de capa{#layer-order}
 
 El número de capa también determina el orden z.
 
