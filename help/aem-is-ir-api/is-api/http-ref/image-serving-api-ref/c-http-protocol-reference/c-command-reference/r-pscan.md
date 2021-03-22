@@ -1,15 +1,16 @@
 ---
-description: Análisis progresivo de JPEG. JPEG progresivo muestra una imagen de tal manera que inicialmente muestra una foto borrosa/de baja calidad en su totalidad. A medida que continúa el análisis, se hace más claro a medida que los datos de la imagen se descargan más. Este parámetro le permite establecer el número de escaneos que necesita (3, 4 o 5) para que aparezca toda la imagen.
-seo-description: Análisis progresivo de JPEG. JPEG progresivo muestra una imagen de tal manera que inicialmente muestra una foto borrosa/de baja calidad en su totalidad. A medida que continúa el análisis, se hace más claro a medida que los datos de la imagen se descargan más. Este parámetro le permite establecer el número de escaneos que necesita (3, 4 o 5) para que aparezca toda la imagen.
+description: Análisis progresivo JPEG. JPEG progresivo muestra una imagen de tal manera que inicialmente muestra una foto borrosa/de baja calidad en su totalidad. A medida que continúa el análisis, se vuelve más claro a medida que los datos de la imagen se descargan de forma más completa. Este parámetro le permite establecer el número de exploraciones que necesita (3, 4 o 5) para que aparezca toda la imagen.
+seo-description: Análisis progresivo JPEG. JPEG progresivo muestra una imagen de tal manera que inicialmente muestra una foto borrosa/de baja calidad en su totalidad. A medida que continúa el análisis, se vuelve más claro a medida que los datos de la imagen se descargan de forma más completa. Este parámetro le permite establecer el número de exploraciones que necesita (3, 4 o 5) para que aparezca toda la imagen.
 seo-title: pscan
 solution: Experience Manager
 title: pscan
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c8e1d7a9-679c-437f-aa53-67aca3f40b30
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '278'
 ht-degree: 1%
 
 ---
@@ -17,19 +18,19 @@ ht-degree: 1%
 
 # pscan{#pscan}
 
-Análisis progresivo de JPEG. JPEG progresivo muestra una imagen de tal manera que inicialmente muestra una foto borrosa/de baja calidad en su totalidad. A medida que continúa el análisis, se hace más claro a medida que los datos de la imagen se descargan más. Este parámetro le permite establecer el número de escaneos que necesita (3, 4 o 5) para que aparezca toda la imagen.
+Análisis progresivo JPEG. JPEG progresivo muestra una imagen de tal manera que inicialmente muestra una foto borrosa/de baja calidad en su totalidad. A medida que continúa el análisis, se vuelve más claro a medida que los datos de la imagen se descargan de forma más completa. Este parámetro le permite establecer el número de exploraciones que necesita (3, 4 o 5) para que aparezca toda la imagen.
 
 `pscan=auto|3|4|5`
 
-La velocidad real de cada escaneo depende de la velocidad de transmisión del sistema del usuario y del equipo que recibe y descomprime los datos.
+La velocidad real de cada escaneo depende de la velocidad de transmisión del sistema del usuario y del ordenador que recibe y descomprime los datos.
 
-`Auto` utiliza la configuración de exploración calculada por la biblioteca JPEG independiente y depende del modelo de color. Los valores de `3`, `4`, `5` corresponden a la configuración de análisis que se encuentra en Adobe Photoshop al guardar un archivo JPEG como un pjpeg (JPEG progresivo).
+`Auto` utiliza la configuración de exploración calculada por la biblioteca JPEG independiente y depende del modelo de color. Los valores de `3`, `4`, `5` corresponden a la configuración de análisis que se encuentra en Adobe Photoshop al guardar un archivo JPEG como pjpeg (JPEG progresivo).
 
 Si `pscan` no está establecido, el valor predeterminado es `auto`.
 
 ## Propiedades {#section-e36aa3c63a974b969d9e4f43fe5a37ab}
 
-Solicitar atributo. Se aplica independientemente de la configuración de la capa actual. Se omite si el formato de salida no es JPEG progresivo.
+Atributo de solicitud. Se aplica independientemente de la configuración de capa actual. Se omite si el formato de salida no es JPEG progresivo.
 
 ## Predeterminado {#section-01948f6cd7a2415091004cd7526436c7}
 
