@@ -1,15 +1,16 @@
 ---
-description: Elemento de patrón de expresión regular. Opcional en elementos <rule>.
-seo-description: Elemento de patrón de expresión regular. Opcional en elementos <rule>.
+description: Elemento de patrón de expresión regular. Opcional en elementos <rule> .
+seo-description: Elemento de patrón de expresión regular. Opcional en elementos <rule> .
 seo-title: expresión
 solution: Experience Manager
 title: expresión
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e7ef3769-0090-42d6-8021-1c213f1ee391
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '162'
 ht-degree: 4%
 
 ---
@@ -37,11 +38,11 @@ La implementación se basa en el paquete Java [java.util.regex](../../../../../i
 
 ## Nota {#section-6b41a900b0ce4a9590e5861e3c81599c}
 
-La cadena de expresión no debe contener caracteres literales &lt; y &amp;. Estos caracteres reservados se pueden codificar con `&` y `<`, respectivamente, o toda la cadena se puede incluir en una sección XML `CDATA`:
+La cadena de expresión no debe contener caracteres literales &lt; y &amp;. Estos caracteres reservados se pueden codificar con `&` y `<` respectivamente, o toda la cadena se puede incluir en una sección XML `CDATA`:
 
 `<expression><![CDATA[&fmt=custom]]></expression>`
 
-Todos los caracteres entre las etiquetas `<expression>` y `</expression>` se pasan al analizador de expresiones normal, incluidos los caracteres fuera de la sección opcional `CDATA`. Se debe tener cuidado para evitar espacios en blanco adicionales.
+Todos los caracteres entre las etiquetas `<expression>` y `</expression>` se pasan al analizador de expresiones regulares, incluidos los caracteres que están fuera de la sección opcional `CDATA`. Se debe tener cuidado para evitar espacios en blanco adicionales.
 
 ## Véase también {#section-15a9fea18e644b8e9c498f5fd88e2eaa}
 
