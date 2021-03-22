@@ -2,13 +2,14 @@
 description: Ruta
 solution: Experience Manager
 title: Ruta
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 455b6186-969a-49d9-a392-35660ec12213
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 6%
+source-wordcount: '137'
+ht-degree: 5%
 
 ---
 
@@ -19,13 +20,13 @@ El servidor utiliza las reglas de resolución de rutas descritas en [Administrac
 
 ## Propiedades {#section-72d9edc532ad43349afcb4df22e1c692}
 
-Cadena de texto. Necesario para los registros de imagen y SVG, puede estar vacío para los registros de plantilla. Si se especifica, debe ser una ruta de acceso de archivo relativa o absoluta del servidor de imágenes válida. attribute::DefaultExt se anexa si no hay ningún sufijo de archivo presente.
+Cadena de texto. Necesaria para los registros de imagen y SVG, puede estar vacía para los registros de plantilla. Si se especifica, debe ser una ruta de archivo válida relativa o absoluta del servidor de imágenes. attribute::DefaultExt se anexa si no hay ningún sufijo de archivo presente.
 
 ## Formatos de archivo de imagen admitidos {#section-8d6443c883aa48aaa00316fe9661aaa8}
 
-Consulte la descripción de la utilidad Image Converter (IC) para obtener una lista completa de los formatos de archivo de imagen admitidos.
+Consulte la descripción de la utilidad Conversor de imágenes (IC) para obtener una lista completa de los formatos de archivo de imagen admitidos.
 
-Las aplicaciones que requieren datos de imagen en varias resoluciones diferentes funcionarán mejor al utilizar el formato de varias resoluciones TIFF (PTIFF) piramidal de Dynamic Media. La utilidad IC se utiliza para crear imágenes PTIFF a partir de cualquier formato de imagen admitido.
+Las aplicaciones que requieran datos de imagen en varias resoluciones diferentes tendrán un mejor rendimiento al usar el formato de varias resoluciones TIFF (PTIFF) piramidal de Dynamic Media. La utilidad IC se utiliza para crear imágenes PTIFF a partir de cualquier formato de imagen admitido.
 
 ## Predeterminado {#section-82dad83ec3f84ae8bf2f850b4139f63e}
 
