@@ -1,27 +1,28 @@
 ---
-description: Mostrar marcas de impresora. Especifica cómo se muestran las marcas de impresora.
-seo-description: Mostrar marcas de impresora. Especifica cómo se muestran las marcas de impresora.
-seo-title: printerMark
+description: Mostrar marcas de impresora. Especifica cómo mostrar las marcas de impresora.
+seo-description: Mostrar marcas de impresora. Especifica cómo mostrar las marcas de impresora.
+seo-title: printMark
 solution: Experience Manager
-title: printerMark
-topic: Dynamic Media Image Serving - Image Rendering API
+title: printMark
 uuid: 3e5699ce-3ccd-4f85-91dd-c40c252a758d
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 30%
+source-wordcount: '134'
+ht-degree: 28%
 
 ---
 
 
-# printerMark{#printermark}
+# printMark{#printermark}
 
-Mostrar marcas de impresora. Especifica cómo se muestran las marcas de impresora.
+Mostrar marcas de impresora. Especifica cómo mostrar las marcas de impresora.
 
-` printerMark= *`recortar `*, *`marcas `*, *`de sangrado marcas de registro `*, *`marcas de color `*, *`de barrido `*, *``*, *`información de estillínea de `*, *`grosor incrustar capa`*`
+` printerMark= *`recortar `*, *`marcadores `*, *`marcas registrar `*, *`marcas color `*, *`barspage `*, *``*, *`informationestilo línea de `*, *`peso incrustar capa`*`
 
-Las distintas marcas pueden desactivarse o activarse. También se puede controlar el estilo de las marcas de impresora.
+Las diferentes marcas pueden desactivarse o activarse. También se puede controlar el estilo de las marcas de impresora.
 
 Los siguientes son los valores válidos:
 
@@ -54,11 +55,11 @@ Los siguientes son los valores válidos:
  <tr class="strow"> 
   <td class="stentry"> <p>estilo= </p></td> 
   <td class="stentry"> <p>Predeterminado </p> <p>InDesignJ1 </p> <p>InDesignJ2 </p> <p>Illustrator </p> <p>IllustratorJ </p> <p>QuarkXPress </p> </td> 
-  <td class="stentry"> <p>Predeterminado es Predeterminado </p></td> 
+  <td class="stentry"> <p>El valor predeterminado es predeterminado </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>peso de línea= </p></td> 
-  <td class="stentry"> <p>Cualquier valor en el intervalo 0,125 - 2,0, ambos valores inclusive. </p></td> 
+  <td class="stentry"> <p>line weight= </p></td> 
+  <td class="stentry"> <p>Cualquier valor del rango 0,125 - 2,0, ambos valores incluyen. </p></td> 
   <td class="stentry"> <p>El valor predeterminado es 0.25. </p></td> 
  </tr> 
  <tr class="strow"> 
