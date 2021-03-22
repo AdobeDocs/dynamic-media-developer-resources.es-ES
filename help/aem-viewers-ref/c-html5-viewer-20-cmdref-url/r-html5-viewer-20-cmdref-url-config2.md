@@ -1,27 +1,28 @@
 ---
-description: Parámetro común a todos los visores.
-seo-description: Parámetro común a todos los visores.
+description: Parámetro común a todos los visualizadores.
+seo-description: Parámetro común a todos los visualizadores.
 seo-title: config2
 solution: Experience Manager
 title: config2
-topic: Dynamic Media
 uuid: 9b001bb8-7bae-4858-97ea-f9714a370dc8
+feature: Dynamic Media Classic,Visualizadores,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 19%
+source-wordcount: '50'
+ht-degree: 16%
 
 ---
 
 
 # config2{#config}
 
-Parámetro común a todos los visores.
+Parámetro común a todos los visualizadores.
 
 >[!NOTE]
 >
->Este comando no se aplica al visor de imágenes de vídeo.
+>Este comando no se aplica al visualizador de imágenes de vídeo.
 
 ` config2= *`companypreset`*`
 
