@@ -4,13 +4,14 @@ seo-description: Obtiene todos los trabajos activos actualmente.
 seo-title: getActiveJobs
 solution: Experience Manager
 title: getActiveJobs
-topic: Dynamic Media Image Production System API
 uuid: 3231d349-b254-4dd0-804d-8beaab116b56
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 15%
+source-wordcount: '114'
+ht-degree: 14%
 
 ---
 
@@ -38,7 +39,7 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | No | El identificador de la compañía. |
+| `*`companyHandle`*` | `xsd:string` | No | El identificador de la empresa. |
 | `*`jobHandle`*` | `xsd:string` | No | El identificador del trabajo. |
 | `*`originalName`*` | `xsd:string` | No | Nombre del trabajo original. |
 
@@ -50,7 +51,7 @@ Sintaxis
 
 ## Ejemplos {#section-4ac5dbbf9cd94fdeb013d055f8ee7add}
 
-Este ejemplo de código devuelve todos los trabajos activos de una compañía que se ejecuta en IPS. En este caso, la respuesta es inusual porque el coordinador de programación IPS está deshabilitado sin trabajos activos en ejecución. En circunstancias normales, la respuesta devolverá una serie de trabajos activos.
+Este ejemplo de código devuelve todos los trabajos activos de una empresa que se ejecuta en IPS. En este caso, la respuesta es inusual porque el coordinador de programación IPS está deshabilitado sin trabajos activos en ejecución. En circunstancias normales, la respuesta devolverá una serie de trabajos activos.
 
 **Solicitar**
 
