@@ -1,23 +1,24 @@
 ---
-description: Establece o actualiza un paquete de metadatos XMP para un recurso.
-seo-description: Establece o actualiza un paquete de metadatos XMP para un recurso.
-seo-title: updateXMPPaca
+description: Establece o actualiza un paquete de metadatos de XMP para un recurso.
+seo-description: Establece o actualiza un paquete de metadatos de XMP para un recurso.
+seo-title: updateXMPPackets
 solution: Experience Manager
-title: updateXMPPaca
-topic: Dynamic Media Image Production System API
+title: updateXMPPackets
 uuid: 97a40261-8f85-4e8c-8aa5-ed4fec297f33
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 22%
+source-wordcount: '86'
+ht-degree: 20%
 
 ---
 
 
-# updateXMPPaca{#updatexmppacket}
+# updateXMPPackets{#updatexmppacket}
 
-Establece o actualiza un paquete de metadatos XMP para un recurso.
+Establece o actualiza un paquete de metadatos de XMP para un recurso.
 
 Sintaxis
 
@@ -33,19 +34,19 @@ Sintaxis
 
 ## Parámetros {#section-7a89621d441840faba639746b410a489}
 
-**Input (updateXMPPacaParam)**
+**Entrada (updateXMPPacketsParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de compañía. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la empresa. |
 | `*`assetHandle`*` | `xsd:string` | Sí | Identificador de recurso. |
-| `*`zipPacket`*` | `xsd:Base 64 binary` | Sí | [!DNL zlib-compressed] XMP paquete que desea configurar o actualizar. |
+| `*`zipPacket`*` | `xsd:Base 64 binary` | Sí | [!DNL zlib-compressed] XMP paquete que desee configurar o actualizar. |
 
-**Output (updateXMPPacaReturn)**
+**Salida (updateXMPPacketsReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`éxito`*` | `xsd:boolean` | Sí | Devuelve `true` si se actualizó el paquete. |
+| `*`éxito`*` | `xsd:boolean` | Sí | Devuelve `true` si el paquete se ha actualizado. |
 
 ## Ejemplos {#section-38b556b94e5044bf97a954519ff6c212}
 
