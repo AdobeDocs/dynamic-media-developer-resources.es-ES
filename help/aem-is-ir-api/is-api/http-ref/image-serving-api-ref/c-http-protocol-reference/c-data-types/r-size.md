@@ -4,12 +4,13 @@ seo-description: Tamaño de píxel. Se utiliza para especificar tamaños de imag
 seo-title: tamaño
 solution: Experience Manager
 title: tamaño
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 765700ae-aeb2-435c-89ab-61d7007a1b8a
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '75'
 ht-degree: 4%
 
 ---
@@ -30,4 +31,4 @@ Tamaño de píxel. Se utiliza para especificar tamaños de imagen o rectángulos
  </tr> 
 </table>
 
-Tanto *`px`* como *`py`* deben ser buenos que 0. `0,0` puede indicar que se debe utilizar un valor predeterminado específico.
+Tanto *`px`* como *`py`* deben tener bueno a 0. `0,0` puede indicar que se debe utilizar un valor predeterminado específico.
