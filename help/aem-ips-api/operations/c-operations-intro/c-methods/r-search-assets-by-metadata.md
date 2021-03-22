@@ -4,12 +4,13 @@ seo-description: Busca en el repositorio de índices de metadatos los términos 
 seo-title: searchAssetsByMetadata
 solution: Experience Manager
 title: searchAssetsByMetadata
-topic: Dynamic Media Image Production System API
 uuid: f4119ee9-f6d8-49fb-9d8c-bb200951d983
+feature: Dynamic Media Classic,SDK/API,Metadatos,Administración de activos
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '356'
 ht-degree: 10%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 10%
 
 Busca en el repositorio de índices de metadatos los términos de búsqueda dados. Devuelve datos de recursos como el método searchAssets.
 
-Mientras que `searchAssetsByMetadata` permite buscar en los campos de metadatos definidos por el usuario, esos campos no se devuelven si se especifican en `responseMetadataArray`. Para ilustrar este punto, el siguiente ejemplo de código:
+Mientras que `searchAssetsByMetadata` permite buscar con campos de metadatos definidos por el usuario, esos campos no se devuelven si se especifican en `responseMetadataArray`. Para ilustrar este punto, siga el siguiente ejemplo de código:
 
 ```java
 <ns:responseMetadataArray>
@@ -36,7 +37,7 @@ devuelve un valor nulo:
 </items>
 ```
 
-Para solucionar este problema, puede utilizar `fieldHandles` de los recursos devueltos por la búsqueda para ejecutar `getAssets` (consulte también [getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)). Este método obtiene los valores de campos definidos por el usuario para los recursos en cuestión. Utilice el siguiente ejemplo de sintaxis para buscar campos de metadatos definidos por el usuario:
+Para solucionar este problema, puede utilizar el `fieldHandles` de los recursos que devuelve la búsqueda para ejecutar `getAssets` (consulte también [getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)). Este método obtiene los valores Campos definidos por el usuario para los recursos en cuestión. Utilice el siguiente ejemplo de sintaxis para buscar campos de metadatos definidos por el usuario:
 
 ```java
 <ns:metadataConditionArray>
@@ -76,7 +77,7 @@ Para solucionar este problema, puede utilizar `fieldHandles` de los recursos dev
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sí </p> </td> 
-   <td colname="col4"> <p>El identificador de la compañía. </p> </td> 
+   <td colname="col4"> <p>El identificador de la empresa. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> Filtro</span> </span> </p> </td> 
@@ -88,13 +89,13 @@ Para solucionar este problema, puede utilizar `fieldHandles` de los recursos dev
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> metadataConditionArray</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> type:MetadataConditionArray</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Condiciones que definen los criterios de búsqueda. Consulte a continuación para obtener más información. </p> </td> 
+   <td colname="col4"> <p>Condiciones que definen criterios de búsqueda. Consulte a continuación para obtener más información. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> responseMetadataArray</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> type:StringArray</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Campos adicionales que desea rellenar en la respuesta en el resumen de recursos. Los campos deben especificarse en el formato normalizado. </p> </td> 
+   <td colname="col4"> <p>Campos adicionales que desea rellenar en la respuesta del resumen del recurso. Los campos deben especificarse en el formato normalizado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </p> </td> 
@@ -106,7 +107,7 @@ Para solucionar este problema, puede utilizar `fieldHandles` de los recursos dev
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Especifica la página de resultados que se devolverá, en función del <span class="codeph"> tamaño de página recordsPerPage</span>. </p> </td> 
+   <td colname="col4"> <p>Especifica la página de resultados que se van a devolver, en función del tamaño de página <span class="codeph"> recordsPerPage</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> sortBy</span> </span> </p> </td> 
@@ -118,7 +119,7 @@ Para solucionar este problema, puede utilizar `fieldHandles` de los recursos dev
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> sortDirection</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Elección de la dirección de clasificación. De subida es el valor predeterminado. </p> </td> 
+   <td colname="col4"> <p>Elección de la dirección. Ascending es el valor predeterminado. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -130,7 +131,7 @@ Para solucionar este problema, puede utilizar `fieldHandles` de los recursos dev
 | `*`totalRows`*` | `xsd:int` | No | Número de coincidencias. |
 | `*`assetArray`*` | `types:AssetArray` | No | Matriz de recursos devueltos por la búsqueda. |
 
-## detalles de metadataConditionArray {#section-1af4a4a22f82451eabdf6dfe13d9f27d}
+## Detalles de metadataConditionArray {#section-1af4a4a22f82451eabdf6dfe13d9f27d}
 
 **Estructura del elemento**
 
@@ -174,7 +175,7 @@ El [!DNL operator] define cómo comparar el valor e incluye:
 * `StartsWith`
 * `EndsWith`
 
-El `comparison_value` es el término que se busca.
+El `comparison_value` es el término que se va a buscar.
 
 ## Ejemplos {#section-53a12b9c023e4e629eddf5719c955ad4}
 
