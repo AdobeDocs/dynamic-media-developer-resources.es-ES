@@ -4,13 +4,14 @@ seo-description: Obtiene una lista de los caracteres utilizados en un campo conc
 seo-title: getUserChars
 solution: Experience Manager
 title: getUserChars
-topic: Dynamic Media Image Production System API
 uuid: c9fa7826-5174-4298-99e6-a0627e432567
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 11%
+source-wordcount: '194'
+ht-degree: 10%
 
 ---
 
@@ -34,12 +35,12 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`charField`*` | `xsd:string` | Sí | Determina el estado de la papelera que se va a buscar. |
-| `*`includeInactive`*` | `xsd:boolean` | Sí | Incluir o excluir usuarios inactivos. Los usuarios administradores que no sean de IPS deben ser miembros activos de al menos una compañía para poder realizar llamadas de API. Se mostrará un error de autorización si el usuario no tiene miembros de compañía activos. |
+| `*`charField`*` | `xsd:string` | Sí | Determina el estado de la Papelera que se va a buscar. |
+| `*`includeInactive`*` | `xsd:boolean` | Sí | Incluir o excluir usuarios inactivos. Los usuarios administradores que no sean de IPS deben ser miembros activos de al menos una empresa para poder realizar llamadas de API. Se devolverá un error de autorización si el usuario no tiene miembros activos de la empresa. |
 | `*`includeInvalid`*` | `xsd:boolean` | No | Incluir o excluir usuarios no válidos. |
-| `*`companyHandleArray`*` | `types:HandleArray` | No | Filtre los resultados según la compañía. |
-| `*`groupHandleArray`*` | `types:HandleArray` | No | Filtros los resultados en función de los grupos. |
-| `*`userRoleArray`*` | `types:StringArray` | No | Resultados de filtros basados en la función de usuario. |
+| `*`companyHandleArray`*` | `types:HandleArray` | No | Filtre los resultados según la empresa. |
+| `*`groupHandleArray`*` | `types:HandleArray` | No | Filtra los resultados según los grupos. |
+| `*`userRoleArray`*` | `types:StringArray` | No | Filtra los resultados según la función del usuario. |
 | `*`numChars`*` | `xsd:int` | No | Activar >1 carácter. |
 
 **Salida (getUserCharsReturn)**
@@ -52,11 +53,11 @@ Sintaxis
 
 Este ejemplo de código devuelve:
 
-* Primeros caracteres de los apellidos de los usuarios de una compañía específica.
+* Primeros caracteres de los apellidos de los usuarios de una empresa específica.
 * Conjunto de grupos.
 * Conjunto de funciones de usuario.
 
-La constante de cadena Campos de filtro de caracteres de usuario determina el tipo de caracteres de usuario devueltos.
+La constante de cadena Campos de filtro de caracteres del usuario determina el tipo de caracteres de usuario devueltos.
 
 **Solicitar**
 
