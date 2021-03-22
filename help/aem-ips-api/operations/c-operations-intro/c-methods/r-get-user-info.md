@@ -4,12 +4,13 @@ seo-description: Obtiene información sobre un usuario. Utilice la dirección de
 seo-title: getUserInfo
 solution: Experience Manager
 title: getUserInfo
-topic: Dynamic Media Image Production System API
 uuid: b305c108-22e9-4268-a5b3-25fddd844c24
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '178'
 ht-degree: 9%
 
 ---
@@ -46,7 +47,7 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`userInfo`*` | `types:User` | Sí | Nombre, apellidos, dirección de correo electrónico y función de un usuario, así como si el usuario es válido y cuándo caduca la contraseña del usuario. |
+| `*`userInfo`*` | `types:User` | Sí | El nombre, los apellidos, la dirección de correo electrónico y la función de un usuario, así como si el usuario es válido y cuándo caduca la contraseña del usuario. |
 
 ## Ejemplos {#section-98d77a2e360a438dbe240099bea26a65}
 
