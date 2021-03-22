@@ -1,21 +1,22 @@
 ---
 description: Se admiten varias operaciones de manipulación DOM.
 seo-description: Se admiten varias operaciones de manipulación DOM.
-seo-title: Operaciones de manipulación DOM FXG
+seo-title: Operaciones de manipulación DOM de FXG
 solution: Experience Manager
-title: Operaciones de manipulación DOM FXG
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Operaciones de manipulación DOM de FXG
 uuid: 0bb31fb5-4735-4e10-8f3d-38f2885e8da5
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '38'
+source-wordcount: '46'
 ht-degree: 0%
 
 ---
 
 
-# Operaciones de manipulación DOM FXG{#fxg-dom-manipulation-operations}
+# Operaciones de manipulación de FXG DOM{#fxg-dom-manipulation-operations}
 
 Se admiten varias operaciones de manipulación DOM.
 
