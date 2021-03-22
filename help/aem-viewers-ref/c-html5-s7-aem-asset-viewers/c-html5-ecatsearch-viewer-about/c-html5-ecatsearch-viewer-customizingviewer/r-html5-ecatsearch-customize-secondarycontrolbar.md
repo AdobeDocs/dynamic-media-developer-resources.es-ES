@@ -4,13 +4,14 @@ seo-description: La barra de control secundaria es el área rectangular que cont
 seo-title: Barra de control secundaria
 solution: Experience Manager
 title: Barra de control secundaria
-topic: Dynamic Media
 uuid: 38217d2a-8668-46e1-9df1-f29c1c7e0798
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 2%
+source-wordcount: '210'
+ht-degree: 1%
 
 ---
 
@@ -19,7 +20,7 @@ ht-degree: 2%
 
 La barra de control secundaria es el área rectangular que contiene los botones Primera y Última página y un indicador de página cuando está disponible en CSS.
 
-De forma predeterminada, solo se muestra en teléfonos móviles y se encuentra en la parte inferior del visor. Siempre se necesita toda la anchura del visor disponible. Es posible cambiar su color, altura y posición vertical mediante CSS, en relación con el contenedor del visor.
+De forma predeterminada, se muestra solo en teléfonos móviles y se encuentra en la parte inferior del visor. Siempre toma toda la anchura del visor disponible. Es posible cambiar su color, altura y posición vertical mediante CSS, en relación con el contenedor del visor.
 
 El aspecto de la barra de control secundaria se controla con el siguiente selector de clase CSS:
 
@@ -52,7 +53,7 @@ El aspecto de la barra de control secundaria se controla con el siguiente select
  </tbody> 
 </table>
 
-Ejemplo: para configurar una barra de control secundaria gris de 72 píxeles de altura y situada en la parte inferior del contenedor del visor.
+Ejemplo: para configurar una barra de control secundaria gris de 72 píxeles de altura y que se sitúe en la parte inferior del contenedor del visor.
 
 ```
 .s7ecatalogsearchviewer .s7secondarycontrols .s7controlbar {  
