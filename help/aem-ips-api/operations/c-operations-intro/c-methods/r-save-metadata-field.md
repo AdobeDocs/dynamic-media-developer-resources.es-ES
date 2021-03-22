@@ -1,23 +1,24 @@
 ---
-description: Cree o edite un campo de metadatos. Omita el controlador de campo opcional para crear un nuevo campo de metadatos.
-seo-description: Cree o edite un campo de metadatos. Omita el controlador de campo opcional para crear un nuevo campo de metadatos.
+description: Cree o edite un campo de metadatos. Omite el controlador de campo opcional para crear un nuevo campo de metadatos.
+seo-description: Cree o edite un campo de metadatos. Omite el controlador de campo opcional para crear un nuevo campo de metadatos.
 seo-title: saveMetadataField
 solution: Experience Manager
 title: saveMetadataField
-topic: Dynamic Media Image Production System API
 uuid: ccd84366-732a-4caf-914d-3bc5fe499e7a
+feature: Dynamic Media Classic,SDK/API,Metadatos
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 15%
+source-wordcount: '243'
+ht-degree: 14%
 
 ---
 
 
 # saveMetadataField{#savemetadatafield}
 
-Cree o edite un campo de metadatos. Omita el controlador de campo opcional para crear un nuevo campo de metadatos.
+Cree o edite un campo de metadatos. Omite el controlador de campo opcional para crear un nuevo campo de metadatos.
 
 >[!NOTE]
 >
@@ -48,7 +49,7 @@ Cree o edite un campo de metadatos. Omita el controlador de campo opcional para 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> El identificador de la compañía. </td> 
+   <td colname="col4"> El identificador de la empresa. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
@@ -60,7 +61,7 @@ Cree o edite un campo de metadatos. Omita el controlador de campo opcional para 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> Opción de tipos de recursos desde los que guardar metadatos. </td> 
+   <td colname="col4"> Elección de tipos de recursos desde los que guardar metadatos. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
@@ -72,7 +73,7 @@ Cree o edite un campo de metadatos. Omita el controlador de campo opcional para 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> Elección de tipos de campo de metadatos. </td> 
+   <td colname="col4"> Opción de tipos de campo de metadatos. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
@@ -84,13 +85,13 @@ Cree o edite un campo de metadatos. Omita el controlador de campo opcional para 
    <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Oculte o exponga metadatos específicos del sistema IPS. </td> 
+   <td colname="col4"> Ocultar o exponer metadatos específicos del sistema IPS. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"><span class="varname"> isEnforce</span></span> </td> 
+   <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Un indicador booleano que indica si el campo de metadatos se fuerza (se valida) cuando se establece el valor. </p> <p>Si se establece en true, se genera un error si se establece un valor no válido en <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
+   <td colname="col4"> <p>Un indicador booleano que indica si el campo de metadatos se aplica (validado) cuando se establece el valor. </p> <p>Si se establece en true, se genera un error si se establece un valor no válido en <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -103,7 +104,7 @@ Cree o edite un campo de metadatos. Omita el controlador de campo opcional para 
 
 ## Ejemplos {#section-4441c26d1f41466ba972b43dd5189e89}
 
-Este ejemplo de código crea un nuevo campo de metadatos limitado por las constantes de cadena Tipo de recurso y Tipos de campos de metadatos. Si el elemento `fieldHandle` tiene un valor de identificador de campo válido, cambia los valores de metadatos y obtiene el mismo identificador de campo que especificó en la solicitud.
+Este ejemplo de código crea un nuevo campo de metadatos limitado por las constantes de cadena Tipo de recurso y Tipos de campos de metadatos . Si el elemento `fieldHandle` tiene un valor de identificador de campo válido, cambia los valores de los metadatos y obtiene el mismo identificador de campo especificado en la solicitud.
 
 **Solicitar**
 
