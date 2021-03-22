@@ -2,13 +2,14 @@
 description: ImageMapEffect.rollover
 solution: Experience Manager
 title: ImageMapEffect.rollover
-topic: Dynamic Media
 uuid: 92bd8ced-1c41-4147-96fa-5f77bdd6a316
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 6%
+source-wordcount: '89'
+ht-degree: 5%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p>Especifica cuándo se muestra el panel de información. </p> <p>Si se establece en <span class="codeph"> 1</span>, el panel de información se muestra cuando el ratón entra en el área del mapa de imagen (en caso de que el mapa de imagen tenga un atributo <span class="codeph"> rollover_key</span> no vacío). </p> <p>Si se establece en <span class="codeph"> 0</span> el panel de información se activa cuando se hace clic en el mapa de imagen (si el mapa de imagen tiene atributos <span class="codeph"> rollover_key</span> no vacíos y <span class="codeph"> href</span> vacíos). </p> <p> Se omite en dispositivos táctiles, incluidos los sistemas de escritorio táctiles, y se establece automáticamente en <span class="codeph"> 0</span>. </p> </td> 
+   <td colname="col2"> <p>Especifica cuándo mostrar el panel de información. </p> <p>Si se establece en <span class="codeph"> 1</span>, el panel de información se muestra cuando el ratón entra en el área del mapa de imagen (en caso de que el mapa de imagen tenga un atributo <span class="codeph"> rollover_key</span> no vacío). </p> <p>Si se establece en <span class="codeph"> 0</span> el panel de información se activa cuando se hace clic en el mapa de imagen (si el mapa de imagen tiene atributos <span class="codeph"> rollover_key</span> no vacíos y <span class="codeph"> href</span> vacíos). </p> <p> Se omite en dispositivos táctiles, incluidos los sistemas de escritorio con capacidad táctil, y se establece automáticamente en <span class="codeph"> 0</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
