@@ -2,13 +2,14 @@
 description: ZoomView.zoomstep
 solution: Experience Manager
 title: ZoomView.zoomstep
-topic: Dynamic Media
 uuid: 914091e0-f026-423c-8c33-86a0284ac600
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 7%
+source-wordcount: '90'
+ht-degree: 6%
 
 ---
 
@@ -21,11 +22,11 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> paso</span></span> </p> </td> 
-   <td colname="col2"> <p> Configura el número de acciones de acercamiento y alejamiento necesarias para aumentar o reducir la resolución en un factor de dos. El cambio de resolución de cada acción de zoom es de 2^1 por paso. Establezca <span class="codeph"> 0</span> para aplicar zoom a resolución completa con una sola acción de zoom. </p> </td> 
+   <td colname="col2"> <p> Configura el número de acciones de acercamiento y alejamiento necesarias para aumentar o reducir la resolución en un factor de dos. El cambio de resolución para cada acción de zoom es de 2^1 por paso. Establézcalo en <span class="codeph"> 0</span> para hacer zoom a resolución completa con una sola acción de zoom. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> límite</span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica la resolución máxima de zoom, en relación con la imagen de resolución completa. El valor predeterminado es <span class="codeph"> 1.0</span>, lo que no permite aplicar zoom más allá de la resolución completa. </p> </td> 
+   <td colname="col2"> <p> Especifica la resolución máxima de zoom, en relación con la imagen de resolución completa. El valor predeterminado es <span class="codeph"> 1.0</span>, lo que no permite ampliar el zoom más allá de la resolución completa. </p> </td> 
   </tr> 
  </tbody> 
 </table>
