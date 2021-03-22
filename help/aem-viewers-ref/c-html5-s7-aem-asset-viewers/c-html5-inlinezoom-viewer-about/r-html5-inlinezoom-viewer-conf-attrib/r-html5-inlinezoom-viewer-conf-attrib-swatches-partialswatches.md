@@ -2,13 +2,14 @@
 description: Swatches.partialswatches
 solution: Experience Manager
 title: Swatches.partialswatches
-topic: Dynamic Media
 uuid: 67cee2f7-82c1-4c0a-b583-13f8be46b972
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom en línea
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '34'
-ht-degree: 14%
+source-wordcount: '45'
+ht-degree: 11%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 14%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> Especifica si el componente permite que el desplazamiento se detenga cuando alguna de las muestras está parcialmente visible (el desplazamiento no está alineado). El valor recomendado es <span class="codeph"> false</span> o <span class="codeph"> 0</span>. </p> </td> 
+   <td> <p> Especifica si el componente permite detener el desplazamiento cuando cualquiera de las muestras está parcialmente visible (el desplazamiento no está alineado). El valor recomendado es <span class="codeph"> false</span> o <span class="codeph"> 0</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
