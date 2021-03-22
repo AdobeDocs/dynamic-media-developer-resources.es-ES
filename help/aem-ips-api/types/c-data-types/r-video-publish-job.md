@@ -4,13 +4,14 @@ seo-description: Publica archivos en los servidores de publicación de vídeo co
 seo-title: VideoPublishJob
 solution: Experience Manager
 title: VideoPublishJob
-topic: Dynamic Media Image Production System API
 uuid: 430cdb75-b909-4023-8627-e9db1991b533
+feature: Dynamic Media Classic,SDK/API,Vídeo
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 10%
+source-wordcount: '58'
+ht-degree: 8%
 
 ---
 
@@ -25,7 +26,7 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| `*`emailSetting`*` | `xsd:string` | Opción de configuración de correo electrónico. |
+| `*`emailSetting`*` | `xsd:string` | Elección de la configuración del correo electrónico. |
 | `*`httpCompletionUrl`*` | `xsd:string` | URL para enviar un aviso de finalización. |
 | `*`contextHandle`*` | `xsd:string` | Gestionar en el contexto de publicación. |
 
