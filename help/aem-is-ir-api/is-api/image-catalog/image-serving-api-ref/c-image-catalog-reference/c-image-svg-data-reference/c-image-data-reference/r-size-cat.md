@@ -1,15 +1,16 @@
 ---
-description: Tamaño de imagen. Tamaño de píxel de la imagen de resolución completa a la que hace referencia la ruta de catálogo.
-seo-description: Tamaño de imagen. Tamaño de píxel de la imagen de resolución completa a la que hace referencia la ruta de catálogo.
+description: Tamaño de imagen. Tamaño de píxel de la imagen de resolución completa a la que hace referencia la ruta del catálogo.
+seo-description: Tamaño de imagen. Tamaño de píxel de la imagen de resolución completa a la que hace referencia la ruta del catálogo.
 seo-title: Tamaño
 solution: Experience Manager
 title: Tamaño
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6fe2aeb6-0dd7-4631-955f-ad74d11b613d
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '125'
 ht-degree: 11%
 
 ---
@@ -19,15 +20,15 @@ ht-degree: 11%
 
 Tamaño de imagen. Tamaño de píxel de la imagen de resolución completa a la que hace referencia el catálogo::Path.
 
-Si se proporciona este valor, el servicio de imágenes lo utiliza para evitar tener que abrir la imagen para obtener el tamaño real de la imagen.
+Si se proporciona este valor, Image Serving lo utiliza para evitar tener que abrir la imagen para obtener el tamaño real de la imagen.
 
 >[!NOTE]
 >
->Si se proporciona `catalog::Size`y no es el mismo que el tamaño real de la imagen de resolución completa, puede producirse un comportamiento no definido.
+>Si se proporciona `catalog::Size`y no es lo mismo que el tamaño real de la imagen de resolución completa, puede producirse un comportamiento indefinido.
 
 ## Propiedades {#section-5c914ec8b1444a8e99d811b647cd42a3}
 
-Dos números enteros, cada uno bueno que 0, separados por coma. Opcional.
+Dos números enteros, cada uno bueno a 0, separados por coma. Opcional.
 
 ## Predeterminado {#section-257c6d47cf314ef0b3c3c32b18f0f0f1}
 
