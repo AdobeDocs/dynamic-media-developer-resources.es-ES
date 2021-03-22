@@ -1,20 +1,21 @@
 ---
-description: Describe los tipos nuevos y modificados para la versión 6 de la API de IPS.
+description: Describe los tipos nuevos y modificados para la API IPS versión 6.
 solution: Experience Manager
 title: Tipos de datos nuevos y modificados
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 4%
+source-wordcount: '76'
+ht-degree: 3%
 
 ---
 
 
 # Tipos de datos: Nuevo y modificado{#data-types-new-and-modified}
 
-Describe los tipos nuevos y modificados para la versión 6 de la API de IPS.
+Describe los tipos nuevos y modificados para la API IPS versión 6.
 
 Sintaxis
 
@@ -40,24 +41,24 @@ Sintaxis
 
 **Agregado**
 
-* Se añadió `numUrls` a `UploadUrlsJob`.
+* Se ha agregado `numUrls` a `UploadUrlsJob`.
 
-* Añadido `fileName` a `Asset.`
+* Se ha agregado `fileName` a `Asset.`
 
-* Se añadió `isHidden` a `MetadataField`.
+* Se ha agregado `isHidden` a `MetadataField`.
 
-* Se añadió `taskState` a `TaskProgress`.
+* Se ha agregado `taskState` a `TaskProgress`.
 
-* Se añadió `exportJob` a `ActiveJob` y `ScheduledJob`.
+* Se ha agregado `exportJob` a `ActiveJob` y `ScheduledJob`.
 
-* Se añadieron `optmizedPath` y `optimizedFile` a `PsdInfo`.
+* Se agregaron `optmizedPath` y `optimizedFile` a `PsdInfo`.
 
-* Se añadió `contextHandle` en:
+* Se ha agregado `contextHandle` a:
 
    * `ImageRenderingPublishJob`
    * `VideoPublishJob`
 
-* Se añadieron los siguientes parámetros en `Asset`:
+* Se agregaron los siguientes parámetros a `Asset`:
 
    * `animatedGifInfo`
    * `swcInfo`
@@ -70,5 +71,5 @@ Sintaxis
 
 * En `Folder`, cambió `permissions` a `permissionsSetHandle`.
 
-* En `AssetSummary`, `type` y `name` son ahora opcionales.
+* En `AssetSummary`, `type` y `name` ahora son opcionales.
 
