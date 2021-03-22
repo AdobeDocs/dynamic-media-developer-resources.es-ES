@@ -4,12 +4,13 @@ seo-description: La vista principal consiste en la imagen estática.
 seo-title: Vista de zoom
 solution: Experience Manager
 title: Vista de zoom
-topic: Dynamic Media
 uuid: d8349f8c-134f-4e74-9d0c-ab56981965d7
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Imágenes interactivas
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '79'
 ht-degree: 1%
 
 ---
@@ -21,7 +22,7 @@ La vista principal consiste en la imagen estática.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propiedades CSS del área del visor principal**
+**Propiedades CSS del área principal del visor**
 
 El aspecto del área de visualización se controla con el siguiente selector de clase CSS:
 
