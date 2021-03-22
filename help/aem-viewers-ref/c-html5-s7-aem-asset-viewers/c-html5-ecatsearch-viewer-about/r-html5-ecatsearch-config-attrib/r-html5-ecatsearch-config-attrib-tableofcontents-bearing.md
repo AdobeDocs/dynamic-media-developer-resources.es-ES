@@ -2,12 +2,13 @@
 description: TableOfContents.bearing
 solution: Experience Manager
 title: TableOfContents.bearing
-topic: Dynamic Media
 uuid: 832ebacf-d57f-4efa-ab1a-6a454f7c7a32
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '168'
 ht-degree: 2%
 
 ---
@@ -21,11 +22,11 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> fit-lateral|fit-vertical</span> </p> </td> 
-   <td> <p> Controla la dirección del aspecto del panel desplegable. </p> <p>Cuando se establece en <span class="codeph"> fit-vertical</span>, el componente primero cambia la posición del panel base a la parte inferior de su botón e intenta desplegar el panel a la derecha o a la izquierda desde la ubicación base. Con cada intento, el componente comprueba si el panel está recortado por un contenedor externo. Si todos los intentos fallan, el componente intenta desplazar la posición del panel base a la parte superior y repetir los intentos de despliegue en la dirección derecha e izquierda. </p> <p>Cuando se establece en <span class="codeph"> fit-lateral</span>, el componente utiliza una lógica similar, pero cambia primero la base a la derecha, intentando bajar y subir las direcciones de despliegue. Luego, desplaza la base hacia la izquierda, tratando de bajar y subir las direcciones. </p> </td> 
+   <td> <p> Controla la dirección del aspecto del panel desplegable. </p> <p>Cuando se establece en <span class="codeph"> ajuste vertical</span>, el componente cambia primero la posición del panel base a la parte inferior de su botón e intenta desplegar el panel a la derecha o a la izquierda desde la ubicación base. Con cada intento, el componente comprueba si el panel está recortado por un contenedor exterior. Si todos los intentos fallan, el componente intenta desplazar la posición del panel base a la parte superior y repetir los intentos de despliegue en la dirección derecha e izquierda. </p> <p>Cuando se establece en <span class="codeph"> fit-lateral</span>, el componente utiliza una lógica similar, pero cambia la base a la derecha primero, intentando bajar y subir las direcciones de despliegue. Luego, desplaza la base hacia la izquierda, tratando de bajar y subir las direcciones. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> autoHideDelay</span></span> </p> </td> 
-   <td> <p> Establece el retraso en segundos del temporizador de ocultación automática desplegable que oculta el panel cuando un usuario está inactivo. </p> </td> 
+   <td> <p> Establece el retraso en segundos para el temporizador de ocultación automática desplegable que oculta el panel cuando un usuario está inactivo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
