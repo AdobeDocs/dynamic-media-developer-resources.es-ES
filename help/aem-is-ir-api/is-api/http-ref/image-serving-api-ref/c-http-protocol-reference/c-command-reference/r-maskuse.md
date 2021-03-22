@@ -1,15 +1,16 @@
 ---
-description: Uso de la máscara de imagen. Especifica cómo se utiliza la máscara o el canal alfa de la imagen para operaciones en la imagen (por ejemplo, colorize=). Cuando se especifica en una capa de efecto, permite aplicar el efecto al área de fondo de la capa principal o a todo el rectángulo de la capa principal.
-seo-description: Uso de la máscara de imagen. Especifica cómo se utiliza la máscara o el canal alfa de la imagen para operaciones en la imagen (por ejemplo, colorize=). Cuando se especifica en una capa de efecto, permite aplicar el efecto al área de fondo de la capa principal o a todo el rectángulo de la capa principal.
+description: Uso de máscara de imagen. Especifica cómo se utiliza la máscara o el canal alfa de la imagen para operaciones en la imagen (por ejemplo, colorize=). Cuando se especifica en una capa de efecto, permite aplicar el efecto al área de fondo de la capa principal o a todo el rectángulo de la capa principal.
+seo-description: Uso de máscara de imagen. Especifica cómo se utiliza la máscara o el canal alfa de la imagen para operaciones en la imagen (por ejemplo, colorize=). Cuando se especifica en una capa de efecto, permite aplicar el efecto al área de fondo de la capa principal o a todo el rectángulo de la capa principal.
 seo-title: maskUse
 solution: Experience Manager
 title: maskUse
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2c70da87-f869-495a-be50-226a4516e002
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '324'
 ht-degree: 2%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 2%
 
 # maskUse{#maskuse}
 
-Uso de la máscara de imagen. Especifica cómo se utiliza la máscara o el canal alfa de la imagen para operaciones en la imagen (por ejemplo, colorize=). Cuando se especifica en una capa de efecto, permite aplicar el efecto al área de fondo de la capa principal o a todo el rectángulo de la capa principal.
+Uso de máscara de imagen. Especifica cómo se utiliza la máscara o el canal alfa de la imagen para operaciones en la imagen (por ejemplo, colorize=). Cuando se especifica en una capa de efecto, permite aplicar el efecto al área de fondo de la capa principal o a todo el rectángulo de la capa principal.
 
 `maskUse=norm|invert|off`
 
@@ -37,7 +38,7 @@ La siguiente tabla ilustra el efecto de `maskUse=` en función de la disponibili
    <td> <p> <span class="codeph"> apagado </span> </p> </td> 
    <td> <p> Rectángulo de imagen opaco </p> </td> 
    <td> <p> Rectángulo de imagen opaco </p> </td> 
-   <td> <p> Área frontal de la imagen sobre un rectángulo relleno de negro sólido </p> </td> 
+   <td> <p> Área frontal de la imagen sobre un rectángulo lleno de negro sólido </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> norm  </span> </p> </td> 
@@ -46,10 +47,10 @@ La siguiente tabla ilustra el efecto de `maskUse=` en función de la disponibili
    <td> <p> Área frontal de la imagen o capa </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> invertir  </span> </p> </td> 
+   <td> <p> <span class="codeph"> invert  </span> </p> </td> 
    <td> <p> Capa oculta </p> </td> 
    <td> <p> Área de fondo de la imagen </p> </td> 
-   <td> <p> Área de fondo de la imagen o capa rellenada con negro sólido </p> </td> 
+   <td> <p> Área de fondo de la imagen o capa llena de negro sólido </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,7 +67,7 @@ El comportamiento de `maskUse=` no está definido ni es compatible cuando se esp
 
 ## Ejemplo {#section-daa371e9be5547368ff6772342acba0a}
 
-Colorear el área de fondo de una imagen; el primer plano de la imagen se define con una imagen de máscara independiente. Esto se consigue colocando el fondo de la imagen coloreada en la parte superior si la imagen no ha sido modificada:
+Colorice el área de fondo de una imagen; el primer plano de la imagen se define mediante una imagen de máscara independiente. Esto se logra superponiendo el fondo de la imagen coloreada sobre la imagen sin modificar:
 
 `http://server/myRootId/myImageId?layer=1&src=myImageId&mask=myImgMask&maskUse=invert&colorize=0x306090`
 
