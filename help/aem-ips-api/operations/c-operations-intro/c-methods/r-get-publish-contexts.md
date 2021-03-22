@@ -2,13 +2,14 @@
 description: getPublishContexts
 solution: Experience Manager
 title: getPublishContexts
-topic: Dynamic Media Image Production System API
 uuid: 7eb90f2c-2bfc-4d61-8a24-831964ed9182
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 24%
+source-wordcount: '92'
+ht-degree: 22%
 
 ---
 
@@ -32,7 +33,7 @@ Sintaxis
 >[!NOTE]
 >
 >* El usuario debe tener acceso de lectura para devolver los recursos.
->* Todos los usuarios tienen acceso a la compañía compartida.
+>* Todos los usuarios tienen acceso a la empresa compartida.
 
 >
 
@@ -40,7 +41,7 @@ Sintaxis
 
 ## Parámetros {#section-d08e2175d3f84774b55b91bc590b8b3f}
 
-**Entrada (getPublishContextParam)**
+**Entrada (getPublishContextsParam)**
 
 <table id="table_4A505A067586464B99F8F68E3B1BE75E"> 
  <thead> 
@@ -56,7 +57,7 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> Manejar a la compañía. </td> 
+   <td colname="col4"> Gestionar a la empresa. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> contextType</span> </span> </td> 
@@ -73,11 +74,11 @@ Sintaxis
  </tbody> 
 </table>
 
-**Salida (getPublishContextReturn)**
+**Salida (getPublishContextsReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`publishContextArray`*` | tipos:PublishContextArray | Sí | Matriz de contextos de publicación para una compañía, filtrada por tipo de contexto si es necesario. |
+| `*`publishContextArray`*` | tipos:PublishContextArray | Sí | Matriz de contextos de publicación para una empresa, filtrada por tipo de contexto si es necesario. |
 
 ## Ejemplos {#section-23fb7d6a15004b7eb4c3d3bcb37ceb04}
 
