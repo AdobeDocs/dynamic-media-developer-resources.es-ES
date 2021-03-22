@@ -1,23 +1,24 @@
 ---
-description: Identificador de registro de catálogo. Valor clave según el cual el servidor de procesamiento busca los registros de material. Normalmente, un identificador de material corto y único, como un número de SKU.
-seo-description: Identificador de registro de catálogo. Valor clave según el cual el servidor de procesamiento busca los registros de material. Normalmente, un identificador de material corto y único, como un número de SKU.
+description: Identificador de registro del catálogo. Valor clave mediante el cual el servidor de procesamiento busca los registros de material. Normalmente es un identificador de material corto y único, como un número de SKU.
+seo-description: Identificador de registro del catálogo. Valor clave mediante el cual el servidor de procesamiento busca los registros de material. Normalmente es un identificador de material corto y único, como un número de SKU.
 seo-title: Id
 solution: Experience Manager
 title: Id
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0d29e936-f3f3-40cd-a25f-b85532a3b530
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 8%
+source-wordcount: '117'
+ht-degree: 7%
 
 ---
 
 
 # Id{#id}
 
-Identificador de registro de catálogo. Valor clave según el cual el servidor de procesamiento busca los registros de material. Normalmente, un identificador de material corto y único, como un número de SKU.
+Identificador de registro del catálogo. Valor clave mediante el cual el servidor de procesamiento busca los registros de material. Normalmente es un identificador de material corto y único, como un número de SKU.
 
 ## Propiedades {#section-9b20bf2545314620808b4210bce7afc9}
 
