@@ -1,23 +1,24 @@
 ---
-description: Mueva una carpeta a una nueva ubicación.
-seo-description: Mueva una carpeta a una nueva ubicación.
+description: Mover una carpeta a una nueva ubicación.
+seo-description: Mover una carpeta a una nueva ubicación.
 seo-title: moveFolder
 solution: Experience Manager
 title: moveFolder
-topic: Dynamic Media Image Production System API
 uuid: 424858c3-5796-4ae9-b5ad-fd50ddbee702
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 25%
+source-wordcount: '75'
+ht-degree: 22%
 
 ---
 
 
 # moveFolder{#movefolder}
 
-Mueva una carpeta a una nueva ubicación.
+Mover una carpeta a una nueva ubicación.
 
 Sintaxis
 
@@ -36,11 +37,11 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Manejar a la compañía. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Gestionar a la empresa. |
 | `*`folderHandle`*` | `xsd:string` | Sí | Identificador de carpeta. |
 | `*`destFolderHandle`*` | `xsd:string` | Sí | Gestionar en la carpeta de destino. |
 
-**Output (moveFolderReturn)**
+**Salida (moveFolderReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
