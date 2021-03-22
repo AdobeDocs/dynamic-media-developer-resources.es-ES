@@ -4,12 +4,13 @@ seo-description: Referencia de la API de JavaScript para el visor de carrusel.
 seo-title: setParam
 solution: Experience Manager
 title: setParam
-topic: Dynamic Media
 uuid: 87f16ea9-0267-4114-9aeb-a68fdb616a88
+feature: Dynamic Media Classic,Visores,SDK/API,Banners de carrusel
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '99'
 ht-degree: 3%
 
 ---
@@ -37,7 +38,7 @@ Consulte también [xref](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}  </span> valor del parámetro. El valor no puede estar codificado en porcentaje. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}  </span> valor del parámetro. El valor no puede estar codificado por porcentajes. </p> </td> 
   </tr> 
  </tbody> 
 </table>
