@@ -2,13 +2,14 @@
 description: ImageMapEffect.mode
 solution: Experience Manager
 title: ImageMapEffect.mode
-topic: Dynamic Media
 uuid: 39fad14d-a70e-4d50-97d1-c7846594194b
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 5%
+source-wordcount: '86'
+ht-degree: 4%
 
 ---
 
@@ -23,10 +24,10 @@ ht-degree: 5%
    <td colname="col1"> <p> <span class="codeph"> icon|region|auto|none  </span> </p> </td> 
    <td colname="col2"> <p>Especifica el aspecto del mapa de imagen. </p> <p> 
      <ul id="ul_DDA49C152718486E853213E6FC2182B2"> 
-      <li id="li_18F86AB4D2F544319CCDF7BE376ABA53"> <p> <span class="codeph"> los iconos de  </span> mapa de iconos se muestran de forma estática en el escritorio y en los dispositivos táctiles. </p> </li> 
-      <li id="li_F8832681CDD6456E9147A37C99BAFFED"> <p> <span class="codeph"> región  </span> representa las regiones del mapa de imagen; en el escritorio, se muestran en dispositivos táctiles y de rodadura y siempre están visibles. </p> </li> 
-      <li id="li_9F7DD686E8104AEB944505363F433C0F"> <p> <span class="codeph"> en los sistemas  </span> de escritorio, las regiones de mapa de imagen se muestran al pasar el ratón por encima y en los dispositivos táctiles siempre se ven los iconos de mapa. </p> </li> 
-      <li id="li_7CB644F3A029480293B46F44FF8D03B6"> <p> <span class="codeph"> none  </span> desactiva los mapas de imagen. </p> </li> 
+      <li id="li_18F86AB4D2F544319CCDF7BE376ABA53"> <p> <span class="codeph"> los iconos del  </span> mapa de iconos se muestran de forma estática en los dispositivos táctiles y de escritorio. </p> </li> 
+      <li id="li_F8832681CDD6456E9147A37C99BAFFED"> <p> <span class="codeph"> region  </span> procesa regiones de mapa de imagen; en equipos de escritorio, se muestran al pasar el ratón por encima y en dispositivos táctiles siempre son visibles. </p> </li> 
+      <li id="li_9F7DD686E8104AEB944505363F433C0F"> <p> <span class="codeph"> auto  </span> en sistemas de escritorio, las regiones de mapa de imagen se muestran en el pasar el cursor y los iconos de mapa de dispositivos táctiles siempre están visibles. </p> </li> 
+      <li id="li_7CB644F3A029480293B46F44FF8D03B6"> <p> <span class="codeph"> ninguno  </span> deshabilita los mapas de imágenes. </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
