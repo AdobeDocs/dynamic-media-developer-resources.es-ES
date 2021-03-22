@@ -1,23 +1,24 @@
 ---
-description: Describe las diferentes compañías a las que pertenece un usuario.
-seo-description: Describe las diferentes compañías a las que pertenece un usuario.
+description: Describe las distintas empresas a las que pertenece un usuario.
+seo-description: Describe las distintas empresas a las que pertenece un usuario.
 seo-title: CompanyMember
 solution: Experience Manager
 title: CompanyMember
-topic: Dynamic Media Image Production System API
 uuid: fc0ddcdd-ad1e-487c-8ef1-9c09e5dca33d
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 14%
+source-wordcount: '64'
+ht-degree: 12%
 
 ---
 
 
 # CompanyMember{#companymember}
 
-Describe las diferentes compañías a las que pertenece un usuario.
+Describe las distintas empresas a las que pertenece un usuario.
 
 Sintaxis
 
@@ -26,6 +27,6 @@ Sintaxis
 | Nombre | Tipo | Descripción |
 |---|---|---|
 | `*`usuario`*` | `types:User` | Nombre de usuario. |
-| `*`role`*` | `xsd:string` | Función que el usuario tiene para cada compañía a la que pertenece. |
-| `*`isActive`*` | `xsd:boolean` | Establece el estado del usuario para cada compañía a la que pertenece. |
+| `*`función`*` | `xsd:string` | Función que el usuario tiene para cada empresa a la que pertenece. |
+| `*`isActive`*` | `xsd:boolean` | Establece el estado del usuario para cada empresa a la que pertenece. |
 
