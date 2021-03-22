@@ -1,15 +1,16 @@
 ---
-description: Coordenadas normalizadas. Se utiliza para especificar posiciones relativas dentro de una imagen, como desplazamientos de imagen o parámetros de recorte, normalizados según el tamaño de la imagen.
-seo-description: Coordenadas normalizadas. Se utiliza para especificar posiciones relativas dentro de una imagen, como desplazamientos de imagen o parámetros de recorte, normalizados según el tamaño de la imagen.
+description: Coordenadas normalizadas. Se utiliza para especificar posiciones relativas dentro de una imagen, como desplazamientos de imagen o parámetros de recorte, normalizados al tamaño de la imagen.
+seo-description: Coordenadas normalizadas. Se utiliza para especificar posiciones relativas dentro de una imagen, como desplazamientos de imagen o parámetros de recorte, normalizados al tamaño de la imagen.
 seo-title: codeN
 solution: Experience Manager
 title: codeN
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e182650b-aff6-4dd2-8edb-cd0d361865fd
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # codeN{#coordn}
 
-Coordenadas normalizadas. Se utiliza para especificar posiciones relativas dentro de una imagen, como desplazamientos de imagen o parámetros de recorte, normalizados según el tamaño de la imagen.
+Coordenadas normalizadas. Se utiliza para especificar posiciones relativas dentro de una imagen, como desplazamientos de imagen o parámetros de recorte, normalizados al tamaño de la imagen.
 
 <table id="simpletable_EFA3111DC4B94BAF94715500DB4DD8FB"> 
  <tr class="strow"> 
@@ -30,8 +31,8 @@ Coordenadas normalizadas. Se utiliza para especificar posiciones relativas dentr
  </tr> 
 </table>
 
-Los valores positivos se mueven hacia abajo a la derecha.
+Los valores positivos se mueven hacia la esquina inferior derecha.
 
-En muchos casos, la posición de referencia es el centro de la imagen. En este caso, 0,0 corresponde al centro de la imagen, -0,5, -0,5 a la esquina superior izquierda y 0,5 a la esquina inferior derecha.
+En muchos casos, la posición de referencia es el centro de la imagen. En este caso, 0,0 corresponde al centro de la imagen, -0,5,-0,5 a la esquina superior izquierda y 0,5,0,5 a la esquina inferior derecha.
 
-También se utiliza para especificar los tamaños de imagen o el tamaño del rectángulo en relación con el tamaño de la capa 0. En este caso, los valores deben ser buenos que 0. 0 puede indicar que se debe utilizar un valor predeterminado específico. 1,1 especifica un tamaño igual al de la capa 0.
+También se utiliza para especificar el tamaño de la imagen o el tamaño del rectángulo en relación con el tamaño de la capa 0. En este caso, los valores deben ser buenos a 0. 0 puede indicar que se debe utilizar un valor predeterminado específico. 1,1 especifica un tamaño igual al de la capa 0.
