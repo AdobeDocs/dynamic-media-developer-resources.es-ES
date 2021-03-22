@@ -4,13 +4,14 @@ seo-description: Actualiza un conjunto de recursos.
 seo-title: updateAssetSet
 solution: Experience Manager
 title: updateAssetSet
-topic: Dynamic Media Image Production System API
 uuid: e844a395-0ab3-45a7-bcec-8e9e15efc70e
+feature: Dynamic Media Classic,SDK/API,Administración de activos
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 20%
+source-wordcount: '91'
+ht-degree: 18%
 
 ---
 
@@ -23,16 +24,16 @@ Sintaxis
 
 ## Parámetros {#section-d7080ccd97334c94860eb107a3e132b2}
 
-**Input (updateAssetSetParam)**
+**Entrada (updateAssetSetParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía que contiene el conjunto de imágenes que desea modificar. |
-| `*`assetHandle`*` | `xsd:string` | Sí | Identificador del conjunto de imágenes que desea modificar. |
-| `*`setDefinition`*` | `xsd:string` | No | Restablece los miembros del conjunto de imágenes. |
-| `*`thumbAssetHandle`*` | `xsd:string` | No | Identificador del recurso que actúa como miniatura del conjunto de imágenes. |
+| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa que contiene el conjunto de imágenes que desea modificar. |
+| `*`assetHandle`*` | `xsd:string` | Sí | El controlador del conjunto de imágenes que desea modificar. |
+| `*`setDefinition`*` | `xsd:string` | No | Restaura los miembros del conjunto de imágenes. |
+| `*`thumbAssetHandle`*` | `xsd:string` | No | El controlador del recurso que actúa como la miniatura del conjunto de imágenes. |
 
-**Output (updateAssetSetReturn)**
+**Salida (updateAssetSetReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
