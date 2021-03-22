@@ -1,15 +1,16 @@
 ---
-description: Si se requiere una asignación de fuentes para un catálogo de imágenes, la ruta relativa o absoluta del archivo de asignación de fuentes debe especificarse en el atributo FontMapFile.
-seo-description: Si se requiere una asignación de fuentes para un catálogo de imágenes, la ruta relativa o absoluta del archivo de asignación de fuentes debe especificarse en el atributo FontMapFile.
+description: Si se requiere un mapa de fuente para un catálogo de imágenes, la ruta relativa o absoluta del archivo de mapa de fuente debe especificarse en el atributo FontMapFile.
+seo-description: Si se requiere un mapa de fuente para un catálogo de imágenes, la ruta relativa o absoluta del archivo de mapa de fuente debe especificarse en el atributo FontMapFile.
 seo-title: Referencia de mapa de fuentes
 solution: Experience Manager
 title: Referencia de mapa de fuentes
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7a6c5eda-3b47-4c23-8a33-7b7e39de29c9
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '138'
 ht-degree: 2%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 2%
 
 # Referencia de mapa de fuentes{#font-map-reference}
 
-Si se requiere una asignación de fuentes para un catálogo de imágenes, la ruta relativa o absoluta del archivo de asignación de fuentes debe especificarse en attribute::FontMapFile.
+Si se requiere un mapa de fuente para un catálogo de imágenes, la ruta relativa o absoluta del archivo de mapa de fuente debe especificarse en el atributo::FontMapFile.
 
 Las entradas del mapa de fuentes de un catálogo de imágenes específico anularán las entradas del mapa de fuentes del catálogo predeterminado.
 
