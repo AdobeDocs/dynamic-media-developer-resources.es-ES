@@ -4,18 +4,19 @@ seo-description: Utilice los siguientes comandos para aplicar formato básico a 
 seo-title: Formato básico de caracteres
 solution: Experience Manager
 title: Formato básico de caracteres
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: cc8f276a-ebcc-479b-bd86-7ac0dc755f11
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 10%
+source-wordcount: '145'
+ht-degree: 9%
 
 ---
 
 
-# Formato básico de caracteres{#basic-character-formatting}
+# Formato de caracteres básico{#basic-character-formatting}
 
 Utilice los siguientes comandos para aplicar formato básico a los caracteres.
 
@@ -36,17 +37,17 @@ Utilice los siguientes comandos para aplicar formato básico a los caracteres.
   <tr> 
    <td> <span class="codeph"> \f  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Cara de fuente. </p> </td> 
-   <td> <p> <span class="codeph"> \fonttbl  </span> index. </p> </td> 
+   <td> <p> <span class="codeph"> \fonttbl  </span> índice. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \fs  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Tamaño de fuente. </p> </td> 
-   <td> <p>Puntos medios; el valor predeterminado es 24. </p> </td> 
+   <td> <p>Medio punto; el valor predeterminado es 24. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \cf  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Color de la fuente. </p> </td> 
-   <td> <p>Índice basado en 0 en la tabla de colores. </p> </td> 
+   <td> <p>Índice basado en 0 en tabla de colores. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \b </span> </td> 
@@ -61,17 +62,17 @@ Utilice los siguientes comandos para aplicar formato básico a los caracteres.
   <tr> 
    <td> <span class="codeph"> \sub </span> </td> 
    <td> <p>Subíndice. </p> </td> 
-   <td> <p>Reduce el tamaño de fuente. </p> </td> 
+   <td> <p>Reduce el tamaño de la fuente. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \super  </span> </td> 
    <td> <p>Superíndice. </p> </td> 
-   <td> <p>Reduce el tamaño de fuente. </p> </td> 
+   <td> <p>Reduce el tamaño de la fuente. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <span class="codeph"> \ul  </span> </td> 
-   <td> <p>Subrayar. </p> </td> 
-   <td> <p>El servicio de imágenes también reconoce los siguientes comandos de subrayado RTF: </p> <p> 
+   <td> <p>Subrayado. </p> </td> 
+   <td> <p>Image Serving también reconoce los siguientes comandos de subrayado RTF: </p> <p> 
      <ul id="ul_EF2077DD51F94E2E94D8F1FA661F95DE"> 
       <li id="li_F9382148CCCC4A6AB373DD96D28B71EE"> <span class="codeph"> \uld  </span> </li> 
       <li id="li_141276B2082E4AD0A8C7D3BDDADD6EE2"> <span class="codeph"> \uldash  </span> </li> 
@@ -81,10 +82,10 @@ Utilice los siguientes comandos para aplicar formato básico a los caracteres.
       <li id="li_482CCC6F5D8544CCA69DF2A070097ABD"> <span class="codeph"> \ulth  </span> </li> 
       <li id="li_F11C79A6640B4C0684CA5D9733E49F43"> <span class="codeph"> \ulw  </span> </li> 
       <li id="li_84F94D17372B4C0494A9F8AEC951C556"> <span class="codeph"> \ulwave  </span> </li> 
-     </ul> </p> <p>Estos se implementan en este momento como un subrayado <span class="codeph"> \ul </span> estándar. Todos los demás comandos de subrayado RTF se omiten. </p> </td> 
+     </ul> </p> <p>Estos se implementan en este momento como un subrayado estándar <span class="codeph"> \ul </span>. Todos los demás comandos de subrayado RTF se ignoran. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \ulnone  </span> </td> 
+   <td> <span class="codeph"> \ulninguno  </span> </td> 
    <td> <p>desactivar subrayado </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
@@ -100,7 +101,7 @@ Utilice los siguientes comandos para aplicar formato básico a los caracteres.
   </tr> 
   <tr> 
    <td> <span class="codeph"> \scaps  </span> </td> 
-   <td> <p>minúsculas ("versalitas") </p> </td> 
+   <td> <p>minúsculas ("small caps") </p> </td> 
    <td> <p> <span class="codeph"> textPs=  </span> solamente. </p> </td> 
   </tr> 
  </tbody> 
