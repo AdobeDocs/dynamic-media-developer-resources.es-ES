@@ -4,13 +4,14 @@ seo-description: En los sistemas de escritorio, algunos elementos de la interfaz
 seo-title: Información sobre herramientas
 solution: Experience Manager
 title: Información sobre herramientas
-topic: Dynamic Media
 uuid: 763cdda7-4938-4884-8040-7e4017e6a0d8
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 6%
+source-wordcount: '167'
+ht-degree: 5%
 
 ---
 
@@ -21,9 +22,9 @@ En los sistemas de escritorio, algunos elementos de la interfaz de usuario, como
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propiedades CSS del área del visor principal**
+**Propiedades CSS del área principal del visor**
 
-El aspecto de la información sobre herramientas se controla con el siguiente selector de clase CSS:
+El aspecto de las informaciones de objeto se controla con el siguiente selector de clase CSS:
 
 ```
 .s7tooltip
@@ -42,8 +43,8 @@ El aspecto de la información sobre herramientas se controla con el siguiente se
    <td colname="col2"> <p> Radio del borde de fondo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-color  </span> </p> </td> 
-   <td colname="col2"> <p> Color del borde de fondo. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> borde-color  </span> </p> </td> 
+   <td colname="col2"> <p> Color del borde del fondo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
@@ -59,18 +60,18 @@ El aspecto de la información sobre herramientas se controla con el siguiente se
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
-   <td colname="col2"> <p>Tamaño de fuente de texto. </p> </td> 
+   <td colname="col2"> <p>Tamaño de fuente del texto. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Si los estilos de información sobre herramientas se personalizan desde la página web de incrustación, todas las propiedades deben contener la regla `!IMPORTANT`. Esto no es necesario si la información sobre herramientas se personaliza dentro del archivo CSS del visor.
+>Si los estilos de información de objeto se personalizan desde la página web de incrustación, todas las propiedades deben contener la regla `!IMPORTANT`. Esto no es necesario si la información del objeto se personaliza dentro del archivo CSS del visor.
 
 ## Ejemplo {#section-59e009fd05b14019936aba04d7ca779d}
 
-Para configurar información sobre herramientas con un borde gris con un radio de esquina de tres píxeles, fondo negro y texto blanco en Arial, 11 píxeles:
+Para configurar informaciones de objeto con un borde gris con un radio de esquina de tres píxeles, fondo negro y texto blanco en Arial, 11 píxeles:
 
 ```
 .s7tooltip { 
