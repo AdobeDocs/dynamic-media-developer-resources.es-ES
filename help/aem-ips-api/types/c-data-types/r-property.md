@@ -1,23 +1,24 @@
 ---
-description: Un par de nombre y valor.
-seo-description: Un par de nombre y valor.
+description: Un nombre y un par de valores.
+seo-description: Un nombre y un par de valores.
 seo-title: Propiedad
 solution: Experience Manager
 title: Propiedad
-topic: Dynamic Media Image Production System API
 uuid: 3e1bcd92-cc39-4590-b495-f80b5ca92b1f
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 34%
+source-wordcount: '36'
+ht-degree: 27%
 
 ---
 
 
 # Propiedad{#property}
 
-Un par de nombre y valor.
+Un nombre y un par de valores.
 
 Sintaxis
 
@@ -25,6 +26,6 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| `*`name`*` | `xsd:string` | Nombre de propiedad. |
+| `*`name`*` | `xsd:string` | Nombre de la propiedad. |
 | `*`basado en IP`*` | `xsd:string` | Valor de propiedad. |
 
