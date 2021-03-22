@@ -4,13 +4,14 @@ seo-description: Reinicia un trabajo pausado.
 seo-title: resumeJob
 solution: Experience Manager
 title: resumeJob
-topic: Dynamic Media Image Production System API
 uuid: 0ca5db75-cce0-4afc-9a58-c47c6229931e
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 16%
+source-wordcount: '79'
+ht-degree: 15%
 
 ---
 
@@ -38,12 +39,12 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía con el trabajo que desea reiniciar. |
-| `*`jobHandle`*` | `xsd:string` | Sí | Identificador del trabajo pausado. |
+| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa con el trabajo que desea reiniciar. |
+| `*`jobHandle`*` | `xsd:string` | Sí | El identificador del trabajo pausado. |
 
-**Output (resumeJobReturn)**
+**Salida (resumeJobReturn)**
 
-La API de IPS no devuelve una respuesta para esta operación.
+La API IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-d0524e031f1f43d89430eade19526162}
 
