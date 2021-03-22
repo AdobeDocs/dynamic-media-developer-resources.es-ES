@@ -1,23 +1,24 @@
 ---
-description: Atributo de configuración para el visor de vídeo interactivo.
-seo-description: Atributo de configuración para el visor de vídeo interactivo.
+description: Atributo de configuración para el visualizador de vídeo interactivo.
+seo-description: Atributo de configuración para el visualizador de vídeo interactivo.
 seo-title: InteractiveSwatches.scrollstep
 solution: Experience Manager
 title: InteractiveSwatches.scrollstep
-topic: Dynamic Media
 uuid: 6f521aa4-9155-4f14-bc89-e7af24af25f0
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 8%
+source-wordcount: '83'
+ht-degree: 7%
 
 ---
 
 
 # InteractiveSwatches.scrollstep{#interactiveswatches-scrollstep}
 
-Atributo de configuración para el visor de vídeo interactivo.
+Atributo de configuración para el visualizador de vídeo interactivo.
 
 ` [InteractiveSwatches.|<containerId>_interactiveSwatches.]scrollstep= *`paso`*`
 
@@ -25,7 +26,7 @@ Atributo de configuración para el visor de vídeo interactivo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> paso</span></span> </p> </td> 
-   <td colname="col2"> <p>Especifica el número de muestras que se desplazarán para cada toque del botón de desplazamiento correspondiente. </p> <p>Si el valor especificado es bueno al número de muestras interactivas visibles, cada toque solo se desplaza por el número de muestras visibles para evitar la omisión de cualquier muestra. </p> </td> 
+   <td colname="col2"> <p>Especifica el número de muestras que se desplazarán para cada toque del botón de desplazamiento correspondiente. </p> <p>Si el valor especificado es bueno que el número de muestras interactivas visibles, cada toque solo se desplaza por el número de muestras visibles para evitar que se omita cualquier muestra. </p> </td> 
   </tr> 
  </tbody> 
 </table>
