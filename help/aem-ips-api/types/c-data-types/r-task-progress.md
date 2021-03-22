@@ -4,13 +4,14 @@ seo-description: Información sobre el progreso de la tarea.
 seo-title: TaskProgress
 solution: Experience Manager
 title: TaskProgress
-topic: Dynamic Media Image Production System API
 uuid: b3b67803-147a-48a3-acc3-d608e01e0800
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 13%
+source-wordcount: '149'
+ht-degree: 12%
 
 ---
 
@@ -45,16 +46,16 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> numProcessing</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> Número de elementos de tarea en curso. </td> 
+   <td colname="col3"> Número de elementos de tarea actualmente en proceso. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> numpending</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> numPending</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Número de elementos de tarea pendientes (aún no procesados). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> progreso</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:doble</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
    <td colname="col3"> % de progreso (intervalo 0,0 - 1,0). </td> 
   </tr> 
   <tr> 
@@ -65,7 +66,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> lastProgressUpdate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> Hora en que se actualizó la última información de progreso. </td> 
+   <td colname="col3"> La última vez que se actualizó la información de progreso. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> taskItemProgressArray</span> </span> </td> 
@@ -77,12 +78,12 @@ Sintaxis
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3">Los valores incluyen: 
     <ul id="ul_BD00DC855B1D42748204E8BCA81FD4BF">
-     <li id="li_01FE691763B3465DBF3402E7CDEA50C3"><span class="codeph"> Desconocido</span>: Cuando la tarea monitorea transiciones entre estados. </li>
-     <li id="li_AA2D1F9ADDE84B54A85C7E7830D3A0C9"><span class="codeph"> Nuevo</span>: Se ha creado el monitor de tarea, pero aún no ha aceptado tareas. </li>
-     <li id="li_76D667D21BDF4FADA6A266A7EB4DC6EE"><span class="codeph"> Procesamiento</span>: El monitor de tarea está procesando activamente tareas. </li>
-     <li id="li_3813B2178D7143DEB91804A6C5FF3902"><span class="codeph"> Deteniendo</span>: El monitor de tarea está deteniendo un trabajo debido a una solicitud de trabajo de detención. </li>
-     <li id="li_41C2E774FC504B58BD6736119AE9C0AE"><span class="codeph"> Listo</span>: Se han completado los trabajos asignados a los trabajos del monitor de tarea. </li>
-     <li id="li_EB2322BB11314B97998D467F4620ED2E"><span class="codeph"> Error</span>: Indica un error fatal. </li>
+     <li id="li_01FE691763B3465DBF3402E7CDEA50C3"><span class="codeph"> Desconocido</span>: Cuando el monitor de tareas realiza transiciones entre estados. </li>
+     <li id="li_AA2D1F9ADDE84B54A85C7E7830D3A0C9"><span class="codeph"> Nuevo</span>: El monitor de tareas se ha creado, pero aún no ha aceptado tareas. </li>
+     <li id="li_76D667D21BDF4FADA6A266A7EB4DC6EE"><span class="codeph"> Procesamiento</span>: El monitor de tareas está procesando tareas de forma activa. </li>
+     <li id="li_3813B2178D7143DEB91804A6C5FF3902"><span class="codeph"> Deteniendo</span>: El monitor de tareas está deteniendo un trabajo debido a una solicitud de trabajo de parada. </li>
+     <li id="li_41C2E774FC504B58BD6736119AE9C0AE"><span class="codeph"> Listo</span>: Se han completado los trabajos asignados a los trabajos del monitor de tareas. </li>
+     <li id="li_EB2322BB11314B97998D467F4620ED2E"><span class="codeph"> Error</span>: Indica un error grave. </li>
     </ul></td> 
   </tr> 
  </tbody> 
