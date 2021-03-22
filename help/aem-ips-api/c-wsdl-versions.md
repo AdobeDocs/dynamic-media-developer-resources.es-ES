@@ -1,20 +1,21 @@
 ---
-description: El servicio web IPS es compatible con un conjunto de documentos WSDL (Lenguaje de descripción de servicios web) a los que se accede desde cualquier instalación IPS en la que esté instalado el componente de servicio web IPS. Cada versión de API de IPS incluye un nuevo archivo WSDL que hace referencia a una Área de nombres XML de destinatario con versión. Las versiones de Área de nombres WSDL anteriores también son compatibles para permitir la compatibilidad con aplicaciones existentes.
+description: El servicio web IPS es compatible con un conjunto de documentos WSDL (lenguaje de descripción de servicios web) a los que se accede desde cualquier instalación IPS en la que esté instalado el componente de servicio web IPS. Cada versión de la API IPS incluye un nuevo archivo WSDL que hace referencia a un espacio de nombres XML de destino con versiones. Las versiones anteriores del espacio de nombres WSDL también son compatibles para permitir la compatibilidad con versiones anteriores de las aplicaciones existentes.
 solution: Experience Manager
-title: Versiones WSDL del servicio Web IPS
-topic: Dynamic Media Image Production System API
+title: Versiones WSDL del servicio web IPS
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '961'
 ht-degree: 2%
 
 ---
 
 
-# Versiones WSDL del servicio Web IPS{#ips-web-service-wsdl-versions}
+# Versiones WSDL del servicio web IPS{#ips-web-service-wsdl-versions}
 
-El servicio web IPS es compatible con un conjunto de documentos WSDL (Lenguaje de descripción de servicios web) a los que se accede desde cualquier instalación IPS en la que esté instalado el componente de servicio web IPS. Cada versión de API de IPS incluye un nuevo archivo WSDL que hace referencia a una Área de nombres XML de destinatario con versión. Las versiones de Área de nombres WSDL anteriores también son compatibles para permitir la compatibilidad con aplicaciones existentes.
+El servicio web IPS es compatible con un conjunto de documentos WSDL (lenguaje de descripción de servicios web) a los que se accede desde cualquier instalación IPS en la que esté instalado el componente de servicio web IPS. Cada versión de la API IPS incluye un nuevo archivo WSDL que hace referencia a un espacio de nombres XML de destino con versiones. Las versiones anteriores del espacio de nombres WSDL también son compatibles para permitir la compatibilidad con versiones anteriores de las aplicaciones existentes.
 
 ## Acceso WSDL {#section-62e69fa2c87f4dc9bca72f10ba028f6c}
 
@@ -25,25 +26,25 @@ https://<IPS_hostname:<IPS_port>/<IPS_webapp>/
 webservice/IpsApi[-<API_version>].wsdl 
 ```
 
-El valor predeterminado para `<IPS_webapp>` es `scene7`.
+El valor predeterminado de `<IPS_webapp>` es `scene7`.
 
 **Ubicación del servicio**
 
-La dirección URL del servicio se especifica en la sección de servicios del documento WSDL del servicio Web IPS. La dirección URL del servicio suele tener el siguiente formato:
+La URL del servicio se especifica en la sección de servicio del documento WSDL del servicio web IPS. La URL del servicio suele tener el siguiente formato:
 
 ```
 https://<IPS_hostname>:<IPS_port>/<IPS_webapp>/ 
 services/IpsApiService 
 ```
 
-**Direcciones URL de acceso para regiones de Dynamic Media**
+**Acceso a direcciones URL para regiones de Dynamic Media**
 
 <table id="table_45BB314ABCDA49F38DF7BECF95CC984A"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Ubicación geográfica </p> </th> 
    <th colname="col2" class="entry"> <p>URL de producción </p> </th> 
-   <th colname="col3" class="entry"> <p>Dirección URL de ensayo (se utiliza para el desarrollo y la prueba previos a la producción) </p> </th> 
+   <th colname="col3" class="entry"> <p>Dirección URL de ensayo (se utiliza para desarrollo y prueba previa a la producción) </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -67,14 +68,14 @@ services/IpsApiService
 
 ## WSDL admitidos {#section-ebbba69880f94e9c823f1147974eb404}
 
-Recuerde que es posible que deba modificar el código si desea utilizar las funciones de la versión más reciente de la API de IPS. La API de IPS admite WSDL para las siguientes versiones:
+Recuerde que es posible que tenga que modificar el código si desea utilizar funciones en la última versión de la API de IPS. La API de IPS admite WSDL para las siguientes versiones:
 
 <table id="table_6FABCC4E7786448CB56C343E3C0B36CA"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Versión de la API </p> </th> 
+   <th colname="col1" class="entry"> <p>Versión de API </p> </th> 
    <th colname="col2" class="entry"> <p>WSDL </p> </th> 
-   <th colname="col3" class="entry"> <p>ÁREA DE NOMBRES de API </p> </th> 
+   <th colname="col3" class="entry"> <p>Espacio de nombres de API </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -104,7 +105,7 @@ Recuerde que es posible que deba modificar el código si desea utilizar las func
    <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2009-07-31  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4.2 </p> </td> 
+   <td colname="col1"> <p>4,2 </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> IpsApi-2008-09-10.wsdl  </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2008-09-10  </span> </p> </td> 
   </tr> 
@@ -121,7 +122,7 @@ Recuerde que es posible que deba modificar el código si desea utilizar las func
  </tbody> 
 </table>
 
-Las aplicaciones existentes que deben modificarse para utilizar nuevas funciones deben actualizarse a la versión más reciente de la API y es posible que deban realizar cambios en el código existente. Consulte el registro de cambios para obtener más información.
+Las aplicaciones existentes que deben modificarse para utilizar nuevas funciones deben actualizarse a la última versión de la API y es posible que deban realizar cambios en el código existente. Consulte el registro de cambios para obtener más información.
 
 ## SOAP {#section-51e7ecbd1d7f451b9e4f6bf7e1579cae}
 
@@ -131,7 +132,7 @@ El servicio web de API de IPS solo admite un enlace SOAP.
 
 **Transportes admitidos**
 
-El enlace SOAP de API de IPS solo admite transporte HTTP. Realice todas las solicitudes SOAP mediante el método de POST HTTPS.
+El enlace SOAP de la API IPS solo admite transporte HTTP. Realice todas las solicitudes SOAP utilizando el método de POST HTTPS.
 
 **Encabezado de acción SOAP**
 
@@ -139,11 +140,11 @@ Para procesar una solicitud, establezca el encabezado HTTP SOAPAction en el nomb
 
 **Formato del mensaje**
 
-El estilo documento/literal se utiliza para todos los mensajes de entrada y salida con tipos basados en el lenguaje de definición de Esquema XML ( [http://www.w3.org/TR/xmlschema-0/](http://www.w3.org/TR/xmlschema-0/)) y especificados en el archivo WSDL. Todos los tipos requieren nombres cualificados mediante el valor de Área de nombres de destinatario especificado en el archivo WSDL.
+El estilo documento/literal se utiliza para todos los mensajes de entrada y salida con tipos basados en el lenguaje de definición del esquema XML ( [http://www.w3.org/TR/xmlschema-0/](http://www.w3.org/TR/xmlschema-0/)) y especificados en el archivo WSDL. Todos los tipos requieren nombres cualificados que utilicen el valor de espacio de nombres de destino especificado en el archivo WSDL.
 
 **Solicitud de autenticación**
 
-El método preferido para pasar credenciales de autenticación en solicitudes de API es utilizar el elemento `authHeader` tal como se define en el WSDL de API de IPS.
+El método preferido para pasar credenciales de autenticación en solicitudes de API es utilizar el elemento `authHeader` tal como se define en el WSDL de la API IPS.
 
 ```
 <element name="authHeader"> 
@@ -173,11 +174,11 @@ El método preferido para pasar credenciales de autenticación en solicitudes de
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> usuario </span> </p> </td> 
-   <td colname="col2"> <p> Correo electrónico válido del usuario de IPS. </p> </td> 
+   <td colname="col2"> <p> Correo electrónico de usuario IPS válido. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> contraseña </span> </p> </td> 
-   <td colname="col2"> <p>Contraseña para la cuenta de usuario. </p> </td> 
+   <td colname="col2"> <p>Contraseña de la cuenta de usuario. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> locale </span> </p> </td> 
@@ -189,22 +190,22 @@ El método preferido para pasar credenciales de autenticación en solicitudes de
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> appVersion  </span> </p> </td> 
-   <td colname="col2"> <p> Llamando a la versión de la aplicación. </p> </td> 
+   <td colname="col2"> <p> Llamar a la versión de la aplicación. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> gzipResponse  </span> </p> </td> 
-   <td colname="col2"> <p> Indicador opcional para habilitar o deshabilitar la compresión gzip de XML de respuesta. De forma predeterminada, las respuestas se comprimen gzip si el encabezado Accept-Encoding de HTTP indica la compatibilidad con gzip. </p> </td> 
+   <td colname="col2"> <p> Indicador opcional para habilitar o deshabilitar la compresión gzip del XML de respuesta. De forma predeterminada, las respuestas se comprimen gzip si el encabezado Aceptar-codificación HTTP indica la compatibilidad con gzip. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> failHttpStatusCode  </span> </p> </td> 
-   <td colname="col2"> <p> Parámetro opcional para anular el código de estado HTTP para las respuestas a errores. De forma predeterminada, las respuestas a errores devuelven el código de estado HTTP 500 (error interno del servidor). Algunas plataformas cliente, incluido Adobe Flash, no pueden leer el cuerpo de respuesta a menos que se devuelva un código de estado de 200 (OK). </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> failureHttpStatusCode  </span> </p> </td> 
+   <td colname="col2"> <p> Parámetro opcional para anular el código de estado HTTP para las respuestas a errores. De forma predeterminada, las respuestas de error devuelven el código de estado HTTP 500 (error interno del servidor). Algunas plataformas de cliente, incluido el Flash de Adobe, no pueden leer el cuerpo de respuesta a menos que se devuelva un código de estado de 200 (OK). </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-El elemento `authHeader` siempre se define en la Área de nombres `http://www.scene7.com/IpsApi/xsd`, independientemente de la versión de la API.
+El elemento `authHeader` siempre se define en el espacio de nombres `http://www.scene7.com/IpsApi/xsd`, independientemente de la versión de la API.
 
-A continuación se muestra un ejemplo de uso del elemento `authHeader` en un encabezado SOAP de solicitud:
+A continuación se muestra un ejemplo del uso del elemento `authHeader` en un encabezado SOAP de solicitud:
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
@@ -217,19 +218,19 @@ A continuación se muestra un ejemplo de uso del elemento `authHeader` en un enc
  </soap:Header>
 ```
 
-**Otros métodos de autenticación de solicitudes**
+**Otros métodos de autenticación de solicitud**
 
-Si, por algún motivo, la aplicación cliente no puede pasar el encabezado `authHeader` SOAP, las solicitudes de API también pueden especificar credenciales mediante autenticación HTTP Basic (como se especifica en RFC 2617).
+Si, por algún motivo, su aplicación cliente no puede pasar el encabezado `authHeader` SOAP, las solicitudes de API también pueden especificar credenciales mediante autenticación HTTP Basic (como se especifica en RFC 2617).
 
 Para la autenticación HTTP Basic, la sección de encabezado HTTP de cada solicitud de POST SOAP debe incluir un encabezado del formulario:
 
 `Authorization: Basic base64(<IPS_user_email>:<password>)`
 
-Cuando `base64()` aplica la codificación estándar Base64, `<IPS_user_email>` es la dirección de correo electrónico de un usuario IPS válido y `<password>` es la contraseña del usuario.
+Donde `base64()` aplica la codificación base64 estándar, `<IPS_user_email>` es la dirección de correo electrónico de un usuario IPS válido y `<password>` es la contraseña del usuario.
 
 Envíe el encabezado Autorización de forma preventiva con la solicitud inicial. Si no se incluyen credenciales de autenticación en la solicitud, `IpsApiService` no responde con un código de estado de `401 (Unauthorized)`. En su lugar, se devuelve un código de estado de `500 (Internal Server Error)` con un cuerpo de error SOAP que indica que la solicitud no se pudo autenticar.
 
-Antes de IPS 3.8, la autenticación mediante el encabezado SOAP se implementaba usando los elementos `AuthUser` y `AuthPassword` de la Área de nombres `http://www.scene7.com/IpsApi`. Por ejemplo:
+Antes de IPS 3.8, la autenticación mediante el encabezado SOAP se implementaba utilizando los elementos `AuthUser` y `AuthPassword` en el espacio de nombres `http://www.scene7.com/IpsApi`. Por ejemplo:
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
@@ -238,15 +239,15 @@ Antes de IPS 3.8, la autenticación mediante el encabezado SOAP se implementaba 
 </soap:Header>
 ```
 
-Este estilo aún es compatible con la compatibilidad con versiones anteriores, pero se ha desaprobado en favor del elemento `authHeader`.
+Este estilo sigue siendo compatible con la compatibilidad con versiones anteriores, pero se ha desaprobado en favor del elemento `authHeader` .
 
 **Solicitud de autorización**
 
-Una vez autenticadas las credenciales del llamador, se comprueba la solicitud para garantizar que el llamante está autorizado a realizar la operación solicitada. La autorización se basa en la función de usuario del llamante y también puede requerir la comprobación de la compañía de destinatario, el usuario de destinatario y otros parámetros de operación. Además, los usuarios de Image Portal deben pertenecer a un grupo con los permisos necesarios para realizar determinadas operaciones de carpetas y recursos. La sección de referencia Operaciones detalla los requisitos de autorización para cada operación.
+Una vez autenticadas las credenciales del llamador, se comprueba la solicitud para garantizar que el llamador esté autorizado a realizar la operación solicitada. La autorización se basa en la función de usuario del llamador y también puede requerir la comprobación de los parámetros de empresa de destino, usuario de destino y otras operaciones. Además, los usuarios del portal de imágenes deben pertenecer a un grupo con los permisos necesarios para realizar determinadas operaciones de carpetas y recursos. La sección de referencia Operaciones detalla los requisitos de autorización para cada operación.
 
-**Solicitud SOAP de muestra y respuesta**
+**Solicitud y respuesta SOAP de ejemplo**
 
-El siguiente ejemplo muestra una operación completa `addCompany`, incluidos los encabezados HTTP:
+El siguiente ejemplo muestra una operación `addCompany` completa, incluidos los encabezados HTTP:
 
 ```
 POST /scene7/services/IpsApiService HTTP/1.1 
@@ -298,9 +299,9 @@ xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
 </soapenv:Envelope>
 ```
 
-**Errores de SOAP**
+**Fallos de SOAP**
 
-Cuando una operación encuentra una condición de excepción, se devuelve un error SOAP como cuerpo del mensaje SOAP en lugar de la respuesta normal. Por ejemplo, si un usuario no administrador intenta enviar la solicitud `addCompany` anterior, se devuelve la siguiente respuesta:
+Cuando una operación encuentra una condición de excepción, se devuelve un error SOAP como el cuerpo del mensaje SOAP en lugar de la respuesta normal. Por ejemplo, si un usuario no administrador intenta enviar la solicitud anterior `addCompany` , se devuelve la siguiente respuesta:
 
 ```
 HTTP/1.1 500 Internal Server Error 
