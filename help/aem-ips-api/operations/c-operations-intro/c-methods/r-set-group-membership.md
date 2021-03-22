@@ -4,13 +4,14 @@ seo-description: Establece la pertenencia a un grupo para un usuario.
 seo-title: setGroupMembership
 solution: Experience Manager
 title: setGroupMembership
-topic: Dynamic Media Image Production System API
 uuid: 3285fab0-92e4-4b88-9a3c-88cbb97d48c9
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 12%
+source-wordcount: '110'
+ht-degree: 11%
 
 ---
 
@@ -33,17 +34,17 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | No | El identificador del usuario cuya pertenencia a un grupo desea establecer. |
-| `*`companyHandle`*` | `xsd:string` | No | Identificador de compañía. |
-| `*`groupHandleArray`*` | `types:HandleArray` | Sí | Matriz de identificadores a grupos a los que pertenece el usuario. |
+| `*`userHandle`*` | `xsd:string` | No | El identificador del usuario cuya pertenencia a grupo desea establecer. |
+| `*`companyHandle`*` | `xsd:string` | No | Identificador de la empresa. |
+| `*`groupHandleArray`*` | `types:HandleArray` | Sí | Matriz de controles a grupos a los que pertenece el usuario. |
 
-**Output (setGroupMembershipReturn)**
+**Salida (setGroupMembershipReturn)**
 
-La API de IPS no devuelve una respuesta para esta operación.
+La API IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-67b86d259df24938896fe19061845811}
 
-Este ejemplo de código convierte al usuario en miembro de un grupo. Añada un usuario a varios grupos con la matriz de control de grupo.
+Este ejemplo de código convierte al usuario en miembro de un grupo. Agregue un usuario a varios grupos con la matriz de gestión de grupo.
 
 **Solicitar**
 
