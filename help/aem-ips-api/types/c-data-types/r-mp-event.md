@@ -1,15 +1,16 @@
 ---
-description: Un evento de Media Portal.
-seo-description: Un evento de Media Portal.
+description: Un evento de MediaPortal.
+seo-description: Un evento de MediaPortal.
 seo-title: MPEvent
 solution: Experience Manager
 title: MPEvent
-topic: Dynamic Media Image Production System API
 uuid: 0d15c07f-5545-42bb-a793-b6c77e7a1b7b
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '143'
 ht-degree: 13%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 13%
 
 # MPEvent{#mpevent}
 
-Un evento de Media Portal.
+Un evento de MediaPortal.
 
 Sintaxis
 
@@ -28,7 +29,7 @@ Sintaxis
 | `*`eventType`*` | `xsd:string` | Tipo de evento de Media Portal. |
 | `*`createDate`*` | `xsd:dateTime` | Fecha de creación del evento. |
 | `*`ipsUser`*` | `xsd:string` | Sistema o usuario que activa el evento. |
-| `*`companyId`*` | `xsd:int` | ID de compañía. |
+| `*`companyId`*` | `xsd:int` | ID de empresa. |
 | `*`companyName`*` | `xsd:string` | Nombre de la empresa. |
 | `*`jobName`*` | `xsd:string` | Un nombre de trabajo único. |
 | `*`jobDescription`*` | `xsd:string` | Una descripción útil del trabajo. |
@@ -37,13 +38,13 @@ Sintaxis
 | `*`string3`*` | `xsd:string` | Marcador para información de cadena (opcional). |
 | `*`string4`*` | `xsd:string` | Marcador para información de cadena (opcional). |
 | `*`string5`*` | `xsd:string` | Marcador para información de cadena (opcional). |
-| `*`int1`*` | `xsd:int` | Marcador para información de enteros (opcional). |
-| `*`int2`*` | `xsd:int` | Marcador para información de enteros (opcional). |
-| `*`int3`*` | `xsd:int` | Marcador para información de enteros (opcional). |
-| `*`int4`*` | `xsd:int` | Marcador para información de enteros (opcional). |
-| `*`int5`*` | `xsd:int` | Marcador para información de enteros (opcional). |
-| `*`float1`*` | `xsd:double` | Titular de la información del flotador (opcional). |
-| `*`float2`*` | `xsd:double` | Titular de la información del flotador (opcional). |
-| `*`float3`*` | `xsd:double` | Titular de la información del flotador (opcional). |
+| `*`int1`*` | `xsd:int` | Soporte para información entera (opcional). |
+| `*`int2`*` | `xsd:int` | Soporte para información entera (opcional). |
+| `*`int3`*` | `xsd:int` | Soporte para información entera (opcional). |
+| `*`int4`*` | `xsd:int` | Soporte para información entera (opcional). |
+| `*`int5`*` | `xsd:int` | Soporte para información entera (opcional). |
+| `*`float1`*` | `xsd:double` | Soporte para información de flotador (opcional). |
+| `*`float2`*` | `xsd:double` | Soporte para información de flotador (opcional). |
+| `*`float3`*` | `xsd:double` | Soporte para información de flotador (opcional). |
 | `*`time1`*` | `xsd:dateTime` | Titular de la información de fecha y hora (opcional). |
 
