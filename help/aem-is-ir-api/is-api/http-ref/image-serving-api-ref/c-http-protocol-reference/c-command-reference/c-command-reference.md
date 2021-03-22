@@ -4,32 +4,33 @@ seo-description: Esta sección describe los comandos del protocolo HTTP.
 seo-title: Referencia de comandos
 solution: Experience Manager
 title: Referencia de comandos
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 72c4ed61-3436-4df5-b586-77808fb1903a
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '230'
 ht-degree: 10%
 
 ---
 
 
-# Referencia de comando{#command-reference}
+# Referencia de comandos{#command-reference}
 
 Esta sección describe los comandos del protocolo HTTP.
 
-**Solo** para Dynamic Media en AEM: Más allá de los ajustes de imagen básicos disponibles en la interfaz de usuario,  [!DNL Dynamic Media] en AEM (  [!DNL Adobe Experience Manager]) admite numerosas modificaciones de imagen avanzadas que se pueden especificar en el campo  **Modificador de** imagen. Estos parámetros se definen a continuación. Sin embargo, tenga en cuenta que Dynamic Media no admite la siguiente funcionalidad en AEM.
+**Solo para Dynamic Media en AEM**: Más allá de la configuración de imagen básica disponible en la interfaz de usuario,  [!DNL Dynamic Media] en AEM (  [!DNL Adobe Experience Manager]) admite numerosas modificaciones de imagen avanzadas que se pueden especificar en el campo  **Modificadores de** imagen . Estos parámetros se definen a continuación. Sin embargo, tenga en cuenta que la siguiente funcionalidad no es compatible con Dynamic Media en AEM.
 
 * Comandos de corrección de color: `icc=` y `iccEmbed=`.
-* Comandos básicos de creación de plantillas y procesamiento de texto: `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` y `textPs=`.
+* Plantillas básicas y comandos de renderización de texto: `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` y `textPs=`.
 * Comandos de localización: `locale=` y `req=xlate`.
 * `req=set` no está disponible para uso general.
 * `req=mbrset`
 * `req=saveToFile`
 * `req=targets`
 * `template=`
-* Servicios no principales de Dynamic Media: SVG, procesamiento de imágenes e impresión virtual.
+* Servicios Dynamic Media no principales: SVG, procesamiento de imágenes e impresión virtual.
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
@@ -41,16 +42,16 @@ Consulte también las [Opciones de ajustes preestablecidos de imagen](https://ex
 * [bgc](r-bgc.md)
 * [bgColor](r-bgcolor.md)
 * [blendMode](r-blendmode.md)
-* [caché](r-is-http-cache.md)
+* [cache](r-is-http-cache.md)
 * [clipPath](r-clippath.md)
 * [clipXPath](r-clipxpath.md)
 * [color](r-color-commandref.md)
 * [recorte](r-crop.md)
-* [cutPathE](r-croppath.md)
+* [cropPathE](r-croppath.md)
 * [defaultImage](r-is-http-defaultimage.md)
-* [efecto](r-effect.md)
+* [effect](r-effect.md)
 * [effectMask](r-effectmask.md)
-* [extender](r-extend.md)
+* [ampliar](r-extend.md)
 * [Ajuste](r-fit.md)
 * [voltear](r-flip.md)
 * [fmt](r-is-http-fmt.md)
@@ -64,16 +65,16 @@ Consulte también las [Opciones de ajustes preestablecidos de imagen](https://ex
 * [capa](r-layer.md)
 * [locale](r-locale.md)
 * [mapa](r-map.md)
-* [máscara](r-mask.md)
+* [mask](r-mask.md)
 * [maskUse](r-maskuse.md)
 * [op_blur](r-op-blur.md)
 * [op_bright](r-op-brightness.md)
 * [op_colorbalance](r-op-colorbalance.md)
 * [op_colorize](r-op-colorize.md)
-* [op_compare](r-op-contrast.md)
-* [op_Growth](r-op-grow.md)
-* [op_GrowthMask](r-op-growmask.md)
-* [op_GrowthMaskR](r-op-growmaskr.md)
+* [op_contrast](r-op-contrast.md)
+* [op_growth](r-op-grow.md)
+* [op_growthMask](r-op-growmask.md)
+* [op_growthMaskR](r-op-growmaskr.md)
 * [op_hue](r-op-hue.md)
 * [op_invert](r-op-invert.md)
 * [op_sound](r-op-noise.md)
@@ -82,7 +83,7 @@ Consulte también las [Opciones de ajustes preestablecidos de imagen](https://ex
 * [op_usm](r-op-usm.md)
 * [op_usmR](r-op-usmr.md)
 * [opac](r-opac.md)
-* [origen](r-origin.md)
+* [origin](r-origin.md)
 * [pathAttr](r-pathattr.md)
 * [pathEmbed](r-pathembed.md)
 * [perspectiva](r-perspective.md)
