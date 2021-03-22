@@ -2,12 +2,13 @@
 description: Describe los tipos de datos nuevos y modificados para la API de IPS versión 4.4.
 solution: Experience Manager
 title: Tipos de datos nuevos y modificados
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 4%
+source-wordcount: '53'
+ht-degree: 3%
 
 ---
 
@@ -35,22 +36,22 @@ Sintaxis
 
 **Recurso**
 
-Parámetros agregados:
+Parámetros añadidos:
 
 * `subtype`
 * `assetSetInfo`
 
 **JobLog**
 
-Parámetros agregados:
+Parámetros añadidos:
 
 * `transferSuccessCount`
 * `transferErrorCount`
 * `transferWarningCount`
 
-**PDFInfo**
+**Información de PDFI**
 
-Parámetros agregados:
+Parámetros añadidos:
 
 * `extractLinks`
 
