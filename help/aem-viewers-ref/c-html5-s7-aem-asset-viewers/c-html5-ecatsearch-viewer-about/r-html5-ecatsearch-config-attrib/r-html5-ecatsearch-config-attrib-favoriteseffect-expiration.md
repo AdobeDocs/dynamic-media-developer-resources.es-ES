@@ -2,13 +2,14 @@
 description: FavoritesEffect.expiration
 solution: Experience Manager
 title: FavoritesEffect.expiration
-topic: Dynamic Media
 uuid: 3b852317-af42-423e-a065-92192f0065db
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 12%
+source-wordcount: '60'
+ht-degree: 10%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 12%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> días</span></span> </p> </td> 
-   <td colname="col2"> <p> Número de días que se mantiene la colección de favoritos en el sistema del cliente antes de que caduquen. Cada vez que un usuario visita el catálogo y realiza un cambio en los favoritos, como agregar o quitar, se restablece el temporizador de caducidad. </p> </td> 
+   <td colname="col2"> <p> Número de días durante los que se conserva la colección de favoritos en el sistema del cliente antes de que caduque. Cada vez que un usuario visita el catálogo y realiza un cambio en los favoritos, como agregar o quitar, se restablece el temporizador de caducidad. </p> </td> 
   </tr> 
  </tbody> 
 </table>
