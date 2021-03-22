@@ -2,13 +2,14 @@
 description: VideoScrubber.showtime
 solution: Experience Manager
 title: VideoScrubber.showtime
-topic: Dynamic Media
 uuid: fe4e7327-5f2e-4eb4-a3ea-57a901fec1ca
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '19'
-ht-degree: 26%
+source-wordcount: '31'
+ht-degree: 16%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 26%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Activa o desactiva la burbuja de tiempo reproducido al ajustar la posición del botón. </p> </td> 
+   <td colname="col2"> <p> Activa o desactiva la burbuja de tiempo reproducida al ajustar la posición del pomo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
