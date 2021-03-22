@@ -4,12 +4,13 @@ seo-description: Las miniaturas constan de una cuadrícula de imágenes en minia
 seo-title: Miniaturas
 solution: Experience Manager
 title: Miniaturas
-topic: Dynamic Media
 uuid: 340b81e0-77df-4b44-a462-b98bcc96d707
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '923'
 ht-degree: 2%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 2%
 
 Las miniaturas constan de una cuadrícula de imágenes en miniatura con una barra de desplazamiento opcional en el lado derecho para permitir el desplazamiento vertical.
 
-Las miniaturas se alternan haciendo clic en el botón de miniatura en la barra de control principal. Cuando las miniaturas están activas, se muestran en modo modal superpuesto sobre la interfaz de usuario del visor. La lógica del visor cambia automáticamente el tamaño del contenedor de miniaturas a toda la zona del visor.
+Las miniaturas se alternan haciendo clic en el botón de miniatura de la barra de control principal. Cuando las miniaturas están activas, se muestran en modo modal superpuesto en la interfaz de usuario del visor. La lógica del visor cambia automáticamente el tamaño del contenedor de miniaturas a todo el área del visor.
 
 El aspecto del contenedor de miniaturas se controla con el siguiente selector de clase CSS:
 
@@ -43,7 +44,7 @@ El aspecto del contenedor de miniaturas se controla con el siguiente selector de
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
-   <td colname="col2"> <p>Margen izquierdo. </p> </td> 
+   <td colname="col2"> <p>El margen izquierdo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-right  </span> </p> </td> 
@@ -60,7 +61,7 @@ El aspecto del contenedor de miniaturas se controla con el siguiente selector de
  </tbody> 
 </table>
 
-Ejemplo: para configurar las miniaturas de modo que se desvíen 32 píxeles de la parte superior, 5 píxeles de márgenes a la izquierda y a la derecha y 8 píxeles de margen en la parte inferior, con `0xDDDDDD` fondo.
+Ejemplo: para configurar las miniaturas de modo que tengan un desplazamiento de 32 píxeles desde la parte superior, 5 píxeles de márgenes a izquierda y derecha y 8 píxeles de margen en la parte inferior, con `0xDDDDDD` fondo.
 
 ```
 .s7ecatalogviewer .s7thumbnailgridview { 
@@ -86,7 +87,7 @@ El espaciado entre miniaturas se controla con el siguiente selector de clase CSS
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> Tamaño del margen horizontal y vertical alrededor de cada miniatura. El espaciado de miniaturas horizontales real es igual a la suma del margen izquierdo y derecho definido para <span class="codeph"> .s7thumbcell </span>. El espaciado vertical en miniatura es igual a la suma de los márgenes superior e inferior. </p> </td> 
+   <td colname="col2"> <p> El tamaño del margen horizontal y vertical alrededor de cada miniatura. El espaciado de las miniaturas horizontales real es igual a la suma de los márgenes izquierdo y derecho que se establece para <span class="codeph"> .s7thumbcell </span>. El espaciado en miniatura vertical es igual a la suma de los márgenes superior e inferior. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -121,7 +122,7 @@ El aspecto de la miniatura individual se controla con el siguiente selector de c
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> borde </span> </p> </td> 
-   <td colname="col2"> <p>Borde de la miniatura. </p> </td> 
+   <td colname="col2"> <p>El borde de la miniatura. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
@@ -130,13 +131,13 @@ El aspecto de la miniatura individual se controla con el siguiente selector de c
  </tbody> 
 </table>
 
-En dispositivos táctiles, cuando se rota al modo vertical, el visor puede cambiar el tamaño de las miniaturas a la mitad de lo que se configura en caso de que decida dividir el pliego de catálogos en páginas individuales.
+En dispositivos táctiles, cuando se gira al modo vertical, el visor puede cambiar el tamaño de las miniaturas a la mitad de lo que se configura en caso de que decida dividir el catálogo en páginas individuales.
 
 >[!NOTE]
 >
->La miniatura admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes apariencias a distintos estados de miniaturas. En particular, `state="selected"` corresponde a la miniatura de la imagen que se muestra actualmente en la vista principal, `state="default"` corresponde al resto de las miniaturas y `state="over"` se utiliza al pasar el ratón.
+>La miniatura admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes aspectos a diferentes estados de miniaturas. En concreto, `state="selected"` corresponde a la miniatura de la imagen que se muestra actualmente en la vista principal, `state="default"` corresponde al resto de miniaturas y `state="over"` se utiliza al pasar el ratón.
 
-Ejemplo: para configurar miniaturas de 120 x 85 píxeles, utilice un fondo blanco, un borde estándar de gris claro y un borde seleccionado de color gris oscuro.
+Ejemplo: para configurar miniaturas de 120 x 85 píxeles, tenga un fondo blanco, un borde estándar gris claro y un borde seleccionado gris oscuro.
 
 ```
 .s7ecatalogviewer .s7thumbnailgridview .s7thumb { 
@@ -164,7 +165,7 @@ El aspecto de la etiqueta de miniatura se controla con el siguiente selector de 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
-   <td colname="col2"> <p>Nombre de fuente. </p> </td> 
+   <td colname="col2"> <p>Nombre de la fuente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
@@ -182,7 +183,7 @@ Ejemplo: para configurar etiquetas para utilizar una fuente Helvetica de 14 píx
 }
 ```
 
-En caso de que haya más miniaturas de las que caben verticalmente en la vista, las miniaturas representan la barra de desplazamiento vertical en el lado derecho. El aspecto del área de la barra de desplazamiento se controla con el siguiente selector de clase CSS:
+En caso de que haya más miniaturas de las que caben verticalmente en la vista, las miniaturas representarán la barra de desplazamiento vertical del lado derecho. El aspecto del área de la barra de desplazamiento se controla con el siguiente selector de clase CSS:
 
 `.s7ecatalogviewer .s7thumbnailgridview .s7scrollbar`
 
@@ -200,11 +201,11 @@ En caso de que haya más miniaturas de las que caben verticalmente en la vista, 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> parte superior </span> </p> </td> 
-   <td colname="col2"> <p> Desplazamiento de la barra de desplazamiento vertical desde la parte superior del área de miniaturas. </p> </td> 
+   <td colname="col2"> <p> Desplazamiento vertical de la barra de desplazamiento desde la parte superior del área de miniaturas. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> parte inferior </span> </p> </td> 
-   <td colname="col2"> <p>Desplazamiento de la barra de desplazamiento vertical desde la parte inferior del área de miniaturas. </p> </td> 
+   <td colname="col2"> <p>Desplazamiento vertical de la barra de desplazamiento desde la parte inferior del área de miniaturas. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> derecha </span> </p> </td> 
@@ -224,7 +225,7 @@ Ejemplo: para configurar una barra de desplazamiento de 28 píxeles de ancho y c
 }
 ```
 
-La pista de la barra de desplazamiento es el área entre los botones de desplazamiento superior e inferior. El componente establece automáticamente la posición y la altura de la pista. El seguimiento se controla con el siguiente selector de clase CSS:
+La barra de desplazamiento es el área entre los botones de desplazamiento superior e inferior. El componente establece automáticamente la posición y la altura de la pista. El seguimiento se controla con el siguiente selector de clase CSS:
 
 `.s7ecatalogviewer .s7thumbnailgridview .s7scrollbar .s7scrolltrack`
 
@@ -247,7 +248,7 @@ La pista de la barra de desplazamiento es el área entre los botones de desplaza
  </tbody> 
 </table>
 
-Ejemplo: para configurar una pista de barra de desplazamiento con una anchura de 28 píxeles y un fondo gris semitransparente.
+Ejemplo: para configurar una pista de barra de desplazamiento de 28 píxeles de ancho y con un fondo gris semitransparente.
 
 ```
 .s7ecatalogviewer .s7thumbnailgridview .s7scrollbar .s7scrolltrack { 
@@ -256,7 +257,7 @@ Ejemplo: para configurar una pista de barra de desplazamiento con una anchura de
 }
 ```
 
-El pulgar de la barra de desplazamiento se mueve verticalmente dentro del área de la pista de desplazamiento. Su posición vertical está totalmente controlada por la lógica del componente; sin embargo, la altura del pulgar no cambia dinámicamente según la cantidad de contenido. La altura de la miniatura y otros aspectos se controlan con el siguiente selector de clase CSS:
+La barra de desplazamiento se mueve verticalmente dentro del área de la pista de desplazamiento. Su posición vertical está totalmente controlada por la lógica del componente, sin embargo, la altura del pulgar no cambia dinámicamente según la cantidad de contenido. La altura de la miniatura y otros aspectos se controlan con el siguiente selector de clase CSS:
 
 `.s7ecatalogviewer .s7thumbnailgridview .s7scrollbar .s7scrollthumb`
 
@@ -270,36 +271,36 @@ El pulgar de la barra de desplazamiento se mueve verticalmente dentro del área 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
-   <td colname="col2"> <p>Ancho del control de la barra de desplazamiento. </p> </td> 
+   <td colname="col2"> <p>Ancho de la barra de desplazamiento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altura de la miniatura de la barra de desplazamiento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-top  </span> </p> </td> 
-   <td colname="col2"> <p>El margen vertical entre la parte superior de la pista de la barra de desplazamiento. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> relleno superior  </span> </p> </td> 
+   <td colname="col2"> <p>El margen vertical entre la parte superior de la barra de desplazamiento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> relleno-inferior  </span> </p> </td> 
-   <td colname="col2"> <p>El margen vertical entre la parte inferior de la pista de la barra de desplazamiento. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> relleno inferior  </span> </p> </td> 
+   <td colname="col2"> <p>El margen vertical entre la parte inferior de la barra de desplazamiento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p>Imagen que se muestra para un estado de miniatura determinado. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
+   <td colname="col2"> <p>Imagen que se muestra para un estado de pulgar determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
+   <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Thumb admite el selector de atributos `state`, que se puede utilizar para aplicar diferentes apariencias a los estados del pulgar `up`, `down`, `over` y `disabled`.
+>Thumb es compatible con el selector de atributos `state`, que puede utilizarse para aplicar diferentes aspectos a los estados de miembros `up`, `down`, `over` y `disabled`.
 
-Ejemplo: para configurar una miniatura de la barra de desplazamiento de 28 x 45 píxeles, tiene márgenes de 10 píxeles en la parte superior e inferior y una ilustración diferente para cada estado.
+Ejemplo: para configurar un control de barra de desplazamiento de 28 x 45 píxeles, tiene 10 márgenes de píxeles en la parte superior e inferior y tiene distintas ilustraciones para cada estado.
 
 ```
 .s7ecatalogviewer .s7thumbnailgridview .s7scrollbar .s7scrollthumb { 
@@ -330,7 +331,7 @@ El aspecto de los botones de desplazamiento superior e inferior se controla con 
 
 `.s7ecatalogviewer .s7thumbnailgridview .s7scrollbar .s7scrolldownbutton`
 
-No es posible colocar los botones de desplazamiento mediante las propiedades CSS `top`, `left`, `bottom` y `right`. En su lugar, la lógica del visor las coloca automáticamente.
+No es posible colocar los botones de desplazamiento utilizando las propiedades CSS `top`, `left`, `bottom` y `right`. En su lugar, la lógica del visor los coloca automáticamente.
 
 <table id="table_89E64A138ABF463F9650BB454F22D530"> 
  <thead> 
@@ -349,21 +350,21 @@ No es posible colocar los botones de desplazamiento mediante las propiedades CSS
    <td colname="col2"> <p>Altura del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p>Imagen que se muestra para un estado de miniatura determinado. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
+   <td colname="col2"> <p>Imagen que se muestra para un estado de pulgar determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
+   <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Estos botones admiten el selector de atributos `state`, que puede utilizarse para aplicar diferentes apariencias a los distintos estados de botones `up`, `down`, `over` y `disabled`.
+>Estos botones admiten el selector de atributos `state`, que puede utilizarse para aplicar diferentes aspectos a los distintos estados de botones `up`, `down`, `over` y `disabled`.
 
-La información de objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
+La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
 Ejemplo: para configurar botones de desplazamiento de 28 x 32 píxeles y con diferentes ilustraciones para cada estado.
 
