@@ -1,21 +1,22 @@
 ---
 description: Los siguientes ejemplos muestran una muestra de comandos de texto y cómo afectan al texto.
 seo-description: Los siguientes ejemplos muestran una muestra de comandos de texto y cómo afectan al texto.
-seo-title: Ejemplos de codificación RTF
+seo-title: Ejemplos de codificación de RTF
 solution: Experience Manager
-title: Ejemplos de codificación RTF
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Ejemplos de codificación de RTF
 uuid: 29fb4f59-b4bf-4768-a6e1-cc50926da936
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '75'
 ht-degree: 2%
 
 ---
 
 
-# Ejemplos de codificación RTF{#rtf-encoding-examples}
+# Ejemplos de codificación de RTF{#rtf-encoding-examples}
 
 Los siguientes ejemplos muestran una muestra de comandos de texto y cómo afectan al texto.
 
@@ -57,4 +58,4 @@ Los siguientes ejemplos muestran una muestra de comandos de texto y cómo afecta
 
 ## Véase también {#section-e702276fd0e847779cb75a6ccb92fbc8}
 
-[text=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-text.md#reference-84634052e48548539a1ef63cbe41f22f) ,  [textPs=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767),  [textAttr=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textattr.md#reference-ff00484fa3244286abeff34911f7ec0d), codificación [ ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-http-encoding.md#reference-bb34dd13f316462695448acfa8f92df7)HTTP, especificación  [RTF 1.6](http://msdn.microsoft.com/en-us/library/aa140277%28office.10%29.aspx)
+[text=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-text.md#reference-84634052e48548539a1ef63cbe41f22f) ,  [textPs=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767),  [textAttr=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textattr.md#reference-ff00484fa3244286abeff34911f7ec0d),  [HTTP Encoding](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-http-encoding.md#reference-bb34dd13f316462695448acfa8f92df7), especificación  [RTF 1.6](http://msdn.microsoft.com/en-us/library/aa140277%28office.10%29.aspx)
