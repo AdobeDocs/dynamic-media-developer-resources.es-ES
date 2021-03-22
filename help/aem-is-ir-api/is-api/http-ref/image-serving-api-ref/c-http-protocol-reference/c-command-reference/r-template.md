@@ -4,12 +4,13 @@ seo-description: Plantilla de composición. Permite especificar una plantilla de
 seo-title: plantilla
 solution: Experience Manager
 title: plantilla
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 59b37d60-1d0c-4d0b-a5a0-98d8bf9e9064
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '190'
 ht-degree: 6%
 
 ---
@@ -30,9 +31,9 @@ Plantilla de composición. Permite especificar una plantilla de composición ubi
 
 *`template`* debe ser una entrada de catálogo de imágenes con el cuerpo de plantilla contenido en  `catalog::Modifier`.
 
-Cuando `template=` está presente, el objeto especificado en la ruta de la solicitud no se aplicará como origen para la capa 0, pero se puede hacer referencia a él como `src=` o `mask=` en cualquier lugar de la plantilla mediante la variable de ruta predefinida `$object$` como valor `src=`. `catalog::Modifier` del objeto especificado en la ruta de la solicitud solo se aplica en conexión con la sustitución de  `$object$` dentro de la plantilla, mientras que siempre  `catalog::PostModifier` se aplica.
+Cuando `template=` está presente, el objeto especificado en la ruta de solicitud no se aplicará como origen para la capa 0, pero se puede hacer referencia a él como `src=` o `mask=` en cualquier lugar de la plantilla utilizando la variable de ruta predefinida `$object$` como valor `src=`. `catalog::Modifier` del objeto especificado en la ruta de solicitud solo se aplica en conexión con la sustitución de  `$object$` dentro de la plantilla, mientras que siempre  `catalog::PostModifier` se aplica.
 
-La capa 0 se define en el cuerpo de la plantilla y puede ser una capa de solicitud de imagen, color sólido, texto o anidada o incrustada.
+La capa 0 se define en el cuerpo de la plantilla y puede ser una imagen, color sólido, texto o capa de solicitud anidada o incrustada.
 
 `catalog:PostModifier` of  *`object`* se ignora cuando  *`object`* se utiliza con  `template=`.
 
@@ -42,7 +43,7 @@ Ninguno.
 
 ## Propiedades {#section-daf3afb1d09c45a6a394468d0874c439}
 
-Solicitar atributo. Se aplica independientemente de la configuración de la capa actual.
+Atributo de solicitud. Se aplica independientemente de la configuración de capa actual.
 
 ## Ejemplo {#section-9a4f260ed43342b186b0fe855f34bca6}
 
