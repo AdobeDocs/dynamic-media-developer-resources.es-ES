@@ -1,23 +1,24 @@
 ---
-description: Elimina un tipo de conjunto de propiedades y sus propiedades y conjunto de propiedades asociados.
-seo-description: Elimina un tipo de conjunto de propiedades y sus propiedades y conjunto de propiedades asociados.
+description: Elimina un tipo de conjunto de propiedades y su conjunto de propiedades y propiedades asociados.
+seo-description: Elimina un tipo de conjunto de propiedades y su conjunto de propiedades y propiedades asociados.
 seo-title: deletePropertySetType
 solution: Experience Manager
 title: deletePropertySetType
-topic: Dynamic Media Image Production System API
 uuid: 7a5232cc-fa3a-4dac-bf88-8b954dd37c87
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 10%
+source-wordcount: '113'
+ht-degree: 9%
 
 ---
 
 
 # deletePropertySetType{#deletepropertysettype}
 
-Elimina un tipo de conjunto de propiedades y sus propiedades y conjunto de propiedades asociados.
+Elimina un tipo de conjunto de propiedades y su conjunto de propiedades y propiedades asociados.
 
 Sintaxis
 
@@ -34,15 +35,15 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`typeHandle`*` | `xsd:string` | Sí | Identificador del tipo de conjunto de propiedades que se va a eliminar. |
+| `*`typeHandle`*` | `xsd:string` | Sí | El identificador del tipo de conjunto de propiedades que se va a eliminar. |
 
 **Salida (deletePropertySetTypeParam)**
 
-La API de IPS no devuelve una respuesta para esta operación.
+La API IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-85faa2e3411a4e23aa6489037f7ce078}
 
-Este ejemplo de código utiliza el identificador del tipo como campo en el `deletePropertySetTypeParam` enviado al servidor de servicios Web IPS para eliminar el tipo de conjunto de propiedades.
+Este ejemplo de código utiliza el identificador del tipo como campo en el `deletePropertySetTypeParam` enviado al servidor de servicios web IPS para eliminar el tipo de conjunto de propiedades.
 
 **Solicitar**
 
