@@ -1,15 +1,16 @@
 ---
-description: Referencia de la API de JavaScript para el visor de imágenes de vídeo.
-seo-description: Referencia de la API de JavaScript para el visor de imágenes de vídeo.
+description: Referencia de la API de JavaScript para el visualizador de imágenes de vídeo.
+seo-description: Referencia de la API de JavaScript para el visualizador de imágenes de vídeo.
 seo-title: setParams
 solution: Experience Manager
 title: setParams
-topic: Dynamic Media
 uuid: a80fe6cb-74fd-45db-86e7-717342e4afbd
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Imágenes interactivas
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '118'
 ht-degree: 2%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 2%
 
 # setParams{#setparams}
 
-Referencia de la API de JavaScript para el visor de imágenes de vídeo.
+Referencia de la API de JavaScript para el visualizador de imágenes de vídeo.
 
 ` setParams( *`params`*)`
 
-Establece uno o más parámetros en un valor determinado. La sintaxis del argumento de método es idéntica a una cadena de consulta URL. Es decir, representa pares nombre=valor separados por `&`. Al igual que en una cadena de consulta, los nombres y los valores están codificados en porcentaje con UTF8. Antes de llamar a `init()`, se debe llamar a este parámetro.
+Establece uno o más parámetros en un valor determinado. La sintaxis del argumento de método es idéntica a una cadena de consulta de URL. Es decir, representa pares nombre=valor separados por `&`. Al igual que en una cadena de consulta, los nombres y valores están codificados por porcentajes utilizando UTF8. Antes de llamar a `init()`, se debe llamar a este parámetro.
 
 Este método es opcional si la información de configuración del visor se pasó con el objeto JSON `config` al constructor.
 
@@ -33,7 +34,7 @@ Consulte también [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-v
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> params</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> Los pares de parámetro {string}</span> name=value separados por  <span class="codeph"> &amp;</span>. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value pares de parámetros separados por  <span class="codeph"> &amp;</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
