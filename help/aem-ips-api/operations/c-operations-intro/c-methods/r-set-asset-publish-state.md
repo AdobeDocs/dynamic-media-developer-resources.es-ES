@@ -4,13 +4,14 @@ seo-description: Determina si un recurso está listo para publicarse.
 seo-title: setAssetPublishState
 solution: Experience Manager
 title: setAssetPublishState
-topic: Dynamic Media Image Production System API
 uuid: b7d49d77-573c-4e2a-81d3-196c09d62853
+feature: Dynamic Media Classic,SDK/API,Administración de activos
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 18%
+source-wordcount: '114'
+ht-degree: 16%
 
 ---
 
@@ -51,7 +52,7 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> El identificador de la compañía. </td> 
+   <td colname="col4"> El identificador de la empresa. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
@@ -80,7 +81,7 @@ Sintaxis
 
 **Salida**
 
-La API de IPS no devuelve una respuesta para esta operación.
+La API IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-c31ead6d0e594317a12c120509527792}
 
