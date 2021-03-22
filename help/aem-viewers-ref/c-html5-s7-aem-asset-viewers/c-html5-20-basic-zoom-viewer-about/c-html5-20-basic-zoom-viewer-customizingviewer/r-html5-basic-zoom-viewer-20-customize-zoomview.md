@@ -4,12 +4,13 @@ seo-description: La vista principal consiste en la imagen ampliable.
 seo-title: Vista de zoom
 solution: Experience Manager
 title: Vista de zoom
-topic: Dynamic Media
 uuid: 06464e36-8c9c-4d3c-b4e5-5911f002568c
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '183'
 ht-degree: 3%
 
 ---
@@ -21,7 +22,7 @@ La vista principal consiste en la imagen ampliable.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propiedades CSS del área del visor principal**
+**Propiedades CSS del área principal del visor**
 
 El aspecto del área de visualización se controla con el siguiente selector de clase CSS:
 
@@ -56,7 +57,7 @@ Ejemplo: para que la vista principal sea transparente.
 }
 ```
 
-En los sistemas de escritorio, el componente admite el selector de atributos `cursortype` que se puede aplicar a la clase `.s7zoomview` y controla el tipo de cursor en función del estado del componente y la acción del usuario. Se admiten los siguientes valores `cursortype`:
+En los sistemas de escritorio, el componente admite el selector de atributos `cursortype` que se puede aplicar a la clase `.s7zoomview` y controla el tipo de cursor en función del estado del componente y la acción del usuario. Se admiten los siguientes `cursortype` valores:
 
 <table id="table_BC9FC40DA27B4A85995F4E9431AABF33"> 
  <thead> 
@@ -68,7 +69,7 @@ En los sistemas de escritorio, el componente admite el selector de atributos `cu
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> predeterminado </span> </p> </td> 
-   <td colname="col2"> <p>Se muestra cuando la imagen no se puede ampliar debido a una pequeña resolución de imagen, a una configuración de componente o a ambos. </p> </td> 
+   <td colname="col2"> <p>Se muestra cuando la imagen no se puede ampliar debido a una pequeña resolución de imagen, a la configuración de componentes o a ambos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> zoomina  </span> </p> </td> 
@@ -76,11 +77,11 @@ En los sistemas de escritorio, el componente admite el selector de atributos `cu
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> restablecer </span> </p> </td> 
-   <td colname="col2"> <p>Se muestra cuando la imagen está en el nivel máximo de zoom y se puede restablecer a su estado inicial. </p> </td> 
+   <td colname="col2"> <p>Se muestra cuando la imagen se encuentra en el nivel de zoom máximo y se puede restablecer a su estado inicial. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> arrastrar </span> </p> </td> 
-   <td colname="col2"> <p>Se muestra cuando un usuario gira la imagen que está en estado de zoom. </p> </td> 
+   <td colname="col2"> <p>Se muestra cuando un usuario panorámica la imagen que está en estado de zoom. </p> </td> 
   </tr> 
  </tbody> 
 </table>
