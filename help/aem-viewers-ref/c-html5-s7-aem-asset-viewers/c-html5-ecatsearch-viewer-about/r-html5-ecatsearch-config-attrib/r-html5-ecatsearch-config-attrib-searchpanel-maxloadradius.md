@@ -2,26 +2,27 @@
 description: SearchPanel.maxloadradius
 solution: Experience Manager
 title: SearchPanel.maxloadradius
-topic: Dynamic Media
 uuid: 37d58c88-3d45-44d9-9f2c-d616d1077906
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 7%
+source-wordcount: '64'
+ht-degree: 6%
 
 ---
 
 
 # SearchPanel.maxloadradius{#searchpanel-maxloadradius}
 
-[!DNL `[SearchPanel.|<containerId>_searchPanel.]maxloadradius=-1|0| *`preloadnbr`*`]
+[!DNL `[SearchPanel.|<containerId>_searchPanel.]maxloadradius=-1|0| *`precarga`*`]
 
 <table id="table_985ADD6C9BD04C629A84C9C625CCCFEB"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p>Especifica el comportamiento de precarga del componente. </p> <p>Cuando se establece en <span class="codeph"> -1</span>, todas las miniaturas se cargan simultáneamente cuando se inicializa el componente o cambia el recurso. </p> <p> Cuando se establece en <span class="codeph"> 0</span> sólo se cargan las miniaturas visibles. </p> <p>Configure <span class="codeph"><span class="varname"> preloadnbr</span></span> para definir cuántas filas invisibles alrededor del área visible se cargan previamente. </p> </td> 
+   <td colname="col2"> <p>Especifica el comportamiento de precarga del componente. </p> <p>Cuando se establece en <span class="codeph"> -1</span>, todas las miniaturas se cargan simultáneamente cuando el componente se inicializa o el recurso cambia. </p> <p> Cuando se establece en <span class="codeph"> 0</span>, solo se cargan las miniaturas visibles. </p> <p>Establezca <span class="codeph"><span class="varname"> precarga</span></span> para definir cuántas filas invisibles alrededor del área visible se precargan. </p> </td> 
   </tr> 
  </tbody> 
 </table>
