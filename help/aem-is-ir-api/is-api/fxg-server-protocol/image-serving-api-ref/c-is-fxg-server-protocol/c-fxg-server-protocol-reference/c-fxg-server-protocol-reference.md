@@ -4,13 +4,14 @@ seo-description: Este documento proporciona información sobre los protocolos de
 seo-title: Referencia del protocolo del servidor FXG
 solution: Experience Manager
 title: Referencia del protocolo del servidor FXG
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 59544a37-bd4f-494e-9c1f-3e6746287846
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 6%
+source-wordcount: '71'
+ht-degree: 5%
 
 ---
 
@@ -20,8 +21,8 @@ ht-degree: 6%
 Este documento proporciona información sobre los protocolos del servidor FXG y su sintaxis.
 
 * [bleedmargin](r-bleedmargin.md)
-* [caché](r-is-fxg-cache.md)
-* [convertTextToOutlines](r-convertextoutlines.md)
+* [cache](r-is-fxg-cache.md)
+* [ConvertTextToOutlines](r-convertextoutlines.md)
 * [enableVisibleAttributeOptimization](r-enablevisibleattributeoptimization.md)
 * [fmt](r-is-fxg-fmt.md)
 * [hei](r-is-fxg-hei.md)
@@ -30,7 +31,7 @@ Este documento proporciona información sobre los protocolos del servidor FXG y 
 * [markOverflowingTextFrames](r-markoverflowingtextframes.md)
 * [mediaMargin](r-mediamargin.md)
 * [page](r-page.md)
-* [printerMark](r-printermark.md)
+* [printMark](r-printermark.md)
 * [qlt](r-is-fxg-qlt.md)
 * [cuantificar](r-is-fxg-quantize.md)
 * [req](r-req-oversetstatus.md)
