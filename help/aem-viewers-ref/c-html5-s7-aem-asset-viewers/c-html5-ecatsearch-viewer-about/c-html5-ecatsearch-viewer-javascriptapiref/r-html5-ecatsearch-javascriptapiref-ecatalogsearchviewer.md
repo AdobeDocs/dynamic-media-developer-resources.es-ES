@@ -1,15 +1,16 @@
 ---
-description: Referencia de la API de JavaScript para SearchViewer de catálogos electrónicos.
-seo-description: Referencia de la API de JavaScript para SearchViewer de catálogos electrónicos.
+description: Referencia de la API de JavaScript para el visor de búsqueda de catálogos electrónicos.
+seo-description: Referencia de la API de JavaScript para el visor de búsqueda de catálogos electrónicos.
 seo-title: eCatalogSearchViewer
 solution: Experience Manager
 title: eCatalogSearchViewer
-topic: Dynamic Media
 uuid: 304724aa-3f50-46de-97d0-48e8c81401ed
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '223'
 ht-degree: 3%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 3%
 
 # eCatalogSearchViewer{#ecatalogsearchviewer}
 
-Referencia de la API de JavaScript para SearchViewer de catálogos electrónicos.
+Referencia de la API de JavaScript para el visor de búsqueda de catálogos electrónicos.
 
 [!DNL `eCatalogSearchViewer([config])`]
 
-Constructor, crea una nueva instancia del visor de búsqueda de catálogos electrónicos.
+Constructor, crea una nueva instancia de visor de búsqueda en el catálogo electrónico.
 
 ## Parámetros {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
@@ -29,12 +30,12 @@ Constructor, crea una nueva instancia del visor de búsqueda de catálogos elect
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> config  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> El objeto de configuración JSON  </span> opcional {Object} permite que todos los ajustes del visor pasen al constructor y evita llamar a métodos de establecedor individuales. Contiene las siguientes propiedades: </p> <p> 
+   <td colname="col2"> <p> <span class="codeph"> {Object} objeto de configuración JSON  </span> opcional, permite que todos los ajustes del visor pasen al constructor y evite llamar a métodos de establecimiento individuales. Contiene las siguientes propiedades: </p> <p> 
      <ul id="ul_266C711E8E75471E90C15F39A96A142F"> 
-      <li id="li_71857BBD652243A094E936C2C8EA9702"> <p> <span class="codeph"> containerId  </span> -  <span class="codeph"> {String}  </span> ID del contenedor DOM (normalmente un  <span class="codeph"> DIV  </span>) en el que se inserta el visor. No es necesario que el elemento contenedor se cree antes de que se llame a este método. Sin embargo, el contenedor debe existir cuando se ejecuta <span class="codeph"> init() </span>. Obligatorio. </p> </li> 
-      <li id="li_3D28979F04274AC9B507B33D4275FC3A"> <p> <span class="codeph"> params  </span> -  <span class="codeph"> {Object} objeto  </span> JSON con parámetros de configuración del visor en el que el nombre de propiedad es una opción de configuración específica del visor o un modificador SDK, y el valor de esa propiedad es un valor de configuración correspondiente. Obligatorio. </p> </li> 
-      <li id="li_A40AC2167575415FB3383D070E27B9AB"> <p> <span class="codeph"> controladores  </span> -  <span class="codeph"> {Object} objeto  </span> JSON con rellamadas de evento del visor, donde el nombre de la propiedad es el nombre del evento del visor admitido y el valor de la propiedad es una referencia de función de JavaScript a una rellamada adecuada. Opcional. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-event-callbacks.md#concept-0bf5ff877043468db58ac62a92d002b6" format="dita" scope="local"> rellamadas de Evento </a> para obtener más información sobre los eventos del visor. </p> </li> 
-      <li id="li_FE5B330E98834CB08C16FCA694F31BE3"> <p> <span class="codeph"> localizedTexts  </span> - {  <span class="codeph"> Object  </span>} objeto JSON con datos de localización. Opcional. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74" format="dita" scope="local"> Localización de los elementos de la interfaz de usuario </a> para obtener más información. </p> <p>Consulte también la <i>Guía del usuario del SDK del visor</i> y el ejemplo para obtener más información sobre el contenido del objeto. </p> </li> 
+      <li id="li_71857BBD652243A094E936C2C8EA9702"> <p> <span class="codeph"> containerId  </span> -  <span class="codeph"> {String}  </span> ID del contenedor DOM (normalmente un  <span class="codeph"> DIV  </span>) en el que se inserta el visor. No es necesario tener el elemento contenedor creado para cuando se llama a este método. Sin embargo, el contenedor debe existir cuando se ejecuta <span class="codeph"> init() </span>. Obligatorio. </p> </li> 
+      <li id="li_3D28979F04274AC9B507B33D4275FC3A"> <p> <span class="codeph"> params  </span> -  <span class="codeph"> {Object} objeto  </span> JSON con parámetros de configuración del visor en los que el nombre de propiedad es una opción de configuración específica del visor o un modificador SDK, y el valor de esa propiedad es un valor de configuración correspondiente. Obligatorio. </p> </li> 
+      <li id="li_A40AC2167575415FB3383D070E27B9AB"> <p> <span class="codeph"> controladores  </span> : objeto  <span class="codeph"> {Object}  </span> JSON con llamadas de retorno de eventos del visor, donde el nombre de la propiedad es el nombre del evento del visor admitido y el valor de la propiedad es una referencia de función JavaScript a una llamada de retorno adecuada. Opcional. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-event-callbacks.md#concept-0bf5ff877043468db58ac62a92d002b6" format="dita" scope="local"> Llamadas de retorno de eventos </a> para obtener más información sobre los eventos del visor. </p> </li> 
+      <li id="li_FE5B330E98834CB08C16FCA694F31BE3"> <p> <span class="codeph"> localizedTexts  </span> - {  <span class="codeph"> Objeto  </span>} objeto JSON con datos de localización. Opcional. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74" format="dita" scope="local"> Localización de los elementos de la interfaz de usuario </a> para obtener más información. </p> <p>Consulte también la <i>Guía del usuario del SDK de visor</i> y el ejemplo para obtener más información sobre el contenido del objeto. </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
