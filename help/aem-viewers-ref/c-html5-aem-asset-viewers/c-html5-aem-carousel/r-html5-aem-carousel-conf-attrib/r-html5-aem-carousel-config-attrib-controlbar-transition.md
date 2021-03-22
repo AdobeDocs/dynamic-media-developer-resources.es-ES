@@ -4,12 +4,13 @@ seo-description: Atributo de configuración para el visor de carrusel.
 seo-title: ControlBar.transition
 solution: Experience Manager
 title: ControlBar.transition
-topic: Dynamic Media
 uuid: 80053511-f0e2-49f6-a1db-cd96c7788703
+feature: Dynamic Media Classic,Visores,SDK/API,Banners de carrusel
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '139'
 ht-degree: 3%
 
 ---
@@ -24,23 +25,23 @@ Atributo de configuración para el visor de carrusel.
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ninguno|fundido</span> </p> </td> 
-   <td colname="col2"> <p> Especifica el tipo de efecto que se utiliza para mostrar u ocultar la barra de control y su contenido. </p> <p>Se establece en <span class="codeph"> none</span> para mostrar/ocultar instantáneamente. </p> <p>Establezca <span class="codeph"> fundido</span> para proporcionar un efecto de fundido gradual de entrada y salida. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> none|fade</span> </p> </td> 
+   <td colname="col2"> <p> Especifica el tipo de efecto que se utiliza para mostrar u ocultar la barra de control y su contenido. </p> <p>Establézcalo en <span class="codeph"> none</span> para mostrar/ocultar instantáneamente. </p> <p>Configúrelo en <span class="codeph"> fundido</span> para proporcionar un efecto de atenuación gradual. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> delaytohide</span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica el tiempo en segundos que transcurre entre el último evento táctil o de ratón registrado por la barra de control y la barra de control de tiempo que se oculta. </p> <p>Si se establece en <span class="codeph"> -1</span>, el componente nunca déclencheur su efecto de ocultación automática y, por lo tanto, siempre permanece visible en la pantalla. </p> </td> 
+   <td colname="col2"> <p> Especifica el tiempo en segundos entre el último evento de mouse/contacto registrado por la barra de control y la barra de control de tiempo oculta. </p> <p>Si se establece en <span class="codeph"> -1</span> el componente nunca déclencheur su efecto de ocultación automática y, por lo tanto, siempre permanece visible en la pantalla. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> duración</span></span> </p> </td> 
-   <td colname="col2"> <p> Define la duración de la animación de entrada y salida de fundido en segundos. </p> </td> 
+   <td colname="col2"> <p> Establece la duración de la animación de entrada/salida de fundido en segundos. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Propiedades {#section-1e637b22e8a44d759d588e47576891e6}
 
-Opcional. Este comando se ignora en los dispositivos táctiles en los que la barra de control está desactivada.
+Opcional. Este comando se ignora en los dispositivos táctiles en los que está deshabilitada la ocultación automática de la barra de control.
 
 ## Predeterminado {#section-71fb773f814649b2885aefee68073641}
 
