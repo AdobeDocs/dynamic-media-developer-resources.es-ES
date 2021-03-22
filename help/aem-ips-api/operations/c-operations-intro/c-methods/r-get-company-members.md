@@ -1,23 +1,24 @@
 ---
-description: Devuelve los usuarios de una compañía especificada por un identificador de compañía.
-seo-description: Devuelve los usuarios de una compañía especificada por un identificador de compañía.
+description: Devuelve los usuarios de una empresa especificada por el identificador de una empresa.
+seo-description: Devuelve los usuarios de una empresa especificada por el identificador de una empresa.
 seo-title: getCompanyMembers
 solution: Experience Manager
 title: getCompanyMembers
-topic: Dynamic Media Image Production System API
 uuid: 45e2d040-a70a-46f4-863a-633ddabcbcf6
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 15%
+source-wordcount: '108'
+ht-degree: 14%
 
 ---
 
 
 # getCompanyMembers{#getcompanymembers}
 
-Devuelve los usuarios de una compañía especificada por un identificador de compañía.
+Devuelve los usuarios de una empresa especificada por el identificador de una empresa.
 
 Sintaxis
 
@@ -34,18 +35,18 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía cuyos miembros desea obtener. |
-| `*`includeInvalid`*` | `xsd:boolean` | Sí | Incluir compañías no válidas. |
+| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa cuyos miembros desea obtener. |
+| `*`includeInvalid`*` | `xsd:boolean` | Sí | Incluir empresas no válidas. |
 
 **Salida (getCompanyMembersReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`miembroArray`*` | `types:CompanyMemberArray` | Sí | Matriz de pertenencias de usuario. |
+| `*`memberArray`*` | `types:CompanyMemberArray` | Sí | Matriz de miembros de usuario. |
 
 ## Ejemplos {#section-39d8cf3653fd4fe8b842caabac9dedfc}
 
-Este ejemplo de código devuelve todos los miembros de una compañía en una matriz de usuario. La respuesta se ha truncado para la brevedad.
+Este ejemplo de código devuelve todos los miembros de una empresa en una matriz de usuario. La respuesta se ha truncado para su brevedad.
 
 **Solicitar**
 
