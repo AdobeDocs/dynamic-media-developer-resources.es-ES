@@ -1,15 +1,16 @@
 ---
-description: Tamaño de miniatura predeterminado. Se utiliza en lugar del atributo DefaultPix para solicitudes de miniatura (req=tmb).
-seo-description: Tamaño de miniatura predeterminado. Se utiliza en lugar del atributo DefaultPix para solicitudes de miniatura (req=tmb).
+description: Tamaño de miniatura predeterminado. Se utiliza en lugar del atributo DefaultPix para solicitudes de miniaturas (req=tmb).
+seo-description: Tamaño de miniatura predeterminado. Se utiliza en lugar del atributo DefaultPix para solicitudes de miniaturas (req=tmb).
 seo-title: DefaultThumbPix
 solution: Experience Manager
 title: DefaultThumbPix
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7b310aab-6d38-45f3-a3e7-b074a8e7a795
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '132'
 ht-degree: 3%
 
 ---
@@ -17,19 +18,19 @@ ht-degree: 3%
 
 # DefaultThumbPix{#defaultthumbpix}
 
-Tamaño de miniatura predeterminado. Se utiliza en lugar de attribute::DefaultPix para solicitudes de miniatura (req=tmb).
+Tamaño de miniatura predeterminado. Se utiliza en lugar del atributo::DefaultPix para solicitudes de miniatura (req=tmb).
 
-El servidor restringe las imágenes de respuesta para que no sean mayores que este ancho y alto, si una solicitud de miniatura ( `req=tmb`) no especifica el tamaño de vista explícitamente utilizando `wid=`, `hei=` o `scl=`.
+El servidor restringe el tamaño de las imágenes de respuesta para que no superen esta anchura y altura si una solicitud de miniatura ( `req=tmb`) no especifica el tamaño de vista de forma explícita mediante `wid=`, `hei=` o `scl=`.
 
 ## Propiedades {#section-650d9b1194fb4c47a03c6809e6b4af0e}
 
-Dos números enteros, 0 o más, separados por coma. Anchura y altura en píxeles. Puede que uno o ambos valores estén establecidos en 0 para mantenerlos sin restricciones.
+Dos números enteros, 0 o más grandes, separados por coma. Anchura y altura en píxeles. Puede que ambos valores estén establecidos en 0 para mantenerlos sin restricciones.
 
-No se aplica a solicitudes anidadas o incrustadas.
+No se aplica a solicitudes anidadas/incrustadas.
 
 ## Predeterminado {#section-2c4a4f14540449638822913513170ff1}
 
-Se hereda de `default::DefaultThumbPix` si no está definida o si está vacía.
+Se hereda de `default::DefaultThumbPix` si no está definido o si está vacío.
 
 ## Véase también {#section-4ad00963ffa049fcb17ad63e6bbe7ac4}
 
