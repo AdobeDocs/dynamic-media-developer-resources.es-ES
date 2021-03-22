@@ -1,23 +1,24 @@
 ---
-description: Atributo de configuración para el visor de vídeo interactivo.
-seo-description: Atributo de configuración para el visor de vídeo interactivo.
+description: Atributo de configuración para el visualizador de vídeo interactivo.
+seo-description: Atributo de configuración para el visualizador de vídeo interactivo.
 seo-title: CallToAction.align
 solution: Experience Manager
 title: CallToAction.align
-topic: Dynamic Media
 uuid: 87852fcc-026f-4a1d-b4a4-3ce532872b85
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 4%
+source-wordcount: '102'
+ht-degree: 3%
 
 ---
 
 
 # CallToAction.align{#calltoaction-align}
 
-Atributo de configuración para el visor de vídeo interactivo.
+Atributo de configuración para el visualizador de vídeo interactivo.
 
 `[CallToAction.|<containerId>_callToAction.]align=left|center|right`
 
@@ -25,7 +26,7 @@ Atributo de configuración para el visor de vídeo interactivo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> left|center|right</span> </p> </td> 
-   <td colname="col2"> <p> Especifica la alineación horizontal interna (o anclaje) del contenedor de miniaturas dentro del área del componente. </p> <p>En la llamada a la acción, el contenedor de miniaturas internas tiene un tamaño de tamaño tal que solo se muestra un número entero de miniaturas. Como resultado, hay cierto margen entre el contenedor interno y los límites del componente externo. </p> <p>Este modificador especifica cómo se coloca el contenedor de miniaturas internas horizontalmente dentro del componente. </p> </td> 
+   <td colname="col2"> <p> Especifica la alineación horizontal interna (o anclaje) del contenedor de miniaturas dentro del área del componente. </p> <p>En la llamada a la acción, el contenedor de miniaturas interno tiene su tamaño, de modo que solo se muestre un número entero de miniaturas. Como resultado, hay un margen entre el contenedor interno y los límites del componente externo. </p> <p>Este modificador especifica cómo se coloca horizontalmente el contenedor de miniaturas internas dentro del componente. </p> </td> 
   </tr> 
  </tbody> 
 </table>
