@@ -4,12 +4,13 @@ seo-description: Define el mapa de imagen de un recurso.
 seo-title: setImageMaps
 solution: Experience Manager
 title: setImageMaps
-topic: Dynamic Media Image Production System API
 uuid: 1dd7e032-34b4-464d-8ec6-7ad282d12891
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '148'
 ht-degree: 10%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 10%
 
 Define el mapa de imagen de un recurso.
 
-Debe haber creado ya los mapas de imagen. Los mapas de imagen se aplican en orden de recuperación desde la matriz. Esto significa que el segundo mapa de imagen se superpone al primero, al tercero, al segundo, etc.
+Ya debe haber creado los mapas de imágenes. Los mapas de imágenes se aplican en orden de recuperación desde la matriz. Esto significa que el segundo mapa de imagen superpone el primero, el tercero superpone el segundo, etc.
 
 ## Tipos de usuarios autorizados {#section-adb21c5b679249939dd83816e4a0ee97}
 
@@ -36,19 +37,19 @@ Debe haber creado ya los mapas de imagen. Los mapas de imagen se aplican en orde
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de compañía. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la empresa. |
 | `*`assetHandle`*` | `xsd:string` | Sí | Identificador de recurso. |
-| `*`imageMapArray`*` | `types:ImageMapDefinitionArray` | Sí | Matriz de mapas de imagen predefinidos. |
+| `*`imageMapArray`*` | `types:ImageMapDefinitionArray` | Sí | Matriz de mapas de imágenes predefinidos. |
 
 **Salida (setImageMapsReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`imageMapHandleArray`*` | `types:HandleArray` | Sí | Matriz con controles de mapa de imagen aplicados al recurso. |
+| `*`imageMapHandleArray`*` | `types:HandleArray` | Sí | Matriz con controladores de mapa de imagen aplicados al recurso. |
 
 ## Ejemplos {#section-fe2e35662a6a4ee29cf250c9fd180371}
 
-Este ejemplo de código establece 2 mapas de imagen para un recurso de imagen. El código especifica el tipo de forma, la región y la acción que se realiza cuando se invocan los mapas de imagen. La respuesta contiene una matriz con controladores para los mapas de imagen.
+Este ejemplo de código establece 2 mapas de imagen para un recurso de imagen. El código especifica el tipo de forma, la región y la acción que se realizan cuando se invocan los mapas de imagen. La respuesta contiene una matriz con identificadores para los mapas de imágenes.
 
 **Solicitar**
 
