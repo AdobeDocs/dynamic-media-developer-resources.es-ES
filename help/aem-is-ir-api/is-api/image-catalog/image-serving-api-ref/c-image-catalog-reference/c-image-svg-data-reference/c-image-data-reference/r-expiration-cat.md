@@ -2,12 +2,13 @@
 description: Vencimiento
 solution: Experience Manager
 title: Vencimiento
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5c9e5f76-c65f-4193-adf7-fb635fc5a071
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '270'
 ht-degree: 2%
 
 ---
@@ -15,11 +16,11 @@ ht-degree: 2%
 
 # Caducidad{#expiration}
 
-Se utiliza para administrar el almacenamiento en caché de cliente y servidor proxy. El servidor calcula la fecha y hora de caducidad de los datos de respuesta HTTP agregando este valor a la hora y la fecha de transmisión.
+Se utiliza para administrar el almacenamiento en caché del cliente y del servidor proxy. El servidor calcula la fecha y hora de caducidad de los datos de respuesta HTTP añadiendo este valor a la hora y la fecha de transmisión.
 
-Los navegadores administran las memorias caché utilizando los tiempos de caducidad de los archivos. Antes de pasar una solicitud al servidor, el explorador comprueba su caché para ver si el archivo ya se ha descargado. Si es así, y si el archivo aún no ha caducado, el explorador envía una solicitud de GET condicional (por ejemplo, con el campo If-Modified-Since establecido en el encabezado de la solicitud) en lugar de una solicitud de GET normal. El servidor tiene la opción de responder con el estado &#39;304&#39; y no transmitir la imagen. A continuación, el explorador carga el archivo desde su caché. Esto puede aumentar sustancialmente el rendimiento general de los datos a los que se accede con frecuencia.
+Los navegadores administran las cachés mediante tiempos de caducidad de los archivos. Antes de pasar una solicitud al servidor, el explorador comprueba su caché para ver si el archivo ya se ha descargado. Si es así, y si el archivo aún no ha caducado, el explorador envía una solicitud de GET condicional (por ejemplo, con el campo If-Modified-Since establecido en el encabezado de la solicitud) en lugar de una solicitud de GET normal. El servidor tiene la opción de responder con un estado &quot;304&quot; y no transmitir la imagen. A continuación, el explorador carga el archivo desde su caché. Esto puede aumentar sustancialmente el rendimiento general de los datos a los que se accede con frecuencia.
 
-Se utiliza la caducidad para estos tipos de respuesta:
+La caducidad se utiliza para estos tipos de respuesta:
 
 * `req=img`
 * `req=mask`
@@ -27,11 +28,11 @@ Se utiliza la caducidad para estos tipos de respuesta:
 * `req=userdata`
 * `req=map`
 
-Ciertos tipos de respuestas (por ejemplo, respuestas de error) siempre se marcan para su caducidad inmediata (o se etiquetan como no se pueden almacenar en caché), mientras que otros (por ejemplo, respuestas de propiedades o imágenes predeterminadas) utilizan una configuración de caducidad especial ( `attribute::NonImgExpiration` y `attribute::DefaultExpiration`).
+Ciertos tipos de respuestas (por ejemplo, respuestas de error) siempre se marcan para su caducidad inmediata (o se etiquetan como no almacenables en caché), mientras que otros (por ejemplo, respuestas de imagen predeterminadas o propiedades) utilizan una configuración de caducidad especial ( `attribute::NonImgExpiration` y `attribute::DefaultExpiration`).
 
 ## Propiedades {#section-7f5173d090cf48df8fa1a2c72b8c8c60}
 
-Número real, -2, -1, o 0 o bueno. Número de horas hasta la caducidad desde que se generó la imagen de respuesta. Establezca el valor 0 para que la imagen de respuesta caduque siempre inmediatamente, lo que deshabilita el almacenamiento en caché del cliente. Establezca en -1 para marcar como *`never expire`*. En este caso, el servidor siempre devuelve el estado 304 (no modificado) en respuesta a solicitudes de GET condicionales sin comprobar si el archivo ha cambiado realmente. Establezca en -2 para utilizar el valor predeterminado proporcionado por `attribute::Expiration`.
+Número real, -2, -1, 0 o bueno. Número de horas hasta la caducidad desde que se generó la imagen de respuesta. Establézcalo en 0 para que siempre caduque la imagen de respuesta inmediatamente, lo que deshabilita efectivamente el almacenamiento en caché del cliente. Configúrelo en -1 para marcar como *`never expire`*. En este caso, el servidor siempre devuelve el estado 304 (no modificado) como respuesta a las solicitudes de GET condicionales sin comprobar si el archivo ha cambiado realmente. Configúrelo en -2 para utilizar el valor predeterminado proporcionado por `attribute::Expiration`.
 
 ## Predeterminado {#section-ec72cc1dfc5e4f278174d37da2e39462}
 
