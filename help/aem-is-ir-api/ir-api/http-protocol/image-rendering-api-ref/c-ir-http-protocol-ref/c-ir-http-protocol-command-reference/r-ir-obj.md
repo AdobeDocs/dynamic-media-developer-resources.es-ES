@@ -1,23 +1,24 @@
 ---
-description: Seleccione el objeto por nombre. Selecciona el grupo de viñetas especificado por su nombre y inicio un nuevo MSS.
-seo-description: Seleccione el objeto por nombre. Selecciona el grupo de viñetas especificado por su nombre y inicio un nuevo MSS.
+description: Seleccionar objeto por nombre. Selecciona el grupo de viñetas especificado por su nombre e inicia un nuevo MSS.
+seo-description: Seleccionar objeto por nombre. Selecciona el grupo de viñetas especificado por su nombre e inicia un nuevo MSS.
 seo-title: obj
 solution: Experience Manager
 title: obj
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2fede992-6759-45bd-b2f1-36e2c791d536
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 5%
+source-wordcount: '164'
+ht-degree: 4%
 
 ---
 
 
 # obj{#obj}
 
-Seleccione el objeto por nombre. Selecciona el grupo de viñetas especificado por su nombre y inicio un nuevo MSS.
+Seleccionar objeto por nombre. Selecciona el grupo de viñetas especificado por su nombre e inicia un nuevo MSS.
 
 ` obj= *`name`*`
 
@@ -28,13 +29,13 @@ Seleccione el objeto por nombre. Selecciona el grupo de viñetas especificado po
  </tr> 
 </table>
 
-Los subgrupos u objetos individuales pueden seleccionarse utilizando una ruta de grupo completa (es decir, especificando el nombre del grupo destinatario u objeto precedido por todos los grupos principales, separados por / (barras diagonales).
+Se pueden seleccionar subgrupos u objetos individuales utilizando una ruta de grupo completa (es decir, especificando el nombre del grupo u objeto de destino precedido por todos los grupos principales, separados por / (barras inclinadas).
 
 Si no se encuentra ningún grupo u objeto con el nombre especificado, se realiza la acción especificada en `attribute::OnObjFail`.
 
 ## Propiedades {#section-9463b36e8ff74c81a70c7c2b58927430}
 
-Selección, comando; delimitador MSS. La selección de objetos se mantiene hasta que se selecciona otro objeto, ya sea con `obj=` o `sel=`.
+Selección, comando; delimitador MSS. La selección de objetos es persistente hasta que se selecciona otro objeto, ya sea con `obj=` o `sel=`.
 
 Los nombres y las rutas de grupo/objeto no distinguen entre mayúsculas y minúsculas.
 
