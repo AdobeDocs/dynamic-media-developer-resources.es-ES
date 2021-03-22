@@ -1,15 +1,16 @@
 ---
-description: En el modo de zoom en línea, la vista principal consiste en la imagen estática, la imagen ampliada que se muestra en la vista flotante sobre la imagen estática y el mensaje de sugerencia que se muestra sobre la imagen estática.
-seo-description: En el modo de zoom en línea, la vista principal consiste en la imagen estática, la imagen ampliada que se muestra en la vista flotante sobre la imagen estática y el mensaje de sugerencia que se muestra sobre la imagen estática.
+description: En el modo de zoom en línea, la vista principal consiste en la imagen estática, la imagen ampliada mostrada en la vista flotante sobre la imagen estática y el mensaje de sugerencia mostrado sobre la imagen estática.
+seo-description: En el modo de zoom en línea, la vista principal consiste en la imagen estática, la imagen ampliada mostrada en la vista flotante sobre la imagen estática y el mensaje de sugerencia mostrado sobre la imagen estática.
 seo-title: Vista de zoom flotante
 solution: Experience Manager
 title: Vista de zoom flotante
-topic: Dynamic Media
 uuid: c4c94432-7b6f-40a8-ae5f-9423234f3656
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '292'
 ht-degree: 5%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 5%
 
 # Vista de zoom flotante{#flyout-zoom-view}
 
-En el modo de zoom en línea, la vista principal consiste en la imagen estática, la imagen ampliada que se muestra en la vista flotante sobre la imagen estática y el mensaje de sugerencia que se muestra sobre la imagen estática.
+En el modo de zoom en línea, la vista principal consiste en la imagen estática, la imagen ampliada mostrada en la vista flotante sobre la imagen estática y el mensaje de sugerencia mostrado sobre la imagen estática.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propiedades CSS del área del visor principal**
+**Propiedades CSS del área principal del visor**
 
 El aspecto de la vista principal se controla con el siguiente selector de clase CSS:
 
@@ -60,7 +61,7 @@ El aspecto del mensaje de sugerencia se controla con el siguiente selector de cl
 .s7mixedmediaviewer .s7flyoutzoomview .s7tip
 ```
 
-Es posible configurar el estilo de fuente, el aspecto del tamaño y el desplazamiento vertical mediante CSS. Sin embargo, la alineación horizontal se gestiona mediante la lógica del visor. No se admite su anulación mediante CSS con propiedades `left` o `right`.
+Es posible configurar el estilo de fuente, el aspecto del tamaño y el desplazamiento vertical mediante CSS. Sin embargo, la alineación horizontal la gestiona la lógica del visor. No se admite su anulación mediante CSS con propiedades `left` o `right`.
 
 **Propiedades CSS del mensaje de sugerencia**
 
@@ -82,7 +83,7 @@ Es posible configurar el estilo de fuente, el aspecto del tamaño y el desplazam
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> parte inferior </span> </p> </td> 
-   <td colname="col2"> <p> Desvío desde la parte inferior de la vista principal. </p> </td> 
+   <td colname="col2"> <p> Desplazamiento desde la parte inferior de la vista principal. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
@@ -109,7 +110,7 @@ Es posible configurar el estilo de fuente, el aspecto del tamaño y el desplazam
 
 El mensaje de sugerencia se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obtener más información.
 
-Ejemplo: para configurar un mensaje de punta semitransparente con una fuente Arial blanca de 12 píxeles, 50 píxeles se desplazan de la parte inferior de la vista principal, el relleno y un borde redondeado:
+Ejemplo: para configurar un mensaje de punta semitransparente con una fuente Arial blanca de 12 píxeles, 50 píxeles de desplazamiento desde la parte inferior de la vista principal, el relleno y un borde redondeado:
 
 ```
 .s7mixedmediaviewer .s7flyoutzoomview .s7tip { 
