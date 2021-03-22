@@ -1,15 +1,16 @@
 ---
-description: El indicador de conjunto es una serie de puntos procesados sobre las muestras principales cuando se utiliza un visor en un dispositivo táctil. Los puntos ayudan a los usuarios a navegar por las páginas de miniaturas cuando los botones de desplazamiento no están disponibles.
-seo-description: El indicador de conjunto es una serie de puntos procesados sobre las muestras principales cuando se utiliza un visor en un dispositivo táctil. Los puntos ayudan a los usuarios a navegar por las páginas de miniaturas cuando los botones de desplazamiento no están disponibles.
-seo-title: Establecer indicador
+description: El indicador de conjunto es una serie de puntos representados sobre las muestras principales cuando se utiliza un visor en un dispositivo táctil. Los puntos ayudan a los usuarios a navegar por las páginas de miniaturas cuando los botones de desplazamiento no están disponibles.
+seo-description: El indicador de conjunto es una serie de puntos representados sobre las muestras principales cuando se utiliza un visor en un dispositivo táctil. Los puntos ayudan a los usuarios a navegar por las páginas de miniaturas cuando los botones de desplazamiento no están disponibles.
+seo-title: Definir indicador
 solution: Experience Manager
-title: Establecer indicador
-topic: Dynamic Media
+title: Definir indicador
 uuid: e62fac7c-28b6-40bf-83cc-8bcfbaa0dfa3
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '309'
 ht-degree: 1%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 1%
 
 # Definir indicador{#set-indicator}
 
-El indicador de conjunto es una serie de puntos procesados sobre las muestras principales cuando se utiliza un visor en un dispositivo táctil. Los puntos ayudan a los usuarios a navegar por las páginas de miniaturas cuando los botones de desplazamiento no están disponibles.
+El indicador de conjunto es una serie de puntos representados sobre las muestras principales cuando se utiliza un visor en un dispositivo táctil. Los puntos ayudan a los usuarios a navegar por las páginas de miniaturas cuando los botones de desplazamiento no están disponibles.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propiedades CSS del indicador establecido**
+**Propiedades CSS del indicador de conjunto**
 
-El aspecto del contenedor del indicador establecido se controla con el siguiente selector de clase CSS:
+El aspecto del contenedor de indicador establecido se controla con el siguiente selector de clase CSS:
 
 ```
 .s7mixedmediaviewer .s7setindicator
@@ -44,7 +45,7 @@ El aspecto del contenedor del indicador establecido se controla con el siguiente
  </tbody> 
 </table>
 
-Ejemplo: para configurar el indicador de configuración con un fondo blanco:
+Ejemplo: para configurar un indicador de conjunto con un fondo blanco:
 
 ```
 .s7mixedmediaviewer .s7setindicator { 
@@ -66,11 +67,11 @@ El aspecto de un punto indicador de conjunto individual se controla con el selec
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Ancho del punto indicador establecido. </p> </td> 
+   <td colname="col2"> <p>Anchura del punto indicador definido. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Altura del punto indicador establecido. </p> </td> 
+   <td colname="col2"> <p>Altura del punto indicador definido. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
@@ -101,9 +102,9 @@ El aspecto de un punto indicador de conjunto individual se controla con el selec
 
 >[!NOTE]
 >
->El punto indicador de conjunto admite el selector de atributos `state`, que se puede utilizar para aplicar diferentes apariencias a distintos estados de miniaturas. En particular, `state="selected"` corresponde a la página actual de miniaturas, `state="unselected"` corresponde al estado de punto predeterminado.
+>El punto indicador definido es compatible con el selector de atributos `state`, que puede utilizarse para aplicar diferentes aspectos a diferentes estados de miniaturas. En concreto, `state="selected"` corresponde a la página actual de miniaturas, `state="unselected"` corresponde al estado de punto predeterminado.
 
-Ejemplo: para configurar un punto indicador definido de 15 x 15 píxeles, con dos píxeles de margen horizontal, cinco píxeles de margen superior, un píxel de margen inferior, doce píxeles de radio, #D5D3D3 color predeterminado y #939393 color activo:
+Ejemplo: para configurar el punto indicador definido para que sea de 15 x 15 píxeles, con dos píxeles de margen horizontal, cinco píxeles de margen superior, un píxel de margen inferior, doce píxeles de radio, #D5D3D3 de color predeterminado y #939393 de color activo:
 
 ```
 .s7mixedmediaviewer .s7setindicator .s7dot { 
