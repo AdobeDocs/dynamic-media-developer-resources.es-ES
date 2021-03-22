@@ -4,13 +4,14 @@ seo-description: URL para el visor de carrusel.
 seo-title: preloadimage**
 solution: Experience Manager
 title: preloadimage**
-topic: Dynamic Media
 uuid: e0910559-d6f1-41d4-b1ed-76114c16d929
+feature: Dynamic Media Classic,Visores,SDK/API,Banners de carrusel
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 15%
+source-wordcount: '44'
+ht-degree: 11%
 
 ---
 
@@ -25,7 +26,7 @@ URL para el visor de carrusel.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Habilite (<span class="codeph"> 1</span>) o deshabilite (<span class="codeph"> 0</span>) la función de precarga de imagen. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-preload-image.md" format="dita" scope="local"> Precargar imagen</a>. </p> </td> 
+   <td colname="col2"> <p> Habilite (<span class="codeph"> 1</span>) o deshabilite (<span class="codeph"> 0</span>) la función de imagen de precarga. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-preload-image.md" format="dita" scope="local"> Preload image</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
