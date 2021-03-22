@@ -1,15 +1,16 @@
 ---
-description: La barra de control principal es el área rectangular de los sistemas de escritorio y las tabletas que contienen todos los controles de interfaz de usuario (excepto los botones de página grande) disponibles para el visor de búsqueda en catálogos electrónicos.
-seo-description: La barra de control principal es el área rectangular de los sistemas de escritorio y las tabletas que contienen todos los controles de interfaz de usuario (excepto los botones de página grande) disponibles para el visor de búsqueda en catálogos electrónicos.
+description: La barra de control principal es el área rectangular de los sistemas de escritorio y las tabletas que contienen todos los controles de interfaz de usuario (excepto los botones de Página grande) disponibles para el visor de búsqueda en el catálogo electrónico.
+seo-description: La barra de control principal es el área rectangular de los sistemas de escritorio y las tabletas que contienen todos los controles de interfaz de usuario (excepto los botones de Página grande) disponibles para el visor de búsqueda en el catálogo electrónico.
 seo-title: Barra de control principal
 solution: Experience Manager
 title: Barra de control principal
-topic: Dynamic Media
 uuid: 21b6e6cd-115f-4c7b-a61e-34b307142045
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '702'
 ht-degree: 1%
 
 ---
@@ -17,9 +18,9 @@ ht-degree: 1%
 
 # Barra de control principal{#main-control-bar}
 
-La barra de control principal es el área rectangular de los sistemas de escritorio y las tabletas que contienen todos los controles de interfaz de usuario (excepto los botones de página grande) disponibles para el visor de búsqueda en catálogos electrónicos.
+La barra de control principal es el área rectangular de los sistemas de escritorio y las tabletas que contienen todos los controles de interfaz de usuario (excepto los botones de Página grande) disponibles para el visor de búsqueda en el catálogo electrónico.
 
-En los teléfonos móviles, aún conserva los botones Miniaturas, Tabla de contenido, Descargar, Imprimir, Favoritos, Compartir en redes sociales, Pantalla completa y Cerrar. Sin embargo, los botones Primera página y Última página y el indicador de página se eliminan de la barra de control principal y se agregan a la barra de control secundaria en su lugar. De forma predeterminada, la barra de control principal se muestra en la parte superior del área del visor en sistemas de escritorio y teléfonos móviles, y se mueve a la parte inferior del área del visor en tabletas. Siempre se necesita toda la anchura del visor disponible. Es posible cambiar el color, la altura y la posición vertical en el CSS en relación con el contenedor del visor.
+En los teléfonos móviles, mantiene las miniaturas, la tabla de contenido, la descarga, la impresión, los favoritos, el uso compartido en medios sociales, la pantalla completa y los botones Cerrar. Sin embargo, los botones Primera página y Última página y el indicador de página se eliminan de la barra de control principal y se agregan a la barra de control secundaria en su lugar. De forma predeterminada, la barra de control principal se muestra en la parte superior del área del visor en sistemas de escritorio y teléfonos móviles, y se mueve a la parte inferior del área del visor en tabletas. Siempre toma toda la anchura del visor disponible. Es posible cambiar su color, altura y posición vertical en el CSS, en relación con el contenedor del visor.
 
 El aspecto de la barra de control principal se controla con el siguiente selector de clase CSS:
 
@@ -52,7 +53,7 @@ El aspecto de la barra de control principal se controla con el siguiente selecto
  </tbody> 
 </table>
 
-**Ejemplo** : para configurar una barra de control principal gris de 36 píxeles de alto y situada en la parte superior del contenedor del visor.
+**Ejemplo** : para configurar una barra de control principal gris de 36 píxeles de altura y situada en la parte superior del contenedor de visor.
 
 ```
 .s7ecatalogsearchviewer .s7controlbar { 
@@ -62,9 +63,9 @@ El aspecto de la barra de control principal se controla con el siguiente selecto
 }
 ```
 
-La barra de control principal admite una función de desplazamiento opcional. Se activa si la anchura del visor es demasiado pequeña y no hay espacio suficiente para ajustar todos los botones preestablecidos en la barra de control. En este caso, aparece un botón de flecha con dos estados en el lado derecho de la barra de control. Al tocar o hacer clic en este botón, se desplazan todos los elementos de la barra de control a la izquierda o a la derecha, según el estado del botón de desplazamiento. El caso de uso principal de esta función son los dispositivos móviles con pantallas pequeñas en orientación vertical.
+La barra de control principal admite una función de desplazamiento opcional. Se activa si la anchura del visor es demasiado pequeña y no hay suficiente espacio para ajustar todos los botones preestablecidos en la barra de control. En este caso, aparece un botón de flecha de dos estados en el lado derecho de la barra de control. Al pulsar o hacer clic en este botón, se desplazan todos los elementos de la barra de control a la izquierda o a la derecha, según el estado del botón de desplazamiento. El caso de uso principal de esta función son los dispositivos móviles con pantallas pequeñas en orientación vertical.
 
-La función de desplazamiento está activada para la barra de control principal y está desactivada para la barra de control secundaria. La función se activa y desactiva con el siguiente selector de clase CSS:
+La función de desplazamiento está habilitada para la barra de control principal y deshabilitada para la barra de control secundaria. La función está activada y desactivada con el siguiente selector de clase CSS:
 
 `.s7ecatalogsearchviewer .s7controlbar .s7innercontrolbarcontainer`
 
@@ -78,14 +79,14 @@ La función de desplazamiento está activada para la barra de control principal 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> position </span> </p> </td> 
-   <td colname="col2"> <p>Cuando se establece en <span class="codeph"> estática </span>, la función de desplazamiento se desactiva. </p> <p>Establezca esta propiedad en <span class="codeph"> absoluto </span> para habilitar la función de desplazamiento. </p> </td> 
+   <td colname="col2"> <p>Cuando se establece en <span class="codeph"> estático </span>, la función de desplazamiento se desactiva. </p> <p>Establezca esta propiedad en <span class="codeph"> absoluto </span> para habilitar la función de desplazamiento. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-El botón de desplazamiento se agrega a un elemento de contenedor especial que coloca el botón correctamente y le permite aplicar un estilo al área alrededor del botón distinto del resto del fondo de la barra de control en caso de que la altura del botón de desplazamiento sea menor que la altura de la barra de control.
+El botón de desplazamiento se agrega a un elemento contenedor especial que coloca el botón correctamente y le permite aplicar un estilo al área alrededor del botón de forma diferente al resto del fondo de la barra de control en caso de que la altura del botón de desplazamiento sea menor que la altura de la barra de control.
 
-El aspecto de este contenedor de botón de desplazamiento se controla con el siguiente selector de clase CSS:
+El aspecto de este contenedor de botones de desplazamiento se controla con el siguiente selector de clase CSS:
 
 `.s7ecatalogsearchviewer .s7controlbar .s7scrollbuttoncontainer`
 
@@ -99,7 +100,7 @@ El aspecto de este contenedor de botón de desplazamiento se controla con el sig
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Normalmente debe ser igual o mayor que el ancho del propio botón de desplazamiento. </p> </td> 
+   <td colname="col2"> <p>Normalmente debe ser igual o mayor que la anchura del propio botón de desplazamiento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
@@ -124,30 +125,30 @@ El aspecto de este botón se controla con el siguiente selector de clase CSS:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
-   <td colname="col2"> <p>Ancho del botón. </p> </td> 
+   <td colname="col2"> <p>Anchura del botón. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altura del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
    <td colname="col2"> <p>Imagen que se muestra para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p>Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
+   <td colname="col2"> <p>Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Este botón admite los selectores de atributos `state` y `selected`, que pueden utilizarse para aplicar diferentes apariencias a diferentes estados de botón. En particular, `state="selected"` corresponde al estado del botón de desplazamiento inicial cuando es posible desplazar el contenido de la barra de control hacia la izquierda; `state="default"` corresponde al estado cuando el contenido se desplaza hasta la izquierda y el botón de desplazamiento sugiere devolverlo al estado inicial.
+>Este botón admite los selectores de atributos `state` y `selected`, que pueden utilizarse para aplicar diferentes aspectos a diferentes estados de botones. En concreto, `state="selected"` corresponde al estado del botón de desplazamiento inicial cuando es posible desplazar el contenido de la barra de control hacia la izquierda; `state="default"` corresponde al estado en el que el contenido se desplaza hasta la izquierda y el botón de desplazamiento sugiere que vuelva al estado inicial.
 
-La información de objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
+La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
-**Ejemplo** : para habilitar la función de desplazamiento en la barra de control principal para teléfonos móviles, y configurar un botón de desplazamiento de 64 x 64 píxeles que muestre una imagen diferente para cada uno de los 4 estados de botón diferentes cuando se seleccione o no:
+**Ejemplo** : para habilitar la función de desplazamiento en la barra de control principal para teléfonos móviles, configure un botón de desplazamiento de 64 x 64 píxeles que muestre una imagen diferente para cada uno de los 4 estados de botón diferentes cuando esté seleccionado o no seleccionado:
 
 ```
 .s7ecatalogsearchviewer.s7size_small .s7controlbar .s7innercontrolbarcontainer { 
