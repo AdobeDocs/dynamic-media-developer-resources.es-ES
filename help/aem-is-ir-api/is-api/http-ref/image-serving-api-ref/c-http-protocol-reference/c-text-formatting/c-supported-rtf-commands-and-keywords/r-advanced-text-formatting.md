@@ -4,12 +4,13 @@ seo-description: Utilice los siguientes comandos para aplicar formato de texto a
 seo-title: Formato de texto avanzado
 solution: Experience Manager
 title: Formato de texto avanzado
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 340166a5-5aef-4081-9114-a715cde68891
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '256'
 ht-degree: 1%
 
 ---
@@ -40,38 +41,38 @@ Utilice los siguientes comandos para aplicar formato de texto avanzado.
   </tr> 
   <tr> 
    <td> <span class="codeph"> \kerning  <span class="varname"> N  </span> </span> </td> 
-   <td> <p>Deshabilitar/habilitar en el tamaño de fuente especificado. </p> </td> 
-   <td> <p>Tamaño de fuente en puntos medios, por encima de los cuales aplicar interletraje; 0 para desactivar el interletraje; el valor predeterminado es 1 para interletraje de todos los tamaños de fuente sobre ½ punto. </p> </td> 
+   <td> <p>Deshabilite/habilite en un tamaño de fuente especificado. </p> </td> 
+   <td> <p>Tamaño de fuente en puntos medios, por encima de los cuales aplicar interletraje; 0 para desactivar el interletraje; el valor predeterminado es 1 para interletraje de todos los tamaños de fuente en un punto y medio. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \kerningóptico  </span> </td> 
-   <td> <p>Seleccione interletraje óptico. </p> </td> 
+   <td> <p>Seleccione el interletraje óptico. </p> </td> 
    <td> <p> <span class="codeph"> textPs=  </span> solamente. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \kerningmetric  </span> </td> 
-   <td> <p>Seleccione el interletraje de métricas. </p> </td> 
+   <td> <p>Seleccione el interletraje de métrica. </p> </td> 
    <td> <p>Predeterminado. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \expnd  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Modificar el espaciado de caracteres. </p> </td> 
-   <td> <p>Puntos de trimestre positivos o negativos; el valor predeterminado es 0. </p> </td> 
+   <td> <p>los cuartos de trimestre positivos o negativos; el valor predeterminado es 0. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \expndtw  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Modificar el espaciado de caracteres. </p> </td> 
-   <td> <p>twips positivos o negativos. </p> </td> 
+   <td> <p>Giros positivos o negativos. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \charscalex  <span class="varname"> N  </span> </span> </td> 
-   <td> <p>Escala horizontal de caracteres. </p> </td> 
+   <td> <span class="codeph"> \charescalex  <span class="varname"> N  </span> </span> </td> 
+   <td> <p>Escalado horizontal de caracteres. </p> </td> 
    <td> <p>Porcentaje positivo o negativo; el valor predeterminado es 100. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \charscaley  <span class="varname"> N  </span> </span> </td> 
-   <td> <p>Escala vertical de caracteres. </p> </td> 
-   <td> <p>Porcentaje positivo o negativo; el valor predeterminado es 100; Extensión de Dynamic Media. </p> <p> <span class="codeph"> \charscaley  </span> también escala el interlineado cuando se aplica con  <span class="codeph"> text=  </span>. <span class="codeph"> textPs=  </span> siempre conserva el interlineado independientemente de la cantidad de escalado vertical de caracteres. </p> </td> 
+   <td> <span class="codeph"> \charescaley  <span class="varname"> N  </span> </span> </td> 
+   <td> <p>Escalado vertical de caracteres. </p> </td> 
+   <td> <p>Porcentaje positivo o negativo; el valor predeterminado es 100; Extensión de Dynamic Media. </p> <p> <span class="codeph"> \charescaley  </span> también escala el interlineado cuando se aplica con  <span class="codeph"> text=  </span>. <span class="codeph"> textPs=  </span> siempre conserva el interlineado independientemente de la cantidad de escala vertical de caracteres. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \ltrch  </span> </td> 
@@ -81,11 +82,11 @@ Utilice los siguientes comandos para aplicar formato de texto avanzado.
   <tr> 
    <td> <span class="codeph"> \rtlch  </span> </td> 
    <td> <p>Seleccione el flujo de caracteres de derecha a izquierda. </p> </td> 
-   <td> <p> <span class="codeph"> text=  </span> solamente. </p> </td> 
+   <td> <p> <span class="codeph"> text=  </span> only. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \copyfit  <span class="varname"> N  </span> </span> </td> 
-   <td> <p>Habilite el ajuste de copia y defina el tamaño de fuente permitido más grande. </p> </td> 
+   <td> <p>Habilite el ajuste de copia y establezca el tamaño de fuente permitido más grande. </p> </td> 
    <td> <p>Tamaño de fuente en puntos medios; <span class="codeph"> textPs= </span> solamente; Extensión de Dynamic Media. </p> </td> 
   </tr> 
   <tr> 
@@ -101,7 +102,7 @@ Utilice los siguientes comandos para aplicar formato de texto avanzado.
   <tr> 
    <td> <span class="codeph"> \baselinedir  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Orientación de caracteres. </p> </td> 
-   <td> <p> <span class="codeph"> textPs=  </span> only; ignorado para fuentes no romanas; se ignora cuando  <span class="codeph"> \stextflow1 no  </span> está en efecto. </p> <p>0 vertical (predeterminado). </p> <p>1 girado 90 grados en el sentido de las agujas del reloj. </p> </td> 
+   <td> <p> <span class="codeph"> textPs=  </span> only; ignorado para fuentes no romanas; ignorado cuando  <span class="codeph"> \stextflow1 no  </span> está en efecto. </p> <p>0 vertical (predeterminado). </p> <p>1 giró 90 grados en el sentido de las agujas del reloj. </p> </td> 
   </tr> 
  </tbody> 
 </table>
