@@ -2,12 +2,13 @@
 description: Tipos de datos
 solution: Experience Manager
 title: Tipos de datos
-topic: Dynamic Media Image Production System API
 uuid: 49e99f49-5bab-460f-a5f4-c966027b77fe
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '233'
 ht-degree: 4%
 
 ---
@@ -33,7 +34,7 @@ ht-degree: 4%
 + [AssetMoveArray](r-asset-move-array.md)
 + [AssetOperationFault](r-asset-operation-fault.md)
 + [AssetOperationFaultArray](r-asset-operation-fault-array.md)
-+ [AssetPublishContext](r-asset-publish-context.md)
++ [AssetPublishContexts](r-asset-publish-context.md)
 + [AssetPublishContextArray](r-asset-publish-context-array.md)
 + [AssetSetInfo](r-asset-set-info.md)
 + [AssetSummary](r-asset-summary.md)
@@ -45,7 +46,7 @@ ht-degree: 4%
 + [AutoTransparentCropOptions](r-auto-transparent-crop-options.md)
 + [BatchMetadataUpdate](r-batch-metadata-update.md)
 + [BatchMetadataUpdateArray](r-batch-metadata-update-array.md)
-+ [InformaciónDeGabinete](r-cabinet-info.md)
++ [Información del gabinete](r-cabinet-info.md)
 + [ColorManagementOptions](r-color-management-options.md)
 + [Compañía](r-company.md)
 + [CompanyArray](r-company-array.md)
@@ -57,15 +58,15 @@ ht-degree: 4%
 + [CompanyMembershipUpdateArray](r-company-membership-update-array.md)
 + [CompanyMetadataInfo](r-company-metadata-info.md)
 + [CompanyMetadataInfoArray](r-company-metadata-info-array.md)
-+ [CompanySettings](r-company-settings.md)
-+ [ConfigSetting](r-config-setting.md)
++ [Configuración de la empresa](r-company-settings.md)
++ [Configuración](r-config-setting.md)
 + [ConfigSettingArray](r-config-settings-array.md)
 + [ContextStateUpdate](r-context-state-update.md)
 + [ContextStateUpdateArray](r-context-state-update-array.md)
 + [CreateVideoSitemapJob](r-create-video-sitemap-job.md)
 + [CssInfo](r-cssinfo.md)
 + [CuePointInfo](r-cue-point-info.md)
-+ [DiskUsage](r-disk-usage.md)
++ [Uso del disco](r-disk-usage.md)
 + [DiskUsageArray](r-disk-usage-array.md)
 + [EmailConfirmation](r-email-confirmation.md)
 + [EmailArray](r-email-array.md)
@@ -131,7 +132,7 @@ ht-degree: 4%
 + [MetadataConditionArray](r-metadata-condition-array.md)
 + [MetadataDelete](r-metadata-delete.md)
 + [MetadataDeleteArray](r-metadata-delete-array.md)
-+ [Campo de metadatos](r-metadata-field.md)
++ [MetadataField](r-metadata-field.md)
 + [MetadataFieldArray](r-metadata-field-array.md)
 + [MetadataPublishJobType](r-metadata-publish-job-type.md)
 + [MetadataUpdate](r-metadata-update.md)
@@ -142,16 +143,16 @@ ht-degree: 4%
 + [OperationFaultArray](r-operation-fault-array.md)
 + [OptimizeImagesJob](r-optimize-images-job.md)
 + [PdfInfo](r-pdf-info.md)
-+ [PDFOoptions](r-pdf-options.md)
++ [PDFOptions](r-pdf-options.md)
 + [PdfSettingsInfo](r-pdf-settings-info.md)
 + [Permiso](r-permissions.md)
 + [PermissionArray](r-permission-array.md)
-+ [PermissonSet](r-permission-set.md)
++ [Conjunto de permisos](r-permission-set.md)
 + [PermissionSetArray](r-permission-set-array.md)
-+ [PermissionUpdate](r-permission-update.md)
++ [PermimissionUpdate](r-permission-update.md)
 + [PermissionUpdateArray](r-permission-update-array.md)
 + [PerspectiveQuad](r-perspective-quad.md)
-+ [PhotoshopOptions](r-photoshop-options.md)
++ [Opciones de Photoshop](r-photoshop-options.md)
 + [PhotoshopLayerOptions](r-photoshop-layer-options.md)
 + [PostScriptInfo](r-post-script-info.md)
 + [PostScriptOptions](r-post-script-options.md)
@@ -168,14 +169,14 @@ ht-degree: 4%
 + [PsdInfo](r-psd-info.md)
 + [PublishContext](r-publish-context.md)
 + [PublishContextArray](r-publish-context-array.md)
-+ [PublishHistory](r-publish-history.md)
++ [Historial de publicaciones](r-publish-history.md)
 + [PublishHistoryArray](r-publish-history-array.md)
 + [PublishStateUpdate](r-publish-state-update.md)
 + [PublishStateUpdateArray](r-publish-state-update-array.md)
 + [RenderSceneInfo](r-render-scene-info.md)
 + [ReprocessAssetsJob](r-reprocess-assets-job.md)
 + [RipPdfsJob](r-rip-pdfs-job.md)
-+ [RTFInfo](r-rtf-info.md)
++ [Información de RTFI](r-rtf-info.md)
 + [ScheduledJob](r-scheduled-job.md)
 + [ScheduledJobArray](r-scheduled-job-array.md)
 + [SearchFilter](r-search-filter.md)
@@ -206,8 +207,8 @@ ht-degree: 4%
 + [ThumbAssetUpdate](r-thumb-asset-update.md)
 + [ThumbAssetUpdateArray](r-thumb-asset-update-array.md)
 + [ThumbnailOptions](r-thumbnail-options.md)
-+ [DescompressOptions](r-uncompress-options.md)
-+ [UnsharpMaskOptions](r-unsharp-mask-options.md)
++ [Cancelar compresiónOpciones](r-uncompress-options.md)
++ [Opciones de máscara de enfoque](r-unsharp-mask-options.md)
 + [UploadDirectoryJob](r-upload-directory-job.md)
 + [UploadPostJob](r-upload-post-job.md)
 + [UploadUrl](r-upload-url.md)
