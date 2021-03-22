@@ -1,15 +1,16 @@
 ---
-description: Comprueba los conflictos de ID de IPS comparando los nombres de los recursos con todos los nombres de la Área de nombres del catálogo de servicio de imágenes/procesamiento de imágenes de una compañía.
-seo-description: Comprueba los conflictos de ID de IPS comparando los nombres de los recursos con todos los nombres de la Área de nombres del catálogo de servicio de imágenes/procesamiento de imágenes de una compañía.
+description: Comprueba los conflictos de ID de IPS comparando los nombres de los recursos con todos los nombres del espacio de nombres del catálogo de servicio de imágenes/representación de imágenes de una empresa.
+seo-description: Comprueba los conflictos de ID de IPS comparando los nombres de los recursos con todos los nombres del espacio de nombres del catálogo de servicio de imágenes/representación de imágenes de una empresa.
 seo-title: checkAssetNames
 solution: Experience Manager
 title: checkAssetNames
-topic: Dynamic Media Image Production System API
 uuid: 91d073a8-7648-429b-aa5c-c7d595550299
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '144'
 ht-degree: 10%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 10%
 
 # checkAssetNames{#checkassetnames}
 
-Comprueba los conflictos de ID de IPS comparando los nombres de los recursos con todos los nombres de la Área de nombres del catálogo de servicio de imágenes/procesamiento de imágenes de una compañía.
+Comprueba los conflictos de ID de IPS comparando los nombres de los recursos con todos los nombres del espacio de nombres del catálogo de servicio de imágenes/representación de imágenes de una empresa.
 
 Sintaxis
 
@@ -38,7 +39,7 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | No | Identificador de la compañía que contiene al usuario. |
+| `*`companyHandle`*` | `xsd:string` | No | El identificador de la empresa que contiene el usuario. |
 | `*`assetNamesArray`*` | `types:StringArray` | Sí | Matriz de nombres de recursos para comprobar. |
 
 **Salida (checkAssetNamesReturn)**
@@ -49,7 +50,7 @@ Sintaxis
 
 ## Ejemplos {#section-bc5d120d74614a63a425ca3acc337219}
 
-Este código de ejemplo solicita los nombres de los recursos que se utilizan para una compañía específica. La respuesta devuelve una matriz de nombres de recursos que están en uso.
+Este código de ejemplo solicita los nombres de recurso que se están utilizando para una empresa específica. La respuesta devuelve una matriz de nombres de recursos que están en uso.
 
 **Solicitar**
 
