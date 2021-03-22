@@ -4,13 +4,14 @@ seo-description: Propiedades del archivo PostScript.
 seo-title: GenerationInfo
 solution: Experience Manager
 title: GenerationInfo
-topic: Dynamic Media Image Production System API
 uuid: 166637e5-b981-4f64-8d92-5fce4f1b20d2
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 13%
+source-wordcount: '60'
+ht-degree: 11%
 
 ---
 
@@ -26,7 +27,7 @@ Sintaxis
 | Nombre | Tipo | Descripción |
 |---|---|---|
 | `*`motor`*` | `xsd:string` | Motor de generación utilizado (consulte &quot;Información de generación&quot; para conocer los valores). |
-| `*`originador`*` | `types:Asset` | Registro de recursos del recurso principal utilizado en la generación. |
+| `*`originator`*` | `types:Asset` | Registro de recursos del recurso principal utilizado en la generación. |
 | `*`generado`*` | `types:Asset` | Registro de recursos del recurso generado. |
 | `*`attributeArray`*` | `types:GenerationAttributeArray` | Matriz de atributos asociados al proceso de generación. |
 
