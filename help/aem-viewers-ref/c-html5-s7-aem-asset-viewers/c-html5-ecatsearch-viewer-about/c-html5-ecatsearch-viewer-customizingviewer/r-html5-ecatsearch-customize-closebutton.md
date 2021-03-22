@@ -1,15 +1,16 @@
 ---
-description: Al tocar o hacer clic en este botón, se cierra la página web que lo contiene. Este botón solo aparece si el parámetro closeButton está establecido en 1. Este botón no está disponible en sistemas de escritorio. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
-seo-description: Al tocar o hacer clic en este botón, se cierra la página web que lo contiene. Este botón solo aparece si el parámetro closeButton está establecido en 1. Este botón no está disponible en sistemas de escritorio. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
+description: Al pulsar o hacer clic en este botón, se cierra la página web contenedora. Este botón solo aparece si el parámetro close button está establecido en 1. Este botón no está disponible en sistemas de escritorio. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
+seo-description: Al pulsar o hacer clic en este botón, se cierra la página web contenedora. Este botón solo aparece si el parámetro close button está establecido en 1. Este botón no está disponible en sistemas de escritorio. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
 seo-title: Botón Cerrar
 solution: Experience Manager
 title: Botón Cerrar
-topic: Dynamic Media
 uuid: 312325a8-e10d-4c9f-a008-18ab666fbdd2
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '318'
 ht-degree: 2%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 2%
 
 # Botón Cerrar{#close-button}
 
-Al tocar o hacer clic en este botón, se cierra la página web que lo contiene. Este botón solo aparece si el parámetro closeButton está establecido en 1. Este botón no está disponible en sistemas de escritorio. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
+Al pulsar o hacer clic en este botón, se cierra la página web contenedora. Este botón solo aparece si el parámetro close button está establecido en 1. Este botón no está disponible en sistemas de escritorio. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propiedades CSS del área del visor principal**
+**Propiedades CSS del área principal del visor**
 
 El aspecto del botón se controla con el siguiente selector de clase CSS:
 
@@ -53,30 +54,30 @@ El aspecto del botón se controla con el siguiente selector de clase CSS:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Ancho del botón. </p> </td> 
+   <td colname="col2"> <p>Anchura del botón. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Altura del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
    <td colname="col2"> <p>Imagen que se muestra para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
+   <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Este botón admite el selector de atributos `state`, que puede utilizar para aplicar diferentes apariencias a distintos estados de botones.
+>Este botón admite el selector de atributos `state`, que puede utilizar para aplicar diferentes aspectos a distintos estados de botones.
 
-La información de objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
+La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
-Ejemplo: para configurar un botón de cierre de 56 x 56 píxeles, situado 4 píxeles desde el borde superior y derecho de la barra de control principal y muestra una imagen diferente para cada uno de los cuatro estados de botón diferentes.
+Ejemplo: para configurar un botón de cierre de 56 x 56 píxeles, situado 4 píxeles desde el borde superior y derecho de la barra de control principal, y muestra una imagen diferente para cada uno de los cuatro estados de botón diferentes.
 
 ```
 .s7ecatalogsearchviewer .s7closebutton { 
