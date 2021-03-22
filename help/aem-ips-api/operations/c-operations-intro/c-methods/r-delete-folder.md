@@ -4,13 +4,14 @@ seo-description: Elimina una carpeta.
 seo-title: deleteFolder
 solution: Experience Manager
 title: deleteFolder
-topic: Dynamic Media Image Production System API
 uuid: 76af65fb-86ef-43e2-bfec-3682acf0afe6
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 11%
+source-wordcount: '107'
+ht-degree: 10%
 
 ---
 
@@ -40,16 +41,16 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía a la que pertenece la carpeta. |
-| `*`folderHandle`*` | `xsd:string` | Sí | Identificador de la carpeta que se va a eliminar. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la empresa a la que pertenece la carpeta. |
+| `*`folderHandle`*` | `xsd:string` | Sí | El identificador de la carpeta que se va a eliminar. |
 
 **Salida (deleteFolderParam)**
 
-La API de IPS no devuelve una respuesta para esta operación.
+La API IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-9d4617b322e8442d80e59be0f8714841}
 
-Este código de muestra elimina una carpeta de la raíz de la compañía. Requiere un identificador de carpeta, que debe obtener de otra operación.
+Este código de ejemplo elimina una carpeta de la raíz de la empresa. Requiere un identificador de carpeta, que debe obtener de otra operación.
 
 **Solicitar**
 
