@@ -2,13 +2,14 @@
 description: TableOfContents.maxitems
 solution: Experience Manager
 title: TableOfContents.maxitems
-topic: Dynamic Media
 uuid: 823a70b8-0f05-4b8a-8011-39f17c047018
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 6%
+source-wordcount: '70'
+ht-degree: 5%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> maxitems</span></span> </p> </td> 
-   <td> <p>El número máximo de elementos de la tabla de contenido desplegable. </p> <p>Además, puede reducir el número de elementos visibles en la lista desplegable en caso de que se recorte por el contenedor exterior. </p> <p>Cuando se establece en <span class="codeph"> 0</span>, ese componente muestra tantos elementos como sea posible, dado el contenedor al que se agrega. </p> </td> 
+   <td> <p>El número máximo de elementos de la tabla de contenido desplegable. </p> <p>Además, puede reducir el número de elementos visibles en la lista desplegable en caso de que el contenedor exterior los recorte. </p> <p>Cuando se establece en <span class="codeph"> 0</span>, ese componente muestra tantos elementos como sea posible dado el contenedor al que se agrega. </p> </td> 
   </tr> 
  </tbody> 
 </table>
