@@ -1,15 +1,16 @@
 ---
-description: Seleccione el objeto por ubicación de píxeles.
-seo-description: Seleccione el objeto por ubicación de píxeles.
+description: Seleccionar objeto por ubicación de píxeles.
+seo-description: Seleccionar objeto por ubicación de píxeles.
 seo-title: sel
 solution: Experience Manager
 title: sel
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2a679284-9da4-44b6-b495-8e1a47296e7c
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '196'
 ht-degree: 2%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 2%
 
 # sel{#sel}
 
-Seleccione el objeto por ubicación de píxeles.
+Seleccionar objeto por ubicación de píxeles.
 
 ` sel= *``*, *``*[, *`xylevel`*]`
 
@@ -32,15 +33,15 @@ Seleccione el objeto por ubicación de píxeles.
  </tr> 
 </table>
 
-Selecciona el grupo u objeto en las coordenadas de píxeles especificadas por *`x, y`* y inicio un nuevo MSS. Si no hay ningún objeto seleccionable en la ubicación de selección o si la ubicación de selección no es válida, se realiza la acción especificada por `attribute::OnFailSel`.
+Selecciona el grupo u objeto en las coordenadas de píxeles especificadas por *`x, y`* e inicia un nuevo MSS. Si no hay ningún objeto seleccionable en la ubicación de selección o si la ubicación de selección no es válida, se realiza la acción especificada por `attribute::OnFailSel`.
 
-*`level`* especifica si se selecciona el grupo más externo o se profundiza en un grupo u objeto anidado. Si no se especifica *`level`*, se selecciona el grupo más externo. Establezca en 1 para seleccionar un nivel de grupo por debajo del grupo externo. Establezca un número grande (como 99) para seleccionar el objeto o grupo más interno seleccionable.
+*`level`* especifica si se selecciona el grupo más externo o se profundiza en un grupo u objeto anidado. Si no se especifica *`level`*, se selecciona el grupo más externo. Configúrelo en 1 para seleccionar un nivel de grupo por debajo del grupo exterior. Establezca un número grande (como 99) para seleccionar el objeto o grupo más interior seleccionado.
 
 ## Propiedades {#section-8f27e84d88734a62a5e398e0c9972bdc}
 
-Selección, comando; delimitador MSS. La selección de objetos se mantiene hasta que se selecciona otro objeto, ya sea con `obj=` o `sel=`.
+Selección, comando; delimitador MSS. La selección de objetos es persistente hasta que se selecciona otro objeto, ya sea con `obj=` o `sel=`.
 
-*`x, y`* debe estar en el rango de 0, 0 (esquina superior izquierda de la imagen) a  *`wid`*-1,  *`hei`*-1 (esquina inferior derecha de la imagen), donde  *`wid`* y  *`hei`* es el tamaño de la vista de viñeta sin escalar.
+*`x, y`* debe estar en el rango 0, 0 (esquina superior izquierda de la imagen) a  *`wid`*-1,  *`hei`*-1 (esquina inferior derecha de la imagen), donde  *`wid`* y  *`hei`* es el tamaño de la vista de viñeta sin escalar.
 
 Si se especifica, *`level`* debe ser 0 o mayor.
 
