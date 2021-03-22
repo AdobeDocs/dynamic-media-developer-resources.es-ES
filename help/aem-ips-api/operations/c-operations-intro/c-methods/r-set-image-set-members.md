@@ -1,15 +1,16 @@
 ---
-description: Define la lista de los recursos asociados a un conjunto de imágenes.
-seo-description: Define la lista de los recursos asociados a un conjunto de imágenes.
+description: Define la lista de recursos asociados a un conjunto de imágenes.
+seo-description: Define la lista de recursos asociados a un conjunto de imágenes.
 seo-title: setImageSetMembers
 solution: Experience Manager
 title: setImageSetMembers
-topic: Dynamic Media Image Production System API
 uuid: 84a73ff4-e93f-4764-80e8-e15f1fec1aeb
+feature: Dynamic Media Classic,SDK/API,Conjuntos de imágenes
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '144'
 ht-degree: 11%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 11%
 
 # setImageSetMembers{#setimagesetmembers}
 
-Define la lista de los recursos asociados a un conjunto de imágenes.
+Define la lista de recursos asociados a un conjunto de imágenes.
 
 Esta operación ignora el parámetro `pageReset` para `ImageSets` y `SpinSets` y fuerza el valor a true.
 
@@ -52,16 +53,16 @@ Esta operación ignora el parámetro `pageReset` para `ImageSets` y `SpinSets` y
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sí </p> </td> 
-   <td colname="col4"> <p>Identificador de compañía. </p> </td> 
+   <td colname="col4"> <p>Identificador de la empresa. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> Identificador del conjunto de imágenes. </td> 
+   <td colname="col4"> Controlador del conjunto de imágenes. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> miembroArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:ImageSetMemberUpdateArray</span> </td> 
    <td colname="col3"> Sí </td> 
    <td colname="col4"> Matriz de miembros de recursos que pertenecen al conjunto de imágenes. </td> 
@@ -71,7 +72,7 @@ Esta operación ignora el parámetro `pageReset` para `ImageSets` y `SpinSets` y
 
 **Salida (setImageSetMembersReturn)**
 
-La API de IPS no devuelve una respuesta para esta operación.
+La API IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-7b87219034464aa98524178ccee27738}
 
