@@ -1,28 +1,29 @@
 ---
-description: Quita usuarios de una matriz de grupos.
-seo-description: Quita usuarios de una matriz de grupos.
+description: Elimina usuarios de una matriz de grupos.
+seo-description: Elimina usuarios de una matriz de grupos.
 seo-title: removeGroupMembership
 solution: Experience Manager
 title: removeGroupMembership
-topic: Dynamic Media Image Production System API
 uuid: 553d91a3-73d6-4323-9436-a3ba13260a6c
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 10%
+source-wordcount: '117'
+ht-degree: 9%
 
 ---
 
 
 # removeGroupMembership{#removegroupmembership}
 
-Quita usuarios de una matriz de grupos.
+Elimina usuarios de una matriz de grupos.
 
-**Diferencias entre comandos de eliminación**
+**Diferencias entre los comandos Quitar**
 
-* `removeGroupMembers`:: Quita varios usuarios de un grupo.
-* `removeGroupMembership`:: Quita un usuario individual de una matriz de grupos.
+* `removeGroupMembers`: Quita varios usuarios de un grupo.
+* `removeGroupMembership`: Quita un usuario individual de una matriz de grupos.
 
 ## Tipos de usuarios autorizados {#section-83f3048bbe5a4f62b7b14dc9efdd951a}
 
@@ -36,12 +37,12 @@ Quita usuarios de una matriz de grupos.
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | No | El identificador de la compañía cuya pertenencia a un grupo desea eliminar. |
-| `*`groupHandleArray`*` | `types:HandleArray` | Sí | Matriz de identificadores a grupos de los que desea eliminar la compañía. |
+| `*`userHandle`*` | `xsd:string` | No | El identificador de la empresa cuya pertenencia a grupo desea eliminar. |
+| `*`groupHandleArray`*` | `types:HandleArray` | Sí | Matriz de identificadores a grupos de los que desea eliminar la empresa. |
 
-**Output (removeGroupMembershipReturn)**
+**Salida (removeGroupMembershipReturn)**
 
-La API de IPS no devuelve una respuesta para esta operación.
+La API IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-f8d4181170a243efb9faf5824ae96197}
 
