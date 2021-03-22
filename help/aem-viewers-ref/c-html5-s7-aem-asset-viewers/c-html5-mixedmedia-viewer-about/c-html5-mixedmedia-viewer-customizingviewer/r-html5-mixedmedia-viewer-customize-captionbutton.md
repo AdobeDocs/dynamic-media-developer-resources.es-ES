@@ -1,15 +1,16 @@
 ---
-description: Activa o desactiva la visualización de subtítulos opcionales. No está visible si no se especifica el parámetro de rótulo. Puede utilizar CSS para cambiar el tamaño, el aspecto y la posición de este botón en relación con la barra de control que lo contiene.
-seo-description: Activa o desactiva la visualización de subtítulos opcionales. No está visible si no se especifica el parámetro de rótulo. Puede utilizar CSS para cambiar el tamaño, el aspecto y la posición de este botón en relación con la barra de control que lo contiene.
+description: Activa o desactiva la visualización de subtítulos. No está visible si no se especifica el parámetro del rótulo. Puede utilizar CSS para cambiar el tamaño, el aspecto y la posición de este botón en relación con la barra de control que lo contiene.
+seo-description: Activa o desactiva la visualización de subtítulos. No está visible si no se especifica el parámetro del rótulo. Puede utilizar CSS para cambiar el tamaño, el aspecto y la posición de este botón en relación con la barra de control que lo contiene.
 seo-title: Botón Rótulo
 solution: Experience Manager
 title: Botón Rótulo
-topic: Dynamic Media
 uuid: a03170e4-aaa9-4822-99dd-b9cf13206bbc
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '322'
 ht-degree: 2%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 2%
 
 # Botón Rótulo{#caption-button}
 
-Activa o desactiva la visualización de subtítulos opcionales. No está visible si no se especifica el parámetro de rótulo. Puede utilizar CSS para cambiar el tamaño, el aspecto y la posición de este botón en relación con la barra de control que lo contiene.
+Activa o desactiva la visualización de subtítulos. No está visible si no se especifica el parámetro del rótulo. Puede utilizar CSS para cambiar el tamaño, el aspecto y la posición de este botón en relación con la barra de control que lo contiene.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propiedades CSS del área del visor principal**
+**Propiedades CSS del área principal del visor**
 
 El aspecto del botón se controla con el siguiente selector de clase CSS:
 
@@ -55,30 +56,30 @@ El aspecto del botón se controla con el siguiente selector de clase CSS:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Ancho del botón. </p> </td> 
+   <td colname="col2"> <p>Anchura del botón. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Altura del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
    <td colname="col2"> <p>Imagen que se muestra para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
+   <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Este botón admite el selector de atributos `state` y los selectores de atributos seleccionados, que se pueden utilizar para aplicar diferentes apariencias a distintos estados de botones. En particular, `selected='true'` corresponde al estado cuando los rótulos están visibles y `selected='false'` se utiliza cuando los rótulos están ocultos.
+>Este botón admite el selector de atributos `state` y los selectores de atributos seleccionados, que pueden utilizarse para aplicar diferentes aspectos a distintos estados de botones. En concreto, `selected='true'` corresponde al estado cuando los subtítulos son visibles y `selected='false'` se utiliza cuando los subtítulos están ocultos.
 
-La información de objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obtener más información.
+La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obtener más información.
 
-Ejemplo: para configurar un botón de subtítulos opcionales de 28 x 28 píxeles, colocar cuatro píxeles desde la parte superior y 68 píxeles desde el borde derecho de la barra de control y mostrar una imagen diferente para cada uno de los cuatro estados de botones diferentes cuando se selecciona o no se selecciona.
+Ejemplo: para configurar un botón de subtítulos cerrados de 28 x 28 píxeles, colocado cuatro píxeles desde la parte superior y 68 píxeles desde el borde derecho de la barra de control, y muestra una imagen diferente para cada uno de los cuatro estados de botones diferentes cuando se seleccionan o no.
 
 ```
 .s7mixedmediaviewer .s7closedcaptionbutton { 
