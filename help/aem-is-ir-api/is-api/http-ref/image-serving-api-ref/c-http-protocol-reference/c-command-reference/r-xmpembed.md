@@ -1,15 +1,16 @@
 ---
-description: Incrustar metadatos de XMP. Especifica si se deben incluir XMP metadatos en la imagen de respuesta.
-seo-description: Incrustar metadatos de XMP. Especifica si se deben incluir XMP metadatos en la imagen de respuesta.
+description: Incrustar XMP metadatos. Especifica si XMP metadatos deben incluirse en la imagen de respuesta.
+seo-description: Incrustar XMP metadatos. Especifica si XMP metadatos deben incluirse en la imagen de respuesta.
 seo-title: xmpEmbed
 solution: Experience Manager
 title: xmpEmbed
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c0dfd0e5-16d1-4a6e-957a-ecc276b9361a
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '149'
 ht-degree: 2%
 
 ---
@@ -17,17 +18,17 @@ ht-degree: 2%
 
 # xmpEmbed{#xmpembed}
 
-Incrustar metadatos de XMP. Especifica si se deben incluir XMP metadatos en la imagen de respuesta.
+Incrustar XMP metadatos. Especifica si XMP metadatos deben incluirse en la imagen de respuesta.
 
 `xmpEmbed=0|1`
 
 >[!NOTE]
 >
->XMP datos se pasan de la imagen de origen a la imagen de respuesta sin ninguna modificación. Esto puede hacer que se incrusten datos incorrectos en la imagen de respuesta.
+>XMP datos se pasan de la imagen de origen a la imagen de respuesta sin modificación. Esto puede provocar que se incrusten datos incorrectos en la imagen de respuesta.
 
 ## Propiedades {#section-27024c4272f44d9a8c264a0629193af2}
 
-Solicitar atributo. Se omite si la imagen de origen no contiene datos de XMP. Sólo se procesan XMP datos de la imagen de origen de `layer=0`. XMP datos de otras imágenes de capa se omiten.
+Atributo de solicitud. Se omite si la imagen de origen no contiene datos XMP. Solo se procesan XMP datos de la imagen de origen de `layer=0`. XMP datos de otras imágenes de capa se ignoran.
 
 Se omite si el formato de imagen de salida no admite XMP incrustación. Consulte la descripción de `fmt=` para obtener una lista de los formatos de imagen de salida que admiten XMP incrustación.
 
