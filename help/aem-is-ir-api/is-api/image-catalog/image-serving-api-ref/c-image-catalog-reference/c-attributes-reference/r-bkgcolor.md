@@ -4,13 +4,14 @@ seo-description: Color de fondo predeterminado. Valor RGB utilizado para rellena
 seo-title: BkgColor
 solution: Experience Manager
 title: BkgColor
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 48f0c7d2-3a6c-4076-81f1-ad94f701c576
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 6%
+source-wordcount: '91'
+ht-degree: 5%
 
 ---
 
@@ -25,7 +26,7 @@ Color.
 
 ## Predeterminado {#section-9c2c5794b82a4ef89a09551f08d03dbc}
 
-Se hereda de `default::BkgColor` si no está definida o si está vacía.
+Se hereda de `default::BkgColor` si no está definido o si está vacío.
 
 ## Véase también {#section-90967e515a0d46bd8a9361fd49fc43cf}
 
