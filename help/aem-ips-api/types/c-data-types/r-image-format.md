@@ -1,23 +1,24 @@
 ---
-description: Conjunto de ajustes de salida de imagen con nombre no estructurado.
-seo-description: Conjunto de ajustes de salida de imagen con nombre no estructurado.
+description: Conjunto con nombre y sin estructurar de la configuración de salida de la imagen.
+seo-description: Conjunto con nombre y sin estructurar de la configuración de salida de la imagen.
 seo-title: ImageFormat
 solution: Experience Manager
 title: ImageFormat
-topic: Dynamic Media Image Production System API
 uuid: d3ad7058-781e-4b5b-84b5-7da6bcc77cd8
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 10%
+source-wordcount: '56'
+ht-degree: 8%
 
 ---
 
 
 # ImageFormat{#imageformat}
 
-Conjunto de ajustes de salida de imagen con nombre no estructurado.
+Conjunto con nombre y sin estructurar de la configuración de salida de la imagen.
 
 No es un tipo de recurso.
 
