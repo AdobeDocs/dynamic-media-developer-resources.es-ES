@@ -1,23 +1,24 @@
 ---
-description: Devuelve la configuración IPS de una compañía específica.
-seo-description: Devuelve la configuración IPS de una compañía específica.
+description: Devuelve la configuración IPS de una empresa específica.
+seo-description: Devuelve la configuración IPS de una empresa específica.
 seo-title: getCompanySettings
 solution: Experience Manager
 title: getCompanySettings
-topic: Dynamic Media Image Production System API
 uuid: 28ee706d-aaef-45a1-9655-3805f158cdc3
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 22%
+source-wordcount: '79'
+ht-degree: 20%
 
 ---
 
 
 # getCompanySettings{#getcompanysettings}
 
-Devuelve la configuración IPS de una compañía específica.
+Devuelve la configuración IPS de una empresa específica.
 
 Sintaxis
 
@@ -34,17 +35,17 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía cuya configuración desea recuperar. |
+| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa cuya configuración desea recuperar. |
 
 **Salida (getCompanySettingsReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`configuración`*` | `types:CompanySettings` | Sí | Configuración de compañía. |
+| `*`configuración`*` | `types:CompanySettings` | Sí | Configuración de la empresa. |
 
 ## Ejemplos {#section-191f78995ecf473a95eadf7296204fd7}
 
-Este ejemplo de código devuelve todos los ajustes IPS de una compañía específica.
+Este ejemplo de código devuelve todos los ajustes IPS de una empresa específica.
 
 **Solicitar**
 
