@@ -4,12 +4,13 @@ seo-description: Ruta raíz de datos de contenido estático. Ruta absoluta o seg
 seo-title: StaticContentRootPath
 solution: Experience Manager
 title: StaticContentRootPath
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f1c0a54c-8b2c-4953-a3b7-180d231840db
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '145'
 ht-degree: 2%
 
 ---
@@ -19,11 +20,11 @@ ht-degree: 2%
 
 Ruta raíz de datos de contenido estático. Ruta absoluta o segmento de ruta relativa para la carpeta raíz de los datos de contenido estático de este catálogo de imágenes.
 
-Consulte [Administración de datos de origen](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md#concept-1ec4d9f0e58a430cae045761f1ff9173) para obtener información adicional sobre las rutas de acceso raíz del servidor.
+Consulte [Administración de datos de origen](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md#concept-1ec4d9f0e58a430cae045761f1ff9173) para obtener información adicional sobre las rutas raíz del servidor.
 
 ## Propiedades {#section-f8e3986096294b36948d43aafdc3e795}
 
-Cadena de texto. Debe estar vacío, tener un segmento de ruta de acceso de archivo relativo válido o una ruta absoluta. No debe incluir delimitadores de elementos de ruta de acceso al inicio y al final.
+Cadena de texto. Debe estar vacío, tener un segmento de ruta de archivo relativo válido o una ruta de acceso absoluta. No debe incluir delimitadores de elementos de ruta inicial y final.
 
 ## Predeterminado {#section-0f741f90fd8d4758a43162c2b5c8a3a3}
 
