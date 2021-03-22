@@ -1,23 +1,24 @@
 ---
-description: Detalles de una entrada de registro de trabajos asociada a un recurso en particular. Datos devueltos por getAssetJobLogs.
-seo-description: Detalles de una entrada de registro de trabajos asociada a un recurso en particular. Datos devueltos por getAssetJobLogs.
+description: Los detalles de una entrada de registro de trabajos asociada a un recurso en particular. Datos devueltos por getAssetJobLogs.
+seo-description: Los detalles de una entrada de registro de trabajos asociada a un recurso en particular. Datos devueltos por getAssetJobLogs.
 seo-title: AssetJobLog
 solution: Experience Manager
 title: AssetJobLog
-topic: Dynamic Media Image Production System API
 uuid: 0dd65da1-f358-4d9a-98a2-abfb036347e3
+feature: Dynamic Media Classic,SDK/API,Administración de activos
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 15%
+source-wordcount: '131'
+ht-degree: 14%
 
 ---
 
 
 # AssetJobLog{#assetjoblog}
 
-Detalles de una entrada de registro de trabajos asociada a un recurso en particular. Datos devueltos por getAssetJobLogs.
+Los detalles de una entrada de registro de trabajos asociada a un recurso en particular. Datos devueltos por getAssetJobLogs.
 
 Sintaxis
 
@@ -45,7 +46,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> logMessage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Mensaje en el registro de trabajos. <p><span class="codeph"> El campo </span> logMessageResponse se localiza en función del campo  <span class="codeph"> </span> authHeaderlocale. </p></td> 
+   <td colname="col3">Mensaje en el registro de trabajos. <p><span class="codeph"> </span> El campo logMessageresponse está localizando en función del campo  <span class="codeph"> </span> authHeaderlocale . </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> logType</span> </span> </td> 
