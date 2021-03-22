@@ -1,15 +1,16 @@
 ---
-description: Cadena de anotación de catálogo. Cadena de texto que puede utilizarse para identificar la versión del catálogo, la fecha de publicación, etc.
-seo-description: Cadena de anotación de catálogo. Cadena de texto que puede utilizarse para identificar la versión del catálogo, la fecha de publicación, etc.
+description: Cadena de anotación del catálogo. Cadena de texto que se puede usar para identificar la versión del catálogo, la fecha de publicación, etc.
+seo-description: Cadena de anotación del catálogo. Cadena de texto que se puede usar para identificar la versión del catálogo, la fecha de publicación, etc.
 seo-title: PublishInfo
 solution: Experience Manager
 title: PublishInfo
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2bcd65b8-2f3e-4652-b346-a850900e8c7b
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '92'
 ht-degree: 4%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 4%
 
 # PublishInfo{#publishinfo}
 
-Cadena de anotación de catálogo. Cadena de texto que puede utilizarse para identificar la versión del catálogo, la fecha de publicación, etc.
+Cadena de anotación del catálogo. Cadena de texto que se puede usar para identificar la versión del catálogo, la fecha de publicación, etc.
 
 El contenido de este campo se devuelve con `req=catalogprops`. De lo contrario, este atributo no se utiliza.
 
@@ -27,7 +28,7 @@ Cadena de texto.
 
 ## Predeterminado {#section-82e5a885e142414f996c609efbb962b1}
 
-Se hereda de `default::PublishInfo` si no está definida o si está vacía.
+Se hereda de `default::PublishInfo` si no está definido o si está vacío.
 
 ## Véase también {#section-d61c31afb3dd4ae2abc6285db80c4f8a}
 
