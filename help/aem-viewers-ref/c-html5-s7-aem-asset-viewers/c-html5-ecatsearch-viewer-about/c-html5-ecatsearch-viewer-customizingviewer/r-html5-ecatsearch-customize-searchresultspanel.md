@@ -1,29 +1,30 @@
 ---
-description: El panel de resultados de búsqueda consta del cuadro de entrada de búsqueda en la parte superior y del área principal donde se muestran los mensajes informativos o los resultados de búsqueda.
-seo-description: El panel de resultados de búsqueda consta del cuadro de entrada de búsqueda en la parte superior y del área principal donde se muestran los mensajes informativos o los resultados de búsqueda.
-seo-title: Panel de resultados de búsqueda
+description: El panel de resultados de la búsqueda consta del cuadro de entrada de búsqueda en la parte superior y del área principal donde se muestran los mensajes informativos o los resultados de la búsqueda.
+seo-description: El panel de resultados de la búsqueda consta del cuadro de entrada de búsqueda en la parte superior y del área principal donde se muestran los mensajes informativos o los resultados de la búsqueda.
+seo-title: Panel de resultados de la búsqueda
 solution: Experience Manager
-title: Panel de resultados de búsqueda
-topic: Dynamic Media
+title: Panel de resultados de la búsqueda
 uuid: 43d8e003-79f7-4e41-98d7-b362ab7180ea
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '963'
 ht-degree: 2%
 
 ---
 
 
-# Panel de resultados de búsqueda{#search-results-panel}
+# Panel de resultados de la búsqueda{#search-results-panel}
 
-El panel de resultados de búsqueda consta del cuadro de entrada de búsqueda en la parte superior y del área principal donde se muestran los mensajes informativos o los resultados de búsqueda.
+El panel de resultados de la búsqueda consta del cuadro de entrada de búsqueda en la parte superior y del área principal donde se muestran los mensajes informativos o los resultados de la búsqueda.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propiedades CSS del área del visor principal**
+**Propiedades CSS del área principal del visor**
 
-Cuando el panel está activo, la interfaz de usuario del visor está cubierta por un relleno semitransparente. El color y la opacidad de este relleno se controlan con el siguiente selector de clase CSS:
+Cuando el panel está activo, la interfaz de usuario del visor se cubre con un relleno semitransparente. El color y la opacidad de este relleno se controlan con el siguiente selector de clase CSS:
 
 ```
 .s7ecatalogviewer .s7searchpanel .s7backoverlay
@@ -48,7 +49,7 @@ Cuando el panel está activo, la interfaz de usuario del visor está cubierta po
  </tbody> 
 </table>
 
-El panel de resultados de búsqueda siempre ocupa toda la altura del visor disponible. Sin embargo, puede configurar la anchura. Puede establecer la anchura en un valor de píxel absoluto, que es una configuración predeterminada para los puntos de interrupción de tamaño medio y grande. O bien, puede establecer la anchura en 100 % para que el panel de resultados de búsqueda ocupe toda el área del visor. El ancho del panel se controla mediante el siguiente selector de clase CSS:
+El panel de resultados de búsqueda siempre ocupa toda la altura disponible del visor. Sin embargo, puede configurar la anchura. Puede establecer la anchura en un valor de píxel absoluto, que es el valor predeterminado para los puntos de interrupción de tamaño medio y grande. O bien, puede establecer la anchura en 100 % para que el panel de resultados de búsqueda ocupe todo el área del visor. El ancho del panel se controla mediante el siguiente selector de clase CSS:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchresultspace
@@ -60,7 +61,7 @@ El panel de resultados de búsqueda siempre ocupa toda la altura del visor dispo
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> Ancho del espacio de resultados de búsqueda. </p> </td> 
+   <td colname="col2"> <p> Anchura del espacio de resultados de búsqueda. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -76,7 +77,7 @@ Ejemplo: para configurar un panel de resultados de búsqueda de 250 píxeles de 
 }
 ```
 
-La parte superior del panel de resultados de búsqueda está dedicada al cuadro de entrada de búsqueda. El relleno en los lados del cuadro de entrada está controlado por el siguiente selector de clase CSS:
+La parte superior del panel de resultados de búsqueda está dedicada al cuadro de entrada de búsqueda. El relleno de los lados del cuadro de entrada está controlado por el siguiente selector de clase CSS:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinputcontainer
@@ -88,7 +89,7 @@ La parte superior del panel de resultados de búsqueda está dedicada al cuadro 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> relleno </span> </p> </td> 
-   <td colname="col2"> <p> Relleno alrededor del cuadro de entrada. </p> </td> 
+   <td colname="col2"> <p> Relleno alrededor de la casilla de entrada. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -121,12 +122,12 @@ El campo de entrada de búsqueda está controlado por el siguiente selector de c
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
-   <td colname="col2"> <p>Tamaño de la fuente de texto. </p> </td> 
+   <td colname="col2"> <p>Tamaño de la fuente del texto. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ejemplo: para configurar un campo de entrada de búsqueda con una altura de 0 píxeles y una fuente de texto de 14 píxeles:
+Ejemplo: para configurar un campo de entrada de búsqueda con 0 píxeles de altura y 14 píxeles de fuente de texto:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinput { 
@@ -136,7 +137,7 @@ Ejemplo: para configurar un campo de entrada de búsqueda con una altura de 0 p�
 }
 ```
 
-El botón de búsqueda a la izquierda del campo de entrada de búsqueda en forma de &quot;cristal de aspecto&quot; de forma predeterminada está controlado por el siguiente selector de clase CSS:
+El botón de búsqueda situado a la izquierda del campo de entrada de búsqueda en forma de &quot;cristal de aspecto&quot; de forma predeterminada está controlado por el siguiente selector de clase CSS:
 
 ```
  .s7ecatalogsearchviewer .s7searchpanel .s7searchinputbutton
@@ -148,15 +149,15 @@ El botón de búsqueda a la izquierda del campo de entrada de búsqueda en forma
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
-   <td colname="col2"> <p>Ancho del botón de entrada de búsqueda. </p> </td> 
+   <td colname="col2"> <p>Anchura del botón de entrada de búsqueda. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altura del botón de entrada de búsqueda. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p>La dirección URL de la imagen del icono de "luce vidrio". </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
+   <td colname="col2"> <p>La URL de la imagen del icono "de cristal". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-size  </span> </p> </td> 
@@ -167,13 +168,13 @@ El botón de búsqueda a la izquierda del campo de entrada de búsqueda en forma
    <td colname="col2"> <p>Borde del botón de entrada de búsqueda. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margen  </span> </p> </td> 
    <td colname="col2"> <p>Margen del botón de entrada de búsqueda. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ejemplo: para configurar un botón de búsqueda con el icono de &quot;cristal&quot; de 26 x 26 píxeles; 30 píxeles de tamaño con un borde de 1 píxel:
+Ejemplo: para configurar un botón de búsqueda con el icono de &quot;cristal&quot; de 26 x 26 píxeles; 30 píxeles de tamaño con un borde de 1 píxeles:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinputbutton { 
@@ -186,7 +187,7 @@ Ejemplo: para configurar un botón de búsqueda con el icono de &quot;cristal&qu
 }
 ```
 
-El panel de resultados de búsqueda puede mostrar un mensaje de texto cuando se llama por primera vez a la función. También muestra un mensaje al usuario cuando su búsqueda no arrojó ningún resultado. En todos los casos, el texto aparece en la parte principal del panel de resultados de búsqueda y está controlado por el siguiente selector de clase CSS:
+El panel de resultados de la búsqueda puede mostrar un mensaje de texto cuando se llama por primera vez a la función . También muestra un mensaje al usuario cuando su búsqueda no arrojó ningún resultado. En todos los casos, el texto aparece en la parte principal del panel de resultados de búsqueda y está controlado por el siguiente selector de clase CSS:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinfo
@@ -210,14 +211,14 @@ El panel de resultados de búsqueda puede mostrar un mensaje de texto cuando se 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
-   <td colname="col2"> <p>Tamaño del texto de fuente. </p> </td> 
+   <td colname="col2"> <p>Tamaño del texto de la fuente. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Este panel de texto admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes estilos a distintos mensajes de texto. En particular, `state='prompt'` corresponde al mensaje de texto que se muestra cuando se llama al panel por primera vez; `state='results'` corresponde al texto con información sobre las visitas de búsqueda; y `state='no_results'` corresponde al texto mostrado cuando la consulta de búsqueda no arrojó ningún resultado.
+>Este panel de texto admite el selector de atributos `state`, que puede utilizarse para aplicar distintos estilos a distintos mensajes de texto. En concreto, `state='prompt'` corresponde al mensaje de texto que se muestra cuando se llama al panel por primera vez; `state='results'` corresponde al texto con información sobre las visitas de búsqueda; y `state='no_results'` corresponde al texto mostrado cuando la consulta de búsqueda no devolvió ningún resultado.
 
 El texto del mensaje se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
@@ -230,7 +231,7 @@ Ejemplo: para configurar un panel de texto que utilice una fuente gris de 18 pí
 }
 ```
 
-Los resultados de la búsqueda se representan como una sola columna o fila de miniaturas para las páginas con visitas de búsqueda. El espaciado entre las miniaturas de los resultados de búsqueda se controla con el siguiente selector de clase CSS:
+Los resultados de búsqueda se representan como una sola columna o como una sola fila de miniaturas para páginas con visitas de búsqueda. El espaciado entre las miniaturas de los resultados de búsqueda se controla con el siguiente selector de clase CSS:
 
 ```
 .ecatalogsearchviewer .s7searchpanel .s7swatches .s7thumbcell
@@ -241,8 +242,8 @@ Los resultados de la búsqueda se representan como una sola columna o fila de mi
 <table id="table_26974E509F6943BB98CBC1E4BAE62D68"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin  </span> </p> </td> 
-   <td colname="col2"> <p> Tamaño del margen vertical alrededor de cada miniatura. El espaciado de miniaturas real es igual a la suma de los márgenes superior e inferior definidos para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margen  </span> </p> </td> 
+   <td colname="col2"> <p> El tamaño del margen vertical alrededor de cada miniatura. El espaciado en miniatura real es igual a la suma de los márgenes superior e inferior establecidos para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -280,7 +281,7 @@ El aspecto de las miniaturas individuales se controla con el siguiente selector 
  </tbody> 
 </table>
 
-Ejemplo: para configurar miniaturas de 215 x 129 píxeles, tenga un borde predeterminado de color gris claro y un borde seleccionado de color gris oscuro:
+Ejemplo: para configurar miniaturas de 215 x 129 píxeles, tenga un borde predeterminado de gris claro y un borde seleccionado de gris oscuro:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7swatches .s7thumb { 
@@ -310,12 +311,12 @@ El aspecto de la etiqueta de miniatura se controla con el siguiente selector de 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
-   <td colname="col2"> <p>Tamaño de la fuente de texto. </p> </td> 
+   <td colname="col2"> <p>Tamaño de la fuente del texto. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ejemplo: para configurar etiquetas que utilicen fuentes Helvetica de 12 píxeles, gris:
+Ejemplo: para configurar etiquetas que utilicen fuentes Helvetica de 12 píxeles, grises:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7swatches .s7label { 
@@ -325,14 +326,14 @@ Ejemplo: para configurar etiquetas que utilicen fuentes Helvetica de 12 píxeles
 }
 ```
 
-En los sistemas que utilizan la entrada del ratón, aparecen dos botones de desplazamiento en la parte inferior del panel de resultados de búsqueda para que el usuario se desplace por los resultados de la búsqueda. El aspecto de los botones de desplazamiento hacia arriba y hacia abajo se controla con los siguientes selectores de clase CSS:
+En los sistemas que utilizan la entrada del ratón, aparecen dos botones de desplazamiento en la parte inferior del panel de resultados de la búsqueda para que un usuario se desplace por los resultados de la búsqueda. El aspecto de los botones de desplazamiento hacia arriba y hacia abajo está controlado con los siguientes selectores de clase CSS:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7scrollupbutton 
 .s7ecatalogsearchviewer .s7searchpanel .s7scrolldownbutton
 ```
 
-No es posible colocar botones de desplazamiento con las propiedades CSS top, left, bottom y right. En su lugar, la lógica del visor las coloca automáticamente.
+No es posible colocar botones de desplazamiento utilizando las propiedades CSS arriba, izquierda, abajo y derecha. En su lugar, la lógica del visor los coloca automáticamente.
 
 **Propiedades CSS de los botones de desplazamiento hacia arriba y hacia abajo**
 
@@ -340,30 +341,30 @@ No es posible colocar botones de desplazamiento con las propiedades CSS top, lef
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
-   <td colname="col2"> <p>Ancho del botón de desplazamiento. </p> </td> 
+   <td colname="col2"> <p>Anchura del botón de desplazamiento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altura del botón de desplazamiento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
    <td colname="col2"> <p> Imagen que se muestra para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
+   <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Este botón admite el selector de atributos `state`, que se puede utilizar para aplicar diferentes apariencias a los estados de los botones `"up"`, `"down"`, `"over"` y `"disabled"`.
+>Este botón admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes aspectos a los estados de botones `"up"`, `"down"`, `"over"` y `"disabled"`.
 
-La información del objeto de botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
+La información sobre herramientas de botones se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
-Ejemplo: para configurar un botón de desplazamiento hacia arriba de 125 x 35 píxeles y con una ilustración diferente para cada estado:
+Ejemplo: para configurar un botón de desplazamiento hacia arriba que tenga 125 x 35 píxeles y tenga distintas ilustraciones para cada estado:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7scrollupbutton { 
