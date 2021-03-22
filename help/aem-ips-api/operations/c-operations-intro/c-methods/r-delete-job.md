@@ -4,13 +4,14 @@ seo-description: Elimina un trabajo actual o programado.
 seo-title: deleteJob
 solution: Experience Manager
 title: deleteJob
-topic: Dynamic Media Image Production System API
 uuid: c1109cae-a3ca-40db-b641-9a6fc116c964
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 12%
+source-wordcount: '104'
+ht-degree: 11%
 
 ---
 
@@ -38,12 +39,12 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía a la que pertenece el trabajo. |
-| `*`jobHandle`*` | `xsd:string` | Sí | Identificador del trabajo que se va a eliminar. |
+| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa a la que pertenece el trabajo. |
+| `*`jobHandle`*` | `xsd:string` | Sí | El identificador del trabajo que se va a eliminar. |
 
 **Salida**
 
-La API de IPS no devuelve una respuesta para esta operación.
+La API IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-732d21d4dad04337b7a5ae1a0cc00eba}
 
