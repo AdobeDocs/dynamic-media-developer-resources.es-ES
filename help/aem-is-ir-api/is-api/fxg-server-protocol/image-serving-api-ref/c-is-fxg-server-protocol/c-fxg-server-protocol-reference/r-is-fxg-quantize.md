@@ -1,15 +1,16 @@
 ---
-description: Cuantificación de color. Especifica atributos de cuantificación de color para la conversión de salida GIF.
-seo-description: Cuantificación de color. Especifica atributos de cuantificación de color para la conversión de salida GIF.
+description: Cuantificación de color. Especifica atributos de cuantización de color para la conversión de salida GIF.
+seo-description: Cuantificación de color. Especifica atributos de cuantización de color para la conversión de salida GIF.
 seo-title: cuantificar
 solution: Experience Manager
 title: cuantificar
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 624cdc45-51f2-4b18-a658-311770974521
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '201'
 ht-degree: 1%
 
 ---
@@ -17,18 +18,18 @@ ht-degree: 1%
 
 # cuantificar{#quantize}
 
-Cuantificación de color. Especifica atributos de cuantificación de color para la conversión de salida GIF.
+Cuantificación de color. Especifica atributos de cuantización de color para la conversión de salida GIF.
 
 ` quantize= *``*[, *``*[, *``*[, *`typedithernumColorscolorList`*]]]`
 
 <table id="simpletable_6BF155FCB8224E7EBFC8D8375AD26A71"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> type </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> Tipo de  </span> paleta {adaptable|web|mac} </p> <p>Seleccione ' <span class="codeph"> web </span>' o ' <span class="codeph"> mac </span>' para elegir una paleta predefinida o establezca en ' <span class="codeph"> adaptable </span>' para calcular una paleta óptima para la imagen. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> Tipo de  </span> paleta {adaptive|web|mac} </p> <p>Seleccione ' <span class="codeph"> web </span>' o ' <span class="codeph"> mac </span>' para elegir una paleta predefinida o establezca en ' <span class="codeph"> adaptable </span>' para calcular una paleta óptima para la imagen. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> tramado  </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> Opciones de  </span> tramado de {difusión|apagado} </p> <p>Seleccione 'difuso' para la difusión de errores de Floyd-Steinberg o 'desactivado' para desactivar el tramado. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> dither  </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> Opciones de  </span> vaciado de {diffusible|desactivado} </p> <p>Seleccione "difused" para la difusión de errores de Floyd-Steinberg o "off" para desactivar el vaciado. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> numColors  </span> </span> </p> </td> 
@@ -36,7 +37,7 @@ Cuantificación de color. Especifica atributos de cuantificación de color para 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> colorList  </span> </span> </p> </td> 
-  <td class="stentry"> <p>Lista separada por comas de colores RGB forzados en formato hex6. Permite especificar colores forzados para incluirlos en una paleta adaptable <span class="codeph"> ' </span>'. Si el número de colores especificado es menor que <span class="codeph"> numColors </span>, los colores adicionales se calculan en función del contenido de la imagen. </p> <p>Solo se utiliza si <span class="codeph"> fmt=gif </span> o <span class="codeph"> fmt=gif-alpha </span>. Omitido de otro modo. Los colores especificados con <span class="codeph"> <span class="varname"> colorList </span> </span> deben ser valores RGB en formato hex6 (consulte <span class="codeph"> color </span>); no se permiten otros especificadores de color. </p> </td> 
+  <td class="stentry"> <p>Lista separada por comas de colores RGB forzados en formato hex6. Permite especificar los colores forzados que se deben incluir en una paleta ' <span class="codeph"> adaptable </span>'. Si el número de colores especificado es menor que <span class="codeph"> numColors </span>, los colores adicionales se calculan en función del contenido de la imagen. </p> <p>Solo se usa si <span class="codeph"> fmt=gif </span> o <span class="codeph"> fmt=gif-alpha </span>. En caso contrario, se ignorará. Los colores especificados con <span class="codeph"> <span class="varname"> colorList </span> </span> deben ser valores RGB en formato hex6 (consulte <span class="codeph"> color </span>); no se permiten otros especificadores de color. </p> </td> 
  </tr> 
 </table>
 
@@ -46,7 +47,7 @@ Cuantificación de color. Especifica atributos de cuantificación de color para 
 
 ## Ejemplo {#section-b3a979dc9ae3459baa093bf17310988f}
 
-Genere una miniatura GIF con la paleta &#39; `web`&#39; y sin tramado:
+Genere una miniatura GIF utilizando la paleta &#39; `web`&#39; y sin vaciado:
 
 [!DNL http://server/myRootId/myImageId?req=tmb&fmt=gif&quantize=web,off]
 
