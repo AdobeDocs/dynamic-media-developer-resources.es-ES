@@ -4,13 +4,14 @@ seo-description: Obtiene los campos de metadatos definidos por el usuario asocia
 seo-title: getMetadataFields
 solution: Experience Manager
 title: getMetadataFields
-topic: Dynamic Media Image Production System API
 uuid: bf891bae-53c8-4e3d-90df-caca9a7e022b
+feature: Dynamic Media Classic,SDK/API,Metadatos
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 14%
+source-wordcount: '113'
+ht-degree: 13%
 
 ---
 
@@ -37,7 +38,7 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de compañía. |
+| `*`companyHandle`*` | `xsd:string` | Sí | El control de la empresa. |
 | `*`assetType`*` | `xsd:string` | Sí | Tipos de recursos de los que obtener metadatos. |
 
 **Salida (getMetadataFieldsParam)**
@@ -48,7 +49,7 @@ Sintaxis
 
 ## Ejemplos {#section-dbfde1483d614b5aac2b491cb32115d7}
 
-Este ejemplo de código devuelve recursos de metadatos para el tipo y la compañía especificados. La respuesta contiene una matriz de campos de metadatos en una matriz de campos. No todos los recursos tienen los mismos metadatos. El usuario de IPS define el campo de metadatos del recurso.
+Este ejemplo de código devuelve recursos de metadatos para el tipo y la empresa especificados. La respuesta contiene una matriz de campos de metadatos en una matriz de campos. No todos los recursos tienen los mismos metadatos. El usuario de IPS define el campo de metadatos del recurso.
 
 **Solicitar**
 
