@@ -1,23 +1,24 @@
 ---
-description: Color de fondo. Especifica el color sustractivo de las texturas y calcomanías coloreables.
-seo-description: Color de fondo. Especifica el color sustractivo de las texturas y calcomanías coloreables.
+description: Color de fondo. Especifica el color de sustracción para texturas y calcomanías que se pueden colorear.
+seo-description: Color de fondo. Especifica el color de sustracción para texturas y calcomanías que se pueden colorear.
 seo-title: bgc
 solution: Experience Manager
 title: bgc
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 551a0da8-dd1f-484a-bf7e-f4896370340a
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 7%
+source-wordcount: '177'
+ht-degree: 6%
 
 ---
 
 
 # bgc{#bgc}
 
-Color de fondo. Especifica el color sustractivo de las texturas y calcomanías coloreables.
+Color de fondo. Especifica el color de sustracción para texturas y calcomanías que se pueden colorear.
 
 `bgc= *[!DNL color]*`
 
@@ -28,15 +29,15 @@ Color de fondo. Especifica el color sustractivo de las texturas y calcomanías c
  </tr> 
 </table>
 
-El algoritmo de colorización de textura del procesamiento de imágenes es bastante sencillo: los valores de los componentes `bgc=` se restan de los píxeles de textura, `color=` se agrega y, finalmente, el resultado se recorta a `0,0,0` y `255,255,255`.
+El algoritmo de colorización de textura del renderizado de imágenes es bastante sencillo: los valores de componentes de `bgc=` se restan de los píxeles de textura, se añade `color=` y finalmente el resultado se recorta a `0,0,0` y `255,255,255`.
 
-Para usos típicos de la colorización de texturas, el valor de `bgc=` puede ser el color más importante o dominante de la imagen de textura. La creación de imágenes de Dynamic Media proporciona herramientas semiautomáticas que extraen valores de color razonables `bgc=` de las imágenes de texturas.
+Para usos típicos de la colorización de textura, el valor de `bgc=` puede ser el color más importante o dominante de la imagen de textura. La creación de imágenes de Dynamic Media proporciona herramientas semiautomáticas que extraen valores de color `bgc=` razonables de las imágenes de texturas.
 
 Cuando se aplica un material de textura a un objeto de viñeta no texturable, `bgc=` se aplica como color de primer plano si no se especifica `color=`.
 
 ## Propiedades {#section-b2db6f147d7f443ba9f671de04c2ef19}
 
-Atributo Material. Se ignora con materiales de color sólido y de gabinete.
+Atributo de material. Ignorado por materiales de color sólido y de gabinete.
 
 ## Predeterminado {#section-de10ef5985ee4ae1ba56d14ba8512b81}
 
@@ -44,7 +45,7 @@ Atributo Material. Se ignora con materiales de color sólido y de gabinete.
 
 ## Ejemplo {#section-bf5f0f296bc448ed9d5a84afabcf81e6}
 
-Colorear una tela de vestir cuya textura tenga el color RGB dominante 120,34,193:
+Colorice una tela de indumentaria cuya textura tenga el color RGB dominante 120,34,193:
 
 `…&src=fabrics/d213.jpg&res=40&bgc=120,34,193&color=140,95,100&…`
 
