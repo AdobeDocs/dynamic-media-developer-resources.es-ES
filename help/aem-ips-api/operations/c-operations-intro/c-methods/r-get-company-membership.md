@@ -1,23 +1,24 @@
 ---
-description: Obtiene la pertenencia de un usuario a una matriz de compañías.
-seo-description: Obtiene la pertenencia de un usuario a una matriz de compañías.
+description: Obtiene las suscripciones de un usuario en una matriz de empresas.
+seo-description: Obtiene las suscripciones de un usuario en una matriz de empresas.
 seo-title: getCompanyMembership
 solution: Experience Manager
 title: getCompanyMembership
-topic: Dynamic Media Image Production System API
 uuid: fb3dfe29-4292-4ab2-8015-36c4930a9c05
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 16%
+source-wordcount: '97'
+ht-degree: 15%
 
 ---
 
 
 # getCompanyMembership{#getcompanymembership}
 
-Obtiene la pertenencia de un usuario a una matriz de compañías.
+Obtiene las suscripciones de un usuario en una matriz de empresas.
 
 Sintaxis
 
@@ -40,17 +41,17 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | No | Identificador del usuario cuyas membresías desea obtener. |
+| `*`userHandle`*` | `xsd:string` | No | El identificador del usuario cuyas suscripciones desea obtener. |
 
-**Output (getCompanyMembershipReturn)**
+**Salida (getCompanyMembershipReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`membershipArray`*` | `types:CompanyMembershipArray` | Sí | Matriz de membresías de compañía. |
+| `*`membershipArray`*` | `types:CompanyMembershipArray` | Sí | Matriz de miembros de la empresa. |
 
 ## Ejemplos {#section-e4958d104ea344a4a79f57d07b46eba7}
 
-Este ejemplo de código toma un control de usuario y obtiene todos los miembros de compañía del usuario en una matriz. La respuesta se ha truncado para la brevedad.
+Este ejemplo de código toma un identificador de usuario y obtiene todas las suscripciones a la empresa del usuario en una matriz. La respuesta se ha truncado para su brevedad.
 
 **Solicitar**
 
