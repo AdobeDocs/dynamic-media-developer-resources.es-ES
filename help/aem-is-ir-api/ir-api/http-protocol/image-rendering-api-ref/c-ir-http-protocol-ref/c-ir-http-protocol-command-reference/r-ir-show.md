@@ -1,30 +1,31 @@
 ---
-description: Mostrar objeto de superposición. Hace visibles todos los objetos de superposición ocultos anteriormente (incluidos los objetos de marco de coberturas de ventana) en la selección actual.
-seo-description: Mostrar objeto de superposición. Hace visibles todos los objetos de superposición ocultos anteriormente (incluidos los objetos de marco de coberturas de ventana) en la selección actual.
+description: Mostrar objeto de superposición. Hace visibles todos los objetos de superposición ocultos anteriormente (incluidos los objetos de marco de cubiertas de ventanas) en la selección actual.
+seo-description: Mostrar objeto de superposición. Hace visibles todos los objetos de superposición ocultos anteriormente (incluidos los objetos de marco de cubiertas de ventanas) en la selección actual.
 seo-title: mostrar
 solution: Experience Manager
 title: mostrar
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 31255529-9277-40d9-9c57-205d22479600
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 8%
+source-wordcount: '101'
+ht-degree: 7%
 
 ---
 
 
 # mostrar{#show}
 
-Mostrar objeto de superposición. Hace visibles todos los objetos de superposición ocultos anteriormente (incluidos los objetos de marco de coberturas de ventana) en la selección actual.
+Mostrar objeto de superposición. Hace visibles todos los objetos de superposición ocultos anteriormente (incluidos los objetos de marco de cubiertas de ventanas) en la selección actual.
 
 `Show[= *`val`*]`
 
 <table id="simpletable_88D25B9C8E0A47EF90C8ABEBDE777183"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> val</span> </p> </td> 
-  <td class="stentry"> <p>Omitido. </p></td> 
+  <td class="stentry"> <p>Ignorado. </p></td> 
  </tr> 
 </table>
 
@@ -34,7 +35,7 @@ Se omite si la selección actual no incluye ningún objeto de superposición o s
 
 ## Predeterminado {#section-04972797d24d4b9f93790a31dfaa4743}
 
-Ninguno, sin cambios en la visibilidad de los objetos.
+Ninguno, sin ningún cambio en la visibilidad del objeto.
 
 ## Véase también {#section-2a1a37a35dfb41758897164e14f0105f}
 
