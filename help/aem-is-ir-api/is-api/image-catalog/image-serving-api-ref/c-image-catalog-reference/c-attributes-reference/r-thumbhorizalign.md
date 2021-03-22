@@ -4,12 +4,13 @@ seo-description: Alineación horizontal para miniaturas. Especifica la alineaci�
 seo-title: ThumbHorizAlign
 solution: Experience Manager
 title: ThumbHorizAlign
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2fbe71e2-1227-415b-ad4c-0d0752f8f729
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '124'
 ht-degree: 3%
 
 ---
@@ -19,15 +20,15 @@ ht-degree: 3%
 
 Alineación horizontal para miniaturas. Especifica la alineación horizontal de la imagen en miniatura en el rectángulo de imagen de respuesta especificado por wid= y hei= o por atributo::DefaultThumbPix.
 
-Solo se utiliza para solicitudes en miniatura ( `req=tmb`).
+Solo se usa para solicitudes de miniatura ( `req=tmb`) .
 
 ## Propiedades {#section-c98f793986cd4f98a3995615e3b68f76}
 
-Enum. Los valores permitidos son 1, 2 y 3 para la alineación izquierda, central y derecha, respectivamente.
+Enum. Los valores permitidos son 1, 2 y 3, para la alineación izquierda, central y derecha, respectivamente.
 
 ## Predeterminado {#section-0c06f0d998cb4306868b360a06c32e5b}
 
-Se hereda de `default::ThumbHorizAlign` si no está definida o si está vacía.
+Se hereda de `default::ThumbHorizAlign` si no está definido o si está vacío.
 
 ## Véase también {#section-a74a13c3643140cf971d7a4275e0fdb3}
 
