@@ -1,23 +1,24 @@
 ---
-description: Establece la pertenencia de un usuario a una o varias compañías.
-seo-description: Establece la pertenencia de un usuario a una o varias compañías.
+description: Establece la pertenencia de un usuario a una o varias empresas.
+seo-description: Establece la pertenencia de un usuario a una o varias empresas.
 seo-title: setCompanyMembership
 solution: Experience Manager
 title: setCompanyMembership
-topic: Dynamic Media Image Production System API
 uuid: 34c9d457-bc2e-4186-8a8f-50388410640a
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 13%
+source-wordcount: '93'
+ht-degree: 12%
 
 ---
 
 
 # setCompanyMembership{#setcompanymembership}
 
-Establece la pertenencia de un usuario a una o varias compañías.
+Establece la pertenencia de un usuario a una o varias empresas.
 
 Sintaxis
 
@@ -34,16 +35,16 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:sting` | No | Identificador de usuario. |
-| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Sí | Matriz de compañías. |
+| `*`userHandle`*` | `xsd:sting` | No | Control de usuario. |
+| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Sí | Matriz de empresas. |
 
-**Output (setCompanyMembershipParam)**
+**Salida (setCompanyMembershipParam)**
 
-La API de IPS no devuelve una respuesta para esta operación.
+La API IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-862c0cc32ce0407ab248028e690a8386}
 
-Este ejemplo de código agrega un usuario a una compañía. Especifique varias compañías en la matriz de control de compañía si es necesario.
+Este ejemplo de código agrega un usuario a una empresa. Especifique varias empresas en la matriz de administración de la empresa si es necesario.
 
 **Solicitar**
 
