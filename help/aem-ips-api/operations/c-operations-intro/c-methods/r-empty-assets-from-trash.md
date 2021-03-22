@@ -4,12 +4,13 @@ seo-description: Vacía recursos de la papelera IPS.
 seo-title: emptyAssetsFromTrash
 solution: Experience Manager
 title: emptyAssetsFromTrash
-topic: Dynamic Media Image Production System API
 uuid: de11a7b0-cd4b-4717-8596-d39afbcf7e9c
+feature: Dynamic Media Classic,SDK/API,Administración de activos
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '260'
 ht-degree: 7%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 7%
 
 Vacía recursos de la papelera IPS.
 
-Los recursos viven en la basura hasta que se vacían manualmente o hasta que se agotan. Si se vacian manualmente, viven en la papelera hasta el siguiente trabajo de limpieza (normalmente por la noche) cuando finalmente se purgan del sistema. Si pierden el tiempo de la basura, los recursos se limpian como parte de la misma actividad de limpieza. El tiempo de espera se puede configurar (el valor predeterminado es de 7 días).
+Los activos viven en la basura hasta que se vacían manualmente o hasta que salen de la basura. Si se vacian manualmente, viven en la Papelera hasta el siguiente trabajo de limpieza (normalmente por la noche) cuando finalmente se depuran del sistema. Si se agota el tiempo de espera de la papelera, los recursos se limpian como parte de la misma actividad de limpieza. El tiempo de espera es configurable (el valor predeterminado es de 7 días).
 
 ## Tipos de usuarios autorizados {#section-24dee2bf5f9f4714a64955c80f2803b4}
 
@@ -37,22 +38,22 @@ Los recursos viven en la basura hasta que se vacían manualmente o hasta que se 
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía propietaria de los recursos. |
+| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa propietaria de los activos. |
 | `*`assetHandleArray`*` | `types:HandleArray` | Sí | Matriz de controladores que representan los elementos que se van a vaciar de la papelera. |
 
 **Salida (emptyAssetsFromTrashParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:Int` | Sí | Número de recursos vaciados correctamente de la papelera. |
+| `*`successCount`*` | `xsd:Int` | Sí | El número de recursos vaciados correctamente de la basura. |
 | `*`warningCount`*` | `xsd:Int` | Sí | Número de advertencias generadas cuando la operación intentó vaciar recursos de la papelera. |
 | `*`errorCount`*` | `xsd:Int` | Sí | Número de errores generados cuando la operación intentó vaciar recursos de la papelera. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados a los recursos que generaron advertencias cuando la operación intentó vaciarlos de la papelera. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados a los recursos que generaron errores cuando la operación intentó vaciarlos de la papelera. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados con los recursos que generaron advertencias cuando la operación intentó vaciarlos de la papelera. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados con los recursos que generaron errores cuando la operación intentó vaciarlos de la papelera. |
 
 ## Ejemplos {#section-6154a873b6c342bf92e2036280cafdcf}
 
-Este ejemplo de código utiliza el identificador de la compañía y una matriz de control de recursos que contiene los identificadores de los recursos que se van a vaciar de la papelera.
+Este ejemplo de código utiliza el identificador de la empresa y una matriz de control de recursos que contiene los identificadores de los recursos que se van a vaciar de la papelera.
 
 **Solicitar**
 
