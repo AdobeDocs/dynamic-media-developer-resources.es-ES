@@ -4,12 +4,13 @@ seo-description: Se admiten los siguientes comandos de formato de párrafo.
 seo-title: Formato de párrafo
 solution: Experience Manager
 title: Formato de párrafo
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 4f9255b2-3a74-4c9a-80c5-d85b4627027e
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '247'
 ht-degree: 1%
 
 ---
@@ -31,7 +32,7 @@ Se admiten los siguientes comandos de formato de párrafo.
   <tr> 
    <td> <span class="codeph"> \pard  </span> </td> 
    <td> <p>Restablezca el formato de párrafo al formato predeterminado. </p> </td> 
-   <td> <p> <span class="codeph"> textPs=  </span> solamente </p> </td> 
+   <td> <p> <span class="codeph"> textPs=  </span> only </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \ql  </span> </td> 
@@ -45,37 +46,37 @@ Se admiten los siguientes comandos de formato de párrafo.
   </tr> 
   <tr> 
    <td> <span class="codeph"> \qc  </span> </td> 
-   <td> <p>Centrar texto horizontalmente. </p> </td> 
+   <td> <p>Centra el texto horizontalmente. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \qj  </span> </td> 
-   <td> <p>Justificar texto horizontalmente. </p> </td> 
-   <td> <p> <span class="codeph"> textPs=  </span> solamente </p> </td> 
+   <td> <p>Justificar el texto horizontalmente. </p> </td> 
+   <td> <p> <span class="codeph"> textPs=  </span> only </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \lastql  </span> </td> 
-   <td> <p>Alinea a la izquierda la última línea de un párrafo. </p> </td> 
-   <td> <p>Predeterminado; <span class="codeph"> textPs= </span> solamente; se omite si <span class="codeph"> \qj </span>no está activo. </p> </td> 
+   <td> <p>Alinea la última línea de un párrafo a la izquierda. </p> </td> 
+   <td> <p>Predeterminado; <span class="codeph"> textPs= </span> solamente; ignorado si <span class="codeph"> \qj </span>no está activo. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \lastqr  </span> </td> 
-   <td> <p>Alinea a la derecha la última línea de un párrafo justificado. </p> </td> 
-   <td> <p> <span class="codeph"> textPs=  </span> only; se omite si  <span class="codeph"> \qj no  </span> está activo. </p> </td> 
+   <td> <p>Alinee a la derecha la última línea de un párrafo justificado. </p> </td> 
+   <td> <p> <span class="codeph"> textPs=  </span> only; ignorado si  <span class="codeph"> \qj no  </span> está activo. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \lastqc  </span> </td> 
    <td> <p>Centra la última línea de un párrafo justificado. </p> </td> 
-   <td> <p> <span class="codeph"> textPs=  </span> only; se omite si  <span class="codeph"> \qj no  </span>está activo. </p> </td> 
+   <td> <p> <span class="codeph"> textPs=  </span> only; ignorado si  <span class="codeph"> \qj no  </span>está activo. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \lastqj  </span> </td> 
-   <td> <p>Sustituya (estire) la última línea de un párrafo justificado. </p> </td> 
-   <td> <p> <span class="codeph"> textPs=  </span> only; se omite si  <span class="codeph"> \qj no  </span>está activo. </p> </td> 
+   <td> <p>Suprima (estire) la última línea de un párrafo justificado. </p> </td> 
+   <td> <p> <span class="codeph"> textPs=  </span> only; ignorado si  <span class="codeph"> \qj no  </span>está activo. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \fi  <span class="varname"> N  </span> </span> </td> 
-   <td> <p>Sangría de primera línea. </p> </td> 
+   <td> <p>Sangría de la primera línea. </p> </td> 
    <td> <p>Twips; <span class="codeph"> textPs= </span> solamente. </p> </td> 
   </tr> 
   <tr> 
@@ -91,7 +92,7 @@ Se admiten los siguientes comandos de formato de párrafo.
   <tr> 
    <td> <span class="codeph"> \sl  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Espacio entre líneas. </p> </td> 
-   <td> <p>0 (predeterminado) para interlineado automático; valores positivos para utilizar solo el valor si es mayor que el interlineado predeterminado; valor negativo para forzar el espaciado. </p> </td> 
+   <td> <p>0 (predeterminado) para el interlineado automático; los valores positivos solo utilizarán un valor si son mayores que el interlineado predeterminado; valor negativo para forzar el espaciado. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \slmult  <span class="varname"> N  </span> </span> </td> 
