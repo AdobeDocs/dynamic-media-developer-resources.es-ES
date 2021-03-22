@@ -2,13 +2,14 @@
 description: CarouselView.iscommand
 solution: Experience Manager
 title: CarouselView.iscommand
-topic: Dynamic Media
 uuid: 005b130c-9316-4cf9-ae59-9f8ef381dda3
+feature: Dynamic Media Classic,Visores,SDK/API,Banners de carrusel
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 10%
+source-wordcount: '61'
+ht-degree: 8%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> iscommand</span></span> </p> </td> 
-   <td colname="col2"> <p> La cadena de comando del servicio de imágenes que se aplica a la imagen del letrero. Si se especifica en la dirección URL, todas las incidencias de <span class="codeph"> &amp;</span> y <span class="codeph"> =</span> deben estar codificadas en HTTP como <span class="codeph"> %26</span> y <span class="codeph"> %3D</span>, respectivamente. </p> </td> 
+   <td colname="col2"> <p> La cadena de comando del Servidor de imágenes que se aplica a la imagen del banner. Si se especifica en la dirección URL, todas las ocurrencias de <span class="codeph"> &amp;</span> y <span class="codeph"> =</span> deben codificarse con HTTP como <span class="codeph"> %26</span> y <span class="codeph"> %3D</span>, respectivamente. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -36,7 +37,7 @@ Ninguno.
 
 ## Ejemplo {#section-bce98c31f08a4a0ab262fab7f95ba020}
 
-Cuando se especifica en la URL del visor:
+Cuando se especifique en la dirección URL del visor:
 
 `iscommand=op_sharpen%3d1%26op_colorize%3d0xff0000`
 
