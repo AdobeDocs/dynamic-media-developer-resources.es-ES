@@ -1,23 +1,24 @@
 ---
-description: El botón de reproducción/pausa hace que el reproductor de vídeo se reproduzca o pause el contenido del vídeo cuando un usuario hace clic en él.
-seo-description: El botón de reproducción/pausa hace que el reproductor de vídeo se reproduzca o pause el contenido del vídeo cuando un usuario hace clic en él.
-seo-title: Botón Reproducir/Pausa
+description: El botón de reproducción/pausa hace que el reproductor de vídeo reproduzca o ponga en pausa el contenido del vídeo cuando un usuario hace clic en él.
+seo-description: El botón de reproducción/pausa hace que el reproductor de vídeo reproduzca o ponga en pausa el contenido del vídeo cuando un usuario hace clic en él.
+seo-title: Botón Reproducir/Pausar
 solution: Experience Manager
-title: Botón Reproducir/Pausa
-topic: Dynamic Media
+title: Botón Reproducir/Pausar
 uuid: b910a837-07ba-4e06-aee8-c22619ed0a92
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '294'
 ht-degree: 2%
 
 ---
 
 
-# Botón Reproducir/Pausa{#play-pause-button}
+# Botón Reproducir/Pausar{#play-pause-button}
 
-El botón de reproducción/pausa hace que el reproductor de vídeo se reproduzca o pause el contenido del vídeo cuando un usuario hace clic en él.
+El botón de reproducción/pausa hace que el reproductor de vídeo reproduzca o ponga en pausa el contenido del vídeo cuando un usuario hace clic en él.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -51,34 +52,34 @@ El siguiente selector de clase CSS controla el aspecto del botón:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Ancho del botón. </p> </td> 
+   <td colname="col2"> <p>Anchura del botón. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Altura del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
    <td colname="col2"> <p>Imagen que se muestra para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
+   <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Este botón admite los selectores de atributos `state`, `selected` y `replay`, que se pueden utilizar para aplicar diferentes apariencias a distintos estados de botones. En particular, `selected='true'` corresponde al estado &quot;play&quot; y `selected='false'` corresponde al estado &quot;pause&quot;;
+>Este botón admite los selectores de atributos `state`, `selected` y `replay`, que pueden utilizarse para aplicar diferentes aspectos a distintos estados de botones. En concreto, `selected='true'` corresponde al estado &quot;play&quot; y `selected='false'` corresponde al estado &quot;pause&quot;;
 >
->`replay='true'` se configura cuando el vídeo ha llegado al final y al hacer clic en el botón se reinicia la reproducción desde el principio.
+>`replay='true'` se establece cuando el vídeo ha llegado al final y al hacer clic en el botón se reinicia la reproducción desde el principio.
 
-La información de objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
+La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
 
 ## Ejemplo {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Para configurar un botón de reproducción/pausa de 32 x 32 píxeles; se coloca seis píxeles desde el borde superior e izquierdo de la barra de control y muestra una imagen diferente para cada uno de los cuatro estados de botón diferentes cuando se selecciona o no se selecciona.
+Para configurar un botón de reproducción/pausa de 32 x 32 píxeles; se coloca a seis píxeles del borde superior e izquierdo de la barra de control y muestra una imagen diferente para cada uno de los cuatro estados de botón diferentes cuando se selecciona o no se selecciona.
 
 ```
 .s7videoviewer .s7playpausebutton { 
