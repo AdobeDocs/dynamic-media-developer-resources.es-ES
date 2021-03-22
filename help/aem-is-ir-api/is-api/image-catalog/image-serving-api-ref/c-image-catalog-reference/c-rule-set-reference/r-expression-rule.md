@@ -1,15 +1,16 @@
 ---
-description: Elemento de patrón de expresión normal. Opcional en elementos <rule>.
-seo-description: Elemento de patrón de expresión normal. Opcional en elementos <rule>.
+description: Elemento de patrón de expresión regular. Opcional en elementos <rule> .
+seo-description: Elemento de patrón de expresión regular. Opcional en elementos <rule> .
 seo-title: expresión
 solution: Experience Manager
 title: expresión
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f2036015-a2c7-4392-86f6-4cdf3152839a
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '173'
 ht-degree: 4%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 4%
 
 # expresión{#expression}
 
-Elemento de patrón de expresión normal. Opcional en elementos `<rule>`.
+Elemento de patrón de expresión regular. Opcional en elementos `<rule>`.
 
 ## Atributos {#section-2d438c889ae84b6da7e0ed84b5d021a0}
 
@@ -37,11 +38,11 @@ La implementación se basa en el paquete Java [java.util.regex](https://www2.cs.
 
 ## Notas {#section-10b472a902674893b49ca49a7052c366}
 
-La cadena de expresión no debe contener caracteres literales &lt; y &amp;. Estos caracteres reservados se pueden codificar con `&` y `<`, respectivamente, o toda la cadena se puede incluir en una sección XML `CDATA`:
+La cadena de expresión no debe contener caracteres literales &lt; y &amp;. Estos caracteres reservados se pueden codificar con `&` y `<` respectivamente, o toda la cadena se puede incluir en una sección XML `CDATA`:
 
 `<expression><![CDATA[&fmt=custom]]></expression>`
 
-Todos los caracteres entre las etiquetas `<expression>` y `</expression>` se pasan al analizador de expresiones normal, incluidos los caracteres fuera de la sección opcional `CDATA`. Se debe tener cuidado para evitar espacios en blanco adicionales.
+Todos los caracteres entre las etiquetas `<expression>` y `</expression>` se pasan al analizador de expresiones regulares, incluidos los caracteres que están fuera de la sección opcional `CDATA`. Se debe tener cuidado para evitar espacios en blanco adicionales.
 
 ## Véase también {#section-ca98548917d945f4b71f18208f0e6840}
 
