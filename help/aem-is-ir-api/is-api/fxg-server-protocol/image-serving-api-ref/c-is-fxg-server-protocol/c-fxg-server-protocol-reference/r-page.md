@@ -1,23 +1,24 @@
 ---
-description: Recuperar página. Recupera una página específica en un FXG de varias páginas.
-seo-description: Recuperar página. Recupera una página específica en un FXG de varias páginas.
+description: Recupere la página. Recupera una página específica en un FXG de varias páginas.
+seo-description: Recupere la página. Recupera una página específica en un FXG de varias páginas.
 seo-title: página
 solution: Experience Manager
 title: página
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3379c8d8-6e2e-4bd5-b683-a532330f1ddc
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 6%
+source-wordcount: '68'
+ht-degree: 5%
 
 ---
 
 
 # page{#page}
 
-Recuperar página. Recupera una página específica en un FXG de varias páginas.
+Recupere la página. Recupera una página específica en un FXG de varias páginas.
 
 `page= *`val`*`
 
@@ -30,4 +31,4 @@ Recuperar página. Recupera una página específica en un FXG de varias páginas
 
 ## Predeterminado {#section-3fd7fcc525b947c7a95457e50414ac9e}
 
-Si no se especifica `page`, se devuelve la primera página para la salida de rasterizado y todas las páginas para la salida PDF.
+Si no se especifica `page` , se devuelve la primera página para la salida de trama y todas las páginas para la salida PDF.
