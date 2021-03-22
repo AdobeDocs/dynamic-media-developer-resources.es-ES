@@ -1,15 +1,16 @@
 ---
-description: Configure o actualice el estado de publicación de uno o varios recursos. Puede definir estados de publicación independientes para cada contexto de publicación en una compañía.
-seo-description: Configure o actualice el estado de publicación de uno o varios recursos. Puede definir estados de publicación independientes para cada contexto de publicación en una compañía.
+description: Defina o actualice el estado de publicación de uno o varios recursos. Puede establecer estados de publicación independientes para cada contexto de publicación en una empresa.
+seo-description: Defina o actualice el estado de publicación de uno o varios recursos. Puede establecer estados de publicación independientes para cada contexto de publicación en una empresa.
 seo-title: setAssetsContextState
 solution: Experience Manager
 title: setAssetsContextState
-topic: Dynamic Media Image Production System API
 uuid: 4b94f9ea-3f7b-45ee-9381-6434f2bc4e31
+feature: Dynamic Media Classic,SDK/API,Administración de activos
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '192'
 ht-degree: 9%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 9%
 
 # setAssetsContextState{#setassetscontextstate}
 
-Configure o actualice el estado de publicación de uno o varios recursos. Puede definir estados de publicación independientes para cada contexto de publicación en una compañía.
+Defina o actualice el estado de publicación de uno o varios recursos. Puede establecer estados de publicación independientes para cada contexto de publicación en una empresa.
 
 ## Tipos de usuarios autorizados {#section-815eb031f85143278c1560c18c5e3431}
 
@@ -41,14 +42,14 @@ Configure o actualice el estado de publicación de uno o varios recursos. Puede 
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Manejar a la compañía. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Gestionar a la empresa. |
 | `*`assetsContextHandle`*` | `types:AssetsContextStateUpdateArray` | Sí | Matriz de recursos y sus nuevos estados de publicación. |
 
 **Salida (setAssetsContexStateReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Sí | Número de recursos que se han cambiado correctamente. |
+| `*`successCount`*` | `xsd:int` | Sí | El número de recursos modificados correctamente. |
 | `*`warningCount`*` | `xsd:int` | Sí | Número de advertencias generadas cuando la operación intentó modificar recursos. |
 | `*`errorCount`*` | `xsd:int` | Sí | Número de errores generados cuando la operación intentó modificar recursos. |
 | `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | Matriz de errores generados por los recursos cuando la operación intentó modificarlos. |
