@@ -1,23 +1,24 @@
 ---
-description: PERFIL de color de entrada RGB predeterminado. Especifica el nombre del perfil de color ICC que se utilizará para las imágenes de origen RGB que no incrustan un perfil de color y para determinados valores de color RGB especificados con varios comandos de servicio de imágenes, como color=.
-seo-description: PERFIL de color de entrada RGB predeterminado. Especifica el nombre del perfil de color ICC que se utilizará para las imágenes de origen RGB que no incrustan un perfil de color y para determinados valores de color RGB especificados con varios comandos de servicio de imágenes, como color=.
+description: Perfil de color de entrada predeterminado RGB. Especifica el nombre del perfil de color ICC que se utilizará para las imágenes de origen RGB que no incrustan un perfil de color y para ciertos valores de color RGB especificados con varios comandos de servicio de imágenes, como color=.
+seo-description: Perfil de color de entrada predeterminado RGB. Especifica el nombre del perfil de color ICC que se utilizará para las imágenes de origen RGB que no incrustan un perfil de color y para ciertos valores de color RGB especificados con varios comandos de servicio de imágenes, como color=.
 seo-title: IccProfileSrcRgb
 solution: Experience Manager
 title: IccProfileSrcRgb
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 4f6f19ec-3524-403e-9c79-1e2b25cd74ce
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 2%
+source-wordcount: '206'
+ht-degree: 1%
 
 ---
 
 
 # IccProfileSrcRgb{#iccprofilesrcrgb}
 
-PERFIL de color de entrada RGB predeterminado. Especifica el nombre del perfil de color ICC que se utilizará para las imágenes de origen RGB que no incrustan un perfil de color y para determinados valores de color RGB especificados con varios comandos de servicio de imágenes, como color=.
+Perfil de color de entrada predeterminado RGB. Especifica el nombre del perfil de color ICC que se utilizará para las imágenes de origen RGB que no incrustan un perfil de color y para ciertos valores de color RGB especificados con varios comandos de servicio de imágenes, como color=.
 
 ## Propiedades {#section-3cd753196959462e9e674dab0b033d08}
 
@@ -25,7 +26,7 @@ Cadena de texto. Si se especifica, debe ser un valor `icc::Name` válido del map
 
 ## Predeterminado {#section-2c3cb2d9c9bf4aa7896e51b5d444ddee}
 
-Se hereda de `default::IccProfileSrcRgb` si no está definida o si está vacía. Si `attribute::IccProfileSrcRgb` no se resuelve en un perfil válido, se utiliza `attribute::IccProfileRgb` en su lugar.
+Se hereda de `default::IccProfileSrcRgb` si no está definido o si está vacío. Si `attribute::IccProfileSrcRgb` no se resuelve en un perfil válido, se utiliza `attribute::IccProfileRgb` en su lugar.
 
 ## Véase también {#section-d6e5c6eeaea4445ba7fb5737cd193a48}
 
