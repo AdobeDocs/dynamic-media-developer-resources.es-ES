@@ -1,23 +1,24 @@
 ---
-description: URL para el visor de vídeos.
-seo-description: URL para el visor de vídeos.
+description: URL para el visualizador de vídeo.
+seo-description: URL para el visualizador de vídeo.
 seo-title: videoServerUrl
 solution: Experience Manager
 title: videoServerUrl
-topic: Dynamic Media
 uuid: d5542745-d7e6-42e7-8177-12184b9f2e7b
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 7%
+source-wordcount: '67'
+ht-degree: 5%
 
 ---
 
 
 # videoServerUrl{#videoserverurl}
 
-URL para el visor de vídeos.
+URL para el visualizador de vídeo.
 
 ` videoServerUrl= *`videoRootPath`*`
 
@@ -25,7 +26,7 @@ URL para el visor de vídeos.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> Ruta de acceso raíz del servidor de vídeo. Si no se especifica ningún dominio, se aplica en su lugar el dominio desde el que se proporciona la página. Se aplica la resolución de ruta URI estándar. </p> </td> 
+   <td colname="col2"> <p> La ruta raíz del servidor de vídeo. Si no se especifica ningún dominio, se aplica en su lugar el dominio desde el que se sirve la página. Se aplica la resolución de ruta de URI estándar. </p> </td> 
   </tr> 
  </tbody> 
 </table>
