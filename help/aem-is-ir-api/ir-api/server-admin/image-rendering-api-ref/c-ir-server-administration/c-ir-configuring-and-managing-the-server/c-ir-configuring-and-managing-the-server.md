@@ -4,12 +4,13 @@ seo-description: Esta sección contiene información para ayudarle a configurar 
 seo-title: Configuración y administración del servidor
 solution: Experience Manager
 title: Configuración y administración del servidor
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: cd344495-cb41-440e-b3f8-5b5812e81a9c
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
@@ -21,6 +22,6 @@ Esta sección contiene información para ayudarle a configurar y administrar el 
 
 >[!NOTE]
 >
->El servicio de imágenes debe estar configurado correctamente y ser funcional para el correcto funcionamiento del procesamiento de imágenes.
+>El servicio de imágenes debe estar correctamente configurado y ser funcional para el correcto funcionamiento de la representación de imágenes.
 
-Para obtener más información, consulte Referencia de catálogo de material, Referencia de protocolo HTTP, Notas de la versión, Documentación de servicio de imágenes
+Para obtener más información, consulte Referencia de catálogos de materiales, Referencia de protocolos HTTP , Notas de la versión, Documentación de servicio de imágenes
