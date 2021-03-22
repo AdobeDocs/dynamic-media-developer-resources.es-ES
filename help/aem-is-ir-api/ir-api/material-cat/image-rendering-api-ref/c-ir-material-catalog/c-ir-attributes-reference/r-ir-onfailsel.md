@@ -1,15 +1,16 @@
 ---
-description: Gestión de errores de selección. Especifica la acción que se debe realizar si el comando sel= falla porque la ubicación de píxeles especificada no está dentro del área de máscara de un objeto seleccionable.
-seo-description: Gestión de errores de selección. Especifica la acción que se debe realizar si el comando sel= falla porque la ubicación de píxeles especificada no está dentro del área de máscara de un objeto seleccionable.
+description: Seleccionar la gestión de errores de selección. Especifica la acción que se debe realizar si el comando sel= falla porque la ubicación de píxeles especificada no está dentro del área de máscara de un objeto seleccionable.
+seo-description: Seleccionar la gestión de errores de selección. Especifica la acción que se debe realizar si el comando sel= falla porque la ubicación de píxeles especificada no está dentro del área de máscara de un objeto seleccionable.
 seo-title: OnFailSel
 solution: Experience Manager
 title: OnFailSel
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 073b6651-970c-460c-b044-e3ef37cc677a
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '159'
 ht-degree: 10%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 10%
 
 # OnFailSel{#onfailsel}
 
-Gestión de errores de selección. Especifica la acción que se debe realizar si el comando sel= falla porque la ubicación de píxeles especificada no está dentro del área de máscara de un objeto seleccionable.
+Seleccionar la gestión de errores de selección. Especifica la acción que se debe realizar si el comando sel= falla porque la ubicación de píxeles especificada no está dentro del área de máscara de un objeto seleccionable.
 
 ## Propiedades {#section-cec491e6c5c744f9bfafaaa9d8774f83}
 
@@ -26,7 +27,7 @@ Enum.
 <table id="simpletable_1CFD2BC6F9BC4D2AB372EAF115B7F2FC"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p> </td> 
-  <td class="stentry"> <p>Heredar de <span class="codeph"> default::OnFailSel </span>. </p> </td> 
+  <td class="stentry"> <p>Heredar de <span class="codeph"> predeterminado::OnFailSel </span>. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p> </td> 
@@ -34,7 +35,7 @@ Enum.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
-  <td class="stentry"> <p>Anule la selección; se ignorará cualquier intento de aplicar un material o mostrar u ocultar objetos. </p> </td> 
+  <td class="stentry"> <p>Anular la selección; se hará caso omiso de cualquier intento de aplicar un material o mostrar u ocultar objetos. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
