@@ -1,15 +1,16 @@
 ---
-description: Resolución de materiales. Especifica la resolución de la textura repetible o de la imagen de calado.
-seo-description: Resolución de materiales. Especifica la resolución de la textura repetible o de la imagen de calado.
+description: Resolución del material. Especifica la resolución de la textura repetible o la imagen de calco.
+seo-description: Resolución del material. Especifica la resolución de la textura repetible o la imagen de calco.
 seo-title: res
 solution: Experience Manager
 title: res
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ae755a92-ad06-4cf2-b627-0b8b14e385c3
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '125'
 ht-degree: 3%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 3%
 
 # res{#res}
 
-Resolución de materiales. Especifica la resolución de la textura repetible o de la imagen de calado.
+Resolución del material. Especifica la resolución de la textura repetible o la imagen de calco.
 
 ` res= *`val`*`
 
@@ -28,11 +29,11 @@ Resolución de materiales. Especifica la resolución de la textura repetible o d
  </tr> 
 </table>
 
-En el caso de un material de calado, `size=` prevalece si se especifican tanto `size=` como `res=`.
+En el caso de un material de calco, `size=` prevalece si se especifican `size=` y `res=`.
 
 ## Propiedades {#section-6a458ddc202f46e0b668c9f040a65cef}
 
-Atributo Material. Ignorado por materiales de color sólido. Sólo se utilizan materiales de revestimiento de vitrinas y armarios si se utiliza una textura.
+Atributo de material. Ignorado por materiales de color sólido. Sólo por el gabinete y los materiales de revestimiento de ventanas sólo si se utiliza una textura.
 
 ## Predeterminado {#section-ee4088a994014df59105fc1dbb2aa042}
 
