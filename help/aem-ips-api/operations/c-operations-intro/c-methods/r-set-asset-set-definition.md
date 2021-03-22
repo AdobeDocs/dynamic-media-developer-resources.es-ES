@@ -1,23 +1,24 @@
 ---
-description: Actualiza la definición definida para un conjunto de recursos existente.
-seo-description: Actualiza la definición definida para un conjunto de recursos existente.
+description: Actualiza la definición del conjunto de recursos existente.
+seo-description: Actualiza la definición del conjunto de recursos existente.
 seo-title: setAssetSetDefinition
 solution: Experience Manager
 title: setAssetSetDefinition
-topic: Dynamic Media Image Production System API
 uuid: 2a2dce5d-7a01-49af-ac8b-33ae0b234ecc
+feature: Dynamic Media Classic,SDK/API,Administración de activos
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 6%
+source-wordcount: '223'
+ht-degree: 5%
 
 ---
 
 
 # setAssetSetDefinition{#setassetsetdefinition}
 
-Actualiza la definición definida para un conjunto de recursos existente.
+Actualiza la definición del conjunto de recursos existente.
 
 Sintaxis
 
@@ -36,19 +37,19 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía con el conjunto de recursos. |
-| `*`assetHandle`*` | `xsd:string` | Sí | Identificador de conjunto de recursos |
-| `*`setDefinition`*` | `xsd:string` | Sí | Cadena de definición. Véase más abajo. |
+| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa con el conjunto de recursos. |
+| `*`assetHandle`*` | `xsd:string` | Sí | Controlador del conjunto de recursos |
+| `*`setDefinition`*` | `xsd:string` | Sí | Cadena de definición. Consulte a continuación. |
 
 **Salida (setAssetSetDefinitionReturn)**
 
-La API de IPS no devuelve una respuesta para esta operación.
+La API IPS no devuelve una respuesta para esta operación.
 
 ## Parámetro setDefinition: Acerca de {#section-f88e066bf5294b4f8c12d5d652a5c94c}
 
-**funciones setDefinition**
+**Funciones setDefinition**
 
-Especifique `setDefinition` funciones de sustitución en línea. Se resuelven durante una búsqueda de catálogo o en una publicación. Las cadenas de sustitución tienen el formato `${<substitution_func>}` e incluyen lo siguiente:
+Especifique las funciones de sustitución `setDefinition` en línea. Se resuelven durante una búsqueda de catálogo o en una publicación. Las cadenas de sustitución tienen el formato `${<substitution_func>}` e incluyen lo siguiente:
 
 >[!NOTE]
 >
@@ -64,11 +65,11 @@ Especifique `setDefinition` funciones de sustitución en línea. Se resuelven du
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> getFilePath([  <span class="varname"> asset_handle  </span>])  </span> </td> 
-   <td colname="col2"> Ruta del archivo principal. </td> 
+   <td colname="col2"> Ruta de acceso del archivo principal. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> getCatalogd([  <span class="varname"> asset_handle  </span>])  </span> </td> 
-   <td colname="col2"> ID del catálogo. </td> 
+   <td colname="col2"> ID de catálogo. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> getMetaData([  <span class="varname"> asset_handle  </span>],[  <span class="varname"> metadata_field_handle  </span>])  </span> </td> 
@@ -76,7 +77,7 @@ Especifique `setDefinition` funciones de sustitución en línea. Se resuelven du
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> getThumbCatalogId([  <span class="varname"> asset_handle  </span>])  </span> </td> 
-   <td colname="col2"> ID del catálogo. Se aplica a recursos basados en imágenes (imagen, Vista ajustada, Vista de capas). <p>Para otros recursos, devuelve el ID de catálogo del recurso de miniatura (si lo hay). Si no hay ningún recurso de miniatura asociado al recurso, la función devuelve una cadena vacía. </p> </td> 
+   <td colname="col2"> ID de catálogo. Se aplica a los recursos basados en imágenes (imagen, vista ajustada, vista de capa). <p>Para otros recursos, devuelve el ID de catálogo del recurso en miniatura (si lo hay). Si no hay ningún recurso en miniatura asociado al recurso, la función devuelve una cadena vacía. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -91,7 +92,7 @@ ${getCatalogId([a|1664|22|1664])};${getCatalogId([a|1664|22|1664])};
 ${getMetadata([a|1036|19|144], [m|1|ASSET|SharedDateField])}
 ```
 
-Se resuelve como sigue en tiempo de búsqueda o publicación:
+Resuelve lo siguiente en el momento de la búsqueda o publicación:
 
 ```java
 jcompany/myRenderSet;jcompany/myRenderSet; 
