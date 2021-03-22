@@ -2,12 +2,13 @@
 description: ControlBar.transition
 solution: Experience Manager
 title: ControlBar.transition
-topic: Dynamic Media
 uuid: e029173b-c004-4be8-b304-d6e2183314ad
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '128'
 ht-degree: 3%
 
 ---
@@ -20,16 +21,16 @@ ht-degree: 3%
 <table id="table_F71AA834FE494949A2D4B569EA5E721F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ninguno|fundido  </span> </p> </td> 
-   <td colname="col2"> <p> Especifica el tipo de efecto que se utiliza para mostrar u ocultar la barra de control y su contenido. Use <span class="codeph"> none </span> para mostrar y ocultar instantáneamente; <span class="codeph"> fundido </span> proporciona un efecto de fundido y atenuación gradual (no admitido en Internet Explorer 8). </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> none|fade  </span> </p> </td> 
+   <td colname="col2"> <p> Especifica el tipo de efecto que se utiliza para mostrar u ocultar la barra de control y su contenido. Use <span class="codeph"> ninguno </span> para mostrar y ocultar instantáneamente; <span class="codeph"> fundido </span> proporciona un efecto de fundido y atenuación gradual (no compatible con Internet Explorer 8). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delaytohide  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Especifica el tiempo en segundos que transcurre entre el último evento táctil o de ratón que registra la barra de control y la barra de control de tiempo que se oculta. </p> <p> Si se establece en <span class="codeph"> -1 </span>, el componente nunca déclencheur su efecto de ocultación automática y siempre permanece visible en la pantalla. </p> </td> 
+   <td colname="col2"> <p> Especifica el tiempo en segundos entre el último evento de mouse/contacto que registra la barra de control y la barra de control de tiempo que oculta. </p> <p> Si se establece en <span class="codeph"> -1 </span> el componente nunca déclencheur su efecto de ocultación automática y siempre permanece visible en la pantalla. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duration  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Define la duración de la animación de fundido de entrada y fundido, en segundos. </p> </td> 
+   <td colname="col2"> <p> Define la duración de la animación de fundido en segundos y fundido en segundos. </p> </td> 
   </tr> 
  </tbody> 
 </table>
