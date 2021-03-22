@@ -1,15 +1,16 @@
 ---
-description: Resolución de impresión. Sobrescribe el valor de resolución de impresión incrustado en la imagen de respuesta.
-seo-description: Resolución de impresión. Sobrescribe el valor de resolución de impresión incrustado en la imagen de respuesta.
+description: Resolución de impresión. Anula el valor de resolución de impresión incrustado en la imagen de respuesta.
+seo-description: Resolución de impresión. Anula el valor de resolución de impresión incrustado en la imagen de respuesta.
 seo-title: printRes
 solution: Experience Manager
 title: printRes
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 1a62611a-b3b9-4f20-834f-e34e75d33ddd
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '145'
 ht-degree: 2%
 
 ---
@@ -17,24 +18,24 @@ ht-degree: 2%
 
 # printRes{#printres}
 
-Resolución de impresión. Sobrescribe el valor de resolución de impresión incrustado en la imagen de respuesta.
+Resolución de impresión. Anula el valor de resolución de impresión incrustado en la imagen de respuesta.
 
 `printRes= *`val`*`
 
 <table id="simpletable_85C271760AE5466C96115027E6511559"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> val</span> </p> </td> 
-  <td class="stentry"> <p>Resolución de impresión (ppp). </p></td> 
+  <td class="stentry"> <p>Resolución de impresión (dpi). </p></td> 
  </tr> 
 </table>
 
-La resolución de impresión se define normalmente por `catalog::PrintResolution` en el caso de una entrada de catálogo; en caso contrario, se define por el valor de resolución de impresión incrustado en la imagen de origen. En el caso de una plantilla o una imagen compuesta por capas, la resolución de impresión predeterminada incrustada en el archivo de respuesta es la resolución de impresión de la imagen de capa con el número de capa más bajo.
+La resolución de impresión se define normalmente por `catalog::PrintResolution` en el caso de una entrada de catálogo; de lo contrario, por el valor de resolución de impresión incrustado en la imagen de origen. En el caso de una plantilla o imagen compuesta en capas, la resolución de impresión predeterminada incrustada en el archivo de respuesta es la resolución de impresión de la imagen de capa con el número de capa más bajo.
 
-La configuración de la resolución de impresión no cambia el tamaño de píxel de la imagen de respuesta.
+La configuración de la resolución de impresión no cambia el tamaño de píxeles de la imagen de respuesta.
 
 ## Propiedades {#section-03c7910ebe234804a319e5d0d8ef3a74}
 
-Solicitar atributo. Se aplica independientemente de la configuración de la capa actual.
+Atributo de solicitud. Se aplica independientemente de la configuración de capa actual.
 
 ## Predeterminado {#section-d7d89fd235cc418fb381014612530f00}
 
