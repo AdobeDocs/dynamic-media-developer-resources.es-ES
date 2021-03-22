@@ -1,15 +1,16 @@
 ---
-description: Permite a los administradores crear nuevos campos de metadatos para coordinarlos con sistemas gestoras de contenido o para operaciones de plantilla. Algunos ejemplos de campos de metadatos creados incluyen palabras clave, información sobre el autor de la imagen o información del titular de copyright.
-seo-description: Permite a los administradores crear nuevos campos de metadatos para coordinarlos con sistemas gestoras de contenido o para operaciones de plantilla. Algunos ejemplos de campos de metadatos creados incluyen palabras clave, información sobre el autor de la imagen o información del titular de copyright.
+description: Permite a los administradores crear nuevos campos de metadatos para coordinarlos con sistemas de administración de contenido o para operaciones de plantilla. Algunos ejemplos de campos de metadatos creados incluyen palabras clave, información sobre el autor de la imagen o información sobre el titular de los derechos de autor.
+seo-description: Permite a los administradores crear nuevos campos de metadatos para coordinarlos con sistemas de administración de contenido o para operaciones de plantilla. Algunos ejemplos de campos de metadatos creados incluyen palabras clave, información sobre el autor de la imagen o información sobre el titular de los derechos de autor.
 seo-title: createMetadataField
 solution: Experience Manager
 title: createMetadataField
-topic: Dynamic Media Image Production System API
 uuid: 50ab61fa-df44-4305-ad9f-693c4aea1e69
+feature: Dynamic Media Classic,SDK/API,Metadatos
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '325'
 ht-degree: 12%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 12%
 
 # createMetadataField{#createmetadatafield}
 
-Permite a los administradores crear nuevos campos de metadatos para coordinarlos con sistemas gestoras de contenido o para operaciones de plantilla. Algunos ejemplos de campos de metadatos creados incluyen palabras clave, información sobre el autor de la imagen o información del titular de copyright.
+Permite a los administradores crear nuevos campos de metadatos para coordinarlos con sistemas de administración de contenido o para operaciones de plantilla. Algunos ejemplos de campos de metadatos creados incluyen palabras clave, información sobre el autor de la imagen o información sobre el titular de los derechos de autor.
 
 Sintaxis
 
@@ -43,7 +44,7 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> Nombre de la compañía a la que pertenece el campo de metadatos. </td> 
+   <td colname="col4"> Nombre de la empresa a la que pertenece el campo de metadatos. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetType</span> </span> </td> 
@@ -67,25 +68,25 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>El valor predeterminado del campo de metadatos que se va a crear (por ejemplo, <span class="codeph"> Scene 7</span>). </p> <p>Los valores predeterminados no se admiten para los tipos de campo de etiqueta y deben omitirse. Si se especifica un valor predeterminado no vacío para un tipo de campo de etiqueta, se mostrará un error. </p> </td> 
+   <td colname="col4"> <p>El valor predeterminado del campo de metadatos que se va a crear (por ejemplo, <span class="codeph"> Scene 7</span>). </p> <p>Los valores predeterminados no son compatibles con los tipos de campo de etiqueta y deben omitirse. Si se especifica un valor predeterminado no vacío para un tipo de campo de etiqueta, se devolverá un error. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Oculte o exponga metadatos específicos del sistema IPS. </td> 
+   <td colname="col4"> Ocultar o exponer metadatos específicos del sistema IPS. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"><span class="varname"> isEnforce</span></span> </td> 
+   <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Un indicador booleano que indica si el campo de metadatos se fuerza (se valida) cuando se establece el valor. </p> <p>Si se establece en true, se genera un error si se establece un valor no válido en <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
+   <td colname="col4"> <p>Un indicador booleano que indica si el campo de metadatos se aplica (validado) cuando se establece el valor. </p> <p>Si se establece en true, se genera un error si se establece un valor no válido en <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Permite crear un conjunto de valores enumerados compartidos al que pueden apuntar las etiquetas seleccionadas. </td> 
+   <td colname="col4"> Permite crear un conjunto de valores enumerados compartidos a los que las etiquetas seleccionadas pueden apuntar. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,7 +95,7 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`fieldHandle`*` | `xsd:string` | Sí | Identificador del nuevo campo de metadatos. |
+| `*`fieldHandle`*` | `xsd:string` | Sí | El identificador del nuevo campo de metadatos. |
 
 ## Ejemplos {#section-ba66be30f36b4aeba1bc721b0b92fdfc}
 
