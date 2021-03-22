@@ -4,13 +4,14 @@ seo-description: Actualiza los valores del diccionario de etiquetas de un campo 
 seo-title: updateTagFieldValues
 solution: Experience Manager
 title: updateTagFieldValues
-topic: Dynamic Media Image Production System API
 uuid: 21689469-a0dd-480b-82ba-ebd12956ff8f
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 15%
+source-wordcount: '173'
+ht-degree: 14%
 
 ---
 
@@ -45,19 +46,19 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> Identificador de compañía. </td> 
+   <td colname="col4"> Identificador de la empresa. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> Identificador del campo de etiqueta. </td> 
+   <td colname="col4"> Identificador de campo de etiqueta. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> updateArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:TagValueUpdateArray</span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4">Matriz de valores de campo de etiqueta que desea actualizar. <p>Nota:  Actualiza únicamente los valores de las cadenas de etiquetas. No afecta a las asociaciones de recursos. </p> </td> 
+   <td colname="col4">Matriz de valores de campo de etiqueta que desea actualizar. <p>Nota:  Actualiza solo los valores de las cadenas de etiquetas. No afecta a las asociaciones de recursos. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,11 +67,11 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Sí | El número de campos de etiqueta actualizados correctamente. |
-| `*`warningCount`*` | `xsd:int` | Sí | Número de advertencias generadas cuando la operación intentó actualizar los campos de etiquetas. |
-| `*`errorCount`*` | `xsd:int` | Sí | Número de errores generados cuando la operación intentó actualizar los campos de etiquetas. |
-| `*`warningDetailArray`*` | `types:TagValueUpdateFaultArray` | No | Matriz de detalles asociada a los recursos que generaron advertencias cuando la operación intentó actualizar los campos de etiquetas. |
-| `*`errorDetailArray`*` | `types:TagValueUpdateFaultArray` | No | Matriz de detalles asociada a los recursos que generaron errores cuando la operación intentó actualizar los campos de etiquetas. |
+| `*`successCount`*` | `xsd:int` | Sí | Número de campos de etiqueta actualizados correctamente. |
+| `*`warningCount`*` | `xsd:int` | Sí | Número de advertencias generadas cuando la operación intentó actualizar los campos de etiqueta. |
+| `*`errorCount`*` | `xsd:int` | Sí | Número de errores generados cuando la operación intentó actualizar los campos de etiqueta. |
+| `*`warningDetailArray`*` | `types:TagValueUpdateFaultArray` | No | Matriz de detalles asociados con los recursos que generaron advertencias cuando la operación intentó actualizar los campos de etiqueta. |
+| `*`errorDetailArray`*` | `types:TagValueUpdateFaultArray` | No | Matriz de detalles asociados con los recursos que generaron errores cuando la operación intentó actualizar los campos de etiqueta. |
 
 ## Ejemplos {#section-bb4dcf97044c4675974c9b8d27674001}
 
