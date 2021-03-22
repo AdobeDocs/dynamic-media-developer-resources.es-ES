@@ -1,23 +1,24 @@
 ---
-description: Solicitar elemento de regla. Una o más reglas son opcionales en el elemento <ruleset>.
-seo-description: Solicitar elemento de regla. Una o más reglas son opcionales en el elemento <ruleset>.
+description: Solicitar elemento de regla. Una o más reglas son opcionales en el elemento <conjunto de reglas> .
+seo-description: Solicitar elemento de regla. Una o más reglas son opcionales en el elemento <conjunto de reglas> .
 seo-title: regla
 solution: Experience Manager
 title: regla
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8b8e5b06-a0b7-47e1-942d-0297d08c313b
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 7%
+source-wordcount: '319'
+ht-degree: 6%
 
 ---
 
 
 # regla{#rule}
 
-Solicitar elemento de regla. Una o más reglas son opcionales en el elemento `<ruleset>`.
+Solicitar elemento de regla. Una o más reglas son opcionales en el elemento `<ruleset>` .
 
 ## Atributos {#section-d4a3b0496c0c4aa5bd7da87203b9379b}
 
@@ -25,7 +26,7 @@ Solicitar elemento de regla. Una o más reglas son opcionales en el elemento `<r
 
 `Replace = "first" | "all"`: Opcional. El valor predeterminado es &quot;first&quot;.
 
-`RequestType` =  *&quot;`types`&quot;*: Opcional. Especifica el contexto de entrada al que se aplica la regla. *`types`* es una lista separada por comas, que puede incluir uno o varios de los tokens enumerados en la tabla siguiente. Si no se especifica `RequestType`, la regla se aplica a las solicitudes recibidas en todos los contextos admitidos.
+`RequestType` =  *&quot;`types`&quot;*: Opcional. Especifica a qué contexto de entrada se aplica la regla. *`types`* es una lista separada por comas, que puede incluir uno o más de los tokens enumerados en la siguiente tabla. Si no se especifica `RequestType`, la regla se aplica a las solicitudes recibidas en todos los contextos admitidos.
 
 <table id="table_4935E1ED03624DA6AF3F8DC9AAA10237"> 
  <thead> 
@@ -39,12 +40,12 @@ Solicitar elemento de regla. Una o más reglas son opcionales en el elemento `<r
   <tr> 
    <td> <p> <span class="codeph"> es</span> </p> </td> 
    <td> <p> <span class="filepath"> /is/image/</span> </p> </td> 
-   <td> <p>Se aplica a solicitudes de servicio de imágenes </p> </td> 
+   <td> <p>Aplicado a solicitudes de servicio de imágenes </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> ir</span> </p> </td> 
-   <td> <p> <span class="filepath"> /ir/procesar/</span> </p> </td> 
-   <td> <p>Aplicado a solicitudes de procesamiento de imágenes </p> </td> 
+   <td> <p> <span class="filepath"> /ir/render/</span> </p> </td> 
+   <td> <p>Aplicado a solicitudes de renderización de imágenes </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> estático</span> </p> </td> 
@@ -54,9 +55,9 @@ Solicitar elemento de regla. Una o más reglas son opcionales en el elemento `<r
  </tbody> 
 </table>
 
-**`Name = "text"`**: Opcional. Se utiliza para identificar el elemento `<rule>` en los registros de depuración y los mensajes de error.
+**`Name = "text"`**: Opcional. Se utiliza para identificar el elemento `<rule>` en los registros de depuración y mensajes de error.
 
-`  *`Atributo`* ="value"`: Opcional. `<rule>` pueden definir cualquiera de los atributos siguientes en cualquier combinación. Si se especifica y la regla se coincide correctamente, se anularán los atributos de catálogo correspondientes para esta solicitud. El valor predeterminado es `RequestType="is"`.
+`  *`Atributo`* ="value"`: Opcional. `<rule>` pueden definir cualquiera de los siguientes atributos en cualquier combinación. Si se especifica y la regla se encuentra correctamente coincidente, se anularán los atributos de catálogo correspondientes para esta solicitud. El valor predeterminado es `RequestType="is"`.
 
 <table id="table_67AED5BEADDF4DAC99B5EF46438C1ABC"> 
  <thead> 
@@ -72,7 +73,7 @@ Solicitar elemento de regla. Una o más reglas son opcionales en el elemento `<r
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> ErrorImage</span> </p> </td> 
-   <td> <p><a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errorimage.md#reference-c494d5d8b2584fe3800f35baabd0292c" type="reference" format="dita" scope="local"> attribute::ErrorImage</a> </p> </td> 
+   <td> <p><a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errorimage.md#reference-c494d5d8b2584fe3800f35baabd0292c" type="reference" format="dita" scope="local"> atributo::ErrorImage</a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> Caducidad</span> </p> </td> 
@@ -107,7 +108,7 @@ Solicitar elemento de regla. Una o más reglas son opcionales en el elemento `<r
 
 Consulte la descripción del atributo correspondiente del catálogo de imágenes para obtener más información.
 
-Los atributos Caducidad solo anulan los valores de atributo predeterminados. La anulación se omite si se aplica un valor `catalog::Expiration` específico a la solicitud.
+Los atributos Caducidad solo anulan los valores de atributo predeterminados. La anulación se omite si se aplica un valor específico `catalog::Expiration` a la solicitud.
 
 ## Datos {#section-8fce013a4c724da58af3fee4e7a90e72}
 
@@ -132,10 +133,10 @@ Los atributos Caducidad solo anulan los valores de atributo predeterminados. La 
 
 ## Notas {#section-0c5fbc363070419d8c9800b0c02dc9f9}
 
-Si se especifican `<expression>` y `<substitution>` y no se utilizan subcadenas capturadas, la primera subcadena coincidente se reemplaza por `<substitution>`.
+Si se especifican `<expression>` y `<substitution>`, y no se utilizan subcadenas capturadas, la primera subcadena coincidente se reemplaza por `<substitution>`.
 
-Si no se especifica `<expression>`, cualquier ruta coincide y `<substitution>` se anexa al final de la ruta.
+Si no se especifica `<expression>`, cualquier ruta coincide con y `<substitution>` se anexa al final de la ruta.
 
-Si no se especifica `<substitution>`, no se produce ninguna transformación de ruta o consulta, pero se sobrescriben los atributos de catálogo especificados. Si `<substitution>` está vacío, se elimina la subcadena coincidente.
+Si no se especifica `<substitution>`, no se produce ninguna transformación de ruta o consulta, pero se anula cualquier atributo de catálogo especificado. Si `<substitution>` está vacío, se elimina la subcadena coincidente.
 
-El `<addressfilter>` se aplica solamente cuando se produce una coincidencia y antes de que se apliquen las reglas de consulta.
+El `<addressfilter>` solo se aplica cuando se produce una coincidencia y antes de que se apliquen las reglas de consulta.
