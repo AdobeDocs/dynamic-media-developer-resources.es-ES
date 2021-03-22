@@ -1,15 +1,16 @@
 ---
-description: Ruta del clip de capa invertida. Especifica una ruta de clip de exclusión para la capa actual. Todas las partes de la capa que se encuentren dentro del área definida por clipXPath= se procesarán como transparentes.
-seo-description: Ruta del clip de capa invertida. Especifica una ruta de clip de exclusión para la capa actual. Todas las partes de la capa que se encuentren dentro del área definida por clipXPath= se procesarán como transparentes.
+description: Ruta de recorte de capa invertida. Especifica una ruta de recorte de exclusión para la capa actual. Todas las partes de la capa que se encuentren dentro del área definida por clipXPath= se procesarán con transparencia.
+seo-description: Ruta de recorte de capa invertida. Especifica una ruta de recorte de exclusión para la capa actual. Todas las partes de la capa que se encuentren dentro del área definida por clipXPath= se procesarán con transparencia.
 seo-title: clipXPath
 solution: Experience Manager
 title: clipXPath
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a4062f3f-5dba-4514-acde-e1b7d608a2e9
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '155'
 ht-degree: 4%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 4%
 
 # clipXPath{#clipxpath}
 
-Ruta del clip de capa invertida. Especifica una ruta de clip de exclusión para la capa actual. Todas las partes de la capa que se encuentren dentro del área definida por clipXPath= se procesarán como transparentes.
+Ruta de recorte de capa invertida. Especifica una ruta de recorte de exclusión para la capa actual. Todas las partes de la capa que se encuentren dentro del área definida por clipXPath= se procesarán con transparencia.
 
 `clipXPath= *`pathDefinition`*`
 
@@ -30,7 +31,7 @@ Ruta del clip de capa invertida. Especifica una ruta de clip de exclusión para 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> pathName</span> </span> </p> </td> 
-  <td class="stentry"> <p>Nombre de la ruta incrustada en la imagen de origen de la capa (solo ASCII). </p></td> 
+  <td class="stentry"> <p>Nombre de la ruta de acceso incrustada en la imagen de origen de la capa (solo ASCII). </p></td> 
  </tr> 
 </table>
 
@@ -38,7 +39,7 @@ Consulte [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http
 
 ## Propiedades {#section-acf7272ba93a4bbba818b8e6aa4dcea5}
 
-Atributo de capa. Se aplica a la capa actual o a la imagen compuesta si `layer=comp`. Se omite si no se especifica `clipPath=`. Omitido por capas de efectos.
+Atributo de capa. Se aplica a la capa actual o a la imagen compuesta si `layer=comp`. Se omite si no se especifica `clipPath=`. Ignorado por capas de efecto.
 
 ## Predeterminado {#section-d1986aa31af14767aeb1b4a57add67f4}
 
