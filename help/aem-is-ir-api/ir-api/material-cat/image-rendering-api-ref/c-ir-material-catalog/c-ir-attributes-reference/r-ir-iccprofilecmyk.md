@@ -4,12 +4,13 @@ seo-description: Espacio de color predeterminado CMYK. Especifica el nombre del 
 seo-title: IccProfileCmyk
 solution: Experience Manager
 title: IccProfileCmyk
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d923d0fd-f00b-4fce-8ce9-8b177b4dba96
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '153'
 ht-degree: 2%
 
 ---
@@ -25,7 +26,7 @@ Cadena de texto. Si se especifica, debe ser un valor `icc::Name` válido del map
 
 ## Predeterminado {#section-55026b7454af4d868bcb47f7743c9c5b}
 
-Se hereda de `default::IccProfileCmyk` si no está definida o si está vacía.
+Se hereda de `default::IccProfileCmyk` si no está definido o si está vacío.
 
 ## Véase también {#section-89feb193693b43dc99a2107658d57154}
 
