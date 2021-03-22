@@ -1,15 +1,16 @@
 ---
-description: Tiempo de espera de la caché del cliente. Número de horas hasta la caducidad. Se utiliza para administrar el almacenamiento en caché de cliente y servidor proxy.
-seo-description: Tiempo de espera de la caché del cliente. Número de horas hasta la caducidad. Se utiliza para administrar el almacenamiento en caché de cliente y servidor proxy.
+description: Tiempo de vida de la caché del cliente. Número de horas hasta la caducidad. Se utiliza para administrar el almacenamiento en caché del cliente y del servidor proxy.
+seo-description: Tiempo de vida de la caché del cliente. Número de horas hasta la caducidad. Se utiliza para administrar el almacenamiento en caché del cliente y del servidor proxy.
 seo-title: Vencimiento
 solution: Experience Manager
 title: Vencimiento
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6dbd7d43-727c-42fc-8953-dba112209a45
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '343'
 ht-degree: 2%
 
 ---
@@ -17,19 +18,19 @@ ht-degree: 2%
 
 # Caducidad{#expiration}
 
-Tiempo de espera de la caché del cliente. Número de horas hasta la caducidad. Se utiliza para administrar el almacenamiento en caché de cliente y servidor proxy.
+Tiempo de vida de la caché del cliente. Número de horas hasta la caducidad. Se utiliza para administrar el almacenamiento en caché del cliente y del servidor proxy.
 
-El servidor calcula la fecha y hora de caducidad de los datos de respuesta NTTP agregando este valor a la fecha y hora de transmisión.
+El servidor calcula la fecha y hora de caducidad de los datos de respuesta NTTP añadiendo este valor a la hora y la fecha de transmisión.
 
-Los navegadores administran las memorias caché utilizando los tiempos de caducidad de los archivos. Antes de pasar una solicitud al servidor, el explorador comprobará su caché para ver si el archivo ya se ha descargado. Si es así, y si el archivo aún no ha caducado, el explorador enviará una solicitud de GET condicional (por ejemplo, con el encabezado de solicitud If-Modified-Since HTTP) en lugar de una solicitud de GET normal. El servidor tiene la opción de responder con el estado &#39;304&#39; y no transmitir la imagen. El explorador simplemente cargará el archivo desde su caché. Esto puede aumentar sustancialmente el rendimiento general de los datos a los que se accede con frecuencia.
+Los navegadores administran las cachés mediante tiempos de caducidad de los archivos. Antes de pasar una solicitud al servidor, el explorador comprobará su caché para ver si el archivo ya se ha descargado. Si es así, y si el archivo aún no ha caducado, el explorador enviará una solicitud de GET condicional (por ejemplo, con el encabezado de solicitud HTTP If-Modified-Since) en lugar de una solicitud de GET normal. El servidor tiene la opción de responder con un estado &quot;304&quot; y no transmitir la imagen. El navegador simplemente cargará el archivo desde su caché. Esto puede aumentar sustancialmente el rendimiento general de los datos a los que se accede con frecuencia.
 
-El servidor establecerá el encabezado de respuesta HTTP expires en la fecha y hora actuales más el valor más pequeño de la viñeta::Caducidad y todo el catálogo::Valores de caducidad para la viñeta y todos los materiales involucrados en la operación de procesamiento.
+El servidor establecerá el encabezado de respuesta HTTP expira en la fecha y hora actuales, además del menor de los valores de viñeta::Expiration y all catalog::Expiration para la viñeta y todos los materiales implicados en la operación de renderización.
 
-La caducidad se establece principalmente para las respuestas de datos de imagen. Determinados tipos de respuestas siempre se marcarán para su caducidad inmediata (o se etiquetarán como no procesables), incluidas todas las respuestas de error o las respuestas de propiedad.
+La caducidad se establece principalmente para las respuestas de datos de imagen. Ciertos tipos de respuestas siempre se marcarán para su caducidad inmediata (o se etiquetarán como no almacenables en caché), incluidas todas las respuestas de error o las respuestas de propiedad.
 
 ## Propiedades {#section-e87e8f6b6d224c6ea2eeaad695c04be8}
 
-Número real, -2, -1, 0 o bueno. Número de horas hasta la caducidad desde que se generó la imagen de respuesta. Establezca el valor 0 para que la imagen de respuesta caduque siempre inmediatamente, lo que deshabilita el almacenamiento en caché del cliente. Establezca en -1 para marcar como `never expire`. En este caso, el servidor siempre devuelve el estado 304 (no modificado) en respuesta a solicitudes condicionales `GET` sin comprobar si el archivo ha cambiado realmente. Establezca en -2 para utilizar el valor predeterminado proporcionado por `attribute::Expiration`.
+Número real, -2, -1, 0 o bueno. Número de horas hasta la caducidad desde que se generó la imagen de respuesta. Establézcalo en 0 para que siempre caduque la imagen de respuesta inmediatamente, lo que deshabilita efectivamente el almacenamiento en caché del cliente. Configúrelo en -1 para marcar como `never expire`. En este caso, el servidor siempre devuelve el estado 304 (no modificado) en respuesta a solicitudes condicionales `GET` sin comprobar si el archivo ha cambiado realmente. Configúrelo en -2 para utilizar el valor predeterminado proporcionado por `attribute::Expiration`.
 
 ## Predeterminado {#section-79d71706e12a4493a69d7febc3a1f271}
 
