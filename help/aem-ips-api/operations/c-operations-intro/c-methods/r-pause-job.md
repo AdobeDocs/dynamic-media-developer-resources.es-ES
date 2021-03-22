@@ -1,23 +1,24 @@
 ---
-description: Detiene un trabajo activo.
-seo-description: Detiene un trabajo activo.
+description: Pone en pausa un trabajo activo.
+seo-description: Pone en pausa un trabajo activo.
 seo-title: pauseJob
 solution: Experience Manager
 title: pauseJob
-topic: Dynamic Media Image Production System API
 uuid: baad2ad6-46f5-4133-a6d9-8ffadf990a06
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 18%
+source-wordcount: '73'
+ht-degree: 16%
 
 ---
 
 
 # pauseJob{#pausejob}
 
-Detiene un trabajo activo.
+Pone en pausa un trabajo activo.
 
 Sintaxis
 
@@ -38,12 +39,12 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Manejar a la compañía. |
-| `*`jobHandle`*` | `xsd:string` | Sí | Administre el trabajo que desea pausar. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Gestionar a la empresa. |
+| `*`jobHandle`*` | `xsd:string` | Sí | Gestione el trabajo que desea pausar. |
 
 **Salida (PauseJobReturn)**
 
-La API de IPS no devuelve una respuesta para esta operación.
+La API IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-ee4914f9496f4bd88556728a48fb22c1}
 
