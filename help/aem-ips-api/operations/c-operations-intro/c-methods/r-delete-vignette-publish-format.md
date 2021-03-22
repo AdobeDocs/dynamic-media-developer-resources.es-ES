@@ -4,13 +4,14 @@ seo-description: Elimina un formato de publicación de viñeta.
 seo-title: deleteVignettePublishFormat
 solution: Experience Manager
 title: deleteVignettePublishFormat
-topic: Dynamic Media Image Production System API
 uuid: 3c8148d5-dec6-4ffa-8ab8-2cd70811ada6
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 13%
+source-wordcount: '88'
+ht-degree: 12%
 
 ---
 
@@ -32,16 +33,16 @@ Elimina un formato de publicación de viñeta.
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía a la que pertenece la viñeta. |
-| `*`vignetteFormatHandle`*` | `xsd:string` | Sí | Identificador del formato de publicación de la viñeta que se va a eliminar. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la empresa a la que pertenece la viñeta. |
+| `*`viñetaFormatoControlador`*` | `xsd:string` | Sí | Identificador del formato de publicación de la viñeta que se va a eliminar. |
 
 **Salida (deleteVignettePublishFormatParam)**
 
-La API de IPS no devuelve una respuesta para esta operación.
+La API IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-5ab2a314ad4c41ac8b3a24eaea7d8585}
 
-Este ejemplo de código elimina un formato de publicación de viñeta especificado por su identificador.
+Este ejemplo de código elimina un formato de publicación de viñeta especificado por su controlador.
 
 **Solicitar**
 
