@@ -1,23 +1,24 @@
 ---
-description: Devuelve datos de archivo Zip.
-seo-description: Devuelve datos de archivo Zip.
+description: Devuelve datos de archivo zip.
+seo-description: Devuelve datos de archivo zip.
 seo-title: getZipEntries
 solution: Experience Manager
 title: getZipEntries
-topic: Dynamic Media Image Production System API
 uuid: cfc45f83-1cf9-4c50-9aac-5a731e62a839
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 21%
+source-wordcount: '82'
+ht-degree: 19%
 
 ---
 
 
 # getZipEntries{#getzipentries}
 
-Devuelve datos de archivo Zip.
+Devuelve datos de archivo zip.
 
 Sintaxis
 
@@ -39,8 +40,8 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía que contiene el archivo Zip. |
-| `*`assetHandle`*` | `xsd:string` | Sí | Administre el archivo Zip. |
+| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa que contiene el archivo Zip. |
+| `*`assetHandle`*` | `xsd:string` | Sí | Gestionar en el archivo Zip. |
 
 **Salida (getZipEntriesReturn)**
 
@@ -50,7 +51,7 @@ Sintaxis
 
 ## Ejemplos {#section-1fc0ad8fa448492cb5a135d3e3d161ac}
 
-Este ejemplo de código devuelve información del archivo Zip, incluido el tamaño comprimido y sin comprimir.
+Este ejemplo de código devuelve información del archivo zip, incluido el tamaño comprimido y sin comprimir.
 
 **Solicitar**
 
