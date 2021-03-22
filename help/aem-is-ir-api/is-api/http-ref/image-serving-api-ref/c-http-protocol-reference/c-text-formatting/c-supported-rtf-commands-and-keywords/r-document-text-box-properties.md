@@ -1,15 +1,16 @@
 ---
-description: Las siguientes propiedades de documento son compatibles con los cuadros de texto.
-seo-description: Las siguientes propiedades de documento son compatibles con los cuadros de texto.
-seo-title: Propiedades de documento (cuadro de texto)
+description: Las siguientes propiedades del documento son compatibles con los cuadros de texto.
+seo-description: Las siguientes propiedades del documento son compatibles con los cuadros de texto.
+seo-title: Propiedades del documento (cuadro de texto)
 solution: Experience Manager
-title: Propiedades de documento (cuadro de texto)
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Propiedades del documento (cuadro de texto)
 uuid: 743a773a-83b0-4667-9c67-4cefbfe77bbd
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '230'
 ht-degree: 1%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 1%
 
 # Propiedades del documento (cuadro de texto){#document-text-box-properties}
 
-Las siguientes propiedades de documento son compatibles con los cuadros de texto.
+Las siguientes propiedades del documento son compatibles con los cuadros de texto.
 
 <table id="table_8E1DF8E6BD894D7A9ACFC839918E2315"> 
  <thead> 
@@ -50,7 +51,7 @@ Las siguientes propiedades de documento son compatibles con los cuadros de texto
   </tr> 
   <tr> 
    <td> <span class="codeph"> \*\iscolortbl  </span> </td> 
-   <td> <p>Tabla de color para los colores del servicio de imágenes. </p> </td> 
+   <td> <p>Tabla de color para los colores de servicio de imágenes. </p> </td> 
    <td> <p>Extensión de Dynamic Media; <span class="codeph"> textPs= </span> solamente </p> </td> 
   </tr> 
   <tr> 
@@ -71,22 +72,22 @@ Las siguientes propiedades de documento son compatibles con los cuadros de texto
   <tr> 
    <td> <span class="codeph"> \cyan  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Componente de color cian. </p> </td> 
-   <td> <p>Extensión de Dynamic Media; sólo puede aparecer en <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
+   <td> <p>Extensión de Dynamic Media; solo puede aparecer en <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \magenta  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Componente de color magenta. </p> </td> 
-   <td> <p>Extensión de Dynamic Media; sólo puede aparecer en <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
+   <td> <p>Extensión de Dynamic Media; solo puede aparecer en <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \amarillo  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Componente de color amarillo. </p> </td> 
-   <td> <p>Extensión de Dynamic Media; sólo puede aparecer en <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
+   <td> <p>Extensión de Dynamic Media; solo puede aparecer en <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \black  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Componente de color negro. </p> </td> 
-   <td> <p>Extensión de Dynamic Media; sólo puede aparecer en <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
+   <td> <p>Extensión de Dynamic Media; solo puede aparecer en <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \margl  <span class="varname"> N  </span> </span> </td> 
@@ -110,7 +111,7 @@ Las siguientes propiedades de documento son compatibles con los cuadros de texto
   </tr> 
   <tr> 
    <td> <span class="codeph"> \vertalt  </span> </td> 
-   <td> <p>Alinear texto arriba en el cuadro de texto. </p> </td> 
+   <td> <p>Alinea el texto arriba en el cuadro de texto. </p> </td> 
    <td> <p>Predeterminado </p> </td> 
   </tr> 
   <tr> 
@@ -126,7 +127,7 @@ Las siguientes propiedades de documento son compatibles con los cuadros de texto
   <tr> 
    <td> <span class="codeph"> \stextflow  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Orientación del flujo de texto. </p> </td> 
-   <td> <p>Flujo de texto específico del idioma; <span class="codeph"> textPs= </span> sólo 0 (predeterminado) izquierda-derecha, arriba-abajo (europeo) 1 arriba-abajo, derecha-izquierda (Lejano Oriente) </p> </td> 
+   <td> <p>Flujo de texto específico del idioma; <span class="codeph"> textPs= </span> solo 0 (predeterminado) izquierda-derecha, arriba-abajo (europeo) 1 arriba-abajo, derecha-izquierda (Lejano Oriente) </p> </td> 
   </tr> 
  </tbody> 
 </table>
