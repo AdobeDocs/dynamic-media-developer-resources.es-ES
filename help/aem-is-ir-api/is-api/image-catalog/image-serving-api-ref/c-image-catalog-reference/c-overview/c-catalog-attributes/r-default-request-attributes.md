@@ -4,12 +4,13 @@ seo-description: Los archivos de atributos del catálogo reconocen estos atribut
 seo-title: Atributos de solicitud predeterminados
 solution: Experience Manager
 title: Atributos de solicitud predeterminados
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e83db949-67ba-4d70-8f66-41f5415c35ee
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '86'
 ht-degree: 1%
 
 ---
@@ -27,7 +28,7 @@ Los archivos de atributos del catálogo reconocen estos atributos de solicitud p
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultfont.md#reference-48b763ac254545e89a25c76ff7581107" format="dita" scope="local"> DefaultFont</a></span> </p> </td> 
-   <td colname="col2"> <p> Nombre de la fuente predeterminada. </p> </td> 
+   <td colname="col2"> <p> Nombre predeterminado de la fuente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-defaultimage.md#reference-8e9900e129f54ed68462a3c2fc3bc433" format="dita" scope="local"> DefaultImage</a></span> </p> </td> 
@@ -35,11 +36,11 @@ Los archivos de atributos del catálogo reconocen estos atributos de solicitud p
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultpix.md#reference-996b2c22b30f4fd9b970c84063306df1" format="dita" scope="local"> DefaultPix</a></span> </p> </td> 
-   <td colname="col2"> <p> Tamaño predeterminado para las imágenes de respuesta. </p> </td> 
+   <td colname="col2"> <p> Tamaño predeterminado de las imágenes de respuesta. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultthumbpix.md#reference-cf52bb74bed2466e8bc8adb0cacd6141" format="dita" scope="local"> DefaultThumbPix</a></span> </p> </td> 
-   <td colname="col2"> <p> Tamaño predeterminado para miniaturas. </p> </td> 
+   <td colname="col2"> <p> Tamaño predeterminado de las miniaturas. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-bkgcolor.md#reference-ed53106ee50442d7a2dd3e1f60e6f0f8" format="dita" scope="local"> BkgColor</a></span> </p> </td> 
@@ -55,7 +56,7 @@ Los archivos de atributos del catálogo reconocen estos atributos de solicitud p
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultlocale.md#reference-69462ad9923f464f80c2c012342a6b6b" format="dita" scope="local"> DefaultLocale</a></span> </p> </td> 
-   <td colname="col2"> <p> ID de configuración regional predeterminada. </p> </td> 
+   <td colname="col2"> <p> ID de configuración regional predeterminado. </p> </td> 
   </tr> 
  </tbody> 
 </table>
