@@ -2,20 +2,21 @@
 description: estilo
 solution: Experience Manager
 title: estilo
-topic: Dynamic Media
 uuid: 6320c8dd-4827-41dc-a621-6fdf22e55003
+feature: Dynamic Media Classic,Visualizadores,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 8%
+source-wordcount: '106'
+ht-degree: 7%
 
 ---
 
 
 # estilo{#style}
 
-Puede aplicar el siguiente comando desde la cadena de consulta URL y desde la configuración. El comando aplicado en la cadena de consulta URL siempre tiene prioridad sobre el mismo comando presente en la configuración.
+Puede aplicar el siguiente comando tanto desde la cadena de consulta de URL como desde la configuración. El comando aplicado en la cadena de consulta de URL siempre tiene prioridad sobre el mismo comando presente en la configuración.
 
 `style= *`cssPath`*`
 
@@ -23,7 +24,7 @@ Puede aplicar el siguiente comando desde la cadena de consulta URL y desde la co
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> cssPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> Ubicación CSS relativa o absoluta. </p> <p>Especifica la ubicación del archivo CSS personalizado. Si el parámetro <span class="codeph"><span class="varname"> cssPath</span></span> es relativo, se resuelve en la ubicación de la página HTML del visor y en el valor del parámetro <span class="codeph"> contentUrl=</span>. </p> </td> 
+   <td colname="col2"> <p> Ubicación CSS relativa o absoluta. </p> <p>Especifica la ubicación del archivo CSS personalizado. Si el <span class="codeph"><span class="varname"> cssPath</span></span> es relativo, se resuelve en relación con la ubicación de la página HTML del visor y el valor del parámetro <span class="codeph"> contentUrl=</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
