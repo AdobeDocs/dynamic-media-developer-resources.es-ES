@@ -4,21 +4,22 @@ seo-description: Utilice lo siguiente para ponerse en contacto con el servicio d
 seo-title: Asistencia técnica
 solution: Experience Manager
 title: Asistencia técnica
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: bab5aab4-b5a3-4c8f-80bd-d9e3289b9bff
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '65'
 ht-degree: 0%
 
 ---
 
 
-# Asistencia técnica{#technical-support}
+# Soporte técnico{#technical-support}
 
-Utilice lo siguiente para ponerse en contacto con el servicio de asistencia técnica.
+Utilice lo siguiente para ponerse en contacto con el soporte técnico.
 
-* **Teléfono** : 800-898-9743 de 06:00 a 18:00, hora del Pacífico de Estados Unidos, de lunes a viernes, excepto festivos.
-* **Cree un caso**  de asistencia técnica:  [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+* **Teléfono**  - 800-898-9743 de 06:00 a 18:00, horario del Pacífico de Estados Unidos, de lunes a viernes, excepto festivos.
+* **Cree un caso de asistencia** :  [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 
