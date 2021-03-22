@@ -1,29 +1,30 @@
 ---
-description: A continuación se muestra la lista de palabras clave y comandos compatibles con el motor de texto del servicio de imágenes de Scene7.
-seo-description: A continuación se muestra la lista de palabras clave y comandos compatibles con el motor de texto del servicio de imágenes de Scene7.
-seo-title: Palabras clave y comandos RTF admitidos
+description: A continuación, se muestra la lista de palabras clave y comandos admitidos por el motor de texto Scene7 Image Serving.
+seo-description: A continuación, se muestra la lista de palabras clave y comandos admitidos por el motor de texto Scene7 Image Serving.
+seo-title: Comandos y palabras clave RTF admitidos
 solution: Experience Manager
-title: Palabras clave y comandos RTF admitidos
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Comandos y palabras clave RTF admitidos
 uuid: 0b77d0c5-c4cc-4de7-b51d-6f2ca02316f5
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
 
 
-# Palabras clave y comandos RTF admitidos{#supported-rtf-commands-and-keywords}
+# Comandos y palabras clave RTF admitidos{#supported-rtf-commands-and-keywords}
 
-A continuación se muestra la lista de palabras clave y comandos compatibles con el motor de texto del servicio de imágenes de Scene7.
+A continuación, se muestra la lista de palabras clave y comandos admitidos por el motor de texto Scene7 Image Serving.
 
 Consulte la especificación [RTF 1.6](http://msdn.microsoft.com/en-us/library/aa140277%28v=office.10%29.aspx) publicada para obtener detalles sobre cada palabra clave o comando.
 
-El analizador ignora los comandos RTF que no se enumeran a continuación.
+El analizador omite los comandos RTF que no se enumeran a continuación.
 
-* [Propiedades de documento (cuadro de texto)](r-document-text-box-properties.md)
+* [Propiedades del documento (cuadro de texto)](r-document-text-box-properties.md)
 * [Formato de párrafo](r-paragraph-formatting.md)
 * [Formato básico de caracteres](r-basic-character-formatting.md)
 * [Formato de texto avanzado](r-advanced-text-formatting.md)
