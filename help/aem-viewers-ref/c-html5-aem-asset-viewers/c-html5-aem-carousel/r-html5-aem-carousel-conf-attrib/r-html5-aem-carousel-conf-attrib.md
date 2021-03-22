@@ -4,12 +4,13 @@ seo-description: Documentación de atributos de configuración para el visor de 
 seo-title: 'Referencia de comandos: Atributos de configuración'
 solution: Experience Manager
 title: 'Referencia de comandos: Atributos de configuración'
-topic: Dynamic Media
 uuid: 036af728-ab00-4db3-98cf-d16f1bffa064
+feature: Dynamic Media Classic,Visores,SDK/API,Banners de carrusel
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
@@ -19,16 +20,16 @@ ht-degree: 0%
 
 Documentación de atributos de configuración para el visor de carrusel.
 
-Cualquier comando de configuración puede configurarse en la dirección URL o mediante `setParam()`, `setParams()` o ambos métodos de API. También se puede especificar cualquier atributo de configuración en el registro de configuración del lado del servidor.
+Cualquier comando de configuración se puede configurar en la dirección URL o utilizando `setParam()`, `setParams()`, o ambos métodos API. Cualquier atributo de configuración también se puede especificar en el registro de configuración del lado del servidor.
 
-Algunos comandos de configuración pueden llevar el prefijo nombre de clase o nombre de instancia del componente SDK del visor correspondiente. Un nombre de instancia del componente es dinámico y depende del ID del elemento DOM de contenedor del visor pasado al método de API `setContainerId()`. La documentación incluye un prefijo opcional para dichos comandos. Por ejemplo, el comando `zoomstep` se documenta de la siguiente manera:
+Algunos comandos de configuración pueden tener el prefijo class name o instance name del componente correspondiente del SDK de visor. Un nombre de instancia del componente es dinámico y depende del ID del elemento DOM del contenedor de visor pasado al método de API `setContainerId()`. La documentación incluye un prefijo opcional para estos comandos. Por ejemplo, el comando `zoomstep` está documentado de la siguiente manera:
 
 `[ZoomView.|<containerId>_carouselView].fmt`
 
 lo que significa que puede utilizar este comando como:
 
 * `fmt` (sintaxis corta)
-* `CarouselView.fmt` (calificado con el nombre de clase de componente)
-* `cont_carouselView.fmt` (calificado con ID de componente, suponiendo que  `cont` es el ID del elemento de contenedor)
+* `CarouselView.fmt` (cualificado con nombre de clase de componente)
+* `cont_carouselView.fmt` (cualificado con ID de componente, suponiendo que  `cont` sea el ID del elemento contenedor)
 
-Consulte también [Referencia de comandos común a todos los visores: atributos de configuración](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)
+Consulte también [Referencia de comando común a todos los visores - Atributos de configuración](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)
