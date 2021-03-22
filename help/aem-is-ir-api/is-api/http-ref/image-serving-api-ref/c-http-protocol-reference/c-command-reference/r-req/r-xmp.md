@@ -1,15 +1,16 @@
 ---
-description: Metadatos XMP. Devuelve los metadatos de XMP asociados a la imagen especificada en la ruta de la solicitud.
-seo-description: Metadatos XMP. Devuelve los metadatos de XMP asociados a la imagen especificada en la ruta de la solicitud.
+description: XMP metadatos. Devuelve los metadatos de XMP asociados con la imagen especificada en la ruta de solicitud.
+seo-description: XMP metadatos. Devuelve los metadatos de XMP asociados con la imagen especificada en la ruta de solicitud.
 seo-title: xmp
 solution: Experience Manager
 title: xmp
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e1583ffe-531a-4334-b974-72df6fcb14ba
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '199'
 ht-degree: 6%
 
 ---
@@ -17,17 +18,17 @@ ht-degree: 6%
 
 # xmp{#xmp}
 
-Metadatos XMP. Devuelve los metadatos de XMP asociados a la imagen especificada en la ruta de la solicitud.
+XMP metadatos. Devuelve los metadatos de XMP asociados con la imagen especificada en la ruta de solicitud.
 
 `req=xmp`
 
-Se omiten otros comandos. Se aplica la codificación UTF-8. La respuesta está formateada como XML con tipo MIME `text/xml`.
+Se ignoran otros comandos. Se aplica la codificación UTF-8. La respuesta tiene el formato XML con el tipo MIME `text/xml`.
 
 La respuesta HTTP se puede almacenar en caché con el TTL basado en `catalog::Expiration`.
 
 ## Propiedades {#section-0d26b6a56c844153ae5cea4880370d00}
 
-Solicitar atributo. Se aplica independientemente de la configuración de la capa actual.
+Atributo de solicitud. Se aplica independientemente de la configuración de capa actual.
 
 ## Predeterminado {#section-1b2e089dce5d4e0ab664c62bf1be90dd}
 
@@ -43,7 +44,7 @@ De lo contrario, `req=img`
 
 ## Ejemplos {#section-34213692deab4a0f9037d5844132ee14}
 
-Propiedades del archivo de imagen de consulta.
+Consulte las propiedades del archivo de imagen.
 
 ` http:// *`server`*/myPath/myImage.tif?req=imageprops`
 
@@ -64,7 +65,7 @@ Acceda a las propiedades de una entrada de catálogo de imágenes desde JavaScri
 </script>
 ```
 
-Recupere la imagen de máscara para una entrada de catálogo concreta, con una escala del 25 % del tamaño original:
+Recupere la imagen de máscara para una entrada de catálogo concreta, escalada al 25% del tamaño original:
 
 ` http:// *`server`*/myRootId/myImageId?req=mask&scale=0.25`
 
@@ -80,10 +81,10 @@ Solicite una miniatura de una imagen, basándose en los atributos de miniatura e
 
 ` http:// *`server`*/myRootId/myImageId?req=tmb&wid=64&hei=64`
 
-Enviar un mensaje de texto a los registros del servidor:
+Envíe un mensaje de texto a los registros del servidor:
 
 ` http:// *`server`*/myRootId?req=message&message=This%20is%20the%20message`
 
 ## Véase también {#section-80cb0892c9174681b640985a1a26e590}
 
-[fmt=](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a) ,  [catálogo::Destinatarios](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-targets-cat.md),  [catálogo::DatosUsuario](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md), Escala [ de ](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-thumbnail-scaling.md#reference-0f71817f721d4913b34816758d69b07f)miniaturas,  [Propiedades](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9), Mapas  [de imagen](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md#reference-ff7d1bac2a064104b0c508a81316fdab)
+[fmt=](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a) ,  [catálogo::Targets](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-targets-cat.md),  [catálogo::UserData](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md),  [Escalado](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-thumbnail-scaling.md#reference-0f71817f721d4913b34816758d69b07f) de miniaturas,  [Propiedades](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9), Mapas de  [imágenes](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md#reference-ff7d1bac2a064104b0c508a81316fdab)
