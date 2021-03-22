@@ -2,11 +2,12 @@
 description: Parámetros de operación
 solution: Experience Manager
 title: Parámetros de operación
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 0%
 * [addProjectAssets](r-add-project-assets.md)
 * [addTagFieldValues](r-add-tag-field-values.md)
 * [addUser](r-add-user.md)
-* [batchGetAssetPublishContext](r-batch-get-asset-publish-contexts.md)
+* [batchGetAssetPublishContexts](r-batch-get-asset-publish-contexts.md)
 * [batchSetAssetMetadata](r-batch-set-asset-metadata.md)
 * [batchSetFontFields](r-batch-set-font-fields.md)
 * [batchSetIccProfileFields](r-batch-set-icc-profile-fields.md)
@@ -111,7 +112,7 @@ ht-degree: 0%
 * [getUsers](r-get-users.md)
 * [getViewerConfigSettings](r-get-viewer-config-settings.md)
 * [getVignettePublishFormats](r-get-vignette-publish-formats.md)
-* [getXMPPaca](r-get-xmp-packet.md)
+* [getXMPPackets](r-get-xmp-packet.md)
 * [getZipEntries](r-get-zip-entries.md)
 * [moveAsset](r-move-asset.md)
 * [moveAssets](r-move-assets.md)
@@ -124,8 +125,8 @@ ht-degree: 0%
 * [removeGroupMembership](r-remove-group-membership.md)
 * [removeProjectAssets](r-remove-project-assets.md)
 * [changeAsset](r-rename-asset.md)
-* [RenameFolder](r-rename-folder.md)
-* [RenameProject](r-rename-project.md)
+* [filenameFolder](r-rename-folder.md)
+* [changeProject](r-rename-project.md)
 * [replaceImage](r-replace-image.md)
 * [restoreAssetsFromTrash](r-restore-assets-from-trash.md)
 * [resumeJob](r-resume-job.md)
@@ -160,7 +161,7 @@ ht-degree: 0%
 * [setZoomTargets](r-set-zoom-targets.md)
 * [stopJob](r-stop-job.md)
 * [submitJob](r-submit-job.md)
-* [updateAssetPermissons](r-update-asset-permissions.md)
+* [updateAssetPermisos](r-update-asset-permissions.md)
 * [updateAssetSet](r-update-asset-set.md)
 * [updateFolderPermissions](r-update-folder-permissions.md)
 * [updateImageSet](r-update-image-set.md)
@@ -169,4 +170,4 @@ ht-degree: 0%
 * [updateTagFieldValues](r-update-tag-field-values.md)
 * [updateViewerConfigSettings](r-update-viewer-config-settings.md)
 * [updateVignettePublishFormat](r-update-vignette-publish-format.md)
-* [updateXMPPaca](r-update-xmp-packet.md)
+* [updateXMPPackets](r-update-xmp-packet.md)
