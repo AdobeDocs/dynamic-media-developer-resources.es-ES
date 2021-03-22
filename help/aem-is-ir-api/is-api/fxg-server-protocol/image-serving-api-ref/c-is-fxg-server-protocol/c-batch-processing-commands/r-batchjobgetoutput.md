@@ -1,15 +1,16 @@
 ---
-description: Recuperar el resultado de un trabajo enviado.
-seo-description: Recuperar el resultado de un trabajo enviado.
+description: Recupere el resultado de un trabajo enviado.
+seo-description: Recupere el resultado de un trabajo enviado.
 seo-title: batchjobgetoutput
 solution: Experience Manager
 title: batchjobgetoutput
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c2d49cc2-3223-4f0f-8ba7-4f74a5f76789
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '65'
 ht-degree: 1%
 
 ---
@@ -17,20 +18,20 @@ ht-degree: 1%
 
 # batchjobgetoutput{#batchjobgetoutput}
 
-Recuperar el resultado de un trabajo enviado.
+Recupere el resultado de un trabajo enviado.
 
 Este parámetro:
 
 <table id="simpletable_D8AA325968AD4FAEA7B214F0CBBF3F08"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> jobid  </span> </p> </td> 
-  <td class="stentry"> <p>Id. de trabajo obtenido en el momento del envío. </p> </td> 
+  <td class="stentry"> <p>ID de trabajo obtenido en el momento del envío. </p> </td> 
  </tr> 
 </table>
 
 Devuelve:
 
-La salida en PDF del trabajo se transmite como respuesta; error si `jobid` no es válido o se ha eliminado el trabajo.
+La salida en PDF del trabajo se transmite como respuesta; error si `jobid` no es válido o el trabajo se ha eliminado.
 
 ## Ejemplo {#section-0319e615fa254132a9dab59351b4c252}
 
