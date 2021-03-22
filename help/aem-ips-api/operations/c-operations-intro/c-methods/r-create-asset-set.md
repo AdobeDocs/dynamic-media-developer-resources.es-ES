@@ -1,15 +1,16 @@
 ---
-description: Crea un conjunto de recursos genérico con una cadena de definición de conjunto sin procesar para publicarlo en un servidor de imágenes.
-seo-description: Crea un conjunto de recursos genérico con una cadena de definición de conjunto sin procesar para publicarlo en un servidor de imágenes.
+description: Crea un conjunto de recursos genérico con una cadena de definición de conjunto sin procesar que se publicará en un servidor de imágenes.
+seo-description: Crea un conjunto de recursos genérico con una cadena de definición de conjunto sin procesar que se publicará en un servidor de imágenes.
 seo-title: createAssetSet
 solution: Experience Manager
 title: createAssetSet
-topic: Dynamic Media Image Production System API
 uuid: 1e86bd37-511c-4c12-abfd-075053b86f78
+feature: Dynamic Media Classic,SDK/API,Administración de activos
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '331'
 ht-degree: 9%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 9%
 
 # createAssetSet{#createassetset}
 
-Crea un conjunto de recursos genérico con una cadena de definición de conjunto sin procesar para publicarlo en un servidor de imágenes.
+Crea un conjunto de recursos genérico con una cadena de definición de conjunto sin procesar que se publicará en un servidor de imágenes.
 
 Sintaxis
 
@@ -48,13 +49,13 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> Identificador de la compañía que contendrá el conjunto de recursos. </td> 
+   <td colname="col4"> El identificador de la empresa que contendrá el conjunto de recursos. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> Identificador de la carpeta en la que se creará el nuevo conjunto de recursos. </td> 
+   <td colname="col4"> El identificador de la carpeta en la que se creará el nuevo conjunto de recursos. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name  </span> </span> </td> 
@@ -72,20 +73,20 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Parámetros de la cadena de definición establecida. <p>Deben resolverse en el formato especificado por el visor de destinatario. </p> </td> 
+   <td colname="col4"> Los parámetros de la cadena de definición del conjunto. <p>Deben resolverse en el formato especificado por el visor de destino. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Control del recurso que actúa como miniatura para el nuevo conjunto de imágenes. Si no se especifica, IPS intenta utilizar el primer recurso de imagen al que hace referencia el conjunto. </td> 
+   <td colname="col4"> Control del recurso que actúa como la miniatura del nuevo conjunto de imágenes. Si no se especifica, IPS intenta utilizar el primer recurso de imagen al que hace referencia el conjunto. </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Funciones de sustitución para setDefinition**
 
-Puede especificar las funciones de sustitución en línea que se resuelven durante la búsqueda o publicación del catálogo. Las cadenas de sustitución tienen el formato `${<substitution_func>}`. A continuación se enumeran las funciones disponibles.
+Puede especificar funciones de sustitución en línea que se resuelvan durante la búsqueda o publicación del catálogo. Las cadenas de sustitución tienen el formato `${<substitution_func>}`. A continuación se enumeran las funciones disponibles.
 
 >[!NOTE]
 >
@@ -94,11 +95,11 @@ Puede especificar las funciones de sustitución en línea que se resuelven duran
 | **Función de sustitución** | **Devuelve** |
 |---|---|
 | `getFilePath([asset_handle>])` | Ruta del archivo de origen principal del recurso. |
-| `getCatalogId([<asset_handle>])` | ID del catálogo del recurso. |
+| `getCatalogId([<asset_handle>])` | El ID de catálogo del recurso. |
 | `getMetaData([<asset_handle>], [<metadata_field_handle>])` | Valores de metadatos del recurso. |
-| `getThumbCatalogId([<asset_handle>])` | El ID de catálogo del recurso (solo para recursos basados en imágenes). El ID de catálogo del recurso de miniatura asociado (para otros recursos). Si un recurso de miniatura asociado no está disponible, la función devuelve una cadena vacía. |
+| `getThumbCatalogId([<asset_handle>])` | El ID de catálogo del recurso (solo para recursos basados en imágenes). El ID de catálogo del recurso principal asociado (para otros recursos). Si un recurso de miniatura asociado no está disponible, la función devuelve una cadena vacía. |
 
-**Cadena de definición de conjunto de medios de muestra**
+**Cadena Media setDefinition de muestra**
 
 ```java
 ${getCatalogId([a|1664|22|1664])};${getCatalogId([a|1664|22|1664])};1,${getFilePath([a|103 
@@ -115,7 +116,7 @@ jcompany/myRenderSet;jcompany/myRenderSet;1,jcompany/Videos/Somebodys_N08275_flv
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Sí | Identificador del conjunto de recursos. |
+| `*`assetHandle`*` | `xsd:string` | Sí | El identificador del conjunto de recursos. |
 
 ## Ejemplos {#section-fed53089de824d67ab96cd9103d384b4}
 
