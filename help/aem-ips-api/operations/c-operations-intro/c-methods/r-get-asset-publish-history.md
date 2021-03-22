@@ -4,13 +4,14 @@ seo-description: Devuelve el historial de publicación de un recurso.
 seo-title: getAssetPublishHistory
 solution: Experience Manager
 title: getAssetPublishHistory
-topic: Dynamic Media Image Production System API
 uuid: 15025c3d-eac3-4cb8-9a2a-fd80bd67478f
+feature: Dynamic Media Classic,SDK/API,Administración de activos
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 16%
+source-wordcount: '106'
+ht-degree: 15%
 
 ---
 
@@ -39,14 +40,14 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía con el historial de publicación de recursos. |
-| `*`assetHandle`*` | `xsd:string` | Sí | Recurso con el historial de publicación que desea examinar. |
+| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa con el historial de publicación de recursos. |
+| `*`assetHandle`*` | `xsd:string` | Sí | El recurso con el historial de publicación que desea examinar. |
 
 **Salida (getAssetPublishHistoryReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`pubHistoryArray`*` | `types:PublishHistoryArray` | Sí | Historial de publicación del recurso. |
+| `*`pubHistoryArray`*` | `types:PublishHistoryArray` | Sí | El historial de publicación del recurso. |
 
 ## Ejemplos {#section-53897c51e5a047c5bd5ea5a6efb2d114}
 
