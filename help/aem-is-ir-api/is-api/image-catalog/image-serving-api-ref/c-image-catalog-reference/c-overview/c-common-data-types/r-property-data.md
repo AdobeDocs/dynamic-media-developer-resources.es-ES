@@ -4,12 +4,13 @@ seo-description: Los datos de propiedad constan de una cadena de texto que repre
 seo-title: Datos de propiedad
 solution: Experience Manager
 title: Datos de propiedad
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7fa6ae70-8d70-41d6-9e47-7df3d616874c
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ Los datos de propiedad constan de una cadena de texto que representa una o varia
 
 Una propiedad consta de un nombre de propiedad y un valor de propiedad, separados por =.
 
-Las propiedades múltiples están separadas por separadores de línea, que pueden ser `??` o `<CR><LF>`. Si toda la cadena de datos de propiedad no está entre comillas, el servidor reemplaza cada incidencia de `??` por `<CR><LF>` antes de transmitir los datos al cliente. Los nombres de propiedad pueden constar de letras, números, &#39;.&#39;, &#39;-&#39; y &#39;_&#39;. Los nombres de propiedades no distinguen entre mayúsculas y minúsculas.
+Las propiedades múltiples se separan con separadores de línea, que pueden ser `??` o `<CR><LF>`. Si toda la cadena de datos de la propiedad no está entre comillas, el servidor reemplaza cada incidencia de `??` por `<CR><LF>` antes de transmitir los datos al cliente. Los nombres de propiedades pueden constar de letras, números, &#39;.&#39;, &#39;-&#39; y &#39;_&#39;. Los nombres de propiedades no distinguen entre mayúsculas y minúsculas.
 
 Los valores de propiedad no deben incluir separadores de línea.
 
