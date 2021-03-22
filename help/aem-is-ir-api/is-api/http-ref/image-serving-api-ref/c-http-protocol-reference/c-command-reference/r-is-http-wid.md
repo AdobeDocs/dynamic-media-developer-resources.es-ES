@@ -1,15 +1,16 @@
 ---
-description: Ancho de vista. Especifica el ancho de la imagen de respuesta (imagen de vista) cuando fit= no está presente en la solicitud.
-seo-description: Ancho de vista. Especifica el ancho de la imagen de respuesta (imagen de vista) cuando fit= no está presente en la solicitud.
+description: Ver anchura. Especifica el ancho de la imagen de respuesta (ver imagen) cuando fit= no está presente en la solicitud.
+seo-description: Ver anchura. Especifica el ancho de la imagen de respuesta (ver imagen) cuando fit= no está presente en la solicitud.
 seo-title: wid
 solution: Experience Manager
 title: wid
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 30aeeea0-c8c9-40b9-a244-2802a7102dd6
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '300'
 ht-degree: 3%
 
 ---
@@ -17,40 +18,40 @@ ht-degree: 3%
 
 # wid{#wid}
 
-Ancho de vista. Especifica el ancho de la imagen de respuesta (imagen de vista) cuando fit= no está presente en la solicitud.
+Ver anchura. Especifica el ancho de la imagen de respuesta (ver imagen) cuando fit= no está presente en la solicitud.
 
 ` wid= *`val`*`
 
 <table id="simpletable_E217453246F5441C896C1F69EA4D4218"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> val  </span> </p> </td> 
-  <td class="stentry"> <p>Ancho de la imagen en píxeles (int bueno que 0). </p> </td> 
+  <td class="stentry"> <p>Anchura de la imagen en píxeles (int bueno a 0). </p> </td> 
  </tr> 
 </table>
 
-Si se especifican `hei=` y `scl=`, la imagen compuesta puede recortarse según el atributo `align=`. Cuando `fit=` está presente, `wid=` especifica el ancho de imagen exacto, mínimo o máximo de respuesta; consulte la descripción de `fit=` para obtener más información.
+Si se especifican `hei=` y `scl=`, la imagen compuesta se puede recortar según el atributo `align=`. Cuando `fit=` está presente, `wid=` especifica el ancho exacto, mínimo o máximo de la imagen de respuesta; consulte la descripción de `fit=` para obtener más información.
 
-Si no se especifica `scl=`, la imagen compuesta se redimensiona para ajustarse. Si se especifican `wid=` y `hei=` y no se especifica `scl=`, la imagen se ajusta para ajustarse completamente al rectángulo wid/hei, dejando el menor área de fondo expuesta posible. En este caso, la imagen se coloca dentro del rectángulo de vista según el atributo `align=`.
+Si no se especifica `scl=`, la imagen compuesta se escala para ajustarse. Si se especifican `wid=` y `hei=` y no se especifica `scl=`, la imagen se escala para que quepa completamente dentro del rectángulo ancho/largo, dejando tan área de fondo expuesta como sea posible. En este caso, la imagen se coloca dentro del rectángulo de vista según el atributo `align=`.
 
 >[!NOTE]
 >
->Se devuelve un error si el tamaño de la imagen de respuesta predeterminada o calculada es mayor que `attribute::MaxPix`.
+>Se devuelve un error si el tamaño de imagen de respuesta calculado o predeterminado es mayor que `attribute::MaxPix`.
 
 ## Predeterminado {#section-976d4c8554a34c899f85d172f6ac6f58}
 
-Si no se especifica ni `wid=`, `hei=` ni `scl=`, la imagen de respuesta tendrá el tamaño de la imagen compuesta o `attribute::DefaultPix`, el que sea más pequeño.
+Si no se especifican `wid=`, `hei=` ni `scl=`, la imagen de respuesta tendrá el tamaño de la imagen compuesta o `attribute::DefaultPix`, el que sea más pequeño.
 
 ## Propiedades {#section-c93b7ce1b0d2475f80b06264b45d1285}
 
-atributo de vista. Se aplica independientemente de la configuración de la capa actual.
+Ver atributo. Se aplica independientemente de la configuración de capa actual.
 
 ## Ejemplo {#section-82bc98b7c15a451bbe9b915d414c0470}
 
-Solicite una imagen para que encaje en un rectángulo de 200 x 200; alinee la imagen arriba a la derecha si no es cuadrada. Cualquier área de fondo se rellena con `attribute::BkgColor`.
+Solicite una imagen para que se ajuste a un rectángulo de 200 x 200; alinee la imagen en la parte superior derecha si no es cuadrada. Cualquier área de fondo se rellena con `attribute::BkgColor`.
 
 ` http:// *`server`*/myRootId/myImageId?wid=200&hei=200&align=1,-1`
 
-La misma imagen, que se distribuye con una anchura fija de 200 píxeles, pero con una altura variable para mantener la proporción de aspecto de la imagen. En este caso, la imagen devuelta nunca tiene áreas de relleno de fondo. Tenga en cuenta que en este caso, align= no tendría ningún efecto.
+La misma imagen, entregada a una anchura fija de 200 píxeles, pero con una altura variable para mantener la relación de aspecto de la imagen. En este caso, la imagen devuelta nunca tiene áreas de relleno de fondo. Tenga en cuenta que en este caso, align= no tendría ningún efecto.
 
 ` http:// *`server`*/myRootId/myImageId?wid=200`
 
