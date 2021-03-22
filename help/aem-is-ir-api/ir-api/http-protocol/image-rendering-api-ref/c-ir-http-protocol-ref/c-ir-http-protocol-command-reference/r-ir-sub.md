@@ -4,12 +4,13 @@ seo-description: Subselección. Permite aplicar diferentes materiales a diferent
 seo-title: sub
 solution: Experience Manager
 title: sub
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: cb9f4dc5-9d89-483a-ae72-b9076b27c57e
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '185'
 ht-degree: 7%
 
 ---
@@ -36,11 +37,11 @@ Subselección. Permite aplicar diferentes materiales a diferentes áreas del obj
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
-  <td class="stentry"> <p>Seleccione el área del borde superior de la pared. </p> </td> 
+  <td class="stentry"> <p>Seleccione el área del borde de la pared superior. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 
-  <td class="stentry"> <p>Seleccione el área del borde central de la pared. </p> </td> 
+  <td class="stentry"> <p>Seleccione el área del borde de la pared central. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p> </td> 
@@ -48,9 +49,9 @@ Subselección. Permite aplicar diferentes materiales a diferentes áreas del obj
  </tr> 
 </table>
 
-Actualmente solo se admite para objetos de pared. Termina un MSS anterior y inicio un nuevo MSS para el material que se va a aplicar a la subselección especificada.
+Actualmente solo se admite para objetos de muro. Termina un MSS anterior e inicia un nuevo MSS para el material que se aplicará a la subselección especificada.
 
-Un material especificado para la pared superior o inferior se aplicará a toda la pared a menos que se haya especificado un material diferente para la otra mitad de la pared.
+Un material especificado para la pared superior o inferior se aplicará a toda la pared a menos que se haya especificado también un material diferente para la otra mitad de la pared.
 
 ## Propiedades {#section-b202139d6d0847cc8d520a154104ab9d}
 
