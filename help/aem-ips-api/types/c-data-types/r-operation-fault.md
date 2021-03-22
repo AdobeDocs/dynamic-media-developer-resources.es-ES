@@ -1,23 +1,24 @@
 ---
-description: Mensaje detallado que responde a una de las direcciones URL proporcionadas en la solicitud de invalidación de CDN.
-seo-description: Mensaje detallado que responde a una de las direcciones URL proporcionadas en la solicitud de invalidación de CDN.
+description: Mensaje detallado que responde a una de las URL proporcionadas en la solicitud de invalidación de CDN.
+seo-description: Mensaje detallado que responde a una de las URL proporcionadas en la solicitud de invalidación de CDN.
 seo-title: OperationFault
 solution: Experience Manager
 title: OperationFault
-topic: Dynamic Media Image Production System API
 uuid: 879d025b-3269-4f87-b8bd-b7916509d077
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 9%
+source-wordcount: '70'
+ht-degree: 8%
 
 ---
 
 
 # OperationFault{#operationfault}
 
-Mensaje detallado que responde a una de las direcciones URL proporcionadas en la solicitud de invalidación de CDN.
+Mensaje detallado que responde a una de las URL proporcionadas en la solicitud de invalidación de CDN.
 
 **Admitido desde**
 
