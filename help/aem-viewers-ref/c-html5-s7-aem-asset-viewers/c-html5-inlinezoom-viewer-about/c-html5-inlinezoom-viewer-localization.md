@@ -1,15 +1,16 @@
 ---
-description: Determinado contenido que muestra el visor flotante está sujeto a localización. Este contenido incluye información sobre herramientas de elementos de la interfaz de usuario y mensajes de información que se muestran en la vista de zoom flotante al cargar.
-seo-description: Determinado contenido que muestra el visor flotante está sujeto a localización. Este contenido incluye información sobre herramientas de elementos de la interfaz de usuario y mensajes de información que se muestran en la vista de zoom flotante al cargar.
+description: El contenido que muestra el visor flotante está sujeto a localización. Este contenido incluye información sobre herramientas de elementos de la interfaz de usuario y mensajes de información que se muestran en la vista de zoom flotante al cargar.
+seo-description: El contenido que muestra el visor flotante está sujeto a localización. Este contenido incluye información sobre herramientas de elementos de la interfaz de usuario y mensajes de información que se muestran en la vista de zoom flotante al cargar.
 seo-title: Localización de los elementos de la interfaz de usuario
 solution: Experience Manager
 title: Localización de los elementos de la interfaz de usuario
-topic: Dynamic Media
 uuid: d824c0c3-3606-4903-96f7-de26a61a8f65
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom en línea
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -17,15 +18,15 @@ ht-degree: 0%
 
 # Localización de los elementos de la interfaz de usuario{#localization-of-user-interface-elements}
 
-Determinado contenido que muestra el visor flotante está sujeto a localización. Este contenido incluye información sobre herramientas de elementos de la interfaz de usuario y mensajes de información que se muestran en la vista de zoom flotante al cargar.
+El contenido que muestra el visor flotante está sujeto a localización. Este contenido incluye información sobre herramientas de elementos de la interfaz de usuario y mensajes de información que se muestran en la vista de zoom flotante al cargar.
 
-Todo el contenido textual del visor que se puede localizar se representa mediante el identificador especial del SDK del visor denominado SYMBOL. Cualquier SYMBOL tiene un valor de texto asociado predeterminado para una configuración regional en inglés ( `"en"`) que se suministra con el visor incorporado, y también puede tener valores definidos por el usuario para tantas configuraciones regionales como sea necesario.
+Todo el contenido textual del visualizador que se puede localizar se representa mediante el identificador especial del SDK del visualizador denominado SYMBOL. Cualquier SYMBOL tiene un valor de texto asociado predeterminado para una configuración regional de inglés ( `"en"`) que se proporciona con el visor predeterminado, y también puede tener valores definidos por el usuario definidos para tantas configuraciones regionales como sea necesario.
 
-Cuando el visor inicio, comprueba la configuración regional actual para ver si hay un valor definido por el usuario para cada SÍMBOLO admitido para dicha configuración regional. Si la hay, utiliza el valor definido por el usuario; de lo contrario, se remonta al texto predeterminado predefinido.
+Cuando se inicia el visor, comprueba la configuración regional actual para ver si hay un valor definido por el usuario para cada SYMBOL compatible para dicha configuración regional. Si existe, utiliza el valor definido por el usuario; de lo contrario, vuelve al texto predeterminado predeterminado predeterminado predeterminado.
 
-Los datos de localización definidos por el usuario se pueden pasar al visor como un objeto JSON de localización. Dicho objeto contiene la lista de configuraciones regionales admitidas, los valores de texto SYMBOL para cada configuración regional y la configuración regional predeterminada.
+Los datos de localización definidos por el usuario se pueden pasar al visor como un objeto JSON de localización. Este objeto contiene la lista de configuraciones regionales admitidas, los valores de texto SYMBOL para cada configuración regional y la configuración regional predeterminada.
 
-Un ejemplo de este objeto de localización es el siguiente:
+Un ejemplo de este tipo de objeto de localización es el siguiente:
 
 ```
 { 
@@ -41,9 +42,9 @@ defaultLocale:"en"
 }
 ```
 
-En el ejemplo anterior, el objeto localización define dos configuraciones regionales ( `"en"` y `"fr"`) y proporciona localización para dos elementos de interfaz de usuario en cada configuración regional.
+En el ejemplo anterior, el objeto de localización define dos configuraciones regionales ( `"en"` y `"fr"`) y proporciona localización para dos elementos de interfaz de usuario en cada configuración regional.
 
-El código de página web debe pasar dicho objeto de localización al constructor del visor, como valor del campo `localizedTexts` del objeto de configuración. Una opción alternativa es pasar el objeto de localización llamando al método `setLocalizedTexts(localizationInfo)`.
+El código de la página web debe pasar dicho objeto de localización al constructor del visor, como un valor del campo `localizedTexts` del objeto de configuración. Una opción alternativa es pasar el objeto de localización llamando al método `setLocalizedTexts(localizationInfo)`.
 
 Se admiten los siguientes SÍMBOLOS:
 
@@ -56,8 +57,8 @@ Se admiten los siguientes SÍMBOLOS:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Contenedor.ETIQUETA  </span> </p> </td> 
-   <td colname="col2"> <p>Etiqueta ARIA para el elemento de visor de nivel superior. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Container.LABEL  </span> </p> </td> 
+   <td colname="col2"> <p>Etiqueta ARIA para el elemento visualizador de nivel superior. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.ROLE_DESCRIPTION  </span> </p> </td> 
@@ -65,7 +66,7 @@ Se admiten los siguientes SÍMBOLOS:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.USAGE_HINT  </span> </p> </td> 
-   <td colname="col2"> <p>Sugerencias de uso de ARIA para usuarios de teclado. </p> </td> 
+   <td colname="col2"> <p>Sugerencias de uso de ARIA para usuarios del teclado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.TIP_BUBBLE_OVER  </span> </p> </td> 
@@ -77,7 +78,7 @@ Se admiten los siguientes SÍMBOLOS:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ScrollLeftButton.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Información del objeto para el botón izquierdo de desplazamiento. </p> </td> 
+   <td colname="col2"> <p>Información del objeto para el botón de desplazamiento izquierdo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ScrollRightButton.TOOLTIP  </span> </p> </td> 
@@ -85,7 +86,7 @@ Se admiten los siguientes SÍMBOLOS:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ScrollUpButton.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Información del objeto para el botón desplazar hacia arriba. </p> </td> 
+   <td colname="col2"> <p>Información del objeto para el botón de desplazamiento hacia arriba. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ScrollDownButton.TOOLTIP  </span> </p> </td> 
