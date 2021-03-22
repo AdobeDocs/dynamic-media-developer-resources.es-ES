@@ -1,15 +1,16 @@
 ---
-description: Cuantificación de color. Especifica atributos de cuantificación de color para la conversión de salida GIF.
-seo-description: Cuantificación de color. Especifica atributos de cuantificación de color para la conversión de salida GIF.
+description: Cuantificación de color. Especifica atributos de cuantización de color para la conversión de salida GIF.
+seo-description: Cuantificación de color. Especifica atributos de cuantización de color para la conversión de salida GIF.
 seo-title: cuantificar
 solution: Experience Manager
 title: cuantificar
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 4e9c4807-59bc-4eb9-bcab-0bf0cfdf56d4
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '241'
 ht-degree: 3%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 3%
 
 # cuantificar{#quantize}
 
-Cuantificación de color. Especifica atributos de cuantificación de color para la conversión de salida GIF.
+Cuantificación de color. Especifica atributos de cuantización de color para la conversión de salida GIF.
 
 ` quantize= *``*[, *``*[, *``*[, *`typedithernumColorscolorList`*]]]`
 
@@ -25,11 +26,11 @@ Cuantificación de color. Especifica atributos de cuantificación de color para 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> type </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {adaptable|web|mac}  </span> </p> <p>Especifica el tipo de paleta. </p> <p>Establezca <span class="codeph"> adaptable </span> para calcular una paleta óptima para la imagen. </p> <p>Establezca <span class="codeph"> web </span> o <span class="codeph"> mac </span> para elegir una paleta predefinida. </p> <p> <p>Nota:  El tipo de pallet <span class="codeph"> mac </span> solo es compatible con los formatos GIF y PNG8, pero no con los formatos GIF-Alpha y PNG8-Alpha. </p> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {adaptable|web|mac}  </span> </p> <p>Especifica el tipo de paleta. </p> <p>Configúrelo en <span class="codeph"> adaptable </span> para calcular una paleta óptima para la imagen. </p> <p>Configúrelo en <span class="codeph"> web </span> o <span class="codeph"> mac </span> para elegir una paleta predefinida. </p> <p> <p>Nota:  El tipo de pallet <span class="codeph"> mac </span> solo es compatible con los formatos GIF y PNG8, pero no con los formatos GIF-Alpha y PNG8-Alpha. </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> tramado  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {difusión|desactivado}  </span> </p> <p>Especifica las opciones de tramado. </p> <p>Establecida en <span class="codeph"> difusión </span> para la difusión de errores de Floyd-Steinberg </p> <p>Establezca <span class="codeph"> en </span> para deshabilitar el tramado. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> dither  </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {difusión|off}  </span> </p> <p>Especifica las opciones de vaciado. </p> <p>Configurado como <span class="codeph"> difuso </span> para la difusión de errores de Floyd-Steinberg </p> <p>Configúrelo en <span class="codeph"> desactivado </span> para desactivar el vaciado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> numColors  </span> </span> </p> </td> 
@@ -37,16 +38,16 @@ Cuantificación de color. Especifica atributos de cuantificación de color para 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> colorList  </span> </span> </p> </td> 
-   <td colname="col2"> <p>Lista separada por comas de colores RGB forzados en formato hex6 </p> <p>Permite especificar colores para incluirlos en una paleta <span class="codeph"> adaptable </span>. Si el número de colores especificado es menor que <span class="codeph"> <span class="varname"> numColors </span> </span>, se calculan colores adicionales en función del contenido de la imagen. </p> </td> 
+   <td colname="col2"> <p>Una lista separada por comas de colores RGB forzados en formato hex6 </p> <p>Permite especificar colores para incluirlos en una paleta <span class="codeph"> adaptable </span>. Si el número de colores especificado es menor que <span class="codeph"> <span class="varname"> numColors </span> </span>, los colores adicionales se calculan en función del contenido de la imagen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Propiedades {#section-8ab5035055b24b858270d260912a7f3d}
 
-Solicitar atributo. Se aplica independientemente de la configuración de la capa actual. Se utiliza solamente si `fmt=gif`, `fmt=gif-alpha`, `fmt=png8` o `fmt=png8-alpha`. Omitido de otro modo.
+Atributo de solicitud. Se aplica independientemente de la configuración de capa actual. Solo se usa si `fmt=gif`, `fmt=gif-alpha`, `fmt=png8` o `fmt=png8-alpha`. En caso contrario, se ignorará.
 
-Los colores especificados con `*`colorList`*` deben constar de valores RGB en formato hex6 (consulte ` [color](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md#reference-b044954ec6184253b8831579466b4423)`) sin el prefijo &#39; `0x`&#39;. No se permiten otros especificadores de color. *`numColors`* debe estar entre 2 y 256.
+Los colores especificados con `*`colorList`*` deben estar formados por valores RGB en formato hex6 (consulte ` [color](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md#reference-b044954ec6184253b8831579466b4423)`) sin el prefijo &#39; `0x`&#39;. No se permiten otros especificadores de color. *`numColors`* debe estar entre 2 y 256.
 
 ## Predeterminado {#section-ca3e817617244e8798ccff67b2023a32}
 
@@ -54,7 +55,7 @@ Los colores especificados con `*`colorList`*` deben constar de valores RGB en fo
 
 ## Ejemplo {#section-e34aca7587d548a7ae9d4266b80c9451}
 
-Genere una miniatura GIF con la paleta `web` sin tramado:
+Genere una miniatura GIF con la paleta `web` y sin vaciado:
 
 ` http:// *`server`*/myRootId/myImageId?req=tmb&fmt=gif&quantize=web,off`
 
