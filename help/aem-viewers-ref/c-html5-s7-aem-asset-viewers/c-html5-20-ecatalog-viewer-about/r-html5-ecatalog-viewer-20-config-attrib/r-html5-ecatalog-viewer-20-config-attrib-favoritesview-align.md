@@ -2,13 +2,14 @@
 description: FavoritesView.align
 solution: Experience Manager
 title: FavoritesView.align
-topic: Dynamic Media
 uuid: 3fcf8e75-988c-4e6b-a22b-4e5a68387f54
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 5%
+source-wordcount: '84'
+ht-degree: 4%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> izquierda|centro|derecha,superior|centro|inferior</span> </p> </td> 
-   <td colname="col2"> <p> Especifica la alineación horizontal interna (o anclaje) del contenedor de miniaturas dentro del área del componente. </p> <p>En la vista Favoritos, el tamaño del contenedor de miniaturas interno es tal que solo se muestra un número entero de miniaturas. Como resultado, hay cierto margen entre el contenedor interno y los límites del componente externo. </p> <p>Este modificador especifica cómo se coloca el contenedor de miniaturas internas horizontalmente dentro del componente. </p> </td> 
+   <td colname="col2"> <p> Especifica la alineación horizontal interna (o anclaje) del contenedor de miniaturas dentro del área del componente. </p> <p>En FavoritesView, el contenedor de miniaturas interno tiene un tamaño de tamaño tal que solo se muestre un número entero de miniaturas. Como resultado, hay un margen entre el contenedor interno y los límites del componente externo. </p> <p>Este modificador especifica cómo se coloca horizontalmente el contenedor de miniaturas internas dentro del componente. </p> </td> 
   </tr> 
  </tbody> 
 </table>
