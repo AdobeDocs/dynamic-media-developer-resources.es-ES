@@ -1,15 +1,16 @@
 ---
-description: Utilidad de validación de imágenes. Esta utilidad de línea de comandos verifica los archivos de imagen para asegurarse de que son válidos y pueden ser leídos sin dificultad por el servicio de imágenes.
-seo-description: Utilidad de validación de imágenes. Esta utilidad de línea de comandos verifica los archivos de imagen para asegurarse de que son válidos y pueden ser leídos sin dificultad por el servicio de imágenes.
+description: Utilidad de validación de imágenes. Esta utilidad de línea de comandos verifica los archivos de imagen para asegurarse de que son válidos y de que Image Serving puede leerlos sin dificultad.
+seo-description: Utilidad de validación de imágenes. Esta utilidad de línea de comandos verifica los archivos de imagen para asegurarse de que son válidos y de que Image Serving puede leerlos sin dificultad.
 seo-title: validar
 solution: Experience Manager
 title: validar
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 87a129ed-950a-4b1a-9240-bf567cd8e38f
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '314'
 ht-degree: 1%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 1%
 
 # validar{#validate}
 
-Utilidad de validación de imágenes. Esta utilidad de línea de comandos verifica los archivos de imagen para asegurarse de que son válidos y pueden ser leídos sin dificultad por el servicio de imágenes.
+Utilidad de validación de imágenes. Esta utilidad de línea de comandos verifica los archivos de imagen para asegurarse de que son válidos y de que Image Serving puede leerlos sin dificultad.
 
-Todos los archivos de imagen que no sean PTIFF deben pasar validate antes de que el archivo esté disponible para el servicio de imágenes como imagen de origen. Las imágenes PTIFF deben validarse después de operaciones de copia potencialmente no fiables.
+Todos los archivos de imagen que no sean PTIFF deben pasar validate antes de que el archivo esté disponible para Image Serving como imagen de origen. Las imágenes PTIFF deben validarse después de operaciones de copia potencialmente no fiables.
 
 ## Uso {#usage}
 
-` validate *``* [ *``*] [ *`fileTypeoptionssourceFile`* [ … ]]`
+` validate *``* [ *``*] [ *`fileTypeoptions.sourceFile`* [ … ]]`
 
 <table id="simpletable_D2C6B20E1007433AB4184A73046A44F0"> 
  <tr class="strow"> 
@@ -32,7 +33,7 @@ Todos los archivos de imagen que no sean PTIFF deben pasar validate antes de que
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> opciones  </span> </span> </p> </td> 
-  <td class="stentry"> <p>Otras opciones de comando (ver más abajo). </p> </td> 
+  <td class="stentry"> <p>Otras opciones de comando (consulte a continuación). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> sourceFile  </span> </span> </p> </td> 
@@ -53,15 +54,15 @@ Todos los archivos de imagen que no sean PTIFF deben pasar validate antes de que
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -readPixels  </span> </p> </td> 
-  <td class="stentry"> <p>Habilita la verificación de todo el archivo de imagen. De forma predeterminada, solo se valida el encabezado de imagen. </p> </td> 
+  <td class="stentry"> <p>Permite la verificación de todo el archivo de imagen. De forma predeterminada, solo se valida el encabezado de la imagen. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -validatecolorprofile  </span> </p> </td> 
   <td class="stentry"> <p>Verifica la validez del perfil de color incrustado. De forma predeterminada, el cuerpo del perfil no está marcado. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> -rechaza16BitPerComponent  </span> </p> </td> 
-  <td class="stentry"> <p> Rechaza imágenes con 16 bits por componente de imagen. Siempre lo especifica el servidor de imágenes cuando valida imágenes de origen remotas. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -reject16BitPerComponent  </span> </p> </td> 
+  <td class="stentry"> <p> Rechaza imágenes con 16 bits por componente de imagen. El servidor de imágenes siempre lo especifica cuando valida imágenes de origen remotas. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -verbose  </span> </p> </td> 
@@ -69,7 +70,7 @@ Todos los archivos de imagen que no sean PTIFF deben pasar validate antes de que
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -silencioso  </span> </p> </td> 
-  <td class="stentry"> <p>Deshabilita la salida <span class="codeph"> stdout </span>/ <span class="codeph"> stderr </span>. Solo se devuelve un estado. </p> </td> 
+  <td class="stentry"> <p>Desactiva la salida <span class="codeph"> stdout </span>/ <span class="codeph"> stderr </span>. Solo se devuelve un estado. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -stopOnError  </span> </p> </td> 
@@ -77,7 +78,7 @@ Todos los archivos de imagen que no sean PTIFF deben pasar validate antes de que
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -versión </span> </p> </td> 
-  <td class="stentry"> <p>Devuelve la información de la versión de esta utilidad. Especifique sin otras opciones. </p> </td> 
+  <td class="stentry"> <p>Devuelve la información de versión de esta utilidad. Especifique sin otras opciones. </p> </td> 
  </tr> 
 </table>
 
