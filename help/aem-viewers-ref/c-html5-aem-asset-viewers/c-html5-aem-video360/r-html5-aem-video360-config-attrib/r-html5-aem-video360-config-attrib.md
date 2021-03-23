@@ -1,15 +1,16 @@
 ---
-description: Documentación de atributos de configuración para el visor de Video360.
-seo-description: Documentación de atributos de configuración para el visor de Video360.
+description: Documentación de atributos de configuración para el visualizador de Video360.
+seo-description: Documentación de atributos de configuración para el visualizador de Video360.
 seo-title: 'Referencia de comandos: Atributos de configuración'
 solution: Experience Manager
 title: 'Referencia de comandos: Atributos de configuración'
-topic: Dynamic Media
 uuid: 645bba87-3d84-46e9-97fc-7019c5dd87ca
+feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
@@ -17,18 +18,18 @@ ht-degree: 0%
 
 # Referencia de comandos: Atributos de configuración{#command-reference-configuration-attributes}
 
-Documentación de atributos de configuración para el visor de Video360.
+Documentación de atributos de configuración para el visualizador de Video360.
 
-Cualquier comando de configuración puede configurarse en la dirección URL o mediante `setParam()`, `setParams()` o ambos métodos de API. También se puede especificar cualquier atributo de configuración en el registro de configuración del lado del servidor.
+Cualquier comando de configuración se puede configurar en la dirección URL o utilizando `setParam()`, `setParams()`, o ambos métodos API. Cualquier atributo de configuración también se puede especificar en el registro de configuración del lado del servidor.
 
-Algunos comandos de configuración pueden llevar el prefijo nombre de clase o nombre de instancia del componente SDK del visor correspondiente. Un nombre de instancia del componente es dinámico y depende del ID del elemento DOM de contenedor del visor pasado al método de API `setContainerId()`. La documentación incluye un prefijo opcional para dichos comandos. Por ejemplo, el comando `playback` se documenta de la siguiente manera:
+Algunos comandos de configuración pueden tener el prefijo class name o instance name del componente correspondiente del SDK de visor. Un nombre de instancia del componente es dinámico y depende del ID del elemento DOM del contenedor de visor pasado al método de API `setContainerId()`. La documentación incluye un prefijo opcional para estos comandos. Por ejemplo, el comando `playback` está documentado de la siguiente manera:
 
 `[VideoPlayer.|<containerId>_videoPlayer].playback`
 
 lo que significa que puede utilizar este comando como:
 
 * `playback` (sintaxis corta)
-* `VideoPlayer.playback` (calificado con el nombre de clase de componente)
-* `cont_videoPlayer.playback` (calificado con ID de componente, suponiendo que  `cont` es el ID del elemento de contenedor)
+* `VideoPlayer.playback` (cualificado con nombre de clase de componente)
+* `cont_videoPlayer.playback` (cualificado con ID de componente, suponiendo que  `cont` sea el ID del elemento contenedor)
 
-Consulte también [Referencia de comandos común a todos los visores: atributos de configuración](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)
+Consulte también [Referencia de comando común a todos los visores - Atributos de configuración](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)
