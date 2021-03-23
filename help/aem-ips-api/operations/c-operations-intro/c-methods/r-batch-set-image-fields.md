@@ -4,12 +4,13 @@ seo-description: Define los campos específicos de la imagen para uno o varios r
 seo-title: batchSetImageFields
 solution: Experience Manager
 title: batchSetImageFields
-topic: Dynamic Media Image Production System API
 uuid: e0ad7da4-cb28-4402-8b47-a600916d23b3
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '209'
 ht-degree: 9%
 
 ---
@@ -36,22 +37,22 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía que contiene los recursos de imagen. |
-| `*`updateArray`*` | `types:ImageFieldUpdateArray` | Sí | Se actualiza la matriz de campos de imagen. |
+| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa que contiene los recursos de imagen. |
+| `*`updateArray`*` | `types:ImageFieldUpdateArray` | Sí | La matriz de actualizaciones del campo de imagen. |
 
-**Output (batchSetImageFields)**
+**Salida (batchSetImageFields)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
 | `*`successCount`*` | `xsd:int` | Sí | Número de campos de imagen establecidos correctamente. |
 | `*`warningCount`*` | `xsd:int` | Sí | Número de advertencias generadas cuando la operación intentó establecer los campos de imagen. |
 | `*`errorCount`*` | `xsd:int` | Sí | Número de errores generados cuando la operación intentó establecer los campos de imagen. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados a los recursos que generaron advertencias cuando la operación intentó aplicar las actualizaciones. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | No | Matriz de detalles asociada con los recursos que generaron errores cuando la operación intentó aplicar las actualizaciones. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados con los recursos que generaron advertencias cuando la operación intentó aplicar las actualizaciones. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados con los recursos que generaron errores cuando la operación intentó aplicar las actualizaciones. |
 
 ## Ejemplos {#section-0476e3d6516a4f8bbaac9de983bc6d1e}
 
-En este ejemplo se establecen datos en los campos de dos imágenes de una matriz de actualización. En la matriz, las imágenes se especifican mediante los controladores de recursos y contienen resolución en píxeles, coordenadas de anclaje de posición x e y y datos de usuario. La respuesta indica que los campos de ambas imágenes se establecieron correctamente.
+En este ejemplo se establecen datos en los campos de dos imágenes de una matriz de actualización. En la matriz, las imágenes se especifican mediante sus controladores de recursos y contienen resolución en píxeles, coordenadas de anclaje de posición x e y y datos del usuario. La respuesta indica que los campos de ambas imágenes se configuraron correctamente.
 
 **Solicitar**
 
