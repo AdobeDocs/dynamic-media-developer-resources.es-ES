@@ -1,15 +1,16 @@
 ---
-description: Los archivos de datos de origen de procesamiento de imágenes incluyen archivos de viñeta, archivos de material (imágenes para texturas y calcomanías repetibles, así como archivos de estilo de archivador y ventana) y perfiles ICC.
-seo-description: Los archivos de datos de origen de procesamiento de imágenes incluyen archivos de viñeta, archivos de material (imágenes para texturas y calcomanías repetibles, así como archivos de estilo de archivador y ventana) y perfiles ICC.
+description: Los archivos de fuente de renderización de imágenes incluyen archivos de viñeta, archivos de material (imágenes para texturas y calcomanías repetibles, así como archivos de estilo de archivador y ventana) y perfiles ICC.
+seo-description: Los archivos de fuente de renderización de imágenes incluyen archivos de viñeta, archivos de material (imágenes para texturas y calcomanías repetibles, así como archivos de estilo de archivador y ventana) y perfiles ICC.
 seo-title: Datos de origen
 solution: Experience Manager
 title: Datos de origen
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 76c6419c-613e-4eff-b30f-9fea2a7daf5b
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -17,20 +18,20 @@ ht-degree: 0%
 
 # Datos de origen{#source-data}
 
-Los archivos de datos de origen de procesamiento de imágenes incluyen archivos de viñeta, archivos de material (imágenes para texturas y calcomanías repetibles, así como archivos de estilo de archivador y ventana) y perfiles ICC.
+Los archivos de fuente de renderización de imágenes incluyen archivos de viñeta, archivos de material (imágenes para texturas y calcomanías repetibles, así como archivos de estilo de archivador y ventana) y perfiles ICC.
 
-Todos los archivos de datos de origen deben ser accesibles para el componente de código nativo del procesamiento de imágenes (ubicado junto con el servidor de imágenes).
+Todos los archivos de datos de origen deben ser accesibles para el componente de código nativo de Representación de imágenes (ubicado junto con el Servidor de imágenes).
 
-Si se trata de un catálogo de materiales, el servidor de procesamiento busca el archivo especificado en el catálogo de materiales (con `vignette::Path`, `catalog::Path` o `icc::ProfilePath`) de la siguiente manera:
+Si hay un catálogo de materiales involucrado, el servidor de procesamiento busca el archivo especificado en el catálogo de materiales (con `vignette::Path`, `catalog::Path` o `icc::ProfilePath`) de la siguiente manera:
 
 * Si la ruta es absoluta, se utiliza tal cual.
 * Si la ruta es relativa, lleva el prefijo `catalog::RootPath` (de un catálogo de materiales con nombre).
 * Si la ruta es absoluta, se utiliza; de lo contrario, lleva el prefijo `default::RootPath` (del catálogo predeterminado).
 * Si la ruta es absoluta, se utiliza; de lo contrario, el servidor lo combina con la ruta especificada en [ir.resourceRootPaths](../../../../../../ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-resource-root-folders.md#concept-39a34d2239934079bb396e1bf568a9c2).
-* Si la ruta es ahora absoluta, se utiliza; de lo contrario, se supone que es relativa a [!DNL *[!DNL install_folder]*].
+* Si la ruta es ahora absoluta, se utiliza; de lo contrario, se supone que es relativo a [!DNL *[!DNL install_folder]*].
 
 Si no hay ningún catálogo de imágenes involucrado, la ruta se combina con `default::RootPath` y luego se procesa como se muestra arriba.
 
-La ubicación física de los archivos de datos de origen generalmente se especifica con [ir.resourceRootPaths](../../../../../../ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-resource-root-folders.md#concept-39a34d2239934079bb396e1bf568a9c2). Se pueden especificar varios valores para permitir que los archivos de datos de origen se distribuyan en varios sistemas de archivos. El servidor de procesamiento intentará cada ruta en el orden especificado hasta que se encuentre el archivo de datos.
+La ubicación física de los archivos de datos de origen generalmente se especifica con [ir.resourceRootPaths](../../../../../../ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-resource-root-folders.md#concept-39a34d2239934079bb396e1bf568a9c2). Se pueden especificar varios valores para permitir que los archivos de datos de origen se distribuyan entre varios sistemas de archivos. El servidor de procesamiento intentará cada ruta en el orden especificado hasta que se encuentre el archivo de datos.
 
 Se pueden agregar nuevos archivos de datos de cualquier tipo en cualquier momento sin detener el servidor.
