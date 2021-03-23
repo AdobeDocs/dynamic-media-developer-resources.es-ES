@@ -1,15 +1,16 @@
 ---
-description: El área de vista principal es el área ocupada por la vista flotante y las muestras.
-seo-description: El área de vista principal es el área ocupada por la vista flotante y las muestras.
+description: La zona de vista principal es la zona ocupada por las vistas flotantes y las muestras.
+seo-description: La zona de vista principal es la zona ocupada por las vistas flotantes y las muestras.
 seo-title: Área del visor principal
 solution: Experience Manager
 title: Área del visor principal
-topic: Dynamic Media
 uuid: 828ee8e5-8e5f-47cf-a566-2e997a5e3926
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom en línea
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '120'
 ht-degree: 2%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 2%
 
 # Área del visor principal{#main-viewer-area}
 
-El área de vista principal es el área ocupada por la vista flotante y las muestras.
+La zona de vista principal es la zona ocupada por las vistas flotantes y las muestras.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propiedades CSS del área del visor principal**
+**Propiedades CSS del área principal del visor**
 
 El aspecto del área de visualización se controla con el siguiente selector de clase CSS:
 
@@ -52,7 +53,7 @@ El aspecto del área de visualización se controla con el siguiente selector de 
  </tbody> 
 </table>
 
-Ejemplo: para configurar un visor flotante con fondo blanco ( `#FFFFFF`) y hacer que su tamaño sea de 260 x 500 píxeles.
+Ejemplo: para configurar un visor flotante con fondo blanco ( `#FFFFFF`) y lograr su tamaño de 260 x 500 píxeles.
 
 ```
 .s7flyoutviewer { 
