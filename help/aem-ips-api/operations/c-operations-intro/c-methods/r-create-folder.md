@@ -4,13 +4,14 @@ seo-description: Crea una carpeta.
 seo-title: createFolder
 solution: Experience Manager
 title: createFolder
-topic: Dynamic Media Image Production System API
 uuid: e3a4eed3-966d-4435-bfeb-3ead4bf523cd
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 22%
+source-wordcount: '129'
+ht-degree: 20%
 
 ---
 
@@ -21,7 +22,7 @@ Crea una carpeta.
 
 >[!NOTE]
 >
->La nueva carpeta está subordinada a la carpeta Images, aunque especifique un `/` para indicar la raíz de la compañía.
+>La nueva carpeta está subordinada a la carpeta Images, aunque especifique un `/` para indicar la raíz de la empresa.
 
 Sintaxis
 
@@ -44,18 +45,18 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Control de la compañía |
-| `*`folderPath`*` | `xsd:string` | Sí | Carpeta raíz utilizada para recuperar carpetas y todas las subcarpetas en el nivel de hoja. Si se excluye, se utiliza la raíz de compañía. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Control para la empresa |
+| `*`folderPath`*` | `xsd:string` | Sí | La carpeta raíz utilizada para recuperar carpetas y todas las subcarpetas en el nivel de hoja. Si se excluye, se utiliza la raíz de la empresa. |
 
 **Salida (createFolderParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`folderHandle`*` | `xsd:string` | Sí | Identificador de la nueva carpeta. |
+| `*`folderHandle`*` | `xsd:string` | Sí | Gestionar la nueva carpeta. |
 
 ## Ejemplos {#section-e596fbdb44fd43c8b30005cb2a2fdf26}
 
-Este código de muestra crea una carpeta en la raíz de una compañía. La respuesta devuelve el identificador de la carpeta recién creada.
+Este código de ejemplo crea una carpeta en la raíz de una empresa. La respuesta devuelve el identificador de la carpeta recién creada.
 
 **Solicitar**
 
