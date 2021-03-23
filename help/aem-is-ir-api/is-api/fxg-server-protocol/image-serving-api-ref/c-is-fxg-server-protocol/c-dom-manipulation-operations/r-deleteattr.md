@@ -4,12 +4,13 @@ seo-description: Elimine cualquier atributo de un elementID de s7 determinado.
 seo-title: deleteAttr
 solution: Experience Manager
 title: deleteAttr
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b1176c1a-9ec3-4a95-9f91-97f9f168c252
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '66'
 ht-degree: 1%
 
 ---
@@ -21,7 +22,7 @@ Elimine cualquier atributo de un s7:elementID determinado.
 
 `deleteAttr.elementID={attributeName%26attributeName}`
 
-Si un elemento de nodo FXG tiene definida una `s7:elementID`, los atributos de ese nodo se pueden eliminar con este comando.
+Si un elemento de nodo FXG tiene un `s7:elementID` definido, los atributos de ese nodo se pueden eliminar con este comando.
 
 ## Ejemplo {#section-dece7192384a412c9afdfbda6f08bc97}
 
