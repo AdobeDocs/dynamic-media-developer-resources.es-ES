@@ -1,12 +1,13 @@
 ---
-description: Añade usuarios de una compañía específica a un grupo específico.
+description: Agrega usuarios de una empresa específica a un grupo específico.
 solution: Experience Manager
 title: addGroupMembers
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '108'
 ht-degree: 12%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 12%
 
 # addGroupMembers{#addgroupmembers}
 
-Añade usuarios de una compañía específica a un grupo específico.
+Agrega usuarios de una empresa específica a un grupo específico.
 
 Sintaxis
 
@@ -30,17 +31,17 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la compañía. |
+| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa. |
 | `*`groupHandle`*` | `xsd:string` | Sí | El identificador del grupo. |
 | `*`userHandleArray`*` | `types:HandleArray` | Sí | Matriz de identificadores para los usuarios que desea agregar a un grupo. |
 
 **Salida (addGroupMembersParam)**
 
-La API de IPS no devuelve una respuesta para esta operación.
+La API IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-8f168b528aef4c4fa8c3d41f7686842f}
 
-Este ejemplo utiliza `*`addGroupMembersParam`*` para agregar un usuario a una sola compañía. La API de IPS no devuelve una respuesta para esta operación.
+Este ejemplo utiliza `*`addGroupMembersParam`*` para agregar un usuario a una sola empresa. La API IPS no devuelve una respuesta para esta operación.
 
 **Solicitar**
 
