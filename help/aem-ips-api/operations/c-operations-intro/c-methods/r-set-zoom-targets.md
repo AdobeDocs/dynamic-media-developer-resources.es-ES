@@ -1,27 +1,28 @@
 ---
-description: Define el destinatario de zoom asociado a una imagen de recurso. Sobrescribe los destinatarios de zoom existentes.
-seo-description: Define el destinatario de zoom asociado a una imagen de recurso. Sobrescribe los destinatarios de zoom existentes.
+description: Establece el destino de zoom asociado a una imagen de recurso. Sobrescribe los destinos de zoom existentes.
+seo-description: Establece el destino de zoom asociado a una imagen de recurso. Sobrescribe los destinos de zoom existentes.
 seo-title: setZoomTargets
 solution: Experience Manager
 title: setZoomTargets
-topic: Dynamic Media Image Production System API
 uuid: 5d0aecec-ebd8-4c69-9514-c29fae347ee6
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 12%
+source-wordcount: '143'
+ht-degree: 11%
 
 ---
 
 
 # setZoomTargets{#setzoomtargets}
 
-Define el destinatario de zoom asociado a una imagen de recurso. Sobrescribe los destinatarios de zoom existentes.
+Establece el destino de zoom asociado a una imagen de recurso. Sobrescribe los destinos de zoom existentes.
 
 Sintaxis
 
-## Tipos de usuario autorizados {#section-c5e1863e9cb1426591bfea513620b6ab}
+## Tipos de usuarios autorizados {#section-c5e1863e9cb1426591bfea513620b6ab}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,19 +37,19 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de compañía. |
-| `*`assetHandle`*` | `xsd:string` | Sí | Recurso con el destinatario de zoom que desea establecer. |
-| `*`zoomTargetArray`*` | `types:ZoomTargetDefinitionArray` | Sí | Matriz de definiciones de destinatario de zoom. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la empresa. |
+| `*`assetHandle`*` | `xsd:string` | Sí | Recurso con el destino de zoom que desea establecer. |
+| `*`zoomTargetArray`*` | `types:ZoomTargetDefinitionArray` | Sí | Matriz de definiciones de destino de zoom. |
 
 **Salida (setZoomTargetsReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`zoomTargetHandleArray`*` | `types:HandleArray` | Sí | Conjunto de controladores para los destinatarios de zoom creados por esta operación. |
+| `*`zoomTargetHandleArray`*` | `types:HandleArray` | Sí | Conjunto de controles de los destinos de zoom creados por esta operación. |
 
 ## Ejemplos {#section-a2f14c7a1499443e96d099ea8a76c182}
 
-Este ejemplo de código define una matriz de destinatarios de zoom por nombre, posición (ejes x e y), ancho, alto y asigna la matriz a un recurso. La respuesta contiene controladores para los destinatarios de zoom recién creados.
+Este ejemplo de código define una matriz de destinos de zoom por nombre, posición (ejes x e y), ancho, alto y asigna la matriz a un recurso. La respuesta contiene controladores para los destinos de zoom recién creados.
 
 **Solicitar**
 
