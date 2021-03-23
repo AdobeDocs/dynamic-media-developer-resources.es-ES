@@ -1,15 +1,16 @@
 ---
-description: Referencia de la API de JavaScript para el visor de medios mixtos.
-seo-description: Referencia de la API de JavaScript para el visor de medios mixtos.
+description: Referencia de la API de JavaScript para el visualizador de medios mixtos.
+seo-description: Referencia de la API de JavaScript para el visualizador de medios mixtos.
 seo-title: setParams
 solution: Experience Manager
 title: setParams
-topic: Dynamic Media
 uuid: 46db0ce3-fd70-4577-92ed-e7d2d15e0dab
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '118'
 ht-degree: 1%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 1%
 
 # setParams{#setparams}
 
-Referencia de la API de JavaScript para el visor de medios mixtos.
+Referencia de la API de JavaScript para el visualizador de medios mixtos.
 
 ` setParams( *`params`*)`
 
-Establece uno o más parámetros en un valor determinado. La sintaxis del argumento de método es idéntica a una cadena de consulta URL. Es decir, representa pares nombre=valor separados por `&`. Al igual que en una cadena de consulta, los nombres y los valores están codificados en porcentaje con UTF8. Antes de llamar a `init()`, se debe llamar a este parámetro. Este método es opcional si la información de configuración del visor se pasa con el objeto JSON `config` al constructor.
+Establece uno o más parámetros en un valor determinado. La sintaxis del argumento de método es idéntica a una cadena de consulta de URL. Es decir, representa pares nombre=valor separados por `&`. Al igual que en una cadena de consulta, los nombres y valores están codificados por porcentajes utilizando UTF8. Antes de llamar a `init()`, se debe llamar a este parámetro. Este método es opcional si la información de configuración del visor se pasa con el objeto JSON `config` al constructor.
 
 Consulte también [init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae).
 
@@ -29,7 +30,7 @@ Consulte también [init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedi
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> params</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> Los pares de parámetro {string}</span> name=value separados por  <span class="codeph"> &amp;</span>. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value pares de parámetros separados por  <span class="codeph"> &amp;</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
