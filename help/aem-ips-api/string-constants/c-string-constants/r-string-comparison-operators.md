@@ -4,13 +4,14 @@ seo-description: Utilizado por SystemFieldCondition/op y MetadataCondition/op.
 seo-title: Operadores de comparación de cadenas
 solution: Experience Manager
 title: Operadores de comparación de cadenas
-topic: Dynamic Media Image Production System API
 uuid: 980c3225-cf1d-43b5-8d99-83af8f0c82dd
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '32'
-ht-degree: 6%
+source-wordcount: '39'
+ht-degree: 5%
 
 ---
 
