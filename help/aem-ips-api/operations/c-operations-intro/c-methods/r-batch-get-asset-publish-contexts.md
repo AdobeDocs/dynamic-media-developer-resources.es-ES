@@ -1,20 +1,21 @@
 ---
-description: Devuelve los contextos de publicación de los recursos marcados para la publicación.
+description: Devuelve los contextos de publicación de los recursos marcados para su publicación.
 solution: Experience Manager
-title: batchGetAssetPublishContext
-topic: Dynamic Media Image Production System API
+title: batchGetAssetPublishContexts
+feature: Dynamic Media Classic,SDK/API,Administración de activos
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 16%
+source-wordcount: '106'
+ht-degree: 15%
 
 ---
 
 
 # batchGetAssetPublishContexts{#batchgetassetpublishcontexts}
 
-Devuelve los contextos de publicación de los recursos marcados para la publicación.
+Devuelve los contextos de publicación de los recursos marcados para su publicación.
 
 Sintaxis
 
@@ -33,7 +34,7 @@ Sintaxis
 >[!NOTE]
 >
 >* El usuario debe tener acceso de lectura para devolver los recursos.
->* Todos los usuarios tienen acceso a la compañía compartida.
+>* Todos los usuarios tienen acceso a la empresa compartida.
 
 >
 
@@ -41,18 +42,18 @@ Sintaxis
 
 ## Parámetros {#section-1742fcb196224545b270eb8241f757a8}
 
-**Entrada (batchGetAssetPublishContextParam)**
+**Entrada (batchGetAssetPublishContextsParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Manejar a la compañía. |
-| `*`assetHandleArray`*` | ` `tipos:HandleArray&quot; | Sí | Lista de recursos que desea consulta para contextos activos (marcados para publicación). |
+| `*`companyHandle`*` | `xsd:string` | Sí | Gestionar a la empresa. |
+| `*`assetHandleArray`*` | ` `tipos:HandleArray&quot; | Sí | Lista de recursos que desea consultar para contextos activos (marcados para publicación). |
 
-**Salida (batchGetAssetPublishContextReturn)**
+**Salida (batchGetAssetPublishContextsReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`assetPublishContextArray`*` | `types:assetPublishContextsArray` | Sí | Matriz de contextos de publicación en la que se marca cada recurso para la publicación. |
+| `*`assetPublishContextsArray`*` | `types:assetPublishContextsArray` | Sí | Matriz de contextos de publicación en la que cada recurso está marcado para su publicación. |
 
 ## Ejemplos {#section-457f6809ccfa425b9a0976313d613f4e}
 
