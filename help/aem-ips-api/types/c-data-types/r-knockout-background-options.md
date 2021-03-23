@@ -1,15 +1,16 @@
 ---
-description: Enmascarar (cubrir) el fondo de las imágenes seleccionadas. Esto permite superponerlos en otras capas con una transparencia fuera de la imagen del sujeto. Parámetro opcional que está desactivado de forma predeterminada.
-seo-description: Enmascarar (cubrir) el fondo de las imágenes seleccionadas. Esto permite superponerlos en otras capas con una transparencia fuera de la imagen del sujeto. Parámetro opcional que está desactivado de forma predeterminada.
+description: Enmascarar (eliminar) el fondo de imágenes seleccionadas. Esto permite superponerlos en otras capas con una transparencia fuera de la imagen del sujeto. Un parámetro opcional que está desactivado de forma predeterminada.
+seo-description: Enmascarar (eliminar) el fondo de imágenes seleccionadas. Esto permite superponerlos en otras capas con una transparencia fuera de la imagen del sujeto. Un parámetro opcional que está desactivado de forma predeterminada.
 seo-title: KnockoutBackgroundOptions
 solution: Experience Manager
 title: KnockoutBackgroundOptions
-topic: Dynamic Media Image Production System API
 uuid: 1486d646-f42a-4ed4-9450-313950969c39
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '205'
 ht-degree: 4%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 4%
 
 # KnockoutBackgroundOptions{#knockoutbackgroundoptions}
 
-Enmascarar (cubrir) el fondo de las imágenes seleccionadas. Esto permite superponerlos en otras capas con una transparencia fuera de la imagen del sujeto. Parámetro opcional que está desactivado de forma predeterminada.
+Enmascarar (eliminar) el fondo de imágenes seleccionadas. Esto permite superponerlos en otras capas con una transparencia fuera de la imagen del sujeto. Un parámetro opcional que está desactivado de forma predeterminada.
 
 `KnockoutBackgroundOptions=[corner, tolerance, fill]`
 
@@ -45,17 +46,17 @@ Enmascarar (cubrir) el fondo de las imágenes seleccionadas. Esto permite superp
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> tolerancia</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:doble</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
    <td colname="col3">Un ajuste opcional que elimina el espacio en blanco de los bordes de la imagen en función de la transparencia. Acepta un rango de valores de 0,0 a 1,0. Especifique: 
     <ul id="ul_FE5423B857AE43FCBA7A9AEA76C754CC">
-     <li id="li_01E3BD0AB8DA4C408B47CB02B269404A">0 para coincidir exactamente con los colores. </li>
-     <li id="li_FCE21384265D4ECE9C0D785F1BB32C3A">1 para activar la mayor cantidad de diferencias de color. </li>
+     <li id="li_01E3BD0AB8DA4C408B47CB02B269404A">0 para que coincida exactamente con los colores. </li>
+     <li id="li_FCE21384265D4ECE9C0D785F1BB32C3A">1 para activar la mayoría de las diferencias de color. </li>
     </ul></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fillMethod</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Controle la transparencia de píxeles en la ubicación especificada por la variable <span class="codeph"><span class="varname"> corner</span></span>. El <span class="codeph"> fillMethod</span> acepta estos valores: </p> 
+   <td colname="col3"> <p>Controle la transparencia de píxeles en la ubicación especificada por la variable <span class="codeph"><span class="varname"> corner</span></span> . El <span class="codeph"> fillMethod</span> acepta estos valores: </p> 
     <ul id="ul_D95F3B613D344BB89487ED09D83F9217"> 
      <li id="li_3D7B7CA1B9094D16A98E0BA3D962E97F"> <span class="codeph"> FloodFill</span>: Convierte todos los píxeles de la esquina especificada en transparente. </li> 
      <li id="li_F97343C3DA7644BCBD1748AD8F9DCE2E"> <span class="codeph"> MatchPixel</span>: Convierte todos los píxeles coincidentes en transparentes independientemente de la ubicación. </li> 
@@ -79,7 +80,7 @@ Enmascarar (cubrir) el fondo de las imágenes seleccionadas. Esto permite superp
     </complexType>
 ```
 
-## Usado por {#section-28c43baafe85434a9ee9e303ed10569a}
+## Utilizado por {#section-28c43baafe85434a9ee9e303ed10569a}
 
 El tipo `KnockoutBackgroundOptions` lo utiliza:
 
