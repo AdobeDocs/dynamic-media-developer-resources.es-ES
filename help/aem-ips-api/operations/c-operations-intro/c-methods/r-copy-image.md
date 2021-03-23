@@ -4,13 +4,14 @@ seo-description: Crea una copia de un recurso de imagen existente. Los comandos 
 seo-title: copyImage
 solution: Experience Manager
 title: copyImage
-topic: Dynamic Media Image Production System API
 uuid: ae24f0cc-bcf0-4652-a67d-ed69f8a0da92
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 19%
+source-wordcount: '168'
+ht-degree: 18%
 
 ---
 
@@ -48,19 +49,19 @@ Sintaxis
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sí </p> </td> 
-   <td colname="col4"> <p>Identificador de la compañía que contiene la imagen. </p> </td> 
+   <td colname="col4"> <p>El identificador de la empresa que contiene la imagen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sí </p> </td> 
-   <td colname="col4"> <p>Identificador del recurso de imagen. </p> </td> 
+   <td colname="col4"> <p>El identificador del recurso de imagen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> folderHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sí </p> </td> 
-   <td colname="col4"> <p>Identificador de la carpeta en la que se va a copiar la imagen. </p> </td> 
+   <td colname="col4"> <p>El identificador de la carpeta en la que se copiará la imagen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> name</span> </span> </p> </td> 
@@ -93,14 +94,14 @@ Sintaxis
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sí </p> </td> 
-   <td colname="col4"> <p>Identificador de la imagen copiada. </p> </td> 
+   <td colname="col4"> <p>El identificador de la imagen copiada. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Ejemplos {#section-c30a4017001146e7befbbfc5ffcb7593}
 
-El código de muestra copia una imagen especificada por compañía, recurso, identificador de carpeta y nombre.
+El código de ejemplo copia una imagen especificada por empresa, recurso, controlador de carpeta y nombre.
 
 **Solicitar**
 
