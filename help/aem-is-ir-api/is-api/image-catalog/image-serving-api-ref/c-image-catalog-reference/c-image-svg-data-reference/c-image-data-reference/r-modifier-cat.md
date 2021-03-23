@@ -1,15 +1,16 @@
 ---
-description: Cadena del modificador de solicitud de prefijo. Ninguno o más comandos de servicio de imágenes separados por caracteres '&'.
-seo-description: Cadena del modificador de solicitud de prefijo. Ninguno o más comandos de servicio de imágenes separados por caracteres '&'.
+description: Cadena del modificador de solicitud de prefijo. Ninguno o varios comandos de servicio de imágenes separados por caracteres "&".
+seo-description: Cadena del modificador de solicitud de prefijo. Ninguno o varios comandos de servicio de imágenes separados por caracteres "&".
 seo-title: Modificador
 solution: Experience Manager
 title: Modificador
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: eb17d115-22ec-4b1b-9039-9bd2bc256f48
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '122'
 ht-degree: 7%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 7%
 
 # Modificador{#modifier}
 
-Cadena del modificador de solicitud de prefijo. Ninguno o más comandos de servicio de imágenes separados por caracteres &#39;&amp;&#39;.
+Cadena del modificador de solicitud de prefijo. Ninguno o varios comandos de servicio de imágenes separados por caracteres &quot;&amp;&quot;.
 
 Se utiliza para modificar imágenes de forma persistente y almacenar el cuerpo de las plantillas.
 
-Los comandos de este campo se anulan con los mismos comandos de la solicitud o plantilla desde la que se hace referencia a este registro y con los comandos de `catalog::PostModifier`
+Los comandos de este campo se anulan por los mismos comandos de la solicitud o plantilla desde la que se hace referencia a este registro y por los comandos de `catalog::PostModifier`
 
 Las macros están permitidas en `catalog::Modifier`, siempre que estén definidas en el mismo catálogo o en el catálogo predeterminado. También se pueden usar variables personalizadas.
 
