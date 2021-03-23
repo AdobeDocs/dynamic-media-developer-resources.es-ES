@@ -1,23 +1,24 @@
 ---
-description: Una matriz de compañías
-seo-description: Una matriz de compañías
+description: Una matriz de empresas
+seo-description: Una matriz de empresas
 seo-title: CompanyArray
 solution: Experience Manager
 title: CompanyArray
-topic: Dynamic Media Image Production System API
 uuid: 9963de05-7510-4dc8-8e63-1385761a2f75
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '25'
-ht-degree: 24%
+source-wordcount: '32'
+ht-degree: 18%
 
 ---
 
 
 # CompanyArray{#companyarray}
 
-Una matriz de compañías
+Una matriz de empresas
 
 Sintaxis
 
@@ -25,5 +26,5 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| `*`elementos`*` | `types:Company` | Una matriz de compañías. |
+| `*`elementos`*` | `types:Company` | Una matriz de empresas. |
 
