@@ -1,23 +1,24 @@
 ---
-description: Obtiene los registros de trabajo de un recurso. Los elementos devueltos en la matriz contienen información detallada sobre cada entrada en el registro de trabajos de ese recurso. El campo de respuesta logMessage se localiza en función del campo authHeader.
-seo-description: Obtiene los registros de trabajo de un recurso. Los elementos devueltos en la matriz contienen información detallada sobre cada entrada en el registro de trabajos de ese recurso. El campo de respuesta logMessage se localiza en función del campo authHeader.
+description: Obtiene los registros de trabajos de un recurso. Los elementos devueltos en la matriz contienen información detallada sobre cada entrada en el registro de trabajos de ese recurso. El campo de respuesta logMessage se localiza en función del campo authHeader .
+seo-description: Obtiene los registros de trabajos de un recurso. Los elementos devueltos en la matriz contienen información detallada sobre cada entrada en el registro de trabajos de ese recurso. El campo de respuesta logMessage se localiza en función del campo authHeader .
 seo-title: getAssetJobLogs
 solution: Experience Manager
 title: getAssetJobLogs
-topic: Dynamic Media Image Production System API
 uuid: 7ea81baf-769b-4c73-bbc6-f52c89c98d50
+feature: Dynamic Media Classic,SDK/API,Administración de activos
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 8%
+source-wordcount: '202'
+ht-degree: 7%
 
 ---
 
 
 # getAssetJobLogs{#getassetjoblogs}
 
-Obtiene los registros de trabajo de un recurso. Los elementos devueltos en la matriz contienen información detallada sobre cada entrada en el registro de trabajos de ese recurso. El campo de respuesta logMessage se localiza en función del campo authHeader.
+Obtiene los registros de trabajos de un recurso. Los elementos devueltos en la matriz contienen información detallada sobre cada entrada en el registro de trabajos de ese recurso. El campo de respuesta logMessage se localiza en función del campo authHeader .
 
 Sintaxis
 
@@ -39,8 +40,8 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía a la que pertenece el recurso. |
-| `*`assetHandle`*` | `xsd:string` | Sí | El identificador que se va a usar para el recurso con los registros de trabajo que se van a recuperar. |
+| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa a la que pertenece el recurso. |
+| `*`assetHandle`*` | `xsd:string` | Sí | El identificador del recurso con los registros de trabajo que se van a recuperar. |
 
 **Salida (getAssetJobLogsReturn)**
 
