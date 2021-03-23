@@ -4,12 +4,13 @@ seo-description: Los archivos de atributos del catálogo reconocen estos atribut
 seo-title: Atributos de administración de color
 solution: Experience Manager
 title: Atributos de administración de color
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e136b1bd-650e-4f3d-90e8-df1df814ec48
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
@@ -38,7 +39,7 @@ Los archivos de atributos del catálogo reconocen estos atributos de administrac
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrcgray.md#reference-a717831da24d43f680d01393660f12f9" type="reference" format="dita" scope="local"> IccProfileSrcGray</a> </span> </p></td> 
-  <td class="stentry"> <p>Perfil de color de entrada de escala de grises predeterminado. </p></td> 
+  <td class="stentry"> <p>Perfil de color de entrada predeterminado a escala gris. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrcrgb.md#reference-b8e576d075b44f5c94d95bfb5aa22ae2" type="reference" format="dita" scope="local"> IccProfileSrcRgb</a> </span> </p></td> 
@@ -46,15 +47,15 @@ Los archivos de atributos del catálogo reconocen estos atributos de administrac
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccrenderintent.md#reference-012f207f28bd4406a5368d23ed95a51f" type="reference" format="dita" scope="local"> IccRenderIntent</a> </span> </p> </td> 
-  <td class="stentry"> <p>Calidad de representación predeterminada. </p></td> 
+  <td class="stentry"> <p>Interpretación predeterminada. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccblackpointcompensation.md#reference-357626375ee140d1807f0c05171c733f" type="reference" format="dita" scope="local"> IccBlackPointCompensation</a> </span> </p></td> 
-  <td class="stentry"> <p>Habilitar/deshabilitar compensación de punto negro. </p></td> 
+  <td class="stentry"> <p>Habilite/deshabilite la compensación de puntos de interrupción. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccdither.md#reference-914d0d0567364246b4016d45c0ada85b" type="reference" format="dita" scope="local"> IccDither</a> </span> </p></td> 
-  <td class="stentry"> <p>Activar/desactivar el tramado de conversión de color. </p></td> 
+  <td class="stentry"> <p>Habilite o deshabilite el vaciado de conversión de color. </p></td> 
  </tr> 
 </table>
 
