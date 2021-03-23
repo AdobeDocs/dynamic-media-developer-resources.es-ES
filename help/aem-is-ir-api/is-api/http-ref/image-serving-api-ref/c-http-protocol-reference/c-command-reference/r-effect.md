@@ -1,15 +1,16 @@
 ---
-description: Seleccione Capa de efecto. Selecciona una capa de efecto y inicio un nuevo segmento de capa en la cadena de solicitud, que está asociado con la capa actual.
-seo-description: Seleccione Capa de efecto. Selecciona una capa de efecto y inicio un nuevo segmento de capa en la cadena de solicitud, que está asociado con la capa actual.
-seo-title: efecto
+description: Seleccione Capa de efectos. Selecciona una capa de efecto e inicia un nuevo segmento de capa en la cadena de solicitud, que está asociada a la capa actual.
+seo-description: Seleccione Capa de efectos. Selecciona una capa de efecto e inicia un nuevo segmento de capa en la cadena de solicitud, que está asociada a la capa actual.
+seo-title: effect
 solution: Experience Manager
-title: efecto
-topic: Dynamic Media Image Serving - Image Rendering API
+title: effect
 uuid: 622dc7ca-55b8-4a82-b9a7-65588aee87d0
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '204'
 ht-degree: 3%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 3%
 
 # effect{#effect}
 
-Seleccione Capa de efecto. Selecciona una capa de efecto y inicio un nuevo segmento de capa en la cadena de solicitud, que está asociado con la capa actual.
+Seleccione Capa de efectos. Selecciona una capa de efecto e inicia un nuevo segmento de capa en la cadena de solicitud, que está asociada a la capa actual.
 
 `effect= *`n`*`
 
@@ -28,13 +29,13 @@ Seleccione Capa de efecto. Selecciona una capa de efecto y inicio un nuevo segme
  </tr> 
 </table>
 
-Todos los comandos del nuevo segmento se aplican a la capa de efecto especificada. Un segmento de capa de efecto termina con el siguiente comando `layer=` o `effect=` o al final de la solicitud.
+Todos los comandos del nuevo segmento se aplican a la capa de efecto especificada. Un segmento de capa de efecto se termina por el siguiente comando `layer=` o `effect=` o por el final de la solicitud.
 
-*`n`* debe ser menor que 0 para efectos de capa externa (es decir, efectos detrás de la capa principal) y bueno que 0 para efectos de capa interna (es decir, efectos dentro de la capa principal). Los números de capas de efectos no tienen que ser consecutivos.
+*`n`* debe ser menor que 0 para los efectos de capa externa (es decir, los efectos detrás de la capa principal) y bueno que 0 para los efectos de capa interna (es decir, los efectos dentro de la capa principal). Los números de capa de efecto no tienen que ser consecutivos.
 
-El número de capa del efecto especifica el orden z, en el caso de varias capas de efecto para la misma capa principal. Las capas con mayor número se colocan encima de las capas con menor número.
+El número de capa de efecto especifica el orden z, en el caso de varias capas de efecto para la misma capa principal. Las capas con mayor número se colocan encima de las capas con menor número.
 
-Las capas de efecto pueden estar conectadas a `layer=comp`.
+Las capas de efecto se pueden adjuntar a `layer=comp`.
 
 ## Propiedades {#section-e11f795deff345779ce280a82cf221ca}
 
