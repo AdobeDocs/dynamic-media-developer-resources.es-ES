@@ -4,12 +4,13 @@ seo-description: Imagen de respuesta predeterminada. Especifica la imagen o entr
 seo-title: defaultImage
 solution: Experience Manager
 title: defaultImage
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7478325c-9ac5-4b85-a4c5-5c495f924eb5
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '245'
 ht-degree: 2%
 
 ---
@@ -28,7 +29,7 @@ Imagen de respuesta predeterminada. Especifica la imagen o entrada de catálogo 
  </tr> 
 </table>
 
-*`object`* puede ser una entrada de catálogo (incluida una plantilla) o una ruta de archivo de imagen simple. Resulta útil para sustituir las imágenes que faltan por las imágenes predeterminadas. Este valor anula el valor del catálogo correspondiente `attribute::DefaultImage`. Un valor vacío ( `defaultImage=`) deshabilita la administración de imágenes predeterminada.
+*`object`* puede ser una entrada de catálogo (incluida una plantilla) o una ruta de archivo de imagen simple. Útil para sustituir imágenes que faltan por imágenes predeterminadas. Este valor anula el valor del catálogo correspondiente `attribute::DefaultImage`. Un valor vacío ( `defaultImage=`) deshabilita la administración de imágenes predeterminada.
 
 >[!NOTE]
 >
@@ -36,17 +37,17 @@ Imagen de respuesta predeterminada. Especifica la imagen o entrada de catálogo 
 
 Si `attribute::DefaultImageMode=0`, *`object`* reemplaza la solicitud original completa, aunque falte una sola imagen en una composición de varias imágenes. Los únicos comandos retenidos de la solicitud original son: `wid=`, `hei=`, `fmt=`, `qlt=`.
 
-Si `attribute::DefaultImageMode=1`, el objeto reemplaza solo la imagen de capa que falta; los atributos de la capa que falta se aplican y el compuesto se procesa y devuelve como de costumbre.
+Si `attribute::DefaultImageMode=1`, object reemplaza solo la imagen de capa que falta; los atributos de la capa que falta se aplican y la composición se procesa y se devuelve como de costumbre.
 
 ## Propiedades {#section-d30923d8dc4042eba10989212dd70887}
 
-Solicitar atributo. Se aplica independientemente de la configuración de la capa actual. Se omite si `req=` no es `img` o `tmb`.
+Atributo de solicitud. Se aplica independientemente de la configuración de capa actual. Se omite si `req=` no es `img` o `tmb`.
 
 ## Restricciones {#section-30df31bc8cac41cd917f1e45196779c2}
 
-Las fuentes de imagen extranjeras no están cubiertas por el mecanismo de imagen predeterminado; se devuelve un error si un origen de imagen externo no es válido.
+Las fuentes de imagen externa no están cubiertas por el mecanismo de imagen predeterminado; se devuelve un error si una fuente de imagen externa no es válida.
 
-El servicio de imágenes vuelve a `DefaultImageMode=0` cuando fallan las solicitudes de procesamiento de imágenes anidadas o FXG.
+El servicio de imágenes vuelve a `DefaultImageMode=0` cuando fallan las solicitudes de renderización de imágenes anidadas o FXG.
 
 ## Predeterminado {#section-0676c66b233c46a3a3a1517da4ace998}
 
