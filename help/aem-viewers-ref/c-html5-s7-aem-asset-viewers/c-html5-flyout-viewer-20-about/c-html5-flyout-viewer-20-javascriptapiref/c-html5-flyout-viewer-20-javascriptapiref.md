@@ -1,15 +1,16 @@
 ---
-description: La clase principal del visor flotante es FlyoutViewer. Se declara en la Área de nombres s7viewers. Esta API de JavaScript cubre el constructor, los métodos y las llamadas de retorno de esta clase en particular.
-seo-description: La clase principal del visor flotante es FlyoutViewer. Se declara en la Área de nombres s7viewers. Esta API de JavaScript cubre el constructor, los métodos y las llamadas de retorno de esta clase en particular.
+description: La clase principal del visor flotante es el visor flotante. Se declara en el espacio de nombres s7viewers. Esta API de JavaScript cubre el constructor, los métodos y las llamadas de retorno de esta clase en particular.
+seo-description: La clase principal del visor flotante es el visor flotante. Se declara en el espacio de nombres s7viewers. Esta API de JavaScript cubre el constructor, los métodos y las llamadas de retorno de esta clase en particular.
 seo-title: Referencia de la API de JavaScript para el visor flotante
 solution: Experience Manager
 title: Referencia de la API de JavaScript para el visor flotante
-topic: Dynamic Media
 uuid: 45621805-8aa5-4ced-a36a-ebecb2a606a0
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Flotante
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '149'
 ht-degree: 0%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 0%
 
 # Referencia de la API de JavaScript para el visor flotante{#javascript-api-reference-for-flyout-viewer}
 
-La clase principal del visor flotante es FlyoutViewer. Se declara en la Área de nombres s7viewers. Esta API de JavaScript cubre el constructor, los métodos y las llamadas de retorno de esta clase en particular.
+La clase principal del visor flotante es el visor flotante. Se declara en el espacio de nombres s7viewers. Esta API de JavaScript cubre el constructor, los métodos y las llamadas de retorno de esta clase en particular.
 
-En todos los ejemplos siguientes, `<instance>` representa el nombre real del objeto de visor de JavaScript al que se crea una instancia desde la clase `s7viewers.FlyoutViewer`.
+En todos los ejemplos siguientes, `<instance>` significa el nombre real del objeto de visualizador de JavaScript del que se crea una instancia desde la clase `s7viewers.FlyoutViewer`.
 
-* [eliminar](r-html5-flyout-viewer-20-javascriptapiref-dispose.md)
+* [dispose](r-html5-flyout-viewer-20-javascriptapiref-dispose.md)
 * [Visor flotante](r-html5-flyout-viewer-20-javascriptapiref-.flyoutviewer.md)
 * [getComponent](r-html5-flyout-viewer-20-javascriptapiref-getcomponent.md)
 * [init](r-html5-flyout-viewer-20-javascriptapiref-init.md)
