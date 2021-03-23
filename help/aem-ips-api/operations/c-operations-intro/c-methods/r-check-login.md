@@ -1,15 +1,16 @@
 ---
-description: Comprueba si un usuario con una compañía específica (identificada por identificador), una dirección de correo electrónico y una contraseña puede iniciar sesión.
-seo-description: Comprueba si un usuario con una compañía específica (identificada por identificador), una dirección de correo electrónico y una contraseña puede iniciar sesión.
+description: Comprueba si un usuario con una empresa específica (identificada por identificador), una dirección de correo electrónico y una contraseña puede iniciar sesión.
+seo-description: Comprueba si un usuario con una empresa específica (identificada por identificador), una dirección de correo electrónico y una contraseña puede iniciar sesión.
 seo-title: checkLogin
 solution: Experience Manager
 title: checkLogin
-topic: Dynamic Media Image Production System API
 uuid: 69f9e5f6-50c2-403d-93b2-b84a01f512a9
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '171'
 ht-degree: 11%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 11%
 
 # checkLogin{#checklogin}
 
-Comprueba si un usuario con una compañía específica (identificada por identificador), una dirección de correo electrónico y una contraseña puede iniciar sesión.
+Comprueba si un usuario con una empresa específica (identificada por identificador), una dirección de correo electrónico y una contraseña puede iniciar sesión.
 
 >[!NOTE]
 >
->Si se omite el identificador de compañía, este método comprueba el inicio de sesión del usuario predeterminado.
+>Si se omite el control de empresa, este método comprueba el inicio de sesión del usuario predeterminado.
 
 ## Tipos de usuarios autorizados {#section-df8b26b550854f899948276adaca083a}
 
@@ -41,7 +42,7 @@ Comprueba si un usuario con una compañía específica (identificada por identif
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | No | Identificador de la compañía que contiene al usuario. |
+| `*`companyHandle`*` | `xsd:string` | No | El identificador de la empresa que contiene el usuario. |
 | `*`correo electrónico`*` | `xsd:string` | Sí | La dirección de correo electrónico del usuario. |
 | `*`contraseña`*` | `xsd:string` | Sí | La contraseña del usuario. |
 
@@ -53,7 +54,7 @@ Comprueba si un usuario con una compañía específica (identificada por identif
 
 ## Ejemplos {#section-23f90100a9d94bc7b4045634cccd1b98}
 
-Este código de muestra utiliza un parámetro de identificador de compañía, una dirección de correo electrónico y una contraseña para determinar si un usuario puede iniciar sesión en IPS. Si el usuario *puede* iniciar sesión, este método devuelve la cadena `ValidLogin`. Si el usuario *no puede* iniciar sesión, este método devuelve la cadena `InvalidLogin`.
+Este código de ejemplo utiliza un parámetro de gestión de empresa, una dirección de correo electrónico y una contraseña para determinar si un usuario puede iniciar sesión en IPS. Si el usuario *puede* iniciar sesión, este método devuelve la cadena `ValidLogin`. Si el usuario *no puede* iniciar sesión, este método devuelve la cadena `InvalidLogin`.
 
 **Solicitar**
 
