@@ -1,23 +1,24 @@
 ---
-description: Atributo de configuración para el visor de vídeo de medios mixtos.
-seo-description: Atributo de configuración para el visor de vídeo de medios mixtos.
+description: Atributo de configuración para el visualizador de vídeo de medios mixtos.
+seo-description: Atributo de configuración para el visualizador de vídeo de medios mixtos.
 seo-title: VideoPlayer.loop
 solution: Experience Manager
 title: VideoPlayer.loop
-topic: Dynamic Media
 uuid: 2eb19ab7-fc9f-45c1-b7a3-d06a02f8b6aa
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 12%
+source-wordcount: '51'
+ht-degree: 9%
 
 ---
 
 
 # VideoPlayer.loop{#videoplayer-loop}
 
-Atributo de configuración para el visor de vídeo de medios mixtos.
+Atributo de configuración para el visualizador de vídeo de medios mixtos.
 
 `[VideoPlayer.|<containerId>_videoPlayer.]loop=0|1`
 
@@ -25,7 +26,7 @@ Atributo de configuración para el visor de vídeo de medios mixtos.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p>Indica si el medio se reproduce de nuevo una vez finalizada la reproducción. </p> </td> 
+   <td colname="col2"> <p>Indica si el contenido se reproduce de nuevo una vez finalizada la reproducción. </p> </td> 
   </tr> 
  </tbody> 
 </table>
