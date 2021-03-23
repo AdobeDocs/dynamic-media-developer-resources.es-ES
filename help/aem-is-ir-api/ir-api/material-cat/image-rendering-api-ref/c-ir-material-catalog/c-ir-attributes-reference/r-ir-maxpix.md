@@ -1,15 +1,16 @@
 ---
-description: Límite de tamaño de la imagen de respuesta. Ancho y altura máximos de la imagen de respuesta que se pueden devolver al cliente.
-seo-description: Límite de tamaño de la imagen de respuesta. Ancho y altura máximos de la imagen de respuesta que se pueden devolver al cliente.
+description: Responder límite de tamaño de imagen. Anchura y altura máxima de la imagen de respuesta que se puede devolver al cliente.
+seo-description: Responder límite de tamaño de imagen. Anchura y altura máxima de la imagen de respuesta que se puede devolver al cliente.
 seo-title: MaxPix
 solution: Experience Manager
 title: MaxPix
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8fc5e032-cfbb-40b5-9c3a-a2ec1bc4c3e2
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '127'
 ht-degree: 3%
 
 ---
@@ -17,9 +18,9 @@ ht-degree: 3%
 
 # MaxPix{#maxpix}
 
-Límite de tamaño de la imagen de respuesta. Ancho y altura máximos de la imagen de respuesta que se pueden devolver al cliente.
+Responder límite de tamaño de imagen. Anchura y altura máxima de la imagen de respuesta que se puede devolver al cliente.
 
-El servidor devuelve un error si una solicitud provoca una imagen de respuesta cuya anchura y/o altura sean mayores que `attribute::MaxSize`.
+El servidor devuelve un error si una solicitud provoca una imagen de respuesta cuya anchura y/o altura sean superiores a `attribute::MaxSize`.
 
 ## Propiedades {#section-390c1066b7a748aca3c0b45ad8bdcfb1}
 
@@ -27,7 +28,7 @@ Dos números enteros, mayores que 0, separados por coma. Anchura y altura en pí
 
 ## Predeterminado {#section-45b38dc661854d11b97df5709f4f3434}
 
-Se hereda del valor predeterminado::MaxPix si no está definido o si está vacío.
+Heredado del valor predeterminado::MaxPix si no está definido o si está vacío.
 
 ## Véase también {#section-09cddedde91f43b1ac5828f7e3327c6a}
 
