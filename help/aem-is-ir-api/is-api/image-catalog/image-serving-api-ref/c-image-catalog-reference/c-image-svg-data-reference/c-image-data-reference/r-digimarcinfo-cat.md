@@ -1,15 +1,16 @@
 ---
-description: Información de imagen Digimarc. Habilita la incrustación de Digimarc y especifica el tipo de marca de agua y los datos asociados específicos de la imagen.
-seo-description: Información de imagen Digimarc. Habilita la incrustación de Digimarc y especifica el tipo de marca de agua y los datos asociados específicos de la imagen.
+description: Información de imagen Digimarc. Habilita la incrustación de Digimarc y especifica el tipo de marca de agua y cualquier dato asociado específico de la imagen.
+seo-description: Información de imagen Digimarc. Habilita la incrustación de Digimarc y especifica el tipo de marca de agua y cualquier dato asociado específico de la imagen.
 seo-title: DigimarcInfo
 solution: Experience Manager
 title: DigimarcInfo
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8371880e-47df-4333-b8a6-91feaf16c409
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '256'
 ht-degree: 14%
 
 ---
@@ -17,15 +18,15 @@ ht-degree: 14%
 
 # DigimarcInfo{#digimarcinfo}
 
-Información de imagen Digimarc. Habilita la incrustación de Digimarc y especifica el tipo de marca de agua y los datos asociados específicos de la imagen.
+Información de imagen Digimarc. Habilita la incrustación de Digimarc y especifica el tipo de marca de agua y cualquier dato asociado específico de la imagen.
 
 ## Propiedades {#section-62af219e8bac422b8541841221c9ce4f}
 
-Cuatro valores enteros, separados por comas.
+Cuatro valores enteros separados por comas.
 
 `*``*, *``*, *`typeflagsval1`*, *`val2`*`
 
-`*``*` typehabilita la incrustación Digimarc y especifica el tipo de marca de agua:
+`*``*` permite la incrustación de Digimarc y especifica el tipo de marca de agua:
 
 <table id="table_3648951F14D94C5BAD097CFB783F1EE7"> 
  <thead> 
@@ -58,7 +59,7 @@ Cuatro valores enteros, separados por comas.
  </tbody> 
 </table>
 
-`*``*` indica un campo de bits con tres valores. Configure el bit 0 para indicar contenido protegido contra copia, el bit 1 para indicar contenido restringido y el bit 2 para indicar contenido adulto:
+`*``*` marca un campo de bits con tres valores. Defina el bit 0 para indicar contenido protegido contra copia, el bit 1 para indicar contenido restringido y el bit 2 para indicar contenido adulto:
 
 <table id="table_00F218515FBE484F9D05CBAF14F9D045"> 
  <thead> 
@@ -73,8 +74,8 @@ Cuatro valores enteros, separados por comas.
    <td> <p>- </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
-   <td> <p>Protegido con copia. </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
+   <td> <p>Protegido contra copias. </p> </td> 
   </tr> 
   <tr> 
    <td> <p><b>2</b> </p> </td> 
@@ -82,7 +83,7 @@ Cuatro valores enteros, separados por comas.
   </tr> 
   <tr> 
    <td> <p><b>1</b> </p> </td> 
-   <td> <p>Protegido con copia, restringido. </p> </td> 
+   <td> <p>Protegido contra copias, restringido. </p> </td> 
   </tr> 
   <tr> 
    <td> <p><b>4</b> </p> </td> 
@@ -94,7 +95,7 @@ Cuatro valores enteros, separados por comas.
   </tr> 
   <tr> 
    <td> <p><b>6</b> </p> </td> 
-   <td> <p>Contenido para adultos restringido. </p> </td> 
+   <td> <p>Contenido adulto restringido. </p> </td> 
   </tr> 
   <tr> 
    <td> <p><b>7</b> </p> </td> 
@@ -103,7 +104,7 @@ Cuatro valores enteros, separados por comas.
  </tbody> 
 </table>
 
-La interpretación de `*`val1`*` y `*`val2`*` depende de `*`tipo`*`:
+La interpretación de `*`val1`*` y `*`val2`*` depende del `*`tipo`*`:
 
 <table id="table_6B29F76BC1974C12AB7124BF84B29EC2"> 
  <thead> 
@@ -148,9 +149,9 @@ Se hereda del atributo::DigimarcInfo si el campo no está presente o si está va
 
 ## Ejemplos {#section-0f14727a0a2a408781c9df71fed7f42d}
 
-&quot;0,0,0,0&quot; desactiva la marca de agua Digimarc para esta imagen.
+&quot;0,0,0,0&quot; deshabilita la marca de agua Digimarc para esta imagen.
 
-&quot;1,5,0,0&quot; especifica una marca de agua básica con el indicador de contenido para adultos y protegido contra copia.
+&quot;1,5,0,0&quot; especifica una marca de agua básica con el indicador de contenido para adultos y protegido contra copia establecido.
 
 &quot;2,0,4567,0&quot; especifica una marca de agua con un ID de imagen.
 
