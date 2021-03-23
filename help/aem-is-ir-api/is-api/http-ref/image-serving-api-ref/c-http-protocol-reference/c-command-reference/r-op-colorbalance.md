@@ -4,12 +4,13 @@ seo-description: Ajuste el equilibrio de color. Ajusta el valor de cada componen
 seo-title: op_colorbalance
 solution: Experience Manager
 title: op_colorbalance
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 177aa6e3-1b32-4254-85f1-d7fe14116e3c
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '134'
 ht-degree: 2%
 
 ---
@@ -28,7 +29,7 @@ Ajuste el equilibrio de color. Ajusta el valor de cada componente de color RGB p
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> greenAdj</span> </p></td> 
-  <td class="stentry"> <p>Ajuste del componente verde (-100...+100 int). </p></td> 
+  <td class="stentry"> <p>Ajuste de componentes verdes (-100...+100 int). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> blueAdj</span> </p></td> 
@@ -36,18 +37,18 @@ Ajuste el equilibrio de color. Ajusta el valor de cada componente de color RGB p
  </tr> 
 </table>
 
-Los datos de imagen de entrada en gris y CMYK se convierten a RGB mediante conversión nativa, lo que no es exacto cuando la gestión de color está activada.
+Los datos de imagen de entrada en gris y CMYK se convierten a RGB mediante conversión nativa, lo que no es exacto cuando la gestión del color está habilitada.
 
 ## Propiedades {#section-dff9c934f7c1442bbd02379b688d82e2}
 
-Capa. Se aplica a la capa actual o a la imagen compuesta si `layer=comp`. Omitido por capas de efectos. Las imágenes y capas CMYK se convierten a RGB antes de que se aplique la operación.
+Capa. Se aplica a la capa actual o a la imagen compuesta si `layer=comp`. Ignorado por capas de efecto. Las imágenes y capas CMYK se convierten a RGB antes de aplicar la operación.
 
 ## Predeterminado {#section-08d84ef715964f7daea86f5ef237d199}
 
-`op_colorbalance=0,0,0` sin cambios en los colores.
+`op_colorbalance=0,0,0` sin ningún cambio en los colores.
 
 ## Ejemplo {#section-7e97fa36e01d4af8ab03fc9d493da1a1}
 
-Empuje el equilibrio de color hacia el rojo:
+Empuje el balance de color hacia el rojo:
 
 ... `&op_colorBalance=100,0,0&`...
