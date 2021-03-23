@@ -1,12 +1,13 @@
 ---
-description: Todos los archivos de configuración se encuentran en install_folder/conf y son editables con la mayoría de los editores de texto. Es posible que sea necesario reiniciar el servidor para que los cambios surtan efecto.
+description: Todos los archivos de configuración se encuentran en install_folder/conf y son editables con la mayoría de los editores de texto. Puede que sea necesario reiniciar el servidor para que los cambios surtan efecto.
 solution: Experience Manager
 title: Archivos de configuración del servidor
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
@@ -14,11 +15,11 @@ ht-degree: 0%
 
 # Archivos de configuración del servidor{#server-configuration-files}
 
-Todos los archivos de configuración se encuentran en install_folder/conf y son editables con la mayoría de los editores de texto. Es posible que sea necesario reiniciar el servidor para que los cambios surtan efecto.
+Todos los archivos de configuración se encuentran en install_folder/conf y son editables con la mayoría de los editores de texto. Puede que sea necesario reiniciar el servidor para que los cambios surtan efecto.
 
 >[!NOTE]
 >
->La mayoría de los archivos de configuración del servidor contienen propiedades y valores adicionales que no se describen en este documento. Estas propiedades son para uso interno del servidor y no deben modificarse a menos que se indique específicamente al servicio de asistencia técnica de Dynamic Media.
+>La mayoría de los archivos de configuración del servidor contienen propiedades y valores adicionales que no se describen en este documento. Estas propiedades son para uso interno del servidor y no deben modificarse a menos que el servicio de asistencia técnica de Dynamic Media les indique específicamente.
 
 Este documento analiza la configuración de los siguientes archivos de configuración:
 
@@ -57,4 +58,4 @@ Este documento analiza la configuración de los siguientes archivos de configura
  </tbody> 
 </table>
 
-Los archivos de configuración se analizan más detalladamente más adelante en este documento.
+Los archivos de configuración se tratan más detalladamente más adelante en este documento.
