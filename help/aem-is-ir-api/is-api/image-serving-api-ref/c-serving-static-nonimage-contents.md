@@ -1,23 +1,24 @@
 ---
-description: Puede utilizar el servicio de imágenes para administrar el contenido que no es de imagen en los catálogos y ofrecerlo a través de un contexto /is/content independiente.
-seo-description: Puede utilizar el servicio de imágenes para administrar el contenido que no es de imagen en los catálogos y ofrecerlo a través de un contexto /is/content independiente.
-seo-title: Servicio de contenido estático (sin imagen)
+description: Puede utilizar el servicio de imágenes para administrar el contenido que no sea de imagen en los catálogos y servirlo a través de un contexto /is/content independiente.
+seo-description: Puede utilizar el servicio de imágenes para administrar el contenido que no sea de imagen en los catálogos y servirlo a través de un contexto /is/content independiente.
+seo-title: Servicio de contenido estático (no de imagen)
 solution: Experience Manager
-title: Servicio de contenido estático (sin imagen)
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Servicio de contenido estático (no de imagen)
 uuid: bdb1383a-e02d-499f-be79-4a6dc501705c
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '494'
 ht-degree: 1%
 
 ---
 
 
-# Proporcionando contenido estático (no de imagen){#serving-static-non-image-contents}
+# Servir contenido estático (no imagen){#serving-static-non-image-contents}
 
-Puede utilizar el servicio de imágenes para administrar el contenido que no es de imagen en los catálogos y ofrecerlo a través de un contexto /is/content independiente.
+Puede utilizar el servicio de imágenes para administrar el contenido que no sea de imagen en los catálogos y servirlo a través de un contexto /is/content independiente.
 
 Esta capacidad permite configurar el TTL para cada elemento por separado.
 
@@ -30,10 +31,10 @@ El servicio de imágenes admite los siguientes comandos en [!DNL /is/content]:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76" format="dita" scope="local"> req  </a> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> req=userdata  </span>,  <span class="codeph"> req=props  </span>, y  <span class="codeph"> req=existe  </span> solamente. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> req=userdata  </span>,  <span class="codeph"> req=props  </span>y  <span class="codeph"> req=existe  </span> solamente. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-cache.md#reference-168189bee4ce4d1189d427891f22be2e" format="dita" scope="local"> caché  </a> </p> </td> 
+  <td class="stentry"> <p> <a href="../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-cache.md#reference-168189bee4ce4d1189d427891f22be2e" format="dita" scope="local"> cache  </a> </p> </td> 
   <td class="stentry"> <p>Permite desactivar el almacenamiento en caché del lado del cliente. </p> </td> 
  </tr> 
 </table>
@@ -51,7 +52,7 @@ El servicio de imágenes admite los siguientes comandos en [!DNL /is/content]:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> catálogo  </span> </span> </p> </td> 
-  <td class="stentry"> <p>Identificador del catálogo. </p> </td> 
+  <td class="stentry"> <p>Identificador de catálogo. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> item  </span> </span> </p> </td> 
@@ -63,7 +64,7 @@ El servicio de imágenes admite los siguientes comandos en [!DNL /is/content]:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> command  </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> cmdName  </span>=  <span class="varname"> valor  </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> cmdName  </span>=  <span class="varname"> value  </span> </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> cmdName  </span> </span> </p> </td> 
@@ -97,11 +98,11 @@ Los catálogos de contenido estático son similares a los catálogos de imágene
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> catálogo::Caducidad  </span> </p> </td> 
-   <td colname="col2"> <p>El TTL para este elemento de contenido; atributo <span class="codeph">::Expiration </span> se utiliza si no se especifica o si está vacío. </p> </td> 
+   <td colname="col2"> <p>El TTL para este elemento de contenido; <span class="codeph"> atributo::Expiration </span> se utiliza si no se especifica o si está vacío. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> catálogo::TimeStamp  </span> </p> </td> 
-   <td colname="col2"> <p>Marca de hora de modificación de archivos; requerido cuando la validación basada en catálogo está habilitada con el atributo <span class="codeph">::CacheValidationPolicy </span>. </p> </td> 
+   <td colname="col2"> <p>Marca de tiempo de modificación del archivo; requerido cuando la validación basada en catálogo está habilitada con el atributo <span class="codeph">::CacheValidationPolicy </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> catálogo::UserData  </span> </p> </td> 
@@ -116,17 +117,17 @@ Los catálogos de contenido estático son similares a los catálogos de imágene
 
 ## Filtrado de contenido estático {#section-4c41bf41ff994910840c1352683d1f37}
 
-Este mecanismo puede ayudar a garantizar que los clientes reciban únicamente el contenido adecuado para sus necesidades. Suponiendo que el contenido estático está etiquetado con los valores `catalog::UserType` adecuados, el cliente puede agregar el comando `type=` a la solicitud. El servicio de imágenes compara el valor proporcionado con el comando `type=` con el valor de `catalog::UserType` y, en caso de que no coincida, devuelve un error en lugar de contenido potencialmente inapropiado.
+Este mecanismo puede ayudar a garantizar que los clientes reciban únicamente los contenidos adecuados para sus necesidades. Suponiendo que el contenido estático esté etiquetado con los valores `catalog::UserType` adecuados, el cliente puede agregar el comando `type=` a la solicitud. El servicio de imágenes compara el valor proporcionado con el comando `type=` con el valor de `catalog::UserType` y, en caso de que no coincida, devuelve un error en lugar de contenido potencialmente inapropiado.
 
 ## Archivos de subtítulos de vídeo {#section-1ad25e10399e43eaa8ecb09b531dbf1a}
 
 Puede encapsular archivos de subtítulos de vídeo (WebVTT), CSS o cualquier archivo de texto en formato JSONP. La respuesta JSON se describe a continuación.
 
-* Para los archivos WebVTT, el tipo MIME de la respuesta es text/javascript. JSON no se devuelve; en su lugar, se devuelve Javascript que llama a un método con JSON. Tanto el ID como el controlador son opcionales.
-* Para los archivos CSS, el tipo de MIME de la respuesta es text/javascript. Tanto el ID como el controlador son opcionales.
-* De forma predeterminada, la codificación UTF-8 se aplica para garantizar que se descodifica correctamente. El límite de tamaño predeterminado es 2 MB.
+* Para los archivos WebVTT, el tipo mime de la respuesta es text/javascript. JSON no se devuelve; en su lugar, se devuelve Javascript que llama a un método con JSON. Tanto el ID como el controlador son opcionales.
+* Para los archivos CSS, el tipo mime de la respuesta es text/javascript. Tanto el ID como el controlador son opcionales.
+* De forma predeterminada, la codificación UTF-8 se aplica para garantizar que se descodifique correctamente. El límite de tamaño predeterminado es de 2 MB.
 
-También puede utilizar pistas para otros tipos de metadatos temporizados. Los datos de origen de cada elemento de seguimiento son un archivo de texto formado por una lista de señales temporizadas. Las señales pueden incluir datos en formatos como JSON o CSV.
+También puede utilizar pistas para otros tipos de metadatos temporizados. Los datos de origen de cada elemento de seguimiento son un archivo de texto formado por una lista de indicaciones temporizadas. Las señales pueden incluir datos en formatos como JSON o CSV.
 
 Consulte [http://en.wikipedia.org/wiki/JSONP](http://en.wikipedia.org/wiki/JSONP) para obtener más información sobre el formato JSONP.
 
@@ -134,4 +135,4 @@ Consulte [www.json.org](http://www.json.org) para obtener más información sobr
 
 ## Véase también {#section-7b28631016044a22a3a6762fd64771e9}
 
-[type=](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-type.md#reference-89094fd1c50c444eb082cd266769cccb) ,  [req=](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76), Referencia del catálogo  [de imágenes](../../is-api/image-serving-api-ref/c-image-catalog-reference/c-image-catalog-reference.md#concept-e23d45ea3abe43119d5144e01c14b0b5)
+[type=](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-type.md#reference-89094fd1c50c444eb082cd266769cccb) ,  [req=](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76), Referencia del catálogo de  [imágenes](../../is-api/image-serving-api-ref/c-image-catalog-reference/c-image-catalog-reference.md#concept-e23d45ea3abe43119d5144e01c14b0b5)
