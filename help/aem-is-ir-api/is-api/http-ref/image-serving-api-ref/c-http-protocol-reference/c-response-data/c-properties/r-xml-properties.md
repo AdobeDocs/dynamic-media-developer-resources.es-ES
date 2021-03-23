@@ -1,15 +1,16 @@
 ---
-description: Si se especifica xml como formato de respuesta, los datos de respuesta tienen el formato de documento XML que puede analizar cualquier analizador XML estándar.
-seo-description: Si se especifica xml como formato de respuesta, los datos de respuesta tienen el formato de documento XML que puede analizar cualquier analizador XML estándar.
+description: Si xml se especifica como formato de respuesta, los datos de respuesta tienen formato de documento XML que puede ser analizado por cualquier analizador XML estándar.
+seo-description: Si xml se especifica como formato de respuesta, los datos de respuesta tienen formato de documento XML que puede ser analizado por cualquier analizador XML estándar.
 seo-title: Propiedades XML
 solution: Experience Manager
 title: Propiedades XML
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9d169ad2-e466-4ab3-8900-ea9c6125edad
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # Propiedades XML{#xml-properties}
 
-Si se especifica xml como formato de respuesta, los datos de respuesta tienen el formato de documento XML que puede analizar cualquier analizador XML estándar.
+Si xml se especifica como formato de respuesta, los datos de respuesta tienen formato de documento XML que puede ser analizado por cualquier analizador XML estándar.
 
 Un documento de respuesta de propiedades típicas tiene esta estructura general:
 
@@ -41,9 +42,9 @@ Un documento de respuesta de propiedades típicas tiene esta estructura general:
 </prop-group>
 ```
 
-El elemento `<prop-group>` se utiliza como contenedor externo y para agrupar propiedades. Si se nombra un grupo, el nombre corresponde al nombre del objeto Java/JavaScript.
+El elemento `<prop-group>` se utiliza como contenedor exterior y para agrupar propiedades. Si se nombra un grupo, el nombre corresponde al nombre del objeto Java/JavaScript.
 
 >[!NOTE]
 >
->Se puede especificar la codificación de caracteres para algunos tipos `req=`. Consulte la descripción del comando `req=`específico para obtener más información.
+>Se puede especificar la codificación de caracteres para algunos tipos `req=`. Consulte la descripción del comando específico `req=`para obtener más información.
 
