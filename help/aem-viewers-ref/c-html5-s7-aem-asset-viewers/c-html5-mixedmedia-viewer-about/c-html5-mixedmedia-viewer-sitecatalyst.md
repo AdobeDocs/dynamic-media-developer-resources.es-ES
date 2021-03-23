@@ -1,33 +1,34 @@
 ---
-description: El visor de medios mixtos admite el seguimiento de Adobe Analytics de forma predeterminada.
-seo-description: El visor de medios mixtos admite el seguimiento de Adobe Analytics de forma predeterminada.
+description: El visualizador de medios mixtos es compatible con el seguimiento de Adobe Analytics de serie.
+seo-description: El visualizador de medios mixtos es compatible con el seguimiento de Adobe Analytics de serie.
 seo-title: Compatibilidad con el seguimiento de Adobe Analytics
 solution: Experience Manager
 title: Compatibilidad con el seguimiento de Adobe Analytics
-topic: Dynamic Media
 uuid: ad4dfed6-121f-4adb-bbdb-db6e6ee5672d
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
+role: Desarrollador, profesional empresarial, ingeniero de datos, arquitecto de datos
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 5%
+source-wordcount: '212'
+ht-degree: 4%
 
 ---
 
 
 # Compatibilidad con el seguimiento de Adobe Analytics{#support-for-adobe-analytics-tracking}
 
-El visor de medios mixtos admite el seguimiento de Adobe Analytics de forma predeterminada.
+El visualizador de medios mixtos es compatible con el seguimiento de Adobe Analytics de serie.
 
 ## Seguimiento predeterminado {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-El visor de medios mixtos admite el seguimiento [!DNL Adobe Analytics] de forma predeterminada. Para habilitar el seguimiento, pase el nombre de ajuste preestablecido de compañía correcto como parámetro `config2`.
+El visualizador de medios mixtos admite el seguimiento [!DNL Adobe Analytics] listo para usar. Para habilitar el seguimiento, pase el nombre de ajuste preestablecido de empresa adecuado como parámetro `config2`.
 
 El visor también envía una única solicitud HTTP de seguimiento al servidor de imágenes configurado con el tipo de visor y la información de versión.
 
 ## Seguimiento personalizado {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Para integrarse con sistemas de análisis de terceros, es necesario escuchar la rellamada del visor `trackEvent` y procesar el argumento `eventInfo` de la función de rellamada según sea necesario. El siguiente código es un ejemplo de dicha función de controlador:
+Para integrarse con sistemas de análisis de terceros, es necesario escuchar la llamada de retorno del visor `trackEvent` y procesar el argumento `eventInfo` de la función de llamada de retorno según sea necesario. El siguiente código es un ejemplo de dicha función de controlador:
 
 ```
 var mixedMediaViewer = new s7viewers.MixedMediaViewer({ 
@@ -52,12 +53,12 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 });
 ```
 
-El visor realiza el seguimiento de los siguientes eventos de usuario del SDK:
+El visor realiza el seguimiento de los siguientes eventos de usuario de SDK:
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>EVENTO del usuario del SDK </p> </th> 
+   <th colname="col1" class="entry"> <p>Evento de usuario del SDK </p> </th> 
    <th colname="col2" class="entry"> <p>Enviado cuando... </p> </th> 
   </tr> 
  </thead>
@@ -72,19 +73,19 @@ El visor realiza el seguimiento de los siguientes eventos de usuario del SDK:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 
-   <td colname="col2"> <p>se amplía una imagen. </p> </td> 
+   <td colname="col2"> <p>se amplía el zoom de una imagen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAN </span> </p> </td> 
-   <td colname="col2"> <p>una imagen está panorámica. </p> </td> 
+   <td colname="col2"> <p>una imagen es panorámica. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWATCH </span> </p> </td> 
-   <td colname="col2"> <p> para cambiar una imagen, toque o haga clic en una muestra. </p> </td> 
+   <td colname="col2"> <p> una imagen se cambia tocando o haciendo clic en una muestra. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 
-   <td colname="col2"> <p>se ha iniciado la reproducción. </p> </td> 
+   <td colname="col2"> <p>se inicia la reproducción. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAUSE </span> </p> </td> 
@@ -92,11 +93,11 @@ El visor realiza el seguimiento de los siguientes eventos de usuario del SDK:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> STOP </span> </p> </td> 
-   <td colname="col2"> <p>la reproducción se detiene. </p> </td> 
+   <td colname="col2"> <p>se detiene la reproducción. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MILESTONE </span> </p> </td> 
-   <td colname="col2"> <p>la reproducción llega a uno de los siguientes cálculos: 0 %, 25 %, 50 %, 75 % y 100 %. </p> </td> 
+   <td colname="col2"> <p>la reproducción llega a uno de los siguientes molinos: 0 %, 25 %, 50 %, 75 % y 100 %. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SPIN </span> </p> </td> 
