@@ -1,36 +1,37 @@
 ---
-description: Utilice este procedimiento al actualizar el servicio de imágenes de Dynamic Media en Linux.
-seo-description: Utilice este procedimiento al actualizar el servicio de imágenes de Dynamic Media en Linux.
-seo-title: Actualización desde IS 4.7.4 o posterior
+description: Utilice este procedimiento al actualizar Dynamic Media Image Serving en Linux.
+seo-description: Utilice este procedimiento al actualizar Dynamic Media Image Serving en Linux.
+seo-title: Actualización de IS 4.7.4 o posterior
 solution: Experience Manager
-title: Actualización desde IS 4.7.4 o posterior
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Actualización de IS 4.7.4 o posterior
 uuid: 70beb1a3-71b9-4bd0-b048-13d88446a9d3
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
 
 
-# Actualizando desde IS 4.7.4 o posterior{#updating-from-is-or-later}
+# Actualización de IS 4.7.4 o posterior{#updating-from-is-or-later}
 
-Utilice este procedimiento al actualizar el servicio de imágenes de Dynamic Media en Linux.
+Utilice este procedimiento al actualizar Dynamic Media Image Serving en Linux.
 
-Si va a realizar la actualización desde una versión anterior del servicio de imágenes, póngase en contacto con el servicio de soporte técnico para conocer el proceso correcto.
+Si está actualizando desde una versión anterior de Image Serving, póngase en contacto con el servicio de asistencia técnica para el proceso correcto.
 
-La carpeta [!DNL webapps] puede eliminarse al actualizar. Haga una copia de seguridad de la carpeta [!DNL webapps] antes de realizar la actualización.
+La carpeta [!DNL webapps] se puede eliminar al actualizar. Haga una copia de seguridad de la carpeta [!DNL webapps] antes de la actualización.
 
-1. Inicie sesión en el host del servidor con privilegios de raíz.
-1. Descomprima y descomprima el archivo tar de distribución de servicio de imágenes.
+1. Inicie sesión en el host del servidor con privilegios de root.
+1. Descomprima y descomprima el archivo tar de distribución de Image Serving.
 1. Ejecute [!DNL ./install-is] para iniciar el asistente de instalación que se encuentra en la carpeta [!DNL setup].
 
-   El instalador de actualizaciones comprueba la integridad y la versión del paquete instalado. Si se realiza correctamente, se muestra el Contrato de licencia de usuario final (&quot;EULA&quot;).
-1. Lea el contrato de licencia y, a continuación, escriba &quot;**[!UICONTROL y]**&quot; para continuar con la instalación.
+   El instalador de actualización comprueba la integridad y la versión del paquete instalado. Si se realiza correctamente, se muestra el Acuerdo de licencia del usuario final (&quot;EULA&quot;).
+1. Lea el contrato de licencia y, a continuación, introduzca &quot;**[!UICONTROL y]**&quot; para continuar con la instalación.
 
-   El programa de instalación realiza una copia de seguridad de los archivos de configuración antiguos del servidor en la carpeta [!DNL BACKUP/].
+   El instalador realiza una copia de seguridad de los archivos de configuración antiguos del servidor en la carpeta [!DNL BACKUP/].
 
    Cuando se completa la instalación, se muestra el siguiente mensaje:
 
@@ -38,4 +39,4 @@ La carpeta [!DNL webapps] puede eliminarse al actualizar. Haga una copia de segu
 
 Durante una actualización, el archivo [!DNL ImageServing/conf/server.xml] se actualiza a la configuración más reciente. Si ha cambiado o agregado algún valor, debe guardar el [!DNL server.xml] existente y volver a implementar los cambios después de la actualización.
 
-Después de una instalación de actualización, considere la posibilidad de calentar la caché de respuesta HTTP antes de activar el servidor. Consulte la descripción de la utilidad [!DNL playlog] para obtener más detalles.
+Después de una instalación de actualización, considere la posibilidad de calentar la caché de respuestas HTTP antes de activar el servidor. Consulte la descripción de la utilidad [!DNL playlog] para obtener más información.
