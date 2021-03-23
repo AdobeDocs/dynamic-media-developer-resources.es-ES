@@ -2,13 +2,14 @@
 description: SpinView.iscommand
 solution: Experience Manager
 title: SpinView.iscommand
-topic: Dynamic Media
 uuid: e2c86ec3-0f8a-42eb-98a1-689f083fa20c
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 8%
+source-wordcount: '69'
+ht-degree: 7%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> iscommand</span></span> </p> </td> 
-   <td colname="col2"> <p> La cadena de comandos del servicio de imágenes que se aplica a la imagen de giro. Si se especifica en la dirección URL, todas las incidencias de <span class="codeph"> &amp;</span> y <span class="codeph"> =</span> deben estar codificadas en HTTP como <span class="codeph"> %26</span> y <span class="codeph"> %3D</span>, respectivamente. </p> <p> <p>Nota:  No se admiten los comandos de manipulación de tamaño de imagen. </p> </p> </td> 
+   <td colname="col2"> <p> La cadena de comando del Servidor de imágenes que se aplica a la imagen de giro. Si se especifica en la dirección URL, todas las ocurrencias de <span class="codeph"> &amp;</span> y <span class="codeph"> =</span> deben codificarse con HTTP como <span class="codeph"> %26</span> y <span class="codeph"> %3D</span>, respectivamente. </p> <p> <p>Nota:  No se admiten los comandos de manipulación del tamaño de imagen. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -36,7 +37,7 @@ Ninguno.
 
 ## Ejemplo {#section-bd6c4249bccf44aab13fee8552f5a8b3}
 
-Cuando se especifica en la URL del visor:
+Cuando se especifique en la dirección URL del visor:
 
 `iscommand=op_sharpen%3d1%26op_colorize%3d0xff0000`
 
