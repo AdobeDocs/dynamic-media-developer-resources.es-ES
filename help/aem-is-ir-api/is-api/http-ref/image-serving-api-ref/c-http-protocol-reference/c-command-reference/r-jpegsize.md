@@ -1,23 +1,24 @@
 ---
-description: Tamaño JPEG en KiloBytes. Especifica el tamaño máximo de la respuesta JPEG en kilobytes.
-seo-description: Tamaño JPEG en KiloBytes. Especifica el tamaño máximo de la respuesta JPEG en kilobytes.
+description: Tamaño de Jpeg en KiloBytes. Especifica el tamaño máximo de la respuesta JPEG en kilobytes.
+seo-description: Tamaño de Jpeg en KiloBytes. Especifica el tamaño máximo de la respuesta JPEG en kilobytes.
 seo-title: jpegSize
 solution: Experience Manager
 title: jpegSize
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 832163ca-0554-481d-b87f-bf322f415274
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 4%
+source-wordcount: '180'
+ht-degree: 3%
 
 ---
 
 
 # jpegSize{#jpegsize}
 
-Tamaño JPEG en KiloBytes. Especifica el tamaño máximo de la respuesta JPEG en kilobytes.
+Tamaño de Jpeg en KiloBytes. Especifica el tamaño máximo de la respuesta JPEG en kilobytes.
 
 `jpegSize= *`tamaño`*`
 
@@ -28,15 +29,15 @@ Tamaño JPEG en KiloBytes. Especifica el tamaño máximo de la respuesta JPEG en
  </tr> 
 </table>
 
-Si se establece en un valor positivo y la respuesta JPEG con la calidad JPEG especificada no supera este valor, la imagen se devuelve como respuesta. De lo contrario, la calidad JPEG disminuye hasta que produce una imagen que se ajusta al tamaño especificado o hasta que determina que no cabe. En este último caso, la solicitud falla con un error.
+Si se establece en un valor positivo, y si la respuesta JPEG con la calidad JPEG especificada no supera este valor, la imagen se devuelve como respuesta. De lo contrario, la calidad JPEG disminuye hasta que produce una imagen que se ajusta al tamaño especificado o hasta que determina que no se puede ajustar. En este último caso, la solicitud falla con un error.
 
-Un valor de 0 significa que la respuesta no está limitada por el tamaño.
+Un valor de 0 significa que la respuesta no está restringida por el tamaño.
 
 No se permiten valores negativos.
 
 ## Propiedades {#section-19e544e77d35478b98fe8666f27d6968}
 
-Solicitar atributo. Se aplica independientemente de la configuración de la capa actual. Se omite si el formato de imagen de salida no es JPEG.
+Atributo de solicitud. Se aplica independientemente de la configuración de capa actual. Se omite si el formato de imagen de salida no es JPEG.
 
 ## Predeterminado {#section-198b798ed187453197e0969c641d6fb5}
 
