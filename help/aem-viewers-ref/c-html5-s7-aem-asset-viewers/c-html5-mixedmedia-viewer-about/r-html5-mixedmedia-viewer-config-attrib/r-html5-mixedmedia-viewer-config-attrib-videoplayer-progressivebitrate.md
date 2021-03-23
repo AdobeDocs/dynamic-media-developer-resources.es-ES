@@ -2,13 +2,14 @@
 description: VideoPlayer.progressivebitrate
 solution: Experience Manager
 title: VideoPlayer.progressivebitrate
-topic: Dynamic Media
 uuid: 94de31cd-2b4e-4247-b181-26666767f065
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 7%
+source-wordcount: '95'
+ht-degree: 6%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> basado en IP</span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica (en kbits por segundos o kbps) la velocidad de bits de vídeo deseada para reproducirse desde un conjunto de vídeos adaptable en caso de que el sistema actual no admita la reproducción de vídeo adaptable. </p> <p>El componente recoge el flujo de vídeo con la velocidad de bits más cercana posible (pero sin superar) al valor especificado. Si todos los flujos de vídeo del conjunto de vídeos adaptable tienen una calidad superior al valor especificado, la lógica elige la velocidad de bits con la calidad más baja. </p> </td> 
+   <td colname="col2"> <p> Especifica (en kbits por segundos o kbps) la velocidad de bits de vídeo deseada para reproducirse desde un conjunto de vídeo adaptable en caso de que el sistema actual no admita la reproducción de vídeo adaptable. </p> <p>El componente recoge el flujo de vídeo con la velocidad de bits más cercana posible (pero sin exceder) al valor especificado. Si todos los flujos de vídeo del conjunto de vídeos adaptables tienen una calidad superior a la especificada, la lógica elige la velocidad de bits con la calidad más baja. </p> </td> 
   </tr> 
  </tbody> 
 </table>
