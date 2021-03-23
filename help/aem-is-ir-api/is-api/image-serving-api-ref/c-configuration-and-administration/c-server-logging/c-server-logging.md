@@ -2,11 +2,12 @@
 description: Todos los archivos de registro se escriben en la misma carpeta de registro especificada con el directorio TC.
 solution: Experience Manager
 title: Registro del servidor
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '178'
 ht-degree: 1%
 
 ---
@@ -16,13 +17,13 @@ ht-degree: 1%
 
 Todos los archivos de registro se escriben en la misma carpeta de registro especificada con TC::directory.
 
-Los archivos de registro suelen crearse y rotarse diariamente. Los archivos de registro anteriores de la carpeta de registro se eliminan automáticamente después de un número especificado de días ( `TC::maxDays`).
+Los archivos de registro suelen crearse y girarse diariamente. Los archivos de registro más antiguos de la carpeta de registro se eliminan automáticamente después de un número especificado de días ( `TC::maxDays`).
 
-Importante Debe reservarse una cantidad suficiente de espacio en disco para los archivos de registro a fin de evitar que se agote el espacio en disco. Es posible que se requieran de 1 a 2 GB/día para un servidor que se utiliza con frecuencia y para la configuración de registro predeterminada.
+Importante Se debe reservar una cantidad suficiente de espacio en disco para los archivos de registro a fin de evitar quedarse sin espacio en disco. Es posible que se requieran de 1 a 2 GB/día para un servidor muy utilizado y la configuración de registro predeterminada.
 
 Platform Server y Image Server crean los tres tipos de archivos de registro que se describen a continuación.
 
-Otros componentes de servicio de imágenes y algunos otros paquetes de Dynamic Media, como los visores de Dynamic Media, también pueden crear archivos de registro en la misma carpeta. Estos archivos de registro son para uso interno de Dynamic Media y pueden ser solicitados por el soporte técnico de Dynamic Media para resolución de problemas.
+Otros componentes de servicio de imágenes y algunos otros paquetes de Dynamic Media, como los visores de Dynamic Media, también pueden crear archivos de registro en la misma carpeta. Estos archivos de registro son para uso interno de Dynamic Media y el soporte técnico de Dynamic Media puede solicitarlos para solucionar problemas.
 
 * [Registro de acceso](c-access-log.md)
 * [Registro de seguimiento](c-trace-log.md)
