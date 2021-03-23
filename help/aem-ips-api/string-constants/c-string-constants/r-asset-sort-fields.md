@@ -1,21 +1,22 @@
 ---
 description: Utilizado por searchAssetsParam/sortBy.
 seo-description: Utilizado por searchAssetsParam/sortBy.
-seo-title: Campos de ordenación de recursos
+seo-title: Campos de clasificación de recursos
 solution: Experience Manager
-title: Campos de ordenación de recursos
-topic: Dynamic Media Image Production System API
+title: Campos de clasificación de recursos
 uuid: d7db11e4-3acf-457d-9708-64167fbea899
+feature: Dynamic Media Classic,SDK/API,Administración de activos
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '23'
-ht-degree: 8%
+source-wordcount: '32'
+ht-degree: 6%
 
 ---
 
 
-# Campos de ordenación de recursos{#asset-sort-fields}
+# Campos de clasificación de recursos{#asset-sort-fields}
 
 Utilizado por searchAssetsParam/sortBy.
 
