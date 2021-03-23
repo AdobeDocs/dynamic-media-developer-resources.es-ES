@@ -4,12 +4,13 @@ seo-description: Determina si un lote de recursos está listo para publicarse.
 seo-title: setAssetsPublishState
 solution: Experience Manager
 title: setAssetsPublishState
-topic: Dynamic Media Image Production System API
 uuid: 2910cd6c-573b-405c-864d-a0136ac5472d
+feature: Dynamic Media Classic,SDK/API,Administración de activos
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '172'
 ht-degree: 11%
 
 ---
@@ -40,7 +41,7 @@ Esta es la versión por lotes de [setAssetState](../../../operations/c-operation
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de compañía. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la empresa. |
 | `*`publishStateUpdateArray`*` | `types:PublishStateUpdateArray` | Sí | Matriz de valores de estado de publicación para los recursos. |
 
 **Salida (setAssetsPublishStateParam)**
