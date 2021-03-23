@@ -4,12 +4,13 @@ seo-description: Incrustar datos de rutas. Especifica si las rutas de Photoshop 
 seo-title: pathEmbed
 solution: Experience Manager
 title: pathEmbed
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 93e63c7c-c091-4bb1-baff-45706fd611ea
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '173'
 ht-degree: 2%
 
 ---
@@ -23,7 +24,7 @@ Incrustar datos de rutas. Especifica si las rutas de Photoshop del archivo de im
 
 ## Propiedades {#section-26eb1c9e13574a0eae39f6d5b92c8995}
 
-Solicitar atributo. Se omite si la imagen de origen no contiene datos de rutas de acceso. Los datos de las rutas se escalan y giran como los datos de la imagen. Solo se procesan las rutas de la imagen de origen de `layer=0`; se omiten los trazados de otras imágenes de capa.
+Atributo de solicitud. Se omite si la imagen de origen no contiene datos de rutas. Los datos de las rutas se escalan y giran como los datos de la imagen. Solo se procesan las rutas de la imagen de origen de `layer=0`; las rutas de otras imágenes de capa se ignoran.
 
 Se omite si el formato de imagen de salida no admite la incrustación de rutas. Consulte la descripción de `fmt=` para obtener una lista de los formatos de imagen de salida que admiten la incrustación de rutas.
 
