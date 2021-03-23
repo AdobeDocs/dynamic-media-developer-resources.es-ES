@@ -1,40 +1,41 @@
 ---
-description: Propiedades del catálogo de imágenes. Devuelve atributos comunes del catálogo de imágenes especificado en la ruta de la solicitud.
-seo-description: Propiedades del catálogo de imágenes. Devuelve atributos comunes del catálogo de imágenes especificado en la ruta de la solicitud.
+description: Propiedades del catálogo de imágenes. Devuelve atributos comunes del catálogo de imágenes especificado en la ruta de solicitud.
+seo-description: Propiedades del catálogo de imágenes. Devuelve atributos comunes del catálogo de imágenes especificado en la ruta de solicitud.
 seo-title: catalogprops
 solution: Experience Manager
 title: catalogprops
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 09252d39-8604-4785-bcdc-ad229a691035
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 6%
+source-wordcount: '237'
+ht-degree: 5%
 
 ---
 
 
 # catalogprops{#catalogprops}
 
-Propiedades del catálogo de imágenes. Devuelve atributos comunes del catálogo de imágenes especificado en la ruta de la solicitud.
+Propiedades del catálogo de imágenes. Devuelve atributos comunes del catálogo de imágenes especificado en la ruta de solicitud.
 
 `req=catalogprops[,text|javascript|xml|{json[&id= *`reqId`*]}]`
 
 <table id="simpletable_D1D9183C08834005B482B103CEF2EDA9"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> reqId</span></span> </p> </td> 
-  <td class="stentry"> <p>Identificador de solicitud único. </p></td> 
+  <td class="stentry"> <p>Identificador de solicitud única. </p></td> 
  </tr> 
 </table>
 
-Omita el identificador de catálogo para recuperar las propiedades de catálogo predeterminadas ( [!DNL default.ini]). La respuesta HTTP se puede almacenar en caché con el TTL basado en `attribute::NonImgExpiration`.
+Omite el id. de catálogo para recuperar las propiedades de catálogo predeterminadas ( [!DNL default.ini]). La respuesta HTTP se puede almacenar en caché con el TTL basado en `attribute::NonImgExpiration`.
 
-Las solicitudes que admiten el formato de respuesta JSONP permiten especificar el nombre del controlador de llamada de retorno JS mediante la sintaxis extendida del parámetro `req=`:
+Las solicitudes que admiten el formato de respuesta JSONP permiten especificar el nombre del controlador de llamada de retorno JS mediante la sintaxis extendida del parámetro `req=` :
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` es el nombre del controlador JS que está presente en la respuesta JSONP. Solo se permiten los caracteres a-z, A-Z y 0-9. Opcional. El valor predeterminado es `s7jsonResponse`.
+`<reqHandler>` es el nombre del controlador JS que está presente en la respuesta JSONP. Solo se permiten caracteres a-z, A-Z y 0-9. Opcional. El valor predeterminado es `s7jsonResponse`.
 
 Se devuelven los siguientes valores de propiedad:
 
@@ -58,7 +59,7 @@ Se devuelven los siguientes valores de propiedad:
   <tr> 
    <td> <p> <span class="codeph"> catalog.defaultPix</span> </p> </td> 
    <td> <p> int,int </p> </td> 
-   <td> <p> <span class="codeph"> attribute::DefaultPix</span> </p> </td> 
+   <td> <p> <span class="codeph"> atributo::DefaultPix</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.defaultThumbPix</span> </p> </td> 
@@ -73,7 +74,7 @@ Se devuelven los siguientes valores de propiedad:
   <tr> 
    <td> <p> <span class="codeph"> catalog.defaultExpiration</span> </p> </td> 
    <td> <p> real </p> </td> 
-   <td> <p> <span class="codeph"> attribute::DefaultExpiration</span> </p> </td> 
+   <td> <p> <span class="codeph"> atributo::DefaultExpiration</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.nonImgExpiration</span> </p> </td> 
@@ -83,7 +84,7 @@ Se devuelven los siguientes valores de propiedad:
   <tr valign="top"> 
    <td> <p> <span class="codeph"> catalog.fileTime</span> </p> </td> 
    <td> <p> cadena </p> </td> 
-   <td> <p> <span class="codeph"> atributo::LastModified</span> o, si no está presente, la hora de la última modificación del  <span class="varname"> catálogo</span><span class="filepath"> .</span> inifile </p> </td> 
+   <td> <p> <span class="codeph"> atributo::LastModified</span> o, si no está presente, la última hora modificada del  <span class="varname"> catálogo</span><span class="filepath"> .</span> inifile </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.jpegQuality</span> </p> </td> 
@@ -113,7 +114,7 @@ Se devuelven los siguientes valores de propiedad:
   <tr> 
    <td> <p> <span class="codeph"> catalog.resolution</span> </p> </td> 
    <td> <p> real </p> </td> 
-   <td> <p> <span class="codeph"> attribute::Resolution</span> </p> </td> 
+   <td> <p> <span class="codeph"> atributo:Resolution</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.thumbBkgColor</span> </p> </td> 
@@ -123,7 +124,7 @@ Se devuelven los siguientes valores de propiedad:
   <tr> 
    <td> <p> <span class="codeph"> catalog.thumbHorizAlign</span> </p> </td> 
    <td> <p> enum </p> </td> 
-   <td> <p> <span class="codeph"> atributo::ThumbHorizAlign</span> </p> </td> 
+   <td> <p> <span class="codeph"> atributo:ThumbHorizAlign</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.thumbRes</span> </p> </td> 
@@ -138,12 +139,12 @@ Se devuelven los siguientes valores de propiedad:
   <tr> 
    <td> <p> <span class="codeph"> catalog.thumbVertAlign</span> </p> </td> 
    <td> <p> enum </p> </td> 
-   <td> <p> <span class="codeph"> atributo::ThumbVertAlign</span> </p> </td> 
+   <td> <p> <span class="codeph"> atributo:ThumbVertAlign</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catálogo::marca de agua</span> </p> </td> 
    <td> <p> cadena </p> </td> 
-   <td> <p> <span class="codeph"> atributo::Watermark</span> </p> </td> 
+   <td> <p> <span class="codeph"> atributo::marca de agua</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
