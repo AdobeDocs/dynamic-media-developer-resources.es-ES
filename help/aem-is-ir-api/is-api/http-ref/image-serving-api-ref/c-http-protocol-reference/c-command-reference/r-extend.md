@@ -1,48 +1,49 @@
 ---
-description: Extender la capa. Añade los márgenes en una capa o recorta el rectángulo de la capa.
-seo-description: Extender la capa. Añade los márgenes en una capa o recorta el rectángulo de la capa.
-seo-title: extender
+description: Extender capa. Agrega márgenes a una capa o recorta el rectángulo de la capa.
+seo-description: Extender capa. Agrega márgenes a una capa o recorta el rectángulo de la capa.
+seo-title: ampliar
 solution: Experience Manager
-title: extender
-topic: Dynamic Media Image Serving - Image Rendering API
+title: ampliar
 uuid: 7ca69994-e788-41a9-93ac-f22b6b9920d0
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 2%
+source-wordcount: '256'
+ht-degree: 1%
 
 ---
 
 
-# extender{#extend}
+# ampliar{#extend}
 
-Extender la capa. Añade los márgenes en una capa o recorta el rectángulo de la capa.
+Extender capa. Agrega márgenes a una capa o recorta el rectángulo de la capa.
 
-`extend= *``*, *``*, *``*, *`izquierdaderecha inferior`*`
+`extend= *``*, *``*, *``*, *`zefttoprightbottom`*`
 
 `extendN= *``*, *``*, *``*, *`leftNtopNrightNbottomN`*`
 
 <table id="simpletable_1DCCD469712B423C8154630127DC5F54"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> izquierda,arriba,abajo,derecha</span></span> </p></td> 
-  <td class="stentry"> <p>Número de píxeles que se van a añadir (o eliminar, si el valor es negativo) al borde izquierdo, superior, derecho e inferior del rectángulo de la capa (int, int, int, int). </p></td> 
+  <td class="stentry"> <p>Número de píxeles que se agregan (o eliminan de, si el valor es negativo) al borde izquierdo, superior, derecho e inferior del borde de la capa (int, int, int, int, int). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> leftN,topN,bottomN,rightN</span></span> </p></td> 
-  <td class="stentry"> <p>Cantidad de espacio para agregar (o quitar, si el valor es negativo) al borde izquierdo, superior, derecho e inferior del rectángulo de capa, expresado como cantidades normalizadas en relación con el tamaño del rectángulo de capa original (real, real, real, real, real). </p></td> 
+  <td class="stentry"> <p>Cantidad de espacio que se debe añadir (o eliminar de, si el valor es negativo) en el borde izquierdo, superior, derecho e inferior del borde de la capa recto, expresado como cantidades normalizadas en relación con el tamaño del borde de la capa original (real, real, real, real). </p></td> 
  </tr> 
 </table>
 
-`extend=` se aplica a la capa  ** después de recortar la imagen (  `crop=`) y se han aplicado todas las transformaciones de capa, incluidas  `rotate=`,
+`extend=` se aplica a la capa  ** después de recortar la imagen (  `crop=`) y se han aplicado todas las transformaciones de capa, incluida  `rotate=`.
 
 El área extendida se rellena con `bgColor=` o, si no se especifica, permanece transparente.
 
-Los valores de argumento para `extendN=` se normalizan en relación con el tamaño del rectángulo de capa después de aplicar las transformaciones de capa, incluyendo `rotate=`.
+Los valores de argumento para `extendN=` se normalizan en relación con el tamaño del recto de capa después de aplicar las transformaciones de capa, incluyendo `rotate=`.
 
 ## Propiedades {#section-8fc94de871f841f3bf5e1df135972ca9}
 
-Atributo de capa. Se aplica a la capa 0 si `layer=comp`. Omitido por capas de efectos.
+Atributo de capa. Se aplica a la capa 0 si `layer=comp`. Ignorado por capas de efecto.
 
 ## Predeterminado {#section-de7473649cb9406b8d99028c74c4b8dc}
 
@@ -54,9 +55,9 @@ Atributo de capa. Se aplica a la capa 0 si `layer=comp`. Omitido por capas de ef
 
 `…&cropN=.2,.3,.8,.9&extend=5,5,5,5&bgColor=255,0,0&…`
 
-**Ajuste la escala de una imagen a 200 píxeles de ancho y añada texto de título a un margen de 30 píxeles por encima de la imagen.**
+**Escale una imagen a 200 píxeles de ancho y añada texto de título a un margen de 30 píxeles por encima de la imagen.**
 
-Tenga en cuenta que la altura de la imagen compuesta varía en función de la proporción de aspecto de la imagen.
+Tenga en cuenta que la altura de la imagen compuesta varía según la relación de aspecto de la imagen.
 
 `http://server/myRootId/myImageId?size=200,0&extend=0,30,0,0&origin=0,0 layer=1&text=title-text&origin=0,0`
 
