@@ -4,13 +4,14 @@ seo-description: Utilice esta configuración de servidor para SSL.
 seo-title: SSL
 solution: Experience Manager
 title: SSL
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: dec9bd09-8191-4010-8898-2890ffbe9ca7
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 7%
+source-wordcount: '105'
+ht-degree: 6%
 
 ---
 
@@ -21,15 +22,15 @@ Utilice esta configuración de servidor para SSL.
 
 ## TC::SslPort - Puerto de escucha {#section-c80eb582bf684b3fa7313a77cc606769}
 
-Especifica el puerto de escucha para las conexiones SSL de Platform Server. El valor predeterminado es 8443.
+Especifica el puerto de escucha para Platform Server para conexiones SSL. El valor predeterminado es 8443.
 
-## TC::keystoreFile - Ruta del archivo del almacén de claves {#section-0cdf9b3cfcf249818b22221d01bafebe}
+## TC::keystoreFile - Keystore File Path {#section-0cdf9b3cfcf249818b22221d01bafebe}
 
-Especifique la ruta/nombre del archivo SSL keystore. Puede ser una ruta absoluta o una ruta relativa a [!DNL *[!DNL install_folder]*/conf]. El valor predeterminado es *install_folder*/conf/scene7keystore.
+Especifique la ruta/nombre del archivo del almacén de claves SSL. Puede ser una ruta absoluta o una ruta relativa a [!DNL *[!DNL install_folder]*/conf]. El valor predeterminado es *install_folder*/conf/scene7keystore.
 
-## TC::keystorePass - Contraseña de keystore {#section-e7e9bfb7df584a248c0e3ee46803c3b1}
+## TC::keystorePass - Contraseña del almacén de claves {#section-e7e9bfb7df584a248c0e3ee46803c3b1}
 
-La contraseña del archivo de almacén de claves. El valor predeterminado es `scene7`.
+La contraseña del archivo del almacén de claves. El valor predeterminado es `scene7`.
 
 ## TC::keystoreType - Tipo de almacén de claves {#section-8f263e1ba67740728cd39181960d7c7d}
 
