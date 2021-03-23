@@ -1,23 +1,24 @@
 ---
-description: Si jsonp se especifica como formato de respuesta, los datos de respuesta se formatean con JSONP (JavaScript Object Notation with Padding), ajustado en una llamada de función JavaScript.
-seo-description: Si jsonp se especifica como formato de respuesta, los datos de respuesta se formatean con JSONP (JavaScript Object Notation with Padding), ajustado en una llamada de función JavaScript.
+description: Si jsonp se especifica como formato de respuesta, los datos de respuesta tienen un formato JSONP (Notación de objeto JavaScript con relleno), incluido en una llamada de función JavaScript.
+seo-description: Si jsonp se especifica como formato de respuesta, los datos de respuesta tienen un formato JSONP (Notación de objeto JavaScript con relleno), incluido en una llamada de función JavaScript.
 seo-title: Propiedades de JSONP
 solution: Experience Manager
 title: Propiedades de JSONP
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e53d75f2-9b43-4e8f-8191-66f69f344cdd
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '239'
 ht-degree: 1%
 
 ---
 
 
-# Propiedades de JSONP{#jsonp-properties}
+# Propiedades JSONP{#jsonp-properties}
 
-Si jsonp se especifica como formato de respuesta, los datos de respuesta se formatean con JSONP (JavaScript Object Notation with Padding), ajustado en una llamada de función JavaScript.
+Si jsonp se especifica como formato de respuesta, los datos de respuesta tienen un formato JSONP (Notación de objeto JavaScript con relleno), incluido en una llamada de función JavaScript.
 
 El cliente puede especificar un identificador de solicitud único opcional ( *`reqId`*), que se devuelve en la respuesta y permite al cliente distinguir varias respuestas recibidas asincrónicamente. Una respuesta típica tiene la siguiente estructura general:
 
@@ -40,7 +41,7 @@ El cliente puede especificar un identificador de solicitud único opcional ( *`r
 </varname>" );
 ```
 
-La función `s7jsonResponse` JavaScript debe ser definida por el cliente. En su forma más sencilla, la función podría tener el siguiente aspecto:
+El cliente debe definir la función JavaScript `s7jsonResponse`. En su forma más sencilla, la función puede tener el siguiente aspecto:
 
 ```
 var responseData; 
@@ -50,13 +51,13 @@ S7jsonResponse(data, reqId)
 }
 ```
 
-Las solicitudes que admiten el formato de respuesta JSONP permiten especificar el nombre del controlador de llamada de retorno JS mediante la sintaxis extendida del parámetro `req=`:
+Las solicitudes que admiten el formato de respuesta JSONP permiten especificar el nombre del controlador de llamada de retorno JS mediante la sintaxis extendida del parámetro `req=` :
 
 `req=...,json [&handler = reqHandler]`
 
-`<reqHandler>` es el nombre del controlador JS que está presente en la respuesta JSONP. Solo se permiten los caracteres a-z, A-Z y 0-9. Opcional. El valor predeterminado es `s7jsonResponse`.
+`<reqHandler>` es el nombre del controlador JS que está presente en la respuesta JSONP. Solo se permiten caracteres a-z, A-Z y 0-9. Opcional. El valor predeterminado es `s7jsonResponse`.
 
-El paquete de visores de servicio de imágenes de Dynamic Media incluye una utilidad para solicitar y analizar datos con formato JSONP del servicio de imágenes.
+El paquete de visores de servicio de imágenes de Dynamic Media incluye una utilidad para solicitar y analizar datos con formato JSONP de Image Serving.
 
 Consulte [http://en.wikipedia.org/wiki/JSONP](http://en.wikipedia.org/wiki/JSONP) para obtener más información sobre el formato JSONP.
 
