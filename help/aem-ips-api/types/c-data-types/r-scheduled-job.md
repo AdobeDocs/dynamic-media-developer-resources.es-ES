@@ -1,15 +1,16 @@
 ---
-description: Trabajo que está programado para ejecutarse.
-seo-description: Trabajo que está programado para ejecutarse.
+description: Trabajo programado para ejecutarse.
+seo-description: Trabajo programado para ejecutarse.
 seo-title: ScheduledJob
 solution: Experience Manager
 title: ScheduledJob
-topic: Dynamic Media Image Production System API
 uuid: cf0db523-2138-48c6-abbd-460a961e7de1
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '271'
 ht-degree: 4%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 4%
 
 # ScheduledJob{#scheduledjob}
 
-Trabajo que está programado para ejecutarse.
+Trabajo programado para ejecutarse.
 
 Sintaxis
 
@@ -25,32 +26,32 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Identificador de compañía. |
-| `*`jobHandle`*` | `xsd:string` | Identificador de trabajo programado. |
+| `*`companyHandle`*` | `xsd:string` | Identificador de la empresa. |
+| `*`jobHandle`*` | `xsd:string` | Control de trabajo programado. |
 | `*`name`*` | `xsd:string` | Nombre de trabajo. |
 | `*`originalName`*` | `xsd:string` | Nombre original del trabajo programado. |
 | `*`type`*` | `xsd:string` | Tipo de trabajo. |
 | `*`submitUserEmail`*` | `xsd:string` | La dirección de correo electrónico del usuario que programó el trabajo. |
-| `*`locale`*` | `xsd:string` | La configuración regional que se utilizará para los detalles del registro de trabajos y la localización por correo electrónico. Las configuraciones regionales se especifican como `<language_code>[- <country_code>]`, donde el código de idioma es un código de dos letras en minúscula según lo especificado por ISO-639, y el código de país opcional es un código de dos letras en mayúsculas según lo especificado por ISO-3166. Por ejemplo, la cadena de configuración regional para inglés (Estados Unidos) sería: `en-US`. |
-| `*`description`*` | `xsd:string` | Una descripción del trabajo tal como se especificó originalmente en `submitJob`. |
-| `*`execSchedule`*` | `xsd:string` | Cuándo se programó la ejecución del trabajo. |
-| `*`nextFireTime`*` | `xsd:dateTime` | Fecha, hora y zona horaria en que se activará el trabajo. |
-| `*`timeZone`*` | `xsd:dateTime` | Huso horario del trabajo programado. |
-| `*`desencadenadorEstado`*` | `xsd:int` | Elección del estado del déclencheur del trabajo. |
-| `*`imageServingPublishJob`*` | `types:ImageServingPublishJob` | Detalles del trabajo de un trabajo de publicación de servicio de imágenes. |
-| `*`imageServingRenderJob`*` | `types:ImageServingRenderJob` | Detalles del trabajo de un trabajo de procesamiento de imágenes. |
-| `*`videoPublishJob`*` | `types:VideoPublishJob` | Detalles del trabajo de un trabajo de publicación de vídeo. Consulte [VideoPublishJob](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
-| `*`serverDirectoryPublishJob`*` | `types:ServerDirectoryPublishJob` | Detalles del trabajo de un trabajo de publicación de directorio de servidor. |
+| `*`locale`*` | `xsd:string` | La configuración regional que se utilizará para los detalles del registro de trabajos y la localización del correo electrónico. Las configuraciones regionales se especifican como `<language_code>[- <country_code>]`, donde el código de idioma es un código de dos letras en minúscula, según se especifica en ISO-639, y el código de país opcional es un código de dos letras en mayúsculas, según se especifica en ISO-3166. Por ejemplo, la cadena de configuración regional para inglés (Estados Unidos) sería: `en-US`. |
+| `*`descripción`*` | `xsd:string` | Descripción del trabajo tal como se especificó originalmente en `submitJob`. |
+| `*`execSchedule`*` | `xsd:string` | Cuando está programado que se ejecute el trabajo. |
+| `*`nextFireTime`*` | `xsd:dateTime` | La fecha, la hora y la zona horaria en la que se activará el trabajo. |
+| `*`timeZone`*` | `xsd:dateTime` | Zona horaria del trabajo programado. |
+| `*`triggerState`*` | `xsd:int` | Elección del estado de déclencheur del trabajo. |
+| `*`imageServingPublishJob`*` | `types:ImageServingPublishJob` | Detalles de trabajo para un trabajo de publicación de servicio de imágenes. |
+| `*`imageServingRenderJob`*` | `types:ImageServingRenderJob` | Detalles de trabajo para un trabajo de renderización de imágenes. |
+| `*`videoPublishJob`*` | `types:VideoPublishJob` | Detalles de trabajo para un trabajo de publicación de vídeo. Consulte [VideoPublishJob](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
+| `*`serverDirectoryPublishJob`*` | `types:ServerDirectoryPublishJob` | Detalles de trabajo para un trabajo de publicación de directorio de servidor. |
 | `*`uploadDirectoryJob`*` | `types:UploadDirectoryJob` | Detalles del trabajo de un trabajo de directorio de carga. |
-| `*`uploadUrlsJob`*` | `types:UploadUrlsJob` | Detalles del trabajo de un trabajo de URL de carga. |
-| `*`optimizedImagesJob`*` | `types:OptimizeImagesJob` |  |
+| `*`uploadUrlsJob`*` | `types:UploadUrlsJob` | Detalles del trabajo de un trabajo de carga de URL. |
+| `*`optimizeImagesJob`*` | `types:OptimizeImagesJob` |  |
 | `*`ripPdfsJob`*` | `types:RipPdfsJob` |  |
 | `*`reprocessAssetsJob`*` | `types:ReprocessAssetsJob` |  |
-| `*`exportJob`*` | `types:ExportJob` | Permitir la exportación autorizada de archivos cargados anteriormente. Consulte [Trabajo de exportación](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
+| `*`exportJob`*` | `types:ExportJob` | Permitir la exportación autorizada de archivos cargados anteriormente. Consulte [Exportar trabajo](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
 
 ## Notas {#section-34ec157f281f412f9f0f6e861e6ed0cd}
 
-Cuando se especifica un valor de tipo de trabajo en `submitJob`, el sistema devuelve un trabajo basado en ese tipo. Se pueden devolver los siguientes trabajos:
+Cuando especifica un valor de tipo de trabajo en `submitJob`, el sistema devuelve un trabajo basado en ese tipo. Se pueden devolver los siguientes trabajos:
 
 * `imageServingPublishJob`
 * `imageRenderingPublishJob`
