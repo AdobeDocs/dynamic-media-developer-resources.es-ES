@@ -1,36 +1,37 @@
 ---
-description: Ocultar objeto de superposición. Oculta todos los objetos de superposición o las coberturas de ventana aplicados a los marcos de cobertura de ventana de la selección actual.
-seo-description: Ocultar objeto de superposición. Oculta todos los objetos de superposición o las coberturas de ventana aplicados a los marcos de cobertura de ventana de la selección actual.
+description: Ocultar objeto de superposición. Oculta todos los objetos de superposición o las coberturas de ventana aplicadas a los marcos de cubiertas de ventanas de la selección actual.
+seo-description: Ocultar objeto de superposición. Oculta todos los objetos de superposición o las coberturas de ventana aplicadas a los marcos de cubiertas de ventanas de la selección actual.
 seo-title: ocultar
 solution: Experience Manager
 title: ocultar
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 15c01750-958a-497d-a999-cacf359bb985
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 7%
+source-wordcount: '119'
+ht-degree: 6%
 
 ---
 
 
 # ocultar{#hide}
 
-Ocultar objeto de superposición. Oculta todos los objetos de superposición o las coberturas de ventana aplicados a los marcos de cobertura de ventana de la selección actual.
+Ocultar objeto de superposición. Oculta todos los objetos de superposición o las coberturas de ventana aplicadas a los marcos de cubiertas de ventanas de la selección actual.
 
 `hide[= *`val`*]`
 
 <table id="simpletable_015459EC2F4642A59B04F0B8064070B1"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> val</span></span> </p> </td> 
-  <td class="stentry"> <p>Omitido. </p></td> 
+  <td class="stentry"> <p>Ignorado. </p></td> 
  </tr> 
 </table>
 
 ## Propiedades {#section-2952fa43df0547b187b834c819c517ca}
 
-Se aplica a la selección de grupo u objeto actual. Se omite si la selección actual no incluye ningún objeto de superposición o marco de revestimiento de ventana o si no hay objetos de superposición visibles.
+Se aplica a la selección de grupo u objeto actual. Se omite si la selección actual no incluye ningún objeto de superposición o marco de encubrimiento de ventana o si no hay objetos de superposición visibles.
 
 ## Predeterminado {#section-9da202944d3a49b7ae81c78370b2b5e7}
 
