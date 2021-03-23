@@ -1,15 +1,16 @@
 ---
-description: Parámetro común a todos los visores.
-seo-description: Parámetro común a todos los visores.
+description: Parámetro común a todos los visualizadores.
+seo-description: Parámetro común a todos los visualizadores.
 seo-title: config
 solution: Experience Manager
 title: config
-topic: Dynamic Media
 uuid: 9e9bb580-a33a-4405-b05c-56962d702145
+feature: Dynamic Media Classic,Visualizadores,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '267'
 ht-degree: 2%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 2%
 
 # config{#config}
 
-Parámetro común a todos los visores.
+Parámetro común a todos los visualizadores.
 
 ` config= *`configId`*`
 
@@ -25,12 +26,12 @@ Parámetro común a todos los visores.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> configId  </span> </span> </p> </td> 
-   <td colname="col2"> <p>Catálogo/ID para la configuración del visor. </p> <p> Especifica una entrada de catálogo de imágenes que contiene las propiedades de configuración del visor en <span class="codeph"> catálogo::UserData </span>. Cuando este comando está presente, el visor envía un comando <span class="codeph"> req=userdata </span> para <span class="codeph"> configId </span> al servidor y extrae las propiedades de la respuesta. Las propiedades se utilizan para inicializar el visor. Si la cadena URL especifica las mismas propiedades, anularán los valores del catálogo <span class="codeph">::UserData </span>. </p> </td> 
+   <td colname="col2"> <p>Catálogo/ID para la configuración del visor. </p> <p> Especifica una entrada de catálogo de imágenes que contiene las propiedades de configuración del visor en el catálogo <span class="codeph">::UserData </span>. Cuando este comando está presente, el visor envía un comando <span class="codeph"> req=userdata </span> para <span class="codeph"> configId </span> al servidor y extrae las propiedades de la respuesta. Las propiedades se utilizan para inicializar el visor. Si la cadena URL especifica las mismas propiedades, anulan los valores del catálogo <span class="codeph">::UserData </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Todos los comandos del visor que se pueden especificar en `catalog::UserData` esperan `asset`, `serverUrl`, `contentUrl`, `searchServerUrl` y `config`.
+Todos los comandos del visor que se pueden especificar en `catalog::UserData` se esperan `asset`, `serverUrl`, `contentUrl`, `searchServerUrl` y `config`.
 
 ## Propiedades {#section-10ee45d637134e0fbcd943c62578cb78}
 
@@ -83,7 +84,7 @@ zoomStep=3&maxZoom=200
 
 ## Ejemplo 3 {#section-2b3a42c3926e4eb19fa14434def9195f}
 
-Un ajuste preestablecido de visor denominado `Shoppable_Banner` incluye los datos siguientes:
+Un ajuste preestablecido de visor denominado `Shoppable_Banner` incluye los siguientes datos:
 
 ```
 style=etc/dam/presets/css/html5_interactiveimage.css
@@ -99,9 +100,9 @@ Esto equivale a los siguientes comandos especificados explícitamente en la dire
 
 `style=etc/dam/presets/css/html5_interactiveimage.css`
 
-## Ejemplo 5 {#section-98dd1cc6b2a24375a1bd572fa83be35c}
+## Ejemplo 4 {#section-98dd1cc6b2a24375a1bd572fa83be35c}
 
-Un ajuste preestablecido de visor denominado `Shoppable_Video_Dark` contiene los datos siguientes:
+Un ajuste preestablecido de visor denominado `Shoppable_Video_Dark` contiene los siguientes datos:
 
 ```
 style=etc/dam/presets/css/html5_interactivevideo_dark.css
@@ -119,9 +120,9 @@ Esto equivale a los siguientes comandos especificados explícitamente en la dire
 style=etc/dam/presets/css/html5_interactivevideo_dark.css
 ```
 
-## Ejemplo 4 {#section-19b988551d1d492a9079948e0b04b38f}
+## Ejemplo 5 {#section-19b988551d1d492a9079948e0b04b38f}
 
-Un ajuste preestablecido de visor denominado `Carousel_Dotted_light` los datos siguientes:
+Un ajuste preestablecido de visualizador denominado `Carousel_Dotted_light` los siguientes datos:
 
 ```
 style= etc/dam/presets/css/html5_carouselviewer_dotted_light.css
