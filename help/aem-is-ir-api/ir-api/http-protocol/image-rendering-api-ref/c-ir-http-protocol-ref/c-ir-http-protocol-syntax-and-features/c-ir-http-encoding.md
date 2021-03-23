@@ -1,27 +1,28 @@
 ---
-description: Los valores de comando deben estar codificados en http con secuencias de escape %xx, de modo que las cadenas de valor no incluyan los caracteres reservados '=', '&' y '%'.
-seo-description: Los valores de comando deben estar codificados en http con secuencias de escape %xx, de modo que las cadenas de valor no incluyan los caracteres reservados '=', '&' y '%'.
-seo-title: Codificación HTTP de procesamiento de imágenes
+description: Los valores de comando deben tener codificación http utilizando secuencias de escape %xx, de modo que las cadenas de valor no incluyan los caracteres reservados '=', '&' y '%'.
+seo-description: Los valores de comando deben tener codificación http utilizando secuencias de escape %xx, de modo que las cadenas de valor no incluyan los caracteres reservados '=', '&' y '%'.
+seo-title: Codificación HTTP de renderización de imágenes
 solution: Experience Manager
-title: Codificación HTTP de procesamiento de imágenes
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Codificación HTTP de renderización de imágenes
 uuid: 37bd0040-7bad-4548-ab39-7f598a217732
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '172'
 ht-degree: 1%
 
 ---
 
 
-# Codificación HTTP de procesamiento de imágenes{#image-rendering-http-encoding}
+# Representación de imágenes con codificación HTTP{#image-rendering-http-encoding}
 
-Los valores de comando deben estar codificados en http con secuencias de escape %xx, de modo que las cadenas de valor no incluyan los caracteres reservados &#39;=&#39;, &#39;&amp;&#39; y &#39;%&#39;.
+Los valores de comando deben tener codificación http utilizando secuencias de escape %xx, de modo que las cadenas de valor no incluyan los caracteres reservados &#39;=&#39;, &#39;&amp;&#39; y &#39;%&#39;.
 
-De lo contrario, se aplican las reglas de codificación HTTP estándar. La especificación HTTP requiere la codificación de caracteres no seguros como &#39; (espacio), &#39;&quot;(comillas de doble), &#39;#&#39;, &#39;%&#39;, &#39;&lt;&#39; y &#39;>&#39;, así como cualquier carácter de control, como `<return>` y `<tab>`.
+De lo contrario, se aplican reglas de codificación HTTP estándar. La especificación HTTP requiere la codificación de caracteres no seguros como &#39; &#39; (espacio), &#39;&quot;(comillas dobles), &#39;#&#39;, &#39;%&#39;, &#39;&lt;&#39; y &#39;>&#39;, así como de cualquier carácter de control, como `<return>` y `<tab>`.
 
-**Precaución:Las** llaves { } utilizadas como delimitadores de anidación de solicitudes no deben codificarse. Algunos clientes de correo electrónico desafortunadamente codifican llaves en solicitudes HTTP incrustadas. En caso de que esto ocurra, el procesamiento de imágenes permite el uso de paréntesis () en lugar de llaves.
+**Precaución: Las** llaves { } utilizadas como delimitadores de anidación de solicitudes no deben codificarse. Algunos clientes de correo electrónico codifican desafortunadamente las llaves en la solicitud HTTP incrustada. En caso de que esto ocurra, el procesamiento de imágenes permite el uso de paréntesis ( ) en lugar de llaves.
 
 ## Ejemplo {#section-3edc5b8ee2354220a281b01722ad337a}
 
