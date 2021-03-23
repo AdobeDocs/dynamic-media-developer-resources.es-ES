@@ -4,13 +4,14 @@ seo-description: Elimina un mapa de imagen.
 seo-title: deleteImageMap
 solution: Experience Manager
 title: deleteImageMap
-topic: Dynamic Media Image Production System API
 uuid: 0abdf72c-f445-41d0-bd88-63b7ad1359d5
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 12%
+source-wordcount: '105'
+ht-degree: 11%
 
 ---
 
@@ -40,16 +41,16 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía que contiene el mapa de imagen que se va a eliminar. |
-| `*`imageMapHandle`*` | `xsd:string` | Sí | Identificador del mapa de imagen que se va a eliminar. |
+| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa que contiene el mapa de imagen que se va a eliminar. |
+| `*`imageMapHandle`*` | `xsd:string` | Sí | El identificador del mapa de imagen que se va a eliminar. |
 
 **Salida (deleteImageMapParam)**
 
-La API de IPS no devuelve una respuesta para esta operación.
+La API IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-b238da3332fb4e3eb3f8bda0bd6a2035}
 
-Este ejemplo de código elimina un mapa de imagen de una compañía. Debe obtener el controlador de mapa de imagen de otra operación.
+Este ejemplo de código elimina un mapa de imagen de una empresa. Debe obtener el identificador del mapa de imagen de otra operación.
 
 **Solicitar**
 
