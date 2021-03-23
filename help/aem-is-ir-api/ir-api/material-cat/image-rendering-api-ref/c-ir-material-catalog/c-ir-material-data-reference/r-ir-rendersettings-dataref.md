@@ -1,12 +1,13 @@
 ---
-description: Configuración avanzada de procesamiento. Los ajustes de procesamiento avanzados se utilizan para controlar los aspectos de bajo nivel del motor de procesamiento, como el tipo y los parámetros de enfoque del material o determinados parámetros de los algoritmos de iluminación.
+description: Configuración avanzada de procesamiento. La configuración avanzada de renderización se utiliza para controlar aspectos de bajo nivel del motor de renderización, como el tipo y los parámetros de nitidez de material o ciertos parámetros de los algoritmos de iluminación.
 solution: Experience Manager
 title: RenderSettings
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '118'
 ht-degree: 3%
 
 ---
@@ -14,11 +15,11 @@ ht-degree: 3%
 
 # RenderSettings{#rendersettings}
 
-Configuración avanzada de procesamiento. Los ajustes de procesamiento avanzados se utilizan para controlar los aspectos de bajo nivel del motor de procesamiento, como el tipo y los parámetros de enfoque del material o determinados parámetros de los algoritmos de iluminación.
+Configuración avanzada de procesamiento. La configuración avanzada de renderización se utiliza para controlar aspectos de bajo nivel del motor de renderización, como el tipo y los parámetros de nitidez de material o ciertos parámetros de los algoritmos de iluminación.
 
 ## Propiedades {#section-b4c8fe595efc4838ac598659bc820607}
 
-Cadena de texto. Opcional para todos los materiales. Si se especifica, debe ser una cadena de configuración de procesamiento válida, tal como se define con la herramienta de creación de viñetas (que forma parte del paquete de creación de imágenes de Dynamic Media).
+Cadena de texto. Opcional para todos los materiales. Si se especifica, debe ser una cadena de configuración de procesamiento válida, tal como se define con la herramienta de creación de viñetas (parte del paquete de creación de imágenes de Dynamic Media).
 
 ## Predeterminado {#section-6a4d2013c1d34284b4ff21bb07485d28}
 
