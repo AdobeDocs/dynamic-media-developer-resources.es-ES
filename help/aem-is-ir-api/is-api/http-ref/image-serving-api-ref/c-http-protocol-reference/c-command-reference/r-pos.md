@@ -4,13 +4,14 @@ seo-description: Posición de la capa.
 seo-title: pos
 solution: Experience Manager
 title: pos
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e9872ce9-5c47-49c5-9c87-4fa8441c4770
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 3%
+source-wordcount: '168'
+ht-degree: 2%
 
 ---
 
@@ -34,11 +35,11 @@ posN= *`coordN`*
  </tr> 
 </table>
 
-En el caso de las capas de imagen, texto y color sólido, `pos=` especifica la posición de un anclaje de capa en relación con el anclaje de capa 0. `posN=` los valores de las coordenadas se normalizan en relación con el tamaño real de la capa 0 rect.
+En el caso de las capas de imagen, texto y color sólido, `pos=` especifica la posición de un anclaje de capa en relación con el anclaje de capa 0. `posN=` los valores de coordenadas se normalizan en relación con el tamaño real de la capa 0 rect.
 
 En el caso de las capas de efecto, `pos=` desplaza la capa de efecto en relación con la capa principal.
 
-Los valores positivos mueven la capa hacia la derecha/abajo, en negativo hacia la izquierda/arriba. `posN=0.5,0.5` mueve la capa la mitad de la capa 0 de anchura y altura hacia abajo y hacia la derecha.
+Los valores positivos mueven la capa hacia la derecha/abajo, negativos hacia la izquierda/arriba. `posN=0.5,0.5` mueve la capa a la mitad de la capa 0 de anchura y altura hacia abajo y hacia la derecha.
 
 ## Propiedades {#section-51a60cdc52d040538fef378ace7c2e7d}
 
@@ -46,7 +47,7 @@ Atributo de capa. Se omite si `layer=0` o `layer=comp`.
 
 ## Predeterminado {#section-70a6bc71ded5494e843194dfb6bf5a6c}
 
-`posN=0,0`. Esto coloca el anclaje de capa en la misma ubicación que el anclaje de capa 0 si se trata de una capa de imagen, texto o color sólido. Coloca una capa de efecto directamente sobre la capa principal o debajo de ella.
+`posN=0,0`. Esto coloca el anclaje de capa en la misma ubicación que el anclaje de capa 0 si se trata de una capa de imagen, texto o color sólido. Coloca una capa de efecto directamente sobre o debajo de su capa principal.
 
 ## Ejemplo {#section-a89a02c22f6b4260bfcf7c842cd6069d}
 
@@ -54,4 +55,4 @@ Consulte el ejemplo A en [Templates](../../../../../is-api/http-ref/image-servin
 
 ## Véase también {#section-812d95575ba542808e8387d0a8650606}
 
-[origen=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md#reference-e11c7ac06e2240cc884c3fec98f05138)
+[origin=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md#reference-e11c7ac06e2240cc884c3fec98f05138)
