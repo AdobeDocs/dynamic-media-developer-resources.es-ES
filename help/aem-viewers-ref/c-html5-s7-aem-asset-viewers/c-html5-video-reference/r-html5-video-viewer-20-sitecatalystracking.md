@@ -1,15 +1,16 @@
 ---
-description: El visor de vídeo admite el seguimiento de Adobe Analytics de forma predeterminada.
-seo-description: El visor de vídeo admite el seguimiento de Adobe Analytics de forma predeterminada.
+description: El visor de vídeo es compatible con el seguimiento de Adobe Analytics de serie.
+seo-description: El visor de vídeo es compatible con el seguimiento de Adobe Analytics de serie.
 seo-title: Compatibilidad con el seguimiento de Adobe Analytics
 solution: Experience Manager
 title: Compatibilidad con el seguimiento de Adobe Analytics
-topic: Dynamic Media
 uuid: c53b3d3b-42e5-4c87-8a1e-87c73eb32341
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
+role: Desarrollador, profesional empresarial, ingeniero de datos, arquitecto de datos
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '180'
 ht-degree: 3%
 
 ---
@@ -17,19 +18,19 @@ ht-degree: 3%
 
 # Compatibilidad con el seguimiento de Adobe Analytics{#support-for-adobe-analytics-tracking}
 
-El visor de vídeo admite el seguimiento de Adobe Analytics de forma predeterminada.
+El visor de vídeo es compatible con el seguimiento de Adobe Analytics de serie.
 
 ## Seguimiento predeterminado {#section-3b101fe30be943c1b679fd5c273569ca}
 
-El visor de vídeo admite el seguimiento de Adobe Analytics de forma predeterminada.
+El visor de vídeo es compatible con el seguimiento de Adobe Analytics de serie.
 
-Para habilitar el seguimiento, pase el nombre de ajuste preestablecido de compañía correcto como parámetro `config2`.
+Para habilitar el seguimiento, pase el nombre de ajuste preestablecido de empresa adecuado como parámetro `config2`.
 
 El visor también envía una única solicitud HTTP de seguimiento al servidor de imágenes configurado con el tipo de visor y la información de versión.
 
 ## Seguimiento personalizado {#section-ab10bd7caf184721a366cf3953071934}
 
-Para integrarse con sistemas de análisis de terceros, es necesario escuchar la rellamada del visor `trackEvent` y procesar el argumento `eventInfo` de la función de rellamada según sea necesario. El siguiente código es un ejemplo de dicha función de controlador:
+Para integrarse con sistemas de análisis de terceros, es necesario escuchar la llamada de retorno del visor `trackEvent` y procesar el argumento `eventInfo` de la función de llamada de retorno según sea necesario. El siguiente código es un ejemplo de dicha función de controlador:
 
 ```
 var videoViewer = new s7viewers.VideoViewer({ 
@@ -54,12 +55,12 @@ var videoViewer = new s7viewers.VideoViewer({
 });
 ```
 
-El visor realiza el seguimiento de los siguientes eventos de usuario del SDK:
+El visor realiza el seguimiento de los siguientes eventos de usuario de SDK:
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>EVENTO del usuario del SDK </p> </th> 
+   <th colname="col1" class="entry"> <p>Evento de usuario del SDK </p> </th> 
    <th colname="col2" class="entry"> <p>Enviado cuando... </p> </th> 
   </tr> 
  </thead>
@@ -74,7 +75,7 @@ El visor realiza el seguimiento de los siguientes eventos de usuario del SDK:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 
-   <td colname="col2"> <p>se ha iniciado la reproducción. </p> </td> 
+   <td colname="col2"> <p>se inicia la reproducción. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAUSE </span> </p> </td> 
@@ -82,11 +83,11 @@ El visor realiza el seguimiento de los siguientes eventos de usuario del SDK:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> STOP </span> </p> </td> 
-   <td colname="col2"> <p>la reproducción se detiene. </p> </td> 
+   <td colname="col2"> <p>se detiene la reproducción. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MILESTONE </span> </p> </td> 
-   <td colname="col2"> <p>la reproducción llega a uno de los siguientes cálculos: 0 %, 25 %, 50 %, 75 % y 100 %. </p> </td> 
+   <td colname="col2"> <p>la reproducción llega a uno de los siguientes molinos: 0 %, 25 %, 50 %, 75 % y 100 %. </p> </td> 
   </tr> 
  </tbody> 
 </table>
