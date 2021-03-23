@@ -1,15 +1,16 @@
 ---
-description: Datos de usuario del catálogo de imágenes. Devuelve los datos de usuario de la entrada de catálogo de imágenes especificada en la ruta de URL.
-seo-description: Datos de usuario del catálogo de imágenes. Devuelve los datos de usuario de la entrada de catálogo de imágenes especificada en la ruta de URL.
+description: Datos de usuario del catálogo de imágenes. Devuelve los datos de usuario de la entrada de catálogo de imágenes especificada en la ruta url.
+seo-description: Datos de usuario del catálogo de imágenes. Devuelve los datos de usuario de la entrada de catálogo de imágenes especificada en la ruta url.
 seo-title: userdata
 solution: Experience Manager
 title: userdata
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7a34adad-f1b6-45a7-94fe-1407845710e5
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '212'
 ht-degree: 2%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 2%
 
 # userdata{#userdata}
 
-Datos de usuario del catálogo de imágenes. Devuelve los datos de usuario de la entrada de catálogo de imágenes especificada en la ruta de URL.
+Datos de usuario del catálogo de imágenes. Devuelve los datos de usuario de la entrada de catálogo de imágenes especificada en la ruta url.
 
 `req=userdata[,text|{xml[, *`codificación`*]}|json]`
 
@@ -28,7 +29,7 @@ Datos de usuario del catálogo de imágenes. Devuelve los datos de usuario de la
  </tr> 
 </table>
 
-Se devuelve el contenido de `catalog::UserData`. Cuando se especifica el formato &#39;text&#39;, todas las instancias de `??` en `catalog::UserData`se reemplazan por caracteres de fin de línea y se agrega al final un solo terminador de línea (CR/LF). Si la ruta de URL no se resuelve en una entrada de catálogo válida, la respuesta consiste únicamente en un terminador de línea único. Se aplica el formato adecuado cuando se solicita el formato &#39;xml&#39; o &#39;json&#39;.
+Se devuelve el contenido de `catalog::UserData`. Cuando se especifica el formato &quot;texto&quot;, todas las instancias de `??` en `catalog::UserData`se sustituyen por caracteres de fin de línea y se añade al final un terminador de línea único (CR/LF). Si la ruta URL no se resuelve en una entrada de catálogo válida, la respuesta consiste únicamente en un terminador de línea único. Se aplica el formato adecuado cuando se solicita el formato &quot;xml&quot; o &quot;json&quot;.
 
 Se omiten otros comandos de la cadena de solicitud.
 
@@ -36,10 +37,10 @@ La respuesta HTTP se puede almacenar en caché con el TTL basado en `catalog::Ex
 
 >[!NOTE]
 >
->El carácter de dos puntos no está permitido en los nombres de claves de propiedad userdata.
+>No se permite el carácter de dos puntos en los nombres de claves de propiedad userdata.
 
-Las solicitudes que admiten el formato de respuesta JSONP permiten especificar el nombre del controlador de llamada de retorno JS mediante la sintaxis extendida del parámetro `req=`:
+Las solicitudes que admiten el formato de respuesta JSONP permiten especificar el nombre del controlador de llamada de retorno JS mediante la sintaxis extendida del parámetro `req=` :
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` es el nombre del controlador JS que está presente en la respuesta JSONP. Solo se permiten los caracteres a-z, A-Z y 0-9. Opcional. El valor predeterminado es `s7jsonResponse`.
+`<reqHandler>` es el nombre del controlador JS que está presente en la respuesta JSONP. Solo se permiten caracteres a-z, A-Z y 0-9. Opcional. El valor predeterminado es `s7jsonResponse`.
