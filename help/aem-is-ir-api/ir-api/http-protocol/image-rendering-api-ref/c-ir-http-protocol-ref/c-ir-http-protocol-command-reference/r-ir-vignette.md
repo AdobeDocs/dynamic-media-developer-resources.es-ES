@@ -4,12 +4,13 @@ seo-description: Archivo de viñeta. Especifica la viñeta que se utilizará par
 seo-title: viñeta
 solution: Experience Manager
 title: viñeta
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8bba4ad4-bd55-4c55-8ebf-585371cf33f1
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '142'
 ht-degree: 4%
 
 ---
@@ -24,21 +25,21 @@ Archivo de viñeta. Especifica la viñeta que se utilizará para esta solicitud.
 <table id="simpletable_432EC5501CA3431B83A762C3EE4E8DD2"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p> </td> 
-  <td class="stentry"> <p>Id. de catálogo de material (coincide con el atributo <span class="codeph">::RootId</span>). </p></td> 
+  <td class="stentry"> <p>ID del catálogo de materiales (coincide con el atributo <span class="codeph">::RootId</span>). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> recId</span> </p></td> 
-  <td class="stentry"> <p>ID de viñeta (coincide con <span class="codeph"> viñeta::Id</span>). </p></td> 
+  <td class="stentry"> <p>ID de viñeta (coincide con la viñeta <span class="codeph">::Id</span>). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> archivo</span> </p></td> 
-  <td class="stentry"> <p>Nombre y ruta relativos del archivo de viñeta. </p></td> 
+  <td class="stentry"> <p>Nombre y ruta del archivo de la viñeta relativa. </p></td> 
  </tr> 
 </table>
 
 Puede especificar una entrada de mapa de viñeta o un archivo de viñeta. No se permiten direcciones URL remotas.
 
-`vignette=` puede utilizarse como alternativa a especificar la viñeta en la ruta de URL de la solicitud. Se utiliza principalmente para especificar viñetas mediante variables en plantillas.
+`vignette=` se puede utilizar como alternativa para especificar la viñeta en la ruta URL de la solicitud. Se utiliza principalmente para especificar viñetas mediante variables en plantillas.
 
 Si no se especifica *`catId`*, se utiliza el catálogo de sesiones.
 
