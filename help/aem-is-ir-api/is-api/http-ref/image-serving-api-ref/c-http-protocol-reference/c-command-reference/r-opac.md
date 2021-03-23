@@ -4,12 +4,13 @@ seo-description: Ajuste la opacidad de la imagen. Permite reducir la opacidad en
 seo-title: opac
 solution: Experience Manager
 title: opac
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 268279bd-d777-4afe-b175-841af7e55406
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '236'
 ht-degree: 2%
 
 ---
@@ -28,17 +29,17 @@ Ajuste la opacidad de la imagen. Permite reducir la opacidad en primer plano de 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> fillOpacity</span> </p></td> 
-  <td class="stentry"> <p>Opacidad de relleno (0...100 int). </p></td> 
+  <td class="stentry"> <p>Rellenar opacidad (0...100 int). </p></td> 
  </tr> 
 </table>
 
-La opacidad en primer plano de una capa de imagen viene determinada por la máscara de capa o el canal alfa de la imagen o, si no hay ninguno, es del 100 %. La opacidad en primer plano de una capa de texto es del 100% y la de una capa de color sólido se establece mediante `color=`.
+La opacidad en primer plano de una capa de imagen viene determinada por la máscara de capa o el canal alfa de la imagen o, si ninguna de ellas está presente, es del 100%. La opacidad en primer plano de una capa de texto es del 100% y la de una capa de color sólido la establece `color=`.
 
-`opac=` nunca modifica la opacidad de las áreas rellenadas con  `color=` o  `bgColor=`, excepto las áreas de primer plano de las capas de color sólido y efecto (definidas con  `color=`).
+`opac=` nunca modifica la opacidad de las áreas rellenas con  `color=` o  `bgColor=`, excepto las áreas de primer plano de capas de efecto y color sólido (definidas con  `color=`).
 
-Cuando se especifica en una capa de imagen, texto o color sólido, *`opacity`* aplica toda la capa, incluidas todas las capas de efecto asociadas, mientras que *`fillOpacity`* se aplica solamente al contenido de la capa primaria. Cuando se especifica en una capa de efecto, *`opacity`* se aplica a la capa de efecto, mientras que *`fillOpacity`* se omite.
+Cuando se especifica en una capa de imagen, texto o color sólido, *`opacity`* aplica toda la capa, incluidas todas las capas de efecto asociadas, mientras que *`fillOpacity`* sólo se aplica al contenido de la capa principal. Cuando se especifica en una capa de efecto, *`opacity`* se aplica a la capa de efecto, mientras que *`fillOpacity`* se ignora.
 
-La opacidad efectiva para el contenido de la capa principal es ( *`opacity`* * *`fillOpacity`* / 100). La opacidad efectiva para las capas de efecto es (efecto *`opacity`* * principal *`opacity`* / 100).
+La opacidad efectiva del contenido de la capa principal es ( *`opacity`* * *`fillOpacity`* / 100). La opacidad efectiva de las capas de efecto es (principal *`opacity`* * efecto *`opacity`* / 100).
 
 ## Propiedades {#section-ac3f136ff1584a2eab87500b7164f7fa}
 
@@ -46,7 +47,7 @@ Atributo de capa. Se aplica a la capa actual o a la imagen compuesta si `layer=c
 
 ## Predeterminado {#section-abba67ed028049048ae43405ea69b164}
 
-`opac=100,100`, sin cambios en la opacidad de la capa.
+`opac=100,100`, para no cambiar la opacidad de la capa.
 
 ## Ejemplo {#section-9710810e96af40538652e8ae4aadd3be}
 
