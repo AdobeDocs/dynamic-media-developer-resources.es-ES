@@ -3,14 +3,15 @@ description: Modo de fusión. Especifica el tipo de fusión utilizado cuando se 
 seo-description: Modo de fusión. Especifica el tipo de fusión utilizado cuando se compone la capa. Simula los modos de mezcla más utilizados disponibles en Photoshop. Consulte la documentación de Photoshop para obtener más información.
 seo-title: blendMode
 solution: Experience Manager
-title: blendMode
-topic: Dynamic Media Image Serving - Image Rendering API
+title: mergeMode
 uuid: 9ae30495-c10b-4c55-968e-effb602a0857
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 14%
+source-wordcount: '103'
+ht-degree: 13%
 
 ---
 
@@ -23,7 +24,7 @@ Modo de fusión. Especifica el tipo de fusión utilizado cuando se compone la ca
 
 ## Propiedades {#section-418aad5a417f49929d1953e226e5c8dd}
 
-Atributo de capa. Omitido por `layer=0` y `layer=comp`.
+Atributo de capa. Ignorado por `layer=0` y `layer=comp`.
 
 ## Predeterminado {#section-69829acc6532448d8612a4a54e86f00e}
 
