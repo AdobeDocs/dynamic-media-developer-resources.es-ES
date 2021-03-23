@@ -4,12 +4,13 @@ seo-description: Modo de imagen predeterminado. Selecciona cómo se aplica la im
 seo-title: DefaultImageMode
 solution: Experience Manager
 title: DefaultImageMode
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e5640f09-e1e3-473b-8fbc-84c6bfce2460
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '132'
 ht-degree: 3%
 
 ---
@@ -21,15 +22,15 @@ Modo de imagen predeterminado. Selecciona cómo se aplica la imagen predetermina
 
 ## Propiedades {#section-7fa8acb63540490d9f5186231b5e77c3}
 
-Enum. &#39;0&#39; para reemplazar toda la imagen compuesta, aunque la imagen que falta sea solo una de varias capas; &#39;1&#39; para reemplazar cada imagen de origen de capa que falta por la imagen predeterminada y devolver el compuesto como de costumbre.
+Enum. &#39;0&#39; para reemplazar toda la imagen compuesta, incluso si la imagen que falta es solo una de varias capas; &quot;1&quot; para reemplazar cada imagen de origen de capa que falta por la imagen predeterminada y devolver el compuesto como de costumbre.
 
 ## Restricciones {#section-04cb0d50e8914564a8d226d0d4663c8b}
 
-El servicio de imágenes vuelve a `DefaultImageMode=0` cuando fallan las solicitudes anidadas de procesamiento de imágenes, FXG o `req=set`.
+El servicio de imágenes vuelve a `DefaultImageMode=0` cuando fallan las solicitudes anidadas de renderización de imágenes, FXG o `req=set`.
 
 ## Predeterminado {#section-9e318524a2a5496386901286748c7ee7}
 
-Se hereda de `default::DefaultImage` si no está definida o si está vacía.
+Se hereda de `default::DefaultImage` si no está definido o si está vacío.
 
 ## Véase también {#section-fddce1d27a0c43fb8b4d891f76ac5a52}
 
