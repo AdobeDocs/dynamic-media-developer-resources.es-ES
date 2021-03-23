@@ -2,12 +2,13 @@
 description: Swatches.align
 solution: Experience Manager
 title: Swatches.align
-topic: Dynamic Media
 uuid: 5cff285b-69f0-4ffe-b165-c2d1fdc8aa75
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '94'
 ht-degree: 4%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 4%
 
 `[Swatches.|<containerId>_swatches.]align=left|center|right,top|center|bottom`
 
-Especifica la alineación interna (anclaje) del contenedor de muestras dentro del área del componente. En Muestras, el tamaño del contenedor de miniaturas interno es tal que solo se muestra un número entero de muestras. Como resultado, hay cierto margen entre los límites de contenedor interno y los de componente externo. Este comando especifica cómo se coloca el contenedor de muestras internas dentro del componente.
+Especifica la alineación interna (anclaje) del contenedor de muestras dentro del área del componente. En Muestras, el tamaño del contenedor de miniaturas interno es tal que solo se muestra un número entero de muestras. Como resultado, existe cierto margen entre el contenedor interno y los límites de componente externos. Este comando especifica cómo se coloca el contenedor de muestras interno dentro del componente.
 
 <table id="table_58D88FF5F83A4ABA928695B5AFF97354"> 
  <tbody> 
