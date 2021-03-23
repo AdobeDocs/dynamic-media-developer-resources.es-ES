@@ -1,23 +1,24 @@
 ---
-description: Obtiene las cadenas de búsqueda, las palabras clave y otra información sobre un recurso. La respuesta contiene información adicional sobre el recurso.
-seo-description: Obtiene las cadenas de búsqueda, las palabras clave y otra información sobre un recurso. La respuesta contiene información adicional sobre el recurso.
+description: Obtiene las cadenas de búsqueda, palabras clave y otra información sobre un recurso. La respuesta contiene información adicional sobre el recurso.
+seo-description: Obtiene las cadenas de búsqueda, palabras clave y otra información sobre un recurso. La respuesta contiene información adicional sobre el recurso.
 seo-title: getSearchStrings
 solution: Experience Manager
 title: getSearchStrings
-topic: Dynamic Media Image Production System API
 uuid: 9d588d6b-c79c-4531-a2e8-8467254a7985
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 14%
+source-wordcount: '122'
+ht-degree: 13%
 
 ---
 
 
 # getSearchStrings{#getsearchstrings}
 
-Obtiene las cadenas de búsqueda, las palabras clave y otra información sobre un recurso. La respuesta contiene información adicional sobre el recurso.
+Obtiene las cadenas de búsqueda, palabras clave y otra información sobre un recurso. La respuesta contiene información adicional sobre el recurso.
 
 Sintaxis
 
@@ -34,7 +35,7 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Manejar a la compañía. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Gestionar a la empresa. |
 | `*`assetHandle`*` | `xsd:string` | Sí | Gestionar en el recurso. |
 
 **Salida (getSearchStringsReturn)**
@@ -45,7 +46,7 @@ Sintaxis
 
 ## Ejemplos {#section-e1f73bff6e4440c489d59cb9aa5384d8}
 
-Este ejemplo de código devuelve cadenas de búsqueda específicas de recursos. La respuesta devuelve una matriz vacía.
+Este ejemplo de código devuelve cadenas de búsqueda específicas del recurso. La respuesta devuelve una matriz vacía.
 
 **Solicitar**
 
