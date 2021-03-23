@@ -1,15 +1,16 @@
 ---
-description: Elimina un proyecto de una compañía. Los vínculos entre los recursos y el proyecto están dañados, pero los recursos no se eliminan de IPS.
-seo-description: Elimina un proyecto de una compañía. Los vínculos entre los recursos y el proyecto están dañados, pero los recursos no se eliminan de IPS.
+description: Elimina un proyecto de una empresa. Los vínculos entre los recursos y el proyecto se rompen, pero los recursos no se eliminan de IPS.
+seo-description: Elimina un proyecto de una empresa. Los vínculos entre los recursos y el proyecto se rompen, pero los recursos no se eliminan de IPS.
 seo-title: deleteProject
 solution: Experience Manager
 title: deleteProject
-topic: Dynamic Media Image Production System API
 uuid: 0915066f-2106-4cbc-a68a-f149810c24f8
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '160'
 ht-degree: 7%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 7%
 
 # deleteProject{#deleteproject}
 
-Elimina un proyecto de una compañía. Los vínculos entre los recursos y el proyecto están dañados, pero los recursos no se eliminan de IPS.
+Elimina un proyecto de una empresa. Los vínculos entre los recursos y el proyecto se rompen, pero los recursos no se eliminan de IPS.
 
 Sintaxis
 
@@ -36,16 +37,16 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyName`*` | `xsd:string` | Sí | Nombre de la compañía asociada al proyecto. |
-| `*`projectHandle`*` | `xsd:string` | Sí | Identificador del proyecto que se va a eliminar. |
+| `*`companyName`*` | `xsd:string` | Sí | Nombre de la empresa asociada al proyecto. |
+| `*`projectHandle`*` | `xsd:string` | Sí | El identificador del proyecto que se va a eliminar. |
 
 **Salida (deleteProjectReturn)**
 
-La API de IPS no devuelve una respuesta para esta operación.
+La API IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-e38507f1f7ec41b9a625f47390490254}
 
-Este ejemplo de código utiliza el identificador de compañía y el identificador de proyecto como campos en deleteProjectParam enviados al servidor de servicios Web IPS para eliminar el proyecto.
+Este ejemplo de código utiliza el identificador de la empresa y el identificador del proyecto como campos en deleteProjectParam enviados al servidor de servicios web IPS para eliminar el proyecto.
 
 **Solicitar**
 
