@@ -2,11 +2,12 @@
 description: Descargar
 solution: Experience Manager
 title: Descargar
-topic: Dynamic Media
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '87'
 ht-degree: 3%
 
 ---
@@ -14,11 +15,11 @@ ht-degree: 3%
 
 # Descargue{#download}
 
-Es posible descargar el catálogo electrónico como archivo PDF con el botón &quot;Descargar&quot; de la barra de control.
+Es posible descargar el catálogo electrónico como archivo PDF utilizando el botón &quot;Descargar&quot; de la barra de control.
 
-El botón &quot;Descargar&quot; está disponible automáticamente en la interfaz de usuario del visor cuando ocurre lo siguiente:
+El botón &quot;Descargar&quot; está disponible automáticamente en la interfaz de usuario del visor cuando se produce lo siguiente:
 
-* Hay un archivo PDF real en la compañía del cliente.
+* Hay un archivo PDF real presente en la empresa del cliente.
 * El nombre coincide con el nombre del recurso de catálogo electrónico que se pasa al visor e incluye una extensión `.pdf`.
 * El archivo PDF se publica en Dynamic Media Classic.
 
