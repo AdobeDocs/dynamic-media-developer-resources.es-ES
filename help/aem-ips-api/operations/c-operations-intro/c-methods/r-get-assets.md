@@ -1,23 +1,24 @@
 ---
-description: Devuelve recursos de IPS.
-seo-description: Devuelve recursos de IPS.
+description: Devuelve activos de IPS.
+seo-description: Devuelve activos de IPS.
 seo-title: getAssets
 solution: Experience Manager
 title: getAssets
-topic: Dynamic Media Image Production System API
 uuid: ca06af8c-1753-4dfa-a7e6-1196ea769730
+feature: Dynamic Media Classic,SDK/API,Administración de activos
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 20%
+source-wordcount: '132'
+ht-degree: 18%
 
 ---
 
 
 # getAssets{#getassets}
 
-Devuelve recursos de IPS.
+Devuelve activos de IPS.
 
 Sintaxis
 
@@ -39,7 +40,7 @@ Sintaxis
 
 ## Parámetros {#section-bb9cf1ab19ea47acbd9ae58646dbe273}
 
-**Input (getAssetParam)**
+**Entrada (getAssetParam)**
 
 <table id="table_15CDEFC7F836411C80AA122E3A701C77"> 
  <thead> 
@@ -55,13 +56,13 @@ Sintaxis
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sí </p> </td> 
-   <td colname="col4"> <p>El identificador de compañía. </p> </td> 
+   <td colname="col4"> <p>El control de la empresa. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> accessUserHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Suplantar a un usuario específico. Utilizado únicamente por administradores. </p> </td> 
+   <td colname="col4"> <p>Suplantar a un usuario específico. Solo los administradores lo utilizan. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> accessGroupHandle</span> </span> </p> </td> 
@@ -73,7 +74,7 @@ Sintaxis
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:HandleArray</span> </p> </td> 
    <td colname="col3"> <p>Sí </p> </td> 
-   <td colname="col4"> <p>La carpeta raíz que se va a recuperar y todas las subcarpetas en el nivel de hoja. Si se excluye, se utiliza la raíz de compañía. </p> </td> 
+   <td colname="col4"> <p>La carpeta raíz para recuperar carpetas y todas las subcarpetas en el nivel de hoja. Si se excluye, se utiliza la raíz de la empresa. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </p> </td> 
