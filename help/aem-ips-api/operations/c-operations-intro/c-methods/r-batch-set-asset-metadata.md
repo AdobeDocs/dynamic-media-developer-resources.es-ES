@@ -4,13 +4,14 @@ seo-description: Establece los metadatos de los recursos mediante el modo por lo
 seo-title: batchSetAssetMetadata
 solution: Experience Manager
 title: batchSetAssetMetadata
-topic: Dynamic Media Image Production System API
 uuid: 88d8f279-988f-4956-b66f-60fa95cf511c
+feature: Dynamic Media Classic,SDK/API,Metadatos.Administración de recursos
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 13%
+source-wordcount: '161'
+ht-degree: 12%
 
 ---
 
@@ -36,7 +37,7 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía cuyos metadatos desea definir en una operación por lotes. |
+| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa cuyos metadatos desea configurar en una operación por lotes. |
 | `*`updateArray`*` | `types:BatchMetadataUpdateArray` | Sí | Matriz de actualizaciones de metadatos aplicadas a los recursos. |
 
 **Salida (batchSetAssetMetadataParam)**
@@ -46,8 +47,8 @@ Sintaxis
 | `*`successCount`*` | `xsd:int` | Sí | Número de metadatos establecidos correctamente. |
 | `*`warningCount`*` | `xsd:int` | Sí | Número de advertencias generadas cuando la operación intentó establecer metadatos. |
 | `*`errorCount`*` | `xsd:int` | Sí | Número de errores generados cuando la operación intentó establecer metadatos. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | Matriz de detalles asociada con los recursos que generan advertencias cuando la operación intentó crear lotes de metadatos para los recursos. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | No | Matriz de detalles asociada a los recursos que generan errores cuando la operación intentó crear lotes de metadatos para los recursos. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados con los recursos que generan advertencias cuando la operación intentó establecer metadatos para los recursos por lotes. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados a los recursos que generan errores cuando la operación intentó establecer metadatos para los recursos en lotes. |
 
 ## Ejemplos {#section-2de798ac920e4b47b971b1729a64395b}
 
