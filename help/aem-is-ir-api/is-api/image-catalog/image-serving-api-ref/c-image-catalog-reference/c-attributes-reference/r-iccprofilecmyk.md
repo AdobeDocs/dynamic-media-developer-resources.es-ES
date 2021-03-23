@@ -1,23 +1,24 @@
 ---
-description: PERFIL de color de salida predeterminado CMYK. Especifica el nombre del perfil de color ICC que se utilizará para las imágenes de respuesta CMYK cuando no se especifique ningún espacio de color de salida con icc= y para determinados valores de color CMYK especificados con varios comandos de servicio de imágenes, como color=.
-seo-description: PERFIL de color de salida predeterminado CMYK. Especifica el nombre del perfil de color ICC que se utilizará para las imágenes de respuesta CMYK cuando no se especifique ningún espacio de color de salida con icc= y para determinados valores de color CMYK especificados con varios comandos de servicio de imágenes, como color=.
+description: Perfil de color de salida predeterminado CMYK. Especifica el nombre del perfil de color ICC que se utilizará para las imágenes de respuesta CMYK cuando no se especifique ningún espacio de color de salida con icc= y para ciertos valores de color CMYK especificados con varios comandos de Image Serving, como color=.
+seo-description: Perfil de color de salida predeterminado CMYK. Especifica el nombre del perfil de color ICC que se utilizará para las imágenes de respuesta CMYK cuando no se especifique ningún espacio de color de salida con icc= y para ciertos valores de color CMYK especificados con varios comandos de Image Serving, como color=.
 seo-title: IccProfileCmyk
 solution: Experience Manager
 title: IccProfileCmyk
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b22b6ed1-615f-4241-b4d4-c3aa70351458
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 2%
+source-wordcount: '201'
+ht-degree: 1%
 
 ---
 
 
 # IccProfileCmyk{#iccprofilecmyk}
 
-PERFIL de color de salida predeterminado CMYK. Especifica el nombre del perfil de color ICC que se utilizará para las imágenes de respuesta CMYK cuando no se especifique ningún espacio de color de salida con icc= y para determinados valores de color CMYK especificados con varios comandos de servicio de imágenes, como color=.
+Perfil de color de salida predeterminado CMYK. Especifica el nombre del perfil de color ICC que se utilizará para las imágenes de respuesta CMYK cuando no se especifique ningún espacio de color de salida con icc= y para ciertos valores de color CMYK especificados con varios comandos de Image Serving, como color=.
 
 ## Propiedades {#section-d8b6102cc1c744d482f99808ccfcaa24}
 
@@ -25,7 +26,7 @@ Cadena de texto. Si se especifica, debe ser un valor `icc::Name` válido del map
 
 ## Predeterminado {#section-62442df09a724950bfbdd0640b3e6678}
 
-Se hereda de `default::IccProfileCmyk` si no está definida o si está vacía.
+Se hereda de `default::IccProfileCmyk` si no está definido o si está vacío.
 
 ## Véase también {#section-17071d1ed5ad469490fd715ba8f4d30d}
 
