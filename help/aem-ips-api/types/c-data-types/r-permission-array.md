@@ -1,23 +1,24 @@
 ---
-description: Una matriz de permisos.
-seo-description: Una matriz de permisos.
+description: Matriz de permisos.
+seo-description: Matriz de permisos.
 seo-title: PermissionArray
 solution: Experience Manager
 title: PermissionArray
-topic: Dynamic Media Image Production System API
 uuid: 90c15863-8242-479b-9d90-666d26b8b10d
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '24'
-ht-degree: 25%
+source-wordcount: '31'
+ht-degree: 19%
 
 ---
 
 
 # PermissionArray{#permissionarray}
 
-Una matriz de permisos.
+Matriz de permisos.
 
 Sintaxis
 
@@ -25,5 +26,5 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| `*`elementos`*` | `types:Permission` | Matriz de permisos. |
+| `*`elementos`*` | `types:Permission` | La matriz de permisos. |
 
