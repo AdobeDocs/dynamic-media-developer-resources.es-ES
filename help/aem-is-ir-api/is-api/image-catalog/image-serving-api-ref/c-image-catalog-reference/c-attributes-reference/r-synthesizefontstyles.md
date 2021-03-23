@@ -1,15 +1,16 @@
 ---
-description: Activar variaciones de fuente sintetizadas. Controla si el servidor debe generar una respuesta de error o sintetizar un estilo de fuente negrita, cursiva o negrita/cursiva si se solicita dicho estilo pero no se puede encontrar en el mapa de fuentes.
-seo-description: Activar variaciones de fuente sintetizadas. Controla si el servidor debe generar una respuesta de error o sintetizar un estilo de fuente negrita, cursiva o negrita/cursiva si se solicita dicho estilo pero no se puede encontrar en el mapa de fuentes.
+description: Active las variaciones de fuente sintetizadas. Controla si el servidor debe generar una respuesta de error o sintetizar un estilo de fuente negrita, cursiva o negrita/cursiva si se solicita un estilo de este tipo, pero no se puede encontrar en el mapa de fuentes.
+seo-description: Active las variaciones de fuente sintetizadas. Controla si el servidor debe generar una respuesta de error o sintetizar un estilo de fuente negrita, cursiva o negrita/cursiva si se solicita un estilo de este tipo, pero no se puede encontrar en el mapa de fuentes.
 seo-title: SynthesizeFontStyles
 solution: Experience Manager
 title: SynthesizeFontStyles
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f1c67490-7f14-4a6c-a7ba-5a476231ef34
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '164'
 ht-degree: 3%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 3%
 
 # SynthesizeFontStyles{#synthesizefontstyles}
 
-Activar variaciones de fuente sintetizadas. Controla si el servidor debe generar una respuesta de error o sintetizar un estilo de fuente negrita, cursiva o negrita/cursiva si se solicita dicho estilo pero no se puede encontrar en el mapa de fuentes.
+Active las variaciones de fuente sintetizadas. Controla si el servidor debe generar una respuesta de error o sintetizar un estilo de fuente negrita, cursiva o negrita/cursiva si se solicita un estilo de este tipo, pero no se puede encontrar en el mapa de fuentes.
 
 >[!NOTE]
 >
@@ -25,11 +26,11 @@ Activar variaciones de fuente sintetizadas. Controla si el servidor debe generar
 
 ## Propiedades {#section-3205560a74774ebf9c916b07bd15aca6}
 
-Indicador. Establezca en 0 para deshabilitar y en 1 para habilitar estilos de fuente sintéticos.
+Indicador. Establézcalo en 0 para desactivar y en 1 para habilitar los estilos de fuente sintéticos.
 
 ## Predeterminado {#section-71f94aa65e404d14b441674c040b59e3}
 
-Se hereda de `default::SynthesizeFontStyles` si no está definida o si está vacía.
+Se hereda de `default::SynthesizeFontStyles` si no está definido o si está vacío.
 
 ## Véase también {#section-47a79659cc844272b6d5f36c946e12ac}
 
