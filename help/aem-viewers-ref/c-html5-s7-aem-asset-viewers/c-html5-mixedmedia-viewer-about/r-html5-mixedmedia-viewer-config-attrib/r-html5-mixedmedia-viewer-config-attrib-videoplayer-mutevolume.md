@@ -1,23 +1,24 @@
 ---
-description: Atributo de configuración para el visor de vídeo de medios mixtos.
-seo-description: Atributo de configuración para el visor de vídeo de medios mixtos.
+description: Atributo de configuración para el visualizador de vídeo de medios mixtos.
+seo-description: Atributo de configuración para el visualizador de vídeo de medios mixtos.
 seo-title: VideoPlayer.mutevolume
 solution: Experience Manager
 title: VideoPlayer.mutevolume
-topic: Dynamic Media
 uuid: 2b004ebf-41e6-4895-a578-bb9094f40924
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 7%
+source-wordcount: '78'
+ht-degree: 6%
 
 ---
 
 
 # VideoPlayer.mutevolume{#videoplayer-mutevolume}
 
-Atributo de configuración para el visor de vídeo de medios mixtos.
+Atributo de configuración para el visualizador de vídeo de medios mixtos.
 
 `[VideoPlayer.|<containerId>_videoPlayer.]mutevolume=0|1`
 
@@ -25,7 +26,7 @@ Atributo de configuración para el visor de vídeo de medios mixtos.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Establece el modo silenciado para la reproducción de vídeo durante la carga inicial. Si se establece en <span class="codeph"> 1 </span>, el volumen se silenciará; de lo contrario, el vídeo se reproduce con sonido. En determinados dispositivos, el silencio de la reproducción de vídeo durante la carga también permite que el vídeo se reproduzca automáticamente. </p> </td> 
+   <td colname="col2"> <p> Establece el modo silenciado para la reproducción de vídeo durante la carga inicial. Si se establece en <span class="codeph"> 1 </span>, el volumen se silenciará; de lo contrario, el vídeo se reproduce con sonido. En algunos dispositivos, el silenciamiento de la reproducción de vídeo durante la carga también permite que el vídeo se reproduzca automáticamente. </p> </td> 
   </tr> 
  </tbody> 
 </table>
