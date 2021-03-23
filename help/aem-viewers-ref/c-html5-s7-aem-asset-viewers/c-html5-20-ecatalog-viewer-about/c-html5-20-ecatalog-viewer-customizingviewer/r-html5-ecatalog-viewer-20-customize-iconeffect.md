@@ -1,21 +1,22 @@
 ---
 description: El indicador de zoom se superpone en el área de vista principal. Se muestra cuando la imagen está en estado de restablecimiento y también depende del parámetro iconeffect.
 seo-description: El indicador de zoom se superpone en el área de vista principal. Se muestra cuando la imagen está en estado de restablecimiento y también depende del parámetro iconeffect.
-seo-title: Efecto Icono
+seo-title: Icono, efecto
 solution: Experience Manager
-title: Efecto Icono
-topic: Dynamic Media
+title: Icono, efecto
 uuid: 9e8c0c6f-2c45-4acb-9acb-5b8494bfc69b
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '202'
 ht-degree: 1%
 
 ---
 
 
-# Efecto de icono{#icon-effect}
+# Icono, efecto{#icon-effect}
 
 El indicador de zoom se superpone en el área de vista principal. Se muestra cuando la imagen está en estado de restablecimiento y también depende del parámetro iconeffect.
 
@@ -36,16 +37,16 @@ El aspecto del área de visualización se controla con el siguiente selector de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
    <td colname="col2"> <p> Ilustración del indicador de zoom. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
+   <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Anchura del indicador de zoom en píxeles. </p> </td> 
+   <td colname="col2"> <p>Zoom de la anchura del indicador en píxeles. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
@@ -56,9 +57,9 @@ El aspecto del área de visualización se controla con el siguiente selector de 
 
 >[!NOTE]
 >
->El efecto Icono admite el selector de atributos `media-type`, que puede utilizar para aplicar diferentes efectos de icono en diferentes dispositivos. En particular, `media-type='standard'` corresponde a los sistemas de escritorio en los que la entrada del ratón se utiliza normalmente y `media-type='multitouch'` corresponde a los dispositivos con entrada táctil.
+>El efecto Icono es compatible con el selector de atributos `media-type`, que puede utilizar para aplicar distintos efectos de icono en distintos dispositivos. En concreto, `media-type='standard'` corresponde a sistemas de escritorio en los que se utiliza normalmente la entrada del ratón y `media-type='multitouch'` corresponde a dispositivos con entrada táctil.
 
-Ejemplo: para configurar un indicador de zoom de 100 x 100 píxeles con diferentes ilustraciones para sistemas de escritorio y dispositivos táctiles.
+Ejemplo: para configurar un indicador de zoom de 100 x 100 píxeles con diferentes características para sistemas de escritorio y dispositivos táctiles.
 
 ```
 .s7ecatalogviewer .s7pageview .s7iconeffect { 
