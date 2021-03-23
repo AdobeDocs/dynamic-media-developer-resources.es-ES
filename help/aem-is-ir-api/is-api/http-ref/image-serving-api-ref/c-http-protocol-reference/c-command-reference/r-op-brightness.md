@@ -4,12 +4,13 @@ seo-description: Ajuste el brillo. Reduce o aumenta el brillo de la imagen.
 seo-title: op_bright
 solution: Experience Manager
 title: op_bright
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 751ec9e5-4a70-438d-950c-deff4db034b1
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '93'
 ht-degree: 3%
 
 ---
@@ -30,7 +31,7 @@ Ajuste el brillo. Reduce o aumenta el brillo de la imagen.
 
 ## Propiedades {#section-c7e757f63b2c4b5ebaacbadb51c72ce4}
 
-Capa. Se aplica a la capa actual o a la imagen compuesta si `layer=comp`. Omitido por capas de efectos. Las imágenes o capas CMYK se convierten a RGB antes de que se aplique la operación.
+Capa. Se aplica a la capa actual o a la imagen compuesta si `layer=comp`. Ignorado por capas de efecto. Las imágenes o capas CMYK se convierten a RGB antes de aplicar la operación.
 
 ## Predeterminado {#section-be56be0759634c79b4f264f194a94dbc}
 
