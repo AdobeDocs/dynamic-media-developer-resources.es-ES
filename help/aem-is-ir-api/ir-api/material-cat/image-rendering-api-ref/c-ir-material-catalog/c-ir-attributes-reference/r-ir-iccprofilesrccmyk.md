@@ -1,15 +1,16 @@
 ---
-description: PERFIL de color de entrada predeterminado CMYK. Especifica el nombre del perfil de color ICC que se utilizará para las imágenes de material CMYK que no incrustan un perfil de color.
-seo-description: PERFIL de color de entrada predeterminado CMYK. Especifica el nombre del perfil de color ICC que se utilizará para las imágenes de material CMYK que no incrustan un perfil de color.
+description: Perfil de color de entrada predeterminado CMYK. Especifica el nombre del perfil de color ICC que se utilizará para las imágenes de material CMYK que no incrustan un perfil de color.
+seo-description: Perfil de color de entrada predeterminado CMYK. Especifica el nombre del perfil de color ICC que se utilizará para las imágenes de material CMYK que no incrustan un perfil de color.
 seo-title: IccProfileSrcCmyk
 solution: Experience Manager
 title: IccProfileSrcCmyk
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 95147b28-c87b-4337-a0eb-a962ca1e8786
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '162'
 ht-degree: 2%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 2%
 
 # IccProfileSrcCmyk{#iccprofilesrccmyk}
 
-PERFIL de color de entrada predeterminado CMYK. Especifica el nombre del perfil de color ICC que se utilizará para las imágenes de material CMYK que no incrustan un perfil de color.
+Perfil de color de entrada predeterminado CMYK. Especifica el nombre del perfil de color ICC que se utilizará para las imágenes de material CMYK que no incrustan un perfil de color.
 
 ## Propiedades {#section-0cee77438d914c319ec876edb3490821}
 
@@ -25,7 +26,7 @@ Cadena de texto. Si se especifica, debe ser un valor `icc::Name` válido del map
 
 ## Predeterminado {#section-11f6239e0dd14827abf4a95c1b30161c}
 
-Se hereda de `default::IccProfileSrcCmyk` si no está definida o si está vacía. Si `attribute::IccProfileSrcCmyk` no se resuelve en un perfil válido, se utilizará `attribute::IccProfileCmyk` en su lugar.
+Se hereda de `default::IccProfileSrcCmyk` si no está definido o si está vacío. Si `attribute::IccProfileSrcCmyk` no se resuelve en un perfil válido, se utilizará `attribute::IccProfileCmyk` en su lugar.
 
 ## Véase también {#section-88adddd70265459a9a5d2f50829a4ba7}
 
