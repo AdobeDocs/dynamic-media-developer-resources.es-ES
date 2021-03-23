@@ -4,13 +4,14 @@ seo-description: Permitir direcciones URL de origen absolutas.
 seo-title: AllowDirectURLs
 solution: Experience Manager
 title: AllowDirectURLs
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6b03abd1-bff6-4ff2-9945-9905355de87e
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 10%
+source-wordcount: '56'
+ht-degree: 8%
 
 ---
 
@@ -19,7 +20,7 @@ ht-degree: 10%
 
 Permitir direcciones URL de origen absolutas.
 
-Establezca en 1 para permitir direcciones URL HTTP absolutas (comenzando con &quot; `http://`&quot;) en los comandos `src=`. Establezca en 0 para no permitir direcciones URL absolutas.
+Configúrelo en 1 para permitir direcciones URL HTTP absolutas (comenzando por &quot; `http://`&quot;) en los comandos `src=`. Si se establece en 0, no se permiten direcciones URL absolutas.
 
 ## Propiedades {#section-9246bc06c7484f9e8f65a5edb24f6854}
 
@@ -27,7 +28,7 @@ Indicador.
 
 ## Predeterminado {#section-a881c30ea28e47e296faa890c3bd6daf}
 
-Se hereda de `default::AllowDirectUrls` si no está definida o si está vacía.
+Se hereda de `default::AllowDirectUrls` si no está definido o si está vacío.
 
 ## Véase también {#section-66e0c597a8b04155b40538385312b389}
 
