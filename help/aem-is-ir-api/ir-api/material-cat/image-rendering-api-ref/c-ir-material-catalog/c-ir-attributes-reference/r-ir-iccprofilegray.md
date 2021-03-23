@@ -4,12 +4,13 @@ seo-description: Espacio de color predeterminado de escala de grises. Especifica
 seo-title: IccProfileGray
 solution: Experience Manager
 title: IccProfileGray
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 064be242-d964-4fb8-99ea-78bb5599e70f
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '153'
 ht-degree: 2%
 
 ---
@@ -21,11 +22,11 @@ Espacio de color predeterminado de escala de grises. Especifica el nombre del pe
 
 ## Propiedades {#section-7af0a3e2c8cf4cdd98974bfa4a15f3ac}
 
-Cadena de texto. Si se especifica, debe ser un valor `icc::Name` válido del mapa de perfiles ICC de este catálogo de material o del catálogo predeterminado, o bien una ruta de archivo relativa a `attribute::RootPath`. El perfil ICC referenciado debe ser un perfil en escala de grises.
+Cadena de texto. Si se especifica, debe ser un valor `icc::Name` válido del mapa de perfiles ICC de este catálogo de materiales o del catálogo predeterminado, o una ruta de archivo relativa a `attribute::RootPath`. El perfil ICC al que se hace referencia debe ser de escala de grises.
 
 ## Predeterminado {#section-aaa1c71e5d0c4e0792099d77e37c05ee}
 
-Se hereda de `default::IccProfileGray` si no está definida o si está vacía.
+Se hereda de `default::IccProfileGray` si no está definido o si está vacío.
 
 ## Véase también {#section-cd43189611f4426aacddcc604eb02a10}
 
