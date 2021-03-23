@@ -1,15 +1,16 @@
 ---
-description: Define los permisos de un solo recurso mediante un recurso de permiso.
-seo-description: Define los permisos de un solo recurso mediante un recurso de permiso.
+description: Establece los permisos de un recurso individual mediante un recurso de permiso.
+seo-description: Establece los permisos de un recurso individual mediante un recurso de permiso.
 seo-title: setAssetPermissions
 solution: Experience Manager
 title: setAssetPermissions
-topic: Dynamic Media Image Production System API
 uuid: 38f26482-bce9-4d2c-9714-e8c3ae40c2d1
+feature: Dynamic Media Classic,SDK/API,Administración de activos
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '147'
 ht-degree: 8%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 8%
 
 # setAssetPermissions{#setassetpermissions}
 
-Define los permisos de un solo recurso mediante un recurso de permiso.
+Establece los permisos de un recurso individual mediante un recurso de permiso.
 
 Los recursos heredan los permisos de su carpeta principal de forma predeterminada. Una vez configurados los permisos en un recurso, ya no hereda los permisos de su elemento principal a menos que llame a `removeAssetPermissions`.
 
@@ -29,21 +30,21 @@ Los recursos heredan los permisos de su carpeta principal de forma predeterminad
 
 ## Parámetros {#section-e05abbce6453450fb38747101cb5e228}
 
-**Input (setAssetPermissonsParam)**
+**Entrada (setAssetPermissonsParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía que contiene la carpeta con la que desea trabajar. |
+| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa que contiene la carpeta con la que desea trabajar. |
 | `*`assetHandle`*` | `xsd:string` | Sí | Identificador de carpeta. |
 | `*`permissionArray`*` | `types:PermissionsUpdateArray` | Sí | Matriz de permisos. |
 
 **Salida (setAssetPermissonsReturn)**
 
-La API de IPS no devuelve una respuesta para esta operación.
+La API IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-38955bc330bb4909b6b06027ef2b143e}
 
-Este ejemplo de código establece permisos en un recurso. Contiene la compañía, el identificador de recurso y una matriz de permisos.
+Este ejemplo de código establece permisos en un recurso. Contiene el identificador de empresa y recurso, así como una matriz de permisos.
 
 **Solicitar**
 
