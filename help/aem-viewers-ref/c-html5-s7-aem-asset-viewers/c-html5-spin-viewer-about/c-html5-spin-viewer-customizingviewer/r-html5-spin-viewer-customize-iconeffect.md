@@ -1,27 +1,28 @@
 ---
-description: El indicador de giro se superpone en el área de la vista principal. Se muestra cuando la imagen está en estado de restablecimiento y también depende del parámetro iconeffect.
-seo-description: El indicador de giro se superpone en el área de la vista principal. Se muestra cuando la imagen está en estado de restablecimiento y también depende del parámetro iconeffect.
-seo-title: Efecto Icono
+description: El indicador de giro se superpone en el área de vista principal. Se muestra cuando la imagen se encuentra en estado de restablecimiento y también depende del parámetro iconeffect.
+seo-description: El indicador de giro se superpone en el área de vista principal. Se muestra cuando la imagen se encuentra en estado de restablecimiento y también depende del parámetro iconeffect.
+seo-title: Icono, efecto
 solution: Experience Manager
-title: Efecto Icono
-topic: Dynamic Media
+title: Icono, efecto
 uuid: ce0524e4-fff4-45b0-8069-d5876802d66f
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de giros
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '186'
 ht-degree: 1%
 
 ---
 
 
-# Efecto de icono{#icon-effect}
+# Icono, efecto{#icon-effect}
 
-El indicador de giro se superpone en el área de la vista principal. Se muestra cuando la imagen está en estado de restablecimiento y también depende del parámetro iconeffect.
+El indicador de giro se superpone en el área de vista principal. Se muestra cuando la imagen se encuentra en estado de restablecimiento y también depende del parámetro iconeffect.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propiedades CSS del área del visor principal**
+**Propiedades CSS del área principal del visor**
 
 El aspecto del área de visualización se controla con el siguiente selector de clase CSS:
 
@@ -38,16 +39,16 @@ El aspecto del área de visualización se controla con el siguiente selector de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
    <td colname="col2"> <p> Ilustración del indicador de giro. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#section-b671c70acf284cb0aea678c2d2e4babc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
+   <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#section-b671c70acf284cb0aea678c2d2e4babc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Ancho del indicador de giro. </p> </td> 
+   <td colname="col2"> <p>Anchura del indicador de giro. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
@@ -56,7 +57,7 @@ El aspecto del área de visualización se controla con el siguiente selector de 
  </tbody> 
 </table>
 
-El indicador de giro admite el selector de atributos `state`, que se establece en `spin_1D` en el caso de un conjunto de giros unidimensional y en `spin_2D` en el caso de un conjunto de giros multidimensional.
+El indicador de giro es compatible con el selector de atributos `state`, que se establece en `spin_1D` en el caso de conjuntos de giros unidimensionales y en `spin_2D` en el caso de conjuntos de giros multidimensionales.
 
 Ejemplo: para configurar un indicador de zoom de 100 x 100 píxeles.
 
