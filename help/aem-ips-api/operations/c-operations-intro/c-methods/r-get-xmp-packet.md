@@ -1,21 +1,22 @@
 ---
 description: Recupera un paquete de metadatos XMP para el recurso especificado.
 seo-description: Recupera un paquete de metadatos XMP para el recurso especificado.
-seo-title: getXMPPaca
+seo-title: getXMPPackets
 solution: Experience Manager
-title: getXMPPaca
-topic: Dynamic Media Image Production System API
+title: getXMPPackets
 uuid: c4b40e76-a459-4036-ace2-8df202305bf9
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 20%
+source-wordcount: '86'
+ht-degree: 18%
 
 ---
 
 
-# getXMPPaca{#getxmppacket}
+# getXMPPackets{#getxmppacket}
 
 Recupera un paquete de metadatos XMP para el recurso especificado.
 
@@ -33,14 +34,14 @@ Sintaxis
 
 ## Parámetros {#section-b4075df0e4414b00b961d978d5471db9}
 
-**Entrada (getXMPPacaParam**
+**Entrada (getXMPPacketsParam**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de compañía con el paquete que desea devolver (por ejemplo: `c|656`). |
+| `*`companyHandle`*` | `xsd:string` | Sí | El control de la empresa con el paquete que desea devolver (por ejemplo, `c|656`). |
 | `*`assetHandle`*` | `xsd:string` | Sí | Recurso para el que se debe recuperar el paquete de XMP. |
 
-**Salida (getXMPPacaRetorno)**
+**Salida (getXMPPacketsReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
