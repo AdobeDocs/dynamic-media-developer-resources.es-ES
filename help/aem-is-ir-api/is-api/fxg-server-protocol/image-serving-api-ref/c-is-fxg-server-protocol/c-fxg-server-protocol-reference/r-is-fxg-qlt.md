@@ -1,23 +1,24 @@
 ---
-description: Calidad JPEG. Especifica los atributos de codificación JPEG para controlar el nivel de compresión. Esto a su vez varía el tamaño del archivo (cantidad de datos de respuesta) e, indirectamente, la calidad visual de la imagen resultante.
-seo-description: Calidad JPEG. Especifica los atributos de codificación JPEG para controlar el nivel de compresión. Esto a su vez varía el tamaño del archivo (cantidad de datos de respuesta) e, indirectamente, la calidad visual de la imagen resultante.
+description: Calidad de Jpeg. Especifica los atributos de codificación JPEG para controlar el nivel de compresión. Esto a su vez varía el tamaño del archivo (la cantidad de datos de respuesta) y, indirectamente, la calidad visual de la imagen resultante.
+seo-description: Calidad de Jpeg. Especifica los atributos de codificación JPEG para controlar el nivel de compresión. Esto a su vez varía el tamaño del archivo (la cantidad de datos de respuesta) y, indirectamente, la calidad visual de la imagen resultante.
 seo-title: qlt
 solution: Experience Manager
 title: qlt
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 936607c1-20c3-4f76-b970-614b21c47dea
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 13%
+source-wordcount: '226'
+ht-degree: 12%
 
 ---
 
 
 # qlt{#qlt}
 
-Calidad JPEG. Especifica los atributos de codificación JPEG para controlar el nivel de compresión. Esto a su vez varía el tamaño del archivo (cantidad de datos de respuesta) e, indirectamente, la calidad visual de la imagen resultante.
+Calidad de Jpeg. Especifica los atributos de codificación JPEG para controlar el nivel de compresión. Esto a su vez varía el tamaño del archivo (la cantidad de datos de respuesta) y, indirectamente, la calidad visual de la imagen resultante.
 
 ` qlt= *``*[, *`cualitychroma`*]`
 
@@ -27,18 +28,18 @@ Calidad JPEG. Especifica los atributos de codificación JPEG para controlar el n
   <td class="stentry"> <p>Calidad de codificación JPEG (1...100 int). </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> cromatismo  </span> </span> </p> </td> 
-  <td class="stentry"> <p>Baja resolución de cromaticidad JPEG (0=normal, 1=disable); opcional, el valor predeterminado es 0. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> croma  </span> </span> </p> </td> 
+  <td class="stentry"> <p>Muestreo descendente de cromaticidad JPEG (0=normal, 1=disable); opcional, el valor predeterminado es 0. </p> </td> 
  </tr> 
 </table>
 
-Se utiliza solamente si `fmt=jpg`. Omitido en caso contrario
+Solo se usa si `fmt=jpg`. Ignorado en caso contrario
 
 Unos valores de calidad altos aumentan el tamaño del archivo y la calidad; unos valores bajos reducen el tamaño de los archivos y la calidad de imagen percibida. Si el valor es superior a 90, suele generar imágenes que no se distinguen de la imagen sin comprimir.
 
-Establezca el indicador `chroma` para desactivar el muestreo de cromaticidad RGB utilizado por los codificadores JPEG típicos. Esto puede aumentar el enfoque percibido de los bordes de una imagen cuando el borde se define mediante un cambio de tono en lugar de un brillo. La configuración de este indicador puede provocar un ligero aumento en el tamaño del archivo. Experimente con esta configuración si el texto parece ligeramente borroso.
+Establezca el indicador `chroma` para desactivar el muestreo descendente de cromaticidad RGB utilizado por los codificadores JPEG típicos. Esto puede aumentar la percepción de nitidez de los bordes en una imagen cuando el borde se define mediante un cambio de tono en lugar de un brillo. Configurar este indicador puede causar un ligero aumento en el tamaño del archivo. Experimente con esta configuración si el texto parece ligeramente borroso.
 
-`chroma` se omite si el tipo de píxel de salida es CMYK o gris.
+`chroma` se ignora si el tipo de píxel de salida es CMYK o gris.
 
 ## Ejemplo {#section-a6c263f15c29424a86ef267c96a6630a}
 
