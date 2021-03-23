@@ -4,13 +4,14 @@ seo-description: Establezca un nuevo conjunto de indicadores de estado de public
 seo-title: AssetContextStateUpdate
 solution: Experience Manager
 title: AssetContextStateUpdate
-topic: Dynamic Media Image Production System API
 uuid: 74bc693f-1ce9-4dcf-92f5-1177668ea3ef
+feature: Dynamic Media Classic,SDK/API,Administración de activos
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 5%
+source-wordcount: '87'
+ht-degree: 4%
 
 ---
 
@@ -23,6 +24,6 @@ Establezca un nuevo conjunto de indicadores de estado de publicación para el co
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Administre el recurso que desea actualizar. |
+| `*`assetHandle`*` | `xsd:string` | Gestione el recurso que desee actualizar. |
 | `*`contextStateUpdateArray`*` | `types:ContextStateUpdateArray` | Matriz de estados de contacto de publicación para el recurso que desea actualizar. |
 
