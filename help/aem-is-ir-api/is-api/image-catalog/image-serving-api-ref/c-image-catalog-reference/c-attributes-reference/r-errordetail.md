@@ -1,20 +1,21 @@
 ---
-description: Detalles del mensaje de error. Especifica el nivel de detalle de los mensajes de error devueltos mediante HTTP como valor de error.message.
+description: Detalles del mensaje de error. Especifica el nivel de detalle de los mensajes de error devueltos mediante HTTP como valor de error.message .
 solution: Experience Manager
 title: ErrorDetail
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 5%
+source-wordcount: '165'
+ht-degree: 4%
 
 ---
 
 
 # ErrorDetail{#errordetail}
 
-Detalles del mensaje de error. Especifica el nivel de detalle de los mensajes de error devueltos mediante HTTP como valor de error.message.
+Detalles del mensaje de error. Especifica el nivel de detalle de los mensajes de error devueltos mediante HTTP como valor de error.message .
 
 Se permiten los siguientes valores:
 
@@ -29,11 +30,11 @@ Se permiten los siguientes valores:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p></td> 
-  <td class="stentry"> <p>Mensaje detallado. Proporciona detalles de nivel de usuario sobre el error. Puede incluir información confidencial, como rutas de archivos. Recomendado para servidores de ensayo, garantía de calidad y desarrollo de aplicaciones. </p></td> 
+  <td class="stentry"> <p>Mensaje detallado. Proporciona detalles a nivel de usuario sobre el error. Puede incluir información confidencial, como rutas de archivos. Recomendado para servidores de ensayo, control de calidad y desarrollo de aplicaciones. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>Información de depuración completa. Añade los seguimientos de pila Java cuando corresponde. Las imágenes de error nunca incluyen trazos de pila y, en su lugar, devuelven información de nivel 2 en <span class="codeph"> $error.message</span>. Esta información puede resultar útil cuando se producen problemas de sistema de informes al soporte técnico de Dynamic Media. </p></td> 
+  <td class="stentry"> <p>Información de depuración completa. Agrega trazos de pila de Java cuando corresponde. Las imágenes de error nunca incluyen trazos de pila y, en su lugar, devuelven información de nivel 2 en <span class="codeph"> $error.message</span>. Esta información puede resultar útil cuando se informa de problemas al soporte técnico de Dynamic Media. </p></td> 
  </tr> 
 </table>
 
@@ -47,4 +48,4 @@ Se hereda de `default::ErrorDetail` si no se especifica o si está vacío.
 
 ## Véase también {#section-5451b0525ed74121950bfc34726c3970}
 
-[attribute::ErrorImage](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errorimage.md#reference-c494d5d8b2584fe3800f35baabd0292c)
+[atributo::ErrorImage](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errorimage.md#reference-c494d5d8b2584fe3800f35baabd0292c)
