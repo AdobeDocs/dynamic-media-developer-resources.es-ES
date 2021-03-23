@@ -1,12 +1,13 @@
 ---
-description: Según el valor del parámetro mode, el visor muestra los iconos de mapa de imagen sobre la vista principal en lugares donde los mapas se crearon originalmente en Dynamic Media Classic o representa las regiones exactas que coinciden con la forma de los mapas de imagen originales.
+description: Según el valor del parámetro mode , el visor muestra los iconos de mapa de imagen sobre la vista principal en lugares donde los mapas se crean originalmente en Dynamic Media Classic o procesa regiones exactas que coinciden con la forma de los mapas de imagen originales.
 solution: Experience Manager
-title: Efecto de mapa de imagen
-topic: Dynamic Media
+title: Efecto Mapa de imágenes
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '324'
 ht-degree: 1%
 
 ---
@@ -14,11 +15,11 @@ ht-degree: 1%
 
 # Efecto de mapa de imagen{#image-map-effect}
 
-Según el valor del parámetro mode, el visor muestra los iconos de mapa de imagen sobre la vista principal en lugares donde los mapas se crearon originalmente en Dynamic Media Classic o representa las regiones exactas que coinciden con la forma de los mapas de imagen originales.
+Según el valor del parámetro mode , el visor muestra los iconos de mapa de imagen sobre la vista principal en lugares donde los mapas se crean originalmente en Dynamic Media Classic o procesa regiones exactas que coinciden con la forma de los mapas de imagen originales.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propiedades CSS del área del visor principal**
+**Propiedades CSS del área principal del visor**
 
 El aspecto del icono de mapa de imagen se controla con el siguiente selector de clase CSS:
 
@@ -28,7 +29,7 @@ El aspecto del icono de mapa de imagen se controla con el siguiente selector de 
 
 >[!NOTE]
 >
->La clase CSS `s7mapoverlay` utilizada para aplicar estilo a los iconos de mapas de imagen en el pasado ya no se utiliza; utilice `s7icon` en su lugar.
+>La clase CSS `s7mapoverlay` utilizada para aplicar estilo a los iconos de mapa de imágenes en el pasado ya no se utiliza; utilice `s7icon` en su lugar.
 
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
@@ -39,12 +40,12 @@ El aspecto del icono de mapa de imagen se controla con el siguiente selector de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
    <td colname="col2"> <p>Icono de mapa de imagen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
+   <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -59,7 +60,7 @@ El aspecto del icono de mapa de imagen se controla con el siguiente selector de 
 
 >[!NOTE]
 >
->El icono de mapa de imagen admite el selector de atributos `state`, que puede utilizar para aplicar diferentes apariencias a los estados de icono de `default` y `active`.
+>El icono de mapa de imagen es compatible con el selector de atributos `state`, que puede utilizar para aplicar diferentes aspectos a los estados de icono de `default` y `active`.
 
 Ejemplo: configure un icono de mapa de imagen de 28 x 28 píxeles que muestre una imagen diferente para cada uno de los dos estados de icono diferentes.
 
@@ -77,7 +78,7 @@ opacity: 1;
 }
 ```
 
-Consulte también [Compatibilidad con mapas de imagen](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-image-map-support.md#concept-28759efae5014a1fa8b0fb14dc26812a).
+Consulte también [Compatibilidad con mapas de imágenes](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-image-map-support.md#concept-28759efae5014a1fa8b0fb14dc26812a).
 
 El aspecto de la región del mapa de imagen se controla con el siguiente selector de clase CSS:
 
@@ -95,20 +96,20 @@ El aspecto de la región del mapa de imagen se controla con el siguiente selecto
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> fondo  </span> </p> </td> 
-   <td colname="col2"> <p> Color de relleno de la región del mapa de imagen. </p> <p>Especificado en formato #RRGGBB, RGB(R,G,B) o RGBA(R,G,B,A). </p> </td> 
+   <td colname="col2"> <p> Color de relleno de la región del mapa de imagen. </p> <p>Se especifica en formato #RGGBB, RGB(R,G,B) o RGBA(R,G,B,A). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p> Color de relleno de la región del mapa de imagen. </p> <p>Especificado en formato #RRGGBB, RGB(R,G,B) o RGBA(R,G,B,A). </p> </td> 
+   <td colname="col2"> <p> Color de relleno de la región del mapa de imagen. </p> <p>Se especifica en formato #RGGBB, RGB(R,G,B) o RGBA(R,G,B,A). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> borde </span> </p> </td> 
-   <td colname="col2"> <p> Estilo del borde de la región del mapa de imagen. </p> <p>Se especifica como <span class="codeph"> <span class="varname"> ancho </span> sólido <span class="varname"> color </span> </span>, donde <span class="codeph"> <span class="varname"> ancho </span> </span> se expresa en píxeles y <span class="codeph"> <span class="varname"> color </span> </span> se establece como #RRGGBB, RGB(R,G,B) o RGBA(R,G,B,A). </p> </td> 
+   <td colname="col2"> <p> Estilo del borde de la región del mapa de imágenes. </p> <p>Especificado como <span class="codeph"> <span class="varname"> ancho </span> color sólido <span class="varname"> </span> </span>, donde <span class="codeph"> <span class="varname"> ancho </span> </span> se expresa en píxeles y <span class="codeph"> <span class="varname"> color </span> </span> está configurado como #RGGBB, RGB(R,G,B) o RGBA(R,G,B,A). </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ejemplo: configure una región de mapa de imagen transparente con un borde negro de `1` píxeles:
+Ejemplo: configuración de una región de mapa de imagen transparente con `1` borde negro de píxeles :
 
 ```
 .s7ecatalogviewer .s7imagemapeffect .s7region { 
