@@ -1,15 +1,16 @@
 ---
-description: Tiempo de espera predeterminado de la caché del cliente. Proporciona un intervalo de caducidad predeterminado en caso de que un registro de catálogo en particular no contenga un valor de caducidad de catálogo válido.
-seo-description: Tiempo de espera predeterminado de la caché del cliente. Proporciona un intervalo de caducidad predeterminado en caso de que un registro de catálogo en particular no contenga un valor de caducidad de catálogo válido.
+description: Tiempo de vida predeterminado de la caché del cliente. Proporciona un intervalo de caducidad predeterminado en caso de que un registro de catálogo en particular no contenga un valor de caducidad de catálogo válido.
+seo-description: Tiempo de vida predeterminado de la caché del cliente. Proporciona un intervalo de caducidad predeterminado en caso de que un registro de catálogo en particular no contenga un valor de caducidad de catálogo válido.
 seo-title: Vencimiento
 solution: Experience Manager
 title: Vencimiento
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 26b2abee-8bd1-4011-90ff-f5143826ac0d
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '152'
 ht-degree: 4%
 
 ---
@@ -17,15 +18,15 @@ ht-degree: 4%
 
 # Caducidad{#expiration}
 
-Tiempo de espera predeterminado de la caché del cliente. Proporciona un intervalo de caducidad predeterminado en caso de que un registro de catálogo en particular no contenga un valor de catálogo válido::Expiration.
+Tiempo de vida predeterminado de la caché del cliente. Proporciona un intervalo de caducidad predeterminado en caso de que un registro de catálogo en particular no contenga un valor de catálogo válido::Expiration .
 
 ## Propiedades {#section-063be3b2f13a48a3a5ab8080718e9812}
 
-Número real, 0 o bueno. Número de horas hasta la caducidad desde que se generaron los datos de respuesta. Establezca el valor 0 para que la imagen de respuesta caduque siempre inmediatamente, lo que deshabilita el almacenamiento en caché del cliente. Establezca en -1 para marcar como `never expire`.
+Número real, 0 o bueno. Número de horas hasta la caducidad desde que se generaron los datos de respuesta. Establézcalo en 0 para que siempre caduque la imagen de respuesta inmediatamente, lo que deshabilita efectivamente el almacenamiento en caché del cliente. Configúrelo en -1 para marcar como `never expire`.
 
 ## Predeterminado {#section-f55308b195c04083996f6717c8537634}
 
-Se hereda de `default::Expiration` si no está definida o si está vacía.
+Se hereda de `default::Expiration` si no está definido o si está vacío.
 
 TTL (Tiempo de vida) es la duración antes de que caduque la caché. El TTL predeterminado es de 10 horas.
 
