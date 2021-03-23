@@ -1,15 +1,16 @@
 ---
-description: Establece los campos de metadatos del perfil ICC.
-seo-description: Establece los campos de metadatos del perfil ICC.
+description: Establece los campos de metadatos de perfil ICC.
+seo-description: Establece los campos de metadatos de perfil ICC.
 seo-title: batchSetIccProfileFields
 solution: Experience Manager
 title: batchSetIccProfileFields
-topic: Dynamic Media Image Production System API
 uuid: 163b9b36-85b6-4880-8029-8421b04f4a08
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '150'
 ht-degree: 13%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 13%
 
 # batchSetIccProfileFields{#batchseticcprofilefields}
 
-Establece los campos de metadatos del perfil ICC.
+Establece los campos de metadatos de perfil ICC.
 
 Sintaxis
 
@@ -36,8 +37,8 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Gestionar la compañía que contiene los perfiles ICC. |
-| `*`actualizar matriz`*` | `xsd:string` | Sí | Matriz de actualizaciones de perfil ICC. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Gestione a la empresa que contiene los perfiles ICC. |
+| `*`actualizar matriz`*` | `xsd:string` | Sí | Matriz de actualizaciones de perfiles ICC. |
 
 **Salida (batchSetIccProfileFields)**
 
@@ -46,8 +47,8 @@ Sintaxis
 | `*`successCount`*` | `xsd:int` | Sí | Número de campos de perfil ICC establecidos correctamente. |
 | `*`warningCount`*` | `xsd:int` | Sí | Número de advertencias generadas cuando la operación intentó establecer los campos de perfil ICC. |
 | `*`errorCount`*` | `xsd:int` | Sí | Número de errores generados cuando la operación intentó establecer los campos de perfil ICC. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados a los recursos que generaron advertencias cuando la operación intentó aplicar las actualizaciones. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | No | Matriz de detalles asociada con los recursos que generaron errores cuando la operación intentó aplicar las actualizaciones. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados con los recursos que generaron advertencias cuando la operación intentó aplicar las actualizaciones. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados con los recursos que generaron errores cuando la operación intentó aplicar las actualizaciones. |
 
 ## Ejemplos {#section-5dc90cfbd9b1411485b44859032f7cb9}
 
