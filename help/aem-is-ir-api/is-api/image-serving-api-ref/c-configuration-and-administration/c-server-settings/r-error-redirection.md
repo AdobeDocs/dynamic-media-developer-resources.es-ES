@@ -4,12 +4,13 @@ seo-description: Utilice esta configuración del servidor para redirigir los err
 seo-title: Redirección de errores
 solution: Experience Manager
 title: Redirección de errores
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b2c2f725-98c3-44a4-8f50-2ca4da7f2156
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -21,11 +22,11 @@ Utilice esta configuración del servidor para redirigir los errores.
 
 >[!NOTE]
 >
->Los caracteres de tubería (|) en la ruta de acceso de red no son compatibles para la redirección de errores.
+>Los caracteres de tubería (|) en la ruta de acceso neta no son compatibles con la redirección de errores.
 
 ## PS::errorRedirect.rootUrl - Servidor de redireccionamiento {#section-85f22e48d68842a490b0e1191543b558}
 
-La dirección URL raíz ( [!DNL HTTP:// *[!DNL domain]*[: *[!DNL port]*]) para la implementación secundaria del servicio de imágenes a la que se deben redirigir las solicitudes que fallan localmente. La redirección de errores está deshabilitada (predeterminada) cuando esta configuración está vacía o no está definida.
+La URL raíz ( [!DNL HTTP:// *[!DNL domain]*[: *[!DNL port]*]] para la implementación secundaria de Image Serving a la que se deben redirigir las solicitudes que fallan localmente. El redireccionamiento de errores está desactivado (predeterminado) cuando esta configuración está vacía o no está definida.
 
 ## PS::errorRedirect.connectTimeout - Tiempo de espera de conexión de redireccionamiento {#section-3971be8f720d4b32a2cc7860b4085971}
 
