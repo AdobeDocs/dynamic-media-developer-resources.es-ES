@@ -1,23 +1,24 @@
 ---
-description: Archivo jerárquico u objeto de almacenamiento de recursos. Las carpetas pueden contener una o varias subcarpetas.
-seo-description: Archivo jerárquico u objeto de almacenamiento de recursos. Las carpetas pueden contener una o varias subcarpetas.
+description: Archivo jerárquico u objeto de almacenamiento de recursos. Las carpetas pueden contener una o más subcarpetas.
+seo-description: Archivo jerárquico u objeto de almacenamiento de recursos. Las carpetas pueden contener una o más subcarpetas.
 seo-title: Carpeta
 solution: Experience Manager
 title: Carpeta
-topic: Dynamic Media Image Production System API
 uuid: 8ba8d9cb-c4e5-423c-b8cb-ba8751952771
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 10%
+source-wordcount: '93'
+ht-degree: 9%
 
 ---
 
 
 # Carpeta{#folder}
 
-Archivo jerárquico u objeto de almacenamiento de recursos. Las carpetas pueden contener una o varias subcarpetas.
+Archivo jerárquico u objeto de almacenamiento de recursos. Las carpetas pueden contener una o más subcarpetas.
 
 Sintaxis
 
@@ -28,8 +29,8 @@ Sintaxis
 | `*`folderHandle`*` | `xsd:string` | Identificador de carpeta. |
 | `*`ruta`*` | `xsd:string` | Ruta de carpeta. |
 | `*`lastModified`*` | `xsd:dateTime` | Fecha de la última modificación. |
-| `*`childLastModified`*` | `xsd:dateTime` | Fecha de la última modificación para subcarpetas y recursos secundarios de carpetas. |
-| `*`permissionsSetHandle`*` | `xsd:string` | Identificador de permisos de carpetas. |
+| `*`childLastModified`*` | `xsd:dateTime` | Fecha de la última modificación para subcarpetas y recursos secundarios de carpeta. |
+| `*`permissionsSetHandle`*` | `xsd:string` | Identificador de permisos de carpeta. |
 | `*`hasSubfolder`*` | `types:Boolean` | Determina si una carpeta tiene subcarpetas. |
 | `*`subfolderArray`*` | `types:FolderArray` | Matriz de subcarpetas de una carpeta. |
 
