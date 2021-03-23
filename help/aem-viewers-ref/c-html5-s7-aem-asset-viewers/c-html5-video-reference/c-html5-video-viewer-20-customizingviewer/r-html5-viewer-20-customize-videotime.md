@@ -4,12 +4,13 @@ seo-description: La hora del vídeo es la visualización numérica que muestra l
 seo-title: Tiempo de vídeo
 solution: Experience Manager
 title: Tiempo de vídeo
-topic: Dynamic Media
 uuid: a15b069a-18c8-428f-ac6f-ab5aeda65f4d
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '224'
 ht-degree: 2%
 
 ---
@@ -21,7 +22,7 @@ La hora del vídeo es la visualización numérica que muestra la hora y la durac
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Entre las propiedades que puede controlar CSS se encuentran la familia de fuentes de vídeo, el tamaño de fuente y el color de fuente. También puede colocarse, en relación con la barra de control que la contiene, mediante CSS.
+La familia de fuentes de tiempo de vídeo, el tamaño de fuente y el color de fuente están entre las propiedades que puede controlar CSS. También se puede posicionar, en relación con la barra de control que la contiene, mediante CSS.
 
 El aspecto del tiempo de vídeo se controla con el siguiente selector de clase CSS:
 
@@ -29,7 +30,7 @@ El aspecto del tiempo de vídeo se controla con el siguiente selector de clase C
 .s7videoviewer .s7videotime
 ```
 
-## Propiedades CSS del tiempo de vídeo {#css-properties-of-video-time}
+## Propiedades CSS de tiempo de vídeo {#css-properties-of-video-time}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -43,26 +44,26 @@ El aspecto del tiempo de vídeo se controla con el siguiente selector de clase C
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> Ancho del control de tiempo del vídeo. Esta propiedad es necesaria para que Internet Explorer 8 o bueno funcionen correctamente. </p> </td> 
+   <td colname="col2"> <p> Ancho del control de tiempo del vídeo. Esta propiedad es necesaria para que Internet Explorer 8 o bueno funcione correctamente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
-   <td colname="col2"> <p>Familia de fuentes que se va a utilizar para mostrar el texto durante el tiempo. </p> </td> 
+   <td colname="col2"> <p>La familia de fuentes que se usará para el texto de visualización de la hora. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
-   <td colname="col2"> <p>El tamaño de fuente que se va a utilizar para mostrar el texto durante el tiempo. </p> </td> 
+   <td colname="col2"> <p>El tamaño de fuente que se utilizará para el texto de visualización de la hora. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>El color de fuente que se usará para mostrar el texto durante el tiempo. </p> </td> 
+   <td colname="col2"> <p>Color de fuente que se usará para el texto de visualización de la hora. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Ejemplo {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Establezca el tiempo del vídeo en gris claro (hexadecimal `#BBBBBB`), con un tamaño de 12 píxeles, situado 15 píxeles desde la parte superior de la barra de control y 80 píxeles desde los bordes derechos de la barra de control.
+Establezca el tiempo de vídeo en gris claro (hexadecimal `#BBBBBB`), con un tamaño de 12 píxeles, posicione 15 píxeles desde la parte superior de la barra de control y 80 píxeles desde los bordes derechos de la barra de control.
 
 ```
 .s7videoviewer .s7videotime { 
