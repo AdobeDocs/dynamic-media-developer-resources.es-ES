@@ -1,21 +1,22 @@
 ---
 description: Utilizado por PhotoshopOptions/layerNaming.
 seo-description: Utilizado por PhotoshopOptions/layerNaming.
-seo-title: Modos de nombres de capas de Photoshop
+seo-title: Modos de nomenclatura de capas de Photoshop
 solution: Experience Manager
-title: Modos de nombres de capas de Photoshop
-topic: Dynamic Media Image Production System API
+title: Modos de nomenclatura de capas de Photoshop
 uuid: bade8ee9-766f-4c03-88d4-4d54faecd40e
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '26'
-ht-degree: 7%
+source-wordcount: '33'
+ht-degree: 6%
 
 ---
 
 
-# Modos de nombres de capas de Photoshop{#photoshop-layer-naming-modes}
+# Modos de nomenclatura de capas de Photoshop{#photoshop-layer-naming-modes}
 
 Utilizado por PhotoshopOptions/layerNaming.
 
