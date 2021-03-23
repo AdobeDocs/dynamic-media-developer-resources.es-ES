@@ -4,13 +4,14 @@ seo-description: Obtiene todos los ajustes de configuración del visor asociados
 seo-title: getViewerConfigSettings
 solution: Experience Manager
 title: getViewerConfigSettings
-topic: Dynamic Media Image Production System API
 uuid: 61fe16de-ac72-472b-8945-f1ebe8b4d11c
+feature: Dynamic Media Classic,SDK/API,ajustes preestablecidos de visor
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 18%
+source-wordcount: '88'
+ht-degree: 17%
 
 ---
 
@@ -34,13 +35,13 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Manejar a la compañía. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Gestionar a la empresa. |
 | `*`assetHandle`*` | `xsd:string` | Sí | Gestionar en el recurso. |
 
 **Salida (getViewerCoinfigSettingsReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`type`*` | `xsd:string` | Sí | Tipo de visor al que se aplican las opciones de configuración. |
-| `*`configSettingsArray`*` | `types:ConfigSettingsArray` | Sí | Matriz de los ajustes de configuración del visor. |
+| `*`type`*` | `xsd:string` | Sí | Tipo de visor al que se aplican los ajustes de configuración. |
+| `*`configSettingsArray`*` | `types:ConfigSettingsArray` | Sí | Matriz de ajustes de configuración del visor. |
 
