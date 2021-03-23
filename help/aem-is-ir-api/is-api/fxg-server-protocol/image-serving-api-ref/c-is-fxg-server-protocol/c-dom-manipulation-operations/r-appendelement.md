@@ -4,12 +4,13 @@ seo-description: Anexe XML a un elementID de s7.
 seo-title: appendElement
 solution: Experience Manager
 title: appendElement
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 062c8288-4517-42a1-9f9f-f3c7bbb4b63b
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '72'
 ht-degree: 1%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 1%
 
 # appendElement{#appendelement}
 
-Anexe XML a un ID de elemento de s7.
+Anexe XML a s7:elementID.
 
 `appendElement.elementID=<XML>`
 
-Si un elemento de nodo FXG tiene definida una `s7:elementID`, el valor `<XML>` se anexa como un elemento secundario. El `<XML>` debe estar codificado.
+Si un elemento de nodo FXG tiene un `s7:elementID` definido, el valor `<XML>` se anexa como elemento secundario. El `<XML>` debe estar codificado.
 
 ## Ejemplo {#section-4368570aa198485d91b73b4d0741478f}
 
