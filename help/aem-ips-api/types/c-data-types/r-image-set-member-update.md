@@ -1,15 +1,16 @@
 ---
-description: 'Dentro de este tipo, el campo pageReset es significativo para los tipos de recursos de imagen RenderSet y Catalog '
-seo-description: 'Dentro de este tipo, el campo pageReset es significativo para los tipos de recursos de imagen RenderSet y Catalog '
+description: 'Dentro de este tipo, el campo pageReset es significativo para los tipos de recursos de imagen RenderSet y Catálogo '
+seo-description: 'Dentro de este tipo, el campo pageReset es significativo para los tipos de recursos de imagen RenderSet y Catálogo '
 seo-title: ImageSetMemberUpdate
 solution: Experience Manager
 title: ImageSetMemberUpdate
-topic: Dynamic Media Image Production System API
 uuid: b0226d21-87ba-4e07-9819-79c9df3df13c
+feature: Dynamic Media Classic,SDK/API,Conjuntos de imágenes
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '127'
 ht-degree: 6%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 6%
 
 # ImageSetMemberUpdate{#imagesetmemberupdate}
 
-Dentro de este tipo, el campo pageReset es significativo para los tipos de recursos de imagen RenderSet y Catalog:
+Dentro de este tipo, el campo pageReset es significativo para los tipos de recursos de imagen RenderSet y Catálogo:
 
-* Para `RenderSet`, `pageReset` indica el inicio de una nueva vista de procesamiento o grupo de muestras.
+* Para `RenderSet`, `pageReset` indica el inicio de una nueva vista de procesamiento/grupo de muestras.
 
-* En Catálogo, `pageReset` indica el inicio de una nueva vista de página. Normalmente, hay dos imágenes de página por vista de página, pero puede haber más o menos.
+* Para Catálogo, `pageReset` indica el inicio de una nueva vista de página. Normalmente, hay 2 imágenes de página por vista de página, pero puede tener más o menos.
 
 ## Parámetros {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -37,12 +38,12 @@ Dentro de este tipo, el campo pageReset es significativo para los tipos de recur
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Identificador de recurso en la matriz de miembros del conjunto de imágenes. </td> 
+   <td colname="col3"> Controlador de recurso en la matriz de miembros del conjunto de imágenes. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> pageReset</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">Restaura la página. <p>Se omite la configuración y se fuerza el valor a true para <span class="codeph"> ImageSet</span> y <span class="codeph"> SpinSet</span>. </p></td> 
+   <td colname="col3">Restaura la página. <p>Se ignora la configuración y se fuerza el valor a true para <span class="codeph"> ImageSet</span> y <span class="codeph"> SpinSet</span>. </p></td> 
   </tr> 
  </tbody> 
 </table>
