@@ -1,15 +1,16 @@
 ---
-description: Esta página contiene varios ejemplos de Image Server.
-seo-description: Esta página contiene varios ejemplos de Image Server.
+description: Esta página vincula varios ejemplos de Image Server.
+seo-description: Esta página vincula varios ejemplos de Image Server.
 seo-title: Ejemplos de Image Server
 solution: Experience Manager
 title: Ejemplos de Image Server
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0db0350f-017b-43d8-8dbb-69234b21a747
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '143'
 ht-degree: 5%
 
 ---
@@ -17,9 +18,9 @@ ht-degree: 5%
 
 # Ejemplos de Image Server{#image-server-examples}
 
-Esta página contiene varios ejemplos de Image Server.
+Esta página vincula varios ejemplos de Image Server.
 
-* [ajuste1](http://crc.scene7.com/is-docs/examples/adjust1.htm)
+* [ajustar1](http://crc.scene7.com/is-docs/examples/adjust1.htm)
 * [ajustar2](http://crc.scene7.com/is-docs/examples/adjust2.htm)
 * [avanzado](http://crc.scene7.com/is-docs/examples/advanced.htm)
 * [anclajes](http://crc.scene7.com/is-docs/examples/anchors.htm)
@@ -31,6 +32,6 @@ Esta página contiene varios ejemplos de Image Server.
 * [svg](http://crc.scene7.com/is-docs/examples/svg.htm)
 * [plantillas](http://crc.scene7.com/is-docs/examples/templates.htm)
 * [texto](http://crc.scene7.com/is-docs/examples/text.htm)
-* [Calidad de vista](http://crc.scene7.com/is-docs/examples/view-quality.htm)
-* [Tamaño de vista](http://crc.scene7.com/is-docs/examples/view-size.htm)
+* [calidad de visualización](http://crc.scene7.com/is-docs/examples/view-quality.htm)
+* [view-size](http://crc.scene7.com/is-docs/examples/view-size.htm)
 
