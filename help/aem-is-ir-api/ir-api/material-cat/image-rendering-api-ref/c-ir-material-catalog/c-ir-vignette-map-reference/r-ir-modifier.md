@@ -1,15 +1,16 @@
 ---
-description: Cadena del modificador Request. Ninguno o más comandos de procesamiento de imágenes separados por caracteres '&'. Se utiliza para almacenar plantillas y modificadores que se deben aplicar cada vez que se realiza una solicitud para esta entrada de mapa de viñetas.
-seo-description: Cadena del modificador Request. Ninguno o más comandos de procesamiento de imágenes separados por caracteres '&'. Se utiliza para almacenar plantillas y modificadores que se deben aplicar cada vez que se realiza una solicitud para esta entrada de mapa de viñetas.
+description: Cadena del modificador de solicitud. Ninguno o varios comandos de renderización de imágenes separados por caracteres "&". Se utiliza para almacenar plantillas y modificadores que se deben aplicar cada vez que se realiza una solicitud para esta entrada de mapa de viñetas.
+seo-description: Cadena del modificador de solicitud. Ninguno o varios comandos de renderización de imágenes separados por caracteres "&". Se utiliza para almacenar plantillas y modificadores que se deben aplicar cada vez que se realiza una solicitud para esta entrada de mapa de viñetas.
 seo-title: Modificador
 solution: Experience Manager
 title: Modificador
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 725724dd-b664-4d43-8072-a79ea7e7fcce
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '140'
 ht-degree: 5%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 5%
 
 # Modificador{#modifier}
 
-Cadena del modificador Request. Ninguno o más comandos de procesamiento de imágenes separados por caracteres &#39;&amp;&#39;. Se utiliza para almacenar plantillas y modificadores que se deben aplicar cada vez que se realiza una solicitud para esta entrada de mapa de viñetas.
+Cadena del modificador de solicitud. Ninguno o varios comandos de renderización de imágenes separados por caracteres &quot;&amp;&quot;. Se utiliza para almacenar plantillas y modificadores que se deben aplicar cada vez que se realiza una solicitud para esta entrada de mapa de viñetas.
 
 Los comandos de este campo se anulan con los mismos comandos de la solicitud o plantilla desde la que se hace referencia a este registro.
 
