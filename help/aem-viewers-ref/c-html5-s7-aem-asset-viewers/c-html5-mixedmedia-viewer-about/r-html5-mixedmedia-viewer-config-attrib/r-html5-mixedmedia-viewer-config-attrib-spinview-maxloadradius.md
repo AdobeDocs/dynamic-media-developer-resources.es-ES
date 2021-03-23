@@ -1,15 +1,16 @@
 ---
-description: Representa el número máximo de fotogramas que se van a cargar previamente en cada dirección cuando la vista de giros está inactiva.
-seo-description: Representa el número máximo de fotogramas que se van a cargar previamente en cada dirección cuando la vista de giros está inactiva.
+description: Representa el número máximo de fotogramas que se van a precargar en cada dirección cuando SpinView está inactivo.
+seo-description: Representa el número máximo de fotogramas que se van a precargar en cada dirección cuando SpinView está inactivo.
 seo-title: SpinView.maxloadradius
 solution: Experience Manager
 title: SpinView.maxloadradius
-topic: Dynamic Media
 uuid: e1b9fa84-837c-465e-8d37-0b6867404cae
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '181'
 ht-degree: 2%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 2%
 
 # SpinView.maxloadradius{#spinview-maxloadradius}
 
-Representa el número máximo de fotogramas que se van a cargar previamente en cada dirección cuando la vista de giros está inactiva.
+Representa el número máximo de fotogramas que se van a precargar en cada dirección cuando SpinView está inactivo.
 
 ` [SpinView.|<containerId>_spinView.]maxloadradius= *``*[, *`valuehighRes`*]`
 
@@ -29,7 +30,7 @@ Representa el número máximo de fotogramas que se van a cargar previamente en c
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> highRes</span></span> </p> </td> 
-   <td colname="col2"> <p> Controla la calidad de los marcos precargados. </p> <p>Cuando se establece en <span class="codeph"> 1</span>, los fotogramas se cargan en alta calidad, coincidiendo con el tamaño del componente. </p> <p>Cuando se establece en <span class="codeph"> 0</span> sólo se carga el mosaico de previsualización de baja resolución. </p> <p>La precarga en alta resolución mejora la experiencia del usuario final, especialmente cuando está activado el giro automático. Al mismo tiempo, se traduce en un menor tiempo de inicio y un mayor consumo de red, por lo que debe utilizarse con cuidado. Cuando se utiliza la precarga de alta resolución, los fotogramas precargados siempre tienen la resolución original en la que se cargó inicialmente el componente. </p> </td> 
+   <td colname="col2"> <p> Controla la calidad de los fotogramas precargados. </p> <p>Cuando se establece en <span class="codeph"> 1</span>, los fotogramas se cargan en alta calidad, coincidiendo con el tamaño del componente. </p> <p>Cuando se establece en <span class="codeph"> 0</span> solo se carga el mosaico de vista previa de baja resolución. </p> <p>La precarga en alta resolución mejora la experiencia del usuario final, especialmente cuando el giro automático está habilitado. Al mismo tiempo, resulta en un tiempo de inicio más lento y un mayor consumo de red, por lo que debe utilizarse con cuidado. Cuando se utiliza la precarga de alta resolución, los fotogramas precargados siempre se encuentran en la resolución original en la que se cargó inicialmente el componente. </p> </td> 
   </tr> 
  </tbody> 
 </table>
