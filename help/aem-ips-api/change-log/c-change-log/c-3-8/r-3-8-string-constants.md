@@ -1,23 +1,24 @@
 ---
-description: Describe constantes de cadena nuevas y modificadas para la API de IPS versión 3.8.
-seo-description: Describe constantes de cadena nuevas y modificadas para la API de IPS versión 3.8.
+description: Describe las constantes de cadena nuevas y cambiadas para la versión 3.8 de la API IPS.
+seo-description: Describe las constantes de cadena nuevas y cambiadas para la versión 3.8 de la API IPS.
 seo-title: Constantes de cadena nuevas y modificadas
 solution: Experience Manager
 title: Constantes de cadena nuevas y modificadas
-topic: Dynamic Media Image Production System API
 uuid: 4cdfdff7-9cea-4ae1-925b-ce6cfc51c151
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 4%
+source-wordcount: '79'
+ht-degree: 3%
 
 ---
 
 
 # Constantes de cadena: Nuevo y modificado{#string-constants-new-and-modified}
 
-Describe constantes de cadena nuevas y modificadas para la API de IPS versión 3.8.
+Describe las constantes de cadena nuevas y cambiadas para la versión 3.8 de la API IPS.
 
 Sintaxis
 
