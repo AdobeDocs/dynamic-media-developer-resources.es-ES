@@ -1,23 +1,24 @@
 ---
-description: Prefijo URL del servidor de flujo de Apple. Prefijo de URL del servidor de flujo de Apple que se utiliza al generar respuestas m3u8 de velocidad de bits múltiple con req=mbrSet.
-seo-description: Prefijo URL del servidor de flujo de Apple. Prefijo de URL del servidor de flujo de Apple que se utiliza al generar respuestas m3u8 de velocidad de bits múltiple con req=mbrSet.
+description: Prefijo URL del servidor de flujo continuo de Apple. Prefijo URL del servidor de transmisión de Apple que se utiliza al generar respuestas m3u8 de velocidad de bits múltiple con req=mbrSet.
+seo-description: Prefijo URL del servidor de flujo continuo de Apple. Prefijo URL del servidor de transmisión de Apple que se utiliza al generar respuestas m3u8 de velocidad de bits múltiple con req=mbrSet.
 seo-title: HttpAppleStreamingContext
 solution: Experience Manager
 title: HttpAppleStreamingContext
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e333c24b-b48f-439f-aa86-d223b533b9b6
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 6%
+source-wordcount: '90'
+ht-degree: 5%
 
 ---
 
 
 # HttpAppleStreamingContext{#httpapplestreamingcontext}
 
-Prefijo URL del servidor de flujo de Apple. Prefijo de URL del servidor de flujo de Apple que se utiliza al generar respuestas m3u8 de velocidad de bits múltiple con req=mbrSet.
+Prefijo URL del servidor de flujo continuo de Apple. Prefijo URL del servidor de transmisión de Apple que se utiliza al generar respuestas m3u8 de velocidad de bits múltiple con req=mbrSet.
 
 ## Propiedades {#properties}
 
