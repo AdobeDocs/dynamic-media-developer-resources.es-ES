@@ -1,21 +1,22 @@
 ---
 description: Cambia el nombre de una carpeta.
 seo-description: Cambia el nombre de una carpeta.
-seo-title: RenameFolder
+seo-title: filenameFolder
 solution: Experience Manager
-title: RenameFolder
-topic: Dynamic Media Image Production System API
+title: filenameFolder
 uuid: 7d190a57-1d81-4f41-9205-b8ffdf7330ec
+feature: Dynamic Media Classic,SDK/API,Administración de activos
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 21%
+source-wordcount: '88'
+ht-degree: 19%
 
 ---
 
 
-# RenameFolder{#renamefolder}
+# filenameFolder{#renamefolder}
 
 Cambia el nombre de una carpeta.
 
@@ -36,19 +37,19 @@ Sintaxis
 
 ## Parámetros {#section-6fcee63dc3f74a5b90e1d71e59eb255c}
 
-**Entrada (cambiar el nombre de FolderParam)**
+**Entrada (cambiar nombre de parámetro de carpeta)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Administre la compañía con las carpetas cuyo nombre desee cambiar. |
-| `*`folderHandle`*` | `xsd:string` | Sí | Gestionar en la carpeta. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Gestione a la empresa las carpetas a las que desee cambiar el nombre. |
+| `*`folderHandle`*` | `xsd:string` | Sí | Gestione en la carpeta . |
 | `*`folderName`*` | `xsd:string` | Sí | Nuevo nombre de carpeta. |
 
-**Output (RenameFolderReturn)**
+**Salida (filenameFolderReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`folderHandle`*` | `xsd:string` | Sí | Gestionar en la carpeta cuyo nombre ha cambiado. |
+| `*`folderHandle`*` | `xsd:string` | Sí | Gestione en la carpeta con el nombre cambiado. |
 
 ## Ejemplos {#section-98bdd2f88d164f488676e90aba1dc864}
 
