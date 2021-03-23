@@ -4,12 +4,13 @@ seo-description: Alineación vertical para miniaturas. Especifica la alineación
 seo-title: ThumbVertAlign
 solution: Experience Manager
 title: ThumbVertAlign
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a90281eb-9681-4b4a-a94b-663f007fb32f
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '124'
 ht-degree: 3%
 
 ---
@@ -19,15 +20,15 @@ ht-degree: 3%
 
 Alineación vertical para miniaturas. Especifica la alineación vertical de la imagen en miniatura en el rectángulo de imagen de respuesta especificado por wid= y hei= o por atributo::DefaultThumbPix.
 
-Solo se utiliza para solicitudes en miniatura ( `req=tmb`).
+Solo se utiliza para solicitudes de miniaturas ( `req=tmb`).
 
 ## Propiedades {#section-f02c23248e87419caf3d95add51aea1e}
 
-Enum. Los valores permitidos son 1, 2 y 3 para la alineación superior, central e inferior, respectivamente.
+Enum. Los valores permitidos son 1, 2 y 3, para alineación superior, central e inferior, respectivamente.
 
 ## Predeterminado {#section-30caa4e772254419ad7a3a89d440666c}
 
-Se hereda de `default::ThumbHorizAlign` si no está definida o si está vacía.
+Se hereda de `default::ThumbHorizAlign` si no está definido o si está vacío.
 
 ## Véase también {#section-c4cd5209d994498eb56a78fcd5bbdfa4}
 
