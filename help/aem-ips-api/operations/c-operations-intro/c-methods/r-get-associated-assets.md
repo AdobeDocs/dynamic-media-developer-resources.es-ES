@@ -4,13 +4,14 @@ seo-description: Obtiene recursos asociados a un recurso especificado y detalles
 seo-title: getAssociatedAssets
 solution: Experience Manager
 title: getAssociatedAssets
-topic: Dynamic Media Image Production System API
 uuid: 70c2f8aa-9104-42b0-b85b-14f90f1ead52
+feature: Dynamic Media Classic,SDK/API,Administración de activos
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 8%
+source-wordcount: '429'
+ht-degree: 7%
 
 ---
 
@@ -51,7 +52,7 @@ Sintaxis
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sí </p> </td> 
-   <td colname="col4"> <p>Gestionar en la compañía que posee el recurso. </p> </td> 
+   <td colname="col4"> <p>Gestionar en la empresa propietaria del recurso. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span> </span> </p> </td> 
@@ -63,13 +64,13 @@ Sintaxis
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipos:StringArray</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Matriz de campos de respuesta que desee. Consulte response- FieldArray/excludeFieldArray en Introducción. </p> </td> 
+   <td colname="col4"> <p>Matriz de campos de respuesta deseados. Consulte response- FieldArray/excludeFieldArray en la Introducción. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> excludeFieldArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipos:StringArray</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Matriz de campos de respuesta excluidos. Consulte response- FieldArray/excludeFieldArray en Introducción. </p> </td> 
+   <td colname="col4"> <p>Matriz de campos de respuesta excluidos. Consulte response- FieldArray/excludeFieldArray en la Introducción. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -90,19 +91,19 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> containerArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:AssetArray</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Matriz de conjuntos y elementos de plantilla que contienen el recurso que se va a recopilar. </p> </td> 
+   <td colname="col4"> <p>Matriz de conjuntos y recursos de plantilla que contiene el recurso que se va a poner en práctica. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> miembroArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:AssetArray</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Matriz de recursos incluidos en el conjunto o recurso de plantilla especificado. </p> </td> 
+   <td colname="col4"> <p>Matriz de recursos contenida en el conjunto o recurso de plantilla especificado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> layerReferenceArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:AssetArray</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Matriz de recursos a los que se hace referencia en una URL de capa o plantilla. </p> </td> 
+   <td colname="col4"> <p>Matriz de recursos a los que se hace referencia en una capa o en una URL de plantilla. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> ownerArray</span> </span> </td> 
@@ -111,7 +112,7 @@ Sintaxis
    <td colname="col4"> <p>Matriz de recursos que son propietarios del recurso especificado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> calculatedArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> derivadaArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:AssetArray</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
    <td colname="col4"> <p>Matriz de recursos que se utilizaron para generar el recurso especificado. </p> </td> 
@@ -120,28 +121,28 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> generatorArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:GenerationInfoArray</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>El <span class="codeph"> generadorArray</span> lista la forma en que se creó este recurso. Por ejemplo, si <span class="codeph"> assetHandler</span> era una página de imágenes de un PDF, contendría la herramienta de procesador PDF y haría referencia al recurso PdfFile. </p> </td> 
+   <td colname="col4"> <p>El <span class="codeph"> generatorArray</span> enumera la forma en que se creó este recurso. Por ejemplo, si <span class="codeph"> assetHandler</span> era una página de imagen de un PDF, contendría la herramienta de procesador PDF y haría referencia al recurso PdfFile. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> generateArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> generatedArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:GenerationInfoArray</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>El <span class="codeph"> conjunto generado</span> invierte la forma en que se creó este recurso. Por ejemplo, <span class="codeph"> generateArray</span> podría contener la lista de imágenes generadas a partir de este <span class="codeph"> AssetHandler</span> si se trata de un recurso PdfFile. </p> </td> 
+   <td colname="col4"> <p>El <span class="codeph"> generatedArray</span> invierte la forma en que se creó este recurso. Por ejemplo, <span class="codeph"> generatedArray</span> podría contener la lista de imágenes generadas a partir de este <span class="codeph"> assetHandler</span> si se trata de un recurso PdfFile. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAsset</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:recurso</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>La información del recurso de miniatura asociada al recurso de solicitud. Si no se asigna ningún recurso de miniatura, el campo se omite en la respuesta. </p> </td> 
+   <td colname="col4"> <p>La información de recurso de la miniatura asociada al recurso de solicitud. Si no se asigna ningún recurso de miniatura, el campo se omite en la respuesta. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Puede utilizar los parámetros `responseFieldArray` o `excludeFieldArray` para limitar el tamaño de respuesta. En particular, los `GenerationInfo` elementos devueltos en `generatorArray` o `generatedArray` predeterminados incluyen tanto el iniciador como los registros de recursos generados. Para un tipo de recurso PDF, este comportamiento da como resultado varias copias no deseadas del registro de recursos PDF &quot;originador&quot; en la respuesta. Puede eliminar este problema agregando `generatedArray/items/originator` a `excludeFieldArray`. O bien, puede especificar una lista explícita de los campos de respuesta que desee incluir en `responseFieldArray`.
+Puede utilizar los parámetros `responseFieldArray` o `excludeFieldArray` para limitar el tamaño de respuesta. En concreto, los `GenerationInfo` elementos devueltos en `generatorArray` o `generatedArray` tienen el valor predeterminado de incluir tanto el iniciador como los registros de recursos generados. Para un tipo de recurso PDF, este comportamiento da como resultado varias copias no deseadas del registro de recursos PDF &quot;originador&quot; en la respuesta. Puede eliminar este problema añadiendo `generatedArray/items/originator` a `excludeFieldArray`. O bien, puede especificar una lista explícita de campos de respuesta que desea incluir en `responseFieldArray`.
 
 ## Ejemplos {#section-8946ea4b9cb94912a8408249c897f192}
 
-El siguiente ejemplo básico es una solicitud del identificador del generador para una imagen extraída de un PDF. Incluye un `containerArray` de longitud uno con un elemento que incluye el `assetHandle` del PDF.
+El siguiente ejemplo básico es una solicitud del identificador del generador de una imagen extraída de un PDF. Incluye un `containerArray` de longitud uno con un elemento que incluye el `assetHandle` del PDF.
 
 **Solicitar**
 
@@ -256,7 +257,7 @@ Lo contrario del ejemplo anterior es lo siguiente:
 </soapenv:Envelope>
 ```
 
-En el siguiente ejemplo, se agrega un grupo a una compañía con `groupHandleArray`. En este ejemplo solo se utiliza un grupo.
+En este ejemplo siguiente, se agrega un grupo a una empresa con `groupHandleArray`. Este ejemplo utiliza un solo grupo.
 
 **Solicitar**
 
