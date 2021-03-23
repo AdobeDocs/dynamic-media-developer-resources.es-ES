@@ -1,15 +1,16 @@
 ---
 description: El valor de resolución de una textura repetible u otro material define el tamaño de la imagen de material en el espacio de coordenadas de la escena.
 seo-description: El valor de resolución de una textura repetible u otro material define el tamaño de la imagen de material en el espacio de coordenadas de la escena.
-seo-title: Resolución de materiales
+seo-title: Resolución del material
 solution: Experience Manager
-title: Resolución de materiales
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Resolución del material
 uuid: 2c37d217-8d49-478e-88d1-7121d0f0419b
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
@@ -19,6 +20,6 @@ ht-degree: 0%
 
 El valor de resolución de una textura repetible u otro material define el tamaño de la imagen de material en el espacio de coordenadas de la escena.
 
-Los valores de resolución de la textura se especifican en píxeles por pulgada (o las unidades que la viñeta dicte para su espacio de coordenadas de la escena).
+Los valores de resolución de textura se especifican en píxeles por pulgada (o las unidades que dicte la viñeta para su espacio de coordenadas de la escena).
 
 La resolución del material se especifica con `res=`.
