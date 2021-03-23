@@ -4,12 +4,13 @@ seo-description: Propiedades de un recurso de imagen.
 seo-title: ImageInfo
 solution: Experience Manager
 title: ImageInfo
-topic: Dynamic Media Image Production System API
 uuid: 89138f10-c80b-49b8-886f-45b0960038b8
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '203'
 ht-degree: 21%
 
 ---
@@ -65,7 +66,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> width</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> <p>Ancho de la imagen en píxeles. </p> </td> 
+   <td colname="col3"> <p>Anchura de la imagen en píxeles. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> height</span> </span> </td> 
@@ -75,11 +76,11 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fileSize</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> <p>Tamaño de imagen en bytes. </p> </td> 
+   <td colname="col3"> <p>Tamaño de la imagen en bytes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> resolution</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:doble</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
    <td colname="col3"> <p>Píxeles por pulgada. </p> </td> 
   </tr> 
   <tr> 
@@ -88,7 +89,7 @@ Sintaxis
    <td colname="col3"> <p>ID del producto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> description</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> descripción</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Descripción de la imagen. </p> </td> 
   </tr> 
@@ -100,12 +101,12 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> userData</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Información del usuario asociada a la imagen (desaprobada). </p> </td> 
+   <td colname="col3"> <p>Información del usuario asociada a la imagen (obsoleta). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> anchorX</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> <p>Punto de anclaje horizontal en píxeles. </p> </td> 
+   <td colname="col3"> <p>Punto de ancla horizontal en píxeles. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> anchorY</span> </span> </td> 
@@ -120,12 +121,12 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> urlPostApplyModifier</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Parámetros concatenados al final del <span class="codeph"> urlModifier</span>. Formato de cadena de consulta lista de parámetros que son comandos para el servidor de imágenes. Los valores se encuentran en la guía del protocolo del servidor de imágenes. </p> </td> 
+   <td colname="col3"> <p>Parámetros concatenados al final del <span class="codeph"> urlModifier</span>. Consulta de la lista de parámetros que son comandos para el servidor de imágenes. Los valores se encuentran en la guía de protocolo del servidor de imágenes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> zoomTargets</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:ZoomTargetArray</span> </td> 
-   <td colname="col3"> <p>Matriz de destinatarios de zoom (5 máx.). </p> </td> 
+   <td colname="col3"> <p>Matriz de destinos de zoom (5 máx.). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> máscaras</span> </span> </td> 
@@ -135,7 +136,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageMaps</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:ImageMapsArray</span> </td> 
-   <td colname="col3"> <p>Matriz de mapas de imagen. </p> </td> 
+   <td colname="col3"> <p>Matriz de mapas de imágenes. </p> </td> 
   </tr> 
  </tbody> 
 </table>
