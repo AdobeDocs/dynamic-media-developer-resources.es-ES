@@ -2,12 +2,13 @@
 description: Describe los tipos de datos nuevos y modificados para la API de IPS versión 3.7.
 solution: Experience Manager
 title: Tipos de datos nuevos y modificados
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 7%
+source-wordcount: '46'
+ht-degree: 6%
 
 ---
 
