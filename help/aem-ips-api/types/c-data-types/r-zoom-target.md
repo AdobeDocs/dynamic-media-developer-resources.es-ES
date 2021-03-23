@@ -1,23 +1,24 @@
 ---
-description: Propiedades de un destinatario de zoom.
-seo-description: Propiedades de un destinatario de zoom.
+description: Propiedades de un destino de zoom.
+seo-description: Propiedades de un destino de zoom.
 seo-title: Destino de zoom
 solution: Experience Manager
 title: Destino de zoom
-topic: Dynamic Media Image Production System API
 uuid: 08a03140-c8cc-49d8-9575-ae153b3899c9
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 15%
+source-wordcount: '89'
+ht-degree: 14%
 
 ---
 
 
 # Destino de zoom{#zoomtarget}
 
-Propiedades de un destinatario de zoom.
+Propiedades de un destino de zoom.
 
 Sintaxis
 
@@ -25,13 +26,13 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| `*`zoomTargetHandle`*` | `xsd:string` | Control de destinatario de zoom. |
-| `*`name`*` | `xsd:string` | Nombre del destinatario de zoom. |
-| `*`xPosition`*` | `xsd:int` | Posición X del destinatario de zoom. |
-| `*`yPosition`*` | `xsd:int` | Posición Y del destinatario de zoom. |
-| `*`width`*` | `xsd:int` | Zoom de anchura de destinatario. |
-| `*`height`*` | `xsd:int` | Altura del destinatario de zoom. |
-| `*`Datos de usuario`*` | `xsd:string` | Datos de usuario asociados al destinatario de zoom. |
-| `*`position`*` | `xsd:int` | Permite ordenar los destinatarios de zoom asociados a un recurso en función de la posición |
+| `*`zoomTargetHandle`*` | `xsd:string` | Control de destino de zoom. |
+| `*`name`*` | `xsd:string` | Nombre del destino de zoom. |
+| `*`xPosition`*` | `xsd:int` | Posición X del destino de zoom. |
+| `*`yPosition`*` | `xsd:int` | La posición Y del destino de zoom. |
+| `*`width`*` | `xsd:int` | Zoom de la anchura de destino. |
+| `*`height`*` | `xsd:int` | Zoom de la altura de destino. |
+| `*`Datos de usuario`*` | `xsd:string` | Datos de usuario asociados al destino Zoom. |
+| `*`position`*` | `xsd:int` | Permite que los destinos de zoom asociados a un recurso se ordenen en función de la posición |
 | `*`lastModified`*` | `xsd:dateTime` | Fecha de la última modificación. |
 
