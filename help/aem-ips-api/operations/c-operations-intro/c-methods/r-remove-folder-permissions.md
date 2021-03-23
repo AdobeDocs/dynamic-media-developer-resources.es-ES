@@ -1,23 +1,24 @@
 ---
-description: Quita los permisos de la carpeta.
-seo-description: Quita los permisos de la carpeta.
+description: Quita los permisos de carpeta.
+seo-description: Quita los permisos de carpeta.
 seo-title: removeFolderPermissions
 solution: Experience Manager
 title: removeFolderPermissions
-topic: Dynamic Media Image Production System API
 uuid: cd9f7a42-e314-4ec9-abe2-a27581c7cd23
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 16%
+source-wordcount: '121'
+ht-degree: 15%
 
 ---
 
 
 # removeFolderPermissions{#removefolderpermissions}
 
-Quita los permisos de la carpeta.
+Quita los permisos de carpeta.
 
 Sintaxis
 
@@ -45,13 +46,13 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> Identificador de la compañía con las carpetas con permisos que desea quitar. </td> 
+   <td colname="col4"> El identificador de la empresa con carpetas con permisos que desea eliminar. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> Gestionar en la carpeta. </td> 
+   <td colname="col4"> Gestione en la carpeta . </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> updateChildren</span> </span> </td> 
@@ -68,13 +69,13 @@ Sintaxis
  </tbody> 
 </table>
 
-**Output (removeFolderPermissionsReturn)**
+**Salida (removeFolderPermissionsReturn)**
 
-La API de IPS no devuelve una respuesta para esta operación.
+La API IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-04390f0ec7cc460cb5d34d518e33e7a5}
 
-Este ejemplo de código elimina los permisos de una carpeta y sus subcarpetas. Establezca `updateChildren` en `false` si sólo necesita quitar permisos de la carpeta principal.
+Este ejemplo de código elimina los permisos de una carpeta y sus subcarpetas. Establezca `updateChildren` en `false` si solo necesita eliminar permisos de la carpeta principal.
 
 **Solicitar**
 
