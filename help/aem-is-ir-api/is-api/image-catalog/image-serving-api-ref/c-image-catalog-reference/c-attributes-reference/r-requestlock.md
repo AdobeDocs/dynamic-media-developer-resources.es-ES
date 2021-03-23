@@ -1,31 +1,32 @@
 ---
-description: Solicitar el modo de bloqueo. Especifica el tipo de bloqueo de solicitud que debe incluirse en las solicitudes.
-seo-description: Solicitar el modo de bloqueo. Especifica el tipo de bloqueo de solicitud que debe incluirse en las solicitudes.
+description: Solicitar modo de bloqueo. Especifica el tipo de bloqueo de solicitud que debe incluirse en las solicitudes.
+seo-description: Solicitar modo de bloqueo. Especifica el tipo de bloqueo de solicitud que debe incluirse en las solicitudes.
 seo-title: RequestLock
 solution: Experience Manager
 title: RequestLock
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 09f20e5e-8ef1-48fe-8b3c-719d219159ec
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 6%
+source-wordcount: '85'
+ht-degree: 5%
 
 ---
 
 
 # RequestLock{#requestlock}
 
-Solicitar el modo de bloqueo. Especifica el tipo de bloqueo de solicitud que debe incluirse en las solicitudes.
+Solicitar modo de bloqueo. Especifica el tipo de bloqueo de solicitud que debe incluirse en las solicitudes.
 
 ## Propiedades {#section-ae89274d3b7940d0bf3d816f7c2f51fd}
 
-Indicador. Establezca en 0 para desactivar el bloqueo de solicitudes y en 1 para seleccionar un bloqueo de hash simple.
+Indicador. Establézcalo en 0 para desactivar el bloqueo de solicitud y en 1 para seleccionar un simple bloqueo hash.
 
 ## Predeterminado {#section-fd5b5f0417bd444189b20494d179193e}
 
-Se hereda de `default::RequestLock` si no está definida o si está vacía.
+Se hereda de `default::RequestLock` si no está definido o si está vacío.
 
 ## Véase también {#section-851a0b6c15ce4ea8b88dedfb579e9736}
 
