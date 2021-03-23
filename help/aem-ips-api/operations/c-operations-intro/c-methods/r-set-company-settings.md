@@ -1,23 +1,24 @@
 ---
-description: Establece varios valores de configuración específicos de la compañía.
-seo-description: Establece varios valores de configuración específicos de la compañía.
+description: Establece varios valores de configuración específicos de la empresa.
+seo-description: Establece varios valores de configuración específicos de la empresa.
 seo-title: setCompanySettings
 solution: Experience Manager
 title: setCompanySettings
-topic: Dynamic Media Image Production System API
 uuid: 5908082f-6743-4444-ba73-757ad4664890
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 12%
+source-wordcount: '164'
+ht-degree: 11%
 
 ---
 
 
 # setCompanySettings{#setcompanysettings}
 
-Establece varios valores de configuración específicos de la compañía.
+Establece varios valores de configuración específicos de la empresa.
 
 Sintaxis
 
@@ -34,23 +35,23 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de compañía. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la empresa. |
 | `*`overwriteMode`*` | `xsd:string` | No | Modo de sobrescritura de recursos. |
-| `*`keepPublishState`*` | `xsd:boolean` | No | Establezca `true` para conservar el estado de publicación cuando se vuelva a cargar un recurso. |
+| `*`keepPublishState`*` | `xsd:boolean` | No | Configúrelo en `true` para preservar el estado de publicación cuando se vuelve a cargar un recurso. |
 | `*`defaultSourceProfileHandle`*` | `xsd:string` | No | Recurso IccProfile que se utilizará como perfil de color de origen predeterminado. |
 | `*`defaultDisplayProfileHandle`*` | `xsd:string` | No | Recurso IccProfile que se utilizará como perfil de color de visualización predeterminado. |
 | `*`iptcExifMappingXsltHandle`*` | `xsd:string` | No | Recurso XSL utilizado para asignar metadatos IPTC y EXIF a campos de metadatos IPS. |
 | `*`xmpMappingXsltHandle`*` | `xsd:string` | No | Recurso XSL utilizado para asignar metadatos de XMP a campos de metadatos IPS. |
-| `*`diskSpaceWarningMin`*` | `xsd:int` | No | Espacio mínimo disponible en disco (en KB) antes de enviar un mensaje de advertencia. |
-| `*`emailTrashCleanupWarning`*` | `xsd:boolean` | No | Establezca `true` para enviar una notificación a los administradores de compañías cada vez que se vacían recursos de la papelera. |
+| `*`diskSpaceWarningMin`*` | `xsd:int` | No | Espacio mínimo en disco libre (en KB) disponible antes de enviar un mensaje de advertencia. |
+| `*`emailTrashCleanupWarning`*` | `xsd:boolean` | No | Configúrelo en `true` para enviar a los administradores de la empresa una notificación cada vez que se vacíen los recursos de la papelera. |
 
 **Salida (setCompanySettingsReturn)**
 
-La API de IPS no devuelve una respuesta para esta operación.
+La API IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-d10bf1d3d86f46f7bcf78dc1a2c363c5}
 
-Este ejemplo de código establece la configuración de una compañía.
+Este ejemplo de código establece la configuración de una empresa.
 
 **Solicitar**
 
