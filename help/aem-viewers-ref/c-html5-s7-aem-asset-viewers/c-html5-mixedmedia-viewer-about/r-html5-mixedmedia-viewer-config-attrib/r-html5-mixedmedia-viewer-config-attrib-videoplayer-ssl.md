@@ -1,15 +1,16 @@
 ---
-description: Atributo de configuración para el visor de vídeo de medios mixtos.
-seo-description: Atributo de configuración para el visor de vídeo de medios mixtos.
+description: Atributo de configuración para el visualizador de vídeo de medios mixtos.
+seo-description: Atributo de configuración para el visualizador de vídeo de medios mixtos.
 seo-title: VideoPlayer.ssl
 solution: Experience Manager
 title: VideoPlayer.ssl
-topic: Dynamic Media
 uuid: 07e2c55b-2388-44c8-83ab-338997c5cb71
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '198'
 ht-degree: 2%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 2%
 
 # VideoPlayer.ssl{#videoplayer-ssl}
 
-Atributo de configuración para el visor de vídeo de medios mixtos.
+Atributo de configuración para el visualizador de vídeo de medios mixtos.
 
 >[!NOTE]
 >
->Este atributo de configuración solo se aplica a AEM 6.2 con la instalación de [Feature Pack NPR-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480) y a AEM 6.1 con la instalación de [Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011).
+>Este atributo de configuración solo se aplica a AEM 6.2 con la instalación del [Feature Pack NPR-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480) y a AEM 6.1 con la instalación del [Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011).
 
 `[VideoPlayer.|<containerId>_videoPlayer.]ssl=auto|on`
 
@@ -29,7 +30,7 @@ Atributo de configuración para el visor de vídeo de medios mixtos.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|on</span> </p> </td> 
-   <td colname="col2"> <p> Controla si el vídeo se entrega a través de una conexión SSL segura (HTTPS) o de una conexión no segura (HTTP). </p> <p>Cuando se establece en <span class="codeph"> auto</span>, el protocolo de envío de vídeo se hereda del protocolo de la página web de incrustación. Si la página web se carga a través de HTTPS, el vídeo también se entrega a través de HTTPS y viceversa. Si la página web está en HTTP, el vídeo se envía a través de HTTP. </p> <p>Cuando se establece en <span class="codeph"> en</span>, el envío de vídeo siempre se produce a través de una conexión segura independientemente del protocolo de la página Web. </p> <p>Solo afecta al envío de vídeo publicado y se ignora para la previsualización de vídeo en modo Autor. </p> </td> 
+   <td colname="col2"> <p> Controla si el vídeo se entrega a través de una conexión SSL segura (HTTPS) o una conexión no segura (HTTP). </p> <p>Cuando se establece en <span class="codeph"> auto</span> , el protocolo de entrega de vídeo se hereda del protocolo de la página web de incrustación. Si la página web se carga a través de HTTPS, el vídeo también se envía a través de HTTPS y viceversa. Si la página web está en HTTP, el vídeo se envía a través de HTTP. </p> <p>Cuando se establece en <span class="codeph"> en</span>, el envío de vídeo siempre se produce a través de una conexión segura independientemente del protocolo de la página web. </p> <p>Solo afecta a la entrega de vídeo publicado y se ignora para la previsualización de vídeo en modo Autor. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -50,4 +51,4 @@ ssl=on
 
 <!--<a id="section_5943AC73316749C68761FF7F74DA7547"></a>-->
 
-Consulte también [Envío de vídeo seguro](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-securevideodelivery.md#concept-4d155111df9f469aa6c6d7b41e959dcb).
+Consulte también [Entrega segura de vídeo](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-securevideodelivery.md#concept-4d155111df9f469aa6c6d7b41e959dcb).
