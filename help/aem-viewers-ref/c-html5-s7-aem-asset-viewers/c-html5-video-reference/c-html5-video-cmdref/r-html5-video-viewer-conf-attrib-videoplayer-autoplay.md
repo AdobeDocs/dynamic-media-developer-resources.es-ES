@@ -1,23 +1,24 @@
 ---
-description: Atributo de configuración para el visor de vídeo.
-seo-description: Atributo de configuración para el visor de vídeo.
+description: Atributo de configuración para el visualizador de vídeo.
+seo-description: Atributo de configuración para el visualizador de vídeo.
 seo-title: VideoPlayer.autoplay
 solution: Experience Manager
 title: VideoPlayer.autoplay
-topic: Dynamic Media
 uuid: a603590b-5b56-4e67-837c-1ec5b1196b35
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 13%
+source-wordcount: '54'
+ht-degree: 11%
 
 ---
 
 
 # VideoPlayer.autoplay{#videoplayer-autoplay}
 
-Atributo de configuración para el visor de vídeo.
+Atributo de configuración para el visualizador de vídeo.
 
 ` [VideoPlayer.|<containerId>_videoPlayer.]autoplay= *`0 | 1`*`
 
@@ -25,7 +26,7 @@ Atributo de configuración para el visor de vídeo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 0|1</span> </span> </p> </td> 
-   <td colname="col2"> <p> Indica si el visor inicio reproducir el vídeo al cargarlo. Algunos sistemas, como algunos dispositivos móviles, no admiten la reproducción automática. </p> </td> 
+   <td colname="col2"> <p> Indica si el espectador comienza a reproducir el vídeo al cargarlo. Algunos sistemas, como algunos dispositivos móviles, no admiten la reproducción automática. </p> </td> 
   </tr> 
  </tbody> 
 </table>
