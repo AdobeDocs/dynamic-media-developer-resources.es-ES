@@ -1,30 +1,31 @@
 ---
-description: Debe configurar y configurar el módulo de compatibilidad IR 3.x.
-seo-description: Debe configurar y configurar el módulo de compatibilidad IR 3.x.
-seo-title: Configurar y configurar el módulo de compatibilidad IR 3.x
+description: Debe configurar el módulo de compatibilidad de IR 3.x.
+seo-description: Debe configurar el módulo de compatibilidad de IR 3.x.
+seo-title: Configuración y configuración del módulo de compatibilidad de IR 3.x
 solution: Experience Manager
-title: Configurar y configurar el módulo de compatibilidad IR 3.x
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Configuración y configuración del módulo de compatibilidad de IR 3.x
 uuid: 609a6ac9-1a4e-4cca-ab08-aa0f957b0e31
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '129'
 ht-degree: 1%
 
 ---
 
 
-# Configurar y configurar el módulo de compatibilidad de IR 3.x{#setup-and-configure-ir-x-compatibility-module}
+# Configuración y configuración del módulo de compatibilidad de IR 3.x{#setup-and-configure-ir-x-compatibility-module}
 
-Debe configurar y configurar el módulo de compatibilidad IR 3.x.
+Debe configurar el módulo de compatibilidad de IR 3.x.
 
 1. Detener `<cmdname class="+ topic/keyword sw-d/cmdname ">  PlatformServer</cmdname>`.
 1. Cambie al directorio de aplicaciones web de ImageServer.
 1. Copie el contenido del directorio [!DNL ir] en el directorio [!DNL ROOT].
 1. Abra [!DNL ROOT/WEB-INF/web.xml] en un editor de texto.
-1. Buscar la línea `<!-- Uncomment this to enable the Image Rendering 3.x protocol emulation. Only do this when you unpack ir.war in the ROOT webapp. -->`
-1. Quite los comentarios de las etiquetas `<servlet>` y `<servlet-mapping>`.
+1. Busque la línea `<!-- Uncomment this to enable the Image Rendering 3.x protocol emulation. Only do this when you unpack ir.war in the ROOT webapp. -->`
+1. Descomente las etiquetas `<servlet>` y `<servlet-mapping>` .
 1. Reiniciar `<cmdname class="+ topic/keyword sw-d/cmdname ">  PlatformServer</cmdname>`.
 
 **Ejemplo de Linux**
@@ -35,12 +36,12 @@ Debe configurar y configurar el módulo de compatibilidad IR 3.x.
 
 `cd WEB-INF`
 
-A continuación, edite [!DNL web.xml]con su editor favorito para eliminar los comentarios de las etiquetas `<servlet>` y `<servlet-mapping>`.
+A continuación, edite [!DNL web.xml]con su editor favorito para anular el comentario de las etiquetas `<servlet>` y `<servlet-mapping>` .
 
 **Ejemplo de Windows**
 
-Abra el Explorador y vaya a `C:\Program Files\Scene7\ImageServing\webapps\ir`.
+Abra Explorer y vaya a `C:\Program Files\Scene7\ImageServing\webapps\ir`.
 
 Seleccione todos los archivos y carpetas y cópielos dentro de `C:\Program Files\Scene7\ImageServing\webapps\ROOT`.
 
-A continuación, edite el archivo `c:\Program Files\Scene7\ImageServing\webapps\ROOT\WEB-INF\web.xml` sin comentar las etiquetas `<servlet>` y `<servlet-mapping>`.
+A continuación, edite el archivo `c:\Program Files\Scene7\ImageServing\webapps\ROOT\WEB-INF\web.xml` sin comentar las etiquetas `<servlet>` y `<servlet-mapping>` .
