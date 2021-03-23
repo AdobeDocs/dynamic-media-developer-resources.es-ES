@@ -1,23 +1,24 @@
 ---
-description: Atributo de configuración para el visor de Video360.
-seo-description: Atributo de configuración para el visor de Video360.
+description: Atributo de configuración para el visualizador de vídeo360.
+seo-description: Atributo de configuración para el visualizador de vídeo360.
 seo-title: Video360Player.initialbitrate
 solution: Experience Manager
 title: Video360Player.initialbitrate
-topic: Dynamic Media
 uuid: a23fa941-6dd2-41c0-aca9-06f0cdb027b1
+feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 10%
+source-wordcount: '128'
+ht-degree: 9%
 
 ---
 
 
 # Video360Player.initialbitrate{#video-player-initialbitrate}
 
-Atributo de configuración para el visor de Video360.
+Atributo de configuración para el visualizador de vídeo360.
 
 ` [Video360Player.|<containerId>_video360Player.]initialbitrate= *`basado en IP`*`
 
@@ -25,7 +26,7 @@ Atributo de configuración para el visor de Video360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> basado en IP</span> </p> </td> 
-   <td colname="col2"> <p> Establece la velocidad de bits del vídeo (en kbits por segundo o kbps) que se utiliza para la reproducción inicial del vídeo en un escritorio. </p> <p>Si este valor de velocidad de bits no existe en el conjunto de vídeos adaptable, el reproductor de vídeo inicio con el vídeo que tiene la siguiente velocidad de bits más baja. </p> <p>Si se establece en <span class="codeph"> 0</span>, el reproductor de vídeo inicio desde la velocidad de bits más baja posible. </p> <p>Solo se aplica a sistemas que no admiten de forma nativa vídeos HTML5 HLS (como los navegadores Firefox, Chrome e Internet Explorer 11 en Windows 10) y cuando el modo de reproducción está establecido en automático. </p> </td> 
+   <td colname="col2"> <p> Establece la velocidad de bits del vídeo (en kbits por segundo o kbps) que se utiliza para la reproducción inicial de vídeo en un escritorio. </p> <p>Si este valor de velocidad de bits no existe en el conjunto de vídeos adaptables, el reproductor de vídeo comienza con el vídeo que tiene la siguiente velocidad de bits más baja. </p> <p>Si se establece en <span class="codeph"> 0</span>, el reproductor de vídeo se inicia a partir de la velocidad de bits más baja posible. </p> <p>Solo se aplica a sistemas que no admiten de forma nativa el vídeo HTML5 HLS (como los navegadores Firefox, Chrome e Internet Explorer 11 en Windows 10) y cuando el modo de reproducción está configurado en automático. </p> </td> 
   </tr> 
  </tbody> 
 </table>
