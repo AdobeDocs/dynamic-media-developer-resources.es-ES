@@ -1,23 +1,24 @@
 ---
-description: Actualice la información de las propiedades de fuente.
-seo-description: Actualice la información de las propiedades de fuente.
+description: Actualice la información para las propiedades de fuente.
+seo-description: Actualice la información para las propiedades de fuente.
 seo-title: FontFieldUpdate
 solution: Experience Manager
 title: FontFieldUpdate
-topic: Dynamic Media Image Production System API
 uuid: f7ac1830-3a69-4278-948c-3a9c265ad520
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 12%
+source-wordcount: '70'
+ht-degree: 11%
 
 ---
 
 
 # FontFieldUpdate{#fontfieldupdate}
 
-Actualice la información de las propiedades de fuente.
+Actualice la información para las propiedades de fuente.
 
 Sintaxis
 
@@ -25,12 +26,12 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Identificador de recurso de fuente. |
-| `*`fontName`*` | `xsd:string` | Nombre de fuente. |
+| `*`assetHandle`*` | `xsd:string` | Controlador de recurso de fuente. |
+| `*`fontName`*` | `xsd:string` | Nombre de la fuente. |
 | `*`postscriptName`*` | `xsd:string` | Nombre de fuente PostScript. |
 | `*`rtfName`*` | `xsd:string` | Nombre de fuente de texto enriquecido. |
 | `*`Familia de fuentes`*` | `xsd:string` | Nombre de la familia de fuentes. |
 | `*`estilo`*` | `xsd:string` | Estilo de fuente (consulte Estilos de fuente para ver los valores). |
 | `*`typeName`*` | `xsd:string` | Nombre del tipo de fuente. |
-| `*`type`*` | `xsd:string` | Tipo de fuente (consulte Tipos de fuente para ver los valores). |
+| `*`type`*` | `xsd:string` | Tipo de fuente (consulte Tipos de fuentes para ver los valores). |
 
