@@ -1,15 +1,16 @@
 ---
-description: Obtiene los recursos y el número de recursos asociados a una compañía específica.
-seo-description: Obtiene los recursos y el número de recursos asociados a una compañía específica.
+description: Obtiene los recursos y el número de recursos asociados a una empresa específica.
+seo-description: Obtiene los recursos y el número de recursos asociados a una empresa específica.
 seo-title: getAssetCounts
 solution: Experience Manager
 title: getAssetCounts
-topic: Dynamic Media Image Production System API
 uuid: 92103806-59da-444f-b69c-d045d0ebf42e
+feature: Dynamic Media Classic,SDK/API,Administración de activos
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '164'
 ht-degree: 9%
 
 ---
@@ -17,9 +18,9 @@ ht-degree: 9%
 
 # getAssetCounts{#getassetcounts}
 
-Obtiene los recursos y el número de recursos asociados a una compañía específica.
+Obtiene los recursos y el número de recursos asociados a una empresa específica.
 
-El `countArray` devuelto consiste en una matriz de `assetTypes` (tipo de datos `xsd:string`), cada una con su propio campo de recuento (tipo de datos `xsd:int`), lo que permite la representación de varios tipos de recursos por elemento de la matriz.
+El `countArray` devuelto consiste en una matriz de `assetTypes` (tipo de datos `xsd:string`), cada una con su propio campo de recuento (tipo de datos `xsd:int`), que permite la representación de varios tipos de activos por elemento de la matriz.
 Sintaxis
 
 ## Tipos de usuarios autorizados {#section-6234754722184e828352f10eb18fbce9}
@@ -40,7 +41,7 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía con los recursos que desea contar. |
+| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa con los recursos que desea contar. |
 
 **Salida (getAssetCountsReturn)**
 
@@ -50,7 +51,7 @@ Sintaxis
 
 ## Ejemplos {#section-6052a503eb3843f6adb99e200fdba280}
 
-Este ejemplo de código utiliza el identificador de la compañía como campo en el `getAssetCountsParam` enviado al servidor de servicios Web IPS para obtener los recuentos de recursos.
+Este ejemplo de código utiliza el identificador de la empresa como campo en el `getAssetCountsParam` enviado al servidor de servicios web IPS para obtener los recuentos de recursos.
 
 **Solicitar**
 
