@@ -1,23 +1,24 @@
 ---
-description: Obtiene los trabajos programados para ejecutarse.
-seo-description: Obtiene los trabajos programados para ejecutarse.
+description: Obtiene trabajos programados para ejecutarse.
+seo-description: Obtiene trabajos programados para ejecutarse.
 seo-title: getScheduledJobs
 solution: Experience Manager
 title: getScheduledJobs
-topic: Dynamic Media Image Production System API
 uuid: 56b0623b-46d7-4d11-8eea-6543ed364b53
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 20%
+source-wordcount: '88'
+ht-degree: 19%
 
 ---
 
 
 # getScheduledJobs{#getscheduledjobs}
 
-Obtiene los trabajos programados para ejecutarse.
+Obtiene trabajos programados para ejecutarse.
 
 Sintaxis
 
@@ -38,7 +39,7 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la compañía. |
+| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa. |
 | `*`jobHandle`*` | `xsd:string` | No | Identificador de trabajo. |
 | `*`originalName`*` | `xsd:string` | No | El nombre especificado por `submitJob`. |
 
@@ -50,7 +51,7 @@ Sintaxis
 
 ## Ejemplos {#section-e79e7da86ba848fd9996aa36de462e6c}
 
-Este ejemplo de código devuelve todos los trabajos programados de una matriz de trabajos. La matriz misma contiene información detallada sobre los trabajos.
+Este ejemplo de código devuelve todos los trabajos programados en una matriz de trabajos. La matriz contiene información detallada sobre los trabajos.
 
 **Solicitar**
 
