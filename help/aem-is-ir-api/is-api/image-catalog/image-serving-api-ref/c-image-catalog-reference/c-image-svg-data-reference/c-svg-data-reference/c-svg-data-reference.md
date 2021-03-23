@@ -1,23 +1,24 @@
 ---
-description: Esta sección describe los atributos de datos SVG.
-seo-description: Esta sección describe los atributos de datos SVG.
-seo-title: Referencia de datos SVG
+description: En esta sección se describen los atributos de datos SVG.
+seo-description: En esta sección se describen los atributos de datos SVG.
+seo-title: Referencia de datos de SVG
 solution: Experience Manager
-title: Referencia de datos SVG
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Referencia de datos de SVG
 uuid: d5c48d0c-b632-44eb-9f41-c5770c468b01
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '34'
-ht-degree: 8%
+source-wordcount: '42'
+ht-degree: 7%
 
 ---
 
 
 # Referencia de datos SVG{#svg-data-reference}
 
-Esta sección describe los atributos de datos SVG.
+En esta sección se describen los atributos de datos SVG.
 
 * [Caducidad](r-expiration-svg.md)
 * [Id](r-id-svg.md)
