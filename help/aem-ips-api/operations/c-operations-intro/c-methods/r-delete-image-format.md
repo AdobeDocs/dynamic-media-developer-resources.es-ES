@@ -4,13 +4,14 @@ seo-description: Elimina un formato de imagen. Obtenga el controlador de formato
 seo-title: deleteImageFormat
 solution: Experience Manager
 title: deleteImageFormat
-topic: Dynamic Media Image Production System API
 uuid: 70dddde9-830b-4267-8ef5-df5241f549e3
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 10%
+source-wordcount: '121'
+ht-degree: 9%
 
 ---
 
@@ -34,16 +35,16 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía que contiene el formato de imagen que desea eliminar. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la empresa que contiene el formato de imagen que desea eliminar. |
 | `*`imageFormatHandle`*` | `xsd:string` | Sí | Identificador del formato de imagen que desea eliminar. |
 
 **Salida (deleteImageFormatParam)**
 
-La API de IPS no devuelve una respuesta para esta operación.
+La API IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-9ed9baaba13549bfaad1bc9cd7ec7009}
 
-Este ejemplo de código elimina un formato de imagen de una compañía. Obtenga el controlador de formato de imagen de otra operación.
+Este ejemplo de código elimina un formato de imagen de una empresa. Obtenga el controlador de formato de imagen de otra operación.
 
 **Solicitar**
 
