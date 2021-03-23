@@ -1,15 +1,16 @@
 ---
-description: El reproductor de vídeo es el área rectangular en la que se muestra el contenido del vídeo en el visor.
-seo-description: El reproductor de vídeo es el área rectangular en la que se muestra el contenido del vídeo en el visor.
+description: El reproductor de vídeo es el área rectangular en la que se muestra el contenido de vídeo dentro del visor.
+seo-description: El reproductor de vídeo es el área rectangular en la que se muestra el contenido de vídeo dentro del visor.
 seo-title: Reproductor de Video360
 solution: Experience Manager
 title: Reproductor de Video360
-topic: Dynamic Media
 uuid: e78a9c22-4217-42cc-ba47-3acb4130a4fd
+feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '233'
 ht-degree: 1%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 1%
 
 # Reproductor de Video360{#video-player}
 
-El reproductor de vídeo es el área rectangular en la que se muestra el contenido del vídeo en el visor.
+El reproductor de vídeo es el área rectangular en la que se muestra el contenido de vídeo dentro del visor.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Si las dimensiones del vídeo que se está reproduciendo no coinciden con las del reproductor de vídeo, el contenido del vídeo se centra en el área de visualización rectangular del reproductor de vídeo.
+Si las dimensiones del vídeo que se está reproduciendo no coinciden con las dimensiones del reproductor, el contenido del vídeo se centra dentro del área de visualización rectangular del reproductor de vídeo.
 
 El siguiente selector de clase CSS controla el aspecto del reproductor de vídeo:
 
@@ -44,7 +45,7 @@ Puede localizar el mensaje de error que se muestra en los casos en los que el si
 
 Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-Ejemplo: Para configurar un visor de vídeo con el tamaño del reproductor de vídeo definido en 512 x 288 píxeles.
+Ejemplo: para configurar un visor de vídeo con el tamaño del reproductor de vídeo establecido en 512 x 288 píxeles.
 
 ```
 .s7video360viewer .s7video360player{ 
@@ -87,7 +88,7 @@ El aspecto de la animación de almacenamiento en búfer se controla con el sigui
    <td colname="col2"> <p> Margen superior del icono de animación, normalmente menos la mitad de la altura del icono. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
    <td colname="col2"> <p> Ilustración del botón. </p> </td> 
   </tr> 
  </tbody> 
