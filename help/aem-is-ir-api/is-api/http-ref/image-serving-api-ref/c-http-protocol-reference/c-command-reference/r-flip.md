@@ -1,15 +1,16 @@
 ---
-description: Voltear capa. Voltea la capa horizontalmente, verticalmente o ambas, después de aplicar el recorte= y antes de rotate= y extender=.
-seo-description: Voltear capa. Voltea la capa horizontalmente, verticalmente o ambas, después de aplicar el recorte= y antes de rotate= y extender=.
+description: Voltear capa. Gira la capa horizontalmente, verticalmente o ambas, después de aplicar recorte= y antes de rotar= y ampliar=.
+seo-description: Voltear capa. Gira la capa horizontalmente, verticalmente o ambas, después de aplicar recorte= y antes de rotar= y ampliar=.
 seo-title: voltear
 solution: Experience Manager
 title: voltear
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d28631f3-2198-4ba3-ab4b-578832db926e
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '180'
 ht-degree: 2%
 
 ---
@@ -17,36 +18,36 @@ ht-degree: 2%
 
 # flip{#flip}
 
-Voltear capa. Voltea la capa horizontalmente, verticalmente o ambas, después de aplicar el recorte= y antes de rotate= y extender=.
+Voltear capa. Gira la capa horizontalmente, verticalmente o ambas, después de aplicar recorte= y antes de rotar= y ampliar=.
 
 `flip=lr|ud|lrud`
 
 <table id="simpletable_072CA0E24B7146D48AEFD70E51E849C2"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> lr  </span> </p> </td> 
-  <td class="stentry"> <p>Voltear la capa horizontalmente (izquierda-derecha). </p> </td> 
+  <td class="stentry"> <p>Girar la capa horizontalmente (izquierda-derecha). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> ud  </span> </p> </td> 
-  <td class="stentry"> <p>Voltear la capa verticalmente (arriba-abajo). </p> </td> 
+  <td class="stentry"> <p>Girar la capa verticalmente (arriba hacia abajo). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> lrud  </span> </p> </td> 
-  <td class="stentry"> <p>Voltear horizontal y verticalmente. </p> </td> 
+  <td class="stentry"> <p>Girar horizontal y verticalmente. </p> </td> 
  </tr> 
 </table>
 
 También se puede aplicar a capas de texto.
 
-Algunos comandos, incluido `extend=`, se aplican implícitamente a la capa 0 en lugar de a la capa compuesta cuando se selecciona `layer=comp`. En estos casos, todos los comandos asignados automáticamente a la capa 0 se aplicarán antes que los comandos que se apliquen a `layer=comp`. Por lo tanto, cuando `layer=comp`, `extend=` se aplica antes que `flip=`.
+Algunos comandos, incluido `extend=`, se aplican implícitamente a la capa 0 en lugar de a la capa compuesta cuando se selecciona `layer=comp`. En estos casos, todos los comandos que se asignan automáticamente a la capa 0 se aplican antes que los comandos que se aplican a `layer=comp`. Por lo tanto, cuando `layer=comp`, `extend=` se aplica antes que `flip=`.
 
 >[!NOTE]
 >
->La capa invertida se coloca en función del anclaje de la capa; diferentes valores de flip= tendrán diferentes posiciones de capa cuando el anclaje no se encuentre en el centro de la capa.
+>La capa girada se coloca en función del anclaje de la capa; distintos valores flip= tendrán diferentes posiciones de capa cuando el anclaje no esté situado en el centro de la capa.
 
 ## Propiedades {#section-294da2af7be746b5adfc35e29ee68217}
 
-Capa. Se aplica a la capa actual o a la imagen compuesta si `layer=comp`. Omitido por capas de efectos.
+Capa. Se aplica a la capa actual o a la imagen compuesta si `layer=comp`. Ignorado por capas de efecto.
 
 ## Predeterminado {#section-502044f81a89492198d5f12a738459ea}
 
