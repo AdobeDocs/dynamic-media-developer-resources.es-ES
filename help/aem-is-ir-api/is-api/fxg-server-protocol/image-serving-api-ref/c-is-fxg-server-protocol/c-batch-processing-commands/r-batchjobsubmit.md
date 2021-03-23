@@ -1,23 +1,24 @@
 ---
-description: Enviar un nuevo trabajo por lotes.
-seo-description: Enviar un nuevo trabajo por lotes.
+description: Ejecute un nuevo trabajo por lotes.
+seo-description: Ejecute un nuevo trabajo por lotes.
 seo-title: batchjobsubmit
 solution: Experience Manager
 title: batchjobsubmit
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: eb695666-fcaf-40bc-8b56-452819f058d2
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 2%
+source-wordcount: '52'
+ht-degree: 1%
 
 ---
 
 
 # batchjobsubmit{#batchjobsubmit}
 
-Enviar un nuevo trabajo por lotes.
+Ejecute un nuevo trabajo por lotes.
 
 Este parámetro:
 
@@ -33,7 +34,7 @@ Devuelve:
 <table id="simpletable_7C82E4A8520440F5A5ABBC1BCB286AB2"> 
  <tr class="strow"> 
   <td class="stentry"> <p>Estado del trabajo </p> </td> 
-  <td class="stentry"> <p>Si el envío se realizó correctamente o no; si se realiza correctamente, ID de trabajo en formato XML. </p> </td> 
+  <td class="stentry"> <p>Si el envío se ha realizado correctamente o no; si se realiza correctamente, ID de trabajo en formato XML. </p> </td> 
  </tr> 
 </table>
 
