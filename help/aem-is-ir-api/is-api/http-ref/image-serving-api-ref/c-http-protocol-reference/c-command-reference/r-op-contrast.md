@@ -1,23 +1,24 @@
 ---
-description: Ajustar contraste. Ajusta el contraste de la imagen aumentando el brillo de los píxeles con más del 50% de brillo y reduciendo el brillo de los píxeles con menos del 50% de brillo.
-seo-description: Ajustar contraste. Ajusta el contraste de la imagen aumentando el brillo de los píxeles con más del 50% de brillo y reduciendo el brillo de los píxeles con menos del 50% de brillo.
-seo-title: op_compare
+description: Ajuste el contraste. Ajusta el contraste de la imagen aumentando el brillo de los píxeles con más del 50% de brillo y reduciendo el brillo de los píxeles con menos del 50% de brillo.
+seo-description: Ajuste el contraste. Ajusta el contraste de la imagen aumentando el brillo de los píxeles con más del 50% de brillo y reduciendo el brillo de los píxeles con menos del 50% de brillo.
+seo-title: op_contrast
 solution: Experience Manager
-title: op_compare
-topic: Dynamic Media Image Serving - Image Rendering API
+title: op_contrast
 uuid: d17b0b49-792b-41ce-a154-5e7635c9ab43
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '173'
 ht-degree: 1%
 
 ---
 
 
-# op_contraste{#op-contrast}
+# op_contrast{#op-contrast}
 
-Ajustar contraste. Ajusta el contraste de la imagen aumentando el brillo de los píxeles con más del 50% de brillo y reduciendo el brillo de los píxeles con menos del 50% de brillo.
+Ajuste el contraste. Ajusta el contraste de la imagen aumentando el brillo de los píxeles con más del 50% de brillo y reduciendo el brillo de los píxeles con menos del 50% de brillo.
 
 `op_contrast= *`adj`*`
 
@@ -30,15 +31,15 @@ Ajustar contraste. Ajusta el contraste de la imagen aumentando el brillo de los 
 
 ## Propiedades {#section-d319ed55057344eab0a3c93f720acdbf}
 
-Capa. Se aplica a la capa actual o a la imagen compuesta si `layer=comp`. Omitido por capas de efectos.
+Capa. Se aplica a la capa actual o a la imagen compuesta si `layer=comp`. Ignorado por capas de efecto.
 
 ## Predeterminado {#section-896d1b1f7f084e929355a4684f3e833b}
 
-`op_contrast=0`, sin cambios en contraste. Las imágenes o capas CMYK se convierten a RGB antes de que se aplique la operación.
+`op_contrast=0`, sin ningún cambio en el contraste. Las imágenes o capas CMYK se convierten a RGB antes de aplicar la operación.
 
 ## Ejemplo {#section-94bc4348b4bc4f0e9768ea1c45ca8340}
 
-Disminuya el contraste y el enfoque de una capa de imagen de mayor calidad para que coincida visualmente con una foto de fondo de baja calidad:
+Disminuya el contraste y la nitidez de una capa de imagen de mayor calidad para que coincida visualmente con una foto de fondo de baja calidad:
 
 ... `&op_blur=3&op_contrast=-12&`
 
