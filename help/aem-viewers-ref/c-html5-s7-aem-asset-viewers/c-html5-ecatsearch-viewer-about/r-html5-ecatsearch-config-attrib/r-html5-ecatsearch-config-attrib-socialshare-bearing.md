@@ -2,12 +2,13 @@
 description: SocialShare.bearing
 solution: Experience Manager
 title: SocialShare.bearing
-topic: Dynamic Media
 uuid: 7c64551a-71e2-4725-bf35-cbaeaaa45a40
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '190'
 ht-degree: 2%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> up|down|left|right|fit-vertical|fit-lateral  </span> </p> </td> 
-   <td colname="col2"> <p> Especifica la dirección de la animación de diapositivas para el contenedor de botones. </p> <p> Cuando se configura en <span class="codeph"> hacia arriba </span>, <span class="codeph"> hacia abajo </span>, <span class="codeph"> izquierda </span> o <span class="codeph"> derecha </span>, el panel se despliega en una dirección especificada sin una verificación adicional de límites. Este comportamiento puede provocar el recorte de paneles por un contenedor externo. </p> <p>Cuando se establece en <span class="codeph"> fit-vertical </span>, el componente primero cambia la posición del panel base a la parte inferior de SocialShare e intenta desplegar el panel desde la parte inferior, derecha o izquierda, desde dicha ubicación base. Con cada intento, el componente comprueba si el panel está recortado por un contenedor externo. Si todos los intentos fallan, el componente intenta desplazar la posición del panel base a la parte superior y repetir los intentos de despliegue desde la parte superior, derecha e izquierda. </p> <p>Cuando se establece en <span class="codeph"> fit-lateral </span>, el componente utiliza una lógica similar a la de ajuste vertical, pero, en su lugar, desplaza la base hacia la derecha, hacia la derecha, hacia abajo y hacia arriba hacia fuera, y luego cambia la base hacia la izquierda, intentando hacia la izquierda, hacia abajo y hacia arriba hacia fuera. </p> </td> 
+   <td colname="col2"> <p> Especifica la dirección de la animación de diapositivas para el contenedor de botones. </p> <p> Cuando se establece en <span class="codeph"> arriba </span>, <span class="codeph"> abajo </span>, <span class="codeph"> izquierda </span> o <span class="codeph"> derecha </span>, el panel se despliega en una dirección especificada sin una comprobación de límites adicionales. Este comportamiento puede provocar que un contenedor externo recorte el panel. </p> <p>Cuando se establece en <span class="codeph"> ajuste vertical </span>, el componente cambia primero la posición del panel base a la parte inferior de SocialShare e intenta desplegar el panel desde la parte inferior, derecha o izquierda, desde esa ubicación base. Con cada intento, el componente comprueba si el panel está recortado por un contenedor exterior. Si todos los intentos fallan, el componente intenta cambiar la posición del panel base a la parte superior y repetir los intentos de despliegue desde la dirección superior, derecha e izquierda. </p> <p>Cuando se establece en <span class="codeph"> para ajuste lateral </span>, el componente utiliza una lógica similar a la de ajuste vertical, pero, en su lugar, cambia la base hacia la derecha, hacia la derecha, hacia abajo y hacia arriba para desplegar direcciones, y luego cambia la base hacia la izquierda, intentando hacia la izquierda, hacia abajo y hacia arriba para desplegar direcciones. </p> </td> 
   </tr> 
  </tbody> 
 </table>
