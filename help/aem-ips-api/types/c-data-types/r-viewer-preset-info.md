@@ -1,23 +1,24 @@
 ---
-description: Propiedades de un recurso de ajuste preestablecido de visor.
-seo-description: Propiedades de un recurso de ajuste preestablecido de visor.
+description: Propiedades de un recurso preestablecido de visualizador.
+seo-description: Propiedades de un recurso preestablecido de visualizador.
 seo-title: ViewerPresetInfo
 solution: Experience Manager
 title: ViewerPresetInfo
-topic: Dynamic Media Image Production System API
 uuid: 0117488d-b89d-48d4-b081-af177a22f71f
+feature: Dynamic Media Classic,SDK/API,ajustes preestablecidos de visor
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 16%
+source-wordcount: '45'
+ht-degree: 13%
 
 ---
 
 
 # ViewerPresetInfo{#viewerpresetinfo}
 
-Propiedades de un recurso de ajuste preestablecido de visor.
+Propiedades de un recurso preestablecido de visualizador.
 
 Sintaxis
 
@@ -25,6 +26,6 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| `*`type`*` | `xsd:string` | Elección del tipo de visor. |
-| `*`configSettingArray`*` | `types:ConfigSettingArray` | Matriz de configuración del visor. |
+| `*`type`*` | `xsd:string` | Opción del tipo de visor. |
+| `*`configSettingArray`*` | `types:ConfigSettingArray` | Matriz de ajustes de configuración del visor. |
 
