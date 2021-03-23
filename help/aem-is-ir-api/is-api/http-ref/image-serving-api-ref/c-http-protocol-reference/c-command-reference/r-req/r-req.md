@@ -4,13 +4,14 @@ seo-description: Tipo de solicitud. Especifica el tipo de solicitud.
 seo-title: req
 solution: Experience Manager
 title: req
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b888be10-89e5-4b41-a2bd-f83533ea2481
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 16%
+source-wordcount: '107'
+ht-degree: 14%
 
 ---
 
@@ -28,7 +29,7 @@ Tipo de solicitud. Especifica el tipo de solicitud.
 * [img](r-img.md)
 * [loadcache](r-loadcache.md)
 * [mapa](r-map-req.md)
-* [máscara](r-mask-req.md)
+* [mask](r-mask-req.md)
 * [mbrSet](r-mbrset.md)
 * [mensaje](r-message.md)
 * [props](r-props.md)
@@ -42,7 +43,7 @@ Tipo de solicitud. Especifica el tipo de solicitud.
 * [xlate](r-xlate.md)
 * [xmp](r-xmp.md)
 
-A menos que se indique lo contrario en las descripciones detalladas, el servidor devolverá `text` respuestas con tipo MIME `text/plain`. Muchos tipos de solicitud permiten especificar un tipo de respuesta, como `text`, que es generalmente el predeterminado, `javascript`, `xml` o `json`. Los tipos MIME de respuesta asociados son `text/plain`, `text/javascript`, `text/xml` y `text/javascript`, respectivamente.
+A menos que se indique lo contrario en las descripciones detalladas, el servidor devolverá `text` respuestas con el tipo MIME `text/plain`. Muchos tipos de solicitud permiten especificar un tipo de respuesta, como `text`, que suele ser el predeterminado, `javascript`, `xml` o `json`. Los tipos MIME de respuesta asociados son `text/plain`, `text/javascript`, `text/xml` y `text/javascript`, respectivamente.
 
 A menos que se indique lo contrario, las respuestas dan formato a la respuesta como un conjunto de pares `name=value`.
 
