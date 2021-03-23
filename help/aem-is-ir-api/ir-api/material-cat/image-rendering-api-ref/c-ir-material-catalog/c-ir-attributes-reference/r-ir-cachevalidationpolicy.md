@@ -4,12 +4,13 @@ seo-description: Directiva de validación de caché del servidor. Especifica cu�
 seo-title: CacheValidationPolicy
 solution: Experience Manager
 title: CacheValidationPolicy
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 299dd5fe-9a0c-43df-a4c8-6b9e9c24003b
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '124'
 ht-degree: 3%
 
 ---
@@ -19,9 +20,9 @@ ht-degree: 3%
 
 Directiva de validación de caché del servidor. Especifica cuándo se validan las entradas de caché del lado del servidor.
 
-Con la validación basada en la caducidad, los materiales de origen y las viñetas se comprueban periódicamente para comprobar si han cambiado. Con la validación basada en catálogo, las imágenes de origen solo se comprueban después de cambiar el valor `catalog::TimeStamp`.
+Con la validación basada en la caducidad, los materiales de origen y las viñetas se comprueban periódicamente para comprobar si han cambiado. Con la validación basada en el catálogo, las imágenes de origen se comprueban solo después de cambiar el valor `catalog::TimeStamp`.
 
-Se recomienda la validación basada en catálogo cuando se utilizan catálogos de material y de viñetas. La validación basada en la caducidad se debe utilizar cuando se haga referencia a las viñetas en solicitudes de procesamiento de imágenes directamente por ruta.
+Se recomienda la validación basada en el catálogo cuando se utilizan catálogos de material y viñetas. La validación basada en la caducidad debe utilizarse cuando se haga referencia a las viñetas en las solicitudes de renderización de imágenes directamente por ruta.
 
 ## Propiedades {#section-46e13cb341eb442c86e0d8292de23ea0}
 
@@ -29,7 +30,7 @@ Enum. 0 para seleccionar la validación basada en la caducidad. 1 para seleccion
 
 ## Predeterminado {#section-e09f3af8b6b3497d963199988dc5345d}
 
-Se hereda de `default::CacheValidationPolicy` si no está definida o si está vacía.
+Se hereda de `default::CacheValidationPolicy` si no está definido o si está vacío.
 
 ## Véase también {#section-b374e4d908e24af8995b2b376ca1be8b}
 
