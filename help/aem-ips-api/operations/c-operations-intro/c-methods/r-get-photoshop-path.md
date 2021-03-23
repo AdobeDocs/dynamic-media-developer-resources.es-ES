@@ -4,13 +4,14 @@ seo-description: Devuelve las coordenadas del cuadrilateral que rodea la ruta de
 seo-title: getPhotoshopPath
 solution: Experience Manager
 title: getPhotoshopPath
-topic: Dynamic Media Image Production System API
 uuid: e3ed4888-18db-40bc-a1db-f44a342d0293
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 17%
+source-wordcount: '104'
+ht-degree: 16%
 
 ---
 
@@ -38,8 +39,8 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Controle la compañía con la imagen con la que desea trabajar. |
-| `*`assetHandle`*` | `xsd:string` | Sí | Gestionar el recurso de imagen. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Gestione a la empresa con la imagen con la que desee trabajar. |
+| `*`assetHandle`*` | `xsd:string` | Sí | Gestionar en el recurso de imagen. |
 | `*`pathName`*` | `xsd:string` | Sí | Nombre de la ruta de Photoshop que desea devolver. |
 
 **Salida (getPhotoshopPathReturn)**
