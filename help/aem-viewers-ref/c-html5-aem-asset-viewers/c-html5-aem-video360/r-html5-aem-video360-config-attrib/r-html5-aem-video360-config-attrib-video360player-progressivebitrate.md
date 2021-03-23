@@ -1,23 +1,24 @@
 ---
-description: Atributo de configuración para el visor de Video360.
-seo-description: Atributo de configuración para el visor de Video360.
+description: Atributo de configuración para el visualizador de vídeo360.
+seo-description: Atributo de configuración para el visualizador de vídeo360.
 seo-title: Video360Player.progressivebitrate
 solution: Experience Manager
 title: Video360Player.progressivebitrate
-topic: Dynamic Media
 uuid: 438c18d7-e7ac-4834-8445-def590264448
+feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 11%
+source-wordcount: '114'
+ht-degree: 10%
 
 ---
 
 
 # Video360Player.progressivebitrate{#video-player-progressivebitrate}
 
-Atributo de configuración para el visor de Video360.
+Atributo de configuración para el visualizador de vídeo360.
 
 ` [Video360Player.|<containerId>_video360Player.]progressivebitrate= *`basado en IP`*`
 
@@ -25,7 +26,7 @@ Atributo de configuración para el visor de Video360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> basado en IP</span> </p> </td> 
-   <td colname="col2"> <p> Especifica en kbits por segundos (o kbps), la velocidad de bits de vídeo deseada para reproducirse desde un conjunto de vídeos adaptable en caso de que el sistema actual no admita la reproducción de vídeo adaptable. </p> <p>El componente capta el flujo de vídeo con la velocidad de bits más cercana posible (pero sin superar) al valor especificado. Si todos los flujos de vídeo del conjunto de vídeos adaptable tienen una calidad superior al valor especificado, la lógica elige la velocidad de bits con la calidad más baja. </p> </td> 
+   <td colname="col2"> <p> Especifica en kbits por segundos (o kbps), la velocidad de bits de vídeo que se desea reproducir desde un conjunto de vídeo adaptable en caso de que el sistema actual no admita la reproducción de vídeo adaptable. </p> <p>El componente recoge el flujo de vídeo con la velocidad de bits más cercana posible (pero sin superar) al valor especificado. Si todos los flujos de vídeo del conjunto de vídeos adaptables tienen una calidad superior a la especificada, la lógica elige la velocidad de bits con la calidad más baja. </p> </td> 
   </tr> 
  </tbody> 
 </table>
