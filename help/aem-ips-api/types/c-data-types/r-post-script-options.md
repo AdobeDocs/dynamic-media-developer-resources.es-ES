@@ -1,23 +1,24 @@
 ---
-description: Opciones de archivo PostScript.
-seo-description: Opciones de archivo PostScript.
+description: Opciones del archivo PostScript.
+seo-description: Opciones del archivo PostScript.
 seo-title: PostScriptOptions
 solution: Experience Manager
 title: PostScriptOptions
-topic: Dynamic Media Image Production System API
 uuid: 31526bfe-b651-47a8-98c0-2750a3d9cabf
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 11%
+source-wordcount: '78'
+ht-degree: 10%
 
 ---
 
 
 # PostScriptOptions{#postscriptoptions}
 
-Opciones de archivo PostScript.
+Opciones del archivo PostScript.
 
 Sintaxis
 
@@ -25,7 +26,7 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| `*`proceso`*` | `xsd:string` | Opción de proceso PostScript. |
+| `*`proceso`*` | `xsd:string` | Selección del proceso PostScript. |
 | `*`resolution`*` | `xsd:double` | Resolución de archivos. |
 | `*`Espacio de color`*` | `xsd:string` | Modo de espacio de color PostScript. |
 | `*`alpha`*` | `xsd:boolean` | Si se va a rasterizar el archivo en una imagen. Si es así, creará un fondo transparente si el archivo original está definido de esta manera. Generalmente se utiliza para crear logotipos superpuestos. |
