@@ -2,25 +2,26 @@
 description: EmailShare.emailurl
 solution: Experience Manager
 title: EmailShare.emailurl
-topic: Dynamic Media
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '19'
-ht-degree: 21%
+source-wordcount: '30'
+ht-degree: 13%
 
 ---
 
 
 # EmailShare.emailurl{#emailshare-emailurl}
 
-[!DNL ` [EmailShare.|<containerId>_emailShare.]emailurl= *`emailurl`*`]
+[!DNL ` [EmailShare.|<containerId>_emailShare.]emailurl= *`email`*`]
 
 <table id="table_5321841E90C941678F32AAF995CDC257"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> emailurl</span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica la dirección URL base para el servicio de correo electrónico de Dynamic Media OnDemand. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> email</span></span> </p> </td> 
+   <td colname="col2"> <p> Especifica la URL base para el servicio de correo electrónico de Dynamic Media OnDemand. </p> </td> 
   </tr> 
  </tbody> 
 </table>
