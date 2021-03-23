@@ -1,23 +1,24 @@
 ---
-description: Crea un mapa del sitio de vídeo.
-seo-description: Crea un mapa del sitio de vídeo.
+description: Crea un mapa de sitio de vídeo.
+seo-description: Crea un mapa de sitio de vídeo.
 seo-title: CreateVideoSitemapJob
 solution: Experience Manager
 title: CreateVideoSitemapJob
-topic: Dynamic Media Image Production System API
 uuid: 85db2e47-ee15-4fdd-a8e2-bb45078f814a
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 12%
+source-wordcount: '63'
+ht-degree: 11%
 
 ---
 
 
 # CreateVideoSitemapJob{#createvideositemapjob}
 
-Crea un mapa del sitio de vídeo.
+Crea un mapa de sitio de vídeo.
 
 Sintaxis
 
@@ -35,7 +36,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> forceUpdate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">Genera el mapa del sitio cuando se establece en <span class="codeph"> true</span>. <p><p>Nota: Si la Configuración de generación de mapas de sitio está configurada en manual y <span class="codeph"> forceUpdate</span> no está configurada, no se generará el mapa del sitio. </p></p></td> 
+   <td colname="col3">Genera el mapa del sitio cuando se establece en <span class="codeph"> true</span>. <p><p>Nota: Si la Configuración de generación de mapas del sitio está configurada en manual y <span class="codeph"> forceUpdate</span> no está establecida, el mapa del sitio no se generará. </p></p></td> 
   </tr> 
  </tbody> 
 </table>
