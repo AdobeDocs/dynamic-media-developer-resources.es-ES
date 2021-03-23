@@ -1,15 +1,16 @@
 ---
-description: Contiene la configuración del sistema de supervisión y alerta.
-seo-description: Contiene la configuración del sistema de supervisión y alerta.
+description: Contiene la configuración del sistema de supervisión/alerta.
+seo-description: Contiene la configuración del sistema de supervisión/alerta.
 seo-title: monitor.conf
 solution: Experience Manager
 title: monitor.conf
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 31949797-df2c-4b7c-841b-4c623299a228
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '127'
 ht-degree: 2%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 2%
 
 # monitor.conf{#monitor-conf}
 
-Contiene la configuración del sistema de supervisión y alerta.
+Contiene la configuración del sistema de supervisión/alerta.
 
-Este archivo es un archivo de propiedades de JAVA. Se debe velar por el cumplimiento de las convenciones pertinentes; de lo contrario, puede que el Servidor de plataforma no pueda realizar el inicio. Tenga en cuenta especialmente que se debe utilizar una barra invertida de doble &#39;\\&#39; o una sola barra diagonal inversa &#39;/&#39; en lugar de una barra invertida &#39;\&#39; en las rutas de archivos de Windows, ya que la barra invertida se utiliza como carácter de escape en este tipo de archivo.
+Este archivo es un archivo de propiedades de JAVA. Se debe velar por el cumplimiento de las convenciones pertinentes; de lo contrario, es posible que Platform Server no se inicie. Tenga en cuenta especialmente que debe utilizarse una barra invertida doble &#39;\\&#39; o una sola barra diagonal &#39;/&#39; en lugar de una barra invertida &#39;\&#39; en las rutas de archivos de Windows, ya que la barra invertida se utiliza como carácter de escape en este tipo de archivo.
 
-Los cambios realizados en este archivo surtirán efecto poco después de guardarlo.
+Los cambios realizados en este archivo surtirán efecto poco después de que se guarde el archivo.
 
 <table id="simpletable_91557E1162FF4FEC8BE1722D6656CFEE"> 
  <tr class="strow"> 
