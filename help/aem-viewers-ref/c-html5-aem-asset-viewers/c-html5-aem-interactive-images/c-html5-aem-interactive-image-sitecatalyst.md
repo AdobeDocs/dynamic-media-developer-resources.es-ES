@@ -2,13 +2,14 @@
 description: Compatibilidad con el seguimiento de análisis
 solution: Experience Manager
 title: Compatibilidad con el seguimiento de análisis
-topic: Dynamic Media
 uuid: ae870d2e-2a09-4551-935a-916d0e657653
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Imágenes interactivas
+role: Desarrollador, profesional empresarial, ingeniero de datos, arquitecto de datos
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 2%
+source-wordcount: '107'
+ht-degree: 1%
 
 ---
 
@@ -43,12 +44,12 @@ var interactiveImage = new s7viewers.InteractiveImage({
 });
 ```
 
-El visor realiza el seguimiento de los siguientes eventos de usuario del SDK:
+El visor realiza el seguimiento de los siguientes eventos de usuario de SDK:
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>EVENTO del usuario del SDK </p> </th> 
+   <th colname="col1" class="entry"> <p>Evento de usuario del SDK </p> </th> 
    <th colname="col2" class="entry"> <p>Enviado cuando... </p> </th> 
   </tr> 
  </thead>
