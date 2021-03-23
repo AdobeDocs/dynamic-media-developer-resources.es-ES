@@ -1,29 +1,30 @@
 ---
-description: La barra de desplazamiento de vídeo es el control deslizante horizontal que permite al usuario buscar dinámicamente cualquier posición temporal dentro del vídeo que se está reproduciendo.
-seo-description: La barra de desplazamiento de vídeo es el control deslizante horizontal que permite al usuario buscar dinámicamente cualquier posición temporal dentro del vídeo que se está reproduciendo.
-seo-title: Borrador de vídeo
+description: La barra de desplazamiento del vídeo es el control deslizante horizontal que permite al usuario buscar dinámicamente cualquier posición horaria dentro del vídeo que se está reproduciendo.
+seo-description: La barra de desplazamiento del vídeo es el control deslizante horizontal que permite al usuario buscar dinámicamente cualquier posición horaria dentro del vídeo que se está reproduciendo.
+seo-title: Arrastrar el cabezal de reproducción de vídeo
 solution: Experience Manager
-title: Borrador de vídeo
-topic: Dynamic Media
+title: Arrastrar el cabezal de reproducción de vídeo
 uuid: b5574de1-7fb1-4fda-bfe7-a58ea2a8389d
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '393'
 ht-degree: 3%
 
 ---
 
 
-# Barra de desplazamiento de vídeo{#video-scrubber}
+# Depurador de vídeo{#video-scrubber}
 
-La barra de desplazamiento de vídeo es el control deslizante horizontal que permite al usuario buscar dinámicamente cualquier posición temporal dentro del vídeo que se está reproduciendo.
+La barra de desplazamiento del vídeo es el control deslizante horizontal que permite al usuario buscar dinámicamente cualquier posición horaria dentro del vídeo que se está reproduciendo.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-El control &#39;knob&#39; de la barra de desplazamiento también se mueve a medida que se reproduce el vídeo para indicar la posición de tiempo actual del vídeo durante la reproducción. La barra de desplazamiento de vídeo siempre toma toda la anchura de la barra de control. Es posible deslizar la barra de desplazamiento del vídeo. cambie la altura y la posición vertical mediante CSS.
+El control de desplazamiento también se mueve a medida que se reproduce el vídeo para indicar la posición de tiempo actual del vídeo durante la reproducción. La barra de desplazamiento de vídeo siempre toma toda la anchura de la barra de control. Es posible ocultar el cabezal de reproducción del vídeo. cambie su altura y posición vertical mediante CSS.
 
-El aspecto general de la barra de desplazamiento de vídeo se controla con el siguiente selector de clase CSS:
+El aspecto general del depurador de vídeo se controla con el siguiente selector de clase CSS:
 
 ```
 .s7mixedmediaviewer .s7videoscrubber 
@@ -62,7 +63,7 @@ Los siguientes selectores de clase CSS rastrean indicadores de fondo, reproducci
 .s7mixedmediaviewer .s7videoscrubber .s7trackplayed
 ```
 
-**Propiedades CSS del seguimiento**
+**Propiedades CSS de la pista**
 
 <table id="table_46903DCACF314426B67783167ADF7715"> 
  <tbody> 
@@ -72,12 +73,12 @@ Los siguientes selectores de clase CSS rastrean indicadores de fondo, reproducci
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p>Color de la pista correspondiente. </p> </td> 
+   <td colname="col2"> <p>El color de la pista correspondiente. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-El siguiente selector de clase CSS controla el control:
+El selector de clase CSS siguiente controla el botón:
 
 ```
 .s7mixedmediaviewer .s7videoscrubber .s7knob
@@ -89,7 +90,7 @@ El siguiente selector de clase CSS controla el control:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> parte superior </span> </p> </td> 
-   <td colname="col2"> <p>Desplazamiento vertical del botón. </p> </td> 
+   <td colname="col2"> <p>Desplazamiento vertical del pomo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -100,41 +101,41 @@ El siguiente selector de clase CSS controla el control:
    <td colname="col2"> <p>Altura del pomo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
    <td colname="col2"> <p>Ilustración del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
+   <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-El siguiente selector de clase CSS controla el tiempo de reproducción de la burbuja:
+El siguiente selector de clase CSS controla la burbuja de tiempo reproducido:
 
 ```
 .s7mixedmediaviewer .s7videoscrubber .s7videotime
 ```
 
-**Propiedades CSS de la burbuja de tiempo de reproducción**
+**Propiedades CSS de la burbuja de tiempo reproducido**
 
 <table id="table_21E9AD3FBC8C4437BA02E5CD1BF7E831"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
-   <td colname="col2"> <p> Familia de fuentes que se va a utilizar para mostrar el texto durante el tiempo. </p> </td> 
+   <td colname="col2"> <p> La familia de fuentes que se usará para el texto de visualización de la hora. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
-   <td colname="col2"> <p> El tamaño de fuente que se va a utilizar para mostrar el texto durante el tiempo. </p> </td> 
+   <td colname="col2"> <p> El tamaño de fuente que se utilizará para el texto de visualización de la hora. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p> El color de fuente que se usará para mostrar el texto durante el tiempo. </p> </td> 
+   <td colname="col2"> <p> Color de fuente que se usará para el texto de visualización de la hora. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
-   <td colname="col2"> <p>Ancho del área de burbujas. </p> </td> 
+   <td colname="col2"> <p>Anchura del área de burbujas. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
@@ -142,28 +143,28 @@ El siguiente selector de clase CSS controla el tiempo de reproducción de la bur
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> relleno </span> </p> </td> 
-   <td colname="col2"> <p>Relleno del área de burbujas. </p> </td> 
+   <td colname="col2"> <p>Margen de área de burbujas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
    <td colname="col2"> <p>Ilustración de burbujas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
+   <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> text-align  </span> </p> </td> 
-   <td colname="col2"> <p>Alineación del texto con el área de la burbuja. </p> </td> 
+   <td colname="col2"> <p>Alineación del texto con el área de burbujas. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-La información de la herramienta de limpieza de vídeo se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obtener más información.
+La información de la herramienta de desplazamiento de vídeo se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obtener más información.
 
 ## Ejemplo {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Para configurar un visor de medios mixtos con una barra de desplazamiento de vídeo con colores de seguimiento personalizados de 10 píxeles de altura y colocados 10 píxeles y 35 píxeles desde los bordes superior e izquierdo de la barra de control.
+Para configurar un visualizador de medios mixtos con una barra de desplazamiento de vídeo con colores de pista personalizados de 10 píxeles de altura y colocados 10 píxeles y 35 píxeles desde los bordes superior e izquierdo de la barra de control.
 
 ```
 .s7mixedmediaviewer .s7videoscrubber  { 
