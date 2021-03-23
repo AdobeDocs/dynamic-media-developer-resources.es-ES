@@ -1,21 +1,22 @@
 ---
 description: Utilizado por JobLogDetial/assetType.
 seo-description: Utilizado por JobLogDetial/assetType.
-seo-title: Tipos de archivos de registro de trabajos
+seo-title: Tipos de archivo de registro de trabajo
 solution: Experience Manager
-title: Tipos de archivos de registro de trabajos
-topic: Dynamic Media Image Production System API
+title: Tipos de archivo de registro de trabajo
 uuid: 52ec039f-51ef-4e4a-a927-2616d3675e86
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '26'
-ht-degree: 7%
+source-wordcount: '33'
+ht-degree: 6%
 
 ---
 
 
-# Tipos de archivo de registro de trabajo{#job-log-file-types}
+# Tipos de archivos de registro de trabajo{#job-log-file-types}
 
 Utilizado por JobLogDetial/assetType.
 
