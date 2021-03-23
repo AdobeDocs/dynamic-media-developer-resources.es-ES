@@ -1,25 +1,26 @@
 ---
-description: Obtiene los detalles de un registro de trabajo de compañía.
-seo-description: Obtiene los detalles de un registro de trabajo de compañía.
+description: Obtiene los detalles de un registro de trabajos de la empresa.
+seo-description: Obtiene los detalles de un registro de trabajos de la empresa.
 seo-title: getJobLogDetails
 solution: Experience Manager
 title: getJobLogDetails
-topic: Dynamic Media Image Production System API
 uuid: e4314348-2160-4775-a02f-b4892924f064
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 17%
+source-wordcount: '231'
+ht-degree: 16%
 
 ---
 
 
 # getJobLogDetails{#getjoblogdetails}
 
-Obtiene los detalles de un registro de trabajo de compañía.
+Obtiene los detalles de un registro de trabajos de la empresa.
 
-El campo de respuesta `logMessage` se localiza en función del campo `authHeader` `locale`.
+El campo `logMessage` response se localiza en función del campo `authHeader` `locale`.
 
 ## Tipos de usuarios autorizados {#section-6f720a7baad64eb3805868c88af9a960}
 
@@ -50,13 +51,13 @@ El campo de respuesta `logMessage` se localiza en función del campo `authHeader
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> Identificador de la compañía a la que pertenece el registro de trabajos. </td> 
+   <td colname="col4"> El identificador de la empresa a la que pertenece el registro de trabajos. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Un identificador para un trabajo activo o completado. </td> 
+   <td colname="col4"> Un identificador de un trabajo activo o completado. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span> </span> </td> 
@@ -74,25 +75,25 @@ El campo de respuesta `logMessage` se localiza en función del campo `authHeader
    <td colname="col1"> <span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4">Número máximo de <span class="codeph"> elementos detailArray</span> que devolver. El valor máximo y predeterminado es 1000. </td> 
+   <td colname="col4">Número máximo de elementos <span class="codeph"> detailArray</span> que se van a devolver. El valor máximo y predeterminado es 1000. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4">Número de página de <span class="codeph"> recordsPerPage</span> resultados que se devolverá. El valor predeterminado es 1. </td> 
+   <td colname="col4">Número de página de <span class="codeph"> recordsPerPage</span>-resultados que se van a devolver. El valor predeterminado es 1. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Uno de los valores de constante Campo de ordenación de detalle de trabajo (Date o LogType). El valor predeterminado es Fecha. </p> </td> 
+   <td colname="col4"> <p>Uno de los valores constantes de campo de orden de detalle de trabajo (Date o LogType). El valor predeterminado es Fecha. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortDirection</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Una de las constantes de cadena Ordenar dirección. El valor predeterminado es ascendente. </p> </td> 
+   <td colname="col4"> <p>Una de las constantes de cadena Sort Direction. El valor predeterminado es ascendente. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -105,7 +106,7 @@ El campo de respuesta `logMessage` se localiza en función del campo `authHeader
 
 ## Ejemplos {#section-007678b8b8d94e8f91d09f6bc855f394}
 
-Este ejemplo de código devuelve todos los detalles del registro de trabajos de una compañía específica. La primera matriz contiene los detalles estándar del registro de trabajos. Una matriz incrustada devuelve información adicional sobre el trabajo.
+Este ejemplo de código devuelve todos los detalles del registro de trabajo de una empresa específica. La primera matriz contiene detalles estándar del registro de trabajos. Una matriz incrustada devuelve información adicional sobre el trabajo.
 
 **Solicitar**
 
