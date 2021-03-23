@@ -1,23 +1,24 @@
 ---
-description: Opciones para recortar automáticamente imágenes en función del color.
-seo-description: Opciones para recortar automáticamente imágenes en función del color.
+description: Opciones para recortar automáticamente imágenes según el color.
+seo-description: Opciones para recortar automáticamente imágenes según el color.
 seo-title: AutoColorCropOptions
 solution: Experience Manager
 title: AutoColorCropOptions
-topic: Dynamic Media Image Production System API
 uuid: 632ae721-7b39-4cd1-a1c6-1a3554167a4e
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 12%
+source-wordcount: '63'
+ht-degree: 11%
 
 ---
 
 
 # AutoColorCropOptions{#autocolorcropoptions}
 
-Opciones para recortar automáticamente imágenes en función del color.
+Opciones para recortar automáticamente imágenes según el color.
 
 Sintaxis
 
@@ -35,15 +36,15 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> corner</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Selección de la esquina de recorte automático. </td> 
+   <td colname="col3"> Elección de esquina de recorte automático. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> tolerancia</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:doble</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
    <td colname="col3">Especificación de coincidencia de color. Usos: 
     <ul id="ul_FE5423B857AE43FCBA7A9AEA76C754CC">
-     <li id="li_01E3BD0AB8DA4C408B47CB02B269404A">0 para coincidir exactamente con los colores. </li>
-     <li id="li_FCE21384265D4ECE9C0D785F1BB32C3A">1 para activar la mayor cantidad de diferencias de color. </li>
+     <li id="li_01E3BD0AB8DA4C408B47CB02B269404A">0 para que coincida exactamente con los colores. </li>
+     <li id="li_FCE21384265D4ECE9C0D785F1BB32C3A">1 para activar la mayoría de las diferencias de color. </li>
     </ul></td> 
   </tr> 
  </tbody> 
