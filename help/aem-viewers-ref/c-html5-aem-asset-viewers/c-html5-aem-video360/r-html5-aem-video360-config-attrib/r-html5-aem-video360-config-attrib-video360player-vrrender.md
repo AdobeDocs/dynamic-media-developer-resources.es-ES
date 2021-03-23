@@ -1,23 +1,24 @@
 ---
-description: Atributo de configuración para el visor de Video360.
-seo-description: Atributo de configuración para el visor de Video360.
+description: Atributo de configuración para el visualizador de vídeo360.
+seo-description: Atributo de configuración para el visualizador de vídeo360.
 seo-title: Video360Player.vrrender
 solution: Experience Manager
 title: Video360Player.vrrender
-topic: Dynamic Media
 uuid: 773ee479-012c-4649-adae-1f520ec37abb
+feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 28%
+source-wordcount: '49'
+ht-degree: 22%
 
 ---
 
 
 # Video360Player.vrrender{#video-player-vrrender}
 
-Atributo de configuración para el visor de Video360.
+Atributo de configuración para el visualizador de vídeo360.
 
 `[Video360Player.|<containerId>_video360Player.]vrrender=0|1`
 
@@ -25,7 +26,7 @@ Atributo de configuración para el visor de Video360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p>Especifica si el modo de representación de realidad virtual está activado. Se omite en los auriculares VR. </p> </td> 
+   <td colname="col2"> <p>Especifica si el modo de representación de realidad virtual está habilitado. Se ignora en los auriculares VR. </p> </td> 
   </tr> 
  </tbody> 
 </table>
