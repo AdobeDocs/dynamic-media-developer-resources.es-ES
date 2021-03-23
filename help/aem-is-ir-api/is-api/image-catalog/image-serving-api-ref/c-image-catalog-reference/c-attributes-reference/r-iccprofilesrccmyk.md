@@ -1,23 +1,24 @@
 ---
-description: PERFIL de color de entrada predeterminado CMYK. Especifica el nombre del perfil de color ICC que se utilizará para las imágenes de origen CMYK que no incrustan un perfil de color y para determinados valores de color CMYK especificados con varios comandos de servicio de imágenes, como color=.
-seo-description: PERFIL de color de entrada predeterminado CMYK. Especifica el nombre del perfil de color ICC que se utilizará para las imágenes de origen CMYK que no incrustan un perfil de color y para determinados valores de color CMYK especificados con varios comandos de servicio de imágenes, como color=.
+description: Perfil de color de entrada predeterminado CMYK. Especifica el nombre del perfil de color ICC que se utilizará para las imágenes de origen CMYK que no incrustan un perfil de color y para ciertos valores de color CMYK especificados con varios comandos de servicio de imágenes, como color=.
+seo-description: Perfil de color de entrada predeterminado CMYK. Especifica el nombre del perfil de color ICC que se utilizará para las imágenes de origen CMYK que no incrustan un perfil de color y para ciertos valores de color CMYK especificados con varios comandos de servicio de imágenes, como color=.
 seo-title: IccProfileSrcCmyk
 solution: Experience Manager
 title: IccProfileSrcCmyk
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5f1c2eb6-7f32-4603-9587-d8c1f6a72bb0
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 2%
+source-wordcount: '206'
+ht-degree: 1%
 
 ---
 
 
 # IccProfileSrcCmyk{#iccprofilesrccmyk}
 
-PERFIL de color de entrada predeterminado CMYK. Especifica el nombre del perfil de color ICC que se utilizará para las imágenes de origen CMYK que no incrustan un perfil de color y para determinados valores de color CMYK especificados con varios comandos de servicio de imágenes, como color=.
+Perfil de color de entrada predeterminado CMYK. Especifica el nombre del perfil de color ICC que se utilizará para las imágenes de origen CMYK que no incrustan un perfil de color y para ciertos valores de color CMYK especificados con varios comandos de servicio de imágenes, como color=.
 
 ## Propiedades {#section-fc2ad12a3c6e4c7cab495f1878638e66}
 
@@ -25,7 +26,7 @@ Cadena de texto. Si se especifica, debe ser un valor `icc::Name` válido del map
 
 ## Predeterminado {#section-c1f63b4bd32a4f38bf5d68decb9e25da}
 
-Se hereda de `default::IccProfileSrcCmyk` si no está definida o si está vacía. Si `attribute::IccProfileSrcCmyk` no se resuelve en un perfil válido, se utiliza `attribute::IccProfileCmyk` en su lugar.
+Se hereda de `default::IccProfileSrcCmyk` si no está definido o si está vacío. Si `attribute::IccProfileSrcCmyk` no se resuelve en un perfil válido, se utiliza `attribute::IccProfileCmyk` en su lugar.
 
 ## Véase también {#section-a6623bd4277e43b084ec0fb9e02069dc}
 
