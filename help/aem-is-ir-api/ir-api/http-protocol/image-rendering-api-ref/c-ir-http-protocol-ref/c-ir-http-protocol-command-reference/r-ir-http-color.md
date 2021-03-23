@@ -1,23 +1,24 @@
 ---
-description: Color frontal. Especifica el color de los materiales de color sólido o el color aditivo de los materiales coloreables.
-seo-description: Color frontal. Especifica el color de los materiales de color sólido o el color aditivo de los materiales coloreables.
+description: Color frontal. Especifica el color de los materiales de color sólido o el color aditivo para los materiales coloreables.
+seo-description: Color frontal. Especifica el color de los materiales de color sólido o el color aditivo para los materiales coloreables.
 seo-title: color
 solution: Experience Manager
 title: color
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 546cf34b-ab2d-497c-abc2-89024dc541db
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 15%
+source-wordcount: '98'
+ht-degree: 14%
 
 ---
 
 
 # color{#color}
 
-Color frontal. Especifica el color de los materiales de color sólido o el color aditivo de los materiales coloreables.
+Color frontal. Especifica el color de los materiales de color sólido o el color aditivo para los materiales coloreables.
 
 `color= *`color`*`
 
@@ -30,11 +31,11 @@ Color frontal. Especifica el color de los materiales de color sólido o el color
 
 ## Propiedades {#section-629c3c91221c48c4b7f7b31a13fd1766}
 
-Atributo Material. Necesario para materiales de color sólido, opcional para todos los demás materiales.
+Atributo de material. Necesario para materiales de color sólido, opcional para todos los demás materiales.
 
 ## Predeterminado {#section-ea8e1967674d426bb8f46abe365b6aca}
 
-`catalog::Color` si el material está basado en una entrada de catálogo. De lo contrario, `none` no debe colorear.
+`catalog::Color` si el material está basado en una entrada de catálogo. De lo contrario, `none` para no colorear.
 
 ## Véase también {#section-5eb8f1c36634474bbfaa63d84e4c3c71}
 
