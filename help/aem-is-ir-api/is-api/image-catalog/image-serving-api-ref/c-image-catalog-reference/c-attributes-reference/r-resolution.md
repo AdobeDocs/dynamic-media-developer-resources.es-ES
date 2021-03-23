@@ -1,15 +1,16 @@
 ---
-description: Resolución de objeto predeterminada. Proporciona una resolución de objeto predeterminada en caso de que un registro de catálogo en particular no contenga un valor de resolución de catálogo válido.
-seo-description: Resolución de objeto predeterminada. Proporciona una resolución de objeto predeterminada en caso de que un registro de catálogo en particular no contenga un valor de resolución de catálogo válido.
+description: Resolución de objeto predeterminada. Proporciona una resolución de objeto predeterminada en caso de que un registro de catálogo concreto no contenga un valor de resolución de catálogo válido.
+seo-description: Resolución de objeto predeterminada. Proporciona una resolución de objeto predeterminada en caso de que un registro de catálogo concreto no contenga un valor de resolución de catálogo válido.
 seo-title: Resolución
 solution: Experience Manager
 title: Resolución
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: dbc594de-05b9-4efa-93a6-4fdcf1981d8d
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '113'
 ht-degree: 6%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 6%
 
 # Resolución{#resolution}
 
-Resolución de objeto predeterminada. Proporciona una resolución de objeto predeterminada en caso de que un registro de catálogo en particular no contenga un valor de catálogo válido::Resolution.
+Resolución de objeto predeterminada. Proporciona una resolución de objeto predeterminada en caso de que un registro de catálogo concreto no contenga un valor de catálogo válido::Resolution .
 
 ## Propiedades {#section-1f65ea81c3324781af17d0321facbd19}
 
@@ -25,8 +26,8 @@ Número real, mayor que 0. Normalmente se expresa como píxeles por pulgada, per
 
 ## Predeterminado {#section-2d1258d2b7ce4929ac327a5d41a108dd}
 
-Se hereda de `default::Resolution` si no está definida o si está vacía.
+Se hereda de `default::Resolution` si no está definido o si está vacío.
 
 ## Véase también {#section-dffa1f318fd84833b74d08d09c24c974}
 
-[catálogo::Resolución](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-resolution-cat.md#reference-de489f5f36b64bd0831749546f8728e1)
+[catálogo::Resolution](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-resolution-cat.md#reference-de489f5f36b64bd0831749546f8728e1)
