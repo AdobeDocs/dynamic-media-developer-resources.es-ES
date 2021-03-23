@@ -4,12 +4,13 @@ seo-description: Escalar imagen. Escala una imagen de origen de capa por factor 
 seo-title: scale
 solution: Experience Manager
 title: scale
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f5540df8-60d9-4efc-99fe-733cdc8268ea
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '129'
 ht-degree: 9%
 
 ---
@@ -28,11 +29,11 @@ Escalar imagen. Escala una imagen de origen de capa por factor en relación con 
  </tr> 
 </table>
 
-No se aplica ninguna escala cuando `scale=1`. *`factor`* menor que 1,0 reduce la escala y mayor que 1,0 amplía la imagen de origen.
+No se aplica ninguna escala cuando `scale=1`. *`factor`* menor que 1,0 baja escala y mayor que 1,0 amplía la imagen de origen.
 
 ## Propiedades {#section-3c7eb45527394fe79b1ddba6c1fcca09}
 
-Atributo de imagen/máscara de origen. Se omite si `size=` se especifica también para la capa actual. Anula `res=`. Se aplica a la capa 0 si se especifica para `layer=comp`. Se omite si la capa no está asociada a una imagen o máscara.
+Atributo imagen/máscara de origen. Se omite si `size=` también se especifica para la capa actual. Anulaciones `res=`. Se aplica a la capa 0 si se especifica para `layer=comp`. Se omite si la capa no está asociada a una imagen o máscara.
 
 ## Predeterminado {#section-26e64904362342a5a62c5f6598f330c4}
 
