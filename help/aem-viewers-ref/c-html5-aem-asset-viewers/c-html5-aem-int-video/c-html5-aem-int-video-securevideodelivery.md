@@ -1,37 +1,38 @@
 ---
-description: ENVÍO de vídeo HTTPS
+description: Entrega de vídeo HTTPS
 solution: Experience Manager
-title: ENVÍO de vídeo HTTPS
-topic: Dynamic Media
+title: Entrega de vídeo HTTPS
 uuid: acda9c8f-e8f4-4855-9b14-82838ec5a1b9
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
 
 
-# ENVÍO de vídeo HTTPS{#https-video-delivery}
+# Entrega de vídeo HTTPS{#https-video-delivery}
 
 >[!NOTE]
 >
->El Envío de vídeo seguro solo se aplica a AEM 6.2 con la instalación de [Feature Pack-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480) y a AEM 6.1 con la instalación de [Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011).
+>La entrega de vídeo seguro solo se aplica a AEM 6.2 con la instalación de [Feature Pack-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480) y a AEM 6.1 con la instalación de [Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011).
 
-Siempre que el visor funcione en la configuración como se describe al principio de esta sección, el envío de vídeo publicado puede producirse tanto en los modos HTTPS (seguro) como HTTP (no seguro). En una configuración predeterminada, el protocolo de envío de vídeo sigue estrictamente el protocolo de envío de la página web de incrustación. Sin embargo, es posible forzar el envío de vídeo HTTPS sin tener en cuenta el protocolo utilizado al incrustar la página web mediante el atributo de configuración [VideoPlayer.ssl](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-ssl.md#reference-c28e1b700977493eadab5489458d7771). (Tenga en cuenta que la previsualización de vídeo en modo Autor siempre se entrega de forma segura a través de HTTPS).
+Siempre que el visor funcione en una configuración como se describe al principio de esta sección, la entrega de vídeo publicado puede realizarse tanto en los modos HTTPS (seguro) como HTTP (inseguro). En una configuración predeterminada, el protocolo de entrega de vídeo sigue estrictamente el protocolo de entrega de la página web de incrustación. Sin embargo, es posible forzar el envío de vídeo HTTPS independientemente del protocolo utilizado al incrustar la página web utilizando el atributo de configuración [VideoPlayer.ssl](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-ssl.md#reference-c28e1b700977493eadab5489458d7771) . (Tenga en cuenta que la previsualización de vídeo en modo Autor siempre se entrega de forma segura a través de HTTPS).
 
-Según el método de publicación de vídeo de Dynamic Media que utilice en AEM, el atributo de configuración `VideoPlayer.ssl` se aplica de forma diferente, tal como se muestra en lo siguiente:
+Según el método de publicación de vídeo de Dynamic Media que utilice en AEM, el atributo de configuración `VideoPlayer.ssl` se aplica de forma diferente, como se muestra en lo siguiente:
 
-* Si publica un vídeo de Dynamic Media con una URL, anexe `VideoPlayer.ssl` a la URL. Por ejemplo, para forzar el envío de vídeo seguro, añada `&VideoPlayer.ssl=on` al final del siguiente ejemplo de URL de visor:
+* Si publica un vídeo de Dynamic Media con una dirección URL, anexe `VideoPlayer.ssl` a la dirección URL. Por ejemplo, para forzar el envío seguro de vídeo, añada `&VideoPlayer.ssl=on` al final del siguiente ejemplo de URL de visor:
 
    ```
    https://demos-pub.assetsadobe.com/etc/dam/viewers/s7viewers/html5/InteractiveVideoViewer.html?asset=%2Fcontent%2Fdam%2Fmarketing%2Fshoppable-video%2Fadobe-axis-demo%2FAdobe_AXIS_V3_GRADED-HD.mp4&config=/etc/dam/presets/viewer/Shoppable_Video_light&serverUrl=https%3A%2F%2Fadobedemo62-h.assetsadobe.com%2Fis%2Fimage%2F&contenturl=%2F&config2=/etc/dam/presets/analytics&videoserverurl=https://gateway-na.assetsadobe.com/DMGateway/public/demoCo&interactivedata=content/dam/_VTT/marketing/shoppable-video/adobe-axis-demo/Adobe_AXIS_V3_GRADED-HD.mp4.svideo.vtt&VideoPlayer.contenturl=https://adobedemo62-h.assetsadobe.com/is/content&VideoPlayer.ssl=on
    ```
 
-   Consulte también [Vinculación de direcciones URL a su Aplicación web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic)
+   Consulte también [Vinculación de URL a su aplicación web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic)
 
-* Si publica un vídeo de Dynamic Media con código incrustado, agregue `VideoPlayer.ssl` a la lista de otros parámetros de configuración del visor en el fragmento de código incrustado. Por ejemplo, para forzar el envío de vídeo HTTPS, anexe `&VideoPlayer.ssl=on` como en el siguiente ejemplo:
+* Si publica un vídeo de Dynamic Media con código incrustado, añada `VideoPlayer.ssl` a la lista de otros parámetros de configuración del visor en el fragmento de código incrustado. Por ejemplo, para forzar el envío de vídeo HTTPS, añada `&VideoPlayer.ssl=on` como en el siguiente ejemplo:
 
    ```
    <style type="text/css"> 
@@ -78,5 +79,5 @@ Según el método de publicación de vídeo de Dynamic Media que utilice en AEM,
    </script>
    ```
 
-   Consulte también [Incrustación del vídeo en una página Web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic).
+   Consulte también [Incrustación del vídeo en una página web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic).
 
