@@ -1,15 +1,16 @@
 ---
 description: La vista principal consiste en la imagen de giro.
 seo-description: La vista principal consiste en la imagen de giro.
-seo-title: Vista de giros
+seo-title: Vista de giro
 solution: Experience Manager
-title: Vista de giros
-topic: Dynamic Media
+title: Vista de giro
 uuid: 74f42373-b08c-43c8-8f08-e61a09655b61
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de giros
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '79'
 ht-degree: 1%
 
 ---
@@ -21,7 +22,7 @@ La vista principal consiste en la imagen de giro.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propiedades CSS del área del visor principal**
+**Propiedades CSS del área principal del visor**
 
 El aspecto del área de visualización se controla con el siguiente selector de clase CSS:
 
