@@ -2,13 +2,14 @@
 description: ZoomView.reset
 solution: Experience Manager
 title: ZoomView.reset
-topic: Dynamic Media
 uuid: 5fd6c6c5-5fa5-498c-877a-1f50f710bf7a
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '40'
-ht-degree: 12%
+source-wordcount: '52'
+ht-degree: 9%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 12%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Restaura el puerto de vista cuando cambia el marco (imagen). Si se establece en <span class="codeph"> 0</span>, se conserva el puerto de vista actual con el mejor ajuste posible y se conserva la proporción de aspecto de la imagen recién configurada. </p> </td> 
+   <td colname="col2"> <p> Restaura el puerto de vista cuando cambia el marco (imagen). Si se establece en <span class="codeph"> 0</span>, conserva el puerto de vista actual con el mejor ajuste posible, preservando al mismo tiempo la relación de aspecto de la imagen recién establecida. </p> </td> 
   </tr> 
  </tbody> 
 </table>
