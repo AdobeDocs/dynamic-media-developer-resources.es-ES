@@ -1,15 +1,16 @@
 ---
-description: Elemento de filtro de dirección. Opcional en los elementos <rule> y <pathrule>.
-seo-description: Elemento de filtro de dirección. Opcional en los elementos <rule> y <pathrule>.
-seo-title: direcsfilter
+description: Elemento de filtro de dirección. Opcional en elementos <rule> y <pathrule> .
+seo-description: Elemento de filtro de dirección. Opcional en elementos <rule> y <pathrule> .
+seo-title: addressfilter
 solution: Experience Manager
-title: direcsfilter
-topic: Dynamic Media Image Serving - Image Rendering API
+title: addressfilter
 uuid: 677eb19f-fd1a-4f74-8d55-6045baf01bf5
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '138'
 ht-degree: 4%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 4%
 
 # addressfilter{#addressfilter}
 
-Elemento de filtro de dirección. Opcional en elementos `<rule>` y `<pathrule>`.
+Elemento de filtro de dirección. Opcional en elementos `<rule>` y `<pathrule>` .
 
 Anula `attribute::ClientAddressFilter` cuando se aplica la regla.
 
@@ -27,11 +28,11 @@ Ninguno.
 
 ## Datos {#section-c762bdfe425140d689ea5abf25e9a48a}
 
-Lista separada por comas de las direcciones IP. Cada dirección individual puede incluir un sufijo opcional de máscara de red para permitir la especificación de intervalos de direcciones IP. Consulte `attribute::ClientAddressFilter` para obtener más información.
+Lista de direcciones IP separadas por comas. Cada dirección individual puede incluir un sufijo de máscara de red opcional para permitir la especificación de intervalos de direcciones IP. Consulte `attribute::ClientAddressFilter` para obtener más información.
 
 ## Descripción {#section-d561b2485e004ef8a2085997d0f4bca6}
 
-El acceso a este catálogo de imágenes puede restringirse a una o varias direcciones IP de cliente específicas especificándolas en un elemento `<addressfilter>`. Se devuelve un error de &quot;solicitud rechazada&quot; al cliente si no coincide la dirección IP del cliente.
+El acceso a este catálogo de imágenes se puede restringir a una o más direcciones IP de cliente específicas especificándolas en un elemento `<addressfilter>`. Se devuelve al cliente un error &quot;solicitud rechazada&quot; si la dirección IP del cliente no coincide.
 
 El acceso no está restringido si `<addressfilter>` está vacío o no se ha especificado.
 
