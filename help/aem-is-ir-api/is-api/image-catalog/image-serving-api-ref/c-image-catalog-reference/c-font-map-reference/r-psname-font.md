@@ -1,29 +1,30 @@
 ---
-description: Nombre facial de fuente PostScript. El nombre de la fuente Postscript.
-seo-description: Nombre facial de fuente PostScript. El nombre de la fuente Postscript.
+description: Nombre facial de la fuente Postscript. Nombre de la fuente Postscript.
+seo-description: Nombre facial de la fuente Postscript. Nombre de la fuente Postscript.
 seo-title: PsName
 solution: Experience Manager
 title: PsName
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8c7624c5-7f34-4128-abb7-94c007669b80
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 8%
+source-wordcount: '82'
+ht-degree: 7%
 
 ---
 
 
 # PsName{#psname}
 
-Nombre facial de fuente PostScript. El nombre de la fuente Postscript.
+Nombre facial de la fuente Postscript. Nombre de la fuente Postscript.
 
-En este momento, solo el procesador FXG puede hacer referencia a las fuentes por sus nombres de Postscript.
+En este momento, solo el renderizador FXG puede hacer referencia a las fuentes por sus nombres Postscript.
 
 ## Propiedades {#section-a560f8bfc69a4d88aeb0b53c1625153b}
 
-Cadena de texto. Opcional. Clave de índice secundaria para el mapa de fuente. El mismo valor `font::PsName` puede ocurrir sólo una vez en el mismo archivo de asignación de fuentes.
+Cadena de texto. Opcional. Clave de índice secundaria para el mapa de fuente. El mismo valor `font::PsName` puede aparecer solo una vez en el mismo archivo de asignación de fuentes.
 
 ## Predeterminado {#section-c5903d5340e740b69ec0150d2303a893}
 
