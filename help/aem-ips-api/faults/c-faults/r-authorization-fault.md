@@ -1,26 +1,27 @@
 ---
-description: Se emite cuando un usuario autenticado no tiene permisos suficientes para realizar una tarea.
+description: Se activa cuando un usuario autenticado no tiene permisos suficientes para realizar una tarea.
 solution: Experience Manager
-title: authorizedFault
-topic: Dynamic Media Image Production System API
+title: authorizationFault
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 27%
+source-wordcount: '61'
+ht-degree: 24%
 
 ---
 
 
-# authorizedFault{#authorizationfault}
+# authorizationFault{#authorizationfault}
 
-Se emite cuando un usuario autenticado no tiene permisos suficientes para realizar una tarea.
+Se activa cuando un usuario autenticado no tiene permisos suficientes para realizar una tarea.
 
 Sintaxis
 
 ## Tipos de errores {#section-1f04dec489714ee6bb7256fae6ab7730}
 
-| ID | Error |
+| ID | Fallo |
 |---|---|
 | 20000 | `AUTHORIZATION_FAULT_CODE_INVALID_COMPANY` |
 | 20001 | `AUTHORIZATION_FAULT_CODE_INVALID_REQUEST_USERNAME` |
@@ -33,7 +34,7 @@ Sintaxis
 | 2008 | `AUTHORIZATION_FAULT_CODE_ILLEGAL_ACCESS_GROUP` |
 | 2009 | `AUTHORIZATION_FAULT_CODE_MISSING_PERMISSION` |
 
-## Campos de error {#section-4e3e41f41fea402a9ae314bfd05f663e}
+## Campos predeterminados {#section-4e3e41f41fea402a9ae314bfd05f663e}
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
