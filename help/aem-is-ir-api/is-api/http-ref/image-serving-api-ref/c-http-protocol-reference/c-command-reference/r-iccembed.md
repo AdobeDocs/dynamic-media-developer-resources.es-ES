@@ -1,15 +1,16 @@
 ---
-description: Incrustar Perfil de color. Especifica si el perfil de color ICC de trabajo o el perfil especificado con icc= deben incrustarse en la imagen de respuesta.
-seo-description: Incrustar Perfil de color. Especifica si el perfil de color ICC de trabajo o el perfil especificado con icc= deben incrustarse en la imagen de respuesta.
+description: Incrustar perfil de color. Especifica si el perfil de color ICC de trabajo o el perfil especificado con icc= deben incrustarse en la imagen de respuesta.
+seo-description: Incrustar perfil de color. Especifica si el perfil de color ICC de trabajo o el perfil especificado con icc= deben incrustarse en la imagen de respuesta.
 seo-title: iccEmbed
 solution: Experience Manager
 title: iccEmbed
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ccd3fd2f-6f73-4725-a51a-9daf643d71af
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '124'
 ht-degree: 3%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 3%
 
 # iccEmbed{#iccembed}
 
-Incrustar Perfil de color. Especifica si el perfil de color ICC de trabajo o el perfil especificado con icc= deben incrustarse en la imagen de respuesta.
+Incrustar perfil de color. Especifica si el perfil de color ICC de trabajo o el perfil especificado con icc= deben incrustarse en la imagen de respuesta.
 
 `iccEmbed=0|1`
 
 ## Propiedades {#section-e36aa3c63a974b969d9e4f43fe5a37ab}
 
-Solicitar atributo. Se omite si no hay ningún perfil disponible para la incrustación.
+Atributo de solicitud. Se omite si no hay ningún perfil disponible para incrustar.
 
 ## Predeterminado {#section-01948f6cd7a2415091004cd7526436c7}
 
