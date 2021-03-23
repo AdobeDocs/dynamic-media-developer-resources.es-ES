@@ -1,25 +1,26 @@
 ---
-description: Formato de codificación TIFF. Especifica el formato de compresión para las imágenes TIFF (de hecho, el valor predeterminado para el tercer valor del comando fmt=).
-seo-description: Formato de codificación TIFF. Especifica el formato de compresión para las imágenes TIFF (de hecho, el valor predeterminado para el tercer valor del comando fmt=).
+description: Formato de codificación TIFF. Especifica el formato de compresión para las imágenes TIFF (de forma efectiva el valor predeterminado para el tercer valor del comando fmt=).
+seo-description: Formato de codificación TIFF. Especifica el formato de compresión para las imágenes TIFF (de forma efectiva el valor predeterminado para el tercer valor del comando fmt=).
 seo-title: TiffEncoding
 solution: Experience Manager
 title: TiffEncoding
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b9f672f8-d759-4248-8588-9fe46db1645f
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 4%
+source-wordcount: '102'
+ht-degree: 3%
 
 ---
 
 
 # TiffEncoding{#tiffencoding}
 
-Formato de codificación TIFF. Especifica el formato de compresión para las imágenes TIFF (de hecho, el valor predeterminado para el tercer valor del comando fmt=).
+Formato de codificación TIFF. Especifica el formato de compresión para las imágenes TIFF (de forma efectiva el valor predeterminado para el tercer valor del comando fmt=).
 
-Establezca el valor en 0 sin compresión, 1 para LZW, 2 para deflate (ZIP) y 3 para compresión JPEG.
+Establézcalo en 0 sin compresión, 1 para LZW, 2 para deflate (ZIP) y 3 para compresión JPEG.
 
 ## Propiedades {#section-469f5a1225464542866f5353edd92db3}
 
@@ -27,7 +28,7 @@ Enum.
 
 ## Predeterminado {#section-a3c5152a9f464e4987ed7c05d35b1169}
 
-Se hereda de `default::TiffEncoding` si no está definida o si está vacía.
+Se hereda de `default::TiffEncoding` si no está definido o si está vacío.
 
 ## Véase también {#section-1601425e5ac3486da4df8e7fa55981b2}
 
