@@ -1,23 +1,24 @@
 ---
-description: Establece los valores de metadatos de un recurso. Funciona con una matriz de actualizaciones de metadatos para definir valores en un lote.
-seo-description: Establece los valores de metadatos de un recurso. Funciona con una matriz de actualizaciones de metadatos para definir valores en un lote.
+description: Define los valores de metadatos de un recurso. Funciona con una matriz de actualizaciones de metadatos para establecer valores en un lote.
+seo-description: Define los valores de metadatos de un recurso. Funciona con una matriz de actualizaciones de metadatos para establecer valores en un lote.
 seo-title: setAssetMetadata
 solution: Experience Manager
 title: setAssetMetadata
-topic: Dynamic Media Image Production System API
 uuid: 17fe8277-a164-4f91-af96-ea43d41bd4f2
+feature: Dynamic Media Classic,SDK/API,Metadatos,Administración de activos
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 9%
+source-wordcount: '153'
+ht-degree: 8%
 
 ---
 
 
 # setAssetMetadata{#setassetmetadata}
 
-Establece los valores de metadatos de un recurso. Funciona con una matriz de actualizaciones de metadatos para definir valores en un lote.
+Define los valores de metadatos de un recurso. Funciona con una matriz de actualizaciones de metadatos para establecer valores en un lote.
 
 Sintaxis
 
@@ -40,13 +41,13 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía con el recurso que desea actualizar. |
-| `*`assetHandle`*` | `xsd:string` | Sí | Identificador del recurso. |
-| `*`updateArray`*` | `types:MetadataUpdateArray` | Sí | Actualizaciones en una matriz de actualizaciones de metadatos. |
+| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa con el recurso que desea actualizar. |
+| `*`assetHandle`*` | `xsd:string` | Sí | El identificador del recurso. |
+| `*`updateArray`*` | `types:MetadataUpdateArray` | Sí | Actualizaciones en una matriz de actualización de metadatos. |
 
 **Salida (setAssetMetadataReturn)**
 
-La API de IPS no devuelve una respuesta para esta operación.
+La API IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-1ab412e7ee1d4d6d8469b0b403598c42}
 
