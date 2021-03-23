@@ -1,23 +1,24 @@
 ---
-description: Información de archivo para recursos de vídeo principales.
-seo-description: Información de archivo para recursos de vídeo principales.
+description: Información del archivo para recursos de vídeo principales.
+seo-description: Información del archivo para recursos de vídeo principales.
 seo-title: MasterVideoInfo
 solution: Experience Manager
 title: MasterVideoInfo
-topic: Dynamic Media Image Production System API
 uuid: 19f814c9-dddb-41ff-aef2-fb7ea91c130b
+feature: Dynamic Media Classic,SDK/API,Vídeo
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 25%
+source-wordcount: '43'
+ht-degree: 20%
 
 ---
 
 
 # MasterVideoInfo{#mastervideoinfo}
 
-Información de archivo para recursos de vídeo principales.
+Información del archivo para recursos de vídeo principales.
 
 Sintaxis
 
