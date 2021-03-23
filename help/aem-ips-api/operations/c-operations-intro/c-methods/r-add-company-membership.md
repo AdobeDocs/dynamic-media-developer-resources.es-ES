@@ -1,20 +1,21 @@
 ---
-description: Añade un usuario en una o varias compañías.
+description: Agrega un usuario a una o más empresas.
 solution: Experience Manager
 title: addCompanyMembership
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 14%
+source-wordcount: '90'
+ht-degree: 13%
 
 ---
 
 
 # addCompanyMembership{#addcompanymembership}
 
-Añade un usuario en una o varias compañías.
+Agrega un usuario a una o más empresas.
 
 Sintaxis
 
@@ -31,16 +32,16 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | No | Identificador del usuario cuya pertenencia desea agregar. |
-| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Sí | Matriz de compañías a la que está agregando el usuario. |
+| `*`userHandle`*` | `xsd:string` | No | El identificador del usuario cuya pertenencia desea agregar. |
+| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Sí | Matriz de empresas a las que va a agregar el usuario. |
 
-**Output (addCompanyMembershipReturn)**
+**Salida (addCompanyMembershipReturn)**
 
-La API de IPS no devuelve una respuesta para esta operación.
+La API IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-5469f88bac7047cca131faa6b021e437}
 
-Este ejemplo utiliza `*`companyHandleArray`*` para agregar un usuario a una sola compañía.
+Este ejemplo utiliza `*`companyHandleArray`*` para agregar un usuario a una sola empresa.
 
 **Solicitar**
 
