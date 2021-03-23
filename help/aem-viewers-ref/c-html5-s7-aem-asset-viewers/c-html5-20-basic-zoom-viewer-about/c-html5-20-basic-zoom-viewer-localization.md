@@ -1,15 +1,16 @@
 ---
-description: Cierto contenido que muestra el visor de zoom básico está sujeto a localización, incluidos los botones de zoom y un botón de pantalla completa.
-seo-description: Cierto contenido que muestra el visor de zoom básico está sujeto a localización, incluidos los botones de zoom y un botón de pantalla completa.
+description: Cierto contenido que muestra el Visor de zoom básico está sujeto a localización, incluidos botones de zoom y un botón de pantalla completa.
+seo-description: Cierto contenido que muestra el Visor de zoom básico está sujeto a localización, incluidos botones de zoom y un botón de pantalla completa.
 seo-title: Localización de los elementos de la interfaz de usuario
 solution: Experience Manager
 title: Localización de los elementos de la interfaz de usuario
-topic: Dynamic Media
 uuid: 842970d9-0882-4163-8c49-3ea35d372d35
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
@@ -17,15 +18,15 @@ ht-degree: 0%
 
 # Localización de los elementos de la interfaz de usuario{#localization-of-user-interface-elements}
 
-Cierto contenido que muestra el visor de zoom básico está sujeto a localización, incluidos los botones de zoom y un botón de pantalla completa.
+Cierto contenido que muestra el Visor de zoom básico está sujeto a localización, incluidos botones de zoom y un botón de pantalla completa.
 
-Todo el contenido textual del visor que se puede localizar se representa mediante un identificador especial del SDK del visor denominado SYMBOL. Cualquier SÍMBOLO tiene un valor de texto asociado predeterminado para la configuración regional en inglés ( `"en"`) que se proporciona con el visor incorporado, y también puede tener valores definidos por el usuario para tantas configuraciones regionales como sea necesario.
+Cada contenido textual del visualizador que se puede localizar se representa mediante un identificador especial del SDK del visualizador denominado SYMBOL. Cualquier SYMBOL tiene un valor de texto asociado predeterminado para la configuración regional de inglés ( `"en"`) que se proporciona con el visor incorporado, y también puede tener valores definidos por el usuario definidos para tantas configuraciones regionales como sea necesario.
 
-Cuando el visor inicio, comprueba la configuración regional actual para ver si hay un valor definido por el usuario para cada SÍMBOLO admitido en la configuración regional. Si la hay, utiliza el valor definido por el usuario; de lo contrario, se remonta al texto predeterminado predefinido.
+Cuando se inicia el visor, comprueba la configuración regional actual para ver si hay un valor definido por el usuario para cada SYMBOL admitido en la configuración regional. Si existe, utiliza el valor definido por el usuario; de lo contrario, vuelve al texto predeterminado predeterminado predeterminado predeterminado.
 
-Los datos de localización definidos por el usuario se pueden pasar al visor como un objeto JSON de localización. Dicho objeto contiene la lista de configuraciones regionales admitidas, los valores de texto SYMBOL para cada configuración regional y la configuración regional predeterminada.
+Los datos de localización definidos por el usuario se pueden pasar al visor como un objeto JSON de localización. Este objeto contiene la lista de configuraciones regionales admitidas, los valores de texto SYMBOL para cada configuración regional y la configuración regional predeterminada.
 
-Ejemplo de dicho objeto de localización:
+Un ejemplo de este objeto de localización:
 
 ```
 { 
@@ -41,9 +42,9 @@ defaultLocale:"en"
 }
 ```
 
-En el ejemplo anterior, el objeto localización define dos configuraciones regionales ( `"en"` y `"fr"`) y proporciona localización para dos elementos de interfaz de usuario en cada configuración regional.
+En el ejemplo anterior, el objeto de localización define dos configuraciones regionales ( `"en"` y `"fr"`) y proporciona localización para dos elementos de interfaz de usuario en cada configuración regional.
 
-El código de página web debe pasar dicho objeto de localización al constructor del visor como un valor del campo `localizedTexts` del objeto de configuración. Una opción alternativa es pasar el objeto de localización llamando al método `setLocalizedTexts(localizationInfo)`.
+El código de la página web debe pasar dicho objeto de localización al constructor del visor como un valor del campo `localizedTexts` del objeto de configuración. Una opción alternativa es pasar el objeto de localización llamando al método `setLocalizedTexts(localizationInfo)`.
 
 Se admiten los siguientes SÍMBOLOS:
 
@@ -51,13 +52,13 @@ Se admiten los siguientes SÍMBOLOS:
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>SÍMBOLO </p> </th> 
-   <th colname="col2" class="entry"> <p>Información de objeto para el... </p> </th> 
+   <th colname="col2" class="entry"> <p>Información de objeto para... </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Contenedor.ETIQUETA  </span> </p> </td> 
-   <td colname="col2"> <p>Etiqueta ARIA para el elemento de visor de nivel superior. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Container.LABEL  </span> </p> </td> 
+   <td colname="col2"> <p>Etiqueta ARIA para el elemento de visualizador de nivel superior. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZoomView.ROLE_DESCRIPTION  </span> </p> </td> 
@@ -65,7 +66,7 @@ Se admiten los siguientes SÍMBOLOS:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZoomView.USAGE_HINT  </span> </p> </td> 
-   <td colname="col2"> <p>Sugerencias de uso de ARIA para usuarios de teclado. </p> </td> 
+   <td colname="col2"> <p>Sugerencias de uso de ARIA para usuarios del teclado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> CloseButton.TOOLTIP  </span> </p> </td> 
@@ -81,7 +82,7 @@ Se admiten los siguientes SÍMBOLOS:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZoomResetButton.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Botón de restablecimiento de zoom. </p> </td> 
+   <td colname="col2"> <p>Botón para restablecer zoom. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED  </span> </p> </td> 
