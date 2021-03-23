@@ -1,15 +1,16 @@
 ---
-description: Recuperar el estado resumido de un trabajo enviado.
-seo-description: Recuperar el estado resumido de un trabajo enviado.
+description: Recupere el estado resumido de un trabajo enviado.
+seo-description: Recupere el estado resumido de un trabajo enviado.
 seo-title: batchjobbristatus
 solution: Experience Manager
 title: batchjobbristatus
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 601e8395-8a77-4324-9cd7-5fe321bc91e3
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '64'
 ht-degree: 1%
 
 ---
@@ -17,14 +18,14 @@ ht-degree: 1%
 
 # batchjobbristatus{#batchjobbriefstatus}
 
-Recuperar el estado resumido de un trabajo enviado.
+Recupere el estado resumido de un trabajo enviado.
 
 Este parámetro:
 
 <table id="simpletable_86E581DBB352479CB4CB531434D91E83"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> jobid  </span> </p> </td> 
-  <td class="stentry"> <p>Id. de trabajo obtenido en el momento del envío. </p> </td> 
+  <td class="stentry"> <p>ID de trabajo obtenido en el momento del envío. </p> </td> 
  </tr> 
 </table>
 
