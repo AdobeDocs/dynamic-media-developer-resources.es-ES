@@ -1,29 +1,30 @@
 ---
-description: Dominios web de la aplicación Flash. Las aplicaciones de Flash de Adobe pueden requerir acceso a las propiedades de las imágenes entregadas con fmt=swf o fmt=swf3.
-seo-description: Dominios web de la aplicación Flash. Las aplicaciones de Flash de Adobe pueden requerir acceso a las propiedades de las imágenes entregadas con fmt=swf o fmt=swf3.
+description: dominios web de la aplicación de Flash. Las aplicaciones de Flash de Adobe pueden requerir acceso a las propiedades de las imágenes entregadas con fmt=swf o fmt=swf3.
+seo-description: dominios web de la aplicación de Flash. Las aplicaciones de Flash de Adobe pueden requerir acceso a las propiedades de las imágenes entregadas con fmt=swf o fmt=swf3.
 seo-title: TrustedDomains
 solution: Experience Manager
 title: TrustedDomains
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 1d056d68-b699-413c-897c-8612444735c5
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 3%
+source-wordcount: '136'
+ht-degree: 2%
 
 ---
 
 
 # TrustedDomains{#trusteddomains}
 
-Dominios web de la aplicación Flash. Las aplicaciones de Flash de Adobe pueden requerir acceso a las propiedades de las imágenes entregadas con fmt=swf o fmt=swf3.
+dominios web de la aplicación de Flash. Las aplicaciones de Flash de Adobe pueden requerir acceso a las propiedades de las imágenes entregadas con fmt=swf o fmt=swf3.
 
 El swf debe conceder acceso explícitamente registrando el nombre de los dominios de aplicación en los que confía.
 
 ## Propiedades {#section-e7f95bbb749f441e83e90c2bc3d5a6e0}
 
-Cadena que contiene una lista separada por comas de nombres de dominio web. Si están vacías, las aplicaciones deben estar en el mismo dominio que el procesamiento de imágenes para poder acceder a las propiedades de las imágenes en las respuestas con formato swf.
+Cadena que contiene una lista de nombres de dominio web separados por comas. Si está vacío, las aplicaciones deben estar servidas desde el mismo dominio que Image Rendering para poder acceder a las propiedades de las imágenes en respuestas con formato swf.
 
 ## Predeterminado {#section-5c52ed3c7310488380f5a6f9540bf981}
 
