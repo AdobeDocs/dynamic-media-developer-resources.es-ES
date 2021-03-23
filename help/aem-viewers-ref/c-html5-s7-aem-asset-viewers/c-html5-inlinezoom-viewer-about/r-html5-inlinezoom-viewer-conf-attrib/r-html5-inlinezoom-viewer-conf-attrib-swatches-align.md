@@ -2,13 +2,14 @@
 description: Swatches.align
 solution: Experience Manager
 title: Swatches.align
-topic: Dynamic Media
 uuid: 999edcab-dbe6-4ebe-8c29-ce4e4b9c9b1a
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom en línea
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 5%
+source-wordcount: '91'
+ht-degree: 4%
 
 ---
 
@@ -17,17 +18,17 @@ ht-degree: 5%
 
 `[Swatches.|<containerId>_swatches.]align=left|center|right,top|center|bottom`
 
-Especifica la alineación interna (anclaje) del contenedor de muestras dentro del área del componente. En Muestras, el tamaño del contenedor de miniaturas interno es tal que solo se muestra un número entero de muestras. Como resultado, hay cierto margen entre el contenedor interno y los límites del componente externo. Este comando especifica cómo se coloca el contenedor de muestras internas dentro del componente.
+Especifica la alineación interna (anclaje) del contenedor de muestras dentro del área del componente. En Muestras, el tamaño del contenedor de miniaturas interno es tal que solo se muestra un número entero de muestras. Como resultado, hay un margen entre el contenedor interno y los límites del componente externo. Este comando especifica cómo se coloca el contenedor de muestras interno dentro del componente.
 
 <table id="table_33CC037517964DA89EE0C005BB6B32BB"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> left|center|right</span> </p> </td> 
-   <td colname="col2"> <p> Define la alineación de las muestras horizontales. </p> </td> 
+   <td colname="col2"> <p> Define la alineación de muestras horizontales. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> top|center|bottom</span> </p> </td> 
-   <td colname="col2"> <p> Define la alineación de las muestras verticales. </p> </td> 
+   <td colname="col2"> <p> Define la alineación de muestras verticales. </p> </td> 
   </tr> 
  </tbody> 
 </table>
