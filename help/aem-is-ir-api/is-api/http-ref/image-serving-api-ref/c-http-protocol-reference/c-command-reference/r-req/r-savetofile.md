@@ -1,15 +1,16 @@
 ---
-description: Guardar imagen en archivo.
-seo-description: Guardar imagen en archivo.
+description: Guarde la imagen en el archivo.
+seo-description: Guarde la imagen en el archivo.
 seo-title: saveToFile
 solution: Experience Manager
 title: saveToFile
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 32a56d77-89e2-4f78-9fab-1b528e9a024a
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '192'
 ht-degree: 3%
 
 ---
@@ -17,14 +18,14 @@ ht-degree: 3%
 
 # saveToFile{#savetofile}
 
-Guardar imagen en archivo.
+Guarde la imagen en el archivo.
 
 `req=saveToFile&name= *``*[&timeout= *`fileval`*]`
 
 <table id="simpletable_5674FD9655FE4CDDB0E5DC8655890A66"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> archivo</span> </p> </td> 
-  <td class="stentry"> <p>Ruta relativa al archivo de imagen destinatario. </p></td> 
+  <td class="stentry"> <p>Ruta relativa al archivo de imagen de destino. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> val</span> </p></td> 
@@ -48,25 +49,25 @@ Cuando la solicitud de guardado se completa correctamente, devuelve varias propi
   <tr valign="top"> 
    <td> <p> <span class="codeph"> lastUpdated</span> </p> </td> 
    <td> <p> entero </p> </td> 
-   <td> <p>Hora de creación del archivo (número de milisegundos desde medianoche, 1 de enero de 1970 UTC/GMT). </p> </td> 
+   <td> <p>Hora de creación del archivo (número de milisegundos desde la medianoche del 1 de enero de 1970 UTC/GMT ). </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> pixelsTotal</span> </p> </td> 
    <td> <p> entero </p> </td> 
-   <td> <p> Número de píxeles de la imagen guardada. </p> </td> 
+   <td> <p> Número de píxeles en la imagen guardada. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> estado</span> </p> </td> 
    <td> <p> enum </p> </td> 
-   <td> <p> <span class="codeph"> Si </span> tiene éxito. </p> </td> 
+   <td> <p> <span class="codeph"> </span> si tiene éxito. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Devuelve el estado de respuesta HTTP 200 si se realiza correctamente y 403 si la solicitud falla o se agota el tiempo de espera. La respuesta tiene un tipo MIME `text/plain` y no se puede almacenar en caché.
+Devuelve el estado de respuesta HTTP 200 si es correcto y 403 si la solicitud falla o se agota el tiempo de espera. La respuesta tiene el tipo MIME `text/plain` y no se puede almacenar en caché.
 
-El almacenamiento importante en archivos debe habilitarse especificando la ruta a una carpeta grabable existente en `attribute::SavePath`. `saveToFile=` falla si  `attribute::SavePath` está vacío.
+Importante Guardar en archivos debe habilitarse especificando la ruta a una carpeta grabable existente en `attribute::SavePath`. `saveToFile=` falla si  `attribute::SavePath` está vacío.
 
-*`file`* debe ser una ruta relativa combinada con  `attribute::SavePath`. El servicio de imágenes no crea carpetas. La carpeta destinatario debe existir en el servidor y tener la configuración de permisos adecuada para el servicio de imágenes para crear archivos.
+*`file`* es obligatorio y debe ser una ruta relativa que se combine con  `attribute::SavePath`. El servicio de imágenes no crea carpetas. La carpeta de destino debe existir en el servidor y tener la configuración de permiso adecuada para que Image Serving cree archivos.
 
-`timeout=` es opcional. El tiempo de espera predeterminado es de 60.000 ms o el valor que se configure con `PS::SaveTimeout`.
+`timeout=` es opcional. El tiempo de espera predeterminado es de 60.000 ms, o el valor que esté configurado con `PS::SaveTimeout`.
