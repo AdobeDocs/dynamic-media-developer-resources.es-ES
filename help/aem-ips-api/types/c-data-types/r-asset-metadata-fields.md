@@ -1,23 +1,24 @@
 ---
-description: Devuelve definiciones de campo de metadatos para tipos de recurso especificados.
-seo-description: Devuelve definiciones de campo de metadatos para tipos de recurso especificados.
+description: Devuelve definiciones de campos de metadatos para tipos de recursos especificados.
+seo-description: Devuelve definiciones de campos de metadatos para tipos de recursos especificados.
 seo-title: AssetMetadataFields
 solution: Experience Manager
 title: AssetMetadataFields
-topic: Dynamic Media Image Production System API
 uuid: aefb734c-7609-4227-ae2c-48a1469740ec
+feature: Dynamic Media Classic,SDK/API,Metadatos,Administración de activos
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 8%
+source-wordcount: '67'
+ht-degree: 7%
 
 ---
 
 
 # AssetMetadataFields{#assetmetadatafields}
 
-Devuelve definiciones de campo de metadatos para tipos de recurso especificados.
+Devuelve definiciones de campos de metadatos para tipos de recursos especificados.
 
 Sintaxis
 
@@ -25,6 +26,6 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| `*`assetType`*` | `xsd:string` | Tipo de recurso asociado con definiciones de campo (consulte &quot;Tipos de recursos&quot; para conocer los valores). |
-| `*`fieldArray`*` | `types:MetadataFieldArray` | Matriz de definiciones de campo de metadatos asociadas con el tipo de recurso especificado en `assetType`. |
+| `*`assetType`*` | `xsd:string` | Tipo de recurso asociado a definiciones de campo (consulte &quot;Tipos de recursos&quot; para ver los valores). |
+| `*`fieldArray`*` | `types:MetadataFieldArray` | Matriz de definiciones de campo de metadatos asociadas al tipo de recurso especificado en `assetType`. |
 
