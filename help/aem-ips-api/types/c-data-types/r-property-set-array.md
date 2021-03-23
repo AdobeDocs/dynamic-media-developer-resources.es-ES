@@ -4,13 +4,14 @@ seo-description: Matriz de conjuntos de propiedades.
 seo-title: PropertySetArray
 solution: Experience Manager
 title: PropertySetArray
-topic: Dynamic Media Image Production System API
 uuid: 8180128a-6c63-4643-a152-42856460e1af
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 22%
+source-wordcount: '34'
+ht-degree: 17%
 
 ---
 
@@ -25,5 +26,5 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| `*`elementos`*` | `types:PropertySet` | Matriz de conjunto de propiedades. |
+| `*`elementos`*` | `types:PropertySet` | Conjunto de propiedades . |
 
