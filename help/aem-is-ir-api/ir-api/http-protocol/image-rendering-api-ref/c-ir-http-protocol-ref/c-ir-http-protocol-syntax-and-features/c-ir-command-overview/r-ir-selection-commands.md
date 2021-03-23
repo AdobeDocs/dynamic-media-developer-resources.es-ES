@@ -4,12 +4,13 @@ seo-description: Estos comandos se utilizan para seleccionar grupos de viñetas,
 seo-title: Comandos de selección
 solution: Experience Manager
 title: Comandos de selección
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: fac4080b-3b7e-46ac-a564-3a7eff80c9eb
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
@@ -31,8 +32,8 @@ El comando, o el material, o ambos, se especifican después de este comando de s
   <td class="stentry"> <p>Seleccione un grupo de viñetas u objeto por ubicación de píxeles. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-decal.md#reference-3a5f1adc7fe24c91aa5655d64038e857" type="reference" format="dita" scope="local"> decal</a></span> </p></td> 
-  <td class="stentry"> <p>Seleccione el área de cierre del objeto seleccionado. </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-decal.md#reference-3a5f1adc7fe24c91aa5655d64038e857" type="reference" format="dita" scope="local"> calco</a></span> </p></td> 
+  <td class="stentry"> <p>Seleccione el área de calcomanía del objeto seleccionado. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-sub.md#reference-3cedba817f3c401495ba32bd1bf9b383" type="reference" format="dita" scope="local"> sub</a></span> </p></td> 
