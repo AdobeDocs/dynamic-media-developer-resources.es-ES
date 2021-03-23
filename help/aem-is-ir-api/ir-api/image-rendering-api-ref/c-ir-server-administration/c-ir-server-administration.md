@@ -1,17 +1,18 @@
 ---
-description: Administración de servidores
+description: Administración del servidor
 solution: Experience Manager
-title: Administración de servidores
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Administración del servidor
 uuid: 7cb2f39f-f60e-4273-970d-0223df2fccf6
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '6'
+source-wordcount: '15'
 ht-degree: 0%
 
 ---
 
 
-# Administración de servidores{#server-administration}
+# Administración del servidor{#server-administration}
 
