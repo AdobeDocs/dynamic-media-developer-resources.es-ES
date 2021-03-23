@@ -1,15 +1,16 @@
 ---
-description: Parámetro común a todos los visores.
-seo-description: Parámetro común a todos los visores.
+description: Parámetro común a todos los visualizadores.
+seo-description: Parámetro común a todos los visualizadores.
 seo-title: serverUrl
 solution: Experience Manager
 title: serverUrl
-topic: Dynamic Media
 uuid: a079a223-7478-4b6a-bc99-284e3366fb30
+feature: Dynamic Media Classic,Visualizadores,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '115'
 ht-degree: 3%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 3%
 
 # serverUrl{#serverurl}
 
-Parámetro común a todos los visores.
+Parámetro común a todos los visualizadores.
 
 ` serverUrl= *`isRootPath`*`
 
@@ -25,7 +26,7 @@ Parámetro común a todos los visores.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p>Ruta raíz relativa o absoluta del servicio de imágenes. </p> <p> Especifica una ruta relativa o absoluta al servicio de imágenes, desde donde el visor recupera las imágenes. Si la ruta no tiene un <span class="filepath"> /</span> inicial, es relativa a la ubicación de la página HTML del visor. Si la ruta tiene un <span class="filepath"> /</span> inicial, especifica una ruta absoluta en el mismo servidor. </p> <p> Utilice solo una ruta absoluta en caso de que el módulo Compartir correo electrónico esté habilitado en el visor. </p> </td> 
+   <td colname="col2"> <p>Ruta raíz relativa o absoluta de Image Serving. </p> <p> Especifica una ruta relativa o absoluta al servicio de imágenes, desde donde el usuario recupera las imágenes. Si la ruta no tiene un <span class="filepath"> /</span> inicial, es relativa a la ubicación de la página HTML del visor. Si la ruta tiene un <span class="filepath"> /</span> inicial, especifica una ruta absoluta en el mismo servidor. </p> <p> Utilice solo una ruta absoluta en caso de que el módulo Compartir correo electrónico esté habilitado en el visor. </p> </td> 
   </tr> 
  </tbody> 
 </table>
