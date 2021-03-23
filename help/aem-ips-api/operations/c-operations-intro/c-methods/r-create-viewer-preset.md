@@ -1,15 +1,16 @@
 ---
-description: Crea una vista preestablecida que determina lo que un usuario puede ver. El visor puede ser de cualquier tipo disponible en IPS. La vista preestablecida se aplica al publicar los recursos.
-seo-description: Crea una vista preestablecida que determina lo que un usuario puede ver. El visor puede ser de cualquier tipo disponible en IPS. La vista preestablecida se aplica al publicar los recursos.
+description: Crea una vista preestablecida que determina lo que puede ver un usuario. El visor puede ser de cualquier tipo disponible en IPS. La vista preestablecida se aplica cuando se publican los recursos.
+seo-description: Crea una vista preestablecida que determina lo que puede ver un usuario. El visor puede ser de cualquier tipo disponible en IPS. La vista preestablecida se aplica cuando se publican los recursos.
 seo-title: createViewerPreset
 solution: Experience Manager
 title: createViewerPreset
-topic: Dynamic Media Image Production System API
 uuid: 4160d2b0-6147-459f-830a-43c99b8dc196
+feature: Dynamic Media Classic,SDK/API,ajustes preestablecidos de visor
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '199'
 ht-degree: 11%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 11%
 
 # createViewerPreset{#createviewerpreset}
 
-Crea una vista preestablecida que determina lo que un usuario puede ver. El visor puede ser de cualquier tipo disponible en IPS. La vista preestablecida se aplica al publicar los recursos.
+Crea una vista preestablecida que determina lo que puede ver un usuario. El visor puede ser de cualquier tipo disponible en IPS. La vista preestablecida se aplica cuando se publican los recursos.
 
 Sintaxis
 
@@ -34,17 +35,17 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Control de la compañía que contiene los ajustes preestablecidos y los recursos del visor. |
-| `*`folderHandle`*` | `xsd:string` | Sí | Identificador de la carpeta que contiene los recursos. |
+| `*`companyHandle`*` | `xsd:string` | Sí | El nombre de la empresa que contiene los ajustes preestablecidos de visor y los recursos. |
+| `*`folderHandle`*` | `xsd:string` | Sí | El identificador de la carpeta que contiene los recursos. |
 | `*`name`*` | `xsd:string` | Sí | Nombre del visor. |
 | `*`type`*` | `xsd:string` | Sí | Tipo de visor. |
-| `*`configSettingArray`*` | `types:ConfigSettingArray` | No | Matriz que contiene nombres, valores y controladores de imágenes a los que se aplican ajustes preestablecidos. |
+| `*`configSettingArray`*` | `types:ConfigSettingArray` | No | Matriz que contiene nombres, valores y identificadores de imágenes a las que está aplicando ajustes preestablecidos. |
 
 **Salida (createViewerPresetReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`viewerPresetHandle`*` | `xsd:string` | Sí | Control del ajuste preestablecido para el visor. |
+| `*`viewerPresetHandle`*` | `xsd:string` | Sí | Gestión del ajuste preestablecido en el visor. |
 
 ## Ejemplos {#section-c88ea63536f3461cbe4677ba53f875dd}
 
