@@ -1,20 +1,21 @@
 ---
-description: Añade un usuario a una matriz de grupos.
+description: Agrega un usuario a una matriz de grupos.
 solution: Experience Manager
 title: addGroupMembership
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 14%
+source-wordcount: '101'
+ht-degree: 13%
 
 ---
 
 
 # addGroupMembership{#addgroupmembership}
 
-Añade un usuario a una matriz de grupos.
+Agrega un usuario a una matriz de grupos.
 
 Sintaxis
 
@@ -42,24 +43,24 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Gestionar al usuario cuya pertenencia al grupo desea agregar. </p> </td> 
+   <td colname="col4"> <p>Gestione al usuario cuya pertenencia a un grupo desee añadir. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> groupHandleArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:HandleArray</span> </td> 
    <td colname="col3"> <p>Sí </p> </td> 
-   <td colname="col4"> <p>Matriz de identificadores de los grupos a los que desea que pertenezca la compañía. </p> </td> 
+   <td colname="col4"> <p>Matriz de identificadores de los grupos a los que desea que pertenezca la empresa. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Salida (addGroupMembershipParam)**
 
-La API de IPS no devuelve una respuesta para esta operación.
+La API IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-f7a1f40c3d7a40ea964b29056c734d81}
 
-En este ejemplo se agrega un grupo a una compañía con `*`groupHandleArray`*`. En este ejemplo solo se utiliza un grupo.
+En este ejemplo se agrega un grupo a una empresa con `*`groupHandleArray`*`. Este ejemplo utiliza un solo grupo.
 
 **Solicitar**
 
