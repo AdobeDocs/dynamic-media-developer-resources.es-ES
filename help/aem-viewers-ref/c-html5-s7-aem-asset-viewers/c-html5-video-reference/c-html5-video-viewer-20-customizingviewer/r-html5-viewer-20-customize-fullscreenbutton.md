@@ -1,15 +1,16 @@
 ---
 description: El botón de pantalla completa hace que el reproductor de vídeo entre o salga del modo de pantalla completa cuando un usuario hace clic en él.
 seo-description: El botón de pantalla completa hace que el reproductor de vídeo entre o salga del modo de pantalla completa cuando un usuario hace clic en él.
-seo-title: Botón de pantalla completa
+seo-title: Botón Pantalla completa
 solution: Experience Manager
-title: Botón de pantalla completa
-topic: Dynamic Media
+title: Botón Pantalla completa
 uuid: c6b90158-8658-49f1-86c3-c3dd00fe9070
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '283'
 ht-degree: 2%
 
 ---
@@ -23,7 +24,7 @@ El botón de pantalla completa hace que el reproductor de vídeo entre o salga d
 
 Puede cambiar el tamaño, el aspecto y la posición del botón de pantalla completa, en relación con la barra de control que lo contiene, mediante CSS.
 
-El aspecto del botón de pantalla completa se controla con el selector de clases CSS:
+El aspecto del botón de pantalla completa se controla con el selector de clase CSS:
 
 ```
 .s7videoviewer .s7fullscreenbutton
@@ -58,25 +59,25 @@ El aspecto del botón de pantalla completa se controla con el selector de clases
    <td colname="col2"> <p>Altura del botón de pantalla completa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p> Imagen mostrada para un estado de botón determinado. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
+   <td colname="col2"> <p> La imagen mostrada para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
+   <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Este botón admite los selectores de atributos `state` y `selected`, que pueden utilizarse para aplicar diferentes apariencias a diferentes estados de botón. En particular, `selected='true'` corresponde al estado de &quot;pantalla completa&quot; y `selected='false'` corresponde al estado &quot;normal&quot;.
+>Este botón admite los selectores de atributos `state` y `selected`, que pueden utilizarse para aplicar diferentes aspectos a diferentes estados de botones. En concreto, `selected='true'` corresponde al estado &quot;pantalla completa&quot; y `selected='false'` corresponde al estado &quot;normal&quot;.
 
-La información de objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
+La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
 
 ## Ejemplo {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Para configurar un botón de pantalla completa de 32 x 32 píxeles y posicionar 6 píxeles desde el borde superior y derecho de la barra de control. También se muestra una imagen diferente para cada uno de los cuatro estados de botón diferentes cuando se selecciona o no se selecciona.
+Para configurar un botón de pantalla completa de 32 x 32 píxeles y posicionar 6 píxeles desde el borde superior y derecho de la barra de control. Además, muestre una imagen diferente para cada uno de los cuatro estados de botón diferentes cuando esté seleccionado o no.
 
 ```
 .s7videoviewer . s7fullscreenbutton { 
