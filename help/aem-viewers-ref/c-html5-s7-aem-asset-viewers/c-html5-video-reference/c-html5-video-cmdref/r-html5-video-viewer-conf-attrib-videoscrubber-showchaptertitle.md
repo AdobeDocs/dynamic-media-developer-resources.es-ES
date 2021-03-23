@@ -1,23 +1,24 @@
 ---
-description: Atributo de configuración para el visor de vídeo.
-seo-description: Atributo de configuración para el visor de vídeo.
+description: Atributo de configuración para el visualizador de vídeo.
+seo-description: Atributo de configuración para el visualizador de vídeo.
 seo-title: VideoScrubber.showchaptertitle
 solution: Experience Manager
 title: VideoScrubber.showchaptertitle
-topic: Dynamic Media
 uuid: 935b35c3-edf2-4d05-ae21-7558f022ffbe
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 10%
+source-wordcount: '57'
+ht-degree: 8%
 
 ---
 
 
 # VideoScrubber.showchaptertitle{#videoscrubber-showchaptertitle}
 
-Atributo de configuración para el visor de vídeo.
+Atributo de configuración para el visualizador de vídeo.
 
 `[VideoScrubber.|<containerId>_videoScrubber.]showchaptertitle=0|1`
 
@@ -25,7 +26,7 @@ Atributo de configuración para el visor de vídeo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Desactiva o activa la barra de título de la etiqueta de capítulo de vídeo. El tiempo de inicio del capítulo no se muestra cuando la barra de título está deshabilitada. </p> </td> 
+   <td colname="col2"> <p> Desactiva o activa la barra de título de la etiqueta de capítulo del vídeo. La hora de inicio del capítulo no se muestra cuando la barra de título está desactivada. </p> </td> 
   </tr> 
  </tbody> 
 </table>
