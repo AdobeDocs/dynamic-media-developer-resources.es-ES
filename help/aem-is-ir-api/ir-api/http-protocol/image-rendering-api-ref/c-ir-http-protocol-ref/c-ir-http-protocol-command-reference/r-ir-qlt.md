@@ -1,15 +1,16 @@
 ---
-description: Calidad JPEG. Especifica los atributos de codificación JPEG para controlar el nivel de compresión.
-seo-description: Calidad JPEG. Especifica los atributos de codificación JPEG para controlar el nivel de compresión.
+description: Calidad de Jpeg. Especifica los atributos de codificación JPEG para controlar el nivel de compresión.
+seo-description: Calidad de Jpeg. Especifica los atributos de codificación JPEG para controlar el nivel de compresión.
 seo-title: qlt
 solution: Experience Manager
 title: qlt
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 46f5b0da-7fe7-4daf-947b-bb5f5f5f5e6d
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '213'
 ht-degree: 7%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 7%
 
 # qlt{#qlt}
 
-Calidad JPEG. Especifica los atributos de codificación JPEG para controlar el nivel de compresión.
+Calidad de Jpeg. Especifica los atributos de codificación JPEG para controlar el nivel de compresión.
 
 ` qlt= *``*[. *`cualitychroma`*]`
 
@@ -27,22 +28,22 @@ Calidad JPEG. Especifica los atributos de codificación JPEG para controlar el n
   <td class="stentry"> <p>Calidad de codificación JPEG (1...100) </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> cromatismo  </span> </p> </td> 
-  <td class="stentry"> <p>Baja resolución de cromaticidad JPEG (0=normal, 1=disable); opcional, el valor predeterminado es 0. </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> croma  </span> </p> </td> 
+  <td class="stentry"> <p>Muestreo descendente de cromaticidad JPEG (0=normal, 1=disable); opcional, el valor predeterminado es 0. </p> </td> 
  </tr> 
 </table>
 
-Especifica los atributos de codificación JPEG para controlar el nivel de compresión. Esto a su vez varía el tamaño del archivo (cantidad de datos de respuesta) e, indirectamente, la calidad visual de la imagen resultante.
+Especifica los atributos de codificación JPEG para controlar el nivel de compresión. Esto a su vez varía el tamaño del archivo (la cantidad de datos de respuesta) y, indirectamente, la calidad visual de la imagen resultante.
 
-Los valores *`quality`* más altos aumentan el tamaño y la calidad del archivo, los valores más bajos disminuyen el tamaño del archivo y reducen la calidad de imagen percibida. Si el valor es superior a 90, suele generar imágenes que no se distinguen de la imagen sin comprimir.
+Los valores más altos de *`quality`* aumentan el tamaño y la calidad del archivo, los valores más bajos reducen el tamaño de los archivos y reducen la calidad de imagen percibida. Si el valor es superior a 90, suele generar imágenes que no se distinguen de la imagen sin comprimir.
 
-Establezca el indicador *`chroma`* para desactivar el muestreo de disminución de cromaticidad empleado por los codificadores JPEG típicos. Esto puede aumentar el enfoque percibido de los bordes de una imagen cuando el borde se define mediante un cambio de tono en lugar de un brillo. La configuración de este indicador puede provocar un ligero aumento en el tamaño del archivo. Experimente con esta configuración si el texto parece ligeramente borroso.
+Establezca el indicador *`chroma`* para desactivar el muestreo descendente de cromaticidad empleado por los codificadores JPEG típicos. Esto puede aumentar la percepción de nitidez de los bordes en una imagen cuando el borde se define mediante un cambio de tono en lugar de un brillo. Configurar este indicador puede causar un ligero aumento en el tamaño del archivo. Experimente con esta configuración si el texto parece ligeramente borroso.
 
 ## Propiedades {#section-897b61c786dd4230a2c5807f2f40e722}
 
 Puede ocurrir en cualquier parte de la solicitud.
 
-Se omite si el formato de imagen de salida no admite compresión JPEG. Consulte la descripción de `fmt=` para obtener una lista de los formatos de imagen de salida que admiten compresión JPEG.
+Se omite si el formato de imagen de salida no admite compresión JPEG. Consulte la descripción de `fmt=` para obtener una lista de los formatos de imagen de salida que admiten la compresión JPEG.
 
 ## Predeterminado {#section-1c1257df843c475bbac6aadaffcb6347}
 
