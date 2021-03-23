@@ -1,48 +1,49 @@
 ---
-description: Vista de escala. Escala la imagen compuesta por el inverso del factor de incidencia.
-seo-description: Vista de escala. Escala la imagen compuesta por el inverso del factor de incidencia.
+description: Vista de escala. Escala la imagen compuesta por la inversa del factor de incidencia.
+seo-description: Vista de escala. Escala la imagen compuesta por la inversa del factor de incidencia.
 seo-title: scl
 solution: Experience Manager
 title: scl
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 10a365dc-9fc1-4236-9528-4aca04a4ca19
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 9%
+source-wordcount: '149'
+ht-degree: 8%
 
 ---
 
 
 # scl{#scl}
 
-Vista de escala. Escala la imagen compuesta por el inverso del factor de incidencia.
+Vista de escala. Escala la imagen compuesta por la inversa del factor de incidencia.
 
-`scl= *`filFactor`*`
+`scl= *`Visitor`*`
 
 <table id="simpletable_A09F5EECAC2B4E0F8633D71C6AD36D8D"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> filFactor</span> </p> </td> 
-  <td class="stentry"> <p>Factor de escala inversa (bueno real superior a 0,0). </p></td> 
+  <td class="stentry"> <p><span class="varname"> Visitor</span> </p> </td> 
+  <td class="stentry"> <p>Factor de escala inversa (bueno real distinto de 0,0). </p></td> 
  </tr> 
 </table>
 
-No se aplica ninguna escala cuando `scl=1`. *`invFactor`* mayor que 1,0 reduce la escala y menor que 1,0 amplía la imagen compuesta.
+No se aplica ninguna escala cuando `scl=1`. *`invFactor`* mayor que 1,0 baja escala y menor que 1,0 amplía la imagen compuesta.
 
-Si se especifica `scl=` y `wid=` y/o `hei=` también están presentes, la imagen se recorta a `wid=` y/o `hei=` después de escalarla.
+Si se especifica `scl=` y `wid=` o `hei=` también están presentes, la imagen se recorta a `wid=` o `hei=` después del escalado.
 
 >[!NOTE]
 >
->Se devuelve un error si el tamaño de la imagen de respuesta predeterminada o calculada es mayor que `attribute::MaxPix`.
+>Se devuelve un error si el tamaño de imagen de respuesta calculado o predeterminado es mayor que `attribute::MaxPix`.
 
 ## Propiedades {#section-60af012719db477db4a4703e9a6da5f5}
 
-Atributo de vista. Se aplica independientemente de la configuración de la capa actual.
+Ver atributo. Se aplica independientemente de la configuración de capa actual.
 
 ## Predeterminado {#section-32502fa218a24e1f9c65f41c0260b56a}
 
-Si no se especifica ni `wid=`, `hei=` ni `scl=`, la imagen de respuesta tendrá el tamaño de la imagen compuesta o `attribute::DefaultPix`, el que sea más pequeño.
+Si no se especifican `wid=`, `hei=` ni `scl=`, la imagen de respuesta tendrá el tamaño de la imagen compuesta o `attribute::DefaultPix`, el que sea más pequeño.
 
 ## Ejemplo {#section-a33f6239476a4b438d939656ad99aa76}
 
