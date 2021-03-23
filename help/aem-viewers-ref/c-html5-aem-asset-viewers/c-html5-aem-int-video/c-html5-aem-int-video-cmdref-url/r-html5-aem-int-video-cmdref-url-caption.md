@@ -1,15 +1,16 @@
 ---
-description: URL para el visor de vídeo interactivo.
-seo-description: URL para el visor de vídeo interactivo.
+description: URL para el visualizador de vídeo interactivo.
+seo-description: URL para el visualizador de vídeo interactivo.
 seo-title: caption
 solution: Experience Manager
 title: caption
-topic: Dynamic Media
 uuid: 602c8f64-e018-4916-8141-09b36003a99d
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '217'
 ht-degree: 10%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 10%
 
 # caption{#caption}
 
-URL para el visor de vídeo interactivo.
+URL para el visualizador de vídeo interactivo.
 
 ` caption= *`archivo`*[,0|1]`
 
-El visor admite subtítulos opcionales a través de archivos WebVTT alojados. No se admiten las indicaciones y regiones superpuestas. Los operadores de posicionamiento de señal admitidos son los siguientes:
+El visor admite subtítulos optativos a través de archivos WebVTT alojados. No se admiten las rutas y regiones superpuestas. Los operadores de posicionamiento de señal admitidos son los siguientes:
 
 <table id="table_62D89A06EC9E4E7983D1F26A2C85A621"> 
  <thead> 
@@ -36,37 +37,37 @@ El visor admite subtítulos opcionales a través de archivos WebVTT alojados. No
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> A </span> </p> </td> 
    <td colname="col2"> <p>alinear texto </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> left|right|middle|inicio|end  </span> </p> </td> 
-   <td colname="col4"> <p> Controla la alineación del texto. </p> <p>El valor predeterminado es <span class="codeph"> medio </span>. </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> left|right|middle|start|end  </span> </p> </td> 
+   <td colname="col4"> <p> Controle la alineación del texto. </p> <p>El valor predeterminado es <span class="codeph"> central </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">  </span> </p> </td> 
-   <td colname="col2"> <p>posición de texto </p> </td> 
-   <td colname="col3"> <p> 0%-100% </p> </td> 
+   <td colname="col2"> <p>posición del texto </p> </td> 
+   <td colname="col3"> <p> 0 %-100 % </p> </td> 
    <td colname="col4"> <p> Porcentaje de inserción en el componente VideoPlayer para el principio del texto del rótulo. </p> <p>El valor predeterminado es 0%. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> S  </span> </p> </td> 
    <td colname="col2"> <p>tamaño de línea </p> </td> 
-   <td colname="col3"> <p> 0%-100% </p> </td> 
-   <td colname="col4"> <p> Porcentaje de anchura de vídeo utilizado para rótulos. </p> <p>El valor predeterminado es 100%. </p> </td> 
+   <td colname="col3"> <p> 0 %-100 % </p> </td> 
+   <td colname="col4"> <p> Porcentaje de la anchura del vídeo utilizado para los rótulos. </p> <p>El valor predeterminado es 100%. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> L </span> </p> </td> 
    <td colname="col2"> <p>posición de línea </p> </td> 
    <td colname="col3"> <p> 0%-100%|entero </p> </td> 
-   <td colname="col4"> <p> Determina la posición de línea en la página. </p> <p>Si se expresa como un entero (sin signo de porcentaje), es el número de líneas desde la parte superior donde se muestra el texto. </p> <p>Si es un porcentaje (el signo de porcentaje es el último carácter), se muestra el texto del rótulo ese porcentaje en el área de visualización. </p> <p>El valor predeterminado es 100%. </p> </td> 
+   <td colname="col4"> <p> Determina la posición de línea en la página. </p> <p>Si se expresa como un entero (sin signo de porcentaje), entonces es el número de líneas de la parte superior donde se muestra el texto. </p> <p>Si es un porcentaje (el signo de porcentaje es el último carácter), se mostrará el texto del rótulo ese porcentaje en el área de visualización. </p> <p>El valor predeterminado es 100%. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Otras funciones WebVTT presentes en el archivo WebVTT no son compatibles, pero no deben interrumpir el subtítulo.
+Otras características de WebVTT presentes en el archivo WebVTT no son compatibles, pero no deben interrumpir el subtítulo.
 
 <table id="table_A5BB1C08DA4B425DBD0356C7D3693E75"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> file  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Especifica una dirección URL o ruta al contenido del subtítulo WebVTT. Proporcione el archivo WebVTT por servicio de imágenes. </p> </td> 
+   <td colname="col2"> <p> Especifica una dirección URL o ruta al contenido del subtítulo WebVTT. Proporcione el archivo WebVTT por Image Serving. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
