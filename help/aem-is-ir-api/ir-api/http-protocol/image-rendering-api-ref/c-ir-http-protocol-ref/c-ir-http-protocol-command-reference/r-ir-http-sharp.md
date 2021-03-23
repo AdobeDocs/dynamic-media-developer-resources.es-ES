@@ -1,52 +1,53 @@
 ---
-description: Enfocar textura. Especifica el enfoque que se aplicará al procesar este material.
-seo-description: Enfocar textura. Especifica el enfoque que se aplicará al procesar este material.
+description: Enfoque la textura. Especifica la nitidez que se aplicará al procesar este material.
+seo-description: Enfoque la textura. Especifica la nitidez que se aplicará al procesar este material.
 seo-title: enfocado
 solution: Experience Manager
 title: enfocado
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8265eebf-9cec-4ad3-8b22-0f46f33a89f1
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '146'
 ht-degree: 5%
 
 ---
 
 
-# sharp{#sharp}
+# Sharp{#sharp}
 
-Enfocar textura. Especifica el enfoque que se aplicará al procesar este material.
+Enfoque la textura. Especifica la nitidez que se aplicará al procesar este material.
 
 `sharp=0|1|2|3`
 
 <table id="simpletable_04B4EAA7CE7D4ED48A61A50CD001388F"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p> </td> 
-  <td class="stentry"> <p>Sin enfoque. </p> </td> 
+  <td class="stentry"> <p>Sin perfeccionamiento. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p> </td> 
-  <td class="stentry"> <p>Enfoque normal (tarde). </p> </td> 
+  <td class="stentry"> <p>Perfeccionamiento normal (final). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
-  <td class="stentry"> <p>0 enfoque alternativo (inicial). </p> </td> 
+  <td class="stentry"> <p>0 nitidez alternativa (al principio). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
-  <td class="stentry"> <p>Más enfoque (temprano y tarde). </p> </td> 
+  <td class="stentry"> <p>Más nitidez (temprana y tardía). </p> </td> 
  </tr> 
 </table>
 
-`sharp=1` aplica enfoque una vez procesado el material;  `sharp=2` aplica enfoque después de aplicar la escala inicial de la textura, pero antes de que se transforme en escena;  `sharp=3` aplica enfoque antes y después de la transformación.
+`sharp=1` aplica nitidez una vez procesado el material;  `sharp=2` aplica nitidez después de la escala inicial de la textura, pero antes de que se transforme en escena;  `sharp=3` aplica nitidez tanto antes como después de la transformación.
 
-El algoritmo de enfoque y la cantidad de enfoque y otros parámetros USM (máscara de enfoque) se controlan mediante la plantilla de material predeterminada proporcionada por la viñeta o con `rs=`.
+El algoritmo de perfeccionamiento y la cantidad de perfeccionamiento y otros parámetros USM (máscara de enfoque) se controlan mediante la plantilla de material predeterminada que proporciona la viñeta o con `rs=`.
 
 ## Propiedades {#section-498ec9fcb8eb415fb99532d36c11d4c7}
 
-Atributo Material. Ignorado por materiales de color sólido.
+Atributo de material. Ignorado por materiales de color sólido.
 
 ## Predeterminado {#section-febfa16e65864987b4d328e2ff1df64d}
 
