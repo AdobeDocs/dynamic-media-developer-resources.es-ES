@@ -1,23 +1,24 @@
 ---
-description: Quita los valores de campo de etiqueta del diccionario de un campo de etiqueta.
-seo-description: Quita los valores de campo de etiqueta del diccionario de un campo de etiqueta.
+description: Elimina los valores de los campos de etiqueta del diccionario de un campo de etiqueta.
+seo-description: Elimina los valores de los campos de etiqueta del diccionario de un campo de etiqueta.
 seo-title: deleteTagFieldValues
 solution: Experience Manager
 title: deleteTagFieldValues
-topic: Dynamic Media Image Production System API
 uuid: 71cdec4e-c1d6-4518-87ed-5c47a5112b15
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 12%
+source-wordcount: '106'
+ht-degree: 11%
 
 ---
 
 
 # deleteTagFieldValues{#deletetagfieldvalues}
 
-Quita los valores de campo de etiqueta del diccionario de un campo de etiqueta.
+Elimina los valores de los campos de etiqueta del diccionario de un campo de etiqueta.
 
 ## Tipos de usuarios autorizados {#section-e6f97c875c2a4cf0a7bc22096b649497}
 
@@ -31,13 +32,13 @@ Quita los valores de campo de etiqueta del diccionario de un campo de etiqueta.
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía que contiene el campo de etiqueta. |
-| `*`fieldHandle`*` | `xsd:string` | Sí | Identificador del campo de etiqueta que se va a modificar. |
+| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa que contiene el campo de etiqueta. |
+| `*`fieldHandle`*` | `xsd:string` | Sí | El controlador del campo de etiqueta que se va a modificar. |
 | `*`valueArray`*` | `types:StringArray` | Sí | Matriz de valores de etiqueta que se eliminarán del diccionario del campo. |
 
 **Salida (deleteTagFieldValuesParam)**
 
-La API de IPS no devuelve una respuesta para esta operación.
+La API IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-92f9e575a6da491caa09e264b4d6ee55}
 
