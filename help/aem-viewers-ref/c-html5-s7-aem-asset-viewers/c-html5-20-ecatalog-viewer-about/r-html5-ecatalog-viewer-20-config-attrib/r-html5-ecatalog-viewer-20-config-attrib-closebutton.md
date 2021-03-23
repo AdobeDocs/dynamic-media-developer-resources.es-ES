@@ -2,18 +2,19 @@
 description: Botón Cerrar
 solution: Experience Manager
 title: Botón Cerrar
-topic: Dynamic Media
 uuid: 018a18fe-4d74-4c68-a072-3aeaf823578d
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 12%
+source-wordcount: '51'
+ht-degree: 9%
 
 ---
 
 
-# Cerrar botón{#closebutton}
+# Closebutton{#closebutton}
 
 `closebutton=0|1`
 
@@ -21,7 +22,7 @@ ht-degree: 12%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
-   <td colname="col2"> <p>Establezca <span class="codeph"> 1 </span> para habilitar la visualización del botón de cierre. O bien, configure <span class="codeph"> 0 </span> para ocultar el botón de cierre. </p> <p>El botón de cierre solo se admite en dispositivos táctiles; no se puede mostrar en sistemas de escritorio. </p> </td> 
+   <td colname="col2"> <p>Configúrelo en <span class="codeph"> 1 </span> para habilitar la visualización del botón de cierre. O bien, establezca en <span class="codeph"> 0 </span> para ocultar el botón de cierre. </p> <p>El botón de cierre solo se admite en dispositivos táctiles; no se puede mostrar en sistemas de escritorio. </p> </td> 
   </tr> 
  </tbody> 
 </table>
