@@ -1,23 +1,24 @@
 ---
-description: Cree o edite un destinatario de zoom.
-seo-description: Cree o edite un destinatario de zoom.
+description: Cree o edite un destino de zoom.
+seo-description: Cree o edite un destino de zoom.
 seo-title: saveZoomTarget
 solution: Experience Manager
 title: saveZoomTarget
-topic: Dynamic Media Image Production System API
 uuid: 197f7a2a-39ea-41cc-8e3a-76f9fe1b37d0
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 20%
+source-wordcount: '138'
+ht-degree: 19%
 
 ---
 
 
 # saveZoomTarget{#savezoomtarget}
 
-Cree o edite un destinatario de zoom.
+Cree o edite un destino de zoom.
 
 Sintaxis
 
@@ -36,25 +37,25 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía con el destinatario de zoom que desea guardar. |
-| `*`assetHandle`*` | `xsd:string` | Sí | Control del destinatario de zoom. |
-| `*`zoomTargetHandle`*` | `xsd:string` | No | Edita o crea un destinatario de zoom. |
-| `*`name`*` | `xsd:string` | Sí | Nombre del destinatario de zoom. |
-| `*`xPosition`*` | `xsd:int` | Sí | Ubicación del píxel izquierdo. |
+| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa con el destino de zoom que desea guardar. |
+| `*`assetHandle`*` | `xsd:string` | Sí | Control del destino de zoom. |
+| `*`zoomTargetHandle`*` | `xsd:string` | No | Edita o crea un destino de zoom. |
+| `*`name`*` | `xsd:string` | Sí | Nombre del destino de zoom. |
+| `*`xPosition`*` | `xsd:int` | Sí | Ubicación en píxeles a la izquierda. |
 | `*`yPosition`*` | `xsd:int` | Sí | Ubicación en píxeles superior. |
-| `*`width`*` | `xsd:int` | Sí | Zoom de anchura de destinatario. |
-| `*`height`*` | `xsd:int` | Sí | Altura del destinatario de zoom. |
+| `*`width`*` | `xsd:int` | Sí | Zoom de la anchura de destino. |
+| `*`height`*` | `xsd:int` | Sí | Zoom de la altura de destino. |
 | `*`Datos de usuario`*` | `xsd:string` | Sí | Para obtener información específica del cliente. Puede contener cualquier tipo de datos. |
 
 **Salida (saveZoomTargetReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`zoomTargetHandle`*` | `xsd:string` | Sí | Controlar el destinatario de zoom recién creado. |
+| `*`zoomTargetHandle`*` | `xsd:string` | Sí | Gestione el objetivo de zoom recién creado. |
 
 ## Ejemplos {#section-509c472c316549cdb228d7e1cfa8400a}
 
-Este ejemplo de código guarda un destinatario de zoom. La respuesta devuelve el control de destinatario de zoom.
+Este ejemplo de código guarda un objetivo de zoom. La respuesta devuelve el controlador de destino de zoom.
 
 **Solicitar**
 
