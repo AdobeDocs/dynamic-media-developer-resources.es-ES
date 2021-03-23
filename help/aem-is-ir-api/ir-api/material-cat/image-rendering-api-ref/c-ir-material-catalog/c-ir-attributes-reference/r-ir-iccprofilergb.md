@@ -1,31 +1,32 @@
 ---
-description: PERFIL de color de salida predeterminado RGB. Especifica el nombre del perfil de color ICC que se utilizará para las imágenes de respuesta RGB cuando no se especifique ningún espacio de color de salida con icc= y para determinados valores de color RGB especificados con varios comandos de procesamiento de imágenes, como bgc= y color=.
-seo-description: PERFIL de color de salida predeterminado RGB. Especifica el nombre del perfil de color ICC que se utilizará para las imágenes de respuesta RGB cuando no se especifique ningún espacio de color de salida con icc= y para determinados valores de color RGB especificados con varios comandos de procesamiento de imágenes, como bgc= y color=.
+description: Perfil de color de salida predeterminado RGB. Especifica el nombre del perfil de color ICC que se utilizará para las imágenes de respuesta RGB cuando no se especifique ningún espacio de color de salida con icc= y para ciertos valores de color RGB especificados con varios comandos de renderización de imágenes, como bgc= y color=.
+seo-description: Perfil de color de salida predeterminado RGB. Especifica el nombre del perfil de color ICC que se utilizará para las imágenes de respuesta RGB cuando no se especifique ningún espacio de color de salida con icc= y para ciertos valores de color RGB especificados con varios comandos de renderización de imágenes, como bgc= y color=.
 seo-title: IccProfileRgb
 solution: Experience Manager
 title: IccProfileRgb
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0fe63607-c328-468a-aa55-0c4d16cf9f0f
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 2%
+source-wordcount: '207'
+ht-degree: 1%
 
 ---
 
 
 # IccProfileRgb{#iccprofilergb}
 
-PERFIL de color de salida predeterminado RGB. Especifica el nombre del perfil de color ICC que se utilizará para las imágenes de respuesta RGB cuando no se especifique ningún espacio de color de salida con icc= y para determinados valores de color RGB especificados con varios comandos de procesamiento de imágenes, como bgc= y color=.
+Perfil de color de salida predeterminado RGB. Especifica el nombre del perfil de color ICC que se utilizará para las imágenes de respuesta RGB cuando no se especifique ningún espacio de color de salida con icc= y para ciertos valores de color RGB especificados con varios comandos de renderización de imágenes, como bgc= y color=.
 
 ## Propiedades {#section-b4a1bd92e99047479a5036413525a6d9}
 
-Cadena de texto. Si se especifica, debe ser un valor `icc::Name` válido del mapa de perfiles ICC de este catálogo de material o del catálogo predeterminado, o bien una ruta de archivo relativa a `attribute::RootPath`. El perfil ICC al que se hace referencia debe ser un perfil RGB.
+Cadena de texto. Si se especifica, debe ser un valor `icc::Name` válido del mapa de perfiles ICC de este catálogo de materiales o del catálogo predeterminado, o una ruta de archivo relativa a `attribute::RootPath`. El perfil ICC al que se hace referencia debe ser un perfil RGB.
 
 ## Predeterminado {#section-5809772f8e96438ab7626d323c66a4ba}
 
-Se hereda de `default::IccProfileRgb` si no está definida o si está vacía.
+Se hereda de `default::IccProfileRgb` si no está definido o si está vacío.
 
 ## Véase también {#section-732c17dece3a4575855c9b79a08d0067}
 
