@@ -1,14 +1,15 @@
 ---
-description: título, comando
+description: title, comando
 solution: Experience Manager
 title: título
-topic: Dynamic Media
 uuid: ff6c0e2e-ac59-4bcf-9ab9-227ba686914e
+feature: Dynamic Media Classic,Visualizadores,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 17%
+source-wordcount: '48'
+ht-degree: 14%
 
 ---
 
@@ -19,13 +20,13 @@ ht-degree: 17%
 
 >[!NOTE]
 >
->Este comando no se aplica al visor flotante, al visor de zoom básico, al visor de giros ni al visor de imágenes interactivo.
+>Este comando no se aplica al visor flotante, al visor de zoom básico, al visor de giros o al visor de imágenes interactivo.
 
 <table id="table_406072054CBA4A7BAC8E7AD45E361D37"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> windowTitleimage</span> </span> </p> </td> 
-   <td colname="col2"> <p>Especifica el título de la ventana del navegador que contiene el visor. </p> </td> 
+   <td colname="col2"> <p>Especifica el título de la ventana del explorador que contiene el visor. </p> </td> 
   </tr> 
  </tbody> 
 </table>
