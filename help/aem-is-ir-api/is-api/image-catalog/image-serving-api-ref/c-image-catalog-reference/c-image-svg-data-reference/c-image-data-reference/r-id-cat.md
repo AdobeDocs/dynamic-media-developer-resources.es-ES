@@ -1,23 +1,24 @@
 ---
-description: Identificador de registro de catálogo
+description: Identificador de registro del catálogo
 solution: Experience Manager
 title: Id
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9803d754-1f94-4e5d-9a40-3936676c0035
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 8%
+source-wordcount: '108'
+ht-degree: 7%
 
 ---
 
 
 # Id {#id}
 
-Valor de clave de índice según el cual el servidor de plataforma busca los registros del archivo de datos de imagen.
+Valor clave de índice mediante el cual Platform Server busca los registros del archivo de datos de imagen.
 
-Normalmente, un identificador de imagen único y corto, como un número de SKU, posiblemente con algún tipo de sufijo de imagen, si un SKU tiene varias imágenes. También puede ser una cadena más compleja que se asemeje más a una ruta de archivo, para admitir la fácil adaptación retro de los sitios web con el servicio de imágenes.
+Normalmente, un identificador de imagen corto y único, como un número SKU, posiblemente con algún tipo de sufijo de imagen, si un SKU tiene varias imágenes. Puede ser también una cadena más compleja que se parezca más a una ruta de archivo, para admitir una fácil adaptación retro de los sitios web con Image Serving.
 
 ## Propiedades {#id-properties}
 
@@ -29,4 +30,4 @@ Ninguno.
 
 ## Véase también {#id-seealso}
 
-[attribute::RootId](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootid.md)
+[atributo::RootId](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootid.md)
