@@ -1,15 +1,16 @@
 ---
-description: Los materiales de gabinetes especifican un archivo de estilo archivador (extensión de archivo .vnc), un archivo de datos especial que contiene representaciones fotográficas de los archivadores, junto con definiciones de diseño paramétrico y otra información necesaria para procesar frontales de archivador.
-seo-description: Los materiales de gabinetes especifican un archivo de estilo archivador (extensión de archivo .vnc), un archivo de datos especial que contiene representaciones fotográficas de los archivadores, junto con definiciones de diseño paramétrico y otra información necesaria para procesar frontales de archivador.
+description: Los materiales de gabinetes especifican un archivo de estilo archivador (extensión de archivo .vnc), un archivo de datos especial que contiene representaciones fotográficas de gabinetes junto con definiciones de diseño paramétrico y otra información necesaria para procesar frontales de archivador.
+seo-description: Los materiales de gabinetes especifican un archivo de estilo archivador (extensión de archivo .vnc), un archivo de datos especial que contiene representaciones fotográficas de gabinetes junto con definiciones de diseño paramétrico y otra información necesaria para procesar frontales de archivador.
 seo-title: Armarios
 solution: Experience Manager
 title: Armarios
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d515c613-07c5-49ef-ad6e-568a1f6c1335
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '196'
 ht-degree: 5%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 5%
 
 # Armarios{#cabinets}
 
-Los materiales de gabinetes especifican un archivo de estilo archivador (extensión de archivo .vnc), un archivo de datos especial que contiene representaciones fotográficas de los archivadores, junto con definiciones de diseño paramétrico y otra información necesaria para procesar frontales de archivador.
+Los materiales de gabinetes especifican un archivo de estilo archivador (extensión de archivo .vnc), un archivo de datos especial que contiene representaciones fotográficas de gabinetes junto con definiciones de diseño paramétrico y otra información necesaria para procesar frontales de archivador.
 
-[!DNL vnc] los archivos pueden incluir una textura de grano de madera repetible o la textura puede proporcionarse externamente mediante un segundo argumento de  `src=`. Ciertos archivos [!DNL vnc] permiten colorear o texturar áreas seleccionadas de los frontales del archivador (generalmente se utilizan para laminar estilos de archivador).
+[!DNL vnc] los archivos pueden incluir una textura de grano de madera repetible o la textura puede proporcionarse externamente mediante un segundo argumento a  `src=`. Ciertos archivos [!DNL vnc] permiten colorear o texturar áreas seleccionadas de los frentes del archivador (normalmente se utilizan para laminar estilos de archivador).
 
-Los materiales de gabinete sólo se pueden aplicar a objetos de gabinete.
+Los materiales del gabinete sólo se pueden aplicar a los objetos del gabinete.
 
 <table id="table_0B16200886FE4DFEBB1E4BE8FBA67EE4"> 
  <thead> 
@@ -34,7 +35,7 @@ Los materiales de gabinete sólo se pueden aplicar a objetos de gabinete.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272" type="reference" format="dita" scope="local"> <span class="codeph"> src=  </span> </a> </p> </td> 
-   <td colname="col2"> <p>Archivo de estilo de archivador; requerido. </p> </td> 
+   <td colname="col2"> <p>Archivo de estilo Gabinete; obligatorio. </p> </td> 
    <td colname="col3"> <p>Ninguno. </p> </td> 
   </tr> 
   <tr> 
@@ -45,7 +46,7 @@ Los materiales de gabinete sólo se pueden aplicar a objetos de gabinete.
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-res.md#reference-0ad9de8887144c83a6db97b4994f7c04" type="reference" format="dita" scope="local"> <span class="codeph"> res=  </span> </a> </p> </td> 
    <td colname="col2"> <p>Resolución de textura opcional. </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> attribute::Resolution  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> atributo:Resolution  </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa" type="reference" format="dita" scope="local"> <span class="codeph"> color=  </span> </a> </p> </td> 
@@ -53,13 +54,13 @@ Los materiales de gabinete sólo se pueden aplicar a objetos de gabinete.
    <td colname="col3"> <p>Ninguno. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> sharp=  </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> Sharp=  </span> </a> </p> </td> 
    <td colname="col2"> <p>Enfoque. </p> </td> 
-   <td colname="col3"> <p>0 (sin enfoque) </p> </td> 
+   <td colname="col3"> <p>0 (sin nitidez) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-flags.md#reference-3a4844f0f21346d79e6508aaad9a9ac9" type="reference" format="dita" scope="local"> <span class="codeph"> indicadores=  </span> </a> </p> </td> 
-   <td colname="col2"> <p>Indicadores de procesamiento especiales. </p> </td> 
+   <td colname="col2"> <p>Indicadores de renderización especiales. </p> </td> 
    <td colname="col3"> <p>0 (sin indicadores) </p> </td> 
   </tr> 
  </tbody> 
