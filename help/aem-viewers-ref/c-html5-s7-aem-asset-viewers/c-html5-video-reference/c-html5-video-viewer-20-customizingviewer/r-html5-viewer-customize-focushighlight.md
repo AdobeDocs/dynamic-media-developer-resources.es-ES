@@ -1,27 +1,28 @@
 ---
-description: El resaltado de enfoque de entrada que se muestra alrededor del elemento de la interfaz de usuario del visor seleccionado se controla con el selector de clases CSS.
-seo-description: El resaltado de enfoque de entrada que se muestra alrededor del elemento de la interfaz de usuario del visor seleccionado se controla con el selector de clases CSS.
-seo-title: Resaltado de enfoque
+description: El resaltado del foco de entrada que se muestra alrededor del elemento de la interfaz de usuario del visor centrado se controla con el selector de clases CSS.
+seo-description: El resaltado del foco de entrada que se muestra alrededor del elemento de la interfaz de usuario del visor centrado se controla con el selector de clases CSS.
+seo-title: Enfoque resaltado
 solution: Experience Manager
-title: Resaltado de enfoque
-topic: Dynamic Media
+title: Enfoque resaltado
 uuid: cf5acb11-168e-4303-a637-d959687a0548
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 1%
+source-wordcount: '106'
+ht-degree: 0%
 
 ---
 
 
-# Resaltado de enfoque{#focus-highlight}
+# Enfoque resaltado{#focus-highlight}
 
-El resaltado de enfoque de entrada que se muestra alrededor del elemento de la interfaz de usuario del visor seleccionado se controla con el selector de clases CSS.
+El resaltado del foco de entrada que se muestra alrededor del elemento de la interfaz de usuario del visor centrado se controla con el selector de clases CSS.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propiedades de CSS**
+**Propiedades CSS**
 
 El aspecto se controla con el siguiente selector de clase CSS:
 
@@ -38,13 +39,13 @@ El aspecto se controla con el siguiente selector de clase CSS:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> contorno  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> descripción  </span> </p> </td> 
    <td colname="col2"> <p>Estilo de resaltado de enfoque. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ejemplo: para desactivar el resaltado de enfoque predeterminado del navegador para todos los elementos de la interfaz de usuario del visor, agregue el siguiente selector CSS a la hoja de estilo del visor:
+Ejemplo: para desactivar el resaltado de enfoque predeterminado del navegador para todos los elementos de la interfaz de usuario del visor, añada el siguiente selector CSS a la hoja de estilos del visor:
 
 ```
 .s7videoviewer *:focus { 
