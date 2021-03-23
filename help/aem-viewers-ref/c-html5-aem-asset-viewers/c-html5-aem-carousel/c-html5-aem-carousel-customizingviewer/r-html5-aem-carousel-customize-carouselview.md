@@ -1,15 +1,16 @@
 ---
-description: La vista principal consiste en la imagen del letrero.
-seo-description: La vista principal consiste en la imagen del letrero.
+description: La vista principal consiste en la imagen del banner.
+seo-description: La vista principal consiste en la imagen del banner.
 seo-title: Vista de carrusel
 solution: Experience Manager
 title: Vista de carrusel
-topic: Dynamic Media
 uuid: bf2065cc-fef2-4d4e-ab2a-a533fa063a80
+feature: Dynamic Media Classic,Visores,SDK/API,Banners de carrusel
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '79'
 ht-degree: 1%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 1%
 
 # Vista de carrusel{#carousel-view}
 
-La vista principal consiste en la imagen del letrero.
+La vista principal consiste en la imagen del banner.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propiedades CSS del área del visor principal**
+**Propiedades CSS del área principal del visor**
 
 El aspecto del área de visualización se controla con el siguiente selector de clase CSS:
 
