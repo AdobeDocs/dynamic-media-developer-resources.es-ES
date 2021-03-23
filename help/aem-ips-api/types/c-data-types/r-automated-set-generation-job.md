@@ -1,15 +1,16 @@
 ---
-description: Agrupar archivos en conjuntos mediante una matriz de lista de control de recursos.
-seo-description: Agrupar archivos en conjuntos mediante una matriz de lista de control de recursos.
+description: Agrupe archivos en conjuntos mediante una matriz de lista de controladores de recursos.
+seo-description: Agrupe archivos en conjuntos mediante una matriz de lista de controladores de recursos.
 seo-title: AutomatedSetGenerationJob
 solution: Experience Manager
 title: AutomatedSetGenerationJob
-topic: Dynamic Media Image Production System API
 uuid: 9c664bde-a731-4d6b-ae6b-c862bda02d4c
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '194'
 ht-degree: 6%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 6%
 
 # AutomatedSetGenerationJob{#automatedsetgenerationjob}
 
-Agrupar archivos en conjuntos mediante una matriz de lista de control de recursos.
+Agrupe archivos en conjuntos mediante una matriz de lista de controladores de recursos.
 
 Sintaxis
 
@@ -35,22 +36,22 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:HandleArray</span> </td> 
-   <td colname="col3">Matriz de controladores de recursos utilizados para crear el conjunto. <p>De forma predeterminada, 1000 es el número máximo de recursos que puede tener en la matriz. </p></td> 
+   <td colname="col3">Matriz de controles de recursos que se utiliza para crear el conjunto. <p>De forma predeterminada, 1000 es el número máximo de recursos que puede tener en la matriz. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> destFolder</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Ruta a la carpeta en la que desea guardar los conjuntos. Se guarda en la carpeta raíz de la compañía de forma predeterminada. </td> 
+   <td colname="col3"> Ruta a la carpeta donde desea guardar los conjuntos. Se guarda en la carpeta raíz de la empresa de forma predeterminada. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> readyForPublish</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> Define un indicador para indicar si los recursos deben publicarse o no. </td> 
+   <td colname="col3"> Establece un indicador para indicar si los recursos deben publicarse o no. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> autoSetCreationOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:AutoSetCreationOptions</span> </td> 
-   <td colname="col3">Matriz de secuencias de comandos de generación definidas que se pueden ejecutar en los archivos cargados. Consulte <a href="../../types/c-data-types/r-auto-set-creation-options.md#reference-58b42b39e53345aeb87cd1adc864e7ff" format="dita" scope="local"> AutoSetCreationOptions</a></td> 
+   <td colname="col3">Matriz de scripts de generación establecidos que se pueden ejecutar en los archivos cargados. Consulte <a href="../../types/c-data-types/r-auto-set-creation-options.md#reference-58b42b39e53345aeb87cd1adc864e7ff" format="dita" scope="local"> AutoSetCreationOptions</a></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> emailSetting</span> </span> </td> 
@@ -60,16 +61,16 @@ Sintaxis
  </tbody> 
 </table>
 
-**opciones de configuración de correo electrónico**
+**Opciones de configuración de correo electrónico**
 
 El parámetro `emailSetting` incluye las siguientes opciones:
 
 | Opción | Devuelve |
 |---|---|
-| `All` | Todas las notificaciones de trabajo (errores, advertencias, finalización) al destinatario especificado. |
+| `All` | Todas las notificaciones de trabajos (errores, advertencias, finalización) al destinatario especificado. |
 | `Error` | Errores de trabajo en el destinatario especificado. |
-| `ErrorAndWarning` | Errores y advertencias de trabajo en el destinatario especificado. |
-| `JobCompletion` | Una notificación de finalización de trabajos al destinatario especificado. |
+| `ErrorAndWarning` | Errores y advertencias de trabajo al destinatario especificado. |
+| `JobCompletion` | Una notificación de finalización de trabajo al destinatario especificado. |
 | `None` | El trabajo no envía ninguna notificación de trabajo al destinatario especificado. |
 
 ## Ejemplo {#section-d01ee7671f274a1fa12737e8df91d2cf}
