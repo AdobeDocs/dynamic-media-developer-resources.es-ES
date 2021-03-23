@@ -1,23 +1,24 @@
 ---
-description: Devuelve grupos de compañías.
-seo-description: Devuelve grupos de compañías.
+description: Devuelve grupos de empresas.
+seo-description: Devuelve grupos de empresas.
 seo-title: getGroups
 solution: Experience Manager
 title: getGroups
-topic: Dynamic Media Image Production System API
 uuid: d6e1542d-83a2-4b25-a986-2465e9e5a145
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 21%
+source-wordcount: '72'
+ht-degree: 19%
 
 ---
 
 
 # getGroups{#getgroups}
 
-Devuelve grupos de compañías.
+Devuelve grupos de empresas.
 
 Sintaxis
 
@@ -33,7 +34,7 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la compañía. |
+| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa. |
 
 **Salida (getGroupsReturn)**
 
@@ -43,7 +44,7 @@ Sintaxis
 
 ## Ejemplos {#section-ed0708f611574354bf0c6ea83912b531}
 
-Este código devuelve una matriz que contiene todos los grupos que pertenecen a una compañía específica e información específica sobre cada grupo.
+Este código devuelve una matriz que contiene todos los grupos que pertenecen a una empresa específica e información específica sobre cada grupo.
 
 **Solicitar**
 
