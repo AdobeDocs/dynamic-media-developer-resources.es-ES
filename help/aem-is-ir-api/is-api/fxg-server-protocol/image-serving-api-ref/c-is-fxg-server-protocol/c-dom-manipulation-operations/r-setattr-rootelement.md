@@ -1,15 +1,16 @@
 ---
-description: Defina los atributos en el elemento FXG Root.
-seo-description: Defina los atributos en el elemento FXG Root.
+description: Establezca atributos en el elemento raíz FXG.
+seo-description: Establezca atributos en el elemento raíz FXG.
 seo-title: setAttr.rootElement
 solution: Experience Manager
 title: setAttr.rootElement
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: dda16612-57c7-4abe-8aa4-00e599a8ea69
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '52'
+source-wordcount: '60'
 ht-degree: 1%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 1%
 
 # setAttr.rootElement{#setattr-rootelement}
 
-Defina los atributos en el elemento FXG Root.
+Establezca atributos en el elemento raíz FXG.
 
 ` setAttr.rootElement={ *[!DNL attributeName]*= *[!DNL attributeValue]*%26 *[!DNL attributeName]*= *[!DNL attributeValue]*}`
 
@@ -33,6 +34,6 @@ Después de aplicar el siguiente comando:
 
 `setAttr.rootElement={viewHeight=300%26viewWidth=200}`
 
-El elemento raíz se ha cambiado a lo siguiente:
+El elemento raíz ahora se cambia a lo siguiente:
 
 `<Graphic xmlns="http://ns.adobe.com/fxg/2008" xmlns:ai="http://ns.adobe.com/ai/2008" xmlns:d="http://ns.adobe.com/fxg/2008/dt" xmlns:s7="http://ns.adobe.com/S7FXG/2008" ai:appVersion="14.0.0.367" d:id="1" s7:appVersion="1.0.0.11" version="1.0" viewHeight="300" viewWidth="200">`
