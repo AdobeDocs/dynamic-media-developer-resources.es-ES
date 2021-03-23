@@ -1,23 +1,24 @@
 ---
-description: URL para el visor de Video360.
-seo-description: URL para el visor de Video360.
+description: Comando URL para el visualizador de Video360.
+seo-description: Comando URL para el visualizador de Video360.
 seo-title: videoServerUrl
 solution: Experience Manager
 title: videoServerUrl
-topic: Dynamic Media
 uuid: b6fa3fc3-9182-4d05-a735-e4cc0e58c3e4
+feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 7%
+source-wordcount: '68'
+ht-degree: 5%
 
 ---
 
 
 # videoServerUrl{#videoserverurl}
 
-URL para el visor de Video360.
+Comando URL para el visualizador de Video360.
 
 ` videoServerUrl= *`videoRootPath`*`
 
@@ -25,7 +26,7 @@ URL para el visor de Video360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> Ruta de acceso raíz del servidor de vídeo. Si no se especifica ningún dominio, se aplica en su lugar el dominio desde el que se proporciona la página. Se aplica la resolución de ruta URI estándar. </p> </td> 
+   <td colname="col2"> <p> La ruta raíz del servidor de vídeo. Si no se especifica ningún dominio, se aplica en su lugar el dominio desde el que se sirve la página. Se aplica la resolución de ruta de URI estándar. </p> </td> 
   </tr> 
  </tbody> 
 </table>
