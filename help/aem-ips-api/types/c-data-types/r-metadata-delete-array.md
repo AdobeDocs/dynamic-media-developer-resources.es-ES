@@ -1,23 +1,24 @@
 ---
-description: Matriz de metadatos que se eliminarán del recurso.
-seo-description: Matriz de metadatos que se eliminarán del recurso.
+description: Matriz de metadatos que se van a eliminar del recurso.
+seo-description: Matriz de metadatos que se van a eliminar del recurso.
 seo-title: MetadataDeleteArray
 solution: Experience Manager
 title: MetadataDeleteArray
-topic: Dynamic Media Image Production System API
 uuid: 02bf3cb4-1643-4b97-9353-abb5001b1aa2
+feature: Dynamic Media Classic,SDK/API,Metadatos
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 13%
+source-wordcount: '51'
+ht-degree: 11%
 
 ---
 
 
 # MetadataDeleteArray{#metadatadeletearray}
 
-Matriz de metadatos que se eliminarán del recurso.
+Matriz de metadatos que se van a eliminar del recurso.
 
 Sintaxis
 
@@ -25,5 +26,5 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| `*`elementos`*` | `type:Metadata` | Matriz de parámetros de metadatos que eliminar. |
+| `*`elementos`*` | `type:Metadata` | Matriz de parámetros de metadatos que se van a eliminar. |
 
