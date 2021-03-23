@@ -1,15 +1,16 @@
 ---
-description: TTL de caché de cliente para respuestas de imagen predeterminadas. Proporciona el intervalo de caducidad para las respuestas de imagen predeterminadas (respuestas que devuelven una imagen predeterminada especificada con defaultImage= o atributo DefaultImage).
-seo-description: TTL de caché de cliente para respuestas de imagen predeterminadas. Proporciona el intervalo de caducidad para las respuestas de imagen predeterminadas (respuestas que devuelven una imagen predeterminada especificada con defaultImage= o atributo DefaultImage).
+description: TTL de caché de cliente para respuestas de imagen predeterminadas. Proporciona el intervalo de caducidad para las respuestas de imagen predeterminadas (respuestas que devuelven una imagen predeterminada especificada con defaultImage= o attribute DefaultImage).
+seo-description: TTL de caché de cliente para respuestas de imagen predeterminadas. Proporciona el intervalo de caducidad para las respuestas de imagen predeterminadas (respuestas que devuelven una imagen predeterminada especificada con defaultImage= o attribute DefaultImage).
 seo-title: DefaultExpiration
 solution: Experience Manager
 title: DefaultExpiration
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5266bff9-f20b-4b3b-9566-8a3f5ba0777a
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '189'
 ht-degree: 2%
 
 ---
@@ -19,15 +20,15 @@ ht-degree: 2%
 
 TTL de caché de cliente para respuestas de imagen predeterminadas. Proporciona el intervalo de caducidad para las respuestas de imagen predeterminadas (respuestas que devuelven una imagen predeterminada especificada con defaultImage= o attribute::DefaultImage).
 
-Solo se aplica cuando la imagen predeterminada no está asociada a un registro de catálogo o cuando el registro de catálogo de imágenes predeterminado no proporciona un valor `catalog::Expiration` específico.
+Solo se aplica cuando la imagen predeterminada no está asociada con un registro de catálogo o cuando el registro de catálogo de imágenes predeterminado no proporciona un valor específico `catalog::Expiration`.
 
 ## Propiedades {#section-e564512476604fd7b964f9f2903d6d33}
 
-Número real, 0 o bueno. Número de horas hasta la caducidad desde que se generaron los datos de respuesta. Establezca el valor 0 para que la imagen de respuesta caduque siempre inmediatamente, lo que deshabilita el almacenamiento en caché del cliente para las respuestas de imagen predeterminadas. Establezca `-1` para marcar como `never expire`.
+Número real, 0 o bueno. Número de horas hasta la caducidad desde que se generaron los datos de respuesta. Si se establece en 0, la imagen de respuesta caducará siempre inmediatamente, lo que deshabilita efectivamente el almacenamiento en caché del cliente para las respuestas de imagen predeterminadas. Configúrelo en `-1` para marcar como `never expire`.
 
 ## Predeterminado {#section-131cd32c2e214391857dba5af321f8cd}
 
-Se hereda de `default::DefaultExpiration` si no está definida o si está vacía.
+Se hereda de `default::DefaultExpiration` si no está definido o si está vacío.
 
 TTL (Tiempo de vida) es la duración antes de que caduque la caché. El TTL predeterminado es 1 hora.
 
