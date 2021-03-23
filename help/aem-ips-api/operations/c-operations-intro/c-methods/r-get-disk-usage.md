@@ -1,15 +1,16 @@
 ---
-description: Devuelve información sobre la estructura de una compañía (número de archivos, etc.).
-seo-description: Devuelve información sobre la estructura de una compañía (número de archivos, etc.).
+description: Devuelve información sobre la estructura de una empresa (número de archivos, etc.).
+seo-description: Devuelve información sobre la estructura de una empresa (número de archivos, etc.).
 seo-title: getDiskUsage
 solution: Experience Manager
 title: getDiskUsage
-topic: Dynamic Media Image Production System API
 uuid: 29190200-8f49-4689-9782-1df665dca1b7
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '116'
 ht-degree: 12%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 12%
 
 # getDiskUsage{#getdiskusage}
 
-Devuelve información sobre la estructura de una compañía (número de archivos, etc.).
+Devuelve información sobre la estructura de una empresa (número de archivos, etc.).
 
 ## Tipos de usuarios autorizados {#authorized-user-types}
 
@@ -28,21 +29,21 @@ Devuelve información sobre la estructura de una compañía (número de archivos
 
 ## Parámetros {#section-e7e47082faf44ae28a2cfa7ef53aedbb}
 
-**Input (getDiskUsageParam)**
+**Entrada (getDiskUsageParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía cuyo uso de disco desea obtener. |
+| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa cuyo uso de disco desea obtener. |
 
 **Salida (getDiskUsageReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`diskUsageArray`*` | `types:DiskUsageArray` | Sí | Matriz de uso del disco de compañía. |
+| `*`diskUsageArray`*` | `types:DiskUsageArray` | Sí | Matriz de uso del disco de la empresa. |
 
 ## Ejemplos {#section-cb16a97badc94076ad5da277db5ed16a}
 
-El nombre de esta solicitud es engañoso. En lugar de devolver simplemente un valor escalar que refleja cuánto espacio de disco está utilizando una compañía, obtiene también otra información sobre la estructura de una compañía.
+El nombre de esta solicitud es engañoso. En lugar de devolver simplemente un valor escalar que refleje cuánto espacio en disco está utilizando una empresa, obtiene también otra información sobre la estructura de una empresa.
 
 **Solicitar**
 
