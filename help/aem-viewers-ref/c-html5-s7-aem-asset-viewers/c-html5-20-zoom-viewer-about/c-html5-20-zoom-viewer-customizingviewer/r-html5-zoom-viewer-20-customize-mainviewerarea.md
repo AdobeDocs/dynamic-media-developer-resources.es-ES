@@ -1,15 +1,16 @@
 ---
-description: El área de vista principal es el área ocupada por la imagen de zoom y las muestras. Normalmente se configura para que se ajuste a la pantalla del dispositivo disponible cuando no se especifica ningún tamaño.
-seo-description: El área de vista principal es el área ocupada por la imagen de zoom y las muestras. Normalmente se configura para que se ajuste a la pantalla del dispositivo disponible cuando no se especifica ningún tamaño.
+description: El área de vista principal es el área ocupada por la imagen de zoom y las muestras. Normalmente se configura para que se ajuste a la pantalla de dispositivo disponible cuando no se especifica ningún tamaño.
+seo-description: El área de vista principal es el área ocupada por la imagen de zoom y las muestras. Normalmente se configura para que se ajuste a la pantalla de dispositivo disponible cuando no se especifica ningún tamaño.
 seo-title: Área del visor principal
 solution: Experience Manager
 title: Área del visor principal
-topic: Dynamic Media
 uuid: 689116cb-bbb9-4e26-9c16-9229330c4034
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '207'
 ht-degree: 1%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 1%
 
 # Área del visor principal{#main-viewer-area}
 
-El área de vista principal es el área ocupada por la imagen de zoom y las muestras. Normalmente se configura para que se ajuste a la pantalla del dispositivo disponible cuando no se especifica ningún tamaño.
+El área de vista principal es el área ocupada por la imagen de zoom y las muestras. Normalmente se configura para que se ajuste a la pantalla de dispositivo disponible cuando no se especifica ningún tamaño.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Cuando se trabaja en modo incrustado (cuando se da un tamaño explícito al área del visor principal), el visor reduce automáticamente la altura de su área principal en función de la altura del componente Muestras que esté trabajando con la imagen única y que, por tanto, no se necesitan muestras.
+Cuando se trabaja en modo incrustado (cuando se da un tamaño explícito al área del visor principal), el visor reduce automáticamente la altura de su área principal según la altura del componente Muestras que esté trabajando con la imagen única y, por lo tanto, no se necesitan muestras.
 
-**Propiedades CSS del área del visor principal**
+**Propiedades CSS del área principal del visor**
 
 El aspecto del área de visualización se controla con el siguiente selector de clase CSS:
 
@@ -54,7 +55,7 @@ El aspecto del área de visualización se controla con el siguiente selector de 
  </tbody> 
 </table>
 
-Ejemplo: para configurar un visor con un fondo blanco ( `#FFFFFF`) y hacer que su tamaño sea de 512 x 288 píxeles.
+Ejemplo: para configurar un visualizador con un fondo blanco ( `#FFFFFF`) y hacer que su tamaño sea de 512 x 288 píxeles.
 
 ```
 .s7zoomviewer { 
