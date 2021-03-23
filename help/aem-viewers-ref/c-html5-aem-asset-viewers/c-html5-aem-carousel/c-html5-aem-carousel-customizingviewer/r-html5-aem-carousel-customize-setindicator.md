@@ -1,15 +1,16 @@
 ---
 description: El indicador de conjunto es una serie de puntos procesados en la parte inferior del visor. Muestra la posición actual dentro del conjunto.
 seo-description: El indicador de conjunto es una serie de puntos procesados en la parte inferior del visor. Muestra la posición actual dentro del conjunto.
-seo-title: Establecer indicador
+seo-title: Definir indicador
 solution: Experience Manager
-title: Establecer indicador
-topic: Dynamic Media
+title: Definir indicador
 uuid: 3f90a216-654f-44a9-947d-592bd5f342d4
+feature: Dynamic Media Classic,Visores,SDK/API,Banners de carrusel
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '349'
 ht-degree: 1%
 
 ---
@@ -21,9 +22,9 @@ El indicador de conjunto es una serie de puntos procesados en la parte inferior 
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propiedades CSS del indicador establecido**
+**Propiedades CSS del indicador de conjunto**
 
-El aspecto del contenedor del indicador establecido se controla con el siguiente selector de clase CSS:
+El aspecto del contenedor de indicador establecido se controla con el siguiente selector de clase CSS:
 
 ```
 .s7carouselviewer .s7setindicator
@@ -46,9 +47,9 @@ El aspecto del contenedor del indicador establecido se controla con el siguiente
 
 >[!NOTE]
 >
->El indicador de conjunto admite el selector de atributos de modo, que puede utilizar para aplicar diferentes estilos a los modos de operación numérica y de puntos. En particular, `mode="numeric"` corresponde al modo de operación numérica; `mode="dotted"` corresponde al estado de punto predeterminado.
+>El indicador de conjunto admite el selector de atributos de modo, que se puede utilizar para aplicar distintos estilos a los modos de operación numéricos y de puntos. En concreto, `mode="numeric"` corresponde al modo de operación numérico; `mode="dotted"` corresponde al estado de punto predeterminado.
 
-Ejemplo: para configurar el indicador de configuración con un fondo blanco:
+Ejemplo: para configurar un indicador de conjunto con un fondo blanco:
 
 ```
 .s7carouselviewer .s7setindicator { 
@@ -56,7 +57,7 @@ Ejemplo: para configurar el indicador de configuración con un fondo blanco:
 }
 ```
 
-El aspecto de un punto indicador de conjunto individual se controla con el selector de clase CSS. Se aplica a los elementos en los modos de operación numérica y de puntos.
+El aspecto de un punto indicador de conjunto individual se controla con el selector de clase CSS. Se aplica a los elementos tanto en los modos de operación numérica como de puntos.
 
 `.s7carouselviewer .s7setindicator .s7dot`
 
@@ -70,11 +71,11 @@ El aspecto de un punto indicador de conjunto individual se controla con el selec
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Ancho del punto indicador establecido. </p> </td> 
+   <td colname="col2"> <p>Anchura del punto indicador definido. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Altura del punto indicador establecido. </p> </td> 
+   <td colname="col2"> <p>Altura del punto indicador definido. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
@@ -110,24 +111,24 @@ El aspecto de un punto indicador de conjunto individual se controla con el selec
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>Color de fuente. </p> </td> 
+   <td colname="col2"> <p>Color de la fuente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vertical-align  </span> </p> </td> 
-   <td colname="col2"> <p>Alineación vertical del índice del letrero. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> alineación vertical  </span> </p> </td> 
+   <td colname="col2"> <p>Alineación vertical del índice del banner. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> line-height  </span> </p> </td> 
-   <td colname="col2"> <p>Altura del texto para el índice del letrero. </p> </td> 
+   <td colname="col2"> <p>Altura del texto para el índice del banner. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Los elementos del indicador de conjunto admiten el selector de atributos `state`, que se puede utilizar para aplicar diferentes apariencias a diferentes estados de miniaturas. En particular, `state="selected"` corresponde al elemento actual del conjunto; `state="unselected"` corresponde al estado del elemento predeterminado.
+>Los elementos del indicador de configuración admiten el selector de atributos `state`, que puede utilizarse para aplicar diferentes aspectos a diferentes estados de miniaturas. En concreto, `state="selected"` corresponde al elemento actual del conjunto; `state="unselected"` corresponde al estado del elemento predeterminado.
 
-Ejemplo: para configurar el indicador de conjunto en modo de puntos para que los sistemas de escritorio se posicionen 20 píxeles desde la parte inferior del visor. Los puntos no seleccionados son negros con una transparencia del 50%, 15 x 15 píxeles con 7 píxeles de esquinas redondeadas. Los puntos seleccionados son negros con una transparencia del 90%, 18 x 18 píxeles con 9 píxeles de esquinas redondeadas. El espaciado entre puntos es de 5 píxeles.
+Ejemplo: para configurar el indicador de configuración en modo de puntos para que los sistemas de escritorio se coloquen 20 píxeles desde la parte inferior del visor. Los puntos no seleccionados son negros con un 50% de transparencia, 15 x 15 píxeles con 7 píxeles de esquinas redondeadas. Los puntos seleccionados son negros con un 90% de transparencia, 18 x 18 píxeles con 9 píxeles de esquinas redondeadas. El espaciado entre puntos es de 5 píxeles.
 
 ```
 .s7carouselviewer.s7mouseinput .s7setindicator { 
