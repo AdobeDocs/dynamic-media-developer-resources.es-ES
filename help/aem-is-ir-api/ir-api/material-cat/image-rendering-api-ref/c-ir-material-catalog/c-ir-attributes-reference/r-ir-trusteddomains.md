@@ -1,15 +1,16 @@
 ---
-description: Dominios web de la aplicación Flash. Las aplicaciones de Flash de Adobe pueden requerir acceso a las propiedades de las imágenes entregadas en formato swf. El archivo swf debe conceder acceso explícitamente registrando el nombre de los dominios de aplicación en los que confía.
-seo-description: Dominios web de la aplicación Flash. Las aplicaciones de Flash de Adobe pueden requerir acceso a las propiedades de las imágenes entregadas en formato swf. El archivo swf debe conceder acceso explícitamente registrando el nombre de los dominios de aplicación en los que confía.
-seo-title: TrustedDomains *
+description: dominios web de la aplicación de Flash. Las aplicaciones de Flash de Adobe pueden requerir acceso a las propiedades de las imágenes entregadas en formato swf. El swf debe conceder acceso explícitamente registrando el nombre de los dominios de aplicación en los que confía.
+seo-description: dominios web de la aplicación de Flash. Las aplicaciones de Flash de Adobe pueden requerir acceso a las propiedades de las imágenes entregadas en formato swf. El swf debe conceder acceso explícitamente registrando el nombre de los dominios de aplicación en los que confía.
+seo-title: Dominios de confianza *
 solution: Experience Manager
-title: TrustedDomains *
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Dominios de confianza *
 uuid: c50180b1-9af7-45f1-878f-59f41f9958ae
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '162'
 ht-degree: 2%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 2%
 
 # TrustedDomains *{#trusteddomains}
 
-Dominios web de la aplicación Flash. Las aplicaciones de Flash de Adobe pueden requerir acceso a las propiedades de las imágenes entregadas en formato swf. El archivo swf debe conceder acceso explícitamente registrando el nombre de los dominios de aplicación en los que confía.
+dominios web de la aplicación de Flash. Las aplicaciones de Flash de Adobe pueden requerir acceso a las propiedades de las imágenes entregadas en formato swf. El swf debe conceder acceso explícitamente registrando el nombre de los dominios de aplicación en los que confía.
 
 ## Propiedades {#section-5d6ecfa431a04abd8628a28e0ab3be83}
 
-Cadena que contiene una lista separada por comas de nombres de dominio web. Si están vacías, las aplicaciones deben estar en el mismo dominio que el procesamiento de imágenes para poder acceder a las propiedades de las imágenes en respuestas con formato [!DNL swf].
+Cadena que contiene una lista de nombres de dominio web separados por comas. Si está vacío, las aplicaciones deben estar servidas desde el mismo dominio que Image Rendering para poder acceder a las propiedades de las imágenes en respuestas con formato [!DNL swf].
 
 ## Predeterminado {#section-8fae0c896f7d46e7a61b0fd7e2b34dc3}
 
