@@ -4,13 +4,14 @@ seo-description: Los datos de propiedad se devuelven en respuesta a varios tipos
 seo-title: Propiedades
 solution: Experience Manager
 title: Propiedades
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 22c271f7-e9dc-4f3e-af7b-1efe89df983e
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 8%
+source-wordcount: '67'
+ht-degree: 7%
 
 ---
 
@@ -24,7 +25,7 @@ Los datos de propiedad se devuelven en respuesta a los siguientes tipos `req=`:
 * `props`
 * `userdata`
 
-`userdata` las respuestas solo se formatean como propiedades cuando el contenido de  `catalog::UserData` sigue el formato de las propiedades.
+`userdata` las respuestas solo tienen formato de propiedades cuando el contenido de  `catalog::UserData` sigue el formato de propiedades.
 
 * [Propiedades de texto (Java)](r-text-java-properties.md)
 * [Propiedades de JavaScript](r-javascript-properties.md)
