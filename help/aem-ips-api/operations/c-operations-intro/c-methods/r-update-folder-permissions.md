@@ -1,23 +1,24 @@
 ---
-description: Actualice los permisos de la carpeta.
-seo-description: Actualice los permisos de la carpeta.
+description: Actualice los permisos de carpeta.
+seo-description: Actualice los permisos de carpeta.
 seo-title: updateFolderPermissions
 solution: Experience Manager
 title: updateFolderPermissions
-topic: Dynamic Media Image Production System API
 uuid: 940d7b63-80cf-4097-9cf9-8499b69181b7
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 18%
+source-wordcount: '83'
+ht-degree: 16%
 
 ---
 
 
 # updateFolderPermissions{#updatefolderpermissions}
 
-Actualice los permisos de la carpeta.
+Actualice los permisos de carpeta.
 
 Sintaxis
 
@@ -29,18 +30,18 @@ Sintaxis
 
 ## Parámetros {#section-339e6e17c5504e1ea79fbdc05f618050}
 
-**Input (updateFolderPermissionsParam)**
+**Entrada (updateFolderPermissionsParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de compañía. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la empresa. |
 | `*`folderHandle`*` | `xsd:string` | Sí | Identificador de carpeta. |
 | `*`updateChildren`*` | `xsd:boolean` | Sí | Determina si se deben actualizar los elementos secundarios con permisos establecidos para la carpeta de nivel superior. |
 | `*`updateArray`*` | `types:PermissionUpdateArray` | Sí | Matriz de actualizaciones de permisos que desea aplicar a la carpeta. |
 
-**Output (updateFolderPermissionsReturn)**
+**Salida (updateFolderPermissionsReturn)**
 
-La API de IPS no devuelve una respuesta para esta operación.
+La API IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-c3fe4d4388674870a3856c35ef66b631}
 
