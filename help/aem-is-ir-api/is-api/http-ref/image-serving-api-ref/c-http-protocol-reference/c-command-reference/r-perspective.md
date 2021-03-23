@@ -1,23 +1,24 @@
 ---
-description: Transformación de perspectiva. Aplique una transformación de perspectiva a la imagen de origen de la capa para rellenar la región especificada con el cuadrilateral. Otras áreas de la capa permanecen transparentes.
-seo-description: Transformación de perspectiva. Aplique una transformación de perspectiva a la imagen de origen de la capa para rellenar la región especificada con el cuadrilateral. Otras áreas de la capa permanecen transparentes.
+description: Transformación de perspectiva. Aplique una transformación de perspectiva a la imagen de origen de capa para rellenar la región especificada con el cuadrilateral. Otras áreas de la capa permanecen transparentes.
+seo-description: Transformación de perspectiva. Aplique una transformación de perspectiva a la imagen de origen de capa para rellenar la región especificada con el cuadrilateral. Otras áreas de la capa permanecen transparentes.
 seo-title: perspectiva
 solution: Experience Manager
 title: perspectiva
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b22d7b49-db08-48df-80bc-5b7237aea475
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '485'
 ht-degree: 2%
 
 ---
 
 
-# perspectiva{#perspective}
+# Perspectiva{#perspective}
 
-Transformación de perspectiva. Aplique una transformación de perspectiva a la imagen de origen de la capa para rellenar la región especificada con el cuadrilateral. Otras áreas de la capa permanecen transparentes.
+Transformación de perspectiva. Aplique una transformación de perspectiva a la imagen de origen de capa para rellenar la región especificada con el cuadrilateral. Otras áreas de la capa permanecen transparentes.
 
 `perspective= *``*[, *`perspQuadresOptions`*]`
 
@@ -26,39 +27,39 @@ Transformación de perspectiva. Aplique una transformación de perspectiva a la 
 <table id="simpletable_4BD38BBF53964F7D97B9E58914C97B3F"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> perspQuad</span> </p></td> 
-  <td class="stentry"> <p>Coordenadas de píxeles cuadrilaterales de perspectiva (8 reales, separadas por comas). </p></td> 
+  <td class="stentry"> <p>Coordenadas de píxeles cuadrilaterales en perspectiva (8 reales, separados por comas). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> perspQuadN</span> </p></td> 
-  <td class="stentry"> <p>Coordenadas cuadrilaterales de perspectiva normalizadas (8 reales, separadas por comas). </p></td> 
+  <td class="stentry"> <p>Coordenadas cuadrilaterales normalizadas en perspectiva (8 reales, separados por comas). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> resOptions</span> </p></td> 
-  <td class="stentry"> <p>Opciones de remuestreo (véase más adelante). </p></td> 
+  <td class="stentry"> <p>Opciones de remuestreo (consulte a continuación). </p></td> 
  </tr> 
 </table>
 
-*`perspQuad`* consta de cuatro valores de coordenadas de píxeles en el espacio de coordenadas compuesto (o capa 0), que se originan en la esquina superior izquierda de la imagen compuesta.
+*`perspQuad`* consta de cuatro valores de coordenadas de píxeles en el espacio de coordenadas compuesto (o capa 0), que se origina en la esquina superior izquierda de la imagen compuesta.
 
-`perspQuadN` consta de cuatro valores de coordenadas normalizados, que  `0.0,0.0` corresponden a la esquina superior izquierda de la imagen compuesta/capa 0 y  `1.0,1.0` a la esquina inferior derecha.
+`perspQuadN` consta de cuatro valores de coordenadas normalizados, donde  `0.0,0.0` corresponde a la esquina superior izquierda de la imagen compuesta/capa 0 y  `1.0,1.0` a la esquina inferior derecha.
 
-La imagen de entrada se transforma para que la esquina superior izquierda de la imagen de entrada se asigne al primer valor de coordenada de `perspQuad[N]`, la esquina superior derecha de la segunda coordenada, la esquina inferior derecha de la tercera coordenada y la esquina inferior izquierda de la cuarta coordenada.
+La imagen de entrada se transforma de modo que la esquina superior izquierda de la imagen de entrada se asigne al primer valor de coordenada `perspQuad[N]`, la esquina superior derecha a la segunda coordenada, la esquina inferior derecha a la tercera coordenada y la esquina inferior izquierda a la cuarta coordenada.
 
 >[!NOTE]
 >
->`pos=` puede utilizarse para colocar la capa transformada en la imagen compuesta.
+>`pos=` se puede utilizar para colocar la capa transformada en la imagen compuesta.
 
-Las coordenadas cuadrilaterales de perspectiva pueden ubicarse fuera de la imagen compuesta.
+Las coordenadas cuadrilaterales de la perspectiva pueden situarse fuera de la imagen compuesta.
 
-El comportamiento no está definido si el cuadrilateral no es adecuado para una transformación de perspectiva (por ejemplo, si coinciden dos o más vértices, si tres o todos los vértices están en la misma línea o si el cuadrilateral se intersecta automáticamente o es cóncavo).
+El comportamiento es indefinido si el cuadrilateral no es adecuado para una transformación de perspectiva (por ejemplo, si coinciden dos o más vértices, si tres o todos los vértices están en la misma línea o si el cuadrilateral es de intersección o concava).
 
 ## Consideraciones de calidad {#section-7cc9056afa614300a9b8844d39739fc3}
 
-Aunque la implementación predeterminada produce un compromiso razonable entre la calidad y el rendimiento, a veces puede ser necesario aumentar la resolución de la imagen de origen para mejorar el enfoque o reducirla para reducir los defectos de solapamiento.
+Aunque la implementación predeterminada produce un compromiso razonable entre calidad y rendimiento, a veces puede ser necesario aumentar la resolución de la imagen de origen para mejorar la nitidez o reducirla para reducir los artefactos de aliasing.
 
-Si el origen es una imagen, utilice `scale=` para elegir una resolución diferente (en relación con la resolución completa de la imagen). El valor `scale=` especificado se redondea al siguiente nivel de resolución PTIF superior. En el caso de un origen de solicitud anidado, el tamaño de la imagen generada por la solicitud anidada se puede ajustar para lograr el enfoque deseado. Para las capas de texto, la resolución de la imagen de entrada (el texto procesado) se ajusta seleccionando un valor size= mayor junto con el aumento de la resolución especificada con `textAttr=`.
+Si el origen es una imagen, utilice `scale=` para elegir una resolución diferente (en relación con la resolución completa de la imagen). El valor especificado `scale=` se redondea al siguiente nivel de resolución PTIF superior. En el caso de una fuente de solicitud anidada, el tamaño de la imagen producida por la solicitud anidada se puede ajustar para lograr la nitidez deseada. Para las capas de texto, la resolución de la imagen de entrada (el texto procesado) se ajusta seleccionando un valor mayor size= junto con el aumento de la resolución especificada con `textAttr=`.
 
-*`resOptions`* permite seleccionar un algoritmo de remuestreo alternativo. Se admiten los siguientes valores (distinguen mayúsculas de minúsculas):
+*`resOptions`* permite seleccionar un algoritmo de remuestreo alternativo. Se admiten los siguientes valores (con distinción de mayúsculas y minúsculas):
 
 <table id="table_0F20007986324E228096888ED37219C0"> 
  <thead> 
@@ -82,16 +83,16 @@ Si el origen es una imagen, utilice `scale=` para elegir una resolución diferen
   </tr> 
   <tr> 
    <td> <p> <span class="codeph">R3<span class="varname"> Tn</span></span> </p> </td> 
-   <td> <p> El supermuestreo con vibración ajustable (<span class="varname"> n</span> debe ser un valor entero entre 0 y 200). </p> </td> 
+   <td> <p> El supermuestreo con agitación ajustable (<span class="varname"> n</span> debe ser un valor entero entre 0 y 200). </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Propiedades {#section-818e57df0a1b4449888543bc6af77751}
 
-Capa. Se aplica a la capa actual o a la capa 0 si `layer=comp`. Omitido por capas de efectos.
+Capa. Se aplica a la capa actual o a la capa 0 si `layer=comp`. Ignorado por capas de efecto.
 
-`res=` siempre se ignora cuando la perspectiva está presente en la misma capa. `size=` se ignora cuando se especifica para capas de imagen. `size=` y  `res=` en capas con  `perspective=` están reservadas para uso futuro.
+`res=` siempre se ignora cuando la perspectiva está presente en la misma capa. `size=` se ignora cuando se especifica para capas de imagen. `size=` y  `res=` en capas con  `perspective=` se reservan para uso futuro.
 
 ## Predeterminado {#section-e35683395d514d4eb6b32924e1bf8f2f}
 
