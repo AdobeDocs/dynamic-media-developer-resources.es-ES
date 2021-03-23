@@ -2,26 +2,27 @@
 description: CarouselView.maxloadradius
 solution: Experience Manager
 title: CarouselView.maxloadradius
-topic: Dynamic Media
 uuid: 0dcebbce-f449-4f5f-acbc-02960e1dbdba
+feature: Dynamic Media Classic,Visores,SDK/API,Banners de carrusel
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 6%
+source-wordcount: '75'
+ht-degree: 5%
 
 ---
 
 
 # CarouselView.maxloadradius{#carouselview-maxloadradius}
 
-` [CarouselView.|<containerId>_carouselView.]maxloadradius=-1|0| *`preloadnbr`*`
+` [CarouselView.|<containerId>_carouselView.]maxloadradius=-1|0| *`precarga`*`
 
 <table id="table_B3B03B00DCF0466DB332E851F4DDF610"> 
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> -1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td> <p>Especifica el comportamiento de precarga del componente. </p> <p>Cuando se establece en <span class="codeph"> -1</span>, el componente carga previamente todos los fotogramas de carrusel cuando se encuentra en estado inactivo. </p> <p>Cuando se establece en <span class="codeph"> 0</span>, el componente carga solo el fotograma que está visible actualmente, anterior y siguiente. </p> <p><span class="codeph"><span class="varname"> </span></span>precarga define cuántos marcos invisibles alrededor del marco mostrado actualmente se cargan previamente cuando se encuentra en estado inactivo. </p> </td> 
+   <td> <p>Especifica el comportamiento de precarga del componente. </p> <p>Cuando se establece en <span class="codeph"> -1</span>, el componente cargará previamente todos los fotogramas de carrusel cuando estén inactivos. </p> <p>Cuando se establece en <span class="codeph"> 0</span>, el componente carga solo el fotograma que está visible actualmente, anterior y siguiente. </p> <p><span class="codeph"><span class="varname"> </span></span>precarga define cuántos marcos invisibles alrededor del marco mostrado actualmente se cargan previamente cuando están en estado inactivo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
