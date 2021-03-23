@@ -1,15 +1,16 @@
 ---
 description: Máscara de imagen. Solicita los datos de la máscara (canal alfa).
 seo-description: Máscara de imagen. Solicita los datos de la máscara (canal alfa).
-seo-title: máscara
+seo-title: mask
 solution: Experience Manager
-title: máscara
-topic: Dynamic Media Image Serving - Image Rendering API
+title: mask
 uuid: 9a8dc4bc-0757-45d2-adfe-d4bd69b4efa9
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
