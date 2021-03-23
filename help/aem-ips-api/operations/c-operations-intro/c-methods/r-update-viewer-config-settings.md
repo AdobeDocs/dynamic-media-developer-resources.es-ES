@@ -1,23 +1,24 @@
 ---
-description: Actualiza la configuración del visor SWF.
-seo-description: Actualiza la configuración del visor SWF.
+description: Actualiza los ajustes de configuración del visor SWF.
+seo-description: Actualiza los ajustes de configuración del visor SWF.
 seo-title: updateViewerConfigSettings
 solution: Experience Manager
 title: updateViewerConfigSettings
-topic: Dynamic Media Image Production System API
 uuid: ad4af874-5ca4-4182-868e-afa48b1cd2b6
+feature: Dynamic Media Classic,SDK/API,ajustes preestablecidos de visor
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 13%
+source-wordcount: '74'
+ht-degree: 12%
 
 ---
 
 
 # updateViewerConfigSettings{#updateviewerconfigsettings}
 
-Actualiza la configuración del visor SWF.
+Actualiza los ajustes de configuración del visor SWF.
 
 Sintaxis
 
@@ -34,10 +35,10 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Manejar a la compañía. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Gestionar a la empresa. |
 | `*`assetHandle`*` | `xsd:string` | Sí | Identificador de recurso. |
-| `*`configSettingArray`*` | `types:ConfigSettingArray` | Sí | Matriz de opciones de configuración que desea aplicar al visor. |
+| `*`configSettingArray`*` | `types:ConfigSettingArray` | Sí | Matriz de ajustes de configuración que desea aplicar al visor. |
 
 **Salida (updateViewerConfigSettingsReturn)**
 
-La API de IPS no devuelve una respuesta para esta operación.
+La API IPS no devuelve una respuesta para esta operación.
