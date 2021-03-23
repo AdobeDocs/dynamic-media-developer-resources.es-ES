@@ -4,13 +4,14 @@ seo-description: Palabras clave ampliables de la plataforma de metadatos de un r
 seo-title: XmpKeywords
 solution: Experience Manager
 title: XmpKeywords
-topic: Dynamic Media Image Production System API
 uuid: 220d285c-2275-4ed4-b606-e832e89aa916
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 18%
+source-wordcount: '83'
+ht-degree: 16%
 
 ---
 
@@ -33,9 +34,9 @@ Sintaxis
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> elementos</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> items</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Una lista separada por comas de palabras clave que se combinan en el nodo de propiedad de XMP <span class="codeph"> dc:subject=</span>. Si aparece una coma en cualquiera de los valores individuales, debe tener un carácter de barra invertida (\). Una barra invertida literal es la barra invertida doble habitual (\\). </p> </td> 
+   <td colname="col3"> <p>Una lista separada por comas de palabras clave que se combinan en el nodo de propiedad de XMP <span class="codeph"> dc:subject=</span>. Si aparece una coma en cualquiera de los valores individuales, debe omitirse con una barra invertida (\). Una barra invertida literal es la barra invertida doble habitual (\\). </p> </td> 
   </tr> 
  </tbody> 
 </table>
