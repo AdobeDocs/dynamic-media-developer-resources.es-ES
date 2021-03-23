@@ -1,23 +1,24 @@
 ---
-description: Restablece el estado de publicación de uno o varios recursos para forzar la republicación del recurso en el siguiente trabajo de publicación.
-seo-description: Restablece el estado de publicación de uno o varios recursos para forzar la republicación del recurso en el siguiente trabajo de publicación.
+description: Restaura el estado de publicación de uno o varios recursos para obligar a que el recurso se vuelva a publicar en el siguiente trabajo de publicación.
+seo-description: Restaura el estado de publicación de uno o varios recursos para obligar a que el recurso se vuelva a publicar en el siguiente trabajo de publicación.
 seo-title: forceRepublishAssets
 solution: Experience Manager
 title: forceRepublishAssets
-topic: Dynamic Media Image Production System API
 uuid: fd1f4ece-075c-40e3-868a-f27b9a4c3374
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 11%
+source-wordcount: '191'
+ht-degree: 10%
 
 ---
 
 
 # forceRepublishAssets{#forcerepublishassets}
 
-Restablece el estado de publicación de uno o varios recursos para forzar la republicación del recurso en el siguiente trabajo de publicación.
+Restaura el estado de publicación de uno o varios recursos para obligar a que el recurso se vuelva a publicar en el siguiente trabajo de publicación.
 
 Sintaxis
 
@@ -48,7 +49,7 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Sí </p> </td> 
-   <td colname="col4"> <p>Controle la compañía que contiene los recursos que se van a restablecer. </p> </td> 
+   <td colname="col4"> <p>Gestione a la empresa que contenga recursos para restablecer. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"> <span class="varname"> republishFiles</span> </span> </td> 
@@ -60,7 +61,7 @@ Sintaxis
    <td colname="col1"><span class="codeph"> <span class="varname"> resyncCatalog</span> </span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Designa que los metadatos de catálogo utilizados para servir el recurso se sincronizan para garantizar que se mantienen actualizados. Este parámetro se utiliza para resolver las condiciones de carrera que podrían producirse en actualizaciones casi simultáneas del mismo registro. El valor predeterminado es <span class="codeph"> false</span>. </p> </td> 
+   <td colname="col4"> <p>Designa que los metadatos de catálogo utilizados para servir el recurso se sincronizan para garantizar que esté actualizado. Este parámetro se utiliza para resolver las condiciones de carrera que podrían producirse en actualizaciones casi simultáneas del mismo registro. El valor predeterminado es <span class="codeph"> false</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </td> 
