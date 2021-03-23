@@ -1,23 +1,24 @@
 ---
-description: Un tipo de conjunto de propiedades especifica varias opciones de configuración utilizadas para administrar conjuntos de propiedades.
-seo-description: Un tipo de conjunto de propiedades especifica varias opciones de configuración utilizadas para administrar conjuntos de propiedades.
+description: Un tipo de conjunto de propiedades especifica varias configuraciones utilizadas para ayudar a administrar conjuntos de propiedades.
+seo-description: Un tipo de conjunto de propiedades especifica varias configuraciones utilizadas para ayudar a administrar conjuntos de propiedades.
 seo-title: createPropertySetType
 solution: Experience Manager
 title: createPropertySetType
-topic: Dynamic Media Image Production System API
 uuid: ecbaad48-d725-4f7a-a37d-5e4cde3295cb
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 11%
+source-wordcount: '179'
+ht-degree: 10%
 
 ---
 
 
 # createPropertySetType{#createpropertysettype}
 
-Un tipo de conjunto de propiedades especifica varias opciones de configuración utilizadas para administrar conjuntos de propiedades.
+Un tipo de conjunto de propiedades especifica varias configuraciones utilizadas para ayudar a administrar conjuntos de propiedades.
 
 Sintaxis
 
@@ -34,20 +35,20 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | No | El identificador de la compañía que posee el tipo de conjunto de propiedades. Si `companyHandle` no se pasa y el llamador es `IpsAdmin`, se creará un tipo de conjunto de propiedades globales. |
+| `*`companyHandle`*` | `xsd:string` | No | El identificador de la empresa propietaria del tipo de conjunto de propiedades. Si no se pasa `companyHandle` y la llamada es `IpsAdmin`, se creará un tipo de conjunto de propiedades globales. |
 | `*`name`*` | `xsd:string` | Sí | Nombre del tipo de conjunto de propiedades. |
 | `*`propertyType`*` | `xsd:string` | Sí | Elección de tipos de conjuntos de propiedades. |
 | `*`allowMultiple`*` | `xsd:boolean` | Sí | Determina si el programa puede tener varios conjuntos de propiedades. |
 
-**Output (createPropertySetTypeReturn)**
+**Salida (createPropertySetTypeReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`typeHandle`*` | `xsd:string` | Sí | Un identificador para el tipo. |
+| `*`typeHandle`*` | `xsd:string` | Sí | Un identificador para el tipo . |
 
 ## Ejemplos {#section-13396c9639a6475190e622eae3cdb534}
 
-Este ejemplo de código crea un conjunto de propiedades con un nombre y un tipo especificados por la constante `PropertySet Types`. El identificador de la compañía que posee el tipo de conjunto de propiedades. Si companyHandle no se pasa y el llamador es un IpsAdmin, se creará un tipo de conjunto de propiedades globales.
+Este ejemplo de código crea un conjunto de propiedades con un nombre y un tipo especificados por la constante `PropertySet Types`. El identificador de la empresa propietaria del tipo de conjunto de propiedades. Si companyHandle no se pasa y la persona que realiza la llamada es un IpsAdmin, se creará un tipo de conjunto de propiedades globales.
 
 **Solicitar**
 
