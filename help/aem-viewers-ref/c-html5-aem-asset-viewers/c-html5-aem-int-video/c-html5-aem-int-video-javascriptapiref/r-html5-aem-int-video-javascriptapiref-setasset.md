@@ -1,15 +1,16 @@
 ---
-description: Referencia de la API de JavaScript para el visor de vídeo interactivo.
-seo-description: Referencia de la API de JavaScript para el visor de vídeo interactivo.
+description: Referencia de la API de JavaScript para el visualizador de vídeo interactivo.
+seo-description: Referencia de la API de JavaScript para el visualizador de vídeo interactivo.
 seo-title: setAsset
 solution: Experience Manager
 title: setAsset
-topic: Dynamic Media
 uuid: 80c670a4-1251-47f5-a66b-8ba5019df1ce
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '160'
 ht-degree: 2%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 2%
 
 # setAsset{#setasset}
 
-Referencia de la API de JavaScript para el visor de vídeo interactivo.
+Referencia de la API de JavaScript para el visualizador de vídeo interactivo.
 
 `setAsset(asset[, data])`
 
-Establece el nuevo recurso y los datos adicionales opcionales del recurso. Puede llamar a este parámetro en cualquier momento, ya sea antes o después de `init()`. Si se llama después de `init()`, el visor intercambia el recurso en tiempo de ejecución.
+Establece el nuevo recurso y los datos de recurso adicionales opcionales. Puede llamar a este parámetro en cualquier momento, ya sea antes o después de `init()`. Si se llama después de `init()`, el visor intercambia el recurso durante la ejecución.
 
 Consulte también [init](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
@@ -33,12 +34,12 @@ Consulte también [init](../../../c-html5-aem-asset-viewers/c-html5-aem-int-vide
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> data </span> </p> </td> 
-   <td colname="col2"> <p> { <span class="codeph"> objeto JSON </span>} con los siguientes campos opcionales (distinguen mayúsculas de minúsculas): </p> <p> 
+   <td colname="col2"> <p> { <span class="codeph"> JSON </span>} objeto JSON con los siguientes campos opcionales (con distinción de mayúsculas y minúsculas): </p> <p> 
      <ul id="ul_924FB99ACF0F43699CD229593F1C1384"> 
-      <li id="li_F3CFEF28BCB7450991EFE0BD4EB28E36"> <span class="codeph"> posterimage  </span> - Imagen que se mostrará en el primer fotograma antes de que se reproduzcan los inicios de vídeo. Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-posterimage.md#reference-8e8e2b3e7e9c4ee8b6dadf90cef494f7" format="dita" scope="local"> VideoPlayer.posterimage </a>. </li> 
-      <li id="li_D6C3E543C70942C582020780E2DF74C8"> <span class="codeph"> caption  </span> - ubicación del nuevo archivo de subtítulos. Si no se especifica, el botón de rótulo no está visible en la interfaz de usuario. </li> 
-      <li id="li_BF866BD7275E450EA08A0E72FAA9D3AE"> <span class="codeph"> navegación  </span> - URL o ruta al contenido de navegación WebVTT. El servicio de imágenes debe proporcionar el archivo WebVTT. </li> 
-      <li id="li_0C0EC5AB00554EC6AA01F60684A40213"> <span class="codeph"> interactiveData  </span> - URL o ruta al contenido de datos interactivos WebVTT. El servicio de imágenes debe proporcionar el archivo WebVTT. </li> 
+      <li id="li_F3CFEF28BCB7450991EFE0BD4EB28E36"> <span class="codeph"> posterimage  </span> : imagen que se mostrará en el primer fotograma antes de que el vídeo empiece a reproducirse. Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-posterimage.md#reference-8e8e2b3e7e9c4ee8b6dadf90cef494f7" format="dita" scope="local"> VideoPlayer.posterimage </a>. </li> 
+      <li id="li_D6C3E543C70942C582020780E2DF74C8"> <span class="codeph"> caption:  </span> ubicación del nuevo archivo de rótulo. Si no se especifica, el botón del rótulo no es visible en la interfaz de usuario. </li> 
+      <li id="li_BF866BD7275E450EA08A0E72FAA9D3AE"> <span class="codeph"> navegación  </span> : dirección URL o ruta al contenido de navegación de WebVTT. El archivo WebVTT debe ser servido por Image Serving. </li> 
+      <li id="li_0C0EC5AB00554EC6AA01F60684A40213"> <span class="codeph"> InteractiveData:  </span> URL o ruta al contenido de datos interactivo de WebVTT. El archivo WebVTT debe ser servido por Image Serving. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
