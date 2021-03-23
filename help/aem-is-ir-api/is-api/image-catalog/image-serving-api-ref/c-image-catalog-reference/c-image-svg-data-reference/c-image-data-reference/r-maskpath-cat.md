@@ -1,15 +1,16 @@
 ---
-description: Ruta del archivo de máscara. Ruta y nombre relativos o absolutos para un archivo de imagen de máscara asociado a este registro de catálogo.
-seo-description: Ruta del archivo de máscara. Ruta y nombre relativos o absolutos para un archivo de imagen de máscara asociado a este registro de catálogo.
+description: Ruta del archivo de máscara. Ruta relativa o absoluta y nombre de un archivo de imagen de máscara asociado con este registro de catálogo.
+seo-description: Ruta del archivo de máscara. Ruta relativa o absoluta y nombre de un archivo de imagen de máscara asociado con este registro de catálogo.
 seo-title: MaskPath
 solution: Experience Manager
 title: MaskPath
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a2d1f08a-0a26-41a6-9be2-f5cc2afb15c4
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '199'
 ht-degree: 3%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 3%
 
 # MaskPath{#maskpath}
 
-Ruta del archivo de máscara. Ruta y nombre relativos o absolutos para un archivo de imagen de máscara asociado a este registro de catálogo.
+Ruta del archivo de máscara. Ruta relativa o absoluta y nombre de un archivo de imagen de máscara asociado con este registro de catálogo.
 
 Permite adjuntar máscaras independientes a las imágenes.
 
@@ -25,13 +26,13 @@ El servidor utiliza las reglas de resolución de rutas descritas en [Administrac
 
 ## Propiedades {#section-cdc3b7e2811e41008479cd97887c01b7}
 
-Valor de cadena de texto. Opcional. Si se especifica, debe ser una ruta de acceso de archivo relativa o absoluta del servidor de imágenes válida. `attribute::DefaultExt` se anexa si no hay ningún sufijo de archivo presente.
+Valor de cadena de texto. Opcional. Si se especifica, debe ser una ruta de archivo válida relativa o absoluta del servidor de imágenes. `attribute::DefaultExt` se anexa si no hay ningún sufijo de archivo presente.
 
-Si una imagen principal ( `catalog::Path`) y una imagen de máscara ( `catalog::MaskPath`) están definidas en un registro de catálogo, ambas deben tener exactamente el mismo tamaño de píxel. Las imágenes de máscara deben tener una escala de grises de 8 bits.
+Si tanto una imagen principal ( `catalog::Path`) como una imagen de máscara ( `catalog::MaskPath`) están definidas en un registro de catálogo, ambas deben tener exactamente el mismo tamaño de píxel. Las imágenes de máscara deben tener una escala de grises de 8 bits.
 
-`mask=` en la solicitud se anula  `catalog::MaskPath`.
+`mask=` en las anulaciones de solicitud  `catalog::MaskPath`.
 
-`catalog::MaskPath` anula el canal alfa en la imagen principal (  `catalog::Path`), si está presente, y si el canal alfa no está asociado (es decir, no está premultiplicado). Si la imagen alfa está premultiplicada, `catalog::MaskPath` se omite y siempre se utiliza el canal alfa.
+`catalog::MaskPath` anula el canal alfa en la imagen principal (  `catalog::Path`), si está presente, y si el canal alfa no está asociado (es decir, no está premultiplicado). Si la imagen alfa está premultiplicada, `catalog::MaskPath` se ignora y siempre se utiliza el canal alfa.
 
 ## Predeterminado {#section-78533e35bfec469ba087cb68a35bb81b}
 
