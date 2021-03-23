@@ -1,30 +1,31 @@
 ---
-description: Selector de material de cierre. Inicio un segmento de especificación de material (MSS) para un material de calado no repetible.
-seo-description: Selector de material de cierre. Inicio un segmento de especificación de material (MSS) para un material de calado no repetible.
-seo-title: decal
+description: Declare el selector de material. Inicia un segmento de especificación de material (MSS) para un material de calco no repetible.
+seo-description: Declare el selector de material. Inicia un segmento de especificación de material (MSS) para un material de calco no repetible.
+seo-title: calco
 solution: Experience Manager
-title: decal
-topic: Dynamic Media Image Serving - Image Rendering API
+title: calco
 uuid: 3a164f92-b0fc-4698-8aaa-934f029437c0
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 8%
+source-wordcount: '66'
+ht-degree: 7%
 
 ---
 
 
-# decal{#decal}
+# calcomanía{#decal}
 
-Selector de material de cierre. Inicio un segmento de especificación de material (MSS) para un material de calado no repetible.
+Declare el selector de material. Inicia un segmento de especificación de material (MSS) para un material de calco no repetible.
 
 ` decal[= *`val`*]`
 
 <table id="simpletable_35431F0E19B143528BD75C82CFBC5EE0"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> val  </span> </p> </td> 
-  <td class="stentry"> <p>Omitido. </p> </td> 
+  <td class="stentry"> <p>Ignorado. </p> </td> 
  </tr> 
 </table>
 
