@@ -1,23 +1,24 @@
 ---
-description: Permite recortar al cuadro delimitador de una ruta de acceso con nombre incrustada. Este recorte, a su vez, cambia el tamaño de la imagen.
-seo-description: Permite recortar al cuadro delimitador de una ruta de acceso con nombre incrustada. Este recorte, a su vez, cambia el tamaño de la imagen.
-seo-title: cutPathE
+description: Permite recortar al cuadro delimitador de una ruta con nombre integrada. Este recorte, a su vez, cambia el tamaño de la imagen.
+seo-description: Permite recortar al cuadro delimitador de una ruta con nombre integrada. Este recorte, a su vez, cambia el tamaño de la imagen.
+seo-title: cropPathE
 solution: Experience Manager
-title: cutPathE
-topic: Dynamic Media Image Serving - Image Rendering API
+title: cropPathE
 uuid: 4689fd20-dfa0-47eb-8184-cd233f1ac088
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 2%
+source-wordcount: '205'
+ht-degree: 1%
 
 ---
 
 
-# cutPathE{#croppathe}
+# cropPathE{#croppathe}
 
-Permite recortar al cuadro delimitador de una ruta de acceso con nombre incrustada. Este recorte, a su vez, cambia el tamaño de la imagen.
+Permite recortar al cuadro delimitador de una ruta con nombre integrada. Este recorte, a su vez, cambia el tamaño de la imagen.
 
 `cropPathE= *``*&#42;[, *`pathNamepathName`*]`
 
@@ -25,21 +26,21 @@ Permite recortar al cuadro delimitador de una ruta de acceso con nombre incrusta
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> pathName</span></span> </p> </td> 
-   <td colname="col2"> <p>Nombre de la ruta incrustada en la imagen de origen de la capa (solo ASCII). </p> <p> <span class="codeph"><span class="varname"> </span></span> pathName es el nombre de un trazado incrustado en la imagen de origen de la capa. La ruta se transforma automáticamente según sea necesario para mantener la alineación relativa con el contenido de la imagen. Si se especifica más de un <span class="codeph"><span class="varname"> pathName</span></span>, el servidor recorta el cuadro delimitador de cada ruta, de uno en uno. Se ignora cualquier <span class="codeph"><span class="varname"> pathName</span></span> no encontrado en la imagen de origen. </p> </td> 
+   <td colname="col2"> <p>Nombre de la ruta de acceso incrustada en la imagen de origen de la capa (solo ASCII). </p> <p> <span class="codeph"><span class="varname"> </span></span> pathName es el nombre de una ruta integrada en la imagen de origen de la capa. La ruta se transforma automáticamente según sea necesario para mantener la alineación relativa con el contenido de la imagen. Si se especifica más de un <span class="codeph"><span class="varname"> pathName</span></span>, el servidor recorta el cuadro delimitador de cada ruta, de una en una. Cualquier <span class="codeph"><span class="varname"> pathName</span></span> no encontrado en la imagen de origen se ignora. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Propiedades {#section-acf7272ba93a4bbba818b8e6aa4dcea5}
 
-Atributo de capa. Se aplica a la capa actual o a la imagen compuesta si `layer=comp`. Omitido por capas de efectos.
+Atributo de capa. Se aplica a la capa actual o a la imagen compuesta si `layer=comp`. Ignorado por capas de efecto.
 
-`cropPathE=` se omite si no se encuentra ninguna ruta con el nombre especificado en la imagen de origen de la capa o si el origen de la capa no es una imagen.
+`cropPathE=` se ignora si no se encuentra ninguna ruta con el nombre especificado en la imagen de origen de la capa o si el origen de la capa no es una imagen.
 
 ## Predeterminado {#section-d1986aa31af14767aeb1b4a57add67f4}
 
-Ninguno, para no recortar la capa de forma adicional.
+Ninguno, para no recortar más la capa.
 
 ## Véase también {#section-a60f6e37ebf14e458519fcc4d2cc911d}
 
-[recortar](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab),  [clipPathE](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)
+[recorte](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab),  [clipPathE](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)
