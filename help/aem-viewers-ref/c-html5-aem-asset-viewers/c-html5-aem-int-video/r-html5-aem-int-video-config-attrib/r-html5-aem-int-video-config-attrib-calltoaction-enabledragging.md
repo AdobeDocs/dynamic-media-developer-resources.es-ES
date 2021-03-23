@@ -1,23 +1,24 @@
 ---
-description: Atributo de configuración para el visor de vídeo interactivo.
-seo-description: Atributo de configuración para el visor de vídeo interactivo.
+description: Atributo de configuración para el visualizador de vídeo interactivo.
+seo-description: Atributo de configuración para el visualizador de vídeo interactivo.
 seo-title: CallToAction.enabledragging
 solution: Experience Manager
 title: CallToAction.enabledragging
-topic: Dynamic Media
 uuid: efb272b5-e30e-44d5-9dec-0529b1074ed2
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 5%
+source-wordcount: '101'
+ht-degree: 4%
 
 ---
 
 
 # CallToAction.enabledragging{#calltoaction-enabledragging}
 
-Atributo de configuración para el visor de vídeo interactivo.
+Atributo de configuración para el visualizador de vídeo interactivo.
 
 ` [CallToAction.|<containerId>_callToAction.]enabledragging=0|1[, *`overdragvalue`*]`
 
