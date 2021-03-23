@@ -4,13 +4,14 @@ seo-description: Tipo de superficie de material. Especifica el tipo de superfici
 seo-title: tipo
 solution: Experience Manager
 title: tipo
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0f107d50-b363-4670-bb02-873677e7bbea
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 22%
+source-wordcount: '175'
+ht-degree: 21%
 
 ---
 
@@ -44,7 +45,7 @@ Tipo de superficie de material. Especifica el tipo de superficie del material.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p></td> 
-  <td class="stentry"> <p>Metal antiguo </p></td> 
+  <td class="stentry"> <p>Metal anticuado </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>6 </p></td> 
@@ -96,7 +97,7 @@ Tipo de superficie de material. Especifica el tipo de superficie del material.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>18 </p></td> 
-  <td class="stentry"> <p>Tejido de oveja </p></td> 
+  <td class="stentry"> <p>Tejido de hojas </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>19 </p></td> 
@@ -104,16 +105,16 @@ Tipo de superficie de material. Especifica el tipo de superficie del material.
  </tr> 
 </table>
 
-Se utiliza junto con `gloss=` y `rough=` para controlar los comportamientos de efectos de reflejo y brillo. Diferentes materiales producirán diferentes efectos, aunque `gloss=` y `rough=` sean los mismos.
+Se utiliza junto con `gloss=` y `rough=` para controlar los comportamientos de efecto de reflejo y brillo. Los diferentes materiales producirán diferentes efectos, incluso si `gloss=` y `rough=` son iguales.
 
 ## Propiedades {#section-2345b2508273426295ce8ac46182ea64}
 
-Atributo Material. Se omite si la viñeta no incluye datos de reflejo 3D o si los efectos de brillo están desactivados en la viñeta.
+Atributo de material. Se omite si la viñeta no incluye datos de reflejo 3D o si los efectos de brillo están desactivados en la viñeta.
 
 ## Predeterminado {#section-0989055fb74a41a3b2f2a47fe7d90a42}
 
-`catalog::Type` si el material está basado en una entrada de catálogo. De lo contrario `type=0`. Si no se especifica, o si `type=0`, el servidor seleccionará un valor predeterminado adecuado según el objeto destinatario y los demás atributos materiales.
+`catalog::Type` si el material está basado en una entrada de catálogo. De lo contrario `type=0`. Si no se especifica, o si es `type=0`, el servidor seleccionará un valor predeterminado adecuado en función del objeto de destino y los demás atributos de material.
 
 ## Véase también {#section-7cf808b0bb3d4b4fbb7b9a850d5a038b}
 
-[gloss=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) ,  [rough=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180)
+[glose=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) ,  [aproximado=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180)
