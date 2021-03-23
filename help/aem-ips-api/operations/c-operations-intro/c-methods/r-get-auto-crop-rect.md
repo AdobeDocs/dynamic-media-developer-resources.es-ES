@@ -4,12 +4,13 @@ seo-description: Devuelve una región recortada para una imagen en función de s
 seo-title: getAutoCropRect
 solution: Experience Manager
 title: getAutoCropRect
-topic: Dynamic Media Image Production System API
 uuid: bb00d89a-5fc4-476f-aa47-3cf69ef99afe
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '174'
 ht-degree: 13%
 
 ---
@@ -41,16 +42,16 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía con el recurso con el que desea trabajar. |
-| `*`assetHandle`*` | `xsd:string` | Sí | Identificador del recurso con el que se desea trabajar. |
-| `*`autoColorCropOptions`*` | `types:AutoColorCropOptions` | No | Calcular rectángulo de recorte basado en color. Consulte [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6). |
-| `*`autoTransparentCropOptions`*` | `types:AutoTransparentCropOptions` | No | Calcular rectángulo de recorte en función de la transparencia. Consulte [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b). |
+| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa con el recurso con el que desea trabajar. |
+| `*`assetHandle`*` | `xsd:string` | Sí | El identificador del recurso con el que desea trabajar. |
+| `*`autoColorCropOptions`*` | `types:AutoColorCropOptions` | No | Calcular rectángulo de recorte basado en el color. Consulte [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6). |
+| `*`autoTransparentCropOptions`*` | `types:AutoTransparentCropOptions` | No | Calcular rectángulo de recorte basado en la transparencia. Consulte [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b). |
 
 **Salida (getAutoCropRectReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`xOffset`*` | `xsd:int` | Sí | Coordenada inicial de píxeles izquierda de la región de recorte calculada. |
+| `*`xOffset`*` | `xsd:int` | Sí | Coordenada de píxeles izquierda inicial de la región de recorte calculada. |
 | `*`yOffset`*` | `xsd:int` | Sí | Coordenada de píxeles superior inicial de la región de recorte calculada. |
 | `*`width`*` | `xsd:int` | Sí | Anchura de la región de recorte calculada (en píxeles). |
 | `*`height`*` | `xsd:int` | Sí | Altura de la región de recorte calculada (en píxeles). |
