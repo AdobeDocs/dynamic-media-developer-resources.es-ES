@@ -1,15 +1,16 @@
 ---
-description: Perfil de color de entrada predeterminado de escala de grises. Especifica el nombre del perfil de color ICC que se utilizará para las imágenes de material en escala de grises que no incrustan un perfil de color.
-seo-description: Perfil de color de entrada predeterminado de escala de grises. Especifica el nombre del perfil de color ICC que se utilizará para las imágenes de material en escala de grises que no incrustan un perfil de color.
+description: Perfil de color de entrada predeterminado de escala de grises. Especifica el nombre del perfil de color ICC que se utilizará para las imágenes de material en escala de grises que no incrusten un perfil de color.
+seo-description: Perfil de color de entrada predeterminado de escala de grises. Especifica el nombre del perfil de color ICC que se utilizará para las imágenes de material en escala de grises que no incrusten un perfil de color.
 seo-title: IccProfileSrcGray
 solution: Experience Manager
 title: IccProfileSrcGray
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e05d1185-ffd6-4c04-a2b8-52228beae37d
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '162'
 ht-degree: 2%
 
 ---
@@ -17,15 +18,15 @@ ht-degree: 2%
 
 # IccProfileSrcGray{#iccprofilesrcgray}
 
-Perfil de color de entrada predeterminado de escala de grises. Especifica el nombre del perfil de color ICC que se utilizará para las imágenes de material en escala de grises que no incrustan un perfil de color.
+Perfil de color de entrada predeterminado de escala de grises. Especifica el nombre del perfil de color ICC que se utilizará para las imágenes de material en escala de grises que no incrusten un perfil de color.
 
 ## Propiedades {#section-97923d8561b845309442d57d017d91a4}
 
-Cadena de texto. Si se especifica, debe ser un valor `icc::Name` válido del mapa de perfiles ICC de este catálogo de imágenes o del catálogo predeterminado, o una ruta de archivo relativa a `attribute::RootPath`. El perfil ICC referenciado debe ser un perfil en escala de grises.
+Cadena de texto. Si se especifica, debe ser un valor `icc::Name` válido del mapa de perfiles ICC de este catálogo de imágenes o del catálogo predeterminado, o una ruta de archivo relativa a `attribute::RootPath`. El perfil ICC al que se hace referencia debe ser de escala de grises.
 
 ## Predeterminado {#section-02c52805ee13483dba7878aeab51f889}
 
-Se hereda de `default::IccProfileSrcGray` si no está definida o si está vacía. Si `attribute::IccProfileSrcGray` no se resuelve en un perfil válido, se utilizará `attribute::IccProfileGray` en su lugar.
+Se hereda de `default::IccProfileSrcGray` si no está definido o si está vacío. Si `attribute::IccProfileSrcGray` no se resuelve en un perfil válido, se utilizará `attribute::IccProfileGray` en su lugar.
 
 ## Véase también {#section-c361d6f6231942b3aa8b4b496e1d3de3}
 
