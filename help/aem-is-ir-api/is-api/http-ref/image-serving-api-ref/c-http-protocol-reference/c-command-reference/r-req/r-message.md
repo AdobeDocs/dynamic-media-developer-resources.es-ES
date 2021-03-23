@@ -4,13 +4,14 @@ seo-description: Mensaje del cliente. Proporciona un mecanismo para que los clie
 seo-title: mensaje
 solution: Experience Manager
 title: mensaje
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 38d6d0e7-55cf-43ea-85b7-8f4aade4208a
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 7%
+source-wordcount: '77'
+ht-degree: 6%
 
 ---
 
@@ -24,7 +25,7 @@ Mensaje del cliente. Proporciona un mecanismo para que los clientes inserten men
 <table id="simpletable_9AF29AA336C4447BBC2FD4A7D43ED91B"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> cadena</span> </p> </td> 
-  <td class="stentry"> <p>Cadena de mensaje. </p></td> 
+  <td class="stentry"> <p>Cadena del mensaje. </p></td> 
  </tr> 
 </table>
 
