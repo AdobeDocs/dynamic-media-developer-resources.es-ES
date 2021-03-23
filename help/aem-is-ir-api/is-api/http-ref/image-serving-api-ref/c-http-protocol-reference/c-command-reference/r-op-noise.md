@@ -1,25 +1,26 @@
 ---
-description: Añadir ruido. Añade el ruido aleatorio en los datos de la imagen en primer plano o en el primer plano de una capa de efecto.
-seo-description: Añadir ruido. Añade el ruido aleatorio en los datos de la imagen en primer plano o en el primer plano de una capa de efecto.
+description: Añada ruido. Agrega ruido aleatorio a los datos de la imagen en primer plano o al primer plano de una capa de efecto.
+seo-description: Añada ruido. Agrega ruido aleatorio a los datos de la imagen en primer plano o al primer plano de una capa de efecto.
 seo-title: op_sound
 solution: Experience Manager
 title: op_sound
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 531f7a94-149b-4090-a163-a1895156250b
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '119'
 ht-degree: 1%
 
 ---
 
 
-# op_ruido{#op-noise}
+# op_sound{#op-noise}
 
-Añadir ruido. Añade el ruido aleatorio en los datos de la imagen en primer plano o en el primer plano de una capa de efecto.
+Añada ruido. Agrega ruido aleatorio a los datos de la imagen en primer plano o al primer plano de una capa de efecto.
 
-`op_noise= *``*[,uniform|gaussian[, *`valmonocromo`*]]`
+`op_noise= *``*[,uniform|gaussian[, *`valmonrome`*]]`
 
 <table id="table_40675464E5824D52BF392ECCE2DDC03C"> 
  <tbody> 
@@ -29,20 +30,20 @@ Añadir ruido. Añade el ruido aleatorio en los datos de la imagen en primer pla
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> uniforme</span> </p> </td> 
-   <td colname="col2"> <p>Seleccione una distribución uniforme de ruido. </p> </td> 
+   <td colname="col2"> <p>Seleccione una distribución de ruido uniforme. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> gaussiano</span> </p> </td> 
-   <td colname="col2"> <p>Seleccione la distribución gaussiana de ruido. </p> </td> 
+   <td colname="col2"> <p>Seleccione la distribución de ruido gaussiano. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> monocromo</span> </p> </td> 
-   <td colname="col2"> <p>Se establece en 0 para ruido de color, 1 para ruido gris. </p> </td> 
+   <td colname="col2"> <p>Establézcalo en 0 para ruido de color, 1 para ruido gris. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*`monochrome`* se ignora en las imágenes en escala de grises.
+*`monochrome`* se ignora para imágenes en escala de grises.
 
 ## Propiedades {#section-1f1a64c791f545a3bf1abd0b0e575d87}
 
