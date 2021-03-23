@@ -4,12 +4,13 @@ seo-description: Configuración avanzada de procesamiento. Especifica una config
 seo-title: rs
 solution: Experience Manager
 title: rs
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 4ff7fcb4-a10a-4e82-80a1-edf79ae1f717
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '141'
 ht-degree: 3%
 
 ---
@@ -28,11 +29,11 @@ Configuración avanzada de procesamiento. Especifica una configuración de proce
  </tr> 
 </table>
 
-Se utiliza para ajustar el aspecto del procesamiento. Utilice la función de procesamiento de la herramienta de creación de viñetas (que forma parte del paquete de creación de imágenes de Dynamic Media) para crear cadenas de configuración de procesamiento.
+Se utiliza para ajustar el aspecto del procesamiento. Utilice la función de renderización de la herramienta de creación de viñetas (parte del paquete de creación de imágenes de Dynamic Media) para crear cadenas de configuración de renderización.
 
 ## Propiedades {#section-9a2b2228789046658cb80eddf343af75}
 
-Atributo Material.
+Atributo de material.
 
 ## Predeterminado {#section-f4751476c3134f16ac6283d6f0c46e47}
 
@@ -40,7 +41,7 @@ Atributo Material.
 
 ## Ejemplo {#section-47e4811882574441a4d517e42a35f352}
 
-Después de algunos experimentos con la creación de imágenes, se determina que la máscara de enfoque (USM) proporciona la cantidad correcta de enfoque para la aplicación y el material en cuestión. La cadena de configuración de procesamiento que configura USM se copia al comando `rs=` para utilizarlo con este material:
+Después de algunos experimentos en la creación de imágenes, se determina que la máscara de enfoque (USM) proporciona la cantidad correcta de enfoque para la aplicación y el material dados. La cadena de configuración de procesamiento que configura USM se copia al comando `rs=` para utilizarlo con este material:
 
 `…&rs=U2V20W50X2&…`
 
