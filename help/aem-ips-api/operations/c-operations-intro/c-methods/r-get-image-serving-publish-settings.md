@@ -1,23 +1,24 @@
 ---
-description: 'Solo para uso interno. Los usuarios deben consultar la sección Referencia del catálogo de imágenes del servicio de imágenes: Referencia de atributos.'
-seo-description: 'Solo para uso interno. Los usuarios deben consultar la sección Referencia del catálogo de imágenes del servicio de imágenes: Referencia de atributos.'
+description: 'Solo para uso interno. Los usuarios deben consultar la sección Referencia del catálogo de imágenes de servicio de imágenes: Referencia de atributos .'
+seo-description: 'Solo para uso interno. Los usuarios deben consultar la sección Referencia del catálogo de imágenes de servicio de imágenes: Referencia de atributos .'
 seo-title: getImageServingPublishSettings
 solution: Experience Manager
 title: getImageServingPublishSettings
-topic: Dynamic Media Image Production System API
 uuid: 2f00198d-0262-430b-8ac5-80f52adcff67
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 13%
+source-wordcount: '105'
+ht-degree: 12%
 
 ---
 
 
 # getImageServingPublishSettings{#getimageservingpublishsettings}
 
-Solo para uso interno. Los usuarios deben consultar la sección Referencia del catálogo de imágenes del servicio de imágenes: Referencia de atributos.
+Solo para uso interno. Los usuarios deben consultar la sección Referencia del catálogo de imágenes de servicio de imágenes: Referencia de atributos .
 
 Sintaxis
 
@@ -34,12 +35,12 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía con la configuración de publicación del servicio de imágenes. |
+| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa con la imagen que sirve para la configuración de publicación. |
 | `*`contextHandle`*` | `xsd:string` | Sí | Gestionar en el contexto de publicación. |
 
 **Salida**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`publishSettingArray`*` | `xsd:string` | Sí | Matriz de la configuración de publicación del servidor de imágenes. |
+| `*`publishSettingArray`*` | `xsd:string` | Sí | Matriz de configuración de publicación del servidor de imágenes. |
 
