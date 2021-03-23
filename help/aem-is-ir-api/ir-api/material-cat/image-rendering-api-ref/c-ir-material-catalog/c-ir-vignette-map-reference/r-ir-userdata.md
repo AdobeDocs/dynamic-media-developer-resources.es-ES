@@ -4,13 +4,14 @@ seo-description: Datos de usuario. El servidor devuelve el contenido de este cam
 seo-title: Datos de usuario *
 solution: Experience Manager
 title: Datos de usuario *
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ed4dfc19-8923-4e99-aa07-b6a9fab4eded
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 18%
+source-wordcount: '91'
+ht-degree: 16%
 
 ---
 
@@ -19,7 +20,7 @@ ht-degree: 18%
 
 Datos de usuario. El servidor devuelve el contenido de este campo al cliente en respuesta a req=userdata.
 
-Las líneas nuevas se pueden escapar con &#39;??&#39;. El servidor reemplazará &#39;??&#39; con `<cr><lf>` antes de devolver el contenido de este campo.
+Se pueden escapar nuevas líneas con &quot;??&quot;. El servidor reemplazará &#39;??&#39; con `<cr><lf>` antes de devolver el contenido de este campo.
 
 ## Propiedades {#section-4e3904e047a84cc790ce77c56d3e0b21}
 
