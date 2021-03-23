@@ -4,12 +4,13 @@ seo-description: Las alertas estándar se envían con un mensaje de correo elect
 seo-title: Alertas estándar
 solution: Experience Manager
 title: Alertas estándar
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d3294434-a44b-4742-9d77-a6945760d33c
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '249'
 ht-degree: 1%
 
 ---
@@ -25,7 +26,7 @@ La siguiente tabla describe cada tipo de alerta estándar.
  <thead> 
   <tr> 
    <th class="entry"> <b>Tipo de alerta</b> </th> 
-   <th class="entry"> <b>Id. de título</b> </th> 
+   <th class="entry"> <b>ID de título</b> </th> 
    <th class="entry"> <b>Descripción</b> </th> 
   </tr> 
  </thead>
@@ -33,27 +34,27 @@ La siguiente tabla describe cada tipo de alerta estándar.
   <tr> 
    <td> <p>Solicitud bloqueada </p> </td> 
    <td> <p>Bloquear </p> </td> 
-   <td> <p>Se envía cuando una solicitud no devuelve una respuesta al cliente dentro del umbral especificado. Puede ser indicativo de solicitudes de bloqueo, lo que puede causar el agotamiento del grupo de subprocesos de Java. </p> </td> 
+   <td> <p>Se envía cuando una solicitud no devuelve una respuesta al cliente dentro del umbral especificado. Puede ser indicativo de solicitudes colgadas, lo que puede causar el agotamiento del grupo de subprocesos de Java. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Alta concurrencia </p> </td> 
    <td> <p>Conc </p> </td> 
-   <td> Se envía cuando el número de solicitudes que se procesan simultáneamente (la <i>superposición</i>) supera el umbral especificado. Puede indicar una condición de sobrecarga de servidor. </td> 
+   <td> Se envía cuando el número de solicitudes que se procesan simultáneamente (<i>superposición</i>) supera el umbral especificado. Puede indicar una condición de sobrecarga del servidor. </td> 
   </tr> 
   <tr> 
    <td> <p>Tráfico mínimo </p> </td> 
    <td> <p>Traf </p> </td> 
-   <td> <p>Se genera cuando la tasa de solicitud global cae por debajo del umbral especificado. Generalmente indica un problema de comunicación con el servidor (por ejemplo, cuando un servidor se desconecta de la línea). </p> </td> 
+   <td> <p>Generado cuando la tasa de solicitud global se encuentra por debajo del umbral especificado. Normalmente indica un problema de comunicación con el servidor (por ejemplo, cuando un servidor está fuera de línea). </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tasa de error </p> </td> 
    <td> <p>Error </p> </td> 
-   <td> <p>Se envía cuando la tasa media de respuestas de error HTTP durante el intervalo de muestra supera el umbral especificado. Puede ser indicativo de problemas de configuración, imágenes que faltan, programación de sitios web o errores de base de datos. </p> </td> 
+   <td> <p>Se envía cuando la tasa media de respuestas de error HTTP durante el intervalo de muestreo supera el umbral especificado. Puede indicar problemas de configuración, imágenes faltantes, programación de sitios web o errores de bases de datos. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tiempo de respuesta </p> </td> 
    <td> <p>RTime </p> </td> 
-   <td> <p>Se envía cuando el tiempo medio de procesamiento de la solicitud durante el intervalo de muestreo supera el umbral especificado. Generalmente indica una condición de sobrecarga temporal o persistente del servidor o del sistema de almacenamiento de imágenes back-end. </p> <p>Las respuestas a errores no se tienen en cuenta al calcular el tiempo de respuesta promedio. </p> </td> 
+   <td> <p>Se envía cuando el tiempo medio de procesamiento de la solicitud durante el intervalo de muestreo aumenta por encima del umbral especificado. Normalmente indica una condición de sobrecarga temporal o persistente del servidor o del sistema de almacenamiento de imágenes back-end. </p> <p>Las respuestas de error no se tienen en cuenta al calcular el tiempo de respuesta promedio. </p> </td> 
   </tr> 
  </tbody> 
 </table>
