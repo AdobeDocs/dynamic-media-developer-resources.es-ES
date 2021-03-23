@@ -1,15 +1,16 @@
 ---
-description: Imagen del mapa brillante. Proporciona control píxel a píxel del brillo de una textura repetible, papel tapiz/borde o cierre.
-seo-description: Imagen del mapa brillante. Proporciona control píxel a píxel del brillo de una textura repetible, papel tapiz/borde o cierre.
+description: Imagen de mapa brillante. Proporciona control píxel a píxel de la luminosidad de una textura, papel tapiz/borde repetible o calcomanía.
+seo-description: Imagen de mapa brillante. Proporciona control píxel a píxel de la luminosidad de una textura, papel tapiz/borde repetible o calcomanía.
 seo-title: glossmap
 solution: Experience Manager
 title: glossmap
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f137d362-74a1-45b3-9274-a3a2d6cf5db0
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '177'
 ht-degree: 2%
 
 ---
@@ -17,14 +18,14 @@ ht-degree: 2%
 
 # glossmap{#glossmap}
 
-Imagen del mapa brillante. Proporciona control píxel a píxel del brillo de una textura repetible, papel tapiz/borde o cierre.
+Imagen de mapa brillante. Proporciona control píxel a píxel de la luminosidad de una textura, papel tapiz/borde repetible o calcomanía.
 
 `glossmap={ *``*| *`glossMapFileEmbeddedReq`*}`
 
 <table id="simpletable_6AFC3DEB61D647339525C7CFFA052608"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> EmbeddedReq</span> </span> </p></td> 
-  <td class="stentry"> <p><span class="codeph">&amp;Lbrace;'is&amp;lbrace;'<span class="varname"> isReq</span>'&amp;rbrace;'&amp;rbrace;|&amp;lbrace;'&amp;lbrace;'<span class="varname"> ForeignReq</span>'&amp;rbrace;'  </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">&amp;Lbrace;'is&amp;lbrace;'<span class="varname"> isReq</span>'&amp;rbrace;'&amp;rbrace;|&amp;lbrace;'&amp;lbrace;'<span class="varname"> externalReq</span>'&amp;rbrace;'  </span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> glossMapFile</span> </span> </p></td> 
@@ -32,7 +33,7 @@ Imagen del mapa brillante. Proporciona control píxel a píxel del brillo de una
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> isReq</span> </span> </p></td> 
-  <td class="stentry"> <p>Solicitud al servidor de imágenes. </p></td> 
+  <td class="stentry"> <p>Solicitar al servidor de imágenes. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> ForeignReq  </span> </span> </p></td> 
@@ -40,13 +41,13 @@ Imagen del mapa brillante. Proporciona control píxel a píxel del brillo de una
  </tr> 
 </table>
 
-Aplicable a materiales como pinturas metálicas, tapicerías y bordes de láminas cortadas, telas metálicas, etc.
+Aplicable a materiales tales como pinturas metálicas, tapicerías y bordes de hojas cortadas, telas metálicas, etc.
 
-La imagen del mapa de brillo debe ser de escala de grises de 8 bits y tener exactamente el mismo tamaño que la imagen principal especificada con `src=`. Consulte la descripción de [ `gloss=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) para obtener más información.
+La imagen del mapa de brillo debe tener una escala de grises de 8 bits y tener exactamente el mismo tamaño que la imagen principal especificada con `src=`. Consulte la descripción de [ `gloss=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) para obtener más información.
 
 ## Propiedades {#section-26375672d69849be9b026cc93c3bc558}
 
-Atributo Material. Admitido por texturas repetibles, fondos de pantalla, bordes y calcomanías. Ignorado por materiales de color sólido, gabinete y revestimiento de ventanas. Consulte [ `gloss=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) para obtener información adicional.
+Atributo de material. Admitido por texturas repetibles, fondos de pantalla y bordes, y calcomanías. Ignorado por materiales de color sólido, gabinete y recubrimiento de ventanas. Consulte [ `gloss=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) para obtener más información.
 
 ## Predeterminado {#section-d9ac031fb2f94482ac3fe2283d7cb168}
 
