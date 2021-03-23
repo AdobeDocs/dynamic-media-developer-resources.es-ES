@@ -1,23 +1,24 @@
 ---
-description: Obtiene los usuarios que pertenecen a una compañía y un grupo específicos.
-seo-description: Obtiene los usuarios que pertenecen a una compañía y un grupo específicos.
+description: Obtiene los usuarios que pertenecen a una empresa y un grupo específicos.
+seo-description: Obtiene los usuarios que pertenecen a una empresa y un grupo específicos.
 seo-title: getGroupMembers
 solution: Experience Manager
 title: getGroupMembers
-topic: Dynamic Media Image Production System API
 uuid: 02322b66-1c0c-4d84-a3eb-97a4fb605318
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 16%
+source-wordcount: '100'
+ht-degree: 15%
 
 ---
 
 
 # getGroupMembers{#getgroupmembers}
 
-Obtiene los usuarios que pertenecen a una compañía y un grupo específicos.
+Obtiene los usuarios que pertenecen a una empresa y un grupo específicos.
 
 Sintaxis
 
@@ -33,18 +34,18 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la compañía. |
+| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa. |
 | `*`groupHandle`*` | `xsd:string` |  | El identificador del grupo. |
 
 **Salida (getGroupMembersReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`userHandleArray`*` | `type:HandleArray` | Sí | Matriz de identificadores de usuario. |
+| `*`userHandleArray`*` | `type:HandleArray` | Sí | Matriz de controles de usuario. |
 
 ## Ejemplos {#section-aaa340dba6b64cce9bcd8303cf999166}
 
-Este ejemplo de código devuelve una matriz de control de usuario que contiene todos los usuarios que pertenecen a un grupo específico.
+Este ejemplo de código devuelve una matriz de gestión de usuario que contiene todos los usuarios que pertenecen a un grupo específico.
 
 **Solicitar**
 
