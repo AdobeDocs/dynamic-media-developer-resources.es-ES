@@ -1,23 +1,24 @@
 ---
-description: Atributo de configuración para el visor de vídeo.
-seo-description: Atributo de configuración para el visor de vídeo.
+description: Atributo de configuración para el visualizador de vídeo.
+seo-description: Atributo de configuración para el visualizador de vídeo.
 seo-title: VideoPlayer.waiticon
 solution: Experience Manager
 title: VideoPlayer.waiticon
-topic: Dynamic Media
 uuid: 7fbf49a6-0881-4c10-b4bb-0f1a9ed8776e
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 16%
+source-wordcount: '41'
+ht-degree: 12%
 
 ---
 
 
 # VideoPlayer.waiticon{#videoplayer-waiticon}
 
-Atributo de configuración para el visor de vídeo.
+Atributo de configuración para el visualizador de vídeo.
 
 `[VideoPlayer.|<containerId>_videoPlayer.]waiticon=0|1`
 
