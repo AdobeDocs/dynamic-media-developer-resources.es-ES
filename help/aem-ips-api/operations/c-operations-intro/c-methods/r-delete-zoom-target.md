@@ -1,23 +1,24 @@
 ---
-description: Elimina un destinatario de zoom.
-seo-description: Elimina un destinatario de zoom.
+description: Elimina un destino de zoom.
+seo-description: Elimina un destino de zoom.
 seo-title: deleteZoomTarget
 solution: Experience Manager
 title: deleteZoomTarget
-topic: Dynamic Media Image Production System API
 uuid: 01a9321f-89a9-4263-937b-b0b49fe2fb81
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 12%
+source-wordcount: '93'
+ht-degree: 11%
 
 ---
 
 
 # deleteZoomTarget{#deletezoomtarget}
 
-Elimina un destinatario de zoom.
+Elimina un destino de zoom.
 
 ## Tipos de usuarios autorizados {#section-09ca82bc817e49048271c5cba545702e}
 
@@ -38,16 +39,16 @@ Elimina un destinatario de zoom.
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía a la que pertenece el destinatario de zoom. |
-| `*`zoomTargetHandle`*` | `xsd:string` | Sí | Control del destinatario de zoom que se va a eliminar. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la empresa a la que pertenece el objetivo de zoom. |
+| `*`zoomTargetHandle`*` | `xsd:string` | Sí | Control del destino de zoom que se va a eliminar. |
 
 **Salida (deleteZoomTargetParam)**
 
-La API de IPS no devuelve una respuesta para esta operación.
+La API IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplo {#section-a35857a5ca884357a879f7ba6cf985fe}
 
-Este ejemplo de código elimina un destinatario de zoom de una compañía.
+Este ejemplo de código elimina un objetivo de zoom de una empresa.
 
 **Solicitar**
 
