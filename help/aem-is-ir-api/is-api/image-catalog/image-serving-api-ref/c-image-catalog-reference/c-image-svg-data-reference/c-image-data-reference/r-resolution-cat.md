@@ -1,25 +1,26 @@
 ---
-description: Resolución de objetos. Resolución de objetos para la imagen de tamaño completo.
-seo-description: Resolución de objetos. Resolución de objetos para la imagen de tamaño completo.
+description: Resolución del objeto. Resolución de objeto para la imagen de tamaño completo.
+seo-description: Resolución del objeto. Resolución de objeto para la imagen de tamaño completo.
 seo-title: Resolución
 solution: Experience Manager
 title: Resolución
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: caa199c8-d216-47b0-9eb6-fdff7124087c
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 9%
+source-wordcount: '90'
+ht-degree: 8%
 
 ---
 
 
 # Resolución{#resolution}
 
-Resolución de objetos. Resolución de objetos para la imagen de tamaño completo.
+Resolución del objeto. Resolución de objeto para la imagen de tamaño completo.
 
-Se utiliza para la escala basada en resolución mediante el comando `res=`.
+Se utiliza para escalado basado en resolución mediante el comando `res=`.
 
 ## Propiedades {#section-861a86da50364e2181d62778338359ea}
 
