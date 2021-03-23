@@ -1,15 +1,16 @@
 ---
-description: Parámetro común a todos los visores.
-seo-description: Parámetro común a todos los visores.
+description: Parámetro común a todos los visualizadores.
+seo-description: Parámetro común a todos los visualizadores.
 seo-title: initialFrame
 solution: Experience Manager
 title: initialFrame
-topic: Dynamic Media
 uuid: 5d1c3a8a-8598-47c9-a106-36e8c6fcafb0
+feature: Dynamic Media Classic,Visualizadores,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '110'
 ht-degree: 3%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 3%
 
 # initialFrame{#initialframe}
 
-Parámetro común a todos los visores.
+Parámetro común a todos los visualizadores.
 
 >[!NOTE]
 >
->Este comando no se aplica al visor de imágenes de vídeo.
+>Este comando no se aplica al visualizador de imágenes de vídeo.
 
 ` initialFrame= *`frameIdx`*[ *`,pageIdx`*]`
 
