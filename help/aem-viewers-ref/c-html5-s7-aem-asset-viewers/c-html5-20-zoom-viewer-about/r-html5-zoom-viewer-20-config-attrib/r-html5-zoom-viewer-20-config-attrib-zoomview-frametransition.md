@@ -2,26 +2,27 @@
 description: ZoomView.frametransition
 solution: Experience Manager
 title: ZoomView.frametransition
-topic: Dynamic Media
 uuid: 28e283ca-51d8-4d6c-9b8a-d16da21f4da1
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 5%
+source-wordcount: '101'
+ht-degree: 4%
 
 ---
 
 
 # ZoomView.frametransition{#zoomview-frametransition}
 
-` [ZoomView.|<containerId>_zoomView.]frametransition=none|fade|slide[, *`espaciado `*[, *`de duración`*]`
+` [ZoomView.|<containerId>_zoomView.]frametransition=none|fade|slide[, *``*[, *`durationspacing`*]`
 
 <table id="table_D5992FCFF26046079089652B211BB6C5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> none|fade|slide  </span> </p> </td> 
-   <td colname="col2"> <p>Especifica el tipo de efecto aplicado al cambio de marco. <span class="codeph"> ninguno  </span> representa ninguna transición; el cambio de fotograma se produce instantáneamente. <span class="codeph"> fundido  </span> significa transición de fundido cruzado entre marcos antiguos y nuevos. <span class="codeph"> la diapositiva  </span> activa la transición en la que se desliza el marco antiguo de la vista y se desliza el nuevo marco. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> none|fade|diapositiva  </span> </p> </td> 
+   <td colname="col2"> <p>Especifica el tipo del efecto aplicado al cambiar el marco. <span class="codeph"> ninguno  </span> significa transición; el cambio de fotograma se produce instantáneamente. <span class="codeph"> fundido  </span> significa la transición entre fundido antiguo y nuevo. <span class="codeph"> diapositiva  </span> activa la transición en la que el marco antiguo se desliza de la vista y el nuevo marco se desliza. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duration  </span> </span> </p> </td> 
