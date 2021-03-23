@@ -4,13 +4,14 @@ seo-description: Opciones de capa de imagen de Photoshop.
 seo-title: PhotoshopLayerOptions
 solution: Experience Manager
 title: PhotoshopLayerOptions
-topic: Dynamic Media Image Production System API
 uuid: af4d5c28-f7c1-4f89-943e-386a5f83474f
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 10%
+source-wordcount: '67'
+ht-degree: 8%
 
 ---
 
@@ -27,7 +28,7 @@ Sintaxis
 |---|---|---|
 | `*`layerNaming`*` | `xsd:string` | Elección de los modos de nomenclatura de capas de Photoshop. |
 | `*`delimitador`*` | `xsd:string` | Elección de los modos de anclaje de Photoshop. |
-| `*`createTemplate`*` | `xsd:boolean` | Si se va a crear una plantilla a partir de capas de Photoshop. |
-| `*`extractText`*` | `xsd:boolean` | Indica si se va a extraer texto como capas de texto. |
-| `*`extensionLayers`*` | `xsd:boolean` | Si desea extender las capas a un tamaño completo del fondo. |
+| `*`createTemplate`*` | `xsd:boolean` | Si se crea una plantilla a partir de capas de Photoshop. |
+| `*`extractText`*` | `xsd:boolean` | Indica si se extrae texto como capas de texto. |
+| `*`extensionLayers`*` | `xsd:boolean` | Ampliación de las capas a todo el tamaño del fondo. |
 
