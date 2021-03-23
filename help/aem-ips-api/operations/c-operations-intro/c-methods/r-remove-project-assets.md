@@ -1,15 +1,16 @@
 ---
-description: Quita recursos de un proyecto. No destruye los recursos.
-seo-description: Quita recursos de un proyecto. No destruye los recursos.
+description: Quita los recursos de un proyecto. No destruye los recursos.
+seo-description: Quita los recursos de un proyecto. No destruye los recursos.
 seo-title: removeProjectAssets
 solution: Experience Manager
 title: removeProjectAssets
-topic: Dynamic Media Image Production System API
 uuid: bae09dc3-4328-4264-8fb2-e4f0c53546eb
+feature: Dynamic Media Classic,SDK/API,Administración de activos
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '198'
 ht-degree: 10%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 10%
 
 # removeProjectAssets{#removeprojectassets}
 
-Quita recursos de un proyecto. No destruye los recursos.
+Quita los recursos de un proyecto. No destruye los recursos.
 
 Sintaxis
 
@@ -35,23 +36,23 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía con los recursos que desea mover. |
-| `*`projectHandle`*` | `xsd:string` | Sí | Identificador de los recursos de proyecto que desea mover. |
-| `*`assetHandleArray`*` | `types:HandleArray` | Sí | Matriz de identificadores a los recursos que desea mover. |
+| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa con los recursos que desea mover. |
+| `*`projectHandle`*` | `xsd:string` | Sí | El identificador de los recursos de proyecto que desea mover. |
+| `*`assetHandleArray`*` | `types:HandleArray` | Sí | Matriz de controles de los recursos que desea mover. |
 
-**Output (removeProjectAssetsReturn)**
+**Salida (removeProjectAssetsReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Sí | Se eliminó correctamente el recuento de recursos. |
+| `*`successCount`*` | `xsd:int` | Sí | El recuento de recursos se eliminó correctamente. |
 | `*`warningCount`*` | `xsd:int` | Sí | Número de advertencias generadas cuando la operación intentó quitar recursos del proyecto. |
 | `*`errorCount`*` | `xsd:int` | Sí | Número de errores generados cuando la operación intentó quitar recursos del proyecto. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados a los recursos que generaron advertencias cuando la operación intentó quitarlos del proyecto. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados a los recursos que generaron errores cuando la operación intentó quitarlos del proyecto. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados con los recursos que generaron advertencias cuando la operación intentó quitarlos del proyecto. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados con los recursos que generaron errores cuando la operación intentó eliminarlos del proyecto. |
 
 ## Ejemplos {#section-13546cf0a98e4e1b91b8b7cd5724ced8}
 
-Este ejemplo de código elimina 2 recursos de un proyecto (especificado por el controlador del proyecto).
+Este ejemplo de código elimina 2 recursos de un proyecto (especificado por el gestor del proyecto).
 
 **Solicitar**
 
