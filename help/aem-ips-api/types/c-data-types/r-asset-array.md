@@ -1,23 +1,24 @@
 ---
-description: Matriz de recursos.
-seo-description: Matriz de recursos.
+description: Una matriz de recursos.
+seo-description: Una matriz de recursos.
 seo-title: AssetArray
 solution: Experience Manager
 title: AssetArray
-topic: Dynamic Media Image Production System API
 uuid: ab432380-1266-473a-9214-32e9244e1997
+feature: Dynamic Media Classic,SDK/API,Administración de activos
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '23'
-ht-degree: 26%
+source-wordcount: '32'
+ht-degree: 18%
 
 ---
 
 
 # AssetArray{#assetarray}
 
-Matriz de recursos.
+Una matriz de recursos.
 
 Sintaxis
 
