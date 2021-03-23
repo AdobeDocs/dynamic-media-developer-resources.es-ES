@@ -1,15 +1,16 @@
 ---
-description: Responder la altura de la imagen. Especifica la escala de la imagen representada de modo que la altura de la imagen de respuesta no sea mayor que el valor especificado, manteniendo al mismo tiempo la proporción de aspecto de la imagen.
-seo-description: Responder la altura de la imagen. Especifica la escala de la imagen representada de modo que la altura de la imagen de respuesta no sea mayor que el valor especificado, manteniendo al mismo tiempo la proporción de aspecto de la imagen.
+description: Responder la altura de la imagen. Especifica la escala de la imagen representada para que la altura de la imagen de respuesta no sea mayor que el valor especificado, manteniendo al mismo tiempo la relación de aspecto de la imagen.
+seo-description: Responder la altura de la imagen. Especifica la escala de la imagen representada para que la altura de la imagen de respuesta no sea mayor que el valor especificado, manteniendo al mismo tiempo la relación de aspecto de la imagen.
 seo-title: hei
 solution: Experience Manager
 title: hei
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 616d3306-ccbd-4400-8a94-1ff6f47b802e
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '283'
 ht-degree: 2%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 2%
 
 # hei{#hei}
 
-Responder la altura de la imagen. Especifica la escala de la imagen representada de modo que la altura de la imagen de respuesta no sea mayor que el valor especificado, manteniendo al mismo tiempo la proporción de aspecto de la imagen.
+Responder la altura de la imagen. Especifica la escala de la imagen representada para que la altura de la imagen de respuesta no sea mayor que el valor especificado, manteniendo al mismo tiempo la relación de aspecto de la imagen.
 
 `hei= *`val`*`
 
@@ -28,23 +29,23 @@ Responder la altura de la imagen. Especifica la escala de la imagen representada
  </tr> 
 </table>
 
-La imagen no se rellena si se especifican `wid=` y `hei=` y la anchura y altura es diferente a la proporción de aspecto de la imagen.
+La imagen no se rellena si se especifican `wid=` y `hei=` y el ancho/alto es diferente a la relación de aspecto de la imagen.
 
-`wid=` y  `hei=` trabajar juntos para definir el tamaño de la imagen que devuelve el servidor. Si `scl=` va después de `wid=` o `hei=` en la dirección URL, cancela esos comandos y `scl=` define el tamaño de la imagen devuelta por el servidor.
+`wid=` y  `hei=` trabaje juntos para definir el tamaño de la imagen que devuelve el servidor. Si `scl=` viene después de `wid=` o `hei=` en la dirección URL, cancela esos comandos y `scl=` define el tamaño de la imagen devuelta por el servidor.
 
 Sin embargo, si `wid=` o `hei=` va después de `scl=` en la dirección URL, cancelan `scl=` y `wid=`/ `hei=` definen el tamaño de la imagen devuelta por el servidor.
 
 >[!NOTE]
 >
->Se devuelve un error si el tamaño de la imagen de respuesta predeterminada o calculada es mayor que `attribute::MaxPix`.
+>Se devuelve un error si el tamaño de imagen de respuesta calculado o predeterminado es mayor que `attribute::MaxPix`.
 
 ## Propiedades {#section-6cbc6acd37c847beab84c896ac25280c}
 
-Puede ocurrir en cualquier lugar dentro de la solicitud. Al cambiar el tamaño de la imagen por `wid=`, `hei=` o `scl=` no se cambia el valor de resolución de impresión incrustado en la imagen de respuesta. Se omite si `scl=` se produce después de `wid=` y/o `hei=` en la secuencia de comandos.
+Puede ocurrir en cualquier lugar dentro de la solicitud. Cambiar el tamaño de la imagen por `wid=`, `hei=` o `scl=` no cambia el valor de resolución de impresión incrustado en la imagen de respuesta. Se omite si `scl=` se produce después de `wid=` o `hei=` en la secuencia de comandos.
 
 ## Predeterminado {#section-61043f6c1f5d450883ff9e5eafd95955}
 
-Si no se especifica ni `wid=`, `hei=` ni `scl=`, la imagen de respuesta se ajusta al tamaño definido por `attribute::DefaultPix`. Si `attribute::DefaultPix` está vacío, la imagen de respuesta tiene el mismo tamaño que la imagen de vista de la viñeta.
+Si no se especifica `wid=`, `hei=` ni `scl=`, la imagen de respuesta se escala para ajustarse al tamaño definido por `attribute::DefaultPix`. Si `attribute::DefaultPix` está vacío, la imagen de respuesta tiene el mismo tamaño que la imagen de vista de la viñeta.
 
 ## Véase también {#section-7ba51379f1e2421c92d3592d20a37734}
 
