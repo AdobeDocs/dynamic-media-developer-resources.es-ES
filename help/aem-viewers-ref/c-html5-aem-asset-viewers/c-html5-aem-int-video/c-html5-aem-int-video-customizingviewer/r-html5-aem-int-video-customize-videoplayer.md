@@ -1,15 +1,16 @@
 ---
-description: El reproductor de vídeo es el área rectangular en la que se muestra el contenido del vídeo en el visor.
-seo-description: El reproductor de vídeo es el área rectangular en la que se muestra el contenido del vídeo en el visor.
+description: El reproductor de vídeo es el área rectangular en la que se muestra el contenido de vídeo dentro del visor.
+seo-description: El reproductor de vídeo es el área rectangular en la que se muestra el contenido de vídeo dentro del visor.
 seo-title: Reproductor de vídeo
 solution: Experience Manager
 title: Reproductor de vídeo
-topic: Dynamic Media
 uuid: ff0f78b1-ff88-47b8-a118-4e0b3e75f341
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '322'
 ht-degree: 1%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 1%
 
 # Reproductor de vídeo{#video-player}
 
-El reproductor de vídeo es el área rectangular en la que se muestra el contenido del vídeo en el visor.
+El reproductor de vídeo es el área rectangular en la que se muestra el contenido de vídeo dentro del visor.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Si las dimensiones del vídeo que se está reproduciendo no coinciden con las del reproductor de vídeo, el contenido del vídeo se centra en el área de visualización rectangular del reproductor de vídeo.
+Si las dimensiones del vídeo que se está reproduciendo no coinciden con las dimensiones del reproductor, el contenido del vídeo se centra dentro del área de visualización rectangular del reproductor de vídeo.
 
 El siguiente selector de clase CSS controla el aspecto del reproductor de vídeo:
 
@@ -44,7 +45,7 @@ Puede localizar el mensaje de error que se muestra en los casos en los que el si
 
 Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
-Ejemplo: Para configurar un visor de vídeo con el tamaño del reproductor de vídeo definido en 512 x 288 píxeles.
+Ejemplo: para configurar un visor de vídeo con el tamaño del reproductor de vídeo establecido en 512 x 288 píxeles.
 
 ```
 .s7interactivevideoviewer .s7videoplayer{ 
@@ -52,40 +53,40 @@ background-color: transparent;
 }
 ```
 
-Los subtítulos cerrados se colocan en un contenedor interno dentro del reproductor de vídeo. La posición de ese contenedor está controlada por los operadores de posicionamiento WebVTT admitidos. El texto del rótulo está dentro de ese contenedor y su estilo se controla con el siguiente selector de clase CSS:
+Los subtítulos se colocan en un contenedor interno dentro del reproductor de vídeo. La posición de ese contenedor está controlada por los operadores de posición WebVTT admitidos. El texto del rótulo en sí está dentro de ese contenedor y su estilo se controla con el siguiente selector de clase CSS:
 
 `.s7interactivevideoviewer .s7videoplayer .s7caption`
 
-**Propiedades CSS de los subtítulos opcionales**
+**Propiedades CSS de subtítulos**
 
 <table id="table_960E0D4FB91748FF9FC73C925B81879C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p>Fondo de texto de subtítulos opcionales. </p> </td> 
+   <td colname="col2"> <p>Fondo de texto de subtítulos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
    <td colname="col2"> <p>Cierre el color del texto del rótulo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-peso  </span> </p> </td> 
-   <td colname="col2"> <p> Peso de fuente de subtítulos opcionales. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col2"> <p> Grosor de fuente de subtítulos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
-   <td colname="col2"> <p> Tamaño de fuente de subtítulos opcionales. </p> </td> 
+   <td colname="col2"> <p> Tamaño de fuente de subtítulos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
-   <td colname="col2"> <p>Fuente de subtítulos opcionales. </p> </td> 
+   <td colname="col2"> <p>Fuente de subtítulos. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Ejemplo {#section-5b82913ff3c44b7b8187969cb15e9560}
 
-Para configurar el texto de los subtítulos opcionales en 14 píxeles, gris claro, Arial, sobre un fondo negro semitransparente:
+Para que el texto de los subtítulos cerrados sea de 14 píxeles, gris claro, Arial, sobre un fondo negro semitransparente:
 
 ```
 .s7interactivevideoviewer .s7videoplayer .s7caption { 
@@ -130,7 +131,7 @@ El aspecto de la animación de almacenamiento en búfer se controla con el sigui
    <td colname="col2"> <p> Margen superior del icono de animación, normalmente menos la mitad de la altura del icono. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
    <td colname="col2"> <p> Ilustración del botón. </p> </td> 
   </tr> 
  </tbody> 
