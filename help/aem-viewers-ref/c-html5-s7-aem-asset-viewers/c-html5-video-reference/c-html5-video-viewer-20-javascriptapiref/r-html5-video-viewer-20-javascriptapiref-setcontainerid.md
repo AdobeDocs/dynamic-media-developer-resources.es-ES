@@ -1,27 +1,28 @@
 ---
-description: Referencia de la API de JavaScript para el visor de vídeos.
-seo-description: Referencia de la API de JavaScript para el visor de vídeos.
+description: Referencia de la API de JavaScript para el visualizador de vídeo.
+seo-description: Referencia de la API de JavaScript para el visualizador de vídeo.
 seo-title: setContainerId
 solution: Experience Manager
 title: setContainerId
-topic: Dynamic Media
 uuid: a4b741a1-b0b3-4bc3-aeab-9d0e44ec4e79
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 2%
+source-wordcount: '102'
+ht-degree: 1%
 
 ---
 
 
 # setContainerId{#setcontainerid}
 
-Referencia de la API de JavaScript para el visor de vídeos.
+Referencia de la API de JavaScript para el visualizador de vídeo.
 
 ` setContainerId( *`containerId`*)`
 
-Establece el ID del contenedor DOM (normalmente un `DIV`) en el que se inserta el visor. No es necesario que el elemento contenedor se cree antes de que se llame a este método. Sin embargo, el contenedor debe existir cuando se ejecuta `init()`. Se llama a este parámetro antes de `init()`. Este método es opcional si la información de configuración del visor se pasa con el objeto JSON `config` al constructor.
+Establece el ID del contenedor DOM (normalmente un `DIV`) en el que se inserta el visor. No es necesario tener el elemento contenedor creado para cuando se llama a este método. Sin embargo, el contenedor debe existir cuando se ejecuta `init()`. Se llama a este parámetro antes de `init()`. Este método es opcional si la información de configuración del visor se pasa con el objeto JSON `config` al constructor.
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
