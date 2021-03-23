@@ -1,15 +1,16 @@
 ---
-description: Vista de escala. Ajusta la escala de la imagen procesada según el factor de escala especificado, en relación con la viñeta de resolución completa.
-seo-description: Vista de escala. Ajusta la escala de la imagen procesada según el factor de escala especificado, en relación con la viñeta de resolución completa.
+description: Vista de escala. Escala la imagen representada según el factor de escala especificado, en relación con la viñeta de resolución completa.
+seo-description: Vista de escala. Escala la imagen representada según el factor de escala especificado, en relación con la viñeta de resolución completa.
 seo-title: scl
 solution: Experience Manager
 title: scl
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 04839c44-01b6-4fa2-9eda-bbb0f2822db4
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '199'
 ht-degree: 3%
 
 ---
@@ -17,34 +18,34 @@ ht-degree: 3%
 
 # scl{#scl}
 
-Vista de escala. Ajusta la escala de la imagen procesada según el factor de escala especificado, en relación con la viñeta de resolución completa.
+Vista de escala. Escala la imagen representada según el factor de escala especificado, en relación con la viñeta de resolución completa.
 
-`scl= *`filFactor`*`
+`scl= *`Visitor`*`
 
 <table id="simpletable_EFE352FA8EF14197B6934783A2883451"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> filFactor</span> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> Visitor</span> </span> </p></td> 
   <td class="stentry"> <p>Factor de escala inversa (real, 1,0 o bueno). </p></td> 
  </tr> 
 </table>
 
-Si `scl=` va después de `wid=` o `hei=` en la dirección URL, cancela esos comandos y `scl=` define el tamaño de la imagen devuelta por el servidor.
+Si `scl=` viene después de `wid=` o `hei=` en la dirección URL, cancela esos comandos y `scl=` define el tamaño de la imagen devuelta por el servidor.
 
 Sin embargo, si `wid=` o `hei=` va después de `scl=` en la dirección URL, cancelan `scl=` y `wid=`/ `hei=` definen el tamaño de la imagen devuelta por el servidor.
 
 >[!NOTE]
 >
->Se devuelve un error si el tamaño de la imagen de respuesta predeterminada o calculada es mayor que `attribute::MaxPix`.
+>Se devuelve un error si el tamaño de imagen de respuesta calculado o predeterminado es mayor que `attribute::MaxPix`.
 
 ## Propiedades {#section-170458cbd6984bd59a3434431258b20f}
 
 Puede ocurrir en cualquier lugar dentro de la solicitud. Se omite si `wid=` o `hei=` se producen después de `scl=` en la secuencia de comandos.
 
-Al cambiar el tamaño de la imagen por `scl=` no se cambia el valor de resolución de impresión incrustado en la imagen de respuesta.
+Cambiar el tamaño de la imagen por `scl=` no cambia el valor de resolución de impresión incrustado en la imagen de respuesta.
 
 ## Predeterminado {#section-d47ab3fb5a7d486a9fc207904b3e70dd}
 
-Si no se especifica ni `wid=`, `hei=` ni `scl=`, la imagen de respuesta se ajusta al tamaño definido por `attribute::DefaultPix`. Si `attribute::DefaultPix` está vacío, la imagen de respuesta tiene el mismo tamaño que la imagen de vista de la viñeta.
+Si no se especifica `wid=`, `hei=` ni `scl=`, la imagen de respuesta se escala para ajustarse al tamaño definido por `attribute::DefaultPix`. Si `attribute::DefaultPix` está vacío, la imagen de respuesta tiene el mismo tamaño que la imagen de vista de la viñeta.
 
 ## Véase también {#section-cc5002a1d49340bbb5c7a5864c297621}
 
