@@ -1,23 +1,24 @@
 ---
-description: Mostrar objetos superpuestos. Especifica si los objetos superpuestos deben mostrarse o ocultarse inicialmente.
-seo-description: Mostrar objetos superpuestos. Especifica si los objetos superpuestos deben mostrarse o ocultarse inicialmente.
-seo-title: ShowOverlapObjs
+description: Mostrar objetos superpuestos. Especifica si los objetos superpuestos deben mostrarse u ocultarse inicialmente.
+seo-description: Mostrar objetos superpuestos. Especifica si los objetos superpuestos deben mostrarse u ocultarse inicialmente.
+seo-title: MostrarObjetosSuperpuestos
 solution: Experience Manager
-title: ShowOverlapObjs
-topic: Dynamic Media Image Serving - Image Rendering API
+title: MostrarObjetosSuperpuestos
 uuid: 965dcff5-30e1-4237-aa71-ee7533a674d8
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 5%
+source-wordcount: '61'
+ht-degree: 4%
 
 ---
 
 
-# ShowOverlapObjs{#showoverlapobjs}
+# ShowOverapObjs{#showoverlapobjs}
 
-Mostrar objetos superpuestos. Especifica si los objetos superpuestos deben mostrarse o ocultarse inicialmente.
+Mostrar objetos superpuestos. Especifica si los objetos superpuestos deben mostrarse u ocultarse inicialmente.
 
 ## Propiedades {#section-3e82e9b98d7a46f884d8b9798cec35c2}
 
@@ -25,4 +26,4 @@ Indicador.
 
 ## Predeterminado {#section-e6f7e33a629b4592979bab6d14700e8f}
 
-Se hereda de `default::ShowOverlapObjs` si no está definida o si está vacía.
+Se hereda de `default::ShowOverlapObjs` si no está definido o si está vacío.
