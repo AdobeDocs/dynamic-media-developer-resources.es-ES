@@ -1,15 +1,16 @@
 ---
-description: Obtiene los tipos de conjunto de propiedades asociados con la compañía especificada o los tipos de conjunto de propiedades globales si no se especifica ninguna compañía.
-seo-description: Obtiene los tipos de conjunto de propiedades asociados con la compañía especificada o los tipos de conjunto de propiedades globales si no se especifica ninguna compañía.
+description: Obtiene los tipos de conjunto de propiedades asociados con la empresa especificada o los tipos de conjunto de propiedades globales si no se especifica ninguna empresa.
+seo-description: Obtiene los tipos de conjunto de propiedades asociados con la empresa especificada o los tipos de conjunto de propiedades globales si no se especifica ninguna empresa.
 seo-title: getPropertySetTypes
 solution: Experience Manager
 title: getPropertySetTypes
-topic: Dynamic Media Image Production System API
 uuid: b707344d-5571-45eb-9e37-cf0894ee81a0
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '141'
 ht-degree: 12%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 12%
 
 # getPropertySetTypes{#getpropertysettypes}
 
-Obtiene los tipos de conjunto de propiedades asociados con la compañía especificada o los tipos de conjunto de propiedades globales si no se especifica ninguna compañía.
+Obtiene los tipos de conjunto de propiedades asociados con la empresa especificada o los tipos de conjunto de propiedades globales si no se especifica ninguna empresa.
 
 Sintaxis
 
@@ -35,7 +36,7 @@ Sintaxis
 
 ## Parámetros {#section-ac3ed9e036b54ea993f544046ff0e15d}
 
-**Input (getPropertySetTypesParam)**
+**Entrada (getPropertySetTypesParam)**
 
 <table id="table_2590368FEEF04AD4B074412CBBA90F88"> 
  <thead> 
@@ -51,16 +52,16 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4">Identificador de la compañía con la que están asociados los tipos de conjunto de propiedades. <p>Omita si desea devolver tipos de conjuntos de propiedades globales. </p> </td> 
+   <td colname="col4">El identificador de la empresa al que están asociados los tipos de conjuntos de propiedades. <p>Omita si desea devolver tipos de conjuntos de propiedades globales. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Output (getPropertySetTypesReturn)**
+**Salida (getPropertySetTypesReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`typeArray`*` | `types:PropertySetTypeArray` | Sí | Matriz de tipos de conjuntos de propiedades asociados con la compañía especificada o los tipos de conjuntos de propiedades globales si no se ha especificado ninguna compañía. |
+| `*`typeArray`*` | `types:PropertySetTypeArray` | Sí | Matriz de tipos de conjuntos de propiedades asociados con la empresa especificada o tipos de conjuntos de propiedades globales si no se especificó ninguna empresa. |
 
 ## Ejemplos {#section-280c406a90864409856aee44d4069a52}
 
