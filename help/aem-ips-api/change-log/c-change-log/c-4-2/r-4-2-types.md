@@ -2,11 +2,12 @@
 description: Describe los tipos de datos nuevos y modificados para la API de IPS versión 4.2.
 solution: Experience Manager
 title: Tipos de datos nuevos y modificados
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '51'
+source-wordcount: '58'
 ht-degree: 3%
 
 ---
@@ -29,7 +30,7 @@ Sintaxis
 
 **Recurso**
 
-Parámetros agregados:
+Parámetros añadidos:
 
 * `readyForPublish`
 * `trashState`
@@ -43,7 +44,7 @@ Parámetros eliminados:
 
 **ReprocessAssetsJob**
 
-Parámetros agregados:
+Parámetros añadidos:
 
 * `preservePublishState`
 * `preserveCrop`
@@ -51,7 +52,7 @@ Parámetros agregados:
 
 **UploadDirectoryJob**
 
-Parámetros agregados:
+Parámetros añadidos:
 
 * `preservePublishState`
 * `preserveCrop`
@@ -59,7 +60,7 @@ Parámetros agregados:
 
 **UploadUrlsJob**
 
-Parámetros agregados:
+Parámetros añadidos:
 
 * `preservePublishState`
 * `preserveCrop`
