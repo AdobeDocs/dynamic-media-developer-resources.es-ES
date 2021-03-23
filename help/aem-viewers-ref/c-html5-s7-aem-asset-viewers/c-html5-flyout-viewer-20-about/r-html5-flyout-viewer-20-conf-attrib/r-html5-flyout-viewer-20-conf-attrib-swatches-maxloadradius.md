@@ -2,26 +2,27 @@
 description: Swatches.maxloadradius
 solution: Experience Manager
 title: Swatches.maxloadradius
-topic: Dynamic Media
 uuid: 3666b947-4a37-4711-90b0-f9c048b588f8
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Flotante
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 7%
+source-wordcount: '62'
+ht-degree: 6%
 
 ---
 
 
 # Swatches.maxloadradius{#swatches-maxloadradius}
 
-` [Swatches.|<containerId>_swatches.]maxloadradius=-1|0| *`preloadnbr`*`
+` [Swatches.|<containerId>_swatches.]maxloadradius=-1|0| *`precarga`*`
 
 <table id="table_4A27394B6B4347D69CAC5A59EE0FBC6F"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> -1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica el comportamiento de precarga del componente. Cuando se establece en <span class="codeph"> -1</span>, todas las muestras se cargan simultáneamente cuando se inicializa el componente o se cambia el recurso. Cuando se establece en <span class="codeph"> 0</span> sólo se cargan muestras visibles. </p> <p><span class="codeph"> <span class="varname"> </span></span> preload define cuántas filas/columnas invisibles alrededor del área visible se precargarán. </p> </td> 
+   <td colname="col2"> <p> Especifica el comportamiento de precarga del componente. Cuando se establece en <span class="codeph"> -1</span>, todas las muestras se cargarán simultáneamente cuando se inicialice el componente o se cambie el recurso. Cuando se establece en <span class="codeph"> 0</span>, solo se cargan muestras visibles. </p> <p><span class="codeph"> <span class="varname"> </span></span> precarga define cuántas filas y columnas invisibles alrededor del área visible se precargarán. </p> </td> 
   </tr> 
  </tbody> 
 </table>
