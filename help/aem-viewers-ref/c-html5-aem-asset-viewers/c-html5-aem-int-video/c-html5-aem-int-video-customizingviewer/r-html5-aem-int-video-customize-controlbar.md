@@ -1,15 +1,16 @@
 ---
-description: La barra de control es el área rectangular que contiene y se sitúa detrás de todos los controles de interfaz de usuario disponibles para el visor de vídeo, como el botón de reproducción/pausa, los controles de volumen, etc.
-seo-description: La barra de control es el área rectangular que contiene y se sitúa detrás de todos los controles de interfaz de usuario disponibles para el visor de vídeo, como el botón de reproducción/pausa, los controles de volumen, etc.
+description: La barra de control es el área rectangular que contiene y se encuentra detrás de todos los controles de interfaz de usuario disponibles para el visor de vídeo, como el botón de reproducción/pausa, los controles de volumen, etc.
+seo-description: La barra de control es el área rectangular que contiene y se encuentra detrás de todos los controles de interfaz de usuario disponibles para el visor de vídeo, como el botón de reproducción/pausa, los controles de volumen, etc.
 seo-title: Barra de control
 solution: Experience Manager
 title: Barra de control
-topic: Dynamic Media
 uuid: 1fa90f7d-6b26-499d-8e6c-1cd80405aec0
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '215'
 ht-degree: 1%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 1%
 
 # Barra de control{#control-bar}
 
-La barra de control es el área rectangular que contiene y se sitúa detrás de todos los controles de interfaz de usuario disponibles para el visor de vídeo, como el botón de reproducción/pausa, los controles de volumen, etc.
+La barra de control es el área rectangular que contiene y se encuentra detrás de todos los controles de interfaz de usuario disponibles para el visor de vídeo, como el botón de reproducción/pausa, los controles de volumen, etc.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-La barra de control siempre toma toda la anchura del visor disponible. Es posible cambiar el color, la altura y la posición vertical mediante CSS en relación con el contenedor del visor de vídeo.
+La barra de control siempre toma toda la anchura del visor disponible. CSS puede cambiar su color, altura y posición vertical en relación con el contenedor del visor de vídeo.
 
 El siguiente selector de clase CSS controla el aspecto de la barra de control:
 
@@ -54,7 +55,7 @@ El siguiente selector de clase CSS controla el aspecto de la barra de control:
 
 ## Ejemplo {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Para configurar un visor de vídeo con una barra de control gris de 30 píxeles de altura y situada en la parte superior del contenedor del visor de vídeo.
+Para configurar un visualizador de vídeo con una barra de control gris de 30 píxeles de altura y situada en la parte superior del contenedor del visualizador de vídeo.
 
 ```
 .s7interactivevideoviewer .s7controlbar {  
