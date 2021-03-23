@@ -1,23 +1,24 @@
 ---
-description: Una matriz de direcciones URL para invalidar la caché de CDN.
-seo-description: Una matriz de direcciones URL para invalidar la caché de CDN.
+description: Matriz de direcciones URL para invalidar la caché de CDN.
+seo-description: Matriz de direcciones URL para invalidar la caché de CDN.
 seo-title: UrlArray
 solution: Experience Manager
 title: UrlArray
-topic: Dynamic Media Image Production System API
 uuid: 59568d38-6e05-45ca-8054-cec2c5ea8c02
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 11%
+source-wordcount: '59'
+ht-degree: 10%
 
 ---
 
 
 # UrlArray{#urlarray}
 
-Una matriz de direcciones URL para invalidar la caché de CDN.
+Matriz de direcciones URL para invalidar la caché de CDN.
 
 **Admitido desde**
 
@@ -35,9 +36,9 @@ Una matriz de direcciones URL para invalidar la caché de CDN.
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> <span class="varname"> elementos</span> </span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> items</span> </span> </p> </td> 
    <td> <p> <span class="codeph"> xsd:string</span> </p> </td> 
-   <td> <p> Lista de direcciones URL para invalidar. Limitada a un máximo de 1000 direcciones URL según la definición WSDL. </p> </td> 
+   <td> <p> Lista de direcciones URL que se van a invalidar. Limitada a un máximo de 1000 direcciones URL por la definición WSDL. </p> </td> 
   </tr> 
  </tbody> 
 </table>
