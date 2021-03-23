@@ -4,13 +4,14 @@ seo-description: Establezca XML antes o después de un nodo.
 seo-title: insertBefore,insertAfter
 solution: Experience Manager
 title: insertBefore,insertAfter
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5ac0f675-333b-4f85-abe0-642cf96de425
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 3%
+source-wordcount: '70'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +22,7 @@ Establezca XML antes o después de un nodo.
 
 `insertBefore=<xml>, insertAfter=<xml>`
 
-Si un elemento de nodo FXG tiene definida una `s7:elementID`, podemos agregar fragmentos XML antes o después de ese nodo con este comando.
+Si un elemento de nodo FXG tiene un `s7:elementID` definido, podemos agregar fragmentos XML antes o después de ese nodo con este comando.
 
 ## Ejemplo {#section-1fc8d4135ef94b60b838391e1568e70e}
 
@@ -33,12 +34,12 @@ entonces:
 
 `insertBefore.inner_shape=<Rect x="74.354" y="182.762" width="75" height="75" s7:fillOverprint="false" s7:fillOverprintMode="true" visible="true" rotation="0"><fill><SolidColor color="%23ffffff" s7:cmykColor="%2300000000"/></fill></Rect>`
 
-resulta en:
+da como resultado:
 
 `<Rect height="75" rotation="0" s7:fillOverprint="false" s7:fillOverprintMode="true" visible="true" width="75" x="74.354" y="182.762"><fill><SolidColor color="#ffffff" s7:cmykColor="#00000000"/></fill></Rect><Group s7:elementID="inner_shape" visible="true">`
 
 `insertAfter.inner_shape=<Rect x="74.354" y="182.762" width="75" height="75" s7:fillOverprint="false" s7:fillOverprintMode="true" visible="true" rotation="0"><fill><SolidColor color="%23ffffff" s7:cmykColor="%2300000000"/></fill></Rect>`
 
-resulta en:
+da como resultado:
 
 `<Group s7:elementID="inner_shape" visible="true"> <Rect ai:knockout="0" d:userLabel="Background" height="392.581" visible="true" width="319.953" x="0.75" y="0.75"> <fill><SolidColor color="#ffffff" s7:cmykColor="#00000000"/></fill> </Rect>`
