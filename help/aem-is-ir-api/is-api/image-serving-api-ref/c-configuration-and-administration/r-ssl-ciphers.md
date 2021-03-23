@@ -4,12 +4,13 @@ seo-description: La etiqueta Connector en server.xml admite un atributo ciphers 
 seo-title: Definición de cifrados SSL
 solution: Experience Manager
 title: Definición de cifrados SSL
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9490fb9a-5abb-4f5e-b660-b7af0a5e4b4d
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 0%
 
 La etiqueta Connector en server.xml admite un atributo ciphers para limitar los cifrados que se pueden elegir para una conexión SSL.
 
-De forma predeterminada, todos los cifrados están disponibles. La lista está separada por comas y puede contener cualquiera de los siguientes valores:
+De forma predeterminada, todas las cifras están disponibles. La lista está separada por comas y puede contener cualquiera de los siguientes valores:
 
 `SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA`
 
@@ -51,8 +52,8 @@ De forma predeterminada, todos los cifrados están disponibles. La lista está s
 
 `TLS_RSA_WITH_AES_128_CBC_SHA`
 
-Si alguno de los valores es incorrecto, Tomcat habilitará cada cifrado individual. Por lo tanto, es esencial comprobar con una herramienta externa después de la configuración qué cifrados están realmente habilitados.
+Si alguno de los valores es incorrecto, Tomcat habilitará cada cifrado. Por lo tanto, es esencial consultar con una herramienta externa después de la configuración para ver qué cifras están realmente habilitadas.
 
-A modo de ejemplo, la siguiente configuración sólo habilitará los grupos de cifrado de &quot;128 bits&quot; y superiores:
+A modo de ejemplo, la siguiente configuración habilitará solo los grupos de cifrado de &quot;128 bits&quot; y superiores:
 
 `ciphers="SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA,SSL_DHE_DSS_WITH_DES_CBC_SHA,SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA,SSL_RSA_WITH_3DES_EDE_CBC_SHA,TLS_DHE_DSS_WITH_AES_128_CBC_SHA,TLS_DHE_RSA_WITH_AES_128_CBC_SHA,TLS_RSA_WITH_AES_128_CBC_SHA"`
