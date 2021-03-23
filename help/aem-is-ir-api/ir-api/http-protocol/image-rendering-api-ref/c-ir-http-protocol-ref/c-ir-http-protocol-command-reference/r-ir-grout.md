@@ -1,15 +1,16 @@
 ---
-description: Color y grosor del grueso del mosaico. Simula la roca para baldosas de cerámica y piedra natural.
-seo-description: Color y grosor del grueso del mosaico. Simula la roca para baldosas de cerámica y piedra natural.
-seo-title: grout
+description: Color y grosor del grupo de mosaicos. Simula el suelo para cerámica y piedra natural.
+seo-description: Color y grosor del grupo de mosaicos. Simula el suelo para cerámica y piedra natural.
+seo-title: grut
 solution: Experience Manager
-title: grout
-topic: Dynamic Media Image Serving - Image Rendering API
+title: grut
 uuid: 00069004-40f2-4ab6-85d8-ca197b7bef69
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '187'
 ht-degree: 2%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 2%
 
 # grout{#grout}
 
-Color y grosor del grueso del mosaico. Simula la roca para baldosas de cerámica y piedra natural.
+Color y grosor del grupo de mosaicos. Simula el suelo para cerámica y piedra natural.
 
 grout= *`color`*[,*`width`*]
 
@@ -28,11 +29,11 @@ grout= *`color`*[,*`width`*]
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> width </span> </span> </p> </td> 
-  <td class="stentry"> <p>Espesor del grupo; unidades de coordenadas de escena (normalmente pulgadas) (real). </p> </td> 
+  <td class="stentry"> <p>Grosor de la banda; unidades de coordenadas de escena (normalmente pulgadas) (real). </p> </td> 
  </tr> 
 </table>
 
-Para el máximo control del aspecto del grupo se aplican los siguientes requisitos:
+Para un control máximo del aspecto del grupo se aplican los siguientes requisitos:
 
 * El mosaico debe ser cuadrado o rectangular; no se admiten otras formas en este momento.
 * La imagen debe contener un solo mosaico.
@@ -41,13 +42,13 @@ Para el máximo control del aspecto del grupo se aplican los siguientes requisit
 
 ## Propiedades {#section-de78b678245b4ffda48097c345949e77}
 
-Atributo Material. `*`el `*` color debe ser un valor de color RGB. `*`El `*` ancho debe ser un valor real 0 o mayor.
+Atributo de material. `*``*` el color debe ser un valor de color RGB. `*``*` el ancho debe ser un valor real 0 o mayor.
 
-Se omite si la repetición es igual o superior a 4, 5, 7, 8, 9, 14 o superior, o cuando se especifica para materiales que no sean texturas repetibles.
+Se ignorará si repetir = 4, 5, 7, 8, 9, 14 o superior, o cuando se especifique para materiales que no sean texturas repetibles.
 
 ## Predeterminado {#section-bfab3621f70b4489a21994ab11b20cc6}
 
-Si no se especifica `grout=`, el grupo de la imagen no se modifica. Si se especifica ` grout= *`color`*`, `*`anchura`*` tiene el valor predeterminado `catalog::GroutWidth`.
+Si no se especifica `grout=`, el grupo de la imagen no se modifica. Si se especifica ` grout= *`color`*`, `*`width`*` toma el valor predeterminado `catalog::GroutWidth`.
 
 ## Véase también {#section-8d472906a44943f5a8557e98f2fbc71f}
 
