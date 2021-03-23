@@ -1,15 +1,16 @@
 ---
-description: Parámetro común a todos los visores.
-seo-description: Parámetro común a todos los visores.
+description: Parámetro común a todos los visualizadores.
+seo-description: Parámetro común a todos los visualizadores.
 seo-title: contentUrl
 solution: Experience Manager
 title: contentUrl
-topic: Dynamic Media
 uuid: 85b00c4e-b382-4970-b780-e4ef59108cb7
+feature: Dynamic Media Classic,Visualizadores,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '100'
 ht-degree: 4%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 4%
 
 # contentUrl{#contenturl}
 
-Parámetro común a todos los visores.
+Parámetro común a todos los visualizadores.
 
 ` contentUrl= *`contentUrlPath`*`
 
@@ -25,7 +26,7 @@ Parámetro común a todos los visores.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> contentUrlPath</span> </span> </p> </td> 
-   <td colname="col2"> <p>Especifica la ruta de acceso base a los archivos CSS personalizados, cualquier contenido de subtítulos opcionales o contenido de navegación. </p> <p>Si la ruta no tiene un <span class="filepath"> /</span> inicial, es relativa a la ubicación de la página HTML del visor. Si la ruta tiene un <span class="filepath"> /</span> inicial, especifica una ruta absoluta en el mismo servidor. </p> <p> No afecta a la carga del archivo CSS predeterminado cuando no se especifica un comando de estilo. </p> </td> 
+   <td colname="col2"> <p>Especifica la ruta base a archivos CSS personalizados, cualquier contenido de subtítulos o contenido de navegación. </p> <p>Si la ruta no tiene un <span class="filepath"> /</span> inicial, es relativa a la ubicación de la página HTML del visor. Si la ruta tiene un <span class="filepath"> /</span> inicial, especifica una ruta absoluta en el mismo servidor. </p> <p> No afecta a la carga del archivo CSS predeterminado cuando no se especifica un comando de estilo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
