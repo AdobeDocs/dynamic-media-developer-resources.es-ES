@@ -1,27 +1,28 @@
 ---
-description: Tipo de material. Tipo de superficie del material. Se utiliza junto con el brillo del catálogo y la rugosidad del catálogo para controlar los efectos de procesamiento de reflejo 3D.
-seo-description: Tipo de material. Tipo de superficie del material. Se utiliza junto con el brillo del catálogo y la rugosidad del catálogo para controlar los efectos de procesamiento de reflejo 3D.
+description: Tipo de material. Tipo de superficie del material. Se utiliza junto con el Gloss del catálogo y el Roughness del catálogo para controlar los efectos de procesamiento de reflejo 3D.
+seo-description: Tipo de material. Tipo de superficie del material. Se utiliza junto con el Gloss del catálogo y el Roughness del catálogo para controlar los efectos de procesamiento de reflejo 3D.
 seo-title: Tipo
 solution: Experience Manager
 title: Tipo
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8e367013-ed4c-4504-baf7-26ea27d96469
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 28%
+source-wordcount: '164'
+ht-degree: 26%
 
 ---
 
 
 # Tipo{#type}
 
-Tipo de material. Tipo de superficie del material. Se utiliza junto con el catálogo::Gloss and catalog::Roughness para controlar los efectos de procesamiento de reflejo 3D.
+Tipo de material. Tipo de superficie del material. Se utiliza junto con el catálogo::Gloss and catalog::Roughness para controlar los efectos de renderización de reflejo 3D.
 
 ## Propiedades {#section-86e8bc194f764c848e0ee55630a5ac1b}
 
-Enum. Opcional para todos los materiales. Se omite si la viñeta no tiene capacidad de representación de reflejo 3D.
+Enum. Opcional para todos los materiales. Se omite si la viñeta no tiene capacidad de renderización de reflejo 3D.
 
 <table id="simpletable_85BF61871CAA420B92B855AAB8FACA2C"> 
  <tr class="strow"> 
@@ -98,7 +99,7 @@ Enum. Opcional para todos los materiales. Se omite si la viñeta no tiene capaci
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>18 </p> </td> 
-  <td class="stentry"> <p>Tejidos de seda. </p> </td> 
+  <td class="stentry"> <p>Tejidos de cerdas. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>19 </p> </td> 
@@ -108,7 +109,7 @@ Enum. Opcional para todos los materiales. Se omite si la viñeta no tiene capaci
 
 ## Predeterminado {#section-247f73b22cb846b7b7d7cc6e8af949ca}
 
-0; el servidor determinará un valor predeterminado adecuado basado en otros atributos materiales.
+0; el servidor determinará un valor predeterminado adecuado en función de otros atributos de material.
 
 ## Véase también {#section-a51850093b7140e683a0f8b07845843c}
 
