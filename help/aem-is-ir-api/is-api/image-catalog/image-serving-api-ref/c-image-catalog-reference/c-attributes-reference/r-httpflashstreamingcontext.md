@@ -1,23 +1,24 @@
 ---
-description: Prefijo de URL del servidor de flujo Flash. Prefijo de URL del servidor de flujo de Flash utilizado al generar respuestas f4m de velocidad de bits múltiple con req=mbrSet.
-seo-description: Prefijo de URL del servidor de flujo Flash. Prefijo de URL del servidor de flujo de Flash utilizado al generar respuestas f4m de velocidad de bits múltiple con req=mbrSet.
+description: Prefijo URL del servidor de transmisión de Flash. Prefijo de URL del servidor de transmisión de Flash que se utiliza al generar respuestas de f4m con velocidad de bits múltiple con req=mbrSet.
+seo-description: Prefijo URL del servidor de transmisión de Flash. Prefijo de URL del servidor de transmisión de Flash que se utiliza al generar respuestas de f4m con velocidad de bits múltiple con req=mbrSet.
 seo-title: HttpFlashStreamingContext
 solution: Experience Manager
 title: HttpFlashStreamingContext
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7a69e7ac-9a32-4e32-a7bc-cc90c5cbe49c
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 6%
+source-wordcount: '87'
+ht-degree: 5%
 
 ---
 
 
 # HttpFlashStreamingContext{#httpflashstreamingcontext}
 
-Prefijo de URL del servidor de flujo Flash. Prefijo de URL del servidor de flujo de Flash utilizado al generar respuestas f4m de velocidad de bits múltiple con req=mbrSet.
+Prefijo URL del servidor de transmisión de Flash. Prefijo de URL del servidor de transmisión de Flash que se utiliza al generar respuestas de f4m con velocidad de bits múltiple con req=mbrSet.
 
 ## Propiedades {#section-e7ae7d96a7cb40829de7e784fcbbad33}
 
