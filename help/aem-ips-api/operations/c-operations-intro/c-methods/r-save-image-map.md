@@ -4,12 +4,13 @@ seo-description: Cree un nuevo mapa de imagen o edite un mapa existente.
 seo-title: saveImageMap
 solution: Experience Manager
 title: saveImageMap
-topic: Dynamic Media Image Production System API
 uuid: 9714fc99-2259-4766-96d7-fe2f9fd2f341
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '271'
 ht-degree: 15%
 
 ---
@@ -52,7 +53,7 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> Identificador de la compañía con el mapa de imagen que desea guardar. </td> 
+   <td colname="col4"> El identificador de la empresa con el mapa de imagen que desea guardar. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle  </span> </span> </td> 
@@ -64,7 +65,7 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageMapHandle  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Identificador del mapa de imagen. Crea un mapa de imagen si es NULL. </td> 
+   <td colname="col4"> El identificador del mapa de imagen. Crea un mapa de imagen si es NULL. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name  </span> </span> </td> 
@@ -76,28 +77,28 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> shapeType  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> Opción de forma de región. </td> 
+   <td colname="col4"> Forma de la región. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> región  </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> region  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> Una lista de puntos delimitada por comas que define la región. </td> 
+   <td colname="col4"> Lista de puntos delimitada por comas que definen la región. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> action  </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> acción  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> <p>El valor <span class="codeph"> href </span> asociado con el mapa de imagen como se especifica en la interfaz IPS. </p> <p>Para obtener el valor <span class="codeph"> href </span>, haga clic en la imagen en la interfaz IPS, copie y pegue la dirección URL en este elemento y, a continuación, dé formato a la dirección URL IPS como dirección URL adecuada. Por ejemplo: <span class="codeph"> &amp; </span> se convierte en <span class="codeph"> &amp;amp; </span>. </p> </td> 
+   <td colname="col4"> <p>El valor <span class="codeph"> href </span> asociado con el mapa de imagen, tal como se especifica en la interfaz IPS. </p> <p>Para obtener el valor <span class="codeph"> href </span>, haga clic en la imagen en la interfaz IPS, copie y pegue la dirección URL en este elemento y, a continuación, dé formato a la dirección URL IPS como dirección URL adecuada. Por ejemplo, <span class="codeph"> y </span> se convierten en <span class="codeph"> &amp;amp; </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> position  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int </span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> El orden en la lista de mapas de imagen (el eje Z). </td> 
+   <td colname="col4"> El orden de la lista de mapas de imágenes (el eje Z). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> habilitado  </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> enabled  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean </span> </td> 
    <td colname="col3"> Sí </td> 
    <td colname="col4"></td> 
@@ -109,7 +110,7 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`imageMapHandle`*` | `xsd:string` | Sí | Identificador del mapa de imagen nuevo o editado. |
+| `*`imageMapHandle`*` | `xsd:string` | Sí | El identificador del mapa de imagen nuevo o editado. |
 
 ## Ejemplos {#section-fdac488b640f427c8aa3d549c5032851}
 
