@@ -1,23 +1,24 @@
 ---
-description: Opciones de archivo PDF.
-seo-description: Opciones de archivo PDF.
-seo-title: PDFOoptions
+description: opciones del archivo PDF.
+seo-description: opciones del archivo PDF.
+seo-title: PDFOptions
 solution: Experience Manager
-title: PDFOoptions
-topic: Dynamic Media Image Production System API
+title: PDFOptions
 uuid: 7558b6b5-ad32-4baf-896b-f4e2bd48f2ec
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 9%
+source-wordcount: '79'
+ht-degree: 8%
 
 ---
 
 
-# PDFOoptions{#pdfoptions}
+# PDFOptions{#pdfoptions}
 
-Opciones de archivo PDF.
+opciones del archivo PDF.
 
 Sintaxis
 
@@ -28,7 +29,7 @@ Sintaxis
 | `*`proceso`*` | `xsd:string` | Elección de &quot;procesos PDF&quot;. |
 | `*`resolution`*` | `xsd:double` | Resolución de archivos. |
 | `*`Espacio de color`*` | `xsd:string` | Opción de modo de espacio de color posterior a la secuencia de comandos. |
-| `*`pdfCatalog`*` | `xsd:boolean` | Si se combina un PDF de varias páginas en un catálogo electrónico después de la representación (el valor predeterminado es true). |
+| `*`pdfCatalog`*` | `xsd:boolean` | Combinar un PDF de varias páginas en un catálogo electrónico después de la renderización (el valor predeterminado es true). |
 | `*`extractSearchWords`*` | `xsd:boolean` | Si se extraen palabras de búsqueda del archivo PDF. |
-| `*`extractLinks`*` | `xsd:boolean` | Indica si se deben extraer vínculos PDF en mapas de imagen asignados a las páginas rasterizadas dentro de IPS. |
+| `*`extractLinks`*` | `xsd:boolean` | Indica si se extraerán vínculos PDF en mapas de imágenes asignados a las páginas rasterizadas dentro de IPS. |
 
