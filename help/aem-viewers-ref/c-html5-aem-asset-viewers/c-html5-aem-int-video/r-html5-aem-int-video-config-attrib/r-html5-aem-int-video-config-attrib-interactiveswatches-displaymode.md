@@ -1,23 +1,24 @@
 ---
-description: Atributo de configuración para el visor de vídeo interactivo.
-seo-description: Atributo de configuración para el visor de vídeo interactivo.
+description: Atributo de configuración para el visualizador de vídeo interactivo.
+seo-description: Atributo de configuración para el visualizador de vídeo interactivo.
 seo-title: InteractiveSwatches.displaymode
 solution: Experience Manager
 title: InteractiveSwatches.displaymode
-topic: Dynamic Media
 uuid: 279b1632-cf03-454d-b15f-9e785daad692
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 8%
+source-wordcount: '58'
+ht-degree: 6%
 
 ---
 
 
 # InteractiveSwatches.displaymode{#interactiveswatches-displaymode}
 
-Atributo de configuración para el visor de vídeo interactivo.
+Atributo de configuración para el visualizador de vídeo interactivo.
 
 `[InteractiveSwatches.|<containerId>_interactiveSwatches.]displaymode=continuous|segment`
 
@@ -25,7 +26,7 @@ Atributo de configuración para el visor de vídeo interactivo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> continuo|segmento</span> </p> </td> 
-   <td colname="col2"> <p> Rellena muestras interactivas continuamente con miniaturas independientemente de los límites del segmento o, permite que el espacio vacío observe los límites del segmento. </p> </td> 
+   <td colname="col2"> <p> Rellena muestras interactivas continuamente con miniaturas independientemente de los límites del segmento o, permite que el espacio vacío anote los límites del segmento. </p> </td> 
   </tr> 
  </tbody> 
 </table>
