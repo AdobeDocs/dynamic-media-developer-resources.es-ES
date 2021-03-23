@@ -1,23 +1,24 @@
 ---
-description: Quita un usuario de una o varias compañías.
-seo-description: Quita un usuario de una o varias compañías.
+description: Quita un usuario de una o varias empresas.
+seo-description: Quita un usuario de una o varias empresas.
 seo-title: removeCompanyMembership
 solution: Experience Manager
 title: removeCompanyMembership
-topic: Dynamic Media Image Production System API
 uuid: af57fde0-2297-41da-87bf-f063fc313264
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 11%
+source-wordcount: '116'
+ht-degree: 10%
 
 ---
 
 
 # removeCompanyMembership{#removecompanymembership}
 
-Quita un usuario de una o varias compañías.
+Quita un usuario de una o varias empresas.
 
 Sintaxis
 
@@ -34,16 +35,16 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | No | Identificador del usuario con la pertenencia que desea eliminar. |
-| `*`companyHandleArray`*` | `types:HandleArray` | Sí | Identificador de la compañía desde la que se está quitando al usuario. |
+| `*`userHandle`*` | `xsd:string` | No | El identificador del usuario con la pertenencia que desea eliminar. |
+| `*`companyHandleArray`*` | `types:HandleArray` | Sí | El identificador de la empresa desde la que se va a quitar el usuario. |
 
-**Output (removeCompanyMembershipReturn)**
+**Salida (removeCompanyMembershipReturn)**
 
-La API de IPS no devuelve una respuesta para esta operación.
+La API IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-6b7903195e8647a1bd0502f87387ca62}
 
-Este ejemplo de código elimina a un usuario de una compañía. Omita el identificador de usuario opcional para eliminar a todos los usuarios de las compañías especificadas en la matriz del identificador de compañía.
+Este ejemplo de código elimina a un usuario de una empresa. Omita el identificador de usuario opcional para eliminar todos los usuarios de las empresas especificadas en la matriz de administración de la empresa.
 
 **Solicitar**
 
