@@ -4,13 +4,14 @@ seo-description: Tipo de trabajo para permitir la exportación autorizada de arc
 seo-title: ExportJob
 solution: Experience Manager
 title: ExportJob
-topic: Dynamic Media Image Production System API
 uuid: 439e3dd8-85b8-4f5b-abf8-8cc5a3f59fe6
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 16%
+source-wordcount: '224'
+ht-degree: 15%
 
 ---
 
@@ -19,7 +20,7 @@ ht-degree: 16%
 
 Tipo de trabajo para permitir la exportación autorizada de archivos cargados anteriormente.
 
-ExportJob no admite los siguientes tipos de recursos:
+ExportJob no admite los siguientes tipos de activos:
 
 * Conjuntos de imágenes
 * Conjuntos de procesamiento
@@ -42,21 +43,21 @@ ExportJob no admite los siguientes tipos de recursos:
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> tipos:HandleArray</span> </p> </td> 
-   <td colname="col3" valign="top"> <p>Lista de <span class="codeph"> assetHandle</span> que se debe exportar. Consulte <a href="../../types/c-data-types/r-handle-array.md#reference-1b93fefb5477459faf9253b54349b5f9" type="reference" format="dita" scope="local"> HandleArray</a>. </p> </td> 
+   <td colname="col3" valign="top"> <p>Lista de <span class="codeph"> assetHandle</span> que es necesario exportar. Consulte <a href="../../types/c-data-types/r-handle-array.md#reference-1b93fefb5477459faf9253b54349b5f9" type="reference" format="dita" scope="local"> HandleArray</a>. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fmt</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
-   <td colname="col3"> <p>Especifica el tipo de exportación <span class="codeph">.Valores posibles</span>: [orig, convert] </p> <p> 
+   <td colname="col3"> <p>Especifica el tipo de exportación <span class="codeph">. Valores posibles</span>: [orig, convertir] </p> <p> 
      <ul id="ul_16EF4B14100C4C7AA464CA9CF7F11D1C"> 
       <li id="li_DAB2844CC55145C88A18A1F8EC4527F9">Si <span class="codeph"> fmt=orig</span>, los recursos se exportan como originales </li> 
-      <li id="li_07F2F8D159934D889FDC1022AB12B564">Si <span class="codeph"> fmt=convert</span>, los recursos se convierten al formato especificado en los parámetros de entrada <span class="codeph"> is_modifer</span> o <span class="codeph"> macro</span> </li> 
+      <li id="li_07F2F8D159934D889FDC1022AB12B564">Si <span class="codeph"> fmt=converted</span>, los recursos se convierten al formato especificado en los parámetros de entrada <span class="codeph"> is_modifer</span> o <span class="codeph"> macro</span> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> is_modifier</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string  </span> </p> </td> 
-   <td colname="col3"> <p>Especifica la cadena URL de procesamiento <span class="codeph"> ImageServer</span>, que se anexa a la solicitud ExportJob <span class="codeph"> convert</span>. </p> <p>Consulte la <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html" scope="external" format="html"> documentación de IS</a> para obtener detalles sobre cómo enviar los modificadores IS. </p> </td> 
+   <td colname="col3"> <p>Especifica la cadena de URL de renderización <span class="codeph"> ImageServer</span>, que se adjunta a la solicitud de conversión <span class="codeph"> ExportJob</span>. </p> <p>Consulte la <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html" scope="external" format="html"> documentación de IS</a> para obtener más información sobre cómo enviar los modificadores de IS. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> macro</span> </span> </p> </td> 
@@ -71,14 +72,14 @@ ExportJob no admite los siguientes tipos de recursos:
       <li id="li_F235F93828594ED78C6D464440F953FF"> <span class="codeph"> Todos</span> </li> 
       <li id="li_59E14E7EBFA64432A5FAC15DA21A0521"> <span class="codeph"> Error</span> </li> 
       <li id="li_BFE0B52CADD14CC1BA1AF42AB0AA1CE1"> <span class="codeph"> ErrorAndWarning</span> </li> 
-      <li id="li_BE3AA67E14FB487B8B9CD6EF3D58824C"> <span class="codeph"> JobCompletion</span> </li> 
+      <li id="li_BE3AA67E14FB487B8B9CD6EF3D58824C"> <span class="codeph"> Finalización del trabajo</span> </li> 
       <li id="li_409C68AD0D244975BFB86B08609E0146"> <span class="codeph"> Ninguno</span> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> clientId</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string  </span> </p> </td> 
-   <td colname="col3"> <p>Especifica la dirección IP del cliente o cliente que inició la solicitud de exportación. </p> <p> <p>Nota:  este parámetro no se rellena activamente en este momento y está reservado exclusivamente para uso futuro. </p> </p> </td> 
+   <td colname="col3"> <p>Especifica la dirección IP del cliente o cliente que inició la solicitud de exportación. </p> <p> <p>Nota:  este parámetro no se rellena activamente actualmente y está estrictamente reservado para uso futuro únicamente. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
