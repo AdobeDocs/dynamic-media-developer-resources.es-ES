@@ -1,23 +1,24 @@
 ---
-description: Modo de remuestreo. Selecciona el algoritmo de remuestreo o interpolación que se utilizará para escalar los datos de imagen. También se aplica a la rotación de las capas de texto y al cambio de tamaño de las imágenes compuestas durante la transformación de vista.
-seo-description: Modo de remuestreo. Selecciona el algoritmo de remuestreo o interpolación que se utilizará para escalar los datos de imagen. También se aplica a la rotación de las capas de texto y al cambio de tamaño de las imágenes compuestas durante la transformación de vista.
+description: Modo de remuestreo. Selecciona el algoritmo de remuestreo o de interpolación que se utilizará para escalar los datos de imagen. También se aplica a la rotación de las capas de texto y al cambio de tamaño de las imágenes compuestas durante la transformación de la vista.
+seo-description: Modo de remuestreo. Selecciona el algoritmo de remuestreo o de interpolación que se utilizará para escalar los datos de imagen. También se aplica a la rotación de las capas de texto y al cambio de tamaño de las imágenes compuestas durante la transformación de la vista.
 seo-title: resMode
 solution: Experience Manager
 title: resMode
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8e12aa06-072c-4e7a-84e6-01437c43c57b
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 16%
+source-wordcount: '258'
+ht-degree: 15%
 
 ---
 
 
 # resMode{#resmode}
 
-Modo de remuestreo. Selecciona el algoritmo de remuestreo o interpolación que se utilizará para escalar los datos de imagen. También se aplica a la rotación de las capas de texto y al cambio de tamaño de las imágenes compuestas durante la transformación de vista.
+Modo de remuestreo. Selecciona el algoritmo de remuestreo o de interpolación que se utilizará para escalar los datos de imagen. También se aplica a la rotación de las capas de texto y al cambio de tamaño de las imágenes compuestas durante la transformación de la vista.
 
 `resMode=bilin|bicub|sharp2|bisharp`
 
@@ -29,22 +30,22 @@ Modo de remuestreo. Selecciona el algoritmo de remuestreo o interpolación que s
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bicub  </span> </p> </td> 
-   <td colname="col2"> <p>Selecciona la interpolación bicúbica. Más uso de CPU que interpolación bilineal, pero producirá imágenes más enfocadas con artefactos de solapamiento menos evidentes. </p> </td> 
+   <td colname="col2"> <p>Selecciona la interpolación bicúbica. Mayor densidad de CPU que la interpolación bilineal, pero producirá imágenes más nítidas con menos artefactos de solapamiento visibles. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> sharp2  </span> </p> </td> 
-   <td colname="col2"> <p>selecciona una función de ventana Lanczos modificada como un algoritmo de interpolación. Puede producir unos resultados algo más enfocados que la opción bicúbica con un uso mayor de CPU. <span class="codeph"> el punto  </span> se ha sustituido por el  <span class="codeph"> punto2  </span>, que tiene menos probabilidades de causar artefactos de solapamiento (Moiré). </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> agudo2  </span> </p> </td> 
+   <td colname="col2"> <p>selecciona una función de ventana Lanczos modificada como un algoritmo de interpolación. Puede producir unos resultados algo más enfocados que la opción bicúbica con un uso mayor de CPU. <span class="codeph"> el punto  </span> ha sido sustituido por el  <span class="codeph"> punto 2  </span>, que tiene menos probabilidades de causar artefactos de aliento (Moiré). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bisharp  </span> </p> </td> 
-   <td colname="col2"> <p>Selecciona el reampliador predeterminado de Photoshop para reducir el tamaño de la imagen, que se denomina "enfoque bicúbico" en Adobe Photoshop. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bici  </span> </p> </td> 
+   <td colname="col2"> <p>Selecciona el reampliador predeterminado de Photoshop para reducir el tamaño de la imagen, que en Adobe Photoshop se denomina "nitidez bicúbica". </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Propiedades {#section-a171bacf4ddf43c782e46b86a16d443e}
 
-Solicitar atributo. Se aplica a todas las operaciones de escalado que implican la creación de la imagen de respuesta final, incluida toda la escala de capa.
+Atributo de solicitud. Se aplica a todas las operaciones de escalado involucradas en la creación de la imagen de respuesta final, incluido el escalado de todas las capas.
 
 ## Predeterminado {#section-d5e1b26f5703461395018a3a627f7283}
 
@@ -52,7 +53,7 @@ Solicitar atributo. Se aplica a todas las operaciones de escalado que implican l
 
 ## Ejemplo {#section-ee8c3e5a2e3845fe81de5073a8ab7efe}
 
-Recupere una representación de mejor calidad de una imagen con capas almacenada en un catálogo de imágenes. La imagen puede incluir texto. Esperamos seguir procesando en una aplicación de edición de imágenes y, por lo tanto, solicitar un canal alfa con la imagen.
+Recupere una representación de mejor calidad de una imagen en capas almacenada en un catálogo de imágenes. La imagen puede incluir texto. Esperamos seguir procesando en una aplicación de edición de imágenes y, por lo tanto, solicitar un canal alfa con la imagen.
 
 ` http:// *`server`*/myLayeredImage?fmt=tif-alpha,,lzw&resMode=sharp2&wid=1800`
 
