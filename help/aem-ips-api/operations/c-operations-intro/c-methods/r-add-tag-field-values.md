@@ -1,20 +1,21 @@
 ---
-description: Añade nuevos valores de etiqueta en el diccionario de un campo de etiqueta existente.
+description: Agrega nuevos valores de etiqueta al diccionario de un campo de etiqueta existente.
 solution: Experience Manager
 title: addTagFieldValues
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 14%
+source-wordcount: '97'
+ht-degree: 13%
 
 ---
 
 
 # addTagFieldValues{#addtagfieldvalues}
 
-Añade nuevos valores de etiqueta en el diccionario de un campo de etiqueta existente.
+Agrega nuevos valores de etiqueta al diccionario de un campo de etiqueta existente.
 
 Sintaxis
 
@@ -30,13 +31,13 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía que contiene el campo de etiqueta. |
-| `*`fieldHandle`*` | `xsd:string` | Sí | Identificador del campo de etiqueta que se va a modificar. |
+| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa que contiene el campo de etiqueta. |
+| `*`fieldHandle`*` | `xsd:string` | Sí | El controlador del campo de etiqueta que se va a modificar. |
 | `*`valueArray`*` | `xsd:string` | Sí | Matriz de valores de etiqueta que se agregarán al diccionario existente del campo. |
 
 **Salida (addTagFieldValuesParam)**
 
-La API de IPS no devuelve una respuesta para esta operación.
+La API IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-c4049392f1c548f883b8b1f8f167bada}
 
