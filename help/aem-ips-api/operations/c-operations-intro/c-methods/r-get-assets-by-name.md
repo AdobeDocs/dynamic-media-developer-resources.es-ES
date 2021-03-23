@@ -4,13 +4,14 @@ seo-description: Devuelve recursos en función de una matriz de nombres de recur
 seo-title: getAssetsByName
 solution: Experience Manager
 title: getAssetsByName
-topic: Dynamic Media Image Production System API
 uuid: e86b3b16-ad93-4f70-9f59-b72395513c4c
+feature: Dynamic Media Classic,SDK/API,Administración de activos
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 14%
+source-wordcount: '231'
+ht-degree: 13%
 
 ---
 
@@ -54,13 +55,13 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> El identificador de la compañía. </td> 
+   <td colname="col4"> El identificador de la empresa. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> accessUserHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Proporciona acceso como otro usuario. Disponible únicamente para administradores. </td> 
+   <td colname="col4"> Proporciona acceso como otro usuario. Disponible solo para administradores. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> accessGroupHandle</span> </span> </td> 
@@ -72,19 +73,19 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> nameArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:StringArray</span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> Matriz de nombres de recursos para recuperar. </td> 
+   <td colname="col4"> Matriz de nombres de recursos que se van a recuperar. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:StringArray</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Matriz de tipos de recursos permitidos para los recursos recuperados. </td> 
+   <td colname="col4"> Matriz de tipos de recurso permitidos para los recursos recuperados. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeAssetTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:StringArray</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Matriz de tipos de recursos excluidos para los recursos recuperados. </td> 
+   <td colname="col4"> Matriz de tipos de recurso excluidos para los recursos recuperados. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetSubTypeArray</span> </span> </td> 
@@ -93,10 +94,10 @@ Sintaxis
    <td colname="col4"> Matriz de subtipos de recursos permitidos para los recursos recuperados. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> estrictoSubTypeCheck</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> strictoSubTypeCheck</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Si <span class="codeph"> true</span> y <span class="codeph"> assetSubTypeArray</span> no está vacío, solo se devuelven los recursos cuyos subtipos están en <span class="codeph"> assetSubTypeArray</span>. </p> <p>Si <span class="codeph"> false</span>, se incluyen los recursos sin subtipo definido. </p> <p>El valor predeterminado es <span class="codeph"> false</span>. </p> </td> 
+   <td colname="col4"> <p>Si <span class="codeph"> true</span> y <span class="codeph"> assetSubTypeArray</span> no están vacíos, solo se devuelven los activos cuyos subtipos se encuentran en <span class="codeph"> assetSubTypeArray</span>. </p> <p>Si <span class="codeph"> es false</span>, se incluyen los activos sin ningún subtipo definido. </p> <p>El valor predeterminado es <span class="codeph"> false</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </td> 
@@ -121,7 +122,7 @@ Sintaxis
 
 ## Ejemplos {#section-3b7447398e574c88aeaf8ca159cc78dd}
 
-Este ejemplo de código devuelve dos recursos de tipo de imagen.
+Este ejemplo de código devuelve dos recursos de tipo imagen.
 
 **Solicitar**
 
