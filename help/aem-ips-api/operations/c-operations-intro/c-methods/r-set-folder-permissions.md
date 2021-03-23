@@ -1,23 +1,24 @@
 ---
-description: Establece los permisos de las carpetas.
-seo-description: Establece los permisos de las carpetas.
+description: Establece los permisos de carpeta.
+seo-description: Establece los permisos de carpeta.
 seo-title: setFolderPermissions
 solution: Experience Manager
 title: setFolderPermissions
-topic: Dynamic Media Image Production System API
 uuid: 3a33034e-df2c-48ab-8ade-b76bea444388
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 14%
+source-wordcount: '102'
+ht-degree: 13%
 
 ---
 
 
 # setFolderPermissions{#setfolderpermissions}
 
-Establece los permisos de las carpetas.
+Establece los permisos de carpeta.
 
 Sintaxis
 
@@ -33,18 +34,18 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de compañía. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la empresa. |
 | `*`folderHandle`*` | `xsd:string` | Sí | Identificador de carpeta. |
-| `*`setChildren`*` | `xsd:boolean` | Sí | Establece permisos para los elementos secundarios que pertenecen a la carpeta. |
+| `*`setChildren`*` | `xsd:boolean` | Sí | Establece los permisos de los elementos secundarios que pertenecen a la carpeta. |
 | `*`permissionArray`*` | `types:PermissionUpdateArray` | Sí | Matriz de permisos. |
 
-**Output (setFolderPermissionsReturn)**
+**Salida (setFolderPermissionsReturn)**
 
-La API de IPS no devuelve una respuesta para esta operación.
+La API IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-01730da4be874553ab44e3241cdf6357}
 
-Este ejemplo de código especifica un identificador de compañía, un identificador de carpeta y una matriz de permisos con información detallada sobre la carpeta. Aplica los mismos permisos a los elementos secundarios de la carpeta principal.
+Este ejemplo de código especifica un identificador de empresa, un identificador de carpeta y una matriz de permisos con información detallada sobre la carpeta. Aplica los mismos permisos a los elementos secundarios de la carpeta principal.
 
 **Solicitar**
 
