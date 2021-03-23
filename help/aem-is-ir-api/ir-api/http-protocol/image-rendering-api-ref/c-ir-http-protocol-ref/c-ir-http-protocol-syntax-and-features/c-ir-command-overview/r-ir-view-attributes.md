@@ -1,28 +1,29 @@
 ---
-description: Estos comandos son independientes de la posición y pueden ocurrir en cualquier parte de una solicitud.
-seo-description: Estos comandos son independientes de la posición y pueden ocurrir en cualquier parte de una solicitud.
-seo-title: Atributos de vista
+description: Estos comandos son independientes de la posición y pueden producirse en cualquier lugar de una solicitud.
+seo-description: Estos comandos son independientes de la posición y pueden producirse en cualquier lugar de una solicitud.
+seo-title: Ver atributos
 solution: Experience Manager
-title: Atributos de vista
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Ver atributos
 uuid: eae8d998-a4ba-4871-9a8a-c15c22a20580
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '133'
 ht-degree: 1%
 
 ---
 
 
-# Atributos de vista{#view-attributes}
+# Ver atributos{#view-attributes}
 
-Estos comandos son independientes de la posición y pueden ocurrir en cualquier parte de una solicitud.
+Estos comandos son independientes de la posición y pueden producirse en cualquier lugar de una solicitud.
 
 <table id="simpletable_D30C7420AECD44ADBD7B0728594FF5FA"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-fmt.md#reference-4c743f67d56b47c5b774fcc900ff758c" type="reference" format="dita" scope="local"> fmt</a> </span> </p></td> 
-  <td class="stentry"> <p>Formato de la imagen de respuesta. </p></td> 
+  <td class="stentry"> <p>Responder formato de imagen. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-qlt.md#reference-27b91c226eb241d0a14a29af3b3afdbd" type="reference" format="dita" scope="local"> qlt</a> </span> </p></td> 
@@ -49,8 +50,8 @@ Estos comandos son independientes de la posición y pueden ocurrir en cualquier 
   <td class="stentry"> <p>Modo de remuestreo para el escalado final de la imagen. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharpen.md#reference-13034d22d176483cb99ccafc2a4f6a6e" type="reference" format="dita" scope="local"> enfoque</a></span> </p></td> 
-  <td class="stentry"> <p>Responda al enfoque de la imagen. </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharpen.md#reference-13034d22d176483cb99ccafc2a4f6a6e" type="reference" format="dita" scope="local"> enfocar</a></span> </p></td> 
+  <td class="stentry"> <p>Responder el enfoque de la imagen. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-icc.md#reference-86a2fff3cef24982ad2063d977a16e06" type="reference" format="dita" scope="local"> icc</a></span> </p></td> 
@@ -62,14 +63,14 @@ Estos comandos son independientes de la posición y pueden ocurrir en cualquier 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-pathembed.md#reference-dfff01079fc74dbd896362cc740d7f5f" type="reference" format="dita" scope="local"> pathEmbed</a></span> </p></td> 
-  <td class="stentry"> <p>Incruste las rutas de Photoshop en la imagen de respuesta. </p></td> 
+  <td class="stentry"> <p>Incruste rutas de Photoshop en la imagen de respuesta. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-vignette.md#reference-eb3f458733294f988483b024348bc778" type="reference" format="dita" scope="local"> viñeta</a></span> </p></td> 
   <td class="stentry"> <p>Viñeta. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-cache.md#reference-a83329ce7c914ee4b518b0bda71f0438" type="reference" format="dita" scope="local"> caché</a></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-cache.md#reference-a83329ce7c914ee4b518b0bda71f0438" type="reference" format="dita" scope="local"> cache</a></span> </p> </td> 
   <td class="stentry"> <p>Anule el comportamiento predeterminado de almacenamiento en caché de respuestas. </p></td> 
  </tr> 
 </table>
