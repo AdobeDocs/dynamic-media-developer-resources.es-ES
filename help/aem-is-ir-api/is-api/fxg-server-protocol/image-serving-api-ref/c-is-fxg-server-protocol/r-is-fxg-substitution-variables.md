@@ -1,15 +1,16 @@
 ---
-description: La variable de sustitución se utiliza para transferir valores de la dirección URL de la solicitud a las plantillas FXG almacenadas en el servidor.
-seo-description: La variable de sustitución se utiliza para transferir valores de la dirección URL de la solicitud a las plantillas FXG almacenadas en el servidor.
+description: La variable de sustitución se utiliza para transferir valores de la dirección URL de la solicitud a plantillas FXG almacenadas en el servidor.
+seo-description: La variable de sustitución se utiliza para transferir valores de la dirección URL de la solicitud a plantillas FXG almacenadas en el servidor.
 seo-title: Variables de sustitución
 solution: Experience Manager
 title: Variables de sustitución
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 87cd9594-ba3b-429d-aa57-399902ef3abe
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # Variables de sustitución{#substitution-variables}
 
-La variable de sustitución se utiliza para transferir valores de la dirección URL de la solicitud a las plantillas FXG almacenadas en el servidor.
+La variable de sustitución se utiliza para transferir valores de la dirección URL de la solicitud a plantillas FXG almacenadas en el servidor.
 
 ` $ *``*= *`varvalue`*`
 
@@ -28,12 +29,12 @@ La variable de sustitución se utiliza para transferir valores de la dirección 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> value  </span> </span> </p> </td> 
-  <td class="stentry"> <p>Valor en el que se va a establecer la variable (cadena). </p> </td> 
+  <td class="stentry"> <p>Valor al que se debe configurar la variable (cadena). </p> </td> 
  </tr> 
 </table>
 
 * Las definiciones y referencias de variables pueden producirse en la parte de consulta de la dirección URL de la solicitud.
-* Las variables se definen como se indica arriba, de forma similar a otros comandos IS; el &#39;$&#39; inicial identifica el comando como una definición de variable.
+* Las variables se definen como se indica arriba, de forma similar a otros comandos IS; el elemento principal &#39;$&#39; identifica el comando como una definición de variable.
 * El nombre de la variable `*`var`*` distingue entre mayúsculas y minúsculas y puede constar de cualquier combinación de letras, números, &#39;-&#39; y &#39;_&#39;.
-* El valor importante debe tener una codificación de dirección URL de paso único para la transmisión HTTP segura.
+* El valor importante debe tener codificación de dirección URL de paso único para la transmisión HTTP segura.
 
