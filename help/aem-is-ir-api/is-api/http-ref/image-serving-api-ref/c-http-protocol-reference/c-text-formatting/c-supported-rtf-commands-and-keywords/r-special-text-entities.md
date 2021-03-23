@@ -4,12 +4,13 @@ seo-description: Utilice las siguientes entidades especiales al dar formato al t
 seo-title: Entidades de texto especial
 solution: Experience Manager
 title: Entidades de texto especial
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: efcc3962-7097-4395-8b9f-f37c6e7f5b75
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '84'
 ht-degree: 3%
 
 ---
@@ -44,7 +45,7 @@ Utilice las siguientes entidades especiales al dar formato al texto.
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;Lbrace;  </span> </td> 
+   <td> <span class="codeph"> &amp;llave;  </span> </td> 
    <td> <p>Llave abierta. </p> </td> 
    <td> <p>La llave debe tener codificación HTTP. </p> </td> 
   </tr> 
@@ -60,7 +61,7 @@ Utilice las siguientes entidades especiales al dar formato al texto.
   </tr> 
   <tr> 
    <td> <span class="codeph"> \_</span> </td> 
-   <td> <p>Guión de no separación. </p> </td> 
+   <td> <p>Guión que no rompe. </p> </td> 
    <td> <p><span class="codeph"> textPs=</span> only. </p> </td> 
   </tr> 
   <tr> 
