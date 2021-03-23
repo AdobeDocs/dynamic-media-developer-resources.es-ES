@@ -1,14 +1,15 @@
 ---
-description: swatchoverlay
+description: coincidencia
 solution: Experience Manager
-title: swatchoverlay
-topic: Dynamic Media
+title: coincidencia
 uuid: 60419120-effc-4895-8bb1-7e4b70a67c5b
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 8%
+source-wordcount: '70'
+ht-degree: 7%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
-   <td colname="col2"> <p>Especifica el diseño del visor en dispositivos táctiles. Cuando el parámetro se establece en <span class="codeph"> 1 </span>, el visor muestra muestras debajo de la vista principal en el escritorio; en dispositivos táctiles, las muestras se superponen en la parte superior de la vista principal. </p> <p>Cuando el parámetro se establece en <span class="codeph"> 0 </span>, las muestras se representan debajo de la vista principal en todos los tipos de dispositivos. </p> </td> 
+   <td colname="col2"> <p>Especifica el diseño del visor en los dispositivos con capacidad táctil. Cuando el parámetro se establece en <span class="codeph"> 1 </span>, el visor muestra muestras debajo de la vista principal en el escritorio; en los dispositivos con capacidad táctil, las muestras se superponen en la vista principal. </p> <p>Cuando el parámetro se establece en <span class="codeph"> 0 </span>, las muestras se representan debajo de la vista principal en todos los tipos de dispositivos. </p> </td> 
   </tr> 
  </tbody> 
 </table>
