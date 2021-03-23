@@ -1,15 +1,16 @@
 ---
-description: Devuelve carpetas y subcarpetas de una estructura jerárquica de árbol. La respuesta getFolderTree está limitada a un máximo de 100.000 carpetas
-seo-description: Devuelve carpetas y subcarpetas de una estructura jerárquica de árbol. La respuesta getFolderTree está limitada a un máximo de 100.000 carpetas
+description: Devuelve carpetas y subcarpetas en una estructura de árbol jerárquica. La respuesta getFolderTree está limitada a un máximo de 100 000 carpetas
+seo-description: Devuelve carpetas y subcarpetas en una estructura de árbol jerárquica. La respuesta getFolderTree está limitada a un máximo de 100 000 carpetas
 seo-title: getFolderTree
 solution: Experience Manager
 title: getFolderTree
-topic: Dynamic Media Image Production System API
 uuid: 93fda0d6-c656-4254-b07b-7a448e164f28
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '285'
 ht-degree: 8%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 8%
 
 # getFolderTree{#getfoldertree}
 
-Devuelve carpetas y subcarpetas de una estructura jerárquica de árbol. La respuesta getFolderTree está limitada a un máximo de 100.000 carpetas
+Devuelve carpetas y subcarpetas en una estructura de árbol jerárquica. La respuesta getFolderTree está limitada a un máximo de 100 000 carpetas
 
 Sintaxis
 
@@ -41,11 +42,11 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la compañía. |
-| `*`accessUserHandle`*` | `xsd:string` | No | Solo lo utilizan los administradores para hacerse pasar por un usuario específico. |
-| `*`accessGroupHandle`*` | `xsd:string` | No | Se utiliza para filtrar por un grupo específico, incluidos los grupos a los que pertenece la compañía. |
-| `*`folderPath`*` | `xsd:string` | No | La carpeta raíz que se va a recuperar y todas las subcarpetas en el nivel de hoja. Si se excluye, se utiliza la raíz de compañía. |
-| `*`profundidad`*` | `xsd:int` | Sí | Un valor de cero obtiene la carpeta de nivel superior. Cualquier otro valor especifica la profundidad que se va a descender en el árbol. |
+| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa. |
+| `*`accessUserHandle`*` | `xsd:string` | No | Solo lo utilizan los administradores para suplantar a un usuario específico. |
+| `*`accessGroupHandle`*` | `xsd:string` | No | Se utiliza para filtrar por un grupo específico, incluidos aquellos a los que pertenece la empresa. |
+| `*`folderPath`*` | `xsd:string` | No | La carpeta raíz para recuperar carpetas y todas las subcarpetas en el nivel de hoja. Si se excluye, se utiliza la raíz de la empresa. |
+| `*`profundidad`*` | `xsd:int` | Sí | Un valor de cero obtiene la carpeta de nivel superior. Cualquier otro valor especifica la profundidad que se desciende en el árbol. |
 | `*`assetTypeArray`*` | `types:StringArray` | No | Devuelve carpetas que solo contienen tipos de recursos especificados. |
 | `*`responseFieldArray`*` | `types:StringArray` | No | Contiene una lista de campos que desea incluir en la respuesta. |
 | `*`excludeFieldArray`*` | `types:StringArray` | No | Contiene una lista de campos que desea excluir en la respuesta. |
@@ -54,12 +55,12 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`carpetas`*` | `types:folders` | No | La jerarquía de carpetas en una estructura de árbol. La respuesta está limitada a un máximo de 100.000 carpetas. |
+| `*`carpetas`*` | `types:folders` | No | La jerarquía de carpetas en una estructura de árbol. La respuesta está limitada a un máximo de 100 000 carpetas. |
 | `*`permissionSetArray`*` | `types:PermissionSetArray` |  |  |
 
 ## Ejemplos {#section-a9fd2edb56574dd9bf8b0f2fd89367e4}
 
-Este ejemplo de código utiliza un controlador de compañía y un parámetro de profundidad para determinar el nivel de profundidad que debe devolver la respuesta. La respuesta contiene carpetas y matrices de subcarpetas con elementos relacionados. Establezca el valor de profundidad en un número menor para buscar más profundamente en el árbol de carpetas.
+Este ejemplo de código utiliza un control de empresa y un parámetro de profundidad para determinar el nivel de profundidad que debe devolver la respuesta. La respuesta contiene carpetas y matrices de subcarpetas relacionadas. Defina el valor de profundidad en un número menor para buscar más profundamente en el árbol de carpetas.
 
 **Solicitar**
 
