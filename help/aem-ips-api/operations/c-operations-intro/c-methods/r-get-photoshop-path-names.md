@@ -4,13 +4,14 @@ seo-description: Devuelve una matriz de nombres de ruta de Photoshop para la ima
 seo-title: getPhotoshopPathNames
 solution: Experience Manager
 title: getPhotoshopPathNames
-topic: Dynamic Media Image Production System API
 uuid: d3f1dea5-393b-498e-963d-37a4e38068a2
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 17%
+source-wordcount: '96'
+ht-degree: 16%
 
 ---
 
@@ -37,8 +38,8 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Controle la compañía que contiene la imagen con la que desea trabajar. |
-| `*`assetHandle`*` | `xsd:string` | Sí | Gestionar el recurso de imagen. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Gestione a la empresa que contiene la imagen con la que desea trabajar. |
+| `*`assetHandle`*` | `xsd:string` | Sí | Gestionar en el recurso de imagen. |
 
 **Salida (getPhotoshopPathNamesReturn)**
 
