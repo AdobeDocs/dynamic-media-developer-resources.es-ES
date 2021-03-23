@@ -4,12 +4,13 @@ seo-description: La vista Favoritos consiste en una columna de imágenes en mini
 seo-title: Vista Favoritos
 solution: Experience Manager
 title: Vista Favoritos
-topic: Dynamic Media
 uuid: 6b954bec-0678-4970-b83a-c2d8fea06a25
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '304'
 ht-degree: 2%
 
 ---
@@ -27,7 +28,7 @@ El aspecto del contenedor de vista Favoritos se controla con el siguiente select
 .s7ecatalogviewer .s7favoritesview
 ```
 
-La posición y la altura de la vista Favoritos la gestiona la vista; en CSS solo es posible definir la anchura.
+La vista gestiona la posición y el alto de la vista Favoritos; en CSS solo es posible definir la anchura.
 
 **Propiedades CSS de la vista Favoritos**
 
@@ -53,7 +54,7 @@ Ejemplo: para configurar una vista Favoritos de 100 píxeles de ancho con un fon
 }
 ```
 
-El espaciado entre las miniaturas de Favoritos se controla con el siguiente selector de clase CSS:
+El espaciado entre miniaturas de Favoritos se controla con el siguiente selector de clase CSS:
 
 ```
 .s7ecatalogviewer .s7favoritesview .s7thumbcell
@@ -65,7 +66,7 @@ El espaciado entre las miniaturas de Favoritos se controla con el siguiente sele
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> Tamaño del margen vertical alrededor de cada miniatura. El espaciado de la miniatura real es igual a la suma de los márgenes superior e inferior que se configuran para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col2"> <p> El tamaño del margen vertical alrededor de cada miniatura. El espaciado en miniatura real es igual a la suma de los márgenes superior e inferior que se establecen para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -105,9 +106,9 @@ El aspecto de la miniatura individual se controla con el siguiente selector de c
 
 >[!NOTE]
 >
->La miniatura admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes apariencias a distintos estados de miniaturas. En particular, `state="selected"` corresponde a la miniatura seleccionada recientemente por el usuario. `state="default"` corresponde al resto de las miniaturas. Y `state="over"` se utiliza al pasar el ratón por encima.
+>La miniatura admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes aspectos a diferentes estados de miniaturas. En concreto, `state="selected"` corresponde a la miniatura seleccionada recientemente por el usuario. `state="default"` corresponde al resto de las miniaturas. Y `state="over"` se utiliza al pasar el ratón por encima.
 
-Ejemplo: para configurar miniaturas de 75 x 75 píxeles, tenga un borde predeterminado de gris claro y un borde seleccionado de color gris oscuro.
+Por ejemplo: para configurar miniaturas de 75 x 75 píxeles, tenga un borde predeterminado de gris claro y un borde seleccionado de gris oscuro.
 
 ```
 .s7ecatalogviewer .s7favoritesview .s7thumb { 
@@ -134,7 +135,7 @@ El aspecto de la etiqueta de miniatura se controla con el siguiente selector de 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
-   <td colname="col2"> <p>Nombre de fuente. </p> </td> 
+   <td colname="col2"> <p>Nombre de la fuente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
