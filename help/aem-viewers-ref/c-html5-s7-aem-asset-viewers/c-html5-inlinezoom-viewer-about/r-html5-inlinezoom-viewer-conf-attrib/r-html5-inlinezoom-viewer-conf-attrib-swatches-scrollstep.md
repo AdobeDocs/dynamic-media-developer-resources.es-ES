@@ -2,20 +2,21 @@
 description: Swatches.scrollstep
 solution: Experience Manager
 title: Swatches.scrollstep
-topic: Dynamic Media
 uuid: 0228e690-191a-4fcf-8d9e-8a51283314ea
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom en línea
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '32'
-ht-degree: 12%
+source-wordcount: '43'
+ht-degree: 9%
 
 ---
 
 
 # Swatches.scrollstep{#swatches-scrollstep}
 
-` [Swatches.|<containerId>_swatches.]scrollstep= *``*, *`hStepvStep`*`
+` [Swatches.|<containerId>_swatches.]scrollstep= *``*, *`Paso de paso`*`
 
 <table id="table_DC890B3CAB6847318081AC74424147B9"> 
  <tbody> 
@@ -30,7 +31,7 @@ ht-degree: 12%
  </tbody> 
 </table>
 
-Especifica el número de muestras que se desplazarán por cada clic o toque del botón de desplazamiento correspondiente.
+Especifica el número de muestras que se desplazarán para cada clic o toque del botón de desplazamiento correspondiente.
 
 ## Propiedades {#section-e6310c8c4e8547689a5b48ceddb3671d}
 
