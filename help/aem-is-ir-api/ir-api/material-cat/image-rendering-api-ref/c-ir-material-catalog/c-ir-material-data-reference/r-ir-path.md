@@ -1,15 +1,16 @@
 ---
-description: Ruta del archivo de imagen. Ruta de acceso relativa y nombre de un archivo de imagen de textura o de calcomanía.
-seo-description: Ruta del archivo de imagen. Ruta de acceso relativa y nombre de un archivo de imagen de textura o de calcomanía.
+description: Ruta del archivo de imagen. Ruta relativa y nombre de un archivo de imagen de textura o calco.
+seo-description: Ruta del archivo de imagen. Ruta relativa y nombre de un archivo de imagen de textura o calco.
 seo-title: Ruta *
 solution: Experience Manager
 title: Ruta *
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9e85a358-3f2f-4b8b-a98f-03de2a1a8a4c
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '231'
 ht-degree: 3%
 
 ---
@@ -17,23 +18,23 @@ ht-degree: 3%
 
 # Ruta *{#path}
 
-Ruta del archivo de imagen. Ruta de acceso relativa y nombre de un archivo de imagen de textura o de calcomanía.
+Ruta del archivo de imagen. Ruta relativa y nombre de un archivo de imagen de textura o calco.
 
-El servidor combina este valor con `attribute::RootPath` para crear la ruta de acceso real del archivo de imagen. También puede ser un camino absoluto.
+El servidor combina este valor con `attribute::RootPath` para crear la ruta real del archivo de imagen. También puede ser un camino absoluto.
 
-Se utiliza para especificar el archivo de imagen de textura para los materiales de textura, gabinete y revestimiento de ventanas, y el archivo de imagen RGB o RGBA para los materiales de borde de la pared y el calado. No todos los materiales de revestimiento de gabinete y ventana requieren una imagen de textura repetible independiente.
+Se utiliza para especificar el archivo de imagen de textura para materiales de textura, gabinete y cubierta de ventanas, y el archivo de imagen RGB o RGBA para materiales de borde de calado y pared. No todos los materiales de revestimiento del gabinete y las ventanas requieren una imagen de textura repetible independiente.
 
 ## Propiedades {#section-8c12ea24f21d4472be677581893e6681}
 
-Cadena de texto. Necesario para los materiales de textura y calado, opcional para los materiales de revestimiento de vitrinas y carcasas. Si se especifica, debe ser una ruta de archivo absoluta o relativa válida. Debe estar vacío para materiales de color sólido.
+Cadena de texto. Necesario para materiales de textura y calzado, optativo para materiales de revestimiento de cartón y ventanilla. Si se especifica, debe ser una ruta de archivo absoluta o relativa válida. Debe estar vacío para materiales de color sólido.
 
-## Formatos de archivo admitidos {#section-7ef6c9f7c72c4f03ae926d030b6c46d8}
+## Formatos de archivo compatibles {#section-7ef6c9f7c72c4f03ae926d030b6c46d8}
 
-El procesamiento de imágenes admite los mismos formatos de imagen de origen que el servicio de imágenes de Dynamic Media.
+La representación de imágenes admite los mismos formatos de imagen de origen que Dynamic Media Image Serving.
 
-Las aplicaciones que requieren datos de imagen en varias resoluciones diferentes funcionarán mejor al utilizar el formato de varias resoluciones TIFF (PTIFF) piramidal de Dynamic Media. El servicio de imágenes incluye la utilidad Image Converter (IC) que crea imágenes PTIFF desde cualquier formato admitido.
+Las aplicaciones que requieran datos de imagen en varias resoluciones diferentes tendrán un mejor rendimiento al usar el formato de varias resoluciones TIFF (PTIFF) piramidal de Dynamic Media. Image Serving incluye la utilidad Image Converter (IC) que crea imágenes PTIFF a partir de cualquier formato admitido.
 
-Consulte la descripción de la utilidad IC en la documentación del servicio de imágenes para obtener una lista completa de los formatos de archivo admitidos.
+Consulte la descripción de la utilidad IC en la documentación de Image Serving para obtener una lista completa de los formatos de archivo admitidos.
 
 ## Predeterminado {#section-d2e91fcd7d3c45edb34e7d5ae1daadda}
 
