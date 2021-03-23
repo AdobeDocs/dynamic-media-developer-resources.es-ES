@@ -4,13 +4,14 @@ seo-description: Coordenadas de ubicación de imagen devueltas por la operación
 seo-title: PerspectiveQuad
 solution: Experience Manager
 title: PerspectiveQuad
-topic: Dynamic Media Image Production System API
 uuid: e83b7b8c-995b-4ac0-ace5-491f7e98674d
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 17%
+source-wordcount: '88'
+ht-degree: 15%
 
 ---
 
@@ -27,7 +28,7 @@ Sintaxis
 |---|---|---|
 | `*`x0`*` | `xsd:double` | Coordenada del eje x superior izquierdo. |
 | `*`y0`*` | `xsd:double` | Coordenada superior izquierda del eje Y. |
-| `*`x1`*` | `xsd:double` | Coordenada superior derecha del eje x. |
+| `*`x1`*` | `xsd:double` | Coordenada del eje x superior derecho. |
 | `*`y1`*` | `xsd:double` | Coordenada superior derecha del eje Y. |
 | `*`x2`*` | `xsd:double` | Coordenada del eje x inferior derecho. |
 | `*`y2`*` | `xsd:double` | Coordenada inferior derecha del eje Y. |
