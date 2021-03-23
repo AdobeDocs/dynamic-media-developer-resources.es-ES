@@ -4,12 +4,13 @@ seo-description: Establezca el margen de medios. Establece el margen de medios d
 seo-title: mediaMargin
 solution: Experience Manager
 title: mediaMargin
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e72f4791-d5c7-4b4d-90dd-39b478640abd
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '80'
 ht-degree: 0%
 
 ---
@@ -21,4 +22,4 @@ Establezca el margen de medios. Establece el margen de medios definido en el arc
 
 ` mediaMargin=[ *[!DNL top]*[, *[!DNL left]*= *[!DNL top]*[, *[!DNL bottom]*= *[!DNL top]*[, *[!DNL right]*= *[!DNL left]*]]]]` en puntos
 
-De forma predeterminada, `mediaMargin` se establece en el tamaño completo del documento definido por `viewWidth` y `viewHeight`. Los valores *[!DNL left]*, *[!DNL bottom]* y *[!DNL right]* tienen el valor predeterminado *[!DNL top]* si no se especifican.
+De forma predeterminada, el `mediaMargin` se establece en el tamaño completo del documento definido por `viewWidth` y `viewHeight`. Los valores *[!DNL left]*, *[!DNL bottom]* y *[!DNL right]* se asignan de forma predeterminada al valor *[!DNL top]* si no se especifica.
