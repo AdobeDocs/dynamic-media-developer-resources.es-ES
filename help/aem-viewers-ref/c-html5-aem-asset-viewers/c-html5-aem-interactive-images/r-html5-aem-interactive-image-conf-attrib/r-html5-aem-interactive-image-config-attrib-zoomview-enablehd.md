@@ -2,13 +2,14 @@
 description: ZoomView.enableHD
 solution: Experience Manager
 title: ZoomView.enableHD
-topic: Dynamic Media
 uuid: 5badee0b-3bbc-4306-bc60-a606775db2bd
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Imágenes interactivas
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 7%
+source-wordcount: '87'
+ht-degree: 6%
 
 ---
 
@@ -20,12 +21,12 @@ ht-degree: 7%
 <table id="table_0BEA0B5FFDF64E5594B534B2A87A6D88"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> siempre|nunca|límite</span> </p> </td> 
-   <td colname="col2"> <p> Habilitar, limitar o deshabilitar la optimización para dispositivos donde <span class="codeph"> devicePixelRatio</span> es bueno que <span class="codeph"> 1</span>. Afecta a dispositivos con pantalla de alta densidad como iPhone4 y dispositivos similares. Si está activo, el componente limita el tamaño de la solicitud de imagen IS como si el dispositivo tuviera una proporción de píxeles de <span class="codeph"> 1</span>, reduciendo así el ancho de banda. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> always|never|limit</span> </p> </td> 
+   <td colname="col2"> <p> Habilite, limite o deshabilite la optimización para dispositivos en los que <span class="codeph"> devicePixelRatio</span> sea bueno que <span class="codeph"> 1</span>. Afecta a dispositivos con una pantalla de alta densidad como iPhone4 y dispositivos similares. Si está activo, el componente limita el tamaño de la solicitud de imagen IS como si el dispositivo tuviera una relación de píxeles de <span class="codeph"> 1</span>, reduciendo así el ancho de banda. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> número</span></span> </p> </td> 
-   <td colname="col2"> <p> Si se utiliza la configuración de límite, el componente solo habilita la densidad de píxeles altos hasta el límite especificado. </p> </td> 
+   <td colname="col2"> <p> Si se utiliza la configuración de límite, el componente permite una alta densidad de píxeles sólo hasta el límite especificado. </p> </td> 
   </tr> 
  </tbody> 
 </table>
