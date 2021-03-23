@@ -1,23 +1,24 @@
 ---
-description: Nombre de fuente. El nombre de la fuente, tal como se especifica en el comando RTF \fonttbl.
-seo-description: Nombre de fuente. El nombre de la fuente, tal como se especifica en el comando RTF \fonttbl.
+description: Nombre de la fuente. El nombre de la fuente, exactamente como se especifica en el comando RTF \fonttbl.
+seo-description: Nombre de la fuente. El nombre de la fuente, exactamente como se especifica en el comando RTF \fonttbl.
 seo-title: Nombre
 solution: Experience Manager
 title: Nombre
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 937d2d73-5e6d-4276-a4f9-892af97a2b86
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 9%
+source-wordcount: '103'
+ht-degree: 8%
 
 ---
 
 
 # Nombre{#name}
 
-Nombre de fuente. El nombre de la fuente, tal como se especifica en el comando RTF \fonttbl.
+Nombre de la fuente. El nombre de la fuente, exactamente como se especifica en el comando RTF \fonttbl.
 
 ## Propiedades {#section-49d39cc6ec2b46c7a14e464dbe352f6a}
 
@@ -29,5 +30,5 @@ Ninguno.
 
 ## Véase también {#section-4c657d025f2a4407b9cb914217a8e64a}
 
-* [font::Bold](r-bold-font.md#reference_F7B017EF67574A29ABFC3954AB64159C)
-* [font::Italic](r-italic-font.md#reference_DC04A532B34A41AF81B0B9644ACFAAD6)
+* [fuente::Bold](r-bold-font.md#reference_F7B017EF67574A29ABFC3954AB64159C)
+* [fuente::Cursiva](r-italic-font.md#reference_DC04A532B34A41AF81B0B9644ACFAAD6)
