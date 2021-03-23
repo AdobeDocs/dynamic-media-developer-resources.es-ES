@@ -2,13 +2,14 @@
 description: Swatches.direction
 solution: Experience Manager
 title: Swatches.direction
-topic: Dynamic Media
 uuid: 56190b1e-c69a-4296-8e91-adbce0801401
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 7%
+source-wordcount: '69'
+ht-degree: 5%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> auto|left|right  </span> </p> </td> 
-   <td> <p> Especifica la forma en que las muestras rellenan la vista. </p> <p> <span class="codeph"> left  </span> establece el orden de relleno de izquierda a derecha; </p> <p> <span class="codeph"> right  </span> invierte el orden para que la vista se rellene de derecha a izquierda y de arriba a abajo. </p> <p>Cuando <span class="codeph"> auto </span> está establecido, el componente aplica el modo <span class="codeph"> derecho </span> cuando la configuración regional está configurada en <span class="codeph"> ja </span>; de lo contrario, se utiliza left. </p> </td> 
+   <td> <p> Especifica la forma en que las muestras rellenan la vista. </p> <p> <span class="codeph"> establece el  </span> orden de relleno de izquierda a derecha; </p> <p> <span class="codeph"> a la derecha  </span> invierte el orden para que la vista se rellene de derecha a izquierda y de arriba a abajo. </p> <p>Cuando se configura <span class="codeph"> auto </span>, el componente aplica el modo <span class="codeph"> derecho </span> cuando la configuración regional se establece en <span class="codeph"> ja </span>; de lo contrario, se usa left . </p> </td> 
   </tr> 
  </tbody> 
 </table>
