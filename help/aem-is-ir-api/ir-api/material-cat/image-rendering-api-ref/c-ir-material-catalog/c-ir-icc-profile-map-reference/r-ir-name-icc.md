@@ -1,23 +1,24 @@
 ---
-description: Nombre de método abreviado de perfil. Un nombre de método abreviado para el perfil de color.
-seo-description: Nombre de método abreviado de perfil. Un nombre de método abreviado para el perfil de color.
+description: Nombre de acceso directo del perfil. Un nombre de método abreviado para el perfil de color.
+seo-description: Nombre de acceso directo del perfil. Un nombre de método abreviado para el perfil de color.
 seo-title: Nombre
 solution: Experience Manager
 title: Nombre
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f293ceb0-65dc-414c-8ff7-21e70f0315a4
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 14%
+source-wordcount: '72'
+ht-degree: 12%
 
 ---
 
 
 # Nombre{#name}
 
-Nombre de método abreviado de perfil. Un nombre de método abreviado para el perfil de color.
+Nombre de acceso directo del perfil. Un nombre de método abreviado para el perfil de color.
 
 ## Propiedades {#section-52a4b91bbfa045c49c9541444fad2027}
 
@@ -29,4 +30,4 @@ Ninguno.
 
 ## Véase también {#section-71e698883b4e49779db0a6856d95fb22}
 
-[attribute::RootId](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootid.md#reference-54b42b7125824be593378c1accb70d5a)
+[atributo::RootId](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootid.md#reference-54b42b7125824be593378c1accb70d5a)
