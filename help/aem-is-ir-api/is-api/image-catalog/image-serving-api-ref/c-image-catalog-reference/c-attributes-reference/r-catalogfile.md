@@ -1,25 +1,26 @@
 ---
 description: Rutas de archivo de datos de imagen. Especifica los archivos que contienen los datos de imagen para este catálogo.
 seo-description: Rutas de archivo de datos de imagen. Especifica los archivos que contienen los datos de imagen para este catálogo.
-seo-title: CatalogFile
+seo-title: ArchivoCatálogo
 solution: Experience Manager
-title: CatalogFile
-topic: Dynamic Media Image Serving - Image Rendering API
+title: ArchivoCatálogo
 uuid: 3599c8d3-dc4b-434e-8b11-775ea6f155ee
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 4%
+source-wordcount: '132'
+ht-degree: 3%
 
 ---
 
 
-# CatalogFile{#catalogfile}
+# ArchivoCatálogo{#catalogfile}
 
 Rutas de archivo de datos de imagen. Especifica los archivos que contienen los datos de imagen para este catálogo.
 
-Los archivos de datos de imagen se cargan en el orden especificado. Si el mismo valor `catalog::Id` se produce en más de un registro (ya sea en el mismo archivo de catálogo o en diferentes archivos), prevalecerá la última instancia.
+Los archivos de datos de imagen se cargan en el orden especificado. Si el mismo valor `catalog::Id` se produce en más de un registro (ya sea en los mismos archivos de catálogo o en diferentes archivos), prevalecerá la última instancia.
 
 ## Propiedades {#section-6da55f145ecd4e31a5de52637a436983}
 
@@ -27,7 +28,7 @@ Uno o más valores de cadena de texto, separados por comas. Opcional. Cada valor
 
 ## Predeterminado {#section-80f91cd7a6b2479ebb310319e9c74da7}
 
-Vacío, que indica que este catálogo de imágenes no incluye datos de imagen.
+Vacío, lo que indica que este catálogo de imágenes no incluye datos de imágenes.
 
 ## Véase también {#section-910b67c5041d44d99a105ad43ff63a37}
 
