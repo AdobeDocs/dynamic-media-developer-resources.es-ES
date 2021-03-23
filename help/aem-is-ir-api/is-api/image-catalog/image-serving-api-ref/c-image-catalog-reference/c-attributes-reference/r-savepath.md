@@ -1,15 +1,16 @@
 ---
-description: Ruta raíz para saveToFile=. Ruta relativa de la carpeta raíz en la que se deben escribir las imágenes generadas con req=saveToFile.
-seo-description: Ruta raíz para saveToFile=. Ruta relativa de la carpeta raíz en la que se deben escribir las imágenes generadas con req=saveToFile.
+description: Ruta raíz para saveToFile=. Ruta relativa para la carpeta raíz en la que se deben escribir las imágenes generadas con req=saveToFile.
+seo-description: Ruta raíz para saveToFile=. Ruta relativa para la carpeta raíz en la que se deben escribir las imágenes generadas con req=saveToFile.
 seo-title: SavePath
 solution: Experience Manager
 title: SavePath
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 02b88e83-7fee-40d4-95ea-daba9a608e8e
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '118'
 ht-degree: 3%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 3%
 
 # SavePath{#savepath}
 
-Ruta raíz para saveToFile=. Ruta relativa de la carpeta raíz en la que se deben escribir las imágenes generadas con req=saveToFile.
+Ruta raíz para saveToFile=. Ruta relativa para la carpeta raíz en la que se deben escribir las imágenes generadas con req=saveToFile.
 
 `SavePath` es un valor de cadena de texto.
 
 ## Propiedades {#section-343d1371e966491c92854a8df14c3c50}
 
-Cadena de texto. Debe estar vacía o tener una ruta de acceso de carpeta relativa válida. Siempre se combina con la ruta raíz absoluta configurada con `ImageServer::SaveDirectory`.
+Cadena de texto. Debe estar vacío o tener una ruta de carpeta relativa válida. Siempre se combina con la ruta raíz absoluta configurada con `ImageServer::SaveDirectory`.
 
 ## Predeterminado {#section-ae751eea97654f399c6aaee3f3252cbb}
 
