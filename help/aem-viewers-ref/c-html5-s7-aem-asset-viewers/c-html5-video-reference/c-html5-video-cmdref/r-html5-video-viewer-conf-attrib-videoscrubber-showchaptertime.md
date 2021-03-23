@@ -1,23 +1,24 @@
 ---
-description: Atributo de configuración para el visor de vídeo.
-seo-description: Atributo de configuración para el visor de vídeo.
+description: Atributo de configuración para el visualizador de vídeo.
+seo-description: Atributo de configuración para el visualizador de vídeo.
 seo-title: VideoScrubber.showchaptertime
 solution: Experience Manager
 title: VideoScrubber.showchaptertime
-topic: Dynamic Media
 uuid: c8ad75e4-d2db-4d2b-b60f-e1753f30fee2
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 12%
+source-wordcount: '49'
+ht-degree: 10%
 
 ---
 
 
 # VideoScrubber.showchaptertime{#videoscrubber-showchaptertime}
 
-Atributo de configuración para el visor de vídeo.
+Atributo de configuración para el visualizador de vídeo.
 
 `[VideoScrubber.|<containerId>_videoScrubber.]showchaptertime=0|1`
 
