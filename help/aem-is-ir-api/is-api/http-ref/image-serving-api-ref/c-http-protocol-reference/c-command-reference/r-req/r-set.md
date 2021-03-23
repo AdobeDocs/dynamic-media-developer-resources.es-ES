@@ -4,13 +4,14 @@ seo-description: Información del conjunto de medios.
 seo-title: ajustar
 solution: Experience Manager
 title: ajustar
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ebd78249-45ea-47cd-8845-786070f92f21
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 5%
+source-wordcount: '148'
+ht-degree: 4%
 
 ---
 
@@ -28,20 +29,20 @@ req=set[,xml[, *`encoding`*]|{json[&amp;id=*`reqId`*]}]
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> reqId</span> </p></td> 
-  <td class="stentry"> <p>Identificador único de solicitud </p></td> 
+  <td class="stentry"> <p>Identificador de solicitud única </p></td> 
  </tr> 
 </table>
 
-Devuelve información sobre imágenes, vídeos, muestras y varios metadatos asociados con el catálogo::ImageSet para la entrada de catálogo de imágenes especificada en la ruta de URL. Esta respuesta es una estructura jerárquica determinada por el tipo de conjunto proporcionado. Se aplica el formato adecuado cuando se solicita el formato &#39;xml&#39; o &#39;json&#39;.
+Devuelve información sobre imágenes, vídeos, muestras y varios metadatos asociados al catálogo::ImageSet para la entrada de catálogo de imágenes especificada en la ruta URL. Esta respuesta es una estructura jerárquica determinada por el tipo de conjunto proporcionado. Se aplica el formato adecuado cuando se solicita el formato &quot;xml&quot; o &quot;json&quot;.
 
 La respuesta HTTP se puede almacenar en caché con el TTL basado en `catalog::NonImgExpiration`.
 
 >[!NOTE]
 >
->El carácter de dos puntos no está permitido en las solicitudes req=set.
+>No se permite el carácter de dos puntos en las solicitudes req=set.
 
-Las solicitudes que admiten el formato de respuesta JSON le permiten especificar el nombre del controlador de llamada de retorno JS mediante la sintaxis extendida del parámetro `req=`:
+Las solicitudes que admiten el formato de respuesta JSON le permiten especificar el nombre del controlador de llamada de retorno JS mediante la sintaxis extendida del parámetro `req=` :
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` es el nombre del controlador JS presente en la respuesta JSONP. Solo se permiten los caracteres a-z, A-Z y 0-9. Opcional. El valor predeterminado es `s7jsonResponse`.
+`<reqHandler>` es el nombre del controlador JS presente en la respuesta JSONP. Solo se permiten caracteres a-z, A-Z y 0-9. Opcional. El valor predeterminado es `s7jsonResponse`.
