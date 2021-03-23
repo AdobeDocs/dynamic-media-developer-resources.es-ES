@@ -2,12 +2,13 @@
 description: InfoPanelPopup.template
 solution: Experience Manager
 title: InfoPanelPopup.template
-topic: Dynamic Media
 uuid: a7b49f82-9a8b-45f8-b933-9880659770de
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '212'
 ht-degree: 3%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> plantilla</span></span> </p> </td> 
-   <td> <p>Plantilla de contenido en la que se combinan los datos devueltos por el servidor de información. </p> <p>La plantilla de contenido es un XML que sigue a este DTD: </p> <p> <code>&lt;!DOCTYPE&nbsp;info&nbsp;[
+   <td> <p>La plantilla de contenido en la que se combinan los datos devueltos por el servidor de información. </p> <p>La plantilla de contenido es un XML que sigue este DTD: </p> <p> <code>&lt;!DOCTYPE&nbsp;info&nbsp;[
       &lt;!ELEMENT&nbsp;info&nbsp;(var&nbsp;#PCDATA)
       &lt;!ELEMENT&nbsp;var&nbsp;(#PCDATA)&gt;
       &lt;!ATTLIST&nbsp;var&nbsp;
@@ -30,7 +31,7 @@ ht-degree: 3%
       ]&gt;</code> </p> <p>La sintaxis real de la plantilla de contenido es la siguiente: </p> <p> <code>&lt;info&gt;
       &lt;var&nbsp;name='VAR_NAME'&nbsp;rollover='ROLLOVER_KEY'&gt;&lt;!CDATA[&nbsp;VAR_VALUE&nbsp;]&gt;
       &lt;![CDATA[&nbsp;TEMPLATE_CONTENT&nbsp;]&gt;
-      &lt;/info&gt;</code> </p> <p>Es decir, la plantilla debe estar en inicio con el elemento <span class="codeph"> &lt;info&gt;</span> que puede contener elementos <span class="codeph"> &lt;var&gt;</span> predeterminados opcionales. El contenido de la plantilla en sí, <span class="codeph"> TEMPLATE_CONTENT</span> es texto HTML. Además, la plantilla de contenido puede contener nombres de variables entre <span class="codeph"> $</span> caracteres. Estos caracteres se reemplazan con los valores de variable que devuelve el servidor de información o con los predeterminados. </p> <p>Las variables predeterminadas que se definen en la plantilla pueden ser globales (si no se ha establecido el atributo rollover) o específicas de una determinada clave de rollover (si el atributo rollover está presente). </p> <p>Durante el procesamiento de plantillas, las variables específicas para pasar sobre las claves tienen prioridad sobre las variables globales. </p> </td> 
+      &lt;/info&gt;</code> </p> <p>Es decir, la plantilla debe comenzar con el elemento <span class="codeph"> &lt;info&gt;</span> que puede contener elementos <span class="codeph"> &lt;var&gt;</span> predeterminados opcionales. El contenido de la plantilla en sí, <span class="codeph"> TEMPLATE_CONTENT</span> es texto HTML. Además, la plantilla de contenido puede contener nombres de variables entre caracteres <span class="codeph"> $</span>. Estos caracteres se sustituyen por los valores de variable que devuelve el servidor de información o por los predeterminados. </p> <p>Las variables predeterminadas que se definen en la plantilla pueden ser globales (si no se ha establecido el atributo rollover) o específicas de una clave de sustitución determinada (si el atributo rollover está presente). </p> <p>Durante el procesamiento de plantillas, las variables específicas para pasar sobre claves tienen prioridad sobre las variables globales. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,6 +50,6 @@ Ninguno.
 
 ## Ejemplo {#section-16d184665c484964af9a22f79ff3f840}
 
-Suponiendo que la respuesta del servidor de información devuelve el nombre del producto como variable `$1$` y que la dirección URL de la imagen del producto se devuelve como variable `$2$`.
+Suponiendo que la respuesta del servidor de información devuelva el nombre del producto como variable `$1$` y que la URL de imagen del producto sea devuelta como variable `$2$`.
 
 `template=<info><![CDATA[Product description:$1$<br>Product image:<img src="$2$">]]></info>`
