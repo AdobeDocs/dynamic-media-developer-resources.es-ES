@@ -1,15 +1,16 @@
 ---
-description: Objeto o contenedor en la jerarquía de carpetas.
-seo-description: Objeto o contenedor en la jerarquía de carpetas.
+description: Un objeto o contenedor en la jerarquía de carpetas.
+seo-description: Un objeto o contenedor en la jerarquía de carpetas.
 seo-title: Recurso
 solution: Experience Manager
 title: Recurso
-topic: Dynamic Media Image Production System API
 uuid: 758ac593-98d8-4366-a723-a06435c7fd3c
+feature: Dynamic Media Classic,SDK/API,Administración de activos
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '454'
 ht-degree: 9%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 9%
 
 # Recurso{#asset}
 
-Objeto o contenedor en la jerarquía de carpetas.
+Un objeto o contenedor en la jerarquía de carpetas.
 
 Sintaxis
 
@@ -53,12 +54,12 @@ Sintaxis
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> CABInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:informaciónGabinete</span> </td> 
-   <td colname="col3"> Propiedades para un tipo de recurso de archivador. </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> archivadorInfo</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:InformaciónGabinete</span> </td> 
+   <td colname="col3"> Propiedades de un tipo de recurso archivador. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> creado</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> created</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
    <td colname="col3"> Fecha y hora en que se cargó el recurso. </td> 
   </tr> 
@@ -100,11 +101,11 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Gestionar en la carpeta principal del recurso. </td> 
+   <td colname="col3"> Gestione en la carpeta principal del recurso. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fontInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> type:fontInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipo:fontInfo</span> </td> 
    <td colname="col3"> Propiedades de un recurso de fuente. </td> 
   </tr> 
   <tr> 
@@ -183,7 +184,7 @@ Sintaxis
    <td colname="col3"> Propiedades de un recurso de configuración de PDF. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> permisos</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> permissions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Frase de código  </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
@@ -205,7 +206,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> proyectos</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Lista de los nombres de los proyectos. </td> 
+   <td colname="col3"> Lista de nombres de proyectos. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> psdInfo</span> </span> </td> 
@@ -218,9 +219,9 @@ Sintaxis
    <td colname="col3"> Establece un indicador para indicar si un recurso debe publicarse o no. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> procesarInformaciónDeEscena</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> renderSceneInfo</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:RenderSceneInfo</span> </td> 
-   <td colname="col3"> Propiedades de un recurso de escena de procesamiento. </td> 
+   <td colname="col3"> Propiedades de un recurso de escena de renderización. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> rtfInfo</span> </span> </td> 
@@ -250,7 +251,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> trashState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Indica si un recurso está en la papelera o activo (consulte "Estado de papelera" para ver los valores). </td> 
+   <td colname="col3"> Indica si un recurso está en la papelera o activo (consulte "Estado de la papelera" para ver los valores). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
@@ -260,7 +261,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> videoCaptionInfo</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:VideoCaptionInfo</span> </td> 
-   <td colname="col3"> <p>Propiedades de un recurso de subtítulos de vídeo. </p> </td> 
+   <td colname="col3"> <p>Propiedades de un recurso de rótulo de vídeo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> videoInfo</span> </span> </td> 
@@ -270,7 +271,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> viewerPresetInfo</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:ViewerPresetInfo</span> </td> 
-   <td colname="col3"> Propiedades de un recurso de ajuste preestablecido de visor. </td> 
+   <td colname="col3"> Propiedades de un recurso preestablecido de visualizador. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> viewerSwfInfo</span> </span> </td> 
@@ -290,7 +291,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> windowCoveringInfo</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:WindowCoveringInfo</span> </td> 
-   <td colname="col3"> Propiedades de una ventana que cubre un recurso. </td> 
+   <td colname="col3"> Propiedades de una ventana que cubre el recurso. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> wordInfo</span> </span> </td> 
