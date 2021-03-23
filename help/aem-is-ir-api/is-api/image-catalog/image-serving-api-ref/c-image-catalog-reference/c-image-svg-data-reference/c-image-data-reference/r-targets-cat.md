@@ -1,15 +1,16 @@
 ---
-description: Zoom de datos de destinatario. Ninguna o más propiedades de destinatario de zoom, que se pueden usar junto con el cliente de visor de zoom.
-seo-description: Zoom de datos de destinatario. Ninguna o más propiedades de destinatario de zoom, que se pueden usar junto con el cliente de visor de zoom.
+description: Ampliar los datos de destino. Ninguna o más propiedades de destino de zoom, que pueden utilizarse junto con el cliente de visor de zoom.
+seo-description: Ampliar los datos de destino. Ninguna o más propiedades de destino de zoom, que pueden utilizarse junto con el cliente de visor de zoom.
 seo-title: Objetivos
 solution: Experience Manager
 title: Objetivos
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ca02483a-9aa0-4b54-b6f0-4fd10d8b2b4c
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '355'
 ht-degree: 2%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 2%
 
 # Objetivos{#targets}
 
-Zoom de datos de destinatario. Ninguna o más propiedades de destinatario de zoom, que se pueden usar junto con el cliente de visor de zoom.
+Ampliar los datos de destino. Ninguna o más propiedades de destino de zoom, que pueden utilizarse junto con el cliente de visor de zoom.
 
-El servidor devuelve el contenido de este campo en respuesta a `req=targets`, después de reemplazar los tokens de terminación de registros &#39; `??`&#39;.
+El servidor devuelve el contenido de este campo como respuesta a `req=targets`, después de reemplazar los tokens de terminador de registros &#39; `??`&#39;.
 
-Se pueden asociar hasta cuatro propiedades con cada destinatario de zoom:
+Se pueden asociar hasta cuatro propiedades con cada destino de zoom:
 
-` Target. *``*.frame= *`numframe`*`
+` Target. *``*.frame= *`Numerframe`*`
 
 ` Target. *``*.rect= *`numérico,top,width,height`*`
 
@@ -34,37 +35,37 @@ Se pueden asociar hasta cuatro propiedades con cada destinatario de zoom:
 <table id="simpletable_4C20157A7A444DEB9959B335CAFBAEC8"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> num  </span> </span> </p> </td> 
-  <td class="stentry"> <p>Número de destinatario de zoom (int); los destinatarios de zoom deben numerarse secuencialmente y consecutivamente, comenzando por 1. </p> </td> 
+  <td class="stentry"> <p>Número de destino de zoom (int); los destinos de zoom deben numerarse secuencialmente y consecutivamente, empezando por 1. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> frame  </span> </span> </p> </td> 
-  <td class="stentry"> <p>Número de página o marco opcional para dirigir un marco o una página específicos de un conjunto de giros o folletos; el valor predeterminado es 0 si no se especifica para el uso del visor de folletos y giros; omitido por el visor de zoom. </p> </td> 
+  <td class="stentry"> <p>Número opcional de cuadro/página para establecer como objetivo un marco/página específico de un conjunto de giros o folletos; el valor predeterminado es 0 si no se especifica para el uso del visor de giros y folletos; ignorado por el visor de zoom. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> izquierda, arriba  </span> </span> </p> </td> 
-  <td class="stentry"> <p>Desplazamiento de píxeles desde la parte superior izquierda de la imagen hasta la parte superior izquierda del rectángulo del destinatario de zoom (int, int); debe ser 0 o bueno. </p> </td> 
+  <td class="stentry"> <p>Desplazamiento de píxeles desde la parte superior izquierda de la imagen hasta la parte superior izquierda del rectángulo de destino del zoom (int, int); debe ser 0 o bueno. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> anchura, altura  </span> </span> </p> </td> 
-  <td class="stentry"> <p>Tamaño de píxel del rectángulo del destinatario de zoom (int, int); debe ser bueno a 0. </p> </td> 
+  <td class="stentry"> <p>Tamaño de píxel del rectángulo de destino del zoom (int, int); debe ser bueno que 0. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> label  </span> </span> </p> </td> 
-  <td class="stentry"> <p>Valor de datos de texto; puede utilizarse como etiqueta de texto para un vínculo de destinatario de zoom. </p> </td> 
+  <td class="stentry"> <p>Valor de datos de texto; puede utilizarse como etiqueta de texto para un vínculo de destino de zoom. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> userData  </span> </span> </p> </td> 
-  <td class="stentry"> <p>Valor de datos de texto; se puede utilizar para pasar información específica del destinatario al cliente, como un valor de SKU o una dirección URL de enlace en caliente. </p> </td> 
+  <td class="stentry"> <p>Valor de datos de texto; se puede usar para pasar al cliente información específica del destino, como un valor SKU o una URL de vínculo activo. </p> </td> 
  </tr> 
 </table>
 
-Destino. *`num`*.rect es necesario para cada destinatario de zoom y debe especificar un rectángulo completo dentro de la imagen. Todas las demás propiedades son opcionales.
+Destino. *`num`*.rect es necesario para cada destino de zoom y debe especificar un rectángulo completamente dentro de la imagen. Todas las demás propiedades son opcionales.
 
-*`label`* y  *`userData`* participar en la localización de cadenas de texto. Consulte [Localización de cadena de texto](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) en la *Referencia del protocolo HTTP* para obtener más información.
+*`label`* y  *`userData`* participar en la localización de cadenas de texto. Consulte [Localización de cadena de texto](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) en *Referencia de protocolo HTTP* para obtener más información.
 
-En el caso de las aplicaciones que involucran los clientes del visor de giros y folletos, los destinatarios de zoom deben definirse en el mismo registro de catálogo que define el conjunto de imágenes. El visor ignora todas las definiciones de destinatario de zoom de los registros de catálogo de los miembros del conjunto de imágenes.
+En el caso de aplicaciones que impliquen clientes de espectadores de giros y folletos, los destinos de zoom deben definirse en el mismo registro de catálogo que define el conjunto de imágenes. El visor ignora cualquier definición de objetivo de zoom en los registros de catálogo de los miembros del conjunto de imágenes.
 
-Los visores de Dynamic Media esperan destinatarios de zoom en las coordenadas de la imagen de resolución completa ya ajustadas por los comandos de `catalog::Modifier`.
+Los visores de Dynamic Media esperan destinos de zoom en las coordenadas de la imagen de resolución completa ya ajustada por los comandos de `catalog::Modifier`.
 
 ## Propiedades {#section-b3f8eba4985f4b00bb935d592fe770f9}
 
@@ -76,4 +77,4 @@ Ninguno.
 
 ## Véase también {#section-83dea73b1dbf4aa1b64b0aae2933e6e1}
 
-[catálogo::ImageSet](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md#reference-4764d347afd64afdaede9a74c7565256) ,  [catálogo::Modificador](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-modifier-cat.md#reference-d2c6884b3a2248fab81a112d27969834),  [req=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md), Localización de cadena  [de texto](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)
+[catálogo::ImageSet](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md#reference-4764d347afd64afdaede9a74c7565256) ,  [catálogo::Modifier](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-modifier-cat.md#reference-d2c6884b3a2248fab81a112d27969834),  [req=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md), localización de cadenas de  [texto](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)
