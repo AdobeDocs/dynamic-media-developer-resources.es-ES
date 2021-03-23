@@ -1,15 +1,16 @@
 ---
-description: Establece la pertenencia a grupos de usuarios que pertenecen a una compañía específica.
-seo-description: Establece la pertenencia a grupos de usuarios que pertenecen a una compañía específica.
+description: Establece la pertenencia a un grupo de usuarios que pertenecen a una empresa específica.
+seo-description: Establece la pertenencia a un grupo de usuarios que pertenecen a una empresa específica.
 seo-title: setGroupMembers
 solution: Experience Manager
 title: setGroupMembers
-topic: Dynamic Media Image Production System API
 uuid: fe6585ef-a4b3-4b3c-95d0-624017650497
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '146'
 ht-degree: 8%
 
 ---
@@ -17,9 +18,9 @@ ht-degree: 8%
 
 # setGroupMembers{#setgroupmembers}
 
-Establece la pertenencia a grupos de usuarios que pertenecen a una compañía específica.
+Establece la pertenencia a un grupo de usuarios que pertenecen a una empresa específica.
 
-La operación genera un error de autenticación si no tiene privilegios para realizar esta operación. Esto también es cierto si alguno de los usuarios de la matriz de control de usuario no pertenece a la compañía especificada en el controlador de compañía.
+La operación genera un error de autenticación si no tiene privilegios para realizar esta operación. Esto también ocurre si alguno de los usuarios de la matriz de administración de usuarios no pertenece a la empresa especificada en el control de la empresa.
 
 ## Tipos de usuarios autorizados {#section-4523594039c24aa29c8d0d5c9c415391}
 
@@ -33,17 +34,17 @@ La operación genera un error de autenticación si no tiene privilegios para rea
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de compañía. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la empresa. |
 | `*`groupHandle`*` | `xsd:string` | Sí | Identificador de grupo. |
-| `*`userHandleArray`*` | `types:HandleArray` | Sí | Matriz de identificadores para usuarios cuya pertenencia a grupos desea establecer. |
+| `*`userHandleArray`*` | `types:HandleArray` | Sí | Matriz de controladores para usuarios cuya pertenencia a un grupo desee establecer. |
 
 **Salida (setGroupMembesReturn)**
 
-La API de IPS no devuelve una respuesta para esta operación.
+La API IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-9c528c3f44a141ce9eaddf634f26c487}
 
-Este ejemplo de código establece la pertenencia a grupos para un solo usuario.
+Este ejemplo de código establece la pertenencia a un grupo para un único usuario.
 
 **Solicitar**
 
