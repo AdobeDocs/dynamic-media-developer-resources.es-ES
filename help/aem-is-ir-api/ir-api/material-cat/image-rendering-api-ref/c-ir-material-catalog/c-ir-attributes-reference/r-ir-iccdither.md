@@ -1,15 +1,16 @@
 ---
-description: Tramado de conversión de color. Especifica si el tramado debe utilizarse para mejorar la calidad perceptual de las conversiones de color cuando no se realiza ninguna selección explícita con icc=.
-seo-description: Tramado de conversión de color. Especifica si el tramado debe utilizarse para mejorar la calidad perceptual de las conversiones de color cuando no se realiza ninguna selección explícita con icc=.
+description: Difuminación de la conversión de color. Especifica si el vaciado debe utilizarse para mejorar la calidad perceptual de las conversiones de color cuando no se realiza ninguna selección explícita con icc=.
+seo-description: Difuminación de la conversión de color. Especifica si el vaciado debe utilizarse para mejorar la calidad perceptual de las conversiones de color cuando no se realiza ninguna selección explícita con icc=.
 seo-title: IccDither
 solution: Experience Manager
 title: IccDither
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 4ebd1bf8-eed0-4ff1-b8a0-1295d503fb4e
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '111'
 ht-degree: 4%
 
 ---
@@ -17,15 +18,15 @@ ht-degree: 4%
 
 # IccDither{#iccdither}
 
-Tramado de conversión de color. Especifica si el tramado debe utilizarse para mejorar la calidad perceptual de las conversiones de color cuando no se realiza ninguna selección explícita con icc=.
+Difuminación de la conversión de color. Especifica si el vaciado debe utilizarse para mejorar la calidad perceptual de las conversiones de color cuando no se realiza ninguna selección explícita con icc=.
 
 ## Propiedades {#section-646fb48084734c66bf648360f3a5bfd1}
 
-Indicador. Establezca en 0 para deshabilitar o en 1 para habilitar el tramado.
+Indicador. Establézcalo en 0 para deshabilitar o en 1 para habilitar el vaciado.
 
 ## Predeterminado {#section-c9066c361215404d847f4d2c8f1ea3a5}
 
-Se hereda de `default::IccDither` si no está definida o si está vacía.
+Se hereda de `default::IccDither` si no está definido o si está vacío.
 
 ## Véase también {#section-76a376a1bee74670867b4de81fea65aa}
 
