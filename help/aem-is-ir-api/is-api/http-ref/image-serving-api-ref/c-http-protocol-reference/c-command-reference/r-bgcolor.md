@@ -4,12 +4,13 @@ seo-description: Color de fondo de capa. Especifica el color de fondo y la opaci
 seo-title: bgColor
 solution: Experience Manager
 title: bgColor
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: bcbd368f-d200-4b1f-8e9f-bf4d88f14b72
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '143'
 ht-degree: 4%
 
 ---
@@ -32,13 +33,13 @@ Las áreas transparentes y semiopacas dentro del rectángulo delimitador de la c
 
 ## Propiedades {#section-19dfc13e997f4a33889a1df1e4ad50b9}
 
-Atributo de capa. Se aplica a la capa actual o a la capa 0 si `layer=comp`. Omitido por capas de efectos.
+Atributo de capa. Se aplica a la capa actual o a la capa 0 si `layer=comp`. Ignorado por capas de efecto.
 
 *`color`* se supone que existe en el espacio de color de trabajo correspondiente al tipo de píxel de  *`color`*. *`color`* se convierte con precisión si la imagen de la capa final tiene un tipo de píxel diferente.
 
 ## Predeterminado {#section-30cd43f922c04ed9b75875ff7f20c88f}
 
-0,0,0,0 (completamente transparente).
+0,0,0,0 (totalmente transparente).
 
 ## Ejemplo {#section-6e14fcf1d31e432dbdb56b9320904453}
 
@@ -46,4 +47,4 @@ Consulte [color=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-pr
 
 ## Véase también {#section-64b3f153c6d94ab58f46e77324697818}
 
-[color](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md#reference-0fdb264a3aed4bd78451bb55311f6e93),  [color=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md#reference-b044954ec6184253b8831579466b4423),  [mezclarModo=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-blendmode.md#reference-8be10dde1d584429966cb61ac8e7d172),  [opac=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-opac.md#reference-d2269b51aca34599a08d0a46ee5c27e5),  [extender=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac),  [ ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096)  [ ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88)  [rotar=,bgc=, Administración deColor](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-color-management.md#reference-c7e4a72d589145189f7e4bcb6b4544d7)
+[color](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md#reference-0fdb264a3aed4bd78451bb55311f6e93),  [color=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md#reference-b044954ec6184253b8831579466b4423),  [mezclaMode=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-blendmode.md#reference-8be10dde1d584429966cb61ac8e7d172),  [opac=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-opac.md#reference-d2269b51aca34599a08d0a46ee5c27e5),  [extension=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac),  [rotate=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096),  [bgc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88),  [Gestión de color](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-color-management.md#reference-c7e4a72d589145189f7e4bcb6b4544d7)
