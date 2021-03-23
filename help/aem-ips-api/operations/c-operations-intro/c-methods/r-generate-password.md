@@ -4,13 +4,14 @@ seo-description: Genera una nueva contraseña.
 seo-title: generatePassword
 solution: Experience Manager
 title: generatePassword
-topic: Dynamic Media Image Production System API
 uuid: e3367bfc-d437-4a61-83e8-69830154dc61
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 18%
+source-wordcount: '71'
+ht-degree: 16%
 
 ---
 
@@ -39,7 +40,7 @@ Sintaxis
 
 Ninguno.
 
-**Output (generatePasswordParam)**
+**Salida (generatePasswordParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
@@ -47,7 +48,7 @@ Ninguno.
 
 ## Ejemplos {#section-f580fefdccec46fe95359e3aef0ed17f}
 
-Este ejemplo de código genera una contraseña. Es inusual porque la solicitud es simplemente un parámetro sin elementos ni valores incluidos. IPS devuelve una contraseña segura.
+Este ejemplo de código genera una contraseña. Es inusual porque la solicitud es simplemente un parámetro sin elementos ni valores adjuntos. IPS devuelve una contraseña segura.
 
 **Solicitar**
 
