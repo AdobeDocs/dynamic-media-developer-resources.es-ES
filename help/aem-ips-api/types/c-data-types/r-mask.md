@@ -1,23 +1,24 @@
 ---
-description: Máscaras parte de una imagen. La máscara siempre está asociada a la imagen. Obtener una máscara de ImageInfo.
-seo-description: Máscaras parte de una imagen. La máscara siempre está asociada a la imagen. Obtener una máscara de ImageInfo.
+description: Enmascara parte de una imagen. La máscara siempre está asociada a la imagen. Obtenga una máscara de ImageInfo.
+seo-description: Enmascara parte de una imagen. La máscara siempre está asociada a la imagen. Obtenga una máscara de ImageInfo.
 seo-title: Máscara
 solution: Experience Manager
 title: Máscara
-topic: Dynamic Media Image Production System API
 uuid: 06ac0f76-13ce-434b-ac60-6a2af9648f92
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 12%
+source-wordcount: '96'
+ht-degree: 11%
 
 ---
 
 
 # Máscara{#mask}
 
-Máscaras parte de una imagen. La máscara siempre está asociada a la imagen. Obtener una máscara de ImageInfo.
+Enmascara parte de una imagen. La máscara siempre está asociada a la imagen. Obtenga una máscara de ImageInfo.
 
 Sintaxis
 
@@ -25,7 +26,7 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| `*`maskHandle`*` | `xsd:string` | Control de máscara. |
+| `*`maskHandle`*` | `xsd:string` | Mango de la máscara. |
 | `*`name`*` | `xsd:string` | Nombre de la máscara. |
 | `*`maskPath`*` | `xsd:string` | Ruta relativa a la máscara. |
 | `*`maskFile`*` | `xsd:string` | Archivo de máscara. |
