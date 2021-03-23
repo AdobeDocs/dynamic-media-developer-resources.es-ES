@@ -4,12 +4,13 @@ seo-description: El área de vista principal es el área ocupada por las muestra
 seo-title: Área del visor principal
 solution: Experience Manager
 title: Área del visor principal
-topic: Dynamic Media
 uuid: 3e04c578-dcb2-4034-8809-dc949be80097
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '159'
 ht-degree: 2%
 
 ---
@@ -21,7 +22,7 @@ El área de vista principal es el área ocupada por las muestras interactivas. N
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propiedades CSS del área del visor principal**
+**Propiedades CSS del área principal del visor**
 
 El aspecto del área de visualización se controla con el siguiente selector de clase CSS:
 
