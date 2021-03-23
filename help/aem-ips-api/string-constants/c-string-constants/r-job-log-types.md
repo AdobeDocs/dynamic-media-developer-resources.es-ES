@@ -1,16 +1,17 @@
 ---
 description: Utilizado por JobLogDetail/logType y JobLog/logType.
 seo-description: Utilizado por JobLogDetail/logType y JobLog/logType.
-seo-title: Tipos de registro de trabajos
+seo-title: Tipos de registro de trabajo
 solution: Experience Manager
-title: Tipos de registro de trabajos
-topic: Dynamic Media Image Production System API
+title: Tipos de registro de trabajo
 uuid: 2d8936c8-076b-431e-bcea-24c5aae0faee
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '32'
-ht-degree: 6%
+source-wordcount: '39'
+ht-degree: 5%
 
 ---
 
