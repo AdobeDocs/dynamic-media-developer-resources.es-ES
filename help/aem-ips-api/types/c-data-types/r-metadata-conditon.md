@@ -1,15 +1,16 @@
 ---
-description: Añade un término de búsqueda para utilizarlo con searchAssets.
-seo-description: Añade un término de búsqueda para utilizarlo con searchAssets.
+description: Agrega un término de búsqueda para utilizarlo con searchAssets.
+seo-description: Agrega un término de búsqueda para utilizarlo con searchAssets.
 seo-title: MetadataCondition
 solution: Experience Manager
 title: MetadataCondition
-topic: Dynamic Media Image Production System API
 uuid: 9d65b8ce-86a5-4730-af84-a87134fd7db6
+feature: Dynamic Media Classic,SDK/API,Metadatos
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '191'
 ht-degree: 10%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 10%
 
 # MetadataCondition{#metadatacondition}
 
-Añade un término de búsqueda para utilizarlo con searchAssets.
+Agrega un término de búsqueda para utilizarlo con searchAssets.
 
 Sintaxis
 
@@ -55,47 +56,47 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> longVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> Valor de comparación largo (solo para campos interescritos). </td> 
+   <td colname="col3"> Valor de comparación largo (solo para campos con tipo int). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> minLong</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> Valor largo mínimo en la comparación de rango (solo para campos interescritos). </td> 
+   <td colname="col3"> Valor mínimo largo en comparación de rango (solo para campos con tipo int). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> maxLong</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> Valor máximo largo en la comparación de rango (solo para campos interescritos). </td> 
+   <td colname="col3"> Valor máximo largo en comparación de rango (solo para campos con tipo int). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> doubleVal</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:doble</span> </td> 
-   <td colname="col3"> Valor de comparación de dobles (solo para campos con tipo flotante). </td> 
+   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
+   <td colname="col3"> Valor de comparación doble (solo para campos con tipo flotante). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> minDouble</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:doble</span> </td> 
-   <td colname="col3"> Valor de doble mínimo en la comparación de rango (solo para campos con tipo flotante). </td> 
+   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
+   <td colname="col3"> Valor mínimo doble en comparación de rango (solo para campos con tipo flotante). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> maxDouble</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:doble</span> </td> 
-   <td colname="col3"> Valor máximo de doble en comparación de rango (solo para campos con tipo flotante). </td> 
+   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
+   <td colname="col3"> Valor máximo doble en comparación de rango (solo para campos con tipo flotante). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> dateVale</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> Valor de comparación de fecha (solo para campos con fecha y fecha escritas). </td> 
+   <td colname="col3"> Valor de comparación de fecha (solo para campos con fecha y tipo). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> minDate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> Valor de fecha mínimo en la comparación de intervalos (solo para campos con fecha escrita). </td> 
+   <td colname="col3"> Valor de fecha mínimo en la comparación de intervalos (solo para campos con fecha y escritura). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> maxDate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> Valor de fecha máximo en la comparación de intervalo (solo para campos con fecha escrita). </td> 
+   <td colname="col3"> Valor máximo de fecha en comparación de intervalo (solo para campos con fecha y escritura). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> caseSensitive</span> </span> </td> 
