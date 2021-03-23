@@ -4,12 +4,13 @@ seo-description: Los atributos y campos del catálogo pueden contener datos de u
 seo-title: Tipos de datos comunes
 solution: Experience Manager
 title: Tipos de datos comunes
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b36cf09d-dee2-4e8b-9500-e8fa4c5c112f
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '181'
 ht-degree: 1%
 
 ---
@@ -21,7 +22,7 @@ Los atributos y campos del catálogo pueden contener datos de uno de los siguien
 
 **Color**
 
-Valor de color. Valor RGB hexadecimal y empaquetado, opcionalmente precedido por 0x. Por ejemplo, el valor RGB `128,255,0` se puede especificar como `0x80ff00` o `80ff00`.
+Valor de color. Valor RGB hexadecimal empaquetado, opcionalmente precedido de 0x. Por ejemplo, el valor RGB `128,255,0` se puede especificar como `0x80ff00` o `80ff00`.
 
 **Indicador**
 
@@ -29,16 +30,16 @@ Valor de color. Valor RGB hexadecimal y empaquetado, opcionalmente precedido por
 
 **Enum**
 
-0 indica un valor desconocido o no especificado, igual que un campo vacío. Los valores válidos `enum` son números enteros consecutivos, comenzando por 1.
+0 indica un valor desconocido o no especificado, igual que un campo vacío. Los valores válidos `enum` son números enteros consecutivos, que comienzan por 1.
 
 **Número entero**
 
-Valor entero firmado (por ejemplo: 0, -12, 34). 0 o valores negativos pueden tener un significado especial.
+Valor entero firmado (por ejemplo, 0, -12, 34). 0 o los valores negativos pueden tener un significado especial.
 
 **Número real**
 
-Valor de coma flotante firmado (p. ej. `0, 12.5, 245 , -2.34e4`). 0 o valores negativos pueden tener un significado especial.
+Valor de coma flotante firmado (p. ej. `0, 12.5, 245 , -2.34e4`). 0 o los valores negativos pueden tener un significado especial.
 
 **Cadena de texto**
 
-Los delimitadores de cadena son opcionales, a menos que la cadena contenga caracteres `<CR>`, `<LF>` o `<TAB>`. Las comillas simples y las comillas de doble pueden utilizarse como delimitadores. Si se utilizan comillas, las comillas de este tipo incrustadas dentro de la cadena deben separarse mediante dos comillas consecutivas (p. ej. &#39; `This month''s Special`&#39;).
+Los delimitadores de cadena son opcionales, a menos que la cadena contenga caracteres `<CR>`, `<LF>` o `<TAB>`. Las comillas simples y dobles pueden utilizarse como delimitadores. Si se utilizan comillas, cualquier comillas de este tipo incrustadas en la cadena debe omitirse utilizando dos comillas consecutivas (por ejemplo, &#39; `This month''s Special`&#39;).
