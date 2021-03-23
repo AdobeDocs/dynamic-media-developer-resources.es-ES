@@ -4,12 +4,13 @@ seo-description: Crea un conjunto de imágenes.
 seo-title: createImageSet
 solution: Experience Manager
 title: createImageSet
-topic: Dynamic Media Image Production System API
 uuid: 688f3954-bc8f-4687-8d66-e064561cd4a0
+feature: Dynamic Media Classic,SDK/API,Conjuntos de imágenes
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '150'
 ht-degree: 14%
 
 ---
@@ -40,21 +41,21 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía a la que pertenece el conjunto de imágenes. |
-| `*`folderHandle`*` | `xsd:string` | Sí | Identificador de la carpeta. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la empresa a la que pertenece el conjunto de imágenes. |
+| `*`folderHandle`*` | `xsd:string` | Sí | El identificador de la carpeta. |
 | `*`name`*` | `xsd:string` | Sí | Nombre del conjunto de imágenes. |
 | `*`type`*` | `xsd:string` | Sí | Tipo de conjunto de imágenes. |
-| `*`thumbAssetHandle`*` | `xsd:string` | No | Control del recurso que actúa como miniatura para el nuevo conjunto de imágenes. Si no se especifica, IPS intenta utilizar el primer recurso de imagen al que hace referencia el conjunto. |
+| `*`thumbAssetHandle`*` | `xsd:string` | No | Control del recurso que actúa como la miniatura del nuevo conjunto de imágenes. Si no se especifica, IPS intenta utilizar el primer recurso de imagen al que hace referencia el conjunto. |
 
 **Salida**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Sí | Identificador del nuevo conjunto de imágenes. |
+| `*`assetHandle`*` | `xsd:string` | Sí | El identificador del nuevo conjunto de imágenes. |
 
 ## Ejemplos {#section-385fe3b0af8044b0a2451336ec137fc5}
 
-Este ejemplo de código crea un conjunto de imágenes especificado por compañía, carpeta, nombre y tipo. La respuesta es un controlador de recurso del conjunto de imágenes recién creado.
+Este ejemplo de código crea un conjunto de imágenes especificado por empresa, carpeta, nombre y tipo. La respuesta es un gestor de recursos del conjunto de imágenes recién creado.
 
 **Solicitar**
 
