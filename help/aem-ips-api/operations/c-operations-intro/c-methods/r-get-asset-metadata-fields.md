@@ -1,23 +1,24 @@
 ---
-description: Devuelve todos los campos de metadatos, agrupados por tipo de recurso.
-seo-description: Devuelve todos los campos de metadatos, agrupados por tipo de recurso.
+description: Devuelve todos los campos de metadatos agrupados por tipo de recurso.
+seo-description: Devuelve todos los campos de metadatos agrupados por tipo de recurso.
 seo-title: getAssetMetadataFields
 solution: Experience Manager
 title: getAssetMetadataFields
-topic: Dynamic Media Image Production System API
 uuid: 01d5076f-f187-4069-b2f2-806fb1d8be84
+feature: Dynamic Media Classic,SDK/API,Metadatos,Administración de activos
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 20%
+source-wordcount: '82'
+ht-degree: 18%
 
 ---
 
 
 # getAssetMetadataFields{#getassetmetadatafields}
 
-Devuelve todos los campos de metadatos, agrupados por tipo de recurso.
+Devuelve todos los campos de metadatos agrupados por tipo de recurso.
 
 Sintaxis
 
@@ -37,7 +38,7 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la compañía cuyos metadatos desea recuperar. |
+| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la empresa cuyos metadatos desea recuperar. |
 
 **Salida (getAssetMetadataFieldsReturn)**
 
