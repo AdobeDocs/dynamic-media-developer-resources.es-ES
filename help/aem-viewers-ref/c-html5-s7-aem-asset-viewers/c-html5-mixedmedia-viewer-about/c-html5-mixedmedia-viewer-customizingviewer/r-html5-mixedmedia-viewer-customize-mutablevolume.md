@@ -1,15 +1,16 @@
 ---
 description: El control de volumen mutable aparece inicialmente como un botón que permite al usuario silenciar o anular el silencio del sonido del reproductor de vídeo.
 seo-description: El control de volumen mutable aparece inicialmente como un botón que permite al usuario silenciar o anular el silencio del sonido del reproductor de vídeo.
-seo-title: Volumen mutable
+seo-title: Volumen silenciable
 solution: Experience Manager
-title: Volumen mutable
-topic: Dynamic Media
+title: Volumen silenciable
 uuid: 0199c35b-e223-4c5b-8978-9e65554e64e0
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '503'
 ht-degree: 2%
 
 ---
@@ -21,7 +22,7 @@ El control de volumen mutable aparece inicialmente como un botón que permite al
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Cuando un usuario pasa el ratón sobre el botón, aparece un deslizador que permite al usuario configurar el volumen. El control de volumen mutable se puede cambiar de tamaño, de piel y de posición, en relación con la barra de control que lo contiene, mediante CSS.
+Cuando un usuario pasa el ratón por encima del botón, aparece un control deslizante que permite al usuario configurar el volumen. El control de volumen mutable se puede cambiar de tamaño, de aspecto y de posición, en relación con la barra de control que lo contiene, mediante CSS.
 
 El aspecto del área de volumen mutable se controla con el siguiente selector de clase CSS:
 
@@ -69,19 +70,19 @@ Puede controlar la imagen de fondo para cada estado del botón. El tamaño del b
 <table id="table_46903DCACF314426B67783167ADF7715"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p> Imagen que se muestra para un estado de botón determinado. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
+   <td colname="col2"> <p> La imagen mostrada para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
+   <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Este botón admite los selectores de atributos `state` y `selected`, que pueden utilizarse para aplicar diferentes apariencias a diferentes estados de botón. En particular, `selected='true'` corresponde al estado &quot;silenciado&quot; y `selected='false'` corresponde al estado &quot;no silenciado&quot;.
+>Este botón admite los selectores de atributos `state` y `selected`, que pueden utilizarse para aplicar diferentes aspectos a diferentes estados de botones. En concreto, `selected='true'` corresponde al estado &quot;muted&quot; y `selected='false'` corresponde al estado &quot;unmuted&quot;.
 
 El área de la barra de volumen vertical se controla con el siguiente selector de clase CSS:
 
@@ -134,7 +135,7 @@ La pista dentro del control de volumen vertical se controla con los siguientes s
  </tbody> 
 </table>
 
-El control de volumen vertical se controla con el siguiente selector de clase CSS:
+El control del volumen vertical se controla con el siguiente selector de clase CSS:
 
 ```
 .s7mixedmediaviewer .s7mutablevolume .s7verticalvolume .s7knob
@@ -145,16 +146,16 @@ El control de volumen vertical se controla con el siguiente selector de clase CS
 <table id="table_709D64AF815341A5B50ED72CCB350F2E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
    <td colname="col2"> <p> Ilustración del pomo de control de volumen vertical. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
+   <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
-   <td colname="col2"> <p>Ancho del pomo de control vertical del volumen. </p> </td> 
+   <td colname="col2"> <p>Anchura del pomo de control de volumen vertical. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
@@ -162,12 +163,12 @@ El control de volumen vertical se controla con el siguiente selector de clase CS
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> izquierda </span> </p> </td> 
-   <td colname="col2"> <p>Posición horizontal del pomo de control vertical del volumen. </p> </td> 
+   <td colname="col2"> <p>Posición horizontal del pomo de control de volumen vertical. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-La información de objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obtener más información.
+La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obtener más información.
 
 ## Ejemplos {#section-e8caea0a303c425a8a637c2a47c06355}
 
@@ -206,7 +207,7 @@ background-image:url(images/unmute_disabled.png);
 }
 ```
 
-A continuación se muestra un ejemplo de cómo puede aplicar estilo al control deslizante del volumen dentro del control de volumen mutable.
+A continuación se muestra un ejemplo de cómo puede aplicar estilo al control deslizante de volumen dentro del control de volumen mutable.
 
 ```
 .s7mixedmediaviewer .s7mutablevolume .s7verticalvolume { 
