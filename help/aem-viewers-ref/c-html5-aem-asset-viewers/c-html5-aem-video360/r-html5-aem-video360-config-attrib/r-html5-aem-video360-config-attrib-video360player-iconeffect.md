@@ -1,15 +1,16 @@
 ---
-description: Atributo de configuración para el visor de Video360.
-seo-description: Atributo de configuración para el visor de Video360.
+description: Atributo de configuración para el visualizador de vídeo360.
+seo-description: Atributo de configuración para el visualizador de vídeo360.
 seo-title: Video360Player.iconeffect
 solution: Experience Manager
 title: Video360Player.iconeffect
-topic: Dynamic Media
 uuid: a0a2f840-e330-4636-8daf-1cd3f2eddf01
+feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '145'
 ht-degree: 8%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 8%
 
 # Video360Player.iconeffect{#video-player-iconeffect}
 
-Atributo de configuración para el visor de Video360.
+Atributo de configuración para el visualizador de vídeo360.
 
 ` [Video360Player.|<containerId>_video360Player.]iconeffect=0|1[, *``*][, *``*][, *`countfadeautoHide`*]`
 
@@ -25,19 +26,19 @@ Atributo de configuración para el visor de Video360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Habilita la visualización de IconEffect sobre el video cuando el video está en estado de pausa. En algunos dispositivos se utilizan controles nativos. En estos casos, se ignora el modificador <span class="codeph"> iconeffect</span>. </p> </td> 
+   <td colname="col2"> <p> Habilita el IconEffect para que se muestre sobre el video cuando el video está en estado pausado. En algunos dispositivos se utilizan controles nativos. En estos casos, se ignora el modificador <span class="codeph"> iconeffect</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> contar</span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica el número máximo de veces que aparece y vuelve a aparecer IconEffect. Un valor de <span class="codeph"> -1</span> indica que el icono vuelve a aparecer indefinidamente. </p> </td> 
+   <td colname="col2"> <p> Especifica el número máximo de veces que el IconEffect aparece y vuelve a aparecer. Un valor de <span class="codeph"> -1</span> indica que el icono vuelve a aparecer indefinidamente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> fundido</span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica la duración en segundos de mostrar u ocultar la animación. </p> </td> 
+   <td colname="col2"> <p> Especifica la duración en segundos de la animación de mostrar u ocultar. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> autoHide</span></span> </p> </td> 
-   <td colname="col2"> <p> Establece el número de segundos que IconEffect permanece totalmente visible antes de que se oculte automáticamente. Es decir, el tiempo después de que se haya completado la atenuación en la animación y antes de que desaparezcan los inicios de animación. Establezca <span class="codeph"> 0</span> para deshabilitar el comportamiento de ocultación automática. </p> </td> 
+   <td colname="col2"> <p> Establece el número de segundos que IconEffect permanece totalmente visible antes de que se oculte automáticamente. Es decir, el tiempo después de la atenuación en la animación se completa y antes de que comience la animación de atenuación. Establézcalo en <span class="codeph"> 0</span> para deshabilitar el comportamiento de ocultación automática. </p> </td> 
   </tr> 
  </tbody> 
 </table>
