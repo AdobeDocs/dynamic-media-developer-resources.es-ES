@@ -1,15 +1,16 @@
 ---
-description: Imagen de respuesta al error. El procesamiento de imágenes normalmente devuelve un estado de error con un mensaje de texto cuando se produce un error. error de atributoImage permite que se devuelva una imagen en caso de error.
-seo-description: Imagen de respuesta al error. El procesamiento de imágenes normalmente devuelve un estado de error con un mensaje de texto cuando se produce un error. error de atributoImage permite que se devuelva una imagen en caso de error.
+description: Imagen de respuesta de error. El procesamiento de imágenes normalmente devuelve un estado de error con un mensaje de texto cuando se produce un error. atributo ErrorImage permite que la configuración de una imagen se devuelva en caso de error.
+seo-description: Imagen de respuesta de error. El procesamiento de imágenes normalmente devuelve un estado de error con un mensaje de texto cuando se produce un error. atributo ErrorImage permite que la configuración de una imagen se devuelva en caso de error.
 seo-title: ErrorImage *
 solution: Experience Manager
 title: ErrorImage *
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6c8801d0-8cd0-4477-9a60-ccbb343a0747
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '246'
 ht-degree: 1%
 
 ---
@@ -17,9 +18,9 @@ ht-degree: 1%
 
 # ErrorImage *{#errorimage}
 
-Imagen de respuesta al error. El procesamiento de imágenes normalmente devuelve un estado de error con un mensaje de texto cuando se produce un error. attribute::ErrorImage permite que se devuelva una imagen en caso de error.
+Imagen de respuesta de error. El procesamiento de imágenes normalmente devuelve un estado de error con un mensaje de texto cuando se produce un error. attribute::ErrorImage permite devolver una imagen de configuración en caso de error.
 
-Cuando se produce un error, el servidor primero intenta interpretar el valor de `ImageRendering::attribute::ErrorImage`como una ruta de archivo de imagen simple. Si el archivo no se puede abrir, envía el valor del atributo y los detalles del error al servicio de imágenes, que se procesa tal como se describe en `ImageServing::attribute::ErrorImage`. Si el servicio de imágenes no devuelve una imagen de respuesta válida, el estado de error HTTP estándar y el mensaje de texto se envían al cliente.
+Cuando se produce un error, el servidor intenta primero interpretar el valor de `ImageRendering::attribute::ErrorImage`como una ruta de archivo de imagen simple. Si el archivo no se puede abrir, envía el valor del atributo y los detalles de error al servicio de imágenes, que procesa como se describe en `ImageServing::attribute::ErrorImage`. Si Image Serving no devuelve una imagen de respuesta válida, el estado de error HTTP estándar y el mensaje de texto se envían al cliente.
 
 Las imágenes de error se devuelven con el estado HTTP 200.
 
@@ -29,7 +30,7 @@ Cadena de texto. Si se especifica, debe ser un valor **`ImageServing::catalog::i
 
 ## Predeterminado {#section-4c463e369dfb4b43a7b2a3bce9619dd4}
 
-Se hereda de `default::ErrorImage` si no se define. Si está definida pero está vacía, el comportamiento de la imagen de error se desactiva, incluso si se define `default::ErrorImage` y se devuelve un estado de error HTTP.
+Se hereda de `default::ErrorImage` si no se define. Si está definida pero está vacía, el comportamiento de la imagen de error se desactiva, incluso si `default::ErrorImage` está definido y se devuelve un estado de error HTTP.
 
 ## Véase también {#section-3e0308eaf4124451909dacd570e27695}
 
