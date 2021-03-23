@@ -4,12 +4,13 @@ seo-description: Referencia de la API de JavaScript para el visor flotante.
 seo-title: setParam
 solution: Experience Manager
 title: setParam
-topic: Dynamic Media
 uuid: 0c2deb6c-f40f-47e5-a1ef-f5eb5db6ee06
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Flotante
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '97'
 ht-degree: 2%
 
 ---
@@ -33,7 +34,7 @@ Consulte también [init](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-vi
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}  </span> valor del parámetro. El valor no puede estar codificado en porcentaje. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}  </span> valor del parámetro. El valor no puede estar codificado por porcentajes. </p> </td> 
   </tr> 
  </tbody> 
 </table>
