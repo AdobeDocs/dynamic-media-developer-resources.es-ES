@@ -1,50 +1,51 @@
 ---
-description: El SDK de visor proporciona un conjunto de componentes basados en JavaScript para el desarrollo de visores personalizados. Los visores son aplicaciones basadas en la web que permiten incrustar en las páginas web contenido de medios enriquecidos ofrecido por Adobe Dynamic Media.
+description: El SDK de visor proporciona un conjunto de componentes basados en JavaScript para el desarrollo de visores personalizados. Los visores son aplicaciones basadas en la web que permiten incrustar en las páginas web contenido multimedia enriquecido servido por Adobe Dynamic Media.
 solution: Experience Manager
-title: Tutorial del SDK de visor
-topic: Dynamic Media
+title: Tutorial del SDK del visor
+feature: Dynamic Media Classic,Visualizadores,SDK/API
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '974'
 ht-degree: 0%
 
 ---
 
 
-# Tutorial de SDK de visor{#viewer-sdk-tutorial}
+# Tutorial del SDK de visor{#viewer-sdk-tutorial}
 
-El SDK de visor proporciona un conjunto de componentes basados en JavaScript para el desarrollo de visores personalizados. Los visores son aplicaciones basadas en la web que permiten incrustar en las páginas web contenido de medios enriquecidos ofrecido por Adobe Dynamic Media.
+El SDK de visor proporciona un conjunto de componentes basados en JavaScript para el desarrollo de visores personalizados. Los visores son aplicaciones basadas en la web que permiten incrustar en las páginas web contenido multimedia enriquecido servido por Adobe Dynamic Media.
 
-Por ejemplo, el SDK proporciona zoom y panorámica interactivos. También proporciona vista de 360° y reproducción de vídeo de los recursos que se han cargado en Adobe Dynamic Media a través de la aplicación back-end denominada Dynamic Media Classic.
+Por ejemplo, el SDK proporciona zoom y panorámica interactivos. También proporciona una visualización de 360° y reproducción de vídeo de los recursos que se cargaron en Adobe Dynamic Media a través de la aplicación back-end denominada Dynamic Media Classic.
 
-Aunque los componentes dependen de la funcionalidad HTML5, están diseñados para funcionar en dispositivos Android y Apple iOS, así como en equipos de escritorio, incluidos Internet Explorer y versiones posteriores. Este tipo de experiencia significa que puede proporcionar un único flujo de trabajo para todas las plataformas admitidas.
+Aunque los componentes dependen de la funcionalidad HTML5, están diseñados para funcionar con dispositivos Android y Apple iOS y equipos de escritorio, incluido Internet Explorer y posteriores. Este tipo de experiencia significa que puede proporcionar un único flujo de trabajo para todas las plataformas admitidas.
 
-El SDK consta de componentes de interfaz de usuario que componen el contenido del visor. Puede aplicar estilo a estos componentes mediante CSS y componentes que no sean de la interfaz de usuario y que tengan algún tipo de función compatible, como la función de recuperación y análisis o seguimiento de definición de conjunto. Todos los comportamientos de los componentes se pueden personalizar mediante modificadores que se pueden especificar de varias formas, por ejemplo, como pares `name=value` en la dirección URL.
+El SDK consta de componentes de interfaz de usuario que constituyen el contenido del visor. Puede aplicar estilo a estos componentes a través de CSS y de componentes que no sean de interfaz de usuario y que tengan algún tipo de función de apoyo, como la función de recuperación y análisis o el seguimiento de definiciones establecidas. Todos los comportamientos de los componentes se pueden personalizar mediante modificadores que se pueden especificar de varias maneras, por ejemplo, como pares `name=value` en la dirección URL.
 
 Este tutorial incluye el siguiente orden de tareas para ayudarle a crear un visor de zoom básico:
 
 * [Descargar el SDK de visor más reciente de Adobe Developer Connection](c-tutorial.md#section-84dc74c9d8e24a2380b6cf8fc28d7127)
-* [Carga del SDK de visor](c-tutorial.md#section-98596c276faf4cf79ccf558a9f4432c6)
-* [Añadir estilo al visor](c-tutorial.md#section-3783125360a1425eae5a5a334867cc32)
-* [Inclusión de Contenedor y zoomView](c-tutorial.md#section-1a01730663154a508b88cc40c6f35539)
-* [Añadir los componentes MediaSet y Swatches al visor](c-tutorial.md#section-02b8c21dd842400e83eae2a48ec265b7)
-* [Añadir botones al visor](c-tutorial.md#section-1fc334fa0d2b47eb9cdad461725c07be)
+* [Carga del SDK del visor](c-tutorial.md#section-98596c276faf4cf79ccf558a9f4432c6)
+* [Adición de estilo al visor](c-tutorial.md#section-3783125360a1425eae5a5a334867cc32)
+* [Inclusión de Contenedor y ZoomView](c-tutorial.md#section-1a01730663154a508b88cc40c6f35539)
+* [Adición de componentes de MediaSet y Muestras al visor](c-tutorial.md#section-02b8c21dd842400e83eae2a48ec265b7)
+* [Adición de botones al visor](c-tutorial.md#section-1fc334fa0d2b47eb9cdad461725c07be)
 * [Configuración vertical de las muestras](c-tutorial.md#section-91a8829d5b5a4d45a35b7faeb097fcc9)
 
-## Descargue el SDK de visor más reciente de Adobe Developer Connection {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
+## Descargar el último SDK de visor de Adobe Developer Connection {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
 
-1. Descargue el SDK de visor más reciente de Adobe Developer Connection [aquí](https://marketing.adobe.com/developer/devcenter/scene7/show).
+1. Descargue el último SDK de visor de Adobe Developer Connection [aquí](https://marketing.adobe.com/developer/devcenter/scene7/show).
 
    >[!NOTE]
    >
-   >Puede completar este tutorial sin necesidad de descargar el paquete de SDK de visor porque el SDK se carga de forma remota. Sin embargo, el paquete Viewer incluye ejemplos adicionales y una guía de referencia de API que le resultará útil cuando cree sus propios visores.
+   >Puede completar este tutorial sin necesidad de descargar el paquete del SDK de visor porque el SDK se carga de forma remota. Sin embargo, el paquete Visualizador incluye ejemplos adicionales y una guía de referencia de API que le resultará útil cuando cree sus propios visualizadores.
 
 ## Carga del SDK de visor {#section-98596c276faf4cf79ccf558a9f4432c6}
 
-1. Inicio configurando una página nueva para desarrollar el visor de zoom básico que va a crear.
+1. Comience por configurar una nueva página para desarrollar el visor de zoom básico que va a crear.
 
-   Considere este código de arranque (o cargador) para configurar una aplicación SDK vacía. Abra el editor de texto favorito y pegue el siguiente código HTML en él:
+   Considere este código como el bootstrap (o cargador) para configurar una aplicación SDK vacía. Abra el editor de texto favorito y pegue el siguiente marcado HTML en él:
 
    ```
    <!DOCTYPE html> 
@@ -79,7 +80,7 @@ Este tutorial incluye el siguiente orden de tareas para ayudarle a crear un viso
    </html>
    ```
 
-   Añada el siguiente código JavaScript dentro de la etiqueta `script` para inicializar `ParameterManager`. Esto le ayuda a prepararse para crear y crear instancias de componentes de SDK dentro de la función `initViewer`:
+   Agregue el siguiente código JavaScript dentro de la etiqueta `script` para inicializar `ParameterManager`. Esto le ayuda a prepararse para crear y crear instancias de componentes de SDK dentro de la función `initViewer` :
 
    ```
    /* We create a self-running anonymous function to encapsulate variable scope. Placing code inside such 
@@ -115,15 +116,15 @@ Este tutorial incluye el siguiente orden de tareas para ayudarle a crear un viso
 
 1. Guarde el archivo como una plantilla vacía. Puede utilizar cualquier nombre de archivo que desee.
 
-   Este archivo de plantilla vacío se utilizará como referencia al crear visores nuevos en el futuro. Esta plantilla funciona localmente y cuando se suministra desde un servidor web.
+   Este archivo de plantilla vacío se utilizará como referencia al crear cualquier visor nuevo en el futuro. Esta plantilla funciona localmente y cuando se suministra desde un servidor web.
 
 Ahora agregará estilo al visor.
 
-## Añadir estilo al visor {#section-3783125360a1425eae5a5a334867cc32}
+## Adición de estilo al visor {#section-3783125360a1425eae5a5a334867cc32}
 
 1. Para este visor de página completa que está creando, puede añadir algunos estilos básicos.
 
-   Añada el siguiente bloque `style` a la parte inferior del `head`:
+   Agregue el siguiente bloque `style` a la parte inferior del `head`:
 
    ```
    <style> 
@@ -148,7 +149,7 @@ Ahora incluirá los componentes `Container` y `ZoomView`.
 
 1. Cree un visor real incluyendo los componentes `Container` y `ZoomView`.
 
-   Inserte las siguientes sentencias `include` en la parte inferior del elemento `<head>`, después de cargar la secuencia de comandos [!DNL Utils.js]:
+   Inserte las siguientes instrucciones `include` en la parte inferior del elemento `<head>`, después de cargar el script [!DNL Utils.js]:
 
    ```
    <!-- 
@@ -163,7 +164,7 @@ Ahora incluirá los componentes `Container` y `ZoomView`.
 
 1. Ahora cree variables para hacer referencia a los distintos componentes del SDK.
 
-   Añada las siguientes variables en la parte superior de la función anónima principal, justo encima de `s7sdk.Util.init()`:
+   Agregue las siguientes variables a la parte superior de la función anónima principal, justo encima de `s7sdk.Util.init()`:
 
    ```
    var container, zoomView;
@@ -190,7 +191,7 @@ Ahora incluirá los componentes `Container` y `ZoomView`.
    resizeViewer(container.getWidth(), container.getHeight());
    ```
 
-1. Para que el código anterior se ejecute correctamente, agregue un controlador de evento `containerResize` y una función de ayuda:
+1. Para que el código anterior se ejecute correctamente, agregue un controlador de eventos `containerResize` y una función de ayuda:
 
    ```
    /* Event handler for s7sdk.event.ResizeEvent.COMPONENT_RESIZE events dispatched by Container to resize 
@@ -205,13 +206,13 @@ Ahora incluirá los componentes `Container` y `ZoomView`.
    }
    ```
 
-1. Previsualización la página para que pueda ver lo que ha creado. La página tendrá el siguiente aspecto:
+1. Previsualice la página para poder ver lo que ha creado. Su página será similar a la siguiente:
 
    ![](assets/viewer-1.jpg)
 
-Ahora agregará los componentes `MediaSet` y `Swatches` al visor.
+A continuación, agregará los componentes `MediaSet` y `Swatches` al visor.
 
-## Añadir los componentes MediaSet y Swatches al visor {#section-02b8c21dd842400e83eae2a48ec265b7}
+## Adición de componentes de MediaSet y Muestras al visor {#section-02b8c21dd842400e83eae2a48ec265b7}
 
 1. Para que los usuarios puedan seleccionar imágenes de un conjunto, puede agregar los componentes `MediaSet` y `Swatches`.
 
@@ -228,9 +229,9 @@ Ahora agregará los componentes `MediaSet` y `Swatches` al visor.
    var mediaSet, container, zoomView, swatches;
    ```
 
-1. Cree una instancia de los componentes `MediaSet` y `Swatches` dentro de la función `initViewer`.
+1. Cree instancias de los componentes `MediaSet` y `Swatches` dentro de la función `initViewer` .
 
-   Asegúrese de crear una instancia de `Swatches` después de los componentes `ZoomView` y `Container`; de lo contrario, el orden de apilamiento oculta la instancia `Swatches`:
+   Asegúrese de crear una instancia de `Swatches` después de los componentes `ZoomView` y `Container`; de lo contrario, el orden de apilamiento oculta la `Swatches`:
 
    ```
    // Create MediaSet to manage assets and add event listener to the NOTF_SET_PARSED event 
@@ -244,7 +245,7 @@ Ahora agregará los componentes `MediaSet` y `Swatches` al visor.
    swatches.addEventListener(s7sdk.event.AssetEvent.SWATCH_SELECTED_EVENT, swatchSelected, false);
    ```
 
-1. Ahora agregue las siguientes funciones de controlador de evento:
+1. Ahora agregue las siguientes funciones de controlador de eventos:
 
    ```
    /* Event handler for the s7sdk.event.AssetEvent.NOTF_SET_PARSED event dispatched by MediaSet to 
@@ -266,7 +267,7 @@ Ahora agregará los componentes `MediaSet` y `Swatches` al visor.
    }
    ```
 
-1. Coloque las muestras en la parte inferior del visor agregando la siguiente CSS al elemento `style`:
+1. Coloque las muestras en la parte inferior del visor agregando el siguiente CSS al elemento `style` :
 
    ```
    /* Align swatches to bottom of viewer */ 
@@ -278,23 +279,23 @@ Ahora agregará los componentes `MediaSet` y `Swatches` al visor.
    }
    ```
 
-1. Previsualización del visor.
+1. Previsualice el visor.
 
-   Observe que las muestras están en la parte inferior izquierda del visor. Para que las muestras tengan el ancho completo del visor, agregue una llamada para cambiar manualmente el tamaño de las muestras cada vez que el usuario cambie el tamaño del explorador. Añada lo siguiente a la función `resizeViewer`:
+   Observe que las muestras están en la parte inferior izquierda del visor. Para que las muestras tengan el ancho completo del visor, agregue una llamada para cambiar el tamaño manualmente de las muestras cada vez que el usuario cambie el tamaño de su explorador. Agregue lo siguiente a la función `resizeViewer` :
 
    ```
    swatches.resize(width, swatches.getHeight());
    ```
 
-   El visor ahora tiene el aspecto de la siguiente imagen. Intente cambiar el tamaño de la ventana del navegador del visor y observe el comportamiento resultante.
+   El visor ahora se parece a la siguiente imagen. Intente cambiar el tamaño de la ventana del navegador del visor y observe el comportamiento resultante.
 
    ![](assets/viewer-2.jpg)
 
-Ahora agregará los botones de zoom, zoom y restablecimiento de zoom al visor.
+Ahora agregará botones de ampliación, reducción y restablecimiento de zoom al visor.
 
 ## Añadir botones al visor {#section-1fc334fa0d2b47eb9cdad461725c07be}
 
-1. Actualmente, el usuario solo puede aplicar zoom mediante gestos táctiles o de clic. Por lo tanto, agregue algunos botones de control de zoom básicos al visor.
+1. Actualmente, el usuario solo puede ampliar mediante gestos táctiles o de clic. Por lo tanto, agregue al visor algunos botones básicos de control de zoom.
 
    Añada los siguientes componentes de botón:
 
@@ -308,9 +309,9 @@ Ahora agregará los botones de zoom, zoom y restablecimiento de zoom al visor.
    var mediaSet, container, zoomView, swatches, zoomInButton, zoomOutButton, zoomResetButton;
    ```
 
-1. Crear instancias de botones en la parte inferior de la función `initViewer`.
+1. Cree una instancia de los botones en la parte inferior de la función `initViewer`.
 
-   Recuerde que el orden es importante, a menos que especifique `z-index` en CSS:
+   Recuerde que el orden importa, a menos que especifique el `z-index` en CSS:
 
    ```
    /* Create Zoom In, Zoom Out and Zoom Reset buttons */ 
@@ -324,7 +325,7 @@ Ahora agregará los botones de zoom, zoom y restablecimiento de zoom al visor.
    zoomResetButton.addEventListener("click", function() { zoomView.zoomReset(); });
    ```
 
-1. Ahora defina algunos estilos básicos para los botones agregando lo siguiente al bloque `style` situado en la parte superior del archivo:
+1. Ahora, defina algunos estilos básicos para los botones agregando lo siguiente al bloque `style` de la parte superior del archivo:
 
    ```
    /* define styles common to all button components and their sub-classes */ 
@@ -350,17 +351,17 @@ Ahora agregará los botones de zoom, zoom y restablecimiento de zoom al visor.
     }
    ```
 
-1. Previsualización del visor. Tendrá el siguiente aspecto:
+1. Previsualice el visor. Tendrá el siguiente aspecto:
 
    ![](assets/viewer-3.jpg)
 
-   Ahora configurará las muestras para que estén alineadas verticalmente a la derecha.
+   A continuación, configurará las muestras para que se alineen verticalmente a la derecha.
 
-## Configuración vertical de las muestras {#section-91a8829d5b5a4d45a35b7faeb097fcc9}
+## Configuración de las muestras verticalmente {#section-91a8829d5b5a4d45a35b7faeb097fcc9}
 
-1. Puede configurar modificadores directamente en la instancia `ParameterManager`.
+1. Puede configurar modificadores directamente en la instancia `ParameterManager` .
 
-   Añada lo siguiente en la parte superior de la función `initViewer` para configurar el diseño de la miniatura `Swatches` como una sola fila:
+   Agregue lo siguiente a la parte superior de la función `initViewer` para configurar el diseño de miniatura `Swatches` como una sola fila:
 
    ```
    params.push("Swatches.tmblayout", "1,0");
@@ -383,11 +384,11 @@ Ahora agregará los botones de zoom, zoom y restablecimiento de zoom al visor.
    }
    ```
 
-1. Previsualización del visor. Tendrá el siguiente aspecto:
+1. Previsualice el visor. Tendrá el siguiente aspecto:
 
    ![](assets/viewer-4.jpg)
 
-   Ya se ha completado el visor de zoom básico.
+   El visor de zoom básico ya ha finalizado.
 
-   Este tutorial de visor trata los aspectos básicos de lo que proporciona el SDK de visor de Dynamic Media. Al trabajar con el SDK, puede utilizar los distintos componentes estándar para crear y aplicar estilo fácilmente a las experiencias de visualización enriquecidas para sus audiencias de destinatario.
+   Este tutorial del visor trata los aspectos básicos de lo que proporciona el SDK del visor de Dynamic Media. Al trabajar con el SDK, puede utilizar los distintos componentes estándar para crear y aplicar estilo fácilmente a las experiencias de visualización enriquecidas para las audiencias de destino.
 
