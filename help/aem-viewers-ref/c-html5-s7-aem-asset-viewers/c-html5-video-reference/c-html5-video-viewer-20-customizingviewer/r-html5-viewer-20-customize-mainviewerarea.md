@@ -1,15 +1,16 @@
 ---
-description: El área de vista principal está ocupada por el video. Normalmente se configura para que se ajuste a la pantalla del dispositivo disponible cuando no se especifica ningún tamaño.
-seo-description: El área de vista principal está ocupada por el video. Normalmente se configura para que se ajuste a la pantalla del dispositivo disponible cuando no se especifica ningún tamaño.
+description: El área de vista principal está ocupada por el vídeo. Normalmente se configura para que se ajuste a la pantalla de dispositivo disponible cuando no se especifica ningún tamaño.
+seo-description: El área de vista principal está ocupada por el vídeo. Normalmente se configura para que se ajuste a la pantalla de dispositivo disponible cuando no se especifica ningún tamaño.
 seo-title: Área del visor principal
 solution: Experience Manager
 title: Área del visor principal
-topic: Dynamic Media
 uuid: f395b22d-55b8-4422-9aa4-9dd4b7a24063
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '137'
 ht-degree: 2%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 2%
 
 # Área del visor principal{#main-viewer-area}
 
-El área de vista principal está ocupada por el video. Normalmente se configura para que se ajuste a la pantalla del dispositivo disponible cuando no se especifica ningún tamaño.
+El área de vista principal está ocupada por el vídeo. Normalmente se configura para que se ajuste a la pantalla de dispositivo disponible cuando no se especifica ningún tamaño.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -27,13 +28,13 @@ El siguiente selector de clase CSS controla el aspecto del área de visualizaci�
 .s7videoviewer 
 ```
 
-## Propiedades CSS del área del visor principal {#css-properties-of-the-main-viewer-area}
+## Propiedades CSS del área principal del visor {#css-properties-of-the-main-viewer-area}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Ancho del visor. </p> </td> 
+   <td colname="col2"> <p>Anchura del visor. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
@@ -48,7 +49,7 @@ El siguiente selector de clase CSS controla el aspecto del área de visualizaci�
 
 ## Ejemplo {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Para configurar un visor de vídeo con un fondo blanco (#FFFFFF) y definir su tamaño en 512 x 288 píxeles:
+Para configurar un visualizador de vídeo con un fondo blanco (#FFFFFF) y definir su tamaño 512 x 288 píxeles:
 
 ```
 .s7videoviewer { 
