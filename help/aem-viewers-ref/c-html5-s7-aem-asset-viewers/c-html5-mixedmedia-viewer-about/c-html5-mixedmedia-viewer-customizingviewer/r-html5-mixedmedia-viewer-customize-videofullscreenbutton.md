@@ -1,15 +1,16 @@
 ---
-description: El botón de pantalla completa hace que el usuario introduzca o salga del modo de pantalla completa cuando hace clic en él. Se utiliza cuando el visor muestra vídeo y se encuentra en la barra de control. Este botón no se muestra si el visor funciona en modo emergente y el sistema no admite la pantalla completa nativa.
-seo-description: El botón de pantalla completa hace que el usuario introduzca o salga del modo de pantalla completa cuando hace clic en él. Se utiliza cuando el visor muestra vídeo y se encuentra en la barra de control. Este botón no se muestra si el visor funciona en modo emergente y el sistema no admite la pantalla completa nativa.
+description: El botón de pantalla completa hace que el usuario entre o salga del modo de pantalla completa cuando hace clic en él. Se utiliza cuando el espectador muestra vídeo y se encuentra en la barra de control. Este botón no se muestra si el visor funciona en modo emergente y el sistema no admite pantalla completa nativa.
+seo-description: El botón de pantalla completa hace que el usuario entre o salga del modo de pantalla completa cuando hace clic en él. Se utiliza cuando el espectador muestra vídeo y se encuentra en la barra de control. Este botón no se muestra si el visor funciona en modo emergente y el sistema no admite pantalla completa nativa.
 seo-title: Botón de pantalla completa de vídeo
 solution: Experience Manager
 title: Botón de pantalla completa de vídeo
-topic: Dynamic Media
 uuid: f264154b-eb4d-4dcb-b8c0-e06c383198ae
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
+role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '396'
 ht-degree: 1%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 1%
 
 # Botón de pantalla completa de vídeo{#video-full-screen-button}
 
-El botón de pantalla completa hace que el usuario introduzca o salga del modo de pantalla completa cuando hace clic en él. Se utiliza cuando el visor muestra vídeo y se encuentra en la barra de control. Este botón no se muestra si el visor funciona en modo emergente y el sistema no admite la pantalla completa nativa.
+El botón de pantalla completa hace que el usuario entre o salga del modo de pantalla completa cuando hace clic en él. Se utiliza cuando el espectador muestra vídeo y se encuentra en la barra de control. Este botón no se muestra si el visor funciona en modo emergente y el sistema no admite pantalla completa nativa.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 Puede cambiar el tamaño, el aspecto y la posición del botón de pantalla completa, en relación con la barra de control que lo contiene, mediante CSS.
 
-El aspecto del botón de pantalla completa se controla con el selector de clases CSS:
+El aspecto del botón de pantalla completa se controla con el selector de clase CSS:
 
 ```
 .s7mixedmediaviewer .s7fullscreenbutton
@@ -58,25 +59,25 @@ El aspecto del botón de pantalla completa se controla con el selector de clases
    <td colname="col2"> <p>Altura del botón de pantalla completa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p> Imagen mostrada para un estado de botón determinado. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
+   <td colname="col2"> <p> La imagen mostrada para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Colocar dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
+   <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Este botón admite los selectores de atributos `state` y `selected`, que pueden utilizarse para aplicar diferentes apariencias a diferentes estados de botón. En particular, `selected='true'` corresponde al estado de &quot;pantalla completa&quot; y `selected='false'` corresponde al estado &quot;normal&quot;.
+>Este botón admite los selectores de atributos `state` y `selected`, que pueden utilizarse para aplicar diferentes aspectos a diferentes estados de botones. En concreto, `selected='true'` corresponde al estado &quot;pantalla completa&quot; y `selected='false'` corresponde al estado &quot;normal&quot;.
 
-La información de objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obtener más información.
+La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obtener más información.
 
 ## Ejemplo {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Para configurar un botón de pantalla completa de 32 x 32 píxeles y posicionar 6 píxeles desde el borde superior y derecho de la barra de control. También se muestra una imagen diferente para cada uno de los cuatro estados de botón diferentes cuando se selecciona o no se selecciona.
+Para configurar un botón de pantalla completa de 32 x 32 píxeles y posicionar 6 píxeles desde el borde superior y derecho de la barra de control. Además, muestre una imagen diferente para cada uno de los cuatro estados de botón diferentes cuando esté seleccionado o no.
 
 ```
 .s7mixedmediaviewer . s7fullscreenbutton { 
