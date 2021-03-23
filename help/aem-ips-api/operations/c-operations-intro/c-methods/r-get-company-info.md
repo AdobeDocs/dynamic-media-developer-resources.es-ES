@@ -1,15 +1,16 @@
 ---
-description: Devuelve información sobre la compañía especificada, incluido el identificador de compañía, el nombre de la compañía, la ruta raíz y la fecha de caducidad. Debe especificar companyHandle o companyName cuya información desee recuperar.
-seo-description: Devuelve información sobre la compañía especificada, incluido el identificador de compañía, el nombre de la compañía, la ruta raíz y la fecha de caducidad. Debe especificar companyHandle o companyName cuya información desee recuperar.
+description: Devuelve información sobre la empresa especificada, incluido el identificador de la empresa, el nombre de la empresa, la ruta raíz y la fecha de caducidad. Debe especificar companyHandle o companyName cuya información desea recuperar.
+seo-description: Devuelve información sobre la empresa especificada, incluido el identificador de la empresa, el nombre de la empresa, la ruta raíz y la fecha de caducidad. Debe especificar companyHandle o companyName cuya información desea recuperar.
 seo-title: getCompanyInfo
 solution: Experience Manager
 title: getCompanyInfo
-topic: Dynamic Media Image Production System API
 uuid: 9218cba8-2873-46b7-90e3-7ab9d5018690
+feature: Dynamic Media Classic,SDK/API
+role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '209'
 ht-degree: 8%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 8%
 
 # getCompanyInfo{#getcompanyinfo}
 
-Devuelve información sobre la compañía especificada, incluido el identificador de compañía, el nombre de la compañía, la ruta raíz y la fecha de caducidad. Debe especificar companyHandle o companyName cuya información desee recuperar.
+Devuelve información sobre la empresa especificada, incluido el identificador de la empresa, el nombre de la empresa, la ruta raíz y la fecha de caducidad. Debe especificar companyHandle o companyName cuya información desea recuperar.
 
 Sintaxis
 
@@ -50,13 +51,13 @@ Sintaxis
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Se requiere <span class="codeph"> <span class="varname"> companyHandle</span> </span> o <span class="codeph"> <span class="varname"> companyName</span> </span>. </p> </td> 
-   <td colname="col4"> <p>El identificador de la compañía cuya información desea obtener. </p> </td> 
+   <td colname="col4"> <p>El nombre de la empresa cuya información desea obtener. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Se requiere <span class="codeph"> <span class="varname"> companyHandle</span> </span> o <span class="codeph"> <span class="varname"> companyName</span> </span>. </p> </td> 
-   <td colname="col4"> <p>Nombre de la compañía cuya información desea obtener. </p> </td> 
+   <td colname="col4"> <p>Nombre de la empresa cuya información desea obtener. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -75,16 +76,16 @@ Sintaxis
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> tipos:Compañía</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> tipos:Empresa</span> </p> </td> 
    <td colname="col3"> <p>Sí </p> </td> 
-   <td colname="col4"> <p>Administrar y otra información descriptiva sobre la compañía. </p> </td> 
+   <td colname="col4"> <p>Gestión y otra información descriptiva sobre la empresa. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Ejemplos {#section-3d5342aa7cb34b1fa84d7dea6e16e4aa}
 
-Este ejemplo de código devuelve toda la información sobre una compañía mediante un nombre de compañía y un identificador. Devuelve datos similares a la respuesta recibida al crear una compañía.
+Este ejemplo de código devuelve toda la información sobre una empresa mediante el uso de un nombre y un identificador de empresa. Devuelve datos similares a la respuesta recibida al crear una empresa.
 
 **Solicitar**
 
