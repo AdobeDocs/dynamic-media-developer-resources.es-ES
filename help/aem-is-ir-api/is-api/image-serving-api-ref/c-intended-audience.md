@@ -1,16 +1,13 @@
 ---
 description: Programadores experimentados y desarrolladores de sitios web que deseen aprovechar Dynamic Media Image Serving para un sitio web o una aplicación personalizada.
-seo-description: Programadores experimentados y desarrolladores de sitios web que deseen aprovechar Dynamic Media Image Serving para un sitio web o una aplicación personalizada.
-seo-title: Audiencia prevista
 solution: Experience Manager
 title: Audiencia prevista
-uuid: a1a60d51-2a64-49ee-b409-59e8f67cdab0
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
