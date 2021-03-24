@@ -1,17 +1,14 @@
 ---
 description: El icono de reproducción se superpone en el área de vista principal. Se muestra cuando el vídeo está en pausa o cuando se llega al final del vídeo, y también depende del parámetro iconeffect.
-seo-description: El icono de reproducción se superpone en el área de vista principal. Se muestra cuando el vídeo está en pausa o cuando se llega al final del vídeo, y también depende del parámetro iconeffect.
-seo-title: Icono, efecto
 solution: Experience Manager
 title: Icono, efecto
-uuid: a1e7d877-097c-4f43-8a6d-9627dc4924b1
 feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 0%
+source-wordcount: '177'
+ht-degree: 1%
 
 ---
 
