@@ -1,16 +1,13 @@
 ---
 description: Las capas se componen en el orden especificado por el comando layer=, donde las capas con mayor número ocultan las que tienen menor número.
-seo-description: Las capas se componen en el orden especificado por el comando layer=, donde las capas con mayor número ocultan las que tienen menor número.
-seo-title: El lienzo de composición
 solution: Experience Manager
 title: El lienzo de composición
-uuid: 057b11cb-36f3-40f8-b095-9ad05da858a9
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
