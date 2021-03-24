@@ -1,16 +1,13 @@
 ---
 description: Utilice esta configuración del servidor para iniciar sesión en el acceso.
-seo-description: Utilice esta configuración del servidor para iniciar sesión en el acceso.
-seo-title: Registro de acceso
 solution: Experience Manager
 title: Registro de acceso
-uuid: ea7d5d39-3f0a-45f0-bc28-6828a9c9da50
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, administrador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '695'
 ht-degree: 4%
 
 ---
