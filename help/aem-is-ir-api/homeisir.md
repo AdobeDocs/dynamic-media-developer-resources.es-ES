@@ -3,9 +3,8 @@ description: Adobe Dynamic Media Image Serving y Image Rendering API Home
 solution: Experience Manager
 title: Adobe Dynamic Media Image Serving y Image Rendering API Home
 topic: 'Dynamic Media Image Serving: API de renderización de imágenes'
-uuid: 37d90173-2e56-47fa-b0ef-2b99b521502c
 translation-type: tm+mt
-source-git-commit: 192b5624945b08e438a65e3e9fd25aca503857fc
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 0%
