@@ -1,17 +1,14 @@
 ---
 description: Identificador de catálogo. El elemento de ruta HTTP que se utilizará para identificar este catálogo en la viñeta, el material o el especificador de objeto de perfil ICC en las solicitudes HTTP.
-seo-description: Identificador de catálogo. El elemento de ruta HTTP que se utilizará para identificar este catálogo en la viñeta, el material o el especificador de objeto de perfil ICC en las solicitudes HTTP.
-seo-title: RootId
 solution: Experience Manager
 title: RootId
-uuid: fd726466-6dca-4612-a342-50689ed1469f
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 4%
+source-wordcount: '97'
+ht-degree: 5%
 
 ---
 
