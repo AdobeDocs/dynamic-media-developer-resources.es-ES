@@ -1,16 +1,13 @@
 ---
 description: Este botón permite activar y desactivar la visualización de subtítulos. No está visible si no se especifica el parámetro del rótulo.
-seo-description: Este botón permite activar y desactivar la visualización de subtítulos. No está visible si no se especifica el parámetro del rótulo.
-seo-title: Botón Rótulo
 solution: Experience Manager
 title: Botón Rótulo
-uuid: a3895a9a-972a-4259-9418-b78f7c904bd4
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '262'
 ht-degree: 2%
 
 ---
