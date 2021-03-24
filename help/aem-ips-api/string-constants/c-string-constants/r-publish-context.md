@@ -1,17 +1,14 @@
 ---
 description: Utilizado por getActivePublishContextsReturn/publishContext.
-seo-description: Utilizado por getActivePublishContextsReturn/publishContext.
-seo-title: Contexto de publicación
 solution: Experience Manager
 title: Contexto de publicación
-uuid: 50347cd3-ce36-46d7-9b88-9da02a571768
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 29%
+source-wordcount: '21'
+ht-degree: 28%
 
 ---
 
