@@ -1,16 +1,13 @@
 ---
 description: Al pulsar o hacer clic en este botón, el usuario llega a la página anterior del catálogo. Este botón aparece en la barra de control principal. Este botón no se muestra en los teléfonos móviles para ahorrar espacio en la pantalla. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
-seo-description: Al pulsar o hacer clic en este botón, el usuario llega a la página anterior del catálogo. Este botón aparece en la barra de control principal. Este botón no se muestra en los teléfonos móviles para ahorrar espacio en la pantalla. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
-seo-title: Botón Grande de la página anterior
 solution: Experience Manager
 title: Botón Grande de la página anterior
-uuid: 10c9ade6-8bbd-4c05-bf3e-22d95b786d7b
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '294'
 ht-degree: 2%
 
 ---
