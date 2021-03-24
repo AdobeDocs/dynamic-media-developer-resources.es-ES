@@ -1,17 +1,14 @@
 ---
 description: Estos comandos se aplican a las capas de imagen, texto y color sólido. La mayoría no son significativas para la imagen compuesta y para solicitudes simples sin capas. No se aplican a las capas de efecto.
-seo-description: Estos comandos se aplican a las capas de imagen, texto y color sólido. La mayoría no son significativas para la imagen compuesta y para solicitudes simples sin capas. No se aplican a las capas de efecto.
-seo-title: Comandos de capa comunes
 solution: Experience Manager
 title: Comandos de capa comunes
-uuid: f11da6ba-18f2-42d6-8257-cb8ebef8c7d8
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 2%
+source-wordcount: '144'
+ht-degree: 3%
 
 ---
 
