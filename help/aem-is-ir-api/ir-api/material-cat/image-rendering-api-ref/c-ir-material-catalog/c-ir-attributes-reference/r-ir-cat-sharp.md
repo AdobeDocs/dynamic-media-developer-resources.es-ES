@@ -1,17 +1,14 @@
 ---
 description: Afilado de material predeterminado. Establece el modo de nitidez del material predeterminado en caso de que un registro de catálogo concreto no contenga un valor de Sharp de catálogo válido.
-seo-description: Afilado de material predeterminado. Establece el modo de nitidez del material predeterminado en caso de que un registro de catálogo concreto no contenga un valor de Sharp de catálogo válido.
-seo-title: Nitidez
 solution: Experience Manager
 title: Nitidez
-uuid: f6a6101c-3d9e-4557-892b-be7943b4fdca
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 9%
+source-wordcount: '98'
+ht-degree: 10%
 
 ---
 
