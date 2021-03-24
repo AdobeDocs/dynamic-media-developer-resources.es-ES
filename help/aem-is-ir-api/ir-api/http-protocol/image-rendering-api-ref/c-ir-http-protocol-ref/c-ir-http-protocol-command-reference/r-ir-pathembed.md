@@ -1,16 +1,13 @@
 ---
 description: Incrustar datos de rutas. Especifica si las rutas de Photoshop incrustadas en la viñeta deben incluirse en la imagen de respuesta.
-seo-description: Incrustar datos de rutas. Especifica si las rutas de Photoshop incrustadas en la viñeta deben incluirse en la imagen de respuesta.
-seo-title: pathEmbed
 solution: Experience Manager
 title: pathEmbed
-uuid: d40ea1b5-f2d3-4f81-b96f-abb4eb7eb2b3
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '109'
 ht-degree: 3%
 
 ---
