@@ -1,17 +1,14 @@
 ---
 description: Crea una vista preestablecida que determina lo que puede ver un usuario. El visor puede ser de cualquier tipo disponible en IPS. La vista preestablecida se aplica cuando se publican los recursos.
-seo-description: Crea una vista preestablecida que determina lo que puede ver un usuario. El visor puede ser de cualquier tipo disponible en IPS. La vista preestablecida se aplica cuando se publican los recursos.
-seo-title: createViewerPreset
 solution: Experience Manager
 title: createViewerPreset
-uuid: 4160d2b0-6147-459f-830a-43c99b8dc196
 feature: Dynamic Media Classic,SDK/API,ajustes preestablecidos de visor
 role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 11%
+source-wordcount: '167'
+ht-degree: 13%
 
 ---
 
