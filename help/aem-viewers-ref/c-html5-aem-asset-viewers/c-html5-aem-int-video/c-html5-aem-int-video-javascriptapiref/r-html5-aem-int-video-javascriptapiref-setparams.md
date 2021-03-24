@@ -1,16 +1,13 @@
 ---
 description: Referencia de la API de JavaScript para el visualizador de vídeo interactivo.
-seo-description: Referencia de la API de JavaScript para el visualizador de vídeo interactivo.
-seo-title: setParams
 solution: Experience Manager
 title: setParams
-uuid: 0a5b9798-0e3f-4310-9b6e-0214a420951b
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '110'
 ht-degree: 2%
 
 ---
