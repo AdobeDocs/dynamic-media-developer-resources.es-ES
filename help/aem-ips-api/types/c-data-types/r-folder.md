@@ -1,17 +1,14 @@
 ---
 description: Archivo jerárquico u objeto de almacenamiento de recursos. Las carpetas pueden contener una o más subcarpetas.
-seo-description: Archivo jerárquico u objeto de almacenamiento de recursos. Las carpetas pueden contener una o más subcarpetas.
-seo-title: Carpeta
 solution: Experience Manager
 title: Carpeta
-uuid: 8ba8d9cb-c4e5-423c-b8cb-ba8751952771
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 9%
+source-wordcount: '79'
+ht-degree: 10%
 
 ---
 
