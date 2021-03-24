@@ -1,16 +1,13 @@
 ---
 description: Plantilla de composición. Permite especificar una plantilla de composición ubicada en un catálogo que no sea el catálogo principal.
-seo-description: Plantilla de composición. Permite especificar una plantilla de composición ubicada en un catálogo que no sea el catálogo principal.
-seo-title: plantilla
 solution: Experience Manager
 title: plantilla
-uuid: 59b37d60-1d0c-4d0b-a5a0-98d8bf9e9064
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '172'
 ht-degree: 6%
 
 ---
@@ -18,7 +15,7 @@ ht-degree: 6%
 
 # plantilla{#template}
 
-Plantilla de composición. Permite especificar una plantilla de composición ubicada en un catálogo que no sea el catálogo principal.
+Plantilla de composición. Permite especificar una plantilla de composición en un catálogo que no sea el catálogo principal.
 
 `template= *`plantilla`*`
 
@@ -31,9 +28,9 @@ Plantilla de composición. Permite especificar una plantilla de composición ubi
 
 *`template`* debe ser una entrada de catálogo de imágenes con el cuerpo de plantilla contenido en  `catalog::Modifier`.
 
-Cuando `template=` está presente, el objeto especificado en la ruta de solicitud no se aplicará como origen para la capa 0, pero se puede hacer referencia a él como `src=` o `mask=` en cualquier lugar de la plantilla utilizando la variable de ruta predefinida `$object$` como valor `src=`. `catalog::Modifier` del objeto especificado en la ruta de solicitud solo se aplica en conexión con la sustitución de  `$object$` dentro de la plantilla, mientras que siempre  `catalog::PostModifier` se aplica.
+Cuando `template=` está presente, el objeto especificado en la ruta de solicitud no se aplica como origen para la capa 0. Sin embargo, se puede hacer referencia a él como `src=` o `mask=` en cualquier parte de la plantilla mediante la variable de ruta predefinida `$object$` como valor `src=`. `catalog::Modifier` del objeto especificado en la ruta de solicitud solo se aplica con la sustitución de  `$object$` dentro de la plantilla, mientras que siempre  `catalog::PostModifier` se aplica.
 
-La capa 0 se define en el cuerpo de la plantilla y puede ser una imagen, color sólido, texto o capa de solicitud anidada o incrustada.
+La capa 0 se define en el cuerpo de la plantilla y puede ser una imagen, color sólido, texto o una capa de solicitud anidada o incrustada.
 
 `catalog:PostModifier` of  *`object`* se ignora cuando  *`object`* se utiliza con  `template=`.
 
