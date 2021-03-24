@@ -2,11 +2,10 @@
 description: coincidencia
 solution: Experience Manager
 title: coincidencia
-uuid: 60419120-effc-4895-8bb1-7e4b70a67c5b
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 7%
