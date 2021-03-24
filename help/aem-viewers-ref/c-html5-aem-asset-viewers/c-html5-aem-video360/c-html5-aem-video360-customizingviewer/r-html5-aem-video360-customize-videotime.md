@@ -1,16 +1,13 @@
 ---
 description: La hora del vídeo es la visualización numérica que muestra la hora y la duración actuales del vídeo que se está reproduciendo.
-seo-description: La hora del vídeo es la visualización numérica que muestra la hora y la duración actuales del vídeo que se está reproduciendo.
-seo-title: Tiempo de vídeo
 solution: Experience Manager
 title: Tiempo de vídeo
-uuid: f8ba615f-661a-4750-bdf7-559650d464af
 feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '206'
 ht-degree: 1%
 
 ---
