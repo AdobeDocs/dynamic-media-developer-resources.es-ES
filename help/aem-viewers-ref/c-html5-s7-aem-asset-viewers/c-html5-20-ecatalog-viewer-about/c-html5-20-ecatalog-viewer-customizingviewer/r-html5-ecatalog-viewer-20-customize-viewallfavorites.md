@@ -1,16 +1,13 @@
 ---
 description: La posición del botón se administra completamente mediante el menú Favoritos.
-seo-description: La posición del botón se administra completamente mediante el menú Favoritos.
-seo-title: Botón Ver todos los favoritos
 solution: Experience Manager
 title: Botón Ver todos los favoritos
-uuid: f9fd2110-d225-4eba-8e21-acc9c0e1dfd4
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
