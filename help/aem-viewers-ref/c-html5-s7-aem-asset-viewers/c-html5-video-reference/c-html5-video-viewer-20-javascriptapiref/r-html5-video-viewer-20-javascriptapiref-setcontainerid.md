@@ -1,17 +1,14 @@
 ---
 description: Referencia de la API de JavaScript para el visualizador de vídeo.
-seo-description: Referencia de la API de JavaScript para el visualizador de vídeo.
-seo-title: setContainerId
 solution: Experience Manager
 title: setContainerId
-uuid: a4b741a1-b0b3-4bc3-aeab-9d0e44ec4e79
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 1%
+source-wordcount: '95'
+ht-degree: 2%
 
 ---
 
