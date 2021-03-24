@@ -1,17 +1,14 @@
 ---
 description: Recursos que pertenecen a un conjunto de imágenes.
-seo-description: Recursos que pertenecen a un conjunto de imágenes.
-seo-title: ImageSetMember
 solution: Experience Manager
 title: ImageSetMember
-uuid: bd013609-aed7-4c85-80f9-16be7fce99a3
 feature: Dynamic Media Classic,SDK/API,Conjuntos de imágenes
 role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 5%
+source-wordcount: '78'
+ht-degree: 6%
 
 ---
 
