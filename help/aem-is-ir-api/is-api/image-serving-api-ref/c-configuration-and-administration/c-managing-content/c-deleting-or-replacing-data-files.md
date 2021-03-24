@@ -1,16 +1,13 @@
 ---
 description: Aunque la adición de nuevos archivos de datos es sencilla y directa, se debe tener especial cuidado al reemplazar los archivos de datos existentes que el servidor utiliza activamente. En lugar de simplemente reemplazar esos archivos, se recomienda dar al archivo de reemplazo un nuevo nombre (por ejemplo, anexar un sufijo de versión al nombre del archivo). Una vez activado el nuevo archivo, se puede eliminar la versión antigua.
-seo-description: Aunque la adición de nuevos archivos de datos es sencilla y directa, se debe tener especial cuidado al reemplazar los archivos de datos existentes que el servidor utiliza activamente. En lugar de simplemente reemplazar esos archivos, se recomienda dar al archivo de reemplazo un nuevo nombre (por ejemplo, anexar un sufijo de versión al nombre del archivo). Una vez activado el nuevo archivo, se puede eliminar la versión antigua.
-seo-title: Eliminación o reemplazo de archivos de datos
 solution: Experience Manager
 title: Eliminación o reemplazo de archivos de datos
-uuid: 7b446144-48f6-4b50-93ec-0287425d932a
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, administrador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
