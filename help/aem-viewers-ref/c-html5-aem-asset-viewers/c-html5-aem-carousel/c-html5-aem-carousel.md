@@ -1,16 +1,13 @@
 ---
 description: El visor de carrusel es un visor que muestra un carrusel de imágenes de banner no ampliables con zonas interactivas o regiones en las que se puede hacer clic. El objetivo de este visor es implementar una experiencia de "carrusel de ventas" en la que los usuarios puedan seleccionar un punto interactivo o una región sobre la imagen del banner y ser redirigidos a una vista rápida o a una página de detalles del producto en el sitio web del cliente. Está diseñado para funcionar con equipos de escritorio y dispositivos móviles.
-seo-description: El visor de carrusel es un visor que muestra un carrusel de imágenes de banner no ampliables con zonas interactivas o regiones en las que se puede hacer clic. El objetivo de este visor es implementar una experiencia de "carrusel de ventas" en la que los usuarios puedan seleccionar un punto interactivo o una región sobre la imagen del banner y ser redirigidos a una vista rápida o a una página de detalles del producto en el sitio web del cliente. Está diseñado para funcionar con equipos de escritorio y dispositivos móviles.
-seo-title: Carrusel
 solution: Experience Manager
 title: Carrusel
-uuid: 0ba4f40b-8dde-4479-b906-3115f09ab249
 feature: Dynamic Media Classic,Visores,SDK/API,Banners de carrusel
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1989'
+source-wordcount: '1921'
 ht-degree: 0%
 
 ---
