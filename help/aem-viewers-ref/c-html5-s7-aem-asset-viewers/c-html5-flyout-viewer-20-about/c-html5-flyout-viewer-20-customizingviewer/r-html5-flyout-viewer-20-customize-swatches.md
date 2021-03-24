@@ -1,16 +1,13 @@
 ---
 description: Las muestras constan de una fila de imágenes en miniatura con botones de desplazamiento opcionales en los lados izquierdo y derecho.
-seo-description: Las muestras constan de una fila de imágenes en miniatura con botones de desplazamiento opcionales en los lados izquierdo y derecho.
-seo-title: Muestras
 solution: Experience Manager
 title: Muestras
-uuid: ee91385d-a0ff-4419-8a86-e2b106030f98
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Flotante
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '445'
 ht-degree: 3%
 
 ---
