@@ -1,16 +1,13 @@
 ---
 description: Texto de capa. Especifica el texto y el formato del contenido de una capa de texto.
-seo-description: Texto de capa. Especifica el texto y el formato del contenido de una capa de texto.
-seo-title: texto
 solution: Experience Manager
 title: texto
-uuid: 5b4f9282-83a3-488d-b5d2-deb2c92de564
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '177'
 ht-degree: 5%
 
 ---
