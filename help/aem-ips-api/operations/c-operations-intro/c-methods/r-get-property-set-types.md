@@ -1,17 +1,14 @@
 ---
 description: Obtiene los tipos de conjunto de propiedades asociados con la empresa especificada o los tipos de conjunto de propiedades globales si no se especifica ninguna empresa.
-seo-description: Obtiene los tipos de conjunto de propiedades asociados con la empresa especificada o los tipos de conjunto de propiedades globales si no se especifica ninguna empresa.
-seo-title: getPropertySetTypes
 solution: Experience Manager
 title: getPropertySetTypes
-uuid: b707344d-5571-45eb-9e37-cf0894ee81a0
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 12%
+source-wordcount: '120'
+ht-degree: 14%
 
 ---
 
