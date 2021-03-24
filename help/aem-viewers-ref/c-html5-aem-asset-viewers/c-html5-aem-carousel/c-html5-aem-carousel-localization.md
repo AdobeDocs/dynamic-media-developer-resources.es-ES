@@ -1,16 +1,13 @@
 ---
 description: Cierto contenido que muestra el visor de carrusel está sujeto a localización. Esto incluye botones de navegación con diapositivas.
-seo-description: Cierto contenido que muestra el visor de carrusel está sujeto a localización. Esto incluye botones de navegación con diapositivas.
-seo-title: Localización de los elementos de la interfaz de usuario
 solution: Experience Manager
 title: Localización de los elementos de la interfaz de usuario
-uuid: 82e4dc72-cc12-4ab5-8370-6270f9a3d45f
 feature: Dynamic Media Classic,Visores,SDK/API,Banners de carrusel
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
