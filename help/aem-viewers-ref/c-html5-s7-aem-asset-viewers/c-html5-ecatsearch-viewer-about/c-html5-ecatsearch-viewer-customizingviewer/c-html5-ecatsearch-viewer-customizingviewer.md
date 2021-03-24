@@ -1,17 +1,14 @@
 ---
 description: Toda la personalización visual y la mayor parte de la personalización del comportamiento para el visor de búsqueda en el catálogo electrónico se realiza creando un CSS personalizado.
 keywords: adaptable
-seo-description: Toda la personalización visual y la mayor parte de la personalización del comportamiento para el visor de búsqueda en el catálogo electrónico se realiza creando un CSS personalizado.
-seo-title: Personalización del visor de búsqueda de catálogos electrónicos
 solution: Experience Manager
 title: Personalización del visor de búsqueda de catálogos electrónicos
-uuid: a715399b-7b02-4656-8257-4c390c6f629c
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1409'
 ht-degree: 0%
 
 ---
