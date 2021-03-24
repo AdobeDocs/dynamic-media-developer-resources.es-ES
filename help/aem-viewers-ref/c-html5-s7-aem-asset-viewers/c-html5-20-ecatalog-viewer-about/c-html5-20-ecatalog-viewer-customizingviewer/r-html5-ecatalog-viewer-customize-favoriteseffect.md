@@ -1,17 +1,14 @@
 ---
 description: El visor muestra los iconos de Favoritos sobre la vista principal en los lugares donde el usuario lo agregó originalmente.
-seo-description: El visor muestra los iconos de Favoritos sobre la vista principal en los lugares donde el usuario lo agregó originalmente.
-seo-title: Favoritos, efecto
 solution: Experience Manager
 title: Favoritos, efecto
-uuid: b660b9fd-592b-4072-83c9-f70330ee19ab
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 0%
+source-wordcount: '191'
+ht-degree: 1%
 
 ---
 
