@@ -1,16 +1,13 @@
 ---
 description: Marca de tiempo de modificación. Especifica la fecha y la hora de la última modificación de esta viñeta.
-seo-description: Marca de tiempo de modificación. Especifica la fecha y la hora de la última modificación de esta viñeta.
-seo-title: TimeStamp
 solution: Experience Manager
 title: TimeStamp
-uuid: d2649e86-8a6f-4f63-ab6a-8b2d8c03f8c0
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '233'
 ht-degree: 1%
 
 ---
