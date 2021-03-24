@@ -1,17 +1,14 @@
 ---
 description: Toda la personalización visual y la mayor parte de la personalización del comportamiento para el visualizador de medios mixtos se realiza creando un CSS personalizado.
 keywords: adaptable
-seo-description: Toda la personalización visual y la mayor parte de la personalización del comportamiento para el visualizador de medios mixtos se realiza creando un CSS personalizado.
-seo-title: Personalización del visualizador de medios mixtos
 solution: Experience Manager
 title: Personalización del visualizador de medios mixtos
-uuid: 039462a7-2915-48f3-8d4b-0c527801b85a
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1340'
 ht-degree: 0%
 
 ---
