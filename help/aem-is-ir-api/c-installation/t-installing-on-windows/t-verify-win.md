@@ -1,16 +1,13 @@
 ---
 description: Después de instalar Dynamic Media Image Serving, debe verificar la instalación.
-seo-description: Después de instalar Dynamic Media Image Serving, debe verificar la instalación.
-seo-title: Verificación de la instalación
 solution: Experience Manager
 title: Verificación de la instalación
-uuid: ccc7688d-3d7f-4066-a19e-8a36ca56d711
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
