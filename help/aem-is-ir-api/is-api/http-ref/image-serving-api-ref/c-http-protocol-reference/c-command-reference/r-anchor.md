@@ -1,16 +1,13 @@
 ---
 description: Anclaje de imagen. Define el punto de ancla del rectángulo de la imagen, el color sólido o el cuadro delimitador de texto antes de aplicar transformaciones (recorte=, escala=, rotación=, flip=). También sirve como centro de rotación para rotate=.
-seo-description: Anclaje de imagen. Define el punto de ancla del rectángulo de la imagen, el color sólido o el cuadro delimitador de texto antes de aplicar transformaciones (recorte=, escala=, rotación=, flip=). También sirve como centro de rotación para rotate=.
-seo-title: delimitador
 solution: Experience Manager
 title: delimitador
-uuid: 3b174360-9bb7-4dc8-83be-6b8c4ea88cd4
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '216'
 ht-degree: 3%
 
 ---
