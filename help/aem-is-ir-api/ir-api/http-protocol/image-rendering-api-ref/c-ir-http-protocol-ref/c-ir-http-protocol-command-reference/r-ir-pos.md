@@ -1,16 +1,13 @@
 ---
 description: Declare la posición. Define el desplazamiento en pulgadas desde el punto anchor= de la imagen de calco hasta el punto de origen de calco definido por el objeto de viñeta de destino.
-seo-description: Declare la posición. Define el desplazamiento en pulgadas desde el punto anchor= de la imagen de calco hasta el punto de origen de calco definido por el objeto de viñeta de destino.
-seo-title: pos
 solution: Experience Manager
 title: pos
-uuid: f44c258d-84e9-465b-8495-ae9b96a106c3
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '101'
 ht-degree: 3%
 
 ---
