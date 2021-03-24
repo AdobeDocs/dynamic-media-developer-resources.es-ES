@@ -1,16 +1,13 @@
 ---
 description: Utilice esta configuración de servidor para el servicio de catálogo de imágenes.
-seo-description: Utilice esta configuración de servidor para el servicio de catálogo de imágenes.
-seo-title: Servicio de catálogo de imágenes
 solution: Experience Manager
 title: Servicio de catálogo de imágenes
-uuid: 601b1c30-7d51-448b-97b5-5ad9cb383975
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, administrador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
