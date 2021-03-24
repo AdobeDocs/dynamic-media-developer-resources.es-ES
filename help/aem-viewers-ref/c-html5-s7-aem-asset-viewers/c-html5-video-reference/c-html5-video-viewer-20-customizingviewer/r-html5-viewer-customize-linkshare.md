@@ -1,16 +1,13 @@
 ---
-description: La herramienta Compartir vínculos consiste en un botón agregado al panel Compartir en Social y el cuadro de diálogo modal que se muestra cuando se activa la herramienta. La posición del botón la gestiona completamente la herramienta de uso compartido de Social.
-seo-description: La herramienta Compartir vínculos consiste en un botón agregado al panel Compartir en Social y el cuadro de diálogo modal que se muestra cuando se activa la herramienta. La posición del botón la gestiona completamente la herramienta de uso compartido de Social.
-seo-title: Compartir vínculos
+description: La herramienta Compartir vínculos consiste en un botón agregado al panel Compartir en Social y el cuadro de diálogo modal que se muestra cuando se activa la herramienta. La posición del botón la gestiona completamente la herramienta de uso compartido de Social .
 solution: Experience Manager
 title: Compartir vínculos
-uuid: 699ddab2-8cfd-4edf-bb1b-5ff91fe63c1a
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1385'
 ht-degree: 2%
 
 ---
@@ -18,7 +15,7 @@ ht-degree: 2%
 
 # Compartir vínculos{#link-share}
 
-La herramienta Compartir vínculos consiste en un botón agregado al panel Compartir en Social y el cuadro de diálogo modal que se muestra cuando se activa la herramienta. La posición del botón la gestiona completamente la herramienta de uso compartido de Social.
+La herramienta Compartir vínculos consiste en un botón agregado al panel Compartir en Social y el cuadro de diálogo modal que se muestra cuando se activa la herramienta. La posición del botón la gestiona completamente la herramienta de uso compartido de Social .
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
