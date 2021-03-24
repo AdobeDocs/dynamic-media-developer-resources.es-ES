@@ -1,16 +1,13 @@
 ---
 description: En los sistemas de escritorio, algunos elementos de la interfaz de usuario, como los botones, tienen información sobre herramientas que se muestra al pasar el ratón por encima.
-seo-description: En los sistemas de escritorio, algunos elementos de la interfaz de usuario, como los botones, tienen información sobre herramientas que se muestra al pasar el ratón por encima.
-seo-title: Información sobre herramientas
 solution: Experience Manager
 title: Información sobre herramientas
-uuid: 4cf5ce32-136e-4612-b550-715d51cef982
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Imágenes interactivas
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '152'
 ht-degree: 5%
 
 ---
