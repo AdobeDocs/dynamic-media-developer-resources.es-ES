@@ -1,17 +1,14 @@
 ---
 description: Perfil de color de salida predeterminado de escala de grises. Especifica el nombre del perfil de color ICC que se utilizará para las imágenes de respuesta en escala de grises cuando no se especifique ningún espacio de color de salida con icc= y para ciertos valores de color en escala de grises especificados con varios comandos de Image Serving, como color=.
-seo-description: Perfil de color de salida predeterminado de escala de grises. Especifica el nombre del perfil de color ICC que se utilizará para las imágenes de respuesta en escala de grises cuando no se especifique ningún espacio de color de salida con icc= y para ciertos valores de color en escala de grises especificados con varios comandos de Image Serving, como color=.
-seo-title: IccProfileGray
 solution: Experience Manager
 title: IccProfileGray
-uuid: a7d40114-f91f-4637-bb49-5b06b9ce846d
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 1%
+source-wordcount: '156'
+ht-degree: 2%
 
 ---
 
