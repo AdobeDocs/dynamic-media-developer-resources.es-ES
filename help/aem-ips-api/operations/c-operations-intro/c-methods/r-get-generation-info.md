@@ -1,17 +1,14 @@
 ---
 description: Devuelve 2 tipos diferentes de información en función de los parámetros transferidos. originatorHandle devuelve información sobre los recursos generados a partir del recurso especificado. generateHandle devuelve información sobre los pasos utilizados para generar el recurso o archivo especificado.
-seo-description: Devuelve 2 tipos diferentes de información en función de los parámetros transferidos. originatorHandle devuelve información sobre los recursos generados a partir del recurso especificado. generateHandle devuelve información sobre los pasos utilizados para generar el recurso o archivo especificado.
-seo-title: getGenerationInfo
 solution: Experience Manager
 title: getGenerationInfo
-uuid: 4310a702-c08b-4479-9f57-9f2bc1d6b032
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 8%
+source-wordcount: '203'
+ht-degree: 9%
 
 ---
 
