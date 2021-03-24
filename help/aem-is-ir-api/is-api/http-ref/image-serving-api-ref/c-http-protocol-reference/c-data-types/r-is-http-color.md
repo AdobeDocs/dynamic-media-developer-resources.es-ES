@@ -1,16 +1,13 @@
 ---
 description: Valores de color. Puede especificar valores de color mediante notación hexadecimal, una lista de valores de componentes separados por coma o decimales.
-seo-description: Valores de color. Puede especificar valores de color mediante notación hexadecimal, una lista de valores de componentes separados por coma o decimales.
-seo-title: color
 solution: Experience Manager
 title: color
-uuid: 61308b8e-eaac-4b2e-8500-2f9efa8a6ce8
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '439'
 ht-degree: 14%
 
 ---
