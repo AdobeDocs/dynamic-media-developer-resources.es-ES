@@ -1,16 +1,13 @@
 ---
 description: El resaltado del foco de entrada se muestra alrededor del elemento de interfaz de usuario del visualizador enfocado.
-seo-description: El resaltado del foco de entrada se muestra alrededor del elemento de interfaz de usuario del visualizador enfocado.
-seo-title: Enfoque resaltado
 solution: Experience Manager
 title: Enfoque resaltado
-uuid: 50411b68-8d01-4240-b548-a6c51374a8c6
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
