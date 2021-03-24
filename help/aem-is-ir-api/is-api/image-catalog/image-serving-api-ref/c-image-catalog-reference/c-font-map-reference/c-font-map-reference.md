@@ -1,16 +1,13 @@
 ---
 description: Si se requiere un mapa de fuente para un catálogo de imágenes, la ruta relativa o absoluta del archivo de mapa de fuente debe especificarse en el atributo FontMapFile.
-seo-description: Si se requiere un mapa de fuente para un catálogo de imágenes, la ruta relativa o absoluta del archivo de mapa de fuente debe especificarse en el atributo FontMapFile.
-seo-title: Referencia de mapa de fuentes
 solution: Experience Manager
 title: Referencia de mapa de fuentes
-uuid: 7a6c5eda-3b47-4c23-8a33-7b7e39de29c9
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '109'
 ht-degree: 2%
 
 ---
