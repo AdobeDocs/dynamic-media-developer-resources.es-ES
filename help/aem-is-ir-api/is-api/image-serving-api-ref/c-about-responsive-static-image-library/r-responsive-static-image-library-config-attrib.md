@@ -1,16 +1,13 @@
 ---
 description: Los atributos de configuración se definen como atributos directamente en un elemento IMG que administra la biblioteca de imágenes adaptables. Cada imagen puede tener su propio conjunto de atributos.
-seo-description: Los atributos de configuración se definen como atributos directamente en un elemento IMG que administra la biblioteca de imágenes adaptables. Cada imagen puede tener su propio conjunto de atributos.
-seo-title: 'Referencia de comandos: Atributos de configuración'
 solution: Experience Manager
 title: 'Referencia de comandos: Atributos de configuración'
-uuid: a3d52680-2a28-40c8-9b5f-b1c252c88e4d
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
