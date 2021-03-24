@@ -1,17 +1,14 @@
 ---
 description: La barra de desplazamiento del vídeo es el control deslizante horizontal que permite al usuario buscar dinámicamente cualquier posición horaria dentro del vídeo que se está reproduciendo.
-seo-description: La barra de desplazamiento del vídeo es el control deslizante horizontal que permite al usuario buscar dinámicamente cualquier posición horaria dentro del vídeo que se está reproduciendo.
-seo-title: Arrastrar el cabezal de reproducción de vídeo
 solution: Experience Manager
 title: Arrastrar el cabezal de reproducción de vídeo
-uuid: c68d3693-3772-470a-893a-b701ddec3414
 feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 2%
+source-wordcount: '366'
+ht-degree: 3%
 
 ---
 
