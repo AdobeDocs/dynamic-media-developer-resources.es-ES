@@ -1,17 +1,14 @@
 ---
 description: Image Serving permite combinar cualquier número de capas de imagen, texto y color sólido en una imagen compuesta.
-seo-description: Image Serving permite combinar cualquier número de capas de imagen, texto y color sólido en una imagen compuesta.
-seo-title: Información general sobre capas
 solution: Experience Manager
 title: Información general sobre capas
-uuid: 74c0855b-050a-4631-adea-9488bca67fd2
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 2%
+source-wordcount: '61'
+ht-degree: 3%
 
 ---
 
