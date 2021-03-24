@@ -1,16 +1,13 @@
 ---
 description: La herramienta Compartir Facebook consiste en un botón agregado al panel Compartir en Social . Cuando se hace clic en el botón, el usuario se redirige a un cuadro de diálogo de uso compartido proporcionado por un servicio social. La posición del botón la gestiona completamente la herramienta de uso compartido de Social.
-seo-description: La herramienta Compartir Facebook consiste en un botón agregado al panel Compartir en Social . Cuando se hace clic en el botón, el usuario se redirige a un cuadro de diálogo de uso compartido proporcionado por un servicio social. La posición del botón la gestiona completamente la herramienta de uso compartido de Social.
-seo-title: Compartir en Facebook
 solution: Experience Manager
 title: Compartir en Facebook
-uuid: 614e7a06-90b6-4fe0-9ecf-be97881ec6d1
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
