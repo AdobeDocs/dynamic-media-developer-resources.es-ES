@@ -1,17 +1,14 @@
 ---
 description: Al pulsar o hacer clic en este botón, la imagen se gira a la derecha en la vista principal. Este botón no se muestra en los teléfonos móviles para ahorrar espacio en la pantalla. Además, el botón se oculta cuando se utiliza un conjunto de giros multidimensional. Puede cambiar el tamaño, el aspecto y la posición del botón mediante CSS.
-seo-description: Al pulsar o hacer clic en este botón, la imagen se gira a la derecha en la vista principal. Este botón no se muestra en los teléfonos móviles para ahorrar espacio en la pantalla. Además, el botón se oculta cuando se utiliza un conjunto de giros multidimensional. Puede cambiar el tamaño, el aspecto y la posición del botón mediante CSS.
-seo-title: Botón derecho de giro
 solution: Experience Manager
 title: Botón derecho de giro
-uuid: 3af363bd-3de3-42c7-80cc-4512ffc1f10d
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 3%
+source-wordcount: '342'
+ht-degree: 4%
 
 ---
 
