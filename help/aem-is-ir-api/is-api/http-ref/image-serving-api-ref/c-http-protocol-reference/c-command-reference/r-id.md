@@ -1,16 +1,13 @@
 ---
 description: Versión de imagen/metadatos. Cuando se trabaja con contenido que cambia con frecuencia, los servidores de las redes de almacenamiento en caché como Akamai, las cachés de los navegadores y las cachés de los servidores proxy corporativos pueden almacenar respuestas de servicio de imágenes que pueden estar desactualizadas durante períodos de tiempo.
-seo-description: Versión de imagen/metadatos. Cuando se trabaja con contenido que cambia con frecuencia, los servidores de las redes de almacenamiento en caché como Akamai, las cachés de los navegadores y las cachés de los servidores proxy corporativos pueden almacenar respuestas de servicio de imágenes que pueden estar desactualizadas durante períodos de tiempo.
-seo-title: id
 solution: Experience Manager
 title: id
-uuid: 3d526326-c8fa-4aef-95a9-93ccacf08f73
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '274'
 ht-degree: 4%
 
 ---
