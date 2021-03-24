@@ -1,16 +1,13 @@
 ---
 description: vntc genera datos de texto que se envían al servidor o al archivo de registro.
-seo-description: vntc genera datos de texto que se envían al servidor o al archivo de registro.
-seo-title: Salida
 solution: Experience Manager
 title: Salida
-uuid: f2041600-408f-481c-95fc-3c112def7b8a
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
