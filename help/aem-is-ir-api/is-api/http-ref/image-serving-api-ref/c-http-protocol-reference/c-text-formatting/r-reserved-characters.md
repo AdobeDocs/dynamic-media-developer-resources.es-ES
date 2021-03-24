@@ -1,16 +1,13 @@
 ---
 description: Esta sección enumera los caracteres reservados para propósitos específicos.
-seo-description: Esta sección enumera los caracteres reservados para propósitos específicos.
-seo-title: Caracteres reservados
 solution: Experience Manager
 title: Caracteres reservados
-uuid: 3b18da2e-5399-49d0-83c9-66dbf6e7807b
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
