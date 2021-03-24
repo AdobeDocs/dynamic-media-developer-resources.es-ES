@@ -1,16 +1,13 @@
 ---
 description: El panel Muestras interactivas aparece junto al contenido del vídeo si se han pasado datos interactivos al visor en la configuración. Consiste en un banner en la parte superior que representa texto como "Haga clic para ver", una columna de uno o más muestras interactivas y dos botones de desplazamiento (disponibles solo en sistemas de escritorio).
-seo-description: El panel Muestras interactivas aparece junto al contenido del vídeo si se han pasado datos interactivos al visor en la configuración. Consiste en un banner en la parte superior que representa texto como "Haga clic para ver", una columna de uno o más muestras interactivas y dos botones de desplazamiento (disponibles solo en sistemas de escritorio).
-seo-title: Muestras interactivas
 solution: Experience Manager
 title: Muestras interactivas
-uuid: 9f9df764-3dd0-414e-a0db-4287f0019313
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '895'
 ht-degree: 2%
 
 ---
