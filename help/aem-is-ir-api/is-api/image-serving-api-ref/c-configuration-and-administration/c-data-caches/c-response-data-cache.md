@@ -1,16 +1,13 @@
 ---
 description: Platform Server almacena en caché toda la imagen de respuesta y ciertos datos de texto en el disco a menos que una solicitud esté marcada como no almacenable en caché.
-seo-description: Platform Server almacena en caché toda la imagen de respuesta y ciertos datos de texto en el disco a menos que una solicitud esté marcada como no almacenable en caché.
-seo-title: Caché de datos de respuesta
 solution: Experience Manager
 title: Caché de datos de respuesta
-uuid: dbfda210-3b50-4e8c-8d77-7263ae4e80a2
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, administrador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
