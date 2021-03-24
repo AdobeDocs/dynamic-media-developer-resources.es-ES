@@ -1,16 +1,13 @@
 ---
 description: Referencia de la API de JavaScript para el visualizador de vídeo.
-seo-description: Referencia de la API de JavaScript para el visualizador de vídeo.
-seo-title: init
 solution: Experience Manager
 title: init
-uuid: 2ee5bddc-957c-4813-9285-d64b9ac7d590
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '129'
 ht-degree: 2%
 
 ---
