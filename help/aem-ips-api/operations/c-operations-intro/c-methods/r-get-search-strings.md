@@ -1,17 +1,14 @@
 ---
 description: Obtiene las cadenas de búsqueda, palabras clave y otra información sobre un recurso. La respuesta contiene información adicional sobre el recurso.
-seo-description: Obtiene las cadenas de búsqueda, palabras clave y otra información sobre un recurso. La respuesta contiene información adicional sobre el recurso.
-seo-title: getSearchStrings
 solution: Experience Manager
 title: getSearchStrings
-uuid: 9d588d6b-c79c-4531-a2e8-8467254a7985
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 13%
+source-wordcount: '102'
+ht-degree: 16%
 
 ---
 
