@@ -1,16 +1,13 @@
 ---
 description: El icono de reproducción se superpone en el área de vista principal. Se muestra cuando el vídeo está en pausa o cuando se llega al final del vídeo, y también depende del parámetro iconeffect.
-seo-description: El icono de reproducción se superpone en el área de vista principal. Se muestra cuando el vídeo está en pausa o cuando se llega al final del vídeo, y también depende del parámetro iconeffect.
-seo-title: Icono, efecto
 solution: Experience Manager
 title: Icono, efecto
-uuid: 81c9c344-5256-4015-8d02-abbf09dca541
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '177'
 ht-degree: 1%
 
 ---
