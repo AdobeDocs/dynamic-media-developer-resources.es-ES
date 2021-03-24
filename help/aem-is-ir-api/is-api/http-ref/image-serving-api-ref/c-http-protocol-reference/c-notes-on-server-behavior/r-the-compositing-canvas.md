@@ -1,16 +1,13 @@
 ---
 description: Si req=img, el tamaño del lienzo de composición viene determinado completamente por el tamaño de la capa 0.
-seo-description: Si req=img, el tamaño del lienzo de composición viene determinado completamente por el tamaño de la capa 0.
-seo-title: El lienzo de composición
 solution: Experience Manager
 title: El lienzo de composición
-uuid: 7ec2f1b3-61fc-4bfe-96d2-a5946a238e74
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
