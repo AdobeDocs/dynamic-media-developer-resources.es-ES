@@ -1,16 +1,13 @@
 ---
 description: Las siguientes opciones se pueden aplicar independientemente del tipo de sourceFile.
-seo-description: Las siguientes opciones se pueden aplicar independientemente del tipo de sourceFile.
-seo-title: Opciones comunes
 solution: Experience Manager
 title: Opciones comunes
-uuid: fdf09873-4102-4ed6-a315-a87cba5c44c7
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '664'
 ht-degree: 0%
 
 ---
