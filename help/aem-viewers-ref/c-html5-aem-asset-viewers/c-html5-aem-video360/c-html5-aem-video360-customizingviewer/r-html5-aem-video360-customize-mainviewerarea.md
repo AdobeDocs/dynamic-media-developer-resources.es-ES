@@ -1,17 +1,14 @@
 ---
 description: La zona de vista principal es la zona ocupada por el vídeo 360. Normalmente se configura para que se ajuste a la pantalla del dispositivo disponible cuando no se especifica ningún tamaño.
-seo-description: La zona de vista principal es la zona ocupada por el vídeo 360. Normalmente se configura para que se ajuste a la pantalla del dispositivo disponible cuando no se especifica ningún tamaño.
-seo-title: Área del visor principal
 solution: Experience Manager
 title: Área del visor principal
-uuid: ec321901-f077-4f71-a48c-20cae11c41d1
 feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 2%
+source-wordcount: '127'
+ht-degree: 3%
 
 ---
 
