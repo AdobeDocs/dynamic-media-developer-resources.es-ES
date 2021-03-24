@@ -1,16 +1,13 @@
 ---
 description: Al pulsar o hacer clic en este botón, el usuario pasará a la siguiente página del catálogo. Este botón aparece en la barra de control principal. Este botón no se muestra en los teléfonos móviles para ahorrar espacio en la pantalla. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
-seo-description: Al pulsar o hacer clic en este botón, el usuario pasará a la siguiente página del catálogo. Este botón aparece en la barra de control principal. Este botón no se muestra en los teléfonos móviles para ahorrar espacio en la pantalla. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
-seo-title: Botón Grande de página siguiente
 solution: Experience Manager
 title: Botón Grande de página siguiente
-uuid: b68332b1-7b6b-46d8-8a0a-aa5a78fca5fb
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '294'
 ht-degree: 2%
 
 ---
