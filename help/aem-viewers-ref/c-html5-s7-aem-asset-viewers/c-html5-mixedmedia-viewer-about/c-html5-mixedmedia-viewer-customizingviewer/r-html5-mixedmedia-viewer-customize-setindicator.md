@@ -1,16 +1,13 @@
 ---
 description: El indicador de conjunto es una serie de puntos representados sobre las muestras principales cuando se utiliza un visor en un dispositivo táctil. Los puntos ayudan a los usuarios a navegar por las páginas de miniaturas cuando los botones de desplazamiento no están disponibles.
-seo-description: El indicador de conjunto es una serie de puntos representados sobre las muestras principales cuando se utiliza un visor en un dispositivo táctil. Los puntos ayudan a los usuarios a navegar por las páginas de miniaturas cuando los botones de desplazamiento no están disponibles.
-seo-title: Definir indicador
 solution: Experience Manager
 title: Definir indicador
-uuid: e62fac7c-28b6-40bf-83cc-8bcfbaa0dfa3
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '269'
 ht-degree: 1%
 
 ---
