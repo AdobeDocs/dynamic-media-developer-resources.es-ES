@@ -1,16 +1,13 @@
 ---
 description: Solicitar elemento de regla. Uno o más son opcionales en el elemento <conjunto de reglas> .
-seo-description: Solicitar elemento de regla. Uno o más son opcionales en el elemento <conjunto de reglas> .
-seo-title: regla
 solution: Experience Manager
 title: regla
-uuid: f7071681-e97e-4081-aeb1-093d2b23041c
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '200'
 ht-degree: 5%
 
 ---
