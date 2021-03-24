@@ -1,17 +1,14 @@
 ---
 description: En esta sección se describen los atributos de datos SVG.
-seo-description: En esta sección se describen los atributos de datos SVG.
-seo-title: Referencia de datos de SVG
 solution: Experience Manager
 title: Referencia de datos de SVG
-uuid: d5c48d0c-b632-44eb-9f41-c5770c468b01
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 7%
+source-wordcount: '32'
+ht-degree: 9%
 
 ---
 
