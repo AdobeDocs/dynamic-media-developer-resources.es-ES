@@ -3,11 +3,10 @@ description: Personalización del visor de zoom en línea
 keywords: adaptable
 solution: Experience Manager
 title: Personalización del visor de zoom en línea
-uuid: c9203ea7-47dc-40f6-add8-04e4258da7c9
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom en línea
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 0%
