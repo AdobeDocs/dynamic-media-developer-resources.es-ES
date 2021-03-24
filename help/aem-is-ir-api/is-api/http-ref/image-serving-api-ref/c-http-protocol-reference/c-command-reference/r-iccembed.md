@@ -1,17 +1,14 @@
 ---
 description: Incrustar perfil de color. Especifica si el perfil de color ICC de trabajo o el perfil especificado con icc= deben incrustarse en la imagen de respuesta.
-seo-description: Incrustar perfil de color. Especifica si el perfil de color ICC de trabajo o el perfil especificado con icc= deben incrustarse en la imagen de respuesta.
-seo-title: iccEmbed
 solution: Experience Manager
 title: iccEmbed
-uuid: ccd3fd2f-6f73-4725-a51a-9daf643d71af
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 3%
+source-wordcount: '100'
+ht-degree: 4%
 
 ---
 
