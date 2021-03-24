@@ -1,17 +1,14 @@
 ---
 description: Permite a los administradores crear nuevos campos de metadatos para coordinarlos con sistemas de administración de contenido o para operaciones de plantilla. Algunos ejemplos de campos de metadatos creados incluyen palabras clave, información sobre el autor de la imagen o información sobre el titular de los derechos de autor.
-seo-description: Permite a los administradores crear nuevos campos de metadatos para coordinarlos con sistemas de administración de contenido o para operaciones de plantilla. Algunos ejemplos de campos de metadatos creados incluyen palabras clave, información sobre el autor de la imagen o información sobre el titular de los derechos de autor.
-seo-title: createMetadataField
 solution: Experience Manager
 title: createMetadataField
-uuid: 50ab61fa-df44-4305-ad9f-693c4aea1e69
 feature: Dynamic Media Classic,SDK/API,Metadatos
 role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 12%
+source-wordcount: '290'
+ht-degree: 13%
 
 ---
 
