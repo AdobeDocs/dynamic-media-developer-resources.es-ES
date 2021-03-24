@@ -1,16 +1,13 @@
 ---
 description: La agrupación en clúster de caché permite que varios servidores con equilibrio de carga intercambien entradas de caché en la caché de respuesta principal y la caché de datos secundaria (para solicitudes anidadas/incrustadas), con el potencial de aumentar significativamente la capacidad de respuesta del servidor eliminando la necesidad de generar la misma entrada de caché en varios servidores.
-seo-description: La agrupación en clúster de caché permite que varios servidores con equilibrio de carga intercambien entradas de caché en la caché de respuesta principal y la caché de datos secundaria (para solicitudes anidadas/incrustadas), con el potencial de aumentar significativamente la capacidad de respuesta del servidor eliminando la necesidad de generar la misma entrada de caché en varios servidores.
-seo-title: Clustering de caché
 solution: Experience Manager
 title: Clustering de caché
-uuid: 347165d6-a9e7-406e-81a8-8a91f745ce27
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, administrador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
