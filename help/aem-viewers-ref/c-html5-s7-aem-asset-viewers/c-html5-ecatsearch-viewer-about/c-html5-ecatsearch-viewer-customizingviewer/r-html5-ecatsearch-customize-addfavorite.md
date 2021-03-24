@@ -1,16 +1,13 @@
 ---
 description: La posición del botón Agregar favorito se administra completamente mediante el menú Favoritos.
-seo-description: La posición del botón Agregar favorito se administra completamente mediante el menú Favoritos.
-seo-title: Botón Agregar favorito
 solution: Experience Manager
 title: Botón Agregar favorito
-uuid: decde7d1-d7d1-4056-815c-2b6571110d9f
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
