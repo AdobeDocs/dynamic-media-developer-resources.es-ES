@@ -1,17 +1,14 @@
 ---
 description: Análisis progresivo JPEG. JPEG progresivo muestra una imagen de tal manera que inicialmente muestra una foto borrosa/de baja calidad en su totalidad. A medida que continúa el análisis, se vuelve más claro a medida que los datos de la imagen se descargan de forma más completa. Este parámetro le permite establecer el número de exploraciones que necesita (3, 4 o 5) para que aparezca toda la imagen.
-seo-description: Análisis progresivo JPEG. JPEG progresivo muestra una imagen de tal manera que inicialmente muestra una foto borrosa/de baja calidad en su totalidad. A medida que continúa el análisis, se vuelve más claro a medida que los datos de la imagen se descargan de forma más completa. Este parámetro le permite establecer el número de exploraciones que necesita (3, 4 o 5) para que aparezca toda la imagen.
-seo-title: pscan
 solution: Experience Manager
 title: pscan
-uuid: c8e1d7a9-679c-437f-aa53-67aca3f40b30
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 1%
+source-wordcount: '220'
+ht-degree: 2%
 
 ---
 
