@@ -1,16 +1,13 @@
 ---
 description: El visor admite el modo de funcionamiento de pantalla completa.
-seo-description: El visor admite el modo de funcionamiento de pantalla completa.
-seo-title: Compatibilidad con pantalla completa
 solution: Experience Manager
 title: Compatibilidad con pantalla completa
-uuid: 054b10bd-02f2-49a9-83e4-e9b7cb71a4fd
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
