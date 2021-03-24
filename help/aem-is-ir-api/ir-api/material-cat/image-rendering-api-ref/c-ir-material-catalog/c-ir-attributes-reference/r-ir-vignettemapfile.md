@@ -1,17 +1,14 @@
 ---
 description: Ruta del archivo de datos del mapa de viñetas. Especifica el archivo que contiene el mapa de viñetas de este catálogo de imágenes.
-seo-description: Ruta del archivo de datos del mapa de viñetas. Especifica el archivo que contiene el mapa de viñetas de este catálogo de imágenes.
-seo-title: Archivo de mapa de viñetas
 solution: Experience Manager
 title: Archivo de mapa de viñetas
-uuid: d07dcfea-241e-4431-b09e-dbd1df38b8ca
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 4%
+source-wordcount: '77'
+ht-degree: 5%
 
 ---
 
