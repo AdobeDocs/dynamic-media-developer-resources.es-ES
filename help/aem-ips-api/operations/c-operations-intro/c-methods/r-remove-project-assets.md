@@ -1,16 +1,13 @@
 ---
 description: Quita los recursos de un proyecto. No destruye los recursos.
-seo-description: Quita los recursos de un proyecto. No destruye los recursos.
-seo-title: removeProjectAssets
 solution: Experience Manager
 title: removeProjectAssets
-uuid: bae09dc3-4328-4264-8fb2-e4f0c53546eb
 feature: Dynamic Media Classic,SDK/API,Administración de activos
 role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '187'
 ht-degree: 10%
 
 ---
