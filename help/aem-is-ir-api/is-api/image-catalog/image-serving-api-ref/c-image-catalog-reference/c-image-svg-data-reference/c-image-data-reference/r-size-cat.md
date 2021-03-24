@@ -1,17 +1,14 @@
 ---
 description: Tamaño de imagen. Tamaño de píxel de la imagen de resolución completa a la que hace referencia la ruta del catálogo.
-seo-description: Tamaño de imagen. Tamaño de píxel de la imagen de resolución completa a la que hace referencia la ruta del catálogo.
-seo-title: Tamaño
 solution: Experience Manager
 title: Tamaño
-uuid: 6fe2aeb6-0dd7-4631-955f-ad74d11b613d
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 11%
+source-wordcount: '112'
+ht-degree: 9%
 
 ---
 
