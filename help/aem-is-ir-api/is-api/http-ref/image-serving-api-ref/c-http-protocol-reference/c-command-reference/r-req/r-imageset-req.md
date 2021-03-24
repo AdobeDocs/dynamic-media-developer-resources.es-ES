@@ -1,16 +1,13 @@
 ---
 description: Datos del conjunto de imágenes del catálogo de imágenes. Devuelve los datos del conjunto de imágenes para la entrada del catálogo de imágenes especificada en la ruta URL.
-seo-description: Datos del conjunto de imágenes del catálogo de imágenes. Devuelve los datos del conjunto de imágenes para la entrada del catálogo de imágenes especificada en la ruta URL.
-seo-title: imageset
 solution: Experience Manager
 title: imageset
-uuid: 8854e903-a85f-403a-ae3d-b7281a236262
 feature: Dynamic Media Classic,SDK/API,Conjuntos de imágenes
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '172'
 ht-degree: 2%
 
 ---
