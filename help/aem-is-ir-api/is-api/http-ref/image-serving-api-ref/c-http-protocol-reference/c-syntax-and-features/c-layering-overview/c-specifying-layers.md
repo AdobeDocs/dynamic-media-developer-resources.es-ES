@@ -1,16 +1,13 @@
 ---
 description: En la secuencia de comandos del modificador de la dirección URL o del catálogo, una secuencia de definición de capa comienza con el comando layer= y termina con otro comando layer=, un comando effect= o el final de la dirección URL.
-seo-description: En la secuencia de comandos del modificador de la dirección URL o del catálogo, una secuencia de definición de capa comienza con el comando layer= y termina con otro comando layer=, un comando effect= o el final de la dirección URL.
-seo-title: Especificación de capas
 solution: Experience Manager
 title: Especificación de capas
-uuid: 86ece2a6-5b91-4a24-baaa-542d9ae1e544
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
