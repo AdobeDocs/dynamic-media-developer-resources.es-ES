@@ -1,16 +1,13 @@
 ---
 description: Resolución de objeto predeterminada. Proporciona una resolución de objeto predeterminada en caso de que un registro de catálogo concreto no contenga un valor de resolución de catálogo válido.
-seo-description: Resolución de objeto predeterminada. Proporciona una resolución de objeto predeterminada en caso de que un registro de catálogo concreto no contenga un valor de resolución de catálogo válido.
-seo-title: Resolución
 solution: Experience Manager
 title: Resolución
-uuid: dbc594de-05b9-4efa-93a6-4fdcf1981d8d
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '90'
 ht-degree: 6%
 
 ---
