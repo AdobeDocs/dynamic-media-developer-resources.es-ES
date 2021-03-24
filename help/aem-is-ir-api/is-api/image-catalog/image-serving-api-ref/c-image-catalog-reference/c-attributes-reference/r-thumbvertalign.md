@@ -1,17 +1,14 @@
 ---
 description: Alineación vertical para miniaturas. Especifica la alineación vertical de la imagen en miniatura en el rectángulo de imagen de respuesta especificado por wid= y hei= o por el atributo DefaultThumbPix.
-seo-description: Alineación vertical para miniaturas. Especifica la alineación vertical de la imagen en miniatura en el rectángulo de imagen de respuesta especificado por wid= y hei= o por el atributo DefaultThumbPix.
-seo-title: ThumbVertAlign
 solution: Experience Manager
 title: ThumbVertAlign
-uuid: a90281eb-9681-4b4a-a94b-663f007fb32f
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 3%
+source-wordcount: '97'
+ht-degree: 4%
 
 ---
 
