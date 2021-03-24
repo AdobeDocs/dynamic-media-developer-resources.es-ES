@@ -1,17 +1,14 @@
 ---
 description: La herramienta de creación de viñetas (parte del paquete de creación de imágenes de Dynamic Media) proporciona mecanismos para controlar aspectos de bajo nivel del motor de renderización de la viñeta.
-seo-description: La herramienta de creación de viñetas (parte del paquete de creación de imágenes de Dynamic Media) proporciona mecanismos para controlar aspectos de bajo nivel del motor de renderización de la viñeta.
-seo-title: Configuración avanzada de procesamiento
 solution: Experience Manager
 title: Configuración avanzada de procesamiento
-uuid: 18e7f3cf-4d30-445c-813c-546a91987b99
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 24%
+source-wordcount: '615'
+ht-degree: 25%
 
 ---
 
@@ -63,7 +60,7 @@ Estos ajustes se controlan de forma interactiva en la creación de imágenes. Es
   <tr> 
    <td colname="col1"> <p>V </p> </td> 
    <td colname="col2"> <p>Radio USM (píxeles). </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>100 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
@@ -113,7 +110,7 @@ Estos ajustes se controlan de forma interactiva en la creación de imágenes. Es
   <tr> 
    <td colname="col1"> <p>S </p> </td> 
    <td colname="col2"> <p>Supersampling: Tasa aleatoria. </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>20 </p> </td> 
    <td colname="col5"> <p>El valor predeterminado es 5. </p> </td> 
   </tr> 
