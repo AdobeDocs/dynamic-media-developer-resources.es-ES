@@ -1,16 +1,13 @@
 ---
 description: Estos comandos se aplican a las capas de imagen, además de a los comandos de capa comunes.
-seo-description: Estos comandos se aplican a las capas de imagen, además de a los comandos de capa comunes.
-seo-title: Comandos de capa de imagen
 solution: Experience Manager
 title: Comandos de capa de imagen
-uuid: eb8d2af0-3ec1-4730-886b-7494fb22b3e4
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '45'
 ht-degree: 0%
 
 ---
