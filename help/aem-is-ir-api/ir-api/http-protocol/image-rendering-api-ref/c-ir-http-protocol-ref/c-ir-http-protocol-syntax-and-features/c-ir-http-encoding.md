@@ -1,17 +1,14 @@
 ---
 description: Los valores de comando deben tener codificación http utilizando secuencias de escape %xx, de modo que las cadenas de valor no incluyan los caracteres reservados '=', '&' y '%'.
-seo-description: Los valores de comando deben tener codificación http utilizando secuencias de escape %xx, de modo que las cadenas de valor no incluyan los caracteres reservados '=', '&' y '%'.
-seo-title: Codificación HTTP de renderización de imágenes
 solution: Experience Manager
 title: Codificación HTTP de renderización de imágenes
-uuid: 37bd0040-7bad-4548-ab39-7f598a217732
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 1%
+source-wordcount: '147'
+ht-degree: 2%
 
 ---
 
