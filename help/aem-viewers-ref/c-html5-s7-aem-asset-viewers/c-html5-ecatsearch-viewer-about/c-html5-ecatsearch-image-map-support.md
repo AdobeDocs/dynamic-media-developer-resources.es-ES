@@ -1,16 +1,13 @@
 ---
 description: El visor de búsqueda en el catálogo electrónico admite la renderización de iconos de mapa de imagen encima de la vista principal.
-seo-description: El visor de búsqueda en el catálogo electrónico admite la renderización de iconos de mapa de imagen encima de la vista principal.
-seo-title: Compatibilidad con mapas de imágenes
 solution: Experience Manager
 title: Compatibilidad con mapas de imágenes
-uuid: 22ba8168-b384-4eda-a147-ce8172cfed11
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
