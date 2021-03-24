@@ -1,16 +1,13 @@
 ---
 description: Documentación de atributos de configuración para el visor de catálogos electrónicos.
-seo-description: Documentación de atributos de configuración para el visor de catálogos electrónicos.
-seo-title: 'Referencia de comandos: Atributos de configuración'
 solution: Experience Manager
 title: 'Referencia de comandos: Atributos de configuración'
-uuid: e1111ce2-67e8-449a-9cc2-bb53b61158a9
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
