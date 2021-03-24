@@ -3,11 +3,10 @@ description: eCatalog Search Viewer es un visor de catálogos que muestra follet
 keywords: adaptable
 solution: Experience Manager
 title: Búsqueda en el catálogo electrónico
-uuid: f5ec33bf-e827-4709-9780-6f17096bf306
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '2191'
 ht-degree: 0%
