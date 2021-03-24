@@ -1,16 +1,13 @@
 ---
 description: Ruta del archivo de máscara. Ruta relativa o absoluta y nombre de un archivo de imagen de máscara asociado con este registro de catálogo.
-seo-description: Ruta del archivo de máscara. Ruta relativa o absoluta y nombre de un archivo de imagen de máscara asociado con este registro de catálogo.
-seo-title: MaskPath
 solution: Experience Manager
 title: MaskPath
-uuid: a2d1f08a-0a26-41a6-9be2-f5cc2afb15c4
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '179'
 ht-degree: 3%
 
 ---
