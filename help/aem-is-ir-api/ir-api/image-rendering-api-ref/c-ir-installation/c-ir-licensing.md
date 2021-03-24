@@ -1,16 +1,13 @@
 ---
 description: Se requiere una clave de licencia de Dynamic Media Image Rendering y debe estar instalada en cada sistema en el que esté instalado Image Rendering.
-seo-description: Se requiere una clave de licencia de Dynamic Media Image Rendering y debe estar instalada en cada sistema en el que esté instalado Image Rendering.
-seo-title: Licencias
 solution: Experience Manager
 title: Licencias
-uuid: dbc4eddc-a518-4337-9e09-ba40c02de797
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
