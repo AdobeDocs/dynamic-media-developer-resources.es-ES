@@ -1,16 +1,13 @@
 ---
 description: Los archivos de viñeta se pueden reemplazar o eliminar mientras el servidor está activo utilizando el comando req=release justo antes de que se sobrescriba el archivo.
-seo-description: Los archivos de viñeta se pueden reemplazar o eliminar mientras el servidor está activo utilizando el comando req=release justo antes de que se sobrescriba el archivo.
-seo-title: Eliminación o reemplazo de archivos de datos de origen
 solution: Experience Manager
 title: Eliminación o reemplazo de archivos de datos de origen
-uuid: 13dc0489-7ab0-481e-b213-214affe9819e
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, administrador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
