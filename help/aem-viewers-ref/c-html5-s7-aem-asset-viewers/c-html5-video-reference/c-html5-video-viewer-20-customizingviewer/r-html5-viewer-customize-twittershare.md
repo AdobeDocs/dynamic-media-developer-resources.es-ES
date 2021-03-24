@@ -1,16 +1,13 @@
 ---
 description: La herramienta Compartir en Twitter consiste en un botón añadido al panel Compartir en Social . Cuando se hace clic en el botón, el usuario se redirige a un cuadro de diálogo de uso compartido proporcionado por un servicio social. La posición del botón la gestiona completamente la herramienta de uso compartido de Social.
-seo-description: La herramienta Compartir en Twitter consiste en un botón añadido al panel Compartir en Social . Cuando se hace clic en el botón, el usuario se redirige a un cuadro de diálogo de uso compartido proporcionado por un servicio social. La posición del botón la gestiona completamente la herramienta de uso compartido de Social.
-seo-title: Compartir en Twitter
 solution: Experience Manager
 title: Compartir en Twitter
-uuid: 15fed20e-89c4-4c4b-8f0d-1f0bac0c0af7
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
