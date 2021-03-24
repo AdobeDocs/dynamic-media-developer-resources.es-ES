@@ -1,17 +1,14 @@
 ---
 description: Información de imagen Digimarc. Habilita la incrustación de Digimarc y especifica el tipo de marca de agua y cualquier dato asociado específico de la imagen.
-seo-description: Información de imagen Digimarc. Habilita la incrustación de Digimarc y especifica el tipo de marca de agua y cualquier dato asociado específico de la imagen.
-seo-title: DigimarcInfo
 solution: Experience Manager
 title: DigimarcInfo
-uuid: 8371880e-47df-4333-b8a6-91feaf16c409
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 14%
+source-wordcount: '238'
+ht-degree: 15%
 
 ---
 
@@ -74,7 +71,7 @@ Cuatro valores enteros separados por comas.
    <td> <p>- </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>Protegido contra copias. </p> </td> 
   </tr> 
   <tr> 
@@ -82,7 +79,7 @@ Cuatro valores enteros separados por comas.
    <td> <p>Restringido. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>Protegido contra copias, restringido. </p> </td> 
   </tr> 
   <tr> 
@@ -121,7 +118,7 @@ La interpretación de `*`val1`*` y `*`val2`*` depende del `*`tipo`*`:
    <td> <p>No se usa. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>No se usa. </p> </td> 
    <td> <p>No se usa. </p> </td> 
   </tr> 
@@ -131,7 +128,7 @@ La interpretación de `*`val1`*` y `*`val2`*` depende del `*`tipo`*`:
    <td> <p>No se usa. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>ID de la transacción. </p> </td> 
    <td> <p>No se usa. </p> </td> 
   </tr> 
