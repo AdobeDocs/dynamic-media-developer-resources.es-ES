@@ -1,16 +1,13 @@
 ---
 description: Al pulsar o hacer clic en este botón, se reduce el tamaño de una imagen en la vista principal. Este botón no se muestra en los teléfonos móviles para ahorrar espacio en la pantalla. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
-seo-description: Al pulsar o hacer clic en este botón, se reduce el tamaño de una imagen en la vista principal. Este botón no se muestra en los teléfonos móviles para ahorrar espacio en la pantalla. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
-seo-title: Botón Reducir
 solution: Experience Manager
 title: Botón Reducir
-uuid: 2e95855a-c3af-4a79-a33a-f27d88dc14a4
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '256'
 ht-degree: 2%
 
 ---
