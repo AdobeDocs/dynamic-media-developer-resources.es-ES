@@ -1,16 +1,13 @@
 ---
 description: Las referencias $var$ que se producen en cualquier lugar dentro de las llaves de una solicitud externa incrustada se sustituyen por valores de definición de variable coincidentes.
-seo-description: Las referencias $var$ que se producen en cualquier lugar dentro de las llaves de una solicitud externa incrustada se sustituyen por valores de definición de variable coincidentes.
-seo-title: Procesamiento de variables en solicitudes externas incrustadas
 solution: Experience Manager
 title: Procesamiento de variables en solicitudes externas incrustadas
-uuid: b4334a2e-dab1-4458-ab3d-bb79d2c4fdd4
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
