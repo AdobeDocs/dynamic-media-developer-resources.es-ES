@@ -1,16 +1,13 @@
 ---
 description: Al pulsar o hacer clic en este botón, se cierra la página web contenedora. Este botón solo aparece si el parámetro close button está establecido en 1. Este botón no está disponible en sistemas de escritorio. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
-seo-description: Al pulsar o hacer clic en este botón, se cierra la página web contenedora. Este botón solo aparece si el parámetro close button está establecido en 1. Este botón no está disponible en sistemas de escritorio. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
-seo-title: Botón Cerrar
 solution: Experience Manager
 title: Botón Cerrar
-uuid: b0de1600-6b02-4b59-aac6-ade0ec6dc087
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '275'
 ht-degree: 2%
 
 ---
