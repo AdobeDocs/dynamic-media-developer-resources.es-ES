@@ -1,16 +1,13 @@
 ---
 description: Aplicar indicadores. Especifica opciones de procesamiento adicionales.
-seo-description: Aplicar indicadores. Especifica opciones de procesamiento adicionales.
-seo-title: indicadores
 solution: Experience Manager
 title: indicadores
-uuid: 43ed24fe-461e-4973-aa44-8fba66668e6f
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '78'
 ht-degree: 5%
 
 ---
