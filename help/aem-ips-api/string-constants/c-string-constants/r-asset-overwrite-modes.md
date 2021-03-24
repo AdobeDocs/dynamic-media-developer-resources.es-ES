@@ -5,7 +5,7 @@ title: Modos de sobrescritura de recursos
 feature: Dynamic Media Classic,SDK/API,Administración de activos
 role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt
 source-wordcount: '25'
 ht-degree: 8%
