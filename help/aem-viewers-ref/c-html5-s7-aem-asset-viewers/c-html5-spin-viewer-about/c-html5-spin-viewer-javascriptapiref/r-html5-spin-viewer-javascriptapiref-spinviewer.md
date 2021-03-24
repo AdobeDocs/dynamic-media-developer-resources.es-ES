@@ -1,16 +1,13 @@
 ---
 description: Referencia de la API de JavaScript para el visualizador de giros.
-seo-description: Referencia de la API de JavaScript para el visualizador de giros.
-seo-title: Visualizador de giros
 solution: Experience Manager
 title: Visualizador de giros
-uuid: e9048f17-7a2a-4eae-a5a0-df14f16aebc5
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de giros
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '215'
 ht-degree: 3%
 
 ---
