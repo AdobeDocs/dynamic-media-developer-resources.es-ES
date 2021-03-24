@@ -1,16 +1,13 @@
 ---
 description: Coordenadas normalizadas. Se utiliza para especificar posiciones relativas dentro de una imagen, como desplazamientos de imagen o parámetros de recorte, normalizados al tamaño de la imagen.
-seo-description: Coordenadas normalizadas. Se utiliza para especificar posiciones relativas dentro de una imagen, como desplazamientos de imagen o parámetros de recorte, normalizados al tamaño de la imagen.
-seo-title: codeN
 solution: Experience Manager
 title: codeN
-uuid: e182650b-aff6-4dd2-8edb-cd0d361865fd
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
