@@ -1,16 +1,13 @@
 ---
 description: Color y grosor del grupo de mosaicos. Simula el suelo para cerámica y piedra natural.
-seo-description: Color y grosor del grupo de mosaicos. Simula el suelo para cerámica y piedra natural.
-seo-title: grut
 solution: Experience Manager
 title: grut
-uuid: 00069004-40f2-4ab6-85d8-ca197b7bef69
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '173'
 ht-degree: 2%
 
 ---
