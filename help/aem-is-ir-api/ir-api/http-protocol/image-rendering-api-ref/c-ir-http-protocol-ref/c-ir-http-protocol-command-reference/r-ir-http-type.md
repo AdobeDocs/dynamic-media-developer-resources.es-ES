@@ -1,17 +1,14 @@
 ---
 description: Tipo de superficie de material. Especifica el tipo de superficie del material.
-seo-description: Tipo de superficie de material. Especifica el tipo de superficie del material.
-seo-title: tipo
 solution: Experience Manager
 title: tipo
-uuid: 0f107d50-b363-4670-bb02-873677e7bbea
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 21%
+source-wordcount: '164'
+ht-degree: 22%
 
 ---
 
