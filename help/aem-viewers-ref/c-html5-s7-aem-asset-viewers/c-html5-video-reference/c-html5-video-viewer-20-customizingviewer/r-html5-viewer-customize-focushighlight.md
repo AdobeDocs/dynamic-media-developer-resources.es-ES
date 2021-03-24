@@ -1,17 +1,14 @@
 ---
 description: El resaltado del foco de entrada que se muestra alrededor del elemento de la interfaz de usuario del visor centrado se controla con el selector de clases CSS.
-seo-description: El resaltado del foco de entrada que se muestra alrededor del elemento de la interfaz de usuario del visor centrado se controla con el selector de clases CSS.
-seo-title: Enfoque resaltado
 solution: Experience Manager
 title: Enfoque resaltado
-uuid: cf5acb11-168e-4303-a637-d959687a0548
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 0%
+source-wordcount: '88'
+ht-degree: 1%
 
 ---
 
