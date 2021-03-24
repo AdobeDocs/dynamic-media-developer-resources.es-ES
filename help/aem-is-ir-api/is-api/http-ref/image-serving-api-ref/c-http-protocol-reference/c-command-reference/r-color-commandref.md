@@ -1,16 +1,13 @@
 ---
 description: Color de capa. Especifica el color de primer plano y la opacidad de las capas de efecto y color sólido, así como el color de relleno del cuadro de texto para las capas de texto.
-seo-description: Color de capa. Especifica el color de primer plano y la opacidad de las capas de efecto y color sólido, así como el color de relleno del cuadro de texto para las capas de texto.
-seo-title: color
 solution: Experience Manager
 title: color
-uuid: 46b93609-02c0-47bf-97c0-e7b2e416d292
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '200'
 ht-degree: 3%
 
 ---
