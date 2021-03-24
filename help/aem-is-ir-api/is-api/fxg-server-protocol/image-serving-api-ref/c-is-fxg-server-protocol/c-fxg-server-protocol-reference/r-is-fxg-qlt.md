@@ -1,17 +1,14 @@
 ---
 description: Calidad de Jpeg. Especifica los atributos de codificación JPEG para controlar el nivel de compresión. Esto a su vez varía el tamaño del archivo (la cantidad de datos de respuesta) y, indirectamente, la calidad visual de la imagen resultante.
-seo-description: Calidad de Jpeg. Especifica los atributos de codificación JPEG para controlar el nivel de compresión. Esto a su vez varía el tamaño del archivo (la cantidad de datos de respuesta) y, indirectamente, la calidad visual de la imagen resultante.
-seo-title: qlt
 solution: Experience Manager
 title: qlt
-uuid: 936607c1-20c3-4f76-b970-614b21c47dea
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 12%
+source-wordcount: '193'
+ht-degree: 15%
 
 ---
 
