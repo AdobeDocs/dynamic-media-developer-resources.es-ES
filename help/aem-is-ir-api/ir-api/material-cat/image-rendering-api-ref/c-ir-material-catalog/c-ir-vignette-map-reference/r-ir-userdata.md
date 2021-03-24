@@ -1,16 +1,13 @@
 ---
 description: Datos de usuario. El servidor devuelve el contenido de este campo al cliente en respuesta a req=userdata.
-seo-description: Datos de usuario. El servidor devuelve el contenido de este campo al cliente en respuesta a req=userdata.
-seo-title: Datos de usuario *
 solution: Experience Manager
 title: Datos de usuario *
-uuid: ed4dfc19-8923-4e99-aa07-b6a9fab4eded
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '72'
 ht-degree: 16%
 
 ---
