@@ -1,16 +1,13 @@
 ---
 description: Los materiales de revestimiento de las ventanas incluyen revestimientos de ventanas suaves (cortinas, cortinas de café), así como revestimientos de ventanas duras (tonos y persianas).
-seo-description: Los materiales de revestimiento de las ventanas incluyen revestimientos de ventanas suaves (cortinas, cortinas de café), así como revestimientos de ventanas duras (tonos y persianas).
-seo-title: Cubiertas de ventana
 solution: Experience Manager
 title: Cubiertas de ventana
-uuid: 3d74466a-b7c3-43b0-9b0b-f8bb809e2773
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '163'
 ht-degree: 3%
 
 ---
