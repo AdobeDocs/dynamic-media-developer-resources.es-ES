@@ -1,17 +1,14 @@
 ---
 description: Bandera de la fachada. Especifica si el archivo de fuente al que hace referencia este registro de mapa de fuente debe utilizarse cuando lo solicite el comando RTF negface (\b).
-seo-description: Bandera de la fachada. Especifica si el archivo de fuente al que hace referencia este registro de mapa de fuente debe utilizarse cuando lo solicite el comando RTF negface (\b).
-seo-title: Negrita
 solution: Experience Manager
 title: Negrita
-uuid: c9bc05d6-07ff-4ad9-a5b2-3ddc81a746af
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 8%
+source-wordcount: '75'
+ht-degree: 9%
 
 ---
 
