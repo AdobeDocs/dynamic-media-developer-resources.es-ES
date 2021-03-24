@@ -1,16 +1,13 @@
 ---
 description: Resolución. Resolución de imagen "del mundo real", normalmente expresada como píxeles por pulgada, pero también puede estar en otras unidades, como píxeles por metro.
-seo-description: Resolución. Resolución de imagen "del mundo real", normalmente expresada como píxeles por pulgada, pero también puede estar en otras unidades, como píxeles por metro.
-seo-title: Resolución
 solution: Experience Manager
 title: Resolución
-uuid: 281c7ff6-8f78-4654-98ec-0db4299b80d9
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '108'
 ht-degree: 7%
 
 ---
