@@ -1,17 +1,14 @@
 ---
 description: Toda la personalización visual y la mayor parte de la personalización del comportamiento para el visualizador de vídeo interactivo se realiza creando un CSS personalizado.
 keywords: adaptable
-seo-description: Toda la personalización visual y la mayor parte de la personalización del comportamiento para el visualizador de vídeo interactivo se realiza creando un CSS personalizado.
-seo-title: Personalización del visualizador de vídeo interactivo
 solution: Experience Manager
 title: Personalización del visualizador de vídeo interactivo
-uuid: a24e7ada-c874-468b-ac44-a51d581d4479
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1399'
 ht-degree: 0%
 
 ---
