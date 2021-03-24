@@ -1,17 +1,14 @@
 ---
 description: Utilizado por ImageMap/shapeType y saveImageMapParam/shapType.
-seo-description: Utilizado por ImageMap/shapeType y saveImageMapParam/shapType.
-seo-title: Forma de región
 solution: Experience Manager
 title: Forma de región
-uuid: ea879108-5277-479b-afa5-fa06328c61cd
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 5%
+source-wordcount: '27'
+ht-degree: 7%
 
 ---
 
