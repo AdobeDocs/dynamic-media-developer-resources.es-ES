@@ -1,17 +1,14 @@
 ---
 description: Utilizado por getUsersParam/sortBy.
-seo-description: Utilizado por getUsersParam/sortBy.
-seo-title: Campos de clasificación del usuario
 solution: Experience Manager
 title: Campos de clasificación del usuario
-uuid: df7fb1be-ab5e-4d0d-a000-ce29b45ac41f
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '30'
-ht-degree: 6%
+source-wordcount: '23'
+ht-degree: 8%
 
 ---
 
