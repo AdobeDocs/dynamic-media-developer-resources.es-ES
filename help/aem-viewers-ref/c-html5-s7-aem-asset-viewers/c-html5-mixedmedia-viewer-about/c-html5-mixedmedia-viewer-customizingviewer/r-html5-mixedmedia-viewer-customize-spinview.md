@@ -1,17 +1,14 @@
 ---
 description: La vista principal consiste en la imagen de giro cuando el recurso actual es un conjunto de giros.
-seo-description: La vista principal consiste en la imagen de giro cuando el recurso actual es un conjunto de giros.
-seo-title: Vista de giro
 solution: Experience Manager
 title: Vista de giro
-uuid: f1edbcc4-966a-4ec6-8ba9-a76f3ae51733
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 0%
+source-wordcount: '87'
+ht-degree: 1%
 
 ---
 
