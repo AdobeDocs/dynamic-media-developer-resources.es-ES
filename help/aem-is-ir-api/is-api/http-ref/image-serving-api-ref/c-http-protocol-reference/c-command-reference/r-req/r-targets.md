@@ -1,16 +1,13 @@
 ---
 description: Zoom dirige los datos del catálogo de imágenes. Devuelve datos de destino de zoom para la entrada de catálogo de imágenes especificada en la ruta URL.
-seo-description: Zoom dirige los datos del catálogo de imágenes. Devuelve datos de destino de zoom para la entrada de catálogo de imágenes especificada en la ruta URL.
-seo-title: objetivo
 solution: Experience Manager
 title: objetivo
-uuid: e20dcd2c-913a-4153-97c7-dfb190763e39
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '189'
 ht-degree: 2%
 
 ---
