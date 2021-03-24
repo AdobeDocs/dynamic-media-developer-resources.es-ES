@@ -1,16 +1,13 @@
 ---
 description: Marca de tiempo de modificación de archivo. Especifica la fecha/hora en la que se modificaron por última vez los archivos de imagen o datos adjuntos a este registro de catálogo.
-seo-description: Marca de tiempo de modificación de archivo. Especifica la fecha/hora en la que se modificaron por última vez los archivos de imagen o datos adjuntos a este registro de catálogo.
-seo-title: TimeStamp
 solution: Experience Manager
 title: TimeStamp
-uuid: 77ce8bee-7b55-4ff8-8dfb-ebd3ce9c7a8a
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '263'
 ht-degree: 1%
 
 ---
