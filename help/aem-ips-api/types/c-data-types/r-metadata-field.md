@@ -1,17 +1,14 @@
 ---
 description: Definiciones de campo definidas por el usuario para recursos específicos.
-seo-description: Definiciones de campo definidas por el usuario para recursos específicos.
-seo-title: MetadataField
 solution: Experience Manager
 title: MetadataField
-uuid: 6156be6e-efa5-4e90-928d-2ab936668154
 feature: Dynamic Media Classic,SDK/API,Metadatos
 role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 14%
+source-wordcount: '153'
+ht-degree: 15%
 
 ---
 
