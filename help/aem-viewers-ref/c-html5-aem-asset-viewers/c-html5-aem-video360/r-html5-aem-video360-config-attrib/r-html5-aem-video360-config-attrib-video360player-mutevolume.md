@@ -1,17 +1,14 @@
 ---
 description: Atributo de configuración para el visualizador de vídeo360.
-seo-description: Atributo de configuración para el visualizador de vídeo360.
-seo-title: Video360Player.mutevolume
 solution: Experience Manager
 title: Video360Player.mutevolume
-uuid: 02c5a8d9-c382-4762-84a6-120255a97840
 feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 14%
+source-wordcount: '67'
+ht-degree: 13%
 
 ---
 
