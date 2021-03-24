@@ -1,16 +1,13 @@
 ---
 description: Archivo de material. Especifica datos de material, ya sea en forma de una única referencia de catálogo de material, o como uno o dos archivos de datos de imagen o material, separados por coma.
-seo-description: Archivo de material. Especifica datos de material, ya sea en forma de una única referencia de catálogo de material, o como uno o dos archivos de datos de imagen o material, separados por coma.
-seo-title: src
 solution: Experience Manager
 title: src
-uuid: 52751bcc-a65d-4441-a3b5-802d27b54b54
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '463'
 ht-degree: 2%
 
 ---
