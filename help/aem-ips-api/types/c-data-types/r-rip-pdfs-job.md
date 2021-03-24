@@ -1,16 +1,13 @@
 ---
 description: Proceso que vuelve a copiar un recurso PDF existente.
-seo-description: Proceso que vuelve a copiar un recurso PDF existente.
-seo-title: RipPdfsJob
 solution: Experience Manager
 title: RipPdfsJob
-uuid: 95990d53-4baf-44a2-8d84-3cab2b5c9105
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '221'
 ht-degree: 5%
 
 ---
