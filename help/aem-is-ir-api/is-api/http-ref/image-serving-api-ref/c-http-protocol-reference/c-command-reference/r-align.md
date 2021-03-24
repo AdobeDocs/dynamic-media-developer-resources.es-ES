@@ -1,16 +1,13 @@
 ---
 description: Alinee la imagen con la vista. Alinea la imagen compuesta (posiblemente después de la escala, si scl= también se especifica) dentro del rectángulo de vista definido por wid= y hei=.
-seo-description: Alinee la imagen con la vista. Alinea la imagen compuesta (posiblemente después de la escala, si scl= también se especifica) dentro del rectángulo de vista definido por wid= y hei=.
-seo-title: align
 solution: Experience Manager
 title: align
-uuid: 91940bd4-8e2b-4949-a76d-31cd238783bc
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '276'
 ht-degree: 1%
 
 ---
