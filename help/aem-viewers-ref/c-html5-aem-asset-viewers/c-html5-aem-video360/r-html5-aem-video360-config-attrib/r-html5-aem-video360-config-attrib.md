@@ -1,16 +1,13 @@
 ---
 description: Documentación de atributos de configuración para el visualizador de Video360.
-seo-description: Documentación de atributos de configuración para el visualizador de Video360.
-seo-title: 'Referencia de comandos: Atributos de configuración'
 solution: Experience Manager
 title: 'Referencia de comandos: Atributos de configuración'
-uuid: 645bba87-3d84-46e9-97fc-7019c5dd87ca
 feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
