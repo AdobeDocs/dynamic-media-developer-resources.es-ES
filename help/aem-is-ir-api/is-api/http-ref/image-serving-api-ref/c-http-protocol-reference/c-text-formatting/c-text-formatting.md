@@ -1,17 +1,14 @@
 ---
 description: Image Serving proporciona varias alternativas para procesar texto, accesibles con los comandos text= y textPs=.
-seo-description: Image Serving proporciona varias alternativas para procesar texto, accesibles con los comandos text= y textPs=.
-seo-title: Formato del texto
 solution: Experience Manager
 title: Formato del texto
-uuid: e67b6dd2-2a78-4014-9525-816d91c9e783
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 6%
+source-wordcount: '565'
+ht-degree: 7%
 
 ---
 
