@@ -1,17 +1,14 @@
 ---
 description: Utilizado por searchAssetsParam/publishState, setAssetPublishStateParam/publishState y ContextStateUpdate/publishState.
-seo-description: Utilizado por searchAssetsParam/publishState, setAssetPublishStateParam/publishState y ContextStateUpdate/publishState.
-seo-title: Estado de publicación
 solution: Experience Manager
 title: Estado de publicación
-uuid: cebc16ed-ffee-47a5-a9c7-6d61da07e03f
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 4%
+source-wordcount: '31'
+ht-degree: 6%
 
 ---
 
