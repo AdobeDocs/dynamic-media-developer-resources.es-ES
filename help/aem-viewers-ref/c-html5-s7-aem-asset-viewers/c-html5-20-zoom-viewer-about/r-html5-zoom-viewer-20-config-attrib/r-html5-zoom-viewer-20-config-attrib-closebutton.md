@@ -2,11 +2,10 @@
 description: botón cerrar
 solution: Experience Manager
 title: botón cerrar
-uuid: 71e7f14b-f305-4703-bb43-d6ad027fd37e
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '32'
 ht-degree: 15%
