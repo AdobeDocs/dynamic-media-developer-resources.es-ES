@@ -1,16 +1,13 @@
 ---
 description: Los datos de propiedad se devuelven en respuesta a varios tipos req=.
-seo-description: Los datos de propiedad se devuelven en respuesta a varios tipos req=.
-seo-title: Propiedades
 solution: Experience Manager
 title: Propiedades
-uuid: 22c271f7-e9dc-4f3e-af7b-1efe89df983e
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '56'
 ht-degree: 7%
 
 ---
