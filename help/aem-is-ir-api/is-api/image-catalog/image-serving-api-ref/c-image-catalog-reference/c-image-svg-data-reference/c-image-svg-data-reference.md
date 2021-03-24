@@ -1,16 +1,13 @@
 ---
 description: Aunque la imagen y los datos SVG son muy similares, se mantienen en tablas separadas en el catálogo de imágenes.
-seo-description: Aunque la imagen y los datos SVG son muy similares, se mantienen en tablas separadas en el catálogo de imágenes.
-seo-title: Referencia de datos de imagen/SVG
 solution: Experience Manager
 title: Referencia de datos de imagen/SVG
-uuid: 80e41e58-f20e-45fb-b180-28b2c4b30808
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
