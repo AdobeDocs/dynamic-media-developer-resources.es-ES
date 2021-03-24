@@ -1,17 +1,14 @@
 ---
 description: Color de fondo predeterminado para miniaturas. Valor RGB utilizado para rellenar el área de una imagen en miniatura de salida que no contiene datos de imagen reales.
-seo-description: Color de fondo predeterminado para miniaturas. Valor RGB utilizado para rellenar el área de una imagen en miniatura de salida que no contiene datos de imagen reales.
-seo-title: ThumbBkgColor
 solution: Experience Manager
 title: ThumbBkgColor
-uuid: c75c01f4-036e-46fd-9bc1-480920c0c05a
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 4%
+source-wordcount: '86'
+ht-degree: 5%
 
 ---
 
