@@ -1,16 +1,13 @@
 ---
 description: Este documento utiliza las siguientes convenciones.
-seo-description: Este documento utiliza las siguientes convenciones.
-seo-title: Convenciones de los documentos
 solution: Experience Manager
 title: Convenciones de los documentos
-uuid: c929774b-8560-4f8a-98fd-1b75d4419c4d
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -23,7 +20,7 @@ Este documento utiliza las siguientes convenciones.
 <table id="simpletable_8C9DB0DA5F2B4C068794415602B768CB"> 
  <tr class="strow"> 
   <td class="stentry"> <p>literal </p> </td> 
-  <td class="stentry"> <p>En las secciones de sintaxis, el texto no en cursiva es literal; esto no se aplica al espacio en blanco y a los símbolos [ ] { } | *. </p> </td> 
+  <td class="stentry"> <p>En las secciones de sintaxis, el texto no en cursiva es literal. Esta regla no se aplica al espacio en blanco y a los símbolos [ ] { } | *. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>'literal' </p> </td> 
@@ -71,7 +68,7 @@ Este documento utiliza las siguientes convenciones.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> *[  <span class="varname"> opcional  </span>]  </span> </p> </td> 
-  <td class="stentry"> <p>El elemento de sintaxis <span class="varname"> opcional </span> puede repetirse ninguna o más veces. </p> </td> 
+  <td class="stentry"> <p>El elemento de sintaxis <span class="varname"> opcional </span> se puede repetir ninguna o más veces. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> item1  </span>|  <span class="varname"> elemento2  </span> </span> </p> </td> 
