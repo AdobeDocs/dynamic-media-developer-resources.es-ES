@@ -1,16 +1,13 @@
 ---
 description: Selector de marca de agua. Especifica el ID de catálogo del registro de catálogo que se va a utilizar como imagen o plantilla de marca de agua.
-seo-description: Selector de marca de agua. Especifica el ID de catálogo del registro de catálogo que se va a utilizar como imagen o plantilla de marca de agua.
-seo-title: Filigrana
 solution: Experience Manager
 title: Filigrana
-uuid: 18add7ab-0797-4ab3-a7e8-05c745abe605
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '112'
 ht-degree: 5%
 
 ---
