@@ -1,16 +1,13 @@
 ---
 description: Enfoque. El atributo de perfeccionamiento determina cuándo se enfoca el material durante el procesamiento.
-seo-description: Enfoque. El atributo de perfeccionamiento determina cuándo se enfoca el material durante el procesamiento.
-seo-title: Nitidez
 solution: Experience Manager
 title: Nitidez
-uuid: f153f496-f2c5-43d0-a7f0-00045fd96af8
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '117'
 ht-degree: 10%
 
 ---
