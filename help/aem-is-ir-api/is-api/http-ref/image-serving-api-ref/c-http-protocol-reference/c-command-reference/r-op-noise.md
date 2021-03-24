@@ -1,17 +1,14 @@
 ---
 description: Añada ruido. Agrega ruido aleatorio a los datos de la imagen en primer plano o al primer plano de una capa de efecto.
-seo-description: Añada ruido. Agrega ruido aleatorio a los datos de la imagen en primer plano o al primer plano de una capa de efecto.
-seo-title: op_sound
 solution: Experience Manager
 title: op_sound
-uuid: 531f7a94-149b-4090-a163-a1895156250b
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 1%
+source-wordcount: '99'
+ht-degree: 2%
 
 ---
 
