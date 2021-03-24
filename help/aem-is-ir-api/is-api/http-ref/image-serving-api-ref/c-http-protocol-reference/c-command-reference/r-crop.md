@@ -1,16 +1,13 @@
 ---
 description: Recortar imagen. Especifica una zona de recorte rectangular, expresada en píxeles o normalizada en relación con la imagen de origen o la imagen de máscara de resolución completa.
-seo-description: Recortar imagen. Especifica una zona de recorte rectangular, expresada en píxeles o normalizada en relación con la imagen de origen o la imagen de máscara de resolución completa.
-seo-title: recorte
 solution: Experience Manager
 title: recorte
-uuid: c8eca467-7564-48a6-82d7-17f68a1399e1
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '215'
 ht-degree: 3%
 
 ---
