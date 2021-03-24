@@ -1,16 +1,13 @@
 ---
 description: 'La sintaxis básica del protocolo HTTP es la siguiente:'
-seo-description: 'La sintaxis básica del protocolo HTTP es la siguiente:'
-seo-title: Sintaxis básica del protocolo HTTP de servicio de imágenes
 solution: Experience Manager
 title: Sintaxis básica del protocolo HTTP de servicio de imágenes
-uuid: 3269c2f2-df0f-4b62-ae9c-a267acae8071
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '278'
 ht-degree: 1%
 
 ---
@@ -47,19 +44,19 @@ La sintaxis básica del protocolo HTTP es la siguiente:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> macro</span> </span> </p> </td> 
-  <td class="stentry"> <p>Nombre de una macro de comando. </p></td> 
+  <td class="stentry"> <p>Nombre de una macro de comando.</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> comment</span> </span> </p></td> 
-  <td class="stentry"> <p>Cadena de comentarios (ignorada por el servidor). </p></td> 
+  <td class="stentry"> <p>Cadena de comentarios (ignorada por el servidor).</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> cmdName</span> </span> </p></td> 
-  <td class="stentry"> <p>Uno de los nombres de comandos o atributos admitidos. </p></td> 
+  <td class="stentry"> <p>Uno de los nombres de comandos o atributos admitidos.</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> var</span> </span> </p> </td> 
-  <td class="stentry"> <p>Nombre de una variable personalizada. </p></td> 
+  <td class="stentry"> <p>Nombre de una variable personalizada.</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> value</span> </span> </p></td> 
@@ -85,7 +82,7 @@ El servicio de imágenes extrae primero *`object`* y *`modifiers`* de la solicit
 
 ## Comentarios {#section-69ef0be0f17a418c87a0eba21c2ddb00}
 
-Los comentarios se pueden incrustar en cadenas de solicitud en cualquier lugar y se identifican mediante un punto (.) inmediatamente después del comando separator(&amp;). El comentario termina con la siguiente incidencia de un separador de comandos (sin codificar). Esta función se puede utilizar para añadir información a la solicitud que no se utilice con el servicio de imágenes, como marcas de hora, ID de base de datos, etc.
+Los comentarios se pueden incrustar en cadenas de solicitud en cualquier lugar y se identifican mediante un punto (.) inmediatamente después del comando separator(&amp;). El comentario termina con la siguiente incidencia de un separador de comandos (sin codificar). Esta función se puede utilizar para agregar información a la solicitud que no se utilice con el servicio de imágenes, como marcas de hora e ID de base de datos.
 
 ## Véase también {#section-d0b836568c31454b8dbeb136e6bbe0f0}
 
