@@ -1,16 +1,13 @@
 ---
 description: Referencia de la API de JavaScript para el visualizador de imágenes interactivo.
-seo-description: Referencia de la API de JavaScript para el visualizador de imágenes interactivo.
-seo-title: init
 solution: Experience Manager
 title: init
-uuid: 915f15cf-152a-424d-b7ea-a083891bb954
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Imágenes interactivas
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '134'
 ht-degree: 2%
 
 ---
