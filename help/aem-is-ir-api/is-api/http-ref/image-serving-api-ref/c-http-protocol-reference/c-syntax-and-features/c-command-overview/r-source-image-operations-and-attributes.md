@@ -1,16 +1,13 @@
 ---
 description: Estos comandos se aplican a las imágenes de origen utilizadas en solicitudes simples o en capas de imagen, así como a las máscaras adjuntas a capas de color sólidas.
-seo-description: Estos comandos se aplican a las imágenes de origen utilizadas en solicitudes simples o en capas de imagen, así como a las máscaras adjuntas a capas de color sólidas.
-seo-title: Operaciones de imagen de origen
 solution: Experience Manager
 title: Operaciones de imagen de origen
-uuid: ad6dbcd8-f4a4-4439-b51a-2aca30d198e0
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '110'
 ht-degree: 2%
 
 ---
