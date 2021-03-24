@@ -1,16 +1,13 @@
 ---
 description: Cierto contenido que muestra el Visor de zoom básico está sujeto a localización, incluidos botones de zoom y un botón de pantalla completa.
-seo-description: Cierto contenido que muestra el Visor de zoom básico está sujeto a localización, incluidos botones de zoom y un botón de pantalla completa.
-seo-title: Localización de los elementos de la interfaz de usuario
 solution: Experience Manager
 title: Localización de los elementos de la interfaz de usuario
-uuid: 842970d9-0882-4163-8c49-3ea35d372d35
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
