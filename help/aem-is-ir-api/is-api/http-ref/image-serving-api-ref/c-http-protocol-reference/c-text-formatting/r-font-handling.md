@@ -1,16 +1,13 @@
 ---
 description: Todas las fuentes a las que se hace referencia en la cadena RTF deben estar disponibles en el archivo de asignación de fuentes del catálogo predeterminado o del catálogo de imágenes actual; de lo contrario, se devuelve un error.
-seo-description: Todas las fuentes a las que se hace referencia en la cadena RTF deben estar disponibles en el archivo de asignación de fuentes del catálogo predeterminado o del catálogo de imágenes actual; de lo contrario, se devuelve un error.
-seo-title: Administración de fuentes
 solution: Experience Manager
 title: Administración de fuentes
-uuid: 6a751973-5dae-472e-a908-bf24fa59d031
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '240'
 ht-degree: 1%
 
 ---
