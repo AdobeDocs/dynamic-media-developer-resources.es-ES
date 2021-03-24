@@ -1,16 +1,13 @@
 ---
 description: El contenido que muestra el visor flotante está sujeto a localización. Este contenido incluye información sobre herramientas de elementos de la interfaz de usuario y mensajes de información que se muestran en la vista de zoom flotante al cargar.
-seo-description: El contenido que muestra el visor flotante está sujeto a localización. Este contenido incluye información sobre herramientas de elementos de la interfaz de usuario y mensajes de información que se muestran en la vista de zoom flotante al cargar.
-seo-title: Localización de los elementos de la interfaz de usuario
 solution: Experience Manager
 title: Localización de los elementos de la interfaz de usuario
-uuid: d824c0c3-3606-4903-96f7-de26a61a8f65
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom en línea
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
