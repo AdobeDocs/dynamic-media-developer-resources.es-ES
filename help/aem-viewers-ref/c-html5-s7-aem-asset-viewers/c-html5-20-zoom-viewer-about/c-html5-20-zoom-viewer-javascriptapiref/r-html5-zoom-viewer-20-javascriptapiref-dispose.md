@@ -1,16 +1,13 @@
 ---
 description: Referencia de la API de JavaScript para el visor de zoom.
-seo-description: Referencia de la API de JavaScript para el visor de zoom.
-seo-title: dispose
 solution: Experience Manager
 title: dispose
-uuid: 22e6fafa-42e9-4675-a494-66a87a62b7f6
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '134'
 ht-degree: 2%
 
 ---
