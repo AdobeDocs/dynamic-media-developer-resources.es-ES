@@ -1,17 +1,14 @@
 ---
 description: Enfoque la textura. Especifica la nitidez que se aplicará al procesar este material.
-seo-description: Enfoque la textura. Especifica la nitidez que se aplicará al procesar este material.
-seo-title: enfocado
 solution: Experience Manager
 title: enfocado
-uuid: 8265eebf-9cec-4ad3-8b22-0f46f33a89f1
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 5%
+source-wordcount: '133'
+ht-degree: 6%
 
 ---
 
