@@ -1,16 +1,13 @@
 ---
 description: XMP metadatos. Devuelve los metadatos de XMP asociados con la imagen especificada en la ruta de solicitud.
-seo-description: XMP metadatos. Devuelve los metadatos de XMP asociados con la imagen especificada en la ruta de solicitud.
-seo-title: xmp
 solution: Experience Manager
 title: xmp
-uuid: e1583ffe-531a-4334-b974-72df6fcb14ba
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '183'
 ht-degree: 6%
 
 ---
