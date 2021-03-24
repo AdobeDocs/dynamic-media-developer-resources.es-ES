@@ -1,17 +1,14 @@
 ---
 description: La vista principal consiste en la imagen estática, la imagen ampliada mostrada en la vista flotante sobre la imagen estática y el mensaje de sugerencia mostrado sobre la imagen estática.
-seo-description: La vista principal consiste en la imagen estática, la imagen ampliada mostrada en la vista flotante sobre la imagen estática y el mensaje de sugerencia mostrado sobre la imagen estática.
-seo-title: Vista de zoom flotante
 solution: Experience Manager
 title: Vista de zoom flotante
-uuid: a918c775-a36a-44e8-9ca4-90cb8f5c3a5e
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom en línea
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 2%
+source-wordcount: '267'
+ht-degree: 3%
 
 ---
 
