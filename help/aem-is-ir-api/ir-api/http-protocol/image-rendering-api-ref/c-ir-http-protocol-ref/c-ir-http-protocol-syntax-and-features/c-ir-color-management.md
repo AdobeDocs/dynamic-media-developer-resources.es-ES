@@ -1,16 +1,13 @@
 ---
 description: El procesamiento de imágenes admite conversiones de espacio de color basadas en perfiles de espacio de color que se ajustan a la especificación ICC (International Color Consortium).
-seo-description: El procesamiento de imágenes admite conversiones de espacio de color basadas en perfiles de espacio de color que se ajustan a la especificación ICC (International Color Consortium).
-seo-title: Gestión de color de renderización de imágenes *
 solution: Experience Manager
 title: Gestión de color de renderización de imágenes *
-uuid: 9c47f584-645f-4eb7-bdc0-fdef459da3b2
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
