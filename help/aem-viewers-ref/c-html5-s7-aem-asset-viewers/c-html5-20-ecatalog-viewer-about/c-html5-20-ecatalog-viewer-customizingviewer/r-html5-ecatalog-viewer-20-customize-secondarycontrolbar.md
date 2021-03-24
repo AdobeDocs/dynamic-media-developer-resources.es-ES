@@ -1,17 +1,14 @@
 ---
 description: La barra de control secundaria es el área rectangular que contiene los botones Primera y Última página y un indicador de página cuando está disponible en CSS.
-seo-description: La barra de control secundaria es el área rectangular que contiene los botones Primera y Última página y un indicador de página cuando está disponible en CSS.
-seo-title: Barra de control secundaria
 solution: Experience Manager
 title: Barra de control secundaria
-uuid: 9a91da6b-0d9b-4b4c-9659-86a64e624947
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 1%
+source-wordcount: '182'
+ht-degree: 2%
 
 ---
 
