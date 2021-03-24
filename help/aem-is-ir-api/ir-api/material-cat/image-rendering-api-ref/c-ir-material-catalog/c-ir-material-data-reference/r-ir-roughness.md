@@ -1,17 +1,14 @@
 ---
 description: Endurecimiento de la superficie. Especifica el brillo relativo de la superficie del material. Se utiliza junto con Tipo de catálogo y Gloss de catálogo para controlar los efectos de procesamiento de reflejo 3D.
-seo-description: Endurecimiento de la superficie. Especifica el brillo relativo de la superficie del material. Se utiliza junto con Tipo de catálogo y Gloss de catálogo para controlar los efectos de procesamiento de reflejo 3D.
-seo-title: Rugosidad
 solution: Experience Manager
 title: Rugosidad
-uuid: d71e4411-dd59-4347-a7c2-132e130ff36b
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 2%
+source-wordcount: '110'
+ht-degree: 3%
 
 ---
 
