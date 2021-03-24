@@ -1,16 +1,13 @@
 ---
 description: Los catálogos de imágenes proporcionan al servidor información sobre imágenes y datos de apoyo, como fuentes y perfiles ICC.
-seo-description: Los catálogos de imágenes proporcionan al servidor información sobre imágenes y datos de apoyo, como fuentes y perfiles ICC.
-seo-title: Referencia del catálogo de imágenes
 solution: Experience Manager
 title: Referencia del catálogo de imágenes
-uuid: 39d39f42-cd1b-46f5-859c-f32b6b5a20b3
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '58'
 ht-degree: 1%
 
 ---
