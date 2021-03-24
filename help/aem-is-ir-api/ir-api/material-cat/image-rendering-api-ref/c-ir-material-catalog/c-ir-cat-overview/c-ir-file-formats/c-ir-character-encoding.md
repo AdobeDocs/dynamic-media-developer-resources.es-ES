@@ -1,16 +1,13 @@
 ---
 description: El procesamiento de imágenes admite catálogos de material con codificación ISO-8859-1 y UTF-8.
-seo-description: El procesamiento de imágenes admite catálogos de material con codificación ISO-8859-1 y UTF-8.
-seo-title: Codificación de caracteres
 solution: Experience Manager
 title: Codificación de caracteres
-uuid: efc3971b-dca1-4b47-a197-c10270ce17c9
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
