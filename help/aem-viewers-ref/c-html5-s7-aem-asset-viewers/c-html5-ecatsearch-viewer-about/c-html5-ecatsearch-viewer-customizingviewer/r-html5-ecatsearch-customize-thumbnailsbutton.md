@@ -1,17 +1,14 @@
 ---
 description: Al pulsar o hacer clic en este botón, se restablece el visor entre la vista principal y las miniaturas. Este botón aparece en la barra de control principal. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
-seo-description: Al pulsar o hacer clic en este botón, se restablece el visor entre la vista principal y las miniaturas. Este botón aparece en la barra de control principal. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
-seo-title: Botón Miniaturas
 solution: Experience Manager
 title: Botón Miniaturas
-uuid: a84fd01b-95a5-41bc-ac9f-f1de485f4da6
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 0%
+source-wordcount: '282'
+ht-degree: 1%
 
 ---
 
