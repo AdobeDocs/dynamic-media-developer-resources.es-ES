@@ -1,16 +1,13 @@
 ---
 description: Cadena del modificador de solicitud de prefijo. Ninguno o varios comandos de servicio de imágenes separados por caracteres "&".
-seo-description: Cadena del modificador de solicitud de prefijo. Ninguno o varios comandos de servicio de imágenes separados por caracteres "&".
-seo-title: Modificador
 solution: Experience Manager
 title: Modificador
-uuid: eb17d115-22ec-4b1b-9039-9bd2bc256f48
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '108'
 ht-degree: 7%
 
 ---
