@@ -1,16 +1,13 @@
 ---
 description: Las texturas repetibles incluyen materiales interiores y exteriores, como tejidos (tanto de ropa como de tapicería), revestimientos de pared a pared, tapicerías, materiales de contraparte, texturas de granos de madera, materiales de tejados y costado, y cualquier otra textura genérica.
-seo-description: Las texturas repetibles incluyen materiales interiores y exteriores, como tejidos (tanto de ropa como de tapicería), revestimientos de pared a pared, tapicerías, materiales de contraparte, texturas de granos de madera, materiales de tejados y costado, y cualquier otra textura genérica.
-seo-title: Texturas repetibles
 solution: Experience Manager
 title: Texturas repetibles
-uuid: 11a55d9f-a1d7-490e-af0e-9bf2c3a35501
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '248'
 ht-degree: 3%
 
 ---
