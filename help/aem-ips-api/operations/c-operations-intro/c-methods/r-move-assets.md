@@ -1,17 +1,14 @@
 ---
 description: Mueve varios recursos de forma independiente entre sí. Esto se logra utilizando el tipo AssetMove contenido en assetMoveArray. Cada campo AssetMove contiene una carpeta de destino.
-seo-description: Mueve varios recursos de forma independiente entre sí. Esto se logra utilizando el tipo AssetMove contenido en assetMoveArray. Cada campo AssetMove contiene una carpeta de destino.
-seo-title: moveAssets
 solution: Experience Manager
 title: moveAssets
-uuid: 178f9979-fff5-45ce-a001-1263d1770ea8
 feature: Dynamic Media Classic,SDK/API,Administración de activos
 role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 10%
+source-wordcount: '218'
+ht-degree: 11%
 
 ---
 
