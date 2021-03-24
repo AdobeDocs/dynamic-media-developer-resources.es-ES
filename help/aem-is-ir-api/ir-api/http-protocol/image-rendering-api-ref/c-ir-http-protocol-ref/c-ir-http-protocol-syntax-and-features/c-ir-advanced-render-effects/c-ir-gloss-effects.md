@@ -1,16 +1,13 @@
 ---
 description: Si está activado en la viñeta, el renderizador variará el algoritmo de iluminación para simular una variación del brillo del material (principalmente controlando el contraste).
-seo-description: Si está activado en la viñeta, el renderizador variará el algoritmo de iluminación para simular una variación del brillo del material (principalmente controlando el contraste).
-seo-title: Efectos de brillo
 solution: Experience Manager
 title: Efectos de brillo
-uuid: e4424b04-2d8c-47e5-8474-b5271c923451
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
