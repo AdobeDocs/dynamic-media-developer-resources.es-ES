@@ -1,16 +1,13 @@
 ---
 description: Las variables de sustitución se utilizan para transferir valores desde la dirección URL de la solicitud a la composición de plantillas almacenadas en catálogos de imágenes. Las variables también se pueden utilizar para transmitir el mismo valor a diferentes lugares de una solicitud compleja.
-seo-description: Las variables de sustitución se utilizan para transferir valores desde la dirección URL de la solicitud a la composición de plantillas almacenadas en catálogos de imágenes. Las variables también se pueden utilizar para transmitir el mismo valor a diferentes lugares de una solicitud compleja.
-seo-title: Variables de sustitución
 solution: Experience Manager
 title: Variables de sustitución
-uuid: e369f2c3-8d89-4169-8869-f1d7ab89aab9
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '738'
 ht-degree: 0%
 
 ---
