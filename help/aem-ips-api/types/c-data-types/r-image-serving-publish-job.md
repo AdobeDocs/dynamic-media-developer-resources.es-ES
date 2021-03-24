@@ -1,17 +1,14 @@
 ---
 description: Publica archivos en los servidores de imágenes.
-seo-description: Publica archivos en los servidores de imágenes.
-seo-title: ImageServingPublishJob
 solution: Experience Manager
 title: ImageServingPublishJob
-uuid: ab207299-ecb8-4acc-a5b3-b7553149b7b8
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 9%
+source-wordcount: '45'
+ht-degree: 11%
 
 ---
 
