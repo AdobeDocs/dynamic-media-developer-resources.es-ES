@@ -1,16 +1,13 @@
 ---
 description: Hay varios asuntos de comportamiento del servidor que se deben tener en cuenta.
-seo-description: Hay varios asuntos de comportamiento del servidor que se deben tener en cuenta.
-seo-title: Notas sobre el comportamiento del servidor
 solution: Experience Manager
 title: Notas sobre el comportamiento del servidor
-uuid: cca17322-4058-43cc-b022-ef8df52c0888
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '55'
 ht-degree: 0%
 
 ---
