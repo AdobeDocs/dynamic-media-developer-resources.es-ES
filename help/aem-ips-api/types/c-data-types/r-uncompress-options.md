@@ -1,17 +1,14 @@
 ---
 description: Cargue la configuración para procesar archivos ZIP y TAR como recursos principales (Ninguno) o para extraer y cargar su contenido (No comprimir).
-seo-description: Cargue la configuración para procesar archivos ZIP y TAR como recursos principales (Ninguno) o para extraer y cargar su contenido (No comprimir).
-seo-title: Cancelar compresiónOpciones
 solution: Experience Manager
 title: Cancelar compresiónOpciones
-uuid: 1e6827db-8c5e-47db-b7ff-4e681e107e57
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 5%
+source-wordcount: '100'
+ht-degree: 7%
 
 ---
 
