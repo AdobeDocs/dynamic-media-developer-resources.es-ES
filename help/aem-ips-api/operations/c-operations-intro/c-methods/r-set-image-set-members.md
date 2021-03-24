@@ -1,17 +1,14 @@
 ---
 description: Define la lista de recursos asociados a un conjunto de imágenes.
-seo-description: Define la lista de recursos asociados a un conjunto de imágenes.
-seo-title: setImageSetMembers
 solution: Experience Manager
 title: setImageSetMembers
-uuid: 84a73ff4-e93f-4764-80e8-e15f1fec1aeb
 feature: Dynamic Media Classic,SDK/API,Conjuntos de imágenes
 role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 11%
+source-wordcount: '133'
+ht-degree: 12%
 
 ---
 
