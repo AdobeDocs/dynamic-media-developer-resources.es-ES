@@ -1,16 +1,13 @@
 ---
 description: Segmente para una acción de clic en el explorador.
-seo-description: Segmente para una acción de clic en el explorador.
-seo-title: Mapa de imagen
 solution: Experience Manager
 title: Mapa de imagen
-uuid: 1a09ab27-7ee1-4162-8047-575f3f5ca8fe
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '104'
 ht-degree: 12%
 
 ---
