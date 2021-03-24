@@ -1,16 +1,13 @@
 ---
 description: El procesamiento de imágenes impone una limitación de tamaño de dos Megapixels para las viñetas no piramidales.
-seo-description: El procesamiento de imágenes impone una limitación de tamaño de dos Megapixels para las viñetas no piramidales.
-seo-title: Limitación del tamaño de la viñeta
 solution: Experience Manager
 title: Limitación del tamaño de la viñeta
-uuid: 218e8c7e-f313-47cb-af42-30c585d4ec12
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, administrador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '87'
 ht-degree: 0%
 
 ---
