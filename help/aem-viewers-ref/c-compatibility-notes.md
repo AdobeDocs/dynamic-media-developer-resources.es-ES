@@ -1,16 +1,13 @@
 ---
 description: Notas de compatibilidad para sistemas operativos, navegadores y dispositivos móviles.
-seo-description: Notas de compatibilidad para sistemas operativos, navegadores y dispositivos móviles.
-seo-title: Notas de compatibilidad
 solution: Experience Manager
 title: Notas de compatibilidad
-uuid: cf732a03-bfaa-4838-862f-73343cefbd67
 feature: Dynamic Media Classic,Visualizadores,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '431'
 ht-degree: 1%
 
 ---
