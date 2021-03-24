@@ -1,17 +1,14 @@
 ---
 description: Matriz de actualizaciones de miembros del conjunto de imágenes.
-seo-description: Matriz de actualizaciones de miembros del conjunto de imágenes.
-seo-title: ImageSetMemberUpdateArray
 solution: Experience Manager
 title: ImageSetMemberUpdateArray
-uuid: 23d45181-1103-4e3a-89a4-984470c11728
 feature: Dynamic Media Classic,SDK/API,Conjuntos de imágenes
 role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 13%
+source-wordcount: '38'
+ht-degree: 15%
 
 ---
 
