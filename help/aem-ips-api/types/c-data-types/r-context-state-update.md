@@ -1,17 +1,14 @@
 ---
 description: Actualiza el estado del contexto de publicación de un recurso.
-seo-description: Actualiza el estado del contexto de publicación de un recurso.
-seo-title: ContextStateUpdate
 solution: Experience Manager
 title: ContextStateUpdate
-uuid: ef579d3c-1899-4088-903e-e6ed5a414ca8
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 13%
+source-wordcount: '61'
+ht-degree: 14%
 
 ---
 
