@@ -1,16 +1,13 @@
 ---
 description: Los comandos admitidos por Image Serving se enumeran a continuación, agrupados por categoría aproximada. Consulte las descripciones de comandos específicas para obtener detalles sobre el uso y la aplicabilidad.
-seo-description: Los comandos admitidos por Image Serving se enumeran a continuación, agrupados por categoría aproximada. Consulte las descripciones de comandos específicas para obtener detalles sobre el uso y la aplicabilidad.
-seo-title: Descripción general del comando del protocolo HTTP de servicio de imágenes
 solution: Experience Manager
 title: Descripción general del comando del protocolo HTTP de servicio de imágenes
-uuid: 14207f6a-3573-4f03-988d-249c7c67f2ba
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
