@@ -1,17 +1,14 @@
 ---
 description: Enmascarar (eliminar) el fondo de imágenes seleccionadas. Esto permite superponerlos en otras capas con una transparencia fuera de la imagen del sujeto. Un parámetro opcional que está desactivado de forma predeterminada.
-seo-description: Enmascarar (eliminar) el fondo de imágenes seleccionadas. Esto permite superponerlos en otras capas con una transparencia fuera de la imagen del sujeto. Un parámetro opcional que está desactivado de forma predeterminada.
-seo-title: KnockoutBackgroundOptions
 solution: Experience Manager
 title: KnockoutBackgroundOptions
-uuid: 1486d646-f42a-4ed4-9450-313950969c39
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 4%
+source-wordcount: '174'
+ht-degree: 5%
 
 ---
 
