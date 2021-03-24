@@ -1,17 +1,14 @@
 ---
 description: Para manipular un gráfico, se pueden usar puntos de referencia similares a las direcciones de una brújula.
-seo-description: Para manipular un gráfico, se pueden usar puntos de referencia similares a las direcciones de una brújula.
-seo-title: Protocolo del servidor FXG
 solution: Experience Manager
 title: Protocolo del servidor FXG
-uuid: 5cb123ca-2274-4ddb-8fa1-ab22a19172f6
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 63%
+source-wordcount: '277'
+ht-degree: 62%
 
 ---
 
