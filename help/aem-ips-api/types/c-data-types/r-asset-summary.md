@@ -1,17 +1,14 @@
 ---
 description: Resultados de búsqueda de metadatos que contienen información resumida sobre un recurso.
-seo-description: Resultados de búsqueda de metadatos que contienen información resumida sobre un recurso.
-seo-title: AssetSummary
 solution: Experience Manager
 title: AssetSummary
-uuid: 0ac8f900-c16c-409d-b83c-3bdf0ad28fac
 feature: Dynamic Media Classic,SDK/API,Administración de activos
 role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 10%
+source-wordcount: '131'
+ht-degree: 11%
 
 ---
 
