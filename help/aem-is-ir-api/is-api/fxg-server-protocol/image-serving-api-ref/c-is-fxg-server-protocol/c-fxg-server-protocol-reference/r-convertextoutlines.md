@@ -1,16 +1,13 @@
 ---
 description: Convierta texto en un archivo PDF a descripciones.
-seo-description: Convierta texto en un archivo PDF a descripciones.
-seo-title: ConvertTextToOutlines
 solution: Experience Manager
 title: ConvertTextToOutlines
-uuid: ec8a5f86-be10-494e-bc06-5c81520696f9
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '70'
 ht-degree: 1%
 
 ---
