@@ -1,17 +1,14 @@
 ---
 description: Enmascara parte de una imagen. La máscara siempre está asociada a la imagen. Obtenga una máscara de ImageInfo.
-seo-description: Enmascara parte de una imagen. La máscara siempre está asociada a la imagen. Obtenga una máscara de ImageInfo.
-seo-title: Máscara
 solution: Experience Manager
 title: Máscara
-uuid: 06ac0f76-13ce-434b-ac60-6a2af9648f92
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 11%
+source-wordcount: '77'
+ht-degree: 12%
 
 ---
 
