@@ -1,16 +1,13 @@
 ---
 description: El icono de reproducción se superpone en el área de vista de vídeo. Se muestra cuando el vídeo está en pausa o cuando se llega al final del vídeo, y también depende del parámetro iconeffect.
-seo-description: El icono de reproducción se superpone en el área de vista de vídeo. Se muestra cuando el vídeo está en pausa o cuando se llega al final del vídeo, y también depende del parámetro iconeffect.
-seo-title: Efecto Icono del reproductor de vídeo
 solution: Experience Manager
 title: Efecto Icono del reproductor de vídeo
-uuid: 5d59c4b2-a7a1-49e1-84c7-0e127a571c4f
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '182'
 ht-degree: 1%
 
 ---
