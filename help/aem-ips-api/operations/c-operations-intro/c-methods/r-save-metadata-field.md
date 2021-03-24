@@ -1,17 +1,14 @@
 ---
 description: Cree o edite un campo de metadatos. Omite el controlador de campo opcional para crear un nuevo campo de metadatos.
-seo-description: Cree o edite un campo de metadatos. Omite el controlador de campo opcional para crear un nuevo campo de metadatos.
-seo-title: saveMetadataField
 solution: Experience Manager
 title: saveMetadataField
-uuid: ccd84366-732a-4caf-914d-3bc5fe499e7a
 feature: Dynamic Media Classic,SDK/API,Metadatos
 role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 14%
+source-wordcount: '225'
+ht-degree: 16%
 
 ---
 
