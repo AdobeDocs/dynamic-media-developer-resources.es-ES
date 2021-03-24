@@ -1,16 +1,13 @@
 ---
 description: La tabla de contenido es un botón ubicado en la barra de control principal. Cuando se activa, aparece un panel desplegable con una lista de índices y etiquetas de página.
-seo-description: La tabla de contenido es un botón ubicado en la barra de control principal. Cuando se activa, aparece un panel desplegable con una lista de índices y etiquetas de página.
-seo-title: Tabla de contenido
 solution: Experience Manager
 title: Tabla de contenido
-uuid: e5da89b4-fd3f-41ab-bc55-d43c2999d4b7
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1068'
 ht-degree: 2%
 
 ---
