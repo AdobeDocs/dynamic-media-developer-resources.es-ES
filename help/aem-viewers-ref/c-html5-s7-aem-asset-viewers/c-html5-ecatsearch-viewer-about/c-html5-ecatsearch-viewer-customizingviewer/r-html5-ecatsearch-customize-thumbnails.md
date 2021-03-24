@@ -1,16 +1,13 @@
 ---
 description: Las miniaturas constan de una cuadrícula de imágenes en miniatura con una barra de desplazamiento opcional en el lado derecho para permitir el desplazamiento vertical.
-seo-description: Las miniaturas constan de una cuadrícula de imágenes en miniatura con una barra de desplazamiento opcional en el lado derecho para permitir el desplazamiento vertical.
-seo-title: Miniaturas
 solution: Experience Manager
 title: Miniaturas
-uuid: 623f6c7a-4ec7-4708-a7ed-1aa42a21e430
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '902'
 ht-degree: 2%
 
 ---
