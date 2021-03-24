@@ -1,17 +1,14 @@
 ---
 description: Toda la personalización visual y la mayor parte de la personalización del comportamiento para el visor de Video360 se realiza mediante la creación de un CSS personalizado.
 keywords: adaptable
-seo-description: Toda la personalización visual y la mayor parte de la personalización del comportamiento para el visor de Video360 se realiza mediante la creación de un CSS personalizado.
-seo-title: Personalización del visor de Video360
 solution: Experience Manager
 title: Personalización del visor de Video360
-uuid: 1f021a11-856e-4bbc-a2ee-454ab0a60adb
 feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1325'
+source-wordcount: '1304'
 ht-degree: 0%
 
 ---
