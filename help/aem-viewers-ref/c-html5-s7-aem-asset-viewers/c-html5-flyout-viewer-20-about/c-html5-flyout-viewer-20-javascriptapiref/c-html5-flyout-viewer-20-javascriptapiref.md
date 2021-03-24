@@ -1,16 +1,13 @@
 ---
 description: La clase principal del visor flotante es el visor flotante. Se declara en el espacio de nombres s7viewers. Esta API de JavaScript cubre el constructor, los métodos y las llamadas de retorno de esta clase en particular.
-seo-description: La clase principal del visor flotante es el visor flotante. Se declara en el espacio de nombres s7viewers. Esta API de JavaScript cubre el constructor, los métodos y las llamadas de retorno de esta clase en particular.
-seo-title: Referencia de la API de JavaScript para el visor flotante
 solution: Experience Manager
 title: Referencia de la API de JavaScript para el visor flotante
-uuid: 45621805-8aa5-4ced-a36a-ebecb2a606a0
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Flotante
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
