@@ -1,16 +1,13 @@
 ---
 description: Tiempo de vida predeterminado de la caché del cliente. Proporciona un intervalo de caducidad predeterminado en caso de que un registro de catálogo concreto no contenga un valor de caducidad de catálogo válido o de caducidad de viñeta, o si se accede directamente a un archivo de viñeta o a un archivo de material, en lugar de hacerlo mediante un registro de catálogo.
-seo-description: Tiempo de vida predeterminado de la caché del cliente. Proporciona un intervalo de caducidad predeterminado en caso de que un registro de catálogo concreto no contenga un valor de caducidad de catálogo válido o de caducidad de viñeta, o si se accede directamente a un archivo de viñeta o a un archivo de material, en lugar de hacerlo mediante un registro de catálogo.
-seo-title: Vencimiento
 solution: Experience Manager
 title: Vencimiento
-uuid: 2b56f9ec-2b25-4e6a-aead-6dad3d2df975
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '154'
 ht-degree: 3%
 
 ---
