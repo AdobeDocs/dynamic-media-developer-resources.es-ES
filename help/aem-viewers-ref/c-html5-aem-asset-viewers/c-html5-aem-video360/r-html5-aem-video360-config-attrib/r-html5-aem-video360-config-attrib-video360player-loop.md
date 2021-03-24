@@ -1,17 +1,14 @@
 ---
 description: Atributo de configuración para el visualizador de vídeo360.
-seo-description: Atributo de configuración para el visualizador de vídeo360.
-seo-title: Video360Player.loop
 solution: Experience Manager
 title: Video360Player.loop
-uuid: 68827542-727a-40b7-b90d-9c8fb3a7e59b
 feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 22%
+source-wordcount: '41'
+ht-degree: 21%
 
 ---
 
