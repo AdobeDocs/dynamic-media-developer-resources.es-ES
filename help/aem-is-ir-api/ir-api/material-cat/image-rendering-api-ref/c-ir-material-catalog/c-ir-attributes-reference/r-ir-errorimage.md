@@ -1,16 +1,13 @@
 ---
 description: Imagen de respuesta de error. El procesamiento de imágenes normalmente devuelve un estado de error con un mensaje de texto cuando se produce un error. atributo ErrorImage permite que la configuración de una imagen se devuelva en caso de error.
-seo-description: Imagen de respuesta de error. El procesamiento de imágenes normalmente devuelve un estado de error con un mensaje de texto cuando se produce un error. atributo ErrorImage permite que la configuración de una imagen se devuelva en caso de error.
-seo-title: ErrorImage *
 solution: Experience Manager
 title: ErrorImage *
-uuid: 6c8801d0-8cd0-4477-9a60-ccbb343a0747
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '214'
 ht-degree: 1%
 
 ---
