@@ -1,17 +1,14 @@
 ---
 description: Obtiene información sobre un usuario. Utilice la dirección de correo electrónico y la contraseña de un usuario del sistema como credenciales para autorizar la solicitud. De lo contrario, la operación obtiene información sobre el usuario predeterminado.
-seo-description: Obtiene información sobre un usuario. Utilice la dirección de correo electrónico y la contraseña de un usuario del sistema como credenciales para autorizar la solicitud. De lo contrario, la operación obtiene información sobre el usuario predeterminado.
-seo-title: getUserInfo
 solution: Experience Manager
 title: getUserInfo
-uuid: b305c108-22e9-4268-a5b3-25fddd844c24
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 9%
+source-wordcount: '146'
+ht-degree: 11%
 
 ---
 
