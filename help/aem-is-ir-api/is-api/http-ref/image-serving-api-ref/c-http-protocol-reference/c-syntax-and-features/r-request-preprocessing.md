@@ -1,16 +1,13 @@
 ---
 description: El servicio de imágenes proporciona un preprocesador de solicitudes sencillo basado en reglas de sustitución y coincidencia de expresiones regulares.
-seo-description: El servicio de imágenes proporciona un preprocesador de solicitudes sencillo basado en reglas de sustitución y coincidencia de expresiones regulares.
-seo-title: Solicitar preprocesamiento
 solution: Experience Manager
 title: Solicitar preprocesamiento
-uuid: 375bbca2-7a4a-49a9-9577-86e6b2f19990
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
