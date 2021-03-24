@@ -1,16 +1,13 @@
 ---
 description: Referencia de la API de JavaScript para el visualizador de Video360.
-seo-description: Referencia de la API de JavaScript para el visualizador de Video360.
-seo-title: dispose
 solution: Experience Manager
 title: dispose
-uuid: bdecadb1-4e77-43d5-9da5-80e5101efb36
 feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '135'
 ht-degree: 2%
 
 ---
