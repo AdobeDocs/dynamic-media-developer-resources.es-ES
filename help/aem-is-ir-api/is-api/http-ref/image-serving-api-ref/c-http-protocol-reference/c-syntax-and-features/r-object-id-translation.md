@@ -1,16 +1,13 @@
 ---
 description: El servicio de imágenes proporciona un mecanismo para traducir identificadores de objeto externos a ID de objeto (catálogo) específicos de configuración regional. La aplicación principal es proporcionar contenido y contenido específicos de la configuración regional que se comparten entre varias configuraciones regionales sin que la aplicación cliente necesite conocer los ID de objeto específicos de la configuración regional.
-seo-description: El servicio de imágenes proporciona un mecanismo para traducir identificadores de objeto externos a ID de objeto (catálogo) específicos de configuración regional. La aplicación principal es proporcionar contenido y contenido específicos de la configuración regional que se comparten entre varias configuraciones regionales sin que la aplicación cliente necesite conocer los ID de objeto específicos de la configuración regional.
-seo-title: Traducción de ID de objeto
 solution: Experience Manager
 title: Traducción de ID de objeto
-uuid: 8b4c2f44-033a-428a-b505-af389865c70a
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '706'
 ht-degree: 9%
 
 ---
