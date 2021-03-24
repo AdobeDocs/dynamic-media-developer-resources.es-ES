@@ -1,16 +1,13 @@
 ---
 description: Referencia de la API de JavaScript para el visor de zoom en línea.
-seo-description: Referencia de la API de JavaScript para el visor de zoom en línea.
-seo-title: setAsset
 solution: Experience Manager
 title: setAsset
-uuid: 5bb7aebf-0a1d-4783-923d-7f7e7dcb9baa
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom en línea
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '138'
 ht-degree: 2%
 
 ---
