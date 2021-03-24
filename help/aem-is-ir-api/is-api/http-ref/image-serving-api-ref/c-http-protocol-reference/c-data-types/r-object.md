@@ -1,16 +1,13 @@
 ---
 description: Especificador de objetos de origen. Los objetos de perfil Image, SVG y ICC pueden especificarse como entradas de catálogo de imágenes o rutas de archivo relativas
-seo-description: Especificador de objetos de origen. Los objetos de perfil Image, SVG y ICC pueden especificarse como entradas de catálogo de imágenes o rutas de archivo relativas
-seo-title: objeto
 solution: Experience Manager
 title: objeto
-uuid: 8d25b47d-0f23-4d9a-a7e6-6e865ae4114e
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '501'
 ht-degree: 1%
 
 ---
