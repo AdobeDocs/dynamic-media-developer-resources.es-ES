@@ -1,17 +1,14 @@
 ---
 description: Asigna un recurso a los contextos de publicación en los que se marca un recurso para su publicación.
-seo-description: Asigna un recurso a los contextos de publicación en los que se marca un recurso para su publicación.
-seo-title: AssetPublishContexts
 solution: Experience Manager
 title: AssetPublishContexts
-uuid: 85914db3-d2ea-4e73-8f8d-6e18d2d44f55
 feature: Dynamic Media Classic,SDK/API,Administración de activos
 role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 6%
+source-wordcount: '63'
+ht-degree: 7%
 
 ---
 
