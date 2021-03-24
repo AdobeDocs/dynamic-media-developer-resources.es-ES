@@ -1,17 +1,14 @@
 ---
 description: Utilizado por IccProfileFieldUpdate/colorSpace e IccProfileFieldUpdate/pcsType.
-seo-description: Utilizado por IccProfileFieldUpdate/colorSpace e IccProfileFieldUpdate/pcsType.
-seo-title: Espacios de color
 solution: Experience Manager
 title: Espacios de color
-uuid: a703fccb-932d-4de8-84a1-bc0483013151
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 5%
+source-wordcount: '27'
+ht-degree: 7%
 
 ---
 
