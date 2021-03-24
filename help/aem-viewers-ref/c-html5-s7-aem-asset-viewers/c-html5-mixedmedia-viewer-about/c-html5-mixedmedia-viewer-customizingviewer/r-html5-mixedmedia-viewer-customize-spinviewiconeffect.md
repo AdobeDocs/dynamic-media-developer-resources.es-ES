@@ -1,16 +1,13 @@
 ---
 description: El indicador de giro se superpone en el área de vista de giro. Se muestra cuando la imagen se encuentra en estado de restablecimiento y también depende del parámetro iconeffect.
-seo-description: El indicador de giro se superpone en el área de vista de giro. Se muestra cuando la imagen se encuentra en estado de restablecimiento y también depende del parámetro iconeffect.
-seo-title: Efecto Icono de vista de giro
 solution: Experience Manager
 title: Efecto Icono de vista de giro
-uuid: 33445a3d-51dc-47a4-a8d1-87d25ea001e1
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '160'
 ht-degree: 1%
 
 ---
