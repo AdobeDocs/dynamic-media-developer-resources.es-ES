@@ -1,16 +1,13 @@
 ---
 description: Utilice esta configuración del servidor para establecer los límites de tamaño de la imagen.
-seo-description: Utilice esta configuración del servidor para establecer los límites de tamaño de la imagen.
-seo-title: Límites de tamaño de imagen
 solution: Experience Manager
 title: Límites de tamaño de imagen
-uuid: 6736e652-c495-45a2-bdd2-9975f99af0a2
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, administrador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
