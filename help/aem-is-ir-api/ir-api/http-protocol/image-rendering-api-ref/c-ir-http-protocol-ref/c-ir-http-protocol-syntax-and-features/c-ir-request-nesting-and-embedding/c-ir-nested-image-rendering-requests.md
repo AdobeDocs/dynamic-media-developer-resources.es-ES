@@ -1,16 +1,13 @@
 ---
 description: Para aplicaciones avanzadas es posible utilizar el resultado de una operación de renderización como imagen material, al igual que una imagen obtenida de Image Serving.
-seo-description: Para aplicaciones avanzadas es posible utilizar el resultado de una operación de renderización como imagen material, al igual que una imagen obtenida de Image Serving.
-seo-title: Solicitudes de renderización de imágenes anidadas
 solution: Experience Manager
 title: Solicitudes de renderización de imágenes anidadas
-uuid: 12551bd5-ff5f-45d6-81e9-5ba0be47a425
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
