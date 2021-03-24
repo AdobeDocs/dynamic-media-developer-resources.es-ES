@@ -1,16 +1,13 @@
 ---
 description: Ruta del archivo de datos del catálogo. Especifica el archivo que contiene los datos de material de este catálogo.
-seo-description: Ruta del archivo de datos del catálogo. Especifica el archivo que contiene los datos de material de este catálogo.
-seo-title: ArchivoCatálogo
 solution: Experience Manager
 title: ArchivoCatálogo
-uuid: 6c34e24e-4602-4dd6-b202-793d621a8995
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '68'
 ht-degree: 2%
 
 ---
