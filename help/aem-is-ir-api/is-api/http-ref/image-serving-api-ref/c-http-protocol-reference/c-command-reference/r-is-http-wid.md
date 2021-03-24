@@ -1,16 +1,13 @@
 ---
 description: Ver anchura. Especifica el ancho de la imagen de respuesta (ver imagen) cuando fit= no está presente en la solicitud.
-seo-description: Ver anchura. Especifica el ancho de la imagen de respuesta (ver imagen) cuando fit= no está presente en la solicitud.
-seo-title: wid
 solution: Experience Manager
 title: wid
-uuid: 30aeeea0-c8c9-40b9-a244-2802a7102dd6
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '280'
 ht-degree: 3%
 
 ---
