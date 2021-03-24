@@ -1,16 +1,13 @@
 ---
 description: textPs= implementa un algoritmo de ajuste de copia patentado que ajustará automáticamente el tamaño de fuente para llenar de forma óptima el área de texto con texto, minimizando el espacio adicional en la parte inferior y evitando el desbordamiento.
-seo-description: textPs= implementa un algoritmo de ajuste de copia patentado que ajustará automáticamente el tamaño de fuente para llenar de forma óptima el área de texto con texto, minimizando el espacio adicional en la parte inferior y evitando el desbordamiento.
-seo-title: Ajuste de copia
 solution: Experience Manager
 title: Ajuste de copia
-uuid: c3ddbf1f-c724-4436-96ff-2c616dfd355d
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
