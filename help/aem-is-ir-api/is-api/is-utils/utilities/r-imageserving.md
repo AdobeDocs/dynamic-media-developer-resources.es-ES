@@ -1,16 +1,13 @@
 ---
 description: Secuencia de comandos de control de servicio de imágenes. Esta secuencia de comandos se utiliza para iniciar, detener o reiniciar el Supervisor del servidor de servicio de imágenes, que a su vez inicia, detiene o reinicia todos los demás componentes de servicio de imágenes.
-seo-description: Secuencia de comandos de control de servicio de imágenes. Esta secuencia de comandos se utiliza para iniciar, detener o reiniciar el Supervisor del servidor de servicio de imágenes, que a su vez inicia, detiene o reinicia todos los demás componentes de servicio de imágenes.
-seo-title: ImageServing
 solution: Experience Manager
 title: ImageServing
-uuid: 2975b957-e06f-42c6-8c0a-0d2757a0025a
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '159'
 ht-degree: 2%
 
 ---
