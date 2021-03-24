@@ -1,16 +1,13 @@
 ---
 description: El procesamiento de imágenes permite incrustar solicitudes de servicio de imágenes y peticiones HTTP a servidores extranjeros para recuperar imágenes de material utilizadas para texturas y calcomanías repetibles.
-seo-description: El procesamiento de imágenes permite incrustar solicitudes de servicio de imágenes y peticiones HTTP a servidores extranjeros para recuperar imágenes de material utilizadas para texturas y calcomanías repetibles.
-seo-title: Anidado e incrustación de solicitudes *
 solution: Experience Manager
 title: Anidado e incrustación de solicitudes *
-uuid: 1884ae71-6ff5-4945-9411-a7183c32b772
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '82'
 ht-degree: 0%
 
 ---
