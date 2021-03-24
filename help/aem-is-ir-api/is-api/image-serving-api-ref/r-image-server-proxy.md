@@ -1,16 +1,13 @@
 ---
 description: Se puede utilizar un proxy de servidor de imágenes para cambiar el tamaño de las imágenes para teléfonos japoneses.
-seo-description: Se puede utilizar un proxy de servidor de imágenes para cambiar el tamaño de las imágenes para teléfonos japoneses.
-seo-title: proxy del servidor de imágenes
 solution: Experience Manager
 title: proxy del servidor de imágenes
-uuid: 49aa0861-9b03-4a62-8604-67e6cb7a621f
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
