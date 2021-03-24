@@ -1,17 +1,14 @@
 ---
 description: Utilizado por SystemFieldCondition/op.
-seo-description: Utilizado por SystemFieldCondition/op.
-seo-title: Operadores de comparación numérica/de fechas
 solution: Experience Manager
 title: Operadores de comparación numérica/de fechas
-uuid: 95f923df-ba72-4926-a5a4-51cea6d39495
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 6%
+source-wordcount: '25'
+ht-degree: 8%
 
 ---
 
