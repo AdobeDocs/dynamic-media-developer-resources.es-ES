@@ -1,16 +1,13 @@
 ---
 description: La vista principal consiste en la imagen del catálogo. Se puede realizar un barrido para llegar a otra página o ampliar.
-seo-description: La vista principal consiste en la imagen del catálogo. Se puede realizar un barrido para llegar a otra página o ampliar.
-seo-title: Vista de la página
 solution: Experience Manager
 title: Vista de la página
-uuid: f585bf57-c66a-4213-a2af-d9625beb5bed
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '392'
 ht-degree: 4%
 
 ---
