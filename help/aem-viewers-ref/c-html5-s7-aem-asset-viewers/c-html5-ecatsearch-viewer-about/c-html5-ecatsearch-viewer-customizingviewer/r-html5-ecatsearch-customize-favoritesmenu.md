@@ -1,16 +1,13 @@
 ---
 description: La lista desplegable del menú Favoritos aparece en la barra de control. Consiste en un botón y un panel que se expande cuando un usuario hace clic o pulsa un botón. El panel contiene herramientas de Favoritos individuales.
-seo-description: La lista desplegable del menú Favoritos aparece en la barra de control. Consiste en un botón y un panel que se expande cuando un usuario hace clic o pulsa un botón. El panel contiene herramientas de Favoritos individuales.
-seo-title: Menú Favoritos
 solution: Experience Manager
 title: Menú Favoritos
-uuid: 46de2a74-690e-4010-8a71-54206dd02fd0
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
