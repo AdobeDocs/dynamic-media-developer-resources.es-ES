@@ -1,17 +1,14 @@
 ---
 description: El servidor se puede configurar para que envíe alertas por correo electrónico cuando se superen determinados umbrales de rendimiento o error. El sistema supervisa colectivamente todas las aplicaciones web implementadas en el servidor.
-seo-description: El servidor se puede configurar para que envíe alertas por correo electrónico cuando se superen determinados umbrales de rendimiento o error. El sistema supervisa colectivamente todas las aplicaciones web implementadas en el servidor.
-seo-title: Supervisión del servidor
 solution: Experience Manager
 title: Supervisión del servidor
-uuid: c4042ed9-e186-4f0f-a48b-1af3b67a2f04
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, administrador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 1%
+source-wordcount: '82'
+ht-degree: 2%
 
 ---
 
