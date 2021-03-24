@@ -1,16 +1,13 @@
 ---
 description: La zona de vista principal es la zona ocupada por las vistas flotantes y las muestras.
-seo-description: La zona de vista principal es la zona ocupada por las vistas flotantes y las muestras.
-seo-title: Área del visor principal
 solution: Experience Manager
 title: Área del visor principal
-uuid: bc0beeaf-3e7d-4ede-9a7d-04afb1724e44
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Flotante
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '102'
 ht-degree: 2%
 
 ---
