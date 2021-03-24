@@ -1,17 +1,14 @@
 ---
 description: Indica si el visor empieza a cargar contenido de vídeo antes de que se inicie la reproducción.
-seo-description: Indica si el visor empieza a cargar contenido de vídeo antes de que se inicie la reproducción.
-seo-title: Video360Player.preload
 solution: Experience Manager
 title: Video360Player.preload
-uuid: 6e3b95b8-d585-4164-8665-6211000689fe
 feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 7%
+source-wordcount: '132'
+ht-degree: 6%
 
 ---
 
