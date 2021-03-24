@@ -1,16 +1,13 @@
 ---
 description: A continuación, se muestra la lista de palabras clave y comandos admitidos por el motor de texto Scene7 Image Serving.
-seo-description: A continuación, se muestra la lista de palabras clave y comandos admitidos por el motor de texto Scene7 Image Serving.
-seo-title: Comandos y palabras clave RTF admitidos
 solution: Experience Manager
 title: Comandos y palabras clave RTF admitidos
-uuid: 0b77d0c5-c4cc-4de7-b51d-6f2ca02316f5
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
