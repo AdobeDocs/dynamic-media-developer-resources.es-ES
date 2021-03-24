@@ -1,17 +1,14 @@
 ---
 description: Tipo de solicitud. Especifica el tipo de solicitud.
-seo-description: Tipo de solicitud. Especifica el tipo de solicitud.
-seo-title: req
 solution: Experience Manager
 title: req
-uuid: 1c8ff9c3-9f39-46a8-bd38-8e0c5ab0f548
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 4%
+source-wordcount: '249'
+ht-degree: 3%
 
 ---
 
