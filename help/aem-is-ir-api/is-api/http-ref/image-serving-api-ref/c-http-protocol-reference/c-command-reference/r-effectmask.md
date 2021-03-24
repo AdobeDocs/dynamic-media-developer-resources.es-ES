@@ -1,16 +1,13 @@
 ---
 description: Anula el valor del atributo ApplyEffectMask de la solicitud.
-seo-description: Anula el valor del atributo ApplyEffectMask de la solicitud.
-seo-title: effectMask
 solution: Experience Manager
 title: effectMask
-uuid: 2b90cc36-1e33-4116-a11d-74eafa9b366a
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '59'
 ht-degree: 0%
 
 ---
