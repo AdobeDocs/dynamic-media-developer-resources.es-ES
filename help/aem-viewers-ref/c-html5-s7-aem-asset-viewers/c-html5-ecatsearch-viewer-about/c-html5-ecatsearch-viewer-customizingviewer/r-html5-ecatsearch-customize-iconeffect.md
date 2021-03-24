@@ -1,16 +1,13 @@
 ---
 description: El indicador de zoom se superpone en el área de vista principal. Se muestra cuando la imagen está en estado de restablecimiento y también depende del parámetro iconeffect.
-seo-description: El indicador de zoom se superpone en el área de vista principal. Se muestra cuando la imagen está en estado de restablecimiento y también depende del parámetro iconeffect.
-seo-title: Icono, efecto
 solution: Experience Manager
 title: Icono, efecto
-uuid: 4995ac11-f591-4d1d-a292-be5d55aebf98
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '180'
 ht-degree: 1%
 
 ---
