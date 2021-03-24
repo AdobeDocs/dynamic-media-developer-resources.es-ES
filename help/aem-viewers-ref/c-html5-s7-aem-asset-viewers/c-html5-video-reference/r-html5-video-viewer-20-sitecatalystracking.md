@@ -1,16 +1,13 @@
 ---
 description: El visor de vídeo es compatible con el seguimiento de Adobe Analytics de serie.
-seo-description: El visor de vídeo es compatible con el seguimiento de Adobe Analytics de serie.
-seo-title: Compatibilidad con el seguimiento de Adobe Analytics
 solution: Experience Manager
 title: Compatibilidad con el seguimiento de Adobe Analytics
-uuid: c53b3d3b-42e5-4c87-8a1e-87c73eb32341
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
 role: Desarrollador, profesional empresarial, ingeniero de datos, arquitecto de datos
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '167'
 ht-degree: 3%
 
 ---
