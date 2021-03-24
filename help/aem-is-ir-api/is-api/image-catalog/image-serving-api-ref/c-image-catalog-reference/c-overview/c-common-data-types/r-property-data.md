@@ -1,16 +1,13 @@
 ---
 description: Los datos de propiedad constan de una cadena de texto que representa una o varias propiedades.
-seo-description: Los datos de propiedad constan de una cadena de texto que representa una o varias propiedades.
-seo-title: Datos de propiedad
 solution: Experience Manager
 title: Datos de propiedad
-uuid: 7fa6ae70-8d70-41d6-9e47-7df3d616874c
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
