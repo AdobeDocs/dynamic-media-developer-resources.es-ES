@@ -1,16 +1,13 @@
 ---
 description: La posición del botón Eliminar favorito se administra completamente mediante el menú Favoritos.
-seo-description: La posición del botón Eliminar favorito se administra completamente mediante el menú Favoritos.
-seo-title: Botón Quitar favorito
 solution: Experience Manager
 title: Botón Quitar favorito
-uuid: c2e1929d-d859-49d5-8bdc-13507e25d02c
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
