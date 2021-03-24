@@ -5,7 +5,7 @@ title: Configuración avanzada de procesamiento
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 25%
@@ -60,7 +60,7 @@ Estos ajustes se controlan de forma interactiva en la creación de imágenes. Es
   <tr> 
    <td colname="col1"> <p>V </p> </td> 
    <td colname="col2"> <p>Radio USM (píxeles). </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>100 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
@@ -139,7 +139,7 @@ Estos ajustes se controlan de forma interactiva en la creación de imágenes. Es
    <td colname="col1"> <p>Y </p> </td> 
    <td colname="col2"> <p>Poisson: Utilice la opción . </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
-   <td colname="col4"> <p>3 </p> </td> 
+   <td colname="col4"> <p>1 </p> </td> 
    <td colname="col5"> <p>El valor predeterminado es 1. </p> </td> 
   </tr> 
   <tr> 
