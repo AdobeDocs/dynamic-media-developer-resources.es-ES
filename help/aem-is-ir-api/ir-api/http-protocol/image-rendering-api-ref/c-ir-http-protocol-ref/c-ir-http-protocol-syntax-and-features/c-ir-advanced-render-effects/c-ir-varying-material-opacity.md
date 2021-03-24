@@ -1,16 +1,13 @@
 ---
 description: La opacidad variable es compatible con el color sólido y las texturas repetibles aplicadas a objetos superpuestos, así como con las calcomanías y los materiales de recubrimiento de ventanas.
-seo-description: La opacidad variable es compatible con el color sólido y las texturas repetibles aplicadas a objetos superpuestos, así como con las calcomanías y los materiales de recubrimiento de ventanas.
-seo-title: Variación de la opacidad del material
 solution: Experience Manager
 title: Variación de la opacidad del material
-uuid: 6af07ea8-44ba-4253-8a26-614725af2f46
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
