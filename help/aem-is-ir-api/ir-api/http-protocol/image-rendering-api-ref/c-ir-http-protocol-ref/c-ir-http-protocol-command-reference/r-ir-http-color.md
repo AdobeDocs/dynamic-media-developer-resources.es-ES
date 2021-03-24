@@ -1,17 +1,14 @@
 ---
 description: Color frontal. Especifica el color de los materiales de color sólido o el color aditivo para los materiales coloreables.
-seo-description: Color frontal. Especifica el color de los materiales de color sólido o el color aditivo para los materiales coloreables.
-seo-title: color
 solution: Experience Manager
 title: color
-uuid: 546cf34b-ab2d-497c-abc2-89024dc541db
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 14%
+source-wordcount: '81'
+ht-degree: 13%
 
 ---
 
