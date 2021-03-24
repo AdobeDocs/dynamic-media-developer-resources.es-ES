@@ -1,17 +1,14 @@
 ---
 description: Permitir direcciones URL de origen absolutas.
-seo-description: Permitir direcciones URL de origen absolutas.
-seo-title: AllowDirectURLs
 solution: Experience Manager
 title: AllowDirectURLs
-uuid: 6b03abd1-bff6-4ff2-9945-9905355de87e
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 8%
+source-wordcount: '51'
+ht-degree: 9%
 
 ---
 
