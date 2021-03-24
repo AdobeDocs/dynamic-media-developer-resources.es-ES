@@ -1,16 +1,13 @@
 ---
 description: Los efectos de sombra y resplandor de capa de estilo Photoshop se implementan utilizando subcapas especiales (capas de efecto) que pueden adjuntarse a cualquier capa (la capa principal), incluidas la capa=0 y la capa=comp.
-seo-description: Los efectos de sombra y resplandor de capa de estilo Photoshop se implementan utilizando subcapas especiales (capas de efecto) que pueden adjuntarse a cualquier capa (la capa principal), incluidas la capa=0 y la capa=comp.
-seo-title: Efectos de capa
 solution: Experience Manager
 title: Efectos de capa
-uuid: 076e98de-cbbb-457b-984a-367a935b4356
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '490'
 ht-degree: 2%
 
 ---
@@ -91,7 +88,7 @@ Agregue una sombra paralela azulada a una imagen mediante la configuración de e
 
 [!DNL http://server/is/image/myCat/myImage?size=200,200&extend=0,0,10,10&effect=-1&$shadow$&color=50,143,254]
 
-`extend=` añade un pequeño margen a los bordes inferiores derechos de la imagen, lo que evita que la sombra se recorte a los límites de la imagen.
+`extend=` añade un pequeño margen a los bordes inferiores derechos de la imagen, lo que evita que la sombra paralela se recorte a los límites de la imagen.
 
 ## Véase también {#section-1acccccf534549aea23d4c008c17e7c0}
 
