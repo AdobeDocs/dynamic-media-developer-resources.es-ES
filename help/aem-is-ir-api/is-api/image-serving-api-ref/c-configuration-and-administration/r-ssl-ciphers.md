@@ -1,16 +1,13 @@
 ---
 description: La etiqueta Connector en server.xml admite un atributo ciphers para limitar los cifrados que se pueden elegir para una conexión SSL.
-seo-description: La etiqueta Connector en server.xml admite un atributo ciphers para limitar los cifrados que se pueden elegir para una conexión SSL.
-seo-title: Definición de cifrados SSL
 solution: Experience Manager
 title: Definición de cifrados SSL
-uuid: 9490fb9a-5abb-4f5e-b660-b7af0a5e4b4d
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, administrador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
