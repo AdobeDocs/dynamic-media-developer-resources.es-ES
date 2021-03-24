@@ -1,17 +1,14 @@
 ---
 description: Ruta del archivo de definiciones de macro. Especifica el archivo que contiene las definiciones de macro para este catálogo de material.
-seo-description: Ruta del archivo de definiciones de macro. Especifica el archivo que contiene las definiciones de macro para este catálogo de material.
-seo-title: ArchivoMacro
 solution: Experience Manager
 title: ArchivoMacro
-uuid: cbf7fd62-b868-4891-8b95-0aaf38078a36
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 4%
+source-wordcount: '74'
+ht-degree: 5%
 
 ---
 
