@@ -1,16 +1,13 @@
 ---
 description: Si una solicitud no se puede completar correctamente, el servidor devolverá una imagen de error o un estado de respuesta HTTP que no sea 200 junto con un mensaje de error.
-seo-description: Si una solicitud no se puede completar correctamente, el servidor devolverá una imagen de error o un estado de respuesta HTTP que no sea 200 junto con un mensaje de error.
-seo-title: Errores
 solution: Experience Manager
 title: Errores
-uuid: 5984fa9e-63c8-426b-be5f-48f66fc918c3
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '176'
 ht-degree: 2%
 
 ---
