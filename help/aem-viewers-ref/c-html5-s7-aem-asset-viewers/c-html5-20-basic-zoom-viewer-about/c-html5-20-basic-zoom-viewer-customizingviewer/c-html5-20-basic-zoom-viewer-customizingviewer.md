@@ -1,17 +1,14 @@
 ---
 description: Toda la personalización visual y la mayor parte de la personalización del comportamiento para el visor de zoom básico se realiza creando un CSS personalizado.
 keywords: adaptable
-seo-description: Toda la personalización visual y la mayor parte de la personalización del comportamiento para el visor de zoom básico se realiza creando un CSS personalizado.
-seo-title: Personalización del visor de zoom básico
 solution: Experience Manager
 title: Personalización del visor de zoom básico
-uuid: 9f3c203e-ff6f-4bf1-a1dc-26495412af45
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1364'
+source-wordcount: '1341'
 ht-degree: 0%
 
 ---
