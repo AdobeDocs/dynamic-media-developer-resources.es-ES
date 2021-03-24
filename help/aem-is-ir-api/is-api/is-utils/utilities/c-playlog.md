@@ -1,16 +1,13 @@
 ---
 description: La utilidad playlog se puede utilizar para generar previamente contenido para la caché de respuestas HTTP.
-seo-description: La utilidad playlog se puede utilizar para generar previamente contenido para la caché de respuestas HTTP.
-seo-title: La utilidad "playlog"
 solution: Experience Manager
 title: La utilidad "playlog"
-uuid: 9044515e-7cfb-4e86-9ac4-e071b60f38d1
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '429'
 ht-degree: 1%
 
 ---
