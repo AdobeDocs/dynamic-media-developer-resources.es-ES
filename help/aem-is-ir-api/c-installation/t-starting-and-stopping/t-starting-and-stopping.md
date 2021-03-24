@@ -1,16 +1,13 @@
 ---
 description: Esta sección proporciona instrucciones para iniciar y detener Image Serving en Windows y Linux.
-seo-description: Esta sección proporciona instrucciones para iniciar y detener Image Serving en Windows y Linux.
-seo-title: Inicio y parada del servicio de imágenes
 solution: Experience Manager
 title: Inicio y parada del servicio de imágenes
-uuid: 1b9f90a1-5ce4-49ed-b412-32d0c914b333
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '56'
 ht-degree: 0%
 
 ---
