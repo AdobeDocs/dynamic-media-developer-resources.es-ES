@@ -1,16 +1,13 @@
 ---
 description: La lista de rutas, delimitada por punto y coma, sirve de base para todos los archivos de datos con rutas de archivo relativas.
-seo-description: La lista de rutas, delimitada por punto y coma, sirve de base para todos los archivos de datos con rutas de archivo relativas.
-seo-title: Carpetas raíz de recursos (ir.resourceRootPaths)
 solution: Experience Manager
 title: Carpetas raíz de recursos (ir.resourceRootPaths)
-uuid: a2a8ecd1-ddfe-46c5-bb70-4640e0992de8
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, administrador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '88'
 ht-degree: 0%
 
 ---
