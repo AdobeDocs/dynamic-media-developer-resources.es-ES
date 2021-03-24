@@ -1,16 +1,13 @@
 ---
 description: textPs= admite varios modelos de uso diferentes que se describen en esta sección.
-seo-description: textPs= admite varios modelos de uso diferentes que se describen en esta sección.
-seo-title: Capas de texto
 solution: Experience Manager
 title: Capas de texto
-uuid: 9ccef969-7c54-49ce-b6ff-ae4eabfcf99b
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '894'
 ht-degree: 0%
 
 ---
