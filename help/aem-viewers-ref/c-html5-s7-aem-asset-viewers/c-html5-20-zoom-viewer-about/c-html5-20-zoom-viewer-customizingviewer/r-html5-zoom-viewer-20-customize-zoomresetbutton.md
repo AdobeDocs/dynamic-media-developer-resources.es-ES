@@ -1,17 +1,14 @@
 ---
 description: Al pulsar o hacer clic en este botón, se restablece una imagen en la vista principal. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
-seo-description: Al pulsar o hacer clic en este botón, se restablece una imagen en la vista principal. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
-seo-title: Botón Restablecer zoom
 solution: Experience Manager
 title: Botón Restablecer zoom
-uuid: b3119094-ab50-4aa4-a0ac-11d90f109908
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 2%
+source-wordcount: '219'
+ht-degree: 3%
 
 ---
 
