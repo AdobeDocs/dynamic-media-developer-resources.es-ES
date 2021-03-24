@@ -1,16 +1,13 @@
 ---
 description: Se envía una alerta de prioridad cuando el espacio libre en la pila de Java está por debajo del umbral especificado inmediatamente después de un ciclo de colección de residuos de Java.
-seo-description: Se envía una alerta de prioridad cuando el espacio libre en la pila de Java está por debajo del umbral especificado inmediatamente después de un ciclo de colección de residuos de Java.
-seo-title: Alerta de prioridad del espacio de montículos
 solution: Experience Manager
 title: Alerta de prioridad del espacio de montículos
-uuid: 89956ad3-8a73-40db-92bd-326e3fab37ee
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, administrador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
