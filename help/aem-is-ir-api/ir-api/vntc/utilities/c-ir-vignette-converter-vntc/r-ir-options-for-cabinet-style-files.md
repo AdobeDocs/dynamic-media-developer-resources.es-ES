@@ -1,16 +1,13 @@
 ---
 description: Las siguientes opciones controlan el procesamiento de los archivos de estilo de archivador. Se omiten si sourceFile no es un archivo de estilo de archivador o si se especifica -info.
-seo-description: Las siguientes opciones controlan el procesamiento de los archivos de estilo de archivador. Se omiten si sourceFile no es un archivo de estilo de archivador o si se especifica -info.
-seo-title: Opciones para archivos de estilo de archivador
 solution: Experience Manager
 title: Opciones para archivos de estilo de archivador
-uuid: bca84724-d710-45da-86e9-7385f689fd4b
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
