@@ -1,17 +1,14 @@
 ---
 description: Perfil de color de entrada predeterminado de escala de grises. Especifica el nombre del perfil de color ICC que se utilizará para las imágenes de origen en escala de grises que no incrustan un perfil de color y para ciertos valores de color en escala de grises especificados con varios comandos de servicio de imágenes, como color=.
-seo-description: Perfil de color de entrada predeterminado de escala de grises. Especifica el nombre del perfil de color ICC que se utilizará para las imágenes de origen en escala de grises que no incrustan un perfil de color y para ciertos valores de color en escala de grises especificados con varios comandos de servicio de imágenes, como color=.
-seo-title: IccProfileSrcGray
 solution: Experience Manager
 title: IccProfileSrcGray
-uuid: 823c0e33-8bb7-4754-81cf-61a5ed6f45ce
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 1%
+source-wordcount: '163'
+ht-degree: 2%
 
 ---
 
