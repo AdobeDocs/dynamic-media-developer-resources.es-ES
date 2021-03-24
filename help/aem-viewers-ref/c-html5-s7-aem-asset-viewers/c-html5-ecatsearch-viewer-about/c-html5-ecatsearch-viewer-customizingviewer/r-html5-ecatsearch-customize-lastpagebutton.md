@@ -1,16 +1,13 @@
 ---
 description: Al pulsar o hacer clic en este botón, el usuario llega a la última página del catálogo. Este botón aparece en la barra de control principal de los sistemas de escritorio y tabletas; en teléfonos móviles se añade a una barra de control secundaria. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
-seo-description: Al pulsar o hacer clic en este botón, el usuario llega a la última página del catálogo. Este botón aparece en la barra de control principal de los sistemas de escritorio y tabletas; en teléfonos móviles se añade a una barra de control secundaria. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
-seo-title: Botón Última página
 solution: Experience Manager
 title: Botón Última página
-uuid: 4cdcd2b7-a6d3-48c0-ba65-5339d232a954
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '352'
 ht-degree: 1%
 
 ---
