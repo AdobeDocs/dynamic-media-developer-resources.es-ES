@@ -1,16 +1,13 @@
 ---
 description: El contenido que muestra el visor de giros está sujeto a localización, incluidos los botones de zoom y el botón de pantalla completa.
-seo-description: El contenido que muestra el visor de giros está sujeto a localización, incluidos los botones de zoom y el botón de pantalla completa.
-seo-title: Localización de los elementos de la interfaz de usuario
 solution: Experience Manager
 title: Localización de los elementos de la interfaz de usuario
-uuid: bf38bdef-a31f-4f2f-a8f5-3d3d4eac95ab
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de giros
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
