@@ -1,16 +1,13 @@
 ---
 description: Responder formato de imagen. Especifica el formato de codificación de imagen para los datos de imagen enviados al cliente y el tipo MIME de respuesta correspondiente para el encabezado de respuesta HTTP.
-seo-description: Responder formato de imagen. Especifica el formato de codificación de imagen para los datos de imagen enviados al cliente y el tipo MIME de respuesta correspondiente para el encabezado de respuesta HTTP.
-seo-title: fmt
 solution: Experience Manager
 title: fmt
-uuid: 7c589119-d1b3-460f-acbd-5e8d10d0d976
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '584'
 ht-degree: 4%
 
 ---
