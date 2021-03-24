@@ -1,16 +1,13 @@
 ---
 description: Los campos del catálogo utilizan estos valores predeterminados.
-seo-description: Los campos del catálogo utilizan estos valores predeterminados.
-seo-title: Valores predeterminados de los campos de catálogo
 solution: Experience Manager
 title: Valores predeterminados de los campos de catálogo
-uuid: 8902766c-c2d9-433a-9c49-3182b063269f
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '58'
 ht-degree: 0%
 
 ---
