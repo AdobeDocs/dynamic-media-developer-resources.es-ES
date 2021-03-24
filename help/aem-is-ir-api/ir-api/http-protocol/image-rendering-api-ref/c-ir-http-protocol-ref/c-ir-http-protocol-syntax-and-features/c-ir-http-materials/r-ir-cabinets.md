@@ -1,16 +1,13 @@
 ---
 description: Los materiales de gabinetes especifican un archivo de estilo archivador (extensión de archivo .vnc), un archivo de datos especial que contiene representaciones fotográficas de gabinetes junto con definiciones de diseño paramétrico y otra información necesaria para procesar frontales de archivador.
-seo-description: Los materiales de gabinetes especifican un archivo de estilo archivador (extensión de archivo .vnc), un archivo de datos especial que contiene representaciones fotográficas de gabinetes junto con definiciones de diseño paramétrico y otra información necesaria para procesar frontales de archivador.
-seo-title: Armarios
 solution: Experience Manager
 title: Armarios
-uuid: d515c613-07c5-49ef-ad6e-568a1f6c1335
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '163'
 ht-degree: 5%
 
 ---
