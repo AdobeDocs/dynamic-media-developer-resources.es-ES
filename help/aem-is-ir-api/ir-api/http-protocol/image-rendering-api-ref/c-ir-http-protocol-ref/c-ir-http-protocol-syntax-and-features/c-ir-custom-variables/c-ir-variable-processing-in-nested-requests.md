@@ -1,16 +1,13 @@
 ---
 description: Las referencias $var$ pueden ocurrir en cualquier lugar dentro de las llaves de una solicitud anidada de servicio de imágenes o renderización de imágenes, incluso a la izquierda de '?' separar la ruta de acceso de la consulta.
-seo-description: Las referencias $var$ pueden ocurrir en cualquier lugar dentro de las llaves de una solicitud anidada de servicio de imágenes o renderización de imágenes, incluso a la izquierda de '?' separar la ruta de acceso de la consulta.
-seo-title: Procesamiento de variables en solicitudes anidadas
 solution: Experience Manager
 title: Procesamiento de variables en solicitudes anidadas
-uuid: 2f3fefac-d45e-4c53-854f-1fe16d0cedd9
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '167'
 ht-degree: 0%
 
 ---
