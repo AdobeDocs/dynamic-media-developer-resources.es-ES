@@ -1,16 +1,13 @@
 ---
 description: Puede utilizar el servicio de imágenes para administrar el contenido que no sea de imagen en los catálogos y servirlo a través de un contexto /is/content independiente.
-seo-description: Puede utilizar el servicio de imágenes para administrar el contenido que no sea de imagen en los catálogos y servirlo a través de un contexto /is/content independiente.
-seo-title: Servicio de contenido estático (no de imagen)
 solution: Experience Manager
 title: Servicio de contenido estático (no de imagen)
-uuid: bdb1383a-e02d-499f-be79-4a6dc501705c
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '470'
 ht-degree: 1%
 
 ---
