@@ -1,17 +1,14 @@
 ---
 description: Referencia de la API de JavaScript para el visor de zoom en línea.
-seo-description: Referencia de la API de JavaScript para el visor de zoom en línea.
-seo-title: setParam
 solution: Experience Manager
 title: setParam
-uuid: 7bccf2c0-9f9a-47ac-8b53-385989e8267c
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom en línea
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 1%
+source-wordcount: '93'
+ht-degree: 2%
 
 ---
 
