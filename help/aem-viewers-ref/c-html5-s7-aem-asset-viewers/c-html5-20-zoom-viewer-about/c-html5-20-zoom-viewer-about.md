@@ -1,17 +1,14 @@
 ---
 description: El visor de zoom es un visor de imágenes que muestra una imagen ampliable. Este visor funciona con conjuntos de imágenes y la navegación se realiza mediante muestras. Tiene herramientas de zoom, compatibilidad con pantalla completa, muestras y un botón de cierre opcional. Está diseñado para funcionar con equipos de escritorio y dispositivos móviles.
 keywords: adaptable
-seo-description: El visor de zoom es un visor de imágenes que muestra una imagen ampliable. Este visor funciona con conjuntos de imágenes y la navegación se realiza mediante muestras. Tiene herramientas de zoom, compatibilidad con pantalla completa, muestras y un botón de cierre opcional. Está diseñado para funcionar con equipos de escritorio y dispositivos móviles.
-seo-title: Zoom
 solution: Experience Manager
 title: Zoom
-uuid: ec2a91e2-ce2c-48b1-a2b2-8671524288c7
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '2471'
+source-wordcount: '2423'
 ht-degree: 0%
 
 ---
@@ -86,7 +83,7 @@ Consulte [Accesibilidad del teclado y navegación](../../c-keyboard-accessibilit
 
 ## Incrustación del visor de zoom {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Las diferentes páginas web tienen diferentes necesidades de comportamiento del visor. A veces, una página web proporciona un vínculo que, cuando se hace clic, abre el visor en una ventana independiente del explorador. En otros casos, es necesario incrustar el visor directamente en la página de alojamiento. En este último caso, la página web puede tener un diseño estático o utilizar un diseño interactivo que se muestre de forma diferente en diferentes dispositivos o en diferentes tamaños de ventana del navegador. Para satisfacer estas necesidades, el visor admite tres modos de operación principales: elemento emergente, incrustación de tamaño fijo e incrustación de diseño interactivo.
+Las diferentes páginas web tienen diferentes necesidades de comportamiento del visor. A veces, una página web proporciona un vínculo que, cuando se hace clic, abre el visor en una ventana independiente del explorador. En otros casos, es necesario integrar el visor directamente en la página de alojamiento. En este último caso, la página web puede tener un diseño estático o utilizar un diseño interactivo que se muestre de forma diferente en diferentes dispositivos o en diferentes tamaños de ventana del navegador. Para satisfacer estas necesidades, el visor admite tres modos de operación principales: elemento emergente, incrustación de tamaño fijo e incrustación de diseño interactivo.
 
 **Acerca del modo emergente**
 
