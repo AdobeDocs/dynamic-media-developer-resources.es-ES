@@ -1,17 +1,14 @@
 ---
 description: Atributo de configuración para el visualizador de vídeo360.
-seo-description: Atributo de configuración para el visualizador de vídeo360.
-seo-title: Video360Player.initialbitrate
 solution: Experience Manager
 title: Video360Player.initialbitrate
-uuid: a23fa941-6dd2-41c0-aca9-06f0cdb027b1
 feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 9%
+source-wordcount: '121'
+ht-degree: 8%
 
 ---
 
