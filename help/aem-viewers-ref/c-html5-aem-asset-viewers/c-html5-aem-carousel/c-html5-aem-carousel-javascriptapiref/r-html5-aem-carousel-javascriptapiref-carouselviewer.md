@@ -1,16 +1,13 @@
 ---
 description: Referencia de la API de JavaScript para el visor de carrusel.
-seo-description: Referencia de la API de JavaScript para el visor de carrusel.
-seo-title: Visor de carrusel
 solution: Experience Manager
 title: Visor de carrusel
-uuid: 443a5b54-b5f6-4594-810b-ce9b2ba40611
 feature: Dynamic Media Classic,Visores,SDK/API,Banners de carrusel
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '203'
 ht-degree: 3%
 
 ---
