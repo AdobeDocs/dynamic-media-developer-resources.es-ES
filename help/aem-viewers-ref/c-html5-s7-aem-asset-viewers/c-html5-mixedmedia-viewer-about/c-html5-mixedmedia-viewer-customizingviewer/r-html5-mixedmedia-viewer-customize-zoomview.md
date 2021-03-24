@@ -1,16 +1,13 @@
 ---
 description: En el modo de zoom continuo, la vista principal consiste en la imagen ampliable cuando el recurso actual es una sola imagen.
-seo-description: En el modo de zoom continuo, la vista principal consiste en la imagen ampliable cuando el recurso actual es una sola imagen.
-seo-title: Vista de zoom
 solution: Experience Manager
 title: Vista de zoom
-uuid: c9113275-eec6-4014-b7ad-3ae9f2cf01d9
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
