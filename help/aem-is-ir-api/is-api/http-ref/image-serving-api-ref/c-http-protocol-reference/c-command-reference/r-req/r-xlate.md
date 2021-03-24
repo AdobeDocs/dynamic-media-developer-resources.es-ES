@@ -1,17 +1,14 @@
 ---
 description: Versiones disponibles específicas de la configuración regional. Devuelve una lista de versiones disponibles específicas de la configuración regional del id de catálogo especificado en la ruta de solicitud.
-seo-description: Versiones disponibles específicas de la configuración regional. Devuelve una lista de versiones disponibles específicas de la configuración regional del id de catálogo especificado en la ruta de solicitud.
-seo-title: xlate
 solution: Experience Manager
 title: xlate
-uuid: 4c2370e5-1d46-4242-89bb-a5ce416ef63c
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 3%
+source-wordcount: '115'
+ht-degree: 4%
 
 ---
 
