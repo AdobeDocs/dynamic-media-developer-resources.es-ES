@@ -1,17 +1,14 @@
 ---
 description: Atributo de configuración para el visualizador de vídeo.
-seo-description: Atributo de configuración para el visualizador de vídeo.
-seo-title: VideoPlayer.iconeffect
 solution: Experience Manager
 title: VideoPlayer.iconeffect
-uuid: 1ba6f24a-77bb-41ef-a831-a7ac817abd73
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 3%
+source-wordcount: '125'
+ht-degree: 4%
 
 ---
 
