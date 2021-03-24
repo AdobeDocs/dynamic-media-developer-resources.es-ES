@@ -1,16 +1,13 @@
 ---
 description: Utilidad de conversión de imágenes.
-seo-description: Utilidad de conversión de imágenes.
-seo-title: ic
 solution: Experience Manager
 title: ic
-uuid: 08fabcc9-d0b5-4136-81fc-ac896c341e1d
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1212'
 ht-degree: 2%
 
 ---
@@ -257,7 +254,7 @@ En la tabla siguiente se enumeran los formatos de archivo de imagen y las opcion
   <tr> 
    <td> <b> BMP</b> <p> (Mapa de bits de Windows) </p> </td> 
    <td> <p> RGB | indexado </p> </td> 
-   <td> <p> 3 | 5/6 | 8 </p> </td> 
+   <td> <p> 1 | 5/6 | 8 </p> </td> 
    <td> <p> sin comprimir | RLE </p> </td> 
    <td> <p> 5/6 bits/canal indica la compatibilidad con RGB de 16 bits (5-5-5 y 5-6-5 bits/canal). </p> </td> 
   </tr> 
@@ -292,7 +289,7 @@ En la tabla siguiente se enumeran los formatos de archivo de imagen y las opcion
   <tr> 
    <td> <p> Photoshop </p> <b>PSD</b> </td> 
    <td> <p> CMYK | CMYKA | RGB | RGBA | gris | grisA </p> </td> 
-   <td> <p> 1 | 8 | 16 </p> </td> 
+   <td> <p> 3 | 8 | 16 </p> </td> 
    <td> <p> sin comprimir | comprimido </p> </td> 
    <td> <p> imagen combinada únicamente; se omiten las capas y los canales adicionales. </p> </td> 
   </tr> 
@@ -313,7 +310,7 @@ En la tabla siguiente se enumeran los formatos de archivo de imagen y las opcion
   <tr> 
    <td> <b> TIFF</b> </td> 
    <td> <p> CMYK | CMYKA | RGB | RGBA | gris | grisA | indexado </p> </td> 
-   <td> <p> 3 | 8 | 16 </p> </td> 
+   <td> <p> 1 | 8 | 16 </p> </td> 
    <td> <p> sin comprimir | ZIP | LZW | JPEG | RLE DE LA CCITT | CCITT G3 | CCITT G4 | Paquetes </p> </td> 
    <td> <p> A excepción del primer canal alfa asociado, se omiten los canales adicionales. </p> </td> 
   </tr> 
