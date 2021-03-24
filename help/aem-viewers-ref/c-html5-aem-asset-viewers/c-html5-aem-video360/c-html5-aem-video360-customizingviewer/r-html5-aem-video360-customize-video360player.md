@@ -1,16 +1,13 @@
 ---
 description: El reproductor de vídeo es el área rectangular en la que se muestra el contenido de vídeo dentro del visor.
-seo-description: El reproductor de vídeo es el área rectangular en la que se muestra el contenido de vídeo dentro del visor.
-seo-title: Reproductor de Video360
 solution: Experience Manager
 title: Reproductor de Video360
-uuid: e78a9c22-4217-42cc-ba47-3acb4130a4fd
 feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '215'
 ht-degree: 1%
 
 ---
