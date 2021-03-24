@@ -1,16 +1,13 @@
 ---
 description: Este documento describe el catálogo de materiales para el procesamiento de imágenes de Dynamic Media.
-seo-description: Este documento describe el catálogo de materiales para el procesamiento de imágenes de Dynamic Media.
-seo-title: Introducción
 solution: Experience Manager
 title: Introducción
-uuid: 38da0561-7730-4170-bf29-02de325b3ad9
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '336'
 ht-degree: 1%
 
 ---
