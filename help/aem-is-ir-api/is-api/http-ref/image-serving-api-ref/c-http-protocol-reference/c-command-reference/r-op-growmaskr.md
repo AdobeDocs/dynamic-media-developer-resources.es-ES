@@ -1,16 +1,13 @@
 ---
 description: Dilar/erosionar imagen. Aplica un dilato morfológico (radio > 0) o un erosionado (radio < 0) a los datos de la máscara.
-seo-description: Dilar/erosionar imagen. Aplica un dilato morfológico (radio > 0) o un erosionado (radio < 0) a los datos de la máscara.
-seo-title: op_growthMaskR
 solution: Experience Manager
 title: op_growthMaskR
-uuid: b81968e7-ebaf-426c-9230-1afcf4b5cf24
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '103'
 ht-degree: 3%
 
 ---
