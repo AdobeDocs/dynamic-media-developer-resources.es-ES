@@ -1,10 +1,10 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 user-guide-title: API del sistema de producción de imágenes de Dynamic Media
 feature-set: Experience Manager Assets
 user-guide-description: La API de servicio web IPS (Image Production System) permite a las aplicaciones externas y a los desarrolladores de terceros acceder mediante programación a los recursos y las funciones IPS.
 translation-type: tm+mt
-source-git-commit: 0f6386196be7cf0ad45371d6017e2e71b9048b14
+source-git-commit: 04e99bef471c5839ff6d28b1ae42f5ffed73c029
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 3%
