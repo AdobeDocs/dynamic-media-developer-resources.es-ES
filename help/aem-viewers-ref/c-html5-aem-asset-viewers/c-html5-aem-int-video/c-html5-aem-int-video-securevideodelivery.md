@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Entrega de vídeo HTTPS
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
 role: Desarrollador, profesional empresarial
+exl-id: 68d37b5d-5015-4a98-84b8-8911ace327ed
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 0%
 
 ---
-
 
 # Entrega de vídeo HTTPS{#https-video-delivery}
 
@@ -79,4 +79,3 @@ Según el método de publicación de vídeo de Dynamic Media que utilice en AEM,
    ```
 
    Consulte también [Incrustación del vídeo en una página web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic).
-
