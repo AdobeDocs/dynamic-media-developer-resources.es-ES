@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Llamada a acción
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
 role: Desarrollador, profesional empresarial
+exl-id: 43e0ffb3-d650-4b79-ab48-2f32b313b832
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '1286'
 ht-degree: 3%
 
 ---
-
 
 # Llamada a acción{#call-to-action}
 
@@ -572,4 +572,3 @@ Desactive los botones de desplazamiento ajustando su tamaño a 0 y ocultándolos
  height: 0px; 
 }
 ```
-
