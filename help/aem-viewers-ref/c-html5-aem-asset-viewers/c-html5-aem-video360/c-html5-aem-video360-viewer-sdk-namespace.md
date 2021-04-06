@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Espacio de nombres del SDK del visor
 feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
 role: Desarrollador, profesional empresarial
+exl-id: 3360a3bd-8a4a-4bf9-98bf-ada7c35c58f4
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 0%
 
 ---
-
 
 # Espacio de nombres del SDK del visor{#viewer-sdk-namespace}
 
@@ -37,4 +37,3 @@ Por ejemplo, si planea escuchar el evento `StatusEvent.NOTF_VIEW_READY` y el vis
 } 
 });
 ```
-
