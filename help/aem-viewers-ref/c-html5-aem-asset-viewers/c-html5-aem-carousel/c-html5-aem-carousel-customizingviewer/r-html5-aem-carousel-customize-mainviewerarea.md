@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Área del visor principal
 feature: Dynamic Media Classic,Visores,SDK/API,Banners de carrusel
 role: Desarrollador, profesional empresarial
+exl-id: bdac54f5-79e3-4d3d-9c7e-d9a7cec61c73
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 2%
 
 ---
-
 
 # Área del visor principal{#main-viewer-area}
 
@@ -59,4 +59,3 @@ Ejemplo: para configurar un visor con un fondo blanco ( `#FFFFFF`) y hacer que s
  height: 500px;  
 }
 ```
-
