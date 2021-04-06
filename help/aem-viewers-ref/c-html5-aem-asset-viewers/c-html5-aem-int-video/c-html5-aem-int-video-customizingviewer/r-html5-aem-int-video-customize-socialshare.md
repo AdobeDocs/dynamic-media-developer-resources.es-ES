@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Uso compartido en medios sociales
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
 role: Desarrollador, profesional empresarial
+exl-id: ad544a12-d2a4-45c9-9e76-e0bf96901725
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 2%
 
 ---
-
 
 # Uso compartido en medios sociales{#social-share}
 
@@ -133,4 +133,3 @@ Para configurar un panel con un color transparente:
  background-color: transparent; 
 }
 ```
-
