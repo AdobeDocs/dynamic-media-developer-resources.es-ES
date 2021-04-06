@@ -3,14 +3,14 @@ description: El contenido que muestra el visualizador de imágenes interactivo e
 title: Localización de los elementos de la interfaz de usuario
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Imágenes interactivas
 role: Desarrollador, profesional empresarial
+exl-id: 19749c74-5c31-4dcf-ab07-0e7f10176a86
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 0%
 
 ---
-
 
 # Localización de los elementos de la interfaz de usuario{#localization-of-user-interface-elements}
 
@@ -64,4 +64,3 @@ Se admiten los siguientes SÍMBOLOS:
   </tr> 
  </tbody> 
 </table>
-
