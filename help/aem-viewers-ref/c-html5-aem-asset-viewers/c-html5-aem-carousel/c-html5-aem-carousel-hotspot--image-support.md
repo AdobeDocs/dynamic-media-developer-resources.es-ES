@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Compatibilidad con zonas interactivas y mapas de imágenes
 feature: Dynamic Media Classic,Visores,SDK/API,Banners de carrusel
 role: Desarrollador, profesional empresarial
+exl-id: b441e241-809e-47cf-a309-57283bd0532b
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
 
 ---
-
 
 # Compatibilidad con zonas interactivas y mapas de imágenes{#hotspot-and-image-maps-support}
 
