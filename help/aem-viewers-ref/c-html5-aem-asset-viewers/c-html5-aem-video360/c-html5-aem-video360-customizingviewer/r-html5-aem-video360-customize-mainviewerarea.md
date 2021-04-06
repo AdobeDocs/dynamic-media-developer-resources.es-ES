@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Área del visor principal
 feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
 role: Desarrollador, profesional empresarial
+exl-id: 912cb4b3-6409-48ed-9b9c-968b63718a1b
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 3%
 
 ---
-
 
 # Área del visor principal{#main-viewer-area}
 
@@ -61,4 +61,3 @@ Para configurar un visor con un fondo blanco ( `#FFFFFF`) y hacer que su tamaño
  height: 288px;  
 }
 ```
-
