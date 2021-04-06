@@ -4,14 +4,14 @@ solution: Experience Manager
 title: 'Referencia de comandos: Atributos de configuración'
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
 role: Desarrollador, profesional empresarial
+exl-id: 80b7971c-82dc-47a2-adde-9e061a0f856d
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 0%
 
 ---
-
 
 # Referencia de comandos: Atributos de configuración{#command-reference-configuration-attributes}
 
