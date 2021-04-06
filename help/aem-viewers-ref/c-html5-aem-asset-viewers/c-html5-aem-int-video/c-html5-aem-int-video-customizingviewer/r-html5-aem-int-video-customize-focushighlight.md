@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Enfoque resaltado
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
 role: Desarrollador, profesional empresarial
+exl-id: cb5231ed-106a-444f-aac7-06dd1a84a665
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 1%
 
 ---
-
 
 # Enfoque resaltado{#focus-highlight}
 
@@ -49,4 +49,3 @@ Ejemplo: para desactivar el resaltado de enfoque predeterminado del navegador pa
  outline: none; 
 }
 ```
-
