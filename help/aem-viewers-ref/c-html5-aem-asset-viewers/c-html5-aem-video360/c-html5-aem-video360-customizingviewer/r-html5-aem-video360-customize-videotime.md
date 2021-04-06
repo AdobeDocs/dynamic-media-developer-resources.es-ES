@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Tiempo de vídeo
 feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
 role: Desarrollador, profesional empresarial
+exl-id: 78657fd2-e805-4047-be0a-592143025986
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 1%
 
 ---
-
 
 # Tiempo de vídeo{#video-time}
 
@@ -69,4 +69,3 @@ color:#BBBBBB;
 width:60px;  
 }
 ```
-
