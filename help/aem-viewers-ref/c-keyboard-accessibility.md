@@ -5,13 +5,12 @@ title: Navegación y accesibilidad del teclado
 feature: Dynamic Media Classic,Visualizadores,SDK/API
 role: Desarrollador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: 8207cba7e75c6bff878ef7f11f74b19bb88f1d61
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
-
 
 # Accesibilidad y navegación por teclado{#keyboard-accessibility-and-navigation}
 
@@ -25,9 +24,9 @@ Todas las funciones expuestas en la interfaz de visor de Zoom básico, Catálogo
 
 Un usuario final puede navegar entre los elementos de la interfaz de usuario del visor utilizando las pulsaciones de teclas **[!UICONTROL Tab]** y **[!UICONTROL Shift+Tab]**. Al utilizar **[!UICONTROL Tab]** se avanza el enfoque de entrada al siguiente elemento de la interfaz de usuario en el orden de tabulación; el uso de **[!UICONTROL Shift+Tab]** devuelve el enfoque de entrada al elemento de interfaz de usuario anterior. El enfoque transversal sigue la ubicación del elemento de la interfaz de usuario natural en la pantalla y se mueve de izquierda a derecha y, a continuación, de arriba a abajo.
 
-Dependiendo de la configuración del sistema operativo y del explorador web, el elemento de la interfaz de usuario que tenga el enfoque de entrada puede recibir una indicación de enfoque visual. Por ejemplo, el indicador visual puede ser un borde delgado representado alrededor del elemento de la interfaz de usuario.
+Según la configuración del sistema operativo y del explorador web, el elemento de la interfaz de usuario que tiene el enfoque de entrada recibe una indicación de enfoque visual. Por ejemplo, el indicador visual puede ser un borde delgado representado alrededor del elemento de la interfaz de usuario.
 
-Es posible desactivar o personalizar este resaltado de enfoque en el visor CSS. En la tabla de contenido de este sistema de Ayuda, bajo un nombre de visor específico (por ejemplo, Zoom básico o Vídeo interactivo), haga clic en **Personalización *nombre del visor*** >** Resaltado de enfoque **.
+Es posible desactivar o personalizar este resaltado de enfoque en el visor CSS. En la tabla de contenido de este sistema de Ayuda, bajo un nombre de visor específico (por ejemplo, Zoom básico o Vídeo interactivo), haga clic en **Personalización de *nombre del visor*** >** Resaltado de enfoque **.
 
 Las pulsaciones de teclas admitidas por los elementos de la interfaz de usuario del visor individual son, en la mayoría de los casos, obvias y fáciles de descubrir.
 
@@ -133,4 +132,3 @@ Las pulsaciones de teclas admitidas por los elementos de la interfaz de usuario 
   </tr> 
  </tbody> 
 </table>
-
