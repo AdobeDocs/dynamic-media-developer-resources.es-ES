@@ -4,14 +4,14 @@ solution: Experience Manager
 title: resMode
 feature: Dynamic Media Classic,SDK/API
 role: Desarrollador, profesional empresarial
+exl-id: 63c1c028-0378-4a38-8018-e358491786d8
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b08d1f5b0aa512be4a6e6a4d45d8d4dec15ca1db
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 17%
+source-wordcount: '271'
+ht-degree: 6%
 
 ---
-
 
 # resMode{#resmode}
 
@@ -23,15 +23,15 @@ Modo de remuestreo. Selecciona el algoritmo de remuestreo o de interpolación qu
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bilin  </span> </p> </td> 
-   <td colname="col2"> <p>Selecciona la interpolación bilineal estándar. Método de remuestreo más rápido; pueden verse algunos defectos de solapamiento. </p> </td> 
+   <td colname="col2"> <p>Selecciona la interpolación bilineal estándar. Método de remuestreo más rápido; se pueden apreciar algunos artefactos de aliasing. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bicub  </span> </p> </td> 
-   <td colname="col2"> <p>Selecciona la interpolación bicúbica. Mayor densidad de CPU que la interpolación bilineal, pero producirá imágenes más nítidas con menos artefactos de solapamiento visibles. </p> </td> 
+   <td colname="col2"> <p>Selecciona la interpolación bicúbica. Mayor uso intensivo de CPU que la interpolación bilineal, pero produce imágenes más nítidas con artefactos de aliasing menos visibles. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> agudo2  </span> </p> </td> 
-   <td colname="col2"> <p>selecciona una función de ventana Lanczos modificada como un algoritmo de interpolación. Puede producir unos resultados algo más enfocados que la opción bicúbica con un uso mayor de CPU. <span class="codeph"> el punto  </span> ha sido sustituido por el  <span class="codeph"> punto 2  </span>, que tiene menos probabilidades de causar artefactos de aliento (Moiré). </p> </td> 
+   <td colname="col2"> <p>selecciona una función de ventana Lanczos modificada como un algoritmo de interpolación. Puede producir resultados ligeramente más nítidos que los bicúbicos a un mayor costo de CPU. <span class="codeph"> el punto  </span> ha sido sustituido por el  <span class="codeph"> punto 2  </span>, que tiene menos probabilidades de causar artefactos de aliento (Moiré). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bici  </span> </p> </td> 
@@ -39,6 +39,12 @@ Modo de remuestreo. Selecciona el algoritmo de remuestreo o de interpolación qu
   </tr> 
  </tbody> 
 </table>
+
+>[!IMPORTANT]
+>
+>Para mantener la relación de aspecto de una imagen al utilizar `resMode=bisharp` y `fit=stretch`, se recomienda utilizar el parámetro de anchura o el parámetro de altura. Si se deben definir ambos parámetros, se pueden envolver en una capa diferente, como se muestra en el siguiente ejemplo:
+>
+>`/is/image/is/image/companyname?layer=0&src=is(companyname/imagename?wid=30&hei=30&fit=stretch)&resmode=bisharp`
 
 ## Propiedades {#section-a171bacf4ddf43c782e46b86a16d443e}
 
@@ -50,7 +56,7 @@ Atributo de solicitud. Se aplica a todas las operaciones de escalado involucrada
 
 ## Ejemplo {#section-ee8c3e5a2e3845fe81de5073a8ab7efe}
 
-Recupere una representación de mejor calidad de una imagen en capas almacenada en un catálogo de imágenes. La imagen puede incluir texto. Esperamos seguir procesando en una aplicación de edición de imágenes y, por lo tanto, solicitar un canal alfa con la imagen.
+Recupere una representación de mejor calidad de una imagen en capas almacenada en un catálogo de imágenes. La imagen puede incluir texto. La imagen se seguirá procesando en una aplicación de edición de imágenes y, por lo tanto, se solicitará un canal alfa con la imagen.
 
 ` http:// *`server`*/myLayeredImage?fmt=tif-alpha,,lzw&resMode=sharp2&wid=1800`
 
