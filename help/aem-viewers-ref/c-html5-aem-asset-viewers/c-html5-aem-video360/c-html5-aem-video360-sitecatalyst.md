@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Compatibilidad con el seguimiento de Adobe Analytics
 feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
 role: Desarrollador, profesional empresarial, ingeniero de datos, arquitecto de datos
+exl-id: fb58a388-e4da-475d-b726-d5a32e99cce0
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 4%
 
 ---
-
 
 # Compatibilidad con el seguimiento de Adobe Analytics{#support-for-adobe-analytics-tracking}
 
@@ -90,4 +90,3 @@ El visor realiza el seguimiento de los siguientes eventos de usuario de SDK:
   </tr> 
  </tbody> 
 </table>
-
