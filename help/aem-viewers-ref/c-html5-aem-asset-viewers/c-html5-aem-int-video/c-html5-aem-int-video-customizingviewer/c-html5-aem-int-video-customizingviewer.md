@@ -5,14 +5,14 @@ solution: Experience Manager
 title: Personalización del visualizador de vídeo interactivo
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
 role: Desarrollador, profesional empresarial
+exl-id: c428c3e6-81be-4708-b064-f9d794183209
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '1399'
 ht-degree: 0%
 
 ---
-
 
 # Personalización del visualizador de vídeo interactivo{#customizing-interactive-video-viewer}
 
