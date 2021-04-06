@@ -4,9 +4,9 @@ user-guide-title: Guía de referencia de visores de Dynamic Media
 feature-set: Experience Manager Assets
 user-guide-description: Personalice los visores de Dynamic Media para utilizarlos en dispositivos de escritorio y de pantalla táctil. Incluya imágenes y vídeos interactivos, carruseles, conjuntos de giros y mucho más.
 translation-type: tm+mt
-source-git-commit: 04e99bef471c5839ff6d28b1ae42f5ffed73c029
+source-git-commit: 8207cba7e75c6bff878ef7f11f74b19bb88f1d61
 workflow-type: tm+mt
-source-wordcount: '1913'
+source-wordcount: '1916'
 ht-degree: 4%
 
 ---
@@ -19,21 +19,22 @@ ht-degree: 4%
 + [Requisitos del sistema](c-system-requirements-and-prerequisites.md)
 + [Instalación de varios visores en el mismo servidor](t-installing-the-viewers.md)
 + Notas de la versión de los visores {#viewers-release-notes}
+   + [Notas de la versión de los visores (5.16.1)](c-release-notes/c-rn-04-06-21.md)
    + [Notas de la versión de los visores (5.15.3)](c-release-notes/c-rn-01-13-21.md)
    + Archivo {#archive}
       + [Archivo de notas de la versión](c-release-notes/c-archive/c-archive.md)
-      + [Notas de la versión de los visores (5.14.1)](c-release-notes/c-archive/c-rn-06-03-20.md)
-      + [Notas de la versión de los visores (5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
-      + [Notas de la versión de los visores (5.12.1)](c-release-notes/c-archive/c-rn-04-01-19.md)
-      + [Notas de la versión de los visores (5.10.1)](c-release-notes/c-archive/c-rn-07-17-18.md)
-      + [Notas de la versión de Viewers 5.8.2](c-release-notes/c-archive/c-rn-09-18-17.md)
-      + [Notas de la versión 5.5.2 de visores](c-release-notes/c-archive/c-rn-10-13-16.md)
-      + [Notas de la versión de Viewers 5.4.2](c-release-notes/c-archive/c-rn-05-03-16.md)
-      + [Notas de la versión de Viewers 5.2.3](c-release-notes/c-archive/c-rn-05-20-15.md)
-      + [Notas de la versión de Viewers 5.2.2](c-release-notes/c-archive/c-rn-04-30-15.md)
-      + [Notas de la versión de Viewers 5.1.1](c-release-notes/c-archive/c-rn-09-19-14.md)
-      + [Notas de la versión de Viewers 5.0.1](c-release-notes/c-archive/c-rn-04-29-14.md)
-      + [Notas de la versión de Viewers 4.9.2](c-release-notes/c-archive/c-rn-09-18-13.md)
+         + [Notas de la versión de los visores (5.14.1)](c-release-notes/c-archive/c-rn-06-03-20.md)
+         + [Notas de la versión de los visores (5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
+         + [Notas de la versión de los visores (5.12.1)](c-release-notes/c-archive/c-rn-04-01-19.md)
+         + [Notas de la versión de los visores (5.10.1)](c-release-notes/c-archive/c-rn-07-17-18.md)
+         + [Notas de la versión de los visores (5.8.2)](c-release-notes/c-archive/c-rn-09-18-17.md)
+         + [Notas de la versión de los visores (5.5.2)](c-release-notes/c-archive/c-rn-10-13-16.md)
+         + [Notas de la versión de los visores (5.4.2)](c-release-notes/c-archive/c-rn-05-03-16.md)
+         + [Notas de la versión de los visores (5.2.3)](c-release-notes/c-archive/c-rn-05-20-15.md)
+         + [Notas de la versión de los visores (5.2.2)](c-release-notes/c-archive/c-rn-04-30-15.md)
+         + [Notas de la versión de los visores (5.1.1)](c-release-notes/c-archive/c-rn-09-19-14.md)
+         + [Notas de la versión de los visores (5.0.1)](c-release-notes/c-archive/c-rn-04-29-14.md)
+         + [Notas de la versión de los visores (4.9.2)](c-release-notes/c-archive/c-rn-09-18-13.md)
 + [Notas de compatibilidad](c-compatibility-notes.md)
 + [Navegación y accesibilidad del teclado](c-keyboard-accessibility.md)
 + [Tutorial del SDK del visor](c-tutorial.md)
