@@ -2,8 +2,8 @@
 description: El indicador de zoom se superpone en el área de vista principal. Se muestra cuando la imagen está en estado de restablecimiento y también depende del parámetro iconeffect.
 solution: Experience Manager
 title: Icono, efecto
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
-role: Desarrollador, profesional empresarial
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

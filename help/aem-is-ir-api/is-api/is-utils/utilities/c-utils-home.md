@@ -3,7 +3,7 @@ description: La guía de utilidades de Image Serving contiene información sobre
 solution: Experience Manager
 title: Utilidades de servicio de imágenes
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, profesional empresarial
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

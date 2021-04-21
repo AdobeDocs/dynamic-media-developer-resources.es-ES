@@ -3,7 +3,7 @@ description: Región de interés. Especifica una región de interés (ROI) recta
 solution: Experience Manager
 title: rgn
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, profesional empresarial
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

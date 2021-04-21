@@ -3,7 +3,7 @@ description: TTL de caché de cliente para respuestas que no sean de imagen. Pro
 solution: Experience Manager
 title: NonImgExpiration
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, profesional empresarial
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

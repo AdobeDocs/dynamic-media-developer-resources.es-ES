@@ -2,8 +2,8 @@
 description: La zona de las vistas principales es la zona ocupada por las vistas principales y las muestras. Normalmente se configura para que se ajuste a la pantalla del dispositivo disponible cuando no se especifica ningún tamaño.
 solution: Experience Manager
 title: Área del visor principal
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
-role: Desarrollador, profesional empresarial
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

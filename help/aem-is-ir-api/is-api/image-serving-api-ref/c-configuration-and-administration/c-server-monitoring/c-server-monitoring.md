@@ -3,7 +3,7 @@ description: El servidor se puede configurar para que envíe alertas por correo 
 solution: Experience Manager
 title: Supervisión del servidor
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, administrador, profesional empresarial
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

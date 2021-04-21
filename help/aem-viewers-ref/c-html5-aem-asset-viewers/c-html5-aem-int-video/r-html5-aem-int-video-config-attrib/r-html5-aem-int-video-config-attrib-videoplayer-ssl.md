@@ -2,8 +2,8 @@
 description: Atributo de configuración para el visualizador de vídeo interactivo.
 solution: Experience Manager
 title: VideoPlayer.ssl
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
-role: Desarrollador, profesional empresarial
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 16e17e2f-be98-4a5a-ba5e-5d18e7f76fa4
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

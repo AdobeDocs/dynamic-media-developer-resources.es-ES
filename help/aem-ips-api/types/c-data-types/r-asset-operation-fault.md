@@ -2,8 +2,8 @@
 description: Contiene información sobre las condiciones de advertencia o error generadas durante una operación de recursos por lotes. Los campos código y motivo corresponden a los campos de mensaje de error que se habrían generado para la operación equivalente no por lotes.
 solution: Experience Manager
 title: AssetOperationFault
-feature: Dynamic Media Classic,SDK/API,Administración de activos
-role: Desarrollador, administrador
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

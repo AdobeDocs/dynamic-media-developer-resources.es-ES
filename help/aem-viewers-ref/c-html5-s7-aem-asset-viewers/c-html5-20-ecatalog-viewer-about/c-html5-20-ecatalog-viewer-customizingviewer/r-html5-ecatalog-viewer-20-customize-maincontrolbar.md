@@ -2,8 +2,8 @@
 description: La barra de control principal es el área rectangular de los sistemas de escritorio y las tabletas que contienen todos los controles de interfaz de usuario (excepto los botones de Página grande) disponibles para el visor del catálogo electrónico.
 solution: Experience Manager
 title: Barra de control principal
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
-role: Desarrollador, profesional empresarial
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

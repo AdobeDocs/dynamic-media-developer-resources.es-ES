@@ -3,7 +3,7 @@ description: Plantilla de composición. Permite especificar una plantilla de com
 solution: Experience Manager
 title: plantilla
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, profesional empresarial
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt

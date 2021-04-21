@@ -3,7 +3,7 @@ description: Establece el destino de zoom asociado a una imagen de recurso. Sobr
 solution: Experience Manager
 title: setZoomTargets
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, administrador
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

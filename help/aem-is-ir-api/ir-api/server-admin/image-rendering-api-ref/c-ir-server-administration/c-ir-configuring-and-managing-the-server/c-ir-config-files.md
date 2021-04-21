@@ -3,7 +3,7 @@ description: Los ajustes de configuración de procesamiento de imágenes se alma
 solution: Experience Manager
 title: Archivos de configuración
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, administrador, profesional empresarial
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

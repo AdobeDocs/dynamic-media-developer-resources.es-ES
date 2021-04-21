@@ -3,8 +3,8 @@ description: El visor flotante es un visor de im√°genes. Muestra una imagen est√
 keywords: adaptable
 solution: Experience Manager
 title: Flotante
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Flotante
-role: Desarrollador, profesional empresarial
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

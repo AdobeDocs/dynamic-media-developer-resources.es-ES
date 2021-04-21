@@ -2,8 +2,8 @@
 description: Indica si el visor empieza a cargar contenido de vídeo antes de que se inicie la reproducción.
 solution: Experience Manager
 title: VideoPlayer.preload
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
-role: Desarrollador, profesional empresarial
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

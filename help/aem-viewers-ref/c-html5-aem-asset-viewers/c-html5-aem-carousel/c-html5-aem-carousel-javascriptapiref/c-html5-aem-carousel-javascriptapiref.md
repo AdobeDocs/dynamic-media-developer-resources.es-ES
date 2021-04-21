@@ -2,8 +2,8 @@
 description: La clase principal del visor de carrusel es CarouselViewer. Se declara en el espacio de nombres s7viewers. Esta API de JavaScript cubre el constructor, los métodos y las llamadas de retorno de esta clase en particular.
 solution: Experience Manager
 title: Referencia de la API de JavaScript para el visor de carrusel
-feature: Dynamic Media Classic,Visores,SDK/API,Banners de carrusel
-role: Desarrollador, profesional empresarial
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: 58e01a97-0761-4569-8a2e-77b17a55521d
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

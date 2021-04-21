@@ -3,7 +3,7 @@ title: Llamadas obsoletas
 description: Las llamadas a la API del sistema de producción de imágenes y sus parámetros asociados que ya no se utilizan en Dynamic Media.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, administrador
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

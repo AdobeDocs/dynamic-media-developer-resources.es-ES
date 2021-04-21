@@ -2,8 +2,8 @@
 description: El contenido que muestra el visualizador de medios mixtos está sujeto a localización. Esto incluye botones de zoom, botones de giro, controles de vídeo, botón de cierre de pantalla completa y botones de desplazamiento de muestra.
 solution: Experience Manager
 title: Localización de los elementos de la interfaz de usuario
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
-role: Desarrollador, profesional empresarial
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

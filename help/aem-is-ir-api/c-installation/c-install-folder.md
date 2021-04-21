@@ -3,7 +3,7 @@ description: La carpeta de instalación de Image Serving (install_folder) es ins
 solution: Experience Manager
 title: Carpeta Instalar
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, profesional empresarial
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

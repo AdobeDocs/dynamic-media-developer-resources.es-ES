@@ -3,7 +3,7 @@ description: Describe los métodos de operaciones nuevos y modificados para la A
 solution: Experience Manager
 title: Operaciones nuevas y modificadas
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, administrador
+role: Developer,Administrator
 exl-id: 8f4fe698-afe8-4ce6-904d-42fa67dee4dd
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

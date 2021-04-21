@@ -2,8 +2,8 @@
 description: Al pulsar o hacer clic en el botón de diapositiva siguiente, un usuario pasa a la diapositiva siguiente del conjunto de carrusel.
 solution: Experience Manager
 title: Siguiente diapositiva
-feature: Dynamic Media Classic,Visores,SDK/API,Banners de carrusel
-role: Desarrollador, profesional empresarial
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: c64889bb-bcbe-49c6-a0be-b4013ead7b90
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

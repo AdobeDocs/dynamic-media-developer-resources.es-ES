@@ -2,8 +2,8 @@
 description: Tipo de trabajo para permitir el reprocesamiento de archivos principales cargados anteriormente, incluida la recuperación de archivos PDF y la reoptimización de imágenes.
 solution: Experience Manager
 title: ReprocessAssetsJob
-feature: Dynamic Media Classic,SDK/API,Administración de activos
-role: Desarrollador, administrador
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

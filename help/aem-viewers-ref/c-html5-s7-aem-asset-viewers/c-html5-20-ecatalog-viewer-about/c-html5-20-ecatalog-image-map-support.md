@@ -2,8 +2,8 @@
 description: El visor de catálogos electrónicos es compatible con la renderización de iconos de mapas de imágenes sobre la vista principal.
 solution: Experience Manager
 title: Compatibilidad con mapas de imágenes
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
-role: Desarrollador, profesional empresarial
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

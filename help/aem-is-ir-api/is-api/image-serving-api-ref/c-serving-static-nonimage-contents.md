@@ -3,7 +3,7 @@ description: Puede utilizar el servicio de imágenes para administrar el conteni
 solution: Experience Manager
 title: Servicio de contenido estático (no de imagen)
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, profesional empresarial
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: La clase principal del Visor de zoom básico es BasicZoomViewer. Se declara en el espacio de nombres s7viewers. Esta API de JavaScript cubre el constructor, los métodos y las llamadas de retorno de esta clase en particular.
 solution: Experience Manager
 title: Referencia de la API de Javascript para el visor de zoom básico
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
-role: Desarrollador, profesional empresarial
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

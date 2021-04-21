@@ -3,7 +3,7 @@ description: Solo Platform Server accede a los archivos de datos de origen de co
 solution: Experience Manager
 title: Datos de fuente de contenido estático
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, administrador, profesional empresarial
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

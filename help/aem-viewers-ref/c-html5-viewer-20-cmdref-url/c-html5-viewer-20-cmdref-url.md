@@ -2,8 +2,8 @@
 description: Documentación de referencia de comandos común a todos los visualizadores.
 solution: Experience Manager
 title: 'Referencia de comando común a todos los visualizadores: URL'
-feature: Dynamic Media Classic,Visualizadores,SDK/API
-role: Desarrollador, profesional empresarial
+feature: Dynamic Media Classic,Viewers,SDK/API
+role: Developer,Business Practitioner
 exl-id: 08faeb9b-3b02-4a16-a365-7ef62ca29db9
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

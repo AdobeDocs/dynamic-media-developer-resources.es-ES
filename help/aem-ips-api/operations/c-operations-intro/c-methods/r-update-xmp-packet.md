@@ -3,7 +3,7 @@ description: Establece o actualiza un paquete de metadatos de XMP para un recurs
 solution: Experience Manager
 title: updateXMPPackets
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, administrador
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

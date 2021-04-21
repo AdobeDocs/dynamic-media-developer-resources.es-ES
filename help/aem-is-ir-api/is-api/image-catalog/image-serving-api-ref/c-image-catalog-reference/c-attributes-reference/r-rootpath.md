@@ -3,7 +3,7 @@ description: Ruta raíz de datos de origen. Ruta absoluta o relativa de la carpe
 solution: Experience Manager
 title: RootPath
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, profesional empresarial
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: Conjunto con nombre y sin estructurar de la configuración de salid
 solution: Experience Manager
 title: ImageFormat
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, administrador
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

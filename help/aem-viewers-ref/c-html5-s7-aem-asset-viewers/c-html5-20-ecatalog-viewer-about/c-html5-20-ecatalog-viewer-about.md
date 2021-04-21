@@ -3,8 +3,8 @@ description: eCatalog Viewer es un visor de catálogos que muestra folletos elec
 keywords: adaptable
 solution: Experience Manager
 title: Catálogo electrónico
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
-role: Desarrollador, profesional empresarial
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

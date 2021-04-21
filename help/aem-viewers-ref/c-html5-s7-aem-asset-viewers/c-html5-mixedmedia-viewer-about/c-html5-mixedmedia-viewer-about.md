@@ -3,8 +3,8 @@ description: El visualizador de medios mixtos es un visualizador de medios. Admi
 keywords: adaptable
 solution: Experience Manager
 title: Varios tipos de archivo
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
-role: Desarrollador, profesional empresarial
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

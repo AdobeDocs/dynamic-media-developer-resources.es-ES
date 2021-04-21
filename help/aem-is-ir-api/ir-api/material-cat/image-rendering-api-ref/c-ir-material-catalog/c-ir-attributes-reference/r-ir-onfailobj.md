@@ -3,7 +3,7 @@ description: Tratamiento de errores de selección de objetos. Especifica la acci
 solution: Experience Manager
 title: OnFailObj
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, profesional empresarial
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

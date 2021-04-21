@@ -3,7 +3,7 @@ description: Utilice esta configuración del servidor para establecer los límit
 solution: Experience Manager
 title: Límites de tamaño de imagen
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, administrador, profesional empresarial
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

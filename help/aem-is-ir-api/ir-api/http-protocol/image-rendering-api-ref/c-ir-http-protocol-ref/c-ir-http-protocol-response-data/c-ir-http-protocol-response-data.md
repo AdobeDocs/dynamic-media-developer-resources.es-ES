@@ -3,7 +3,7 @@ description: El procesamiento de imágenes genera encabezados de respuesta HTTP/
 solution: Experience Manager
 title: Datos de respuesta de protocolo HTTP
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, profesional empresarial
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

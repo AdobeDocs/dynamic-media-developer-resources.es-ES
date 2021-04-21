@@ -3,7 +3,7 @@ description: Los comandos admitidos por Image Serving se enumeran a continuació
 solution: Experience Manager
 title: Descripción general del comando del protocolo HTTP de servicio de imágenes
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, profesional empresarial
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

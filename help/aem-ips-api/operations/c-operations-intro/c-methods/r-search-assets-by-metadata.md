@@ -2,8 +2,8 @@
 description: Busca en el repositorio de índices de metadatos los términos de búsqueda dados. Devuelve datos de recursos como el método searchAssets.
 solution: Experience Manager
 title: searchAssetsByMetadata
-feature: Dynamic Media Classic,SDK/API,Metadatos,Administración de activos
-role: Desarrollador, administrador
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

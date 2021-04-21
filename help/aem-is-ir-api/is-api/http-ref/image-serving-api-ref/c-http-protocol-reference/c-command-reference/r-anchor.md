@@ -3,7 +3,7 @@ description: Anclaje de imagen. Define el punto de ancla del rectángulo de la i
 solution: Experience Manager
 title: delimitador
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, profesional empresarial
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

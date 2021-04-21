@@ -3,7 +3,7 @@ description: Velocidad de bits de audio. Valor largo que representa la velocidad
 solution: Experience Manager
 title: AudioBitRate
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, profesional empresarial
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

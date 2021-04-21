@@ -3,7 +3,7 @@ description: Mapa de traducción de cadenas. Hace referencia a un locId que se p
 solution: Experience Manager
 title: LocaleStrMap
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, profesional empresarial
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

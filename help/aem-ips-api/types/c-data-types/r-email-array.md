@@ -3,7 +3,7 @@ description: Matriz utilizada para designar el creador o una lista de hasta 5 di
 solution: Experience Manager
 title: EmailArray
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, administrador
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

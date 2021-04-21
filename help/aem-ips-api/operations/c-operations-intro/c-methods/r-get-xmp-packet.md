@@ -3,7 +3,7 @@ description: Recupera un paquete de metadatos XMP para el recurso especificado.
 solution: Experience Manager
 title: getXMPPackets
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, administrador
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

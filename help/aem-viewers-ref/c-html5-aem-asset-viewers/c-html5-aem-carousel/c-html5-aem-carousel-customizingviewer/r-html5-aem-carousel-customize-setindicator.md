@@ -2,8 +2,8 @@
 description: El indicador de conjunto es una serie de puntos procesados en la parte inferior del visor. Muestra la posición actual dentro del conjunto.
 solution: Experience Manager
 title: Definir indicador
-feature: Dynamic Media Classic,Visores,SDK/API,Banners de carrusel
-role: Desarrollador, profesional empresarial
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: 7d0827c5-f420-4804-983c-5298ee92b276
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -2,8 +2,8 @@
 description: La imagen de precarga es una imagen de vista previa de recursos estática que se carga justo después de llamar al método init() y se muestra mientras se descarga la información de bibliotecas, recursos y ajustes preestablecidos del SDK de visor. El propósito de la imagen de carga previa es mejorar visualmente el tiempo de carga del visor y presentar el contenido al usuario rápidamente.
 solution: Experience Manager
 title: Precargar imagen
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Imágenes interactivas
-role: Desarrollador, profesional empresarial
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 exl-id: 54bea5fc-916c-4a58-bc06-b726884d488a
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

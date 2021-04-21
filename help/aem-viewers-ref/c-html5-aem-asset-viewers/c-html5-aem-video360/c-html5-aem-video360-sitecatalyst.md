@@ -2,8 +2,8 @@
 description: Compatibilidad con el seguimiento de Adobe Analytics
 solution: Experience Manager
 title: Compatibilidad con el seguimiento de Adobe Analytics
-feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
-role: Desarrollador, profesional empresarial, ingeniero de datos, arquitecto de datos
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner,Data Engineer,Data Architect
 exl-id: fb58a388-e4da-475d-b726-d5a32e99cce0
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

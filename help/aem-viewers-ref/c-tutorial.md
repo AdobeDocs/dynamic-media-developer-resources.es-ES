@@ -2,8 +2,8 @@
 description: El SDK de visor proporciona un conjunto de componentes basados en JavaScript para el desarrollo de visores personalizados. Los visores son aplicaciones basadas en la web que permiten incrustar en las páginas web contenido multimedia enriquecido servido por Adobe Dynamic Media.
 solution: Experience Manager
 title: Tutorial del SDK del visor
-feature: Dynamic Media Classic,Visualizadores,SDK/API
-role: Desarrollador, profesional empresarial
+feature: Dynamic Media Classic,Viewers,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

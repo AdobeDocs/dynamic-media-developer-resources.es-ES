@@ -2,8 +2,8 @@
 description: Crea un nuevo recurso derivado de un recurso de imagen de origen principal existente.
 solution: Experience Manager
 title: createDerivedAsset
-feature: Dynamic Media Classic,SDK/API,Administración de activos
-role: Desarrollador, administrador
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

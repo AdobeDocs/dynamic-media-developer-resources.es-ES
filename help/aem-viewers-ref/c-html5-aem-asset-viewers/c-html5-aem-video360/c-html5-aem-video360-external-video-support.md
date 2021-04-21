@@ -2,8 +2,8 @@
 description: El visor admite la reproducción de vídeo alojado fuera de Dynamic Media Classic o AEM Dynamic Media.
 solution: Experience Manager
 title: Compatibilidad con vídeo externo
-feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
-role: Desarrollador, profesional empresarial
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

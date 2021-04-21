@@ -2,8 +2,8 @@
 description: Crea un conjunto de recursos genérico con una cadena de definición de conjunto sin procesar que se publicará en un servidor de imágenes.
 solution: Experience Manager
 title: createAssetSet
-feature: Dynamic Media Classic,SDK/API,Administración de activos
-role: Desarrollador, administrador
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

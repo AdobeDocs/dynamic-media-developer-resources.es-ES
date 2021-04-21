@@ -3,7 +3,7 @@ description: Este documento describe el protocolo HTTP para el servicio de imág
 solution: Experience Manager
 title: Referencia de protocolo HTTP
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, profesional empresarial
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

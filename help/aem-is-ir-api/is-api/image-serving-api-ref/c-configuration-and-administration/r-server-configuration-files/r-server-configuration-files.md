@@ -3,7 +3,7 @@ description: Todos los archivos de configuración se encuentran en install_folde
 solution: Experience Manager
 title: Archivos de configuración del servidor
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, administrador, profesional empresarial
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

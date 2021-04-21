@@ -3,7 +3,7 @@ description: Los archivos de viñeta se pueden reemplazar o eliminar mientras el
 solution: Experience Manager
 title: Eliminación o reemplazo de archivos de datos de origen
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, administrador, profesional empresarial
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

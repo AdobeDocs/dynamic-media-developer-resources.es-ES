@@ -2,8 +2,8 @@
 description: La ventana emergente del panel de información se muestra en medio del área del visor cuando un usuario activa un mapa de imagen que tiene una propiedad rollover_key definida en Dynamic Media Classic y si la función del panel de información está configurada correctamente para el visor.
 solution: Experience Manager
 title: Ventana emergente del panel Información
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
-role: Desarrollador, profesional empresarial
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

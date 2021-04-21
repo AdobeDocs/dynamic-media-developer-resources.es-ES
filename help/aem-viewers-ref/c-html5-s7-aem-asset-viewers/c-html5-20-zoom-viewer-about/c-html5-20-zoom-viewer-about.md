@@ -3,8 +3,8 @@ description: El visor de zoom es un visor de imágenes que muestra una imagen am
 keywords: adaptable
 solution: Experience Manager
 title: Zoom
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
-role: Desarrollador, profesional empresarial
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

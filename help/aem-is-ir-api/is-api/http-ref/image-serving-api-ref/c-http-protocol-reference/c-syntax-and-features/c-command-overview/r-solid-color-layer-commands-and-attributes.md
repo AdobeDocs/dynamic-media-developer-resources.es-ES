@@ -3,7 +3,7 @@ description: Estos comandos se aplican a capas de color sólido, además de a lo
 solution: Experience Manager
 title: Comandos de capa de color sólido
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, profesional empresarial
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

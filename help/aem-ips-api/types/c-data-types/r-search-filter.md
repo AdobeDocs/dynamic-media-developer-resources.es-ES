@@ -3,7 +3,7 @@ description: Filtros que ayudan a definir criterios de b√∫squeda para que las b√
 solution: Experience Manager
 title: SearchFilter
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, administrador
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

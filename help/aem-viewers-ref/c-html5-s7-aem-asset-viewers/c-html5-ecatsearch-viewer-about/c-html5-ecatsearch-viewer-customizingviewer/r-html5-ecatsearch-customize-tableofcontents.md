@@ -2,8 +2,8 @@
 description: La tabla de contenido es un botón ubicado en la barra de control principal. Cuando se activa, aparece un panel desplegable con una lista de índices y etiquetas de página.
 solution: Experience Manager
 title: Tabla de contenido
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
-role: Desarrollador, profesional empresarial
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

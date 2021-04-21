@@ -3,7 +3,7 @@ description: Estos comandos se pueden utilizar para definir los efectos de capa,
 solution: Experience Manager
 title: Comandos de efecto de capa
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, profesional empresarial
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

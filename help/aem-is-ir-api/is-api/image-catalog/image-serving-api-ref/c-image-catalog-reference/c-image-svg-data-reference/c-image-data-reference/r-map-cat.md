@@ -3,7 +3,7 @@ description: Datos del mapa de imágenes. Ninguno o más elementos HTML <AREA> c
 solution: Experience Manager
 title: Mapa
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, profesional empresarial
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

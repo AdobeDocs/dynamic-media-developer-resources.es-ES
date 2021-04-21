@@ -3,7 +3,7 @@ description: Color de capa. Especifica el color de primer plano y la opacidad de
 solution: Experience Manager
 title: color
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, profesional empresarial
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

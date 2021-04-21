@@ -2,8 +2,8 @@
 description: Cierto contenido que muestra el espectador está sujeto a localización. Esto incluye información del elemento de la interfaz de usuario y un mensaje de error que se muestra cuando el vídeo no se puede reproducir.
 solution: Experience Manager
 title: Localización de los elementos de la interfaz de usuario
-feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
-role: Desarrollador, profesional empresarial
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: d54fd841-2246-4d2e-8bf9-7da56f2487f3
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

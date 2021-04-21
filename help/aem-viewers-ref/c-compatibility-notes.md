@@ -2,8 +2,8 @@
 description: Notas de compatibilidad para sistemas operativos, navegadores y dispositivos móviles.
 solution: Experience Manager
 title: Notas de compatibilidad
-feature: Dynamic Media Classic,Visualizadores,SDK/API
-role: Desarrollador, profesional empresarial
+feature: Dynamic Media Classic,Viewers,SDK/API
+role: Developer,Business Practitioner
 exl-id: 7ad499b1-7da6-483b-ab11-cff2eb9271da
 translation-type: tm+mt
 source-git-commit: 62234233bb1a5bcbd0eac5d281b42ed785c0c169

@@ -3,7 +3,7 @@ description: La utilidad playlog se puede utilizar para generar previamente cont
 solution: Experience Manager
 title: La utilidad "playlog"
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, profesional empresarial
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

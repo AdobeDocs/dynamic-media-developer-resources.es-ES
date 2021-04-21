@@ -3,7 +3,7 @@ description: Crea una imagen en capas que puede tener varias capas de texto e im
 solution: Experience Manager
 title: createTemplate
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, administrador
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

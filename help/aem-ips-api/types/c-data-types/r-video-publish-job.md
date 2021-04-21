@@ -2,8 +2,8 @@
 description: Publica archivos en los servidores de publicación de vídeo configurados.
 solution: Experience Manager
 title: VideoPublishJob
-feature: Dynamic Media Classic,SDK/API,Vídeo
-role: Desarrollador, administrador
+feature: Dynamic Media Classic,SDK/API,Video
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

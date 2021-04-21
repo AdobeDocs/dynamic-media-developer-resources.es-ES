@@ -3,7 +3,7 @@ description: Área de flujo de texto. Especifica una o más regiones en las que 
 solution: Experience Manager
 title: textFlowPath
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, profesional empresarial
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

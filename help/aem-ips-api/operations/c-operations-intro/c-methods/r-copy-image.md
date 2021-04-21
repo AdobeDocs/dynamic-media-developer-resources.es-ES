@@ -3,7 +3,7 @@ description: Crea una copia de un recurso de imagen existente. Los comandos de p
 solution: Experience Manager
 title: copyImage
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, administrador
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

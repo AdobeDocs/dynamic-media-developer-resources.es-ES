@@ -3,7 +3,7 @@ description: Antes de usar Dynamic Media Image Serving, asegúrese de que su sis
 solution: Experience Manager
 title: Requisitos y requisitos previos del sistema
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, profesional empresarial
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Atributo de configuración para el visualizador de vídeo interactivo.
 solution: Experience Manager
 title: CallToAction.scrollbar
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
-role: Desarrollador, profesional empresarial
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 9d39b43f-9621-4f6f-89a1-ab621fe5592a
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

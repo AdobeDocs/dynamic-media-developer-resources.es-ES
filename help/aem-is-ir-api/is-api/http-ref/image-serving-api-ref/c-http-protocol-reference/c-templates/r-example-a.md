@@ -3,7 +3,7 @@ description: Cree una plantilla de tamaño fijo con una imagen de fondo estátic
 solution: Experience Manager
 title: Ejemplo A
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, profesional empresarial
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

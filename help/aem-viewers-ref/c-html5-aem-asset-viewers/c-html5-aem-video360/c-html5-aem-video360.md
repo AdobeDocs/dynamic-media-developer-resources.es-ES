@@ -2,8 +2,8 @@
 description: El visor de vídeo HTML5 Video360 es un reproductor de vídeo de 360 grados que reproduce vídeo de flujo continuo y progresivo de 360 codificado en formato H.264, entregado desde Dynamic Media Classic o desde AEM Dynamic Media.
 solution: Experience Manager
 title: Video360
-feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
-role: Desarrollador, profesional empresarial
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

@@ -3,8 +3,8 @@ description: Personalización del visor de zoom en línea
 keywords: adaptable
 solution: Experience Manager
 title: Personalización del visor de zoom en línea
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom en línea
-role: Desarrollador, profesional empresarial
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

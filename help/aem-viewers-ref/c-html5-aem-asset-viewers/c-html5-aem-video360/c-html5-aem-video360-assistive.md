@@ -2,8 +2,8 @@
 description: Todos los componentes del visor admiten las funciones y atributos de ARIA (Aplicaciones de Internet enriquecidas accesibles) para mejorar la integración con tecnologías de asistencia, como lectores de pantalla.
 solution: Experience Manager
 title: Soporte técnico de asistencia
-feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360, accesibilidad
-role: Desarrollador, profesional empresarial
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video,Accessibility
+role: Developer,Business Practitioner
 exl-id: 0d6bc444-a4c2-47e4-b408-a6df85ebff72
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

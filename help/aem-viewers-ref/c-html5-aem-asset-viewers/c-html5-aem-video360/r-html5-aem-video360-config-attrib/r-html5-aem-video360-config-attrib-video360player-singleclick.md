@@ -2,8 +2,8 @@
 description: Atributo de configuración para el visualizador de vídeo360.
 solution: Experience Manager
 title: Video360Player.singleclick
-feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
-role: Desarrollador, profesional empresarial
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: dfb44ed5-5f4f-4a2c-a3b4-d49502556399
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -3,7 +3,7 @@ description: Máscara de imagen. Solicita los datos de la máscara (canal alfa).
 solution: Experience Manager
 title: mask
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, profesional empresarial
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: Esta sección describe todos los ajustes de configuración editable
 solution: Experience Manager
 title: Configuración del servidor
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, administrador, profesional empresarial
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

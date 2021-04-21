@@ -3,7 +3,7 @@ description: Actualiza los valores del diccionario de etiquetas de un campo de e
 solution: Experience Manager
 title: updateTagFieldValues
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, administrador
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

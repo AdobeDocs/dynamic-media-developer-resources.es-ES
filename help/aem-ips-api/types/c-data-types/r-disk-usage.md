@@ -3,7 +3,7 @@ description: Estadísticas de espacio en disco para un recurso o carpeta.
 solution: Experience Manager
 title: Uso del disco
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, administrador
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

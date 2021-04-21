@@ -3,7 +3,7 @@ description: El servicio de imágenes admite catálogos de imágenes con codific
 solution: Experience Manager
 title: Codificación de caracteres
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, profesional empresarial
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

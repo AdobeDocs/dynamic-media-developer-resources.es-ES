@@ -3,7 +3,7 @@ description: Modo de remuestreo. Selecciona el algoritmo de remuestreo o de inte
 solution: Experience Manager
 title: resMode
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, profesional empresarial
+role: Developer,Business Practitioner
 exl-id: 63c1c028-0378-4a38-8018-e358491786d8
 translation-type: tm+mt
 source-git-commit: b08d1f5b0aa512be4a6e6a4d45d8d4dec15ca1db

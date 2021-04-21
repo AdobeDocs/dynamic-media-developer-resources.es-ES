@@ -2,8 +2,8 @@
 description: Referencia de la API de JavaScript para el visor de carrusel.
 solution: Experience Manager
 title: setParam
-feature: Dynamic Media Classic,Visores,SDK/API,Banners de carrusel
-role: Desarrollador, profesional empresarial
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: 0829933f-a90b-4066-9904-748f2a727169
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

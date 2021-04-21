@@ -3,7 +3,7 @@ description: Estas operaciones nuevas o modificadas y los tipos de datos disponi
 solution: Experience Manager
 title: Uso restringido
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, administrador
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

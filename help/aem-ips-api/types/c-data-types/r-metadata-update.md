@@ -2,8 +2,8 @@
 description: Establece los valores de metadatos de un recurso específico utilizado con setAssetMetadata. Describe los cambios que desea realizar en los metadatos.
 solution: Experience Manager
 title: MetadataUpdate
-feature: Dynamic Media Classic,SDK/API,Metadatos
-role: Desarrollador, administrador
+feature: Dynamic Media Classic,SDK/API,Metadata
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: El servidor de imágenes escribe registros en este archivo de regis
 solution: Experience Manager
 title: Registro del servidor de imágenes
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, administrador, profesional empresarial
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

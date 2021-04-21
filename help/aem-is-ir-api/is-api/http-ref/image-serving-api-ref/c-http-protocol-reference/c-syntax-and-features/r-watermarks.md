@@ -3,7 +3,7 @@ description: Image Serving implementa una sencilla función visual de marca de a
 solution: Experience Manager
 title: Filigranas
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, profesional empresarial
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

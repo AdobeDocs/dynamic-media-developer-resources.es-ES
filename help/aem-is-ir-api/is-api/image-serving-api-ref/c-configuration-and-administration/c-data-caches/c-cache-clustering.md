@@ -3,7 +3,7 @@ description: La agrupación en clúster de caché permite que varios servidores 
 solution: Experience Manager
 title: Clustering de caché
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, administrador, profesional empresarial
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

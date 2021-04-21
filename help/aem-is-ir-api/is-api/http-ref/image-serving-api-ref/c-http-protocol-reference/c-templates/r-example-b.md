@@ -3,7 +3,7 @@ description: Requisitos similares a los del ejemplo A, pero utilizando un fondo 
 solution: Experience Manager
 title: Ejemplo B
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, profesional empresarial
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

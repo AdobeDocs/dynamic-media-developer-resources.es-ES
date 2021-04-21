@@ -3,7 +3,7 @@ description: Si se especifica texto como formato de respuesta, se da formato a l
 solution: Experience Manager
 title: Propiedades de texto (Java)
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, profesional empresarial
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

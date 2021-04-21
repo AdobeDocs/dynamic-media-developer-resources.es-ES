@@ -2,8 +2,8 @@
 description: Al pulsar o hacer clic en este botón, se restablece una imagen en la vista principal. Este botón aparece en la barra de control principal de los sistemas de escritorio y tabletas. En teléfonos móviles, este botón aparece en el centro inferior sobre la imagen. Sin embargo, no se muestra cuando la imagen está en estado de restablecimiento. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
 solution: Experience Manager
 title: Botón Restablecer zoom
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
-role: Desarrollador, profesional empresarial
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

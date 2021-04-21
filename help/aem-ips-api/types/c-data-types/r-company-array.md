@@ -3,7 +3,7 @@ description: Una matriz de empresas
 solution: Experience Manager
 title: CompanyArray
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, administrador
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

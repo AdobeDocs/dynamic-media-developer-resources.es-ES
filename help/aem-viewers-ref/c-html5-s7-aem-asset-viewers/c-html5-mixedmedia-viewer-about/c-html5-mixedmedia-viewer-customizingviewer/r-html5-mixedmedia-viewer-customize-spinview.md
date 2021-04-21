@@ -2,8 +2,8 @@
 description: La vista principal consiste en la imagen de giro cuando el recurso actual es un conjunto de giros.
 solution: Experience Manager
 title: Vista de giro
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
-role: Desarrollador, profesional empresarial
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

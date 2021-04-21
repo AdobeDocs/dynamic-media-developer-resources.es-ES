@@ -3,7 +3,7 @@ description: Responder formato de imagen. Especifica el formato de codificación
 solution: Experience Manager
 title: fmt
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, profesional empresarial
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 4f9ce78007cb6ad8def15397aa2224cd7675bb0e
 workflow-type: tm+mt

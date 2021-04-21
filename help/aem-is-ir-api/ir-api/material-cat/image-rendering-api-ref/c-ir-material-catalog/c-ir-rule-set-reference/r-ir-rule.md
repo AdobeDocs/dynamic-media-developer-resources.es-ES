@@ -3,7 +3,7 @@ description: Solicitar elemento de regla. Uno o más son opcionales en el elemen
 solution: Experience Manager
 title: regla
 feature: Dynamic Media Classic,SDK/API
-role: Desarrollador, profesional empresarial
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt
