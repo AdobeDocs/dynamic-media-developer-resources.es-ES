@@ -4,14 +4,13 @@ solution: Experience Manager
 title: fmt
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
+source-git-commit: bb306f1063a91eeeb6b90e64aeb2d3143697ca34
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '914'
 ht-degree: 5%
 
 ---
-
 
 # fmt{#fmt}
 
@@ -19,53 +18,54 @@ Formato de imagen de respuesta.
 
 `fmt=format[,` `[`*`pixelType`*`]`,`[`*`compression`*`]]`
 
-*`format`* — jpeg | jpg | pjpeg | png | png8 | png-alfa | png8-alfa | tif | tif-alfa | swf | swf-alpha | swf3 | swf3-alpha | Pasos | gif | gif-alfa | m3u8 | f4m | web | webp-alpha | jpeg2000 | jpeg2000-alfa | jpegxr | jpegxr-alpha
+*`format`* - avif-alfa | avif | Pasos | f4m | gif-alfa | gif | jpeg | jpeg2000-alfa | jpeg2000 | jpegxr-alpha | jpegxr | jpg | m3u8 | pdf | pjpeg | png-alfa | png | png8-alfa | png8 | swf-alpha | swf | swf3-alpha | swf3 | tif-alfa | tif | web-alpha | webp
 
 | *`format`* | Descripción |
-|---|---| 
-| `jpeg` | JPEG perdedor |
-| `jpg` | JPG perdedor |
-| `pjpeg` | JPEG progresivo |
-| `png` | PNG sin pérdida de 24 bits |
-| `png8` | PNG sin pérdida de 8 bits |
-| `png-alpha` | PNG sin pérdida de 24 bits con canal alfa |
-| `png8-alpha` | PNG sin pérdida de 8 bits con canal alfa |
-| `tif` | TIFF |
-| `tif-alpha` | TIFF con canal alfa |
-| `pdf` | Imagen incrustada en PDF |
+|---|---|
+| `avif-alpha` | AVIF con pérdida y sin pérdida con canal alfa <br><br>*Plazo de la versión para este formato:* <br><b>América del Norte</b> - Disponible ahora<br><b>Europa, Oriente Medio, África</b> - 24 de mayo de 2021<br><b>Asia-Pacífico</b> - 24 de junio de 20021 |
+| `avif` | Plazo de publicación de AVIF <br><br>*con pérdidas y sin pérdidas para este formato:*<br><b> Norteamérica</b> - Disponible ahora<br><b>Europa, Oriente Medio, África</b> - 24 de mayo de 2021<br><b>Asia-Pacífico</b> - 24 de junio de 2021 |
 | `eps` | PostScript encapsulado binario sin comprimir |
-| `gif` | GIF con entre 2 y 256 colores |
-| `gif-alpha` | GIF con entre 2 y 255 colores más transparencia de color clave |
-| `swf` | JPEG perdido incrustado en un archivo swf AS2 de Adobe |
-| `swf-alpha` | JPEG perdedor y una máscara comprimida deflada incrustada en un archivo swf AS2 de Adobe |
-| `swf3` | JPEG perdido incrustado en un archivo swf AS3 de Adobe |
-| `swf3-alpha` | JPEG perdedor y una máscara comprimida deflate incrustada en un archivo swf AS3 de Adobe. **Nota**: los formatos swf y swf-alpha se utilizan mejor para las aplicaciones de ActionScript 2 (Flash Player 8 y anteriores). se recomienda el uso de swf3 y swf3-alpha para aplicaciones de ActionScript3 (Flash Player 9 y posteriores) |
-| `m3u8` | Formato de manifiesto del servidor de transmisión de Apple |
 | `f4m` | Formato del manifiesto del servidor de transmisión por Flash |
-| `webp` | WebP con pérdida y pérdida |
-| `webp-alpha` | WebP perdedora y sin pérdidas con canal alfa |
-| `jpeg2000` | JPEG 2000 con pérdida y sin pérdida |
+| `gif-alpha` | GIF con entre 2 y 255 colores más transparencia de color clave |
+| `gif` | GIF con entre 2 y 256 colores |
+| `jpeg` | JPEG perdedor |
 | `jpeg2000-alpha` | JPEG 2000 con canal alfa, con pérdida y pérdida |
-| `jpegxr` | JPEG XR con pérdida y sin pérdida |
+| `jpeg2000` | JPEG 2000 con pérdida y sin pérdida |
 | `jpegxr-alpha` | JPEG XR con pérdida y sin pérdida con canal alfa |
+| `jpegxr` | JPEG XR con pérdida y sin pérdida |
+| `jpg` | JPG perdedor |
+| `m3u8` | Formato de manifiesto del servidor de transmisión de Apple |
+| `pdf` | Imagen incrustada en PDF |
+| `pjpeg` | JPEG progresivo |
+| `png-alpha` | PNG sin pérdida de 24 bits con canal alfa |
+| `png` | PNG sin pérdida de 24 bits |
+| `png8-alpha` | PNG sin pérdida de 8 bits con canal alfa |
+| `png8` | PNG sin pérdida de 8 bits |
+| `swf-alpha` | JPEG perdedor y una máscara comprimida deflada incrustada en un archivo swf AS2 de Adobe |
+| `swf` | JPEG perdido incrustado en un archivo swf AS2 de Adobe |
+| `swf3-alpha` | JPEG perdedor y una máscara comprimida deflate incrustada en un archivo swf AS3 de Adobe. **Nota:Los formatos** swf y swf-alfa son más adecuados para las aplicaciones de ActionScript 2 (Flash Player 8 y anteriores). Se recomienda utilizar los formatos swf3 y swf3-alpha para las aplicaciones ActionScript3 (Flash Player 9 y posteriores) |
+| `swf3` | JPEG perdido incrustado en un archivo swf AS3 de Adobe |
+| `tif-alpha` | TIFF con canal alfa |
+| `tif` | TIFF |
+| `webp-alpha` | WebP perdedora y sin pérdidas con canal alfa |
+| `webp` | WebP con pérdida y pérdida |
 
-
-| *`pixelType`* — rgb | gris | cmyk |
+| *`pixelType`* – rgb | gris | cmyk |
 | *`pixelType`* | Descripción |
 |---|---|
-| `rgb` | Devuelve datos de imagen RGB. |
-| `gray` | Devuelve datos de imagen en escala gris. |
 | `cmyk` | Devolver datos de imagen CMYK. |
+| `gray` | Devuelve datos de imagen en escala gris. |
+| `rgb` | Devuelve datos de imagen RGB. |
 
-| *`compression`* — none | lzw | zip | jpeg | pérdida | sin pérdidas |
+| *`compression`* – none | lzw | zip | jpeg | pérdida | sin pérdidas |
 | *`compression`* | Descripción |
 |---|---|
-| `none` | Sin comprimir |
-| `lzw` | Compresión LZW (Lempel-Ziv-Welch) (sin pérdidas) |
-| `zip` | Compresión &quot;Deflate&quot; (sin pérdidas) |
 | `jpeg` | Compresión JPEG (pérdida) |
 | `lossy` | Compresión WebP, JPEG 2000 y JPEG XR (con pérdida) |
 | `lossless` | Compresión WebP, JPEG 2000 y JPEG XR (sin pérdidas) |
+| `lzw` | Compresión LZW (Lempel-Ziv-Welch) (sin pérdidas) |
+| `none` | Sin comprimir |
+| `zip` | Compresión &quot;Deflate&quot; (sin pérdidas) |
 
 * *`format`* especifica el formato de codificación de imagen para los datos de imagen enviados al cliente y el tipo MIME de respuesta correspondiente para el encabezado de respuesta HTTP.
 * *`pixelType`* se puede utilizar para realizar la conversión del espacio de color de salida cuando no  `icc=` se especifique.
@@ -148,7 +148,7 @@ En la tabla siguiente se enumeran las combinaciones válidas de *`format`*y *`pi
    <td colname="col5"> <p> <span class="codeph"> cuantizar=  </span> </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p>web, webp-alpha </p> </td> 
+   <td> <p>webp, webp-alpha </p> </td> 
    <td> <p>rgb </p> </td> 
    <td> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
    <td> <p>No </p> </td> 
@@ -164,6 +164,13 @@ En la tabla siguiente se enumeran las combinaciones válidas de *`format`*y *`pi
   <tr valign="top"> 
    <td> <p>jpegxr, jpegxr-alpha </p> </td> 
    <td> <p>rgb </p> </td> 
+   <td> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
+   <td> <p>No </p> </td> 
+   <td> <p>Igual que arriba. </p> </td> 
+  </tr>
+  <tr valign="top"> 
+   <td> <p> avif, avif-alfa </p> </td> 
+   <td> <p>rgb</p> </td> 
    <td> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
    <td> <p>No </p> </td> 
    <td> <p>Igual que arriba. </p> </td> 
