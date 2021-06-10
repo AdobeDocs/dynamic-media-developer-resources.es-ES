@@ -3,16 +3,15 @@ description: Toda la personalización visual y la mayor parte de la personalizac
 keywords: adaptable
 solution: Experience Manager
 title: Personalización del visor de búsqueda de catálogos electrónicos
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 32b55fb1-1408-4264-92fa-b3a73f31df1d
+source-git-commit: 776539f14bbcd0342dac632c13a12eeb7b8efa21
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1406'
 ht-degree: 0%
 
 ---
-
 
 # Personalización del visor de búsqueda de catálogos electrónicos{#customizing-ecatalog-search-viewer}
 
@@ -183,10 +182,10 @@ A continuación se muestra la documentación de referencia de elementos de la in
 
 * [Botón Agregar favorito](r-html5-ecatsearch-customize-addfavorite.md)
 * [Botón Cerrar](r-html5-ecatsearch-customize-closebutton.md)
-* [Descargue](r-html5-ecatsearch-customize-download.md)
+* [Descargar](r-html5-ecatsearch-customize-download.md)
 * [Uso compartido de correo electrónico](r-html5-ecatsearch-customize-emailshare.md)
 * [Incrustar recurso compartido](r-html5-ecatsearch-customize-embedshare.md)
-* [Compartir en Facebook](r-html5-ecatsearch-customize-facebookshare.md)
+* [Uso compartido de facebook](r-html5-ecatsearch-customize-facebookshare.md)
 * [Favoritos, efecto](r-html5-ecatsearch-customize-favoriteseffect.md)
 * [Menú Favoritos](r-html5-ecatsearch-customize-favoritesmenu.md)
 * [Vista Favoritos](r-html5-ecatsearch-customize-favoritesview.md)
@@ -206,7 +205,7 @@ A continuación se muestra la documentación de referencia de elementos de la in
 * [Indicador de página](r-html5-ecatsearch-customize-pageindicator.md)
 * [Vista de la página](r-html5-ecatsearch-customize-pageview.md)
 * [Botón de página anterior](r-html5-ecatsearch-customize-previouspagebutton.md)
-* [Imprimir](r-html5-ecatalog-viewer-20-customize-print.md)
+* [Imprimir](r-html5-ecatsearch-customize-print.md)
 * [Botón Quitar favorito](r-html5-ecatsearch-customize-removefavorite.md)
 * [Botón Buscar](r-html5-ecatsearch-customize-searchbutton.md)
 * [Efecto de búsqueda](r-html5-ecatsearch-customize-searcheffect.md)
@@ -217,9 +216,8 @@ A continuación se muestra la documentación de referencia de elementos de la in
 * [Miniaturas](r-html5-ecatsearch-customize-thumbnails.md)
 * [Botón Miniaturas](r-html5-ecatsearch-customize-thumbnailsbutton.md)
 * [Información sobre herramientas](r-html5-ecatsearch-customize-tooltips.md)
-* [Compartir en Twitter](r-html5-ecatsearch-customize-twittershare.md)
+* [Uso compartido de twitter](r-html5-ecatsearch-customize-twittershare.md)
 * [Botón Ver todos los favoritos](r-html5-ecatsearch-customize-viewallfavorites.md)
 * [Botón Ampliar](r-html5-ecatsearch-customize-zoominbutton.md)
 * [Botón Reducir](r-html5-ecatsearch-customize-zoomoutbutton.md)
 * [Botón Restablecer zoom](r-html5-ecatsearch-customize-zoomresetbutton.md)
-
