@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Acerca de la biblioteca de imágenes adaptables
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: f853b9b4-917c-4744-b2a5-25fde2532356
+source-git-commit: 417fd2540c15762356dfb60aa7eb635ee5f74d13
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
-
 
 # Acerca de la biblioteca de imágenes adaptables{#about-responsive-image-library}
 
@@ -34,19 +33,19 @@ El caso de uso más sencillo de la biblioteca de imágenes interactivas es defin
    <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/responsive-static-image-simple.html" scope="external" format="https"> https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/responsive-static-image-simple.html  </a> </p> <p> 
      <!-- http://sasha.s7qa.com/jira-bugs/S7-7729/responsive-static-image-simple.htm--> </p> </td> 
-   <td colname="col2"> <p>A continuación se muestra un ejemplo sencillo en el que la imagen interactiva se encuentra dentro de un contenedor que toma el 50 % del ancho de la página web. Cada vez que se cambia el tamaño de la ventana del explorador, cambia la anchura del contenedor. Cuando la anchura de la imagen alcanza uno de los puntos de interrupción configurados (que se establecen en 200, 400, 600 y 800 píxeles para fines ilustrativos), se descarga y muestra una nueva representación. El objetivo es evitar cargar imágenes grandes innecesarias y ahorrar ancho de banda de red. </p> <p>Haga clic en la dirección URL para abrir la página web, cambiar el tamaño de la ventana del explorador y monitorizar el tráfico de red. </p> </td> 
+   <td colname="col2"> <p>A continuación se muestra un ejemplo sencillo en el que la imagen interactiva se encuentra dentro de un contenedor que toma el 50 % del ancho de la página web. Cada vez que se cambia el tamaño de la ventana del explorador, cambia la anchura del contenedor. Cuando la anchura de la imagen alcanza uno de los puntos de interrupción configurados (que se establecen en 200, 400, 600 y 800 píxeles para fines ilustrativos), se descarga y muestra una nueva representación. El objetivo es evitar cargar imágenes grandes innecesarias y ahorrar ancho de banda de red. </p> <p>Haga clic en la dirección URL para abrir la página web, cambiar el tamaño de la ventana del explorador y supervisar el tráfico de red. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>2 </p> </td> 
    <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/responsive-static-image-bootstrap.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/responsive-static-image-bootstrap.html  </a> </p> <p> 
      <!-- http://sasha.s7qa.com/jira-bugs/S7-7729/responsive-static-image-bootstrap.htm--> </p> </td> 
-   <td colname="col2"> <p>El siguiente ejemplo de Bootstrap ilustra el mismo caso de uso en una página web. Según el CSS Bootstrap, la celda de diseño a la que se agrega la imagen interactiva puede tener una de las siguientes anchuras: 360, 720 y 940 píxeles. Estos son los valores exactos que se pasan como puntos de interrupción a la biblioteca de imágenes adaptables. Como tal, Dynamic Media garantiza que el ancho de banda de red del cliente se utilice de manera eficaz. Además, también garantiza que la imagen se muestre con el tamaño exacto necesario (dado el diseño de la página web actual) sin que ningún artefacto visual pueda escalar el navegador del lado del cliente. </p> <p>Haga clic en la dirección URL para abrir la página web, cambie el tamaño de la ventana del explorador para llegar a diferentes puntos de interrupción del diseño y monitorice el tráfico de red. </p> <p>Los casos de uso más avanzados incluyen la asociación de diferentes ajustes preestablecidos de imagen, comandos de servicio de imágenes o ambos, con distintos valores de puntos de interrupción. </p> </td> 
+   <td colname="col2"> <p>El siguiente ejemplo de Bootstrap ilustra el mismo caso de uso en una página web. Según el CSS Bootstrap, la celda de diseño a la que se agrega la imagen interactiva puede tener una de las siguientes anchuras: 360, 720 y 940 píxeles. Estos valores son exactamente los que se pasan como puntos de interrupción a la biblioteca de imágenes adaptables. Como tal, Dynamic Media garantiza que el ancho de banda de red del cliente se utilice de manera eficaz. Además, también garantiza que la imagen se muestre con el tamaño exacto necesario (dado el diseño de la página web actual) sin que ningún artefacto visual pueda escalar el navegador del lado del cliente. </p> <p>Haga clic en la dirección URL para abrir la página web, cambiar el tamaño de la ventana del explorador para llegar a diferentes puntos de interrupción del diseño y monitorizar el tráfico de red. </p> <p>Los casos de uso más avanzados incluyen la asociación de diferentes ajustes preestablecidos de imagen, comandos de servicio de imágenes o ambos, con distintos valores de puntos de interrupción. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/image-presets.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/image-presets.html  </a> </p> <p> 
      <!--http://sasha.s7qa.com/jira-bugs/S7-7729/image-presets.html--> </p> </td> 
-   <td colname="col2"> <p>En este ejemplo siguiente, se utilizan ajustes preestablecidos de imagen de diferente calidad de imagen y formato para diferentes tamaños de punto de interrupción. Para un punto de interrupción pequeño, se aplica un ajuste preestablecido de baja calidad que obliga a Image Serving a devolver la imagen GIF comprimida a solo seis colores. Un punto de interrupción medio utiliza un ajuste preestablecido de imagen configurado para JPEG con una compresión alta. El punto de interrupción más grande está asociado con un ajuste preestablecido de imagen de alta calidad que utiliza PNG sin pérdidas. Este método garantiza que las imágenes de alta calidad se entreguen a estos dispositivos, según el supuesto de que los dispositivos con pantallas más grandes tienen un ancho de banda bueno y una potencia de procesamiento. </p> <p>Haga clic en la URL para abrir la página web, cambie el tamaño de la ventana del explorador web de mayor a menor y observe cómo se degrada la calidad de la imagen. </p> </td> 
+   <td colname="col2"> <p>En este ejemplo siguiente, se utilizan ajustes preestablecidos de imagen de diferente calidad de imagen y formato para diferentes tamaños de punto de interrupción. Para un punto de interrupción pequeño, se aplica un ajuste preestablecido de baja calidad que obliga a Image Serving a devolver la imagen GIF comprimida a solo seis colores. Un punto de interrupción medio utiliza un ajuste preestablecido de imagen configurado para JPEG con una compresión alta. El punto de interrupción más grande está asociado con un ajuste preestablecido de imagen de alta calidad que utiliza PNG sin pérdidas. Este método garantiza que las imágenes de alta calidad se entreguen a estos dispositivos, según el supuesto de que los dispositivos con pantallas más grandes tienen un ancho de banda bueno y una potencia de procesamiento. </p> <p>Haga clic en la dirección URL para abrir la página web, cambiar el tamaño de la ventana del explorador web de mayor a menor y observar cómo se degrada la calidad de la imagen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>4 </p> </td> 
@@ -71,10 +70,9 @@ El caso de uso más sencillo de la biblioteca de imágenes interactivas es defin
 
 **Requisitos mínimos del explorador del cliente**
 
-* Microsoft® Windows® 7 o posterior; Mac OS X 10.8 o posterior.
+* Microsoft® Windows® 7 o posterior; macOS X 10.8 o posterior.
 * Firefox 23, Safari 6, Chrome 29, IE 9 o posterior.
 * iOS 6 o posterior.
 * Certificado en iPhone3GS o posterior y en iPad2 o posterior (solo navegadores nativos).
-* Android OS 2.3 o posterior.
-* Internet Explorer en dispositivos móviles no es compatible en este momento.
-
+* Android™ OS 2.3 o posterior.
+* Actualmente no se admite Internet Explorer en dispositivos móviles.
