@@ -2,13 +2,12 @@
 description: Interactive Video Viewer es un reproductor de vídeo que reproduce streaming y vídeo progresivo codificado en formato H.264.
 solution: Experience Manager
 title: Vídeo interactivo
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
 role: Developer,Business Practitioner
 exl-id: e54b0b1f-b015-4592-82e2-99f5080543e3
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 6df782b389f7e14b8ad510ebb6f143ece0db23c9
 workflow-type: tm+mt
-source-wordcount: '2234'
+source-wordcount: '2221'
 ht-degree: 0%
 
 ---
@@ -17,7 +16,7 @@ ht-degree: 0%
 
 Interactive Video Viewer es un reproductor de vídeo que reproduce streaming y vídeo progresivo codificado en formato H.264.
 
-El visor también muestra muestras de productos interactivas junto al contenido de vídeo. Se admiten conjuntos de vídeo único y adaptable. Está diseñado para funcionar tanto en exploradores web de escritorio como móviles que admiten vídeo HTML5. El visor admite subtítulos opcionales que se muestran sobre el contenido de vídeo, la navegación por capítulos de vídeo y las herramientas de uso compartido en medios sociales. El propósito de este visor es ayudarle a implementar una experiencia de &quot;vídeo de ventas&quot;. Es decir, los usuarios pueden seleccionar una muestra asociada a una región horaria de vídeo en particular y ser redirigidos a una vista rápida o a una página de detalles de producto en el sitio web del cliente.
+El visor también muestra muestras de productos interactivas junto al contenido del vídeo. Se admiten conjuntos de vídeo único y adaptable. Está diseñado para funcionar tanto en exploradores web de escritorio como móviles que admiten vídeo HTML5. El visor admite subtítulos opcionales que se muestran sobre el contenido de vídeo, la navegación por capítulos de vídeo y las herramientas de uso compartido en medios sociales. El propósito de este visor es ayudarle a implementar una experiencia de &quot;vídeo de ventas&quot;. Es decir, los usuarios pueden seleccionar una muestra asociada a una región horaria de vídeo en particular y ser redirigidos a una vista rápida o a una página de detalles de producto en el sitio web del cliente.
 
 El tipo de visor es 510.
 
@@ -25,7 +24,7 @@ El tipo de visor es 510.
 
 [https://marketing.adobe.com/resources/help/en_US/dm/shoppable-video/glacier/InteractiveVideoViewerDemo.html](https://marketing.adobe.com/resources/help/en_US/dm/shoppable-video/glacier/InteractiveVideoViewerDemo.html)
 
-y
+Y
 
 [https://marketing.adobe.com/resources/help/en_US/dm/shoppable-video/AXIS/index.html](https://marketing.adobe.com/resources/help/en_US/dm/shoppable-video/AXIS/index.html)
 
@@ -35,11 +34,11 @@ Consulte [Requisitos del sistema](../../c-system-requirements-and-prerequisites.
 
 ## Uso del visualizador de vídeo interactivo {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-El visualizador de vídeo interactivo representa un archivo JavaScript principal y un conjunto de archivos de ayuda (un solo JavaScript incluye todos los componentes del SDK de visor utilizados por este visualizador, recursos y CSS concretos) descargados por el visualizador en tiempo de ejecución.
+El visualizador de vídeo interactivo representa un archivo JavaScript principal y un conjunto de archivos de ayuda descargados por el visualizador en tiempo de ejecución. Se incluye un solo JavaScript con todos los componentes del SDK de visor que utiliza este visor, recursos y CSS concretos.
 
 El visualizador de vídeo interactivo se puede utilizar en modo emergente mediante la página HTML lista para la producción que se proporciona con los visualizadores de servicio de imágenes. También se puede utilizar en modo incrustado, donde se integra en la página web de destino mediante la API documentada.
 
-La configuración y el desollado son similares a los de los demás visores descritos en esta guía. Todo el desollado se logra mediante hojas de estilo en cascada personalizadas (CSS).
+La configuración y el desollado son similares a los de los demás visualizadores descritos en esta guía. Todo el desollado se logra mediante hojas de estilo en cascada personalizadas (CSS).
 
 Consulte [Referencia de comando común a todos los visores: Atributos de configuración](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) y [Referencia de comando común a todos los visualizadores: URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
@@ -47,21 +46,21 @@ Consulte [Referencia de comando común a todos los visores: Atributos de configu
 
 El visualizador de vídeo interactivo proporciona un conjunto de controles de interfaz de usuario estándar para la reproducción de vídeo, como un botón de reproducción/pausa, una barra de desplazamiento, una burbuja de tiempo de vídeo, un indicador de tiempo de reproducción/tiempo total, un control de volumen, un botón de pantalla completa y la opción de alternancia de subtítulos. Todos estos controles se agrupan en una barra de control directamente debajo de la vista principal.
 
-Tenga en cuenta que en dispositivos táctiles el control de volumen está oculto en la interfaz de usuario, ya que solo es posible controlar el volumen mediante los botones de hardware del dispositivo.
+En dispositivos táctiles, el control de volumen está oculto en la interfaz de usuario, ya que solo es posible controlar el volumen mediante los botones de hardware del dispositivo.
 
 Cuando el visor funciona en modo emergente, no hay un botón de pantalla completa disponible en la interfaz de usuario.
 
-El visor muestra un panel con muestras interactivas a la derecha del área de visualización de vídeo. La lista de muestras avanza automáticamente mientras se reproduce el vídeo, de modo que se muestren las muestras correspondientes a la región de vídeo actual. Al tocar o hacer clic en una muestra, se déclencheur una acción asociada con dicha muestra durante el tiempo de creación. Según la configuración, el déclencheur puede redirigir a una página diferente del sitio web o devolver la información del producto a la lógica de la página web, lo que a su vez puede déclencheur la apertura de una vista rápida que muestre el contenido del producto relacionado.
+El visor muestra un panel con muestras interactivas a la derecha del área de visualización de vídeo. La lista de muestras avanza automáticamente mientras se reproduce el vídeo, de modo que se muestren las muestras correspondientes a la región de vídeo actual. Al tocar o hacer clic en una muestra, se déclencheur una acción asociada con dicha muestra durante el tiempo de creación. Según la configuración, el déclencheur puede redirigir a una página diferente del sitio web. O bien, puede devolver la información del producto a la lógica de la página web, que a su vez puede almacenar en déclencheur la apertura de una vista rápida que muestre el contenido del producto relacionado.
 
-Es posible navegar rápidamente por el contenido de vídeo cuando se activa el capítulo de vídeo. Los capítulos del vídeo se muestran como marcadores en la pista de desplazamiento de vídeo y muestran el título y la descripción del capítulo al pasar el ratón (o en un solo toque en sistemas táctiles). El cliente puede &quot;buscar&quot; un capítulo en particular haciendo clic en un marcador de capítulo o pulsando una burbuja de descripción de capítulo.
+Es posible navegar rápidamente por el contenido de vídeo cuando se activa el capítulo de vídeo. Los capítulos del vídeo se muestran como marcadores en la pista de desplazamiento del vídeo y muestran el título y la descripción del capítulo al pasar (o al pulsar un solo toque en sistemas táctiles). El cliente puede &quot;buscar&quot; un capítulo en particular haciendo clic en un marcador de capítulo o pulsando una burbuja de descripción de capítulo.
 
-El visor también es compatible con diversas herramientas de uso compartido en redes sociales. Están disponibles como un solo botón en la interfaz de usuario que se expande a una barra de herramientas de uso compartido cuando el usuario hace clic o pulsa en él. La barra de herramientas de uso compartido contiene un icono para cada tipo de canal de uso compartido compatible, como Facebook, Twitter, uso compartido de correo electrónico, uso compartido de código incrustado y uso compartido de vínculos. Cuando se activan las herramientas de uso compartido por correo electrónico, uso compartido incrustado o uso compartido de vínculos, el visor muestra un cuadro de diálogo modal con un formulario de entrada de datos correspondiente. Cuando se llama a Facebook o Twitter, el visor redirige al usuario a un cuadro de diálogo estándar de uso compartido desde un servicio de medios sociales. Además, cuando se activa una herramienta de uso compartido, la reproducción de vídeo se pone en pausa automáticamente. Las herramientas de uso compartido no están disponibles en el modo de pantalla completa debido a las restricciones de seguridad del explorador web.
+El visor también es compatible con varias herramientas de uso compartido de redes sociales. Están disponibles como un solo botón en la interfaz de usuario que se expande a una barra de herramientas de uso compartido cuando el usuario hace clic o pulsa en él. La barra de herramientas de uso compartido contiene un icono para cada tipo de canal de uso compartido compatible, como Facebook, Twitter, uso compartido de correo electrónico, uso compartido de código incrustado y uso compartido de vínculos. Cuando se activan las herramientas de uso compartido por correo electrónico, uso compartido incrustado o uso compartido de vínculos, el visor muestra un cuadro de diálogo modal con un formulario de entrada de datos correspondiente. Cuando se llama a Facebook o Twitter, el visor redirige al usuario a un cuadro de diálogo estándar de uso compartido desde un servicio de medios sociales. Además, cuando se activa una herramienta de uso compartido, la reproducción de vídeo se pone en pausa automáticamente. Las herramientas de uso compartido no están disponibles en el modo de pantalla completa debido a las restricciones de seguridad del explorador web.
 
 El visor es totalmente accesible mediante teclado. Consulte [Accesibilidad del teclado y navegación](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
 ## Incrustación del visualizador de vídeo interactivo {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-El visualizador de vídeo interactivo está diseñado para incrustarse en la página de alojamiento. Esta página web puede tener un diseño estático o puede ser &quot;interactiva&quot; y mostrarse de forma diferente en distintos dispositivos o en diferentes tamaños de ventana del navegador.
+El visualizador de vídeo interactivo está incrustado en la página de alojamiento. Esta página web puede tener un diseño estático o puede ser &quot;interactiva&quot; y mostrarse de forma diferente en distintos dispositivos o en diferentes tamaños de ventana del navegador.
 
 Para satisfacer estas necesidades, el visor admite dos modos de operación principales: incrustación de tamaño fijo e incrustación interactiva.
 
@@ -71,11 +70,11 @@ En el modo integrado, el visor se añade a la página web existente, que puede t
 
 Los casos de uso principales son páginas web orientadas a equipos de escritorio o tabletas, y también páginas diseñadas con capacidad de respuesta que ajustan el diseño automáticamente en función del tipo de dispositivo.
 
-La incrustación de tamaño fijo se utiliza cuando el visor no cambia su tamaño después de la carga inicial. Esta es la mejor opción para páginas web con diseño estático.
+La incrustación de tamaño fijo se utiliza cuando el visor no cambia su tamaño después de la carga inicial. Esta funcionalidad es la mejor opción para páginas web con diseño estático.
 
-La incrustación de diseño interactivo supone que el visor puede tener que cambiar el tamaño durante la ejecución en respuesta al cambio de tamaño de su contenedor `DIV`. El caso de uso más común es agregar un visor a una página web que utilice un diseño de página flexible.
+La incrustación de diseño interactivo supone que el visor necesita cambiar el tamaño durante la ejecución en respuesta al cambio de tamaño de su contenedor `DIV`. El caso de uso más común es agregar un visor a una página web que utilice un diseño de página flexible.
 
-En el modo de incrustación de diseño interactivo, el visor se comporta de forma diferente en función del tamaño de la página web para su contenedor `DIV`. Si la página web establece únicamente la anchura del contenedor `DIV`, sin restringir su altura, el visor elige automáticamente su altura según la proporción de aspecto del recurso que se utilice. Esta funcionalidad garantiza que el recurso encaje perfectamente en la vista sin ningún relleno en los lados. Este caso de uso es el más común para las páginas web que usan marcos de diseño web interactivos como Bootstrap, Foundation, etc.
+En el modo de incrustación de diseño interactivo, el visor se comporta de forma diferente en función del tamaño de la página web para su contenedor `DIV`. Si la página web establece únicamente la anchura del contenedor `DIV`, sin restringir su altura, el visor elige automáticamente su altura según la proporción de aspecto del recurso que se utilice. Esta funcionalidad garantiza que el recurso encaje perfectamente en la vista sin ningún relleno en los lados. Este caso de uso es el más común para las páginas web que usan marcos de diseño web interactivos como Bootstrap y Fundación.
 
 De lo contrario, si la página web establece la anchura y la altura del contenedor del visor `DIV`, el visor rellena solo esa área y sigue el tamaño que proporciona el diseño de la página web. Un buen ejemplo es integrar el visor en una superposición modal, donde el tamaño de la superposición depende del tamaño de la ventana del explorador web.
 
@@ -104,7 +103,7 @@ La ruta relativa tiene el siguiente aspecto:
 
 >[!NOTE]
 >
->Solo debe hacer referencia al archivo JavaScript `include` del visor principal de la página. No debe hacer referencia a ningún archivo JavaScript adicional del código de la página web que pueda descargar la lógica del visor durante la ejecución. En concreto, no haga referencia directamente a la biblioteca `Utils.js` del SDK de HTML5 cargada por el visor desde la ruta de contexto `/s7viewers` (denominada SDK consolidado `include`). El motivo es que la ubicación de las `Utils.js` o bibliotecas de visores de tiempo de ejecución similares se administra completamente mediante la lógica del visor y la ubicación cambia entre las versiones del visor. Adobe no mantiene versiones anteriores del visor secundario `includes` en el servidor.
+>Solo haga referencia al archivo JavaScript `include` del visor principal de la página. No haga referencia a ningún archivo JavaScript adicional del código de la página web que pueda descargar la lógica del visor durante la ejecución. En concreto, no haga referencia directamente a la biblioteca `Utils.js` del SDK de HTML5 cargada por el visor desde la ruta de contexto `/s7viewers` (denominada SDK consolidado `include`). El motivo es que la ubicación de las `Utils.js` o bibliotecas de visores de tiempo de ejecución similares se administra completamente mediante la lógica del visor y la ubicación cambia entre las versiones del visor. Adobe no mantiene versiones anteriores del visor secundario `includes` en el servidor.
 >
 >
 >Como resultado, poner una referencia directa a cualquier JavaScript `include` secundario que utilice el visor en la página rompe la funcionalidad del visor en el futuro cuando se implemente una nueva versión del producto.
@@ -127,7 +126,7 @@ La ruta relativa tiene el siguiente aspecto:
 
    Puede establecer el tamaño estático del visor declarándolo para la clase CSS de nivel superior `.s7interactivevideoviewer` en unidades absolutas o utilizando el modificador `stagesize`.
 
-   Puede colocar el tamaño en CSS directamente en la página HTML o en un archivo CSS de visor personalizado, que más tarde se asigna a un registro preestablecido de visor en AEM Assets bajo demanda o se pasa explícitamente mediante el comando `style`.
+   Puede colocar el tamaño en CSS directamente en la página HTML. O bien, puede colocarlo en un archivo CSS de visualizador personalizado, que más tarde se asignará a un registro preestablecido de visualizador en AEM Assets - On-demand, o se pasará explícitamente utilizando el comando `style`.
 
    Consulte [Personalización del visualizador de vídeo interactivo](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) para obtener más información sobre cómo diseñar el visualizador con CSS.
 
@@ -152,11 +151,11 @@ La ruta relativa tiene el siguiente aspecto:
 
    Cuando haya completado los pasos anteriores, cree una instancia de la clase `s7viewers.InteractiveVideoViewer`, pase toda la información de configuración a su constructor e invoque el método `init()` en una instancia de visor. La información de configuración se pasa al constructor como un objeto JSON. Como mínimo, este objeto debe tener un campo `containerId` que contenga el nombre del ID de contenedor del visor y un objeto `params` JSON anidado con parámetros de configuración admitidos por el visor.
 
-   En este caso, el objeto `params` debe tener al menos la dirección URL del servicio de imágenes pasada como propiedad `serverUrl` y el recurso inicial como parámetro `asset`. La API de inicialización basada en JSON le permite crear e iniciar el visor con una sola línea de código, una URL de servidor de vídeo pasada como propiedad `videoserverurl` , un recurso inicial como parámetro `asset` y datos interactivos como propiedad `interactivedata` . La API de inicialización basada en JSON le permite crear e iniciar el visor con una sola línea de código.
+   En este caso, el objeto `params` debe tener al menos la dirección URL del servicio de imágenes pasada como propiedad `serverUrl` y el recurso inicial como parámetro `asset`. La API de inicialización basada en JSON le permite crear e iniciar el visor con una sola línea de código, una URL de servidor de vídeo pasada como propiedad `videoserverurl`, un recurso inicial como parámetro `asset` y datos interactivos como propiedad `interactivedata`. La API de inicialización basada en JSON le permite crear e iniciar el visor con una sola línea de código.
 
    Es importante tener el contenedor de visor agregado al DOM para que el código del visor pueda encontrar el elemento contenedor por su ID. Algunos exploradores retrasan la creación del DOM hasta el final de la página web. Para obtener la máxima compatibilidad, llame al método `init()` justo antes de la etiqueta `BODY` de cierre o en el evento `onload()` del cuerpo.
 
-   Al mismo tiempo, el elemento contenedor no debe formar parte necesariamente del diseño de página web todavía. Por ejemplo, puede ocultarse utilizando el estilo `display:none` asignado. En este caso, el visor retrasa su proceso de inicialización hasta el momento en que la página web vuelve a poner el elemento contenedor en el diseño. Lo que sucede, la carga del visor se reanuda automáticamente.
+   Al mismo tiempo, el elemento contenedor no es necesariamente parte del diseño de la página web todavía. Por ejemplo, puede ocultarse utilizando el estilo `display:none` asignado. En este caso, el visor retrasa su proceso de inicialización hasta el momento en que la página web vuelve a poner el elemento contenedor en el diseño. Lo que sucede, la carga del visor se reanuda automáticamente.
 
    El siguiente es un ejemplo de creación de una instancia de visor, pasando las opciones de configuración mínimas necesarias al constructor y llamando al método `init()`. El ejemplo asume lo siguiente:
 
@@ -285,7 +284,7 @@ La página de ejemplos siguientes ilustra más usos reales de la incrustación d
 
 **Incrustación interactiva con anchura y altura definidas**
 
-En caso de incrustación interactiva con anchura y altura definidas, el estilo de la página web es diferente. Proporciona ambos tamaños al DIV `"holder"` y lo centra en la ventana del explorador. Además, la página web establece el tamaño del elemento `HTML` y `BODY` en 100 por ciento.
+Si hay una incrustación interactiva con anchura y altura definidas, el estilo de la página web es diferente. Proporciona ambos tamaños al DIV `"holder"` y lo centra en la ventana del explorador. Además, la página web establece el tamaño del elemento `HTML` y `BODY` en 100 por ciento.
 
 ```
 <!DOCTYPE html> 
