@@ -3,16 +3,15 @@ description: El visor de vídeo es un reproductor de vídeo que reproduce flujo 
 keywords: adaptable
 solution: Experience Manager
 title: Vídeo
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: fa9727dc-f9e2-4d91-b500-445693dfb6aa
+source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
 workflow-type: tm+mt
-source-wordcount: '2383'
+source-wordcount: '2388'
 ht-degree: 0%
 
 ---
-
 
 # Vídeo{#video}
 
@@ -285,7 +284,7 @@ La siguiente página de ejemplos ilustra un uso más real del diseño interactiv
 
 [Demostraciones en directo](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-<!-- KEEP (https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) -->
+[Ubicación de demostración alternativa](https://experienceleague.adobe.com/tools/vlist/vlist.html)
 
 **Diseño interactivo con anchura y altura definidas**
 
@@ -385,4 +384,3 @@ videoViewer.init();
 </body> 
 </html> 
 ```
-
