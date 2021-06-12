@@ -2,16 +2,15 @@
 description: El SDK de visor proporciona un conjunto de componentes basados en JavaScript para el desarrollo de visores personalizados. Los visores son aplicaciones basadas en la web que permiten incrustar en las páginas web contenido multimedia enriquecido servido por Adobe Dynamic Media.
 solution: Experience Manager
 title: Tutorial del SDK del visor
-feature: Dynamic Media Classic,Viewers,SDK/API
+feature: Dynamic Media Classic,Visualizadores,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 3a798595-6c65-4a12-983d-3cdc53830d28
+source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
 workflow-type: tm+mt
-source-wordcount: '974'
+source-wordcount: '964'
 ht-degree: 0%
 
 ---
-
 
 # Tutorial del SDK de visor{#viewer-sdk-tutorial}
 
@@ -35,7 +34,7 @@ Este tutorial incluye el siguiente orden de tareas para ayudarle a crear un viso
 
 ## Descargar el último SDK de visor de Adobe Developer Connection {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
 
-1. Descargue el último SDK de visor de Adobe Developer Connection [aquí](https://marketing.adobe.com/developer/devcenter/scene7/show).
+1. Descargue el último SDK de visor de Adobe Developer Connection <!-- SDK NO LONGER AVAILABLE TO DOWNLOAD;DOUBLE CHECK WITH AMIT. THIS ENTIRE TOPIC IS LIKELY OBSOLETE. [here](https://marketing.adobe.com/developer/devcenter/scene7/show) -->.
 
    >[!NOTE]
    >
@@ -391,4 +390,3 @@ Ahora agregará botones de ampliación, reducción y restablecimiento de zoom al
    El visor de zoom básico ya ha finalizado.
 
    Este tutorial del visor trata los aspectos básicos de lo que proporciona el SDK del visor de Dynamic Media. Al trabajar con el SDK, puede utilizar los distintos componentes estándar para crear y aplicar estilo fácilmente a las experiencias de visualización enriquecidas para las audiencias de destino.
-
