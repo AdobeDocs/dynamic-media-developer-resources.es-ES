@@ -3,16 +3,15 @@ description: El visor de giros es un visor de imágenes que proporciona una vist
 keywords: adaptable
 solution: Experience Manager
 title: Spin
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de giros
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4c802d42-ea5b-4f28-b6ef-2689aa16839d
+source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
 workflow-type: tm+mt
-source-wordcount: '2130'
+source-wordcount: '2135'
 ht-degree: 0%
 
 ---
-
 
 # Giro{#spin}
 
@@ -296,7 +295,7 @@ La siguiente página de ejemplos ilustra casos de uso más reales de incrustaci�
 
 [Demostraciones en directo](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-<!-- KEEP (https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) -->
+[Ubicación de demostración alternativa](https://experienceleague.adobe.com/tools/vlist/vlist.html)
 
 **Integración de tamaño flexible con anchura y altura definidas**
 
@@ -394,4 +393,3 @@ spinViewer.init();
 </body> 
 </html>
 ```
-
