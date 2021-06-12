@@ -2,13 +2,12 @@
 description: El visor de carrusel es un visor que muestra un carrusel de imágenes de banner no ampliables con zonas interactivas o regiones en las que se puede hacer clic. El objetivo de este visor es implementar una experiencia de "carrusel de ventas" en la que los usuarios puedan seleccionar un punto interactivo o una región sobre la imagen del banner y ser redirigidos a una vista rápida o a una página de detalles del producto en el sitio web del cliente. Está diseñado para funcionar con equipos de escritorio y dispositivos móviles.
 solution: Experience Manager
 title: Carrusel
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+feature: Dynamic Media Classic,Visores,SDK/API,Banners de carrusel
 role: Developer,Business Practitioner
 exl-id: d506dc6e-8929-4f7f-a205-1683e77681f1
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
 workflow-type: tm+mt
-source-wordcount: '1921'
+source-wordcount: '1902'
 ht-degree: 0%
 
 ---
@@ -25,7 +24,7 @@ El tipo de visor es 511.
 
 ## Demostración de URL {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
 
-[https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/CarouselViewerDemo.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/CarouselViewerDemo.html)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html)
 
 ## Requisitos del sistema {#section-b7270cc4290043399681dc504f043609}
 
@@ -263,7 +262,7 @@ var carouselViewer = new s7viewers.CarouselViewer({
 
 La página de ejemplos siguientes ilustra más usos reales de la incrustación de diseño interactivo con altura ilimitada:
 
-[https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/CarouselViewer-responsive-unrestricted-height.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/CarouselViewer-responsive-unrestricted-height.html)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html)
 
 **Incrustación de tamaño flexible con anchura y altura definidas**
 
