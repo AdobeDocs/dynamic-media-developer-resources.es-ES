@@ -3,16 +3,15 @@ description: El visor flotante es un visor de imágenes. Muestra una imagen est�
 keywords: adaptable
 solution: Experience Manager
 title: Flotante
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Flotante
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 9b60330f-5348-431d-9682-cf97aace3679
+source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
 workflow-type: tm+mt
-source-wordcount: '2095'
+source-wordcount: '2084'
 ht-degree: 0%
 
 ---
-
 
 # Flotante{#flyout}
 
@@ -150,7 +149,7 @@ Una ruta relativa tiene el siguiente aspecto:
 
    Puede ver el comportamiento con un área fija del visor exterior en la siguiente página de muestra. Tenga en cuenta que cuando cambia entre conjuntos, el tamaño del visor exterior no cambia:
 
-   [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/FlyoutViewer-fixed-outer-area.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/FlyoutViewer-fixed-outer-area.html)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html)
 
    Para que las dimensiones de vista principales sean estáticas, defina el tamaño del visor en unidades absolutas para el componente `Container` SDK interno mediante el selector de CSS `.s7flyoutviewer .s7container`. Además, debe anular el tamaño fijo definido para la clase CSS de nivel superior `.s7flyoutviewer` en el CSS del visor predeterminado, configurándolo en `auto`.
 
@@ -169,7 +168,7 @@ Una ruta relativa tiene el siguiente aspecto:
 
    La siguiente página de muestra muestra el comportamiento del visor con un tamaño fijo de vista principal. Tenga en cuenta que cuando cambia entre conjuntos, la vista principal permanece estática y el contenido de la página web se mueve verticalmente:
 
-   [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/FlyoutViewer-fixed-main-view.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/FlyoutViewer-fixed-main-view.html)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html)
 
    Además, tenga en cuenta que el visor CSS predeterminado proporciona un tamaño fijo para su área exterior predeterminada.
 
@@ -303,7 +302,7 @@ La página de ejemplos siguientes ilustra más usos reales de la incrustación d
 
 [Demostraciones en directo](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-<!-- KEEP (https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) -->
+[Ubicación de demostración alternativa](https://experienceleague.adobe.com/tools/vlist/vlist.html)
 
 ## Integración de tamaño flexible con anchura y altura definidas {#section-0a329016f9414d199039776645c693de}
 
@@ -405,4 +404,3 @@ flyoutViewer.init();
 </body> 
 </html>
 ```
-
