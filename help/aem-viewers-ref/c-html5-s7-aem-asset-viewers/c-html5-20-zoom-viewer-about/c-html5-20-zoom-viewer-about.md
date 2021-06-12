@@ -3,16 +3,15 @@ description: El visor de zoom es un visor de imágenes que muestra una imagen am
 keywords: adaptable
 solution: Experience Manager
 title: Zoom
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 81a74026-fb15-4f57-a4c7-1ab005950245
+source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
 workflow-type: tm+mt
-source-wordcount: '2423'
+source-wordcount: '2404'
 ht-degree: 0%
 
 ---
-
 
 # Zoom{#zoom}
 
@@ -180,7 +179,7 @@ La ruta relativa tiene el siguiente aspecto:
 
    Puede ver el comportamiento con un visor exterior fijo en el siguiente ejemplo. Tenga en cuenta que cuando cambia entre conjuntos, el tamaño del visor exterior no cambia:
 
-   [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/ZoomViewer-fixed-outer-area.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/ZoomViewer-fixed-outer-area.html)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html)
 
    Para que las dimensiones de vista principales sean estáticas, defina el tamaño del visor en unidades absolutas para el componente `Container` SDK interno mediante el selector `.s7zoomviewer` `.s7container` CSS o utilizando el modificador `stagesize`.
 
@@ -195,7 +194,7 @@ La ruta relativa tiene el siguiente aspecto:
 
    La siguiente página de demostración muestra el comportamiento del visor con un tamaño fijo de vista principal. Tenga en cuenta que cuando cambia entre conjuntos, la vista principal permanece estática y el contenido de la página web se mueve verticalmente.
 
-   [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/ZoomViewer-fixed-main-view.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/ZoomViewer-fixed-main-view.html)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html)
 
    Puede configurar el modificador `stagesize` en el registro preestablecido de visualizador en Dynamic Media Classic, o puede pasarlo explícitamente con el código de inicialización del visualizador con la colección `params` o como una llamada de API como se describe en la sección Referencia de comandos de esta Ayuda, como se muestra en el siguiente ejemplo:
 
@@ -415,4 +414,3 @@ zoomViewer.init();
 </body> 
 </html> 
 ```
-
