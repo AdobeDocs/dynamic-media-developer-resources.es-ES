@@ -4,14 +4,13 @@ solution: Experience Manager
 title: ErrorImage *
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: ed48482f-79b0-4c81-b5cd-cf997f27d3ab
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '211'
 ht-degree: 1%
 
 ---
-
 
 # ErrorImage *{#errorimage}
 
