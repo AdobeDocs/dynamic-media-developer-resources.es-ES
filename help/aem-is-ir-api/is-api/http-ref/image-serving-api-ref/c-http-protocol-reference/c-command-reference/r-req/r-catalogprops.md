@@ -4,14 +4,13 @@ solution: Experience Manager
 title: catalogprops
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 28bf68e8-d424-418e-99a7-5298a1d83341
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '218'
 ht-degree: 6%
 
 ---
-
 
 # catalogprops{#catalogprops}
 
@@ -145,4 +144,3 @@ Se devuelven los siguientes valores de propiedad:
   </tr> 
  </tbody> 
 </table>
-
