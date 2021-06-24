@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Prefacio de administración del servidor
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 65fc3510-3d47-4650-bf89-322b517dc004
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
-
 
 # Prefacio de administración del servidor{#server-administration-preface}
 
@@ -51,4 +50,3 @@ Los elementos descritos en esta documentación suelen tener el prefijo de los si
   <td class="stentry"> <p>Un nombre con el prefijo 'default::' hace referencia a un atributo del catálogo de imágenes predeterminado. </p></td> 
  </tr> 
 </table>
-
