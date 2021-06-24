@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Propiedades XML
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 84cae0cd-d13b-409e-bd65-71c7e973d4b8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
-
 
 # Propiedades XML{#xml-properties}
 
@@ -44,4 +43,3 @@ El elemento `<prop-group>` se utiliza como contenedor exterior y para agrupar pr
 >[!NOTE]
 >
 >Se puede especificar la codificación de caracteres para algunos tipos `req=`. Consulte la descripción del comando específico `req=`para obtener más información.
-
