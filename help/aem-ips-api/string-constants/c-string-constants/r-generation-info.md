@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Información de generación
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 0293d28e-a023-4a79-9a3b-fc7b5cfbc98a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '21'
-ht-degree: 9%
+source-wordcount: '19'
+ht-degree: 10%
 
 ---
-
 
 # Información de generación{#generation-info}
 
@@ -26,4 +25,3 @@ Sintaxis
 * [!DNL `ImageConvert`]
 * [!DNL `SceneAuthoring`]
 * [!DNL `Aco`]
-
