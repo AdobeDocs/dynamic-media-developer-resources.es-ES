@@ -4,16 +4,15 @@ solution: Experience Manager
 title: Configuración y configuración de la representación de imágenes
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 126833bf-16db-40f1-8179-7775e9063081
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
 
-
-# Configuración y configuración de Image Rendering{#setup-and-configure-image-rendering}
+# Configuración y configuración de la representación de imágenes{#setup-and-configure-image-rendering}
 
 El procesamiento de imágenes se configura con fileinstall_folder/conf/ImageRendering.conf.
 
