@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Funciones del usuario
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f94443ba-7715-4790-bd2a-120e0cb8848e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 13%
+source-wordcount: '41'
+ht-degree: 14%
 
 ---
-
 
 # Funciones del usuario{#user-roles}
 
@@ -39,4 +38,3 @@ Sintaxis
 * [!DNL `ImagePortalUser`]
 * [!DNL `ImagePortalContrib`]
 * [!DNL `ImagePortalContribUser`]
-
