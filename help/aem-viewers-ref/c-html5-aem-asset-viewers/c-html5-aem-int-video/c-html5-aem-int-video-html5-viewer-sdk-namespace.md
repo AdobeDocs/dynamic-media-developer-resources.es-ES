@@ -2,13 +2,12 @@
 description: Espacio de nombres del SDK del visor
 solution: Experience Manager
 title: Espacio de nombres del SDK del visor
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
 role: Developer,Business Practitioner
 exl-id: 4a4d821e-9351-4efa-8849-968e746911f3
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
