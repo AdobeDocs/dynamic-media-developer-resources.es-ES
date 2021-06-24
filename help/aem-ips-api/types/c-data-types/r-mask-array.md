@@ -4,14 +4,13 @@ solution: Experience Manager
 title: MaskArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: a0539a30-051c-4442-abae-99588bdfff10
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '26'
-ht-degree: 23%
+source-wordcount: '24'
+ht-degree: 25%
 
 ---
-
 
 # MaskArray{#maskarray}
 
@@ -24,4 +23,3 @@ Sintaxis
 | Nombre | Tipo | Descripción |
 |---|---|---|
 | `*`elementos`*` | `types:Mask` | Matriz de máscaras. |
-
