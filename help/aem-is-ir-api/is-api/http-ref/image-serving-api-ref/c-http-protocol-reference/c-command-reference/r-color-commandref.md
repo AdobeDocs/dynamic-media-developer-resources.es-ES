@@ -4,14 +4,13 @@ solution: Experience Manager
 title: color
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b937e699-8e1e-4211-86a6-fdc155a0e3ed
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 3%
+source-wordcount: '197'
+ht-degree: 4%
 
 ---
-
 
 # color{#color}
 
