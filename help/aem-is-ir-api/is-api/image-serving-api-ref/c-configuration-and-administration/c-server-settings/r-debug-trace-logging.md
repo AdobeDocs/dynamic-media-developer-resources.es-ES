@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Registro de Debug_trace
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: fe1fc984-3c6b-4bd1-b5ba-630860ac7319
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
-
 
 # Registro de Debug_trace{#debug-trace-logging}
 
@@ -41,7 +40,7 @@ Carpeta y nombre de archivo base para los archivos de registro de seguimiento de
 >
 >La nueva carpeta debe crearse antes de cambiar esta configuración. Asegúrese de que los permisos de acceso estén establecidos para que Image Serving tenga los privilegios de creación, lectura y escritura necesarios.
 
-## IS:TraceClient - Nivel de registro de depuración del servidor de imágenes {#section-3851f1f68e404430985c629ac80534db}
+## IS:TraceClient: nivel de registro de depuración del servidor de imágenes {#section-3851f1f68e404430985c629ac80534db}
 
 El nivel de registro puede ser 1, 2, 3 o 4 (el valor predeterminado es 2)
 
