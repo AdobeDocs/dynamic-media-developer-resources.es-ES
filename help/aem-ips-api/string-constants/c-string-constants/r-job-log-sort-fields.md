@@ -4,16 +4,15 @@ solution: Experience Manager
 title: Campos de orden de registro de trabajo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: a84452b5-c464-4df6-b34b-1f912f89c7c7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '25'
+source-wordcount: '23'
 ht-degree: 8%
 
 ---
 
-
-# Campos de clasificación de registro de trabajo{#job-log-sort-fields}
+# Campos de orden de registro de trabajo{#job-log-sort-fields}
 
 Utilizado por getJobLogsParam/sortBy
 
@@ -30,4 +29,3 @@ Sintaxis
 * [!DNL `FileErrorCount`]
 * [!DNL `FileWarningCount`]
 * [!DNL `FileSuccessCount`]
-
