@@ -4,14 +4,13 @@ solution: Experience Manager
 title: req
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 1b4a78a1-4f03-47ce-b523-10975e83f0ea
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '961'
 ht-degree: 4%
 
 ---
-
 
 # req{#req}
 
