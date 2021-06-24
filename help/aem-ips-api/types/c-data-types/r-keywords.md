@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Palabras clave
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 5eb9ca70-5971-412d-92d1-4e9898d556fd
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 31%
+source-wordcount: '46'
+ht-degree: 32%
 
 ---
-
 
 # Palabras clave{#keywords}
 
@@ -27,4 +26,3 @@ Sintaxis
 | `*`y`*` | `xsd:int` | Posición de la palabra clave en el eje y (en píxeles). |
 | `*`width`*` | `xsd:int` | Anchura de la palabra clave en píxeles. |
 | `*`height`*` | `xsd:int` | Altura de la palabra clave en píxeles. |
-
