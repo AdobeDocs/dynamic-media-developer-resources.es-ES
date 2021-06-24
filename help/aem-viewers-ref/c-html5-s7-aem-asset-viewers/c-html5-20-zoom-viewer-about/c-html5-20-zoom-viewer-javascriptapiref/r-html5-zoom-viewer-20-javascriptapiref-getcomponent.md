@@ -2,16 +2,15 @@
 description: Referencia de la API de JavaScript para el visualizador de vídeo
 solution: Experience Manager
 title: getComponent
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: efdd5b9f-64bb-4fe4-bdf9-0f5e98e4f5fe
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '200'
 ht-degree: 1%
 
 ---
-
 
 # getComponent{#getcomponent}
 
@@ -97,4 +96,3 @@ Consulte la documentación de la API del SDK de visor para obtener más informac
 } 
 })
 ```
-
