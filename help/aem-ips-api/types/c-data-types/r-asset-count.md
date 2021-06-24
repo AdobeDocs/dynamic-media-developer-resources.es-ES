@@ -2,16 +2,15 @@
 description: Tipos de recursos y recuento para una empresa.
 solution: Experience Manager
 title: AssetCount
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,Administración de activos
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: a5d750a3-1b76-4e91-9a2b-c91b41d0de7e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '45'
 ht-degree: 8%
 
 ---
-
 
 # AssetCount{#assetcount}
 
@@ -23,4 +22,3 @@ Los tipos de recursos incluyen [!DNL ViewerSWf], [!DNL PDF], [!DNL Cabinet] y ot
 |---|---|---|
 | `*`assetType`*` | `xsd:string` | Tipo de recurso asociado al recuento. |
 | `*`contar`*` | `xsd:int` | Número de `assetType` activos en la empresa. |
-
