@@ -4,14 +4,13 @@ solution: Experience Manager
 title: deleteProject
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: b42be3ef-c935-4548-8f92-4fc33af321b5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 8%
+source-wordcount: '133'
+ht-degree: 9%
 
 ---
-
 
 # deleteProject{#deleteproject}
 
