@@ -2,13 +2,12 @@
 description: El visor HTML5 Video360 es compatible con el seguimiento de Adobe Analytics listo para usar.
 solution: Experience Manager
 title: Compatibilidad con el seguimiento de Adobe Analytics
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
 role: Developer,Business Practitioner,Data Engineer,Data Architect
 exl-id: 74a69d01-fa58-4d36-8598-992baf6ae11d
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '160'
 ht-degree: 4%
 
 ---
