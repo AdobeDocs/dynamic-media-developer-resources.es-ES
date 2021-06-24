@@ -4,14 +4,13 @@ solution: Experience Manager
 title: setImageServingPublishSettings
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 75ba94b3-41d2-4c09-b444-42b3e83614b4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 14%
+source-wordcount: '59'
+ht-degree: 15%
 
 ---
-
 
 # setImageServingPublishSettings{#setimageservingpublishsettings}
 
@@ -28,4 +27,3 @@ Sintaxis
 | `*`CompanyHandle`*` | `xsd:string` | Sí | Identificador de la empresa. |
 | `*`publishSettingsArray`*` | `types:ConfigSettingArray` | Sí | Solo para desarrolladores de Scene7. |
 | `*`contextHandle`*` | `xsd:string` | No | Gestionar en el contexto de publicación. |
-
