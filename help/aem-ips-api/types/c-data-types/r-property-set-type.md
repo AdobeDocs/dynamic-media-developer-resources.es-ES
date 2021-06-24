@@ -4,14 +4,13 @@ solution: Experience Manager
 title: PropertySetType
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f0c51e67-6927-4b9f-9935-222e6a194c13
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 15%
+source-wordcount: '86'
+ht-degree: 16%
 
 ---
-
 
 # PropertySetType{#propertysettype}
 
@@ -61,4 +60,3 @@ Los valores incluyen:
   </tr> 
  </tbody> 
 </table>
-
