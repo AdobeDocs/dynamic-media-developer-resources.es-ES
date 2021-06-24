@@ -2,13 +2,12 @@
 description: Compatibilidad con puntos interactivos
 solution: Experience Manager
 title: Compatibilidad con puntos interactivos
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Imágenes interactivas
 role: Developer,Business Practitioner
 exl-id: 9b9ccdf4-4639-4ba8-988c-c68d81192619
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -21,7 +20,7 @@ Consulte [Puntos interactivos](../../c-html5-aem-asset-viewers/c-html5-aem-inter
 
 Las zonas interactivas pueden activar una función de vista rápida en la página web de alojamiento activando una llamada de retorno de JavaScript o redireccionando a un usuario a una página web externa.
 
-## Puntos interactivos de vista rápida {#section-cda48fc9730142d0bb3326bac7df3271}
+## Puntos interactivos de la vista rápida {#section-cda48fc9730142d0bb3326bac7df3271}
 
 Estos tipos de puntos interactivos deben crearse utilizando el tipo de acción &quot;Vista rápida&quot; en Dynamic Media, de AEM Assets, bajo demanda. Cuando un usuario activa una zona interactiva de este tipo, el visor ejecuta la llamada de retorno de JavaScript `quickViewActivate` y le pasa los datos de la zona interactiva. Se espera que la página web de incrustación escuche esta llamada de retorno. Cuando déclencheur la página, abre su propia implementación de vista rápida.
 
