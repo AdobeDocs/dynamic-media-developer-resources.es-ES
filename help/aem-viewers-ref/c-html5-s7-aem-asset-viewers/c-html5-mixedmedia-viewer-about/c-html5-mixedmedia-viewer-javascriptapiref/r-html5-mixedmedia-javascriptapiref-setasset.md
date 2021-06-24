@@ -2,16 +2,15 @@
 description: Referencia de la API de JavaScript para el visualizador de medios mixtos.
 solution: Experience Manager
 title: setAsset
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3ad78de9-17a6-40c9-b389-a1f7eed11635
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '226'
 ht-degree: 1%
 
 ---
-
 
 # setAsset{#setasset}
 
@@ -75,4 +74,3 @@ Modificador de enfoque añadido a todas las imágenes del conjunto:
 ```
 <instance>.setAsset("Scene7SharedAssets/Mixed_Media_Set_Sample?op_sharpen=1")
 ```
-
