@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Sintaxis básica del protocolo HTTP de servicio de imágenes
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: ac75d6d0-a71e-45a0-89ee-b952a0202793
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '275'
 ht-degree: 1%
 
 ---
-
 
 # Sintaxis básica del protocolo HTTP de servicio de imágenes{#image-serving-http-protocol-basic-syntax}
 
