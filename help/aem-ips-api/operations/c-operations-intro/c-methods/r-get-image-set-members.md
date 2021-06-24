@@ -2,16 +2,15 @@
 description: Obtiene una matriz de miembros que se encuentran en un conjunto de imágenes.
 solution: Experience Manager
 title: getImageSetMembers
-feature: Dynamic Media Classic,SDK/API,Image Sets
+feature: Dynamic Media Classic,SDK/API,Conjuntos de imágenes
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 29ceef8b-127f-4460-8623-c3e26c959327
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 15%
 
 ---
-
 
 # getImageSetMembers{#getimagesetmembers}
 
@@ -69,4 +68,3 @@ Este ejemplo de código devuelve miembros específicos del conjunto de imágenes
    <memberArray></memberArray>
 </getImageSetMembersReturn>
 ```
-
