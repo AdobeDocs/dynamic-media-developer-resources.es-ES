@@ -4,14 +4,13 @@ solution: Experience Manager
 title: ScheduledJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: c0084d10-ce38-4a01-9246-aaec44abc8eb
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '261'
 ht-degree: 4%
 
 ---
-
 
 # ScheduledJob{#scheduledjob}
 
@@ -56,4 +55,3 @@ Cuando especifica un valor de tipo de trabajo en `submitJob`, el sistema devuelv
 * `serverDirectoryPublishJob`
 * `uploadDirectorhJob`
 * `uploadUrlsJob`
-
