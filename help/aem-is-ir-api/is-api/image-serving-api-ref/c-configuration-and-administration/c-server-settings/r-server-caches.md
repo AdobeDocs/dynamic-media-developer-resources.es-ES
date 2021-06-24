@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Cachés de servidor
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 6a8d44d3-ecac-4fe0-9f81-28b1cd55e7e1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
-
 
 # Cachés de servidor{#server-caches}
 
@@ -48,4 +47,3 @@ Ocasionalmente, el Supervisor del Servidor necesita guardar los datos intermedio
 >[!NOTE]
 >
 >La nueva carpeta debe crearse antes de cambiar esta configuración. Asegúrese de que los permisos de acceso estén establecidos para que el Supervisor del servidor tenga control total de la carpeta.
-
