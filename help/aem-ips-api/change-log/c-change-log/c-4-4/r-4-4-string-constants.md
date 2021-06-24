@@ -5,10 +5,9 @@ title: Constantes de cadena nuevas y modificadas
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
 exl-id: c675db4c-0027-4ecc-851d-91fb2a896aed
-translation-type: tm+mt
 source-git-commit: e7c747c44d27ed1769ab872d962a814d80c0b345
 workflow-type: tm+mt
-source-wordcount: '42'
+source-wordcount: '40'
 ht-degree: 2%
 
 ---
