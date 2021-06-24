@@ -2,16 +2,15 @@
 description: El visualizador de medios mixtos es compatible con el seguimiento de Adobe Analytics de serie.
 solution: Experience Manager
 title: Compatibilidad con el seguimiento de Adobe Analytics
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
 role: Developer,Business Practitioner,Data Engineer,Data Architect
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3b28c853-3747-4805-a141-3cce1398d783
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '191'
 ht-degree: 5%
 
 ---
-
 
 # Compatibilidad con el seguimiento de Adobe Analytics{#support-for-adobe-analytics-tracking}
 
@@ -102,4 +101,3 @@ El visor realiza el seguimiento de los siguientes eventos de usuario de SDK:
   </tr> 
  </tbody> 
 </table>
-
