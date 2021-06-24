@@ -4,14 +4,13 @@ solution: Experience Manager
 title: getZipEntries
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: eb052685-b750-4a12-b00e-28e676340e98
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 20%
+source-wordcount: '75'
+ht-degree: 21%
 
 ---
-
 
 # getZipEntries{#getzipentries}
 
@@ -75,4 +74,3 @@ Este ejemplo de código devuelve información del archivo zip, incluido el tama�
    </zipArray>
 </getZipEntriesReturn>
 ```
-
