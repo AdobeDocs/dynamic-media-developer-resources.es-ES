@@ -4,14 +4,13 @@ solution: Experience Manager
 title: ColorManagementOptions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 55535bb0-544d-4a93-9ff4-235f22b8d45a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 9%
+source-wordcount: '49'
+ht-degree: 10%
 
 ---
-
 
 # ColorManagementOptions{#colormanagementoptions}
 
@@ -26,4 +25,3 @@ Sintaxis
 | `*`colorManagement`*` | `xsd:string` | Opción del modo de gestión del color. |
 | `*`sourceProfileHandle`*` | `xsd:string` | Identificador de perfil de origen. |
 | `*`outputProfileHandle`*` | `xsd:string` | Identificador de perfil de salida. |
-
