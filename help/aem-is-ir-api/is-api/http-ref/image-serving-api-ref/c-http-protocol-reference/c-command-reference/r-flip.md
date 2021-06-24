@@ -4,16 +4,15 @@ solution: Experience Manager
 title: voltear
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 451d8b4d-0f22-41f3-ac86-435797c23ea3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '159'
 ht-degree: 3%
 
 ---
 
-
-# flip{#flip}
+# voltear{#flip}
 
 Voltear capa. Gira la capa horizontalmente, verticalmente o ambas, después de aplicar recorte= y antes de rotar= y ampliar=.
 
