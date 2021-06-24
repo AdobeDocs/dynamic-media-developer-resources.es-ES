@@ -3,13 +3,12 @@ title: Requisitos del sistema para los visores HTML5 de Dynamic Media
 description: Requisitos del sistema para los visores HTML5 de Dynamic Media.
 solution: Experience Manager
 contentOwner: Rick Brough
-feature: Dynamic Media Classic,Viewers,SDK/API
+feature: Dynamic Media Classic,Visualizadores,SDK/API
 role: Developer,Business Practitioner
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
-translation-type: tm+mt
 source-git-commit: dc1bbbcd109ecbeae1f3a04e7ca5371581f0f743
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '311'
 ht-degree: 1%
 
 ---
@@ -20,7 +19,7 @@ Requisitos del sistema para los visores HTML5 de Dynamic Media.
 
 <!-- Updated April 06, 2021 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
-## Hardware y software de servidor {#section-05099146f1f0418988c196635110bee6}
+## Hardware y software del servidor {#section-05099146f1f0418988c196635110bee6}
 
 * Dynamic Media Classic Image Serving 6.7.1 o posterior.
 * Los visores HTML5 requieren bibliotecas de SDK JavaScript™ del lado del servidor 3.11.1 o posterior.
