@@ -4,14 +4,13 @@ solution: Experience Manager
 title: ImageServing
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 252e12d9-703e-4fbb-a156-8dcdc3bc4f2e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '156'
 ht-degree: 2%
 
 ---
-
 
 # ImageServing{#imageserving}
 
@@ -53,4 +52,3 @@ Secuencia de comandos de control de servicio de imágenes. Esta secuencia de com
   </tr> 
  </tbody> 
 </table>
-
