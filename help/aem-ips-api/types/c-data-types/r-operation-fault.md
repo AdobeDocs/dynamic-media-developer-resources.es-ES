@@ -4,14 +4,13 @@ solution: Experience Manager
 title: OperationFault
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: e1fa7f66-f9d9-45cd-a9b3-d0ff344b137d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 10%
+source-wordcount: '54'
+ht-degree: 11%
 
 ---
-
 
 # OperationFault{#operationfault}
 
@@ -27,4 +26,3 @@ Mensaje detallado que responde a una de las URL proporcionadas en la solicitud d
 |---|---|---|
 | `*`código`*` | `xsd:int` | Código de error proporcionado desde la CDN |
 | `*`razón`*` | `xsd:string` | Mensaje de error proporcionado desde la CDN |
-
