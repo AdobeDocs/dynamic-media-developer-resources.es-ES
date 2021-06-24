@@ -4,14 +4,13 @@ solution: Experience Manager
 title: getPropertySetType
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: ff9c3d24-577c-4a9c-8820-60c2a33773bc
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '158'
 ht-degree: 11%
 
 ---
-
 
 # getPropertySetType{#getpropertysettype}
 
@@ -90,4 +89,3 @@ Este ejemplo de código devuelve un tipo de conjunto de propiedades por nombre.
       <allowMultiple>false</allowMultiple></type>
 </getPropertySetTypeReturn>
 ```
-
