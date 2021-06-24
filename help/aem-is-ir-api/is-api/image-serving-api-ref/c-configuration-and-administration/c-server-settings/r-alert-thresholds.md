@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Umbrales de alerta
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 1ae76692-2688-4902-82a0-d0751408eee7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
-
 
 # Umbrales de alerta{#alert-thresholds}
 
@@ -31,15 +30,15 @@ Se genera una alerta de error cuando la proporción de respuestas de error HTTP 
 
 Valor real entre 0,0 y 1,0. Normalmente se establece entre 0,005 y 0,1. Se establece en 1 para deshabilitar las alertas de error.
 
-## AS::monitorAlertGenerator.minRequestRate - Umbral de tráfico bajo {#section-8dfb89ed138640fd86f5ce1dae2a533e}
+## AS::monitorAlertGenerator.minRequestRate - Umbral de poco tráfico {#section-8dfb89ed138640fd86f5ce1dae2a533e}
 
 Se envía una alerta de tráfico mínima cuando el número promedio de solicitudes por segundo recibidas durante el intervalo de muestreo actual se encuentra por debajo de este umbral. Deshabilite la alerta estableciendo este valor en 0. Se expresa en solicitudes por segundo. Valor real 0 o mayor.
 
-## AS::monitorAlertGenerator.minFreeHeapSpace -Umbral de espacio libre en pilas {#section-ce6705045f6842769030ccb1894594cc}
+## AS::monitorAlertGenerator.minFreeHeapSpace - Umbral de espacio libre en pilas {#section-ce6705045f6842769030ccb1894594cc}
 
 Especifica el espacio mínimo libre en la pila de Java. Se envía una alerta de prioridad inmediatamente después de un ciclo de recopilación de residuos de Java cuando el espacio libre en pilas está por debajo de este umbral. Se recomiendan 50 MB para el funcionamiento seguro de Platform Server. Mantener el espacio libre en montículos por encima de este valor reduce la frecuencia de los ciclos de recolección de residuos, lo que puede mejorar el rendimiento general del servidor. Valor entero en bytes, 0 o más.
 
-## AS::monitorAlertGenerator.maxOverap: Número máximo de solicitudes concurrentes {#section-ddc6925bff944758ab19bcc9cf3f2589}
+## AS::monitorAlertGenerator.maxOverap: Número máximo de solicitudes simultáneos {#section-ddc6925bff944758ab19bcc9cf3f2589}
 
 Se activa una alerta de superposición cuando el número promedio de solicitudes procesadas simultáneamente durante el intervalo de promedio supera este umbral. Una superposición alta puede indicar una posible condición de sobrecarga del servidor.
 
