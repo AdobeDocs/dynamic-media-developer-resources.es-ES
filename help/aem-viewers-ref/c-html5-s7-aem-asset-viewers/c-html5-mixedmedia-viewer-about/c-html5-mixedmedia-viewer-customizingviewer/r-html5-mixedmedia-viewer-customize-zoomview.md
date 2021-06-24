@@ -2,16 +2,15 @@
 description: En el modo de zoom continuo, la vista principal consiste en la imagen ampliable cuando el recurso actual es una sola imagen.
 solution: Experience Manager
 title: Vista de zoom
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 0252436b-ba96-4273-b796-d1772fc093b0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
-
 
 # Vista de zoom{#zoom-view}
 
@@ -75,4 +74,3 @@ En los sistemas de escritorio, el componente admite el selector de atributos `cu
 * `slide`
 
    Se muestra cuando el usuario realiza el intercambio de imágenes realizando un barrido horizontal o un gesto de gafa.
-
