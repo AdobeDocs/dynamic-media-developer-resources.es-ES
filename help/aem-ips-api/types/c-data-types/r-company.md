@@ -4,16 +4,15 @@ solution: Experience Manager
 title: Empresa
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: e831a081-145a-4fb4-a617-7eecea8d40ed
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 28%
+source-wordcount: '37'
+ht-degree: 29%
 
 ---
 
-
-# Compañía{#company}
+# Empresa{#company}
 
 Representa una empresa.
 
@@ -27,4 +26,3 @@ Sintaxis
 | `*`name`*` | `xsd:string` | Nombre de empresa. |
 | `*`rootPath`*` | `xsd:string` | Ruta raíz de la empresa. |
 | `*`expires`*` | `xsd:dateTime` | Fecha y hora en que caduca la empresa. |
-
