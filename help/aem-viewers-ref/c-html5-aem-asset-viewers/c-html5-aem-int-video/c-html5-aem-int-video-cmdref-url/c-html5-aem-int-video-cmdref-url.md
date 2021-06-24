@@ -2,13 +2,12 @@
 description: Documentación de referencia de comandos para el visualizador de vídeo interactivo.
 solution: Experience Manager
 title: 'Referencia de comandos: URL'
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
 role: Developer,Business Practitioner
 exl-id: e0a9e269-4826-4518-9222-6a833d11746b
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
