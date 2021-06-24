@@ -2,18 +2,17 @@
 description: Según el valor del parámetro mode , el visor muestra los iconos de mapa de imagen sobre la vista principal en lugares donde los mapas se crean originalmente en Dynamic Media Classic o procesa regiones exactas que coinciden con la forma de los mapas de imagen originales.
 solution: Experience Manager
 title: Efecto Mapa de imágenes
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 3816118f-4eb7-4436-9f54-155dde077734
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '321'
 ht-degree: 1%
 
 ---
 
-
-# Efecto de mapa de imagen{#image-map-effect}
+# Efecto Mapa de imágenes{#image-map-effect}
 
 Según el valor del parámetro mode , el visor muestra los iconos de mapa de imagen sobre la vista principal en lugares donde los mapas se crean originalmente en Dynamic Media Classic o procesa regiones exactas que coinciden con la forma de los mapas de imagen originales.
 
@@ -117,4 +116,3 @@ Ejemplo: configuración de una región de mapa de imagen transparente con `1` bo
  background: RGBA(0,0,0,0);  
 }
 ```
-
