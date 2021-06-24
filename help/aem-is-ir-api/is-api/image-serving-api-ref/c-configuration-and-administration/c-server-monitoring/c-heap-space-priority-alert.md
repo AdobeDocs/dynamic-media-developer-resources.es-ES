@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Alerta de prioridad del espacio de montículos
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 32951003-386f-4ea2-a5a0-f4d2e6d95ba5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
-
 
 # Alerta de prioridad del espacio de montículos{#heap-space-priority-alert}
 
