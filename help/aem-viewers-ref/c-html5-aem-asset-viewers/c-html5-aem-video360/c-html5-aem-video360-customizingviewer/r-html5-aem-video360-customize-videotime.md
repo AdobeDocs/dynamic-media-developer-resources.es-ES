@@ -2,13 +2,12 @@
 description: La hora del vídeo es la visualización numérica que muestra la hora y la duración actuales del vídeo que se está reproduciendo.
 solution: Experience Manager
 title: Tiempo de vídeo
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
 role: Developer,Business Practitioner
 exl-id: 78657fd2-e805-4047-be0a-592143025986
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '203'
 ht-degree: 1%
 
 ---
@@ -27,7 +26,7 @@ El aspecto del tiempo de vídeo se controla con el siguiente selector de clase C
 .s7video360viewer .s7videotime
 ```
 
-## Propiedades CSS de tiempo de vídeo {#css-properties-of-video-time}
+## Propiedades CSS de la hora del vídeo {#css-properties-of-video-time}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
