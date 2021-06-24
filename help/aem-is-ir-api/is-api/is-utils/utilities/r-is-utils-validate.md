@@ -4,14 +4,13 @@ solution: Experience Manager
 title: validar
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 78d50fe9-95c6-4335-98d8-3322839ee02d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '285'
 ht-degree: 1%
 
 ---
-
 
 # validar{#validate}
 
@@ -78,4 +77,3 @@ Todos los archivos de imagen que no sean PTIFF deben pasar validate antes de que
   <td class="stentry"> <p>Devuelve la información de versión de esta utilidad. Especifique sin otras opciones. </p> </td> 
  </tr> 
 </table>
-
