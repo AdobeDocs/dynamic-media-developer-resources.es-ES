@@ -4,14 +4,13 @@ solution: Experience Manager
 title: PhotoshopLayerOptions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: fae60e86-6ec5-4f19-a76f-7d179dfb5dba
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 9%
+source-wordcount: '60'
+ht-degree: 10%
 
 ---
-
 
 # PhotoshopLayerOptions{#photoshoplayeroptions}
 
@@ -28,4 +27,3 @@ Sintaxis
 | `*`createTemplate`*` | `xsd:boolean` | Si se crea una plantilla a partir de capas de Photoshop. |
 | `*`extractText`*` | `xsd:boolean` | Indica si se extrae texto como capas de texto. |
 | `*`extensionLayers`*` | `xsd:boolean` | Ampliación de las capas a todo el tamaño del fondo. |
-
