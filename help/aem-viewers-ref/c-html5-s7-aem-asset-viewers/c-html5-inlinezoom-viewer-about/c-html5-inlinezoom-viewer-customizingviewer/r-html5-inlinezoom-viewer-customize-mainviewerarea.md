@@ -2,16 +2,15 @@
 description: La zona de vista principal es la zona ocupada por las vistas flotantes y las muestras.
 solution: Experience Manager
 title: Área del visor principal
-feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom en línea
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: ab1653a3-38e6-49bb-97b7-005304349ec9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 2%
+source-wordcount: '100'
+ht-degree: 3%
 
 ---
-
 
 # Área del visor principal{#main-viewer-area}
 
@@ -59,4 +58,3 @@ Ejemplo: para configurar un visor flotante con fondo blanco ( `#FFFFFF`) y logra
  height: 500px;  
 }
 ```
-
