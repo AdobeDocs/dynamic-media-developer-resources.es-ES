@@ -2,16 +2,15 @@
 description: Reemplaza los datos de imagen de un recurso de imagen.
 solution: Experience Manager
 title: replaceImage
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,Administración de activos
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: bf8c1f5c-7829-4750-b5b7-b8b20d115d17
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '110'
 ht-degree: 15%
 
 ---
-
 
 # replaceImage{#replaceimage}
 
@@ -65,4 +64,3 @@ Este ejemplo de código reemplaza una imagen y aplica un `urlModifier` con un co
    <assetHandle>a|140626|1|102524</assetHandle>
 </replaceImageReturn>
 ```
-
