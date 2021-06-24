@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Nombre
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 054dbbff-0989-4fa2-8a44-e6d3ee9e5ec9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 12%
+source-wordcount: '44'
+ht-degree: 13%
 
 ---
-
 
 # Nombre{#name}
 
