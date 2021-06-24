@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Tipos de datos nuevos y modificados
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: d3bcd718-cf27-4d31-850f-a3205564be60
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 3%
+source-wordcount: '74'
+ht-degree: 4%
 
 ---
-
 
 # Tipos de datos: Nuevo y modificado{#data-types-new-and-modified}
 
@@ -72,4 +71,3 @@ Sintaxis
 * En `Folder`, cambió `permissions` a `permissionsSetHandle`.
 
 * En `AssetSummary`, `type` y `name` ahora son opcionales.
-
