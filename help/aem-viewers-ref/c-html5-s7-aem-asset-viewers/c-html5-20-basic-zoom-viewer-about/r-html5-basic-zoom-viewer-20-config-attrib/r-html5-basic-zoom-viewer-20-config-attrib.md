@@ -2,16 +2,15 @@
 description: Documentación de atributos de configuración para el visor de zoom básico.
 solution: Experience Manager
 title: 'Referencia de comandos: Atributos de configuración'
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: fa38a9bf-37fc-479a-9fbc-c91076b15f91
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '42'
+source-wordcount: '39'
 ht-degree: 0%
 
 ---
-
 
 # Referencia de comandos: Atributos de configuración{#command-reference-configuration-attributes}
 
