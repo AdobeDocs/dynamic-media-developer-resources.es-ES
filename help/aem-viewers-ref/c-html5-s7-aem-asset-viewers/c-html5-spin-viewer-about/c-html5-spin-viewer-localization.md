@@ -2,16 +2,15 @@
 description: El contenido que muestra el visor de giros está sujeto a localización, incluidos los botones de zoom y el botón de pantalla completa.
 solution: Experience Manager
 title: Localización de los elementos de la interfaz de usuario
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de giros
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: f4c0f16b-dbb9-4505-a3f2-d504ae21c3f0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
-
 
 # Localización de los elementos de la interfaz de usuario{#localization-of-user-interface-elements}
 
@@ -99,4 +98,3 @@ Se admiten los siguientes SÍMBOLOS:
   </tr> 
  </tbody> 
 </table>
-
