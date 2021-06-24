@@ -2,16 +2,15 @@
 description: Atributo de configuración para el visualizador de vídeo.
 solution: Experience Manager
 title: VideoPlayer.progressivebitrate
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 7f9f1bfe-c68f-4ad4-a4a3-e0a8952e07af
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 5%
+source-wordcount: '99'
+ht-degree: 6%
 
 ---
-
 
 # VideoPlayer.progressivebitrate{#videoplayer-progressivebitrate}
 
@@ -41,4 +40,3 @@ Opcional.
 ```
 progressivebitrate=600
 ```
-
