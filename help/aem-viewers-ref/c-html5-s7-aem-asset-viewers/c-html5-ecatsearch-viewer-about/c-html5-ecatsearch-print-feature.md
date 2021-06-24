@@ -2,16 +2,15 @@
 description: El visor permite generar el contenido del catálogo en una impresora.
 solution: Experience Manager
 title: Función de impresión
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: eadcc105-4a86-40f7-867a-3b09a5599a41
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
-
 
 # Función de impresión{#print-feature}
 
@@ -24,4 +23,3 @@ La calidad de la impresión se puede ajustar utilizando el parámetro de configu
 >[!NOTE]
 >
 >La función Imprimir solo está disponible en sistemas de escritorio, excepto Internet Explorer 9.
-
