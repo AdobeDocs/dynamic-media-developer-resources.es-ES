@@ -2,16 +2,15 @@
 description: Elimina los valores de metadatos de un recurso. Funciona con una matriz de eliminación de metadatos para establecer valores en un lote.
 solution: Experience Manager
 title: deleteAssetMetadata
-feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
+feature: Dynamic Media Classic,SDK/API,Metadatos,Administración de activos
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: ce9b8dff-efc0-4427-9f50-10269647187f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '134'
 ht-degree: 12%
 
 ---
-
 
 # deleteAssetMetadata{#deleteassetmetadata}
 
@@ -104,4 +103,3 @@ Llamada de ejemplo
  </deleteAssetMetadataParam>
 </ac:Request>
 ```
-
