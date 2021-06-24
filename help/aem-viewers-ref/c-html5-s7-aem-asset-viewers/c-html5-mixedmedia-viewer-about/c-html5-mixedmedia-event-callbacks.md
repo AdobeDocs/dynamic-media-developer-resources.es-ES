@@ -2,16 +2,15 @@
 description: Llamadas de retorno de eventos
 solution: Experience Manager
 title: Llamadas de retorno de eventos
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 1a7b51c1-baa7-4ae3-b6b7-17478055a605
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
-
 
 # Llamadas de retorno de eventos{#event-callbacks}
 
