@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Operaciones nuevas y modificadas
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: fc7af77e-17fc-453a-8949-78c9c5c33b34
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '86'
 ht-degree: 5%
 
 ---
-
 
 # Operaciones: Nuevo y modificado{#operations-new-and-modified}
 
@@ -88,4 +87,3 @@ Sintaxis
 
 * Eliminado `getXMPPanelViewDefinition`.
 * Se han eliminado `searchAssetsByFulltext` y `searchAssetsBySimilarity`.
-
