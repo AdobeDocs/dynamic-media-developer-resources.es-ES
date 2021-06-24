@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Restricciones y problemas conocidos
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: fd32456b-9d99-4e82-a61c-2fc4d7030630
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '1235'
 ht-degree: 0%
 
 ---
-
 
 # Restricciones y problemas conocidos{#restrictions-and-known-issues}
 
@@ -109,7 +108,7 @@ La biblioteca Digimarc se niega a aplicar una marca de agua Digimarc a una image
 * &quot;..&quot; no está permitido en ningún elemento de ruta en solicitudes HTTP.
 * La desinstalación puede eliminar el archivo creado o modificado por el usuario de *[!DNL install_root]* o de cualquier subcarpeta. Copie estos archivos en una ubicación diferente antes de desinstalarlos.
 
-## Restricciones aplicables únicamente a Image Serving {#section-b08ad535e4454265b8157dec244c4faf}
+## Restricciones aplicables únicamente al servicio de imágenes {#section-b08ad535e4454265b8157dec244c4faf}
 
 * Los colores de primer plano del comando RTF ( `\cf`) no son compatibles con el texto de PhotoFont.
 * La sintetización de negrita, cursiva y negrita/cursiva se rechazará como error para el texto de PhotoFont.
@@ -140,7 +139,7 @@ La biblioteca Digimarc se niega a aplicar una marca de agua Digimarc a una image
 * Puede que la conversión de color no sea correcta cuando `bgColor=` no coincide con el espacio de color base que incluye perfiles de color.
 * Los efectos de capa exterior no se representan si la capa no tiene una máscara o datos alfa.
 
-## Restricciones aplicables únicamente a Image Rendering {#section-4c6949e797174607a3d1ab4d3d4a725a}
+## Restricciones aplicables únicamente a la representación de imágenes {#section-4c6949e797174607a3d1ab4d3d4a725a}
 
 * Las cubiertas y los materiales murales no son extraíbles.
 * El tamaño de las texturas está limitado en relación con el tamaño de la vista de viñeta. En raras ocasiones, el límite predeterminado del 425% del tamaño de la vista puede interferir con una aplicación que utiliza texturas no repetibles muy grandes. Si no es posible cambiar la aplicación o el contenido para que funcionen dentro de las limitaciones predefinidas, el porcentaje se puede aumentar de la siguiente manera. Con un editor de texto, abra [!DNL install_root/ImageServing/conf/ImageServerRegistry.xml], busque `IrMaxTextureSizeFactor` e introduzca un nuevo valor de porcentaje. El cambio entra en vigor inmediatamente sin reiniciar el servidor de imágenes.
