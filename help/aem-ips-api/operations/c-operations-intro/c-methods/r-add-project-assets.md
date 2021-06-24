@@ -2,16 +2,15 @@
 description: Agrega uno o más recursos a un proyecto.
 solution: Experience Manager
 title: addProjectAssets
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,Administración de activos
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 60aa2846-b41e-4131-b465-82aa832434f7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '185'
 ht-degree: 11%
 
 ---
-
 
 # addProjectAssets{#addprojectassets}
 
@@ -73,4 +72,3 @@ En este ejemplo se agrega un solo recurso (al que hace referencia su identificad
    <errorCount>0</errorCount>
 </addProjectAssetsReturn>
 ```
-
