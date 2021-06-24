@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Traducción de ID de objeto
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 7a3bd6a1-2ad4-4da2-944c-489b7d18fdc1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '703'
 ht-degree: 9%
 
 ---
-
 
 # Traducción de ID de objeto{#object-id-translation}
 
