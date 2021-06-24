@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Comandos de capa de imagen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 142e3fbb-93d6-4072-8e49-b7a7484106d8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '42'
 ht-degree: 0%
 
 ---
-
 
 # Comandos de capa de imagen{#image-layer-commands}
 
@@ -23,4 +22,3 @@ Estos comandos se aplican a las capas de imagen, además de a los comandos de ca
   <td class="stentry"> <p>Especifica la imagen de origen. </p></td> 
  </tr> 
 </table>
-
