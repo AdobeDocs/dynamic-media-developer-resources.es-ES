@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Compatibilidad con SVG
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 60e40195-710f-4f03-b152-52eaa10c5b21
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
-
 
 # Compatibilidad con SVG{#svg-support}
 
@@ -31,7 +30,7 @@ Las variables importantes de la parte de consulta de las solicitudes incrustadas
 
 Consulte [Variables de sustitución](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-substitution-variables.md#reference-90dc01aba44940e4acdd0c6476e7aa5a) para obtener más información.
 
-## Referencias de imagen {#section-a7680f9e6aca4b1a83560637cc9fac66}
+## Referencias de imágenes {#section-a7680f9e6aca4b1a83560637cc9fac66}
 
 Las imágenes se pueden insertar en SVG utilizando el elemento `<image>` . Las imágenes a las que hace referencia el atributo `xlink::href` del elemento `<image>` deben ser solicitudes de servicio de imágenes válidas. No se permiten direcciones URL externas.
 
@@ -45,7 +44,7 @@ Especifique una solicitud completa de Image Serving, que comience por `http://`,
 >
 >Las imágenes incrustadas en SVG no cambian de tamaño automáticamente en este momento. Asegúrese de que todas las referencias de imagen incluyan los comandos de Image Serving necesarios para establecer el tamaño de imagen deseado (p. ej. `wid=`). Si el tamaño de la imagen no se establece explícitamente, se aplicará `attribute::DefaultPix`.
 
-## Administración de color {#section-ea76e2bc4e1842638aa97a2d470c8a68}
+## Gestión de color {#section-ea76e2bc4e1842638aa97a2d470c8a68}
 
 Se supone que todos los valores de color incrustados en archivos SVG y pasados a plantillas SVG mediante variables de sustitución existen en el espacio de color `sRgb`.
 
