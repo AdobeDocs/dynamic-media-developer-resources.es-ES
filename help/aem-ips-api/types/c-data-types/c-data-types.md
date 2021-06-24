@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Tipos de datos
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: a8bc6fcc-fb94-4bc2-83b7-76788db15f3e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '231'
 ht-degree: 4%
 
 ---
-
 
 # Tipos de datos{#data-types}
 
@@ -47,7 +46,7 @@ ht-degree: 4%
 + [BatchMetadataUpdateArray](r-batch-metadata-update-array.md)
 + [Información del gabinete](r-cabinet-info.md)
 + [ColorManagementOptions](r-color-management-options.md)
-+ [Compañía](r-company.md)
++ [Empresa](r-company.md)
 + [CompanyArray](r-company-array.md)
 + [CompanyMember](r-company-member.md)
 + [CompanyMemberArray](r-company-member-array.md)
@@ -84,7 +83,7 @@ ht-degree: 4%
 + [GenerationAttributeArray](r-generation-attribute-array.md)
 + [GenerationInfo](r-generation-info.md)
 + [GenerationInfoArray](r-generation-info-array.md)
-+ [Group](r-group.md)
++ [Grupo](r-group.md)
 + [GroupArray](r-group-array.md)
 + [HandleArray](r-handle-array.md)
 + [IccProfileFieldUpdate](r-icc-profile-field-update.md)
