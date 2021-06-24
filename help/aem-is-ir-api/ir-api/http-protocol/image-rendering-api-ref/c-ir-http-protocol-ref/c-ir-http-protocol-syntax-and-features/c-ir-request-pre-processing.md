@@ -4,16 +4,15 @@ solution: Experience Manager
 title: Solicitud de preprocesamiento *
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 79a358db-0fd6-4327-a305-b0b38ad62050
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
 
-
-# Solicitar procesamiento previo *{#request-pre-processing}
+# Solicitud de preprocesamiento *{#request-pre-processing}
 
 El procesamiento de imágenes proporciona un preprocesador de solicitud simple basado en reglas de sustitución y coincidencia de expresiones regulares.
 
@@ -25,7 +24,7 @@ Las reglas de preprocesamiento de solicitudes son adecuadas para una variedad de
 
 * Implemente un mecanismo de *rutas virtuales*, que permite reasignar la ruta de solicitud a las rutas de archivo, FTP y HTTP.
 * No permitir el uso de comandos de uso intensivo de CPU para evitar el abuso del servidor.
-* Controle la configuración de calidad de la imagen (como la calidad JPEG o el enfoque) según la ruta de acceso de la solicitud o el nombre de la imagen.
+* Controle la configuración de calidad de la imagen (como la calidad JPEG o el enfoque) en función de la ruta de acceso de la solicitud o el nombre de la imagen.
 
 Encontrará información detallada sobre la creación, el uso y la administración de conjuntos de reglas en la Referencia del conjunto de reglas.
 
