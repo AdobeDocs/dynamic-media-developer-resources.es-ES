@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Referencia de datos de imagen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 91454a49-2bb4-46f7-ace9-8e53fbbb4ea5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 22%
+source-wordcount: '45'
+ht-degree: 24%
 
 ---
-
 
 # Referencia de datos de imagen{#image-data-reference}
 
@@ -20,9 +19,9 @@ En esta sección se describen los atributos de datos de imagen.
 * [Anclaje](r-anchor-cat.md)
 * [AssetType](r-assettype-cat.md)
 * [DigimarcInfo](r-digimarcinfo-cat.md)
-* [Caducidad](r-expiration-cat.md)
+* [Vencimiento](r-expiration-cat.md)
 * [Id](r-id-cat.md)
-* [Conjunto de imágenes](r-imageset-cat.md)
+* [ImageSet](r-imageset-cat.md)
 * [Mapa](r-map-cat.md)
 * [MaskPath](r-maskpath-cat.md)
 * [Modificador](r-modifier-cat.md)
