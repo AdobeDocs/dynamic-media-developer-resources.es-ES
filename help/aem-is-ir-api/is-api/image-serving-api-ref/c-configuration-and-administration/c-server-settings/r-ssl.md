@@ -4,14 +4,13 @@ solution: Experience Manager
 title: SSL
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4a5c52cc-de47-48e0-ac92-6ee66a58a7ea
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '94'
 ht-degree: 6%
 
 ---
-
 
 # SSL{#ssl}
 
@@ -21,7 +20,7 @@ Utilice esta configuración de servidor para SSL.
 
 Especifica el puerto de escucha para Platform Server para conexiones SSL. El valor predeterminado es 8443.
 
-## TC::keystoreFile - Keystore File Path {#section-0cdf9b3cfcf249818b22221d01bafebe}
+## TC::keystoreFile: ruta de archivo del almacén de claves {#section-0cdf9b3cfcf249818b22221d01bafebe}
 
 Especifique la ruta/nombre del archivo del almacén de claves SSL. Puede ser una ruta absoluta o una ruta relativa a [!DNL *[!DNL install_folder]*/conf]. El valor predeterminado es *install_folder*/conf/scene7keystore.
 
