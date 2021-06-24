@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Destino de zoom
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 08125f45-38cb-45bb-bc29-c767f4d0aed9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '81'
 ht-degree: 14%
 
 ---
-
 
 # Destino de zoom{#zoomtarget}
 
@@ -32,4 +31,3 @@ Sintaxis
 | `*`Datos de usuario`*` | `xsd:string` | Datos de usuario asociados al destino Zoom. |
 | `*`position`*` | `xsd:int` | Permite que los destinos de zoom asociados a un recurso se ordenen en función de la posición |
 | `*`lastModified`*` | `xsd:dateTime` | Fecha de la última modificación. |
-
