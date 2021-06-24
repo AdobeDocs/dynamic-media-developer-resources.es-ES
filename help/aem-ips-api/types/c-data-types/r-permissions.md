@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Permiso
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 18e5f8f6-3cbe-4d36-b02a-5a3002e4498c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '59'
 ht-degree: 11%
 
 ---
-
 
 # Permiso{#permission}
 
@@ -28,4 +27,3 @@ Sintaxis
 | `*`permissionType`*` | `xsd:string` | Elección del tipo de permiso. |
 | `*`isAllowed`*` | `xsd:boolean` | Determina si el permiso está permitido. |
 | `*`isOverride`*` | `xsd:boolean` | Determina si el permiso anula a otro. |
-
