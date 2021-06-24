@@ -2,16 +2,15 @@
 description: Cree o edite un campo de metadatos. Omite el controlador de campo opcional para crear un nuevo campo de metadatos.
 solution: Experience Manager
 title: saveMetadataField
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic,SDK/API,Metadatos
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 56a45324-5027-4375-a790-c965f682e4b9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '223'
 ht-degree: 16%
 
 ---
-
 
 # saveMetadataField{#savemetadatafield}
 
@@ -122,4 +121,3 @@ Este ejemplo de código crea un nuevo campo de metadatos limitado por las consta
    <fieldHandle>47|ALL|Resolution</fieldHandle>
 </saveMetadataFieldReturn>
 ```
-
