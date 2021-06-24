@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Introducción
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 1cdb9c45-329d-44df-92c3-8cba5b2b1339
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '333'
 ht-degree: 1%
 
 ---
-
 
 # Introducción{#introduction}
 
@@ -91,4 +90,3 @@ Se da por hecho que el lector está familiarizado con la creación de imágenes 
   <td class="stentry"> <p>No se permiten espacios en blanco (espacios o pestañas) en las solicitudes HTTP. Este documento utiliza ocasionalmente espacios en blanco entre elementos sintácticos solo para mayor claridad. </p> </td> 
  </tr> 
 </table>
-
