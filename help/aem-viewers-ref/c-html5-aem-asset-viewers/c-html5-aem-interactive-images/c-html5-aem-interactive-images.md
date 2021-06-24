@@ -22,7 +22,7 @@ El visualizador de imágenes interactivo es un visualizador que muestra una sola
 
 El tipo de visor es 508.
 
-## Demostración de URL {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
+## Dirección URL de la demostración {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
 
 [https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage.html)
 
