@@ -2,12 +2,11 @@
 cloud: Experience Cloud
 user-guide-title: API del sistema de producción de imágenes de Dynamic Media
 feature-set: Experience Manager Assets
-user-guide-description: La API de servicio web IPS (Image Production System) permite a las aplicaciones externas y a los desarrolladores de terceros acceder mediante programación a los recursos y las funciones IPS.
-translation-type: tm+mt
+user-guide-description: La API del servicio web IPS (Image Production System) permite a las aplicaciones externas y a los desarrolladores terceros acceder mediante programación a los recursos y las funciones de IPS.
 source-git-commit: 04e99bef471c5839ff6d28b1ae42f5ffed73c029
 workflow-type: tm+mt
 source-wordcount: '648'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
@@ -211,7 +210,7 @@ ht-degree: 3%
    + [BatchMetadataUpdateArray](types/c-data-types/r-batch-metadata-update-array.md)
    + [Información del gabinete](types/c-data-types/r-cabinet-info.md)
    + [ColorManagementOptions](types/c-data-types/r-color-management-options.md)
-   + [Compañía](types/c-data-types/r-company.md)
+   + [Empresa](types/c-data-types/r-company.md)
    + [CompanyArray](types/c-data-types/r-company-array.md)
    + [CompanyMember](types/c-data-types/r-company-member.md)
    + [CompanyMemberArray](types/c-data-types/r-company-member-array.md)
@@ -248,7 +247,7 @@ ht-degree: 3%
    + [GenerationAttributeArray](types/c-data-types/r-generation-attribute-array.md)
    + [GenerationInfo](types/c-data-types/r-generation-info.md)
    + [GenerationInfoArray](types/c-data-types/r-generation-info-array.md)
-   + [Group](types/c-data-types/r-group.md)
+   + [Grupo](types/c-data-types/r-group.md)
    + [GroupArray](types/c-data-types/r-group-array.md)
    + [HandleArray](types/c-data-types/r-handle-array.md)
    + [IccProfileFieldUpdate](types/c-data-types/r-icc-profile-field-update.md)
