@@ -2,16 +2,15 @@
 description: Todos los componentes del visor admiten las funciones y atributos de ARIA (Aplicaciones de Internet enriquecidas accesibles) para mejorar la integración con tecnologías de asistencia, como lectores de pantalla.
 solution: Experience Manager
 title: Soporte técnico de asistencia
-feature: Dynamic Media Classic,Viewers,SDK/API,Video,Accessibility
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo,Accesibilidad
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e0652730-60ee-41db-890b-e223b279e47d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
-
 
 # Soporte técnico de asistencia{#assistive-technology-support}
 
