@@ -4,14 +4,13 @@ solution: Experience Manager
 title: RenderSettings
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 37b806f8-e314-4532-a28c-1cc4ab939f09
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '115'
 ht-degree: 3%
 
 ---
-
 
 # RenderSettings{#rendersettings}
 
