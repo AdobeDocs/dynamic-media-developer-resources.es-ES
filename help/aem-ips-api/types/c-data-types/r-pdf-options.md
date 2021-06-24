@@ -4,14 +4,13 @@ solution: Experience Manager
 title: PDFOptions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 140c9261-e590-4889-9be4-29afd19ffa86
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '73'
 ht-degree: 9%
 
 ---
-
 
 # PDFOptions{#pdfoptions}
 
@@ -29,4 +28,3 @@ Sintaxis
 | `*`pdfCatalog`*` | `xsd:boolean` | Combinar un PDF de varias páginas en un catálogo electrónico después de la renderización (el valor predeterminado es true). |
 | `*`extractSearchWords`*` | `xsd:boolean` | Si se extraen palabras de búsqueda del archivo PDF. |
 | `*`extractLinks`*` | `xsd:boolean` | Indica si se extraerán vínculos PDF en mapas de imágenes asignados a las páginas rasterizadas dentro de IPS. |
-
