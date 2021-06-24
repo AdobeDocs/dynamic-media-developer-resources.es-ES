@@ -3,16 +3,15 @@ description: Toda la personalización visual y la mayor parte de la personalizac
 keywords: adaptable
 solution: Experience Manager
 title: Personalización del visor de zoom básico
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 9cbce980-83fd-40a7-8bcd-f9bc4dd477a8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1338'
 ht-degree: 0%
 
 ---
-
 
 # Personalización del visor de zoom básico{#customizing-basic-zoom-viewer}
 
@@ -36,7 +35,7 @@ Al crear CSS personalizada, tenga en cuenta que el visor asigna la clase `.s7bas
 
 `#<containerId>.s7basiczoomviewer`
 
-## Creación de CSS de diseño interactivo {#section-0bb49aca42d242d9b01879d5ba59d33b}
+## Creación de una CSS de diseño adaptable {#section-0bb49aca42d242d9b01879d5ba59d33b}
 
 Es posible dirigirse a diferentes dispositivos e incrustar tamaños en CSS para que el contenido se muestre de forma diferente en función del dispositivo de un usuario o de un diseño de página web concreto. Esto incluye, entre otros, diferentes diseños, tamaños de elementos de la interfaz de usuario y resolución de ilustraciones.
 
