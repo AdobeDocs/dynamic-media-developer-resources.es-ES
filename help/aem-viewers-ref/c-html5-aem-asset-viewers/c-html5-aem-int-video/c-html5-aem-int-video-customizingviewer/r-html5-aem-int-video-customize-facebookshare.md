@@ -1,21 +1,20 @@
 ---
-description: La herramienta Compartir Facebook consiste en un botón agregado al panel Compartir en Social . Cuando se hace clic en el botón, el usuario se redirige a un cuadro de diálogo de uso compartido proporcionado por un servicio social. La posición del botón la gestiona completamente la herramienta de uso compartido de Social.
+description: La herramienta Compartir de facebook consiste en un botón añadido al panel Compartir en Social . Cuando se hace clic en el botón, el usuario se redirige a un cuadro de diálogo de uso compartido proporcionado por un servicio social. La posición del botón la gestiona completamente la herramienta de uso compartido de Social.
 solution: Experience Manager
-title: Compartir en Facebook
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+title: Uso compartido de facebook
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
 role: Developer,Business Practitioner
 exl-id: 209dfe87-ca9d-405f-ba78-4e88f6ebe1d2
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '234'
 ht-degree: 1%
 
 ---
 
-# Compartir en Facebook{#facebook-share}
+# Uso compartido de facebook{#facebook-share}
 
-La herramienta Compartir Facebook consiste en un botón agregado al panel Compartir en Social . Cuando se hace clic en el botón, el usuario se redirige a un cuadro de diálogo de uso compartido proporcionado por un servicio social. La posición del botón la gestiona completamente la herramienta de uso compartido de Social.
+La herramienta Compartir de facebook consiste en un botón añadido al panel Compartir en Social . Cuando se hace clic en el botón, el usuario se redirige a un cuadro de diálogo de uso compartido proporcionado por un servicio social. La posición del botón la gestiona completamente la herramienta de uso compartido de Social.
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
@@ -25,7 +24,7 @@ El aspecto del botón Compartir de Facebook se controla con el siguiente selecto
 .s7interactivevideoviewer .s7facebookshare
 ```
 
-**Propiedades CSS de la herramienta Compartir de Facebook**
+**Propiedades CSS de la herramienta de uso compartido de Facebook**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -58,7 +57,7 @@ La información del botón se puede localizar. Consulte [Localización de los el
 
 ## Ejemplo {#section-01cbe0096b1443e0a7d91956bd264465}
 
-Para configurar un botón de uso compartido de Facebook de 28 x 28 píxeles, muestra una imagen diferente para cada uno de los cuatro estados de botón diferentes:
+Para configurar un botón de uso compartido de Facebook de 28 x 28 píxeles y mostrar una imagen diferente para cada uno de los cuatro estados de botón diferentes:
 
 ```
 .s7interactivevideoviewer .s7facebookshare { 
