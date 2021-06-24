@@ -4,16 +4,15 @@ solution: Experience Manager
 title: Instalación en una cuenta de usuario diferente a un administrador
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 20bb00cb-3af6-4573-bbff-8c4f984ed2ae
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
 
-
-# La instalación en una cuenta de usuario diferente a la del administrador{#installing-under-a-different-user-account-than-administrator}
+# Instalación en una cuenta de usuario diferente a un administrador{#installing-under-a-different-user-account-than-administrator}
 
 Después de la instalación, tendrá que configurar los servicios para que se ejecuten en la cuenta de otro usuario.
 
