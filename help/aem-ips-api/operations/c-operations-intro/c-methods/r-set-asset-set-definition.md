@@ -2,16 +2,15 @@
 description: Actualiza la definición del conjunto de recursos existente.
 solution: Experience Manager
 title: setAssetSetDefinition
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,Administración de activos
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f3fbe13b-e650-4a5d-9c46-a492b11fa13e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '211'
 ht-degree: 6%
 
 ---
-
 
 # setAssetSetDefinition{#setassetsetdefinition}
 
