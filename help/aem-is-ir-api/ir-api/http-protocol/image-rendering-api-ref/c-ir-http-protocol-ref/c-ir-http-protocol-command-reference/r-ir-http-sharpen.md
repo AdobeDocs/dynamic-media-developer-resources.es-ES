@@ -4,16 +4,15 @@ solution: Experience Manager
 title: enfocar
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 0c831ea7-fc64-484d-b3a4-4cb713b5d873
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '56'
 ht-degree: 10%
 
 ---
 
-
-# sharpen{#sharpen}
+# enfocar{#sharpen}
 
 Enfoque la imagen de respuesta. Se puede aplicar un enfoque opcional después de escalar la imagen representada en función de wid= o hei=.
 
