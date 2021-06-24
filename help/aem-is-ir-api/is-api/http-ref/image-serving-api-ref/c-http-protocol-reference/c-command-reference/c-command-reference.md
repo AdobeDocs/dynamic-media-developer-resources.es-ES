@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Referencia de comandos
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 959cb193-d0b7-4aa9-a747-fa17484f80c7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '218'
 ht-degree: 10%
 
 ---
-
 
 # Referencia de comandos{#command-reference}
 
@@ -60,7 +59,7 @@ Consulte también las [Opciones de ajustes preestablecidos de imagen](https://ex
 * [imageSet](r-imageset.md)
 * [jpegSize](r-jpegsize.md)
 * [capa](r-layer.md)
-* [locale](r-locale.md)
+* [configuración regional](r-locale.md)
 * [mapa](r-map.md)
 * [mask](r-mask.md)
 * [maskUse](r-maskuse.md)
@@ -94,7 +93,7 @@ Consulte también las [Opciones de ajustes preestablecidos de imagen](https://ex
 * [res](r-res.md)
 * [resMode](r-is-http-resmode.md)
 * [rgn](r-rgn.md)
-* [rotate](r-rotate.md)
+* [rotar](r-rotate.md)
 * [scale](r-is-http-scale.md)
 * [scl](r-scl.md)
 * [tamaño](r-size-reference.md)
@@ -107,6 +106,6 @@ Consulte también las [Opciones de ajustes preestablecidos de imagen](https://ex
 * [textFlowXPath](r-textflowxpath.md)
 * [textPath](r-textpath.md)
 * [textPs](r-textps.md)
-* [type](r-type.md)
+* [tipo](r-type.md)
 * [wid](r-is-http-wid.md)
 * [xmpEmbed](r-xmpembed.md)
