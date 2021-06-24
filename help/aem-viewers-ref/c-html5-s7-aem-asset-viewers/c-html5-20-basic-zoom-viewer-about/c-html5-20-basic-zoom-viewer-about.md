@@ -3,16 +3,15 @@ description: El visor de zoom básico es un visor de imágenes que muestra una s
 keywords: adaptable
 solution: Experience Manager
 title: Zoom básico
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: ee15ce21-20c4-428b-9512-050115e4c322
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '2044'
+source-wordcount: '2041'
 ht-degree: 0%
 
 ---
-
 
 # Zoom básico{#basic-zoom}
 
@@ -26,7 +25,7 @@ Tipo de visor 501.
 
 Consulte [Requisitos y requisitos previos del sistema](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
-## Demostración de URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
+## Dirección URL de la demostración {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
 [https://s7d9.scene7.com/s7viewers/html5/BasicZoomViewer.html?asset=Scene7SharedAssets/Backpack_B](https://s7d9.scene7.com/s7viewers/html5/BasicZoomViewer.html?asset=Scene7SharedAssets/Backpack_B)
 
@@ -389,4 +388,3 @@ basicZoomViewer.init();
 </body> 
 </html>
 ```
-
