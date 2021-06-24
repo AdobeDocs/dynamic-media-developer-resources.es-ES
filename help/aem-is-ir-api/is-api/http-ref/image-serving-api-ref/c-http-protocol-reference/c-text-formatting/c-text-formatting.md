@@ -4,16 +4,15 @@ solution: Experience Manager
 title: Formato del texto
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2c120ed1-b556-4caf-a30e-63ae48cc2104
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '562'
 ht-degree: 7%
 
 ---
 
-
-# Formato de texto{#text-formatting}
+# Formato del texto{#text-formatting}
 
 Image Serving proporciona varias alternativas para procesar texto, accesibles con los comandos text= y textPs=.
 
