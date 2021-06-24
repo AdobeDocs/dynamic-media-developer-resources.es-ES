@@ -2,16 +2,15 @@
 description: El visor de búsqueda en el catálogo electrónico admite la renderización de iconos de mapa de imagen encima de la vista principal.
 solution: Experience Manager
 title: Compatibilidad con mapas de imágenes
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 58e7523f-1615-4da4-bb09-a995bf427bfc
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
-
 
 # Compatibilidad con mapas de imágenes{#image-map-support}
 
@@ -35,7 +34,7 @@ En este ejemplo, la misma dirección URL se ajusta con la función `loadProduct(
 
 Tenga en cuenta que cuando agrega el código JavaScript al atributo `HREF` del mapa de imagen, el código se ejecuta en el equipo del cliente. Por lo tanto, asegúrese de que el código JavaScript sea seguro.
 
-## Activación {#section-7aa036420af646d1ad8cdc388add0b57} del elemento emergente del panel de información
+## Activación de la ventana emergente del panel de información {#section-7aa036420af646d1ad8cdc388add0b57}
 
 Para trabajar con paneles de información, un mapa de imagen tiene el atributo `ROLLOVER_KEY` establecido. Además, establezca el atributo `href` al mismo tiempo; de lo contrario, el procesamiento externo de la URL interfiere con la activación del panel emergente Información.
 
