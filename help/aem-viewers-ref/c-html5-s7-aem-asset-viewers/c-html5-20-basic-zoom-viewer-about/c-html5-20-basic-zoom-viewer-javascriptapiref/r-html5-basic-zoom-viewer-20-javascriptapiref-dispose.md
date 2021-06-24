@@ -2,18 +2,17 @@
 description: Referencia de la API de JavaScript para el visor de zoom básico.
 solution: Experience Manager
 title: dispose
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 49c353f7-deab-43a7-84dd-21fda7864574
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 2%
+source-wordcount: '133'
+ht-degree: 3%
 
 ---
 
-
-# eliminar{#dispose}
+# dispose{#dispose}
 
 Referencia de la API de JavaScript para el visor de zoom básico.
 
@@ -40,4 +39,3 @@ Ninguno.
 ```
 <instance>.dispose()
 ```
-
