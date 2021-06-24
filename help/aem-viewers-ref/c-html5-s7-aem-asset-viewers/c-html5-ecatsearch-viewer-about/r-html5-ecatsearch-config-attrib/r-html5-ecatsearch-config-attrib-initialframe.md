@@ -2,16 +2,15 @@
 description: InitialFrame
 solution: Experience Manager
 title: InitialFrame
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 15241738-a1b6-4723-b6fc-ebc8f7dedb03
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 8%
+source-wordcount: '66'
+ht-degree: 9%
 
 ---
-
 
 # InitialFrame{#initialframe}
 
@@ -41,4 +40,3 @@ Cuando se especifique en la dirección URL del visor.
 ```
 [!DNL initialFrame=2
 ```
-
