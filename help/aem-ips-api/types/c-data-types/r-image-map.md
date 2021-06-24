@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Mapa de imagen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 123eba56-2a59-44c5-93f0-205c362d071d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '102'
 ht-degree: 12%
 
 ---
-
 
 # Mapa de imagen{#imagemap}
 
@@ -31,4 +30,3 @@ Siempre asociado a una imagen. Puede obtener un destinatario `ImageMap` de `Imag
 | `*`position`*` | `xsd:string` | Posición en el formato del atributo `<area>` del elemento HTML [!DNL coords]. Por ejemplo: `coords ="0,0,84,128"`. |
 | `*`habilitada`*` | `xsd:boolean` | True si el mapa de imagen está habilitado. |
 | `*`lastModified`*` | `xsd:dateTime` | Fecha y hora de la última modificación del mapa de imagen. |
-
