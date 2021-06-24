@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Verificación de la instalación
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 273478ab-f245-48ef-a125-fb738054484e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
-
 
 # Verificación de la instalación{#verifying-the-installation}
 
@@ -37,4 +36,3 @@ Image Server está instalado como un demonio Linux.
 
 En las respuestas, compruebe la presencia de elementos que empiecen por &quot; `imageServer.`&quot;, lo que indica que Platform Server podría comunicarse correctamente con el servidor de imágenes.
 >Se puede realizar una verificación adicional utilizando las páginas de muestra de los paquetes de documentación y demostración, si están instalados.
-
