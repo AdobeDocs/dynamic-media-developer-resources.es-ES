@@ -2,16 +2,15 @@
 description: El área de vista principal es el área ocupada por la imagen de zoom. Normalmente se configura para que se ajuste a la pantalla de dispositivo disponible cuando no se especifica ningún tamaño.
 solution: Experience Manager
 title: Área del visor principal
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: f51de2d6-0de2-4a4d-bbf4-185547e6c550
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '122'
 ht-degree: 2%
 
 ---
-
 
 # Área del visor principal{#main-viewer-area}
 
@@ -59,4 +58,3 @@ Ejemplo: para configurar un visor con fondo blanco ( `#FFFFFF`) y hacer que su t
  height: 288px;  
 }
 ```
-
