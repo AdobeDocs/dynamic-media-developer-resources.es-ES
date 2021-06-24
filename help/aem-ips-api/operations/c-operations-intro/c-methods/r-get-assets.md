@@ -2,16 +2,15 @@
 description: Devuelve activos de IPS.
 solution: Experience Manager
 title: getAssets
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,Administración de activos
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 3b63da9c-f10a-40bf-8e3c-4f0bfc53d74c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 19%
+source-wordcount: '125'
+ht-degree: 20%
 
 ---
-
 
 # getAssets{#getassets}
 
@@ -108,5 +107,3 @@ Sintaxis
   </tr> 
  </tbody> 
 </table>
-
-
