@@ -4,14 +4,13 @@ solution: Experience Manager
 title: PropertySet
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 8515d07b-354f-46c9-b528-fa1c380e66af
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 10%
+source-wordcount: '44'
+ht-degree: 11%
 
 ---
-
 
 # PropertySet{#propertyset}
 
@@ -26,4 +25,3 @@ Sintaxis
 | `*`setHandle`*` | `xsd:string` | Controlador del conjunto de propiedades. |
 | `*`typeHandle`*` | `xsd:string` | Gestionar al tipo de conjunto de propiedades. |
 | `*`propertyArray`*` | `types:PropertyArray` | Par nombre-valor. Puede contener cero elementos. |
-
