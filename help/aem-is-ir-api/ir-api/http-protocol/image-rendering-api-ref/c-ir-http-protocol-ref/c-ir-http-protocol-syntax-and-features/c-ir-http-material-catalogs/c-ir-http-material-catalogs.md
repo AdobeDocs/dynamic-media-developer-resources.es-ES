@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Catálogos de materiales *
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 502f80f5-fdd1-468b-89a9-64cc9128d655
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
-
 
 # Catálogos de materiales *{#material-catalogs}
 
