@@ -4,14 +4,13 @@ solution: Experience Manager
 title: CompanyMember
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: bce5e6a2-b866-4a54-8e0b-9bc99bf12988
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 14%
+source-wordcount: '53'
+ht-degree: 15%
 
 ---
-
 
 # CompanyMember{#companymember}
 
@@ -26,4 +25,3 @@ Sintaxis
 | `*`usuario`*` | `types:User` | Nombre de usuario. |
 | `*`función`*` | `xsd:string` | Función que el usuario tiene para cada empresa a la que pertenece. |
 | `*`isActive`*` | `xsd:boolean` | Establece el estado del usuario para cada empresa a la que pertenece. |
-
