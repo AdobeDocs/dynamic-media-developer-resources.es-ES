@@ -4,14 +4,13 @@ solution: Experience Manager
 title: addUser
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: aed39e73-f528-4c26-8f62-c3d796e9101a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '181'
 ht-degree: 12%
 
 ---
-
 
 # addUser{#adduser}
 
@@ -74,4 +73,3 @@ La API IPS devuelve un elemento de control de usuario que especifica el nuevo us
    <ns1:userHandle>525s|juser@scene7.com</ns1:userHandle>
 </ns1:addUserReturn>
 ```
-
