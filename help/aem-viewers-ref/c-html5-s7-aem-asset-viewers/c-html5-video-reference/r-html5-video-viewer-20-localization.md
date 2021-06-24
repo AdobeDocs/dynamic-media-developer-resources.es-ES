@@ -2,16 +2,15 @@
 description: El contenido que muestra el visor de vídeo está sujeto a localización. Este contenido incluye información sobre herramientas de elementos de la interfaz de usuario y un mensaje de error que se muestra cuando no se puede reproducir el vídeo.
 solution: Experience Manager
 title: Localización de los elementos de la interfaz de usuario
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4748d04e-7f9d-413f-9e9a-a0fad129c5fc
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '781'
 ht-degree: 0%
 
 ---
-
 
 # Localización de los elementos de la interfaz de usuario{#localization-of-user-interface-elements}
 
@@ -267,4 +266,3 @@ Se admiten los siguientes SÍMBOLOS:
   </tr> 
  </tbody> 
 </table>
-
