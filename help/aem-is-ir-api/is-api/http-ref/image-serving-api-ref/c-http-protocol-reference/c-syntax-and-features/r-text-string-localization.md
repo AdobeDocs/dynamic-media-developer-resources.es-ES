@@ -4,16 +4,15 @@ solution: Experience Manager
 title: Localización de cadenas de texto
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: f105c7f2-b544-4c08-bb91-4916e485572d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '671'
 ht-degree: 3%
 
 ---
 
-
-# Localización de cadena de texto{#text-string-localization}
+# Localización de cadenas de texto{#text-string-localization}
 
 La localización de cadenas de texto permite que los catálogos de imágenes contengan varias representaciones específicas de la configuración regional para el mismo valor de cadena.
 
@@ -156,4 +155,3 @@ La siguiente tabla describe el resultado de algunas combinaciones *`stringElemen
   </tr> 
  </tbody> 
 </table>
-
