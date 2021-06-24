@@ -2,16 +2,15 @@
 description: Entrega de vídeo HTTP
 solution: Experience Manager
 title: Entrega de vídeo HTTP
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 33907e22-107b-4345-82bb-cad47cb7a839
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
-
 
 # Entrega de vídeo HTTP{#http-video-delivery}
 
@@ -59,4 +58,3 @@ Según el método de publicación de vídeo de Dynamic Media que utilice en AEM,
    ```
 
    Consulte también [Incrustación del vídeo en una página web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic).
-
