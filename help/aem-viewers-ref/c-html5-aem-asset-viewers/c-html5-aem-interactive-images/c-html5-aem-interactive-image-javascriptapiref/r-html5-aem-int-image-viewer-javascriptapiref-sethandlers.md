@@ -2,13 +2,12 @@
 description: Referencia de la API de JavaScript para el visualizador de imágenes interactivo
 solution: Experience Manager
 title: setHandlers
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Imágenes interactivas
 role: Developer,Business Practitioner
 exl-id: a5e42842-dc88-454b-8229-33a65c01bf88
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '95'
 ht-degree: 3%
 
 ---
