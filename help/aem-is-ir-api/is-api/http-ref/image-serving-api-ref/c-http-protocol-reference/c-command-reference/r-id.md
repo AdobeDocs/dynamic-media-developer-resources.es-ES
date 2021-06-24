@@ -4,14 +4,13 @@ solution: Experience Manager
 title: id
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3cdd27e4-14d2-42ef-aedb-9c1f7c39b4c6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '271'
 ht-degree: 4%
 
 ---
-
 
 # id{#id}
 
