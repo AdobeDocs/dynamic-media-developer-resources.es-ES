@@ -2,16 +2,15 @@
 description: Las miniaturas constan de una cuadrícula de imágenes en miniatura con una barra de desplazamiento opcional en el lado derecho para permitir el desplazamiento vertical.
 solution: Experience Manager
 title: Miniaturas
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 25032917-237c-4227-92bd-ce66a6d003a0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '899'
 ht-degree: 2%
 
 ---
-
 
 # Miniaturas{#thumbnails}
 
@@ -399,4 +398,3 @@ Ejemplo: para configurar botones de desplazamiento de 28 x 32 píxeles y con dif
  background-image:url(images/v2/ThumbnailScrollDownButton_dark_up.png); 
 }
 ```
-
