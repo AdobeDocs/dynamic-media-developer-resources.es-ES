@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Carpeta
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 74b44b1a-a92e-4c97-a93b-0cd4552f78ec
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '77'
 ht-degree: 10%
 
 ---
-
 
 # Carpeta{#folder}
 
@@ -30,4 +29,3 @@ Sintaxis
 | `*`permissionsSetHandle`*` | `xsd:string` | Identificador de permisos de carpeta. |
 | `*`hasSubfolder`*` | `types:Boolean` | Determina si una carpeta tiene subcarpetas. |
 | `*`subfolderArray`*` | `types:FolderArray` | Matriz de subcarpetas de una carpeta. |
-
