@@ -4,16 +4,15 @@ solution: Experience Manager
 title: perspectiva
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2e0297b0-c9a4-4bbd-9f06-368f722288d4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '455'
 ht-degree: 2%
 
 ---
 
-
-# Perspectiva{#perspective}
+# perspectiva{#perspective}
 
 Transformación de perspectiva. Aplique una transformación de perspectiva a la imagen de origen de capa para rellenar la región especificada con el cuadrilateral. Otras áreas de la capa permanecen transparentes.
 
@@ -50,7 +49,7 @@ Las coordenadas cuadrilaterales de la perspectiva pueden situarse fuera de la im
 
 El comportamiento es indefinido si el cuadrilateral no es adecuado para una transformación de perspectiva (por ejemplo, si coinciden dos o más vértices, si tres o todos los vértices están en la misma línea o si el cuadrilateral es de intersección o concava).
 
-## Consideraciones de calidad {#section-7cc9056afa614300a9b8844d39739fc3}
+## Consideraciones sobre la calidad {#section-7cc9056afa614300a9b8844d39739fc3}
 
 Aunque la implementación predeterminada produce un compromiso razonable entre calidad y rendimiento, a veces puede ser necesario aumentar la resolución de la imagen de origen para mejorar la nitidez o reducirla para reducir los artefactos de aliasing.
 
