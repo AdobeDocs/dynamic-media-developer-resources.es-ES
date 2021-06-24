@@ -2,16 +2,15 @@
 description: El contenido que muestra el visor flotante está sujeto a localización. Este contenido incluye información sobre herramientas de elementos de la interfaz de usuario y mensajes de información que se muestran en la vista de zoom flotante al cargar.
 solution: Experience Manager
 title: Localización de los elementos de la interfaz de usuario
-feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom en línea
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 49795aa1-07c7-4f2e-bfd9-51d6581898ed
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
-
 
 # Localización de los elementos de la interfaz de usuario{#localization-of-user-interface-elements}
 
@@ -91,4 +90,3 @@ Se admiten los siguientes SÍMBOLOS:
   </tr> 
  </tbody> 
 </table>
-
