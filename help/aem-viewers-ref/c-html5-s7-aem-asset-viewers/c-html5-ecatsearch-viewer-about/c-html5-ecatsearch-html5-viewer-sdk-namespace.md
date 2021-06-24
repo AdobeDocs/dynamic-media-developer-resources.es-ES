@@ -2,16 +2,15 @@
 description: Espacio de nombres del SDK del visor
 solution: Experience Manager
 title: Espacio de nombres del SDK del visor
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: aaad8f43-f6f2-440f-a6c4-52db585b48da
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
-
 
 # Espacio de nombres del SDK del visor{#viewer-sdk-namespace}
 
@@ -37,4 +36,3 @@ Por ejemplo, si planea escuchar el evento `StatusEvent.NOTF_VIEW_READY` y el vis
 } 
 });
 ```
-
