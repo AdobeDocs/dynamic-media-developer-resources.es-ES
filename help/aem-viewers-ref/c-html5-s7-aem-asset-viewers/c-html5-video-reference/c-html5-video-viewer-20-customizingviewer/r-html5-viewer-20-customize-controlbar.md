@@ -2,16 +2,15 @@
 description: La barra de control es el área rectangular que contiene y se encuentra detrás de todos los controles de interfaz de usuario disponibles para el visor de vídeo, como el botón de reproducción/pausa, los controles de volumen, etc.
 solution: Experience Manager
 title: Barra de control
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2239307a-4a05-4392-b35c-a64ea6c938ad
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '177'
 ht-degree: 2%
 
 ---
-
 
 # Barra de control{#control-bar}
 
@@ -62,4 +61,3 @@ height: 30px;
 background-color: rgb(51, 51, 51); 
 }
 ```
-
