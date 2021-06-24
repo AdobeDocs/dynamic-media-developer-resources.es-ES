@@ -4,14 +4,13 @@ solution: Experience Manager
 title: markOverflowingTextFrames
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: d1e2a3d4-ef1f-4d5e-be9c-eeec36f46603
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 59%
+source-wordcount: '141'
+ht-degree: 60%
 
 ---
-
 
 # markOverflowingTextFrames{#markoverflowingtextframes}
 
