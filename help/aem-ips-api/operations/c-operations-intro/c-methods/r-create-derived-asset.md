@@ -2,16 +2,15 @@
 description: Crea un nuevo recurso derivado de un recurso de imagen de origen principal existente.
 solution: Experience Manager
 title: createDerivedAsset
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,Administración de activos
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: a3b20a8a-ed0d-40be-9a8c-41ba09b1d724
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '270'
 ht-degree: 8%
 
 ---
-
 
 # createDerivedAsset{#createderivedasset}
 
@@ -79,4 +78,3 @@ El código de ejemplo crea un recurso derivado con una vista ajustada y `urlModi
    <assetHandle>a|944|10|2</assetHandle>
 </createDerivedAssetReturn>
 ```
-
