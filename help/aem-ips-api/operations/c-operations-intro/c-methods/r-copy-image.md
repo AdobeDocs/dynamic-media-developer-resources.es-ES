@@ -4,14 +4,13 @@ solution: Experience Manager
 title: copyImage
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 059ebbca-2341-444b-850a-1ec9582692ec
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '144'
 ht-degree: 21%
 
 ---
-
 
 # copyImage{#copyimage}
 
@@ -119,4 +118,3 @@ El código de ejemplo copia una imagen especificada por empresa, recurso, contro
    <assetHandle>a|943|1|580</assetHandle>
 </copyImageReturn>
 ```
-
