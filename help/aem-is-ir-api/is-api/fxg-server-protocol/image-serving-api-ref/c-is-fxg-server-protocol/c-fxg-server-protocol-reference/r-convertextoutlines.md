@@ -4,14 +4,13 @@ solution: Experience Manager
 title: ConvertTextToOutlines
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: b9bff788-f859-4817-9e29-b9edc579eee7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '67'
 ht-degree: 1%
 
 ---
-
 
 # ConvertTextToOutlines{#converttexttooutlines}
 
