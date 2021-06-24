@@ -2,16 +2,15 @@
 description: La clase principal del visor de búsqueda de catálogos electrónicos es eCatalogSearchViewer. Se declara en el espacio de nombres s7viewers. Esta API de JavaScript cubre el constructor, los métodos y las llamadas de retorno de esta clase en particular.
 solution: Experience Manager
 title: Referencia de la API de Javascript para el visor de búsqueda de catálogos electrónicos
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 11436c4f-acd4-4328-a3de-cc00a80cae2b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
-
 
 # Referencia de la API de Javascript para el visor de búsqueda de catálogos electrónicos{#javascript-api-reference-for-ecatalog-search-viewer}
 
