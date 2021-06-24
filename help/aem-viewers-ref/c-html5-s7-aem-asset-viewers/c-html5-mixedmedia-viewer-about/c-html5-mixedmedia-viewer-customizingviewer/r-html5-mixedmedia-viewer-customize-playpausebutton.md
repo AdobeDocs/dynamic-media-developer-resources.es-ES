@@ -2,16 +2,15 @@
 description: El botón de reproducción/pausa hace que el reproductor de vídeo reproduzca o ponga en pausa el contenido del vídeo cuando un usuario hace clic en él.
 solution: Experience Manager
 title: Botón Reproducir/Pausar
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 8312645f-5704-499f-b66a-cf51dd8c1ec7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '270'
 ht-degree: 2%
 
 ---
-
 
 # Botón Reproducir/Pausar{#play-pause-button}
 
@@ -122,4 +121,3 @@ background-image:url(images/replayBtn_down.png);
 background-image:url(images/replayBtn_disabled.png); 
 }
 ```
-
