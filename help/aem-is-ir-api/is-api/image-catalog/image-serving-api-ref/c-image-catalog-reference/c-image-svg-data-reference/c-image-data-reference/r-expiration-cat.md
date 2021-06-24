@@ -4,16 +4,15 @@ solution: Experience Manager
 title: Vencimiento
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: ee329834-a2a0-44fd-a0a5-7bf5a8e0a5a5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '267'
 ht-degree: 2%
 
 ---
 
-
-# Caducidad{#expiration}
+# Vencimiento{#expiration}
 
 Se utiliza para administrar el almacenamiento en caché del cliente y del servidor proxy. El servidor calcula la fecha y hora de caducidad de los datos de respuesta HTTP añadiendo este valor a la hora y la fecha de transmisión.
 
