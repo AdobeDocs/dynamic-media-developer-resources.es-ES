@@ -4,14 +4,13 @@ solution: Experience Manager
 title: ImageServingPublishJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: dad6ca6b-6bfe-4788-8ba7-f6cb2a734800
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '43'
 ht-degree: 11%
 
 ---
-
 
 # ImageServingPublishJob{#imageservingpublishjob}
 
@@ -26,4 +25,3 @@ Sintaxis
 | `*`publishType`*` | `xsd:string` | Uno de los tipos de publicación disponibles. |
 | `*`emailSetting`*` | `xsd:string` | Elección de la configuración del correo electrónico. |
 | `*`httpCompletionUrl`*` | `xsd:string` | URL para enviar un aviso de finalización. |
-
