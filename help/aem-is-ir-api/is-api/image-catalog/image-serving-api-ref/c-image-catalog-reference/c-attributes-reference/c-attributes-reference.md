@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Referencia de atributos
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: d0c8e808-d887-4bad-bbb5-f36a19ab4df2
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '104'
 ht-degree: 3%
 
 ---
-
 
 # Referencia de atributos{#attributes-reference}
 
@@ -40,7 +39,7 @@ Todos los atributos son obligatorios en el archivo de atributos de catálogo pre
 * [DigimarcInfo](r-digimarcinfo.md)
 * [ErrorImage](r-errorimage.md)
 * [ErrorDetail](r-errordetail.md)
-* [Caducidad](r-expiration.md)
+* [Vencimiento](r-expiration.md)
 * [FontMapFile](r-fontmapfile.md)
 * [FullMatch](r-fullmatch.md)
 * [HttpAppleStreamingContext](r-httpapplestreamingcontext.md)
