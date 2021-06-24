@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Carpetas raíz de recursos (ir.resourceRootPaths)
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 49fd45da-1af9-4016-8fc6-6ec17b7e553b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
-
 
 # Carpetas raíz de recursos (ir.resourceRootPaths){#resource-root-folders-ir-resourcerootpaths}
 
