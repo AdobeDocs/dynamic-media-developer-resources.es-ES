@@ -4,14 +4,13 @@ solution: Experience Manager
 title: setGroupMembership
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 0a355a34-1c2d-48c1-ba12-7d07d1673d09
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 12%
 
 ---
-
 
 # setGroupMembership{#setgroupmembership}
 
