@@ -4,16 +4,15 @@ solution: Experience Manager
 title: Formato básico de caracteres
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: d3bd6d4d-d7bd-4c9b-bc9e-7edaaac6378e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '131'
 ht-degree: 10%
 
 ---
 
-
-# Formato de caracteres básico{#basic-character-formatting}
+# Formato básico de caracteres{#basic-character-formatting}
 
 Utilice los siguientes comandos para aplicar formato básico a los caracteres.
 
@@ -103,4 +102,3 @@ Utilice los siguientes comandos para aplicar formato básico a los caracteres.
   </tr> 
  </tbody> 
 </table>
-
