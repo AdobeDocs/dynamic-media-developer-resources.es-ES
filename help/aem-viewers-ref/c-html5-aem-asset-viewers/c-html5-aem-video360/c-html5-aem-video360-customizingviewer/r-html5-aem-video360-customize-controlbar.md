@@ -2,13 +2,12 @@
 description: La barra de control es el área rectangular que contiene y se encuentra detrás de todos los controles de interfaz de usuario disponibles para el visor de vídeo, como el botón de reproducción/pausa, los controles de volumen, etc.
 solution: Experience Manager
 title: Barra de control
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
 role: Developer,Business Practitioner
 exl-id: 06078310-8aeb-449f-919a-ce88ddc8c4b3
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '180'
 ht-degree: 1%
 
 ---
