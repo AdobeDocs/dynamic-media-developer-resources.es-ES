@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Propiedades de JavaScript™
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 12e69221-4a2c-4ec6-b38b-0a8d98d3c4a6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
-
 
 # Propiedades de JavaScript™{#javascript-properties}
 
@@ -41,4 +40,3 @@ src='http://myServer/is/image/myImage?req=props,javascript'>
 <script> alert("Size: " + image.width + " , " + 
 image.height); </script>
 ```
-
