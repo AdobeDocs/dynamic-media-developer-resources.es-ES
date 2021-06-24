@@ -2,18 +2,17 @@
 description: Botón Cerrar
 solution: Experience Manager
 title: Botón Cerrar
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4f5f84d0-1b5a-4fb3-91ab-44b4542c6ef1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 9%
+source-wordcount: '49'
+ht-degree: 10%
 
 ---
 
-
-# Closebutton{#closebutton}
+# Botón Cerrar{#closebutton}
 
 [!DNL `closebutton=0|1`]
 
@@ -39,4 +38,3 @@ Opcional.
 ```
 closebutton=1
 ```
-
