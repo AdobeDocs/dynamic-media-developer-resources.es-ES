@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# Tutorial del SDK de visor{#viewer-sdk-tutorial}
+# Tutorial del SDK del visor{#viewer-sdk-tutorial}
 
 El SDK de visor proporciona un conjunto de componentes basados en JavaScript para el desarrollo de visores personalizados. Los visores son aplicaciones basadas en la web que permiten incrustar en las páginas web contenido multimedia enriquecido servido por Adobe Dynamic Media.
 
@@ -32,7 +32,7 @@ Este tutorial incluye el siguiente orden de tareas para ayudarle a crear un viso
 * [Adición de botones al visor](c-tutorial.md#section-1fc334fa0d2b47eb9cdad461725c07be)
 * [Configuración vertical de las muestras](c-tutorial.md#section-91a8829d5b5a4d45a35b7faeb097fcc9)
 
-## Descargar el último SDK de visor de Adobe Developer Connection {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
+## Descargar el SDK de visor más reciente de Adobe Developer Connection {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
 
 1. Descargue el último SDK de visor de Adobe Developer Connection <!-- SDK NO LONGER AVAILABLE TO DOWNLOAD;DOUBLE CHECK WITH AMIT. THIS ENTIRE TOPIC IS LIKELY OBSOLETE. [here](https://marketing.adobe.com/developer/devcenter/scene7/show) -->.
 
@@ -40,7 +40,7 @@ Este tutorial incluye el siguiente orden de tareas para ayudarle a crear un viso
    >
    >Puede completar este tutorial sin necesidad de descargar el paquete del SDK de visor porque el SDK se carga de forma remota. Sin embargo, el paquete Visualizador incluye ejemplos adicionales y una guía de referencia de API que le resultará útil cuando cree sus propios visualizadores.
 
-## Carga del SDK de visor {#section-98596c276faf4cf79ccf558a9f4432c6}
+## Carga del SDK del visor {#section-98596c276faf4cf79ccf558a9f4432c6}
 
 1. Comience por configurar una nueva página para desarrollar el visor de zoom básico que va a crear.
 
@@ -292,7 +292,7 @@ A continuación, agregará los componentes `MediaSet` y `Swatches` al visor.
 
 Ahora agregará botones de ampliación, reducción y restablecimiento de zoom al visor.
 
-## Añadir botones al visor {#section-1fc334fa0d2b47eb9cdad461725c07be}
+## Adición de botones al visor {#section-1fc334fa0d2b47eb9cdad461725c07be}
 
 1. Actualmente, el usuario solo puede ampliar mediante gestos táctiles o de clic. Por lo tanto, agregue al visor algunos botones básicos de control de zoom.
 
@@ -356,7 +356,7 @@ Ahora agregará botones de ampliación, reducción y restablecimiento de zoom al
 
    A continuación, configurará las muestras para que se alineen verticalmente a la derecha.
 
-## Configuración de las muestras verticalmente {#section-91a8829d5b5a4d45a35b7faeb097fcc9}
+## Configuración vertical de las muestras {#section-91a8829d5b5a4d45a35b7faeb097fcc9}
 
 1. Puede configurar modificadores directamente en la instancia `ParameterManager` .
 
