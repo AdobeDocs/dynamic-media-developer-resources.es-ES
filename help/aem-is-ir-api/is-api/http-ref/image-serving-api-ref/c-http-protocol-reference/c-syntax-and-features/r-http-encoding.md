@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Codificación HTTP de servicio de imágenes
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: aec8463f-f72a-4203-89ab-8a4f0ad9d6f9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 22%
+source-wordcount: '232'
+ht-degree: 23%
 
 ---
-
 
 # Codificación HTTP de servicio de imágenes{#image-serving-http-encoding}
 
@@ -145,7 +144,7 @@ Los caracteres reservados también deben codificarse.
   <tr> 
    <td colname="col1"> <p>: </p> </td> 
    <td colname="col2"> <p>3A </p> </td> 
-   <td colname="col3"> <p>78 </p> </td> 
+   <td colname="col3"> <p>58 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>; </p> </td> 
