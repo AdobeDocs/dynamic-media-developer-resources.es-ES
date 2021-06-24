@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Atributos de miniatura comunes
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 1289f251-61f0-4355-9dd2-f9b0690e355c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '42'
 ht-degree: 0%
 
 ---
-
 
 # Atributos de miniatura comunes{#common-thumbnail-attributes}
 
@@ -31,4 +30,3 @@ Los archivos de atributos del catálogo reconocen estos atributos de miniaturas 
   <td class="stentry"> <p>Alineación vertical para miniaturas. </p></td> 
  </tr> 
 </table>
-
