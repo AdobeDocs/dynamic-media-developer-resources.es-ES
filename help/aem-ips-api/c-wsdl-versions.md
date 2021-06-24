@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Versiones WSDL del servicio web IPS
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: d7a6079e-286e-4e62-b2ff-551ef4a5815c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '959'
 ht-degree: 2%
 
 ---
-
 
 # Versiones WSDL del servicio web IPS{#ips-web-service-wsdl-versions}
 
@@ -66,7 +65,7 @@ services/IpsApiService
  </tbody> 
 </table>
 
-## WSDL admitidos {#section-ebbba69880f94e9c823f1147974eb404}
+## WSDL compatibles {#section-ebbba69880f94e9c823f1147974eb404}
 
 Recuerde que es posible que tenga que modificar el código si desea utilizar funciones en la última versión de la API de IPS. La API de IPS admite WSDL para las siguientes versiones:
 
@@ -329,4 +328,3 @@ Connection: close
    </soapenv:Body> 
 </soapenv:Envelope>
 ```
-
