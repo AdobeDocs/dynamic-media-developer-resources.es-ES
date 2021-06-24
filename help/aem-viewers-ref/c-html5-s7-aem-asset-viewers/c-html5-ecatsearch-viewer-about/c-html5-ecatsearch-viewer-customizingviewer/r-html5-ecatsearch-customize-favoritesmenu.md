@@ -2,16 +2,15 @@
 description: La lista desplegable del menú Favoritos aparece en la barra de control. Consiste en un botón y un panel que se expande cuando un usuario hace clic o pulsa un botón. El panel contiene herramientas de Favoritos individuales.
 solution: Experience Manager
 title: Menú Favoritos
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 129a8451-f634-44ad-adb1-f30d2621cb29
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
-
 
 # Menú Favoritos{#favorites-menu}
 
@@ -127,4 +126,3 @@ Ejemplo: configure un panel para que tenga un color transparente.
  background-color: transparent; 
 }
 ```
-
