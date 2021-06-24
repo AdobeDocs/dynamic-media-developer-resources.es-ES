@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Registro del servidor de imágenes
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: bf5d1e3c-fed3-4145-8b7a-e85b986df641
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
-
 
 # Registro del servidor de imágenes{#image-server-log}
 
