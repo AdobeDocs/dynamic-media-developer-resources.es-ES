@@ -4,16 +4,15 @@ solution: Experience Manager
 title: Tipos de capas
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 9819a73d-1108-414a-831f-37ba94c3feb9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
 
-
-# Tipos de capa{#layer-types}
+# Tipos de capas{#layer-types}
 
 Se admiten cuatro tipos de capas.
 
@@ -25,7 +24,7 @@ Las capas de imagen deben tener un comando `src=` que especifique la imagen que 
 
 Debe tener un comando `text=` o `textPs=` que proporcione el contenido del texto en forma de fragmento de texto con formato de texto enriquecido (RTF). Las capas de texto pueden ajustarse al tamaño de su contenido o pueden tener tamaños explícitos (por ejemplo, si el texto se va a ajustar a una anchura específica o si el texto debe restringirse en un área específica). `textPs=` admiten el flujo de texto en formas arbitrarias definidas con  `textFlowPath=` y en rutas arbitrarias definidas con  `textPath=`. `textPs=` también admite el procesamiento de texto en el cuadro de texto o la forma especificada en ángulos arbitrarios (  `textAngle=`).
 
-## Capas de color sólido {#section-56dfb672756643dda08dc93294809eb0}
+## Capas de color sólidas {#section-56dfb672756643dda08dc93294809eb0}
 
 Las capas de color sólido se utilizan a menudo para la capa 0 de las plantillas, de modo que el tamaño de la imagen compuesta es fijo e independiente del contenido de la imagen. Las capas de color sólido requieren un atributo `color=` y `size=` o `mask=`, y admiten la mayoría de los demás comandos y atributos para modificar el aspecto. Las capas de color sólido pueden recibir formas arbitrarias con `clipPath=`.
 
