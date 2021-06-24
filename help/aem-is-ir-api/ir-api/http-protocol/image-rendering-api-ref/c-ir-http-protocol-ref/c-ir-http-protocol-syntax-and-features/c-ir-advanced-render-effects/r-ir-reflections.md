@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Reflexiones
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: f67ede68-03c0-461f-a16d-a308f76fd24c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '142'
 ht-degree: 4%
 
 ---
-
 
 # Reflexiones{#reflections}
 
