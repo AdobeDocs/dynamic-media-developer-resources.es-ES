@@ -3,13 +3,12 @@ description: Toda la personalización visual y la mayor parte de la personalizac
 keywords: adaptable
 solution: Experience Manager
 title: Personalización del visualizador de imágenes interactivo
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Imágenes interactivas
 role: Developer,Business Practitioner
 exl-id: bb3cfe4a-ec60-4c10-82fe-9e4f8f7c586f
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1288'
 ht-degree: 0%
 
 ---
@@ -32,7 +31,7 @@ Al crear CSS personalizada, tenga en cuenta que el visor asigna la clase `.s7int
 
 `#<containerId>.s7interactiveimage`
 
-## Creación de CSS diseñada adaptable {#section-0bb49aca42d242d9b01879d5ba59d33b}
+## Creación de una CSS diseñada adaptable {#section-0bb49aca42d242d9b01879d5ba59d33b}
 
 Es posible dirigirse a diferentes dispositivos e incrustar tamaños en CSS para que el contenido se muestre de forma diferente, según el dispositivo del usuario o un diseño de página web concreto. Esto incluye, entre otros, diferentes diseños, tamaños de elementos de la interfaz de usuario y resolución de ilustraciones.
 
