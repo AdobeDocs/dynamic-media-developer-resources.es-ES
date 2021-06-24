@@ -4,16 +4,15 @@ solution: Experience Manager
 title: Repeat
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 6d6946b0-a827-4ee6-963b-84529ad35ee9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '132'
 ht-degree: 20%
 
 ---
 
-
-# Repeat{#repeat}
+# Repetir{#repeat}
 
 Modo de repetición de textura. Especifica cómo están en mosaico las imágenes de textura para rellenar la superficie de destino.
 
