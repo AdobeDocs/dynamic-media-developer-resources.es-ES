@@ -4,16 +4,15 @@ solution: Experience Manager
 title: Redirigir en caso de error
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c5541bf3-3296-4ce3-a2ff-9f6336f78ea9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
 
-
-# Redireccionar en caso de error{#redirect-on-error}
+# Redirigir en caso de error{#redirect-on-error}
 
 Los servidores IS pueden configurarse para conmutar por error a servidores alternativos en el caso de solicitudes que impliquen una imagen de origen que no se pueda abrir ni leer correctamente.
 
