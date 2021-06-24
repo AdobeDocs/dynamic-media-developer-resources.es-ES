@@ -2,18 +2,17 @@
 description: Referencia de la API de JavaScript para el visor de zoom en línea.
 solution: Experience Manager
 title: dispose
-feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom en línea
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 7e525bc1-6986-414c-acc0-e011dfd7b84b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '134'
 ht-degree: 2%
 
 ---
 
-
-# eliminar{#dispose}
+# dispose{#dispose}
 
 Referencia de la API de JavaScript para el visor de zoom en línea.
 
@@ -40,4 +39,3 @@ Ninguno.
 ```
 <instance>.dispose()
 ```
-
