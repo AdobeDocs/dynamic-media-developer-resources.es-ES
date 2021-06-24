@@ -4,14 +4,13 @@ solution: Experience Manager
 title: objeto
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 64846f8f-ebc6-446c-8277-04c45111dc24
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '498'
 ht-degree: 1%
 
 ---
-
 
 # objeto{#object}
 
@@ -56,7 +55,7 @@ Consulte *Administración de contenido* en la *Guía de configuración del servi
 >
 >Los caracteres de coma &#39;,&#39; no están permitidos en *`object.`*
 
-## Formatos de archivo de imagen admitidos {#section-12c85aead78e4f759856ca9ff10637d7}
+## Formatos de archivo de imagen compatibles {#section-12c85aead78e4f759856ca9ff10637d7}
 
 Consulte la descripción de la utilidad IC (Image Converter) para obtener una lista completa de los formatos de archivo admitidos.
 
