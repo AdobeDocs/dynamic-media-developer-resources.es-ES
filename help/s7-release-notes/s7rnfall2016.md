@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Versión de otoño de 2016 de Scene7
 feature: Dynamic Media Classic
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 23091ef7-750a-4ec2-9d03-1d713f436991
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '2238'
+source-wordcount: '2235'
 ht-degree: 0%
 
 ---
-
 
 # Versión de otoño de 2016 de Scene7{#scene-fall-release}
 
@@ -202,7 +201,7 @@ Para obtener toda la documentación, consulte [Guía de referencia de visores](h
       * Es posible que la imagen de póster no se muestre en el explorador Microsoft Edge por primera vez.
       * La imagen de póster se puede ocultar después de la carga de vídeo en Internet Explorer 9 cuando se utiliza la reproducción progresiva.
 
-## SDK 3.0.2 {#section-30e2392859c442d1aab2766d0f1d1580} del visor HTML5 de Scene7
+## SDK 3.0.2 del visor Scene7 HTML5 {#section-30e2392859c442d1aab2766d0f1d1580}
 
 La Guía del usuario se encuentra en la carpeta Adobe HTML5 Viewer SDK de la instalación del cliente. La documentación de la API de componente se encuentra en la subcarpeta docs de la instalación del cliente.
 
@@ -350,4 +349,3 @@ La Guía del usuario se encuentra en la carpeta Adobe HTML5 Viewer SDK de la ins
 
 * Utilidad IC: el indicador `downsample2x2` ya no es compatible. Este indicador era un downsampler 2x2 de mala calidad que IPS ya no utiliza.
 * Encabezado CORS : Actualmente, el encabezado CORS está configurado para solicitudes `/is/content/`.
-
