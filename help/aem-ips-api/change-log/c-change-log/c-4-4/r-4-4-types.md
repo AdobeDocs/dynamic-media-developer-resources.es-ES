@@ -5,10 +5,9 @@ title: Tipos de datos nuevos y modificados
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
 exl-id: d8800b15-b9a3-4497-8b6b-fd318458ab5a
-translation-type: tm+mt
 source-git-commit: e7c747c44d27ed1769ab872d962a814d80c0b345
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '51'
 ht-degree: 3%
 
 ---
