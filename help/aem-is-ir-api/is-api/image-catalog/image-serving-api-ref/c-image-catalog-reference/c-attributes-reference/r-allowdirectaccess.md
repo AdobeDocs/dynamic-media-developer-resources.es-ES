@@ -4,14 +4,13 @@ solution: Experience Manager
 title: AllowDirectAccess
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b4000bdf-c21a-4976-82a7-70b2261dee0b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
-
 
 # AllowDirectAccess{#allowdirectaccess}
 
@@ -63,4 +62,3 @@ Se pueden controlar los siguientes tipos:
 * Incluir ninguno, equivalente a `include:` (si `include`/ `exclude` no está presente, se asume `include`)
 
    `AllowDirectAccess=`
-
