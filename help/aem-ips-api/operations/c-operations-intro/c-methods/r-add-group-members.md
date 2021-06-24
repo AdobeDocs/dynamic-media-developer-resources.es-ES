@@ -4,14 +4,13 @@ solution: Experience Manager
 title: addGroupMembers
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: c03525e3-6bc4-4c6a-bb5b-b0cb2e6f6d0d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '106'
 ht-degree: 12%
 
 ---
-
 
 # addGroupMembers{#addgroupmembers}
 
