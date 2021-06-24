@@ -2,16 +2,15 @@
 description: Referencia de la API de JavaScript para el visor flotante.
 solution: Experience Manager
 title: setHandlers
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Flotante
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3a7b2aeb-2de5-4d4c-8974-47b6418140e6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '94'
 ht-degree: 3%
 
 ---
-
 
 # setHandlers{#sethandlers}
 
@@ -45,4 +44,3 @@ Ninguno.
 } 
 })
 ```
-
