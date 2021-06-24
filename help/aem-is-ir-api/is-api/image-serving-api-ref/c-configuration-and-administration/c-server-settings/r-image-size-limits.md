@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Límites de tamaño de imagen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 75ec58ee-8c98-46cb-96b2-79d1c32e576f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
-
 
 # Límites de tamaño de imagen{#image-size-limits}
 
@@ -29,11 +28,10 @@ Limita el tamaño de las imágenes que puede producir el servidor de imágenes (
 
 Limita el tamaño de las imágenes que el Image Server escribirá en los archivos con el comando `req=saveToFile`. Valor entero mayor que 0 en millones de píxeles. Se devuelve un error si la operación de guardado de archivos supera ese límite. El valor predeterminado es de 100 millones de píxeles.
 
-## IS::MaxNonDsfSize - Límite de tamaño para imágenes de entrada que no sean PTIFF {#section-50de28a7158a436393cce5da0d1e4d46}
+## IS::MaxNonDsfSize - Límite De Tamaño Para Imágenes De Entrada Que No Sean PTIFF {#section-50de28a7158a436393cce5da0d1e4d46}
 
 El tamaño máximo (en píxeles) de imágenes que no son PTIFF que el servidor de imágenes puede abrir. El servicio de imágenes devolverá un error cuando se intente acceder a una imagen que no sea de PTIFF y que supere este límite.
 
 >[!NOTE]
 >
 >Si establece este valor demasiado alto, puede causar que el servidor de imágenes se vea privado de memoria y provocar errores, incluidos bloqueos.
-
