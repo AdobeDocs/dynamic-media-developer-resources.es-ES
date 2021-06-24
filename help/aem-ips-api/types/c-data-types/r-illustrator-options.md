@@ -4,14 +4,13 @@ solution: Experience Manager
 title: IllustratorOptions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f6c06fe3-5dfa-4885-9083-c6c41ae0e0ea
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '64'
 ht-degree: 10%
 
 ---
-
 
 # IllustratorOptions{#illustratoroptions}
 
@@ -27,4 +26,3 @@ Sintaxis
 | `*`resolution`*` | `xsd:string` | Resolución de archivos. |
 | `*`colorSpace`*` | `xsd:string` | Espacio de color de destino. |
 | `*`alpha`*` | `xsd:boolean` | Si se va a rasterizar el archivo en una imagen. Si es así, cree un fondo transparente si el archivo original está definido de esta manera para crear logotipos superpuestos. |
-
