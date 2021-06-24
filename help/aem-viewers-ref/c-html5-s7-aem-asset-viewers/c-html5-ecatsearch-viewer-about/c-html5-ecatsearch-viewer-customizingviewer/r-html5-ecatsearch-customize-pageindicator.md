@@ -2,16 +2,15 @@
 description: El indicador de página muestra el índice de página actual y el recuento total de páginas. Aparece en la barra de control principal en sistemas de escritorio y tabletas, en teléfonos móviles se agrega a la barra de control secundaria. CSS puede cambiar el tamaño, el aspecto y la posición del indicador de página.
 solution: Experience Manager
 title: Indicador de página
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 38241e96-ee7f-4dc1-a2a6-4a76e25b00dc
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '260'
 ht-degree: 4%
 
 ---
-
 
 # Indicador de página{#page-indicator}
 
@@ -82,4 +81,3 @@ Ejemplo: para configurar un indicador de página de 56 x 28 píxeles, centrado h
  font-size:14px; 
 }
 ```
-
