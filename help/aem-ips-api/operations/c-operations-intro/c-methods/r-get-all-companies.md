@@ -4,14 +4,13 @@ solution: Experience Manager
 title: getAllCompanies
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 0e339ecf-83b5-410c-8683-f3d73bd92339
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 19%
+source-wordcount: '75'
+ht-degree: 20%
 
 ---
-
 
 # getAllCompanies{#getallcompanies}
 
@@ -70,4 +69,3 @@ Este ejemplo de código devuelve todas las empresas en IPS en una matriz. Tenga 
    </ns1:companyArray>
 </ns1:getAllCompaniesReturn>
 ```
-
