@@ -4,16 +4,15 @@ solution: Experience Manager
 title: Administración de fuentes
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: f24edd53-4b21-4147-9b50-95e616279aa8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '237'
 ht-degree: 1%
 
 ---
 
-
-# Tratamiento de fuentes{#font-handling}
+# Administración de fuentes{#font-handling}
 
 Todas las fuentes a las que se hace referencia en la cadena RTF deben estar disponibles en el archivo de asignación de fuentes del catálogo predeterminado o del catálogo de imágenes actual; de lo contrario, se devuelve un error.
 
