@@ -4,14 +4,13 @@ solution: Experience Manager
 title: viñeta
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 8419d68d-7579-4e62-abbd-7dc0a736ae23
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '127'
 ht-degree: 4%
 
 ---
-
 
 # viñeta{#vignette}
 
