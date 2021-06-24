@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Ver atributos
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 18e1ee40-fe34-435a-be97-849b08618d48
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '117'
 ht-degree: 1%
 
 ---
-
 
 # Ver atributos{#view-attributes}
 
@@ -71,4 +70,3 @@ Estos comandos son independientes de la posición y pueden producirse en cualqui
   <td class="stentry"> <p>Anule el comportamiento predeterminado de almacenamiento en caché de respuestas. </p></td> 
  </tr> 
 </table>
-
