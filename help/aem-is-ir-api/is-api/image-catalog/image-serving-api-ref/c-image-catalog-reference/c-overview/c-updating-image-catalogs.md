@@ -4,16 +4,15 @@ solution: Experience Manager
 title: Actualización de catálogos de imágenes
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b520b4f3-6717-4768-99e2-78a76d1ede24
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
 
-
-# Actualizando catálogos de imágenes{#updating-image-catalogs}
+# Actualización de catálogos de imágenes{#updating-image-catalogs}
 
 El servidor supervisa continuamente la carpeta del catálogo y vuelve a cargar automáticamente un catálogo de imágenes, incluidos los archivos de datos del catálogo asociados, cuando detecta que se ha cambiado el archivo de atributos del catálogo principal.
 
