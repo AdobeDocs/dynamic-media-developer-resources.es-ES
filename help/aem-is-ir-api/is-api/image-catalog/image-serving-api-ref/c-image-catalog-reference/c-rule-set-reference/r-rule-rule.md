@@ -4,14 +4,13 @@ solution: Experience Manager
 title: regla
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4fabd469-c80c-422a-80b0-3d31ce191d58
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '302'
 ht-degree: 6%
 
 ---
-
 
 # regla{#rule}
 
