@@ -4,16 +4,15 @@ solution: Experience Manager
 title: Servicio de contenido estático (no de imagen)
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: adc3d972-b02d-40db-992e-acaa06b848ff
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '467'
 ht-degree: 1%
 
 ---
 
-
-# Servir contenido estático (no imagen){#serving-static-non-image-contents}
+# Servicio de contenido estático (no de imagen){#serving-static-non-image-contents}
 
 Puede utilizar el servicio de imágenes para administrar el contenido que no sea de imagen en los catálogos y servirlo a través de un contexto /is/content independiente.
 
