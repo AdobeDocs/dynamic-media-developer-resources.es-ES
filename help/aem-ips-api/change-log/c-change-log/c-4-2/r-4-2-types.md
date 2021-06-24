@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Tipos de datos nuevos y modificados
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 3917e778-bd28-4047-b9f8-3063f136e492
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '56'
 ht-degree: 3%
 
 ---
-
 
 # Tipos de datos: Nuevo y modificado{#data-types-new-and-modified}
 
@@ -64,4 +63,3 @@ Parámetros añadidos:
 
 * `preservePublishState`
 * `preserveCrop`
-
