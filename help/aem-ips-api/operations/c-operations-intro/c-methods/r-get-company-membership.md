@@ -4,14 +4,13 @@ solution: Experience Manager
 title: getCompanyMembership
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 53af8a97-208c-4c44-93d6-aa36a459af51
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '86'
 ht-degree: 17%
 
 ---
-
 
 # getCompanyMembership{#getcompanymembership}
 
@@ -73,4 +72,3 @@ Este ejemplo de código toma un identificador de usuario y obtiene todas las sus
     </membershipArray>
 </getCompanyMembershipReturn>
 ```
-
