@@ -4,16 +4,15 @@ solution: Experience Manager
 title: enfocado
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 7921ceba-e249-4aab-823e-c54705c4a7c3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '130'
 ht-degree: 6%
 
 ---
 
-
-# Sharp{#sharp}
+# enfocado{#sharp}
 
 Enfoque la textura. Especifica la nitidez que se aplicará al procesar este material.
 
