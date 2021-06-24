@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Métodos de operaciones
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 020c8e63-ad4e-4c0d-8da6-b51efb2b89a5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
-
 
 # Métodos de operaciones{#operations-methods}
 
