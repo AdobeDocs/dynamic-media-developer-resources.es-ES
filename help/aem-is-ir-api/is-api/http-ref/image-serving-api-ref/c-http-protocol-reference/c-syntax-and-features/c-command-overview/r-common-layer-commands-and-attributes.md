@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Comandos de capa comunes
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c95d198c-757f-405e-ba08-094cd402c929
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '141'
 ht-degree: 3%
 
 ---
-
 
 # Comandos de capa comunes{#common-layer-commands}
 
@@ -63,4 +62,3 @@ Estos comandos se aplican a las capas de imagen, texto y color sólido. La mayor
   <td class="stentry"> <p>Ocultar la capa. </p></td> 
  </tr> 
 </table>
-
