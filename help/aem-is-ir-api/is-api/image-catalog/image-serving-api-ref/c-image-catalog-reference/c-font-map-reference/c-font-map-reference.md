@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Referencia de mapa de fuentes
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b04e89ee-ae69-41c0-bd62-0929d21980c0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '106'
 ht-degree: 2%
 
 ---
-
 
 # Referencia de mapa de fuentes{#font-map-reference}
 
