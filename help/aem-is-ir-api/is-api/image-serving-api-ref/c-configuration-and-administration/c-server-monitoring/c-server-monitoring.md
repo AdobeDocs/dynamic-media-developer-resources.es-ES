@@ -4,16 +4,15 @@ solution: Experience Manager
 title: Supervisión del servidor
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c751d653-da5d-4573-99fd-fb9113977160
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '78'
 ht-degree: 2%
 
 ---
 
-
-# Monitorización del servidor{#server-monitoring}
+# Supervisión del servidor{#server-monitoring}
 
 El servidor se puede configurar para que envíe alertas por correo electrónico cuando se superen determinados umbrales de rendimiento o error. El sistema supervisa colectivamente todas las aplicaciones web implementadas en el servidor.
 
