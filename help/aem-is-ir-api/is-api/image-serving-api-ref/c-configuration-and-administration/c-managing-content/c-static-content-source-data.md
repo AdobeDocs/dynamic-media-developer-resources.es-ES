@@ -4,16 +4,15 @@ solution: Experience Manager
 title: Datos de fuente de contenido estático
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3cf01fc2-c925-4039-8e03-cb909cca6a51
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
 
-
-# Datos de origen de contenido estático{#static-content-source-data}
+# Datos de fuente de contenido estático{#static-content-source-data}
 
 Solo Platform Server accede a los archivos de datos de origen de contenido estático.
 
