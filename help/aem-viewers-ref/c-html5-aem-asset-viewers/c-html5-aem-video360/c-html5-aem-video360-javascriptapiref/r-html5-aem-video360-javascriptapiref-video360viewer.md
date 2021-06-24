@@ -2,18 +2,17 @@
 description: Referencia de la API de JavaScript para el visualizador de Video360.
 solution: Experience Manager
 title: Visor de vídeos360
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
 role: Developer,Business Practitioner
 exl-id: ab22ff22-45a7-490e-932d-7c885ff5c3a9
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '212'
 ht-degree: 5%
 
 ---
 
-# Visor de vídeo 360a{#video-viewer}
+# Visor de vídeos360{#video-viewer}
 
 Referencia de la API de JavaScript para el visualizador de Video360.
 
