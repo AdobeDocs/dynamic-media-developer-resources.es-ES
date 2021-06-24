@@ -2,16 +2,15 @@
 description: Busque recursos en función de los criterios especificados.
 solution: Experience Manager
 title: searchAssets
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,Administración de activos
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 58bd80e4-e9eb-43e4-8508-04e330f0ad26
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '635'
 ht-degree: 12%
 
 ---
-
 
 # searchAssets{#searchassets}
 
@@ -272,4 +271,3 @@ Este ejemplo de código busca recursos de imagen que pertenecen a una empresa es
     </assetArray>
 </searchAssetsReturn>
 ```
-
