@@ -2,16 +2,15 @@
 description: Referencia de la API de JavaScript para el visor flotante.
 solution: Experience Manager
 title: setParams
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Flotante
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: bd26292d-f9c6-4e67-8cc1-c74336d50860
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '103'
 ht-degree: 1%
 
 ---
-
 
 # setParams{#setparams}
 
@@ -41,4 +40,3 @@ Ninguno.
 ```
 <instance>.setParams("FlyoutZoomView.zoomfactor=2,3&Swatches.iscommand=op_sharpen%3d1")
 ```
-
