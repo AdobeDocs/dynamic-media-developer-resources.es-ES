@@ -2,16 +2,15 @@
 description: El área de vista principal es el área ocupada por la imagen del catálogo. Normalmente se configura para que se ajuste a la pantalla de dispositivo disponible cuando no se especifica ningún tamaño.
 solution: Experience Manager
 title: Área del visor principal
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 854f5fa7-f46d-4c4f-9a44-886fec93f606
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '124'
 ht-degree: 2%
 
 ---
-
 
 # Área del visor principal{#main-viewer-area}
 
@@ -59,4 +58,3 @@ Ejemplo: para configurar un visualizador con un fondo blanco ( `#FFFFFF`) y hace
  height: 288px;  
 }
 ```
-
