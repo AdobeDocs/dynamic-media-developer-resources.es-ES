@@ -4,16 +4,15 @@ solution: Experience Manager
 title: Enfocar
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 9a540b86-4d00-47db-8a1d-1d2b186ce87b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 12%
+source-wordcount: '53'
+ht-degree: 13%
 
 ---
 
-
-# Enfoque{#sharpen}
+# Enfocar{#sharpen}
 
 Afilado predeterminado de la imagen de respuesta. Especifica si se van a enfocar las imágenes de respuesta si se han escalado antes de la codificación.
 
