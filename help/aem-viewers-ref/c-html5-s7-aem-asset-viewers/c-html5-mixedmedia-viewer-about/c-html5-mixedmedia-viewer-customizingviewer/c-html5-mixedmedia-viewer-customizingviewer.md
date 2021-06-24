@@ -3,16 +3,15 @@ description: Toda la personalización visual y la mayor parte de la personalizac
 keywords: adaptable
 solution: Experience Manager
 title: Personalización del visualizador de medios mixtos
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3bea8efb-faf8-4909-b51a-0b9964fcd735
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '1340'
+source-wordcount: '1337'
 ht-degree: 0%
 
 ---
-
 
 # Personalización del visualizador de medios mixtos{#customizing-mixed-media-viewer}
 
@@ -36,7 +35,7 @@ Al crear CSS personalizada, tenga en cuenta que el visor asigna la clase `.s7mix
 
 `#<containerId>.s7mixedmediaviewer`
 
-## Creación de CSS diseñada adaptable {#section-0bb49aca42d242d9b01879d5ba59d33b}
+## Creación de una CSS diseñada adaptable {#section-0bb49aca42d242d9b01879d5ba59d33b}
 
 Es posible dirigirse a diferentes dispositivos e incrustar tamaños en CSS para que el contenido se muestre de forma diferente, según el dispositivo del usuario o un diseño de página web concreto. Esto incluye, entre otros, diferentes diseños de página web, tamaños de elementos de interfaz de usuario y resolución de ilustraciones.
 
