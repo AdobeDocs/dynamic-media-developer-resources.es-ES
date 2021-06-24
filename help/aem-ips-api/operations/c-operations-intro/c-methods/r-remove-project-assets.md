@@ -2,16 +2,15 @@
 description: Quita los recursos de un proyecto. No destruye los recursos.
 solution: Experience Manager
 title: removeProjectAssets
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,Administración de activos
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 6bf169ec-c724-4ac0-a2bf-67af2ebba21a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '185'
 ht-degree: 10%
 
 ---
-
 
 # removeProjectAssets{#removeprojectassets}
 
@@ -63,4 +62,3 @@ Este ejemplo de código elimina 2 recursos de un proyecto (especificado por el g
    </assetHandleArray>
 </removeProjectAssetsParam>
 ```
-
