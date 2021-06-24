@@ -4,14 +4,13 @@ solution: Experience Manager
 title: resMode
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 0926dcfe-881c-4b52-b08d-c56afa0ba04d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '181'
 ht-degree: 13%
 
 ---
-
 
 # resMode{#resmode}
 
