@@ -4,14 +4,13 @@ solution: Experience Manager
 title: batchSetIccProfileFields
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: d10a30ca-afa7-4ef0-8cef-0329b0068bf3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 13%
+source-wordcount: '142'
+ht-degree: 14%
 
 ---
-
 
 # batchSetIccProfileFields{#batchseticcprofilefields}
 
@@ -74,4 +73,3 @@ Sintaxis
    <errorCount>0</errorCount>
 </batchSetIccProfileFieldsReturn>
 ```
-
