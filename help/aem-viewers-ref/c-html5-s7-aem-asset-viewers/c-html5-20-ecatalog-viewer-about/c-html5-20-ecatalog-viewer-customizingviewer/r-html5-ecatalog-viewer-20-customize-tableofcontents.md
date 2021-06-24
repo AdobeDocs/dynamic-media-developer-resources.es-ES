@@ -2,16 +2,15 @@
 description: La tabla de contenido es un botón ubicado en la barra de control principal. Cuando se activa, aparece un panel desplegable con una lista de índices y etiquetas de página.
 solution: Experience Manager
 title: Tabla de contenido
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 9b61e269-201d-4083-9c47-0b73d55aa6ed
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '1068'
+source-wordcount: '1065'
 ht-degree: 2%
 
 ---
-
 
 # Tabla de contenido{#table-of-contents}
 
@@ -464,4 +463,3 @@ Ejemplo: configure botones de desplazamiento de 28 x 32 píxeles con distintas i
  background-image:url(images/v2/ThumbnailScrollDownButton_dark_up.png); 
 }
 ```
-
