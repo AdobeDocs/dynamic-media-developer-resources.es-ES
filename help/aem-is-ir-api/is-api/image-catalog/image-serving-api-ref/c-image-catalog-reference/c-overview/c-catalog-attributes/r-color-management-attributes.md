@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Atributos de administración de color
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: ded6bfe7-3e39-4e45-83f0-21e9bf92895f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
-
 
 # Atributos de administración de color{#color-management-attributes}
 
@@ -55,4 +54,3 @@ Los archivos de atributos del catálogo reconocen estos atributos de administrac
   <td class="stentry"> <p>Habilite o deshabilite el vaciado de conversión de color. </p></td> 
  </tr> 
 </table>
-
