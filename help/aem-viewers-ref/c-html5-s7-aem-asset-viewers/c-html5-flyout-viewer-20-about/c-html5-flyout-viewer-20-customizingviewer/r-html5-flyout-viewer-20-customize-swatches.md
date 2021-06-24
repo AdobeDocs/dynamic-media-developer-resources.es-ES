@@ -2,16 +2,15 @@
 description: Las muestras constan de una fila de imágenes en miniatura con botones de desplazamiento opcionales en los lados izquierdo y derecho.
 solution: Experience Manager
 title: Muestras
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Flotante
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 7040edf2-4356-4493-b886-8c5694f5863a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '442'
 ht-degree: 3%
 
 ---
-
 
 # Muestras{#swatches}
 
@@ -224,4 +223,3 @@ background-image:url(images/v2/ScrollRightButton_up.png);
  background-image:url(images/v2/ScrollRightButton_disabled.png); 
 }
 ```
-
