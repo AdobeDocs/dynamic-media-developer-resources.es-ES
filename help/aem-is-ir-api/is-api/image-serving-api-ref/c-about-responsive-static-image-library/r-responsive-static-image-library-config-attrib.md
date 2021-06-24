@@ -4,14 +4,13 @@ solution: Experience Manager
 title: 'Referencia de comandos: Atributos de configuración'
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 8cc645f8-03fe-4ac7-b23f-36536b60fdf6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 0%
+source-wordcount: '500'
+ht-degree: 1%
 
 ---
-
 
 # Referencia de comandos: Atributos de configuración{#command-reference-configuration-attributes}
 
@@ -100,4 +99,3 @@ El elemento de imagen asociado distribuye un evento `s7responsiveViewer` durante
            } 
         });
 ```
-
