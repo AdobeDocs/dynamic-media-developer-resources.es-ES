@@ -4,14 +4,13 @@ solution: Experience Manager
 title: JobLogDetail
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: fe41a48a-4671-4179-a128-aadc7bc0683b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '66'
 ht-degree: 7%
 
 ---
-
 
 # JobLogDetail{#joblogdetail}
 
@@ -29,4 +28,3 @@ Sintaxis
 | `*`assetType`*` | `xsd:string` | Opción del tipo de recurso. |
 | `*`assetHandle`*` | `xsd:string` | Identificador de recurso al que se hace referencia en el registro de trabajos. |
 | `*`auxArray`*` | `types:JobLogDetailAuxArray` | Proporciona información adicional detallada del registro de trabajos más allá de los cinco tipos de registro de trabajos descritos anteriormente. |
-
