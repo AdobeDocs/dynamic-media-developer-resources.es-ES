@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Configuración y administración del servidor
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 357e5660-1e62-4aa0-91c2-696cacac8f86
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '74'
 ht-degree: 0%
 
 ---
-
 
 # Configuración y administración del servidor{#configuring-and-managing-the-server}
 
