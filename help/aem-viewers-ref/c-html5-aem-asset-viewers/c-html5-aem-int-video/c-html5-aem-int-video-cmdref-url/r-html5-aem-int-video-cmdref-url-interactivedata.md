@@ -2,13 +2,12 @@
 description: URL para el visualizador de vídeo interactivo.
 solution: Experience Manager
 title: interactivedata
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
 role: Developer,Business Practitioner
 exl-id: f9f5aa7a-3e0a-434a-8623-b439c9b6f18b
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '102'
 ht-degree: 5%
 
 ---
