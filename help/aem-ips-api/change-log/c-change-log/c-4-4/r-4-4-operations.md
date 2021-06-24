@@ -5,10 +5,9 @@ title: Operaciones nuevas y modificadas
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
 exl-id: f51bb85e-5585-49ad-87c6-57c5e62531c7
-translation-type: tm+mt
 source-git-commit: e7c747c44d27ed1769ab872d962a814d80c0b345
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '43'
 ht-degree: 2%
 
 ---
