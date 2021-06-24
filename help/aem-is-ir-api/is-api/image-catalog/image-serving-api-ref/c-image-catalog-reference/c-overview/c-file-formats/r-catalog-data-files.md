@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Archivos de datos del catálogo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4aa20abe-4f84-470b-b5a1-3d9246ab1792
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
-
 
 # Archivos de datos del catálogo{#catalog-data-files}
 
