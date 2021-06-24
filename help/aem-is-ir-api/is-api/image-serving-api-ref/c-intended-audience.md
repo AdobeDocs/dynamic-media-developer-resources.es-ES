@@ -4,16 +4,15 @@ solution: Experience Manager
 title: Audiencia prevista
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 77d48361-5b33-4337-bc3d-c0d3de8607ba
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
 
-
-# Audiencia de destino{#intended-audience}
+# Audiencia prevista{#intended-audience}
 
 Programadores experimentados y desarrolladores de sitios web que deseen aprovechar Dynamic Media Image Serving para un sitio web o una aplicación personalizada.
 
