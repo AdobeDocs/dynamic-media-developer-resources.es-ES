@@ -2,18 +2,17 @@
 description: Referencia de la API de JavaScript para el visualizador de medios mixtos.
 solution: Experience Manager
 title: dispose
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e09f73a9-a961-4188-b092-f7bbcae4946d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '135'
 ht-degree: 2%
 
 ---
 
-
-# eliminar{#dispose}
+# dispose{#dispose}
 
 Referencia de la API de JavaScript para el visualizador de medios mixtos.
 
@@ -40,4 +39,3 @@ Ninguno.
 ```
 <instance>.dispose()
 ```
-
