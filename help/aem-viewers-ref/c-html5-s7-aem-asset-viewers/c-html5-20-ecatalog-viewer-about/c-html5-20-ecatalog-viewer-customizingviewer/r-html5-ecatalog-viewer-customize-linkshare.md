@@ -1,21 +1,20 @@
 ---
-description: La herramienta Compartir vínculos consiste en un botón agregado al panel Compartir en Social y el cuadro de diálogo modal que se muestra cuando se activa la herramienta. La posición del botón la gestiona completamente la herramienta de uso compartido de Social.
+description: La herramienta Compartir vínculos consiste en un botón agregado al panel Compartir en Social y el cuadro de diálogo modal que se muestra cuando se activa la herramienta. La posición del botón la gestiona completamente la herramienta de uso compartido de Social .
 solution: Experience Manager
 title: Compartir vínculos
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: eeb5b2c7-688e-42a1-bfe6-3f29e509baed
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1391'
 ht-degree: 2%
 
 ---
 
-
 # Compartir vínculos{#link-share}
 
-La herramienta Compartir vínculos consiste en un botón agregado al panel Compartir en Social y el cuadro de diálogo modal que se muestra cuando se activa la herramienta. La posición del botón la gestiona completamente la herramienta de uso compartido de Social.
+La herramienta Compartir vínculos consiste en un botón agregado al panel Compartir en Social y el cuadro de diálogo modal que se muestra cuando se activa la herramienta. La posición del botón la gestiona completamente la herramienta de uso compartido de Social .
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
@@ -713,4 +712,3 @@ Ejemplo: para establecer el vínculo compartido en 450 píxeles de ancho:
     width: 450px; 
 }
 ```
-
