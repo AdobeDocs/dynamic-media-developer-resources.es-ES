@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Configuración avanzada de procesamiento
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 0ad8f4b4-dd9c-43f5-aacc-67a564e34d92
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '612'
 ht-degree: 25%
 
 ---
-
 
 # Configuración avanzada de procesamiento{#advanced-render-settings}
 
@@ -23,7 +22,7 @@ La herramienta de creación de viñetas (parte del paquete de creación de imág
 
 Estos ajustes se controlan de forma interactiva en la creación de imágenes. Es posible aplicar la misma configuración en Representación de imágenes mediante el comando `rs=` (o con el valor `catalog::RenderSettings`). Este mecanismo se utiliza para seleccionar diferentes opciones de nitidez para cada material y modificar el comportamiento de los algoritmos de renderización de iluminación, como la variación de la saturación de los resaltados o el contraste en las sombras.
 
-## Valores {#section-d9e7f341ebd44f07a4e90f1f5910726b} de configuración de procesamiento avanzada (rs=)
+## Valores de Configuración avanzada de procesamiento (rs=) {#section-d9e7f341ebd44f07a4e90f1f5910726b}
 
 <table id="table_1517FC39C7344EBB9F17BE20415DB057"> 
  <thead> 
@@ -53,14 +52,14 @@ Estos ajustes se controlan de forma interactiva en la creación de imágenes. Es
   <tr> 
    <td colname="col1"> <p>W </p> </td> 
    <td colname="col2"> <p>Cantidad de USM (%). </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>500 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>V </p> </td> 
    <td colname="col2"> <p>Radio USM (píxeles). </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>100 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
@@ -299,7 +298,7 @@ Estos ajustes se controlan de forma interactiva en la creación de imágenes. Es
  </tbody> 
 </table>
 
-## Configuración avanzada de procesamiento de ejemplo {#section-56528569eae44ecd997a289b211ff256}
+## Configuración avanzada de procesamiento de muestra {#section-56528569eae44ecd997a289b211ff256}
 
 <table id="table_062DCF66ACCC4A6997E3CA951C0A12B8"> 
  <thead> 
