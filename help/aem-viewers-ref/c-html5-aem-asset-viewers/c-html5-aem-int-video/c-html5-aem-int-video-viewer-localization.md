@@ -2,13 +2,12 @@
 description: El contenido que muestra el visualizador de vídeo interactivo está sujeto a localización. Esto incluye información del elemento de la interfaz de usuario y un mensaje de error que se muestra cuando el vídeo no se puede reproducir.
 solution: Experience Manager
 title: Localización de los elementos de la interfaz de usuario
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
 role: Developer,Business Practitioner
 exl-id: d293c385-d355-4d9e-9fe9-8ef35fef60bf
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -155,11 +154,11 @@ Se admiten los siguientes SÍMBOLOS:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FacebookShare.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Botón Compartir de Facebook. </p> </td> 
+   <td colname="col2"> <p>Botón Compartir de facebook. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Botón Compartir en Twitter. </p> </td> 
+   <td colname="col2"> <p>Botón Compartir de twitter. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> CloseButton.TOOLTIP  </span> </p> </td> 
