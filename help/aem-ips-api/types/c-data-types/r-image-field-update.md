@@ -4,14 +4,13 @@ solution: Experience Manager
 title: ImageFieldUpdate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 82bc016b-8a2b-4811-a0b4-1e2a93add3b6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 8%
+source-wordcount: '66'
+ht-degree: 9%
 
 ---
-
 
 # ImageFieldUpdate{#imagefieldupdate}
 
@@ -28,4 +27,3 @@ Sintaxis
 | `*`anchorX`*` | `xsd:int` | Anclaje de imagen del eje X. |
 | `*`anchorY`*` | `xsd:int` | Anclaje de imagen del eje Y. |
 | `*`Datos de usuario`*` | `xsd:string` | Valor del campo de metadatos `userData`, que se publica en el campo del catálogo de datos del usuario que sirve la imagen. |
-
