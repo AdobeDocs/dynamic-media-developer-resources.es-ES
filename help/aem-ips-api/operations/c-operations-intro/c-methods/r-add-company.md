@@ -4,14 +4,13 @@ solution: Experience Manager
 title: addCompany
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 2f834fe8-a621-4a41-9473-8ef53294b348
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '175'
 ht-degree: 12%
 
 ---
-
 
 # addCompany{#addcompany}
 
@@ -101,4 +100,3 @@ En este ejemplo se muestra una solicitud para agregar una empresa al sistema IPS
    </ns1:companyInfo>
 </ns1:addCompanyReturn>
 ```
-
