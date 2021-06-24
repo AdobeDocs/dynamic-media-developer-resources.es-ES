@@ -3,16 +3,15 @@ description: Personalización del visor de vídeo
 keywords: adaptable
 solution: Experience Manager
 title: Personalización del visor de vídeo
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 90dc93ee-fdd0-41c9-9eef-4c9952198356
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
-
 
 # Personalización del visor de vídeo{#customizing-video-viewer}
 
@@ -32,7 +31,7 @@ Cuando cree CSS personalizada, recuerde que el visor asigna la clase `.s7videovi
 
 `#<containerId>.s7videoviewer`
 
-## Creación de CSS diseñada adaptable {#section-63e8f93ee2f14fd8bba1ce33a6870b80}
+## Creación de una CSS diseñada adaptable {#section-63e8f93ee2f14fd8bba1ce33a6870b80}
 
 Es posible dirigirse a diferentes dispositivos en CSS para que el contenido se muestre de forma diferente en función del dispositivo del usuario. Esta segmentación incluye, entre otros, diferentes tamaños de elementos de la interfaz de usuario y resolución de ilustraciones.
 
