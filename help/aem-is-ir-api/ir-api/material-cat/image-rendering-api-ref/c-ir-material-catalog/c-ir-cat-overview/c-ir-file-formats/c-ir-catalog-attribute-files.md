@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Archivos de atributos del catálogo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 8b5afb99-3201-4e43-93e7-e8998354204f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
-
 
 # Archivos de atributos del catálogo{#catalog-attribute-files}
 
@@ -37,4 +36,3 @@ Los archivos de atributos del catálogo constan de un conjunto de registros de t
 * Los nombres de atributos pueden consistir en cualquier combinación de letras ASCII, números, así como &quot;-&quot;, &quot;_&quot; y &quot;.&quot;
 * Si el mismo nombre de atributo se produce más de una vez en el mismo archivo de atributos, prevalecerá el último encontrado.
 * Utilice &#39;#&#39; como primer carácter para marcar cualquier registro como comentario que el analizador ignore.
-
