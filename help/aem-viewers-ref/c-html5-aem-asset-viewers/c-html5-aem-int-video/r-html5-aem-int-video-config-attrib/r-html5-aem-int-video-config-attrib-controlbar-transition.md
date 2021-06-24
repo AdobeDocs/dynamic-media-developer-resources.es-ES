@@ -2,14 +2,13 @@
 description: Atributo de configuración para el visualizador de vídeo interactivo.
 solution: Experience Manager
 title: ControlBar.transition
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
 role: Developer,Business Practitioner
 exl-id: a8bb32b4-0fd9-4887-98ef-31c3426092b6
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 3%
+source-wordcount: '123'
+ht-degree: 4%
 
 ---
 
