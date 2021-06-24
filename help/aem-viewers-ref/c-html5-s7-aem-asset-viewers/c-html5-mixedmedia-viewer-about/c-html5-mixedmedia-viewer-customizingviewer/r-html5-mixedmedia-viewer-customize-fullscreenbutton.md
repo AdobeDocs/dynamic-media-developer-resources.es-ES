@@ -2,18 +2,17 @@
 description: Este botón hace que el usuario entre o salga del modo de pantalla completa cuando hace clic en él. Se utiliza cuando el visor muestra imágenes o conjuntos de giros. Este botón no se muestra si el visor funciona en modo emergente y el sistema no admite pantalla completa nativa. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
 solution: Experience Manager
 title: Botón Pantalla completa
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 1df99614-9493-4c8a-bc51-4426b8c5467a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '318'
 ht-degree: 2%
 
 ---
 
-
-# Botón de pantalla completa{#full-screen-button}
+# Botón Pantalla completa{#full-screen-button}
 
 Este botón hace que el usuario entre o salga del modo de pantalla completa cuando hace clic en él. Se utiliza cuando el visor muestra imágenes o conjuntos de giros. Este botón no se muestra si el visor funciona en modo emergente y el sistema no admite pantalla completa nativa. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
 
@@ -110,4 +109,3 @@ background-image:url(images/exitFullBtn_down.png);
 background-image:url(images/exitFullBtn_disabled.png); } 
 }
 ```
-
