@@ -2,16 +2,15 @@
 description: Al pulsar o hacer clic en este botón, el usuario llega a la última página del catálogo. Este botón aparece en la barra de control principal de los sistemas de escritorio y tabletas; en teléfonos móviles se añade a una barra de control secundaria. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
 solution: Experience Manager
 title: Botón Última página
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: fa1ff52c-6fb1-47e7-b3d4-216fea02bbd8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 1%
+source-wordcount: '349'
+ht-degree: 2%
 
 ---
-
 
 # Botón Última página{#last-page-button}
 
@@ -96,4 +95,3 @@ background-image:url(images/v2/LastPageButton_dark_down.png);
 background-image:url(images/v2/LastPageButton_dark_disabled.png); 
 }
 ```
-
