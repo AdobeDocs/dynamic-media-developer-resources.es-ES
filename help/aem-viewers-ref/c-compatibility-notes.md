@@ -2,13 +2,12 @@
 description: Notas de compatibilidad para sistemas operativos, navegadores y dispositivos móviles.
 solution: Experience Manager
 title: Notas de compatibilidad
-feature: Dynamic Media Classic,Viewers,SDK/API
+feature: Dynamic Media Classic,Visualizadores,SDK/API
 role: Developer,Business Practitioner
 exl-id: 7ad499b1-7da6-483b-ab11-cff2eb9271da
-translation-type: tm+mt
 source-git-commit: 62234233bb1a5bcbd0eac5d281b42ed785c0c169
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '413'
 ht-degree: 1%
 
 ---
@@ -30,12 +29,12 @@ Notas de compatibilidad para sistemas operativos, navegadores y dispositivos mó
 * En los navegadores Internet Explorer y en algunos dispositivos táctiles, el modo de pantalla completa no ocupa toda la pantalla del dispositivo. En su lugar, cambia el tamaño de la aplicación al tamaño de la ventana del explorador.
 * El botón Cerrar no funciona en iOS 8.0 e iOS 8.1 pero funciona en iOS 8.2.
 
-## Galaxy SIII {#section-dfd5f46f39834223b544b1e2f7a770c1}
+## Galaxia SIII {#section-dfd5f46f39834223b544b1e2f7a770c1}
 
 * Fuga de memoria vista con los visores Zoom y eCatalog. La navegación repetida por marcos hace que el explorador se bloquee.
 * Al tocar dos veces un visor, toda la página se amplía en lugar de solo el visor con el escalado del lado del navegador activado.
 
-## Galaxy S4 {#section-7effabfea75b488399e0f71cab4ce76b}
+## Galaxia S4 {#section-7effabfea75b488399e0f71cab4ce76b}
 
 * Dispositivo detectado como tableta en modo vertical con pantalla completa marcada en la configuración del navegador.
 
