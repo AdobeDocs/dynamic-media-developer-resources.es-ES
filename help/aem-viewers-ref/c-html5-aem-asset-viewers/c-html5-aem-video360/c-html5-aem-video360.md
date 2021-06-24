@@ -2,16 +2,15 @@
 description: El visor de vídeo HTML5 Video360 es un reproductor de vídeo de 360 grados que reproduce vídeo de flujo continuo y progresivo de 360 codificado en formato H.264, entregado desde Dynamic Media Classic o desde AEM Dynamic Media.
 solution: Experience Manager
 title: Video360
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 74dca3f6-ce89-4c5b-8459-c2c4ca8ed27c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '2593'
+source-wordcount: '2590'
 ht-degree: 0%
 
 ---
-
 
 # Video360{#video}
 
@@ -53,7 +52,7 @@ El contenido de vídeo 360 requiere una configuración de codificación superior
 
 Sin embargo, tenga en cuenta que el servicio de vídeo codificado con esta configuración de alta calidad requiere una conexión de ancho de banda alto en el dispositivo del usuario final.
 
-## Interactuar con el visualizador de Video360 {#section-642e66ca38cd4032992840ec6c0b0cd2}
+## Interaccionar con el visualizador de Video360 {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
 El visor HTML5 Video360 proporciona un conjunto de controles de interfaz de usuario estándar para la reproducción de vídeo, como el botón de reproducción/pausa, la barra de desplazamiento de vídeo, la burbuja de tiempo de vídeo, el indicador de tiempo de reproducción/tiempo total, el control de volumen y el botón de pantalla completa. Todos estos controles se agrupan en barras de control en la parte inferior de la interfaz de usuario del visor.
 
@@ -400,4 +399,3 @@ video360Viewer.init();
 </body> 
 </html>
 ```
-
