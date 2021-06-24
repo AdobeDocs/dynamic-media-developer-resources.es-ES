@@ -2,13 +2,12 @@
 description: Llamadas de retorno de eventos
 solution: Experience Manager
 title: Llamadas de retorno de eventos
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
 role: Developer,Business Practitioner
 exl-id: 24ea35c0-a0b1-4768-9336-94eb5e2d4fb2
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
