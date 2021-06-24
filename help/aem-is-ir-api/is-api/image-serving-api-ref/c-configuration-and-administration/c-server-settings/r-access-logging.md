@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Registro de acceso
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e677a617-115d-4f6e-9eb5-bdc14ad7ff24
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '691'
 ht-degree: 4%
 
 ---
-
 
 # Registro de acceso{#access-logging}
 
@@ -19,7 +18,7 @@ Utilice esta configuración del servidor para iniciar sesión en el acceso.
 
 Sintaxis
 
-## TC::directorio - Carpeta de archivo de registro {#section-5d9e2168d4504bbe9868b7d6051c9d67}
+## TC::directorio: carpeta de archivo de registro {#section-5d9e2168d4504bbe9868b7d6051c9d67}
 
 Carpeta en la que Platform Server escribe archivos de registro. Puede ser una ruta absoluta o una ruta relativa a *`install_folder`*. El valor predeterminado es [!DNL  *`install_folder`*/logs].
 
@@ -31,7 +30,7 @@ Carpeta en la que Platform Server escribe archivos de registro. Puede ser una ru
 
 Se debe conservar el número de días de archivos de registro. Los nuevos archivos de registro se crean todos los días a la medianoche. En este momento, el servidor eliminará todos los archivos de la carpeta del archivo de registro que tengan una antigüedad mayor que el número especificado de días, incluidos los escritos por el servidor de imágenes o el servidor de procesamiento. El valor predeterminado es 10.
 
-## TC::prefix - Access Log File Name {#section-1003856323b844049632710a5a056aa7}
+## TC::prefix - Nombre del archivo de registro de acceso {#section-1003856323b844049632710a5a056aa7}
 
 Prefijo de nombre del archivo en el que se escriben los datos del registro de acceso. La fecha y el sufijo del archivo ( [!DNL  *`yyyy`*-*`mm`*-*`dd`*.log]) se anexan a la cadena especificada. El nombre del archivo de registro de acceso debe ser diferente del del archivo de registro de seguimiento. El valor predeterminado es &quot; `access-`&quot;.
 
