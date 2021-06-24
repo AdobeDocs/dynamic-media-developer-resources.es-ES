@@ -4,14 +4,13 @@ solution: Experience Manager
 title: proxy del servidor de imágenes
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 0389a4af-a412-42eb-b7b4-716e47d623a0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
-
 
 # proxy del servidor de imágenes{#image-server-proxy}
 
@@ -42,10 +41,10 @@ El formato de URL para el proxy IS es muy similar al de las solicitudes IS norma
  </tr> 
 </table>
 
-## Límite de memoria de imagen integrada {#section-52f7c69ed8a341ceabf92ceee19b0f36}
+## Límite de memoria de imagen incrustada {#section-52f7c69ed8a341ceabf92ceee19b0f36}
 
 Si el dispositivo tiene un límite en el tamaño de las imágenes que se pueden incrustar en una página web, el tamaño de la imagen se restringirá a ese tamaño siempre que el formato de respuesta sea jpg. El proxy limita las respuestas a 500 MB si el dispositivo no tiene límite.
 
-## Procesamiento de back-end {#section-bdf7c294b6824de9969c97fc1f8aa6d3}
+## Procesamiento back-end {#section-bdf7c294b6824de9969c97fc1f8aa6d3}
 
 El proxy descarga, verifica y carga el archivo de datos de Device Atlas una vez al día. La verificación extrae diferentes propiedades para distintos dispositivos y las compara con los valores esperados antes de aceptar los nuevos datos.
