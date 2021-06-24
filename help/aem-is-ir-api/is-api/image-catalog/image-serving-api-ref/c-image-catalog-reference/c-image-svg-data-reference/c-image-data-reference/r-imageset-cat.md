@@ -2,16 +2,15 @@
 description: Datos del conjunto de imágenes. Proporciona un mecanismo para definir conjuntos ordenados de imágenes y atributos de control que utilizan los visualizadores de Dynamic Media.
 solution: Experience Manager
 title: ImageSet
-feature: Dynamic Media Classic,SDK/API,Image Sets
+feature: Dynamic Media Classic,SDK/API,Conjuntos de imágenes
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: eacf0553-8cec-4a1d-80a5-6fe37b92b5bf
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '691'
 ht-degree: 2%
 
 ---
-
 
 # Conjunto de imágenes{#imageset}
 
