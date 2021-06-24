@@ -2,16 +2,15 @@
 description: La barra de control secundaria es el área rectangular que contiene los botones Primera y Última página y un indicador de página cuando está disponible en CSS.
 solution: Experience Manager
 title: Barra de control secundaria
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e5d6abe8-0ae9-4ccd-b311-5895e09310b2
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '180'
 ht-degree: 2%
 
 ---
-
 
 # Barra de control secundaria{#secondary-control-bar}
 
@@ -58,4 +57,3 @@ Ejemplo: para configurar una barra de control secundaria gris de 72 píxeles de 
  height: 72px; 
 }
 ```
-
