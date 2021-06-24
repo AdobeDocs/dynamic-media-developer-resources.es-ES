@@ -2,16 +2,15 @@
 description: Adjunta los ajustes de configuración del visor a un recurso. Pueden ser un ajuste preestablecido de visualizador o el recurso de origen para el visualizador.
 solution: Experience Manager
 title: setViewerConfigSettings
-feature: Dynamic Media Classic,SDK/API,Viewer Presets
+feature: Dynamic Media Classic,SDK/API,ajustes preestablecidos de visor
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 6b70f2c3-c98b-455f-b453-bb797744dadc
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '110'
 ht-degree: 11%
 
 ---
-
 
 # setViewerConfigSettings{#setviewerconfigsettings}
 
