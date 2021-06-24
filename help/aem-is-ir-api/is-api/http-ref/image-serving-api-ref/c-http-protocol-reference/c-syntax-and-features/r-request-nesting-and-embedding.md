@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Anidado e incrustación de solicitudes
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b9c9d241-5a3d-4637-a90a-d8cdf29cc968
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
-
 
 # Anidado e incrustación de solicitudes{#request-nesting-and-embedding}
 
@@ -80,7 +79,7 @@ También se ignoran `attribute::MaxPix` y `attribute::DefaultPix` del catálogo 
 
 El resultado de la imagen de una solicitud IR anidada se puede almacenar en caché de forma opcional incluyendo `cache=on`. De forma predeterminada, el almacenamiento en caché de datos intermedios está deshabilitado. El almacenamiento en caché solo debe habilitarse cuando se espera que la imagen intermedia se reutilice en una solicitud diferente en un periodo de tiempo razonable. Se aplica la administración estándar de caché del lado del servidor. Los datos se almacenan en caché en un formato sin pérdidas.
 
-## Solicitudes de renderización FXG integradas {#section-c817e4b4f7da414ea5a51252ca7e120a}
+## Solicitudes de procesamiento FXG incrustadas {#section-c817e4b4f7da414ea5a51252ca7e120a}
 
 Cuando el procesador de gráficos FXG (también conocido como [!DNL AGMServer]) está instalado y habilitado con Image Serving, las solicitudes FXG se pueden utilizar como fuentes de capa especificándolas en comandos `src=` (o `mask=`). Utilice la siguiente sintaxis:
 
