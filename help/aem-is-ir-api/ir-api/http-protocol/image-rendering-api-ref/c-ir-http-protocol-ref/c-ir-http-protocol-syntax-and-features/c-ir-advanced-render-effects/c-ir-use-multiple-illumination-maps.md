@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Uso de mapas de iluminación múltiple
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: a6e0be23-8b8a-4b60-aac1-c692319a0bce
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '177'
 ht-degree: 0%
 
 ---
-
 
 # Uso de mapas de iluminación múltiple{#using-multiple-illumination-maps}
 
