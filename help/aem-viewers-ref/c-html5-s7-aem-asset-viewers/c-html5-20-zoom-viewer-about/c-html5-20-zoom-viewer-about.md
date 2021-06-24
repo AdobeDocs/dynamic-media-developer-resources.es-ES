@@ -25,7 +25,7 @@ Tipo de visor 502.
 
 Consulte [Requisitos y requisitos previos del sistema](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
-## Demostración de URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
+## Dirección URL de la demostración {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
 [https://s7d9.scene7.com/s7viewers/html5/ZoomViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample](https://s7d9.scene7.com/s7viewers/html5/ZoomViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample)
 
@@ -82,7 +82,7 @@ Consulte [Accesibilidad del teclado y navegación](../../c-keyboard-accessibilit
 
 ## Incrustación del visor de zoom {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Las diferentes páginas web tienen diferentes necesidades de comportamiento del visor. A veces, una página web proporciona un vínculo que, cuando se hace clic, abre el visor en una ventana independiente del explorador. En otros casos, es necesario integrar el visor directamente en la página de alojamiento. En este último caso, la página web puede tener un diseño estático o utilizar un diseño interactivo que se muestre de forma diferente en diferentes dispositivos o en diferentes tamaños de ventana del navegador. Para satisfacer estas necesidades, el visor admite tres modos de operación principales: elemento emergente, incrustación de tamaño fijo e incrustación de diseño interactivo.
+Las diferentes páginas web tienen diferentes necesidades de comportamiento del visor. A veces, una página web proporciona un vínculo que, cuando se hace clic, abre el visor en una ventana independiente del explorador. En otros casos, es necesario incrustar el visor directamente en la página de alojamiento. En este último caso, la página web puede tener un diseño estático o utilizar un diseño interactivo que se muestre de forma diferente en diferentes dispositivos o en diferentes tamaños de ventana del navegador. Para satisfacer estas necesidades, el visor admite tres modos de operación principales: elemento emergente, incrustación de tamaño fijo e incrustación de diseño interactivo.
 
 **Acerca del modo emergente**
 
@@ -118,7 +118,7 @@ En el modo de incrustación de diseño interactivo, el visor se comporta de form
 
 Si la página web establece la anchura y la altura del contenedor `DIV` del visor, este rellena esa área y sigue el tamaño que la página web proporciona. Por ejemplo, si integra el visor en una superposición modal, el tamaño de la superposición depende del tamaño de la ventana del explorador web.
 
-## Tamaño fijo incrustado {#section-44f365e6c0dd40709467a459afa82a7f}
+## Integración de tamaño fijo {#section-44f365e6c0dd40709467a459afa82a7f}
 
 Para añadir el visor a una página web, haga lo siguiente:
 
@@ -258,7 +258,7 @@ La ruta relativa tiene el siguiente aspecto:
    </html>
    ```
 
-## Diseño interactivo incrustado con una altura no restringida {#section-b9ca11a7e7aa4f74ab43244cbca37ae0}
+## Diseño interactivo con altura ilimitada {#section-b9ca11a7e7aa4f74ab43244cbca37ae0}
 
 Con la incrustación de diseño interactivo, la página web normalmente tiene algún tipo de diseño flexible en su lugar que dicta el tamaño de tiempo de ejecución del contenedor del visor `DIV`. En el siguiente ejemplo, supongamos que la página web permite que el contenedor `DIV` del visor tome el 40 % del tamaño de la ventana del explorador web, sin restringir su altura. El código HTML de la página web tendría el siguiente aspecto:
 
