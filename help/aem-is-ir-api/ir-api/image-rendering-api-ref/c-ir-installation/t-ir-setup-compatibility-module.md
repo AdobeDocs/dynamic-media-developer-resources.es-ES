@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Configuración y configuración del módulo de compatibilidad de IR 3.x
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 44fbc6be-7681-402a-936a-0511e138365c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '108'
 ht-degree: 1%
 
 ---
-
 
 # Configuración y configuración del módulo de compatibilidad de IR 3.x{#setup-and-configure-ir-x-compatibility-module}
 
