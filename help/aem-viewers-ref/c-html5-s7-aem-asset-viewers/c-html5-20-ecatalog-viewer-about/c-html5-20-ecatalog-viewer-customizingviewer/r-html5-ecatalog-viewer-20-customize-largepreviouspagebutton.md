@@ -2,18 +2,17 @@
 description: Al pulsar o hacer clic en este botón, el usuario llega a la página anterior del catálogo. Este botón aparece en la barra de control principal. Este botón no se muestra en los teléfonos móviles para ahorrar espacio en la pantalla. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
 solution: Experience Manager
 title: Botón Grande de la página anterior
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 51c2fe1a-c14e-4a87-887b-f97546a517a4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '290'
 ht-degree: 2%
 
 ---
 
-
-# Botón de página anterior grande{#large-previous-page-button}
+# Botón Grande de la página anterior{#large-previous-page-button}
 
 Al pulsar o hacer clic en este botón, el usuario llega a la página anterior del catálogo. Este botón aparece en la barra de control principal. Este botón no se muestra en los teléfonos móviles para ahorrar espacio en la pantalla. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
 
@@ -97,4 +96,3 @@ background-image:url(images/v2/LeftButton_dark_down.png);
 background-image:url(images/v2/LeftButton_dark_disabled.png); 
 }
 ```
-
