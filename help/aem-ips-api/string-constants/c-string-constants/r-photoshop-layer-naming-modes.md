@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Modos de nomenclatura de capas de Photoshop
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 9f5d6319-010f-4915-91c0-c90ceba969c0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '25'
+source-wordcount: '23'
 ht-degree: 8%
 
 ---
-
 
 # Modos de nomenclatura de capas de Photoshop{#photoshop-layer-naming-modes}
 
@@ -25,4 +24,3 @@ Sintaxis
 * [!DNL `AppendNumber`]
 * [!DNL `AppendName`]
 * [!DNL `Folders`]
-
