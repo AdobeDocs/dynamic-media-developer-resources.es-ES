@@ -3,16 +3,15 @@ description: Personalización del visor de zoom en línea
 keywords: adaptable
 solution: Experience Manager
 title: Personalización del visor de zoom en línea
-feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom en línea
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 8818bee3-dcdb-4a36-bddb-14dd10d0ea52
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1290'
 ht-degree: 0%
 
 ---
-
 
 # Personalización del visor de zoom en línea{#customizing-inline-zoom-viewer}
 
@@ -45,7 +44,7 @@ Cuando cree CSS personalizada, tenga en cuenta que el visor asigna la clase `.s7
 
 `#<containerId>.s7flyoutviewer`
 
-## Creación de CSS diseñada adaptable {#section-c1e74f5114ad418884ca1c95f5ea5b63}
+## Creación de una CSS diseñada adaptable {#section-c1e74f5114ad418884ca1c95f5ea5b63}
 
 Es posible dirigirse a diferentes dispositivos e incrustar tamaños en CSS para que el contenido se muestre de forma diferente, según el dispositivo del usuario o un diseño de página web concreto. Esto incluye, entre otros, diferentes diseños de página web, tamaños de elementos de interfaz de usuario y resolución de ilustraciones.
 
