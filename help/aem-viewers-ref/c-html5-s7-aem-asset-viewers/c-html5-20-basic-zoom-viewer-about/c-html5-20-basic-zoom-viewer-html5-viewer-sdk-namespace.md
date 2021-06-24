@@ -2,16 +2,15 @@
 description: Espacio de nombres del SDK del visor
 solution: Experience Manager
 title: Espacio de nombres del SDK del visor
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4ccdf8c2-6cf5-4cb3-af61-fab50f410566
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
-
 
 # Espacio de nombres del SDK del visor{#viewer-sdk-namespace}
 
@@ -46,4 +45,3 @@ The same code for viewer served from Dynamic Media Classic will look like this:
 } 
 }); 
 ```
-
