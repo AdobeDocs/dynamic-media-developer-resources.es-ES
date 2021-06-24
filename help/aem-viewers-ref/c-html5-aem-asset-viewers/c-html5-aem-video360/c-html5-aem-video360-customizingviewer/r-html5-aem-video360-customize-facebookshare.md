@@ -1,21 +1,20 @@
 ---
-description: La herramienta Compartir Facebook consiste en un botón agregado al panel Compartir en Social . Cuando se hace clic en el botón, el usuario se redirige a un cuadro de diálogo de uso compartido proporcionado por un servicio social. La posición del botón la gestiona completamente la herramienta de uso compartido de Social .
+description: La herramienta Compartir de facebook consiste en un botón añadido al panel Compartir en Social . Cuando se hace clic en el botón, el usuario se redirige a un cuadro de diálogo de uso compartido proporcionado por un servicio social. La posición del botón la gestiona completamente la herramienta de uso compartido de Social .
 solution: Experience Manager
-title: Compartir en Facebook
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+title: Uso compartido de facebook
+feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
 role: Developer,Business Practitioner
 exl-id: 343cde8b-796a-420f-abb7-268b3791a684
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
 
-# Compartir en Facebook{#facebook-share}
+# Uso compartido de facebook{#facebook-share}
 
-La herramienta Compartir Facebook consiste en un botón agregado al panel Compartir en Social . Cuando se hace clic en el botón, el usuario se redirige a un cuadro de diálogo de uso compartido proporcionado por un servicio social. La posición del botón la gestiona completamente la herramienta de uso compartido de Social .
+La herramienta Compartir de facebook consiste en un botón añadido al panel Compartir en Social . Cuando se hace clic en el botón, el usuario se redirige a un cuadro de diálogo de uso compartido proporcionado por un servicio social. La posición del botón la gestiona completamente la herramienta de uso compartido de Social.
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
@@ -25,7 +24,7 @@ El aspecto del botón Compartir de Facebook se controla con el siguiente selecto
 .s7video360viewer .s7facebookshare
 ```
 
-**Propiedades CSS de la herramienta Compartir de Facebook**
+**Propiedades CSS de la herramienta de uso compartido de Facebook**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
