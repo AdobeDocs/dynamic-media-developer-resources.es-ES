@@ -4,14 +4,13 @@ solution: Experience Manager
 title: DigimarcInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 87f4d8f0-02b9-4511-9151-89c58116c78d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '235'
 ht-degree: 15%
 
 ---
-
 
 # DigimarcInfo{#digimarcinfo}
 
@@ -118,7 +117,7 @@ La interpretación de `*`val1`*` y `*`val2`*` depende del `*`tipo`*`:
    <td> <p>No se usa. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>No se usa. </p> </td> 
    <td> <p>No se usa. </p> </td> 
   </tr> 
@@ -128,7 +127,7 @@ La interpretación de `*`val1`*` y `*`val2`*` depende del `*`tipo`*`:
    <td> <p>No se usa. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>ID de la transacción. </p> </td> 
    <td> <p>No se usa. </p> </td> 
   </tr> 
