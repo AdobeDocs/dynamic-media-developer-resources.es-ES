@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Ejemplo A
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 7f731b41-994d-4f1d-b42d-e14db47e4d6c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
-
 
 # Ejemplo A{#example-a}
 
@@ -53,4 +52,3 @@ Cualquier imagen puede utilizarse para la imagen de fondo y la imagen de capa 1.
 La siguiente ilustración muestra el resultado compuesto para diferentes proporciones de aspecto de la imagen de capa 1 y diferentes cadenas de texto.
 
 ![](assets/exampleausing.png)
-
