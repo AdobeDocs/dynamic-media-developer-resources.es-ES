@@ -4,14 +4,13 @@ solution: Experience Manager
 title: getTagFieldValues
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 12836783-4f9d-41d3-9b42-6e25238d7ed5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '90'
 ht-degree: 17%
 
 ---
-
 
 # getTagFieldValues{#gettagfieldvalues}
 
@@ -83,4 +82,3 @@ Sintaxis
    </fieldArray>
 </getTagFieldValuesReturn>
 ```
-
