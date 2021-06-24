@@ -4,16 +4,15 @@ solution: Experience Manager
 title: Información general sobre capas
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 31cb1f6a-74c7-4bae-8504-61649a66a970
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '58'
 ht-degree: 3%
 
 ---
 
-
-# Descripción general de capas{#layering-overview}
+# Información general sobre capas{#layering-overview}
 
 Image Serving permite combinar cualquier número de capas de imagen, texto y color sólido en una imagen compuesta.
 
