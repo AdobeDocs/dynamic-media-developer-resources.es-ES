@@ -31,7 +31,7 @@ Al crear CSS personalizada, tenga en cuenta que el visor asigna la clase `.s7eca
 
 `#<containerId>.s7ecatalogsearchviewer`
 
-## Creación de CSS diseñada adaptable {#section-c1e74f5114ad418884ca1c95f5ea5b63}
+## Creación de una CSS diseñada adaptable {#section-c1e74f5114ad418884ca1c95f5ea5b63}
 
 Es posible dirigirse a diferentes dispositivos e incrustar tamaños en CSS para que el contenido se muestre de forma diferente, según el dispositivo del usuario o un diseño de página web concreto. Esto incluye, entre otros, diferentes diseños de página web, tamaños de elementos de interfaz de usuario y resolución de ilustraciones.
 
