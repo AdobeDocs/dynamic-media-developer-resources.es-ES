@@ -4,16 +4,15 @@ solution: Experience Manager
 title: Operaciones de manipulación DOM de FXG
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 99325deb-2eb2-4c3b-ba5e-1ed64f36ba23
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '36'
+source-wordcount: '33'
 ht-degree: 0%
 
 ---
 
-
-# Operaciones de manipulación de FXG DOM{#fxg-dom-manipulation-operations}
+# Operaciones de manipulación DOM de FXG{#fxg-dom-manipulation-operations}
 
 Se admiten varias operaciones de manipulación DOM.
 
