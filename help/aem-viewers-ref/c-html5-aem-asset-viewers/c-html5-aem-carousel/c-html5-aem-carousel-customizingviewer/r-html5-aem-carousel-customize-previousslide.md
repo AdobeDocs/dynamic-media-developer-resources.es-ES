@@ -2,13 +2,12 @@
 description: Al pulsar o hacer clic en este botón, se devuelve al usuario a la diapositiva anterior del conjunto de carrusel. Este botón no se muestra en los dispositivos táctiles. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
 solution: Experience Manager
 title: diapositiva anterior
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+feature: Dynamic Media Classic,Visores,SDK/API,Banners de carrusel
 role: Developer,Business Practitioner
 exl-id: f780e62e-7238-4cc6-b382-3a21043e1079
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '248'
 ht-degree: 2%
 
 ---
