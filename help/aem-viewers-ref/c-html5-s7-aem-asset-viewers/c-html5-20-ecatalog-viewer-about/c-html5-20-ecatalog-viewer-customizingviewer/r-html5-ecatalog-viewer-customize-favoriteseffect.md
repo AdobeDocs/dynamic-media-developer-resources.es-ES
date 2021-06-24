@@ -2,18 +2,17 @@
 description: El visor muestra los iconos de Favoritos sobre la vista principal en los lugares donde el usuario lo agregó originalmente.
 solution: Experience Manager
 title: Favoritos, efecto
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e87226cf-56bf-4d54-8df5-91295eae90a8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '188'
 ht-degree: 1%
 
 ---
 
-
-# Efectos favoritos{#favorites-effect}
+# Favoritos, efecto{#favorites-effect}
 
 El visor muestra los iconos de Favoritos sobre la vista principal en los lugares donde el usuario lo agregó originalmente.
 
@@ -90,4 +89,3 @@ cursor: not-allowed;
 cursor: auto; 
 }
 ```
-
