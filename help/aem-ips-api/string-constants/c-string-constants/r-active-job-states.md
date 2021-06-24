@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Estados de trabajo activos
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: d4a7ef64-ab7f-4f8f-9c61-2aa67e67b609
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '23'
-ht-degree: 8%
+source-wordcount: '21'
+ht-degree: 9%
 
 ---
-
 
 # Estados de trabajo activos{#active-job-states}
 
@@ -28,4 +27,3 @@ Sintaxis
 * [!DNL `Running`]
 * [!DNL `Stopping`]
 * [!DNL `Done`]
-
