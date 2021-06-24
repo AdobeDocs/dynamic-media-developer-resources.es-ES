@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Modos de coincidencia de búsqueda
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 67f3b0a9-2e4b-428d-bceb-28a0599da5ce
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '33'
+source-wordcount: '31'
 ht-degree: 6%
 
 ---
-
 
 # Modos de coincidencia de búsqueda{#search-match-modes}
 
@@ -23,4 +22,3 @@ Sintaxis
 
 * [!DNL `MatchAll`]
 * [!DNL `MatchAny`]
-
