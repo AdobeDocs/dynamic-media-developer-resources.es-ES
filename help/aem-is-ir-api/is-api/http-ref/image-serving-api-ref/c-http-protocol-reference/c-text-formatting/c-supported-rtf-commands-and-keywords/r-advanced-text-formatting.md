@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Formato de texto avanzado
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: fd0e94dc-34ce-4fc1-8d52-f8647c8312b8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '242'
 ht-degree: 1%
 
 ---
-
 
 # Formato de texto avanzado{#advanced-text-formatting}
 
@@ -103,4 +102,3 @@ Utilice los siguientes comandos para aplicar formato de texto avanzado.
   </tr> 
  </tbody> 
 </table>
-
