@@ -2,16 +2,15 @@
 description: Utilizado por MetadataField/type, saveMetadataFieldParam/fieldType y createMetadataField/fieldType.
 solution: Experience Manager
 title: Tipos de campos de metadatos
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic,SDK/API,Metadatos
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: cbbe55f2-bd22-44f5-9440-f58fb45b8d9a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 1%
 
 ---
-
 
 # Tipos de campos de metadatos{#metadata-field-types}
 
@@ -37,4 +36,3 @@ Sintaxis
 
 * [!DNL `SingleTag`]: Cualquier valor de cadena individual.
 * [!DNL `String`]
-
