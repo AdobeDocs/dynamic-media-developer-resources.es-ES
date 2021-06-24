@@ -4,14 +4,13 @@ solution: Experience Manager
 title: ManualCropOptions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 829147b9-de78-4e8f-814c-ed44f714cb2e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '62'
 ht-degree: 14%
 
 ---
-
 
 # ManualCropOptions{#manualcropoptions}
 
@@ -27,4 +26,3 @@ Sintaxis
 | `*`derecha`*` | `xsd:int` | Posición derecha del recorte manual en píxeles. |
 | `*`parte superior`*` | `xsd:int` | Posición superior del recorte manual en píxeles. |
 | `*`parte inferior`*` | `xsd:int` | Posición inferior del recorte manual en píxeles. |
-
