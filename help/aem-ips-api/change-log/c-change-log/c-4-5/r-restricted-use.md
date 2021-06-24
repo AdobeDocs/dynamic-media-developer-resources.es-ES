@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Uso restringido
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 6602c5bc-9f75-4885-ae14-cab14e6afa5e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
-
 
 # Uso restringido{#restricted-use}
 
@@ -107,4 +106,3 @@ Estas operaciones y tipos están sujetos a deshabilitación, cambio o desaprobac
 * Se ha cambiado `setImageRenderingPublishSettings` para incluir un parámetro `contextHandle`opcional
 
 * Se ha cambiado `submitJob` para incluir un tipo de trabajo opcional `createVideoSitemap`
-
