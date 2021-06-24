@@ -2,18 +2,17 @@
 description: Referencia de la API de JavaScript para el visualizador de vídeo.
 solution: Experience Manager
 title: Visor de vídeos
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4ba152e6-b5a9-4e81-b9f8-aa987a1c31f9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '209'
 ht-degree: 3%
 
 ---
 
-
-# Visor de vídeo{#videoviewer}
+# Visor de vídeos{#videoviewer}
 
 Referencia de la API de JavaScript para el visualizador de vídeo.
 
@@ -68,4 +67,3 @@ defaultLocale:"en"
 } 
 });
 ```
-
