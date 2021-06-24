@@ -2,18 +2,17 @@
 description: El indicador de giro se superpone en el área de vista de giro. Se muestra cuando la imagen se encuentra en estado de restablecimiento y también depende del parámetro iconeffect.
 solution: Experience Manager
 title: Efecto Icono de vista de giro
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 1c5c73f9-c32a-4bca-93f0-c5a95756355b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '157'
 ht-degree: 1%
 
 ---
 
-
-# Efecto del icono de vista de giro{#spin-view-icon-effect}
+# Efecto Icono de vista de giro{#spin-view-icon-effect}
 
 El indicador de giro se superpone en el área de vista de giro. Se muestra cuando la imagen se encuentra en estado de restablecimiento y también depende del parámetro iconeffect.
 
@@ -70,4 +69,3 @@ background-image: url(images/spinIcon_1D.png);
 background-image: url(images/spinIcon_2D.png); 
 }
 ```
-
