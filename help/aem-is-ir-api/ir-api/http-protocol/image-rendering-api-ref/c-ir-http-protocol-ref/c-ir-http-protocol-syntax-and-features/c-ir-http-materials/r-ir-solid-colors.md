@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Colores sólidos
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 0f4f2d25-dd99-488b-89d9-88367d5a715d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '124'
 ht-degree: 3%
 
 ---
-
 
 # Colores sólidos{#solid-colors}
 
@@ -37,4 +36,3 @@ Se pueden aplicar colores sólidos a todos los objetos procesables.
   </tr> 
  </tbody> 
 </table>
-
