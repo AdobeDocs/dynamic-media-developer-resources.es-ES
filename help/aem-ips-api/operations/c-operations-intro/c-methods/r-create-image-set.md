@@ -2,16 +2,15 @@
 description: Crea un conjunto de imágenes.
 solution: Experience Manager
 title: createImageSet
-feature: Dynamic Media Classic,SDK/API,Image Sets
+feature: Dynamic Media Classic,SDK/API,Conjuntos de imágenes
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 01ccc705-97e4-4e75-a322-e24bb78cb496
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '143'
 ht-degree: 14%
 
 ---
-
 
 # createImageSet{#createimageset}
 
@@ -72,4 +71,3 @@ Este ejemplo de código crea un conjunto de imágenes especificado por empresa, 
    <assetHandle>25741|22|841</assetHandle>
 </createImageSetReturn>
 ```
-
