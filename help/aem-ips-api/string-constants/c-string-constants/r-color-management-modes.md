@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Modos de administración de color
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 10e50e6b-7c20-4a31-8e1b-9fa48de74237
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '23'
-ht-degree: 8%
+source-wordcount: '21'
+ht-degree: 9%
 
 ---
-
 
 # Modos de administración de color{#color-management-modes}
 
@@ -24,4 +23,3 @@ Sintaxis
 * [!DNL `Default`]
 * [!DNL `MaintainOriginal`]
 * [!DNL `Convert`]
-
