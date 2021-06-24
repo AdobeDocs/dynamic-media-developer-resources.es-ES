@@ -4,14 +4,13 @@ solution: Experience Manager
 title: getGroupMembers
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 81af79ee-be82-439f-9f42-a1ec09cd8ea0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '86'
 ht-degree: 17%
 
 ---
-
 
 # getGroupMembers{#getgroupmembers}
 
@@ -62,4 +61,3 @@ Este ejemplo de código devuelve una matriz de gestión de usuario que contiene 
    </userHandleArray>
 </getGroupMembersReturn>
 ```
-
