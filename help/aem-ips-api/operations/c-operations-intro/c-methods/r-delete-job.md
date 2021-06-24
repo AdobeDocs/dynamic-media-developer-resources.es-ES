@@ -4,14 +4,13 @@ solution: Experience Manager
 title: deleteJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: d38dd1e2-668e-4956-b854-54bf466d6d45
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '95'
 ht-degree: 12%
 
 ---
-
 
 # deleteJob{#deletejob}
 
