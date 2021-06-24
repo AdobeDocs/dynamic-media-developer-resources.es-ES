@@ -2,16 +2,15 @@
 description: Documentación de atributos de configuración para el visor de catálogos electrónicos.
 solution: Experience Manager
 title: 'Referencia de comandos: Atributos de configuración'
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e8ce40c9-d1c0-454f-b8fa-ba19e3fe2091
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
-
 
 # Referencia de comandos: Atributos de configuración{#command-reference-configuration-attributes}
 
