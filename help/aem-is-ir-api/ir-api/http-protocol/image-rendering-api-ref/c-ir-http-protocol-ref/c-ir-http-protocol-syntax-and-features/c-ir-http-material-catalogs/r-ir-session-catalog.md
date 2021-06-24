@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Catálogo de sesiones
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 36e0571e-7451-423f-a1df-540680381902
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
-
 
 # Catálogo de sesiones{#session-catalog}
 
@@ -87,4 +86,3 @@ El catálogo de sesiones proporciona los siguientes valores predeterminados de s
   </tr> 
  </tbody> 
 </table>
-
