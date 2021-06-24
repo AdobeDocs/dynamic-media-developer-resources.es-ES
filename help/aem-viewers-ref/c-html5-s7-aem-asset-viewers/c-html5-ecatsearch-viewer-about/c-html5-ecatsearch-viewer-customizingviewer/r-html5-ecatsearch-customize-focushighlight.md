@@ -2,16 +2,15 @@
 description: El resaltado del foco de entrada se muestra alrededor del elemento de interfaz de usuario del visualizador enfocado.
 solution: Experience Manager
 title: Enfoque resaltado
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 949b8a8b-5f59-415e-acc1-bf8cea77cbd9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '82'
 ht-degree: 0%
 
 ---
-
 
 # Enfoque resaltado{#focus-highlight}
 
@@ -43,4 +42,3 @@ Ejemplo: para desactivar el resaltado de enfoque predeterminado del navegador pa
  outline: none; 
 }
 ```
-
