@@ -1,25 +1,24 @@
 ---
-description: La herramienta Compartir en Twitter consiste en un botón añadido al panel Compartir en Social . Cuando se hace clic en el botón, el usuario se redirige a un cuadro de diálogo de uso compartido proporcionado por un servicio social. La posición del botón la gestiona completamente la herramienta de uso compartido de Social.
+description: La herramienta Compartir de twitter consiste en un botón añadido al panel Compartir en Social . Cuando se hace clic en el botón, el usuario se redirige a un cuadro de diálogo de uso compartido proporcionado por un servicio social. La posición del botón la gestiona completamente la herramienta de uso compartido de Social.
 solution: Experience Manager
-title: Compartir en Twitter
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+title: Uso compartido de twitter
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 1db2600d-d13f-4563-b40a-098485e0ddf9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
 
+# Uso compartido de twitter{#twitter-share}
 
-# Compartir en Twitter{#twitter-share}
-
-La herramienta Compartir en Twitter consiste en un botón añadido al panel Compartir en Social . Cuando se hace clic en el botón, el usuario se redirige a un cuadro de diálogo de uso compartido proporcionado por un servicio social. La posición del botón la gestiona completamente la herramienta de uso compartido de Social.
+La herramienta Compartir de twitter consiste en un botón añadido al panel Compartir en Social . Cuando se hace clic en el botón, el usuario se redirige a un cuadro de diálogo de uso compartido proporcionado por un servicio social. La posición del botón la gestiona completamente la herramienta de uso compartido de Social.
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
-El aspecto del botón de compartir de Twitter se controla con el siguiente selector de clase CSS:
+El aspecto del botón Compartir de Twitter se controla con el siguiente selector de clase CSS:
 
 ```
 .s7videoviewer .s7twittershare
@@ -76,4 +75,3 @@ background-image:url(images/v2/TwitterShare_dark_down.png);
 background-image:url(images/v2/TwitterShare_dark_disabled.png); 
 }
 ```
-
