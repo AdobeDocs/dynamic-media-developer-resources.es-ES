@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Constantes de cadena
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 06c381f6-5896-4d9b-b6f4-a907b3774d08
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '114'
 ht-degree: 8%
 
 ---
-
 
 # Constantes de cadena{#string-constants}
 
