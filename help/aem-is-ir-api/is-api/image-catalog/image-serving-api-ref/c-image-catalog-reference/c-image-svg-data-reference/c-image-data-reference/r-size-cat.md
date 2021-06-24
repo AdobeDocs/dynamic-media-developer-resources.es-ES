@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Tamaño
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 46f06cbb-d70f-4334-966c-624b49c3bb9b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 9%
+source-wordcount: '109'
+ht-degree: 10%
 
 ---
-
 
 # Tamaño{#size}
 
