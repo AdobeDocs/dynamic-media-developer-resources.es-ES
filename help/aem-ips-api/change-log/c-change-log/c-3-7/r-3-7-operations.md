@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Operaciones nuevas y modificadas
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 1f11a686-7239-4922-a608-5330864184ac
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '53'
 ht-degree: 5%
 
 ---
-
 
 # Operaciones: Nuevo y modificado{#operations-new-and-modified}
 
@@ -52,4 +51,3 @@ Sintaxis
 
 * Se agregaron `excludeFieldArray` y `getUniqueMetadataValues`.
 * Se ha convertido `fieldHandle` en un parámetro obligatorio.
-
