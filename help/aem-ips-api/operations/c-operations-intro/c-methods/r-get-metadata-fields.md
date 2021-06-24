@@ -2,16 +2,15 @@
 description: Obtiene los campos de metadatos definidos por el usuario asociados a un recurso.
 solution: Experience Manager
 title: getMetadataFields
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic,SDK/API,Metadatos
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 4d01e2e7-9b68-4dfa-9fe8-08a22cb4bfd5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 14%
 
 ---
-
 
 # getMetadataFields{#getmetadatafields}
 
@@ -73,4 +72,3 @@ Este ejemplo de código devuelve recursos de metadatos para el tipo y la empresa
    </fieldArray>
 </getMetadataFieldsReturn>
 ```
-
