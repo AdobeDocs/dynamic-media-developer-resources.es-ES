@@ -4,14 +4,13 @@ solution: Experience Manager
 title: maskUse
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e99101a1-1747-454c-b0c0-3af3335c0497
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '272'
 ht-degree: 2%
 
 ---
-
 
 # maskUse{#maskuse}
 
