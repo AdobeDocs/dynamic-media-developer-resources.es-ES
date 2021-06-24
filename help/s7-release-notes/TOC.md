@@ -9,7 +9,6 @@ feature-set: Experience Manager Assets
 feature: Dynamic Media Classic
 role: Developer,Business Practitioner
 user-guide-description: Notas de la versión de Adobe Dynamic Media Classic más recientes, parte de la solución Adobe Experience Manager en Adobe Experience Cloud.
-translation-type: tm+mt
 source-git-commit: 3598b0247406d942b0f58b1c74aae4956590f5f8
 workflow-type: tm+mt
 source-wordcount: '98'
