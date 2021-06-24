@@ -2,16 +2,15 @@
 description: El indicador de zoom se superpone en el área de vista principal. Se muestra cuando la imagen está en estado de restablecimiento y también depende del parámetro iconeffect.
 solution: Experience Manager
 title: Icono, efecto
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: fee22d02-172c-4f82-9b6c-e06db530f400
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '169'
 ht-degree: 1%
 
 ---
-
 
 # Icono, efecto{#icon-effect}
 
@@ -70,4 +69,3 @@ Ejemplo: para configurar un indicador de zoom de 100 x 100 píxeles con diferent
  background-image:url(images/v2/IconEffect_pinch.png); 
 }
 ```
-
