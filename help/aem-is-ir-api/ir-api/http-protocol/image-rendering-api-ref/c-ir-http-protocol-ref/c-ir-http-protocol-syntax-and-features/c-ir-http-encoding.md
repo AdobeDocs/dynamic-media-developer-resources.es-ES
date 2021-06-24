@@ -4,16 +4,15 @@ solution: Experience Manager
 title: Codificación HTTP de renderización de imágenes
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: a1efc4ce-a170-4bdb-8584-407e07113272
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '144'
 ht-degree: 2%
 
 ---
 
-
-# Representación de imágenes con codificación HTTP{#image-rendering-http-encoding}
+# Codificación HTTP de renderización de imágenes{#image-rendering-http-encoding}
 
 Los valores de comando deben tener codificación http utilizando secuencias de escape %xx, de modo que las cadenas de valor no incluyan los caracteres reservados &#39;=&#39;, &#39;&amp;&#39; y &#39;%&#39;.
 
