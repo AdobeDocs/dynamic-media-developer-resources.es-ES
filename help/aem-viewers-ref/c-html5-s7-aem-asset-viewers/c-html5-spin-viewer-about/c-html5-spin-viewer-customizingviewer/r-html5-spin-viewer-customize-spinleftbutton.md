@@ -2,18 +2,17 @@
 description: Al pulsar o hacer clic en este botón, la imagen se gira hacia la izquierda en la vista principal. Este botón no se muestra en los teléfonos móviles para ahorrar espacio en la pantalla. Además, el botón se oculta cuando se utiliza un conjunto de giros multidimensional. Puede cambiar el tamaño, el aspecto y la posición del botón mediante CSS.
 solution: Experience Manager
 title: Botón Girar a la izquierda
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de giros
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2dba30d5-d257-4427-9476-ab695b6603aa
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '338'
 ht-degree: 4%
 
 ---
 
-
-# Botón izquierdo de giro{#spin-left-button}
+# Botón Girar a la izquierda{#spin-left-button}
 
 Al pulsar o hacer clic en este botón, la imagen se gira hacia la izquierda en la vista principal. Este botón no se muestra en los teléfonos móviles para ahorrar espacio en la pantalla. Además, el botón se oculta cuando se utiliza un conjunto de giros multidimensional. Puede cambiar el tamaño, el aspecto y la posición del botón mediante CSS.
 
@@ -140,4 +139,3 @@ background-image:url(images/v2/SpinLeftButton_light_down.png);
 background-image:url(images/v2/SpinLeftButton_light_disabled.png); 
 }
 ```
-
