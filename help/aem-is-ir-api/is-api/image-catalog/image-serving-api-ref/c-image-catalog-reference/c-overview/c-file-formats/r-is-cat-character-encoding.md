@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Codificación de caracteres
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e6e50c2a-53d3-4776-a3f6-4a9d3407e562
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
-
 
 # Codificación de caracteres{#character-encoding}
 
