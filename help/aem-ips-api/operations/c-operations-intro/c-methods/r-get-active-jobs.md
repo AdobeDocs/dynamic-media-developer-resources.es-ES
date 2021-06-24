@@ -4,14 +4,13 @@ solution: Experience Manager
 title: getActiveJobs
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 55e92ebc-d153-49b5-bf2e-c69d042e15b6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 15%
+source-wordcount: '106'
+ht-degree: 16%
 
 ---
-
 
 # getActiveJobs{#getactivejobs}
 
@@ -65,4 +64,3 @@ Este ejemplo de código devuelve todos los trabajos activos de una empresa que s
    <jobArray></jobArray>
 </getActiveJobsReturn>
 ```
-
