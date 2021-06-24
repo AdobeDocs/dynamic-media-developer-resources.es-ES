@@ -4,21 +4,20 @@ solution: Experience Manager
 title: Sintaxis y características
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 44981754-017b-4293-9d44-7611b7a470c4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '97'
 ht-degree: 1%
 
 ---
-
 
 # Sintaxis y características{#syntax-and-features}
 
 Los temas de esta sección describen la sintaxis y las características de los protocolos HTTP.
 
 * [Sintaxis básica del protocolo HTTP de servicio de imágenes](r-basic-syntax.md)
-* [Descripción general del comando del protocolo HTTP de servicio de imágenes](c-command-overview/c-command-overview.md)
+* [Image Serving HTTP protocol, comando   información general](c-command-overview/c-command-overview.md)
 * [Información general sobre capas](c-layering-overview/c-layering-overview.md)
 * [Operaciones de capa](c-layering-overview/c-layer-operations.md)
 * [Efectos de capa](r-layer-effects.md)
