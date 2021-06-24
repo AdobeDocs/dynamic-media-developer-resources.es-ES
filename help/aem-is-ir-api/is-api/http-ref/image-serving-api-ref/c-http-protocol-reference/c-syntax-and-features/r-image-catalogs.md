@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Catálogos de imágenes
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 54c83ad2-a932-4df2-92ff-ab34d4a5b1a7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
-
 
 # Catálogos de imágenes{#image-catalogs}
 
