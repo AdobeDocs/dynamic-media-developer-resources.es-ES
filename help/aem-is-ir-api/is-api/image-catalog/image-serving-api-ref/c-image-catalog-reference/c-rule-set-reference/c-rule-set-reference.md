@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Referencia del conjunto de reglas
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: dfbb5f5e-d75a-496a-8b97-f102ad1a34d5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '807'
 ht-degree: 0%
 
 ---
-
 
 # Referencia del conjunto de reglas{#rule-set-reference}
 
