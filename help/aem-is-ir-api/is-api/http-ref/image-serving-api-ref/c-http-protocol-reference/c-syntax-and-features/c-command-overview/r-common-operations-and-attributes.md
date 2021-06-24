@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Operaciones comunes
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: f30a9653-7aed-4233-8361-18ca6561d420
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '151'
 ht-degree: 3%
 
 ---
-
 
 # Operaciones comunes{#common-operations}
 
@@ -83,4 +82,3 @@ Estos comandos se aplican a las capas de imagen, texto y color sólido. También
   <td class="stentry"> <p>Especifica las formas invertidas del clip para la capa. </p></td> 
  </tr> 
 </table>
-
