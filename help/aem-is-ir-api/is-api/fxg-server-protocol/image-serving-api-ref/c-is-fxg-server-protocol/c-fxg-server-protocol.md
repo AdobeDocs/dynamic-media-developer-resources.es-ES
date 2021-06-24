@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Protocolo del servidor FXG
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 57d9ba37-819e-455f-9b22-bd7aabffe007
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 62%
+source-wordcount: '274'
+ht-degree: 63%
 
 ---
-
 
 # Protocolo del servidor FXG{#fxg-server-protocol}
 
@@ -37,4 +36,3 @@ El valor predeterminado es none. El valor `inherit` pasa el valor `s7:referenceP
 >para utilizar un punto de referencia sin que se produzca ningún desplazamiento en el objeto después de su manipulación, actualice los valores x e y del objeto tras manipularlo.
 
 Si se emplea un valor de `s7:referencePoint`   con grupos (o trazados, elementos de línea u otros elementos sin una definición explícita de anchura y altura), se aplica al cuadro delimitador acumulativo del grupo. Por ejemplo, el punto superior izquierdo del cuadro delimitador de todos los objetos del grupo sirve como punto de referencia `northWest` para el grupo; el punto inferior derecho sirve como punto de referencia de `southEast`.
-
