@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Salida
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 48b15fc2-19c2-4ff8-8059-ba3478a4eec2
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
-
 
 # Salida{#output}
 
@@ -143,4 +142,3 @@ Se generan las siguientes propiedades:
   <td class="stentry"> <p>Mensaje de advertencia (como cuando se especifica <span class="codeph"> -imagemap</span> pero no se encuentran datos de mapa en la viñeta). </p></td> 
  </tr> 
 </table>
-
