@@ -4,14 +4,13 @@ solution: Experience Manager
 title: ocultar
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: bf70af48-53d6-4c4a-9d16-3696bbfe86ff
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '47'
 ht-degree: 8%
 
 ---
-
 
 # ocultar{#hide}
 
