@@ -2,16 +2,15 @@
 description: Mueve varios recursos de forma independiente entre sí. Esto se logra utilizando el tipo AssetMove contenido en assetMoveArray. Cada campo AssetMove contiene una carpeta de destino.
 solution: Experience Manager
 title: moveAssets
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,Administración de activos
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: e5bb2188-d262-4324-9f71-68634b6af654
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 11%
+source-wordcount: '216'
+ht-degree: 12%
 
 ---
-
 
 # moveAssets{#moveassets}
 
@@ -123,4 +122,3 @@ Este ejemplo de código mueve los recursos a una ubicación específica especifi
    <errorCount>0</errorCount>
 </moveAssetsReturn>
 ```
-
