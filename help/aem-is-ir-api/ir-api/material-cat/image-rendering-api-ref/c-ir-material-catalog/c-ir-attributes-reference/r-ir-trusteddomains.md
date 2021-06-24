@@ -4,16 +4,15 @@ solution: Experience Manager
 title: Dominios de confianza *
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 41794f62-6140-4e54-9de2-908b20c51b37
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '123'
 ht-degree: 3%
 
 ---
 
-
-# TrustedDomains *{#trusteddomains}
+# Dominios de confianza *{#trusteddomains}
 
 dominios web de la aplicación de Flash. Las aplicaciones de Flash de Adobe pueden requerir acceso a las propiedades de las imágenes entregadas en formato swf. El swf debe conceder acceso explícitamente registrando el nombre de los dominios de aplicación en los que confía.
 
