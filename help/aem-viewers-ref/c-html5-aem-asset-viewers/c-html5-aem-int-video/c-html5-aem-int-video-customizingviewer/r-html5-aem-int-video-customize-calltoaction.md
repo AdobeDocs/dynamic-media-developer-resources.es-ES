@@ -2,13 +2,12 @@
 description: El panel Llamada a la acción aparece cuando termina el vídeo y muestra todas las muestras interactivas asociadas al vídeo en particular.
 solution: Experience Manager
 title: Llamada a acción
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
 role: Developer,Business Practitioner
 exl-id: 43e0ffb3-d650-4b79-ab48-2f32b313b832
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '1286'
+source-wordcount: '1283'
 ht-degree: 3%
 
 ---
