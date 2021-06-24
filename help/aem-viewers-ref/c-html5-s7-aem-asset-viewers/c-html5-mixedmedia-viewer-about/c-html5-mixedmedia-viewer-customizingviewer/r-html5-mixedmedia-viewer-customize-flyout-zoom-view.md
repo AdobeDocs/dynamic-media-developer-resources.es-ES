@@ -2,16 +2,15 @@
 description: En el modo de zoom en línea, la vista principal consiste en la imagen estática, la imagen ampliada mostrada en la vista flotante sobre la imagen estática y el mensaje de sugerencia mostrado sobre la imagen estática.
 solution: Experience Manager
 title: Vista de zoom flotante
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 46c91d1f-5809-4270-a06d-5068d20a6341
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '254'
 ht-degree: 5%
 
 ---
-
 
 # Vista de zoom flotante{#flyout-zoom-view}
 
@@ -125,4 +124,3 @@ opacity: 0.5;
 filter: alpha(opacity = 50); 
 }
 ```
-
