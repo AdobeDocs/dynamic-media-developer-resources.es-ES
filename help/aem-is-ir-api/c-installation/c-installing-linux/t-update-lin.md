@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Actualización de IS 4.7.4 o posterior
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 54733fcc-c4e3-4501-8a3d-000778678bdb
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
-
 
 # Actualización de IS 4.7.4 o posterior{#updating-from-is-or-later}
 
