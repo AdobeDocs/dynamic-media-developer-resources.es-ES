@@ -1,21 +1,20 @@
 ---
-description: La herramienta Compartir Facebook consiste en un botón agregado al panel Compartir en Social . Cuando se hace clic en el botón, el usuario se redirige a un cuadro de diálogo de uso compartido proporcionado por un servicio social. La posición del botón la gestiona completamente la herramienta de uso compartido de Social .
+description: La herramienta Compartir de facebook consiste en un botón añadido al panel Compartir en Social . Cuando se hace clic en el botón, el usuario se redirige a un cuadro de diálogo de uso compartido proporcionado por un servicio social. La posición del botón la gestiona completamente la herramienta de uso compartido de Social .
 solution: Experience Manager
-title: Compartir en Facebook
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+title: Uso compartido de facebook
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 792d53de-5561-48bb-85d7-fbf3b6377673
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
 
+# Uso compartido de facebook{#facebook-share}
 
-# Compartir en Facebook{#facebook-share}
-
-La herramienta Compartir Facebook consiste en un botón agregado al panel Compartir en Social . Cuando se hace clic en el botón, el usuario se redirige a un cuadro de diálogo de uso compartido proporcionado por un servicio social. La posición del botón la gestiona completamente la herramienta de uso compartido de Social .
+La herramienta Compartir de facebook consiste en un botón añadido al panel Compartir en Social . Cuando se hace clic en el botón, el usuario se redirige a un cuadro de diálogo de uso compartido proporcionado por un servicio social. La posición del botón la gestiona completamente la herramienta de uso compartido de Social .
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
@@ -25,7 +24,7 @@ El aspecto del botón Compartir de Facebook se controla con el siguiente selecto
 .s7ecatalogsearchviewer .s7facebookshare
 ```
 
-**Propiedades CSS de la herramienta Compartir de Facebook**
+**Propiedades CSS de la herramienta de uso compartido de Facebook**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -76,4 +75,3 @@ background-image:url(images/v2/FacebookShare_dark_down.png);
 background-image:url(images/v2/FacebookShare_dark_disabled.png); 
 }
 ```
-
