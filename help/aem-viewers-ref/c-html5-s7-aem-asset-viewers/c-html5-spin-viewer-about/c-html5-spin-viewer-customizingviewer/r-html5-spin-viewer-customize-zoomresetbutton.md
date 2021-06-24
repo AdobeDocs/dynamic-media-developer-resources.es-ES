@@ -2,18 +2,17 @@
 description: Al pulsar o hacer clic en este botón, se restablece una imagen en la vista principal. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
 solution: Experience Manager
 title: Botón Restablecer zoom
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de giros
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: fce8ab8a-4db0-4902-8e82-26f201a88dbe
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '220'
 ht-degree: 3%
 
 ---
 
-
-# Botón para restablecer zoom{#zoom-reset-button}
+# Botón Restablecer zoom{#zoom-reset-button}
 
 Al pulsar o hacer clic en este botón, se restablece una imagen en la vista principal. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
 
@@ -98,4 +97,3 @@ background-image:url(images/v2/ZoomResetButton_dark_down.png);
 background-image:url(images/v2/ZoomResetButton_dark_disabled.png); 
 }
 ```
-
