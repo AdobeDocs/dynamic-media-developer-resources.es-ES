@@ -4,14 +4,13 @@ solution: Experience Manager
 title: SearchStrings
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 3f67ba8a-12dd-4698-9502-7cbdec9cb25d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '87'
 ht-degree: 13%
 
 ---
-
 
 # SearchStrings{#searchstrings}
 
@@ -32,4 +31,3 @@ Sintaxis
 | `*`height`*` | `xsd:int` | Altura de la cadena de búsqueda. |
 | `*`fontName`*` | `xsd:string` | Nombre de la fuente utilizada en la cadena de búsqueda. |
 | `*`pointSize`*` | `xsd:string` | Tamaño de fuente. |
-
