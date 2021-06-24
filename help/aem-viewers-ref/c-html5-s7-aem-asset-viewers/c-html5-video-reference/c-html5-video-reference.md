@@ -25,7 +25,7 @@ El visor de vídeo utiliza la reproducción de vídeo de flujo HTML5 en formato 
 
 Tipo de visor 506.
 
-## Demostración de URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
+## Dirección URL de la demostración {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
 [https://s7d9.scene7.com/s7viewers/html5/VideoViewer.html?asset=Scene7SharedAssets/Glacier_Climber_MP4](https://s7d9.scene7.com/s7viewers/html5/VideoViewer.html?asset=Scene7SharedAssets/Glacier_Climber_MP4)
 
@@ -55,7 +55,7 @@ Este visor es totalmente accesible mediante teclado.
 
 Consulte [Accesibilidad del teclado y navegación](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
-## Herramientas de uso compartido en redes sociales con el Visor de vídeos {#section-907d316fe1da4b87abb9775f02464704}
+## Herramientas de uso compartido en redes sociales con el visualizador de vídeo {#section-907d316fe1da4b87abb9775f02464704}
 
 El visualizador de vídeo es compatible con las herramientas de uso compartido de medios sociales Están disponibles como un solo botón en la interfaz de usuario que se expande a una barra de herramientas de uso compartido cuando el usuario hace clic o pulsa en ella.
 
