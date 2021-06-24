@@ -2,18 +2,17 @@
 description: En los sistemas de escritorio, algunos elementos de la interfaz de usuario, como los botones, tienen información sobre herramientas que se muestra al pasar el ratón por encima.
 solution: Experience Manager
 title: Información sobre herramientas
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 0350bdbc-3e3d-4bc0-98f6-5d7bf4121d9a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 5%
+source-wordcount: '149'
+ht-degree: 6%
 
 ---
 
-
-# Información del objeto{#tooltips}
+# Información sobre herramientas{#tooltips}
 
 En los sistemas de escritorio, algunos elementos de la interfaz de usuario, como los botones, tienen información sobre herramientas que se muestra al pasar el ratón por encima.
 
@@ -78,4 +77,3 @@ Ejemplo: para configurar información del objeto con un borde gris con un radio 
  font-size: 11px; 
 }
 ```
-
