@@ -4,14 +4,13 @@ solution: Experience Manager
 title: El lienzo de composición
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2455d07f-a158-4335-a14c-213f8b3dd265
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
-
 
 # El lienzo de composición{#the-compositing-canvas}
 
@@ -22,4 +21,3 @@ La capa 0 constituye la capa de fondo, que siempre es necesaria y que define el 
 >[!NOTE]
 >
 >Una vez aplanadas todas las capas, la imagen compuesta se convierte a la imagen de respuesta final, tal como se especifica con los comandos y atributos [view](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-view-commands-and-attributes.md#reference-8b3d637d080a47a4ba669a7f0de2ba90).
-
