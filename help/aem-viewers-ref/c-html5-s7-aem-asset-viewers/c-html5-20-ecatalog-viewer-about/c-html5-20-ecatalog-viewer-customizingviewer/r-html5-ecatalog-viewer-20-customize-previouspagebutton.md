@@ -2,16 +2,15 @@
 description: Al pulsar o hacer clic en este botón, el usuario llega a la página anterior del catálogo. Este botón aparece en la barra de control principal. Este botón no se muestra en los teléfonos móviles para ahorrar espacio en la pantalla. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
 solution: Experience Manager
 title: Botón de página anterior
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: cc0e8c18-f9c1-4451-9fbe-3b082f78a7ec
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '294'
 ht-degree: 2%
 
 ---
-
 
 # Botón de página anterior{#previous-page-button}
 
@@ -96,4 +95,3 @@ background-image:url(images/v2/ToolBarLeftButton_dark_down.png);
 background-image:url(images/v2/ToolBarLeftButton_dark_disabled.png); 
 }
 ```
-
