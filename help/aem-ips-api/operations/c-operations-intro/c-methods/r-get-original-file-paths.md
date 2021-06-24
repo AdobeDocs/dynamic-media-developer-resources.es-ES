@@ -4,14 +4,13 @@ solution: Experience Manager
 title: getOriginalFilePaths
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 81d06a8c-55c1-47d5-adc9-928ab30199c6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '104'
 ht-degree: 15%
 
 ---
-
 
 # getOriginalFilePaths{#getoriginalfilepaths}
 
@@ -74,4 +73,3 @@ Este ejemplo de código devuelve las rutas de archivos de los recursos especific
    </originalFileArray>
 </getOriginalFilePathsReturn>
 ```
-
