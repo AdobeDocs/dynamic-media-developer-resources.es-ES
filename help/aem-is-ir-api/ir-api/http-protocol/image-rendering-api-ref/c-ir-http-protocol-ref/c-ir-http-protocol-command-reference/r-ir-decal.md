@@ -4,16 +4,15 @@ solution: Experience Manager
 title: calco
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 0a1f80f5-5b49-4d2b-9bab-74d1e7c000a4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 9%
+source-wordcount: '48'
+ht-degree: 10%
 
 ---
 
-
-# calcomanía{#decal}
+# calco{#decal}
 
 Declare el selector de material. Inicia un segmento de especificación de material (MSS) para un material de calco no repetible.
 
