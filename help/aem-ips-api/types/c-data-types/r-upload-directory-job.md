@@ -4,14 +4,13 @@ solution: Experience Manager
 title: UploadDirectoryJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: a23f1bc2-aa6a-4c1d-aab5-7f6dbd08682c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '473'
 ht-degree: 6%
 
 ---
-
 
 # UploadDirectoryJob{#uploaddirectoryjob}
 
@@ -201,4 +200,3 @@ Para `PublishJob`, puede elegir solo una de las siguientes opciones:
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`
 * `postvideoPublishJob`
-
