@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Catálogo predeterminado
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: db42fb67-aa6f-4217-bc69-45b01bbd0b10
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
-
 
 # Catálogo predeterminado{#default-catalog}
 
@@ -26,4 +25,3 @@ Para el correcto funcionamiento del Servidor de plataforma, el archivo de atribu
 >[!NOTE]
 >
 >Todos los archivos de atributos del catálogo excepto [!DNL default.ini] deben contener un valor único `attribute::RootId`. `attribute::RootId` en  [!DNL default.ini] debe estar vacío.
-
