@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Operaciones de capa
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 0b167c74-cb1f-45f1-8b15-cb1fcbc8f734
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
-
 
 # Operaciones de capa{#layer-operations}
 
