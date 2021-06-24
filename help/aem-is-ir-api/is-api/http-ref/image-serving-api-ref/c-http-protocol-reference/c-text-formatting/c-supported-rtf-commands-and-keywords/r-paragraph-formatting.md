@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Formato de párrafo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: a2235082-714c-4ae3-ae06-c91ea2fb5abb
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '235'
 ht-degree: 1%
 
 ---
-
 
 # Formato de párrafo{#paragraph-formatting}
 
@@ -108,4 +107,3 @@ Se admiten los siguientes comandos de formato de párrafo.
   </tr> 
  </tbody> 
 </table>
-
