@@ -4,14 +4,13 @@ solution: Experience Manager
 title: EmailConfirmation
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: b4698637-a897-47fa-92d4-4ab400e56962
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 5%
+source-wordcount: '83'
+ht-degree: 6%
 
 ---
-
 
 # EmailConfirmation{#emailconfirmation}
 
@@ -25,4 +24,3 @@ Sintaxis
 |---|---|---|
 | `*`ccOriginator`*` | `xsd:boolean` | Si es true, incluye la cuenta de usuario del servicio web del usuario, que es una lista de correos electrónicos designados para recibir una confirmación por correo electrónico de la CDN de Dynamic Media. |
 | `*`ccOthersArray`*` | `types:EmailArray` | Una matriz de direcciones de correo electrónico (5 como máximo) designadas para recibir la notificación de confirmación de la CDN de Dynamic Media. |
-
