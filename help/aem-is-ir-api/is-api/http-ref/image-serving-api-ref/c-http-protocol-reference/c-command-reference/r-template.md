@@ -4,14 +4,13 @@ solution: Experience Manager
 title: plantilla
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
+exl-id: 56ebf2a1-f2c3-4b3f-8d0a-9383f1411440
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '169'
 ht-degree: 6%
 
 ---
-
 
 # plantilla{#template}
 
