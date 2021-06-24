@@ -4,14 +4,13 @@ solution: Experience Manager
 title: op_growthMaskR
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 7abfbccf-8bcf-44d4-b50a-eca7a3f11360
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 3%
+source-wordcount: '100'
+ht-degree: 4%
 
 ---
-
 
 # op_growthMaskR{#op-growmaskr}
 
