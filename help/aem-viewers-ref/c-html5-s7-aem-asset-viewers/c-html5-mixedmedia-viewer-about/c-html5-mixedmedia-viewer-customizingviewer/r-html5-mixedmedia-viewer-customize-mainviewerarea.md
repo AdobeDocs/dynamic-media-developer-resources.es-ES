@@ -2,16 +2,15 @@
 description: La zona de las vistas principales es la zona ocupada por las vistas principales y las muestras. Normalmente se configura para que se ajuste a la pantalla del dispositivo disponible cuando no se especifica ningún tamaño.
 solution: Experience Manager
 title: Área del visor principal
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: fe8b748c-5318-4fcd-9f3a-d50523bb3f8f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '131'
 ht-degree: 2%
 
 ---
-
 
 # Área del visor principal{#main-viewer-area}
 
@@ -59,4 +58,3 @@ Ejemplo: para configurar un visualizador con un fondo blanco ( `#FFFFFF`) y hace
  height: 288px;  
 }
 ```
-
