@@ -4,16 +4,15 @@ solution: Experience Manager
 title: Vencimiento
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 6d9cca06-f675-4ae4-a187-9cd716e7c554
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '151'
 ht-degree: 3%
 
 ---
 
-
-# Caducidad{#expiration}
+# Vencimiento{#expiration}
 
 Tiempo de vida predeterminado de la caché del cliente. Proporciona un intervalo de caducidad predeterminado en caso de que un registro de catálogo concreto no contenga un valor de catálogo válido::Caducidad o viñeta::Caducidad, o si se accede directamente a un archivo de viñeta o a un archivo de material, en lugar de hacerlo mediante un registro de catálogo.
 
