@@ -3,16 +3,15 @@ description: eCatalog Viewer es un visor de catálogos que muestra folletos elec
 keywords: adaptable
 solution: Experience Manager
 title: Catálogo electrónico
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 8e243fa5-e375-41ce-8b49-2571023130c1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '2174'
+source-wordcount: '2171'
 ht-degree: 0%
 
 ---
-
 
 # Catálogo electrónico{#ecatalog}
 
@@ -28,7 +27,7 @@ Consulte [Requisitos y requisitos previos del sistema](../../c-system-requiremen
 
 Este visor funciona con catálogos electrónicos y admite mapas de imágenes opcionales y herramientas de uso compartido en medios sociales. Tiene herramientas de zoom, herramientas de navegación de catálogo, compatibilidad con pantalla completa, miniaturas y un botón de cierre opcional. El visor también es compatible con las herramientas de uso compartido en medios sociales, Imprimir, Descargar y Favoritos. Está diseñado para funcionar con equipos de escritorio y dispositivos móviles.
 
-## Demostración de URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
+## Dirección URL de la demostración {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
 [http://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist](http://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist)
 
@@ -42,7 +41,7 @@ La configuración y el desollado son similares a los de los demás visores. Toda
 
 Consulte [Referencia de comando común a todos los visores: Atributos de configuración](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) y [Referencia de comando común a todos los visualizadores: URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
-## Interactuar con el visor de catálogos electrónicos {#section-642e66ca38cd4032992840ec6c0b0cd2}
+## Interacción con el visor del catálogo electrónico {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
 El visor de catálogos electrónicos admite los siguientes gestos táctiles que son comunes en otras aplicaciones móviles.
 
@@ -87,7 +86,7 @@ Este visor es totalmente accesible mediante el teclado, tal como se describe en 
 
 El visor de catálogos electrónicos es compatible con las herramientas de uso compartido en redes sociales. Están disponibles como un botón en la barra de control principal que se expande a una barra de herramientas de uso compartido cuando un usuario hace clic o pulsa en ella.
 
-La barra de herramientas para compartir contiene iconos para cada tipo de canal de uso compartido admitido, que incluye Facebook, Twitter, uso compartido de correo electrónico, uso compartido de código incrustado y uso compartido de vínculos. Cuando se activan las herramientas de uso compartido por correo electrónico, uso compartido incrustado o uso compartido de vínculos, el visor muestra un cuadro de diálogo modal con un formulario de entrada de datos correspondiente. Cuando se llama a Facebook o Twitter, el visor redirige al usuario a un cuadro de diálogo estándar de uso compartido desde un servicio social. Las herramientas de uso compartido no están disponibles en el modo de pantalla completa debido a las restricciones de seguridad del explorador web.
+La barra de herramientas para compartir contiene iconos para cada tipo de canal de uso compartido admitido, que incluye Facebook, Twitter, uso compartido de correo electrónico, uso compartido de código incrustado y uso compartido de vínculos. Cuando se activan las herramientas de uso compartido por correo electrónico, uso compartido incrustado o uso compartido de vínculos, el visor muestra un cuadro de diálogo modal con un formulario de entrada de datos correspondiente. Cuando se llama a Facebook o Twitter, el visor redirige al usuario a un cuadro de diálogo de uso compartido estándar desde un servicio social. Las herramientas de uso compartido no están disponibles en el modo de pantalla completa debido a las restricciones de seguridad del explorador web.
 
 ## Incrustación del visor de catálogos electrónicos {#section-6bb5d3c502544ad18a58eafe12a13435}
 
@@ -398,4 +397,3 @@ eCatalogViewer.init();
 </body> 
 </html>
 ```
-
