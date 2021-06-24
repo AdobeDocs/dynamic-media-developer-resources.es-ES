@@ -4,16 +4,15 @@ solution: Experience Manager
 title: grut
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 6647b459-11d2-47e4-9033-3a740f01a623
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '170'
 ht-degree: 2%
 
 ---
 
-
-# grout{#grout}
+# grut{#grout}
 
 Color y grosor del grupo de mosaicos. Simula el suelo para cerámica y piedra natural.
 
