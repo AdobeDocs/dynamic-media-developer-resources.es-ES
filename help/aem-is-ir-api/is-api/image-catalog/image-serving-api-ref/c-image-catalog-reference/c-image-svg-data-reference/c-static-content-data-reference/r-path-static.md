@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Ruta
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 9f273f32-1699-4bc3-8dd0-f1dfefaa6e27
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '134'
 ht-degree: 5%
 
 ---
-
 
 # Ruta{#path}
 
@@ -21,7 +20,7 @@ El servidor utiliza las reglas de resolución de rutas descritas en [Administrac
 
 Cadena de texto. Necesaria para los registros de imagen y SVG, puede estar vacía para los registros de plantilla. Si se especifica, debe ser una ruta de archivo válida relativa o absoluta del servidor de imágenes. attribute::DefaultExt se anexa si no hay ningún sufijo de archivo presente.
 
-## Formatos de archivo de imagen admitidos {#section-8d6443c883aa48aaa00316fe9661aaa8}
+## Formatos de archivo de imagen compatibles {#section-8d6443c883aa48aaa00316fe9661aaa8}
 
 Consulte la descripción de la utilidad Conversor de imágenes (IC) para obtener una lista completa de los formatos de archivo de imagen admitidos.
 
