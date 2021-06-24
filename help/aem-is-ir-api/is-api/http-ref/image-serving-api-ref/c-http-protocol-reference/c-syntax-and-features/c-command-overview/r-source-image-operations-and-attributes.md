@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Operaciones de imagen de origen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2024e193-3c46-4c51-971d-c7d335657ac8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '107'
 ht-degree: 2%
 
 ---
-
 
 # Operaciones de imagen de origen{#source-image-operations}
 
@@ -43,4 +42,3 @@ Estos comandos se aplican a las imágenes de origen utilizadas en solicitudes si
   <td class="stentry"> <p>Escala la imagen de origen mediante el factor de escala. </p></td> 
  </tr> 
 </table>
-
