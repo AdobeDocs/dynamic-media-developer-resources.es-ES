@@ -2,13 +2,12 @@
 description: Compatibilidad con zonas interactivas y mapas de imágenes
 solution: Experience Manager
 title: Compatibilidad con zonas interactivas y mapas de imágenes
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+feature: Dynamic Media Classic,Visores,SDK/API,Banners de carrusel
 role: Developer,Business Practitioner
 exl-id: b441e241-809e-47cf-a309-57283bd0532b
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -21,7 +20,7 @@ Consulte [Puntos interactivos y mapas de imágenes](../../c-html5-aem-asset-view
 
 Las zonas interactivas y las regiones pueden activar una función de vista rápida en la página web de alojamiento activando una llamada de retorno de JavaScript o redireccionando a un usuario a una página web externa.
 
-## Puntos interactivos de vista rápida {#section-cda48fc9730142d0bb3326bac7df3271}
+## Puntos interactivos de la vista rápida {#section-cda48fc9730142d0bb3326bac7df3271}
 
 Estos tipos de zonas interactivas o mapas de imágenes deben crearse utilizando el tipo de acción &quot;Vista rápida&quot; en Dynamic Media, de AEM. Cuando un usuario activa una zona interactiva o mapa de imagen, el visor ejecuta la llamada de retorno de JavaScript `quickViewActivate` y le pasa los datos de zona interactiva o mapa de imagen. Se espera que la página web de incrustación escuche esta llamada de retorno. Cuando déclencheur la página, abre su propia implementación de vista rápida.
 
