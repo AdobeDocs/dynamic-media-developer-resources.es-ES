@@ -4,14 +4,13 @@ solution: Experience Manager
 title: getFolders
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 71fe3343-2560-4d74-8ec3-1229d83a62e1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '242'
 ht-degree: 8%
 
 ---
-
 
 # getFolders{#getfolders}
 
@@ -94,4 +93,3 @@ Este ejemplo de código devuelve una matriz que contiene todas las carpetas de u
    </folderArray>
 </getFoldersReturn>
 ```
-
