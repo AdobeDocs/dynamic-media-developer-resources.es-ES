@@ -2,16 +2,15 @@
 description: Cierto contenido que muestra el visor de catálogos electrónicos está sujeto a localización, incluidos botones de zoom, botones de cambio de página, botón de miniatura, botón de pantalla completa, botón de cierre y botones de barra de desplazamiento.
 solution: Experience Manager
 title: Localización de los elementos de la interfaz de usuario
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c44bfb38-a523-4399-8dbd-936830bb7cac
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1135'
 ht-degree: 0%
 
 ---
-
 
 # Localización de los elementos de la interfaz de usuario{#localization-of-user-interface-elements}
 
@@ -295,11 +294,11 @@ Se admiten los siguientes SYMBOL (suponiendo que containerId es el ID del conten
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FacebookShare.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Botón Compartir de Facebook. </p> </td> 
+   <td colname="col2"> <p>Botón Compartir de facebook. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Botón Compartir en Twitter. </p> </td> 
+   <td colname="col2"> <p>Botón Compartir de twitter. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.TOOLTIP  </span> </p> </td> 
@@ -444,4 +443,3 @@ Se admiten los siguientes SYMBOL (suponiendo que containerId es el ID del conten
   </tr> 
  </tbody> 
 </table>
-
