@@ -4,16 +4,15 @@ solution: Experience Manager
 title: Configuración
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 6d6421ce-1933-4310-b691-817392631969
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 21%
+source-wordcount: '36'
+ht-degree: 22%
 
 ---
 
-
-# ConfigSetting{#configsetting}
+# Configuración{#configsetting}
 
 Solo los desarrolladores de Dynamic Media lo utilizan.
 
@@ -26,4 +25,3 @@ Sintaxis
 | `*`name`*` | `xsd:string` | Nombre de configuración. |
 | `*`basado en IP`*` | `xsd:string` | Valor de configuración. |
 | `*`manejar`*` | `xsd:string` | Gestione la configuración almacenada. |
-
