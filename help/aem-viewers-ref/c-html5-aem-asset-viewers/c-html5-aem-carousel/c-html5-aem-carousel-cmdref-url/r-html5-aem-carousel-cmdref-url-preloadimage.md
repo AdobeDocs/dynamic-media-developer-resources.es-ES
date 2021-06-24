@@ -2,14 +2,13 @@
 description: URL para el visor de carrusel.
 solution: Experience Manager
 title: preloadimage**
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+feature: Dynamic Media Classic,Visores,SDK/API,Banners de carrusel
 role: Developer,Business Practitioner
 exl-id: d4cfd11d-9bd3-4133-ae28-c375b6b3c2ab
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 13%
+source-wordcount: '35'
+ht-degree: 14%
 
 ---
 
