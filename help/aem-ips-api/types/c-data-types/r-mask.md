@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Máscara
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 0e18096c-0666-400b-a562-b6d183bd3334
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 12%
+source-wordcount: '75'
+ht-degree: 13%
 
 ---
-
 
 # Máscara{#mask}
 
@@ -28,4 +27,3 @@ Sintaxis
 | `*`maskPath`*` | `xsd:string` | Ruta relativa a la máscara. |
 | `*`maskFile`*` | `xsd:string` | Archivo de máscara. |
 | `*`lastModified`*` | `types:dateTime` | Fecha, hora y zona horaria en la que se modificó la máscara por última vez. |
-
