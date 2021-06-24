@@ -4,16 +4,15 @@ solution: Experience Manager
 title: Solicitud, comandos
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3f794f46-e7f0-4899-90fa-898a698dd629
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '147'
 ht-degree: 2%
 
 ---
 
-
-# Solicitar comandos{#request-commands}
+# Solicitud, comandos{#request-commands}
 
 Estos comandos se aplican independientemente de dónde aparezca en la solicitud.
 
@@ -83,4 +82,3 @@ Estos comandos se aplican independientemente de dónde aparezca en la solicitud.
   <td class="stentry"> <p>Especifica el conjunto de imágenes que se utilizará para esta solicitud. </p></td> 
  </tr> 
 </table>
-
