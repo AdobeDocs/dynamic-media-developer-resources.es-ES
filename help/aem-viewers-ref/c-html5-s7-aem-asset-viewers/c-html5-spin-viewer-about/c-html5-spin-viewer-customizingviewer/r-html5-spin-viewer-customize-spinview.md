@@ -2,16 +2,15 @@
 description: La vista principal consiste en la imagen de giro.
 solution: Experience Manager
 title: Vista de giro
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de giros
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: d3274fe3-1a47-448e-acc6-6df77c6a4211
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '67'
 ht-degree: 1%
 
 ---
-
 
 # Vista de giro{#spin-view}
 
@@ -49,4 +48,3 @@ Ejemplo: para que la vista principal sea transparente.
  background-color: transparent; 
 }
 ```
-
