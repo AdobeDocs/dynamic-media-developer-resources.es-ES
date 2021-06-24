@@ -4,14 +4,13 @@ solution: Experience Manager
 title: ImageFormat
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 570ada53-17d0-4c8a-8843-ace29de92bf3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '46'
 ht-degree: 10%
 
 ---
-
 
 # ImageFormat{#imageformat}
 
@@ -26,4 +25,3 @@ No es un tipo de recurso.
 | `*`imageFormatHandle`*` | `xsd:string` | Identificador de formato de imagen. |
 | `*`name`*` | `xsd:string` | Nombre del formato de imagen. |
 | `*`urlModifier`*` | `xsd:string` | URL del servidor de imágenes que representa el formato de imagen. |
-
