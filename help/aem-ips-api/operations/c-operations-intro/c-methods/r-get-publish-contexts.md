@@ -4,14 +4,13 @@ solution: Experience Manager
 title: getPublishContexts
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 7b26e659-71b9-40c4-9df4-94e78c3e4baf
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 22%
+source-wordcount: '90'
+ht-degree: 23%
 
 ---
-
 
 # getPublishContexts{#getpublishcontexts}
 
@@ -117,4 +116,3 @@ Sintaxis
   </publishContextArray>
 </getPublishContextsReturn>
 ```
-
