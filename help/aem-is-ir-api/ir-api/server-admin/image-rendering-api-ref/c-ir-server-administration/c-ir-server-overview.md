@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Resumen de administración del servidor
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 294cd068-8676-4932-a3ad-1a3c5bfa691e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
-
 
 # Resumen de administración del servidor{#server-administration-overview}
 
