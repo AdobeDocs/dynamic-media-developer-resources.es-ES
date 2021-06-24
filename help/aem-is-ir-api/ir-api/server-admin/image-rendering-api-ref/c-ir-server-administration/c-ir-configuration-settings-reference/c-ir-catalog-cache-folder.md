@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Carpeta de caché del catálogo (ir.catalogCacheRoot)
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 060c8b49-f9d9-498a-a07a-5ecd61af2677
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '52'
+source-wordcount: '48'
 ht-degree: 0%
 
 ---
-
 
 # Carpeta de caché del catálogo (ir.catalogCacheRoot){#catalog-cache-folder-ir-catalogcacheroot}
 
