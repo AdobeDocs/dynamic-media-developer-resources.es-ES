@@ -4,14 +4,13 @@ solution: Experience Manager
 title: SVG
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2863cc86-1f79-4db3-bd6f-a42839ef3439
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '275'
 ht-degree: 1%
 
 ---
-
 
 # SVG{#svg}
 
@@ -50,4 +49,3 @@ Configura el puerto en el que se comunican el servidor de imágenes y el compone
 >[!NOTE]
 >
 >Para el correcto funcionamiento del componente SVGRender, se debe especificar el mismo número de puerto para `SVG::SVGRender.port` y `IS::SVGTcpPort`.
-
