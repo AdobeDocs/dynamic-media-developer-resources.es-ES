@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Comandos de capa de texto
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: a40b90ca-98c1-4f1f-9825-ff9d57d67bb4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '94'
 ht-degree: 1%
 
 ---
-
 
 # Comandos de capa de texto{#text-layer-commands}
 
@@ -51,4 +50,3 @@ Estos comandos se aplican a las capas de texto, además de a los comandos de cap
   <td class="stentry"> <p>Proporciona texto de capa al procesador de texto tradicional. </p></td> 
  </tr> 
 </table>
-
