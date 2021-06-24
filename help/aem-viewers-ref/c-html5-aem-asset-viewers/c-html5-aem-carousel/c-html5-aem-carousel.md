@@ -22,7 +22,7 @@ El visor de carrusel es un visor que muestra un carrusel de imágenes de banner 
 
 El tipo de visor es 511.
 
-## Demostración de URL {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
+## Dirección URL de la demostración {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
 
 [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html)
 
@@ -52,7 +52,7 @@ El visor es totalmente accesible mediante teclado.
 
 Consulte [Accesibilidad del teclado y navegación](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
-## Incrustación del visor de carrusel {#section-6bb5d3c502544ad18a58eafe12a13435}
+## Incrustación de un visor de carrusel {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 **Acerca del modo emergente**
 
