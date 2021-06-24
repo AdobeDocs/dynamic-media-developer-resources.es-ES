@@ -2,18 +2,17 @@
 description: La clase principal del visualizador de giros es SpinViewer. Se declara en el espacio de nombres s7viewers. Esta API de JavaScript cubre el constructor, los métodos y las llamadas de retorno de esta clase en particular.
 solution: Experience Manager
 title: Referencia de la API de Javascript para el visualizador de giros
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de giros
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c32cccf8-fbaa-4fed-a95f-0f052141f312
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
 
-
-# Referencia de la API de Javascript para el visor de giros{#javascript-api-reference-for-spin-viewer}
+# Referencia de la API de Javascript para el visualizador de giros{#javascript-api-reference-for-spin-viewer}
 
 La clase principal del visualizador de giros es SpinViewer. Se declara en el espacio de nombres s7viewers. Esta API de JavaScript cubre el constructor, los métodos y las llamadas de retorno de esta clase en particular.
 
