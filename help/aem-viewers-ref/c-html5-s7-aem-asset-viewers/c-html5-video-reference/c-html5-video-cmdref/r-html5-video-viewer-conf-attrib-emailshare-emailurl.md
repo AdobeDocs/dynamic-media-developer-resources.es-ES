@@ -2,16 +2,15 @@
 description: Atributo de configuración para el visualizador de vídeo.
 solution: Experience Manager
 title: EmailShare.emailurl
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 6126d7de-5d5f-4a8a-898e-8a9bb5b37627
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 10%
+source-wordcount: '36'
+ht-degree: 11%
 
 ---
-
 
 # EmailShare.emailurl{#emailshare-emailurl}
 
@@ -41,4 +40,3 @@ Opcional.
 ```
 emailurl=http://s7d1.scene7.com/s7/emailFriend
 ```
-
