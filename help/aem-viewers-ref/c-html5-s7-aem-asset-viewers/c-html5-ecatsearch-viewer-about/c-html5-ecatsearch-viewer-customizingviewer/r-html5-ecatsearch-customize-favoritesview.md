@@ -2,16 +2,15 @@
 description: La vista Favoritos consiste en una columna de imágenes en miniatura.
 solution: Experience Manager
 title: Vista Favoritos
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 8daf3d19-615b-4d62-a6f5-6a153d193b88
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '290'
 ht-degree: 2%
 
 ---
-
 
 # Vista Favoritos{#favorites-view}
 
@@ -149,4 +148,3 @@ Ejemplo: para configurar etiquetas con una fuente Helvetica de 14 píxeles.
  font-size: 14px; 
 }
 ```
-
