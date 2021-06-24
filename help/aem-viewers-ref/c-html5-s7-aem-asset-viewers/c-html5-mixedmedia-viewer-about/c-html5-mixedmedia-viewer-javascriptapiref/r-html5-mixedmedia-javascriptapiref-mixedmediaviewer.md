@@ -2,16 +2,15 @@
 description: Referencia de la API de JavaScript para el visualizador de medios mixtos.
 solution: Experience Manager
 title: MixedMediaViewer
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b7f09f51-409e-4dfa-9041-b82767d4e35f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '216'
 ht-degree: 3%
 
 ---
-
 
 # MixedMediaViewer{#mixedmediaviewer}
 
@@ -68,4 +67,3 @@ defaultLocale:"en"
 } 
 });
 ```
-
