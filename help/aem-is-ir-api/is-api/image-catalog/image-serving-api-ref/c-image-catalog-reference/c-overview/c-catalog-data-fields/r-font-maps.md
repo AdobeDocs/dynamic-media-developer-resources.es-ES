@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Mapas de fuentes
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e01f5883-6b55-4316-a103-b77f363ebcea
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '65'
 ht-degree: 0%
 
 ---
-
 
 # Mapas de fuentes{#font-maps}
 
