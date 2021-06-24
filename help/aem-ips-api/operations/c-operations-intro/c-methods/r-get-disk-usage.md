@@ -4,14 +4,13 @@ solution: Experience Manager
 title: getDiskUsage
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 06fdd9f5-5021-4f0b-b312-4465df9bda25
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '103'
 ht-degree: 13%
 
 ---
-
 
 # getDiskUsage{#getdiskusage}
 
@@ -65,4 +64,3 @@ El nombre de esta solicitud es engañoso. En lugar de devolver simplemente un va
    </diskUsageArray>
 </getDiskUsageReturn>
 ```
-
