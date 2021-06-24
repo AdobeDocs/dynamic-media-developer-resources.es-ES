@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Eliminación o reemplazo de archivos de datos de origen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 9daf8534-a844-4f4a-8e99-8dc751acd550
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
-
 
 # Eliminación o reemplazo de archivos de datos de origen{#deleting-or-replacing-source-data-files}
 
