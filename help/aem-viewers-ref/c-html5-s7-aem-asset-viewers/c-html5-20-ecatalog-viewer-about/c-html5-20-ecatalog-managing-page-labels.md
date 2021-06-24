@@ -2,16 +2,15 @@
 description: Administración de etiquetas de página
 solution: Experience Manager
 title: Administración de etiquetas de página
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b62b5cb8-6100-4d0f-afd8-e6daa6ce6539
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
-
 
 # Administración de etiquetas de página{#managing-page-labels}
 
