@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Solicitudes de conjuntos de medios
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 71efed33-6248-4d23-ab4e-2caec3449171
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '967'
 ht-degree: 0%
 
 ---
-
 
 # Solicitudes de conjuntos de medios{#media-set-requests}
 
@@ -99,7 +98,7 @@ Cuando se recibe una solicitud `req=set`, el tipo de respuesta que se va a gener
 
 En todos los casos, la respuesta xml resultante se ajustará al documento XML especificado con el nodo raíz configurado correspondiente al tipo detectado.
 
-## Detección de tipo de conjunto interno {#section-8f46490e467247e69ce284704def06f3}
+## Detección de tipo de conjunto interior {#section-8f46490e467247e69ce284704def06f3}
 
 Cuando se detecta el conjunto exterior como conjunto de medios de tipo , la respuesta contendrá un conjunto de elementos de conjuntos de medios correspondientes a cada entrada de conjunto de medios en `catalog::ImageSet`. Si se especifica el parámetro de tipo opcional para una entrada de conjunto de medios en particular, se asigna a un tipo de salida según la siguiente tabla:
 
@@ -146,4 +145,3 @@ Para obtener respuestas XML de ejemplo para solicitudes `req=set` , consulte la 
 ## Véase también {#section-625ec466c948476e800dc0c52a4532d3}
 
 [req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76) ,  [imageset=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-imageset-req.md#reference-c42935490db84830b31e9e649895dee3),  [catálogo::ImageSet](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md), referencia del catálogo de  [imágenes](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)
-
