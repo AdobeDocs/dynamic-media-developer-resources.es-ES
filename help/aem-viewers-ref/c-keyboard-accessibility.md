@@ -2,24 +2,23 @@
 description: Todas las funciones expuestas en la interfaz de visor de Zoom básico, Catálogo electrónico, Búsqueda en catálogo electrónico, Flotante, Zoom en línea, Medios mixtos, Giro, Vídeo, Zoom, Dimensión (3D), Carrusel, Imagen interactiva, Vídeo interactivo y Video360 son accesibles mediante teclado.
 solution: Experience Manager
 title: Navegación y accesibilidad del teclado
-feature: Dynamic Media Classic,Viewers,SDK/API
+feature: Dynamic Media Classic,Visualizadores,SDK/API
 role: Developer,Business Practitioner
 exl-id: 0bdf172a-0bde-42d2-900f-f207538fe588
-translation-type: tm+mt
 source-git-commit: 62234233bb1a5bcbd0eac5d281b42ed785c0c169
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
 
-# Accesibilidad y navegación por teclado{#keyboard-accessibility-and-navigation}
+# Navegación y accesibilidad del teclado{#keyboard-accessibility-and-navigation}
 
 Todas las funciones expuestas en la interfaz de visor de Zoom básico, Catálogo electrónico, Búsqueda en catálogo electrónico, Flotante, Zoom en línea, Medios mixtos, Giro, Vídeo, Zoom, Carrusel, Dimensional (3D), Imagen interactiva, Vídeo interactivo y Video360 son accesibles mediante teclado.
 
 <!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
-## Accesibilidad y navegación por teclado {#topic-f5650e9493404e55a3627c8d1366b861}
+## Navegación y accesibilidad del teclado {#topic-f5650e9493404e55a3627c8d1366b861}
 
 Todas las funciones expuestas en la interfaz de visor de Zoom básico, Catálogo electrónico, Búsqueda en catálogo electrónico, Flotante, Zoom en línea, Medios mixtos, Giro, Vídeo, Zoom, Carrusel, Dimensional (3D), Imagen interactiva, Vídeo interactivo y Video360 son accesibles mediante teclado.
 
