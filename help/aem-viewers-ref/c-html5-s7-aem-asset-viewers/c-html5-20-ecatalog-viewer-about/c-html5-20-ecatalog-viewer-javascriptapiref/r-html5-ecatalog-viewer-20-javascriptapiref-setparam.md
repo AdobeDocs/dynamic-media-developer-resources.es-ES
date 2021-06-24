@@ -2,16 +2,15 @@
 description: Referencia de la API de JavaScript para el visor de catálogos electrónicos.
 solution: Experience Manager
 title: setParam
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 781982f6-488d-452c-8168-604c708ae6ce
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '88'
 ht-degree: 2%
 
 ---
-
 
 # setParam{#setparam}
 
@@ -47,4 +46,3 @@ Ninguno.
 ```
 <instance>.setParam("style", "customStyle.css")
 ```
-
