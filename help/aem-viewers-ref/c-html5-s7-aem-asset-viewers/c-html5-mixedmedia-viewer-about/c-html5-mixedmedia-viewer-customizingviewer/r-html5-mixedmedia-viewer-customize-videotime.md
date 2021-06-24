@@ -2,16 +2,15 @@
 description: La hora del vídeo es la visualización numérica que muestra la hora y la duración actuales del vídeo que se está reproduciendo.
 solution: Experience Manager
 title: Tiempo de vídeo
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 5efae314-5f37-4afc-9b9e-3108a8529e50
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '202'
 ht-degree: 2%
 
 ---
-
 
 # Tiempo de vídeo{#video-time}
 
@@ -27,7 +26,7 @@ El aspecto del tiempo de vídeo se controla con el siguiente selector de clase C
 .s7mixedmediaviewer .s7videotime
 ```
 
-## Propiedades CSS de tiempo de vídeo {#css-properties-of-video-time}
+## Propiedades CSS de la hora del vídeo {#css-properties-of-video-time}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -71,4 +70,3 @@ color:#BBBBBB;
 width:60px;  
 }
 ```
-
