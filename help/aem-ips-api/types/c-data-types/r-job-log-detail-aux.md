@@ -4,14 +4,13 @@ solution: Experience Manager
 title: JobLogDetailAux
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 789736c5-d74d-4970-9665-b43e316aca69
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 6%
+source-wordcount: '70'
+ht-degree: 7%
 
 ---
-
 
 # JobLogDetailAux{#joblogdetailaux}
 
@@ -26,4 +25,3 @@ Sintaxis
 | `*`logMessage`*` | `xsd:string` | Un mensaje auxiliar. |
 | `*`logType`*` | `xsd:string` | Tipo de registro: `IPSJobLog.gcUploadWarning` o `IPSJobLog.gcUploadError`. |
 | `*`dateCreated`*` | `xsd:dateTime` | Fecha de creación del registro de trabajos auxiliar. |
-
