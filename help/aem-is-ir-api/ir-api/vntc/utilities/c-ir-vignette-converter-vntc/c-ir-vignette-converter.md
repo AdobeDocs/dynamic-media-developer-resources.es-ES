@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Conversor de viñetas
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 9e2ad2d4-9061-41d1-941b-8be4c17a6c43
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
-
 
 # Conversor de viñetas{#vignette-converter}
 
