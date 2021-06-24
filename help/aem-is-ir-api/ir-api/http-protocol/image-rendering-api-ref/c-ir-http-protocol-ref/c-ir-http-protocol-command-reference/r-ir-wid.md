@@ -4,14 +4,13 @@ solution: Experience Manager
 title: wid
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: a77b71c3-8600-4d7a-ba52-e158cf9668eb
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '240'
 ht-degree: 2%
 
 ---
-
 
 # wid{#wid}
 
