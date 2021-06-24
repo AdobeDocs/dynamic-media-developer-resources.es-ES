@@ -4,14 +4,13 @@ solution: Experience Manager
 title: ImageMapDefinition
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 58478e7c-e3a1-4dd5-8ff9-e9752301b93c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '77'
 ht-degree: 11%
 
 ---
-
 
 # ImageMapDefinition{#imagemapdefinition}
 
@@ -28,4 +27,3 @@ Sintaxis
 | `*`región`*` | `xsd:string` | Coordenadas del mapa de imagen. El formato se basa en los atributos de etiqueta HTML `<area>`. |
 | `*`action`*` | `xsd:string` | Otros atributos a incluir en la etiqueta HTML `<area>` , incluida la dirección URL `href`. |
 | `*`habilitada`*` | `xsd:boolean` | True si el mapa de imagen está habilitado. |
-
