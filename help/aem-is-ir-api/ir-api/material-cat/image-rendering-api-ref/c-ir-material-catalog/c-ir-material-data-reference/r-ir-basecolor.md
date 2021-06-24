@@ -4,16 +4,15 @@ solution: Experience Manager
 title: Color base
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 57de25f9-ed99-4d4c-ac0e-08d382e8a36f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 5%
+source-wordcount: '82'
+ht-degree: 6%
 
 ---
 
-
-# BaseColor{#basecolor}
+# Color base{#basecolor}
 
 Color de imagen dominante. Color sustractivo, utilizado para colorear texturas. Debe ser el color dominante promedio en la imagen de textura.
 
