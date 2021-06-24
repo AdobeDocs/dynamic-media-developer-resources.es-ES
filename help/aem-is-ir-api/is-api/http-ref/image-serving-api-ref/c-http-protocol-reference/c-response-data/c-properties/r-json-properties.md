@@ -4,16 +4,15 @@ solution: Experience Manager
 title: Propiedades de JSONP
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2294eb37-b362-438f-94bc-eb24ca641752
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '208'
 ht-degree: 1%
 
 ---
 
-
-# Propiedades JSONP{#jsonp-properties}
+# Propiedades de JSONP{#jsonp-properties}
 
 Si jsonp se especifica como formato de respuesta, los datos de respuesta tienen un formato JSONP (Notación de objeto JavaScript con relleno), incluido en una llamada de función JavaScript.
 
