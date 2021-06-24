@@ -2,16 +2,15 @@
 description: El área de vista principal es el área ocupada por la imagen de giro. Normalmente se configura para que se ajuste a la pantalla de dispositivo disponible cuando no se especifica ningún tamaño.
 solution: Experience Manager
 title: Área del visor principal
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de giros
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 6cd9c375-8890-4033-b187-b95b26dd6009
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '124'
 ht-degree: 2%
 
 ---
-
 
 # Área del visor principal{#main-viewer-area}
 
@@ -59,4 +58,3 @@ Ejemplo: para configurar un visualizador con un fondo blanco ( `#FFFFFF`) y hace
  height: 288px;  
 }
 ```
-
