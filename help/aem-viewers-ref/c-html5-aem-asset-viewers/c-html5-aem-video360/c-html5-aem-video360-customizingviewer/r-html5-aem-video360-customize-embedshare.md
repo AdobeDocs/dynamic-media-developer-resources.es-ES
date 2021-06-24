@@ -2,13 +2,12 @@
 description: La herramienta Insertar uso compartido consiste en un botón añadido al panel Compartir en Social y el cuadro de diálogo modal que se muestra cuando se activa la herramienta. La posición del botón la gestiona completamente la herramienta de uso compartido de Social .
 solution: Experience Manager
 title: Incrustar recurso compartido
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
 role: Developer,Business Practitioner
 exl-id: 08ba7a29-8b17-4167-a9f3-82aa4cf65556
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '2606'
+source-wordcount: '2603'
 ht-degree: 2%
 
 ---
