@@ -2,13 +2,12 @@
 description: URL para el visualizador de vídeo interactivo.
 solution: Experience Manager
 title: navegación
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
 role: Developer,Business Practitioner
 exl-id: 9852e723-fd1f-4ade-921b-cfb92bf9f2ad
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '63'
 ht-degree: 12%
 
 ---
