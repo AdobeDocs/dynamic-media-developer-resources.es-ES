@@ -2,18 +2,17 @@
 description: Al pulsar o hacer clic en este botón, el usuario pasará a la siguiente página del catálogo. Este botón aparece en la barra de control principal. Este botón no se muestra en los teléfonos móviles para ahorrar espacio en la pantalla. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
 solution: Experience Manager
 title: Botón Página siguiente
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 6b94e583-fb2a-4010-bfc6-4fa901252e4e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '295'
 ht-degree: 2%
 
 ---
 
-
-# Botón de página siguiente{#next-page-button}
+# Botón Página siguiente{#next-page-button}
 
 Al pulsar o hacer clic en este botón, el usuario pasará a la siguiente página del catálogo. Este botón aparece en la barra de control principal. Este botón no se muestra en los teléfonos móviles para ahorrar espacio en la pantalla. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
 
@@ -96,4 +95,3 @@ background-image:url(images/v2/ToolBarRightButton_dark_down.png);
 background-image:url(images/v2/ToolBarRightButton_dark_disabled.png); 
 }
 ```
-
