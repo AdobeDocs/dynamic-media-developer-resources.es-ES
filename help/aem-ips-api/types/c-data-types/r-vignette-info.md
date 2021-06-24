@@ -4,14 +4,13 @@ solution: Experience Manager
 title: VignetteInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f9142082-5f49-4133-aab4-c07a14f8a16b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 17%
+source-wordcount: '49'
+ht-degree: 18%
 
 ---
-
 
 # VignetteInfo{#vignetteinfo}
 
@@ -30,4 +29,3 @@ Sintaxis
 | `*`imageFile`*` | `xsd:string` |  |
 | `*`optimizedPath`*` | `xsd:string` | Ruta optimizada al archivo. |
 | `*`optimizedFile`*` | `xsd:string` | Nombre de archivo optimizado. |
-
