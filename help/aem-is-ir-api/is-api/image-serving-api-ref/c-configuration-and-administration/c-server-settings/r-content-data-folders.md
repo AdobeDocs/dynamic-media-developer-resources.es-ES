@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Carpetas de datos de contenido
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 9aa4121f-25f8-49d0-a304-7ae756c046f5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
-
 
 # Carpetas de datos de contenido{#content-data-folders}
 
