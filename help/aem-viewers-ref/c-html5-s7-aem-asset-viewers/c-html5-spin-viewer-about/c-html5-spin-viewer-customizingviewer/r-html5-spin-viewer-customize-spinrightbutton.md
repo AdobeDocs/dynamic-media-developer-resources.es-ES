@@ -2,16 +2,15 @@
 description: Al pulsar o hacer clic en este botón, la imagen se gira a la derecha en la vista principal. Este botón no se muestra en los teléfonos móviles para ahorrar espacio en la pantalla. Además, el botón se oculta cuando se utiliza un conjunto de giros multidimensional. Puede cambiar el tamaño, el aspecto y la posición del botón mediante CSS.
 solution: Experience Manager
 title: Botón derecho de giro
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de giros
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 312260ae-8604-49a1-9874-3650919d91ab
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '338'
 ht-degree: 4%
 
 ---
-
 
 # Botón derecho de giro{#spin-right-button}
 
@@ -140,4 +139,3 @@ background-image:url(images/v2/SpinRightButton_light_over.png);
  background-image:url(images/v2/SpinRightButton_light_disabled.png); 
 }
 ```
-
