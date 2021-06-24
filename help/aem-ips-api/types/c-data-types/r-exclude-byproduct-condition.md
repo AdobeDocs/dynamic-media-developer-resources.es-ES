@@ -4,14 +4,13 @@ solution: Experience Manager
 title: ExcludeByproductCondition
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 5b37e01b-9e9c-4d34-9d39-1f9bfe356e53
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '63'
 ht-degree: 9%
 
 ---
-
 
 # ExcludeByproductCondition{#excludebyproductcondition}
 
@@ -25,4 +24,3 @@ Sintaxis
 |---|---|---|
 | `*`motor`*` | `xsd:string` | Motor de generación que creó los recursos que desea excluir. Consulte Información de generación para conocer los valores. |
 | `*`generatedAssetType`*` | `xsd:string` | Tipo de recurso excluido. Consulte Tipos de recursos para ver los valores. |
-
