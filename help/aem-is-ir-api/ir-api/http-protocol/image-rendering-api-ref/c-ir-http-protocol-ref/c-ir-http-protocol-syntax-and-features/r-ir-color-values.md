@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Valores de color
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 608ff0f1-4fbd-4e32-af07-3a62569d14c7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 11%
+source-wordcount: '124'
+ht-degree: 12%
 
 ---
-
 
 # Valores de color{#color-values}
 
