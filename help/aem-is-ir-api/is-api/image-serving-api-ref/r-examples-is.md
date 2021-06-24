@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Ejemplos de Image Server
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 17c933f1-5f61-4f22-88d4-6295a2d13a01
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '129'
 ht-degree: 6%
 
 ---
-
 
 # Ejemplos de Image Server{#image-server-examples}
 
@@ -31,4 +30,3 @@ Esta página vincula varios ejemplos de Image Server.
 * [texto](http://crc.scene7.com/is-docs/examples/text.htm)
 * [calidad de visualización](http://crc.scene7.com/is-docs/examples/view-quality.htm)
 * [view-size](http://crc.scene7.com/is-docs/examples/view-size.htm)
-
