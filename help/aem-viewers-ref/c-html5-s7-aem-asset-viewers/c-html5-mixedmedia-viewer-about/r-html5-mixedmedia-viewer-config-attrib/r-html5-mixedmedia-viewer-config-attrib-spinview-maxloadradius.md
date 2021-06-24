@@ -2,16 +2,15 @@
 description: Representa el número máximo de fotogramas que se van a precargar en cada dirección cuando SpinView está inactivo.
 solution: Experience Manager
 title: SpinView.maxloadradius
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e64fcd95-9660-4c1f-91b2-3ffc5a7493ce
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '161'
 ht-degree: 3%
 
 ---
-
 
 # SpinView.maxloadradius{#spinview-maxloadradius}
 
