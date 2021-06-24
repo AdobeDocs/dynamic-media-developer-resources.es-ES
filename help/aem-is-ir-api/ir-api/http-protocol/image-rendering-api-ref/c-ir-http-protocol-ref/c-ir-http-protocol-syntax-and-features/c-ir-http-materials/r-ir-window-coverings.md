@@ -4,16 +4,15 @@ solution: Experience Manager
 title: Cubiertas de ventana
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: ce6543a1-2438-4661-95bf-ff3d956013bc
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '160'
 ht-degree: 3%
 
 ---
 
-
-# Coberturas de ventana{#window-coverings}
+# Cubiertas de ventana{#window-coverings}
 
 Los materiales de revestimiento de las ventanas incluyen revestimientos de ventanas suaves (cortinas, cortinas de café), así como revestimientos de ventanas duras (tonos y persianas).
 
@@ -64,4 +63,3 @@ Los materiales de recubrimiento de ventanas solo se pueden aplicar a los objetos
   </tr> 
  </tbody> 
 </table>
-
