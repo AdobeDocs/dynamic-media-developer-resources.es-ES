@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Ejemplo B
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 90ef96fc-c12f-4fc8-b465-6520b71f4e7b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
-
 
 # Ejemplo B{#example-b}
 
@@ -37,4 +36,3 @@ Los orígenes de la capa 0 y de la capa 1 se colocan en el centro-derecho del á
 La siguiente ilustración muestra el resultado compuesto para diferentes proporciones de aspecto de la imagen y diferentes cadenas de texto.
 
 ![](assets/exampleb.png)
-
