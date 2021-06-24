@@ -5,9 +5,9 @@ title: setPassword
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
 exl-id: e8d95b55-0a97-4887-b711-7be99833c389
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: a05fb31b7c7515492723af63914d3e9999e65e9b
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '233'
 ht-degree: 8%
 
 ---
@@ -67,7 +67,7 @@ La fecha de caducidad de la contraseña es opcional. Si se omite, la contraseña
         <li id="li_6E3F084100104F2CBCF130EF8852C7B7">Caracteres en inglés en minúsculas. Por ejemplo, <span class="codeph"> a b c d e </span> y así sucesivamente </li> 
         <li id="li_1FDED8D7348842BC857320D797D41217">Caracteres en inglés en mayúsculas. Por ejemplo, <span class="codeph"> A B C D E </span> y así sucesivamente. </li> 
         <li id="li_C3C4D5412AA749F3B78F37B2B696CF80">Números. Por ejemplo, <span class="codeph"> 1 2 3 4 5 </span> y así sucesivamente. </li> 
-        <li id="li_2730798F26E74B878BEDE510CD06D8DD">Caracteres de símbolo especial. Por ejemplo, puede utilizar cualquiera de las siguientes opciones: <span class="codeph"> ` ~ ! @ # $ % ^ * ( ) _ + - = { } | [ ] y \ : " ; ' &lt; &gt; ? , . / </span> </li> 
+        <li id="li_2730798F26E74B878BEDE510CD06D8DD">Caracteres de símbolo especial. Por ejemplo, puede utilizar cualquiera de las siguientes opciones: <span class="codeph"> &amp;grave; ~ ! @ # $ % ^ * ( ) _ + - = { } | [ ] y \ : " ; ' &lt; &gt; ? , . / </span> </li> 
        </ul> </li> 
      </ul> </p> </td> 
   </tr> 
