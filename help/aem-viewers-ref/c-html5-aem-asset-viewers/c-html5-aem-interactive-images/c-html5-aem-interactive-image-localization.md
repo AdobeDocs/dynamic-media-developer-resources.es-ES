@@ -1,13 +1,12 @@
 ---
 description: El contenido que muestra el visualizador de imágenes interactivo está sujeto a localización. Esto incluye información sobre herramientas de elementos de la interfaz de usuario y un mensaje de información que se muestra en la vista de zoom flotante al cargar.
 title: Localización de los elementos de la interfaz de usuario
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Imágenes interactivas
 role: Developer,Business Practitioner
 exl-id: 19749c74-5c31-4dcf-ab07-0e7f10176a86
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
