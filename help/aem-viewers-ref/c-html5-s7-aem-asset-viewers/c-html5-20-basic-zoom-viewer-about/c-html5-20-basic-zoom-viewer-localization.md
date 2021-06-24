@@ -2,16 +2,15 @@
 description: Cierto contenido que muestra el Visor de zoom básico está sujeto a localización, incluidos botones de zoom y un botón de pantalla completa.
 solution: Experience Manager
 title: Localización de los elementos de la interfaz de usuario
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 8c399b64-e278-41bc-a9eb-692812979fea
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
-
 
 # Localización de los elementos de la interfaz de usuario{#localization-of-user-interface-elements}
 
@@ -91,4 +90,3 @@ Se admiten los siguientes SÍMBOLOS:
   </tr> 
  </tbody> 
 </table>
-
