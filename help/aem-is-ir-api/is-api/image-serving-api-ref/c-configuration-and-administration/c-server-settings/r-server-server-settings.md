@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Servidores
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 10970ca8-b209-4adf-b027-6eb8d7a15db6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
-
 
 # Servidores{#server}
 
@@ -45,7 +44,7 @@ Especifica el puerto utilizado para la comunicación entre Platform Server y Ima
 
 Límite aproximado para los datos de imagen en memoria, expresado como un porcentaje de memoria física. El rango válido es de 10% a 90%. El servidor de imágenes intenta restringir su uso de memoria de imagen a la cantidad especificada si es posible. El límite puede superarse temporalmente durante una actividad de procesamiento intensiva.
 
-## IS::WorkerThreads - Número de subprocesos de trabajo del servidor de imágenes {#section-e2946063b13c4f728cdf5dba3d8b4de1}
+## IS::WorkerThreads - Número de subprocesos de trabajo de Image Server {#section-e2946063b13c4f728cdf5dba3d8b4de1}
 
 Número máximo de subprocesos que utiliza el servidor de imágenes para procesar los datos de imágenes. El valor predeterminado es 0, lo que permite al servidor de imágenes optimizar el recuento de subprocesos automáticamente.
 
