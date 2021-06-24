@@ -4,14 +4,13 @@ solution: Experience Manager
 title: JobLog
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 80ae6669-6fe7-45a6-9a1d-f8544dd4f878
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '194'
 ht-degree: 3%
 
 ---
-
 
 # JobLog{#joblog}
 
@@ -45,4 +44,3 @@ Sintaxis
 | `*`mortalError`*` | `xsd:boolean` | Si el trabajo generó un error grave. |
 | `*`detailTotalRows`*` | `xsd:int` | El número total de filas que coinciden con la consulta, que puede ser mayor que el tamaño de `detailArray` debido a los límites de tamaño de página. |
 | `*`detailArray`*` | `types:JobLogDetailArray` | Matriz de detalles sobre el trabajo registrado. |
-
