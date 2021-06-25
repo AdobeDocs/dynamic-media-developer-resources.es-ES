@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Capas de texto
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 6793eb7d-6c10-4136-b6d4-186a698a8e52
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '891'
 ht-degree: 0%
 
 ---
-
 
 # Capas de texto{#text-layers}
 
@@ -50,7 +49,7 @@ Si se especifica `size=` además de `textPs=` (sin `textPath=` y `textFlowPath=`
 
 Todos los comandos RTF se aplican según lo esperado.
 
-## Cuadro de texto de altura variable {#section-e1233d1c9f8e43218667361dc0c4fd06}
+## Cuadro de texto Altura de variable {#section-e1233d1c9f8e43218667361dc0c4fd06}
 
 Si especifica `size=` con 0 altura, el cuadro de texto se puede ajustar verticalmente para que quepa todo el contenido. El ancho de la capa se define con el ancho `size=` y el alto de la capa con el alto del texto procesado real. La capa se coloca de la forma habitual. Los glifos de caracteres cerca de los bordes izquierdo y derecho del cuadro de texto pueden procesarse parcialmente fuera del cuadro de texto.
 
@@ -60,7 +59,7 @@ Se ignoran los siguientes comandos RTF:
 
 `\vertal*`
 
-## Texto autodimensionado en la ruta {#section-d26685e7085847efaaeba64b9cb5ed9f}
+## Autoajuste de texto en ruta {#section-d26685e7085847efaaeba64b9cb5ed9f}
 
 `textFlowPath=` conjuntamente con se  `textPs=` puede utilizar para definir una o más regiones en las que se debe fluir el texto. `textFlowXPath=` se puede especificar de forma opcional para excluir el flujo de texto a una o más áreas. Si no se especifica `size=`, la capa de texto resultante es de tamaño automático y el tamaño de la capa viene determinado por el cuadro delimitador del texto procesado.
 
@@ -86,7 +85,7 @@ Los siguientes comandos RTF se ignoran para `textFlowPath=`:
 
 `\marg*`
 
-## Autodimensionamiento de texto en la ruta {#section-7ce6b9b26b354ba381e4378703154062}
+## Autoajuste de texto en ruta {#section-7ce6b9b26b354ba381e4378703154062}
 
 `textPath=` define una o más rutas en las que se  `textPs=` debe representar el texto especificado con. Cuando no se especifica `size=`, la capa de texto resultante es de tamaño automático. El tamaño de la capa viene determinado por el cuadro delimitador del texto procesado.
 
@@ -102,7 +101,7 @@ Se ignoran los siguientes comandos RTF:
 
 Se ignora cualquier texto después del primer `\par` o `\line`.
 
-## Texto predimensionado en la ruta {#section-a3bbbc5187f448b192e53d27e2c53f2f}
+## Texto de tamaño previo en la ruta {#section-a3bbbc5187f448b192e53d27e2c53f2f}
 
 Si `size=` se especifica junto con `textPath=`, el tamaño de la capa se determina previamente. (0,0) del espacio de coordenadas de píxeles utilizado para definir la ruta se encuentra en la esquina superior izquierda del rectángulo de la capa.
 
