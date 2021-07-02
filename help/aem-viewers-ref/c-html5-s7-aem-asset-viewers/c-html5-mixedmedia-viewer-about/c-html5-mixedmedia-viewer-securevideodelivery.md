@@ -2,10 +2,10 @@
 description: Entrega de vídeo HTTPS
 solution: Experience Manager
 title: Entrega de vídeo HTTPS
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Combinar conjuntos de medios
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de medios mixtos
 role: Developer,Business Practitioner
 exl-id: f9651405-ebc6-4b1f-8fb6-031d0b295083
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 0%
