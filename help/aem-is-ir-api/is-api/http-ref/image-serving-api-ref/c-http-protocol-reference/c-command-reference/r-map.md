@@ -3,9 +3,9 @@ description: Datos del mapa de imagen. Proporciona datos de mapa de imagen para 
 solution: Experience Manager
 title: mapa
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 7c1fbb50-98ec-4d9a-b608-93d60d687069
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 3%
@@ -43,7 +43,7 @@ Atributo de capa. Cuando se aplica a `layer=comp`, los datos de mapa especificad
 
 ## Predeterminado {#section-620c19b3f3b84ba49706062de3f12f05}
 
-`catalog::Map` se utiliza si no  `map=` se especifica nada.
+`catalog::Map` se utiliza si no  `map=` se especifica.
 
 ## Ejemplo {#section-cd7691c94f984222845c86dcb0051ce8}
 
