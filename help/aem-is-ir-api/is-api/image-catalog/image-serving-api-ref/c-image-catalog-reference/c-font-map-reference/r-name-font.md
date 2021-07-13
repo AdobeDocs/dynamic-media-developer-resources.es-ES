@@ -3,9 +3,9 @@ description: Nombre de la fuente. El nombre de la fuente, exactamente como se es
 solution: Experience Manager
 title: Nombre
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: cf3bc6ca-ffe2-4417-8ce8-ec68c7039365
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 9%
