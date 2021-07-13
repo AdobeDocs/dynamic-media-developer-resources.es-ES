@@ -3,9 +3,9 @@ description: El visor de carrusel es un visor que muestra un carrusel de imágen
 solution: Experience Manager
 title: Carrusel
 feature: Dynamic Media Classic,Visores,SDK/API,Banners de carrusel
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: d506dc6e-8929-4f7f-a205-1683e77681f1
-source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '1902'
 ht-degree: 0%
