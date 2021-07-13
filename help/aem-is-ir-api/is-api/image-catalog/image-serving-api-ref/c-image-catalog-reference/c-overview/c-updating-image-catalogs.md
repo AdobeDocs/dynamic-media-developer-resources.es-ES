@@ -3,9 +3,9 @@ description: El servidor supervisa continuamente la carpeta del catálogo y vuel
 solution: Experience Manager
 title: Actualización de catálogos de imágenes
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: b520b4f3-6717-4768-99e2-78a76d1ede24
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 0%
