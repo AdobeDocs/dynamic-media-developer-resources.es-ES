@@ -3,9 +3,9 @@ description: Al pulsar o hacer clic en este botón, se cierra la página web con
 solution: Experience Manager
 title: Botón Cerrar
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de giros
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: e2f8e45a-5b24-45fa-a009-fc3221a65c15
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 2%
