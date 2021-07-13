@@ -3,9 +3,9 @@ description: Al pulsar o hacer clic en este botón, se reduce el tamaño de una 
 solution: Experience Manager
 title: Botón Reducir
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 9d877a2f-202a-4f71-a63c-e8f8352b8090
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 2%
