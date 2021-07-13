@@ -3,9 +3,9 @@ description: La imagen de precarga es una imagen de vista previa de recursos est
 solution: Experience Manager
 title: Precargar imagen
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Imágenes interactivas
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 54bea5fc-916c-4a58-bc06-b726884d488a
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 0%
