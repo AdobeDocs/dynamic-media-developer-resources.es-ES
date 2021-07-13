@@ -3,9 +3,9 @@ description: En el modo de zoom en línea, la vista principal consiste en la ima
 solution: Experience Manager
 title: Vista de zoom flotante
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de medios mixtos
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 46c91d1f-5809-4270-a06d-5068d20a6341
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 5%
