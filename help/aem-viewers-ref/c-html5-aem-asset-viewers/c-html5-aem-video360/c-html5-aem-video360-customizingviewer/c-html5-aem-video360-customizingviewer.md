@@ -4,9 +4,9 @@ keywords: adaptable
 solution: Experience Manager
 title: Personalización del visor de Video360
 feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: c9dda4e8-2781-4870-9ccb-707823c56490
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '1301'
 ht-degree: 0%
@@ -218,4 +218,4 @@ background-position: -0px -1120px;
 
 ## Elementos comunes de la interfaz de usuario {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
 
-A continuación se muestra la documentación de referencia de elementos de la interfaz de usuario que se aplica al visualizador de Video360:
+A continuación se muestra la documentación de referencia de elementos de la interfaz de usuario que se aplica al visualizador Video360:
