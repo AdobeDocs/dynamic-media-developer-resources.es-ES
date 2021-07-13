@@ -3,9 +3,9 @@ description: La localización de cadenas de texto permite que los catálogos de 
 solution: Experience Manager
 title: Localización de cadenas de texto
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: f105c7f2-b544-4c08-bb91-4916e485572d
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 3%
@@ -121,7 +121,7 @@ El mapa de traducción de ejemplo especifica que, en tal caso, el *`defaultStrin
 
 Se pueden asociar varios valores *`locId`* con cada *`locale`* en el mapa de traducción. Esto permite admitir variaciones específicas del país o la región (por ejemplo, inglés de EE. UU. vs inglés de Reino Unido) para seleccionar *`stringElements`* mientras se gestiona la mayoría de los contenidos con configuraciones regionales de base comunes (por ejemplo, inglés internacional).
 
-Para nuestro ejemplo, queremos agregar compatibilidad con el inglés específico de EE. UU. ( `*`locId`* EUS`) y el inglés específico de Reino Unido ( `*`locId`* EUK`), para admitir la ortografía alternativa ocasional. Si no existen EUK o EUS, volveremos a E. De manera similar, las variantes específicas de Austria para Alemania ( `DAT`) podrían estar disponibles cuando sea necesario mientras se devuelve el alemán común *`localizedStrings`* (marcado con `D`) la mayor parte del tiempo.
+Para nuestro ejemplo, queremos agregar compatibilidad con el inglés específico de EE. UU. ( `*`locId`* EUS`) y el inglés específico de Reino Unido ( `*`locId`* EUK`), para admitir la ortografía alternativa ocasional. Si no existen EUK o EUS, volveremos a E. De manera similar, las variantes específicas de Austria para Alemania ( `DAT`) podrían estar disponibles cuando sea necesario mientras devuelven el alemán común *`localizedStrings`* (marcado con `D`) la mayor parte del tiempo.
 
 `attribute::LocaleStrMap` tendría este aspecto:
 
