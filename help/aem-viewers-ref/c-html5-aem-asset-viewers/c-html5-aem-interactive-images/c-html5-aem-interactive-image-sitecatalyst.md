@@ -3,9 +3,9 @@ description: Compatibilidad con el seguimiento de análisis
 solution: Experience Manager
 title: Compatibilidad con el seguimiento de análisis
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Imágenes interactivas
-role: Developer,Business Practitioner,Data Engineer,Data Architect
+role: Developer,User,Data Engineer,Data Architect
 exl-id: 17e8937f-e328-46a4-b7d9-1fd39ab2e8bd
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 2%
