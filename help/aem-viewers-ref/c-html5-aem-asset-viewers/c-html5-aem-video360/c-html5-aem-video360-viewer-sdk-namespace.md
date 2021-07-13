@@ -3,9 +3,9 @@ description: Espacio de nombres del SDK del visor
 solution: Experience Manager
 title: Espacio de nombres del SDK del visor
 feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 3360a3bd-8a4a-4bf9-98bf-ada7c35c58f4
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 0%
