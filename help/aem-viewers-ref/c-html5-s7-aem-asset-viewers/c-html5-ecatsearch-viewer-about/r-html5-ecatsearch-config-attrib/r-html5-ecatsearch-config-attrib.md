@@ -3,9 +3,9 @@ description: Documentación de atributos de configuración para el visor de cat�
 solution: Experience Manager
 title: 'Referencia de comandos: Atributos de configuración'
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: e8ce40c9-d1c0-454f-b8fa-ba19e3fe2091
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 0%
