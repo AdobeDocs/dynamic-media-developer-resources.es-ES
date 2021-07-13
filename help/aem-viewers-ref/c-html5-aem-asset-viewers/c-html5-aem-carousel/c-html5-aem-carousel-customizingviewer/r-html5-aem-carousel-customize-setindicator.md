@@ -3,9 +3,9 @@ description: El indicador de conjunto es una serie de puntos procesados en la pa
 solution: Experience Manager
 title: Definir indicador
 feature: Dynamic Media Classic,Visores,SDK/API,Banners de carrusel
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 7d0827c5-f420-4804-983c-5298ee92b276
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 1%
