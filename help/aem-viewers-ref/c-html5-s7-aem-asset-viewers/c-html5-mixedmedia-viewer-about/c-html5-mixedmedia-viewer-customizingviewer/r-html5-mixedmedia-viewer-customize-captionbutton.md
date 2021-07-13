@@ -3,9 +3,9 @@ description: Activa o desactiva la visualización de subtítulos. No está visib
 solution: Experience Manager
 title: Botón Rótulo
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de medios mixtos
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 62809036-f158-402d-a8b2-2b9335e8c079
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 2%
