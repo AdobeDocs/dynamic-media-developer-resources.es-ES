@@ -3,9 +3,9 @@ description: Referencia de la API de JavaScript para el visor de zoom en línea.
 solution: Experience Manager
 title: setHandlers
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom en línea
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 233fadf5-4b09-406d-959b-c2c9c4524021
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 3%
