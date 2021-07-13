@@ -3,9 +3,9 @@ description: El visor de búsqueda en catálogo electrónico es compatible con e
 solution: Experience Manager
 title: Compatibilidad con el seguimiento de Adobe Analytics
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
-role: Developer,Business Practitioner,Data Engineer,Data Architect
+role: Developer,User,Data Engineer,Data Architect
 exl-id: b35e52f5-fa08-4945-aa52-9fdf41a6081a
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 3%
