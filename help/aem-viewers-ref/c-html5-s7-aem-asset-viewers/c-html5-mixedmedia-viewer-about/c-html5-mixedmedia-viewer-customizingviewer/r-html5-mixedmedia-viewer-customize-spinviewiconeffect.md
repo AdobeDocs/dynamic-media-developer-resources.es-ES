@@ -3,9 +3,9 @@ description: El indicador de giro se superpone en el área de vista de giro. Se 
 solution: Experience Manager
 title: Efecto Icono de vista de giro
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de medios mixtos
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 1c5c73f9-c32a-4bca-93f0-c5a95756355b
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 1%
