@@ -3,9 +3,9 @@ description: La herramienta Uso compartido de correo electrónico consiste en un
 solution: Experience Manager
 title: Uso compartido de correo electrónico
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 1788e069-68dd-4960-bc49-34ffdf29991a
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '2987'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Uso compartido de correo electrónico{#email-share}
 
-La herramienta Uso compartido de correo electrónico consiste en un botón agregado al panel Uso compartido en Social y el cuadro de diálogo modal que se muestra cuando se activa la herramienta. La posición del botón la gestiona completamente la herramienta de uso compartido de Social .
+La herramienta Uso compartido de correo electrónico consiste en un botón agregado al panel Uso compartido en Social y el cuadro de diálogo modal que se muestra cuando se activa la herramienta. La posición del botón la gestiona completamente la herramienta de uso compartido de Social.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
