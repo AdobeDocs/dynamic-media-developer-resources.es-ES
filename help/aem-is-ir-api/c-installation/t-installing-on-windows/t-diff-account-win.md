@@ -3,9 +3,9 @@ description: Después de la instalación, tendrá que configurar los servicios p
 solution: Experience Manager
 title: Instalación en una cuenta de usuario diferente a un administrador
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
+role: Developer,Administrator,User
 exl-id: 20bb00cb-3af6-4573-bbff-8c4f984ed2ae
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 0%
