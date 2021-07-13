@@ -3,9 +3,9 @@ description: Al pulsar o hacer clic en este botón, se restablece el visor entre
 solution: Experience Manager
 title: Botón Miniaturas
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: ddd976ca-6043-4930-8ce6-f58fad226ff3
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 1%
