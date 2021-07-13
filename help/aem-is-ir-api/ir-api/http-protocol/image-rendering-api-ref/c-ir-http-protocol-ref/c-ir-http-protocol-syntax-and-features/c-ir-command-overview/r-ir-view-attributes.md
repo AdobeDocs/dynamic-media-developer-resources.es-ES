@@ -3,9 +3,9 @@ description: Estos comandos son independientes de la posición y pueden producir
 solution: Experience Manager
 title: Ver atributos
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 18e1ee40-fe34-435a-be97-849b08618d48
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 1%
