@@ -3,9 +3,9 @@ description: La herramienta de uso compartido en redes sociales aparece en la es
 solution: Experience Manager
 title: Uso compartido en medios sociales
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 82b482f9-b117-4529-a422-cdb0eead0031
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 1%
