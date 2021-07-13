@@ -3,9 +3,9 @@ description: Utilidad de conversión de imágenes.
 solution: Experience Manager
 title: ic
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: ab653aae-532b-4f3d-8541-f6296fbf9172
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '1209'
 ht-degree: 2%
@@ -253,7 +253,7 @@ En la tabla siguiente se enumeran los formatos de archivo de imagen y las opcion
   <tr> 
    <td> <b> BMP</b> <p> (Mapa de bits de Windows) </p> </td> 
    <td> <p> RGB | indexado </p> </td> 
-   <td> <p> 3 | 5/6 | 8 </p> </td> 
+   <td> <p> 1 | 5/6 | 8 </p> </td> 
    <td> <p> sin comprimir | RLE </p> </td> 
    <td> <p> 5/6 bits/canal indica la compatibilidad con RGB de 16 bits (5-5-5 y 5-6-5 bits/canal). </p> </td> 
   </tr> 
