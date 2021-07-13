@@ -3,9 +3,9 @@ description: El visor muestra las regiones de los resultados de búsqueda en la 
 solution: Experience Manager
 title: Efecto de búsqueda
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 3591edb0-4b0a-4761-af87-c372132c5138
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 1%
