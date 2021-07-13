@@ -3,9 +3,9 @@ description: Documentación de referencia de comandos para el visualizador de Vi
 solution: Experience Manager
 title: 'Referencia de comandos: URL'
 feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: eb7026cf-f28b-4426-ba64-b3472946d5d4
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
