@@ -3,9 +3,9 @@ description: Atributo de configuración para el visualizador de vídeo360.
 solution: Experience Manager
 title: Video360Player.posterimage
 feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: fffd0976-0aeb-4e61-981f-b84e9076f35f
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 12%
