@@ -3,9 +3,9 @@ description: Para aplicaciones avanzadas es posible utilizar el resultado de una
 solution: Experience Manager
 title: Solicitudes de renderización de imágenes anidadas
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 52c12786-bbe7-4410-87bb-6245d782a68c
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 0%
