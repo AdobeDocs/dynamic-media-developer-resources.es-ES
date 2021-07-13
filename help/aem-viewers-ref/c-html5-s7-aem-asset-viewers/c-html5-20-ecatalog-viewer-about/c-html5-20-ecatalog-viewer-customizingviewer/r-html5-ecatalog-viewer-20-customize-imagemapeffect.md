@@ -3,9 +3,9 @@ description: Según el valor del parámetro mode , el visor muestra los iconos d
 solution: Experience Manager
 title: Efecto Mapa de imágenes
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 3816118f-4eb7-4436-9f54-155dde077734
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 1%
