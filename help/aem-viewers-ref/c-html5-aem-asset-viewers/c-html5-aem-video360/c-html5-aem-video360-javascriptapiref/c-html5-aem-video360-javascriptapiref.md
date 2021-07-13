@@ -3,9 +3,9 @@ description: La clase principal del Visor de vídeos 360es el Visor de vídeos 3
 solution: Experience Manager
 title: Referencia de la API de JavaScript para el visualizador de Video360
 feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: b4feada6-c12a-4c44-b560-286f87d88d2c
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
