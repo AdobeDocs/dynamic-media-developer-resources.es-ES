@@ -3,9 +3,9 @@ description: Al pulsar o hacer clic en este botón, se amplía la imagen de la v
 solution: Experience Manager
 title: Botón Ampliar
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: b9d037fd-7ae3-424e-b9c7-c46a7d219127
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 2%
