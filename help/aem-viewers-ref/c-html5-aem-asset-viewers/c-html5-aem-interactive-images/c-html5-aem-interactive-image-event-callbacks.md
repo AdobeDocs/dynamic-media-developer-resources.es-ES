@@ -3,9 +3,9 @@ description: Llamadas de retorno de eventos
 solution: Experience Manager
 title: Llamadas de retorno de eventos
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Imágenes interactivas
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 59b8a88e-0139-4981-bfb9-f2dc1ac2337d
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 1%
