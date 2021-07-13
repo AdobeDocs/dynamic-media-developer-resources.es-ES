@@ -1,11 +1,11 @@
 ---
-description: La herramienta Compartir de facebook consiste en un botón añadido al panel Compartir en Social . Cuando se hace clic en el botón, el usuario se redirige a un cuadro de diálogo de uso compartido proporcionado por un servicio social. La posición del botón la gestiona completamente la herramienta de uso compartido de Social .
+description: La herramienta Compartir de facebook consiste en un botón añadido al panel Compartir en Social . Cuando se hace clic en el botón, el usuario se redirige a un cuadro de diálogo de uso compartido proporcionado por un servicio social. La posición del botón la gestiona completamente la herramienta de uso compartido de Social.
 solution: Experience Manager
 title: Uso compartido de facebook
 feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 343cde8b-796a-420f-abb7-268b3791a684
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 0%
