@@ -3,9 +3,9 @@ description: Devuelve los contextos de publicación de los recursos marcados par
 solution: Experience Manager
 title: batchGetAssetPublishContexts
 feature: Dynamic Media Classic,SDK/API,Administración de activos
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: ba1f62a7-2698-4300-b6de-6d07ac764b0c
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 15%
