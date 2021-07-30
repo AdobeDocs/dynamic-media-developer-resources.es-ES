@@ -5,7 +5,7 @@ title: Operaciones nuevas y modificadas
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9033328a-d0ce-4ef2-b6ec-c6a81fbedf9d
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: d2e73ae5f92d9ba3471dc7207842753ccff94c28
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 0%
@@ -38,11 +38,7 @@ Sintaxis
 ## Operaciones modificadas {#section-1c022cc62d274c349837013f1c02ca51}
 
 * `Asset` incluye  `animatedGifInfo`,  `swcInfo`,  `cssInfo` y  `javascriptInfo` parámetros.
-
 * `createMetadataField` incluye un  `isHidden` parámetro opcional.
-
 * `saveMetadataField` incluye un  `isHidden` parámetro opcional.
-
 * `searchAssets`
-* 
 * El parámetro `renameFiles` ha quedado obsoleto para versiones anteriores y se ha eliminado de la operación `renameAsset`. La ruta del archivo virtual se cambia para que coincida con el nuevo nombre del recurso (conservando la extensión del archivo), mientras que las rutas de archivo físicas no se ven afectadas. Los clientes de API deben eliminar las referencias a este parámetro al actualizar a la nueva versión de API.
