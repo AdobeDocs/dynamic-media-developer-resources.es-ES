@@ -6,9 +6,9 @@ title: Flotante
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Flotante
 role: Developer,User
 exl-id: 9b60330f-5348-431d-9682-cf97aace3679
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: f77dc0c1ac8305037bbb561451317c8e62209cec
 workflow-type: tm+mt
-source-wordcount: '2084'
+source-wordcount: '2072'
 ht-degree: 0%
 
 ---
@@ -78,11 +78,11 @@ Las diferentes páginas web tienen diferentes necesidades de comportamiento del 
 
 Se utiliza el modo de incrustación de tamaño fijo cuando el visor no cambia su tamaño después de su carga inicial. Esta opción es mejor para las páginas web que tienen un diseño de página estático.
 
-El modo de incrustación de diseño interactivo supone que el visor puede tener que cambiar el tamaño durante el tiempo de ejecución en respuesta al cambio de tamaño de su contenedor `DIV`. El caso de uso más común es agregar un visor a una página web que utilice un diseño de página flexible.
+El modo de incrustación de diseño interactivo supone que el visor debe cambiar el tamaño durante el tiempo de ejecución en respuesta al cambio de tamaño de su contenedor `DIV`. El caso de uso más común es agregar un visor a una página web que utilice un diseño de página flexible.
 
 Cuando utilice el modo de incrustación de diseño interactivo con el visor flotante, asegúrese de especificar puntos de interrupción explícitos para la imagen de vista principal mediante el parámetro `imagereload`. Lo ideal es que sus puntos de interrupción coincidan con los puntos de interrupción de anchura del visor tal y como dicta el CSS de la página web.
 
-En el modo de incrustación de diseño interactivo, el visor se comporta de forma diferente en función del tamaño que tenga una página web en su contenedor `DIV`. Si la página web establece únicamente la anchura del contenedor `DIV`, sin restringir su altura, el visor elige automáticamente su altura según la proporción de aspecto del recurso que se utiliza. Esto significa que el recurso encaja perfectamente en la vista sin ningún relleno en los lados. Este caso de uso en particular es el más común para las páginas web que usan marcos de diseño interactivos como Bootstrap, Foundation, etc.
+En el modo de incrustación de diseño interactivo, el visor se comporta de forma diferente en función del tamaño de un contenedor de página web `DIV`. Si la página web establece únicamente la anchura del contenedor `DIV`, sin restringir su altura, el visor elige automáticamente su altura según la proporción de aspecto del recurso que se utiliza. Esta funcionalidad significa que el recurso encaja perfectamente en la vista sin ningún relleno en los lados. Este caso de uso en particular es el más común para las páginas web que usan marcos de diseño interactivo como Bootstrap y Fundación.
 
 De lo contrario, si la página web establece la anchura y la altura del contenedor del visor `DIV`, el visor rellenará solo esa área y seguirá el tamaño proporcionado por el diseño de la página web. Un buen ejemplo de uso es integrar el visor en una superposición modal, donde el tamaño de la superposición depende del tamaño de la ventana del explorador web.
 
@@ -97,7 +97,7 @@ Para añadir el visor a una página web, haga lo siguiente:
 
 1. Añadir el archivo JavaScript del visor a la página web.
 
-   Para crear un visor es necesario agregar una etiqueta de script en el encabezado HTML. Antes de utilizar la API del visor, asegúrese de incluir `FlyoutViewer.js`. `FlyoutViewer.js` se encuentra en la siguiente  [!DNL html5/js/] subcarpeta de la implementación estándar de IS-Viewers:
+   Para crear un visor es necesario agregar una etiqueta de script en el encabezado HTML. Antes de utilizar la API del visor, asegúrese de incluir `FlyoutViewer.js`. `FlyoutViewer.js` se encuentra en la siguiente  [!DNL html5/js/] subcarpeta de la implementación estándar de visores IS:
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
@@ -111,7 +111,7 @@ Una ruta relativa tiene el siguiente aspecto:
 
 >[!NOTE]
 >
->Solo debe hacer referencia al archivo JavaScript `include` del visor principal de la página. No debe hacer referencia a ningún archivo JavaScript adicional del código de la página web que pueda descargar la lógica del visor durante la ejecución. En concreto, no haga referencia directamente a la biblioteca `Utils.js` del SDK de HTML5 cargada por el visor desde la ruta de contexto `/s7viewers` (denominada SDK consolidado `include`). El motivo es que la ubicación de las `Utils.js` o bibliotecas de visores de tiempo de ejecución similares se administra completamente mediante la lógica del visor y la ubicación cambia entre las versiones del visor. Adobe no mantiene versiones anteriores del visor secundario `includes` en el servidor.
+>Solo haga referencia al archivo JavaScript `include` del visor principal de la página. No haga referencia a ningún archivo JavaScript adicional del código de la página web que pueda descargar la lógica del visor durante la ejecución. En concreto, no haga referencia directamente a la biblioteca `Utils.js` del SDK de HTML5 cargada por el visor desde la ruta de contexto `/s7viewers` (denominada SDK consolidado `include`). El motivo es que la ubicación de las `Utils.js` o bibliotecas de visores de tiempo de ejecución similares se administra completamente mediante la lógica del visor y la ubicación cambia entre las versiones del visor. Adobe no mantiene versiones anteriores del visor secundario `includes` en el servidor.
 >
 >
 >Como resultado, poner una referencia directa a cualquier JavaScript `include` secundario que utilice el visor en la página rompe la funcionalidad del visor en el futuro cuando se implemente una nueva versión del producto.
@@ -134,7 +134,7 @@ Una ruta relativa tiene el siguiente aspecto:
 
    Este visor muestra miniaturas al trabajar con conjuntos de varios elementos. En los sistemas de escritorio, las miniaturas se colocan debajo de la vista principal. Al mismo tiempo, el visor permite el intercambio del recurso principal durante el tiempo de ejecución mediante la API `setAsset()`. Como desarrollador, tiene control sobre cómo administra el visor el área de miniaturas del área inferior cuando el nuevo recurso solo tiene un elemento. Es posible mantener intacto el tamaño del visor exterior y permitir que la vista principal aumente su altura y ocupe el área de miniaturas. O bien, puede mantener estático el tamaño de la vista principal y contraer el área del visor exterior, lo que permite que el contenido de la página web se mueva hacia arriba y, a continuación, utilizar el espacio inmobiliario de la página libre que queda en las miniaturas.
 
-   Para mantener intactos los límites exteriores del visor, defina el tamaño de la clase CSS de nivel superior `.s7flyoutviewer` en unidades absolutas. El tamaño en CSS se puede colocar directamente en la página HTML o en un archivo CSS de visor personalizado, que más tarde se asigna a un registro preestablecido de visor en Dynamic Media Classic, o se pasa explícitamente mediante el comando Estilo.
+   Para mantener intactos los límites exteriores del visor, defina el tamaño de la clase CSS de nivel superior `.s7flyoutviewer` en unidades absolutas. El tamaño en CSS se puede colocar directamente en la página HTML o en un archivo CSS de visualizador personalizado, posteriormente asignado a un registro preestablecido de visualizador en Dynamic Media Classic o pasado explícitamente mediante el comando Estilo.
 
    Consulte [Personalización del visor flotante](../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#concept-82f8c71adbe54680a0c2f83f81e5f451) para obtener más información sobre cómo diseñar el visor con CSS.
 
@@ -170,7 +170,7 @@ Una ruta relativa tiene el siguiente aspecto:
 
    [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html)
 
-   Además, tenga en cuenta que el visor CSS predeterminado proporciona un tamaño fijo para su área exterior predeterminada.
+   Además, el visor CSS predeterminado proporciona un tamaño fijo para su área externa predeterminada.
 
 1. Creación e inicialización del visor.
 
@@ -178,7 +178,7 @@ Una ruta relativa tiene el siguiente aspecto:
 
    Es importante tener el contenedor de visor agregado al DOM para que el código del visor pueda encontrar el elemento contenedor por su ID. Algunos exploradores retrasan la creación del DOM hasta el final de la página web. Para obtener la máxima compatibilidad, llame al método `init()` justo antes de la etiqueta `BODY` de cierre o en el evento `onload()` del cuerpo.
 
-   Al mismo tiempo, el elemento contenedor no debe formar parte necesariamente del diseño de página web todavía. Por ejemplo, puede ocultarse utilizando el estilo `display:none` asignado. En este caso, el visor retrasa su proceso de inicialización hasta el momento en que la página web vuelve a poner el elemento contenedor en el diseño. Cuando esto sucede, la carga del visor se reanuda automáticamente.
+   Al mismo tiempo, el elemento contenedor no debe formar parte necesariamente del diseño de la página web todavía. Por ejemplo, puede ocultarse utilizando el estilo `display:none` asignado. En este caso, el visor retrasa su proceso de inicialización hasta el momento en que la página web vuelve a poner el elemento contenedor en el diseño. Cuando se produce esta acción, la carga del visor se reanuda automáticamente.
 
    El siguiente es un ejemplo de creación de una instancia de visor, pasando las opciones de configuración mínimas necesarias al constructor y llamando al método `init()`. El ejemplo supone que `flyoutViewer` es la instancia del visor; `s7viewer` es el nombre del marcador de posición `DIV`; `http://s7d1.scene7.com/is/image/` es la URL del servicio de imágenes; y `Scene7SharedAssets/ImageSet-Views-Sample` es el recurso:
 
@@ -243,7 +243,7 @@ Con la incrustación de diseño interactivo, la página web normalmente tiene al
 </html>
 ```
 
-Añadir el visor a una página de este tipo es similar a los pasos para la incrustación de tamaño fijo. La única diferencia es que necesita anular el tamaño fijo del CSS del visor predeterminado con el tamaño establecido en unidades relativas.
+Añadir el visor a una página de este tipo es similar a los pasos para la incrustación de tamaño fijo. La única diferencia es que debe anular el tamaño fijo del visor CSS predeterminado con el tamaño establecido en unidades relativas.
 
 1. Añadir el archivo JavaScript del visor a la página web.
 1. Definición del contenedor `DIV`.
@@ -302,11 +302,11 @@ La página de ejemplos siguientes ilustra más usos reales de la incrustación d
 
 [Demostraciones en directo](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Ubicación de demostración alternativa](https://experienceleague.adobe.com/tools/vlist/vlist.html)
+[Ubicación de demostración alternativa](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 ## Integración de tamaño flexible con anchura y altura definidas {#section-0a329016f9414d199039776645c693de}
 
-En caso de incrustación de tamaño flexible con anchura y altura definidas, el estilo de la página web es diferente. Proporciona ambos tamaños al DIV `"holder"` y lo centra en la ventana del explorador. Además, la página web establece el tamaño del elemento `HTML` y `BODY` en 100 por ciento.
+Si hay una incrustación de tamaño flexible con anchura y altura definidas, el estilo de la página web es diferente. Proporciona ambos tamaños al DIV `"holder"` y lo centra en la ventana del explorador. Además, la página web establece el tamaño del elemento `HTML` y `BODY` en 100 por ciento.
 
 ```
 <!DOCTYPE html> 
