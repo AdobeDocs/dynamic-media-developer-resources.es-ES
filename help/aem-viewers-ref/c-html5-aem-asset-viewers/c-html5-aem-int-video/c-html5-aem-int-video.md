@@ -5,9 +5,9 @@ title: Vídeo interactivo
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
 role: Developer,User
 exl-id: e54b0b1f-b015-4592-82e2-99f5080543e3
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: f77dc0c1ac8305037bbb561451317c8e62209cec
 workflow-type: tm+mt
-source-wordcount: '2217'
+source-wordcount: '2216'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Cuando el visor funciona en modo emergente, no hay un botón de pantalla complet
 
 El visor muestra un panel con muestras interactivas a la derecha del área de visualización de vídeo. La lista de muestras avanza automáticamente mientras se reproduce el vídeo, de modo que se muestren las muestras correspondientes a la región de vídeo actual. Al tocar o hacer clic en una muestra, se déclencheur una acción asociada con dicha muestra durante el tiempo de creación. Según la configuración, el déclencheur puede redirigir a una página diferente del sitio web. O bien, puede devolver la información del producto a la lógica de la página web, que a su vez puede almacenar en déclencheur la apertura de una vista rápida que muestre el contenido del producto relacionado.
 
-Es posible navegar rápidamente por el contenido de vídeo cuando se activa el capítulo de vídeo. Los capítulos del vídeo se muestran como marcadores en la pista de desplazamiento del vídeo y muestran el título y la descripción del capítulo al pasar (o al pulsar un solo toque en sistemas táctiles). El cliente puede &quot;buscar&quot; un capítulo en particular haciendo clic en un marcador de capítulo o pulsando una burbuja de descripción de capítulo.
+Es posible navegar rápidamente por el contenido del vídeo cuando se activa el capítulo del vídeo. Los capítulos del vídeo se muestran como marcadores en la pista de desplazamiento del vídeo y muestran el título y la descripción del capítulo al pasar (o al pulsar un solo toque en sistemas táctiles). El cliente puede &quot;buscar&quot; un capítulo en particular haciendo clic en un marcador de capítulo o pulsando una burbuja de descripción de capítulo.
 
 El visor también es compatible con varias herramientas de uso compartido de redes sociales. Están disponibles como un solo botón en la interfaz de usuario que se expande a una barra de herramientas de uso compartido cuando el usuario hace clic o pulsa en él. La barra de herramientas de uso compartido contiene un icono para cada tipo de canal de uso compartido compatible, como Facebook, Twitter, uso compartido de correo electrónico, uso compartido de código incrustado y uso compartido de vínculos. Cuando se activan las herramientas de uso compartido por correo electrónico, uso compartido incrustado o uso compartido de vínculos, el visor muestra un cuadro de diálogo modal con un formulario de entrada de datos correspondiente. Cuando se llama a Facebook o Twitter, el visor redirige al usuario a un cuadro de diálogo estándar de uso compartido desde un servicio de medios sociales. Además, cuando se activa una herramienta de uso compartido, la reproducción de vídeo se pone en pausa automáticamente. Las herramientas de uso compartido no están disponibles en el modo de pantalla completa debido a las restricciones de seguridad del explorador web.
 
@@ -280,7 +280,7 @@ La página de ejemplos siguientes ilustra más usos reales de la incrustación d
 
 [Demostraciones en directo](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Ubicación de demostración alternativa](https://experienceleague.adobe.com/tools/vlist/vlist.html)
+[Ubicación de demostración alternativa](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 **Incrustación interactiva con anchura y altura definidas**
 
