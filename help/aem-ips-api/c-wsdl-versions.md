@@ -5,10 +5,10 @@ title: Versiones WSDL del servicio web IPS
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d7a6079e-286e-4e62-b2ff-551ef4a5815c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 2%
+source-wordcount: '954'
+ht-degree: 1%
 
 ---
 
@@ -139,7 +139,7 @@ Para procesar una solicitud, establezca el encabezado HTTP SOAPAction en el nomb
 
 **Formato del mensaje**
 
-El estilo documento/literal se utiliza para todos los mensajes de entrada y salida con tipos basados en el lenguaje de definición del esquema XML ( [http://www.w3.org/TR/xmlschema-0/](http://www.w3.org/TR/xmlschema-0/)) y especificados en el archivo WSDL. Todos los tipos requieren nombres cualificados que utilicen el valor de espacio de nombres de destino especificado en el archivo WSDL.
+El estilo documento/literal se utiliza para todos los mensajes de entrada y salida con tipos basados en el lenguaje de definición del esquema XML ( [https://www.w3.org/TR/xmlschema-0/](https://www.w3.org/TR/xmlschema-0/)) y especificados en el archivo WSDL. Todos los tipos requieren nombres cualificados que utilicen el valor de espacio de nombres de destino especificado en el archivo WSDL.
 
 **Solicitud de autenticación**
 

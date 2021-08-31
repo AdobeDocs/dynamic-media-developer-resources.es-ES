@@ -5,9 +5,9 @@ title: Administración de fuentes
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f24edd53-4b21-4147-9b50-95e616279aa8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '235'
 ht-degree: 1%
 
 ---
@@ -34,8 +34,8 @@ Image Serving es compatible con las fuentes TrueType, OpenType y Adobe Type 1 (s
 * No se admiten fuentes de fuentes fotográficas con varios glifos por imagen
 * La conversión de color naive se aplica a menos que las imágenes de glifo de Photofont incrusten perfiles de color; en este caso, siempre se aplican la intención de procesamiento colorimétrico relativo y la compensación de punto negro
 
-Consulte ` [www.photofont.com](http://www.photofont.com)` para obtener más información.
+Consulte [www.photofont.com](https://www.photofont.com) para obtener más información.
 
 ## Véase también {#section-6cb8a802aa044836bbe449d559093f3a}
 
-[Referencia](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/c-font-map-reference.md#concept-f81f319d03c646c5a8ef87b3277dd37d) de mapa de fuente,  [atributo::SynthesizeFontStyles](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md#reference-1b12ba881b9146c793bcb07407cacb15),  [atributo::DefaultFont](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultfont.md#reference-48b763ac254545e89a25c76ff7581107),  [ [!DNL www.photofont.com] ](http://www.photofont.com)
+[Referencia](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/c-font-map-reference.md#concept-f81f319d03c646c5a8ef87b3277dd37d) de mapa de fuente,  [atributo::SynthesizeFontStyles](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md#reference-1b12ba881b9146c793bcb07407cacb15),  [atributo::DefaultFont](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultfont.md#reference-48b763ac254545e89a25c76ff7581107),  [ [!DNL www.photofont.com] ](https://www.photofont.com)

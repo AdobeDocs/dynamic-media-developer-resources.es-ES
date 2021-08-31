@@ -5,9 +5,9 @@ title: Comandos y palabras clave RTF admitidos
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a63bc7f1-34a9-485d-aadd-c65e3e26034a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 A continuación, se muestra la lista de palabras clave y comandos admitidos por el motor de texto Scene7 Image Serving.
 
-Consulte la especificación [RTF 1.6](http://msdn.microsoft.com/en-us/library/aa140277%28v=office.10%29.aspx) publicada para obtener detalles sobre cada palabra clave o comando.
+Consulte la especificación [RTF 1.6](https://msdn.microsoft.com/en-us/library/aa140277%28v=office.10%29.aspx) publicada para obtener detalles sobre cada palabra clave o comando.
 
 El analizador omite los comandos RTF que no se enumeran a continuación.
 

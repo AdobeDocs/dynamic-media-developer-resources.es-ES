@@ -5,9 +5,9 @@ title: Servicio de contenido estático (no de imagen)
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: adc3d972-b02d-40db-992e-acaa06b848ff
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '462'
 ht-degree: 1%
 
 ---
@@ -125,9 +125,9 @@ Puede encapsular archivos de subtítulos de vídeo (WebVTT), CSS o cualquier arc
 
 También puede utilizar pistas para otros tipos de metadatos temporizados. Los datos de origen de cada elemento de seguimiento son un archivo de texto formado por una lista de indicaciones temporizadas. Las señales pueden incluir datos en formatos como JSON o CSV.
 
-Consulte [http://en.wikipedia.org/wiki/JSONP](http://en.wikipedia.org/wiki/JSONP) para obtener más información sobre el formato JSONP.
+Consulte [https://en.wikipedia.org/wiki/JSONP](https://en.wikipedia.org/wiki/JSONP) para obtener más información sobre el formato JSONP.
 
-Consulte [www.json.org](http://www.json.org) para obtener más información sobre el formato JSON.
+Consulte [www.json.org](https://www.json.org) para obtener más información sobre el formato JSON.
 
 ## Véase también {#section-7b28631016044a22a3a6762fd64771e9}
 
