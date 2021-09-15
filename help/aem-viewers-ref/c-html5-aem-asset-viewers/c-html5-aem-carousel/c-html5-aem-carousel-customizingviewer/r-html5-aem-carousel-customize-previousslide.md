@@ -1,20 +1,20 @@
 ---
+title: diapositiva anterior
 description: Al pulsar o hacer clic en este botón, se devuelve al usuario a la diapositiva anterior del conjunto de carrusel. Este botón no se muestra en los dispositivos táctiles. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
 solution: Experience Manager
-title: diapositiva anterior
-feature: Dynamic Media Classic,Visores,SDK/API,Banners de carrusel
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: f780e62e-7238-4cc6-b382-3a21043e1079
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '250'
 ht-degree: 2%
 
 ---
 
 # diapositiva anterior{#previous-slide}
 
-Al pulsar o hacer clic en este botón, se devuelve al usuario a la diapositiva anterior del conjunto de carrusel. Este botón no se muestra en los dispositivos táctiles. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
+Al seleccionar este botón, se devuelve al usuario a la diapositiva anterior del conjunto de carrusel. Este botón no se muestra en los dispositivos táctiles. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
@@ -77,7 +77,7 @@ El aspecto del botón se controla con el siguiente selector de clase CSS:
 
 La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) para obtener más información.
 
-Ejemplo: para configurar un botón de diapositiva anterior de 60 x 60 píxeles, situado a 10 píxeles del borde izquierdo del visor y centrado verticalmente, muestra una imagen diferente para cada uno de los cuatro estados de botón diferentes.
+Por ejemplo, supongamos que desea configurar un botón de diapositiva anterior de 60 x 60 píxeles. Desea colocar diez píxeles desde el borde izquierdo del visor y centrado verticalmente. Y, desea que muestre una imagen diferente para cada uno de los cuatro estados de botón diferentes.
 
 ```
 .s7carouselviewer .s7panleftbutton { 

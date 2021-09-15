@@ -1,13 +1,13 @@
 ---
+title: Botón PlayPause
 description: El botón Reproducir/Pausar permite al usuario pausar o reanudar el comportamiento de reproducción automática del carrusel.
 solution: Experience Manager
-title: Botón PlayPause
-feature: Dynamic Media Classic,Visores,SDK/API,Banners de carrusel
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 1b48aa7f-d1c8-4367-94c2-689991b90942
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '251'
 ht-degree: 2%
 
 ---
@@ -79,7 +79,7 @@ El aspecto del botón se controla con el siguiente selector de clase CSS:
 
 La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) para obtener más información.
 
-Ejemplo: para configurar un botón de pausa de reproducción de 28 x 28 píxeles, que se posicione a 17 píxeles de la parte inferior y a 12 píxeles del borde izquierdo del visor y que muestre una imagen diferente para cada uno de los cuatro estados de botón diferentes cuando se seleccione o no.
+Por ejemplo, supongamos que desea configurar un botón de pausa de reproducción de 28 x 28 píxeles. Desea que el botón se sitúe a 17 píxeles de la parte inferior y a 12 píxeles del borde izquierdo del visor. Además, desea que muestre una imagen diferente para cada uno de los cuatro estados de botón diferentes cuando se selecciona o no.
 
 ```
 .s7carouselviewer .s7playpausebutton { 

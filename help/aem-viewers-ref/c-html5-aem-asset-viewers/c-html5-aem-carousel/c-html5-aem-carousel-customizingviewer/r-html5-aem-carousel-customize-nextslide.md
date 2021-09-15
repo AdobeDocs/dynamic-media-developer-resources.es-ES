@@ -1,20 +1,20 @@
 ---
-description: Al pulsar o hacer clic en el botón de diapositiva siguiente, un usuario pasa a la diapositiva siguiente del conjunto de carrusel.
-solution: Experience Manager
 title: Siguiente diapositiva
-feature: Dynamic Media Classic,Visores,SDK/API,Banners de carrusel
+description: Al seleccionar el botón de diapositiva siguiente, el usuario pasará a la diapositiva siguiente del conjunto de carrusel.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: c64889bb-bcbe-49c6-a0be-b4013ead7b90
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '233'
 ht-degree: 3%
 
 ---
 
 # Siguiente diapositiva{#next-slide}
 
-Al pulsar o hacer clic en el botón de diapositiva siguiente, un usuario pasa a la diapositiva siguiente del conjunto de carrusel.
+Al seleccionar el botón de diapositiva siguiente, el usuario pasará a la diapositiva siguiente del conjunto de carrusel.
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
@@ -79,7 +79,7 @@ El aspecto del botón se controla con el siguiente selector de clase CSS:
 
 La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) para obtener más información.
 
-Ejemplo: para configurar un botón de diapositiva anterior de 60 x 60 píxeles, situado a 10 píxeles del borde derecho del visor y centrado verticalmente, muestra una imagen diferente para cada uno de los cuatro estados de botón.
+Por ejemplo, supongamos que desea configurar un botón de diapositiva anterior de 60 x 60 píxeles. Desea que el botón se sitúe a diez píxeles del borde derecho del visor y centrado verticalmente. Y, desea que muestre una imagen diferente para cada uno de los cuatro estados de botón diferentes.
 
 ```
 .s7carouselviewer .s7panrightbutton{ 

@@ -1,14 +1,14 @@
 ---
+title: initialFrame
 description: Parámetro común a todos los visualizadores.
 solution: Experience Manager
-title: initialFrame
-feature: Dynamic Media Classic,Visualizadores,SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: db77edf0-e223-4f44-b83b-b6dbe5c1abd6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 3%
+source-wordcount: '97'
+ht-degree: 4%
 
 ---
 
@@ -30,7 +30,7 @@ Parámetro común a todos los visualizadores.
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> pageIdx</span></span> </p> </td> 
-   <td colname="col2"> <p>Un índice de base cero de la página dentro del pliego cuando el dispositivo está en orientación vertical. En un entorno "de izquierda a derecha" <span class="codeph"> 0</span> significa "página izquierda" y <span class="codeph"> 1</span> significa "página derecha". En "de derecha a izquierda" es lo contrario: <span class="codeph"> 0</span> significa "página derecha" y <span class="codeph"> 1</span> significa "página izquierda". </p> <p>Si no se especifica, <span class="codeph"> 0</span> se asume de forma predeterminada. Se omite cuando el dispositivo está en orientación horizontal. </p> </td> 
+   <td colname="col2"> <p>Un índice de base cero de la página dentro del pliego cuando el dispositivo está en orientación vertical. Para un entorno "de izquierda a derecha", <span class="codeph"> 0</span> significa "página izquierda" y <span class="codeph"> 1</span> significa "página derecha". Para un entorno "de derecha a izquierda", es lo contrario: <span class="codeph"> 0</span> significa "página derecha" y <span class="codeph"> 1</span> significa "página izquierda". </p> <p>Si no se especifica, <span class="codeph"> 0</span> se asume de forma predeterminada. Se omite cuando el dispositivo está en orientación horizontal. </p> </td> 
   </tr> 
  </tbody> 
 </table>

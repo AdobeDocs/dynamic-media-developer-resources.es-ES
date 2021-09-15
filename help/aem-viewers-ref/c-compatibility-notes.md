@@ -2,12 +2,12 @@
 description: Notas de compatibilidad para sistemas operativos, navegadores y dispositivos móviles.
 solution: Experience Manager
 title: Notas de compatibilidad
-feature: Dynamic Media Classic,Visualizadores,SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 7ad499b1-7da6-483b-ab11-cff2eb9271da
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '407'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,7 @@ Notas de compatibilidad para sistemas operativos, navegadores y dispositivos mó
 * `IntialBitRate` sólo se admite con el software HLS y la reproducción del HDS en Flash. No funciona cuando la reproducción utiliza el reproductor nativo.
 * No se admite la reproducción progresiva de OGG y WebM.
 * El escalado del explorador hace que el reproductor de vídeo se muestre con un tamaño incorrecto (incluye la configuración de la pantalla de Panel de control de Campaign de Windows®).
-* La búsqueda de vídeo mediante el flujo HLS en Safari es incoherente.
+* El vídeo busca utilizar la transmisión por secuencias HLS en Safari es incoherente.
 
 ## Internet Explorer {#section-a18e8df396954f0b807017787c00aac7}
 
@@ -71,5 +71,5 @@ Notas de compatibilidad para sistemas operativos, navegadores y dispositivos mó
 ## Safari {#section-f8de598293d349188aa02c82cd3af8b6}
 
 * Safari 6.1 o posterior: La configuración del complemento de Internet impide la reproducción de vídeo en Flash.
-* La búsqueda de vídeo mediante el flujo HLS en Safari es incoherente.
+* El vídeo busca utilizar la transmisión por secuencias HLS en Safari es incoherente.
 * No se puede intentar finalizar el vídeo en Safari 6 mediante el flujo HLS.

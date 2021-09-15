@@ -1,20 +1,20 @@
 ---
-description: El área de vista principal es el área ocupada por la imagen del titular del carrusel. Normalmente se configura para que se ajuste a la pantalla del dispositivo disponible cuando no se especifica ningún tamaño.
-solution: Experience Manager
 title: Área del visor principal
-feature: Dynamic Media Classic,Visores,SDK/API,Banners de carrusel
+description: El área de vista principal es el área ocupada por la imagen del titular del carrusel. Se configura para que se ajuste a la pantalla de dispositivo disponible cuando no se especifica ningún tamaño.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: bdac54f5-79e3-4d3d-9c7e-d9a7cec61c73
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '118'
 ht-degree: 2%
 
 ---
 
 # Área del visor principal{#main-viewer-area}
 
-El área de vista principal es el área ocupada por la imagen del titular del carrusel. Normalmente se configura para que se ajuste a la pantalla del dispositivo disponible cuando no se especifica ningún tamaño.
+El área de vista principal es el área ocupada por la imagen del titular del carrusel. Se configura para que se ajuste a la pantalla de dispositivo disponible cuando no se especifica ningún tamaño.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

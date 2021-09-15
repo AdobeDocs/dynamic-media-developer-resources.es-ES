@@ -1,13 +1,13 @@
 ---
+title: Información sobre herramientas
 description: En los sistemas de escritorio, algunos elementos de la interfaz de usuario, como los botones, tienen información sobre herramientas que se muestra al pasar el ratón por encima.
 solution: Experience Manager
-title: Información sobre herramientas
-feature: Dynamic Media Classic,Visores,SDK/API,Banners de carrusel
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: b4604528-93f6-440c-b676-7b4c89fff6c8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '140'
 ht-degree: 6%
 
 ---
@@ -63,9 +63,9 @@ El aspecto de la información del objeto se controla con el siguiente selector d
 
 >[!NOTE]
 >
->Si los estilos de información del objeto se personalizan desde la página web de incrustación, todas las propiedades deben contener la regla `!IMPORTANT`. Esto no es necesario si la información del objeto se personaliza en el archivo CSS del visor.
+>Si los estilos de información del objeto se personalizan desde la página web de incrustación, todas las propiedades deben contener la regla `!IMPORTANT`. Este paso no es necesario si la información del objeto está personalizada en el archivo CSS del visor.
 
-Ejemplo: para configurar información del objeto con un borde gris con un radio de esquina de 3 píxeles, fondo negro y texto blanco en Arial, con un tamaño de 11 píxeles:
+Ejemplo: para configurar información del objeto con un borde gris con un radio de esquina de 3 píxeles, fondo negro y texto blanco en Arial®, tamaño de 11 píxeles:
 
 ```
 .s7tooltip { 

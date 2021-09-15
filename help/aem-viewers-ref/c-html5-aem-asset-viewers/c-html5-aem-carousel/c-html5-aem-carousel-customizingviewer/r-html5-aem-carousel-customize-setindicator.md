@@ -1,13 +1,13 @@
 ---
+title: Definir indicador
 description: El indicador de conjunto es una serie de puntos procesados en la parte inferior del visor. Muestra la posición actual dentro del conjunto.
 solution: Experience Manager
-title: Definir indicador
-feature: Dynamic Media Classic,Visores,SDK/API,Banners de carrusel
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 7d0827c5-f420-4804-983c-5298ee92b276
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '336'
 ht-degree: 1%
 
 ---
@@ -45,7 +45,7 @@ El aspecto del contenedor de indicador establecido se controla con el siguiente 
 >
 >El indicador de conjunto admite el selector de atributos de modo, que se puede utilizar para aplicar distintos estilos a los modos de operación numéricos y de puntos. En concreto, `mode="numeric"` corresponde al modo de operación numérico; `mode="dotted"` corresponde al estado de punto predeterminado.
 
-Ejemplo: para configurar un indicador de conjunto con un fondo blanco:
+A modo de ejemplo, supongamos que desea configurar un indicador de conjunto con un fondo blanco:
 
 ```
 .s7carouselviewer .s7setindicator { 
@@ -124,7 +124,7 @@ El aspecto de un punto indicador de conjunto individual se controla con el selec
 >
 >Los elementos del indicador de configuración admiten el selector de atributos `state`, que puede utilizarse para aplicar diferentes aspectos a diferentes estados de miniaturas. En concreto, `state="selected"` corresponde al elemento actual del conjunto; `state="unselected"` corresponde al estado del elemento predeterminado.
 
-Ejemplo: para configurar el indicador de configuración en modo de puntos para que los sistemas de escritorio se coloquen 20 píxeles desde la parte inferior del visor. Los puntos no seleccionados son negros con un 50% de transparencia, 15 x 15 píxeles con 7 píxeles de esquinas redondeadas. Los puntos seleccionados son negros con un 90% de transparencia, 18 x 18 píxeles con 9 píxeles de esquinas redondeadas. El espaciado entre puntos es de 5 píxeles.
+Por ejemplo, supongamos que desea configurar un indicador de conjunto en modo de puntos para sistemas de escritorio. Desea que se sitúe a 20 píxeles de la parte inferior del visor. Además, desea que los puntos no seleccionados sean negros con un 50% de transparencia, 15 x 15 píxeles con siete esquinas redondeadas de píxeles. Los puntos seleccionados son negros con un 90% de transparencia, 18 x 18 píxeles con nueve píxeles de esquinas redondeadas. El espaciado entre puntos es de cinco píxeles.
 
 ```
 .s7carouselviewer.s7mouseinput .s7setindicator { 

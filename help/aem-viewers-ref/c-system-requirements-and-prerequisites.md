@@ -3,12 +3,12 @@ title: Requisitos del sistema para los visores HTML5 de Dynamic Media
 description: Requisitos del sistema para los visores HTML5 de Dynamic Media.
 solution: Experience Manager
 contentOwner: Rick Brough
-feature: Dynamic Media Classic,Visualizadores,SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '305'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ Requisitos del sistema para los visores HTML5 de Dynamic Media.
 ## Hardware y software del servidor {#section-05099146f1f0418988c196635110bee6}
 
 * Dynamic Media Classic Image Serving 6.7.1 o posterior.
-* Los visores HTML5 requieren bibliotecas de SDK JavaScript™ del lado del servidor 3.11.1 o posterior.
+* Los visores HTML5 requieren bibliotecas de SDK JavaScript del lado del servidor 3.11.1 o posterior.
 * Las funciones sociales &quot;Enviar un correo electrónico a un amigo&quot; requieren s7ondemand 5.0.9 o posterior.
 * Visor de catálogos electrónicos: la compatibilidad con el panel de información requiere el servidor de información 2.1.8 o posterior.
 * Los componentes de las funciones de búsqueda requieren s7search 2.3.0 o posterior.

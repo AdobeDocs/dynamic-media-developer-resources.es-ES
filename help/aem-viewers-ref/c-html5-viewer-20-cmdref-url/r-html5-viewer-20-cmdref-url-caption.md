@@ -1,13 +1,13 @@
 ---
+title: caption
 description: Parámetro común a todos los visualizadores.
 solution: Experience Manager
-title: caption
-feature: Dynamic Media Classic,Visualizadores,SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 06ce5520-944b-4ab0-8f59-67c273bd8314
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '261'
 ht-degree: 6%
 
 ---
@@ -74,7 +74,7 @@ Este visor admite subtítulos optativos mediante archivos WebVTT alojados. Los s
  </tbody> 
 </table>
 
-Tenga en cuenta que si hay otras funciones WebVTT presentes en el archivo WebVTT, no serán compatibles; sin embargo, no interrumpirán el subtítulos.
+Si hay otras funciones WebVTT presentes en el archivo WebVTT, no son compatibles; sin embargo, no interrumpen el subtítulo.
 
 <table id="table_CB7B4DFC6B654AECA1AF6594E3FD5C46"> 
  <tbody> 
