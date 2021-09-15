@@ -1,14 +1,14 @@
 ---
+title: setAsset
 description: Referencia de la API de JavaScript para el visor de carrusel.
 solution: Experience Manager
-title: setAsset
-feature: Dynamic Media Classic,Visores,SDK/API,Banners de carrusel
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: e8aaee4e-56d5-46e4-8499-d5c9a6ba5d3b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 96ac67e5645c2c55920cc971806ba2f14ae57044
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 3%
+source-wordcount: '73'
+ht-degree: 4%
 
 ---
 
@@ -26,9 +26,9 @@ Consulte también [init](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> recurso</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> Cadena</span>} nuevo ID de recurso. </p> <p>Este visor no admite las imágenes que utilizan IR (procesamiento de imágenes) o UGC (contenido generado por el usuario). </p> </td> 
-  </tr> 
- </tbody> 
+   <td colname="col2"> <p>{<span class="codeph"> Cadena</span>} nuevo ID de recurso. </p> <p>Este visor no admite las imágenes que utilizan IR (procesamiento de imágenes) o UGC (contenido generado por el usuario). </p> </td>
+  </tr>
+ </tbody>
 </table>
 
 ## Devuelve {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
@@ -42,3 +42,4 @@ Referencia de imagen única:
 ```
 <instance>.setAsset("/content/dam/dm-public-facing-live-demo-page/04_shoppable_carousel/05_shoppable_banner")
 ```
+

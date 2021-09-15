@@ -1,18 +1,18 @@
 ---
+title: getComponent
 description: Referencia de la API de JavaScript para el visor de carrusel.
 solution: Experience Manager
-title: getComponent**
-feature: Dynamic Media Classic,Visores,SDK/API,Banners de carrusel
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 088d99d0-600d-4e47-85ea-a9769938b88b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 96ac67e5645c2c55920cc971806ba2f14ae57044
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '188'
 ht-degree: 1%
 
 ---
 
-# getComponent**{#getcomponent}
+# getComponent {#getcomponent}
 
 Referencia de la API de JavaScript para el visor de carrusel.
 
@@ -77,7 +77,7 @@ Consulte la documentación de la API del SDK de visor para obtener más informac
 
 ## Devuelve {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` una referencia al componente SDK del visor. El método devuelve `null` si `componentId` no es un componente de visor compatible o si la lógica del visor aún no ha creado el componente.
+`{Object}` Una referencia al componente SDK del visor. El método devuelve `null` si `componentId` no es un componente de visor compatible o si la lógica del visor aún no ha creado el componente.
 
 ## Ejemplo {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

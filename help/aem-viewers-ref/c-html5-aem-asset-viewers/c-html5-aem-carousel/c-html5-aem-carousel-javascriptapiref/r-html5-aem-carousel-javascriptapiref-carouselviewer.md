@@ -1,13 +1,13 @@
 ---
+title: Visor de carrusel
 description: Referencia de la API de JavaScript para el visor de carrusel.
 solution: Experience Manager
-title: Visor de carrusel
-feature: Dynamic Media Classic,Visores,SDK/API,Banners de carrusel
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 890d869d-dbf2-4c24-88d1-34c439ab1e3a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 96ac67e5645c2c55920cc971806ba2f14ae57044
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '191'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ Referencia de la API de JavaScript para el visor de carrusel.
 
 `CarouselViewer([config])`
 
-Constructor, crea una nueva instancia de visor de carrusel HTML 5.
+Constructor, crea una instancia de visor de carrusel HTML 5.
 
 ## Parámetros {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 

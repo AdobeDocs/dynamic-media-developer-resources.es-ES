@@ -1,14 +1,14 @@
 ---
+title: setParams
 description: Referencia de la API de JavaScript para el visor de carrusel.
 solution: Experience Manager
-title: setParams
-feature: Dynamic Media Classic,Visores,SDK/API,Banners de carrusel
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 4bf3f8f8-73fe-4ab1-8005-aa49e4ffaba6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 96ac67e5645c2c55920cc971806ba2f14ae57044
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 2%
+source-wordcount: '96'
+ht-degree: 3%
 
 ---
 
@@ -18,7 +18,7 @@ Referencia de la API de JavaScript para el visor de carrusel.
 
 ` setParams( *`params`*)`
 
-Establece uno o más parámetros en un valor determinado. La sintaxis del argumento de método es idéntica a una cadena de consulta de URL. Es decir, representa pares nombre=valor separados por `&`. Al igual que en una cadena de consulta, los nombres y valores están codificados por porcentajes utilizando UTF8. Antes de llamar a `init()`, se debe llamar a este parámetro.
+Establece uno o más parámetros en un valor determinado. La sintaxis del argumento de método es idéntica a una cadena de consulta de URL. Es decir, representa pares nombre=valor separados por `&`. Como en una cadena de consulta, los nombres y valores están codificados por porcentajes utilizando UTF8. Antes de llamar a `init()`, se debe llamar a este parámetro.
 
 Este método es opcional si la información de configuración del visor se pasó con el objeto JSON `config` al constructor.
 

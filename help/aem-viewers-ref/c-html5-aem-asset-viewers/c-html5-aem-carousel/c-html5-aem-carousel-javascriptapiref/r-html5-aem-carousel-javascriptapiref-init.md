@@ -1,13 +1,13 @@
 ---
+title: init
 description: Referencia de la API de JavaScript para el visor de carrusel.
 solution: Experience Manager
-title: init
-feature: Dynamic Media Classic,Visores,SDK/API,Banners de carrusel
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 00e09e26-1380-487c-9512-34d805f1330d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 96ac67e5645c2c55920cc971806ba2f14ae57044
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '119'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ Referencia de la API de JavaScript para el visor de carrusel.
 
 Inicia la inicialización del visor de carrusel. Para este momento, se debe crear el elemento DOM contenedor para que el código del visor pueda encontrarlo con su ID.
 
-Si el elemento contenedor aún no forma parte del diseño de la página web (por ejemplo, puede que esté oculto empleando el estilo `display:none` asignado), el visor suspende su proceso de inicialización hasta el momento en que la página web devuelva el elemento contenedor al diseño. Cuando esto sucede, la carga del visor se reanuda automáticamente.
+Si el elemento contenedor aún no forma parte del diseño de la página web (por ejemplo, puede que esté oculto con el estilo `display:none` ), el visor suspende su proceso de inicialización. Se suspende hasta el momento en que la página web vuelve a mostrar el elemento contenedor al diseño, momento en el que la carga del visor se reanuda automáticamente.
 
 Llame a este método solo una vez durante el ciclo de vida del visor; las llamadas subsiguientes se ignoran.
 
