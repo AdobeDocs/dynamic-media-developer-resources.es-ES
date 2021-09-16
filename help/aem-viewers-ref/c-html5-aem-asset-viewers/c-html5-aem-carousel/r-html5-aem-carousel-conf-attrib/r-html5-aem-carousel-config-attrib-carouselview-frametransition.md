@@ -1,14 +1,14 @@
 ---
+title: CarouselView.frametransition
 description: CarouselView.frametransition
 solution: Experience Manager
-title: CarouselView.frametransition
-feature: Dynamic Media Classic,Visores,SDK/API,Banners de carrusel
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 771395fb-775d-462e-86dc-0600cfecb345
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 5%
+source-wordcount: '95'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|fade|diapositiva  </span> </p> </td> 
-   <td colname="col2"> <p>Especifica el tipo del efecto aplicado al cambiar el marco. <span class="codeph"> ninguno  </span> representa ninguna transición; el cambio de fotograma se produce instantáneamente. </p> <p> <span class="codeph"> fundido  </span> significa la transición entre fundido antiguo y nuevo. </p> <p> <span class="codeph"> diapositiva  </span> activa la transición en la que el marco antiguo se desliza de la vista y el nuevo marco se desliza. </p> </td> 
+   <td colname="col2"> <p>Especifica el tipo del efecto aplicado al cambiar el marco. Por ejemplo, <span class="codeph"> ninguno </span> significa que no hay transición; el cambio de fotograma se produce instantáneamente. Y, </p> <p> <span class="codeph"> fundido  </span> significa la transición entre fundido antiguo y nuevo. Finalmente, </p> <p> <span class="codeph"> diapositiva  </span> activa la transición en la que el marco antiguo se desliza de la vista y el nuevo marco se desliza. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duration  </span> </span> </p> </td> 
@@ -28,7 +28,7 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> espaciado  </span> </span> </p> </td> 
-   <td colname="col2"> <p>El espaciado entre marcos adyacentes en la transición <span class="codeph"> diapositiva </span>, tiene el rango entre <span class="codeph"> 0 </span> y <span class="codeph"> 1 </span> y es relativo al ancho del componente. </p> </td> 
+   <td colname="col2"> <p>El espaciado entre marcos adyacentes en la transición <span class="codeph"> diapositiva </span>, tiene el rango de <span class="codeph"> 0 </span> a <span class="codeph"> 1 </span> y es relativo al ancho del componente. </p> </td> 
   </tr> 
  </tbody> 
 </table>
