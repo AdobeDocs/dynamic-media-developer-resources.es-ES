@@ -1,22 +1,22 @@
 ---
-description: Cierto contenido que muestra el visor de carrusel está sujeto a localización. Esto incluye botones de navegación con diapositivas.
-solution: Experience Manager
 title: Localización de los elementos de la interfaz de usuario
-feature: Dynamic Media Classic,Visores,SDK/API,Banners de carrusel
+description: Cierto contenido que muestra el visor de carrusel está sujeto a localización. Este contenido incluye botones de navegación con diapositivas.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 05f5abe0-1124-4114-864d-440699bcdc39
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4aaa77b1fb58b30b02ee15f6080169fa354d5907
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
 
 # Localización de los elementos de la interfaz de usuario{#localization-of-user-interface-elements}
 
-Cierto contenido que muestra el visor de carrusel está sujeto a localización. Esto incluye botones de navegación con diapositivas.
+Cierto contenido que muestra el visor de carrusel está sujeto a localización. Este contenido incluye botones de navegación con diapositivas.
 
-Todo el contenido textual del visualizador que se puede localizar se representa mediante el identificador especial del SDK del visualizador denominado SYMBOL. Cualquier SYMBOL tiene un valor de texto asociado predeterminado para una configuración regional de inglés ( `"en"`) que se proporciona con el visor predeterminado, y también puede tener valores definidos por el usuario definidos para tantas configuraciones regionales como sea necesario.
+Todo el contenido textual del visualizador que se puede localizar se representa mediante el identificador especial del SDK del visualizador denominado SYMBOL. Cualquier SYMBOL tiene un valor de texto asociado predeterminado para una configuración regional en inglés ( `"en"`) que se proporciona con el visor predeterminado, y también puede tener valores definidos por el usuario definidos para tantas configuraciones regionales como sea necesario.
 
 Cuando se inicia el visor, comprueba la configuración regional actual para ver si hay un valor definido por el usuario para cada SYMBOL compatible para dicha configuración regional. Si existe, utiliza el valor definido por el usuario; de lo contrario, vuelve al texto predeterminado predeterminado predeterminado predeterminado.
 
@@ -66,7 +66,7 @@ Se admiten los siguientes SÍMBOLOS:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Container.LABEL  </span> </p> </td> 
-   <td colname="col2"> <p> Etiqueta ARIA para el elemento visualizador de nivel superior. </p> </td> 
+   <td colname="col2"> <p> Etiqueta ARIA para el elemento de visualizador de nivel superior. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> CarouselView.ROLE_DESCRIPTION  </span> </p> </td> 

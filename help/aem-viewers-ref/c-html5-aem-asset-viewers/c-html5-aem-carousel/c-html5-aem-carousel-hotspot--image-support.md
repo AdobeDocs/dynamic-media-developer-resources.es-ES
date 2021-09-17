@@ -1,13 +1,13 @@
 ---
+title: Compatibilidad con zonas interactivas y mapas de imágenes
 description: Compatibilidad con zonas interactivas y mapas de imágenes
 solution: Experience Manager
-title: Compatibilidad con zonas interactivas y mapas de imágenes
-feature: Dynamic Media Classic,Visores,SDK/API,Banners de carrusel
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: b441e241-809e-47cf-a309-57283bd0532b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4aaa77b1fb58b30b02ee15f6080169fa354d5907
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -20,10 +20,10 @@ Consulte [Puntos interactivos y mapas de imágenes](../../c-html5-aem-asset-view
 
 Las zonas interactivas y las regiones pueden activar una función de vista rápida en la página web de alojamiento activando una llamada de retorno de JavaScript o redireccionando a un usuario a una página web externa.
 
-## Puntos interactivos de la vista rápida {#section-cda48fc9730142d0bb3326bac7df3271}
+## Puntos interactivos de vista rápida {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Estos tipos de zonas interactivas o mapas de imágenes deben crearse utilizando el tipo de acción &quot;Vista rápida&quot; en Dynamic Media, de AEM. Cuando un usuario activa una zona interactiva o mapa de imagen, el visor ejecuta la llamada de retorno de JavaScript `quickViewActivate` y le pasa los datos de zona interactiva o mapa de imagen. Se espera que la página web de incrustación escuche esta llamada de retorno. Cuando déclencheur la página, abre su propia implementación de vista rápida.
+Estos tipos de zonas interactivas o mapas de imágenes deben crearse utilizando el tipo de acción &quot;Vista rápida&quot; en Dynamic Media, Adobe Experience Manager. Cuando un usuario activa una zona interactiva o mapa de imagen, el visor ejecuta la llamada de retorno de JavaScript `quickViewActivate` y le pasa los datos de zona interactiva o mapa de imagen. Se espera que la página web de incrustación escuche esta llamada de retorno. Cuando déclencheur la página, abre su propia implementación de vista rápida.
 
 ## Redirigir a una página web externa {#section-ef820c71251e4215800bb99c0c9ebe16}
 
-Puntos interactivos o mapas de imágenes creados para el tipo de acción &quot;Vista rápida&quot; en Dynamic Media de AEM redirige al usuario a una URL externa. Según la configuración realizada durante la creación, la dirección URL se abre en una nueva pestaña del explorador, en la misma ventana o en la ventana del explorador con nombre.
+Puntos interactivos o mapas de imágenes creados para el tipo de acción &quot;Vista rápida&quot; en Dynamic Media de Experience Manager redirige al usuario a una URL externa. Según la configuración realizada durante la creación, la dirección URL se abre en una nueva pestaña del explorador, en la misma ventana o en la ventana del explorador con nombre.
