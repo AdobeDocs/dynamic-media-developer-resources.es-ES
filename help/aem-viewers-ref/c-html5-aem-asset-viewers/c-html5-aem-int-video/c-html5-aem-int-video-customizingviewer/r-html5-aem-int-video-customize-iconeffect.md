@@ -1,14 +1,14 @@
 ---
+title: Icono, efecto
 description: El icono de reproducción se superpone en el área de vista principal. Se muestra cuando el vídeo está en pausa o cuando se llega al final del vídeo, y también depende del parámetro iconeffect.
 solution: Experience Manager
-title: Icono, efecto
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: bbb35286-fdb6-4329-a837-17fe8f976276
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -47,7 +47,7 @@ El aspecto del icono de reproducción se controla con el siguiente selector de c
  </tbody> 
 </table>
 
-El efecto Icono admite el selector de atributos `state`. `state="play"` se utiliza cuando el vídeo está en pausa en mitad de la reproducción y  `state="replay"` se utiliza cuando el cabezal de reproducción está al final de la emisión.
+El efecto Icono admite el selector de atributos `state`. El atributo `state="play"` se utiliza cuando el vídeo está en pausa en mitad de la reproducción y `state="replay"` se utiliza cuando el cabezal de reproducción está al final de la emisión.
 
 ## Ejemplo {#section-e8caea0a303c425a8a637c2a47c06355}
 

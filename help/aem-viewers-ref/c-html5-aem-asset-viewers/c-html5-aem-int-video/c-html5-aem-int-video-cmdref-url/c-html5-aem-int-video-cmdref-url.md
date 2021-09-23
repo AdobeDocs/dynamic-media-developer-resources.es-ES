@@ -1,13 +1,13 @@
 ---
+title: 'Referencia de comandos: URL'
 description: Documentación de referencia de comandos para el visualizador de vídeo interactivo.
 solution: Experience Manager
-title: 'Referencia de comandos: URL'
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: e0a9e269-4826-4518-9222-6a833d11746b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Puede prefijar algunos comandos de configuración con el nombre de clase o el no
 [VideoPlayer.|<containerId>_videoPlayer].playback
 ```
 
-lo que significa que este comando se utiliza de la siguiente manera:
+Lo que significa que este comando se utiliza de la siguiente manera
 
 * `playback` (sintaxis corta)
 * `VideoPlayer.playback` (cualificado con nombre de clase de componente)

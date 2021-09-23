@@ -1,14 +1,14 @@
 ---
+title: Volumen silenciable
 description: El control de volumen mutable aparece inicialmente como un botón que permite al usuario silenciar o anular el silencio del sonido del reproductor de vídeo.
 solution: Experience Manager
-title: Volumen silenciable
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: ecef47c1-e659-4930-bfb1-cc5e7c059094
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

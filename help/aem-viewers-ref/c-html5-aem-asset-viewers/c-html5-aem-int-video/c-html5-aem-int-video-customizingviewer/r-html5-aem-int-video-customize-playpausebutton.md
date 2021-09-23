@@ -1,14 +1,14 @@
 ---
+title: Botón Reproducir/Pausar
 description: El botón de reproducción/pausa hace que el reproductor de vídeo reproduzca o ponga en pausa el contenido del vídeo cuando un usuario hace clic en él.
 solution: Experience Manager
-title: Botón Reproducir/Pausar
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: bbf34037-b571-4dc9-be52-070aef014c31
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -69,13 +69,13 @@ El siguiente selector de clase CSS controla el aspecto del botón:
 >
 >Este botón admite los selectores de atributos `state`, `selected` y `replay`, que pueden utilizarse para aplicar diferentes aspectos a distintos estados de botones. En concreto, `selected='true'` corresponde al estado &quot;play&quot; y `selected='false'` corresponde al estado &quot;pause&quot;;
 >
->`replay='true'` se establece cuando el vídeo ha llegado al final y al hacer clic en el botón se reinicia la reproducción desde el principio.
+>El atributo `replay='true'` se establece cuando el vídeo ha llegado al final y seleccionar el botón reinicia la reproducción desde el principio.
 
 La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
 ## Ejemplo {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Para configurar un botón de reproducción/pausa de 32 x 32 píxeles; se coloca a seis píxeles del borde superior e izquierdo de la barra de control y muestra una imagen diferente para cada uno de los cuatro estados de botón diferentes cuando se selecciona o no se selecciona.
+Para configurar un botón de reproducción/pausa de 32 x 32 píxeles y situado a seis píxeles del borde superior e izquierdo de la barra de control. Y finalmente, muestra una imagen diferente para cada uno de los cuatro estados de botón diferentes cuando se selecciona o no.
 
 ```
 .s7interactivevideoviewer .s7playpausebutton { 

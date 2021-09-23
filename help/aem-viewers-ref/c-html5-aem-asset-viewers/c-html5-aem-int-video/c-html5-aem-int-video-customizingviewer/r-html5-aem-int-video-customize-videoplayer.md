@@ -1,13 +1,13 @@
 ---
+title: Reproductor de vídeo
 description: El reproductor de vídeo es el área rectangular en la que se muestra el contenido de vídeo dentro del visor.
 solution: Experience Manager
-title: Reproductor de vídeo
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 9cfeceff-f6bd-42d9-9b85-456bbaa278fd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '293'
 ht-degree: 1%
 
 ---
@@ -82,7 +82,7 @@ Los subtítulos se colocan en un contenedor interno dentro del reproductor de v�
 
 ## Ejemplo {#section-5b82913ff3c44b7b8187969cb15e9560}
 
-Para que el texto de los subtítulos cerrados sea de 14 píxeles, gris claro, Arial, sobre un fondo negro semitransparente:
+Para configurar el texto de los subtítulos cerrados en 14 píxeles, gris claro, Arial®, sobre un fondo negro semitransparente:
 
 ```
 .s7interactivevideoviewer .s7videoplayer .s7caption { 

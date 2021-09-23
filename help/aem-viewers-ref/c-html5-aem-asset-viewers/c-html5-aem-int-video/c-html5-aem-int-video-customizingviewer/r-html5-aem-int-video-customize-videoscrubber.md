@@ -1,14 +1,14 @@
 ---
+title: Arrastrar el cabezal de reproducción de vídeo
 description: La barra de desplazamiento del vídeo es el control deslizante horizontal que permite al usuario buscar dinámicamente cualquier posición horaria dentro del vídeo que se está reproduciendo.
 solution: Experience Manager
-title: Arrastrar el cabezal de reproducción de vídeo
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 9d11f2e9-315c-44d8-beb1-530d2b316604
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14ca8cd5e1ce60d59806765e573e50417d0ccc50
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ La barra de desplazamiento del vídeo es el control deslizante horizontal que pe
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-El control de desplazamiento también se mueve a medida que se reproduce el vídeo para indicar la posición de tiempo actual del vídeo durante la reproducción. La barra de desplazamiento de vídeo siempre toma toda la anchura de la barra de control. Es posible ocultar el cabezal de reproducción del vídeo. cambie su altura y posición vertical mediante CSS.
+El control de desplazamiento también se mueve a medida que se reproduce el vídeo para indicar la posición de tiempo actual del vídeo durante la reproducción. La barra de desplazamiento de vídeo siempre toma toda la anchura de la barra de control. Es posible ocultar el cabezal de reproducción de vídeo y cambiar su altura y posición vertical mediante CSS.
 
 El aspecto general del depurador de vídeo se controla con el siguiente selector de clase CSS:
 
@@ -158,7 +158,7 @@ El siguiente selector de clase CSS controla la burbuja de tiempo reproducido:
 
 La información de la herramienta de desplazamiento de vídeo se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
-**Ejemplo** : para configurar un visor de vídeo con una barra de desplazamiento de vídeo con colores de pista personalizados de 10 píxeles de altura y colocados 10 píxeles y 35 píxeles desde los bordes superior e izquierdo de la barra de control.
+**Ejemplo** : Para configurar un visor de vídeo con una barra de desplazamiento de vídeo y con colores de pista personalizados de diez píxeles de altura. Colóquelo en diez píxeles y 35 píxeles desde los bordes superior e izquierdo de la barra de control.
 
 ```
 .s7interactivevideoviewer .s7videoscrubber  { 
@@ -181,7 +181,7 @@ background-color:#888888;
 }
 ```
 
-Cuando se habilita el capítulo de vídeo con el parámetro `navigation` , las ubicaciones de capítulo se muestran como marcadores sobre la pista de desplazamiento de vídeo.
+Cuando el marcador de capítulo de vídeo está habilitado con el parámetro `navigation` , las ubicaciones de capítulo se muestran como marcadores sobre la pista de desplazamiento de vídeo.
 
 El marcador de capítulo de vídeo está controlado por el siguiente selector de clase CSS:
 
@@ -430,7 +430,7 @@ La descripción del capítulo del vídeo está controlada por el siguiente selec
  </tbody> 
 </table>
 
-**Ejemplo** : para configurar la descripción del capítulo de vídeo con una fuente Verdana de 11 píxeles y gris oscuro con un fondo gris claro; 5 píxeles de altura de línea, 12 píxeles de margen horizontal, 12 píxeles de relleno superior y 9 píxeles de relleno inferior.
+**Ejemplo** : para configurar la descripción del capítulo de vídeo con una fuente Verdana de 11 píxeles y gris oscuro con un fondo gris claro. Una altura de línea de cinco píxeles, un margen horizontal de 12 píxeles, un relleno superior de 12 píxeles y un relleno inferior de nueve píxeles.
 
 ```
 .s7interactivevideoviewer .s7videoscrubber .s7chapter .s7description { 
@@ -463,7 +463,7 @@ El conector de cuña situado en la parte inferior de la burbuja del capítulo es
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> Define únicamente un margen inferior negativo. Debe tener el mismo valor que el de <span class="codeph"> borde-ancho </span>. </p> </td> 
+   <td colname="col2"> <p> Define únicamente un margen inferior negativo. Debe tener el mismo valor que <span class="codeph"> borde-ancho </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

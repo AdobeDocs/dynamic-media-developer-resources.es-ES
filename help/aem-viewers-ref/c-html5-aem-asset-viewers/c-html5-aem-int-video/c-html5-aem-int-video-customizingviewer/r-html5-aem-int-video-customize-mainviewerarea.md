@@ -1,20 +1,20 @@
 ---
-description: El área de vista principal es el área ocupada por las muestras interactivas. Normalmente se configura para que se ajuste a la pantalla del dispositivo disponible cuando no se especifica ningún tamaño.
-solution: Experience Manager
 title: Área del visor principal
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
+description: El área de vista principal es el área ocupada por las muestras interactivas. Se configura para que se ajuste a la pantalla de dispositivo disponible cuando no se especifica ningún tamaño.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 8e5a44fa-422f-46f3-bd85-86bd2ce03899
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Área del visor principal{#main-viewer-area}
 
-El área de vista principal es el área ocupada por las muestras interactivas. Normalmente se configura para que se ajuste a la pantalla del dispositivo disponible cuando no se especifica ningún tamaño.
+El área de vista principal es el área ocupada por las muestras interactivas. Se configura para que se ajuste a la pantalla de dispositivo disponible cuando no se especifica ningún tamaño.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

@@ -1,14 +1,14 @@
 ---
+title: Llamada a acción
 description: El panel Llamada a la acción aparece cuando termina el vídeo y muestra todas las muestras interactivas asociadas al vídeo en particular.
 solution: Experience Manager
-title: Llamada a acción
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 43e0ffb3-d650-4b79-ab48-2f32b313b832
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '1283'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -187,11 +187,11 @@ El siguiente selector de clase CSS controla el aspecto del botón de cierre en e
 
 >[!NOTE]
 >
->Este botón admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes aspectos a diferentes estados de botones.
+>Este botón admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes aspectos a distintos estados de botones.
 
 ## Ejemplo {#example-3}
 
-Para configurar un botón de reproducción de 28 x 28 píxeles; colocado 20 píxeles desde la parte superior y desde el borde derecho del encabezado; muestra una imagen diferente para cada uno de los cuatro estados de botón diferentes; toma la ilustración de la imagen sprite del componente:
+Para configurar un botón de reproducción de 28 x 28 píxeles. El botón debe colocarse a 20 píxeles desde la parte superior y desde el borde derecho del encabezado. Además, debe mostrar una imagen diferente para cada uno de los cuatro estados de botón diferentes. toma la ilustración de la imagen sprite del componente:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7closebutton { 
@@ -255,7 +255,7 @@ El siguiente selector de clase CSS controla el aspecto de la celda de la miniatu
 .s7interactivevideoviewer .s7calltoaction .s7thumbcell
 ```
 
-## Propiedades CSS de la celda miniatura en el panel de llamada a la acción: {#css-properties-of-the-thumbcell-in-the-call-to-action-panel}
+## Propiedades CSS de la celda de la miniatura en el panel de llamada a la acción: {#css-properties-of-the-thumbcell-in-the-call-to-action-panel}
 
 <table id="table_9CEBEF6FC7024F02840A581AEEF612B4"> 
  <tbody> 
@@ -354,7 +354,7 @@ El siguiente selector de clase CSS controla el aspecto de la etiqueta de miniatu
 
 ## Ejemplo {#example-7}
 
-Para configurar etiquetas que utilicen un color blanco, alinee el centro 15 píxeles y utilice una fuente Arial:
+Para configurar etiquetas que utilicen un color blanco, alinee el centro 15 píxeles y utilice una fuente Arial®:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7label { 

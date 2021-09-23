@@ -1,14 +1,14 @@
 ---
+title: Botón Pantalla completa
 description: El botón de pantalla completa hace que el reproductor de vídeo entre o salga del modo de pantalla completa cuando un usuario hace clic en él.
 solution: Experience Manager
-title: Botón Pantalla completa
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: ed9c9d37-f871-4094-9c6e-931d0f6edff1
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

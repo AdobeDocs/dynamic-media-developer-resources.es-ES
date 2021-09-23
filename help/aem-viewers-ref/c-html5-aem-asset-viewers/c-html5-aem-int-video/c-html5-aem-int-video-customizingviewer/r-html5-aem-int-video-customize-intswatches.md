@@ -1,14 +1,14 @@
 ---
+title: Muestras interactivas
 description: El panel Muestras interactivas aparece junto al contenido del vídeo si se han pasado datos interactivos al visor en la configuración. Consiste en un banner en la parte superior que representa texto como "Haga clic para ver", una columna de uno o más muestras interactivas y dos botones de desplazamiento (disponibles solo en sistemas de escritorio).
 solution: Experience Manager
-title: Muestras interactivas
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: c9ef02eb-f5db-474b-b234-c49508e2af35
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -62,11 +62,11 @@ La ubicación y orientación en tiempo de ejecución del panel de muestras inter
 * Para representar muestras interactivas horizontalmente en la parte inferior del visor, establezca la altura en un valor de píxel absoluto; izquierda y abajo a 0px; ancho, derecho y superior a automático.
 * Para procesar muestras interactivas verticalmente a la derecha del contenido de vídeo, defina la anchura en un píxel absoluto; derecha y arriba a 0px; altura, izquierda e inferior para auto.
 
-Es posible utilizar marcadores CSS junto con este estilo para lograr la ubicación adaptativa del panel de muestras interactivo.
+Es posible utilizar marcadores CSS con este estilo para lograr la colocación adaptativa del panel de muestras interactivo.
 
 ## Ejemplo {#example}
 
-Para configurar un panel de muestras interactivo para que se represente horizontalmente en la parte inferior del visor en dispositivos táctiles en orientación horizontal y para que se muestre verticalmente a la derecha del contenido de vídeo en todos los demás casos:
+Configuración de un panel de muestras interactivo para representarlo horizontalmente en la parte inferior del visor en dispositivos táctiles en orientación horizontal. Y, para mostrarlo verticalmente a la derecha del contenido del vídeo en todos los demás casos:
 
 ```
 .s7interactivevideoviewer.s7touchinput.s7device_landscape .s7interactiveswatches, 
@@ -192,7 +192,7 @@ El siguiente selector de clase CSS controla el espaciado entre miniaturas de mue
 
 ## Ejemplo {#section-39fb270b7e494a9d99e6e8f6890ec53c}
 
-Para configurar el espaciado vertical para que sea de 10 píxeles:
+Para configurar el espaciado vertical para que sea de diez píxeles:
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7thumbcell { 
@@ -267,7 +267,7 @@ El selector de clase CSS siguiente controla el aspecto de la etiqueta de miniatu
 
 ## Ejemplo {#section-eb141eb6c1154183baa69796edb90536}
 
-Para configurar etiquetas para que utilicen alineación a la izquierda, blanco, 12 píxeles, fuente Helvetica y un borde inferior:
+Para configurar etiquetas para utilizar alineadas a la izquierda, blancas, 12 píxeles, en la fuente Helvetica® y un borde inferior:
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7label { 
