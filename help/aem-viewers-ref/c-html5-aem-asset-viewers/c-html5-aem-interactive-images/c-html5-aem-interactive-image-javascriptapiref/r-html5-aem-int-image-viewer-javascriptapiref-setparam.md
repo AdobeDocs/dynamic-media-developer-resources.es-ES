@@ -1,13 +1,13 @@
 ---
+title: setParam
 description: Referencia de la API de JavaScript para el visualizador de imágenes de vídeo.
 solution: Experience Manager
-title: setParam
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Imágenes interactivas
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: ef307acb-2ff0-46df-a06b-8dbac2e412f9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '83'
 ht-degree: 3%
 
 ---

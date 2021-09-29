@@ -1,14 +1,14 @@
 ---
+title: video
 description: Comando URL para el visualizador de Video360.
 solution: Experience Manager
-title: video
-feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 704097af-f108-42f7-92e7-5dd75916a045
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 16%
+source-wordcount: '34'
+ht-degree: 20%
 
 ---
 

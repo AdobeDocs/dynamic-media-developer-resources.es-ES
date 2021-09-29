@@ -1,13 +1,13 @@
 ---
+title: Incrustar recurso compartido
 description: La herramienta Insertar uso compartido consiste en un botón añadido al panel Compartir en Social y el cuadro de diálogo modal que se muestra cuando se activa la herramienta. La posición del botón la gestiona completamente la herramienta de uso compartido de Social.
 solution: Experience Manager
-title: Incrustar recurso compartido
-feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 08ba7a29-8b17-4167-a9f3-82aa4cf65556
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '2603'
+source-wordcount: '2599'
 ht-degree: 2%
 
 ---
@@ -76,7 +76,7 @@ background-image:url(images/v2/EmbedShare_dark_disabled.png);
 }
 ```
 
-La superposición de fondo que cubre la página web cuando el cuadro de diálogo está activo se controla con el siguiente selector de clase CSS:
+La superposición de fondo que cubre la página web cuando el cuadro de diálogo está activo, se controla con el siguiente selector de clase CSS:
 
 ```
 .s7video360viewer .s7embeddialog .s7backoverlay
@@ -284,7 +284,7 @@ El botón Cerrar se controla con el siguiente selector de clase CSS:
 
 La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obtener más información.
 
-**Ejemplo** : para configurar el encabezado del cuadro de diálogo con relleno, el icono de 24 x 14 píxeles, el título en negrita de 16 puntos y el botón de cierre de 28 x 28 píxeles, colocado dos píxeles desde la parte superior y dos píxeles desde la parte derecha del contenedor de cuadro de diálogo:
+**Ejemplo** : para configurar el encabezado del cuadro de diálogo con relleno, icono de 24 x 14 píxeles y título en negrita y de 16 puntos. Y finalmente, un botón Cerrar de 28 x 28 píxeles, colocado dos píxeles desde la parte superior y dos píxeles desde la parte derecha del contenedor de diálogo:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogheader { 
@@ -426,7 +426,7 @@ El botón Cancelar se controla con el siguiente selector de clase CSS:
 >
 >Este botón admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes aspectos a distintos estados de botones.
 
-Además, ambos botones comparten la misma clase CSS común que puede contener ajustes CSS que son los mismos para otros botones del cuadro de diálogo:
+Además, ambos botones comparten una clase CSS común que puede contener ajustes CSS que son los mismos para otros botones del cuadro de diálogo:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogfooter .s7button
@@ -636,7 +636,7 @@ El tamaño de la copia de texto mostrada sobre el código incrustado se controla
 .s7video360viewer .s7embeddialog .s7dialoginputwide
 ```
 
-**Propiedades CSS del campo ancho de entrada del cuadro de diálogo**
+**Propiedades CSS del campo de entrada del cuadro de diálogo**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
@@ -712,7 +712,7 @@ El texto del código incrustado real se controla con el siguiente selector de cl
  </tbody> 
 </table>
 
-**Ejemplo** : Configuración del código incrustado para utilizar el ajuste de  `break-word` palabras:
+**Ejemplo** : Para configurar el código incrustado para que utilice el ajuste de  `break-word` palabras:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogmessage { 
@@ -794,7 +794,7 @@ El ancho del cuadro combinado de tamaño incrustado se controla con el siguiente
 
 >[!NOTE]
 >
->El cuadro combinado es compatible con el selector de atributos `expanded` con posibles valores `true` y `false`. `true` se utiliza cuando el cuadro combinado muestra uno de los tamaños de incrustación predefinidos, por lo que debe tener toda la anchura disponible. `false` se utiliza cuando se selecciona la opción de tamaño personalizado en el cuadro combinado, por lo que debe reducirse para permitir espacio para los campos de entrada de anchura y altura personalizados.
+>El cuadro combinado es compatible con el selector de atributos `expanded` con posibles valores `true` y `false`. El valor `true` se utiliza cuando el cuadro combinado muestra uno de los tamaños incrustados predefinidos, por lo que debe tener toda la anchura disponible. El valor `false` se utiliza cuando la opción de tamaño personalizado está seleccionada en el cuadro combinado, por lo que debe reducirse para permitir espacios para los campos de entrada de anchura y altura personalizados.
 
 **Ejemplo** : para que el cuadro combinado del tamaño de incrustación tenga una anchura de 300 píxeles al mostrar un elemento predefinido y 110 píxeles de ancho al mostrar un tamaño personalizado:
 
@@ -894,7 +894,7 @@ El cuadro combinado tiene un botón &quot;desplegable&quot; a la derecha y se co
 }
 ```
 
-El panel con la lista de tamaños incrustados que se muestra al abrir el cuadro combinado se controla con el siguiente selector de clase CSS:
+El panel con la lista de tamaños incrustados que se muestra al abrir el cuadro combinado, se controla con el siguiente selector de clase CSS:
 
 ```
 .s7video360viewer .s7embeddialog .s7comboboxdropdown
@@ -985,7 +985,7 @@ Marca de verificación que se muestra a la izquierda del elemento seleccionado d
 }
 ```
 
-Cuando se selecciona la opción &quot;Tamaño personalizado&quot; en el cuadro combinado Tamaño incrustado, el cuadro de diálogo muestra dos campos de entrada adicionales a la derecha para permitir al usuario introducir un tamaño incrustado personalizado. Estos campos se envuelven en un contenedor que se controla con el siguiente selector de clase CSS:
+Cuando se selecciona la opción &quot;Tamaño personalizado&quot; en el cuadro combinado de tamaño incrustado, el cuadro de diálogo muestra dos campos de entrada adicionales a la derecha para permitir al usuario introducir un tamaño incrustado personalizado. Estos campos se envuelven en un contenedor que se controla con el siguiente selector de clase CSS:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogcustomsizepanel
@@ -1039,7 +1039,7 @@ Cada campo de entrada de tamaño personalizado se envuelve en un contenedor que 
  </tbody> 
 </table>
 
-**Ejemplo** : para configurar los campos de entrada de tamaño personalizado de modo que tengan un borde gris de un píxel, margen, relleno y anchura de 70 píxeles:
+**Ejemplo** : para configurar los campos de entrada de tamaño personalizado de modo que tengan un borde gris de un píxel, un margen, un margen y un ancho de 70 píxeles:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogcustomsize { 

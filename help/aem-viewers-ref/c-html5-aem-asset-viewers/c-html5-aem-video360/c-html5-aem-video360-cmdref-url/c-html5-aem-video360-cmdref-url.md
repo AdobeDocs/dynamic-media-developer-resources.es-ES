@@ -1,13 +1,13 @@
 ---
+title: 'Referencia de comandos: URL'
 description: Documentación de referencia de comandos para el visualizador de Video360.
 solution: Experience Manager
-title: 'Referencia de comandos: URL'
-feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: eb7026cf-f28b-4426-ba64-b3472946d5d4
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Puede prefijar algunos comandos de configuración con el nombre de clase o el no
 [Video360Player.|<containerId>_video360Player].playback
 ```
 
-lo que significa que este comando se utiliza de la siguiente manera:
+Esto significa que este comando se utiliza de la siguiente manera:
 
 * `playback` (sintaxis corta)
 * `Video360Player.playback` (cualificado con nombre de clase de componente)

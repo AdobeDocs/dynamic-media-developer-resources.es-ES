@@ -1,21 +1,21 @@
 ---
-description: El contenido que muestra el visualizador de imágenes interactivo está sujeto a localización. Esto incluye información sobre herramientas de elementos de la interfaz de usuario y un mensaje de información que se muestra en la vista de zoom flotante al cargar.
 title: Localización de los elementos de la interfaz de usuario
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Imágenes interactivas
+description: El contenido que muestra el visualizador de imágenes interactivo está sujeto a localización. Este contenido incluye información sobre herramientas de elementos de la interfaz de usuario y un mensaje de información que se muestra en la vista de zoom flotante al cargar.
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 19749c74-5c31-4dcf-ab07-0e7f10176a86
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
 
 # Localización de los elementos de la interfaz de usuario{#localization-of-user-interface-elements}
 
-El contenido que muestra el visualizador de imágenes interactivo está sujeto a localización. Esto incluye información sobre herramientas de elementos de la interfaz de usuario y un mensaje de información que se muestra en la vista de zoom flotante al cargar.
+El contenido que muestra el visualizador de imágenes interactivo está sujeto a localización. Este contenido incluye información sobre herramientas de elementos de la interfaz de usuario y un mensaje de información que se muestra en la vista de zoom flotante al cargar.
 
-Todo el contenido textual del visualizador que se puede localizar se representa mediante el identificador especial del SDK del visualizador denominado SYMBOL. Cualquier SYMBOL tiene un valor de texto asociado predeterminado para una configuración regional de inglés ( `"en"`) que se proporciona con el visor predeterminado, y también puede tener valores definidos por el usuario definidos para tantas configuraciones regionales como sea necesario.
+Todo el contenido textual del visualizador que se puede localizar se representa mediante el identificador especial del SDK del visualizador denominado SYMBOL. Cualquier SYMBOL tiene un valor de texto asociado predeterminado para una configuración regional en inglés ( `"en"`) que se proporciona con el visor predeterminado y puede tener valores definidos por el usuario definidos para tantas configuraciones regionales como sea necesario.
 
 Cuando se inicia el visor, comprueba la configuración regional actual para ver si hay un valor definido por el usuario para cada SYMBOL compatible para dicha configuración regional. Si existe, utiliza el valor definido por el usuario; de lo contrario, vuelve al texto predeterminado predeterminado predeterminado predeterminado.
 
@@ -51,7 +51,7 @@ Se admiten los siguientes SÍMBOLOS:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Container.LABEL  </span> </p> </td> 
-   <td colname="col2"> <p>Etiqueta ARIA para el elemento visualizador de nivel superior. </p> </td> 
+   <td colname="col2"> <p>Etiqueta ARIA para el elemento de visualizador de nivel superior. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZoomView.ROLE_DESCRIPTION  </span> </p> </td> 

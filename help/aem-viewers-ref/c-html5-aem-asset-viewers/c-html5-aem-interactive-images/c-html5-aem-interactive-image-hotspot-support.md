@@ -1,13 +1,13 @@
 ---
+title: Compatibilidad con puntos interactivos
 description: Compatibilidad con puntos interactivos
 solution: Experience Manager
-title: Compatibilidad con puntos interactivos
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Imágenes interactivas
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 9b9ccdf4-4639-4ba8-988c-c68d81192619
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -20,10 +20,10 @@ Consulte [Puntos interactivos](../../c-html5-aem-asset-viewers/c-html5-aem-inter
 
 Las zonas interactivas pueden activar una función de vista rápida en la página web de alojamiento activando una llamada de retorno de JavaScript o redireccionando a un usuario a una página web externa.
 
-## Puntos interactivos de la vista rápida {#section-cda48fc9730142d0bb3326bac7df3271}
+## Puntos interactivos de vista rápida {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Estos tipos de puntos interactivos deben crearse utilizando el tipo de acción &quot;Vista rápida&quot; en Dynamic Media, de AEM Assets, bajo demanda. Cuando un usuario activa una zona interactiva de este tipo, el visor ejecuta la llamada de retorno de JavaScript `quickViewActivate` y le pasa los datos de la zona interactiva. Se espera que la página web de incrustación escuche esta llamada de retorno. Cuando déclencheur la página, abre su propia implementación de vista rápida.
+Estos tipos de puntos interactivos deben crearse utilizando el tipo de acción &quot;Vista rápida&quot; en Dynamic Media, de Recursos Adobe Experience Manager - On-demand. Cuando un usuario activa una zona interactiva de este tipo, el visor ejecuta la llamada de retorno de JavaScript `quickViewActivate` y le pasa los datos de la zona interactiva. Se espera que la página web de incrustación escuche esta llamada de retorno. Cuando déclencheur la página, abre su propia implementación de vista rápida.
 
 ## Redirigir a una página web externa {#section-ef820c71251e4215800bb99c0c9ebe16}
 
-Puntos interactivos creados para el tipo de acción &quot;Vista rápida&quot; en Dynamic Media de AEM Assets: On demand redirige al usuario a una URL externa. Según la configuración realizada durante la creación, la dirección URL se abre en una nueva pestaña del explorador, en la misma ventana o en la ventana del explorador con nombre.
+Puntos interactivos creados para el tipo de acción &quot;Vista rápida&quot; en Dynamic Media de Recursos Experience Manager: On-demand redirige al usuario a una URL externa. Según la configuración realizada durante la creación, la dirección URL se abre en una nueva pestaña del explorador, en la misma ventana o en la ventana del explorador con nombre.

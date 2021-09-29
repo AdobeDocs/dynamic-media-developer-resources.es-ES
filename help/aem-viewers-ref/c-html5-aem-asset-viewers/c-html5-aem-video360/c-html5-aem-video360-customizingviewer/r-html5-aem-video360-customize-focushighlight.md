@@ -1,13 +1,13 @@
 ---
+title: Enfoque resaltado
 description: El resaltado del foco de entrada que se muestra alrededor del elemento de interfaz de usuario del visualizador enfocado se controla con el selector de clases CSS.
 solution: Experience Manager
-title: Enfoque resaltado
-feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 05ac1a70-c20d-4ddf-942c-181f101cb1d8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '80'
 ht-degree: 1%
 
 ---

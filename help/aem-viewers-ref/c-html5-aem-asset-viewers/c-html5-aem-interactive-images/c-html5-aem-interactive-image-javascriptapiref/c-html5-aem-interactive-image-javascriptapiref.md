@@ -1,13 +1,13 @@
 ---
+title: Referencia de la API de JavaScript para el visualizador de imágenes interactivo
 description: La clase principal del visualizador interactivo de imágenes es InteractiveImage. Se declara en el espacio de nombres s7viewers. Esta API de JavaScript cubre el constructor, los métodos y las llamadas de retorno de esta clase en particular.
 solution: Experience Manager
-title: Referencia de la API de JavaScript para el visualizador de imágenes interactivo
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Imágenes interactivas
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 40a3554c-633f-418e-b365-2cae4eebe878
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---

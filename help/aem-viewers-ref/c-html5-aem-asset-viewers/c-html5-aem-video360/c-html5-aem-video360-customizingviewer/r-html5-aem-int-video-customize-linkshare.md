@@ -1,13 +1,13 @@
 ---
+title: Compartir vínculos
 description: La herramienta Compartir vínculos consiste en un botón agregado al panel Compartir en Social y el cuadro de diálogo modal que se muestra cuando se activa la herramienta. La posición del botón la gestiona completamente la herramienta de uso compartido de Social.
 solution: Experience Manager
-title: Compartir vínculos
-feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 9eb2ef38-9b86-4c60-90a2-6609cb3fcc39
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: '1385'
 ht-degree: 2%
 
 ---
@@ -76,7 +76,7 @@ background-image:url(images/v2/LinkShare_dark_disabled.png);
 }
 ```
 
-La superposición de fondo que cubre la página web cuando el cuadro de diálogo está activo se controla con el siguiente selector de clase CSS:
+La superposición de fondo que cubre la página web cuando el cuadro de diálogo está activo, se controla con el siguiente selector de clase CSS:
 
 ```
 .s7video360viewer .s7linkdialog .s7backoverlay
@@ -284,7 +284,7 @@ El botón Cerrar se controla con el siguiente selector de clase CSS:
 
 La información del objeto del botón Cerrar y el título del cuadro de diálogo se pueden localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Ejemplo** : para configurar un encabezado de cuadro de diálogo con relleno, un icono de 22 x 12 píxeles, un título en negrita de 16 puntos y un botón Cerrar de 28 x 28 píxeles que se sitúe a dos píxeles de la parte superior y a dos píxeles de la derecha del contenedor de cuadro de diálogo:
+**Ejemplo** : para configurar un encabezado de cuadro de diálogo con relleno, un icono de 22 x 12 píxeles y un título en negrita de 16 puntos. Finalmente, un botón Cerrar de 28 x 28 píxeles situado a dos píxeles de la parte superior y a dos píxeles de la derecha del contenedor de cuadro de diálogo:
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogheader { 
@@ -426,7 +426,7 @@ El botón Cancelar se controla con el siguiente selector de clase CSS:
 >
 >Este botón admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes aspectos a distintos estados de botones.
 
-Además, ambos botones comparten la misma clase CSS común que puede contener ajustes CSS que son los mismos para otros botones del cuadro de diálogo:
+Además, ambos botones comparten una clase CSS común que puede contener ajustes CSS que son los mismos para otros botones del cuadro de diálogo:
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogfooter .s7button
@@ -560,7 +560,7 @@ El área de diálogo principal (entre el encabezado y el pie de página) contien
 }
 ```
 
-Todo el contenido del formulario, como etiquetas y campos de entrada, reside dentro de un contenedor controlado con el siguiente selector de clase CSS:
+Todo el contenido del formulario (como etiquetas y campos de entrada) reside dentro de un contenedor controlado con el siguiente selector de clase CSS:
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogbody
@@ -577,7 +577,7 @@ Todo el contenido del formulario, como etiquetas y campos de entrada, reside den
  </tbody> 
 </table>
 
-**Ejemplo** : Configurar el contenido del formulario para que tenga un relleno de 10 píxeles:
+**Ejemplo** : Configurar el contenido del formulario para que tenga un relleno de diez píxeles:
 
 ```
 .s7interactivevideoviewer .s7linkdialog .s7dialogbody { 
@@ -634,7 +634,7 @@ El tamaño de la copia de texto mostrada sobre el vínculo se controla con el si
 .s7video360viewer .s7linkdialog .s7dialoginputwide
 ```
 
-**Propiedades CSS del campo ancho de entrada del cuadro de diálogo**
+**Propiedades CSS del campo de entrada del cuadro de diálogo**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 

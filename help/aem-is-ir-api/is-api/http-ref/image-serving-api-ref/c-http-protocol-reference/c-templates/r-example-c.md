@@ -1,13 +1,13 @@
 ---
+title: Ejemplo C
 description: Cree una aplicación de capas de "muñeca de papel".
 solution: Experience Manager
-title: Ejemplo C
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 70232055-2a4c-4e56-8076-3cd56a9004c5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ Una imagen de fondo contiene la foto de un modelo o maniquí. Los registros adic
 
 Cada foto de ropa o accesorio está enmascarada y recortada al cuadro delimitador de la máscara para minimizar el tamaño de la imagen. Los anclajes y las resoluciones de las imágenes se controlan cuidadosamente para mantener la alineación entre las capas y la imagen de fondo, y todas las imágenes se añaden a un catálogo de imágenes, con los valores adecuados almacenados en `catalog::Resolution` y `catalog::Anchor`.
 
-Además de las capas, también queremos cambiar el color de los elementos seleccionados. Los registros de estos elementos se procesan previamente para eliminar el color original y ajustar el brillo y el contraste de una manera adecuada para el comando de coloreado. Este preprocesamiento puede realizarse sin conexión, utilizando una herramienta de edición de imágenes como Photoshop o, en casos sencillos, trivialmente añadiendo `op_brightness=` y `op_contrast=` al campo `catalog::Modifier`.
+Además de las capas, también desea cambiar el color de los elementos seleccionados. Los registros de estos elementos se procesan previamente para eliminar el color original y ajustar el brillo y el contraste de una manera adecuada para el comando de coloreado. Este preprocesamiento puede realizarse sin conexión, utilizando una herramienta de edición de imágenes como Adobe Photoshop o, en casos sencillos, trivialmente añadiendo `op_brightness=` y `op_contrast=` al campo `catalog::Modifier`.
 
-Esta aplicación no justifica una plantilla independiente, ya que todos los objetos ya están correctamente alineados por sus anclajes de imagen ( `catalog::Anchor`) y escalados ( `catalog::Resolution`). Dependemos del cliente para garantizar un orden de capa adecuado.
+Esta aplicación no justifica una plantilla independiente, ya que todos los objetos ya están correctamente alineados por sus anclajes de imagen ( `catalog::Anchor`) y escalados ( `catalog::Resolution`). Depende del cliente garantizar un orden de capa adecuado.
 
 Una solicitud típica podría tener este aspecto:
 
@@ -36,7 +36,7 @@ layer=4&res=999&src=rootId/hat2generic&colorize=12,15,34&
 layer=6&res=999&src=rootId/shoes21
 ```
 
-Solo se especifica la altura. Esto permite que la imagen devuelta varíe en anchura según la relación de aspecto de la imagen del maniquí, sin que se rellenen los márgenes con el color de fondo.
+Solo se especifica la altura. Al hacerlo, la imagen devuelta puede variar en anchura según la relación de aspecto de la imagen del maniquí, sin que se rellenen los márgenes con el color de fondo.
 
 No importa qué resolución se especifique para cada capa, siempre y cuando sean iguales. Es posible que esta versión no permita que las vistas sean más grandes que las imágenes compuestas. Si se especifica un valor de resolución grande, se evitarán problemas relacionados con esta limitación. Todo el procesamiento y la composición se realiza con la resolución óptima para el tamaño de imagen solicitado, para ayudar a lograr el mejor rendimiento y calidad de salida.
 

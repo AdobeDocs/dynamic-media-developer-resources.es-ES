@@ -1,14 +1,14 @@
 ---
+title: Personalización del visor de Video360
 description: Toda la personalización visual y la mayor parte de la personalización del comportamiento para el visor de Video360 se realiza mediante la creación de un CSS personalizado.
 keywords: adaptable
 solution: Experience Manager
-title: Personalización del visor de Video360
-feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: c9dda4e8-2781-4870-9ccb-707823c56490
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '1301'
+source-wordcount: '1295'
 ht-degree: 0%
 
 ---
@@ -27,23 +27,23 @@ El archivo CSS personalizado debe contener las mismas declaraciones de clase que
 
 Una alternativa para proporcionar reglas CSS personalizadas es utilizar estilos incrustados directamente en la página web o en una de las reglas CSS externas vinculadas.
 
-Al crear CSS personalizada, tenga en cuenta que el visor asigna la clase `.s7video360viewer` a su elemento DOM contenedor. Si está utilizando un archivo CSS externo pasado con el comando `style=`, utilice la clase `.s7video360viewer` como clase principal en el selector de descendientes para sus reglas CSS. Si está realizando estilos incrustados en la página web, califique también este selector con un ID del elemento DOM de contenedor de la siguiente manera:
+Cuando cree CSS personalizada, tenga en cuenta que el visor asigna la clase `.s7video360viewer` a su elemento DOM contenedor. Si está utilizando un archivo CSS externo pasado con el comando `style=`, utilice la clase `.s7video360viewer` como clase principal en el selector de descendientes para sus reglas CSS. Si está realizando estilos incrustados en la página web, califique también este selector con un ID del elemento DOM de contenedor de la siguiente manera:
 
 `#<containerId>.s7video360viewer`
 
 ## Creación de una CSS diseñada adaptable {#section-0bb49aca42d242d9b01879d5ba59d33b}
 
-Es posible dirigirse a diferentes dispositivos e incrustar tamaños en CSS para que el contenido se muestre de forma diferente en función del dispositivo de un usuario o de un diseño de página web concreto. Esto incluye, entre otros, diferentes diseños, tamaños de elementos de la interfaz de usuario y resolución de ilustraciones.
+Es posible dirigirse a diferentes dispositivos e incrustar tamaños en CSS para que el contenido se muestre de forma diferente en función del dispositivo de un usuario o de un diseño de página web concreto. Este método incluye, entre otros, diferentes diseños, tamaños de elementos de la interfaz de usuario y resolución de ilustraciones.
 
-El visor admite dos mecanismos para crear CSS diseñada de forma interactiva: Marcadores CSS y consultas de medios CSS estándar. Puede utilizarlos de forma independiente o conjunta.
+El visor admite dos mecanismos para crear CSS diseñada de forma interactiva: Marcadores CSS y consultas de medios CSS estándar. Puede utilizar marcadores o consultas de forma independiente o conjunta.
 
 **Marcadores CSS**
 
-Para ayudar a crear CSS diseñada y adaptable, el visor admite marcadores CSS. Son clases CSS especiales que se asignan dinámicamente al elemento contenedor del visor de nivel superior en función del tamaño del visor de tiempo de ejecución y el tipo de entrada utilizado en el dispositivo actual.
+Para ayudar a crear CSS diseñada y adaptable, el visor admite marcadores CSS. Estos marcadores son clases CSS especiales que se asignan dinámicamente al elemento contenedor del visor de nivel superior. Se basan en el tamaño del visor en tiempo de ejecución y en el tipo de entrada utilizado en el dispositivo actual.
 
 El primer grupo de marcadores CSS incluye las clases `.s7size_large`, `.s7size_medium` y `.s7size_small`. Se aplican en función del área de tiempo de ejecución del contenedor de visor. Si el área del visor es igual o mayor que el tamaño de un monitor de escritorio común, se utiliza `.s7size_large`; si el área está cerca de un dispositivo comprimido común, se asigna `.s7size_medium`. Para áreas similares a las pantallas de teléfono móvil, se establece `.s7size_small`. El objetivo principal de estos marcadores CSS es crear diferentes diseños de interfaz de usuario para diferentes pantallas y tamaños de visor.
 
-El segundo grupo de marcadores CSS contiene `.s7mouseinput` y `.s7touchinput`. `.s7touchinput` se establece si el dispositivo actual tiene capacidades de entrada táctil; de lo contrario,  `.s7mouseinput` se utiliza . Estos marcadores están pensados principalmente para crear elementos de entrada de interfaz de usuario con diferentes tamaños de pantalla para diferentes tipos de entrada, ya que normalmente la entrada táctil requiere elementos más grandes. Tenga en cuenta que, en caso de que el dispositivo tenga funciones táctiles y de entrada de ratón, `.s7touchinput` estará configurado y el visor presentará una interfaz de usuario táctil.
+El segundo grupo de marcadores CSS contiene `.s7mouseinput` y `.s7touchinput`. El marcador `.s7touchinput` se establece si el dispositivo actual tiene capacidades de entrada táctil; de lo contrario, se utiliza `.s7mouseinput`. Estos marcadores están pensados principalmente para crear elementos de entrada de interfaz de usuario con diferentes tamaños de pantalla para diferentes tipos de entrada, ya que normalmente la entrada táctil requiere elementos más grandes. Si el dispositivo tiene funciones táctiles y de entrada de ratón, `.s7touchinput` se establece y el visor presenta una interfaz de usuario táctil.
 
 El siguiente ejemplo de CSS establece el tamaño del botón de reproducción/pausa en 28x28 píxeles en sistemas con entrada de ratón y 56x56 píxeles en dispositivos táctiles. Además, oculta completamente el botón si el tamaño del visor se reduce significativamente:
 
@@ -126,7 +126,7 @@ No es necesario duplicar todo el CSS del visor en cada consulta de medios. Solo 
 
 ## Sprites CSS {#section-9b6d8d601cb441d08214dada7bb4eddc}
 
-Muchos elementos de la interfaz de usuario del visor están diseñados con ilustraciones de mapa de bits y tienen más de un estado visual distinto. Un buen ejemplo es un botón que normalmente tiene al menos 3 estados diferentes: &quot;up&quot;, &quot;over&quot; y &quot;down&quot;. Cada estado requiere su propia ilustración de mapa de bits asignada.
+Muchos elementos de la interfaz de usuario del visor están diseñados con ilustraciones de mapa de bits y tienen más de un estado visual distinto. Un buen ejemplo es un botón que normalmente tiene al menos tres estados diferentes: &quot;up&quot;, &quot;over&quot; y &quot;down&quot;. Cada estado requiere su propia ilustración de mapa de bits asignada.
 
 Con un enfoque clásico del estilo, el CSS tendría una referencia independiente al archivo de imagen individual en el servidor para cada estado del elemento de la interfaz de usuario. A continuación se muestra un ejemplo de CSS para diseñar un botón de pantalla completa:
 
@@ -171,7 +171,7 @@ background-image:url(images/v2/ReplayButton_disabled.png);
 
 El inconveniente de este enfoque es que el usuario final experimenta parpadeos o retraso en la respuesta de la interfaz de usuario cuando se interactúa con el elemento por primera vez. Esta acción se produce porque la ilustración de la imagen para el nuevo estado del elemento aún no se ha descargado. Además, este enfoque puede tener un ligero impacto negativo en el rendimiento debido a un aumento en el número de llamadas HTTP al servidor.
 
-Los sprites CSS son un enfoque diferente en el que las ilustraciones de imágenes para todos los estados de elementos se combinan en un solo archivo PNG denominado &quot;sprite&quot;. Este &quot;Sprite&quot; tiene todos los estados visuales para el elemento dado posicionado uno tras otro. Al diseñar un elemento de interfaz de usuario con sprites, se hace referencia a la misma imagen sprite para todos los estados diferentes del CSS. Además, la propiedad `background-position` se utiliza para cada estado para especificar qué parte de la imagen &quot;sprite&quot; se utiliza. Puede estructurar una imagen &quot;sprite&quot; de cualquier manera adecuada. Normalmente, los visualizadores lo tienen apilado verticalmente. A continuación se muestra un ejemplo basado en &quot;sprite&quot; de cómo aplicar estilo al mismo botón de pantalla completa anteriormente:
+Los sprites CSS son un enfoque diferente en el que las ilustraciones de imágenes para todos los estados de elementos se combinan en un solo archivo PNG denominado &quot;sprite&quot;. Este &quot;Sprite&quot; tiene todos los estados visuales para el elemento dado posicionado uno tras otro. Al diseñar un elemento de interfaz de usuario con sprites, se hace referencia a la misma imagen sprite para todos los estados diferentes en el CSS. Además, la propiedad `background-position` se utiliza para cada estado para especificar qué parte de la imagen &quot;sprite&quot; se utiliza. Puede estructurar una imagen &quot;sprite&quot; de cualquier manera adecuada. Normalmente, los visualizadores lo tienen apilado verticalmente. A continuación se muestra un ejemplo basado en &quot;sprite&quot; de cómo aplicar estilo al mismo botón de pantalla completa anteriormente:
 
 ```
 .s7video360viewer .s7fullscreenbutton[state][selected]{ 
@@ -218,4 +218,4 @@ background-position: -0px -1120px;
 
 ## Elementos comunes de la interfaz de usuario {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
 
-A continuación se muestra la documentación de referencia de elementos de la interfaz de usuario que se aplica al visualizador Video360:
+A continuación se muestra la documentación de referencia de elementos de la interfaz de usuario que se aplica al visualizador de Video360:

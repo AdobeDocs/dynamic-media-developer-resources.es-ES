@@ -1,13 +1,13 @@
 ---
+title: Puntos interactivos
 description: El visor muestra iconos de zonas interactivas en la vista principal en los lugares donde las zonas interactivas se crearon originalmente en Dynamic Media de AEM Assets, On Demand.
 solution: Experience Manager
-title: Puntos interactivos
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Imágenes interactivas
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: ec1d9a91-e189-470a-abe2-4f33686905e7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '119'
 ht-degree: 2%
 
 ---

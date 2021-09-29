@@ -1,20 +1,20 @@
 ---
-description: El área de vista principal es el área ocupada por la imagen de zoom. Normalmente se configura para que se ajuste a la pantalla del dispositivo disponible cuando no se especifica ningún tamaño.
-solution: Experience Manager
 title: Área del visor principal
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Imágenes interactivas
+description: El área de vista principal es el área ocupada por la imagen de zoom. Se configura para que se ajuste a la pantalla de dispositivo disponible cuando no se especifica ningún tamaño.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: c8005e7e-dff6-4f40-a94c-6fb6640e827f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '116'
 ht-degree: 2%
 
 ---
 
 # Área del visor principal{#main-viewer-area}
 
-El área de vista principal es el área ocupada por la imagen de zoom. Normalmente se configura para que se ajuste a la pantalla del dispositivo disponible cuando no se especifica ningún tamaño.
+El área de vista principal es el área ocupada por la imagen de zoom. Se configura para que se ajuste a la pantalla de dispositivo disponible cuando no se especifica ningún tamaño.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

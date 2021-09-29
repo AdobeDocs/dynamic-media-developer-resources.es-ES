@@ -1,13 +1,13 @@
 ---
+title: getComponent
 description: Referencia de la API de JavaScript para el visualizador de imágenes de vídeo.
 solution: Experience Manager
-title: getComponent
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Imágenes interactivas
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 5f2514a9-bbd0-436d-ad96-b89778604f8a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '178'
 ht-degree: 1%
 
 ---
@@ -61,7 +61,7 @@ Consulte la documentación de la API del SDK de visor para obtener más informac
 
 ## Devuelve {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` una referencia al componente SDK del visor. El método devuelve `null` si `componentId` no es un componente de visor compatible o si la lógica del visor aún no ha creado el componente.
+`{Object}` Una referencia al componente SDK del visor. El método devuelve `null` si `componentId` no es un componente de visor compatible o si la lógica del visor aún no ha creado el componente.
 
 ## Ejemplo {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

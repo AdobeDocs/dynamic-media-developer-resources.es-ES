@@ -1,13 +1,13 @@
 ---
+title: Imagen interactiva
 description: El visualizador de imágenes interactivo es un visualizador que muestra una sola imagen no ampliable con zonas interactivas en las que se puede hacer clic. El objetivo de este visor es implementar una experiencia de "banner de ventas". Es decir, el usuario puede seleccionar un punto interactivo sobre la imagen del banner y ser redirigido a una vista rápida o a una página de detalles del producto en el sitio web. Está diseñado para funcionar con equipos de escritorio y dispositivos móviles.
 solution: Experience Manager
-title: Imagen interactiva
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Imágenes interactivas
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: c7089ecd-6ff3-4fe9-9ee7-3b48c9201558
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '1733'
+source-wordcount: '1720'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Consulte [Accesibilidad del teclado y navegación](../../c-keyboard-accessibilit
 
 ## Incrustación del visualizador de imágenes interactivo {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-El visualizador de imágenes interactivo está diseñado para incrustarse en la página de alojamiento. Esta página web puede tener un diseño estático o puede ser &quot;interactiva&quot; y mostrarse de forma diferente en distintos dispositivos o en diferentes tamaños de ventana del navegador.
+El visualizador de imágenes interactivo está incrustado en la página de alojamiento. Esta página web puede tener un diseño estático o puede ser &quot;interactiva&quot; y mostrarse de forma diferente en distintos dispositivos o en diferentes tamaños de ventana del navegador.
 
 Para satisfacer estas necesidades, el visor admite dos modos de operación principales: incrustación de tamaño fijo e incrustación interactiva.
 
@@ -60,11 +60,11 @@ En el modo incrustado, el visor se añade a la página web existente. Es posible
 
 Los casos de uso principales son páginas web orientadas a equipos de escritorio o tabletas, y páginas diseñadas con capacidad de respuesta que ajustan el diseño automáticamente en función del tipo de dispositivo.
 
-La incrustación de tamaño fijo se utiliza cuando el visor no cambia su tamaño después de la carga inicial. Esta es la mejor opción para páginas web con diseño estático.
+La incrustación de tamaño fijo se utiliza cuando el visor no cambia su tamaño después de la carga inicial. Este método es la mejor opción para páginas web con diseño estático.
 
-La incrustación de diseño interactivo supone que el visor puede tener que cambiar el tamaño durante la ejecución en respuesta al cambio de tamaño de su contenedor `DIV`. El caso de uso más común es agregar un visor a una página web que utilice un diseño de página flexible.
+La incrustación de diseño interactivo supone que el visor debe cambiar el tamaño en tiempo de ejecución en respuesta al cambio de tamaño de su contenedor `DIV`. El caso de uso más común es agregar un visor a una página web que utilice un diseño de página flexible.
 
-En el modo de incrustación de diseño interactivo, el visor se comporta de forma diferente en función del tamaño de la página web para su contenedor `DIV`. Si la página web establece únicamente la anchura del contenedor `DIV`, sin restringir su altura, el visor elige automáticamente su altura según la proporción de aspecto del recurso utilizado. Esta funcionalidad garantiza que el recurso encaje perfectamente en la vista sin ningún relleno en los lados. Este caso de uso es el más común para las páginas web que usan marcos de diseño web interactivos como Bootstrap, Foundation, etc.
+En el modo de incrustación de diseño interactivo, el visor se comporta de forma diferente en función del tamaño de la página web para su contenedor `DIV`. Si la página web establece únicamente la anchura del contenedor `DIV`, sin restringir su altura, el visor elige automáticamente su altura según la proporción de aspecto del recurso utilizado. Esta funcionalidad garantiza que el recurso encaje perfectamente en la vista sin ningún relleno en los lados. Este caso de uso es el más común para las páginas web que usan marcos de diseño web interactivos como Bootstrap y Fundación.
 
 De lo contrario, si la página web establece la anchura y la altura del contenedor del visor `DIV`, el visor rellena solo esa área. También sigue el tamaño que proporciona el diseño de página web. Un buen ejemplo es integrar el visor en una superposición modal, donde el tamaño de la superposición depende del tamaño de la ventana del explorador web.
 
@@ -93,7 +93,7 @@ La ruta relativa tiene el siguiente aspecto:
 
 >[!NOTE]
 >
->Solo debe hacer referencia al archivo JavaScript `include` del visor principal de la página. No debe hacer referencia a ningún archivo JavaScript adicional del código de la página web que pueda descargar la lógica del visor durante la ejecución. En concreto, no haga referencia directamente a la biblioteca `Utils.js` del SDK de HTML5 cargada por el visor desde la ruta de contexto `/s7viewers` (denominada SDK consolidado `include`). El motivo es que la ubicación de las `Utils.js` o bibliotecas de visores de tiempo de ejecución similares se administra completamente mediante la lógica del visor y la ubicación cambia entre las versiones del visor. Adobe no mantiene versiones anteriores del visor secundario `includes` en el servidor.
+>Solo haga referencia al archivo JavaScript `include` del visor principal de la página. No haga referencia a ningún archivo JavaScript adicional del código de la página web que pueda descargar la lógica del visor durante la ejecución. En concreto, no haga referencia directamente a la biblioteca `Utils.js` del SDK de HTML5 cargada por el visor desde la ruta de contexto `/s7viewers` (denominada SDK consolidado `include`). El motivo es que la ubicación de las `Utils.js` o bibliotecas de visores de tiempo de ejecución similares se administra completamente mediante la lógica del visor y la ubicación cambia entre las versiones del visor. Adobe no mantiene versiones anteriores del visor secundario `includes` en el servidor.
 >
 >
 >Como resultado, poner una referencia directa a cualquier JavaScript `include` secundario que utilice el visor en la página rompe la funcionalidad del visor en el futuro cuando se implemente una nueva versión del producto.
@@ -114,7 +114,7 @@ La ruta relativa tiene el siguiente aspecto:
 
    Puede establecer el tamaño estático del visor declarándolo para la clase CSS de nivel superior `.s7interactiveimage` en unidades absolutas o utilizando el modificador `stagesize`.
 
-   Puede colocar el tamaño en CSS directamente en la página HTML o en un archivo CSS de visor personalizado, que más tarde se asigna a un registro preestablecido de visor en AEM Assets bajo demanda o se pasa explícitamente mediante el comando `style`.
+   Puede colocar el tamaño en CSS directamente en la página HTML. O bien, puede colocar el tamaño en un archivo CSS de visualizador personalizado, que más tarde se asignará a un registro preestablecido de visualizador en Recursos Adobe Experience Manager - On-demand, o se pasará explícitamente mediante el comando `style`.
 
    Consulte [Vídeo](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) para obtener más información sobre cómo diseñar el visor con CSS.
 
@@ -141,7 +141,7 @@ La ruta relativa tiene el siguiente aspecto:
 
    Es importante tener el contenedor de visor agregado al DOM para que el código del visor pueda encontrar el elemento contenedor por su ID. Algunos exploradores retrasan la creación del DOM hasta el final de la página web. Para obtener la máxima compatibilidad, llame al método `init()` justo antes de la etiqueta `BODY` de cierre o en el evento `onload()` del cuerpo.
 
-   Al mismo tiempo, el elemento contenedor no debe formar parte necesariamente del diseño de página web todavía. Por ejemplo, puede ocultarse utilizando el estilo `display:none` asignado. En este caso, el visor retrasa su proceso de inicialización hasta el momento en que la página web vuelve a poner el elemento contenedor en el diseño. Cuando esto sucede, la carga del visor se reanuda automáticamente.
+   Al mismo tiempo, el elemento contenedor no debe formar parte necesariamente del diseño de la página web todavía. Por ejemplo, puede ocultarse utilizando el estilo `display:none` asignado. En este caso, el visor retrasa su proceso de inicialización hasta el momento en que la página web vuelve a poner el elemento contenedor en el diseño. Cuando se produce este evento, la carga del visor se reanuda automáticamente.
 
    El siguiente es un ejemplo de creación de una instancia de visor, pasando al constructor las opciones de configuración mínimas necesarias y llamando al método `init()`. El ejemplo supone que `interactiveImage` es la instancia del visor; `s7viewer` es el nombre del marcador de posición `DIV`; `http://aodmarketingna.assetsadobe.com/is/image` es la URL del servicio de imágenes y `/content/dam/mac/aodmarketingna/shoppable-banner/shoppable-banner.` es el recurso:
 
@@ -248,7 +248,7 @@ La página de ejemplos siguientes ilustra más usos reales de la incrustación d
 
 **Incrustación de tamaño flexible con anchura y altura definidas**
 
-En caso de incrustación de tamaño flexible con anchura y altura definidas, el estilo de la página web es diferente. Proporciona ambos tamaños al DIV `"holder"` y lo centra en la ventana del explorador. Además, la página web establece el tamaño del elemento `HTML` y `BODY` en 100 por ciento.
+Si hay una incrustación de tamaño flexible con anchura y altura definidas, el estilo de la página web es diferente. Proporciona ambos tamaños al DIV `"holder"` y lo centra en la ventana del explorador. Además, la página web establece el tamaño del elemento `HTML` y `BODY` en 100 por ciento.
 
 ```
 <!DOCTYPE html> 

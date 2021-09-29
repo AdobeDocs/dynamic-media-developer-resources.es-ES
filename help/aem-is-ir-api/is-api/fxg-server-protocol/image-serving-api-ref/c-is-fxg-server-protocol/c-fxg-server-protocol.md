@@ -1,14 +1,14 @@
 ---
+title: Protocolo del servidor FXG
 description: Para manipular un gráfico, se pueden usar puntos de referencia similares a las direcciones de una brújula.
 solution: Experience Manager
-title: Protocolo del servidor FXG
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 57d9ba37-819e-455f-9b22-bd7aabffe007
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 63%
+source-wordcount: '268'
+ht-degree: 57%
 
 ---
 
@@ -16,14 +16,14 @@ ht-degree: 63%
 
 Para manipular un gráfico, se pueden usar puntos de referencia similares a las direcciones de una brújula.
 
-Así, un gráfico se puede rotar, ajustar a escala o cambiar de tamaño en relación con un punto de referencia concreto. Los puntos de referencia son `northWest`, `north`, `northEast`, `west`, `center`, `east`, `southWest`, `south` y `southeast`. Por ejemplo, si se utiliza el punto de referencia centro, el gráfico se puede rotar 45 grados con respecto a su centro. Esta ilustración muestra dónde se encuentran los puntos de referencia, un gráfico, el gráfico rotado 20 grados desde su punto de referencia `northWest` y el gráfico rotado 20 grados desde su punto de referencia `east`.
+Así, un gráfico se puede rotar, ajustar a escala o cambiar de tamaño en relación con un punto de referencia concreto. Los puntos de referencia son `northWest`, `north`, `northEast`, `west`, `center`, `east`, `southWest`, `south` y `southeast`. Por ejemplo, utilizando el punto de referencia central, puede girar un gráfico 45° en su centro. La siguiente imagen muestra dónde se encuentran los puntos de referencia, un gráfico, el gráfico rotado 20° desde su punto de referencia `northWest` y el gráfico rotado 20° desde su punto de referencia `east`.
 
-![](assets/wp_ref_points.png)
+![Imagen de puntos de referencia](assets/wp_ref_points.png)
 
 * A. Ubicaciones de los puntos de referencia
 * B. Gráfico A
-* C. El gráfico rotó 20 grados desde su punto de referencia `northWest`
-* D. El gráfico rotó 20 grados desde su punto de referencia `east`
+* C. El gráfico rotó 20° desde su punto de referencia `northWest`
+* D. El gráfico rotó 20° desde su punto de referencia `east`
 
 La sintaxis es la siguiente:
 

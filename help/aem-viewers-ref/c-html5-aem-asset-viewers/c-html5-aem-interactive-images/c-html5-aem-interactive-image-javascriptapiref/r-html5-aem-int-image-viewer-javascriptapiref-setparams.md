@@ -1,14 +1,14 @@
 ---
+title: setParams
 description: Referencia de la API de JavaScript para el visualizador de imágenes de vídeo.
 solution: Experience Manager
-title: setParams
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Imágenes interactivas
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 6a09e3bc-e79c-4206-be42-0c6ae3d91590
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 2%
+source-wordcount: '97'
+ht-degree: 3%
 
 ---
 
@@ -18,7 +18,7 @@ Referencia de la API de JavaScript para el visualizador de imágenes de vídeo.
 
 ` setParams( *`params`*)`
 
-Establece uno o más parámetros en un valor determinado. La sintaxis del argumento de método es idéntica a una cadena de consulta de URL. Es decir, representa pares nombre=valor separados por `&`. Al igual que en una cadena de consulta, los nombres y valores están codificados por porcentajes utilizando UTF8. Antes de llamar a `init()`, se debe llamar a este parámetro.
+Establece uno o más parámetros en un valor determinado. La sintaxis del argumento de método es idéntica a una cadena de consulta de URL. Es decir, representa pares nombre=valor separados por `&`. En una cadena de consulta, los nombres y valores están codificados por porcentajes utilizando UTF8. Antes de llamar a `init()`, se debe llamar a este parámetro.
 
 Este método es opcional si la información de configuración del visor se pasó con el objeto JSON `config` al constructor.
 
