@@ -1,13 +1,13 @@
 ---
+title: Vídeo interactivo
 description: Interactive Video Viewer es un reproductor de vídeo que reproduce streaming y vídeo progresivo codificado en formato H.264.
 solution: Experience Manager
-title: Vídeo interactivo
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: e54b0b1f-b015-4592-82e2-99f5080543e3
-source-git-commit: f77dc0c1ac8305037bbb561451317c8e62209cec
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '2216'
+source-wordcount: '2211'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,7 @@ La ruta relativa tiene el siguiente aspecto:
 
    Puede establecer el tamaño estático del visor declarándolo para la clase CSS de nivel superior `.s7interactivevideoviewer` en unidades absolutas o utilizando el modificador `stagesize`.
 
-   Puede colocar el tamaño en CSS directamente en la página HTML. O bien, puede colocarlo en un archivo CSS de visualizador personalizado, que más tarde se asignará a un registro preestablecido de visualizador en AEM Assets - On-demand, o se pasará explícitamente utilizando el comando `style`.
+   Puede colocar el tamaño en CSS directamente en la página HTML. O bien, puede colocarlo en un archivo CSS de visualizador personalizado, que más tarde se asignará a un registro preestablecido de visualizador en Recursos Adobe Experience Manager - On-demand, o se pasará explícitamente utilizando el comando `style`.
 
    Consulte [Personalización del visualizador de vídeo interactivo](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) para obtener más información sobre cómo diseñar el visualizador con CSS.
 
@@ -139,7 +139,7 @@ La ruta relativa tiene el siguiente aspecto:
    }
    ```
 
-   Puede establecer el modificador `stagesize` en el registro preestablecido de visor en AEM Assets: On-demand. O bien, puede pasarlo explícitamente con el código de inicialización del visor con la colección `params` o como una llamada de API como se describe en la sección Referencia del comando, de esta manera:
+   Puede establecer el modificador `stagesize` en el registro preestablecido de visualizador en Recursos Experience Manager - On-demand. O bien, puede pasarlo explícitamente con el código de inicialización del visor con la colección `params` o como una llamada de API como se describe en la sección Referencia del comando, de esta manera:
 
    ```
    interactivevideoviewer.setParam("stagesize", "640,640");

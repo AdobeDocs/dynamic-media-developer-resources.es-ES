@@ -1,13 +1,13 @@
 ---
+title: ControlBar.transition
 description: Atributo de configuración para el visualizador de vídeo interactivo.
 solution: Experience Manager
-title: ControlBar.transition
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: a8bb32b4-0fd9-4887-98ef-31c3426092b6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '114'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ Atributo de configuración para el visualizador de vídeo interactivo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|fade</span> </p> </td> 
-   <td colname="col2"> <p> Especifica el tipo de efecto que se utilizará para mostrar u ocultar la barra de control y su contenido. </p> <p>Establézcalo en <span class="codeph"> none</span> para mostrar/ocultar instantáneamente. </p> <p>Configúrelo en <span class="codeph"> fundido</span> para proporcionar un efecto de atenuación gradual. No es compatible con Internet Explorer 8. </p> </td> 
+   <td colname="col2"> <p> Especifica el tipo de efecto que se utiliza para mostrar u ocultar la barra de control y su contenido. </p> <p>Establézcalo en <span class="codeph"> none</span> para mostrar/ocultar instantáneamente. </p> <p>Configúrelo en <span class="codeph"> fundido</span> para proporcionar un efecto de atenuación gradual. No es compatible con Internet Explorer 8. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> delaytohide</span></span> </p> </td> 

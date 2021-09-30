@@ -1,13 +1,13 @@
 ---
+title: 'Referencia de comandos: Atributos de configuración'
 description: Documentación de atributos de configuración para el visualizador de vídeo interactivo.
 solution: Experience Manager
-title: 'Referencia de comandos: Atributos de configuración'
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 80b7971c-82dc-47a2-adde-9e061a0f856d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Algunos comandos de configuración pueden tener el prefijo class name o instance
 
 `[VideoPlayer.|<containerId>_videoPlayer].playback`
 
-lo que significa que puede utilizar este comando como:
+Y significa que puede utilizar el siguiente comando como:
 
 * `playback` (sintaxis corta)
 * `VideoPlayer.playback` (cualificado con nombre de clase de componente)

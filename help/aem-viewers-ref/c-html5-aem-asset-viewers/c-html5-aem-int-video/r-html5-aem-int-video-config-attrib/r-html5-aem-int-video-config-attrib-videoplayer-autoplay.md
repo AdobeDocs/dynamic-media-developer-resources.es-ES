@@ -1,14 +1,14 @@
 ---
+title: VideoPlayer.autoplay
 description: Atributo de configuración para el visualizador de vídeo interactivo.
 solution: Experience Manager
-title: VideoPlayer.autoplay
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 0b4fb87f-f8c6-4da8-b12a-0cde5f62fa60
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 10%
+source-wordcount: '40'
+ht-degree: 12%
 
 ---
 
@@ -22,7 +22,7 @@ Atributo de configuración para el visualizador de vídeo interactivo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Indica si el espectador comienza a reproducir el vídeo al cargarlo. Tenga en cuenta que es posible que algunos sistemas, como algunos dispositivos móviles, no admitan la reproducción automática. </p> </td> 
+   <td colname="col2"> <p> Indica si el espectador comienza a reproducir el vídeo al cargarlo. Es posible que algunos sistemas, como algunos dispositivos móviles, no admitan la reproducción automática. </p> </td> 
   </tr> 
  </tbody> 
 </table>

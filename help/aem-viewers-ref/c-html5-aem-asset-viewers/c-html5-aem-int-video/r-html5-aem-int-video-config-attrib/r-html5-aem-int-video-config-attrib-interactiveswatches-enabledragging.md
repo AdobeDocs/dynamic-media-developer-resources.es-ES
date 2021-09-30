@@ -1,14 +1,14 @@
 ---
+title: InteractiveSwatches.enabledragging
 description: Atributo de configuración para el visualizador de vídeo interactivo.
 solution: Experience Manager
-title: InteractiveSwatches.enabledragging
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interactivos
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 91c5eb52-40d9-40f6-8687-e68cb40b634e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 5%
+source-wordcount: '83'
+ht-degree: 6%
 
 ---
 
@@ -26,7 +26,7 @@ Atributo de configuración para el visualizador de vídeo interactivo.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> overdragvalue  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Está en el rango <span class="codeph"> 0-1 </span> y es un valor porcentual para el movimiento en la dirección incorrecta de la velocidad real. </p> <p>Si se establece en <span class="codeph"> 1 </span> se mueve con el ratón. </p> <p>Si se establece en <span class="codeph"> 0 </span> no le permite moverse en la dirección incorrecta. </p> </td> 
+   <td colname="col2"> <p> Está en el rango <span class="codeph"> 0-1 </span> y es un valor porcentual para el movimiento en la dirección incorrecta de la velocidad real. </p> <p>Si se establece en <span class="codeph"> 1 </span>, se mueve con el ratón. </p> <p>Si se establece en <span class="codeph"> 0 </span>, no le permite moverse en la dirección incorrecta. </p> </td> 
   </tr> 
  </tbody> 
 </table>
