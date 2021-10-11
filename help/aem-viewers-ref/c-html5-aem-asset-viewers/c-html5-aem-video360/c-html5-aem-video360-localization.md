@@ -1,20 +1,20 @@
 ---
-description: Cierto contenido que muestra el espectador está sujeto a localización. Esto incluye información del elemento de la interfaz de usuario y un mensaje de error que se muestra cuando el vídeo no se puede reproducir.
-solution: Experience Manager
 title: Localización de los elementos de la interfaz de usuario
-feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
+description: Cierto contenido que muestra el espectador está sujeto a localización. Este contenido incluye información del elemento de la interfaz de usuario y un mensaje de error que se muestra cuando el vídeo no se puede reproducir.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: d54fd841-2246-4d2e-8bf9-7da56f2487f3
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
 
 # Localización de los elementos de la interfaz de usuario{#localization-of-user-interface-elements}
 
-Cierto contenido que muestra el espectador está sujeto a localización. Esto incluye información del elemento de la interfaz de usuario y un mensaje de error que se muestra cuando el vídeo no se puede reproducir.
+Cierto contenido que muestra el espectador está sujeto a localización. Este contenido incluye información del elemento de la interfaz de usuario y un mensaje de error que se muestra cuando el vídeo no se puede reproducir.
 
 Cada contenido textual del visualizador que se puede localizar se representa mediante un identificador especial del SDK del visualizador denominado SYMBOL. Cualquier SYMBOL tiene un valor de texto asociado predeterminado para la configuración regional de inglés ( `"en"`) que se proporciona con el visor predeterminado. También puede tener valores definidos por el usuario configurados para tantas configuraciones regionales como sea necesario.
 
@@ -54,7 +54,7 @@ Se admiten los siguientes SÍMBOLOS:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Container.LABEL  </span> </p> </td> 
-   <td colname="col2"> <p>Etiqueta ARIA para el elemento visualizador de nivel superior. </p> </td> 
+   <td colname="col2"> <p>Etiqueta ARIA para el elemento de visualizador de nivel superior. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_SELECTED  </span> </p> </td> 

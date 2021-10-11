@@ -1,14 +1,14 @@
 ---
+title: Video360Player.preload
 description: Indica si el visor empieza a cargar contenido de vídeo antes de que se inicie la reproducción.
 solution: Experience Manager
-title: Video360Player.preload
-feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 33c28ed3-cdb3-4b14-8cc7-90f77ec9a3bb
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 6%
+source-wordcount: '118'
+ht-degree: 7%
 
 ---
 
@@ -22,7 +22,7 @@ Indica si el visor empieza a cargar contenido de vídeo antes de que se inicie l
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Si se establece en <span class="codeph"> 1 </span> el vídeo empieza a descargarse justo después de que se haya configurado el recurso; de lo contrario, la precarga solo se inicia después de que el usuario final o una llamada a la API inicien la reproducción. </p> <p>Si se establece en <span class="codeph"> 0 </span>, es posible que determinadas funciones no funcionen hasta que se inicie la reproducción; específicamente, la operación de búsqueda no actualizará el fotograma de vídeo. Si la imagen de póster está desactivada, el visor se muestra como un área vacía en lugar del primer fotograma de vídeo. </p> <p>Tenga en cuenta que la desactivación de la precarga de vídeo puede ignorarse en determinadas versiones de los navegadores Internet Explorer 11 y Edge 11. </p> </td> 
+   <td colname="col2"> <p> Si se establece en <span class="codeph"> 1 </span>, el vídeo empieza a descargarse justo después de que se haya configurado el recurso. De lo contrario, la precarga solo se inicia después de que el usuario final o una llamada a la API inicien la reproducción. </p> <p>Si se establece en <span class="codeph"> 0 </span>, es posible que algunas funciones no funcionen hasta que se inicie la reproducción. En concreto, la operación de búsqueda no actualiza el fotograma de vídeo. Si la imagen de póster está desactivada, el visor se muestra como un área vacía en lugar del primer fotograma de vídeo. </p> <p>La desactivación de la precarga de vídeo puede ignorarse en determinadas versiones de los navegadores Internet Explorer 11 y Edge 11. </p> </td> 
   </tr> 
  </tbody> 
 </table>

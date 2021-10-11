@@ -1,13 +1,13 @@
 ---
+title: Icono, efecto
 description: El icono de reproducción se superpone en el área de vista principal. Se muestra cuando el vídeo está en pausa o cuando se llega al final del vídeo, y también depende del parámetro iconeffect.
 solution: Experience Manager
-title: Icono, efecto
-feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: e25a3b9d-88ef-4214-9b6b-2527ebf0f145
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '169'
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ El aspecto del icono de reproducción se controla con el siguiente selector de c
  </tbody> 
 </table>
 
-El efecto Icono admite el selector de atributos `state`. `state="play"` se utiliza cuando el vídeo está en pausa en mitad de la reproducción y  `state="replay"` se utiliza cuando el cabezal de reproducción está al final de la emisión.
+El efecto Icono admite el selector de atributos `state`. El selector de atributos `state="play"` se utiliza cuando el vídeo está en pausa en mitad de la reproducción y `state="replay"` se utiliza cuando el cabezal de reproducción está al final de la emisión.
 
 **Ejemplo** : configure un icono de reproducción de 100 x 100 píxeles.
 

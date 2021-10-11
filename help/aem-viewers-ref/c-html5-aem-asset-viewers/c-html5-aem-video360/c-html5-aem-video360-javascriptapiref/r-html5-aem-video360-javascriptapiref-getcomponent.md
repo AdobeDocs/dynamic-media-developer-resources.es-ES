@@ -1,13 +1,13 @@
 ---
+title: getComponent
 description: Referencia de la API de JavaScript para el visualizador de Video360.
 solution: Experience Manager
-title: getComponent
-feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: bc5f0046-8e20-4ff0-a90f-05c38f686ad2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '209'
 ht-degree: 1%
 
 ---
@@ -95,13 +95,13 @@ Devuelve una referencia al componente SDK de visor que utiliza el visor. La pág
  </tbody> 
 </table>
 
-Al trabajar con API de SDK, es importante utilizar un espacio de nombres de SDK completo y correcto, tal como se describe en [Viewer SDK namespace](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-viewer-sdk-namespace.md#concept-4ee8657c7d67421f8e7880130a246621).
+Cuando se trabaja con API de SDK, es importante utilizar un espacio de nombres de SDK completo correcto, tal como se describe en [Viewer SDK namespace](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-viewer-sdk-namespace.md#concept-4ee8657c7d67421f8e7880130a246621).
 
-Consulte la documentación *HTML5 Viewer SDK API* para obtener más información sobre un componente en particular.
+Consulte la documentación de la *API del SDK de visor HTML5* para obtener más información sobre un componente en particular.
 
 ## Devuelve {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` una referencia al componente SDK del visor. El método devuelve `null` si `componentId` no es un componente de visor compatible o si la lógica del visor aún no ha creado el componente.
+El `{Object}` es una referencia al componente SDK del visor. El método devuelve `null` si `componentId` no es un componente de visor compatible o si la lógica del visor aún no ha creado el componente.
 
 ## Ejemplo {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

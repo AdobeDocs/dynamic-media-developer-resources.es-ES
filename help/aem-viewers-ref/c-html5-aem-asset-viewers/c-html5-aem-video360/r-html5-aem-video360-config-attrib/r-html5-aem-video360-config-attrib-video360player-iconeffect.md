@@ -1,13 +1,13 @@
 ---
+title: Video360Player.iconeffect
 description: Atributo de configuración para el visualizador de vídeo360.
 solution: Experience Manager
-title: Video360Player.iconeffect
-feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 818ea14b-4dab-4447-9645-46f2ba82547b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '127'
 ht-degree: 7%
 
 ---
@@ -22,7 +22,7 @@ Atributo de configuración para el visualizador de vídeo360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Habilita el IconEffect para que se muestre sobre el video cuando el video está en estado pausado. En algunos dispositivos se utilizan controles nativos. En estos casos, se ignora el modificador <span class="codeph"> iconeffect</span>. </p> </td> 
+   <td colname="col2"> <p> Habilita el IconEffect para que se muestre sobre el video cuando el video está en estado pausado. En algunos dispositivos se utilizan controles nativos. En estos casos, se ignora el modificador <span class="codeph">iconeffect</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> contar</span></span> </p> </td> 

@@ -1,13 +1,13 @@
 ---
+title: Arrastrar el cabezal de reproducción de vídeo
 description: La barra de desplazamiento del vídeo es el control deslizante horizontal que permite al usuario buscar dinámicamente cualquier posición horaria dentro del vídeo que se está reproduciendo.
 solution: Experience Manager
-title: Arrastrar el cabezal de reproducción de vídeo
-feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: a0b89b4b-5f66-41d5-88b9-a01fddec437e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '358'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ La barra de desplazamiento del vídeo es el control deslizante horizontal que pe
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-El control de desplazamiento también se mueve a medida que se reproduce el vídeo para indicar la posición de tiempo actual del vídeo durante la reproducción. La barra de desplazamiento de vídeo siempre toma toda la anchura de la barra de control. Es posible ocultar el cabezal de reproducción del vídeo. cambie su altura y posición vertical mediante CSS.
+El control de desplazamiento también se mueve a medida que se reproduce el vídeo para indicar la posición de tiempo actual del vídeo durante la reproducción. La barra de desplazamiento de vídeo siempre toma toda la anchura de la barra de control. Es posible ocultar el cabezal de reproducción del vídeo. Cambie su altura y posición vertical mediante CSS.
 
 El aspecto general del depurador de vídeo se controla con el siguiente selector de clase CSS:
 
@@ -158,7 +158,7 @@ El siguiente selector de clase CSS controla la burbuja de tiempo reproducido:
 
 La información de la herramienta de desplazamiento de vídeo se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obtener más información.
 
-**Ejemplo** : para configurar un visor de vídeo con una barra de desplazamiento de vídeo con colores de pista personalizados de 10 píxeles de altura y colocados 10 píxeles y 35 píxeles desde los bordes superior e izquierdo de la barra de control.
+**Ejemplo** : para configurar un visor de vídeo con una barra de desplazamiento de vídeo con colores de pista personalizados de diez píxeles de altura. Y, colóquelo diez píxeles y 35 píxeles desde los bordes superior e izquierdo de la barra de control.
 
 ```
 .s7video360viewer .s7videoscrubber  { 

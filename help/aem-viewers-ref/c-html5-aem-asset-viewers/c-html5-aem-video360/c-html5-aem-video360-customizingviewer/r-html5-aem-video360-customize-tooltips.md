@@ -1,13 +1,13 @@
 ---
+title: Información sobre herramientas
 description: En los sistemas de escritorio, algunos elementos de la interfaz de usuario, como los botones, tienen información sobre herramientas que se muestra al pasar el ratón por encima.
 solution: Experience Manager
-title: Información sobre herramientas
-feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 051bfbed-103e-4fcf-9f01-93f03730397a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '138'
 ht-degree: 6%
 
 ---
@@ -63,9 +63,9 @@ El aspecto de las informaciones de objeto se controla con el siguiente selector 
 
 >[!NOTE]
 >
->Si los estilos de información de objeto se personalizan desde la página web de incrustación, todas las propiedades deben contener la regla `!IMPORTANT`. Esto no es necesario si la información del objeto se personaliza dentro del archivo CSS del visor.
+>Si los estilos de información de objeto se personalizan desde la página web de incrustación, todas las propiedades deben contener la regla `!IMPORTANT`. Esta regla no es necesaria si la información de objeto se personaliza dentro del archivo CSS del visor.
 
-Ejemplo: para configurar información sobre herramientas que tengan un borde gris con un radio de esquina de tres píxeles, fondo negro y texto blanco en Arial, 11 píxeles:
+Ejemplo: para configurar información sobre herramientas que tengan un borde gris con un radio de esquina de tres píxeles, fondo negro y texto blanco en Arial®, 11 píxeles:
 
 ```
 .s7tooltip { 

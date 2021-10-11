@@ -1,13 +1,13 @@
 ---
+title: Llamadas de retorno de eventos
 description: Llamadas de retorno de eventos
 solution: Experience Manager
-title: Llamadas de retorno de eventos
-feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 24ea35c0-a0b1-4768-9336-94eb5e2d4fb2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '149'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Los eventos de visor admitidos son los siguientes:
 
    * `objID {String}` no se usa actualmente.
    * `compClass {String}` no se usa actualmente.
-   * `instName {String}` nombre de instancia del componente SDK del visor HTML5 que activó el evento.
+   * `instName {String}` nombre de instancia del componente SDK del visor de HTML5 que activó el evento.
    * `timeStamp {Number}` marca de hora del evento.
    * `eventInfo {String}` carga útil de evento.
 

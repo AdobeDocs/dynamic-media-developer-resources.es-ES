@@ -1,14 +1,14 @@
 ---
+title: Video360Player.mutevolume
 description: Atributo de configuración para el visualizador de vídeo360.
 solution: Experience Manager
-title: Video360Player.mutevolume
-feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 8f95c01f-e634-4d6c-a22f-c2285ee969c8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 14%
+source-wordcount: '55'
+ht-degree: 16%
 
 ---
 
@@ -22,7 +22,7 @@ Atributo de configuración para el visualizador de vídeo360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Establece el modo silenciado para la reproducción de vídeo durante la carga inicial. Si se establece en <span class="codeph"> 1 </span>, el volumen se silenciará; de lo contrario, el vídeo se reproduce con sonido. En algunos dispositivos, el silenciamiento de la reproducción de vídeo durante la carga también permite que el vídeo se reproduzca automáticamente. </p> </td> 
+   <td colname="col2"> <p> Establece el modo silenciado para la reproducción de vídeo durante la carga inicial. Si se establece en <span class="codeph"> 1 </span>, el volumen se silenciará; de lo contrario, el vídeo se reproduce con sonido. En determinados dispositivos, al silenciar la reproducción de vídeo durante la carga también se puede reproducir automáticamente el vídeo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

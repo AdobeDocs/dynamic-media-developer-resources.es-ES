@@ -1,28 +1,28 @@
 ---
-description: El visor de vídeo HTML5 Video360 es un reproductor de vídeo de 360 grados que reproduce vídeo de flujo continuo y progresivo de 360 codificado en formato H.264, entregado desde Dynamic Media Classic o desde AEM Dynamic Media.
-solution: Experience Manager
 title: Video360
-feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
+description: El visor de vídeo HTML5360 es un reproductor de vídeo de 360 grados que reproduce el flujo y el vídeo progresivo de 360 codificado en el formato H.264, entregado desde Dynamic Media Classic o desde Adobe Experience Manager, Dynamic Media.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 74dca3f6-ce89-4c5b-8459-c2c4ca8ed27c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '2590'
+source-wordcount: '2569'
 ht-degree: 0%
 
 ---
 
 # Video360{#video}
 
-El visor de vídeo HTML5 Video360 es un reproductor de vídeo de 360 grados que reproduce vídeo de flujo continuo y progresivo de 360 codificado en formato H.264, entregado desde Dynamic Media Classic o desde AEM Dynamic Media.
+El visor de vídeo HTML5360 es un reproductor de vídeo de 360 grados que reproduce el flujo y el vídeo progresivo de 360 codificado en el formato H.264, entregado desde Dynamic Media Classic o desde Adobe Experience Manager, Dynamic Media.
 
-Los vídeos de 360 grados, también conocidos como vídeos inmersivos o vídeos esféricos, son grabaciones de vídeo en las que se graba una vista en todas las direcciones al mismo tiempo, grabadas con una cámara omnidireccional o con una colección de cámaras. Se admiten conjuntos de vídeo único y adaptable. Además, el visor admite el trabajo con flujos de vídeo progresivos y HLS alojados en una ubicación externa.
+Los vídeos de 360 grados, también conocidos como vídeos inmersivos o vídeos esféricos, son grabaciones de vídeo en las que se graba una vista en todas las direcciones al mismo tiempo, grabadas con una cámara omnidireccional o con una colección de cámaras. Se admiten conjuntos de vídeo único y adaptable. El visor también admite el trabajo con flujos de vídeo progresivos y HLS alojados en una ubicación externa.
 
 La proporción de aspecto recomendada para el vídeo de 360 es de 2:1. No se admite el sonido espacial. El visor está diseñado para funcionar solo con vídeo 360; si se intenta reproducir un vídeo que no sea 360, se produce una reproducción de vídeo distorsionada.
 
-El visor está diseñado para funcionar tanto en exploradores web de escritorio como móviles compatibles con vídeo HTML5. El visor admite herramientas opcionales de uso compartido en redes sociales.
+El visor está diseñado para funcionar tanto en exploradores web de escritorio como móviles compatibles con vídeo de HTML5. El visor admite herramientas opcionales de uso compartido en redes sociales.
 
-El visor de vídeo360 utiliza la reproducción de vídeo de flujo HTML5 en formato HLS en su configuración predeterminada siempre que el sistema subyacente lo admita. En los sistemas que no admiten la transmisión por secuencias HTML5, el visor vuelve a la entrega de vídeo progresivo HTML5.
+El visor de vídeo360 utiliza la reproducción de vídeo de flujo HTML5 en formato HLS en su configuración predeterminada siempre que el sistema subyacente lo admita. En los sistemas que no admiten la transmisión por secuencias de HTML5, el visor vuelve a la entrega progresiva de vídeo de HTML5.
 
 El tipo de visor es 517.
 
@@ -36,9 +36,9 @@ Consulte [Requisitos del sistema](../../c-system-requirements-and-prerequisites.
 
 ## Uso del visor de Video360 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-El visor de HTML5 Video360 representa un archivo JavaScript principal y un conjunto de archivos de ayuda (un solo JavaScript incluye todos los componentes del SDK del visor HTML5 utilizados por este visor en particular, recursos y CSS) descargados por el visor en tiempo de ejecución.
+El visor de HTML5 Video360 representa un archivo JavaScript principal y un conjunto de archivos de ayuda (un solo JavaScript incluye todos los componentes del SDK de visor de HTML5 utilizados por este visor, recursos y CSS) descargados por el visor en tiempo de ejecución.
 
-El visor de HTML5 Video360 se puede utilizar tanto en modo emergente mediante la página HTML preparada para la producción proporcionada con los visualizadores IS como en modo incrustado, donde se integra en la página web de destino mediante API documentada.
+El visualizador de vídeo HTML5360 se puede utilizar tanto en modo emergente mediante la página HTML lista para la producción que se proporciona con los visualizadores IS como en modo incrustado, donde se integra en la página web de destino mediante API documentada.
 
 La configuración y el desollado son similares a los de los demás visores descritos en esta guía. Todo el desollado se logra mediante hojas de estilo en cascada personalizadas (CSS).
 
@@ -54,23 +54,27 @@ Sin embargo, tenga en cuenta que el servicio de vídeo codificado con esta confi
 
 ## Interaccionar con el visualizador de Video360 {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
-El visor HTML5 Video360 proporciona un conjunto de controles de interfaz de usuario estándar para la reproducción de vídeo, como el botón de reproducción/pausa, la barra de desplazamiento de vídeo, la burbuja de tiempo de vídeo, el indicador de tiempo de reproducción/tiempo total, el control de volumen y el botón de pantalla completa. Todos estos controles se agrupan en barras de control en la parte inferior de la interfaz de usuario del visor.
+El visor HTML5 Video360 proporciona un conjunto de controles de interfaz de usuario estándar para la reproducción de vídeo, como el botón de reproducción/pausa, la barra de desplazamiento del vídeo, la burbuja de tiempo de vídeo, el indicador de tiempo de reproducción/tiempo total, el control de volumen y el botón de pantalla completa. Todos estos controles se agrupan en barras de control en la parte inferior de la interfaz de usuario del visor.
 
-Tenga en cuenta que en dispositivos táctiles el control de volumen está oculto en la interfaz de usuario, ya que solo es posible controlar el volumen mediante los botones de hardware del dispositivo.
+En dispositivos táctiles, el control de volumen está oculto en la interfaz de usuario, ya que solo es posible controlar el volumen mediante los botones de hardware del dispositivo.
 
 Cuando el visor funciona en modo emergente, no hay un botón de pantalla completa disponible en la interfaz de usuario.
 
-El visor también es compatible con diversas herramientas de uso compartido en redes sociales. Están disponibles como un solo botón en la interfaz de usuario que se expande a una barra de herramientas de uso compartido cuando el usuario hace clic o pulsa en él. La barra de herramientas de uso compartido contiene un icono para cada tipo de canal de uso compartido compatible, como Facebook, Twitter, uso compartido de correo electrónico, uso compartido de código incrustado y uso compartido de vínculos. Cuando se activan las herramientas de uso compartido por correo electrónico, uso compartido incrustado o uso compartido de vínculos, el visor muestra un cuadro de diálogo modal con un formulario de entrada de datos correspondiente. Cuando se llama a Facebook o Twitter, el visor redirige al usuario a un cuadro de diálogo estándar de uso compartido desde un servicio de medios sociales. Además, cuando se activa una herramienta de uso compartido, la reproducción de vídeo se pone en pausa automáticamente. Las herramientas de uso compartido no están disponibles en el modo de pantalla completa debido a las restricciones de seguridad del explorador web.
+El visor también es compatible con varias herramientas de uso compartido de redes sociales. Están disponibles como un solo botón en la interfaz de usuario que se expande a una barra de herramientas de uso compartido cuando el usuario hace clic o pulsa en él. La barra de herramientas de uso compartido contiene un icono para cada tipo de canal de uso compartido compatible, como Facebook, Twitter, uso compartido de correo electrónico, uso compartido de código incrustado y uso compartido de vínculos. Cuando se activan las herramientas de uso compartido por correo electrónico, uso compartido incrustado o uso compartido de vínculos, el visor muestra un cuadro de diálogo modal con un formulario de entrada de datos correspondiente. Cuando se llama a Facebook o Twitter, el visor redirige al usuario a un cuadro de diálogo estándar de uso compartido desde un servicio de medios sociales. Además, cuando se activa una herramienta de uso compartido, la reproducción de vídeo se pone en pausa automáticamente. Las herramientas de uso compartido no están disponibles en el modo de pantalla completa debido a las restricciones de seguridad del explorador web.
 
-El visor admite 360 reproducciones de vídeo en auriculares VR (como Oculus Go y Oculus Rift), monturas VR HMD (pantalla montada en el cabezal) (como Google Cardboard) y dispositivos no habilitados para VR (como exploradores de sobremesa, tabletas y teléfonos móviles no conectados a montajes VR HMD).
+El visor admite la reproducción de vídeo 360 en los siguientes modos:
 
-No se necesita ninguna configuración adicional para ver el contenido de vídeo 360 en los auriculares VR. El visor detecta automáticamente la presencia de auriculares VR y muestra el botón &quot;VR&quot; sobre el contenido de vídeo. Al activar este botón &quot;VR&quot;, se cambia el procesamiento de vídeo al modo VR. El visor solo es compatible con el procesamiento de VR en los navegadores compatibles con WebVR.
+* auriculares VR (como Oculus Go y Oculus Rift)
+* Montajes VR HMD (pantalla montada en el cabezal) (como Google Cardboard)
+* Dispositivos no habilitados para VR (como exploradores de sobremesa, tabletas y teléfonos móviles no conectados a monturas VR HMD)
+
+No es necesaria ninguna configuración adicional para ver el contenido de vídeo 360 en los auriculares VR. El visor detecta automáticamente la presencia de auriculares VR y muestra el botón &quot;VR&quot; sobre el contenido de vídeo. Al activar este botón &quot;VR&quot;, se cambia el procesamiento de vídeo al modo VR. El visor solo es compatible con el procesamiento de VR en los navegadores compatibles con WebVR.
 
 Para utilizar montajes HMD de VR, el modificador `Video360Player.vrrender` debe configurarse en `1` en la configuración del visor, lo que fuerza el procesamiento estereoscópico.
 
 En los auriculares VR y los montes VR HMD, el cambio de punto de vista se produce en respuesta al movimiento de los auriculares, no se proporciona ningún otro control de reproducción en el modo VR.
 
-Al ver vídeos 360 en dispositivos que no están habilitados para VR, el usuario final puede utilizar el ratón, el tacto o el teclado para controlar la reproducción de vídeo y el punto de vista.
+Al ver vídeos 360 en dispositivos que no están habilitados para VR, el usuario final puede utilizar el ratón, el contacto o el teclado para controlar la reproducción de vídeo y el punto de vista.
 
 El visor admite la entrada táctil y la entrada de ratón en dispositivos Windows con pantalla táctil y ratón; sin embargo, esta compatibilidad se limita solo a los navegadores web Chrome, Internet Explorer 11 y Edge.
 
@@ -80,13 +84,13 @@ El visor es totalmente accesible mediante teclado. Consulte [Accesibilidad del t
 
 Las diferentes páginas web tienen diferentes necesidades de comportamiento del visor. A veces, una página web proporciona un vínculo que, cuando se hace clic, abre el visor en una ventana independiente del explorador. En otros casos, es necesario incrustar el visor directamente en la página de alojamiento. En este último caso, la página web puede tener un diseño de página estático o utilizar un diseño interactivo que se muestre de forma diferente en diferentes dispositivos o en diferentes tamaños de ventana del navegador. Para satisfacer estas necesidades, el visor admite tres modos de operación principales: ventana emergente, incrustación de tamaño fijo e incrustación de diseño interactivo.
 
-La incrustación de varios vídeos en la misma página se admite en tabletas y dispositivos móviles. En la mayoría de los casos, solo se puede reproducir un vídeo a la vez. Cuando un usuario comienza a reproducir un vídeo y luego intenta reproducir otro, el primer vídeo se pone en pausa automáticamente. El vídeo que se pausó automáticamente recuerda su tiempo de reproducción actual, de modo que el usuario siempre pueda volver a él y reanudar la reproducción. La única excepción en esta regla es el navegador Chrome en dispositivos Android 4.x, que pueden reproducir vídeos en paralelo.
+La incrustación de varios vídeos en la misma página se admite en tabletas y dispositivos móviles. Normalmente, solo se puede reproducir un vídeo a la vez. Cuando un usuario comienza a reproducir un vídeo y luego intenta reproducir otro, el primer vídeo se pone en pausa automáticamente. El vídeo que se pausó automáticamente recuerda su tiempo de reproducción actual, de modo que el usuario siempre pueda volver a él y reanudar la reproducción. La única excepción es el navegador Chrome en dispositivos Android™ 4.x, que pueden reproducir vídeos en paralelo.
 
 **Acerca del modo emergente**
 
 En el modo emergente, el visor se abre en una ventana o pestaña independiente del explorador web. Toma todo el área de la ventana del explorador y se ajusta en caso de que se cambie el tamaño del explorador o la orientación del dispositivo.
 
-Este modo es el más común para dispositivos móviles. La página web carga el visor utilizando `window.open()` llamada de JavaScript, el elemento HTML `A` configurado correctamente o cualquier otro método adecuado.
+Este modo es el más común para dispositivos móviles. La página web carga el visor utilizando la llamada de JavaScript `window.open()`, el elemento de HTML `A` configurado correctamente o cualquier otro método adecuado.
 
 Se recomienda utilizar una página HTML predeterminada para el modo de operación emergente. Se denomina [!DNL Video360Viewer.html] y se encuentra en la subcarpeta [!DNL html5/] de la implementación estándar de los visores IS:
 
@@ -94,7 +98,7 @@ Se recomienda utilizar una página HTML predeterminada para el modo de operació
 
 Puede lograr la personalización visual mediante la aplicación de CSS personalizada.
 
-A continuación se muestra un ejemplo de código HTML que abre el visor en una nueva ventana:
+A continuación se muestra un ejemplo de código de HTML que abre el visor en una nueva ventana:
 
 ```
 <a href="https://s7d9.scene7.com/s7viewers/html5/Video360Viewer.html?asset=Viewers/space_station_360-AVS" target="_blank">Open popup viewer</a>
@@ -106,11 +110,11 @@ En el modo integrado, el visor se añade a la página web existente, que puede t
 
 Los casos de uso principales son páginas web orientadas a equipos de escritorio o tabletas, y también páginas diseñadas con capacidad de respuesta que ajustan el diseño automáticamente en función del tipo de dispositivo.
 
-La incrustación de tamaño fijo se utiliza cuando el visor no cambia su tamaño después de la carga inicial. Esta es la mejor opción para páginas web con diseño estático.
+La incrustación de tamaño fijo se utiliza cuando el visor no cambia su tamaño después de la carga inicial. Este método es la mejor opción para páginas web con diseño estático.
 
-La incrustación de diseño interactivo supone que el visor puede tener que cambiar el tamaño durante la ejecución en respuesta al cambio de tamaño de su contenedor `DIV`. El caso de uso más común es agregar un visor a una página web que utilice un diseño de página flexible.
+La incrustación de diseño interactivo supone que el visor debe cambiar el tamaño en tiempo de ejecución en respuesta al cambio de tamaño de su contenedor `DIV`. El caso de uso más común es agregar un visor a una página web que utilice un diseño de página flexible.
 
-En el modo de incrustación de diseño interactivo, el visor se comporta de forma diferente en función del tamaño de la página web para su contenedor `DIV`. Si la página web establece únicamente la anchura del contenedor `DIV`, sin restringir su altura, el visor elige automáticamente su altura según la proporción de aspecto del recurso que se utilice. Esta funcionalidad garantiza que el recurso encaje perfectamente en la vista sin ningún relleno en los lados. Este caso de uso es el más común para las páginas web que usan marcos de diseño web interactivos como Bootstrap, Foundation, etc.
+En el modo de incrustación de diseño interactivo, el visor se comporta de forma diferente en función del tamaño de la página web para su contenedor `DIV`. Si la página web establece únicamente la anchura del contenedor `DIV`, sin restringir su altura, el visor elige automáticamente su altura según la proporción de aspecto del recurso que se utilice. Esta funcionalidad garantiza que el recurso encaje perfectamente en la vista sin ningún relleno en los lados. Este caso de uso es el más común para las páginas web que usan marcos de diseño web interactivos como Bootstrap y Fundación.
 
 De lo contrario, si la página web establece la anchura y la altura del contenedor del visor `DIV`, el visor rellena solo esa área y sigue el tamaño que proporciona el diseño de la página web. Un buen ejemplo es integrar el visor en una superposición modal, donde el tamaño de la superposición depende del tamaño de la ventana del explorador web.
 
@@ -125,7 +129,7 @@ Para añadir el visor a una página web, haga lo siguiente:
 
 1. Añadir el archivo JavaScript del visor a la página web.
 
-   Para crear un visor es necesario agregar una etiqueta de script en el encabezado HTML. Antes de utilizar la API del visor, asegúrese de incluir [!DNL Video360Viewer.js]. El archivo [!DNL Video360Viewer.js] se encuentra en la subcarpeta [!DNL html5/js/] de la implementación estándar de los visores IS:
+   Para crear un visor es necesario agregar una etiqueta de script en el encabezado del HTML. Antes de utilizar la API del visor, asegúrese de incluir [!DNL Video360Viewer.js]. El archivo [!DNL Video360Viewer.js] se encuentra en la subcarpeta [!DNL html5/js/] de la implementación estándar de los visores IS:
 
 [!DNL <s7viewers_root>/etc/dam/viewers/s7viewers/html5/js/Video360Viewer.js]
 
@@ -139,7 +143,7 @@ La ruta relativa tiene el siguiente aspecto:
 
 >[!NOTE]
 >
->Solo debe hacer referencia al archivo JavaScript `include` del visor principal de la página. No debe hacer referencia a ningún archivo JavaScript adicional del código de la página web que pueda descargar la lógica del visor durante la ejecución. En concreto, no haga referencia directamente a la biblioteca `Utils.js` del SDK de HTML5 cargada por el visor desde la ruta de contexto `/s7viewers` (denominada SDK consolidado `include`). El motivo es que la ubicación de las `Utils.js` o bibliotecas de visores de tiempo de ejecución similares se administra completamente mediante la lógica del visor y la ubicación cambia entre las versiones del visor. Adobe no mantiene versiones anteriores del visor secundario `includes` en el servidor.
+>Solo haga referencia al archivo JavaScript `include` del visor principal de la página. No haga referencia a ningún archivo JavaScript adicional del código de la página web que pueda descargar la lógica del visor durante la ejecución. En concreto, no haga referencia directamente a la biblioteca `Utils.js` del SDK de HTML5 cargada por el visor desde la ruta de contexto `/s7viewers` (denominada SDK consolidado `include`). El motivo es que la ubicación de las `Utils.js` o bibliotecas de visores de tiempo de ejecución similares se administra completamente mediante la lógica del visor y la ubicación cambia entre las versiones del visor. Adobe no mantiene versiones anteriores del visor secundario `includes` en el servidor.
 >
 >
 >Como resultado, poner una referencia directa a cualquier JavaScript `include` secundario que utilice el visor en la página rompe la funcionalidad del visor en el futuro cuando se implemente una nueva versión del producto.
@@ -162,7 +166,7 @@ La ruta relativa tiene el siguiente aspecto:
 
    Puede establecer el tamaño estático del visor declarándolo para la clase CSS de nivel superior `.s7video360viewer` en unidades absolutas o utilizando el modificador `stagesize`.
 
-   Puede colocar el tamaño en CSS directamente en la página HTML o en un archivo CSS de visor personalizado, que más tarde se asigna a un registro preestablecido de visor en AEM Assets bajo demanda o se pasa explícitamente mediante el comando `style`.
+   Puede colocar el tamaño en CSS directamente en la página HTML o en un archivo CSS de visor personalizado, que más tarde se asignará a un registro preestablecido de visor en Recursos Adobe Experience Manager - On-demand, o se pasará explícitamente mediante el comando `style`.
 
    Consulte [Personalización del visor de vídeo360](../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) para obtener más información sobre cómo diseñar el visor con CSS.
 
@@ -187,11 +191,11 @@ La ruta relativa tiene el siguiente aspecto:
 
    Cuando haya completado los pasos anteriores, cree una instancia de la clase `s7viewers.Video360Viewer`, pase toda la información de configuración a su constructor e invoque el método `init()` en una instancia de visor. La información de configuración se pasa al constructor como un objeto JSON. Como mínimo, este objeto debe tener un campo `containerId` que contenga el nombre del ID de contenedor del visor y un objeto `params` JSON anidado con parámetros de configuración admitidos por el visor.
 
-   En este caso, el objeto `params` debe tener al menos la dirección URL del servicio de imágenes pasada como propiedad `serverUrl` y el recurso inicial como parámetro `asset`. La API de inicialización basada en JSON le permite crear e iniciar el visor con una sola línea de código, una URL de servidor de vídeo pasada como propiedad `videoserverurl` , un recurso inicial como parámetro `asset` y datos interactivos como propiedad `interactivedata` . La API de inicialización basada en JSON le permite crear e iniciar el visor con una sola línea de código.
+   En este caso, el objeto `params` debe tener al menos la dirección URL del servicio de imágenes pasada como propiedad `serverUrl` y el recurso inicial como parámetro `asset`. La API de inicialización basada en JSON le permite crear e iniciar el visor con una sola línea de código, una URL de servidor de vídeo pasada como propiedad `videoserverurl`, un recurso inicial como parámetro `asset` y datos interactivos como propiedad `interactivedata`. La API de inicialización basada en JSON le permite crear e iniciar el visor con una sola línea de código.
 
    Es importante tener el contenedor de visor agregado al DOM para que el código del visor pueda encontrar el elemento contenedor por su ID. Algunos exploradores retrasan la creación del DOM hasta el final de la página web. Para obtener la máxima compatibilidad, llame al método `init()` justo antes de la etiqueta `BODY` de cierre o en el evento `onload()` del cuerpo.
 
-   Al mismo tiempo, el elemento contenedor no debe formar parte necesariamente del diseño de página web todavía. Por ejemplo, puede ocultarse utilizando el estilo `display:none` asignado. En este caso, el visor retrasa su proceso de inicialización hasta el momento en que la página web vuelve a poner el elemento contenedor en el diseño. Cuando esto sucede, la carga del visor se reanuda automáticamente.
+   Al mismo tiempo, el elemento contenedor no debe formar parte necesariamente del diseño de la página web. Por ejemplo, puede ocultarse utilizando el estilo `display:none` asignado. En este caso, el visor retrasa su proceso de inicialización hasta el momento en que la página web vuelve a poner el elemento contenedor en el diseño. Cuando esto sucede, la carga del visor se reanuda automáticamente.
 
    El siguiente es un ejemplo de creación de una instancia de visor, pasando las opciones de configuración mínimas necesarias al constructor y llamando al método `init()`. El ejemplo asume lo siguiente:
 
@@ -246,7 +250,7 @@ La ruta relativa tiene el siguiente aspecto:
 
 **Diseño interactivo con altura ilimitada**
 
-Con la incrustación de diseño interactivo, la página web normalmente tiene algún tipo de diseño flexible en su lugar que dicta el tamaño de tiempo de ejecución del contenedor del visor `DIV`. En el siguiente ejemplo, supongamos que la página web permite que el contenedor `DIV` del visor tome el 40 % del tamaño de la ventana del explorador web, sin restringir su altura. El código HTML de la página web tendría el siguiente aspecto:
+Con la incrustación de diseño interactivo, la página web normalmente tiene algún tipo de diseño flexible en su lugar que dicta el tamaño de tiempo de ejecución del contenedor del visor `DIV`. En el siguiente ejemplo, supongamos que la página web permite que el contenedor `DIV` del visor tome el 40 % del tamaño de la ventana del explorador web, sin restringir su altura. El código del HTML de la página web tendría el siguiente aspecto:
 
 ```
 <!DOCTYPE html> 
@@ -303,7 +307,7 @@ var video360Viewer = new s7viewers.Video360Viewer({
 
 **Incrustación interactiva con anchura y altura definidas**
 
-En caso de incrustación interactiva con anchura y altura definidas, el estilo de la página web es diferente. Proporciona ambos tamaños al DIV `"holder"` y lo centra en la ventana del explorador. Además, la página web establece el tamaño del elemento `HTML` y `BODY` en 100 por ciento.
+Si hay una incrustación interactiva con anchura y altura definidas, el estilo de la página web es diferente. Proporciona ambos tamaños al DIV `"holder"` y lo centra en la ventana del explorador. Además, la página web establece el tamaño del elemento `HTML` y `BODY` en 100 por ciento.
 
 ```
 <!DOCTYPE html> 

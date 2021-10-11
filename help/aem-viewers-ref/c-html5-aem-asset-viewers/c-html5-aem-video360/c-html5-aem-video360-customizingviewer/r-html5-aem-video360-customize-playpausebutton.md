@@ -1,13 +1,13 @@
 ---
+title: Botón Reproducir/Pausar
 description: El botón de reproducción/pausa hace que el reproductor de vídeo reproduzca o ponga en pausa el contenido del vídeo cuando un usuario hace clic en él.
 solution: Experience Manager
-title: Botón Reproducir/Pausar
-feature: Dynamic Media Classic, visores, SDK/API, vídeo VR 360
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 5f8741a4-d286-4b2d-8a11-23bce119209a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '264'
 ht-degree: 2%
 
 ---
@@ -69,11 +69,11 @@ El siguiente selector de clase CSS controla el aspecto del botón:
 >
 >Este botón admite los selectores de atributos `state`, `selected` y `replay`, que pueden utilizarse para aplicar diferentes aspectos a distintos estados de botones. En concreto, `selected='true'` corresponde al estado &quot;play&quot; y `selected='false'` corresponde al estado &quot;pause&quot;;
 >
->`replay='true'` se establece cuando el vídeo ha llegado al final y al hacer clic en el botón se reinicia la reproducción desde el principio.
+>El selector de atributos `replay='true'` se establece cuando el vídeo ha llegado al final y seleccionar el botón reinicia la reproducción desde el principio.
 
 La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obtener más información.
 
-**Ejemplo** : Configurar un botón de reproducción/pausa de 32 x 32 píxeles; se coloca a seis píxeles del borde superior e izquierdo de la barra de control y muestra una imagen diferente para cada uno de los cuatro estados de botón diferentes cuando se selecciona o no se selecciona.
+**Ejemplo** : para configurar un botón de reproducción/pausa de 32 x 32 píxeles. Póngalo en posición de seis píxeles desde el borde superior e izquierdo de la barra de control. Finalmente, muestra una imagen diferente para cada uno de los cuatro estados de botón diferentes cuando se selecciona o no.
 
 ```
 .s7video360viewer .s7playpausebutton { 
