@@ -1,11 +1,11 @@
 ---
+title: ControlBar.transition
 description: Atributo de configuración para el visor de vídeo de recorte inteligente.
 solution: Experience Manager
-title: ControlBar.transition
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 133717c7-38d9-47b6-86bb-e23ebd8f147a
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 3%
@@ -26,7 +26,7 @@ Atributo de configuración para el visor de vídeo de recorte inteligente.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delaytohide</span> </span> </p> </td> 
-   <td colname="col2"> <p>Especifica el tiempo en segundos entre el último evento de mouse/contacto que registra la barra de control y la barra de control de tiempo que oculta. </p> <p> Si está configurado como <span class="codeph"> -1</span> el componente nunca déclencheur su efecto de ocultación automática y siempre permanece visible en la pantalla. </p> </td> 
+   <td colname="col2"> <p>Especifica el tiempo en segundos entre el último evento de mouse/contacto que registra la barra de control y la barra de control de tiempo que oculta. </p> <p> Si está configurado como <span class="codeph"> -1</span>, el componente nunca déclencheur su efecto de ocultación automática y siempre permanece visible en la pantalla. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duration</span> </span> </p> </td> 

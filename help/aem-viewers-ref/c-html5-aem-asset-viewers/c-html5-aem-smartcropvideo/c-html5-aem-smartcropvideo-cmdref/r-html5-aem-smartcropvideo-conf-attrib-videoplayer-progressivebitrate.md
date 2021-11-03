@@ -1,11 +1,11 @@
 ---
+title: SmartCropVideoPlayer.progressivebitrate
 description: Atributo de configuración para el visor de vídeo de recorte inteligente.
 solution: Experience Manager
-title: SmartCropVideoPlayer.progressivebitrate
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 7f9f1bfe-c68f-4ad4-a4a3-e0a8952e07af
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 6%
@@ -22,7 +22,7 @@ Atributo de configuración para el visor de vídeo de recorte inteligente.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> basado en IP</span> </p> </td> 
-   <td colname="col2"> <p> Especifica (en kbits por segundos o kbps) la velocidad de bits de vídeo deseada para reproducirse desde un conjunto de vídeo adaptable en caso de que el sistema actual no admita la reproducción de vídeo adaptable. </p> <p>El componente recoge el flujo de vídeo con la velocidad de bits más cercana posible (pero sin exceder) al valor especificado. Si todos los flujos de vídeo del conjunto de vídeos adaptables tienen una calidad superior a la especificada, la lógica elige la velocidad de bits con la calidad más baja. </p> </td> 
+   <td colname="col2"> <p> Especifica la velocidad de bits de vídeo deseada (en kilobits por segundo o Kbps) para reproducirse desde un conjunto de vídeos adaptables en caso de que el sistema actual no admita la reproducción de vídeo adaptable. </p> <p>El componente recoge el flujo de vídeo con la velocidad de bits más cercana posible (pero sin exceder) al valor especificado. Si todos los flujos de vídeo del conjunto de vídeos adaptables tienen una calidad superior a la especificada, la lógica elige la velocidad de bits con la calidad más baja. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,11 +1,11 @@
 ---
+title: setParams
 description: Referencia de la API de JavaScript para el visor de vídeos de recorte inteligente.
 solution: Experience Manager
-title: setParams
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 76bad894-bfb8-4d79-b3ff-c2497c68e5e8
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 1%
@@ -18,7 +18,7 @@ Referencia de la API de JavaScript para el visor de vídeos de recorte inteligen
 
 ` setParams( *`params`*)`
 
-Establece uno o más parámetros en un valor determinado. La sintaxis del argumento de método es idéntica a una cadena de consulta de URL. Es decir, representa pares de nombre=valor separados por `&`. Igual que en una cadena de consulta, los nombres y valores se codifican por porcentajes usando UTF8. Antes de llamar a `init()`, se debe llamar a este parámetro.
+Establece uno o más parámetros en un valor determinado. La sintaxis del argumento de método es idéntica a una cadena de consulta de URL. Es decir, representa pares de nombre=valor separados por `&`. Los mismos que en una cadena de consulta, los nombres y los valores se codifican por porcentajes utilizando UTF8. Antes de llamar a `init()`, se debe llamar a este parámetro.
 
 Este método es opcional si se pasa la información de configuración del visor con `config` objeto JSON al constructor.
 

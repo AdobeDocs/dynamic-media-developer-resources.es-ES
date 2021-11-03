@@ -1,13 +1,13 @@
 ---
+title: init
 description: Referencia de la API de JavaScript para el visor de vídeos de recorte inteligente.
 solution: Experience Manager
-title: init
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: d46a9c8b-064a-4928-b30e-885b12d287ab
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '130'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ Referencia de la API de JavaScript para el visor de vídeos de recorte inteligen
 
 Inicia la inicialización del visor de vídeo de recorte inteligente. Para este momento, se debe crear el elemento DOM contenedor para que el código del visor pueda encontrarlo con su ID.
 
-Si el elemento contenedor no forma parte del diseño de la página web por ejemplo, puede que esté oculto utilizando `display:none` el visor suspende su proceso de inicialización hasta el momento en que la página web vuelve a mostrar el elemento contenedor en el diseño. Cuando esto sucede, la carga del visor se reanuda automáticamente.
+Si el elemento contenedor aún no forma parte del diseño de la página web, por ejemplo, puede ocultarse utilizando `display:none` estilo asignado a él : el visor suspende su proceso de inicialización. Lo hace hasta el momento en que la página web vuelve a mostrar el elemento contenedor al diseño. Cuando se produce esta acción, la carga del visor se reanuda automáticamente.
 
 Llame a este método solo una vez durante el ciclo de vida del visor; las llamadas subsiguientes se ignoran.
 

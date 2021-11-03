@@ -1,13 +1,13 @@
 ---
+title: SmartCropVideoPlayer.playback
 description: Atributo de configuración para el visor de vídeo de recorte inteligente.
 solution: Experience Manager
-title: SmartCropVideoPlayer.playback
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 54a10b30-ebf5-4f1e-aa4a-b09055453c4e
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '135'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ Atributo de configuración para el visor de vídeo de recorte inteligente.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|progresivo</span> </p> </td> 
-   <td colname="col2"> <p> Define el tipo de reproducción que utiliza el visor. When <span class="codeph"> auto</span> está configurado, en la mayoría de los navegadores de escritorio y en todos los dispositivos iOS, el visor utiliza la transmisión de vídeo HTML5 en formato HLS. Vuelve a la reproducción progresiva de HTML5 en determinados sistemas, como Internet Explorer y Android antiguos. </p> <p>If <span class="codeph"> progresivo</span> , el visor solo se basa en la reproducción de HTML5 como admitida de forma nativa por los navegadores y reproduce el vídeo progresivamente en todos los sistemas. </p> <p>Para obtener más información sobre la selección de reproducción en los modos automático y progresivo, consulte la Guía del usuario del SDK de visor. </p> </td> 
+   <td colname="col2"> <p> Define el tipo de reproducción que utiliza el visor. When <span class="codeph"> auto</span> está configurado, en la mayoría de los navegadores de escritorio y en todos los dispositivos iOS, el visor utiliza la transmisión de vídeo HTML5 en formato HLS. Vuelve a la reproducción progresiva de HTML5 en determinados sistemas, como Internet Explorer y Android™ más antiguos. </p> <p>If <span class="codeph"> progresivo</span> , el visor solo se basa en la reproducción de HTML5 como admitida de forma nativa por los navegadores y reproduce el vídeo progresivamente en todos los sistemas. </p> <p>Para obtener más información sobre la selección de reproducción en los modos automático y progresivo, consulte la Guía del usuario del SDK de visor. </p> </td> 
   </tr> 
  </tbody> 
 </table>

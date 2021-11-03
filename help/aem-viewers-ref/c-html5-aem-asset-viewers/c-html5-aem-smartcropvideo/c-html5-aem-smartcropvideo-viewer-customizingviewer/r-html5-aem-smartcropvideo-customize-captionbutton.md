@@ -1,13 +1,13 @@
 ---
+title: Botón Rótulo
 description: Este botón permite activar y desactivar la visualización de subtítulos. No está visible si no se especifica el parámetro del rótulo.
 solution: Experience Manager
-title: Botón Rótulo
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 47d4a33b-e2bc-4a32-be45-5320d3de1955
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '254'
 ht-degree: 2%
 
 ---
@@ -73,7 +73,7 @@ La información del botón se puede localizar. Consulte [Localización de los el
 
 ## Ejemplo {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Para configurar un botón de subtítulo cerrado de 28 x 28 píxeles, sitúe cuatro píxeles desde la parte superior y 68 píxeles desde el borde derecho de la barra de control y muestre una imagen diferente para cada uno de los cuatro estados de botón diferentes cuando esté seleccionado o no seleccionado.
+Para configurar un botón de subtítulo cerrado de 28 x 28 píxeles. Se coloca a cuatro píxeles de la parte superior y a 68 píxeles del borde derecho de la barra de control. Finalmente, muestra una imagen diferente para cada uno de los cuatro estados de botón diferentes cuando se selecciona o no.
 
 ```
 .s7smartcropvideoviewer .s7closedcaptionbutton { 

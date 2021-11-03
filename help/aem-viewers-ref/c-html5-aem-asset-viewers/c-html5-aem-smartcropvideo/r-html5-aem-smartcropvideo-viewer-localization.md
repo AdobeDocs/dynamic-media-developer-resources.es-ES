@@ -1,13 +1,13 @@
 ---
+title: Localización de los elementos de la interfaz de usuario
 description: El contenido que muestra el visor de recorte inteligente de vídeo está sujeto a localización. Este contenido incluye información sobre herramientas de elementos de la interfaz de usuario y un mensaje de error que se muestra cuando no se puede reproducir el vídeo.
 solution: Experience Manager
-title: Localización de los elementos de la interfaz de usuario
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 4748d04e-7f9d-413f-9e9a-a0fad129c5fc
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Se admiten los siguientes SÍMBOLOS:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Container.LABEL </span> </p> </td> 
-   <td colname="col2"> <p> Etiqueta ARIA para el elemento visualizador de nivel superior. </p> </td> 
+   <td colname="col2"> <p> Etiqueta ARIA para el elemento de visualizador de nivel superior. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_SELECTED </span> </p> </td> 

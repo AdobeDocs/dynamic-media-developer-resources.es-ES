@@ -1,14 +1,14 @@
 ---
+title: Recorte inteligente de vídeo
 description: El visor de recortes inteligentes es un reproductor de vídeo que reproduce flujo continuo y vídeo progresivo codificado en formato H.264, además de la compatibilidad con recortes inteligentes. Se entrega desde Dynamic Media Classic o Adobe Experience Manager con Dynamic Media.
 keywords: adaptable
 solution: Experience Manager
-title: Recorte inteligente de vídeo
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: fa9727dc-f9e2-4d91-b500-445693dfb6aa
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2410'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,16 @@ Consulte [Referencia de comando común a todos los visores: Atributos de configu
 
 ## Interactuar con el visor de vídeo de recorte inteligente {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
-El visor de vídeo de recorte inteligente proporciona un conjunto de controles de interfaz de usuario estándar para la reproducción de vídeo, como un botón de reproducción/pausa, una burbuja de tiempo de vídeo de depurador, un indicador de tiempo de reproducción/tiempo total, un control de volumen, un botón de pantalla completa y un botón de subtítulos. Todos estos controles se agrupan en una barra de control en la parte inferior de la interfaz de usuario del visor.
+El visor de recorte inteligente de vídeo proporciona un conjunto de controles de interfaz de usuario estándar para la reproducción de vídeo, como:
+
+* Botón Reproducir/Pausar.
+* Depurador de vídeo burbuja de tiempo de vídeo.
+* Indicador de tiempo de reproducción/tiempo total.
+* Control de volumen.
+* Botón de pantalla completa.
+* Alternar subtítulos.
+
+Todos estos controles se agrupan en una barra de control en la parte inferior de la interfaz de usuario del visor.
 
 En dispositivos táctiles, el control de volumen está oculto en la interfaz de usuario, ya que solo es posible controlar el volumen mediante los botones de hardware.
 

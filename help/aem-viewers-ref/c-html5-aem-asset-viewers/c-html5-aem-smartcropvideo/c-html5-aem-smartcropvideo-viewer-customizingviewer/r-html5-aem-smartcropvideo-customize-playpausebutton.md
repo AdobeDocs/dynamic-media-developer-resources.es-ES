@@ -1,13 +1,13 @@
 ---
+title: Botón Reproducir/Pausar
 description: El botón reproducir/pausar hace que el reproductor de vídeo de recorte inteligente reproduzca o ponga en pausa el contenido del vídeo cuando un usuario hace clic en él.
 solution: Experience Manager
-title: Botón Reproducir/Pausar
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 174ddf15-e6be-4a65-8c82-5c9edf061a6c
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '267'
 ht-degree: 2%
 
 ---
@@ -69,13 +69,13 @@ El siguiente selector de clase CSS controla el aspecto del botón:
 >
 >Este botón admite las dos variables `state`, `selected`y `replay` selectores de atributos, que pueden utilizarse para aplicar diferentes aspectos a distintos estados de botones. En particular, `selected='true'` corresponde al estado &quot;play&quot; y `selected='false'` corresponde al estado &quot;pause&quot;;
 >
->`replay='true'` se establece cuando el vídeo ha llegado al final y al hacer clic en el botón se reinicia la reproducción desde el principio.
+>Selector de atributos `replay='true'` se establece cuando el vídeo ha llegado al final y al seleccionar el botón se reinicia la reproducción desde el principio.
 
 La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
 
 ## Ejemplo {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Para configurar un botón de reproducción/pausa de 32 x 32 píxeles; se coloca a seis píxeles del borde superior e izquierdo de la barra de control y muestra una imagen diferente para cada uno de los cuatro estados de botón diferentes cuando se selecciona o no se selecciona.
+Para configurar un botón de reproducción/pausa de 32 x 32 píxeles. Póngalo en posición de seis píxeles desde el borde superior e izquierdo de la barra de control. Finalmente, muestre una imagen diferente para cada uno de los cuatro estados de botón diferentes cuando esté seleccionado o no.
 
 ```
 .s7smartcropvideoviewer .s7playpausebutton { 

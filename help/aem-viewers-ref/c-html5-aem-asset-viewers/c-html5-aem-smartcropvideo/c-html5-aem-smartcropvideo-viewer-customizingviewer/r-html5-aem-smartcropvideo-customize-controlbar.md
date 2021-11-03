@@ -1,20 +1,20 @@
 ---
-description: La barra de control es el área rectangular que contiene y se encuentra detrás de todos los controles de interfaz de usuario disponibles para el visor de vídeo de recorte inteligente, como el botón de reproducción/pausa, los controles de volumen, etc.
-solution: Experience Manager
 title: Barra de control
+description: La barra de control es el área rectangular que contiene y se encuentra detrás de todos los controles de interfaz de usuario disponibles para el visor de vídeo de recorte inteligente, como el botón de reproducción/pausa y los controles de volumen.
+solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 2239307a-4a05-4392-b35c-a64ea6c938ad
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '176'
+ht-degree: 2%
 
 ---
 
 # Barra de control{#control-bar}
 
-La barra de control es el área rectangular que contiene y se encuentra detrás de todos los controles de interfaz de usuario disponibles para el visor de vídeo de recorte inteligente, como el botón de reproducción/pausa, los controles de volumen, etc.
+La barra de control es el área rectangular que contiene y se encuentra detrás de todos los controles de interfaz de usuario disponibles para el visor de vídeo de recorte inteligente, como el botón de reproducción/pausa y los controles de volumen.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

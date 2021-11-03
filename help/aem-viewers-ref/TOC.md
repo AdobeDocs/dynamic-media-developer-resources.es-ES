@@ -3,9 +3,9 @@ cloud: Experience Cloud
 user-guide-title: Guía de referencia de visores de Dynamic Media
 feature-set: Experience Manager Assets
 user-guide-description: Personalice los visores de Dynamic Media para utilizarlos en dispositivos de escritorio y de pantalla táctil. Incluya imágenes y vídeos interactivos, carruseles, conjuntos de giros y mucho más.
-source-git-commit: b061c9f742b32ba48e6970a029e228afd7e36554
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '1928'
+source-wordcount: '2074'
 ht-degree: 6%
 
 ---
@@ -860,6 +860,76 @@ ht-degree: 6%
       + [Localización de los elementos de la interfaz de usuario](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md)
       + [Compatibilidad con pantalla completa](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-full-screen-support.md)
       + [Espacio de nombres del SDK del visor](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-html5-viewer-sdk-namespace.md)
+   + Recorte inteligente de vídeo {#smartcropvideo}
+      + [Recorte inteligente de vídeo](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-reference.md)
+      + Referencia de comandos: Atributos de configuración {#command-reference-configuration-attributes-smartcropvideo}
+         + [Referencia de comandos: Atributos de configuración](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/c-html5-aem-smartcropvideo-cmdref.md)
+         + [ControlBar.transition](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-controlbar-transition.md)
+         + [EmailShare.emailurl](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-emailshare-emailurl.md)
+         + [EmbedShare.embedsizes](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-embedshare-embedsizes.md)
+         + [SocialShare.bearing](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-socialshare-bearing.md)
+         + [SmartCropVideoPlayer.autoplay](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-videoplayer-autoplay.md)
+         + [SmartCropVideoPlayer.iconeffect](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-videoplayer-iconeffect.md)
+         + [SmartCropVideoPlayer.initialbitrate](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-videoplayer-initialbitrate.md)
+         + [SmartCropVideoPlayer.loop](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-videoplayer-loop.md)
+         + [SmartCropVideoPlayer.mutevolume](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-videoplayer-mutevolume.md)
+         + [SmartCropVideoPlayer.playback](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-videoplayer-playback.md)
+         + [SmartCropVideoPlayer.posterimage](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-videoplayer-posterimage.md)
+         + [SmartCropVideoPlayer.preload](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-videoplayer-preload.md)
+         + [SmartCropVideoPlayer.progressivebitrate](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-videoplayer-progressivebitrate.md)
+         + [SmartCropVideoPlayer.singleclick](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-videoplayer-singleclick.md)
+         + [SmartCropVideoPlayer.ssl](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-videoplayer-ssl.md)
+         + [SmartCropVideoPlayer.waiticon](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-videoplayer-waiticon.md)
+         + [VideoScrubber.chaptertimepattern](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-videoscrubber-chaptertimepattern.md)
+         + [VideoScrubber.showchaptertime](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-videoscrubber-showchaptertime.md)
+         + [VideoScrubber.showchaptertitle](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-videoscrubber-showchaptertitle.md)
+         + [VideoScrubber.timepattern](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-videoscrubber-timepattern.md)
+         + [VideoTime.timepattern](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-videotime-timepattern.md)
+      + Referencia de comandos: URL {#command-reference-url-smartcropvideo}
+         + [Referencia de comandos: URL](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref-url/c-html5-aem-smartcropvideo-cmdref-url.md)
+         + [caption](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref-url/r-html5-aem-smartcropvideo-url-caption.md)
+         + [video](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref-url/r-html5-aem-smartcropvideo-url-video.md)
+         + [videoServerUrl](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref-url/r-html5-aem-smartcropvideo-url-videoserverurl.md)
+      + Referencia de la API de JavaScript para el visor de vídeos de recorte inteligente {#jsapi-smartcropvideo}
+         + [Referencia de la API de JavaScript para el visor de vídeos de recorte inteligente](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/c-html5-aem-smartcropvideo-viewer-javascriptapiref.md))
+         + [dispose](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-dispose.md)
+         + [getComponent](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-getcomponent.md)
+         + [init](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-init.md)
+         + [setAsset](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-setasset.md)
+         + [setContainerId](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-setcontainerid.md)
+         + [setHandlers](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-sethandlers.md)
+         + [setLocalizedTexts](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-setlocalizedtexts.md)
+         + [setParam](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-setparam.md)
+         + [setParams](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-setparams.md)
+         + [setVideo](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-setvideo.md)
+         + [SmartCropVideoViewer](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-smartcropvideoviewer.md)
+      + [Llamadas de retorno de eventos](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-event-callbacks.md)
+      + Personalización del visor de vídeos de recorte inteligente {#customizing-smartcropvideo}
+         + [Personalización del visor de vídeos de recorte inteligente](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md)
+         + [Botón Rótulo](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-captionbutton.md)
+         + [Barra de control](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-controlbar.md)
+         + [Uso compartido de correo electrónico](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-emailshare.md)
+         + [Incrustar recurso compartido](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-embedshare.md)
+         + [Uso compartido de facebook](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-facebookshare.md)
+         + [Enfoque resaltado](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-focushighlight.md)
+         + [Botón Pantalla completa](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-fullscreenbutton.md)
+         + [Icono, efecto](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-iconeffect.md)
+         + [Compartir vínculos](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-linkshare.md)
+         + [Área del visor principal](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-mainviewerarea.md)
+         + [Volumen silenciable](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-mutablevolume.md)
+         + [Botón Reproducir/Pausar](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-playpausebutton.md)
+         + [Uso compartido en medios sociales](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-socialshare.md)
+         + [Información sobre herramientas](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-tooltips.md)
+         + [Uso compartido de twitter](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-twittershare.md)
+         + [Arrastrar el cabezal de reproducción de vídeo](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-videoscrubber.md)
+         + [Tiempo de vídeo](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-videotime.md)
+      + [Compatibilidad con el seguimiento de Adobe Analytics](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-sitecatalystracking.md)
+      + [Entrega de vídeo HTTPS](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-securevideodelivery.md)
+      + [Soporte técnico de asistencia](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-assistive.md)
+      + [Localización de los elementos de la interfaz de usuario](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md)
+      + [Compatibilidad con pantalla completa](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-full-screen-support.md)
+      + [Compatibilidad con vídeo externo](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-external-video-support.md)
+      + [Espacio de nombres del SDK del visor](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-namespace.md)
    + Video360 {#video360}
       + [Video360](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360.md)
       + Referencia de comandos: Atributos de configuración {#command-reference-configuration-attributes-video360}

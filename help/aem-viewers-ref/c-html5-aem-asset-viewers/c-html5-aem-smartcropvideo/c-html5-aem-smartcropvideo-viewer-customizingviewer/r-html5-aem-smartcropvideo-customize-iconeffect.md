@@ -1,11 +1,11 @@
 ---
+title: Icono, efecto
 description: El icono de reproducción se superpone en el área de vista principal. Se muestra cuando el vídeo está en pausa o cuando se llega al final del vídeo, y también depende del parámetro iconeffect.
 solution: Experience Manager
-title: Icono, efecto
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: f4bf343a-4a78-470b-abe5-94e2d608f45d
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 1%

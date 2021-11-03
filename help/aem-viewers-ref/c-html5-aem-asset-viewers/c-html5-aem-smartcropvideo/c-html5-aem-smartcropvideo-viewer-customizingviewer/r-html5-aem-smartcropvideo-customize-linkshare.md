@@ -1,13 +1,13 @@
 ---
+title: Compartir vínculos
 description: La herramienta Compartir vínculos consiste en un botón agregado al panel Compartir en Social y el cuadro de diálogo modal que se muestra cuando se activa la herramienta. La posición del botón la gestiona completamente la herramienta de uso compartido de Social.
 solution: Experience Manager
-title: Compartir vínculos
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: a80b47fd-0399-4d0a-8c11-cfa4acc5a713
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1374'
 ht-degree: 2%
 
 ---
@@ -76,7 +76,7 @@ background-image:url(images/v2/LinkShare_dark_disabled.png);
 }
 ```
 
-La superposición de fondo que cubre la página web cuando el cuadro de diálogo está activo se controla con el siguiente selector de clase CSS:
+La superposición de fondo que cubre la página web cuando el cuadro de diálogo está activo, se controla con el siguiente selector de clase CSS:
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7backoverlay
@@ -284,7 +284,7 @@ El botón Cerrar se controla con el siguiente selector de clase CSS:
 
 La información del objeto del botón Cerrar y el título del cuadro de diálogo se pueden localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
 
-Ejemplo: para configurar un encabezado de cuadro de diálogo con relleno, un icono de 22 x 12 píxeles, un título en negrita de 16 puntos y un botón Cerrar de 28 x 28 píxeles que se sitúe a dos píxeles de la parte superior y a dos píxeles de la derecha del contenedor de cuadro de diálogo:
+Ejemplo: para configurar un encabezado de cuadro de diálogo con relleno, un icono de 22 x 12 píxeles y un título en negrita de 16 puntos. Finalmente, un botón Cerrar de 28 x 28 píxeles situado a dos píxeles de la parte superior y a dos píxeles de la derecha del contenedor de cuadro de diálogo:
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7dialogheader { 
@@ -426,7 +426,7 @@ El botón Cancelar se controla con el siguiente selector de clase CSS:
 >
 >Este botón admite la variable `state` selector de atributos, que se puede utilizar para aplicar diferentes aspectos a distintos estados de botones.
 
-Además, ambos botones comparten la misma clase CSS común que puede contener ajustes CSS que son los mismos para otros botones del cuadro de diálogo:
+Además, ambos botones comparten una clase CSS común que puede contener ajustes CSS que son los mismos para otros botones del cuadro de diálogo:
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7dialogfooter .s7button
@@ -634,7 +634,7 @@ El tamaño de la copia de texto mostrada sobre el vínculo se controla con el si
 .s7smartcropvideoviewer .s7linkdialog .s7dialoginputwide
 ```
 
-**Propiedades CSS del campo ancho de entrada del cuadro de diálogo**
+**Propiedades CSS del campo de entrada del cuadro de diálogo**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 

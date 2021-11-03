@@ -1,11 +1,11 @@
 ---
+title: Llamadas de retorno de eventos
 description: Llamadas de retorno de eventos
 solution: Experience Manager
-title: Llamadas de retorno de eventos
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 2493208b-9030-49fa-b1fd-2f2bd524bce6
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -27,7 +27,6 @@ Los eventos de visor admitidos son los siguientes:
    * `objID {String}` no se usa actualmente.
    * `compClass {String}` no se usa actualmente.
    * `instName {String}` nombre de instancia del componente SDK del visor que activó el evento.
-   * `timeStamp {Number}` marca de hora del evento.
    * `eventInfo {String}` carga útil de evento.
 
 Consulte también [SmartCropVideoViewer]

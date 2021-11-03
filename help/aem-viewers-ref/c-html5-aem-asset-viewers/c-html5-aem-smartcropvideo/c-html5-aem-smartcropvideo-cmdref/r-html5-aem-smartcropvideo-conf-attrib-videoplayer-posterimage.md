@@ -1,11 +1,11 @@
 ---
+title: SmartCropVideoPlayer.posterimage
 description: Atributo de configuración para el visor de vídeo de recorte inteligente.
 solution: Experience Manager
-title: SmartCropVideoPlayer.posterimage
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: c09884e2-60a1-4fce-997a-29747b4ccb7b
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 2%
@@ -27,7 +27,7 @@ Atributo de configuración para el visor de vídeo de recorte inteligente.
       <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> <span class="codeph"> ?</span> como <span class="codeph"> %3F</span> </p> </li> 
       <li id="li_391CCF067F734480B2B4AFC9760C479A"> <p> <span class="codeph"> &amp;</span> como <span class="codeph"> %26</span> </p> </li> 
       <li id="li_6824B66A55554C5A8B12874DCF5BFAEE"> <p> <span class="codeph"> =</span> como <span class="codeph"> %3D</span> </p> </li> 
-     </ul> </p> <p>Si la variable <span class="codeph"><span class="varname"> image_id</span></span> se omite, el componente intenta usar la imagen de póster predeterminada para ese recurso. </p> <p>Cuando el vídeo se especifica como una ruta, el id de catálogo predeterminado de las imágenes de póster se deriva de la ruta de vídeo como <span class="codeph"> catalog_id/image_id</span> par donde <span class="codeph"> catalog_id</span> corresponde al primer token de la ruta y <span class="codeph"> image_id</span> es el nombre del vídeo con la extensión eliminada. Si la imagen con ese ID no existe, no se muestra la imagen de póster. </p> <p>Para evitar la visualización de la imagen de póster predeterminada, especifique <span class="codeph"> ninguno</span> como valor de imagen de póster. Si solo la variable <span class="codeph"><span class="varname"> isCommands</span></span> se especifican, los comandos se aplican a la imagen de póster predeterminada antes de que se muestre la imagen. </p> </td> 
+     </ul> </p> <p>Si la variable <span class="codeph"><span class="varname"> image_id</span></span> se omite, el componente intenta usar la imagen de póster predeterminada para ese recurso. </p> <p>Cuando el vídeo se especifica como una ruta, el id de catálogo predeterminado de las imágenes de póster se deriva de la ruta de vídeo como <span class="codeph"> catalog_id/image_id</span> par. La variable <span class="codeph"> catalog_id</span> corresponde al primer token de la ruta y <span class="codeph"> image_id</span> es el nombre del vídeo con la extensión eliminada. Si la imagen con ese ID no existe, no se muestra la imagen de póster. </p> <p>Para evitar la visualización de la imagen de póster predeterminada, especifique <span class="codeph"> ninguno</span> como valor de imagen de póster. Si solo la variable <span class="codeph"><span class="varname"> isCommands</span></span> , los comandos se aplican a la imagen de póster predeterminada antes de que se muestre la imagen. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,11 +1,11 @@
 ---
+title: Reproductor de vídeo
 description: El reproductor de vídeo de recorte inteligente es el área rectangular en la que se muestra el contenido de vídeo en el visor.
 solution: Experience Manager
-title: Reproductor de vídeo
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 2741821f-78fe-44d4-8604-fee10086e0a0
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 1%
@@ -78,7 +78,7 @@ Los subtítulos se colocan en un contenedor interno dentro del reproductor de v�
  </tbody> 
 </table>
 
-Ejemplo: para configurar el texto de los subtítulos cerrados en 14 píxeles, gris claro, Arial, sobre un fondo negro semitransparente:
+Ejemplo: para configurar el texto de los subtítulos cerrados para que sea de 14 píxeles, gris claro, Arial®, en un fondo negro semitransparente:
 
 ```
 .s7smartcropvideoviewer .s7smartcropvideoplayer .s7caption { 

@@ -1,14 +1,14 @@
 ---
+title: SmartCropVideoPlayer.mutevolume
 description: Atributo de configuración para el visor de vídeo de recorte inteligente.
 solution: Experience Manager
-title: SmartCropVideoPlayer.mutevolume
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 8f644a40-7fd9-4edd-be29-698635b46507
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '58'
+ht-degree: 8%
 
 ---
 
@@ -22,7 +22,7 @@ Atributo de configuración para el visor de vídeo de recorte inteligente.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Establece el modo silenciado para la reproducción de vídeo durante la carga inicial. Si está configurado como <span class="codeph"> 1 </span> el volumen está silenciado; de lo contrario, el vídeo se reproduce con sonido. En algunos dispositivos, el silenciamiento de la reproducción de vídeo durante la carga también permite que el vídeo se reproduzca automáticamente. </p> </td> 
+   <td colname="col2"> <p> Establece el modo silenciado para la reproducción de vídeo durante la carga inicial. Si está configurado como <span class="codeph"> 1 </span> el volumen está silenciado; de lo contrario, el vídeo se reproduce con sonido. En determinados dispositivos, el silencio de la reproducción de vídeo durante la carga también permite que el vídeo se reproduzca automáticamente. </p> </td> 
   </tr> 
  </tbody> 
 </table>
