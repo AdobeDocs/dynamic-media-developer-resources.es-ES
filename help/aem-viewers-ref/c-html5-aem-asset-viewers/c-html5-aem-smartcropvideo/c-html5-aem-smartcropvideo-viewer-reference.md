@@ -3,10 +3,10 @@ title: Recorte inteligente de vídeo
 description: El visor de recortes inteligentes es un reproductor de vídeo que reproduce flujo continuo y vídeo progresivo codificado en formato H.264, además de la compatibilidad con recortes inteligentes. Se entrega desde Dynamic Media Classic o Adobe Experience Manager con Dynamic Media.
 keywords: adaptable
 solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: fa9727dc-f9e2-4d91-b500-445693dfb6aa
-source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '2410'
 ht-degree: 0%
@@ -74,7 +74,7 @@ Las herramientas de uso compartido no están disponibles en el modo de pantalla 
 
 ## Incrustación del visor de vídeo de recorte inteligente {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Las diferentes páginas web tienen diferentes necesidades de comportamiento del visor. A veces, una página web proporciona un vínculo que, cuando se hace clic, abre el visor en una ventana independiente del explorador. En otros casos, es necesario incrustar el visor directamente en la página de alojamiento. En este último caso, la página web puede tener un diseño de página estático o utilizar un diseño interactivo que se muestre de forma diferente en diferentes dispositivos o en diferentes tamaños de ventana del navegador. Para satisfacer estas necesidades, el visor admite tres modos de operación principales: ventana emergente, incrustación de tamaño fijo e incrustación de diseño interactivo.
+Las diferentes páginas web tienen diferentes necesidades de comportamiento del visor. A veces, una página web proporciona un vínculo que, cuando se selecciona, abre el visor en una ventana independiente del explorador. En otros casos, es necesario incrustar el visor directamente en la página de alojamiento. En este último caso, la página web puede tener un diseño de página estático o utilizar un diseño interactivo que se muestre de forma diferente en diferentes dispositivos o en diferentes tamaños de ventana del navegador. Para satisfacer estas necesidades, el visor admite tres modos de operación principales: ventana emergente, incrustación de tamaño fijo e incrustación de diseño interactivo.
 
 La incrustación de varios vídeos en la misma página se admite en tabletas y dispositivos móviles. Normalmente, solo se puede reproducir un vídeo a la vez. Cuando un usuario comienza a reproducir un vídeo y luego intenta reproducir otro, el primer vídeo se pone en pausa automáticamente. El vídeo que se pausó automáticamente recuerda su tiempo de reproducción actual, de modo que el usuario siempre pueda volver a él y reanudar la reproducción. La única excepción es el navegador Chrome en dispositivos Android™ 4.x, que pueden reproducir vídeos en paralelo.
 

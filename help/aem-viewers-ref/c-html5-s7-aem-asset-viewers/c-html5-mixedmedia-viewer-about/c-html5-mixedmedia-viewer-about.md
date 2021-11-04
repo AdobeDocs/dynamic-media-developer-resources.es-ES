@@ -3,12 +3,12 @@ description: El visualizador de medios mixtos es un visualizador de medios. Admi
 keywords: adaptable
 solution: Experience Manager
 title: Varios tipos de archivo
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de medios mixtos
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 65a54308-f9db-4458-a9c3-ccb1433af43c
-source-git-commit: f77dc0c1ac8305037bbb561451317c8e62209cec
+source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
 workflow-type: tm+mt
-source-wordcount: '2654'
+source-wordcount: '2645'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ El visualizador de medios mixtos es un visualizador de medios. Admite conjuntos 
 
 Una miniatura en la parte inferior del visor representa cada elemento del conjunto de medios, junto con su indicador de tipo de recurso. Cuando se selecciona un elemento de conjunto de muestras, aparece una fila secundaria de muestras para permitir la selección de la variación de color dentro del conjunto de muestras. Las imágenes y los elementos del conjunto de muestras admiten el zoom en modo continuo o en línea; los conjuntos de giros admiten el zoom y el giro. Los conjuntos de vídeos y vídeos adaptables admiten todos los controles básicos de reproducción, siempre que se muestren subtítulos opcionales sobre el contenido de vídeo. Un usuario puede cambiar a pantalla completa en cualquier momento haciendo clic en el botón de pantalla completa. El visor tiene un botón de cierre opcional. Está diseñado para funcionar con equipos de escritorio y dispositivos móviles.
 
-El visor de medios mixtos utiliza la reproducción de vídeo de flujo HTML5 en formato HLS en su configuración predeterminada siempre que el sistema subyacente lo admita. En los sistemas que no admiten la transmisión por secuencias HTML5, el visor vuelve a la entrega de vídeo progresivo HTML5.
+El visualizador de medios mixtos utiliza la reproducción de vídeo de flujo HTML5 en formato HLS en su configuración predeterminada siempre que el sistema subyacente lo admita. En los sistemas que no admiten la transmisión por secuencias de HTML5, el visor vuelve a la entrega progresiva de vídeo de HTML5.
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ Consulte [Requisitos y requisitos previos del sistema](../../c-system-requiremen
 
 El visualizador de medios mixtos representa un archivo JavaScript principal y un conjunto de archivos de ayuda (un solo JavaScript incluye todos los componentes del SDK de visor utilizados por este visualizador en particular, recursos y CSS) descargados por el visualizador en tiempo de ejecución.
 
-Puede utilizar el visualizador de medios mixtos en modo emergente utilizando la página HTML lista para la producción proporcionada con los visualizadores IS. O bien, puede utilizar el visor en modo incrustado, donde se integra en una página web de destino mediante la API documentada.
+Puede utilizar el visualizador de medios mixtos en modo emergente utilizando la página HTML lista para la producción que se proporciona con los visualizadores IS. O bien, puede utilizar el visor en modo incrustado, donde se integra en una página web de destino mediante la API documentada.
 
 La tarea de configurar y desollar el visor es similar a la de otros visores. Toda la apariencia se logra mediante CSS personalizada.
 
@@ -61,11 +61,11 @@ El visualizador de medios mixtos es compatible con gestos de un solo toque y de 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Doble toque </p> </td> 
-   <td colname="col2"> <p>Cuando se encuentra en el modo de zoom <span class="codeph"> continuo </span>, reduce un nivel hasta alcanzar la ampliación máxima, el siguiente gesto de doble toque se restablece al estado inicial. </p> </td> 
+   <td colname="col2"> <p>Cuando <span class="codeph"> continuo </span> modo de zoom, reduce un nivel hasta alcanzar la ampliación máxima, el siguiente gesto de doble toque se restablece al estado inicial. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Tocar y mantener </p> </td> 
-   <td colname="col2"> <p> En el modo de zoom en línea <span class="codeph">, activa la imagen ampliada.</span> </p> </td> 
+   <td colname="col2"> <p> Cuando <span class="codeph"> inline </span> zoom, activa la imagen ampliada. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Pellizcar </p> </td> 
@@ -86,25 +86,25 @@ El visor también admite entrada táctil y entrada de ratón en dispositivos Win
 
 Este visor es totalmente accesible mediante teclado.
 
-Consulte [Accesibilidad del teclado y navegación](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
+Consulte [Navegación y accesibilidad del teclado](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
 ## Incrustar visualizador de medios mixtos {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Las diferentes páginas web tienen diferentes necesidades de comportamiento del visor. A veces, una página web proporciona un vínculo que, cuando se hace clic, abre el visor en una ventana independiente del explorador. En otros casos, es necesario incrustar el visor directamente en la página de alojamiento. En este último caso, la página web puede tener un diseño de página estático o utilizar un diseño interactivo que se muestre de forma diferente en diferentes dispositivos o en diferentes tamaños de ventana del navegador. Para satisfacer estas necesidades, el visor admite tres modos de operación principales: elemento emergente, incrustación de tamaño fijo e incrustación de diseño interactivo.
+Las diferentes páginas web tienen diferentes necesidades de comportamiento del visor. A veces, una página web proporciona un vínculo que, cuando se selecciona, abre el visor en una ventana independiente del explorador. En otros casos, es necesario incrustar el visor directamente en la página de alojamiento. En este último caso, la página web puede tener un diseño de página estático o utilizar un diseño interactivo que se muestre de forma diferente en diferentes dispositivos o en diferentes tamaños de ventana del navegador. Para satisfacer estas necesidades, el visor admite tres modos de operación principales: elemento emergente, incrustación de tamaño fijo e incrustación de diseño interactivo.
 
 ## Acerca del modo emergente {#section-77d5aa03b8b94566958a179b1a2cd474}
 
 En el modo emergente, el visor se abre en una ventana o pestaña independiente del explorador web. Toma todo el área de la ventana del explorador y se ajusta en caso de que se cambie el tamaño del explorador o de que se cambie la orientación de un dispositivo móvil.
 
-El modo emergente es el más común para los dispositivos móviles. La página web carga el visor utilizando `window.open()` llamada de JavaScript, el elemento HTML `A` configurado correctamente o cualquier otro método adecuado.
+El modo emergente es el más común para los dispositivos móviles. La página web carga el visor mediante `window.open()` Llamada de JavaScript, correctamente configurada `A` elemento HTML o cualquier otro método adecuado.
 
-Se recomienda utilizar una página HTML predeterminada para el modo de operación emergente. En este caso, se denomina [!DNL MixedMediaViewer.html] y se encuentra dentro de la subcarpeta [!DNL html5/] de la implementación estándar de los visores IS:
+Se recomienda utilizar una página de HTML predeterminada para el modo de operación emergente. En este caso, se llama [!DNL MixedMediaViewer.html] y se encuentra dentro de la variable [!DNL html5/] subcarpeta de la implementación estándar de IS-Viewers:
 
 [!DNL <s7viewers_root>/html5/MixedMediaViewer.html]
 
 Puede lograr la personalización visual mediante la aplicación de CSS personalizada.
 
-A continuación se muestra un ejemplo de código HTML que abre el visor en una nueva ventana:
+A continuación se muestra un ejemplo de código de HTML que abre el visor en una nueva ventana:
 
 ```
 <a href="http://s7d1.scene7.com/s7viewers/html5/MixedMediaViewer.html?asset=Scene7SharedAssets/Mixed_Media_Set_Sample" target="_blank">Open popup viewer</a>
@@ -118,9 +118,9 @@ Los casos de uso principales son páginas web orientadas a equipos de escritorio
 
 La incrustación de tamaño fijo se utiliza cuando el visor no cambia su tamaño después de la carga inicial. Esta acción es la mejor opción para páginas web con diseño estático.
 
-La incrustación de diseño interactivo supone que el visor debe cambiar el tamaño en tiempo de ejecución en respuesta al cambio de tamaño de su contenedor `DIV`. El caso de uso más común es agregar un visor a una página web que utilice un diseño de página flexible.
+La incrustación de diseño interactivo supone que el visor debe cambiar el tamaño durante la ejecución en respuesta al cambio de tamaño de su contenedor `DIV`. El caso de uso más común es agregar un visor a una página web que utilice un diseño de página flexible.
 
-En el modo de incrustación de diseño interactivo, el visor se comporta de forma diferente en función del tamaño de la página web para su contenedor `DIV`. Si la página web establece únicamente la anchura del contenedor `DIV`, sin restringir su altura, el visor elige automáticamente su altura según la proporción de aspecto del recurso que se utilice. Esta funcionalidad garantiza que el recurso encaje perfectamente en la vista sin ningún relleno en los lados. Este caso de uso es el más común para las páginas web que usan marcos de diseño interactivo como Bootstrap o Foundation.
+En el modo de incrustación de diseño interactivo, el visor se comporta de forma diferente en función del tamaño de la página web y su contenedor `DIV`. Si la página web establece solo la anchura del contenedor `DIV`, dejando su altura sin restricciones, el visor elige automáticamente su altura según la proporción de aspecto del recurso que se utilice. Esta funcionalidad garantiza que el recurso encaje perfectamente en la vista sin ningún relleno en los lados. Este caso de uso es el más común para las páginas web que usan marcos de diseño interactivo como Bootstrap o Foundation.
 
 De lo contrario, si la página web establece la anchura y la altura del contenedor del visor `DIV`, el visor rellena solo esa área y sigue el tamaño que proporciona el diseño de la página web. Un buen ejemplo es integrar el visor en una superposición modal, donde el tamaño de la superposición depende del tamaño de la ventana del explorador web.
 
@@ -135,7 +135,7 @@ Para añadir el visor a una página web, haga lo siguiente:
 
 1. Añadir el archivo JavaScript del visor a la página web.
 
-   Para crear un visor es necesario agregar una etiqueta de script en el encabezado HTML. Antes de utilizar la API del visor, asegúrese de incluir [!DNL MixedMediaViewer.js]. El archivo [!DNL MixedMediaViewer.js] se encuentra en la subcarpeta [!DNL html5/js/] de la implementación estándar de los visores IS:
+   Para crear un visor es necesario agregar una etiqueta de script en el encabezado del HTML. Antes de utilizar la API del visor, asegúrese de incluir [!DNL MixedMediaViewer.js]. La variable [!DNL MixedMediaViewer.js] el archivo se encuentra debajo de [!DNL html5/js/] subcarpeta de la implementación estándar de IS-Viewers:
 
 [!DNL <s7viewers_root>/html5/js/MixedMediaViewer.js]
 
@@ -149,16 +149,16 @@ La ruta relativa tiene el siguiente aspecto:
 
 >[!NOTE]
 >
->Solo haga referencia al archivo JavaScript `include` del visor principal de la página. No haga referencia a ningún archivo JavaScript adicional del código de la página web que pueda descargar la lógica del visor durante la ejecución. En concreto, no haga referencia directamente a la biblioteca `Utils.js` del SDK de HTML5 cargada por el visor desde la ruta de contexto `/s7viewers` (denominada SDK consolidado `include`). El motivo es que la ubicación de las `Utils.js` o bibliotecas de visores de tiempo de ejecución similares se administra completamente mediante la lógica del visor y la ubicación cambia entre las versiones del visor. Adobe no mantiene versiones anteriores del visor secundario `includes` en el servidor.
+>Solo haga referencia al JavaScript del visor principal `include` en la página. No haga referencia a ningún archivo JavaScript adicional del código de la página web que pueda descargar la lógica del visor durante la ejecución. En particular, no haga referencia directa al SDK de HTML5 `Utils.js` biblioteca cargada por el visor desde `/s7viewers` ruta de contexto (denominado SDK consolidado) `include`). La razón es que la ubicación de `Utils.js` o bibliotecas de visores de tiempo de ejecución similares se gestionan completamente mediante la lógica del visor y la ubicación cambia entre las versiones del visor. El Adobe no mantiene versiones anteriores del visor secundario `includes` en el servidor.
 >
 >
->Como resultado, poner una referencia directa a cualquier JavaScript `include` secundario que utilice el visor en la página rompe la funcionalidad del visor en el futuro cuando se implemente una nueva versión del producto.
+>Como resultado, poner una referencia directa a cualquier JavaScript secundario `include` utilizado por el visor en la página rompe la funcionalidad del visor en el futuro cuando se implemente una nueva versión del producto.
 
 1. Definición del contenedor DIV.
 
    Agregue un elemento DIV vacío a la página donde desee que aparezca el visor. El elemento DIV debe tener su ID definido, ya que este ID se pasa más tarde a la API del visor. El DIV tiene su tamaño especificado mediante CSS.
 
-   El marcador de posición DIV es un elemento posicionado, lo que significa que la propiedad `position` CSS está establecida en `relative` o `absolute`.
+   El marcador de posición DIV es un elemento posicionado, lo que significa que la variable `position` La propiedad CSS se establece en `relative` o `absolute`.
 
    Asegúrese de que la función de pantalla completa funciona correctamente en Internet Explorer. Compruebe que no haya otros elementos en el DOM que tengan un orden de apilamiento superior al DIV del marcador de posición.
 
@@ -170,13 +170,13 @@ La ruta relativa tiene el siguiente aspecto:
 
 1. Configuración del tamaño del visor
 
-   Este visor muestra miniaturas al trabajar con conjuntos de varios elementos. En los sistemas de escritorio, las miniaturas se colocan debajo de la vista principal. Al mismo tiempo, el visor permite el intercambio del recurso principal durante el tiempo de ejecución mediante la API `setAsset()`. Como desarrollador, tiene control sobre cómo el visor gestiona el área de miniaturas en la parte inferior cuando el nuevo recurso solo tiene un elemento. Es posible mantener intacto el tamaño del visor exterior y permitir que la vista principal aumente su altura y ocupe el área de miniaturas. O bien, puede mantener el tamaño de la vista principal estático y contraer el área del visor exterior, lo que permite que el contenido de la página web aumente. A continuación, utilice el espacio de página libre que queda en las miniaturas.
+   Este visor muestra miniaturas al trabajar con conjuntos de varios elementos. En los sistemas de escritorio, las miniaturas se colocan debajo de la vista principal. Al mismo tiempo, el visor permite el intercambio del recurso principal durante el tiempo de ejecución mediante `setAsset()` API. Como desarrollador, tiene control sobre cómo el visor gestiona el área de miniaturas en la parte inferior cuando el nuevo recurso solo tiene un elemento. Es posible mantener intacto el tamaño del visor exterior y permitir que la vista principal aumente su altura y ocupe el área de miniaturas. O bien, puede mantener el tamaño de la vista principal estático y contraer el área del visor exterior, lo que permite que el contenido de la página web aumente. A continuación, utilice el espacio de página libre que queda en las miniaturas.
 
-   Para mantener intactos los límites exteriores del visor, defina el tamaño de la clase CSS de nivel superior `.s7mixedmediaviewer` en unidades absolutas. El tamaño en CSS se puede colocar directamente en la página HTML o en un archivo CSS de visor personalizado, y posteriormente se puede asignar a un registro preestablecido de visor en Dynamic Media Classic, o pasar explícitamente mediante el comando Estilo.
+   Para mantener intactos los límites exteriores del visor, defina el tamaño de `.s7mixedmediaviewer` clase CSS de nivel superior en unidades absolutas. El tamaño en CSS se puede colocar directamente en la página HTML o en un archivo CSS de visor personalizado, y posteriormente se puede asignar a un registro preestablecido de visor en Dynamic Media Classic, o pasar explícitamente utilizando el comando Estilo.
 
-   Consulte [Personalización del visualizador de medios mixtos](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#concept-61b3410f187c4bf3af09ec813c649bf4) para obtener más información sobre el estilo del visualizador con CSS.
+   Consulte [Personalización del visualizador de medios mixtos](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#concept-61b3410f187c4bf3af09ec813c649bf4) para obtener más información sobre cómo aplicar estilo al visor con CSS.
 
-   A continuación se muestra un ejemplo de definición del tamaño estático del visor exterior en una página HTML:
+   A continuación se muestra un ejemplo de definición del tamaño estático del visor exterior en una página de HTML:
 
    ```
    #s7viewer.s7mixedmediaviewer { 
@@ -189,9 +189,9 @@ La ruta relativa tiene el siguiente aspecto:
 
    [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html)
 
-   Para que las dimensiones de vista principales sean estáticas, defina el tamaño del visor en unidades absolutas para el componente `Container` SDK interno mediante el selector `.s7mixedmediaviewer .s7container` CSS o utilizando el modificador `stagesize`.
+   Para que las dimensiones de la vista principal sean estáticas, defina el tamaño del visor en unidades absolutas para el `Container` Componente SDK que utiliza `.s7mixedmediaviewer .s7container` Selector de CSS, o bien utilizando `stagesize` modificador.
 
-   A continuación se muestra un ejemplo de definición del tamaño del visor para el componente SDK `Container` interno, de modo que el área de vista principal no cambie su tamaño al cambiar el recurso:
+   A continuación, se muestra un ejemplo de definición del tamaño del visor para el `Container` Componente SDK para que el área de vista principal no cambie su tamaño al cambiar el recurso:
 
    ```
    #s7viewer.s7mixedmediaviewer .s7container { 
@@ -204,7 +204,7 @@ La ruta relativa tiene el siguiente aspecto:
 
    [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html)
 
-   Puede establecer el modificador `stagesize` en el registro preestablecido de visualizador en Dynamic Media Classic o pasarlo explícitamente con el código de inicialización del visualizador con la colección `params`. O bien, como una llamada de API como se describe en la sección Referencia de comandos de esta Ayuda, como se muestra a continuación:
+   Puede configurar la variable `stagesize` en el registro preestablecido de visualizador en Dynamic Media Classic o páselo explícitamente con el código de inicialización del visualizador con `params` colección. O bien, como una llamada de API como se describe en la sección Referencia de comandos de esta Ayuda, como se muestra a continuación:
 
    ```
    mixedMediaViewer.setParam("stagesize", "640,480");
@@ -214,13 +214,13 @@ La ruta relativa tiene el siguiente aspecto:
 
 1. Creación e inicialización del visor.
 
-   Cuando haya completado los pasos anteriores, cree una instancia de la clase `s7viewers.MixedMediaViewer`, pase toda la información de configuración a su constructor y llame al método `init()` en una instancia de visor. La información de configuración se pasa al constructor como un objeto JSON. Como mínimo, este objeto debe tener el campo `containerId` que contiene el nombre del ID de contenedor de visor y el objeto `params` JSON anidado con parámetros de configuración compatibles con el visor. En este caso, el objeto `params` debe tener al menos la dirección URL del servicio de imágenes pasada como propiedad `serverUrl`, la dirección URL del servidor de vídeo transferida como propiedad `videoserverurl` y el recurso inicial como parámetro `asset`. La API de inicialización basada en JSON le permite crear e iniciar el visor con una sola línea de código.
+   Cuando haya completado los pasos anteriores, cree una instancia de `s7viewers.MixedMediaViewer` clase , pase toda la información de configuración a su constructor e invoque `init()` en una instancia de visor. La información de configuración se pasa al constructor como un objeto JSON. Como mínimo, este objeto debe tener la variable `containerId` campo que contiene el nombre del ID del contenedor del visor y anidado `params` objeto JSON con parámetros de configuración compatibles con el visor. En este caso, la variable `params` debe tener al menos la dirección URL del servidor de imágenes transferida como `serverUrl` , la URL del servidor de vídeo se transfiere como `videoserverurl` propiedad y activo inicial como `asset` parámetro. La API de inicialización basada en JSON le permite crear e iniciar el visor con una sola línea de código.
 
-   Es importante tener el contenedor de visor agregado al DOM para que el código del visor pueda encontrar el elemento contenedor por su ID. Algunos exploradores retrasan la creación del DOM hasta el final de la página web. Para obtener la máxima compatibilidad, llame al método `init()` justo antes de la etiqueta `BODY` de cierre o en el evento `onload()` del cuerpo.
+   Es importante tener el contenedor de visor agregado al DOM para que el código del visor pueda encontrar el elemento contenedor por su ID. Algunos exploradores retrasan la creación del DOM hasta el final de la página web. Para obtener la máxima compatibilidad, llame a la función `init()` justo antes del cierre `BODY` o en el cuerpo `onload()` evento.
 
-   Al mismo tiempo, el elemento contenedor no debe formar parte necesariamente del diseño de la página web todavía. Por ejemplo, puede ocultarse utilizando el estilo `display:none` asignado. En este caso, el visor retrasa su proceso de inicialización hasta el momento en que la página web vuelve a poner el elemento contenedor en el diseño. Cuando se produce esta acción, la carga del visor se reanuda automáticamente.
+   Al mismo tiempo, el elemento contenedor no debe formar parte necesariamente del diseño de la página web todavía. Por ejemplo, puede ocultarse usando `display:none` estilo asignado a él. En este caso, el visor retrasa su proceso de inicialización hasta el momento en que la página web vuelve a poner el elemento contenedor en el diseño. Cuando se produce esta acción, la carga del visor se reanuda automáticamente.
 
-   El siguiente es un ejemplo de creación de una instancia de visor, pasar las opciones de configuración mínimas necesarias al constructor y llamar al método `init()`. El ejemplo supone que `mixedMediaViewer` es la instancia del visor; `s7viewer` es el nombre del marcador de posición `DIV`; [!DNL http://s7d1.scene7.com/is/image/] es la URL del servicio de imágenes; [!DNL http://s7d1.scene7.com/is/content/] es la URL del servidor de vídeo; y [!DNL Scene7SharedAssets/Mixed_Media_Set_Sample] es el recurso:
+   A continuación se muestra un ejemplo de creación de una instancia de visor, pasar las opciones de configuración mínimas necesarias al constructor y llamar a la función `init()` método. El ejemplo asume `mixedMediaViewer` es la instancia del visor; `s7viewer` es el nombre del marcador de posición `DIV`; [!DNL http://s7d1.scene7.com/is/image/] es la URL del servicio de imágenes; [!DNL http://s7d1.scene7.com/is/content/] es la URL del servidor de vídeo; y [!DNL Scene7SharedAssets/Mixed_Media_Set_Sample] es el recurso:
 
 ```
 <script type="text/javascript"> 
@@ -270,7 +270,7 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 
 ## Incrustación interactiva con altura ilimitada {#section-056cb574713c4d07be6d07cf3c598839}
 
-Con la incrustación de diseño interactivo, la página web normalmente tiene algún tipo de diseño flexible en su lugar que dicta el tamaño de tiempo de ejecución del contenedor del visor `DIV`. En el siguiente ejemplo, supongamos que la página web permite que el contenedor `DIV` del visor tome el 40 % del tamaño de la ventana del explorador web, sin restringir su altura. El código HTML de la página web tendría el siguiente aspecto:
+Con la incrustación de diseño interactivo, la página web normalmente tiene algún tipo de diseño flexible en su lugar que dicta el tamaño de tiempo de ejecución del contenedor del visor `DIV`. Para el siguiente ejemplo, supongamos que la página web permite el contenedor del visor `DIV` para tomar el 40% del tamaño de la ventana del explorador web, sin restringir su altura. El código del HTML de la página web tendría el siguiente aspecto:
 
 ```
 <!DOCTYPE html> 
@@ -294,7 +294,7 @@ Añadir el visor a una página de este tipo es similar a los pasos para la incru
 1. Definición del contenedor DIV.
 1. Creación e inicialización del visor.
 
-Todos los pasos anteriores son los mismos que con la incrustación de tamaño fijo. Agregue el contenedor DIV al DIV existente `"holder"`. El siguiente código es un ejemplo completo. Observe cómo cambia el tamaño del visor cuando se cambia el tamaño del explorador y cómo la proporción de aspecto del visor coincide con el recurso.
+Todos los pasos anteriores son los mismos que con la incrustación de tamaño fijo. Agregue el DIV de contenedor a la `"holder"` DIV. El siguiente código es un ejemplo completo. Observe cómo cambia el tamaño del visor cuando se cambia el tamaño del explorador y cómo la proporción de aspecto del visor coincide con el recurso.
 
 ```
 <!DOCTYPE html> 
@@ -333,7 +333,7 @@ La página de ejemplos siguientes ilustra más usos reales de la incrustación d
 
 ## Integración de tamaño flexible con anchura y altura definidas {#section-0a329016f9414d199039776645c693de}
 
-Si hay una incrustación de tamaño flexible con anchura y altura definidas, el estilo de la página web es diferente. Proporciona ambos tamaños al DIV `"holder"` y lo centra en la ventana del explorador. Además, la página web establece el tamaño del elemento `HTML` y `BODY` en 100 por ciento.
+Si hay una incrustación de tamaño flexible con anchura y altura definidas, el estilo de la página web es diferente. Proporciona ambos tamaños a la variable `"holder"` DIV y lo centra en la ventana del explorador. Además, la página web establece el tamaño de la variable `HTML` y `BODY` al 100 por ciento.
 
 ```
 <!DOCTYPE html> 
@@ -400,7 +400,7 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 
 ## Incrustación mediante API basada en Setter {#section-af26f0cc2e5140e8a9bfd0c6a841a6d1}
 
-En lugar de utilizar la inicialización basada en JSON, es posible utilizar la API basada en establecedores y el constructor no-args. El uso de este constructor de API no toma ningún parámetro y los parámetros de configuración se especifican utilizando métodos de API `setContainerId()`, `setParam()` y `setAsset()`, con llamadas de JavaScript independientes.
+En lugar de utilizar la inicialización basada en JSON, es posible utilizar la API basada en establecedores y el constructor no-args. El uso de este constructor de API no toma ningún parámetro y los parámetros de configuración se especifican usando `setContainerId()`, `setParam()`y `setAsset()` métodos de API, con llamadas de JavaScript independientes.
 
 El siguiente ejemplo ilustra el uso de incrustación de tamaño fijo con API basada en establecedor:
 

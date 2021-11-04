@@ -1,20 +1,20 @@
 ---
-description: La herramienta Compartir de facebook consiste en un botón añadido al panel Compartir en Social . Cuando se hace clic en el botón, el usuario se redirige a un cuadro de diálogo de uso compartido proporcionado por un servicio social. La posición del botón la gestiona completamente la herramienta de uso compartido de Social.
+description: La herramienta Compartir de facebook consiste en un botón añadido al panel Compartir en Social . Cuando se selecciona el botón, el usuario se redirige a un cuadro de diálogo de uso compartido proporcionado por un servicio social. La posición del botón la gestiona completamente la herramienta de uso compartido de Social.
 solution: Experience Manager
 title: Uso compartido de facebook
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 6b7e043f-6a9f-48ba-b811-3c94fe5c32f1
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
 
 # Uso compartido de facebook{#facebook-share}
 
-La herramienta Compartir de facebook consiste en un botón añadido al panel Compartir en Social . Cuando se hace clic en el botón, el usuario se redirige a un cuadro de diálogo de uso compartido proporcionado por un servicio social. La posición del botón la gestiona completamente la herramienta de uso compartido de Social.
+La herramienta Compartir de facebook consiste en un botón añadido al panel Compartir en Social . Cuando se selecciona el botón, el usuario se redirige a un cuadro de diálogo de uso compartido proporcionado por un servicio social. La posición del botón la gestiona completamente la herramienta de uso compartido de Social.
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
@@ -37,11 +37,11 @@ El aspecto del botón Compartir de Facebook se controla con el siguiente selecto
    <td colname="col2"> <p>Altura del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo </span> </p> </td> 
    <td colname="col2"> <p> Imagen que se muestra para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo </span> </p> </td> 
    <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -49,9 +49,9 @@ El aspecto del botón Compartir de Facebook se controla con el siguiente selecto
 
 >[!NOTE]
 >
->Este botón admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes aspectos a distintos estados de botones.
+>Este botón admite la variable `state` selector de atributos, que se puede utilizar para aplicar diferentes aspectos a distintos estados de botones.
 
-Es posible quitar el botón del panel Compartir en Social estableciendo la propiedad `display:none` CSS en su clase CSS.
+Es posible quitar el botón del panel Compartir en Social configurando `display:none` Propiedad CSS en su clase CSS.
 
 La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
 

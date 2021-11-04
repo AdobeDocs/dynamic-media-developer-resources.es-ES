@@ -2,13 +2,13 @@
 description: ImageMapEffect.rollover
 solution: Experience Manager
 title: ImageMapEffect.rollover
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 3d5eb17d-668a-4ad8-9f84-5684941d450d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 5%
+source-wordcount: '79'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p>Especifica cuándo mostrar el panel de información. </p> <p>Si se establece en <span class="codeph"> 1</span>, el panel de información se muestra cuando el ratón entra en el área del mapa de imagen (en caso de que el mapa de imagen tenga un atributo <span class="codeph"> rollover_key</span> no vacío). </p> <p>Si se establece en <span class="codeph"> 0</span> el panel de información se activa cuando se hace clic en el mapa de imagen (si el mapa de imagen tiene atributos <span class="codeph"> rollover_key</span> no vacíos y <span class="codeph"> href</span> vacíos). </p> <p> Se omite en dispositivos táctiles, incluidos los sistemas de escritorio con capacidad táctil, y se establece automáticamente en <span class="codeph"> 0</span>. </p> </td> 
+   <td colname="col2"> <p>Especifica cuándo mostrar el panel de información. </p> <p>Si está configurado como <span class="codeph"> 1</span>, el panel de información se muestra cuando el ratón entra en el área del mapa de imagen (en caso de que el mapa de imagen no esté vacío, <span class="codeph"> rollover_key</span> ). </p> <p>Si está configurado como <span class="codeph"> 0</span> el panel de información se activa cuando se selecciona el mapa de imagen (si el mapa de imagen tiene un valor que no esté vacío) <span class="codeph"> rollover_key</span> y vacío <span class="codeph"> href</span> atributos). </p> <p> Se omite en dispositivos táctiles, incluidos los sistemas de escritorio con capacidad táctil, y se establece automáticamente como <span class="codeph"> 0</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

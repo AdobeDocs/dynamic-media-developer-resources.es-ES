@@ -2,10 +2,10 @@
 title: Incrustar recurso compartido
 description: La herramienta Insertar uso compartido consiste en un botón añadido al panel Compartir en Social y el cuadro de diálogo modal que se muestra cuando se activa la herramienta. La posición del botón la gestiona completamente la herramienta de uso compartido de Social.
 solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: e29a81b8-67f3-4367-b21c-d5902420bc85
-source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '2590'
 ht-degree: 2%

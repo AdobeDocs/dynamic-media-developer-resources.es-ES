@@ -2,10 +2,10 @@
 title: Uso compartido en medios sociales
 description: La herramienta de uso compartido en redes sociales aparece en la esquina superior derecha de forma predeterminada. Consiste en un botón y un panel que se expanden cuando el usuario hace clic o pulsa un botón y contiene herramientas de uso compartido individuales.
 solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 82b482f9-b117-4529-a422-cdb0eead0031
-source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 1%

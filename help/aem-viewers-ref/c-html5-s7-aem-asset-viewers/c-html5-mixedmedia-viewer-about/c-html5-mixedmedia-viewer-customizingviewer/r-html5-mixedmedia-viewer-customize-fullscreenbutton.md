@@ -1,20 +1,20 @@
 ---
-description: Este botón hace que el usuario entre o salga del modo de pantalla completa cuando hace clic en él. Se utiliza cuando el visor muestra imágenes o conjuntos de giros. Este botón no se muestra si el visor funciona en modo emergente y el sistema no admite pantalla completa nativa. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
+description: Este botón hace que el usuario introduzca o salga del modo de pantalla completa cuando lo selecciona. Se utiliza cuando el visor muestra imágenes o conjuntos de giros. Este botón no se muestra si el visor funciona en modo emergente y el sistema no admite pantalla completa nativa. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
 solution: Experience Manager
 title: Botón Pantalla completa
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de medios mixtos
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 1df99614-9493-4c8a-bc51-4426b8c5467a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '309'
 ht-degree: 2%
 
 ---
 
 # Botón Pantalla completa{#full-screen-button}
 
-Este botón hace que el usuario entre o salga del modo de pantalla completa cuando hace clic en él. Se utiliza cuando el visor muestra imágenes o conjuntos de giros. Este botón no se muestra si el visor funciona en modo emergente y el sistema no admite pantalla completa nativa. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
+Este botón hace que el usuario introduzca o salga del modo de pantalla completa cuando lo selecciona. Se utiliza cuando el visor muestra imágenes o conjuntos de giros. Este botón no se muestra si el visor funciona en modo emergente y el sistema no admite pantalla completa nativa. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -59,11 +59,11 @@ El aspecto del botón se controla con el siguiente selector de clase CSS:
    <td colname="col2"> <p>Altura del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo </span> </p> </td> 
    <td colname="col2"> <p>Imagen que se muestra para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo </span> </p> </td> 
    <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -71,7 +71,7 @@ El aspecto del botón se controla con el siguiente selector de clase CSS:
 
 >[!NOTE]
 >
->Este botón admite los selectores de atributos `state` y `selected`, que pueden utilizarse para aplicar diferentes aspectos a diferentes estados de botones. En concreto, `selected='true'` corresponde al estado &quot;pantalla completa&quot; y `selected='false'` corresponde al estado &quot;normal&quot;.
+>Este botón admite las dos variables `state` y `selected` selectores de atributos, que pueden utilizarse para aplicar diferentes aspectos a distintos estados de botones. En particular, `selected='true'` corresponde al estado &quot;pantalla completa&quot; y `selected='false'` corresponde al estado &quot;normal&quot;.
 
 La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obtener más información.
 

@@ -2,10 +2,10 @@
 title: Área del visor principal
 description: El área de vista principal está ocupada por el vídeo de recorte inteligente. Normalmente se configura para que se ajuste a la pantalla de dispositivo disponible cuando no se especifica ningún tamaño.
 solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 7d1379c1-7746-4f61-92df-e8ac4ab7d506
-source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 2%

@@ -2,10 +2,10 @@
 title: Uso compartido de facebook
 description: La herramienta Compartir de facebook consiste en un botón añadido al panel Compartir en Social . Cuando se selecciona el botón, el usuario se redirige a un cuadro de diálogo de uso compartido proporcionado por un servicio social. La posición del botón la gestiona completamente la herramienta de uso compartido de Social.
 solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 6b7e043f-6a9f-48ba-b811-3c94fe5c32f1
-source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 0%

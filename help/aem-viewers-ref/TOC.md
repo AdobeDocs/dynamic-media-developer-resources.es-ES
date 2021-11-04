@@ -3,7 +3,7 @@ cloud: Experience Cloud
 user-guide-title: Guía de referencia de visores de Dynamic Media
 feature-set: Experience Manager Assets
 user-guide-description: Personalice los visores de Dynamic Media para utilizarlos en dispositivos de escritorio y de pantalla táctil. Incluya imágenes y vídeos interactivos, carruseles, conjuntos de giros y mucho más.
-source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '2074'
 ht-degree: 6%
@@ -891,7 +891,7 @@ ht-degree: 6%
          + [video](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref-url/r-html5-aem-smartcropvideo-url-video.md)
          + [videoServerUrl](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref-url/r-html5-aem-smartcropvideo-url-videoserverurl.md)
       + Referencia de la API de JavaScript para el visor de vídeos de recorte inteligente {#jsapi-smartcropvideo}
-         + [Referencia de la API de JavaScript para el visor de vídeos de recorte inteligente](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/c-html5-aem-smartcropvideo-viewer-javascriptapiref.md))
+         + [Referencia de la API de JavaScript para el visor de vídeos de recorte inteligente](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/c-html5-aem-smartcropvideo-viewer-javascriptapiref.md)
          + [dispose](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-dispose.md)
          + [getComponent](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-getcomponent.md)
          + [init](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-init.md)
