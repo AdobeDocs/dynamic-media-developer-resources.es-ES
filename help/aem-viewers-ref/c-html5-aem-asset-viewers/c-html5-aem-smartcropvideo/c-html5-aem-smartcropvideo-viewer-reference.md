@@ -1,19 +1,19 @@
 ---
-title: Recorte inteligente de vídeo
+title: Visor de vídeos de recorte inteligente
 description: El visor de recortes inteligentes es un reproductor de vídeo que reproduce flujo continuo y vídeo progresivo codificado en formato H.264, además de la compatibilidad con recortes inteligentes. Se entrega desde Dynamic Media Classic o Adobe Experience Manager con Dynamic Media.
 keywords: adaptable
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: null
-source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
+source-git-commit: bcd7f90ea2dbb77b300407adeb7725990d9c9a12
 workflow-type: tm+mt
-source-wordcount: '2410'
+source-wordcount: '2413'
 ht-degree: 0%
 
 ---
 
-# Vídeo{#video}
+# Recorte inteligente de vídeo{#smart-crop-video}
 
 El visor de recortes inteligentes es un reproductor de vídeo que reproduce flujo continuo y vídeo progresivo codificado en formato H.264, además de la compatibilidad con recortes inteligentes. Se entrega desde Dynamic Media Classic o desde un Experience Manager con Dynamic Media.
 
