@@ -1,13 +1,13 @@
 ---
+title: Barra de control principal
 description: La barra de control principal es el área rectangular de los sistemas de escritorio y las tabletas que contienen todos los controles de interfaz de usuario (excepto los botones de Página grande) disponibles para el visor del catálogo electrónico.
 solution: Experience Manager
-title: Barra de control principal
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 4db16599-ede0-47ae-bb5a-840655d3620b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '658'
 ht-degree: 1%
 
 ---
@@ -43,13 +43,13 @@ El aspecto de la barra de control principal se controla con el siguiente selecto
    <td colname="col2"> <p>Altura de la barra de control principal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Color de fondo de la barra de control principal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Ejemplo** : para configurar una barra de control principal gris de 36 píxeles de altura y situada en la parte superior del contenedor de visor.
+**Ejemplo** - para configurar una barra de control principal gris de 36 píxeles de altura y situada en la parte superior del contenedor del visor.
 
 ```
 .s7ecatalogviewer .s7controlbar { 
@@ -75,12 +75,12 @@ La función de desplazamiento está habilitada para la barra de control principa
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> position </span> </p> </td> 
-   <td colname="col2"> <p>Cuando se establece en <span class="codeph"> estático </span>, la función de desplazamiento se desactiva. </p> <p>Establezca esta propiedad en <span class="codeph"> absoluto </span> para habilitar la función de desplazamiento. </p> </td> 
+   <td colname="col2"> <p>Cuando se configura como <span class="codeph"> static </span> la función de desplazamiento está desactivada. </p> <p>Establezca esta propiedad como <span class="codeph"> absoluto </span> para activar la función de desplazamiento. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-El botón de desplazamiento se agrega a un elemento contenedor especial que coloca el botón correctamente y le permite aplicar un estilo al área alrededor del botón de forma diferente al resto del fondo de la barra de control en caso de que la altura del botón de desplazamiento sea menor que la altura de la barra de control.
+El botón de desplazamiento se agrega a un elemento contenedor especial que posiciona el botón correctamente. Permite aplicar un estilo al área alrededor del botón de forma diferente al resto del fondo de la barra de control en caso de que la altura del botón de desplazamiento sea menor que la altura de la barra de control.
 
 El aspecto de este contenedor de botones de desplazamiento se controla con el siguiente selector de clase CSS:
 
@@ -99,7 +99,7 @@ El aspecto de este contenedor de botones de desplazamiento se controla con el si
    <td colname="col2"> <p>Normalmente debe ser igual o mayor que la anchura del propio botón de desplazamiento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Color de fondo del contenedor. </p> </td> 
   </tr> 
  </tbody> 
@@ -120,19 +120,19 @@ El aspecto de este botón se controla con el siguiente selector de clase CSS:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Anchura del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Altura del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo </span> </p> </td> 
    <td colname="col2"> <p>Imagen que se muestra para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo </span> </p> </td> 
    <td colname="col2"> <p>Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -140,11 +140,11 @@ El aspecto de este botón se controla con el siguiente selector de clase CSS:
 
 >[!NOTE]
 >
->Este botón admite los selectores de atributos `state` y `selected`, que pueden utilizarse para aplicar diferentes aspectos a diferentes estados de botones. En concreto, `state="selected"` corresponde al estado del botón de desplazamiento inicial cuando es posible desplazar el contenido de la barra de control hacia la izquierda; `state="default"` corresponde al estado en el que el contenido se desplaza hasta la izquierda y el botón de desplazamiento sugiere que vuelva al estado inicial.
+>Este botón admite la variable `state` y `selected` selectores de atributos, que pueden utilizarse para aplicar diferentes aspectos a distintos estados de botones. En particular, `state="selected"` corresponde al estado del botón de desplazamiento inicial cuando es posible desplazar el contenido de la barra de control hacia la izquierda. El atributo `state="default"` corresponde al estado cuando el contenido se desplaza hasta la izquierda y el botón de desplazamiento sugiere devolverlo al estado inicial.
 
 La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
-**Ejemplo** : para habilitar la función de desplazamiento en la barra de control principal para teléfonos móviles, configure un botón de desplazamiento de 64 x 64 píxeles que muestre una imagen diferente para cada uno de los 4 estados de botón diferentes cuando esté seleccionado o no seleccionado:
+**Ejemplo** - Para habilitar la función de desplazamiento en la barra de control principal para teléfonos móviles. Además, configure un botón de desplazamiento de 64 x 64 píxeles que muestre una imagen diferente para cada uno de los 4 estados de botón diferentes cuando esté seleccionado o no seleccionado:
 
 ```
 .s7ecatalogviewer.s7size_small .s7controlbar .s7innercontrolbarcontainer { 

@@ -1,13 +1,13 @@
 ---
+title: Barra de control secundaria
 description: La barra de control secundaria es el área rectangular que contiene los botones Primera y Última página y un indicador de página cuando está disponible en CSS.
 solution: Experience Manager
-title: Barra de control secundaria
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 2354c3a0-2df7-4a18-aac1-fac158a9b659
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '172'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 La barra de control secundaria es el área rectangular que contiene los botones Primera y Última página y un indicador de página cuando está disponible en CSS.
 
-De forma predeterminada, se muestra solo en teléfonos móviles y se encuentra en la parte inferior del visor. Siempre toma toda la anchura del visor disponible. Es posible cambiar su color, altura y posición vertical mediante CSS, en relación con el contenedor del visor.
+De forma predeterminada, se muestra solo en teléfonos móviles y se coloca en la parte inferior del visor. Siempre toma toda la anchura del visor disponible. Es posible cambiar su color, altura y posición vertical mediante CSS, en relación con el contenedor del visor.
 
 El aspecto de la barra de control secundaria se controla con el siguiente selector de clase CSS:
 
@@ -43,7 +43,7 @@ El aspecto de la barra de control secundaria se controla con el siguiente select
    <td colname="col2"> <p>Altura de la barra de control principal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Color de fondo de la barra de control secundaria. </p> </td> 
   </tr> 
  </tbody> 

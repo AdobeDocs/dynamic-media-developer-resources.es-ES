@@ -1,20 +1,20 @@
 ---
-description: Al pulsar o hacer clic en este botón, se cierra la página web contenedora. Este botón solo aparece si el parámetro close button está establecido en 1. Este botón no está disponible en sistemas de escritorio. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
-solution: Experience Manager
 title: Botón Cerrar
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
+description: Al seleccionar o pulsar este botón, se cierra la página web contenedora. Este botón solo aparece si el parámetro close button está establecido en 1. Este botón no está disponible en sistemas de escritorio. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 07dc3a95-1f3e-44c4-8126-621f10aec212
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Botón Cerrar{#close-button}
 
-Al pulsar o hacer clic en este botón, se cierra la página web contenedora. Este botón solo aparece si el parámetro close button está establecido en 1. Este botón no está disponible en sistemas de escritorio. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
+Al seleccionar o pulsar este botón, se cierra la página web contenedora. Este botón solo aparece si el parámetro close button está establecido en 1. Este botón no está disponible en sistemas de escritorio. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -57,11 +57,11 @@ El aspecto del botón se controla con el siguiente selector de clase CSS:
    <td colname="col2"> <p>Altura del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo </span> </p> </td> 
    <td colname="col2"> <p>Imagen que se muestra para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo </span> </p> </td> 
    <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -69,11 +69,11 @@ El aspecto del botón se controla con el siguiente selector de clase CSS:
 
 >[!NOTE]
 >
->Este botón admite el selector de atributos `state`, que puede utilizar para aplicar diferentes aspectos a distintos estados de botones.
+>Este botón admite la variable `state` selector de atributos, que puede utilizar para aplicar diferentes aspectos a distintos estados de botones.
 
 La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
-Ejemplo: para configurar un botón de cierre de 56 x 56 píxeles, situado 4 píxeles desde el borde superior y derecho de la barra de control principal, y muestra una imagen diferente para cada uno de los cuatro estados de botón diferentes.
+Ejemplo: para configurar un botón Cerrar de 56 x 56 píxeles y situado a 4 píxeles del borde superior y derecho de la barra de control principal. Finalmente, muestra una imagen diferente para cada uno de los cuatro estados de botones diferentes.
 
 ```
 .s7ecatalogviewer .s7closebutton { 

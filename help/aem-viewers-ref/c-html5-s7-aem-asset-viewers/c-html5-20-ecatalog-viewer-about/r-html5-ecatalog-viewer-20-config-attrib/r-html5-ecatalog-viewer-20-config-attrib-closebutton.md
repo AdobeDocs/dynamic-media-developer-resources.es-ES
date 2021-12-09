@@ -1,14 +1,14 @@
 ---
-description: Botón Cerrar
-solution: Experience Manager
 title: Botón Cerrar
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
+description: El botón Cerrar
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 253dad70-c46c-4d37-8d0c-2a97a5f53f13
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 10%
+source-wordcount: '43'
+ht-degree: 11%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 10%
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
-   <td colname="col2"> <p>Configúrelo en <span class="codeph"> 1 </span> para habilitar la visualización del botón de cierre. O bien, establezca en <span class="codeph"> 0 </span> para ocultar el botón de cierre. </p> <p>El botón de cierre solo se admite en dispositivos táctiles; no se puede mostrar en sistemas de escritorio. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
+   <td colname="col2"> <p>Establecer como <span class="codeph"> 1 </span> para activar la visualización del botón Cerrar. O bien, establezca en <span class="codeph"> 0 </span> para ocultar el botón Cerrar. </p> <p>El botón Cerrar solo se admite en dispositivos táctiles; no se puede mostrar en sistemas de escritorio. </p> </td> 
   </tr> 
  </tbody> 
 </table>

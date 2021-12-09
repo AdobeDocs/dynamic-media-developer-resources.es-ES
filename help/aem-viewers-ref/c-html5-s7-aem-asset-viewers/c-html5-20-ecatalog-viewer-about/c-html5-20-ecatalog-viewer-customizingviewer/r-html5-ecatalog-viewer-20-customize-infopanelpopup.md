@@ -2,13 +2,13 @@
 description: La ventana emergente del panel de información se muestra en medio del área del visor cuando un usuario activa un mapa de imagen que tiene una propiedad rollover_key definida en Dynamic Media Classic y si la función del panel de información está configurada correctamente para el visor.
 solution: Experience Manager
 title: Ventana emergente del panel Información
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: c29f085e-8093-44d2-8f98-9341d780cca8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,11 +29,11 @@ El fondo del panel de información cubre toda la zona del visor y se controla co
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
-   <td colname="col2"> <p>Relleno de fondo del panel de información. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo </span> </p> </td> 
+   <td colname="col2"> <p>Fondo de relleno del panel de información. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo </span> </p> </td> 
    <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -76,11 +76,11 @@ El cuadro de diálogo del panel de información se muestra de forma predetermina
    <td colname="col2"> <p>Altura del cuadro de diálogo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
    <td colname="col2"> <p>El margen izquierdo del cuadro de diálogo del panel de información puede utilizarse con fines centrados. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
    <td colname="col2"> <p>Margen superior del cuadro de diálogo del panel de información, puede utilizarse con fines centrados. </p> </td> 
   </tr> 
   <tr> 
@@ -88,21 +88,21 @@ El cuadro de diálogo del panel de información se muestra de forma predetermina
    <td colname="col2"> <p>Margen de diálogo interno. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Color de fondo del cuadro de diálogo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
    <td colname="col2"> <p>Radio del borde del cuadro de diálogo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> box-Shadow  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> box-Shadow </span> </p> </td> 
    <td colname="col2"> <p>Sombra del cuadro de diálogo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ejemplo: configuración del cuadro de diálogo del panel de información de 300 x 200 píxeles centrado en el área del visor; tiene un margen de 40 píxeles en la parte superior y un margen de 10 píxeles en todos los demás lados, un fondo gris claro y un radio de borde de 10 píxeles y una sombra paralela.
+Ejemplo: Configuración del cuadro de diálogo del panel de información de 300 x 200 píxeles centrado en el área del visor. Tiene un margen de 40 píxeles en la parte superior y un margen de 10 píxeles en todos los demás lados, un fondo gris claro y un radio de borde de 10 píxeles y una sombra de colocación.
 
 ```
 .s7ecatalogviewer .s7infopanelpopup .s7overlay { 
@@ -153,19 +153,19 @@ El aspecto de este botón se controla con el siguiente selector de clase CSS:
    <td colname="col2"> <p>Posición desde el borde inferior del cuadro de diálogo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Ancho del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Altura del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo </span> </p> </td> 
    <td colname="col2"> <p>Imagen que se muestra para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo </span> </p> </td> 
    <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -173,11 +173,11 @@ El aspecto de este botón se controla con el siguiente selector de clase CSS:
 
 >[!NOTE]
 >
->Este botón admite el selector de atributos `state`, que puede utilizar para aplicar diferentes aspectos a distintos estados de botones.
+>Este botón admite la variable `state` selector de atributos, que puede utilizar para aplicar diferentes aspectos a distintos estados de botones.
 
 La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
-Ejemplo: para configurar un botón de cierre de cuadro de diálogo de 28 x 28 píxeles, situado 5 píxeles desde el borde superior y derecho del cuadro de diálogo del panel de información, y muestra una imagen diferente para cada uno de los cuatro estados de botón diferentes.
+Ejemplo: para configurar un cuadro de diálogo, el botón Cerrar es de 28 x 28 píxeles y se coloca a 5 píxeles desde el borde superior y derecho del cuadro de diálogo del panel de información. Finalmente, muestra una imagen diferente para cada uno de los cuatro estados de botones diferentes.
 
 ```
 .s7ecatalogviewer .s7infopanelpopup .s7closebutton { 

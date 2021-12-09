@@ -1,11 +1,11 @@
 ---
+title: setAsset
 description: Referencia de la API de JavaScript para el visualizador de vídeo.
 solution: Experience Manager
-title: setAsset
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 04b6bf4d-5c42-49e9-b585-de75ebf6c89f
-source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 2%
@@ -21,7 +21,7 @@ Referencia de la API de JavaScript para el visualizador de vídeo.
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> recurso  </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> recurso </span> </span> </p> </td> 
    <td colname="col2"> <p>{ <span class="codeph"> Cadena </span>} nuevo id de recurso o conjunto de imágenes explícito con modificadores opcionales de servicio de imágenes anexados después de <span class="codeph"> ? </span>. </p> <p> Este visor no admite las imágenes que utilizan IR (procesamiento de imágenes) o UGC (contenido generado por el usuario). </p> </td> 
   </tr> 
  </tbody> 

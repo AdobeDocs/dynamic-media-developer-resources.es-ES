@@ -1,13 +1,13 @@
 ---
+title: Información sobre herramientas
 description: En los sistemas de escritorio, algunos elementos de la interfaz de usuario, como los botones, tienen información sobre herramientas que se muestra al pasar el ratón por encima.
 solution: Experience Manager
-title: Información sobre herramientas
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: f47ad399-dcf0-4860-81a3-31ff42cea648
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '136'
 ht-degree: 6%
 
 ---
@@ -35,15 +35,15 @@ El aspecto de las informaciones de objeto se controla con el siguiente selector 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
    <td colname="col2"> <p> Radio del borde de fondo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> borde-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> borde-color </span> </p> </td> 
    <td colname="col2"> <p> Color del borde del fondo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Color de fondo. </p> </td> 
   </tr> 
   <tr> 
@@ -51,11 +51,11 @@ El aspecto de las informaciones de objeto se controla con el siguiente selector 
    <td colname="col2"> <p>Color de texto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Nombre de fuente del texto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Tamaño de fuente del texto. </p> </td> 
   </tr> 
  </tbody> 
@@ -63,9 +63,9 @@ El aspecto de las informaciones de objeto se controla con el siguiente selector 
 
 >[!NOTE]
 >
->En caso de que los estilos de información sobre herramientas se personalicen desde la página web de incrustación, todas las propiedades deben contener la regla `!IMPORTANT` . Esto no es necesario si la información de objeto se personaliza en el archivo CSS del visor.
+>En caso de que los estilos de información sobre herramientas se personalicen desde la página web de incrustación, todas las propiedades deben contener `!IMPORTANT` regla. Esta regla no es necesaria si la información de objeto se personaliza en el archivo CSS del visor.
 
-Ejemplo: para configurar informaciones de objeto con un borde gris con un radio de esquina de 3 píxeles, fondo negro y texto blanco escrito con Arial, con un tamaño de 11 píxeles:
+Ejemplo: para configurar información sobre herramientas que tengan un borde gris con un radio de esquina de 3 píxeles, fondo negro y texto blanco escrito con Arial®, tamaño de 11 píxeles:
 
 ```
 .s7tooltip { 

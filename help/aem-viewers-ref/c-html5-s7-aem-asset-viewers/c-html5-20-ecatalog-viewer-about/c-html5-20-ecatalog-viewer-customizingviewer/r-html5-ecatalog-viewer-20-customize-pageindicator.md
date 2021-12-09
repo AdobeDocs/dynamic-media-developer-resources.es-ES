@@ -1,14 +1,14 @@
 ---
+title: Indicador de página
 description: El indicador de página muestra el índice de página actual y el recuento total de páginas. Aparece en la barra de control principal en sistemas de escritorio y tabletas, en teléfonos móviles se agrega a la barra de control secundaria. CSS puede cambiar el tamaño, el aspecto y la posición del indicador de página.
 solution: Experience Manager
-title: Indicador de página
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: c63af583-274c-4052-8186-604119a368af
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -57,17 +57,17 @@ El aspecto del indicador de página se controla con el siguiente selector de cla
    <td colname="col2"> <p>Color de la fuente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Nombre de la fuente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Tamaño de fuente. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ejemplo: para configurar un indicador de página de 56 x 28 píxeles, centrado horizontalmente y colocado 4 píxeles desde la parte inferior de la barra de control principal, y utilizar una fuente Helvetica de 14 píxeles.
+Ejemplo: para configurar un indicador de página de 56 x 28 píxeles, centrado horizontalmente y colocado 4 píxeles desde la parte inferior de la barra de control principal, y utilizar una fuente Helvetica® de 14 píxeles.
 
 ```
 .s7ecatalogviewer  .s7pageindicator { 

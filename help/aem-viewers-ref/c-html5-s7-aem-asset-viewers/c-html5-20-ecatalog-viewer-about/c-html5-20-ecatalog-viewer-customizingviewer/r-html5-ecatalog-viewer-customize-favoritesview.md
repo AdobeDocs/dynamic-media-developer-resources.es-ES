@@ -1,13 +1,13 @@
 ---
+title: Vista Favoritos
 description: La vista Favoritos consiste en una columna de imágenes en miniatura.
 solution: Experience Manager
-title: Vista Favoritos
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 10536242-1015-49ff-ae27-59671f30d886
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '288'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ La vista gestiona la posición y el alto de la vista Favoritos; en CSS solo es p
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Color de fondo de la vista Favoritos. </p> </td> 
   </tr> 
   <tr> 
@@ -41,7 +41,7 @@ La vista gestiona la posición y el alto de la vista Favoritos; en CSS solo es p
  </tbody> 
 </table>
 
-Ejemplo: para configurar una vista Favoritos de 100 píxeles de ancho con un fondo gris semitransparente.
+Ejemplo: para configurar una vista Favoritos de 100 píxeles de ancho con un fondo gris semitransparente:
 
 ```
 .s7ecatalogviewer .s7favoritesview { 
@@ -62,12 +62,12 @@ El espaciado entre miniaturas de Favoritos se controla con el siguiente selector
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> El tamaño del margen vertical alrededor de cada miniatura. El espaciado en miniatura real es igual a la suma de los márgenes superior e inferior que se establecen para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col2"> <p> El tamaño del margen vertical alrededor de cada miniatura. El espaciado en miniatura real es igual a la suma de los márgenes superior e inferior definidos para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ejemplo: para configurar el espaciado de 10 píxeles.
+Ejemplo: Para configurar el espaciado de diez píxeles:
 
 ```
 .s7ecatalogviewer .s7favoritesview .s7thumbcell { 
@@ -86,7 +86,7 @@ El aspecto de la miniatura individual se controla con el siguiente selector de c
 <table id="table_6F5B1438CAFA49E9B33400C6970ABDA1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Anchura de la miniatura. </p> </td> 
   </tr> 
   <tr> 
@@ -102,9 +102,9 @@ El aspecto de la miniatura individual se controla con el siguiente selector de c
 
 >[!NOTE]
 >
->La miniatura admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes aspectos a diferentes estados de miniaturas. En concreto, `state="selected"` corresponde a la miniatura seleccionada recientemente por el usuario. `state="default"` corresponde al resto de las miniaturas. Y `state="over"` se utiliza al pasar el ratón por encima.
+>La miniatura es compatible con el `state` selector de atributos, que se puede utilizar para aplicar diferentes aspectos a distintos estados de miniaturas. En particular, `state="selected"` corresponde a la miniatura seleccionada recientemente por el usuario. El atributo `state="default"` corresponde al resto de las miniaturas. Y, el atributo `state="over"` se utiliza al pasar el ratón por encima.
 
-Por ejemplo: para configurar miniaturas de 75 x 75 píxeles, tenga un borde predeterminado de gris claro y un borde seleccionado de gris oscuro.
+Ejemplo: para configurar miniaturas de 75 x 75 píxeles, tenga un borde predeterminado de gris claro y un borde seleccionado de gris oscuro:
 
 ```
 .s7ecatalogviewer .s7favoritesview .s7thumb { 
@@ -130,17 +130,17 @@ El aspecto de la etiqueta de miniatura se controla con el siguiente selector de 
 <table id="table_B41339A16ACB46CB87D3EB1FD05FA2CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Nombre de la fuente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Tamaño de fuente. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ejemplo: para configurar etiquetas con una fuente Helvetica de 14 píxeles.
+Ejemplo: Para configurar etiquetas con una fuente Helvetica® de 14 píxeles:
 
 ```
 .s7ecatalogviewer .s7favoritesview .s7label { 

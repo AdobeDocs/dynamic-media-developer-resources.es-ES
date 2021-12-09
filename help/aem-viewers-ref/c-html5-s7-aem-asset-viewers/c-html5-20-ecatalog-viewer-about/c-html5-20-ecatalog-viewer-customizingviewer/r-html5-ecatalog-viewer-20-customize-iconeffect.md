@@ -1,13 +1,13 @@
 ---
+title: Icono, efecto
 description: El indicador de zoom se superpone en el área de vista principal. Se muestra cuando la imagen está en estado de restablecimiento y también depende del parámetro iconeffect.
 solution: Experience Manager
-title: Icono, efecto
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: fee22d02-172c-4f82-9b6c-e06db530f400
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '162'
 ht-degree: 1%
 
 ---
@@ -33,11 +33,11 @@ El aspecto del área de visualización se controla con el siguiente selector de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo </span> </p> </td> 
    <td colname="col2"> <p> Ilustración del indicador de zoom. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo </span> </p> </td> 
    <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -53,7 +53,7 @@ El aspecto del área de visualización se controla con el siguiente selector de 
 
 >[!NOTE]
 >
->El efecto Icono es compatible con el selector de atributos `media-type`, que puede utilizar para aplicar distintos efectos de icono en distintos dispositivos. En concreto, `media-type='standard'` corresponde a sistemas de escritorio en los que se utiliza normalmente la entrada del ratón y `media-type='multitouch'` corresponde a dispositivos con entrada táctil.
+>El efecto Icono admite la variable `media-type` selector de atributos, que puede utilizar para aplicar distintos efectos de icono en distintos dispositivos. En particular, `media-type='standard'` corresponde a los sistemas de escritorio en los que normalmente se utiliza la entrada del ratón y `media-type='multitouch'` corresponde a los dispositivos con entrada táctil.
 
 Ejemplo: para configurar un indicador de zoom de 100 x 100 píxeles con diferentes características para sistemas de escritorio y dispositivos táctiles.
 
