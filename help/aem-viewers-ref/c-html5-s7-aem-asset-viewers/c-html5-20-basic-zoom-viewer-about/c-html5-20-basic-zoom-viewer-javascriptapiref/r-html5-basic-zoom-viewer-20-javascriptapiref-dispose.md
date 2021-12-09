@@ -1,13 +1,13 @@
 ---
+title: dispose
 description: Referencia de la API de JavaScript para el visor de zoom básico.
 solution: Experience Manager
-title: dispose
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 49c353f7-deab-43a7-84dd-21fda7864574
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 61e3a1fd0e21d336eaf5232096f5b1b54f2a6353
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '126'
 ht-degree: 3%
 
 ---
@@ -22,9 +22,9 @@ Elimina esta instancia del visor liberando todos los recursos utilizados por la 
 
 El código de la página web también debe eliminar la variable de instancia del visor para eliminarlo completamente de la memoria del explorador web.
 
-Si el código de la página web ha registrado oyentes de eventos directamente en los componentes del SDK de visor utilizados por el visor o las referencias externas almacenadas a dichos componentes, dichos oyentes deben no estar registrados explícitamente en el código de la página web y dichas referencias de componentes externos deben eliminarse antes de llamar a `dispose()`.
+Si el código de la página web ha registrado oyentes de eventos directamente en los componentes del SDK de visor utilizados por el visor (o si se han almacenado referencias externas a dichos componentes), el código de la página web debe anular explícitamente el registro de dichos oyentes. Además, dichas referencias de componentes externos deben eliminarse antes de llamar a `dispose()`.
 
-No acceda más a la API del visor después de llamar a `dispose()`.
+No acceda a la API del visor después de `dispose()` se llama.
 
 ## Parámetros {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 

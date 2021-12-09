@@ -1,26 +1,26 @@
 ---
+title: ZoomView.rgn
 description: ZoomView.rgn
 solution: Experience Manager
-title: ZoomView.rgn
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: fa978c5f-2473-4c2c-ac3e-6273283825e3
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 61e3a1fd0e21d336eaf5232096f5b1b54f2a6353
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 11%
+source-wordcount: '38'
+ht-degree: 13%
 
 ---
 
 # ZoomView.rgn{#zoomview-rgn}
 
-` [ZoomView.|<containerId>_zoomView.]rgn= *``*, *``*, *``*, *`xywh`*`
+` [ZoomView.|<containerId>_zoomView.]rgn= *`x`*, *`y`*, *`w`*, *`h`*`
 
 <table id="table_68D8AADB572F4C2095967D12162F8991"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> x,y,w,h</span> </p> </td> 
-   <td colname="col2"> <p> Región inicial de interés en coordenadas de píxeles. Si no se especifica este valor, la imagen completa se instalará dentro de la ventanilla inicial. </p> </td> 
+   <td colname="col2"> <p> Región inicial de interés en coordenadas de píxeles. Si no se especifican estos valores, toda la imagen se instala en la ventanilla inicial. </p> </td> 
   </tr> 
  </tbody> 
 </table>
