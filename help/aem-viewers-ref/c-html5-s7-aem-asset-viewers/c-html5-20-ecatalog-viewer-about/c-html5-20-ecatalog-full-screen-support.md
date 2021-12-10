@@ -1,13 +1,13 @@
 ---
+title: Compatibilidad con pantalla completa
 description: El visor admite el modo de funcionamiento de pantalla completa.
 solution: Experience Manager
-title: Compatibilidad con pantalla completa
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: df32b70d-6d18-4dd1-a4b6-cdce2770f1c5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---

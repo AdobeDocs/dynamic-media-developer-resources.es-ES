@@ -1,14 +1,14 @@
 ---
+title: ThumbnailGridView.textpos
 description: ThumbnailGridView.textpos
 solution: Experience Manager
-title: ThumbnailGridView.textpos
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 916bc2a7-df21-459c-bf89-4daee9333479
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 5%
+source-wordcount: '63'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td> <p> Especifica dónde se dibuja la etiqueta en relación con la imagen en miniatura. Es decir, la etiqueta se centra en la ubicación especificada en relación con la miniatura. </p> <p>Cuando se especifica <span class="codeph"> tooltip</span> , el texto de la etiqueta se muestra como información de objeto flotante sobre la imagen en miniatura. Configúrelo en <span class="codeph"> ninguno</span> para desactivar la etiqueta. </p> </td> 
+   <td> <p> Especifica dónde se dibuja la etiqueta en relación con la imagen en miniatura. Es decir, la etiqueta se centra en la ubicación especificada en relación con la miniatura. </p> <p>When <span class="codeph"> tooltip</span> se especifica, el texto de la etiqueta se muestra como información de objeto flotante sobre la imagen en miniatura. Establecer como <span class="codeph"> ninguno</span> para desactivar la etiqueta. </p> </td> 
   </tr> 
  </tbody> 
 </table>

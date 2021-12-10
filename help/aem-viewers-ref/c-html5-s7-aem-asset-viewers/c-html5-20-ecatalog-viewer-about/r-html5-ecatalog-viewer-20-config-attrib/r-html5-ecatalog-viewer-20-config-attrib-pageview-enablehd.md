@@ -1,13 +1,13 @@
 ---
+title: PageView.enableHD
 description: PageView.enableHD
 solution: Experience Manager
-title: PageView.enableHD
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: f03762f2-87db-4284-ba59-9ece8caa0d09
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '280'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> always|never|limit</span> </p> </td> 
-   <td colname="col2"> <p> Habilite, limite o deshabilite la optimización para dispositivos en los que <span class="codeph"> devicePixelRatio</span> sea bueno que <span class="codeph"> 1</span>, es decir, dispositivos con una pantalla de alta densidad como iPhone4 y dispositivos similares. Si está activo, el componente limita el tamaño de la solicitud de imagen IS como si el dispositivo solo tuviera una relación de píxeles de <span class="codeph"> 1</span> y de esa manera se reduzca el ancho de banda. </p> <p>Consulte el ejemplo siguiente </p> </td> 
+   <td colname="col2"> <p> Habilitar, limitar o deshabilitar la optimización para dispositivos en los que <span class="codeph"> devicePixelRatio</span> es bueno que <span class="codeph"> 1</span>, es decir, dispositivos con pantalla de alta densidad como iPhone4 y dispositivos similares. Si está activo, el componente limita el tamaño de la solicitud de imagen IS como si el dispositivo solo tuviera una proporción de píxeles de <span class="codeph"> 1</span> y de esa manera reducir el ancho de banda. </p> <p>Consulte el ejemplo siguiente </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> número</span></span> </p> </td> 
@@ -51,7 +51,7 @@ Los siguientes son los resultados esperados al utilizar este atributo de configu
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> siempre</span> </p> </td> 
-   <td colname="col2"> <p>Siempre se tiene en cuenta la densidad de píxeles de la pantalla/dispositivo. </p> <p> 
+   <td colname="col2"> <p>La densidad de píxeles de la pantalla/dispositivo siempre se contabiliza. </p> <p> 
      <ul id="ul_D8F31FDFCDB74B75A3B1BFBEE33AF2E2"> 
       <li id="li_8A1C6DCCE10545349C73029729211BB2"> <p>Si la densidad de píxeles de la pantalla = 1, la imagen solicitada es 1000 x 1000. </p> </li> 
       <li id="li_884156A34AC64B4E9B3ACC4C25EB710F"> <p>Si la densidad de píxeles de la pantalla = 1,5, la imagen solicitada es 1500 x 1500. </p> </li> 
@@ -68,7 +68,7 @@ Los siguientes son los resultados esperados al utilizar este atributo de configu
      <ul id="ul_CEC06B2280164951BA1A0ADED99E8050"> 
       <li id="li_CA7A0980ACC54690A4F212DF53E2DC8A"> <p>Si el número límite es 1600 y la densidad de píxeles es 1,5, se sirve la imagen de 1500 x 1500. </p> </li> 
       <li id="li_A4AAD7FBFA0347B082789511CA6768A5"> <p>Si el número límite es 1600 y la densidad de píxeles es 2, se sirve la imagen de 1000 x 1000 porque la imagen de 2000 x 2000 supera el límite. </p> </li> 
-     </ul> </p> <p><b>Práctica recomendada</b>: El número límite debe funcionar junto con la configuración de la empresa para la imagen de tamaño máximo. Por lo tanto, establezca el número límite para que sea igual al tamaño máximo de imagen de la empresa. </p> </td> 
+     </ul> </p> <p><b>Práctica recomendada</b>: El número límite debe funcionar con la configuración de la empresa para la imagen de tamaño máximo. Por lo tanto, establezca el número límite para que sea igual al tamaño máximo de imagen de la empresa. </p> </td> 
   </tr> 
  </tbody> 
 </table>

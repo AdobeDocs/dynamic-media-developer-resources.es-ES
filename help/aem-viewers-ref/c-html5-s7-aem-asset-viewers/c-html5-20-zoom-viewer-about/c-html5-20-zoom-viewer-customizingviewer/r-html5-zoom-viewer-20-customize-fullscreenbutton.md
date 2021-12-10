@@ -1,13 +1,13 @@
 ---
+title: Botón Pantalla completa
 description: Hace que el usuario introduzca o salga del modo de pantalla completa cuando lo selecciona. Este botón no se muestra si el visor funciona en modo emergente y el sistema no admite pantalla completa nativa. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
 solution: Experience Manager
-title: Botón Pantalla completa
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: bbbf32db-15ce-4273-acc0-b6725b5405fb
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '280'
 ht-degree: 2%
 
 ---
@@ -75,7 +75,7 @@ El aspecto del botón se controla con el siguiente selector de clase CSS:
 
 La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
-Ejemplo: para configurar un botón de pantalla completa de 32 x 32 píxeles, situado a seis píxeles desde el borde superior y derecho del visor, y muestra una imagen diferente para cada uno de los cuatro estados de botón diferentes cuando se selecciona o no se selecciona:
+Ejemplo: para configurar un botón de pantalla completa de 32 x 32 píxeles y colocar seis píxeles desde el borde superior y derecho del visor. Finalmente, muestra una imagen diferente para cada uno de los cuatro estados de botón diferentes cuando se selecciona o no:
 
 ```
 .s7zoomviewer .s7fullscreenbutton { 

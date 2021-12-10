@@ -1,11 +1,11 @@
 ---
+title: Compatibilidad con el seguimiento de Adobe Analytics
 description: El visor de catálogos electrónicos es compatible con el seguimiento de Adobe Analytics fuera de la caja.
 solution: Experience Manager
-title: Compatibilidad con el seguimiento de Adobe Analytics
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 714e8001-06dc-49b1-838f-ab9772f2527c
-source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 4%
@@ -18,13 +18,13 @@ El visor de catálogos electrónicos es compatible con el seguimiento de Adobe A
 
 ## Seguimiento predeterminado {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-El visor de catálogos electrónicos admite el seguimiento [!DNL Adobe Analytics] listo para usar. Para habilitar el seguimiento, pase el nombre de ajuste preestablecido de empresa adecuado como parámetro `config2`.
+El visor de catálogos electrónicos es compatible [!DNL Adobe Analytics] seguimiento listo para usar. Para habilitar el seguimiento, pase el nombre de ajuste preestablecido de la empresa correspondiente como `config2` parámetro.
 
 El visor también envía una única solicitud HTTP de seguimiento al servidor de imágenes configurado con el tipo de visor y la información de versión.
 
 ## Seguimiento personalizado {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Para integrarse con sistemas de análisis de terceros, es necesario escuchar la llamada de retorno del visor `trackEvent` y procesar el argumento `eventInfo` de la función de llamada de retorno según sea necesario. El siguiente código es un ejemplo de dicha función de controlador:
+Para integrarse con sistemas de análisis de terceros, es necesario escuchar la `trackEvent` la llamada de retorno del visor y procese la `eventInfo` de la función de llamada de retorno según sea necesario. El siguiente código es un ejemplo de dicha función de controlador:
 
 ```
 var eCatalogViewer = new s7viewers.eCatalogViewer({ 
@@ -64,7 +64,7 @@ El visor realiza el seguimiento de los siguientes eventos de usuario de SDK:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>un recurso se intercambia en el visor mediante la API <span class="codeph"> setAsset() </span>. </p> </td> 
+   <td colname="col2"> <p>un recurso se intercambia en el visualizador mediante la función <span class="codeph"> setAsset() </span> API. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 

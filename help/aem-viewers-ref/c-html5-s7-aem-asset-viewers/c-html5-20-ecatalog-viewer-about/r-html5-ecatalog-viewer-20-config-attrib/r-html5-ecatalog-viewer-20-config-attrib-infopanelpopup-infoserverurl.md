@@ -1,13 +1,13 @@
 ---
+title: InfoPanelPopup.infoServerUrl
 description: InfoPanelPopup.infoServerUrl
 solution: Experience Manager
-title: InfoPanelPopup.infoServerUrl
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo electrónico
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 83abaecb-cc85-4918-98ed-2770b4ca407b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '190'
 ht-degree: 2%
 
 ---
@@ -20,14 +20,14 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> infoserverurl</span></span> </p> </td> 
-   <td> <p>La plantilla URL del servidor de información se utiliza para recuperar pares clave/valor para la sustitución de variables en la plantilla de contenido del panel de información. La plantilla especificada generalmente contiene marcadores de posición de macro que se sustituyen por los datos reales antes de que la solicitud se envíe al servidor. </p> <p><span class="codeph"> $1$</span> se reemplaza con el valor de sustitución que activó la  <span class="codeph"> </span> activación de InfoPanelPopupactivation. </p> <p><span class="codeph"> $2$</span> se reemplaza con el número de secuencia del fotograma actual en el conjunto de imágenes. </p> <p><span class="codeph"> $3$</span> se reemplaza con el primer elemento de ruta especificado en el nombre del conjunto principal del elemento actual. Normalmente corresponde al ID de catálogo. </p> <p><span class="codeph"> $4$</span> se reemplaza con el siguiente elemento en la ruta y corresponde al ID del recurso. La sintaxis real de la solicitud del servidor de información depende del servidor de información y difiere de un servidor a otro. Por ejemplo, lo siguiente es una plantilla de solicitud de servidor de información de Dynamic Media típica: </p> <p><span class="codeph"> http://server_domain/s7info/s7/$3$/$4$/$1$</span> </p> </td> 
+   <td> <p>La plantilla URL del servidor de información se utiliza para recuperar pares clave/valor para la sustitución de variables en la plantilla de contenido del panel de información. La plantilla especificada generalmente contiene marcadores de posición de macro que se sustituyen por los datos reales antes de que la solicitud se envíe al servidor. </p> <p><span class="codeph"> $1$</span> se reemplaza por el valor de sustitución que activó la variable <span class="codeph"> InfoPanelPopup</span> activación. </p> <p><span class="codeph"> $2$</span> se reemplaza por el número de secuencia del fotograma actual en el conjunto de imágenes. </p> <p><span class="codeph"> $3$</span> se reemplaza por el primer elemento de ruta especificado en el nombre del conjunto principal del elemento actual. Normalmente corresponde al ID de catálogo. </p> <p><span class="codeph"> $4$</span> se reemplaza por el siguiente elemento en la ruta de acceso y corresponde al id de recurso. La sintaxis real de la solicitud del servidor de información depende del servidor de información y difiere de un servidor a otro. Por ejemplo, lo siguiente es una plantilla de solicitud de servidor de información de Dynamic Media típica: </p> <p><span class="codeph"> http://server_domain/s7info/s7/$3$/$4$/$1$</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Tenga en cuenta que, al configurar la ventana emergente del panel de información, el código HTML y el código JavaScript que se pasan al panel de información se ejecutan en el equipo del cliente. Por lo tanto, asegúrese de que dicho código HTML y código JavaScript sean seguros.
+>Al configurar la ventana emergente del panel de información, el código de HTML y el código JavaScript que se pasan al panel de información se ejecutan en el equipo del cliente. Por lo tanto, asegúrese de que dicho código de HTML y código JavaScript sean seguros.
 
 ## Propiedades {#section-71356e3c13244e62b0582980d9d05328}
 

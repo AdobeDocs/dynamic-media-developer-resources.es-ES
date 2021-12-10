@@ -1,21 +1,21 @@
 ---
-description: eCatalog Viewer es un visor de catálogos que muestra folletos electrónicos distribuidos por extensión o página por página, The eCatalog permite a los usuarios navegar por el catálogo utilizando elementos adicionales de la interfaz de usuario o el modo de miniaturas dedicado. Los usuarios también pueden ampliar todas las páginas para obtener buenos detalles.
+title: Catálogo electrónico
+description: eCatalog Viewer es un visor de catálogos que muestra folletos electrónicos distribuidos por extensión o página por página. El catálogo electrónico permite a los usuarios navegar por el catálogo utilizando elementos adicionales de la interfaz de usuario o el modo de miniaturas dedicado. Los usuarios también pueden ampliar todas las páginas para obtener buenos detalles.
 keywords: adaptable
 solution: Experience Manager
-title: Catálogo electrónico
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 8e243fa5-e375-41ce-8b49-2571023130c1
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '2164'
+source-wordcount: '2160'
 ht-degree: 0%
 
 ---
 
 # Catálogo electrónico{#ecatalog}
 
-eCatalog Viewer es un visor de catálogos que muestra folletos electrónicos distribuidos por extensión o página por página, The eCatalog permite a los usuarios navegar por el catálogo utilizando elementos adicionales de la interfaz de usuario o el modo de miniaturas dedicado. Los usuarios también pueden ampliar todas las páginas para obtener buenos detalles.
+eCatalog Viewer es un visor de catálogos que muestra folletos electrónicos distribuidos por extensión o página por página. El catálogo electrónico permite a los usuarios navegar por el catálogo utilizando elementos adicionales de la interfaz de usuario o el modo de miniaturas dedicado. Los usuarios también pueden ampliar todas las páginas para obtener buenos detalles.
 
 >[!NOTE]
 >
@@ -84,7 +84,7 @@ Este visor es totalmente accesible mediante el teclado, tal como se describe en 
 
 ## Herramientas de uso compartido en medios sociales con el visor de catálogos electrónicos {#section-eb575084a99647c3a9591f439f40b412}
 
-El visor de catálogos electrónicos es compatible con las herramientas de uso compartido en redes sociales. Están disponibles como un botón en la barra de control principal que se expande a una barra de herramientas de uso compartido cuando un usuario hace clic o pulsa en ella.
+El visor de catálogos electrónicos es compatible con las herramientas de uso compartido en redes sociales. Están disponibles como un botón en la barra de control principal que se expande a una barra de herramientas para compartir cuando un usuario hace clic o pulsa en ella.
 
 La barra de herramientas para compartir contiene iconos para cada tipo de canal de uso compartido admitido, que incluye Facebook, Twitter, uso compartido de correo electrónico, uso compartido de código incrustado y uso compartido de vínculos. Cuando se activan las herramientas de uso compartido por correo electrónico, uso compartido incrustado o uso compartido de vínculos, el visor muestra un cuadro de diálogo modal con un formulario de entrada de datos correspondiente. Cuando se llama a Facebook o Twitter, el visor redirige al usuario a un cuadro de diálogo de uso compartido estándar desde un servicio social. Las herramientas de uso compartido no están disponibles en el modo de pantalla completa debido a las restricciones de seguridad del explorador web.
 
@@ -116,11 +116,11 @@ En el modo integrado, el visor se añade a la página web existente, que puede t
 
 Los casos de uso principales son páginas web orientadas a equipos de escritorio o tabletas, y también páginas diseñadas con capacidad de respuesta que ajustan el diseño automáticamente en función del tipo de dispositivo.
 
-La incrustación de tamaño fijo se utiliza cuando el visor no cambia su tamaño después de la carga inicial. Esta es la mejor opción para páginas web con diseño estático.
+La incrustación de tamaño fijo se utiliza cuando el visor no cambia su tamaño después de la carga inicial. Este método es la mejor opción para páginas web con diseño estático.
 
-La incrustación de diseño interactivo supone que el visor puede tener que cambiar el tamaño durante la ejecución en respuesta al cambio de tamaño de su contenedor `DIV`. El caso de uso más común es agregar un visor a una página web que utilice un diseño de página flexible.
+La incrustación de diseño interactivo supone que el visor debe cambiar el tamaño durante la ejecución en respuesta al cambio de tamaño de su contenedor `DIV`. El caso de uso más común es agregar un visor a una página web que utilice un diseño de página flexible.
 
-En el modo de incrustación de diseño interactivo, el visor se comporta de forma diferente en función del tamaño de la página web y su contenedor `DIV`. Si la página web establece solo la anchura del contenedor `DIV`, dejando su altura sin restricciones, el visor elige automáticamente su altura según la proporción de aspecto del recurso que se utilice. Esta funcionalidad garantiza que el recurso encaje perfectamente en la vista sin ningún relleno en los lados. Este caso de uso es el más común para páginas web que usan marcos de diseño interactivos como Bootstrap, Fundación, etc.
+En el modo de incrustación de diseño interactivo, el visor se comporta de forma diferente en función del tamaño de la página web y su contenedor `DIV`. Si la página web establece solo la anchura del contenedor `DIV`, dejando su altura sin restricciones, el visor elige automáticamente su altura según la proporción de aspecto del recurso que se utilice. Esta funcionalidad garantiza que el recurso encaje perfectamente en la vista sin ningún relleno en los lados. Este caso de uso es el más común para las páginas web que usan marcos de diseño interactivos como Bootstrap y Fundación.
 
 De lo contrario, si la página web establece la anchura y la altura del contenedor del visor `DIV`, el visor rellena solo esa área y sigue el tamaño que proporciona el diseño de la página web. Un buen ejemplo es integrar el visor en una superposición modal, donde el tamaño de la superposición depende del tamaño de la ventana del explorador web.
 
@@ -149,7 +149,7 @@ La ruta relativa tiene el siguiente aspecto:
 
 >[!NOTE]
 >
->Solo debe hacer referencia al JavaScript del visor principal `include` en la página. No debe hacer referencia a ningún archivo JavaScript adicional del código de la página web que pueda descargar la lógica del visor durante la ejecución. En particular, no haga referencia directa al SDK de HTML5 `Utils.js` biblioteca cargada por el visor desde `/s7viewers` ruta de contexto (denominado SDK consolidado) `include`). La razón es que la ubicación de `Utils.js` o bibliotecas de visores de tiempo de ejecución similares se gestionan completamente mediante la lógica del visor y la ubicación cambia entre las versiones del visor. El Adobe no mantiene versiones anteriores del visor secundario `includes` en el servidor.
+>Solo haga referencia al JavaScript del visor principal `include` en la página. No haga referencia a ningún archivo JavaScript adicional del código de la página web que pueda descargar la lógica del visor durante la ejecución. En particular, no haga referencia directa al SDK de HTML5 `Utils.js` biblioteca cargada por el visor desde `/s7viewers` ruta de contexto (denominado SDK consolidado) `include`). La razón es que la ubicación de `Utils.js` o bibliotecas de visores de tiempo de ejecución similares se gestionan completamente mediante la lógica del visor y la ubicación cambia entre las versiones del visor. El Adobe no mantiene versiones anteriores del visor secundario `includes` en el servidor.
 >
 >
 >Como resultado, poner una referencia directa a cualquier JavaScript secundario `include` utilizado por el visor en la página rompe la funcionalidad del visor en el futuro cuando se implemente una nueva versión del producto.
@@ -170,7 +170,7 @@ La ruta relativa tiene el siguiente aspecto:
 
    Puede establecer el tamaño estático del visor declarándolo para `.s7ecatalogviewer` clase CSS de nivel superior en unidades absolutas o utilizando `stagesize` modificador.
 
-   Puede colocar el tamaño en CSS directamente en la página HTML o en un archivo CSS de visor personalizado, que más tarde se asignará a un registro preestablecido de visor en Dynamic Media Classic, o se pasará explícitamente mediante un comando de estilo.
+   Puede colocar el tamaño en CSS directamente en la página HTML. O bien, ponga el tamaño en un archivo CSS de visualizador personalizado, que después se asigna a un registro preestablecido de visualizador en Dynamic Media Classic, o se pasa explícitamente mediante un comando de estilo.
 
    Consulte [Personalización del visor de catálogos electrónicos](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) para obtener más información sobre cómo aplicar estilo al visor con CSS.
 
@@ -183,7 +183,7 @@ La ruta relativa tiene el siguiente aspecto:
    }
    ```
 
-   Puede configurar la variable `stagesize` en el registro preestablecido de visualizador en Dynamic Media Classic o páselo explícitamente con el código de inicialización del visualizador con `params` o como una llamada de API como se describe en la sección Referencia de comandos, como se indica a continuación:
+   Puede configurar la variable `stagesize` modificador en el registro preestablecido de visualizador en Dynamic Media Classic. O bien, puede pasarlo explícitamente con el código de inicialización del visor con `params` o como una llamada de API como se describe en la sección Referencia de comandos, como se indica a continuación:
 
    ```
    eCatalogViewer.setParam("stagesize", 
@@ -196,7 +196,7 @@ La ruta relativa tiene el siguiente aspecto:
 
    Es importante tener el contenedor de visor agregado al DOM para que el código del visor pueda encontrar el elemento contenedor por su ID. Algunos exploradores retrasan la creación del DOM hasta el final de la página web. Sin embargo, para obtener la máxima compatibilidad, llame a la función `init()` justo antes del cierre `BODY` o en el cuerpo `onload()` evento.
 
-   Al mismo tiempo, el elemento contenedor no debe ser necesariamente parte del diseño de página web aún. Por ejemplo, puede ocultarse usando `display:none` estilo asignado a él. En este caso, el visor retrasa su proceso de inicialización hasta el momento en que la página web vuelve a poner el elemento contenedor en el diseño. Cuando esto sucede, la carga del visor se reanuda automáticamente.
+   Al mismo tiempo, el elemento contenedor no debe formar parte necesariamente del diseño de la página web todavía. Por ejemplo, puede ocultarse usando `display:none` estilo asignado a él. En este caso, el visor retrasa su proceso de inicialización hasta el momento en que la página web vuelve a poner el elemento contenedor en el diseño. Cuando se produce esta acción, la carga del visor se reanuda automáticamente.
 
    A continuación se muestra un ejemplo de creación de una instancia de visor, pasar las opciones de configuración mínimas necesarias al constructor y llamar a la función `init()` método. El ejemplo asume `eCatalogViewer` es la instancia del visor; `s7viewer` es el nombre del marcador de posición `DIV`; `https://s7d1.scene7.com/is/image/` es la URL del servicio de imágenes y `Viewers/Pluralist` es el recurso:
 
@@ -303,7 +303,7 @@ La siguiente página de ejemplos ilustra casos de uso más reales de incrustaci�
 
 **Integración de tamaño flexible con anchura y altura definidas**
 
-En caso de incrustación de tamaño flexible con anchura y altura definidas, el estilo de la página web es diferente. Es decir, proporciona ambos tamaños al &quot;titular&quot; `DIV` y la centra en la ventana del explorador. Además, la página web establece el tamaño de la variable `HTML` y `BODY` al 100%:
+En la incrustación de tamaño flexible con anchura y altura definidas, el estilo de la página web es diferente. Es decir, proporciona ambos tamaños al &quot;titular&quot; `DIV` y la centra en la ventana del explorador. Además, la página web establece el tamaño de la variable `HTML` y `BODY` al 100%:
 
 ```
 <!DOCTYPE html> 
