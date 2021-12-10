@@ -1,20 +1,20 @@
 ---
-description: Al pulsar o hacer clic en este botón, se restablece una imagen en la vista principal. Este botón aparece en la barra de control principal de los sistemas de escritorio y tabletas. En teléfonos móviles, este botón aparece en el centro inferior sobre la imagen. Sin embargo, no se muestra cuando la imagen está en estado de restablecimiento. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
-solution: Experience Manager
 title: Botón Restablecer zoom
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
+description: Al seleccionar este botón, se restablece una imagen en la vista principal. Este botón aparece en la barra de control principal de los sistemas de escritorio y tabletas. En teléfonos móviles, este botón aparece en el centro inferior sobre la imagen. Sin embargo, no se muestra cuando la imagen está en estado de restablecimiento. You can size, skin, and position this button by using CSS.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: d5aa9e9d-4d7e-428c-a43f-d2b4c9e59777
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '351'
 ht-degree: 1%
 
 ---
 
-# Botón Restablecer zoom{#zoom-reset-button}
+# Zoom reset button{#zoom-reset-button}
 
-Al pulsar o hacer clic en este botón, se restablece una imagen en la vista principal. Este botón aparece en la barra de control principal de los sistemas de escritorio y tabletas. En teléfonos móviles, este botón aparece en el centro inferior sobre la imagen. Sin embargo, no se muestra cuando la imagen está en estado de restablecimiento. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
+Al seleccionar este botón, se restablece una imagen en la vista principal. Este botón aparece en la barra de control principal de los sistemas de escritorio y tabletas. En teléfonos móviles, este botón aparece en el centro inferior sobre la imagen. Sin embargo, no se muestra cuando la imagen está en estado de restablecimiento. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -57,11 +57,11 @@ El aspecto del botón se controla con el siguiente selector de clase CSS:
    <td colname="col2"> <p>Altura del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo </span> </p> </td> 
    <td colname="col2"> <p>Imagen que se muestra para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo </span> </p> </td> 
    <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -69,11 +69,11 @@ El aspecto del botón se controla con el siguiente selector de clase CSS:
 
 >[!NOTE]
 >
->Este botón admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes aspectos a distintos estados de botones.
+>Este botón admite la variable `state` selector de atributos, que se puede utilizar para aplicar diferentes aspectos a distintos estados de botones.
 
 La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
-Ejemplo: para configurar un botón de restablecimiento de zoom de 28 x 28 píxeles, colocado (en el escritorio) 4 píxeles desde la parte inferior y 47 píxeles desde el borde derecho de la barra de control principal, y muestra una imagen diferente para cada uno de los cuatro estados de botón diferentes.
+Ejemplo : para configurar un botón de restablecimiento de zoom de 28 x 28 píxeles y posicionado (en el escritorio) a 4 píxeles de la parte inferior y a 47 píxeles del borde derecho de la barra de control principal. Finalmente, muestra una imagen diferente para cada uno de los cuatro estados de botones diferentes.
 
 ```
 .s7ecatalogsearchviewer .s7zoomresetbutton { 

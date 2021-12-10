@@ -1,30 +1,30 @@
 ---
+title: ZoomView.zoomstep
 description: ZoomView.zoomstep
 solution: Experience Manager
-title: ZoomView.zoomstep
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: bcd153f3-7a87-4e8f-825b-fc4a136de1dc
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '78'
 ht-degree: 7%
 
 ---
 
 # ZoomView.zoomstep{#zoomview-zoomstep}
 
-` [ZoomView.|<containerId>_zoomView.]zoomstep= *``*[, *`steplimit`*]`
+` [ZoomView.|<containerId>_zoomView.]zoomstep= *`step`*[, *`límite`*]`
 
 <table id="table_1D425B7685D448459CD3FE8D683C813C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> paso</span></span> </p> </td> 
-   <td colname="col2"> <p> Configura el número de acciones de acercamiento y alejamiento necesarias para aumentar o reducir la resolución en un factor de dos. El cambio de resolución para cada acción de zoom es de 2^1 por paso. Establézcalo en <span class="codeph"> 0</span> para hacer zoom a resolución completa con una sola acción de zoom. </p> </td> 
+   <td colname="col2"> <p> Configura el número de acciones de acercamiento y alejamiento necesarias para aumentar o reducir la resolución en un factor de dos. El cambio de resolución para cada acción de zoom es de 2^1 por paso. Establecer como <span class="codeph"> 0</span> para hacer zoom a la resolución completa con una sola acción de zoom. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> límite</span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica la resolución máxima de zoom, en relación con la imagen de resolución completa. El valor predeterminado es <span class="codeph"> 1.0</span>, lo que no permite ampliar el zoom más allá de la resolución completa. </p> </td> 
+   <td colname="col2"> <p> Especifica la resolución máxima de zoom, en relación con la imagen de resolución completa. El valor predeterminado es <span class="codeph"> 1,0</span>, que no permite ampliar la resolución más allá de la resolución completa. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,13 +1,13 @@
 ---
+title: Área del visor principal
 description: El área de vista principal es el área ocupada por la imagen del catálogo. Normalmente se configura para que se ajuste a la pantalla de dispositivo disponible cuando no se especifica ningún tamaño.
 solution: Experience Manager
-title: Área del visor principal
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 854f5fa7-f46d-4c4f-9a44-886fec93f606
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '116'
 ht-degree: 2%
 
 ---
@@ -43,13 +43,13 @@ El aspecto del área de visualización se controla con el siguiente selector de 
    <td colname="col2"> <p>Altura del visor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Color de fondo en formato hexadecimal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ejemplo: para configurar un visualizador con un fondo blanco ( `#FFFFFF`) y hacer que su tamaño sea de 512 x 288 píxeles.
+Ejemplo: Configuración de un visor con un fondo blanco ( `#FFFFFF`) y hacer su tamaño 512 x 288 píxeles.
 
 ```
 .s7ecatalogsearchviewer { 

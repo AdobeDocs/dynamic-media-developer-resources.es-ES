@@ -1,13 +1,13 @@
 ---
+title: Efecto de búsqueda
 description: El visor muestra las regiones de los resultados de búsqueda en la vista principal para resaltar las palabras o frases que se encuentran en el catálogo.
 solution: Experience Manager
-title: Efecto de búsqueda
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 3591edb0-4b0a-4761-af87-c372132c5138
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '84'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ El aspecto de las regiones de resultados de búsqueda se controla con el siguien
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> fondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> fondo </span> </p> </td> 
    <td colname="col2"> <p>Fondo de la región de resultados de la búsqueda. </p> </td> 
   </tr> 
  </tbody> 

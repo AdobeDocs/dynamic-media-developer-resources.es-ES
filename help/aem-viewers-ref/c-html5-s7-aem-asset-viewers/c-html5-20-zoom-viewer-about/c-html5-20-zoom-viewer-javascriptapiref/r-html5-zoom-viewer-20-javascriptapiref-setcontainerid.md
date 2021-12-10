@@ -1,13 +1,13 @@
 ---
+title: setContainerId
 description: Referencia de la API de JavaScript para el visualizador de vídeo.
 solution: Experience Manager
-title: setContainerId
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 87f01c5f-0d2a-46d6-8026-e75e879532df
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '85'
 ht-degree: 2%
 
 ---
@@ -18,15 +18,15 @@ Referencia de la API de JavaScript para el visualizador de vídeo.
 
 ` setContainerId( *`containerId`*)`
 
-Establece el ID del contenedor DOM (normalmente un DIV) en el que se inserta el visor. No es necesario tener el elemento contenedor creado para cuando se llama a este método. Sin embargo, el contenedor debe existir cuando se ejecuta `init()`. Debe llamarse antes de `init()`.
+Establece el ID del contenedor DOM (normalmente un DIV) en el que se inserta el visor. No es necesario tener el elemento contenedor creado para cuando se llama a este método. Sin embargo, el contenedor debe existir cuando `init()` se ejecuta. Debe llamarse antes de `init()`.
 
-Este método es opcional si la información de configuración del visor se pasó con el objeto JSON `config` al constructor.
+Este método es opcional si la información de configuración del visor se pasó con `config` Objeto JSON al constructor.
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}  </span> ID del contenedor. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> ID del contenedor. </p> </td> 
   </tr> 
  </tbody> 
 </table>

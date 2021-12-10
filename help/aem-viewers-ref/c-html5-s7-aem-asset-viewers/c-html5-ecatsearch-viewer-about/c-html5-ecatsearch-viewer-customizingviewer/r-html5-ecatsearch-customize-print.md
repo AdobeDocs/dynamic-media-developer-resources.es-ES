@@ -1,12 +1,13 @@
 ---
+title: Imprimir
 description: La herramienta Imprimir consiste en un botón añadido a la barra de control y el cuadro de diálogo modal que se muestra cuando se activa la herramienta.
 solution: Experience Manager
-title: Imprimir
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+exl-id: c5939cdc-fa4e-4f19-b2a9-21b389492c4f
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1469'
 ht-degree: 2%
 
 ---
@@ -28,12 +29,12 @@ El aspecto del botón de impresión se controla con el siguiente selector de cla
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
    <td colname="col2"> <p> Desplazamiento desde la parte superior de la barra de control. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
-   <td colname="col2"> <p> Distancia al botón siguiente de la izquierda o del lado izquierdo de la barra de control si es el primer botón de una fila. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
+   <td colname="col2"> <p> La distancia al botón siguiente de la izquierda o del lado izquierdo de la barra de control si este botón es el primero de una fila. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -44,11 +45,11 @@ El aspecto del botón de impresión se controla con el siguiente selector de cla
    <td colname="col2"> <p>Altura del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo </span> </p> </td> 
    <td colname="col2"> <p> Imagen que se muestra para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo </span> </p> </td> 
    <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -56,7 +57,7 @@ El aspecto del botón de impresión se controla con el siguiente selector de cla
 
 >[!NOTE]
 >
->Este botón admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes aspectos a distintos estados de botones.
+>Este botón admite la variable `state` selector de atributos, que se puede utilizar para aplicar diferentes aspectos a distintos estados de botones.
 
 La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
@@ -83,7 +84,7 @@ background-image:url(images/v2/Print_dark_disabled.png);
 }
 ```
 
-La superposición de fondo que cubre la página web cuando el cuadro de diálogo está activo se controla con el siguiente selector de clase CSS:
+La superposición de fondo que cubre la página web cuando el cuadro de diálogo está activo, se controla con el siguiente selector de clase CSS:
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7backoverlay
@@ -94,11 +95,11 @@ La superposición de fondo que cubre la página web cuando el cuadro de diálogo
 <table id="table_1A0C28D8C81D413C83D73DEAC53057C5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opacidad  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opacidad </span> </p> </td> 
    <td colname="col2"> <p> Opacidad de la superposición de fondo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Color de superposición de fondo. </p> </td> 
   </tr> 
  </tbody> 
@@ -113,7 +114,7 @@ Ejemplo: para configurar la superposición de fondo para que sea gris con un 70 
 }
 ```
 
-De forma predeterminada, el cuadro de diálogo modal se muestra centrado en la pantalla de los sistemas de escritorio. El posicionamiento y el tamaño del cuadro de diálogo se gestionan mediante el componente El cuadro de diálogo se controla con el siguiente selector de clase CSS:
+De forma predeterminada, el cuadro de diálogo modal se muestra centrado en la pantalla de los sistemas de escritorio. El componente gestiona el posicionamiento y el tamaño del cuadro de diálogo. El cuadro de diálogo se controla con el siguiente selector de clase CSS:
 
 ```
 .s7ecatalogsearchviewer .s7kprintdialog .s7dialog
@@ -124,17 +125,17 @@ De forma predeterminada, el cuadro de diálogo modal se muestra centrado en la p
 <table id="table_5272BC8EF9124018B4290356B95B5559"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
    <td colname="col2"> <p> Radio del borde del cuadro de diálogo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Color de fondo del cuadro de diálogo; </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ejemplo: para configurar un cuadro de diálogo para que tenga un fondo gris:
+Ejemplo: Para configurar un cuadro de diálogo para que tenga un fondo gris:
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialog { 
@@ -165,7 +166,7 @@ El icono y el texto del título se envuelven en un contenedor adicional controla
 .s7ecatalogsearchviewer .s7printdialog .s7dialogheader .s7dialogline
 ```
 
-**Propiedades CSS de la línea de diálogo**
+**CSS properties of the dialog line**
 
 <table id="table_5B03CF843F0D4B1295A3FC1EB50C56F1"> 
  <tbody> 
@@ -176,7 +177,7 @@ El icono y el texto del título se envuelven en un contenedor adicional controla
  </tbody> 
 </table>
 
-El icono de encabezado se controla con el siguiente selector de clase CSS:
+Header icon is controlled with the following CSS class selector:
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogheadericon
@@ -187,19 +188,19 @@ El icono de encabezado se controla con el siguiente selector de clase CSS:
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Ancho del icono. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Altura del icono. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
-   <td colname="col2"> <p>Icono imagen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo </span> </p> </td> 
+   <td colname="col2"> <p>Icon image. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo </span> </p> </td> 
    <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -211,20 +212,20 @@ El título del encabezado se controla con el siguiente selector de clase CSS:
 .s7ecatalogsearchviewer .s7printdialog .s7dialogheadertext
 ```
 
-**Propiedades CSS del texto del encabezado del cuadro de diálogo**
+**CSS properties of the dialog box header text**
 
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
    <td colname="col2"> <p>Grosor de fuente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Altura de la fuente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Familia de fuentes. </p> </td> 
   </tr> 
   <tr> 
@@ -253,11 +254,11 @@ El botón Cerrar se controla con el siguiente selector de clase CSS:
    <td colname="col2"> <p> Posición horizontal del botón en relación con el contenedor de encabezado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
-   <td colname="col2"> <p>Ancho del botón. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col2"> <p>Button width. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Altura del botón. </p> </td> 
   </tr> 
   <tr> 
@@ -265,11 +266,11 @@ El botón Cerrar se controla con el siguiente selector de clase CSS:
    <td colname="col2"> <p>Margen interior del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo </span> </p> </td> 
    <td colname="col2"> <p>Imagen de botón para cada estado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -277,11 +278,11 @@ El botón Cerrar se controla con el siguiente selector de clase CSS:
 
 >[!NOTE]
 >
->Este botón admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes aspectos a distintos estados de botones.
+>Este botón admite la variable `state` selector de atributos, que se puede utilizar para aplicar diferentes aspectos a distintos estados de botones.
 
 La información del objeto del botón Cerrar y el título del cuadro de diálogo se pueden localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
-Ejemplo: para configurar el encabezado del cuadro de diálogo con relleno, icono de 22 x 22 píxeles, título en negrita de 16 puntos y botón Cerrar de 28 x 28 píxeles colocado dos píxeles desde la parte superior y dos píxeles desde la derecha del contenedor de cuadro de diálogo:
+Ejemplo: para configurar el encabezado del cuadro de diálogo con relleno, icono de 22 x 22 píxeles y título en negrita de 16 puntos. Finalmente, un botón Cerrar de 28 x 28 píxeles colocó dos píxeles desde la parte superior y dos píxeles desde la parte derecha del contenedor de cuadro de diálogo:
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogheader { 
@@ -366,11 +367,11 @@ El botón Cancelar se controla con el siguiente selector de clase CSS:
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
-   <td colname="col2"> <p>Ancho del botón. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col2"> <p>Button width. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Altura del botón. </p> </td> 
   </tr> 
   <tr> 
@@ -378,15 +379,15 @@ El botón Cancelar se controla con el siguiente selector de clase CSS:
    <td colname="col2"> <p> Color del texto del botón para cada estado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p> Color de fondo de botón para cada estado. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> Button background color for each state. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Este botón admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes aspectos a distintos estados de botones.
+>Este botón admite la variable `state` selector de atributos, que se puede utilizar para aplicar diferentes aspectos a distintos estados de botones.
 
 El botón Enviar a impresión se controla con el siguiente selector de clase CSS:
 
@@ -394,34 +395,34 @@ El botón Enviar a impresión se controla con el siguiente selector de clase CSS
 .s7ecatalogsearchviewer .s7printdialog .s7dialogactionbutton
 ```
 
-**Propiedades CSS del botón de acción del cuadro de diálogo**
+**CSS properties of the dialog box action button**
 
 <table id="table_91C75B2470A24DC2AD3973A91FA8B325"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
-   <td colname="col2"> <p>Ancho del botón. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col2"> <p>Button width. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
-   <td colname="col2"> <p>Altura del botón. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col2"> <p>Button height. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
-   <td colname="col2"> <p> Color del texto del botón para cada estado. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col2"> <p> Button text color for each state. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p> Color de fondo de botón para cada estado. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> Button background color for each state. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Este botón admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes aspectos a distintos estados de botones.
+>This button supports the `state` attribute selector, which can be used to apply different skins to different button states.
 
-Además, ambos botones comparten la misma clase CSS común que puede contener ajustes CSS que son los mismos para otros botones del cuadro de diálogo:
+Además, ambos botones comparten una clase CSS común que puede contener ajustes CSS que son los mismos para otros botones del cuadro de diálogo:
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogfooter .s7button
@@ -432,35 +433,35 @@ Además, ambos botones comparten la misma clase CSS común que puede contener aj
 <table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
    <td colname="col2"> <p>Grosor de la fuente del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Tamaño de fuente del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Familia de fuentes del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
    <td colname="col2"> <p> Altura del texto dentro del botón. Afecta a la alineación vertical. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> box-Shadow  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> box-Shadow </span> </p> </td> 
    <td colname="col2"> <p>Sombra. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-right  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-right </span> </p> </td> 
    <td colname="col2"> <p>Margen del botón derecho. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-La información sobre herramientas de botones se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
+La información sobre herramientas de botones se puede localizar. See [Localization of user interface elements](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) for more information.
 
-Ejemplo: para configurar un pie de página del cuadro de diálogo con el botón Cancelar 64 x 34 y un botón Enviar a imprimir de 96 x 34, con el color del texto y el color de fondo diferentes para cada estado del botón:
+Example - To set up a dialog box footer with 64 x 34 Cancel button and a 96 x 34 Send to Print button, with the text color and background color different for each button state:
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogfooter { 
@@ -531,11 +532,11 @@ El área de diálogo principal (entre el encabezado y el pie de página) contien
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p> Altura del área principal del cuadro de diálogo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Color de fondo del área del cuadro de diálogo principal. </p> </td> 
   </tr> 
   <tr> 
@@ -567,7 +568,7 @@ Todo el contenido del formulario (como etiquetas y campos de entrada) reside den
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> relleno </span> </p> </td> 
-   <td colname="col2"> <p>Margen interior. </p> </td> 
+   <td colname="col2"> <p>Inner padding. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -580,13 +581,13 @@ Ejemplo: Configurar el contenido del formulario para que tenga un relleno de die
 }
 ```
 
-El formulario del cuadro de diálogo se rellena línea a línea, donde cada línea tiene una parte del contenido del formulario (como una etiqueta y un campo de entrada de texto). La línea de formulario único se controla con el siguiente selector de clase CSS:
+El formulario del cuadro de diálogo se rellena línea a línea, donde cada línea tiene una parte del contenido del formulario (como una etiqueta y un campo de entrada de texto). Single form line is controlled with the following CSS class selector:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogbody .s7dialogline
 ```
 
-**Propiedades CSS de la línea del cuadro de diálogo**
+**CSS properties of the dialog box line**
 
 <table id="table_2CCCC71B45B444A8B9CE2894129C9C02"> 
  <tbody> 
@@ -597,7 +598,7 @@ El formulario del cuadro de diálogo se rellena línea a línea, donde cada lín
  </tbody> 
 </table>
 
-Ejemplo: para configurar un formulario de cuadro de diálogo con un margen de diez píxeles para cada línea:
+Example - To set up a dialog box form to have ten pixel padding for each line:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogbody .s7dialogline { 
@@ -616,7 +617,7 @@ El tamaño del bloque de contenido del cuadro de diálogo se controla con el sig
 <table id="table_FFF0B02B564C443CA8713103D723C733"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Ancho del bloque. </p> </td> 
   </tr> 
   <tr> 
@@ -643,24 +644,24 @@ Todas las etiquetas estáticas del formulario del cuadro de diálogo se controla
 
 Esta clase no es adecuada para controlar el tamaño o la posición de la etiqueta porque puede aplicarla a textos en varios lugares de la interfaz de usuario del formulario.
 
-**Propiedades CSS de la etiqueta del cuadro de diálogo. **
+**CSS properties of the dialog box label. **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
    <td colname="col2"> <p>Grosor de fuente de la etiqueta. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Tamaño de fuente de la etiqueta. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
-   <td colname="col2"> <p>Familia de fuentes de etiquetas. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col2"> <p>Label font family. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
    <td colname="col2"> <p>Color del texto de la etiqueta. </p> </td> 
   </tr> 
  </tbody> 
@@ -668,7 +669,7 @@ Esta clase no es adecuada para controlar el tamaño o la posición de la etiquet
 
 Las etiquetas de los cuadros de diálogo se pueden localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
-Ejemplo: para configurar todas las etiquetas en gris, negrita y con una fuente de nueve píxeles:
+Example - to set up all labels to be gray, bold, with a nine pixel font:
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialoglabel { 
@@ -678,7 +679,7 @@ Ejemplo: para configurar todas las etiquetas en gris, negrita y con una fuente d
 }
 ```
 
-Los controles de entrada se envuelven en el contenedor y se controlan con el siguiente selector de clase CSS:
+Input controls are wrapped into the container and controlled with the following CSS class selector:
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialoginputcontainer
@@ -689,7 +690,7 @@ Los controles de entrada se envuelven en el contenedor y se controlan con el sig
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> relleno-izquierda  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-left </span> </p> </td> 
    <td colname="col2"> <p>Margen interior. </p> </td> 
   </tr> 
  </tbody> 
@@ -714,11 +715,11 @@ Los botones de opción y el texto de su rótulo se controlan con el siguiente se
 <table id="table_3B4D85C5A0254A17A34D57F84F8200F7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p> Ancho total del botón de radio con un rótulo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
    <td colname="col2"> <p>Color del texto del rótulo. </p> </td> 
   </tr> 
  </tbody> 
@@ -735,7 +736,7 @@ El espaciado entre el botón de radio y su rótulo se controla con el siguiente 
 <table id="table_BDD03247E594416D93CDF8604DCE937B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-right  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-right </span> </p> </td> 
    <td colname="col2"> <p> Espaciado entre el botón de radio y su rótulo. </p> </td> 
   </tr> 
  </tbody> 
@@ -747,16 +748,16 @@ Los selectores numéricos para la selección del rango de impresión se controla
 .s7ecatalogsearchviewer .s7printdialog .s7dialogrange
 ```
 
-**Propiedades CSS del rango de impresión del cuadro de diálogo**
+**CSS properties of the dialog box print range**
 
 <table id="table_35413C16F6B840EBBEEA17890F2A0490"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p> Anchura del selector numérico. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margen  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margen </span> </p> </td> 
    <td colname="col2"> <p> Espaciado alrededor del selector numérico. </p> </td> 
   </tr> 
  </tbody> 
@@ -792,24 +793,24 @@ El divisor horizontal entre la selección del rango de páginas y las secciones 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> borde </span> </p> </td> 
-   <td colname="col2"> <p> Borde alrededor del divisor. </p> </td> 
+   <td colname="col2"> <p> Border around divider. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> relleno </span> </p> </td> 
-   <td colname="col2"> <p>Margen interior. </p> </td> 
+   <td colname="col2"> <p>Inner padding. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Anchura del divisor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margen  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margen </span> </p> </td> 
    <td colname="col2"> <p>Margen exterior </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ejemplo: para configurar un divisor gris de 430 píxeles de ancho con un margen vertical de 10 píxeles en ambos lados y un margen de diez píxeles en la parte superior:
+Example - to set up a 430 pixel-wide grey divider with a 10 pixel vertical padding on both sides, and a ten pixel margin at the top:
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7horizontaldivider { 

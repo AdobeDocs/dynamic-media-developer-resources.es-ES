@@ -1,14 +1,14 @@
 ---
+title: Zoom
 description: El visor de zoom es un visor de imágenes que muestra una imagen ampliable. Este visor funciona con conjuntos de imágenes y la navegación se realiza mediante muestras. Tiene herramientas de zoom, compatibilidad con pantalla completa, muestras y un botón de cierre opcional. Está diseñado para funcionar con equipos de escritorio y dispositivos móviles.
 keywords: adaptable
 solution: Experience Manager
-title: Zoom
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 81a74026-fb15-4f57-a4c7-1ab005950245
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '2397'
+source-wordcount: '2395'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Consulte [Referencia de comando común a todos los visores: Atributos de configu
 
 ## Interactuar con el visor de zoom {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
-El visor de zoom admite los siguientes gestos táctiles que son comunes en otras aplicaciones móviles. Cuando el usuario no puede procesar el gesto de barrido del usuario, reenvía el evento al explorador web para realizar el desplazamiento nativo de la página. Este tipo de funcionalidad permite al usuario navegar por la página aunque el visor ocupe la mayor parte del área de la pantalla del dispositivo.
+El visor de zoom admite los siguientes gestos táctiles que son comunes en otras aplicaciones móviles. Cuando el usuario no puede procesar el gesto de barrido del usuario, envía el evento al explorador web para que realice el desplazamiento nativo de la página. Este tipo de funcionalidad permite al usuario navegar por la página aunque el visor ocupe la mayor parte del área de la pantalla del dispositivo.
 
 <table id="table_ED747CC7178448919C34A4FCD18922D0"> 
  <thead> 
@@ -65,7 +65,7 @@ El visor de zoom admite los siguientes gestos táctiles que son comunes en otras
   </tr> 
   <tr> 
    <td colname="col1"> <p>Barrido horizontal o deslizamiento </p> </td> 
-   <td colname="col2"> <p> Se desplaza por la lista de muestras de la barra de muestras. </p> <p> Si la imagen está en estado de restablecimiento y la variable <span class="codeph"> frametransition </span> se establece en diapositiva, el recurso se cambia con la animación de diapositivas. Para otros <span class="codeph"> frametransition </span> el gesto realiza el desplazamiento nativo de la página. </p> <p> Si la imagen se amplía, la imagen se mueve horizontalmente. Si la imagen se mueve al borde de la vista y se realiza un barrido en la misma dirección, el gesto realiza el desplazamiento nativo de la página. </p> </td> 
+   <td colname="col2"> <p> Se desplaza por la lista de muestras de la barra de muestras. </p> <p> Si la imagen está en estado de restablecimiento y la variable <span class="codeph"> frametransition </span> se establece en diapositiva, el recurso se cambia con la animación de diapositivas. Para otros <span class="codeph"> frametransition </span> , el gesto realiza el desplazamiento nativo de la página. </p> <p> Si la imagen se amplía, la imagen se mueve horizontalmente. Si la imagen se mueve al borde de la vista y se realiza un barrido en la misma dirección, el gesto realiza el desplazamiento nativo de la página. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Barrido vertical </p> </td> 
@@ -114,7 +114,7 @@ La incrustación de tamaño fijo se utiliza cuando el visor no cambia su tamaño
 
 El modo de incrustación de diseño interactivo supone que el cambio de tamaño del visor es necesario durante el tiempo de ejecución debido al cambio de tamaño de su contenedor `DIV`. El caso de uso más común es agregar un visor a una página web que utilice un diseño flexible.
 
-En el modo de incrustación de diseño interactivo, el visor se comporta de forma diferente en función del tamaño de la página web y su contenedor `DIV`. Si la página web solo establece la anchura del contenedor `DIV`, dejando su altura sin restricciones, el visor elige automáticamente su altura según la proporción de aspecto del recurso que se utilice. Esta lógica garantiza que el recurso encaje perfectamente en la vista sin ningún relleno en los lados. Este caso de uso es el más común para las páginas web que usan marcos de diseño interactivos como Bootstrap, Fundación, etc.
+En el modo de incrustación de diseño interactivo, el visor se comporta de forma diferente en función del tamaño de la página web y su contenedor `DIV`. Si la página web solo establece la anchura del contenedor `DIV`, dejando su altura sin restricciones, el visor elige automáticamente su altura según la proporción de aspecto del recurso que se utilice. Esta lógica garantiza que el recurso encaje perfectamente en la vista sin ningún relleno en los lados. Este caso de uso es el más común para las páginas web que usan marcos de diseño interactivos como Bootstrap y Fundación.
 
 Si la página web establece la anchura y la altura del contenedor del visor `DIV`, el visor rellena esa área y sigue el tamaño que la página web proporciona. Por ejemplo, si integra el visor en una superposición modal, el tamaño de la superposición depende del tamaño de la ventana del explorador web.
 
@@ -143,7 +143,7 @@ La ruta relativa tiene el siguiente aspecto:
 
 >[!NOTE]
 >
->Solo debe hacer referencia al JavaScript del visor principal `include` en la página. No debe hacer referencia a ningún archivo JavaScript adicional del código de la página web que pueda descargar la lógica del visor durante la ejecución. En particular, no haga referencia directa al SDK de HTML5 `Utils.js` biblioteca cargada por el visor desde `/s7viewers` ruta de contexto (denominado SDK consolidado) `include`). La razón es que la ubicación de `Utils.js` o bibliotecas de visores de tiempo de ejecución similares se gestionan completamente mediante la lógica del visor y la ubicación cambia entre las versiones del visor. El Adobe no mantiene versiones anteriores del visor secundario `includes` en el servidor.
+>Solo haga referencia al JavaScript del visor principal `include` en la página. No haga referencia a ningún archivo JavaScript adicional del código de la página web que pueda descargar la lógica del visor durante la ejecución. En particular, no haga referencia directa al SDK de HTML5 `Utils.js` biblioteca cargada por el visor desde `/s7viewers` ruta de contexto (denominado SDK consolidado) `include`). La razón es que la ubicación de `Utils.js` o bibliotecas de visores de tiempo de ejecución similares se gestionan completamente mediante la lógica del visor y la ubicación cambia entre las versiones del visor. El Adobe no mantiene versiones anteriores del visor secundario `includes` en el servidor.
 >
 >
 >Como resultado, poner una referencia directa a cualquier JavaScript secundario `include` utilizado por el visor en la página rompe la funcionalidad del visor en el futuro cuando se implemente una nueva versión del producto.
@@ -164,7 +164,7 @@ La ruta relativa tiene el siguiente aspecto:
 
    Este visor muestra miniaturas cuando se trabaja con conjuntos de varios elementos, las miniaturas de los sistemas de escritorio se colocan debajo de la vista principal. Al mismo tiempo, el visor permite el intercambio del recurso principal en tiempo de ejecución mediante `setAsset()` API. Como desarrollador, tiene control sobre cómo el visor gestiona el área de miniaturas en la parte inferior cuando el nuevo recurso solo tiene un elemento. Es posible mantener intacto el tamaño del visor exterior y permitir que la vista principal aumente su altura y ocupe el área de miniaturas. O bien, puede mantener estático el tamaño de la vista principal y contraer el área del visor exterior, lo que permite que el contenido de la página web se desplace hacia arriba y utilizar el resto de espacio de la pantalla libre de las miniaturas.
 
-   Para mantener los límites exteriores del visor intactos, defina el tamaño para la variable `.s7zoomviewer` clase CSS de nivel superior en unidades absolutas. El tamaño en CSS se puede colocar directamente en la página HTML o en un archivo CSS de visor personalizado, que más tarde se asigna a un registro preestablecido de visor en Dynamic Media Classic o se pasa explícitamente mediante un comando de estilo.
+   Para mantener los límites exteriores del visor intactos, defina el tamaño para la variable `.s7zoomviewer` clase CSS de nivel superior en unidades absolutas. El tamaño en CSS se puede colocar directamente en la página HTML. O bien, se puede colocar en un archivo CSS de visualizador personalizado, que más tarde se asigna a un registro preestablecido de visualizador en Dynamic Media Classic o se pasa explícitamente mediante un comando de estilo.
 
    Consulte [Personalización del visor de zoom](../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/c-html5-20-zoom-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) para obtener más información sobre cómo aplicar estilo al visor con CSS.
 
@@ -196,7 +196,7 @@ La ruta relativa tiene el siguiente aspecto:
 
    [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html)
 
-   Puede configurar la variable `stagesize` en el registro preestablecido de visualizador en Dynamic Media Classic o puede pasarlo explícitamente con el código de inicialización del visualizador con el `params` o como una llamada de API como se describe en la sección Referencia de comandos de esta Ayuda, como se muestra a continuación:
+   Puede configurar la variable `stagesize` modificador en el registro preestablecido de visualizador en Dynamic Media Classic. O bien, puede pasarlo explícitamente con el código de inicialización del visor con la variable `params` o como una llamada de API como se describe en la sección Referencia de comandos de esta Ayuda, como se muestra a continuación:
 
    ```
     zoomViewer.setParam("stagesize", 
@@ -213,7 +213,7 @@ La ruta relativa tiene el siguiente aspecto:
 
    Es importante tener el contenedor de visor agregado al DOM para que el código del visor pueda encontrar el elemento contenedor por su ID. Algunos exploradores retrasan la creación del DOM hasta el final de la página web. Para obtener la máxima compatibilidad, llame a la función `init()` justo antes del cierre `BODY` o en el cuerpo `onload()` evento.
 
-   Al mismo tiempo, el elemento contenedor no debe formar parte necesariamente del diseño de página web todavía. Por ejemplo, puede ocultarse usando `display:none` estilo asignado a él. En este caso, el visor retrasa su proceso de inicialización hasta el momento en que la página web vuelve a poner el elemento contenedor en el diseño. Cuando esto sucede, la carga del visor se reanuda automáticamente.
+   Al mismo tiempo, el elemento contenedor no debe formar parte necesariamente del diseño de la página web todavía. Por ejemplo, puede ocultarse usando `display:none` estilo asignado a él. En este caso, el visor retrasa su proceso de inicialización hasta el momento en que la página web vuelve a poner el elemento contenedor en el diseño. Cuando se produce esta acción, la carga del visor se reanuda automáticamente.
 
    A continuación se muestra un ejemplo de creación de una instancia de visor, pasar las opciones de configuración mínimas necesarias al constructor y llamar a la función `init()` método. Este ejemplo asume `zoomViewer` es la instancia del visor, `s7viewer` es el nombre del marcador de posición DIV, `http://s7d1.scene7.com/is/image/` es la URL del servicio de imágenes y `Scene7SharedAssets/ImageSet-Views-Sample` es el recurso.
 
@@ -320,7 +320,7 @@ La página de ejemplos siguientes ilustra más usos reales de la incrustación d
 
 ## Integración de tamaño flexible con anchura y altura definidas {#section-3674e6c032594441a6576b7fb1de6e64}
 
-En caso de incrustación de tamaño flexible con anchura y altura definidas, el estilo de la página web es diferente. Proporciona ambos tamaños a la variable `"holder"` DIV y céntrelo en la ventana del explorador. Además, la página web establece el tamaño de la variable `HTML` y `BODY` al 100 por ciento.
+Si hay una incrustación de tamaño flexible con anchura y altura definidas, el estilo de la página web es diferente. Proporciona ambos tamaños a la variable `"holder"` DIV y céntrelo en la ventana del explorador. Además, la página web establece el tamaño de la variable `HTML` y `BODY` al 100 por ciento.
 
 ```
 <!DOCTYPE html> 

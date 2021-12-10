@@ -1,20 +1,20 @@
 ---
-description: Al pulsar o hacer clic en este botón, se restablece el visor entre la vista principal y las miniaturas. Este botón aparece en la barra de control principal. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
-solution: Experience Manager
 title: Botón Miniaturas
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
+description: Al seleccionar este botón, se restablece el visor entre la vista principal y las miniaturas. Este botón aparece en la barra de control principal. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 465d4320-14ea-4f07-97c0-41f53034a7df
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '270'
 ht-degree: 1%
 
 ---
 
 # Botón Miniaturas{#thumbnails-button}
 
-Al pulsar o hacer clic en este botón, se restablece el visor entre la vista principal y las miniaturas. Este botón aparece en la barra de control principal. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
+Al seleccionar este botón, se restablece el visor entre la vista principal y las miniaturas. Este botón aparece en la barra de control principal. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
@@ -33,12 +33,12 @@ El aspecto del botón se controla con el siguiente selector de clase CSS:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
    <td colname="col2"> <p> Desplazamiento desde la parte superior de la barra de control. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
-   <td colname="col2"> <p> Distancia al botón siguiente de la izquierda o del lado izquierdo de la barra de control si es el primer botón de una fila. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
+   <td colname="col2"> <p> La distancia al botón siguiente de la izquierda o del lado izquierdo de la barra de control si este botón es el primero de una fila. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -49,11 +49,11 @@ El aspecto del botón se controla con el siguiente selector de clase CSS:
    <td colname="col2"> <p>Altura del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo </span> </p> </td> 
    <td colname="col2"> <p>Imagen que se muestra para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo </span> </p> </td> 
    <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -61,11 +61,11 @@ El aspecto del botón se controla con el siguiente selector de clase CSS:
 
 >[!NOTE]
 >
->Este botón admite los selectores de atributos `state` y `selected`, que pueden utilizarse para aplicar diferentes aspectos a diferentes estados de botones. En concreto, `selected='true'` corresponde al estado del visor cuando el modo de miniatura está en estado activo y `selected='false'` corresponde al estado predeterminado con la vista principal.
+>Este botón admite las dos variables `state` y `selected` selectores de atributos, que pueden utilizarse para aplicar diferentes aspectos a distintos estados de botones. En particular, `selected='true'` corresponde al estado del visor cuando el modo de miniatura está en estado activo y `selected='false'` corresponde al estado predeterminado con la vista principal.
 
 La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
-Ejemplo: para configurar el botón de miniaturas de 28 x 28 píxeles, posicionado 4 píxeles desde la parte inferior y 5 píxeles desde el borde izquierdo de la barra de control principal, y muestra una imagen diferente para cada uno de los cuatro estados de botón diferentes cuando está seleccionado o no está seleccionado.
+Ejemplo: para configurar un botón de miniaturas de 28 x 28 píxeles y colocado 4 píxeles desde la parte inferior y 5 píxeles desde el borde izquierdo de la barra de control principal. Finalmente, muestra una imagen diferente para cada uno de los cuatro estados de botón diferentes cuando se selecciona o no.
 
 ```
 .s7ecatalogsearchviewer .s7thumbnailpagebutton{ 

@@ -1,13 +1,13 @@
 ---
+title: Botón Pantalla completa
 description: Hace que el usuario introduzca o salga del modo de pantalla completa cuando lo selecciona. Este botón aparece en la barra de control principal. Este botón no se muestra si el visor funciona en modo emergente y el sistema no admite pantalla completa nativa. Puede cambiar el tamaño, el aspecto y colocar el botón mediante CSS.
 solution: Experience Manager
-title: Botón Pantalla completa
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: a4b6fdc0-1047-46c6-bf77-4536819b7fcd
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '322'
 ht-degree: 2%
 
 ---
@@ -73,7 +73,7 @@ El aspecto del botón se controla con el siguiente selector de clase CSS:
 
 La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
-Ejemplo: para configurar un botón de pantalla completa de 28 x 28 píxeles, colocado 4 píxeles desde la parte inferior y 5 píxeles desde el borde derecho de la barra de control principal, y muestra una imagen diferente para cada uno de los cuatro estados de botón diferentes cuando se selecciona o no se selecciona.
+Ejemplo: para configurar un botón de pantalla completa de 28 x 28 píxeles y posicionado 4 píxeles desde la parte inferior y 5 píxeles desde el borde derecho de la barra de control principal. Finalmente, muestra una imagen diferente para cada uno de los cuatro estados de botón diferentes cuando se selecciona o no.
 
 ```
 .s7ecatalogsearchviewer .s7fullscreenbutton { 

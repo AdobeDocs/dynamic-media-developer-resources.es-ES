@@ -1,20 +1,20 @@
 ---
-description: Al pulsar o hacer clic en este botón, el usuario llega a la última página del catálogo. Este botón aparece en la barra de control principal de los sistemas de escritorio y tabletas; en teléfonos móviles se añade a una barra de control secundaria. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
-solution: Experience Manager
 title: Botón Última página
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
+description: Al seleccionar este botón, el usuario llega a la última página del catálogo. Este botón aparece en la barra de control principal de los sistemas de escritorio y tabletas; en teléfonos móviles se añade a una barra de control secundaria. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: fa1ff52c-6fb1-47e7-b3d4-216fea02bbd8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '337'
 ht-degree: 2%
 
 ---
 
 # Botón Última página{#last-page-button}
 
-Al pulsar o hacer clic en este botón, el usuario llega a la última página del catálogo. Este botón aparece en la barra de control principal de los sistemas de escritorio y tabletas; en teléfonos móviles se añade a una barra de control secundaria. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
+Al seleccionar este botón, el usuario llega a la última página del catálogo. Este botón aparece en la barra de control principal de los sistemas de escritorio y tabletas; en teléfonos móviles se añade a una barra de control secundaria. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
@@ -57,11 +57,11 @@ El aspecto del botón se controla con el siguiente selector de clase CSS:
    <td colname="col2"> <p>Altura del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo </span> </p> </td> 
    <td colname="col2"> <p>Imagen que se muestra para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo </span> </p> </td> 
    <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -69,11 +69,11 @@ El aspecto del botón se controla con el siguiente selector de clase CSS:
 
 >[!NOTE]
 >
->Este botón admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes aspectos a distintos estados de botones.
+>Este botón admite la variable `state` selector de atributos, que se puede utilizar para aplicar diferentes aspectos a distintos estados de botones.
 
 La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
-Ejemplo: para configurar un botón de última página de 28 x 28 píxeles, colocado 4 píxeles desde la parte inferior y 220 píxeles desde el borde izquierdo de la barra de control principal, y muestra una imagen diferente para cada uno de los cuatro estados de botón diferentes.
+Ejemplo: para configurar un botón de última página de 28 x 28 píxeles y posicionado 4 píxeles desde la parte inferior y 220 píxeles desde el borde izquierdo de la barra de control principal. Finalmente, muestra una imagen diferente para cada uno de los cuatro estados de botones diferentes.
 
 ```
 .s7ecatalogsearchviewer .s7lastpagebutton .s7panrightbutton { 

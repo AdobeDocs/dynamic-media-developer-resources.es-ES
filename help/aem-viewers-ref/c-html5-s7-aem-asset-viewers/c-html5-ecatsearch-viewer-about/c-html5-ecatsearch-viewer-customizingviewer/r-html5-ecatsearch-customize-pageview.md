@@ -1,13 +1,13 @@
 ---
+title: Vista de la página
 description: La vista principal consiste en la imagen del catálogo. Se puede realizar un barrido para llegar a otra página o ampliar.
 solution: Experience Manager
-title: Vista de la página
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: d98babad-96c7-419a-abf2-3b6657d550eb
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '382'
 ht-degree: 4%
 
 ---
@@ -35,11 +35,11 @@ El aspecto del área de visualización se controla con el siguiente selector de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Color de fondo de la vista principal en formato hexadecimal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cursor  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cursor </span> </p> </td> 
    <td colname="col2"> <p>Cursor que se muestra sobre la vista principal. </p> </td> 
   </tr> 
  </tbody> 
@@ -53,7 +53,7 @@ Ejemplo: para que la vista principal sea transparente.
 }
 ```
 
-En los sistemas de escritorio, el componente admite el selector de atributos `cursortype` que se puede aplicar a la clase `.s7pageview` y controla el tipo del cursor en función del estado del componente y la acción del usuario. Se admiten los siguientes `cursortype` valores:
+En los sistemas de escritorio, el componente admite el `cursortype` selector de atributos que se puede aplicar a `.s7pageview` y controla el tipo del cursor en función del estado del componente y la acción del usuario. Lo siguiente `cursortype` son compatibles:
 
 <table id="table_45B83F6CCDE84C36B0E087CA9144BFE6"> 
  <thead> 
@@ -68,7 +68,7 @@ En los sistemas de escritorio, el componente admite el selector de atributos `cu
    <td colname="col2"> <p>Se muestra cuando la imagen no se puede ampliar debido a una pequeña resolución de imagen, a la configuración de componentes o a ambos. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomina  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zoomina </span> </p> </td> 
    <td colname="col2"> <p>Se muestra cuando se puede ampliar la imagen. </p> </td> 
   </tr> 
   <tr> 
@@ -80,7 +80,7 @@ En los sistemas de escritorio, el componente admite el selector de atributos `cu
    <td colname="col2"> <p>Se muestra cuando el usuario panorámica la imagen que está en estado de zoom. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> diapositiva  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> diapositiva </span> </p> </td> 
    <td colname="col2"> <p>Se muestra cuando el usuario realiza un intercambio de imágenes realizando un barrido horizontal o una flexión. </p> </td> 
   </tr> 
  </tbody> 
@@ -100,16 +100,16 @@ El divisor de páginas que separa visualmente las páginas izquierda y derecha d
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> Ancho del divisor de páginas. Configúrelo en <span class="codeph"> 0 </span> px para ocultar completamente el divisor. </p> </td> 
+   <td colname="col2"> <p> Ancho del divisor de páginas. Establecer como <span class="codeph"> 0 </span> px para ocultar el divisor completamente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo </span> </p> </td> 
    <td colname="col2"> <p>La imagen que desea usar como divisor de página. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ejemplo: para tener un divisor de página de 40 píxeles de ancho con una imagen semitransparente.
+Ejemplo: Tener un divisor de página de 40 píxeles de ancho con una imagen semitransparente.
 
 ```
 .s7ecatalogsearchviewer .s7pageview .s7pagedivider { 
@@ -120,9 +120,9 @@ Ejemplo: para tener un divisor de página de 40 píxeles de ancho con una imagen
 
 >[!NOTE]
 >
->Cuando el modificador `frametransition` se establece en `turn` o `auto` (en sistemas de escritorio), el aspecto del divisor de páginas se controla con el modificador `pageturnstyle` y se ignora la clase CSS `.s7pagedivider`.
+>Cuando la variable `frametransition` modificador está configurado en `turn` o `auto` (en sistemas de escritorio), el aspecto del divisor de páginas se controla con la variable `pageturnstyle` y `.s7pagedivider` Se ignora la clase CSS.
 
-Es posible configurar la visualización de los cursores personalizados del ratón sobre el área del visor principal. Esto se controla con los selectores de atributos adicionales aplicados a la clase CSS `.s7ecatalogsearchviewer .s7pageview`:
+Es posible configurar la visualización de los cursores personalizados del ratón sobre el área del visor principal. Esta capacidad se controla con los selectores de atributos adicionales aplicados a `.s7ecatalogsearchviewer .s7pageview` Clase CSS:
 
 <table id="table_908164DECF9347A19A9696A23BBDB1A2"> 
  <thead> 
@@ -137,7 +137,7 @@ Es posible configurar la visualización de los cursores personalizados del rató
    <td colname="col2"> <p> Normalmente es una flecha que se muestra para la imagen no ampliable. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomina  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zoomina </span> </p> </td> 
    <td colname="col2"> <p> Muestra cuándo se puede ampliar una imagen. </p> </td> 
   </tr> 
   <tr> 
@@ -149,7 +149,7 @@ Es posible configurar la visualización de los cursores personalizados del rató
    <td colname="col2"> <p>Muestra cuándo el usuario realiza la operación de arrastrar en la imagen ampliada </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> diapositiva  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> diapositiva </span> </p> </td> 
    <td colname="col2"> <p>Muestra cuándo el usuario realiza el intercambio de imágenes mediante el gesto de diapositiva </p> </td> 
   </tr> 
  </tbody> 
