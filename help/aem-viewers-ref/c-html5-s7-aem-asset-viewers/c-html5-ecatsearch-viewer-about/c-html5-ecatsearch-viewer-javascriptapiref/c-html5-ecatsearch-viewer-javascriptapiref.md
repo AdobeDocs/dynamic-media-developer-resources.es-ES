@@ -1,22 +1,22 @@
 ---
+title: Referencia de la API de JavaScript para el visor de búsqueda de catálogos electrónicos
 description: La clase principal del visor de búsqueda de catálogos electrónicos es eCatalogSearchViewer. Se declara en el espacio de nombres s7viewers. Esta API de JavaScript cubre el constructor, los métodos y las llamadas de retorno de esta clase en particular.
 solution: Experience Manager
-title: Referencia de la API de Javascript para el visor de búsqueda de catálogos electrónicos
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 11436c4f-acd4-4328-a3de-cc00a80cae2b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 632b8255a60ad211d86443d883b724e19b137b47
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
 
-# Referencia de la API de Javascript para el visor de búsqueda de catálogos electrónicos{#javascript-api-reference-for-ecatalog-search-viewer}
+# Referencia de la API de JavaScript para el visor de búsqueda de catálogos electrónicos{#javascript-api-reference-for-ecatalog-search-viewer}
 
 La clase principal del visor de búsqueda de catálogos electrónicos es eCatalogSearchViewer. Se declara en el espacio de nombres s7viewers. Esta API de JavaScript cubre el constructor, los métodos y las llamadas de retorno de esta clase en particular.
 
-En todos los ejemplos siguientes, `<instance>` significa el nombre real del objeto de visualizador de JavaScript del que se crea una instancia desde la clase `s7viewers.eCatalogSearchViewer`.
+En todos los ejemplos siguientes, `<instance>` es el nombre real del objeto de visualizador de JavaScript del que se crea una instancia desde el `s7viewers.eCatalogSearchViewer` Clase .
 
 * [dispose](r-html5-ecatsearch-javascriptapiref-dispose.md)
 * [eCatalogSearchViewer](r-html5-ecatsearch-javascriptapiref-ecatalogsearchviewer.md)
