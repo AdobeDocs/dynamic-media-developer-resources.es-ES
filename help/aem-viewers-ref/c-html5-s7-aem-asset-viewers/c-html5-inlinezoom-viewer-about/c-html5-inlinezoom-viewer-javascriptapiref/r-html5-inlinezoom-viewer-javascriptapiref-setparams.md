@@ -1,14 +1,14 @@
 ---
+title: setParams
 description: Referencia de la API de JavaScript para el visor de zoom en línea.
 solution: Experience Manager
-title: setParams
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom en línea
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: eb3298da-f19d-4013-8192-c51144d8b866
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 1%
+source-wordcount: '98'
+ht-degree: 2%
 
 ---
 
@@ -22,12 +22,12 @@ Referencia de la API de JavaScript para el visor de zoom en línea.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> params</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value pares de parámetros separados por  <span class="codeph"> &amp;</span>. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}</span> pares de parámetros name=value separados por <span class="codeph"> &amp;</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Establece uno o más parámetros en un valor determinado. La sintaxis del argumento de método es idéntica a una cadena de consulta de URL. Es decir, representa pares nombre=valor separados por `&`. Igual que en una cadena de consulta, los nombres y valores se codifican por porcentajes usando UTF8. Antes de llamar a `init()`, se debe llamar a este parámetro. Este método es opcional si la información de configuración del visor se pasa con el objeto JSON `config` al constructor.
+Establece uno o más parámetros en un valor determinado. La sintaxis del argumento de método es idéntica a una cadena de consulta de URL. Es decir, representa pares de nombre=valor separados por `&`. Los mismos que en una cadena de consulta, los nombres y los valores se codifican por porcentajes utilizando UTF8. Antes de llamar a `init()`, se debe llamar a este parámetro. Este método es opcional si se pasa la información de configuración del visor con `config` objeto JSON al constructor.
 
 Consulte también [init](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-init.md#reference-8651640683fc4a538bfb660709d1a463).
 

@@ -1,13 +1,13 @@
 ---
+title: getComponent
 description: Referencia de la API de JavaScript para el visor de zoom en línea
 solution: Experience Manager
-title: getComponent
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom en línea
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 72ae83e4-b879-4b3b-a5d9-38ed0fc2969d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '175'
 ht-degree: 1%
 
 ---
@@ -18,11 +18,11 @@ Referencia de la API de JavaScript para el visor de zoom en línea
 
 `getComponent(componentId)`
 
-Devuelve una referencia al componente SDK de visor que utiliza el visor. La página web puede utilizar este método para ampliar o personalizar el comportamiento del visor integrado. Llame a este método solo después de que se haya ejecutado la llamada de retorno del visualizador `initComplete`; de lo contrario, es posible que la lógica del visor no cree aún el componente.
+Devuelve una referencia al componente SDK de visor que utiliza el visor. La página web puede utilizar este método para ampliar o personalizar el comportamiento del visor integrado. Llame a este método solo después de `initComplete` se ha ejecutado la llamada de retorno del visor; de lo contrario, es posible que la lógica del visor no cree aún el componente.
 
 ## Parámetros {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`componentID`*` :  `{String}` ID del componente SDK de visor utilizado por el visor. Este visor admite los siguientes ID de componente:
+`*`componentID`*` - `{String}` un ID del componente SDK de visor utilizado por el visor. Este visor admite los siguientes ID de componente:
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
@@ -33,35 +33,35 @@ Devuelve una referencia al componente SDK de visor que utiliza el visor. La pág
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> parameterManager  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.ParameterManager  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> parameterManager </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.ParameterManager </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> contenedor </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Container  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Container </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mediaSet  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.MediaSet  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mediaSet </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.MediaSet </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> flotante  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.image.FlyoutZoomView  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> flotante </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.image.FlyoutZoomView </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> muestras  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.Swatches  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> muestras </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.Swatches </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Cuando se trabaja con API de SDK, es importante utilizar un espacio de nombres de SDK completo y correcto, tal como se describe en [Viewer SDK](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-namespace.md#concept-5af3b472b320496d87735ea612edda80).
+Al trabajar con las API de SDK, es importante utilizar correctamente el espacio de nombres del SDK completo, tal como se describe en [SDK de visor](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-namespace.md#concept-5af3b472b320496d87735ea612edda80).
 
 Consulte la documentación del SDK de visor para obtener más información sobre un componente en particular.
 
 ## Devuelve {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` una referencia al componente SDK del visor. El método devuelve `null` si `componentId` no es un componente de visor compatible o si la lógica del visor aún no ha creado el componente.
+`{Object}` Una referencia al componente SDK del visor. El método devuelve `null` si la variable `componentId` no es un componente de visor compatible o si el componente aún no se ha creado mediante la lógica del visor.
 
 ## Ejemplo {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

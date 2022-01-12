@@ -1,30 +1,30 @@
 ---
+title: FlyoutZoomView.tip
 description: FlyoutZoomView.tip
 solution: Experience Manager
-title: FlyoutZoomView.tip
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Flotante
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 122c6406-6fd7-4e45-bff2-11022a3f2cf7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 3%
+source-wordcount: '96'
+ht-degree: 4%
 
 ---
 
 # FlyoutZoomView.tip{#flyoutzoomview-tip}
 
-` [FlyoutZoomView.|<containerId>_flyout.]tip= *``*[, *``*][, *`durationcountfade`*]`
+` [FlyoutZoomView.|<containerId>_flyout.]tip= *`duration`*[, *`count`*][, *`fundido`*]`
 
 <table id="table_3BA079B51B644219BB8E2A68A13A8D90"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duration</span> </span> </p> </td> 
-   <td colname="col2"> <p>Especifica el número de segundos que se muestra el texto de la sugerencia antes de que se oculte. Cuando se establece en <span class="codeph"> -1</span>, el mensaje siempre se muestra, incluso si el usuario activa el menú flotante. </p> </td> 
+   <td colname="col2"> <p>Especifica el número de segundos que se muestra el texto de la sugerencia antes de que se oculte. Cuando se configura como <span class="codeph"> -1</span>, el mensaje siempre se muestra, incluso si el usuario activa el menú flotante. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> count</span> </span> </p> </td> 
-   <td colname="col2"> <p>Especifica el número de veces que se muestra el texto al ver imágenes nuevas en el conjunto. Un valor de <span class="codeph"> -1</span> significa que el texto siempre se muestra cuando se ve una imagen del conjunto. </p> </td> 
+   <td colname="col2"> <p>Especifica el número de veces que se muestra el texto al ver imágenes nuevas en el conjunto. Un valor de <span class="codeph"> -1</span> significa que el texto siempre se muestra al ver cualquier imagen del conjunto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fundido</span> </span> </p> </td> 

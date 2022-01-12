@@ -1,13 +1,13 @@
 ---
+title: Carga de recursos mediante HTTP POSTs al servlet UploadFile
 description: La carga de recursos en Dynamic Media Classic implica una o más solicitudes de POST HTTP que configuran un trabajo para coordinar toda la actividad de registro asociada con los archivos cargados.
 solution: Experience Manager
-title: Carga de recursos mediante HTTP POSTs al servlet UploadFile
-feature: Dynamic Media Classic,SDK/API,Administración de activos
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: e40293be-d00f-44c1-8ae7-521ce3312ca8
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '725'
 ht-degree: 3%
 
 ---
@@ -57,7 +57,7 @@ https://<server>/scene7/UploadFile
 
 ## Flujo de trabajo del trabajo de carga {#section-873625b9512f477c992f5cdd77267094}
 
-El trabajo de carga consta de uno o más POST HTTP que utilizan un `jobHandle` común para correlacionar el procesamiento con el mismo trabajo. Cada solicitud está codificada `multipart/form-data` y consta de las siguientes partes del formulario:
+El trabajo de carga consta de uno o más POST HTTP que utilizan una `jobHandle` para correlacionar el procesamiento en el mismo trabajo. Cada solicitud es `multipart/form-data` está codificado y consta de las siguientes partes del formulario:
 
 >[!NOTE]
 >
@@ -65,34 +65,34 @@ El trabajo de carga consta de uno o más POST HTTP que utilizan un `jobHandle` c
 
 |  Parte del formulario del POST HTTP  |  Descripción  |
 |---|---|
-| `auth`  |   Obligatorio. Documento XML authHeader que especifica la autenticación y la información del cliente. Consulte **Solicitar autenticación** en [SOAP](/help/aem-ips-api/c-wsdl-versions.md). |
-| `file params`  |   Opcional. Puede incluir uno o más archivos para cargarlos con cada solicitud del POST. Cada parte del archivo puede incluir un parámetro de nombre de archivo en el encabezado Content-Disposition que se utiliza como nombre de archivo de destino en IPS si no se especifica ningún parámetro `uploadPostParams/fileName`. |
+| `auth`  |   Obligatorio. Documento XML authHeader que especifica la autenticación y la información del cliente. Consulte **Solicitud de autenticación** under [SOAP](/help/aem-ips-api/c-wsdl-versions.md). |
+| `file params`  |   Opcional. Puede incluir uno o más archivos para cargarlos con cada solicitud del POST. Cada parte del archivo puede incluir un parámetro de nombre de archivo en el encabezado Content-Disposition que se utiliza como nombre de archivo de destino en IPS si no `uploadPostParams/fileName` se ha especificado. |
 
 |  Parte del formulario del POST HTTP   |  nombre del elemento uploadPostParams   |  Tipo   |  Descripción   |
 |---|---|---|---|
-| `uploadParams` (Se requieren. Un documento XML `uploadParams` que especifica los parámetros de carga)   |   `companyHandle`  |  `xsd:string`  | Obligatorio. Gestione a la empresa a la que se está cargando el archivo.  |
-| `uploadParams` (Se requieren. Un documento XML `uploadParams` que especifica los parámetros de carga) | `jobName`  |  `xsd:string`  | Se requiere `jobName` o `jobHandle`. Nombre del trabajo de carga.  |
-| `uploadParams` (Se requieren. Un documento XML `uploadParams` que especifica los parámetros de carga) | `jobHandle`  |  `xsd:string`  | Se requiere `jobName` o `jobHandle`. Gestione un trabajo de carga iniciado en una solicitud anterior.  |
-| `uploadParams` (Se requieren. Un documento XML `uploadParams` que especifica los parámetros de carga) | `locale`  |  `xsd:string`  | Opcional. Idioma y código de país para la localización.  |
-| `uploadParams` (Se requieren. Un documento XML `uploadParams` que especifica los parámetros de carga) | `description`  |  `xsd:string`  | Opcional. Descripción del trabajo.  |
-| `uploadParams` (Se requieren. Un documento XML `uploadParams` que especifica los parámetros de carga) | `destFolder`  |  `xsd:string`  | Opcional. La ruta de la carpeta de destino añade un prefijo a una propiedad de nombre de archivo, especialmente para exploradores y otros clientes que pueden no admitir rutas de acceso completas en un nombre de archivo.  |
-| `uploadParams` (Se requieren. Un documento XML `uploadParams` que especifica los parámetros de carga) | `fileName`  |  `xsd:string`  | Opcional. Nombre del archivo de destino. Anula la propiedad filename . |
-| `uploadParams` (Se requieren. Un documento XML `uploadParams` que especifica los parámetros de carga) | `endJob`  |  `xsd:boolean`  | Opcional. El valor predeterminado es false. |
-| `uploadParams` (Se requieren. Un documento XML `uploadParams` que especifica los parámetros de carga) | `uploadParams`  |  `types:UploadPostJob`  | Opcional si es una solicitud posterior para un trabajo activo existente. Si hay un trabajo existente, `uploadParams` se ignora y se utilizan los parámetros de carga de trabajo existentes. Consulte [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4) |
+| `uploadParams` (Se requieren. Un XML `uploadParams` documento que especifica los parámetros de carga)   |   `companyHandle`  |  `xsd:string`  | Obligatorio. Gestione a la empresa a la que se está cargando el archivo.  |
+| `uploadParams` (Se requieren. Un XML `uploadParams` documento que especifica los parámetros de carga) | `jobName`  |  `xsd:string`  | Cualquiera `jobName` o `jobHandle` es obligatorio. Nombre del trabajo de carga.  |
+| `uploadParams` (Se requieren. Un XML `uploadParams` documento que especifica los parámetros de carga) | `jobHandle`  |  `xsd:string`  | Cualquiera `jobName` o `jobHandle` es obligatorio. Gestione un trabajo de carga iniciado en una solicitud anterior.  |
+| `uploadParams` (Se requieren. Un XML `uploadParams` documento que especifica los parámetros de carga) | `locale`  |  `xsd:string`  | Opcional. Idioma y código de país para la localización.  |
+| `uploadParams` (Se requieren. Un XML `uploadParams` documento que especifica los parámetros de carga) | `description`  |  `xsd:string`  | Opcional. Descripción del trabajo.  |
+| `uploadParams` (Se requieren. Un XML `uploadParams` documento que especifica los parámetros de carga) | `destFolder`  |  `xsd:string`  | Opcional. La ruta de la carpeta de destino añade un prefijo a una propiedad de nombre de archivo, especialmente para exploradores y otros clientes que pueden no admitir rutas de acceso completas en un nombre de archivo.  |
+| `uploadParams` (Se requieren. Un XML `uploadParams` documento que especifica los parámetros de carga) | `fileName`  |  `xsd:string`  | Opcional. Nombre del archivo de destino. Anula la propiedad filename . |
+| `uploadParams` (Se requieren. Un XML `uploadParams` documento que especifica los parámetros de carga) | `endJob`  |  `xsd:boolean`  | Opcional. El valor predeterminado es false. |
+| `uploadParams` (Se requieren. Un XML `uploadParams` documento que especifica los parámetros de carga) | `uploadParams`  |  `types:UploadPostJob`  | Opcional si es una solicitud posterior para un trabajo activo existente. Si hay un trabajo existente, `uploadParams` se ignora y se utilizan los parámetros de carga de trabajo existentes. Consulte [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4) |
 
-Dentro del bloque `<uploadPostParams>` está el bloque `<uploadParams>` que designa el procesamiento de los archivos incluidos.
+Dentro de `<uploadPostParams>` es el valor `<uploadParams>` que designa el procesamiento de los archivos incluidos.
 
 Consulte [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4).
 
-Aunque puede suponer que el parámetro `uploadParams` puede cambiar para archivos individuales como parte del mismo trabajo, ese no es el caso. Utilice los mismos parámetros `uploadParams` para todo el trabajo.
+Aunque puede suponer que la variable `uploadParams` puede cambiar para archivos individuales como parte del mismo trabajo, no es el caso. Utilice lo mismo `uploadParams` parámetros para todo el trabajo.
 
-La solicitud inicial del POST para un nuevo trabajo de carga debe especificar el parámetro `jobName`, preferiblemente utilizando un nombre de trabajo único para simplificar las consultas de sondeo y registro de trabajo posteriores. Las solicitudes de POST adicionales para el mismo trabajo de carga deben especificar el parámetro `jobHandle` en lugar de `jobName`, utilizando el valor `jobHandle` devuelto desde la solicitud inicial.
+La solicitud inicial del POST para un nuevo trabajo de carga debe especificar la variable `jobName` , preferiblemente utilizando un nombre de trabajo único para simplificar las consultas de sondeo y registro de trabajos posteriores. Las solicitudes de POST adicionales para el mismo trabajo de carga deben especificar la variable `jobHandle` en lugar de `jobName`, usando la variable `jobHandle` valor devuelto desde la solicitud inicial.
 
-La solicitud final del POST para un trabajo de carga debe establecer el parámetro `endJob` en true para que no se publiquen archivos futuros para este trabajo. A su vez, esto permite que el trabajo se complete inmediatamente después de ingerir todos los archivos POSTed. De lo contrario, el tiempo de espera del trabajo finaliza si no se reciben solicitudes de POST adicionales en un plazo de 30 minutos.
+La solicitud final del POST para un trabajo de carga debe establecer la variable `endJob` como true para que no se publiquen archivos futuros para este trabajo. A su vez, esto permite que el trabajo se complete inmediatamente después de ingerir todos los archivos POSTed. De lo contrario, el tiempo de espera del trabajo finaliza si no se reciben solicitudes de POST adicionales en un plazo de 30 minutos.
 
 ## Respuesta UploadPOST {#section-421df5cc04d44e23a464059aad86d64e}
 
-Para una solicitud de POST correcta, el cuerpo de la respuesta será un documento XML `uploadPostReturn`, como especifica el XSD en lo siguiente:
+Para una solicitud de POST correcta, el cuerpo de la respuesta es un XML `uploadPostReturn` , tal como especifica el XSD en lo siguiente:
 
 ```
 <element name="uploadPostReturn"> 
@@ -104,9 +104,9 @@ Para una solicitud de POST correcta, el cuerpo de la respuesta será un document
     </element>
 ```
 
-El `jobHandle` devuelto se pasa en el parámetro `uploadPostParams`/ `jobHandle` para cualquier solicitud de POST posterior para el mismo trabajo. También puede utilizarla para sondear el estado del trabajo con la operación `getActiveJobs` o para consultar los registros de trabajo con la operación `getJobLogDetails`.
+La variable `jobHandle` se pasa en la variable `uploadPostParams`/ `jobHandle` para cualquier solicitud de POST posterior para el mismo trabajo. También puede utilizarlo para sondear el estado del trabajo con la variable `getActiveJobs` o para consultar los registros de trabajos con el `getJobLogDetails` operación.
 
-Si hay un error en el procesamiento de la solicitud del POST, el cuerpo de la respuesta está formado por uno de los tipos de error de API descritos en [Faults](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b).
+Si hay un error en el procesamiento de la solicitud del POST, el cuerpo de la respuesta consta de uno de los tipos de error de API descritos en [Fallos](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b).
 
 ## Ejemplo de solicitud de POST {#section-810fe32abdb9426ba0fea488dffadd1e}
 

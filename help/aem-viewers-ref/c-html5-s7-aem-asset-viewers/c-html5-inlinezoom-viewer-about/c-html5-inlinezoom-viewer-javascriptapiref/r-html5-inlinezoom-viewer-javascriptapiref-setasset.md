@@ -1,13 +1,13 @@
 ---
+title: setAsset
 description: Referencia de la API de JavaScript para el visor de zoom en línea.
 solution: Experience Manager
-title: setAsset
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom en línea
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 62b46ad5-90b7-49e1-a426-87fbe956f07e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '127'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ Referencia de la API de JavaScript para el visor de zoom en línea.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> recurso</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> Cadena</span>} nuevo id de recurso, conjunto de imágenes explícitas o conjunto de imágenes explícitas con modificadores de servicio de imágenes específicos de fotogramas, con modificadores de servicio de imágenes globales opcionales anexados después de <span class="codeph"> ?</span>. </p> <p> Este visor no admite las imágenes que utilizan IR (procesamiento de imágenes) o UGC (contenido generado por el usuario). </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> Cadena</span>} nuevo id de recurso, conjunto de imágenes explícito o conjunto de imágenes explícito con modificadores de Image Serving específicos de fotogramas, con modificadores globales opcionales añadidos después de <span class="codeph"> ?</span>. </p> <p> Este visor no admite las imágenes que utilizan IR (procesamiento de imágenes) o UGC (contenido generado por el usuario). </p> </td> 
   </tr> 
  </tbody> 
 </table>

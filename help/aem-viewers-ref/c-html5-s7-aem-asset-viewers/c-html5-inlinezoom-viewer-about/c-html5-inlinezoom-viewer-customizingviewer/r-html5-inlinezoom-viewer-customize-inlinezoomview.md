@@ -1,11 +1,11 @@
 ---
-description: La vista principal consiste en la imagen estática, la imagen ampliada mostrada en la vista flotante sobre la imagen estática y el mensaje de sugerencia mostrado sobre la imagen estática.
-solution: Experience Manager
 title: Vista de zoom flotante
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom en línea
+description: La vista principal consiste en la imagen estática y la imagen ampliada mostrada en la vista flotante sobre la imagen estática. También consiste en el mensaje de sugerencia que se muestra sobre la imagen estática.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 7b4b5cc9-68ad-4e7a-a2d9-3bbced929145
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 3%
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # Vista de zoom flotante{#flyout-zoom-view}
 
-La vista principal consiste en la imagen estática, la imagen ampliada mostrada en la vista flotante sobre la imagen estática y el mensaje de sugerencia mostrado sobre la imagen estática.
+La vista principal consiste en la imagen estática y la imagen ampliada mostrada en la vista flotante sobre la imagen estática. También consiste en el mensaje de sugerencia que se muestra sobre la imagen estática.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,7 +35,7 @@ El aspecto de la vista principal se controla con el siguiente selector de clase 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Color de fondo de la vista principal. </p> </td> 
   </tr> 
  </tbody> 
@@ -57,7 +57,7 @@ El aspecto del mensaje de sugerencia se controla con el siguiente selector de cl
 .s7flyoutviewer .s7flyoutzoomview .s7tip
 ```
 
-Es posible configurar el estilo de fuente, el aspecto del tamaño y el desplazamiento vertical mediante CSS. Sin embargo, la alineación horizontal la gestiona la lógica del visor. No se admite su anulación mediante CSS con propiedades `left` o `right`.
+Es posible configurar el estilo, el tamaño, la apariencia y el desplazamiento vertical de la fuente mediante CSS. Sin embargo, la alineación horizontal la gestiona la lógica del visor. Sobrescribir mediante CSS usando `left` o `right` no se admiten propiedades de .
 
 <table id="table_DCF6B69A9D8C4DB7A10C4572F7484799"> 
  <thead> 
@@ -76,11 +76,11 @@ Es posible configurar el estilo de fuente, el aspecto del tamaño y el desplazam
    <td colname="col2"> <p>Color de texto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Nombre de la fuente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Tamaño de fuente. </p> </td> 
   </tr> 
   <tr> 
@@ -88,16 +88,16 @@ Es posible configurar el estilo de fuente, el aspecto del tamaño y el desplazam
    <td colname="col2"> <p>Relleno alrededor del texto del mensaje. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Color de relleno de fondo del texto del mensaje. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
    <td colname="col2"> <p>Radio del borde de fondo del texto del mensaje. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opacidad  </span> </p> </td> 
-   <td colname="col2"> <p>La opacidad del fondo del texto del mensaje. </p> <p>Para Internet Explorer 8, utilice <span class="codeph"> filter:alpha(opacity-...) ) </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opacidad </span> </p> </td> 
+   <td colname="col2"> <p>La opacidad del fondo del texto del mensaje. </p> <p>Para Internet Explorer 8, utilice <span class="codeph"> filtro:alfa(opacity-...) </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -106,7 +106,7 @@ El mensaje de sugerencia se puede localizar. Consulte [Localización de los elem
 
 .
 
-Ejemplo: para configurar un mensaje de punta semitransparente con una fuente Arial blanca de 12 píxeles, un desplazamiento de 50 píxeles desde la parte inferior de la vista principal, el relleno y un borde redondeado:
+Ejemplo: para configurar un mensaje de punta semitransparente con una fuente Arial® de 12 píxeles y blanco, 50 píxeles de desplazamiento desde la parte inferior de la vista principal, el relleno y un borde redondeado:
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7tip { 

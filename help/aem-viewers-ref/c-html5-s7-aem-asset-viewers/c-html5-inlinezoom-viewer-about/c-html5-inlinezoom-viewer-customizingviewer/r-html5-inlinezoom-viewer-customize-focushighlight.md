@@ -1,13 +1,13 @@
 ---
+title: Enfoque resaltado
 description: El resaltado del foco de entrada que se muestra alrededor del elemento de la interfaz de usuario del visor centrado se controla con el selector de clases CSS.
 solution: Experience Manager
-title: Enfoque resaltado
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom en línea
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 5849dc2f-d4df-40a2-82c9-454284308a04
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '78'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ El aspecto se controla con el siguiente selector de clase CSS:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> descripción  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> descripción </span> </p> </td> 
    <td colname="col2"> <p>Estilo de resaltado de enfoque. </p> </td> 
   </tr> 
  </tbody> 

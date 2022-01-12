@@ -1,29 +1,29 @@
 ---
+title: FlyoutZoomView.imagereload
 description: FlyoutZoomView.imagereload
 solution: Experience Manager
-title: FlyoutZoomView.imagereload
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom en línea
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 84dd1e40-2ab8-4356-9eff-8766432b539b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 3%
+source-wordcount: '121'
+ht-degree: 4%
 
 ---
 
 # FlyoutZoomView.imagereload{#flyoutzoomview-imagereload}
 
-` [FlyoutZoomView.|<containerId>_flyout.]imagereload=0|1[,breakpoint, *``*[; *`anchura de anchura`*]]`
+` [FlyoutZoomView.|<containerId>_flyout.]imagereload=0|1[,breakpoint, *`width`*[; *`width`*]]`
 
 <table id="table_7DA232CB62134078B788B9AB1452F363"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Configura cómo el componente recupera nuevas imágenes para las vistas principal y flotante durante el cambio de tamaño. </p> <p>Si se establece en <span class="codeph"> 0 </span>, el componente no carga nuevas imágenes durante el cambio de tamaño y la resolución de la imagen en la vista flotante no cambia. </p> <p>El valor <span class="codeph"> 1 </span> permite especificar uno o varios puntos de interrupción de anchura para la imagen cargada en la vista principal. </p> </td> 
+   <td colname="col2"> <p> Configura cómo el componente recupera nuevas imágenes para las vistas principal y flotante durante el cambio de tamaño. </p> <p>Establecer como <span class="codeph"> 0 </span>, el componente no carga imágenes nuevas durante el cambio de tamaño y la resolución de la imagen en la vista flotante no cambia. </p> <p>Establecer como <span class="codeph"> 1 </span> permite especificar uno o más puntos de interrupción de anchura para la imagen cargada en la vista principal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> punto de interrupción,  <span class="varname"> anchura  </span>;  <span class="varname"> width  </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> punto de interrupción, <span class="varname"> width </span>; <span class="varname"> width </span> </span> </p> </td> 
    <td colname="col2"> <p>Puntos de interrupción de ancho para la imagen que se carga en la vista principal. </p> <p>El componente siempre utiliza el mejor tamaño de ajuste para la carga inicial. Después de cambiar el tamaño, se garantiza que la imagen de la vista principal se descargue siempre con la anchura igual al punto de interrupción más grande más cercano y se reduzca la escala en el cliente. </p> </td> 
   </tr> 
  </tbody> 

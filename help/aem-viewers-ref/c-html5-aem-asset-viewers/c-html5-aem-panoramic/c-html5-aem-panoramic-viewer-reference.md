@@ -1,20 +1,20 @@
 ---
 title: Visor panorámico
-description: HTML5 Panoramic Viewer es un visor de imágenes que muestra una imagen panorámica. El objetivo de este visor es mostrar un panorama esférico, también conocido como imagen equirectangular. Es compatible con la planeación y la panorámica automáticas mediante el movimiento giroscópico.  Está diseñado para funcionar con equipos de escritorio y dispositivos móviles.  El modo de visualización de la realidad virtual está disponible en dispositivos móviles compatibles.
+description: HTML5 Panoramic Viewer es un visor de imágenes que muestra una imagen panorámica. El objetivo de este visor es mostrar un panorama esférico, también conocido como imagen equirectangular. Es compatible con la planeación y la panorámica automáticas mediante el movimiento giroscópico. Está diseñado para funcionar con equipos de escritorio y dispositivos móviles. El modo de visualización de la realidad virtual está disponible en dispositivos móviles compatibles.
 keywords: adaptable
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '1961'
+source-wordcount: '1953'
 ht-degree: 0%
 
 ---
 
 # Panorámica{#panoramic}
 
-HTML5 Panoramic Viewer es un visor de imágenes que muestra una imagen panorámica. El objetivo de este visor es mostrar un panorama esférico, también conocido como imagen equirectangular. Es compatible con la planeación y la panorámica automáticas mediante el movimiento giroscópico.  Está diseñado para funcionar con equipos de escritorio y dispositivos móviles.  El modo de visualización de la realidad virtual está disponible en dispositivos móviles compatibles.
+HTML5 Panoramic Viewer es un visor de imágenes que muestra una imagen panorámica. El objetivo de este visor es mostrar un panorama esférico, también conocido como imagen equirectangular. Es compatible con la planeación y la panorámica automáticas mediante el movimiento giroscópico. Está diseñado para funcionar con equipos de escritorio y dispositivos móviles. El modo de visualización de la realidad virtual está disponible en dispositivos móviles compatibles.
 
 Consulte [Requisitos y requisitos previos del sistema](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
@@ -27,7 +27,7 @@ Tipo de visor 514.
 
 ## Uso del visor panorámico {#section-f21ac23d3f6449ad9765588d69584772}
 
-HTML5 Panoramic Viewer representa un archivo JavaScript principal y un conjunto de archivos de ayuda (un solo JavaScript incluye todos los componentes del SDK de visor de HTML5 que utiliza este visor en particular, assets, CSS) descargados por el visor en tiempo de ejecución.
+HTML5 Panoramic Viewer representa un archivo JavaScript principal y un conjunto de archivos de ayuda descargados por el visor durante la ejecución. El conjunto de archivos de ayuda es una única inclusión JavaScript con todos los componentes de SDK de visor HTML5 utilizados por este visor, recursos y CSS en particular.
 El visor panorámico de HTML5 se puede utilizar tanto en modo emergente mediante la página HTML lista para la producción que se proporciona con los visualizadores IS como en modo incrustado, donde se integra en la página web de destino mediante API documentada.
 La configuración y el desollado son similares a los de los otros visores HTML5. Todo el desliz se puede lograr mediante CSS personalizada.
 
@@ -58,17 +58,17 @@ HTML5 Panoramic Viewer admite el desplazamiento automático y la navegación med
 </table>
 
 El visor admite la entrada táctil y la entrada de ratón en dispositivos Windows con pantalla táctil y ratón; sin embargo, esta compatibilidad se limita solo a los navegadores web Chrome, Internet Explorer 11 y Edge.
-El visor panorámico tiene la capacidad de procesar imágenes panorámicas en modo Realidad virtual (VR) especificando el modificador vrrender.  Cuando está habilitada la representación, se muestra una imagen panorámica en pantallas divididas.  Un caso de uso común sería servir la imagen en un teléfono móvil montado en un auricular de realidad virtual, proporcionando imágenes separadas para cada ojo.  El espectador responderá al movimiento giroscópico de la cabeza y navegará por la imagen.
+El visor panorámico puede procesar imágenes panorámicas en modo Realidad virtual (VR) especificando el modificador vrrender. Cuando está habilitada la representación, se muestra una imagen panorámica en pantallas divididas. Un caso de uso común sería servir la imagen en un teléfono móvil montado en un auricular de realidad virtual, proporcionando imágenes separadas para cada ojo. El espectador responde al movimiento giroscópico de la cabeza y navega por la imagen.
 
 ## HTML de incrustación 5 Visor panorámico {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Las diferentes páginas web tienen diferentes necesidades de comportamiento del visor. A veces, una página web proporciona un vínculo y, al hacer clic en él, se abre el visor en una ventana independiente del explorador. En otros casos, puede ser necesario incrustar el visor directamente en la página de alojamiento. En este último caso, la página web puede tener un diseño estático o ser &quot;interactiva&quot; y mostrarse de forma diferente en diferentes dispositivos o en diferentes tamaños de ventana del navegador. Para satisfacer estas necesidades, el visor admite tres modos de operación principales: ventana emergente, incrustación de tamaño fijo e incrustación interactiva.
+Las diferentes páginas web tienen diferentes necesidades de comportamiento del visor. A veces, una página web proporciona un vínculo. Al seleccionar ese vínculo, se abre el visor en una ventana independiente del explorador. En otros casos, puede ser necesario integrar el visor en la página de alojamiento. En este último caso, la página web puede tener un diseño estático o ser &quot;interactiva&quot; y mostrarse de forma diferente en distintos dispositivos o en diferentes tamaños de ventana del navegador. Para satisfacer estas necesidades, el visor admite tres modos de operación principales: ventana emergente, incrustación de tamaño fijo e incrustación interactiva.
 
 **Acerca del modo emergente**
 
 En el modo emergente, el visor se abre en una ventana o pestaña independiente del explorador web. Toma todo el área de la ventana del navegador y se ajusta en caso de que el navegador cambie de tamaño o la orientación del dispositivo cambie.
 
-Este modo es el más común para dispositivos móviles. La página web carga el visor mediante la llamada de JavaScript window.open() , configurada correctamente Un elemento HTML o de cualquier otra forma adecuada.
+Este modo es el más común para dispositivos móviles. La página web carga el visor mediante `window.open()` Llamada de JavaScript, elemento de HTML configurado correctamente o de cualquier otra manera adecuada.
 
 Se recomienda utilizar una página HTML predeterminada para el modo de operación emergente. Se llama [!DNL PanoramicViewer.html] y se encuentra debajo de la variable [!DNL html5/] subcarpeta de la implementación estándar de IS-Viewers:
 
@@ -86,16 +86,15 @@ Este es un ejemplo de código de HTML que abre el visor en la nueva ventana:
 
 En el modo integrado, el visor se añade a la página web existente, que puede tener ya algún contenido de cliente no relacionado con el visor. Normalmente, el visor solo ocupa una parte del espacio de la página web.
 
-El caso de uso principal son páginas web orientadas a equipos de escritorio o tabletas, así como páginas web adaptables que ajustan el diseño automáticamente en función del tipo de dispositivo.
+Los casos de uso principales son páginas web orientadas a equipos de escritorio o tabletas, y también páginas web adaptables que ajustan el diseño automáticamente en función del tipo de dispositivo.
 
-La incrustación de tamaño fijo se utiliza cuando el visor no cambia su tamaño después de la carga inicial. Esta es la mejor opción para páginas web con diseño estático.
+La incrustación de tamaño fijo se utiliza cuando el visor no cambia su tamaño después de la carga inicial. Este método es la mejor opción para páginas web con diseño estático.
 
-La incrustación interactiva supone que el visor puede tener que cambiar el tamaño en tiempo de ejecución en respuesta al cambio de tamaño de su contenedor DIV. El caso de uso más común es agregar un visor a una página web que utiliza un diseño flexible.
+La incrustación interactiva supone que el visor debe cambiar el tamaño en tiempo de ejecución como respuesta al cambio de tamaño de su contenedor DIV. El caso de uso más común es agregar un visor a una página web que utiliza un diseño flexible.
 
-En el modo interactivo, el visor se comportará de forma diferente en función del tamaño de la página web según el contenedor DIV. Si la página web establece únicamente la anchura del contenedor DIV, sin restringir su altura, el visor elegirá automáticamente su altura según la proporción de aspecto del recurso que se esté utilizando; esto garantizará que el recurso se ajuste perfectamente a la vista sin ningún relleno en los lados. Este caso de uso es el más común para las páginas web que usan marcos de diseño interactivos como Bootstrap, Fundación, etc.
+En el modo interactivo, el visor se comporta de forma diferente en función del tamaño de la página web según el contenedor DIV. Si la página web establece únicamente la anchura del contenedor DIV, sin restringir su altura, el visor elige automáticamente su altura según la proporción de aspecto del recurso utilizado. Este método garantiza que el recurso se ajuste perfectamente a la vista sin ningún relleno en los lados. Este caso de uso es el más común para las páginas web que usan marcos de diseño interactivos como Bootstrap, Fundación, etc.
 
-De lo contrario, si la página web establece la anchura y la altura del contenedor DIV del visor, el visor solo rellenará esa área y seguirá el tamaño proporcionado por el diseño de la página web. Un buen ejemplo puede ser la incrustación de un visor en una superposición modal, donde el tamaño de la superposición depende del tamaño de la ventana del explorador web.
-
+De lo contrario, si la página web establece la anchura y la altura del contenedor DIV del visor, el visor rellena esa área y sigue el tamaño proporcionado por el diseño de la página web. Un buen ejemplo es integrar el visor en una superposición modal, donde el tamaño de la superposición depende del tamaño de la ventana del explorador web.
 
 **Integración de tamaño fijo**
 
@@ -159,8 +158,7 @@ La ruta relativa tiene el siguiente aspecto:
    panoramicViewer.setParam("stagesize", "512,256");
    ```
 
-   Se recomienda el enfoque basado en CSS, que se utilizará en este ejemplo.
-
+   Se recomienda el enfoque basado en CSS, que se utiliza en este ejemplo.
 
 1. Creación e inicialización del visor.
 
@@ -215,7 +213,7 @@ La ruta relativa tiene el siguiente aspecto:
 
 **Diseño interactivo con altura ilimitada**
 
-Con la incrustación interactiva, la página web tiene normalmente algún tipo de diseño flexible en su lugar, lo que dicta el tamaño en tiempo de ejecución del contenedor DIV del visor. A los efectos de este ejemplo, supongamos que la página web permite que el contenedor DIV del visor tome el 80 % del tamaño de la ventana del explorador web, dejando su altura sin restricciones. El código del HTML de la página web podría tener este aspecto:
+Con la incrustación interactiva, la página web normalmente tiene algún tipo de diseño flexible en su lugar, lo que dicta el tamaño en tiempo de ejecución del contenedor DIV del visor. A los efectos de este ejemplo, supongamos que la página web permite que el contenedor DIV del visor tome el 80 % del tamaño de la ventana del explorador web, dejando su altura sin restricciones. El código del HTML de la página web podría tener este aspecto:
 
 ```
 <!DOCTYPE html> 
@@ -233,7 +231,7 @@ Con la incrustación interactiva, la página web tiene normalmente algún tipo d
 </html> 
 ```
 
-Añadir el visor a esta página es muy similar a la incrustación de tamaño fijo, con la única diferencia de que no necesita definir explícitamente el tamaño del visor:
+Añadir el visor a esta página es similar a la incrustación de tamaño fijo, con la única diferencia de que no necesita definir explícitamente el tamaño del visor:
 
 1. Añadir el archivo JavaScript del visor a la página web.
 1. Definición del contenedor DIV.

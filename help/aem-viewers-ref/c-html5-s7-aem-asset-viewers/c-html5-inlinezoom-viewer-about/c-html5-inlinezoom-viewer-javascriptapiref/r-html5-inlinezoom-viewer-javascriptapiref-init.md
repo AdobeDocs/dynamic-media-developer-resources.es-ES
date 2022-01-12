@@ -1,13 +1,13 @@
 ---
+title: init
 description: Referencia de la API de JavaScript para el visor de zoom en línea.
 solution: Experience Manager
-title: init
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom en línea
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: c4419728-1e1a-4e11-88fe-24eb0c968c5c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '125'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ Referencia de la API de JavaScript para el visor de zoom en línea.
 
 Inicia la inicialización del visor para que el código del visor pueda encontrarlo por su ID. Para este momento se debe crear el elemento DOM del contenedor.
 
-Si el elemento contenedor aún no forma parte del diseño de la página web (por ejemplo, puede que esté oculto empleando el estilo `display:none` asignado), el visor suspende su proceso de inicialización hasta el momento en que la página web devuelva el elemento contenedor al diseño. Cuando esto sucede, la carga del visor se reanuda automáticamente.
+Si el elemento contenedor aún no forma parte del diseño de la página web, por ejemplo, puede ocultarse utilizando `display:none` estilo asignado a él : el visor suspende su proceso de inicialización. Lo hace hasta el momento en que la página web vuelve a mostrar el elemento contenedor al diseño. Cuando se produce esta acción, la carga del visor se reanuda automáticamente.
 
 Llame a este método solo una vez durante el ciclo de vida del visor; las llamadas subsiguientes se ignoran.
 
