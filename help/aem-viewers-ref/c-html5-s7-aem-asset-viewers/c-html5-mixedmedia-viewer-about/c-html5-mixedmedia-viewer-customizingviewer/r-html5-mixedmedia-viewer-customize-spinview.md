@@ -1,13 +1,13 @@
 ---
+title: Vista de giro
 description: La vista principal consiste en la imagen de giro cuando el recurso actual es un conjunto de giros.
 solution: Experience Manager
-title: Vista de giro
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de medios mixtos
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: aafc1299-b09a-4379-bd8f-b564066175bd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '75'
 ht-degree: 1%
 
 ---
@@ -35,13 +35,13 @@ El aspecto del área de visualización se controla con el siguiente selector de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Color de fondo en formato hexadecimal de la vista de giro. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ejemplo: para que la vista de giro sea transparente.
+Ejemplo: para hacer transparente la vista de giro.
 
 ```
 .s7mixedmediaviewer .s7spinview { 

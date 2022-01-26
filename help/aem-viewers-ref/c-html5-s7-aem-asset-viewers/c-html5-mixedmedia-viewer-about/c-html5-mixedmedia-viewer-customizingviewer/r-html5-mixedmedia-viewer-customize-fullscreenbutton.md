@@ -1,13 +1,13 @@
 ---
+title: Botón Pantalla completa
 description: Este botón hace que el usuario introduzca o salga del modo de pantalla completa cuando lo selecciona. Se utiliza cuando el visor muestra imágenes o conjuntos de giros. Este botón no se muestra si el visor funciona en modo emergente y el sistema no admite pantalla completa nativa. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
 solution: Experience Manager
-title: Botón Pantalla completa
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 1df99614-9493-4c8a-bc51-4426b8c5467a
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '311'
 ht-degree: 2%
 
 ---
@@ -75,7 +75,7 @@ El aspecto del botón se controla con el siguiente selector de clase CSS:
 
 La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obtener más información.
 
-Ejemplo: para configurar un botón de pantalla completa de 32 x 32 píxeles, situado a seis píxeles desde el borde superior y derecho del visor, y muestra una imagen diferente para cada uno de los cuatro estados de botón diferentes cuando se selecciona o no se selecciona:
+Ejemplo: para configurar un botón de pantalla completa de 32 x 32 píxeles y colocar seis píxeles desde el borde superior y derecho del visor. Finalmente, muestra una imagen diferente para cada uno de los cuatro estados de botón diferentes cuando se selecciona o no:
 
 ```
 .s7mixedmediaviewer .s7fullscreenbutton { 

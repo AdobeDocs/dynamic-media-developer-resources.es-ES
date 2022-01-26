@@ -1,13 +1,13 @@
 ---
+title: Definir indicador
 description: El indicador de conjunto es una serie de puntos representados sobre las muestras principales cuando se utiliza un visor en un dispositivo táctil. Los puntos ayudan a los usuarios a navegar por las páginas de miniaturas cuando los botones de desplazamiento no están disponibles.
 solution: Experience Manager
-title: Definir indicador
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de medios mixtos
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 53ee058a-cb8c-4b1f-bb9b-caaecc12c947
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '257'
 ht-degree: 1%
 
 ---
@@ -35,13 +35,13 @@ El aspecto del contenedor de indicador establecido se controla con el siguiente 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Color de fondo en formato hexadecimal del indicador establecido. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ejemplo: para configurar un indicador de conjunto con un fondo blanco:
+Ejemplo: para crear un indicador de conjunto con un fondo blanco:
 
 ```
 .s7mixedmediaviewer .s7setindicator { 
@@ -70,27 +70,27 @@ El aspecto de un punto indicador de conjunto individual se controla con el selec
    <td colname="col2"> <p>Altura del punto indicador definido. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
    <td colname="col2"> <p>Margen izquierdo en píxeles. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
    <td colname="col2"> <p>Margen superior en píxeles. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-right  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-right </span> </p> </td> 
    <td colname="col2"> <p>Margen derecho en píxeles. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-bottom  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-bottom </span> </p> </td> 
    <td colname="col2"> <p>Margen inferior en píxeles. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
    <td colname="col2"> <p>Radio del borde en píxeles. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Color de fondo en formato hexadecimal. </p> </td> 
   </tr> 
  </tbody> 
@@ -98,9 +98,9 @@ El aspecto de un punto indicador de conjunto individual se controla con el selec
 
 >[!NOTE]
 >
->El punto indicador definido es compatible con el selector de atributos `state`, que puede utilizarse para aplicar diferentes aspectos a diferentes estados de miniaturas. En concreto, `state="selected"` corresponde a la página actual de miniaturas, `state="unselected"` corresponde al estado de punto predeterminado.
+>El punto indicador definido admite la variable `state` selector de atributos, que se puede utilizar para aplicar diferentes aspectos a distintos estados de miniaturas. En particular, `state="selected"` corresponde a la página actual de miniaturas, `state="unselected"` corresponde al estado de punto predeterminado.
 
-Ejemplo: para configurar el punto indicador definido para que sea de 15 x 15 píxeles, con dos píxeles de margen horizontal, cinco píxeles de margen superior, un píxel de margen inferior, doce píxeles de radio, #D5D3D3 de color predeterminado y #939393 de color activo:
+Ejemplo: para crear un punto indicador definido que sea 15 x 15 píxeles, con un margen horizontal de dos píxeles, un margen superior de cinco píxeles, un margen inferior de un píxel, un radio de 12 píxeles, el color predeterminado #D5D3D3 y el color activo #939393:
 
 ```
 .s7mixedmediaviewer .s7setindicator .s7dot { 

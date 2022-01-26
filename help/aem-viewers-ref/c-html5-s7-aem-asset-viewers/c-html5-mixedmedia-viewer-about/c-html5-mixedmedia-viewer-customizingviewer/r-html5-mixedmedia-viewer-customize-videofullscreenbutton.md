@@ -1,11 +1,11 @@
 ---
-description: El botón de pantalla completa hace que el usuario entre o salga del modo de pantalla completa cuando lo selecciona. Se utiliza cuando el espectador muestra vídeo y se encuentra en la barra de control. Este botón no se muestra si el visor funciona en modo emergente y el sistema no admite pantalla completa nativa.
-solution: Experience Manager
 title: Botón de pantalla completa de vídeo
+description: El botón de pantalla completa hace que el usuario entre o salga del modo de pantalla completa cuando lo selecciona. Se utiliza cuando el espectador muestra vídeo y se coloca en la barra de control. Este botón no se muestra si el visor funciona en modo emergente y el sistema no admite pantalla completa nativa.
+solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 45811efa-95f6-4b6d-96f8-9e5437a55f0e
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Botón de pantalla completa de vídeo{#video-full-screen-button}
 
-El botón de pantalla completa hace que el usuario entre o salga del modo de pantalla completa cuando lo selecciona. Se utiliza cuando el espectador muestra vídeo y se encuentra en la barra de control. Este botón no se muestra si el visor funciona en modo emergente y el sistema no admite pantalla completa nativa.
+El botón Pantalla completa hace que el usuario introduzca o salga del modo de pantalla completa cuando lo selecciona. Se utiliza cuando el espectador muestra vídeo y se coloca en la barra de control. Este botón no se muestra si el visor funciona en modo emergente y el sistema no admite pantalla completa nativa.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

@@ -1,13 +1,13 @@
 ---
+title: init
 description: Referencia de la API de JavaScript para el visualizador de medios mixtos.
 solution: Experience Manager
-title: init
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de medios mixtos
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 4fb40cec-172a-41b3-98fc-927da88c7cb9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '123'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ Referencia de la API de JavaScript para el visualizador de medios mixtos.
 
 Inicia la inicialización del visualizador de medios mixtos. Para este momento, se debe crear el elemento DOM contenedor para que el código del visor pueda encontrarlo con su ID.
 
-Si el elemento contenedor aún no forma parte del diseño de la página web (por ejemplo, puede que esté oculto empleando el estilo `display:none` asignado), el visor suspende su proceso de inicialización hasta el momento en que la página web devuelva el elemento contenedor al diseño. Cuando esto sucede, la carga del visor se reanuda automáticamente.
+Si el elemento contenedor aún no forma parte del diseño de la página web, por ejemplo, puede ocultarse utilizando `display:none` style : el visor suspende su proceso de inicialización. Se suspende hasta el momento en que la página web vuelve a mostrar el elemento contenedor al diseño, momento en el que la carga del visor se reanuda automáticamente.
 
 Llame a este método solo una vez durante el ciclo de vida del visor; las llamadas subsiguientes se ignoran.
 

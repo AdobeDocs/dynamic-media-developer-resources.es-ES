@@ -1,13 +1,13 @@
 ---
+title: Tiempo de vídeo
 description: La hora del vídeo es la visualización numérica que muestra la hora y la duración actuales del vídeo que se está reproduciendo.
 solution: Experience Manager
-title: Tiempo de vídeo
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de medios mixtos
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 5efae314-5f37-4afc-9b9e-3108a8529e50
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '193'
 ht-degree: 2%
 
 ---
@@ -43,11 +43,11 @@ El aspecto del tiempo de vídeo se controla con el siguiente selector de clase C
    <td colname="col2"> <p> Ancho del control de tiempo del vídeo. Esta propiedad es necesaria para que Internet Explorer 8 o bueno funcione correctamente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>La familia de fuentes que se usará para el texto de visualización de la hora. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>El tamaño de fuente que se utilizará para el texto de visualización de la hora. </p> </td> 
   </tr> 
   <tr> 
@@ -59,7 +59,7 @@ El aspecto del tiempo de vídeo se controla con el siguiente selector de clase C
 
 ## Ejemplo {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Establezca el tiempo de vídeo en gris claro (hexadecimal `#BBBBBB`), con un tamaño de 12 píxeles, posicione 15 píxeles desde la parte superior de la barra de control y 80 píxeles desde los bordes derechos de la barra de control.
+Configure el tiempo de vídeo en gris claro (hexadecimal) `#BBBBBB`), con un tamaño de 12 píxeles, colocado 15 píxeles desde la parte superior de la barra de control y 80 píxeles desde los bordes derechos de la barra de control.
 
 ```
 .s7mixedmediaviewer .s7videotime { 

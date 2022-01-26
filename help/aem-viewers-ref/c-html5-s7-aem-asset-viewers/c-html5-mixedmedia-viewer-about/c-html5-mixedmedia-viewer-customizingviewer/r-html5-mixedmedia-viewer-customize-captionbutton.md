@@ -1,13 +1,13 @@
 ---
+title: Botón Rótulo
 description: Activa o desactiva la visualización de subtítulos. No está visible si no se especifica el parámetro del rótulo. Puede utilizar CSS para cambiar el tamaño, el aspecto y la posición de este botón en relación con la barra de control que lo contiene.
 solution: Experience Manager
-title: Botón Rótulo
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de medios mixtos
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 62809036-f158-402d-a8b2-2b9335e8c079
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '271'
 ht-degree: 2%
 
 ---
@@ -59,11 +59,11 @@ El aspecto del botón se controla con el siguiente selector de clase CSS:
    <td colname="col2"> <p>Altura del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo </span> </p> </td> 
    <td colname="col2"> <p>Imagen que se muestra para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo </span> </p> </td> 
    <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -71,11 +71,11 @@ El aspecto del botón se controla con el siguiente selector de clase CSS:
 
 >[!NOTE]
 >
->Este botón admite el selector de atributos `state` y los selectores de atributos seleccionados, que pueden utilizarse para aplicar diferentes aspectos a distintos estados de botones. En concreto, `selected='true'` corresponde al estado cuando los subtítulos son visibles y `selected='false'` se utiliza cuando los subtítulos están ocultos.
+>Este botón admite la variable `state` selector de atributos y selectores de atributos seleccionados, que se pueden utilizar para aplicar diferentes aspectos a distintos estados de botones. En particular, `selected='true'` corresponde al estado cuando los subtítulos están visibles y `selected='false'` se utiliza cuando los subtítulos están ocultos.
 
 La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obtener más información.
 
-Ejemplo: para configurar un botón de subtítulos cerrados de 28 x 28 píxeles, colocado cuatro píxeles desde la parte superior y 68 píxeles desde el borde derecho de la barra de control, y muestra una imagen diferente para cada uno de los cuatro estados de botones diferentes cuando se seleccionan o no.
+Ejemplo: para configurar un botón de subtítulo que tenga 28 x 28 píxeles, se sitúe a cuatro píxeles de la parte superior y a 68 píxeles del borde derecho de la barra de control. Finalmente, muestra una imagen diferente para cada uno de los cuatro estados de botón diferentes cuando se selecciona o no.
 
 ```
 .s7mixedmediaviewer .s7closedcaptionbutton { 
