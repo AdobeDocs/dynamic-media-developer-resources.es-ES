@@ -1,14 +1,14 @@
 ---
+title: Swatches.direction
 description: Swatches.direction
 solution: Experience Manager
-title: Swatches.direction
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de medios mixtos
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: bd01ff03-fea7-42ad-aa99-72273f55bda0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 6%
+source-wordcount: '57'
+ht-degree: 7%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 6%
 <table id="table_B4B930A32C0742F4932BF071B9EEA9F4"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> auto|left|right  </span> </p> </td> 
-   <td> <p> Especifica la forma en que las muestras rellenan la vista. </p> <p> <span class="codeph"> establece el  </span> orden de relleno de izquierda a derecha; </p> <p> <span class="codeph"> a la derecha  </span> invierte el orden para que la vista se rellene de derecha a izquierda y de arriba a abajo. </p> <p>Cuando se configura <span class="codeph"> auto </span>, el componente aplica el modo <span class="codeph"> derecho </span> cuando la configuración regional se establece en <span class="codeph"> ja </span>; de lo contrario, se usa left . </p> </td> 
+   <td> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
+   <td> <p> Especifica la forma en que las muestras rellenan la vista. </p> <p> <span class="codeph"> left </span> establece el orden de relleno de izquierda a derecha; </p> <p> <span class="codeph"> right </span> invierte el orden para que la vista se rellene de derecha a izquierda y de arriba a abajo. </p> <p>When <span class="codeph"> auto </span> está configurado, se aplica el componente <span class="codeph"> right </span> cuando la configuración regional está definida en <span class="codeph"> ja </span>; de lo contrario, se usa left . </p> </td> 
   </tr> 
  </tbody> 
 </table>

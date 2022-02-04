@@ -1,14 +1,14 @@
 ---
+title: Swatches.textpos
 description: Swatches.textpos
 solution: Experience Manager
-title: Swatches.textpos
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de medios mixtos
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 4b3b91f9-e564-462a-a4f3-494dd5511c26
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 7%
+source-wordcount: '48'
+ht-degree: 8%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td> <p> Especifica dónde se dibuja la etiqueta en relación con la imagen en miniatura de la muestra. Es decir, la etiqueta se centra en la ubicación especificada en relación con la miniatura de la muestra. Cuando se especifica <span class="codeph"> tooltip</span>, no se dibuja ninguna etiqueta. </p> </td> 
+   <td> <p> Especifica dónde se dibuja la etiqueta en relación con la imagen en miniatura de la muestra. Es decir, la etiqueta se centra en la ubicación especificada en relación con la miniatura de la muestra. When <span class="codeph"> tooltip</span> no se dibuja ninguna etiqueta. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: f36eb82a-e545-4063-8bc4-6315ed17758f
-source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 9%
@@ -22,7 +22,7 @@ Atributo de configuración para el visualizador de vídeo360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> basado en IP</span> </p> </td> 
-   <td colname="col2"> <p> Establece la velocidad de bits del vídeo (en kilobits por segundo o Kbps) que se utiliza para la reproducción inicial de vídeo en un escritorio. </p> <p>Si este valor de velocidad de bits no existe en el conjunto de vídeos adaptables, el reproductor de vídeo comienza con el vídeo que tiene la siguiente velocidad de bits más baja. </p> <p>Si se establece en <span class="codeph"> 0</span>, el reproductor de vídeo comienza a partir de la velocidad de bits más baja posible. </p> <p>Aplicable solo para sistemas que no tienen compatibilidad nativa con vídeo HLS de HTML5 (como los navegadores Firefox, Chrome e Internet Explorer 11 en Windows 10) y cuando el modo de reproducción está configurado en automático. </p> </td> 
+   <td colname="col2"> <p> Establece la velocidad de bits del vídeo (en kilobits por segundo o kbps) que se utiliza para la reproducción inicial de vídeo en un escritorio. </p> <p>Si este valor de velocidad de bits no existe en el conjunto de vídeos adaptables, el reproductor de vídeo comienza con el vídeo que tiene la siguiente velocidad de bits más baja. </p> <p>Si está configurado como <span class="codeph"> 0</span>, el reproductor de vídeo se inicia a partir de la velocidad de bits más baja posible. </p> <p>Aplicable solo para sistemas que no tienen compatibilidad nativa con vídeo HLS de HTML5 (como los navegadores Firefox, Chrome e Internet Explorer 11 en Windows 10) y cuando el modo de reproducción está configurado en automático. </p> </td> 
   </tr> 
  </tbody> 
 </table>

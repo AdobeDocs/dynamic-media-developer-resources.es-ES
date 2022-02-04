@@ -1,26 +1,26 @@
 ---
+title: SpinView.autospin
 description: SpinView.autospin
 solution: Experience Manager
-title: SpinView.autospin
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de giros
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 16276e07-5494-4fd9-bd77-e77a46c57fd1
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 6%
+source-wordcount: '99'
+ht-degree: 7%
 
 ---
 
 # SpinView.autospin{#spinview-autospin}
 
-` [SpinView.|<containerId>_spinView.]maxloadradius=0|1[, *``*][, *``*][, *`durationdirectionspin_number`*]`
+` [SpinView.|<containerId>_spinView.]maxloadradius=0|1[, *`duration`*][, *`Dirección`*][, *`spin_number`*]`
 
 <table id="table_49FFD1BC53B846F09A6D214BC8C5C3FE"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Activa o desactiva la animación de giro automática. Para lograr la mejor experiencia de giro automático, se recomienda cargar previamente todos los fotogramas estableciendo <span class="codeph"> maxloadradius</span> en <span class="codeph"> -1</span>. Sin embargo, tenga en cuenta que esto resulta en un mayor tiempo de carga y un mayor uso del ancho de banda. </p> </td> 
+   <td colname="col2"> <p> Activa o desactiva la animación de giro automática. Para lograr la mejor experiencia de giro automático, se recomienda cargar previamente todos los fotogramas estableciendo <span class="codeph"> maxloadradius</span> a <span class="codeph"> -1</span>. Sin embargo, tenga en cuenta que esta configuración resulta en un mayor tiempo de carga y en un mayor uso del ancho de banda. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> duración</span></span> </p> </td> 
@@ -32,7 +32,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> spin_number</span></span> </p> </td> 
-   <td colname="col2"> <p> Número de rotaciones completas realizadas antes de que se detenga el giro automático. El número es un número de coma flotante. Establézcalo en <span class="codeph"> -1</span> para un giro automático infinito. </p> </td> 
+   <td colname="col2"> <p> Número de rotaciones completas realizadas antes de que se detenga el giro automático. El número es un número de coma flotante. Establecer como <span class="codeph"> -1</span> para un giro automático infinito. </p> </td> 
   </tr> 
  </tbody> 
 </table>

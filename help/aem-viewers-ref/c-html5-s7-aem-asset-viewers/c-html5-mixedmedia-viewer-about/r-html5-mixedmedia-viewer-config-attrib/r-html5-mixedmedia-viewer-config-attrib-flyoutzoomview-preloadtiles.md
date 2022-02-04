@@ -1,14 +1,14 @@
 ---
+title: FlyoutZoomView.preloadtiles
 description: FlyoutZoomView.preloadtiles
 solution: Experience Manager
-title: FlyoutZoomView.preloadtiles
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de medios mixtos
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 041df5c7-9391-4dde-8988-a83272c7c438
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 6%
+source-wordcount: '60'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Configúrelo en <span class="codeph"> 1</span> para habilitar la precarga de la imagen ampliada. </p> <p>Establézcalo en <span class="codeph"> 0</span> para cargar la imagen de zoom de forma incremental, según sea necesario. </p> <p> <p>Nota:  Tenga en cuenta que si activa esta opción, puede aumentar sustancialmente el uso del ancho de banda, ya que la imagen ampliada debe cargarse en su totalidad, incluso aunque el usuario no realice ninguna acción de zoom. </p> </p> </td> 
+   <td colname="col2"> <p> Establecer como <span class="codeph"> 1</span> para permitir la precarga de la imagen ampliada. </p> <p>Establecer como <span class="codeph"> 0</span> para cargar la imagen de zoom de forma incremental, según sea necesario. </p> <p> <p>Si habilita esta opción, puede aumentar considerablemente el uso del ancho de banda, ya que la imagen ampliada debe cargarse en su totalidad, incluso aunque el usuario no realice ninguna acción de zoom. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

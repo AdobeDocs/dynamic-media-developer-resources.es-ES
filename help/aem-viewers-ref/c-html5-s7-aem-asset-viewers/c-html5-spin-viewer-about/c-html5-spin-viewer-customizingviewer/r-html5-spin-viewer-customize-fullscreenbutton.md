@@ -1,13 +1,13 @@
 ---
+title: Botón Pantalla completa
 description: Este botón hace que el usuario introduzca o salga del modo de pantalla completa cuando lo selecciona. Este botón no se muestra si el visor funciona en modo emergente y el sistema no admite pantalla completa nativa. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
 solution: Experience Manager
-title: Botón Pantalla completa
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: c57f42e1-93c0-44fa-9734-9599786ee246
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '287'
 ht-degree: 2%
 
 ---
@@ -75,7 +75,7 @@ El aspecto del botón se controla con el siguiente selector de clase CSS:
 
 La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-localization.md#concept-e35c15c9e82648328806cdc6aa255d98) para obtener más información.
 
-Ejemplo: para configurar un botón de pantalla completa de 32 x 32 píxeles, situado a seis píxeles desde el borde superior y derecho del visor, y muestra una imagen diferente para cada uno de los cuatro estados de botón diferentes cuando se selecciona o no se selecciona:
+Ejemplo: para configurar un botón de pantalla completa de 32 x 32 píxeles y colocar seis píxeles desde el borde superior y derecho del visor. Finalmente, muestra una imagen diferente para cada uno de los cuatro estados de botón diferentes cuando se selecciona o no:
 
 ```
 .s7spinviewer .s7fullscreenbutton { 

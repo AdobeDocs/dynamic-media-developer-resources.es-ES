@@ -1,13 +1,13 @@
 ---
+title: VideoPlayer.iconeffect
 description: Atributo de configuración para el visualizador de vídeo.
 solution: Experience Manager
-title: VideoPlayer.iconeffect
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: b283b495-ee28-4f9d-ad4d-b14ac2f9a1a2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '115'
 ht-degree: 4%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 4%
 
 Atributo de configuración para el visualizador de vídeo.
 
-` [VideoPlayer.|<containerId>_videoPlayer.]iconeffect= *`0|1`*[, *``*][, *``*][, *`countfadeautoHide`*]`
+` [VideoPlayer.|<containerId>_videoPlayer.]iconeffect= *`0|1`*[, *`count`*][, *`fundido`*][, *`autoHide`*]`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 0|1</span> </span> </p> </td> 
-   <td colname="col2"> <p> Habilita IconEffect para que se muestre sobre el vídeo cuando este está en pausa. En algunos dispositivos se utilizan controles nativos. En este caso, se ignora el modificador <span class="codeph"> iconeffect</span>. </p> </td> 
+   <td colname="col2"> <p> Habilita IconEffect para que se muestre sobre el vídeo cuando este está en pausa. En algunos dispositivos se utilizan controles nativos. En tal caso, la variable <span class="codeph"> iconeffect</span> se ignora. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> count</span> </span> </p> </td> 
@@ -34,7 +34,7 @@ Atributo de configuración para el visualizador de vídeo.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> autoHide</span> </span> </p> </td> 
-   <td colname="col2"> <p> Establece el número de segundos que el IconEffect permanece visible antes de que se oculte automáticamente. Es decir, el tiempo después de finalizar la animación de fundido y antes de que comience la animación de fundido-out. Un valor de <span class="codeph"> 0</span> deshabilita el comportamiento de ocultación automática. </p> </td> 
+   <td colname="col2"> <p> Establece el número de segundos que el IconEffect permanece visible antes de que se oculte automáticamente. Es decir, el tiempo después de finalizar la animación de fundido y antes de que comience la animación de fundido-out. Una configuración de <span class="codeph"> 0</span> deshabilita el comportamiento de ocultación automática. </p> </td> 
   </tr> 
  </tbody> 
 </table>

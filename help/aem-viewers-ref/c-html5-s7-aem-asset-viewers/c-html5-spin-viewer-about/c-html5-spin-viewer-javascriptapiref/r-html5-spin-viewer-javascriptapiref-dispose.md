@@ -1,13 +1,13 @@
 ---
+title: dispose
 description: Referencia de la API de JavaScript para el visualizador de giros.
 solution: Experience Manager
-title: dispose
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de giros
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: c19466a8-9fc5-440c-8bb1-c4528937a522
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '124'
 ht-degree: 3%
 
 ---
@@ -22,9 +22,9 @@ Elimina esta instancia del visor liberando todos los recursos utilizados por la 
 
 El código de la página web también debe eliminar la variable de instancia del visor para eliminarlo completamente de la memoria del explorador web.
 
-Si el código de la página web ha registrado oyentes de eventos directamente en los componentes del SDK de visor utilizados por el visor o las referencias externas almacenadas a dichos componentes, dichos oyentes deben no estar registrados explícitamente en el código de la página web y dichas referencias de componentes externos deben eliminarse antes de llamar a `dispose()`.
+Si el código de la página web ha registrado oyentes de eventos directamente en los componentes del SDK de visor utilizados por el visor (o si se han almacenado referencias externas a dichos componentes), el código de la página web debe anular explícitamente el registro de dichos oyentes. Además, dichas referencias de componentes externos deben eliminarse antes de llamar a `dispose()`.
 
-No acceda más a la API del visor después de llamar a `dispose()`.
+No acceda a la API del visor después de `dispose()` se llama.
 
 ## Parámetros {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 

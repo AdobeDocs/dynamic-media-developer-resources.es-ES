@@ -1,12 +1,12 @@
 ---
+title: Spin
 description: El visor de giros es un visor de imágenes que proporciona una vista de 360 grados de la imagen o incluso una vista multidimensional si se utiliza el conjunto de giros apropiado. Tiene herramientas de zoom y giro, compatibilidad con pantalla completa y un botón de cierre opcional. Está diseñado para funcionar con equipos de escritorio y dispositivos móviles.
 keywords: adaptable
 solution: Experience Manager
-title: Spin
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 4c802d42-ea5b-4f28-b6ef-2689aa16839d
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '2130'
 ht-degree: 0%

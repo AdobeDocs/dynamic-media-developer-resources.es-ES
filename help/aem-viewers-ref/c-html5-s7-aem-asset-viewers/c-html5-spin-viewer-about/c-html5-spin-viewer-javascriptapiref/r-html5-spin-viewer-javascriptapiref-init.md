@@ -1,13 +1,13 @@
 ---
+title: init
 description: Referencia de la API de JavaScript para el visualizador de giros.
 solution: Experience Manager
-title: init
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de giros
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 5217a02a-6092-4cb9-b4fb-f959cdc85a6e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '118'
 ht-degree: 2%
 
 ---
@@ -18,9 +18,9 @@ Referencia de la API de JavaScript para el visualizador de giros.
 
 `init()`
 
-Inicia la inicialización del visualizador de giros. Para este momento, se debe crear el elemento contenedor `DOM` para que el código del visor pueda encontrarlo con su ID.
+Inicia la inicialización del visualizador de giros. Para este momento, el contenedor `DOM` debe crearse para que el código del visor pueda encontrarlo con su ID.
 
-Si el elemento contenedor aún no forma parte del diseño de la página web (por ejemplo, puede que esté oculto empleando el estilo `display:none` asignado), el visor suspende su proceso de inicialización hasta el momento en que la página web devuelva el elemento contenedor al diseño. Cuando esto sucede, la carga del visor se reanuda automáticamente.
+Si el elemento contenedor aún no forma parte del diseño de la página web, por ejemplo, puede ocultarse utilizando `display:none` style : el visor suspende su proceso de inicialización. Se suspende hasta el momento en que la página web vuelve a mostrar el elemento contenedor al diseño, momento en el que la carga del visor se reanuda automáticamente.
 
 Llame a este método solo una vez durante el ciclo de vida del visor; las llamadas subsiguientes se ignoran.
 

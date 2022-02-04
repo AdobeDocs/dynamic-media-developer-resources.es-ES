@@ -1,13 +1,13 @@
 ---
+title: Compatibilidad con el seguimiento de Adobe Analytics
 description: El visualizador de medios mixtos es compatible con el seguimiento de Adobe Analytics de serie.
 solution: Experience Manager
-title: Compatibilidad con el seguimiento de Adobe Analytics
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de medios mixtos
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 3b28c853-3747-4805-a141-3cce1398d783
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '182'
 ht-degree: 5%
 
 ---
@@ -18,13 +18,13 @@ El visualizador de medios mixtos es compatible con el seguimiento de Adobe Analy
 
 ## Seguimiento predeterminado {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-El visualizador de medios mixtos admite el seguimiento [!DNL Adobe Analytics] listo para usar. Para habilitar el seguimiento, pase el nombre de ajuste preestablecido de empresa adecuado como parámetro `config2`.
+El visualizador de medios mixtos es compatible [!DNL Adobe Analytics] seguimiento listo para usar. Para habilitar el seguimiento, pase el nombre de ajuste preestablecido de la empresa correspondiente como `config2` parámetro.
 
 El visor también envía una única solicitud HTTP de seguimiento al servidor de imágenes configurado con el tipo de visor y la información de versión.
 
 ## Seguimiento personalizado {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Para integrarse con sistemas de análisis de terceros, es necesario escuchar la llamada de retorno del visor `trackEvent` y procesar el argumento `eventInfo` de la función de llamada de retorno según sea necesario. El siguiente código es un ejemplo de dicha función de controlador:
+Para integrarse con sistemas de análisis de terceros, es necesario escuchar la `trackEvent` la llamada de retorno del visor y procese la `eventInfo` de la función de llamada de retorno según sea necesario. El siguiente código es un ejemplo de dicha función de controlador:
 
 ```
 var mixedMediaViewer = new s7viewers.MixedMediaViewer({ 
@@ -65,7 +65,7 @@ El visor realiza el seguimiento de los siguientes eventos de usuario de SDK:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>un recurso se intercambia en el visor mediante la API <span class="codeph"> setAsset() </span>. </p> </td> 
+   <td colname="col2"> <p>un recurso se intercambia en el visor mediante <span class="codeph"> setAsset() </span> API. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 
