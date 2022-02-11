@@ -1,13 +1,13 @@
 ---
+title: Área del visor principal
 description: El área de vista principal está ocupada por el vídeo. Normalmente se configura para que se ajuste a la pantalla de dispositivo disponible cuando no se especifica ningún tamaño.
 solution: Experience Manager
-title: Área del visor principal
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 7d1379c1-7746-4f61-92df-e8ac4ab7d506
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '101'
 ht-degree: 2%
 
 ---
@@ -37,7 +37,7 @@ El siguiente selector de clase CSS controla el aspecto del área de visualizaci�
    <td colname="col2"> <p>Altura del visor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Color de fondo en formato hexadecimal. </p> </td> 
   </tr> 
  </tbody> 

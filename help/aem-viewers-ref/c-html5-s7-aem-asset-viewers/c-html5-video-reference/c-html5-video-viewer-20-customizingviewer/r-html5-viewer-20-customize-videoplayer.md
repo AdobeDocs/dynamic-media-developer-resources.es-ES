@@ -1,13 +1,13 @@
 ---
+title: Reproductor de vídeo
 description: El reproductor de vídeo es el área rectangular en la que se muestra el contenido de vídeo dentro del visor.
 solution: Experience Manager
-title: Reproductor de vídeo
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 2741821f-78fe-44d4-8604-fee10086e0a0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '296'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ El siguiente selector de clase CSS controla el aspecto del reproductor de vídeo
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Color de fondo de la vista principal. </p> </td> 
   </tr> 
  </tbody> 
@@ -56,7 +56,7 @@ Los subtítulos se colocan en un contenedor interno dentro del reproductor de v�
 <table id="table_960E0D4FB91748FF9FC73C925B81879C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Fondo de texto de subtítulos. </p> </td> 
   </tr> 
   <tr> 
@@ -64,21 +64,21 @@ Los subtítulos se colocan en un contenedor interno dentro del reproductor de v�
    <td colname="col2"> <p>Cierre el color del texto del rótulo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
    <td colname="col2"> <p> Grosor de fuente de subtítulos. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p> Tamaño de fuente de subtítulos. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Fuente de subtítulos. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ejemplo: para configurar el texto de los subtítulos cerrados en 14 píxeles, gris claro, Arial, sobre un fondo negro semitransparente:
+Ejemplo: para configurar el texto de los subtítulos cerrados para que sea de 14 píxeles, gris claro, Arial®, en un fondo negro semitransparente:
 
 ```
 .s7videoviewer .s7videoplayer .s7caption { 
@@ -115,15 +115,15 @@ El aspecto de la animación de almacenamiento en búfer se controla con el sigui
    <td colname="col2"> <p> Altura del icono de animación. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
    <td colname="col2"> <p> Icono de animación margen izquierdo, normalmente menos la mitad de la anchura del icono. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
    <td colname="col2"> <p> Margen superior del icono de animación, normalmente menos la mitad de la altura del icono. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo </span> </p> </td> 
    <td colname="col2"> <p> Ilustración del botón. </p> </td> 
   </tr> 
  </tbody> 

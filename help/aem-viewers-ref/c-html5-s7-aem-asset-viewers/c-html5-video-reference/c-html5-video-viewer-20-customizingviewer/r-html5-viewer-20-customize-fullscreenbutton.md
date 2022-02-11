@@ -1,20 +1,20 @@
 ---
+title: Botón Pantalla completa
 description: El botón de pantalla completa hace que el reproductor de vídeo entre o salga del modo de pantalla completa cuando un usuario hace clic en él.
 solution: Experience Manager
-title: Botón Pantalla completa
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 120f0ee9-e76b-48d5-8ea7-8be5a8f52edc
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '250'
 ht-degree: 2%
 
 ---
 
 # Botón Pantalla completa{#full-screen-button}
 
-El botón de pantalla completa hace que el reproductor de vídeo entre o salga del modo de pantalla completa cuando un usuario hace clic en él.
+El botón de pantalla completa hace que el reproductor de vídeo entre o salga del modo de pantalla completa cuando el usuario lo selecciona.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -55,11 +55,11 @@ El aspecto del botón de pantalla completa se controla con el selector de clase 
    <td colname="col2"> <p>Altura del botón de pantalla completa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo </span> </p> </td> 
    <td colname="col2"> <p> La imagen mostrada para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo </span> </p> </td> 
    <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -67,7 +67,7 @@ El aspecto del botón de pantalla completa se controla con el selector de clase 
 
 >[!NOTE]
 >
->Este botón admite los selectores de atributos `state` y `selected`, que pueden utilizarse para aplicar diferentes aspectos a diferentes estados de botones. En concreto, `selected='true'` corresponde al estado &quot;pantalla completa&quot; y `selected='false'` corresponde al estado &quot;normal&quot;.
+>Este botón admite las dos variables `state` y `selected` selectores de atributos, que pueden utilizarse para aplicar diferentes aspectos a distintos estados de botones. En particular, `selected='true'` corresponde al estado &quot;pantalla completa&quot; y `selected='false'` corresponde al estado &quot;normal&quot;.
 
 La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
 

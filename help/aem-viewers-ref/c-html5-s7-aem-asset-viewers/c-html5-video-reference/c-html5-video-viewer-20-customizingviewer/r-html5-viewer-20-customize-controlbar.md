@@ -1,20 +1,20 @@
 ---
-description: La barra de control es el área rectangular que contiene y se encuentra detrás de todos los controles de interfaz de usuario disponibles para el visor de vídeo, como el botón de reproducción/pausa, los controles de volumen, etc.
-solution: Experience Manager
 title: Barra de control
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
+description: La barra de control es el área rectangular que contiene y se encuentra detrás de todos los controles de interfaz de usuario disponibles para el visor de vídeo, como el botón de reproducción/pausa y los controles de volumen.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 2239307a-4a05-4392-b35c-a64ea6c938ad
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '166'
 ht-degree: 2%
 
 ---
 
 # Barra de control{#control-bar}
 
-La barra de control es el área rectangular que contiene y se encuentra detrás de todos los controles de interfaz de usuario disponibles para el visor de vídeo, como el botón de reproducción/pausa, los controles de volumen, etc.
+La barra de control es el área rectangular que contiene y se encuentra detrás de todos los controles de interfaz de usuario disponibles para el visor de vídeo, como el botón de reproducción/pausa y los controles de volumen.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -43,7 +43,7 @@ El siguiente selector de clase CSS controla el aspecto de la barra de control:
    <td colname="col2"> <p>Altura de la barra de control. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Color de fondo de la barra de control. </p> </td> 
   </tr> 
  </tbody> 

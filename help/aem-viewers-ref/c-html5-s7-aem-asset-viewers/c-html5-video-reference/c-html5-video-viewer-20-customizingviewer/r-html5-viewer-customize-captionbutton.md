@@ -1,13 +1,13 @@
 ---
+title: Botón Rótulo
 description: Este botón permite activar y desactivar la visualización de subtítulos. No está visible si no se especifica el parámetro del rótulo.
 solution: Experience Manager
-title: Botón Rótulo
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 47d4a33b-e2bc-4a32-be45-5320d3de1955
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '253'
 ht-degree: 2%
 
 ---
@@ -55,11 +55,11 @@ El aspecto de este botón se controla con el siguiente selector de clase CSS:
    <td colname="col2"> <p>Altura del botón de pantalla completa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo </span> </p> </td> 
    <td colname="col2"> <p> La imagen mostrada para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo </span> </p> </td> 
    <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -67,13 +67,13 @@ El aspecto de este botón se controla con el siguiente selector de clase CSS:
 
 >[!NOTE]
 >
->Este botón admite los selectores de atributos `state` y `selected`, que pueden utilizarse para aplicar diferentes aspectos a diferentes estados de botones. En concreto, `selected='true'` corresponde al estado cuando los subtítulos son visibles y `selected='false'` se utiliza cuando los subtítulos están ocultos.
+>Este botón admite las dos variables `state` y `selected` selectores de atributos, que pueden utilizarse para aplicar diferentes aspectos a distintos estados de botones. En particular, `selected='true'` corresponde al estado cuando los subtítulos están visibles y `selected='false'` se utiliza cuando los subtítulos están ocultos.
 
 La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
 
 ## Ejemplo {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Para configurar un botón de subtítulo cerrado de 28 x 28 píxeles, sitúe cuatro píxeles desde la parte superior y 68 píxeles desde el borde derecho de la barra de control y muestre una imagen diferente para cada uno de los cuatro estados de botón diferentes cuando esté seleccionado o no seleccionado.
+Para configurar un botón de subtítulos cerrados de 28 x 28 píxeles y colocado cuatro píxeles desde la parte superior y 68 píxeles desde el borde derecho de la barra de control. Finalmente, muestra una imagen diferente para cada uno de los cuatro estados de botón diferentes cuando se selecciona o no.
 
 ```
 .s7videoviewer .s7closedcaptionbutton { 

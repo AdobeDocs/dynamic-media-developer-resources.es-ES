@@ -1,13 +1,13 @@
 ---
+title: Volumen silenciable
 description: El control de volumen mutable aparece inicialmente como un botón que permite al usuario silenciar o anular el silencio del sonido del reproductor de vídeo.
 solution: Experience Manager
-title: Volumen silenciable
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: bd86af60-a9a0-4f2e-9d36-f7ee22bd8c8e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '526'
 ht-degree: 2%
 
 ---
@@ -47,7 +47,7 @@ El aspecto del área de volumen mutable se controla con el siguiente selector de
    <td colname="col2"> <p>Altura del control de volumen mutable. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Color del control de volumen mutable. </p> </td> 
   </tr> 
  </tbody> 
@@ -66,11 +66,11 @@ Puede controlar la imagen de fondo para cada estado del botón. El tamaño del b
 <table id="table_46903DCACF314426B67783167ADF7715"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo </span> </p> </td> 
    <td colname="col2"> <p> La imagen mostrada para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo </span> </p> </td> 
    <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -78,7 +78,7 @@ Puede controlar la imagen de fondo para cada estado del botón. El tamaño del b
 
 >[!NOTE]
 >
->Este botón admite los selectores de atributos `state` y `selected`, que pueden utilizarse para aplicar diferentes aspectos a diferentes estados de botones. En concreto, `selected='true'` corresponde al estado &quot;muted&quot; y `selected='false'` corresponde al estado &quot;unmuted&quot;.
+>Este botón admite las dos variables `state` y `selected` selectores de atributos, que pueden utilizarse para aplicar diferentes aspectos a distintos estados de botones. En particular, `selected='true'` corresponde al estado &quot;silenciado&quot; y `selected='false'` corresponde al estado &quot;unmuted&quot;.
 
 El área de la barra de volumen vertical se controla con el siguiente selector de clase CSS:
 
@@ -91,15 +91,15 @@ El área de la barra de volumen vertical se controla con el siguiente selector d
 <table id="table_966826FB81114362A8D81D1EED38D512"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Color de fondo del volumen vertical. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p> Ancho del volumen vertical. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p> Altura del volumen vertical. </p> </td> 
   </tr> 
  </tbody> 
@@ -117,15 +117,15 @@ La pista dentro del control de volumen vertical se controla con los siguientes s
 <table id="table_21E9AD3FBC8C4437BA02E5CD1BF7E831"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Color de fondo del control de volumen vertical. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Ancho del control de volumen vertical. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Altura del control de volumen vertical. </p> </td> 
   </tr> 
  </tbody> 
@@ -142,19 +142,19 @@ El control del volumen vertical se controla con el siguiente selector de clase C
 <table id="table_709D64AF815341A5B50ED72CCB350F2E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo </span> </p> </td> 
    <td colname="col2"> <p> Ilustración del pomo de control de volumen vertical. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo </span> </p> </td> 
    <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Anchura del pomo de control de volumen vertical. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Altura del pomo de control de volumen vertical. </p> </td> 
   </tr> 
   <tr> 
@@ -242,4 +242,4 @@ A continuación se muestra un ejemplo de cómo puede personalizar el reproductor
                 }
 ```
 
-En el ejemplo de código anterior, el nivel de volumen se establece en `0` en el componente `mutableVolume`. A continuación, el mismo componente se desactiva para que el usuario final no pueda utilizarlo.
+En el ejemplo de código anterior, el nivel de volumen se establece en `0` en el `mutableVolume` componente. A continuación, el mismo componente se desactiva para que el usuario final no pueda utilizarlo.
