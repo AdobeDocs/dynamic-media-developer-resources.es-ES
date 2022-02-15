@@ -1,13 +1,13 @@
 ---
+title: setAsset
 description: Referencia de la API de JavaScript para el visualizador de vídeo.
 solution: Experience Manager
-title: setAsset
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: e5d71393-fcae-4bd4-8e78-a451b2f05ffc
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '126'
 ht-degree: 3%
 
 ---
@@ -32,11 +32,11 @@ Consulte también [init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-ref
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> data </span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="codeph"> JSON </span>} objeto JSON con los siguientes campos opcionales (con distinción de mayúsculas y minúsculas): </p> <p> 
+   <td colname="col2"> <p>{ <span class="codeph"> JSON </span>} Objeto JSON con los siguientes campos opcionales (con distinción de mayúsculas y minúsculas): </p> <p> 
      <ul id="ul_26121393BC7145FF8A43C05ACCBEFF36"> 
-      <li id="li_DA50E073F3D4460CBC34243A2CBCC895"> <span class="codeph"> posterimage  </span> : imagen que se mostrará en el primer fotograma antes de que el vídeo empiece a reproducirse. Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref/r-html5-video-viewer-conf-attrib-videoplayer-posterimage.md#reference-9739abeeb9f64c02b5d2f7a0d1706103" format="dita" scope="local"> VideoPlayer.posterimage </a>. </li> 
-      <li id="li_BBFF3965B69A4AC8A469FDB69097B25A"> <span class="codeph"> subtítulo:  </span> ubicación del nuevo archivo de subtítulos. Si no se especifica el archivo, el botón de subtítulos no es visible en la interfaz de usuario. </li> 
-      <li id="li_4659E82D38EB4438AAA04FDEAF21B087"> <span class="codeph"> navegación  </span> : dirección URL o ruta al contenido de navegación de WebVTT. El archivo WebVTT debe ser servido por Image Serving </li> 
+      <li id="li_DA50E073F3D4460CBC34243A2CBCC895"> <span class="codeph"> posterimage </span> - Imagen que se mostrará en el primer fotograma antes de que el vídeo empiece a reproducirse. Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref/r-html5-video-viewer-conf-attrib-videoplayer-posterimage.md#reference-9739abeeb9f64c02b5d2f7a0d1706103" format="dita" scope="local"> VideoPlayer.posterimage </a>. </li> 
+      <li id="li_BBFF3965B69A4AC8A469FDB69097B25A"> <span class="codeph"> caption </span> : ubicación del nuevo archivo de subtítulos. Si no se especifica el archivo, el botón de subtítulos no es visible en la interfaz de usuario. </li> 
+      <li id="li_4659E82D38EB4438AAA04FDEAF21B087"> <span class="codeph"> navegación </span> : URL o ruta al contenido de navegación de WebVTT. El archivo WebVTT debe ser servido por Image Serving </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 

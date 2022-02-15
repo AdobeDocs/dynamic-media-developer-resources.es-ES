@@ -1,13 +1,13 @@
 ---
+title: Compatibilidad con el seguimiento de Adobe Analytics
 description: El visor de vídeo es compatible con el seguimiento de Adobe Analytics de serie.
 solution: Experience Manager
-title: Compatibilidad con el seguimiento de Adobe Analytics
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 2cc7087d-ed02-4560-b9ce-533af2b11a24
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '153'
 ht-degree: 3%
 
 ---
@@ -20,13 +20,13 @@ El visor de vídeo es compatible con el seguimiento de Adobe Analytics de serie.
 
 El visor de vídeo es compatible con el seguimiento de Adobe Analytics de serie.
 
-Para habilitar el seguimiento, pase el nombre de ajuste preestablecido de empresa adecuado como parámetro `config2`.
+Para habilitar el seguimiento, pase el nombre de ajuste preestablecido de la empresa correspondiente como `config2` parámetro.
 
 El visor también envía una única solicitud HTTP de seguimiento al servidor de imágenes configurado con el tipo de visor y la información de versión.
 
 ## Seguimiento personalizado {#section-ab10bd7caf184721a366cf3953071934}
 
-Para integrarse con sistemas de análisis de terceros, es necesario escuchar la llamada de retorno del visor `trackEvent` y procesar el argumento `eventInfo` de la función de llamada de retorno según sea necesario. El siguiente código es un ejemplo de dicha función de controlador:
+Para integrarse con sistemas de análisis de terceros, es necesario escuchar `trackEvent` llamada de retorno y proceso del visor `eventInfo` de la función de llamada de retorno según sea necesario. El siguiente código es un ejemplo de dicha función de controlador:
 
 ```
 var videoViewer = new s7viewers.VideoViewer({ 
@@ -67,7 +67,7 @@ El visor realiza el seguimiento de los siguientes eventos de usuario de SDK:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>un recurso se intercambia en el visor mediante la API <span class="codeph"> setAsset() </span>. </p> </td> 
+   <td colname="col2"> <p>un recurso se intercambia en el visor mediante <span class="codeph"> setAsset() </span> API. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 

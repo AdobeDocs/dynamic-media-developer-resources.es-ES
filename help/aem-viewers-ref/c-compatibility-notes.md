@@ -1,11 +1,11 @@
 ---
+title: Notas de compatibilidad
 description: Notas de compatibilidad para sistemas operativos, navegadores y dispositivos móviles.
 solution: Experience Manager
-title: Notas de compatibilidad
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 7ad499b1-7da6-483b-ab11-cff2eb9271da
-source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
+source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 1%
@@ -27,7 +27,7 @@ Notas de compatibilidad para sistemas operativos, navegadores y dispositivos mó
 * La escala del lado del explorador hace que la interfaz de usuario y las imágenes se vuelvan borrosas a medida que el usuario amplía la página. El formato de la interfaz de usuario también se muestra incorrectamente según el zoom y se transfiere a pantalla completa.
 * Debido a la limitación de tamaño de los dispositivos móviles, el visualizador de medios mixtos utiliza un gesto de diapositivas para intercambiar fotogramas en conjuntos de imágenes incrustadas en lugar de pulsar el componente de muestras incrustadas. El componente está ahí como indicador visual.
 * En los navegadores Internet Explorer y en algunos dispositivos táctiles, el modo de pantalla completa no ocupa toda la pantalla del dispositivo. En su lugar, cambia el tamaño de la aplicación al tamaño de la ventana del explorador.
-* El botón Cerrar no funciona en iOS 8.0 e iOS 8.1 pero funciona en iOS 8.2.
+* El botón Cerrar no funciona en iOS 8.0 y iOS 8.1, pero funciona en iOS 8.2.
 
 ## Galaxia SIII {#section-dfd5f46f39834223b544b1e2f7a770c1}
 
@@ -51,7 +51,7 @@ Notas de compatibilidad para sistemas operativos, navegadores y dispositivos mó
 * La incapacidad de desactivar el zoom de pellizcar nativo es una &quot;función&quot; del envoltorio de la interfaz de usuario de HTC (HTC Sense). Esta función puede hacer que una página entera se zoom al usar el gesto de &quot;pellizcar para hacer zoom&quot; en el visor. En su lugar, utilice un gesto de doble toque.
 * Los iconos del mapa de imágenes se superponen si los mapas de imágenes son pequeños y están próximos entre sí.
 
-## Visor de vídeo HTML5 {#section-3c2dd1220dea4093b17ca2dd0a688307}
+## Visor de vídeos de HTML5 {#section-3c2dd1220dea4093b17ca2dd0a688307}
 
 * `IntialBitRate` sólo se admite con el software HLS y la reproducción del HDS en Flash. No funciona cuando la reproducción utiliza el reproductor nativo.
 * No se admite la reproducción progresiva de OGG y WebM.
@@ -66,7 +66,7 @@ Notas de compatibilidad para sistemas operativos, navegadores y dispositivos mó
 
 ## iOS {#section-70161cba8c2044838d916d0b69c12247}
 
-* Los catálogos electrónicos grandes hacen que el explorador se bloquee en el iPad 2.
+* Los catálogos electrónicos grandes hacen que el explorador se bloquee en iPad 2.
 
 ## Safari {#section-f8de598293d349188aa02c82cd3af8b6}
 

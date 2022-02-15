@@ -1,14 +1,14 @@
 ---
+title: setParams
 description: Referencia de la API de JavaScript para el visualizador de vídeo.
 solution: Experience Manager
-title: setParams
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 76bad894-bfb8-4d79-b3ff-c2497c68e5e8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 1%
+source-wordcount: '97'
+ht-degree: 2%
 
 ---
 
@@ -18,9 +18,9 @@ Referencia de la API de JavaScript para el visualizador de vídeo.
 
 ` setParams( *`params`*)`
 
-Establece uno o más parámetros en un valor determinado. La sintaxis del argumento de método es idéntica a una cadena de consulta de URL. Es decir, representa pares nombre=valor separados por `&`. Igual que en una cadena de consulta, los nombres y valores se codifican por porcentajes usando UTF8. Antes de llamar a `init()`, se debe llamar a este parámetro.
+Establece uno o más parámetros en un valor determinado. La sintaxis del argumento de método es idéntica a una cadena de consulta de URL. Es decir, representa pares de nombre=valor separados por `&`. Los mismos que en una cadena de consulta, los nombres y los valores se codifican por porcentajes utilizando UTF8. Antes de llamar a `init()`, se debe llamar a este parámetro.
 
-Este método es opcional si la información de configuración del visor se pasa con el objeto JSON `config` al constructor.
+Este método es opcional si se pasa la información de configuración del visor con `config` objeto JSON al constructor.
 
 Consulte también [init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-init.md#reference-3b570ba8b35045d6b30fb178c21a66c6).
 
@@ -28,7 +28,7 @@ Consulte también [init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-ref
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> params</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value pares de parámetros separados por  <span class="codeph"> &amp;</span>. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}</span> pares de parámetros name=value separados por <span class="codeph"> &amp;</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

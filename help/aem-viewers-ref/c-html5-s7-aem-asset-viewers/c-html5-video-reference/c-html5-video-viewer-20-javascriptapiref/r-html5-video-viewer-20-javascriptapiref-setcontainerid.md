@@ -1,13 +1,13 @@
 ---
+title: setContainerId
 description: Referencia de la API de JavaScript para el visualizador de vídeo.
 solution: Experience Manager
-title: setContainerId
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 9f2857a4-108d-4689-9c39-cb2635405d0d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '85'
 ht-degree: 2%
 
 ---
@@ -18,13 +18,13 @@ Referencia de la API de JavaScript para el visualizador de vídeo.
 
 ` setContainerId( *`containerId`*)`
 
-Establece el ID del contenedor DOM (normalmente un `DIV`) en el que se inserta el visor. No es necesario tener el elemento contenedor creado para cuando se llama a este método. Sin embargo, el contenedor debe existir cuando se ejecuta `init()`. Se llama a este parámetro antes de `init()`. Este método es opcional si la información de configuración del visor se pasa con el objeto JSON `config` al constructor.
+Establece el ID del contenedor DOM (normalmente, un `DIV`) en la que se inserta el visor. No es necesario tener el elemento contenedor creado para cuando se llama a este método. Sin embargo, el contenedor debe existir cuando `init()` se ejecuta. Este parámetro se invoca antes de que `init()`. Este método es opcional si se pasa la información de configuración del visor con `config` objeto JSON al constructor.
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}  </span> ID del contenedor. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> ID del contenedor. </p> </td> 
   </tr> 
  </tbody> 
 </table>

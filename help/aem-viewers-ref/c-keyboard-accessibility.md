@@ -1,13 +1,13 @@
 ---
+title: Navegación y accesibilidad del teclado
 description: Todas las funciones expuestas en la interfaz de visor de Zoom básico, Catálogo electrónico, Búsqueda en catálogo electrónico, Flotante, Zoom en línea, Medios mixtos, Giro, Vídeo, Zoom, Dimensión (3D), Carrusel, Imagen interactiva, Vídeo interactivo y Video360 son accesibles mediante teclado.
 solution: Experience Manager
-title: Navegación y accesibilidad del teclado
-feature: Dynamic Media Classic,Visualizadores,SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 0bdf172a-0bde-42d2-900f-f207538fe588
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ Todas las funciones expuestas en la interfaz de visor de Zoom básico, Catálogo
 
 Todas las funciones expuestas en la interfaz de visor de Zoom básico, Catálogo electrónico, Búsqueda en catálogo electrónico, Flotante, Zoom en línea, Medios mixtos, Giro, Vídeo, Zoom, Carrusel, Dimensional (3D), Imagen interactiva, Vídeo interactivo y Video360 son accesibles mediante teclado.
 
-Un usuario final puede navegar entre los elementos de la interfaz de usuario del visor utilizando las pulsaciones de teclas **[!UICONTROL Tab]** y **[!UICONTROL Shift+Tab]**. Al utilizar **[!UICONTROL Tab]** se avanza el enfoque de entrada al siguiente elemento de la interfaz de usuario en el orden de tabulación; el uso de **[!UICONTROL Shift+Tab]** devuelve el enfoque de entrada al elemento de interfaz de usuario anterior. El enfoque transversal sigue la ubicación del elemento de la interfaz de usuario natural en la pantalla y se mueve de izquierda a derecha y, a continuación, de arriba a abajo.
+El usuario final puede navegar entre los elementos de la interfaz de usuario del visor utilizando **[!UICONTROL Tabulación]** y **[!UICONTROL Mayús + Tab]** pulsaciones de teclas. Uso **[!UICONTROL Tabulación]** avanza el enfoque de entrada al siguiente elemento de interfaz de usuario en el orden de tabulación; using **[!UICONTROL Mayús + Tab]** devuelve el enfoque de entrada al elemento de interfaz de usuario anterior. El enfoque transversal sigue la ubicación del elemento de la interfaz de usuario natural en la pantalla y se mueve de izquierda a derecha y, a continuación, de arriba a abajo.
 
 Según la configuración del sistema operativo y del explorador web, el elemento de la interfaz de usuario que tiene el enfoque de entrada recibe una indicación de enfoque visual. Por ejemplo, el indicador visual puede ser un borde delgado representado alrededor del elemento de la interfaz de usuario.
 
-Es posible desactivar o personalizar este resaltado de enfoque en el visor CSS. En la tabla de contenido de este sistema de Ayuda, bajo un nombre de visor específico (por ejemplo, Zoom básico o Vídeo interactivo), haga clic en **Personalización de *nombre del visor*** >** Resaltado de enfoque **.
+Es posible desactivar o personalizar este resaltado de enfoque en el visor CSS. En la tabla de contenido de este sistema de Ayuda, bajo un nombre de visor específico (por ejemplo, Zoom básico o Vídeo interactivo), haga clic en **Personalización *nombre del visor*** >** Enfoque resaltado **.
 
 Las pulsaciones de teclas admitidas por los elementos de la interfaz de usuario del visor individual son, en la mayoría de los casos, obvias y fáciles de descubrir.
 
@@ -44,7 +44,7 @@ Las pulsaciones de teclas admitidas por los elementos de la interfaz de usuario 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Acercar o alejar </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> +  </span> o  <span class="uicontrol"> -  </span>, respectivamente. </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> + </span> o <span class="uicontrol"> - </span>, respectivamente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Restablecimiento de zoom </p> </td> 

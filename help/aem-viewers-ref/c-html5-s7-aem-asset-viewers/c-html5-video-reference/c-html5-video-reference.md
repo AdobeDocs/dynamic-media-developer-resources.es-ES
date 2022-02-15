@@ -1,12 +1,12 @@
 ---
+title: Vídeo
 description: El visor de vídeo es un reproductor de vídeo que reproduce flujo continuo y vídeo progresivo codificado en formato H.264. Se entrega desde Dynamic Media Classic o Adobe Experience Manager con Dynamic Media.
 keywords: adaptable
 solution: Experience Manager
-title: Vídeo
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: fa9727dc-f9e2-4d91-b500-445693dfb6aa
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
 workflow-type: tm+mt
 source-wordcount: '2372'
 ht-degree: 0%

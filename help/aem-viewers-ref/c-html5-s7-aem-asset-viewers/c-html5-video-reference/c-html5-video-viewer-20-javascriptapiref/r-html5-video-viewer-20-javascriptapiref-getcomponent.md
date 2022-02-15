@@ -1,13 +1,13 @@
 ---
+title: getComponent
 description: Referencia de la API de JavaScript para el visualizador de vídeo
 solution: Experience Manager
-title: getComponent
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 2f02371c-39c7-46fd-95a6-909efacac72c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '212'
 ht-degree: 1%
 
 ---
@@ -18,11 +18,11 @@ Referencia de la API de JavaScript para el visualizador de vídeo
 
 `getComponent(componentId)`
 
-Devuelve una referencia al componente SDK de visor que utiliza el visor. La página web puede utilizar este método para ampliar o personalizar el comportamiento del visor integrado. Llame a este método solo después de que se haya ejecutado la llamada de retorno del visor `initComplete`; de lo contrario, la lógica del visor podría no crear el componente.
+Devuelve una referencia al componente SDK de visor que utiliza el visor. La página web puede utilizar este método para ampliar o personalizar el comportamiento del visor integrado. Llame a este método solo después de `initComplete` se ha ejecutado la llamada de retorno del visor; de lo contrario, la lógica del visor podría no crear el componente.
 
 ## Parámetros {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`componentID`*` :  `{String}` ID del componente SDK de visor utilizado por el visor. Este visor admite los siguientes ID de componente:
+`*`componentID`*` - `{String}` un ID del componente SDK de visor utilizado por el visor. Este visor admite los siguientes ID de componente:
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
@@ -33,83 +33,83 @@ Devuelve una referencia al componente SDK de visor que utiliza el visor. La pág
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> parameterManager  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.ParameterManager  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> parameterManager </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.ParameterManager </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> contenedor </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Container  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Container </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mediaSet  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.MediaSet  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mediaSet </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.MediaSet </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> videoPlayer  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.video.VideoPlayer  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> videoPlayer </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.video.VideoPlayer </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> fullScreenButton  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.FullScreenButton  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> fullScreenButton </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.FullScreenButton </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mutableVolume  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.video.MutableVolume  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mutableVolume </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.video.MutableVolume </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> playPauseButton  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PlayPauseButton  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> playPauseButton </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PlayPauseButton </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> videoScrubber  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.video.VideoScrubber  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> videoScrubber </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.video.VideoScrubber </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> videoTime  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.video.VideoTime  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> videoTime </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.video.VideoTime </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> closedCaptionButton  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ClosedCaptionButton  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> closedCaptionButton </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ClosedCaptionButton </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> controles </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ControlBar  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ControlBar </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> socialShare  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.share.SocialShare  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> socialShare </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.share.SocialShare </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> twitterShare  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.share.TwitterShare  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> twitterShare </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.share.TwitterShare </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> facebookShare  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.share.FacebookShare  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> facebookShare </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.share.FacebookShare </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> linkShare  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.share.LinkShare  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> linkShare </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.share.LinkShare </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> emailShare  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.share.EmailShare  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> emailShare </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.share.EmailShare </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> embedShare  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.share.EmbedShare  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> embedShare </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.share.EmbedShare </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Al trabajar con API de SDK, es importante utilizar un espacio de nombres de SDK completo y correcto, tal como se describe en [Viewer SDK namespace](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-namespace.md#concept-679bfabb3e3e4c12a285c4e9c4144153).
+Al trabajar con las API de SDK, es importante utilizar el espacio de nombres del SDK completo correcto, tal como se describe en [Espacio de nombres del SDK del visor](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-namespace.md#concept-679bfabb3e3e4c12a285c4e9c4144153).
 
 Consulte la documentación de la API del SDK de visor para obtener más información sobre un componente en particular.
 
 ## Devuelve {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` una referencia al componente SDK del visor. El método devuelve `null` si `componentId` no es un componente de visor compatible o si la lógica del visor aún no ha creado el componente.
+`{Object}` Una referencia al componente SDK del visor. El método devuelve `null` si la variable `componentId` no es un componente de visor compatible o si el componente aún no se ha creado mediante la lógica del visor.
 
 ## Ejemplo {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
