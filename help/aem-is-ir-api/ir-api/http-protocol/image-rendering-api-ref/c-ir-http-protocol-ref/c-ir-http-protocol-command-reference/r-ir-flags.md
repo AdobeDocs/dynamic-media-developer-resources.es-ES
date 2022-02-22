@@ -1,18 +1,18 @@
 ---
+title: indicadores
 description: Aplicar indicadores. Especifica opciones de procesamiento adicionales.
 solution: Experience Manager
-title: indicadores
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d0c3f65e-2dec-4c35-8df4-8d111e81f3f0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '70'
 ht-degree: 5%
 
 ---
 
-# indicadores{#flags}
+# indicadores {#flags}
 
 Aplicar indicadores. Especifica opciones de procesamiento adicionales.
 
@@ -27,9 +27,9 @@ Aplicar indicadores. Especifica opciones de procesamiento adicionales.
 
 Actualmente sólo se utiliza para materiales de gabinete.
 
-`flags=0` (predeterminado) representa los gabinetes superiores con puertas sólidas.
+`flags=0` (predeterminado) Procesa los gabinetes superiores con puertas sólidas.
 
-`flags=1` presenta los gabinetes superiores con puertas de cristal (si la viñeta se creó con puertas de cristal).
+`flags=1` Renderiza los gabinetes superiores con puertas de cristal (si la viñeta se creó con puertas de cristal).
 
 ## Propiedades {#section-a2b00d7bb15e449ea85178acb92d8285}
 
@@ -37,4 +37,4 @@ Atributo de material. Se ignora si no es un material de gabinete, o si el objeto
 
 ## Predeterminado {#section-4c134b02a1da4ffb9841233f98f6e97c}
 
-`flags=0` sin puertas de cristal.
+`flags=0` Sin puertas de cristal.

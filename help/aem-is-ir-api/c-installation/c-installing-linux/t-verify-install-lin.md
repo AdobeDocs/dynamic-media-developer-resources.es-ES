@@ -1,22 +1,22 @@
 ---
-description: Después de instalar Image Serving en Linux, verifique la instalación.
-solution: Experience Manager
 title: Verificación de la instalación
+description: Después de instalar Image Serving en Linux®, verifique la instalación.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 273478ab-f245-48ef-a125-fb738054484e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
 
 # Verificación de la instalación{#verifying-the-installation}
 
-Después de instalar Image Serving en Linux, verifique la instalación.
+Después de instalar Image Serving en Linux®, verifique la instalación.
 
-Image Server está instalado como un demonio Linux.
+Image Server está instalado como un demonio Linux®.
 
 **Para verificar la instalación**
 
@@ -32,7 +32,8 @@ Image Server está instalado como un demonio Linux.
 
 [!DNL http:// *[!DNL server:port]*/is/image]
 
-[!DNL http:// *[!DNL server:port]*/ir/render]
+[!DNL  http:// *[!DNL server:port]*/ir/render]
 
-En las respuestas, compruebe la presencia de elementos que empiecen por &quot; `imageServer.`&quot;, lo que indica que Platform Server podría comunicarse correctamente con el servidor de imágenes.
+En las respuestas, compruebe la presencia de elementos que empiecen por `imageServer`, que indican que Platform Server podría comunicarse correctamente con el Image Server.
+
 >Se puede realizar una verificación adicional utilizando las páginas de muestra de los paquetes de documentación y demostración, si están instalados.

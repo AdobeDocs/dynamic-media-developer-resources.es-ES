@@ -1,13 +1,13 @@
 ---
+title: pos
 description: Declare la posición. Define el desplazamiento en pulgadas desde el punto anchor= de la imagen de calco hasta el punto de origen de calco definido por el objeto de viñeta de destino.
 solution: Experience Manager
-title: pos
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 531f1465-2bec-46b6-a41e-54d993cbf410
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '93'
 ht-degree: 4%
 
 ---
@@ -35,4 +35,4 @@ Atributo de material. Ignorado por materiales que no sean calcomanías.
 
 ## Véase también {#section-7cd8139481334ed79704d628b5bbd236}
 
-[Coordenadas](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-scene-coordinates.md#concept-528507024fa640b19a2631357febf7f1) de escenas,  [anclaje=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26)
+[Coordenadas de escenas](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-scene-coordinates.md#concept-528507024fa640b19a2631357febf7f1), [anchor=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26)

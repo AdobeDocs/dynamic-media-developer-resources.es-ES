@@ -1,20 +1,20 @@
 ---
-description: Subselección. Permite aplicar diferentes materiales a diferentes áreas del objeto o grupo seleccionado, así como eliminar materiales aplicados anteriormente.
-solution: Experience Manager
 title: sub
+description: Subselección. Permite aplicar diferentes materiales a diferentes áreas del objeto o grupo seleccionado y eliminar los materiales aplicados anteriormente.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c9968fbb-c38b-4180-81be-19992fa8f347
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '149'
 ht-degree: 8%
 
 ---
 
 # sub{#sub}
 
-Subselección. Permite aplicar diferentes materiales a diferentes áreas del objeto o grupo seleccionado, así como eliminar materiales aplicados anteriormente.
+Subselección. Permite aplicar diferentes materiales a diferentes áreas del objeto o grupo seleccionado y eliminar los materiales aplicados anteriormente.
 
 `sub=0|1|2|3|4|5`
 
@@ -45,9 +45,9 @@ Subselección. Permite aplicar diferentes materiales a diferentes áreas del obj
  </tr> 
 </table>
 
-Actualmente solo se admite para objetos de muro. Termina un MSS anterior e inicia un nuevo MSS para el material que se aplicará a la subselección especificada.
+Actualmente solo se admite para objetos de muro. Termina un MSS anterior e inicia un MSS nuevo para el material que se aplicará a la subselección especificada.
 
-Un material especificado para la pared superior o inferior se aplicará a toda la pared a menos que se haya especificado también un material diferente para la otra mitad de la pared.
+Un material especificado para la pared superior o inferior se aplica a toda la pared a menos que se haya especificado también un material diferente para la otra mitad de la pared.
 
 ## Propiedades {#section-b202139d6d0847cc8d520a154104ab9d}
 

@@ -1,14 +1,14 @@
 ---
+title: tipo
 description: Tipo de superficie de material. Especifica el tipo de superficie del material.
 solution: Experience Manager
-title: tipo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 333b8954-e256-4ba1-8055-c4d625470673
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 22%
+source-wordcount: '152'
+ht-degree: 24%
 
 ---
 
@@ -101,7 +101,7 @@ Tipo de superficie de material. Especifica el tipo de superficie del material.
  </tr> 
 </table>
 
-Se utiliza junto con `gloss=` y `rough=` para controlar los comportamientos de efecto de reflejo y brillo. Los diferentes materiales producirán diferentes efectos, incluso si `gloss=` y `rough=` son iguales.
+Se usa con `gloss=` y `rough=` para controlar los comportamientos de efecto de reflejo y brillo. Los distintos materiales producen efectos diferentes, incluso si `gloss=` y `rough=` son iguales.
 
 ## Propiedades {#section-2345b2508273426295ce8ac46182ea64}
 
@@ -109,8 +109,8 @@ Atributo de material. Se omite si la viñeta no incluye datos de reflejo 3D o si
 
 ## Predeterminado {#section-0989055fb74a41a3b2f2a47fe7d90a42}
 
-`catalog::Type` si el material está basado en una entrada de catálogo. De lo contrario `type=0`. Si no se especifica, o si es `type=0`, el servidor seleccionará un valor predeterminado adecuado en función del objeto de destino y los demás atributos de material.
+`catalog::Type` Si el material está basado en una entrada de catálogo. De otro modo `type=0`. Si no se especifica, o si `type=0`, el servidor selecciona un valor predeterminado adecuado en función del objeto de destino y de los demás atributos de material.
 
 ## Véase también {#section-7cf808b0bb3d4b4fbb7b9a850d5a038b}
 
-[glose=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) ,  [aproximado=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180)
+[gloss=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) , [round=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180)

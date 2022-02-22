@@ -1,14 +1,14 @@
 ---
+title: obj
 description: Seleccionar objeto por nombre. Selecciona el grupo de viñetas especificado por su nombre e inicia un nuevo MSS.
 solution: Experience Manager
-title: obj
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 17387203-f7a7-4876-a15b-2084894f981d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 4%
+source-wordcount: '139'
+ht-degree: 5%
 
 ---
 
@@ -20,14 +20,14 @@ Seleccionar objeto por nombre. Selecciona el grupo de viñetas especificado por 
 
 <table id="simpletable_6E0DA6CBCDCF4CDDAFA5A4C38E0D5FC5"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> name  </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> name </span> </span> </p> </td> 
   <td class="stentry"> <p>Nombre del grupo o ruta/nombre. </p> </td> 
  </tr> 
 </table>
 
-Se pueden seleccionar subgrupos u objetos individuales utilizando una ruta de grupo completa (es decir, especificando el nombre del grupo u objeto de destino precedido por todos los grupos principales, separados por / (barras inclinadas).
+Se pueden seleccionar subgrupos u objetos individuales utilizando una ruta de grupo completa (es decir, especificando el nombre del grupo u objeto de destino precedido por todos los grupos principales, separados por / (barras diagonales).
 
-Si no se encuentra ningún grupo u objeto con el nombre especificado, se realiza la acción especificada en `attribute::OnObjFail`.
+Si no se encuentra ningún grupo u objeto con el nombre especificado, se especifica la acción especificada en `attribute::OnObjFail` se toma.
 
 ## Propiedades {#section-9463b36e8ff74c81a70c7c2b58927430}
 
@@ -41,4 +41,4 @@ El primer grupo de la viñeta que contiene objetos procesables se selecciona aut
 
 ## Véase también {#section-d9d2c92ef48548f48b9781e2a8a5fb5a}
 
-[sel=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-sel.md#reference-01322c58d414481385c29fcdd27a090b),  [atributo::OnFailObj](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-onfailobj.md#reference-4c6ba90418e84da5831f8573bbbf2c8d)
+[sel=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-sel.md#reference-01322c58d414481385c29fcdd27a090b), [atributo::OnFailObj](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-onfailobj.md#reference-4c6ba90418e84da5831f8573bbbf2c8d)

@@ -1,13 +1,13 @@
 ---
+title: ocultar
 description: Ocultar objeto de superposición. Oculta todos los objetos de superposición o las coberturas de ventana aplicadas a los marcos de cubiertas de ventanas de la selección actual.
 solution: Experience Manager
-title: ocultar
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 70c96b62-d6bd-4f12-9ee8-abac5d97e876
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '91'
 ht-degree: 7%
 
 ---

@@ -1,20 +1,20 @@
 ---
-description: Configuración avanzada de procesamiento. Especifica una configuración de procesamiento avanzada que se aplicará al procesar la selección actual.
-solution: Experience Manager
 title: rs
+description: Configuración avanzada de procesamiento. Especifica la configuración de procesamiento avanzada que se aplicará al procesar la selección actual.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 419baeb7-e06e-4753-a487-a1f407845f6d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '114'
 ht-degree: 4%
 
 ---
 
 # rs{#rs}
 
-Configuración avanzada de procesamiento. Especifica una configuración de procesamiento avanzada que se aplicará al procesar la selección actual.
+Configuración avanzada de procesamiento. Especifica la configuración de procesamiento avanzada que se aplicará al procesar la selección actual.
 
 `rs= *`val`*`
 
@@ -25,7 +25,7 @@ Configuración avanzada de procesamiento. Especifica una configuración de proce
  </tr> 
 </table>
 
-Se utiliza para ajustar el aspecto del procesamiento. Utilice la función de renderización de la herramienta de creación de viñetas (parte del paquete de creación de imágenes de Dynamic Media) para crear cadenas de configuración de renderización.
+Se utiliza para ajustar el aspecto del procesamiento. Para crear cadenas de configuración de procesamiento, utilice la función de renderización de la herramienta de creación de viñetas (parte del paquete de creación de imágenes de Dynamic Media).
 
 ## Propiedades {#section-9a2b2228789046658cb80eddf343af75}
 
@@ -37,7 +37,7 @@ Atributo de material.
 
 ## Ejemplo {#section-47e4811882574441a4d517e42a35f352}
 
-Después de algunos experimentos en la creación de imágenes, se determina que la máscara de enfoque (USM) proporciona la cantidad correcta de enfoque para la aplicación y el material dados. La cadena de configuración de procesamiento que configura USM se copia al comando `rs=` para utilizarlo con este material:
+Después de algunos experimentos en la creación de imágenes, se determina que la máscara de enfoque (USM) proporciona la cantidad correcta de enfoque para la aplicación y el material dados. La cadena de configuración de procesamiento que configura USM se copia en la variable `rs=` para usar con este material:
 
 `…&rs=U2V20W50X2&…`
 

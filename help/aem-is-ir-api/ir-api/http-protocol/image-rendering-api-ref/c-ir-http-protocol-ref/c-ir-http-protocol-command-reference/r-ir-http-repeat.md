@@ -1,13 +1,13 @@
 ---
+title: repetir
 description: Modo de repetición de textura. Especifica el modo de repetición para materiales de textura repetibles.
 solution: Experience Manager
-title: repetir
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6cc82742-4ba0-4524-a87b-586539d7fe38
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '154'
 ht-degree: 16%
 
 ---
@@ -101,7 +101,7 @@ Modo de repetición de textura. Especifica el modo de repetición para materiale
  </tr> 
 </table>
 
-Los modos de tejido aleatorio (14...18) se pueden utilizar para sintetizar texturas de imágenes que no son fácilmente repetibles; el algoritmo creará texturas completamente aleatorias o parcialmente aleatorias basadas en la imagen original.
+Los modos de tejido aleatorio (14...18) se pueden utilizar para sintetizar texturas de imágenes que no son fácilmente repetibles; el algoritmo crea texturas completamente aleatorias o parcialmente aleatorias basadas en la imagen original.
 
 ## Propiedades {#section-262bf540930d4890b678ea00cefe1909}
 
@@ -109,7 +109,7 @@ Atributo de material. Ignorado por materiales de color sólido, calco y gabinete
 
 ## Predeterminado {#section-e5bbd7d9fbb74852849e605d20f550bb}
 
-`catalog::Repeat`, si el material está basado en una entrada de catálogo, en caso contrario  `0` (repetición directa).
+`catalog::Repeat`, si el material se basa en una entrada de catálogo, en caso contrario `0` (repetición recta).
 
 ## Véase también {#section-ac99113b64654d75a3a86e41db546269}
 
