@@ -1,13 +1,13 @@
 ---
+title: Área del visor principal
 description: El área de vista principal es el área ocupada por la imagen de zoom. Normalmente se configura para que se ajuste a la pantalla de dispositivo disponible cuando no se especifica ningún tamaño.
 solution: Experience Manager
-title: Área del visor principal
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: f51de2d6-0de2-4a4d-bbf4-185547e6c550
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '115'
 ht-degree: 2%
 
 ---
@@ -43,13 +43,13 @@ El aspecto del área de visualización se controla con el siguiente selector de 
    <td colname="col2"> <p>Altura del visor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Color de fondo en formato hexadecimal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ejemplo: para configurar un visor con fondo blanco ( `#FFFFFF`) y hacer que su tamaño sea de 512 x 288 píxeles.
+Ejemplo: Configuración de un visor con fondo en blanco ( `#FFFFFF`) y hacer su tamaño 512 x 288 píxeles.
 
 ```
 .s7basiczoomviewer{ 

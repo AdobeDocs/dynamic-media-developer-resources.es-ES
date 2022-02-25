@@ -1,30 +1,30 @@
 ---
+title: Espacio de nombres del SDK del visor
 description: Espacio de nombres del SDK del visor
 solution: Experience Manager
-title: Espacio de nombres del SDK del visor
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 4ccdf8c2-6cf5-4cb3-af61-fab50f410566
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
 
 # Espacio de nombres del SDK del visor{#viewer-sdk-namespace}
 
-El visor está integrado por muchos componentes del SDK de visor. En la mayoría de los casos, la página web no necesita interactuar directamente con la API de componentes del SDK; todas las necesidades comunes se cubren en la propia API del visor.
+El visor está integrado por muchos componentes del SDK de visor. Normalmente, la página web no necesita interactuar directamente con la API de componentes del SDK; todas las necesidades comunes se cubren en la propia API del visor.
 
-Sin embargo, algunos casos de uso avanzados requieren que la página web obtenga una referencia a un componente SDK interno mediante la API del visor `getComponent()` y, a continuación, utilice toda la flexibilidad de las API del propio SDK.
+Sin embargo, algunos casos de uso avanzados requieren que la página web haga referencia a un componente de SDK interno mediante la función `getComponent()` y, a continuación, utilice toda la flexibilidad de las API del propio SDK.
 
-El espacio de nombres que utiliza el visor para cargar e inicializar componentes del SDK depende del entorno en el que funcione el visor. Si el visor se está ejecutando en AEM (Adobe Experience Manager), el visor carga los componentes del SDK en el espacio de nombres `s7viewers.s7sdk`. Y el visor servido desde Dynamic Media Classic carga el SDK en `s7classic.s7sdk`.
+El espacio de nombres que utiliza el visor para cargar e inicializar componentes del SDK depende del entorno en el que funcione el visor. Si el visor se está ejecutando en Adobe Experience Manager, el visor carga componentes de SDK en `s7viewers.s7sdk` espacio de nombres. Y el visor servido desde Dynamic Media Classic carga el SDK en `s7classic.s7sdk`.
 
-En cualquier caso, el espacio de nombres utilizado por el SDK dentro del visor tiene el prefijo `s7viewers` o `s7classic`. Además, es diferente del espacio de nombres simple `s7sdk` utilizado en la guía del usuario del SDK o en la documentación de la API del SDK.
+En cualquier caso, el espacio de nombres utilizado por el SDK dentro del visor tiene: `s7viewers` o `s7classic` como prefijo. Y, es diferente a la llanura `s7sdk` espacio de nombres utilizado en la guía del usuario del SDK o en la documentación de la API del SDK.
 
 Por este motivo, es importante utilizar un espacio de nombres del SDK totalmente cualificado al escribir código de aplicación personalizado que se comunique con componentes del visor interno.
 
-Por ejemplo, si planea escuchar el evento `StatusEvent.NOTF_VIEW_READY` y AEM proporciona al visor, el tipo de evento completo es `s7viewers.s7sdk.event.StatusEvent.NOTF_VIEW_READY` y el código del detector de eventos es similar al siguiente:
+Por ejemplo, si planea escuchar la `StatusEvent.NOTF_VIEW_READY` y el Experience Manager sirve al visor, el tipo de evento completo es `s7viewers.s7sdk.event.StatusEvent.NOTF_VIEW_READY`y el código del detector de eventos tiene un aspecto similar al siguiente:
 
 ```
 <instance>.setHandlers({ 

@@ -1,13 +1,13 @@
 ---
+title: setAsset
 description: Referencia de la API de JavaScript para el visor de zoom básico.
 solution: Experience Manager
-title: setAsset
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 71525aac-b8ca-4f5a-a770-268857ddae4f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '90'
 ht-degree: 3%
 
 ---

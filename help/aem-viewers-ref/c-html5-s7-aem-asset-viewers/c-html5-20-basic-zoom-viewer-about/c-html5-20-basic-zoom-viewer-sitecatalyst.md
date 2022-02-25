@@ -1,13 +1,13 @@
 ---
+title: Compatibilidad con el seguimiento de Adobe Analytics
 description: El visor de zoom básico admite el seguimiento de Adobe Analytics fuera de la caja.
 solution: Experience Manager
-title: Compatibilidad con el seguimiento de Adobe Analytics
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 5b9d871d-9f37-4908-900e-3f0ecc98bc0c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '152'
 ht-degree: 2%
 
 ---
@@ -18,13 +18,13 @@ El visor de zoom básico admite el seguimiento de Adobe Analytics fuera de la ca
 
 ## Seguimiento predeterminado {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-El Visor de zoom básico admite el seguimiento [!DNL Adobe Analytics] listo para usar. Para habilitar el seguimiento, pase el nombre de ajuste preestablecido de empresa adecuado como parámetro `config2`.
+El visor de zoom básico es compatible [!DNL Adobe Analytics] seguimiento listo para usar. Para habilitar el seguimiento, pase el nombre de ajuste preestablecido de la empresa correspondiente como `config2` parámetro.
 
 El visor también envía una única solicitud HTTP de seguimiento al servidor de imágenes configurado con el tipo de visor y la información de versión.
 
 ## Seguimiento personalizado {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Para integrarse con sistemas de análisis de terceros, es necesario escuchar la llamada de retorno del visor `trackEvent` y procesar el argumento `eventInfo` de la función de llamada de retorno según sea necesario. El siguiente código es un ejemplo de dicha función de controlador:
+Para integrarse con sistemas de análisis de terceros, es necesario escuchar la `trackEvent` la llamada de retorno del visor y procese la `eventInfo` de la función de llamada de retorno según sea necesario. El siguiente código es un ejemplo de dicha función de controlador:
 
 ```
 var basicZoomViewer = new s7viewers.BasicZoomViewer({ 
@@ -64,7 +64,7 @@ El visor realiza el seguimiento de los siguientes eventos de usuario de SDK:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>un recurso se intercambia en el visor mediante la API <span class="codeph"> setAsset() </span>. </p> </td> 
+   <td colname="col2"> <p>un recurso se intercambia en el visualizador mediante la función <span class="codeph"> setAsset() </span> API. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 

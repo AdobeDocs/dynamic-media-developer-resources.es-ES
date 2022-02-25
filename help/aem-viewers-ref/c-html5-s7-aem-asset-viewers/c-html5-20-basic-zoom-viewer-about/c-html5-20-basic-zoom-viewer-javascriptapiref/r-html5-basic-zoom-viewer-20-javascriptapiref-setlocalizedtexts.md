@@ -1,13 +1,13 @@
 ---
+title: setLocalizedTexts
 description: Referencia de la API de JavaScript para el visor de zoom básico.
 solution: Experience Manager
-title: setLocalizedTexts
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 4472ac64-fdab-4f80-985a-29ed8537d235
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '71'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ Referencia de la API de JavaScript para el visor de zoom básico.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo</span> </span> </p> </td> 
-   <td colname="col2"> <p> Objeto JSON {<span class="codeph"></span>} con datos de localización. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74" format="dita" scope="local"> Localización de los elementos de la interfaz de usuario</a> para obtener más información. </p> <p> Consulte también la <i>Guía del usuario del SDK de visor</i> y el ejemplo para obtener más información sobre el contenido del objeto. </p> </td> 
+   <td colname="col2"> <p> {<span class="codeph"> Objeto</span>} objeto JSON con datos de localización. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74" format="dita" scope="local"> Localización de los elementos de la interfaz de usuario</a> para obtener más información. </p> <p> Consulte también la <i>Guía del usuario del SDK del visor</i> y el ejemplo para obtener más información sobre el contenido del objeto. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,13 +1,13 @@
 ---
+title: Vista de zoom
 description: La vista principal consiste en la imagen ampliable.
 solution: Experience Manager
-title: Vista de zoom
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 286b9df4-88db-4e5d-aab4-9cbe01195e57
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '164'
 ht-degree: 3%
 
 ---
@@ -35,11 +35,11 @@ El aspecto del área de visualización se controla con el siguiente selector de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Color de fondo en formato hexadecimal de la vista principal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cursor  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cursor </span> </p> </td> 
    <td colname="col2"> <p>El cursor se muestra sobre la vista principal. </p> </td> 
   </tr> 
  </tbody> 
@@ -53,7 +53,7 @@ Ejemplo: para que la vista principal sea transparente.
 }
 ```
 
-En los sistemas de escritorio, el componente admite el selector de atributos `cursortype` que se puede aplicar a la clase `.s7zoomview` y controla el tipo de cursor en función del estado del componente y la acción del usuario. Se admiten los siguientes `cursortype` valores:
+En los sistemas de escritorio, el componente admite el `cursortype` selector de atributos que se puede aplicar a la variable `.s7zoomview` y controla el tipo de cursor en función del estado del componente y la acción del usuario. Lo siguiente `cursortype` son compatibles:
 
 <table id="table_BC9FC40DA27B4A85995F4E9431AABF33"> 
  <thead> 
@@ -68,7 +68,7 @@ En los sistemas de escritorio, el componente admite el selector de atributos `cu
    <td colname="col2"> <p>Se muestra cuando la imagen no se puede ampliar debido a una pequeña resolución de imagen, a la configuración de componentes o a ambos. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomina  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zoomina </span> </p> </td> 
    <td colname="col2"> <p>Se muestra cuando se puede ampliar la imagen. </p> </td> 
   </tr> 
   <tr> 
