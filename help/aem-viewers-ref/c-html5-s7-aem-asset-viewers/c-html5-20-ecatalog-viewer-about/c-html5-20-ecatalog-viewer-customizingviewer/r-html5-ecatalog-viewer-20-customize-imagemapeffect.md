@@ -1,11 +1,11 @@
 ---
+title: Efecto Mapa de imágenes
 description: Según el valor del parámetro mode , el visor muestra los iconos de mapa de imagen sobre la vista principal en los lugares donde los mapas se crearon originalmente en Dynamic Media Classic. O bien, representa las regiones exactas que coinciden con la forma de los mapas de imágenes originales.
 solution: Experience Manager
-title: Efecto Mapa de imágenes
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 3816118f-4eb7-4436-9f54-155dde077734
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+source-git-commit: 6087b48b898e93e605c3873cbd5132b74d04225f
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 1%

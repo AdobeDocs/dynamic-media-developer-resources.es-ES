@@ -3,9 +3,9 @@ cloud: Experience Cloud
 user-guide-title: Guía de referencia de visores de Dynamic Media
 feature-set: Experience Manager Assets
 user-guide-description: Personalice los visores de Dynamic Media para utilizarlos en dispositivos de escritorio y de pantalla táctil. Incluya imágenes y vídeos interactivos, carruseles, conjuntos de giros y mucho más.
-source-git-commit: a106c13770fcb342d7b12ca1593728072141e289
+source-git-commit: 6087b48b898e93e605c3873cbd5132b74d04225f
 workflow-type: tm+mt
-source-wordcount: '2074'
+source-wordcount: '2077'
 ht-degree: 6%
 
 ---
@@ -18,8 +18,9 @@ ht-degree: 6%
 + [Requisitos del sistema](c-system-requirements-and-prerequisites.md)
 + [Instalación de varios visores en el mismo servidor](t-installing-the-viewers.md)
 + Notas de la versión de los visores {#viewers-release-notes}
-   + [Notas de la versión de los visores (5.16.1)](c-release-notes/c-rn-04-06-21.md)
+   + [Notas de la versión de los visores (5.16.5)](c-release-notes/c-rn-03-02-22.md)
    + Archivo {#archive}
+      + [Notas de la versión de los visores (5.16.1)](c-release-notes/c-archive/c-rn-04-06-21.md)
       + [Notas de la versión de los visores (5.15.3)](c-release-notes/c-archive/c-rn-01-13-21.md)
       + [Notas de la versión de los visores (5.14.1)](c-release-notes/c-archive/c-rn-06-03-20.md)
       + [Notas de la versión de los visores (5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
