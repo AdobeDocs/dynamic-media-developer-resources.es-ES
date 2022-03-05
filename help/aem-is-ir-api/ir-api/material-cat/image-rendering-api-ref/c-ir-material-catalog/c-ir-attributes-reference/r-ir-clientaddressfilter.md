@@ -5,9 +5,9 @@ title: ClientAddressFilter
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 24046950-1dba-4352-a549-43994e799748
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '153'
 ht-degree: 3%
 
 ---
@@ -16,23 +16,23 @@ ht-degree: 3%
 
 Filtro de dirección IP del cliente. Permite especificar una o más direcciones IP o rangos de direcciones.
 
-Cuando se especifique, se rechazarán las solicitudes a este catálogo de imágenes que se originen en un cliente con una dirección IP no incluida en la lista. `localhost` siempre forma parte implícita de la  `ClientAddressFilter` definición, incluso si no se especifica explícitamente. Las solicitudes procedentes de `localhost` nunca se rechazan, independientemente de la especificación `ClientAddressFilter`.
+Cuando se especifica, se rechazan las solicitudes a este catálogo de imágenes que se originan en un cliente con una dirección IP no incluida en la lista. `localhost` siempre es parte implícita de la variable `ClientAddressFilter` definición, incluso si no se especifica explícitamente. Solicitudes procedentes de `localhost` nunca se rechazan, independientemente de la variable `ClientAddressFilter` especificación.
 
 ## Propiedades {#section-21a2992f108d42fb8660c0d65aa61e13}
 
-Lista separada por comas de direcciones IP con máscaras de red opcionales ([Notación CIDR](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation) se utiliza):
+Lista separada por comas de direcciones IP con máscaras de red opcionales ([Anotación CIDR](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation) ):
 
 ` *[!DNL ipAddress]*[/ *[!DNL netmask]*]&#42;[, *[!DNL ipAddress]*[/ *[!DNL netmask]*]]`
 
-* *[!DNL ipAddress]* Dirección IP en  *[!DNL ddd.ddd.ddd.ddd]* formato
+* *[!DNL ipAddress]* Dirección IP en *[!DNL ddd.ddd.ddd.ddd]* format
 
 * *[!DNL netmask]* máscara de red (0...32)
 
-Este atributo se ignora cuando se aplica una regla de preprocesamiento con un elemento `<addressfilter>` .
+Este atributo se ignora cuando una regla de preprocesamiento con un `<addressfilter>` se aplica.
 
 ## Predeterminado {#section-beddaa18ed6c4f3ba1eb2d4471267712}
 
-Se hereda de `default::AddressFilter` si no está definido o si está vacío.
+Heredado de `default::AddressFilter` si no está definida o si está vacío.
 
 ## Ejemplos {#section-72b4a3615bff4a5f8b03d83c6489aaba}
 

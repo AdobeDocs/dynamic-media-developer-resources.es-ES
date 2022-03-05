@@ -5,9 +5,9 @@ title: Catálogos de imágenes
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 54c83ad2-a932-4df2-92ff-ab34d4a5b1a7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -20,15 +20,15 @@ Los catálogos de imágenes ofrecen las siguientes funciones:
 
 * Permita la asociación persistente de imágenes con determinados comandos de modificador y metadatos.
 
-   Se hace referencia a las entradas de los catálogos de imágenes mediante una notación de acceso directo `*`rootId/objId`*`, donde `*`rootId`*` identifica el catálogo de imágenes y `*`objId`*` identifica un registro de datos en el catálogo.
-* Proporcione valores predeterminados para determinados atributos de solicitud, como la calidad JPEG o si se va a aplicar una marca de agua.
+   Se hace referencia a las entradas de los catálogos de imágenes mediante una notación de método abreviado `*`rootId/objId`*`, donde `*`rootId`*` identifica el catálogo de imágenes y `*`objId`*` identifica un registro de datos en el catálogo.
+* Proporcione valores predeterminados para ciertos atributos de solicitud, como la calidad del JPEG o si se va a aplicar una marca de agua.
 * Administrar fuentes, perfiles ICC, definiciones de macro y plantillas de solicitud
 
-Aunque no se definan catálogos de imágenes específicos, todas las funciones de catálogos de imágenes están disponibles a través del catálogo predeterminado ( [!DNL default.ini]).
+Aunque no se definan catálogos de imágenes específicos, todas las funciones de los catálogos de imágenes están disponibles a través del catálogo predeterminado ( [!DNL default.ini]).
 
-Si `*`rootId`*` en la ruta URL de la solicitud coincide con `attribute::RootId` de un catálogo de imágenes específico, ese catálogo se convertirá en el catálogo principal para esta solicitud. El catálogo principal proporciona los atributos y la configuración predeterminados para toda la solicitud. Si no se encuentra ninguna coincidencia, se utiliza el catálogo predeterminado en su lugar.
+If `*`rootId`*` en la ruta de URL de la solicitud coincide con `attribute::RootId` de un catálogo de imágenes específico, ese catálogo se convierte en el catálogo principal para esta solicitud. El catálogo principal proporciona los atributos y la configuración predeterminados para toda la solicitud. Si no se encuentra ninguna coincidencia, se utiliza el catálogo predeterminado en su lugar.
 
-Un catálogo identificado en un comando `src=` o `mask=` proporciona los siguientes atributos y datos de catálogo a la capa actual:
+Un catálogo identificado en un `src=` o `mask=` proporciona los siguientes atributos y datos de catálogo a la capa actual:
 
 <table id="table_D3FA66EA5D054745900DE5A120885AA8"> 
  <thead> 
@@ -44,7 +44,7 @@ Un catálogo identificado en un comando `src=` o `mask=` proporciona los siguien
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> atributo::Caducidad</span> </p> </td> 
-   <td> <p> predeterminado para <span class="codeph"> catálogo::Expiration</span> o caducidad de la capa actual si no hay ningún registro de catálogo involucrado </p> </td> 
+   <td> <p> predeterminado para <span class="codeph"> catálogo::Caducidad</span> o caducidad de la capa actual si no hay ningún registro de catálogo involucrado </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> atributo::Icc*</span> </p> </td> 
@@ -56,11 +56,11 @@ Un catálogo identificado en un comando `src=` o `mask=` proporciona los siguien
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> atributo:Resolution</span> </p> </td> 
-   <td> <p> predeterminado para el catálogo <span class="codeph">::Resolution</span> solamente </p> </td> 
+   <td> <p> predeterminado para <span class="codeph"> catálogo::Resolution</span> only </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catálogo::Anchor</span> </p> </td> 
-   <td> <p> predeterminado para el valor <span class="codeph"> anchor=</span> de la capa actual </p> </td> 
+   <td> <p> de forma predeterminada para la variable <span class="codeph"> anchor=</span> valor de la capa actual </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catálogo::Caducidad</span> </p> </td> 
@@ -80,7 +80,7 @@ Un catálogo identificado en un comando `src=` o `mask=` proporciona los siguien
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catálogo::Modifier</span> </p> </td> 
-   <td> <p> comandos de prefijo para la capa actual (cada comando del catálogo <span class="codeph">::Modifier</span> se puede anular con el mismo comando en la dirección URL, si se especifica para la misma capa) </p> </td> 
+   <td> <p> comandos prefix para la capa actual (cada comando de <span class="codeph"> catálogo::Modifier</span> se puede anular con el mismo comando en la dirección URL, si se especifica para la misma capa) </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catálogo::Path</span> </p> </td> 
@@ -88,7 +88,7 @@ Un catálogo identificado en un comando `src=` o `mask=` proporciona los siguien
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catálogo::PostModifier</span> </p> </td> 
-   <td> <p> los comandos postfix para la capa actual (similar al catálogo <span class="codeph">::Modifier</span>, pero los comandos del <span class="codeph"> catálogo::PostModifier</span> anulan los mismos comandos especificados en la dirección URL o en el catálogo <span class="codeph">::Modifier</span>) </p> </td> 
+   <td> <p> comandos postfix para la capa actual (similar a <span class="codeph"> catálogo::Modifier</span>, pero los comandos de <span class="codeph"> catálogo::PostModifier</span> anule los mismos comandos especificados en la dirección URL o en <span class="codeph"> catálogo::Modifier</span>) </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catálogo::Resolution</span> </p> </td> 
@@ -97,14 +97,14 @@ Un catálogo identificado en un comando `src=` o `mask=` proporciona los siguien
  </tbody> 
 </table>
 
-Dentro de la misma capa, `src=` y `mask=` deben hacer referencia al mismo catálogo de imágenes (si lo hay).
+Dentro de la misma capa, `src=` y `mask=` debe hacer referencia al mismo catálogo de imágenes (si lo hay).
 
-Un catálogo identificado en un comando `icc=` solo se utiliza para buscar una entrada de la tabla de perfil ICC del catálogo. No se incluyen otros atributos o datos de catálogo.
+Un catálogo identificado en un `icc=` solo se utiliza para buscar una entrada de la tabla de perfiles ICC del catálogo. No se incluyen otros atributos o datos de catálogo.
 
-Si, `*`rootId`*` se resuelve en un catálogo y `*`objId`*` coincide con un `catalog::Id` en este catálogo, entonces `*`rootId/objId`*` se sustituye efectivamente por la entrada de catálogo de este modo:
+Si, `*`rootId`*` se resuelve en un catálogo y `*`objId`*` coincide con un `catalog::Id` en este catálogo, luego `*`rootId/objId`*` se reemplaza efectivamente por la entrada de catálogo de este modo:
 
 `src=attribute::RootPath/catalog::Path& mask=attribute::RootPath/catalog::MaskPath& anchor=catalog::Anchor& catalog::Modifier& catalog::PostModifier`
 
 ## Véase también {#section-00e4f6b39cd14244bcce537a3f831259}
 
-[Referencia](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) del catálogo de imágenes,  [src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1),  [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e),  [anchor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md#reference-6661e548ab284b82828d8d94c8ddeb7c)
+[Referencia del catálogo de imágenes](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3), [src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1), [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [anchor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md#reference-6661e548ab284b82828d8d94c8ddeb7c)

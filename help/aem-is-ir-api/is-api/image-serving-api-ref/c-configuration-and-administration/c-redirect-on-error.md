@@ -5,9 +5,9 @@ title: Redirigir en caso de error
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: c5541bf3-3296-4ce3-a2ff-9f6336f78ea9
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -31,11 +31,11 @@ El redireccionamiento de errores no se producirá en ningún otro caso.
 
 Cuando se habilita y se produce un error de este tipo durante el procesamiento de la solicitud, el servidor principal envía la solicitud al servidor secundario para que la procese. La respuesta, independientemente de si indica que se ha realizado correctamente o no, se reenvía directamente al cliente. El servidor principal marca las entradas de registro de dichas solicitudes reenviadas con el uso de caché `REMOTE`. El servidor principal no almacena en caché localmente los datos de respuesta.
 
-El redireccionamiento de errores está habilitado al establecer `PS::errorRedirect.rootUrl` en el nombre de dominio HTTP y número de puerto del servidor secundario. Además, el tiempo de espera de la conexión se configura con `PS::errorRedirect.connectTimeout` y el tiempo máximo que el servidor principal esperará una respuesta del servidor secundario antes de devolver un error al cliente se configura con `PS::errorRedirect.socketTimeout`.
+La redirección de errores está habilitada al configurar `PS::errorRedirect.rootUrl` al nombre de dominio HTTP y al número de puerto del servidor secundario. Además, el tiempo de espera de la conexión se configura con `PS::errorRedirect.connectTimeout` y el tiempo máximo que el servidor principal esperará una respuesta del servidor secundario antes de devolver un error al cliente se configura con `PS::errorRedirect.socketTimeout`.
 
 >[!NOTE]
 >
->Si no se puede establecer contacto con el servidor secundario, se devolverá al cliente una respuesta de error de texto, incluso si se ha configurado una imagen o imagen de error predeterminada.
+>Si no se puede establecer contacto con el servidor secundario, se devuelve al cliente una respuesta de error de texto, incluso si se ha configurado una imagen o imagen de error predeterminada.
 
 >[!NOTE]
 >

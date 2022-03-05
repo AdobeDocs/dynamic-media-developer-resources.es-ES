@@ -1,13 +1,13 @@
 ---
+title: Introducción
 description: Este documento describe el protocolo HTTP para la representación de imágenes de Dynamic Media.
 solution: Experience Manager
-title: Introducción
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c185e45b-a56c-4576-b05d-22cc0025a7c4
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '384'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ Sólo se describen los aspectos del protocolo que están a disposición del púb
 
 **Audiencia prevista**
 
-Esta documentación está dirigida a programadores experimentados y desarrolladores de sitios web que deseen aprovechar Dynamic Media Image Rendering para un sitio web o una aplicación personalizada.
+Este documento está pensado para programadores experimentados y desarrolladores de sitios web que deseen utilizar Dynamic Media Image Rendering para un sitio web o una aplicación personalizada.
 
 Se da por hecho que el lector está familiarizado con la creación de imágenes y el procesamiento de imágenes de Dynamic Media, las normas y convenciones generales del protocolo HTTP y la terminología básica de las imágenes.
 
@@ -29,7 +29,7 @@ Se da por hecho que el lector está familiarizado con la creación de imágenes 
 <table id="simpletable_E96BA470B3CE4266A9E6ED0440A56C40"> 
  <tr class="strow"> 
   <td class="stentry"> <p>literal </p> </td> 
-  <td class="stentry"> <p>En las secciones de sintaxis, el texto no en cursiva es literal; esto no se aplica al espacio en blanco y a los símbolos [ ] { } | *. </p> </td> 
+  <td class="stentry"> <p>En las secciones de sintaxis, el texto no en cursiva es literal; no se aplica al espacio en blanco y a los símbolos [ ] { } | *. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>'literal' </p> </td> 
@@ -40,31 +40,31 @@ Se da por hecho que el lector está familiarizado con la creación de imágenes 
   <td class="stentry"> <p>La letra en cursiva indica una variable o parámetro que se va a sustituir por un valor real. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> atributo::Item  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> atributo::Item </span> </p> </td> 
   <td class="stentry"> <p>Un nombre con el prefijo 'attribute::' hace referencia a un atributo de catálogo de imágenes. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> catálogo::Item  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> catálogo::Item </span> </p> </td> 
   <td class="stentry"> <p>Un nombre con el prefijo "catálogo::" hace referencia a un campo de datos de catálogo de material. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> icc::Item  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> icc::Item </span> </p> </td> 
   <td class="stentry"> <p>Un nombre con el prefijo "icc::" hace referencia a un campo del mapa de perfiles de color ICC. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> macro::Item  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> macro::Item </span> </p> </td> 
   <td class="stentry"> <p>Un nombre con el prefijo "macro::" hace referencia a un campo de la tabla de definición de macro. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> conjunto de reglas::Item  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> conjunto de reglas::Item </span> </p> </td> 
   <td class="stentry"> <p>Un nombre con el prefijo "conjunto de reglas::" hace referencia a un elemento de un conjunto de reglas de preprocesamiento de URL. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> predeterminado::Item  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> predeterminado::Item </span> </p> </td> 
   <td class="stentry"> <p>Un nombre con el prefijo 'default::' hace referencia a un atributo del catálogo de imágenes predeterminado. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <span class="codeph"> viñeta:Elemento  </span> </td> 
+  <td class="stentry"> <span class="codeph"> viñeta:Elemento </span> </td> 
   <td class="stentry"> <p>Un nombre con el prefijo "viñeta::" hace referencia a un campo del mapa de viñetas. </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -76,7 +76,7 @@ Se da por hecho que el lector está familiarizado con la creación de imágenes 
   <td class="stentry"> <p>El elemento de sintaxis opcional puede repetirse una o más veces. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> item1  </span>|  <span class="varname"> elemento2  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> item1 </span>| <span class="varname"> item2 </span> </p> </td> 
   <td class="stentry"> <p>Una barra vertical indica que se puede utilizar el elemento de sintaxis único a la izquierda o el elemento a la derecha. Se debe seleccionar exactamente un elemento. </p> </td> 
  </tr> 
  <tr class="strow"> 

@@ -1,20 +1,20 @@
 ---
-description: El catálogo de sesiones es el catálogo de materiales que proporciona atributos de sesión para la solicitud, así como un valor predeterminado catId para todos los comandos src=, vignette= e icc=.
-solution: Experience Manager
 title: Catálogo de sesiones
+description: El catálogo de sesiones es el catálogo de materiales que proporciona atributos de sesión para la solicitud y un valor predeterminado catId para todos los comandos src=, vignette= e icc=.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 36e0571e-7451-423f-a1df-540680381902
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
 
 # Catálogo de sesiones{#session-catalog}
 
-El catálogo de sesiones es el catálogo de materiales que proporciona atributos de sesión para la solicitud, así como un valor predeterminado catId para todos los comandos src=, vignette= e icc=.
+El catálogo de sesiones es el catálogo de materiales que proporciona atributos de sesión para la solicitud y un valor predeterminado de catId para todas las `src=`, `vignette=`y `icc=` comandos.
 
 El catálogo de sesiones se especifica como el primer elemento de ruta de acceso de la ruta de solicitud HTTP (inmediatamente después del nombre del servidor). Si el primer elemento de ruta no coincide con el atributo::RootId de ningún catálogo, el catálogo predeterminado se utiliza como catálogo de sesiones.
 
@@ -42,7 +42,7 @@ El catálogo de sesiones proporciona los siguientes valores predeterminados de s
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> atributo::RootUrl</span> </p> </td> 
-   <td> <p> URL raíz para rutas de archivos HTTP relativas en los comandos <span class="codeph"> src=</span> </p> </td> 
+   <td> <p> URL raíz para rutas de archivo HTTP relativas en <span class="codeph"> src=</span> comandos </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> atributo::ShowOverapObjs</span> </p> </td> 
@@ -70,7 +70,7 @@ El catálogo de sesiones proporciona los siguientes valores predeterminados de s
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> atributo::TiffEncoding</span> </p> </td> 
-   <td> <p> Tipo de compresión para la salida de imagen TIFF </p> </td> 
+   <td> <p> Tipo de compresión para la salida de imagen del TIFF </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> atributo::Sharpen</span> </p> </td> 
@@ -78,11 +78,11 @@ El catálogo de sesiones proporciona los siguientes valores predeterminados de s
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> atributo::OnFailSel</span> </p> </td> 
-   <td> <p> Especifica el comportamiento cuando falla un comando <span class="codeph"> sel=</span> </p> </td> 
+   <td> <p> Especifica el comportamiento cuando una <span class="codeph"> sel=</span> falla el comando </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> atributo::OnFailObj</span> </p> </td> 
-   <td> <p> Especifica el comportamiento cuando falla un comando <span class="codeph"> obj=</span> </p> </td> 
+   <td> <p> Especifica el comportamiento cuando una <span class="codeph"> obj=</span> falla el comando </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -5,9 +5,9 @@ title: ClientAddressFilter
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 028cef35-2862-452c-872c-b953e8ccb195
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '127'
 ht-degree: 4%
 
 ---
@@ -16,18 +16,18 @@ ht-degree: 4%
 
 Filtro de dirección IP del cliente. Permite especificar una o más direcciones IP o rangos de direcciones.
 
-Cuando se especifique, se rechazarán las solicitudes a este catálogo de imágenes que se originen en un cliente con una dirección IP no incluida en la lista.
+Cuando se especifica, se rechazan las solicitudes a este catálogo de imágenes que se originan en un cliente con una dirección IP no incluida en la lista.
 
 ## Propiedades {#section-d785265988324af68835410c9ba54147}
 
 Lista separada por comas de direcciones IP con máscaras de red opcionales (se utiliza la notación CIDR):
 
-`*`ipAddress`*` `[`/  *`netmask`*`]`*  `[`,*`ipAddress`*`[`/*`netmask`*`]]`
+`*`ipAddress`*` `[`/ *`netmask`*`]`* `[`,*`ipAddress`*`[`/*`netmask`*`]]`
 
 <table id="simpletable_9F82BB0D42A9434883F2F70A2A92898C"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> ipAddress</span> </p> </td> 
-  <td class="stentry"> <p>Dirección IP en formato <span class="varname"> ddd.ddd.ddd</span> . </p></td> 
+  <td class="stentry"> <p>Dirección IP en <span class="varname"> ddd.ddd.ddd.ddd</span> formato. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> netmask</span> </p></td> 
@@ -35,11 +35,11 @@ Lista separada por comas de direcciones IP con máscaras de red opcionales (se u
  </tr> 
 </table>
 
-Este atributo se ignora cuando se aplica una regla de preprocesamiento con un elemento `<addressfilter>` .
+Este atributo se ignora cuando una regla de preprocesamiento con una `<addressfilter>` se aplica.
 
 ## Predeterminado {#section-de26e8c9225745e985e4beac1f03f4f6}
 
-Se hereda de `default::AddressFilter` si no está definido o si está vacío.
+Heredado de `default::AddressFilter` si no está definida o si está vacío.
 
 ## Ejemplos {#section-a955314d2b6a4213a16c12a8b18d8627}
 

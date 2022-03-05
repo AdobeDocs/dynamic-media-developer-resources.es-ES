@@ -1,13 +1,13 @@
 ---
+title: Configuración avanzada de procesamiento
 description: La herramienta de creación de viñetas (parte del paquete de creación de imágenes de Dynamic Media) proporciona mecanismos para controlar aspectos de bajo nivel del motor de renderización de la viñeta.
 solution: Experience Manager
-title: Configuración avanzada de procesamiento
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0ad8f4b4-dd9c-43f5-aacc-67a564e34d92
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '607'
 ht-degree: 25%
 
 ---
@@ -20,7 +20,7 @@ La herramienta de creación de viñetas (parte del paquete de creación de imág
 >
 >La configuración de procesamiento es una característica avanzada de la representación de imágenes y la creación de imágenes. Póngase en contacto con el servicio de asistencia técnica de Adobe o con su asesor de Adobe para obtener formación, consulta o ambas cosas sobre el uso de la configuración de procesamiento.
 
-Estos ajustes se controlan de forma interactiva en la creación de imágenes. Es posible aplicar la misma configuración en Representación de imágenes mediante el comando `rs=` (o con el valor `catalog::RenderSettings`). Este mecanismo se utiliza para seleccionar diferentes opciones de nitidez para cada material y modificar el comportamiento de los algoritmos de renderización de iluminación, como la variación de la saturación de los resaltados o el contraste en las sombras.
+Estos ajustes se controlan de forma interactiva en la creación de imágenes. Es posible aplicar la misma configuración en Representación de imágenes utilizando la variable `rs=` (o con el `catalog::RenderSettings` ). Este mecanismo se utiliza para seleccionar diferentes opciones de nitidez para cada material y modificar el comportamiento de los algoritmos de renderización de iluminación, como la variación de la saturación de los resaltados o el contraste en las sombras.
 
 ## Valores de Configuración avanzada de procesamiento (rs=) {#section-d9e7f341ebd44f07a4e90f1f5910726b}
 

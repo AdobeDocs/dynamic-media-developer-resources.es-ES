@@ -5,9 +5,9 @@ title: Tamaño
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 964cb4c1-5256-40eb-94ea-761916174b79
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '211'
 ht-degree: 5%
 
 ---
@@ -20,13 +20,13 @@ Tamaño de la calcomanía. Anchura, altura y grosor de un objeto de material de 
 
 Tres números reales separados por comas. No debe ser negativo. Defina los valores no utilizados en 0. Se pueden omitir ceros finales.
 
-Especifique tanto la anchura como la altura solo si la imagen debe estirarse para ajustarse al tamaño especificado (la relación de aspecto puede cambiar). Defina la anchura o la altura para escalar la imagen proporcionalmente. Defina tanto la anchura como la altura en 0 para utilizar `catalog::Resolution`para determinar el tamaño del objeto.
+Especifique tanto la anchura como la altura solo si la imagen debe estirarse para ajustarse al tamaño especificado (la relación de aspecto puede cambiar). Defina la anchura o la altura para escalar la imagen proporcionalmente. Defina la anchura y la altura en 0 para usar `catalog::Resolution`para determinar el tamaño del objeto.
 
 Proporcione un valor de grosor para agregar una sombra paralela al objeto calc. Opcional para materiales de calco, ignorados por todos los demás materiales.
 
 ## Predeterminado {#section-8029fe4dcbd1427db94a4fef1ccbbfd0}
 
-0,0,0. Esto indica que el tamaño de calcomanía se determina en función del catálogo::Resolution y que el objeto no tiene espesor (por lo tanto, no se representará ninguna sombra de colocación).
+0,0,0. Esto indica que el tamaño de calcomanía se determina en función del catálogo::Resolution y que el objeto no tiene un grosor (por lo tanto, no se representa ninguna sombra de colocación).
 
 ## Ejemplos {#section-7e7166ec9a1e4f4cb026de3342fcddc3}
 

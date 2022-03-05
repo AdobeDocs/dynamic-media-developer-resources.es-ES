@@ -5,10 +5,10 @@ title: getJobLogDetails
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d2e4eea6-041b-4a80-beda-cbb8d74cd50b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 17%
+source-wordcount: '214'
+ht-degree: 18%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 17%
 
 Obtiene los detalles de un registro de trabajos de la empresa.
 
-El campo `logMessage` response se localiza en función del campo `authHeader` `locale`.
+La variable `logMessage` el campo de respuesta se localiza en función de la variable `authHeader` `locale` campo .
 
 ## Tipos de usuarios autorizados {#section-6f720a7baad64eb3805868c88af9a960}
 
@@ -65,19 +65,19 @@ El campo `logMessage` response se localiza en función del campo `authHeader` `l
    <td colname="col1"> <span class="codeph"> <span class="varname"> logTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:StringArray</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Una o más constantes de tipo de registro. Si está presente, solo se devolverán los tipos de registro especificados. De forma predeterminada, se devuelven todos los tipos de registro. </td> 
+   <td colname="col4"> Una o más constantes de tipo de registro. Si está presente, solo se devuelven los tipos de registro especificados. De forma predeterminada, se devuelven todos los tipos de registro. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4">Número máximo de elementos <span class="codeph"> detailArray</span> que se van a devolver. El valor máximo y predeterminado es 1000. </td> 
+   <td colname="col4">Número máximo de <span class="codeph"> detailArray</span> elementos que se van a devolver. El valor máximo y predeterminado es 1000. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4">Número de página de <span class="codeph"> recordsPerPage</span>-resultados que se van a devolver. El valor predeterminado es 1. </td> 
+   <td colname="col4">Número de página de <span class="codeph"> recordsPerPage</span>-resultados para devolver. El valor predeterminado es 1. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 

@@ -1,13 +1,13 @@
 ---
+title: Reflexiones
 description: Las viñetas se pueden crear para incluir datos de reflejo casi 3D.
 solution: Experience Manager
-title: Reflexiones
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f67ede68-03c0-461f-a16d-a308f76fd24c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '136'
 ht-degree: 4%
 
 ---
@@ -33,12 +33,12 @@ Si es así, se utilizan los siguientes atributos de material para definir las pr
    <td> <p>De la viñeta </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-glossmap.md#reference-99940148ae6a401482b2d03c68530f3a" type="reference" format="dita" scope="local"> <span class="codeph"> glossmap=  </span> </a> </p> </td> 
+   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-glossmap.md#reference-99940148ae6a401482b2d03c68530f3a" type="reference" format="dita" scope="local"> <span class="codeph"> glossmap= </span> </a> </p> </td> 
    <td> <p>Variación de brillo (imagen de escala gris) </p> </td> 
    <td> <p>Ninguno </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180" type="reference" format="dita" scope="local"> <span class="codeph"> round=  </span> </a> </p> </td> 
+   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180" type="reference" format="dita" scope="local"> <span class="codeph"> round= </span> </a> </p> </td> 
    <td> <p>Endurecimiento de la superficie </p> </td> 
    <td> <p>40 % </p> </td> 
   </tr> 
@@ -50,6 +50,6 @@ Si es así, se utilizan los siguientes atributos de material para definir las pr
  </tbody> 
 </table>
 
-El renderizador ajusta el rango del atributo `gloss=` y `rough=` según `type=`. Algunos tipos de materiales, como los tejidos, son generalmente menos reflectantes que los tipos de material, como piedra o metal, y la misma cantidad de brillo especificada para uno dará como resultado un efecto de reflejo diferente al otro. `gloss=`y la fracturación tienen una gama bastante amplia si no  `type=` se especifica o se establece en 0.
+El renderizador ajusta el rango de la variable `gloss=` y `rough=` de acuerdo con `type=`. Algunos tipos de materiales, como los tejidos, son menos reflectantes que los tipos de materiales, como la piedra o el metal. Además, la misma cantidad de resplandor especificada para uno a menudo produce un efecto de reflejo diferente al otro. El atributo `gloss=` y la fracturación tienen una gama bastante amplia si `type=` no se ha especificado o está establecido en `0`.
 
-`glossmap=` se puede utilizar para controlar el brillo de un material en cada píxel.
+`glossmap=` Se utiliza para controlar el brillo de un material de forma píxel a píxel.

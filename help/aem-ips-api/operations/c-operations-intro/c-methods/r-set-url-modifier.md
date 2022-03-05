@@ -5,9 +5,9 @@ title: setUrlModifier
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9e96ffc8-5a38-46b8-9ba8-956c86b32c7a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '175'
 ht-degree: 7%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 7%
 
 Establece los comandos del protocolo de servicio de imágenes o de renderización de imágenes para el recurso especificado. Estos comandos modifican la representación del recurso sin destruirlo.
 
-Para Image Serving, los comandos del parámetro `urlModifier` se publican en el campo de catálogo de modificadores y se aplican antes de cualquier comando especificado en la dirección URL de la solicitud. Los comandos de `urlPostApplyModifier` se publicarán en el campo del catálogo `PostModifier` y anularán todos los comandos de la dirección URL de la solicitud o de `urlModifier`. Para el procesamiento de imágenes, los comandos de `urlModifier` y `urlPostApplyModifier` se concatenan y publican en el campo de catálogo Modificador.
+Para el servicio de imágenes, los comandos de la sección `urlModifier` se publican en el campo de catálogo Modificador y se aplican antes de cualquier comando especificado en la dirección URL de la solicitud. Comandos en `urlPostApplyModifier` se publican en el `PostModifier` campo catálogo y anular cualquier comando de la dirección URL de solicitud o de `urlModifier`. Para la renderización de imágenes, los comandos de `urlModifier` y `urlPostApplyModifier` se concatenan y publican en el campo de catálogo Modificador .
 
 ## Tipos de usuarios autorizados {#section-fefcd732ccf64c78956606538f96c73d}
 
@@ -35,8 +35,8 @@ Para Image Serving, los comandos del parámetro `urlModifier` se publican en el 
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la empresa. |
 | `*`assetHandle`*` | `xsd:string` | Sí | Identificador de recurso. |
-| `*`urlModifier`*` | `xsd:string` | No | Comandos de protocolo Image Serving o Image Rendering para aplicar antes de los comandos request o `urlPostApplyModifier`. |
-| `*`urlPostApplyModifier`*` | `xsd:string` | No | Los comandos de protocolo de servicio de imágenes o renderización de imágenes se aplican después de los comandos `urlModifier` y request. |
+| `*`urlModifier`*` | `xsd:string` | No | Comandos de protocolo de servicio de imágenes o renderización de imágenes para aplicar antes de la solicitud o `urlPostApplyModifier` comandos. |
+| `*`urlPostApplyModifier`*` | `xsd:string` | No | Comandos de protocolo de servicio de imágenes o renderización de imágenes que se aplican después de `urlModifier` y los comandos de solicitud. |
 
 **Salida (setUrlModifierReturn)**
 

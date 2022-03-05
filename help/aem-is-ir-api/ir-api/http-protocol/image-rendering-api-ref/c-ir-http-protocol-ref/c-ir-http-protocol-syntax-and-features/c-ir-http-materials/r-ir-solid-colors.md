@@ -1,22 +1,22 @@
 ---
-description: Esta categoría de material incluye pinturas para paredes, carpintería y guarnecido, automoción, así como cualquier otra aplicación en la que no se requieran texturas.
-solution: Experience Manager
 title: Colores sólidos
+description: Esta categoría de material incluye pinturas para paredes, carpintería, guarnecido, automoción y cualquier otra aplicación donde no se requieran texturas.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0f4f2d25-dd99-488b-89d9-88367d5a715d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '115'
 ht-degree: 3%
 
 ---
 
 # Colores sólidos{#solid-colors}
 
-Esta categoría de material incluye pinturas para paredes, carpintería y guarnecido, automoción, así como cualquier otra aplicación en la que no se requieran texturas.
+Esta categoría de material incluye pinturas para paredes, carpintería, guarnecido, automoción y cualquier otra aplicación donde no se requieran texturas.
 
-Por ejemplo, puede utilizar colores sólidos para variar el color de un elemento de ropa donde no se requieran cambios de textura, o para definir el color del embellecedor y la alfombra plásticos de un interior de automóvil. Un material se considera de color sólido si no existe ningún valor `src=` en el MSS.
+Por ejemplo, puede utilizar colores sólidos para variar el color de un elemento de ropa donde no se requieran cambios de textura, o para definir el color del embellecedor y la alfombra plásticos de un interior de automóvil. Un material se considera de color sólido si no `src=` está presente en el MSS.
 
 Se pueden aplicar colores sólidos a todos los objetos procesables.
 
@@ -30,7 +30,7 @@ Se pueden aplicar colores sólidos a todos los objetos procesables.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa" type="reference" format="dita" scope="local"> <span class="codeph"> color=  </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa" type="reference" format="dita" scope="local"> <span class="codeph"> color= </span> </a> </p> </td> 
    <td colname="col2"> <p> Valor de color gris o RGB; obligatorio. </p> </td> 
    <td colname="col3"> <p>Ninguno. </p> </td> 
   </tr> 

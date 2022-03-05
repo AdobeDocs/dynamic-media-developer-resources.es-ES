@@ -2,12 +2,12 @@
 description: Crea un conjunto de recursos genérico con una cadena de definición de conjunto sin procesar que se publicará en un servidor de imágenes.
 solution: Experience Manager
 title: createAssetSet
-feature: Dynamic Media Classic,SDK/API,Administración de activos
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 4565eb4f-eeb7-4b98-bfef-1a59e9a931af
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '302'
 ht-degree: 10%
 
 ---
@@ -42,38 +42,38 @@ Sintaxis
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle  </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Sí </td> 
    <td colname="col4"> El identificador de la empresa que contendrá el conjunto de recursos. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> El identificador de la carpeta en la que se creará el nuevo conjunto de recursos. </td> 
+   <td colname="col4"> El identificador de la carpeta en la que se crea el nuevo conjunto de recursos. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> name </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Sí </td> 
    <td colname="col4"> Nombre del recurso. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> subType  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> subType </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Sí </td> 
    <td colname="col4"> Identificador único creado por el cliente para el tipo de conjunto de recursos. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> Los parámetros de la cadena de definición del conjunto. <p>Deben resolverse en el formato especificado por el visor de destino. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> Control del recurso que actúa como la miniatura del nuevo conjunto de imágenes. Si no se especifica, IPS intenta utilizar el primer recurso de imagen al que hace referencia el conjunto. </td> 
   </tr> 

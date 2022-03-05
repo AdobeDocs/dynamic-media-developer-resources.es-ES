@@ -2,12 +2,12 @@
 description: Permite a los administradores crear nuevos campos de metadatos para coordinarlos con sistemas de administración de contenido o para operaciones de plantilla. Algunos ejemplos de campos de metadatos creados incluyen palabras clave, información sobre el autor de la imagen o información sobre el titular de los derechos de autor.
 solution: Experience Manager
 title: createMetadataField
-feature: Dynamic Media Classic,SDK/API,Metadatos
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: eac7fa54-ebe2-4f42-a478-d9a6fb54d1b6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '281'
 ht-degree: 13%
 
 ---
@@ -64,7 +64,7 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>El valor predeterminado del campo de metadatos que se va a crear (por ejemplo, <span class="codeph"> Scene 7</span>). </p> <p>Los valores predeterminados no son compatibles con los tipos de campo de etiqueta y deben omitirse. Si se especifica un valor predeterminado no vacío para un tipo de campo de etiqueta, se devolverá un error. </p> </td> 
+   <td colname="col4"> <p>El valor predeterminado del campo de metadatos que se va a crear (por ejemplo, <span class="codeph"> Escena 7</span>). </p> <p>Los valores predeterminados no son compatibles con los tipos de campo de etiqueta y deben omitirse. Si se especifica un valor predeterminado no vacío para un tipo de campo de etiqueta, se devuelve un error. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 

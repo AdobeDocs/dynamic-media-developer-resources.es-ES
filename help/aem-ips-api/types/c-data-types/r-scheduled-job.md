@@ -5,9 +5,9 @@ title: ScheduledJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c0084d10-ce38-4a01-9246-aaec44abc8eb
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '255'
 ht-degree: 4%
 
 ---
@@ -29,9 +29,9 @@ Sintaxis
 | `*`type`*` | `xsd:string` | Tipo de trabajo. |
 | `*`submitUserEmail`*` | `xsd:string` | La dirección de correo electrónico del usuario que programó el trabajo. |
 | `*`locale`*` | `xsd:string` | La configuración regional que se utilizará para los detalles del registro de trabajos y la localización del correo electrónico. Las configuraciones regionales se especifican como `<language_code>[- <country_code>]`, donde el código de idioma es un código de dos letras en minúscula, según se especifica en ISO-639, y el código de país opcional es un código de dos letras en mayúsculas, según se especifica en ISO-3166. Por ejemplo, la cadena de configuración regional para inglés (Estados Unidos) sería: `en-US`. |
-| `*`descripción`*` | `xsd:string` | Descripción del trabajo tal como se especificó originalmente en `submitJob`. |
+| `*`descripción`*` | `xsd:string` | Una descripción del trabajo tal como se especificó originalmente en `submitJob`. |
 | `*`execSchedule`*` | `xsd:string` | Cuando está programado que se ejecute el trabajo. |
-| `*`nextFireTime`*` | `xsd:dateTime` | La fecha, la hora y la zona horaria en la que se activará el trabajo. |
+| `*`nextFireTime`*` | `xsd:dateTime` | La fecha, la hora y la zona horaria en la que se inicia el trabajo. |
 | `*`timeZone`*` | `xsd:dateTime` | Zona horaria del trabajo programado. |
 | `*`triggerState`*` | `xsd:int` | Elección del estado de déclencheur del trabajo. |
 | `*`imageServingPublishJob`*` | `types:ImageServingPublishJob` | Detalles de trabajo para un trabajo de publicación de servicio de imágenes. |
@@ -47,7 +47,7 @@ Sintaxis
 
 ## Notas {#section-34ec157f281f412f9f0f6e861e6ed0cd}
 
-Cuando especifica un valor de tipo de trabajo en `submitJob`, el sistema devuelve un trabajo basado en ese tipo. Se pueden devolver los siguientes trabajos:
+Al especificar un valor de tipo de trabajo en `submitJob`, el sistema devuelve un trabajo basado en ese tipo. Se pueden devolver los siguientes trabajos:
 
 * `imageServingPublishJob`
 * `imageRenderingPublishJob`

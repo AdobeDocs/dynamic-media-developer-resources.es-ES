@@ -1,20 +1,20 @@
 ---
-description: Elemento de encabezado de respuesta HTTP. Opcional en elementos <rule> .
+description: Elemento de encabezado de respuesta HTTP. Opcional en <rule> elementos.
 solution: Experience Manager
 title: encabezado
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 40849602-16b2-471b-9128-14653e84a45a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '136'
 ht-degree: 4%
 
 ---
 
 # encabezado{#header}
 
-Elemento de encabezado de respuesta HTTP. Opcional en elementos `<rule>`.
+Elemento de encabezado de respuesta HTTP. Opcional en `<rule>` elementos.
 
 ## Atributos {#section-6e903ab4c64f4b1488b8ae74274f50a6}
 
@@ -28,7 +28,7 @@ Valor de encabezado.
 
 ## Descripción {#section-fb2a8ad79bc5414d8bb0d0e8199f3269}
 
-Permite agregar nuevos encabezados de respuesta HTTP, así como agregar o reemplazar valores de encabezados predefinidos. Los nombres y valores deben cumplir los estándares HTTP. No se aplicará ninguna codificación adicional.
+Permite agregar nuevos encabezados de respuesta HTTP, así como agregar o reemplazar valores de encabezados predefinidos. Los nombres y valores deben cumplir los estándares HTTP. No se aplica ninguna codificación adicional.
 
 Las variables de sustitución de Image Serving se pueden utilizar en el nombre del encabezado y en el valor del encabezado. Esto permite controlar ambas cadenas desde la solicitud.
 

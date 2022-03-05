@@ -5,10 +5,10 @@ title: getUsers
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: dfdcbcdd-232f-4c73-9520-c7c958eedf54
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 10%
+source-wordcount: '208'
+ht-degree: 11%
 
 ---
 
@@ -26,7 +26,7 @@ Obtiene una matriz de usuarios según lo especificado por los controladores de e
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`includeInactive`*` | `xsd:boolean` | No | Incluir o excluir usuarios inactivos. Los usuarios administradores que no sean de IPS deben ser miembros activos de al menos una empresa para poder realizar llamadas de API. Se devolverá un error de autorización si el usuario no tiene miembros activos de la empresa. |
+| `*`includeInactive`*` | `xsd:boolean` | No | Incluir o excluir usuarios inactivos. Los usuarios administradores que no sean de IPS deben ser miembros activos de al menos una empresa para poder realizar llamadas de API. Se devuelve un error de autorización si el usuario no tiene membresías activas de la empresa. |
 | `*`includeInvalid`*` | `xsd:boolean` | No | Permite incluir o excluir usuarios no válidos. |
 | `*`companyHandleArray`*` | `types:HandleArray` | No | Filtrar resultados por empresa. |
 | `*`groupHandleArray`*` | `types:HandleArray` | No | Filtrar resultados por grupo. |

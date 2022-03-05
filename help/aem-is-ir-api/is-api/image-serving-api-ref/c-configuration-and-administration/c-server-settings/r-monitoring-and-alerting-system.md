@@ -5,9 +5,9 @@ title: Monitorización y sistema de alertas
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: fe672d1b-93e5-466a-a329-3032095c6ba8
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Utilice esta configuración del servidor para configurar el sistema de supervisi
 
 ## AS::monitorAlertGenerator.enableGlobalAlerting - Habilitación del sistema de alertas {#section-612f8ea61794426ab205e22e5f665fa9}
 
-Habilite la notificación por correo electrónico estableciendo en &quot;true&quot; y configurando la configuración de notificación por correo electrónico. Si se establece en `false`, se desactivan todas las alertas de correo electrónico. Esto puede resultar útil cuando se extrae un servidor de la línea para mantenimiento. Booleano.
+Habilite la notificación por correo electrónico estableciendo en &quot;true&quot; y configurando la configuración de notificación por correo electrónico. Establecer en `false` desactiva todas las alertas de correo electrónico: esto puede resultar útil cuando se elimina un servidor de la línea para tareas de mantenimiento. Booleano.
 
 ## AS::mailSender.host - Host SMTP {#section-151df07e7b44446581339bb7abeeba7a}
 
@@ -34,7 +34,7 @@ Una o más direcciones de correo electrónico a las que se deben enviar alertas.
 
 ## AS::monitorAlertGenerator.messageFrom - Remitente de mensajes {#section-db320cba4ac2438ca1cfe6abce4aed87}
 
-La dirección de correo electrónico que debe utilizarse en el campo de correo electrónico **[!UICONTROL From]**.
+La dirección de correo electrónico que debe utilizarse en la variable **[!UICONTROL De]** campo de correo electrónico.
 
 ## AS::monitorAlertGenerator.alertInterval: intervalo de monitorización {#section-99cb2e3380c1499e9d5aec3671ed73c7}
 
@@ -42,8 +42,8 @@ El sistema de monitorización acumulará las condiciones de alerta durante el in
 
 ## AS::monitorAlertGenerator.heapSpaceResetInterval - Intervalo de alerta de espacio en montículo {#section-fd5a2bf04ed44fdcaef20f77084151a8}
 
-Tiempo mínimo después de emitir una alerta de espacio en pilas antes de otra. Tiempo de intervalo en ms. Valor entero, 0 o mayor.
+Tiempo mínimo después de enviar una alerta de espacio en pilas antes de que se emita otra. Tiempo de intervalo en ms. Valor entero, 0 o mayor.
 
 ## AS::monitorAlertGenerator.minTrafficForAlerts - Tráfico mínimo para activar alertas {#section-8b4db2d6f96642309ca35c49eb3ab230}
 
-Solicitudes por segundo. No se emitirán alertas de error ni tiempo de respuesta si el tráfico se encuentra por debajo de este umbral. Establézcalo en 0 para enviar alertas de error y tiempo de respuesta independientemente del volumen de tráfico. Valor real 0 o mayor.
+Solicitudes por segundo. No se emiten alertas de error ni tiempo de respuesta si el tráfico se encuentra por debajo de este umbral. Establézcalo en 0 para enviar alertas de error y tiempo de respuesta independientemente del volumen de tráfico. Valor real 0 o mayor.

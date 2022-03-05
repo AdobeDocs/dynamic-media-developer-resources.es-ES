@@ -5,9 +5,9 @@ title: Eliminación o reemplazo de archivos de datos
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 1624e1b5-ba79-45db-8309-457a44fddab8
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Aunque la adición de nuevos archivos de datos es sencilla y directa, se debe te
 >
 >Los archivos de datos no deben reemplazarse ni eliminarse nunca mientras el servicio de imágenes los utiliza activamente. De lo contrario, podrían producirse errores o incluso un bloqueo del servidor.
 
-En todos los casos, recuerde que la caché de Platform Server y las entradas de la caché del cliente deben quedar obsoletas antes de que el cliente vea los datos actualizados. Las entradas específicas de la caché se pueden actualizar inmediatamente mediante el comando `cache=validate`.
+En todos los casos, recuerde que la caché de Platform Server y las entradas de caché del cliente deben quedar obsoletas antes de que el cliente vea los datos actualizados. Las entradas específicas de la caché se pueden actualizar inmediatamente con el `cache=validate` comando.
 
 El administrador de caché no realiza un seguimiento directo de los cambios en los archivos de fuente y los archivos de perfil ICC. Si se modifica un recurso de este tipo sin cambiar su id, la caché del servidor no conocerá el cambio y `cache=validate` no hará que la entrada de caché se actualice. `cache=update` se puede utilizar para forzar la regeneración de estas entradas de caché.
 

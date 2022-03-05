@@ -5,9 +5,9 @@ title: req
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9242c873-5a85-4ede-82b6-4ef15feecf50
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '240'
 ht-degree: 3%
 
 ---
@@ -32,11 +32,11 @@ Tipo de solicitud. Especifica el tipo de solicitud.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> contenido</span> </p> </td> 
-   <td colname="col2"> <p> Devuelve una lista xml de todos los elementos con un valor de atributo <span class="codeph"> s7:element</span> y una lista de todas las páginas del documento fxg. </p> </td> 
+   <td colname="col2"> <p> Devolver lista xml de todos los elementos con un <span class="codeph"> s7:element</span> y una lista de todas las páginas del documento fxg. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> oversetstatus</span> </p> </td> 
-   <td colname="col2"> <p>Devuelve la lista XML de los elementos <span class="codeph"> &lt;RichText/&gt;</span> que están desbordados. </p> <p>Devuelve una lista xml de elementos <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> que se han desbordado para su procesamiento en el lado del cliente. Solo se devolverán los elementos <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> que estén desbordados. <span class="+ topic/ph pr-d/codeph codeph"> s7:</span> elemento es un  <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> atributo obligatorio al utilizar  <span class="+ topic/ph pr-d/codeph codeph"> req=oversetstatus</span>. No aparece en la lista ningún elemento <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> desbordado que no tenga <span class="+ topic/ph pr-d/codeph codeph"> s7:element</span>. Cada elemento <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> de la lista tiene el elemento <span class="+ topic/ph pr-d/codeph codeph"> s7:element</span>, <span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span> y el cuadro delimitador del marco de texto desbordado. El atributo <span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span> indica el índice de texto del artículo hasta el cual el texto pudo ajustarse en el marco. <span class="+ topic/ph pr-d/codeph codeph"> Req=</span> oversetstatusonly se aplica a los  <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> elementos del FXG solicitado. No enumerará ningún elemento <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> de ningún FXG incrustado. </p> </td> 
+   <td colname="col2"> <p>Devuelve una lista XML de la cual <span class="codeph"> &lt;richtext /&gt;</span> están desbordados. </p> <p>Devuelve una lista xml de <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> elementos que se sobreconfiguran para procesarlos en el lado del cliente. Solo <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> se devuelven los elementos que están desbordados. <span class="+ topic/ph pr-d/codeph codeph"> s7:element</span> es obligatorio <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> atributo al usar <span class="+ topic/ph pr-d/codeph codeph"> req=oversetstatus</span>. Cualquier desbordamiento <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> elementos sin <span class="+ topic/ph pr-d/codeph codeph"> s7:element</span> no aparece en la lista. Cada <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> el elemento de la lista tiene el <span class="+ topic/ph pr-d/codeph codeph"> s7:element</span>, <span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span>y el cuadro delimitador del marco de texto desbordado. La variable <span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span> indica el índice de texto del artículo hasta el cual el texto se pudo ajustar en el marco. <span class="+ topic/ph pr-d/codeph codeph"> Req=oversetstatus</span> solo se aplica a <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> elementos en el FXG solicitado. No enumerará ninguna <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> elementos de cualquier FXG incrustado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> existe</span> </p> </td> 

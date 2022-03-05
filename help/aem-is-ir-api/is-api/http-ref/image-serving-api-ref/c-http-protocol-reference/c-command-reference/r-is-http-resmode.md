@@ -5,9 +5,9 @@ title: resMode
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 63c1c028-0378-4a38-8018-e358491786d8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '262'
 ht-degree: 6%
 
 ---
@@ -21,19 +21,19 @@ Modo de remuestreo. Selecciona el algoritmo de remuestreo o de interpolación qu
 <table id="table_FD658AC521E24EB9ADBB87F98549BC3B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bilin  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bilin </span> </p> </td> 
    <td colname="col2"> <p>Selecciona la interpolación bilineal estándar. Método de remuestreo más rápido; se pueden apreciar algunos artefactos de aliasing. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bicub  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bicub </span> </p> </td> 
    <td colname="col2"> <p>Selecciona la interpolación bicúbica. Mayor uso intensivo de CPU que la interpolación bilineal, pero produce imágenes más nítidas con artefactos de aliasing menos visibles. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> agudo2  </span> </p> </td> 
-   <td colname="col2"> <p>selecciona una función de ventana Lanczos modificada como un algoritmo de interpolación. Puede producir resultados ligeramente más nítidos que los bicúbicos a un mayor costo de CPU. <span class="codeph"> el punto  </span> ha sido sustituido por el  <span class="codeph"> punto 2  </span>, que tiene menos probabilidades de causar artefactos de aliento (Moiré). </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> agudo2 </span> </p> </td> 
+   <td colname="col2"> <p>selecciona una función de ventana Lanczos modificada como un algoritmo de interpolación. Puede producir resultados ligeramente más nítidos que los bicúbicos a un mayor costo de CPU. <span class="codeph"> enfocado </span> se ha reemplazado por <span class="codeph"> agudo2 </span>, que tiene menos probabilidades de causar artefactos de aliasing (Moiré). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bici  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bici </span> </p> </td> 
    <td colname="col2"> <p>Selecciona el reampliador predeterminado de Photoshop para reducir el tamaño de la imagen, que en Adobe Photoshop se denomina "nitidez bicúbica". </p> </td> 
   </tr> 
  </tbody> 
@@ -41,7 +41,7 @@ Modo de remuestreo. Selecciona el algoritmo de remuestreo o de interpolación qu
 
 >[!IMPORTANT]
 >
->Para mantener la relación de aspecto de una imagen al utilizar `resMode=bisharp` y `fit=stretch`, se recomienda utilizar el parámetro de anchura o el parámetro de altura. Si se deben definir ambos parámetros, se pueden envolver en una capa diferente, como se muestra en el siguiente ejemplo:
+>Mantener la relación de aspecto de una imagen al usar ambas `resMode=bisharp` y `fit=stretch`, se recomienda utilizar el parámetro de anchura o el parámetro de altura. Si se deben definir ambos parámetros, se pueden envolver en una capa diferente, como se muestra en el siguiente ejemplo:
 >
 >`/is/image/is/image/companyname?layer=0&src=is(companyname/imagename?wid=30&hei=30&fit=stretch)&resmode=bisharp`
 
@@ -55,7 +55,7 @@ Atributo de solicitud. Se aplica a todas las operaciones de escalado involucrada
 
 ## Ejemplo {#section-ee8c3e5a2e3845fe81de5073a8ab7efe}
 
-Recupere una representación de mejor calidad de una imagen en capas almacenada en un catálogo de imágenes. La imagen puede incluir texto. La imagen se seguirá procesando en una aplicación de edición de imágenes y, por lo tanto, se solicitará un canal alfa con la imagen.
+Recupere una representación de mejor calidad de una imagen en capas almacenada en un catálogo de imágenes. La imagen puede incluir texto. La imagen se sigue procesando en una aplicación de edición de imágenes y, por lo tanto, se solicita un canal alfa con la imagen.
 
 ` http:// *`server`*/myLayeredImage?fmt=tif-alpha,,lzw&resMode=sharp2&wid=1800`
 

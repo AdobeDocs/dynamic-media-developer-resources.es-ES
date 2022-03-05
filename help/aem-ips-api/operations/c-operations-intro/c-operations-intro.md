@@ -5,9 +5,9 @@ title: Métodos de operaciones
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 020c8e63-ad4e-4c0d-8da6-b51efb2b89a5
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -51,13 +51,13 @@ SearchAssetsReturn retVal = ipsApi.searchAssets(searchParam, authHeader);
 
 **companyHandle**
 
-La mayoría de las operaciones requieren que establezca un contexto de empresa pasando un parámetro `companyHandle`. El identificador de la empresa es un puntero que devuelven determinadas operaciones, como `getCompanyInfo`, `addCompany` y `getCompanyMembership`.
+La mayoría de las operaciones requieren que establezca un contexto de empresa pasando un `companyHandle` parámetro. El identificador de la empresa es un puntero devuelto por determinadas operaciones, como `getCompanyInfo`, `addCompany`y `getCompanyMembership`.
 
 **userHandle**
 
-El parámetro `userHandle` es un parámetro opcional para operaciones dirigidas a un usuario específico. De forma predeterminada, estas operaciones se dirigen al usuario que realiza la llamada (el usuario cuyas credenciales se pasan para la autenticación). Sin embargo, los usuarios administradores con los permisos adecuados pueden especificar un usuario diferente. Por ejemplo, la operación `setPassword` establece normalmente la contraseña del usuario autenticado, pero un administrador puede utilizar el parámetro `userHandle` para establecer la contraseña de un usuario diferente.
+La variable `userHandle` es un parámetro opcional para operaciones dirigidas a un usuario específico. De forma predeterminada, estas operaciones se dirigen al usuario que realiza la llamada (el usuario cuyas credenciales se pasan para la autenticación). Sin embargo, los usuarios administradores con los permisos adecuados pueden especificar un usuario diferente. Por ejemplo, la variable `setPassword` normalmente establece la contraseña del usuario autenticado, pero un administrador puede usar la `userHandle` para establecer la contraseña de un usuario diferente.
 
-Para las operaciones que requieren un contexto de empresa (con el parámetro `companyHandle` ), tanto los usuarios autenticados como los destinatarios deben ser miembros de la empresa especificada. Para las operaciones que no requieren un contexto de empresa, los usuarios autenticados y los destinatarios deben ser miembros de al menos una empresa común.
+Para operaciones que requieren un contexto de empresa (con la variable `companyHandle` ), tanto los usuarios autenticados como los usuarios de destino deben ser miembros de la empresa especificada. Para las operaciones que no requieren un contexto de empresa, los usuarios autenticados y los destinatarios deben ser miembros de al menos una empresa común.
 
 Las siguientes operaciones pueden recuperar los controles de usuario:
 
@@ -70,13 +70,13 @@ Las siguientes operaciones pueden recuperar los controles de usuario:
 
 **accessUserHandle y accessGroupHandle**
 
-De forma predeterminada, las operaciones que requieren permisos de acceso (leer, escribir, eliminar) funcionan en el contexto de permisos del usuario que realiza la llamada. Algunas operaciones permiten modificar este contexto con los parámetros `accessUserHandle` o `accessGroupHandle`. El parámetro `accessUserHandle` permite que un administrador suplante a otro usuario. El parámetro `accessGroupHandle` permite que el llamador funcione en el contexto de un grupo de usuarios específico.
+De forma predeterminada, las operaciones que requieren permisos de acceso (leer, escribir, eliminar) funcionan en el contexto de permisos del usuario que realiza la llamada. Algunas operaciones permiten modificar este contexto con la variable `accessUserHandle` o `accessGroupHandle` parámetro. La variable `accessUserHandle` permite que un administrador suplante a otro usuario. La variable `accessGroupHandle` permite que el llamador funcione en el contexto de un grupo de usuarios específico.
 
 **responseFieldArray y excludeFieldArray**
 
-Algunas operaciones permiten al llamador restringir qué campos se incluyen en la respuesta. La limitación de campos puede ayudar a reducir el tiempo y la memoria necesarios para procesar la solicitud y reducir el tamaño de los datos de respuesta. El llamador puede solicitar una lista específica de campos pasando un parámetro `responseFieldArray` o con una lista enumerada de campos excluidos a través del parámetro `excludeFieldArray`.
+Algunas operaciones permiten al llamador restringir qué campos se incluyen en la respuesta. La limitación de campos puede ayudar a reducir el tiempo y la memoria necesarios para procesar la solicitud y reducir el tamaño de los datos de respuesta. El llamador puede solicitar una lista específica de campos pasando un `responseFieldArray` , o con una lista enumerada de campos excluidos a través del `excludeFieldArray` parámetro.
 
-Tanto `responseFieldArray` como `excludeFieldArray` especifican campos mediante una ruta de nodo separada por `/`. Por ejemplo, para especificar que `searchAssets` devuelve solo el nombre, la última fecha de modificación y los metadatos de cada recurso hacen referencia a lo siguiente:
+Ambas `responseFieldArray` y `excludeFieldArray` especifique los campos utilizando una ruta de acceso de nodo separada por `/`. Por ejemplo, para especificar que `searchAssets` devuelve solo el nombre, la última fecha de modificación y los metadatos de cada recurso hacen referencia a lo siguiente:
 
 ```
 <responseFieldArray> 
@@ -94,15 +94,15 @@ Del mismo modo, para devolver todos los campos (excepto los permisos):
 </excludeFieldArray>
 ```
 
-Tenga en cuenta que las rutas de nodos son relativas a la raíz del nodo de retorno. Si especifica un campo de tipo complejo sin ninguno de sus subelementos (por ejemplo, `assetArray/items/imageInfo`), se incluyen todos sus subelementos. Si especifica uno o más subelementos en un campo de tipo complejo (por ejemplo, `assetArray/items/imageInfo/originalPath`), solo se incluirán esos subelementos.
+Tenga en cuenta que las rutas de nodos son relativas a la raíz del nodo de retorno. Si especifica un campo de tipo complejo sin ninguno de sus subelementos (por ejemplo, `assetArray/items/imageInfo`), se incluyen todos sus subelementos. Si especifica uno o más subelementos en un campo de tipo complejo (por ejemplo, `assetArray/items/imageInfo/originalPath`), solo se incluyen esos subelementos.
 
-Si no se incluye `responseFieldArray` o `excludeFieldArray` en una solicitud, se devuelven todos los campos.
+Si no incluye `responseFieldArray` o `excludeFieldArray` en una solicitud, se devuelven todos los campos.
 
 **Configuración regional**
 
-Desde IPS 4.0, la API de IPS admite la configuración del contexto de configuración regional de una operación pasando el parámetro de configuración regional `authHeader`. Si el parámetro de configuración regional no está presente, se utilizará el encabezado HTTP `Accept-Language`. Si este encabezado tampoco está presente, se utilizará la configuración regional predeterminada para el servidor IPS.
+Desde IPS 4.0, la API de IPS admite la configuración del contexto de configuración regional de una operación pasando el `authHeader` parámetro de configuración regional. Si el parámetro de configuración regional no está presente, el encabezado HTTP `Accept-Language` se utiliza. Si este encabezado tampoco está presente, se utiliza la configuración regional predeterminada para el servidor IPS.
 
-Algunas operaciones también usan parámetros de configuración regional explícitos, que pueden ser diferentes del contexto de configuración regional de la operación. Por ejemplo, la operación `submitJob` toma un parámetro `locale` que establece la configuración regional utilizada para el registro de trabajos y la notificación por correo electrónico.
+Algunas operaciones también usan parámetros de configuración regional explícitos, que pueden ser diferentes del contexto de configuración regional de la operación. Por ejemplo, la variable `submitJob` la operación toma un `locale` que establece la configuración regional utilizada para el registro de trabajos y la notificación por correo electrónico.
 
 Los parámetros de configuración regional utilizan el formato `<language_code>[-<country_code>]`
 

@@ -5,9 +5,9 @@ title: proxy del servidor de imágenes
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0389a4af-a412-42eb-b7b4-716e47d623a0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Se puede utilizar un proxy de servidor de imágenes para cambiar el tamaño de l
 
 ## Formato URL {#section-2e8c40b0547c4f99874cdf502b338940}
 
-El formato de URL para el proxy IS es muy similar al de las solicitudes IS normales. Los modificadores IS que se pasen al proxy se pasan al servidor de imágenes. Puede encontrar información sobre los modificadores IS en [HTTP Protocol Reference](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-introduction.md#concept-dbbd5241bc6248ad9b9d7f6c635c311e).
+El formato de URL para el proxy IS es muy similar al de las solicitudes IS normales. Los modificadores IS que se pasen al proxy se pasan al servidor de imágenes. Puede encontrar información sobre los modificadores IS en la [Referencia de protocolo HTTP](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-introduction.md#concept-dbbd5241bc6248ad9b9d7f6c635c311e).
 
 `http://<server>/is-proxy/image/<company><asset>?<modifiers>`
 
@@ -28,16 +28,16 @@ El formato de URL para el proxy IS es muy similar al de las solicitudes IS norma
 
 <table id="simpletable_40C1DFB183B54A79BCF65D51ED480CE0"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> widpercent =  &lt;number&gt;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> widpercent = &lt;number&gt;</span> </p></td> 
   <td class="stentry"> <p>Especifica el porcentaje del ancho utilizable del dispositivo para utilizarlo como ancho de imagen. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> heipercent =  &lt;number&gt;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> heipercent = &lt;number&gt;</span> </p></td> 
   <td class="stentry"> <p>Especifica el porcentaje de la altura utilizable del dispositivo para utilizarla como altura de imagen. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> sizepercent =  &lt;number&gt;</span> </p></td> 
-  <td class="stentry"> <p>Especifica el porcentaje de la propiedad de medios incrustados de límite de memoria del dispositivo a la que se limita el tamaño de respuesta. Esto solo se aplicará a las respuestas jpg. La calidad de la imagen se reducirá hasta que el tamaño de respuesta se encuentre dentro del porcentaje especificado. </p></td> 
+  <td class="stentry"> <p><span class="codeph"> sizepercent = &lt;number&gt;</span> </p></td> 
+  <td class="stentry"> <p>Especifica el porcentaje de la propiedad de medios incrustados de límite de memoria del dispositivo a la que se limita el tamaño de respuesta. Esto solo se aplicará a las respuestas jpg. La calidad de la imagen se reduce hasta que el tamaño de respuesta se encuentre dentro del porcentaje especificado. </p></td> 
  </tr> 
 </table>
 
