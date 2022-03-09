@@ -6,7 +6,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 9b60330f-5348-431d-9682-cf97aace3679
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2065'
 ht-degree: 0%
@@ -105,7 +105,7 @@ Puede utilizar una ruta relativa si el visor está implementado en uno de los se
 
 Una ruta relativa tiene el siguiente aspecto:
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/FlyoutViewer.js"></script>
 ```
 
@@ -126,7 +126,7 @@ Una ruta relativa tiene el siguiente aspecto:
 
    A continuación se muestra un ejemplo de un elemento DIV de marcador de posición definido:
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative;z-index:1"></div> 
    ```
 
@@ -140,7 +140,7 @@ Una ruta relativa tiene el siguiente aspecto:
 
    A continuación se muestra un ejemplo de definición del tamaño estático del visor exterior en una página de HTML:
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7flyoutviewer { 
     width: 640px; 
     height: 480px; 
@@ -155,7 +155,7 @@ Una ruta relativa tiene el siguiente aspecto:
 
    A continuación, se muestra un ejemplo de definición del tamaño del visor para el `Container` Componente SDK para que el área de vista principal no cambie su tamaño al cambiar el recurso:
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7flyoutviewer { 
     width: auto; 
     height: auto; 
@@ -182,7 +182,7 @@ Una ruta relativa tiene el siguiente aspecto:
 
    El siguiente es un ejemplo de creación de una instancia de visor, pasando las opciones de configuración mínimas necesarias al constructor y llamando a la función `init()` método. El ejemplo asume `flyoutViewer` es la instancia del visor; `s7viewer` es el nombre del marcador de posición `DIV`; `http://s7d1.scene7.com/is/image/` es la URL del servicio de imágenes; y `Scene7SharedAssets/ImageSet-Views-Sample` es el recurso:
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var flyoutViewer = new s7viewers.FlyoutViewer({ 
     "containerId":"s7viewer", 
@@ -196,7 +196,7 @@ Una ruta relativa tiene el siguiente aspecto:
 
    El siguiente código es un ejemplo completo de una página web trivial que incorpora el visor flotante con un tamaño fijo:
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -227,7 +227,7 @@ Una ruta relativa tiene el siguiente aspecto:
 
 Con la incrustación de diseño interactivo, la página web normalmente tiene algún tipo de diseño flexible en su lugar que dicta el tamaño de tiempo de ejecución del contenedor del visor `DIV`. Para el siguiente ejemplo, supongamos que la página web permite el contenedor del visor `DIV` para tomar el 40% del tamaño de la ventana del explorador web, sin restringir su altura. El código del HTML de la página web tendría el siguiente aspecto:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -256,7 +256,7 @@ Todos los pasos anteriores son los mismos que con el tamaño fijo que se integra
 * added `imagereload` parámetro con puntos de interrupción explícitos;
 * en lugar de establecer un tamaño de visor fijo mediante unidades absolutas, utilice CSS que establezca la anchura y la altura del visor en 100 %, como se muestra a continuación:
 
-```
+```html {.line-numbers}
 #s7viewer.s7flyoutviewer { 
  width: 100%; 
  height: 100%; 
@@ -265,7 +265,7 @@ Todos los pasos anteriores son los mismos que con el tamaño fijo que se integra
 
 El siguiente código es un ejemplo completo. Observe cómo cambia el tamaño del visor cuando se cambia el tamaño del explorador y cómo la proporción de aspecto del visor coincide con el recurso.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -308,7 +308,7 @@ La página de ejemplos siguientes ilustra más usos reales de la incrustación d
 
 Si hay una incrustación de tamaño flexible con anchura y altura definidas, el estilo de la página web es diferente. Proporciona ambos tamaños a la variable `"holder"` DIV y lo centra en la ventana del explorador. Además, la página web establece el tamaño de la variable `HTML` y `BODY` al 100 por ciento.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -334,7 +334,7 @@ height: 60%;
 
 El resto de los pasos de incrustación son idénticos a los pasos utilizados para el diseño interactivo incrustado con altura ilimitada. El ejemplo resultante es el siguiente:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -381,7 +381,7 @@ En lugar de utilizar la inicialización basada en JSON, es posible utilizar la A
 
 El siguiente ejemplo ilustra el uso de incrustación de tamaño fijo con API basada en establecedor:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

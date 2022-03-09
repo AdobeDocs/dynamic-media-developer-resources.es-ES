@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 714e8001-06dc-49b1-838f-ab9772f2527c
-source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 4%
@@ -26,7 +26,7 @@ El visor también envía una única solicitud HTTP de seguimiento al servidor de
 
 Para integrarse con sistemas de análisis de terceros, es necesario escuchar la `trackEvent` la llamada de retorno del visor y procese la `eventInfo` de la función de llamada de retorno según sea necesario. El siguiente código es un ejemplo de dicha función de controlador:
 
-```
+```javascript {.line-numbers}
 var eCatalogViewer = new s7viewers.eCatalogViewer({ 
  "containerId":"s7viewer", 
 "params":{ 

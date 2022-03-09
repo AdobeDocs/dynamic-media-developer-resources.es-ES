@@ -6,7 +6,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 8e243fa5-e375-41ce-8b49-2571023130c1
-source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2160'
 ht-degree: 0%
@@ -106,7 +106,7 @@ Puede lograr la personalización visual mediante la aplicación de CSS personali
 
 A continuación se muestra un ejemplo de código de HTML que abre el visor en una nueva ventana:
 
-```
+```html {.line-numbers}
 <a href="https://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist" target="_blank">Open popup viewer</a>
 ```
 
@@ -143,7 +143,7 @@ Puede utilizar una ruta relativa si el visor está implementado en uno de los se
 
 La ruta relativa tiene el siguiente aspecto:
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/eCatalogViewer.js"></script>
 ```
 
@@ -162,7 +162,7 @@ La ruta relativa tiene el siguiente aspecto:
 
    A continuación se muestra un ejemplo de un elemento DIV de marcador de posición definido:
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div>
    ```
 
@@ -176,7 +176,7 @@ La ruta relativa tiene el siguiente aspecto:
 
    A continuación se muestra un ejemplo de definición de un tamaño de visor estático en la página HTML:
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7ecatalogviewer { 
     width: 640px; 
     height: 480px; 
@@ -185,7 +185,7 @@ La ruta relativa tiene el siguiente aspecto:
 
    Puede configurar la variable `stagesize` modificador en el registro preestablecido de visualizador en Dynamic Media Classic. O bien, puede pasarlo explícitamente con el código de inicialización del visor con `params` o como una llamada de API como se describe en la sección Referencia de comandos, como se indica a continuación:
 
-   ```
+   ```html {.line-numbers}
    eCatalogViewer.setParam("stagesize", 
    "640,480");
    ```
@@ -200,7 +200,7 @@ La ruta relativa tiene el siguiente aspecto:
 
    A continuación se muestra un ejemplo de creación de una instancia de visor, pasar las opciones de configuración mínimas necesarias al constructor y llamar a la función `init()` método. El ejemplo asume `eCatalogViewer` es la instancia del visor; `s7viewer` es el nombre del marcador de posición `DIV`; `https://s7d1.scene7.com/is/image/` es la URL del servicio de imágenes y `Viewers/Pluralist` es el recurso:
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var eCatalogViewer = new s7viewers.eCatalogViewer({ 
     "containerId":"s7viewer", 
@@ -214,7 +214,7 @@ La ruta relativa tiene el siguiente aspecto:
 
    El siguiente código es un ejemplo completo de una página web trivial que incrusta el visor de catálogos electrónicos con un tamaño fijo:
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -245,7 +245,7 @@ La ruta relativa tiene el siguiente aspecto:
 
 Con la incrustación de diseño interactivo, la página web normalmente tiene algún tipo de diseño flexible en su lugar que dicta el tamaño de tiempo de ejecución del contenedor del visor `DIV`. Para este ejemplo, supongamos que la página web permite el contenedor del visor `DIV` para tomar el 40% del tamaño de la ventana del explorador web, sin restringir su altura. El código de HTML de página web resultante tiene el siguiente aspecto:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -269,7 +269,7 @@ Añadir el visor a una página de este tipo es similar a la incrustación de tam
 
 Todos los pasos anteriores son los mismos que con la incrustación de tamaño fijo. Agregar el contenedor `DIV` al &quot;titular&quot; existente `DIV`. El siguiente código es un ejemplo completo. Puede ver cómo cambia el tamaño del visor cuando se cambia el tamaño del explorador y cómo coincide la relación de aspecto del visor con el recurso.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -305,7 +305,7 @@ La siguiente página de ejemplos ilustra casos de uso más reales de incrustaci�
 
 En la incrustación de tamaño flexible con anchura y altura definidas, el estilo de la página web es diferente. Es decir, proporciona ambos tamaños al &quot;titular&quot; `DIV` y la centra en la ventana del explorador. Además, la página web establece el tamaño de la variable `HTML` y `BODY` al 100%:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -331,7 +331,7 @@ height: 60%;
 
 Los pasos de incrustación restantes son idénticos a la incrustación de diseño interactivo con altura ilimitada. El ejemplo resultante es el siguiente:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -373,7 +373,7 @@ En lugar de utilizar la inicialización basada en JSON, es posible utilizar la A
 
 El siguiente ejemplo muestra la incrustación de tamaño fijo con la API basada en establecedor:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

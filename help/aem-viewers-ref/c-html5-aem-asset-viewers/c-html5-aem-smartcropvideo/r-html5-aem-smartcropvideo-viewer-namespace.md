@@ -4,7 +4,8 @@ description: Espacio de nombres del SDK del visor
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 6cbf7eef-0d17-4411-9a74-22455009f66d
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 0%
@@ -23,7 +24,7 @@ En cualquier caso, el espacio de nombres utilizado por el SDK dentro del visor t
 
 Por ejemplo, si planea escuchar `StatusEvent.NOTF_VIEW_READY` y el visor se suministra desde el Experience Manager, el tipo de evento completo es `s7viewers.s7sdk.event.StatusEvent.NOTF_VIEW_READY`y el código del detector de eventos tiene un aspecto similar al siguiente:
 
-```
+```javascript {.line-numbers}
 <instance>.setHandlers({ 
  "initComplete":function() { 
   var smartCropVideoPlayer = <instance>.getComponent("smartCropVideoPlayer"); 

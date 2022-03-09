@@ -5,7 +5,8 @@ keywords: adaptable
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 937be8a2-307e-47bb-9fc8-d354f780a214
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2413'
 ht-degree: 0%
@@ -91,7 +92,7 @@ Puede lograr la personalización visual mediante la aplicación de CSS personali
 
 A continuación se muestra un ejemplo de código de HTML que abre el visor en una nueva ventana:
 
-```
+```html {.line-numbers}
 <a href="http://s7d1.scene7.com/s7viewers/html5/SmartCropVideoViewer.html?asset=html5automation/frisbee-AVS" target="_blank">Open popup viewer</a>
 ```
 
@@ -128,7 +129,7 @@ Puede utilizar una ruta relativa si el visor está implementado en uno de los se
 
 La ruta relativa tiene el siguiente aspecto:
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/SmartCropVideoViewer.js"></script>
 ```
 
@@ -149,7 +150,7 @@ La ruta relativa tiene el siguiente aspecto:
 
    A continuación se muestra un ejemplo de un elemento DIV de marcador de posición definido:
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative;width:640px;height:360px;"></div> 
    ```
 
@@ -163,7 +164,7 @@ La ruta relativa tiene el siguiente aspecto:
 
    A continuación se muestra un ejemplo de definición de un tamaño de visor estático en una página HTML:
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7videoviewer { 
     width: 640px; 
     height: 480px; 
@@ -172,7 +173,7 @@ La ruta relativa tiene el siguiente aspecto:
 
    Puede establecer `stagesize` en el registro preestablecido de visualizador en Dynamic Media Classic o páselo explícitamente con el código de inicialización del visualizador con `params` colección. O bien, como una llamada de API como se describe en la sección Referencia del comando , como se muestra a continuación:
 
-   ```
+   ```html {.line-numbers}
    smartCropVideoViewer.setParam("stagesize", "640,480");
    ```
 
@@ -188,7 +189,7 @@ La ruta relativa tiene el siguiente aspecto:
 
    El siguiente es un ejemplo de creación de una instancia de visor, pasar al constructor las opciones de configuración mínimas necesarias y llamar a la función `init()` método. Este ejemplo asume `smartCropVideoViewer` es la instancia del visor, `s7viewer` es el nombre del marcador de posición `DIV`, [!DNL http://s7d1.scene7.com/is/image/] es la URL del servicio de imágenes, [!DNL http://s7d1.scene7.com/is/content/] es la URL del servidor de vídeo y [!DNL html5automation/frisbee-AVS] es el recurso.
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var smartCropVideoViewer = new s7viewers.SmartCropVideoViewer({ 
     "containerId":"s7viewer", 
@@ -203,7 +204,7 @@ La ruta relativa tiene el siguiente aspecto:
 
    El siguiente código es un ejemplo completo de una página web trivial que incorpora el visor de vídeo de recorte inteligente con un tamaño fijo:
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -235,7 +236,7 @@ La ruta relativa tiene el siguiente aspecto:
 
 Con la incrustación de diseño interactivo, la página web normalmente tiene algún tipo de diseño flexible en su lugar que dicta el tamaño en tiempo de ejecución del contenedor del visor `DIV`. Para este ejemplo, supongamos que la página web permite el contenedor del visor `DIV` para tomar el 40% del tamaño de la ventana del explorador web, sin restringir su altura. El código del HTML de la página web tendría el siguiente aspecto:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -259,7 +260,7 @@ Añadir el visor a una página de este tipo es similar a la incrustación de tam
 
 Todos los pasos anteriores son los mismos que con la incrustación de tamaño fijo. Agregar contenedor `DIV` al &quot;titular&quot; existente `DIV`. El siguiente código es un ejemplo completo. Puede ver cómo cambia el tamaño del visor cuando se cambia el tamaño del explorador y cómo coincide la relación de aspecto del visor con el recurso.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -298,7 +299,7 @@ La siguiente página de ejemplos ilustra un uso más real del diseño interactiv
 
 Si hay un diseño interactivo incrustado con la anchura y la altura definidas, el estilo de la página web es diferente; proporciona ambos tamaños al &quot;soporte&quot; `DIV` y céntrela en la ventana del explorador. Además, la página web establece el tamaño de la variable `HTML` y `BODY` al 100%:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -324,7 +325,7 @@ height: 60%;
 
 Los pasos de incrustación restantes son idénticos a la incrustación de diseño interactivo con altura ilimitada. El ejemplo resultante es el siguiente:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -367,7 +368,7 @@ En lugar de utilizar la inicialización basada en JSON, es posible utilizar la A
 
 El siguiente ejemplo ilustra la incrustación de tamaño fijo con la API basada en establecedor:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
