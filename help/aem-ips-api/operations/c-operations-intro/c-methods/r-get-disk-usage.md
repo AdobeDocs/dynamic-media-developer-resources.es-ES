@@ -5,10 +5,10 @@ title: getDiskUsage
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 06fdd9f5-5021-4f0b-b312-4465df9bda25
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 13%
+source-wordcount: '98'
+ht-degree: 14%
 
 ---
 
@@ -29,13 +29,13 @@ Devuelve información sobre la estructura de una empresa (número de archivos, e
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa cuyo uso de disco desea obtener. |
+| companyHandle | `xsd:string` | Sí | El identificador de la empresa cuyo uso de disco desea obtener. |
 
 **Salida (getDiskUsageReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`diskUsageArray`*` | `types:DiskUsageArray` | Sí | Matriz de uso del disco de la empresa. |
+| diskUsageArray | `types:DiskUsageArray` | Sí | Matriz de uso del disco de la empresa. |
 
 ## Ejemplos {#section-cb16a97badc94076ad5da277db5ed16a}
 

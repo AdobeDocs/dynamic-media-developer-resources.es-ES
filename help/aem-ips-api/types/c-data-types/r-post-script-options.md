@@ -5,10 +5,10 @@ title: PostScriptOptions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fd2093b5-9856-4f31-8853-1027194a71df
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 11%
+source-wordcount: '67'
+ht-degree: 13%
 
 ---
 
@@ -22,8 +22,8 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| `*`proceso`*` | `xsd:string` | Selección del proceso PostScript. |
-| `*`resolution`*` | `xsd:double` | Resolución de archivos. |
-| `*`Espacio de color`*` | `xsd:string` | Modo de espacio de color PostScript. |
-| `*`alpha`*` | `xsd:boolean` | Si se va a rasterizar el archivo en una imagen. Si es así, creará un fondo transparente si el archivo original está definido de esta manera. Generalmente se utiliza para crear logotipos superpuestos. |
-| `*`extractSearchWords`*` | `xsd:boolean` | Si se extraen palabras de búsqueda del archivo PostScript. |
+| proceso | `xsd:string` | Selección del proceso PostScript. |
+| resolution | `xsd:double` | Resolución de archivos. |
+| Espacio de color | `xsd:string` | Modo de espacio de color PostScript. |
+| alfa | `xsd:boolean` | Si se va a rasterizar el archivo en una imagen. Si es así, creará un fondo transparente si el archivo original está definido de esta manera. Generalmente se utiliza para crear logotipos superpuestos. |
+| extractSearchWords | `xsd:boolean` | Si se extraen palabras de búsqueda del archivo PostScript. |

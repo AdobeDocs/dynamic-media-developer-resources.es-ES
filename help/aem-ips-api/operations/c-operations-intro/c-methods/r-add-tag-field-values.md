@@ -5,10 +5,10 @@ title: addTagFieldValues
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 099263e4-8214-46eb-898e-7a28c4f25598
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 13%
+source-wordcount: '90'
+ht-degree: 14%
 
 ---
 
@@ -30,9 +30,9 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa que contiene el campo de etiqueta. |
-| `*`fieldHandle`*` | `xsd:string` | Sí | El controlador del campo de etiqueta que se va a modificar. |
-| `*`valueArray`*` | `xsd:string` | Sí | Matriz de valores de etiqueta que se agregarán al diccionario existente del campo. |
+| companyHandle | `xsd:string` | Sí | El identificador de la empresa que contiene el campo de etiqueta. |
+| fieldHandle | `xsd:string` | Sí | El controlador del campo de etiqueta que se va a modificar. |
+| valueArray | `xsd:string` | Sí | Matriz de valores de etiqueta que se agregarán al diccionario existente del campo. |
 
 **Salida (addTagFieldValuesParam)**
 

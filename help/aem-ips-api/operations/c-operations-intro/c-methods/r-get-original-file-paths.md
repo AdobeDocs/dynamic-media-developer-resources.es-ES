@@ -5,10 +5,10 @@ title: getOriginalFilePaths
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 81d06a8c-55c1-47d5-adc9-928ab30199c6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 15%
+source-wordcount: '99'
+ht-degree: 16%
 
 ---
 
@@ -38,14 +38,14 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa. |
-| `*`assetHandleArray`*` | `types:HandleArray` | Sí | Matriz de identificadores a recursos cuya ruta de archivo original desea obtener. |
+| companyHandle | `xsd:string` | Sí | El identificador de la empresa. |
+| assetHandleArray | `types:HandleArray` | Sí | Matriz de identificadores a recursos cuya ruta de archivo original desea obtener. |
 
 **Salida (getOriginalFilePathsReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`originalFileArray`*` | `types:StringArray` | Sí | Matriz de cadenas que representan las rutas de archivo originales. |
+| originalFileArray | `types:StringArray` | Sí | Matriz de cadenas que representan las rutas de archivo originales. |
 
 ## Ejemplos {#section-a966e783a2ba49f5b6b0f961329ab2f8}
 

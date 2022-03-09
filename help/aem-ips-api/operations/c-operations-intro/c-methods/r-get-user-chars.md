@@ -5,7 +5,7 @@ title: getUserChars
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d6b79c06-0e90-406f-bac8-3b8c2bae5480
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 12%
@@ -31,19 +31,19 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`charField`*` | `xsd:string` | Sí | Determina el estado de la Papelera que se va a buscar. |
-| `*`includeInactive`*` | `xsd:boolean` | Sí | Incluir o excluir usuarios inactivos. Los usuarios administradores que no sean de IPS deben ser miembros activos de al menos una empresa para poder realizar llamadas de API. Se devuelve un error de autorización si el usuario no tiene membresías activas de la empresa. |
-| `*`includeInvalid`*` | `xsd:boolean` | No | Incluir o excluir usuarios no válidos. |
-| `*`companyHandleArray`*` | `types:HandleArray` | No | Filtre los resultados según la empresa. |
-| `*`groupHandleArray`*` | `types:HandleArray` | No | Filtra los resultados según los grupos. |
-| `*`userRoleArray`*` | `types:StringArray` | No | Filtra los resultados según la función del usuario. |
-| `*`numChars`*` | `xsd:int` | No | Activar >1 carácter. |
+| charField | `xsd:string` | Sí | Determina el estado de la Papelera que se va a buscar. |
+| includeInactive | `xsd:boolean` | Sí | Incluir o excluir usuarios inactivos. Los usuarios administradores que no sean de IPS deben ser miembros activos de al menos una empresa para poder realizar llamadas de API. Se devuelve un error de autorización si el usuario no tiene membresías activas de la empresa. |
+| includeInvalid | `xsd:boolean` | No | Incluir o excluir usuarios no válidos. |
+| companyHandleArray | `types:HandleArray` | No | Filtre los resultados según la empresa. |
+| groupHandleArray | `types:HandleArray` | No | Filtra los resultados según los grupos. |
+| userRoleArray | `types:StringArray` | No | Filtra los resultados según la función del usuario. |
+| numChars | `xsd:int` | No | Activar >1 carácter. |
 
 **Salida (getUserCharsReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`userCharsArray`*` | `types:StringArray` | Sí | Matriz de prefijos de caracteres. |
+| userCharsArray | `types:StringArray` | Sí | Matriz de prefijos de caracteres. |
 
 ## Ejemplos {#section-3702f165e8b041139a6144f4a76ca25f}
 

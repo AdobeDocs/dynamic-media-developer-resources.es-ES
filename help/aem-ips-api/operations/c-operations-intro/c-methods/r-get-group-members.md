@@ -5,10 +5,10 @@ title: getGroupMembers
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 81af79ee-be82-439f-9f42-a1ec09cd8ea0
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 17%
+source-wordcount: '81'
+ht-degree: 18%
 
 ---
 
@@ -30,14 +30,14 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa. |
-| `*`groupHandle`*` | `xsd:string` |  | El identificador del grupo. |
+| companyHandle | `xsd:string` | Sí | El identificador de la empresa. |
+| groupHandle | `xsd:string` |  | El identificador del grupo. |
 
 **Salida (getGroupMembersReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`userHandleArray`*` | `type:HandleArray` | Sí | Matriz de controles de usuario. |
+| userHandleArray | `type:HandleArray` | Sí | Matriz de controles de usuario. |
 
 ## Ejemplos {#section-aaa340dba6b64cce9bcd8303cf999166}
 

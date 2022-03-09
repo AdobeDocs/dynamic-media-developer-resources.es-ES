@@ -2,13 +2,13 @@
 description: Obtiene los registros de trabajos de un recurso. Los elementos devueltos en la matriz contienen información detallada sobre cada entrada en el registro de trabajos de ese recurso. El campo de respuesta logMessage se localiza en función del campo authHeader .
 solution: Experience Manager
 title: getAssetJobLogs
-feature: Dynamic Media Classic,SDK/API,Administración de activos
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 88ec5cab-7eb4-48aa-914f-21311593e463
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 9%
+source-wordcount: '156'
+ht-degree: 10%
 
 ---
 
@@ -36,14 +36,14 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa a la que pertenece el recurso. |
-| `*`assetHandle`*` | `xsd:string` | Sí | El identificador del recurso con los registros de trabajo que se van a recuperar. |
+| companyHandle | `xsd:string` | Sí | El identificador de la empresa a la que pertenece el recurso. |
+| assetHandle | `xsd:string` | Sí | El identificador del recurso con los registros de trabajo que se van a recuperar. |
 
 **Salida (getAssetJobLogsReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`jobLogArray`*` | `types:AssetJobLogArray` | Sí | Matriz de registro de trabajos. |
+| jobLogArray | `types:AssetJobLogArray` | Sí | Matriz de registro de trabajos. |
 
 ## Ejemplos {#section-f03d7f3ec5d043d38227f926fb7609f6}
 

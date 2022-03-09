@@ -5,10 +5,10 @@ title: saveGroup
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1dd980e7-eb38-4c90-b4fc-83327d4a95f5
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 21%
+source-wordcount: '92'
+ht-degree: 22%
 
 ---
 
@@ -30,16 +30,16 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa con el grupo que desea guardar. |
-| `*`groupHandle`*` | `xsd:string` | No | El identificador del grupo. |
-| `*`name`*` | `xsd:string` | Sí | Nombre del grupo. |
-| `*`isSystemDefined`*` | `xsd:boolean` | Sí | `false` es el valor predeterminado. |
+| companyHandle | `xsd:string` | Sí | El identificador de la empresa con el grupo que desea guardar. |
+| groupHandle | `xsd:string` | No | El identificador del grupo. |
+| name | `xsd:string` | Sí | Nombre del grupo. |
+| isSystemDefined | `xsd:boolean` | Sí | `false` es el valor predeterminado. |
 
 **Salida (saveGroupReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`groupHandle`*` | `xsd:string` | Sí | Identificador de grupo. |
+| groupHandle | `xsd:string` | Sí | Identificador de grupo. |
 
 ## Ejemplos {#section-26eee227ff1f4edabb7fa1240b4d9999}
 

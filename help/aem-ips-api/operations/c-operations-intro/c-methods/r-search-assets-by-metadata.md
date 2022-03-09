@@ -2,12 +2,12 @@
 description: Busca en el repositorio de índices de metadatos los términos de búsqueda dados. Devuelve datos de recursos como el método searchAssets.
 solution: Experience Manager
 title: searchAssetsByMetadata
-feature: Dynamic Media Classic,SDK/API,Metadatos,Administración de activos
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: a0e01edb-c52b-436d-a166-e24cc6861c49
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '328'
 ht-degree: 11%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 Busca en el repositorio de índices de metadatos los términos de búsqueda dados. Devuelve datos de recursos como el método searchAssets.
 
-Mientras que `searchAssetsByMetadata` permite buscar con campos de metadatos definidos por el usuario, esos campos no se devuelven si se especifican en `responseMetadataArray`. Para ilustrar este punto, siga el siguiente ejemplo de código:
+While `searchAssetsByMetadata` permite buscar con campos de metadatos definidos por el usuario, estos campos no se devuelven si se especifican en la variable `responseMetadataArray`. Para ilustrar este punto, siga el siguiente ejemplo de código:
 
 ```java
 <ns:responseMetadataArray>
@@ -33,7 +33,7 @@ devuelve un valor nulo:
 </items>
 ```
 
-Para solucionar este problema, puede utilizar el `fieldHandles` de los recursos que devuelve la búsqueda para ejecutar `getAssets` (consulte también [getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)). Este método obtiene los valores Campos definidos por el usuario para los recursos en cuestión. Utilice el siguiente ejemplo de sintaxis para buscar campos de metadatos definidos por el usuario:
+Para solucionar este problema, puede usar la variable `fieldHandles` de los recursos que se devuelven desde la búsqueda para ejecutar `getAssets` (consulte también [getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)). Este método obtiene los valores Campos definidos por el usuario para los recursos en cuestión. Utilice el siguiente ejemplo de sintaxis para buscar campos de metadatos definidos por el usuario:
 
 ```java
 <ns:metadataConditionArray>
@@ -103,7 +103,7 @@ Para solucionar este problema, puede utilizar el `fieldHandles` de los recursos 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Especifica la página de resultados que se van a devolver, en función del tamaño de página <span class="codeph"> recordsPerPage</span>. </p> </td> 
+   <td colname="col4"> <p>Especifica la página de resultados que se van a devolver, en función de <span class="codeph"> recordsPerPage</span> tamaño de página. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> sortBy</span> </span> </p> </td> 
@@ -124,8 +124,8 @@ Para solucionar este problema, puede utilizar el `fieldHandles` de los recursos 
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`totalRows`*` | `xsd:int` | No | Número de coincidencias. |
-| `*`assetArray`*` | `types:AssetArray` | No | Matriz de recursos devueltos por la búsqueda. |
+| totalRows | `xsd:int` | No | Número de coincidencias. |
+| assetArray | `types:AssetArray` | No | Matriz de recursos devueltos por la búsqueda. |
 
 ## Detalles de metadataConditionArray {#section-1af4a4a22f82451eabdf6dfe13d9f27d}
 
@@ -156,13 +156,13 @@ Para solucionar este problema, puede utilizar el `fieldHandles` de los recursos 
 * `sku`
 * `modified_at`
 * `modified_by`
-* `created_at` (igual que  `modified_at` (Fecha en el formulario: 25 de julio de 2014 22:13:45 GMT-0500 (CDT))
+* `created_at` (igual que `modified_at` (Fecha en el formulario: 25 de julio de 2014 24:13:45 GMT-0500 (CDT)
 
 * `created_by`
 
 **Operadores permitidos**
 
-El [!DNL operator] define cómo comparar el valor e incluye:
+La variable [!DNL operator] define cómo comparar el valor e incluir:
 
 * `Equals`
 * `NotEquals`
@@ -171,15 +171,15 @@ El [!DNL operator] define cómo comparar el valor e incluye:
 * `StartsWith`
 * `EndsWith`
 
-El `comparison_value` es el término que se va a buscar.
+La variable `comparison_value` es el término que se va a buscar.
 
 ## Ejemplos {#section-53a12b9c023e4e629eddf5719c955ad4}
 
 Este ejemplo de código realiza una búsqueda con los siguientes criterios de metadatos:
 
-* `name` contiene  `1000801`.
+* `name` el campo contiene `1000801`.
 
-* `dc.rights` field es igual a  `Per Jessen Schmidt`.
+* `dc.rights` field es igual a `Per Jessen Schmidt`.
 
 **Solicitar**
 

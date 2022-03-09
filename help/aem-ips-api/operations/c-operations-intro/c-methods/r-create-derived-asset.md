@@ -5,7 +5,7 @@ title: createDerivedAsset
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: a3b20a8a-ed0d-40be-9a8c-41ba09b1d724
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 8%
@@ -39,19 +39,19 @@ A diferencia de una copia de imagen (consulte [copyImage](../../../operations/c-
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa que contiene el recurso del que derivará el nuevo recurso. |
-| `*`ownerHandle`*` | `xsd:string` | Sí | El identificador del recurso de imagen principal del que se deriva la nueva imagen. |
-| `*`folderHandle`*` | `xsd:string` | Sí | El identificador de la carpeta en la que se crea el nuevo recurso derivado. |
-| `*`name`*` | `xsd:string` | Sí | Nombre del recurso derivado. |
-| `*`type`*` | `xsd:string` | Sí | El tipo de recurso del nuevo recurso derivado: `AdjustedView` o `LayerView`. |
-| `*`urlModifier`*` | `xsd:string` | No | Comandos de protocolo de servicio o representación de imágenes aplicados *before* la solicitud o `urlPostApplyModifier` comandos. |
-| `*`urlPostApplyModifier`*` | `xsd:string` | No | Comandos de protocolo de servicio o representación de imágenes aplicados *after* a la solicitud o `urlPostApplyModifier` comandos. |
+| companyHandle | `xsd:string` | Sí | El identificador de la empresa que contiene el recurso del que derivará el nuevo recurso. |
+| ownerHandle | `xsd:string` | Sí | El identificador del recurso de imagen principal del que se deriva la nueva imagen. |
+| folderHandle | `xsd:string` | Sí | El identificador de la carpeta en la que se crea el nuevo recurso derivado. |
+| name | `xsd:string` | Sí | Nombre del recurso derivado. |
+| tipo | `xsd:string` | Sí | El tipo de recurso del nuevo recurso derivado: `AdjustedView` o `LayerView`. |
+| urlModifier | `xsd:string` | No | Comandos de protocolo de servicio o representación de imágenes aplicados *before* la solicitud o `urlPostApplyModifier` comandos. |
+| urlPostApplyModifier | `xsd:string` | No | Comandos de protocolo de servicio o representación de imágenes aplicados *after* a la solicitud o `urlPostApplyModifier` comandos. |
 
 **Salida (createDerivedAssetParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Sí | El identificador del recurso derivado. |
+| assetHandle | `xsd:string` | Sí | El identificador del recurso derivado. |
 
 ## Ejemplos {#section-5d5ea893a1ef4edc8b3a396f1936e8c9}
 

@@ -2,12 +2,12 @@
 description: Obtiene los recursos y el número de recursos asociados a una empresa específica.
 solution: Experience Manager
 title: getAssetCounts
-feature: Dynamic Media Classic,SDK/API,Administración de activos
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 21cb8023-d6fe-416a-b16f-636df8a37958
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '141'
 ht-degree: 10%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 10%
 
 Obtiene los recursos y el número de recursos asociados a una empresa específica.
 
-El `countArray` devuelto consiste en una matriz de `assetTypes` (tipo de datos `xsd:string`), cada una con su propio campo de recuento (tipo de datos `xsd:int`), que permite la representación de varios tipos de activos por elemento de la matriz.
+La variable `countArray` El resultado devuelto consiste en una matriz de `assetTypes` (tipo de datos `xsd:string`), cada uno con su propio campo de recuento (tipo de datos `xsd:int`), lo que permite la representación de varios tipos de recursos por elemento de la matriz.
 Sintaxis
 
 ## Tipos de usuarios autorizados {#section-6234754722184e828352f10eb18fbce9}
@@ -37,17 +37,17 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa con los recursos que desea contar. |
+| companyHandle | `xsd:string` | Sí | El identificador de la empresa con los recursos que desea contar. |
 
 **Salida (getAssetCountsReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`countArray`*` | `types:AssetCountArray` | No | Matriz de tipos de recurso, cada uno con su propio campo de recuento, que permite la representación de varios tipos de recurso por elemento de la matriz. |
+| countArray | `types:AssetCountArray` | No | Matriz de tipos de recurso, cada uno con su propio campo de recuento, que permite la representación de varios tipos de recurso por elemento de la matriz. |
 
 ## Ejemplos {#section-6052a503eb3843f6adb99e200fdba280}
 
-Este ejemplo de código utiliza el identificador de la empresa como campo en el `getAssetCountsParam` enviado al servidor de servicios web IPS para obtener los recuentos de recursos.
+Este ejemplo de código utiliza el identificador de la empresa como campo en la variable `getAssetCountsParam` se envía al servidor de servicios web IPS para obtener los recuentos de recursos.
 
 **Solicitar**
 

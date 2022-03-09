@@ -5,10 +5,10 @@ title: Información de RTFI
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f30eae15-793f-4e2e-a0dc-1987f0949bd6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 27%
+source-wordcount: '28'
+ht-degree: 32%
 
 ---
 
@@ -22,6 +22,6 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | Ruta del archivo. |
-| `*`originalFile`*` | `xsd:string` | Nombre del archivo. |
-| `*`fileSize`*` | `xsd:int` | Tamaño de archivo. |
+| originalPath | `xsd:string` | Ruta del archivo. |
+| originalFile | `xsd:string` | Nombre del archivo. |
+| fileSize | `xsd:int` | Tamaño de archivo. |

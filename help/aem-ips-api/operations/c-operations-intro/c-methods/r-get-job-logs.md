@@ -5,9 +5,9 @@ title: getJobLogs
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6239c3c4-bdbc-4e69-82d4-48a76f080eff
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '184'
 ht-degree: 11%
 
 ---
@@ -36,19 +36,19 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | No | El control de la empresa. |
-| `*`userHandle`*` | `xsd:string` | No | Obtiene registros de trabajos enviados por un usuario específico. |
-| `*`sortBy`*` | `xsd:string` | No | Permite seleccionar campos de ordenación. |
-| `*`sortDirection`*` | `xsd:string` | No | Orden (ascendente o descendente). |
-| `*`startDate`*` | `xsd:dateTime` | No | La fecha y hora del inicio del registro de trabajos. Proporcione la zona horaria con la solicitud para este campo. |
-| `*`endDate`*` | `xsd:dateTime` | No | La fecha y hora del final del registro de trabajos. Proporcione la zona horaria con la solicitud para este campo. |
-| `*`numRows`*` | `xsd:int` | No | Número máximo de filas que se van a devolver. |
+| companyHandle | `xsd:string` | No | El control de la empresa. |
+| userHandle | `xsd:string` | No | Obtiene registros de trabajos enviados por un usuario específico. |
+| sortBy | `xsd:string` | No | Permite seleccionar campos de ordenación. |
+| sortDirection | `xsd:string` | No | Orden (ascendente o descendente). |
+| startDate | `xsd:dateTime` | No | La fecha y hora del inicio del registro de trabajos. Proporcione la zona horaria con la solicitud para este campo. |
+| endDate | `xsd:dateTime` | No | La fecha y hora del final del registro de trabajos. Proporcione la zona horaria con la solicitud para este campo. |
+| numRows | `xsd:int` | No | Número máximo de filas que se van a devolver. |
 
 **Salida (getJobLogsReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`jobLogArray`*` | `types: JobLogArray` | Sí | Matriz de registros de trabajos. |
+| jobLogArray | `types: JobLogArray` | Sí | Matriz de registros de trabajos. |
 
 ## Ejemplos {#section-35871c94b4a44559912577efddbc46a6}
 

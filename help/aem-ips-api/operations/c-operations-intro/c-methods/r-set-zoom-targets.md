@@ -5,10 +5,10 @@ title: setZoomTargets
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1b4ac729-00cf-4ea2-9098-60b4af3c7e6d
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 13%
+source-wordcount: '121'
+ht-degree: 14%
 
 ---
 
@@ -33,15 +33,15 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la empresa. |
-| `*`assetHandle`*` | `xsd:string` | Sí | Recurso con el destino de zoom que desea establecer. |
-| `*`zoomTargetArray`*` | `types:ZoomTargetDefinitionArray` | Sí | Matriz de definiciones de destino de zoom. |
+| companyHandle | `xsd:string` | Sí | Identificador de la empresa. |
+| assetHandle | `xsd:string` | Sí | Recurso con el destino de zoom que desea establecer. |
+| zoomTargetArray | `types:ZoomTargetDefinitionArray` | Sí | Matriz de definiciones de destino de zoom. |
 
 **Salida (setZoomTargetsReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`zoomTargetHandleArray`*` | `types:HandleArray` | Sí | Conjunto de controles de los destinos de zoom creados por esta operación. |
+| zoomTargetHandleArray | `types:HandleArray` | Sí | Conjunto de controles de los destinos de zoom creados por esta operación. |
 
 ## Ejemplos {#section-a2f14c7a1499443e96d099ea8a76c182}
 

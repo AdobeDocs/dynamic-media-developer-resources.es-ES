@@ -5,10 +5,10 @@ title: TagValueUpdateFault
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 8225b3c7-626d-41b0-acd8-a20170427292
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 17%
+source-wordcount: '41'
+ht-degree: 19%
 
 ---
 
@@ -22,6 +22,6 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| `*`basado en IP`*` | `xsd:string` | Valor de etiqueta para el que se ha producido un error en la actualización. |
-| `*`código`*` | `xsd:int` | Número de código de error. |
-| `*`razón`*` | `xsd:string` | Mensaje de error (texto sin formato). |
+| valor | `xsd:string` | Valor de etiqueta para el que se ha producido un error en la actualización. |
+| código | `xsd:int` | Número de código de error. |
+| razón | `xsd:string` | Mensaje de error (texto sin formato). |

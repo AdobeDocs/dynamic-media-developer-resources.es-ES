@@ -2,13 +2,13 @@
 description: Define la imagen en miniatura de uno o varios recursos.
 solution: Experience Manager
 title: batchSetThumbAsset
-feature: Dynamic Media Classic,SDK/API,Administración de activos
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: f7d7ddd9-a3c3-47c4-8da6-d693851d0d7f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 13%
+source-wordcount: '171'
+ht-degree: 14%
 
 ---
 
@@ -47,18 +47,18 @@ Los tipos de recurso de miniaturas permitidos están formados por lo siguiente:
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa que contiene los recursos. |
-| `*`updateArray`*` | `types:ThumbAssetUpdateArray` | Sí | Matriz de actualizaciones. |
+| companyHandle | `xsd:string` | Sí | El identificador de la empresa que contiene los recursos. |
+| updateArray | `types:ThumbAssetUpdateArray` | Sí | Matriz de actualizaciones. |
 
 **Salida (batchSetThumbAssetParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Sí | Número de miniaturas establecidas correctamente. |
-| `*`warningCount`*` | `xsd:int` | Sí | Número de advertencias generadas cuando la operación intentó establecer las miniaturas. |
-| `*`errorCount`*` | `xsd:int` | Sí | Número de errores generados cuando la operación intentó establecer las miniaturas. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados con los recursos que generaron advertencias cuando la operación intentó aplicar las actualizaciones. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados con los recursos que generaron errores cuando la operación intentó aplicar las actualizaciones. |
+| successCount | `xsd:int` | Sí | Número de miniaturas establecidas correctamente. |
+| warningCount | `xsd:int` | Sí | Número de advertencias generadas cuando la operación intentó establecer las miniaturas. |
+| errorCount | `xsd:int` | Sí | Número de errores generados cuando la operación intentó establecer las miniaturas. |
+| warningDetailArray | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados con los recursos que generaron advertencias cuando la operación intentó aplicar las actualizaciones. |
+| errorDetailArray | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados con los recursos que generaron errores cuando la operación intentó aplicar las actualizaciones. |
 
 ## Ejemplos {#section-6de69a8680c24c1486c5f01488393381}
 

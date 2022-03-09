@@ -5,10 +5,10 @@ title: createProject
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: dd9c07df-9a8f-4b67-9838-31dd96fd127b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 18%
+source-wordcount: '76'
+ht-degree: 19%
 
 ---
 
@@ -33,14 +33,14 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa asociada al nuevo proyecto. |
-| `*`projectName`*` | `xsd:string` | Sí | Nuevo nombre del proyecto. |
+| companyHandle | `xsd:string` | Sí | El identificador de la empresa asociada al nuevo proyecto. |
+| projectName | `xsd:string` | Sí | Nuevo nombre del proyecto. |
 
 **Salida (createProjectParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`projectHandle`*` | `xsd:string` | Sí | El identificador del nuevo proyecto. |
+| projectHandle | `xsd:string` | Sí | El identificador del nuevo proyecto. |
 
 ## Ejemplos {#section-a0cd532b67e346d088fbec141231a0e5}
 

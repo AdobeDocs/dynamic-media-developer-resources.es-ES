@@ -5,10 +5,10 @@ title: saveZoomTarget
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 595fd5c8-4e98-4c1a-b396-c8e170aaf454
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 20%
+source-wordcount: '124'
+ht-degree: 21%
 
 ---
 
@@ -33,21 +33,21 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa con el destino de zoom que desea guardar. |
-| `*`assetHandle`*` | `xsd:string` | Sí | Control del destino de zoom. |
-| `*`zoomTargetHandle`*` | `xsd:string` | No | Edita o crea un destino de zoom. |
-| `*`name`*` | `xsd:string` | Sí | Nombre del destino de zoom. |
-| `*`xPosition`*` | `xsd:int` | Sí | Ubicación en píxeles a la izquierda. |
-| `*`yPosition`*` | `xsd:int` | Sí | Ubicación en píxeles superior. |
-| `*`width`*` | `xsd:int` | Sí | Zoom de la anchura de destino. |
-| `*`height`*` | `xsd:int` | Sí | Zoom de la altura de destino. |
-| `*`Datos de usuario`*` | `xsd:string` | Sí | Para obtener información específica del cliente. Puede contener cualquier tipo de datos. |
+| companyHandle | `xsd:string` | Sí | El identificador de la empresa con el destino de zoom que desea guardar. |
+| assetHandle | `xsd:string` | Sí | Control del destino de zoom. |
+| zoomTargetHandle | `xsd:string` | No | Edita o crea un destino de zoom. |
+| name | `xsd:string` | Sí | Nombre del destino de zoom. |
+| xPosition | `xsd:int` | Sí | Ubicación en píxeles a la izquierda. |
+| yPosition | `xsd:int` | Sí | Ubicación en píxeles superior. |
+| ancho | `xsd:int` | Sí | Zoom de la anchura de destino. |
+| altura | `xsd:int` | Sí | Zoom de la altura de destino. |
+| Datos de usuario | `xsd:string` | Sí | Para obtener información específica del cliente. Puede contener cualquier tipo de datos. |
 
 **Salida (saveZoomTargetReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`zoomTargetHandle`*` | `xsd:string` | Sí | Gestione el objetivo de zoom recién creado. |
+| zoomTargetHandle | `xsd:string` | Sí | Gestione el objetivo de zoom recién creado. |
 
 ## Ejemplos {#section-509c472c316549cdb228d7e1cfa8400a}
 

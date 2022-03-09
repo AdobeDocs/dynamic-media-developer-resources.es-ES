@@ -2,13 +2,13 @@
 description: Actualiza un conjunto de imágenes.
 solution: Experience Manager
 title: updateImageSet
-feature: Dynamic Media Classic,SDK/API,Conjuntos de imágenes
+feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: d8d5fb80-17f1-424f-8a61-27189f87d603
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 18%
+source-wordcount: '78'
+ht-degree: 20%
 
 ---
 
@@ -24,16 +24,16 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa que contiene el conjunto de imágenes que desea modificar. |
-| `*`assetHandle`*` | `xsd:string` | Ys | El controlador del conjunto de imágenes que desea modificar. |
-| `*`memberArray`*` | `types:ImageSetMemberUpdateArray` | No | Restaura los miembros del conjunto de imágenes. |
-| `*`thumbAssetHandle`*` | `xsd:string` | No | El controlador del recurso que actúa como la miniatura del conjunto de imágenes. |
+| companyHandle | `xsd:string` | Sí | El identificador de la empresa que contiene el conjunto de imágenes que desea modificar. |
+| assetHandle | `xsd:string` | Ys | El controlador del conjunto de imágenes que desea modificar. |
+| memberArray | `types:ImageSetMemberUpdateArray` | No | Restaura los miembros del conjunto de imágenes. |
+| thumbAssetHandle | `xsd:string` | No | El controlador del recurso que actúa como la miniatura del conjunto de imágenes. |
 
 **Salida (updateImageSetReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`Secuencia`*` |  |  |  |
+| Secuencia |  |  |  |
 
 ## Ejemplos {#section-ce47a4b6e062423fa55ed3a0fd26d7ff}
 

@@ -5,10 +5,10 @@ title: getGenerationInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fa098e3c-8145-4238-a84c-c545f1c53341
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 9%
+source-wordcount: '196'
+ht-degree: 10%
 
 ---
 
@@ -36,18 +36,18 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`Frase de código`*` | `xsd:string` | Sí | El identificador de la empresa. |
-| `*`Frase de código`*` | `xsd:string` | No | Motor utilizado en la generación. Consulte Estilos de fuente. |
-| `*`Frase de código`*` | `xsd:string` | No | El controlador del recurso que se va a consultar para los recursos generados. |
-| `*`Frase de código`*` | `xsd:string` | No | El controlador del recurso que se va a consultar para los recursos y motores utilizados en su generación. |
-| `*`Frase de código`*` | `xsd:StringArray` | No | Propiedades incluidas en la operación. |
-| `*`Frase de código`*` | `xsd:StringArray` | No | Propiedades excluidas de la operación. |
+| Frase de código | `xsd:string` | Sí | El identificador de la empresa. |
+| Frase de código | `xsd:string` | No | Motor utilizado en la generación. Consulte Estilos de fuente. |
+| Frase de código | `xsd:string` | No | El controlador del recurso que se va a consultar para los recursos generados. |
+| Frase de código | `xsd:string` | No | El controlador del recurso que se va a consultar para los recursos y motores utilizados en su generación. |
+| Frase de código | `xsd:StringArray` | No | Propiedades incluidas en la operación. |
+| Frase de código | `xsd:StringArray` | No | Propiedades excluidas de la operación. |
 
 **Salida (getGenerationInfoReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`generationArray`*` | `types:GenerationInfoArray` | Sí | Matriz de información de generación. |
+| generationArray | `types:GenerationInfoArray` | Sí | Matriz de información de generación. |
 
 ## Ejemplos {#section-fdffe6ed82d94c7aa90e47f7ce889403}
 

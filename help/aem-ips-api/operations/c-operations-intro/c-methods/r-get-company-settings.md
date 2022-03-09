@@ -5,10 +5,10 @@ title: getCompanySettings
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b9f41405-8a45-416c-acec-ef22c2ee119e
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 23%
+source-wordcount: '64'
+ht-degree: 25%
 
 ---
 
@@ -31,13 +31,13 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa cuya configuración desea recuperar. |
+| companyHandle | `xsd:string` | Sí | El identificador de la empresa cuya configuración desea recuperar. |
 
 **Salida (getCompanySettingsReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`configuración`*` | `types:CompanySettings` | Sí | Configuración de la empresa. |
+| configuración | `types:CompanySettings` | Sí | Configuración de la empresa. |
 
 ## Ejemplos {#section-191f78995ecf473a95eadf7296204fd7}
 

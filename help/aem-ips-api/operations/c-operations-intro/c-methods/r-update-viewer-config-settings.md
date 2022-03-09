@@ -1,20 +1,20 @@
 ---
-description: Actualiza los ajustes de configuración del visor SWF.
+description: Actualiza los ajustes de configuración del visor del SWF.
 solution: Experience Manager
 title: updateViewerConfigSettings
-feature: Dynamic Media Classic,SDK/API,ajustes preestablecidos de visor
+feature: Dynamic Media Classic,SDK/API,Viewer Presets
 role: Developer,Admin
 exl-id: 04565e2b-bda3-4ad0-afc1-2df01e455490
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 13%
+source-wordcount: '59'
+ht-degree: 15%
 
 ---
 
 # updateViewerConfigSettings{#updateviewerconfigsettings}
 
-Actualiza los ajustes de configuración del visor SWF.
+Actualiza los ajustes de configuración del visor del SWF.
 
 Sintaxis
 
@@ -31,9 +31,9 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Gestionar a la empresa. |
-| `*`assetHandle`*` | `xsd:string` | Sí | Identificador de recurso. |
-| `*`configSettingArray`*` | `types:ConfigSettingArray` | Sí | Matriz de ajustes de configuración que desea aplicar al visor. |
+| companyHandle | `xsd:string` | Sí | Gestionar a la empresa. |
+| assetHandle | `xsd:string` | Sí | Identificador de recurso. |
+| configSettingArray | `types:ConfigSettingArray` | Sí | Matriz de ajustes de configuración que desea aplicar al visor. |
 
 **Salida (updateViewerConfigSettingsReturn)**
 

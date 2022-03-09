@@ -5,10 +5,10 @@ title: WindowCoveringInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 43f7927d-6341-4d30-9a3c-de1d61b4d667
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 15%
+source-wordcount: '52'
+ht-degree: 17%
 
 ---
 
@@ -22,10 +22,10 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | Ruta del archivo. |
-| `*`originalFile`*` | `xsd:string` | Nombre del archivo. |
-| `*`fileSize`*` | `xsd:int` | Tamaño de archivo. |
-| `*`imagePath`*` | `xsd:string` | Ruta relativa a la imagen. |
-| `*`imageFile`*` | `xsd:string` | Nombre de archivo de la imagen que cubre la ventana. |
-| `*`optimizedPath`*` | `xsd:string` | Ruta optimizada al archivo. |
-| `*`optimizedFile`*` | `xsd:string` | Nombre de archivo optimizado. |
+| originalPath | `xsd:string` | Ruta del archivo. |
+| originalFile | `xsd:string` | Nombre del archivo. |
+| fileSize | `xsd:int` | Tamaño de archivo. |
+| imagePath | `xsd:string` | Ruta relativa a la imagen. |
+| imageFile | `xsd:string` | Nombre de archivo de la imagen que cubre la ventana. |
+| optimizedPath | `xsd:string` | Ruta optimizada al archivo. |
+| optimizedFile | `xsd:string` | Nombre de archivo optimizado. |

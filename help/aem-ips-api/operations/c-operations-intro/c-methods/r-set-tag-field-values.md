@@ -5,10 +5,10 @@ title: setTagFieldValues
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 50f437d6-fec5-4961-884e-fdb75d201ab7
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 15%
+source-wordcount: '81'
+ht-degree: 16%
 
 ---
 
@@ -30,9 +30,9 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la empresa. |
-| `*`fieldHandle`*` | `xsd:string` | Sí | Identificador de campo de etiqueta. |
-| `*`valueArray`*` | `types:StringArray` | Sí | Matriz de valores de etiqueta que reemplazan al diccionario existente del campo. Las asociaciones de recursos se mantienen cuando un nuevo valor coincide con un valor existente. |
+| companyHandle | `xsd:string` | Sí | Identificador de la empresa. |
+| fieldHandle | `xsd:string` | Sí | Identificador de campo de etiqueta. |
+| valueArray | `types:StringArray` | Sí | Matriz de valores de etiqueta que reemplazan al diccionario existente del campo. Las asociaciones de recursos se mantienen cuando un nuevo valor coincide con un valor existente. |
 
 **Salida (setTagFieldValuesReturn)**
 

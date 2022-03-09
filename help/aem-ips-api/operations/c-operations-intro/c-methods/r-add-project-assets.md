@@ -2,12 +2,12 @@
 description: Agrega uno o más recursos a un proyecto.
 solution: Experience Manager
 title: addProjectAssets
-feature: Dynamic Media Classic,SDK/API,Administración de activos
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 60aa2846-b41e-4131-b465-82aa832434f7
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '178'
 ht-degree: 11%
 
 ---
@@ -33,23 +33,23 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Gestionar a la empresa asociada al proyecto actual. |
-| `*`projectHandle`*` | `xsd:string` | Sí | Gestione el proyecto al que va a añadir recursos. |
-| `*`projectHandleArray`*` | `xsd:HandleArray` | Sí | Matriz de recursos que está agregando al proyecto actual. |
+| companyHandle | `xsd:string` | Sí | Gestionar a la empresa asociada al proyecto actual. |
+| projectHandle | `xsd:string` | Sí | Gestione el proyecto al que va a añadir recursos. |
+| projectHandleArray | `xsd:HandleArray` | Sí | Matriz de recursos que está agregando al proyecto actual. |
 
 **Salida (addProjectAssetsParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Sí | El número de recursos añadidos correctamente. |
-| `*`warningCount`*` | `xsd:int` | Sí | Número de advertencias generadas cuando la operación intentó agregar recursos a un proyecto. |
-| `*`errorCount`*` | `xsd:int` | Sí | Número de errores generados cuando la operación intentó añadir recursos a un proyecto. |
-| `*`warningDetailHandle`*` | `xsd:AssetOperationFaultArray` | No | Matriz de advertencias generadas por los recursos cuando la operación intentó agregarlos a un proyecto. |
-| `*`companyHandle`*` | `xsd:AssetOperationFaultArray` | No | Matriz de errores generados por los recursos cuando la operación intentó agregarlos a un proyecto. |
+| successCount | `xsd:int` | Sí | El número de recursos añadidos correctamente. |
+| warningCount | `xsd:int` | Sí | Número de advertencias generadas cuando la operación intentó agregar recursos a un proyecto. |
+| errorCount | `xsd:int` | Sí | Número de errores generados cuando la operación intentó añadir recursos a un proyecto. |
+| warningDetailHandle | `xsd:AssetOperationFaultArray` | No | Matriz de advertencias generadas por los recursos cuando la operación intentó agregarlos a un proyecto. |
+| companyHandle | `xsd:AssetOperationFaultArray` | No | Matriz de errores generados por los recursos cuando la operación intentó agregarlos a un proyecto. |
 
 ## Ejemplos {#section-bee5be2402f54cb9a3a02cc07def4135}
 
-En este ejemplo se agrega un solo recurso (al que hace referencia su identificador) en una matriz de gestión de recursos a un proyecto especificado en la solicitud. La operación se completó correctamente cuando la respuesta `successCount` devuelve `1`.
+En este ejemplo se agrega un solo recurso (al que hace referencia su identificador) en una matriz de gestión de recursos a un proyecto especificado en la solicitud. La operación se completó correctamente cuando la respuesta `successCount` return `1`.
 
 **Solicitar**
 

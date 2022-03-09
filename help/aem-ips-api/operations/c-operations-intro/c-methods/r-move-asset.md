@@ -2,19 +2,19 @@
 description: Mueve un recurso a una carpeta específica.
 solution: Experience Manager
 title: moveAsset
-feature: Dynamic Media Classic,SDK/API,Administración de activos
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: c5357c1a-92ac-4f9c-957e-b62cb812796c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 15%
+source-wordcount: '76'
+ht-degree: 17%
 
 ---
 
 # moveAsset{#moveasset}
 
-Mueve un recurso a una carpeta específica.
+Moves an asset to a specific folder.
 
 Sintaxis
 
@@ -33,9 +33,9 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Gestionar a la empresa. |
-| `*`assetHandle`*` | `xsd:string` | Sí | Gestione el recurso que desee mover. |
-| `*`folderHandle`*` | `xsd:string` | Sí | Gestionar en la carpeta de destino. |
+| companyHandle | `xsd:string` | Sí | Gestionar a la empresa. |
+| assetHandle | `xsd:string` | Sí | Gestione el recurso que desee mover. |
+| folderHandle | `xsd:string` | Sí | Gestionar en la carpeta de destino. |
 
 **Salida (moveAssetReturn)**
 
@@ -43,7 +43,7 @@ La API IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-78333769f4f14e2886fdf06433c9d2ad}
 
-Este ejemplo de código mueve un recurso a una carpeta.
+This code sample moves an asset to a folder.
 
 **Solicitar**
 

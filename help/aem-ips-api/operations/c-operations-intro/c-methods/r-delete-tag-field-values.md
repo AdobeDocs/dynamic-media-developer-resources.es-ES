@@ -5,9 +5,9 @@ title: deleteTagFieldValues
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2694bd6d-b1ba-4146-a155-12829d9dfa47
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '87'
 ht-degree: 13%
 
 ---
@@ -28,9 +28,9 @@ Elimina los valores de los campos de etiqueta del diccionario de un campo de eti
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa que contiene el campo de etiqueta. |
-| `*`fieldHandle`*` | `xsd:string` | Sí | El controlador del campo de etiqueta que se va a modificar. |
-| `*`valueArray`*` | `types:StringArray` | Sí | Matriz de valores de etiqueta que se eliminarán del diccionario del campo. |
+| companyHandle | `xsd:string` | Sí | El identificador de la empresa que contiene el campo de etiqueta. |
+| fieldHandle | `xsd:string` | Sí | El controlador del campo de etiqueta que se va a modificar. |
+| valueArray | `types:StringArray` | Sí | Matriz de valores de etiqueta que se eliminarán del diccionario del campo. |
 
 **Salida (deleteTagFieldValuesParam)**
 

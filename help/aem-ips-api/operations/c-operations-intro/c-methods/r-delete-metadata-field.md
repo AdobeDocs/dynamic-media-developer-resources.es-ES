@@ -5,10 +5,10 @@ title: deleteMetadataField
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1922fc1b-2abc-4d31-985a-65c788af4d46
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 10%
+source-wordcount: '98'
+ht-degree: 11%
 
 ---
 
@@ -30,8 +30,8 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa que contiene el campo de metadatos que se va a eliminar. |
-| `*`fieldHandle`*` | `xsd:string` | Sí | El identificador del campo de metadatos que se va a eliminar. |
+| companyHandle | `xsd:string` | Sí | El identificador de la empresa que contiene el campo de metadatos que se va a eliminar. |
+| fieldHandle | `xsd:string` | Sí | El identificador del campo de metadatos que se va a eliminar. |
 
 **Salida (deleteMetadataFieldParam)**
 
@@ -39,7 +39,7 @@ La API IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-e1c474ea91a040609ecd7c2400f4fa3c}
 
-Este ejemplo de código elimina el campo de metadatos de una empresa. Utiliza el identificador de empresa y el identificador de metadatos como campos en el `deleteMetadataFieldParam` pasado al servidor de servicios web IPS para realizar esta acción.
+Este ejemplo de código elimina el campo de metadatos de una empresa. Utiliza el control de empresa y el control de metadatos como campos en la variable `deleteMetadataFieldParam` se transfiere al servidor de servicios web IPS para realizar esta acción.
 
 **Solicitar**
 

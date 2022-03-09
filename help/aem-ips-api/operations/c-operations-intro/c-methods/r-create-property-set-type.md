@@ -5,7 +5,7 @@ title: createPropertySetType
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1730ccbf-e8b0-4f92-9daf-da2fa047cbbd
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 12%
@@ -31,16 +31,16 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | No | El identificador de la empresa propietaria del tipo de conjunto de propiedades. If `companyHandle` no se pasa y el llamador es un `IpsAdmin`, se crea un tipo de conjunto de propiedades globales. |
-| `*`name`*` | `xsd:string` | Sí | Nombre del tipo de conjunto de propiedades. |
-| `*`propertyType`*` | `xsd:string` | Sí | Elección de tipos de conjuntos de propiedades. |
-| `*`allowMultiple`*` | `xsd:boolean` | Sí | Determina si el programa puede tener varios conjuntos de propiedades. |
+| companyHandle | `xsd:string` | No | El identificador de la empresa propietaria del tipo de conjunto de propiedades. If `companyHandle` no se pasa y el llamador es un `IpsAdmin`, se crea un tipo de conjunto de propiedades globales. |
+| name | `xsd:string` | Sí | Nombre del tipo de conjunto de propiedades. |
+| propertyType | `xsd:string` | Sí | Elección de tipos de conjuntos de propiedades. |
+| allowMultiple | `xsd:boolean` | Sí | Determina si el programa puede tener varios conjuntos de propiedades. |
 
 **Salida (createPropertySetTypeReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`typeHandle`*` | `xsd:string` | Sí | Un identificador para el tipo . |
+| typeHandle | `xsd:string` | Sí | Un identificador para el tipo . |
 
 ## Ejemplos {#section-13396c9639a6475190e622eae3cdb534}
 

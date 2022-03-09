@@ -2,12 +2,12 @@
 description: Restaura los recursos de la papelera.
 solution: Experience Manager
 title: restoreAssetsFromTrash
-feature: Dynamic Media Classic,SDK/API,Administración de activos
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: b1cde1a9-d726-4ebc-9d49-ee72a6b56fc9
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '157'
 ht-degree: 12%
 
 ---
@@ -33,18 +33,18 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de una empresa con los recursos que desea restaurar. |
-| `*`assetHandleArray`*` | `types:HandleArray` | Sí | Matriz de controladores para los recursos que desea restaurar. |
+| companyHandle | `xsd:string` | Sí | El identificador de una empresa con los recursos que desea restaurar. |
+| assetHandleArray | `types:HandleArray` | Sí | Matriz de controladores para los recursos que desea restaurar. |
 
 **Salida (restoreAssetsFromTrashReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Sí | Número de recursos eliminados correctamente de la papelera. |
-| `*`warningCount`*` | `xsd:int` | Sí | Número de advertencias generadas cuando la operación intentó restaurar recursos de la papelera. |
-| `*`errorCount`*` | `xsd:int` | Sí | Número de errores generados al intentar restaurar recursos desde la papelera. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados con los recursos que generaron advertencias cuando la operación intentó restaurar recursos de la papelera. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados con los recursos que generaron errores cuando la operación intentó restaurar recursos de la papelera. |
+| successCount | `xsd:int` | Sí | Número de recursos eliminados correctamente de la papelera. |
+| warningCount | `xsd:int` | Sí | Número de advertencias generadas cuando la operación intentó restaurar recursos de la papelera. |
+| errorCount | `xsd:int` | Sí | Número de errores generados al intentar restaurar recursos desde la papelera. |
+| warningDetailArray | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados con los recursos que generaron advertencias cuando la operación intentó restaurar recursos de la papelera. |
+| errorDetailArray | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados con los recursos que generaron errores cuando la operación intentó restaurar recursos de la papelera. |
 
 ## Ejemplos {#section-98fe0394b0634ca397c395f14f8a9358}
 

@@ -2,12 +2,12 @@
 description: Actualiza la definición del conjunto de recursos existente.
 solution: Experience Manager
 title: setAssetSetDefinition
-feature: Dynamic Media Classic,SDK/API,Administración de activos
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: f3fbe13b-e650-4a5d-9c46-a492b11fa13e
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '204'
 ht-degree: 6%
 
 ---
@@ -33,9 +33,9 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa con el conjunto de recursos. |
-| `*`assetHandle`*` | `xsd:string` | Sí | Controlador del conjunto de recursos |
-| `*`setDefinition`*` | `xsd:string` | Sí | Cadena de definición. Consulte a continuación. |
+| companyHandle | `xsd:string` | Sí | El identificador de la empresa con el conjunto de recursos. |
+| assetHandle | `xsd:string` | Sí | Controlador del conjunto de recursos |
+| setDefinition | `xsd:string` | Sí | Cadena de definición. Consulte a continuación. |
 
 **Salida (setAssetSetDefinitionReturn)**
 
@@ -45,7 +45,7 @@ La API IPS no devuelve una respuesta para esta operación.
 
 **Funciones setDefinition**
 
-Especifique las funciones de sustitución `setDefinition` en línea. Se resuelven durante una búsqueda de catálogo o en una publicación. Las cadenas de sustitución tienen el formato `${<substitution_func>}` e incluyen lo siguiente:
+Especifique `setDefinition` funciones de sustitución en línea. Se resuelven durante una búsqueda de catálogo o en una publicación. Las cadenas de sustitución tienen el formato `${<substitution_func>}`e incluya lo siguiente:
 
 >[!NOTE]
 >
@@ -60,19 +60,19 @@ Especifique las funciones de sustitución `setDefinition` en línea. Se resuelve
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getFilePath([  <span class="varname"> asset_handle  </span>])  </span> </td> 
+   <td colname="col1"> <span class="codeph"> getFilePath([ <span class="varname"> asset_handle </span>]) </span> </td> 
    <td colname="col2"> Ruta de acceso del archivo principal. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getCatalogd([  <span class="varname"> asset_handle  </span>])  </span> </td> 
+   <td colname="col1"> <span class="codeph"> getCatalogd([ <span class="varname"> asset_handle </span>]) </span> </td> 
    <td colname="col2"> ID de catálogo. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getMetaData([  <span class="varname"> asset_handle  </span>],[  <span class="varname"> metadata_field_handle  </span>])  </span> </td> 
+   <td colname="col1"> <span class="codeph"> getMetaData([ <span class="varname"> asset_handle </span>],[ <span class="varname"> metadata_field_handle </span>]) </span> </td> 
    <td colname="col2"> Valor de metadatos. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getThumbCatalogId([  <span class="varname"> asset_handle  </span>])  </span> </td> 
+   <td colname="col1"> <span class="codeph"> getThumbCatalogId([ <span class="varname"> asset_handle </span>]) </span> </td> 
    <td colname="col2"> ID de catálogo. Se aplica a los recursos basados en imágenes (imagen, vista ajustada, vista de capa). <p>Para otros recursos, devuelve el ID de catálogo del recurso en miniatura (si lo hay). Si no hay ningún recurso en miniatura asociado al recurso, la función devuelve una cadena vacía. </p> </td> 
   </tr> 
  </tbody> 

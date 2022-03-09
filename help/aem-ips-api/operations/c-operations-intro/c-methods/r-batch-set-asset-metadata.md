@@ -2,12 +2,12 @@
 description: Establece los metadatos de los recursos mediante el modo por lotes.
 solution: Experience Manager
 title: batchSetAssetMetadata
-feature: Dynamic Media Classic,SDK/API,Metadatos,Administración de activos
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: 7393fa4f-71fb-48a5-a7f3-91eec82c88c1
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '145'
 ht-degree: 13%
 
 ---
@@ -33,18 +33,18 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa cuyos metadatos desea configurar en una operación por lotes. |
-| `*`updateArray`*` | `types:BatchMetadataUpdateArray` | Sí | Matriz de actualizaciones de metadatos aplicadas a los recursos. |
+| companyHandle | `xsd:string` | Sí | El identificador de la empresa cuyos metadatos desea configurar en una operación por lotes. |
+| updateArray | `types:BatchMetadataUpdateArray` | Sí | Matriz de actualizaciones de metadatos aplicadas a los recursos. |
 
 **Salida (batchSetAssetMetadataParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Sí | Número de metadatos establecidos correctamente. |
-| `*`warningCount`*` | `xsd:int` | Sí | Número de advertencias generadas cuando la operación intentó establecer metadatos. |
-| `*`errorCount`*` | `xsd:int` | Sí | Número de errores generados cuando la operación intentó establecer metadatos. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados con los recursos que generan advertencias cuando la operación intentó establecer metadatos para los recursos por lotes. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados a los recursos que generan errores cuando la operación intentó establecer metadatos para los recursos en lotes. |
+| successCount | `xsd:int` | Sí | Número de metadatos establecidos correctamente. |
+| warningCount | `xsd:int` | Sí | Número de advertencias generadas cuando la operación intentó establecer metadatos. |
+| errorCount | `xsd:int` | Sí | Número de errores generados cuando la operación intentó establecer metadatos. |
+| warningDetailArray | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados con los recursos que generan advertencias cuando la operación intentó establecer metadatos para los recursos por lotes. |
+| errorDetailArray | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados a los recursos que generan errores cuando la operación intentó establecer metadatos para los recursos en lotes. |
 
 ## Ejemplos {#section-2de798ac920e4b47b971b1729a64395b}
 

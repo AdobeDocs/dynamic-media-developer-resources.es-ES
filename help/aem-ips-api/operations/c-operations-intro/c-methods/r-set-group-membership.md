@@ -5,10 +5,10 @@ title: setGroupMembership
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0a355a34-1c2d-48c1-ba12-7d07d1673d09
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 12%
+source-wordcount: '96'
+ht-degree: 13%
 
 ---
 
@@ -30,9 +30,9 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | No | El identificador del usuario cuya pertenencia a grupo desea establecer. |
-| `*`companyHandle`*` | `xsd:string` | No | Identificador de la empresa. |
-| `*`groupHandleArray`*` | `types:HandleArray` | Sí | Matriz de controles a grupos a los que pertenece el usuario. |
+| userHandle | `xsd:string` | No | El identificador del usuario cuya pertenencia a grupo desea establecer. |
+| companyHandle | `xsd:string` | No | Identificador de la empresa. |
+| groupHandleArray | `types:HandleArray` | Sí | Matriz de controles a grupos a los que pertenece el usuario. |
 
 **Salida (setGroupMembershipReturn)**
 

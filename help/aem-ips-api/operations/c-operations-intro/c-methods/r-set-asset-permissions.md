@@ -2,12 +2,12 @@
 description: Establece los permisos de un recurso individual mediante un recurso de permiso.
 solution: Experience Manager
 title: setAssetPermissions
-feature: Dynamic Media Classic,SDK/API,Administración de activos
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 1e73c305-cda5-4c30-9380-ec4cd8309933
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '125'
 ht-degree: 9%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 9%
 
 Establece los permisos de un recurso individual mediante un recurso de permiso.
 
-Los recursos heredan los permisos de su carpeta principal de forma predeterminada. Una vez configurados los permisos en un recurso, ya no hereda los permisos de su elemento principal a menos que llame a `removeAssetPermissions`.
+Los recursos heredan los permisos de su carpeta principal de forma predeterminada. Una vez configurados los permisos en un recurso, este ya no hereda los permisos de su elemento principal a menos que llame a `removeAssetPermissions`.
 
 ## Tipos de usuarios autorizados {#section-91fafc170c734ed2a77beafda9221768}
 
@@ -30,9 +30,9 @@ Los recursos heredan los permisos de su carpeta principal de forma predeterminad
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa que contiene la carpeta con la que desea trabajar. |
-| `*`assetHandle`*` | `xsd:string` | Sí | Identificador de carpeta. |
-| `*`permissionArray`*` | `types:PermissionsUpdateArray` | Sí | Matriz de permisos. |
+| companyHandle | `xsd:string` | Sí | El identificador de la empresa que contiene la carpeta con la que desea trabajar. |
+| assetHandle | `xsd:string` | Sí | Identificador de carpeta. |
+| permissionArray | `types:PermissionsUpdateArray` | Sí | Matriz de permisos. |
 
 **Salida (setAssetPermissonsReturn)**
 

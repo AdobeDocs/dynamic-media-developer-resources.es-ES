@@ -2,13 +2,13 @@
 description: Define los valores de metadatos de un recurso. Funciona con una matriz de actualizaciones de metadatos para establecer valores en un lote.
 solution: Experience Manager
 title: setAssetMetadata
-feature: Dynamic Media Classic,SDK/API,Metadatos,Administración de activos
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: 811e44e1-774a-49bd-a2bd-a7504e5f7f5f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 9%
+source-wordcount: '123'
+ht-degree: 10%
 
 ---
 
@@ -37,9 +37,9 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa con el recurso que desea actualizar. |
-| `*`assetHandle`*` | `xsd:string` | Sí | El identificador del recurso. |
-| `*`updateArray`*` | `types:MetadataUpdateArray` | Sí | Actualizaciones en una matriz de actualización de metadatos. |
+| companyHandle | `xsd:string` | Sí | El identificador de la empresa con el recurso que desea actualizar. |
+| assetHandle | `xsd:string` | Sí | El identificador del recurso. |
+| updateArray | `types:MetadataUpdateArray` | Sí | Actualizaciones en una matriz de actualización de metadatos. |
 
 **Salida (setAssetMetadataReturn)**
 

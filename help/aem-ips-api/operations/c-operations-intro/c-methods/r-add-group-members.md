@@ -5,9 +5,9 @@ title: addGroupMembers
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c03525e3-6bc4-4c6a-bb5b-b0cb2e6f6d0d
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '101'
 ht-degree: 12%
 
 ---
@@ -30,9 +30,9 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa. |
-| `*`groupHandle`*` | `xsd:string` | Sí | El identificador del grupo. |
-| `*`userHandleArray`*` | `types:HandleArray` | Sí | Matriz de identificadores para los usuarios que desea agregar a un grupo. |
+| companyHandle | `xsd:string` | Sí | El identificador de la empresa. |
+| groupHandle | `xsd:string` | Sí | El identificador del grupo. |
+| userHandleArray | `types:HandleArray` | Sí | Matriz de identificadores para los usuarios que desea agregar a un grupo. |
 
 **Salida (addGroupMembersParam)**
 
@@ -40,7 +40,7 @@ La API IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-8f168b528aef4c4fa8c3d41f7686842f}
 
-Este ejemplo utiliza `*`addGroupMembersParam`*` para agregar un usuario a una sola empresa. La API IPS no devuelve una respuesta para esta operación.
+Este ejemplo utiliza addGroupMembersParam para agregar un usuario a una sola empresa. La API IPS no devuelve una respuesta para esta operación.
 
 **Solicitar**
 

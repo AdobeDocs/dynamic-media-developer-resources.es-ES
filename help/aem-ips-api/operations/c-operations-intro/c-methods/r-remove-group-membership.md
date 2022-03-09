@@ -5,9 +5,9 @@ title: removeGroupMembership
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 892ee01c-e07b-4321-b0b7-5bb606036340
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '102'
 ht-degree: 10%
 
 ---
@@ -33,8 +33,8 @@ Elimina usuarios de una matriz de grupos.
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | No | El identificador de la empresa cuya pertenencia a grupo desea eliminar. |
-| `*`groupHandleArray`*` | `types:HandleArray` | Sí | Matriz de identificadores a grupos de los que desea eliminar la empresa. |
+| userHandle | `xsd:string` | No | El identificador de la empresa cuya pertenencia a grupo desea eliminar. |
+| groupHandleArray | `types:HandleArray` | Sí | Matriz de identificadores a grupos de los que desea eliminar la empresa. |
 
 **Salida (removeGroupMembershipReturn)**
 

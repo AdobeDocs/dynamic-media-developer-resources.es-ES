@@ -5,10 +5,10 @@ title: GenerationInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9aac2973-bbcb-4914-9bf9-203f0357527c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 12%
+source-wordcount: '49'
+ht-degree: 14%
 
 ---
 
@@ -22,7 +22,7 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| `*`motor`*` | `xsd:string` | Motor de generación utilizado (consulte &quot;Información de generación&quot; para conocer los valores). |
-| `*`originator`*` | `types:Asset` | Registro de recursos del recurso principal utilizado en la generación. |
-| `*`generado`*` | `types:Asset` | Registro de recursos del recurso generado. |
-| `*`attributeArray`*` | `types:GenerationAttributeArray` | Matriz de atributos asociados al proceso de generación. |
+| motor | `xsd:string` | Motor de generación utilizado (consulte &quot;Información de generación&quot; para conocer los valores). |
+| originator | `types:Asset` | Registro de recursos del recurso principal utilizado en la generación. |
+| generado | `types:Asset` | Registro de recursos del recurso generado. |
+| attributeArray | `types:GenerationAttributeArray` | Matriz de atributos asociados al proceso de generación. |

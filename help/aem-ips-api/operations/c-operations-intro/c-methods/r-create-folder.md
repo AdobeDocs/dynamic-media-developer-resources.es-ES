@@ -5,10 +5,10 @@ title: createFolder
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 569130ae-5515-4b14-a410-2bd6f9fc7638
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 18%
+source-wordcount: '118'
+ht-degree: 19%
 
 ---
 
@@ -18,7 +18,7 @@ Crea una carpeta.
 
 >[!NOTE]
 >
->La nueva carpeta está subordinada a la carpeta Images, aunque especifique un `/` para indicar la raíz de la empresa.
+>La nueva carpeta está subordinada a la carpeta Imágenes , incluso si especifica una `/` para indicar la raíz de la empresa.
 
 Sintaxis
 
@@ -41,14 +41,14 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Control para la empresa |
-| `*`folderPath`*` | `xsd:string` | Sí | La carpeta raíz utilizada para recuperar carpetas y todas las subcarpetas en el nivel de hoja. Si se excluye, se utiliza la raíz de la empresa. |
+| companyHandle | `xsd:string` | Sí | Control para la empresa |
+| folderPath | `xsd:string` | Sí | La carpeta raíz utilizada para recuperar carpetas y todas las subcarpetas en el nivel de hoja. Si se excluye, se utiliza la raíz de la empresa. |
 
 **Salida (createFolderParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`folderHandle`*` | `xsd:string` | Sí | Gestionar la nueva carpeta. |
+| folderHandle | `xsd:string` | Sí | Gestionar la nueva carpeta. |
 
 ## Ejemplos {#section-e596fbdb44fd43c8b30005cb2a2fdf26}
 

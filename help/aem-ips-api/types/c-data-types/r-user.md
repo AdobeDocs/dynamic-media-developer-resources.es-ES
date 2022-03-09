@@ -5,10 +5,10 @@ title: Usuario
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 5747f5bf-0175-4707-bfcb-1a9b97d7a24a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 10%
+source-wordcount: '72'
+ht-degree: 11%
 
 ---
 
@@ -22,10 +22,10 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| `*`userHandle`*` | `xsd:string` | Control de usuario. |
-| `*`firstName`*` | `xsd:string` | Nombre de usuario. |
-| `*`lastName`*` | `xsd:string` | Apellido de usuario. |
-| `*`correo electrónico`*` | `xsd:string` | dirección de correo electrónico. |
-| `*`defaultRole`*` | `xsd:string` | Establece la función de un usuario en cada empresa a la que pertenece. Sin embargo, la función de usuario `IpsAmin` anula otras funciones de usuario. |
-| `*`isValid`*` | `xsd:boolean` | Determina si el usuario es válido. |
-| `*`passwordExpires`*` | `xsd:dateTime` | Establece la fecha de caducidad de la contraseña. |
+| userHandle | `xsd:string` | Control de usuario. |
+| firstName | `xsd:string` | Nombre de usuario. |
+| lastName | `xsd:string` | Apellido de usuario. |
+| correo electrónico | `xsd:string` | dirección de correo electrónico. |
+| defaultRole | `xsd:string` | Establece la función de un usuario en cada empresa a la que pertenece. Sin embargo, la función de usuario `IpsAmin` anula otras funciones de usuario. |
+| isValid | `xsd:boolean` | Determina si el usuario es válido. |
+| passwordExpires | `xsd:dateTime` | Establece la fecha de caducidad de la contraseña. |

@@ -5,9 +5,9 @@ title: submitJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b1dc7a0e-da9a-4086-822b-5274bd62eadf
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '407'
 ht-degree: 12%
 
 ---
@@ -52,7 +52,7 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Gestionar al usuario que ha enviado el trabajo. </p> <p> <p>Nota: El sistema envía un correo electrónico al usuario especificado por <span class="codeph"> userHandle</span>. Si no se proporciona <span class="codeph"> userHandle</span> , la persona que envió el trabajo recibe los correos electrónicos. </p> </p> </td> 
+   <td colname="col4"> <p>Gestionar al usuario que ha enviado el trabajo. </p> <p> <p>Nota: El sistema envía un correo electrónico al usuario especificado por <span class="codeph"> userHandle</span>. If <span class="codeph"> userHandle</span> no se proporciona, la persona que envió el trabajo recibe los correos electrónicos. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> jobName</span> </span> </td> 
@@ -64,19 +64,19 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> locale</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>La configuración regional utilizada para los detalles del registro de trabajos y la localización del correo electrónico. </p> <p>Las configuraciones regionales se especifican como <span class="codeph"> &lt;language_code&gt;</span> y <span class="codeph"> [&lt;country_code&gt;]</span>, donde el código de idioma es un código de dos letras en minúscula, según se especifica en ISO-639, y el código de país opcional es un código de dos letras en mayúsculas según se especifica en ISO-3166. Por ejemplo, la cadena de configuración regional para inglés (Estados Unidos) sería: en-US. </p> </td> 
+   <td colname="col4"> <p>La configuración regional utilizada para los detalles del registro de trabajos y la localización del correo electrónico. </p> <p>Las configuraciones regionales se especifican como <span class="codeph"> &lt;language_code&gt;</span> y <span class="codeph"> [&lt;country_code&gt;]</span>, donde el código de idioma es un código de dos letras en minúscula, según se especifica en ISO-639, y el código de país opcional es un código de dos letras en mayúsculas, según se especifica en ISO-3166. Por ejemplo, la cadena de configuración regional para inglés (Estados Unidos) sería: en-US. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> execTime</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Fecha y hora de ejecución del trabajo. </p> <p>Nota:  Proporcione la zona horaria con la solicitud. Las zonas horarias se ajustan a la zona horaria del servidor IPS de destino. </p> </td> 
+   <td colname="col4"> <p>Fecha y hora de ejecución del trabajo. </p> <p>Nota: Proporcione la zona horaria con la solicitud. Las zonas horarias se ajustan a la zona horaria del servidor IPS de destino. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> execSchedule</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Determina cuándo ejecutar el trabajo. </p> <p> Puede ser una cadena <span class="codeph"> cron</span> que ejecute el trabajo de forma recurrente. </p> <p>La programación siempre es relativa al huso horario local del servidor. Consulte la documentación de IPS para ver el formato de programación personalizado. </p> </td> 
+   <td colname="col4"> <p>Determina cuándo ejecutar el trabajo. </p> <p> Puede ser un <span class="codeph"> cron</span> cadena que ejecuta el trabajo de forma recurrente. </p> <p>La programación siempre es relativa al huso horario local del servidor. Consulte la documentación de IPS para ver el formato de programación personalizado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> descripción</span> </span> </td> 
@@ -157,11 +157,11 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`jobHandle`*` | `xsd:string` | Sí | Identificador de trabajo. |
+| jobHandle | `xsd:string` | Sí | Identificador de trabajo. |
 
 ## Ejemplos {#section-40ac77d14adf4588ba2575be6879b2d2}
 
-Este ejemplo de código envía un trabajo de publicación de servidor de imágenes a IPS y devuelve un identificador de trabajo. Elija solo un tipo de trabajo en la solicitud. Como se ha omitido `userHandle`, las notificaciones por correo electrónico se envían al usuario que ha enviado el trabajo. Este trabajo de ejemplo se ejecuta inmediatamente porque se omitieron `execTime` y `execSchedule`.
+Este ejemplo de código envía un trabajo de publicación de servidor de imágenes a IPS y devuelve un identificador de trabajo. Elija solo un tipo de trabajo en la solicitud. Porque `userHandle` se ha omitido, las notificaciones por correo electrónico se envían al usuario que ha enviado el trabajo. Este trabajo de ejemplo se ejecuta inmediatamente porque `execTime` y `execSchedule` se han omitido.
 
 **Solicitar**
 

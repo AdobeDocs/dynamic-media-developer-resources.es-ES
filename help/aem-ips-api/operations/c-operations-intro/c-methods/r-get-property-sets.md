@@ -5,10 +5,10 @@ title: getPropertySets
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: da6923c3-9b86-4595-8205-645fb10e03b0
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 17%
+source-wordcount: '90'
+ht-degree: 18%
 
 ---
 
@@ -36,15 +36,15 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`typeHandle`*` | `xsd:string` | Sí | El identificador del tipo de conjunto de propiedades. |
-| `*`primaryOwnerHandle`*` | `xsd:string` | Sí | Propietario principal de los datos enlazados al objeto de base de datos. |
-| `*`childOwnerHandle`*` | `xsd:string` | No | Un propietario secundario opcional de los datos. |
+| typeHandle | `xsd:string` | Sí | El identificador del tipo de conjunto de propiedades. |
+| primaryOwnerHandle | `xsd:string` | Sí | Propietario principal de los datos enlazados al objeto de base de datos. |
+| childOwnerHandle | `xsd:string` | No | Un propietario secundario opcional de los datos. |
 
 **Salida (getPropertySetsReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`setArray`*` | `types:PropertySetArray` | Sí | Conjunto de conjuntos de propiedades. |
+| setArray | `types:PropertySetArray` | Sí | Conjunto de conjuntos de propiedades. |
 
 ## Ejemplos {#section-1358af974eab4259864910337a6f0bd2}
 

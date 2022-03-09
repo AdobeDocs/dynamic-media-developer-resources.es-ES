@@ -2,13 +2,13 @@
 description: Defina o actualice el estado de publicación de uno o varios recursos. Puede establecer estados de publicación independientes para cada contexto de publicación en una empresa.
 solution: Experience Manager
 title: setAssetsContextState
-feature: Dynamic Media Classic,SDK/API,Administración de activos
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 28d0a67b-3e36-43fc-800d-17c841dca3a0
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 10%
+source-wordcount: '158'
+ht-degree: 11%
 
 ---
 
@@ -38,17 +38,17 @@ Defina o actualice el estado de publicación de uno o varios recursos. Puede est
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Gestionar a la empresa. |
-| `*`assetsContextHandle`*` | `types:AssetsContextStateUpdateArray` | Sí | Matriz de recursos y sus nuevos estados de publicación. |
+| companyHandle | `xsd:string` | Sí | Gestionar a la empresa. |
+| assetsContextHandle | `types:AssetsContextStateUpdateArray` | Sí | Matriz de recursos y sus nuevos estados de publicación. |
 
 **Salida (setAssetsContexStateReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Sí | El número de recursos modificados correctamente. |
-| `*`warningCount`*` | `xsd:int` | Sí | Número de advertencias generadas cuando la operación intentó modificar recursos. |
-| `*`errorCount`*` | `xsd:int` | Sí | Número de errores generados cuando la operación intentó modificar recursos. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | Matriz de errores generados por los recursos cuando la operación intentó modificarlos. |
+| successCount | `xsd:int` | Sí | El número de recursos modificados correctamente. |
+| warningCount | `xsd:int` | Sí | Número de advertencias generadas cuando la operación intentó modificar recursos. |
+| errorCount | `xsd:int` | Sí | Número de errores generados cuando la operación intentó modificar recursos. |
+| warningDetailArray | `types:AssetOperationFaultArray` | No | Matriz de errores generados por los recursos cuando la operación intentó modificarlos. |
 
 ## Ejemplos {#section-283a073f3cb14bcda5abed863c538aa4}
 

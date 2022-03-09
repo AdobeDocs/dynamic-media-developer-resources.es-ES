@@ -5,10 +5,10 @@ title: JobLogDetail
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fe41a48a-4671-4179-a128-aadc7bc0683b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 7%
+source-wordcount: '61'
+ht-degree: 8%
 
 ---
 
@@ -22,9 +22,9 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| `*`logMessage`*` | `xsd:string` | Mensajes en el registro de trabajos. |
-| `*`logType`*` | `xsd:string` | Tipo de archivo de registro de trabajo. |
-| `*`assetName`*` | `xsd:string` | Nombre del recurso en el registro de trabajos (opcional). |
-| `*`assetType`*` | `xsd:string` | Opción del tipo de recurso. |
-| `*`assetHandle`*` | `xsd:string` | Identificador de recurso al que se hace referencia en el registro de trabajos. |
-| `*`auxArray`*` | `types:JobLogDetailAuxArray` | Proporciona información adicional detallada del registro de trabajos más allá de los cinco tipos de registro de trabajos descritos anteriormente. |
+| logMessage | `xsd:string` | Mensajes en el registro de trabajos. |
+| logType | `xsd:string` | Tipo de archivo de registro de trabajo. |
+| assetName | `xsd:string` | Nombre del recurso en el registro de trabajos (opcional). |
+| assetType | `xsd:string` | Opción del tipo de recurso. |
+| assetHandle | `xsd:string` | Identificador de recurso al que se hace referencia en el registro de trabajos. |
+| auxArray | `types:JobLogDetailAuxArray` | Proporciona información adicional detallada del registro de trabajos más allá de los cinco tipos de registro de trabajos descritos anteriormente. |

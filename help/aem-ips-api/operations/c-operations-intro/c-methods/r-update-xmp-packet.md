@@ -5,10 +5,10 @@ title: updateXMPPackets
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 04d85dba-cc86-4069-ab5d-9a5b3fe542c9
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 24%
+source-wordcount: '68'
+ht-degree: 26%
 
 ---
 
@@ -34,15 +34,15 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la empresa. |
-| `*`assetHandle`*` | `xsd:string` | Sí | Identificador de recurso. |
-| `*`zipPacket`*` | `xsd:Base 64 binary` | Sí | [!DNL zlib-compressed] XMP paquete que desee configurar o actualizar. |
+| companyHandle | `xsd:string` | Sí | Identificador de la empresa. |
+| assetHandle | `xsd:string` | Sí | Identificador de recurso. |
+| zipPacket | `xsd:Base 64 binary` | Sí | [!DNL zlib-compressed] XMP paquete que desee configurar o actualizar. |
 
 **Salida (updateXMPPacketsReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`éxito`*` | `xsd:boolean` | Sí | Devuelve `true` si el paquete se ha actualizado. |
+| éxito | `xsd:boolean` | Sí | Devuelve `true` si se actualizó el paquete. |
 
 ## Ejemplos {#section-38b556b94e5044bf97a954519ff6c212}
 

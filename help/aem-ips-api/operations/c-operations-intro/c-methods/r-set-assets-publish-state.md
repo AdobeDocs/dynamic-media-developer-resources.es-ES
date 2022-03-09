@@ -2,12 +2,12 @@
 description: Determina si un lote de recursos está listo para publicarse.
 solution: Experience Manager
 title: setAssetsPublishState
-feature: Dynamic Media Classic,SDK/API,Administración de activos
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: dce324e4-cf86-4a65-ab00-8cd2bba20f8f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '151'
 ht-degree: 12%
 
 ---
@@ -37,18 +37,18 @@ Esta es la versión por lotes de [setAssetState](../../../operations/c-operation
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la empresa. |
-| `*`publishStateUpdateArray`*` | `types:PublishStateUpdateArray` | Sí | Matriz de valores de estado de publicación para los recursos. |
+| companyHandle | `xsd:string` | Sí | Identificador de la empresa. |
+| publishStateUpdateArray | `types:PublishStateUpdateArray` | Sí | Matriz de valores de estado de publicación para los recursos. |
 
 **Salida (setAssetsPublishStateParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Sí | Número de recursos actualizados correctamente. |
-| `*`warningCount`*` | `xsd:int` | Sí | Número de recursos que generaron una advertencia cuando la operación intentó actualizarlos. |
-| `*`errorCount`*` | `xsd:int` | Sí | Número de recursos que generaron un error cuando la operación intentó eliminarlos. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | Detalles asociados con las actualizaciones de recursos que generaron una advertencia. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | No | Detalles asociados con las actualizaciones de recursos que generaron un error. |
+| successCount | `xsd:int` | Sí | Número de recursos actualizados correctamente. |
+| warningCount | `xsd:int` | Sí | Número de recursos que generaron una advertencia cuando la operación intentó actualizarlos. |
+| errorCount | `xsd:int` | Sí | Número de recursos que generaron un error cuando la operación intentó eliminarlos. |
+| warningDetailArray | `types:AssetOperationFaultArray` | No | Detalles asociados con las actualizaciones de recursos que generaron una advertencia. |
+| errorDetailArray | `types:AssetOperationFaultArray` | No | Detalles asociados con las actualizaciones de recursos que generaron un error. |
 
 ## Ejemplos {#section-38cfdd3436214a06a1bae16875501d51}
 

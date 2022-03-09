@@ -5,9 +5,9 @@ title: setCompanySettings
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c6b72ceb-3c86-4b13-89e9-5f1bb9846b2c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '151'
 ht-degree: 12%
 
 ---
@@ -31,15 +31,15 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la empresa. |
-| `*`overwriteMode`*` | `xsd:string` | No | Modo de sobrescritura de recursos. |
-| `*`keepPublishState`*` | `xsd:boolean` | No | Configúrelo en `true` para preservar el estado de publicación cuando se vuelve a cargar un recurso. |
-| `*`defaultSourceProfileHandle`*` | `xsd:string` | No | Recurso IccProfile que se utilizará como perfil de color de origen predeterminado. |
-| `*`defaultDisplayProfileHandle`*` | `xsd:string` | No | Recurso IccProfile que se utilizará como perfil de color de visualización predeterminado. |
-| `*`iptcExifMappingXsltHandle`*` | `xsd:string` | No | Recurso XSL utilizado para asignar metadatos IPTC y EXIF a campos de metadatos IPS. |
-| `*`xmpMappingXsltHandle`*` | `xsd:string` | No | Recurso XSL utilizado para asignar metadatos de XMP a campos de metadatos IPS. |
-| `*`diskSpaceWarningMin`*` | `xsd:int` | No | Espacio mínimo en disco libre (en KB) disponible antes de enviar un mensaje de advertencia. |
-| `*`emailTrashCleanupWarning`*` | `xsd:boolean` | No | Configúrelo en `true` para enviar a los administradores de la empresa una notificación cada vez que se vacíen los recursos de la papelera. |
+| companyHandle | `xsd:string` | Sí | Identificador de la empresa. |
+| overwriteMode | `xsd:string` | No | Modo de sobrescritura de recursos. |
+| keepPublishState | `xsd:boolean` | No | Establecer como `true` para conservar el estado de publicación cuando se vuelve a cargar un recurso. |
+| defaultSourceProfileHandle | `xsd:string` | No | Recurso IccProfile que se utilizará como perfil de color de origen predeterminado. |
+| defaultDisplayProfileHandle | `xsd:string` | No | Recurso IccProfile que se utilizará como perfil de color de visualización predeterminado. |
+| iptcExifMappingXsltHandle | `xsd:string` | No | Recurso XSL utilizado para asignar metadatos IPTC y EXIF a campos de metadatos IPS. |
+| xmpMappingXsltHandle | `xsd:string` | No | Recurso XSL utilizado para asignar metadatos de XMP a campos de metadatos IPS. |
+| diskSpaceWarningMin | `xsd:int` | No | Espacio mínimo en disco libre (en KB) disponible antes de enviar un mensaje de advertencia. |
+| emailTrashCleanupWarning | `xsd:boolean` | No | Establecer como `true` para enviar a los administradores de la empresa una notificación siempre que los recursos se vacíen de la papelera. |
 
 **Salida (setCompanySettingsReturn)**
 

@@ -2,13 +2,13 @@
 description: Crea un conjunto de imágenes.
 solution: Experience Manager
 title: createImageSet
-feature: Dynamic Media Classic,SDK/API,Conjuntos de imágenes
+feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: 01ccc705-97e4-4e75-a322-e24bb78cb496
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 14%
+source-wordcount: '136'
+ht-degree: 15%
 
 ---
 
@@ -37,17 +37,17 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la empresa a la que pertenece el conjunto de imágenes. |
-| `*`folderHandle`*` | `xsd:string` | Sí | El identificador de la carpeta. |
-| `*`name`*` | `xsd:string` | Sí | Nombre del conjunto de imágenes. |
-| `*`type`*` | `xsd:string` | Sí | Tipo de conjunto de imágenes. |
-| `*`thumbAssetHandle`*` | `xsd:string` | No | Control del recurso que actúa como la miniatura del nuevo conjunto de imágenes. Si no se especifica, IPS intenta utilizar el primer recurso de imagen al que hace referencia el conjunto. |
+| companyHandle | `xsd:string` | Sí | Identificador de la empresa a la que pertenece el conjunto de imágenes. |
+| folderHandle | `xsd:string` | Sí | El identificador de la carpeta. |
+| name | `xsd:string` | Sí | Nombre del conjunto de imágenes. |
+| tipo | `xsd:string` | Sí | Tipo de conjunto de imágenes. |
+| thumbAssetHandle | `xsd:string` | No | Control del recurso que actúa como la miniatura del nuevo conjunto de imágenes. Si no se especifica, IPS intenta utilizar el primer recurso de imagen al que hace referencia el conjunto. |
 
 **Salida**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Sí | El identificador del nuevo conjunto de imágenes. |
+| assetHandle | `xsd:string` | Sí | El identificador del nuevo conjunto de imágenes. |
 
 ## Ejemplos {#section-385fe3b0af8044b0a2451336ec137fc5}
 

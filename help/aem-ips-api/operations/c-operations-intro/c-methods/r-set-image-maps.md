@@ -5,10 +5,10 @@ title: setImageMaps
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0c8e6536-0b9c-4fcc-b71f-511afc670089
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 10%
+source-wordcount: '133'
+ht-degree: 11%
 
 ---
 
@@ -33,15 +33,15 @@ Ya debe haber creado los mapas de imágenes. Los mapas de imágenes se aplican e
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la empresa. |
-| `*`assetHandle`*` | `xsd:string` | Sí | Identificador de recurso. |
-| `*`imageMapArray`*` | `types:ImageMapDefinitionArray` | Sí | Matriz de mapas de imágenes predefinidos. |
+| companyHandle | `xsd:string` | Sí | Identificador de la empresa. |
+| assetHandle | `xsd:string` | Sí | Identificador de recurso. |
+| imageMapArray | `types:ImageMapDefinitionArray` | Sí | Matriz de mapas de imágenes predefinidos. |
 
 **Salida (setImageMapsReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`imageMapHandleArray`*` | `types:HandleArray` | Sí | Matriz con controladores de mapa de imagen aplicados al recurso. |
+| imageMapHandleArray | `types:HandleArray` | Sí | Matriz con controladores de mapa de imagen aplicados al recurso. |
 
 ## Ejemplos {#section-fe2e35662a6a4ee29cf250c9fd180371}
 

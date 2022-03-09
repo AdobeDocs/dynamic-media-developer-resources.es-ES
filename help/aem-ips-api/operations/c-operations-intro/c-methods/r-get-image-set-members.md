@@ -2,13 +2,13 @@
 description: Obtiene una matriz de miembros que se encuentran en un conjunto de imágenes.
 solution: Experience Manager
 title: getImageSetMembers
-feature: Dynamic Media Classic,SDK/API,Conjuntos de imágenes
+feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: 29ceef8b-127f-4460-8623-c3e26c959327
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 15%
+source-wordcount: '94'
+ht-degree: 17%
 
 ---
 
@@ -39,14 +39,14 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa que contiene el conjunto de imágenes. |
-| `*`assetHandle`*` | `xsd:string` | Sí | El controlador de recurso del conjunto de imágenes. |
+| companyHandle | `xsd:string` | Sí | El identificador de la empresa que contiene el conjunto de imágenes. |
+| assetHandle | `xsd:string` | Sí | El controlador de recurso del conjunto de imágenes. |
 
 **Salida (getImageSetMembersReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`memberArray`*` | `types:ImageSetMemberArray` | No | Matriz de miembros del conjunto de imágenes. |
+| memberArray | `types:ImageSetMemberArray` | No | Matriz de miembros del conjunto de imágenes. |
 
 ## Ejemplos {#section-888a9a78033346f39b171229de93dfa0}
 

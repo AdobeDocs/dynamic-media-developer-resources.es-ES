@@ -2,13 +2,13 @@
 description: Campo de metadatos devuelto por searchAssets.
 solution: Experience Manager
 title: Metadatos
-feature: Dynamic Media Classic,SDK/API,Metadatos
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 62e3e215-31ea-49fd-937e-d136fdf84aff
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 14%
+source-wordcount: '57'
+ht-degree: 15%
 
 ---
 
@@ -22,9 +22,9 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| `*`name`*` | `xsd:string` | Nombre de los metadatos. |
-| `*`basado en IP`*` | `xsd:string` | Valor de metadatos. |
-| `*`boolVal`*` | `xsd:boolean` | Valor de metadatos booleano (solo para campos con tipo booleano). |
-| `*`longVal`*` | `xsd:long` | Valor de metadatos largo (solo para campos con tipo int). |
-| `*`doubleVal`*` | `xsd:double` | Valor de metadatos doble (solo para campos con tipo flotante). |
-| `*`dateVal`*` | `xsd:dateTime` | Valor de metadatos de fecha (solo para campos con fecha y escritura). |
+| name | `xsd:string` | Nombre de los metadatos. |
+| valor | `xsd:string` | Valor de metadatos. |
+| boolVal | `xsd:boolean` | Valor de metadatos booleano (solo para campos con tipo booleano). |
+| longVal | `xsd:long` | Valor de metadatos largo (solo para campos con tipo int). |
+| doubleVal | `xsd:double` | Valor de metadatos doble (solo para campos con tipo flotante). |
+| dateVal | `xsd:dateTime` | Valor de metadatos de fecha (solo para campos con fecha y escritura). |

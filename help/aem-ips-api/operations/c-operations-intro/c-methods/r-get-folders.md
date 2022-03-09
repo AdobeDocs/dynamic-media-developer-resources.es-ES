@@ -5,9 +5,9 @@ title: getFolders
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 71fe3343-2560-4d74-8ec3-1229d83a62e1
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '237'
 ht-degree: 8%
 
 ---
@@ -43,20 +43,20 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa. |
-| `*`accessUserHandle`*` | `xsd:string` | No | Utilizado por los administradores para suplantar a un usuario específico. |
-| `*`accessGroupHandle`*` | `xsd:string` | No | Filtrar por un grupo específico. |
-| `*`folderPath`*` | `xsd:string` | No | La carpeta raíz para recuperar carpetas y todas las subcarpetas en el nivel de hoja. Si se excluye, se utiliza la raíz de la empresa. |
-| `*`assetTypeArray`*` | `types:StringArray` | No | Devuelve carpetas que solo contienen tipos de recursos especificados. |
-| `*`responseFieldArray`*` | `types:StringArray` | No | Contiene una lista de campos que desea incluir en la respuesta. |
-| `*`excludeFieldArray`*` | `types:StringArray` | No | Contiene una lista de campos que desea excluir de la respuesta. |
+| companyHandle | `xsd:string` | Sí | El identificador de la empresa. |
+| accessUserHandle | `xsd:string` | No | Utilizado por los administradores para suplantar a un usuario específico. |
+| accessGroupHandle | `xsd:string` | No | Filtrar por un grupo específico. |
+| folderPath | `xsd:string` | No | La carpeta raíz para recuperar carpetas y todas las subcarpetas en el nivel de hoja. Si se excluye, se utiliza la raíz de la empresa. |
+| assetTypeArray | `types:StringArray` | No | Devuelve carpetas que solo contienen tipos de recursos especificados. |
+| responseFieldArray | `types:StringArray` | No | Contiene una lista de campos que desea incluir en la respuesta. |
+| excludeFieldArray | `types:StringArray` | No | Contiene una lista de campos que desea excluir de la respuesta. |
 
 **Salida (getFoldersReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`folderArray`*` | `types:FolderArray` | No | Matriz de carpetas que coinciden con los criterios del filtro. La respuesta está limitada a un máximo de 100 000 carpetas. |
-| `*`permissionsSetArray`*` | `types:PermissionSetArray` |  |  |
+| folderArray | `types:FolderArray` | No | Matriz de carpetas que coinciden con los criterios del filtro. La respuesta está limitada a un máximo de 100 000 carpetas. |
+| permissionsSetArray | `types:PermissionSetArray` |  |  |
 
 ## Ejemplos {#section-b5cb06e9fb9945ad898dbdc3692b754e}
 

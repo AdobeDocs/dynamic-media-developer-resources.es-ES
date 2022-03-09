@@ -5,9 +5,9 @@ title: PhotoshopLayerOptions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fae60e86-6ec5-4f19-a76f-7d179dfb5dba
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: '55'
 ht-degree: 10%
 
 ---
@@ -22,8 +22,8 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| `*`layerNaming`*` | `xsd:string` | Elección de los modos de nomenclatura de capas de Photoshop. |
-| `*`delimitador`*` | `xsd:string` | Elección de los modos de anclaje de Photoshop. |
-| `*`createTemplate`*` | `xsd:boolean` | Si se crea una plantilla a partir de capas de Photoshop. |
-| `*`extractText`*` | `xsd:boolean` | Indica si se extrae texto como capas de texto. |
-| `*`extensionLayers`*` | `xsd:boolean` | Ampliación de las capas a todo el tamaño del fondo. |
+| layerNaming | `xsd:string` | Elección de los modos de nomenclatura de capas de Photoshop. |
+| delimitador | `xsd:string` | Elección de los modos de anclaje de Photoshop. |
+| createTemplate | `xsd:boolean` | Si se crea una plantilla a partir de capas de Photoshop. |
+| extractText | `xsd:boolean` | Indica si se extrae texto como capas de texto. |
+| extensionLayers | `xsd:boolean` | Ampliación de las capas a todo el tamaño del fondo. |

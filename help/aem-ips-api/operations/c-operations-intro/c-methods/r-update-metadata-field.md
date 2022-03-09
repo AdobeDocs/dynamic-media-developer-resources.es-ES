@@ -2,13 +2,13 @@
 description: Actualice los metadatos del campo.
 solution: Experience Manager
 title: updateMetadataField
-feature: Dynamic Media Classic,SDK/API,Metadatos
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 67506e76-aa23-46a7-a900-03d89b4266fd
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 21%
+source-wordcount: '153'
+ht-degree: 22%
 
 ---
 
@@ -87,7 +87,7 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`fieldHandle`*` | `xsd:string` | Sí | Control de campo de metadatos. |
+| fieldHandle | `xsd:string` | Sí | Control de campo de metadatos. |
 
 ## Ejemplos {#section-bb7d93ab6d914ddfa294e08983e589ee}
 

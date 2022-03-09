@@ -5,10 +5,10 @@ title: deleteZoomTarget
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fa1f7cf8-038a-4fa8-b869-12ce4b2ad41f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 12%
+source-wordcount: '81'
+ht-degree: 13%
 
 ---
 
@@ -35,8 +35,8 @@ Elimina un destino de zoom.
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la empresa a la que pertenece el objetivo de zoom. |
-| `*`zoomTargetHandle`*` | `xsd:string` | Sí | Control del destino de zoom que se va a eliminar. |
+| companyHandle | `xsd:string` | Sí | Identificador de la empresa a la que pertenece el objetivo de zoom. |
+| zoomTargetHandle | `xsd:string` | Sí | Control del destino de zoom que se va a eliminar. |
 
 **Salida (deleteZoomTargetParam)**
 

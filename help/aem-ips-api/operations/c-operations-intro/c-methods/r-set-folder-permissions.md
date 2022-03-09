@@ -5,10 +5,10 @@ title: setFolderPermissions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0da05679-207e-4dc8-9bfe-2cf09a8c3f17
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 14%
+source-wordcount: '91'
+ht-degree: 15%
 
 ---
 
@@ -30,10 +30,10 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Identificador de la empresa. |
-| `*`folderHandle`*` | `xsd:string` | Sí | Identificador de carpeta. |
-| `*`setChildren`*` | `xsd:boolean` | Sí | Establece los permisos de los elementos secundarios que pertenecen a la carpeta. |
-| `*`permissionArray`*` | `types:PermissionUpdateArray` | Sí | Matriz de permisos. |
+| companyHandle | `xsd:string` | Sí | Identificador de la empresa. |
+| folderHandle | `xsd:string` | Sí | Identificador de carpeta. |
+| setChildren | `xsd:boolean` | Sí | Establece los permisos de los elementos secundarios que pertenecen a la carpeta. |
+| permissionArray | `types:PermissionUpdateArray` | Sí | Matriz de permisos. |
 
 **Salida (setFolderPermissionsReturn)**
 

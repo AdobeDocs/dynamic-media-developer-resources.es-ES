@@ -5,10 +5,10 @@ title: setUserInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d8f8fe53-a874-4b77-9084-9a369862a672
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 20%
+source-wordcount: '107'
+ht-degree: 21%
 
 ---
 
@@ -31,14 +31,14 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | No | Control de usuario. |
-| `*`firstName`*` | `xsd:string` | Sí | Nombre. |
-| `*`lastName`*` | `xsd:string` | Sí | Apellido. |
-| `*`correo electrónico`*` | `xsd:string` | Sí | Correo electrónico del usuario. |
-| `*`defaultRole`*` | `xsd:string` | Sí | Establece la función de un usuario en cada empresa a la que pertenece. No obstante, tenga en cuenta que la función `IpsAdmin` anula otras configuraciones por empresa. |
-| `*`passwordExpires`*` | `xsd:dateTime` | No | Establezca la fecha de caducidad de la contraseña. |
-| `*`isValid`*` | `xsd:boolean` | Sí | Determina si el usuario es un usuario IPS válido. |
-| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Sí | Matriz de controladores de empresa. |
+| userHandle | `xsd:string` | No | Control de usuario. |
+| firstName | `xsd:string` | Sí | Nombre. |
+| lastName | `xsd:string` | Sí | Apellido. |
+| correo electrónico | `xsd:string` | Sí | Correo electrónico del usuario. |
+| defaultRole | `xsd:string` | Sí | Establece la función de un usuario en cada empresa a la que pertenece. No obstante, tenga en cuenta que `IpsAdmin` reemplaza otras configuraciones por empresa. |
+| passwordExpires | `xsd:dateTime` | No | Establezca la fecha de caducidad de la contraseña. |
+| isValid | `xsd:boolean` | Sí | Determina si el usuario es un usuario IPS válido. |
+| membershipArray | `types:CompanyMembershipUpdateArray` | Sí | Matriz de controladores de empresa. |
 
 **Salida (setUserInfoReturn)**
 

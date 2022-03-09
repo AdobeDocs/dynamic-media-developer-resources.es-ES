@@ -2,13 +2,13 @@
 description: Información del archivo para recursos de vídeo principales.
 solution: Experience Manager
 title: MasterVideoInfo
-feature: Dynamic Media Classic,SDK/API,Vídeo
+feature: Dynamic Media Classic,SDK/API,Video
 role: Developer,Admin
 exl-id: 7ca1ba11-56c0-4655-a144-7c9f6f17fc7c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '34'
-ht-degree: 26%
+source-wordcount: '28'
+ht-degree: 32%
 
 ---
 
@@ -22,6 +22,6 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | Ruta del archivo. |
-| `*`originalFile`*` | `xsd:string` | Nombre del archivo. |
-| `*`fileSize`*` | `xsd:int` | Tamaño de archivo. |
+| originalPath | `xsd:string` | Ruta del archivo. |
+| originalFile | `xsd:string` | Nombre del archivo. |
+| fileSize | `xsd:int` | Tamaño de archivo. |

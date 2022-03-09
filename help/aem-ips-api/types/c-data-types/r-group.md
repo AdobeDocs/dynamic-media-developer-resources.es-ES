@@ -5,10 +5,10 @@ title: Grupo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 843b3fa5-93d3-43db-b6c7-194e7fa4d31a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 21%
+source-wordcount: '42'
+ht-degree: 23%
 
 ---
 
@@ -22,7 +22,7 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| `*`groupHandle`*` | `xsd:string` | Identificador de grupo. |
-| `*`companyHandle`*` | `xsd:string` | Identificador de la empresa. |
-| `*`name`*` | `xsd:string` | Nombre del grupo. |
-| `*`es SystemDefined`*` | `xsd:string` | Si el grupo está definido por el sistema. |
+| groupHandle | `xsd:string` | Identificador de grupo. |
+| companyHandle | `xsd:string` | Identificador de la empresa. |
+| name | `xsd:string` | Nombre del grupo. |
+| es SystemDefined | `xsd:string` | Si el grupo está definido por el sistema. |

@@ -5,10 +5,10 @@ title: getActivePublishContext
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9f450263-6877-4b32-a71a-8f67b0537a69
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 10%
+source-wordcount: '108'
+ht-degree: 11%
 
 ---
 
@@ -36,10 +36,10 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa para consultar los contextos de publicación activos |
+| companyHandle | `xsd:string` | Sí | El identificador de la empresa para consultar los contextos de publicación activos |
 
 **Salida (getActivePublishContextsReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`contextArray`*` | `types:StringArray` | Sí | Matriz de contextos de publicación activos, que puede incluir cero o más valores de contexto de publicación. |
+| contextArray | `types:StringArray` | Sí | Matriz de contextos de publicación activos, que puede incluir cero o más valores de contexto de publicación. |

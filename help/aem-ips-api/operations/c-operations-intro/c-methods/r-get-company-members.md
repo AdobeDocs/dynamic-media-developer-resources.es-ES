@@ -5,9 +5,9 @@ title: getCompanyMembers
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: da5e5a48-2e0b-4ccc-a71e-b5b746484d4a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '89'
 ht-degree: 17%
 
 ---
@@ -31,14 +31,14 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | El identificador de la empresa cuyos miembros desea obtener. |
-| `*`includeInvalid`*` | `xsd:boolean` | Sí | Incluir empresas no válidas. |
+| companyHandle | `xsd:string` | Sí | El identificador de la empresa cuyos miembros desea obtener. |
+| includeInvalid | `xsd:boolean` | Sí | Incluir empresas no válidas. |
 
 **Salida (getCompanyMembersReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`memberArray`*` | `types:CompanyMemberArray` | Sí | Matriz de miembros de usuario. |
+| memberArray | `types:CompanyMemberArray` | Sí | Matriz de miembros de usuario. |
 
 ## Ejemplos {#section-39d8cf3653fd4fe8b842caabac9dedfc}
 

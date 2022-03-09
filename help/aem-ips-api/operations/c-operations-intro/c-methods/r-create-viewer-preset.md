@@ -2,12 +2,12 @@
 description: Crea una vista preestablecida que determina lo que puede ver un usuario. El visor puede ser de cualquier tipo disponible en IPS. La vista preestablecida se aplica cuando se publican los recursos.
 solution: Experience Manager
 title: createViewerPreset
-feature: Dynamic Media Classic,SDK/API,ajustes preestablecidos de visor
+feature: Dynamic Media Classic,SDK/API,Viewer Presets
 role: Developer,Admin
 exl-id: b24536d9-df66-4c94-8467-6f46e66a1b36
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '158'
 ht-degree: 13%
 
 ---
@@ -31,17 +31,17 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | El nombre de la empresa que contiene los ajustes preestablecidos de visor y los recursos. |
-| `*`folderHandle`*` | `xsd:string` | Sí | El identificador de la carpeta que contiene los recursos. |
-| `*`name`*` | `xsd:string` | Sí | Nombre del visor. |
-| `*`type`*` | `xsd:string` | Sí | Tipo de visor. |
-| `*`configSettingArray`*` | `types:ConfigSettingArray` | No | Matriz que contiene nombres, valores y identificadores de imágenes a las que está aplicando ajustes preestablecidos. |
+| companyHandle | `xsd:string` | Sí | El nombre de la empresa que contiene los ajustes preestablecidos de visor y los recursos. |
+| folderHandle | `xsd:string` | Sí | El identificador de la carpeta que contiene los recursos. |
+| name | `xsd:string` | Sí | Nombre del visor. |
+| tipo | `xsd:string` | Sí | Tipo de visor. |
+| configSettingArray | `types:ConfigSettingArray` | No | Matriz que contiene nombres, valores y identificadores de imágenes a las que está aplicando ajustes preestablecidos. |
 
 **Salida (createViewerPresetReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`viewerPresetHandle`*` | `xsd:string` | Sí | Gestión del ajuste preestablecido en el visor. |
+| viewerPresetHandle | `xsd:string` | Sí | Gestión del ajuste preestablecido en el visor. |
 
 ## Ejemplos {#section-c88ea63536f3461cbe4677ba53f875dd}
 

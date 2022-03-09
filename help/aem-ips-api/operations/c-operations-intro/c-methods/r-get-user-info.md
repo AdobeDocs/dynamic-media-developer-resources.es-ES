@@ -5,10 +5,10 @@ title: getUserInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1981f25f-779e-4434-ab6b-0debb40521fe
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 11%
+source-wordcount: '139'
+ht-degree: 12%
 
 ---
 
@@ -36,14 +36,14 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | No | Gestionar al usuario cuya información desea devolver. |
-| `*`correo electrónico`*` | `xsd:string` | No | Dirección de correo electrónico del usuario. |
+| userHandle | `xsd:string` | No | Gestionar al usuario cuya información desea devolver. |
+| correo electrónico | `xsd:string` | No | Dirección de correo electrónico del usuario. |
 
 **Salida (getUserInfoReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`userInfo`*` | `types:User` | Sí | El nombre, los apellidos, la dirección de correo electrónico y la función de un usuario, así como si el usuario es válido y cuándo caduca la contraseña del usuario. |
+| userInfo | `types:User` | Sí | El nombre, los apellidos, la dirección de correo electrónico y la función de un usuario, así como si el usuario es válido y cuándo caduca la contraseña del usuario. |
 
 ## Ejemplos {#section-98d77a2e360a438dbe240099bea26a65}
 

@@ -5,10 +5,10 @@ title: ImageFieldUpdate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 82bc016b-8a2b-4811-a0b4-1e2a93add3b6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 9%
+source-wordcount: '61'
+ht-degree: 11%
 
 ---
 
@@ -22,8 +22,8 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Identificador de recurso. |
-| `*`resolution`*` | `xsd:double` | Resolución de imagen en píxeles por pulgada. |
-| `*`anchorX`*` | `xsd:int` | Anclaje de imagen del eje X. |
-| `*`anchorY`*` | `xsd:int` | Anclaje de imagen del eje Y. |
-| `*`Datos de usuario`*` | `xsd:string` | Valor del campo de metadatos `userData`, que se publica en el campo del catálogo de datos del usuario que sirve la imagen. |
+| assetHandle | `xsd:string` | Identificador de recurso. |
+| resolution | `xsd:double` | Resolución de imagen en píxeles por pulgada. |
+| anchorX | `xsd:int` | Anclaje de imagen del eje X. |
+| anchorY | `xsd:int` | Anclaje de imagen del eje Y. |
+| Datos de usuario | `xsd:string` | Valor de `userData` campo de metadatos, que se publica en el campo del catálogo de datos del usuario que sirve la imagen. |

@@ -5,10 +5,10 @@ title: getXMPPackets
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 76e595bd-e598-40e8-aba3-b270fcf4d800
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 21%
+source-wordcount: '69'
+ht-degree: 23%
 
 ---
 
@@ -34,14 +34,14 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | El control de la empresa con el paquete que desea devolver (por ejemplo, `c|656`). |
-| `*`assetHandle`*` | `xsd:string` | Sí | Recurso para el que se debe recuperar el paquete de XMP. |
+| companyHandle | `xsd:string` | Sí | El control de la empresa con el paquete que desea devolver (por ejemplo, `c|656`). |
+| assetHandle | `xsd:string` | Sí | Recurso para el que se debe recuperar el paquete de XMP. |
 
 **Salida (getXMPPacketsReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`zipPacket`*` | `xsd:Base 64 binary` | Sí | [!DNL zlib-compressed] XMP paquete. |
+| zipPacket | `xsd:Base 64 binary` | Sí | [!DNL zlib-compressed] XMP paquete. |
 
 ## Ejemplos {#section-d681af49122e4ca9bcd04110a2e98e6f}
 

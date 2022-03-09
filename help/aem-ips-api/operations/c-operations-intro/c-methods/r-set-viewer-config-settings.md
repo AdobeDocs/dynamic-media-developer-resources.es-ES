@@ -2,13 +2,13 @@
 description: Adjunta los ajustes de configuración del visor a un recurso. Pueden ser un ajuste preestablecido de visualizador o el recurso de origen para el visualizador.
 solution: Experience Manager
 title: setViewerConfigSettings
-feature: Dynamic Media Classic,SDK/API,ajustes preestablecidos de visor
+feature: Dynamic Media Classic,SDK/API,Viewer Presets
 role: Developer,Admin
 exl-id: 6b70f2c3-c98b-455f-b453-bb797744dadc
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 11%
+source-wordcount: '103'
+ht-degree: 12%
 
 ---
 
@@ -31,11 +31,11 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Gestionar a la empresa. |
-| `*`assetHandle`*` | `xsd:string` | Sí | Identificador de recurso. |
-| `*`name`*` | `xsd:string` | Sí | Nombre del recurso. |
-| `*`type`*` | `xsd:string` | Sí | Tipo de recurso al que desea aplicar la configuración del visor. |
-| `*`configSettingArray`*` | `types:ConfigSettingArray` | Sí | La matriz de `ConfigSettings` aplicada al recurso. |
+| companyHandle | `xsd:string` | Sí | Gestionar a la empresa. |
+| assetHandle | `xsd:string` | Sí | Identificador de recurso. |
+| name | `xsd:string` | Sí | Nombre del recurso. |
+| tipo | `xsd:string` | Sí | Tipo de recurso al que desea aplicar la configuración del visor. |
+| configSettingArray | `types:ConfigSettingArray` | Sí | La matriz de `ConfigSettings` aplicado al recurso. |
 
 **Salida (setViewerConfigSettingsParam)**
 

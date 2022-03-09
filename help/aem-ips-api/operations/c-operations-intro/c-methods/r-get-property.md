@@ -5,10 +5,10 @@ title: getProperty
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2297b785-28c7-49c6-8891-00986f35ea88
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 11%
+source-wordcount: '132'
+ht-degree: 12%
 
 ---
 
@@ -22,10 +22,10 @@ Entre las propiedades del sistema compatibles se incluyen:
 * `IpsImageServerUrl`: Prefijo de URL externo completo para el servidor de imágenes IPS.
 * `VideoRootUrl`
 * `swfRootUrl`
-* `SvgRenderRootUrl`: Prefijo URL para procesar recursos SVG.
-* `SvgRenderEnabled`: True si  `SvgRenderRootUrl` puede representar los recursos SVG.
+* `SvgRenderRootUrl`: Prefijo URL para procesar recursos de SVG.
+* `SvgRenderEnabled`: True si los recursos del SVG se pueden representar mediante `SvgRenderRootUrl`.
 
-* `UploadPostMaxFileSize`: Tamaño máximo (en bytes) de los datos de archivo permitidos en una carga  [!DNL POST]. El sistema rechaza los archivos que superen el límite máximo.
+* `UploadPostMaxFileSize`: Tamaño máximo (en bytes) de los datos de archivo permitidos en una carga [!DNL POST]. El sistema rechaza los archivos que superen el límite máximo.
 
 ## Tipos de usuarios autorizados {#section-2cd36bbd46ed414b8753569d5895530e}
 
@@ -45,13 +45,13 @@ Entre las propiedades del sistema compatibles se incluyen:
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`name`*` | `xsd:string` | Sí | Nombre de la propiedad que se va a obtener. |
+| name | `xsd:string` | Sí | Nombre de la propiedad que se va a obtener. |
 
 **Salida (getPropertyReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`basado en IP`*` | `xsd:string` | Sí | El valor de la propiedad. |
+| valor | `xsd:string` | Sí | El valor de la propiedad. |
 
 ## Ejemplos {#section-3f80a78dd60c404181b34d3a912d7a36}
 

@@ -5,10 +5,10 @@ title: Configuración
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6d6421ce-1933-4310-b691-817392631969
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 22%
+source-wordcount: '31'
+ht-degree: 25%
 
 ---
 
@@ -22,6 +22,6 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| `*`name`*` | `xsd:string` | Nombre de configuración. |
-| `*`basado en IP`*` | `xsd:string` | Valor de configuración. |
-| `*`manejar`*` | `xsd:string` | Gestione la configuración almacenada. |
+| name | `xsd:string` | Nombre de configuración. |
+| valor | `xsd:string` | Valor de configuración. |
+| manejar | `xsd:string` | Gestione la configuración almacenada. |

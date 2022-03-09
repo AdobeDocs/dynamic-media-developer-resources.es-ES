@@ -5,9 +5,9 @@ title: deletePropertySetType
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 97ec0f41-794f-4340-b86d-ab07a742d447
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '93'
 ht-degree: 11%
 
 ---
@@ -31,7 +31,7 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`typeHandle`*` | `xsd:string` | Sí | El identificador del tipo de conjunto de propiedades que se va a eliminar. |
+| typeHandle | `xsd:string` | Sí | El identificador del tipo de conjunto de propiedades que se va a eliminar. |
 
 **Salida (deletePropertySetTypeParam)**
 
@@ -39,7 +39,7 @@ La API IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-85faa2e3411a4e23aa6489037f7ce078}
 
-Este ejemplo de código utiliza el identificador del tipo como campo en el `deletePropertySetTypeParam` enviado al servidor de servicios web IPS para eliminar el tipo de conjunto de propiedades.
+Este ejemplo de código utiliza el identificador del tipo como campo en la variable `deletePropertySetTypeParam` se envía al servidor de servicios web IPS para eliminar el tipo de conjunto de propiedades.
 
 **Solicitar**
 

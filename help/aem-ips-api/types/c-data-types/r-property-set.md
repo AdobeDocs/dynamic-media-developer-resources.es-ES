@@ -5,10 +5,10 @@ title: PropertySet
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 8515d07b-354f-46c9-b528-fa1c380e66af
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 11%
+source-wordcount: '39'
+ht-degree: 12%
 
 ---
 
@@ -22,6 +22,6 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| `*`setHandle`*` | `xsd:string` | Controlador del conjunto de propiedades. |
-| `*`typeHandle`*` | `xsd:string` | Gestionar al tipo de conjunto de propiedades. |
-| `*`propertyArray`*` | `types:PropertyArray` | Par nombre-valor. Puede contener cero elementos. |
+| setHandle | `xsd:string` | Controlador del conjunto de propiedades. |
+| typeHandle | `xsd:string` | Gestionar al tipo de conjunto de propiedades. |
+| propertyArray | `types:PropertyArray` | Par nombre-valor. Puede contener cero elementos. |

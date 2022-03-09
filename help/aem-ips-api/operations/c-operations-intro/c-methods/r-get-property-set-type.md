@@ -5,9 +5,9 @@ title: getPropertySetType
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ff9c3d24-577c-4a9c-8820-60c2a33773bc
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '153'
 ht-degree: 11%
 
 ---
@@ -36,8 +36,8 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | No | El identificador de la empresa. Opcional porque un tipo de conjunto de propiedades puede pertenecer a varias empresas. |
-| `*`name`*` | `xsd:string` | Sí | Nombre del tipo del conjunto de propiedades. |
+| companyHandle | `xsd:string` | No | El identificador de la empresa. Opcional porque un tipo de conjunto de propiedades puede pertenecer a varias empresas. |
+| name | `xsd:string` | Sí | Nombre del tipo del conjunto de propiedades. |
 
 **Salida (getPropertySetTypeReturn)**
 

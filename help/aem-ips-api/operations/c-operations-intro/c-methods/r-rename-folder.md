@@ -2,13 +2,13 @@
 description: Cambia el nombre de una carpeta.
 solution: Experience Manager
 title: filenameFolder
-feature: Dynamic Media Classic,SDK/API,Administración de activos
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 2d4f1059-8018-4efb-a1ec-8eb560b1a58f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 20%
+source-wordcount: '75'
+ht-degree: 22%
 
 ---
 
@@ -37,15 +37,15 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Gestione a la empresa las carpetas a las que desee cambiar el nombre. |
-| `*`folderHandle`*` | `xsd:string` | Sí | Gestione en la carpeta . |
-| `*`folderName`*` | `xsd:string` | Sí | Nuevo nombre de carpeta. |
+| companyHandle | `xsd:string` | Sí | Gestione a la empresa las carpetas a las que desee cambiar el nombre. |
+| folderHandle | `xsd:string` | Sí | Gestione en la carpeta . |
+| folderName | `xsd:string` | Sí | Nuevo nombre de carpeta. |
 
 **Salida (filenameFolderReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`folderHandle`*` | `xsd:string` | Sí | Gestione en la carpeta con el nombre cambiado. |
+| folderHandle | `xsd:string` | Sí | Gestione en la carpeta con el nombre cambiado. |
 
 ## Ejemplos {#section-98bdd2f88d164f488676e90aba1dc864}
 

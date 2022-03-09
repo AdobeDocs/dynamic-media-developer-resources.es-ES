@@ -5,9 +5,9 @@ title: createVignettePublishFormat
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d58e1290-8a79-4129-99ce-776b919dea13
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '518'
 ht-degree: 14%
 
 ---
@@ -49,67 +49,67 @@ Las versiones de servidor de renderización de imágenes más recientes admiten 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase de código  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
    <td colname="col3"> Sí </td> 
    <td colname="col4"> Nombre para identificar el formato de publicación de la viñeta. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> targetWidth</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase de código  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
    <td colname="col3"> Sí </td> 
    <td colname="col4"> <p>Especifica el ancho de destino de la vista de viñeta resultante en píxeles. </p> <p>Utilice cero para que la viñeta de salida tenga el mismo tamaño que la viñeta principal. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> targetHeight</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase de código  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
    <td colname="col3"> Sí </td> 
    <td colname="col4"> Crea una viñeta piramidal optimizada para la ampliación y la reducción en el servidor de procesamiento de imágenes. Partiendo desde el tamaño máximo, definido por los campos de tamaño de la viñeta de destino, esta opción crea múltiples vistas de tamaño en un solo archivo de salida de viñetas. Los tamaños de vista se van reduciendo a la mitad en orden hasta que la altura y la anchura están dentro del límite de 128 x 128 píxeles. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> createPyramid</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase de código  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
    <td colname="col3"> Sí </td> 
    <td colname="col4"> Especifica el ancho de cada miniatura resultante en píxeles. Esta configuración es opcional. Deje como cero para ningún archivo en miniatura. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbWidth</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase de código  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
    <td colname="col3"> Sí </td> 
    <td colname="col4"> Especifica el formato de archivo de las viñetas publicadas. Dado que hay una nueva versión de Creación de imágenes y una versión anterior del servidor de renderización de imágenes, debe especificar una versión de la viñeta que el servidor de renderización de imágenes pueda leer. Si especifica una versión superior, el servidor de renderización de imágenes no podrá leer las viñetas publicadas. Establézcalo en cero para publicar viñetas en la última versión. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> saveAsVersion</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase de código  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
    <td colname="col3"> Sí </td> 
    <td colname="col4"> Especifica el carácter que separa el nombre de la viñeta y el sufijo que indica su anchura. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sizeSuffixSeparator</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase de código  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
    <td colname="col3"> Sí </td> 
    <td colname="col4"> Especifica el carácter que separa el nombre de la viñeta y el sufijo que indica su anchura. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> enfocar</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase de código  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> Aplica nitidez a la imagen de vista principal para cada tamaño de viñeta de publicación. El enfoque puede compensar el desenfoque cuando se escalan los viñedos. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> usmAmount</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase de código  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
    <td colname="col3"> Sí </td> 
    <td colname="col4"> El enmascaramiento de enfoque digital es una forma flexible y potente de aumentar la nitidez, especialmente en imágenes escaneadas. Esto controla la magnitud de cada rebasamiento (cuánto más oscuros y claros se vuelven los bordes de borde). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> usmRadius</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase de código  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
    <td colname="col3"> Sí </td> 
    <td colname="col4"> Afecta al tamaño de los bordes que se van a mejorar o a la anchura de los bordes, por lo que un radio más pequeño mejora el detalle de escala más pequeña. Los valores de radio más altos pueden causar halos en los bordes. El detalle fino necesita un radio más pequeño, ya que se pierde un detalle minúsculo del mismo tamaño o menor que el radio. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> usmThreshold</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase de código  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
    <td colname="col3"> Sí </td> 
    <td colname="col4"> Controla el cambio mínimo de brillo que se debe enfocar o la distancia que deben estar los valores tonales adyacentes antes de que funcione el filtro. Este ajuste puede enfocar los bordes más pronunciados sin modificar los bordes más sutiles. El rango permitido de umbral de 0 a 255. </td> 
   </tr> 
@@ -120,7 +120,7 @@ Las versiones de servidor de renderización de imágenes más recientes admiten 
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`viñetaFormatoControlador`*` | `xsd:string` | Sí | El identificador del formato de viñeta creado. |
+| viñetaFormatoControlador | `xsd:string` | Sí | El identificador del formato de viñeta creado. |
 
 ## Ejemplos {#section-0564752d439642b9bb8de2903db6de1e}
 

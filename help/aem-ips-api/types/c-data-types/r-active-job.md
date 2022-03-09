@@ -1,13 +1,13 @@
 ---
+title: ActiveJob
 description: Trabajo que se ejecuta en un servidor. Además, es una instancia de un trabajo programado.
 solution: Experience Manager
-title: ActiveJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 3d878207-99e4-4c75-ab12-b38a37c82fb7
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '376'
 ht-degree: 9%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 9%
 
 Trabajo que se ejecuta en un servidor. Además, es una instancia de un trabajo programado.
 
-Los trabajos existen en 3 estados:
+Los trabajos existen en tres estados:
 
 * Programado para ejecutarse.
 * Actualmente en ejecución.
 * Se ha completado la ejecución (y ya se ha escrito información en un registro de trabajos).
 
-Especifique un valor de tipo de trabajo para devolver el tipo de trabajo. Puede devolver los siguientes trabajos:
+Para devolver el tipo de trabajo, especifique un valor de tipo de trabajo. Puede devolver los siguientes trabajos:
 
 * `imageServingPublishJob`
 * `imageRenderingPublishJob`
@@ -60,7 +60,7 @@ Especifique un valor de tipo de trabajo para devolver el tipo de trabajo. Puede 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Nombre original del tipo <span class="codeph"> ActiveJob</span> enviado con el trabajo. </td> 
+   <td colname="col3">Nombre original del <span class="codeph"> ActiveJob</span> tipo enviado con el trabajo. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
@@ -80,7 +80,7 @@ Especifique un valor de tipo de trabajo para devolver el tipo de trabajo. Puede 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> locale</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">La configuración regional para los detalles del registro de trabajos y la localización del correo electrónico. <p>Especifique las configuraciones regionales como <span class="codeph"> &lt;language_code&gt;[-&lt;country_code&gt;]</span>, donde el código de idioma es un código de dos letras en minúscula según se especifica en ISO-639 y el código de país opcional es un código de dos letras en mayúsculas según se especifica en ISO-3166. Por ejemplo, la cadena de configuración regional para inglés (Estados Unidos) sería: <span class="codeph"> en-US</span>. </p></td> 
+   <td colname="col3">La configuración regional para los detalles del registro de trabajos y la localización del correo electrónico. <p>Especifique las configuraciones regionales como <span class="codeph"> &lt;language_code&gt;[-&lt;country_code&gt;]</span>, donde el código de idioma es un código de dos letras en minúscula, según se especifica en ISO-639, y el código de país opcional es un código de dos letras en mayúsculas, según se especifica en ISO-3166. Por ejemplo, la cadena de configuración regional para inglés (Estados Unidos) sería: <span class="codeph"> en-US</span>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> descripción</span> </span> </td> 
@@ -165,7 +165,7 @@ Especifique un valor de tipo de trabajo para devolver el tipo de trabajo. Puede 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> uploadPostJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:UploadPostJob</span> </td> 
-   <td colname="col3"> Detalles del trabajo que rastrean la carga de escritorio. </td> 
+   <td colname="col3"> Detalles del trabajo, seguimiento de la carga de escritorio. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 

@@ -5,10 +5,10 @@ title: batchSetFontFields
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f38aa861-2a81-4663-967e-72611122f51b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 14%
+source-wordcount: '125'
+ht-degree: 15%
 
 ---
 
@@ -30,18 +30,18 @@ Define los campos de metadatos de fuente.
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sí | Gestione a la empresa que contiene las fuentes. |
-| `*`updateArray`*` | `types:FontFieldUpdateArray` | Sí | Matriz de actualizaciones de campos de fuente. |
+| companyHandle | `xsd:string` | Sí | Gestione a la empresa que contiene las fuentes. |
+| updateArray | `types:FontFieldUpdateArray` | Sí | Matriz de actualizaciones de campos de fuente. |
 
 **Salida (batchSetFontFieldsParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Sí | Número de campos de fuente definidos correctamente. |
-| `*`warningCount`*` | `xsd:int` | Sí | Número de advertencias generadas cuando la operación intentó establecer campos de fuente. |
-| `*`errorCount`*` | `xsd:int` | Sí | Número de errores generados cuando la operación intentó establecer campos de fuente. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados con los recursos que generaron advertencias cuando la operación intentó aplicar las actualizaciones. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados con los recursos que generaron errores cuando la operación intentó aplicar las actualizaciones. |
+| successCount | `xsd:int` | Sí | Número de campos de fuente definidos correctamente. |
+| warningCount | `xsd:int` | Sí | Número de advertencias generadas cuando la operación intentó establecer campos de fuente. |
+| errorCount | `xsd:int` | Sí | Número de errores generados cuando la operación intentó establecer campos de fuente. |
+| warningDetailArray | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados con los recursos que generaron advertencias cuando la operación intentó aplicar las actualizaciones. |
+| errorDetailArray | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados con los recursos que generaron errores cuando la operación intentó aplicar las actualizaciones. |
 
 ## Ejemplos {#section-0449c2e4ec534f4b8ee849ec4fe12c4e}
 
