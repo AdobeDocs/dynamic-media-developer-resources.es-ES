@@ -3,7 +3,7 @@ cloud: Experience Cloud
 user-guide-title: API del sistema de producción de imágenes de Dynamic Media
 feature-set: Experience Manager Assets
 user-guide-description: La API del servicio web IPS (Image Production System) permite a las aplicaciones externas y a los desarrolladores terceros acceder mediante programación a los recursos y las funciones de IPS.
-source-git-commit: 04e99bef471c5839ff6d28b1ae42f5ffed73c029
+source-git-commit: 6ec990016827895e136d41f3ae1e87ffd826647e
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 9%
@@ -234,7 +234,7 @@ ht-degree: 9%
    + [EmailArray](types/c-data-types/r-email-array.md)
    + [ExcludeByproductArray](types/c-data-types/r-exclude-byproduct-array.md)
    + [ExcludeByproductCondition](types/c-data-types/r-exclude-byproduct-condition.md)
-   + [ExcludeMasterVideoFromAVS](types/c-data-types/r-exclude-master-video-from-avs.md)
+   + [ExcludeMasterVideoFromAVS](types/c-data-types/r-exclude-master-video-from-avs.md)<!-- Deprecated; remove May 2022 as per CQDOC-19165 and remove associated topic-->
    + [ExcelInfo](types/c-data-types/r-excel-info.md)
    + [ExportJob](types/c-data-types/r-exportjob.md)
    + [FlashInfo](types/c-data-types/r-flash-info.md)
@@ -420,7 +420,7 @@ ht-degree: 9%
    + [Tipos de trabajo](string-constants/c-string-constants/r-job-types.md)
    + [Tipos de campos de metadatos](string-constants/c-string-constants/r-metadata-field-types.md)
    + [Operadores de comparación numérica/de fechas](string-constants/c-string-constants/r-numeric-date-comparison-operators.md)
-   + [Procesos PDF](string-constants/c-string-constants/r-pdf-processes.md)
+   + [Procesos del PDF](string-constants/c-string-constants/r-pdf-processes.md)
    + [Tipos de permisos](string-constants/c-string-constants/r-permission-types.md)
    + [Modos de anclaje de Photoshop](string-constants/c-string-constants/r-photoshop-anchor-modes.md)
    + [Modos de nomenclatura de capas de Photoshop](string-constants/c-string-constants/r-photoshop-layer-naming-modes.md)

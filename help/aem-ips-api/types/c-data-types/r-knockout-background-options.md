@@ -1,24 +1,35 @@
 ---
-description: Enmascarar (eliminar) el fondo de imágenes seleccionadas. Esto permite superponerlos en otras capas con una transparencia fuera de la imagen del sujeto. Un parámetro opcional que está desactivado de forma predeterminada.
-solution: Experience Manager
 title: KnockoutBackgroundOptions
+description: Enmascarar (eliminar) el fondo de imágenes seleccionadas. Este tipo de datos permite superponerlos en otras capas con una transparencia fuera de la imagen del sujeto. Un parámetro opcional que está desactivado de forma predeterminada.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: aed8cf2e-5a09-43ff-9420-0d0d54059515
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 6ec990016827895e136d41f3ae1e87ffd826647e
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '189'
 ht-degree: 5%
 
 ---
 
 # KnockoutBackgroundOptions{#knockoutbackgroundoptions}
 
-Enmascarar (eliminar) el fondo de imágenes seleccionadas. Esto permite superponerlos en otras capas con una transparencia fuera de la imagen del sujeto. Un parámetro opcional que está desactivado de forma predeterminada.
+Enmascarar (eliminar) el fondo de imágenes seleccionadas. Este tipo de datos permite superponerlos en otras capas con una transparencia fuera de la imagen del sujeto.
+
+Este tipo de datos es opcional y está desactivado de forma predeterminada.
 
 `KnockoutBackgroundOptions=[corner, tolerance, fill]`
 
 ## Parámetros {#section-3149b49ccb714e6eafa6655354816819}
+
+>[!IMPORTANT]
+>
+>Si está configurando `KnockoutBackgroundOptions` en Adobe Experience Manager, utilice los parámetros siguientes:
+>* `kbCorner`
+>* `kbTolerance`
+>* `kbFillMethod`
+>
+>Por ejemplo: `KnockoutBackgroundOptions=kbCorner=UpperLeft&kbTolerance=0.2&kbFillMethod=MatchPixel`
 
 <table id="table_68131DE0A3C84908A43C6F7777F20973"> 
  <thead> 
@@ -32,7 +43,7 @@ Enmascarar (eliminar) el fondo de imágenes seleccionadas. Esto permite superpon
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> corner</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Selecciona la esquina con la que desea trabajar. <span class="codeph"> </span> corneracepta estos valores: 
+   <td colname="col3">Selecciona la esquina con la que desea trabajar. <span class="codeph"> corner</span> acepta estos valores: 
     <ul id="ul_36C2F07706764A7081010D5521BF3096">
      <li id="li_CBACE5C6AA8C48D3BEE033D3AE03AF3C"><span class="codeph"> UpperLeft</span></li>
      <li id="li_49AC53536B4B4D2CA3DD89E2A2B2E95D"><span class="codeph"> BottomLeft</span></li>
@@ -52,7 +63,7 @@ Enmascarar (eliminar) el fondo de imágenes seleccionadas. Esto permite superpon
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fillMethod</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Controle la transparencia de píxeles en la ubicación especificada por la variable <span class="codeph"><span class="varname"> corner</span></span> . El <span class="codeph"> fillMethod</span> acepta estos valores: </p> 
+   <td colname="col3"> <p>Control de la transparencia de píxeles en la ubicación especificada por el <span class="codeph"><span class="varname"> corner</span></span> variable. La variable <span class="codeph"> fillMethod</span> acepta estos valores: </p> 
     <ul id="ul_D95F3B613D344BB89487ED09D83F9217"> 
      <li id="li_3D7B7CA1B9094D16A98E0BA3D962E97F"> <span class="codeph"> FloodFill</span>: Convierte todos los píxeles de la esquina especificada en transparente. </li> 
      <li id="li_F97343C3DA7644BCBD1748AD8F9DCE2E"> <span class="codeph"> MatchPixel</span>: Convierte todos los píxeles coincidentes en transparentes independientemente de la ubicación. </li> 
@@ -78,7 +89,7 @@ Enmascarar (eliminar) el fondo de imágenes seleccionadas. Esto permite superpon
 
 ## Utilizado por {#section-28c43baafe85434a9ee9e303ed10569a}
 
-El tipo `KnockoutBackgroundOptions` lo utiliza:
+La variable `KnockoutBackgroundOptions` El tipo lo usa:
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
