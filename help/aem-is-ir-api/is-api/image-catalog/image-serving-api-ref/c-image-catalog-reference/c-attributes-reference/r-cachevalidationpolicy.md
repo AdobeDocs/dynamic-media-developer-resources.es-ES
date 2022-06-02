@@ -1,14 +1,14 @@
 ---
+title: CacheValidationPolicy
 description: Directiva de validación de caché del servidor. Especifica cuándo se validan las entradas de caché del lado del servidor.
 solution: Experience Manager
-title: CacheValidationPolicy
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d54a8ab9-d6b3-4eae-95c6-c4ab6f00ebde
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Directiva de validación de caché del servidor. Especifica cuándo se validan las entradas de caché del lado del servidor.
 
-Con la validación basada en la caducidad, las imágenes de origen se comprueban periódicamente si han cambiado. Con la validación basada en el catálogo, las imágenes de origen se comprueban solo después de cambiar el valor `catalog::TimeStamp`.
+Con la validación basada en la caducidad, las imágenes de origen se comprueban periódicamente si han cambiado. Con la validación basada en el catálogo, las imágenes de origen se comprueban solo después de la función `catalog::TimeStamp` ha cambiado.
 
 Se recomienda la validación basada en el catálogo cuando se utilizan catálogos de imágenes. La validación basada en la caducidad debe utilizarse cuando se haga referencia a las imágenes directamente, sin necesidad de utilizar un catálogo de imágenes.
 
@@ -26,7 +26,7 @@ Enum. 0 para seleccionar la validación basada en la caducidad, 1 para seleccion
 
 ## Predeterminado {#section-0ce22732e0e9431d8a05d8b9158c0b5a}
 
-Se hereda de `default::CacheValidationPolicy` si no está definido o si está vacío.
+Heredado de `default::CacheValidationPolicy` si no está definida o si está vacío.
 
 ## Véase también {#section-a0c922fa519641f2bce05e75e4eb51d0}
 

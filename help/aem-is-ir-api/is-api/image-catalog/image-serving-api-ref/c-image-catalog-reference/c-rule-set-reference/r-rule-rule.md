@@ -1,20 +1,20 @@
 ---
-description: Solicitar elemento de regla. Una o más reglas son opcionales en el elemento <conjunto de reglas> .
-solution: Experience Manager
 title: regla
+description: Solicitar elemento de regla. Una o más reglas son opcionales en la sección <ruleset> elemento.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4fabd469-c80c-422a-80b0-3d31ce191d58
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 6%
+source-wordcount: '297'
+ht-degree: 7%
 
 ---
 
 # regla{#rule}
 
-Solicitar elemento de regla. Una o más reglas son opcionales en el elemento `<ruleset>` .
+Solicitar elemento de regla. Una o más reglas son opcionales en la sección `<ruleset>` elemento.
 
 ## Atributos {#section-d4a3b0496c0c4aa5bd7da87203b9379b}
 
@@ -22,7 +22,7 @@ Solicitar elemento de regla. Una o más reglas son opcionales en el elemento `<r
 
 `Replace = "first" | "all"`: Opcional. El valor predeterminado es &quot;first&quot;.
 
-`RequestType` =  *&quot;`types`&quot;*: Opcional. Especifica a qué contexto de entrada se aplica la regla. *`types`* es una lista separada por comas, que puede incluir uno o más de los tokens enumerados en la siguiente tabla. Si no se especifica `RequestType`, la regla se aplica a las solicitudes recibidas en todos los contextos admitidos.
+`RequestType` = *&quot;`types`&quot;*: Opcional. Especifica a qué contexto de entrada se aplica la regla. *`types`* es una lista separada por comas, que puede incluir uno o más de los tokens enumerados en la siguiente tabla. If `RequestType` no se especifica, la regla se aplica a las solicitudes recibidas en todos los contextos admitidos.
 
 <table id="table_4935E1ED03624DA6AF3F8DC9AAA10237"> 
  <thead> 
@@ -51,14 +51,14 @@ Solicitar elemento de regla. Una o más reglas son opcionales en el elemento `<r
  </tbody> 
 </table>
 
-**`Name = "text"`**: Opcional. Se utiliza para identificar el elemento `<rule>` en los registros de depuración y mensajes de error.
+**`Name = "text"`**: Opcional. Se usa para identificar la variable `<rule>` en registros de depuración y mensajes de error.
 
 `  *`Atributo`* ="value"`: Opcional. `<rule>` pueden definir cualquiera de los siguientes atributos en cualquier combinación. Si se especifica y la regla se encuentra correctamente coincidente, se anularán los atributos de catálogo correspondientes para esta solicitud. El valor predeterminado es `RequestType="is"`.
 
 <table id="table_67AED5BEADDF4DAC99B5EF46438C1ABC"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> <span class="varname"> Atributo  </span> </b> </th> 
+   <th class="entry"> <b> <span class="varname"> Atributo </span> </b> </th> 
    <th class="entry"> <p>Atributo de catálogo de imágenes correspondiente </p> </th> 
   </tr> 
  </thead>
@@ -77,7 +77,7 @@ Solicitar elemento de regla. Una o más reglas son opcionales en el elemento `<r
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> MaxPix</span> </p> </td> 
-   <td> <p><a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-maxpix.md#reference-e167d396ac794079ba8b5e6eb16eeda5" type="reference" format="dita" scope="local"> atributo::MaxPix  </a> </p> </td> 
+   <td> <p><a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-maxpix.md#reference-e167d396ac794079ba8b5e6eb16eeda5" type="reference" format="dita" scope="local"> atributo::MaxPix </a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> RequestLock</span> </p> </td> 
@@ -104,7 +104,7 @@ Solicitar elemento de regla. Una o más reglas son opcionales en el elemento `<r
 
 Consulte la descripción del atributo correspondiente del catálogo de imágenes para obtener más información.
 
-Los atributos Caducidad solo anulan los valores de atributo predeterminados. La anulación se omite si se aplica un valor específico `catalog::Expiration` a la solicitud.
+Los atributos Caducidad solo anulan los valores de atributo predeterminados. La anulación se ignora si una `catalog::Expiration` se aplica a la solicitud.
 
 ## Datos {#section-8fce013a4c724da58af3fee4e7a90e72}
 
@@ -129,10 +129,10 @@ Los atributos Caducidad solo anulan los valores de atributo predeterminados. La 
 
 ## Notas {#section-0c5fbc363070419d8c9800b0c02dc9f9}
 
-Si se especifican `<expression>` y `<substitution>`, y no se utilizan subcadenas capturadas, la primera subcadena coincidente se reemplaza por `<substitution>`.
+Si `<expression>` y `<substitution>` y no se usan subcadenas capturadas, la primera subcadena coincidente se reemplaza por `<substitution>`.
 
-Si no se especifica `<expression>`, cualquier ruta coincide con y `<substitution>` se anexa al final de la ruta.
+If `<expression>` no se especifica, cualquier ruta coincide con y `<substitution>` se anexa al final de la ruta.
 
-Si no se especifica `<substitution>`, no se produce ninguna transformación de ruta o consulta, pero se anula cualquier atributo de catálogo especificado. Si `<substitution>` está vacío, se elimina la subcadena coincidente.
+If `<substitution>` no se especifica, no se produce ninguna transformación de ruta o consulta, pero se anulan todos los atributos de catálogo especificados. If `<substitution>` está vacía, se elimina la subcadena coincidente.
 
-El `<addressfilter>` solo se aplica cuando se produce una coincidencia y antes de que se apliquen las reglas de consulta.
+La variable `<addressfilter>` solo se aplica cuando se produce una coincidencia y antes de que se apliquen las reglas de consulta.

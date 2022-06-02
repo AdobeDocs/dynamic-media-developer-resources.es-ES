@@ -1,13 +1,13 @@
 ---
+title: Efectos de capa
 description: Los efectos de sombra y resplandor de capa de estilo Photoshop se implementan utilizando subcapas especiales (capas de efecto) que pueden adjuntarse a cualquier capa (la capa principal), incluidas la capa=0 y la capa=comp.
 solution: Experience Manager
-title: Efectos de capa
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8f99bb3d-c5d6-4215-a76b-58ba7689ff02
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '482'
 ht-degree: 2%
 
 ---
@@ -22,11 +22,11 @@ Cualquier cantidad de efectos de capa se puede asociar a una sola capa principal
 
 ## Efectos interiores y exteriores {#section-2dade7ee98e041d1b4d1725e6f98a515}
 
-*Los* efectos internos se representan sobre la capa principal y solo son visibles en áreas opacas de la capa principal. *Los* efectos externos se representan detrás de la capa principal (por lo que nunca serán visibles dentro de áreas opacas de la capa principal) y se pueden colocar en cualquier lugar dentro del lienzo de composición. Se elige un efecto interno o externo asignando un número de capa de efecto positivo o negativo con el comando `effect=`. El comando `effect=` también controla el orden z entre varias capas de efecto conectadas a la misma capa principal.
+*Efectos internos* se representan sobre la capa principal y solo son visibles en áreas opacas de la capa principal. *Efectos* se procesan detrás de la capa principal (por lo que nunca serán visibles dentro de áreas opacas de la capa principal) y se pueden colocar en cualquier lugar dentro del lienzo de composición. Se elige un efecto interno o externo asignando un número de capa de efecto positivo o negativo con la variable `effect=` comando. La variable `effect=` también controla el orden z entre varias capas de efecto conectadas a la misma capa principal.
 
 ## Relación con la capa principal {#section-eb8bfc4f754a42fc973b562821d6f2d3}
 
-Las capas de efecto cambian de tamaño automáticamente y se colocan para que coincidan con la capa principal (es decir, la capa de efecto hereda los valores `size=` y `origin=` de la capa principal). `pos=` puede utilizarse para desplazar la capa de efecto de la capa principal, como suele ser necesario para los efectos de caída y sombra interna. Mientras que para las capas estándar `pos=` especifica un desplazamiento entre los orígenes de esta capa y la capa 0, para las capas de efecto `pos=` especifica el desplazamiento entre los orígenes de la capa de efecto y la capa principal.
+Las capas de efecto cambian de tamaño automáticamente y se colocan para que coincidan con la capa principal (es decir, la capa de efecto hereda la capa `size=` y `origin=` valores de la capa principal). `pos=` puede utilizarse para desplazar la capa de efecto de la capa principal, como suele ser necesario para los efectos de caída y sombra interna. While para capas estándar `pos=` especifica un desplazamiento entre los orígenes de esta capa y la capa 0, para las capas de efecto `pos=` especifica el desplazamiento entre los orígenes de la capa de efecto y la capa principal.
 
 ## Comandos y atributos admitidos {#section-035fc6bcba7d4e7ab4bd46687c1d8879}
 
@@ -46,7 +46,7 @@ Todos los demás comandos de imagen y capa contenidos en las capas de efecto se 
 
 ## Macros de efectos predeterminados {#section-a01e8dcc87c94495b54a6dfb21d2a718}
 
-Para facilitar el uso de los efectos de capa, IS proporciona dos macros con el catálogo de imágenes predeterminado, `$shadow$` y `$glow$`, que proporcionan valores predeterminados para los atributos de capa de efecto que son similares a los efectos de capa de Photoshop. La siguiente tabla enumera qué comando de efecto y macro deben usarse para implementar los efectos de capa predeterminados. Naturalmente, cualquiera de los atributos especificados en las macros se puede modificar en la URL, o se pueden crear macros alternativas para implementar efectos de capa personalizados.
+Para facilitar el uso de los efectos de capa, IS proporciona dos macros con el catálogo de imágenes predeterminado, `$shadow$` y `$glow$`, que proporcionan valores predeterminados para atributos de capa de efecto similares a los efectos de capa de Photoshop. La siguiente tabla enumera qué comando de efecto y macro deben usarse para implementar los efectos de capa predeterminados. Naturalmente, cualquiera de los atributos especificados en las macros se puede modificar en la URL, o se pueden crear macros alternativas para implementar efectos de capa personalizados.
 
 <table id="table_8089C41AD1F24223A58C7DD8F4DDF73C"> 
  <thead> 
@@ -81,14 +81,14 @@ Añada un borde rojo de tres píxeles de ancho con un 50% de opacidad a una capa
 
 `…&effect=-1&op_grow=3&color=255,0,0,128&…`
 
-El borde seguirá los contornos del canal alfa o la máscara de la imagen. Si se establece `effect=1`, el borde se colocaría en el borde interior.
+El borde seguirá los contornos del canal alfa o la máscara de la imagen. Configuración `effect=1` colocaría el borde en el borde interior.
 
 Agregue una sombra paralela azulada a una imagen mediante la configuración de efecto predeterminada (excepto el color):
 
 [!DNL http://server/is/image/myCat/myImage?size=200,200&extend=0,0,10,10&effect=-1&$shadow$&color=50,143,254]
 
-`extend=` añade un pequeño margen a los bordes inferiores derechos de la imagen, lo que evita que la sombra paralela se recorte a los límites de la imagen.
+`extend=` añade un pequeño margen a los bordes inferiores derechos de la imagen, lo que evita que la sombra se recorte a los límites de la imagen.
 
 ## Véase también {#section-1acccccf534549aea23d4c008c17e7c0}
 
-[effect=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-effect.md#reference-b1296c4afed047fb921bbc1e33752135),  [Macros de comandos%l94560](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-command-macros.md#reference-ea2a9571c65a46da83eca27d0013cbf9)
+[effect=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-effect.md#reference-b1296c4afed047fb921bbc1e33752135), [Macros de comandos%l94560](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-command-macros.md#reference-ea2a9571c65a46da83eca27d0013cbf9)

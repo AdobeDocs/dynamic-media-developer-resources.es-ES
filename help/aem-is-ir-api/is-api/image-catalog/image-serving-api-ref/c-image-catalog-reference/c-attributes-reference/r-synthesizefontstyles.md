@@ -1,13 +1,13 @@
 ---
+title: SynthesizeFontStyles
 description: Active las variaciones de fuente sintetizadas. Controla si el servidor debe generar una respuesta de error o sintetizar un estilo de fuente negrita, cursiva o negrita/cursiva si se solicita un estilo de este tipo, pero no se puede encontrar en el mapa de fuentes.
 solution: Experience Manager
-title: SynthesizeFontStyles
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 08f20748-71c7-4b9f-9b45-70352f9abf35
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '118'
 ht-degree: 4%
 
 ---
@@ -26,7 +26,7 @@ Indicador. Establézcalo en 0 para desactivar y en 1 para habilitar los estilos 
 
 ## Predeterminado {#section-71f94aa65e404d14b441674c040b59e3}
 
-Se hereda de `default::SynthesizeFontStyles` si no está definido o si está vacío.
+Heredado de `default::SynthesizeFontStyles` si no está definida o si está vacío.
 
 ## Véase también {#section-47a79659cc844272b6d5f36c946e12ac}
 

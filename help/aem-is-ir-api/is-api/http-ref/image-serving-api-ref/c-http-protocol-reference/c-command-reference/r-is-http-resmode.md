@@ -1,14 +1,14 @@
 ---
+title: resMode
 description: Modo de remuestreo. Selecciona el algoritmo de remuestreo o de interpolación que se utilizará para escalar los datos de imagen. También se aplica a la rotación de las capas de texto y al cambio de tamaño de las imágenes compuestas durante la transformación de la vista.
 solution: Experience Manager
-title: resMode
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 63c1c028-0378-4a38-8018-e358491786d8
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

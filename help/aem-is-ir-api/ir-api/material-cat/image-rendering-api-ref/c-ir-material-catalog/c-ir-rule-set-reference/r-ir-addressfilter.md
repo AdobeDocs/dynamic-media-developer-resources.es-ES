@@ -1,20 +1,20 @@
 ---
-description: Elemento de filtro de dirección. Opcional en elementos <rule> . Anula el atributo ClientAddressFilter cuando se aplica la regla.
+description: Elemento de filtro de dirección. Opcional en <rule> elementos. Anula el atributo ClientAddressFilter cuando se aplica la regla.
 solution: Experience Manager
 title: addressfilter
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0da9299b-fe14-4a69-8567-2d79ad2ce0bd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '149'
 ht-degree: 2%
 
 ---
 
 # addressfilter{#addressfilter}
 
-Elemento de filtro de dirección. Opcional en elementos `<rule>`. Overrides attribute::ClientAddressFilter cuando se aplica la regla.
+Elemento de filtro de dirección. Opcional en `<rule>` elementos. Overrides attribute::ClientAddressFilter cuando se aplica la regla.
 
 ## Atributos {#section-e7a0960f7f0045da91de37824aa4aeaa}
 
@@ -22,17 +22,17 @@ Ninguno.
 
 ## Datos {#section-eb138f192516418a9ef2ab9a38c9ee9e}
 
-Lista de direcciones IP separadas por comas. Cada dirección individual puede incluir un sufijo de máscara de red opcional para permitir la especificación de intervalos de direcciones IP. Consulte ` [attribute::ClientAddressFilter](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-clientaddressfilter.md#reference-52a541cec0b0424faf263d1fb4946b5f)` para obtener más información.
+Lista de direcciones IP separadas por comas. Cada dirección individual puede incluir un sufijo de máscara de red opcional para permitir la especificación de intervalos de direcciones IP. Consulte [atributo::ClientAddressFilter](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-clientaddressfilter.md) para obtener más información.
 
 ## Descripción {#section-099b7839c4be40c68cbff29dad14e7d5}
 
-El acceso a este catálogo de imágenes se puede restringir a una o más direcciones IP específicas especificándolas en un elemento `<addressfilter>` . Se devuelve al cliente un error &quot;solicitud rechazada&quot; si la dirección IP del cliente no coincide.
+El acceso a este catálogo de imágenes se puede restringir a una o varias direcciones IP específicas especificándolas en una `<addressfilter>` elemento. Se devuelve al cliente un error &quot;solicitud rechazada&quot; si la dirección IP del cliente no coincide.
 
 El acceso no está restringido si `<addressfilter>` está vacío o no se ha especificado.
 
-Si el `<expression>` del elemento `<rule>` está ausente o vacío, el `<addressfilter>` se aplica a todas las solicitudes.
+Si la variable `<expression>` en el `<rule>` El elemento está ausente o vacío, la variable `<addressfilter>` se aplica a todas las solicitudes.
 
-`localhost` siempre forma parte implícita de la  `ClientAddressFilter` definición, incluso si no se especifica explícitamente. Las solicitudes procedentes de `localhost` nunca se rechazan, independientemente de la especificación `ClientAddressFilter`.
+`localhost` siempre es parte implícita de la variable `ClientAddressFilter` definición, incluso si no se especifica explícitamente. Solicitudes procedentes de `localhost` nunca se rechazan, independientemente de la variable `ClientAddressFilter` especificación.
 
 ## SeeaAlso {#section-02056065e0c042e1b155b2f3e5b84ef7}
 

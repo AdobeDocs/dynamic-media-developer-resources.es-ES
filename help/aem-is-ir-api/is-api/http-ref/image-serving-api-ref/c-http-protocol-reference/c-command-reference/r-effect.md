@@ -1,14 +1,14 @@
 ---
+title: effect
 description: Seleccione Capa de efectos. Selecciona una capa de efecto e inicia un nuevo segmento de capa en la cadena de solicitud, que está asociada a la capa actual.
 solution: Experience Manager
-title: effect
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d1eaa38d-cfd3-44d4-92b1-04d72333f867
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 3%
+source-wordcount: '172'
+ht-degree: 4%
 
 ---
 
@@ -25,7 +25,7 @@ Seleccione Capa de efectos. Selecciona una capa de efecto e inicia un nuevo segm
  </tr> 
 </table>
 
-Todos los comandos del nuevo segmento se aplican a la capa de efecto especificada. Un segmento de capa de efecto se termina por el siguiente comando `layer=` o `effect=` o por el final de la solicitud.
+Todos los comandos del nuevo segmento se aplican a la capa de efecto especificada. Un segmento de capa de efecto termina por el siguiente `layer=` o `effect=` o al final de la solicitud.
 
 *`n`* debe ser menor que 0 para los efectos de capa externa (es decir, los efectos detrás de la capa principal) y bueno que 0 para los efectos de capa interna (es decir, los efectos dentro de la capa principal). Los números de capa de efecto no tienen que ser consecutivos.
 
@@ -47,4 +47,4 @@ Ninguno.
 
 ## Véase también {#section-573273e9e0e64103a5764075f5e50180}
 
-` [layer=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-layer.md#reference-0f8d7fbef64841dd855917bd8fc22e6d)`
+[layer=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-layer.md)

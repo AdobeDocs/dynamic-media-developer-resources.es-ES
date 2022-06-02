@@ -5,9 +5,9 @@ title: Referencia del conjunto de reglas
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: dfbb5f5e-d75a-496a-8b97-f102ad1a34d5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 El servicio de imágenes admite un mecanismo de preprocesamiento de solicitudes sencillo que se basa en reglas de coincidencia y sustitución de expresiones regulares.
 
-Las colecciones de reglas de preprocesamiento (*conjuntos de reglas*) se pueden adjuntar a catálogos de imágenes o al catálogo predeterminado. Las reglas del catálogo predeterminado se aplican solo si la solicitud no identifica un catálogo de imágenes principal específico.
+Colecciones de reglas de preprocesamiento (*conjuntos de reglas*) se puede adjuntar a catálogos de imágenes o al catálogo predeterminado. Las reglas del catálogo predeterminado se aplican solo si la solicitud no identifica un catálogo de imágenes principal específico.
 
 Las reglas de preprocesamiento de solicitudes pueden modificar la ruta y las partes de consulta de las solicitudes antes de que las procese el analizador de Platform Server, incluida la manipulación de la ruta, la adición de comandos, el cambio de valores de los comandos y la aplicación de plantillas o macros. Las reglas también se pueden utilizar para configurar y anular ciertas funciones de seguridad que normalmente se controlan únicamente con atributos de catálogo, como confusión de solicitudes, marcado de agua, así como para limitar el servicio a direcciones IP de cliente específicas.
 
@@ -48,29 +48,29 @@ Los conjuntos de reglas se almacenan como archivos de documento XML. La ruta rel
 </ruleset>
 ```
 
-Los elementos `<?xml>` y `<ruleset>` siempre son necesarios en un archivo XML de conjunto de reglas válido, incluso si no se han definido reglas reales.
+La variable `<?xml>` y `<ruleset>` los elementos siempre son necesarios en un archivo XML de conjunto de reglas válido, aunque no se hayan definido reglas reales.
 
-Se permite un elemento `<ruleset>` que contenga cualquier número de `<rule>` elementos.
+One `<ruleset>` elemento que contiene cualquier número de `<rule>` están permitidos.
 
 El contenido de los archivos de reglas de preprocesamiento distingue entre mayúsculas y minúsculas.
 
 ## Validación del conjunto de reglas {#section-d8d101a0b4d74580835e37d128d05567}
 
-Se proporciona una copia de [!DNL RuleSet.xsd] en la carpeta del catálogo y debe utilizarse para validar un archivo del conjunto de reglas antes de registrarlo en el archivo [!DNL catalog.ini]. Tenga en cuenta que Image Serving utiliza una copia interna de [!DNL RuleSet.xsd] para la validación.
+Una copia de [!DNL RuleSet.xsd] se proporciona en la carpeta del catálogo y debe utilizarse para validar un archivo del conjunto de reglas antes de registrarlo en el [!DNL catalog.ini] archivo. Tenga en cuenta que Image Serving utiliza una copia interna de [!DNL RuleSet.xsd] para validación.
 
 ## Procesamiento previo de URL {#section-2c09a2d79ada46b994857c6a7fb4c13a}
 
 Antes de cualquier otro procesamiento, se analiza parcialmente una solicitud HTTP entrante para determinar qué catálogo de imágenes debe aplicarse. Una vez identificado el catálogo, se aplica el conjunto de reglas para el catálogo seleccionado (o el catálogo predeterminado, si no se identificó ningún catálogo específico).
 
-Los elementos `<rule>` se buscan en el orden especificado para una coincidencia con el contenido del elemento `<expression>` ( *`expression`*).
+La variable `<rule>` se buscan los elementos en el orden especificado para que coincidan con el contenido del `<expression>` element ( *`expression`*).
 
-Si coincide con un `<rule>`, se aplica el *`substitution`* opcional y la cadena de solicitud modificada se pasa al analizador de solicitudes del servidor para su procesamiento normal.
+Si `<rule>` coincide, la variable *`substitution`* se aplica y la cadena de solicitud modificada se pasa al analizador de solicitudes del servidor para el procesamiento normal.
 
-Si no se realiza una coincidencia correcta cuando se llega al final del `<ruleset>`, la solicitud se pasa al analizador sin modificación.
+Si no se realiza una coincidencia correcta al finalizar el `<ruleset>` se alcanza, la solicitud se pasa al analizador sin modificación.
 
 ## El atributo OnMatch {#section-ed952fa55d99422db0ee68a2b9d395d3}
 
-El comportamiento predeterminado se puede modificar con el atributo `OnMatch` del elemento `<rule>`. `OnMatch` se puede establecer en  `break` (predeterminado),  `continue`, o  `error`.
+El comportamiento predeterminado se puede modificar con la variable `OnMatch` del `<rule>` elemento. `OnMatch` se puede configurar como `break` (predeterminado), `continue`o `error`.
 
 <table id="table_6680A81492B24CE593330DA7B0075E8F"> 
  <thead> 
@@ -97,7 +97,7 @@ El comportamiento predeterminado se puede modificar con el atributo `OnMatch` de
 
 ## Anulación de atributos de catálogo {#section-3f1e33a65c5346d1b4a69958c61432f3}
 
-`<rule>` de forma opcional, pueden definir atributos que anulen los atributos de catálogo correspondientes cuando la regla se ajuste correctamente. Si varias reglas coincidentes establecen el mismo atributo, prevalecerá el último. Consulte la descripción del elemento ` [<rule>](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-rule-rule.md#reference-af76c0e2b8be48dabb52b71fe7e51ee9)` para obtener una lista de atributos que se pueden controlar con reglas.
+La variable `rule` opcionalmente, puede definir atributos que anulan los atributos de catálogo correspondientes cuando la regla se encuentra correctamente coincidente. Si varias reglas coincidentes establecen el mismo atributo, prevalecerá el último. Consulte [regla](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-rule-rule.md) para obtener una lista de atributos que se pueden controlar con reglas.
 
 ## Expresiones regulares {#section-3f77bb9a265147b38c645f63ab1bad8b}
 
@@ -111,11 +111,11 @@ Para facilitar modificaciones complejas de la URL, las subcadenas pueden captura
 
 ## Administración de archivos de conjuntos de reglas {#section-0598a608e4044bb4805fe93ceebe10a9}
 
-Se puede adjuntar un archivo de conjunto de reglas a cada catálogo de imágenes con el atributo de catálogo `attribute::RuleSetFile`. Aunque puede editar el archivo del conjunto de reglas en cualquier momento, el servidor de imágenes reconoce los cambios solo cuando se vuelve a cargar el catálogo de imágenes asociado. Esta recarga se produce cuando se inicia o reinicia el servidor de la plataforma y siempre que el archivo del catálogo principal, que tiene un sufijo de archivo [!DNL .ini], se modifica o &quot;se toca&quot; para cambiar la fecha del archivo.
+Se puede adjuntar un archivo de conjunto de reglas a cada catálogo de imágenes con el atributo de catálogo `attribute::RuleSetFile`. Aunque puede editar el archivo del conjunto de reglas en cualquier momento, el servidor de imágenes reconoce los cambios solo cuando se vuelve a cargar el catálogo de imágenes asociado. Esta recarga se produce cuando se inicia o reinicia el servidor de la plataforma y siempre que el archivo de catálogo principal tenga un [!DNL .ini] para cambiar la fecha del archivo.
 
 ## Ejemplos {#section-aa769437d967459299b83a4bf34fe924}
 
-**Ejemplo A.** Defina una regla que aumente la configuración de calidad de imagen si el nombre de la imagen tiene el sufijo &quot;  [!DNL _hg]&quot;:
+**Ejemplo A.** Defina una regla que aumente la configuración de calidad de la imagen si el nombre de la imagen tiene el sufijo &quot; [!DNL _hg]&quot;:
 
 ```
 <rule> 
@@ -124,7 +124,7 @@ Se puede adjuntar un archivo de conjunto de reglas a cada catálogo de imágenes
 </rule>
 ```
 
-La expresión de regla especifica una coincidencia de &quot; [!DNL _hg]&quot; que no distingue entre mayúsculas y minúsculas al final de la cadena de URL. El sufijo se sustituye por la cadena de consulta especificada que cambia la configuración de calidad de la imagen. Tenga en cuenta que el carácter `?` de la cadena de sustitución se escapa porque es un carácter especial en las expresiones regulares.
+La expresión de regla especifica una coincidencia de &quot; [!DNL _hg]&quot; al final de la cadena URL. El sufijo se sustituye por la cadena de consulta especificada que cambia la configuración de calidad de la imagen. Tenga en cuenta que `?` el carácter de la cadena de sustitución se escapa, ya que se trata de un carácter especial de las expresiones regulares.
 
 >[!NOTE]
 >
@@ -132,7 +132,7 @@ La expresión de regla especifica una coincidencia de &quot; [!DNL _hg]&quot; qu
 
 `<substitution><![CDATA[&qlt=95,1&resmode=bicub]]></substitution>`
 
-**Ejemplo B.** Una aplicación web concreta no permite cadenas de consulta. Defina una regla que traduzca el elemento de ruta final `small`, `medium` o `large` a una plantilla, utilizando el resto de la ruta como nombre de la imagen. Por ejemplo, `myCat/myImage/small` se traduciría en `myCat/smallTemplate?src=myCat/myImage`.
+**Ejemplo B.** Una aplicación web concreta no permite cadenas de consulta. Defina una regla que traduzca el elemento de ruta final `small`, `medium`o `large` a una plantilla, usando el resto de la ruta como nombre de la imagen. Por ejemplo, `myCat/myImage/small` traduciría a `myCat/smallTemplate?src=myCat/myImage`.
 
 Se pueden utilizar subcadenas para reestructurar la solicitud:
 
