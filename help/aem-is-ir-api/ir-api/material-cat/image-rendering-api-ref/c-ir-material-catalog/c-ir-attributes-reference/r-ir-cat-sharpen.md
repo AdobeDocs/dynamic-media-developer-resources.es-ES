@@ -1,14 +1,14 @@
 ---
+title: Enfocar
 description: Afilado predeterminado de la imagen de respuesta. Especifica si se van a enfocar las imágenes de respuesta si se han escalado antes de la codificación.
 solution: Experience Manager
-title: Enfocar
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9a540b86-4d00-47db-8a1d-1d2b186ce87b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 13%
+source-wordcount: '48'
+ht-degree: 14%
 
 ---
 
@@ -22,7 +22,7 @@ Indicador.
 
 ## Predeterminado {#section-e6f1f81ef5c949a488b2002581bda0d0}
 
-Se hereda de `default::Sharpen` si no está definido o si está vacío.
+Heredado de `default::Sharpen` si no está definida o si está vacío.
 
 ## Véase también {#section-85393c62428f49739a2510f9427d3607}
 

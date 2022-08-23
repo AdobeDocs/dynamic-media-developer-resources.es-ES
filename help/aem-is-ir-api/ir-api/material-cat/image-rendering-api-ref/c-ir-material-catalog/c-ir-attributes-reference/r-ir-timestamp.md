@@ -1,40 +1,40 @@
 ---
-description: Marca de tiempo de modificación predeterminada. Proporciona un valor predeterminado para el catálogo TimeStamp y la viñeta TimeStamp. Si no se especifica, el servidor utilizará la fecha y hora de modificación de este archivo catalog.ini.
-solution: Experience Manager
 title: TimeStamp
+description: Marca de tiempo de modificación predeterminada. Proporciona un valor predeterminado para el catálogo TimeStamp y la viñeta TimeStamp. Si no se especifica, el servidor utiliza la fecha y hora de modificación de este archivo catalog.ini.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0b6d8fa6-0ad9-4f72-8d6d-1427e5d59df3
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '213'
 ht-degree: 1%
 
 ---
 
 # TimeStamp{#timestamp}
 
-Marca de tiempo de modificación predeterminada. Proporciona un valor predeterminado para catálogo::TimeStamp y viñeta::TimeStamp. Si no se especifica, el servidor utilizará la fecha y hora de modificación de este archivo catalog.ini.
+Marca de tiempo de modificación predeterminada. Proporciona un valor predeterminado para `catalog::TimeStamp` y `vignette::TimeStamp`. Si no se especifica, el servidor utiliza la fecha y hora de modificación de este archivo catalog.ini.
 
 ## Propiedades {#section-910e2562b41c47b78ee6216deeabbbd5}
 
-Valor de fecha y hora en formato Java. Puede ser el número entero de milisegundos desde la medianoche, el 1 de enero de 1970 UTC/GMT o un valor de cadena de fecha y hora con uno de los siguientes formatos:
+Valor de fecha y hora en formato Java™. Puede ser el número entero de milisegundos desde la medianoche, el 1 de enero de 1970 UTC/GMT, o un valor de cadena de fecha y hora con uno de los siguientes formatos:
 
 * *[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]* *[!DNL zzz]*
 
 * *[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]* GMT *[!DNL offset]*
 
-*[!DNL hh]* está en el rango de 0 a 23.
+*[!DNL hh]* está en el rango 0 - 23.
 
-*[!DNL zzz]* es un código de zona horaria de 3 o 4 caracteres como &quot;GMT&quot; o &quot;PST&quot;. El horario de verano debe contabilizarse en el código de zona horaria (por ejemplo, &quot;PST&quot; para la hora estándar del Pacífico, en comparación con &quot;PDT&quot; para la hora de verano del Pacífico).
+*[!DNL zzz]* es un código de zona horaria de tres o cuatro caracteres, como &quot;GMT&quot; o &quot;PST&quot;. El horario de verano debe contabilizarse en el código de zona horaria (por ejemplo, &quot;PST&quot; para la hora estándar del Pacífico, en comparación con &quot;PDT&quot; para la hora de verano del Pacífico).
 
 *[!DNL offset]* es un desplazamiento de zona horaria en horas u horas:minutos, en relación con GMT. Por ejemplo, &quot;PDT&quot; es equivalente a &quot;GMT -7&quot;.
 
-Deben estar presentes todos los elementos de los valores de fecha y hora con formato de cadena. Si el valor de fecha y hora no tiene el formato correcto, se ignora y la hora de modificación del [!DNL *[!DNL catalog]*.ini] se utiliza en su lugar.
+Todos los elementos de los valores de fecha y hora con formato de cadena deben estar presentes. Si el valor de fecha y hora no tiene el formato correcto, se omite y la hora de modificación del [!DNL *[!DNL catalog]*.ini] se utiliza en su lugar.
 
 ## Predeterminado {#section-65fb29a9ea2044df8cb9fe295eb14872}
 
-Si está vacío o no está definido, el servidor utilizará el tiempo de modificación del archivo de este [!DNL *[!DNL catalog]*.ini].
+Si está vacío o no está definido, el servidor utiliza el tiempo de modificación del archivo de este [!DNL *[!DNL catalog]*.ini].
 
 ## Véase también {#section-764188f9b1734ad1a6270f5fecd28532}
 

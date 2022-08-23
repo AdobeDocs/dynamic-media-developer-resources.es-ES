@@ -1,11 +1,11 @@
 ---
+title: OnFailObj
 description: Tratamiento de errores de selección de objetos. Especifica la acción que se realizará si falla el comando obj= porque la ruta especificada no se puede hacer coincidir en la jerarquía de objetos de viñeta.
 solution: Experience Manager
-title: OnFailObj
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0ed04daf-1797-4c12-ae6d-a9a008de9d1d
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 14%

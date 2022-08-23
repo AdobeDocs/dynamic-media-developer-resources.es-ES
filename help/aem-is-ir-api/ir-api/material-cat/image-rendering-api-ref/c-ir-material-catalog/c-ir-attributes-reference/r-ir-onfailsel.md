@@ -1,20 +1,20 @@
 ---
+title: OnFailSel
 description: Seleccionar la gestión de errores de selección. Especifica la acción que se debe realizar si el comando sel= falla porque la ubicación de píxeles especificada no está dentro del área de máscara de un objeto seleccionable.
 solution: Experience Manager
-title: OnFailSel
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d5485569-def8-4e16-9f0e-7dd30d38439d
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '118'
 ht-degree: 13%
 
 ---
 
 # OnFailSel{#onfailsel}
 
-Seleccionar la gestión de errores de selección. Especifica la acción que se debe realizar si el comando sel= falla porque la ubicación de píxeles especificada no está dentro del área de máscara de un objeto seleccionable.
+Seleccionar la gestión de errores de selección. Especifica la acción que se realizará si la variable `sel=` falla porque la ubicación de píxeles especificada no está dentro del área de máscara de un objeto seleccionable.
 
 ## Propiedades {#section-cec491e6c5c744f9bfafaaa9d8774f83}
 

@@ -1,13 +1,13 @@
 ---
+title: API de renderización de imágenes
 description: La referencia de la API de renderización de imágenes contiene información sobre la configuración y el uso de la API de renderización de imágenes de Dynamic Media.
 solution: Experience Manager
-title: API de renderización de imágenes
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e7cf4b21-8020-436a-b084-b81e9c8a8b9b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '63'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ La referencia de la API de renderización de imágenes contiene información sob
 
 * [Configuración](c-ir-installation/c-ir-installation.md)
 * [Licencias](c-ir-installation/c-ir-licensing.md)
-* [Configuración y configuración del módulo de compatibilidad de IR 3.x](c-ir-installation/t-ir-setup-compatibility-module.md)
-* [Configuración y configuración de la representación de imágenes](c-ir-installation/c-ir-setup-ir.md)
+* [Configuración del módulo de compatibilidad de IR 3.x](c-ir-installation/t-ir-setup-compatibility-module.md)
+* [Configuración del procesamiento de imágenes](c-ir-installation/c-ir-setup-ir.md)
 * [Desinstalación del procesamiento de imágenes](c-ir-installation/c-ir-uninstalling/c-ir-uninstalling.md)
 * [Administración del servidor](c-ir-server-administration/c-ir-server-administration.md)

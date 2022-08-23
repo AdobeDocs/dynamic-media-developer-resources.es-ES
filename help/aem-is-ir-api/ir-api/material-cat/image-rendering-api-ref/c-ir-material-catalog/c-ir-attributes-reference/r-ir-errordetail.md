@@ -1,13 +1,13 @@
 ---
+title: ErrorDetail
 description: Detalles del mensaje de error. Especifica el nivel de detalle de los mensajes de error devueltos mediante HTTP como valor de error.message .
 solution: Experience Manager
-title: ErrorDetail
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 39d7fc44-7605-4f93-b2f9-0a6e8bc76ec7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '162'
 ht-degree: 5%
 
 ---
@@ -35,7 +35,7 @@ Se permiten los siguientes valores:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>Información de depuración completa. Agrega trazos de pila de Java cuando corresponde. Las imágenes de error nunca incluyen trazos de pila y, en su lugar, devuelven información de nivel 2 en <span class="codeph"> $error.message</span>. </p></td> 
+  <td class="stentry"> <p>Información de depuración completa. Agrega trazos de pila de Java™ cuando corresponde. Las imágenes de error nunca incluyen seguimientos de pila y, en su lugar, devuelven información de nivel 2 en <span class="codeph"> $error.message</span>. </p></td> 
  </tr> 
 </table>
 
@@ -49,7 +49,7 @@ El valor enumerado debe ser 0, 1, 2 o 3.
 
 ## Predeterminado {#section-5e78d550050840cc9a1de811c581b94f}
 
-Se hereda de `default::ErrorDetail` si no se especifica o si está vacío.
+Heredado de `default::ErrorDetail` si no se especifica o si está vacío.
 
 ## Véase también {#section-474e71922d194c7ca06f2aad3b30e025}
 
