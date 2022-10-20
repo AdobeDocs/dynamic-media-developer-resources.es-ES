@@ -6,8 +6,8 @@ feature-set: Experience Manager Assets
 user-guide-description: Vea documentación sobre las API de IS (Image Serving) e IR (Image Rendering), y tecnologías relacionadas.
 source-git-commit: f64229a72bef887f356b118a1da4ba5177c28bbc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1466'
+ht-degree: 12%
 
 ---
 
