@@ -5,14 +5,14 @@ title: Carpeta
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 74b44b1a-a92e-4c97-a93b-0cd4552f78ec
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 11%
+source-wordcount: '70'
+ht-degree: 8%
 
 ---
 
-# Carpeta{#folder}
+# [!DNL Folder]{#folder}
 
 Archivo jerárquico u objeto de almacenamiento de recursos. Las carpetas pueden contener una o más subcarpetas.
 
@@ -23,7 +23,7 @@ Sintaxis
 | Nombre | Tipo | Descripción |
 |---|---|---|
 | folderHandle | `xsd:string` | Identificador de carpeta. |
-| ruta | `xsd:string` | Ruta de carpeta. |
+| [!DNL path] | `xsd:string` | Ruta de carpeta. |
 | lastModified | `xsd:dateTime` | Fecha de la última modificación. |
 | childLastModified | `xsd:dateTime` | Fecha de la última modificación para subcarpetas y recursos secundarios de carpeta. |
 | permissionsSetHandle | `xsd:string` | Identificador de permisos de carpeta. |

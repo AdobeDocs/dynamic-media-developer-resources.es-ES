@@ -2,21 +2,21 @@
 description: Definiciones de campo definidas por el usuario para recursos específicos.
 solution: Experience Manager
 title: MetadataField
-feature: Dynamic Media Classic,SDK/API,Metadatos
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 97175076-9078-4bc4-b3ea-73c3ea772f6a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '144'
 ht-degree: 15%
 
 ---
 
-# MetadataField{#metadatafield}
+# [!DNL MetadataField]{#metadatafield}
 
 Definiciones de campo definidas por el usuario para recursos específicos.
 
-Recupere definiciones de campos de etiqueta con las operaciones `getMetadataFields` o `getAssetMetadataField`.
+Recupere las definiciones de campo de etiqueta con la variable `getMetadataFields` o `getAssetMetadataField` operaciones.
 
 ## Parámetros {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -62,7 +62,7 @@ Recupere definiciones de campos de etiqueta con las operaciones `getMetadataFiel
   <tr> 
    <td colname="col1"><span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">Ocultar o exponer metadatos específicos del sistema IPS. Se devuelve de <a href="../../operations/c-operations-intro/c-methods/r-get-metadata-fields.md#reference-170337127801401d9ea54bd4ccf28efe" format="dita" scope="local"> getMetadataFields</a> y <a href="../../operations/c-operations-intro/c-methods/r-get-asset-metadata-fields.md#reference-ea57f8e98d3e443da66114550b0d0a28" format="dita" scope="local"> getAssetMetadataFields</a>. </td> 
+   <td colname="col3">Ocultar o exponer metadatos específicos del sistema IPS. Devuelto desde <a href="../../operations/c-operations-intro/c-methods/r-get-metadata-fields.md#reference-170337127801401d9ea54bd4ccf28efe" format="dita" scope="local"> getMetadataFields</a> y <a href="../../operations/c-operations-intro/c-methods/r-get-asset-metadata-fields.md#reference-ea57f8e98d3e443da66114550b0d0a28" format="dita" scope="local"> getAssetMetadataFields</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 

@@ -5,14 +5,14 @@ title: Información de RTFI
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f30eae15-793f-4e2e-a0dc-1987f0949bd6
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 32%
+source-wordcount: '27'
+ht-degree: 33%
 
 ---
 
-# Información de RTFI{#rtfinfo}
+# [!DNL RTFInfo]{#rtfinfo}
 
 Propiedades de un recurso de archivo RTF.
 

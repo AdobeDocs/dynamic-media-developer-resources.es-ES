@@ -5,14 +5,14 @@ title: XmpKeywords
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f1ad16c8-cba2-4ef0-9558-6a4086c71393
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 19%
+source-wordcount: '66'
+ht-degree: 21%
 
 ---
 
-# XmpKeywords{#xmpkeywords}
+# [!DNL XmpKeywords]{#xmpkeywords}
 
 Palabras clave ampliables de la plataforma de metadatos de un recurso.
 
@@ -32,7 +32,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> items</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Una lista separada por comas de palabras clave que se combinan en el nodo de propiedad de XMP <span class="codeph"> dc:subject=</span>. Si aparece una coma en cualquiera de los valores individuales, debe omitirse con una barra invertida (\). Una barra invertida literal es la barra invertida doble habitual (\\). </p> </td> 
+   <td colname="col3"> <p>Una lista separada por comas de las palabras clave que se combinan en la variable <span class="codeph"> dc:subject=</span> nodo de propiedad de XMP. Si aparece una coma en cualquiera de los valores individuales, debe omitirse con una barra invertida (\). Una barra invertida literal es la barra invertida doble habitual (\\). </p> </td> 
   </tr> 
  </tbody> 
 </table>

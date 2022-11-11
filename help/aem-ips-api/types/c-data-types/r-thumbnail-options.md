@@ -5,14 +5,14 @@ title: ThumbnailOptions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7d84590d-2227-4d9a-9cb0-0f4b1fcabd8e
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '94'
 ht-degree: 6%
 
 ---
 
-# ThumbnailOptions{#thumbnailoptions}
+# [!DNL ThumbnailOptions]{#thumbnailoptions}
 
 Un tipo opcional que permite elegir un fotograma de vídeo concreto para utilizarlo como imagen en miniatura.
 

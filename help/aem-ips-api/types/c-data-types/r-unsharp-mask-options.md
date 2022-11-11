@@ -2,17 +2,17 @@
 description: Configuración que ayuda a mejorar el nitidez de la imagen para archivos TIF piramidales optimizados.
 solution: Experience Manager
 title: Opciones de máscara de enfoque
-feature: Dynamic Media Classic,SDK/API,Administración de activos
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 7150b4a8-a44d-4858-96f2-6004d5f48e77
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 12%
+source-wordcount: '186'
+ht-degree: 13%
 
 ---
 
-# Opciones de máscara de enfoque{#unsharpmaskoptions}
+# [!DNL UnsharpMaskOptions]{#unsharpmaskoptions}
 
 Configuración que ayuda a mejorar el nitidez de la imagen para archivos TIF piramidales optimizados.
 
@@ -20,7 +20,7 @@ Configuración que ayuda a mejorar el nitidez de la imagen para archivos TIF pir
 
 ## Parámetros {#section-c3f0d03136ba4422819cb463bd393885}
 
-Especifique un valor para las opciones `unsharpMaskOptions` con `minOccurs=" *`n`*".`
+Especifique un valor para `unsharpMaskOptions` opciones con `minOccurs=" *`n`*".`
 
 <table id="table_D1392963C5694969A9D546F82DB6F45C">
  <thead>
@@ -62,7 +62,7 @@ Especifique un valor para las opciones `unsharpMaskOptions` con `minOccurs=" *`n
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> monocromo</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:int</span></td>
-   <td colname="col3"><p>Los valores solo incluyen <span class="codeph"> 0</span> o <span class="codeph"> 1</span>. </p><p>Configúrelo en <span class="codeph"> 0</span> para aplicarlo a cada componente de color por separado o en <span class="codeph"> 1</span> para aplicarlo solo al brillo (intensidad) de la imagen. La máscara de capa o la máscara compuesta también se afilan. </p><p><span class="codeph"><span class="varname"> </span></span> se ignora el monocromo en las imágenes en escala de grises. </p></td>
+   <td colname="col3"><p>Los valores incluyen <span class="codeph"> 0</span> o <span class="codeph"> 1</span> solo. </p><p>Establecer como <span class="codeph"> 0</span> para aplicar a cada componente de color por separado o a <span class="codeph"> 1</span> para aplicar solo al brillo (intensidad) de la imagen. La máscara de capa o la máscara compuesta también se afilan. </p><p><span class="codeph"><span class="varname"> monocromo</span></span> se ignora para imágenes en escala de grises. </p></td>
   </tr>
  </tbody>
 </table>
@@ -83,7 +83,7 @@ Especifique un valor para las opciones `unsharpMaskOptions` con `minOccurs=" *`n
 
 ## Utilizado por {#section-db8124a5468b498694a780f8a56a4560}
 
-El tipo `unsharpMaskOptions` lo utiliza:
+La variable `unsharpMaskOptions` El tipo lo usa:
 
 * [ReprocessAssetsJob](../../types/c-data-types/r-reprocess-assets-job.md#reference-a303f7832ae44fdab1dca7cc8bef3fa3)
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)

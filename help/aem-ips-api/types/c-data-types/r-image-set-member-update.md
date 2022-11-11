@@ -1,22 +1,22 @@
 ---
-description: 'Dentro de este tipo, el campo pageReset es significativo para los tipos de recursos de imagen RenderSet y Catálogo '
+description: Dentro de este tipo, el campo pageReset es significativo para los tipos de recursos de imagen RenderSet y Catálogo
 solution: Experience Manager
 title: ImageSetMemberUpdate
-feature: Dynamic Media Classic,SDK/API,Conjuntos de imágenes
+feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: 4c598afb-a80c-4fac-997f-ef1c7175430c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '101'
 ht-degree: 7%
 
 ---
 
-# ImageSetMemberUpdate{#imagesetmemberupdate}
+# [!DNL ImageSetMemberUpdate]{#imagesetmemberupdate}
 
 Dentro de este tipo, el campo pageReset es significativo para los tipos de recursos de imagen RenderSet y Catálogo:
 
-* Para `RenderSet`, `pageReset` indica el inicio de una nueva vista de procesamiento/grupo de muestras.
+* Para `RenderSet`, `pageReset` indica el inicio de una nueva vista de renderización/grupo de muestras.
 
 * Para Catálogo, `pageReset` indica el inicio de una nueva vista de página. Normalmente, hay 2 imágenes de página por vista de página, pero puede tener más o menos.
 
@@ -39,7 +39,7 @@ Dentro de este tipo, el campo pageReset es significativo para los tipos de recur
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> pageReset</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">Restaura la página. <p>Se ignora la configuración y se fuerza el valor a true para <span class="codeph"> ImageSet</span> y <span class="codeph"> SpinSet</span>. </p></td> 
+   <td colname="col3">Restaura la página. <p>Se ignora la configuración y se fuerza el valor en true para <span class="codeph"> Conjunto de imágenes</span> y <span class="codeph"> Conjunto de giros</span>. </p></td> 
   </tr> 
  </tbody> 
 </table>

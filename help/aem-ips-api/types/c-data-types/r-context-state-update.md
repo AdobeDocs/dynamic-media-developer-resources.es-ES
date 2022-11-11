@@ -5,14 +5,14 @@ title: ContextStateUpdate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 4e450d28-ec79-4540-824b-b0121b72c857
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 15%
+source-wordcount: '53'
+ht-degree: 16%
 
 ---
 
-# ContextStateUpdate{#contextstateupdate}
+# [!DNL ContextStateUpdate]{#contextstateupdate}
 
 Actualiza el estado del contexto de publicación de un recurso.
 

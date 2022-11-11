@@ -5,14 +5,14 @@ title: UploadDirectoryJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a23f1bc2-aa6a-4c1d-aab5-7f6dbd08682c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 6%
+source-wordcount: '467'
+ht-degree: 7%
 
 ---
 
-# UploadDirectoryJob{#uploaddirectoryjob}
+# [!DNL UploadDirectoryJob]{#uploaddirectoryjob}
 
 Carga archivos de directorios de servidor especificados de forma recurrente.
 
@@ -115,7 +115,7 @@ Sintaxis
    <td colname="col3"> <p>Dirección URL del destino de carga de archivos. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> </span> </span>postImageRenderingPublishJob </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> postImageRenderingPublish</span> </span>Trabajo </td> 
    <td colname="col2"> <span class="codeph"> tipos:ImageRendingPublishJob</span> </td> 
    <td colname="col3"> <p>Detalles de un trabajo de publicación de procesamiento de imágenes que se ejecuta una vez completada la carga. </p> </td> 
   </tr> 
@@ -172,12 +172,12 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unCompressOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:UncompressOptions</span> </td> 
-   <td colname="col3"> <p>Extraiga y procese el contenido de los archivos TAR/ZIP cargados con esta configuración opcional. </p> <p>Consulte <a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> DescompresiónOpciones</a>. </p> </td> 
+   <td colname="col3"> <p>Extraiga y procese el contenido de los archivos TAR/ZIP cargados con esta configuración opcional. </p> <p>Consulte <a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> Cancelar compresiónOpciones</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unSharpMaskOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:Opciones de máscara de enfoque</span> </td> 
-   <td colname="col3"> <p>Opciones que permiten controlar la configuración de máscara de enfoque al crear un archivo TIF piramidal optimizado. Utilice estos ajustes para mejorar el nitidez de la imagen. </p> <p>Consulte <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnSharpMaskOptions</a>. </p> </td> 
+   <td colname="col3"> <p>Opciones que permiten controlar la configuración de máscara de enfoque al crear un archivo TIF piramidal optimizado. Utilice estos ajustes para mejorar el nitidez de la imagen. </p> <p>Consulte <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> Opciones de máscara de enfoque</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> xmpKeywords</span> </span> </p> </td> 

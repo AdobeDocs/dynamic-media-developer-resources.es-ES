@@ -5,14 +5,14 @@ title: Cancelar compresiónOpciones
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 89222959-3701-4ea6-bcae-98ceec93764f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '92'
 ht-degree: 7%
 
 ---
 
-# Cancelar compresiónOpciones{#uncompressoptions}
+# [!DNL UnCompressOptions]{#uncompressoptions}
 
 Cargue la configuración para procesar archivos ZIP y TAR como recursos principales (Ninguno) o para extraer y cargar su contenido (No comprimir).
 
@@ -36,9 +36,9 @@ Cargue la configuración para procesar archivos ZIP y TAR como recursos principa
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Controla el procesamiento de archivos ZIP y TAR. Proporciona dos opciones: 
      <ul id="ul_F34E2F3B9B74450CA7E76BD9FD7137C2">
-      <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> Ninguno: </span> Procese como recursos principales. </li>
-      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> Descomprimir: </span> Extraiga y procese contenidos. </li>
-     </ul><p>Nota: Las constantes de cadena distinguen entre mayúsculas y minúsculas. Utilice <span class="codeph"> Descomprimir</span>, no <span class="codeph"> descomprimir</span> o <span class="codeph"> descomprimir</span>. </p></p> </td> 
+      <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> Ninguno:</span> Procesar como recursos principales. </li>
+      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> Descomprimir:</span> Extraer y procesar contenidos. </li>
+     </ul><p>Nota: Las constantes de cadena distinguen entre mayúsculas y minúsculas. Uso <span class="codeph"> Descomprimir</span>, no <span class="codeph"> descomprimir</span> o <span class="codeph"> descomprimir</span>. </p></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,7 +58,7 @@ Cargue la configuración para procesar archivos ZIP y TAR como recursos principa
 
 ## Utilizado por {#section-b2a829cf5511412e968bb2000f85cc31}
 
-El tipo `unCompressionOptions` lo utiliza:
+La variable `unCompressionOptions` El tipo lo usa:
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)

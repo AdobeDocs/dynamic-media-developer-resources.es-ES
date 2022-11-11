@@ -1,20 +1,20 @@
 ---
-description: Tipo de trabajo para permitir el reprocesamiento de archivos principales cargados anteriormente, incluida la recuperación de archivos PDF y la reoptimización de imágenes.
+description: Tipo de trabajo para permitir el reprocesamiento de archivos principales cargados anteriormente, incluida la recuperación de PDF y la reoptimización de imágenes.
 solution: Experience Manager
 title: ReprocessAssetsJob
-feature: Dynamic Media Classic,SDK/API,Administración de activos
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: b6078246-54e1-4119-b4f8-ba6a28577cff
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '464'
 ht-degree: 5%
 
 ---
 
-# ReprocessAssetsJob{#reprocessassetsjob}
+# [!DNL ReprocessAssetsJob]{#reprocessassetsjob}
 
-Tipo de trabajo para permitir el reprocesamiento de archivos principales cargados anteriormente, incluida la recuperación de archivos PDF y la reoptimización de imágenes.
+Tipo de trabajo para permitir el reprocesamiento de archivos principales cargados anteriormente, incluida la recuperación de PDF y la reoptimización de imágenes.
 
 Sintaxis
 
@@ -52,7 +52,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> preserveCrop</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
-   <td colname="col3"> <p>Controla la preservación de cualquier definición de recorte existente. El valor predeterminado es true.</p> <p>Si proporciona el parámetro manualCropOptions y los valores correspondientes, los nuevos valores (excepto 0,0,0,0) se aplican al recurso independientemente del valor preserveCrop.</p><p>Si <i>not</i> proporciona el parámetro manualCropOptions, se mantiene el valor de preserveCrop. Y, en el caso de true, se conservan los valores preserveCrop existentes; en el caso de false, se eliminan los valores preserveCrop .</p><p>Ejemplo:</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />    &lt;left&gt;190&lt;/left&gt;<br />    &lt;right&gt;310&lt;/right&gt;<br />    &lt;top&gt;160&lt;/top&gt;<br />    &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p> </td> 
+   <td colname="col3"> <p>Controla la preservación de cualquier definición de recorte existente. El valor predeterminado es true.</p> <p>Si proporciona el parámetro manualCropOptions y los valores correspondientes, los nuevos valores (excepto 0,0,0,0) se aplican al recurso independientemente del valor preserveCrop.</p><p>Si <i>not</i> proporcione el parámetro manualCropOptions , se mantiene el valor preserveCrop . Y, en el caso de true, se conservan los valores preserveCrop existentes; en el caso de false, se eliminan los valores preserveCrop .</p><p>Ejemplo:</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />   &lt;left&gt;190&lt;/left&gt;<br />   &lt;right&gt;310&lt;/right&gt;<br />   &lt;top&gt;160&lt;/top&gt;<br />   &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </p> </td> 
@@ -152,20 +152,20 @@ Sintaxis
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> unSharpMaskOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipos:Opciones de máscara de enfoque</span> </p> </td> 
-   <td colname="col3"> <p>Opciones que permiten controlar la configuración de máscara de enfoque al crear un archivo TIF piramidal optimizado. Utilice estos ajustes para mejorar el nitidez de la imagen. </p> <p>Consulte <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnSharpMaskOptions</a>. </p> </td> 
+   <td colname="col3"> <p>Opciones que permiten controlar la configuración de máscara de enfoque al crear un archivo TIF piramidal optimizado. Utilice estos ajustes para mejorar el nitidez de la imagen. </p> <p>Consulte <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> Opciones de máscara de enfoque</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Notas**
 
-Las opciones para `*CropOptions` incluyen:
+Opciones para `*CropOptions` incluir:
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-Las opciones para `*PublishJob` incluyen:
+Opciones para `*PublishJob` incluir:
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`

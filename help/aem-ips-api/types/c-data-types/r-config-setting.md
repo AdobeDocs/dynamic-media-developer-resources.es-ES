@@ -5,14 +5,14 @@ title: Configuración
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6d6421ce-1933-4310-b691-817392631969
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 25%
+source-wordcount: '27'
+ht-degree: 18%
 
 ---
 
-# Configuración{#configsetting}
+# [!DNL ConfigSetting]{#configsetting}
 
 Solo los desarrolladores de Dynamic Media lo utilizan.
 
@@ -22,6 +22,6 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| name | `xsd:string` | Nombre de configuración. |
-| valor | `xsd:string` | Valor de configuración. |
-| manejar | `xsd:string` | Gestione la configuración almacenada. |
+| [!DNL name] | `xsd:string` | Nombre de configuración. |
+| [!DNL value] | `xsd:string` | Valor de configuración. |
+| [!DNL handle] | `xsd:string` | Gestione la configuración almacenada. |

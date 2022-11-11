@@ -5,14 +5,14 @@ title: ExportJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f0266b9f-c6e0-4843-b002-0bc068d43424
-source-git-commit: f64229a72bef887f356b118a1da4ba5177c28bbc
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 16%
+source-wordcount: '198'
+ht-degree: 17%
 
 ---
 
-# ExportJob{#exportjob}
+# [!DNL ExportJob]{#exportjob}
 
 Tipo de trabajo para permitir la exportación autorizada de archivos cargados anteriormente.
 
@@ -37,32 +37,32 @@ ExportJob no admite los siguientes tipos de activos:
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL assetHandleArray]</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> tipos:HandleArray</span> </p> </td> 
-   <td colname="col3" valign="top"> <p>Lista de <span class="codeph"> assetHandle</span> que es necesario exportar. Consulte <a href="../../types/c-data-types/r-handle-array.md#reference-1b93fefb5477459faf9253b54349b5f9" type="reference" format="dita" scope="local"> HandleArray</a>. </p> </td> 
+   <td colname="col3" valign="top"> <p>Lista de <span class="codeph"> assetHandle</span> que deben exportarse. Consulte <a href="../../types/c-data-types/r-handle-array.md#reference-1b93fefb5477459faf9253b54349b5f9" type="reference" format="dita" scope="local"> HandleArray</a>. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fmt</span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL fmt]</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
-   <td colname="col3"> <p>Especifica el tipo de exportación <span class="codeph">. Valores posibles</span>: [orig, convertir] </p> <p> 
+   <td colname="col3"> <p>Especifica el tipo de <span class="codeph"> export.Valores posibles</span>: [orig, convertir] </p> <p> 
      <ul id="ul_16EF4B14100C4C7AA464CA9CF7F11D1C"> 
-      <li id="li_DAB2844CC55145C88A18A1F8EC4527F9">Si <span class="codeph"> fmt=orig</span>, los recursos se exportan como originales </li> 
-      <li id="li_07F2F8D159934D889FDC1022AB12B564">Si <span class="codeph"> fmt=converted</span>, los recursos se convierten al formato especificado en los parámetros de entrada <span class="codeph"> is_modifer</span> o <span class="codeph"> macro</span> </li> 
+      <li id="li_DAB2844CC55145C88A18A1F8EC4527F9">If <span class="codeph"> fmt=orig</span>, los recursos se exportan como originales </li> 
+      <li id="li_07F2F8D159934D889FDC1022AB12B564">If <span class="codeph"> fmt=convertir</span>, los recursos se convierten al formato especificado en la variable <span class="codeph"> is_modifer</span> o <span class="codeph"> macro</span> parámetros de entrada </li> 
      </ul> </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> is_modifier</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> xsd:string  </span> </p> </td> 
-   <td colname="col3"> <p>Especifica la cadena de URL de renderización <span class="codeph"> ImageServer</span>, que se adjunta a la solicitud de conversión <span class="codeph"> ExportJob</span>. </p> <p>Consulte la <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html" scope="external" format="html"> documentación de IS</a> para obtener más información sobre cómo enviar los modificadores de IS. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL is_modifier]</span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
+   <td colname="col3"> <p>Especifica el <span class="codeph"> ImageServer</span> cadena de URL de renderización, que se adjunta a ExportJob <span class="codeph"> convertir</span> solicitud. </p> <p>Consulte la <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html" scope="external" format="html"> Documentación de IS</a> para obtener más información sobre cómo enviar los modificadores IS. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> macro</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> xsd:string  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL macro]</span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
    <td colname="col3"> <p></p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> emailSetting</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> xsd:string  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL emailSetting]</span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
    <td colname="col3"> <p>Opción de configuración de correo electrónico. Valores posibles: </p> <p> 
      <ul id="ul_0EEDAE11B7CD4C53A6E4B2B8CB2CF730"> 
       <li id="li_F235F93828594ED78C6D464440F953FF"> <span class="codeph"> Todos</span> </li> 
@@ -73,14 +73,14 @@ ExportJob no admite los siguientes tipos de activos:
      </ul> </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> clientId</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> xsd:string  </span> </p> </td> 
-   <td colname="col3"> <p>Especifica la dirección IP del cliente o cliente que inició la solicitud de exportación. </p> <p> <p>Nota:  este parámetro no se rellena activamente actualmente y está estrictamente reservado para uso futuro únicamente. </p> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL clientId]</span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
+   <td colname="col3"> <p>Especifica la dirección IP del cliente o cliente que inició la solicitud de exportación. </p> <p> <p>Nota: este parámetro no se rellena activamente actualmente y está estrictamente reservado para uso futuro únicamente. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para las solicitudes ExportJob en las que se proporcionan `fmt=convert` y `is_modifier` y `macro`, el archivo de destino respeta el formato proporcionado por `macro`. Por ejemplo:
+Para solicitudes ExportJob donde `fmt=convert` y ambos `is_modifier` y `macro` , el archivo de destino respeta el formato proporcionado por `macro`. Por ejemplo:
 
 ```
 input_file = fileToExport.jpg

@@ -5,14 +5,14 @@ title: Empresa
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e831a081-145a-4fb4-a617-7eecea8d40ed
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '32'
-ht-degree: 34%
+source-wordcount: '29'
+ht-degree: 27%
 
 ---
 
-# Empresa{#company}
+# [!DNL Company]{#company}
 
 Representa una empresa.
 
@@ -23,6 +23,6 @@ Sintaxis
 | Nombre | Tipo | Descripción |
 |---|---|---|
 | companyHandle | `xsd:string` | Identificador de la empresa. |
-| name | `xsd:string` | Nombre de empresa. |
+| [!DNL name] | `xsd:string` | Nombre de empresa. |
 | rootPath | `xsd:string` | Ruta raíz de la empresa. |
-| expires | `xsd:dateTime` | Fecha y hora en que caduca la empresa. |
+| [!DNL expires] | `xsd:dateTime` | Fecha y hora en que caduca la empresa. |
