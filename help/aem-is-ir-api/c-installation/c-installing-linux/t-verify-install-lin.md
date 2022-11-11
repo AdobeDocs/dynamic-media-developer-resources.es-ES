@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 273478ab-f245-48ef-a125-fb738054484e
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,6 @@ Image Server está instalado como un demonio Linux®.
 
 [!DNL  http:// *[!DNL server:port]*/ir/render]
 
-En las respuestas, compruebe la presencia de elementos que empiecen por `imageServer`, que indican que Platform Server podría comunicarse correctamente con el Image Server.
+En las respuestas, compruebe la presencia de elementos que empiecen por `imageServer`, que indican que la variable [!DNL Platform Server] pudo comunicarse correctamente con el servidor de imágenes.
 
 >Se puede realizar una verificación adicional utilizando las páginas de muestra de los paquetes de documentación y demostración, si están instalados.

@@ -5,9 +5,9 @@ title: Límites de tamaño de imagen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 75ec58ee-8c98-46cb-96b2-79d1c32e576f
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Utilice esta configuración del servidor para establecer los límites de tamaño
 
 ## IS::MaxMessageSize - Límite de tamaño de respuesta {#section-bd942385d4d144cd904003695d72c85e}
 
-Limita el tamaño de los datos que el servidor de imágenes puede enviar al servidor de Platform. En la práctica, esto limita el tamaño de la imagen de respuesta codificada/comprimida que Image Serving puede devolver al cliente a través de HTTP (Mbytes).
+Limita el tamaño de los datos que el servidor de imágenes puede enviar a la variable [!DNL Platform Server]. En la práctica, esto limita el tamaño de la imagen de respuesta codificada/comprimida que Image Serving puede devolver al cliente a través de HTTP (Mbytes).
 
 ## IS::MaxRenderRgnPixels - Límite de tamaño de imagen de salida {#section-868ceb9764dd42dfb133ffeb72f9d3fb}
 
@@ -26,11 +26,11 @@ Limita el tamaño de las imágenes que puede producir el servidor de imágenes (
 
 ## IS::MaxSavePixels - Límite de tamaño para guardar en archivos {#section-d1547c4afa88467080ab08356f775e06}
 
-Limita el tamaño de las imágenes que el Image Server escribirá en los archivos con el comando `req=saveToFile`. Valor entero mayor que 0 en millones de píxeles. Se devuelve un error si la operación de guardado de archivos supera ese límite. El valor predeterminado es de 100 millones de píxeles.
+Limita el tamaño de las imágenes que el servidor de imágenes escribirá en los archivos con la variable `req=saveToFile` comando. Valor entero mayor que 0 en millones de píxeles. Se devuelve un error si la operación de guardado de archivos supera ese límite. El valor predeterminado es de 100 millones de píxeles.
 
 ## IS::MaxNonDsfSize - Límite De Tamaño Para Imágenes De Entrada Que No Sean PTIFF {#section-50de28a7158a436393cce5da0d1e4d46}
 
-El tamaño máximo (en píxeles) de imágenes que no son PTIFF que el servidor de imágenes puede abrir. El servicio de imágenes devolverá un error cuando se intente acceder a una imagen que no sea de PTIFF y que supere este límite.
+Tamaño máximo (en píxeles) de imágenes que no son PTIFF y que el servidor de imágenes puede abrir. El servicio de imágenes devolverá un error cuando se intente acceder a una imagen que no sea de PTIFF y que supere este límite.
 
 >[!NOTE]
 >

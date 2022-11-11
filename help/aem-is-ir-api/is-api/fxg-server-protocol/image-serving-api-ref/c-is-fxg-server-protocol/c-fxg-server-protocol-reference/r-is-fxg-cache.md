@@ -1,24 +1,24 @@
 ---
-description: Control de caché. Permite deshabilitar selectivamente el almacenamiento en caché del lado del cliente (explorador, servidores proxy, sistemas de almacenamiento en caché de red) y el almacenamiento en caché en la caché interna de Platform Server.
+description: Control de caché. Permite desactivar selectivamente el almacenamiento en caché del lado del cliente (explorador, servidores proxy, sistemas de almacenamiento en caché de red) y el almacenamiento en caché en la [!DNL Platform Server] caché.
 solution: Experience Manager
 title: cache
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 622c36fa-c209-4149-a7db-85067215b5e5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 1%
+source-wordcount: '97'
+ht-degree: 2%
 
 ---
 
 # cache{#cache}
 
-Control de caché. Permite deshabilitar selectivamente el almacenamiento en caché del lado del cliente (explorador, servidores proxy, sistemas de almacenamiento en caché de red) y el almacenamiento en caché en la caché interna de Platform Server.
+Control de caché. Permite desactivar selectivamente el almacenamiento en caché del lado del cliente (explorador, servidores proxy, sistemas de almacenamiento en caché de red) y el almacenamiento en caché en la [!DNL Platform Server] caché.
 
 `&cache= *`cacheControl`*`
 
-`&cache= *``*, *`clientControlserverControl`*`
+`&cache= *`clientControl`*, *`serverControl`*`
 
 <table id="simpletable_DA4D92F0AEF84FD49953876796058B7F"> 
  <tr class="strow"> 
@@ -35,8 +35,8 @@ Control de caché. Permite deshabilitar selectivamente el almacenamiento en cach
  </tr> 
 </table>
 
-Si solo se especifica un valor *`cacheControl`* , se aplica tanto a las cachés de cliente como de servidor.
+Si solo uno *`cacheControl`* se especifica, se aplica tanto a las cachés de cliente como de servidor.
 
-Atributo de solicitud. Se omite cuando la solicitud no devuelve una imagen de respuesta. *`clientControl`* se ignora cuando el catálogo de imágenes deshabilita el almacenamiento en caché del lado del cliente (si  `catalog::Expiration` tiene un valor negativo).
+Atributo de solicitud. Se omite cuando la solicitud no devuelve una imagen de respuesta. *`clientControl`* se ignora cuando el catálogo de imágenes deshabilita el almacenamiento en caché del lado del cliente (si `catalog::Expiration` tiene un valor negativo).
 
 Defaults to `cache=on,on`.

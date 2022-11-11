@@ -5,9 +5,9 @@ title: Umbrales de alerta
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 1ae76692-2688-4902-82a0-d0751408eee7
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Se envía una alerta de tráfico mínima cuando el número promedio de solicitud
 
 ## AS::monitorAlertGenerator.minFreeHeapSpace - Umbral de espacio libre en pilas {#section-ce6705045f6842769030ccb1894594cc}
 
-Especifica el espacio mínimo libre en la pila de Java. Se envía una alerta de prioridad inmediatamente después de un ciclo de recopilación de residuos de Java cuando el espacio libre en pilas está por debajo de este umbral. Se recomiendan 50 MB para el funcionamiento seguro de Platform Server. Mantener el espacio libre en montículos por encima de este valor reduce la frecuencia de los ciclos de recolección de residuos, lo que puede mejorar el rendimiento general del servidor. Valor entero en bytes, 0 o más.
+Especifica el espacio mínimo libre en la pila de Java. Se envía una alerta de prioridad inmediatamente después de un ciclo de recopilación de residuos de Java cuando el espacio libre en pilas está por debajo de este umbral. Se recomiendan 50 MB para el funcionamiento seguro del [!DNL Platform Server]. Mantener el espacio libre en montículos por encima de este valor reduce la frecuencia de los ciclos de recolección de residuos, lo que puede mejorar el rendimiento general del servidor. Valor entero en bytes, 0 o más.
 
 ## AS::monitorAlertGenerator.maxOverap: Número máximo de solicitudes simultáneos {#section-ddc6925bff944758ab19bcc9cf3f2589}
 

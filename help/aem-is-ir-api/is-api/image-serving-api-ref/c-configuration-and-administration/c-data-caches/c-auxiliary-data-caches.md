@@ -5,9 +5,9 @@ title: Cachés de datos auxiliares
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 39906c86-fd9e-4961-a8ba-2ac44c4214a2
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
@@ -18,4 +18,4 @@ Los datos de imagen intermedios producidos por solicitudes de servicio de imáge
 
 Las imágenes obtenidas de servidores HTTP externos también se almacenan en la caché de datos de respuesta. Estas imágenes se validan automáticamente con la utilidad validate antes de que se genere la entrada de caché.
 
-Platform Server compila datos de catálogo de imágenes para un acceso eficiente. Estos datos se almacenan en `CS::CatalogCacheFolder`.
+La variable [!DNL Platform Server] compila los datos del catálogo de imágenes para un acceso eficiente. Estos datos se almacenan en `CS::CatalogCacheFolder`.

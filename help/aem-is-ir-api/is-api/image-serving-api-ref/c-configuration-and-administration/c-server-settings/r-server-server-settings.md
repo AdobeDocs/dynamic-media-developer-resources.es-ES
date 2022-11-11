@@ -5,9 +5,9 @@ title: Servidores
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 10970ca8-b209-4adf-b027-6eb8d7a15db6
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '342'
 ht-degree: 0%
 
 ---
@@ -26,15 +26,15 @@ Tanto una versión de 32 y 64 bits del Image Server están disponibles para Linu
 
 >[!NOTE]
 >
->El modo de 64 bits no es compatible con Windows. Solo se puede especificar `ImageServer32`. De lo contrario, el servicio de imágenes no se iniciará.
+>El modo de 64 bits no es compatible con Windows. Solo `ImageServer32` puede especificarse. De lo contrario, el servicio de imágenes no se iniciará.
 
-## SV::PsHeapSize - Tamaño de pila del servidor de plataforma {#section-fd83715948764aeda58d6b3a9f9f8be9}
+## SV::PsHeapSize - [!DNL Platform Server] Tamaño de pila {#section-fd83715948764aeda58d6b3a9f9f8be9}
 
-El tamaño de pila de Java para Platform Server. El valor predeterminado es &quot; `512m`&quot; (512 Mbytes).
+El tamaño de pila de Java para la variable [!DNL Platform Server]. El valor predeterminado es &quot; `512m`&quot; (512 Mbytes).
 
 ## IS::TcpPort, PS::isConnection.port - Puerto de escucha del servidor de imágenes {#section-5421bfd2ca2a4a979faf812b6fdb2887}
 
-Especifica el puerto utilizado para la comunicación entre Platform Server y Image Server. Asegúrese de especificar un número de puerto que no se utilice de otro modo en el sistema host.
+Especifica el puerto utilizado para la comunicación entre [!DNL Platform Server] y Image Server. Asegúrese de especificar un número de puerto que no se utilice de otro modo en el sistema host.
 
 >[!NOTE]
 >

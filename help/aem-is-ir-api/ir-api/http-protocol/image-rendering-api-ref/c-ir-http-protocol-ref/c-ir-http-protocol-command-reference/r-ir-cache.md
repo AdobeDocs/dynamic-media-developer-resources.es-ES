@@ -1,20 +1,20 @@
 ---
 title: cache
-description: Control de caché. Permite deshabilitar selectivamente el almacenamiento en caché del lado del cliente (explorador, servidores proxy, sistemas de almacenamiento en caché de red) y el almacenamiento en caché en la caché interna de Platform Server.
+description: Control de caché. Permite desactivar selectivamente el almacenamiento en caché del lado del cliente (explorador, servidores proxy, sistemas de almacenamiento en caché de red) y el almacenamiento en caché en la [!DNL Platform Server] caché.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4745197a-9f2d-4e33-8c0e-0067fbd65254
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 1%
+source-wordcount: '199'
+ht-degree: 2%
 
 ---
 
 # cache {#cache}
 
-Control de caché. Permite deshabilitar de forma selectiva el almacenamiento en caché del lado del cliente (explorador, servidores proxy, sistemas de almacenamiento en caché de red) y el almacenamiento en caché en la caché interna de Platform Server.
+Control de caché. Permite desactivar de forma selectiva el almacenamiento en caché del lado del cliente (explorador, servidores proxy, sistemas de almacenamiento en caché de red) y el almacenamiento en caché en la [!DNL Platform Server] caché.
 
 `cache= *`cacheControl`*`
 

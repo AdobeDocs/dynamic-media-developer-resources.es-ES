@@ -5,16 +5,16 @@ title: Id
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 37945115-c93d-4f59-b3d3-a2c4ee7fc990
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 7%
+source-wordcount: '98'
+ht-degree: 8%
 
 ---
 
 # Id {#id}
 
-Valor clave de índice mediante el cual Platform Server busca los registros del archivo de datos de imagen.
+El valor de clave de índice mediante el cual la variable busca los registros del archivo de datos de imagen [!DNL Platform Server].
 
 Normalmente, un identificador de imagen corto y único, como un número SKU, posiblemente con algún tipo de sufijo de imagen, si un SKU tiene varias imágenes. Puede ser también una cadena más compleja que se parezca más a una ruta de archivo, para admitir una fácil adaptación retro de los sitios web con Image Serving.
 

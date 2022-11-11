@@ -5,9 +5,9 @@ title: General
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 3e4079e7-6def-4938-bb5b-c8122502712d
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '224'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ Configuración general del servidor
 
 ## TC::PsPort - Puerto principal de escucha {#section-d31d3051aa994a76b60b70c3d9f7e89f}
 
-Especifica el puerto de escucha principal de Platform Server. Este puerto también se utiliza para acceder a la documentación y a las páginas de ejemplo de Image Serving, Image Rendering y Dynamic Media Viewers (si están instalados).
+Especifica el puerto de escucha principal para el [!DNL Platform Server]. Este puerto también se utiliza para acceder a la documentación y a las páginas de ejemplo de Image Serving, Image Rendering y Dynamic Media Viewers (si están instalados).
 
 ## IS::CacheServerUrl - Url Raíz Del Servicio De Almacenamiento En Caché {#section-bcca227a1f91453b834db4ea050968e2}
 

@@ -5,9 +5,9 @@ title: ImageServing
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 252e12d9-703e-4fbb-a156-8dcdc3bc4f2e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '147'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ Secuencia de comandos de control de servicio de imágenes. Esta secuencia de com
    <td colname="col2"> <p> Inicie el Supervisor del servidor y todos los demás componentes de servicio de imágenes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> stop  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> stop </span> </p> </td> 
    <td colname="col2"> <p> Detenga todos los componentes de servicio de imágenes, incluido el Supervisor del servidor. </p> </td> 
   </tr> 
   <tr> 
@@ -43,12 +43,12 @@ Secuencia de comandos de control de servicio de imágenes. Esta secuencia de com
    <td colname="col2"> <p>Reinicie todos los componentes de servicio de imágenes, incluido el Supervisor del servidor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> reiniciar { ps | es | svg }  </span> </p> </td> 
-   <td colname="col2"> <p> Reinicia Tomcat/Platform Server, Image Server o SVG. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> reiniciar { ps | es | svg } </span> </p> </td> 
+   <td colname="col2"> <p> Reinicia Tomcat/[!DNL Platform Server], el servidor de imágenes o el SVG. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> status [ ps | es | svg ]  </span> </p> </td> 
-   <td colname="col2"> <p>Devuelve información de uso de memoria actual y de tiempo activo para Image Server, Tomcat/Platform Server y SVGserver, o solo el estado del servidor especificado; se devuelve un mensaje informativo en su lugar si el Supervisor del servidor no se está ejecutando. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> status [ ps | es | svg ] </span> </p> </td> 
+   <td colname="col2"> <p>Devuelve información de uso de tiempo activo y de memoria actual para Image Server, Tomcat/[!DNL Platform Server], y SVGserver, o estado solo para el servidor especificado; se devuelve un mensaje informativo en su lugar si el Supervisor del servidor no se está ejecutando. </p> </td> 
   </tr> 
  </tbody> 
 </table>

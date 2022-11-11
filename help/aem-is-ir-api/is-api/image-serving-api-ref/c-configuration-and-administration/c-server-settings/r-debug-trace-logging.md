@@ -5,10 +5,10 @@ title: Registro de Debug_trace
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: fe1fc984-3c6b-4bd1-b5ba-630860ac7319
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 0%
+source-wordcount: '385'
+ht-degree: 1%
 
 ---
 
@@ -22,7 +22,7 @@ Utilice esta configuración del servidor para depurar el registro de seguimiento
 
 ## SV::log - Ruta del archivo de registro de seguimiento del supervisor del servidor {#section-3697bc480ff646e79cacc2812c55ef26}
 
-Nombre de carpeta y archivo base para los archivos de registro del Supervisor del servidor. La ruta puede ser absoluta o relativa a *[!DNL install_folder]*. El Supervisor del servidor adjuntará un guión y la fecha actual ( *[!DNL -yyyy-mm-dd]*) al nombre del archivo (antes del sufijo del archivo, si lo hubiera). Se recomienda enviar todos los archivos de registro a la misma carpeta que los archivos de registro de Platform Server ( `PS::LogFolder`) para aprovechar la administración de archivos de registro implementada por Platform Server ( `PS::LogDays`). El valor predeterminado es [!DNL logs/Supervisor.log].
+Nombre de carpeta y archivo base para los archivos de registro del Supervisor del servidor. La ruta puede ser absoluta o relativa a *[!DNL install_folder]*. El Supervisor del servidor adjuntará un guión y la fecha actual ( *[!DNL -yyyy-mm-dd]*) al nombre del archivo (antes del sufijo del archivo, si lo hay). Se recomienda enviar todos los archivos de registro a la misma carpeta que [!DNL Platform Server] archivos de registro ( `PS::LogFolder`) para aprovechar la administración de archivos de registro implementada por el [!DNL Platform Server] ( `PS::LogDays`). El valor predeterminado es [!DNL logs/Supervisor.log].
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ El nivel de registro puede ser 1, 2, 3 o 4. El valor predeterminado es 2.
 
 ## IS::Log - Ruta del archivo de registro de depuración del servidor de imágenes {#section-73a3f09b77f2446c9f82207b7d8aec39}
 
-Carpeta y nombre de archivo base para los archivos de registro de seguimiento del servidor de imágenes. La ruta puede ser absoluta o relativa a *[!DNL install_folder]*. ImageServer adjuntará un guión y la fecha actual ( *[!DNL -yyyy-mm-dd]*) al nombre del archivo (antes del sufijo del archivo, si lo hubiera). Se recomienda enviar los archivos de registro del servidor de imágenes a la misma carpeta que los archivos de registro del servidor de plataforma ( `PS::LogFolder`) para aprovechar la administración de archivos de registro implementada por el servidor de plataforma (consulte `PS::LogDays`).
+Carpeta y nombre de archivo base para los archivos de registro de seguimiento del servidor de imágenes. La ruta puede ser absoluta o relativa a *[!DNL install_folder]*. ImageServer adjuntará un guión y la fecha actual ( *[!DNL -yyyy-mm-dd]*) al nombre del archivo (antes del sufijo del archivo, si lo hay). Se recomienda enviar los archivos de registro del servidor de imágenes a la misma carpeta que [!DNL Platform Server] archivos de registro ( `PS::LogFolder`) para aprovechar la administración de archivos de registro implementada por el [!DNL Platform Server] (consulte `PS::LogDays`).
 
 >[!NOTE]
 >
@@ -44,13 +44,13 @@ Carpeta y nombre de archivo base para los archivos de registro de seguimiento de
 
 El nivel de registro puede ser 1, 2, 3 o 4 (el valor predeterminado es 2)
 
-El nivel 1 registra eventos relacionados con conexiones de inicio, cierre y servidor de plataforma.
+Nivel 1 registra eventos relacionados con el inicio, el cierre y [!DNL Platform Server] conexiones.
 
 El nivel 2 también registra los registros que se conectan a las imágenes de origen y que se desconectan de ellas.
 
-El Nivel 3 añade el registro de solicitudes de datos de píxeles y el envío de los mismos al Servidor de Platform.
+El nivel 3 añade el registro de solicitudes de datos de píxeles y el envío de los mismos al [!DNL Platform Server].
 
-Level 4 registra todos los mensajes recibidos del Servidor de plataforma.
+El nivel 4 registra todos los mensajes recibidos del [!DNL Platform Server].
 
 Los niveles 3 y 4 solo deben utilizarse con fines de depuración, ya que los archivos de registro pueden llegar a ser muy grandes.
 

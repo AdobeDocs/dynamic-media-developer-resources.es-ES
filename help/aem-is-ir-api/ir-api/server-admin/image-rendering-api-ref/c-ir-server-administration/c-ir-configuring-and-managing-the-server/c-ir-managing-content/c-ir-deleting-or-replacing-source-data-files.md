@@ -5,9 +5,9 @@ title: Eliminación o reemplazo de archivos de datos de origen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 9daf8534-a844-4f4a-8e99-8dc751acd550
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,6 @@ Tenga en cuenta que eliminar o reemplazar un archivo de datos de origen solo hac
 
 El servidor de procesamiento debe detenerse para reemplazar otros archivos de datos.
 
-Las entradas de caché de Platform Server se invalidan automáticamente cuando se reemplazan archivos de material o viñetas. Sustituir archivos de perfil ICC no invalida las cachés.
+[!DNL Platform Server] las entradas de caché se invalidan automáticamente cuando se reemplazan archivos de material o viñetas. Sustituir archivos de perfil ICC no invalida las cachés.
 
 Para evitar las complicaciones de reemplazar archivos, se recomienda dar un nombre nuevo a un archivo de reemplazo y actualizar las entradas de catálogo correspondientes. Esto permite reemplazar cualquier archivo de datos mientras el servidor está activo y hace que las entradas de caché del servidor se vuelvan obsoletas automáticamente sin intervención adicional. Este método se puede utilizar para todos los archivos de datos administrados por catálogos de imágenes.

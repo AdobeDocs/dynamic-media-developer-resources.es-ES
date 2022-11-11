@@ -5,9 +5,9 @@ title: SSL
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 4a5c52cc-de47-48e0-ac92-6ee66a58a7ea
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '87'
 ht-degree: 6%
 
 ---
@@ -18,7 +18,7 @@ Utilice esta configuración de servidor para SSL.
 
 ## TC::SslPort - Puerto de escucha {#section-c80eb582bf684b3fa7313a77cc606769}
 
-Especifica el puerto de escucha para Platform Server para conexiones SSL. El valor predeterminado es 8443.
+Especifica el puerto de escucha para el [!DNL Platform Server] para conexiones SSL. El valor predeterminado es 8443.
 
 ## TC::keystoreFile: ruta de archivo del almacén de claves {#section-0cdf9b3cfcf249818b22221d01bafebe}
 
@@ -30,4 +30,4 @@ La contraseña del archivo del almacén de claves. El valor predeterminado es `s
 
 ## TC::keystoreType - Tipo de almacén de claves {#section-8f263e1ba67740728cd39181960d7c7d}
 
-Seleccione el tipo de almacén de claves. Se admiten &#39; `Java'` (predeterminado) y &#39; `PKCS12`&#39;.
+Seleccione el tipo de almacén de claves. &#39; `Java'` (predeterminado) y &#39; `PKCS12`&quot; son compatibles.

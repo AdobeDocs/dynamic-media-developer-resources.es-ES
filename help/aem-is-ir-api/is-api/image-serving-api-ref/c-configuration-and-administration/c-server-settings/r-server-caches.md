@@ -5,9 +5,9 @@ title: Cachés de servidor
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 6a8d44d3-ecac-4fe0-9f81-28b1cd55e7e1
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Utilice esta configuración de servidor para las cachés de servidor.
 
 ## PS::cache.rootPaths - Carpetas de datos de caché {#section-f0aa808304d74ecdb0c3644f11906c53}
 
-Las carpetas raíz para la caché de disco de Platform Server. Una o más rutas de archivo absolutas o rutas relativas a *[!DNL install_folder]*, separados por punto y coma (;). Los datos de la caché de respuestas HTTP se distribuyen uniformemente en todas las carpetas especificadas. Las cachés de las cachés auxiliares (catálogos de imágenes compiladas y datos de imágenes externas) se encuentran en la carpeta de caché principal (la primera carpeta de la lista).
+Las carpetas raíz para el [!DNL Platform Server]la caché de disco de . Una o más rutas de archivo absolutas o rutas relativas a *[!DNL install_folder]*, separados por punto y coma (;). Los datos de la caché de respuestas HTTP se distribuyen uniformemente en todas las carpetas especificadas. Las cachés de las cachés auxiliares (catálogos de imágenes compiladas y datos de imágenes externas) se encuentran en la carpeta de caché principal (la primera carpeta de la lista).
 
 ## PS::cache.maxSize - Tamaño de caché de datos de respuesta {#section-ed2e1e7ba4bd4e13b77bb20c4cacddb4}
 

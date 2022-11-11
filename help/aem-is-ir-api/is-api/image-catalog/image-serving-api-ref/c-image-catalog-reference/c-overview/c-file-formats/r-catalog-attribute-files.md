@@ -5,10 +5,10 @@ title: Archivos de atributos del catálogo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 79d9439d-7749-4ae1-aa73-e88e01cf7555
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 0%
+source-wordcount: '195'
+ht-degree: 1%
 
 ---
 
@@ -16,14 +16,14 @@ ht-degree: 0%
 
 Los archivos de atributos del catálogo pueden tener cualquier nombre, pero deben tener un sufijo de archivo .ini. Se pueden mantener fácilmente con cualquier editor de texto.
 
-Los archivos de atributos del catálogo constan de un conjunto de registros de texto, separados por un único `<CR>` (código ASCII `0xD`), un único `<LF>` (código ASCII `0xA`) o un par `<CR><LF>`. Cada registro consta de un nombre de atributo y uno o varios valores de atributo separados por coma:
+Los archivos de atributos del catálogo constan de un conjunto de registros de texto separados por un único `<CR>` (Código ASCII `0xD`), un solo `<LF>` (Código ASCII `0xA`) o a `<CR><LF>` par. Cada registro consta de un nombre de atributo y uno o varios valores de atributo separados por coma:
 
-`*``*= *`namevales`*{<CR>|<LF>|<CR><LF }`
+`*`name`*= *`values`*{<CR>|<LF>|<CR><LF }`
 
 <table id="simpletable_0F879121670046AE9414298725961303"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> values</span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> val</span>[,<span class="varname"> valores</span>]</span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> val</span>[,<span class="varname"> values</span>]</span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> name</span> </p> </td> 
@@ -31,13 +31,13 @@ Los archivos de atributos del catálogo constan de un conjunto de registros de t
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> val</span> </p></td> 
-  <td class="stentry"> <p>Valor de atributo. No debe incluir caracteres <span class="codeph"> &lt;CR&gt;</span> ni <span class="codeph"> &lt;LF&gt;</span>, a menos que se evite con una sola barra invertida justo antes del carácter de nueva línea. </p></td> 
+  <td class="stentry"> <p>Valor de atributo. No debe incluir <span class="codeph"> &lt;cr&gt;</span> o <span class="codeph"> &lt;lf&gt;</span> , a menos que se haya escapado con una sola barra invertida justo antes del carácter de nueva línea. </p></td> 
  </tr> 
 </table>
 
 El espacio en blanco entre tokens es opcional.
 
-Platform Server ignora los registros con nombres de atributos desconocidos.
+Los registros con nombres de atributo desconocidos se ignoran mediante la variable [!DNL Platform Server].
 
 Los nombres de atributos pueden consistir en cualquier combinación de letras ASCII, números, así como &quot;-&quot;, &quot;_&quot; y &quot;.&quot;.
 

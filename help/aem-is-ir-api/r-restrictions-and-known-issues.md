@@ -5,9 +5,9 @@ title: Restricciones y problemas conocidos
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fd32456b-9d99-4e82-a61c-2fc4d7030630
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1222'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,9 @@ Existen algunas restricciones y problemas conocidos que deben tenerse en cuenta 
 * Si la última línea de texto no cabe, se coloca toda la línea en lugar de aparecer como cortada.
 * `\slmult` y `\sl` comportarse de forma diferente a MS Word y `text=`, simplemente surten efecto para los párrafos actual y siguientes.
 
-* `\sb` se aplica al primer párrafo para MS Word y `text=`, Adobe InDesign y Photoshop no lo hacen.
+* `\sb` se aplica al primer párrafo para MS Word y `text=`, Adobe InDesign y [!DNL Photoshop] no haga esto.
 
-* `\sa` se aplica al último párrafo para MS Word y `text=`, Adobe InDesign y Photoshop no lo hacen.
+* `\sa` se aplica al último párrafo para MS Word y `text=`, Adobe InDesign y [!DNL Photoshop] no haga esto.
 
 ## Compatibilidad con versiones anteriores {#section-a76842f751944f4fb664af296d064122}
 
@@ -90,15 +90,15 @@ La biblioteca Digimarc se niega a aplicar una marca de agua Digimarc a una image
 
    Para los TIFF no piramidables de servicio de imágenes, aumente el valor de la propiedad de `MaxNonDsfSize` en el [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] archivo de configuración.
 
-* Adobe Photoshop CS3 no guarda los archivos PSD en capas de forma predeterminada en una imagen compuesta.
+* Adobe [!DNL Photoshop] CS3 no guarda los archivos PSD en capas de forma predeterminada en una imagen compuesta.
 
    *Síntomas*:
 
-   El archivo de PSD en capas Adobe Photoshop CS3 se muestra en negro con el texto &quot;Este archivo Photoshop en capas no se guardó con una imagen compuesta&quot;. para la imagen de respuesta de Image Serving o en IPS.
+   El Adobe [!DNL Photoshop] El archivo de PSD en capas CS3 se muestra en negro con el texto siguiente: &quot;Esta capa [!DNL Photoshop] no se guardó con una imagen compuesta.&quot; para la imagen de respuesta de Image Serving o en IPS.
 
    *Solución*:
 
-   Guarde el archivo Adobe Photoshop CS3 con la máxima compatibilidad activada.
+   Guardar el Adobe [!DNL Photoshop] Archivo CS3 con máxima compatibilidad activada.
 
 * Asignar el perfil ICC a una imagen de respuesta CMYK/JPEG hace que los colores se inviertan en algunos navegadores.*Solución alternativa*:
 
@@ -116,7 +116,7 @@ La biblioteca Digimarc se niega a aplicar una marca de agua Digimarc a una image
 * Las imágenes PNG de 16 bpc no son compatibles con el texto PhotoFont.
 * Las correcciones de color para imágenes PNG con perfiles de color incrustados utilizan opciones codificadas. La interpretación es colorimétrica relativa y la compensación de punto negro está activada para el texto PhotoFont.
 * La búsqueda basada en archivos no se admite cuando la traducción de configuración regional está habilitada en la empresa [!DNL ini] archivo.
-* Image Serving no escribe correctamente las rutas de Photoshop no cerradas.
+* El servicio de imágenes no escribe sin cerrar [!DNL Photoshop] rutas correctamente.
 * El servicio de imágenes actualmente no admite el procesamiento de archivos TIFF exportados con Adobe Media Encoder 4.0.1 o versiones anteriores. Adobe Media Encoder se incluye con Premiere Pro CS4, After Effects CS4 y Creative Suite 4 Production Premium.
 * Uso `text=` con capas de tamaño automático no admite cadenas RTF que utilicen más de un ajuste para la justificación de líneas.
 

@@ -5,9 +5,9 @@ title: Referencia del conjunto de reglas
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 194600d0-72d9-47fb-8525-598beb2ce17d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ El procesamiento de imágenes admite un mecanismo de preprocesamiento de solicit
 
 <!--<a id="section_F44601A65CE1451EAD0A449C66B773CC"></a>-->
 
-Las colecciones de reglas de preprocesamiento (*conjuntos de reglas*) se pueden adjuntar a catálogos de material o al catálogo predeterminado. Las reglas del catálogo predeterminado se aplican solo si la solicitud no adjunta un catálogo de materiales específico.
+Colecciones de reglas de preprocesamiento (*conjuntos de reglas*) se puede adjuntar a catálogos de material o al catálogo predeterminado. Las reglas del catálogo predeterminado se aplican solo si la solicitud no adjunta un catálogo de materiales específico.
 
 Las reglas de preprocesamiento de solicitudes pueden modificar la ruta y las partes de consulta de las solicitudes antes de que las procese el analizador de solicitudes del servidor, incluida la manipulación de la ruta, la adición de comandos, la modificación de los valores de los comandos y la aplicación de plantillas o macros. También se pueden utilizar reglas para configurar y anular algunos atributos de catálogo, así como para limitar el servicio a direcciones IP de cliente específicas.
 
@@ -47,9 +47,9 @@ Los conjuntos de reglas se almacenan como archivos de documento XML. La ruta rel
 </ruleset>
 ```
 
-Los elementos `<?xml>`, `<!DOCTYPE>` y `<ruleset>` siempre son obligatorios en un archivo XML de conjunto de reglas válido, incluso si no se han definido reglas reales.
+La variable `<?xml>`, `<!DOCTYPE>` y `<ruleset>` los elementos siempre son necesarios en un archivo XML de conjunto de reglas válido, aunque no se hayan definido reglas reales.
 
-Se permite un elemento `<ruleset>` que contenga cualquier número de `<rule>` elementos.
+One `<ruleset>` elemento que contiene cualquier número de `<rule>` están permitidos.
 
 El contenido de los archivos de reglas de preprocesamiento distingue entre mayúsculas y minúsculas.
 
@@ -57,15 +57,15 @@ El contenido de los archivos de reglas de preprocesamiento distingue entre mayú
 
 Antes de cualquier otro procesamiento, se analiza parcialmente una solicitud HTTP entrante para determinar qué catálogo de materiales debe aplicarse. Una vez identificado el catálogo, se aplica el conjunto de reglas para el catálogo seleccionado (o el catálogo predeterminado, si no se identificó ningún catálogo específico).
 
-Los elementos `<rule>` se buscan en el orden especificado para una coincidencia con el contenido del elemento `<expression>` ( *`expression`*).
+La variable `<rule>` se buscan los elementos en el orden especificado para que coincidan con el contenido del `<expression>` element ( *`expression`*).
 
-Si coincide con un `<rule>`, se aplica el *`substitution`* opcional y la cadena de solicitud modificada se pasa al analizador de solicitudes del servidor para su procesamiento normal.
+Si `<rule>` coincide, la variable *`substitution`* se aplica y la cadena de solicitud modificada se pasa al analizador de solicitudes del servidor para el procesamiento normal.
 
-Si no se realiza una coincidencia correcta cuando se llega al final del `<ruleset>`, la solicitud se pasa al analizador sin modificación.
+Si no se realiza una coincidencia correcta al finalizar el `<ruleset>` se alcanza, la solicitud se pasa al analizador sin modificación.
 
 ## El atributo OnMatch {#section-7a8ad3597780486985af5e9a3b1c7b56}
 
-El comportamiento predeterminado se puede modificar con el atributo `OnMatch` de los elementos `<rule>`. `OnMatch` se puede establecer en  `break` (predeterminado),  `continue`, o  `error.`
+El comportamiento predeterminado se puede modificar con la variable `OnMatch` del `<rule>` elementos. `OnMatch` se puede configurar como `break` (predeterminado), `continue`o `error.`
 
 <table id="table_4CABF55B33854A128D5F326B31C6C397"> 
  <thead> 
@@ -92,13 +92,13 @@ El comportamiento predeterminado se puede modificar con el atributo `OnMatch` de
 
 ## Anulación de atributos de catálogo {#section-1f59ce84234f4576ba8473b0e6ba22ee}
 
-`<rule>` opcionalmente, los elementos pueden definir atributos que anulan los atributos de catálogo correspondientes cuando la regla coincide correctamente y  `OnMatch="break"` está establecida. No se aplican atributos si se configura `OnMatch="continue"`. Consulte la descripción de `<rule>` para obtener una lista de atributos que se pueden controlar con reglas.
+`<rule>` Los elementos pueden definir, opcionalmente, atributos que anulan los atributos de catálogo correspondientes cuando la regla se encuentra correctamente coincidente y `OnMatch="break"` está configurado. No se aplican atributos si `OnMatch="continue"` está configurado. Consulte la descripción de `<rule>` para obtener una lista de atributos que se pueden controlar con reglas.
 
 ## Expresiones regulares {#section-4d326507b52544b0960a9a5f303e3fe6}
 
 La coincidencia de cadenas simple funciona para aplicaciones muy básicas, pero en la mayoría de los casos se requieren expresiones regulares. Aunque las expresiones regulares son estándar en el sector, la implementación específica varía de una instancia a otra.
 
-[el paquete java.util.](https://www2.cs.duke.edu/csed/java/jdk1.4.2/docs/api/) regexdescribe la implementación de expresiones regulares específicas que utiliza Image Serving.
+[paquete java.util.regex](https://www2.cs.duke.edu/csed/java/jdk1.4.2/docs/api/) describe la implementación de expresiones regulares específicas que utiliza Image Serving.
 
 ## Subcadenas capturadas {#section-8057cd65d48949ffb6a50e929bd3688b}
 
@@ -106,7 +106,7 @@ Para facilitar modificaciones complejas de la URL, las subcadenas pueden captura
 
 ## Administración de archivos de conjuntos de reglas {#section-e8ce976b56404c009496426fd334d23d}
 
-Se puede adjuntar un archivo de conjunto de reglas a cada catálogo de materiales con el atributo de catálogo `attribute::RuleSetFile`. Aunque puede editar el archivo del conjunto de reglas en cualquier momento, el servidor de imágenes reconoce los cambios solo cuando se vuelve a cargar el catálogo de materiales asociado. Esto sucede cuando se inicia o reinicia Platform Server y cada vez que se modifica o modifica el archivo de catálogo principal (que tiene un sufijo de archivo [!DNL .ini]) (para cambiar la fecha del archivo).
+Se puede adjuntar un archivo de conjunto de reglas a cada catálogo de materiales con el atributo de catálogo `attribute::RuleSetFile`. Aunque puede editar el archivo del conjunto de reglas en cualquier momento, el servidor de imágenes reconoce los cambios solo cuando se vuelve a cargar el catálogo de materiales asociado. Esto sucede cuando la variable [!DNL Platform Server] se inicia o reinicia, y siempre que el archivo de catálogo principal (que tiene un [!DNL .ini] sufijo de archivo) se modifica o se modifica (para cambiar la fecha del archivo).
 
 ## Ejemplos {#section-c4142a41f5cd4ff799a72fbc130c3700}
 

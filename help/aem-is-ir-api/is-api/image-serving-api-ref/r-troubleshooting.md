@@ -5,9 +5,9 @@ title: Resolución de problemas
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b80d3c9a-a0c4-4944-9f91-e791a072cd5f
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '520'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ El motivo de este mensaje de error es que Image Server no ha podido asignar la c
 
 **El espacio en disco real utilizado por la carpeta de caché excede ` *[!DNL cache.maxSize]*`configurar en[!DNL PlatformServer.conf]**
 
-Esto no indica un problema. La sobrecarga del sistema de archivos no se incluye en la configuración de caché de disco de Platform Server. El importe total comunicado por el sistema puede ser sustancialmente superior al valor establecido. Se recomienda reservar el doble de espacio en disco que el especificado en ` *[!DNL cache.maxSize]*`.
+Esto no indica un problema. La sobrecarga del sistema de archivos no se incluye en la variable [!DNL Platform Server]configuración de caché de disco de . El importe total comunicado por el sistema puede ser sustancialmente superior al valor establecido. Se recomienda reservar el doble de espacio en disco que el especificado en ` *[!DNL cache.maxSize]*`.
 
 **Imágenes rotas en los ejemplos de is-docs**
 
@@ -43,11 +43,11 @@ En los ejemplos también se presupone que ciertos ajustes de [!DNL default.ini] 
 
 **Faltan demasiados errores de caché tras un tiempo de actividad sustancial**
 
-Según el uso del servidor, el rendimiento se puede mejorar aumentando el tamaño de la caché de disco de Platform Server si hay espacio disponible en disco. La configuración se puede cambiar editando manualmente los archivos de configuración. Consulte la documentación.
+Según el uso del servidor, el rendimiento puede mejorarse aumentando [!DNL Platform Server] tamaño de caché de disco si hay espacio en disco disponible. La configuración se puede cambiar editando manualmente los archivos de configuración. Consulte la documentación.
 
 **Los archivos de registro ocupan demasiado espacio en disco**
 
-Image Server y Platform Server inician un nuevo archivo de registro todos los días. De forma predeterminada, se colocan en [!DNL *[!DNL install_root]*/ImageServing/logs]. El tamaño del archivo de registro, el número de registros guardados y el contenido de registro se pueden configurar. Consulte la documentación.
+El servidor de imágenes y [!DNL Platform Server] inicie un nuevo archivo de registro todos los días. De forma predeterminada, se colocan en [!DNL *[!DNL install_root]*/ImageServing/logs]. El tamaño del archivo de registro, el número de registros guardados y el contenido de registro se pueden configurar. Consulte la documentación.
 
 **Si tiene software antivirus instalado en su servidor**
 

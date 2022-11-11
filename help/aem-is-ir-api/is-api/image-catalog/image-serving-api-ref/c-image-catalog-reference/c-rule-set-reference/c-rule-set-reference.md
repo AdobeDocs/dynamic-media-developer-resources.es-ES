@@ -5,9 +5,9 @@ title: Referencia del conjunto de reglas
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: dfbb5f5e-d75a-496a-8b97-f102ad1a34d5
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ El servicio de imágenes admite un mecanismo de preprocesamiento de solicitudes 
 
 Colecciones de reglas de preprocesamiento (*conjuntos de reglas*) se puede adjuntar a catálogos de imágenes o al catálogo predeterminado. Las reglas del catálogo predeterminado se aplican solo si la solicitud no identifica un catálogo de imágenes principal específico.
 
-Las reglas de preprocesamiento de solicitudes pueden modificar la ruta y las partes de consulta de las solicitudes antes de que las procese el analizador de Platform Server, incluida la manipulación de la ruta, la adición de comandos, el cambio de valores de los comandos y la aplicación de plantillas o macros. Las reglas también se pueden utilizar para configurar y anular ciertas funciones de seguridad que normalmente se controlan únicamente con atributos de catálogo, como confusión de solicitudes, marcado de agua, así como para limitar el servicio a direcciones IP de cliente específicas.
+Las reglas de preprocesamiento de solicitudes pueden modificar la ruta y las partes de consulta de las solicitudes antes de que las procese [!DNL Platform Server]El analizador de , incluida la manipulación de la ruta, la adición de comandos, el cambio de valores de comandos y la aplicación de plantillas o macros. Las reglas también se pueden utilizar para configurar y anular ciertas funciones de seguridad que normalmente se controlan únicamente con atributos de catálogo, como confusión de solicitudes, marcado de agua, así como para limitar el servicio a direcciones IP de cliente específicas.
 
 Los conjuntos de reglas se almacenan como archivos de documento XML. La ruta relativa o absoluta del archivo del conjunto de reglas debe especificarse en `attribute::RuleSetFile`.
 

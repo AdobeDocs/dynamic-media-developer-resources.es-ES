@@ -5,9 +5,9 @@ title: Requisitos y requisitos previos del sistema
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ea2dfec9-0a42-4ccb-8442-6f7c4a39eda1
-source-git-commit: c58199c5884c368e92e50fe0ef9d6ad523e36266
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Su servidor debe cumplir los siguientes requisitos de hardware.
 
 >[!NOTE]
 >
->Los sistemas con procesadores AMD64 e Intel® EM64T suelen configurarse como plataformas NUMA (Arquitectura de memoria no uniforme). Esto significa que el núcleo construye varios nodos de memoria en el momento del arranque en lugar de construir un solo nodo de memoria. La construcción de varios nodos puede provocar el agotamiento de la memoria en uno o varios nodos antes de que otros se agoten. Cuando ocurre el agotamiento de la memoria, el núcleo puede decidir matar procesos (por ejemplo, Image Server o Platform Server) aunque haya memoria disponible. Por lo tanto, Adobe Systems recomienda que, si está ejecutando un sistema de este tipo, desactive NUMA. Utilice la opción `numa=off` start para evitar que el núcleo detenga estos procesos.
+>Los sistemas con procesadores AMD64 e Intel® EM64T suelen configurarse como plataformas NUMA (Arquitectura de memoria no uniforme). Esto significa que el núcleo construye varios nodos de memoria en el momento del arranque en lugar de construir un solo nodo de memoria. La construcción de varios nodos puede provocar el agotamiento de la memoria en uno o varios nodos antes de que otros se agoten. Cuando ocurre el agotamiento de la memoria, el núcleo puede decidir matar procesos (por ejemplo, el Image Server o [!DNL Platform Server]) aunque haya memoria disponible. Por lo tanto, Adobe Systems recomienda que, si está ejecutando un sistema de este tipo, desactive NUMA. Utilice la variable `numa=off` opción de inicio para evitar que el núcleo detenga estos procesos.
 
 **Windows**
 
@@ -40,7 +40,7 @@ Su servidor debe cumplir los siguientes requisitos de hardware.
 * 2 GB de espacio disponible en disco duro para la instalación y el funcionamiento básico, se requiere espacio adicional en disco para imágenes de origen, registros, cachés de datos y archivos de manifiesto.
 * Tarjeta de interfaz de red Fast Ethernet.
 
-**Nota (Linux):**  El servicio de imágenes no funciona con SELinux activado. Esta opción está activada de forma predeterminada. Para desactivar SELinux, edite el archivo [!DNL /etc/selinux/config] y cambie el valor de SELinux de:
+**Nota (Linux):** Image Serving no funciona con SELinux activado. Esta opción está activada de forma predeterminada. Para desactivar SELinux, edite el [!DNL /etc/selinux/config] y cambie el valor SELinux de:
 
 `SELINUX=enforcing`
 
@@ -48,7 +48,7 @@ a
 
 `SELINUX=disabled`
 
-**Nota (Linux):** Asegúrese de que el nombre de host del servidor se puede resolver en una dirección IP. Si no es posible, añada el nombre de host completo y la dirección IP a [!DNL /etc/hosts] como en el siguiente ejemplo.
+**Nota (Linux):** Asegúrese de que el nombre de host del servidor se puede resolver en una dirección IP. Si no es posible, añada el nombre de host completo y la dirección IP a [!DNL /etc/hosts] como en el ejemplo siguiente.
 
 `<ip address> <fully qualified hostname>`
 
