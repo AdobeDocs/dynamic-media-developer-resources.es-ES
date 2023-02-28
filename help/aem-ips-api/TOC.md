@@ -2,11 +2,11 @@
 cloud: Experience Cloud
 user-guide-title: API del sistema de producción de imágenes de Dynamic Media
 feature-set: Experience Manager Assets
-user-guide-description: La API del servicio web IPS (Image Production System) permite a las aplicaciones externas y a los desarrolladores terceros acceder mediante programación a los recursos y las funciones de IPS.
+user-guide-description: La API de servicio web IPS (Image Production System) permite a las aplicaciones externas y a los desarrolladores de terceros acceder mediante programación a los recursos y las funciones IPS.
 source-git-commit: 72f9cd1b1de82cbeeb8d41fb0f1cf0b51744a8a3
 workflow-type: tm+mt
 source-wordcount: '647'
-ht-degree: 9%
+ht-degree: 2%
 
 ---
 
@@ -182,7 +182,7 @@ ht-degree: 9%
    + [ActiveJob](types/c-data-types/r-active-job.md)
    + [ActiveJobArray](types/c-data-types/r-active-job-array.md)
    + [AnimatedGifInfo](types/c-data-types/r-animatedgifinfo.md)
-   + [Recurso](types/c-data-types/r-asset.md)
+   + [Activo](types/c-data-types/r-asset.md)
    + [AssetArray](types/c-data-types/r-asset-array.md)
    + [AssetContextStateUpdate](types/c-data-types/r-asset-context-state-update.md)
    + [AssetContextStateUpdateArray](types/c-data-types/r-asset-context-state-update-array.md)
@@ -259,7 +259,7 @@ ht-degree: 9%
    + [ImageFormat](types/c-data-types/r-image-format.md)
    + [ImageFormatArray](types/c-data-types/r-image-format-array.md)
    + [ImageInfo](types/c-data-types/r-image-info.md)
-   + [Mapa de imagen](types/c-data-types/r-image-map.md)
+   + [Mapa de imágenes](types/c-data-types/r-image-map.md)
    + [ImageMapArray](types/c-data-types/r-image-map-array.md)
    + [ImageMapDefinition](types/c-data-types/r-image-map-definition.md)
    + [ImageMapDefinitionArray](types/c-data-types/r-image-map-definition-array.md)
@@ -393,7 +393,7 @@ ht-degree: 9%
    + [ZipEntry](types/c-data-types/r-zip-entry.md)
    + [ZipEntryArray](types/c-data-types/r-zip-entry-array.md)
    + [ZipInfo](types/c-data-types/r-zip-info.md)
-   + [Destino de zoom](types/c-data-types/r-zoom-target.md)
+   + [ZoomTarget](types/c-data-types/r-zoom-target.md)
    + [ZoomTargetArray](types/c-data-types/r-zoom-target-array.md)
    + [ZoomTargetDefinition](types/c-data-types/r-zoom-target-definition.md)
    + [ZoomTargetDefinitionArray](types/c-data-types/r-zoom-target-definition-array.md)
@@ -427,7 +427,7 @@ ht-degree: 9%
    + [Clases de perfil](string-constants/c-string-constants/r-profile-classes.md)
    + [Estado de publicación](string-constants/c-string-constants/r-publish-state.md)
    + [Tipos de conjunto de propiedades](string-constants/c-string-constants/r-property-set-types.md)
-   + [Contexto de publicación](string-constants/c-string-constants/r-publish-context.md)
+   + [Publicar contexto](string-constants/c-string-constants/r-publish-context.md)
    + [Tipos de publicación](string-constants/c-string-constants/r-publish-types.md)
    + [Forma de región](string-constants/c-string-constants/r-region-shape.md)
    + [Modos de coincidencia de búsqueda](string-constants/c-string-constants/r-search-match-modes.md)

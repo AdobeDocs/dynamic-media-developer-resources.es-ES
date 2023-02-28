@@ -6,7 +6,7 @@ user-guide-description: Personalice los visores de Dynamic Media para utilizarlo
 source-git-commit: 6087b48b898e93e605c3873cbd5132b74d04225f
 workflow-type: tm+mt
 source-wordcount: '2077'
-ht-degree: 6%
+ht-degree: 3%
 
 ---
 
@@ -406,8 +406,8 @@ ht-degree: 6%
       + [Soporte técnico de asistencia](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-assistive.md)
       + [Localización de los elementos de la interfaz de usuario](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md)
       + [Espacio de nombres del SDK del visor](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-namespace.md)
-   + Varios tipos de archivo {#mixed-media}
-      + [Varios tipos de archivo](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-about.md)
+   + Medios mixtos {#mixed-media}
+      + [Medios mixtos](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-about.md)
       + Referencia de comandos: Atributos de configuración {#command-reference-configuration-attributes-mixed-media}
          + [Referencia de comandos: Atributos de configuración](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib.md)
          + [botón cerrar](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-closebutton.md)

@@ -1,18 +1,18 @@
 ---
 cloud: Experience Cloud
-user-guide-title: API de servicio y procesamiento de imágenes de Dynamic Media
-breadcrumb-title: API de servicio y procesamiento de imágenes de Dynamic Media
+user-guide-title: API de servicio y renderización de imágenes de Dynamic Media
+breadcrumb-title: API de servicio y renderización de imágenes de Dynamic Media
 feature-set: Experience Manager Assets
-user-guide-description: Vea documentación sobre las API de IS (Image Serving) e IR (Image Rendering), y tecnologías relacionadas.
+user-guide-description: Vea documentación sobre las API de IS (Image Serving) e IR (Image Rendering) y tecnologías relacionadas.
 source-git-commit: f64229a72bef887f356b118a1da4ba5177c28bbc
 workflow-type: tm+mt
 source-wordcount: '1466'
-ht-degree: 12%
+ht-degree: 9%
 
 ---
 
 
-# API de servicio y procesamiento de imágenes de Dynamic Media {#image-serving-api}
+# API de servicio y renderización de imágenes de Dynamic Media {#image-serving-api}
 
 + [Página de inicio de la API de servicio y renderización de imágenes de Dynamic Media](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html) -->
 + [Acerca de esta versión](r-about-this-release.md)
@@ -142,7 +142,7 @@ ht-degree: 12%
          + [Codificación HTTP de servicio de imágenes](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-http-encoding.md)
          + [Solicitar bloqueo](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-locking.md)
          + [Confusión de solicitudes](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md)
-         + [Filigranas](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-watermarks.md)
+         + [Marcas de agua](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-watermarks.md)
          + [Servicio de contenido estático (no de imagen)](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-serving-static-non-image-content.md)
          + [Solicitudes de conjuntos de medios](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-media-set-requests.md)
       + Formato del texto {#text-formatting}
@@ -182,13 +182,13 @@ ht-degree: 12%
          + [clipPath](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md)
          + [clipXPath](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clipxpath.md)
          + [color](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md)
-         + [recorte](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md)
+         + [recortar](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md)
          + [cropPathE](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-croppath.md)
          + [defaultImage](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-defaultimage.md)
          + [effect](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-effect.md)
          + [effectMask](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-effectmask.md)
          + [ampliar](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md)
-         + [Ajuste](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md)
+         + [fit](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md)
          + [voltear](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-flip.md)
          + [fmt](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md)
          + [hei](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-hei.md)
@@ -321,7 +321,7 @@ ht-degree: 12%
          + [Variables de sustitución](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/r-is-fxg-substitution-variables.md)
          + Macros de comandos {#command-macros}
             + [Información general sobre las macros de comandos](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/r-is-fxg-command-macros/r-is-fxg-command-macros.md)
-            + [name](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/r-is-fxg-command-macros/r-name.md)
+            + [nombre](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/r-is-fxg-command-macros/r-name.md)
          + Operaciones de manipulación DOM de FXG {#fxg-dom-ops}
             + [Operaciones de manipulación DOM de FXG](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-dom-manipulation-operations/c-dom-manipulation-operations.md)
             + [appendElement](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-dom-manipulation-operations/r-appendelement.md)
@@ -446,7 +446,7 @@ ht-degree: 12%
       + [UseLastModified](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-uselastmodified.md)
       + [VideoBitRate](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-videobitrate-cat.md)
       + [VideoSize](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-videosize-cat.md)
-      + [Filigrana](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-watermark.md)
+      + [Marca de agua](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-watermark.md)
    + Referencia de datos de imagen/SVG {#image-svg-ref}
       + [Referencia de datos de imagen/SVG](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-svg-data-reference.md)
       + Referencia de datos de imagen {#image-data-reference}
@@ -469,7 +469,7 @@ ht-degree: 12%
          + [ThumbRes](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-thumbres-cat.md)
          + [ThumbType](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-thumbtype-cat.md)
          + [TimeStamp](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-timestamp-cat.md)
-         + [Datos de usuario](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md)
+         + [UserData](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md)
          + [UserType](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-usertype-cat.md)
       + referencia de datos del SVG {#svg-data-reference}
          + [referencia de datos del SVG](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-svg-data-reference/c-svg-data-reference.md)
@@ -569,7 +569,7 @@ ht-degree: 12%
             + [Texturas repetibles](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/r-ir-repeatable-textures.md)
             + [Bordes de muro](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/r-ir-wall-borders.md)
             + [Decretos](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/r-ir-decals.md)
-            + [Armarios](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/r-ir-cabinets.md)
+            + [Contenedores](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/r-ir-cabinets.md)
             + [Cubiertas de ventana](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/r-ir-window-coverings.md)
          + Efectos de procesamiento avanzados {#advanced-render-effects}
             + [Efectos de procesamiento avanzados](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-advanced-render-effects.md)
