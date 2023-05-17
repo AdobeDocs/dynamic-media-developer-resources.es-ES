@@ -1,14 +1,14 @@
 ---
+title: Referencia de comandos
 description: Esta sección describe los comandos del protocolo HTTP.
 solution: Experience Manager
-title: Referencia de comandos
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 959cb193-d0b7-4aa9-a747-fa17484f80c7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 187de979d7d1f7ce92b7b4c8b7661a787ab6889f
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 10%
+source-wordcount: '322'
+ht-degree: 6%
 
 ---
 
@@ -16,7 +16,19 @@ ht-degree: 10%
 
 Esta sección describe los comandos del protocolo HTTP.
 
-**Solo para Dynamic Media en AEM**: Más allá de la configuración de imagen básica disponible en la interfaz de usuario,  [!DNL Dynamic Media] en AEM (  [!DNL Adobe Experience Manager]) admite numerosas modificaciones de imagen avanzadas que se pueden especificar en el campo  **Modificadores de** imagen . Estos parámetros se definen a continuación. Sin embargo, tenga en cuenta que la siguiente funcionalidad no es compatible con Dynamic Media en AEM.
+>[!TIP]
+>
+>Pruebe y descubra las ventajas de los modificadores de imágenes de Dynamic Media y de la Imágenes inteligentes con Dynamic Media [_Instantánea_](https://snapshot.scene7.com/).
+>
+> La instantánea es una herramienta visual de demostración diseñada para ilustrar el poder de Dynamic Media para la entrega de imágenes optimizada y dinámica. Experimente con imágenes de prueba o URL de Dynamic Media para observar visualmente el resultado de varios modificadores de imagen de Dynamic Media y optimizaciones de imágenes inteligentes para lo siguiente:
+>* Tamaño del archivo (con entrega de WebP y AVIF)
+>* Ancho de banda de la red
+>* DPR (proporción de píxeles del dispositivo)
+>
+>Para aprender lo fácil que es utilizar la instantánea, reproduzca el [Vídeo de formación de instantáneas](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) (3 minutos y 17 segundos).
+
+
+**Solo para Dynamic Media en Adobe Experience Manager** - Más allá de la configuración de imagen básica disponible en la interfaz de usuario, [!DNL Dynamic Media] en AEM ( [!DNL Adobe Experience Manager]) admite numerosas modificaciones de imagen avanzadas que se pueden especificar en la variable **Modificadores de imagen** campo . Estos parámetros se definen a continuación. Sin embargo, tenga en cuenta que la siguiente funcionalidad no es compatible con Dynamic Media en AEM.
 
 * Comandos de corrección de color: `icc=` y `iccEmbed=`.
 * Plantillas básicas y comandos de renderización de texto: `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` y `textPs=`.
@@ -30,7 +42,7 @@ Esta sección describe los comandos del protocolo HTTP.
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-Consulte también las [Opciones de ajustes preestablecidos de imagen](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) de Dynamic Media en la documentación de AEM 6.5.
+Consulte también Dynamic Media [Opciones de ajustes preestablecidos de imagen](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) en la documentación de AEM 6.5.
 
 * [align](r-align.md)
 * [delimitador](r-anchor.md)
@@ -42,13 +54,13 @@ Consulte también las [Opciones de ajustes preestablecidos de imagen](https://ex
 * [clipPath](r-clippath.md)
 * [clipXPath](r-clipxpath.md)
 * [color](r-color-commandref.md)
-* [recorte](r-crop.md)
+* [recortar](r-crop.md)
 * [cropPathE](r-croppath.md)
 * [defaultImage](r-is-http-defaultimage.md)
 * [effect](r-effect.md)
 * [effectMask](r-effectmask.md)
 * [ampliar](r-extend.md)
-* [Ajuste](r-fit.md)
+* [fit](r-fit.md)
 * [voltear](r-flip.md)
 * [fmt](r-is-http-fmt.md)
 * [hei](r-is-http-hei.md)
