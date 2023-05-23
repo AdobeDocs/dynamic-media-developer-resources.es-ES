@@ -1,5 +1,5 @@
 ---
-description: Propiedades para los recursos de tipo AssetSet.
+description: Propiedades de los recursos de tipo AssetSet.
 solution: Experience Manager
 title: AssetSetInfo
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 13%
 
 # [!DNL AssetSetInfo]{#assetsetinfo}
 
-Propiedades para los recursos de tipo AssetSet.
+Propiedades de los recursos de tipo AssetSet.
 
 Sintaxis
 
@@ -22,4 +22,4 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| setDefinition | `xsd:string` | Definición del conjunto de activos formateada según los requisitos del visor de IS de destino. Puede contener parámetros de sustitución IPS opcionales. |
+| setDefinition | `xsd:string` | Definición de conjunto de recursos con formato según los requisitos del visor de IS de destino. Puede contener parámetros de sustitución IPS opcionales. |

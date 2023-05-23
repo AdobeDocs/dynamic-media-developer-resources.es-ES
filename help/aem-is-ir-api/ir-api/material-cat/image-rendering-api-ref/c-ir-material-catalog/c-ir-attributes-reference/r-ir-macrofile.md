@@ -1,6 +1,6 @@
 ---
-title: ArchivoMacro
-description: Ruta del archivo de definiciones de macro. Especifica el archivo que contiene las definiciones de macro para este catálogo de material.
+title: MacroFile
+description: Ruta del archivo de definiciones de macros. Especifica el archivo que contiene las definiciones de macros para este catálogo de materiales.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -8,17 +8,17 @@ exl-id: 5b926246-54c5-40ca-a8d3-d1a1411d8931
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '66'
-ht-degree: 6%
+ht-degree: 4%
 
 ---
 
-# ArchivoMacro{#macrofile}
+# MacroFile{#macrofile}
 
-Ruta del archivo de definiciones de macro. Especifica el archivo que contiene las definiciones de macro para este catálogo de material.
+Ruta del archivo de definiciones de macros. Especifica el archivo que contiene las definiciones de macros para este catálogo de materiales.
 
 ## Propiedades {#section-74ab431f12fb4fc9b1e222c752cfb4cb}
 
-Valor de cadena de texto. Ruta absoluta del archivo o ruta relativa a la carpeta del catálogo.
+Valor de cadena de texto. Ruta de archivo absoluta o ruta relativa a la carpeta del catálogo.
 
 ## Predeterminado {#section-1ceb724a30444a5fbb870105b83c212c}
 

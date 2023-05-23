@@ -8,18 +8,18 @@ exl-id: 94774bc1-c490-4341-b223-8823699b6c1e
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
 source-wordcount: '32'
-ht-degree: 12%
+ht-degree: 9%
 
 ---
 
 # Swatches.scrollstep{#swatches-scrollstep}
 
-` [Swatches.|<containerId>_swatches.]scrollstep= *`hStep`*, *`vStep`*`
+` [Swatches.|<containerId>_swatches.]scrollstep= *`Paso`*, *`vStep`*`
 
 <table id="table_DC890B3CAB6847318081AC74424147B9"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> hStep</span> </span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> Paso</span> </span> </p> </td> 
    <td> <p>Paso horizontal. </p> </td> 
   </tr> 
   <tr> 
@@ -29,7 +29,7 @@ ht-degree: 12%
  </tbody> 
 </table>
 
-Especifica el número de muestras que se desplazarán para cada clic o toque del botón de desplazamiento correspondiente.
+Especifica el número de muestras que se desplazarán para cada clic o toque el botón de desplazamiento correspondiente.
 
 ## Propiedades {#section-1e637b22e8a44d759d588e47576891e6}
 

@@ -1,5 +1,5 @@
 ---
-description: Una matriz de progreso de tarea. Contiene información sobre las tareas de transcodificación de vídeo.
+description: Matriz de progreso de tareas. Contiene información sobre tareas de transcodificación de vídeo.
 solution: Experience Manager
 title: TaskProgressArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 15%
 
 # [!DNL TaskProgressArray]{#taskprogressarray}
 
-Una matriz de progreso de tarea. Contiene información sobre las tareas de transcodificación de vídeo.
+Matriz de progreso de tareas. Contiene información sobre tareas de transcodificación de vídeo.
 
 Sintaxis
 
@@ -22,4 +22,4 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| elemento | `types:TaskProgress` | Elementos de progreso de tarea. La incidencia mínima es cero. La incidencia máxima no está delimitada. |
+| elemento | `types:TaskProgress` | Elementos de progreso de tarea. La incidencia mínima es cero. La ocurrencia máxima es ilimitada. |

@@ -1,5 +1,5 @@
 ---
-description: Obtiene los tipos de conjunto de propiedades asociados con la empresa especificada o los tipos de conjunto de propiedades globales si no se especifica ninguna empresa.
+description: Obtiene los tipos de conjuntos de propiedades asociados a los tipos de conjuntos de propiedades globales o compañía especificados si no se especifica ninguna compañía.
 solution: Experience Manager
 title: getPropertySetTypes
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 15%
 
 # getPropertySetTypes{#getpropertysettypes}
 
-Obtiene los tipos de conjunto de propiedades asociados con la empresa especificada o los tipos de conjunto de propiedades globales si no se especifica ninguna empresa.
+Obtiene los tipos de conjuntos de propiedades asociados a los tipos de conjuntos de propiedades globales o compañía especificados si no se especifica ninguna compañía.
 
 Sintaxis
 
@@ -48,7 +48,7 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4">El identificador de la empresa al que están asociados los tipos de conjuntos de propiedades. <p>Omita si desea devolver tipos de conjuntos de propiedades globales. </p> </td> 
+   <td colname="col4">El identificador de la compañía a la que están asociados los tipos de conjuntos de propiedades. <p>Omita si desea devolver tipos de conjuntos de propiedades globales. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,7 +57,7 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| typeArray | `types:PropertySetTypeArray` | Sí | Matriz de tipos de conjuntos de propiedades asociados con la empresa especificada o tipos de conjuntos de propiedades globales si no se especificó ninguna empresa. |
+| typeArray | `types:PropertySetTypeArray` | Sí | Una matriz de tipos de conjuntos de propiedades asociados a la compañía especificada o los tipos de conjuntos de propiedades globales si no se especificó ninguna compañía. |
 
 ## Ejemplos {#section-280c406a90864409856aee44d4069a52}
 

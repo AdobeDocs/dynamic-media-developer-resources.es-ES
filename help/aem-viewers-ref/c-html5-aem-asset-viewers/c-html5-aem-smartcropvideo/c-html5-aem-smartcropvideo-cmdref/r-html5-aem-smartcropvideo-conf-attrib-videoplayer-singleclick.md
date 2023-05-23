@@ -1,19 +1,20 @@
 ---
 title: SmartCropVideoPlayer.singleclick
-description: Atributo de configuración para el visor de vídeo de recorte inteligente.
+description: Atributo de configuración para el visor de recorte inteligente de vídeos.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: f48f0866-4eb7-46c5-a7f5-457df7a568e7
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '72'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
 # SmartCropVideoPlayer.singleclick{#smartcropvideoplayer-singleclick}
 
-Atributo de configuración para el visor de vídeo de recorte inteligente.
+Atributo de configuración para el visor de recorte inteligente de vídeos.
 
 ` [SmartCropVideoPlayer.|<containerId>_smartCropVideoPlayer.]singleclick= *`none|playPause`*`
 
@@ -21,7 +22,7 @@ Atributo de configuración para el visor de vídeo de recorte inteligente.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> none|playPause</span> </span> </p> </td> 
-   <td colname="col2"> <p> Configura la asignación de un toque o clic para alternar la reproducción/pausa. Establecer en <span class="codeph"> ninguno</span> deshabilita el toque o clic único para reproducir/pausar. Si está configurado como <span class="codeph"> playPause</span>, al hacer clic en el vídeo, se alternan entre la reproducción y la pausa del vídeo. En algunos dispositivos, puede utilizar controles nativos. En tal caso, <span class="codeph"> singleclick</span> está desactivado. </p> </td> 
+   <td colname="col2"> <p> Configura la asignación del clic/toque en la activación o desactivación de reproducción/pausa. Estableciendo en <span class="codeph"> ninguno</span> deshabilita el clic/toque en la reproducción/pausa. Si se establece en <span class="codeph"> playPause</span>, al hacer clic en el vídeo, se alterna entre reproducir y pausar el vídeo. En algunos dispositivos, puede utilizar controles nativos. En tal caso, <span class="codeph"> de un solo clic</span> el comportamiento está desactivado. </p> </td> 
   </tr> 
  </tbody> 
 </table>

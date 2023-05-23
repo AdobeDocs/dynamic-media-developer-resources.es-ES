@@ -1,5 +1,5 @@
 ---
-description: Los datos de imagen intermedios producidos por solicitudes de servicio de imágenes anidadas/incrustadas y renderización de imágenes se pueden almacenar en caché especificando cache=on en la solicitud anidada/incrustada. Estos datos se almacenan en formato propietario en la caché de datos de respuesta.
+description: Los datos de imagen intermedios producidos por las solicitudes de servicio de imágenes y procesamiento de imágenes anidadas/incrustadas se pueden almacenar en caché especificando cache=on en la solicitud anidada/incrustada. Estos datos se almacenan en formato propio en la caché de datos de respuesta.
 solution: Experience Manager
 title: Cachés de datos auxiliares
 feature: Dynamic Media Classic,SDK/API
@@ -14,8 +14,8 @@ ht-degree: 0%
 
 # Cachés de datos auxiliares{#auxiliary-data-caches}
 
-Los datos de imagen intermedios producidos por solicitudes de servicio de imágenes anidadas/incrustadas y renderización de imágenes se pueden almacenar en caché especificando cache=on en la solicitud anidada/incrustada. Estos datos se almacenan en formato propietario en la caché de datos de respuesta.
+Los datos de imagen intermedios producidos por las solicitudes de servicio de imágenes y procesamiento de imágenes anidadas/incrustadas se pueden almacenar en caché especificando cache=on en la solicitud anidada/incrustada. Estos datos se almacenan en formato propio en la caché de datos de respuesta.
 
-Las imágenes obtenidas de servidores HTTP externos también se almacenan en la caché de datos de respuesta. Estas imágenes se validan automáticamente con la utilidad validate antes de que se genere la entrada de caché.
+Las imágenes obtenidas de servidores HTTP externos también se almacenan en la caché de datos de respuesta. Estas imágenes se validan automáticamente con la utilidad validate antes de generar la entrada de caché.
 
-La variable [!DNL Platform Server] compila los datos del catálogo de imágenes para un acceso eficiente. Estos datos se almacenan en `CS::CatalogCacheFolder`.
+El [!DNL Platform Server] recopila datos del catálogo de imágenes para obtener un acceso eficaz. Estos datos se almacenan en `CS::CatalogCacheFolder`.

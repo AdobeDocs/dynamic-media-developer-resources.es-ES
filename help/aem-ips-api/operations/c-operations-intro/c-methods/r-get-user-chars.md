@@ -31,13 +31,13 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| charField | `xsd:string` | Sí | Determina el estado de la Papelera que se va a buscar. |
-| includeInactive | `xsd:boolean` | Sí | Incluir o excluir usuarios inactivos. Los usuarios administradores que no sean de IPS deben ser miembros activos de al menos una empresa para poder realizar llamadas de API. Se devuelve un error de autorización si el usuario no tiene membresías activas de la empresa. |
-| includeInvalid | `xsd:boolean` | No | Incluir o excluir usuarios no válidos. |
-| companyHandleArray | `types:HandleArray` | No | Filtre los resultados según la empresa. |
+| charField | `xsd:string` | Sí | Determina el estado de la papelera que se va a buscar. |
+| includeInactive | `xsd:boolean` | Sí | Incluir o excluir usuarios inactivos. Los usuarios que no son administradores de IPS deben ser miembros activos de al menos una compañía para poder realizar llamadas de API. Se devuelve un error de autorización si el usuario no tiene ninguna pertenencia activa a la compañía. |
+| includeInvalid | `xsd:boolean` | No | Incluya o excluya usuarios no válidos. |
+| companyHandleArray | `types:HandleArray` | No | Filtrar los resultados según la empresa. |
 | groupHandleArray | `types:HandleArray` | No | Filtra los resultados según los grupos. |
 | userRoleArray | `types:StringArray` | No | Filtra los resultados según la función del usuario. |
-| numChars | `xsd:int` | No | Activar >1 carácter. |
+| numChars | `xsd:int` | No | Habilite >1 carácter. |
 
 **Salida (getUserCharsReturn)**
 
@@ -50,10 +50,10 @@ Sintaxis
 Este ejemplo de código devuelve:
 
 * Primeros caracteres de los apellidos de los usuarios de una empresa específica.
-* Conjunto de grupos.
-* Conjunto de funciones de usuario.
+* Un conjunto de grupos.
+* Un conjunto de funciones de usuario.
 
-La constante de cadena Campos de filtro de caracteres del usuario determina el tipo de caracteres de usuario devueltos.
+La constante de cadena Campos del filtro de caracteres de usuario determina el tipo de caracteres de usuario devueltos.
 
 **Solicitar**
 

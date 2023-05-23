@@ -1,6 +1,6 @@
 ---
 title: ocultar
-description: Ocultar objeto de superposición. Oculta todos los objetos de superposición o las coberturas de ventana aplicadas a los marcos de cubiertas de ventanas de la selección actual.
+description: Ocultar objeto de superposición. Oculta todos los objetos de superposición o revestimientos de ventana aplicados a los marcos de los revestimientos de ventana de la selección actual.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: 70c96b62-d6bd-4f12-9ee8-abac5d97e876
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
 source-wordcount: '91'
-ht-degree: 7%
+ht-degree: 6%
 
 ---
 
 # ocultar{#hide}
 
-Ocultar objeto de superposición. Oculta todos los objetos de superposición o las coberturas de ventana aplicadas a los marcos de cubiertas de ventanas de la selección actual.
+Ocultar objeto de superposición. Oculta todos los objetos de superposición o revestimientos de ventana aplicados a los marcos de los revestimientos de ventana de la selección actual.
 
 `hide[= *`val`*]`
 
@@ -27,7 +27,7 @@ Ocultar objeto de superposición. Oculta todos los objetos de superposición o l
 
 ## Propiedades {#section-2952fa43df0547b187b834c819c517ca}
 
-Se aplica a la selección de grupo u objeto actual. Se omite si la selección actual no incluye ningún objeto de superposición o marco de encubrimiento de ventana o si no hay objetos de superposición visibles.
+Se aplica al grupo o la selección de objeto actual. Se omite si la selección actual no incluye ningún objeto de superposición o marcos de revestimiento de ventana o si no hay objetos de superposición visibles.
 
 ## Predeterminado {#section-9da202944d3a49b7ae81c78370b2b5e7}
 

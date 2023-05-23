@@ -1,5 +1,5 @@
 ---
-description: Tipo de material. Tipo de superficie del material. Se utiliza junto con el Gloss del catálogo y el Roughness del catálogo para controlar los efectos de procesamiento de reflejo 3D.
+description: Tipo de material. Tipo de superficie del material. Se utiliza junto con el brillo del catálogo y la rugosidad del catálogo para controlar los efectos de procesamiento de reflexión 3D.
 solution: Experience Manager
 title: Tipo
 feature: Dynamic Media Classic,SDK/API
@@ -7,18 +7,18 @@ role: Developer,User
 exl-id: 912e2535-9980-4174-bca7-f44789eb39b4
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 29%
+source-wordcount: '133'
+ht-degree: 19%
 
 ---
 
 # Tipo{#type}
 
-Tipo de material. Tipo de superficie del material. Se utiliza junto con el catálogo::Gloss and catalog::Roughness para controlar los efectos de renderización de reflejo 3D.
+Tipo de material. Tipo de superficie del material. Se utiliza junto con catalog::Gloss y catalog::Roughness para controlar los efectos de procesamiento de reflexión 3D.
 
 ## Propiedades {#section-86e8bc194f764c848e0ee55630a5ac1b}
 
-Enum. Opcional para todos los materiales. Se omite si la viñeta no tiene capacidad de renderización de reflejo 3D.
+Enumeración. Opcional para todos los materiales. Se ignora si la viñeta no tiene capacidad de representación de reflexión 3D.
 
 <table id="simpletable_85BF61871CAA420B92B855AAB8FACA2C"> 
  <tr class="strow"> 
@@ -43,7 +43,7 @@ Enum. Opcional para todos los materiales. Se omite si la viñeta no tiene capaci
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p> </td> 
-  <td class="stentry"> <p>Metal anticuado. </p> </td> 
+  <td class="stentry"> <p>Metal antiguo. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>6 </p> </td> 
@@ -95,7 +95,7 @@ Enum. Opcional para todos los materiales. Se omite si la viñeta no tiene capaci
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>18 </p> </td> 
-  <td class="stentry"> <p>Tejidos de cerdas. </p> </td> 
+  <td class="stentry"> <p>Pura tela. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>19 </p> </td> 
@@ -105,8 +105,8 @@ Enum. Opcional para todos los materiales. Se omite si la viñeta no tiene capaci
 
 ## Predeterminado {#section-247f73b22cb846b7b7d7cc6e8af949ca}
 
-0; el servidor determinará un valor predeterminado adecuado en función de otros atributos de material.
+0; el servidor determinará un valor predeterminado adecuado en función de otros atributos del material.
 
 ## Véase también {#section-a51850093b7140e683a0f8b07845843c}
 
-[catálogo::Gloss](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-gloss.md#reference-5277f62a67e2408ab94699aa712f1eeb) ,  [catálogo::Roughness](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-roughness.md#reference-79f748ac642745e3b81795a99f61fa99),  [type=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-type.md#reference-128c7de89e2d46838019b560f3f84a35)
+[catalog::Gloss](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-gloss.md#reference-5277f62a67e2408ab94699aa712f1eeb) , [catalog::Roughness](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-roughness.md#reference-79f748ac642745e3b81795a99f61fa99), [type=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-type.md#reference-128c7de89e2d46838019b560f3f84a35)

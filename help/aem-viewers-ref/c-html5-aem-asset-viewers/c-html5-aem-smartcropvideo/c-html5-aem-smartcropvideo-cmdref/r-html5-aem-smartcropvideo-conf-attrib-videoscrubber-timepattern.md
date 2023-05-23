@@ -1,19 +1,20 @@
 ---
 title: VideoScrubber.timepattern
-description: Atributo de configuración para el visor de vídeo de recorte inteligente.
+description: Atributo de configuración para el visor de recorte inteligente de vídeos.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 4b3082f6-fb88-4c69-ab09-e24cff039222
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '118'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
 # VideoScrubber.timepattern{#videoscrubber-timepattern}
 
-Atributo de configuración para el visor de vídeo de recorte inteligente.
+Atributo de configuración para el visor de recorte inteligente de vídeos.
 
 `[VideoScrubber.|<containerId>_videoScrubber.]timepattern=[h:]m|mm:s|ss`
 
@@ -21,7 +22,7 @@ Atributo de configuración para el visor de vídeo de recorte inteligente.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> [h:]m|mm:s|ss</span> </p> </td> 
-   <td colname="col2"> <p> Establece el patrón del tiempo que se muestra en la burbuja de tiempo, donde <span class="codeph"> h</span> es horas, <span class="codeph"> m</span> es minutos y <span class="codeph"> s</span> es segundos. </p> <p>El número de letras utilizado para cada unidad de tiempo determina el número de dígitos que se mostrarán para la unidad. Si el número no cabe en los dígitos dados, el valor equivalente se muestra en la unidad siguiente. </p> <p>Por ejemplo, si el tiempo de la película actual es de 67 minutos y 5 segundos, el patrón de tiempo <span class="codeph"> m:ss</span> se muestra como 67:05. La misma hora se muestra como 1:07:5 si el patrón de tiempo dado es <span class="codeph"> h:mm:s</span>. </p> </td> 
+   <td colname="col2"> <p> Establece el patrón para el tiempo que se muestra en la burbuja de tiempo, donde <span class="codeph"> h</span> es horas, <span class="codeph"> m</span> es minutos, y <span class="codeph"> s</span> es segundos. </p> <p>El número de letras utilizado para cada unidad de tiempo determina el número de dígitos que se mostrarán para la unidad. Si el número no cabe en los dígitos seleccionados, se muestra el valor equivalente en la unidad siguiente. </p> <p>Por ejemplo, si el tiempo de la película actual es de 67 minutos y 5 segundos, el patrón de tiempo <span class="codeph"> m:ss</span> se muestra a las 67:05. El mismo tiempo se muestra como 1:07:5 si el patrón de tiempo dado es <span class="codeph"> h:mm:s</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

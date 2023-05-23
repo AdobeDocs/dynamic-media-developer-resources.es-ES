@@ -1,5 +1,5 @@
 ---
-description: Palabras clave ampliables de la plataforma de metadatos de un recurso.
+description: Las palabras clave de la plataforma de metadatos ampliables de un recurso.
 solution: Experience Manager
 title: XmpKeywords
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 21%
 
 # [!DNL XmpKeywords]{#xmpkeywords}
 
-Palabras clave ampliables de la plataforma de metadatos de un recurso.
+Las palabras clave de la plataforma de metadatos ampliables de un recurso.
 
 Sintaxis
 
@@ -32,7 +32,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> items</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Una lista separada por comas de las palabras clave que se combinan en la variable <span class="codeph"> dc:subject=</span> nodo de propiedad de XMP. Si aparece una coma en cualquiera de los valores individuales, debe omitirse con una barra invertida (\). Una barra invertida literal es la barra invertida doble habitual (\\). </p> </td> 
+   <td colname="col3"> <p>Una lista de palabras clave separadas por comas que se combinan en la variable <span class="codeph"> dc:subject=</span> XMP nodo de propiedad de. Si aparece una coma en cualquiera de los valores individuales, debe especificarse una barra invertida (\) como carácter de escape. Una barra invertida literal es la barra invertida doble habitual (\\). </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,6 +1,6 @@
 ---
 title: coord
-description: Coordenadas de píxeles. Se utiliza para especificar las coordenadas de la imagen en forma de desplazamiento de píxeles en relación con la esquina superior izquierda de una imagen o un rectángulo de capa. A menudo se utilizan en desplazamientos de imagen o parámetros de recorte.
+description: Coordenadas en píxeles. Se utiliza para especificar coordenadas de imagen en forma de desplazamiento de píxel con relación a la esquina superior izquierda de un rectángulo de imagen o capa. Estos suelen utilizarse en desplazamientos de imagen o parámetros de recorte.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # coord{#coord}
 
-Coordenadas de píxeles. Se utiliza para especificar las coordenadas de la imagen en forma de desplazamiento de píxeles en relación con la esquina superior izquierda de una imagen o un rectángulo de capa. A menudo se utilizan en desplazamientos de imagen o parámetros de recorte.
+Coordenadas en píxeles. Se utiliza para especificar coordenadas de imagen en forma de desplazamiento de píxel con relación a la esquina superior izquierda de un rectángulo de imagen o capa. Estos suelen utilizarse en desplazamientos de imagen o parámetros de recorte.
 
 <table id="simpletable_A686120953124ACB8803CB9C877252AB"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> coord</span> </span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> px</span> </span>, <span class="codeph"><span class="varname"> py</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> px</span> </span>, <span class="codeph"><span class="varname"> pagar</span></span> </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> px</span> </span>, <span class="codeph"><span class="varname"> py</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> px</span> </span>, <span class="codeph"><span class="varname"> pagar</span></span> </p></td> 
   <td class="stentry"> <p><span class="varname"> x</span>, <span class="varname"> y</span> valores en píxeles (int) </p></td> 
  </tr> 
 </table>

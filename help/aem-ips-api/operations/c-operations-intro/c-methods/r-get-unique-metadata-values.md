@@ -34,14 +34,14 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | Gestionar a la empresa. |
-| fieldHandle | `xsd:string` | No | Gestionar en el campo de metadatos. |
+| companyHandle | `xsd:string` | Sí | Gestionar en la empresa. |
+| fieldHandle | `xsd:string` | No | Administrar en el campo de metadatos. |
 
 **Salida (getUniqueMetadataValuesReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| values | `type:StringArray` |  |  |
+| valores | `type:StringArray` |  |  |
 
 ## Ejemplos {#section-440f3bc3e5be436cb6ec26117d05f476}
 

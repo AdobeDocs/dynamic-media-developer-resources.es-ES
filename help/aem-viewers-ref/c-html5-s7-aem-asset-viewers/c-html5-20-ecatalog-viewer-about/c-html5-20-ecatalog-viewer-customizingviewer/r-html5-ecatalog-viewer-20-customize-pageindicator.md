@@ -1,20 +1,20 @@
 ---
 title: Indicador de página
-description: El indicador de página muestra el índice de página actual y el recuento total de páginas. Aparece en la barra de control principal en sistemas de escritorio y tabletas, en teléfonos móviles se agrega a la barra de control secundaria. CSS puede cambiar el tamaño, el aspecto y la posición del indicador de página.
+description: El indicador de página muestra el índice de página actual y el recuento total de páginas. Aparece en la barra de control principal de los sistemas de escritorio y tabletas; en los teléfonos móviles se agrega a la barra de control secundaria. CSS puede cambiar el tamaño, aplicar un aspecto y colocar el indicador de página.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: c63af583-274c-4052-8186-604119a368af
 source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '254'
+ht-degree: 4%
 
 ---
 
 # Indicador de página{#page-indicator}
 
-El indicador de página muestra el índice de página actual y el recuento total de páginas. Aparece en la barra de control principal en sistemas de escritorio y tabletas, en teléfonos móviles se agrega a la barra de control secundaria. CSS puede cambiar el tamaño, el aspecto y la posición del indicador de página.
+El indicador de página muestra el índice de página actual y el recuento total de páginas. Aparece en la barra de control principal de los sistemas de escritorio y tabletas; en los teléfonos móviles se agrega a la barra de control secundaria. CSS puede cambiar el tamaño, aplicar un aspecto y colocar el indicador de página.
 
 El aspecto del indicador de página se controla con el siguiente selector de clase CSS:
 
@@ -23,26 +23,26 @@ El aspecto del indicador de página se controla con el siguiente selector de cla
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS, propiedad </p> </th> 
+   <th colname="col1" class="entry"> <p> Propiedad CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Descripción </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> parte superior </span> </p> </td> 
-   <td colname="col2"> <p>Sitúe la palanca desde el borde superior de la barra de control principal (en sistemas de escritorio y tabletas) o la barra de control secundaria (en teléfonos móviles), incluido el relleno. </p> </td> 
+   <td colname="col2"> <p>Posición desde el borde superior de la barra de control principal (en sistemas de escritorio y tabletas) o la barra de control secundaria (en teléfonos móviles), incluido el relleno. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> derecha </span> </p> </td> 
-   <td colname="col2"> <p>Sitúe la barra de control principal (en sistemas de escritorio y tabletas) o la barra de control secundaria (en teléfonos móviles) desde el borde derecho, incluido el relleno. </p> </td> 
+   <td colname="col2"> <p>Posición desde el borde derecho de la barra de control principal (en sistemas de escritorio y tabletas) o la barra de control secundaria (en teléfonos móviles), incluido el relleno. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> izquierda </span> </p> </td> 
-   <td colname="col2"> <p>Sitúe el borde izquierdo de la barra de control principal (en sistemas de escritorio y tabletas) o la barra de control secundaria (en teléfonos móviles), incluido el relleno. </p> </td> 
+   <td colname="col2"> <p>Posición desde el borde izquierdo de la barra de control principal (en sistemas de escritorio y tabletas) o la barra de control secundaria (en teléfonos móviles), incluido el relleno. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> parte inferior </span> </p> </td> 
-   <td colname="col2"> <p>Sitúe el borde inferior de la barra de control principal (en sistemas de escritorio y tabletas) o la barra de control secundaria (en teléfonos móviles), incluido el relleno. </p> </td> 
+   <td colname="col2"> <p>Posición desde el borde inferior de la barra de control principal (en sistemas de escritorio y tabletas) o la barra de control secundaria (en teléfonos móviles), incluido el relleno. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -67,7 +67,7 @@ El aspecto del indicador de página se controla con el siguiente selector de cla
  </tbody> 
 </table>
 
-Ejemplo: para configurar un indicador de página de 56 x 28 píxeles, centrado horizontalmente y colocado 4 píxeles desde la parte inferior de la barra de control principal, y utilizar una fuente Helvetica® de 14 píxeles.
+Ejemplo: para configurar un indicador de página de 56 x 28 píxeles, centrado horizontalmente y colocado a 4 píxeles de la parte inferior de la barra de control principal, y utilice una fuente Helvetica® de 14 píxeles.
 
 ```
 .s7ecatalogviewer  .s7pageindicator { 

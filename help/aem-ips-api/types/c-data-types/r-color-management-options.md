@@ -1,7 +1,7 @@
 ---
-description: Opciones especificadas durante la carga. Afecta a cómo se administra el color para la carga.
+description: Opciones especificadas durante la carga. Afecta a la forma en que se administra el color para la carga.
 solution: Experience Manager
-title: ColorManagementOptions
+title: OpcionesAdministraciónDeColor
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 55535bb0-544d-4a93-9ff4-235f22b8d45a
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # [!DNL ColorManagementOptions]{#colormanagementoptions}
 
-Opciones especificadas durante la carga. Afecta a cómo se administra el color para la carga.
+Opciones especificadas durante la carga. Afecta a la forma en que se administra el color para la carga.
 
 Sintaxis
 
@@ -22,6 +22,6 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| colorManagement | `xsd:string` | Opción del modo de gestión del color. |
-| sourceProfileHandle | `xsd:string` | Identificador de perfil de origen. |
-| outputProfileHandle | `xsd:string` | Identificador de perfil de salida. |
+| colorManagement | `xsd:string` | Opción de modo de gestión de color. |
+| sourceProfileHandle | `xsd:string` | Identificador del perfil de origen. |
+| outputProfileHandle | `xsd:string` | Controlador del perfil de salida. |

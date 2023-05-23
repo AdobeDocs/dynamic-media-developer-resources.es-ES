@@ -22,4 +22,4 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| elementos | `types:ImageSetMemberUpdate` | Matriz de actualizaciones de miembros del conjunto de imágenes. |
+| elementos | `types:ImageSetMemberUpdate` | La matriz de actualizaciones de miembros del conjunto de imágenes. |

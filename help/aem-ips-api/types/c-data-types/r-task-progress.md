@@ -1,5 +1,5 @@
 ---
-description: Información sobre el progreso de la tarea.
+description: Información del progreso de la tarea.
 solution: Experience Manager
 title: TaskProgress
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 13%
 
 # [!DNL TaskProgress]{#taskprogress}
 
-Información sobre el progreso de la tarea.
+Información del progreso de la tarea.
 
 Sintaxis
 
@@ -42,7 +42,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> numProcessing</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> Número de elementos de tarea actualmente en proceso. </td> 
+   <td colname="col3"> Número de elementos de tarea en proceso actualmente. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> numPending</span> </span> </td> 
@@ -62,7 +62,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> lastProgressUpdate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> La última vez que se actualizó la información de progreso. </td> 
+   <td colname="col3"> Hora a la que se actualizó por última vez la última información de progreso. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> taskItemProgressArray</span> </span> </td> 
@@ -74,12 +74,12 @@ Sintaxis
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3">Los valores incluyen: 
     <ul id="ul_BD00DC855B1D42748204E8BCA81FD4BF">
-     <li id="li_01FE691763B3465DBF3402E7CDEA50C3"><span class="codeph"> Unknown</span>: Cuando el monitor de tareas realiza transiciones entre estados. </li>
-     <li id="li_AA2D1F9ADDE84B54A85C7E7830D3A0C9"><span class="codeph"> Nuevo</span>: El monitor de tareas se ha creado, pero aún no ha aceptado tareas. </li>
-     <li id="li_76D667D21BDF4FADA6A266A7EB4DC6EE"><span class="codeph"> Procesamiento</span>: El monitor de tareas está procesando tareas de forma activa. </li>
-     <li id="li_3813B2178D7143DEB91804A6C5FF3902"><span class="codeph"> Detención</span>: El monitor de tareas está deteniendo un trabajo debido a una solicitud de trabajo de parada. </li>
-     <li id="li_41C2E774FC504B58BD6736119AE9C0AE"><span class="codeph"> Listo</span>: Se han completado los trabajos asignados a los trabajos del monitor de tareas. </li>
-     <li id="li_EB2322BB11314B97998D467F4620ED2E"><span class="codeph"> Error</span>: Indica un error grave. </li>
+     <li id="li_01FE691763B3465DBF3402E7CDEA50C3"><span class="codeph"> Desconocido</span>: Cuando la monitorización de tareas cambia de estado. </li>
+     <li id="li_AA2D1F9ADDE84B54A85C7E7830D3A0C9"><span class="codeph"> Nuevo</span>: se ha creado el Monitor de tareas, pero aún no ha aceptado las tareas. </li>
+     <li id="li_76D667D21BDF4FADA6A266A7EB4DC6EE"><span class="codeph"> Procesando</span>: el monitor de tareas está procesando activamente las tareas. </li>
+     <li id="li_3813B2178D7143DEB91804A6C5FF3902"><span class="codeph"> Deteniendo</span>: el monitor de tareas está deteniendo un trabajo debido a una solicitud de trabajo de detención. </li>
+     <li id="li_41C2E774FC504B58BD6736119AE9C0AE"><span class="codeph"> Listo</span>: se han completado los trabajos asignados a los trabajos de monitorización de tareas. </li>
+     <li id="li_EB2322BB11314B97998D467F4620ED2E"><span class="codeph"> Error</span>: indica un error grave. </li>
     </ul></td> 
   </tr> 
  </tbody> 

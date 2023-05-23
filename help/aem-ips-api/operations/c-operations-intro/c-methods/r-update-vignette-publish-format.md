@@ -1,5 +1,5 @@
 ---
-description: Actualiza la configuración del formato de publicación de la viñeta.
+description: Actualiza la configuración del formato de publicación de viñeta.
 solution: Experience Manager
 title: updateVignettePublishFormat
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 7f199ed4-375f-4451-b66a-e50bcd55bf23
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 20%
+ht-degree: 6%
 
 ---
 
 # updateVignettePublishFormat{#updatevignettepublishformat}
 
-Actualiza la configuración del formato de publicación de la viñeta.
+Actualiza la configuración del formato de publicación de viñeta.
 
 ## Tipos de usuarios autorizados {#section-2f2ad136d2884dc9bfef6da008196ed0}
 
@@ -29,25 +29,25 @@ Actualiza la configuración del formato de publicación de la viñeta.
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | Identificador de la empresa. |
-| viñetaFormatoControlador | `xsd:string` | Sí | Controlador de formato de publicación. |
-| name | `xsd:string` | No | Nombre del formato de publicación. |
-| targetWidth | `xsd:int` | Sí | Especifica el ancho de destino de la vista de viñeta resultante en píxeles. Utilice cero para que la viñeta de salida tenga el mismo tamaño que la viñeta principal. |
+| companyHandle | `xsd:string` | Sí | Manejo de la compañía. |
+| vignetteFormatHandle | `xsd:string` | Sí | Controlador de formato de publicación. |
+| nombre | `xsd:string` | No | Nombre del formato de publicación. |
+| targetWidth | `xsd:int` | Sí | Especifica la anchura de destino de la vista de viñeta resultante en píxeles. Utilice cero para que la viñeta de salida tenga el mismo tamaño que la viñeta principal. |
 | targetHeight | `xsd:int` | Sí | Especifica la altura de destino de la vista de viñeta resultante en píxeles. Utilice cero para que la viñeta de salida tenga el mismo tamaño que la viñeta principal. |
-| createPyramid | `xsd:boolean` | Sí | Crea una viñeta piramidal optimizada para la ampliación y la reducción en el servidor de procesamiento de imágenes. Partiendo desde el tamaño máximo, definido por los campos de tamaño de la viñeta de destino, esta opción crea múltiples vistas de tamaño en un solo archivo de salida de viñetas. Los tamaños de vista se van reduciendo a la mitad en orden hasta que la altura y la anchura están dentro del límite de 128 x 128 píxeles. |
-| thumbWidth | `xsd:int` | Sí | Especifica el ancho de cada miniatura resultante en píxeles. Esta configuración es opcional. Deje como cero para ningún archivo en miniatura. |
-| saveAsVersion | `xsd:int` | Sí | Especifica el formato de archivo de las viñetas publicadas. Dado que hay una nueva versión de Creación de imágenes y una versión anterior del servidor de renderización de imágenes, debe especificar una versión de viñeta que el servidor de renderización de imágenes pueda leer. Si especifica una versión superior, el servidor de renderización de imágenes no podrá leer las viñetas publicadas. Establézcalo en cero para publicar viñetas en la última versión. |
-| sizeSuffixSeparator | `xsd:string` | Sí | Especifica el carácter que se utiliza para separar el nombre de la viñeta y el sufijo que indica su anchura. |
-| enfocar | `xsd:int` | No | Aplica nitidez a la imagen de vista principal para cada tamaño de viñeta de publicación. El enfoque puede compensar el desenfoque cuando se escalan las viñetas. |
-| usmAmount | `xsd:double` | Sí | El enmascaramiento de enfoque digital es una forma flexible y potente de aumentar la nitidez, especialmente en imágenes escaneadas. Esto controla la magnitud de cada rebasamiento (cuánto más oscuros y claros son los bordes del borde). |
-| usmRadius | `xsd:double` | Sí | Afecta al tamaño de los bordes que se van a mejorar o a la anchura de los bordes, por lo que un radio más pequeño mejora el detalle de menor escala. Los valores de radio más altos pueden causar halos en los bordes. El detalle fino necesita un radio más pequeño, ya que se pierde un detalle minúsculo del mismo tamaño o menor que el radio. |
-| usmThreshold | `xsd:int` | Sí | Controla el cambio mínimo de brillo que se debe enfocar o la distancia que deben estar los valores tonales adyacentes antes de que funcione el filtro. Este ajuste puede enfocar los bordes más pronunciados sin modificar los bordes más sutiles. El rango permitido de umbral es de 0 a 255. |
+| createPyramid | `xsd:boolean` | Sí | Crea una viñeta piramidal optimizada para la ampliación y la reducción en el servidor de procesamiento de imágenes. Empezando por el tamaño máximo, definido por los campos de tamaño de viñeta de destino, esto crea múltiples vistas de tamaño en un solo archivo de salida de viñeta. Cada tamaño de vista posterior se reduce a la mitad hasta que la anchura y la altura tengan un valor inferior a 128 x 128 píxeles. |
+| thumbWidth | `xsd:int` | Sí | Especifica la anchura en píxeles de cada miniatura creada. Esta configuración es opcional. Dejar como cero para que no haya archivo de miniaturas. |
+| saveAsVersion | `xsd:int` | Sí | Especifica el formato de archivo para las viñetas publicadas. Dada la nueva versión de Image Authoring y una versión más antigua del servidor de procesamiento de imágenes, debe especificar una versión de viñeta que el servidor de procesamiento de imágenes pueda leer. Si especifica una versión superior, el servidor de procesamiento de imágenes no podrá leer las viñetas publicadas. Establézcalo en cero para publicar viñetas en la última versión. |
+| sizeSuffixSeparator | `xsd:string` | Sí | Especifica el carácter que separa el nombre de la viñeta y el sufijo que indica su anchura. |
+| afilar | `xsd:int` | No | Aplica enfoque a la imagen de vista principal para cada tamaño de viñeta de publicación. El enfoque puede compensar el desenfoque que se produce cuando las viñetas se reducen o se agrandan. |
+| usmAmount | `xsd:double` | Sí | La máscara de enfoque digital es una forma flexible y eficaz de aumentar la nitidez, especialmente en imágenes digitalizadas. Esto controla la magnitud de cada sobregiro (cuánto más oscuros y claros se vuelven los bordes de borde). |
+| usmRadius | `xsd:double` | Sí | Afecta al tamaño de las aristas que se van a mejorar o a la anchura de las aristas, por lo que un radio más pequeño aumenta el detalle a menor escala. Los valores de radio más altos pueden causar halos en los bordes. El detalle fino necesita un radio más pequeño, ya que se pierde un detalle minúsculo del mismo tamaño o más pequeño que el radio. |
+| usmThreshold | `xsd:int` | Sí | Controla el cambio de brillo mínimo que se va a enfocar o la distancia entre los valores tonales adyacentes que se deben situar antes de que el filtro funcione. Esta configuración puede enfocar los bordes más pronunciados sin modificar los más sutiles. El intervalo permitido de umbral es de 0 a 255. |
 
 **Salida (updateVignettePublishFormatReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| viñetaFormatoControlador | `xsd:string` | Sí | Gestione el formato actualizado de publicación de la viñeta. |
+| vignetteFormatHandle | `xsd:string` | Sí | Administrar al formato de publicación de viñeta actualizado. |
 
 ## Ejemplo {#section-fcba4bf2b7264786a676e315a35dbe43}
 

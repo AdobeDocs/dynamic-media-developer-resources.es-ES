@@ -1,5 +1,5 @@
 ---
-description: Obtiene los recursos y el número de recursos asociados a una empresa específica.
+description: Obtiene los recursos y el número de recursos asociados con una compañía específica.
 solution: Experience Manager
 title: getAssetCounts
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,9 +14,9 @@ ht-degree: 10%
 
 # getAssetCounts{#getassetcounts}
 
-Obtiene los recursos y el número de recursos asociados a una empresa específica.
+Obtiene los recursos y el número de recursos asociados con una compañía específica.
 
-La variable `countArray` El resultado devuelto consiste en una matriz de `assetTypes` (tipo de datos `xsd:string`), cada uno con su propio campo de recuento (tipo de datos `xsd:int`), lo que permite la representación de varios tipos de recursos por elemento de la matriz.
+El `countArray` devuelto consiste en una matriz de `assetTypes` (tipo de datos) `xsd:string`), cada una con su propio campo de recuento (tipo de datos `xsd:int`), lo que permite la representación de varios tipos de recursos por elemento de la matriz.
 Sintaxis
 
 ## Tipos de usuarios autorizados {#section-6234754722184e828352f10eb18fbce9}
@@ -37,13 +37,13 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | El identificador de la empresa con los recursos que desea contar. |
+| companyHandle | `xsd:string` | Sí | El identificador de la compañía con los recursos que desea contar. |
 
 **Salida (getAssetCountsReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| countArray | `types:AssetCountArray` | No | Matriz de tipos de recurso, cada uno con su propio campo de recuento, que permite la representación de varios tipos de recurso por elemento de la matriz. |
+| countArray | `types:AssetCountArray` | No | Una matriz de tipos de recursos, cada uno con su propio campo de recuento, lo que permite representar varios tipos de recursos por elemento de la matriz. |
 
 ## Ejemplos {#section-6052a503eb3843f6adb99e200fdba280}
 

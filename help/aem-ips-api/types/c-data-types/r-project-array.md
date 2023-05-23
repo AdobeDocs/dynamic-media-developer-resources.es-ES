@@ -22,4 +22,4 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| elementos | `types:Project` | La matriz de proyectos. |
+| elementos | `types:Project` | La matriz del proyecto. |

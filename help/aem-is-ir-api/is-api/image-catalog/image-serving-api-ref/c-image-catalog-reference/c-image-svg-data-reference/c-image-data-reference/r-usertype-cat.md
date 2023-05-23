@@ -1,5 +1,5 @@
 ---
-description: Tipo de usuario de contenido estático. Permite asignar un tipo especificado por el usuario a elementos de contenido estáticos.
+description: Tipo de usuario de contenido estático. Permite asignar un tipo especificado por el usuario a elementos de contenido estático.
 solution: Experience Manager
 title: UserType
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: a97837be-ffc3-4759-8167-81a24dd54947
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 10%
+source-wordcount: '42'
+ht-degree: 9%
 
 ---
 
 # UserType{#usertype}
 
-Tipo de usuario de contenido estático. Permite asignar un tipo especificado por el usuario a elementos de contenido estáticos.
+Tipo de usuario de contenido estático. Permite asignar un tipo especificado por el usuario a elementos de contenido estático.
 
 ## Propiedades {#section-cb23ad3147a14c68aa4e4c9563b81942}
 
@@ -26,4 +26,4 @@ Ninguno.
 
 ## Véase también {#section-b8dfd2f3bdb24334bcd759d2b366e3c7}
 
-[type=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-type.md) ,  [HTTP Protocol - Serving Static Contents](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-serving-static-non-image-content.md)
+[type=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-type.md) , [Protocolo HTTP: servicio de contenido estático](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-serving-static-non-image-content.md)

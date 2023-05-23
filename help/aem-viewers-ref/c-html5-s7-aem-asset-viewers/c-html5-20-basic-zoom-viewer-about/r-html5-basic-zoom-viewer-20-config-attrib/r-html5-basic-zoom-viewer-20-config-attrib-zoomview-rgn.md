@@ -8,7 +8,7 @@ exl-id: fa978c5f-2473-4c2c-ac3e-6273283825e3
 source-git-commit: 61e3a1fd0e21d336eaf5232096f5b1b54f2a6353
 workflow-type: tm+mt
 source-wordcount: '38'
-ht-degree: 13%
+ht-degree: 10%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 13%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> x,y,w,h</span> </p> </td> 
-   <td colname="col2"> <p> Región inicial de interés en coordenadas de píxeles. Si no se especifican estos valores, toda la imagen se instala en la ventanilla inicial. </p> </td> 
+   <td colname="col2"> <p> Región de interés inicial en coordenadas de píxel. Si no se especifican estos valores, toda la imagen se ajusta dentro de la ventana gráfica inicial. </p> </td> 
   </tr> 
  </tbody> 
 </table>

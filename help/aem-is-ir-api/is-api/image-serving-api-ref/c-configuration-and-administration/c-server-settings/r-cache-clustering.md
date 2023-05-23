@@ -1,33 +1,33 @@
 ---
 description: Utilice esta configuración de servidor para la agrupación en clúster de caché.
 solution: Experience Manager
-title: Clustering de caché
+title: Clúster de caché
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: bd0267e7-ebf5-4995-b55e-89cb1a58de6d
 source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
 
-# Clustering de caché{#cache-clustering}
+# Clúster de caché{#cache-clustering}
 
 Utilice esta configuración de servidor para la agrupación en clúster de caché.
 
 ## PS::cacheCluster.hosts - Hosts {#section-319d2ba2915e40ac8b5ea9b4fe26a88b}
 
-Lista de direcciones IP separadas por punto y coma. Incluya las direcciones IP de todos los servidores del mismo nivel desde los que este host debe obtener datos de caché. La dirección IP del host local se puede incluir para mayor comodidad; esto permite los mismos ajustes de configuración para todos los servidores del clúster.
+Lista de direcciones IP, separadas por punto y coma. Incluya las direcciones IP de todos los servidores del mismo nivel desde los que este host debe obtener datos de caché. La dirección IP del host local se puede incluir para mayor comodidad; esto permite los mismos ajustes de configuración para todos los servidores del clúster.
 
 ## PS::cacheCluster.updateLocalCache: actualizar caché local {#section-154c2c0af4544200a3499232bb130dde}
 
-Se establece en &quot;Sí&quot; si una entrada de caché proporcionada por un servidor del mismo nivel se debe copiar en la caché de respuestas local.
+Se establece en &#39;Yes&#39; si una entrada de caché proporcionada por un servidor del mismo nivel se debe copiar en la caché de respuestas local.
 
-## PS::cacheCluster.queryTimeout - Tiempo de espera de consulta {#section-8d2b10e15b3e44078d2d9bdb7c25bde0}
+## PS::cacheCluster.queryTimeout: tiempo de espera de consulta {#section-8d2b10e15b3e44078d2d9bdb7c25bde0}
 
-Al solicitar una entrada de caché de los servidores del mismo nivel, el servidor esperará hasta que un servidor responda que tiene este elemento de datos en particular, o hasta que todos los servidores del mismo nivel hayan respondido que no tienen el elemento de datos o hasta que el tiempo especificado con esta configuración (en msec) haya caducado.
+Al solicitar una entrada de caché de servidores del mismo nivel, el servidor esperará hasta que un servidor responda que tiene este elemento de datos concreto, hasta que todos los servidores del mismo nivel hayan respondido que no tienen el elemento de datos o hasta que la hora especificada con esta configuración (en ms) haya caducado.
 
 ## PS::cacheCluster.fetchTimeout: tiempo de espera de recuperación {#section-41c42a29a26f43dc9cff50ad9fae1f14}
 
-Especifica el número máximo de ms que el servidor esperará para que los datos de caché reales se entreguen desde el servidor del mismo nivel. Si los datos completos no se han entregado antes de que caduque el tiempo de espera, el servidor supone que el par ya no está disponible. A continuación, la entrada de caché se genera localmente.
+Especifica el número máximo de milisegundos que el servidor esperará a que el servidor del mismo nivel envíe los datos de caché reales. Si no se han entregado todos los datos antes de que expire el tiempo de espera, el servidor asume que el interlocutor no está disponible. A continuación, la entrada de caché se genera localmente.

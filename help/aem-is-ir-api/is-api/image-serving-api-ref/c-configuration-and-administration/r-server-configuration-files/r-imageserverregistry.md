@@ -1,5 +1,5 @@
 ---
-description: Contiene los ajustes de configuración del servidor de imágenes.
+description: Contiene las opciones de configuración de Image Server.
 solution: Experience Manager
 title: ImageServerRegistry.xml
 feature: Dynamic Media Classic,SDK/API
@@ -7,24 +7,24 @@ role: Developer,Admin,User
 exl-id: 4483c5e8-5123-4d0f-bf9a-4ef8d8cec5a9
 source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
 
 # ImageServerRegistry.xml{#imageserverregistry-xml}
 
-Contiene los ajustes de configuración del servidor de imágenes.
+Contiene las opciones de configuración de Image Server.
 
-Al modificar este archivo XML, se debe tener cuidado de mantener una sintaxis XML válida; de lo contrario, el servidor de imágenes puede no iniciarse.
+Al modificar este archivo XML, debe tener cuidado de mantener una sintaxis XML válida; de lo contrario, es posible que el servidor de imágenes no se inicie correctamente.
 
-Para que los cambios surtan efecto, reinicie Image Server después de editar este archivo. Solo se admiten para modificación los valores de elemento enumerados a continuación. Edite cualquier otro contenido de este archivo solo cuando el soporte técnico de Dynamic Media lo aconseje.
+Para que los cambios surtan efecto, reinicie el servidor de imágenes después de editar este archivo. Solo se admiten para la modificación los valores de elemento que se enumeran a continuación. Edite cualquier otro contenido de este archivo solo cuando el servicio de asistencia técnica de Dynamic Media lo aconseje.
 
 >[!NOTE]
 >
->No cambie la estructura de `<imageserverregistry>`, incluido el orden de los elementos. Tenga cuidado al editar este archivo; de lo contrario, el servidor de imágenes podría no iniciarse.
+>No cambie la estructura de `<imageserverregistry>`, incluido el orden de los elementos. Tenga cuidado al editar este archivo; de lo contrario, es posible que el servidor de imágenes no se pueda iniciar.
 
-El siguiente ejemplo ilustra qué elementos se pueden cambiar. Hay otros elementos presentes que no deben cambiarse. El orden de los elementos siguientes no refleja el orden en que deben estar presentes en el archivo.
+Lo siguiente ilustra qué elementos se pueden cambiar. Hay otros elementos presentes que no deben cambiarse. El orden de los elementos siguientes no refleja el orden en que deben estar presentes en el archivo.
 
 ```
 <imageserverregistry>
@@ -52,4 +52,4 @@ El siguiente ejemplo ilustra qué elementos se pueden cambiar. Hay otros element
 
 ## Notas {#section-7217f011f69f41e7af4f3983d7776d6f}
 
-Pueden estar presentes varios elementos `<RootPath>` (uno para cada carpeta de archivo de datos de origen). Image Server busca las rutas raíz en el orden especificado para encontrar un archivo de origen concreto.
+Múltiple `<RootPath>` pueden estar presentes varios elementos (uno para cada carpeta del archivo de datos de origen). Image Server busca las rutas raíz en el orden especificado para encontrar un archivo de origen concreto.

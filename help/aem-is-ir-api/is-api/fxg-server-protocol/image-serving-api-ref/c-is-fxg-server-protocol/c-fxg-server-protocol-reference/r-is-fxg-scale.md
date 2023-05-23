@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 89701a15-a0b6-460d-b0c1-5e25f3305380
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 8%
+source-wordcount: '42'
+ht-degree: 9%
 
 ---
 
@@ -27,7 +27,7 @@ Escalar imagen. Escala una imagen por factor en relación con la imagen de resol
 
 ## Predeterminado {#section-e9e53959b35844579f0f1d7721b71f8e}
 
-Si no se especifica, la imagen se utilizará sin escalar.
+Si no se especifica, la imagen se utiliza sin escalar.
 
 ## Ejemplo {#section-d5526953d6434c58bb2388bd936c13b5}
 

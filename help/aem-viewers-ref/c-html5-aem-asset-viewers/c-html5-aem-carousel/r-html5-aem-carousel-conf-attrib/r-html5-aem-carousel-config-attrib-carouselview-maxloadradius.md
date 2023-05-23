@@ -8,19 +8,19 @@ exl-id: 8a3d3d32-7970-420c-8ad8-296c9ba1f08a
 source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
 source-wordcount: '63'
-ht-degree: 6%
+ht-degree: 4%
 
 ---
 
 # CarouselView.maxloadradius{#carouselview-maxloadradius}
 
-` [CarouselView.|<containerId>_carouselView.]maxloadradius=-1|0| *`precarga`*`
+` [CarouselView.|<containerId>_carouselView.]maxloadradius=-1|0| *`preloadnbr`*`
 
 <table id="table_B3B03B00DCF0466DB332E851F4DDF610"> 
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> -1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td> <p>Especifica el comportamiento de precarga del componente. </p> <p>Cuando se establece en <span class="codeph"> -1</span>, el componente carga previamente todos los fotogramas de carrusel cuando está inactivo. </p> <p>Cuando se establece en <span class="codeph"> 0</span>, el componente carga solo el fotograma que está visible actualmente, anterior y siguiente. </p> <p><span class="codeph"><span class="varname"> </span></span>precarga define cuántos marcos invisibles alrededor del marco mostrado actualmente se cargan previamente cuando están en estado inactivo. </p> </td> 
+   <td> <p>Especifica el comportamiento de carga previa del componente. </p> <p>Cuando se establece en <span class="codeph"> -1</span> el componente carga de forma previa todos los fotogramas de carrusel cuando está en espera. </p> <p>Cuando se establece en <span class="codeph"> 0</span> el componente solo carga el marco que está visible actualmente, el anterior y el siguiente. </p> <p><span class="codeph"><span class="varname"> preloadnbr</span></span>define la cantidad de fotogramas invisibles alrededor del fotograma mostrado actualmente que se cargan previamente cuando se encuentra en espera. </p> </td> 
   </tr> 
  </tbody> 
 </table>

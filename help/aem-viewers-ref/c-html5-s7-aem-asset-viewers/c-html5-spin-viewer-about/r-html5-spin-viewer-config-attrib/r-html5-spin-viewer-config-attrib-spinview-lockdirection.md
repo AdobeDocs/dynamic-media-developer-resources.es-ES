@@ -8,7 +8,7 @@ exl-id: e29ba926-9e0e-4ddd-9f76-408f8ab3b4ca
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '124'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Especifica si se permite un cambio en la dirección de giro si hay un conjunto de giros 2D. </p> <p>Cuando se configura como <span class="codeph"> 1 </span>, el componente identifica la dirección de arrastre o desliz principal (horizontal o vertical) al principio del gesto. Después de eso, mantiene esa dirección hasta que termina el gesto. Por ejemplo, si el usuario inicia un giro horizontal y luego decide continuar con el gesto de arrastrar en dirección vertical, el componente no realiza un giro vertical. En su lugar, considera solamente el movimiento horizontal del ratón o el desliz. </p> <p>Un valor de <span class="codeph"> 0 </span> permite a un usuario cambiar la dirección de giro en cualquier momento durante el progreso del gesto. La configuración no tiene ningún efecto si el conjunto de giros es 1D. </p> </td> 
+   <td colname="col2"> <p> Especifica si se permite un cambio en la dirección de giro si hay un conjunto de giros 2D. </p> <p>Cuando se establece en <span class="codeph"> 1 </span>, el componente identifica la dirección de arrastre o barrido principal (horizontal frente a vertical) al principio del gesto. Después, mantiene esa dirección hasta que termina el gesto. Por ejemplo, si el usuario inicia un giro horizontal y, a continuación, decide continuar con el gesto de arrastre en dirección vertical, el componente no realiza un giro vertical. En su lugar, solo tiene en cuenta el movimiento horizontal del ratón o el barrido. </p> <p>Un valor de <span class="codeph"> 0 </span> permite al usuario cambiar la dirección de giro en cualquier momento durante el progreso del gesto. El ajuste no tiene efecto si el conjunto de giros es 1D. </p> </td> 
   </tr> 
  </tbody> 
 </table>

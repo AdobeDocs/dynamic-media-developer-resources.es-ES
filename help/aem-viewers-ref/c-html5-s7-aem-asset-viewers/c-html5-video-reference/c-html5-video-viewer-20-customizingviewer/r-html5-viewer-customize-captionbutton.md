@@ -1,6 +1,6 @@
 ---
-title: Botón Rótulo
-description: Este botón permite activar y desactivar la visualización de subtítulos. No está visible si no se especifica el parámetro del rótulo.
+title: Botón de rótulo
+description: Este botón activa y desactiva la visualización de subtítulos. No está visible si no se especifica el parámetro caption.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -12,13 +12,13 @@ ht-degree: 2%
 
 ---
 
-# Botón Rótulo{#caption-button}
+# Botón de rótulo{#caption-button}
 
-Este botón permite activar y desactivar la visualización de subtítulos. No está visible si no se especifica el parámetro del rótulo.
+Este botón activa y desactiva la visualización de subtítulos. No está visible si no se especifica el parámetro caption.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Puede cambiar el tamaño, el aspecto y la posición de este botón, en relación con la barra de control que lo contiene, mediante CSS.
+Puede cambiar el tamaño, la apariencia y la posición de este botón, en relación con la barra de control que lo contiene, mediante CSS.
 
 El aspecto de este botón se controla con el siguiente selector de clase CSS:
 
@@ -26,7 +26,7 @@ El aspecto de este botón se controla con el siguiente selector de clase CSS:
 .s7videoviewer .s7closedcaptionbutton
 ```
 
-**Propiedades CSS del botón del rótulo**
+**Propiedades CSS del botón de rótulo**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -55,25 +55,25 @@ El aspecto de este botón se controla con el siguiente selector de clase CSS:
    <td colname="col2"> <p>Altura del botón de pantalla completa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagen de fondo </span> </p> </td> 
-   <td colname="col2"> <p> La imagen mostrada para un estado de botón determinado. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p> Imagen mostrada para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posición de fondo </span> </p> </td> 
-   <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Coloque dentro del icono de ilustración si se utilizan iconos CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Este botón admite las dos variables `state` y `selected` selectores de atributos, que pueden utilizarse para aplicar diferentes aspectos a distintos estados de botones. En particular, `selected='true'` corresponde al estado cuando los subtítulos están visibles y `selected='false'` se utiliza cuando los subtítulos están ocultos.
+>Este botón es compatible con el `state` y `selected` selectores de atributos, que se pueden utilizar para aplicar diferentes aspectos a diferentes estados de botones. En particular, `selected='true'` corresponde al estado cuando los subtítulos son visibles y `selected='false'` se utiliza cuando los subtítulos están ocultos.
 
-La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
+La información del objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
 
 ## Ejemplo {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Para configurar un botón de subtítulos cerrados de 28 x 28 píxeles y colocado cuatro píxeles desde la parte superior y 68 píxeles desde el borde derecho de la barra de control. Finalmente, muestra una imagen diferente para cada uno de los cuatro estados de botón diferentes cuando se selecciona o no.
+Para configurar un botón de subtítulo cerrado de 28 x 28 píxeles y colocado a cuatro píxeles de la parte superior y a 68 píxeles del borde derecho de la barra de control. Y, por último, muestra una imagen diferente para cada uno de los cuatro estados de botón cuando se selecciona o no se selecciona.
 
 ```
 .s7videoviewer .s7closedcaptionbutton { 

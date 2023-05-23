@@ -1,5 +1,5 @@
 ---
-description: Devuelve la configuración IPS de una empresa específica.
+description: Devuelve la configuración de IPS de una compañía específica.
 solution: Experience Manager
 title: getCompanySettings
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 25%
 
 # getCompanySettings{#getcompanysettings}
 
-Devuelve la configuración IPS de una empresa específica.
+Devuelve la configuración de IPS de una compañía específica.
 
 Sintaxis
 
@@ -31,17 +31,17 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | El identificador de la empresa cuya configuración desea recuperar. |
+| companyHandle | `xsd:string` | Sí | El identificador de la compañía cuya configuración desea recuperar. |
 
 **Salida (getCompanySettingsReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| configuración | `types:CompanySettings` | Sí | Configuración de la empresa. |
+| configuración | `types:CompanySettings` | Sí | Configuración de empresa. |
 
 ## Ejemplos {#section-191f78995ecf473a95eadf7296204fd7}
 
-Este ejemplo de código devuelve todos los ajustes IPS de una empresa específica.
+Este ejemplo de código devuelve todos los ajustes de IPS de una empresa específica.
 
 **Solicitar**
 

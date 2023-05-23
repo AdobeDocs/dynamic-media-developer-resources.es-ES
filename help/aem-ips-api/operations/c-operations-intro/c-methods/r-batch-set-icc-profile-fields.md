@@ -33,16 +33,16 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | Gestione a la empresa que contiene los perfiles ICC. |
+| companyHandle | `xsd:string` | Sí | Administre a la compañía que contiene los perfiles ICC. |
 | actualizar matriz | `xsd:string` | Sí | Matriz de actualizaciones de perfiles ICC. |
 
 **Salida (batchSetIccProfileFields)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| successCount | `xsd:int` | Sí | Número de campos de perfil ICC establecidos correctamente. |
-| warningCount | `xsd:int` | Sí | Número de advertencias generadas cuando la operación intentó establecer los campos de perfil ICC. |
-| errorCount | `xsd:int` | Sí | Número de errores generados cuando la operación intentó establecer los campos de perfil ICC. |
+| successCount | `xsd:int` | Sí | El número de campos de perfil ICC definidos correctamente. |
+| warningCount | `xsd:int` | Sí | El número de advertencias generadas cuando la operación intentó establecer los campos de perfil ICC. |
+| errorCount | `xsd:int` | Sí | El número de errores generados cuando la operación intentó establecer los campos de perfil ICC. |
 | warningDetailArray | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados con los recursos que generaron advertencias cuando la operación intentó aplicar las actualizaciones. |
 | errorDetailArray | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados con los recursos que generaron errores cuando la operación intentó aplicar las actualizaciones. |
 

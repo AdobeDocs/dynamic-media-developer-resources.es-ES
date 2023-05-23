@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 3fb48c39-b15a-45b7-9aca-ed33f9c46c93
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 1%
+source-wordcount: '49'
+ht-degree: 2%
 
 ---
 
@@ -20,14 +20,14 @@ Este parámetro:
 
 <table id="simpletable_D8AA325968AD4FAEA7B214F0CBBF3F08"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> jobid  </span> </p> </td> 
-  <td class="stentry"> <p>ID de trabajo obtenido en el momento del envío. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> trabajadora </span> </p> </td> 
+  <td class="stentry"> <p>ID de trabajo que se obtuvo en el momento del envío. </p> </td> 
  </tr> 
 </table>
 
 Devuelve:
 
-La salida en PDF del trabajo se transmite como respuesta; error si `jobid` no es válido o el trabajo se ha eliminado.
+La salida del PDF del trabajo se transmite en respuesta; error si `jobid` no es válido o se ha eliminado el trabajo.
 
 ## Ejemplo {#section-0319e615fa254132a9dab59351b4c252}
 

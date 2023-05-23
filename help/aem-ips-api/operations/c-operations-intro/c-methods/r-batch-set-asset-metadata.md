@@ -1,5 +1,5 @@
 ---
-description: Establece los metadatos de los recursos mediante el modo por lotes.
+description: Establece los metadatos del recurso mediante el modo por lotes.
 solution: Experience Manager
 title: batchSetAssetMetadata
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 13%
 
 # batchSetAssetMetadata{#batchsetassetmetadata}
 
-Establece los metadatos de los recursos mediante el modo por lotes.
+Establece los metadatos del recurso mediante el modo por lotes.
 
 Sintaxis
 
@@ -33,18 +33,18 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | El identificador de la empresa cuyos metadatos desea configurar en una operación por lotes. |
+| companyHandle | `xsd:string` | Sí | Identificador de la compañía cuyos metadatos desea establecer en una operación por lotes. |
 | updateArray | `types:BatchMetadataUpdateArray` | Sí | Matriz de actualizaciones de metadatos aplicadas a los recursos. |
 
 **Salida (batchSetAssetMetadataParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| successCount | `xsd:int` | Sí | Número de metadatos establecidos correctamente. |
+| successCount | `xsd:int` | Sí | El número de metadatos establecidos correctamente. |
 | warningCount | `xsd:int` | Sí | Número de advertencias generadas cuando la operación intentó establecer metadatos. |
 | errorCount | `xsd:int` | Sí | Número de errores generados cuando la operación intentó establecer metadatos. |
-| warningDetailArray | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados con los recursos que generan advertencias cuando la operación intentó establecer metadatos para los recursos por lotes. |
-| errorDetailArray | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados a los recursos que generan errores cuando la operación intentó establecer metadatos para los recursos en lotes. |
+| warningDetailArray | `types:AssetOperationFaultArray` | No | La matriz de detalles asociados con los recursos que generan advertencias cuando la operación intentó establecer metadatos por lotes para los recursos. |
+| errorDetailArray | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados con los recursos que generaron errores cuando la operación intentó establecer metadatos por lotes para los recursos. |
 
 ## Ejemplos {#section-2de798ac920e4b47b971b1729a64395b}
 

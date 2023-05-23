@@ -1,5 +1,5 @@
 ---
-description: Utilizado por IccProfileFieldUpdate/colorSpace e IccProfileFieldUpdate/pcsType.
+description: Utilizado por IccProfileFieldUpdate/colorSpace y IccProfileFieldUpdate/pcsType.
 solution: Experience Manager
 title: Espacios de color
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,Admin
 exl-id: f2989963-e0d4-42b8-9807-a63d43728540
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '25'
-ht-degree: 8%
+source-wordcount: '20'
+ht-degree: 10%
 
 ---
 
 # Espacios de color{#color-spaces}
 
-Utilizado por IccProfileFieldUpdate/colorSpace e IccProfileFieldUpdate/pcsType.
+Utilizado por IccProfileFieldUpdate/colorSpace y IccProfileFieldUpdate/pcsType.
 
 Sintaxis
 

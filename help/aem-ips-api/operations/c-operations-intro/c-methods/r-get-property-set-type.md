@@ -1,5 +1,5 @@
 ---
-description: Obtiene un tipo de conjunto de propiedades mediante un identificador de una empresa y el nombre del tipo de conjunto de propiedades. Obtiene una estructura de tipo con el identificador del tipo y el tipo de propiedad.
+description: Obtiene un tipo de conjunto de propiedades mediante un identificador a una compañía y el nombre del tipo de conjunto de propiedades. Obtiene una estructura de tipo con el identificador del tipo y el tipo de propiedad.
 solution: Experience Manager
 title: getPropertySetType
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # getPropertySetType{#getpropertysettype}
 
-Obtiene un tipo de conjunto de propiedades mediante un identificador de una empresa y el nombre del tipo de conjunto de propiedades. Obtiene una estructura de tipo con el identificador del tipo y el tipo de propiedad.
+Obtiene un tipo de conjunto de propiedades mediante un identificador a una compañía y el nombre del tipo de conjunto de propiedades. Obtiene una estructura de tipo con el identificador del tipo y el tipo de propiedad.
 
 Sintaxis
 
@@ -36,8 +36,8 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | No | El identificador de la empresa. Opcional porque un tipo de conjunto de propiedades puede pertenecer a varias empresas. |
-| name | `xsd:string` | Sí | Nombre del tipo del conjunto de propiedades. |
+| companyHandle | `xsd:string` | No | El identificador de la compañía. Opcional porque un tipo de conjunto de propiedades puede pertenecer a varias empresas. |
+| nombre | `xsd:string` | Sí | Nombre del tipo de conjunto de propiedades. |
 
 **Salida (getPropertySetTypeReturn)**
 
@@ -55,9 +55,9 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:PropertySetType</span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4">La estructura de tipo que contiene: 
+   <td colname="col4">Estructura de tipo que contiene: 
     <ul id="ul_FC028882124D4CD6870A076CBFB80333"> 
-     <li id="li_9F36539C51ED48EDBECCD6A07A4FDD4A">Gestionar. </li> 
+     <li id="li_9F36539C51ED48EDBECCD6A07A4FDD4A">Manejar. </li> 
      <li id="li_6004406A0D1341648A714FF3C61E4004">Escriba el nombre. </li> 
      <li id="li_29F6CA9D8B134ED3B10B6BDBB41BF607">Tipo de propiedad. </li> 
      <li id="li_A2354354541A4F1AB7234F65F2B61A40">Valor que indica si el tipo permite varios tipos de propiedad. </li> 

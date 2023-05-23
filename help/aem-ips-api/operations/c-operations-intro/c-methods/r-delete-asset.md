@@ -37,16 +37,16 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | Identificador de la empresa a la que pertenece la carpeta. |
+| companyHandle | `xsd:string` | Sí | El identificador de la compañía a la que pertenece la carpeta. |
 | assetHandle | `xsd:string` | Sí | El identificador del recurso que se va a eliminar. |
 
 **Salida (deleteAssetParam)**
 
-La API IPS no devuelve una respuesta para esta operación.
+La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-d5657289f5234bb0a613dcf691507958}
 
-Este código de ejemplo elimina cualquier tipo de recurso de una empresa específica. Requiere un controlador de recursos que debe obtener de otra operación.
+Este código de ejemplo elimina cualquier tipo de recurso de una compañía específica. Requiere un identificador de recursos, que debe obtener de otra operación.
 
 **Solicitar**
 

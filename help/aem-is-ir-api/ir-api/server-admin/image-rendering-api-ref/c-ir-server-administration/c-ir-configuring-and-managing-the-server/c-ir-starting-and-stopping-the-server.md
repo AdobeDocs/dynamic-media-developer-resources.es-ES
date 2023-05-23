@@ -1,7 +1,7 @@
 ---
-description: El procesamiento de imágenes está incrustado en el servidor de imágenes de Image Serving y [!DNL Platform Server] componentes.
+description: El procesamiento de imágenes está integrado en el servidor de imágenes del servicio de imágenes y [!DNL Platform Server] componentes.
 solution: Experience Manager
-title: Inicio y parada del servidor
+title: Iniciar y detener el servidor
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 79ec6e27-4964-41bc-b8ae-fc50cc59e728
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# Inicio y parada del servidor{#starting-and-stopping-the-server}
+# Iniciar y detener el servidor{#starting-and-stopping-the-server}
 
-El procesamiento de imágenes está incrustado en el servidor de imágenes de Image Serving y [!DNL Platform Server] componentes.
+El procesamiento de imágenes está integrado en el servidor de imágenes del servicio de imágenes y [!DNL Platform Server] componentes.
 
-Consulte la documentación de Image Serving para obtener más información.
+Consulte la Documentación del servicio de imágenes para obtener más información.

@@ -29,16 +29,16 @@ Elimina un formato de publicación de viñeta.
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | Identificador de la empresa a la que pertenece la viñeta. |
-| viñetaFormatoControlador | `xsd:string` | Sí | Identificador del formato de publicación de la viñeta que se va a eliminar. |
+| companyHandle | `xsd:string` | Sí | El identificador de la compañía a la que pertenece la viñeta. |
+| vignetteFormatHandle | `xsd:string` | Sí | El identificador del formato de publicación de viñeta que se va a eliminar. |
 
 **Salida (deleteVignettePublishFormatParam)**
 
-La API IPS no devuelve una respuesta para esta operación.
+La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-5ab2a314ad4c41ac8b3a24eaea7d8585}
 
-Este ejemplo de código elimina un formato de publicación de viñeta especificado por su controlador.
+Este ejemplo de código elimina un formato de publicación de viñeta especificado por su identificador.
 
 **Solicitar**
 

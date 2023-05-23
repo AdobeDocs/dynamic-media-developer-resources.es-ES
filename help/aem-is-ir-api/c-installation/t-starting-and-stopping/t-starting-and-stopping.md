@@ -1,6 +1,6 @@
 ---
-title: Inicio y parada del servicio de imágenes
-description: Esta sección proporciona instrucciones para iniciar y detener Image Serving en Windows y Linux®.
+title: Inicio y detención del servicio de imágenes
+description: Esta sección proporciona instrucciones para iniciar y detener el servicio de imágenes en Windows y Linux®.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Inicio y parada del servicio de imágenes{#starting-and-stopping-image-serving}
+# Inicio y detención del servicio de imágenes{#starting-and-stopping-image-serving}
 
-Esta sección proporciona instrucciones para iniciar y detener Image Serving en Windows y Linux®.
+Esta sección proporciona instrucciones para iniciar y detener el servicio de imágenes en Windows y Linux®.
 
-* [Inicio o parada en Windows](t-startstop-windows.md)
-* [Inicio o parada en Linux®](t-startstop-linux.md)
+* [Iniciar o detener en Windows](t-startstop-windows.md)
+* [Iniciar o detener en Linux®](t-startstop-linux.md)

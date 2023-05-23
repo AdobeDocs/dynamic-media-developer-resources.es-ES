@@ -18,7 +18,7 @@ Crea una carpeta.
 
 >[!NOTE]
 >
->La nueva carpeta está subordinada a la carpeta Imágenes , incluso si especifica una `/` para indicar la raíz de la empresa.
+>La nueva carpeta está subordinada a la carpeta Imágenes, incluso si especifica una `/` para indicar la raíz de la compañía.
 
 Sintaxis
 
@@ -41,18 +41,18 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | Control para la empresa |
-| folderPath | `xsd:string` | Sí | La carpeta raíz utilizada para recuperar carpetas y todas las subcarpetas en el nivel de hoja. Si se excluye, se utiliza la raíz de la empresa. |
+| companyHandle | `xsd:string` | Sí | El controlador de la compañía |
+| folderPath | `xsd:string` | Sí | La carpeta raíz utilizada para recuperar carpetas y todas las subcarpetas al nivel de hoja. Si se excluye, se utiliza la raíz de la empresa. |
 
 **Salida (createFolderParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| folderHandle | `xsd:string` | Sí | Gestionar la nueva carpeta. |
+| folderHandle | `xsd:string` | Sí | Gestión de la nueva carpeta. |
 
 ## Ejemplos {#section-e596fbdb44fd43c8b30005cb2a2fdf26}
 
-Este código de ejemplo crea una carpeta en la raíz de una empresa. La respuesta devuelve el identificador de la carpeta recién creada.
+Este código de ejemplo crea una carpeta en la raíz de una compañía. La respuesta devuelve el identificador de la carpeta recién creada.
 
 **Solicitar**
 

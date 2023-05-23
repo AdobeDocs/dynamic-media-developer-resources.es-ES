@@ -1,5 +1,5 @@
 ---
-description: Matriz de actualizaciones de valor de etiqueta.
+description: Una matriz de actualizaciones de valores de etiquetas.
 solution: Experience Manager
 title: TagValueUpdateArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 24%
 
 # [!DNL TagValueUpdateArray]{#tagvalueupdatearray}
 
-Matriz de actualizaciones de valor de etiqueta.
+Una matriz de actualizaciones de valores de etiquetas.
 
 Sintaxis
 
@@ -22,4 +22,4 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| elementos | `types:TagValueUpdate` | Matriz de actualizaciones de valor de etiqueta. |
+| elementos | `types:TagValueUpdate` | Una matriz de actualizaciones de valores de etiquetas. |

@@ -14,7 +14,7 @@ ht-degree: 17%
 
 # moveAsset{#moveasset}
 
-Moves an asset to a specific folder.
+Mueve un recurso a una carpeta específica.
 
 Sintaxis
 
@@ -33,17 +33,17 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | Gestionar a la empresa. |
-| assetHandle | `xsd:string` | Sí | Gestione el recurso que desee mover. |
-| folderHandle | `xsd:string` | Sí | Gestionar en la carpeta de destino. |
+| companyHandle | `xsd:string` | Sí | Gestionar en la empresa. |
+| assetHandle | `xsd:string` | Sí | Administre al recurso que desea mover. |
+| folderHandle | `xsd:string` | Sí | Administrar en la carpeta de destino. |
 
 **Salida (moveAssetReturn)**
 
-La API IPS no devuelve una respuesta para esta operación.
+La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-78333769f4f14e2886fdf06433c9d2ad}
 
-This code sample moves an asset to a folder.
+Este ejemplo de código mueve un recurso a una carpeta.
 
 **Solicitar**
 

@@ -1,5 +1,5 @@
 ---
-description: Define los campos de metadatos de fuente.
+description: Establece los campos de metadatos de fuente.
 solution: Experience Manager
 title: batchSetFontFields
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 15%
 
 # batchSetFontFields{#batchsetfontfields}
 
-Define los campos de metadatos de fuente.
+Establece los campos de metadatos de fuente.
 
 ## Tipos de usuarios autorizados {#section-89eff13b5ed54cddb87b1304ba4eff0e}
 
@@ -30,14 +30,14 @@ Define los campos de metadatos de fuente.
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | Gestione a la empresa que contiene las fuentes. |
-| updateArray | `types:FontFieldUpdateArray` | Sí | Matriz de actualizaciones de campos de fuente. |
+| companyHandle | `xsd:string` | Sí | Administre a la compañía que contiene las fuentes. |
+| updateArray | `types:FontFieldUpdateArray` | Sí | Matriz de actualizaciones de campo de fuente. |
 
 **Salida (batchSetFontFieldsParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| successCount | `xsd:int` | Sí | Número de campos de fuente definidos correctamente. |
+| successCount | `xsd:int` | Sí | El número de campos de fuente establecidos correctamente. |
 | warningCount | `xsd:int` | Sí | Número de advertencias generadas cuando la operación intentó establecer campos de fuente. |
 | errorCount | `xsd:int` | Sí | Número de errores generados cuando la operación intentó establecer campos de fuente. |
 | warningDetailArray | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados con los recursos que generaron advertencias cuando la operación intentó aplicar las actualizaciones. |

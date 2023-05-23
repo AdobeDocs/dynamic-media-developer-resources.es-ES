@@ -8,7 +8,7 @@ exl-id: 3bfd7f84-6136-4db7-80a5-56f84179f3ce
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '64'
-ht-degree: 6%
+ht-degree: 4%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td colname="col2"> <p> Especifica dónde se dibuja la etiqueta en relación con la imagen en miniatura. Es decir, la etiqueta se centra en la ubicación especificada en relación con la miniatura. </p> <p>When <span class="codeph"> tooltip</span> se especifica, el texto de la etiqueta se muestra como información flotante sobre la imagen en miniatura. </p> <p>Cuando se configura como <span class="codeph"> ninguno</span>, desactiva la visualización de etiquetas. </p> </td> 
+   <td colname="col2"> <p> Especifica la posición de la etiqueta en relación con la imagen en miniatura. Es decir, la etiqueta se centra en la ubicación especificada en relación con la miniatura. </p> <p>Cuándo <span class="codeph"> información sobre herramientas</span> se especifica, el texto de la etiqueta se muestra como información de objeto flotante sobre la imagen en miniatura. </p> <p>Cuando se establece en <span class="codeph"> ninguno</span>, desactiva la visualización de etiquetas. </p> </td> 
   </tr> 
  </tbody> 
 </table>

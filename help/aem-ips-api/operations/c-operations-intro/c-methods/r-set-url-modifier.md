@@ -1,5 +1,5 @@
 ---
-description: Establece los comandos del protocolo de servicio de imágenes o de renderización de imágenes para el recurso especificado. Estos comandos modifican la representación del recurso sin destruirlo.
+description: Establece los comandos del protocolo de servicio o procesamiento de imágenes para el recurso especificado. Estos comandos modifican la representación del recurso sin destruirlo.
 solution: Experience Manager
 title: setUrlModifier
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 7%
 
 # setUrlModifier{#seturlmodifier}
 
-Establece los comandos del protocolo de servicio de imágenes o de renderización de imágenes para el recurso especificado. Estos comandos modifican la representación del recurso sin destruirlo.
+Establece los comandos del protocolo de servicio o procesamiento de imágenes para el recurso especificado. Estos comandos modifican la representación del recurso sin destruirlo.
 
-Para el servicio de imágenes, los comandos de la sección `urlModifier` se publican en el campo de catálogo Modificador y se aplican antes de cualquier comando especificado en la dirección URL de la solicitud. Comandos en `urlPostApplyModifier` se publican en el `PostModifier` campo catálogo y anular cualquier comando de la dirección URL de solicitud o de `urlModifier`. Para la renderización de imágenes, los comandos de `urlModifier` y `urlPostApplyModifier` se concatenan y publican en el campo de catálogo Modificador .
+Para el servicio de imágenes, los comandos del `urlModifier` Los parámetros de se publican en el campo Modifier catalog y se aplican antes de cualquier comando especificado en la URL de la solicitud. Comandos en `urlPostApplyModifier` se publican en el `PostModifier` catálogo y omita cualquier comando de la dirección URL de la solicitud o del `urlModifier`. Para el procesamiento de imágenes, los comandos de `urlModifier` y `urlPostApplyModifier` se concatenan y publican en el campo Modifier catalog.
 
 ## Tipos de usuarios autorizados {#section-fefcd732ccf64c78956606538f96c73d}
 
@@ -33,14 +33,14 @@ Para el servicio de imágenes, los comandos de la sección `urlModifier` se publ
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | Identificador de la empresa. |
-| assetHandle | `xsd:string` | Sí | Identificador de recurso. |
-| urlModifier | `xsd:string` | No | Comandos de protocolo de servicio de imágenes o renderización de imágenes para aplicar antes de la solicitud o `urlPostApplyModifier` comandos. |
-| urlPostApplyModifier | `xsd:string` | No | Comandos de protocolo de servicio de imágenes o renderización de imágenes que se aplican después de `urlModifier` y los comandos de solicitud. |
+| companyHandle | `xsd:string` | Sí | Manejo de la compañía. |
+| assetHandle | `xsd:string` | Sí | Controlador de recurso. |
+| urlModifier | `xsd:string` | No | Comandos del protocolo de servicio o procesamiento de imágenes que se aplicarán antes de la solicitud o `urlPostApplyModifier` comandos. |
+| urlPostApplyModifier | `xsd:string` | No | Comandos de protocolo de servicio o procesamiento de imágenes para aplicar después de `urlModifier` y solicitar comandos. |
 
 **Salida (setUrlModifierReturn)**
 
-La API IPS no devuelve una respuesta para esta operación.
+La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-801d4b9b986443f59a5783a3d6bf44aa}
 

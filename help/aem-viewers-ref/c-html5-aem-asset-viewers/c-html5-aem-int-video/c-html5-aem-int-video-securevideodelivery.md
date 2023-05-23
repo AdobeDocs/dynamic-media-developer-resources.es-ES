@@ -18,19 +18,19 @@ ht-degree: 0%
 >
 >Secure Video Delivery only applies to AEM 6.2 with the installation of [Feature Pack-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480) and to AEM 6.1 with installation of [Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011). -->
 
-Si el visor funciona en una configuración como se describe al principio de esta sección, la entrega de vídeo publicado puede realizarse tanto en los modos HTTPS (seguro) como HTTP (inseguro). En una configuración predeterminada, el protocolo de entrega de vídeo sigue estrictamente el protocolo de entrega de la página web de incrustación. Sin embargo, es posible forzar el envío de vídeo HTTPS independientemente del protocolo utilizado al incrustar la página web utilizando el [VideoPlayer.ssl](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-ssl.md#reference-c28e1b700977493eadab5489458d7771) atributo de configuración. (La vista previa de vídeo en modo Autor siempre se entrega de forma segura a través de HTTPS).
+Si el visualizador funciona en la configuración tal como se describe al principio de esta sección, la entrega de vídeo publicado puede producirse en los modos HTTPS (seguro) y HTTP (no seguro). En una configuración predeterminada, el protocolo de entrega de vídeo sigue estrictamente el protocolo de entrega de la página web en la que se incorpora. Sin embargo, es posible forzar la entrega de vídeo HTTPS independientemente del protocolo utilizado al incrustar la página web utilizando [VideoPlayer.ssl](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-ssl.md#reference-c28e1b700977493eadab5489458d7771) atributo de configuración. (La previsualización de vídeo en el modo Autor siempre se entrega de forma segura a través de HTTPS).
 
-Dependiendo del método de publicación [!DNL Dynamic Media] el vídeo que utiliza en Adobe Experience Manager, el `VideoPlayer.ssl` el atributo de configuración se aplica de forma diferente, como se muestra en lo siguiente:
+Según el método de publicación [!DNL Dynamic Media] vídeo que utiliza en Adobe Experience Manager, el `VideoPlayer.ssl` El atributo de configuración de se aplica de forma diferente como se muestra en los siguientes ejemplos:
 
-* Si publica un [!DNL Dynamic Media] vídeo con una URL, anexe `VideoPlayer.ssl` a la dirección URL. Por ejemplo, para forzar el envío seguro de vídeo, añada `&VideoPlayer.ssl=on` al final del siguiente ejemplo de URL de visor:
+* Si publica un [!DNL Dynamic Media] con una dirección URL, puede adjuntar `VideoPlayer.ssl` a la dirección URL. Por ejemplo, para forzar la entrega de vídeo seguro, añada `&VideoPlayer.ssl=on` al final del siguiente ejemplo de URL del visor:
 
    ```
    https://demos-pub.assetsadobe.com/etc/dam/viewers/s7viewers/html5/InteractiveVideoViewer.html?asset=%2Fcontent%2Fdam%2Fmarketing%2Fshoppable-video%2Fadobe-axis-demo%2FAdobe_AXIS_V3_GRADED-HD.mp4&config=/etc/dam/presets/viewer/Shoppable_Video_light&serverUrl=https%3A%2F%2Fadobedemo62-h.assetsadobe.com%2Fis%2Fimage%2F&contenturl=%2F&config2=/etc/dam/presets/analytics&videoserverurl=https://gateway-na.assetsadobe.com/DMGateway/public/demoCo&interactivedata=content/dam/_VTT/marketing/shoppable-video/adobe-axis-demo/Adobe_AXIS_V3_GRADED-HD.mp4.svideo.vtt&VideoPlayer.contenturl=https://adobedemo62-h.assetsadobe.com/is/content&VideoPlayer.ssl=on
    ```
 
-   Consulte también [Vinculación de URL a la aplicación web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic)
+   Consulte también [Vinculación de URL en la aplicación web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic)
 
-* Si publica un [!DNL Dynamic Media] vídeo con código incrustado, se agrega `VideoPlayer.ssl` a la lista de otros parámetros de configuración del visor en el fragmento de código incrustado. Por ejemplo, para forzar el envío de vídeo HTTPS, debe añadir `&VideoPlayer.ssl=on` como en el siguiente ejemplo:
+* Si publica un [!DNL Dynamic Media] vídeo con código incrustado, puede añadir `VideoPlayer.ssl` a la lista de otros parámetros de configuración del visor en el fragmento de código incrustado. Por ejemplo, para forzar la entrega de vídeo HTTPS, debe adjuntar `&VideoPlayer.ssl=on` como en el ejemplo siguiente:
 
    ```html {.line-numbers}
    <style type="text/css"> 

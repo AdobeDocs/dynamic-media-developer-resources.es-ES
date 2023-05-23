@@ -1,5 +1,5 @@
 ---
-description: Color del material. El color principal para materiales de color sólido y el color aditivo para materiales de textura coloreados.
+description: Color de material. El color principal para los materiales de color sólido y el color aditivo para los materiales de textura coloreada.
 solution: Experience Manager
 title: Color
 feature: Dynamic Media Classic,SDK/API
@@ -7,18 +7,18 @@ role: Developer,User
 exl-id: af472ded-d9df-48d5-a237-c359b68bebe2
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 10%
+source-wordcount: '83'
+ht-degree: 9%
 
 ---
 
 # Color{#color}
 
-Color del material. El color principal para materiales de color sólido y el color aditivo para materiales de textura coloreados.
+Color de material. El color principal para los materiales de color sólido y el color aditivo para los materiales de textura coloreada.
 
 ## Propiedades {#section-073772b43b264b37bd96d1fb7404d10b}
 
-Color. Necesario para materiales de color sólido. Opcional para materiales de textura, gabinete y recubrimiento de ventanas repetibles, para especificar el color de colorización. Este campo debe dejarse vacío si no se va a modificar el color de una textura repetible o de los materiales del gabinete.
+Color. Necesario para materiales de color sólido. Opcional para los materiales repetibles de textura, gabinete y recubrimiento de ventanas, para especificar el color de coloración. Este campo debe dejarse vacío si no se va a modificar el color de una textura repetible o de los materiales del armario.
 
 ## Predeterminado {#section-bf2c2ec642ed47da880ae2943b7d2c18}
 

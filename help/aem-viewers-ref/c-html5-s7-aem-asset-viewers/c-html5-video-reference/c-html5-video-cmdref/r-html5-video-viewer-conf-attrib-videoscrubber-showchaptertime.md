@@ -1,6 +1,6 @@
 ---
 title: VideoScrubber.showchaptertime
-description: Atributo de configuración para el visualizador de vídeo.
+description: Atributo de configuración para el visor de vídeo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: 60d36054-7b60-4ab1-8220-b183390e5d84
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '33'
-ht-degree: 15%
+ht-degree: 12%
 
 ---
 
 # VideoScrubber.showchaptertime{#videoscrubber-showchaptertime}
 
-Atributo de configuración para el visualizador de vídeo.
+Atributo de configuración para el visor de vídeo.
 
 `[VideoScrubber.|<containerId>_videoScrubber.]showchaptertime=0|1`
 
@@ -22,7 +22,7 @@ Atributo de configuración para el visualizador de vídeo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Desactiva o activa el tiempo de capítulo del vídeo en la barra de título de la etiqueta de capítulo del vídeo. </p> </td> 
+   <td colname="col2"> <p> Deshabilita o habilita el tiempo de capítulo del vídeo en la barra de título de la etiqueta de capítulo de vídeo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,6 +1,6 @@
 ---
 title: Verificación de la instalación
-description: Después de instalar Dynamic Media Image Serving, debe verificar la instalación.
+description: Después de instalar el servicio de imágenes de Dynamic Media, debe comprobar la instalación.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,16 +14,16 @@ ht-degree: 0%
 
 # Verificación de la instalación {#verifying-the-installation}
 
-Después de instalar Dynamic Media Image Serving, debe verificar la instalación.
+Después de instalar el servicio de imágenes de Dynamic Media, debe comprobar la instalación.
 
-Image Server está instalado como un servicio de Windows.
+El servidor de imágenes está instalado como servicio de Windows.
 
-1. Abra el Panel de control de Campaign Servicios y compruebe que `Dynamic Media Image Serving` está presente con un estado de `Started`.
-1. Abra un explorador de Internet en el mismo host o en otro diferente y compruebe las respuestas predeterminadas del servidor:
+1. Abra el Panel de control de Campaign Servicios y compruebe que `Dynamic Media Image Serving` tiene un estado de `Started`.
+1. Abra un explorador de Internet en el mismo host o en otro distinto y compruebe las respuestas predeterminadas del servidor:
 
    `http:// server:port /is/image`
 
 [!DNL  http:// *[!DNL server:port]*/ir/render]
 
-Compruebe la presencia de &quot; `imageServer.`&quot; elementos en la respuesta, que indican que el Servidor de imágenes está escuchando.
+Compruebe la presencia de &quot; `imageServer.`&quot; elementos en la respuesta, que indican que el servidor de imágenes está escuchando.
 >Se puede realizar una verificación adicional utilizando las páginas de muestra de los paquetes de documentación y demostración, si están instalados.

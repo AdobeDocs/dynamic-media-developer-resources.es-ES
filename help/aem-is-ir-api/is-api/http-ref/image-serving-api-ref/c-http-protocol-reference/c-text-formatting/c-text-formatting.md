@@ -1,28 +1,28 @@
 ---
-description: Image Serving proporciona varias alternativas para procesar texto, accesibles con los comandos text= y textPs=.
+description: El servicio de imágenes proporciona varias alternativas para representar texto, accesibles con los comandos text= y textPs=.
 solution: Experience Manager
-title: Formato del texto
+title: Formato de texto
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2c120ed1-b556-4caf-a30e-63ae48cc2104
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '557'
 ht-degree: 7%
 
 ---
 
-# Formato del texto{#text-formatting}
+# Formato de texto{#text-formatting}
 
-Image Serving proporciona varias alternativas para procesar texto, accesibles con los comandos text= y textPs=.
+El servicio de imágenes proporciona varias alternativas para representar texto, accesibles con los comandos text= y textPs=.
 
-`textPs=` proporciona un alto nivel de similitud con el texto procesado con Adobe Photoshop y Illustrator. `text=` es razonablemente compatible con el texto procesado con Windows WordPad.
+`textPs=` proporciona un alto nivel de similitud con el texto procesado con Adobe Photoshop y Illustrator. `text=` es razonablemente compatible con el texto procesado con Windows Wordpad.
 
 >[!NOTE]
 >
->Además de las diferencias enumeradas en otra parte, `text=` produce diferencias sutiles en el texto representado cuando se compara con `textPs=`. Por ejemplo, los subrayados no tienen el mismo grosor y la posición, y la cursiva sintetizada se representa en un ángulo ligeramente diferente. Si el texto no se ajusta al espacio disponible, `text=` puede recortar parcialmente la última línea, mientras que `textPs=` solo procesará líneas completas.
+>Además de las diferencias enumeradas en otra parte, `text=` produce sutiles diferencias en el texto procesado al compararlo con `textPs=`. Por ejemplo, los subrayados no tienen el mismo grosor y posición, y la cursiva sintetizada se procesa en un ángulo ligeramente diferente. Si el texto no cabe en el espacio disponible, `text=` puede recortar parcialmente la última línea, mientras que `textPs=` solo procesará líneas completas.
 
-Todos los comandos de texto aceptan texto con formato basado en un subconjunto de la especificación RTF (Formato de texto enriquecido). Cada capa de texto puede especificar un comando de texto diferente.
+Todos los comandos de texto aceptan texto con formato basado en un subconjunto de la especificación RTF (formato de texto enriquecido). Cada capa de texto puede especificar un comando de texto diferente.
 
 En la tabla siguiente se enumeran las funciones clave disponibles para cada comando de texto:
 
@@ -43,37 +43,37 @@ En la tabla siguiente se enumeran las funciones clave disponibles para cada coma
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Flujo de texto en formas arbitrarias </p> </td> 
+   <td> <p>Desplazar texto a formas arbitrarias </p> </td> 
    <td> <p>no </p> </td> 
    <td> <p>sí </p> </td> 
    <td> <p>textFlowPath=, textFlowXPath= </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Flujo de texto por rutas arbitrarias </p> </td> 
+   <td> <p>Desplazar texto por rutas arbitrarias </p> </td> 
    <td> <p>no </p> </td> 
    <td> <p>sí </p> </td> 
    <td> <p>textPath= </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Ajuste de copia </p> </td> 
+   <td> <p>Copiado </p> </td> 
    <td> <p>no </p> </td> 
    <td> <p>sí </p> </td> 
-   <td> Ajuste de copia <p>, <pre>\copyfit</pre>, <pre>\copyfitlines</pre>, <pre>\copyfitmaxlines</pre> </p> </td> 
+   <td> Montaje <p>, <pre>\copyfit</pre>, <pre>\copyfitlines</pre>, <pre>\copyfitmaxlines</pre> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Márgenes de cuadros de texto </p> </td> 
+   <td> <p>Márgenes de cuadro de texto </p> </td> 
    <td> <p>no </p> </td> 
    <td> <p>sí </p> </td> 
    <td> <p><pre>\margl</pre>, <pre>\margr</pre>, <pre>\margt</pre>, <pre>\margb</pre> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Justificación completa del párrafo </p> </td> 
+   <td> <p>Justificación del párrafo completo </p> </td> 
    <td> <p>no </p> </td> 
    <td> <p>sí </p> </td> 
    <td> <p><pre>\qj</pre> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>justificación de la última línea </p> </td> 
+   <td> <p>justificación de última línea </p> </td> 
    <td> <p>no </p> </td> 
    <td> <p>sí </p> </td> 
    <td> <p>\lastql, \lastqr, \lastqc, \lastqj </p> </td> 
@@ -85,13 +85,13 @@ En la tabla siguiente se enumeran las funciones clave disponibles para cada coma
    <td> <p>\fi, \li, \ri </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Texto en mayúsculas y minúsculas </p> </td> 
+   <td> <p>Texto de mayúsculas y minúsculas </p> </td> 
    <td> <p>no </p> </td> 
    <td> <p>sí </p> </td> 
    <td> <p>\caps, \scaps </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Colores de servicio de imágenes </p> </td> 
+   <td> <p>Colores para servicio de imágenes </p> </td> 
    <td> <p>no </p> </td> 
    <td> <p>sí </p> </td> 
    <td> <p>\*\iscolortbl </p> </td> 
@@ -103,7 +103,7 @@ En la tabla siguiente se enumeran las funciones clave disponibles para cada coma
    <td> <p>textAttr= </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>flujo de texto superior inferior/derecho-izquierdo </p> </td> 
+   <td> <p>flujo de texto de arriba a abajo/derecha a izquierda </p> </td> 
    <td> <p>no </p> </td> 
    <td> <p>sí </p> </td> 
    <td> <p>\stextFlow </p> </td> 
@@ -115,7 +115,7 @@ En la tabla siguiente se enumeran las funciones clave disponibles para cada coma
    <td> Administración de fuentes </td> 
   </tr> 
   <tr> 
-   <td> <p>Tamaño automático de la capa para ajustar el texto </p> </td> 
+   <td> <p>Ajustar automáticamente la capa al texto </p> </td> 
    <td> <p>sí </p> </td> 
    <td> <p>sí </p> </td> 
    <td> <p>text=, textId=, size= </p> </td> 
@@ -139,7 +139,7 @@ En la tabla siguiente se enumeran las funciones clave disponibles para cada coma
    <td> <p>textAttr= </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Escalar automáticamente el texto para que quepa en la capa (con resolución variable) </p> </td> 
+   <td> <p>Escalar texto automáticamente para ajustar la capa (con resolución variable) </p> </td> 
    <td> <p>sí </p> </td> 
    <td> <p>no </p> </td> 
    <td> <p>textAttr= </p> </td> 
@@ -147,23 +147,23 @@ En la tabla siguiente se enumeran las funciones clave disponibles para cada coma
  </tbody> 
 </table>
 
-Las cadenas compatibles con RTF se pueden ensamblar manualmente o dando formato al texto deseado en un editor de texto o procesador de texto capaz de guardar archivos RTF. El archivo RTF se puede abrir en un editor de texto sin formato y el contenido RTF sin procesar del archivo se copia en la dirección URL de la solicitud.
+Las cadenas compatibles con RTF se pueden ensamblar manualmente o dando formato al texto deseado en un editor de texto o procesador de texto capaz de guardar archivos RTF. El archivo RTF se puede abrir en un editor de texto sin formato y el contenido RTF sin procesar relevante del archivo se copia en la dirección URL de la solicitud.
 
-Algunos procesadores de texto generan archivos bastante grandes, que incluyen preambles sustanciales que no se utilizan en Dynamic Media Image Serving. Se recomienda quitar los elementos RTF no utilizados de la cadena antes de pasar la cadena a los comandos de texto.
+Algunos procesadores de texto generan archivos bastante grandes, que incluyen preámbulos importantes que no se utilizan en el servicio de imágenes de Dynamic Media. Se recomienda eliminar los elementos RTF no utilizados de la cadena antes de pasar la cadena a los comandos de texto.
 
-La codificación de idioma basada en los estándares UTF-8 e ISO se admite en cadenas RTF como alternativa a los mecanismos de codificación de caracteres RTF estándar. Esto permite que las aplicaciones envíen texto que no esté en inglés al servidor sin tener conocimiento de la codificación RTF.
+Las cadenas RTF admiten la codificación de idioma basada en los estándares UTF-8 e ISO como alternativa a los mecanismos de codificación de caracteres RTF estándar. Esto permite a las aplicaciones enviar texto que no esté en inglés al servidor sin tener conocimientos de codificación RTF.
 
-Todos los caracteres no compatibles con HTTP deben tener un escape correcto si se va a transmitir la cadena mediante http. Solo es necesario escapar &#39;=&#39;, &#39;&amp;&#39; y &#39;%&#39; si la cadena se incorpora al campo `catalog::Modifiers` de un registro de catálogo de imágenes. Los caracteres de control, incluidos `<CR>`, `<LF>` y `<TAB>`, siempre deben eliminarse.
+Todos los caracteres no compatibles con HTTP deben escapar correctamente, si la cadena se va a transmitir a través de HTTP. Solo es necesario aplicar secuencias de escape a &#39;=&#39;, &#39;&amp;&#39; y &#39;%&#39; si la cadena se incorpora a `catalog::Modifiers` de un registro de catálogo de imágenes. Caracteres de control, incluidos `<CR>`, `<LF>`, y `<TAB>` siempre se debe eliminar.
 
-Los motores de texto de servicio de imágenes interpretan un subconjunto de comandos definidos por la especificación de formato de texto enriquecido (RTF), versión 1.6. Este subconjunto se centra en el formato de fuente/carácter, el formato de párrafo simple y la compatibilidad con fuentes internacionales y conjuntos de caracteres. En este momento no se admiten construcciones de formato más avanzadas, como hojas de estilo y tablas.
+Los motores de texto del servicio de imágenes interpretan un subconjunto de comandos definidos por la especificación de formato de texto enriquecido (RTF), versión 1.6. Este subconjunto se centra en el formato de fuentes/caracteres, el formato de párrafo sencillo y la compatibilidad con fuentes internacionales y conjuntos de caracteres. En este momento no se admiten construcciones de formato más avanzadas, como hojas de estilo y tablas.
 
-La familiaridad con la especificación de formato de texto enriquecido (RTF), tal como publica Microsoft, es necesaria al intentar construir cadenas de texto codificadas RTF manualmente.
+Es necesario estar familiarizado con la especificación de formato de texto enriquecido (RTF), tal como la publica Microsoft, al intentar construir cadenas de texto con codificación RTF manualmente.
 
 * [Administración de fuentes](r-font-handling.md)
 * [Gestión de color](r-color-handling.md)
-* [Ajuste de copia](r-copy-fitting.md)
+* [Copiado](r-copy-fitting.md)
 * [Capas de texto](r-text-layers.md)
-* [Colocación de texto](r-text-positioning.md)
+* [Posición del texto](r-text-positioning.md)
 * [Caracteres reservados](r-reserved-characters.md)
-* [Comandos y palabras clave RTF admitidos](c-supported-rtf-commands-and-keywords/c-supported-rtf-commands-and-keywords.md)
-* [Ejemplos de codificación de RTF](r-rtf-encoding-examples.md)
+* [Palabras clave y comandos RTF admitidos](c-supported-rtf-commands-and-keywords/c-supported-rtf-commands-and-keywords.md)
+* [Ejemplos de codificación RTF](r-rtf-encoding-examples.md)

@@ -1,5 +1,5 @@
 ---
-description: Coordenadas de ubicación de imagen devueltas por la operación getPhotoshopPath.
+description: Coordenadas de ubicación de la imagen devueltas por la operación getPhotoshopPath.
 solution: Experience Manager
 title: PerspectiveQuad
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 19%
 
 # [!DNL PerspectiveQuad]{#perspectivequad}
 
-Coordenadas de ubicación de imagen devueltas por la operación getPhotoshopPath.
+Coordenadas de ubicación de la imagen devueltas por la operación getPhotoshopPath.
 
 Sintaxis
 
@@ -22,18 +22,18 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| x0 | `xsd:double` | Coordenada del eje x superior izquierdo. |
+| x0 | `xsd:double` | Coordenada superior izquierda del eje X. |
 | y0 | `xsd:double` | Coordenada superior izquierda del eje Y. |
-| x1 | `xsd:double` | Coordenada del eje x superior derecho. |
+| x1 | `xsd:double` | Coordenada superior derecha del eje X. |
 | y1 | `xsd:double` | Coordenada superior derecha del eje Y. |
-| x2 | `xsd:double` | Coordenada del eje x inferior derecho. |
+| x2 | `xsd:double` | Coordenada inferior derecha del eje X. |
 | y2 | `xsd:double` | Coordenada inferior derecha del eje Y. |
-| x3 | `xsd:double` | Coordenada del eje x inferior izquierdo. |
+| x3 | `xsd:double` | Coordenada inferior izquierda del eje X. |
 | y3 | `xsd:double` | Coordenada inferior izquierda del eje Y. |
 
 ## Ejemplo {#section-19ed4409ff3a41c9b52a9c9424612927}
 
-La variable `PerspectiveQuad` devuelve datos en este orden:
+El `PerspectiveQuad` type devuelve los datos en este orden:
 
 ```
 <complexType name="PerspectiveQuad">

@@ -1,20 +1,20 @@
 ---
 title: color
-description: Color de capa. Especifica el color de primer plano y la opacidad de las capas de efecto y color sólido, así como el color de relleno del cuadro de texto para las capas de texto.
+description: Color de capa. Especifica el color de primer plano y la opacidad de las capas de color sólido y efecto, así como el color de relleno del cuadro de texto de las capas de texto.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b937e699-8e1e-4211-86a6-fdc155a0e3ed
 source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '192'
+ht-degree: 3%
 
 ---
 
 # color{#color}
 
-Color de capa. Especifica el color de primer plano y la opacidad de las capas de efecto y color sólido, así como el color de relleno del cuadro de texto para las capas de texto.
+Color de capa. Especifica el color de primer plano y la opacidad de las capas de color sólido y efecto, así como el color de relleno del cuadro de texto de las capas de texto.
 
 ` color= *`color`*`
 
@@ -25,21 +25,21 @@ Color de capa. Especifica el color de primer plano y la opacidad de las capas de
  </tr> 
 </table>
 
-En el caso de las capas de imagen y texto, `color=` rellena áreas transparentes y semiopacas dentro del rectángulo delimitador de la capa con el color especificado* antes* `rotate=` y `extend=` se aplican.
+En el caso de las capas de imagen y texto, `color=` rellena las áreas transparentes y semiopacas dentro del rectángulo delimitador de la capa con el color especificado* antes* `rotate=` y `extend=` se aplican.
 
 ## Propiedades {#section-d6e74c36a49547849212e4db8927e678}
 
 Atributo de capa. Se aplica a la capa actual o a la capa 0 si `layer=comp`.
 
-*`color`* se supone que existe en el espacio de color de trabajo correspondiente al tipo de píxel de *`color`*. *`color`* se convierte con precisión si la imagen de capa tiene un tipo de píxel diferente en el momento de la fusión.
+*`color`* se supone que existe en el espacio de color de trabajo correspondiente al tipo de píxel de *`color`*. *`color`* se convierte con precisión si la imagen de capa tiene un tipo de píxel diferente en el momento de la combinación.
 
 ## Predeterminado {#section-60611c72876b4c45b5c85ce35608e5ec}
 
-No hay valores predeterminados para capas de color sólido y efecto; se debe especificar un color. El valor predeterminado es 0,0,0,0 (totalmente transparente) para capas de imagen y texto.
+No hay valor predeterminado para capas de efectos y colores sólidos; se debe especificar un color. El valor predeterminado es 0,0,0,0 (completamente transparente) para las capas de imagen y texto.
 
 ## Ejemplo {#section-2d090493f4ec4e188bbc5565aa151a05}
 
-En el siguiente fragmento de plantilla, establecemos el fondo del texto en un color opaco del 50 % y usamos el mismo color para añadir un borde semitransparente de 10 píxeles alrededor de la imagen de capa 2:
+En el siguiente fragmento de plantilla establecemos el fondo del texto en un color opaco del 50 % y utilizamos el mismo color para añadir un borde semitransparente de 10 píxeles alrededor de la imagen de capa 2:
 
 `…&$color=214,245,130,128& layer=1&text=my-text-string&color=$color$&… layer=2&src=myRootId/myImageId&extend=10,10,10,10&bgColor=$color$&…`
 

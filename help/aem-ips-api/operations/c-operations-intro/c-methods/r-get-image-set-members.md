@@ -1,5 +1,5 @@
 ---
-description: Obtiene una matriz de miembros que se encuentran en un conjunto de imágenes.
+description: Obtiene una matriz de miembros que están en un conjunto de imágenes.
 solution: Experience Manager
 title: getImageSetMembers
 feature: Dynamic Media Classic,SDK/API,Image Sets
@@ -14,7 +14,7 @@ ht-degree: 17%
 
 # getImageSetMembers{#getimagesetmembers}
 
-Obtiene una matriz de miembros que se encuentran en un conjunto de imágenes.
+Obtiene una matriz de miembros que están en un conjunto de imágenes.
 
 Sintaxis
 
@@ -39,8 +39,8 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | El identificador de la empresa que contiene el conjunto de imágenes. |
-| assetHandle | `xsd:string` | Sí | El controlador de recurso del conjunto de imágenes. |
+| companyHandle | `xsd:string` | Sí | El identificador de la compañía que contiene el conjunto de imágenes. |
+| assetHandle | `xsd:string` | Sí | El identificador del recurso del conjunto de imágenes. |
 
 **Salida (getImageSetMembersReturn)**
 

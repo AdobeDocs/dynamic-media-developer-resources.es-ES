@@ -22,6 +22,6 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| setHandle | `xsd:string` | Controlador del conjunto de propiedades. |
-| typeHandle | `xsd:string` | Gestionar al tipo de conjunto de propiedades. |
+| setHandle | `xsd:string` | Identificador del conjunto de propiedades. |
+| typeHandle | `xsd:string` | Identificador del tipo del conjunto de propiedades. |
 | propertyArray | `types:PropertyArray` | Par nombre-valor. Puede contener cero elementos. |

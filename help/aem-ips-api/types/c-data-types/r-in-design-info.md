@@ -1,5 +1,5 @@
 ---
-description: Propiedades del archivo InDesign.
+description: Propiedades del archivo de InDesign.
 solution: Experience Manager
 title: InDesignInfo
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 34e7f447-4301-4120-87b6-6f3ddd1c5fb6
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '21'
-ht-degree: 42%
+ht-degree: 33%
 
 ---
 
 # [!DNL InDesignInfo]{#indesigninfo}
 
-Propiedades del archivo InDesign.
+Propiedades del archivo de InDesign.
 
 Sintaxis
 
@@ -22,6 +22,6 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| originalPath | `xsd:string` | Ruta del archivo. |
+| originalPath | `xsd:string` | Ruta de archivo. |
 | originalFile | `xsd:string` | Nombre del archivo. |
 | fileSize | `xsd:int` | Tamaño de archivo. |

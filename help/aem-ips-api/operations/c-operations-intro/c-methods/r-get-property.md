@@ -1,5 +1,5 @@
 ---
-description: Obtiene valores de cadena de propiedades del sistema relacionadas con Image Portal.
+description: Obtiene valores de cadena de propiedades del sistema relacionadas con el portal de imágenes.
 solution: Experience Manager
 title: getProperty
 feature: Dynamic Media Classic,SDK/API
@@ -14,18 +14,18 @@ ht-degree: 12%
 
 # getProperty{#getproperty}
 
-Obtiene valores de cadena de propiedades del sistema relacionadas con Image Portal.
+Obtiene valores de cadena de propiedades del sistema relacionadas con el portal de imágenes.
 
 Entre las propiedades del sistema compatibles se incluyen:
 
-* `IpsVersion`: Número de versión IPS.
-* `IpsImageServerUrl`: Prefijo de URL externo completo para el servidor de imágenes IPS.
+* `IpsVersion`: número de versión de IPS.
+* `IpsImageServerUrl`: prefijo de URL externo completo para el servidor de imágenes IPS.
 * `VideoRootUrl`
 * `swfRootUrl`
-* `SvgRenderRootUrl`: Prefijo URL para procesar recursos de SVG.
-* `SvgRenderEnabled`: True si los recursos del SVG se pueden representar mediante `SvgRenderRootUrl`.
+* `SvgRenderRootUrl`: prefijo URL para procesar recursos del SVG.
+* `SvgRenderEnabled`: True si los recursos de SVG se pueden representar mediante `SvgRenderRootUrl`.
 
-* `UploadPostMaxFileSize`: Tamaño máximo (en bytes) de los datos de archivo permitidos en una carga [!DNL POST]. El sistema rechaza los archivos que superen el límite máximo.
+* `UploadPostMaxFileSize`: Tamaño máximo (en bytes) de datos de archivo permitido en una carga [!DNL POST]. El sistema rechaza los archivos que superan el límite máximo.
 
 ## Tipos de usuarios autorizados {#section-2cd36bbd46ed414b8753569d5895530e}
 
@@ -45,7 +45,7 @@ Entre las propiedades del sistema compatibles se incluyen:
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| name | `xsd:string` | Sí | Nombre de la propiedad que se va a obtener. |
+| nombre | `xsd:string` | Sí | Nombre de la propiedad que se va a obtener. |
 
 **Salida (getPropertyReturn)**
 
@@ -55,7 +55,7 @@ Entre las propiedades del sistema compatibles se incluyen:
 
 ## Ejemplos {#section-3f80a78dd60c404181b34d3a912d7a36}
 
-Este ejemplo de código utiliza una constante de cadena Propiedades IPS para devolver un valor específico. En este ejemplo, la propiedad IPS es la versión del servidor IPS.
+Este ejemplo de código utiliza una constante de cadena de propiedades IPS para devolver un valor específico. En este ejemplo, la propiedad IPS es la versión del servidor IPS.
 
 **Solicitar**
 

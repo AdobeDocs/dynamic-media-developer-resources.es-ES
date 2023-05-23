@@ -1,5 +1,5 @@
 ---
-description: Modo de fusión. Especifica el tipo de fusión utilizado cuando se compone la capa. Simula los modos de mezcla más utilizados disponibles en Photoshop. Consulte la documentación de Photoshop para obtener más información.
+description: Modo de fusión. Especifica el tipo de fusión que se utiliza cuando se compone la capa. Simula los modos de fusión más utilizados disponibles en Photoshop. Consulte la documentación de Photoshop para obtener más detalles.
 solution: Experience Manager
 title: blendMode
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: 8f0b8b0a-a8ac-4932-986c-5d14d3311f1b
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 15%
+source-wordcount: '67'
+ht-degree: 14%
 
 ---
 
-# mergeMode{#blendmode}
+# blendMode{#blendmode}
 
-Modo de fusión. Especifica el tipo de fusión utilizado cuando se compone la capa. Simula los modos de mezcla más utilizados disponibles en Photoshop. Consulte la documentación de Photoshop para obtener más información.
+Modo de fusión. Especifica el tipo de fusión que se utiliza cuando se compone la capa. Simula los modos de fusión más utilizados disponibles en Photoshop. Consulte la documentación de Photoshop para obtener más detalles.
 
 `blendMode=norm|dissolve|lighten|darken|mult|screen`
 

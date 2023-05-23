@@ -1,5 +1,5 @@
 ---
-description: Para cargar recursos a través de la dirección URL.
+description: Para cargar recursos mediante una URL.
 solution: Experience Manager
 title: UploadUrl
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # [!DNL UploadUrl]{#uploadurl}
 
-Para cargar recursos a través de la dirección URL.
+Para cargar recursos mediante una URL.
 
 Sintaxis
 
@@ -22,5 +22,5 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| sourceUrl | `xsd:string` | Dirección URL de origen desde la que se carga el recurso. |
-| destPath | `xsd:string` | Ruta del archivo IPS y nombre del archivo al que desea cargar. |
+| sourceUrl | `xsd:string` | La URL de origen desde la que se carga el recurso. |
+| destPath | `xsd:string` | La ruta de acceso del archivo IPS y el nombre del archivo en el que desea cargar. |

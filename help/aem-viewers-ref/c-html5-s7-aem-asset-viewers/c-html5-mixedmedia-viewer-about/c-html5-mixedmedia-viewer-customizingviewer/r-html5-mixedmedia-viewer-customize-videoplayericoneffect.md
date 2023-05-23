@@ -1,6 +1,6 @@
 ---
-title: Efecto Icono del reproductor de vídeo
-description: El icono Reproducir se superpone en el área de la vista de vídeo. Se muestra cuando el vídeo está en pausa o cuando se llega al final del vídeo, y también depende del parámetro iconeffect.
+title: Efecto Icono de reproductor de vídeo
+description: El icono Reproducir se superpone en el área de vista de vídeo. Se muestra cuando el vídeo está en pausa o cuando se llega al final del vídeo y también depende del parámetro iconeffect.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 1%
 
 ---
 
-# Efecto Icono del reproductor de vídeo{#video-player-icon-effect}
+# Efecto Icono de reproductor de vídeo{#video-player-icon-effect}
 
-El icono Reproducir se superpone en el área de la vista de vídeo. Se muestra cuando el vídeo está en pausa o cuando se llega al final del vídeo, y también depende del parámetro iconeffect.
+El icono Reproducir se superpone en el área de vista de vídeo. Se muestra cuando el vídeo está en pausa o cuando se llega al final del vídeo y también depende del parámetro iconeffect.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -29,16 +29,16 @@ El aspecto del icono de reproducción se controla con el siguiente selector de c
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagen de fondo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> La imagen mostrada para el icono de reproducción. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posición de fondo </span> </p> </td> 
-   <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Coloque dentro del icono de ilustración si se utilizan iconos CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> Ancho del icono de reproducción. </p> </td> 
+   <td colname="col2"> <p> La anchura del icono de reproducción. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
@@ -47,7 +47,7 @@ El aspecto del icono de reproducción se controla con el siguiente selector de c
  </tbody> 
 </table>
 
-El efecto Icono admite la variable `state` selector de atributos. El selector `state="play"` se utiliza cuando el vídeo está en pausa en mitad de la reproducción, y `state="replay"` se utiliza cuando el cabezal de reproducción está al final del flujo.
+El efecto de icono admite `state` selector de atributos. El selector `state="play"` se utiliza cuando el vídeo se pone en pausa en mitad de la reproducción y `state="replay"` se utiliza cuando el cabezal de reproducción está al final del flujo.
 
 ## Ejemplo {#section-e8caea0a303c425a8a637c2a47c06355}
 

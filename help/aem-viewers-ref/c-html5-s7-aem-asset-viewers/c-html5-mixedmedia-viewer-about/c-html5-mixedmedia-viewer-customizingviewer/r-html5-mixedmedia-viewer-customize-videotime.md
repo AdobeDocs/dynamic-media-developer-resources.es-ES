@@ -1,6 +1,6 @@
 ---
-title: Tiempo de vídeo
-description: La hora del vídeo es la visualización numérica que muestra la hora y la duración actuales del vídeo que se está reproduciendo.
+title: Tiempo del vídeo
+description: El tiempo del vídeo es la visualización numérica que muestra el tiempo y la duración actuales del vídeo que se está reproduciendo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -12,21 +12,21 @@ ht-degree: 2%
 
 ---
 
-# Tiempo de vídeo{#video-time}
+# Tiempo del vídeo{#video-time}
 
-La hora del vídeo es la visualización numérica que muestra la hora y la duración actuales del vídeo que se está reproduciendo.
+El tiempo del vídeo es la visualización numérica que muestra el tiempo y la duración actuales del vídeo que se está reproduciendo.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-La familia de fuentes de tiempo de vídeo, el tamaño de fuente y el color de fuente están entre las propiedades que puede controlar CSS. También se puede posicionar, en relación con la barra de control que la contiene, mediante CSS.
+La familia de fuentes de hora del vídeo, el tamaño de fuente y el color de fuente están entre las propiedades que CSS puede controlar. También se puede colocar mediante CSS en relación con la barra de control que la contiene.
 
-El aspecto del tiempo de vídeo se controla con el siguiente selector de clase CSS:
+El aspecto del tiempo del vídeo se controla con el siguiente selector de clase CSS:
 
 ```
 .s7mixedmediaviewer .s7videotime
 ```
 
-## Propiedades CSS de la hora del vídeo {#css-properties-of-video-time}
+## Propiedades CSS del tiempo del vídeo {#css-properties-of-video-time}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -44,22 +44,22 @@ El aspecto del tiempo de vídeo se controla con el siguiente selector de clase C
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>La familia de fuentes que se usará para el texto de visualización de la hora. </p> </td> 
+   <td colname="col2"> <p>La familia de fuentes que se utilizará para el texto de visualización del tiempo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
-   <td colname="col2"> <p>El tamaño de fuente que se utilizará para el texto de visualización de la hora. </p> </td> 
+   <td colname="col2"> <p>El tamaño de fuente que se utilizará para el texto de visualización de tiempo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>Color de fuente que se usará para el texto de visualización de la hora. </p> </td> 
+   <td colname="col2"> <p>El color de fuente que se utilizará para el texto de visualización del tiempo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Ejemplo {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Configure el tiempo de vídeo en gris claro (hexadecimal) `#BBBBBB`), con un tamaño de 12 píxeles, colocado 15 píxeles desde la parte superior de la barra de control y 80 píxeles desde los bordes derechos de la barra de control.
+Establecer la hora del vídeo en gris claro (hexadecimal) `#BBBBBB`), con un tamaño de 12 píxeles, colocados a 15 píxeles de la parte superior de la barra de control y a 80 píxeles del borde derecho de la barra de control.
 
 ```
 .s7mixedmediaviewer .s7videotime { 

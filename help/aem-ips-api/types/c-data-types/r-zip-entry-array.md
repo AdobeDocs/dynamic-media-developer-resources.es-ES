@@ -1,5 +1,5 @@
 ---
-description: Matriz de entradas ZIP.
+description: Una matriz de entradas ZIP.
 solution: Experience Manager
 title: ZipEntryArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 27%
 
 # [!DNL ZipEntryArray]{#zipentryarray}
 
-Matriz de entradas ZIP.
+Una matriz de entradas ZIP.
 
 Sintaxis
 
@@ -22,4 +22,4 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| elementos | `types:ZipEntry` | Matriz de entradas ZIP. |
+| elementos | `types:ZipEntry` | Una matriz de entradas ZIP. |

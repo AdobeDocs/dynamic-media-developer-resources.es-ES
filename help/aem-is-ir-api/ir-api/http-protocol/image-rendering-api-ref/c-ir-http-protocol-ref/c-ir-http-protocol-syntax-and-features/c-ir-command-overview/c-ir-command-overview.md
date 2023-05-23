@@ -1,6 +1,6 @@
 ---
-title: Descripción general del comando del protocolo HTTP de renderización de imágenes
-description: Los comandos admitidos por Image Rendering se enumeran a continuación, agrupados por categoría.
+title: Información general sobre el comando del protocolo HTTP Image Rendering
+description: A continuación se enumeran los comandos admitidos por Procesamiento de imágenes, agrupados por categoría.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Descripción general del comando del protocolo HTTP de renderización de imágenes{#image-rendering-http-protocol-command-overview}
+# Información general sobre el comando del protocolo HTTP Image Rendering{#image-rendering-http-protocol-command-overview}
 
-Los comandos admitidos por Image Rendering se enumeran a continuación, agrupados por categoría.
+A continuación se enumeran los comandos admitidos por Procesamiento de imágenes, agrupados por categoría.
 
 * [Ver atributos](r-ir-view-attributes.md)
 * [Comandos de selección](r-ir-selection-commands.md)

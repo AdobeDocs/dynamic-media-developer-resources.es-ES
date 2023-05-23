@@ -2,13 +2,13 @@
 description: Determina si un recurso está listo para publicarse.
 solution: Experience Manager
 title: setAssetPublishState
-feature: Dynamic Media Classic,SDK/API,Administración de activos
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 0dc195ee-9229-40a3-ad8b-8f00c2c9ff97
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 18%
+source-wordcount: '95'
+ht-degree: 20%
 
 ---
 
@@ -48,13 +48,13 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> El identificador de la empresa. </td> 
+   <td colname="col4"> El identificador de la compañía. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> Identificador de recurso. </td> 
+   <td colname="col4"> Controlador de recurso. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span> </span> </td> 
@@ -68,16 +68,16 @@ Sintaxis
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> contextHandleArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase de código  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Salida**
+**Output**
 
-La API IPS no devuelve una respuesta para esta operación.
+La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-c31ead6d0e594317a12c120509527792}
 

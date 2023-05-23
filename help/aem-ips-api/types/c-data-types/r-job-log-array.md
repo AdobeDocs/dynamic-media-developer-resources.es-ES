@@ -1,5 +1,5 @@
 ---
-description: Matriz de registros de trabajos.
+description: Una matriz de registros de trabajos.
 solution: Experience Manager
 title: JobLogArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 27%
 
 # [!DNL JobLogArray]{#joblogarray}
 
-Matriz de registros de trabajos.
+Una matriz de registros de trabajos.
 
 Sintaxis
 
@@ -22,4 +22,4 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| elementos | `types:JobLog` | Matriz de registros de trabajos. |
+| elementos | `types:JobLog` | La matriz de registros de trabajos. |

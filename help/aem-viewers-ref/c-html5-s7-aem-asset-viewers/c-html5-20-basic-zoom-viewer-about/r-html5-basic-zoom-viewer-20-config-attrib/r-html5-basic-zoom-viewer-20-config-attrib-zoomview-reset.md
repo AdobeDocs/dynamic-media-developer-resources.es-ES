@@ -8,7 +8,7 @@ exl-id: 054cd090-2167-4903-ba19-52bc8606370c
 source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
 source-wordcount: '40'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 12%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Restaura el puerto de vista cuando cambia el marco (imagen). Si está configurado como <span class="varname"> 0</span>, conserva el puerto de vista actual con el mejor ajuste posible, preservando al mismo tiempo la relación de aspecto de la imagen recién establecida. </p> </td> 
+   <td colname="col2"> <p> Restablece el puerto de vista cuando cambia el marco (la imagen). Si se establece en <span class="varname"> 0</span>Además, conserva el puerto de vista actual con el mejor ajuste posible, conservando la relación de aspecto de la imagen recién establecida. </p> </td> 
   </tr> 
  </tbody> 
 </table>

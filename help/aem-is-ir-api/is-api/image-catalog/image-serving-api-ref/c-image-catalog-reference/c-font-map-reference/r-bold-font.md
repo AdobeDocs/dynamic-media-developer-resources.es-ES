@@ -1,5 +1,5 @@
 ---
-description: Bandera de la fachada. Especifica si el archivo de fuente al que hace referencia este registro de mapa de fuente debe utilizarse cuando lo solicite el comando RTF negface (\b).
+description: Bandera en negrita. Especifica si el archivo de fuentes al que hace referencia este registro de mapa de fuentes debe utilizarse cuando lo solicita el comando RTF boldface (\b).
 solution: Experience Manager
 title: Negrita
 feature: Dynamic Media Classic,SDK/API
@@ -7,18 +7,18 @@ role: Developer,User
 exl-id: 3a39bb3b-e518-400e-8e24-0ebfb55777c4
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 9%
+source-wordcount: '67'
+ht-degree: 8%
 
 ---
 
 # Negrita{#bold}
 
-Bandera de la fachada. Especifica si el archivo de fuente al que hace referencia este registro de mapa de fuente debe utilizarse cuando lo solicite el comando RTF negface (\b).
+Bandera en negrita. Especifica si el archivo de fuentes al que hace referencia este registro de mapa de fuentes debe utilizarse cuando lo solicita el comando RTF boldface (\b).
 
 ## Propiedades {#section-f2727dd66f7c41ee9602872a104d25b1}
 
-Indicador. Clave de índice secundaria opcional para el mapa de fuente.
+Indicador. Clave de índice secundaria opcional para el mapa de fuentes.
 
 ## Predeterminado {#section-ee7e72f864c5463b963b4b2b513bfad7}
 

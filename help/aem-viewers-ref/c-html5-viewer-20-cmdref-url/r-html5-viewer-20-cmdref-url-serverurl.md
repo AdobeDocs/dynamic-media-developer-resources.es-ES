@@ -8,7 +8,7 @@ exl-id: c9da3d5b-492d-4e1f-8fdc-3255b2b40fc6
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
 source-wordcount: '100'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ Parámetro común a todos los visualizadores.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p>Ruta raíz relativa o absoluta de Image Serving. </p> <p> Especifica una ruta relativa o absoluta al servicio de imágenes, desde donde el usuario recupera las imágenes. Si la ruta no tiene un <span class="filepath"> /</span> inicial, es relativa a la ubicación de la página HTML del visor. Si la ruta tiene un <span class="filepath"> /</span> inicial, especifica una ruta absoluta en el mismo servidor. </p> <p> Utilice solo una ruta absoluta en caso de que el módulo Compartir correo electrónico esté habilitado en el visor. </p> </td> 
+   <td colname="col2"> <p>Ruta raíz relativa o absoluta del servicio de imágenes. </p> <p> Especifica una ruta relativa o absoluta al servicio de imágenes, desde donde el visor recupera las imágenes. Si la ruta no tiene un interlineado <span class="filepath"> /</span>, es relativa a la ubicación de la página del HTML del visor. Si la ruta tiene un interlineado <span class="filepath"> /</span>, especifica una ruta absoluta en el mismo servidor. </p> <p> Utilice únicamente una ruta absoluta en caso de que el módulo Uso compartido de correo electrónico esté habilitado en el visor. </p> </td> 
   </tr> 
  </tbody> 
 </table>

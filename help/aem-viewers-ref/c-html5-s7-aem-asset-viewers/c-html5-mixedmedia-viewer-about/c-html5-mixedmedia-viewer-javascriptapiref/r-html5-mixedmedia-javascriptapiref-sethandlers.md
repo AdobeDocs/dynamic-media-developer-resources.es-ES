@@ -18,7 +18,7 @@ Referencia de la API de JavaScript para el visualizador de medios mixtos.
 
 `setHandlers(handlers)`
 
-Especifica cero o más controladores de devolución de llamada. Una llamada a este método sobrescribe completamente los controladores de eventos que se asignaron anteriormente a esa instancia de visor. Debe llamarse antes de `init()`.
+Especifica cero o más controladores de devolución de llamada. Una llamada a este método sobrescribe completamente los controladores de eventos asignados anteriormente para esa instancia de visor. Se debe llamar antes de `init()`.
 
 ## Parámetro {#section-0cc9961784d04eb3b7d50011309b0119}
 
@@ -26,7 +26,7 @@ Especifica cero o más controladores de devolución de llamada. Una llamada a es
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> controladores </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {Object} </span> El objeto JSON con llamadas de retorno de eventos del visor, donde el nombre de la propiedad es el nombre del evento del visor admitido y el valor de la propiedad es una referencia de función JavaScript a una llamada de retorno adecuada. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-event-callbacks.md#concept-273d2cddbb7144e284b618ffaf3deabc" format="dita" scope="local"> Llamadas de retorno de eventos </a> para obtener más información sobre los eventos del visor. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {Object} </span> Objeto JSON con llamadas de retorno a evento de visor, donde el nombre de propiedad es el nombre del evento de visor admitido y el valor de propiedad es una referencia de función de JavaScript a una llamada de retorno adecuada. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-event-callbacks.md#concept-273d2cddbb7144e284b618ffaf3deabc" format="dita" scope="local"> Llamadas de retorno de eventos </a> para obtener más información sobre los eventos de visor. </p> </td> 
   </tr> 
  </tbody> 
 </table>

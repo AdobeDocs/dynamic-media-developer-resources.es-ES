@@ -1,7 +1,7 @@
 ---
 description: Historial de publicación de un recurso.
 solution: Experience Manager
-title: Historial de publicaciones
+title: PublishHistory
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b287b822-7994-45af-8ffd-95f1dd12a782
@@ -23,6 +23,6 @@ Sintaxis
 | Nombre | Tipo | Descripción |
 |---|---|---|
 | serverName | `xsd:string` | Nombre del servidor propietario del historial de publicación. |
-| contextName | `xsd:string` | Nombre de contexto del historial de publicación. |
+| contextName | `xsd:string` | Nombre del contexto del historial de publicación. |
 | publishFormat | `xsd:string` | Formato de publicación. |
 | lastPublished | `xsd:dateTime` | Fecha y hora de la última publicación del recurso. |

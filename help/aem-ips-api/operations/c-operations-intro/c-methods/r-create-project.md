@@ -33,8 +33,8 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | El identificador de la empresa asociada al nuevo proyecto. |
-| projectName | `xsd:string` | Sí | Nuevo nombre del proyecto. |
+| companyHandle | `xsd:string` | Sí | El identificador de la compañía asociada con el nuevo proyecto. |
+| projectName | `xsd:string` | Sí | Nuevo nombre de proyecto. |
 
 **Salida (createProjectParam)**
 
@@ -44,7 +44,7 @@ Sintaxis
 
 ## Ejemplos {#section-a0cd532b67e346d088fbec141231a0e5}
 
-Este ejemplo de código crea un proyecto llamado `ApiTestProject` en una empresa especificada por su identificador. La respuesta devuelve el identificador al proyecto.
+Este ejemplo de código crea un proyecto llamado `ApiTestProject` en una compañía especificada por su identificador. La respuesta devuelve el identificador del proyecto.
 
 **Solicitar**
 

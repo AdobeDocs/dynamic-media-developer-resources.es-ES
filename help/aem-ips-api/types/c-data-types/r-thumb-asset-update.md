@@ -22,5 +22,5 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| assetHandle | `xsd:string` | Identificador de recurso. |
-| thumbAssetHandle | `xsd:string` | Control de recursos en miniatura. |
+| assetHandle | `xsd:string` | Controlador de recurso. |
+| thumbAssetHandle | `xsd:string` | Controlador de recurso de miniatura. |

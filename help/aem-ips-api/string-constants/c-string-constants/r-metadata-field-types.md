@@ -1,5 +1,5 @@
 ---
-description: Utilizado por MetadataField/type, saveMetadataFieldParam/fieldType y createMetadataField/fieldType.
+description: Lo utilizan MetadataField/type, saveMetadataFieldParam/fieldType y createMetadataField/fieldType.
 solution: Experience Manager
 title: Tipos de campos de metadatos
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Tipos de campos de metadatos{#metadata-field-types}
 
-Utilizado por MetadataField/type, saveMetadataFieldParam/fieldType y createMetadataField/fieldType.
+Lo utilizan MetadataField/type, saveMetadataFieldParam/fieldType y createMetadataField/fieldType.
 
 Sintaxis
 
@@ -22,7 +22,7 @@ Sintaxis
 
 * [!DNL `Untyped`]
 * [!DNL `Boolean`]
-* [!DNL `BooleanTag`]: Un caso especial de [!DNL `SingleFixedTag`] con un diccionario no modificable inicializado a los valores [!DNL `True`] y [!DNL `False`].
+* [!DNL `BooleanTag`]: un caso especial de [!DNL `SingleFixedTag`] con un diccionario no modificable inicializado en los valores [!DNL `True`] y [!DNL `False`].
 
 * [!DNL `Color`]
 * [!DNL `Date`]
@@ -32,7 +32,7 @@ Sintaxis
 * [!DNL `Int`]
 * [!DNL `MultiFixedTag`]: Cero o más valores de cadena de un diccionario cerrado. Solo los usuarios administradores pueden modificar el diccionario.
 * [!DNL `MultiTag`]: Cero o más valores de cadena.
-* [!DNL `SingleFixedTag`]: Un valor de cadena individual de un diccionario cerrado. If `setAssetMetadata` o `batchSetAssetMetadata` se llaman con un valor que no está en el diccionario, se devuelve un error. Solo los usuarios administradores pueden modificar el diccionario.
+* [!DNL `SingleFixedTag`]: Un valor de cadena único de un diccionario cerrado. If `setAssetMetadata` o `batchSetAssetMetadata` son llamados con un valor que no está en el diccionario, se devuelve un error. Solo los usuarios administradores pueden modificar el diccionario.
 
-* [!DNL `SingleTag`]: Cualquier valor de cadena individual.
+* [!DNL `SingleTag`]: cualquier valor de cadena único.
 * [!DNL `String`]

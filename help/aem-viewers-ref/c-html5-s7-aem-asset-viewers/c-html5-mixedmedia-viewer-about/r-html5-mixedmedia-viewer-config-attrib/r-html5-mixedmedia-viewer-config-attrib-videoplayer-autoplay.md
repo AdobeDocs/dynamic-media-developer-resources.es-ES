@@ -8,7 +8,7 @@ exl-id: 75ac93b4-fd76-4a2c-ba6a-c99baefaecec
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '29'
-ht-degree: 20%
+ht-degree: 17%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 20%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 0|1</span> </span> </p> </td> 
-   <td colname="col2"> <p> Indica si el espectador comienza a reproducir el vídeo al cargarlo. Algunos sistemas, como algunos dispositivos móviles, no admiten la reproducción automática. </p> </td> 
+   <td colname="col2"> <p> Indica si el visor comienza a reproducir el vídeo al cargar. Algunos sistemas, como algunos dispositivos móviles, no admiten la reproducción automática. </p> </td> 
   </tr> 
  </tbody> 
 </table>

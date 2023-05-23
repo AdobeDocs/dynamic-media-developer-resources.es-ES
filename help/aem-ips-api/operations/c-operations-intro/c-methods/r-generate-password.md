@@ -44,7 +44,7 @@ Ninguno.
 
 ## Ejemplos {#section-f580fefdccec46fe95359e3aef0ed17f}
 
-Este ejemplo de código genera una contraseña. Es inusual porque la solicitud es simplemente un parámetro sin elementos ni valores adjuntos. IPS devuelve una contraseña segura.
+Este ejemplo de código genera una contraseña. No es habitual porque la solicitud es simplemente un parámetro sin elementos ni valores incluidos. IPS devuelve una contraseña segura.
 
 **Solicitar**
 

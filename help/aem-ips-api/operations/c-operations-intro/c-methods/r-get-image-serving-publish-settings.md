@@ -1,5 +1,5 @@
 ---
-description: 'Solo para uso interno. Los usuarios deben consultar la sección Referencia del catálogo de imágenes de servicio de imágenes: Referencia de atributos .'
+description: 'Solo para uso interno. Los usuarios deben consultar la sección Referencia del catálogo de imágenes para servicio de imágenes: referencia de atributos.'
 solution: Experience Manager
 title: getImageServingPublishSettings
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 16%
 
 # getImageServingPublishSettings{#getimageservingpublishsettings}
 
-Solo para uso interno. Los usuarios deben consultar la sección Referencia del catálogo de imágenes de servicio de imágenes: Referencia de atributos .
+Solo para uso interno. Los usuarios deben consultar la sección Referencia del catálogo de imágenes para servicio de imágenes: referencia de atributos.
 
 Sintaxis
 
@@ -31,11 +31,11 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | El identificador de la empresa con la imagen que sirve para la configuración de publicación. |
-| contextHandle | `xsd:string` | Sí | Gestionar en el contexto de publicación. |
+| companyHandle | `xsd:string` | Sí | El identificador de la empresa con la configuración de publicación del servicio de imágenes. |
+| contextHandle | `xsd:string` | Sí | Administrar en el contexto de publicación. |
 
-**Salida**
+**Output**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| publishSettingArray | `xsd:string` | Sí | Matriz de configuración de publicación del servidor de imágenes. |
+| publishSettingArray | `xsd:string` | Sí | Matriz de configuraciones de publicación del servidor de imágenes. |

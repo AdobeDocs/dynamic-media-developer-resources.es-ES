@@ -1,5 +1,5 @@
 ---
-description: Establece el destino de zoom asociado a una imagen de recurso. Sobrescribe los destinos de zoom existentes.
+description: Establece el objetivo de zoom asociado a una imagen de recurso. Sobrescribe los destinos de zoom existentes.
 solution: Experience Manager
 title: setZoomTargets
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 # setZoomTargets{#setzoomtargets}
 
-Establece el destino de zoom asociado a una imagen de recurso. Sobrescribe los destinos de zoom existentes.
+Establece el objetivo de zoom asociado a una imagen de recurso. Sobrescribe los destinos de zoom existentes.
 
 Sintaxis
 
@@ -33,19 +33,19 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | Identificador de la empresa. |
-| assetHandle | `xsd:string` | Sí | Recurso con el destino de zoom que desea establecer. |
-| zoomTargetArray | `types:ZoomTargetDefinitionArray` | Sí | Matriz de definiciones de destino de zoom. |
+| companyHandle | `xsd:string` | Sí | Manejo de la compañía. |
+| assetHandle | `xsd:string` | Sí | Recurso con el objetivo de zoom que desea establecer. |
+| zoomTargetArray | `types:ZoomTargetDefinitionArray` | Sí | Matriz de definiciones de destinos de zoom. |
 
 **Salida (setZoomTargetsReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| zoomTargetHandleArray | `types:HandleArray` | Sí | Conjunto de controles de los destinos de zoom creados por esta operación. |
+| zoomTargetHandleArray | `types:HandleArray` | Sí | El conjunto de controladores para los destinos de zoom creados por esta operación. |
 
 ## Ejemplos {#section-a2f14c7a1499443e96d099ea8a76c182}
 
-Este ejemplo de código define una matriz de destinos de zoom por nombre, posición (ejes x e y), ancho, alto y asigna la matriz a un recurso. La respuesta contiene controladores para los destinos de zoom recién creados.
+Este ejemplo de código define una matriz de destinos de zoom por nombre, posición (eje x e y), anchura, altura y asigna la matriz a un recurso. La respuesta contiene controladores para los destinos de zoom recién creados.
 
 **Solicitar**
 

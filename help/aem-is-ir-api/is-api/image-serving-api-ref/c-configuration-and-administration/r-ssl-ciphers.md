@@ -1,5 +1,5 @@
 ---
-description: La etiqueta Connector en server.xml admite un atributo ciphers para limitar los cifrados que se pueden elegir para una conexión SSL.
+description: La etiqueta Connector de server.xml admite un atributo ciphers para limitar los cifrados que se pueden elegir para una conexión SSL.
 solution: Experience Manager
 title: Definición de cifrados SSL
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Definición de cifrados SSL{#defining-ssl-ciphers}
 
-La etiqueta Connector en server.xml admite un atributo ciphers para limitar los cifrados que se pueden elegir para una conexión SSL.
+La etiqueta Connector de server.xml admite un atributo ciphers para limitar los cifrados que se pueden elegir para una conexión SSL.
 
 De forma predeterminada, todas las cifras están disponibles. La lista está separada por comas y puede contener cualquiera de los siguientes valores:
 
@@ -48,8 +48,8 @@ De forma predeterminada, todas las cifras están disponibles. La lista está sep
 
 <!-- WEAK CQDOC-19433 `TLS_RSA_WITH_AES_128_CBC_SHA` -->
 
-Si alguno de los valores es incorrecto, Tomcat habilitará cada cifrado. Por lo tanto, es esencial consultar con una herramienta externa después de la configuración para ver qué cifras están realmente habilitadas.
+Si alguno de los valores es incorrecto, Tomcat activará cada cifrado. Por lo tanto, es esencial consultar con una herramienta externa después de la configuración para ver qué cifrados están realmente activados.
 
-A modo de ejemplo, la siguiente configuración habilita solo los grupos de cifrado de &quot;128 bits&quot; y superiores:
+Por ejemplo, la siguiente configuración solo habilita los grupos de cifrados de &quot;128 bits&quot; y superiores:
 
 `ciphers="SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA,SSL_DHE_DSS_WITH_DES_CBC_SHA,SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA,TLS_DHE_DSS_WITH_AES_128_CBC_SHA,TLS_DHE_RSA_WITH_AES_128_CBC_SHA"`

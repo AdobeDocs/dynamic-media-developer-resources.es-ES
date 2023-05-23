@@ -1,29 +1,29 @@
 ---
-description: Estos comandos se aplican independientemente de dónde aparezca en la solicitud.
+description: Estos comandos se aplican independientemente del lugar de la solicitud en el que aparecen.
 solution: Experience Manager
-title: Solicitud, comandos
+title: Solicitar comandos
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3f794f46-e7f0-4899-90fa-898a698dd629
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '142'
 ht-degree: 2%
 
 ---
 
-# Solicitud, comandos{#request-commands}
+# Solicitar comandos{#request-commands}
 
-Estos comandos se aplican independientemente de dónde aparezca en la solicitud.
+Estos comandos se aplican independientemente del lugar de la solicitud en el que aparecen.
 
 <table id="simpletable_3F7C17FB9E374EFDAD01EB24F57EC367"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-cache.md#reference-168189bee4ce4d1189d427891f22be2e" type="reference" format="dita" scope="local"> cache</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-cache.md#reference-168189bee4ce4d1189d427891f22be2e" type="reference" format="dita" scope="local"> escondrijo</a> </p></td> 
   <td class="stentry"> <p>Anula el comportamiento predeterminado de almacenamiento en caché de respuestas. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-defaultimage.md#reference-209aa6ce830f490483412eb26af67fd2" type="reference" format="dita" scope="local"> defaultImage</a> </p></td> 
-  <td class="stentry"> <p>Especifica la imagen que se utilizará en lugar de un archivo de imagen que falta. </p></td> 
+  <td class="stentry"> <p>Especifica la imagen que se va a utilizar en lugar del archivo de imagen que falta. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a" type="reference" format="dita" scope="local"> fmt</a> </p></td> 
@@ -43,7 +43,7 @@ Estos comandos se aplican independientemente de dónde aparezca en la solicitud.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-xmpembed.md#reference-46ecf40a40a0442fa62de3a85dcb03e8" type="reference" format="dita" scope="local"> xmpEmbed</a> </p></td> 
-  <td class="stentry"> <p>Incrusta XMP metadatos en la imagen de respuesta. </p></td> 
+  <td class="stentry"> <p>XMP Incrusta metadatos de la en la imagen de respuesta. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-printres.md#reference-84f52afff4704c4b9d58e4bbbaea1491" type="reference" format="dita" scope="local"> printRes</a> </p> </td> 
@@ -51,11 +51,11 @@ Estos comandos se aplican independientemente de dónde aparezca en la solicitud.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-qlt.md#reference-f69ed0758c784b0385d979820546d352" type="reference" format="dita" scope="local"> qlt</a> </p></td> 
-  <td class="stentry"> <p>Especifica los atributos de codificación JPEG. </p></td> 
+  <td class="stentry"> <p>Especifica los atributos de codificación del JPEG. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-quantize.md#reference-b8069670fa474e4799ac29f0d693ca38" type="reference" format="dita" scope="local"> cuantificar</a> </p> </td> 
-  <td class="stentry"> <p>Especifica atributos de cuantización de color para la salida GIF. </p></td> 
+  <td class="stentry"> <p>Especifica atributos de cuantificación de color para la salida del GIF. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76" type="reference" format="dita" scope="local"> req</a> </p></td> 

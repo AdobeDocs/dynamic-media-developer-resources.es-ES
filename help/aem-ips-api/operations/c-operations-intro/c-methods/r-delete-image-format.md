@@ -31,12 +31,12 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | Identificador de la empresa que contiene el formato de imagen que desea eliminar. |
-| imageFormatHandle | `xsd:string` | Sí | Identificador del formato de imagen que desea eliminar. |
+| companyHandle | `xsd:string` | Sí | El identificador de la compañía que contiene el formato de imagen que desea eliminar. |
+| imageFormatHandle | `xsd:string` | Sí | El controlador del formato de imagen que desea eliminar. |
 
 **Salida (deleteImageFormatParam)**
 
-La API IPS no devuelve una respuesta para esta operación.
+La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-9ed9baaba13549bfaad1bc9cd7ec7009}
 

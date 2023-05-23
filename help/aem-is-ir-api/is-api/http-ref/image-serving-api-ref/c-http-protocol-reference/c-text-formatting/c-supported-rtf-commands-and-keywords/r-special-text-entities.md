@@ -1,18 +1,18 @@
 ---
 description: Utilice las siguientes entidades especiales al dar formato al texto.
 solution: Experience Manager
-title: Entidades de texto especial
+title: Entidades de texto especiales
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3798dd83-897a-441c-a7c4-ef7325b20f16
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '65'
 ht-degree: 4%
 
 ---
 
-# Entidades de texto especial{#special-text-entities}
+# Entidades de texto especiales{#special-text-entities}
 
 Utilice las siguientes entidades especiales al dar formato al texto.
 
@@ -36,34 +36,34 @@ Utilice las siguientes entidades especiales al dar formato al texto.
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \\  </span> </td> 
+   <td> <span class="codeph"> \\ </span> </td> 
    <td> <p>Barra invertida. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;llave;  </span> </td> 
-   <td> <p>Llave abierta. </p> </td> 
+   <td> <span class="codeph"> &amp;llave; </span> </td> 
+   <td> <p>Llave rizada abierta. </p> </td> 
    <td> <p>La llave debe tener codificación HTTP. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;llave;  </span> </td> 
-   <td> <p>Llave de cierre. </p> </td> 
+   <td> <span class="codeph"> &amp;brace; </span> </td> 
+   <td> <p>Llave de cierre rizada. </p> </td> 
    <td> <p>La llave debe tener codificación HTTP. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \~  </span> </td> 
+   <td> <span class="codeph"> \~ </span> </td> 
    <td> <p>Espacio de no separación. </p> </td> 
-   <td> <p><span class="codeph"> textPs=</span> only. </p> </td> 
+   <td> <p><span class="codeph"> textPs=</span> solo. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \_</span> </td> 
-   <td> <p>Guión que no rompe. </p> </td> 
-   <td> <p><span class="codeph"> textPs=</span> only. </p> </td> 
+   <td> <p>Guión sin saltos. </p> </td> 
+   <td> <p><span class="codeph"> textPs=</span> solo. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \-  </span> </td> 
+   <td> <span class="codeph"> \- </span> </td> 
    <td> <p>Guión opcional. </p> </td> 
-   <td> <p><span class="codeph"> textPs=</span> only. </p> </td> 
+   <td> <p><span class="codeph"> textPs=</span> solo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

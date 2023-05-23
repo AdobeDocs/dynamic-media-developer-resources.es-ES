@@ -18,7 +18,7 @@ La vista principal consiste en la imagen estática.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propiedades CSS del área principal del visor**
+**Propiedades CSS del área del visor principal**
 
 El aspecto del área de visualización se controla con el siguiente selector de clase CSS:
 
@@ -29,19 +29,19 @@ El aspecto del área de visualización se controla con el siguiente selector de 
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS, propiedad </p> </th> 
+   <th colname="col1" class="entry"> <p> Propiedad CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Descripción </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Color de fondo en formato hexadecimal de la vista principal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ejemplo: para que la vista principal sea transparente.
+Ejemplo: para hacer transparente la vista principal.
 
 ```
 .s7interactiveimage .s7zoomview { 

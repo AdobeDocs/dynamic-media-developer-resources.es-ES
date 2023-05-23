@@ -2,25 +2,25 @@
 description: SearchPanel.maxloadradius
 solution: Experience Manager
 title: SearchPanel.maxloadradius
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: c2bbcb99-eeef-4793-a132-d0bd1fefb534
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 6%
+source-wordcount: '53'
+ht-degree: 5%
 
 ---
 
 # SearchPanel.maxloadradius{#searchpanel-maxloadradius}
 
-[!DNL `[SearchPanel.|<containerId>_searchPanel.]maxloadradius=-1|0| *`precarga`*`]
+[!DNL `[SearchPanel.|<containerId>_searchPanel.]maxloadradius=-1|0| *`preloadnbr`*`]
 
 <table id="table_985ADD6C9BD04C629A84C9C625CCCFEB"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p>Especifica el comportamiento de precarga del componente. </p> <p>Cuando se establece en <span class="codeph"> -1</span>, todas las miniaturas se cargan simultáneamente cuando el componente se inicializa o el recurso cambia. </p> <p> Cuando se establece en <span class="codeph"> 0</span>, solo se cargan las miniaturas visibles. </p> <p>Establezca <span class="codeph"><span class="varname"> precarga</span></span> para definir cuántas filas invisibles alrededor del área visible se precargan. </p> </td> 
+   <td colname="col2"> <p>Especifica el comportamiento de carga previa del componente. </p> <p>Cuando se establece en <span class="codeph"> -1</span> todas las miniaturas se cargan simultáneamente cuando se inicializa el componente o cambia el recurso. </p> <p> Cuando se establece en <span class="codeph"> 0</span> solo se cargan las miniaturas visibles. </p> <p>Establecer <span class="codeph"><span class="varname"> preloadnbr</span></span> para definir cuántas filas invisibles alrededor del área visible se precargan. </p> </td> 
   </tr> 
  </tbody> 
 </table>

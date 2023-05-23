@@ -1,5 +1,5 @@
 ---
-description: Crea un mapa de sitio de vídeo.
+description: Crea un mapa del sitio de vídeo.
 solution: Experience Manager
 title: CreateVideoSitemapJob
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 # [!DNL CreateVideoSitemapJob]{#createvideositemapjob}
 
-Crea un mapa de sitio de vídeo.
+Crea un mapa del sitio de vídeo.
 
 Sintaxis
 
@@ -32,7 +32,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> forceUpdate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">Genera el mapa del sitio cuando se configura como <span class="codeph"> true</span>. <p><p>Nota: Si la configuración de generación de mapas del sitio está configurada en manual y <span class="codeph"> forceUpdate</span> no está configurado, el mapa del sitio no se generará. </p></p></td> 
+   <td colname="col3">Genera el mapa del sitio cuando se establece en <span class="codeph"> true</span>. <p><p>Nota: Si la configuración de generación de mapas del sitio se establece en manual y <span class="codeph"> forceUpdate</span> no se ha configurado, no se generará el mapa del sitio. </p></p></td> 
   </tr> 
  </tbody> 
 </table>

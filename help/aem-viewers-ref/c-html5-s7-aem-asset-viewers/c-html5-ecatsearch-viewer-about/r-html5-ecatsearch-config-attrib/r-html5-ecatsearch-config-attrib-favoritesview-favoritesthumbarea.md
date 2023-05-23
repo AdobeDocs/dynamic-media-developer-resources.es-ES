@@ -2,13 +2,13 @@
 description: FavoritesView.favoritesThumbView
 solution: Experience Manager
 title: FavoritesView.favoritesThumbView
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 3a0a7482-315f-4192-aa6d-e9cc1415194f
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 9%
+source-wordcount: '56'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> área</span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica el área de recorte para la miniatura de Favoritos. Se expresa como un valor relativo del tamaño total del fotograma, con un rango de <span class="codeph"> 0</span> a <span class="codeph"> 1,0</span>. </p> <p>Un valor de <span class="codeph"> 1</span> significa que la imagen de marco completa se utiliza para la miniatura. </p> <p>Un valor de <span class="codeph"> 0.1</span> significa que solo se utiliza el 10% del tamaño del fotograma. </p> </td> 
+   <td colname="col2"> <p> Especifica el área de recorte de la miniatura de Favoritos. Se expresa como un valor relativo al tamaño total del fotograma, con un intervalo de <span class="codeph"> 0</span> hasta <span class="codeph"> 1,0</span>. </p> <p>Un valor de <span class="codeph"> 1</span> significa que se utiliza toda la imagen de fotograma para la miniatura. </p> <p>Un valor de <span class="codeph"> 0,1</span> significa que sólo se utiliza el 10% del tamaño del marco. </p> </td> 
   </tr> 
  </tbody> 
 </table>

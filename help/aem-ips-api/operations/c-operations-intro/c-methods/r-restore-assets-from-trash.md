@@ -1,5 +1,5 @@
 ---
-description: Restaura los recursos de la papelera.
+description: Restaura recursos de la papelera.
 solution: Experience Manager
 title: restoreAssetsFromTrash
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # restoreAssetsFromTrash{#restoreassetsfromtrash}
 
-Restaura los recursos de la papelera.
+Restaura recursos de la papelera.
 
 Sintaxis
 
@@ -33,22 +33,22 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | El identificador de una empresa con los recursos que desea restaurar. |
-| assetHandleArray | `types:HandleArray` | Sí | Matriz de controladores para los recursos que desea restaurar. |
+| companyHandle | `xsd:string` | Sí | El identificador de una compañía con los recursos que desea restaurar. |
+| assetHandleArray | `types:HandleArray` | Sí | Matriz de identificadores de los recursos que desea restaurar. |
 
 **Salida (restoreAssetsFromTrashReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
 | successCount | `xsd:int` | Sí | Número de recursos eliminados correctamente de la papelera. |
-| warningCount | `xsd:int` | Sí | Número de advertencias generadas cuando la operación intentó restaurar recursos de la papelera. |
+| warningCount | `xsd:int` | Sí | Número de advertencias generadas cuando la operación intentó restaurar recursos desde la papelera. |
 | errorCount | `xsd:int` | Sí | Número de errores generados al intentar restaurar recursos desde la papelera. |
 | warningDetailArray | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados con los recursos que generaron advertencias cuando la operación intentó restaurar recursos de la papelera. |
-| errorDetailArray | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados con los recursos que generaron errores cuando la operación intentó restaurar recursos de la papelera. |
+| errorDetailArray | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados con los recursos que generaron errores cuando la operación intentó restaurar los recursos de la papelera. |
 
 ## Ejemplos {#section-98fe0394b0634ca397c395f14f8a9358}
 
-Este ejemplo de código restaura los recursos de la papelera. La respuesta indica que la operación se completó correctamente.
+Este ejemplo de código restaura los recursos de la papelera. La respuesta indica que la operación se ha completado correctamente.
 
 **Solicitar**
 

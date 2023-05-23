@@ -1,5 +1,5 @@
 ---
-description: Actualice los metadatos del campo.
+description: Actualizar metadatos de campo.
 solution: Experience Manager
 title: updateMetadataField
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,7 +14,7 @@ ht-degree: 22%
 
 # updateMetadataField{#updatemetadatafield}
 
-Actualice los metadatos del campo.
+Actualizar metadatos de campo.
 
 Sintaxis
 
@@ -42,13 +42,13 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> Identificador de la empresa. </td> 
+   <td colname="col4"> Manejo de la compañía. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> Control de campo de metadatos. </td> 
+   <td colname="col4"> Controlador de campo de metadatos. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
@@ -66,19 +66,19 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Ocultar o exponer metadatos específicos del sistema IPS. </td> 
+   <td colname="col4"> Oculte o exponga metadatos específicos del sistema IPS. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Un indicador booleano que indica si el campo de metadatos se aplica (validado) cuando se establece el valor. </p> <p>Si se establece en true, se genera un error si se establece un valor no válido en <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
+   <td colname="col4"> <p>Un indicador booleano que indica si el campo de metadatos se fuerza (valida) cuando se establece el valor. </p> <p>Si se establece en true, se genera un error si se establece un valor no válido en <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Permite crear un conjunto de valores enumerados compartidos a los que las etiquetas seleccionadas pueden apuntar. </td> 
+   <td colname="col4"> Permite crear un conjunto de valores enumerados compartidos a los que pueden apuntar las etiquetas seleccionadas. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -87,11 +87,11 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| fieldHandle | `xsd:string` | Sí | Control de campo de metadatos. |
+| fieldHandle | `xsd:string` | Sí | Controlador de campo de metadatos. |
 
 ## Ejemplos {#section-bb7d93ab6d914ddfa294e08983e589ee}
 
-Este ejemplo de actualización de código asigna un nuevo nombre y un valor predeterminado a un campo de metadatos. La respuesta devuelve un identificador al campo actualizado.
+Esta actualización de ejemplo de código asigna un nuevo nombre y un valor predeterminado a un campo de metadatos. La respuesta devuelve un identificador al campo actualizado.
 
 **Solicitar**
 

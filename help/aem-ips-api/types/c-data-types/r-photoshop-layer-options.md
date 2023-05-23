@@ -25,5 +25,5 @@ Sintaxis
 | layerNaming | `xsd:string` | Elección de los modos de nomenclatura de capas de Photoshop. |
 | delimitador | `xsd:string` | Elección de los modos de anclaje de Photoshop. |
 | createTemplate | `xsd:boolean` | Si se crea una plantilla a partir de capas de Photoshop. |
-| extractText | `xsd:boolean` | Indica si se extrae texto como capas de texto. |
-| extensionLayers | `xsd:boolean` | Ampliación de las capas a todo el tamaño del fondo. |
+| extractText | `xsd:boolean` | Si se extrae texto como capas de texto. |
+| extendedLayers | `xsd:boolean` | Si se deben extender las capas hasta el tamaño completo del fondo. |

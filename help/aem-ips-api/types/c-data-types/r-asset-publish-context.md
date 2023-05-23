@@ -1,5 +1,5 @@
 ---
-description: Asigna un recurso a los contextos de publicación en los que se marca un recurso para su publicación.
+description: Asigna un recurso a los PublishContexts en los que se marca un recurso para su publicación.
 solution: Experience Manager
 title: AssetPublishContexts
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # [!DNL AssetPublishContexts]{#assetpublishcontexts}
 
-Asigna un recurso a los contextos de publicación en los que se marca un recurso para su publicación.
+Asigna un recurso a los PublishContexts en los que se marca un recurso para su publicación.
 
 Sintaxis
 
@@ -22,5 +22,5 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| assetHandle | `xsd:string` | Gestionar en el recurso. |
-| publishContextArray | `types:PublishContextArray` | Matriz de contextos de publicación en la que el recurso está marcado para su publicación. |
+| assetHandle | `xsd:string` | Administre en el recurso. |
+| publishContextArray | `types:PublishContextArray` | Matriz de contextos de publicación en los que el recurso se marca para su publicación. |

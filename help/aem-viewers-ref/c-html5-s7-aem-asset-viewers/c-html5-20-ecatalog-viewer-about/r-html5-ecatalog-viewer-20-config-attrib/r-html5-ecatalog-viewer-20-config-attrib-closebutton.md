@@ -1,6 +1,6 @@
 ---
 title: Botón Cerrar
-description: El botón Cerrar
+description: Botón Cerrar
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -8,7 +8,7 @@ exl-id: 253dad70-c46c-4d37-8d0c-2a97a5f53f13
 source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
 source-wordcount: '43'
-ht-degree: 11%
+ht-degree: 9%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 11%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p>Establecer como <span class="codeph"> 1 </span> para activar la visualización del botón Cerrar. O bien, establezca en <span class="codeph"> 0 </span> para ocultar el botón Cerrar. </p> <p>El botón Cerrar solo se admite en dispositivos táctiles; no se puede mostrar en sistemas de escritorio. </p> </td> 
+   <td colname="col2"> <p>Configure como. <span class="codeph"> 1 </span> para habilitar la visualización del botón Cerrar. O bien, establezca en <span class="codeph"> 0 </span> para ocultar el botón Cerrar. </p> <p>El botón Cerrar solo es compatible con dispositivos táctiles; no se puede mostrar en sistemas de escritorio. </p> </td> 
   </tr> 
  </tbody> 
 </table>

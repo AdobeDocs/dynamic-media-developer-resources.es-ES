@@ -32,7 +32,7 @@ Recupere las definiciones de campo de etiqueta con la variable `getMetadataField
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Control de campo de metadatos. </td> 
+   <td colname="col3"> Controlador de campo de metadatos. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
@@ -47,7 +47,7 @@ Recupere las definiciones de campo de etiqueta con la variable `getMetadataField
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Valor predeterminado del campo de metadatos. </td> 
+   <td colname="col3"> Valor predeterminado para el campo de metadatos. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> isRequired</span> </span> </td> 
@@ -57,22 +57,22 @@ Recupere las definiciones de campo de etiqueta con la variable `getMetadataField
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> isUserDefined</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> Determina si el usuario define o no el campo de metadatos. </td> 
+   <td colname="col3"> Determina si el usuario ha definido o no el campo de metadatos. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">Ocultar o exponer metadatos específicos del sistema IPS. Devuelto desde <a href="../../operations/c-operations-intro/c-methods/r-get-metadata-fields.md#reference-170337127801401d9ea54bd4ccf28efe" format="dita" scope="local"> getMetadataFields</a> y <a href="../../operations/c-operations-intro/c-methods/r-get-asset-metadata-fields.md#reference-ea57f8e98d3e443da66114550b0d0a28" format="dita" scope="local"> getAssetMetadataFields</a>. </td> 
+   <td colname="col3">Oculte o exponga metadatos específicos del sistema IPS. Devuelto desde <a href="../../operations/c-operations-intro/c-methods/r-get-metadata-fields.md#reference-170337127801401d9ea54bd4ccf28efe" format="dita" scope="local"> getMetadataFields</a> y <a href="../../operations/c-operations-intro/c-methods/r-get-asset-metadata-fields.md#reference-ea57f8e98d3e443da66114550b0d0a28" format="dita" scope="local"> getAssetMetadataFields</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> <p>Un indicador booleano que indica si el tipo de campo de metadatos se aplica (validado) cuando se establece el valor. </p> <p>Si se establece en true, se genera un error si se establece un valor no válido en <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
+   <td colname="col3"> <p>Un indicador booleano que indica si el tipo de campo de metadatos se fuerza (valida) cuando se establece el valor. </p> <p>Si se establece en true, se genera un error si se establece un valor no válido en <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Permite crear un conjunto de valores enumerados compartidos a los que las etiquetas seleccionadas pueden apuntar. </td> 
+   <td colname="col3"> Permite crear un conjunto de valores enumerados compartidos a los que pueden apuntar las etiquetas seleccionadas. </td> 
   </tr> 
  </tbody> 
 </table>

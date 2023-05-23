@@ -1,5 +1,5 @@
 ---
-description: Actualizaciones de metadatos para recursos en miniatura.
+description: Se actualiza un metadato para los recursos de la miniatura.
 solution: Experience Manager
 title: ThumbAssetUpdateArray
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 24%
 
 # [!DNL ThumbAssetUpdateArray]{#thumbassetupdatearray}
 
-Actualizaciones de metadatos para recursos en miniatura.
+Se actualiza un metadato para los recursos de la miniatura.
 
 Sintaxis
 
@@ -22,4 +22,4 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| elementos | `types:ThumbAssetUpdates` | Matriz de actualizaciones de recursos en miniatura. |
+| elementos | `types:ThumbAssetUpdates` | Una matriz de actualizaciones de recursos en miniatura. |

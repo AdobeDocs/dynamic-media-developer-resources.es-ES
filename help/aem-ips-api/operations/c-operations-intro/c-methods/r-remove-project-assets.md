@@ -1,5 +1,5 @@
 ---
-description: Quita los recursos de un proyecto. No destruye los recursos.
+description: Quita recursos de un proyecto. No destruye los recursos.
 solution: Experience Manager
 title: removeProjectAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # removeProjectAssets{#removeprojectassets}
 
-Quita los recursos de un proyecto. No destruye los recursos.
+Quita recursos de un proyecto. No destruye los recursos.
 
 Sintaxis
 
@@ -32,9 +32,9 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | El identificador de la empresa con los recursos que desea mover. |
-| projectHandle | `xsd:string` | Sí | El identificador de los recursos de proyecto que desea mover. |
-| assetHandleArray | `types:HandleArray` | Sí | Matriz de controles de los recursos que desea mover. |
+| companyHandle | `xsd:string` | Sí | El identificador de la compañía con los recursos que desea mover. |
+| projectHandle | `xsd:string` | Sí | El identificador de los recursos del proyecto que desea mover. |
+| assetHandleArray | `types:HandleArray` | Sí | Matriz de identificadores de los recursos que desea mover. |
 
 **Salida (removeProjectAssetsReturn)**
 
@@ -44,11 +44,11 @@ Sintaxis
 | warningCount | `xsd:int` | Sí | Número de advertencias generadas cuando la operación intentó quitar recursos del proyecto. |
 | errorCount | `xsd:int` | Sí | Número de errores generados cuando la operación intentó quitar recursos del proyecto. |
 | warningDetailArray | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados con los recursos que generaron advertencias cuando la operación intentó quitarlos del proyecto. |
-| errorDetailArray | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados con los recursos que generaron errores cuando la operación intentó eliminarlos del proyecto. |
+| errorDetailArray | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados con los recursos que generaron errores cuando la operación intentó quitarlos del proyecto. |
 
 ## Ejemplos {#section-13546cf0a98e4e1b91b8b7cd5724ced8}
 
-Este ejemplo de código elimina 2 recursos de un proyecto (especificado por el gestor del proyecto).
+Este ejemplo de código quita dos recursos de un proyecto (especificados por el identificador del proyecto).
 
 **Solicitar**
 

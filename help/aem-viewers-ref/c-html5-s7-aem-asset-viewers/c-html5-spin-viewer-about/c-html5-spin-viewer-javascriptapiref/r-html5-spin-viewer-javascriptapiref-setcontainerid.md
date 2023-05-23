@@ -1,6 +1,6 @@
 ---
 title: setContainerId
-description: Referencia de la API de JavaScript para el visualizador de giros.
+description: Referencia de la API de JavaScript para el visor de giros.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 2%
 
 # setContainerId{#setcontainerid}
 
-Referencia de la API de JavaScript para el visualizador de giros.
+Referencia de la API de JavaScript para el visor de giros.
 
 ` setContainerId( *`containerId`*)`
 
-Establece el ID del contenedor DOM (normalmente un DIV) en el que se inserta el visor. No es necesario tener el elemento contenedor creado para cuando se llama a este método. Sin embargo, el contenedor debe existir cuando `init()` se ejecuta. Debe llamarse antes de `init()`.
+Establece el ID del contenedor DOM (normalmente un DIV) en el que se inserta el visor. No es necesario tener el elemento contenedor creado para el momento en que se llama a este método. Sin embargo, el contenedor debe existir cuando `init()` se ejecuta. Debe llamarse antes de `init()`.
 
-Este método es opcional si se pasa la información de configuración del visor con `config` objeto JSON al constructor.
+Este método es opcional si la información de configuración del visor se pasa con `config` Objeto JSON al constructor.
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 

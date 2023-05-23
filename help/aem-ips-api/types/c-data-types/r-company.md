@@ -1,5 +1,5 @@
 ---
-description: Representa una empresa.
+description: Representa una compañía.
 solution: Experience Manager
 title: Empresa
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 27%
 
 # [!DNL Company]{#company}
 
-Representa una empresa.
+Representa una compañía.
 
 Sintaxis
 
@@ -22,7 +22,7 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| companyHandle | `xsd:string` | Identificador de la empresa. |
+| companyHandle | `xsd:string` | Manejo de la compañía. |
 | [!DNL name] | `xsd:string` | Nombre de empresa. |
-| rootPath | `xsd:string` | Ruta raíz de la empresa. |
-| [!DNL expires] | `xsd:dateTime` | Fecha y hora en que caduca la empresa. |
+| rootPath | `xsd:string` | Ruta raíz de la compañía. |
+| [!DNL expires] | `xsd:dateTime` | Fecha y hora de caducidad de la empresa. |

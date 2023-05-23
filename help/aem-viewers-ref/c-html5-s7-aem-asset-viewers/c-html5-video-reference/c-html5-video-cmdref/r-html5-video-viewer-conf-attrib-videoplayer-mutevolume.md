@@ -1,6 +1,6 @@
 ---
 title: VideoPlayer.mutevolume
-description: Atributo de configuración para el visualizador de vídeo.
+description: Atributo de configuración para el visor de vídeo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: 8f644a40-7fd9-4edd-be29-698635b46507
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '54'
-ht-degree: 9%
+ht-degree: 7%
 
 ---
 
 # VideoPlayer.mutevolume{#videoplayer-mutevolume}
 
-Atributo de configuración para el visualizador de vídeo.
+Atributo de configuración para el visor de vídeo.
 
 `[VideoPlayer.|<containerId>_videoPlayer.]mutevolume=0|1`
 
@@ -22,7 +22,7 @@ Atributo de configuración para el visualizador de vídeo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Establece el modo silenciado para la reproducción de vídeo durante la carga inicial. Si está configurado como <span class="codeph"> 1 </span> el volumen está silenciado; de lo contrario, el vídeo se reproduce con sonido. En determinados dispositivos, el silencio de la reproducción de vídeo durante la carga también permite que el vídeo se reproduzca automáticamente. </p> </td> 
+   <td colname="col2"> <p> Establece el modo silencioso para la reproducción de vídeo en la carga inicial. Si se establece en <span class="codeph"> 1 </span> el volumen está silenciado; de lo contrario, el vídeo se reproduce con sonido. En ciertos dispositivos, silenciar la reproducción de vídeo al cargar también permite la reproducción automática del vídeo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

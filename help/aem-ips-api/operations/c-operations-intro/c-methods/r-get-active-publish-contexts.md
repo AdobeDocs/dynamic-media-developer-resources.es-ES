@@ -1,5 +1,5 @@
 ---
-description: Obtiene una lista de contextos de publicación activos para la empresa especificada. Un contexto de publicación se considera activo si hay al menos un servidor activo definido para el contexto.
+description: Obtiene una lista de contextos de publicación activos para la compañía especificada. Un contexto de publicación se considera activo si hay al menos un servidor activo definido para el contexto.
 solution: Experience Manager
 title: getActivePublishContext
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # getActivePublishContext{#getactivepublishcontext}
 
-Obtiene una lista de contextos de publicación activos para la empresa especificada. Un contexto de publicación se considera activo si hay al menos un servidor activo definido para el contexto.
+Obtiene una lista de contextos de publicación activos para la compañía especificada. Un contexto de publicación se considera activo si hay al menos un servidor activo definido para el contexto.
 
 Sintaxis
 
@@ -36,10 +36,10 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | El identificador de la empresa para consultar los contextos de publicación activos |
+| companyHandle | `xsd:string` | Sí | El identificador de la compañía para consultar contextos de publicación activos |
 
 **Salida (getActivePublishContextsReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| contextArray | `types:StringArray` | Sí | Matriz de contextos de publicación activos, que puede incluir cero o más valores de contexto de publicación. |
+| contextArray | `types:StringArray` | Sí | Matriz de contextos de publicación activos, que pueden incluir cero o más valores del contexto de publicación. |

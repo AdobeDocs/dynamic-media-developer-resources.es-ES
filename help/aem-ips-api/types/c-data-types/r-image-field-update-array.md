@@ -1,5 +1,5 @@
 ---
-description: Matriz de actualizaciones de campo de imagen.
+description: Una matriz de actualizaciones de campos de imagen.
 solution: Experience Manager
 title: ImageFieldUpdateArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 25%
 
 # [!DNL ImageFieldUpdateArray]{#imagefieldupdatearray}
 
-Matriz de actualizaciones de campo de imagen.
+Una matriz de actualizaciones de campos de imagen.
 
 Sintaxis
 

@@ -1,6 +1,6 @@
 ---
 title: Fuentes de imagen externas
-description: El servicio de imágenes admite el acceso a las imágenes de origen en servidores HTTP y FTP extranjeros.
+description: El servicio de imágenes admite el acceso a las imágenes de origen en servidores HTTP y FTP externos.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,12 +14,12 @@ ht-degree: 0%
 
 # Fuentes de imagen externas{#foreign-image-sources}
 
-El servicio de imágenes admite el acceso a las imágenes de origen en servidores HTTP y FTP extranjeros.
+El servicio de imágenes admite el acceso a las imágenes de origen en servidores HTTP y FTP externos.
 
-Para especificar una dirección URL externa para un `src=` o `mask=` comando; delimite toda la URL incrustada con llaves:
+Para especificar una dirección URL externa para una `src=` o una `mask=` comando; simplemente delimite toda la dirección URL incrustada con llaves:
 
 ` …&src={ *[!DNL foreignUrl]*}&…`
 
-Direcciones URL absolutas completas (si `attribute::AllowDirectUrls` está configurado) y las direcciones URL relativas a `attribute::RootUrl` están permitidos. Se produce un error si se incrusta una dirección URL absoluta y el atributo: `AllowDirectUrls` es 0, o si se especifica una dirección URL relativa y `attribute::RootUrl` está vacío.
+Direcciones URL absolutas completas (si `attribute::AllowDirectUrls` se ha configurado) y direcciones URL relativas a `attribute::RootUrl` están permitidos. Se produce un error si una dirección URL absoluta está incrustada y tiene el atributo: `AllowDirectUrls` es 0 o si se especifica una dirección URL relativa y `attribute::RootUrl` está vacío.
 
 El servidor almacena en caché las imágenes externas según los encabezados de almacenamiento en caché incluidos con la respuesta HTTP.

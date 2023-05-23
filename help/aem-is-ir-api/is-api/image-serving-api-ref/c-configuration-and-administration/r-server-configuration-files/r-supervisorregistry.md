@@ -1,5 +1,5 @@
 ---
-description: Contiene la configuración del supervisor del servidor.
+description: Contiene las opciones de configuración del supervisor del servidor.
 solution: Experience Manager
 title: SupervisorRegistry.xml
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # SupervisorRegistry.xml{#supervisorregistry-xml}
 
-Contiene la configuración del supervisor del servidor.
+Contiene las opciones de configuración del supervisor del servidor.
 
-Al editar este archivo XML, asegúrese de mantener una sintaxis XML válida; de lo contrario, el servidor de imágenes podría no iniciarse.
+Al editar este archivo XML, asegúrese de mantener una sintaxis XML válida; de lo contrario, es posible que el servidor de imágenes no se inicie correctamente.
 
-Reinicie Image Serving después de editar este archivo para asegurarse de que los cambios surtan efecto. Solo se pueden modificar los valores de elemento/atributo resaltados a continuación. Edite el resto del contenido de este archivo solo cuando el servicio de asistencia técnica de Dynamic Media lo aconseje.
+Reinicie el servicio de imágenes después de editar este archivo para asegurarse de que los cambios surtan efecto. Solo se admiten para la modificación los valores de elemento/atributo resaltados a continuación. Edite el resto del contenido de este archivo solo cuando el servicio de asistencia técnica de Dynamic Media lo aconseje.
 
 ```
 <supervisor>

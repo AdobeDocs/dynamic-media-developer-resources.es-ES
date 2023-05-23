@@ -1,20 +1,20 @@
 ---
-description: Utilizado por ScheduledJob/triggerState.
+description: Lo utiliza ScheduledJob/triggerState.
 solution: Experience Manager
-title: Estados del Déclencheur de trabajo
+title: Estados de Déclencheur del trabajo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 86f99fe5-fd0d-4c38-8952-9ad230ccde38
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '21'
-ht-degree: 9%
+source-wordcount: '16'
+ht-degree: 12%
 
 ---
 
-# Estados del Déclencheur de trabajo{#job-trigger-states}
+# Estados de Déclencheur del trabajo{#job-trigger-states}
 
-Utilizado por ScheduledJob/triggerState.
+Lo utiliza ScheduledJob/triggerState.
 
 Sintaxis
 

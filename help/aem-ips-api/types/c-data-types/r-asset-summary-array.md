@@ -1,5 +1,5 @@
 ---
-description: Matriz de resúmenes de recursos.
+description: Una matriz de resúmenes de recursos.
 solution: Experience Manager
 title: AssetSummaryArray
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL AssetSummaryArray]{#assetsummaryarray}
 
-Matriz de resúmenes de recursos.
+Una matriz de resúmenes de recursos.
 
 Sintaxis
 

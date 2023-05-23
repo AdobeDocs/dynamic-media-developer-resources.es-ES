@@ -1,5 +1,5 @@
 ---
-description: Actualice la información para las propiedades de fuente.
+description: Actualice la información de las propiedades de fuente.
 solution: Experience Manager
 title: FontFieldUpdate
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # [!DNL FontFieldUpdate]{#fontfieldupdate}
 
-Actualice la información para las propiedades de fuente.
+Actualice la información de las propiedades de fuente.
 
 Sintaxis
 
@@ -29,4 +29,4 @@ Sintaxis
 | [!DNL fontFamily] | `xsd:string` | Nombre de la familia de fuentes. |
 | [!DNL style] | `xsd:string` | Estilo de fuente (consulte Estilos de fuente para ver los valores). |
 | typeName | `xsd:string` | Nombre del tipo de fuente. |
-| [!DNL type] | `xsd:string` | Tipo de fuente (consulte Tipos de fuentes para ver los valores). |
+| [!DNL type] | `xsd:string` | Tipo de fuente (consulte Tipos de fuente para ver los valores). |

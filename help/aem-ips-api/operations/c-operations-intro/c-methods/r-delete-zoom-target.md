@@ -35,12 +35,12 @@ Elimina un destino de zoom.
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | Identificador de la empresa a la que pertenece el objetivo de zoom. |
-| zoomTargetHandle | `xsd:string` | Sí | Control del destino de zoom que se va a eliminar. |
+| companyHandle | `xsd:string` | Sí | El identificador de la empresa a la que pertenece el destino de zoom. |
+| zoomTargetHandle | `xsd:string` | Sí | El controlador para el destino de zoom que se va a eliminar. |
 
 **Salida (deleteZoomTargetParam)**
 
-La API IPS no devuelve una respuesta para esta operación.
+La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplo {#section-a35857a5ca884357a879f7ba6cf985fe}
 

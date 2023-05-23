@@ -1,6 +1,6 @@
 ---
-title: Variación de la opacidad del material
-description: La opacidad variable es compatible con el color sólido y las texturas repetibles aplicadas a objetos superpuestos, así como con las calcomanías y los materiales de recubrimiento de ventanas.
+title: Opacidad de material variable
+description: La opacidad variable se admite para el color sólido y las texturas repetibles aplicadas a objetos superpuestos, así como para calcomanías y materiales que cubren las ventanas.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,12 +12,12 @@ ht-degree: 0%
 
 ---
 
-# Variación de la opacidad del material{#varying-material-opacity}
+# Opacidad de material variable{#varying-material-opacity}
 
-La opacidad variable es compatible con el color sólido y las texturas repetibles aplicadas a objetos superpuestos, así como con las calcomanías y los materiales de recubrimiento de ventanas.
+La opacidad variable se admite para el color sólido y las texturas repetibles aplicadas a objetos superpuestos, así como para calcomanías y materiales que cubren las ventanas.
 
-La información de opacidad se puede proporcionar simplemente utilizando una imagen de RGB con un canal alfa. Además, la opacidad general puede variar con el `opacity=` (tanto para imágenes RGB como RGBA).
+La información de opacidad se puede proporcionar simplemente utilizando una imagen de RGB con un canal alfa. Además, la opacidad global puede variar con el `opacity=` (para imágenes de RGB y RGBA).
 
-Los bordes murales también admiten imágenes RGBA, principalmente para soportar fronteras cortadas.
+Los bordes de pared también admiten imágenes RGBA, principalmente para apoyar bordes troquelados.
 
-La variable [!DNL vnw] los archivos que definen las coberturas de ventanas pueden incluir un canal de opacidad. Se combina con el procesador con el canal alfa de la textura repetible y el `opacity=` para proporcionar una gama completa de efectos de opacidad para tratamientos por cristaleras y traslúcidos.
+El [!DNL vnw] los ficheros que definen las cubiertas de ventana pueden incluir un canal de opacidad. Lo combina el procesador con el canal alfa de la textura repetible y la `opacity=` valor para proporcionar una gama completa de efectos de opacidad para tratamientos de ventanas transparentes y translúcidas.

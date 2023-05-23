@@ -8,7 +8,7 @@ exl-id: 026b5921-53ae-436f-bf82-dee2e699405f
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '177'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> up|down|left|right|fit-vertical|fit-lateral </span> </p> </td> 
-   <td colname="col2"> <p> Especifica la dirección de la animación de diapositivas para el contenedor de botones. </p> <p> Cuando se configura como <span class="codeph"> up </span>, <span class="codeph"> down </span>, <span class="codeph"> left </span>o <span class="codeph"> right </span>, el panel se despliega en una dirección especificada sin una comprobación de límites adicionales. Este comportamiento puede provocar que un contenedor externo recorte el panel. </p> <p>Cuando se configura como <span class="codeph"> ajuste vertical </span>, el componente cambia primero la posición del panel base a la parte inferior de SocialShare e intenta desplegar el panel desde la parte inferior, derecha o izquierda, desde esa ubicación base. Con cada intento, el componente comprueba si el panel está recortado por un contenedor exterior. Si todos los intentos fallan, el componente intenta cambiar la posición del panel base a la parte superior y repetir los intentos de despliegue desde la dirección superior, derecha e izquierda. </p> <p>Cuando se configura como <span class="codeph"> fit-lateral </span>, el componente utiliza una lógica similar a la del ajuste vertical. Sin embargo, desplaza la base hacia la derecha, primero hacia la derecha, hacia abajo, y hacia arriba hacia afuera, y luego mueve la base hacia la izquierda, tratando de seguir direcciones hacia la izquierda, hacia abajo y hacia arriba. </p> </td> 
+   <td colname="col2"> <p> Especifica la dirección de la animación de diapositiva para el contenedor de botones. </p> <p> Cuando se establece en <span class="codeph"> arriba </span>, <span class="codeph"> abajo </span>, <span class="codeph"> left </span>, o <span class="codeph"> derecha </span>, el panel se despliega en una dirección especificada sin una comprobación de límites adicionales. Este comportamiento puede provocar el recorte del panel por un contenedor externo. </p> <p>Cuando se establece en <span class="codeph"> fit-vertical </span>, el componente primero cambia la posición del panel base a la parte inferior de SocialShare e intenta desplegar el panel desde la parte inferior, derecha o izquierda, desde dicha ubicación base. Con cada intento, el componente comprueba si el panel está recortado por un contenedor externo. Si todos los intentos fallan, el componente intenta desplazar la posición del panel base a la parte superior y repetir los intentos de despliegue desde la dirección superior, derecha e izquierda. </p> <p>Cuando se establece en <span class="codeph"> fit-lateral </span>, el componente utiliza una lógica similar a la de fit-vertical. Sin embargo, desplaza la base hacia la derecha (primero hacia la derecha, hacia abajo y hacia arriba) y, a continuación, la desplaza hacia la izquierda (intentando hacia la izquierda, hacia abajo y hacia arriba). </p> </td> 
   </tr> 
  </tbody> 
 </table>

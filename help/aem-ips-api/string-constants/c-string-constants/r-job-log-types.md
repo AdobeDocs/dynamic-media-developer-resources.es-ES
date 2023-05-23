@@ -1,5 +1,5 @@
 ---
-description: Utilizado por JobLogDetail/logType y JobLog/logType.
+description: Lo utilizan JobLogDetail/logType y JobLog/logType.
 solution: Experience Manager
 title: Tipos de registro de trabajo
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,Admin
 exl-id: 34b1bac0-c338-437a-9d44-09dbf75088ee
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 7%
+source-wordcount: '22'
+ht-degree: 9%
 
 ---
 
 # Tipos de registro de trabajo{#job-log-types}
 
-Utilizado por JobLogDetail/logType y JobLog/logType.
+Lo utilizan JobLogDetail/logType y JobLog/logType.
 
 Sintaxis
 

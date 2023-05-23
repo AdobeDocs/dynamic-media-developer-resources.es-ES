@@ -37,12 +37,12 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | El identificador de la empresa que contiene el mapa de imagen que se va a eliminar. |
-| imageMapHandle | `xsd:string` | Sí | El identificador del mapa de imagen que se va a eliminar. |
+| companyHandle | `xsd:string` | Sí | El identificador de la compañía que contiene el mapa de imagen que se va a eliminar. |
+| imageMapHandle | `xsd:string` | Sí | El controlador del mapa de imagen que se va a eliminar. |
 
 **Salida (deleteImageMapParam)**
 
-La API IPS no devuelve una respuesta para esta operación.
+La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-b238da3332fb4e3eb3f8bda0bd6a2035}
 

@@ -22,4 +22,4 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| elementos | `types:JobLogDetail` | Matriz de detalles del registro de trabajos. |
+| elementos | `types:JobLogDetail` | Una matriz de detalles de registro de trabajos. |

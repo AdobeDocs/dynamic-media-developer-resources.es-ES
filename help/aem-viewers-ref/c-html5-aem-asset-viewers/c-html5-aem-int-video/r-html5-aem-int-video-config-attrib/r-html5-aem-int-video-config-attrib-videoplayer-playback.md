@@ -8,7 +8,7 @@ exl-id: fa49e025-1a46-4be7-ad1e-eda3b31bdc8d
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '110'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ Atributo de configuración para el visualizador de vídeo interactivo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|progresivo</span> </p> </td> 
-   <td colname="col2"> <p> Define el tipo de reproducción que utiliza el visor. </p> <p>Cuando se establece <span class="codeph"> auto</span> , en la mayoría de los navegadores de escritorio y en todos los dispositivos iOS, el visor utiliza vídeo de flujo HTML5 en formato HLS. Además, vuelve a la reproducción progresiva de HTML5 en determinados sistemas, como Internet Explorer y Android™. </p> <p>Cuando se establece <span class="codeph"> progresivo</span>, el visor solo se basa en la reproducción HTML5 como lo admiten los navegadores de forma nativa y reproduce vídeo de forma progresiva en todos los sistemas. </p> <p>Para obtener más información sobre la selección de reproducción en los modos nativo <span class="codeph"> auto</span> y <span class="codeph"> progresivo</span>, consulte la Guía del usuario del SDK de visores HTML5. </p> </td> 
+   <td colname="col2"> <p> Establece el tipo de reproducción que utiliza el visor. </p> <p>Cuándo <span class="codeph"> auto</span> se configura, en la mayoría de los navegadores de escritorio y en todos los dispositivos iOS, el visualizador utiliza el flujo de vídeo HTML5 en formato HLS. Y vuelve a la reproducción progresiva de HTML5 en ciertos sistemas como el antiguo Internet Explorer y Android™. </p> <p>Cuándo <span class="codeph"> progresista</span> está configurado, el visor solo depende de la reproducción de HTML 5, ya que es compatible de forma nativa con los navegadores y reproduce vídeo progresivamente en todos los sistemas. </p> <p>Para obtener más información sobre la selección de reproducción en <span class="codeph"> auto</span> y <span class="codeph"> progresista</span> modos nativos, consulte la Guía del usuario del SDK de visores de HTML5. </p> </td> 
   </tr> 
  </tbody> 
 </table>

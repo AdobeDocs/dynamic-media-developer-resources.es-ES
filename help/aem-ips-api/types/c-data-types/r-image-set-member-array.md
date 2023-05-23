@@ -22,4 +22,4 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| elementos | `types:ImageSetMember` | Matriz de miembros del conjunto de imágenes. |
+| elementos | `types:ImageSetMember` | La matriz de miembros del conjunto de imágenes. |

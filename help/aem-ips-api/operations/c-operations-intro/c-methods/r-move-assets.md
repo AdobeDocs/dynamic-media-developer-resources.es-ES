@@ -1,5 +1,5 @@
 ---
-description: Mueve varios recursos de forma independiente entre sí. Esto se logra utilizando el tipo AssetMove contenido en assetMoveArray. Cada campo AssetMove contiene una carpeta de destino.
+description: Mueve varios recursos de forma independiente entre sí. Esto se consigue mediante el tipo AssetMove contenido en assetMoveArray. Cada campo AssetMove contiene una carpeta de destino.
 solution: Experience Manager
 title: moveAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # moveAssets{#moveassets}
 
-Mueve varios recursos de forma independiente entre sí. Esto se logra utilizando el tipo AssetMove contenido en assetMoveArray. Cada campo AssetMove contiene una carpeta de destino.
+Mueve varios recursos de forma independiente entre sí. Esto se consigue mediante el tipo AssetMove contenido en assetMoveArray. Cada campo AssetMove contiene una carpeta de destino.
 
 Sintaxis
 
@@ -33,7 +33,7 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | El identificador de la empresa con los recursos que se van a mover. |
+| companyHandle | `xsd:string` | Sí | El identificador de la compañía cuyos recursos se moverán. |
 | assetMoveArray | `types:AssetMoveArray` | Sí | Matriz de movimiento de recursos. Contiene un recurso y una carpeta de destino de recursos. |
 
 **Salida (moveAssetsReturn)**
@@ -52,7 +52,7 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> successCount</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> Recuento de recursos movido correctamente. </td> 
+   <td colname="col4"> El recuento de recursos se movió correctamente. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> warningCount</span> </span> </td> 
@@ -70,22 +70,22 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:AssetOperationFaultArray</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span>que contienen: 
+   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span>que contienen el: 
     <ul id="ul_689F4A87A68140F18DFB43868226A409"> 
-     <li id="li_274C8BF5932F4AF584AA92F25E0F33C6">Recursos que generaron las advertencias. </li> 
+     <li id="li_274C8BF5932F4AF584AA92F25E0F33C6">Recursos que generaron advertencias. </li> 
      <li id="li_5CC4A9120CA94F968CAF0D0135C49E0A">Códigos de advertencia. </li> 
-     <li id="li_AEC91FA68B2E43BC8BAA108C743F5667">Motivo de la advertencia. </li> 
+     <li id="li_AEC91FA68B2E43BC8BAA108C743F5667">Razón de la advertencia. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:AssetOperationFaultArray</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span>que contienen: 
+   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span>que contienen el: 
     <ul id="ul_C397BC384A134F429D01ADA28DF2E097"> 
      <li id="li_EAEBB5F539164480BA9EAA7C8FFBF69A">Recursos que arrojaron los errores. </li> 
      <li id="li_F96D5FBB2F7A402AA36D8DFA3971391D">Códigos de error. </li> 
-     <li id="li_F610415E416F43DDA4B1DBF1897E2F61">Motivo de los errores. </li> 
+     <li id="li_F610415E416F43DDA4B1DBF1897E2F61">Razón de los errores. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -93,7 +93,7 @@ Sintaxis
 
 ## Ejemplos {#section-c31ed4c004ab4b3fa42c96d26ceb5ce7}
 
-Este ejemplo de código mueve los recursos a una ubicación específica especificada por el `assetMoveArray`. La matriz incluye el controlador de recursos y su identificador de carpeta. La respuesta indica que los recursos se movieron correctamente.
+Este ejemplo de código mueve recursos a una ubicación específica especificada por el `assetMoveArray`. La matriz incluye el identificador de recursos y su identificador de carpetas. La respuesta indica que los recursos se movieron correctamente.
 
 **Solicitar**
 

@@ -1,6 +1,6 @@
 ---
 title: Compatibilidad con el seguimiento de Adobe Analytics
-description: El visor de vídeo es compatible con el seguimiento de Adobe Analytics de serie.
+description: El Visor de vídeo admite el seguimiento de Adobe Analytics de forma predeterminada.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User,Data Engineer,Data Architect
@@ -14,19 +14,19 @@ ht-degree: 3%
 
 # Compatibilidad con el seguimiento de Adobe Analytics{#support-for-adobe-analytics-tracking}
 
-El visor de vídeo es compatible con el seguimiento de Adobe Analytics de serie.
+El Visor de vídeo admite el seguimiento de Adobe Analytics de forma predeterminada.
 
-## Seguimiento predeterminado {#section-3b101fe30be943c1b679fd5c273569ca}
+## Seguimiento listo para usar. {#section-3b101fe30be943c1b679fd5c273569ca}
 
-El visor de vídeo es compatible con el seguimiento de Adobe Analytics de serie.
+El Visor de vídeo admite el seguimiento de Adobe Analytics de forma predeterminada.
 
-Para habilitar el seguimiento, pase el nombre de ajuste preestablecido de la empresa correspondiente como `config2` parámetro.
+Para habilitar el seguimiento, pase el nombre del ajuste preestablecido de empresa adecuado como `config2` parámetro.
 
 El visor también envía una única solicitud HTTP de seguimiento al servidor de imágenes configurado con el tipo de visor y la información de versión.
 
 ## Seguimiento personalizado {#section-ab10bd7caf184721a366cf3953071934}
 
-Para integrarse con sistemas de análisis de terceros, es necesario escuchar `trackEvent` llamada de retorno y proceso del visor `eventInfo` de la función de llamada de retorno según sea necesario. El siguiente código es un ejemplo de dicha función de controlador:
+Para integrarse con sistemas de análisis de terceros, es necesario escuchar `trackEvent` proceso y llamada de retorno del visor `eventInfo` de la función de llamada de retorno según sea necesario. El siguiente código es un ejemplo de esta función de controlador:
 
 ```javascript {.line-numbers}
 var videoViewer = new s7viewers.VideoViewer({ 
@@ -51,39 +51,39 @@ var videoViewer = new s7viewers.VideoViewer({
 });
 ```
 
-El visor realiza el seguimiento de los siguientes eventos de usuario de SDK:
+El visor realiza un seguimiento de los siguientes eventos de usuarios del SDK:
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Evento de usuario del SDK </p> </th> 
-   <th colname="col2" class="entry"> <p>Enviado cuando... </p> </th> 
+   <th colname="col2" class="entry"> <p>Se envía cuando... </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
-   <td colname="col2"> <p>primero se carga el visor. </p> </td> 
+   <td colname="col2"> <p>El visor se carga primero. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>un recurso se intercambia en el visor mediante <span class="codeph"> setAsset() </span> API. </p> </td> 
+   <td colname="col2"> <p>se intercambia un recurso en el visor mediante <span class="codeph"> setAsset() </span> API. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 
-   <td colname="col2"> <p>se inicia la reproducción. </p> </td> 
+   <td colname="col2"> <p>Se inicia la reproducción. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAUSE </span> </p> </td> 
-   <td colname="col2"> <p>la reproducción está en pausa. </p> </td> 
+   <td colname="col2"> <p>la reproducción se detiene. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> STOP </span> </p> </td> 
-   <td colname="col2"> <p>se detiene la reproducción. </p> </td> 
+   <td colname="col2"> <p>la reproducción se ha detenido. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MILESTONE </span> </p> </td> 
-   <td colname="col2"> <p>la reproducción llega a uno de los siguientes molinos: 0 %, 25 %, 50 %, 75 % y 100 %. </p> </td> 
+   <td colname="col2"> <p>La reproducción de alcanza uno de los siguientes hitos: 0 %, 25 %, 50 %, 75 % y 100 %. </p> </td> 
   </tr> 
  </tbody> 
 </table>

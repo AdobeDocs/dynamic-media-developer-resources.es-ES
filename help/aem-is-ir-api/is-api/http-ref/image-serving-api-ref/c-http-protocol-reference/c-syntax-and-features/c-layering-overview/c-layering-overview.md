@@ -1,6 +1,6 @@
 ---
-title: Información general sobre capas
-description: Image Serving permite combinar cualquier número de capas de imagen, texto y color sólido en una imagen compuesta.
+title: Introducción a capas
+description: El servicio de imágenes permite combinar cualquier cantidad de capas de imagen, texto y color sólido en una imagen compuesta.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 11%
 
 ---
 
-# Información general sobre capas{#layering-overview}
+# Introducción a capas{#layering-overview}
 
-Image Serving permite combinar cualquier número de capas de imagen, texto y color sólido en una imagen compuesta.
+El servicio de imágenes permite combinar cualquier cantidad de capas de imagen, texto y color sólido en una imagen compuesta.
 
 ## Véase también {#section-9d47587692d94637af61de851f3d118f}
 

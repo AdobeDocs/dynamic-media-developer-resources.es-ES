@@ -1,19 +1,20 @@
 ---
 title: VideoScrubber.showchaptertitle
-description: Atributo de configuración para el visor de vídeo de recorte inteligente.
+description: Atributo de configuración para el visor de recorte inteligente de vídeos.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 4963ab9f-0605-4b1d-9a9d-19bdc968e8fd
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '45'
-ht-degree: 11%
+ht-degree: 8%
 
 ---
 
 # VideoScrubber.showchaptertitle{#videoscrubber-showchaptertitle}
 
-Atributo de configuración para el visor de vídeo de recorte inteligente.
+Atributo de configuración para el visor de recorte inteligente de vídeos.
 
 `[VideoScrubber.|<containerId>_videoScrubber.]showchaptertitle=0|1`
 
@@ -21,7 +22,7 @@ Atributo de configuración para el visor de vídeo de recorte inteligente.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Desactiva o activa la barra de título de la etiqueta de capítulo del vídeo. La hora de inicio del capítulo no se muestra cuando la barra de título está desactivada. </p> </td> 
+   <td colname="col2"> <p> Deshabilita o habilita la barra de título de la etiqueta del capítulo de vídeo. El tiempo de inicio del capítulo no se muestra cuando la barra de título está desactivada. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,5 +1,5 @@
 ---
-description: propiedades del archivo PDF.
+description: Propiedades del archivo del PDF.
 solution: Experience Manager
 title: PdfInfo
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 033bdcf2-ddb2-48c2-97ab-2f72cc7780c8
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '21'
-ht-degree: 42%
+ht-degree: 33%
 
 ---
 
 # [!DNL PdfInfo]{#pdfinfo}
 
-propiedades del archivo PDF.
+Propiedades del archivo del PDF.
 
 Sintaxis
 
@@ -22,6 +22,6 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| originalPath | `xsd:string` | Ruta del archivo. |
+| originalPath | `xsd:string` | Ruta de archivo. |
 | originalFile | `xsd:int` | Nombre del archivo. |
 | fileSize | `xsd:int` | Tamaño de archivo. |

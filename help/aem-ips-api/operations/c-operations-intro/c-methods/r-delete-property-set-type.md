@@ -35,11 +35,11 @@ Sintaxis
 
 **Salida (deletePropertySetTypeParam)**
 
-La API IPS no devuelve una respuesta para esta operación.
+La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-85faa2e3411a4e23aa6489037f7ce078}
 
-Este ejemplo de código utiliza el identificador del tipo como campo en la variable `deletePropertySetTypeParam` se envía al servidor de servicios web IPS para eliminar el tipo de conjunto de propiedades.
+Este ejemplo de código utiliza el identificador del tipo como campo en `deletePropertySetTypeParam` se envía al servidor de servicios Web IPS para eliminar el tipo de conjunto de propiedades.
 
 **Solicitar**
 

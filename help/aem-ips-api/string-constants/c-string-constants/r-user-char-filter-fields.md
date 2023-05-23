@@ -1,20 +1,20 @@
 ---
-description: Utilizado por getUsersParam y getUserCharsParam/charField.
+description: Lo utilizan getUsersParam y getUserCharsParam/charField.
 solution: Experience Manager
-title: Campos del filtro Char del usuario
+title: Campos de filtro de caracteres de usuario
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 40ba507b-6859-4b37-b801-c6f21d12e98e
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 7%
+source-wordcount: '22'
+ht-degree: 9%
 
 ---
 
-# Campos del filtro Char del usuario{#user-char-filter-fields}
+# Campos de filtro de caracteres de usuario{#user-char-filter-fields}
 
-Utilizado por getUsersParam y getUserCharsParam/charField.
+Lo utilizan getUsersParam y getUserCharsParam/charField.
 
 Sintaxis
 

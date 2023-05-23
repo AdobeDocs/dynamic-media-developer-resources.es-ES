@@ -1,5 +1,5 @@
 ---
-description: Comprueba si un usuario con una empresa específica (identificada por identificador), una dirección de correo electrónico y una contraseña puede iniciar sesión.
+description: Comprueba si un usuario con una compañía específica (identificada por el identificador), una dirección de correo electrónico y una contraseña pueden iniciar sesión.
 solution: Experience Manager
 title: checkLogin
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 13%
 
 # checkLogin{#checklogin}
 
-Comprueba si un usuario con una empresa específica (identificada por identificador), una dirección de correo electrónico y una contraseña puede iniciar sesión.
+Comprueba si un usuario con una compañía específica (identificada por el identificador), una dirección de correo electrónico y una contraseña pueden iniciar sesión.
 
 >[!NOTE]
 >
->Si se omite el control de empresa, este método comprueba el inicio de sesión del usuario predeterminado.
+>Si se omite el identificador de la empresa, este método comprueba el inicio de sesión del usuario predeterminado.
 
 ## Tipos de usuarios autorizados {#section-df8b26b550854f899948276adaca083a}
 
@@ -38,7 +38,7 @@ Comprueba si un usuario con una empresa específica (identificada por identifica
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | No | El identificador de la empresa que contiene el usuario. |
+| companyHandle | `xsd:string` | No | El identificador de la compañía que contiene al usuario. |
 | correo electrónico | `xsd:string` | Sí | La dirección de correo electrónico del usuario. |
 | contraseña | `xsd:string` | Sí | La contraseña del usuario. |
 
@@ -50,7 +50,7 @@ Comprueba si un usuario con una empresa específica (identificada por identifica
 
 ## Ejemplos {#section-23f90100a9d94bc7b4045634cccd1b98}
 
-Este código de ejemplo utiliza un parámetro de gestión de empresa, una dirección de correo electrónico y una contraseña para determinar si un usuario puede iniciar sesión en IPS. Si el usuario *can* iniciar sesión, este método devuelve la cadena, `ValidLogin`. Si el usuario *cannot* iniciar sesión, este método devuelve la cadena, `InvalidLogin`.
+Este código de ejemplo utiliza un parámetro de identificador de compañía, una dirección de correo electrónico y una contraseña para determinar si un usuario puede iniciar sesión en IPS. Si el usuario *lata* Inicie sesión, este método devuelve la cadena, `ValidLogin`. Si el usuario *no puede* Inicie sesión, este método devuelve la cadena, `InvalidLogin`.
 
 **Solicitar**
 

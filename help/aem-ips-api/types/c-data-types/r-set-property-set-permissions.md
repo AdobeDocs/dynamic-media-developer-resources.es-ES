@@ -20,5 +20,5 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| setHandle | `xsd:string` | Gestionar al conjunto de propiedades. |
+| setHandle | `xsd:string` | Handle al conjunto de propiedades. |
 | permissionsArray | `types:PermissionUpdateArray` | Matriz de permisos. |

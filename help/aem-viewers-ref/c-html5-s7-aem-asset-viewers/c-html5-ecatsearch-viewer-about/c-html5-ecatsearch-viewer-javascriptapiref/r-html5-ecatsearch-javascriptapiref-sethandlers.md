@@ -1,32 +1,32 @@
 ---
-description: Referencia de la API de JavaScript para el visor de catálogos electrónicos.
+description: Referencia de la API de JavaScript para eCatalog Viewer.
 solution: Experience Manager
 title: setHandlers
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 33779874-2ab9-490a-8eaf-726adaa76327
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '87'
 ht-degree: 3%
 
 ---
 
 # setHandlers{#sethandlers}
 
-Referencia de la API de JavaScript para el visor de catálogos electrónicos.
+Referencia de la API de JavaScript para eCatalog Viewer.
 
 [!DNL `setHandlers(handlers)`]
 
-Especifica cero o más controladores de devolución de llamada. Una llamada a este método sobrescribe completamente los controladores de eventos que se asignaron anteriormente a esa instancia de visor. Debe llamarse antes de `init()`.
+Especifica cero o más controladores de devolución de llamada. Una llamada a este método sobrescribe completamente los controladores de eventos asignados anteriormente para esa instancia de visor. Se debe llamar antes de `init()`.
 
 ## Parámetro {#section-0cc9961784d04eb3b7d50011309b0119}
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> controladores  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {Object} objeto  </span> JSON con llamadas de retorno de eventos del visor, donde el nombre de la propiedad es el nombre del evento del visor admitido y el valor de la propiedad es una referencia de función JavaScript a una llamada de retorno adecuada. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-event-callbacks.md#concept-0bf5ff877043468db58ac62a92d002b6" format="dita" scope="local"> Llamadas de retorno de eventos </a> para obtener más información sobre los eventos del visor. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> controladores </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {Object} </span> Objeto JSON con llamadas de retorno a evento de visor, donde el nombre de propiedad es el nombre del evento de visor admitido y el valor de propiedad es una referencia de función de JavaScript a una llamada de retorno adecuada. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-event-callbacks.md#concept-0bf5ff877043468db58ac62a92d002b6" format="dita" scope="local"> Llamadas de retorno de eventos </a> para obtener más información sobre los eventos de visor. </p> </td> 
   </tr> 
  </tbody> 
 </table>

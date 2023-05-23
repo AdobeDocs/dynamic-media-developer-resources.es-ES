@@ -1,6 +1,6 @@
 ---
 title: emptyAssetsFromTrash
-description: Vacía recursos de la papelera IPS.
+description: Vacía los recursos de la papelera IPS.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,9 +14,9 @@ ht-degree: 8%
 
 # emptyAssetsFromTrash{#emptyassetsfromtrash}
 
-Vacía recursos de la papelera IPS.
+Vacía los recursos de la papelera IPS.
 
-Los activos viven en la basura hasta que se vacían manualmente o hasta que salen de la basura. Si se vacian manualmente, viven en la Papelera hasta el siguiente trabajo de limpieza (normalmente por la noche) cuando finalmente se depuran del sistema. Si se agota el tiempo de espera de la papelera, los recursos se limpian como parte de la misma actividad de limpieza. El tiempo de espera es configurable (el valor predeterminado es de 7 días).
+Los recursos permanecen en la papelera hasta que se eliminan manualmente o hasta que se agota el tiempo de espera de la papelera. Si se vacían manualmente, se almacenan en la papelera hasta el siguiente trabajo de limpieza (normalmente todas las noches) cuando finalmente se eliminan del sistema. Si se agota el tiempo de espera de la papelera, los recursos se limpian como parte de esa misma actividad de limpieza. El tiempo de espera es configurable (el valor predeterminado es de 7 días).
 
 ## Tipos de usuarios autorizados {#section-24dee2bf5f9f4714a64955c80f2803b4}
 
@@ -33,22 +33,22 @@ Los activos viven en la basura hasta que se vacían manualmente o hasta que sale
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | xsd:string | Sí | El identificador de la empresa propietaria de los activos. |
-| assetHandleArray | tipos:HandleArray | Sí | Matriz de controladores que representan los elementos que se van a vaciar de la papelera. |
+| companyHandle | xsd:string | Sí | El identificador de la compañía propietaria de los recursos. |
+| assetHandleArray | tipos:HandleArray | Sí | Matriz de identificadores que representan los elementos que se van a eliminar de la papelera. |
 
 **Salida (emptyAssetsFromTrashParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| successCount | xsd:Int | Sí | El número de recursos vaciados correctamente de la basura. |
-| warningCount | xsd:Int | Sí | Número de advertencias generadas cuando la operación intentó vaciar recursos de la papelera. |
-| errorCount | xsd:Int | Sí | Número de errores generados cuando la operación intentó vaciar recursos de la papelera. |
+| successCount | xsd:Int | Sí | Número de recursos que se han eliminado correctamente de la papelera. |
+| warningCount | xsd:Int | Sí | El número de advertencias generadas cuando la operación intentó vaciar recursos de la papelera. |
+| errorCount | xsd:Int | Sí | El número de errores generados cuando la operación intentó vaciar recursos de la papelera. |
 | warningDetailArray | tipos:AssetOperationFaultArray | No | Matriz de detalles asociados con los recursos que generaron advertencias cuando la operación intentó vaciarlos de la papelera. |
 | errorDetailArray | tipos:AssetOperationFaultArray | No | Matriz de detalles asociados con los recursos que generaron errores cuando la operación intentó vaciarlos de la papelera. |
 
 ## Ejemplos {#section-6154a873b6c342bf92e2036280cafdcf}
 
-Este ejemplo de código utiliza el identificador de la empresa y una matriz de control de recursos que contiene los identificadores de los recursos que se van a vaciar de la papelera.
+Este ejemplo de código utiliza el identificador de la empresa y una matriz de identificadores de recursos que contiene los identificadores de los recursos que se van a eliminar de la papelera.
 
 **Solicitar**
 

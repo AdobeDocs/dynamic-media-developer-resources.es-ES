@@ -1,5 +1,5 @@
 ---
-description: Elimina los valores de los campos de etiqueta del diccionario de un campo de etiqueta.
+description: Quita los valores de los campos de etiqueta del diccionario de un campo de etiqueta.
 solution: Experience Manager
 title: deleteTagFieldValues
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 13%
 
 # deleteTagFieldValues{#deletetagfieldvalues}
 
-Elimina los valores de los campos de etiqueta del diccionario de un campo de etiqueta.
+Quita los valores de los campos de etiqueta del diccionario de un campo de etiqueta.
 
 ## Tipos de usuarios autorizados {#section-e6f97c875c2a4cf0a7bc22096b649497}
 
@@ -28,13 +28,13 @@ Elimina los valores de los campos de etiqueta del diccionario de un campo de eti
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | El identificador de la empresa que contiene el campo de etiqueta. |
-| fieldHandle | `xsd:string` | Sí | El controlador del campo de etiqueta que se va a modificar. |
-| valueArray | `types:StringArray` | Sí | Matriz de valores de etiqueta que se eliminarán del diccionario del campo. |
+| companyHandle | `xsd:string` | Sí | El identificador de la compañía que contiene el campo de etiqueta. |
+| fieldHandle | `xsd:string` | Sí | El identificador del campo de etiqueta que se va a modificar. |
+| valueArray | `types:StringArray` | Sí | Una matriz de valores de etiqueta que se eliminarán del diccionario del campo. |
 
 **Salida (deleteTagFieldValuesParam)**
 
-La API IPS no devuelve una respuesta para esta operación.
+La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-92f9e575a6da491caa09e264b4d6ee55}
 

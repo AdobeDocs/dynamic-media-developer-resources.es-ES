@@ -1,5 +1,5 @@
 ---
-description: Matriz de condiciones de etiqueta.
+description: Una matriz de condiciones de etiqueta.
 solution: Experience Manager
 title: TagConditionArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 27%
 
 # [!DNL TagConditionArray]{#tagconditionarray}
 
-Matriz de condiciones de etiqueta.
+Una matriz de condiciones de etiqueta.
 
 Sintaxis
 
@@ -22,4 +22,4 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| elementos | `types:TagCondition` | Matriz de condiciones de etiqueta. |
+| elementos | `types:TagCondition` | Una matriz de condiciones de etiqueta. |

@@ -1,5 +1,5 @@
 ---
-description: Condición de búsqueda de campos del sistema para la operación searchAssets.
+description: Condición de búsqueda de campo del sistema para la operación searchAssets.
 solution: Experience Manager
 title: SystemFieldCondition
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 6%
 
 # [!DNL SystemFieldCondition]{#systemfieldcondition}
 
-Condición de búsqueda de campos del sistema para la operación searchAssets.
+Condición de búsqueda de campo del sistema para la operación searchAssets.
 
-Para comparaciones unarias, pase exactamente un valor ( `boolVal`, `longVal`, `doubleVal`o `dateVal`) en función del tipo de campo del sistema. Para rangos de búsqueda, pase `min<Type>` y `max<Type>` parámetros y pasar una `op` valor de `Between` o `NotBetween`.
+Para comparaciones unarias, pase exactamente un valor ( `boolVal`, `longVal`, `doubleVal`, o `dateVal`) según el tipo de campo del sistema. Para los intervalos de búsqueda, pase `min<Type>` y `max<Type>` parámetros y pasar un `op` valor de `Between` o `NotBetween`.
 
 ## Parámetros {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -24,17 +24,17 @@ Para comparaciones unarias, pase exactamente un valor ( `boolVal`, `longVal`, `d
 |---|---|---|
 | campo | `xsd:string` | Selección de los campos del sistema de búsqueda de recursos. |
 | op | `xsd:string` | Opción de operadores de comparación de cadenas. |
-| valor | `xsd:string` | Valor con el que realizar pruebas. |
+| valor | `xsd:string` | Valor con el que probar. |
 | boolVal | `xsd:boolean` | Valor de comparación booleano. |
 | longVal | `xsd:long` | Valor de comparación largo. |
-| minLong | `xsd:long` | Límite inferior de rango largo. |
-| maxLong | `xsd:long` | Límite superior de rango largo. |
+| minLong | `xsd:long` | Límite inferior de largo alcance. |
+| maxLong | `xsd:long` | Límite superior de largo alcance. |
 | doubleVal | `xsd:double` | Valor de comparación doble. |
 | minDouble | `xsd:double` | Límite inferior de rango doble. |
-| maxDouble | `xsd:double` | Límite superior de doble rango. |
-| dateVal | `xsd:dateTime` | Valor de comparación de fechas. |
-| minDate | `xsd:dateTime` | Intervalo de fechas mínimo. |
-| maxDate | `xsd:dateTime` | Intervalo de fechas máximo. |
+| maxDouble | `xsd:double` | Límite superior de rango doble. |
+| dateVal | `xsd:dateTime` | Valor de comparación de fecha. |
+| minDate | `xsd:dateTime` | Intervalo de fecha mínimo. |
+| maxDate | `xsd:dateTime` | Intervalo de fecha máximo. |
 
 ## Ejemplo {#section-347d4aabfff44530adba03d1dc0b9968}
 

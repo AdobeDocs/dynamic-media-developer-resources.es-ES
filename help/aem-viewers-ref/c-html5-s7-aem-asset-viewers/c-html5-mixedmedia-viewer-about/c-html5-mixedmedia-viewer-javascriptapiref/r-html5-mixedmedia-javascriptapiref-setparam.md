@@ -18,7 +18,7 @@ Referencia de la API de JavaScript para el visualizador de medios mixtos.
 
 ` setParam( *`nombre, valor`*)`
 
-Establece el parámetro del visor en un valor especificado. El parámetro es una opción de configuración específica del visor o un modificador del kit de desarrollo de software. Este parámetro se invoca antes de que `init()`. Este método es opcional si se pasa la información de configuración del visor con `config` objeto JSON al constructor.
+Establece el parámetro del visor en un valor especificado. El parámetro es una opción de configuración específica del visor o un modificador del kit de desarrollo de software. Se llama a este parámetro antes de `init()`. Este método es opcional si la información de configuración del visor se pasa con `config` Objeto JSON al constructor.
 
 Consulte también [init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae).
 
@@ -29,8 +29,8 @@ Consulte también [init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedi
    <td colname="col2"> <p> <span class="codeph"> {string} </span> nombre del parámetro. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> valor del parámetro. El valor no puede estar codificado por porcentajes. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> valor </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> valor del parámetro. El valor no puede tener codificación porcentual. </p> </td> 
   </tr> 
  </tbody> 
 </table>

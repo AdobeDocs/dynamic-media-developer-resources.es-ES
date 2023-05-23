@@ -20,4 +20,4 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| elementos | `types:ZoomTargetDefinition` | Matriz de definiciones de destino de zoom. |
+| elementos | `types:ZoomTargetDefinition` | Una matriz de definiciones de destinos de zoom. |

@@ -36,14 +36,14 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | El identificador de la empresa que contiene el campo de etiqueta. |
-| fieldHandleArray | `types:HandleArray` | Sí | Matriz de identificadores de campo para etiquetar valores que desea que se devuelvan. |
+| companyHandle | `xsd:string` | Sí | El identificador de la compañía que contiene el campo de etiqueta. |
+| fieldHandleArray | `types:HandleArray` | Sí | Una matriz de identificadores de campo para etiquetar los valores que desee devolver. |
 
 **Salida (getTagFieldValuesReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| fieldArray | `types:TagFieldValuesArray` | Sí | Matriz de los valores de etiqueta del diccionario para cada campo solicitado. |
+| fieldArray | `types:TagFieldValuesArray` | Sí | Una matriz de los valores de etiqueta del diccionario para cada campo solicitado. |
 
 ## Ejemplos {#section-4492742614e44bb191a7d397dc1a1407}
 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: a643694e-f6a2-424e-8f6e-3dbb4cdc41b3
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '94'
 ht-degree: 3%
 
 ---
@@ -23,6 +23,6 @@ Habilita la optimización de FXG.
  </tr> 
 </table>
 
-Elimina los elementos cuya visibilidad se establece como falsa en FXG mientras pasa este FXG, lo que a su vez reduce el tiempo de procesamiento de FXG. Aunque elimina solo aquellos elementos con visibilidad como falsos que no afectarían a ningún otro elemento en FXG. Por ejemplo, si hay texto en `Path` y la visibilidad de `Path` se establece como falsa, no se elimina de FXG aunque este modificador esté habilitado porque el texto debe dibujarse en esta ruta.
+Elimina los elementos cuya visibilidad está establecida como false en FXG mientras pasa este FXG, lo que a su vez reduce el tiempo de procesamiento de FXG. Aunque elimina solo aquellos elementos con visibilidad como false que no afectarían a ningún otro elemento en FXG. Por ejemplo, si hay texto en `Path` y visibilidad de `Path` se establece como false, entonces no se elimina de FXG incluso con este modificador habilitado porque el texto debe dibujarse en esta ruta.
 
 El valor predeterminado es 1.

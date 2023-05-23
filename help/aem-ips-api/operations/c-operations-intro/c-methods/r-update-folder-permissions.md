@@ -30,14 +30,14 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | Identificador de la empresa. |
-| folderHandle | `xsd:string` | Sí | Identificador de carpeta. |
-| updateChildren | `xsd:boolean` | Sí | Determina si se deben actualizar los elementos secundarios con permisos establecidos para la carpeta de nivel superior. |
+| companyHandle | `xsd:string` | Sí | Manejo de la compañía. |
+| folderHandle | `xsd:string` | Sí | Controlador de carpeta. |
+| updateChildren | `xsd:boolean` | Sí | Determina si se actualizarán los elementos secundarios con los permisos establecidos para la carpeta de nivel superior. |
 | updateArray | `types:PermissionUpdateArray` | Sí | Matriz de actualizaciones de permisos que desea aplicar a la carpeta. |
 
 **Salida (updateFolderPermissionsReturn)**
 
-La API IPS no devuelve una respuesta para esta operación.
+La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-c3fe4d4388674870a3856c35ef66b631}
 

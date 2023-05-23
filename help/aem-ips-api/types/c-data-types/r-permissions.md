@@ -1,5 +1,5 @@
 ---
-description: Gestiona los derechos para acceder, modificar, crear o eliminar recursos por grupo.
+description: Administra los derechos para acceder, modificar, crear o eliminar recursos por grupo.
 solution: Experience Manager
 title: Permiso
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 13%
 
 # [!DNL Permission]{#permission}
 
-Gestiona los derechos para acceder, modificar, crear o eliminar recursos por grupo.
+Administra los derechos para acceder, modificar, crear o eliminar recursos por grupo.
 
 Sintaxis
 
@@ -25,5 +25,5 @@ Sintaxis
 | groupHandle | `xsd:string` | Identificador de grupo. |
 | groupName | `xsd:string` | Nombre del grupo. |
 | permissionType | `xsd:string` | Elección del tipo de permiso. |
-| isAllowed | `xsd:boolean` | Determina si el permiso está permitido. |
+| isAllowed | `xsd:boolean` | Determina si se permite el permiso. |
 | isOverride | `xsd:boolean` | Determina si el permiso anula a otro. |

@@ -1,6 +1,6 @@
 ---
 title: Muestras
-description: Las muestras constan de una fila de imágenes en miniatura con botones de desplazamiento opcionales en el lado izquierdo y derecho.
+description: Las muestras constan de una fila de imágenes en miniatura con botones de desplazamiento opcionales en los lados izquierdo y derecho.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 3%
 
 # Muestras{#swatches}
 
-Las muestras constan de una fila de imágenes en miniatura con botones de desplazamiento opcionales en el lado izquierdo y derecho.
+Las muestras constan de una fila de imágenes en miniatura con botones de desplazamiento opcionales en los lados izquierdo y derecho.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Los botones de desplazamiento solo están visibles en el escritorio si todas las miniaturas no se ajustan al ancho del contenedor. En dispositivos móviles, o si las miniaturas pueden ajustarse al ancho del contenedor, no se muestran los botones de desplazamiento.
+Los botones de desplazamiento solo están visibles en el escritorio si todas las miniaturas no caben en la anchura del contenedor. En dispositivos móviles, o si las miniaturas pueden ajustarse a la anchura del contenedor, no se muestran los botones de desplazamiento.
 
 **Propiedades CSS de las muestras**
 
@@ -31,14 +31,14 @@ El aspecto del contenedor de muestras se controla con el siguiente selector de c
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS, propiedad </p> </th> 
+   <th colname="col1" class="entry"> <p> Propiedad CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Descripción </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> Ancho de las muestras. </p> </td> 
+   <td colname="col2"> <p> El ancho de las muestras. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
@@ -51,7 +51,7 @@ El aspecto del contenedor de muestras se controla con el siguiente selector de c
  </tbody> 
 </table>
 
-Ejemplo: para configurar muestras a 460 x 100 píxeles:
+Ejemplo: para configurar muestras de 460 x 100 píxeles:
 
 ```
 .s7flyoutviewer .s7swatches { 
@@ -60,9 +60,9 @@ Ejemplo: para configurar muestras a 460 x 100 píxeles:
 }
 ```
 
-**Propiedades CSS del espaciado de muestra de miniaturas**
+**Propiedades CSS del espaciado de muestra de miniatura**
 
-El espaciado entre miniaturas de muestra se controla con el selector de clase CSS:
+El espaciado entre las miniaturas de muestra se controla con el selector de clases CSS:
 
 ```
 .s7flyoutviewer .s7swatches .s7thumbcell
@@ -71,19 +71,19 @@ El espaciado entre miniaturas de muestra se controla con el selector de clase CS
 <table id="table_70FAD50E38EB4647B8FAB832F552BBB8"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS, propiedad </p> </th> 
+   <th colname="col1" class="entry"> <p> Propiedad CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Descripción </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> El tamaño del margen horizontal y vertical alrededor de cada miniatura. El espaciado en miniatura real es igual a la suma de los márgenes izquierdo y derecho establecidos para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col2"> <p> El tamaño del margen horizontal y vertical alrededor de cada miniatura. El espaciado real de las miniaturas es igual a la suma de los márgenes izquierdo y derecho establecidos para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ejemplo: para configurar el espaciado para que sea de diez píxeles tanto vertical como horizontalmente:
+Ejemplo: para configurar el espaciado para que sea de diez píxeles vertical y horizontalmente:
 
 ```
 .s7flyoutviewer .s7swatches .s7thumbcell { 
@@ -102,7 +102,7 @@ El aspecto de la miniatura individual se controla con el siguiente selector de c
 <table id="table_85446C72FD914594B7D108381BBFC673"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS, propiedad </p> </th> 
+   <th colname="col1" class="entry"> <p> Propiedad CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Descripción </p> </th> 
   </tr> 
  </thead>
@@ -124,9 +124,9 @@ El aspecto de la miniatura individual se controla con el siguiente selector de c
 
 >[!NOTE]
 >
->La miniatura es compatible con el `state` selector de atributos, que se utiliza para aplicar diferentes aspectos a distintos estados de miniaturas. En particular, `state="selected"` corresponde a la miniatura de la imagen que se muestra actualmente en la vista principal, `state="default"` corresponde al resto de las miniaturas, y `state="over"` se utiliza al pasar el ratón por encima.
+>La miniatura admite `state` selector de atributos, que se utiliza para aplicar diferentes aspectos a diferentes estados de miniaturas. En particular, `state="selected"` corresponde a la miniatura de la imagen que se muestra actualmente en la vista principal, `state="default"` corresponde al resto de las miniaturas, y `state="over"` se utiliza al pasar el ratón por encima.
 
-Ejemplo: para configurar miniaturas de 56 x 56 píxeles, tenga un borde predeterminado de gris claro y un borde seleccionado de gris oscuro:
+Ejemplo: para configurar miniaturas de 56 x 56 píxeles, con un borde predeterminado de gris claro y un borde seleccionado de gris oscuro:
 
 ```
 .s7flyoutviewer .s7swatches .s7thumb { 
@@ -150,12 +150,12 @@ El aspecto de los botones de desplazamiento izquierdo y derecho se controla con 
 .s7flyoutviewer .s7swatches .s7scrollrightbutton
 ```
 
-No es posible colocar botones de desplazamiento mediante CSS `top`, `left`, `bottom`y `right` propiedades. En su lugar, la lógica del visor los coloca automáticamente.
+No es posible colocar botones de desplazamiento mediante CSS `top`, `left`, `bottom`, y `right` propiedades. En su lugar, la lógica del visor los coloca automáticamente.
 
 <table id="table_F957367566C542829E2F6D296F9DAAC5"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS, propiedad </p> </th> 
+   <th colname="col1" class="entry"> <p> Propiedad CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Descripción </p> </th> 
   </tr> 
  </thead>
@@ -169,23 +169,23 @@ No es posible colocar botones de desplazamiento mediante CSS `top`, `left`, `bot
    <td colname="col2"> <p>Altura del botón de desplazamiento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagen de fondo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Imagen que se muestra para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posición de fondo </span> </p> </td> 
-   <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/c-html5-inlinezoom-viewer-customizingviewer.md#section-b0af39db1af74561aea9fddcc8cdc2c7" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Coloque dentro del icono de ilustración si se utilizan iconos CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/c-html5-inlinezoom-viewer-customizingviewer.md#section-b0af39db1af74561aea9fddcc8cdc2c7" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Este botón admite la variable `state` selector de atributos, que se utiliza para aplicar diferentes aspectos a los estados de botones `up`, `down`, `over`y `disabled`.
+>Este botón admite el `state` selector de atributos, que se utiliza para aplicar diferentes aspectos a los estados de los botones `up`, `down`, `over`, y `disabled`.
 
-La información sobre herramientas de botones se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) para obtener más información.
+La información sobre herramientas de los botones se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) para obtener más información.
 
-Ejemplo: para configurar botones de desplazamiento de 56 x 56 píxeles y que tengan distintas ilustraciones para cada estado:
+Ejemplo: para configurar botones de desplazamiento de 56 x 56 píxeles con ilustraciones diferentes para cada estado:
 
 ```
 .s7flyoutviewer .s7swatches .s7scrollleftbutton { 

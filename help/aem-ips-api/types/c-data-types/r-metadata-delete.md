@@ -1,5 +1,5 @@
 ---
-description: Metadatos que se van a eliminar del recurso.
+description: Metadatos para eliminar del recurso.
 solution: Experience Manager
 title: MetadataDelete
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL MetadataDelete]{#metadatadelete}
 
-Metadatos que se van a eliminar del recurso.
+Metadatos para eliminar del recurso.
 
 Sintaxis
 
@@ -32,7 +32,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> fieldHandle</span></span> </p> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Parámetros de metadatos que se van a eliminar. </p> </td> 
+   <td colname="col3"> <p>Parámetros de metadatos que eliminar. </p> </td> 
   </tr> 
  </tbody> 
 </table>

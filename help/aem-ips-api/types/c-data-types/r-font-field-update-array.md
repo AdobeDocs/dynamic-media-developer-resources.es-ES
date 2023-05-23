@@ -1,5 +1,5 @@
 ---
-description: Matriz de actualizaciones de campo de fuente.
+description: Una matriz de actualizaciones de campos de fuente.
 solution: Experience Manager
 title: FontFieldUpdateArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 22%
 
 # [!DNL FontFieldUpdateArray]{#fontfieldupdatearray}
 
-Matriz de actualizaciones de campo de fuente.
+Una matriz de actualizaciones de campos de fuente.
 
 Sintaxis
 
@@ -22,4 +22,4 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| elementos | `types:FontFieldUpdate` | Un elemento de la matriz de actualización del campo de fuente. |
+| elementos | `types:FontFieldUpdate` | Elemento de la matriz de actualización del campo de fuente. |

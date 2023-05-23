@@ -1,6 +1,6 @@
 ---
 title: Imágenes
-description: Los datos de imagen se devuelven si una solicitud se completa correctamente y si la solicitud no incluye un comando req= o si req= tiene uno de los siguientes valores img, debug.
+description: Se devuelven datos de imagen si una solicitud se completa correctamente y si la solicitud no incluye un comando req= o si req= tiene uno de los siguientes valores img, debug.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,10 +14,10 @@ ht-degree: 1%
 
 # Imágenes{#images}
 
-Los datos de imagen se devuelven si una solicitud se completa correctamente y si la solicitud no incluye un comando req= o si req= tiene uno de los siguientes valores: img, depurar
+Se devuelven datos de imagen si una solicitud se completa correctamente y si la solicitud no incluye un comando req= o si req= tiene uno de los siguientes valores: img, debug
 
-El tipo MIME de la respuesta HTTP está determinado por `fmt=`o, si `fmt=` no se especifica, depende del valor de `attribute::Format`.
+El tipo MIME de respuesta HTTP está determinado por `fmt=`, o, si `fmt=` no se ha especificado, depende del valor de `attribute::Format`.
 
-El estado de la respuesta HTTP es &#39;200 OK&#39; si el método de solicitud es incondicional `GET` o `HEAD`.
+El estado de respuesta HTTP es &quot;200 OK&quot; si el método de solicitud es incondicional `GET` o `HEAD`.
 
-El servidor puede responder con el estado &quot;304&quot; (no modificado) y no devolver ningún dato de imagen en respuesta a un parámetro condicional `GET` (con la variable [!DNL If-Modified-Since] campo presente en la variable `request-header`).
+El servidor puede responder con el estado &quot;304&quot; (no modificado) y no devolver ningún dato de imagen en respuesta a un condicional `GET` solicitud (con el [!DNL If-Modified-Since] campo presente en la `request-header`).

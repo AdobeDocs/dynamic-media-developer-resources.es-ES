@@ -1,6 +1,6 @@
 ---
 title: Propiedades
-description: Los datos de propiedad se devuelven en respuesta a los siguientes tipos de imágenes req= tipos, props y props.
+description: Los datos de propiedad se devuelven en respuesta a los siguientes req= tipos imageprops y props.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -8,15 +8,15 @@ exl-id: a27ec5e4-7499-44ac-8db1-bf5d67f59632
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
 source-wordcount: '99'
-ht-degree: 4%
+ht-degree: 2%
 
 ---
 
 # Propiedades{#properties}
 
-Los datos de propiedad se devuelven en respuesta a los siguientes tipos req=: imageprops y props.
+Los datos de propiedad se devuelven en respuesta a los siguientes req= tipos: imageprops y props.
 
-Los datos de respuesta tienen el formato para que se puedan leer como propiedades de Java™. Una respuesta típica de propiedades de texto tiene esta estructura general:
+Los datos de respuesta tienen el formato para que se puedan leer como propiedades Java™. Una respuesta típica de propiedades de texto tiene esta estructura general:
 
 `#S7Z OK`
 
@@ -26,9 +26,9 @@ Los datos de respuesta tienen el formato para que se puedan leer como propiedade
 
 ...
 
-` *[!DNL propertyValue]*` Puede estar vacío. El espacio en blanco es opcional al principio y al final de cada línea y antes y después del separador &#39;=&#39;. Las comillas simples o dobles pueden utilizarse para incluir valores de cadena, pero no son obligatorias.
+` *[!DNL propertyValue]*` Puede estar vacío. El espacio en blanco es opcional al principio y al final de cada línea y antes y después del separador &quot;=&quot;. Se pueden utilizar comillas simples o dobles para incluir valores de cadena, pero no son necesarias.
 
-Los valores de cadena pueden contener caracteres de escape de estilo JAVA, como `\n`, `\t`, `\:`o `\\`.
+Los valores de cadena pueden contener caracteres de escape de estilo JAVA, como `\n`, `\t`, `\:`, o `\\`.
 
 **Véase también**
 

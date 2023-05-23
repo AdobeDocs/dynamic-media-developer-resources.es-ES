@@ -14,14 +14,14 @@ ht-degree: 5%
 
 # Desinstalación en Linux® y Solaris™{#uninstalling-on-linux-and-solaris}
 
-Siga estas instrucciones para desinstalar Image Rendering en un sistema Linux® o Solaris™. Puede utilizar dos métodos diferentes. Realice una de las siguientes acciones:
+Siga estas instrucciones para desinstalar Image Rendering en un sistema Linux® o Solaris™. Existen dos métodos diferentes que puede utilizar. Realice una de las siguientes acciones:
 
 ## Método 1
 
 1. Buscar [!DNL uninstall.sh].
 
-   Se encuentra en el directorio desde el que se instaló ImageRendering. Si se ha eliminado este directorio, el paquete de instalación original debe descomprimirse y descomprimirse para extraer [!DNL uninstall.sh].
-1. Ejecutar [!DNL uninstall.sh] y siga las instrucciones que aparecen en la pantalla.
+   Se encuentra en el directorio desde el que se instaló ImageRendering. Si se ha eliminado este directorio, el paquete de instalación original debe descomprimirse y descomprimirse para poder extraerlo [!DNL uninstall.sh].
+1. Ejecutar [!DNL uninstall.sh] y siga las instrucciones que aparecen en pantalla.
 
 ## Método 2
 
@@ -34,5 +34,5 @@ Siga estas instrucciones para desinstalar Image Rendering en un sistema Linux® 
 
    * Solaris™: `pkgrm ImageRendering`
 
-1. Elimine los directorios o archivos que no se hayan eliminado en el paso 2.
+1. Elimine los directorios o archivos que no se eliminaron en el paso 2.
 

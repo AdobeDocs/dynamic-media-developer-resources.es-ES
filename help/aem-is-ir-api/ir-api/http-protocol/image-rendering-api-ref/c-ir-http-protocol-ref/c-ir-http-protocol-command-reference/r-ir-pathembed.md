@@ -1,6 +1,6 @@
 ---
 title: pathEmbed
-description: Incrustar datos de rutas. Especifica si las rutas de Photoshop incrustadas en la viñeta deben incluirse en la imagen de respuesta.
+description: Incrustar datos de rutas. Especifica si las rutas Photoshop incrustadas en la viñeta deben incluirse en la imagen de respuesta.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -8,21 +8,21 @@ exl-id: 66cc57ef-964e-4062-bb66-efeda15be744
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
 source-wordcount: '101'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
 # pathEmbed{#pathembed}
 
-Incrustar datos de rutas. Especifica si las rutas de Photoshop incrustadas en la viñeta deben incluirse en la imagen de respuesta.
+Incrustar datos de rutas. Especifica si las rutas Photoshop incrustadas en la viñeta deben incluirse en la imagen de respuesta.
 
 `pathEmbed=0|1`
 
 ## Propiedades {#section-be50b6d1ebd14a9c93f80ac338b44bfc}
 
-Atributo de solicitud. Se omite si la viñeta no contiene datos de rutas. Los datos de las rutas se escalan a `wid=` y/o `hei=` si es necesario.
+Atributo de solicitud. Se ignora si la viñeta no contiene datos de rutas. Los datos de rutas se escalan a `wid=` y/o `hei=` si es necesario.
 
-Se omite si el formato de imagen de salida no admite la incrustación de rutas. Consulte la descripción de `fmt=` para obtener una lista de los formatos de imagen de salida que admiten la incrustación de rutas.
+Se ignora si el formato de imagen de salida no admite la incrustación de rutas. Consulte la descripción de `fmt=` para obtener una lista de formatos de imagen de salida compatibles con la incrustación de rutas.
 
 ## Predeterminado {#section-3be88ed9053b48919ff33af9418078cc}
 

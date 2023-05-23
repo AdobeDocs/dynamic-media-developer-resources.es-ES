@@ -1,6 +1,6 @@
 ---
-title: Sintaxis básica del protocolo HTTP de renderización de imágenes
-description: En esta sección se describe la sintaxis básica del protocolo HTTP de procesamiento de imágenes de Dynamic Media.
+title: Sintaxis básica del protocolo HTTP de procesamiento de imágenes
+description: En esta sección se describe la sintaxis básica del protocolo HTTP del procesamiento de imágenes de Dynamic Media.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 4%
 
 ---
 
-# Sintaxis básica del protocolo HTTP de renderización de imágenes{#image-rendering-http-protocol-basic-syntax}
+# Sintaxis básica del protocolo HTTP de procesamiento de imágenes{#image-rendering-http-protocol-basic-syntax}
 
-En esta sección se describe la sintaxis básica del protocolo HTTP de procesamiento de imágenes de Dynamic Media.
+En esta sección se describe la sintaxis básica del protocolo HTTP del procesamiento de imágenes de Dynamic Media.
 
 <table id="table_0A7D7207EE6D4B08B62BE8620EBE0B25"> 
  <thead> 
@@ -34,7 +34,7 @@ En esta sección se describe la sintaxis básica del protocolo HTTP de procesami
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> viñeta </span> </p> </td> 
-   <td colname="col2"> <p>Especificador de viñetas (ruta de archivo relativa o entrada de catálogo de viñetas). </p> </td> 
+   <td colname="col2"> <p>Especificador de viñeta (ruta relativa de archivo o entrada de catálogo de viñetas). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> modificadores </span> </p> </td> 
@@ -42,19 +42,19 @@ En esta sección se describe la sintaxis básica del protocolo HTTP de procesami
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> modificador </span> </p> </td> 
-   <td colname="col2"> <p><span class="varname"> command</span> | { $ <span class="varname"> macro</span> $ } | { .<span class="varname"> comment</span> } </p> </td> 
+   <td colname="col2"> <p><span class="varname"> mando</span> | { $ <span class="varname"> macro</span> $ } | { .<span class="varname"> comentario</span> } </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="varname"> command </span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="varname"> cmdName</span> | { $<span class="varname"> var</span> } } [ = <span class="varname"> value</span> ] </p> </td> 
+   <td colname="col1"> <p><span class="varname"> mando </span> </p> </td> 
+   <td colname="col2"> <p>{ <span class="varname"> cmdName</span> | { $<span class="varname"> var</span> } } [ = <span class="varname"> valor</span> ] </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> macro </span> </p> </td> 
    <td colname="col2"> <p>Nombre de una macro de comando. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="varname"> comment </span> </p> </td> 
-   <td colname="col2"> <p>Cadena de comentarios (ignorada por el servidor). </p> </td> 
+   <td colname="col1"> <p><span class="varname"> comentario </span> </p> </td> 
+   <td colname="col2"> <p>Cadena de comentario (ignorada por el servidor). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> cmdName </span> </p> </td> 
@@ -71,16 +71,16 @@ En esta sección se describe la sintaxis básica del protocolo HTTP de procesami
  </tbody> 
 </table>
 
-*`server`*, *`cmdName`*, *`macro`* y *`var`* no distinguen entre mayúsculas y minúsculas. El servidor conserva las mayúsculas y minúsculas del resto de los valores de cadena.
+*`server`*, *`cmdName`*, *`macro`*, y *`var`* no distinguen entre mayúsculas y minúsculas. El servidor conserva las mayúsculas y minúsculas de todos los demás valores de cadena.
 
-**Identificador de servidor**
+**Identificador del servidor**
 
-El `/ir/render`&#39; el contexto raíz es necesario para todas las solicitudes HTTP de representación de imágenes.
+El &#39; `/ir/render`El contexto raíz de es necesario para todas las solicitudes HTTP a Image Rendering.
 
 **Comentarios**
 
-Los comentarios pueden incrustarse en cadenas de solicitud en cualquier lugar y se identifican con un punto (.) inmediatamente después del separador de comandos (&amp;). El comentario termina con la siguiente incidencia de un separador de comandos (sin codificar). Esta función se puede utilizar para agregar información a la solicitud que no se utilice con el servicio de imágenes, como marcas de hora e identificadores de base de datos.
+Los comentarios pueden incrustarse en las cadenas de solicitud en cualquier lugar y se identifican con un punto (.) inmediatamente después del separador de comandos (&amp;). El comentario termina con la siguiente aparición de un separador de comandos (no codificado). Esta función se puede utilizar para agregar información a la solicitud que no sea para uso del servicio de imágenes, como marcas de tiempo e id de base de datos.
 
 **Descodificación HTTP**
 
-Extractos de primera representación de imágenes *`object`* y *`modifiers`* de la solicitud entrante. La variable *`object`* a continuación, se separa en elementos de ruta que se decodifican individualmente con HTTP. La variable *`modifiers`* la cadena se separa en *`command`*= *`value`* pares y *`value`* después se descodifica mediante HTTP antes del procesamiento específico del comando.
+Primeros extractos del procesamiento de imágenes *`object`* y *`modifiers`* de la solicitud entrante. El *`object`* a continuación, se separa en elementos de ruta que se descodifican individualmente en HTTP. El *`modifiers`* la cadena está separada por *`command`*= *`value`* pares, y *`value`* se descodifica mediante HTTP antes del procesamiento específico del comando.

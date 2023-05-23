@@ -1,5 +1,5 @@
 ---
-description: Define los valores de metadatos de un recurso. Funciona con una matriz de actualizaciones de metadatos para establecer valores en un lote.
+description: Establece los valores de metadatos de un recurso. Funciona con una matriz de actualizaciones de metadatos para establecer valores en un lote.
 solution: Experience Manager
 title: setAssetMetadata
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # setAssetMetadata{#setassetmetadata}
 
-Define los valores de metadatos de un recurso. Funciona con una matriz de actualizaciones de metadatos para establecer valores en un lote.
+Establece los valores de metadatos de un recurso. Funciona con una matriz de actualizaciones de metadatos para establecer valores en un lote.
 
 Sintaxis
 
@@ -37,13 +37,13 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | El identificador de la empresa con el recurso que desea actualizar. |
+| companyHandle | `xsd:string` | Sí | El identificador de la compañía con el recurso que desea actualizar. |
 | assetHandle | `xsd:string` | Sí | El identificador del recurso. |
 | updateArray | `types:MetadataUpdateArray` | Sí | Actualizaciones en una matriz de actualización de metadatos. |
 
 **Salida (setAssetMetadataReturn)**
 
-La API IPS no devuelve una respuesta para esta operación.
+La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-1ab412e7ee1d4d6d8469b0b403598c42}
 

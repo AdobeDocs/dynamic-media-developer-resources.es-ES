@@ -1,5 +1,5 @@
 ---
-description: Un tipo opcional que permite elegir un fotograma de vídeo concreto para utilizarlo como imagen en miniatura.
+description: Tipo opcional que permite elegir un fotograma de vídeo concreto para utilizarlo como imagen en miniatura.
 solution: Experience Manager
 title: ThumbnailOptions
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 6%
 
 # [!DNL ThumbnailOptions]{#thumbnailoptions}
 
-Un tipo opcional que permite elegir un fotograma de vídeo concreto para utilizarlo como imagen en miniatura.
+Tipo opcional que permite elegir un fotograma de vídeo concreto para utilizarlo como imagen en miniatura.
 
 Sintaxis
 
@@ -32,7 +32,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailTime</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> <p>Establece el tiempo (en milisegundos desde el inicio del vídeo) del fotograma que desea utilizar para la miniatura del vídeo. Los valores van desde 0 hasta el final del vídeo. <p>Nota: El sistema utiliza el primer fotograma del vídeo para la miniatura si especifica el tiempo incorrectamente. Consulte <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>. </p></p> </td> 
+   <td colname="col3"> <p>Establece el tiempo (en milisegundos desde el inicio del vídeo) para el fotograma que desea utilizar para la miniatura de vídeo. Los valores van del 0 al final del vídeo. <p>Nota: El sistema utiliza el primer fotograma del vídeo para la miniatura si se especifica la hora de forma incorrecta. Consulte <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> OpcionesDeMedios</a>. </p></p> </td> 
   </tr> 
  </tbody> 
 </table>

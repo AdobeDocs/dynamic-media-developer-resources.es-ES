@@ -1,5 +1,5 @@
 ---
-description: Propiedades de recursos de vídeo.
+description: Propiedades del recurso de vídeo.
 solution: Experience Manager
 title: VideoInfo
 feature: Dynamic Media Classic,SDK/API,Video
@@ -8,13 +8,13 @@ exl-id: 4f01d54b-1799-40f8-8c46-f170ceffdd25
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '60'
-ht-degree: 11%
+ht-degree: 8%
 
 ---
 
 # [!DNL VideoInfo]{#videoinfo}
 
-Propiedades de recursos de vídeo.
+Propiedades del recurso de vídeo.
 
 Sintaxis
 
@@ -26,6 +26,6 @@ Sintaxis
 | originalFile | `xsd:string` | Nombre del archivo de vídeo original. |
 | fileSize | `xsd:int` | Tamaño de archivo. |
 | imagePath | `xsd:string` | Ruta relativa al archivo de vídeo. |
-| imageFile | `xsd:string` | Nombre del archivo de vídeo. |
-| optimizedPath | `xsd:string` | Ruta al archivo de vídeo optimizado para IPS. |
-| optimizedFile | `xsd:string` | Nombre de archivo del archivo de vídeo optimizado para IPS. |
+| imageFile | `xsd:string` | Nombre del archivo del vídeo. |
+| optimizePath | `xsd:string` | Ruta al archivo de vídeo optimizado para IPS. |
+| optimizeFile | `xsd:string` | Nombre de archivo del archivo de vídeo optimizado para IPS. |

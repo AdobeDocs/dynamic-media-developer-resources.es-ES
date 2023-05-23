@@ -1,5 +1,5 @@
 ---
-description: Registro de cadena de búsqueda extraído de un archivo PDF.
+description: Registro de cadena de búsqueda extraído de un archivo de PDF.
 solution: Experience Manager
 title: SearchStrings
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 # [!DNL SearchStrings]{#searchstrings}
 
-Registro de cadena de búsqueda extraído de un archivo PDF.
+Registro de cadena de búsqueda extraído de un archivo de PDF.
 
 Sintaxis
 
@@ -22,12 +22,12 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| searchString | `xsd:string` | Buscar texto de cadena. |
+| searchString | `xsd:string` | Texto de cadena de búsqueda. |
 | keywordsArray | `types:KeywordsArray` | Matriz de palabras clave en la cadena de búsqueda. |
 | estado | `xsd:boolean` | True si la cadena de búsqueda es válida y está habilitada. |
 | x | `xsd:int` | Posición del eje X de la cadena de búsqueda. |
 | y | `xsd:int` | Posición del eje Y de la cadena de búsqueda. |
-| ancho | `xsd:int` | Ancho de la cadena de búsqueda. |
+| ancho | `xsd:int` | Anchura de la cadena de búsqueda. |
 | altura | `xsd:int` | Altura de la cadena de búsqueda. |
 | fontName | `xsd:string` | Nombre de la fuente utilizada en la cadena de búsqueda. |
 | pointSize | `xsd:string` | Tamaño de fuente. |

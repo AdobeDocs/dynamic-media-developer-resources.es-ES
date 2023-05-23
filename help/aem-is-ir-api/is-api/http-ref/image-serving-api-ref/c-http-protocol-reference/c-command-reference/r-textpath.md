@@ -8,7 +8,7 @@ exl-id: 1c515786-bbba-44d3-837e-b474af293b7e
 source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
 source-wordcount: '140'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -29,11 +29,11 @@ Consulte [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http
 
 >[!NOTE]
 >
->Distinto de `clipPath=`, las rutas de texto no se cierran automáticamente cuando no se especifica &#39;z&#39; o &#39;Z&#39; al final de una subruta.
+>Diferente de `clipPath=`Sin embargo, las rutas de texto no se cierran automáticamente cuando &quot;z&quot; o &quot;Z&quot; no se especifican al final de una subruta.
 
 *`pathDefinition`* puede incluir varias subrutas. El texto se representa en las subrutas en el orden especificado.
 
-Comandos RTF `\ql`, `\qc`, `\qr`, `\li`y `\ri` se puede utilizar para colocar el texto procesado a lo largo de la ruta.
+Los comandos RTF `\ql`, `\qc`, `\qr`, `\li`, y `\ri` se puede utilizar para colocar el texto procesado a lo largo del trazado.
 
 ## Propiedades {#section-068137df436c46b9b55d271eb60e7285}
 

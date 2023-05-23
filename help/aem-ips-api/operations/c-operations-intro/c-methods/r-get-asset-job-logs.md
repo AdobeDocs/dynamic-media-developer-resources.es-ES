@@ -1,5 +1,5 @@
 ---
-description: Obtiene los registros de trabajos de un recurso. Los elementos devueltos en la matriz contienen información detallada sobre cada entrada en el registro de trabajos de ese recurso. El campo de respuesta logMessage se localiza en función del campo authHeader .
+description: Obtiene los registros de trabajo de un recurso. Los elementos devueltos en la matriz contienen información detallada sobre cada entrada en el registro de trabajos de ese recurso. El campo de respuesta logMessage se localiza en función del campo authHeader.
 solution: Experience Manager
 title: getAssetJobLogs
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # getAssetJobLogs{#getassetjoblogs}
 
-Obtiene los registros de trabajos de un recurso. Los elementos devueltos en la matriz contienen información detallada sobre cada entrada en el registro de trabajos de ese recurso. El campo de respuesta logMessage se localiza en función del campo authHeader .
+Obtiene los registros de trabajo de un recurso. Los elementos devueltos en la matriz contienen información detallada sobre cada entrada en el registro de trabajos de ese recurso. El campo de respuesta logMessage se localiza en función del campo authHeader.
 
 Sintaxis
 
@@ -36,7 +36,7 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | El identificador de la empresa a la que pertenece el recurso. |
+| companyHandle | `xsd:string` | Sí | El identificador de la compañía a la que pertenece el recurso. |
 | assetHandle | `xsd:string` | Sí | El identificador del recurso con los registros de trabajo que se van a recuperar. |
 
 **Salida (getAssetJobLogsReturn)**

@@ -1,5 +1,5 @@
 ---
-description: Lista de scripts de generación automática de conjuntos para trabajos de carga. Asume que todas las secuencias de comandos especificadas para la carga se aplican a todos los recursos cargados.
+description: Lista automática de scripts de generación de conjunto para trabajos de carga. Asume que todos los scripts especificados para la carga se aplican a todos los recursos cargados.
 solution: Experience Manager
 title: AutoSetCreationOptions
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # [!DNL AutoSetCreationOptions]{#autosetcreationoptions}
 
-Lista de scripts de generación automática de conjuntos para trabajos de carga. Asume que todas las secuencias de comandos especificadas para la carga se aplican a todos los recursos cargados.
+Lista automática de scripts de generación de conjunto para trabajos de carga. Asume que todos los scripts especificados para la carga se aplican a todos los recursos cargados.
 
 Sintaxis
 
@@ -22,4 +22,4 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| autoSetsArray | `types:HandleArray` | Matriz de [!DNL PropertySet] gestiona la definición de los scripts de generación de conjuntos automáticos aplicados durante la carga. |
+| autoSetsArray | `types:HandleArray` | Matriz de [!DNL PropertySet] controla la definición de los scripts de generación de conjunto automática aplicados durante la carga. |

@@ -1,6 +1,6 @@
 ---
 title: Compatibilidad con el seguimiento de Adobe Analytics
-description: El visor HTML5 Video360 es compatible con el seguimiento predeterminado de Adobe Analytics.
+description: El Visor HTML 5 Video360 es compatible con el seguimiento de Adobe Analytics de forma predeterminada.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User,Data Engineer,Data Architect
@@ -14,15 +14,15 @@ ht-degree: 4%
 
 # Compatibilidad con el seguimiento de Adobe Analytics{#support-for-adobe-analytics-tracking}
 
-El visor HTML5 Video360 es compatible con el seguimiento predeterminado de Adobe Analytics.
+El Visor HTML 5 Video360 es compatible con el seguimiento de Adobe Analytics de forma predeterminada.
 
-Para habilitar el seguimiento, pase el nombre de ajuste preestablecido de la empresa correspondiente como `config2` parámetro.
+Para habilitar el seguimiento, pase el nombre del ajuste preestablecido de empresa adecuado como `config2` parámetro.
 
 De forma predeterminada, el visor envía una única solicitud HTTP de seguimiento al servidor de imágenes configurado con el tipo de visor y la información de versión.
 
 ## Seguimiento personalizado {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Para integrarse con sistemas de análisis de terceros, es necesario escuchar la `trackEvent` la llamada de retorno del visor y procese la `eventInfo` de la función de llamada de retorno según sea necesario. El siguiente código es un ejemplo de dicha función de controlador:
+Para integrarse con sistemas de análisis de terceros, es necesario escuchar el `trackEvent` llamada de retorno del visor y procesar `eventInfo` de la función de llamada de retorno según sea necesario. El siguiente código es un ejemplo de esta función de controlador:
 
 ```javascript {.line-numbers}
 var video360Viewer = new s7viewers.Video360Viewer({ 
@@ -47,7 +47,7 @@ var video360Viewer = new s7viewers.Video360Viewer({
 });
 ```
 
-El visor realiza el seguimiento de los siguientes eventos de usuario de SDK:
+El visor realiza un seguimiento de los siguientes eventos de usuarios del SDK:
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
@@ -67,11 +67,11 @@ El visor realiza el seguimiento de los siguientes eventos de usuario de SDK:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 
-   <td colname="col2"> <p>cuando se inicie la reproducción. </p> </td> 
+   <td colname="col2"> <p>cuando comienza la reproducción. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAUSE </span> </p> </td> 
-   <td colname="col2"> <p>cuando se pone en pausa la reproducción. </p> </td> 
+   <td colname="col2"> <p>cuando se pausa la reproducción. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> STOP </span> </p> </td> 
@@ -79,7 +79,7 @@ El visor realiza el seguimiento de los siguientes eventos de usuario de SDK:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MILESTONE </span> </p> </td> 
-   <td colname="col2"> <p>cuando la reproducción alcanza uno de los hitos siguientes: 0 %, 25 %, 50 %, 75 % o 100 %. </p> </td> 
+   <td colname="col2"> <p>cuando la reproducción alcanza uno de los siguientes hitos: 0 %, 25 %, 50 %, 75 % o 100 %. </p> </td> 
   </tr> 
  </tbody> 
 </table>

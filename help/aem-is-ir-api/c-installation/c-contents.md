@@ -18,7 +18,7 @@ Después de la instalación, la jerarquía de carpetas en install_root incluye l
 
 >[!NOTE]
 >
->Hay archivos y carpetas adicionales presentes; no los cambie.
+>Hay archivos y carpetas adicionales; no los cambie.
 
 <table id="table_F9FE5E0622A54CCD88461078FD5EA3DC"> 
  <thead> 
@@ -44,9 +44,9 @@ Después de la instalación, la jerarquía de carpetas en install_root incluye l
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> COPIA DE SEGURIDAD/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> BACKUP/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>Copias de seguridad de archivos de configuración de Image Serving de instalaciones anteriores. </p> </td> 
+   <td colname="col4"> <p>Copias de seguridad de archivos de configuración de instalaciones anteriores del servicio de imágenes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -58,7 +58,7 @@ Después de la instalación, la jerarquía de carpetas en install_root incluye l
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> ImageServing.sh (.bat) </span> </p> </td> 
-   <td colname="col4"> <p>Secuencia de comandos para iniciar y detener el servicio de imágenes. </p> </td> 
+   <td colname="col4"> <p>Script para iniciar y detener el servicio de imágenes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -70,7 +70,7 @@ Después de la instalación, la jerarquía de carpetas en install_root incluye l
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> ic (.exe) </span> </p> </td> 
-   <td colname="col4"> <p>Utilidad de conversión de imagen Image Serving. </p> </td> 
+   <td colname="col4"> <p>Utilidad de conversión de imágenes para servicio de imágenes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -88,37 +88,37 @@ Después de la instalación, la jerarquía de carpetas en install_root incluye l
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> Vntc (.exe) </span> </p> </td> 
-   <td colname="col4"> <p>Utilidad de conversión de la viñeta de renderización de imágenes, el gabinete y la tapa de las ventanas. </p> </td> 
+   <td colname="col4"> <p>Utilidad de conversión de viñetas, archivadores y cubiertas de ventana para procesamiento de imágenes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> cache/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>Carpeta de cachés de datos; se puede configurar al instalar o al editar manualmente los archivos de configuración. </p> </td> 
+   <td colname="col4"> <p>Carpeta de cachés de datos; configurable al instalar o al editar manualmente archivos de configuración. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> catalog-bin/ </span> </p> </td> 
-   <td colname="col4"> <p>PS guarda aquí los datos del catálogo compilados. </p> </td> 
+   <td colname="col4"> <p>PS guarda aquí los datos del catálogo compilado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> ir-catalog-bin/ </span> </p> </td> 
-   <td colname="col4"> <p>Image Rendering guarda aquí los datos del catálogo compilados. </p> </td> 
+   <td colname="col4"> <p>El procesamiento de imágenes guarda aquí los datos del catálogo compilado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> is-response/ </span> </p> </td> 
-   <td colname="col4"> <p>La caché de respuesta HTTP principal. </p> </td> 
+   <td colname="col4"> <p>La caché de respuestas HTTP principal. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> catálogo/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> catalog/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>carpeta de catálogos de imágenes IS; se puede configurar al instalar o al editar manualmente los archivos de configuración. </p> </td> 
+   <td colname="col4"> <p>Carpeta de catálogos de imágenes de IS; se puede configurar al instalar o al editar manualmente los archivos de configuración. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -136,7 +136,7 @@ Después de la instalación, la jerarquía de carpetas en install_root incluye l
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> conf/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>Los archivos de configuración del servidor se encuentran aquí. </p> </td> 
+   <td colname="col4"> <p>Aquí se encuentran los archivos de configuración del servidor. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -154,7 +154,7 @@ Después de la instalación, la jerarquía de carpetas en install_root incluye l
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> default-profiles/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>Contiene los perfiles predeterminados para Image Serving. </p> </td> 
+   <td colname="col4"> <p>Contiene los perfiles predeterminados para el servicio de imágenes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -172,7 +172,7 @@ Después de la instalación, la jerarquía de carpetas en install_root incluye l
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> registros/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>Todos los datos de registro PS e IS se escriben en esta carpeta; editar manualmente los archivos de configuración. </p> </td> 
+   <td colname="col4"> <p>Todos los datos de registro de PS e IS se escriben en esta carpeta; edite manualmente los archivos de configuración. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -190,17 +190,17 @@ Después de la instalación, la jerarquía de carpetas en install_root incluye l
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> Supervisor-*.log </span> </p> </td> 
-   <td colname="col4"> <p>Registros de errores/depuración de Supervisor. </p> </td> 
+   <td colname="col4"> <p>Registros de depuración/error del supervisor. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> trace-*.log </span> </p> </td> 
-   <td colname="col4"> <p>Registros de error/depuración PS. </p> </td> 
+   <td colname="col4"> <p>Registros de depuración/error de PS. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> ReadMe.htm </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> Léame.htm </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> </td> 
   </tr> 
@@ -208,7 +208,7 @@ Después de la instalación, la jerarquía de carpetas en install_root incluye l
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> static-content/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>Carpeta de origen de datos de contenido estático; editar manualmente los archivos de configuración. </p> </td> 
+   <td colname="col4"> <p>Carpeta de fuente de datos de contenido estático; editar archivos de configuración manualmente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -220,31 +220,31 @@ Después de la instalación, la jerarquía de carpetas en install_root incluye l
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> playlog.sh (.bat) </span> </p> </td> 
-   <td colname="col4"> <p>Utilidad de calentamiento de caché. </p> </td> 
+   <td colname="col4"> <p>Utilidad de calentamiento de la caché. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> webapps/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>Implemente las aplicaciones web de Java™ aquí (incluidos is-docs, ir-docs y is-viewers). </p> </td> 
+   <td colname="col4"> <p>Implemente aplicaciones web Java™ aquí (incluidos is-docs, ir-docs y is-viewers). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> ImageRendering/ </span> </p> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>Carpeta raíz de instalación de procesamiento de imágenes. </p> </td> 
+   <td colname="col4"> <p>La carpeta raíz de instalación del procesamiento de imágenes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> COPIA DE SEGURIDAD/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> BACKUP/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>Copias de seguridad de archivos de configuración de instalaciones anteriores. </p> </td> 
+   <td colname="col4"> <p>Copias de seguridad del archivo de configuración de instalaciones anteriores. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> catálogo/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> catalog/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>Carpeta de catálogos de renderización de imágenes; se puede configurar al instalar o al editar manualmente los archivos de configuración. </p> </td> 
+   <td colname="col4"> <p>Carpeta de catálogos de procesamiento de imágenes; configurable al instalar o al editar manualmente archivos de configuración. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -274,7 +274,7 @@ Después de la instalación, la jerarquía de carpetas en install_root incluye l
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> recursos/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>Carpeta de datos de origen de renderización de imágenes; editar manualmente los archivos de configuración. </p> </td> 
+   <td colname="col4"> <p>Carpeta de datos de origen del procesamiento de imágenes; editar manualmente los archivos de configuración. </p> </td> 
   </tr> 
  </tbody> 
 </table>

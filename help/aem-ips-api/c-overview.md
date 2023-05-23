@@ -8,7 +8,7 @@ exl-id: c03e415f-57eb-4706-a17c-68d8469fba91
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
 source-wordcount: '146'
-ht-degree: 30%
+ht-degree: 1%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 30%
 
 La API del servicio web IPS (Image Production System) permite a las aplicaciones externas y a los desarrolladores terceros acceder mediante programación a los recursos y las funciones de IPS.
 
-Esta guía de referencia contiene y define todos los servicios, métodos y tipos de datos utilizados por la API de servicio web IPS. Se ha probado la compatibilidad con Java™ (con la biblioteca Apache Axis2), Adobe Flex y Microsoft® .NET.
+Esta guía de referencia contiene y define todos los servicios, métodos y tipos de datos utilizados por la API del servicio web IPS. Se ha probado la compatibilidad con Java™ (mediante la biblioteca Apache Axis2), Adobe Flex y Microsoft® .NET.
 
-## Normas y protocolos {#section-d85e71e44b7f432b9c65ce6ca45b7157}
+## Estándares y protocolos {#section-d85e71e44b7f432b9c65ce6ca45b7157}
 
-La API de IPS utiliza protocolos estándar SOAP y HTTP y es compatible con cualquier cliente que cumpla estos estándares. Las pruebas adicionales ayudan a garantizar que la API sea compatible con Java™ (con la biblioteca Apache Axis2), Adobe Flex y Microsoft® .NET.
+La API de IPS utiliza los protocolos estándar SOAP y HTTP y es compatible con cualquier cliente que se ajuste a estos estándares. Las pruebas adicionales ayudan a garantizar que la API sea compatible con Java™ (mediante la biblioteca Apache Axis2), Adobe Flex y Microsoft® .NET.
 
 >[!MORELIKETHIS]
 >

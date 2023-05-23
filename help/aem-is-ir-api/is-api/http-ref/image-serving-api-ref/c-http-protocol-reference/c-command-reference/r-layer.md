@@ -8,7 +8,7 @@ exl-id: f1200d86-d88c-4990-ae36-2ce96ae94343
 source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ Seleccione Capa. Selecciona una capa e inicia un nuevo segmento de definición d
 <table id="simpletable_22DE3365A6454949B0D30C6D7110476E"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> n</span></span> </p></td> 
-  <td class="stentry"> <p>Número de capa que se va a seleccionar (0 o bueno int). </p></td> 
+  <td class="stentry"> <p>Número de capas que se van a seleccionar (0 o bueno int). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> comp</span> </p></td> 
@@ -35,25 +35,25 @@ Seleccione Capa. Selecciona una capa e inicia un nuevo segmento de definición d
  </tr> 
 </table>
 
-Todos los comandos del segmento de capa se aplican a la capa especificada. Un segmento de capa finaliza con el siguiente `layer=` o `effect=` o el final de la solicitud.
+Todos los comandos del segmento de capa se aplican a la capa especificada. Un segmento de capa finaliza en la siguiente `layer=` o `effect=` o el final de la solicitud.
 
-Especifique `layer=comp` para seleccionar la imagen compuesta (o ver, para algunos comandos).
+Especificar `layer=comp` para seleccionar la imagen compuesta (o vista, para algunos comandos).
 
-El número de capa especifica efectivamente el orden z de la capa. Las capas con mayor número se colocan encima de las capas con menor número.
+El número de capa especifica de forma efectiva el orden Z de la capa. Las capas con números más altos se colocan sobre las capas con números más bajos.
 
-Los números de capa no necesitan ser consecutivos. Se requiere la capa 0.
+Los números de capa no tienen que ser consecutivos. Se requiere la capa 0.
 
-Se puede asignar un nombre a una capa con la variable `layer= *`n`*, *`name`*` variante de comando. Una vez definida una capa con nombre, se puede hacer referencia a ella con ` layer= *`name`*`, sin necesidad de conocer el número de capa. Se pueden asignar varios nombres a la misma capa, utilizando varios `layer= *`n`*, *`name`*` comandos.
+Se puede asignar un nombre a una capa con `layer= *`n`*, *`name`*` variante del comando. Una vez definida una capa con nombre, se puede hacer referencia a ella con ` layer= *`name`*`, sin necesidad de conocer el número de capa. Se pueden asignar varios nombres a la misma capa, utilizando varios `layer= *`n`*, *`name`*` comandos.
 
 >[!NOTE]
 >
->La capa 0 determina el tamaño general del lienzo de composición. Todas las partes de capas que caen fuera de los límites de la capa 0 se cortan cuando se crea la composición.
+>La capa 0 determina el tamaño total del lienzo de composición. Todas las partes de las capas que se encuentran fuera de los límites de la capa 0 se recortan cuando se crea el compuesto.
 
 ## Propiedades {#section-499963ee52c14f2898f0d0f90c1d01be}
 
-Capa. Las referencias de variables de sustitución no son compatibles con `layer=`.
+Capa, comando. Las referencias de variables de sustitución no son compatibles con `layer=`.
 
-`comp` no está permitido como *`name`* cadena. Se devuelve un error si es igual que *`name`* se asigna a más de una capa, o si una capa es referenciada por *`name`* que no se ha definido anteriormente.
+`comp` no está permitido como *`name`* cadena. Se devuelve un error si el mismo *`name`* está asignada a más de una capa, o si hace referencia a una capa *`name`* que no se ha definido anteriormente.
 
 ## Predeterminado {#section-091859a03f8048c2b7092f0fec9c1006}
 
@@ -61,7 +61,7 @@ Capa. Las referencias de variables de sustitución no son compatibles con `layer
 
 ## Casos especiales {#section-e087cb2e3562473e8d391abfa3b9489f}
 
-* Si el mismo nombre está asignado a varias capas (por ejemplo: `layer=1,image&layer=2,image`), se produce un error.
+* Si el mismo nombre se asigna a varias capas (por ejemplo: `layer=1,image&layer=2,image`), se produce un error.
 * Si el mismo nombre se asigna a una sola capa varias veces (por ejemplo: `layer=1,image&layer=1,image`), el ámbito se establece de la forma habitual, sin errores.
 * Se admiten varios nombres para la misma capa.
 
@@ -69,9 +69,9 @@ Capa. Las referencias de variables de sustitución no son compatibles con `layer
 * Si un nombre al que se hace referencia nunca se asigna a un número de capa (por ejemplo: `layer=1,image&layer=picture`), se produce un error.
 * Las variables de sustitución no son compatibles con los modificadores de capa (por ejemplo: `layer=$image$`).
 
-   Esto se aplica a todas las permutaciones, no solo a los nombres de capa, sino también a los modificadores de capa en general.
+   Esto se aplica a todas las permutaciones, no solo a los nombres de las capas, sino también a los modificadores de capas en general.
 
-* Todas las reglas de combinación y anulación deben funcionar exactamente igual que cuando se hace referencia a la misma capa en varias fuentes (solicitudes, registros de catálogo de modificadores anteriores o posteriores, macros, etc.).
+* Todas las reglas de combinación y anulación deben funcionar exactamente como cuando se hace referencia a la misma capa en varias fuentes (registros de catálogo de solicitudes, modificadores anteriores o posteriores, macros, etc.).
 
 ## Ejemplo {#section-cc40de6a0a754178aa752601539c815b}
 

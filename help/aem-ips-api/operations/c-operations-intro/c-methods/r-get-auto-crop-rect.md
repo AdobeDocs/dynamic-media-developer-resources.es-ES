@@ -34,22 +34,22 @@ Sintaxis
 
 >[!NOTE]
 >
->Especifique autoColorCropOptions o autoTransparentCropOptions cuando llame a este método.
+>Especifique autoColorCropOptions o autoTransparentCropOptions al llamar a este método.
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | El identificador de la empresa con el recurso con el que desea trabajar. |
+| companyHandle | `xsd:string` | Sí | El identificador de la compañía con el recurso con el que desea trabajar. |
 | assetHandle | `xsd:string` | Sí | El identificador del recurso con el que desea trabajar. |
-| autoColorCropOptions | `types:AutoColorCropOptions` | No | Calcular rectángulo de recorte basado en el color. Consulte [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6). |
-| autoTransparentCropOptions | `types:AutoTransparentCropOptions` | No | Calcular rectángulo de recorte basado en la transparencia. Consulte [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b). |
+| autoColorCropOptions | `types:AutoColorCropOptions` | No | Calcular rectángulo de recorte en función del color. Consulte [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6). |
+| autoTransparentCropOptions | `types:AutoTransparentCropOptions` | No | Calcular rectángulo de recorte en función de la transparencia. Consulte [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b). |
 
 **Salida (getAutoCropRectReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| xOffset | `xsd:int` | Sí | Coordenada de píxeles izquierda inicial de la región de recorte calculada. |
-| yOffset | `xsd:int` | Sí | Coordenada de píxeles superior inicial de la región de recorte calculada. |
-| ancho | `xsd:int` | Sí | Anchura de la región de recorte calculada (en píxeles). |
+| xOffset | `xsd:int` | Sí | Coordenada inicial en píxeles izquierdos de la región de recorte calculada. |
+| Desplazamiento | `xsd:int` | Sí | Coordenada del píxel superior inicial de la región de recorte calculada. |
+| ancho | `xsd:int` | Sí | Ancho de la región de recorte calculada (en píxeles). |
 | altura | `xsd:int` | Sí | Altura de la región de recorte calculada (en píxeles). |
 
 ## Ejemplos {#section-ba65bd66086d491cad1cea535954ee1f}

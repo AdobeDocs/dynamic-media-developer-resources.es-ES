@@ -1,6 +1,6 @@
 ---
 title: KnockoutBackgroundOptions
-description: Enmascarar (eliminar) el fondo de imágenes seleccionadas. Este tipo de datos permite superponerlos en otras capas con una transparencia fuera de la imagen del sujeto. Un parámetro opcional que está desactivado de forma predeterminada.
+description: Enmascarar (eliminar) el fondo de las imágenes seleccionadas. Este tipo de datos le permite superponerlos en otras capas con una transparencia fuera de la imagen del sujeto. Un parámetro opcional que está desactivado de forma predeterminada.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 # [!DNL KnockoutBackgroundOptions]{#knockoutbackgroundoptions}
 
-Enmascarar (eliminar) el fondo de imágenes seleccionadas. Este tipo de datos permite superponerlos en otras capas con una transparencia fuera de la imagen del sujeto.
+Enmascarar (eliminar) el fondo de las imágenes seleccionadas. Este tipo de datos le permite superponerlos en otras capas con una transparencia fuera de la imagen del sujeto.
 
 Este tipo de datos es opcional y está desactivado de forma predeterminada.
 
@@ -24,7 +24,7 @@ Este tipo de datos es opcional y está desactivado de forma predeterminada.
 
 >[!IMPORTANT]
 >
->Si está configurando `KnockoutBackgroundOptions` en Adobe Experience Manager, utilice los parámetros siguientes:
+>Si está configurando `KnockoutBackgroundOptions` en Adobe Experience Manager, utilice los siguientes parámetros:
 >* `kbCorner`
 >* `kbTolerance`
 >* `kbFillMethod`
@@ -54,19 +54,19 @@ Este tipo de datos es opcional y está desactivado de forma predeterminada.
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> tolerancia</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
-   <td colname="col3">Un ajuste opcional que elimina el espacio en blanco de los bordes de la imagen en función de la transparencia. Acepta un rango de valores de 0,0 a 1,0. Especifique: 
+   <td colname="col3">Una configuración opcional que elimina el espacio en blanco de los bordes de la imagen en función de la transparencia. Acepta un rango de valores de 0,0 a 1,0. Especifique: 
     <ul id="ul_FE5423B857AE43FCBA7A9AEA76C754CC">
      <li id="li_01E3BD0AB8DA4C408B47CB02B269404A">0 para que coincida exactamente con los colores. </li>
-     <li id="li_FCE21384265D4ECE9C0D785F1BB32C3A">1 para activar la mayoría de las diferencias de color. </li>
+     <li id="li_FCE21384265D4ECE9C0D785F1BB32C3A">1 para habilitar la mayoría de las diferencias de color. </li>
     </ul></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fillMethod</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Control de la transparencia de píxeles en la ubicación especificada por el <span class="codeph"><span class="varname"> corner</span></span> variable. La variable <span class="codeph"> fillMethod</span> acepta estos valores: </p> 
+   <td colname="col3"> <p>Controlar la transparencia de píxeles en la ubicación especificada por <span class="codeph"><span class="varname"> corner</span></span> variable. El <span class="codeph"> fillMethod</span> acepta estos valores: </p> 
     <ul id="ul_D95F3B613D344BB89487ED09D83F9217"> 
-     <li id="li_3D7B7CA1B9094D16A98E0BA3D962E97F"> <span class="codeph"> FloodFill</span>: Convierte todos los píxeles de la esquina especificada en transparente. </li> 
-     <li id="li_F97343C3DA7644BCBD1748AD8F9DCE2E"> <span class="codeph"> MatchPixel</span>: Convierte todos los píxeles coincidentes en transparentes independientemente de la ubicación. </li> 
+     <li id="li_3D7B7CA1B9094D16A98E0BA3D962E97F"> <span class="codeph"> FloodFill</span>: convierte en transparentes todos los píxeles de la esquina especificada. </li> 
+     <li id="li_F97343C3DA7644BCBD1748AD8F9DCE2E"> <span class="codeph"> MatchPixel</span>: convierte todos los píxeles coincidentes en transparentes independientemente de la ubicación. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -89,7 +89,7 @@ Este tipo de datos es opcional y está desactivado de forma predeterminada.
 
 ## Utilizado por {#section-28c43baafe85434a9ee9e303ed10569a}
 
-La variable `KnockoutBackgroundOptions` El tipo lo usa:
+El `KnockoutBackgroundOptions` lo utilizan:
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)

@@ -8,7 +8,7 @@ exl-id: 7b4e987e-9079-47b4-bd3b-fd8e5bc874e0
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '27'
-ht-degree: 18%
+ht-degree: 14%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 18%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Especifica si la información del objeto está habilitada para elementos de área de mapa individuales. </p> <p> Se omite en dispositivos táctiles, incluidos los sistemas de escritorio con capacidad táctil. </p> </td> 
+   <td colname="col2"> <p> Especifica si se activa la información de objeto para elementos del área del mapa concretos. </p> <p> Se ignora en dispositivos táctiles, incluidos los sistemas de escritorio táctiles. </p> </td> 
   </tr> 
  </tbody> 
 </table>

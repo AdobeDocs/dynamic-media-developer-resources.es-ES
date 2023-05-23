@@ -1,5 +1,5 @@
 ---
-description: Devuelve las coordenadas del cuadrilateral que rodea la ruta de Photoshop con nombre.
+description: Devuelve las coordenadas del cuadrilátero que rodea la ruta de Photoshop con nombre.
 solution: Experience Manager
 title: getPhotoshopPath
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 19%
 
 # getPhotoshopPath{#getphotoshoppath}
 
-Devuelve las coordenadas del cuadrilateral que rodea la ruta de Photoshop con nombre.
+Devuelve las coordenadas del cuadrilátero que rodea la ruta de Photoshop con nombre.
 
 Sintaxis
 
@@ -35,15 +35,15 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | Gestione a la empresa con la imagen con la que desee trabajar. |
-| assetHandle | `xsd:string` | Sí | Gestionar en el recurso de imagen. |
+| companyHandle | `xsd:string` | Sí | Envíe a la compañía la imagen con la que desea trabajar. |
+| assetHandle | `xsd:string` | Sí | Administre en el recurso de imagen. |
 | pathName | `xsd:string` | Sí | Nombre de la ruta de Photoshop que desea devolver. |
 
 **Salida (getPhotoshopPathReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| PerspectivaQuad | `types:PerspectiveQuad` | Sí | Devuelve las coordenadas de la imagen en función de la ruta. Consulte [PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204). |
+| perspectivaCuádruple | `types:PerspectiveQuad` | Sí | Devuelve las coordenadas de la imagen en función de la ruta. Consulte [PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204). |
 
 ## Ejemplos {#section-1f0461cbdc184c8d8925336d5279db47}
 

@@ -8,7 +8,7 @@ exl-id: 050388f8-45a9-4f09-a957-f94bead17eca
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '46'
-ht-degree: 8%
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> split|solid</span> </p> </td> 
-   <td colname="col2"> <p>Establecer como <span class="codeph"> split</span> para permitir que el visor muestre los pliegos de doble página como una página independiente cuando se utiliza en dispositivos móviles en orientación vertical. Establecer como <span class="codeph"> solid</span> para mostrar siempre los pliegos de doble página como imágenes sólidas, independientemente de la orientación del dispositivo. </p> </td> 
+   <td colname="col2"> <p>Configure como. <span class="codeph"> split</span> para permitir que el visor muestre pliegos de doble página como una página independiente cuando se utiliza en un dispositivo móvil con orientación vertical. Configure como. <span class="codeph"> sólido</span> para mostrar siempre los pliegos de doble página como una imagen sólida, independientemente de la orientación del dispositivo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

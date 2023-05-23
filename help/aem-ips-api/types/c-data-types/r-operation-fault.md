@@ -1,5 +1,5 @@
 ---
-description: Mensaje detallado que responde a una de las URL proporcionadas en la solicitud de invalidación de CDN.
+description: Mensaje detallado que responde a una de las direcciones URL proporcionadas en la solicitud de invalidación de la CDN.
 solution: Experience Manager
 title: OperationFault
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # [!DNL OperationFault]{#operationfault}
 
-Mensaje detallado que responde a una de las URL proporcionadas en la solicitud de invalidación de CDN.
+Mensaje detallado que responde a una de las direcciones URL proporcionadas en la solicitud de invalidación de la CDN.
 
 **Admitido desde**
 

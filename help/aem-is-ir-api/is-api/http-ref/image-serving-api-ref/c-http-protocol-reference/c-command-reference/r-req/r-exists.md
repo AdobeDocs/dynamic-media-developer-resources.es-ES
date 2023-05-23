@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 810453f0-7b35-4eed-8b23-6b59a8300c50
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 3%
+source-wordcount: '121'
+ht-degree: 4%
 
 ---
 
@@ -20,12 +20,12 @@ La imagen existe.
 
 *`reqId`* identificador único de solicitud
 
-Devuelve una sola propiedad denominada `catalogRecord.exists`. El valor de la propiedad se establece en &quot;1&quot; si la entrada de catálogo especificada existe en la imagen o en el catálogo predeterminado; de lo contrario, se establece en &quot;0&quot;. `req=exists` las solicitudes en el  `/is/content` contexto indican la presencia o ausencia de un registro especificado en el catálogo de contenido estático.
+Devuelve una sola propiedad denominada `catalogRecord.exists`. El valor de la propiedad se establece en &quot;1&quot; si la entrada de catálogo especificada existe en la imagen o en el catálogo predeterminado; de lo contrario, se establece en &quot;0&quot;. `req=exists` solicitudes contra el `/is/content` el contexto indica la presencia o ausencia de un registro especificado en el catálogo de contenido estático.
 
-Se omiten otros comandos de la cadena de solicitud. La respuesta HTTP se puede almacenar en caché con el TTL basado en `attribute::NonImgExpiration`.
+Se omiten otros comandos de la cadena de solicitud. La respuesta HTTP se puede almacenar en caché con el TTL en función de `attribute::NonImgExpiration`.
 
-Las solicitudes que admiten el formato de respuesta JSONP permiten especificar el nombre del controlador de llamada de retorno JS mediante la sintaxis extendida del parámetro `req=` :
+Las solicitudes compatibles con el formato de respuesta JSONP permiten especificar el nombre del controlador de devolución de llamada JS mediante la sintaxis extendida de `req=` parámetro:
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` es el nombre del controlador JS que está presente en la respuesta JSONP. Solo se permiten caracteres a-z, A-Z y 0-9. Opcional. El valor predeterminado es `s7jsonResponse`.
+`<reqHandler>` es el nombre del controlador JS presente en la respuesta JSONP. Solo se permiten los caracteres a-z, A-Z y 0-9. Opcional. El valor predeterminado es `s7jsonResponse`.

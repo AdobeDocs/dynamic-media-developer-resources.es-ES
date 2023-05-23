@@ -8,27 +8,27 @@ exl-id: dd1f1b9e-f710-4641-b44b-2d6e3d3e20c4
 source-git-commit: 5432393e265fba888579d700cf2f414dc4f680af
 workflow-type: tm+mt
 source-wordcount: '31'
-ht-degree: 22%
+ht-degree: 19%
 
 ---
 
 # EmbedShare.embedsizes{#embedshare-embedsizes}
 
-` [EmbedShare.|<containerId>_embedShare.]embedsizes= *`width`*, *`height`*[,0|1][; *`width`*, *`height`*[,0|1]]`
+` [EmbedShare.|<containerId>_embedShare.]embedsizes= *`anchura`*, *`altura`*[,0|1][; *`anchura`*, *`altura`*[,0|1]]`
 
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> width </span> </span> </p> </td> 
-   <td colname="col2"> <p>Ancho incrustado. </p> </td> 
+   <td colname="col2"> <p>Anchura de incrustación. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> height </span> </span> </p> </td> 
-   <td colname="col2"> <p>Incrustar altura. </p> </td> 
+   <td colname="col2"> <p>Altura de incrustación. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Especifica si este elemento de lista debe preseleccionarse inicialmente en el cuadro combinado. </p> </td> 
+   <td colname="col2"> <p> Especifica si este elemento de la lista debe preseleccionarse en el cuadro combinado. </p> </td> 
   </tr> 
  </tbody> 
 </table>

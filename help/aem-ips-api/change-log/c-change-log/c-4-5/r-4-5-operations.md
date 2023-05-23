@@ -1,5 +1,5 @@
 ---
-description: Describe los métodos de operaciones nuevos y modificados para la API IPS versión 4.5.
+description: Describe métodos de operaciones nuevos y modificados para la versión 4.5 de la API de IPS.
 solution: Experience Manager
 title: 'Operaciones: nuevas y modificadas'
 feature: Dynamic Media Classic,SDK/API
@@ -12,9 +12,9 @@ ht-degree: 1%
 
 ---
 
-# Operaciones: Nuevo y modificado{#operations-new-and-modified}
+# Operaciones: nuevas y modificadas{#operations-new-and-modified}
 
-Describe los métodos de operaciones nuevos y modificados para la API IPS versión 4.5.
+Describe métodos de operaciones nuevos y modificados para la versión 4.5 de la API de IPS.
 
 Sintaxis
 
@@ -37,8 +37,8 @@ Sintaxis
 
 ## Operaciones modificadas {#section-1c022cc62d274c349837013f1c02ca51}
 
-* `Asset` incluye `animatedGifInfo`, `swcInfo`, `cssInfo`y `javascriptInfo` parámetros.
-* `createMetadataField` incluye una `isHidden` parámetro.
-* `saveMetadataField` incluye una `isHidden` parámetro.
+* `Asset` incluye `animatedGifInfo`, `swcInfo`, `cssInfo`, y `javascriptInfo` parámetros.
+* `createMetadataField` incluye un opcional `isHidden` parámetro.
+* `saveMetadataField` incluye un opcional `isHidden` parámetro.
 * `searchAssets`
-* La variable `renameFiles` se ha desaprobado para versiones anteriores y se ha eliminado del `renameAsset` operación. La ruta del archivo virtual se cambia para que coincida con el nuevo nombre del recurso (conservando la extensión del archivo), mientras que las rutas de archivo físicas no se ven afectadas. Los clientes de API deben eliminar las referencias a este parámetro al actualizar a la nueva versión de API.
+* El `renameFiles` El parámetro de ha quedado obsoleto para versiones anteriores y se ha eliminado del `renameAsset` operación. La ruta del archivo virtual se cambia para que coincida con el nuevo nombre del recurso (conservando la extensión del archivo), mientras que las rutas de archivo físicas no se ven afectadas. Los clientes de API deben quitar las referencias a este parámetro al actualizar a la nueva versión de la API.

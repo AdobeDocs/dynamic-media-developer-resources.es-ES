@@ -1,18 +1,19 @@
 ---
-title: Referencia de la API de JavaScript para el visor de vídeos de recorte inteligente
-description: La clase principal del visor de recorte inteligente de vídeo es SmartCropVideoViewer. Se declara en el espacio de nombres s7viewers. Esta API de JavaScript cubre el constructor, los métodos y las llamadas de retorno de esta clase en particular.
+title: Referencia de la API de JavaScript para el visor de recorte inteligente de vídeos
+description: La clase principal del Visor de recorte inteligente de vídeos es SmartCropVideoViewer. Se declara en el área de nombres de s7viewers. Esta API de JavaScript cubre el constructor, los métodos y las llamadas de retorno de esta clase en particular.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 92c25a5a-2103-4906-8ff7-ffc8e0541464
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 0%
 
 ---
 
-# Referencia de la API de JavaScript para el visor de vídeos de recorte inteligente{#javascript-api-reference-for-smartcrop-video-viewer}
+# Referencia de la API de JavaScript para el visor de recorte inteligente de vídeos{#javascript-api-reference-for-smartcrop-video-viewer}
 
-La clase principal del visor de recorte inteligente de vídeo es SmartCropVideoViewer. Se declara en el espacio de nombres s7viewers. Esta API de JavaScript cubre el constructor, los métodos y las llamadas de retorno de esta clase en particular.
+La clase principal del Visor de recorte inteligente de vídeos es SmartCropVideoViewer. Se declara en el área de nombres de s7viewers. Esta API de JavaScript cubre el constructor, los métodos y las llamadas de retorno de esta clase en particular.
 
-En todos los ejemplos siguientes, `<instance>` es el nombre real del objeto del visualizador de JavaScript del que se crea una instancia a partir de la variable `s7viewers.SmartCropVideoViewer` Clase .
+En todos los ejemplos siguientes, `<instance>` es el nombre real del objeto de visor de JavaScript del que se crean instancias desde el `s7viewers.SmartCropVideoViewer` clase.

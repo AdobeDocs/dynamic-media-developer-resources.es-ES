@@ -18,7 +18,7 @@ La vista principal consiste en la imagen de giro cuando el recurso actual es un 
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propiedades CSS del área principal del visor**
+**Propiedades CSS del área del visor principal**
 
 El aspecto del área de visualización se controla con el siguiente selector de clase CSS:
 
@@ -29,7 +29,7 @@ El aspecto del área de visualización se controla con el siguiente selector de 
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS, propiedad </p> </th> 
+   <th colname="col1" class="entry"> <p> Propiedad CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Descripción </p> </th> 
   </tr> 
  </thead>
@@ -41,7 +41,7 @@ El aspecto del área de visualización se controla con el siguiente selector de 
  </tbody> 
 </table>
 
-Ejemplo: para hacer transparente la vista de giro.
+Ejemplo: Para hacer transparente la vista de giro.
 
 ```
 .s7mixedmediaviewer .s7spinview { 

@@ -8,36 +8,36 @@ exl-id: 3c47b14d-b629-474d-952a-b09e1b1162b4
 source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
 source-wordcount: '192'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
 # TimeStamp{#timestamp}
 
-If `attribute::UseLastModified` está configurado, la variable `catalog::TimeStamp` se devuelve en la respuesta HTTP como un encabezado HTTP de última modificación. El encabezado Última modificación siempre se devuelve para el contenido estático, incluso si `attribute::UseLastModified` no está configurado.
+If `attribute::UseLastModified` está configurado, la variable `catalog::TimeStamp` El valor se devuelve en la respuesta HTTP como un encabezado HTTP de última modificación. El encabezado Última modificación siempre se devuelve para el contenido estático, incluso si `attribute::UseLastModified` no se ha establecido.
 
-Para el contenido de imágenes y SVG, `catalog::TimeStamp` también se utiliza para la validación de caché basada en catálogo (consulte [atributo::CacheValidationPolicy](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-cachevalidationpolicy.md).
+Para el contenido de imágenes y SVG, `catalog::TimeStamp` también se utiliza para la validación de caché basada en catálogos (consulte [attribute::CacheValidationPolicy](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-cachevalidationpolicy.md).
 
 ## Propiedades {#section-2298a384b5cb43929542655c5a49beb2}
 
-Valor de fecha y hora en formato Java. Puede ser el número entero de milisegundos desde la medianoche, el 1 de enero de 1970 UTC/GMT, o un valor de cadena de fecha y hora con uno de los siguientes formatos:
+Valor de fecha y hora en formato Java. Puede ser el número entero de milisegundos desde la medianoche del 1 de enero de 1970 UTC/GMT o un valor de cadena de fecha y hora con uno de los siguientes formatos:
 
 *`mm`*/ *`dd`*/ *`yyyy`* *`hh`*: *`mm`*: *`ss`* *`zzz`*
 
 *`mm`*/ *`dd`*/ *`yyyy`* *`hh`*: *`mm`*: *`ss`* GMT *`offset`*
 
-*`hh`* está en el rango 0 - 23.
+*`hh`* está entre 0 y 23.
 
-*`zzz`* es un código de zona horaria de tres o cuatro caracteres, como &quot;GMT&quot; o &quot;PST&quot;. Cuenta para el horario de verano en el código de zona horaria. Por ejemplo, &quot;PST&quot; para la hora estándar del Pacífico, frente a &quot;PDT&quot; para la hora de verano del Pacífico).
+*`zzz`* es un código de zona horaria de tres o cuatro caracteres como &quot;GMT&quot; o &quot;PST&quot;. Cuenta el horario de verano en el código de zona horaria. Por ejemplo, &quot;PST&quot; para la hora estándar del Pacífico frente a &quot;PDT&quot; para el horario de verano del Pacífico).
 
-*`offset`* es una compensación de zona horaria en horas o `hours:minutes`, en relación con GMT. Por ejemplo, &quot;PDT&quot; es equivalente a &quot;GMT -7&quot;.
+*`offset`* es un desplazamiento de zona horaria en horas o `hours:minutes`, en relación con GMT. Por ejemplo, &quot;PDT&quot; equivale a &quot;GMT -7&quot;.
 
-Deben estar presentes todos los elementos de los valores de fecha y hora con formato de cadena. Si el valor de fecha y hora no tiene el formato correcto, se ignora y la hora de modificación del `*`catálogo`*.ini` se utiliza en su lugar.
+Todos los elementos de los valores de fecha y hora con formato de cadena deben estar presentes. Si el valor de fecha y hora no tiene el formato correcto, se ignora y se modifica la hora del `*`catalogar`*.ini` se utiliza el archivo en su lugar.
 
 ## Predeterminado {#section-0cbf801401ff4857bdda168fd12358af}
 
-`attribute::TimeStamp` si el campo está vacío o no está presente.
+`attribute::TimeStamp` si el campo está vacío o no.
 
 ## Véase también {#section-c42a427aa4794c548408dc4de028d578}
 
-[atributo::TimeStamp](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-timestamp.md#reference-4213c599a64942ee8cb9d80696b08296), [atributo::UseLastModified](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-uselastmodified.md#reference-73ecc421e6864a38aec5a4775f06b8e8), [atributo::CacheValidationPolicy](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-cachevalidationpolicy.md#reference-e55e52fd749041718a9af69fa2027b57)
+[attribute::TimeStamp](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-timestamp.md#reference-4213c599a64942ee8cb9d80696b08296), [attribute::UseLastModified](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-uselastmodified.md#reference-73ecc421e6864a38aec5a4775f06b8e8), [attribute::CacheValidationPolicy](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-cachevalidationpolicy.md#reference-e55e52fd749041718a9af69fa2027b57)

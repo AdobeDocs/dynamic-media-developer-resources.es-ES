@@ -1,19 +1,20 @@
 ---
 title: VideoScrubber.showchaptertime
-description: Atributo de configuración para el visor de vídeo de recorte inteligente.
+description: Atributo de configuración para el visor de recorte inteligente de vídeos.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 5a539831-01d7-45a8-9d75-41782ec7fa94
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '37'
-ht-degree: 13%
+ht-degree: 10%
 
 ---
 
 # VideoScrubber.showchaptertime{#videoscrubber-showchaptertime}
 
-Atributo de configuración para el visor de vídeo de recorte inteligente.
+Atributo de configuración para el visor de recorte inteligente de vídeos.
 
 `[VideoScrubber.|<containerId>_videoScrubber.]showchaptertime=0|1`
 
@@ -21,7 +22,7 @@ Atributo de configuración para el visor de vídeo de recorte inteligente.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Desactiva o activa el tiempo de capítulo del vídeo en la barra de título de la etiqueta de capítulo del vídeo. </p> </td> 
+   <td colname="col2"> <p> Deshabilita o habilita el tiempo de capítulo del vídeo en la barra de título de la etiqueta de capítulo de vídeo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,5 +1,5 @@
 ---
-description: La variable [!DNL Platform Server] escribe registros en este archivo de registro para registrar advertencias y errores, mantener un registro de los eventos de inicio, cierre y carga del catálogo.
+description: El [!DNL Platform Server] escribe registros en este archivo de registro para registrar advertencias y errores, mantener un registro de los eventos de inicio, cierre y carga de catálogo.
 solution: Experience Manager
 title: Registro de seguimiento
 feature: Dynamic Media Classic,SDK/API
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # Registro de seguimiento{#trace-log}
 
-La variable [!DNL Platform Server] escribe registros en este archivo de registro para registrar advertencias y errores, mantener un registro de los eventos de inicio, cierre y carga del catálogo.
+El [!DNL Platform Server] escribe registros en este archivo de registro para registrar advertencias y errores, mantener un registro de los eventos de inicio, cierre y carga de catálogo.

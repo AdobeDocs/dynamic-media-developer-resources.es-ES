@@ -1,5 +1,5 @@
 ---
-description: Obtiene conjuntos de propiedades asociados a un control de tipo.
+description: Obtiene los conjuntos de propiedades asociados a un identificador de tipo.
 solution: Experience Manager
 title: getPropertySets
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 18%
 
 # getPropertySets{#getpropertysets}
 
-Obtiene conjuntos de propiedades asociados a un control de tipo.
+Obtiene los conjuntos de propiedades asociados a un identificador de tipo.
 
 Sintaxis
 
@@ -38,17 +38,17 @@ Sintaxis
 |---|---|---|---|
 | typeHandle | `xsd:string` | Sí | El identificador del tipo de conjunto de propiedades. |
 | primaryOwnerHandle | `xsd:string` | Sí | Propietario principal de los datos enlazados al objeto de base de datos. |
-| childOwnerHandle | `xsd:string` | No | Un propietario secundario opcional de los datos. |
+| secondaryOwnerHandle | `xsd:string` | No | Un propietario secundario opcional de los datos. |
 
 **Salida (getPropertySetsReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| setArray | `types:PropertySetArray` | Sí | Conjunto de conjuntos de propiedades. |
+| setArray | `types:PropertySetArray` | Sí | Matriz de conjuntos de propiedades. |
 
 ## Ejemplos {#section-1358af974eab4259864910337a6f0bd2}
 
-Este ejemplo de código devuelve conjuntos de propiedades de su propietario principal, especificados por un identificador de tipo .
+Este ejemplo de código devuelve conjuntos de propiedades de su propietario principal, especificados por un identificador de tipo.
 
 **Solicitar**
 

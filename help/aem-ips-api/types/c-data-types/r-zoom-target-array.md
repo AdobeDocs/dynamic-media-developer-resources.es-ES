@@ -1,5 +1,5 @@
 ---
-description: Conjunto de destinos de zoom.
+description: Una matriz de destinos de zoom.
 solution: Experience Manager
 title: ZoomTargetArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL ZoomTargetArray]{#zoomtargetarray}
 
-Conjunto de destinos de zoom.
+Una matriz de destinos de zoom.
 
 Sintaxis
 

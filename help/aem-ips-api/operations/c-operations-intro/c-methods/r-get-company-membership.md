@@ -1,5 +1,5 @@
 ---
-description: Obtiene las suscripciones de un usuario en una matriz de empresas.
+description: Obtiene las suscripciones de un usuario a una matriz de compañías.
 solution: Experience Manager
 title: getCompanyMembership
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 18%
 
 # getCompanyMembership{#getcompanymembership}
 
-Obtiene las suscripciones de un usuario en una matriz de empresas.
+Obtiene las suscripciones de un usuario a una matriz de compañías.
 
 Sintaxis
 
@@ -43,11 +43,11 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| membershipArray | `types:CompanyMembershipArray` | Sí | Matriz de miembros de la empresa. |
+| subscriptionArray | `types:CompanyMembershipArray` | Sí | Matriz de miembros de la compañía. |
 
 ## Ejemplos {#section-e4958d104ea344a4a79f57d07b46eba7}
 
-Este ejemplo de código toma un identificador de usuario y obtiene todas las suscripciones a la empresa del usuario en una matriz. La respuesta se ha truncado para su brevedad.
+Este ejemplo de código toma un identificador de usuario y obtiene todas las suscripciones de compañía del usuario en una matriz. La respuesta se ha truncado para ser breve.
 
 **Solicitar**
 

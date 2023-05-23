@@ -37,13 +37,13 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | Identificador de la empresa a la que pertenece el conjunto de imágenes. |
+| companyHandle | `xsd:string` | Sí | El identificador de la compañía a la que pertenece el conjunto de imágenes. |
 | folderHandle | `xsd:string` | Sí | El identificador de la carpeta. |
-| name | `xsd:string` | Sí | Nombre del conjunto de imágenes. |
+| nombre | `xsd:string` | Sí | Nombre del conjunto de imágenes. |
 | tipo | `xsd:string` | Sí | Tipo de conjunto de imágenes. |
-| thumbAssetHandle | `xsd:string` | No | Control del recurso que actúa como la miniatura del nuevo conjunto de imágenes. Si no se especifica, IPS intenta utilizar el primer recurso de imagen al que hace referencia el conjunto. |
+| thumbAssetHandle | `xsd:string` | No | Controlador del recurso que actúa como miniatura para el nuevo conjunto de imágenes. Si no se especifica, IPS intenta utilizar el primer recurso de imagen al que hace referencia el conjunto. |
 
-**Salida**
+**Output**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
@@ -51,7 +51,7 @@ Sintaxis
 
 ## Ejemplos {#section-385fe3b0af8044b0a2451336ec137fc5}
 
-Este ejemplo de código crea un conjunto de imágenes especificado por empresa, carpeta, nombre y tipo. La respuesta es un gestor de recursos del conjunto de imágenes recién creado.
+Este ejemplo de código crea un conjunto de imágenes especificado por empresa, carpeta, nombre y tipo. La respuesta es un identificador de recursos del conjunto de imágenes recién creado.
 
 **Solicitar**
 

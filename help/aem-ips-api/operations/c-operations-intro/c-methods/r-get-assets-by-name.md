@@ -31,7 +31,7 @@ Sintaxis
 
 >[!NOTE]
 >
->Solo devuelve recursos a los que el usuario tiene acceso de lectura.
+>Solo devuelve los recursos a los que el usuario tiene acceso de lectura.
 
 ## Parámetros {#section-f64e93c127b84a29aa3bf2fdd916cca9}
 
@@ -51,7 +51,7 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> El identificador de la empresa. </td> 
+   <td colname="col4"> El identificador de la compañía. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> accessUserHandle</span> </span> </td> 
@@ -75,13 +75,13 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:StringArray</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Matriz de tipos de recurso permitidos para los recursos recuperados. </td> 
+   <td colname="col4"> Matriz de tipos de recursos permitidos para los recursos recuperados. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeAssetTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:StringArray</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Matriz de tipos de recurso excluidos para los recursos recuperados. </td> 
+   <td colname="col4"> Matriz de tipos de recursos excluidos para los recursos recuperados. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetSubTypeArray</span> </span> </td> 
@@ -90,10 +90,10 @@ Sintaxis
    <td colname="col4"> Matriz de subtipos de recursos permitidos para los recursos recuperados. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> strictoSubTypeCheck</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> strictSubTypeCheck</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>If <span class="codeph"> true</span> y <span class="codeph"> assetSubTypeArray</span> no está vacío, solo los recursos cuyos subtipos se encuentran en <span class="codeph"> assetSubTypeArray</span> se muestran como </p> <p>If <span class="codeph"> false</span>, se incluyen los recursos sin subtipo definido. </p> <p>El valor predeterminado es <span class="codeph"> false</span>. </p> </td> 
+   <td colname="col4"> <p>If <span class="codeph"> true</span> y <span class="codeph"> assetSubTypeArray</span> no está vacío, solo recursos cuyos subtipos están en <span class="codeph"> assetSubTypeArray</span> se devuelven. </p> <p>If <span class="codeph"> false</span>A continuación, se incluyen los recursos sin subtipo definido. </p> <p>El valor predeterminado es <span class="codeph"> false</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </td> 
@@ -114,11 +114,11 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| assetArray | `types:AssetArray` | No | Matriz de recursos que coinciden con los criterios del filtro. |
+| assetArray | `types:AssetArray` | No | Matriz de recursos que coinciden con los criterios de filtro. |
 
 ## Ejemplos {#section-3b7447398e574c88aeaf8ca159cc78dd}
 
-Este ejemplo de código devuelve dos recursos de tipo imagen.
+Este ejemplo de código devuelve dos recursos de tipo de imagen.
 
 **Solicitar**
 

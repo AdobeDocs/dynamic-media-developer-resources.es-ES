@@ -1,6 +1,6 @@
 ---
 title: setLocalizedTexts
-description: Referencia de la API de JavaScript para el visor de carrusel.
+description: Referencia de la API de JavaScript para el Visor de carrusel.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -14,17 +14,17 @@ ht-degree: 2%
 
 # setLocalizedTexts{#setlocalizedtexts}
 
-Referencia de la API de JavaScript para el visor de carrusel.
+Referencia de la API de JavaScript para el Visor de carrusel.
 
 ` setLocalizedTexts( *`localizationInfo`*)`
 
-Define los valores de SYMBOL de localización para una o más configuraciones regionales. Se debe llamar a este parámetro antes de `init()`.
+Establece los valores de SÍMBOLO de localización para una o varias configuraciones regionales. Se debe llamar a este parámetro antes de `init()`.
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo</span> </span> </p> </td> 
-   <td colname="col2"> <p> Objeto JSON {<span class="codeph"></span>} con datos de localización. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md" format="dita" scope="local"> Localización de los elementos de la interfaz de usuario</a> para obtener más información. </p> <p>Consulte también la <i>Guía del usuario del SDK de visor</i> y el ejemplo para obtener más información sobre el contenido del objeto. </p> </td> 
+   <td colname="col2"> <p> {<span class="codeph"> Objeto</span>} objeto JSON con datos de localización. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md" format="dita" scope="local"> Localización de los elementos de la interfaz de usuario</a> para obtener más información. </p> <p>Consulte también la <i>Guía del usuario de Viewer SDK</i> y el ejemplo para obtener más información sobre el contenido del objeto. </p> </td> 
   </tr> 
  </tbody> 
 </table>

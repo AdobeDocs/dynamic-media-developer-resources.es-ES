@@ -1,6 +1,6 @@
 ---
-title: botón cerrar
-description: botón cerrar
+title: closebutton
+description: closebutton
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
@@ -8,11 +8,11 @@ exl-id: a9219ccd-f645-4bdd-a400-8ed6b1e8feec
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '22'
-ht-degree: 22%
+ht-degree: 18%
 
 ---
 
-# botón cerrar{#closebutton}
+# closebutton{#closebutton}
 
 `closebutton=0|1`
 
@@ -20,7 +20,7 @@ ht-degree: 22%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p> Establecer como <span class="codeph"> 1</span> para habilitar la visualización del botón de cierre o establecer en <span class="codeph"> 0</span> para ocultar el botón cerrar. </p> </td> 
+   <td colname="col2"> <p> Configure como. <span class="codeph"> 1</span> para habilitar la visualización del botón de cierre o establezca en <span class="codeph"> 0</span> para ocultar el botón de cierre. </p> </td> 
   </tr> 
  </tbody> 
 </table>

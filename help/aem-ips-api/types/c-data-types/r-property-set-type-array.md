@@ -22,4 +22,4 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| elementos | `types:PropertySetType` | Matriz de tipo de conjunto de propiedades. |
+| elementos | `types:PropertySetType` | Matriz de tipo del conjunto de propiedades. |

@@ -1,5 +1,5 @@
 ---
-description: Matriz de tipos de detalles de registros de trabajos auxiliares.
+description: Matriz de tipos de detalles de registro de trabajos auxiliares.
 solution: Experience Manager
 title: JobLogDetailAuxArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 20%
 
 # [!DNL JobLogDetailAuxArray]{#joblogdetailauxarray}
 
-Matriz de tipos de detalles de registros de trabajos auxiliares.
+Matriz de tipos de detalles de registro de trabajos auxiliares.
 
 Sintaxis
 
@@ -22,4 +22,4 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| elementos | `types:JobLogDetailAux` | Matriz de tipos de detalles auxiliares del registro de trabajos. |
+| elementos | `types:JobLogDetailAux` | Matriz de tipos de detalles de registro de trabajos auxiliares. |

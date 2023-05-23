@@ -1,19 +1,20 @@
 ---
 title: videoServerUrl
-description: URL para el visor de vídeo de recorte inteligente.
+description: Comando de URL para el visor de recorte inteligente de vídeos.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 9bd37d2c-c7ec-4f58-8328-45c0a156f330
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '55'
-ht-degree: 7%
+ht-degree: 5%
 
 ---
 
 # videoServerUrl{#videoserverurl}
 
-URL para el visor de vídeo de recorte inteligente.
+Comando de URL para el visor de recorte inteligente de vídeos.
 
 ` videoServerUrl= *`videoRootPath`*`
 
@@ -21,7 +22,7 @@ URL para el visor de vídeo de recorte inteligente.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> La ruta raíz del servidor de vídeo. Si no se especifica ningún dominio, se aplica en su lugar el dominio desde el que se sirve la página. Se aplica la resolución de ruta de URI estándar. </p> </td> 
+   <td colname="col2"> <p> Ruta raíz del servidor de vídeo. Si no se especifica ningún dominio, se aplica el dominio del servidor de la página. Se aplica la resolución de ruta URI estándar. </p> </td> 
   </tr> 
  </tbody> 
 </table>

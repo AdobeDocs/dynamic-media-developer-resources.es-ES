@@ -1,5 +1,5 @@
 ---
-description: Elimina un proyecto de una empresa. Los vínculos entre los recursos y el proyecto se rompen, pero los recursos no se eliminan de IPS.
+description: Elimina un proyecto de una compañía. Los vínculos entre los recursos y el proyecto están rotos, pero los recursos no se eliminan de IPS.
 solution: Experience Manager
 title: deleteProject
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # deleteProject{#deleteproject}
 
-Elimina un proyecto de una empresa. Los vínculos entre los recursos y el proyecto se rompen, pero los recursos no se eliminan de IPS.
+Elimina un proyecto de una compañía. Los vínculos entre los recursos y el proyecto están rotos, pero los recursos no se eliminan de IPS.
 
 Sintaxis
 
@@ -33,16 +33,16 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyName | `xsd:string` | Sí | Nombre de la empresa asociada al proyecto. |
+| companyName | `xsd:string` | Sí | El nombre de la empresa asociada con el proyecto. |
 | projectHandle | `xsd:string` | Sí | El identificador del proyecto que se va a eliminar. |
 
 **Salida (deleteProjectReturn)**
 
-La API IPS no devuelve una respuesta para esta operación.
+La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-e38507f1f7ec41b9a625f47390490254}
 
-Este ejemplo de código utiliza el identificador de la empresa y el identificador del proyecto como campos en deleteProjectParam enviados al servidor de servicios web IPS para eliminar el proyecto.
+En este ejemplo de código se utiliza el identificador de la compañía y el identificador del proyecto como campos del parámetro deleteProjectParam enviado al servidor de servicios Web IPS para eliminar el proyecto.
 
 **Solicitar**
 

@@ -49,13 +49,13 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> El identificador de la empresa con el mapa de imagen que desea guardar. </td> 
+   <td colname="col4"> El identificador de la compañía con el mapa de imagen que desea guardar. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> Identificador del recurso de imagen al que pertenece el mapa de imagen. </td> 
+   <td colname="col4"> El identificador del recurso de imagen al que pertenece el mapa de imagen. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageMapHandle </span> </span> </td> 
@@ -73,10 +73,10 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> shapeType </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> Forma de la región. </td> 
+   <td colname="col4"> Elección de la forma de región. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> region </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> región </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Sí </td> 
    <td colname="col4"> Lista de puntos delimitada por comas que definen la región. </td> 
@@ -85,16 +85,16 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> acción </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> <p>La variable <span class="codeph"> href </span> valor asociado con el mapa de imagen, tal como se especifica en la interfaz IPS. </p> <p>Para obtener la variable <span class="codeph"> href </span> , haga clic en la imagen en la interfaz IPS, copie y pegue la URL en este elemento y, a continuación, dé formato a la URL IPS como dirección URL adecuada. Por ejemplo, <span class="codeph"> &amp; </span> se convierte <span class="codeph"> &amp;amp; </span>. </p> </td> 
+   <td colname="col4"> <p>El <span class="codeph"> href </span> valor asociado al mapa de imagen según se especifica en la interfaz IPS. </p> <p>Para obtener la <span class="codeph"> href </span> , haga clic en la imagen en la interfaz IPS, copie y pegue la dirección URL en este elemento y, a continuación, aplique formato a la dirección URL IPS como dirección URL correcta. Por ejemplo, <span class="codeph"> &amp; </span> pasa a <span class="codeph"> &amp;amp; </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> position </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int </span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> El orden de la lista de mapas de imágenes (el eje Z). </td> 
+   <td colname="col4"> El orden en la lista de mapas de imagen (el eje Z). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> enabled </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> activado </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean </span> </td> 
    <td colname="col3"> Sí </td> 
    <td colname="col4"></td> 
@@ -106,7 +106,7 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| imageMapHandle | `xsd:string` | Sí | El identificador del mapa de imagen nuevo o editado. |
+| imageMapHandle | `xsd:string` | Sí | El controlador para el mapa de imagen nuevo o editado. |
 
 ## Ejemplos {#section-fdac488b640f427c8aa3d549c5032851}
 

@@ -7,7 +7,7 @@ role: Developer,User
 source-git-commit: dfd80e5727a128f272855f1f28e1bc89cb2436bf
 workflow-type: tm+mt
 source-wordcount: '26'
-ht-degree: 15%
+ht-degree: 11%
 
 ---
 
@@ -21,7 +21,7 @@ Atributo de configuración para el visor panorámico.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> false|true</span> </p> </td> 
-   <td colname="col2"> <p> Especifica si el modo de representación de realidad virtual está habilitado.</p> </td> 
+   <td colname="col2"> <p> Especifica si el modo de representación de realidad virtual está activado.</p> </td> 
   </tr> 
  </tbody> 
 </table>

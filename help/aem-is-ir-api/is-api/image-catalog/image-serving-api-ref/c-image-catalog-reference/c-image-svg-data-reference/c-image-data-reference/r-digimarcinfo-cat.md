@@ -1,6 +1,6 @@
 ---
 title: DigimarcInfo
-description: Información de imagen Digimarc. Habilita la incrustación de Digimarc y especifica el tipo de marca de agua y cualquier dato asociado específico de la imagen.
+description: Información de imagen de Digimarc. Habilita la incrustación de Digimarc y especifica el tipo de marca de agua y los datos específicos de imagen asociados.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 15%
 
 # DigimarcInfo{#digimarcinfo}
 
-Información de imagen Digimarc. Habilita la incrustación de Digimarc y especifica el tipo de marca de agua y cualquier dato asociado específico de la imagen.
+Información de imagen de Digimarc. Habilita la incrustación de Digimarc y especifica el tipo de marca de agua y los datos específicos de imagen asociados.
 
 ## Propiedades {#section-62af219e8bac422b8541841221c9ce4f}
 
-Cuatro valores enteros separados por comas.
+Cuatro valores enteros, separados por comas.
 
-`*`type`*, *`indicadores`*, *`val1`*, *`val2`*`
+`*`type`*, *`banderas`*, *`val1`*, *`val2`*`
 
 `*`type`*` habilita la incrustación de Digimarc y especifica el tipo de marca de agua:
 
@@ -28,7 +28,7 @@ Cuatro valores enteros separados por comas.
  <thead> 
   <tr> 
    <th class="entry"> <p><span class="codeph"> <span class="varname"> type</span> </span> </p> </th> 
-   <th class="entry"> <p><b>Tipo de marca de agua</b> </p> </th> 
+   <th class="entry"> <p><b>Tipo de filigrana</b> </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -50,17 +50,17 @@ Cuatro valores enteros separados por comas.
   </tr> 
   <tr> 
    <td> <p><b>4</b> </p> </td> 
-   <td> <p>Años de derechos de autor. </p> </td> 
+   <td> <p>Años de copyright. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-`*`indicadores`*` es un campo de bits con tres valores. Defina el bit 0 para indicar contenido protegido contra copia, el bit 1 para indicar contenido restringido y el bit 2 para indicar contenido adulto:
+`*`banderas`*` es un campo de bits con tres valores. Establezca el bit 0 para indicar contenido protegido contra copia, el bit 1 para indicar contenido restringido y el bit 2 para indicar contenido adulto:
 
 <table id="table_00F218515FBE484F9D05CBAF14F9D045"> 
  <thead> 
   <tr> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> indicadores</span> </span> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname"> banderas</span> </span> </p> </th> 
    <th class="entry"> <p><b>Descripción</b> </p> </th> 
   </tr> 
  </thead>
@@ -71,7 +71,7 @@ Cuatro valores enteros separados por comas.
   </tr> 
   <tr> 
    <td> <p><b>1</b> </p> </td> 
-   <td> <p>Protegido contra copias. </p> </td> 
+   <td> <p>Protegido contra copia. </p> </td> 
   </tr> 
   <tr> 
    <td> <p><b>2</b> </p> </td> 
@@ -83,19 +83,19 @@ Cuatro valores enteros separados por comas.
   </tr> 
   <tr> 
    <td> <p><b>4</b> </p> </td> 
-   <td> <p>Contenido maduro. </p> </td> 
+   <td> <p>Contenido adulto. </p> </td> 
   </tr> 
   <tr> 
    <td> <p><b>5</b> </p> </td> 
-   <td> <p>Copiar contenido adulto protegido. </p> </td> 
+   <td> <p>Contenido para adultos protegido por copia. </p> </td> 
   </tr> 
   <tr> 
    <td> <p><b>6</b> </p> </td> 
-   <td> <p>Contenido adulto restringido. </p> </td> 
+   <td> <p>Contenido restringido para adultos. </p> </td> 
   </tr> 
   <tr> 
    <td> <p><b>7</b> </p> </td> 
-   <td> <p>Contenido protegido contra copias, restringido y maduro. </p> </td> 
+   <td> <p>Contenido maduro, restringido y protegido contra copias. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -141,13 +141,13 @@ La interpretación de `*`val1`*` y `*`val2`*` depender de `*`type`*`:
 
 ## Predeterminado {#section-4bb97e5f79074be89cc691e73449eb43}
 
-Se hereda del atributo::DigimarcInfo si el campo no está presente o si está vacío.
+Se hereda de attribute::DigimarcInfo si el campo no está presente o si está vacío.
 
 ## Ejemplos {#section-0f14727a0a2a408781c9df71fed7f42d}
 
-&quot;0,0,0,0&quot; deshabilita la marca de agua Digimarc para esta imagen.
+&quot;0,0,0,0&quot; desactiva la marca de agua Digimarc para esta imagen.
 
-&quot;1,5,0,0&quot; especifica una marca de agua básica con el indicador de contenido para adultos y protegido contra copia establecido.
+&quot;1,5,0,0&quot; especifica una marca de agua básica con el indicador de contenido para adultos y protegido contra copias establecido.
 
 &quot;2,0,4567,0&quot; especifica una marca de agua con un ID de imagen.
 
@@ -157,4 +157,4 @@ Se hereda del atributo::DigimarcInfo si el campo no está presente o si está va
 
 ## Véase también {#section-4bd3e7272c5c4b8cb8c5ca1ac7ed1012}
 
-[atributo:DigimarcInfo](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcinfo.md#reference-de88636cb9b4435a94e3d0a80f072667) , [atributo::DigimarcId](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcid.md#reference-33e3eca7f1874510904e5c8645cecd68)
+[attribute::DigimarcInfo](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcinfo.md#reference-de88636cb9b4435a94e3d0a80f072667) , [attribute::DigimarcId](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcid.md#reference-33e3eca7f1874510904e5c8645cecd68)

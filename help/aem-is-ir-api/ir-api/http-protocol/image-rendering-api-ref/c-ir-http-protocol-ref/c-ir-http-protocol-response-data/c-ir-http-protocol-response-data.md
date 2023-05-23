@@ -1,5 +1,5 @@
 ---
-title: Datos de respuesta de protocolo HTTP
+title: Datos de respuesta del protocolo HTTP
 description: El procesamiento de imágenes genera encabezados de respuesta HTTP/1.1.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
@@ -12,6 +12,6 @@ ht-degree: 0%
 
 ---
 
-# Datos de respuesta de protocolo HTTP{#http-protocol-response-data}
+# Datos de respuesta del protocolo HTTP{#http-protocol-response-data}
 
 El procesamiento de imágenes genera encabezados de respuesta HTTP/1.1.

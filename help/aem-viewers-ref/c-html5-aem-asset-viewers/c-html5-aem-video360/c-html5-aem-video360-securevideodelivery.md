@@ -18,19 +18,19 @@ ht-degree: 0%
 >
 >HTTP Secure Video Delivery applies only to AEM 6.2 with the installation of [Feature Pack-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480) and to AEM 6.1 with installation of [Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011). -->
 
-Si el visor funciona en una configuración como se describe al principio de esta sección, la entrega de vídeo publicado puede realizarse tanto en los modos HTTPS (seguro) como HTTP (inseguro). En una configuración predeterminada, el protocolo de entrega de vídeo sigue estrictamente el protocolo de entrega de la página web de incrustación. Sin embargo, es posible forzar el envío de vídeo HTTPS independientemente del protocolo utilizado al incrustar la página web utilizando el atributo de configuración [Video360Player.ssl](/help/aem-viewers-ref/c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-ssl.md) . (La vista previa de vídeo en modo Autor siempre se entrega de forma segura a través de HTTPS).
+Si el visualizador funciona en la configuración tal como se describe al principio de esta sección, la entrega de vídeo publicado puede producirse en los modos HTTPS (seguro) y HTTP (no seguro). En una configuración predeterminada, el protocolo de entrega de vídeo sigue estrictamente el protocolo de entrega de la página web en la que se incorpora. Sin embargo, es posible forzar la entrega de vídeo HTTPS independientemente del protocolo utilizado al incrustar la página web utilizando [Video360Player.ssl](/help/aem-viewers-ref/c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-ssl.md) atributo de configuración. (La previsualización de vídeo en el modo Autor siempre se entrega de forma segura a través de HTTPS).
 
-Según el método de publicación de vídeo de Dynamic Media que utilice en Adobe Experience Manager, el atributo de configuración `Video360Player.ssl` se aplica de forma diferente, como se muestra en lo siguiente:
+Según el método de publicación de vídeo de Dynamic Media que utilice en Adobe Experience Manager, la variable `Video360Player.ssl` El atributo de configuración de se aplica de forma diferente como se muestra en los siguientes ejemplos:
 
-* Si publica un vídeo de Dynamic Media con una dirección URL, anexe `Video360Player.ssl` a la dirección URL. Por ejemplo, para forzar el envío seguro de vídeo, añada `&Video360Player.ssl=on` al final del siguiente ejemplo de URL de visor:
+* Si publica un vídeo de Dynamic Media con una dirección URL, debe adjuntar `Video360Player.ssl` a la dirección URL. Por ejemplo, para forzar la entrega de vídeo seguro, añada `&Video360Player.ssl=on` al final del siguiente ejemplo de URL del visor:
 
    ```
    https://demos-pub.assetsadobe.com/etc/dam/viewers/s7viewers/html5/Video360Viewer.html?asset=%2Fcontent%2Fdam%2Fmarketing%2Fshoppable-video%2Fadobe-axis-demo%2FAdobe_AXIS_V3_GRADED-HD.mp4&config=/etc/dam/presets/viewer/Video&serverUrl=https%3A%2F%2Fadobedemo62-h.assetsadobe.com%2Fis%2Fimage%2F&contenturl=%2F&config2=/etc/dam/presets/analytics&videoserverurl=https://gateway-na.assetsadobe.com/DMGateway/public/demoCo&posterimage=/content/dam/marketing/shoppable-video/adobe-axis-demo/Adobe_AXIS_V3_GRADED-HD.mp4&Video360Player.ssl=on
    ```
 
-   Consulte también [Vinculación de URL a su aplicación web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic).
+   Consulte también [Vinculación de URL en la aplicación web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic).
 
-* Si publica un vídeo de Dynamic Media con código incrustado, añada `Video360Player.ssl` a la lista de otros parámetros de configuración del visor en el fragmento de código incrustado. Por ejemplo, para forzar el envío de vídeo HTTPS, añada `&Video360Player.ssl=on` como en el siguiente ejemplo:
+* Si publica un vídeo de Dynamic Media con código incrustado, agregará lo siguiente `Video360Player.ssl` a la lista de otros parámetros de configuración del visor en el fragmento de código incrustado. Por ejemplo, para forzar la entrega de vídeo HTTPS, debe adjuntar `&Video360Player.ssl=on` como en el ejemplo siguiente:
 
    ```
    <style type="text/css"> 

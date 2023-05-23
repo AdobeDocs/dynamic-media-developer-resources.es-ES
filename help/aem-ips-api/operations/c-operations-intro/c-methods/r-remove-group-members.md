@@ -1,5 +1,5 @@
 ---
-description: Quita a los usuarios de la empresa de un grupo específico.
+description: Quita los usuarios de la empresa de un grupo específico.
 solution: Experience Manager
 title: removeGroupMembers
 feature: Dynamic Media Classic,SDK/API
@@ -14,12 +14,12 @@ ht-degree: 10%
 
 # removeGroupMembers{#removegroupmembers}
 
-Quita a los usuarios de la empresa de un grupo específico.
+Quita los usuarios de la empresa de un grupo específico.
 
 **Diferencias entre los comandos Quitar**
 
-* `removeGroupMembers`: Quita varios usuarios de un grupo.
-* `removeGroupMembership`: Quita un usuario individual de una matriz de grupos.
+* `removeGroupMembers`: elimina varios usuarios de un grupo.
+* `removeGroupMembership`: quita un usuario individual de una matriz de grupos.
 
 ## Tipos de usuarios autorizados {#section-2c64cdac15184fbba6c7b2945b5d87f7}
 
@@ -33,17 +33,17 @@ Quita a los usuarios de la empresa de un grupo específico.
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | El identificador de la empresa con los usuarios con los que desea trabajar. |
+| companyHandle | `xsd:string` | Sí | El identificador de la compañía con los usuarios con los que desea trabajar. |
 | groupHandle | `xsd:string` | Sí | Identificador de grupo. |
-| userHandleArray | `types:HandleArray` | Sí | Matriz de controladores para usuarios cuyas pertenencias de grupo desee eliminar. |
+| userHandleArray | `types:HandleArray` | Sí | Matriz de identificadores de usuarios cuyas pertenencias de grupo desea quitar. |
 
 **Salida (removeGroupMembersParam)**
 
-La API IPS no devuelve una respuesta para esta operación.
+La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-9eedac852cea46ec80de6a6928bf97ac}
 
-Este ejemplo de código elimina a un usuario de la empresa especificada. Elimine varios usuarios de un grupo con la matriz de control de usuario.
+Este ejemplo de código quita un usuario de la compañía especificada. Quitar varios usuarios de un grupo con la matriz de identificadores de usuario.
 
 **Solicitar**
 

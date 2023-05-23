@@ -1,31 +1,31 @@
 ---
-description: Aplicar opciones de trabajo PDF. Un archivo de opciones de trabajo o un ajuste preestablecido de PDF es un archivo generado por Illustrator en el cuadro de diálogo Opciones de Guardar como PDF o en los ajustes preestablecidos de PDF en InDesign.
+description: Aplicar opciones de trabajo de PDF. Un archivo de opciones de trabajo o ajuste preestablecido de PDF es un archivo generado por Illustrator en el cuadro de diálogo de opciones Guardar como PDF o en Ajustes preestablecidos de PDF en InDesign.
 solution: Experience Manager
-title: joboption
+title: opción de trabajo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8e7224e7-d801-4550-b95e-24d15734043a
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 47%
+source-wordcount: '228'
+ht-degree: 48%
 
 ---
 
-# joboption{#joboption}
+# opción de trabajo{#joboption}
 
-Aplicar opciones de trabajo PDF. Un archivo de opciones de trabajo o un ajuste preestablecido de PDF es un archivo generado por Illustrator en el cuadro de diálogo Opciones de Guardar como PDF o en los ajustes preestablecidos de PDF en InDesign.
+Aplicar opciones de trabajo de PDF. Un archivo de opciones de trabajo o ajuste preestablecido de PDF es un archivo generado por Illustrator en el cuadro de diálogo de opciones Guardar como PDF o en Ajustes preestablecidos de PDF en InDesign.
 
 ` joboption= *`basado en IP`*`
 
 <table id="simpletable_BA7B58BE0B0740298D45DDEBE7832D93"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> value</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> valor</span></span> </p> </td> 
   <td class="stentry"> <p>El IPSID del archivo de opciones de trabajo. </p></td> 
  </tr> 
 </table>
 
-IPS/Dynamic Media Classic pueden cargar y publicar el archivo de opciones de trabajo. Las opciones de PDF incluidas en el archivo de opciones de trabajo se utilizan cuando se genera el PDF.
+IPS/Dynamic Media Classic puede cargar y publicar el archivo de opciones de trabajo. Las opciones del PDF contenidas en el fichero de opciones de trabajo se utilizan cuando se genera el PDF.
 
 Actualmente se admiten las siguientes opciones:
 

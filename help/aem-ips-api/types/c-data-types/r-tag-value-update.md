@@ -1,5 +1,5 @@
 ---
-description: Define los valores de campo de etiqueta antiguos y nuevos.
+description: Define los valores antiguos y nuevos de los campos de etiquetas.
 solution: Experience Manager
 title: TagValueUpdate
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 16%
 
 # [!DNL TagValueUpdate]{#tagvalueupdate}
 
-Define los valores de campo de etiqueta antiguos y nuevos.
+Define los valores antiguos y nuevos de los campos de etiquetas.
 
 Sintaxis
 
@@ -23,4 +23,4 @@ Sintaxis
 | Nombre | Tipo | Descripción |
 |---|---|---|
 | oldValue | `xsd:string` | Valor del campo de etiqueta original. |
-| newValue | `xsd:string` | Nuevo valor del campo de etiqueta. |
+| newValue | `xsd:string` | Nuevo valor de campo de etiqueta. |

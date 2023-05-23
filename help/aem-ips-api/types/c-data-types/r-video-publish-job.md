@@ -22,6 +22,6 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| emailSetting | `xsd:string` | Elección de la configuración del correo electrónico. |
+| emailSetting | `xsd:string` | Opción de configuración de correo electrónico. |
 | httpCompletionUrl | `xsd:string` | URL para enviar un aviso de finalización. |
-| contextHandle | `xsd:string` | Gestionar en el contexto de publicación. |
+| contextHandle | `xsd:string` | Administrar en el contexto de publicación. |

@@ -20,9 +20,9 @@ Sintaxis
 
 <!--<a id="section_FE43FF204ED644C2AC901AF45982E942"></a>-->
 
-Los recursos derivados especifican comandos de protocolo del servidor de imágenes que modifican la representación de la imagen del propietario. La variable `AdjustedView` el tipo derivado ayuda a aplicar modificaciones simples a una sola imagen (por ejemplo, especificando un rectángulo de recorte), mientras que la variable `LayerView` ayuda a crear una vista de varias capas que puede incluir texto o imágenes adicionales.
+Los recursos derivados especifican comandos de protocolo del servidor de imágenes que modifican la representación de la imagen del propietario. El `AdjustedView` tipo derivado ayuda a aplicar modificaciones sencillas a una sola imagen (por ejemplo, especificando un rectángulo de recorte), mientras que la variable `LayerView` ayuda a crear una vista de varias capas que pueden incluir texto o imágenes adicionales.
 
-A diferencia de una copia de imagen (consulte [copyImage](../../../operations/c-operations-intro/c-methods/r-copy-image.md#reference-0785131e690b4ad08be69172023f35d0)), una imagen derivada está vinculada a su imagen de propietario. Los cambios realizados en la imagen del propietario modifican los recursos derivados asociados. Al eliminar la imagen del propietario, se eliminarán las imágenes derivadas asociadas.
+A diferencia de una copia de imagen (consulte [copyImage](../../../operations/c-operations-intro/c-methods/r-copy-image.md#reference-0785131e690b4ad08be69172023f35d0)), una imagen derivada está vinculada a su imagen propietaria. Los cambios en la imagen de propietario modifican los recursos derivados asociados. Al eliminar la imagen de propietario, se eliminarán todas las imágenes derivadas asociadas.
 
 ## Tipos de usuarios autorizados {#authorized-user-types}
 
@@ -39,13 +39,13 @@ A diferencia de una copia de imagen (consulte [copyImage](../../../operations/c-
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | El identificador de la empresa que contiene el recurso del que derivará el nuevo recurso. |
+| companyHandle | `xsd:string` | Sí | El identificador de la compañía que contiene el recurso del que derivará el nuevo recurso. |
 | ownerHandle | `xsd:string` | Sí | El identificador del recurso de imagen principal del que se deriva la nueva imagen. |
 | folderHandle | `xsd:string` | Sí | El identificador de la carpeta en la que se crea el nuevo recurso derivado. |
-| name | `xsd:string` | Sí | Nombre del recurso derivado. |
+| nombre | `xsd:string` | Sí | Nombre del recurso derivado. |
 | tipo | `xsd:string` | Sí | El tipo de recurso del nuevo recurso derivado: `AdjustedView` o `LayerView`. |
-| urlModifier | `xsd:string` | No | Comandos de protocolo de servicio o representación de imágenes aplicados *before* la solicitud o `urlPostApplyModifier` comandos. |
-| urlPostApplyModifier | `xsd:string` | No | Comandos de protocolo de servicio o representación de imágenes aplicados *after* a la solicitud o `urlPostApplyModifier` comandos. |
+| urlModifier | `xsd:string` | No | Comandos del protocolo de servicio o procesamiento de imágenes aplicados *antes* la solicitud o `urlPostApplyModifier` comandos. |
+| urlPostApplyModifier | `xsd:string` | No | Comandos del protocolo de servicio o procesamiento de imágenes aplicados *después* a la solicitud o `urlPostApplyModifier` comandos. |
 
 **Salida (createDerivedAssetParam)**
 

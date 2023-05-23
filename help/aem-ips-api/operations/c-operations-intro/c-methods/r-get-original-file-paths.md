@@ -1,5 +1,5 @@
 ---
-description: Obtiene las rutas de archivo originales de los recursos de una empresa.
+description: Obtiene las rutas de acceso al archivo original de los recursos de una empresa.
 solution: Experience Manager
 title: getOriginalFilePaths
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 16%
 
 # getOriginalFilePaths{#getoriginalfilepaths}
 
-Obtiene las rutas de archivo originales de los recursos de una empresa.
+Obtiene las rutas de acceso al archivo original de los recursos de una empresa.
 
 Sintaxis
 
@@ -38,18 +38,18 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | El identificador de la empresa. |
-| assetHandleArray | `types:HandleArray` | Sí | Matriz de identificadores a recursos cuya ruta de archivo original desea obtener. |
+| companyHandle | `xsd:string` | Sí | El identificador de la compañía. |
+| assetHandleArray | `types:HandleArray` | Sí | Matriz de identificadores de recursos cuya ruta de archivo original desea obtener. |
 
 **Salida (getOriginalFilePathsReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| originalFileArray | `types:StringArray` | Sí | Matriz de cadenas que representan las rutas de archivo originales. |
+| originalFileArray | `types:StringArray` | Sí | Matriz de cadenas que representan las rutas de acceso del archivo original. |
 
 ## Ejemplos {#section-a966e783a2ba49f5b6b0f961329ab2f8}
 
-Este ejemplo de código devuelve las rutas de archivos de los recursos especificados con controladores de recursos únicos en una matriz de gestión de recursos.
+Este ejemplo de código devuelve las rutas de archivo de los recursos especificados con identificadores de recursos únicos en una matriz de identificadores de recursos.
 
 **Solicitar**
 

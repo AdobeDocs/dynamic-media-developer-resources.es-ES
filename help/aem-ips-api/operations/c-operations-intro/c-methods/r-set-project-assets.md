@@ -1,5 +1,5 @@
 ---
-description: Asigne o actualice recursos en un proyecto.
+description: Asignar o actualizar recursos en un proyecto.
 solution: Experience Manager
 title: setProjectAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 20%
 
 # setProjectAssets{#setprojectassets}
 
-Asigne o actualice recursos en un proyecto.
+Asignar o actualizar recursos en un proyecto.
 
 Sintaxis
 
@@ -33,15 +33,15 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyName | `xsd:string` | Sí | Identificador de la empresa. |
-| projectHandle | `xsd:string` | Sí | Identificador del proyecto. |
-| assetHandleArray | `types:HandleArray` | Sí | Matriz de controladores de recursos que desea asociar al proyecto. |
+| companyName | `xsd:string` | Sí | Manejo de la compañía. |
+| projectHandle | `xsd:string` | Sí | Controlador de proyecto. |
+| assetHandleArray | `types:HandleArray` | Sí | Matriz de identificadores de recursos que desea asociar al proyecto. |
 
 **Salida (setProjectAssetsReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| successCount | `xsd:int` | Sí | El número de recursos agregados correctamente. |
+| successCount | `xsd:int` | Sí | Número de recursos agregados correctamente. |
 
 ## Ejemplos {#section-33c1a909c3dc4aa98da474c23a036596}
 

@@ -1,5 +1,5 @@
 ---
-description: Agrega un usuario a una o más empresas.
+description: Agrega un usuario a una o varias empresas.
 solution: Experience Manager
 title: addCompanyMembership
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 # addCompanyMembership{#addcompanymembership}
 
-Agrega un usuario a una o más empresas.
+Agrega un usuario a una o varias empresas.
 
 Sintaxis
 
@@ -32,15 +32,15 @@ Sintaxis
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
 | userHandle | `xsd:string` | No | El identificador del usuario cuya pertenencia desea agregar. |
-| membershipArray | `types:CompanyMembershipUpdateArray` | Sí | Matriz de empresas a las que va a agregar el usuario. |
+| subscriptionArray | `types:CompanyMembershipUpdateArray` | Sí | Una matriz de empresas a las que agrega el usuario. |
 
 **Salida (addCompanyMembershipReturn)**
 
-La API IPS no devuelve una respuesta para esta operación.
+La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-5469f88bac7047cca131faa6b021e437}
 
-Este ejemplo utiliza companyHandleArray para agregar un usuario a una sola empresa.
+En este ejemplo se utiliza companyHandleArray para agregar un usuario a una sola compañía.
 
 **Solicitar**
 

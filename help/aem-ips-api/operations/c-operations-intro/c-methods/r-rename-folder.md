@@ -1,7 +1,7 @@
 ---
 description: Cambia el nombre de una carpeta.
 solution: Experience Manager
-title: filenameFolder
+title: enameFolder
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 2d4f1059-8018-4efb-a1ec-8eb560b1a58f
@@ -12,7 +12,7 @@ ht-degree: 22%
 
 ---
 
-# filenameFolder{#renamefolder}
+# enameFolder{#renamefolder}
 
 Cambia el nombre de una carpeta.
 
@@ -33,19 +33,19 @@ Sintaxis
 
 ## Parámetros {#section-6fcee63dc3f74a5b90e1d71e59eb255c}
 
-**Entrada (cambiar nombre de parámetro de carpeta)**
+**Entrada (RenameFolderParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | Gestione a la empresa las carpetas a las que desee cambiar el nombre. |
-| folderHandle | `xsd:string` | Sí | Gestione en la carpeta . |
+| companyHandle | `xsd:string` | Sí | Envíe a la empresa las carpetas cuyo nombre desee cambiar. |
+| folderHandle | `xsd:string` | Sí | Administrar en la carpeta. |
 | folderName | `xsd:string` | Sí | Nuevo nombre de carpeta. |
 
-**Salida (filenameFolderReturn)**
+**Salida (RenameFolderReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| folderHandle | `xsd:string` | Sí | Gestione en la carpeta con el nombre cambiado. |
+| folderHandle | `xsd:string` | Sí | Gestionar en la carpeta renombrada. |
 
 ## Ejemplos {#section-98bdd2f88d164f488676e90aba1dc864}
 

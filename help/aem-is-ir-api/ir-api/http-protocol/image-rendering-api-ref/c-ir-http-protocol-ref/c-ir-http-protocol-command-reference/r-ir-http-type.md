@@ -8,7 +8,7 @@ exl-id: 333b8954-e256-4ba1-8055-c4d625470673
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 24%
+ht-degree: 17%
 
 ---
 
@@ -41,7 +41,7 @@ Tipo de superficie de material. Especifica el tipo de superficie del material.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p></td> 
-  <td class="stentry"> <p>Metal anticuado </p></td> 
+  <td class="stentry"> <p>Metal antiguo </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>6 </p></td> 
@@ -49,7 +49,7 @@ Tipo de superficie de material. Especifica el tipo de superficie del material.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>7 </p></td> 
-  <td class="stentry"> <p>Ensamblado/Laca </p></td> 
+  <td class="stentry"> <p>Esmalte/Laca </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>8 </p></td> 
@@ -93,7 +93,7 @@ Tipo de superficie de material. Especifica el tipo de superficie del material.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>18 </p></td> 
-  <td class="stentry"> <p>Tejido de hojas </p></td> 
+  <td class="stentry"> <p>Tela pura </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>19 </p></td> 
@@ -101,16 +101,16 @@ Tipo de superficie de material. Especifica el tipo de superficie del material.
  </tr> 
 </table>
 
-Se usa con `gloss=` y `rough=` para controlar los comportamientos de efecto de reflejo y brillo. Los distintos materiales producen efectos diferentes, incluso si `gloss=` y `rough=` son iguales.
+Se utiliza con `gloss=` y `rough=` para controlar los comportamientos de reflexión y efecto de brillo. Diferentes materiales producen diferentes efectos, incluso si `gloss=` y `rough=` son iguales.
 
 ## Propiedades {#section-2345b2508273426295ce8ac46182ea64}
 
-Atributo de material. Se omite si la viñeta no incluye datos de reflejo 3D o si los efectos de brillo están desactivados en la viñeta.
+Atributo de material. Se ignora si la viñeta no incluye datos de reflexión 3D o si los efectos de brillo están desactivados en la viñeta.
 
 ## Predeterminado {#section-0989055fb74a41a3b2f2a47fe7d90a42}
 
-`catalog::Type` Si el material está basado en una entrada de catálogo. De otro modo `type=0`. Si no se especifica, o si `type=0`, el servidor selecciona un valor predeterminado adecuado en función del objeto de destino y de los demás atributos de material.
+`catalog::Type` Si el material se basa en una entrada de catálogo. Caso contrario `type=0`. Si no se especifica, o si `type=0`, el servidor selecciona un valor por defecto adecuado en función del objeto de destino y de los demás atributos de material.
 
 ## Véase también {#section-7cf808b0bb3d4b4fbb7b9a850d5a038b}
 
-[gloss=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) , [round=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180)
+[gloss=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) , [áspero=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180)

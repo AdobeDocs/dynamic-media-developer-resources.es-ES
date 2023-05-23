@@ -1,5 +1,5 @@
 ---
-description: Matriz de valores para un campo de etiqueta.
+description: Matriz de valores de un campo de etiqueta.
 solution: Experience Manager
 title: TagFieldValues
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 # [!DNL TagFieldValues]{#tagfieldvalues}
 
-Matriz de valores para un campo de etiqueta.
+Matriz de valores de un campo de etiqueta.
 
 Sintaxis
 
@@ -22,5 +22,5 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| fieldHandle | `xsd:string` | Identificador de campo de etiqueta. |
-| valueArray | `xsd:StringArray` | Matriz de valores para un campo de etiqueta. |
+| fieldHandle | `xsd:string` | Controlador de campo de etiqueta. |
+| valueArray | `xsd:StringArray` | Matriz de valores de un campo de etiqueta. |

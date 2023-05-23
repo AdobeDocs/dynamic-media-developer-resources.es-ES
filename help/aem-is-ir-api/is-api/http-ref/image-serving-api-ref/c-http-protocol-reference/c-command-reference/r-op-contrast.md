@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 0216f22e-a3b3-4dda-89c2-9c6c2c81cab3
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 2%
+source-wordcount: '137'
+ht-degree: 1%
 
 ---
 
@@ -27,16 +27,16 @@ Ajuste el contraste. Ajusta el contraste de la imagen aumentando el brillo de lo
 
 ## Propiedades {#section-d319ed55057344eab0a3c93f720acdbf}
 
-Capa. Se aplica a la capa actual o a la imagen compuesta si `layer=comp`. Ignorado por capas de efecto.
+Capa, comando. Se aplica a la capa actual o a la imagen compuesta si `layer=comp`. Ignorado por las capas de efecto.
 
 ## Predeterminado {#section-896d1b1f7f084e929355a4684f3e833b}
 
-`op_contrast=0`, sin ningún cambio en el contraste. Las imágenes o capas CMYK se convierten a RGB antes de aplicar la operación.
+`op_contrast=0`, para no cambiar de contraste. Las imágenes o capas CMYK se convierten en RGB antes de que se aplique la operación.
 
 ## Ejemplo {#section-94bc4348b4bc4f0e9768ea1c45ca8340}
 
-Disminuya el contraste y la nitidez de una capa de imagen de mayor calidad para que coincida visualmente con una foto de fondo de baja calidad:
+Disminuya el contraste y la nitidez de una capa de imagen de mayor calidad para hacerla coincidir visualmente con una foto de fondo de baja calidad:
 
-... `&op_blur=3&op_contrast=-12&`
+… `&op_blur=3&op_contrast=-12&`
 
-Una versión futura puede utilizar el brillo medio de la imagen en lugar de un brillo fijo del 50%.
+Una versión futura puede utilizar el brillo medio de la imagen en lugar de un brillo fijo del 50 %.

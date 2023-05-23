@@ -29,17 +29,17 @@ Devuelve información sobre la estructura de una empresa (número de archivos, e
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | El identificador de la empresa cuyo uso de disco desea obtener. |
+| companyHandle | `xsd:string` | Sí | El identificador de la compañía cuyo uso de disco desea obtener. |
 
 **Salida (getDiskUsageReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| diskUsageArray | `types:DiskUsageArray` | Sí | Matriz de uso del disco de la empresa. |
+| diskUsageArray | `types:DiskUsageArray` | Sí | Matriz de usuarios del disco de la empresa. |
 
 ## Ejemplos {#section-cb16a97badc94076ad5da277db5ed16a}
 
-El nombre de esta solicitud es engañoso. En lugar de devolver simplemente un valor escalar que refleje cuánto espacio en disco está utilizando una empresa, obtiene también otra información sobre la estructura de una empresa.
+El nombre de esta solicitud es engañoso. En lugar de devolver simplemente un valor escalar que refleje cuánto espacio en disco está utilizando una empresa, también obtiene otra información sobre la estructura de una empresa.
 
 **Solicitar**
 

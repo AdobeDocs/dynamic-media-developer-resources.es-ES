@@ -1,5 +1,5 @@
 ---
-description: Obtiene una matriz de usuarios según lo especificado por los controladores de empresa, grupo y función de usuario. Esta operación permite ordenar los usuarios devueltos y filtrar por carácter.
+description: Obtiene una matriz de usuarios según lo especificado por los identificadores de compañía, grupo y función de usuario. Esta operación permite ordenar los usuarios devueltos y filtrar por carácter.
 solution: Experience Manager
 title: getUsers
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # getUsers{#getusers}
 
-Obtiene una matriz de usuarios según lo especificado por los controladores de empresa, grupo y función de usuario. Esta operación permite ordenar los usuarios devueltos y filtrar por carácter.
+Obtiene una matriz de usuarios según lo especificado por los identificadores de compañía, grupo y función de usuario. Esta operación permite ordenar los usuarios devueltos y filtrar por carácter.
 
 ## Tipos de usuarios autorizados {#section-6a8f23cc6b22442d8776f701016971ed}
 
@@ -26,16 +26,16 @@ Obtiene una matriz de usuarios según lo especificado por los controladores de e
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| includeInactive | `xsd:boolean` | No | Incluir o excluir usuarios inactivos. Los usuarios administradores que no sean de IPS deben ser miembros activos de al menos una empresa para poder realizar llamadas de API. Se devuelve un error de autorización si el usuario no tiene membresías activas de la empresa. |
+| includeInactive | `xsd:boolean` | No | Incluir o excluir usuarios inactivos. Los usuarios que no son administradores de IPS deben ser miembros activos de al menos una compañía para poder realizar llamadas de API. Se devuelve un error de autorización si el usuario no tiene ninguna pertenencia activa a la compañía. |
 | includeInvalid | `xsd:boolean` | No | Permite incluir o excluir usuarios no válidos. |
-| companyHandleArray | `types:HandleArray` | No | Filtrar resultados por empresa. |
-| groupHandleArray | `types:HandleArray` | No | Filtrar resultados por grupo. |
-| userRoleArray | `types:StringArray` | No | Filtre los resultados por función de usuario. |
-| charFilterField | `xsd:string` | No | Filtrar los resultados por el prefijo de cadena del campo (consulte [!DNL Trash State).] |
-| charFilter | `xsd:string` | No | Filtre los resultados por un carácter específico. |
-| sortBy | `xsd:string` | No | Selección de campos de ordenación por el usuario. |
+| companyHandleArray | `types:HandleArray` | No | Filtrar los resultados por empresa. |
+| groupHandleArray | `types:HandleArray` | No | Filtrar los resultados por grupo. |
+| userRoleArray | `types:StringArray` | No | Filtrar los resultados por función de usuario. |
+| charFilterField | `xsd:string` | No | Filtrar los resultados por prefijo de cadena del campo (consulte [!DNL Trash State).] |
+| charFilter | `xsd:string` | No | Filtrar los resultados por un carácter específico. |
+| sortBy | `xsd:string` | No | Elección de los campos de ordenación del usuario. |
 | recordsPerPage | `xsd:int` | No | Devuelve el número especificado de registros por página. |
-| resultsPage | `xsd:int` | No | Resultados . |
+| resultsPage | `xsd:int` | No | Página de resultados. |
 
 **Salida (getUsersReturn)**
 
@@ -45,7 +45,7 @@ Obtiene una matriz de usuarios según lo especificado por los controladores de e
 
 ## Ejemplos {#section-bc43a5dd7b4c4f048d25fc881554dab2}
 
-Este ejemplo de código devuelve la matriz de usuarios para varios parámetros opcionales. Las funciones de usuario, los campos de filtro de caracteres de usuario y los campos de ordenación de usuario se determinan mediante el uso de constantes de cadena específicas.
+Este ejemplo de código devuelve la matriz de usuarios para varios parámetros opcionales. Las funciones de usuario, los campos de filtro de caracteres de usuario y los campos de ordenación de usuarios se determinan mediante constantes de cadena específicas.
 
 **Solicitar**
 

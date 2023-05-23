@@ -1,5 +1,5 @@
 ---
-description: Devuelve 2 tipos diferentes de información en función de los parámetros transferidos. originatorHandle devuelve información sobre los recursos generados a partir del recurso especificado. generateHandle devuelve información sobre los pasos utilizados para generar el recurso o archivo especificado.
+description: Devuelve dos tipos diferentes de información en función de los parámetros pasados. originatorHandle devuelve información sobre los recursos generados a partir del recurso especificado. generateHandle devuelve información sobre los pasos utilizados para generar el recurso o archivo especificado.
 solution: Experience Manager
 title: getGenerationInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # getGenerationInfo{#getgenerationinfo}
 
-Devuelve 2 tipos diferentes de información en función de los parámetros transferidos. originatorHandle devuelve información sobre los recursos generados a partir del recurso especificado. generateHandle devuelve información sobre los pasos utilizados para generar el recurso o archivo especificado.
+Devuelve dos tipos diferentes de información en función de los parámetros pasados. originatorHandle devuelve información sobre los recursos generados a partir del recurso especificado. generateHandle devuelve información sobre los pasos utilizados para generar el recurso o archivo especificado.
 
 Sintaxis
 
@@ -36,10 +36,10 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| Frase de código | `xsd:string` | Sí | El identificador de la empresa. |
-| Frase de código | `xsd:string` | No | Motor utilizado en la generación. Consulte Estilos de fuente. |
-| Frase de código | `xsd:string` | No | El controlador del recurso que se va a consultar para los recursos generados. |
-| Frase de código | `xsd:string` | No | El controlador del recurso que se va a consultar para los recursos y motores utilizados en su generación. |
+| Frase de código | `xsd:string` | Sí | El identificador de la compañía. |
+| Frase de código | `xsd:string` | No | El motor que se utilizó en la generación. Consulte Estilos de fuente. |
+| Frase de código | `xsd:string` | No | El identificador del recurso al que consultar los recursos generados. |
+| Frase de código | `xsd:string` | No | El identificador del recurso para consultar los recursos y motores utilizados en su generación. |
 | Frase de código | `xsd:StringArray` | No | Propiedades incluidas en la operación. |
 | Frase de código | `xsd:StringArray` | No | Propiedades excluidas de la operación. |
 
@@ -51,7 +51,7 @@ Sintaxis
 
 ## Ejemplos {#section-fdffe6ed82d94c7aa90e47f7ce889403}
 
-Este ejemplo de código devuelve información sobre los recursos generados a partir de un recurso específico. No recupera información sobre los pasos utilizados para generar el recurso especificado. La respuesta se trunca para su brevedad.
+Este ejemplo de código devuelve información sobre los recursos generados a partir de un recurso específico. No recupera información sobre los pasos utilizados para generar el recurso especificado. La respuesta se trunca por su brevedad.
 
 **Solicitar**
 

@@ -22,4 +22,4 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| elementos | `types:TaskItemProgress` | Matriz de progreso del elemento de tarea. La incidencia mínima es cero. Maximum está sin límite. |
+| elementos | `types:TaskItemProgress` | Matriz de progreso de elemento de tarea. La incidencia mínima es cero. El máximo es ilimitado. |

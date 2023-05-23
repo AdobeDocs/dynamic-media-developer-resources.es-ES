@@ -1,5 +1,5 @@
 ---
-description: Matriz de contextos de publicación.
+description: Una matriz de contextos de publicación.
 solution: Experience Manager
 title: PublishContextArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 22%
 
 # [!DNL PublishContextArray]{#publishcontextarray}
 
-Matriz de contextos de publicación.
+Una matriz de contextos de publicación.
 
 Sintaxis
 
@@ -22,4 +22,4 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| PublishContextArray | `types:PublishContext` | Matriz de contextos de publicación. |
+| PublishContextArray | `types:PublishContext` | Una matriz de contextos de publicación. |

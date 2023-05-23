@@ -1,6 +1,6 @@
 ---
-title: Solicitudes de renderización de imágenes anidadas
-description: Para aplicaciones avanzadas, es posible utilizar el resultado de una operación de renderización como imagen material, al igual que una imagen obtenida de Image Serving.
+title: Solicitudes de procesamiento de imágenes anidadas
+description: Para aplicaciones avanzadas, es posible utilizar el resultado de una operación de procesamiento como imagen material, al igual que una imagen obtenida del servicio de imágenes.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,19 +12,19 @@ ht-degree: 0%
 
 ---
 
-# Solicitudes de renderización de imágenes anidadas{#nested-image-rendering-requests}
+# Solicitudes de procesamiento de imágenes anidadas{#nested-image-rendering-requests}
 
-Para aplicaciones avanzadas, es posible utilizar el resultado de una operación de renderización como imagen material, al igual que una imagen obtenida de Image Serving.
+Para aplicaciones avanzadas, es posible utilizar el resultado de una operación de procesamiento como imagen material, al igual que una imagen obtenida del servicio de imágenes.
 
-Una solicitud de renderización puede utilizarse como imagen material especificándola en la variable `src=` como se indica a continuación:
+Una solicitud de procesamiento se puede utilizar como imagen material especificándola en la variable `src=` como se indica a continuación:
 
 ` …&src=ir{ *[!DNL renderRequest]*}&…`
 
-La variable `ir` distingue entre mayúsculas y minúsculas.
+El `ir` distingue entre mayúsculas y minúsculas.
 
-La solicitud anidada no debe incluir la ruta raíz de renderización de imágenes (normalmente `http:// *[!DNL server]*/ir/render/'`), pero puede incluir tokens de reglas de preprocesamiento.
+La solicitud anidada no debe incluir la ruta raíz del procesamiento de imágenes (normalmente, `http:// *[!DNL server]*/ir/render/'`), pero puede incluir tokens de reglas de preprocesamiento.
 
-Los siguientes comandos se omiten cuando se especifican en solicitudes anidadas (ya sea en la url de la solicitud o en `catalog::Modifier` o `catalog::PostModifier`):
+Los siguientes comandos se omiten cuando se especifican en solicitudes anidadas (en la dirección URL de la solicitud o en `catalog::Modifier` o `catalog::PostModifier`):
 
 * `fmt=`
 * `qlt=`
@@ -36,4 +36,4 @@ Los siguientes comandos se omiten cuando se especifican en solicitudes anidadas 
 
 También se ignoran `attribute::MaxPix` y `attribute::DefaultPix` del catálogo de materiales que se aplica a la solicitud de procesamiento anidada.
 
-El resultado de la imagen de una solicitud IR anidada se puede almacenar en caché de forma opcional incluyendo `cache=on`. De forma predeterminada, el almacenamiento en caché de datos intermedios está deshabilitado. El almacenamiento en caché solo debe habilitarse cuando la imagen intermedia se reutiliza en una solicitud diferente en un periodo de tiempo razonable. Se aplica la administración estándar de caché del lado del servidor. Los datos se almacenan en caché en un formato sin pérdidas.
+El resultado de imagen de una solicitud IR anidada se puede almacenar en caché de forma opcional incluyendo `cache=on`. De forma predeterminada, el almacenamiento en caché de datos intermedios está deshabilitado. El almacenamiento en caché solo debe habilitarse cuando la imagen intermedia se reutilice en una solicitud diferente en un período de tiempo razonable. Se aplica la administración de caché estándar del lado del servidor. Los datos se almacenan en caché en un formato sin pérdidas.

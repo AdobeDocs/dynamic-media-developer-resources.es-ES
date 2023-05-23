@@ -31,16 +31,16 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| userHandle | `xsd:sting` | No | Control de usuario. |
-| membershipArray | `types:CompanyMembershipUpdateArray` | Sí | Matriz de empresas. |
+| userHandle | `xsd:sting` | No | Controlador de usuario. |
+| subscriptionArray | `types:CompanyMembershipUpdateArray` | Sí | Matriz de empresas. |
 
 **Salida (setCompanyMembershipParam)**
 
-La API IPS no devuelve una respuesta para esta operación.
+La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-862c0cc32ce0407ab248028e690a8386}
 
-Este ejemplo de código agrega un usuario a una empresa. Especifique varias empresas en la matriz de administración de la empresa si es necesario.
+Este ejemplo de código agrega un usuario a una compañía. Especifique varias empresas en la matriz de identificadores de la empresa si es necesario.
 
 **Solicitar**
 

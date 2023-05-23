@@ -1,5 +1,5 @@
 ---
-title: Visor flotante
+title: FlyoutViewer
 description: Referencia de la API de JavaScript para el visor flotante.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
@@ -12,7 +12,7 @@ ht-degree: 3%
 
 ---
 
-# Visor flotante{#flyoutviewer}
+# FlyoutViewer{#flyoutviewer}
 
 Referencia de la API de JavaScript para el visor flotante.
 
@@ -26,12 +26,12 @@ Constructor; crea una instancia de visor flotante.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> config </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {Object} </span> objeto de configuración JSON opcional, permite que todos los ajustes del visor pasen al constructor y evite llamar a métodos de ajuste individuales. Contiene las siguientes propiedades: </p> <p> 
+   <td colname="col2"> <p> <span class="codeph"> {Object} </span> objeto de configuración JSON opcional, permite que todas las configuraciones del visor pasen al constructor y eviten llamar a métodos de establecedor individuales. Contiene las siguientes propiedades: </p> <p> 
      <ul id="ul_266C711E8E75471E90C15F39A96A142F"> 
-      <li id="li_71857BBD652243A094E936C2C8EA9702"> <span class="codeph"> containerId </span> - <span class="codeph"> {Cadena} </span> ID del contenedor DOM (normalmente, un <span class="codeph"> DIV </span>) en la que se inserta el visor. No es necesario tener el elemento contenedor creado para cuando se llama a este método. Sin embargo, el contenedor debe existir cuando <span class="codeph"> init() </span> se ejecuta. Obligatorio. </li> 
-      <li id="li_3D28979F04274AC9B507B33D4275FC3A"> <span class="codeph"> params </span> - <span class="codeph"> {Object} </span> El objeto JSON con parámetros de configuración del visor en los que el nombre de la propiedad es una opción de configuración específica del visor o un modificador del SDK, y el valor de esa propiedad es un valor de configuración correspondiente. Obligatorio. </li> 
-      <li id="li_A40AC2167575415FB3383D070E27B9AB"> <span class="codeph"> controladores </span> - <span class="codeph"> {Object} </span> El objeto JSON con llamadas de retorno de eventos del visor, donde el nombre de la propiedad es el nombre del evento del visor admitido, y el valor de la propiedad es una referencia de función JavaScript a una llamada de retorno adecuada. Opcional. <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-event-callbacks.md#concept-53eb01d28189437790268da4929f2a10" format="dita" scope="local"> Llamadas de retorno de eventos </a> para obtener más información sobre los eventos del visor. </p> </li> 
-      <li id="li_218F9597A60249AEBA43A9E86EAFF8BA"> <p> <span class="codeph"> localizedTexts </span> - { <span class="codeph"> Objeto </span>} objeto JSON con datos de localización. Opcional. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27" format="dita" scope="local"> Localización de los elementos de la interfaz de usuario </a> para obtener más información. </p> <p>Consulte la <i>Guía del usuario del SDK del visor</i> y el ejemplo para obtener más información sobre el contenido del objeto. Opcional. </p> </li> 
+      <li id="li_71857BBD652243A094E936C2C8EA9702"> <span class="codeph"> containerId </span> - <span class="codeph"> {String} </span> ID del contenedor DOM (normalmente un <span class="codeph"> DIV </span>) en el que se inserta el visor. No es necesario tener el elemento contenedor creado para el momento en que se llama a este método. Sin embargo, el contenedor debe existir cuando <span class="codeph"> init() </span> se ejecuta. Obligatorio. </li> 
+      <li id="li_3D28979F04274AC9B507B33D4275FC3A"> <span class="codeph"> parámetros </span> - <span class="codeph"> {Object} </span> Objeto JSON con parámetros de configuración del visor donde el nombre de propiedad es una opción de configuración específica del visor o un modificador del SDK y el valor de esa propiedad es un valor de configuración correspondiente. Obligatorio. </li> 
+      <li id="li_A40AC2167575415FB3383D070E27B9AB"> <span class="codeph"> controladores </span> - <span class="codeph"> {Object} </span> Objeto JSON con llamadas de retorno a evento de visor, donde el nombre de propiedad es el nombre del evento de visor admitido y el valor de propiedad es una referencia de función de JavaScript a una llamada de retorno adecuada. Opcional. <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-event-callbacks.md#concept-53eb01d28189437790268da4929f2a10" format="dita" scope="local"> Llamadas de retorno de eventos </a> para obtener más información sobre los eventos de visor. </p> </li> 
+      <li id="li_218F9597A60249AEBA43A9E86EAFF8BA"> <p> <span class="codeph"> localizedTexts </span> - { <span class="codeph"> Objeto </span>} objeto JSON con datos de localización. Opcional. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27" format="dita" scope="local"> Localización de los elementos de la interfaz de usuario </a> para obtener más información. </p> <p>Consulte la <i>Guía del usuario de Viewer SDK</i> y el ejemplo para obtener más información sobre el contenido del objeto. Opcional. </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 

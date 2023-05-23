@@ -18,17 +18,17 @@ Referencia de la API de JavaScript para el visor de zoom en línea
 
 `getComponent(componentId)`
 
-Devuelve una referencia al componente SDK de visor que utiliza el visor. La página web puede utilizar este método para ampliar o personalizar el comportamiento del visor integrado. Llame a este método solo después de `initComplete` se ha ejecutado la llamada de retorno del visor; de lo contrario, es posible que la lógica del visor no cree aún el componente.
+Devuelve una referencia al componente del SDK del visor que utiliza el visor. La página web puede utilizar este método para ampliar o personalizar el comportamiento del visualizador integrado. Llame a este método solo después de que `initComplete` se ha ejecutado la llamada de retorno del visor; de lo contrario, es posible que la lógica del visor aún no haya creado el componente.
 
 ## Parámetros {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`componentID`*` - `{String}` un ID del componente SDK de visor utilizado por el visor. Este visor admite los siguientes ID de componente:
+`*`componentID`*` - `{String}` un ID del componente del SDK del visor utilizado por el visor. Este visor es compatible con los siguientes ID de componente:
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>ID de componente </p> </th> 
-   <th colname="col2" class="entry"> <p>Nombre de clase del componente del SDK del visor </p> </th> 
+   <th colname="col2" class="entry"> <p>Nombre de clase de componente de SDK de visor </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -57,11 +57,11 @@ Devuelve una referencia al componente SDK de visor que utiliza el visor. La pág
 
 Al trabajar con las API de SDK, es importante utilizar correctamente el espacio de nombres del SDK completo, tal como se describe en [SDK de visor](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-namespace.md#concept-5af3b472b320496d87735ea612edda80).
 
-Consulte la documentación del SDK de visor para obtener más información sobre un componente en particular.
+Consulte la documentación del SDK del visor para obtener más información sobre un componente en particular.
 
 ## Devuelve {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` Una referencia al componente SDK del visor. El método devuelve `null` si la variable `componentId` no es un componente de visor compatible o si el componente aún no se ha creado mediante la lógica del visor.
+`{Object}` Una referencia al componente SDK de visor. El método devuelve `null` si la variable `componentId` no es un componente de visor compatible o si la lógica del visor aún no ha creado el componente.
 
 ## Ejemplo {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

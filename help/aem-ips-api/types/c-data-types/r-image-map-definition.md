@@ -1,5 +1,5 @@
 ---
-description: Definición de destino de una acción de clic en el explorador.
+description: Definición de destino para una acción de clic en el explorador.
 solution: Experience Manager
 title: ImageMapDefinition
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # [!DNL ImageMapDefinition]{#imagemapdefinition}
 
-Definición de destino de una acción de clic en el explorador.
+Definición de destino para una acción de clic en el explorador.
 
 Sintaxis
 
@@ -22,8 +22,8 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| name | `xsd:string` | Nombre de la definición del mapa de imagen. |
+| nombre | `xsd:string` | Nombre de la definición del mapa de imagen. |
 | shapeType | `xsd:string` | Uno de los valores de forma de región. |
-| región | `xsd:string` | Coordenadas del mapa de imagen. El formato se basa en el HTML `<area>` atributos de etiqueta. |
-| action | `xsd:string` | Otros atributos a incluir en el HTML `<area>` , incluido el `href` URL. |
+| región | `xsd:string` | Coordenadas de mapa de imagen. El formato se basa en el HTML `<area>` atributos de etiqueta. |
+| action | `xsd:string` | Otros atributos que se incluyen en el HTML `<area>` , incluida la etiqueta `href` URL. |
 | habilitada | `xsd:boolean` | True si el mapa de imagen está habilitado. |

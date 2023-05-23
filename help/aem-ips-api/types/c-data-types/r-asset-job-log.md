@@ -1,6 +1,6 @@
 ---
 title: AssetJobLog
-description: Los detalles de una entrada de registro de trabajos asociada a un recurso en particular. Datos devueltos por getAssetJobLogs.
+description: Los detalles de una entrada de registro de trabajo asociada a un recurso concreto. Datos devueltos por getAssetJobLogs.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 19%
 
 # [!DNL AssetJobLog]{#assetjoblog}
 
-Los detalles de una entrada de registro de trabajos asociada a un recurso en particular. Datos devueltos por getAssetJobLogs.
+Los detalles de una entrada de registro de trabajo asociada a un recurso concreto. Datos devueltos por getAssetJobLogs.
 
 Sintaxis
 
@@ -32,7 +32,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL jobHandle]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Identificador de trabajo. </td> 
+   <td colname="col3"> Gestor del trabajo. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL jobName]</span> </span> </td> 
@@ -42,7 +42,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL logMessage]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Mensaje en el registro de trabajos. <p><span class="codeph"> [!DNL logMessage]</span> el campo de respuesta está localizado en función de <span class="codeph"> authHeader</span> campo de configuración regional. </p></td> 
+   <td colname="col3">Mensaje en el registro de trabajos. <p><span class="codeph"> [!DNL logMessage]</span> el campo de respuesta está localizado en función de <span class="codeph"> authHeader</span> campo configuración regional. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL logType]</span> </span> </td> 
@@ -57,12 +57,12 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL logDate]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> Fecha del trabajo. </td> 
+   <td colname="col3"> Fecha de trabajo. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL auxArray]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:JobLogDetailArray</span> </td> 
-   <td colname="col3"> Matriz de mensajes auxiliares de registro de trabajos para cada registro de trabajos. </td> 
+   <td colname="col3"> Matriz de mensajes de registro de trabajos auxiliares para cada registro de trabajo. </td> 
   </tr> 
  </tbody> 
 </table>

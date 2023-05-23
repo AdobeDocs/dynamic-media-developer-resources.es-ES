@@ -8,7 +8,7 @@ exl-id: 393264e0-4b2d-42d7-b95c-8d20770687e7
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '50'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -18,13 +18,13 @@ Formato de imagen de respuesta predeterminado. Especifica el formato predetermin
 
 ## Propiedades {#section-3cbea775a174443aaf14e9e58a3c2300}
 
-Cadena de texto. Debe ser uno de los tokens de formato compatibles con la variable `fmt=` comando:
+Cadena de texto. Debe ser uno de los tokens de formato admitidos por el `fmt=` comando:
 
 `jpg | jpeg | png | png-alpha | tif | tif-alpha | swf | swf-alpha | pdf | eps | gif | gif-alpha`
 
 ## Predeterminado {#section-256b0f8afdd846eaac68ec2019258708}
 
-Heredado de `default::Format` si no está definida o si está vacío.
+Heredado de `default::Format` si no se define o si está vacío.
 
 ## Véase también {#section-d6dc53ae28ab4133a9f8f9ec0bc159a6}
 

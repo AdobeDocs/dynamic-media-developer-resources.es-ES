@@ -22,4 +22,4 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| elementos | `types:Permission` | La matriz de permisos. |
+| elementos | `types:Permission` | Matriz de permisos. |

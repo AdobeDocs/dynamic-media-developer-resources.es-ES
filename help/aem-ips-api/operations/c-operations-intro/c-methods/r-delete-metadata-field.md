@@ -35,11 +35,11 @@ Sintaxis
 
 **Salida (deleteMetadataFieldParam)**
 
-La API IPS no devuelve una respuesta para esta operación.
+La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-e1c474ea91a040609ecd7c2400f4fa3c}
 
-Este ejemplo de código elimina el campo de metadatos de una empresa. Utiliza el control de empresa y el control de metadatos como campos en la variable `deleteMetadataFieldParam` se transfiere al servidor de servicios web IPS para realizar esta acción.
+Este ejemplo de código elimina el campo de metadatos de una empresa. Utiliza el identificador de la empresa y el identificador de metadatos como campos en la `deleteMetadataFieldParam` pasado al servidor de servicios Web IPS para realizar esta acción.
 
 **Solicitar**
 
@@ -52,4 +52,4 @@ Este ejemplo de código elimina el campo de metadatos de una empresa. Utiliza el
 
 **Respuesta**
 
-None.0
+Ninguno.0

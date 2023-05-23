@@ -30,16 +30,16 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | El identificador de la empresa que pertenece al grupo que desea eliminar. |
+| companyHandle | `xsd:string` | Sí | El identificador de la compañía que pertenece al grupo que desea eliminar. |
 | groupHandle | `xsd:string` | Sí | El identificador del grupo que desea eliminar. |
 
 **Salida (deleteGroupParam)**
 
-La API IPS no devuelve una respuesta para esta operación.
+La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-8f8501af3b3348a1b5701cf9622bf6e4}
 
-Este código de ejemplo elimina un grupo de una empresa. Requiere un identificador de grupo, que debe obtener de otra operación.
+Este código de ejemplo elimina un grupo de una compañía. Requiere un identificador de grupo, que debe obtener de otra operación.
 
 **Solicitar**
 

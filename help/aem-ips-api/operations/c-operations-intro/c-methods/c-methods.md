@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 70ea84ce-10ec-4a89-bd0a-ab81b4e88f5c
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ ht-degree: 0%
 * [getUsers](r-get-users.md)
 * [getViewerConfigSettings](r-get-viewer-config-settings.md)
 * [getVignettePublishFormats](r-get-vignette-publish-formats.md)
-* [getXMPPackets](r-get-xmp-packet.md)
+* [getXMPPacket](r-get-xmp-packet.md)
 * [getZipEntries](r-get-zip-entries.md)
 * [moveAsset](r-move-asset.md)
 * [moveAssets](r-move-assets.md)
@@ -123,9 +123,9 @@ ht-degree: 0%
 * [removeGroupMembers](r-remove-group-members.md)
 * [removeGroupMembership](r-remove-group-membership.md)
 * [removeProjectAssets](r-remove-project-assets.md)
-* [changeAsset](r-rename-asset.md)
-* [filenameFolder](r-rename-folder.md)
-* [changeProject](r-rename-project.md)
+* [enameAsset](r-rename-asset.md)
+* [enameFolder](r-rename-folder.md)
+* [RenameProject](r-rename-project.md)
 * [replaceImage](r-replace-image.md)
 * [restoreAssetsFromTrash](r-restore-assets-from-trash.md)
 * [resumeJob](r-resume-job.md)
@@ -160,7 +160,7 @@ ht-degree: 0%
 * [setZoomTargets](r-set-zoom-targets.md)
 * [stopJob](r-stop-job.md)
 * [submitJob](r-submit-job.md)
-* [updateAssetPermisos](r-update-asset-permissions.md)
+* [updateAssetPermissions](r-update-asset-permissions.md)
 * [updateAssetSet](r-update-asset-set.md)
 * [updateFolderPermissions](r-update-folder-permissions.md)
 * [updateImageSet](r-update-image-set.md)
@@ -169,4 +169,4 @@ ht-degree: 0%
 * [updateTagFieldValues](r-update-tag-field-values.md)
 * [updateViewerConfigSettings](r-update-viewer-config-settings.md)
 * [updateVignettePublishFormat](r-update-vignette-publish-format.md)
-* [updateXMPPackets](r-update-xmp-packet.md)
+* [updateXMPPacket](r-update-xmp-packet.md)

@@ -1,6 +1,6 @@
 ---
-title: Atributos del catálogo
-description: Los siguientes atributos se reconocen en los archivos de atributos del catálogo.
+title: Atributos de catálogo
+description: Los atributos siguientes se reconocen en los archivos de atributos del catálogo.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 3%
 
 ---
 
-# Atributos del catálogo{#catalog-attributes}
+# Atributos de catálogo{#catalog-attributes}
 
-Los siguientes atributos se reconocen en los archivos de atributos del catálogo.
+Los atributos siguientes se reconocen en los archivos de atributos del catálogo.
 
 <table id="simpletable_B838784803D34B0293D7F7C6131045D3"> 
  <thead class="sthead"> 
@@ -22,19 +22,19 @@ Los siguientes atributos se reconocen en los archivos de atributos del catálogo
   <td class="stentry"> <p>Descripción </p></td> 
  </thead> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-catalogfile.md#reference-dcd6a48569a148dabaf75e85190a1ea2" type="reference" format="dita" scope="local"> ArchivoCatálogo</a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-catalogfile.md#reference-dcd6a48569a148dabaf75e85190a1ea2" type="reference" format="dita" scope="local"> CatalogFile</a> </p></td> 
   <td class="stentry"> <p>Ruta o nombre del archivo de datos del catálogo asociado. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-vignettemapfile.md#reference-ad2c6d08008d415b9f47da17bd3447d2" type="reference" format="dita" scope="local"> Archivo de mapa de viñetas</a> </p> </td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-vignettemapfile.md#reference-ad2c6d08008d415b9f47da17bd3447d2" type="reference" format="dita" scope="local"> ArchivoMapaViñeta</a> </p> </td> 
   <td class="stentry"> <p>Ruta o nombre del archivo de mapa de viñetas asociado. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilemapfile.md#reference-6b48159c50c548e697ff7365672a972e" type="reference" format="dita" scope="local"> IccProfileMapFile</a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilemapfile.md#reference-6b48159c50c548e697ff7365672a972e" type="reference" format="dita" scope="local"> ArchivoMapaPerfilIcc</a> </p></td> 
   <td class="stentry"> <p>Ruta o nombre del archivo de mapa de perfiles ICC asociado. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-macrofile.md#reference-20d550f7841b4541ab69550519cdbef3" type="reference" format="dita" scope="local"> ArchivoMacro </a> </p> </td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-macrofile.md#reference-20d550f7841b4541ab69550519cdbef3" type="reference" format="dita" scope="local"> MacroFile </a> </p> </td> 
   <td class="stentry"> <p>Ruta o nombre del archivo de definición de macro asociado. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -61,8 +61,8 @@ Los siguientes atributos se reconocen en los archivos de atributos del catálogo
   <td class="stentry"> <p>Descripción </p></td> 
  </thead> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-showoverlapobjs.md#reference-f96341e877fa475e8a246c6db1865bbf" type="reference" format="dita" scope="local"> MostrarObjetosSuperpuestos </a> </p></td> 
-  <td class="stentry"> <p>Estado inicial de visualización/ocultado para objetos superpuestos. </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-showoverlapobjs.md#reference-f96341e877fa475e8a246c6db1865bbf" type="reference" format="dita" scope="local"> ShowOverlapObjs </a> </p></td> 
+  <td class="stentry"> <p>Estado inicial de mostrar/ocultar para objetos superpuestos. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-allowdirecturls.md#reference-02000c0f3c494292bad8425d06268882" type="reference" format="dita" scope="local"> AllowDirectUrls</a> </p> </td> 
@@ -70,7 +70,7 @@ Los siguientes atributos se reconocen en los archivos de atributos del catálogo
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402" type="reference" format="dita" scope="local"> RootUrl </a> </p></td> 
-  <td class="stentry"> <p>URL raíz para relativa <span class="codeph"> src=</span> URL. </p></td> 
+  <td class="stentry"> <p>URL raíz para relativo <span class="codeph"> src=</span> URL. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-onfailobj.md#reference-4c6ba90418e84da5831f8573bbbf2c8d" type="reference" format="dita" scope="local"> OnFailObj </a> </p></td> 
@@ -86,7 +86,7 @@ Los siguientes atributos se reconocen en los archivos de atributos del catálogo
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errordetail.md#reference-123b56eed6cf49cea6e0490672b7c53b" type="reference" format="dita" scope="local"> ErrorDetail </a> </p></td> 
-  <td class="stentry"> <p>Detalles del mensaje de error. </p></td> 
+  <td class="stentry"> <p>Detalle del mensaje de error. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cachevalidationpolicy.md#reference-2d71679733474d8aa116db6ceba87fa4" type="reference" format="dita" scope="local"> CacheValidationPolicy </a> </p></td> 
@@ -94,7 +94,7 @@ Los siguientes atributos se reconocen en los archivos de atributos del catálogo
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-expiration.md#reference-0f68ad8199c64bd4bc8d27dd78b7d996" type="reference" format="dita" scope="local"> Caducidad </a> </p></td> 
-  <td class="stentry"> <p>Tiempo de vida predeterminado de la caché del cliente. </p></td> 
+  <td class="stentry"> <p>Duración predeterminada de la caché del cliente. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-uselastmodified.md#reference-d2ab628c9e004fedbd38324866dbca1d" type="reference" format="dita" scope="local"> UseLastModified </a> </p></td> 
@@ -102,7 +102,7 @@ Los siguientes atributos se reconocen en los archivos de atributos del catálogo
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-trusteddomains.md#reference-f3570e0b6d8e444093b738d892c0818d" type="reference" format="dita" scope="local"> TrustedDomains </a> </p> </td> 
-  <td class="stentry"> <p>Dominios web a los que se permite el acceso <span class="filepath"> swf</span> las imágenes de respuesta. </p></td> 
+  <td class="stentry"> <p>Dominios web a los que se permite el acceso <span class="filepath"> swf</span> imágenes de respuesta. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-clientaddressfilter.md#reference-52a541cec0b0424faf263d1fb4946b5f" type="reference" format="dita" scope="local"> ClientAddressFilter </a> </p></td> 
@@ -117,15 +117,15 @@ Los siguientes atributos se reconocen en los archivos de atributos del catálogo
  </thead> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rendersettings.md#reference-f3ae5e18095d40b2a8edef957dd82fbd" type="reference" format="dita" scope="local"> RenderSettings </a> </p></td> 
-  <td class="stentry"> <p>Configuración de procesamiento avanzada predeterminada. </p></td> 
+  <td class="stentry"> <p>Configuración avanzada de procesamiento predeterminada. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-resolution.md#reference-09fe14e6bfbf4db6b7f4369fffecc806" type="reference" format="dita" scope="local"> Resolución </a> </p></td> 
-  <td class="stentry"> <p>Resolución predeterminada de textura/calco. </p></td> 
+  <td class="stentry"> <p>Resolución predeterminada de textura/calcomanía. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharp.md#reference-c706450cf95347f98f86c696f9167297" type="reference" format="dita" scope="local"> Nitidez </a> </p></td> 
-  <td class="stentry"> <p>Enfoque predeterminado de textura/calco. </p></td> 
+  <td class="stentry"> <p>Textura y enfoque de calcomanía predeterminados. </p></td> 
  </tr> 
 </table>
 
@@ -140,15 +140,15 @@ Los siguientes atributos se reconocen en los archivos de atributos del catálogo
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-maxpix.md#reference-569f186bbc2840a6bd3cffa8ff3e7657" type="reference" format="dita" scope="local"> MaxPix </a> </p></td> 
-  <td class="stentry"> <p>Límite de tamaño para las imágenes de respuesta. </p></td> 
+  <td class="stentry"> <p>Límite de tamaño para imágenes de respuesta. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-resmode.md#reference-fdca7eb6d5104fdeae9d6ac42251db82" type="reference" format="dita" scope="local"> ResMode </a> </p></td> 
-  <td class="stentry"> <p>Modo de remuestreo para el escalado de imagen de respuesta. </p></td> 
+  <td class="stentry"> <p>Modo de remuestreo para escalado de imagen de respuesta. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharpen.md#reference-18df922f3a3f403a97ccaaa15042e30a" type="reference" format="dita" scope="local"> Enfocar </a> </p></td> 
-  <td class="stentry"> <p>Afilado predeterminado para imágenes de respuesta. </p></td> 
+  <td class="stentry"> <p>Enfoque predeterminado para imágenes de respuesta. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-format.md#reference-da5207242f1c4f1c8fa4df6027121ff2" type="reference" format="dita" scope="local"> Formato </a> </p></td> 
@@ -156,7 +156,7 @@ Los siguientes atributos se reconocen en los archivos de atributos del catálogo
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-jpegquality.md#reference-d86fc5ad18bb436891efdbe1f98fea50" type="reference" format="dita" scope="local"> JpegQuality </a> </p></td> 
-  <td class="stentry"> <p>Calidad jpeg predeterminada. </p></td> 
+  <td class="stentry"> <p>Calidad JPEG predeterminada. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-tiffencoding.md#reference-a3425191166042d59db766c468857d0e" type="reference" format="dita" scope="local"> TiffEncoding </a> </p></td> 
@@ -166,12 +166,12 @@ Los siguientes atributos se reconocen en los archivos de atributos del catálogo
 
 <table id="simpletable_8B3B053395D340A6AEEFE7BD90059FC5"> 
  <thead class="sthead"> 
-  <td class="stentry"> <p>Atributos de administración de color </p></td> 
+  <td class="stentry"> <p>Atributos de gestión de color </p></td> 
   <td class="stentry"> <p>Descripción </p></td> 
  </thead> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilergb.md#reference-cdaad25b155646ffa382d722fd324b30" type="reference" format="dita" scope="local"> IccProfileRgb </a> </p></td> 
-  <td class="stentry"> Perfil de color de salida predeterminado del RGB.</td> 
+  <td class="stentry"> Perfil de color de salida del RGB predeterminado.</td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilecmyk.md#reference-55aead2d924847ffbd1be4c46add7127" type="reference" format="dita" scope="local"> IccProfileCmyk </a> </p></td> 
@@ -187,22 +187,22 @@ Los siguientes atributos se reconocen en los archivos de atributos del catálogo
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilesrcgray.md#reference-a2abcd4aa5864738bbea8f55706deaf2" type="reference" format="dita" scope="local"> IccProfileSrcGray </a> </p></td> 
-  <td class="stentry"> Perfil de color de entrada predeterminado de escala de grises.</td> 
+  <td class="stentry"> Perfil de color de entrada de escala de grises predeterminado.</td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilesrcrgb.md#reference-2fb0f7cfc6e74813b82cd98ae165bd49" type="reference" format="dita" scope="local"> IccProfileSrcRgb </a> </p></td> 
-  <td class="stentry"> Perfil de color de entrada predeterminado del RGB.</td> 
+  <td class="stentry"> Perfil de color de entrada del RGB predeterminado.</td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccrenderintent.md#reference-3b80b7a4c25545a593c5076f318b5c40" type="reference" format="dita" scope="local"> IccRenderIntent </a> </p> </td> 
-  <td class="stentry"> Interpretación predeterminada.</td> 
+  <td class="stentry"> Intento de representación predeterminado.</td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccblackpointcompensation.md#reference-d939b0cdf6564baaa88deb1059e3b7f0" type="reference" format="dita" scope="local"> IccBlackPointCompensation </a> </p> </td> 
-  <td class="stentry"> Habilite/deshabilite la compensación de puntos de interrupción.</td> 
+  <td class="stentry"> Habilitar/deshabilitar la compensación de punto negro.</td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccdither.md#reference-019855df56fe4df9b7dde9e3acd11460" type="reference" format="dita" scope="local"> IccDither </a> </p></td> 
-  <td class="stentry"> Habilite o deshabilite el vaciado de conversión de color.</td> 
+  <td class="stentry"> Habilite/deshabilite el tramado de conversión de color.</td> 
  </tr> 
 </table>

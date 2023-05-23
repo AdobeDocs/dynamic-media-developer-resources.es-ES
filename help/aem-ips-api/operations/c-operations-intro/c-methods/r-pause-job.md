@@ -1,5 +1,5 @@
 ---
-description: Pone en pausa un trabajo activo.
+description: Pausa un trabajo activo.
 solution: Experience Manager
 title: pauseJob
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 19%
 
 # pauseJob{#pausejob}
 
-Pone en pausa un trabajo activo.
+Pausa un trabajo activo.
 
 Sintaxis
 
@@ -35,12 +35,12 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | Gestionar a la empresa. |
+| companyHandle | `xsd:string` | Sí | Gestionar en la empresa. |
 | jobHandle | `xsd:string` | Sí | Gestione el trabajo que desea pausar. |
 
 **Salida (PauseJobReturn)**
 
-La API IPS no devuelve una respuesta para esta operación.
+La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-ee4914f9496f4bd88556728a48fb22c1}
 

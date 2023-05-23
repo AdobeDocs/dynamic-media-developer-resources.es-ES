@@ -1,7 +1,7 @@
 ---
-description: Solo los desarrolladores de Dynamic Media lo utilizan.
+description: Solo lo utilizan los desarrolladores de Dynamic Media.
 solution: Experience Manager
-title: Configuración
+title: ConfigSetting
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6d6421ce-1933-4310-b691-817392631969
@@ -14,7 +14,7 @@ ht-degree: 18%
 
 # [!DNL ConfigSetting]{#configsetting}
 
-Solo los desarrolladores de Dynamic Media lo utilizan.
+Solo lo utilizan los desarrolladores de Dynamic Media.
 
 Sintaxis
 
@@ -22,6 +22,6 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| [!DNL name] | `xsd:string` | Nombre de configuración. |
+| [!DNL name] | `xsd:string` | Nombre de la configuración. |
 | [!DNL value] | `xsd:string` | Valor de configuración. |
-| [!DNL handle] | `xsd:string` | Gestione la configuración almacenada. |
+| [!DNL handle] | `xsd:string` | Administrar en la configuración almacenada. |

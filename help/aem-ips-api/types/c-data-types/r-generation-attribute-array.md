@@ -22,4 +22,4 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| elementos | `types:GenerationAttribute` | Matriz de atributos de generación. |
+| elementos | `types:GenerationAttribute` | La matriz de atributos de generación. |

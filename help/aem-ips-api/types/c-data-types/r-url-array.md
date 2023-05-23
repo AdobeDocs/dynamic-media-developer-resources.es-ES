@@ -1,5 +1,5 @@
 ---
-description: Matriz de direcciones URL para invalidar la caché de CDN.
+description: Una matriz de direcciones URL para invalidar la caché de la CDN.
 solution: Experience Manager
 title: UrlArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 # [!DNL UrlArray]{#urlarray}
 
-Matriz de direcciones URL para invalidar la caché de CDN.
+Una matriz de direcciones URL para invalidar la caché de la CDN.
 
 **Admitido desde**
 
@@ -34,7 +34,7 @@ Matriz de direcciones URL para invalidar la caché de CDN.
   <tr valign="top"> 
    <td> <p> <span class="codeph"> <span class="varname"> items</span> </span> </p> </td> 
    <td> <p> <span class="codeph"> xsd:string</span> </p> </td> 
-   <td> <p> Lista de direcciones URL que se van a invalidar. Limitada a un máximo de 1000 direcciones URL por la definición WSDL. </p> </td> 
+   <td> <p> La lista de direcciones URL que se van a invalidar. Limitado a un máximo de 1000 direcciones URL por la definición de WSDL. </p> </td> 
   </tr> 
  </tbody> 
 </table>

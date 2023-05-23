@@ -1,23 +1,24 @@
 ---
-title: Arrastrar el cabezal de reproducción de vídeo
-description: La barra de desplazamiento del vídeo es el control deslizante horizontal que permite al usuario buscar dinámicamente cualquier posición horaria dentro del vídeo que se está reproduciendo.
+title: Depurador de vídeo
+description: El depurador de vídeo es el control deslizante horizontal que permite al usuario buscar dinámicamente cualquier posición temporal dentro del vídeo que se está reproduciendo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 9f7e3fec-8303-4114-86b2-fb75d041701d
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 3%
 
 ---
 
-# Arrastrar el cabezal de reproducción de vídeo{#video-scrubber}
+# Depurador de vídeo{#video-scrubber}
 
-La barra de desplazamiento del vídeo es el control deslizante horizontal que permite al usuario buscar dinámicamente cualquier posición horaria dentro del vídeo que se está reproduciendo.
+El depurador de vídeo es el control deslizante horizontal que permite al usuario buscar dinámicamente cualquier posición temporal dentro del vídeo que se está reproduciendo.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-El control de desplazamiento también se mueve a medida que se reproduce el vídeo para indicar la posición de tiempo actual del vídeo durante la reproducción. La barra de desplazamiento de vídeo siempre toma toda la anchura de la barra de control. Es posible aplicar máscara al depurador de vídeo, cambiar su altura y posición vertical mediante CSS.
+El &quot;botón&quot; de desplazamiento también se mueve a medida que se reproduce el vídeo para indicar la posición de tiempo actual del vídeo durante la reproducción. El depurador de vídeo siempre tiene toda la anchura de la barra de control. Es posible desollar el depurador de vídeo, cambiar su altura y posición vertical, mediante CSS.
 
 El aspecto general del depurador de vídeo se controla con el siguiente selector de clase CSS:
 
@@ -27,7 +28,7 @@ El aspecto general del depurador de vídeo se controla con el siguiente selector
 .s7smartcropvideoviewer .s7videoscrubber .s7knob
 ```
 
-**Propiedades CSS de la barra de desplazamiento de vídeo**
+**Propiedades CSS del depurador de vídeo**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -41,16 +42,16 @@ El aspecto general del depurador de vídeo se controla con el siguiente selector
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Altura de la barra de desplazamiento del vídeo. </p> </td> 
+   <td colname="col2"> <p>Altura de la selección manual de vídeo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>Color de la barra de desplazamiento del vídeo. </p> </td> 
+   <td colname="col2"> <p>El color de la selección manual del vídeo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Los siguientes selectores de clase CSS rastrean indicadores de fondo, reproducción y carga:
+Los siguientes selectores de clase CSS rastrean los indicadores de fondo, reproducción y carga:
 
 ```
 .s7smartcropvideoviewer .s7videoscrubber .s7track 
@@ -73,19 +74,19 @@ Los siguientes selectores de clase CSS rastrean indicadores de fondo, reproducci
  </tbody> 
 </table>
 
-El selector de clase CSS siguiente controla el botón:
+El siguiente selector de clase CSS controla el control:
 
 ```
 .s7smartcropvideoviewer .s7videoscrubber .s7knob
 ```
 
-**Propiedades CSS del botón**
+**Propiedades CSS del control**
 
 <table id="table_966826FB81114362A8D81D1EED38D512"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> parte superior </span> </p> </td> 
-   <td colname="col2"> <p>Desplazamiento vertical del pomo. </p> </td> 
+   <td colname="col2"> <p>Desplazamiento vertical del control. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -96,37 +97,37 @@ El selector de clase CSS siguiente controla el botón:
    <td colname="col2"> <p>Altura del pomo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagen de fondo </span> </p> </td> 
-   <td colname="col2"> <p>Ilustración del botón. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p>Pintura del pomo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posición de fondo </span> </p> </td> 
-   <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Coloque dentro del icono de ilustración si se utilizan iconos CSS. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-El siguiente selector de clase CSS controla la burbuja de tiempo reproducido:
+El siguiente selector de clase CSS controla la burbuja de tiempo pasado:
 
 ```
 .s7smartcropvideoviewer .s7videoscrubber .s7videotime
 ```
 
-**Propiedades CSS de la burbuja de tiempo reproducido**
+**Propiedades CSS de la burbuja de tiempo pasado**
 
 <table id="table_21E9AD3FBC8C4437BA02E5CD1BF7E831"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p> La familia de fuentes que se usará para el texto de visualización de la hora. </p> </td> 
+   <td colname="col2"> <p> La familia de fuentes que se utilizará para el texto de visualización del tiempo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
-   <td colname="col2"> <p> El tamaño de fuente que se utilizará para el texto de visualización de la hora. </p> </td> 
+   <td colname="col2"> <p> El tamaño de fuente que se utilizará para el texto de visualización de tiempo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p> Color de fuente que se usará para el texto de visualización de la hora. </p> </td> 
+   <td colname="col2"> <p> El color de fuente que se utilizará para el texto de visualización del tiempo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -138,15 +139,15 @@ El siguiente selector de clase CSS controla la burbuja de tiempo reproducido:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> relleno </span> </p> </td> 
-   <td colname="col2"> <p>Margen de área de burbujas. </p> </td> 
+   <td colname="col2"> <p>Relleno de área de burbujas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagen de fondo </span> </p> </td> 
-   <td colname="col2"> <p>Ilustración de burbujas. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p>Burbujas de arte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posición de fondo </span> </p> </td> 
-   <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Coloque dentro del icono de ilustración si se utilizan iconos CSS. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
@@ -155,9 +156,9 @@ El siguiente selector de clase CSS controla la burbuja de tiempo reproducido:
  </tbody> 
 </table>
 
-La información de la herramienta de desplazamiento de vídeo se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
+La información del objeto de selección manual de vídeo se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
 
-**Ejemplo** - Para configurar un visor de vídeo con una barra de desplazamiento de vídeo con colores de pista personalizados de diez píxeles de altura. Y finalmente, que se posicione 10 píxeles y 35 píxeles desde los bordes superior e izquierdo de la barra de control.
+**Ejemplo** - Configurar un visor de vídeo con un depurador de vídeo con colores de pista personalizados que tengan diez píxeles de altura. Y, por último, colocarlo a 10 píxeles y 35 píxeles de los bordes superior e izquierdo de la barra de control.
 
 ```
 .s7smartcropvideoviewer .s7videoscrubber  { 

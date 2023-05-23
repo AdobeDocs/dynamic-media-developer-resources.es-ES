@@ -22,5 +22,5 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| assetHandle | `xsd:string` | Identificador de recurso. |
+| assetHandle | `xsd:string` | Controlador de recurso. |
 | publishState | `xsd:string` | Nuevo estado de publicación. |

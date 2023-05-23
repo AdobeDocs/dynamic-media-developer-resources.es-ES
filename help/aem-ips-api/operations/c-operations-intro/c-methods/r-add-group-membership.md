@@ -42,24 +42,24 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Gestione al usuario cuya pertenencia a un grupo desee añadir. </p> </td> 
+   <td colname="col4"> <p>Identificador del usuario cuya pertenencia al grupo desea agregar. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> groupHandleArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:HandleArray</span> </td> 
    <td colname="col3"> <p>Sí </p> </td> 
-   <td colname="col4"> <p>Matriz de identificadores de los grupos a los que desea que pertenezca la empresa. </p> </td> 
+   <td colname="col4"> <p>Matriz de identificadores de los grupos a los que desea que pertenezca la compañía. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Salida (addGroupMembershipParam)**
 
-La API IPS no devuelve una respuesta para esta operación.
+La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-f7a1f40c3d7a40ea964b29056c734d81}
 
-En este ejemplo se agrega un grupo a una empresa con groupHandleArray. Este ejemplo utiliza un solo grupo.
+En este ejemplo se agrega un grupo a una compañía con groupHandleArray. Este ejemplo utiliza solo un grupo.
 
 **Solicitar**
 

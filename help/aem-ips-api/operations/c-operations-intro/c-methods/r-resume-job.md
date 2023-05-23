@@ -1,5 +1,5 @@
 ---
-description: Reinicia un trabajo pausado.
+description: Reinicia un trabajo en pausa.
 solution: Experience Manager
 title: resumeJob
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 17%
 
 # resumeJob{#resumejob}
 
-Reinicia un trabajo pausado.
+Reinicia un trabajo en pausa.
 
 Sintaxis
 
@@ -35,16 +35,16 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | El identificador de la empresa con el trabajo que desea reiniciar. |
-| jobHandle | `xsd:string` | Sí | El identificador del trabajo pausado. |
+| companyHandle | `xsd:string` | Sí | El identificador de la compañía con el trabajo que desea reiniciar. |
+| jobHandle | `xsd:string` | Sí | El identificador del trabajo en pausa. |
 
 **Salida (resumeJobReturn)**
 
-La API IPS no devuelve una respuesta para esta operación.
+La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-d0524e031f1f43d89430eade19526162}
 
-Este ejemplo de código reinicia un trabajo pausado.
+Este ejemplo de código reinicia un trabajo en pausa.
 
 **Solicitar**
 

@@ -1,5 +1,5 @@
 ---
-description: Envía un correo electrónico a un destinatario designado como respuesta a una operación cdnCacheInvalidation .
+description: Envía un mensaje de correo electrónico a un destinatario designado en respuesta a una operación cdnCacheInvalidation.
 solution: Experience Manager
 title: EmailConfirmation
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 6%
 
 # [!DNL EmailConfirmation]{#emailconfirmation}
 
-Envía un correo electrónico a un destinatario designado como respuesta a una operación cdnCacheInvalidation .
+Envía un mensaje de correo electrónico a un destinatario designado en respuesta a una operación cdnCacheInvalidation.
 
 Sintaxis
 

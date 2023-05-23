@@ -22,9 +22,9 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| name | `xsd:string` | Nombre de los metadatos. |
+| nombre | `xsd:string` | Nombre de metadatos. |
 | valor | `xsd:string` | Valor de metadatos. |
-| boolVal | `xsd:boolean` | Valor de metadatos booleano (solo para campos con tipo booleano). |
+| boolVal | `xsd:boolean` | Valor de metadatos booleano (solo para campos de tipo booleano). |
 | longVal | `xsd:long` | Valor de metadatos largo (solo para campos con tipo int). |
-| doubleVal | `xsd:double` | Valor de metadatos doble (solo para campos con tipo flotante). |
-| dateVal | `xsd:dateTime` | Valor de metadatos de fecha (solo para campos con fecha y escritura). |
+| doubleVal | `xsd:double` | Valor de metadatos doble (solo para campos de tipo flotante). |
+| dateVal | `xsd:dateTime` | Valor de metadatos de fecha (solo para campos con tipo de fecha). |

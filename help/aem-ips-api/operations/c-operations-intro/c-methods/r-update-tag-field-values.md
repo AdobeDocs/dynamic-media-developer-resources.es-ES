@@ -1,5 +1,5 @@
 ---
-description: Actualiza los valores del diccionario de etiquetas de un campo de etiqueta.
+description: Actualiza los valores del diccionario de etiquetas para un campo de etiqueta.
 solution: Experience Manager
 title: updateTagFieldValues
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 15%
 
 # updateTagFieldValues{#updatetagfieldvalues}
 
-Actualiza los valores del diccionario de etiquetas de un campo de etiqueta.
+Actualiza los valores del diccionario de etiquetas para un campo de etiqueta.
 
 Sintaxis
 
@@ -42,13 +42,13 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> Identificador de la empresa. </td> 
+   <td colname="col4"> Manejo de la compañía. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> Identificador de campo de etiqueta. </td> 
+   <td colname="col4"> Controlador de campo de etiqueta. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> updateArray</span> </span> </td> 
@@ -63,9 +63,9 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| successCount | `xsd:int` | Sí | Número de campos de etiqueta actualizados correctamente. |
-| warningCount | `xsd:int` | Sí | Número de advertencias generadas cuando la operación intentó actualizar los campos de etiqueta. |
-| errorCount | `xsd:int` | Sí | Número de errores generados cuando la operación intentó actualizar los campos de etiqueta. |
+| successCount | `xsd:int` | Sí | El número de campos de etiqueta actualizados correctamente. |
+| warningCount | `xsd:int` | Sí | El número de advertencias generadas cuando la operación intentó actualizar los campos de etiqueta. |
+| errorCount | `xsd:int` | Sí | El número de errores generados cuando la operación intentó actualizar los campos de etiqueta. |
 | warningDetailArray | `types:TagValueUpdateFaultArray` | No | Matriz de detalles asociados con los recursos que generaron advertencias cuando la operación intentó actualizar los campos de etiqueta. |
 | errorDetailArray | `types:TagValueUpdateFaultArray` | No | Matriz de detalles asociados con los recursos que generaron errores cuando la operación intentó actualizar los campos de etiqueta. |
 

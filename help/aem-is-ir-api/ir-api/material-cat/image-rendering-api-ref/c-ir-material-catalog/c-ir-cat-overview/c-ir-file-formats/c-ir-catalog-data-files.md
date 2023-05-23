@@ -1,6 +1,6 @@
 ---
-title: Archivos de datos del catálogo
-description: Los archivos de datos del catálogo pueden tener cualquier nombre y sufijo de archivo (excepto .ini).
+title: Archivos de datos de catálogo
+description: Los archivos de datos de catálogo pueden tener cualquier nombre y sufijo de archivo (excepto .ini).
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,25 +12,25 @@ ht-degree: 0%
 
 ---
 
-# Archivos de datos del catálogo{#catalog-data-files}
+# Archivos de datos de catálogo{#catalog-data-files}
 
-Los archivos de datos del catálogo pueden tener cualquier nombre y sufijo de archivo (excepto `.ini`).
+Los archivos de datos de catálogo pueden tener cualquier nombre y sufijo de archivo (excepto `.ini`).
 
-Los archivos de datos del catálogo se pueden mantener fácilmente utilizando aplicaciones que admitan archivos de datos de texto delimitados por tabuladores, como Microsoft® Excel y Access.
+Los archivos de datos de catálogo se pueden mantener fácilmente mediante aplicaciones que admiten archivos de datos de texto delimitados por tabuladores, como Microsoft® Excel y Access.
 
-Básicamente una tabla bidimensional, un archivo de datos de catálogo consta de un registro de encabezado que identifica las columnas de datos y cualquier número de registros de datos (filas). Los campos de los registros de datos y encabezados se separan con una sola `<TAB>` caracteres. Los registros están separados por una sola `<CR>` (Código ASCII `0xD`), un solo `<LF>` (Código ASCII `0xA`) o a `<CR><LF>` par.
+Básicamente una tabla bidimensional, un archivo de datos de catálogo consta de un registro de encabezado que identifica las columnas de datos y cualquier número de registros de datos (filas). Los campos del encabezado y los registros de datos están separados por una sola etiqueta `<TAB>` caracteres. Los registros están separados por un único `<CR>` (código ASCII `0xD`), un solo `<LF>` (código ASCII `0xA`), o un `<CR><LF>` par.
 
-El registro de encabezado debe contener los nombres exactos de cada campo de datos. Los campos vacíos no están permitidos en la fila de encabezado. Los nombres de los campos de datos no distinguen entre mayúsculas y minúsculas. Todos los nombres de campo deben ser únicos.
+El registro de encabezado debe contener los nombres exactos para cada campo de datos. No se permiten campos vacíos en la fila del encabezado. Los nombres de los campos de datos no distinguen entre mayúsculas y minúsculas. Todos los nombres de campo deben ser únicos.
 
-No hay espacios en blanco que no sean `<TAB>` los separadores de campo están permitidos en el encabezado y en los registros de datos.
+No hay más espacios en blanco que el `<TAB>` se permiten separadores de campos en los registros de datos y encabezados.
 
-En los registros de datos, dos adyacentes `<TAB>` los caracteres indican un campo vacío. Los campos vacíos heredan los valores predeterminados de los atributos de catálogo o de los valores predeterminados del servidor.
+En los registros de datos, dos adyacentes `<TAB>` Los caracteres indican un campo vacío. Los campos vacíos heredan los valores predeterminados de los atributos de catálogo o de los valores predeterminados del servidor.
 
-Los campos de datos no deben contener `<CR>`, `<LF>`o `<TAB>` , a menos que el valor de los datos sea de tipo texto y esté entre comillas simples o dobles. No codifique HTTP los campos de datos.
+Los campos de datos no deben contener `<CR>`, `<LF>`, o `<TAB>` caracteres, a menos que el valor de los datos sea de tipo texto y esté entre comillas simples o dobles. No codifique los campos de datos mediante HTTP.
 
-Si no se indica lo contrario, los valores de varios datos del mismo campo se separan con comas (&#39;,&#39;).
+Si hay varios valores de datos en el mismo campo, se separan con comas (&quot;,&quot;), a menos que se indique lo contrario.
 
-Columnas cuyos nombres empiezan por &#39;.&#39; se ignoran; esto permite almacenar datos en catálogos de materiales que no son de interés para el procesamiento de imágenes. Las columnas con nombres de encabezado desconocidos se ignoran y se escribe una advertencia en el archivo de registro.
+Columnas cuyos nombres empiezan por &#39;.&#39; no se tienen en cuenta, lo que permite almacenar datos en catálogos de materiales que no interesan a Image Rendering. Las columnas con nombres de encabezado desconocidos se omiten y se escribe una advertencia en el archivo de registro.
 
 Los nombres de campo pueden constar de cualquier combinación de letras ASCII, números y &quot;-&quot; y &quot;_&quot;.
 

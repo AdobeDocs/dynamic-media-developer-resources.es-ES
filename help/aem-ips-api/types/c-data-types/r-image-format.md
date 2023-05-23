@@ -1,5 +1,5 @@
 ---
-description: Conjunto con nombre y sin estructurar de la configuración de salida de la imagen.
+description: Conjunto con nombre no estructurado de configuración de salida de imagen.
 solution: Experience Manager
 title: ImageFormat
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # [!DNL ImageFormat]{#imageformat}
 
-Conjunto con nombre y sin estructurar de la configuración de salida de la imagen.
+Conjunto con nombre no estructurado de configuración de salida de imagen.
 
 No es un tipo de recurso.
 
@@ -22,6 +22,6 @@ No es un tipo de recurso.
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| imageFormatHandle | `xsd:string` | Identificador de formato de imagen. |
-| name | `xsd:string` | Nombre del formato de imagen. |
+| imageFormatHandle | `xsd:string` | Controlador de formato de imagen. |
+| nombre | `xsd:string` | Nombre del formato de imagen. |
 | urlModifier | `xsd:string` | URL del servidor de imágenes que representa el formato de imagen. |

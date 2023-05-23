@@ -14,8 +14,8 @@ ht-degree: 0%
 
 # Característica Favoritos{#favorites-feature}
 
-Un usuario final puede utilizar la función Favoritos para marcar productos de interés directamente en el catálogo electrónico añadiendo iconos de &quot;corazón&quot; a las imágenes del catálogo electrónico. El visor almacena todos los favoritos en el sistema del cliente y los vuelve a mostrar cuando el mismo usuario visita de nuevo el catálogo electrónico.
+Un usuario final puede utilizar la función Favoritos para marcar productos de interés directamente en el catálogo electrónico añadiendo iconos &quot;corazón&quot; a las imágenes del catálogo electrónico. El visor almacena todos los favoritos en el sistema del cliente y los vuelve a mostrar cuando el mismo usuario vuelve a visitar el catálogo electrónico.
 
 Además, el visor permite revisar todos los favoritos añadidos al catálogo electrónico como una cuadrícula de imágenes en miniatura.
 
-Todas las herramientas Favoritos se agrupan en una lista desplegable de la barra de control.
+Todas las herramientas de Favoritos se agrupan en una lista desplegable de la barra de control.

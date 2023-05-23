@@ -1,6 +1,6 @@
 ---
 title: Formatos de archivo
-description: Tanto los archivos de atributos del catálogo como los archivos de datos del catálogo son archivos de texto sin formato.
+description: Tanto los archivos de atributos de catálogo como los archivos de datos de catálogo son archivos de texto sin formato.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,4 +14,4 @@ ht-degree: 14%
 
 # Formatos de archivo{#file-formats}
 
-Tanto los archivos de atributos del catálogo como los archivos de datos del catálogo son archivos de texto sin formato.
+Tanto los archivos de atributos de catálogo como los archivos de datos de catálogo son archivos de texto sin formato.

@@ -8,7 +8,7 @@ exl-id: 69f3c4c0-00d9-46ef-aebb-3116a0d83c85
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '95'
-ht-degree: 6%
+ht-degree: 5%
 
 ---
 
@@ -22,7 +22,7 @@ Atributo de configuración para el visualizador de vídeo interactivo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> basado en IP</span> </p> </td> 
-   <td colname="col2"> <p> Especifica en kilobits por segundos (kbps), la velocidad de bits de vídeo que se desea reproducir desde un conjunto de vídeos adaptables en caso de que el sistema actual no admita la reproducción de vídeo adaptable. </p> <p>El componente recoge el flujo de vídeo con la velocidad de bits más cercana posible (pero sin superar) al valor especificado. Si todos los flujos de vídeo del conjunto de vídeos adaptables tienen una calidad superior a la especificada, la lógica elige la velocidad de bits con la calidad más baja. </p> </td> 
+   <td colname="col2"> <p> Especifica la velocidad de bits de vídeo deseada para la reproducción de un conjunto de vídeos adaptables en kilobits por segundos (kbps) en caso de que el sistema operativo no admita la reproducción de vídeo adaptable. </p> <p>El componente capta el flujo de vídeo con la velocidad más cercana posible al valor especificado (pero sin sobrepasarla). Si todos los flujos de vídeo del conjunto de vídeos adaptables tienen una calidad mayor que el valor especificado, la lógica elige la velocidad de bits con la calidad más baja. </p> </td> 
   </tr> 
  </tbody> 
 </table>

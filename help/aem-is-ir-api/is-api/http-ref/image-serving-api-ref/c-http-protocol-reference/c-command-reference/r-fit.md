@@ -1,6 +1,6 @@
 ---
-title: Ajuste
-description: Modo de ajuste de imagen de respuesta. Especifica cómo se calcula el factor de escala, que se utiliza para escalar la imagen compuesta a la imagen de respuesta cuando el tamaño de respuesta se especifica con wid= y hei= y scl= no está presente.
+title: ajuste
+description: Modo de ajuste de imagen de respuesta. Especifica cómo se calcula el factor de escala, que se utiliza para escalar la imagen compuesta a la imagen de respuesta cuando el tamaño de respuesta se especifica con wid= y hei= y scl= no están presentes.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -8,28 +8,28 @@ exl-id: d2939f86-5dab-471d-ba59-70d91ae1e4fd
 source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
 source-wordcount: '486'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
-# Ajuste{#fit}
+# ajuste{#fit}
 
-Modo de ajuste de imagen de respuesta. Especifica cómo se calcula el factor de escala, que se utiliza para escalar la imagen compuesta a la imagen de respuesta cuando el tamaño de respuesta se especifica con wid= y hei= y scl= no está presente.
+Modo de ajuste de imagen de respuesta. Especifica cómo se calcula el factor de escala, que se utiliza para escalar la imagen compuesta a la imagen de respuesta cuando el tamaño de respuesta se especifica con wid= y hei= y scl= no están presentes.
 
-` fit= *`mode`*, *`upscale`*`
+` fit= *`modo`*, *`de lujo`*`
 
 <table id="simpletable_50FBDC6B7CB2448891DD0F491DEB5ACF"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> mode </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> fit|restricción|recorte|ajuste|estiramiento|ajuste|vfit </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> modo </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> fit|constrain|crop|wrap|stretch|hfit|vfit </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> upscale </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> de lujo </span> </span> </p> </td> 
   <td class="stentry"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
  </tr> 
 </table>
 
-En la siguiente descripción de las opciones de modo, se supone que *`xScale`* es la relación entre el ancho de la imagen compuesta y el ancho de la imagen de respuesta y *`yScale`* es la relación entre la altura de la imagen compuesta y la altura de la imagen de respuesta.
+En la siguiente descripción de las opciones de modo, se da por hecho que *`xScale`* es la proporción de la anchura de la imagen compuesta respecto a la anchura de la imagen de respuesta y *`yScale`* es la relación entre la altura de la imagen compuesta y la altura de la imagen de respuesta.
 
 <table id="table_33408ECA9D164AFAA249F8589060545E"> 
  <thead> 
@@ -40,43 +40,43 @@ En la siguiente descripción de las opciones de modo, se supone que *`xScale`* e
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> Ajuste </span> </p> </td> 
-   <td colname="col2"> <p>Escala la imagen compuesta para que se ajuste al espacio asignado con <span class="codeph"> wid= </span> y <span class="codeph"> hei= </span>, con un espacio en blanco mínimo y sin recorte. La imagen de respuesta tendrá el tamaño exacto especificado con <span class="codeph"> wid= </span> y <span class="codeph"> hei= </span>. El menor de <span class="varname"> xScale </span> y <span class="varname"> yScale </span> se aplica. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ajuste </span> </p> </td> 
+   <td colname="col2"> <p>Escala la imagen compuesta de modo que se ajuste al espacio asignado con <span class="codeph"> wid= </span> y <span class="codeph"> hei= </span>, con un espacio en blanco mínimo y sin recortar. La imagen de respuesta tendrá el tamaño exacto especificado con <span class="codeph"> wid= </span> y <span class="codeph"> hei= </span>. El más pequeño de <span class="varname"> xScale </span> y <span class="varname"> yScale </span> se aplica. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> restricción </span> </p> </td> 
-   <td colname="col2"> <p>Escala la imagen compuesta como <span class="codeph"> fit </span> para que se ajuste al espacio asignado con <span class="codeph"> wid= </span> y <span class="codeph"> hei= </span>, pero la imagen de respuesta real puede ser menor que la especificada con <span class="codeph"> wid= </span> y <span class="codeph"> hei= </span> para evitar espacios en blanco. El menor de <span class="varname"> xScale </span> y <span class="varname"> yScale </span> se aplica. </p> </td> 
+   <td colname="col2"> <p>Escala la imagen compuesta como <span class="codeph"> ajuste </span> para que se ajuste al espacio asignado con <span class="codeph"> wid= </span> y <span class="codeph"> hei= </span>, pero la imagen de respuesta real puede ser más pequeña de lo especificado con <span class="codeph"> wid= </span> y <span class="codeph"> hei= </span> para evitar espacios en blanco. El más pequeño de <span class="varname"> xScale </span> y <span class="varname"> yScale </span> se aplica. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> recorte </span> </p> </td> 
-   <td colname="col2"> <p>Escala la imagen compuesta para que rellene toda la imagen de respuesta con un recorte mínimo y sin espacios en blanco. El mayor de <span class="varname"> xScale </span> y <span class="varname"> yScale </span> se aplica. </p> </td> 
+   <td colname="col2"> <p>Escala la imagen compuesta para que ocupe toda la imagen de respuesta, con un recorte mínimo y sin espacios en blanco. El mayor de <span class="varname"> xScale </span> y <span class="varname"> yScale </span> se aplica. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> ajuste </span> </p> </td> 
-   <td colname="col2"> <p>Escala la imagen compuesta como <span class="codeph"> recortar </span> de modo que cubra toda la imagen de respuesta, pero la imagen de respuesta real puede ser mayor de lo especificado con <span class="codeph"> wid= </span> y <span class="codeph"> hei= </span> para evitar el recorte. El mayor de <span class="varname"> xScale </span> y <span class="varname"> yScale </span>se aplica. </p> </td> 
+   <td colname="col2"> <p>Escala la imagen compuesta como <span class="codeph"> recorte </span> de modo que cubra toda la imagen de respuesta, pero la imagen de respuesta real puede ser más grande de lo especificado con <span class="codeph"> wid= </span> y <span class="codeph"> hei= </span> para evitar el recorte. El mayor de <span class="varname"> xScale </span> y <span class="varname"> yScale </span>se aplica. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> estirar </span> </p> </td> 
-   <td colname="col2"> <p>Escala la imagen compuesta de forma independiente en x e y para rellenar toda la imagen de respuesta, sin recortes ni espacios en blanco. Esto suele cambiar la relación de aspecto de la imagen. <span class="varname"> xScale </span> se utiliza para la escala horizontal y <span class="varname"> yScale </span> para escalado vertical. </p> </td> 
+   <td colname="col2"> <p>Escala la imagen compuesta de forma independiente en x e y para rellenar toda la imagen de respuesta, sin recorte ni espacio en blanco. Esto generalmente cambia la proporción de aspecto de la imagen. <span class="varname"> xScale </span> se utiliza para el escalado horizontal y <span class="varname"> yScale </span> para escalado vertical. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> hfit </span> </p> </td> 
-   <td colname="col2"> <p>Aplica <span class="varname"> xScale </span> para ajustar la imagen horizontalmente, con probablemente recorte o espacio en blanco en la parte superior o inferior. Útil para aplicaciones especiales. </p> </td> 
+   <td colname="col2"> <p>Aplicable <span class="varname"> xScale </span> para ajustar la imagen horizontalmente, con posible recorte o espacio en blanco en la parte superior o inferior. Útil para aplicaciones especiales. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> vfit </span> </p> </td> 
-   <td colname="col2"> <p>Aplica <span class="varname"> yScale </span> para ajustar la imagen verticalmente, con probablemente recorte o espacio en blanco a la izquierda o a la derecha. Útil para aplicaciones especiales. </p> </td> 
+   <td colname="col2"> <p>Aplicable <span class="varname"> yScale </span> para ajustar la imagen verticalmente, probablemente con recorte o espacio en blanco a la izquierda o a la derecha. Útil para aplicaciones especiales. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Establezca *`upscale`* a &quot;1&quot; para permitir la ampliación o a &quot;0&quot; para restringir *`xScale`*y *`yScale`* se limitará a 1:1. Si se desactiva el escalado ascendente, pueden estar presentes espacios en blanco adicionales si la imagen compuesta es menor que la imagen de respuesta.
+Establecer *`upscale`* a &#39;1&#39; para permitir el escalado o a &#39;0&#39; para restringir *`xScale`*y *`yScale`* se limitará a 1:1. Si la actualización está desactivada, puede haber espacios en blanco adicionales si la imagen compuesta es más pequeña que la imagen de respuesta.
 
-El recorte y los espacios en blanco están centrados de forma predeterminada; su posición puede controlarse con `align=`. El color y la opacidad del relleno de los espacios en blanco están determinados por `bgc=`.
+El recorte y el espacio en blanco se centran de forma predeterminada; su posición se puede controlar con `align=`. El color y la opacidad del relleno de espacio en blanco están determinados por `bgc=`.
 
 ## Propiedades {#section-6d7a5a7e18434bca9bc2fdb236af8909}
 
-Ver atributo. Se aplica independientemente de la configuración de capa actual. Al menos uno de `wid=` o `hei=` también debe especificarse; de lo contrario, se devuelve un error; both `wid=` y `hei=` debe especificarse para que los modos de ajuste se comporten como se describe. Se devuelve un error cuando `req=tmb` también se especifica.
+Ver atributo. Se aplica independientemente de la configuración de capa actual. Al menos uno de `wid=` o `hei=` también se debe especificar; de lo contrario, se devuelve un error; ambos `wid=` y `hei=` se debe especificar para que los modos de ajuste se comporten como se describe. Se devuelve un error cuando `req=tmb` también se especifica.
 
 ## Predeterminado {#section-3a553b4b29ef447a8331d6954f3f06da}
 

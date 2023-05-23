@@ -1,5 +1,5 @@
 ---
-description: Matriz de controladores.
+description: Matriz de identificadores.
 solution: Experience Manager
 title: HandleArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,14 +14,14 @@ ht-degree: 16%
 
 # [!DNL HandleArray]{#handlearray}
 
-Matriz de controladores.
+Matriz de identificadores.
 
 >[!NOTE]
 >
->La matriz puede contener cualquier tipo de controles necesarios para realizar una operación.
+>La matriz puede contener cualquier tipo de identificadores necesarios para realizar una operación.
 
 ## Parámetros {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| elementos | `xsd:string` | Matriz de controladores. |
+| elementos | `xsd:string` | Matriz de identificadores. |

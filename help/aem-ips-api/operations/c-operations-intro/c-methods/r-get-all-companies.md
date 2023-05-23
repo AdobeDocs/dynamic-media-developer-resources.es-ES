@@ -1,5 +1,5 @@
 ---
-description: Devuelve una matriz de todas las empresas.
+description: Devuelve una matriz de todas las compañías.
 solution: Experience Manager
 title: getAllCompanies
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 21%
 
 # getAllCompanies{#getallcompanies}
 
-Devuelve una matriz de todas las empresas.
+Devuelve una matriz de todas las compañías.
 
 Sintaxis
 
@@ -28,17 +28,17 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| includeExpired | `xsd:boolean` | Sí | Configúrelo en true para devolver compañías caducadas y no caducadas. |
+| includeExpired | `xsd:boolean` | Sí | Establezca como true para devolver compañías caducadas y no caducadas. |
 
 **Salida (getAllCompaniesReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyArray | `types:CompanyArray` | Sí | La matriz de empresas. |
+| companyArray | `types:CompanyArray` | Sí | La matriz de compañías. |
 
 ## Ejemplos {#section-3eecf4e6900b41fb92a0e3214791c6b9}
 
-Este ejemplo de código devuelve todas las empresas en IPS en una matriz. Tenga en cuenta que la respuesta de ejemplo se trunca para su brevedad.
+Este ejemplo de código devuelve todas las empresas de IPS de una matriz. Tenga en cuenta que la respuesta de ejemplo se trunca por su brevedad.
 
 **Solicitar**
 

@@ -34,17 +34,17 @@ Establece los valores de metadatos de un recurso específico utilizado con setAs
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Control de campo de metadatos. </td> 
+   <td colname="col3"> Controlador de campo de metadatos. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> value</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> valor</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Valor de actualización de metadatos. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> boolVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> Valor de metadatos booleano (solo para campos con tipo booleano). </td> 
+   <td colname="col3"> Valor de metadatos booleano (solo para campos de tipo booleano). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> longVal</span> </span> </td> 
@@ -54,17 +54,17 @@ Establece los valores de metadatos de un recurso específico utilizado con setAs
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> doubleVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
-   <td colname="col3"> Valor de metadatos doble (solo para campos con tipo flotante). </td> 
+   <td colname="col3"> Valor de metadatos doble (solo para campos de tipo flotante). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> dateVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> Valor de metadatos de fecha (solo para campos con fecha y escritura). </td> 
+   <td colname="col3"> Valor de metadatos de fecha (solo para campos con tipo de fecha). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> addTagValueArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:StringArray</span> </td> 
-   <td colname="col3"> <p>Agrega al valor de etiqueta existente para el recurso. 
+   <td colname="col3"> <p>Agrega al recurso una lista de valores de etiquetas existente. 
      <ul id="ul_08DE6C490B614560A6118E7AC59720E3"> 
       <li id="li_358A3BDC0EC94CCF8178CD789F09F804">Los campos de etiqueta de un solo valor almacenan solo el último valor. </li> 
       <li id="li_3F47D3A3C63A4752BF9A45F7B00A6E70">Un campo de etiqueta de diccionario fijo devuelve un error si el valor no está en el diccionario. </li> 
@@ -73,7 +73,7 @@ Establece los valores de metadatos de un recurso específico utilizado con setAs
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> setTagValueArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:StringArray</span> </td> 
-   <td colname="col3">Reemplaza la lista de valores de etiqueta existente para el recurso. 
+   <td colname="col3">Reemplaza la lista de valores de etiquetas existente para el recurso. 
     <ul id="ul_941C915C69E84CF2AC5938378837EB92"> 
      <li id="li_6E85019335034B2EB1302696AE690ED5">Los campos de etiqueta de un solo valor almacenan solo el último valor. </li> 
      <li id="li_0DC56717EBB642D29FB7A3D043CEDED1">Un campo de etiqueta de diccionario fijo devuelve un error si el valor no está en el diccionario. </li> 
@@ -82,7 +82,7 @@ Establece los valores de metadatos de un recurso específico utilizado con setAs
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> deleteTagValueArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:StringArray</span> </td> 
-   <td colname="col3"> Elimina los valores especificados de la lista de valores de etiqueta del recurso, si están presentes. </td> 
+   <td colname="col3"> Elimina los valores especificados de la lista de valores de etiquetas del recurso, si los hay. </td> 
   </tr> 
  </tbody> 
 </table>

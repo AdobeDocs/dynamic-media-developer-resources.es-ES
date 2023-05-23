@@ -1,6 +1,6 @@
 ---
 title: setAsset
-description: Referencia de la API de JavaScript para el visor de carrusel.
+description: Referencia de la API de JavaScript para el Visor de carrusel.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 4%
 
 # setAsset{#setasset}
 
-Referencia de la API de JavaScript para el visor de carrusel.
+Referencia de la API de JavaScript para el Visor de carrusel.
 
 ` setAsset( *`asset`*)`
 
-Establece el nuevo recurso. Puede llamar a este parámetro en cualquier momento, ya sea antes o después de `init()`. Si se llama después de `init()`, el visor intercambia el recurso durante la ejecución.
+Establece el nuevo recurso. Puede llamar a este parámetro en cualquier momento, antes o después de `init()`. Si se llama después de `init()`, el visor intercambia el recurso durante la ejecución.
 
 Consulte también [init](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/r-html5-aem-carousel-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
@@ -26,7 +26,7 @@ Consulte también [init](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> recurso</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> Cadena</span>} nuevo ID de recurso. </p> <p>Este visor no admite las imágenes que utilizan IR (procesamiento de imágenes) o UGC (contenido generado por el usuario). </p> </td>
+   <td colname="col2"> <p>{<span class="codeph"> Cadena</span>} nuevo ID de recurso. </p> <p>Las imágenes que utilizan IR (Image Rendering) o UGC (User-Generated Content) no son compatibles con este visor. </p> </td>
   </tr>
  </tbody>
 </table>

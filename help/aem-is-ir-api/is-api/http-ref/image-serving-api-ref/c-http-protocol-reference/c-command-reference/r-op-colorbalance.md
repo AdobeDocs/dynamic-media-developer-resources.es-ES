@@ -1,5 +1,5 @@
 ---
-description: Ajuste el equilibrio de color. Ajusta el valor de cada componente de color RGB por separado.
+description: Ajuste el equilibrio de color. Ajusta el valor de cada componente de color del RGB por separado.
 solution: Experience Manager
 title: op_colorbalance
 feature: Dynamic Media Classic,SDK/API
@@ -7,25 +7,25 @@ role: Developer,User
 exl-id: 93476778-97b0-4ad5-b22a-093239e845f0
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 2%
+source-wordcount: '112'
+ht-degree: 1%
 
 ---
 
 # op_colorbalance{#op-colorbalance}
 
-Ajuste el equilibrio de color. Ajusta el valor de cada componente de color RGB por separado.
+Ajuste el equilibrio de color. Ajusta el valor de cada componente de color del RGB por separado.
 
-`op_colorbalance= *``*, *``*, *`redAdjgreenAdjblueAdj`*`
+`op_colorbalance= *`redAdj`*, *`greenAdj`*, *`blueAdj`*`
 
 <table id="simpletable_BBDAA6FE9A0E48E3BD8304BDED776713"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> redAdj</span> </p></td> 
-  <td class="stentry"> <p>Ajuste del componente rojo (-100...+100 int). </p></td> 
+  <td class="stentry"> <p>Ajuste de componente rojo (-100...+100 int). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> greenAdj</span> </p></td> 
-  <td class="stentry"> <p>Ajuste de componentes verdes (-100...+100 int). </p></td> 
+  <td class="stentry"> <p>Ajuste del componente verde (-100...+100 int). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> blueAdj</span> </p></td> 
@@ -33,18 +33,18 @@ Ajuste el equilibrio de color. Ajusta el valor de cada componente de color RGB p
  </tr> 
 </table>
 
-Los datos de imagen de entrada en gris y CMYK se convierten a RGB mediante conversión nativa, lo que no es exacto cuando la gestión del color está habilitada.
+Los datos de imagen de entrada de gris y CMYK se convierten en RGB mediante conversión naive, que no es precisa cuando la administración de color está habilitada.
 
 ## Propiedades {#section-dff9c934f7c1442bbd02379b688d82e2}
 
-Capa. Se aplica a la capa actual o a la imagen compuesta si `layer=comp`. Ignorado por capas de efecto. Las imágenes y capas CMYK se convierten a RGB antes de aplicar la operación.
+Capa, comando. Se aplica a la capa actual o a la imagen compuesta si `layer=comp`. Ignorado por las capas de efecto. Las imágenes y las capas CMYK se convierten en RGB antes de que se aplique la operación.
 
 ## Predeterminado {#section-08d84ef715964f7daea86f5ef237d199}
 
-`op_colorbalance=0,0,0` sin ningún cambio en los colores.
+`op_colorbalance=0,0,0` para no cambiar los colores.
 
 ## Ejemplo {#section-7e97fa36e01d4af8ab03fc9d493da1a1}
 
 Empuje el balance de color hacia el rojo:
 
-... `&op_colorBalance=100,0,0&`...
+… `&op_colorBalance=100,0,0&`…

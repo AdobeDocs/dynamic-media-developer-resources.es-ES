@@ -1,5 +1,5 @@
 ---
-description: Matriz de errores de actualización del valor de la etiqueta.
+description: Se produce un error en una matriz de actualización de valores de etiqueta.
 solution: Experience Manager
 title: TagValueUpdateFaultArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 20%
 
 # [!DNL TagValueUpdateFaultArray]{#tagvalueupdatefaultarray}
 
-Matriz de errores de actualización del valor de la etiqueta.
+Se produce un error en una matriz de actualización de valores de etiqueta.
 
 Sintaxis
 
@@ -22,4 +22,4 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| elementos | `types:TagValueUpdateFault` | Matriz de errores de actualización de valores de etiqueta (mensajes de error). |
+| elementos | `types:TagValueUpdateFault` | Una matriz de errores de actualización de valores de etiquetas (mensajes de error). |

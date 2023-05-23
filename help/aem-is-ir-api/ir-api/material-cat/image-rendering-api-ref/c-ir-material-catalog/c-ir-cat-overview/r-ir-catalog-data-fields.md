@@ -1,6 +1,6 @@
 ---
 title: Campos de datos del catálogo
-description: Los siguientes campos de datos de catálogo están disponibles.
+description: Están disponibles los siguientes campos de datos del catálogo.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: bda5fe2d-6205-4737-a9c7-dc934a2d7b06
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '194'
-ht-degree: 12%
+ht-degree: 11%
 
 ---
 
 # Campos de datos del catálogo{#catalog-data-fields}
 
-Los siguientes campos de datos de catálogo están disponibles.
+Están disponibles los siguientes campos de datos del catálogo.
 
 <table id="simpletable_C2D795844F624470871959842AF50BF3"> 
  <thead class="sthead"> 
@@ -50,19 +50,19 @@ Los siguientes campos de datos de catálogo están disponibles.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-resolution-dataref.md#reference-6a2d64c2d72b438fade58a3391569da7" type="reference" format="dita" scope="local"> Resolución </a> </p></td> 
-  <td class="stentry"> <p>Resolución de imágenes. </p></td> 
+  <td class="stentry"> <p>Resolución de imagen. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-anchor.md#reference-d9b1d49db1fc440686f64b84453297ab" type="reference" format="dita" scope="local"> Anclaje </a> </p></td> 
-  <td class="stentry"> <p>Punto de ancla de textura/calco (punto interactivo). </p></td> 
+  <td class="stentry"> <p>Punto de anclaje de textura/calcomanía (punto interactivo). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-color.md#reference-7639487fe0ac48beb9e8afa4dc845552" type="reference" format="dita" scope="local"> Color </a> </p></td> 
-  <td class="stentry"> <p>Color del material. </p></td> 
+  <td class="stentry"> <p>Color de material. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-basecolor.md#reference-5f02371b1d8e444ab12d2614d9792de8" type="reference" format="dita" scope="local"> Color base </a> </p></td> 
-  <td class="stentry"> <p>Color sustractivo para un material colorizable. </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-basecolor.md#reference-5f02371b1d8e444ab12d2614d9792de8" type="reference" format="dita" scope="local"> ColorBase </a> </p></td> 
+  <td class="stentry"> <p>Color sustractivo para un material coloreable. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-illum.md#reference-faeb85b387544d04b8aa4ccc3ab12e0f" type="reference" format="dita" scope="local"> Illum </a> </p></td> 
@@ -70,11 +70,11 @@ Los siguientes campos de datos de catálogo están disponibles.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-gloss.md#reference-5277f62a67e2408ab94699aa712f1eeb" type="reference" format="dita" scope="local"> Brillo</a> </p></td> 
-  <td class="stentry"> <p>Brillante en la superficie. </p></td> 
+  <td class="stentry"> <p>Brillo superficial. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-roughness.md#reference-79f748ac642745e3b81795a99f61fa99" type="reference" format="dita" scope="local"> Rugosidad </a> </p></td> 
-  <td class="stentry"> <p>Endurecimiento de la superficie. </p></td> 
+  <td class="stentry"> <p>Rugosidad superficial. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-type.md#reference-9bea147dda9f4e74bc0ec79dcc0d9161" type="reference" format="dita" scope="local"> Tipo</a> </p></td> 
@@ -82,7 +82,7 @@ Los siguientes campos de datos de catálogo están disponibles.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-sharp-dataref.md#reference-f79a14bd52474dfd8495115d398a30d0" type="reference" format="dita" scope="local"> Nitidez</a> </p></td> 
-  <td class="stentry"> <p>Enfoque de textura/calado. </p></td> 
+  <td class="stentry"> <p>Textura/enfoque de calcomanías. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-repeat.md#reference-20e149211e1f4e8285db5ecb83c1902e" type="reference" format="dita" scope="local"> Repeat</a> </p></td> 
@@ -94,17 +94,17 @@ Los siguientes campos de datos de catálogo están disponibles.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-size.md#reference-a698b0d2652f4ea8a2b006fbf59cf4f1" type="reference" format="dita" scope="local"> Tamaño</a> </p></td> 
-  <td class="stentry"> <p>Tamaño de la capa de calcomanía/superposición. </p></td> 
+  <td class="stentry"> <p>Tamaño de la capa de calco/superposición. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-rendersettings-dataref.md#reference-9ce753ae4096455eadcc12ac064de711" type="reference" format="dita" scope="local"> RenderSettings </a> </p></td> 
-  <td class="stentry"> <p>Configuración avanzada de procesamiento. </p></td> 
+  <td class="stentry"> <p>Configuración de procesamiento avanzada. </p></td> 
  </tr> 
 </table>
 
 <table id="simpletable_BD278D96C3324004ABBBACEDF85F8D50"> 
  <thead class="sthead"> 
-  <td class="stentry"> Mapas de viñetas</td> 
+  <td class="stentry"> Mapas de viñeta</td> 
   <td class="stentry"> <p>Descripción </p></td> 
  </thead> 
  <tr class="strow"> 
@@ -128,12 +128,12 @@ Los siguientes campos de datos de catálogo están disponibles.
   <td class="stentry"> <p>Modificadores de solicitud predefinidos. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-userdata.md#reference-5bb5d49aee9c408992e41a5ad17d6e85" type="reference" format="dita" scope="local"> Datos de usuario</a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-userdata.md#reference-5bb5d49aee9c408992e41a5ad17d6e85" type="reference" format="dita" scope="local"> UserData</a> </p></td> 
   <td class="stentry"> <p>Datos definidos por el usuario. </p></td> 
  </tr> 
 </table>
 
-Los campos siguientes se reconocen en los archivos de definición de macro:
+Los campos siguientes se reconocen en los ficheros de definición de macros:
 
 <table id="simpletable_B722319F81FB4DDA9AC16B27448B8F04"> 
  <thead class="sthead"> 
@@ -142,7 +142,7 @@ Los campos siguientes se reconocen en los archivos de definición de macro:
  </thead> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-macro-definition-reference/r-ir-name.md#reference-63b663d2052545ffab030a23e7060b1e" type="reference" format="dita" scope="local"> Nombre</a> </p></td> 
-  <td class="stentry"> <p>Nombre de macro (clave de índice). </p></td> 
+  <td class="stentry"> <p>Nombre de la macro (clave de índice). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-macro-definition-reference/r-ir-definition.md#reference-8f5a6e146b3b4e598dca1f370acf3bfb" type="reference" format="dita" scope="local"> Definición</a> </p></td> 
@@ -150,11 +150,11 @@ Los campos siguientes se reconocen en los archivos de definición de macro:
  </tr> 
 </table>
 
-Los campos siguientes se reconocen en los archivos de mapa de perfiles de color ICC:
+Los campos siguientes se reconocen en los ficheros de mapa de perfiles de color ICC:
 
 <table id="simpletable_54ED156EDA394412B5C4C49AA3A32828"> 
  <thead class="sthead"> 
-  <td class="stentry"> Mapas de perfiles ICC</td> 
+  <td class="stentry"> Mapas de perfil ICC</td> 
   <td class="stentry"> <p>Descripción </p></td> 
  </thead> 
  <tr class="strow"> 

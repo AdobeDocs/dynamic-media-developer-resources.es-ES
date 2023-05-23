@@ -1,6 +1,6 @@
 ---
-title: coincidencia
-description: coincidencia
+title: superposición de muestras
+description: superposición de muestras
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -8,11 +8,11 @@ exl-id: cf9ad105-8851-49f5-ba6c-96d588f4fd58
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '59'
-ht-degree: 8%
+ht-degree: 6%
 
 ---
 
-# coincidencia{#swatchoverlay}
+# superposición de muestras{#swatchoverlay}
 
 `swatchoverlay=0|1`
 
@@ -20,7 +20,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p>Especifica el diseño del visor en los dispositivos con capacidad táctil. Cuando el parámetro se establece en <span class="codeph"> 1 </span>, el visor muestra muestras debajo de la vista principal en el escritorio; en los dispositivos con capacidad táctil, las muestras se superponen sobre la vista principal. </p> <p>Cuando el parámetro se establece en <span class="codeph"> 0 </span>, las muestras se representan debajo de la vista principal en todos los tipos de dispositivos. </p> </td> 
+   <td colname="col2"> <p>Especifica el diseño del visor en dispositivos táctiles. Cuando el parámetro se establece en <span class="codeph"> 1 </span>, el visor muestra muestras debajo de la vista principal en el escritorio; en los dispositivos táctiles, las muestras se superponen encima de la vista principal. </p> <p>Cuando el parámetro se establece en <span class="codeph"> 0 </span>, las muestras se representan debajo de la vista principal en todos los tipos de dispositivos. </p> </td> 
   </tr> 
  </tbody> 
 </table>

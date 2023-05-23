@@ -1,6 +1,6 @@
 ---
 title: Colores sólidos
-description: Esta categoría de material incluye pinturas para paredes, carpintería, guarnecido, automoción y cualquier otra aplicación donde no se requieran texturas.
+description: Esta categoría de materiales incluye pinturas para paredes, carpintería y embellecedores, automoción y cualquier otra aplicación donde no se requieran texturas.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 3%
 
 # Colores sólidos{#solid-colors}
 
-Esta categoría de material incluye pinturas para paredes, carpintería, guarnecido, automoción y cualquier otra aplicación donde no se requieran texturas.
+Esta categoría de materiales incluye pinturas para paredes, carpintería y embellecedores, automoción y cualquier otra aplicación donde no se requieran texturas.
 
-Por ejemplo, puede utilizar colores sólidos para variar el color de un elemento de ropa donde no se requieran cambios de textura, o para definir el color del embellecedor y la alfombra plásticos de un interior de automóvil. Un material se considera de color sólido si no `src=` está presente en el MSS.
+Por ejemplo, puede utilizar colores sólidos para variar el color de un artículo de ropa cuando no sea necesario cambiar la textura, o para establecer el color del embellecedor de plástico y la alfombra de un interior de automóvil. Un material se considera un color sólido si no hay `src=` El valor está presente en el SMS.
 
-Se pueden aplicar colores sólidos a todos los objetos procesables.
+Los colores sólidos se pueden aplicar a todos los objetos procesables.
 
 <table id="table_9245240311A44659A74C7A5EDD7D1503"> 
  <thead> 

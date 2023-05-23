@@ -1,18 +1,18 @@
 ---
 description: Utilizado por PhotoshopOptions/layerNaming.
 solution: Experience Manager
-title: Modos de nomenclatura de capas de Photoshop
+title: Modos de nomenclatura de capas Photoshop
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9f5d6319-010f-4915-91c0-c90ceba969c0
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '23'
-ht-degree: 8%
+source-wordcount: '18'
+ht-degree: 11%
 
 ---
 
-# Modos de nomenclatura de capas de Photoshop{#photoshop-layer-naming-modes}
+# Modos de nomenclatura de capas Photoshop{#photoshop-layer-naming-modes}
 
 Utilizado por PhotoshopOptions/layerNaming.
 

@@ -8,7 +8,7 @@ exl-id: a687a025-37cc-42cf-8cf7-893179d399ac
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '41'
-ht-degree: 12%
+ht-degree: 9%
 
 ---
 
@@ -22,7 +22,7 @@ Atributo de configuración para el visualizador de vídeo interactivo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Activa/desactiva la barra de título de la etiqueta de capítulo. La hora de inicio del capítulo no se muestra cuando la barra de título está desactivada. </p> </td> 
+   <td colname="col2"> <p> Activa/desactiva la barra de título de la etiqueta del capítulo. El tiempo de inicio del capítulo no se muestra cuando la barra de título está desactivada. </p> </td> 
   </tr> 
  </tbody> 
 </table>

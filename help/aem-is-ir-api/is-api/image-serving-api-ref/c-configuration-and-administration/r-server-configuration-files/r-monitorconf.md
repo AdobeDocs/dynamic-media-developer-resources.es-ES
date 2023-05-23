@@ -16,9 +16,9 @@ ht-degree: 2%
 
 Contiene la configuración del sistema de supervisión/alerta.
 
-Este archivo es un archivo de propiedades de JAVA. Se debe velar por el cumplimiento de las convenciones pertinentes; de lo contrario, la función [!DNL Platform Server] puede que no se inicie. Tenga en cuenta especialmente que debe utilizarse una barra invertida doble &#39;\\&#39; o una sola barra diagonal &#39;/&#39; en lugar de una barra invertida &#39;\&#39; en las rutas de archivos de Windows, ya que la barra invertida se utiliza como carácter de escape en este tipo de archivo.
+Este archivo es un archivo de propiedades JAVA. Se debe tener cuidado de seguir las convenciones apropiadas; de lo contrario, la [!DNL Platform Server] puede fallar al iniciar. Tenga en cuenta especialmente que se debe utilizar una doble barra invertida &#39;\\&#39; o una sola barra diagonal &#39;/&#39; en lugar de una barra invertida &#39;\&#39; en las rutas de archivo de Windows, ya que la barra invertida se utiliza como carácter de escape en este tipo de archivo.
 
-Los cambios realizados en este archivo surtirán efecto poco después de que se guarde el archivo.
+Los cambios en este archivo se aplicarán poco después de que se guarde el archivo.
 
 <table id="simpletable_91557E1162FF4FEC8BE1722D6656CFEE"> 
  <tr class="strow"> 

@@ -1,6 +1,6 @@
 ---
 title: Texturas repetibles
-description: Las texturas repetibles incluyen materiales interiores y exteriores, como tejidos (tanto de ropa como de tapicería), revestimientos de pared a pared, tapicerías, materiales de contraparte, texturas de granos de madera, materiales de tejados y laterales y cualquier otra textura genérica.
+description: Las texturas repetibles incluyen materiales interiores y exteriores, como telas (tanto prendas de vestir como tapicerías), revestimientos de suelos de pared a pared, papeles pintados, materiales de encimera, texturas de grano de madera, materiales para techos y revestimientos, y cualquier otra textura genérica.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 3%
 
 # Texturas repetibles{#repeatable-textures}
 
-Las texturas repetibles incluyen materiales interiores y exteriores, como tejidos (tanto de ropa como de tapicería), revestimientos de pared a pared, tapicerías, materiales de contraparte, texturas de granos de madera, materiales de tejados y laterales y cualquier otra textura genérica.
+Las texturas repetibles incluyen materiales interiores y exteriores, como telas (tanto prendas de vestir como tapicerías), revestimientos de suelos de pared a pared, papeles pintados, materiales de encimera, texturas de grano de madera, materiales para techos y revestimientos, y cualquier otra textura genérica.
 
-Se pueden aplicar texturas repetibles a objetos planos, de línea de flujo, de boceto, planos, de pared y de gabinete. Cuando se aplica a un objeto no texturable, el objeto se pinta con `color=` (o `bgc=` if `color=` no se ha especificado).
+Las texturas repetibles pueden aplicarse a objetos planos, de línea de flujo, de esbozo, planos, de pared y de armario. Cuando se aplica a un objeto no texturable, el objeto se pinta con `color=` (o `bgc=` if `color=` no especificado).
 
-Un material se considera una textura si incluye una `src=` que especifica una imagen y si se produce en un MSS que no sea calco o borde de muro.
+Un material se considera una textura si incluye una `src=` que especifica una imagen y si se produce en un SMS que no sea un borde de pared o calcomanía.
 
-Cuando se procesa, la textura se alinea con el objeto al hacer coincidir la variable `anchor=` punto del material de textura con el punto de origen de textura del objeto (tal como se crea en la viñeta).
+Al procesar, la textura se alinea con el objeto haciendo coincidir el `anchor=` punto del material de textura con el punto de origen de la textura del objeto (tal como se crea en la viñeta).
 
 <table id="table_992A6E93E4274B598A236F8F728F017A"> 
  <thead> 
@@ -39,7 +39,7 @@ Cuando se procesa, la textura se alinea con el objeto al hacer coincidir la vari
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-res.md#reference-0ad9de8887144c83a6db97b4994f7c04" type="reference" format="dita" scope="local"> <span class="codeph"> res= </span> </a> </p> </td> 
    <td colname="col2"> <p>Resolución de textura </p> </td> 
-   <td colname="col3"> <span class="codeph"> atributo:Resolution </span> </td> 
+   <td colname="col3"> <span class="codeph"> attribute::Resolution </span> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26" type="reference" format="dita" scope="local"> <span class="codeph"> anchor= </span> </a> </p> </td> 
@@ -47,14 +47,14 @@ Cuando se procesa, la textura se alinea con el objeto al hacer coincidir la vari
    <td colname="col3"> <p>Esquina superior izquierda. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-repeat.md#reference-37749da8233f42599ecf4731055fb7d8" type="reference" format="dita" scope="local"> <span class="codeph"> repetir= </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-repeat.md#reference-37749da8233f42599ecf4731055fb7d8" type="reference" format="dita" scope="local"> <span class="codeph"> repeat= </span> </a> </p> </td> 
    <td colname="col2"> <p>Modo de repetición </p> </td> 
    <td colname="col3"> <p>0 (repetición recta). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> Sharp= </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> sharp= </span> </a> </p> </td> 
    <td colname="col2"> <p>Enfoque </p> </td> 
-   <td colname="col3"> <p>0 (sin nitidez). </p> </td> 
+   <td colname="col3"> <p>0 (sin enfoque). </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -71,18 +71,18 @@ Además de estos atributos básicos, las texturas repetibles admiten los siguien
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-grout.md#reference-73651cbbbc344adba2626ef950d3672a" type="reference" format="dita" scope="local"> <span class="codeph"> grout= </span> </a> </p> </td> 
-   <td colname="col2"> <p>Color y grosor de la banda; útil para materiales de cerámica/piedra </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-grout.md#reference-73651cbbbc344adba2626ef950d3672a" type="reference" format="dita" scope="local"> <span class="codeph"> lechada= </span> </a> </p> </td> 
+   <td colname="col2"> <p>Color y grosor de la lechada; útil para materiales de cerámica / piedra </p> </td> 
    <td colname="col3"> <p>Grupo ya presente en la imagen </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-align.md#reference-4d63baa522ce42f9b15167ba34c5c6a7" type="reference" format="dita" scope="local"> <span class="codeph"> align= </span> </a> </p> </td> 
-   <td colname="col2"> <p>Modo de alineación (entre objetos); utilizado para aplicaciones de tapicería </p> </td> 
-   <td colname="col3"> <p>Coincidente central </p> </td> 
+   <td colname="col2"> <p>Modo de alineación (entre objetos); se utiliza para aplicaciones de tapicería </p> </td> 
+   <td colname="col3"> <p>Centrado-coincidente </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rotate.md#reference-3745d74a913e4065b7ac009fb4fd9e3c" type="reference" format="dita" scope="local"> <span class="codeph"> rotate= </span> </a> </p> </td> 
-   <td colname="col2"> <p>Ángulo de rotación de la textura; no es compatible con objetos de pared </p> </td> 
+   <td colname="col2"> <p>Ángulo de rotación de textura; no admitido por objetos de pared </p> </td> 
    <td colname="col3"> <p>0 (sin rotación) </p> </td> 
   </tr> 
  </tbody> 

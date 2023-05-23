@@ -34,8 +34,8 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | El control de la empresa. |
-| assetType | `xsd:string` | Sí | Tipos de recursos de los que obtener metadatos. |
+| companyHandle | `xsd:string` | Sí | El nombre de la empresa. |
+| assetType | `xsd:string` | Sí | Tipos de recursos de los que se obtienen metadatos. |
 
 **Salida (getMetadataFieldsParam)**
 
@@ -45,7 +45,7 @@ Sintaxis
 
 ## Ejemplos {#section-dbfde1483d614b5aac2b491cb32115d7}
 
-Este ejemplo de código devuelve recursos de metadatos para el tipo y la empresa especificados. La respuesta contiene una matriz de campos de metadatos en una matriz de campos. No todos los recursos tienen los mismos metadatos. El usuario de IPS define el campo de metadatos del recurso.
+Este ejemplo de código devuelve recursos de metadatos para el tipo y la compañía especificados. La respuesta contiene una matriz de campos de metadatos en una matriz de campos. No todos los recursos tienen los mismos metadatos. El usuario de IPS define el campo de metadatos del recurso.
 
 **Solicitar**
 

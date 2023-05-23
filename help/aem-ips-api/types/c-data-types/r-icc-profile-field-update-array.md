@@ -1,5 +1,5 @@
 ---
-description: Matriz de elementos de actualización de campos de perfil ICC.
+description: Una matriz de elementos de actualización de campo de perfil ICC.
 solution: Experience Manager
 title: IccProfileFieldUpdateArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 24%
 
 # [!DNL IccProfileFieldUpdateArray]{#iccprofilefieldupdatearray}
 
-Matriz de elementos de actualización de campos de perfil ICC.
+Una matriz de elementos de actualización de campo de perfil ICC.
 
 Sintaxis
 

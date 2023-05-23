@@ -16,7 +16,7 @@ ht-degree: 2%
 
 Seleccionar objeto por ubicación de píxeles.
 
-` sel= *`x`*, *`y`*[, *`level`*]`
+` sel= *`x`*, *`y`*[, *`nivel`*]`
 
 <table id="simpletable_247FF35D791C43D3AB433B8CF49F8C91"> 
  <tr class="strow"> 
@@ -29,22 +29,22 @@ Seleccionar objeto por ubicación de píxeles.
  </tr> 
 </table>
 
-Selecciona el grupo u objeto en las coordenadas de píxeles especificadas por *`x, y`* y comienza un nuevo MSS. Si no hay ningún objeto seleccionable en la ubicación de selección o si la ubicación de selección no es válida, la acción especificada por `attribute::OnFailSel` se toma.
+Selecciona el grupo u objeto en las coordenadas de píxel especificadas por *`x, y`* y comienza un nuevo SMS. Si no hay ningún objeto seleccionable en la ubicación de picking, o si la ubicación de picking no es válida, la acción especificada por `attribute::OnFailSel` está ocupado.
 
-*`level`* Especifica si se selecciona el grupo más externo o se profundiza en un grupo u objeto anidado. If *`level`* no se especifica, se selecciona el grupo exterior. Configúrelo en 1 para seleccionar un nivel de grupo por debajo del grupo exterior. Establezca un número grande (como 99) para seleccionar el objeto o grupo más interior seleccionado.
+*`level`* Especifica si se selecciona el grupo exterior o se profundiza en un grupo u objeto anidado. If *`level`* no se ha especificado, se selecciona el grupo exterior. Establezca el valor en 1 para seleccionar un nivel de grupo por debajo del grupo exterior. Defina un número elevado (por ejemplo, 99) para seleccionar el objeto o grupo que se pueda seleccionar más íntimamente.
 
 ## Propiedades {#section-8f27e84d88734a62a5e398e0c9972bdc}
 
-Selección, comando; delimitador MSS. La selección de objetos es persistente hasta que se selecciona otro objeto, ya sea con `obj=` o `sel=`.
+Comando de selección; delimitador SMS. La selección de objetos es persistente hasta que se selecciona otro objeto, ya sea con `obj=` o `sel=`.
 
-*`x, y`* Debe estar en el rango 0, 0 (esquina superior izquierda de la imagen) para *`wid`*-1, *`hei`*-1 (esquina inferior derecha de la imagen), donde *`wid`* y *`hei`* es el tamaño de la vista de viñeta sin escalar.
+*`x, y`* Debe estar entre 0 y 0 (esquina superior izquierda de la imagen) y *`wid`*-1, *`hei`*-1 (esquina inferior derecha de la imagen), donde *`wid`* y *`hei`* es el tamaño de la vista de viñeta sin escalar.
 
 Si se especifica, *`level`* debe ser 0 o mayor.
 
 ## Predeterminado {#section-e13c705a3e76468894b4ec190ed8a893}
 
-Ninguno para *`x, y`*. *`level`* El valor predeterminado es 0.
+Ninguno para *`x, y`*. *`level`* Valor predeterminado 0.
 
 ## Véase también {#section-486842570b4e4bf895f6ccc172ebd8b2}
 
-[obj=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-obj.md#reference-31e7dac7931b4e0eb3c7589f120a1e6a) , [wid=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-wid.md#reference-b7e691b0624941168c94b2749ae233ec), [hei=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-hei.md#reference-1c08f60365a94417a39867c09cac5478), [atributo::DefaultPix](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-defaultpix.md#reference-102c98f9b5d24d2aaaeb756653fb0e6f), [atributo::OnFailSel](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-onfailsel.md#reference-f95e4a4a3c02412b87a2b0acca8a5513)
+[obj=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-obj.md#reference-31e7dac7931b4e0eb3c7589f120a1e6a) , [wid=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-wid.md#reference-b7e691b0624941168c94b2749ae233ec), [hei=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-hei.md#reference-1c08f60365a94417a39867c09cac5478), [attribute::DefaultPix](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-defaultpix.md#reference-102c98f9b5d24d2aaaeb756653fb0e6f), [attribute::OnFailSel](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-onfailsel.md#reference-f95e4a4a3c02412b87a2b0acca8a5513)

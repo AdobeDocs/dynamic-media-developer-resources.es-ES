@@ -1,6 +1,6 @@
 ---
-title: Referencia de la API de JavaScript para el visualizador de vídeo
-description: La clase principal del visualizador de vídeo es VideoViewer. Se declara en el espacio de nombres s7viewers. Esta API de JavaScript cubre el constructor, los métodos y las llamadas de retorno de esta clase en particular.
+title: Referencia de la API de JavaScript para el visor de vídeo
+description: La clase principal del Visor de vídeo es VideoViewer. Se declara en el área de nombres de s7viewers. Esta API de JavaScript cubre el constructor, los métodos y las llamadas de retorno de esta clase en particular.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# Referencia de la API de JavaScript para el visualizador de vídeo{#javascript-api-reference-for-video-viewer}
+# Referencia de la API de JavaScript para el visor de vídeo{#javascript-api-reference-for-video-viewer}
 
-La clase principal del visualizador de vídeo es VideoViewer. Se declara en el espacio de nombres s7viewers. Esta API de JavaScript cubre el constructor, los métodos y las llamadas de retorno de esta clase en particular.
+La clase principal del Visor de vídeo es VideoViewer. Se declara en el área de nombres de s7viewers. Esta API de JavaScript cubre el constructor, los métodos y las llamadas de retorno de esta clase en particular.
 
-En todos los ejemplos siguientes, `<instance>` es el nombre real del objeto del visualizador de JavaScript del que se crea una instancia a partir de la variable `s7viewers.VideoViewer` Clase .
+En todos los ejemplos siguientes, `<instance>` es el nombre real del objeto de visor de JavaScript del que se crean instancias desde el `s7viewers.VideoViewer` clase.

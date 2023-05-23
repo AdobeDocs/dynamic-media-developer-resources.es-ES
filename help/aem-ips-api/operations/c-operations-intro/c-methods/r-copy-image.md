@@ -1,5 +1,5 @@
 ---
-description: Crea una copia de un recurso de imagen existente. Los comandos de protocolo de Image Server especificados se aplican para generar la nueva copia
+description: Crea una copia de un recurso de imagen existente. Los comandos de protocolo del servidor de imágenes especificados se aplican para generar la nueva copia
 solution: Experience Manager
 title: copyImage
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,Admin
 exl-id: 059ebbca-2341-444b-850a-1ec9582692ec
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 21%
+source-wordcount: '139'
+ht-degree: 22%
 
 ---
 
 # copyImage{#copyimage}
 
-Crea una copia de un recurso de imagen existente. Los comandos de protocolo de Image Server especificados se aplican para generar la nueva copia
+Crea una copia de un recurso de imagen existente. Los comandos de protocolo del servidor de imágenes especificados se aplican para generar la nueva copia
 
 Sintaxis
 
@@ -45,7 +45,7 @@ Sintaxis
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sí </p> </td> 
-   <td colname="col4"> <p>El identificador de la empresa que contiene la imagen. </p> </td> 
+   <td colname="col4"> <p>El identificador de la compañía que contiene la imagen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span> </span> </p> </td> 
@@ -57,7 +57,7 @@ Sintaxis
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> folderHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sí </p> </td> 
-   <td colname="col4"> <p>El identificador de la carpeta en la que se copiará la imagen. </p> </td> 
+   <td colname="col4"> <p>El identificador de la carpeta donde se copiará la imagen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> name</span> </span> </p> </td> 
@@ -97,7 +97,7 @@ Sintaxis
 
 ## Ejemplos {#section-c30a4017001146e7befbbfc5ffcb7593}
 
-El código de ejemplo copia una imagen especificada por empresa, recurso, controlador de carpeta y nombre.
+El código de ejemplo copia una imagen especificada por la compañía, el recurso, el identificador de carpeta y el nombre.
 
 **Solicitar**
 

@@ -1,6 +1,6 @@
 ---
 title: Referencia de la API de JavaScript para el visualizador de imágenes interactivo
-description: La clase principal del visualizador interactivo de imágenes es InteractiveImage. Se declara en el espacio de nombres s7viewers. Esta API de JavaScript cubre el constructor, los métodos y las llamadas de retorno de esta clase en particular.
+description: La clase principal del visualizador de imágenes interactivo es InteractiveImage. Se declara en el área de nombres de s7viewers. Esta API de JavaScript cubre el constructor, los métodos y las llamadas de retorno de esta clase en particular.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # Referencia de la API de JavaScript para el visualizador de imágenes interactivo{#javascript-api-reference-for-interactive-image-viewer}
 
-La clase principal del visualizador interactivo de imágenes es InteractiveImage. Se declara en el espacio de nombres s7viewers. Esta API de JavaScript cubre el constructor, los métodos y las llamadas de retorno de esta clase en particular.
+La clase principal del visualizador de imágenes interactivo es InteractiveImage. Se declara en el área de nombres de s7viewers. Esta API de JavaScript cubre el constructor, los métodos y las llamadas de retorno de esta clase en particular.
 
-En todos los ejemplos siguientes, `<instance>` significa el nombre real del objeto de visualizador de JavaScript del que se crea una instancia desde la clase `s7viewers.InteractiveImage`.
+En todos los ejemplos siguientes, `<instance>` significa el nombre real del objeto de visor de JavaScript del que se crean instancias a partir de `s7viewers.InteractiveImage` clase.

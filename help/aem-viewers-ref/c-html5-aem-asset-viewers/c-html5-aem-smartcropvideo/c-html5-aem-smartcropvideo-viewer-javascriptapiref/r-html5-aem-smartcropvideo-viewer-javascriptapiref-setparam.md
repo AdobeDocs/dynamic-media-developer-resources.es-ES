@@ -1,10 +1,11 @@
 ---
 title: setParam
-description: Referencia de la API de JavaScript para el visor de vídeos de recorte inteligente.
+description: Referencia de la API de JavaScript para el visualizador de recorte inteligente de vídeos.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 193719b8-f158-4ffc-9916-b7b1bf36b2de
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 2%
@@ -13,13 +14,13 @@ ht-degree: 2%
 
 # setParam{#setparam}
 
-Referencia de la API de JavaScript para el visor de vídeos de recorte inteligente.
+Referencia de la API de JavaScript para el visualizador de recorte inteligente de vídeos.
 
 ` setParam( *`nombre, valor`*)`
 
-Establece el parámetro del visor en un valor especificado. El parámetro es una opción de configuración específica del visor o un modificador del kit de desarrollo de software. Este parámetro se invoca antes de que `init()`.
+Establece el parámetro del visor en un valor especificado. El parámetro es una opción de configuración específica del visor o un modificador del kit de desarrollo de software. Se llama a este parámetro antes de `init()`.
 
-Este método es opcional si la información de configuración del visor se pasó con `config` objeto JSON al constructor.
+Este método es opcional si la información de configuración del visor se pasó con `config` Objeto JSON al constructor.
 
 Consulte también [init](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-init.md#reference-3b570ba8b35045d6b30fb178c21a66c6).
 
@@ -30,8 +31,8 @@ Consulte también [init](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcro
    <td colname="col2"> <p> <span class="codeph"> {string} </span> nombre del parámetro. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> valor del parámetro. El valor no puede estar codificado por porcentajes. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> valor </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> valor del parámetro. El valor no puede tener codificación porcentual. </p> </td> 
   </tr> 
  </tbody> 
 </table>

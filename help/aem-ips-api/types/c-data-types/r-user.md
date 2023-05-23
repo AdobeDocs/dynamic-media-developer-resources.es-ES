@@ -1,5 +1,5 @@
 ---
-description: Un usuario de recursos y tipos en el sistema.
+description: Usuario de recursos y tipos del sistema.
 solution: Experience Manager
 title: Usuario
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # [!DNL User]{#user}
 
-Un usuario de recursos y tipos en el sistema.
+Usuario de recursos y tipos del sistema.
 
 Sintaxis
 
@@ -22,10 +22,10 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| userHandle | `xsd:string` | Control de usuario. |
-| firstName | `xsd:string` | Nombre de usuario. |
-| lastName | `xsd:string` | Apellido de usuario. |
-| correo electrónico | `xsd:string` | dirección de correo electrónico. |
-| defaultRole | `xsd:string` | Establece la función de un usuario en cada empresa a la que pertenece. Sin embargo, la función de usuario `IpsAmin` anula otras funciones de usuario. |
+| userHandle | `xsd:string` | Controlador de usuario. |
+| firstName | `xsd:string` | Nombre del usuario. |
+| lastName | `xsd:string` | Apellidos del usuario. |
+| correo electrónico | `xsd:string` | dirección de correo electrónico |
+| defaultRole | `xsd:string` | Establece la función de un usuario en cada compañía a la que pertenece. Sin embargo, la función de usuario `IpsAmin` reemplaza otras funciones de usuario. |
 | isValid | `xsd:boolean` | Determina si el usuario es válido. |
-| passwordExpires | `xsd:dateTime` | Establece la fecha de caducidad de la contraseña. |
+| passwordExpires | `xsd:dateTime` | Establece fecha de caducidad de contraseña. |

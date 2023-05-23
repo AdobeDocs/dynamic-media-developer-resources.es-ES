@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: a40b90ca-98c1-4f1f-9825-ff9d57d67bb4
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '89'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Estos comandos se aplican a las capas de texto, además de a los comandos de cap
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textattr.md#reference-ff00484fa3244286abeff34911f7ec0d" type="reference" format="dita" scope="local"> textAttr</a> </p></td> 
-  <td class="stentry"> <p>Define atributos de texto adicionales. </p></td> 
+  <td class="stentry"> <p>Establece atributos de texto adicionales. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textpath.md#reference-b09cc0902dff4725bdb54d5da4076ccd" type="reference" format="dita" scope="local"> textPath</a> </p></td> 
@@ -31,7 +31,7 @@ Estos comandos se aplican a las capas de texto, además de a los comandos de cap
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pathattr.md#reference-ccf7c8befdba450187c10554eea74e74" type="reference" format="dita" scope="local"> pathAttr</a> </p></td> 
-  <td class="stentry"> <p>Define atributos de ruta de texto adicionales. </p></td> 
+  <td class="stentry"> <p>Establece atributos de ruta de texto adicionales. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md#reference-0b8d9493d71342f0b6a64a6d221584ef" type="reference" format="dita" scope="local"> textFlowPath</a> </p></td> 
@@ -43,7 +43,7 @@ Estos comandos se aplican a las capas de texto, además de a los comandos de cap
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textangle.md#reference-447f624c0e764d0cb5c75846d1b44d15" type="reference" format="dita" scope="local"> textAngle</a> </p></td> 
-  <td class="stentry"> <p>Define el ángulo de la línea base del texto. </p></td> 
+  <td class="stentry"> <p>Establece el ángulo de línea de base del texto. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-text.md#reference-84634052e48548539a1ef63cbe41f22f" type="reference" format="dita" scope="local"> texto</a> </p></td> 

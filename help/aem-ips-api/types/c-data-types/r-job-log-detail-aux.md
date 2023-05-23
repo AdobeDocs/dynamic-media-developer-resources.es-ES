@@ -1,5 +1,5 @@
 ---
-description: Contiene mensajes adicionales asociados al mensaje de registro de trabajos principal (JobDetail). Incluye advertencias y otros detalles asociados con el recurso procesado actualmente.
+description: Contiene mensajes complementarios asociados al mensaje del registro de trabajo principal (JobDetail). Incluye advertencias y otros detalles asociados con el recurso procesado actualmente.
 solution: Experience Manager
 title: JobLogDetailAux
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # [!DNL JobLogDetailAux]{#joblogdetailaux}
 
-Contiene mensajes adicionales asociados al mensaje de registro de trabajos principal (JobDetail). Incluye advertencias y otros detalles asociados con el recurso procesado actualmente.
+Contiene mensajes complementarios asociados al mensaje del registro de trabajo principal (JobDetail). Incluye advertencias y otros detalles asociados con el recurso procesado actualmente.
 
 Sintaxis
 
@@ -24,4 +24,4 @@ Sintaxis
 |---|---|---|
 | logMessage | `xsd:string` | Un mensaje auxiliar. |
 | logType | `xsd:string` | Tipo de registro: `IPSJobLog.gcUploadWarning` o `IPSJobLog.gcUploadError`. |
-| dateCreated | `xsd:dateTime` | Fecha de creación del registro de trabajos auxiliar. |
+| dateCreated | `xsd:dateTime` | Fecha de creación del registro de trabajo auxiliar. |

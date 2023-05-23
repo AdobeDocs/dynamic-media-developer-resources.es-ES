@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 4b2a2a14-d785-43bd-b1fc-2812d9f21964
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 19%
+source-wordcount: '76'
+ht-degree: 21%
 
 ---
 
@@ -47,7 +47,7 @@ Sintaxis
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sí </p> </td> 
-   <td colname="col4"> <p>El identificador de la empresa a la que pertenece el trabajo. </p> </td> 
+   <td colname="col4"> <p>El identificador de la compañía a la que pertenece el trabajo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> jobHandle</span> </span> </p> </td> 
@@ -60,7 +60,7 @@ Sintaxis
 
 **Salida (executeJobReturn)**
 
-La API IPS no devuelve una respuesta para esta operación.
+La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-96f71aa58a954293b9a98ff96d86f232}
 

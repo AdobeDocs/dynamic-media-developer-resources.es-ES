@@ -22,4 +22,4 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| emailSetting | `xsd:string` | Un campo de configuración de correo electrónico. |
+| emailSetting | `xsd:string` | Campo de configuración de correo electrónico. |

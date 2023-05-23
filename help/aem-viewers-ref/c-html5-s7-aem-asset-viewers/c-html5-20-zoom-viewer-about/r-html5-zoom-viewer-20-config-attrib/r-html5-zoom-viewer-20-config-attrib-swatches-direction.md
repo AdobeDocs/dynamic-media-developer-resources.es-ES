@@ -8,7 +8,7 @@ exl-id: 906541bc-46dd-4a7c-8ee9-eb45ec3bd340
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
 source-wordcount: '57'
-ht-degree: 7%
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
-   <td> <p> Especifica la forma en que las muestras rellenan la vista. </p> <p> <span class="codeph"> left </span> establece el orden de relleno de izquierda a derecha; </p> <p> <span class="codeph"> right </span> invierte el orden para que la vista se rellene de derecha a izquierda y de arriba a abajo. </p> <p>When <span class="codeph"> auto </span> está configurado, se aplica el componente <span class="codeph"> right </span> cuando la configuración regional está definida en <span class="codeph"> ja </span>; de lo contrario, se usa left . </p> </td> 
+   <td> <p> Especifica la forma en que la vista se rellena con muestras. </p> <p> <span class="codeph"> left </span> establece el orden de relleno de izquierda a derecha; </p> <p> <span class="codeph"> derecha </span> invierte el orden para que la vista se rellene de derecha a izquierda y de arriba a abajo. </p> <p>Cuándo <span class="codeph"> auto </span> está configurado, se aplica el componente <span class="codeph"> derecha </span> modo cuando la configuración regional está establecida en <span class="codeph"> ja </span>; de lo contrario, se utiliza left. </p> </td> 
   </tr> 
  </tbody> 
 </table>

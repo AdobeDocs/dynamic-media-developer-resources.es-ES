@@ -1,5 +1,5 @@
 ---
-description: Devuelve grupos de empresas.
+description: Devuelve grupos de compañías.
 solution: Experience Manager
 title: getGroups
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 22%
 
 # getGroups{#getgroups}
 
-Devuelve grupos de empresas.
+Devuelve grupos de compañías.
 
 Sintaxis
 
@@ -30,7 +30,7 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | El identificador de la empresa. |
+| companyHandle | `xsd:string` | Sí | El identificador de la compañía. |
 
 **Salida (getGroupsReturn)**
 
@@ -40,7 +40,7 @@ Sintaxis
 
 ## Ejemplos {#section-ed0708f611574354bf0c6ea83912b531}
 
-Este código devuelve una matriz que contiene todos los grupos que pertenecen a una empresa específica e información específica sobre cada grupo.
+Este código devuelve una matriz que contiene todos los grupos que pertenecen a una compañía específica e información específica sobre cada grupo.
 
 **Solicitar**
 

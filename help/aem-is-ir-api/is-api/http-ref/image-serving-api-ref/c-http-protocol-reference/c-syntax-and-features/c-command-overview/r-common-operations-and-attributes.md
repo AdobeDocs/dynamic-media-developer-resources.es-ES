@@ -1,5 +1,5 @@
 ---
-description: Estos comandos se aplican a las capas de imagen, texto y color sólido. También suelen ser útiles para imágenes compuestas y solicitudes de imagen simples sin capas.
+description: Estos comandos se aplican a las capas de imagen, texto y color sólido. También suelen ser útiles en el caso de imágenes compuestas y solicitudes de imagen simples y sin capas.
 solution: Experience Manager
 title: Operaciones comunes
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: f30a9653-7aed-4233-8361-18ca6561d420
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '146'
 ht-degree: 3%
 
 ---
 
 # Operaciones comunes{#common-operations}
 
-Estos comandos se aplican a las capas de imagen, texto y color sólido. También suelen ser útiles para imágenes compuestas y solicitudes de imagen simples sin capas.
+Estos comandos se aplican a las capas de imagen, texto y color sólido. También suelen ser útiles en el caso de imágenes compuestas y solicitudes de imagen simples y sin capas.
 
 <table id="simpletable_996969D618C94BE8B81FAED512B5B7BA"> 
  <tr class="strow"> 
@@ -31,7 +31,7 @@ Estos comandos se aplican a las capas de imagen, texto y color sólido. También
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-colorize.md#reference-50399231d6dc4c15b3ab5b93c32c458a" type="reference" format="dita" scope="local"> op_colorize</a> </p></td> 
-  <td class="stentry"> <p>Coloriza los datos de capa. </p></td> 
+  <td class="stentry"> <p>Colorea los datos de la capa. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-contrast.md#reference-b26dfa9869fd43bebea0fbb8e9fe743d" type="reference" format="dita" scope="local"> op_contrast</a> </p></td> 
@@ -47,7 +47,7 @@ Estos comandos se aplican a las capas de imagen, texto y color sólido. También
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-noise.md#reference-763c4a890fe24bb6bb5ae9dad4e2da94" type="reference" format="dita" scope="local"> op_sound</a> </p></td> 
-  <td class="stentry"> <p>Agrega ruido a la capa. </p></td> 
+  <td class="stentry"> <p>Añade ruido a la capa. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-saturation.md#reference-6b7ee05a462f4f01b1fb7108230d90d9" type="reference" format="dita" scope="local"> op_saturation</a> </p></td> 
@@ -55,7 +55,7 @@ Estos comandos se aplican a las capas de imagen, texto y color sólido. También
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-sharpen.md#reference-c32573230c6140f883efdaa201ea8541" type="reference" format="dita" scope="local"> op_sharpen</a> </p></td> 
-  <td class="stentry"> <p>Aplica un enfoque simple. </p></td> 
+  <td class="stentry"> <p>Aplica enfoque simple. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-usm.md#reference-51ac75adadfe4346ab60953192d0a1aa" type="reference" format="dita" scope="local"> op_usm</a> </p></td> 
@@ -63,7 +63,7 @@ Estos comandos se aplican a las capas de imagen, texto y color sólido. También
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-flip.md#reference-f8568a61b77c41569d382a3147964ce3" type="reference" format="dita" scope="local"> voltear</a> </p></td> 
-  <td class="stentry"> <p>Gira la capa horizontalmente o verticalmente. </p></td> 
+  <td class="stentry"> <p>Voltea la capa horizontal o verticalmente. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096" type="reference" format="dita" scope="local"> rotate</a> </p></td> 
@@ -71,14 +71,14 @@ Estos comandos se aplican a las capas de imagen, texto y color sólido. También
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-perspective.md#reference-c941f3bb1eee4dd29abf3824c0b0bc8e" type="reference" format="dita" scope="local"> perspectiva</a> </p></td> 
-  <td class="stentry"> <p>Perspectiva-transformar la capa. </p></td> 
+  <td class="stentry"> <p>Transforme la capa en perspectiva. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d" type="reference" format="dita" scope="local"> clipPath</a> </p></td> 
-  <td class="stentry"> <p>Especifica la forma del clip para la capa. </p></td> 
+  <td class="stentry"> <p>Especifica las formas de clip para la capa. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clipxpath.md#reference-17e5e4da3e044943af8f963f58a45f53" type="reference" format="dita" scope="local"> clipXPath</a> </p></td> 
-  <td class="stentry"> <p>Especifica las formas invertidas del clip para la capa. </p></td> 
+  <td class="stentry"> <p>Especifica las formas de clip invertidas para la capa. </p></td> 
  </tr> 
 </table>

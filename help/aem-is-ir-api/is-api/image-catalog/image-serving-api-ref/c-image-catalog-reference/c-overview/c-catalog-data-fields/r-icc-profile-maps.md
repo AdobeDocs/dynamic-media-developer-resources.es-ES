@@ -1,20 +1,20 @@
 ---
-description: Los campos siguientes se reconocen en los archivos de mapa de perfiles de color ICC.
+description: Los campos siguientes se reconocen en los ficheros de mapa de perfiles de color ICC.
 solution: Experience Manager
-title: Mapas de perfiles ICC
+title: Mapas de perfil ICC
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3492f4f3-d93e-4b62-8ff6-ace228e0687e
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '40'
 ht-degree: 0%
 
 ---
 
-# Mapas de perfiles ICC{#icc-profile-maps}
+# Mapas de perfil ICC{#icc-profile-maps}
 
-Los campos siguientes se reconocen en los archivos de mapa de perfiles de color ICC.
+Los campos siguientes se reconocen en los ficheros de mapa de perfiles de color ICC.
 
 <table id="simpletable_91C7631EE91141DCB6EE70441BC724A9"> 
  <tr class="strow"> 

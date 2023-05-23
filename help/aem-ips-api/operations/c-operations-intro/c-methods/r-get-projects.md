@@ -33,17 +33,17 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | El identificador de la empresa. |
+| companyHandle | `xsd:string` | Sí | El identificador de la compañía. |
 
 **Salida (getProjectsReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| projectArray | `types:ProjectArray` | Sí | Matriz de proyectos asociados a la empresa. |
+| projectArray | `types:ProjectArray` | Sí | La matriz de proyectos asociados con la compañía. |
 
 ## Ejemplos {#section-8b12d0b948f644f68bf9a16060d3849a}
 
-Este ejemplo de código devuelve todos los controladores de proyecto de una matriz de proyectos.
+Este ejemplo de código devuelve todos los identificadores de proyecto de una matriz de proyectos.
 
 **Solicitar**
 

@@ -8,7 +8,7 @@ exl-id: a030aa84-182a-48b6-9616-dc07e48dd05e
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '32'
-ht-degree: 15%
+ht-degree: 12%
 
 ---
 
@@ -22,7 +22,7 @@ Atributo de configuración para el visualizador de vídeo interactivo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Activa/desactiva la hora del capítulo en la barra de título de la etiqueta del capítulo. </p> </td> 
+   <td colname="col2"> <p> Activa/desactiva el tiempo de capítulo en la barra de título de la etiqueta de capítulo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

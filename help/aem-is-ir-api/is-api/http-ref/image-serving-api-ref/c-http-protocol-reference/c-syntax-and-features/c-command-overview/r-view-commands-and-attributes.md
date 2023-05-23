@@ -1,40 +1,40 @@
 ---
-description: Estos comandos se aplican independientemente de dónde aparezca en la solicitud.
+description: Estos comandos se aplican independientemente del lugar de la solicitud en el que aparecen.
 solution: Experience Manager
-title: Ver, comandos
+title: Ver comandos
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c1dcabd3-d2bc-4ca1-a909-fcfe0d2feff6
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 4%
+source-wordcount: '81'
+ht-degree: 3%
 
 ---
 
-# Ver, comandos{#view-commands}
+# Ver comandos{#view-commands}
 
-Estos comandos se aplican independientemente de dónde aparezca en la solicitud.
+Estos comandos se aplican independientemente del lugar de la solicitud en el que aparecen.
 
 <table id="simpletable_A423F1CD30EC4DE9AD15C4514F169FC9"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-align.md#reference-b7d6b87c75124d78884f916dd6544bc7" type="reference" format="dita" scope="local"> align</a> </p> </td> 
+  <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-align.md#reference-b7d6b87c75124d78884f916dd6544bc7" type="reference" format="dita" scope="local"> alinear</a> </p> </td> 
   <td class="stentry"> <p>Alinea la vista con la imagen compuesta. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88" type="reference" format="dita" scope="local"> bgc</a> </p> </td> 
-  <td class="stentry"> <p>Define el color de fondo de la vista. </p></td> 
+  <td class="stentry"> <p>Establece el color de fondo de la vista. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md#reference-f11bff6d93d143d6b135de3a923bc989" type="reference" format="dita" scope="local"> Ajuste</a> </p></td> 
-  <td class="stentry"> <p>Se adapta a la vista de la imagen compuesta. </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md#reference-f11bff6d93d143d6b135de3a923bc989" type="reference" format="dita" scope="local"> ajuste</a> </p></td> 
+  <td class="stentry"> <p>Ajusta la vista a la imagen compuesta. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-hei.md#reference-6d6f556ccc0e4b98a815e8a5c1944a96" type="reference" format="dita" scope="local"> hei</a> </p> </td> 
   <td class="stentry"> <p>Define la altura de la vista. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rect.md#reference-520b90d30b4c4b4692a723e4df6adaf3" type="reference" format="dita" scope="local"> rect</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rect.md#reference-520b90d30b4c4b4692a723e4df6adaf3" type="reference" format="dita" scope="local"> recto</a> </p></td> 
   <td class="stentry"> <p>Especifica el rectángulo de vista final. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -47,6 +47,6 @@ Estos comandos se aplican independientemente de dónde aparezca en la solicitud.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-wid.md#reference-bfeadcb67bf4485f851eb21345527e47" type="reference" format="dita" scope="local"> wid</a> </p></td> 
-  <td class="stentry"> <p>Define el ancho de la vista. </p></td> 
+  <td class="stentry"> <p>Establece el ancho de la vista. </p></td> 
  </tr> 
 </table>

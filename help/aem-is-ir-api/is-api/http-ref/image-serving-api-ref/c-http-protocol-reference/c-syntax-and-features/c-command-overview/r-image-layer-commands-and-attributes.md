@@ -1,5 +1,5 @@
 ---
-description: Estos comandos se aplican a las capas de imagen, además de a los comandos de capa comunes.
+description: Estos comandos se aplican a las capas de imagen, además de los comandos de capa comunes.
 solution: Experience Manager
 title: Comandos de capa de imagen
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: 142e3fbb-93d6-4072-8e49-b7a7484106d8
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '42'
+source-wordcount: '37'
 ht-degree: 0%
 
 ---
 
 # Comandos de capa de imagen{#image-layer-commands}
 
-Estos comandos se aplican a las capas de imagen, además de a los comandos de capa comunes.
+Estos comandos se aplican a las capas de imagen, además de los comandos de capa comunes.
 
 <table id="simpletable_F6799DA025A64970B95085FB9910E1EF"> 
  <tr class="strow"> 

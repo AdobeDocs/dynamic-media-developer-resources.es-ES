@@ -1,5 +1,5 @@
 ---
-description: Matriz de actualizaciones de estado de contexto.
+description: Una matriz de actualizaciones de estado de contexto.
 solution: Experience Manager
 title: ContextStateUpdateArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 20%
 
 # [!DNL ContextStateUpdateArray]{#contextstateupdatearray}
 
-Matriz de actualizaciones de estado de contexto.
+Una matriz de actualizaciones de estado de contexto.
 
 Sintaxis
 
@@ -22,4 +22,4 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| ContextStateUpdateArray | `types:ContextStateUpdate` | Matriz de actualizaciones de estado de contexto. |
+| ContextStateUpdateArray | `types:ContextStateUpdate` | Una matriz de actualizaciones de estado de contexto. |

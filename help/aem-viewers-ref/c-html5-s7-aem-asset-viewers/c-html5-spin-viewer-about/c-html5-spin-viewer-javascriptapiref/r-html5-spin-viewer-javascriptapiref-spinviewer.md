@@ -1,6 +1,6 @@
 ---
-title: Visualizador de giros
-description: Referencia de la API de JavaScript para el visualizador de giros.
+title: SpinViewer
+description: Referencia de la API de JavaScript para el visor de giros.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
@@ -12,13 +12,13 @@ ht-degree: 3%
 
 ---
 
-# Visualizador de giros{#spinviewer}
+# SpinViewer{#spinviewer}
 
-Referencia de la API de JavaScript para el visualizador de giros.
+Referencia de la API de JavaScript para el visor de giros.
 
 `SpinViewer([config])`
 
-Constructor, crea una nueva instancia de visualizador de giros.
+Constructor, crea una nueva instancia del visualizador de giros.
 
 ## Parámetros {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
@@ -26,12 +26,12 @@ Constructor, crea una nueva instancia de visualizador de giros.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> config </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {Object} </span> objeto de configuración JSON opcional, permite que todos los ajustes del visor pasen al constructor y evite llamar a métodos de ajuste individuales. Contiene las siguientes propiedades: </p> <p> 
+   <td colname="col2"> <p> <span class="codeph"> {Object} </span> objeto de configuración JSON opcional, permite que todas las configuraciones del visor pasen al constructor y eviten llamar a métodos de establecedor individuales. Contiene las siguientes propiedades: </p> <p> 
      <ul id="ul_266C711E8E75471E90C15F39A96A142F"> 
-      <li id="li_71857BBD652243A094E936C2C8EA9702"> <p> <span class="codeph"> containerId </span> - <span class="codeph"> {Cadena} </span> ID del contenedor DOM (normalmente, un <span class="codeph"> DIV </span>) en la que se inserta el visor. No es necesario tener el elemento contenedor creado para cuando se llama a este método. Sin embargo, el contenedor debe existir cuando <span class="codeph"> init() </span> se ejecuta. Obligatorio. </p> </li> 
-      <li id="li_3D28979F04274AC9B507B33D4275FC3A"> <p> <span class="codeph"> params </span> - <span class="codeph"> {Object} </span> El objeto JSON con parámetros de configuración del visor en los que el nombre de la propiedad es una opción de configuración específica del visor o un modificador del SDK, y el valor de esa propiedad es un valor de configuración correspondiente. Obligatorio. </p> </li> 
-      <li id="li_A40AC2167575415FB3383D070E27B9AB"> <p> <span class="codeph"> controladores </span> - <span class="codeph"> {Object} </span> El objeto JSON con llamadas de retorno de eventos del visor, donde el nombre de la propiedad es el nombre del evento del visor admitido, y el valor de la propiedad es una referencia de función JavaScript a una llamada de retorno adecuada. Opcional. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-event-callbacks.md#concept-9c553c80eefd422faacf6522c69804bf" format="dita" scope="local"> Llamadas de retorno de eventos </a> para obtener más información sobre los eventos del visor. </p> </li> 
-      <li id="li_643787FB4A424D0AB6B8E12F44C3A9AC"> <p> <span class="codeph"> localizedTexts </span> - <span class="codeph"> {Object} </span> objeto JSON con datos de localización. Opcional. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-localization.md#concept-e35c15c9e82648328806cdc6aa255d98" format="dita" scope="local"> Localización de los elementos de la interfaz de usuario </a> para obtener más información. </p> <p>Consulte también la <i>Guía del usuario del SDK del visor</i> y el ejemplo para obtener más información sobre el contenido del objeto. </p> </li> 
+      <li id="li_71857BBD652243A094E936C2C8EA9702"> <p> <span class="codeph"> containerId </span> - <span class="codeph"> {String} </span> ID del contenedor DOM (normalmente un <span class="codeph"> DIV </span>) en el que se inserta el visor. No es necesario tener el elemento contenedor creado para el momento en que se llama a este método. Sin embargo, el contenedor debe existir cuando <span class="codeph"> init() </span> se ejecuta. Obligatorio. </p> </li> 
+      <li id="li_3D28979F04274AC9B507B33D4275FC3A"> <p> <span class="codeph"> parámetros </span> - <span class="codeph"> {Object} </span> Objeto JSON con parámetros de configuración del visor donde el nombre de propiedad es una opción de configuración específica del visor o un modificador del SDK y el valor de esa propiedad es un valor de configuración correspondiente. Obligatorio. </p> </li> 
+      <li id="li_A40AC2167575415FB3383D070E27B9AB"> <p> <span class="codeph"> controladores </span> - <span class="codeph"> {Object} </span> Objeto JSON con llamadas de retorno a evento de visor, donde el nombre de propiedad es el nombre del evento de visor admitido y el valor de propiedad es una referencia de función de JavaScript a una llamada de retorno adecuada. Opcional. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-event-callbacks.md#concept-9c553c80eefd422faacf6522c69804bf" format="dita" scope="local"> Llamadas de retorno de eventos </a> para obtener más información sobre los eventos de visor. </p> </li> 
+      <li id="li_643787FB4A424D0AB6B8E12F44C3A9AC"> <p> <span class="codeph"> localizedTexts </span> - <span class="codeph"> {Object} </span> Objeto JSON con datos de localización. Opcional. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-localization.md#concept-e35c15c9e82648328806cdc6aa255d98" format="dita" scope="local"> Localización de los elementos de la interfaz de usuario </a> para obtener más información. </p> <p>Consulte también la <i>Guía del usuario de Viewer SDK</i> y el ejemplo para obtener más información sobre el contenido del objeto. </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 

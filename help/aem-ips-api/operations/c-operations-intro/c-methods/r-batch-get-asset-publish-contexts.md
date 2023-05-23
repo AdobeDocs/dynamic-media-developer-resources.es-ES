@@ -1,5 +1,5 @@
 ---
-description: Devuelve los contextos de publicación de los recursos marcados para su publicación.
+description: Devuelve los contextos de publicación de los recursos marcados para la publicación.
 solution: Experience Manager
 title: batchGetAssetPublishContexts
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 16%
 
 # batchGetAssetPublishContexts{#batchgetassetpublishcontexts}
 
-Devuelve los contextos de publicación de los recursos marcados para su publicación.
+Devuelve los contextos de publicación de los recursos marcados para la publicación.
 
 Sintaxis
 
@@ -33,7 +33,7 @@ Sintaxis
 >[!NOTE]
 >
 >* El usuario debe tener acceso de lectura para devolver los recursos.
->* Todos los usuarios tienen acceso a la empresa compartida.
+>* Todos los usuarios tienen acceso a la compañía compartida.
 >
 
 
@@ -43,14 +43,14 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | Gestionar a la empresa. |
-| assetHandleArray | ` `tipos:HandleArray&quot; | Sí | Lista de recursos que desea consultar para contextos activos (marcados para publicación). |
+| companyHandle | `xsd:string` | Sí | Gestionar en la empresa. |
+| assetHandleArray | ` `tipos:HandleArray&quot; | Sí | Una lista de los recursos que desea consultar para contextos activos (marcados para publicación). |
 
 **Salida (batchGetAssetPublishContextsReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| assetPublishContextsArray | `types:assetPublishContextsArray` | Sí | Matriz de contextos de publicación en la que cada recurso está marcado para su publicación. |
+| assetPublishContextsArray | `types:assetPublishContextsArray` | Sí | Matriz de contextos de publicación en los que cada recurso se marca para su publicación. |
 
 ## Ejemplos {#section-457f6809ccfa425b9a0976313d613f4e}
 

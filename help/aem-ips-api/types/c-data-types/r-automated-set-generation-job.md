@@ -1,5 +1,5 @@
 ---
-description: Agrupe archivos en conjuntos mediante una matriz de lista de controladores de recursos.
+description: Agrupe archivos en conjuntos mediante una matriz de lista de identificadores de recursos.
 solution: Experience Manager
 title: AutomatedSetGenerationJob
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # [!DNL AutomatedSetGenerationJob]{#automatedsetgenerationjob}
 
-Agrupe archivos en conjuntos mediante una matriz de lista de controladores de recursos.
+Agrupe archivos en conjuntos mediante una matriz de lista de identificadores de recursos.
 
 Sintaxis
 
@@ -32,12 +32,12 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL assetHandleArray]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:HandleArray</span> </td> 
-   <td colname="col3">Matriz de controles de recursos que se utiliza para crear el conjunto. <p>De forma predeterminada, 1000 es el número máximo de recursos que puede tener en la matriz. </p></td> 
+   <td colname="col3">Matriz de identificadores de recursos que se utiliza para crear el conjunto. <p>De forma predeterminada, 1000 es el número máximo de recursos que puede tener en la matriz. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL destFolder]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Ruta a la carpeta donde desea guardar los conjuntos. Se guarda en la carpeta raíz de la empresa de forma predeterminada. </td> 
+   <td colname="col3"> Ruta a la carpeta donde desea guardar los conjuntos. Guarda en la carpeta raíz de la empresa de forma predeterminada. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL readyForPublish]</span> </span> </td> 
@@ -47,25 +47,25 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL autoSetCreationOptions]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:AutoSetCreationOptions</span> </td> 
-   <td colname="col3">Matriz de scripts de generación establecidos que se pueden ejecutar en los archivos cargados. Consulte <a href="../../types/c-data-types/r-auto-set-creation-options.md#reference-58b42b39e53345aeb87cd1adc864e7ff" format="dita" scope="local"> AutoSetCreationOptions</a></td> 
+   <td colname="col3">Matriz de scripts de generación de conjuntos que se pueden ejecutar en los archivos cargados. Consulte <a href="../../types/c-data-types/r-auto-set-creation-options.md#reference-58b42b39e53345aeb87cd1adc864e7ff" format="dita" scope="local"> AutoSetCreationOptions</a></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL emailSetting]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Configure una notificación de correo electrónico automatizada para el trabajo. </p> </td> 
+   <td colname="col3"> <p>Configure una notificación automática por correo electrónico para el trabajo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Opciones de configuración de correo electrónico**
+**Opciones de emailSetting**
 
-La variable `emailSetting` incluye las siguientes opciones:
+El `emailSetting` Este parámetro incluye las siguientes opciones:
 
 | Opción | Devuelve |
 |---|---|
 | `All` | Todas las notificaciones de trabajos (errores, advertencias, finalización) al destinatario especificado. |
 | `Error` | Errores de trabajo en el destinatario especificado. |
-| `ErrorAndWarning` | Errores y advertencias de trabajo al destinatario especificado. |
+| `ErrorAndWarning` | Errores de trabajo y advertencias al destinatario especificado. |
 | `JobCompletion` | Una notificación de finalización de trabajo al destinatario especificado. |
 | `None` | El trabajo no envía ninguna notificación de trabajo al destinatario especificado. |
 

@@ -1,5 +1,5 @@
 ---
-description: El error generado cuando falla la actualización de un valor de etiqueta.
+description: Error producido cuando falla la actualización de un valor de etiqueta.
 solution: Experience Manager
 title: TagValueUpdateFault
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 20%
 
 # [!DNL TagValueUpdateFault]{#tagvalueupdatefault}
 
-El error generado cuando falla la actualización de un valor de etiqueta.
+Error producido cuando falla la actualización de un valor de etiqueta.
 
 Sintaxis
 
@@ -22,6 +22,6 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| valor | `xsd:string` | Valor de etiqueta para el que se ha producido un error en la actualización. |
+| valor | `xsd:string` | Valor de etiqueta para el que ha fallado la actualización. |
 | código | `xsd:int` | Número de código de error. |
 | razón | `xsd:string` | Mensaje de error (texto sin formato). |

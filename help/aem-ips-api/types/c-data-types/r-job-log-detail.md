@@ -1,5 +1,5 @@
 ---
-description: Información del registro de trabajos.
+description: Información del registro de trabajo.
 solution: Experience Manager
 title: JobLogDetail
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # [!DNL JobLogDetail]{#joblogdetail}
 
-Información del registro de trabajos.
+Información del registro de trabajo.
 
 Sintaxis
 
@@ -25,6 +25,6 @@ Sintaxis
 | logMessage | `xsd:string` | Mensajes en el registro de trabajos. |
 | logType | `xsd:string` | Tipo de archivo de registro de trabajo. |
 | assetName | `xsd:string` | Nombre del recurso en el registro de trabajos (opcional). |
-| assetType | `xsd:string` | Opción del tipo de recurso. |
-| assetHandle | `xsd:string` | Identificador de recurso al que se hace referencia en el registro de trabajos. |
-| auxArray | `types:JobLogDetailAuxArray` | Proporciona información adicional detallada del registro de trabajos más allá de los cinco tipos de registro de trabajos descritos anteriormente. |
+| assetType | `xsd:string` | Elección del tipo de recurso. |
+| assetHandle | `xsd:string` | Controlador de recursos al que se hace referencia en el registro de trabajos. |
+| auxArray | `types:JobLogDetailAuxArray` | Proporciona información detallada adicional del registro de trabajos más allá de los cinco tipos de registro de trabajos descritos anteriormente. |

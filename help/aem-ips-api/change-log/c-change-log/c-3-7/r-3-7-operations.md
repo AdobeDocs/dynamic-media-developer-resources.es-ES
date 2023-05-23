@@ -1,5 +1,5 @@
 ---
-description: Describe los métodos de operaciones nuevos y modificados para la API IPS versión 3.7.
+description: Describe métodos de operaciones nuevos y modificados para la versión 3.7 de la API de IPS.
 solution: Experience Manager
 title: Operaciones nuevas y modificadas
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,Admin
 exl-id: 1f11a686-7239-4922-a608-5330864184ac
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 5%
+source-wordcount: '48'
+ht-degree: 6%
 
 ---
 
-# Operaciones: Nuevo y modificado{#operations-new-and-modified}
+# Operaciones: nuevas y modificadas{#operations-new-and-modified}
 
-Describe los métodos de operaciones nuevos y modificados para la API IPS versión 3.7.
+Describe métodos de operaciones nuevos y modificados para la versión 3.7 de la API de IPS.
 
 Sintaxis
 
@@ -40,7 +40,7 @@ Sintaxis
 
 **searchAsset**
 
-* Se ha eliminado el parámetro `name`.
+* Eliminado `name` parámetro.
 * Agregado `excludeFieldArray`.
 
 **getFolders**
@@ -49,5 +49,5 @@ Sintaxis
 
 **getFolderTree**
 
-* Se agregaron `excludeFieldArray` y `getUniqueMetadataValues`.
-* Se ha convertido `fieldHandle` en un parámetro obligatorio.
+* Añadido `excludeFieldArray` y `getUniqueMetadataValues`.
+* Creado `fieldHandle` un parámetro requerido.

@@ -8,7 +8,7 @@ exl-id: 7ffdc886-5631-429f-84b4-4b32b715713d
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
 source-wordcount: '75'
-ht-degree: 6%
+ht-degree: 5%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td> <p> Habilita o deshabilita la capacidad de un usuario para desplazarse por las muestras con un ratón o mediante gestos táctiles </p> </td> 
+   <td> <p> Activa o desactiva la capacidad del usuario de desplazar muestras con un ratón o mediante gestos táctiles </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> <span class="varname"> overdragvalue </span> </span> </p> </td> 
-   <td> <p> Funciones dentro de <span class="codeph"> 0-1 </span> intervalo. Es un <span class="codeph"> % </span> para el movimiento en la dirección incorrecta de la velocidad real. Si está configurado en <span class="codeph"> 1 </span>, se mueve con el ratón. Si está configurado en <span class="codeph"> 0 </span>, no permite moverse en la dirección equivocada. </p> </td> 
+   <td> <p> Funciones dentro de <span class="codeph"> 0-1 </span> rango. Es un <span class="codeph"> % </span> valor para el movimiento en una dirección incorrecta de la velocidad real. Si se establece en <span class="codeph"> 1 </span>, se mueve con el ratón. Si se establece en <span class="codeph"> 0 </span>Sin embargo, no le permite moverse en la dirección incorrecta. </p> </td> 
   </tr> 
  </tbody> 
 </table>

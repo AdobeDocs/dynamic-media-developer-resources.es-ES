@@ -1,6 +1,6 @@
 ---
 title: Notas de compatibilidad
-description: Notas de compatibilidad para sistemas operativos, navegadores y dispositivos móviles.
+description: Notas de compatibilidad para sistemas operativos, exploradores y dispositivos móviles.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -16,53 +16,53 @@ ht-degree: 1%
 
 <!-- Updated April 06, 2021 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
-Notas de compatibilidad para sistemas operativos, navegadores y dispositivos móviles.
+Notas de compatibilidad para sistemas operativos, exploradores y dispositivos móviles.
 
 ## Blackberry® {#section-0c465ac3775d47fd838e2695a00abc45}
 
-* Incompatibilidad con conjuntos de vídeos adaptables más antiguos. Vuelva a cargar los conjuntos de vídeos adaptables para permitir la reproducción.
+* Incompatibilidad con conjuntos de vídeos adaptables anteriores. Vuelva a cargar los conjuntos de vídeos adaptables para permitir la reproducción.
 
 ## General {#section-7b9a9fcba85148d1802b7b3016b48e02}
 
-* La escala del lado del explorador hace que la interfaz de usuario y las imágenes se vuelvan borrosas a medida que el usuario amplía la página. El formato de la interfaz de usuario también se muestra incorrectamente según el zoom y se transfiere a pantalla completa.
-* Debido a la limitación de tamaño de los dispositivos móviles, el visualizador de medios mixtos utiliza un gesto de diapositivas para intercambiar fotogramas en conjuntos de imágenes incrustadas en lugar de pulsar el componente de muestras incrustadas. El componente está ahí como indicador visual.
-* En los navegadores Internet Explorer y en algunos dispositivos táctiles, el modo de pantalla completa no ocupa toda la pantalla del dispositivo. En su lugar, cambia el tamaño de la aplicación al tamaño de la ventana del explorador.
-* El botón Cerrar no funciona en iOS 8.0 y iOS 8.1, pero funciona en iOS 8.2.
+* La escala del lado del explorador hace que la interfaz de usuario y las imágenes se vuelvan borrosas a medida que el usuario amplía la página. El formato de la interfaz de usuario también se muestra incorrectamente en función del zoom y se transfiere a pantalla completa.
+* Debido a la limitación de tamaño en dispositivos móviles, el visualizador de medios mixtos utiliza el gesto de diapositiva para intercambiar fotogramas en conjuntos de imágenes incrustados en lugar de pulsar el componente de muestras incrustado. El componente está presente como indicador visual.
+* En los exploradores de Internet Explorer y en algunos dispositivos táctiles, el modo de pantalla completa no ocupa toda la pantalla del dispositivo. En su lugar, cambia el tamaño de la aplicación según el tamaño de la ventana del explorador.
+* El botón Cerrar no funciona en iOS 8.0 y iOS 8.1, pero sí en iOS 8.2.
 
 ## Galaxia SIII {#section-dfd5f46f39834223b544b1e2f7a770c1}
 
-* Fuga de memoria vista con los visores Zoom y eCatalog. La navegación repetida por marcos hace que el explorador se bloquee.
-* Al tocar dos veces un visor, toda la página se amplía en lugar de solo el visor con el escalado del lado del navegador activado.
+* Pérdida de memoria con visores de zoom y catálogo electrónico. La navegación repetida a través de fotogramas hace que el explorador se bloquee.
+* Al tocar dos veces en un visor, se hace que toda la página se haga zoom en lugar de hacerlo solo en el visor con la escala del lado del explorador habilitada.
 
-## Galaxia S4 {#section-7effabfea75b488399e0f71cab4ce76b}
+## Galaxy S4 {#section-7effabfea75b488399e0f71cab4ce76b}
 
-* Dispositivo detectado como tableta en modo vertical con pantalla completa marcada en la configuración del navegador.
+* El dispositivo se ha detectado como tablet en modo vertical con la opción Pantalla completa activada en la configuración del navegador.
 
-## Nexo de galaxia {#section-9340b0b026bd48e8a8a6b837b59c6dc5}
+## Nexo galáctico {#section-9340b0b026bd48e8a8a6b837b59c6dc5}
 
-* Al pulsar dos veces en un visor, toda la página se amplía en lugar de solo el visor, con el escalado del lado del navegador activado.
+* Al tocar dos veces en un visor, toda la página se amplía, en lugar de hacerlo únicamente el visor, con la escala en el explorador habilitada.
 
 ## Galaxy Nexus 10 y Galaxy Tablet {#section-ef52bd1249fe4f358c11838f7a557a00}
 
-* El catálogo electrónico muestra una página incorrecta con orientaciones verticales y horizontales.
+* El catálogo electrónico muestra un pliego de páginas incorrecto con orientaciones verticales y horizontales.
 
 ## Dispositivos móviles HTC {#section-dc42c80414c842e488738fc157c55b01}
 
-* La incapacidad de desactivar el zoom de pellizcar nativo es una &quot;función&quot; del envoltorio de la interfaz de usuario de HTC (HTC Sense). Esta función puede hacer que una página entera se zoom al usar el gesto de &quot;pellizcar para hacer zoom&quot; en el visor. En su lugar, utilice un gesto de doble toque.
-* Los iconos del mapa de imágenes se superponen si los mapas de imágenes son pequeños y están próximos entre sí.
+* La incapacidad para deshabilitar el zoom de pellizco nativo es una &quot;función&quot; del envoltorio de la interfaz de usuario de HTC (HTC Sense). Esta función puede hacer que toda una página se haga zoom al utilizar el gesto de &quot;pellizco para zoom&quot; en el visor. En su lugar, pulse dos veces.
+* Los iconos de mapa de imagen se superponen si los mapas de imagen son pequeños y están muy juntos.
 
-## Visor de vídeos de HTML5 {#section-3c2dd1220dea4093b17ca2dd0a688307}
+## Visor de vídeo de HTML5 {#section-3c2dd1220dea4093b17ca2dd0a688307}
 
-* `IntialBitRate` sólo se admite con el software HLS y la reproducción del HDS en Flash. No funciona cuando la reproducción utiliza el reproductor nativo.
-* No se admite la reproducción progresiva de OGG y WebM.
-* El escalado del explorador hace que el reproductor de vídeo se muestre con un tamaño incorrecto (incluye la configuración de la pantalla de Panel de control de Campaign de Windows®).
-* El vídeo busca utilizar la transmisión por secuencias HLS en Safari es incoherente.
+* `IntialBitRate` El modificador solo es compatible con el software de reproducción HLS y Flash HDS. No funciona cuando la reproducción utiliza el reproductor nativo.
+* No se admite la reproducción progresiva OGG y WebM.
+* La escala del explorador hace que el reproductor de vídeo se muestre en un tamaño incorrecto (incluye la configuración de visualización del Panel de control de Campaign de Windows®).
+* Las búsquedas de vídeo mediante el streaming HLS en Safari son incoherentes.
 
 ## Internet Explorer {#section-a18e8df396954f0b807017787c00aac7}
 
-* No se admite el modo Quirks.
+* El modo Quirks no es compatible.
 * No se admite el modo de compatibilidad.
-* Internet Explorer en dispositivos móviles no es compatible.
+* No se admite Internet Explorer en dispositivos móviles.
 
 ## iOS {#section-70161cba8c2044838d916d0b69c12247}
 
@@ -70,6 +70,6 @@ Notas de compatibilidad para sistemas operativos, navegadores y dispositivos mó
 
 ## Safari {#section-f8de598293d349188aa02c82cd3af8b6}
 
-* Safari 6.1 o posterior: La configuración del complemento de Internet impide la reproducción de vídeo en Flash.
-* El vídeo busca utilizar la transmisión por secuencias HLS en Safari es incoherente.
-* No se puede intentar finalizar el vídeo en Safari 6 mediante el flujo HLS.
+* Safari 6.1 o posterior: la configuración del complemento de Internet impide la reproducción de vídeo en Flash.
+* Las búsquedas de vídeo mediante el streaming HLS en Safari son incoherentes.
+* No se puede buscar el final del vídeo en Safari 6 mediante flujo HLS.

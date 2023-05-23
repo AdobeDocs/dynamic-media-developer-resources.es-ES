@@ -1,6 +1,6 @@
 ---
-title: AssetMetadataFieldsArray
-description: Matriz de AssetMetadataFields. Lo utiliza getAssetMetadataFields para devolver todos los campos de metadatos de recursos en una sola llamada con resultados agrupados por tipo de recurso.
+title: MatrizCamposMetadatosRecurso
+description: Matriz de AssetMetadataFields. Lo utiliza getAssetMetadataFields para devolver todos los campos de metadatos de recursos en una sola llamada con los resultados agrupados por tipo de recurso.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # [!DNL AssetMetadataFieldsArray]{#assetmetadatafieldsarray}
 
-Matriz de AssetMetadataFields. Lo utiliza getAssetMetadataFields para devolver todos los campos de metadatos de recursos en una sola llamada con resultados agrupados por tipo de recurso.
+Matriz de AssetMetadataFields. Lo utiliza getAssetMetadataFields para devolver todos los campos de metadatos de recursos en una sola llamada con los resultados agrupados por tipo de recurso.
 
 Sintaxis
 

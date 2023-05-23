@@ -1,5 +1,5 @@
 ---
-description: Imagen de respuesta predeterminada. Especifica la imagen o entrada de catálogo que se utilizará cuando no se encuentre una imagen.
+description: Imagen de respuesta predeterminada. Especifica la imagen o la entrada de catálogo que se utilizará cuando no se encuentre una imagen.
 solution: Experience Manager
 title: defaultImage
 feature: Dynamic Media Classic,SDK/API
@@ -7,20 +7,20 @@ role: Developer,User
 exl-id: 741833b5-e858-4aa5-96c1-bb06539deef3
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 2%
+source-wordcount: '218'
+ht-degree: 1%
 
 ---
 
 # defaultImage{#defaultimage}
 
-Imagen de respuesta predeterminada. Especifica la imagen o entrada de catálogo que se utilizará cuando no se encuentre una imagen.
+Imagen de respuesta predeterminada. Especifica la imagen o la entrada de catálogo que se utilizará cuando no se encuentre una imagen.
 
 ` defaultImage= *`objeto`*`
 
 <table id="simpletable_C1FC14B7D9AE476DB2B10EB402944335"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> object  </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> objeto </span> </span> </p> </td> 
   <td class="stentry"> <p>Objeto de imagen. </p> </td> 
  </tr> 
 </table>
@@ -29,21 +29,21 @@ Imagen de respuesta predeterminada. Especifica la imagen o entrada de catálogo 
 
 >[!NOTE]
 >
->El mecanismo de imagen predeterminado no se aplica a los objetos SVG. Se devuelve un error si no se encuentra el objeto SVG especificado en la solicitud.
+>El mecanismo de imagen predeterminado no se aplica a los objetos del SVG. Se devuelve un error si no se encuentra el objeto SVG especificado en la solicitud.
 
-Si `attribute::DefaultImageMode=0`, *`object`* reemplaza la solicitud original completa, aunque falte una sola imagen en una composición de varias imágenes. Los únicos comandos retenidos de la solicitud original son: `wid=`, `hei=`, `fmt=`, `qlt=`.
+If `attribute::DefaultImageMode=0`, *`object`* reemplaza la solicitud original completa, incluso si sólo falta una imagen en una composición de varias imágenes. Los únicos comandos retenidos de la solicitud original son: `wid=`, `hei=`, `fmt=`, `qlt=`.
 
-Si `attribute::DefaultImageMode=1`, object reemplaza solo la imagen de capa que falta; los atributos de la capa que falta se aplican y la composición se procesa y se devuelve como de costumbre.
+If `attribute::DefaultImageMode=1`, el objeto reemplaza únicamente la imagen de capa que falta; los atributos de la capa que falta se aplican y el compuesto se procesa y se devuelve como de costumbre.
 
 ## Propiedades {#section-d30923d8dc4042eba10989212dd70887}
 
-Atributo de solicitud. Se aplica independientemente de la configuración de capa actual. Se omite si `req=` no es `img` o `tmb`.
+Atributo de solicitud. Se aplica independientemente de la configuración de capa actual. Ignorado si `req=` es distinto de `img` o `tmb`.
 
 ## Restricciones {#section-30df31bc8cac41cd917f1e45196779c2}
 
-Las fuentes de imagen externa no están cubiertas por el mecanismo de imagen predeterminado; se devuelve un error si una fuente de imagen externa no es válida.
+El mecanismo de imagen predeterminado no cubre los orígenes de imagen externos; se devuelve un error si un origen de imagen externo no es válido.
 
-El servicio de imágenes vuelve a `DefaultImageMode=0` cuando fallan las solicitudes de renderización de imágenes anidadas o FXG.
+El servicio de imágenes vuelve a `DefaultImageMode=0` cuando las solicitudes de procesamiento FXG o procesamiento de Image Rendering anidadas fallan.
 
 ## Predeterminado {#section-0676c66b233c46a3a3a1517da4ace998}
 
@@ -51,4 +51,4 @@ El servicio de imágenes vuelve a `DefaultImageMode=0` cuando fallan las solicit
 
 ## Véase también {#section-745392143c3747a2955e1ae561f58e5f}
 
-[atributo::DefaultImageMode](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultimagemode.md#reference-8a996af162f84e46bbe9e6e0d4e26782) ,  [atributo: DefaultImage](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-defaultimage.md#reference-8e9900e129f54ed68462a3c2fc3bc433),  [src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1),  [ *`object`* ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0)
+[attribute::DefaultImageMode](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultimagemode.md#reference-8a996af162f84e46bbe9e6e0d4e26782) , [attribute:: DefaultImage](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-defaultimage.md#reference-8e9900e129f54ed68462a3c2fc3bc433), [src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1), [ *`object`* ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0)

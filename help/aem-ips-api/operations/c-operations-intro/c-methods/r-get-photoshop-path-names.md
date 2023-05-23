@@ -1,5 +1,5 @@
 ---
-description: Devuelve una matriz de nombres de ruta de Photoshop para la imagen dada.
+description: Devuelve una matriz de nombres de rutas Photoshop para la imagen determinada.
 solution: Experience Manager
 title: getPhotoshopPathNames
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 20%
 
 # getPhotoshopPathNames{#getphotoshoppathnames}
 
-Devuelve una matriz de nombres de ruta de Photoshop para la imagen dada.
+Devuelve una matriz de nombres de rutas Photoshop para la imagen determinada.
 
 Sintaxis
 
@@ -34,14 +34,14 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | Gestione a la empresa que contiene la imagen con la que desea trabajar. |
-| assetHandle | `xsd:string` | Sí | Gestionar en el recurso de imagen. |
+| companyHandle | `xsd:string` | Sí | Identificador de la compañía que contiene la imagen con la que desea trabajar. |
+| assetHandle | `xsd:string` | Sí | Administre en el recurso de imagen. |
 
 **Salida (getPhotoshopPathNamesReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| pathNameArray | `types:StringArray` | Sí | Matriz de nombres de ruta de Photoshop en una imagen. |
+| pathNameArray | `types:StringArray` | Sí | Matriz de nombres de rutas de Photoshop en una imagen. |
 
 ## Ejemplos {#section-6d316f14b4184d42af4ca3f717b042dd}
 

@@ -1,5 +1,5 @@
 ---
-title: Instalar en Windows
+title: Instalación en Windows
 description: El servicio de imágenes se puede instalar en Windows de 64 bits.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 ---
 
-# Instalar en Windows{#installing-on-windows}
+# Instalación en Windows{#installing-on-windows}
 
 El servicio de imágenes se puede instalar en Windows de 64 bits.
 
 * [Instalación por primera vez](t-first-time-installation-win.md)
-* [Instalación en una cuenta de usuario diferente a un administrador](t-diff-account-win.md)
-* [Actualización de IS 4.7.4 o posterior](t-update-win.md)
+* [La instalación en una cuenta de usuario diferente a la de un administrador](t-diff-account-win.md)
+* [Actualización desde IS 4.7.4 o posterior](t-update-win.md)
 * [Verificación de la instalación](t-verify-win.md)

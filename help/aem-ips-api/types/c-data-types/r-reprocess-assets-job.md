@@ -1,5 +1,5 @@
 ---
-description: Tipo de trabajo para permitir el reprocesamiento de archivos principales cargados anteriormente, incluida la recuperación de PDF y la reoptimización de imágenes.
+description: Tipo de trabajo para permitir el reprocesamiento de archivos principales cargados anteriormente, incluida la reextracción de PDF y la reoptimización de imágenes.
 solution: Experience Manager
 title: ReprocessAssetsJob
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 # [!DNL ReprocessAssetsJob]{#reprocessassetsjob}
 
-Tipo de trabajo para permitir el reprocesamiento de archivos principales cargados anteriormente, incluida la recuperación de PDF y la reoptimización de imágenes.
+Tipo de trabajo para permitir el reprocesamiento de archivos principales cargados anteriormente, incluida la reextracción de PDF y la reoptimización de imágenes.
 
 Sintaxis
 
@@ -32,27 +32,27 @@ Sintaxis
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipos:HandleArray</span> </p> </td> 
-   <td colname="col3"> <p>Identificador de recurso. </p> </td> 
+   <td colname="col3"> <p>Controlador de recurso. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> readyForPublish</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
-   <td colname="col3"> <p>Indica si los archivos están marcados como listos para publicarse. </p> </td> 
+   <td colname="col3"> <p>Indica si los archivos están marcados como listos para publicar. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> preservePublishState</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
-   <td colname="col3"> <p>Controla si se conserva el estado de publicación de un recurso existente al sobrescribirlo. Si no se establece, se utiliza la configuración predeterminada de la empresa. </p> </td> 
+   <td colname="col3"> <p>Controla si el estado de publicación de un recurso existente se conserva al sobrescribirlo. Si no se configura, se utiliza la configuración predeterminada de la empresa. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> createMask</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
-   <td colname="col3"> <p>Si se crea una máscara. </p> </td> 
+   <td colname="col3"> <p>Si se va a crear una máscara. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> preserveCrop</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
-   <td colname="col3"> <p>Controla la preservación de cualquier definición de recorte existente. El valor predeterminado es true.</p> <p>Si proporciona el parámetro manualCropOptions y los valores correspondientes, los nuevos valores (excepto 0,0,0,0) se aplican al recurso independientemente del valor preserveCrop.</p><p>Si <i>not</i> proporcione el parámetro manualCropOptions , se mantiene el valor preserveCrop . Y, en el caso de true, se conservan los valores preserveCrop existentes; en el caso de false, se eliminan los valores preserveCrop .</p><p>Ejemplo:</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />   &lt;left&gt;190&lt;/left&gt;<br />   &lt;right&gt;310&lt;/right&gt;<br />   &lt;top&gt;160&lt;/top&gt;<br />   &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p> </td> 
+   <td colname="col3"> <p>Controla la conservación de cualquier definición de recorte existente. El valor predeterminado es true.</p> <p>Si proporciona el parámetro manualCropOptions y los valores correspondientes, los nuevos valores (excluyendo 0,0,0,0) se aplicarán al recurso independientemente del valor preserveCrop.</p><p>Si lo hace <i>no</i> Si se proporciona el parámetro manualCropOptions, se mantiene el valor de preserveCrop. Y, en caso de true, se conservan los valores preserveCrop existentes; en caso de false, se eliminan los valores preserveCrop.</p><p>Ejemplo:</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />   &lt;left&gt;190&lt;/left&gt;<br />   &lt;right&gt;310&lt;/right&gt;<br />   &lt;top&gt;160&lt;/top&gt;<br />   &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </p> </td> 
@@ -62,52 +62,52 @@ Sintaxis
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> autoColorCropOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipos:AutoColorCropOptions</span> </p> </td> 
-   <td colname="col3"> <p>Opciones para cultivos automáticos de imágenes basadas en el color. </p> </td> 
+   <td colname="col3"> <p>Opciones para recortes automáticos de imágenes según el color. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> autoTransparentCropOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipos:AutoTransparentCropOptions</span> </p> </td> 
-   <td colname="col3"> <p>Elimina el espacio en blanco de los bordes de las imágenes, en función de la transparencia. </p> </td> 
+   <td colname="col3"> <p>Elimina el espacio en blanco de los bordes de las imágenes en función de la transparencia. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> photoshopOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipos:PhotoshopOptions</span> </p> </td> 
-   <td colname="col3"> <p>Opciones para cargar archivos Photoshop en el servidor de imágenes. </p> </td> 
+   <td colname="col3"> <p>Opciones para cargar archivos de Photoshop en el servidor de imágenes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postScriptOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> tipos:PostScriptOptions</span> </p> </td> 
-   <td colname="col3"> <p>Opciones para cargar archivos PostScript al servidor de imágenes. </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> tipos:OpcionesPostScript</span> </p> </td> 
+   <td colname="col3"> <p>Opciones para cargar archivos PostScript en el servidor de imágenes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> pdfOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipos:PDFOptions</span> </p> </td> 
-   <td colname="col3"> <p>Opciones para cargar archivos PDF en el servidor de imágenes. </p> </td> 
+   <td colname="col3"> <p>Opciones para cargar archivos del PDF en el servidor de imágenes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> mediaOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> tipos:MediaOptions</span> </p> </td> 
-   <td colname="col3"> <p>Opciones del archivo multimedia A/V. </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> tipos:OpcionesMedios</span> </p> </td> 
+   <td colname="col3"> <p>Opciones de archivo de medios A/V. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> illustratorOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> tipos:IllustratorOptions</span> </p> </td> 
-   <td colname="col3"> <p>Opciones para cargar archivos Illustrator en el servidor de imágenes. </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> tipos:Opciones de Illustrator</span> </p> </td> 
+   <td colname="col3"> <p>Opciones para cargar archivos de Illustrator en el servidor de imágenes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> colorManagementOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipos:ColorManagementOptions</span> </p> </td> 
-   <td colname="col3"> <p>Opciones que se pueden especificar durante una carga. El conjunto afecta a cómo se administra el color para la carga. </p> </td> 
+   <td colname="col3"> <p>Opciones que se pueden especificar durante una carga. El conjunto afecta a la forma en que se administra el color para la carga. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> autoSetCreationOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipos:AutoSetCreationOptions</span> </p> </td> 
-   <td colname="col3"> <p>Matriz de secuencias de comandos de generación de conjuntos automáticas para aplicar a archivos cargados. </p> </td> 
+   <td colname="col3"> <p>Matriz de scripts automáticos de generación de conjunto que se aplican a los archivos cargados. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> projectHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipos:HandleArray</span> </p> </td> 
-   <td colname="col3"> <p>Matriz de controladores de proyecto. </p> </td> 
+   <td colname="col3"> <p>Matriz de identificadores de proyecto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> emailSetting</span> </span> </p> </td> 
@@ -117,27 +117,27 @@ Sintaxis
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postJobOnlyIfFiles</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
-   <td colname="col3"> <p>Indica si cargar solo archivos. </p> </td> 
+   <td colname="col3"> <p>Si sólo se cargan archivos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postHttpUrl</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>Dirección URL de la ubicación de carga de archivos. </p> </td> 
+   <td colname="col3"> <p>URL de la ubicación de carga del archivo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postImageServingPublishJob</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipos:ImageServingPublishJob</span> </p> </td> 
-   <td colname="col3"> <p>Los detalles del trabajo de un trabajo de publicación de servicio de imágenes se ejecutarán una vez finalizada la carga. </p> </td> 
+   <td colname="col3"> <p>Detalles del trabajo de publicación de un servicio de imágenes que se ejecutará una vez completada la carga. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postImageRenderingPublishJob</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipos:ImageRenderingPublishJob</span> </p> </td> 
-   <td colname="col3"> <p>Los detalles del trabajo de un trabajo de publicación de renderización de imágenes se ejecutarán una vez finalizada la carga. </p> </td> 
+   <td colname="col3"> <p>Detalles del trabajo de publicación para procesamiento de imágenes que se ejecutará después de completar la carga. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postVideoPublishJob</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipos:VideoPublishJob</span> </p> </td> 
-   <td colname="col3"> <p>Los detalles del trabajo de un trabajo de publicación de vídeo se ejecutarán una vez finalizada la carga. </p> </td> 
+   <td colname="col3"> <p>Detalles del trabajo de publicación de vídeo que se ejecutará después de completar la carga. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> inDesignOptions</span> </span> </p> </td> 
@@ -146,26 +146,26 @@ Sintaxis
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> knockoutBackground</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> tipos:KnockoutBackgroundOptions</span> </p> </td> 
-   <td colname="col3"> <p>Enmascara el fondo de las imágenes seleccionadas. Esto permite superponerlos en otras capas con una transparencia fuera de la imagen del sujeto. </p> <p>Opcional. </p> <p>Consulte<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> tipos:OpcionesFondoCobertura</span> </p> </td> 
+   <td colname="col3"> <p>Enmascarar el fondo de las imágenes seleccionadas. Esto permite superponerlas en otras capas con una transparencia fuera de la imagen del sujeto. </p> <p>Opcional. </p> <p>Consulte<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> unSharpMaskOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> tipos:Opciones de máscara de enfoque</span> </p> </td> 
-   <td colname="col3"> <p>Opciones que permiten controlar la configuración de máscara de enfoque al crear un archivo TIF piramidal optimizado. Utilice estos ajustes para mejorar el nitidez de la imagen. </p> <p>Consulte <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> Opciones de máscara de enfoque</a>. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> tipos:OpcionesMáscaraDeEnfoque</span> </p> </td> 
+   <td colname="col3"> <p>Opciones que permiten controlar los ajustes de máscara de enfoque al crear un archivo TIF piramidal optimizado. Utilice esta configuración para mejorar la nitidez de la imagen. </p> <p>Consulte <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnsharpMaskOptions</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Notas**
 
-Opciones para `*CropOptions` incluir:
+Opciones de `*CropOptions` incluir:
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-Opciones para `*PublishJob` incluir:
+Opciones de `*PublishJob` incluir:
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`

@@ -1,6 +1,6 @@
 ---
 title: Instalación en Linux®
-description: Image Serving se puede instalar en Linux®.
+description: El servicio de imágenes se puede instalar en Linux®.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,8 +14,8 @@ ht-degree: 0%
 
 # Instalación en Linux®{#installing-on-linux}
 
-Image Serving se puede instalar en Linux®.
+El servicio de imágenes se puede instalar en Linux®.
 
 * [Instalación por primera vez](t-first-install-lin.md)
-* [Actualización de IS 4.7.4 o posterior](t-update-lin.md)
+* [Actualización desde IS 4.7.4 o posterior](t-update-lin.md)
 * [Verificación de la instalación](t-verify-install-lin.md)

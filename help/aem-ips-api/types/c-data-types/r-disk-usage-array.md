@@ -1,5 +1,5 @@
 ---
-description: Una matriz de uso del disco.
+description: Una matriz de uso de disco.
 solution: Experience Manager
 title: DiskUsageArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL DiskUsageArray]{#diskusagearray}
 
-Una matriz de uso del disco.
+Una matriz de uso de disco.
 
 Sintaxis
 
@@ -22,4 +22,4 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| elementos | `types:DiskUsage` | Matriz de uso del disco. |
+| elementos | `types:DiskUsage` | Matriz de uso de disco. |

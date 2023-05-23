@@ -18,9 +18,9 @@ La tabla de contenido es un botón de la barra de control principal. Cuando se a
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-En función de la configuración, la lista puede contener todas las páginas que estén presentes en el catálogo o solo aquellas páginas que tengan etiquetas explícitas definidas. En los sistemas de escritorio, si la lista es más larga que el espacio de la pantalla disponible, se muestra una barra de desplazamiento a la derecha.
+En función de la configuración, la lista puede contener todas las páginas que están presentes en el catálogo o solo aquellas páginas que tienen etiquetas explícitas definidas. En sistemas de escritorio, si la lista es más larga que el espacio disponible en la pantalla, se muestra una barra de desplazamiento a la derecha.
 
-La posición y el tamaño del botón de la tabla de contenido en la interfaz de usuario del visor se controlan con el siguiente selector de clase CSS:
+La posición y el tamaño del botón de tabla de contenido en la interfaz de usuario del visor se controlan con el siguiente selector de clases CSS:
 
 ```
 .s7ecatalogsearchviewer .s7tableofcontents
@@ -36,7 +36,7 @@ La posición y el tamaño del botón de la tabla de contenido en la interfaz de 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
-   <td colname="col2"> <p> La distancia al botón siguiente de la izquierda o del lado izquierdo de la barra de control si este botón es el primero de una fila. </p> </td> 
+   <td colname="col2"> <p> Distancia al siguiente botón de la izquierda o al lado izquierdo de la barra de control si este botón es el primero de una fila. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -47,23 +47,23 @@ La posición y el tamaño del botón de la tabla de contenido en la interfaz de 
    <td colname="col2"> <p> Altura del botón de tabla de contenido. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagen de fondo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> Imagen que se muestra para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posición de fondo </span> </p> </td> 
-   <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Coloque dentro del icono de ilustración si se utilizan iconos CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Este botón admite la variable `state` selector de atributos, que se puede utilizar para aplicar diferentes aspectos a distintos estados de botones.
+>Este botón admite el `state` selector de atributos, que se puede utilizar para aplicar distintos aspectos a distintos estados de botón.
 
-La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
+La información del objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
-Ejemplo : configure un botón de tabla de contenido que se sitúe a 4 píxeles de la parte inferior y a 43 píxeles de la izquierda de la barra de control principal. El tamaño es de 28 x 28 píxeles y se muestra una imagen diferente para cada uno de los cuatro estados de botones diferentes:
+Ejemplo: configure un botón de tabla de contenido que se coloque a 4 píxeles de la parte inferior y a 43 píxeles de la izquierda de la barra de control principal. El tamaño es de 28 x 28 píxeles y se muestra una imagen diferente para cada uno de los cuatro estados de botón diferentes:
 
 ```
 .s7ecatalogsearchviewer .s7tableofcontents { 
@@ -104,7 +104,7 @@ El aspecto del panel desplegable se controla con el siguiente selector de clase 
    <td colname="col2"> <p> Desplazamiento interno entre los límites del panel y el contenido. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> box-Shadow </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> caja-sombra </span> </p> </td> 
    <td colname="col2"> <p> Sombra paralela alrededor del panel. </p> </td> 
   </tr> 
  </tbody> 
@@ -112,9 +112,9 @@ El aspecto del panel desplegable se controla con el siguiente selector de clase 
 
 >[!NOTE]
 >
->No es posible controlar el tamaño o la posición del panel desplegable desde CSS; el componente gestiona su diseño mediante programación.
+>No se puede controlar el tamaño o la posición del panel desplegable desde CSS; el componente administra su diseño mediante programación.
 
-Ejemplo: configure un panel desplegable que tenga un fondo negro semitransparente, un margen de 5 píxeles alrededor del contenido y una sombra de colocación:
+Ejemplo: configuración de un panel desplegable con un fondo negro semitransparente, un margen de 5 píxeles alrededor del contenido y una sombra paralela:
 
 ```
 .s7ecatalogsearchviewer .s7tableofcontents .s7panel { 
@@ -124,7 +124,7 @@ Ejemplo: configure un panel desplegable que tenga un fondo negro semitransparent
 }
 ```
 
-La apariencia y el aspecto del elemento individual se controlan con el siguiente selector de clase CSS:
+El aspecto y la presentación del elemento individual se controlan con el siguiente selector de clase CSS:
 
 ```
  .s7ecatalogsearchviewer .s7tableofcontents .s7panel .s7item
@@ -144,20 +144,20 @@ La apariencia y el aspecto del elemento individual se controlan con el siguiente
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Altura del elemento. </p> </td> 
+   <td colname="col2"> <p>Altura del artículo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> relleno </span> </p> </td> 
-   <td colname="col2"> <p>Margen interno. </p> </td> 
+   <td colname="col2"> <p>Relleno interno. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->El elemento de lista desplegable es compatible con la variable `state` selector de atributos, que se puede utilizar para aplicar diferentes aspectos a los estados de elemento seleccionado y al pasar el ratón por encima.
+>El elemento de lista desplegable admite el `state` selector de atributos, que se puede utilizar para aplicar diferentes aspectos a los estados de elemento seleccionado y de desplazamiento.
 
-Ejemplo: configure un elemento desplegable con una fuente Helvetica® de 14 píxeles y una altura de 19 píxeles. Un elemento tiene un fondo gris oscuro al pasar el ratón por encima y un fondo gris claro al seleccionarlo:
+Ejemplo: configuración de un elemento desplegable con una fuente Helvetica® de 14 píxeles y 19 píxeles de altura. Un elemento tiene un fondo gris oscuro al pasar el ratón por encima y un fondo gris claro al seleccionarlo:
 
 ```
 .s7ecatalogsearchviewer .s7tableofcontents .s7panel .s7item { 
@@ -184,7 +184,7 @@ Un elemento que muestra el índice de página se controla con el siguiente selec
 <table id="table_FAA5072E4AAC48F4BE00B05D87FD9827"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ancho mínimo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> de anchura mínima </span> </p> </td> 
    <td colname="col2"> <p> Ancho mínimo del elemento. </p> </td> 
   </tr> 
   <tr> 
@@ -192,7 +192,7 @@ Un elemento que muestra el índice de página se controla con el siguiente selec
    <td colname="col2"> <p> Ancho máximo del elemento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> relleno-derecha </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-right </span> </p> </td> 
    <td colname="col2"> <p> Distancia entre el índice de página y la etiqueta de página. </p> </td> 
   </tr> 
  </tbody> 
@@ -200,9 +200,9 @@ Un elemento que muestra el índice de página se controla con el siguiente selec
 
 >[!NOTE]
 >
->Es posible ocultar el índice de página por completo configurando `display:none` para el `s7index` clase CSS.
+>Es posible ocultar el índice de página por completo configurando `display:none` para el `s7index` Clase CSS.
 
-Ejemplo 1: Configure un índice de página con una anchura mínima de 40 píxeles, una anchura máxima de 70 píxeles y un margen de 5 píxeles en el lado derecho:
+Ejemplo 1: Configurar un índice de página con una anchura mínima de 40 píxeles, una anchura máxima de 70 píxeles y un margen de 5 píxeles en el lado derecho:
 
 ```
 .s7ecatalogsearchviewer .s7tableofcontents .s7panel .s7index { 
@@ -212,7 +212,7 @@ padding-right: 5px;
 }
 ```
 
-Ejemplo 2: ocultar índice de página:
+Ejemplo 2 - ocultar índice de página:
 
 ```
 .s7ecatalogsearchviewer .s7tableofcontents .s7panel .s7index { 
@@ -231,7 +231,7 @@ La etiqueta de página se controla con el siguiente selector de clase CSS:
 <table id="table_A42E372D931D4F04855EE5AB5530CB12"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ancho mínimo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> de anchura mínima </span> </p> </td> 
    <td colname="col2"> <p> Ancho mínimo del elemento. </p> </td> 
   </tr> 
   <tr> 
@@ -241,7 +241,7 @@ La etiqueta de página se controla con el siguiente selector de clase CSS:
  </tbody> 
 </table>
 
-Ejemplo: configure un índice de página con una anchura mínima de 40 píxeles y una anchura máxima de 240 píxeles:
+Ejemplo: Configuración de un índice de página con una anchura mínima de 40 píxeles y una anchura máxima de 240 píxeles:
 
 ```
 .s7ecatalogsearchviewer .s7tableofcontents .s7panel .s7label { 
@@ -250,7 +250,7 @@ max-width: 240px;
 }
 ```
 
-Si hay más elementos que se pueden ajustar verticalmente en el panel desplegable y el sistema es un escritorio, el componente procesa una barra de desplazamiento vertical en el lado derecho del panel. El aspecto del área de la barra de desplazamiento se controla con el siguiente selector de clase CSS:
+Si hay más elementos de los que pueden caber verticalmente en el panel desplegable y el sistema es un escritorio, el componente procesa una barra de desplazamiento vertical en el lado derecho del panel. El aspecto del área de la barra de desplazamiento se controla con el siguiente selector de clase CSS:
 
 ```
 .s7ecatalogsearchviewer .s7tableofcontents .s7scrollbar
@@ -266,20 +266,20 @@ Si hay más elementos que se pueden ajustar verticalmente en el panel desplegabl
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> parte superior </span> </p> </td> 
-   <td colname="col2"> <p> Desplazamiento vertical de la barra de desplazamiento desde la parte superior del área del panel. </p> </td> 
+   <td colname="col2"> <p> Desplazamiento vertical de la barra desde la parte superior del área del panel. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> parte inferior </span> </p> </td> 
-   <td colname="col2"> <p> Desplazamiento vertical de la barra de desplazamiento desde la parte inferior del área del panel. </p> </td> 
+   <td colname="col2"> <p> Desplazamiento vertical de la barra desde la parte inferior del área del panel. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> derecha </span> </p> </td> 
-   <td colname="col2"> <p> Desplazamiento horizontal de la barra de desplazamiento desde el borde derecho del área del panel. </p> </td> 
+   <td colname="col2"> <p> Desplazamiento horizontal de la barra desde el borde derecho del área del panel. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ejemplo: configure una barra de desplazamiento de 28 píxeles de ancho y que no tenga margen para el área superior, derecha o inferior del panel:
+Ejemplo: configure una barra de desplazamiento que tenga 28 píxeles de ancho y no tenga un margen para el área superior, derecha o inferior del panel:
 
 ```
 .s7ecatalogsearchviewer .s7tableofcontents .s7scrollbar { 
@@ -290,7 +290,7 @@ Ejemplo: configure una barra de desplazamiento de 28 píxeles de ancho y que no 
 }
 ```
 
-La barra de desplazamiento es el área entre los botones de desplazamiento superior e inferior. El componente establece automáticamente la posición y la altura de la pista. El seguimiento se controla con el siguiente selector de clase CSS:
+La pista de la barra de desplazamiento es el área entre los botones de desplazamiento superior e inferior. El componente establece automáticamente la posición y la altura de la pista. El seguimiento se controla con el siguiente selector de clase CSS:
 
 ```
 .s7ecatalogsearchviewer .s7tableofcontents .s7scrollbar .s7scrolltrack
@@ -302,7 +302,7 @@ La barra de desplazamiento es el área entre los botones de desplazamiento super
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Ancho de la pista. </p> </td> 
+   <td colname="col2"> <p>El ancho de la pista. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
@@ -311,7 +311,7 @@ La barra de desplazamiento es el área entre los botones de desplazamiento super
  </tbody> 
 </table>
 
-Ejemplo: configure una pista de barra de desplazamiento con una anchura de 28 píxeles y un fondo gris semitransparente:
+Ejemplo: configure una pista de barras de desplazamiento que tenga 28 píxeles de ancho y un fondo gris semitransparente:
 
 ```
 .s7ecatalogsearchviewer .s7tableofcontents .s7scrollbar .s7scrolltrack { 
@@ -320,7 +320,7 @@ Ejemplo: configure una pista de barra de desplazamiento con una anchura de 28 p�
 }
 ```
 
-La barra de desplazamiento se mueve verticalmente dentro del área de la pista de desplazamiento. Su posición vertical está controlada por la lógica del componente. Sin embargo, la altura de la miniatura no cambia dinámicamente según la cantidad de contenido. Puede configurar la altura de la miniatura y otros aspectos con el siguiente selector de clase CSS:
+El pulgar de la barra de desplazamiento se mueve verticalmente dentro del área de la pista de desplazamiento. Su posición vertical se controla mediante la lógica del componente. Sin embargo, la altura de la miniatura no cambia dinámicamente según la cantidad de contenido. Puede configurar la altura de la miniatura y otros aspectos con el siguiente selector de clase CSS:
 
 ```
 .s7ecatalogsearchviewer .s7tableofcontents .s7scrollbar .s7scrollthumb
@@ -343,25 +343,25 @@ La barra de desplazamiento se mueve verticalmente dentro del área de la pista d
    <td colname="col2"> <p> El margen vertical entre la parte superior de la pista. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> relleno inferior </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-bottom </span> </p> </td> 
    <td colname="col2"> <p>El margen vertical entre la parte inferior de la pista. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagen de fondo </span> </p> </td> 
-   <td colname="col2"> <p> Imagen que se muestra para un estado de pulgar determinado. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p> Imagen que se muestra para un estado de miniatura determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posición de fondo </span> </p> </td> 
-   <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Coloque dentro del icono de ilustración si se utilizan iconos CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->La miniatura admite el `state` selector de atributos, que se puede utilizar para aplicar diferentes aspectos a la variable `up`, `down`, `over`y `disabled` estados del pulgar.
+>La miniatura admite `state` selector de atributos, que se puede utilizar para aplicar diferentes aspectos a la variable `up`, `down`, `over`, y `disabled` estados del pulgar.
 
-Ejemplo: configure un control de barra de desplazamiento de 28 x 45 píxeles, tenga 10 márgenes de píxeles en la parte superior e inferior y tenga distintas ilustraciones para cada estado:
+Ejemplo: configure una miniatura de la barra de desplazamiento de 28 x 45 píxeles, con márgenes de 10 píxeles en la parte superior e inferior y con ilustraciones diferentes para cada estado:
 
 ```
 .s7ecatalogsearchviewer .s7tableofcontents .s7scrollbar .s7scrollthumb { 
@@ -396,7 +396,7 @@ El aspecto de los botones de desplazamiento superior e inferior se controla con 
 .s7ecatalogsearchviewer .s7tableofcontents .s7scrollbar .s7scrolldownbutton
 ```
 
-No es posible colocar los botones de desplazamiento mediante CSS `top`, `left`, `bottom`y `right` propiedades; en su lugar, la lógica del visor los coloca automáticamente.
+No es posible colocar los botones de desplazamiento mediante CSS `top`, `left`, `bottom`, y `right` propiedades; en su lugar, la lógica del visor las coloca automáticamente.
 
 **Propiedades CSS del botón de desplazamiento hacia arriba y hacia abajo**
 
@@ -408,26 +408,26 @@ No es posible colocar los botones de desplazamiento mediante CSS `top`, `left`, 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Altura del botón. </p> </td> 
+   <td colname="col2"> <p>La altura del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagen de fondo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> Imagen que se muestra para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posición de fondo </span> </p> </td> 
-   <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Coloque dentro del icono de ilustración si se utilizan iconos CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->El botón admite la variable `state` selector de atributos, que se puede utilizar para aplicar diferentes aspectos a la variable `up`, `down`, `over`y `disabled` estados de botón.
+>El botón admite `state` selector de atributos, que se puede utilizar para aplicar diferentes aspectos a la variable `up`, `down`, `over`, y `disabled` estados de botón.
 
-La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
+La información del objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
-Ejemplo: configure botones de desplazamiento de 28 x 32 píxeles con distintas ilustraciones para cada estado:
+Ejemplo: configurar botones de desplazamiento de 28 x 32 píxeles con ilustraciones diferentes para cada estado:
 
 ```
 .s7ecatalogsearchviewer .s7tableofcontents .s7scrollbar .s7scrollupbutton { 

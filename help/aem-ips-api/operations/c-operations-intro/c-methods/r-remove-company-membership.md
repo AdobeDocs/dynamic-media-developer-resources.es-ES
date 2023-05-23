@@ -32,15 +32,15 @@ Sintaxis
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
 | userHandle | `xsd:string` | No | El identificador del usuario con la pertenencia que desea eliminar. |
-| companyHandleArray | `types:HandleArray` | Sí | El identificador de la empresa desde la que se va a quitar el usuario. |
+| companyHandleArray | `types:HandleArray` | Sí | El identificador de la compañía de la que elimina el usuario. |
 
 **Salida (removeCompanyMembershipReturn)**
 
-La API IPS no devuelve una respuesta para esta operación.
+La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-6b7903195e8647a1bd0502f87387ca62}
 
-Este ejemplo de código elimina a un usuario de una empresa. Omita el identificador de usuario opcional para eliminar todos los usuarios de las empresas especificadas en la matriz de administración de la empresa.
+Este ejemplo de código quita un usuario de una compañía. Omita el identificador de usuario opcional para quitar todos los usuarios de las empresas especificadas en la matriz de identificadores de la empresa.
 
 **Solicitar**
 

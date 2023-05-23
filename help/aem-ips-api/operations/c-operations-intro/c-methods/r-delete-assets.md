@@ -2,13 +2,13 @@
 description: Elimina varios recursos.
 solution: Experience Manager
 title: deleteAssets
-feature: Dynamic Media Classic,SDK/API,Administración de activos
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 487f83e6-f713-40e9-a442-e1179b30012c
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 15%
+source-wordcount: '175'
+ht-degree: 16%
 
 ---
 
@@ -45,13 +45,13 @@ Sintaxis
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sí </p> </td> 
-   <td colname="col4"> <p>El identificador de la empresa a la que pertenecen los recursos. </p> </td> 
+   <td colname="col4"> <p>El identificador de la compañía a la que pertenecen los recursos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipos:HandleArray</span> </p> </td> 
    <td colname="col3"> <p>Sí </p> </td> 
-   <td colname="col4"> <p>Matriz de recursos que se van a eliminar. </p> </td> 
+   <td colname="col4"> <p>La matriz de recursos que se va a eliminar. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -72,38 +72,38 @@ Sintaxis
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> successCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>Sí </p> </td> 
-   <td colname="col4"> <p>Número de recursos eliminados correctamente. </p> </td> 
+   <td colname="col4"> <p>El número de recursos eliminados correctamente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>Sí </p> </td> 
-   <td colname="col4"> <p>Los recursos que generaron una advertencia cuando la operación intentó eliminarlos. </p> </td> 
+   <td colname="col4"> <p>Recursos que generaron una advertencia cuando la operación intentó eliminarlos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>Sí </p> </td> 
-   <td colname="col4"> <p>Los recursos que generaron un error cuando la operación intentó eliminarlos. </p> </td> 
+   <td colname="col4"> <p>Recursos que generaron un error cuando la operación intentó eliminarlos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipos:AssetOperationFaultArray</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Matriz de detalles asociados con los recursos que generaron una advertencia cuando la operación intentó eliminarlos. </p> </td> 
+   <td colname="col4"> <p>La matriz de detalles asociados con los recursos que generaron una advertencia cuando la operación intentó eliminarlos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipos:AssetOperationFaultArray</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Matriz de detalles asociados con los recursos que generaron un error cuando la operación intentó eliminarlos. </p> </td> 
+   <td colname="col4"> <p>La matriz de detalles asociados con los recursos que generaron un error cuando la operación intentó eliminarlos. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Ejemplos {#section-aaad1933bf86479eb6cb476cec7d4587}
 
-Este ejemplo de código envía un identificador a una empresa y una matriz de controladores de recursos en una solicitud `deleteAssetsParam` al servidor de servicios Web. `deleteAssetsReturn` devuelve un recuento de éxito de 2, que indica que se eliminaron ambos recursos.
+Este ejemplo de código envía un identificador a una compañía y una matriz de identificadores de recursos en una `deleteAssetsParam` solicitud al servidor de servicios web. `deleteAssetsReturn` devuelve un recuento correcto de 2, que indica que ambos recursos se eliminaron.
 
 **Solicitar**
 

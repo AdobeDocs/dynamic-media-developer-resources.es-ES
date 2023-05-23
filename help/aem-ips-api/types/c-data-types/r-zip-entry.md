@@ -22,8 +22,8 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| name | `xsd:string` | Nombre de entrada. |
+| nombre | `xsd:string` | Nombre de entrada. |
 | isDirectory | `xsd:boolean` | Determina si la entrada es un directorio. |
 | lastModified | `xsd:dateTime` | Fecha y hora de la última modificación. |
-| zipSize | `xsd:long` | Tamaño comprimido. |
-| unzipSize | `xsd:long` | Tamaño sin comprimir. |
+| compressedSize | `xsd:long` | Tamaño comprimido. |
+| uncompressedSize | `xsd:long` | Tamaño sin comprimir. |

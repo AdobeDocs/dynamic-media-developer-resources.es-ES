@@ -1,6 +1,6 @@
 ---
 title: Vista de zoom flotante
-description: La vista principal consiste en la imagen estática y la imagen ampliada mostrada en la vista flotante. También consta del área de navegación de resaltado que se muestra sobre la imagen estática y el mensaje de sugerencia que se muestra sobre la imagen estática.
+description: La vista principal consta de la imagen estática y la imagen ampliada que se muestra en la vista flotante. También consta del área de navegación de resalte que se muestra sobre la imagen estática y el mensaje de sugerencia que se muestra sobre la imagen estática.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
@@ -8,17 +8,17 @@ exl-id: c04c4b8f-4e63-4e84-98c0-aa0781608130
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
 source-wordcount: '635'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
 # Vista de zoom flotante{#flyout-zoom-view}
 
-La vista principal consiste en la imagen estática y la imagen ampliada mostrada en la vista flotante. También consta del área de navegación de resaltado que se muestra sobre la imagen estática y el mensaje de sugerencia que se muestra sobre la imagen estática.
+La vista principal consta de la imagen estática y la imagen ampliada que se muestra en la vista flotante. También consta del área de navegación de resalte que se muestra sobre la imagen estática y el mensaje de sugerencia que se muestra sobre la imagen estática.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Si las dimensiones de la imagen que se está viendo no coinciden con las dimensiones de la vista de zoom flotante, el contenido de la imagen se centra dentro del área de visualización rectangular de la vista de zoom flotante.
+Si las dimensiones de la imagen que se está visualizando no coinciden con las dimensiones de la vista de zoom flotante, el contenido de la imagen se centra dentro del área de visualización rectangular de la vista de zoom flotante.
 
 **Propiedades CSS de la vista principal**
 
@@ -31,7 +31,7 @@ El aspecto de la vista principal se controla con el siguiente selector de clase 
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS, propiedad </p> </th> 
+   <th colname="col1" class="entry"> <p> Propiedad CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Descripción </p> </th> 
   </tr> 
  </thead>
@@ -43,7 +43,7 @@ El aspecto de la vista principal se controla con el siguiente selector de clase 
  </tbody> 
 </table>
 
-Ejemplo: para que la vista principal sea transparente:
+Ejemplo: para hacer transparente la vista principal:
 
 ```
 .s7flyoutviewer .s7flyoutzoomview { 
@@ -62,18 +62,18 @@ El aspecto de la vista flotante se controla con el siguiente selector de clase C
 <table id="table_85446C72FD914594B7D108381BBFC673"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS, propiedad </p> </th> 
+   <th colname="col1" class="entry"> <p> Propiedad CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Descripción </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> izquierda </span> </p> </td> 
-   <td colname="col2"> <p> Posición horizontal de la vista flotante, en relación con la esquina superior izquierda de la vista principal. </p> </td> 
+   <td colname="col2"> <p> La posición horizontal de la vista flotante, en relación con la esquina superior izquierda de la vista principal. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> parte superior </span> </p> </td> 
-   <td colname="col2"> <p> Posición vertical de la vista flotante, en relación con la esquina superior izquierda de la vista principal. </p> </td> 
+   <td colname="col2"> <p> Posición vertical de la vista flotante, con relación a la esquina superior izquierda de la vista principal. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -90,7 +90,7 @@ El aspecto de la vista flotante se controla con el siguiente selector de clase C
  </tbody> 
 </table>
 
-Ejemplo: para configurar una vista flotante a 600 x 400 píxeles, que aparece con un desplazamiento de 100 píxeles a la derecha de la vista principal de 512 x 288 que se muestra en el ejemplo anterior:
+Ejemplo: para configurar una vista flotante en 600 x 400 píxeles, que aparece con un desplazamiento de 100 píxeles a la derecha de la vista principal de 512 x 288 que se muestra en el ejemplo anterior:
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7flyoutzoom { 
@@ -109,27 +109,27 @@ El aspecto del resaltado en la vista principal se controla con el siguiente sele
 .s7flyoutviewer .s7flyoutzoomview .s7highlight
 ```
 
-Es posible controlar el fondo, el borde, la transparencia y atributos similares mediante CSS. Sin embargo, la lógica del visor gestiona el tamaño y la posición del elemento DOM de resaltado. No se puede anular mediante CSS.
+Es posible controlar los atributos de fondo, borde, transparencia y similares mediante CSS. Sin embargo, el tamaño y la posición del elemento DOM de resaltado se administran mediante la lógica del visor. No se admite la anulación mediante CSS.
 
 <table id="table_F957367566C542829E2F6D296F9DAAC5"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS, propiedad </p> </th> 
+   <th colname="col1" class="entry"> <p> Propiedad CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Descripción </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p> Color del resaltado. </p> </td> 
+   <td colname="col2"> <p> El color del resaltado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> opacidad </span> </p> </td> 
-   <td colname="col2"> <p> Resalte la opacidad. </p> <p>Para Internet Explorer 8, utilice <span class="codeph"> filter:alpha(opacity-...) ); </span> </p> </td> 
+   <td colname="col2"> <p> Resaltar la opacidad. </p> <p>Para Internet Explorer 8, utilice <span class="codeph"> filter:alpha(opacity-...) ); </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> borde </span> </p> </td> 
-   <td colname="col2"> <p>El resaltado del borde. </p> </td> 
+   <td colname="col2"> <p>El resaltado de borde. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -147,7 +147,7 @@ Ejemplo: para configurar el resaltado verde con un 40 % de transparencia y un bo
 
 **Propiedades CSS del cursor**
 
-When `highlightmode` se establece en `cursor`, el resaltado se encuentra en la vista principal y se sustituye por una ilustración de cursor de tamaño fijo, que se controla con el selector de clases CSS:
+Cuándo `highlightmode` El parámetro se ha establecido en `cursor`, las áreas resaltadas en la vista principal se sustituyen por ilustraciones de cursor de tamaño fijo, que se controlan con el selector de clases CSS:
 
 ```
  .s7flyoutviewer .s7flyoutzoomview 
@@ -156,23 +156,23 @@ When `highlightmode` se establece en `cursor`, el resaltado se encuentra en la v
 
 Es posible controlar la imagen de fondo y el tamaño mediante CSS.
 
-Las propiedades de CSS aplicables incluyen:
+Las propiedades CSS aplicables incluyen:
 
 <table id="table_A86F1E4DE9E84E11AF47373ADC63A459"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS, propiedad </p> </th> 
+   <th colname="col1" class="entry"> <p> Propiedad CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Descripción </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagen de fondo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Ilustración del cursor. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Anchura del cursor. </p> </td> 
+   <td colname="col2"> <p>Ancho del cursor. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
@@ -183,11 +183,11 @@ Las propiedades de CSS aplicables incluyen:
 
 >[!NOTE]
 >
->El cursor es compatible con `input` selector de atributos, que puede utilizarse para aplicar diferentes ilustraciones de cursor y tamaños para distintos dispositivos. En particular, `input="mouse"` corresponde a los sistemas de escritorio y `input="touch"` corresponde a los dispositivos táctiles.
+>El cursor admite `input` selector de atributos, que se puede utilizar para aplicar distintas ilustraciones de cursor y tamaños a distintos dispositivos. En particular, `input="mouse"` corresponde a los sistemas de escritorio y `input="touch"` corresponde a los dispositivos táctiles.
 
 **Propiedades CSS de la superposición**
 
-Cuando la variable `overlay` se establece en `1`, el área alrededor del marco de resaltado o de la imagen del cursor se controla con el selector de clase CSS:
+Si la variable `overlay` El parámetro se ha establecido en `1`, el área alrededor del marco resaltado o la imagen del cursor se controla con el selector de clases CSS:
 
 ```
  .s7flyoutviewer .s7flyoutzoomview 
@@ -197,7 +197,7 @@ Cuando la variable `overlay` se establece en `1`, el área alrededor del marco d
 <table id="table_A50CA8213C3A4682A081D3D30089574C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS, propiedad </p> </th> 
+   <th colname="col1" class="entry"> <p> Propiedad CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Descripción </p> </th> 
   </tr> 
  </thead>
@@ -208,7 +208,7 @@ Cuando la variable `overlay` se establece en `1`, el área alrededor del marco d
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> opacidad </span> </p> </td> 
-   <td colname="col2"> <p>Superponga la opacidad. </p> </td> 
+   <td colname="col2"> <p>Opacidad de superposición. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -221,12 +221,12 @@ El aspecto del mensaje de sugerencia se controla con el siguiente selector de cl
 .s7flyoutviewer .s7flyoutzoomview .s7tip
 ```
 
-Es posible configurar el estilo, el tamaño, la apariencia y el desplazamiento vertical de la fuente mediante CSS. Sin embargo, la alineación horizontal la gestiona la lógica del visor. Sobrescribir mediante CSS usando `left` o `right` no se admiten propiedades de .
+Es posible configurar el estilo, el tamaño, el aspecto y el desplazamiento vertical de la fuente mediante CSS. Sin embargo, la alineación horizontal la administra la lógica del visor. Anularlo mediante CSS mediante `left` o `right` no se admite esta propiedad.
 
 <table id="table_DCF6B69A9D8C4DB7A10C4572F7484799"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS, propiedad </p> </th> 
+   <th colname="col1" class="entry"> <p> Propiedad CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Descripción </p> </th> 
   </tr> 
  </thead>
@@ -237,7 +237,7 @@ Es posible configurar el estilo, el tamaño, la apariencia y el desplazamiento v
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>Color de texto. </p> </td> 
+   <td colname="col2"> <p>Color del texto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
@@ -261,14 +261,14 @@ Es posible configurar el estilo, el tamaño, la apariencia y el desplazamiento v
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> opacidad </span> </p> </td> 
-   <td colname="col2"> <p>La opacidad del fondo del texto del mensaje. </p> <p>Para Internet Explorer 8, utilice <span class="codeph"> filtro:alfa(opacity-...) </span> </p> </td> 
+   <td colname="col2"> <p>Opacidad de fondo del texto del mensaje. </p> <p>Para Internet Explorer 8, utilice <span class="codeph"> filtro:alfa(opacidad-...) ) </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 El mensaje de sugerencia se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) para obtener más información.
 
-Ejemplo: para configurar un mensaje de punta semitransparente con una fuente Arial® de 12 píxeles y blanco, 50 píxeles de desplazamiento desde la parte inferior de la vista principal, el relleno y un borde redondeado:
+Ejemplo: para configurar un mensaje de sugerencia semitransparente con una fuente Arial® blanca de 12 píxeles, un desplazamiento de 50 píxeles desde la parte inferior de la vista principal, relleno y borde redondeado:
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7tip { 

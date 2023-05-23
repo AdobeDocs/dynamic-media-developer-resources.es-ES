@@ -1,7 +1,7 @@
 ---
-description: A continuación, se muestra la lista de palabras clave y comandos admitidos por el motor de texto Scene7 Image Serving.
+description: A continuación se muestra la lista de palabras clave y comandos admitidos por el motor de texto del servicio de imágenes de Scene7.
 solution: Experience Manager
-title: Comandos y palabras clave RTF admitidos
+title: Palabras clave y comandos RTF admitidos
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a63bc7f1-34a9-485d-aadd-c65e3e26034a
@@ -12,17 +12,17 @@ ht-degree: 0%
 
 ---
 
-# Comandos y palabras clave RTF admitidos{#supported-rtf-commands-and-keywords}
+# Palabras clave y comandos RTF admitidos{#supported-rtf-commands-and-keywords}
 
-A continuación, se muestra la lista de palabras clave y comandos admitidos por el motor de texto Scene7 Image Serving.
+A continuación se muestra la lista de palabras clave y comandos admitidos por el motor de texto del servicio de imágenes de Scene7.
 
-Consulte la especificación [RTF 1.6](https://msdn.microsoft.com/en-us/library/aa140277%28v=office.10%29.aspx) publicada para obtener detalles sobre cada palabra clave o comando.
+Consulte la publicación de [Especificación de RTF 1.6](https://msdn.microsoft.com/en-us/library/aa140277%28v=office.10%29.aspx) para obtener detalles acerca de cada palabra clave o comando.
 
-El analizador omite los comandos RTF que no se enumeran a continuación.
+El analizador ignora los comandos RTF que no aparecen enumerados a continuación.
 
 * [Propiedades del documento (cuadro de texto)](r-document-text-box-properties.md)
 * [Formato de párrafo](r-paragraph-formatting.md)
-* [Formato básico de caracteres](r-basic-character-formatting.md)
+* [Formato de caracteres básico](r-basic-character-formatting.md)
 * [Formato de texto avanzado](r-advanced-text-formatting.md)
-* [Entidades de texto especial](r-special-text-entities.md)
+* [Entidades de texto especiales](r-special-text-entities.md)
 * [Codificación de caracteres](r-is-http-character-encoding.md)

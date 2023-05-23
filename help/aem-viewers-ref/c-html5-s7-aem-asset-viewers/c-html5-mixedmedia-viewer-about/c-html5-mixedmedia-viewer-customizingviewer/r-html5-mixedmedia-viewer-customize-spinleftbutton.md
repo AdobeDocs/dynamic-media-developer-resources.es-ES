@@ -1,6 +1,6 @@
 ---
 title: Botón Girar a la izquierda
-description: Al pulsar o hacer clic en este botón, la imagen se gira hacia la izquierda en la vista principal. Este botón no se muestra en los teléfonos móviles para ahorrar espacio en la pantalla. Además, el botón se oculta cuando se utiliza un conjunto de giros multidimensional. Puede cambiar el tamaño, el aspecto y la posición del botón mediante CSS.
+description: Al tocar o hacer clic en este botón, la imagen se gira a la izquierda en la vista principal. Este botón no se muestra en los teléfonos móviles para ahorrar espacio en la pantalla. Además, el botón se oculta cuando se utiliza un conjunto de giros multidimensional. Puede cambiar el tamaño, la apariencia y la posición del botón mediante CSS.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 4%
 
 # Botón Girar a la izquierda{#spin-left-button}
 
-Al seleccionar este botón, la imagen se gira a la izquierda en la vista principal. Este botón no se muestra en los teléfonos móviles para ahorrar espacio en la pantalla. Además, el botón se oculta cuando se utiliza un conjunto de giros multidimensional. Puede cambiar el tamaño, el aspecto y la posición del botón mediante CSS.
+Al seleccionar este botón, la imagen se gira a la izquierda en la vista principal. Este botón no se muestra en los teléfonos móviles para ahorrar espacio en la pantalla. Además, el botón se oculta cuando se utiliza un conjunto de giros multidimensional. Puede cambiar el tamaño, la apariencia y la posición del botón mediante CSS.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **Propiedades CSS de los botones de giro**
 
-El botón se agrega a un contenedor interno que está controlado por DIV con el selector de clase CSS:
+El botón se agrega a un contenedor interno que está controlado por DIV con el selector de clases CSS:
 
 ```
 .s7mixedmediaviewer .s7spinbuttons
@@ -29,7 +29,7 @@ El botón se agrega a un contenedor interno que está controlado por DIV con el 
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS, propiedad </p> </th> 
+   <th colname="col1" class="entry"> <p> Propiedad CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Descripción </p> </th> 
   </tr> 
  </thead>
@@ -52,7 +52,7 @@ El botón se agrega a un contenedor interno que está controlado por DIV con el 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Anchura del botón. </p> </td> 
+   <td colname="col2"> <p>Ancho del botón. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
@@ -61,7 +61,7 @@ El botón se agrega a un contenedor interno que está controlado por DIV con el 
  </tbody> 
 </table>
 
-El aspecto de este botón dentro del contenedor se controla con el selector de clase CSS:
+El aspecto de este botón dentro del contenedor se controla con el selector de clases CSS:
 
 ```
 .s7mixedmediaviewer .s7spinbuttons .s7panleftbutton
@@ -70,7 +70,7 @@ El aspecto de este botón dentro del contenedor se controla con el selector de c
 <table id="table_3EC45539877A479DB83E8FC69142450B"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS, propiedad </p> </th> 
+   <th colname="col1" class="entry"> <p> Propiedad CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Descripción </p> </th> 
   </tr> 
  </thead>
@@ -93,30 +93,30 @@ El aspecto de este botón dentro del contenedor se controla con el selector de c
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Anchura del botón. </p> </td> 
+   <td colname="col2"> <p>Ancho del botón. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Altura del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagen de fondo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Imagen que se muestra para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posición de fondo </span> </p> </td> 
-   <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Coloque dentro del icono de ilustración si se utilizan iconos CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Este botón admite la variable `state` selector de atributos, que se puede utilizar para aplicar diferentes aspectos a distintos estados de botones.
+>Este botón admite el `state` selector de atributos, que se puede utilizar para aplicar distintos aspectos a distintos estados de botón.
 
-La información sobre herramientas de botones se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obtener más información.
+La información sobre herramientas de los botones se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obtener más información.
 
-Ejemplo: para configurar un botón izquierdo de giro de 28 x 28 píxeles y que se sitúe en el borde izquierdo del contenedor interior. Finalmente, muestra una imagen diferente para cada uno de los cuatro estados de botón:
+Ejemplo: configurar un botón giratorio a la izquierda de 28 x 28 píxeles y situado en el borde izquierdo del contenedor interno. Y, finalmente, muestra una imagen diferente para cada uno de los cuatro estados de botón diferentes:
 
 ```
 .s7mixedmediaviewer .s7spinbuttons .s7panleftbutton { 

@@ -34,7 +34,7 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | Identificador de la empresa para la que desea obtener datos. |
+| companyHandle | `xsd:string` | Sí | El identificador de la compañía para la que desea obtener datos. |
 | metadataKey | `xsd:string` | Sí | Clave de metadatos en notación de puntos. |
 
 **Salida (getDistinctMetadataValuesReturn)**

@@ -1,5 +1,5 @@
 ---
-description: Matriz de actualizaciones de permisos.
+description: Una matriz de actualizaciones de permisos.
 solution: Experience Manager
 title: PermissionUpdateArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL PermissionUpdateArray]{#permissionupdatearray}
 
-Matriz de actualizaciones de permisos.
+Una matriz de actualizaciones de permisos.
 
 Sintaxis
 

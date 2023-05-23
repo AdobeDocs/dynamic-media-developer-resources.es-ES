@@ -8,7 +8,7 @@ exl-id: d58e1290-8a79-4129-99ce-776b919dea13
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 14%
+ht-degree: 5%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 14%
 
 Crea un nuevo formato de publicación para una viñeta.
 
-Los formatos de viñeta especifican el tamaño de las viñetas publicadas y sus miniaturas, así como los niveles de zoom, los parámetros de nitidez y la versión del formato de archivo para las viñetas producidas a partir de viñetas principales publicadas en un servidor de renderización de imágenes desde IPS.
+Los formatos de viñeta especifican el tamaño de las viñetas publicadas y sus miniaturas, así como los niveles de zoom, los parámetros de enfoque y la versión del formato de archivo para las viñetas producidas a partir de viñetas principales publicadas en un servidor de procesamiento de imágenes desde IPS.
 
-Las versiones de servidor de renderización de imágenes más recientes admiten viñetas piramidales, lo que elimina la necesidad de definir tamaños de formato de viñeta específicos para la publicación.
+Las versiones más recientes del servidor de procesamiento de imágenes admiten viñetas piramidales, lo que elimina la necesidad de definir tamaños de formato de viñeta específicos para la publicación.
 
 ## Tipos de usuarios autorizados {#section-f5c563e3695c4dba8df41e2a965aace7}
 
@@ -45,37 +45,37 @@ Las versiones de servidor de renderización de imágenes más recientes admiten 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> Gestionar a la empresa a la que pertenece la viñeta. </td> 
+   <td colname="col4"> Identificador de la compañía a la que pertenece la viñeta. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> Nombre para identificar el formato de publicación de la viñeta. </td> 
+   <td colname="col4"> Nombre para identificar el formato de publicación de viñeta. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> targetWidth</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> <p>Especifica el ancho de destino de la vista de viñeta resultante en píxeles. </p> <p>Utilice cero para que la viñeta de salida tenga el mismo tamaño que la viñeta principal. </p> </td> 
+   <td colname="col4"> <p>Especifica la anchura de destino de la vista de viñeta resultante en píxeles. </p> <p>Utilice cero para que la viñeta de salida tenga el mismo tamaño que la viñeta principal. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> targetHeight</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> Crea una viñeta piramidal optimizada para la ampliación y la reducción en el servidor de procesamiento de imágenes. Partiendo desde el tamaño máximo, definido por los campos de tamaño de la viñeta de destino, esta opción crea múltiples vistas de tamaño en un solo archivo de salida de viñetas. Los tamaños de vista se van reduciendo a la mitad en orden hasta que la altura y la anchura están dentro del límite de 128 x 128 píxeles. </td> 
+   <td colname="col4"> Crea una viñeta piramidal optimizada para la ampliación y la reducción en el servidor de procesamiento de imágenes. Empezando por el tamaño máximo, definido por los campos de tamaño de viñeta de destino, esto crea múltiples vistas de tamaño en un solo archivo de salida de viñeta. Cada tamaño de vista posterior se reduce a la mitad hasta que la anchura y la altura tengan un valor inferior a 128 x 128 píxeles. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> createPyramid</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> Especifica el ancho de cada miniatura resultante en píxeles. Esta configuración es opcional. Deje como cero para ningún archivo en miniatura. </td> 
+   <td colname="col4"> Especifica la anchura en píxeles de cada miniatura creada. Esta configuración es opcional. Dejar como cero para que no haya archivo de miniaturas. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbWidth</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> Especifica el formato de archivo de las viñetas publicadas. Dado que hay una nueva versión de Creación de imágenes y una versión anterior del servidor de renderización de imágenes, debe especificar una versión de la viñeta que el servidor de renderización de imágenes pueda leer. Si especifica una versión superior, el servidor de renderización de imágenes no podrá leer las viñetas publicadas. Establézcalo en cero para publicar viñetas en la última versión. </td> 
+   <td colname="col4"> Especifica el formato de archivo para las viñetas publicadas. Dada la nueva versión de Image Authoring y la versión anterior del servidor de procesamiento de imágenes, debe especificar una versión de viñeta que el servidor de procesamiento de imágenes pueda leer. Si especifica una versión superior, el servidor de procesamiento de imágenes no podrá leer las viñetas publicadas. Establézcalo en cero para publicar viñetas en la última versión. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> saveAsVersion</span> </span> </td> 
@@ -90,28 +90,28 @@ Las versiones de servidor de renderización de imágenes más recientes admiten 
    <td colname="col4"> Especifica el carácter que separa el nombre de la viñeta y el sufijo que indica su anchura. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> enfocar</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> afilar</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Aplica nitidez a la imagen de vista principal para cada tamaño de viñeta de publicación. El enfoque puede compensar el desenfoque cuando se escalan los viñedos. </td> 
+   <td colname="col4"> Aplica enfoque a la imagen de vista principal para cada tamaño de viñeta de publicación. El enfoque puede compensar el desenfoque que se produce cuando las viñetas se reducen o se agrandan. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> usmAmount</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> El enmascaramiento de enfoque digital es una forma flexible y potente de aumentar la nitidez, especialmente en imágenes escaneadas. Esto controla la magnitud de cada rebasamiento (cuánto más oscuros y claros se vuelven los bordes de borde). </td> 
+   <td colname="col4"> La máscara de enfoque digital es una forma flexible y eficaz de aumentar la nitidez, especialmente en imágenes digitalizadas. Esto controla la magnitud de cada sobregiro (cuánto más oscuros y claros se vuelven los bordes de borde). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> usmRadius</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> Afecta al tamaño de los bordes que se van a mejorar o a la anchura de los bordes, por lo que un radio más pequeño mejora el detalle de escala más pequeña. Los valores de radio más altos pueden causar halos en los bordes. El detalle fino necesita un radio más pequeño, ya que se pierde un detalle minúsculo del mismo tamaño o menor que el radio. </td> 
+   <td colname="col4"> Afecta al tamaño de las aristas que se van a mejorar o a la anchura de las aristas, por lo que un radio más pequeño aumenta el detalle a menor escala. Los valores de radio más altos pueden causar halos en los bordes. El detalle fino necesita un radio más pequeño, ya que se pierde un detalle minúsculo del mismo tamaño o más pequeño que el radio. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> usmThreshold</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> Controla el cambio mínimo de brillo que se debe enfocar o la distancia que deben estar los valores tonales adyacentes antes de que funcione el filtro. Este ajuste puede enfocar los bordes más pronunciados sin modificar los bordes más sutiles. El rango permitido de umbral de 0 a 255. </td> 
+   <td colname="col4"> Controla el cambio de brillo mínimo que se va a enfocar o la distancia entre los valores tonales adyacentes que se deben situar antes de que el filtro funcione. Esta configuración puede enfocar los bordes más pronunciados sin modificar los más sutiles. El intervalo permitido de umbral de 0 a 255. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -120,11 +120,11 @@ Las versiones de servidor de renderización de imágenes más recientes admiten 
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| viñetaFormatoControlador | `xsd:string` | Sí | El identificador del formato de viñeta creado. |
+| vignetteFormatHandle | `xsd:string` | Sí | El controlador para el formato de viñeta creado. |
 
 ## Ejemplos {#section-0564752d439642b9bb8de2903db6de1e}
 
-Este código crea el formato de publicación de la viñeta. La solicitud de creación especifica un nombre, una anchura y altura de destino y otros valores necesarios.
+Este código crea un formato de publicación de viñeta. La solicitud de creación especifica un nombre, una anchura y altura de destino y otros valores necesarios.
 
 **Solicitar**
 

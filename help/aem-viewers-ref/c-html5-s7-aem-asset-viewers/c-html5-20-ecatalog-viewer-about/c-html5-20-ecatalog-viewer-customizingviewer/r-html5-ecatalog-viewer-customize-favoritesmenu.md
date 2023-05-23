@@ -1,6 +1,6 @@
 ---
 title: Menú Favoritos
-description: La lista desplegable del menú Favoritos aparece en la barra de control. Consiste en un botón y un panel que se expande cuando un usuario hace clic o pulsa un botón. El panel contiene herramientas de Favoritos individuales.
+description: La lista desplegable del menú Favoritos aparece en la barra de control. Consiste en un botón y un panel que se expande cuando un usuario hace clic o pulsa un botón. El panel contiene herramientas individuales de Favoritos.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Menú Favoritos{#favorites-menu}
 
-La lista desplegable del menú Favoritos aparece en la barra de control. Consiste en un botón y un panel que se expande cuando un usuario hace clic o pulsa un botón. El panel contiene herramientas de Favoritos individuales.
+La lista desplegable del menú Favoritos aparece en la barra de control. Consiste en un botón y un panel que se expande cuando un usuario hace clic o pulsa un botón. El panel contiene herramientas individuales de Favoritos.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-La posición y el tamaño del menú Favoritos en la interfaz de usuario del visor se controlan con el siguiente selector de clase CSS:
+La posición y el tamaño del menú Favoritos en la interfaz de usuario del visor se controlan con el siguiente selector de clases CSS:
 
 ```
 .s7ecatalogviewer .s7favoritesmenu
@@ -34,11 +34,11 @@ La posición y el tamaño del menú Favoritos en la interfaz de usuario del viso
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
-   <td colname="col2"> <p> Distancia al botón siguiente de la izquierda o del lado izquierdo de la barra de control si es el primer botón de una fila. </p> </td> 
+   <td colname="col2"> <p> Distancia al siguiente botón de la izquierda o al lado izquierdo de la barra de control si es el primer botón de una fila. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Anchura del botón. </p> </td> 
+   <td colname="col2"> <p>Ancho del botón. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
@@ -47,7 +47,7 @@ La posición y el tamaño del menú Favoritos en la interfaz de usuario del viso
  </tbody> 
 </table>
 
-Ejemplo : para configurar un menú Favoritos que se posicione a cuatro píxeles de la parte superior de la barra de control y a diez píxeles del botón más cercano de la izquierda y cuyo tamaño sea de 28 x 28 píxeles:
+Ejemplo: Para configurar un menú Favoritos situado a cuatro píxeles de la parte superior de la barra de control y a diez píxeles del botón más cercano a la izquierda y con un tamaño de 28 x 28 píxeles:
 
 ```
 .s7ecatalogviewer .s7favoritesmenu { 
@@ -69,23 +69,23 @@ El aspecto del botón de menú Favoritos se controla con el siguiente selector d
 <table id="table_970D62A1413145E0A964FA9D9F108579"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagen de fondo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> Imagen que se muestra para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posición de fondo </span> </p> </td> 
-   <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Coloque dentro del icono de ilustración si se utilizan iconos CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Este botón admite la variable `state` selector de atributos, que se puede utilizar para aplicar diferentes aspectos a distintos estados de botones.
+>Este botón admite el `state` selector de atributos, que se puede utilizar para aplicar distintos aspectos a distintos estados de botón.
 
-La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
+La información del objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
-Ejemplo: para configurar un botón de menú Favoritos que muestre una imagen diferente para cada uno de los cuatro estados de botón diferentes:
+Ejemplo: Para configurar un botón de menú Favoritos que muestre una imagen diferente para cada uno de los cuatro estados de botón diferentes:
 
 ```
 .s7ecatalogviewer .s7favoritesmenu .s7favoritesbutton[state='up'] { 
@@ -119,7 +119,7 @@ El aspecto del panel que contiene los iconos individuales de Favoritos se contro
  </tbody> 
 </table>
 
-Ejemplo: Para configurar un panel con un color transparente:
+Ejemplo: Para configurar un panel para que tenga un color transparente:
 
 ```
 .s7ecatalogviewer .s7favoritesmenu .s7favoritesmenupanel { 

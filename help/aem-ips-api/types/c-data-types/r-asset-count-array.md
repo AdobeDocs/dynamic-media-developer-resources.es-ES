@@ -1,6 +1,6 @@
 ---
 title: AssetCountArray
-description: Matriz de recuentos de recursos.
+description: Una matriz de recuentos de recursos.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL AssetCountArray]{#assetcountarray}
 
-Matriz de recuentos de recursos.
+Una matriz de recuentos de recursos.
 
 Sintaxis
 

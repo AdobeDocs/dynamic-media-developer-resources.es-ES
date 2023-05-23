@@ -28,18 +28,18 @@ Sintaxis
 | companyId | `xsd:int` | ID de empresa. |
 | companyName | `xsd:string` | Nombre de la empresa. |
 | jobName | `xsd:string` | Un nombre de trabajo único. |
-| jobDescription | `xsd:string` | Una descripción útil del trabajo. |
-| string1 | `xsd:string` | Marcador para información de cadena (opcional). |
-| string2 | `xsd:string` | Marcador para información de cadena (opcional). |
-| string3 | `xsd:string` | Marcador para información de cadena (opcional). |
-| string4 | `xsd:string` | Marcador para información de cadena (opcional). |
-| string5 | `xsd:string` | Marcador para información de cadena (opcional). |
-| int1 | `xsd:int` | Soporte para información entera (opcional). |
-| int2 | `xsd:int` | Soporte para información entera (opcional). |
-| int3 | `xsd:int` | Soporte para información entera (opcional). |
-| int4 | `xsd:int` | Soporte para información entera (opcional). |
-| int5 | `xsd:int` | Soporte para información entera (opcional). |
+| jobDescription | `xsd:string` | Una descripción útil para el trabajo. |
+| string1 | `xsd:string` | Titular para información de cadena (opcional). |
+| string2 | `xsd:string` | Titular para información de cadena (opcional). |
+| string3 | `xsd:string` | Titular para información de cadena (opcional). |
+| string4 | `xsd:string` | Titular para información de cadena (opcional). |
+| string5 | `xsd:string` | Titular para información de cadena (opcional). |
+| int1 | `xsd:int` | Titular para información entera (opcional). |
+| int2 | `xsd:int` | Titular para información entera (opcional). |
+| int3 | `xsd:int` | Titular para información entera (opcional). |
+| int4 | `xsd:int` | Titular para información entera (opcional). |
+| int5 | `xsd:int` | Titular para información entera (opcional). |
 | float1 | `xsd:double` | Soporte para información de flotador (opcional). |
 | float2 | `xsd:double` | Soporte para información de flotador (opcional). |
 | float3 | `xsd:double` | Soporte para información de flotador (opcional). |
-| time1 | `xsd:dateTime` | Titular de la información de fecha y hora (opcional). |
+| time1 | `xsd:dateTime` | Titular para información de fecha y hora (opcional). |

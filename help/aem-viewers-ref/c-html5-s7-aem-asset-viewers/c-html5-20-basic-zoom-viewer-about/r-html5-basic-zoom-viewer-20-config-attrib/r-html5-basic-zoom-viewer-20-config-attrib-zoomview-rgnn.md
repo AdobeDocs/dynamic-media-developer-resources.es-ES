@@ -8,7 +8,7 @@ exl-id: b7346f72-5fe9-4608-8ea0-27012b73b696
 source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
 source-wordcount: '37'
-ht-degree: 13%
+ht-degree: 10%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 13%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> x,y,w,h</span> </p> </td> 
-   <td colname="col2"> <p> Región inicial de interés en coordenadas normalizadas. Si no se especifican estos valores, la imagen completa se instala en la ventanilla inicial. </p> </td> 
+   <td colname="col2"> <p> Región de interés inicial en coordenadas normalizadas. Si no se especifican estos valores, toda la imagen se ajusta a la ventana gráfica inicial. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,6 +1,6 @@
 ---
 title: Materiales
-description: Image Rendering aplica materiales a grupos u objetos en viñetas.
+description: El procesamiento de imágenes aplica materiales a grupos u objetos en viñetas.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 # Materiales{#materials}
 
-Image Rendering aplica materiales a grupos u objetos en viñetas.
+El procesamiento de imágenes aplica materiales a grupos u objetos en viñetas.
 
-Un material consta de un conjunto de *attributes*. Algunos atributos son obligatorios para ciertos materiales, otros son opcionales y algunos se ignoran si están presentes. Muchos atributos tienen valores predeterminados. No todos los materiales se pueden aplicar a todos los objetos (por ejemplo, un material de armario no se puede aplicar a un sofá).
+Un material consta de un conjunto de *atributos*. Algunos atributos son necesarios para ciertos materiales, otros son opcionales y algunos se omiten si están presentes. Muchos atributos tienen valores predeterminados. No todos los materiales pueden aplicarse a todos los objetos (por ejemplo, un material de gabinete no puede aplicarse a un sofá).
 
-El servidor ignora todos los atributos que se producen dentro de un segmento de especificación de material (MSS) pero que no aparecen enumerados anteriormente o en las tablas de material específicas que se muestran a continuación.
+El servidor ignora cualquier atributo que aparezca dentro de un segmento de especificación de material (MSS) pero que no aparezca en la lista anterior o en las tablas de material específicas siguientes.
 
-En las tablas siguientes se enumeran los atributos básicos del material. IR admite atributos adicionales para controlar [efectos de procesamiento avanzados](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-advanced-render-effects.md#concept-bf8b6d8460244b9cacc7f4a3df4c5281).
+En las tablas siguientes se enumeran los atributos de material básicos. IR admite atributos adicionales para controlar [efectos de procesamiento avanzados](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-advanced-render-effects.md#concept-bf8b6d8460244b9cacc7f4a3df4c5281).
 
-A menos que se indique lo contrario, todos los atributos de material son opcionales, con los valores predeterminados adecuados.
+A menos que se indique lo contrario, todos los atributos de material son opcionales, con valores por defecto adecuados.
 
 * [Colores sólidos](r-ir-solid-colors.md)
 * [Texturas repetibles](r-ir-repeatable-textures.md)
-* [Bordes de muro](r-ir-wall-borders.md)
-* [Decretos](r-ir-decals.md)
+* [Bordes de pared](r-ir-wall-borders.md)
+* [Calcomanía](r-ir-decals.md)
 * [Armarios](r-ir-cabinets.md)
-* [Cubiertas de ventana](r-ir-window-coverings.md)
+* [Revestimientos para ventanas](r-ir-window-coverings.md)

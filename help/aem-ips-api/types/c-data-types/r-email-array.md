@@ -1,5 +1,5 @@
 ---
-description: Matriz utilizada para designar el creador o una lista de hasta 5 direcciones de correo electrónico para recibir la notificación de confirmación.
+description: Matriz utilizada para designar al creador o una lista de hasta cinco direcciones de correo electrónico para recibir la notificación de confirmación.
 solution: Experience Manager
 title: EmailArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # [!DNL EmailArray]{#emailarray}
 
-Matriz utilizada para designar el creador o una lista de hasta 5 direcciones de correo electrónico para recibir la notificación de confirmación.
+Matriz utilizada para designar al creador o una lista de hasta cinco direcciones de correo electrónico para recibir la notificación de confirmación.
 
 Sintaxis
 

@@ -1,5 +1,5 @@
 ---
-description: Matriz de trabajos programados.
+description: Una matriz de trabajos programados.
 solution: Experience Manager
 title: ScheduledJobArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL ScheduledJobArray]{#scheduledjobarray}
 
-Matriz de trabajos programados.
+Una matriz de trabajos programados.
 
 Sintaxis
 

@@ -18,7 +18,7 @@ El reproductor de vídeo es el área rectangular en la que se muestra el conteni
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Si las dimensiones del vídeo que se está reproduciendo no coinciden con las dimensiones del reproductor, el contenido del vídeo se centra dentro del área de visualización rectangular del reproductor de vídeo.
+Si las dimensiones del vídeo que se reproduce no coinciden con las del reproductor de vídeo, el contenido del vídeo se centra dentro del área de visualización rectangular del reproductor de vídeo.
 
 El siguiente selector de clase CSS controla el aspecto del reproductor de vídeo:
 
@@ -31,17 +31,17 @@ El siguiente selector de clase CSS controla el aspecto del reproductor de vídeo
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Color de fondo de la vista principal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Puede localizar el mensaje de error que se muestra en los casos en los que el sistema no puede reproducir el vídeo.
+Puede localizar el mensaje de error que se muestra en los casos en que el sistema no pueda reproducir el vídeo.
 
 Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-Ejemplo: para configurar un visor de vídeo con el tamaño del reproductor de vídeo establecido en 512 x 288 píxeles.
+Ejemplo: Para configurar un visor de vídeo con el tamaño del reproductor de vídeo establecido en 512 x 288 píxeles.
 
 ```
 .s7video360viewer .s7video360player{ 
@@ -51,7 +51,7 @@ background-color: transparent;
 
 <!--<a id="section_5B82913FF3C44B7B8187969CB15E9560"></a>-->
 
-El aspecto de la animación de almacenamiento en búfer se controla con el siguiente selector de clase CSS:
+El aspecto de la animación almacenada en búfer se controla con el siguiente selector de clase CSS:
 
 ```
 .s7video360viewer .s7video360player .s7waiticon
@@ -62,7 +62,7 @@ El aspecto de la animación de almacenamiento en búfer se controla con el sigui
 <table id="table_8DB41A0FF2A746F78B763564C4F3EBE0"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>CSS, propiedad </p> </th> 
+   <th colname="col1" class="entry"> <p>Propiedad CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Descripción </p> </th> 
   </tr> 
  </thead>
@@ -76,16 +76,16 @@ El aspecto de la animación de almacenamiento en búfer se controla con el sigui
    <td colname="col2"> <p> Altura del icono de animación. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
-   <td colname="col2"> <p> Icono de animación margen izquierdo, normalmente menos la mitad de la anchura del icono. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
+   <td colname="col2"> <p> Margen izquierdo del icono de animación, normalmente menos la mitad del ancho del icono. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
    <td colname="col2"> <p> Margen superior del icono de animación, normalmente menos la mitad de la altura del icono. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
-   <td colname="col2"> <p> Ilustración del botón. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p> Pintura del pomo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

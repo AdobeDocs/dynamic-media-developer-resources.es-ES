@@ -1,7 +1,7 @@
 ---
-description: Conjunto de permisos
+description: PermissionSet
 solution: Experience Manager
-title: Conjunto de permisos
+title: PermissionSet
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 39146b70-ecd8-42ce-a171-0fb7ac7dd025
@@ -20,5 +20,5 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| PermissionSetHandle | `xsd:string` | Gestione en un conjunto de permisos. |
+| PermissionSetHandle | `xsd:string` | Administrar a un conjunto de permisos. |
 | permissionArray | `types:PermissionArray` | Matriz de permisos. |

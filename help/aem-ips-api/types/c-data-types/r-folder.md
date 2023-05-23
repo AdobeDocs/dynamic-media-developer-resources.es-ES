@@ -1,5 +1,5 @@
 ---
-description: Archivo jerárquico u objeto de almacenamiento de recursos. Las carpetas pueden contener una o más subcarpetas.
+description: Objeto de almacenamiento de recursos o archivos jerárquicos. Las carpetas pueden contener una (o más) subcarpetas.
 solution: Experience Manager
 title: Carpeta
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # [!DNL Folder]{#folder}
 
-Archivo jerárquico u objeto de almacenamiento de recursos. Las carpetas pueden contener una o más subcarpetas.
+Objeto de almacenamiento de recursos o archivos jerárquicos. Las carpetas pueden contener una (o más) subcarpetas.
 
 Sintaxis
 
@@ -22,10 +22,10 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| folderHandle | `xsd:string` | Identificador de carpeta. |
+| folderHandle | `xsd:string` | Controlador de carpeta. |
 | [!DNL path] | `xsd:string` | Ruta de carpeta. |
 | lastModified | `xsd:dateTime` | Fecha de la última modificación. |
-| childLastModified | `xsd:dateTime` | Fecha de la última modificación para subcarpetas y recursos secundarios de carpeta. |
-| permissionsSetHandle | `xsd:string` | Identificador de permisos de carpeta. |
+| childLastModified | `xsd:dateTime` | Fecha de la última modificación de las subcarpetas y los recursos secundarios de la carpeta. |
+| permissionsSetHandle | `xsd:string` | Controlador de permisos de carpeta. |
 | hasSubfolder | `types:Boolean` | Determina si una carpeta tiene subcarpetas. |
 | subfolderArray | `types:FolderArray` | Matriz de subcarpetas de una carpeta. |

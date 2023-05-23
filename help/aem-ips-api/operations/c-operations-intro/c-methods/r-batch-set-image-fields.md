@@ -1,5 +1,5 @@
 ---
-description: Define los campos específicos de la imagen para uno o varios recursos de imagen.
+description: Establece campos específicos de la imagen para uno o varios recursos de imagen.
 solution: Experience Manager
 title: batchSetImageFields
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # batchSetImageFields{#batchsetimagefields}
 
-Define los campos específicos de la imagen para uno o varios recursos de imagen.
+Establece campos específicos de la imagen para uno o varios recursos de imagen.
 
 Sintaxis
 
@@ -33,22 +33,22 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | El identificador de la empresa que contiene los recursos de imagen. |
-| updateArray | `types:ImageFieldUpdateArray` | Sí | La matriz de actualizaciones del campo de imagen. |
+| companyHandle | `xsd:string` | Sí | El identificador de la compañía que contiene los recursos de imagen. |
+| updateArray | `types:ImageFieldUpdateArray` | Sí | La matriz de actualizaciones de campo de imagen. |
 
 **Salida (batchSetImageFields)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| successCount | `xsd:int` | Sí | Número de campos de imagen establecidos correctamente. |
-| warningCount | `xsd:int` | Sí | Número de advertencias generadas cuando la operación intentó establecer los campos de imagen. |
-| errorCount | `xsd:int` | Sí | Número de errores generados cuando la operación intentó establecer los campos de imagen. |
+| successCount | `xsd:int` | Sí | El número de campos de imagen definidos correctamente. |
+| warningCount | `xsd:int` | Sí | El número de advertencias generadas cuando la operación intentó establecer los campos de imagen. |
+| errorCount | `xsd:int` | Sí | El número de errores generados cuando la operación intentó establecer los campos de imagen. |
 | warningDetailArray | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados con los recursos que generaron advertencias cuando la operación intentó aplicar las actualizaciones. |
 | errorDetailArray | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados con los recursos que generaron errores cuando la operación intentó aplicar las actualizaciones. |
 
 ## Ejemplos {#section-0476e3d6516a4f8bbaac9de983bc6d1e}
 
-En este ejemplo se establecen datos en los campos de dos imágenes de una matriz de actualización. En la matriz, las imágenes se especifican mediante sus controladores de recursos y contienen resolución en píxeles, coordenadas de anclaje de posición x e y y datos del usuario. La respuesta indica que los campos de ambas imágenes se configuraron correctamente.
+En este ejemplo se establecen los datos de los campos de dos imágenes de una matriz de actualización. En la matriz, las imágenes se especifican mediante sus controladores de recursos y contienen resolución en píxeles, coordenadas de anclaje de posición x e y y datos de usuario. La respuesta indica que los campos de ambas imágenes se configuraron correctamente.
 
 **Solicitar**
 

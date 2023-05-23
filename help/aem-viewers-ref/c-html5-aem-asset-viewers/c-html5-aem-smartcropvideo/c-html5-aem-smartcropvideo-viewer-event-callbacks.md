@@ -4,7 +4,8 @@ description: Llamadas de retorno de eventos
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 21962c01-f224-408d-8072-1c7f5d78ac4b
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 0%
@@ -13,19 +14,19 @@ ht-degree: 0%
 
 # Llamadas de retorno de eventos{#event-callbacks}
 
-El visor admite las llamadas de retorno de eventos de JavaScript que la página web utiliza para rastrear el proceso de inicialización del visor o el comportamiento en tiempo de ejecución.
+El visor admite llamadas de retorno de eventos JavaScript que la página web utiliza para rastrear el proceso de inicialización del visor o el comportamiento del tiempo de ejecución.
 
-Los controladores de devolución de llamada se asignan pasando nombres de evento y funciones de controlador correspondientes con la variable `handlers` propiedad a `config` objeto JSON en el constructor del visualizador. Alternativamente, es posible utilizar `setHandlers()` método de API.
+Los controladores de llamada de retorno se asignan pasando nombres de evento y funciones de controlador correspondientes con el `handlers` propiedad a `config` Objeto JSON en el constructor del visor. Alternativamente, es posible utilizar `setHandlers()` Método de API.
 
 Los eventos de visor admitidos son los siguientes:
 
-* `initComplete` : déclencheur cuando se completa la inicialización del visor y se crean todos los componentes internos, de modo que sea posible utilizar `getComponent()` API. El controlador de llamada de retorno no toma ningún argumento.
+* `initComplete` : déclencheur cuando se completa la inicialización del visor y se crean todos los componentes internos, de modo que es posible utilizar `getComponent()` API. El controlador de devolución de llamada no toma ningún argumento.
 
-* `trackEvent` : déclencheur cada vez que se produce un evento dentro del visualizador que puede ser gestionado por un sistema de seguimiento de eventos, como Adobe Analytics. El controlador de llamada de retorno toma los siguientes argumentos:
+* `trackEvent` : déclencheur cada vez que se produce un evento dentro del visor, que puede gestionar un sistema de seguimiento de eventos, como Adobe Analytics. El controlador de devolución de llamada toma los siguientes argumentos:
 
-   * `objID {String}` no se usa actualmente.
-   * `compClass {String}` no se usa actualmente.
-   * `instName {String}` nombre de instancia del componente SDK del visor que activó el evento.
+   * `objID {String}` no se utiliza actualmente.
+   * `compClass {String}` no se utiliza actualmente.
+   * `instName {String}` un nombre de instancia del componente SDK de visor que activó el evento.
    * `eventInfo {String}` carga útil de evento.
 
 Consulte también [SmartCropVideoViewer]

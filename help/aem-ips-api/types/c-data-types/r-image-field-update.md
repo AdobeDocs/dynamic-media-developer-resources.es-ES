@@ -22,8 +22,8 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| assetHandle | `xsd:string` | Identificador de recurso. |
+| assetHandle | `xsd:string` | Controlador de recurso. |
 | [!DNL resolution] | `xsd:double` | Resolución de imagen en píxeles por pulgada. |
 | [!DNL anchorX] | `xsd:int` | Anclaje de imagen del eje X. |
 | [!DNL anchorY] | `xsd:int` | Anclaje de imagen del eje Y. |
-| [!DNL userData] | `xsd:string` | Valor de `userData` campo de metadatos, que se publica en el campo del catálogo de datos del usuario que sirve la imagen. |
+| [!DNL userData] | `xsd:string` | Valor de `userData` campo de metadatos, que se publica en el campo catálogo de datos del usuario del servicio de imágenes. |

@@ -1,5 +1,5 @@
 ---
-description: Incrustar XMP metadatos. Especifica si XMP metadatos deben incluirse en la imagen de respuesta.
+description: XMP Incrustar metadatos de la. XMP Especifica si se deben incluir metadatos de la en la imagen de respuesta.
 solution: Experience Manager
 title: xmpEmbed
 feature: Dynamic Media Classic,SDK/API
@@ -7,26 +7,26 @@ role: Developer,User
 exl-id: 353b6ac4-1141-4f17-a3ad-ad48b321b36f
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 3%
+source-wordcount: '126'
+ht-degree: 2%
 
 ---
 
 # xmpEmbed{#xmpembed}
 
-Incrustar XMP metadatos. Especifica si XMP metadatos deben incluirse en la imagen de respuesta.
+XMP Incrustar metadatos de la. XMP Especifica si se deben incluir metadatos de la en la imagen de respuesta.
 
 `xmpEmbed=0|1`
 
 >[!NOTE]
 >
->XMP datos se pasan de la imagen de origen a la imagen de respuesta sin modificación. Esto puede provocar que se incrusten datos incorrectos en la imagen de respuesta.
+>XMP Los datos de la imagen de origen se pasan a la imagen de respuesta sin modificaciones. Esto puede hacer que se incrusten datos incorrectos en la imagen de respuesta.
 
 ## Propiedades {#section-27024c4272f44d9a8c264a0629193af2}
 
-Atributo de solicitud. Se omite si la imagen de origen no contiene datos XMP. Solo se procesan XMP datos de la imagen de origen de `layer=0`. XMP datos de otras imágenes de capa se ignoran.
+Atributo de solicitud. XMP Se ignora si la imagen de origen no contiene datos de la. XMP Solo los datos de la imagen de origen de `layer=0` se procesan. XMP Se ignoran los datos de otras imágenes de capa.
 
-Se omite si el formato de imagen de salida no admite XMP incrustación. Consulte la descripción de `fmt=` para obtener una lista de los formatos de imagen de salida que admiten XMP incrustación.
+XMP Se ignora si el formato de imagen de salida no admite la incrustación de. Consulte la descripción de `fmt=` XMP para obtener una lista de formatos de imagen de salida que admitan la incrustación de.
 
 ## Predeterminado {#section-aedbedd04d664ba184b2cfe35644b960}
 

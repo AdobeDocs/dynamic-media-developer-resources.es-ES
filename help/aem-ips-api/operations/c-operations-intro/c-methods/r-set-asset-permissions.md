@@ -1,5 +1,5 @@
 ---
-description: Establece los permisos de un recurso individual mediante un recurso de permiso.
+description: Establece los permisos de un solo recurso mediante un recurso de permiso.
 solution: Experience Manager
 title: setAssetPermissions
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,9 +14,9 @@ ht-degree: 9%
 
 # setAssetPermissions{#setassetpermissions}
 
-Establece los permisos de un recurso individual mediante un recurso de permiso.
+Establece los permisos de un solo recurso mediante un recurso de permiso.
 
-Los recursos heredan los permisos de su carpeta principal de forma predeterminada. Una vez configurados los permisos en un recurso, este ya no hereda los permisos de su elemento principal a menos que llame a `removeAssetPermissions`.
+Los recursos heredan los permisos de su carpeta principal de forma predeterminada. Una vez configurados los permisos en un recurso, ya no hereda los permisos de su elemento principal a menos que llame a `removeAssetPermissions`.
 
 ## Tipos de usuarios autorizados {#section-91fafc170c734ed2a77beafda9221768}
 
@@ -26,21 +26,21 @@ Los recursos heredan los permisos de su carpeta principal de forma predeterminad
 
 ## Parámetros {#section-e05abbce6453450fb38747101cb5e228}
 
-**Entrada (setAssetPermissonsParam)**
+**Entrada (setAssetPermissionsParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | El identificador de la empresa que contiene la carpeta con la que desea trabajar. |
-| assetHandle | `xsd:string` | Sí | Identificador de carpeta. |
+| companyHandle | `xsd:string` | Sí | El identificador de la compañía que contiene la carpeta con la que desea trabajar. |
+| assetHandle | `xsd:string` | Sí | Controlador de carpeta. |
 | permissionArray | `types:PermissionsUpdateArray` | Sí | Matriz de permisos. |
 
-**Salida (setAssetPermissonsReturn)**
+**Salida (setAssetPermisosReturn)**
 
-La API IPS no devuelve una respuesta para esta operación.
+La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-38955bc330bb4909b6b06027ef2b143e}
 
-Este ejemplo de código establece permisos en un recurso. Contiene el identificador de empresa y recurso, así como una matriz de permisos.
+Este ejemplo de código establece permisos en un recurso. Contiene el identificador de la empresa y el recurso, así como una matriz de permisos.
 
 **Solicitar**
 

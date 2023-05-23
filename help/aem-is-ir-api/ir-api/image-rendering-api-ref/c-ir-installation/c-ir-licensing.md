@@ -1,6 +1,6 @@
 ---
 title: Licencias
-description: Se requiere una clave de licencia de Dynamic Media Image Rendering y debe estar instalada en cada sistema en el que esté instalado Image Rendering.
+description: Se requiere una clave de licencia de procesamiento de imágenes de Dynamic Media que debe instalarse en todos los sistemas en los que esté instalado este tipo de procesamiento.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # Licencias{#licensing}
 
-Se requiere una clave de licencia de Dynamic Media Image Rendering y debe estar instalada en cada sistema en el que esté instalado Image Rendering.
+Se requiere una clave de licencia de procesamiento de imágenes de Dynamic Media que debe instalarse en todos los sistemas en los que esté instalado este tipo de procesamiento.
 
-La renderización de imágenes no se ejecuta sin una licencia válida. El procedimiento de instalación incluye pasos para obtener e instalar la clave de licencia.
+El procesamiento de imágenes no se ejecuta sin una licencia válida. El procedimiento de instalación incluye pasos para obtener e instalar la clave de licencia.

@@ -1,6 +1,6 @@
 ---
 title: Vista de zoom flotante
-description: La vista principal consiste en la imagen estática y la imagen ampliada mostrada en la vista flotante sobre la imagen estática. También consiste en el mensaje de sugerencia que se muestra sobre la imagen estática.
+description: La vista principal consta de la imagen estática y la imagen ampliada que se muestra en la vista flotante encima de la imagen estática. También consiste en el mensaje de sugerencia que se muestra sobre la imagen estática.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: 7b4b5cc9-68ad-4e7a-a2d9-3bbced929145
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
 source-wordcount: '264'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
 # Vista de zoom flotante{#flyout-zoom-view}
 
-La vista principal consiste en la imagen estática y la imagen ampliada mostrada en la vista flotante sobre la imagen estática. También consiste en el mensaje de sugerencia que se muestra sobre la imagen estática.
+La vista principal consta de la imagen estática y la imagen ampliada que se muestra en la vista flotante encima de la imagen estática. También consiste en el mensaje de sugerencia que se muestra sobre la imagen estática.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -29,7 +29,7 @@ El aspecto de la vista principal se controla con el siguiente selector de clase 
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS, propiedad </p> </th> 
+   <th colname="col1" class="entry"> <p> Propiedad CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Descripción </p> </th> 
   </tr> 
  </thead>
@@ -41,7 +41,7 @@ El aspecto de la vista principal se controla con el siguiente selector de clase 
  </tbody> 
 </table>
 
-Ejemplo: para que la vista principal sea transparente:
+Ejemplo: para hacer transparente la vista principal:
 
 ```
 .s7flyoutviewer .s7flyoutzoomview { 
@@ -57,12 +57,12 @@ El aspecto del mensaje de sugerencia se controla con el siguiente selector de cl
 .s7flyoutviewer .s7flyoutzoomview .s7tip
 ```
 
-Es posible configurar el estilo, el tamaño, la apariencia y el desplazamiento vertical de la fuente mediante CSS. Sin embargo, la alineación horizontal la gestiona la lógica del visor. Sobrescribir mediante CSS usando `left` o `right` no se admiten propiedades de .
+Es posible configurar el estilo, el tamaño, el aspecto y el desplazamiento vertical de la fuente mediante CSS. Sin embargo, la alineación horizontal la administra la lógica del visor. Anularlo mediante CSS mediante `left` o `right` no se admite esta propiedad.
 
 <table id="table_DCF6B69A9D8C4DB7A10C4572F7484799"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS, propiedad </p> </th> 
+   <th colname="col1" class="entry"> <p> Propiedad CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Descripción </p> </th> 
   </tr> 
  </thead>
@@ -73,7 +73,7 @@ Es posible configurar el estilo, el tamaño, la apariencia y el desplazamiento v
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>Color de texto. </p> </td> 
+   <td colname="col2"> <p>Color del texto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
@@ -97,7 +97,7 @@ Es posible configurar el estilo, el tamaño, la apariencia y el desplazamiento v
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> opacidad </span> </p> </td> 
-   <td colname="col2"> <p>La opacidad del fondo del texto del mensaje. </p> <p>Para Internet Explorer 8, utilice <span class="codeph"> filtro:alfa(opacity-...) </span> </p> </td> 
+   <td colname="col2"> <p>Opacidad de fondo del texto del mensaje. </p> <p>Para Internet Explorer 8, utilice <span class="codeph"> filtro:alfa(opacidad-...) ) </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -106,7 +106,7 @@ El mensaje de sugerencia se puede localizar. Consulte [Localización de los elem
 
 .
 
-Ejemplo: para configurar un mensaje de punta semitransparente con una fuente Arial® de 12 píxeles y blanco, 50 píxeles de desplazamiento desde la parte inferior de la vista principal, el relleno y un borde redondeado:
+Ejemplo: para configurar un mensaje de sugerencia semitransparente con una fuente Arial® blanca de 12 píxeles, un desplazamiento de 50 píxeles desde la parte inferior de la vista principal, relleno y borde redondeado:
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7tip { 

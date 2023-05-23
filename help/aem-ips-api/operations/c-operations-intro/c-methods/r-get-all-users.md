@@ -43,7 +43,7 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> includeInvalid</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4">Configúrelo en: 
+   <td colname="col4">Configure como: 
     <ul id="ul_FB9F59A8293B4CCA98E42EBF8412C77B"> 
      <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> true</span> para incluir usuarios no válidos. </li> 
      <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> false</span> para omitir usuarios no válidos. </li> 
@@ -61,7 +61,7 @@ Sintaxis
 
 ## Ejemplos {#section-9c9a2d335513478da20652c1b1443731}
 
-Este ejemplo de código devuelve todos los usuarios. La respuesta se trunca para su brevedad.
+Este ejemplo de código devuelve todos los usuarios. La respuesta se trunca por su brevedad.
 
 **Solicitar**
 

@@ -8,7 +8,7 @@ exl-id: b156d3f4-c4d3-45fe-b3d3-b7ed38f6eb4d
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '83'
-ht-degree: 7%
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> basado en IP</span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica (en kilobits por segundo o kbps) la velocidad de bits de vídeo deseada para reproducirse desde un conjunto de vídeo adaptable en caso de que el sistema actual no admita la reproducción de vídeo adaptable. </p> <p>El componente recoge el flujo de vídeo con la velocidad de bits más cercana posible (pero sin exceder) al valor especificado. Si todos los flujos de vídeo del conjunto de vídeos adaptables tienen una calidad superior a la especificada, la lógica elige la velocidad de bits con la calidad más baja. </p> </td> 
+   <td colname="col2"> <p> Especifica la velocidad de bits de vídeo deseada para la reproducción de un conjunto de vídeos adaptables (en kilobits por segundo o kbps) en caso de que el sistema operativo no admita la reproducción de vídeo adaptable. </p> <p>El componente detectará el flujo de vídeo con la velocidad más cercana posible al valor especificado (pero sin sobrepasarla). Si todos los flujos de vídeo del conjunto de vídeos adaptables tienen una calidad mayor que el valor especificado, la lógica elige la velocidad de bits con la calidad más baja. </p> </td> 
   </tr> 
  </tbody> 
 </table>

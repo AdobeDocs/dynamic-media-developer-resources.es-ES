@@ -1,5 +1,5 @@
 ---
-description: Establece la pertenencia a un grupo para un usuario.
+description: Establece la pertenencia a grupos de un usuario.
 solution: Experience Manager
 title: setGroupMembership
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 13%
 
 # setGroupMembership{#setgroupmembership}
 
-Establece la pertenencia a un grupo para un usuario.
+Establece la pertenencia a grupos de un usuario.
 
 Sintaxis
 
@@ -30,17 +30,17 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| userHandle | `xsd:string` | No | El identificador del usuario cuya pertenencia a grupo desea establecer. |
-| companyHandle | `xsd:string` | No | Identificador de la empresa. |
-| groupHandleArray | `types:HandleArray` | Sí | Matriz de controles a grupos a los que pertenece el usuario. |
+| userHandle | `xsd:string` | No | El identificador del usuario cuya pertenencia al grupo desea establecer. |
+| companyHandle | `xsd:string` | No | Manejo de la compañía. |
+| groupHandleArray | `types:HandleArray` | Sí | Matriz de identificadores de grupos a los que pertenece el usuario. |
 
 **Salida (setGroupMembershipReturn)**
 
-La API IPS no devuelve una respuesta para esta operación.
+La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-67b86d259df24938896fe19061845811}
 
-Este ejemplo de código convierte al usuario en miembro de un grupo. Agregue un usuario a varios grupos con la matriz de gestión de grupo.
+Este ejemplo de código convierte al usuario en miembro de un grupo. Agregue un usuario a varios grupos con la matriz de identificadores de grupo.
 
 **Solicitar**
 

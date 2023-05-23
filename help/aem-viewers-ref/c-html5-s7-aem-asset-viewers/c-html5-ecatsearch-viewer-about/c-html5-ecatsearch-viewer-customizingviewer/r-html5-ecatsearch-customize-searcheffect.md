@@ -1,6 +1,6 @@
 ---
-title: Efecto de búsqueda
-description: El visor muestra las regiones de los resultados de búsqueda en la vista principal para resaltar las palabras o frases que se encuentran en el catálogo.
+title: Efecto Buscar
+description: El visor muestra las regiones de resultados de búsqueda en la vista principal para resaltar las palabras o frases encontradas en el catálogo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
@@ -12,13 +12,13 @@ ht-degree: 1%
 
 ---
 
-# Efecto de búsqueda{#search-effect}
+# Efecto Buscar{#search-effect}
 
-El visor muestra las regiones de los resultados de búsqueda en la vista principal para resaltar las palabras o frases que se encuentran en el catálogo.
+El visor muestra las regiones de resultados de búsqueda en la vista principal para resaltar las palabras o frases encontradas en el catálogo.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propiedades CSS del área principal del visor**
+**Propiedades CSS del área del visor principal**
 
 El aspecto de las regiones de resultados de búsqueda se controla con el siguiente selector de clase CSS:
 
@@ -27,19 +27,19 @@ El aspecto de las regiones de resultados de búsqueda se controla con el siguien
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS, propiedad </p> </th> 
+   <th colname="col1" class="entry"> <p> Propiedad CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Descripción </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> fondo </span> </p> </td> 
-   <td colname="col2"> <p>Fondo de la región de resultados de la búsqueda. </p> </td> 
+   <td colname="col2"> <p>Fondo de la región de resultados de búsqueda. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ejemplo: para configurar regiones de resultados de búsqueda con un relleno amarillo semitransparente:
+Ejemplo: para configurar regiones de resultados de búsqueda con un relleno amarillo y semitransparente:
 
 ```
 .s7ecatalogsearchviewer .s7searcheffect .s7region { 

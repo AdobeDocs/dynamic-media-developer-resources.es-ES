@@ -1,7 +1,7 @@
 ---
-description: CompanyMembership
+description: Pertenencia a empresa
 solution: Experience Manager
-title: CompanyMembership
+title: Pertenencia a empresa
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 10a1cd09-5cd8-48e6-93cf-da8d04d9941a
@@ -22,4 +22,4 @@ Sintaxis
 |---|---|---|
 | [!DNL company] | `types:Company` |  |
 | [!DNL role] | `xsd:string` |  |
-| isActive | `xsd:boolean` | Establece el estado del usuario para cada empresa a la que pertenece. |
+| isActive | `xsd:boolean` | Establece el estado del usuario para cada compañía a la que pertenece. |

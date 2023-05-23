@@ -37,16 +37,16 @@ Esta es la versión por lotes de [setAssetState](../../../operations/c-operation
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | Identificador de la empresa. |
+| companyHandle | `xsd:string` | Sí | Manejo de la compañía. |
 | publishStateUpdateArray | `types:PublishStateUpdateArray` | Sí | Matriz de valores de estado de publicación para los recursos. |
 
 **Salida (setAssetsPublishStateParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| successCount | `xsd:int` | Sí | Número de recursos actualizados correctamente. |
-| warningCount | `xsd:int` | Sí | Número de recursos que generaron una advertencia cuando la operación intentó actualizarlos. |
-| errorCount | `xsd:int` | Sí | Número de recursos que generaron un error cuando la operación intentó eliminarlos. |
+| successCount | `xsd:int` | Sí | El número de recursos actualizados correctamente. |
+| warningCount | `xsd:int` | Sí | El número de recursos que generaron una advertencia cuando la operación intentó actualizarlos. |
+| errorCount | `xsd:int` | Sí | El número de recursos que generaron un error cuando la operación intentó eliminarlos. |
 | warningDetailArray | `types:AssetOperationFaultArray` | No | Detalles asociados con las actualizaciones de recursos que generaron una advertencia. |
 | errorDetailArray | `types:AssetOperationFaultArray` | No | Detalles asociados con las actualizaciones de recursos que generaron un error. |
 

@@ -1,5 +1,5 @@
 ---
-description: Matriz de direcciones URL para cargar recursos.
+description: Una matriz de direcciones URL para cargar recursos.
 solution: Experience Manager
 title: UploadUrlArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 21%
 
 # [!DNL UploadUrlArray]{#uploadurlarray}
 
-Matriz de direcciones URL para cargar recursos.
+Una matriz de direcciones URL para cargar recursos.
 
 Sintaxis
 
@@ -22,4 +22,4 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| elementos | `types:UploadUrl` | Matriz de direcciones URL para cargar recursos. |
+| elementos | `types:UploadUrl` | Una matriz de direcciones URL para cargar recursos. |

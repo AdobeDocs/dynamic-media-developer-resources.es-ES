@@ -1,6 +1,6 @@
 ---
 title: FavoritesView.iscommand
-description: La cadena de comando del Servidor de imágenes que se aplica a todas las miniaturas.
+description: La cadena de comando del servicio de imágenes que se aplica a todas las miniaturas.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: 1b6198f4-367d-437a-b8b1-206519567af0
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '59'
-ht-degree: 8%
+ht-degree: 6%
 
 ---
 
 # FavoritesView.iscommand{#favoritesview-iscommand}
 
-La cadena de comando del Servidor de imágenes que se aplica a todas las miniaturas.
+La cadena de comando del servicio de imágenes que se aplica a todas las miniaturas.
 
 ` [FavoritesView.|<containerId>_favoritesView.]iscommand= *`isCommand`*`
 
@@ -22,7 +22,7 @@ La cadena de comando del Servidor de imágenes que se aplica a todas las miniatu
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> isCommand</span></span> </p> </td> 
-   <td colname="col2"> <p> Si se especifica en la dirección URL, todas las ocurrencias de <span class="codeph"> &amp;</span> y <span class="codeph"> =</span> debe tener codificación HTTP como <span class="codeph"> %26</span> y <span class="codeph"> %3D</span>, respectivamente. </p> </td> 
+   <td colname="col2"> <p> Si se especifica en la dirección URL, todas las apariciones de <span class="codeph"> &amp;</span> y <span class="codeph"> =</span> debe tener la codificación HTTP como <span class="codeph"> %26</span> y <span class="codeph"> %3D</span>, respectivamente. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -37,10 +37,10 @@ Ninguno.
 
 ## Ejemplo {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
 
-Cuando se especifique en la dirección URL del visor.
+Cuando se especifica en la dirección URL del visor.
 
 `iscommand=op_sharpen%3d1%26op_colorize%3d0xff0000`
 
-Cuando se especifique en los datos de configuración.
+Cuando se especifica en los datos de configuración.
 
 `iscommand=op_sharpen=1&op_colorize=0xff0000`

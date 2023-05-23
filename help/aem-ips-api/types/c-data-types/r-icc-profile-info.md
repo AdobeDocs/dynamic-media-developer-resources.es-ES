@@ -24,4 +24,4 @@ Sintaxis
 |---|---|---|
 | originalPath | `xsd:string` | Ruta de perfil ICC. |
 | originalFile | `xsd:string` | Nombre del perfil ICC original. |
-| fileSize | `xsd:int` | Tamaño del perfil ICC. |
+| fileSize | `xsd:int` | Tamaño de perfil ICC. |

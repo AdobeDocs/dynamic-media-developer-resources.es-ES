@@ -1,6 +1,6 @@
 ---
-title: Referencia de la API de JavaScript para el visualizador de giros
-description: La clase principal del visualizador de giros es SpinViewer. Se declara en el espacio de nombres s7viewers. Esta API de JavaScript cubre el constructor, los métodos y las llamadas de retorno de esta clase en particular.
+title: Referencia de la API de JavaScript para el visor de giros
+description: La clase principal del Visor de giros es SpinViewer. Se declara en el área de nombres de s7viewers. Esta API de JavaScript cubre el constructor, los métodos y las llamadas de retorno de esta clase en particular.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# Referencia de la API de JavaScript para el visualizador de giros{#javascript-api-reference-for-spin-viewer}
+# Referencia de la API de JavaScript para el visor de giros{#javascript-api-reference-for-spin-viewer}
 
-La clase principal del visualizador de giros es SpinViewer. Se declara en el espacio de nombres s7viewers. Esta API de JavaScript cubre el constructor, los métodos y las llamadas de retorno de esta clase en particular.
+La clase principal del Visor de giros es SpinViewer. Se declara en el área de nombres de s7viewers. Esta API de JavaScript cubre el constructor, los métodos y las llamadas de retorno de esta clase en particular.
 
-En todos los ejemplos siguientes, `<instance>` es el nombre real del objeto de visualizador de JavaScript del que se crea una instancia desde el `s7viewers.SpinViewer` Clase .
+En todos los ejemplos siguientes, `<instance>` significa el nombre real del objeto de visor de JavaScript del que se crean instancias a partir de `s7viewers.SpinViewer` clase.

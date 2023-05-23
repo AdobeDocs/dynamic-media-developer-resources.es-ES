@@ -1,7 +1,7 @@
 ---
-description: Recupera un paquete de metadatos XMP para el recurso especificado.
+description: XMP Recupera un paquete de metadatos de la para el recurso especificado.
 solution: Experience Manager
-title: getXMPPackets
+title: getXMPPacket
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 76e595bd-e598-40e8-aba3-b270fcf4d800
@@ -12,9 +12,9 @@ ht-degree: 23%
 
 ---
 
-# getXMPPackets{#getxmppacket}
+# getXMPPacket{#getxmppacket}
 
-Recupera un paquete de metadatos XMP para el recurso especificado.
+XMP Recupera un paquete de metadatos de la para el recurso especificado.
 
 Sintaxis
 
@@ -30,18 +30,18 @@ Sintaxis
 
 ## Parámetros {#section-b4075df0e4414b00b961d978d5471db9}
 
-**Entrada (getXMPPacketsParam**
+**Entrada (getXMPPacketParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | El control de la empresa con el paquete que desea devolver (por ejemplo, `c|656`). |
-| assetHandle | `xsd:string` | Sí | Recurso para el que se debe recuperar el paquete de XMP. |
+| companyHandle | `xsd:string` | Sí | El identificador de la empresa con el paquete que desea devolver (por ejemplo, `c|656`). |
+| assetHandle | `xsd:string` | Sí | XMP El recurso para el que se debe recuperar el paquete de. |
 
-**Salida (getXMPPacketsReturn)**
+**Salida (getXMPPacketReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| zipPacket | `xsd:Base 64 binary` | Sí | [!DNL zlib-compressed] XMP paquete. |
+| compressedPacket | `xsd:Base 64 binary` | Sí | [!DNL zlib-compressed] XMP paquete de. |
 
 ## Ejemplos {#section-d681af49122e4ca9bcd04110a2e98e6f}
 

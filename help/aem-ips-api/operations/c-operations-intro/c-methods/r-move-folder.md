@@ -1,5 +1,5 @@
 ---
-description: Mover una carpeta a una nueva ubicación.
+description: Mueva una carpeta a una nueva ubicación.
 solution: Experience Manager
 title: moveFolder
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # moveFolder{#movefolder}
 
-Mover una carpeta a una nueva ubicación.
+Mueva una carpeta a una nueva ubicación.
 
 Sintaxis
 
@@ -33,15 +33,15 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | Gestionar a la empresa. |
-| folderHandle | `xsd:string` | Sí | Identificador de carpeta. |
-| destFolderHandle | `xsd:string` | Sí | Gestionar en la carpeta de destino. |
+| companyHandle | `xsd:string` | Sí | Gestionar en la empresa. |
+| folderHandle | `xsd:string` | Sí | Controlador de carpeta. |
+| destFolderHandle | `xsd:string` | Sí | Administrar en la carpeta de destino. |
 
 **Salida (moveFolderReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| folderHandle | `xsd:string` | Sí | Gestionar en la carpeta movida. |
+| folderHandle | `xsd:string` | Sí | Gestionar en la carpeta desplazada. |
 
 ## Ejemplos {#section-6571c6ab89ce4cb9a139abdb29c6b279}
 

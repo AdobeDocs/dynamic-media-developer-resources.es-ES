@@ -1,27 +1,28 @@
 ---
 title: EmailShare.emailurl
-description: Atributo de configuración para el visor de vídeo de recorte inteligente.
+description: Atributo de configuración para el visor de recorte inteligente de vídeos.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: dfd80e5727a128f272855f1f28e1bc89cb2436bf
+exl-id: 1d6e7be8-19c0-474d-b8ea-c4cbb8d8a45b
+source-git-commit: 8c49595fe0efb684b59601fb268bd8bf97fae555
 workflow-type: tm+mt
 source-wordcount: '33'
-ht-degree: 12%
+ht-degree: 9%
 
 ---
 
 # EmailShare.emailurl{#emailshare-emailurl}
 
-Atributo de configuración para el visor de vídeo de recorte inteligente.
+Atributo de configuración para el visor de recorte inteligente de vídeos.
 
-` [EmailShare.|<containerId>_emailShare.]emailurl= *`email`*`
+` [EmailShare.|<containerId>_emailShare.]emailurl= *`emailurl`*`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> email</span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica la URL base para el servicio de correo electrónico de Dynamic Media Classic OnDemand. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> emailurl</span></span> </p> </td> 
+   <td colname="col2"> <p> Especifica la dirección URL base del servicio de correo electrónico de Dynamic Media Classic OnDemand. </p> </td> 
   </tr> 
  </tbody> 
 </table>

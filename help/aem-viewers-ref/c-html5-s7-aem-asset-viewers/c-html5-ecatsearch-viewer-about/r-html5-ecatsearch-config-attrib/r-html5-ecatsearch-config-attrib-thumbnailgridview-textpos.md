@@ -2,13 +2,13 @@
 description: ThumbnailGridView.textpos
 solution: Experience Manager
 title: ThumbnailGridView.textpos
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: a79aa5c7-5691-4695-ac6d-d461ce0b1206
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 5%
+source-wordcount: '63'
+ht-degree: 4%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td> <p> Especifica dónde se dibuja la etiqueta en relación con la imagen en miniatura. Es decir, la etiqueta se centra en la ubicación especificada en relación con la miniatura. </p> <p>Cuando se especifica <span class="codeph"> tooltip</span> , el texto de la etiqueta se muestra como información de objeto flotante sobre la imagen en miniatura. Configúrelo en <span class="codeph"> ninguno</span> para desactivar la etiqueta. </p> </td> 
+   <td> <p> Especifica la posición de la etiqueta en relación con la imagen en miniatura. Es decir, la etiqueta se centra en la ubicación especificada en relación con la miniatura. </p> <p>Cuándo <span class="codeph"> información sobre herramientas</span> se especifica, el texto de la etiqueta se muestra como información de objeto flotante sobre la imagen en miniatura. Configure como. <span class="codeph"> ninguno</span> para desactivar la etiqueta. </p> </td> 
   </tr> 
  </tbody> 
 </table>

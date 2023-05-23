@@ -16,30 +16,30 @@ ht-degree: 1%
 
 Configuración general del servidor
 
-## TC::PsPort - Puerto principal de escucha {#section-d31d3051aa994a76b60b70c3d9f7e89f}
+## TC::PsPort: puerto de escucha principal {#section-d31d3051aa994a76b60b70c3d9f7e89f}
 
-Especifica el puerto de escucha principal para el [!DNL Platform Server]. Este puerto también se utiliza para acceder a la documentación y a las páginas de ejemplo de Image Serving, Image Rendering y Dynamic Media Viewers (si están instalados).
+Especifica el puerto de escucha principal para [!DNL Platform Server]. Este puerto también se utiliza para acceder a la documentación y a las páginas de ejemplo del servicio de imágenes, el procesamiento de imágenes y los visores de Dynamic Media (si están instalados).
 
-## IS::CacheServerUrl - Url Raíz Del Servicio De Almacenamiento En Caché {#section-bcca227a1f91453b834db4ea050968e2}
+## IS::CacheServerUrl: URL raíz del servicio de almacenamiento en caché {#section-bcca227a1f91453b834db4ea050968e2}
 
-Especifica la ruta raíz HTTP para permitir el acceso del servidor de imágenes al servicio de almacenamiento en caché. Debe estar configurado como [!DNL http://localhost:TC::PsPort /is/cache/secondary], con el número de puerto coincidente `TC::PsPort`.
+Especifica la ruta raíz HTTP para permitir que el servidor de imágenes acceda al servicio de almacenamiento en caché. Debe configurarse como [!DNL http://localhost:TC::PsPort /is/cache/secondary], con el número de puerto coincidente `TC::PsPort`.
 
-## IS::RemoteUrlDefaultExpiration - TTL predeterminado de Image Source remoto {#section-e4c31228b459492cacd2f482d9575f71}
+## IS::RemoteUrlDefaultExpiration: TTL predeterminado de Image Source remoto {#section-e4c31228b459492cacd2f482d9575f71}
 
-El TTL para imágenes en caché obtenidas mediante HTTP desde un origen remoto mediante la función `src={…}` construir. Solo se utiliza cuando el servidor remoto no incluye un encabezado Caducidad en su respuesta HTTP. Valor entero en segundos.
+El TTL para imágenes en caché obtenidas a través de HTTP desde una fuente remota utilizando `src={…}` construir. Solo se utiliza cuando el servidor remoto no incluye un encabezado Caducidad en su respuesta HTTP. Valor entero en segundos.
 
-## IS::RemoteUrlTimeout - Tiempo de espera de Image Source remoto {#section-437646c479cc4bea81dae42100a3c50a}
+## IS::RemoteUrlTimeout: tiempo de espera de Image Source remoto {#section-437646c479cc4bea81dae42100a3c50a}
 
-El tiempo que el servidor de imágenes esperará para que un servidor remoto entregue el archivo de imagen solicitado mediante HTTP antes de devolver un error. Valor entero en segundos.
+El tiempo que el servidor de imágenes esperará a que un servidor remoto envíe el archivo de imagen solicitado a través de HTTP antes de devolver un error. Valor entero en segundos.
 
-## PS::allowDefaultCatalogRequests - Habilitar/deshabilitar solicitudes de catálogo predeterminadas {#section-484e442a115a49b4ac269d1718b351e1}
+## PS::allowDefaultCatalogRequests: habilitar/deshabilitar solicitudes de catálogo predeterminadas {#section-484e442a115a49b4ac269d1718b351e1}
 
-Configúrelo en falso para no permitir solicitudes que no incluyan un id de catálogo válido en la ruta. El valor predeterminado es `true`. Cuando se configura como `false`, se devuelve un error para las solicitudes sin un id de catálogo.
+Establezca el valor en False para no permitir solicitudes que no incluyan un ID de catálogo válido en la ruta. El valor predeterminado es `true`. Cuando se establece en `false`, se devuelve un error para las solicitudes sin un id de catálogo.
 
 >[!NOTE]
 >
 >`req=catalogprops` no está sujeto a esta configuración.
 
-## PS::saveToFile.saveTimeout: tiempo de espera de almacenamiento del archivo {#section-d22afd8ad86144b28684ed95a59db40e}
+## PS::saveToFile.saveTimeout: tiempo de espera para guardar archivos {#section-d22afd8ad86144b28684ed95a59db40e}
 
-Valor de tiempo de espera predeterminado para `req=saveToFile` when `timeout=`no se ha especificado. `msec`. Se devuelve un error si la operación de guardado no se completa en el plazo especificado.
+Valor de tiempo de espera predeterminado para `req=saveToFile` cuando `timeout=`no especificado. `msec`. Se devuelve un error si la operación de guardado no se completa en el período de tiempo especificado.

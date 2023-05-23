@@ -20,6 +20,6 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| companyHandle | `xsd:string` | Gestionar a la empresa. |
-| función | `xsd:string` | La función que un usuario tiene para cada empresa a la que pertenece. |
-| isActive | `xsd:boolean` | Establece el estado del usuario para cada empresa a la que pertenece. |
+| companyHandle | `xsd:string` | Gestionar en la empresa. |
+| función | `xsd:string` | La función que un usuario tiene para cada compañía a la que pertenece. |
+| isActive | `xsd:boolean` | Establece el estado del usuario para cada compañía a la que pertenece. |

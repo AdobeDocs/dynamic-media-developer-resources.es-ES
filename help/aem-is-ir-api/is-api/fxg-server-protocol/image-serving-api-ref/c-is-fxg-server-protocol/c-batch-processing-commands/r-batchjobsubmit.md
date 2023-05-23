@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 4ab2f6e4-cd68-4f1e-ab54-6f5e9bfc87cb
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '43'
+source-wordcount: '38'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ Este parámetro:
 
 <table id="simpletable_11A94D630A21426F9A1CEF5EB3B9E789"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> jobdata  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> datos de trabajo </span> </p> </td> 
   <td class="stentry"> <p>Fragmento XML de datos de trabajo completos. </p> </td> 
  </tr> 
 </table>
@@ -30,7 +30,7 @@ Devuelve:
 <table id="simpletable_7C82E4A8520440F5A5ABBC1BCB286AB2"> 
  <tr class="strow"> 
   <td class="stentry"> <p>Estado del trabajo </p> </td> 
-  <td class="stentry"> <p>Si el envío se ha realizado correctamente o no; si se realiza correctamente, ID de trabajo en formato XML. </p> </td> 
+  <td class="stentry"> <p>Si el envío se realizó correctamente o no; si se realizó correctamente, ID de trabajo en formato XML. </p> </td> 
  </tr> 
 </table>
 

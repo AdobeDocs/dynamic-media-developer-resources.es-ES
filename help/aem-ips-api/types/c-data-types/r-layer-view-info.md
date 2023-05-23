@@ -1,5 +1,5 @@
 ---
-description: Propiedades de la vista de capas.
+description: Propiedades de vista de capa.
 solution: Experience Manager
 title: LayerViewInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 13%
 
 # [!DNL LayerViewInfo]{#layerviewinfo}
 
-Propiedades de la vista de capas.
+Propiedades de vista de capa.
 
 Sintaxis
 
@@ -23,5 +23,5 @@ Sintaxis
 | Nombre | Tipo | Descripción |
 |---|---|---|
 | url | `xsd:string` | URL del servidor de imágenes que representa la plantilla. Combinaciones `urlModifier` y `urlPostAp- plyModifier` campos. |
-| urlModifier | `xsd:string` | Comandos de protocolo de servicio de imágenes que se deben aplicar antes de la solicitud o `urlPostApplyModifier` comandos. |
-| urlPostApplyModifier | `xsd:string` | Comandos de protocolo de servicio de imágenes que se aplican después de `urlModifier` y los comandos de solicitud. |
+| urlModifier | `xsd:string` | Comandos de protocolo de servicio de imágenes que se aplicarán antes de la solicitud o `urlPostApplyModifier` comandos. |
+| urlPostApplyModifier | `xsd:string` | Comandos de protocolo de servicio de imágenes para aplicar después de `urlModifier` y solicitar comandos. |

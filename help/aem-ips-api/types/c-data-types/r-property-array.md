@@ -1,5 +1,5 @@
 ---
-description: Matriz de propiedades.
+description: Una matriz de propiedades.
 solution: Experience Manager
 title: PropertyArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 33%
 
 # [!DNL PropertyArray]{#propertyarray}
 
-Matriz de propiedades.
+Una matriz de propiedades.
 
 Sintaxis
 

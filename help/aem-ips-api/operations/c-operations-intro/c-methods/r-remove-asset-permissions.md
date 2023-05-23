@@ -30,12 +30,12 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | El identificador de la empresa. |
+| companyHandle | `xsd:string` | Sí | El identificador de la compañía. |
 | assetHandle | `xsd:string` | Sí | El identificador del recurso con los permisos que desea eliminar. |
 
 **Salida (removeAssetPermissionsReturn)**
 
-La API IPS no devuelve una respuesta para esta operación.
+La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-238fa7bb091548f5ba72ced11fc92d4f}
 

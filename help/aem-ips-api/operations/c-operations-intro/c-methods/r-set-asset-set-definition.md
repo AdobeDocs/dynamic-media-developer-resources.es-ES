@@ -1,5 +1,5 @@
 ---
-description: Actualiza la definición del conjunto de recursos existente.
+description: Actualiza la definición de conjunto para un conjunto de recursos existente.
 solution: Experience Manager
 title: setAssetSetDefinition
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 6%
 
 # setAssetSetDefinition{#setassetsetdefinition}
 
-Actualiza la definición del conjunto de recursos existente.
+Actualiza la definición de conjunto para un conjunto de recursos existente.
 
 Sintaxis
 
@@ -33,38 +33,38 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | El identificador de la empresa con el conjunto de recursos. |
-| assetHandle | `xsd:string` | Sí | Controlador del conjunto de recursos |
+| companyHandle | `xsd:string` | Sí | El identificador de la compañía con el conjunto de recursos. |
+| assetHandle | `xsd:string` | Sí | Controlador de conjunto de recursos |
 | setDefinition | `xsd:string` | Sí | Cadena de definición. Consulte a continuación. |
 
 **Salida (setAssetSetDefinitionReturn)**
 
-La API IPS no devuelve una respuesta para esta operación.
+La API de IPS no devuelve una respuesta para esta operación.
 
-## Parámetro setDefinition: Acerca de {#section-f88e066bf5294b4f8c12d5d652a5c94c}
+## Parámetro setDefinition: Información {#section-f88e066bf5294b4f8c12d5d652a5c94c}
 
 **Funciones setDefinition**
 
-Especifique `setDefinition` funciones de sustitución en línea. Se resuelven durante una búsqueda de catálogo o en una publicación. Las cadenas de sustitución tienen el formato `${<substitution_func>}`e incluya lo siguiente:
+Especificar `setDefinition` funciones de sustitución en línea. Se resuelven durante una búsqueda en el catálogo o en la publicación. Las cadenas de sustitución tienen el formato `${<substitution_func>}`e incluir lo siguiente:
 
 >[!NOTE]
 >
->Los literales de gestión de las listas de parámetros deben estar entre corchetes `([])`. El texto fuera de una cadena de sustitución se copia en la cadena de salida durante la resolución.
+>Los literales de control de las listas de parámetros deben estar entre corchetes `([])`. El texto fuera de una cadena de sustitución se copia en la cadena de salida durante la resolución.
 
 <table id="table_A93D2C273B694C289208AA926B2597CD"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Función de sustitución </th> 
-   <th colname="col2" class="entry"> Devuelve el valor de </th> 
+   <th colname="col2" class="entry"> Devuelve el del recurso </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> getFilePath([ <span class="varname"> asset_handle </span>]) </span> </td> 
-   <td colname="col2"> Ruta de acceso del archivo principal. </td> 
+   <td colname="col2"> Ruta del archivo principal. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getCatalogd([ <span class="varname"> asset_handle </span>]) </span> </td> 
+   <td colname="col1"> <span class="codeph"> getCatalog([ <span class="varname"> asset_handle </span>]) </span> </td> 
    <td colname="col2"> ID de catálogo. </td> 
   </tr> 
   <tr> 
@@ -73,14 +73,14 @@ Especifique `setDefinition` funciones de sustitución en línea. Se resuelven du
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> getThumbCatalogId([ <span class="varname"> asset_handle </span>]) </span> </td> 
-   <td colname="col2"> ID de catálogo. Se aplica a los recursos basados en imágenes (imagen, vista ajustada, vista de capa). <p>Para otros recursos, devuelve el ID de catálogo del recurso en miniatura (si lo hay). Si no hay ningún recurso en miniatura asociado al recurso, la función devuelve una cadena vacía. </p> </td> 
+   <td colname="col2"> ID de catálogo. Se aplica a los recursos basados en imágenes (imagen, vista ajustada, vista de capa). <p>Para otros recursos, devuelve el ID de catálogo del recurso de la miniatura (si lo hay). Si no hay ningún recurso de miniatura asociado al recurso, la función devuelve una cadena vacía. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Ejemplos de setDefinition**
 
-Esta cadena de definición de conjunto de medios:
+Esta cadena de definición del conjunto de medios:
 
 ```java
 ${getCatalogId([a|1664|22|1664])};${getCatalogId([a|1664|22|1664])}; 

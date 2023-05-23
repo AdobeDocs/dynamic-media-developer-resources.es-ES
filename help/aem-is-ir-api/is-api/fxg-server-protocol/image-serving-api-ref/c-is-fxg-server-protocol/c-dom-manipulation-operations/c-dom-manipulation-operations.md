@@ -1,20 +1,20 @@
 ---
-description: Se admiten varias operaciones de manipulación DOM.
+description: Se admiten varias operaciones de manipulación de DOM.
 solution: Experience Manager
-title: Operaciones de manipulación DOM de FXG
+title: Operaciones de manipulación de FXG DOM
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 99325deb-2eb2-4c3b-ba5e-1ed64f36ba23
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '33'
+source-wordcount: '28'
 ht-degree: 0%
 
 ---
 
-# Operaciones de manipulación DOM de FXG{#fxg-dom-manipulation-operations}
+# Operaciones de manipulación de FXG DOM{#fxg-dom-manipulation-operations}
 
-Se admiten varias operaciones de manipulación DOM.
+Se admiten varias operaciones de manipulación de DOM.
 
 * [appendElement](r-appendelement.md)
 * [deleteAttr](r-deleteattr.md)

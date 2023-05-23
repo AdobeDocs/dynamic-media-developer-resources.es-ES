@@ -1,5 +1,5 @@
 ---
-description: Matriz de definiciones de mapa de imagen.
+description: Una matriz de definiciones de mapas de imagen.
 solution: Experience Manager
 title: ImageMapDefinitionArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 25%
 
 # [!DNL ImageMapDefinitionArray]{#imagemapdefinitionarray}
 
-Matriz de definiciones de mapa de imagen.
+Una matriz de definiciones de mapas de imagen.
 
 Sintaxis
 
@@ -22,4 +22,4 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| elementos | `types:ImageMapDefinition` | Matriz de definiciones de mapa de imagen. |
+| elementos | `types:ImageMapDefinition` | Matriz de definiciones de mapas de imagen. |

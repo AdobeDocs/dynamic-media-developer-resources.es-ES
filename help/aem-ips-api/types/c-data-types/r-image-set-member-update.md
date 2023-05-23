@@ -1,5 +1,5 @@
 ---
-description: Dentro de este tipo, el campo pageReset es significativo para los tipos de recursos de imagen RenderSet y Catálogo
+description: Dentro de este tipo, el campo pageReset es significativo para los tipos de recursos de imagen RenderSet y Catalog
 solution: Experience Manager
 title: ImageSetMemberUpdate
 feature: Dynamic Media Classic,SDK/API,Image Sets
@@ -14,11 +14,11 @@ ht-degree: 7%
 
 # [!DNL ImageSetMemberUpdate]{#imagesetmemberupdate}
 
-Dentro de este tipo, el campo pageReset es significativo para los tipos de recursos de imagen RenderSet y Catálogo:
+Dentro de este tipo, el campo pageReset es significativo para los tipos de recursos de imagen RenderSet y Catalog:
 
-* Para `RenderSet`, `pageReset` indica el inicio de una nueva vista de renderización/grupo de muestras.
+* Para `RenderSet`, `pageReset` indica el inicio de una nueva vista de procesamiento/grupo de muestras.
 
-* Para Catálogo, `pageReset` indica el inicio de una nueva vista de página. Normalmente, hay 2 imágenes de página por vista de página, pero puede tener más o menos.
+* Para el catálogo, `pageReset` indica el inicio de una nueva vista de página. Normalmente, hay dos imágenes de página por vista de página, pero puede tener más o menos.
 
 ## Parámetros {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -34,12 +34,12 @@ Dentro de este tipo, el campo pageReset es significativo para los tipos de recur
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Controlador de recurso en la matriz de miembros del conjunto de imágenes. </td> 
+   <td colname="col3"> Controlador de recursos en la matriz de miembros del conjunto de imágenes. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> pageReset</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">Restaura la página. <p>Se ignora la configuración y se fuerza el valor en true para <span class="codeph"> Conjunto de imágenes</span> y <span class="codeph"> Conjunto de giros</span>. </p></td> 
+   <td colname="col3">Restablece la página. <p>La configuración se ignora y el valor se fuerza en true para <span class="codeph"> ImageSet</span> y <span class="codeph"> SpinSet</span>. </p></td> 
   </tr> 
  </tbody> 
 </table>

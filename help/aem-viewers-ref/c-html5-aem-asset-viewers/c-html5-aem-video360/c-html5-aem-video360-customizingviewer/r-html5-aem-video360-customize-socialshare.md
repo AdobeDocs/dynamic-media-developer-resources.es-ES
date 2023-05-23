@@ -1,6 +1,6 @@
 ---
-title: Uso compartido en medios sociales
-description: La herramienta de uso compartido en redes sociales aparece en la esquina superior derecha de forma predeterminada. Consiste en un botón y un panel que se expanden cuando el usuario hace clic o pulsa un botón y contiene herramientas de uso compartido individuales.
+title: Uso compartido social
+description: La herramienta Compartir en redes sociales aparece en la esquina superior derecha de forma predeterminada. Consiste en un botón y un panel que se expande cuando el usuario hace clic o pulsa un botón y contiene herramientas de uso compartido individuales.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -12,13 +12,13 @@ ht-degree: 1%
 
 ---
 
-# Uso compartido en medios sociales{#social-share}
+# Uso compartido social{#social-share}
 
-La herramienta de uso compartido en redes sociales aparece en la esquina superior derecha de forma predeterminada. Consiste en un botón y un panel que se expanden cuando el usuario hace clic o pulsa un botón y contiene herramientas de uso compartido individuales.
+La herramienta Compartir en redes sociales aparece en la esquina superior derecha de forma predeterminada. Consiste en un botón y un panel que se expande cuando el usuario hace clic o pulsa un botón y contiene herramientas de uso compartido individuales.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-La posición y el tamaño de la herramienta de uso compartido en redes sociales en la interfaz de usuario del visor se controlan con lo siguiente:
+La posición y el tamaño de la herramienta de uso compartido en redes sociales de la interfaz de usuario del visor se controlan de la siguiente manera:
 
 ```
 .s7video360viewer .s7socialshare
@@ -47,7 +47,7 @@ La posición y el tamaño de la herramienta de uso compartido en redes sociales 
  </tbody> 
 </table>
 
-**Ejemplo** : para configurar una herramienta de uso compartido en redes sociales que se posicione a cuatro píxeles de la parte superior y a cinco píxeles de la derecha del contenedor de visor y tenga un tamaño de 28 x 28 píxeles.
+**Ejemplo** - Para configurar una herramienta de uso compartido en redes sociales que esté situada a cuatro píxeles de la parte superior y a cinco píxeles de la derecha del contenedor del visor y que tenga un tamaño de 28 x 28 píxeles.
 
 ```
 .s7interactivevideoviewer .s7socialshare { 
@@ -64,28 +64,28 @@ El aspecto del botón de la herramienta de uso compartido en redes sociales se c
 .s7video360viewer .s7socialshare .s7socialbutton
 ```
 
-**Propiedades CSS del botón de herramienta de uso compartido en redes sociales**
+**Propiedades CSS del botón de la herramienta compartir en redes sociales**
 
 <table id="table_A18B6978EC304C378F5FE92DD44D138D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> Imagen que se muestra para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
-   <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Coloque dentro del icono de ilustración si se utilizan iconos CSS. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Este botón admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes aspectos a distintos estados de botones.
+>Este botón admite el `state` selector de atributos, que se puede utilizar para aplicar distintos aspectos a distintos estados de botón.
 
-La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+La información del objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Ejemplo** : para configurar un botón de herramienta de uso compartido en redes sociales que muestre una imagen diferente para cada uno de los cuatro estados de botón diferentes.
+**Ejemplo** : Para configurar un botón de herramienta de uso compartido en redes sociales que muestre una imagen diferente para cada uno de los cuatro estados de botón diferentes.
 
 ```
 .s7video360viewer .s7socialshare .s7socialbutton[state='up'] { 
@@ -102,7 +102,7 @@ background-image:url(images/v2/SocialShare_dark_disabled.png);
 }
 ```
 
-El aspecto del panel que contiene los iconos individuales de uso compartido en redes sociales se controla con el siguiente selector de clase CSS:
+El aspecto del panel que contiene los iconos individuales de uso compartido en medios sociales se controla con el siguiente selector de clase CSS:
 
 ```
 .s7video360viewer .s7socialshare .s7socialsharepanel
@@ -113,13 +113,13 @@ El aspecto del panel que contiene los iconos individuales de uso compartido en r
 <table id="table_86E777A5851F47D6A49D966E24A9A6CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Color de fondo del panel. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Ejemplo** : Configurar un panel para que tenga un color transparente:
+**Ejemplo** - Para configurar un panel para que tenga un color transparente:
 
 ```
 .s7video360viewer .s7socialshare .s7socialsharepanel { 

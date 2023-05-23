@@ -8,7 +8,7 @@ exl-id: 998988bc-4842-4153-8b6a-af21a80c4e8b
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '25'
-ht-degree: 36%
+ht-degree: 28%
 
 ---
 
@@ -22,6 +22,6 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| originalPath | `xsd:string` | Ruta del archivo. |
+| originalPath | `xsd:string` | Ruta de archivo. |
 | originalFile | `xsd:string` | Nombre del archivo. |
 | fileSize | `xsd:int` | Tamaño de archivo. |

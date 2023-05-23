@@ -1,5 +1,5 @@
 ---
-description: Opciones que se utilizan al recortar automáticamente imágenes en función de la transparencia.
+description: Opciones utilizadas al recortar imágenes automáticamente según la transparencia.
 solution: Experience Manager
 title: AutoTransparentCropOptions
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # [!DNL AutoTransparentCropOptions]{#autotransparentcropoptions}
 
-Opciones que se utilizan al recortar automáticamente imágenes en función de la transparencia.
+Opciones utilizadas al recortar imágenes automáticamente según la transparencia.
 
 Sintaxis
 
@@ -32,10 +32,10 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> tolerancia</span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
-   <td colname="col3">Elimina el espacio en blanco de los bordes de la imagen en función de la transparencia. Usos: 
+   <td colname="col3">Elimina el espacio en blanco de los bordes de la imagen en función de la transparencia. Utiliza: 
     <ul id="ul_FE5423B857AE43FCBA7A9AEA76C754CC">
      <li id="li_01E3BD0AB8DA4C408B47CB02B269404A">0 para que coincida exactamente con los colores. </li>
-     <li id="li_FCE21384265D4ECE9C0D785F1BB32C3A">1 para activar la mayoría de las diferencias de color. </li>
+     <li id="li_FCE21384265D4ECE9C0D785F1BB32C3A">1 para habilitar la mayoría de las diferencias de color. </li>
     </ul></td> 
   </tr> 
  </tbody> 

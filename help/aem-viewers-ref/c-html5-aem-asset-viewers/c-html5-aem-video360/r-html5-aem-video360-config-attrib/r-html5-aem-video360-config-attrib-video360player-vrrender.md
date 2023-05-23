@@ -1,6 +1,6 @@
 ---
 title: Video360Player.vrrender
-description: Atributo de configuración para el visualizador de vídeo360.
+description: Atributo de configuración para el visor de Video360.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: bdc9b086-b9cc-4df0-b044-0ab2b694d01a
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
 source-wordcount: '31'
-ht-degree: 29%
+ht-degree: 25%
 
 ---
 
 # Video360Player.vrrender{#video-player-vrrender}
 
-Atributo de configuración para el visualizador de vídeo360.
+Atributo de configuración para el visor de Video360.
 
 `[Video360Player.|<containerId>_video360Player.]vrrender=0|1`
 
@@ -22,7 +22,7 @@ Atributo de configuración para el visualizador de vídeo360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p>Especifica si el modo de representación de realidad virtual está habilitado. Se ignora en los auriculares VR. </p> </td> 
+   <td colname="col2"> <p>Especifica si el modo de representación de realidad virtual está activado. Se ignora en los auriculares de realidad virtual. </p> </td> 
   </tr> 
  </tbody> 
 </table>

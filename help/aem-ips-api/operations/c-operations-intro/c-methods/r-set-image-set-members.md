@@ -1,22 +1,22 @@
 ---
-description: Define la lista de recursos asociados a un conjunto de imágenes.
+description: Establece la lista de recursos asociados a un conjunto de imágenes.
 solution: Experience Manager
 title: setImageSetMembers
-feature: Dynamic Media Classic,SDK/API,Conjuntos de imágenes
+feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: c30df5fe-e355-45d4-8c06-e396caca0d58
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '124'
 ht-degree: 12%
 
 ---
 
 # setImageSetMembers{#setimagesetmembers}
 
-Define la lista de recursos asociados a un conjunto de imágenes.
+Establece la lista de recursos asociados a un conjunto de imágenes.
 
-Esta operación ignora el parámetro `pageReset` para `ImageSets` y `SpinSets` y fuerza el valor a true.
+Esta operación ignora la variable `pageReset` parámetro para `ImageSets` y `SpinSets` y fuerza el valor en true.
 
 ## Tipos de usuarios autorizados {#section-8968d6a39a344cfc8521020d92ae8916}
 
@@ -29,7 +29,7 @@ Esta operación ignora el parámetro `pageReset` para `ImageSets` y `SpinSets` y
 
 >[!NOTE]
 >
->El usuario debe tener acceso de lectura y escritura al recurso del conjunto de imágenes y acceso de lectura a cada recurso miembro.
+>El usuario debe tener acceso de lectura y escritura al recurso del conjunto de imágenes y acceso de lectura a cada recurso de miembro.
 
 ## Parámetros {#section-2f46efcd24c648aeacba738509426e46}
 
@@ -49,26 +49,26 @@ Esta operación ignora el parámetro `pageReset` para `ImageSets` y `SpinSets` y
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sí </p> </td> 
-   <td colname="col4"> <p>Identificador de la empresa. </p> </td> 
+   <td colname="col4"> <p>Manejo de la compañía. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> Controlador del conjunto de imágenes. </td> 
+   <td colname="col4"> Controlador de conjunto de imágenes. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:ImageSetMemberUpdateArray</span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> Matriz de miembros de recursos que pertenecen al conjunto de imágenes. </td> 
+   <td colname="col4"> Matriz de miembros de recurso que pertenecen al conjunto de imágenes. </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Salida (setImageSetMembersReturn)**
 
-La API IPS no devuelve una respuesta para esta operación.
+La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-7b87219034464aa98524178ccee27738}
 

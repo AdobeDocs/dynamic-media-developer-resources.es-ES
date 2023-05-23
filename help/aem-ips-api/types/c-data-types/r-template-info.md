@@ -1,5 +1,5 @@
 ---
-description: Propiedades de un recurso de plantilla.
+description: Las propiedades de un recurso de plantilla.
 solution: Experience Manager
 title: TemplateInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 13%
 
 # [!DNL TemplateInfo]{#templateinfo}
 
-Propiedades de un recurso de plantilla.
+Las propiedades de un recurso de plantilla.
 
-Las plantillas son definiciones de capa parametrizadas que construyen una imagen en capas.
+Las plantillas son definiciones de capas parametrizadas que construyen una imagen con capas.
 
 ## Parámetros {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 

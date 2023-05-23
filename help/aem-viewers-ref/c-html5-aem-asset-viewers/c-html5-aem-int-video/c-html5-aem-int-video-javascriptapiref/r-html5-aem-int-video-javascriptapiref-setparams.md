@@ -16,11 +16,11 @@ ht-degree: 3%
 
 Referencia de la API de JavaScript para el visualizador de vídeo interactivo.
 
-` setParams( *`params`*)`
+` setParams( *`parámetros`*)`
 
-Establece uno o más parámetros en un valor determinado. La sintaxis del argumento de método es idéntica a una cadena de consulta de URL. Es decir, representa pares nombre=valor separados por `&`. Como en una cadena de consulta, los nombres y valores están codificados por porcentajes utilizando UTF8. Antes de llamar a `init()`, se debe llamar a este parámetro.
+Establece uno o varios parámetros en un valor determinado. La sintaxis del argumento de método es idéntica a una cadena de consulta de dirección URL. Es decir, representa pares nombre=valor separados con `&`. Al igual que en una cadena de consulta, los nombres y valores se codifican con porcentajes mediante UTF8. Antes de llamar a `init()`, este parámetro debe llamarse.
 
-Este método es opcional si la información de configuración del visor se pasó con el objeto JSON `config` al constructor.
+Este método es opcional si la información de configuración del visor se pasó con `config` Objeto JSON al constructor.
 
 Consulte también [init](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
@@ -30,8 +30,8 @@ Consulte también [init](../../../c-html5-aem-asset-viewers/c-html5-aem-int-vide
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> params</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value pares de parámetros separados por  <span class="codeph"> &amp;</span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> parámetros</span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}</span> pares de parámetros nombre=valor separados con <span class="codeph"> &amp;</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

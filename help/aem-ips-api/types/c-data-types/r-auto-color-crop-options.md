@@ -1,5 +1,5 @@
 ---
-description: Opciones para recortar automáticamente imágenes según el color.
+description: Opciones para recortar imágenes automáticamente según el color.
 solution: Experience Manager
 title: AutoColorCropOptions
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 15%
 
 # [!DNL AutoColorCropOptions]{#autocolorcropoptions}
 
-Opciones para recortar automáticamente imágenes según el color.
+Opciones para recortar imágenes automáticamente según el color.
 
 Sintaxis
 
@@ -32,15 +32,15 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> corner</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Elección de esquina de recorte automático. </td> 
+   <td colname="col3"> Opción de Recorte automático de esquina. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> tolerancia</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
-   <td colname="col3">Especificación de coincidencia de color. Usos: 
+   <td colname="col3">Especificación de coincidencia de color. Utiliza: 
     <ul id="ul_FE5423B857AE43FCBA7A9AEA76C754CC">
      <li id="li_01E3BD0AB8DA4C408B47CB02B269404A">0 para que coincida exactamente con los colores. </li>
-     <li id="li_FCE21384265D4ECE9C0D785F1BB32C3A">1 para activar la mayoría de las diferencias de color. </li>
+     <li id="li_FCE21384265D4ECE9C0D785F1BB32C3A">1 para habilitar la mayoría de las diferencias de color. </li>
     </ul></td> 
   </tr> 
  </tbody> 

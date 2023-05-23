@@ -1,6 +1,6 @@
 ---
 title: VideoPlayer.waiticon
-description: Atributo de configuración para el visualizador de vídeo de medios mixtos.
+description: Atributo de configuración para el visualizador de vídeos de medios mixtos.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: 1adc823a-07d6-447f-9560-c737d3963eb9
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '29'
-ht-degree: 17%
+ht-degree: 13%
 
 ---
 
 # VideoPlayer.waiticon{#videoplayer-waiticon}
 
-Atributo de configuración para el visualizador de vídeo de medios mixtos.
+Atributo de configuración para el visualizador de vídeos de medios mixtos.
 
 `[VideoPlayer.|<containerId>_videoPlayer.]waiticon=0|1`
 
@@ -22,7 +22,7 @@ Atributo de configuración para el visualizador de vídeo de medios mixtos.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Activa o desactiva la visualización de animación de almacenamiento en búfer (icono de espera). </p> </td> 
+   <td colname="col2"> <p> Activa o desactiva la visualización de la animación almacenada en búfer (icono de espera). </p> </td> 
   </tr> 
  </tbody> 
 </table>

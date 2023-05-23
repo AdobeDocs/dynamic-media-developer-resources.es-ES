@@ -1,5 +1,5 @@
 ---
-description: Crea una imagen en capas que puede tener varias capas de texto e imágenes.
+description: Crea una imagen con capas que puede tener varias capas de texto e imagen.
 solution: Experience Manager
 title: createTemplate
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 10%
 
 # createTemplate{#createtemplate}
 
-Crea una imagen en capas que puede tener varias capas de texto e imágenes.
+Crea una imagen con capas que puede tener varias capas de texto e imagen.
 
-La variable `urlModifier` especifica los comandos de protocolo de Image Server almacenados en el catálogo de Image Server aplicados antes de cualquier comando proporcionado por el usuario en la URL. La variable `urlPostApplyModifier` especifica los comandos de protocolo aplicados después de cualquier comando URL, lo que anulará cualquier configuración conflictiva suministrada por el usuario.
+El `urlModifier` especifica los comandos de protocolo del servidor de imágenes almacenados en el catálogo del servidor de imágenes aplicado antes de cualquier comando proporcionado por el usuario en la dirección URL. El `urlPostApplyModifier` especifica los comandos de protocolo aplicados después de los comandos de URL, que anularán cualquier configuración proporcionada por el usuario que esté en conflicto.
 
 ## Tipos de usuarios autorizados {#section-9fb615d8e75f452eab2893cc3decfbe6}
 
@@ -32,12 +32,12 @@ La variable `urlModifier` especifica los comandos de protocolo de Image Server a
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | Empresa a la que pertenece la plantilla. |
-| folderHandle | `xsd:string` | Sí | El controlador de carpeta que representa la carpeta donde reside la plantilla. |
-| name | `xsd:string` | Sí | Nombre de la plantilla. |
+| companyHandle | `xsd:string` | Sí | Compañía a la que pertenece la plantilla. |
+| folderHandle | `xsd:string` | Sí | Identificador de carpeta que representa la carpeta en la que reside la plantilla. |
+| nombre | `xsd:string` | Sí | Nombre de plantilla. |
 | tipo | `xsd:string` | Sí | Tipo de plantilla. |
-| urlModifier | `xsd:string` | Sí | Especifica los comandos del servidor de imágenes almacenados en el catálogo IS que se aplican antes de cualquier comando proporcionado por el usuario en la dirección URL. |
-| urlPostApplyModifier | `xsd:string` | No | Especifica los comandos de protocolo aplicados después de cualquier comando URL, que anularán cualquier configuración conflictiva suministrada por el usuario. |
+| urlModifier | `xsd:string` | Sí | Especifica los comandos del servidor de imágenes almacenados en el catálogo de IS que se aplican antes de cualquier comando proporcionado por el usuario en la dirección URL. |
+| urlPostApplyModifier | `xsd:string` | No | Especifica los comandos de protocolo aplicados después de los comandos de dirección URL, que anularán cualquier configuración proporcionada por el usuario que esté en conflicto. |
 
 **Salida (createTemplateParam)**
 
@@ -47,7 +47,7 @@ La variable `urlModifier` especifica los comandos de protocolo de Image Server a
 
 ## Ejemplos {#section-09adb4d2f0c944af875c4463a461f55d}
 
-Este ejemplo de código crea una plantilla en una carpeta especificada por un controlador, con un nombre de `APIcreateTemplate`, `urlModifier`y `urlPostApplyModifier`. La respuesta devuelve el identificador a la plantilla recién creada.
+Este ejemplo de código crea una plantilla en una carpeta especificada por un identificador, con un nombre de `APIcreateTemplate`, a `urlModifier`, y a `urlPostApplyModifier`. La respuesta devuelve el identificador a la plantilla recién creada.
 
 **Solicitar**
 

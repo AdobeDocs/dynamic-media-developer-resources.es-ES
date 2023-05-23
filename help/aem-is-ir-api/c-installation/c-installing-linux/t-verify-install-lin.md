@@ -16,24 +16,24 @@ ht-degree: 0%
 
 Después de instalar Image Serving en Linux®, verifique la instalación.
 
-Image Server está instalado como un demonio Linux®.
+El servidor de imágenes está instalado como daemon de Linux®.
 
-**Para verificar la instalación**
+**Para comprobar la instalación**
 
-1. Compruebe que el servicio de imágenes está configurado para iniciarse automáticamente y que se está ejecutando:
+1. Compruebe que el servicio de imágenes esté configurado para iniciarse automáticamente y que se esté ejecutando:
 
    `> /sbin/service ImageServing status`
 
    >[!NOTE]
    >
-   >Debe tener permisos raíz para ejecutar estas secuencias de comandos.
+   >Debe tener permisos de raíz para ejecutar estas secuencias de comandos.
 
-1. Abra un explorador de Internet en el mismo host o en otro diferente y compruebe las respuestas predeterminadas del servidor:
+1. Abra un explorador de Internet en el mismo host o en otro distinto y compruebe las respuestas predeterminadas del servidor:
 
 [!DNL http:// *[!DNL server:port]*/is/image]
 
 [!DNL  http:// *[!DNL server:port]*/ir/render]
 
-En las respuestas, compruebe la presencia de elementos que empiecen por `imageServer`, que indican que la variable [!DNL Platform Server] pudo comunicarse correctamente con el servidor de imágenes.
+En las respuestas, compruebe la presencia de elementos que empiecen por `imageServer`, que indican que la variable [!DNL Platform Server] se ha podido comunicar correctamente con el servidor de imágenes.
 
 >Se puede realizar una verificación adicional utilizando las páginas de muestra de los paquetes de documentación y demostración, si están instalados.

@@ -18,7 +18,7 @@ ht-degree: 1%
 
 De forma predeterminada, el visor envía una única solicitud HTTP de seguimiento al servidor de imágenes configurado con el tipo de visor y la información de versión.
 
-Para integrarse con sistemas de análisis de terceros, es necesario escuchar la `trackEvent` la llamada de retorno del visor y procese la `eventInfo` de la función de llamada de retorno según sea necesario. El siguiente código es un ejemplo de dicha función de controlador:
+Para integrarse con sistemas de análisis de terceros, es necesario escuchar el `trackEvent` llamada de retorno del visor y procesar `eventInfo` de la función de llamada de retorno según sea necesario. El siguiente código es un ejemplo de esta función de controlador:
 
 ```java {.line-numbers}
 var carouselViewer = new s7viewers.CarouselViewer({ 
@@ -42,13 +42,13 @@ var carouselViewer = new s7viewers.CarouselViewer({
 });
 ```
 
-El visor realiza el seguimiento de los siguientes eventos de usuario de SDK:
+El visor realiza un seguimiento de los siguientes eventos de usuarios del SDK:
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Evento de usuario del SDK </p> </th> 
-   <th colname="col2" class="entry"> <p>Enviado cuando... </p> </th> 
+   <th colname="col2" class="entry"> <p>Se envía cuando... </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -57,12 +57,12 @@ El visor realiza el seguimiento de los siguientes eventos de usuario de SDK:
    <td colname="col2"> <p>el visor se carga primero. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> BANNER </span> </p> </td> 
-   <td colname="col2"> <p>se cambia la imagen del banner de carrusel. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> TITULAR </span> </p> </td> 
+   <td colname="col2"> <p>se cambia la imagen del titular del carrusel. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> HREF </span> </p> </td> 
-   <td colname="col2"> <p>el usuario activa la zona interactiva. </p> </td> 
+   <td colname="col2"> <p>el usuario activa el punto interactivo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -7,26 +7,26 @@ role: Developer,User
 exl-id: 748f68a1-f3ec-4249-a257-1115bcb3ee4c
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 7%
+source-wordcount: '48'
+ht-degree: 4%
 
 ---
 
 # Propiedades{#properties}
 
-Los datos de propiedad se devuelven en respuesta a los siguientes tipos `req=`:
+Los datos de propiedad se devuelven en respuesta a lo siguiente `req=` tipos:
 
 * `catalogprops`
 * `imageprops`
 * `props`
 * `userdata`
 
-`userdata` las respuestas solo tienen formato de propiedades cuando el contenido de  `catalog::UserData` sigue el formato de propiedades.
+`userdata` Las respuestas de tienen el formato de propiedades de solo cuando el contenido de `catalog::UserData` siga el formato de propiedades.
 
 * [Propiedades de texto (Java)](r-text-java-properties.md)
 * [Propiedades de JavaScript](r-javascript-properties.md)
 * [Propiedades XML](r-xml-properties.md)
-* [Propiedades de JSONP](r-json-properties.md)
+* [Propiedades JSONP](r-json-properties.md)
 
 
 ## Véase también {#section-869fc97ffc4648f5a64062311be26819}

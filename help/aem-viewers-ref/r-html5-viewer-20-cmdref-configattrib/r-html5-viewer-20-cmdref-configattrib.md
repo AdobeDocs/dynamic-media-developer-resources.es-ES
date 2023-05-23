@@ -1,5 +1,5 @@
 ---
-title: 'Referencia de comando común a todos los visores: Atributos de configuración'
+title: 'Referencia de comando común a todos los visores: atributos de configuración'
 description: Atributos de configuración comunes a todos los visualizadores.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
@@ -12,6 +12,6 @@ ht-degree: 0%
 
 ---
 
-# Referencia de comando común a todos los visores: Atributos de configuración{#command-reference-common-to-all-viewers-configuration-attributes}
+# Referencia de comando común a todos los visores: atributos de configuración{#command-reference-common-to-all-viewers-configuration-attributes}
 
 Atributos de configuración comunes a todos los visualizadores.

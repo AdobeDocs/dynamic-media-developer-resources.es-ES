@@ -8,7 +8,7 @@ exl-id: c94ac151-3115-42ac-8a76-13b8769293cb
 source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
 source-wordcount: '87'
-ht-degree: 6%
+ht-degree: 5%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> always|never|limit</span> </p> </td> 
-   <td colname="col2"> <p> Habilite, limite o deshabilite la optimización para dispositivos en los que <span class="codeph"> devicePixelRatio</span> sea bueno que <span class="codeph"> 1</span>, es decir, dispositivos con pantalla de alta densidad como iPhone4 y dispositivos similares. </p> <p>Si está activo, el componente limita el tamaño de la solicitud de imagen IS como si el dispositivo solo tuviera una relación de píxeles de <span class="codeph"> 1</span> y de esa manera se reduzca el ancho de banda. </p> <p>Consulte el ejemplo siguiente. </p> </td> 
+   <td colname="col2"> <p> Activar, limitar o desactivar la optimización para dispositivos en los que <span class="codeph"> devicePixelRatio</span> es bueno que <span class="codeph"> 1</span>, es decir, dispositivos con visualización de alta densidad como iPhone4 y similares. </p> <p>Si está activo, el componente limita el tamaño de la solicitud de imagen del servicio de imágenes como si el dispositivo solo tuviera una proporción de píxeles de <span class="codeph"> 1</span> y así reducir el ancho de banda. </p> <p>Consulte el ejemplo siguiente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> número</span></span> </p> </td> 
-   <td colname="col2"> <p> Si se utiliza la configuración <span class="codeph"> limit</span> , el componente permite una alta densidad de píxeles únicamente hasta el límite especificado. </p> <p>Consulte el ejemplo siguiente. </p> </td> 
+   <td colname="col2"> <p> Si se usa la variable <span class="codeph"> límite</span> Con esta configuración, el componente solo permite una alta densidad de píxeles hasta el límite especificado. </p> <p>Consulte el ejemplo siguiente. </p> </td> 
   </tr> 
  </tbody> 
 </table>

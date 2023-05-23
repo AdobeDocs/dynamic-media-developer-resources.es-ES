@@ -18,7 +18,7 @@ La barra de control es el área rectangular que contiene y se encuentra detrás 
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-La barra de control siempre toma toda la anchura del visor disponible. CSS puede cambiar su color, altura y posición vertical en relación con el contenedor del visor de vídeo.
+La barra de control siempre tiene toda la anchura del visor disponible. CSS permite cambiar el color, la altura y la posición vertical en relación con el contenedor del visor de vídeo.
 
 El siguiente selector de clase CSS controla el aspecto de la barra de control:
 
@@ -43,7 +43,7 @@ El siguiente selector de clase CSS controla el aspecto de la barra de control:
 
 ## Ejemplo {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Para configurar un visualizador de medios mixtos con una barra de control gris de 30 píxeles de altura.
+Para configurar un visor de medios mixtos con una barra de control gris de 30 píxeles de altura.
 
 ```
 .s7mixedmediaviewer .s7controlbar {  

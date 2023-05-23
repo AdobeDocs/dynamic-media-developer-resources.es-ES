@@ -1,6 +1,6 @@
 ---
-title: Visualizadores solo para AEM Assets
-description: Visualizadores solo para AEM Assets
+title: Solo visores para AEM Assets
+description: Solo visores para AEM Assets
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
@@ -12,12 +12,12 @@ ht-degree: 5%
 
 ---
 
-# Visualizadores solo para AEM Assets{#viewers-for-aem-assets-only}
+# Solo visores para AEM Assets{#viewers-for-aem-assets-only}
 
-Los siguientes visores funcionan exclusivamente en Adobe Experience Manager Assets.
+Los siguientes visualizadores funcionan exclusivamente en Adobe Experience Manager Assets.
 
 * [Carrusel](c-html5-aem-carousel/c-html5-aem-carousel.md)
 * [Imagen interactiva](c-html5-aem-interactive-images/c-html5-aem-interactive-images.md)
 * [Vídeo interactivo](c-html5-aem-int-video/c-html5-aem-int-video.md)
-* [Recorte inteligente de vídeo](c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-reference.md)
+* [Recorte inteligente de vídeos](c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-reference.md)
 * [Video360](c-html5-aem-video360/c-html5-aem-video360.md)

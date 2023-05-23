@@ -1,5 +1,5 @@
 ---
-description: Datos del mapa de imágenes.
+description: Datos de mapa de imagen.
 solution: Experience Manager
 title: mapa
 feature: Dynamic Media Classic,SDK/API
@@ -7,16 +7,16 @@ role: Developer,User
 exl-id: 3330f49a-934e-492a-804c-ace4d147c65a
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '208'
 ht-degree: 4%
 
 ---
 
 # mapa{#map}
 
-Datos del mapa de imágenes.
+Datos de mapa de imagen.
 
-`req=map[,text|{xml[, *``*]}|{json[&id= *`encodingreqId`*]}]`
+`req=map[,text|{xml[, *`codificación`*]}|{json[&id= *`reqId`*]}]`
 
 <table id="simpletable_10F2152FDF33411491FBBAFD173CA5ED"> 
  <tr class="strow"> 
@@ -25,26 +25,26 @@ Datos del mapa de imágenes.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> reqId</span></span> </p></td> 
-  <td class="stentry"> <p>Identificador de solicitud única. </p></td> 
+  <td class="stentry"> <p>Identificador único de la solicitud. </p></td> 
  </tr> 
 </table>
 
-Devuelve `catalog::Map` sin modificación al consultar una entrada de catálogo simple sin comandos adicionales especificados (no escalará a `catalog::maxPix`).
+Devuelve `catalog::Map` sin modificación al consultar una entrada de catálogo simple sin comandos adicionales especificados (no se escalará a `catalog::maxPix`).
 
-Si se especifica cualquier otro comando en la solicitud, se devuelve un mapa de imagen compuesto, que se deriva escalando, recortando, girando y capas todos los comandos `catalog::Map` y/o `map=` incluidos en la solicitud, tal como los datos de imagen estarían con `req=img`.
+Si se especifican otros comandos en la solicitud, se devuelve un mapa de imagen compuesto, que se deriva escalando, recortando, rotando y superponiendo todas las capas `catalog::Map` y/o `map=` comandos incluidos en la solicitud, tal como lo serían los datos de imagen con `req=img`.
 
-Especifique `text` u omita el segundo parámetro para devolver los datos del mapa de imagen en forma de una cadena de elemento `HTML <AREA>` con el tipo MIME de respuesta `text/plain`.
+Especificar `text` o bien omita el segundo parámetro para devolver los datos del mapa de imagen en forma de `HTML <AREA>` cadena de elemento con tipo MIME de respuesta `text/plain`.
 
-Especifique `xml` para dar formato a la respuesta como XML en lugar de HTML. La codificación de texto se puede especificar de forma opcional. El valor predeterminado es `UTF-8`.
+Especificar `xml` para dar formato a la respuesta como XML en lugar de como HTML. Se puede especificar la codificación de texto de forma opcional. El valor predeterminado es `UTF-8`.
 
-Devuelve una cadena vacía (o un elemento `<AREA>` vacío) si no se encontraron datos de asignación para los objetos de catálogo especificados y/o si no quedan elementos `<AREA>` después de recortar las imágenes.
+Devuelve una cadena vacía (o vacía) `<AREA>` ) si no se encontraron datos de asignación para los objetos de catálogo especificados, o si no se encontraron datos de asignación para los objetos de catálogo especificados `<AREA>` después de recortar las imágenes, los elementos permanecen.
 
-La respuesta HTTP se puede almacenar en caché con el TTL basado en `catalog::Expiration`.
+La respuesta HTTP se puede almacenar en caché con el TTL en función de `catalog::Expiration`.
 
-Las solicitudes que admiten el formato de respuesta JSONP permiten especificar el nombre del controlador de llamada de retorno JS mediante la sintaxis extendida del parámetro `req=` :
+Las solicitudes compatibles con el formato de respuesta JSONP permiten especificar el nombre del controlador de devolución de llamada JS mediante la sintaxis extendida de `req=` parámetro:
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` es el nombre del controlador JS que está presente en la respuesta JSONP. Solo se permiten caracteres a-z, A-Z y 0-9. Opcional. El valor predeterminado es `s7jsonResponse`.
+`<reqHandler>` es el nombre del controlador JS presente en la respuesta JSONP. Solo se permiten los caracteres a-z, A-Z y 0-9. Opcional. El valor predeterminado es `s7jsonResponse`.
 
-Consulte [Mapas de imágenes](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md#reference-ff7d1bac2a064104b0c508a81316fdab).
+Consulte [Mapas de imagen](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md#reference-ff7d1bac2a064104b0c508a81316fdab).

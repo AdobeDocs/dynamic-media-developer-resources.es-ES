@@ -22,5 +22,5 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| assetType | `xsd:string` | Tipo de recurso asociado a definiciones de campo (consulte &quot;Tipos de recursos&quot; para ver los valores). |
+| assetType | `xsd:string` | Tipo de recurso asociado con las definiciones de campo (consulte &quot;Tipos de recursos&quot; para obtener información sobre los valores). |
 | fieldArray | `types:MetadataFieldArray` | Matriz de definiciones de campos de metadatos asociadas al tipo de recurso especificado en `assetType`. |

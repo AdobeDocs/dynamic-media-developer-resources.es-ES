@@ -1,6 +1,6 @@
 ---
-title: Propiedades de JSONP
-description: Si jsonp se especifica como formato de respuesta, los datos de respuesta tienen un formato JSONP (Notación de objeto JavaScript con relleno), incluido en una llamada de función JavaScript.
+title: Propiedades JSONP
+description: Si se especifica jsonp como formato de respuesta, los datos de respuesta se formatean con JSONP (Notación de objetos JavaScript con relleno), dentro de una llamada de función JavaScript.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 1%
 
 ---
 
-# Propiedades de JSONP{#jsonp-properties}
+# Propiedades JSONP{#jsonp-properties}
 
-Si jsonp se especifica como formato de respuesta, los datos de respuesta tienen un formato JSONP (Notación de objeto JavaScript con relleno), incluido en una llamada de función JavaScript.
+Si se especifica jsonp como formato de respuesta, los datos de respuesta se formatean con JSONP (Notación de objetos JavaScript con relleno), dentro de una llamada de función JavaScript.
 
 El cliente puede especificar un identificador de solicitud único opcional ( *`reqId`*), que se devuelve en la respuesta y permite al cliente distinguir varias respuestas recibidas asincrónicamente. Una respuesta típica tiene la siguiente estructura general:
 
@@ -37,7 +37,7 @@ El cliente puede especificar un identificador de solicitud único opcional ( *`r
 </varname>" );
 ```
 
-La variable `s7jsonResponse` El cliente debe definir la función JavaScript. En su forma más sencilla, la función puede tener el siguiente aspecto:
+El `s7jsonResponse` El cliente debe definir la función de JavaScript. En su forma más sencilla, la función podría tener este aspecto:
 
 ```
 var responseData; 
@@ -47,13 +47,13 @@ S7jsonResponse(data, reqId)
 }
 ```
 
-Las solicitudes que admiten el formato de respuesta JSONP permiten especificar el nombre del controlador de llamada de retorno JS mediante la sintaxis extendida de `req=` parámetro:
+Las solicitudes compatibles con el formato de respuesta JSONP permiten especificar el nombre del controlador de devolución de llamada JS mediante la sintaxis extendida de `req=` parámetro:
 
 `req=...,json [&handler = reqHandler]`
 
-La variable `<reqHandler>` es el nombre del controlador JS que está presente en la respuesta JSONP. Solo se permiten caracteres a-z, A-Z y 0-9. Opcional. El valor predeterminado es `s7jsonResponse`.
+El `<reqHandler>` La sintaxis es el nombre del controlador JS que está presente en la respuesta JSONP. Solo se permiten los caracteres a-z, A-Z y 0-9. Opcional. El valor predeterminado es `s7jsonResponse`.
 
-El paquete de visores de servicio de imágenes de Dynamic Media incluye una utilidad para solicitar y analizar datos con formato JSONP de Image Serving.
+El paquete Visualizadores del servicio de imágenes de Dynamic Media incluye una utilidad para solicitar y analizar datos con formato JSONP desde el servicio de imágenes.
 
 Consulte [https://en.wikipedia.org/wiki/JSONP](https://en.wikipedia.org/wiki/JSONP) para obtener más información sobre el formato JSONP.
 

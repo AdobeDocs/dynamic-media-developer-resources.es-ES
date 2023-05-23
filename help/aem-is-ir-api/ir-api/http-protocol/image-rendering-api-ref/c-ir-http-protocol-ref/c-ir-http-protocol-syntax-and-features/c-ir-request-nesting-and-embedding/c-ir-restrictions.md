@@ -1,6 +1,6 @@
 ---
 title: Restricciones
-description: Algunas restricciones se aplican para anidar e incrustar.
+description: Se aplican algunas restricciones para anidar e incrustar.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,8 +14,8 @@ ht-degree: 0%
 
 # Restricciones{#restrictions}
 
-Algunas restricciones se aplican para anidar e incrustar.
+Se aplican algunas restricciones para anidar e incrustar.
 
-Para un buen rendimiento del servidor, la resolución de las imágenes devueltas por las solicitudes anidadas debe coincidir razonablemente con la resolución de textura de los objetos a los que se aplica el material.
+Para obtener un buen rendimiento del servidor, la resolución de las imágenes devueltas por las solicitudes anidadas debe coincidir razonablemente con la resolución de textura de los objetos a los que se aplica el material.
 
-Las imágenes extranjeras se almacenan en caché localmente. Los cambios realizados en estas imágenes solo se detectan después de que la entrada de caché local se quede obsoleta (según el encabezado HTTP caducado).
+Las imágenes externas se almacenan en caché localmente. Cualquier cambio en estas imágenes se detecta solo después de que la entrada de la caché local quede obsoleta (según el encabezado HTTP expires ).

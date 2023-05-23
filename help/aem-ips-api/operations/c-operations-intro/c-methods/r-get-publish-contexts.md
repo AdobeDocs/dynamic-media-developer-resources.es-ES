@@ -31,7 +31,7 @@ Sintaxis
 >[!NOTE]
 >
 >* El usuario debe tener acceso de lectura para devolver los recursos.
->* Todos los usuarios tienen acceso a la empresa compartida.
+>* Todos los usuarios tienen acceso a la compañía compartida.
 >
 
 
@@ -53,7 +53,7 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> Gestionar a la empresa. </td> 
+   <td colname="col4"> Gestionar en la empresa. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> contextType</span> </span> </td> 
@@ -64,7 +64,7 @@ Sintaxis
      <li id="li_06DB502952D943198F16C06C59816268"><span class="codeph"> ImageServing</span></li>
      <li id="li_E67A42934E8F4689A148CE125F7372AE"><span class="codeph"> ImageRendering</span></li>
      <li id="li_3CB3A9C4E7AB4A71819567A9566E396C"><span class="codeph"> Vídeo</span></li>
-     <li id="li_27E3DB89B53B4B50B2231622A157A228"><span class="codeph"> ServerDirectory</span></li>
+     <li id="li_27E3DB89B53B4B50B2231622A157A228"><span class="codeph"> DirectorioDeServidor</span></li>
     </ul></td> 
   </tr> 
  </tbody> 
@@ -74,7 +74,7 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| publishContextArray | tipos:PublishContextArray | Sí | Matriz de contextos de publicación para una empresa, filtrada por tipo de contexto si es necesario. |
+| publishContextArray | tipos:PublishContextArray | Sí | Una matriz de contextos de publicación para una empresa, filtrados por tipo de contexto si es necesario. |
 
 ## Ejemplos {#section-23fb7d6a15004b7eb4c3d3bcb37ceb04}
 

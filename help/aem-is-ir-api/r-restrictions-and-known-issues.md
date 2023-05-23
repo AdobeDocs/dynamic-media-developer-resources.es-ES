@@ -1,5 +1,5 @@
 ---
-description: Existen algunas restricciones y problemas conocidos que deben tenerse en cuenta al utilizar Dynamic Media Image Serving.
+description: Existen algunas restricciones y problemas conocidos que deben tenerse en cuenta al utilizar el servicio de imágenes de Dynamic Media.
 solution: Experience Manager
 title: Restricciones y problemas conocidos
 feature: Dynamic Media Classic,SDK/API
@@ -14,63 +14,63 @@ ht-degree: 0%
 
 # Restricciones y problemas conocidos{#restrictions-and-known-issues}
 
-Existen algunas restricciones y problemas conocidos que deben tenerse en cuenta al utilizar Dynamic Media Image Serving.
+Existen algunas restricciones y problemas conocidos que deben tenerse en cuenta al utilizar el servicio de imágenes de Dynamic Media.
 
-## Errores de documentación {#section-b1579410b11e41e488c7de9ecc7e8d5c}
+## erratas de documentación {#section-b1579410b11e41e488c7de9ecc7e8d5c}
 
-* El número de líneas no superará el máximo de `\copyfitmaxlines` y el número de líneas explícitas en la entrada de texto.
-* Los paréntesis y corchetes de curvas coincidentes son obligatorios en los conjuntos de imágenes. Si no coinciden los paréntesis y los corchetes curvas, deben codificarse con la dirección URL.
+* El número de líneas no superará el máximo del `\copyfitmaxlines` configuración y el número de líneas explícitas en la entrada de texto.
+* En los conjuntos de imágenes se requieren llaves y paréntesis coincidentes. Si no coinciden los paréntesis angulares y los paréntesis, deben codificarse con la dirección URL.
 * La alerta de tiempo de respuesta global del lado del servidor incluye respuestas de error.
-* La variable `id=` es necesario cuando se usa la variable `rect=` con una solicitud de imagen o máscara.
+* El `id=` se requiere actualmente al utilizar el comando `rect=` con una solicitud de imagen o máscara.
 
-## Diferencias conocidas textPs= frente a text= {#section-16ede4c13a7648feb0d2fc93341fd4aa}
+## Diferencias conocidas textPs= vs text= {#section-16ede4c13a7648feb0d2fc93341fd4aa}
 
-* El cursiva sintético se representa con menos inclinación que al utilizar `text=`.
-* El subrayado es un poco menor y más delgado que cuando se utiliza `text=`.
-* `\expnd` y `\expndtw` si se utiliza con valores negativos altos, los caracteres se colocan uno delante del otro al utilizar `text=`.
+* La cursiva sintética se representa menos inclinada que al utilizar `text=`.
+* El subrayado es un poco más bajo y delgado que al utilizar `text=`.
+* `\expnd` y `\expndtw` cuando se utiliza con valores negativos altos, los caracteres se colocan uno delante del otro cuando se utiliza `text=`.
 
-* `\charscaley` escala diferente a la usada `text=` pero no afecta a la altura de línea.
+* `\charscaley` se adapta de forma diferente que al usar `text=` pero no afecta al alto de línea.
 
-* Si la última línea de texto no cabe, se coloca toda la línea en lugar de aparecer como cortada.
-* `\slmult` y `\sl` comportarse de forma diferente a MS Word y `text=`, simplemente surten efecto para los párrafos actual y siguientes.
+* Si la última línea de texto no cabe, se suelta toda la línea en lugar de aparecer como punto de corte.
+* `\slmult` y `\sl` comportarse de forma diferente a MS Word y `text=`, simplemente surten efecto para el párrafo actual y los párrafos siguientes.
 
-* `\sb` se aplica al primer párrafo para MS Word y `text=`, Adobe InDesign y [!DNL Photoshop] no haga esto.
+* `\sb` se aplica al primer párrafo de MS Word y `text=`, ADOBE INDESIGN y [!DNL Photoshop] no haga esto.
 
-* `\sa` se aplica al último párrafo para MS Word y `text=`, Adobe InDesign y [!DNL Photoshop] no haga esto.
+* `\sa` se aplica al último párrafo de MS Word y `text=`, ADOBE INDESIGN y [!DNL Photoshop] no haga esto.
 
 ## Compatibilidad con versiones anteriores {#section-a76842f751944f4fb664af296d064122}
 
-* Cómo evitar el carácter de subrayado ( `\_`) en una cadena RTF no funciona con todas las fuentes que utilizan `textPs=`
+* Omisión del carácter de subrayado ( `\_`) en una cadena RTF no funciona con todas las fuentes que utilizan `textPs=`
 
-* Compatibilidad con la gestión de macros que no distingue entre mayúsculas y minúsculas.
-* La caché del catálogo se ha reducido de 60 segundos a 10 segundos.
-* La función de redireccionamiento de errores ahora solo redirige solicitudes que hacen referencia a imágenes, fuentes, perfiles de color e imágenes dañadas publicadas en un catálogo, pero que no se encuentran en el disco.
-* `posN=`, `anchor=`, `anchorN=`, `origin=`y `originN=` ahora devuelve un error de análisis si alguno de los valores del modificador es bueno a 2147483648.
+* Compatibilidad con la gestión de macros sin distinción de mayúsculas.
+* La caché del catálogo se ha reducido de 60 a 10 segundos.
+* La función de redirección de errores ahora solo redirige solicitudes que hacen referencia a imágenes, fuentes, perfiles de color e imágenes dañadas publicadas en un catálogo, pero que no se encuentran en el disco.
+* `posN=`, `anchor=`, `anchorN=`, `origin=`, y `originN=` ahora devuelve un error de análisis si alguno de los valores de modificador es bueno que 2147483648.
 
-* No se admite la codificación de solicitudes anidadas. Realice una transición al nuevo comportamiento y descodifique los valores de solicitud anidados que se encuentren en las solicitudes URL del sitio y en los catálogos de la empresa.
-* DefaultImage ahora aplica atributos de miniatura al usar `req=tmb`.
-* En versiones anteriores que usan `flip=`, la imagen nunca se cambió de posición independientemente del punto de ancla.
+* No se admite la codificación de solicitudes anidadas. Realice la transición al nuevo comportamiento y descodifique los valores de solicitud anidados que se encuentren en las solicitudes de URL del sitio y en los catálogos de la empresa.
+* DefaultImage ahora aplica atributos de miniatura al utilizar `req=tmb`.
+* En versiones anteriores utilizando `flip=`Sin embargo, la imagen nunca se reposicionó independientemente del punto de ancla.
 
-## Restricciones aplicables a bibliotecas de terceros {#section-79768b96bf634e44ab672c5b893f343d}
+## Restricciones aplicables a las bibliotecas de terceros {#section-79768b96bf634e44ab672c5b893f343d}
 
-La biblioteca Digimarc se niega a aplicar una marca de agua Digimarc a una imagen si ya se ha detectado. Si se realiza suficiente edición en una imagen principal, es posible que la biblioteca Digimarc pueda reconocer que se aplicó la marca de agua. Sin embargo, es posible que no pueda leer esa información. Esto resulta en una nueva imagen donde no se puede obtener la información Digimarc original que se aplicó a la imagen original. Image Serving ahora puede aplicar la marca de agua Digimarc definida en el catálogo de la empresa.
+La biblioteca Digimarc rechaza aplicar una marca de agua Digimarc a una imagen si ya se ha detectado una. Si se realiza suficiente edición en una imagen principal, la biblioteca Digimarc puede reconocer que se aplicó la marca de agua. Sin embargo, es posible que no pueda leer esa información. Esto da como resultado una nueva imagen en la que no se puede obtener la información original de Digimarc que se aplicó a la imagen original. El servicio de imágenes ahora puede aplicar la marca de agua Digimarc definida en el catálogo de la empresa.
 
-## Restricciones aplicables tanto al servicio de imágenes como al procesamiento de imágenes {#section-f836cb40ae2d4f32a9cf7ebda4d91bae}
+## Restricciones aplicables al servicio y al procesamiento de imágenes {#section-f836cb40ae2d4f32a9cf7ebda4d91bae}
 
-* Es posible que Image Serving y Image Rendering no aprovechen al máximo todas las CPUs cuando hay más de 4 CPUs disponibles. Simule el tráfico en estos equipos para ver lo ventajoso que es con más de 4 CPUs.
+* Es posible que el servicio de imágenes y el procesamiento de imágenes no saquen el máximo partido de todas las CPU cuando hay más de 4 CPU disponibles. Simule su tráfico en estas máquinas para ver lo ventajoso que es con más de 4 CPU.
 * Las direcciones URL remotas que devuelven un redireccionamiento (estados HTTP 301, 302 o 303) se rechazan.
-* Al configurar `errorRedirect.rootUrl` la dirección IP definida en esta propiedad debe incluirse en el conjunto de reglas `<addressfilter>` en ese servidor.
+* Al configurar `errorRedirect.rootUrl` la dirección IP definida en esta propiedad debe incluirse en el conjunto de reglas `<addressfilter>` valor de etiqueta en ese servidor.
 
    *Ejemplo*:
 
    El servidor A ha definido `errorRedirect.rootUrl=10.10.10.10` .
 
-   El servidor B, que tiene la dirección IP 10.10.10.10, establece la variable `<addressfilter>` en el archivo del conjunto de reglas para incluir su dirección IP (10.10.10.10).
+   El servidor B, que tiene la dirección IP 10.10.10.10, establece el `<addressfilter>` en el archivo del conjunto de reglas para incluir su dirección IP (10.10.10.10).
 
-* El texto de punto y la ruta de texto con posición pueden mostrar recorte.
-* `text=` solo se aplica `\sa` y `\sb` al bloque de texto completo y no por párrafo.
+* El texto de punto y el trazado de texto con posición pueden mostrar recorte.
+* `text=` solo se aplica `\sa` y `\sb` a todo el bloque de texto y no por párrafo.
 
-* Al utilizar una empresa definida en la dirección URL y otra empresa definida para la variable `src=` o `mask=` modificador, debe anteponer una barra diagonal a la empresa definida para `src=` o `mask=` para que funcione esta forma de solicitud.
+* Al utilizar una compañía definida en la URL y otra compañía definida para la `src=` o `mask=` modificador, se debe anteponer una barra diagonal a la compañía definida para `src=` o `mask=` para que este formulario de solicitud funcione.
 
    *Ejemplo*:
 
@@ -78,78 +78,78 @@ La biblioteca Digimarc se niega a aplicar una marca de agua Digimarc a una image
 
    En lugar de: `/is/image/MyCompany?src=YourCompany/MyImage` .
 
-* Las solicitudes de tiff o viñeta que no son pirámides producen un mensaje de error similar a
+* Las solicitudes de tiff o viñeta no piramidadas generan un mensaje de error similar al siguiente
 
-   *&quot;Imagen `C:\Program Files\Scene7\ImageRendering\resources\MyVignette.vnt` no tiene un DSF válido, y el área de 2,25MPixel supera el máximo de 2MPixel&quot;* .
+   *&quot;Imagen `C:\Program Files\Scene7\ImageRendering\resources\MyVignette.vnt` no tiene DSF válido, y el área de 2.25MPixel supera el máximo de 2MPixel&quot;* .
 
-   La práctica recomendada es utilizar tiffs y viñetas piramidables. Si necesita usar tiffs o viñetas sin pirámides, siga las instrucciones que se indican a continuación para aumentar el límite de tamaño.
+   La práctica recomendada es utilizar tiffs y viñetas piramidales. Si necesita utilizar tiffs o viñetas no piramidales, siga las instrucciones a continuación para aumentar el límite de tamaño.
 
    *Solución alternativa*:
 
-   En el caso de las viñetas que no sean piramidables de renderización de imágenes, aumente el valor de la propiedad IrMaxNonPyrVignetteSize en la variable [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] archivo de configuración.
+   Para viñetas no piramidadas de procesamiento de imágenes, aumente el valor de la propiedad para IrMaxNonPyrVignetteSize en [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] archivo de configuración.
 
-   Para los TIFF no piramidables de servicio de imágenes, aumente el valor de la propiedad de `MaxNonDsfSize` en el [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] archivo de configuración.
+   Para TIFF no piramidales del servicio de imágenes, aumente el valor de la propiedad para `MaxNonDsfSize` en el [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] archivo de configuración.
 
-* Adobe [!DNL Photoshop] CS3 no guarda los archivos PSD en capas de forma predeterminada en una imagen compuesta.
+* Adobe [!DNL Photoshop] CS3 no guarda archivos de PSD con capas de forma predeterminada como imagen compuesta.
 
    *Síntomas*:
 
-   El Adobe [!DNL Photoshop] El archivo de PSD en capas CS3 se muestra en negro con el texto siguiente: &quot;Esta capa [!DNL Photoshop] no se guardó con una imagen compuesta.&quot; para la imagen de respuesta de Image Serving o en IPS.
+   El Adobe [!DNL Photoshop] El archivo de PSD en capas CS3 se muestra en negro con un texto que indica: &quot;Esta capa [!DNL Photoshop] el archivo no se ha guardado con una imagen compuesta.&quot; para la imagen de respuesta del servicio de imágenes o en IPS.
 
    *Solución*:
 
-   Guardar el Adobe [!DNL Photoshop] Archivo CS3 con máxima compatibilidad activada.
+   Guardar el Adobe [!DNL Photoshop] Archivo CS3 con la máxima compatibilidad activada.
 
-* Asignar el perfil ICC a una imagen de respuesta CMYK/JPEG hace que los colores se inviertan en algunos navegadores.*Solución alternativa*:
+* Al asignar un perfil ICC a una imagen de respuesta CMYK/JPEG, los colores se invierten en algunos exploradores.*Solución alternativa*:
 
-   Cambiar el formato de imagen de respuesta utilizando `fmt=`
+   Cambiar el formato de imagen de respuesta mediante `fmt=`
 
-* El tamaño de los datos de imagen de respuesta HTTP después de la compresión, incluido el encabezado del archivo, está limitado a 16 MB.
-* &quot;..&quot; no está permitido en ningún elemento de ruta en solicitudes HTTP.
-* La desinstalación puede eliminar el archivo creado o modificado por el usuario de *[!DNL install_root]* o cualquier subcarpeta. Copie estos archivos en una ubicación diferente antes de desinstalarlos.
+* El tamaño de los datos de imagen de respuesta HTTP tras la compresión, incluido el encabezado de archivo, está limitado a 16 MB.
+* &quot;...&quot; no está permitido en ningún elemento de ruta en solicitudes HTTP.
+* La desinstalación puede eliminar el archivo creado por el usuario o modificado de *[!DNL install_root]* o cualquier subcarpeta. Copie estos archivos en una ubicación diferente antes de desinstalarlos.
 
-## Restricciones aplicables únicamente al servicio de imágenes {#section-b08ad535e4454265b8157dec244c4faf}
+## Restricciones aplicables solo al servicio de imágenes {#section-b08ad535e4454265b8157dec244c4faf}
 
-* Colores de primer plano en RTF ( `\cf`) no son compatibles con el texto de PhotoFont.
-* La sintaxis de negrita, cursiva y negrita/cursiva se rechaza como error para el texto de PhotoFont.
-* El flujo de texto vertical no es compatible con el texto PhotoFont.
-* Las imágenes PNG de 16 bpc no son compatibles con el texto PhotoFont.
-* Las correcciones de color para imágenes PNG con perfiles de color incrustados utilizan opciones codificadas. La interpretación es colorimétrica relativa y la compensación de punto negro está activada para el texto PhotoFont.
-* La búsqueda basada en archivos no se admite cuando la traducción de configuración regional está habilitada en la empresa [!DNL ini] archivo.
+* Colores de primer plano en formato RTF ( `\cf`) no son compatibles con el texto de PhotoFont.
+* La síntesis de negrita, cursiva y negrita/cursiva se rechaza como error para el texto de PhotoFont.
+* El flujo de texto vertical no es compatible con el texto de PhotoFont.
+* Las imágenes PNG de 16 bpc no son compatibles con el texto de PhotoFont.
+* Las correcciones de color para imágenes PNG con perfiles de color incrustados utilizan opciones codificadas. La interpretación es colorimétrica relativa y la compensación de punto negro está activada para el texto de PhotoFont.
+* La búsqueda basada en archivos no es compatible cuando la traducción de configuración regional está habilitada en la empresa [!DNL ini] archivo.
 * El servicio de imágenes no escribe sin cerrar [!DNL Photoshop] rutas correctamente.
-* El servicio de imágenes actualmente no admite el procesamiento de archivos TIFF exportados con Adobe Media Encoder 4.0.1 o versiones anteriores. Adobe Media Encoder se incluye con Premiere Pro CS4, After Effects CS4 y Creative Suite 4 Production Premium.
-* Uso `text=` con capas de tamaño automático no admite cadenas RTF que utilicen más de un ajuste para la justificación de líneas.
+* Actualmente, el servicio de imágenes no admite el procesamiento de archivos de TIFF exportados con Adobe Media Encoder 4.0.1 o versiones anteriores. Adobe Media Encoder se incluye con Premiere Pro CS4, After Effects CS4 y Creative Suite 4 Production Premium.
+* Uso de `text=` con capas de tamaño propio no admite cadenas RTF que utilicen más de una configuración para la justificación de líneas.
 
    *Ejemplo*
 
-   La cadena RTF no puede utilizar justificación de línea izquierda y derecha para una capa de texto de tamaño automático.
+   La cadena RTF no puede utilizar justificación de línea izquierda y derecha para una capa de texto de tamaño personalizado.
 
-* SVG tiene su propia propiedad para la ruta de búsqueda de fuentes de las fuentes a las que se hace referencia que no están incrustadas en el archivo SVG.
+* SVG tiene su propia propiedad para la ruta de búsqueda de fuentes de referencia que no están incrustadas en el archivo del SVG.
 
    *Síntomas*
 
-   Las imágenes SVG procesadas que contienen definiciones de fuente utilizan una fuente incorrecta.
+   Las imágenes de SVG procesadas que contienen definiciones de fuentes utilizan la fuente incorrecta.
 
    *Solución*
 
-   Establecer la propiedad `svgProvider.fontRoot=` en [!DNL install_root/ImageServing/conf/PlatformServer.conf] .
+   Establezca la propiedad `svgProvider.fontRoot=` in [!DNL install_root/ImageServing/conf/PlatformServer.conf] .
 
-* El recorte se está utilizando `bgColor=` en lugar de `color=` para rellenar cualquier área recién extendida.
+* El recorte está utilizando actualmente `bgColor=` en lugar de `color=` para rellenar cualquier área recién extendida.
 
-* Es posible que la conversión de color no sea correcta cuando `bgColor=` no coincide con el espacio de color base que implica perfiles de color.
-* Los efectos de capa exterior no se representan si la capa no tiene una máscara o datos alfa.
+* La conversión de color puede no ser correcta cuando `bgColor=` no coincide con el espacio de color base que implica perfiles de color.
+* Los efectos de capa externa no se representan si la capa no tiene una máscara o datos alfa.
 
-## Restricciones aplicables únicamente a la representación de imágenes {#section-4c6949e797174607a3d1ab4d3d4a725a}
+## Restricciones aplicables solo a Image Rendering {#section-4c6949e797174607a3d1ab4d3d4a725a}
 
-* Las cubiertas y los materiales murales no son extraíbles.
-* El tamaño de las texturas está limitado en relación con el tamaño de la vista de viñeta. En raras ocasiones, el límite predeterminado del 425% del tamaño de la vista puede interferir con una aplicación que utiliza texturas no repetibles muy grandes. Si no es posible cambiar la aplicación o el contenido para que funcionen dentro de las limitaciones predefinidas, el porcentaje se puede aumentar de la siguiente manera. Con un editor de texto, abra [!DNL install_root/ImageServing/conf/ImageServerRegistry.xml], localizar `IrMaxTextureSizeFactor` e introduzca un nuevo valor de porcentaje. El cambio entra en vigor inmediatamente sin reiniciar el servidor de imágenes.
+* Las calcomanías y los materiales de pared no son extraíbles.
+* El tamaño de las texturas está limitado en relación con el tamaño de la vista de la viñeta. En circunstancias excepcionales, el límite predeterminado del 425% del tamaño de la vista puede interferir con una aplicación que utiliza texturas no repetibles muy grandes. Si no es posible cambiar la aplicación o el contenido para que funcione dentro de las limitaciones predefinidas, el porcentaje se puede aumentar de la siguiente manera. Con un editor de texto, abra [!DNL install_root/ImageServing/conf/ImageServerRegistry.xml], localice `IrMaxTextureSizeFactor` e introduzca un nuevo valor porcentual. El cambio surtirá efecto inmediatamente sin reiniciar el servidor de imágenes.
 
-* Los motores JavaScript de Netscape y Opera responden a la caché aunque esté establecido el encabezado nocache. Esto interfiere con el correcto funcionamiento de las solicitudes de declaración.
+* Los motores JavaScript de Netscape y Opera almacenan los datos de respuesta en caché incluso si se ha definido el encabezado nocache. Esto interfiere con el funcionamiento adecuado de las solicitudes con estado.
 
    *Solución*
 
    Anexe una marca de tiempo u otro identificador único a la cadena de solicitud, como `"&.ts=currentTime`.
 
-## Restricciones aplicables únicamente a las utilidades {#section-906a6b2378154b3da122b2332983f7a5}
+## Restricciones aplicables solo a las utilidades {#section-906a6b2378154b3da122b2332983f7a5}
 
 `ImageConvert`a veces se bloquea con un error de segmentación cuando se detiene con un `control-c`.

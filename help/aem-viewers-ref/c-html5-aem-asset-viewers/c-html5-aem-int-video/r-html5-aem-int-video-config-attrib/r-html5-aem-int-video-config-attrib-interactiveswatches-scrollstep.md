@@ -8,7 +8,7 @@ exl-id: 15bf7af8-428b-4c1c-b7ad-004563347d7c
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '65'
-ht-degree: 9%
+ht-degree: 7%
 
 ---
 
@@ -22,7 +22,7 @@ Atributo de configuración para el visualizador de vídeo interactivo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> paso</span></span> </p> </td> 
-   <td colname="col2"> <p>Especifica el número de muestras que se desplazarán para cada toque del botón de desplazamiento correspondiente. </p> <p>Si el valor especificado es bueno que el número de muestras interactivas visibles, cada toque solo se desplaza por el número de muestras visibles para evitar que se omita cualquier muestra. </p> </td> 
+   <td colname="col2"> <p>Especifica el número de muestras que se desplazarán para cada toque el botón de desplazamiento correspondiente. </p> <p>Si el valor especificado es bueno que el número de muestras interactivas visibles, cada toque solo se desplaza según el número de muestras visibles para evitar la omisión de cualquier muestra. </p> </td> 
   </tr> 
  </tbody> 
 </table>

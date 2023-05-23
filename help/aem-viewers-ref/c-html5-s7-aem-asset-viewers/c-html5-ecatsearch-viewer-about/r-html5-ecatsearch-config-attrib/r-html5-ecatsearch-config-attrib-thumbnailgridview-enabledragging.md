@@ -2,13 +2,13 @@
 description: ThumbnailGridView.enabledragging
 solution: Experience Manager
 title: ThumbnailGridView.enabledragging
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Búsqueda de catálogos electrónicos
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 011ef772-6760-4794-819e-2a822fbae1b5
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 6%
+source-wordcount: '75'
+ht-degree: 5%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td> <p> Habilita o deshabilita la capacidad de un usuario para desplazarse por las muestras con un ratón o mediante gestos táctiles </p> </td> 
+   <td> <p> Activa o desactiva la capacidad del usuario de desplazar muestras con un ratón o mediante gestos táctiles </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> overdragvalue  </span> </span> </p> </td> 
-   <td> <p> Funciones dentro del rango <span class="codeph"> 0-1 </span>. Es un valor <span class="codeph"> % </span> para el movimiento en la dirección incorrecta de la velocidad real. Si se establece en <span class="codeph"> 1 </span>, se mueve con el ratón. Si se establece en <span class="codeph"> 0 </span>, no le permite moverse en la dirección incorrecta. </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> overdragvalue </span> </span> </p> </td> 
+   <td> <p> Funciones dentro de <span class="codeph"> 0-1 </span> rango. Es un <span class="codeph"> % </span> valor para el movimiento en una dirección incorrecta de la velocidad real. Si se establece en <span class="codeph"> 1 </span>, se mueve con el ratón. Si se establece en <span class="codeph"> 0 </span>Sin embargo, no le permite moverse en la dirección incorrecta. </p> </td> 
   </tr> 
  </tbody> 
 </table>

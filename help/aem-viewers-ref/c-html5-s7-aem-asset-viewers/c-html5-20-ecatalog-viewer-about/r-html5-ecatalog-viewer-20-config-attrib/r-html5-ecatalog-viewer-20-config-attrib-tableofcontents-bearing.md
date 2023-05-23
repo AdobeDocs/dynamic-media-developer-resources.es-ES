@@ -20,11 +20,11 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> fit-lateral|fit-vertical</span> </p> </td> 
-   <td> <p> Controla la dirección del aspecto del panel desplegable. </p> <p>Cuando se configura como <span class="codeph"> ajuste vertical</span>, el componente cambia primero la posición del panel base a la parte inferior de su botón e intenta desplegar el panel a la derecha o a la izquierda desde la ubicación base. Con cada intento, el componente comprueba si el panel está recortado por un contenedor exterior. Si todos los intentos fallan, el componente intenta cambiar la posición del panel base a la parte superior y repetir los intentos de despliegue en la dirección derecha e izquierda. </p> <p>Cuando se configura como <span class="codeph"> fit-lateral</span>, el componente utiliza una lógica similar, pero cambia la base a la derecha primero, intentando bajar y subir las direcciones de despliegue. Luego, desplaza la base hacia la izquierda, tratando de bajar y subir las direcciones de despliegue. </p> </td> 
+   <td> <p> Controla la dirección de la apariencia del panel desplegable. </p> <p>Cuando se establece en <span class="codeph"> fit-vertical</span>, el componente primero cambia la posición del panel base a la parte inferior de su botón e intenta desplegar el panel a la derecha o a la izquierda desde la ubicación base. Con cada intento, el componente comprueba si el panel está recortado por un contenedor externo. Si todos los intentos fallan, el componente intenta desplazar la posición del panel base a la parte superior y repetir los intentos de despliegue en la dirección derecha e izquierda. </p> <p>Cuando se establece en <span class="codeph"> fit-lateral</span>, el componente utiliza una lógica similar, pero desplaza la base a la derecha primero, intentando hacia abajo y hacia arriba en las direcciones de despliegue. A continuación, desplaza la base hacia la izquierda, intentando bajar y subir las direcciones de despliegue. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> autoHideDelay</span></span> </p> </td> 
-   <td> <p> Establece el retraso en segundos para el temporizador de ocultación automática desplegable que oculta el panel cuando un usuario está inactivo. </p> </td> 
+   <td> <p> Establece el retraso en segundos del temporizador desplegable de ocultación automática que oculta el panel cuando un usuario está inactivo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

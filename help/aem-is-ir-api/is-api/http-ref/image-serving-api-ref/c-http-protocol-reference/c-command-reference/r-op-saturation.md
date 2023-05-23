@@ -1,5 +1,5 @@
 ---
-description: Ajustar la saturación. Cambia la saturación de cada píxel visible de la capa o imagen compuesta.
+description: Ajuste la saturación. Cambia la saturación de cada píxel visible de la capa o imagen compuesta.
 solution: Experience Manager
 title: op_saturation
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: cd71e27e-6ccc-4ade-9bcf-af8e41bcf381
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 3%
+source-wordcount: '90'
+ht-degree: 2%
 
 ---
 
 # op_saturation{#op-saturation}
 
-Ajustar la saturación. Cambia la saturación de cada píxel visible de la capa o imagen compuesta.
+Ajuste la saturación. Cambia la saturación de cada píxel visible de la capa o imagen compuesta.
 
 `op_saturation= *`adj`*`
 
@@ -25,18 +25,18 @@ Ajustar la saturación. Cambia la saturación de cada píxel visible de la capa 
  </tr> 
 </table>
 
-`op_saturation=-100` desatura completamente la imagen.
+`op_saturation=-100` desaturar completamente la imagen.
 
 ## Propiedades {#section-9a3cc9ff060049449554dfa69d92fd53}
 
-Capa. Se aplica a la capa actual o a la imagen compuesta si `layer=comp`. Ignorado por capas de efecto.
+Capa, comando. Se aplica a la capa actual o a la imagen compuesta si `layer=comp`. Ignorado por las capas de efecto.
 
 ## Predeterminado {#section-ef0e78f55c8b4d22aee09104dad6410a}
 
-`op_saturation=0`, sin ningún cambio en la saturación. Las imágenes o capas CMYK se convierten a RGB antes de aplicar la operación.
+`op_saturation=0`, para no cambiar la saturación. Las imágenes o capas CMYK se convierten en RGB antes de que se aplique la operación.
 
 ## Ejemplo {#section-033b272f1b7e4efeb94e841fd8095357}
 
-Manipule una fotografía en color para conseguir un aspecto &quot;de gran nitidez&quot;:
+Manipule una fotografía en color para lograr una apariencia &quot;de alta definición&quot;:
 
 `http://server/myRootId/myImageId?op_saturation=-60&op_brightness=45&op_contrast=-35`

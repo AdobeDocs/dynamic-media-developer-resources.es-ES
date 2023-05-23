@@ -33,7 +33,7 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyName | `xsd:string` | Sí | El identificador de la empresa con la imagen que desea reemplazar. |
+| companyName | `xsd:string` | Sí | El identificador de la compañía con la imagen que desea reemplazar. |
 | assetHandle | `xsd:string` | Sí | El identificador del recurso que desea reemplazar. |
 | urlModifier | `xsd:string` | Sí | Comandos del servidor de imágenes que generan nuevos datos de imagen. |
 
@@ -41,11 +41,11 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| assetHandle | `xsd:string` | Sí | Gestionar en el nuevo recurso. |
+| assetHandle | `xsd:string` | Sí | Administrar en el nuevo recurso. |
 
 ## Ejemplos {#section-cebb93576bde4cb98cb27356ca66783b}
 
-Este ejemplo de código reemplaza una imagen y aplica una `urlModifier` con un comando que especifica que el servidor de imágenes no realizará ninguna acción al reemplazar.
+Este ejemplo de código reemplaza una imagen y y aplica una `urlModifier` con un comando que especifica que el servidor de imágenes no realizará ninguna acción tras el reemplazo.
 
 **Solicitar**
 

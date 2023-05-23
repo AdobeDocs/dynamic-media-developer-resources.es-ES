@@ -37,12 +37,12 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL animatedGifInfo]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:AnimatedGifInfo</span> </td> 
-   <td colname="col3"> Detalles sobre un archivo GIF animado. </td> 
+   <td colname="col3"> Detalles sobre un archivo de GIF animado. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL assetHandle]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Identificador de recurso. </td> 
+   <td colname="col3"> Controlador de recurso. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL assetSetInfo]</span> </span> </td> 
@@ -51,8 +51,8 @@ Sintaxis
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL cabinetInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:InformaciónGabinete</span> </td> 
-   <td colname="col3"> Propiedades de un tipo de recurso archivador. </td> 
+   <td colname="col2"> <span class="codeph"> tipos:InformaciónArchivador</span> </td> 
+   <td colname="col3"> Propiedades para un tipo de recurso de archivador. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL created]</span> </span> </td> 
@@ -97,11 +97,11 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL folderHandle]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Gestione en la carpeta principal del recurso. </td> 
+   <td colname="col3"> Administre en la carpeta principal del recurso. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL fontInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipo:fontInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> type:fontInfo</span> </td> 
    <td colname="col3"> Propiedades de un recurso de fuente. </td> 
   </tr> 
   <tr> 
@@ -127,7 +127,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL ipsImageUrl]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Dirección URL relativa que representa una vista en miniatura del recurso. </td> 
+   <td colname="col3"> URL relativa que representa una vista en miniatura del recurso. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL javascriptInfo]</span> </span> </td> 
@@ -217,7 +217,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL renderSceneInfo]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:RenderSceneInfo</span> </td> 
-   <td colname="col3"> Propiedades de un recurso de escena de renderización. </td> 
+   <td colname="col3"> Propiedades de un recurso de escena de procesamiento. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL rtfInfo]</span> </span> </td> 
@@ -247,7 +247,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL trashState]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Indica si un recurso está en la papelera o activo (consulte "Estado de la papelera" para ver los valores). </td> 
+   <td colname="col3"> Indica si un recurso está en la papelera o activo (consulte "Estado de papelera" para ver los valores). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL type]</span> </span> </td> 
@@ -267,7 +267,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL viewerPresetInfo]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:ViewerPresetInfo</span> </td> 
-   <td colname="col3"> Propiedades de un recurso preestablecido de visualizador. </td> 
+   <td colname="col3"> Propiedades de un recurso de ajuste preestablecido de visualizador. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL viewerSwfInfo]</span> </span> </td> 
@@ -276,7 +276,7 @@ Sintaxis
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL vignetteInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:VignetteInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:InformaciónDeViñeta</span> </td> 
    <td colname="col3"> Propiedades de un recurso de viñeta. </td> 
   </tr> 
   <tr> 

@@ -62,7 +62,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL width]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> <p>Anchura de la imagen en píxeles. </p> </td> 
+   <td colname="col3"> <p>Ancho de la imagen en píxeles. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL height]</span> </span> </td> 
@@ -77,7 +77,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL resolution]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
-   <td colname="col3"> <p>Píxeles por pulgada. </p> </td> 
+   <td colname="col3"> <p>Píxeles por pulgada </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL sku]</span> </span> </td> 
@@ -112,17 +112,17 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL urlModifier]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Parámetro URL del servidor de imágenes. </p> </td> 
+   <td colname="col3"> <p>Parámetro de URL del servidor de imágenes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL urlPostApplyModifier]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Parámetros concatenados al final del <span class="codeph"> urlModifier</span>. Consulta de la lista de parámetros que son comandos para el servidor de imágenes. Los valores se encuentran en la guía de protocolo del servidor de imágenes. </p> </td> 
+   <td colname="col3"> <p>Parámetros concatenados al final del <span class="codeph"> urlModifier</span>. La lista de formatos de cadena de consulta de parámetros que son comandos para el servidor de imágenes. Los valores se muestran en la guía de protocolo del servidor de imágenes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL zoomTargets]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:ZoomTargetArray</span> </td> 
-   <td colname="col3"> <p>Matriz de destinos de zoom (5 máx.). </p> </td> 
+   <td colname="col3"> <p>Matriz de destinos de zoom (5 máx.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL masks]</span> </span> </td> 
@@ -132,7 +132,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL imageMaps]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:ImageMapsArray</span> </td> 
-   <td colname="col3"> <p>Matriz de mapas de imágenes. </p> </td> 
+   <td colname="col3"> <p>Matriz de mapas de imagen. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -8,13 +8,13 @@ exl-id: a0547ada-3d8f-4ec2-a7e4-424fd1a78a28
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
 source-wordcount: '97'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
 # estilo{#style}
 
-Puede aplicar el siguiente comando tanto desde la cadena de consulta de URL como desde la configuración. El comando aplicado en la cadena de consulta de URL siempre tiene prioridad sobre el mismo comando presente en la configuración.
+Puede aplicar el siguiente comando desde la cadena de consulta URL y la configuración. El comando aplicado en la cadena de consulta URL siempre tiene prioridad sobre el mismo comando presente en la configuración.
 
 `style= *`cssPath`*`
 
@@ -22,12 +22,12 @@ Puede aplicar el siguiente comando tanto desde la cadena de consulta de URL como
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> cssPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> Ubicación CSS relativa o absoluta. </p> <p>Especifica la ubicación del archivo CSS personalizado. Si el <span class="codeph"><span class="varname"> cssPath</span></span> es relativo, se resuelve en relación con la ubicación de la página HTML del visor y el valor del parámetro <span class="codeph"> contentUrl=</span>. </p> </td> 
+   <td colname="col2"> <p> Ubicación CSS relativa o absoluta. </p> <p>Especifica la ubicación del archivo CSS personalizado. Si la variable <span class="codeph"><span class="varname"> cssPath</span></span> es relativo, se resuelve con la ubicación de la página del HTML del visor y el valor de <span class="codeph"> contentUrl=</span> parámetro. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Todas las referencias de recursos dentro del archivo CSS se resuelven en la ubicación del archivo CSS, no en la ubicación de la página HTML que realiza la llamada.
+Todas las referencias de recursos dentro del archivo CSS se resuelven en la ubicación del archivo CSS, no en la ubicación de la página del HTML que realiza la llamada.
 
 ## Propiedades {#section-8ce2a4493d454d97a9975fc7f9f4eb2c}
 

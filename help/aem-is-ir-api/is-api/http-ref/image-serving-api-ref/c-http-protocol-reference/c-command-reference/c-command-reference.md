@@ -1,6 +1,6 @@
 ---
-title: Referencia de comandos
-description: Esta sección describe los comandos del protocolo HTTP.
+title: Referencia de comando
+description: En esta sección se describen los comandos del protocolo HTTP.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,23 +12,23 @@ ht-degree: 6%
 
 ---
 
-# Referencia de comandos{#command-reference}
+# Referencia de comando{#command-reference}
 
-Esta sección describe los comandos del protocolo HTTP.
+En esta sección se describen los comandos del protocolo HTTP.
 
 >[!TIP]
 >
->Pruebe y descubra las ventajas de los modificadores de imágenes de Dynamic Media y de la Imágenes inteligentes con Dynamic Media [_Instantánea_](https://snapshot.scene7.com/).
+>Pruebe y descubra las ventajas de los modificadores de imagen de Dynamic Media y de las imágenes inteligentes con Dynamic Media [_Instantánea_](https://snapshot.scene7.com/).
 >
-> La instantánea es una herramienta visual de demostración diseñada para ilustrar el poder de Dynamic Media para la entrega de imágenes optimizada y dinámica. Experimente con imágenes de prueba o URL de Dynamic Media para observar visualmente el resultado de varios modificadores de imagen de Dynamic Media y optimizaciones de imágenes inteligentes para lo siguiente:
->* Tamaño del archivo (con entrega de WebP y AVIF)
->* Ancho de banda de la red
+> Snapshot es una herramienta de demostración visual diseñada para ilustrar la potencia de Dynamic Media para la entrega de imágenes optimizadas y dinámicas. Experimente con imágenes de prueba o direcciones URL de Dynamic Media para observar visualmente la salida de varios modificadores de imagen de Dynamic Media y optimizaciones de imágenes inteligentes para lo siguiente:
+>* Tamaño de archivo (con envío WebP y AVIF)
+>* Ancho de banda de red
 >* DPR (proporción de píxeles del dispositivo)
 >
->Para aprender lo fácil que es utilizar la instantánea, reproduzca el [Vídeo de formación de instantáneas](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) (3 minutos y 17 segundos).
+>Para aprender lo fácil que es usar Snapshot, juegue el [Vídeo de formación de instantáneas](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) (3 minutos y 17 segundos).
 
 
-**Solo para Dynamic Media en Adobe Experience Manager** - Más allá de la configuración de imagen básica disponible en la interfaz de usuario, [!DNL Dynamic Media] en AEM ( [!DNL Adobe Experience Manager]) admite numerosas modificaciones de imagen avanzadas que se pueden especificar en la variable **Modificadores de imagen** campo . Estos parámetros se definen a continuación. Sin embargo, tenga en cuenta que la siguiente funcionalidad no es compatible con Dynamic Media en AEM.
+**Solo para Dynamic Media en Adobe Experience Manager** - Más allá de los ajustes de imagen básicos disponibles en la interfaz de usuario, [!DNL Dynamic Media] AEM en la [!DNL Adobe Experience Manager]) admite varias modificaciones avanzadas de imagen que puede especificar en la variable **Modificadores de imagen** field. Estos parámetros se definen a continuación. Sin embargo, tenga en cuenta que la siguiente funcionalidad no es compatible con Dynamic Media AEM en el caso de los usuarios de.
 
 * Comandos de corrección de color: `icc=` y `iccEmbed=`.
 * Plantillas básicas y comandos de renderización de texto: `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` y `textPs=`.
@@ -38,29 +38,29 @@ Esta sección describe los comandos del protocolo HTTP.
 * `req=saveToFile`
 * `req=targets`
 * `template=`
-* Servicios Dynamic Media no principales: SVG, procesamiento de imágenes e impresión virtual.
+* Servicios no principales de Dynamic Media: SVG, procesamiento de imágenes y web para impresión.
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-Consulte también Dynamic Media [Opciones de ajustes preestablecidos de imagen](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) en la documentación de AEM 6.5.
+Consulte también Dynamic Media [Opciones de ajustes preestablecidos de imagen](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) AEM en la documentación de 6.5.
 
-* [align](r-align.md)
+* [alinear](r-align.md)
 * [delimitador](r-anchor.md)
 * [bfc](r-bfc.md)
 * [bgc](r-bgc.md)
 * [bgColor](r-bgcolor.md)
 * [blendMode](r-blendmode.md)
-* [cache](r-is-http-cache.md)
+* [escondrijo](r-is-http-cache.md)
 * [clipPath](r-clippath.md)
 * [clipXPath](r-clipxpath.md)
 * [color](r-color-commandref.md)
-* [recortar](r-crop.md)
+* [recorte](r-crop.md)
 * [cropPathE](r-croppath.md)
 * [defaultImage](r-is-http-defaultimage.md)
-* [effect](r-effect.md)
+* [efecto](r-effect.md)
 * [effectMask](r-effectmask.md)
-* [ampliar](r-extend.md)
-* [fit](r-fit.md)
+* [extender](r-extend.md)
+* [ajuste](r-fit.md)
 * [voltear](r-flip.md)
 * [fmt](r-is-http-fmt.md)
 * [hei](r-is-http-hei.md)
@@ -73,16 +73,16 @@ Consulte también Dynamic Media [Opciones de ajustes preestablecidos de imagen](
 * [capa](r-layer.md)
 * [configuración regional](r-locale.md)
 * [mapa](r-map.md)
-* [mask](r-mask.md)
+* [enmascarar](r-mask.md)
 * [maskUse](r-maskuse.md)
 * [op_blur](r-op-blur.md)
 * [op_bright](r-op-brightness.md)
 * [op_colorbalance](r-op-colorbalance.md)
 * [op_colorize](r-op-colorize.md)
 * [op_contrast](r-op-contrast.md)
-* [op_growth](r-op-grow.md)
-* [op_growthMask](r-op-growmask.md)
-* [op_growthMaskR](r-op-growmaskr.md)
+* [op_grew](r-op-grow.md)
+* [op_grewMask](r-op-growmask.md)
+* [op_grewMaskR](r-op-growmaskr.md)
 * [op_hue](r-op-hue.md)
 * [op_invert](r-op-invert.md)
 * [op_sound](r-op-noise.md)
@@ -90,8 +90,8 @@ Consulte también Dynamic Media [Opciones de ajustes preestablecidos de imagen](
 * [op_sharpen](r-op-sharpen.md)
 * [op_usm](r-op-usm.md)
 * [op_usmR](r-op-usmr.md)
-* [opac](r-opac.md)
-* [origin](r-origin.md)
+* [opaco](r-opac.md)
+* [origen](r-origin.md)
 * [pathAttr](r-pathattr.md)
 * [pathEmbed](r-pathembed.md)
 * [perspectiva](r-perspective.md)
@@ -100,7 +100,7 @@ Consulte también Dynamic Media [Opciones de ajustes preestablecidos de imagen](
 * [pscan](r-pscan.md)
 * [qlt](r-is-http-qlt.md)
 * [cuantificar](r-is-http-quantize.md)
-* [rect](r-rect.md)
+* [recto](r-rect.md)
 * [req](r-req/r-req.md)
 * [res](r-res.md)
 * [resMode](r-is-http-resmode.md)

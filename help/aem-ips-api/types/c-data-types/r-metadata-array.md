@@ -1,5 +1,5 @@
 ---
-description: Matriz de metadatos.
+description: Una matriz de metadatos.
 solution: Experience Manager
 title: MetadataArray
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,7 +14,7 @@ ht-degree: 23%
 
 # [!DNL MetadataArray]{#metadataarray}
 
-Matriz de metadatos.
+Una matriz de metadatos.
 
 Sintaxis
 
@@ -31,8 +31,8 @@ Sintaxis
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> items</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> type:Metadata</span> </p> </td> 
-   <td colname="col3"> <p>Matriz de metadatos. </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> tipo:Metadatos</span> </p> </td> 
+   <td colname="col3"> <p>Una matriz de metadatos. </p> </td> 
   </tr> 
  </tbody> 
 </table>

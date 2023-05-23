@@ -1,5 +1,5 @@
 ---
-description: Propiedades de un recurso preestablecido de visualizador.
+description: Propiedades de un recurso de ajuste preestablecido de visualizador.
 solution: Experience Manager
 title: ViewerPresetInfo
 feature: Dynamic Media Classic,SDK/API,Viewer Presets
@@ -14,7 +14,7 @@ ht-degree: 21%
 
 # [!DNL ViewerPresetInfo]{#viewerpresetinfo}
 
-Propiedades de un recurso preestablecido de visualizador.
+Propiedades de un recurso de ajuste preestablecido de visualizador.
 
 Sintaxis
 
@@ -22,5 +22,5 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| tipo | `xsd:string` | Opción del tipo de visor. |
+| tipo | `xsd:string` | Elección del tipo de visor. |
 | configSettingArray | `types:ConfigSettingArray` | Matriz de ajustes de configuración del visor. |

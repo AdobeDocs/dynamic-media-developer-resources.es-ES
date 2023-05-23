@@ -1,6 +1,6 @@
 ---
-title: Soporte técnico de asistencia
-description: Todos los componentes del visor admiten las funciones y atributos de ARIA (Aplicaciones de Internet enriquecidas accesibles) para mejorar la integración con tecnologías de asistencia, como lectores de pantalla.
+title: Soporte de tecnología de asistencia
+description: Todos los componentes del visor admiten los roles y atributos ARIA (Aplicaciones de Internet enriquecidas accesibles) para mejorar la integración con tecnologías de asistencia como lectores de pantalla.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog,Accessibility
 role: Developer,User
@@ -12,22 +12,22 @@ ht-degree: 0%
 
 ---
 
-# Soporte técnico de asistencia{#assistive-technology-support}
+# Soporte de tecnología de asistencia{#assistive-technology-support}
 
-Todos los componentes del visor admiten las funciones y atributos de ARIA (Aplicaciones de Internet enriquecidas accesibles) para mejorar la integración con tecnologías de asistencia, como lectores de pantalla.
+Todos los componentes del visor admiten los roles y atributos ARIA (Aplicaciones de Internet enriquecidas accesibles) para mejorar la integración con tecnologías de asistencia como lectores de pantalla.
 
-El elemento del visualizador de nivel superior tiene una función `region` y `aria-label` establecido de forma predeterminada en el nombre del visor. Puede controlar la etiqueta con la variable `Container.LABEL` símbolo de localización.
+El elemento de visor de nivel superior tiene una función `region` y `aria-label` de forma predeterminada, se establece en el nombre del visor. Puede controlar la etiqueta con `Container.LABEL` símbolo de localización.
 
-Los botones tienen la función `button` y el texto descriptivo configurado con la variable `aria-label` atributo. El valor de `aria-label` se rellena a partir del valor del símbolo de localización del botón. Cuando un botón está desactivado, la variable `aria-disabled` se establece en consecuencia.
+Los botones tienen la función `button` y texto descriptivo definido con la variable `aria-label` atributo. El valor de `aria-label` se rellena a partir del valor del símbolo de localización del botón. Cuando se deshabilita un botón, la variable `aria-disabled` se establece en consecuencia.
 
-La vista principal tiene una función `application`. Puede obtener una breve descripción de la vista principal en `aria-roledescription`, con el valor definido por la variable `ROLE_DESCRIPTION` símbolo de localización del componente de vista principal correspondiente. Se proporcionan sugerencias de navegación para los usuarios del teclado mediante `aria-describedby`, el texto de la sugerencia de uso proviene del `USAGE_HINT` símbolo de localización. Si un recurso tiene una etiqueta definida en el campo UserData , la variable `aria-label` se configura con el valor de dicha etiqueta.
+La vista principal tiene su función `application`. Se proporciona una breve descripción de la vista principal en `aria-roledescription`, con el valor definido por el `ROLE_DESCRIPTION` símbolo de localización del componente de vista principal correspondiente. Las sugerencias de navegación para los usuarios del teclado se proporcionan utilizando `aria-describedby`, el texto de la sugerencia de uso proviene del `USAGE_HINT` símbolo de localización. Si un recurso tiene una etiqueta definida en el campo UserData, la variable `aria-label` se establece con el valor de dicha etiqueta.
 
-Los puntos activos, las regiones y los mapas de imágenes tienen la función `button` y el texto descriptivo configurado con `aria-label` , con el valor de la etiqueta de zona activa o mapa de imagen. Cuando el usuario se centra en puntos interactivos o mapas de imágenes, se proporcionan sugerencias de navegación para los usuarios del teclado mediante `aria-describedby`, con el texto para las sugerencias de uso procedentes de la variable `USAGE_HINT` símbolo de localización.
+Los puntos interactivos, las regiones y los mapas de imagen tienen la función `button` y texto descriptivo configurado con `aria-label` atributo, con el valor de la etiqueta de punto interactivo o de mapa de imagen. Cuando el usuario se centra en zonas activas o mapas de imagen, se proporcionan sugerencias de navegación para los usuarios del teclado mediante `aria-describedby`, con el texto de la sugerencia de uso procedente de `USAGE_HINT` símbolo de localización.
 
-Las miniaturas tienen la función `dialog` con `aria-label` el atributo controlado por la variable `ThumbnailGridView.LABEL` símbolo de localización. Las miniaturas individuales tienen una función `button`. Si se selecciona una miniatura, obtiene `aria-selected` establecido en `true`.
+Las miniaturas tienen la función `dialog` con `aria-label` controlado por el `ThumbnailGridView.LABEL` símbolo de localización. Las miniaturas individuales tienen un rol `button`. Si se selecciona una miniatura, se obtiene `aria-selected` atributo establecido en `true`.
 
-Los componentes que muestran muestras tienen la función `listbox` con `aria-label` establecido en el valor de la variable `LABEL` símbolo de localización de ese componente. Las muestras individuales tienen la función `option` con `aria-setsize` y `aria-posinset` para describir la posición de la muestra en el conjunto. Si se selecciona una muestra, se obtiene la variable `aria-selected` establecido en `true`.
+Los componentes que muestran muestras tienen la función `listbox` con `aria-label` atributo establecido en el valor de `LABEL` símbolo de localización de ese componente. Las muestras individuales tienen la función `option` con `aria-setsize` y `aria-posinset` atributos para describir la posición de la muestra en el conjunto. Si se selecciona una muestra, se obtiene la variable `aria-selected` atributo establecido en `true`.
 
-Las listas desplegables se activan mediante botones con botones adicionales `aria-haspopup` establecido en `true` y `aria-controls` que hace referencia al elemento real del panel desplegable. El propio panel desplegable tiene la función `menu` con subelementos que tengan la función `menuitem`. Cada elemento de menú tiene la variable `aria-label` atributo especificado.
+Las listas desplegables se activan mediante botones con `aria-haspopup` atributo establecido en `true` y el `aria-controls` que hace referencia al elemento de panel desplegable real. El panel desplegable en sí tiene la función `menu` con subelementos que tienen la función `menuitem`. Cada elemento de menú tiene el `aria-label` atributo especificado.
 
-Los cuadros de diálogo modal tienen la función `dialog`. El elemento de encabezado del cuadro de diálogo al que hace referencia el `aria-labelledby` atributo.
+Los cuadros de diálogo modales tienen la función `dialog`. El elemento header del cuadro de diálogo es referenciado por la variable `aria-labelledby` atributo.

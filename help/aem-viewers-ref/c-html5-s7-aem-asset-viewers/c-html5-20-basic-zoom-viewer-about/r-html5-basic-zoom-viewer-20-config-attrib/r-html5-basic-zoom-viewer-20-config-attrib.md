@@ -1,6 +1,6 @@
 ---
-title: 'Referencia de comandos: Atributos de configuración'
-description: Documentación de atributos de configuración para el visor de zoom básico.
+title: 'Referencia de comando: atributos de configuración'
+description: Documentación de atributos de configuración para el Visor de zoom básico.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
@@ -12,10 +12,10 @@ ht-degree: 0%
 
 ---
 
-# Referencia de comandos: Atributos de configuración{#command-reference-configuration-attributes}
+# Referencia de comando: atributos de configuración{#command-reference-configuration-attributes}
 
-Documentación de atributos de configuración para el visor de zoom básico.
+Documentación de atributos de configuración para el Visor de zoom básico.
 
 <!--<a id="section_F52FF0F139604447A870ABE6E1C03444"></a>-->
 
-Consulte también [Referencia de comando común a todos los visores: Atributos de configuración](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)
+Consulte también [Referencia de comando común a todos los visores: atributos de configuración](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)

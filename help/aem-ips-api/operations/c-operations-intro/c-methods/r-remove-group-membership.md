@@ -1,5 +1,5 @@
 ---
-description: Elimina usuarios de una matriz de grupos.
+description: Quita usuarios de una matriz de grupos.
 solution: Experience Manager
 title: removeGroupMembership
 feature: Dynamic Media Classic,SDK/API
@@ -14,12 +14,12 @@ ht-degree: 10%
 
 # removeGroupMembership{#removegroupmembership}
 
-Elimina usuarios de una matriz de grupos.
+Quita usuarios de una matriz de grupos.
 
 **Diferencias entre los comandos Quitar**
 
-* `removeGroupMembers`: Quita varios usuarios de un grupo.
-* `removeGroupMembership`: Quita un usuario individual de una matriz de grupos.
+* `removeGroupMembers`: elimina varios usuarios de un grupo.
+* `removeGroupMembership`: quita un usuario individual de una matriz de grupos.
 
 ## Tipos de usuarios autorizados {#section-83f3048bbe5a4f62b7b14dc9efdd951a}
 
@@ -33,16 +33,16 @@ Elimina usuarios de una matriz de grupos.
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| userHandle | `xsd:string` | No | El identificador de la empresa cuya pertenencia a grupo desea eliminar. |
-| groupHandleArray | `types:HandleArray` | Sí | Matriz de identificadores a grupos de los que desea eliminar la empresa. |
+| userHandle | `xsd:string` | No | El identificador de la compañía cuya pertenencia al grupo desea eliminar. |
+| groupHandleArray | `types:HandleArray` | Sí | Matriz de identificadores de los grupos de los que desea quitar la compañía. |
 
 **Salida (removeGroupMembershipReturn)**
 
-La API IPS no devuelve una respuesta para esta operación.
+La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-f8d4181170a243efb9faf5824ae96197}
 
-Este ejemplo de código elimina a un usuario de un grupo.
+Este ejemplo de código quita un usuario de un grupo.
 
 **Solicitar**
 

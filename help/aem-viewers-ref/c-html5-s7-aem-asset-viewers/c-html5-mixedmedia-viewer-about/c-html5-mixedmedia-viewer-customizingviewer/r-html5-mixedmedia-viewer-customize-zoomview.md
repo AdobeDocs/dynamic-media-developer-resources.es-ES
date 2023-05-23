@@ -18,7 +18,7 @@ En el modo de zoom continuo, la vista principal consiste en la imagen ampliable 
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propiedades CSS del área principal del visor**
+**Propiedades CSS del área del visor principal**
 
 El aspecto del área de visualización se controla con el siguiente selector de clase CSS:
 
@@ -29,7 +29,7 @@ El aspecto del área de visualización se controla con el siguiente selector de 
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS, propiedad </p> </th> 
+   <th colname="col1" class="entry"> <p> Propiedad CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Descripción </p> </th> 
   </tr> 
  </thead>
@@ -40,12 +40,12 @@ El aspecto del área de visualización se controla con el siguiente selector de 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> cursor </span> </p> </td> 
-   <td colname="col2"> <p>El cursor se muestra sobre la vista principal. </p> </td> 
+   <td colname="col2"> <p>Cursor mostrado sobre la vista principal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ejemplo: para que la vista de zoom sea transparente.
+Ejemplo: para hacer transparente la vista de zoom.
 
 ```
 .s7mixedmediaviewer .s7zoomview { 
@@ -53,11 +53,11 @@ Ejemplo: para que la vista de zoom sea transparente.
 }
 ```
 
-En sistemas de escritorio, el componente es compatible `cursortype` selector de atributos que se puede aplicar a la variable `.s7zoomview` Clase . Controla el tipo del cursor en función del estado del componente y la acción del usuario. Lo siguiente `cursortype` son compatibles:
+En sistemas de escritorio, el componente admite `cursortype` selector de atributos que se puede aplicar al `.s7zoomview` clase. Controla el tipo de cursor en función del estado del componente y la acción del usuario. Lo siguiente `cursortype` se admiten estos valores:
 
 * `default`
 
-   Se muestra cuando la imagen no se puede ampliar debido a una pequeña resolución de imagen, a la configuración de componentes o a ambos.
+   Se muestra cuando la imagen no se puede ampliar debido a una resolución de imagen pequeña, a la configuración de componentes o a ambas cosas.
 
 * `zoomin`
 
@@ -65,12 +65,12 @@ En sistemas de escritorio, el componente es compatible `cursortype` selector de 
 
 * `reset`
 
-   Se muestra cuando la imagen se encuentra en el nivel de zoom máximo y se puede restablecer a su estado inicial.
+   Se muestra cuando la imagen está en el nivel de zoom máximo y se puede restablecer a su estado inicial.
 
 * `drag`
 
-   Se muestra cuando el usuario panorámica la imagen que está en estado de zoom.
+   Se muestra cuando el usuario desplaza la imagen cuyo estado se ha ampliado.
 
 * `slide`
 
-   Se muestra cuando el usuario realiza el intercambio de imágenes realizando un barrido horizontal o un gesto de gafa.
+   Se muestra cuando el usuario realiza un intercambio de imágenes mediante un deslizamiento o barrido horizontal.

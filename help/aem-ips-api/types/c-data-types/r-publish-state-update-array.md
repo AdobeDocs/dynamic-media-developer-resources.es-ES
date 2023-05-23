@@ -1,5 +1,5 @@
 ---
-description: Matriz de actualizaciones de estado de publicación.
+description: Una matriz de actualizaciones de estado de publicación.
 solution: Experience Manager
 title: PublishStateUpdateArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 24%
 
 # [!DNL PublishStateUpdateArray]{#publishstateupdatearray}
 
-Matriz de actualizaciones de estado de publicación.
+Una matriz de actualizaciones de estado de publicación.
 
 Sintaxis
 

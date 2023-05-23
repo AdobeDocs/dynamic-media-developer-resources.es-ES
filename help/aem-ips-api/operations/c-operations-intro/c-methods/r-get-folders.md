@@ -1,5 +1,5 @@
 ---
-description: Devuelve todas las carpetas y subcarpetas, empezando en la ruta de la carpeta. La respuesta getFolders devuelve un máximo de 100 000 carpetas.
+description: Devuelve todas las carpetas y subcarpetas, empezando por la ruta de carpeta. La respuesta getFolders devuelve un máximo de 100 000 carpetas.
 solution: Experience Manager
 title: getFolders
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 8%
 
 # getFolders{#getfolders}
 
-Devuelve todas las carpetas y subcarpetas, empezando en la ruta de la carpeta. La respuesta getFolders devuelve un máximo de 100 000 carpetas.
+Devuelve todas las carpetas y subcarpetas, empezando por la ruta de carpeta. La respuesta getFolders devuelve un máximo de 100 000 carpetas.
 
-## Objetivo de las carpetas {#section-66e344d5333f42f1b060a0cba25935c3}
+## Finalidad de las carpetas {#section-66e344d5333f42f1b060a0cba25935c3}
 
-Una carpeta permite organizar subcarpetas y recursos. Todos los nombres de carpetas y recursos deben ser únicos. Las carpetas y recursos que comparten el mismo nombre provocarán un conflicto en el área de nombres, incluso si se encuentran en jerarquías de carpetas diferentes.
+Una carpeta permite organizar subcarpetas y recursos. Todos los nombres de carpetas y recursos deben ser únicos. Las carpetas y recursos que comparten el mismo nombre causarán un conflicto de área de nombres, incluso si están en jerarquías de carpetas diferentes.
 Sintaxis
 
 ## Tipos de usuarios autorizados {#section-0dc7e17cb60f4cf7bcdb76648e5d2f8e}
@@ -35,7 +35,7 @@ Sintaxis
 
 >[!NOTE]
 >
->El usuario debe tener acceso de lectura a la carpeta para devolver datos.
+>El usuario debe tener acceso de lectura a la carpeta para devolver datos sobre ella.
 
 ## Parámetros {#section-0c1976503eaa418a9226b51667901176}
 
@@ -43,24 +43,24 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | El identificador de la empresa. |
-| accessUserHandle | `xsd:string` | No | Utilizado por los administradores para suplantar a un usuario específico. |
-| accessGroupHandle | `xsd:string` | No | Filtrar por un grupo específico. |
-| folderPath | `xsd:string` | No | La carpeta raíz para recuperar carpetas y todas las subcarpetas en el nivel de hoja. Si se excluye, se utiliza la raíz de la empresa. |
+| companyHandle | `xsd:string` | Sí | El identificador de la compañía. |
+| accessUserHandle | `xsd:string` | No | Los administradores los utilizan para suplantar a un usuario específico. |
+| accessGroupHandle | `xsd:string` | No | Filtre por un grupo específico. |
+| folderPath | `xsd:string` | No | La carpeta raíz para recuperar carpetas y todas las subcarpetas al nivel de hoja. Si se excluye, se utiliza la raíz de la empresa. |
 | assetTypeArray | `types:StringArray` | No | Devuelve carpetas que solo contienen tipos de recursos especificados. |
-| responseFieldArray | `types:StringArray` | No | Contiene una lista de campos que desea incluir en la respuesta. |
-| excludeFieldArray | `types:StringArray` | No | Contiene una lista de campos que desea excluir de la respuesta. |
+| responseFieldArray | `types:StringArray` | No | Contiene una lista de los campos que desea incluir en la respuesta. |
+| excludeFieldArray | `types:StringArray` | No | Contiene una lista de los campos que desea excluir de la respuesta. |
 
 **Salida (getFoldersReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| folderArray | `types:FolderArray` | No | Matriz de carpetas que coinciden con los criterios del filtro. La respuesta está limitada a un máximo de 100 000 carpetas. |
+| folderArray | `types:FolderArray` | No | Matriz de carpetas que coinciden con los criterios de filtro. La respuesta está limitada a un máximo de 100 000 carpetas. |
 | permissionsSetArray | `types:PermissionSetArray` |  |  |
 
 ## Ejemplos {#section-b5cb06e9fb9945ad898dbdc3692b754e}
 
-Este ejemplo de código devuelve una matriz que contiene todas las carpetas de una empresa junto con información específica sobre cada carpeta.
+Este ejemplo de código devuelve una matriz que contiene todas las carpetas de una compañía junto con información específica sobre cada carpeta.
 
 **Solicitar**
 

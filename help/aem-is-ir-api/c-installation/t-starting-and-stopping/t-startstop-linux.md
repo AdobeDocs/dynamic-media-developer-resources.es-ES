@@ -1,6 +1,6 @@
 ---
-title: Inicio o parada en Linux®
-description: Existen dos opciones para iniciar o detener Image Serving en Linux®.
+title: Iniciar o detener en Linux®
+description: Existen dos opciones para iniciar o detener el servicio de imágenes en Linux®.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 ---
 
-# Inicio o parada en Linux® {#starting-or-stopping-on-linux}
+# Iniciar o detener en Linux® {#starting-or-stopping-on-linux}
 
-Existen dos opciones para iniciar o detener Image Serving en Linux®.
+Existen dos opciones para iniciar o detener el servicio de imágenes en Linux®.
 
-* La secuencia de comandos para verificar el estado de Image Serving o para iniciar y detener Image Serving se encuentra en la [!DNL ImageServing/bin] carpeta:
+* El script para verificar el estado del servicio de imágenes o para iniciar y detener el servicio de imágenes se encuentra en [!DNL ImageServing/bin] carpeta:
 
    `ImageServing.sh {start|stop|restart|status}`
-* La siguiente alternativa debería resultarle familiar a los administradores del sistema:
+* La siguiente alternativa debería resultarles familiar a los administradores del sistema:
 
    `/sbin/service ImageServing {start|stop|status}`

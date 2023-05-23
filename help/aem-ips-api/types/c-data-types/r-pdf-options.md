@@ -1,5 +1,5 @@
 ---
-description: opciones del archivo PDF.
+description: Opciones de archivo del PDF.
 solution: Experience Manager
 title: PDFOptions
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 140c9261-e590-4889-9be4-29afd19ffa86
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '67'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
 # [!DNL PDFOptions]{#pdfoptions}
 
-opciones del archivo PDF.
+Opciones de archivo del PDF.
 
 Sintaxis
 
@@ -22,9 +22,9 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| proceso | `xsd:string` | Elección de &quot;procesos PDF&quot;. |
+| proceso | `xsd:string` | Elección de &quot;procesos de PDF&quot;. |
 | resolution | `xsd:double` | Resolución de archivos. |
-| Espacio de color | `xsd:string` | Opción de modo de espacio de color posterior a la secuencia de comandos. |
-| pdfCatalog | `xsd:boolean` | Combinar un PDF de varias páginas en un catálogo electrónico después de la renderización (el valor predeterminado es true). |
-| extractSearchWords | `xsd:boolean` | Si se extraen palabras de búsqueda del archivo PDF. |
-| extractLinks | `xsd:boolean` | Indica si se extraerán vínculos de PDF en mapas de imágenes asignados a las páginas rasterizadas dentro de IPS. |
+| espacio de color | `xsd:string` | Opción Modo de espacio de color posterior al script. |
+| pdfCatalog | `xsd:boolean` | Si se debe combinar un PDF de varias páginas en un catálogo electrónico después de procesarlo (el valor predeterminado es verdadero). |
+| extractSearchWords | `xsd:boolean` | Si se extraerán las palabras de búsqueda del archivo del PDF. |
+| extractLinks | `xsd:boolean` | Si se extraen vínculos de PDF en mapas de imagen asignados a las páginas rasterizadas en IPS. |

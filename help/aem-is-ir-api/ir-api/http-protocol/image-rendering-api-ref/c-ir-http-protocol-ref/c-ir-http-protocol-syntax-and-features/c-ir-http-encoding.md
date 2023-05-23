@@ -1,6 +1,6 @@
 ---
-title: Codificación HTTP de renderización de imágenes
-description: Los valores de comando deben tener codificación http utilizando secuencias de escape %xx, de modo que las cadenas de valor no incluyan los caracteres reservados '=', '&' y '%'.
+title: Codificación HTTP del procesamiento de imágenes
+description: Los valores de comando deben estar codificados en http mediante secuencias de escape %xx, de forma que las cadenas de valor no incluyan los caracteres reservados "=", "&" y "%".
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,13 +12,13 @@ ht-degree: 2%
 
 ---
 
-# Codificación HTTP de renderización de imágenes{#image-rendering-http-encoding}
+# Codificación HTTP del procesamiento de imágenes{#image-rendering-http-encoding}
 
-Los valores de comando deben tener codificación http utilizando secuencias de escape %xx, de modo que las cadenas de valor no incluyan los caracteres reservados &#39;=&#39;, &#39;&amp;&#39; y &#39;%&#39;.
+Los valores de comando deben estar codificados en http mediante secuencias de escape %xx, de forma que las cadenas de valor no incluyan los caracteres reservados &quot;=&quot;, &quot;&amp;&quot; y &quot;%&quot;.
 
-De lo contrario, se aplican reglas de codificación HTTP estándar. La especificación HTTP requiere la codificación de caracteres no seguros como &#39; (espacio), &#39;&quot;(comillas dobles), &#39;#&#39;, &#39;%&#39;, &#39;&lt;&#39; y &#39;>&#39;, así como de cualquier carácter de control, como `<return>` y `<tab>`.
+De lo contrario, se aplican reglas de codificación HTTP estándar. La especificación HTTP requiere la codificación de los caracteres no seguros como &#39; &#39; (espacio), &#39;&quot;&#39; (comillas dobles), &#39;#&#39;, &#39;%&#39;, &#39;&lt;&#39; y &#39;>&#39;, así como cualquier carácter de control, como `<return>` y `<tab>`.
 
-**Precaución:** Las llaves { } utilizadas como delimitadores de anidación de solicitudes no deben codificarse. Algunos clientes de correo electrónico codifican desafortunadamente las llaves en la solicitud HTTP incrustada. Si este problema es un problema, la renderización de imágenes permite el uso de paréntesis ( ) en lugar de llaves.
+**Precaución:** Las llaves { } utilizadas como delimitadores para anidar solicitudes no deben codificarse. Lamentablemente, algunos clientes de correo electrónico codifican llaves en las solicitudes HTTP incrustadas. En caso de que este problema plantee algún problema, el procesamiento de imágenes permite el uso de paréntesis ( ) en lugar de llaves.
 
 ## Ejemplo {#section-3edc5b8ee2354220a281b01722ad337a}
 

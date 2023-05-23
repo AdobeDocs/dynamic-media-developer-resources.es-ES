@@ -18,7 +18,7 @@ La vista principal consiste en la imagen ampliable.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propiedades CSS del área principal del visor**
+**Propiedades CSS del área del visor principal**
 
 El aspecto del área de visualización se controla con el siguiente selector de clase CSS:
 
@@ -29,7 +29,7 @@ El aspecto del área de visualización se controla con el siguiente selector de 
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS, propiedad </p> </th> 
+   <th colname="col1" class="entry"> <p> Propiedad CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Descripción </p> </th> 
   </tr> 
  </thead>
@@ -45,7 +45,7 @@ El aspecto del área de visualización se controla con el siguiente selector de 
  </tbody> 
 </table>
 
-Ejemplo: para que la vista principal sea transparente.
+Ejemplo: para hacer transparente la vista principal.
 
 ```
 .s7basiczoomviewer .s7zoomview { 
@@ -53,7 +53,7 @@ Ejemplo: para que la vista principal sea transparente.
 }
 ```
 
-En los sistemas de escritorio, el componente admite el `cursortype` selector de atributos que se puede aplicar a la variable `.s7zoomview` y controla el tipo de cursor en función del estado del componente y la acción del usuario. Lo siguiente `cursortype` son compatibles:
+En sistemas de escritorio, el componente admite el `cursortype` selector de atributos que se puede aplicar al `.s7zoomview` y controla el tipo de cursor en función del estado del componente y la acción del usuario. Lo siguiente `cursortype` se admiten estos valores:
 
 <table id="table_BC9FC40DA27B4A85995F4E9431AABF33"> 
  <thead> 
@@ -65,19 +65,19 @@ En los sistemas de escritorio, el componente admite el `cursortype` selector de 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> predeterminado </span> </p> </td> 
-   <td colname="col2"> <p>Se muestra cuando la imagen no se puede ampliar debido a una pequeña resolución de imagen, a la configuración de componentes o a ambos. </p> </td> 
+   <td colname="col2"> <p>Se muestra cuando la imagen no se puede ampliar debido a una resolución de imagen pequeña, a la configuración de componentes o a ambas cosas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomina </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zoom </span> </p> </td> 
    <td colname="col2"> <p>Se muestra cuando se puede ampliar la imagen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> restablecer </span> </p> </td> 
-   <td colname="col2"> <p>Se muestra cuando la imagen se encuentra en el nivel de zoom máximo y se puede restablecer a su estado inicial. </p> </td> 
+   <td colname="col2"> <p>Se muestra cuando la imagen está en el nivel de zoom máximo y se puede restablecer a su estado inicial. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> arrastrar </span> </p> </td> 
-   <td colname="col2"> <p>Se muestra cuando un usuario panorámica la imagen que está en estado de zoom. </p> </td> 
+   <td colname="col2"> <p>Se muestra cuando un usuario explora la imagen que está en estado de ampliación. </p> </td> 
   </tr> 
  </tbody> 
 </table>

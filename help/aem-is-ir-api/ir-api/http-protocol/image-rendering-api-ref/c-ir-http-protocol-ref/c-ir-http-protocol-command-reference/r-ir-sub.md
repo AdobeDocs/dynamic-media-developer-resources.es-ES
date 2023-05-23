@@ -1,6 +1,6 @@
 ---
 title: sub
-description: Subselección. Permite aplicar diferentes materiales a diferentes áreas del objeto o grupo seleccionado y eliminar los materiales aplicados anteriormente.
+description: Subselección. Permite aplicar diferentes materiales a diferentes áreas del objeto o grupo seleccionado y eliminar los materiales aplicados previamente.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,14 +14,14 @@ ht-degree: 8%
 
 # sub{#sub}
 
-Subselección. Permite aplicar diferentes materiales a diferentes áreas del objeto o grupo seleccionado y eliminar los materiales aplicados anteriormente.
+Subselección. Permite aplicar diferentes materiales a diferentes áreas del objeto o grupo seleccionado y eliminar los materiales aplicados previamente.
 
 `sub=0|1|2|3|4|5`
 
 <table id="simpletable_F6BF91BD2C4B47BF8A28032E392D37F0"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p> </td> 
-  <td class="stentry"> <p>Seleccione toda la pared. </p> </td> 
+  <td class="stentry"> <p>Seleccionar toda la pared. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p> </td> 
@@ -45,13 +45,13 @@ Subselección. Permite aplicar diferentes materiales a diferentes áreas del obj
  </tr> 
 </table>
 
-Actualmente solo se admite para objetos de muro. Termina un MSS anterior e inicia un MSS nuevo para el material que se aplicará a la subselección especificada.
+Actualmente solo es compatible con objetos de pared. Termina un MSS anterior e inicia un MSS nuevo para el material que se va a aplicar a la subselección especificada.
 
-Un material especificado para la pared superior o inferior se aplica a toda la pared a menos que se haya especificado también un material diferente para la otra mitad de la pared.
+Un material especificado para la pared superior o inferior se aplica a toda la pared a menos que también se haya especificado un material diferente para la otra mitad de la pared.
 
 ## Propiedades {#section-b202139d6d0847cc8d520a154104ab9d}
 
-Selección, comando; delimitador MSS.
+Comando de selección; delimitador SMS.
 
 ## Predeterminado {#section-5b45a167a17c451596e4c59b7d53c368}
 

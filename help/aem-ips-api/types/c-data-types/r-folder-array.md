@@ -1,5 +1,5 @@
 ---
-description: Matriz de carpetas.
+description: Una matriz de carpetas.
 solution: Experience Manager
 title: FolderArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 33%
 
 # [!DNL FolderArray]{#folderarray}
 
-Matriz de carpetas.
+Una matriz de carpetas.
 
 Sintaxis
 

@@ -8,7 +8,7 @@ exl-id: 038640c7-ae8c-43e0-979b-6010bb5e40fb
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '70'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,7 @@ Atributo de configuración para el visualizador de vídeo interactivo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|playPause</span> </p> </td> 
-   <td colname="col2"> <p> Configura la asignación de un toque o clic para alternar la reproducción/pausa. Si se establece en <span class="codeph"> ninguno</span> , se deshabilita el toque o clic único para reproducir/pausar. Si se establece en <span class="codeph"> playPause</span>, al seleccionar el vídeo, se alternan entre la reproducción y la pausa del vídeo. En algunos dispositivos, puede utilizar controles nativos. En este caso, se desactiva un comportamiento <span class="codeph"> singleclick</span>. </p> </td> 
+   <td colname="col2"> <p> Configura la asignación del clic/toque en la activación o desactivación de reproducción/pausa. Estableciendo en <span class="codeph"> ninguno</span> deshabilita el clic/toque en la reproducción/pausa. Si se establece en <span class="codeph"> playPause</span>A continuación, al seleccionar el vídeo, se alterna entre reproducir y pausar. En algunos dispositivos, puede utilizar controles nativos. En este caso, una <span class="codeph"> de un solo clic</span> el comportamiento está desactivado. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -8,7 +8,7 @@ exl-id: f228cf05-8b74-4f85-a02e-3bc084581529
 source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
 source-wordcount: '64'
-ht-degree: 6%
+ht-degree: 4%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 6%
 <table id="table_0BEA0B5FFDF64E5594B534B2A87A6D88"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> numeric|dotted</span> </p> </td> 
-   <td colname="col2"> <p> Configura el estilo de renderización del indicador definido. </p> <p>Cuando se establece en <span class="codeph"> dotted </span>, el componente procesa indicadores idénticos para todas las páginas. </p> <p>Cuando se establece en <span class="codeph"> numérico</span>, coloca un número de página basado en 1 dentro de cada elemento indicador. </p> <p>El modo de operación <span class="codeph"> numérico</span> no es compatible con los dispositivos con entrada táctil. En su lugar, el componente utiliza <span class="codeph"> puntos</span> en dichos dispositivos. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> numérico|punteado</span> </p> </td> 
+   <td colname="col2"> <p> Configura el estilo de representación del indicador determinado. </p> <p>Cuando se establece en <span class="codeph"> punteado </span>, el componente procesa indicadores idénticos para todas las páginas. </p> <p>Cuando se establece en <span class="codeph"> numérico</span> coloca un número de página basado en 1 dentro de cada elemento indicador. </p> <p>El <span class="codeph"> numérico</span> el modo de operación no es compatible con dispositivos que tengan entrada táctil. En su lugar, el componente utiliza <span class="codeph"> punteado</span> en dichos dispositivos. </p> </td> 
   </tr> 
  </tbody> 
 </table>

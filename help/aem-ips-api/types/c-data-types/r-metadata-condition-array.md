@@ -1,5 +1,5 @@
 ---
-description: Matriz de condiciones de metadatos.
+description: Una matriz de condiciones de metadatos.
 solution: Experience Manager
 title: MetadataConditionArray
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,7 +14,7 @@ ht-degree: 27%
 
 # [!DNL MetadataConditionArray]{#metadataconditionarray}
 
-Matriz de condiciones de metadatos.
+Una matriz de condiciones de metadatos.
 
 Sintaxis
 
@@ -22,4 +22,4 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| elementos | `types:MetadataCondition` | Matriz de condiciones de metadatos. |
+| elementos | `types:MetadataCondition` | La matriz de condiciones de metadatos. |

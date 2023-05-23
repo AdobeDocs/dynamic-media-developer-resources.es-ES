@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Utilice esta configuración del servidor para configurar el servidor.
 
-## SV::ImageServerMode - Modo de servidor de imágenes {#section-991b287f2dde4f77a24fc69d5b32cabd}
+## SV::ImageServerMode: modo de servidor de imágenes {#section-991b287f2dde4f77a24fc69d5b32cabd}
 
-Tanto una versión de 32 y 64 bits del Image Server están disponibles para Linux. Especifique ImageServer64 cuando se instala en servidores Linux de 64 bits o ImageServer32 (predeterminado) cuando se instala en servidores de 32 bits.
+Linux dispone de una versión de 32 y 64 bits del servidor de imágenes. Especifique ImageServer64 cuando esté instalado en servidores Linux de 64 bits, o ImageServer32 (predeterminado) cuando esté instalado en servidores de 32 bits.
 
 >[!NOTE]
 >
@@ -26,34 +26,34 @@ Tanto una versión de 32 y 64 bits del Image Server están disponibles para Linu
 
 >[!NOTE]
 >
->El modo de 64 bits no es compatible con Windows. Solo `ImageServer32` puede especificarse. De lo contrario, el servicio de imágenes no se iniciará.
+>Windows no admite el modo de 64 bits. Solo `ImageServer32` se puede especificar. De lo contrario, el servicio de imágenes no se iniciará.
 
 ## SV::PsHeapSize - [!DNL Platform Server] Tamaño de pila {#section-fd83715948764aeda58d6b3a9f9f8be9}
 
-El tamaño de pila de Java para la variable [!DNL Platform Server]. El valor predeterminado es &quot; `512m`&quot; (512 Mbytes).
+El tamaño de la pila Java para [!DNL Platform Server]. El valor predeterminado es &quot; `512m`&quot; (512 Mbytes).
 
-## IS::TcpPort, PS::isConnection.port - Puerto de escucha del servidor de imágenes {#section-5421bfd2ca2a4a979faf812b6fdb2887}
+## IS::TcpPort, PS::isConnection.port: Puerto de escucha del servidor de imágenes {#section-5421bfd2ca2a4a979faf812b6fdb2887}
 
-Especifica el puerto utilizado para la comunicación entre [!DNL Platform Server] y Image Server. Asegúrese de especificar un número de puerto que no se utilice de otro modo en el sistema host.
+Especifica el puerto utilizado para la comunicación entre los [!DNL Platform Server] y el servidor de imágenes. Asegúrese de especificar un número de puerto que no se utilice en caso contrario en el sistema host.
 
 >[!NOTE]
 >
 >Para que el servicio de imágenes funcione correctamente, se debe configurar el mismo valor para `IS::TcpPort` y `PS::isConnection.port`.
 
-## IS::PhysicalMemory - Límite de memoria del servidor de imágenes {#section-85e37aa2ac6e456eb698da716dd3247d}
+## IS::PhysicalMemory: límite de memoria del servidor de imágenes {#section-85e37aa2ac6e456eb698da716dd3247d}
 
-Límite aproximado para los datos de imagen en memoria, expresado como un porcentaje de memoria física. El rango válido es de 10% a 90%. El servidor de imágenes intenta restringir su uso de memoria de imagen a la cantidad especificada si es posible. El límite puede superarse temporalmente durante una actividad de procesamiento intensiva.
+Límite aproximado de datos de imagen en memoria, expresado como porcentaje de memoria física. El intervalo válido es del 10 % al 90 %. El servidor de imágenes intenta restringir el uso de la memoria de imágenes a la cantidad especificada, si es posible. El límite puede superarse temporalmente durante una intensa actividad de procesamiento.
 
-## IS::WorkerThreads - Número de subprocesos de trabajo de Image Server {#section-e2946063b13c4f728cdf5dba3d8b4de1}
+## IS::WorkerThreads: número de subprocesos de trabajo del servidor de imágenes {#section-e2946063b13c4f728cdf5dba3d8b4de1}
 
-Número máximo de subprocesos que utiliza el servidor de imágenes para procesar los datos de imágenes. El valor predeterminado es 0, lo que permite al servidor de imágenes optimizar el recuento de subprocesos automáticamente.
+Número máximo de subprocesos que utiliza el servidor de imágenes para procesar los datos de imagen. El valor predeterminado es 0, lo que permite al servidor de imágenes optimizar el recuento de subprocesos automáticamente.
 
-Algunos sistemas operativos tienen modelos de subprocesos con una sobrecarga de conmutación de contexto alta. En tal caso, el rendimiento general del servidor puede mejorar cuando se selecciona un recuento de subprocesos específico (por ejemplo, un subproceso por CPU). Es posible que se necesite cierta experimentación para encontrar la configuración óptima. Consulte las notas de la versión de Image Serving y la documentación del sistema operativo para obtener información adicional.
+Algunos sistemas operativos tienen modelos de subprocesos con una alta sobrecarga de conmutación de contexto. En tal circunstancia, el rendimiento general del servidor puede mejorar cuando se selecciona un recuento de hilos específico (por ejemplo, un hilo por CPU). Es posible que se requiera cierta experimentación para encontrar el escenario óptimo. Consulte las notas de la versión del servicio de imágenes y la documentación del sistema operativo para obtener más información.
 
-## IS::NumberOfTextServers - Número de instancias de servidor de texto {#section-971e20a90c1a473598fba738ed95671a}
+## IS::NumberOfTextServers: número de instancias de servidor de texto {#section-971e20a90c1a473598fba738ed95671a}
 
-El número máximo de procesadores de texto que deben estar activos simultáneamente. 0 (predeterminado) equivale a 1,5 veces el número de núcleos de CPU disponibles.
+Número máximo de procesadores de texto que se activarán simultáneamente. 0 (predeterminado) equivale a 1,5 veces el número de núcleos de CPU disponibles.
 
-## IS::TextServerTcpPortRange - Puertos de comunicación del servidor de texto {#section-a13465de88ed4df09931e5ba840c1942}
+## IS::TextServerTcpPortRange: puertos de comunicación del servidor de texto {#section-a13465de88ed4df09931e5ba840c1942}
 
-Los puertos que se utilizarán para las comunicaciones con el servidor de texto. Especifique el primer y el último número de puerto, separados por &#39;-&#39;.
+Los puertos que se utilizarán para las comunicaciones del servidor de texto. Especifique el primer y el último número de puerto, separados con &#39;-&#39;.

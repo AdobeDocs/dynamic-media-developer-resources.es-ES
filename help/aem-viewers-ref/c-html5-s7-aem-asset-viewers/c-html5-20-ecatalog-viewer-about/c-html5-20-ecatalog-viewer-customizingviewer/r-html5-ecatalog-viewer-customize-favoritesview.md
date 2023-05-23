@@ -1,6 +1,6 @@
 ---
 title: Vista Favoritos
-description: La vista Favoritos consiste en una columna de imágenes en miniatura.
+description: La vista Favoritos consta de una columna de imágenes en miniatura.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Vista Favoritos{#favorites-view}
 
-La vista Favoritos consiste en una columna de imágenes en miniatura.
+La vista Favoritos consta de una columna de imágenes en miniatura.
 
 <!--<a id="section_B6EFCCADB5A5495DAE6BBE42F7F405CB"></a>-->
 
@@ -24,7 +24,7 @@ El aspecto del contenedor de vista Favoritos se controla con el siguiente select
 .s7ecatalogviewer .s7favoritesview
 ```
 
-La vista gestiona la posición y el alto de la vista Favoritos; en CSS solo es posible definir la anchura.
+La vista administra la posición y la altura de la vista Favoritos; en CSS solo es posible definir la anchura.
 
 **Propiedades CSS de la vista Favoritos**
 
@@ -36,12 +36,12 @@ La vista gestiona la posición y el alto de la vista Favoritos; en CSS solo es p
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Anchura de la vista. </p> </td> 
+   <td colname="col2"> <p>Ancho de la vista. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ejemplo: para configurar una vista Favoritos de 100 píxeles de ancho con un fondo gris semitransparente:
+Ejemplo: Para configurar una vista Favoritos de 100 píxeles de ancho con un fondo gris semitransparente:
 
 ```
 .s7ecatalogviewer .s7favoritesview { 
@@ -50,19 +50,19 @@ Ejemplo: para configurar una vista Favoritos de 100 píxeles de ancho con un fon
 }
 ```
 
-El espaciado entre miniaturas de Favoritos se controla con el siguiente selector de clase CSS:
+El espaciado entre las miniaturas de Favoritos se controla con el siguiente selector de clase CSS:
 
 ```
 .s7ecatalogviewer .s7favoritesview .s7thumbcell
 ```
 
-**Propiedades CSS de las miniaturas de Favoritos**
+**Propiedades CSS de las miniaturas Favoritos**
 
 <table id="table_EED8CE63D805458196DE0E87C7E9945F"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> El tamaño del margen vertical alrededor de cada miniatura. El espaciado en miniatura real es igual a la suma de los márgenes superior e inferior definidos para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col2"> <p> El tamaño del margen vertical alrededor de cada miniatura. El espaciado de miniaturas real es igual a la suma de los márgenes superior e inferior establecidos para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -81,13 +81,13 @@ El aspecto de la miniatura individual se controla con el siguiente selector de c
 .s7ecatalogviewer .s7favoritesview .s7thumb
 ```
 
-**Propiedades CSS de las miniaturas de Favoritos**
+**Propiedades CSS de las miniaturas Favoritos**
 
 <table id="table_6F5B1438CAFA49E9B33400C6970ABDA1"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Anchura de la miniatura. </p> </td> 
+   <td colname="col2"> <p>Ancho de la miniatura. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
@@ -102,9 +102,9 @@ El aspecto de la miniatura individual se controla con el siguiente selector de c
 
 >[!NOTE]
 >
->La miniatura es compatible con el `state` selector de atributos, que se puede utilizar para aplicar diferentes aspectos a distintos estados de miniaturas. En particular, `state="selected"` corresponde a la miniatura seleccionada recientemente por el usuario. El atributo `state="default"` corresponde al resto de las miniaturas. Y, el atributo `state="over"` se utiliza al pasar el ratón por encima.
+>La miniatura admite `state` selector de atributos, que se puede utilizar para aplicar diferentes aspectos a diferentes estados de miniaturas. En particular, `state="selected"` corresponde a la miniatura seleccionada recientemente por el usuario. El atributo `state="default"` corresponde al resto de las miniaturas. Y, el atributo `state="over"` se utiliza al pasar el ratón por encima.
 
-Ejemplo: para configurar miniaturas de 75 x 75 píxeles, tenga un borde predeterminado de gris claro y un borde seleccionado de gris oscuro:
+Ejemplo: Para configurar miniaturas de 75 x 75 píxeles, tenga un borde predeterminado de gris claro y un borde seleccionado de gris oscuro:
 
 ```
 .s7ecatalogviewer .s7favoritesview .s7thumb { 

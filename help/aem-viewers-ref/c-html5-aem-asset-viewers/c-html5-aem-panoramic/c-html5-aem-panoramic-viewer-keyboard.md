@@ -1,6 +1,6 @@
 ---
-title: Accesibilidad y navegación del teclado
-description: Todas las funciones expuestas en la interfaz de usuario del visor son accesibles mediante el teclado.
+title: Accesibilidad y navegación mediante teclado
+description: Todas las funciones expuestas en la IU del visor son accesibles mediante el teclado.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Accesibilidad y navegación del teclado{#keyboard-accessibility-and-navigation}
+# Accesibilidad y navegación mediante teclado{#keyboard-accessibility-and-navigation}
 
-Todas las funciones expuestas en la interfaz de usuario del visor son accesibles mediante el teclado.
-El usuario final puede utilizar `Left`, `Right`, `UP` y `DOWN` pulsaciones de teclas para recorrer la imagen.
-La variable `Esc` para restablecer la imagen se puede usar la pulsación de teclas.
+Todas las funciones expuestas en la IU del visor son accesibles mediante el teclado.
+El usuario final puede utilizar `Left`, `Right`, `UP` y `DOWN` pulsaciones de teclas para desplazarse por la imagen.
+El `Esc` la pulsación de tecla se puede utilizar para restablecer la imagen.
 

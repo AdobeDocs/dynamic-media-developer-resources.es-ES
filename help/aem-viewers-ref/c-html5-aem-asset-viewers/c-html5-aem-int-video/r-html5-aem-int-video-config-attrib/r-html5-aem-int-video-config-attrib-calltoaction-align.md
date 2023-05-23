@@ -8,7 +8,7 @@ exl-id: e0a92c4a-3757-4811-87b8-68fb367ea94d
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '84'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ Atributo de configuración para el visualizador de vídeo interactivo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> left|center|right</span> </p> </td> 
-   <td colname="col2"> <p> Especifica la alineación horizontal interna (o anclaje) del contenedor de miniaturas dentro del área del componente. </p> <p>En la llamada a la acción, el contenedor de miniaturas interno tiene su tamaño, de modo que solo se muestre un número entero de miniaturas. Como resultado, hay un margen entre el contenedor interno y los límites del componente externo. </p> <p>Este modificador especifica cómo se coloca horizontalmente el contenedor de miniaturas internas dentro del componente. </p> </td> 
+   <td colname="col2"> <p> Especifica la alineación horizontal interna (o anclaje) del contenedor de miniaturas dentro del área del componente. </p> <p>En la llamada a acción, el tamaño del contenedor de miniaturas interno es tal que solo se muestra un número entero de miniaturas. Como resultado, hay cierto relleno entre los límites del contenedor interno y el componente externo. </p> <p>Este modificador especifica cómo se coloca el contenedor de miniaturas interno de forma horizontal dentro del componente. </p> </td> 
   </tr> 
  </tbody> 
 </table>

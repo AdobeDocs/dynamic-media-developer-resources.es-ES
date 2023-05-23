@@ -1,5 +1,5 @@
 ---
-description: Obtiene trabajos programados para ejecutarse.
+description: Obtiene los trabajos programados para ejecutarse.
 solution: Experience Manager
 title: getScheduledJobs
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 22%
 
 # getScheduledJobs{#getscheduledjobs}
 
-Obtiene trabajos programados para ejecutarse.
+Obtiene los trabajos programados para ejecutarse.
 
 Sintaxis
 
@@ -35,8 +35,8 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | El identificador de la empresa. |
-| jobHandle | `xsd:string` | No | Identificador de trabajo. |
+| companyHandle | `xsd:string` | Sí | El identificador de la compañía. |
+| jobHandle | `xsd:string` | No | Gestor del trabajo. |
 | originalName | `xsd:string` | No | El nombre especificado por `submitJob`. |
 
 **Salida (getScheduledJobsReturn)**
@@ -47,7 +47,7 @@ Sintaxis
 
 ## Ejemplos {#section-e79e7da86ba848fd9996aa36de462e6c}
 
-Este ejemplo de código devuelve todos los trabajos programados en una matriz de trabajos. La matriz contiene información detallada sobre los trabajos.
+Este ejemplo de código devuelve todos los trabajos programados de una matriz de trabajos. La propia matriz contiene información detallada sobre los trabajos.
 
 **Solicitar**
 

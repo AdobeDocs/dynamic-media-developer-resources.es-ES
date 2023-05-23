@@ -1,6 +1,6 @@
 ---
 title: Barra de control secundaria
-description: La barra de control secundaria es el área rectangular que contiene los botones Primera y Última página y un indicador de página cuando está disponible en CSS.
+description: La barra de control secundaria es el área rectangular que contiene los botones Primera y Última página y un indicador de página cuando están disponibles en CSS.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -14,9 +14,9 @@ ht-degree: 2%
 
 # Barra de control secundaria{#secondary-control-bar}
 
-La barra de control secundaria es el área rectangular que contiene los botones Primera y Última página y un indicador de página cuando está disponible en CSS.
+La barra de control secundaria es el área rectangular que contiene los botones Primera y Última página y un indicador de página cuando están disponibles en CSS.
 
-De forma predeterminada, se muestra solo en teléfonos móviles y se coloca en la parte inferior del visor. Siempre toma toda la anchura del visor disponible. Es posible cambiar su color, altura y posición vertical mediante CSS, en relación con el contenedor del visor.
+De forma predeterminada, solo se muestra en teléfonos móviles y se coloca en la parte inferior del visor. Siempre toma todo el ancho de visor disponible. CSS permite cambiar el color, la altura y la posición vertical en relación con el contenedor del visor.
 
 El aspecto de la barra de control secundaria se controla con el siguiente selector de clase CSS:
 
@@ -25,7 +25,7 @@ El aspecto de la barra de control secundaria se controla con el siguiente select
 <table id="table_2C8D322F57114A72B43053CB4539C65C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS, propiedad </p> </th> 
+   <th colname="col1" class="entry"> <p> Propiedad CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Descripción </p> </th> 
   </tr> 
  </thead>
@@ -49,7 +49,7 @@ El aspecto de la barra de control secundaria se controla con el siguiente select
  </tbody> 
 </table>
 
-Ejemplo: para configurar una barra de control secundaria gris de 72 píxeles de altura y que se sitúe en la parte inferior del contenedor del visor.
+Ejemplo: para configurar una barra de control secundaria gris de 72 píxeles de altura y situada en la parte inferior del contenedor del visor.
 
 ```
 .s7ecatalogviewer .s7secondarycontrols .s7controlbar {  

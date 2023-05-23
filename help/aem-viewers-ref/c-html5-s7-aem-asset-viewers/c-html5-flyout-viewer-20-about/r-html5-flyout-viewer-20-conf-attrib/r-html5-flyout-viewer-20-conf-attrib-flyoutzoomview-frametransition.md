@@ -8,7 +8,7 @@ exl-id: 0b0a88a0-d736-4ab8-a25f-15d1689b0a48
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
 source-wordcount: '62'
-ht-degree: 11%
+ht-degree: 9%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 11%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|fade</span> </p> </td> 
-   <td colname="col2"> <p> Especifica el tipo de efecto aplicado a la vista principal al cambiar el recurso. La variable <span class="codeph"> ninguno</span> significa que no hay transición, el cambio de vista principal se produce instantáneamente. La variable <span class="codeph"> fundido</span> activa la transición de fundido cruzado en la que la imagen antigua se desvanece y la nueva imagen se desvanece </p> </td> 
+   <td colname="col2"> <p> Especifica el tipo del efecto aplicado a la vista principal cuando cambia el recurso. El <span class="codeph"> ninguno</span> significa que no hay transición, el cambio de la vista principal se produce instantáneamente. El <span class="codeph"> atenuación</span> activa la transición de fundido cruzado en la que la imagen antigua desaparece y la nueva aparece </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> duración</span></span> </p> </td> 
-   <td colname="col2"> <p> Número de segundos que tarda la animación en completarse. </p> </td> 
+   <td colname="col2"> <p> Número de segundos necesarios para completar la animación. </p> </td> 
   </tr> 
  </tbody> 
 </table>

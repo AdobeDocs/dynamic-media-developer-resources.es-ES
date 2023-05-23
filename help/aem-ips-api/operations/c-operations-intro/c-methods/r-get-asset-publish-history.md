@@ -36,18 +36,18 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | El identificador de la empresa con el historial de publicación de recursos. |
+| companyHandle | `xsd:string` | Sí | El identificador de la compañía con el historial de publicación de recursos. |
 | assetHandle | `xsd:string` | Sí | El recurso con el historial de publicación que desea examinar. |
 
 **Salida (getAssetPublishHistoryReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| pubHistoryArray | `types:PublishHistoryArray` | Sí | El historial de publicación del recurso. |
+| pubHistoryArray | `types:PublishHistoryArray` | Sí | Historial de publicación del recurso. |
 
 ## Ejemplos {#section-53897c51e5a047c5bd5ea5a6efb2d114}
 
-Este ejemplo de código devuelve el historial de publicación de un recurso. Nunca se ha publicado un recurso si el servidor devuelve una matriz vacía.
+Este ejemplo de código devuelve el historial de publicación de un recurso. Un recurso nunca se ha publicado si el servidor devuelve una matriz vacía.
 
 **Solicitar**
 

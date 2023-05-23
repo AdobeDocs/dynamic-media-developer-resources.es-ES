@@ -1,5 +1,5 @@
 ---
-description: Matriz de campos de metadatos
+description: Una matriz de campos de metadatos
 solution: Experience Manager
 title: MetadataFieldArray
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,7 +14,7 @@ ht-degree: 30%
 
 # [!DNL MetadataFieldArray]{#metadatafieldarray}
 
-Matriz de campos de metadatos
+Una matriz de campos de metadatos
 
 Sintaxis
 

@@ -1,5 +1,5 @@
 ---
-description: Matriz de historiales de publicación.
+description: Una matriz de historiales de publicación.
 solution: Experience Manager
 title: PublishHistoryArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL PublishHistoryArray]{#publishhistoryarray}
 
-Matriz de historiales de publicación.
+Una matriz de historiales de publicación.
 
 Sintaxis
 

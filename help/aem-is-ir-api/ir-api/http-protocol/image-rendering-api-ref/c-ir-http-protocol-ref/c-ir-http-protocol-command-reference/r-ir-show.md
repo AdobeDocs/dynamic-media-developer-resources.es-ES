@@ -1,6 +1,6 @@
 ---
 title: mostrar
-description: Mostrar objeto de superposición. Hace visibles todos los objetos de superposición ocultos anteriormente (incluidos los objetos de marco de cubiertas de ventanas) en la selección actual.
+description: Mostrar objeto de superposición. Hace visibles todos los objetos de superposición ocultos anteriormente (incluidos los objetos de marco de revestimientos de ventanas) en la selección actual.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: 4ab3dff7-c020-4088-9eb7-760f8e0a3f00
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
 source-wordcount: '73'
-ht-degree: 9%
+ht-degree: 8%
 
 ---
 
 # mostrar{#show}
 
-Mostrar objeto de superposición. Hace visibles todos los objetos de superposición ocultos anteriormente (incluidos los objetos de marco de cubiertas de ventanas) en la selección actual.
+Mostrar objeto de superposición. Hace visibles todos los objetos de superposición ocultos anteriormente (incluidos los objetos de marco de revestimientos de ventanas) en la selección actual.
 
 `Show[= *`val`*]`
 
@@ -27,11 +27,11 @@ Mostrar objeto de superposición. Hace visibles todos los objetos de superposici
 
 ## Propiedades {#section-36bbe5fbcfa74880b948e8ed6f7c6e7b}
 
-Se omite si la selección actual no incluye ningún objeto de superposición o si no hay objetos de superposición ocultos.
+Se ignora si la selección actual no incluye ningún objeto de superposición o si no hay ningún objeto de superposición oculto.
 
 ## Predeterminado {#section-04972797d24d4b9f93790a31dfaa4743}
 
-Ninguno, sin ningún cambio en la visibilidad del objeto.
+Ninguno, para que no haya cambios en la visibilidad del objeto.
 
 ## Véase también {#section-2a1a37a35dfb41758897164e14f0105f}
 

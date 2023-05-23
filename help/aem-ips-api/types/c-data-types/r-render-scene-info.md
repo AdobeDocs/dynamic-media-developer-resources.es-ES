@@ -1,5 +1,5 @@
 ---
-description: Procesar propiedades de recursos de escenas.
+description: Procesar propiedades del recurso de escena.
 solution: Experience Manager
 title: RenderSceneInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 26%
 
 # [!DNL RenderSceneInfo]{#rendersceneinfo}
 
-Procesar propiedades de recursos de escenas.
+Procesar propiedades del recurso de escena.
 
 Sintaxis
 
@@ -22,4 +22,4 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| url | `xsd:string` | URL del servidor de imágenes que representa la escena de representación. |
+| url | `xsd:string` | URL del servidor de imágenes que representa la escena de procesamiento. |

@@ -1,5 +1,5 @@
 ---
-description: Un nombre y un par de valores.
+description: Un par de nombre y valor.
 solution: Experience Manager
 title: Propiedad
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 36%
 
 # [!DNL Property]{#property}
 
-Un nombre y un par de valores.
+Un par de nombre y valor.
 
 Sintaxis
 
@@ -22,5 +22,5 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| name | `xsd:string` | Nombre de la propiedad. |
+| nombre | `xsd:string` | Nombre de propiedad. |
 | valor | `xsd:string` | Valor de propiedad. |

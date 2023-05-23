@@ -22,5 +22,5 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| assetHandleArray | `types:HandleArray` | Matriz de controladores de recursos. |
-| updateArray | `types:MetadataUpdateArray` | Matriz de controladores de actualización de metadatos. |
+| assetHandleArray | `types:HandleArray` | Matriz de identificadores de recursos. |
+| updateArray | `types:MetadataUpdateArray` | Matriz de identificadores de actualización de metadatos. |

@@ -1,6 +1,6 @@
 ---
-title: Instalación en una cuenta de usuario diferente a un administrador
-description: Después de la instalación, configure los servicios para que se ejecuten en la otra cuenta de usuario.
+title: La instalación en una cuenta de usuario diferente a la de un administrador
+description: Después de la instalación, configure los servicios para que se ejecuten con la otra cuenta de usuario.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 ---
 
-# Instalación en una cuenta de usuario diferente a un administrador{#installing-under-a-different-user-account-than-administrator}
+# La instalación en una cuenta de usuario diferente a la de un administrador{#installing-under-a-different-user-account-than-administrator}
 
-Después de la instalación, configure los servicios para que se ejecuten en la otra cuenta de usuario.
+Después de la instalación, configure los servicios para que se ejecuten con la otra cuenta de usuario.
 
-1. Acceda a la configuración de la directiva de seguridad local de Windows seleccionando **[!UICONTROL Menú Inicio]** > **[!UICONTROL Configuración]** > **[!UICONTROL Panel de control de Campaign]** > **[!UICONTROL Herramientas de administración]** > **[!UICONTROL Política de seguridad local]**.
-1. Select **[!UICONTROL Configuración de seguridad]** > **[!UICONTROL Políticas locales]** > **[!UICONTROL Asignación de derechos de usuario]**.
-1. Haga doble clic en el botón **[!UICONTROL Iniciar sesión como servicio]** directiva.
-1. Select **[!UICONTROL Agregar...]** y seleccione Usuario o Grupo, luego seleccione **[!UICONTROL Ok]** para confirmar.
+1. Para obtener acceso a la configuración de la directiva de seguridad local de Windows, seleccione **[!UICONTROL Menú Inicio]** > **[!UICONTROL Configuración]** > **[!UICONTROL Panel de control de Campaign]** > **[!UICONTROL Herramientas de administración]** > **[!UICONTROL Política de seguridad local]**.
+1. Seleccionar **[!UICONTROL Configuración de seguridad]** > **[!UICONTROL Directivas locales]** > **[!UICONTROL Asignación de derechos de usuario]**.
+1. Haga doble clic en **[!UICONTROL Iniciar sesión como servicio]** directiva.
+1. Seleccionar **[!UICONTROL Agregar...]** y seleccione el usuario o grupo, y luego seleccione **[!UICONTROL Ok]** para confirmar.

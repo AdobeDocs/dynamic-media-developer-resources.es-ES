@@ -1,6 +1,6 @@
 ---
 title: Botón Restablecer zoom
-description: Al pulsar o hacer clic en este botón, se restablece una imagen en la vista principal. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
+description: Al tocar o hacer clic en este botón, se restablece una imagen en la vista principal. Puede cambiar el tamaño, la apariencia y la posición de este botón mediante CSS.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 3%
 
 # Botón Restablecer zoom{#zoom-reset-button}
 
-Al pulsar o hacer clic en este botón, se restablece una imagen en la vista principal. Puede cambiar el tamaño, el aspecto y la posición de este botón mediante CSS.
+Al tocar o hacer clic en este botón, se restablece una imagen en la vista principal. Puede cambiar el tamaño, la apariencia y la posición de este botón mediante CSS.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propiedades CSS del área principal del visor**
+**Propiedades CSS del área del visor principal**
 
 El aspecto del botón se controla con el siguiente selector de clase CSS:
 
@@ -29,7 +29,7 @@ El aspecto del botón se controla con el siguiente selector de clase CSS:
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS, propiedad </p> </th> 
+   <th colname="col1" class="entry"> <p> Propiedad CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Descripción </p> </th> 
   </tr> 
  </thead>
@@ -52,30 +52,30 @@ El aspecto del botón se controla con el siguiente selector de clase CSS:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Anchura del botón. </p> </td> 
+   <td colname="col2"> <p>Ancho del botón. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Altura del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagen de fondo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Imagen que se muestra para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posición de fondo </span> </p> </td> 
-   <td colname="col2"> <p>Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#section-b671c70acf284cb0aea678c2d2e4babc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p>Coloque dentro del icono de ilustración si se utilizan iconos CSS. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#section-b671c70acf284cb0aea678c2d2e4babc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Este botón admite la variable `state` selector de atributos, que se puede utilizar para aplicar diferentes aspectos a distintos estados de botones.
+>Este botón admite el `state` selector de atributos, que se puede utilizar para aplicar distintos aspectos a distintos estados de botón.
 
-La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-localization.md#concept-e35c15c9e82648328806cdc6aa255d98) para obtener más información.
+La información del objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-localization.md#concept-e35c15c9e82648328806cdc6aa255d98) para obtener más información.
 
-Ejemplo : para configurar un botón de restablecimiento de zoom de 32 x 32 píxeles y colocar seis píxeles desde el borde superior y derecho del visor. Finalmente, muestra una imagen diferente para cada uno de los cuatro estados de botones diferentes.
+Ejemplo: Para configurar un botón de restablecimiento de zoom de 32 x 32 píxeles y colocado a seis píxeles de la parte superior y el borde derecho del visor. Y, finalmente, muestra una imagen diferente para cada uno de los cuatro estados de botón diferentes.
 
 ```
 .s7spinviewer .s7zoomresetbutton { 

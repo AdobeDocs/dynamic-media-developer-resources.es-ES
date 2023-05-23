@@ -1,24 +1,24 @@
 ---
-title: Uso compartido en medios sociales
-description: La herramienta de uso compartido en redes sociales aparece en la esquina superior izquierda de forma predeterminada. Consiste en un botón y un panel que se expanden cuando el usuario hace clic o pulsa un botón y contiene herramientas de uso compartido individuales.
+title: Uso compartido social
+description: La herramienta Compartir en redes sociales aparece en la esquina superior izquierda de forma predeterminada. Consiste en un botón y un panel que se expande cuando el usuario hace clic o pulsa un botón y contiene herramientas de uso compartido individuales.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: b65b8846-3287-47ae-bdb6-6cac768cece0
 source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
 
-# Uso compartido en medios sociales{#social-share}
+# Uso compartido social{#social-share}
 
-La herramienta de uso compartido en redes sociales aparece en la esquina superior izquierda de forma predeterminada. Consiste en un botón y un panel que se expanden cuando el usuario hace clic o pulsa un botón y contiene herramientas de uso compartido individuales.
+La herramienta Compartir en redes sociales aparece en la esquina superior izquierda de forma predeterminada. Consiste en un botón y un panel que se expande cuando el usuario hace clic o pulsa un botón y contiene herramientas de uso compartido individuales.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-La posición y el tamaño de la herramienta de uso compartido en redes sociales en la interfaz de usuario del visor se controlan con lo siguiente:
+La posición y el tamaño de la herramienta de uso compartido en redes sociales de la interfaz de usuario del visor se controlan de la siguiente manera:
 
 ```
 .s7ecatalogviewer .s7socialshare
@@ -34,7 +34,7 @@ La posición y el tamaño de la herramienta de uso compartido en redes sociales 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin=left </span> </p> </td> 
-   <td colname="col2"> <p> Distancia al botón siguiente de la izquierda o del lado izquierdo de la barra de control si es el primer botón de una fila. </p> </td> 
+   <td colname="col2"> <p> Distancia al siguiente botón de la izquierda o al lado izquierdo de la barra de control si es el primer botón de una fila. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -47,7 +47,7 @@ La posición y el tamaño de la herramienta de uso compartido en redes sociales 
  </tbody> 
 </table>
 
-Ejemplo: para configurar una herramienta de uso compartido en redes sociales que se posicione a cuatro píxeles de la parte superior y a cinco píxeles de la derecha del contenedor de visor y cuyo tamaño se sitúe a 28 x 28 píxeles:
+Ejemplo: Para configurar una herramienta de uso compartido en redes sociales que se coloque a cuatro píxeles de la parte superior y a cinco píxeles de la derecha del contenedor del visor y cuyo tamaño sea de 28 x 28 píxeles:
 
 ```
 .s7ecatalogviewer .s7socialshare { 
@@ -68,23 +68,23 @@ El aspecto del botón de la herramienta de uso compartido en redes sociales se c
 <table id="table_A18B6978EC304C378F5FE92DD44D138D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagen de fondo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> Imagen que se muestra para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posición de fondo </span> </p> </td> 
-   <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Coloque dentro del icono de ilustración si se utilizan iconos CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Este botón admite la variable `state` selector de atributos, que se puede utilizar para aplicar diferentes aspectos a distintos estados de botones.
+>Este botón admite el `state` selector de atributos, que se puede utilizar para aplicar distintos aspectos a distintos estados de botón.
 
-La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
+La información del objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
-Ejemplo: para configurar un botón de herramienta de uso compartido en redes sociales que muestre una imagen diferente para cada uno de los cuatro estados de botón diferentes:
+Ejemplo: Para configurar un botón de una herramienta de uso compartido en redes sociales que muestre una imagen diferente para cada uno de los cuatro estados de botón diferentes:
 
 ```
 .s7ecatalogviewer .s7socialshare .s7socialbutton[state='up'] { 
@@ -101,7 +101,7 @@ background-image:url(images/v2/SocialShare_dark_disabled.png);
 }
 ```
 
-El aspecto del panel que contiene los iconos individuales de uso compartido en redes sociales se controla con el siguiente selector de clase CSS:
+El aspecto del panel que contiene los iconos individuales de uso compartido en medios sociales se controla con el siguiente selector de clase CSS:
 
 ```
 .s7ecatalogviewer .s7socialshare .s7socialsharepanel
@@ -118,7 +118,7 @@ El aspecto del panel que contiene los iconos individuales de uso compartido en r
  </tbody> 
 </table>
 
-Ejemplo: Para configurar un panel con un color transparente:
+Ejemplo: Para configurar un panel para que tenga un color transparente:
 
 ```
 .s7ecatalogviewer .s7socialshare .s7socialsharepanel { 

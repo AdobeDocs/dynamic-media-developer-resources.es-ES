@@ -1,5 +1,5 @@
 ---
-description: Establece la pertenencia a un grupo de usuarios que pertenecen a una empresa específica.
+description: Establece la pertenencia a grupos de usuarios que pertenecen a una compañía específica.
 solution: Experience Manager
 title: setGroupMembers
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 9%
 
 # setGroupMembers{#setgroupmembers}
 
-Establece la pertenencia a un grupo de usuarios que pertenecen a una empresa específica.
+Establece la pertenencia a grupos de usuarios que pertenecen a una compañía específica.
 
-La operación genera un error de autenticación si no tiene privilegios para realizar esta operación. Esto también ocurre si alguno de los usuarios de la matriz de administración de usuarios no pertenece a la empresa especificada en el control de la empresa.
+La operación genera un error de autenticación si no tiene privilegios para realizar esta operación. Esto también se aplica si alguno de los usuarios de la matriz de identificadores de usuario no pertenece a la compañía especificada en el identificador de la compañía,
 
 ## Tipos de usuarios autorizados {#section-4523594039c24aa29c8d0d5c9c415391}
 
@@ -30,17 +30,17 @@ La operación genera un error de autenticación si no tiene privilegios para rea
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | Identificador de la empresa. |
+| companyHandle | `xsd:string` | Sí | Manejo de la compañía. |
 | groupHandle | `xsd:string` | Sí | Identificador de grupo. |
-| userHandleArray | `types:HandleArray` | Sí | Matriz de controladores para usuarios cuya pertenencia a un grupo desee establecer. |
+| userHandleArray | `types:HandleArray` | Sí | Matriz de identificadores para los usuarios cuya pertenencia a grupo desea establecer. |
 
 **Salida (setGroupMembesReturn)**
 
-La API IPS no devuelve una respuesta para esta operación.
+La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-9c528c3f44a141ce9eaddf634f26c487}
 
-Este ejemplo de código establece la pertenencia a un grupo para un único usuario.
+Este ejemplo de código establece la pertenencia a grupos de un solo usuario.
 
 **Solicitar**
 

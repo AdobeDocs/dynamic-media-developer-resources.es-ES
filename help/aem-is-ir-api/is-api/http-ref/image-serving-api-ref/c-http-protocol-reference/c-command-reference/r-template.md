@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 56ebf2a1-f2c3-4b3f-8d0a-9383f1411440
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '164'
 ht-degree: 6%
 
 ---
@@ -25,13 +25,13 @@ Plantilla de composición. Permite especificar una plantilla de composición en 
  </tr> 
 </table>
 
-*`template`* debe ser una entrada de catálogo de imágenes con el cuerpo de plantilla contenido en  `catalog::Modifier`.
+*`template`* debe ser una entrada de catálogo de imágenes con el cuerpo de la plantilla contenido en `catalog::Modifier`.
 
-Cuando `template=` está presente, el objeto especificado en la ruta de solicitud no se aplica como origen para la capa 0. Sin embargo, se puede hacer referencia a él como `src=` o `mask=` en cualquier parte de la plantilla mediante la variable de ruta predefinida `$object$` como valor `src=`. `catalog::Modifier` del objeto especificado en la ruta de solicitud solo se aplica con la sustitución de  `$object$` dentro de la plantilla, mientras que siempre  `catalog::PostModifier` se aplica.
+Cuándo `template=` está presente, el objeto especificado en la ruta de solicitud no se aplicará como origen para la capa 0. Sin embargo, se le puede hacer referencia como `src=` o `mask=` en cualquier parte de la plantilla utilizando la variable de ruta predefinida `$object$` as a `src=` valor. `catalog::Modifier` del objeto especificado en la ruta de solicitud solo se aplica con la sustitución de `$object$` dentro de la plantilla, mientras que `catalog::PostModifier` siempre se aplica.
 
-La capa 0 se define en el cuerpo de la plantilla y puede ser una imagen, color sólido, texto o una capa de solicitud anidada o incrustada.
+La capa 0 se define en el cuerpo de la plantilla y puede ser una imagen, un color sólido, texto o una capa de solicitud anidada o incrustada.
 
-`catalog:PostModifier` of  *`object`* se ignora cuando  *`object`* se utiliza con  `template=`.
+`catalog:PostModifier` de *`object`* se ignora cuando *`object`* se utiliza con `template=`.
 
 ## Predeterminado {#section-9de53ea27c4b4fd4811e40e345d8ba05}
 
@@ -43,8 +43,8 @@ Atributo de solicitud. Se aplica independientemente de la configuración de capa
 
 ## Ejemplo {#section-9a4f260ed43342b186b0fe855f34bca6}
 
-Consulte los ejemplos en [Templates](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e).
+Consulte los ejemplos de [Plantillas](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e).
 
 ## Véase también {#section-067587444f774469931ecafd5a39834c}
 
-[objeto](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0),  [plantillas](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e), variable de ruta  [predefinida](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-substitution-variables.md#reference-90dc01aba44940e4acdd0c6476e7aa5a)
+[objeto](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0), [Plantillas](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e), [Variable de ruta predefinida](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-substitution-variables.md#reference-90dc01aba44940e4acdd0c6476e7aa5a)

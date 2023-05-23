@@ -1,5 +1,5 @@
 ---
-description: Devuelve activos de IPS.
+description: Devuelve recursos de IPS.
 solution: Experience Manager
 title: getAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 21%
 
 # getAssets{#getassets}
 
-Devuelve activos de IPS.
+Devuelve recursos de IPS.
 
 Sintaxis
 
@@ -52,13 +52,13 @@ Sintaxis
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sí </p> </td> 
-   <td colname="col4"> <p>El control de la empresa. </p> </td> 
+   <td colname="col4"> <p>El nombre de la empresa. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> accessUserHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Suplantar a un usuario específico. Solo los administradores lo utilizan. </p> </td> 
+   <td colname="col4"> <p>Suplantar a un usuario específico. Solo lo utilizan los administradores de. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> accessGroupHandle</span> </span> </p> </td> 
@@ -70,7 +70,7 @@ Sintaxis
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:HandleArray</span> </p> </td> 
    <td colname="col3"> <p>Sí </p> </td> 
-   <td colname="col4"> <p>La carpeta raíz para recuperar carpetas y todas las subcarpetas en el nivel de hoja. Si se excluye, se utiliza la raíz de la empresa. </p> </td> 
+   <td colname="col4"> <p>La carpeta raíz para recuperar carpetas y todas las subcarpetas al nivel de hoja. Si se excluye, se utiliza la raíz de la empresa. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </p> </td> 
@@ -87,7 +87,7 @@ Sintaxis
  </tbody> 
 </table>
 
-**Outpub (getAssetsReturn)**
+**Salida (getAssetsReturn)**
 
 <table id="table_694932BBBD2C4167871380B2CF514BEA"> 
  <thead> 
@@ -103,7 +103,7 @@ Sintaxis
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipos:AssetArray</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Matriz de recursos que coinciden con los criterios del filtro. </p> </td> 
+   <td colname="col4"> <p>Matriz de recursos que coinciden con los criterios de filtro. </p> </td> 
   </tr> 
  </tbody> 
 </table>

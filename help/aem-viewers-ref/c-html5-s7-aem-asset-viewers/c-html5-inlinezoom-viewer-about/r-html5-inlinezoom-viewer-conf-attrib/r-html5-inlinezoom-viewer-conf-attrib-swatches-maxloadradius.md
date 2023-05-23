@@ -8,19 +8,19 @@ exl-id: 574cb37c-009a-43c7-ae55-8b26c0c096c5
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
 source-wordcount: '50'
-ht-degree: 8%
+ht-degree: 6%
 
 ---
 
 # Swatches.maxloadradius{#swatches-maxloadradius}
 
-` [Swatches.|<containerId>_swatches.]maxloadradius=-1|0| *`precarga`*`
+` [Swatches.|<containerId>_swatches.]maxloadradius=-1|0| *`preloadnbr`*`
 
 <table id="table_4A27394B6B4347D69CAC5A59EE0FBC6F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> -1|0|<span class="varname"> precarga</span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica el comportamiento de precarga del componente. Cuando se configura como <span class="codeph"> -1</span> todas las muestras se cargan simultáneamente cuando el componente se inicializa o se cambia el recurso. Cuando se configura como <span class="codeph"> 0</span> solo se cargan muestras visibles. </p> <p><span class="codeph"> <span class="varname"> precarga</span></span> define cuántas filas y columnas invisibles alrededor del área visible se precargan. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> -1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
+   <td colname="col2"> <p> Especifica el comportamiento de carga previa del componente. Cuando se establece en <span class="codeph"> -1</span> todas las muestras se cargan simultáneamente cuando se inicializa el componente o se cambia el recurso. Cuando se establece en <span class="codeph"> 0</span> solo se cargan las muestras visibles. </p> <p><span class="codeph"> <span class="varname"> preloadnbr</span></span> define el número de filas/columnas invisibles que se cargan previamente alrededor del área visible. </p> </td> 
   </tr> 
  </tbody> 
 </table>

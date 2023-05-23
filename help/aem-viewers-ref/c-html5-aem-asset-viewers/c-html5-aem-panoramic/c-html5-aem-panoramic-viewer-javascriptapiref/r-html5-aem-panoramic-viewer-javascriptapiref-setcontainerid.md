@@ -18,9 +18,9 @@ Referencia de la API de JavaScript para el visor panorámico.
 
 ` setContainerId( *`containerId`*)`
 
-Establece el ID del contenedor DOM (normalmente un DIV) en el que se inserta el visor. No es necesario tener el elemento contenedor creado para cuando se llama a este método. Sin embargo, el contenedor debe existir cuando `init()` se ejecuta. Debe llamarse antes de `init()`.
+Establece el ID del contenedor DOM (normalmente un DIV) en el que se inserta el visor. No es necesario tener el elemento contenedor creado para el momento en que se llama a este método. Sin embargo, el contenedor debe existir cuando `init()` se ejecuta. Debe llamarse antes de `init()`.
 
-Este método es opcional si la información de configuración del visor se pasa con la variable `config` objeto JSON al constructor.
+Este método es opcional si la información de configuración del visor se pasa con la variable `config` Objeto JSON al constructor.
 
 ## Parámetro {#section-fa807db629ce43bab286b1e1dc96c492}
 

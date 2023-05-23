@@ -1,6 +1,6 @@
 ---
 title: AssetMove
-description: Un controlador a un recurso y el controlador al que se mueve.
+description: Un identificador para un recurso y el identificador para el lugar donde se mueve.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # [!DNL AssetMove]{#assetmove}
 
-Un controlador a un recurso y el controlador al que se mueve.
+Un identificador para un recurso y el identificador para el lugar donde se mueve.
 
 Sintaxis
 

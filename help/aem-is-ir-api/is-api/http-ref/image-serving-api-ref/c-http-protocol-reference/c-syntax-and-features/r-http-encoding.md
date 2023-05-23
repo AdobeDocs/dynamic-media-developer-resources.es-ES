@@ -1,7 +1,7 @@
 ---
-description: Los valores de comando deben tener codificación http utilizando secuencias de escape %xx, de modo que las cadenas de valor no incluyan los caracteres reservados '=', '&' y '%'.
+description: Los valores de comando deben estar codificados en http mediante secuencias de escape %xx, de forma que las cadenas de valor no incluyan los caracteres reservados "=", "&" y "%".
 solution: Experience Manager
-title: Codificación HTTP de servicio de imágenes
+title: Codificación HTTP del servicio de imágenes
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: aec8463f-f72a-4203-89ab-8a4f0ad9d6f9
@@ -12,17 +12,17 @@ ht-degree: 23%
 
 ---
 
-# Codificación HTTP de servicio de imágenes{#image-serving-http-encoding}
+# Codificación HTTP del servicio de imágenes{#image-serving-http-encoding}
 
-Los valores de comando deben tener codificación http utilizando secuencias de escape %xx, de modo que las cadenas de valor no incluyan los caracteres reservados &#39;=&#39;, &#39;&amp;&#39; y &#39;%&#39;.
+Los valores de comando deben estar codificados en http mediante secuencias de escape %xx, de forma que las cadenas de valor no incluyan los caracteres reservados &quot;=&quot;, &quot;&amp;&quot; y &quot;%&quot;.
 
-De lo contrario, se aplican reglas de codificación HTTP estándar. La especificación HTTP requiere la codificación de los caracteres no seguros, así como cualquier carácter de control, como `<return>` y `<tab>`. La codificación URL de un carácter consiste en un símbolo &quot;%&quot;, seguido de la representación hexadecimal de dos dígitos (sin distinción de mayúsculas y minúsculas) del punto de código ISO-Latin del carácter. Los caracteres no seguros y los puntos de código son:
+De lo contrario, se aplican reglas de codificación HTTP estándar. La especificación HTTP requiere la codificación de los caracteres no seguros, así como de cualquier carácter de control, como `<return>` y `<tab>`. La codificación URL de un carácter consiste en un símbolo &quot;%&quot;, seguido de la representación hexadecimal de dos dígitos (sin distinción de mayúsculas y minúsculas) del punto de código ISO-latino del carácter. Los caracteres no seguros y los puntos de código son:
 
 <table id="table_D2C01CADB35E477D82D4C27586424625"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Carácter no seguro </th> 
-   <th colname="col2" class="entry"> Puntos de código (hexadecimal) </th> 
+   <th colname="col2" class="entry"> Puntos de código (hex) </th> 
    <th colname="col3" class="entry"> Puntos de código (dec) </th> 
   </tr> 
  </thead>
@@ -33,7 +33,7 @@ De lo contrario, se aplican reglas de codificación HTTP estándar. La especific
    <td colname="col3"> <p>32 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&lt;&gt; </p> </td> 
+   <td colname="col1"> <p>&lt; </p> </td> 
    <td colname="col2"> <p>3C </p> </td> 
    <td colname="col3"> <p>60 </p> </td> 
   </tr> 
@@ -63,7 +63,7 @@ De lo contrario, se aplican reglas de codificación HTTP estándar. La especific
    <td colname="col3"> <p>123 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&amp;llave; </p> </td> 
+   <td colname="col1"> <p>&amp;brace; </p> </td> 
    <td colname="col2"> <p>7D </p> </td> 
    <td colname="col3"> <p>125 </p> </td> 
   </tr> 
@@ -93,7 +93,7 @@ De lo contrario, se aplican reglas de codificación HTTP estándar. La especific
    <td colname="col3"> <p>91 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&amp;rbrack; </p> </td> 
+   <td colname="col1"> <p>&amp;brack; </p> </td> 
    <td colname="col2"> <p>5D </p> </td> 
    <td colname="col3"> <p>93 </p> </td> 
   </tr> 
@@ -105,14 +105,14 @@ De lo contrario, se aplican reglas de codificación HTTP estándar. La especific
  </tbody> 
 </table>
 
-Los caracteres reservados también deben codificarse.
+Los caracteres reservados también deben estar codificados.
 
 <table id="table_A6C808A05EA6420F8125186D3D5C9E33"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Carácter reservado </th> 
    <th colname="col2" class="entry"> Puntos de código (hexadecimal) </th> 
-   <th colname="col3" class="entry"> Puntos de código (Dec) </th> 
+   <th colname="col3" class="entry"> Puntos de código (dic) </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -177,10 +177,10 @@ Si no se aplica la ofuscación, el fragmento de solicitud anterior debe codifica
 
 `…&$text=rate%26weight%3D85%25%2027%23&…`
 
-Si se aplica la confusión, la codificación se puede limitar para eliminar los caracteres &#39;=&#39;, &#39;&amp;&#39; y &#39;%&#39;:
+Si se aplica la ofuscación, la codificación se puede limitar a eliminar los caracteres &quot;=&quot;, &quot;&amp;&quot; y &quot;%&quot;:
 
 `…&$text=rate%26weight%3D85%25 27#&…`
 
 ## Véase también {#section-295476ec34c74973962d07dfa9eb2180}
 
-[Confusión](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d) de solicitudes, especificación  [HTTP/1.1 (RFC 2616)](https://www.w3.org/Protocols/rfc2616/rfc2616.html)
+[Confusión de solicitud](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d), [Especificación HTTP/1.1 (RFC 2616)](https://www.w3.org/Protocols/rfc2616/rfc2616.html)

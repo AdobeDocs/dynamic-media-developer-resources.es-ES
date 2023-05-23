@@ -1,5 +1,5 @@
 ---
-description: Establece los permisos de carpeta.
+description: Establece permisos de carpeta.
 solution: Experience Manager
 title: setFolderPermissions
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 15%
 
 # setFolderPermissions{#setfolderpermissions}
 
-Establece los permisos de carpeta.
+Establece permisos de carpeta.
 
 Sintaxis
 
@@ -30,18 +30,18 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | Identificador de la empresa. |
-| folderHandle | `xsd:string` | Sí | Identificador de carpeta. |
-| setChildren | `xsd:boolean` | Sí | Establece los permisos de los elementos secundarios que pertenecen a la carpeta. |
+| companyHandle | `xsd:string` | Sí | Manejo de la compañía. |
+| folderHandle | `xsd:string` | Sí | Controlador de carpeta. |
+| setChildren | `xsd:boolean` | Sí | Establece permisos en elementos secundarios que pertenecen a la carpeta. |
 | permissionArray | `types:PermissionUpdateArray` | Sí | Matriz de permisos. |
 
 **Salida (setFolderPermissionsReturn)**
 
-La API IPS no devuelve una respuesta para esta operación.
+La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-01730da4be874553ab44e3241cdf6357}
 
-Este ejemplo de código especifica un identificador de empresa, un identificador de carpeta y una matriz de permisos con información detallada sobre la carpeta. Aplica los mismos permisos a los elementos secundarios de la carpeta principal.
+Este ejemplo de código especifica un identificador de compañía, un identificador de carpeta y una matriz de permisos con información detallada sobre la carpeta. Aplica los mismos permisos a los elementos secundarios de la carpeta principal.
 
 **Solicitar**
 

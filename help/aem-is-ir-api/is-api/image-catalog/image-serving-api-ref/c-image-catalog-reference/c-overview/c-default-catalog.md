@@ -1,5 +1,5 @@
 ---
-description: El catálogo predeterminado proporciona valores predeterminados para todos los atributos de catálogo de todos los catálogos de imágenes.
+description: El catálogo predeterminado proporciona valores predeterminados para todos los atributos de catálogo para todos los catálogos de imágenes.
 solution: Experience Manager
 title: Catálogo predeterminado
 feature: Dynamic Media Classic,SDK/API
@@ -14,14 +14,14 @@ ht-degree: 0%
 
 # Catálogo predeterminado{#default-catalog}
 
-El catálogo predeterminado proporciona valores predeterminados para todos los atributos de catálogo de todos los catálogos de imágenes.
+El catálogo predeterminado proporciona valores predeterminados para todos los atributos de catálogo para todos los catálogos de imágenes.
 
-Si no se encuentra un atributo en particular en un catálogo de imágenes específico, el servidor utiliza el valor correspondiente del catálogo predeterminado en su lugar. Del mismo modo, el catálogo predeterminado se puede utilizar para proporcionar valores predeterminados para registros de datos de catálogo específicos (imágenes, definiciones de macro, fuentes y perfiles ICC). Si no se encuentra un registro de datos concreto en un catálogo de imágenes específico, el servidor intenta encontrarlo en el catálogo predeterminado. Esto permite que los catálogos de imágenes se rellenen escasamente y simplifica la administración de atributos y datos globales, como plantillas compartidas, macros, fuentes, etc.
+Si no se encuentra un atributo concreto en un catálogo de imágenes específico, el servidor utiliza el valor correspondiente del catálogo predeterminado en su lugar. Del mismo modo, el catálogo predeterminado se puede utilizar para proporcionar valores predeterminados para registros de datos de catálogo específicos (imágenes, definiciones de macros, fuentes y perfiles ICC). Si no se encuentra un registro de datos concreto en un catálogo de imágenes específico, el servidor intenta encontrarlo en el catálogo predeterminado en su lugar. Esto permite que los catálogos de imágenes se rellenen escasamente y simplifica la administración de atributos y datos globales, como plantillas compartidas, macros, fuentes, etc.
 
 Además, el catálogo predeterminado proporciona todos los atributos y registros de datos (macros, fuentes, perfiles ICC, reglas de preprocesamiento de solicitudes) cuando no hay ningún catálogo de imágenes específico involucrado en una operación.
 
-Para el correcto funcionamiento del [!DNL Platform Server] el archivo de atributos de catálogo para el catálogo predeterminado debe tener un nombre [!DNL default.ini], debe existir siempre en la carpeta del catálogo y debe rellenarse completamente con todos los atributos necesarios, excluyendo `attribute::RootId` y las referencias a los distintos archivos de datos del catálogo, que son opcionales.
+Para el correcto funcionamiento del [!DNL Platform Server] el nombre del archivo de atributos de catálogo para el catálogo predeterminado debe ser [!DNL default.ini], siempre debe existir en la carpeta del catálogo y debe rellenarse completamente con todos los atributos necesarios, excluyendo `attribute::RootId` y las referencias a los distintos archivos de datos del catálogo, que son opcionales.
 
 >[!NOTE]
 >
->Todos los archivos de atributos del catálogo excepto [!DNL default.ini] debe contener un `attribute::RootId` valor. `attribute::RootId` en [!DNL default.ini] debe estar vacío.
+>Todos los archivos de atributos de catálogo excepto [!DNL default.ini] debe contener un único `attribute::RootId` valor. `attribute::RootId` in [!DNL default.ini] debe estar vacío.

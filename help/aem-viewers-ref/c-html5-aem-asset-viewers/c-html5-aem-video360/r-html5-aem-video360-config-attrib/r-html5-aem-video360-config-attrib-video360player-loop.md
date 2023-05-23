@@ -1,6 +1,6 @@
 ---
 title: Video360Player.loop
-description: Atributo de configuración para el visualizador de vídeo360.
+description: Atributo de configuración para el visor de Video360.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: c91f33bd-92d5-4b00-8910-572f08255f8c
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
 source-wordcount: '30'
-ht-degree: 30%
+ht-degree: 26%
 
 ---
 
 # Video360Player.loop{#video-player-loop}
 
-Atributo de configuración para el visualizador de vídeo360.
+Atributo de configuración para el visor de Video360.
 
 `[Video360Player.|<containerId>_video360Player.]loop=0|1`
 
@@ -22,7 +22,7 @@ Atributo de configuración para el visualizador de vídeo360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Indica si el vídeo debe reproducirse una vez finalizada la reproducción. </p> </td> 
+   <td colname="col2"> <p> Indica si el vídeo debe reproducirse de nuevo una vez completada la reproducción. </p> </td> 
   </tr> 
  </tbody> 
 </table>

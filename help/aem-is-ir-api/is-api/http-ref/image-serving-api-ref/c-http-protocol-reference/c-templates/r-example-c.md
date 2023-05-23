@@ -16,15 +16,15 @@ ht-degree: 0%
 
 Cree una aplicación de capas de &quot;muñeca de papel&quot;.
 
-Una imagen de fondo contiene la foto de un modelo o maniquí. Los registros adicionales del catálogo de imágenes contienen varias prendas de vestir y accesorios, fotografiados para que coincidan con el maniquí en forma y tamaño.
+Una imagen de fondo contiene la foto de un modelo o maniquí. Los registros adicionales en el catálogo de imágenes contienen varias prendas y accesorios, fotografiados para que coincidan con el maniquí en forma y tamaño.
 
-Cada foto de ropa o accesorio está enmascarada y recortada al cuadro delimitador de la máscara para minimizar el tamaño de la imagen. Los anclajes y las resoluciones de las imágenes se controlan cuidadosamente para mantener la alineación entre las capas y la imagen de fondo, y todas las imágenes se añaden a un catálogo de imágenes, con los valores adecuados almacenados en `catalog::Resolution` y `catalog::Anchor`.
+Cada foto de ropa/accesorio se enmascara y se recorta a la caja limitadora de la máscara para minimizar los tamaños de imagen. Los anclajes y las resoluciones de las imágenes se controlan cuidadosamente para mantener la alineación entre las capas y la imagen de fondo, y todas las imágenes se añaden a un catálogo de imágenes, con los valores adecuados almacenados en `catalog::Resolution` y `catalog::Anchor`.
 
-Además de las capas, también desea cambiar el color de los elementos seleccionados. Los registros de estos elementos se procesan previamente para eliminar el color original y ajustar el brillo y el contraste de una manera adecuada para el comando de coloreado. Este preprocesamiento puede realizarse sin conexión, utilizando una herramienta de edición de imágenes como Adobe Photoshop o, en casos sencillos, trivialmente añadiendo `op_brightness=` y `op_contrast=` al campo `catalog::Modifier`.
+Además de las capas, también desea cambiar el color de los elementos seleccionados. Los registros de estos elementos se preprocesan para eliminar el color original y ajustar el brillo y el contraste de una manera adecuada para el comando de coloreado. Este preprocesamiento se puede realizar sin conexión, con una herramienta de edición de imágenes como Adobe Photoshop o, en casos sencillos, añadiendo `op_brightness=` y `op_contrast=` a la `catalog::Modifier`field.
 
-Esta aplicación no justifica una plantilla independiente, ya que todos los objetos ya están correctamente alineados por sus anclajes de imagen ( `catalog::Anchor`) y escalados ( `catalog::Resolution`). Depende del cliente garantizar un orden de capa adecuado.
+Esta aplicación no garantiza una plantilla independiente, ya que todos los objetos ya están correctamente alineados por sus anclajes de imagen ( `catalog::Anchor`) y escalado ( `catalog::Resolution`). Depende del cliente garantizar el orden de capas adecuado.
 
-Una solicitud típica podría tener este aspecto:
+Una solicitud típica puede tener este aspecto:
 
 ```
 http://server/rootId/mannequin?&hei=400&qlt=90&
@@ -36,15 +36,15 @@ layer=4&res=999&src=rootId/hat2generic&colorize=12,15,34&
 layer=6&res=999&src=rootId/shoes21
 ```
 
-Solo se especifica la altura. Al hacerlo, la imagen devuelta puede variar en anchura según la relación de aspecto de la imagen del maniquí, sin que se rellenen los márgenes con el color de fondo.
+Solo se especifica la altura. Al hacerlo, la imagen devuelta puede variar en anchura según la proporción de aspecto de la imagen del maniquí, sin que los márgenes se rellenen con el color de fondo.
 
-No importa qué resolución se especifique para cada capa, siempre y cuando sean iguales. Es posible que esta versión no permita que las vistas sean más grandes que las imágenes compuestas. Si se especifica un valor de resolución grande, se evitarán problemas relacionados con esta limitación. Todo el procesamiento y la composición se realiza con la resolución óptima para el tamaño de imagen solicitado, para ayudar a lograr el mejor rendimiento y calidad de salida.
+No debería importar la resolución especificada para cada capa, siempre y cuando todas sean iguales. Es posible que esta versión no permita que las vistas sean más grandes que las imágenes compuestas. Especificar un valor de resolución grande evita problemas relacionados con esta limitación. Todo el procesamiento y la composición se realizan con la resolución óptima para el tamaño de imagen solicitado, para ayudar a lograr el mejor rendimiento y calidad de salida.
 
-Los comandos `res=` se pueden omitir si todas las imágenes de origen tienen la misma resolución a escala completa (lo que es probable que sea el caso de este tipo de aplicación).
+El `res=` Los comandos se pueden omitir si todas las imágenes de origen tienen la misma resolución a escala completa (lo que probablemente sea el caso para este tipo de aplicación).
 
-El `rootId` debe especificarse para todos los comandos `src=`, incluso si son iguales al `rootId` especificado en la ruta de la url.
+El `rootId` se debe especificar para todo `src=` comandos, incluso si son los mismos que los comandos `rootId` especificado en la ruta url.
 
-Si no se va a utilizar ningún catálogo de imágenes, no es posible un enfoque de escalado basado en resolución. En este caso, se deben calcular factores de escala explícitos para cada elemento de capa, según la relación entre los valores `catalog::Resolution` de cada capa y el valor `catalog::Resolution` de la capa de fondo. La solicitud de composición (con menos capas) puede tener este aspecto:
+Si no se va a utilizar ningún catálogo de imágenes, no es posible aplicar un enfoque de escala basado en la resolución. En este caso, se deben calcular los factores de escala explícitos para cada elemento de capa, en función de la proporción del `catalog::Resolution` valores para cada capa en el `catalog::Resolution` valor de la capa de fondo. La solicitud de composición (con menos capas) puede tener este aspecto:
 
 ```
 http://server/myApp/mannequin.tif?&hei=400&qlt=90&

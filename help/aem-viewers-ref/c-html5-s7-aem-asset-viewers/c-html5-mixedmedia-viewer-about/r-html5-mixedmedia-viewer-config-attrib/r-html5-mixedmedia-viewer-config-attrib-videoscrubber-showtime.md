@@ -8,7 +8,7 @@ exl-id: cd141d46-9d73-417e-b789-4d2f0bc6a9eb
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '19'
-ht-degree: 26%
+ht-degree: 21%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 26%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Activa o desactiva la burbuja de tiempo reproducida al ajustar la posición del pomo. </p> </td> 
+   <td colname="col2"> <p> Activa o desactiva la burbuja de tiempo pasado al ajustar la posición del control. </p> </td> 
   </tr> 
  </tbody> 
 </table>

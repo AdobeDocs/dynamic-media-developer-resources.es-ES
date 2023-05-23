@@ -1,5 +1,5 @@
 ---
-description: Los archivos de atributos del catálogo reconocen estos atributos de solicitud.
+description: Los archivos de atributos de catálogo reconocen estos atributos de solicitud.
 solution: Experience Manager
 title: Atributos de solicitud
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: f1f2905f-f4e8-4944-8b27-469f09aa4bce
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 0%
+source-wordcount: '99'
+ht-degree: 1%
 
 ---
 
 # Atributos de solicitud{#request-attributes}
 
-Los archivos de atributos del catálogo reconocen estos atributos de solicitud.
+Los archivos de atributos de catálogo reconocen estos atributos de solicitud.
 
 Sintaxis
 
@@ -29,19 +29,19 @@ Sintaxis
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rooturl.md#reference-3b0e43881020409cbe642366913cf137" type="reference" format="dita" scope="local"> RootUrl</a> </span> </p></td> 
-  <td class="stentry"> <p>URL raíz para direcciones URL de origen de imagen relativas. </p></td> 
+  <td class="stentry"> <p>URL raíz para URL de origen de imagen relativas. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-requestobfuscation.md#reference-730a3330253343f893419ebd52baf0bd" type="reference" format="dita" scope="local"> RequestObfuscation</a> </span> </p></td> 
-  <td class="stentry"> <p>Solicitar modo de ofuscación. </p></td> 
+  <td class="stentry"> <p>Modo de ofuscación de solicitud. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-requestlock.md#reference-8bbe2f581be847d3b9fa123e8e5e94b0" type="reference" format="dita" scope="local"> RequestLock</a> </span> </p></td> 
-  <td class="stentry"> <p>Solicitar modo de bloqueo. </p></td> 
+  <td class="stentry"> <p>Modo de bloqueo de solicitud. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-watermark.md#reference-942b50acb2dd43a5ae498dc41ea9ac9b" type="reference" format="dita" scope="local"> Marca de agua</a> </span> </p></td> 
-  <td class="stentry"> <p>Selector de plantilla de marca de agua. </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-watermark.md#reference-942b50acb2dd43a5ae498dc41ea9ac9b" type="reference" format="dita" scope="local"> Filigrana</a> </span> </p></td> 
+  <td class="stentry"> <p>Selector de plantilla de filigrana. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errorimage.md#reference-c494d5d8b2584fe3800f35baabd0292c" type="reference" format="dita" scope="local"> ErrorImage</a> </span> </p></td> 
@@ -49,22 +49,22 @@ Sintaxis
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errordetail.md#reference-4987c8cddcba4c88960170e49cafc561" type="reference" format="dita" scope="local"> ErrorDetail</a></span> </p></td> 
-  <td class="stentry"> <p>Detalles del mensaje de error. </p></td> 
+  <td class="stentry"> <p>Detalle del mensaje de error. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-trusteddomains.md#reference-563bd5c54f914d9abcd2304ab292e12f" type="reference" format="dita" scope="local"> TrustedDomains</a> </span> </p></td> 
-  <td class="stentry"> <p>Dominios web permitidos para acceder a imágenes de respuesta swf. </p></td> 
+  <td class="stentry"> <p>Dominios web con permiso para acceder a imágenes de respuesta SWF. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultexpiration.md#reference-0526166fab654fceb243b75d1ea4f0cf" type="reference" format="dita" scope="local"> DefaultExpiration</a> </span> </p></td> 
-  <td class="stentry"> <p>TTL caché de cliente para respuestas de imagen predeterminadas. </p></td> 
+  <td class="stentry"> <p>TTL de caché de cliente para respuestas de imagen predeterminadas. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-nonimgexpiration.md#reference-a8066cd0d24b4ea98100ade4821f1f9d" type="reference" format="dita" scope="local"> NonImgExpiration</a> </span> </p></td> 
-  <td class="stentry"> <p>TTL de caché de cliente para respuestas que no sean de imagen. </p></td> 
+  <td class="stentry"> <p>TTL de caché del cliente para respuestas que no sean de imagen. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-localemap.md#reference-49bbf598f8ea47c3a563755cef306318" type="reference" format="dita" scope="local"> Mapa de configuración regional</a></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-localemap.md#reference-49bbf598f8ea47c3a563755cef306318" type="reference" format="dita" scope="local"> LocaleMap</a></span> </p></td> 
   <td class="stentry"> <p>Mapa de traducción de ID. </p></td> 
  </tr> 
  <tr class="strow"> 

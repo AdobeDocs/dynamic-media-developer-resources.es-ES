@@ -18,7 +18,7 @@ Referencia de la API de JavaScript para el visor panorámico.
 
 `setAsset(asset)`
 
-Establece el nuevo recurso. Puede llamar a este parámetro en cualquier momento, ya sea antes o después de `init()`. Si se llama después de `init()`, el visor intercambia el recurso durante la ejecución.
+Establece el nuevo recurso. Puede llamar a este parámetro en cualquier momento, antes o después de `init()`. Si se llama después de `init()`, el visor intercambia el recurso durante la ejecución.
 
 Consulte también [init](../../../c-html5-aem-asset-viewers/c-html5-aem-panoramic/c-html5-aem-panoramic-viewer-javascriptapiref/r-html5-aem-panoramic-viewer-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
@@ -26,7 +26,7 @@ Consulte también [init](../../../c-html5-aem-asset-viewers/c-html5-aem-panorami
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> asset </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> Cadena</span>} nuevo id de recurso. Este visor no admite las imágenes que utilizan Representación de imágenes (IR) o Contenido generado por el usuario (UGC). </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> Cadena</span>} nuevo id de recurso. Este visor no admite imágenes que utilicen procesamiento de imágenes (IR) o contenido generado por el usuario (UGC). </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,5 +1,5 @@
 ---
-description: Obtiene todos los ajustes de configuración del visor asociados al recurso especificado.
+description: Obtiene todas las opciones de configuración del visor asociadas al recurso especificado.
 solution: Experience Manager
 title: getViewerConfigSettings
 feature: Dynamic Media Classic,SDK/API,Viewer Presets
@@ -14,7 +14,7 @@ ht-degree: 22%
 
 # getViewerConfigSettings{#getviewerconfigsettings}
 
-Obtiene todos los ajustes de configuración del visor asociados al recurso especificado.
+Obtiene todas las opciones de configuración del visor asociadas al recurso especificado.
 
 Sintaxis
 
@@ -31,10 +31,10 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | Gestionar a la empresa. |
-| assetHandle | `xsd:string` | Sí | Gestionar en el recurso. |
+| companyHandle | `xsd:string` | Sí | Gestionar en la empresa. |
+| assetHandle | `xsd:string` | Sí | Administre en el recurso. |
 
-**Salida (getViewerCoinfigSettingsReturn)**
+**Salida (getViewerConfigSettingsReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|

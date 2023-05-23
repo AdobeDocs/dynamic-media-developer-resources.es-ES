@@ -12,7 +12,7 @@ ht-degree: 2%
 
 ---
 
-# recurso{#asset}
+# asset{#asset}
 
 Parámetro común a todos los visualizadores.
 
@@ -21,13 +21,13 @@ Parámetro común a todos los visualizadores.
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> assetId  </span> </span> </p> </td> 
-   <td colname="col2"> <p> ID del recurso del vídeo único o del conjunto de vídeos adaptables. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> assetId </span> </span> </p> </td> 
+   <td colname="col2"> <p> ID de recurso de un solo vídeo o conjunto de vídeos adaptable. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esta propiedad es obligatoria, a menos que se utilice el parámetro `video` . Consulte [Compatibilidad con vídeo externo](../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3) en Vídeo o [Compatibilidad con vídeo externo](../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760) en Video360.
+Esta propiedad es obligatoria, a menos que `video` se utiliza el parámetro. Consulte [Compatibilidad con vídeo externo](../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3) en Vídeo o [Compatibilidad con vídeo externo](../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760) en Video360.
 
 o
 
@@ -36,7 +36,7 @@ o
 <table id="table_67E18F42E97C4AAAB0A2F67B7924765D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> image  </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> imagen </span> </span> </p> </td> 
    <td colname="col2"> <p> Especifica una sola imagen o un conjunto de carrusel. Aplique una codificación HTTP doble a cualquier carácter no seguro que exista en el nombre de la imagen o en el nombre del conjunto de carrusel. </p> </td> 
   </tr> 
  </tbody> 
@@ -44,80 +44,80 @@ o
 
 o
 
-` asset= *``* | *``* | *``* | *``* [%3F *`imageimageListimageListWithModifiersmultiDimensionalSpinSetmodifiers`*]`
+` asset= *`imagen`* | *`imageList`* | *`imageListWithModifiers`* | *`multiDimensionalSpinSet`* [%3F *`modificadores`*]`
 
 <table id="table_A2A0ACD942E942BC99AF0DC80FB1C670"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> image  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Especifica una sola imagen. Aplique una codificación HTTP doble a cualquier carácter no seguro que exista en el nombre de la imagen. </p> <p>O bien, especifica una referencia a un conjunto de imágenes. El visor recupera los conjuntos de imágenes del servidor mediante la solicitud <span class="codeph"> req=set IS </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> imagen </span> </span> </p> </td> 
+   <td colname="col2"> <p> Especifica una sola imagen. Aplique una codificación HTTP doble a cualquier carácter no seguro que exista en el nombre de la imagen. </p> <p>O bien, especifica una referencia a un conjunto de imágenes. El visor recupera conjuntos de imágenes del servidor mediante <span class="codeph"> req=set IS </span> solicitud. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> imageList  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Especifica un conjunto de imágenes explícito, que consiste en una secuencia ordenada de elementos o marcos, separados por comas. </p> <p> <p>Nota:  Esta función es compatible con Adobe Dynamic Media Classic; no es compatible con Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> imageList </span> </span> </p> </td> 
+   <td colname="col2"> <p> Especifica un conjunto de imágenes explícito formado por una secuencia ordenada de elementos o fotogramas separados por comas. </p> <p> <p>Nota: Esta función es compatible con Adobe Dynamic Media Classic; no es compatible con Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> imageListWithModifiers  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Especifica un conjunto de imágenes explícito en el que cada marco tiene sus propios modificadores de servicio de imágenes. En este caso, la lista de marcos se envuelve entre paréntesis. Asegúrese de aplicar una codificación HTTP doble a cualquier coma que esté presente en el modificador específico de Image Serving. </p> <p> <p>Nota:  Esta función es compatible con Adobe Dynamic Media Classic; no es compatible con Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> imageListWithModifiers </span> </span> </p> </td> 
+   <td colname="col2"> <p> Especifica un conjunto de imágenes explícito en el que cada fotograma tiene sus propios modificadores de servicio de imágenes. En este caso, la lista de marcos se coloca entre paréntesis. Asegúrese de aplicar la codificación HTTP doble a cualquier coma que esté presente en el modificador del servicio de imágenes específico del fotograma. </p> <p> <p>Nota: Esta función es compatible con Adobe Dynamic Media Classic; no es compatible con Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> multiDimensionalSpinSet  </span> </span> </p> </td> 
-   <td colname="col2"> <p>Especifica un conjunto de giros multidimensional explícito con la siguiente sintaxis: </p> <p> <span class="codeph"> ((  <span class="varname"> horizontalSpinSet  </span>)[,(  <span class="varname"> horizontalSpinSet  </span>)])  </span> </p> <p> donde <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> es una lista de marcos separados por comas para un eje horizontal determinado. Todos los <span class="codeph"> <span class="varname"> horizontalesSpinSet </span> </span> deben tener el mismo número de fotogramas. </p> <p> <p>Nota:  Esta función es compatible con Adobe Dynamic Media Classic; no es compatible con Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> multiDimensionalSpinSet </span> </span> </p> </td> 
+   <td colname="col2"> <p>Especifica un conjunto de giros multidimensional explícito utilizando la siguiente sintaxis: </p> <p> <span class="codeph"> (( <span class="varname"> horizontalSpinSet </span>)[,( <span class="varname"> horizontalSpinSet </span>)]) </span> </p> <p> donde <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> es una lista de marcos separados por comas para un eje horizontal determinado. Todo <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> debe tener el mismo número de fotogramas. </p> <p> <p>Nota: Esta función es compatible con Adobe Dynamic Media Classic; no es compatible con Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> modificadores  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Comandos de servicio de imágenes; Los separadores <span class="codeph"> y </span> y <span class="codeph"> = </span> deben codificarse con HTTP como <span class="codeph"> %26 </span> y <span class="codeph"> %3D </span>, respectivamente. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> modificadores </span> </span> </p> </td> 
+   <td colname="col2"> <p> Comandos del servicio de imágenes; <span class="codeph"> &amp; </span> y <span class="codeph"> = </span> los separadores deben estar codificados en HTTP como <span class="codeph"> %26 </span> y <span class="codeph"> %3D </span>, respectivamente. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 o
 
-` asset=( *``* | ( *``*; *``* | *``*; *``* | *``*; *``*); *``*;( *``*; *``* | *``*; *``* | *``*; *``*); *``*;] [%3F *`mediaSetvideoswatchIdimageswatchIdSetIdswatchIdIDvideoswatchIdimageswatchwatchIdIdIdModificadores`*]`
+` asset=( *`mediaSet`* | ( *`video`*; *`swatchId`* | *`imagen`*; *`swatchId`* | *`setId`*; *`swatchId`*); *`ID`*;( *`video`*; *`swatchId`* | *`imagen`*; *`swatchId`* | *`setId`*; *`swatchId`*); *`ID`*;] [%3F *`modificadores`*]`
 
 <table id="table_D31C8507C02A4452A79DEDDEC62EF2F5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> mediaSet  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Especifica una referencia a un conjunto de medios. El visor recupera los conjuntos de medios del servidor mediante la solicitud req=set IS. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> mediaSet </span> </span> </p> </td> 
+   <td colname="col2"> <p> Especifica una referencia a un conjunto de medios. El visor recupera conjuntos de medios del servidor mediante la solicitud req=set IS. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> video  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Un solo vídeo o conjunto de vídeos adaptables. </p> <p> <p>Nota:  Esta función es compatible con Adobe Dynamic Media Classic; no es compatible con Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> video </span> </span> </p> </td> 
+   <td colname="col2"> <p> Un solo vídeo o conjunto de vídeos adaptable. </p> <p> <p>Nota: Esta función es compatible con Adobe Dynamic Media Classic; no es compatible con Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> image  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Imagen única. </p> <p> <p>Nota:  Esta función es compatible con Adobe Dynamic Media Classic; no es compatible con Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> imagen </span> </span> </p> </td> 
+   <td colname="col2"> <p> Imagen única. </p> <p> <p>Nota: Esta función es compatible con Adobe Dynamic Media Classic; no es compatible con Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> setId  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Conjunto de muestras. </p> <p> <p>Nota:  Esta función es compatible con Adobe Dynamic Media Classic; no es compatible con Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> setId </span> </span> </p> </td> 
+   <td colname="col2"> <p> Juego de muestras. </p> <p> <p>Nota: Esta función es compatible con Adobe Dynamic Media Classic; no es compatible con Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> swatchId  </span> </span> </p> </td> 
-   <td colname="col2"> <p>Imagen de muestra. </p> <p> <p>Nota:  Esta función es compatible con Adobe Dynamic Media Classic; no es compatible con Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> swatchId </span> </span> </p> </td> 
+   <td colname="col2"> <p>Imagen de muestra. </p> <p> <p>Nota: Esta función es compatible con Adobe Dynamic Media Classic; no es compatible con Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ID  </span> </span> </p> </td> 
-   <td colname="col2"> <p> El identificador de tipo de elemento del conjunto de medios puede ser uno de los siguientes: </p> <p> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ID </span> </span> </p> </td> 
+   <td colname="col2"> <p> El identificador del tipo de elemento del conjunto de medios puede ser uno de los siguientes: </p> <p> 
      <ul id="ul_3100F9356628498DA820C07F6F69CC9B"> 
-      <li id="li_51B649A539F14510873CFDA85A6AA714"> <p> <span class="codeph"> advanced_image  </span> </p> <p>Para una sola imagen. </p> </li> 
-      <li id="li_7E764D67294647C1A828F949E5ED1908"> <p> <span class="codeph"> advanced_swatchset  </span> </p> <p>Para conjunto de muestras anidado. </p> </li> 
-      <li id="li_C942CED779B54110BCDC74188995FD5B"> <p> <span class="codeph"> giro  </span> </p> <p>Para conjunto de giros. </p> </li> 
-      <li id="li_6EA5C54F078D4B24B44F1588BF083842"> <p> <span class="codeph"> video  </span> </p> <p>Para un solo vídeo. </p> </li> 
-      <li id="li_8110FA7E0CAB4681A2D8C15F2A656E69"> <p> <span class="codeph"> video_set  </span> </p> <p>Para conjuntos de vídeos adaptables. </p> </li> 
-     </ul> </p> <p> <p>Nota:  Esta función es compatible con Adobe Dynamic Media Classic; no es compatible con Adobe Experience Manager Assets. </p> </p> </td> 
+      <li id="li_51B649A539F14510873CFDA85A6AA714"> <p> <span class="codeph"> advanced_image </span> </p> <p>Para una sola imagen. </p> </li> 
+      <li id="li_7E764D67294647C1A828F949E5ED1908"> <p> <span class="codeph"> advanced_swatchset </span> </p> <p>Para conjuntos de muestras anidados. </p> </li> 
+      <li id="li_C942CED779B54110BCDC74188995FD5B"> <p> <span class="codeph"> giro </span> </p> <p>Para el conjunto de giros. </p> </li> 
+      <li id="li_6EA5C54F078D4B24B44F1588BF083842"> <p> <span class="codeph"> video </span> </p> <p>Para un solo vídeo. </p> </li> 
+      <li id="li_8110FA7E0CAB4681A2D8C15F2A656E69"> <p> <span class="codeph"> video_set </span> </p> <p>Para Conjuntos De Vídeos Adaptables. </p> </li> 
+     </ul> </p> <p> <p>Nota: Esta función es compatible con Adobe Dynamic Media Classic; no es compatible con Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> modificadores  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Comandos de servicio de imágenes; Los separadores <span class="codeph"> y </span> y <span class="codeph"> = </span> deben codificarse con HTTP como <span class="codeph"> %26 </span> y <span class="codeph"> %3D </span>, respectivamente. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> modificadores </span> </span> </p> </td> 
+   <td colname="col2"> <p> Comandos del servicio de imágenes; <span class="codeph"> &amp; </span> y <span class="codeph"> = </span> los separadores deben estar codificados en HTTP como <span class="codeph"> %26 </span> y <span class="codeph"> %3D </span>, respectivamente. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Este visor no admite las imágenes que utilizan IR (procesamiento de imágenes) o UGC (contenido generado por el usuario).
+>Las imágenes que utilizan IR (Image Rendering) o UGC (User-Generated Content) no son compatibles con este visor.
 
 ## Propiedades {#section-10ee45d637134e0fbcd943c62578cb78}
 
@@ -129,7 +129,7 @@ Ninguno.
 
 ## Ejemplos {#section-a8afbf76f8384aa0a83ed1feeccd5b9a}
 
-Referencia de un solo recurso:
+Referencia de recurso único:
 
 ```
 asset=Scene7SharedAssets/Backpack_B
@@ -171,13 +171,13 @@ Conjunto de imágenes explícito:
 asset=Scene7SharedAssets/Backpack_B,Scene7SharedAssets/Backpack_C
 ```
 
-Conjunto de imágenes explícito con modificadores de servicio de imágenes específicos de fotogramas:
+Conjunto de imágenes explícito con modificadores de servicio de imágenes específicos de marcos:
 
 ```
 asset=(Scene7SharedAssets/Backpack_B%3Fop_colorize%3D255%252C0%252C0,Scene7SharedAssets/Backpack_B%3Fop_colorize%3D0x00ff00)
 ```
 
-Una única referencia a un conjunto de giros definido en un catálogo:
+Referencia única a un conjunto de giros definido en un catálogo:
 
 ```
 asset=Scene7SharedAssets/SpinSet-Sample

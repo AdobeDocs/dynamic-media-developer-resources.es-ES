@@ -1,18 +1,18 @@
 ---
 description: Utilizado por FontFieldUpdate/type.
 solution: Experience Manager
-title: Tipos de fuentes
+title: Tipos de fuente
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 3a127244-89b9-45ed-bf25-23395a89d20e
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '19'
-ht-degree: 10%
+source-wordcount: '14'
+ht-degree: 14%
 
 ---
 
-# Tipos de fuentes{#font-types}
+# Tipos de fuente{#font-types}
 
 Utilizado por FontFieldUpdate/type.
 

@@ -1,5 +1,5 @@
 ---
-description: Los catálogos de imágenes proporcionan muchos ajustes de configuración del servidor, así como fuentes, perfiles ICC, macros de comandos.
+description: Los catálogos de imágenes proporcionan muchas opciones de configuración del servidor, así como fuentes, perfiles ICC y macros de comandos.
 solution: Experience Manager
 title: Catálogos de imágenes
 feature: Dynamic Media Classic,SDK/API
@@ -14,8 +14,8 @@ ht-degree: 0%
 
 # Catálogos de imágenes{#image-catalogs}
 
-Los catálogos de imágenes proporcionan muchos ajustes de configuración del servidor, así como fuentes, perfiles ICC, macros de comandos.
+Los catálogos de imágenes proporcionan muchas opciones de configuración del servidor, así como fuentes, perfiles ICC y macros de comandos.
 
-Asignan identificadores de imagen y contenido estático utilizados en solicitudes a rutas de archivo reales, almacenan varios metadatos de imagen, como mapas de imágenes, y proporcionan contenedores para plantillas y conjuntos de imágenes.
+Asignan ID de contenido estático y de imagen utilizados en solicitudes a rutas de archivo reales, almacenan varios metadatos de imagen, como mapas de imagen, y proporcionan contenedores para plantillas y conjuntos de imágenes.
 
-Solo se puede acceder a los catálogos de imágenes desde la [!DNL Platform Server], nunca de Image Server. Los archivos de atributos del catálogo deben tener un sufijo .ini y colocarse en la variable [!DNL Platform Server]La carpeta del catálogo ( `PS::CatalogFolder`). Al menos, el catálogo de imágenes predeterminado es obligatorio y debe rellenarse con todos los atributos para el correcto funcionamiento del [!DNL Platform Server].
+Solo se puede acceder a los catálogos de imágenes a través de [!DNL Platform Server], nunca por el servidor de imágenes. Los archivos de atributos de catálogo deben tener un sufijo .ini y colocarse en la variable [!DNL Platform Server]Carpeta de catálogo de ( `PS::CatalogFolder`). Se requiere al menos el catálogo de imágenes predeterminado, que debe rellenarse con todos los atributos para el correcto funcionamiento del [!DNL Platform Server].

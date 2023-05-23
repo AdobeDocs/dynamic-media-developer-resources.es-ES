@@ -8,7 +8,7 @@ exl-id: cab3c3fe-1a64-4a50-8559-57cadb31f689
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
 source-wordcount: '85'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ Parámetro común a todos los visualizadores.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> contentUrlPath</span> </span> </p> </td> 
-   <td colname="col2"> <p>Especifica la ruta base a archivos CSS personalizados, cualquier contenido de subtítulos o contenido de navegación. </p> <p>Si la ruta no tiene un <span class="filepath"> /</span> inicial, es relativa a la ubicación de la página HTML del visor. Si la ruta tiene un <span class="filepath"> /</span> inicial, especifica una ruta absoluta en el mismo servidor. </p> <p> No afecta a la carga del archivo CSS predeterminado cuando no se especifica un comando de estilo. </p> </td> 
+   <td colname="col2"> <p>Especifica la ruta base a los archivos CSS personalizados, cualquier contenido de subtítulos o contenido de navegación. </p> <p>Si la ruta no tiene un interlineado <span class="filepath"> /</span>, es relativa a la ubicación de la página del HTML del visor. Si la ruta tiene un interlineado <span class="filepath"> /</span>, especifica una ruta absoluta en el mismo servidor. </p> <p> No afecta a la carga del archivo CSS predeterminado cuando no se especifica un comando de estilo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

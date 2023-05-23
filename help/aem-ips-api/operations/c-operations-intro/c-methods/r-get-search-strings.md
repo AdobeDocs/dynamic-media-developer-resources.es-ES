@@ -1,5 +1,5 @@
 ---
-description: Obtiene las cadenas de búsqueda, palabras clave y otra información sobre un recurso. La respuesta contiene información adicional sobre el recurso.
+description: Obtiene las cadenas de búsqueda, palabras clave y otra información acerca de un recurso. La respuesta contiene información adicional sobre el recurso.
 solution: Experience Manager
 title: getSearchStrings
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 17%
 
 # getSearchStrings{#getsearchstrings}
 
-Obtiene las cadenas de búsqueda, palabras clave y otra información sobre un recurso. La respuesta contiene información adicional sobre el recurso.
+Obtiene las cadenas de búsqueda, palabras clave y otra información acerca de un recurso. La respuesta contiene información adicional sobre el recurso.
 
 Sintaxis
 
@@ -31,8 +31,8 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | Gestionar a la empresa. |
-| assetHandle | `xsd:string` | Sí | Gestionar en el recurso. |
+| companyHandle | `xsd:string` | Sí | Gestionar en la empresa. |
+| assetHandle | `xsd:string` | Sí | Administre en el recurso. |
 
 **Salida (getSearchStringsReturn)**
 
@@ -42,7 +42,7 @@ Sintaxis
 
 ## Ejemplos {#section-e1f73bff6e4440c489d59cb9aa5384d8}
 
-Este ejemplo de código devuelve cadenas de búsqueda específicas del recurso. La respuesta devuelve una matriz vacía.
+Este ejemplo de código devuelve cadenas de búsqueda específicas de recursos. La respuesta devuelve una matriz vacía.
 
 **Solicitar**
 

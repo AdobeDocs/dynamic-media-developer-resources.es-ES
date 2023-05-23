@@ -24,5 +24,5 @@ Sintaxis
 | estado | `xsd:boolean` | Validez de palabra clave. |
 | x | `xsd:int` | Posición de la palabra clave en el eje x (en píxeles). |
 | y | `xsd:int` | Posición de la palabra clave en el eje y (en píxeles). |
-| ancho | `xsd:int` | Anchura de la palabra clave en píxeles. |
-| altura | `xsd:int` | Altura de la palabra clave en píxeles. |
+| ancho | `xsd:int` | Ancho de la palabra clave en píxeles. |
+| altura | `xsd:int` | Alto de palabra clave en píxeles. |

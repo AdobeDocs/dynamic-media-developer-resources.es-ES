@@ -1,10 +1,11 @@
 ---
 title: Barra de control
-description: La barra de control es el área rectangular que contiene y se encuentra detrás de todos los controles de interfaz de usuario disponibles para el visor de vídeo de recorte inteligente, como el botón de reproducción/pausa y los controles de volumen.
+description: La barra de control es el área rectangular que contiene y se encuentra detrás de todos los controles de interfaz de usuario disponibles para el visor de recorte inteligente de vídeos, como el botón de reproducción/pausa y los controles de volumen.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 8ea06e0a-705d-436a-9393-75a36381cba6
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 2%
@@ -13,11 +14,11 @@ ht-degree: 2%
 
 # Barra de control{#control-bar}
 
-La barra de control es el área rectangular que contiene y se encuentra detrás de todos los controles de interfaz de usuario disponibles para el visor de vídeo de recorte inteligente, como el botón de reproducción/pausa y los controles de volumen.
+La barra de control es el área rectangular que contiene y se encuentra detrás de todos los controles de interfaz de usuario disponibles para el visor de recorte inteligente de vídeos, como el botón de reproducción/pausa y los controles de volumen.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-La barra de control siempre toma toda la anchura del visor disponible. CSS puede cambiar su color, altura y posición vertical en relación con el contenedor del visor de recorte inteligente de vídeo.
+La barra de control siempre tiene toda la anchura del visor disponible. CSS permite cambiar el color, la altura y la posición vertical con respecto al contenedor del visor de recorte inteligente de vídeo.
 
 El siguiente selector de clase CSS controla el aspecto de la barra de control:
 
@@ -50,7 +51,7 @@ El siguiente selector de clase CSS controla el aspecto de la barra de control:
 
 ## Ejemplo {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Para configurar un visualizador de vídeo de recorte inteligente con una barra de control gris de 30 píxeles de altura y situada en la parte superior del contenedor del visualizador de vídeo de recorte inteligente.
+Para configurar un visor de recorte inteligente de vídeo con una barra de control gris de 30 píxeles de altura y situada en la parte superior del contenedor del visor de recorte inteligente de vídeo.
 
 ```
 .s7smartcropvideoviewer .s7controlbar {  

@@ -1,6 +1,6 @@
 ---
 title: Compatibilidad con el seguimiento de Adobe Analytics
-description: El visor de giros admite el seguimiento de Adobe Analytics de serie.
+description: El visor de giros es compatible con el seguimiento de Adobe Analytics de forma predeterminada.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User,Data Engineer,Data Architect
@@ -14,19 +14,19 @@ ht-degree: 3%
 
 # Compatibilidad con el seguimiento de Adobe Analytics{#support-for-adobe-analytics-tracking}
 
-El visor de giros admite el seguimiento de Adobe Analytics de serie.
+El visor de giros es compatible con el seguimiento de Adobe Analytics de forma predeterminada.
 
-## Seguimiento predeterminado {#section-d06145cfa2b9491bb485b599368d466e}
+## Seguimiento listo para usar. {#section-d06145cfa2b9491bb485b599368d466e}
 
-El visor de giros es compatible con el seguimiento de Adobe Analytics de serie.
+El visor de giros es compatible con el seguimiento de Adobe Analytics de forma predeterminada.
 
-Para habilitar el seguimiento, pase el nombre de ajuste preestablecido de la empresa correspondiente como `config2` parámetro.
+Para habilitar el seguimiento, pase el nombre del ajuste preestablecido de empresa adecuado como `config2` parámetro.
 
 El visor también envía una única solicitud HTTP de seguimiento al servidor de imágenes configurado con el tipo de visor y la información de versión.
 
 ## Seguimiento personalizado {#section-47512156a1d64b338b50cfa39c84f4aa}
 
-Para integrarse con sistemas de análisis de terceros, es necesario escuchar la `trackEvent` la llamada de retorno del visor y procese la `eventInfo` de la función de llamada de retorno, según sea necesario. El siguiente código es un ejemplo de dicha función de controlador:
+Para integrarse con sistemas de análisis de terceros, es necesario escuchar el `trackEvent` llamada de retorno del visor y procesar `eventInfo` de la función de llamada de retorno, según sea necesario. El siguiente código es un ejemplo de esta función de controlador:
 
 ```javascript {.line-numbers}
 var spinViewer = new s7viewers.SpinViewer({ 
@@ -50,31 +50,31 @@ var spinViewer = new s7viewers.SpinViewer({
 });
 ```
 
-El visor realiza el seguimiento de los siguientes eventos de usuario de SDK:
+El visor realiza un seguimiento de los siguientes eventos de usuarios del SDK:
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Evento de usuario del SDK </p> </th> 
-   <th colname="col2" class="entry"> <p>Enviado cuando... </p> </th> 
+   <th colname="col2" class="entry"> <p>Se envía cuando... </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
-   <td colname="col2"> <p>primero se carga el visor. </p> </td> 
+   <td colname="col2"> <p>El visor se carga primero. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>un recurso se intercambia en el visualizador mediante la función <span class="codeph"> setAsset() </span> API. </p> </td> 
+   <td colname="col2"> <p>se intercambia un recurso en el visor mediante el <span class="codeph"> setAsset() </span> API. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 
-   <td colname="col2"> <p> se amplía el zoom de una imagen. </p> </td> 
+   <td colname="col2"> <p> se amplía una imagen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAN </span> </p> </td> 
-   <td colname="col2"> <p>una imagen es panorámica. </p> </td> 
+   <td colname="col2"> <p>se panorámica una imagen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SPIN </span> </p> </td> 

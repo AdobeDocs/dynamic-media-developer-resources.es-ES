@@ -8,7 +8,7 @@ exl-id: be85f9b7-07a0-42e9-8391-45371a1ecaa6
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '21'
-ht-degree: 38%
+ht-degree: 28%
 
 ---
 
@@ -22,5 +22,5 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| controlador de proyecto | `xsd:string` | Identificador del proyecto. |
-| name | `xsd:string` | Nombre de proyecto. |
+| identificador de proyecto | `xsd:string` | Controlador de proyecto. |
+| nombre | `xsd:string` | Nombre del proyecto. |

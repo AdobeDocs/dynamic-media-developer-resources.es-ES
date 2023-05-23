@@ -1,6 +1,6 @@
 ---
 title: rotar
-description: Ángulo de rotación del material. Define el ángulo de giro de los materiales.
+description: Ángulo de rotación del material. Define el ángulo de rotación de los materiales.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: 355d9691-c04b-44a6-9563-5bef185cfa7e
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 7%
+ht-degree: 4%
 
 ---
 
 # rotar{#rotate}
 
-Ángulo de rotación del material. Define el ángulo de giro de los materiales.
+Ángulo de rotación del material. Define el ángulo de rotación de los materiales.
 
 ` rotate= *`Ángulo`*`
 
@@ -25,17 +25,17 @@ ht-degree: 7%
  </tr> 
 </table>
 
-Gire los materiales de textura repetibles (excepto los fondos de pantalla) por múltiplos de 45° cuando se apliquen a objetos planos u objetos planos.
+Rotar los materiales de textura repetibles (excepto los fondos de pantalla) por múltiplos de 45° cuando se aplican a objetos planos o objetos planos.
 
-Girar los materiales de textura repetibles por ángulos arbitrarios cuando se aplican a objetos de línea de flujo y esbozo.
+Rotar los materiales de textura repetibles en ángulos arbitrarios cuando se aplican a los objetos de línea de flujo y esbozo.
 
-Rotar los materiales de calco por ángulos arbitrarios.
+Rotar los materiales de la calcomanía por ángulos arbitrarios.
 
-Los ángulos positivos rotan en el sentido de las agujas del reloj. La textura o calcomanía se gira alrededor del punto de ancla ( `anchor=`); el punto de ancla permanece alineado con el origen del objeto de destino.
+Los ángulos positivos giran en sentido horario. La textura o calcomanía gira alrededor del punto de anclaje ( `anchor=`); el punto de ancla permanece alineado con el origen del objeto de destino.
 
 ## Propiedades {#section-ad4d07897ca24f63af1a4062f8618e36}
 
-Atributo de material. Ignorado por materiales de color sólido, papel tapiz, gabinete y tratamiento de ventanas. *`angle`* Debe ser un múltiplo de 45 para texturas repetibles, a menos que se aplique a los objetos de línea de flujo o de esbozo.
+Atributo de material. Ignorado por los materiales de tratamiento de color sólido, papel tapiz, gabinete y ventana. *`angle`* Debe ser un múltiplo de 45 para texturas repetibles, a menos que se aplique a objetos de línea de flujo o boceto.
 
 ## Predeterminado {#section-14c991e71b74449db8ff18a775949b28}
 

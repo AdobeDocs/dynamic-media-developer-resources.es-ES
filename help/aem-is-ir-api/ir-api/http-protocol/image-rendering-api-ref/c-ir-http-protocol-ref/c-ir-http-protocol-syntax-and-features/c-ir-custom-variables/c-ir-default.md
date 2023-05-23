@@ -1,6 +1,6 @@
 ---
 title: Predeterminado
-description: No hay ningún valor predeterminado.
+description: No hay valor predeterminado.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,6 +14,6 @@ ht-degree: 6%
 
 # Predeterminado{#default}
 
-No hay ningún valor predeterminado.
+No hay valor predeterminado.
 
-El servidor solo sustituye las variables definidas. Cualquier ocurrencia de `$ *[!DNL name]*$` que no coinciden con ninguna variable personalizada definida siguen siendo literales.
+El servidor solo sustituye las variables definidas. Cualquier incidencia de `$ *[!DNL name]*$` que no coinciden con ninguna variable personalizada definida siguen siendo literales.

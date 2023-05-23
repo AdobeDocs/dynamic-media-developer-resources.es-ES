@@ -24,4 +24,4 @@ Sintaxis
 |---|---|---|
 | originalPath | `xsd:string` | Ruta del archivo de CuePoint. |
 | originalFile | `xsd:string` | Nombre de archivo de CuePoint. |
-| fileSize | `xsd:int` | Tamaño de archivo de CuePoint. |
+| fileSize | `xsd:int` | Tamaño del archivo de CuePoint. |

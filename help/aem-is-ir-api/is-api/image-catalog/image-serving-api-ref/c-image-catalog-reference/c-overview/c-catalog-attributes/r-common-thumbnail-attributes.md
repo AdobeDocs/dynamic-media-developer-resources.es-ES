@@ -1,5 +1,5 @@
 ---
-description: Los archivos de atributos del catálogo reconocen estos atributos de miniaturas comunes.
+description: Los archivos de atributos de catálogo reconocen estos atributos de miniaturas comunes.
 solution: Experience Manager
 title: Atributos de miniatura comunes
 feature: Dynamic Media Classic,SDK/API
@@ -7,19 +7,19 @@ role: Developer,User
 exl-id: 1289f251-61f0-4355-9dd2-f9b0690e355c
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '42'
+source-wordcount: '37'
 ht-degree: 0%
 
 ---
 
 # Atributos de miniatura comunes{#common-thumbnail-attributes}
 
-Los archivos de atributos del catálogo reconocen estos atributos de miniaturas comunes.
+Los archivos de atributos de catálogo reconocen estos atributos de miniaturas comunes.
 
 <table id="simpletable_D10CFB19EA674FE4808D384C9498170F"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-thumbbkgcolor.md#reference-8e38088e79a54446a9106d0b93c9b31e" type="reference" format="dita" scope="local"> ThumbBkgColor</a></span> </p></td> 
-  <td class="stentry"> <p>Color de fondo para miniaturas. </p></td> 
+  <td class="stentry"> <p>Color de fondo de las miniaturas. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-thumbhorizalign.md#reference-0ae8b88669df4769a9053b22aca33691" type="reference" format="dita" scope="local"> ThumbHorizAlign</a></span> </p></td> 

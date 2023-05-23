@@ -1,5 +1,5 @@
 ---
-description: Cadena de anotación del catálogo. Cadena de texto que se puede usar para identificar la versión del catálogo, la fecha de publicación, etc.
+description: Cadena de anotación del catálogo. Cadena de texto que puede utilizarse para identificar la versión del catálogo, la fecha de publicación, etc.
 solution: Experience Manager
 title: PublishInfo
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: 32bd12cf-f149-489f-ae74-f1da051d0730
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 5%
+source-wordcount: '66'
+ht-degree: 4%
 
 ---
 
 # PublishInfo{#publishinfo}
 
-Cadena de anotación del catálogo. Cadena de texto que se puede usar para identificar la versión del catálogo, la fecha de publicación, etc.
+Cadena de anotación del catálogo. Cadena de texto que puede utilizarse para identificar la versión del catálogo, la fecha de publicación, etc.
 
 El contenido de este campo se devuelve con `req=catalogprops`. De lo contrario, este atributo no se utiliza.
 
@@ -24,7 +24,7 @@ Cadena de texto.
 
 ## Predeterminado {#section-82e5a885e142414f996c609efbb962b1}
 
-Se hereda de `default::PublishInfo` si no está definido o si está vacío.
+Heredado de `default::PublishInfo` si no se define o si está vacío.
 
 ## Véase también {#section-d61c31afb3dd4ae2abc6285db80c4f8a}
 

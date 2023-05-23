@@ -1,6 +1,6 @@
 ---
 title: AcoInfo
-description: Propiedades de un recurso ACO.
+description: Propiedades de un recurso de ACO.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 17%
 
 # [!DNL AcoInfo]{#acoinfo}
 
-Propiedades de un recurso ACO.
+Propiedades de un recurso de ACO.
 
 Sintaxis
 
@@ -23,5 +23,5 @@ Sintaxis
 | Nombre | Tipo | Descripción |
 |---|---|---|
 | originalPath | `xsd:string` | Ruta del archivo ACO. |
-| originalFile | `xsd:string` | Nombre del archivo ACO. |
-| fileSize | `xsd:int` | Tamaño del archivo ACO. |
+| originalFile | `xsd:string` | Nombre de archivo ACO. |
+| fileSize | `xsd:int` | Tamaño de archivo ACO. |

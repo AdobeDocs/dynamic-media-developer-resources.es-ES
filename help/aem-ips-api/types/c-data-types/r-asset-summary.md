@@ -22,15 +22,15 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| assetHandle | `xsd:string` | Identificador de recurso. |
+| assetHandle | `xsd:string` | Controlador de recurso. |
 | tipo | `xsd:string` | Tipo de recurso. La constante &quot;Tipos de recursos&quot; define los valores posibles. Opcional. |
-| name | `xsd:string` | Nombre del recurso. Opcional. |
+| nombre | `xsd:string` | Nombre del recurso. Opcional. |
 | carpeta | `xsd:string` | La carpeta que contiene el recurso. |
-| filename | `xsd:string` | Nombre del archivo del recurso. |
+| filename | `xsd:string` | Nombre de archivo del recurso. |
 | creado | `xsd:dateTime` | Fecha de creación del recurso. |
 | createUser | `xsd:string` | El usuario que creó el recurso. |
-| lastModified | `xsd:dateTime` | La fecha de la última actualización del recurso. |
+| lastModified | `xsd:dateTime` | Fecha en la que se actualizó el recurso por última vez. |
 | lastModifyUser | `xsd:string` | El último usuario que modificó el recurso. |
 | metadataArray | `types:MetadataArray` | Matriz de valores de metadatos asociados al recurso. |
-| puntaje | `xsd:double` | Define la precisión en caso de una búsqueda de similitud (0 = sin coincidencia, 1 = coincidencia exacta). |
-| scoreDetail | `xsd:string` | Contiene información detallada sobre áreas similares como resultado de una búsqueda por similitudes. |
+| puntaje | `xsd:double` | Define la precisión en caso de búsqueda por similitud (0 = sin coincidencia, 1 = coincidencia exacta). |
+| scoreDetail | `xsd:string` | Contiene información detallada sobre áreas similares como resultado de una búsqueda de similitudes. |

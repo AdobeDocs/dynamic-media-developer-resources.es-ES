@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: dc149977-3ca8-4612-ad05-4d565440d00a
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -16,15 +16,15 @@ ht-degree: 0%
 
 Las macros de comandos proporcionan accesos directos con nombre para conjuntos de comandos.
 
-Las macros se definen en archivos de definición de macro separados, que pueden adjuntarse a catálogos de imágenes o al catálogo predeterminado.
+Las macros se definen en archivos de definición de macros independientes, que se pueden adjuntar a los catálogos de imágenes o al catálogo predeterminado.
 
-Las macros se pueden invocar en cualquier parte de una solicitud después de &#39;?&#39;, así como en cualquier parte dentro de un campo `catalog::Modifier`. Las macros solo pueden representar uno o más comandos completos de Image Serving, por lo que deben estar encerrados por separadores &quot;&amp;&quot; (excepto cuando se encuentra al principio o al final de la cadena modificadora).
+Las macros pueden invocarse en cualquier lugar de una solicitud después de &quot;?&quot;, así como en cualquier lugar dentro de un `catalog::Modifier` field. Las macros solo pueden representar uno o más comandos completos del servicio de imágenes; por lo tanto, deben incluirse entre separadores &quot;&amp;&quot; (excepto cuando se encuentran al principio o al final de la cadena del modificador).
 
-Las invocaciones de macro se sustituyen por sus cadenas de sustitución antes de analizar. Los comandos dentro de las macros anulan los mismos comandos en la solicitud si se producen antes de la invocación de macro en la solicitud. Esto es diferente a `catalog::Modifier`, donde los comandos de la cadena de solicitud siempre anulan los comandos de la cadena `catalog::Modifier`, independientemente de la posición en la solicitud.
+Las invocaciones a macros se sustituyen por sus cadenas de sustitución al principio del análisis. Los comandos dentro de las macros anularán los mismos comandos de la solicitud si se producen antes de la invocación de la macro en la solicitud. Esto es diferente a `catalog::Modifier`, donde los comandos de la cadena de solicitud siempre anulan los comandos de `catalog::Modifier` cadena, independientemente de la posición en la solicitud.
 
-Las macros se pueden anidar, con la siguiente restricción: una macro solo puede invocarse si ya está definida en el momento en que se analiza la definición de la macro, ya sea al aparecer antes en el mismo archivo de definición de macro o al colocar la definición de dicha macro incrustada en el archivo de definición de macro predeterminada.
+Las macros pueden estar anidadas, con la siguiente restricción: una macro sólo puede invocarse si ya está definida en el momento en que se analiza la definición de la macro, ya sea apareciendo anteriormente en el mismo archivo de definición de macro o colocando la definición de dicha macro incrustada en el archivo de definición de macro predeterminado.
 
-Las macros pueden resultar útiles si se van a aplicar los mismos atributos a diferentes imágenes.
+Las macros pueden resultar útiles si se van a aplicar los mismos atributos a imágenes diferentes.
 
 [!DNL http://server/cat/1345?wid=240&fmt=pdf&imageRes=300]
 
@@ -36,7 +36,7 @@ Podemos definir una macro para los atributos comunes:
 
 `view wid=240&fmt=pdf&imageRes=300`
 
-La macro se utilizaría de la siguiente manera:
+La macro se usaría de la siguiente manera:
 
 [!DNL http://server/cat/1345?$view$]
 
@@ -44,6 +44,6 @@ La macro se utilizaría de la siguiente manera:
 
 [!DNL http://server/cat/8243?$view$&wid=480]
 
-Dado que `wid=` es diferente para la tercera solicitud, simplemente anulamos el valor *después* de invocar la macro (especificar `wid=`*antes* `$view$` no tendría ningún efecto).
+Desde `wid=` es diferente para la tercera solicitud, simplemente anulamos el valor *después* se invoca la macro (especificando `wid=`*antes* `$view$` no tendría ningún efecto).
 
-+ [name](r-name.md)
++ [nombre](r-name.md)

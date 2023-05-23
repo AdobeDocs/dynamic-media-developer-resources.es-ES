@@ -36,18 +36,18 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| userHandle | `xsd:string` | No | Gestionar al usuario cuya información desea devolver. |
-| correo electrónico | `xsd:string` | No | Dirección de correo electrónico del usuario. |
+| userHandle | `xsd:string` | No | Envíe al usuario cuya información desee devolver. |
+| correo electrónico | `xsd:string` | No | Dirección de correo electrónico del usuario |
 
 **Salida (getUserInfoReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| userInfo | `types:User` | Sí | El nombre, los apellidos, la dirección de correo electrónico y la función de un usuario, así como si el usuario es válido y cuándo caduca la contraseña del usuario. |
+| userInfo | `types:User` | Sí | El nombre, apellidos, dirección de correo electrónico y función de un usuario, así como si el usuario es válido y cuándo caduca la contraseña del usuario. |
 
 ## Ejemplos {#section-98d77a2e360a438dbe240099bea26a65}
 
-Este ejemplo de código devuelve información para el usuario IPS predeterminado.
+Este ejemplo de código devuelve información para el usuario de IPS predeterminado.
 
 **Solicitar**
 

@@ -1,5 +1,5 @@
 ---
-description: Crea una vista preestablecida que determina lo que puede ver un usuario. El visor puede ser de cualquier tipo disponible en IPS. La vista preestablecida se aplica cuando se publican los recursos.
+description: Crea una vista preestablecida que determina lo que un usuario puede ver. El visor puede ser de cualquier tipo y estar disponible en IPS. La vista preestablecida se aplica cuando se publican los recursos.
 solution: Experience Manager
 title: createViewerPreset
 feature: Dynamic Media Classic,SDK/API,Viewer Presets
@@ -14,7 +14,7 @@ ht-degree: 13%
 
 # createViewerPreset{#createviewerpreset}
 
-Crea una vista preestablecida que determina lo que puede ver un usuario. El visor puede ser de cualquier tipo disponible en IPS. La vista preestablecida se aplica cuando se publican los recursos.
+Crea una vista preestablecida que determina lo que un usuario puede ver. El visor puede ser de cualquier tipo y estar disponible en IPS. La vista preestablecida se aplica cuando se publican los recursos.
 
 Sintaxis
 
@@ -31,17 +31,17 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | El nombre de la empresa que contiene los ajustes preestablecidos de visor y los recursos. |
+| companyHandle | `xsd:string` | Sí | El identificador de la empresa que contiene los ajustes preestablecidos y los recursos del visualizador. |
 | folderHandle | `xsd:string` | Sí | El identificador de la carpeta que contiene los recursos. |
-| name | `xsd:string` | Sí | Nombre del visor. |
+| nombre | `xsd:string` | Sí | Nombre del visor. |
 | tipo | `xsd:string` | Sí | Tipo de visor. |
-| configSettingArray | `types:ConfigSettingArray` | No | Matriz que contiene nombres, valores y identificadores de imágenes a las que está aplicando ajustes preestablecidos. |
+| configSettingArray | `types:ConfigSettingArray` | No | Matriz que contiene nombres, valores y controladores de las imágenes a las que está aplicando ajustes preestablecidos. |
 
 **Salida (createViewerPresetReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| viewerPresetHandle | `xsd:string` | Sí | Gestión del ajuste preestablecido en el visor. |
+| viewerPresetHandle | `xsd:string` | Sí | Control del ajuste preestablecido para el visualizador. |
 
 ## Ejemplos {#section-c88ea63536f3461cbe4677ba53f875dd}
 

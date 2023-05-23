@@ -8,31 +8,31 @@ exl-id: faec00b3-b981-4831-bc97-dff442389133
 source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
 source-wordcount: '117'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
 # ZoomView.iconeffect{#zoomview-iconeffect}
 
-` [ZoomView.|<containerId>_zoomView.]iconeffect=0|1[, *`count`*][, *`fundido`*][, *`autoHide`*]`
+` [ZoomView.|<containerId>_zoomView.]iconeffect=0|1[, *`count`*][, *`atenuación`*][, *`autoHide`*]`
 
 <table id="table_6CAA904E976A41BD994D8926F46F0BAF"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Permite que IconoEffect se muestre en la parte superior de la imagen cuando la imagen está en estado de restablecimiento y sugiere una acción disponible para interactuar con la imagen. </p> </td> 
+   <td colname="col2"> <p> Permite que IconEffect se muestre en la parte superior de la imagen cuando la imagen está en estado de restablecimiento y sugiere una acción disponible para interactuar con la imagen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> count</span> </span> </p> </td> 
-   <td colname="col2"> <p> Especifica el número máximo de veces que el IconEffect aparece y vuelve a aparecer. Un valor de <span class="codeph"> -1</span> indica que el icono siempre vuelve a aparecer indefinidamente. </p> </td> 
+   <td colname="col2"> <p> Especifica el número máximo de veces que IconEffect aparece y vuelve a aparecer. Un valor de <span class="codeph"> -1</span> indica que el icono siempre vuelve a aparecer indefinidamente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fundido</span> </span> </p> </td> 
-   <td colname="col2"> <p>Especifica la duración de la animación de mostrar u ocultar, en segundos. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> atenuación</span> </span> </p> </td> 
+   <td colname="col2"> <p>Especifica la duración de la animación para mostrar u ocultar, en segundos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> autoHide</span> </span> </p> </td> 
-   <td colname="col2"> <p>Establece el número de segundos que IconEffect permanece totalmente visible antes de que se oculte automáticamente. Es decir, el tiempo después de completar la animación de fundido pero antes de que comience la animación de fundido-out. Una configuración de <span class="codeph"> 0</span> deshabilita el comportamiento de ocultación automática. </p> </td> 
+   <td colname="col2"> <p>Establece el número de segundos que IconEffect permanece totalmente visible antes de ocultarse automáticamente. Es decir, el tiempo después de que se complete la animación de fundido de entrada pero antes de que comience la animación de fundido de salida. Una configuración de <span class="codeph"> 0</span> deshabilita el comportamiento de ocultar automáticamente. </p> </td> 
   </tr> 
  </tbody> 
 </table>

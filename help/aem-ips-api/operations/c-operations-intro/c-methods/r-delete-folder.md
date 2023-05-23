@@ -37,16 +37,16 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | Identificador de la empresa a la que pertenece la carpeta. |
+| companyHandle | `xsd:string` | Sí | El identificador de la compañía a la que pertenece la carpeta. |
 | folderHandle | `xsd:string` | Sí | El identificador de la carpeta que se va a eliminar. |
 
 **Salida (deleteFolderParam)**
 
-La API IPS no devuelve una respuesta para esta operación.
+La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-9d4617b322e8442d80e59be0f8714841}
 
-Este código de ejemplo elimina una carpeta de la raíz de la empresa. Requiere un identificador de carpeta, que debe obtener de otra operación.
+Este código de ejemplo elimina una carpeta de la raíz de la compañía. Requiere un identificador de carpeta, que debe obtener de otra operación.
 
 **Solicitar**
 

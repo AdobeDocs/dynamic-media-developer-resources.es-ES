@@ -1,7 +1,7 @@
 ---
 description: Genera una imagen en miniatura para el vídeo.
 solution: Experience Manager
-title: MediaOptions
+title: OpcionesDeMedios
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f37d935d-fe74-4878-8477-d2144d58d982
@@ -32,17 +32,17 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> videoEncodingPresetsArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:HandleArray</span> </td> 
-   <td colname="col3">Una matriz de <span class="codeph"> PropertySet</span> gestiona las referencias a los ajustes preestablecidos de codificación de vídeo para la transcodificación de vídeos. </td> 
+   <td colname="col3">Una matriz de <span class="codeph"> PropertySet</span> controla la referencia a los ajustes preestablecidos de codificación de vídeo para transcodificar vídeos. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> generateThumbnail</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> Cuando es verdadero, el primer fotograma del vídeo se extrae y se utiliza como imagen en miniatura. </td> 
+   <td colname="col3"> Cuando es true, se extrae el primer fotograma del vídeo y se utiliza como imagen en miniatura. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:ThumbnailOptions</span> </td> 
-   <td colname="col3">Opcional. Permite elegir un marco de vídeo concreto para utilizarlo como imagen en miniatura. <p>Para especificar una imagen en miniatura, pase el tiempo (en milisegundos desde el inicio del vídeo) para el fotograma que desee utilizar. Los valores van desde 0 hasta el final del vídeo. <p>Nota: Si especifica la hora incorrectamente, <span class="codeph"> generateThumbnail</span> toma el valor predeterminado true. </p></p><p>Consulte <a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> ThumbnailOptions</a>. </p></td> 
+   <td colname="col2"> <span class="codeph"> tipos:Opciones de miniatura</span> </td> 
+   <td colname="col3">Opcional. Permite elegir un fotograma de vídeo concreto para utilizarlo como imagen en miniatura. <p>Para especificar una imagen en miniatura, pase el tiempo (en milisegundos desde el inicio del vídeo) para el fotograma que desee utilizar. Los valores van del 0 al final del vídeo. <p>Nota: Si especifica la hora de forma incorrecta, <span class="codeph"> generateThumbnail</span> el valor predeterminado es true. </p></p><p>Consulte <a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> ThumbnailOptions</a>. </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,7 +61,7 @@ Sintaxis
 
 ## Utilizado por {#section-87cb83407198432c95eaa2db9f12f9db}
 
-La variable `mediaOptions` El tipo lo usa:
+El `mediaOptions` lo utilizan:
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)

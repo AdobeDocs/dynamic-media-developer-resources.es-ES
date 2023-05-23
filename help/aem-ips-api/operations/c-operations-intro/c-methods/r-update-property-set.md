@@ -36,13 +36,13 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| setHandle | `xsd:string` | Sí | Gestionar al conjunto de propiedades. |
-| replaceProperties | `xsd:string` | No | Establecer como `true` para reemplazar propiedades. |
+| setHandle | `xsd:string` | Sí | Handle al conjunto de propiedades. |
+| replaceProperties | `xsd:string` | No | Configure como. `true` para reemplazar propiedades. |
 | propertyArray | `types:PropertyArray` | Sí | Matriz de propiedades actualizadas para el conjunto de propiedades. |
 
 **Salida (updatePropertySetReturn)**
 
-La API IPS no devuelve una respuesta para esta operación.
+La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-55d1c9dcd0174c6b9b52b4709f7c8bf9}
 

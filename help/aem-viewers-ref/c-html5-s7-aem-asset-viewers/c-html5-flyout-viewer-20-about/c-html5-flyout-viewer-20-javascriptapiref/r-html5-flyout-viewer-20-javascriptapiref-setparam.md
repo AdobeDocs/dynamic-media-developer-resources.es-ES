@@ -18,7 +18,7 @@ Referencia de la API de JavaScript para el visor flotante.
 
 ` setParam( *`nombre, valor`*)`
 
-Establece el parámetro del visor en un valor especificado. El parámetro es una opción de configuración específica del visor o un modificador del kit de desarrollo de software. Este parámetro se invoca antes de que `init()`. Este método es opcional si se pasa la información de configuración del visor con `config` objeto JSON al constructor.
+Establece el parámetro del visor en un valor especificado. El parámetro es una opción de configuración específica del visor o un modificador del kit de desarrollo de software. Se llama a este parámetro antes de `init()`. Este método es opcional si la información de configuración del visor se pasa con `config` Objeto JSON al constructor.
 
 Consulte también [init](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-init.md#reference-8651640683fc4a538bfb660709d1a463).
 
@@ -29,8 +29,8 @@ Consulte también [init](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-vi
    <td colname="col2"> <p> <span class="codeph"> {string} </span> nombre del parámetro. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> valor del parámetro. El valor no puede estar codificado por porcentajes. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> valor </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> valor del parámetro. El valor no puede tener codificación porcentual. </p> </td> 
   </tr> 
  </tbody> 
 </table>

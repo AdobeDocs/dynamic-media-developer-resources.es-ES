@@ -1,5 +1,5 @@
 ---
-description: Matriz de metadatos que se van a eliminar del recurso.
+description: Matriz de metadatos que se eliminarán del recurso.
 solution: Experience Manager
 title: MetadataDeleteArray
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,7 +14,7 @@ ht-degree: 18%
 
 # [!DNL MetadataDeleteArray]{#metadatadeletearray}
 
-Matriz de metadatos que se van a eliminar del recurso.
+Matriz de metadatos que se eliminarán del recurso.
 
 Sintaxis
 

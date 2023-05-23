@@ -1,6 +1,6 @@
 ---
 title: VideoScrubber.showchaptertitle
-description: Atributo de configuración para el visualizador de vídeo.
+description: Atributo de configuración para el visor de vídeo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: a1bdea01-ca59-4922-a20f-862ca387d1b5
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '41'
-ht-degree: 12%
+ht-degree: 9%
 
 ---
 
 # VideoScrubber.showchaptertitle{#videoscrubber-showchaptertitle}
 
-Atributo de configuración para el visualizador de vídeo.
+Atributo de configuración para el visor de vídeo.
 
 `[VideoScrubber.|<containerId>_videoScrubber.]showchaptertitle=0|1`
 
@@ -22,7 +22,7 @@ Atributo de configuración para el visualizador de vídeo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Desactiva o activa la barra de título de la etiqueta de capítulo del vídeo. La hora de inicio del capítulo no se muestra cuando la barra de título está desactivada. </p> </td> 
+   <td colname="col2"> <p> Deshabilita o habilita la barra de título de la etiqueta del capítulo de vídeo. El tiempo de inicio del capítulo no se muestra cuando la barra de título está desactivada. </p> </td> 
   </tr> 
  </tbody> 
 </table>

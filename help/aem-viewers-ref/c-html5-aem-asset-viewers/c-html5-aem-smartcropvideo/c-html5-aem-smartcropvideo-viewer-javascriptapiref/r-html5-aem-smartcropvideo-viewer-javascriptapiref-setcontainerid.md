@@ -1,10 +1,11 @@
 ---
 title: setContainerId
-description: Referencia de la API de JavaScript para el visor de vídeos de recorte inteligente.
+description: Referencia de la API de JavaScript para el visualizador de recorte inteligente de vídeos.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 1c7a7494-e872-4e78-9518-ea30af46303c
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 2%
@@ -13,11 +14,11 @@ ht-degree: 2%
 
 # setContainerId{#setcontainerid}
 
-Referencia de la API de JavaScript para el visor de vídeos de recorte inteligente.
+Referencia de la API de JavaScript para el visualizador de recorte inteligente de vídeos.
 
 ` setContainerId( *`containerId`*)`
 
-Establece el ID del contenedor DOM (normalmente, un `DIV`) en la que se inserta el visor. No es necesario tener el elemento contenedor creado para cuando se llama a este método. Sin embargo, el contenedor debe existir cuando `init()` se ejecuta. Este parámetro se invoca antes de que `init()`. Este método es opcional si se pasa la información de configuración del visor con `config` objeto JSON al constructor.
+Establece el ID del contenedor DOM (normalmente, un `DIV`) en el que se inserta el visor. No es necesario tener el elemento contenedor creado para el momento en que se llama a este método. Sin embargo, el contenedor debe existir cuando `init()` se ejecuta. Se llama a este parámetro antes de `init()`. Este método es opcional si la información de configuración del visor se pasa con `config` Objeto JSON al constructor.
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 

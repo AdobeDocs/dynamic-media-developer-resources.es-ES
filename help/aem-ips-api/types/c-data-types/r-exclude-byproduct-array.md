@@ -1,5 +1,5 @@
 ---
-description: Admite el filtrado de subproductos en la operación searchAssets.
+description: Admite el filtrado por producto en la operación searchAssets.
 solution: Experience Manager
 title: ExcludeByproductArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 24%
 
 # [!DNL ExcludeByproductArray]{#excludebyproductarray}
 
-Admite el filtrado de subproductos en la operación searchAssets.
+Admite el filtrado por producto en la operación searchAssets.
 
 Sintaxis
 
@@ -22,4 +22,4 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| elementos | `types:ExcludeByproductCondition` | Elemento de la matriz. |
+| elementos | `types:ExcludeByproductCondition` | Elemento en la matriz. |

@@ -1,5 +1,5 @@
 ---
-description: Zoom dirige los datos del catálogo de imágenes. Devuelve datos de destino de zoom para la entrada de catálogo de imágenes especificada en la ruta URL.
+description: Destinos de zoom datos del catálogo de imágenes. Devuelve los datos de destino de zoom para la entrada de catálogo de imágenes especificada en la ruta URL.
 solution: Experience Manager
 title: objetivo
 feature: Dynamic Media Classic,SDK/API
@@ -7,36 +7,36 @@ role: Developer,User
 exl-id: 58f7b1ad-8762-4d23-b320-6f69e75ecf63
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '181'
 ht-degree: 2%
 
 ---
 
 # objetivo{#targets}
 
-Zoom dirige los datos del catálogo de imágenes. Devuelve datos de destino de zoom para la entrada de catálogo de imágenes especificada en la ruta URL.
+Destinos de zoom datos del catálogo de imágenes. Devuelve los datos de destino de zoom para la entrada de catálogo de imágenes especificada en la ruta URL.
 
-`req=targets[,text|{xml[, *``*]}|{json[&id= *`encodingreqId`*]}]`
+`req=targets[,text|{xml[, *`codificación`*]}|{json[&id= *`reqId`*]}]`
 
 <table id="simpletable_D64E706258FD4A9C9C8026D97B472FCC"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"><span class="varname"> encoding</span> </span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"><span class="varname"> codificación</span> </span> </p> </td> 
   <td class="stentry"> <p><span class="codeph"> UTF-8 | UTF-16 | UTF-16LE | UTF-16BE | ISO-8859-1</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> reqId</span></span> </p></td> 
-  <td class="stentry"> <p>Identificador de solicitud única. </p></td> 
+  <td class="stentry"> <p>Identificador único de la solicitud. </p></td> 
  </tr> 
 </table>
 
-Se devuelve el contenido de `catalog::Targets`. Cuando se solicita el formato &quot;texto&quot;, todas las instancias de `??` en `catalog::Targets` se sustituyen por caracteres de fin de línea y se añade al final un solo terminador de línea ( `CR/LF`). Si la ruta URL no se resuelve en una entrada de catálogo válida, la respuesta consiste únicamente en un terminador de línea único. Se aplica el formato adecuado cuando se solicita el formato &quot;xml&quot; o &quot;json&quot;.
+El contenido de `catalog::Targets` se devuelven. Cuando se solicita el formato &quot;texto&quot;, todas las instancias de `??` in `catalog::Targets` se sustituyen por terminadores de línea y un terminador de línea único ( `CR/LF`) se anexa al final. Si la ruta URL no se resuelve en una entrada de catálogo válida, la respuesta consiste únicamente en un terminador de línea única. Se aplica el formato adecuado cuando se solicita el formato &quot;xml&quot; o &quot;json&quot;.
 
 Se omiten otros comandos de la cadena de solicitud.
 
-La respuesta HTTP se puede almacenar en caché con el TTL basado en `catalog::Expiration`.
+La respuesta HTTP se puede almacenar en caché con el TTL en función de `catalog::Expiration`.
 
-Las solicitudes que admiten el formato de respuesta JSONP permiten especificar el nombre del controlador de llamada de retorno JS mediante la sintaxis extendida del parámetro `req=` :
+Las solicitudes compatibles con el formato de respuesta JSONP permiten especificar el nombre del controlador de devolución de llamada JS mediante la sintaxis extendida de `req=` parámetro:
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` es el nombre del controlador JS que está presente en la respuesta JSONP. Solo se permiten caracteres a-z, A-Z y 0-9. Opcional. El valor predeterminado es `s7jsonResponse`.
+`<reqHandler>` es el nombre del controlador JS presente en la respuesta JSONP. Solo se permiten los caracteres a-z, A-Z y 0-9. Opcional. El valor predeterminado es `s7jsonResponse`.

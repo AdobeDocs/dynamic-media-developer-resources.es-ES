@@ -8,7 +8,7 @@ exl-id: 21db58df-b76e-4a78-afc4-5e0188cb8896
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '83'
-ht-degree: 6%
+ht-degree: 4%
 
 ---
 
@@ -22,11 +22,11 @@ Atributo de configuración para el visualizador de vídeo interactivo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Activa o desactiva la capacidad de un usuario para desplazarse por las miniaturas con un ratón o mediante gestos táctiles. </p> </td> 
+   <td colname="col2"> <p> Activa o desactiva la capacidad del usuario de desplazar miniaturas con un ratón o mediante gestos táctiles. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> overdragvalue  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Está en el rango <span class="codeph"> 0-1 </span> y es un valor porcentual para el movimiento en la dirección incorrecta de la velocidad real. </p> <p>Si se establece en <span class="codeph"> 1 </span>, se mueve con el ratón. </p> <p>Si se establece en <span class="codeph"> 0 </span>, no le permite moverse en la dirección incorrecta. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> overdragvalue </span> </span> </p> </td> 
+   <td colname="col2"> <p> Está en <span class="codeph"> 0-1 </span> y es un valor porcentual para el movimiento en la dirección incorrecta de la velocidad real. </p> <p>Si se establece en <span class="codeph"> 1 </span>, se mueve con el ratón. </p> <p>Si se establece en <span class="codeph"> 0 </span>, no le permite moverse en la dirección incorrecta. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,6 +1,6 @@
 ---
 title: Definir indicador
-description: El indicador de conjunto es una serie de puntos representados sobre muestras cuando se utiliza un visor en un dispositivo táctil. Los puntos ayudan a los usuarios a navegar por las páginas de miniaturas cuando los botones de desplazamiento no están disponibles.
+description: Establecer indicador es una serie de puntos que se representan sobre las muestras cuando se utiliza un visor en un dispositivo táctil. Los puntos ayudan a los usuarios a navegar por las páginas de miniaturas cuando los botones de desplazamiento no están disponibles.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 1%
 
 # Definir indicador{#set-indicator}
 
-El indicador de conjunto es una serie de puntos representados sobre muestras cuando se utiliza un visor en un dispositivo táctil. Los puntos ayudan a los usuarios a navegar por las páginas de miniaturas cuando los botones de desplazamiento no están disponibles.
+Establecer indicador es una serie de puntos que se representan sobre las muestras cuando se utiliza un visor en un dispositivo táctil. Los puntos ayudan a los usuarios a navegar por las páginas de miniaturas cuando los botones de desplazamiento no están disponibles.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propiedades CSS del indicador de conjunto**
+**Propiedades CSS del indicador determinado**
 
-El aspecto del contenedor de indicador establecido se controla con el siguiente selector de clase CSS:
+El aspecto del contenedor del indicador determinado se controla con el siguiente selector de clase CSS:
 
 ```
 .s7zoomviewer .s7setindicator
@@ -29,19 +29,19 @@ El aspecto del contenedor de indicador establecido se controla con el siguiente 
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS, propiedad </p> </th> 
+   <th colname="col1" class="entry"> <p> Propiedad CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Descripción </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>Color de fondo en formato hexadecimal del indicador establecido. </p> </td> 
+   <td colname="col2"> <p>El color de fondo en formato hexadecimal del indicador determinado. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ejemplo: para crear un indicador de conjunto con un fondo blanco:
+Ejemplo: Para crear un indicador de conjunto con un fondo blanco:
 
 ```
 .s7zoomviewer .s7setindicator { 
@@ -49,25 +49,25 @@ Ejemplo: para crear un indicador de conjunto con un fondo blanco:
 }
 ```
 
-El aspecto de un punto indicador de conjunto individual se controla con el selector de clase CSS:
+El aspecto de un punto indicador de conjunto individual se controla con el selector de clases CSS:
 
 `.s7zoomviewer .s7setindicator .s7dot`
 
 <table id="table_09B6E232FB94417392D101A7A653BE54"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS, propiedad </p> </th> 
+   <th colname="col1" class="entry"> <p> Propiedad CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Descripción </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Anchura del punto indicador definido. </p> </td> 
+   <td colname="col2"> <p>Anchura del punto del indicador definido. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Altura del punto indicador definido. </p> </td> 
+   <td colname="col2"> <p>Altura del punto del indicador definido. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
@@ -87,7 +87,7 @@ El aspecto de un punto indicador de conjunto individual se controla con el selec
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
-   <td colname="col2"> <p>Radio del borde en píxeles. </p> </td> 
+   <td colname="col2"> <p>Radio de borde en píxeles. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
@@ -98,9 +98,9 @@ El aspecto de un punto indicador de conjunto individual se controla con el selec
 
 >[!NOTE]
 >
->El punto indicador definido admite la variable `state` selector de atributos, que se puede utilizar para aplicar diferentes aspectos a distintos estados de miniaturas. En particular, `state="selected"` corresponde a la página actual de miniaturas, `state="unselected"` corresponde al estado de punto predeterminado.
+>El punto del indicador definido admite `state` selector de atributos, que se puede utilizar para aplicar diferentes aspectos a diferentes estados de miniaturas. En particular, `state="selected"` corresponde a la página actual de miniaturas, `state="unselected"` corresponde al estado de punto predeterminado.
 
-Ejemplo: para crear un punto indicador definido para que sea de 15 x 15 píxeles, con 2 píxeles de margen horizontal, 5 píxeles de margen superior, 1 píxel de margen inferior, 12 píxeles de radio, #D5D3D3 de color predeterminado y #939393 de color activo:
+Ejemplo: Para crear un punto de indicador definido de 15 x 15 píxeles, con un margen horizontal de 2 píxeles, un margen superior de 5 píxeles, un margen inferior de 1 píxel, un radio de 12 píxeles, #D5D3D3 color predeterminado y #939393 color activo:
 
 ```
 .s7zoomviewer .s7setindicator .s7dot { 

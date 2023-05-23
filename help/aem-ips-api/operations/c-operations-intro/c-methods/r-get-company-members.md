@@ -1,5 +1,5 @@
 ---
-description: Devuelve los usuarios de una empresa especificada por el identificador de una empresa.
+description: Devuelve los usuarios de una compañía especificada por un identificador de compañía.
 solution: Experience Manager
 title: getCompanyMembers
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 17%
 
 # getCompanyMembers{#getcompanymembers}
 
-Devuelve los usuarios de una empresa especificada por el identificador de una empresa.
+Devuelve los usuarios de una compañía especificada por un identificador de compañía.
 
 Sintaxis
 
@@ -31,18 +31,18 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | El identificador de la empresa cuyos miembros desea obtener. |
-| includeInvalid | `xsd:boolean` | Sí | Incluir empresas no válidas. |
+| companyHandle | `xsd:string` | Sí | El identificador de la compañía cuyos miembros desea obtener. |
+| includeInvalid | `xsd:boolean` | Sí | Incluir compañías no válidas. |
 
 **Salida (getCompanyMembersReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| memberArray | `types:CompanyMemberArray` | Sí | Matriz de miembros de usuario. |
+| memberArray | `types:CompanyMemberArray` | Sí | Matriz de suscripciones de usuarios. |
 
 ## Ejemplos {#section-39d8cf3653fd4fe8b842caabac9dedfc}
 
-Este ejemplo de código devuelve todos los miembros de una empresa en una matriz de usuario. La respuesta se ha truncado para su brevedad.
+Este ejemplo de código devuelve todos los miembros de una compañía en una matriz de usuarios. La respuesta se ha truncado para ser breve.
 
 **Solicitar**
 

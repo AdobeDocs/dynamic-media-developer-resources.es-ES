@@ -1,5 +1,5 @@
 ---
-description: Los campos del catálogo utilizan estos valores predeterminados.
+description: Los campos de catálogo utilizan estos valores predeterminados.
 solution: Experience Manager
 title: Valores predeterminados de los campos de catálogo
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: 8d4e666c-468b-4907-911a-9df324f7d2bf
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '50'
 ht-degree: 0%
 
 ---
 
 # Valores predeterminados de los campos de catálogo{#defaults-for-catalog-fields}
 
-Los campos del catálogo utilizan estos valores predeterminados.
+Los campos de catálogo utilizan estos valores predeterminados.
 
 <table id="table_5942A2243DD946338B6B4640D6D9762F"> 
  <tbody> 
@@ -24,10 +24,10 @@ Los campos del catálogo utilizan estos valores predeterminados.
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-expiration-cat.md#reference-a7afd668ecbb4d2da65d86259aa6a28a" type="reference" format="dita" scope="local"> Caducidad</a></span> </p> </td> 
-   <td colname="col2"> <p>Tiempo de vida predeterminado de la caché del cliente. </p> </td> 
+   <td colname="col2"> <p>Duración predeterminada de la caché del cliente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-printresolution-cat.md#reference-4ebb2e136995470b84b7c5e10cb8e5f5" type="reference" format="dita" scope="local"> Resolución de impresión</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-printresolution-cat.md#reference-4ebb2e136995470b84b7c5e10cb8e5f5" type="reference" format="dita" scope="local"> PrintResolution</a></span> </p> </td> 
    <td colname="col2"> <p>Resolución de impresión predeterminada. </p> </td> 
   </tr> 
   <tr> 

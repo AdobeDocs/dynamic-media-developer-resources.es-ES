@@ -1,6 +1,6 @@
 ---
 title: setAsset
-description: Referencia de la API de JavaScript para el visualizador de Video360.
+description: Referencia de la API de JavaScript para el visor de Video360.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 5%
 
 # setAsset{#setasset}
 
-Referencia de la API de JavaScript para el visualizador de Video360.
+Referencia de la API de JavaScript para el visor de Video360.
 
 `setAsset(asset)`
 
-Establece el nuevo recurso. Puede llamar a este parámetro en cualquier momento, ya sea antes o después de `init()`. Si se llama después de `init()`, el visor intercambia el recurso durante la ejecución.
+Establece el nuevo recurso. Puede llamar a este parámetro en cualquier momento, antes o después de `init()`. Si se llama después de `init()`, el visor intercambia el recurso durante la ejecución.
 
 Consulte también [init](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 

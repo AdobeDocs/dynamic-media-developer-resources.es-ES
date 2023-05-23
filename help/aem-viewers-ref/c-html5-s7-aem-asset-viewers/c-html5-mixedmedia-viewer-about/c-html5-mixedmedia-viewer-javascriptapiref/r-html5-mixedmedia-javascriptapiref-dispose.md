@@ -1,5 +1,5 @@
 ---
-title: dispose
+title: disponer
 description: Referencia de la API de JavaScript para el visualizador de medios mixtos.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
@@ -12,19 +12,19 @@ ht-degree: 3%
 
 ---
 
-# dispose{#dispose}
+# disponer{#dispose}
 
 Referencia de la API de JavaScript para el visualizador de medios mixtos.
 
 `dispose()`
 
-Elimina esta instancia del visor liberando todos los recursos utilizados por la lógica del visor y eliminando todos los objetos y componentes internos creados por el mismo durante la ejecución.
+Desecha esta instancia del visor liberando todos los recursos utilizados por la lógica del visor y eliminando todos los objetos y componentes internos creados por el visor en tiempo de ejecución.
 
-El código de la página web también debe eliminar la variable de instancia del visor para eliminarlo completamente de la memoria del explorador web.
+El código de la página web también debe eliminar la variable de la instancia del visor para eliminar por completo el visor de la memoria del explorador web.
 
-Si el código de la página web ha registrado oyentes de eventos directamente en los componentes del SDK de visor utilizados por el visor (o si se han almacenado referencias externas a dichos componentes), el código de la página web debe anular explícitamente el registro de dichos oyentes. Además, dichas referencias de componentes externos deben eliminarse antes de llamar a `dispose()`.
+Si el código de la página web ha registrado detectores de eventos directamente en los componentes del SDK del visor utilizados por el visor (o si ha almacenado referencias externas a dichos componentes), el código de la página web debe anular el registro de dichos detectores de forma explícita. Además, estas referencias de componentes externos deben eliminarse antes de llamar a `dispose()`.
 
-No acceda a la API del visor después de `dispose()` se llama.
+Ya no acceda a la API del visor después de `dispose()` se llama.
 
 ## Parámetros {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 

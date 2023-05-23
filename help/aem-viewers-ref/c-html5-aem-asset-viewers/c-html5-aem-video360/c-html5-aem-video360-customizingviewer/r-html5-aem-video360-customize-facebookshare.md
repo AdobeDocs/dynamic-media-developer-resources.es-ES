@@ -1,6 +1,6 @@
 ---
-title: Uso compartido de facebook
-description: La herramienta Compartir de facebook consiste en un botón añadido al panel Compartir en Social . Cuando se selecciona el botón, el usuario se redirige a un cuadro de diálogo de uso compartido proporcionado por un servicio social. La posición del botón la gestiona completamente la herramienta de uso compartido de Social.
+title: recurso compartido facebook
+description: La herramienta compartir de facebook consiste en un botón agregado al panel Compartir en redes sociales. Cuando se selecciona el botón, se redirige al usuario a un cuadro de diálogo para compartir proporcionado por un servicio social. La posición del botón se administra completamente mediante la herramienta Compartir en redes sociales.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Uso compartido de facebook{#facebook-share}
+# recurso compartido facebook{#facebook-share}
 
-La herramienta Compartir de facebook consiste en un botón añadido al panel Compartir en Social . Cuando se selecciona el botón, el usuario se redirige a un cuadro de diálogo de uso compartido proporcionado por un servicio social. La posición del botón la gestiona completamente la herramienta de uso compartido de Social.
+La herramienta compartir de facebook consiste en un botón agregado al panel Compartir en redes sociales. Cuando se selecciona el botón, se redirige al usuario a un cuadro de diálogo para compartir proporcionado por un servicio social. La posición del botón se administra completamente mediante la herramienta Compartir en redes sociales.
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
@@ -24,7 +24,7 @@ El aspecto del botón Compartir de Facebook se controla con el siguiente selecto
 .s7video360viewer .s7facebookshare
 ```
 
-**Propiedades CSS de la herramienta de uso compartido de Facebook**
+**Propiedades CSS de la herramienta Facebook Share**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -37,25 +37,25 @@ El aspecto del botón Compartir de Facebook se controla con el siguiente selecto
    <td colname="col2"> <p>Altura del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> Imagen que se muestra para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
-   <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Coloque dentro del icono de ilustración si se utilizan iconos CSS. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Este botón admite el selector de atributos `state`, que puede utilizarse para aplicar diferentes aspectos a distintos estados de botones.
+>Este botón admite el `state` selector de atributos, que se puede utilizar para aplicar distintos aspectos a distintos estados de botón.
 
-Es posible quitar el botón del panel Compartir en Social estableciendo la propiedad `display:none` CSS en su clase CSS.
+Es posible quitar el botón del panel Compartir en redes sociales mediante la configuración `display:none` Propiedad CSS en su clase CSS.
 
-La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+La información del objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Ejemplo** : para configurar un botón de uso compartido de Facebook de 28 x 28 píxeles, muestra una imagen diferente para cada uno de los cuatro estados de botón diferentes:
+**Ejemplo** : Para configurar un botón de uso compartido de Facebook de 28 x 28 píxeles y mostrar una imagen diferente para cada uno de los cuatro estados de botón diferentes:
 
 ```
 .s7video360viewer .s7facebookshare { 

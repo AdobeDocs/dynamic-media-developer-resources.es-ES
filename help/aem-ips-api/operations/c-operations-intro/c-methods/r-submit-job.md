@@ -46,13 +46,13 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> <p>Identificador de la empresa. </p> </td> 
+   <td colname="col4"> <p>Manejo de la compañía. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Gestionar al usuario que ha enviado el trabajo. </p> <p> <p>Nota: El sistema envía un correo electrónico al usuario especificado por <span class="codeph"> userHandle</span>. If <span class="codeph"> userHandle</span> no se proporciona, la persona que envió el trabajo recibe los correos electrónicos. </p> </p> </td> 
+   <td colname="col4"> <p>Identificador para el usuario que envió el trabajo. </p> <p> <p>Nota: El sistema envía un correo electrónico al usuario especificado por <span class="codeph"> userHandle</span>. If <span class="codeph"> userHandle</span> no se ha proporcionado, la persona que envió el trabajo recibe los correos electrónicos. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> jobName</span> </span> </td> 
@@ -64,22 +64,22 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> locale</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>La configuración regional utilizada para los detalles del registro de trabajos y la localización del correo electrónico. </p> <p>Las configuraciones regionales se especifican como <span class="codeph"> &lt;language_code&gt;</span> y <span class="codeph"> [&lt;country_code&gt;]</span>, donde el código de idioma es un código de dos letras en minúscula, según se especifica en ISO-639, y el código de país opcional es un código de dos letras en mayúsculas, según se especifica en ISO-3166. Por ejemplo, la cadena de configuración regional para inglés (Estados Unidos) sería: en-US. </p> </td> 
+   <td colname="col4"> <p>La configuración regional utilizada para los detalles del registro de trabajos y la localización por correo electrónico. </p> <p>Las configuraciones regionales se especifican como <span class="codeph"> &lt;language_code&gt;</span> y <span class="codeph"> [&lt;country_code&gt;]</span>, donde el código de idioma es un código en minúsculas de dos letras como se especifica en la norma ISO-639, y el código de país opcional es un código en mayúsculas de dos letras como se especifica en la norma ISO-3166. Por ejemplo, la cadena de configuración regional para inglés (Estados Unidos) sería: en-US. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> execTime</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Fecha y hora de ejecución del trabajo. </p> <p>Nota: Proporcione la zona horaria con la solicitud. Las zonas horarias se ajustan a la zona horaria del servidor IPS de destino. </p> </td> 
+   <td colname="col4"> <p>Fecha y hora para ejecutar el trabajo. </p> <p>Nota: Proporcione la zona horaria con la solicitud. Las zonas horarias se ajustan a la zona horaria del servidor IPS de destino. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> execSchedule</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Determina cuándo ejecutar el trabajo. </p> <p> Puede ser un <span class="codeph"> cron</span> cadena que ejecuta el trabajo de forma recurrente. </p> <p>La programación siempre es relativa al huso horario local del servidor. Consulte la documentación de IPS para ver el formato de programación personalizado. </p> </td> 
+   <td colname="col4"> <p>Determina cuándo ejecutar el trabajo. </p> <p> Puede ser un <span class="codeph"> cron</span> cadena que ejecuta el trabajo de forma recurrente. </p> <p>La programación siempre es relativa a la zona horaria local del servidor. Consulte la documentación de IPS para ver el formato de programación personalizado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> descripción</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> description</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> <p>Descripción del trabajo. </p> </td> 
@@ -88,19 +88,19 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:ExportJob</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Exportar archivos cargados anteriormente. </p> <p>Consulte <a href="../../../types/c-data-types/r-exportjob.md#reference-1ce423f7b2d54507b90b67233c588665" format="dita" scope="local"> ExportJob</a>. </p> </td> 
+   <td colname="col4"> <p>Exportar los archivos cargados anteriormente. </p> <p>Consulte <a href="../../../types/c-data-types/r-exportjob.md#reference-1ce423f7b2d54507b90b67233c588665" format="dita" scope="local"> ExportJob</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageServingPublishJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:ImageServingPublishJob</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Detalles de un trabajo de publicación de servicio de imágenes. </p> </td> 
+   <td colname="col4"> <p>Detalles de un trabajo de publicación para servicio de imágenes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageRenderingPublishJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:ImageRenderingPublishJob</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Detalles de un trabajo de publicación de renderización de imágenes. </p> </td> 
+   <td colname="col4"> <p>Detalles de un trabajo de publicación de procesamiento de imágenes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> videoPublishJob</span> </span> </td> 
@@ -118,13 +118,13 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> uploadDirectoryJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:UploadDirectoryJob</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Detalles de un trabajo de directorio de carga. </p> </td> 
+   <td colname="col4"> <p>Detalles de un trabajo de carga de directorio. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> uploadUrlsJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:UploadUrlsJob</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Detalles de un trabajo de URL de carga. </p> </td> 
+   <td colname="col4"> <p>Detalles de un trabajo de carga de URL. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> optimizeImagesJob</span> </span> </td> 
@@ -140,15 +140,15 @@ Sintaxis
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> reprocessAssetsJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:ReprocessAssetsJob</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:ReprocesarActivosTrabajo</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> automaticSetGenerationJob</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> automatedSetGenerationJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:AutomatedSetGenerationJob</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Procese una lista de recursos en conjuntos mediante Scripts de conjunto automatizados. </p> <p>Consulte <a href="../../../types/c-data-types/r-automated-set-generation-job.md#reference-ab0b3c5408eb41b98c49898b2197cf5a" format="dita" scope="local"> AutomatedSetGenerationJob</a>. </p> </td> 
+   <td colname="col4"> <p>Procese una lista de recursos en conjuntos mediante Scripts de conjunto automatizado. </p> <p>Consulte <a href="../../../types/c-data-types/r-automated-set-generation-job.md#reference-ab0b3c5408eb41b98c49898b2197cf5a" format="dita" scope="local"> AutomatedSetGenerationJob</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -157,11 +157,11 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| jobHandle | `xsd:string` | Sí | Identificador de trabajo. |
+| jobHandle | `xsd:string` | Sí | Gestor del trabajo. |
 
 ## Ejemplos {#section-40ac77d14adf4588ba2575be6879b2d2}
 
-Este ejemplo de código envía un trabajo de publicación de servidor de imágenes a IPS y devuelve un identificador de trabajo. Elija solo un tipo de trabajo en la solicitud. Porque `userHandle` se ha omitido, las notificaciones por correo electrónico se envían al usuario que ha enviado el trabajo. Este trabajo de ejemplo se ejecuta inmediatamente porque `execTime` y `execSchedule` se han omitido.
+Este ejemplo de código envía un trabajo de publicación de servicio de imágenes a IPS y devuelve un identificador de trabajo. Elija solo un tipo de trabajo en la solicitud. Porque `userHandle` Se ha omitido. Las notificaciones por correo electrónico se envían al usuario que ha enviado el trabajo. Este trabajo de muestra se ejecuta inmediatamente porque `execTime` y `execSchedule` se omitieron.
 
 **Solicitar**
 
@@ -186,7 +186,7 @@ Este ejemplo de código envía un trabajo de publicación de servidor de imágen
 
 ## Notas {#section-0f3078e503a249aeb6f3d662a51f036a}
 
-Puede especificar como máximo uno de `execTime` y `execSchedule`. Si no se pasa ninguno, el trabajo se ejecuta inmediatamente. Solo puede utilizar una de las siguientes opciones:
+Puede especificar como máximo uno de los siguientes `execTime` y `execSchedule`. Si no se pasa ninguno, el trabajo se ejecuta inmediatamente. Solo puede utilizar una de las siguientes opciones:
 
 * `imageServingPublishJob`
 * `imageRenderingPublishJob`

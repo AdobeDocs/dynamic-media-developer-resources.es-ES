@@ -1,7 +1,7 @@
 ---
-description: Control de caché. Permite desactivar selectivamente el almacenamiento en caché del lado del cliente (explorador, servidores proxy, sistemas de almacenamiento en caché de red) y el almacenamiento en caché en la [!DNL Platform Server] caché.
+description: Control de caché. Permite deshabilitar selectivamente el almacenamiento en caché del lado del cliente (explorador, servidores proxy, sistemas de almacenamiento en caché de red) y el almacenamiento en caché en el [!DNL Platform Server] caché.
 solution: Experience Manager
-title: cache
+title: escondrijo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 622c36fa-c209-4149-a7db-85067215b5e5
@@ -12,9 +12,9 @@ ht-degree: 2%
 
 ---
 
-# cache{#cache}
+# escondrijo{#cache}
 
-Control de caché. Permite desactivar selectivamente el almacenamiento en caché del lado del cliente (explorador, servidores proxy, sistemas de almacenamiento en caché de red) y el almacenamiento en caché en la [!DNL Platform Server] caché.
+Control de caché. Permite deshabilitar selectivamente el almacenamiento en caché del lado del cliente (explorador, servidores proxy, sistemas de almacenamiento en caché de red) y el almacenamiento en caché en el [!DNL Platform Server] caché.
 
 `&cache= *`cacheControl`*`
 
@@ -23,20 +23,20 @@ Control de caché. Permite desactivar selectivamente el almacenamiento en caché
 <table id="simpletable_DA4D92F0AEF84FD49953876796058B7F"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> cacheControl</span></span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph"> on|off</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> activado|desactivado</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> clientControl</span></span> </p></td> 
-  <td class="stentry"> <p><span class="codeph"> on|off</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> activado|desactivado</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> serverControl</span></span> </p></td> 
-  <td class="stentry"> <p><span class="codeph"> on|off</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> activado|desactivado</span> </p></td> 
  </tr> 
 </table>
 
-Si solo uno *`cacheControl`* se especifica, se aplica tanto a las cachés de cliente como de servidor.
+Si solo hubiera uno *`cacheControl`* se especifica, se aplica a las memorias caché del cliente y del servidor.
 
-Atributo de solicitud. Se omite cuando la solicitud no devuelve una imagen de respuesta. *`clientControl`* se ignora cuando el catálogo de imágenes deshabilita el almacenamiento en caché del lado del cliente (si `catalog::Expiration` tiene un valor negativo).
+Atributo de solicitud. Se ignora cuando la solicitud no devuelve una imagen de respuesta. *`clientControl`* se ignora cuando el catálogo de imágenes desactiva el almacenamiento en caché del lado del cliente (si `catalog::Expiration` tiene un valor negativo).
 
 Defaults to `cache=on,on`.

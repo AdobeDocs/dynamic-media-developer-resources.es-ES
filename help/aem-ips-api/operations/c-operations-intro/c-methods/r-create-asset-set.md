@@ -1,5 +1,5 @@
 ---
-description: Crea un conjunto de recursos genérico con una cadena de definición de conjunto sin procesar que se publicará en un servidor de imágenes.
+description: Crea un conjunto de recursos genérico con una cadena de definición de conjunto sin procesar para publicarlo en un servidor de imágenes.
 solution: Experience Manager
 title: createAssetSet
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # createAssetSet{#createassetset}
 
-Crea un conjunto de recursos genérico con una cadena de definición de conjunto sin procesar que se publicará en un servidor de imágenes.
+Crea un conjunto de recursos genérico con una cadena de definición de conjunto sin procesar para publicarlo en un servidor de imágenes.
 
 Sintaxis
 
@@ -45,7 +45,7 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> El identificador de la empresa que contendrá el conjunto de recursos. </td> 
+   <td colname="col4"> El identificador de la compañía que contendrá el conjunto de recursos. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle </span> </span> </td> 
@@ -63,7 +63,7 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> subType </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> Identificador único creado por el cliente para el tipo de conjunto de recursos. </td> 
+   <td colname="col4"> Un identificador único creado por el cliente para el tipo de conjunto de recursos. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition </span> </span> </td> 
@@ -75,27 +75,27 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Control del recurso que actúa como la miniatura del nuevo conjunto de imágenes. Si no se especifica, IPS intenta utilizar el primer recurso de imagen al que hace referencia el conjunto. </td> 
+   <td colname="col4"> Controlador del recurso que actúa como miniatura para el nuevo conjunto de imágenes. Si no se especifica, IPS intenta utilizar el primer recurso de imagen al que hace referencia el conjunto. </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Funciones de sustitución para setDefinition**
 
-Puede especificar funciones de sustitución en línea que se resuelvan durante la búsqueda o publicación del catálogo. Las cadenas de sustitución tienen el formato `${<substitution_func>}`. A continuación se enumeran las funciones disponibles.
+Puede especificar funciones de sustitución en línea que se resuelven durante la búsqueda o publicación del catálogo. Las cadenas de sustitución tienen el formato `${<substitution_func>}`. A continuación se enumeran las funciones disponibles.
 
 >[!NOTE]
 >
->Los literales de control de las listas de parámetros deben estar entre corchetes `([])`. Todo el texto que está fuera de una cadena de sustitución se copia literalmente en la cadena de salida durante la resolución.
+>Los literales de controlador de las listas de parámetros deben estar entre corchetes `([])`. Todo el texto que esté fuera de una cadena de sustitución se copia literalmente en la cadena de salida durante la resolución.
 
 | **Función de sustitución** | **Devuelve** |
 |---|---|
 | `getFilePath([asset_handle>])` | Ruta del archivo de origen principal del recurso. |
 | `getCatalogId([<asset_handle>])` | El ID de catálogo del recurso. |
-| `getMetaData([<asset_handle>], [<metadata_field_handle>])` | Valores de metadatos del recurso. |
-| `getThumbCatalogId([<asset_handle>])` | El ID de catálogo del recurso (solo para recursos basados en imágenes). El ID de catálogo del recurso principal asociado (para otros recursos). Si un recurso de miniatura asociado no está disponible, la función devuelve una cadena vacía. |
+| `getMetaData([<asset_handle>], [<metadata_field_handle>])` | Valores de metadatos para el recurso. |
+| `getThumbCatalogId([<asset_handle>])` | El ID de catálogo del recurso (solo para recursos basados en imágenes). El ID de catálogo del recurso de la miniatura asociado (para otros recursos). Si un recurso de miniatura asociado no está disponible, la función devuelve una cadena vacía. |
 
-**Cadena Media setDefinition de muestra**
+**Cadena setDefinition de medios de muestra**
 
 ```java
 ${getCatalogId([a|1664|22|1664])};${getCatalogId([a|1664|22|1664])};1,${getFilePath([a|103 

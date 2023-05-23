@@ -1,6 +1,6 @@
 ---
-title: Carpeta Instalar
-description: La carpeta de instalación de Image Serving (install_folder) es install_root/ImageServing.
+title: Carpeta de instalación
+description: La carpeta de instalación del servicio de imágenes (install_folder) es install_root/ImageServing.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,12 +12,12 @@ ht-degree: 0%
 
 ---
 
-# Carpeta Instalar{#install-folder}
+# Carpeta de instalación{#install-folder}
 
-La carpeta de instalación de Image Serving (install_folder) es install_root/ImageServing.
+La carpeta de instalación del servicio de imágenes (install_folder) es install_root/ImageServing.
 
-*[!DNL install_root]* toma como valor predeterminado `C:\Program Files\Scene7` en Windows (un *[!DNL install_root]* durante la instalación). En Linux®, *[!DNL install_root]* debe ser siempre [!DNL /usr/local/scene7] (se pueden utilizar vínculos simbólicos).
+*[!DNL install_root]* el valor predeterminado es `C:\Program Files\Scene7` en Windows (un método diferente *[!DNL install_root]* carpeta se puede seleccionar durante la instalación). En Linux®, *[!DNL install_root]* siempre debe ser [!DNL /usr/local/scene7] (se pueden utilizar vínculos simbólicos).
 
 En este documento, *[!DNL install_folder]* puede estar representado por &#39; [!DNL ./]&#39;.
 
-Todas las rutas de archivos distinguen entre mayúsculas y minúsculas en UNIX® y en Windows.
+Todas las rutas de archivo distinguen entre mayúsculas y minúsculas en UNIX® y en Windows.

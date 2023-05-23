@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: ef4880c5-045c-487c-a73a-e87e54717029
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '46'
+ht-degree: 10%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> días</span></span> </p> </td> 
-   <td colname="col2"> <p> Número de días durante los que se conserva la colección de favoritos en el sistema del cliente antes de que caduque. Cada vez que un usuario visita el catálogo y cambia un favorito, como agregar o quitar, se restablece el temporizador de caducidad. </p> </td> 
+   <td colname="col2"> <p> Número de días que la colección de favoritos se mantiene en el sistema del cliente antes de que caduquen. Cada vez que un usuario visita el catálogo y cambia un favorito, como agregar o quitar, se restablece el temporizador de caducidad. </p> </td> 
   </tr> 
  </tbody> 
 </table>

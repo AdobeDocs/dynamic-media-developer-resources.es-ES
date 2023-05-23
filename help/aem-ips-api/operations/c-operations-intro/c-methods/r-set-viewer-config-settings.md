@@ -1,5 +1,5 @@
 ---
-description: Adjunta los ajustes de configuración del visor a un recurso. Pueden ser un ajuste preestablecido de visualizador o el recurso de origen para el visualizador.
+description: Adjunta los ajustes de configuración del visor a un recurso. Pueden ser un ajuste preestablecido de visualizador o el recurso de origen del visualizador.
 solution: Experience Manager
 title: setViewerConfigSettings
 feature: Dynamic Media Classic,SDK/API,Viewer Presets
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # setViewerConfigSettings{#setviewerconfigsettings}
 
-Adjunta los ajustes de configuración del visor a un recurso. Pueden ser un ajuste preestablecido de visualizador o el recurso de origen para el visualizador.
+Adjunta los ajustes de configuración del visor a un recurso. Pueden ser un ajuste preestablecido de visualizador o el recurso de origen del visualizador.
 
 Sintaxis
 
@@ -31,12 +31,12 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | Gestionar a la empresa. |
-| assetHandle | `xsd:string` | Sí | Identificador de recurso. |
-| name | `xsd:string` | Sí | Nombre del recurso. |
-| tipo | `xsd:string` | Sí | Tipo de recurso al que desea aplicar la configuración del visor. |
-| configSettingArray | `types:ConfigSettingArray` | Sí | La matriz de `ConfigSettings` aplicado al recurso. |
+| companyHandle | `xsd:string` | Sí | Gestionar en la empresa. |
+| assetHandle | `xsd:string` | Sí | Controlador de recurso. |
+| nombre | `xsd:string` | Sí | Nombre del recurso. |
+| tipo | `xsd:string` | Sí | El tipo de recurso al que desea aplicar la configuración del visor. |
+| configSettingArray | `types:ConfigSettingArray` | Sí | La matriz de `ConfigSettings` aplicado al recurso.. |
 
 **Salida (setViewerConfigSettingsParam)**
 
-La API IPS no devuelve una respuesta para esta operación.
+La API de IPS no devuelve una respuesta para esta operación.

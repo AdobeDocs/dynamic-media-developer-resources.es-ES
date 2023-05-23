@@ -1,5 +1,5 @@
 ---
-description: Un tipo de conjunto de propiedades especifica varias configuraciones utilizadas para ayudar a administrar conjuntos de propiedades.
+description: Un tipo de conjunto de propiedades especifica varios valores utilizados para ayudar a administrar los conjuntos de propiedades.
 solution: Experience Manager
 title: createPropertySetType
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # createPropertySetType{#createpropertysettype}
 
-Un tipo de conjunto de propiedades especifica varias configuraciones utilizadas para ayudar a administrar conjuntos de propiedades.
+Un tipo de conjunto de propiedades especifica varios valores utilizados para ayudar a administrar los conjuntos de propiedades.
 
 Sintaxis
 
@@ -31,8 +31,8 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | No | El identificador de la empresa propietaria del tipo de conjunto de propiedades. If `companyHandle` no se pasa y el llamador es un `IpsAdmin`, se crea un tipo de conjunto de propiedades globales. |
-| name | `xsd:string` | Sí | Nombre del tipo de conjunto de propiedades. |
+| companyHandle | `xsd:string` | No | El identificador de la compañía propietaria del tipo de conjunto de propiedades. If `companyHandle` no se pasa y el llamador es un `IpsAdmin`, se crea un tipo de conjunto de propiedades global. |
+| nombre | `xsd:string` | Sí | Nombre del tipo del conjunto de propiedades. |
 | propertyType | `xsd:string` | Sí | Elección de tipos de conjuntos de propiedades. |
 | allowMultiple | `xsd:boolean` | Sí | Determina si el programa puede tener varios conjuntos de propiedades. |
 
@@ -40,11 +40,11 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| typeHandle | `xsd:string` | Sí | Un identificador para el tipo . |
+| typeHandle | `xsd:string` | Sí | Un identificador para el tipo. |
 
 ## Ejemplos {#section-13396c9639a6475190e622eae3cdb534}
 
-Este ejemplo de código crea un conjunto de propiedades con un nombre y un tipo especificados por el `PropertySet Types` constante. El identificador de la empresa propietaria del tipo de conjunto de propiedades. Si companyHandle no se pasa y la persona que realiza la llamada es un IpsAdmin, se crea un tipo de conjunto de propiedades globales.
+En este ejemplo de código se crea un conjunto de propiedades con un nombre y un tipo especificados por el `PropertySet Types` constante. El identificador de la compañía propietaria del tipo de conjunto de propiedades. Si companyHandle no se pasa y el llamador es un IpsAdmin, se crea un tipo de conjunto de propiedades global.
 
 **Solicitar**
 

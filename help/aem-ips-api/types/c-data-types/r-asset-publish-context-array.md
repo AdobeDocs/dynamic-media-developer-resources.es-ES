@@ -20,4 +20,4 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| AssetPublishContextArray | `types:AssetPublishContext` | Matriz de contextos de publicación de recursos. |
+| AssetPublishContextArray | `types:AssetPublishContext` | Una matriz de contextos de publicación de recursos. |

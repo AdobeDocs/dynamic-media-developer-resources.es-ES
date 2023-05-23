@@ -1,5 +1,5 @@
 ---
-description: Todos los archivos de configuración se encuentran en install_folder/conf y son editables con la mayoría de los editores de texto. Puede que sea necesario reiniciar el servidor para que los cambios surtan efecto.
+description: Todos los archivos de configuración se encuentran en install_folder/conf y se pueden editar con la mayoría de los editores de texto. Es posible que sea necesario reiniciar el servidor para que los cambios surtan efecto.
 solution: Experience Manager
 title: Archivos de configuración del servidor
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 1%
 
 # Archivos de configuración del servidor{#server-configuration-files}
 
-Todos los archivos de configuración se encuentran en install_folder/conf y son editables con la mayoría de los editores de texto. Puede que sea necesario reiniciar el servidor para que los cambios surtan efecto.
+Todos los archivos de configuración se encuentran en install_folder/conf y se pueden editar con la mayoría de los editores de texto. Es posible que sea necesario reiniciar el servidor para que los cambios surtan efecto.
 
 >[!NOTE]
 >
->La mayoría de los archivos de configuración del servidor contienen propiedades y valores adicionales que no se describen en este documento. Estas propiedades son para uso interno del servidor y no deben modificarse a menos que el servicio de asistencia técnica de Dynamic Media les indique específicamente.
+>La mayoría de los archivos de configuración del servidor contienen propiedades y valores adicionales que no se describen en este documento. Estas propiedades son para uso interno del servidor y no deben modificarse a menos que el servicio de asistencia técnica de Dynamic Media lo indique específicamente.
 
 Este documento analiza la configuración de los siguientes archivos de configuración:
 
@@ -57,4 +57,4 @@ Este documento analiza la configuración de los siguientes archivos de configura
  </tbody> 
 </table>
 
-Los archivos de configuración se tratan más detalladamente más adelante en este documento.
+Los archivos de configuración se analizan con más detalle más adelante en este documento.

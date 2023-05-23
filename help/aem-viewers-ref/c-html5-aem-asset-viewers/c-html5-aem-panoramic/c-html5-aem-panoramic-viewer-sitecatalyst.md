@@ -14,11 +14,11 @@ ht-degree: 2%
 
 # Compatibilidad con el seguimiento de Adobe Analytics{#support-for-adobe-analytics-tracking}
 
-De forma predeterminada, el visor envía una única solicitud HTTP de seguimiento al servidor de imágenes configurado con el tipo de visor y la información de versión.
+De forma predeterminada, el visor envía una única solicitud HTTP de seguimiento al servidor de imágenes configurado con información sobre el tipo y la versión del visor.
 
 ## Seguimiento personalizado {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Para integrarse con el sistema de análisis de terceros, es necesario escuchar `trackEvent` llamada de retorno y proceso del visor `eventInfo` de la función de llamada de retorno según sea necesario. El siguiente código es un ejemplo de dicha función de controlador:
+Para integrarse con el sistema de análisis de terceros es necesario escuchar `trackEvent` proceso y llamada de retorno del visor `eventInfo` de la función de llamada de retorno según sea necesario. El siguiente código es un ejemplo de esta función de controlador:
 
 ```javascript {.line-numbers}
 var panoramicViewer = new s7viewers.PanoramicViewer({
@@ -42,7 +42,7 @@ var panoramicViewer = new s7viewers.PanoramicViewer({
 });
 ```
 
-El visor realiza el seguimiento de los siguientes eventos de usuario de SDK:
+El visor realiza un seguimiento de los siguientes eventos de usuarios del SDK:
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 

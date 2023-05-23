@@ -20,5 +20,5 @@ Establezca un nuevo conjunto de indicadores de estado de publicación para el co
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| assetHandle | `xsd:string` | Gestione el recurso que desea actualizar. |
-| contextStateUpdateArray | `types:ContextStateUpdateArray` | Matriz de estados de contacto de publicación para el recurso que desea actualizar. |
+| assetHandle | `xsd:string` | Administre al recurso que desea actualizar. |
+| contextStateUpdateArray | `types:ContextStateUpdateArray` | Una matriz de estados de contacto de publicación para el recurso que desea actualizar. |

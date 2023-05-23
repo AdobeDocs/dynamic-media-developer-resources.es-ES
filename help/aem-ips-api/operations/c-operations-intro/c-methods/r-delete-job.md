@@ -35,12 +35,12 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | El identificador de la empresa a la que pertenece el trabajo. |
+| companyHandle | `xsd:string` | Sí | El identificador de la compañía a la que pertenece el trabajo. |
 | jobHandle | `xsd:string` | Sí | El identificador del trabajo que se va a eliminar. |
 
-**Salida**
+**Output**
 
-La API IPS no devuelve una respuesta para esta operación.
+La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-732d21d4dad04337b7a5ae1a0cc00eba}
 

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 6e2814b9-898f-4cf4-8e4f-aa972d554213
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 4%
+source-wordcount: '89'
+ht-degree: 3%
 
 ---
 
@@ -20,11 +20,11 @@ Ruta raíz para saveToFile=. Ruta relativa para la carpeta raíz en la que se de
 
 ## Propiedades {#section-343d1371e966491c92854a8df14c3c50}
 
-Cadena de texto. Debe estar vacío o tener una ruta de carpeta relativa válida. Siempre se combina con la ruta raíz absoluta configurada con `ImageServer::SaveDirectory`.
+Cadena de texto. Debe estar vacío o una ruta de carpeta relativa válida. Siempre combinado con la ruta raíz absoluta configurada con `ImageServer::SaveDirectory`.
 
 ## Predeterminado {#section-ae751eea97654f399c6aaee3f3252cbb}
 
-Se hereda de `default::SavePath` si no se define. Guardar en archivos está desactivado si el valor resuelto está vacío.
+Heredado de `default::SavePath` si no está definido. Guardar en archivos está deshabilitado si el valor resuelto está vacío.
 
 ## Véase también {#section-b38b045bbf084ca5a4b24ea12c4877ae}
 

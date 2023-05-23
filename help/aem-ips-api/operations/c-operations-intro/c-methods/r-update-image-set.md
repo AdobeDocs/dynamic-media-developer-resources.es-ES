@@ -24,10 +24,10 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | El identificador de la empresa que contiene el conjunto de imágenes que desea modificar. |
-| assetHandle | `xsd:string` | Ys | El controlador del conjunto de imágenes que desea modificar. |
-| memberArray | `types:ImageSetMemberUpdateArray` | No | Restaura los miembros del conjunto de imágenes. |
-| thumbAssetHandle | `xsd:string` | No | El controlador del recurso que actúa como la miniatura del conjunto de imágenes. |
+| companyHandle | `xsd:string` | Sí | El identificador de la compañía que contiene el conjunto de imágenes que desea modificar. |
+| assetHandle | `xsd:string` | Sí | El controlador del conjunto de imágenes que desea modificar. |
+| memberArray | `types:ImageSetMemberUpdateArray` | No | Restablece los miembros del conjunto de imágenes. |
+| thumbAssetHandle | `xsd:string` | No | El controlador del recurso que actúa como miniatura para el conjunto de imágenes. |
 
 **Salida (updateImageSetReturn)**
 

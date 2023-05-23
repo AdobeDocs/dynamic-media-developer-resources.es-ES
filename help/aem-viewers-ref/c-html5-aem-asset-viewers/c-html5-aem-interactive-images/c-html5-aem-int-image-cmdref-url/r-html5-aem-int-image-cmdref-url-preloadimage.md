@@ -1,6 +1,6 @@
 ---
 title: preloadimage
-description: URL para el visualizador de imágenes de vídeo.
+description: Comando de URL del Visor de imágenes de vídeo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: 5bb61804-8c61-473f-a8a7-aa30a410e22b
 source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
 source-wordcount: '29'
-ht-degree: 17%
+ht-degree: 13%
 
 ---
 
 # preloadimage{#preloadimage}
 
-URL para el visualizador de imágenes de vídeo.
+Comando de URL del Visor de imágenes de vídeo.
 
 `preloadImage=0|1`
 
@@ -22,7 +22,7 @@ URL para el visualizador de imágenes de vídeo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Habilite (1) o deshabilite (0) la función de imagen de precarga. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-preload-image.md#concept-d9528ead78ca4d1dae7904bf2520b1e3" format="dita" scope="local"> Preload image</a>. </p> </td> 
+   <td colname="col2"> <p> Habilite (1) o deshabilite (0) la función de precarga de imagen. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-preload-image.md#concept-d9528ead78ca4d1dae7904bf2520b1e3" format="dita" scope="local"> Precargar imagen</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

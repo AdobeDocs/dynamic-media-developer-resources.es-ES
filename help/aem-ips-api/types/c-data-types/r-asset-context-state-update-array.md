@@ -1,6 +1,6 @@
 ---
 title: AssetContextStateUpdateArray
-description: Matriz de actualizaciones de estado de contexto de recursos.
+description: Una matriz de actualizaciones de estado de contexto de recursos.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,10 +14,10 @@ ht-degree: 18%
 
 # [!DNL AssetContextStateUpdateArray]{#assetcontextstateupdatearray}
 
-Matriz de actualizaciones de estado de contexto de recursos.
+Una matriz de actualizaciones de estado de contexto de recursos.
 
 **Parámetros**
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| elementos | `types:AssetsContextStateUpdate` | Matriz de actualizaciones de estado de contexto de recursos. |
+| elementos | `types:AssetsContextStateUpdate` | Una matriz de actualizaciones de estado de contexto de recursos. |

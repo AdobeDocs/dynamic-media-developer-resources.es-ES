@@ -16,7 +16,7 @@ ht-degree: 13%
 
 Crea una cuenta de usuario y la agrega a una o varias empresas.
 
-Cuando agregue un usuario a varias empresas, especifique esas empresas mediante los controles que su empresa tenga en `companyHandleArray`. Esta operación devuelve el identificador al usuario que acaba de agregar.
+Cuando agregue un usuario a varias empresas, especifique las empresas por sus identificadores de empresa en `companyHandleArray`. Esta operación devuelve el identificador al usuario que acaba de agregar.
 
 ## Tipos de usuarios autorizados {#section-126ad42f844444fea11ecf8ad01fe1ec}
 
@@ -34,11 +34,11 @@ Cuando agregue un usuario a varias empresas, especifique esas empresas mediante 
 | firstName | `xsd:string` | Sí | El nombre del usuario. |
 | lastName | `xsd:string` | Sí | El apellido del usuario. |
 | correo electrónico | `xsd:string` | Sí | La dirección de correo electrónico del usuario. |
-| defaultRole | `xsd:string` | Sí | Establece la función de un usuario en cada empresa a la que pertenece. No obstante, tenga en cuenta que `IpsAdmin` reemplaza otras configuraciones por empresa. |
+| defaultRole | `xsd:string` | Sí | Establece la función de un usuario en cada compañía a la que pertenece. Sin embargo, tenga en cuenta que `IpsAdmin` la función anula otras configuraciones por empresa. |
 | contraseña | `xsd:string` | Sí | Establece la contraseña del usuario |
-| passwordExpires | `xsd:dateTime` | No | Establece el periodo de caducidad de la contraseña. Proporcione la zona horaria al pasar la solicitud. Las zonas horarias se ajustan a la hora central. |
+| passwordExpires | `xsd:dateTime` | No | Establece el período de caducidad de la contraseña. Proporcione la zona horaria al pasar la solicitud. Las zonas horarias se ajustan a la Hora central. |
 | isValid | `xsd:boolean` | Sí | Determina si el usuario es válido. |
-| membershipArray | `xsd:CompanyMembershipUpdateArray` | Sí | Matriz de controladores de empresa. |
+| subscriptionArray | `xsd:CompanyMembershipUpdateArray` | Sí | Una matriz de identificadores de empresa. |
 
 **Salida (addUserParam)**
 
@@ -48,7 +48,7 @@ Cuando agregue un usuario a varias empresas, especifique esas empresas mediante 
 
 ## Ejemplos {#section-2547cef622734b71919eef849960b5cb}
 
-La API IPS devuelve un elemento de control de usuario que especifica el nuevo usuario.
+La API de IPS devuelve un elemento de identificador de usuario que especifica el nuevo usuario.
 
 **Solicitar**
 

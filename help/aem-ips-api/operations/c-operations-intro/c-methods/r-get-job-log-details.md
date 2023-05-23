@@ -1,5 +1,5 @@
 ---
-description: Obtiene los detalles de un registro de trabajos de la empresa.
+description: Obtiene los detalles del registro de trabajo de una compañía.
 solution: Experience Manager
 title: getJobLogDetails
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 18%
 
 # getJobLogDetails{#getjoblogdetails}
 
-Obtiene los detalles de un registro de trabajos de la empresa.
+Obtiene los detalles del registro de trabajo de una compañía.
 
-La variable `logMessage` el campo de respuesta se localiza en función de la variable `authHeader` `locale` campo .
+El `logMessage` el campo de respuesta se localiza en función de `authHeader` `locale` field.
 
 ## Tipos de usuarios autorizados {#section-6f720a7baad64eb3805868c88af9a960}
 
@@ -47,13 +47,13 @@ La variable `logMessage` el campo de respuesta se localiza en función de la var
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> El identificador de la empresa a la que pertenece el registro de trabajos. </td> 
+   <td colname="col4"> El identificador de la compañía a la que pertenece el registro de trabajos. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Un identificador de un trabajo activo o completado. </td> 
+   <td colname="col4"> Un identificador para un trabajo activo o completado. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span> </span> </td> 
@@ -65,7 +65,7 @@ La variable `logMessage` el campo de respuesta se localiza en función de la var
    <td colname="col1"> <span class="codeph"> <span class="varname"> logTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:StringArray</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Una o más constantes de tipo de registro. Si está presente, solo se devuelven los tipos de registro especificados. De forma predeterminada, se devuelven todos los tipos de registro. </td> 
+   <td colname="col4"> Una o varias constantes de Tipo de registro. Si está presente, solo se devuelven los tipos de registro especificados. De forma predeterminada, se devuelven todos los tipos de registro. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </td> 
@@ -83,13 +83,13 @@ La variable `logMessage` el campo de respuesta se localiza en función de la var
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Uno de los valores constantes de campo de orden de detalle de trabajo (Date o LogType). El valor predeterminado es Fecha. </p> </td> 
+   <td colname="col4"> <p>Uno de los valores constantes del campo de ordenación de detalles del trabajo (Date o LogType). El valor predeterminado es Fecha. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortDirection</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Una de las constantes de cadena Sort Direction. El valor predeterminado es ascendente. </p> </td> 
+   <td colname="col4"> <p>Una de las constantes de cadena Dirección de ordenación. El valor predeterminado es ascendente. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,7 +102,7 @@ La variable `logMessage` el campo de respuesta se localiza en función de la var
 
 ## Ejemplos {#section-007678b8b8d94e8f91d09f6bc855f394}
 
-Este ejemplo de código devuelve todos los detalles del registro de trabajo de una empresa específica. La primera matriz contiene detalles estándar del registro de trabajos. Una matriz incrustada devuelve información adicional sobre el trabajo.
+Este ejemplo de código devuelve todos los detalles del registro de trabajos de una compañía específica. La primera matriz contiene detalles de registro de trabajos estándar. Una matriz incrustada devuelve información adicional sobre el trabajo.
 
 **Solicitar**
 

@@ -8,31 +8,31 @@ exl-id: 16276e07-5494-4fd9-bd77-e77a46c57fd1
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '99'
-ht-degree: 7%
+ht-degree: 6%
 
 ---
 
 # SpinView.autospin{#spinview-autospin}
 
-` [SpinView.|<containerId>_spinView.]maxloadradius=0|1[, *`duration`*][, *`Dirección`*][, *`spin_number`*]`
+` [SpinView.|<containerId>_spinView.]maxloadradius=0|1[, *`duration`*][, *`dirección`*][, *`spin_number`*]`
 
 <table id="table_49FFD1BC53B846F09A6D214BC8C5C3FE"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Activa o desactiva la animación de giro automática. Para lograr la mejor experiencia de giro automático, se recomienda cargar previamente todos los fotogramas estableciendo <span class="codeph"> maxloadradius</span> a <span class="codeph"> -1</span>. Sin embargo, tenga en cuenta que esta configuración resulta en un mayor tiempo de carga y en un mayor uso del ancho de banda. </p> </td> 
+   <td colname="col2"> <p> Activa o desactiva la animación automática de giro. Para lograr la mejor experiencia de giro automático, se recomienda cargar previamente todos los fotogramas mediante un ajuste <span class="codeph"> maxloadradius</span> hasta <span class="codeph"> -1</span>. Sin embargo, tenga en cuenta que esta configuración aumenta el tiempo de carga y el uso del ancho de banda. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> duración</span></span> </p> </td> 
-   <td colname="col2"> <p> Número de segundos por un giro completo. </p> </td> 
+   <td colname="col2"> <p> La cantidad de segundos por cada giro completo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> dirección</span></span> </p> </td> 
-   <td colname="col2"> <p> La dirección de giro que es <span class="codeph"> 0</span> para girar hacia el este y <span class="codeph"> 1</span> para girar hacia el oeste. </p> </td> 
+   <td colname="col2"> <p> La dirección de giro que es <span class="codeph"> 0</span> para girar hacia la derecha y <span class="codeph"> 1</span> para girar hacia el oeste. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> spin_number</span></span> </p> </td> 
-   <td colname="col2"> <p> Número de rotaciones completas realizadas antes de que se detenga el giro automático. El número es un número de coma flotante. Establecer como <span class="codeph"> -1</span> para un giro automático infinito. </p> </td> 
+   <td colname="col2"> <p> Número de rotaciones completas hasta que se detiene el giro automático. El número es un número de coma flotante. Configure como. <span class="codeph"> -1</span> para un giro automático infinito. </p> </td> 
   </tr> 
  </tbody> 
 </table>

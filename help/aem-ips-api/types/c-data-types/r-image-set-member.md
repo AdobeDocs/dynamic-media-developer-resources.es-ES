@@ -16,11 +16,11 @@ ht-degree: 7%
 
 Recursos que pertenecen a un conjunto de imágenes.
 
-Restablecimiento de página significa que [!DNL eCatalog] debe comenzar una página nueva. `RenderSet` indica que forma parte de un `RenderSet` muestra. Se fuerza el valor en `true` para `eCatalog` y `RenderSet` conjuntos.
+Restablecer página significa que una [!DNL eCatalog] debería iniciar una nueva página. `RenderSet` indica que forma parte de un `RenderSet` muestra. Se fuerza el valor en `true` para `eCatalog` y `RenderSet` establece.
 
 ## Parámetros {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| asset | `type:Asset` | Recursos en la matriz de conjuntos de imágenes. |
-| pageReset | `xsd:boolean` | Inicia una página nueva. Se ignora la configuración y se fuerza el valor en `true` para `eCatalog` y `RenderSet` conjuntos. |
+| asset | `type:Asset` | Recursos en la matriz del conjunto de imágenes. |
+| pageReset | `xsd:boolean` | Inicia una nueva página. Se ignora la configuración y se fuerza el valor en `true` para `eCatalog` y `RenderSet` establece. |

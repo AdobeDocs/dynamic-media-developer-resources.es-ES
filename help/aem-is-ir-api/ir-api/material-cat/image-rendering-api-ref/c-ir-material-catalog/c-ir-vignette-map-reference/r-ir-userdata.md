@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: e8ec11af-9448-4796-a43d-0fb9841469dd
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 17%
+source-wordcount: '64'
+ht-degree: 7%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 17%
 
 Datos de usuario. El servidor devuelve el contenido de este campo al cliente en respuesta a req=userdata.
 
-Se pueden escapar nuevas líneas con &quot;??&quot;. El servidor reemplazará &#39;??&#39; con `<cr><lf>` antes de devolver el contenido de este campo.
+Las nuevas líneas se pueden escapar con &quot;??&quot;. El servidor reemplazará &quot;??&quot; por `<cr><lf>` antes de devolver el contenido de este campo.
 
 ## Propiedades {#section-4e3904e047a84cc790ce77c56d3e0b21}
 

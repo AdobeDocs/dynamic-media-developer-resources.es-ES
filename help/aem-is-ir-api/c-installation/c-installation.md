@@ -1,6 +1,6 @@
 ---
 title: Instalación
-description: Instalación de Image Serving.
+description: Instalando el servicio de imágenes.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,20 +12,20 @@ ht-degree: 4%
 
 ---
 
-# Instalación de Image Serving {#installation}
+# Instalación del servicio de imágenes {#installation}
 
-La instalación de Image Serving incluye dos componentes principales del servidor:
+La instalación del servicio de imágenes incluye dos componentes de servidor principales:
 
-* Image Server. Un ejecutable independiente con código nativo.
+* Image Server. Un ejecutable independiente de código nativo.
 * [!DNL Platform Server]. Un servidor de aplicaciones y una aplicación web Java™ independiente.
 
 El procesamiento de imágenes forma parte de estos dos componentes de servidor.
 
-En las instrucciones siguientes, `install_root` hace referencia a la carpeta raíz en la que están instalados Image Serving y Image Rendering. Y `server:port` hace referencia al nombre de host o a la dirección IP y al número de puerto configurados como puerto de escucha principal para [!DNL Platform Server].
+En las instrucciones siguientes, `install_root` hace referencia a la carpeta raíz en la que están instalados el servicio de imágenes y el procesamiento de imágenes. Y `server:port` hace referencia al nombre de host o la dirección IP y el número de puerto configurados como puerto de escucha principal para [!DNL Platform Server].
 
 * [Licencias](c-licensing.md)
 * [Contenido](c-contents.md)
-* [Carpeta Instalar](c-install-folder.md)
-* [Instalar en Windows](t-installing-on-windows/t-installing-on-windows.md)
+* [Carpeta de instalación](c-install-folder.md)
+* [Instalación en Windows](t-installing-on-windows/t-installing-on-windows.md)
 * [Instalación en Linux®](c-installing-linux/c-installing-linux.md)
-* [Inicio y parada del servicio de imágenes](t-starting-and-stopping/t-starting-and-stopping.md)
+* [Inicio y detención del servicio de imágenes](t-starting-and-stopping/t-starting-and-stopping.md)

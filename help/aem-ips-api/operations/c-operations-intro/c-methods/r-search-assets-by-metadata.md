@@ -1,5 +1,5 @@
 ---
-description: Busca en el repositorio de índices de metadatos los términos de búsqueda dados. Devuelve datos de recursos como el método searchAssets.
+description: Busca los términos de búsqueda dados en el repositorio de índices de metadatos. Devuelve datos de recurso como el método searchAssets.
 solution: Experience Manager
 title: searchAssetsByMetadata
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
@@ -14,9 +14,9 @@ ht-degree: 11%
 
 # searchAssetsByMetadata{#searchassetsbymetadata}
 
-Busca en el repositorio de índices de metadatos los términos de búsqueda dados. Devuelve datos de recursos como el método searchAssets.
+Busca los términos de búsqueda dados en el repositorio de índices de metadatos. Devuelve datos de recurso como el método searchAssets.
 
-While `searchAssetsByMetadata` permite buscar con campos de metadatos definidos por el usuario, estos campos no se devuelven si se especifican en la variable `responseMetadataArray`. Para ilustrar este punto, siga el siguiente ejemplo de código:
+While `searchAssetsByMetadata` le permite buscar campos de metadatos definidos por el usuario, que no se devuelven si se especifican en la variable `responseMetadataArray`. Para ilustrar este punto, vea el siguiente ejemplo de código:
 
 ```java
 <ns:responseMetadataArray>
@@ -33,7 +33,7 @@ devuelve un valor nulo:
 </items>
 ```
 
-Para solucionar este problema, puede usar la variable `fieldHandles` de los recursos que se devuelven desde la búsqueda para ejecutar `getAssets` (consulte también [getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)). Este método obtiene los valores Campos definidos por el usuario para los recursos en cuestión. Utilice el siguiente ejemplo de sintaxis para buscar campos de metadatos definidos por el usuario:
+Para solucionar este problema, puede usar la variable `fieldHandles` de los recursos que se devuelven de la búsqueda para ejecutarse. `getAssets` (consulte también [getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)). Este método obtiene los valores de Campos definidos por el usuario para los recursos en cuestión. Utilice el siguiente ejemplo de sintaxis para buscar campos de metadatos definidos por el usuario:
 
 ```java
 <ns:metadataConditionArray>
@@ -73,11 +73,11 @@ Para solucionar este problema, puede usar la variable `fieldHandles` de los recu
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sí </p> </td> 
-   <td colname="col4"> <p>El identificador de la empresa. </p> </td> 
+   <td colname="col4"> <p>El identificador de la compañía. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> Filtro</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> tipo:SearchFilter</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> Filtrar</span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> type:FiltroBúsqueda</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
    <td colname="col4"> <p>Filtros que ayudan a definir los criterios de búsqueda. </p> <p>Consulte <a href="../../../types/c-data-types/r-search-filter.md#reference-0e2eb87bccae4b69be6717267bcb80aa" format="dita" scope="local"> SearchFilter</a>. </p> </td> 
   </tr> 
@@ -85,37 +85,37 @@ Para solucionar este problema, puede usar la variable `fieldHandles` de los recu
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> metadataConditionArray</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> type:MetadataConditionArray</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Condiciones que definen criterios de búsqueda. Consulte a continuación para obtener más información. </p> </td> 
+   <td colname="col4"> <p>Condiciones que definen los criterios de búsqueda. Consulte a continuación para obtener más información. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> responseMetadataArray</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> type:StringArray</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Campos adicionales que desea rellenar en la respuesta del resumen del recurso. Los campos deben especificarse en el formato normalizado. </p> </td> 
+   <td colname="col4"> <p>Campos adicionales que desee rellenar en la respuesta del resumen del recurso. Los campos deben especificarse en el formato normalizado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Número de recursos devueltos por la respuesta. El valor predeterminado es 1000. </p> </td> 
+   <td colname="col4"> <p>El número de recursos que devuelve la respuesta. El valor predeterminado es 1000. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Especifica la página de resultados que se van a devolver, en función de <span class="codeph"> recordsPerPage</span> tamaño de página. </p> </td> 
+   <td colname="col4"> <p>Especifica la página de resultados que se va a devolver en función de <span class="codeph"> recordsPerPage</span> tamaño de página. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> sortBy</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Ordenar por campo de recurso seleccionado. </p> </td> 
+   <td colname="col4"> <p>Ordenar por el campo de recurso seleccionado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> sortDirection</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Elección de la dirección. Ascending es el valor predeterminado. </p> </td> 
+   <td colname="col4"> <p>Elección de la dirección del orden. Ascendente es el valor predeterminado. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -131,7 +131,7 @@ Para solucionar este problema, puede usar la variable `fieldHandles` de los recu
 
 **Estructura del elemento**
 
-`metadataConditionArray` la estructura es la siguiente:
+`metadataConditionArray` La estructura es la siguiente:
 
 ```java
 <ns1:items>
@@ -156,13 +156,13 @@ Para solucionar este problema, puede usar la variable `fieldHandles` de los recu
 * `sku`
 * `modified_at`
 * `modified_by`
-* `created_at` (igual que `modified_at` (Fecha en el formulario: 25 de julio de 2014 24:13:45 GMT-0500 (CDT)
+* `created_at` (igual que `modified_at` (Fecha en formato: vie jul 25 2014 22:13:45 GMT-0500 (CDT)
 
 * `created_by`
 
 **Operadores permitidos**
 
-La variable [!DNL operator] define cómo comparar el valor e incluir:
+El [!DNL operator] define cómo comparar el valor e incluir:
 
 * `Equals`
 * `NotEquals`
@@ -171,7 +171,7 @@ La variable [!DNL operator] define cómo comparar el valor e incluir:
 * `StartsWith`
 * `EndsWith`
 
-La variable `comparison_value` es el término que se va a buscar.
+El `comparison_value` es el término que se debe buscar.
 
 ## Ejemplos {#section-53a12b9c023e4e629eddf5719c955ad4}
 

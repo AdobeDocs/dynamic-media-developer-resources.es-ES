@@ -1,6 +1,6 @@
 ---
 title: EmailShare.emailurl
-description: Atributo de configuración para el visualizador de vídeo.
+description: Atributo de configuración para el visor de vídeo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -8,21 +8,21 @@ exl-id: 6126d7de-5d5f-4a8a-898e-8a9bb5b37627
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '29'
-ht-degree: 13%
+ht-degree: 10%
 
 ---
 
 # EmailShare.emailurl{#emailshare-emailurl}
 
-Atributo de configuración para el visualizador de vídeo.
+Atributo de configuración para el visor de vídeo.
 
-` [EmailShare.|<containerId>_emailShare.]emailurl= *`email`*`
+` [EmailShare.|<containerId>_emailShare.]emailurl= *`emailurl`*`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> email</span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica la URL base para el servicio de correo electrónico de Dynamic Media Classic OnDemand. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> emailurl</span></span> </p> </td> 
+   <td colname="col2"> <p> Especifica la dirección URL base del servicio de correo electrónico de Dynamic Media Classic OnDemand. </p> </td> 
   </tr> 
  </tbody> 
 </table>

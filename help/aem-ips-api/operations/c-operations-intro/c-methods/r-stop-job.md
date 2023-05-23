@@ -35,12 +35,12 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | Identificador de la empresa. |
+| companyHandle | `xsd:string` | Sí | Manejo de la compañía. |
 | jobHandle | `xsd:string` | Sí | Gestione el trabajo que desea detener. |
 
-**Salida (stopJobReturn0**
+**Salida (stopJobReturn0)**
 
-La API IPS no devuelve una respuesta para esta operación.
+La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-f7e07fa09ae24dc89685533f20ab3b81}
 

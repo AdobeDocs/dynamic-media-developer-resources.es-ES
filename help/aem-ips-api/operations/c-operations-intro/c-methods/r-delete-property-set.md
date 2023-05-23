@@ -31,15 +31,15 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| setHandle | `xsd:string` | Sí | El identificador del conjunto de propiedades que se va a eliminar. |
+| setHandle | `xsd:string` | Sí | El identificador de la propiedad que se va a eliminar. |
 
 **Salida (deletePropertySetParam)**
 
-La API IPS no devuelve una respuesta para esta operación.
+La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-cf319fc8f86a40ab9cbd838b031973fe}
 
-Este ejemplo de código utiliza el identificador del conjunto como campo en la variable `deletePropertySetParam` se envía al servidor de servicios web IPS para eliminar el conjunto de propiedades.
+Este ejemplo de código utiliza el identificador del conjunto como campo en la variable `deletePropertySetParam` se envía al servidor de servicios Web IPS para eliminar el conjunto de propiedades.
 
 **Solicitar**
 

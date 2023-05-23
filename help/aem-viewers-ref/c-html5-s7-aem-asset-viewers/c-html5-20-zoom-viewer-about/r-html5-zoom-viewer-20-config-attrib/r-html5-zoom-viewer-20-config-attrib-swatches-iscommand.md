@@ -8,7 +8,7 @@ exl-id: e375f3ec-82f3-441d-9e01-d0ea5605bd25
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
 source-wordcount: '61'
-ht-degree: 8%
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span> </span> </p> </td> 
-   <td colname="col2"> <p> La cadena de comando del Servidor de imágenes que se aplica a todas las muestras. Si se especifica en la dirección URL, asegúrese de codificar HTTP todas las ocurrencias de <span class="codeph"> &amp;</span> y <span class="codeph"> =</span> como <span class="codeph"> %26</span> y <span class="codeph"> %3D</span>, respectivamente. </p> <p> <p>Nota: No se admiten los comandos de manipulación del tamaño de imagen. </p> </p> </td> 
+   <td colname="col2"> <p> La cadena de comando del servicio de imágenes que se aplica a todas las muestras. Si se especifica en la dirección URL, asegúrese de codificar mediante HTTP todas las apariciones de <span class="codeph"> &amp;</span> y <span class="codeph"> =</span> as <span class="codeph"> %26</span> y <span class="codeph"> %3D</span>, respectivamente. </p> <p> <p>Nota: No se admiten los comandos de manipulación de tamaño de imagen. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -35,7 +35,7 @@ Ninguno.
 
 ## Ejemplo {#section-bce98c31f08a4a0ab262fab7f95ba020}
 
-Cuando se especifique en la dirección URL del visor.
+Cuando se especifica en la dirección URL del visor.
 
 `iscommand=op_sharpen%3d1%26op_colorize%3d0xff0000`
 

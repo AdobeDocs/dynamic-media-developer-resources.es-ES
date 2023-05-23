@@ -30,9 +30,9 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | El identificador de la empresa con el grupo que desea guardar. |
+| companyHandle | `xsd:string` | Sí | El identificador de la compañía con el grupo que desea guardar. |
 | groupHandle | `xsd:string` | No | El identificador del grupo. |
-| name | `xsd:string` | Sí | Nombre del grupo. |
+| nombre | `xsd:string` | Sí | Nombre del grupo. |
 | isSystemDefined | `xsd:boolean` | Sí | `false` es el valor predeterminado. |
 
 **Salida (saveGroupReturn)**
@@ -43,7 +43,7 @@ Sintaxis
 
 ## Ejemplos {#section-26eee227ff1f4edabb7fa1240b4d9999}
 
-Este ejemplo de código crea un grupo que pertenece a una empresa específica. Si el grupo ya existe, se guarda con los valores de parámetro especificados.
+En este ejemplo de código se crea un grupo que pertenece a una compañía específica. Si el grupo ya existe, se guarda con los valores de parámetro especificados.
 
 **Solicitar**
 

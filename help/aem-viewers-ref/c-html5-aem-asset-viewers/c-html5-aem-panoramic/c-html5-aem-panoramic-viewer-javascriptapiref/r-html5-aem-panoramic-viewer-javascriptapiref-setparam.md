@@ -17,9 +17,9 @@ Referencia de la API de JavaScript para el visor panorámico.
 
 ` setParam( *`nombre, valor`*)`
 
-Establece el parámetro del visor en un valor especificado. El parámetro es una opción de configuración específica del visor o un modificador del kit de desarrollo de software. Este parámetro se invoca antes de que `init()`.
+Establece el parámetro del visor en un valor especificado. El parámetro es una opción de configuración específica del visor o un modificador del kit de desarrollo de software. Se llama a este parámetro antes de `init()`.
 
-Este método es opcional si la información de configuración del visor se pasó con `config` objeto JSON al constructor.
+Este método es opcional si la información de configuración del visor se pasó con `config` Objeto JSON al constructor.
 
 
 
@@ -30,8 +30,8 @@ Este método es opcional si la información de configuración del visor se pasó
    <td colname="col2"> <p> <span class="codeph"> {string} </span> nombre del parámetro. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> valor del parámetro. El valor no puede estar codificado por porcentajes. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> valor </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> valor del parámetro. El valor no puede tener codificación porcentual. </p> </td> 
   </tr> 
  </tbody> 
 </table>

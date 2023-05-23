@@ -2,13 +2,13 @@
 description: Elimina los valores de metadatos de un recurso. Funciona con una matriz de eliminación de metadatos para establecer valores en un lote.
 solution: Experience Manager
 title: deleteAssetMetadata
-feature: Dynamic Media Classic,SDK/API,Metadatos,Administración de activos
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: ce9b8dff-efc0-4427-9f50-10269647187f
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 12%
+source-wordcount: '126'
+ht-degree: 13%
 
 ---
 
@@ -49,7 +49,7 @@ Sintaxis
    <td colname="col1"> <p>companyHandle </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sí </p> </td> 
-   <td colname="col4"> <p>Identificador de la empresa a la que pertenece la carpeta. </p> </td> 
+   <td colname="col4"> <p>El identificador de la compañía a la que pertenece la carpeta. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>assetHandle </p> </td> 
@@ -61,20 +61,20 @@ Sintaxis
    <td colname="col1"> <p>metadataDelete </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sí </p> </td> 
-   <td colname="col4"> <p>Metadatos que se van a eliminar del recurso. </p> </td> 
+   <td colname="col4"> <p>Metadatos para eliminar del recurso. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>deleteArray </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipos:MetadataDeleteArray</span> </p> </td> 
    <td colname="col3"> <p>Sí </p> </td> 
-   <td colname="col4"> <p>Matriz de metadatos que se van a eliminar del recurso. </p> </td> 
+   <td colname="col4"> <p>Matriz de metadatos que se eliminarán del recurso. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Salida (deleteAssetMetadataParam)**
 
-La API IPS no devuelve una respuesta para esta operación.
+La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-d5657289f5234bb0a613dcf691507958}
 

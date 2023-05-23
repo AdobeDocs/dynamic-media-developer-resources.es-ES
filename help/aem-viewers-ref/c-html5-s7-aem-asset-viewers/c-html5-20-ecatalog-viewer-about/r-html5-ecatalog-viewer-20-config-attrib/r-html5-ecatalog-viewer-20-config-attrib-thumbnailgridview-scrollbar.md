@@ -8,7 +8,7 @@ exl-id: 9185d752-1fd8-45c3-8361-e5ee803e87d5
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '17'
-ht-degree: 29%
+ht-degree: 23%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 29%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> Habilita o deshabilita el uso de la barra de desplazamiento. </p> </td> 
+   <td> <p> Activa o desactiva el uso de la barra de desplazamiento. </p> </td> 
   </tr> 
  </tbody> 
 </table>

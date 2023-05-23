@@ -1,6 +1,6 @@
 ---
-title: Referencia de comandos del protocolo HTTP
-description: Esta referencia de comando proporciona detalles sobre los comandos de protocolo HTTP.
+title: Referencia de comando del protocolo HTTP
+description: Esta referencia de comando proporciona detalles acerca de los comandos del protocolo HTTP.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,6 +12,6 @@ ht-degree: 0%
 
 ---
 
-# Referencia de comandos del protocolo HTTP {#http-protocol-command-reference}
+# Referencia de comando del protocolo HTTP {#http-protocol-command-reference}
 
-Esta referencia de comando proporciona detalles sobre los comandos de protocolo HTTP.
+Esta referencia de comando proporciona detalles acerca de los comandos del protocolo HTTP.

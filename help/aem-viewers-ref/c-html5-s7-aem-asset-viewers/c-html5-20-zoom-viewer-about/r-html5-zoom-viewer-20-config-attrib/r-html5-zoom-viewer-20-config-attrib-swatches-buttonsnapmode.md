@@ -8,7 +8,7 @@ exl-id: b85426c6-6f35-40c0-b78b-eeac27a699e6
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
 source-wordcount: '39'
-ht-degree: 10%
+ht-degree: 7%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 10%
 <table id="table_4322E3ECE9354016B891F5E7A35D6A2A"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> instantánea</span> </span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> snapin</span> </span> </p> </td> 
    <td> <p>Hace que los botones se alineen junto a las muestras. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> resumen</span> </span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> salida rápida</span> </span> </p> </td> 
    <td> <p>Hace que los botones se alineen junto al borde del componente. </p> </td> 
   </tr> 
   <tr> 

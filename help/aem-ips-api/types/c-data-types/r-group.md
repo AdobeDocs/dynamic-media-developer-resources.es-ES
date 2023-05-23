@@ -23,6 +23,6 @@ Sintaxis
 | Nombre | Tipo | Descripción |
 |---|---|---|
 | groupHandle | `xsd:string` | Identificador de grupo. |
-| companyHandle | `xsd:string` | Identificador de la empresa. |
+| companyHandle | `xsd:string` | Manejo de la compañía. |
 | [!DNL name] | `xsd:string` | Nombre del grupo. |
-| [!DNL is SystemDefined] | `xsd:string` | Si el grupo está definido por el sistema. |
+| [!DNL is SystemDefined] | `xsd:string` | Si el sistema define el grupo. |

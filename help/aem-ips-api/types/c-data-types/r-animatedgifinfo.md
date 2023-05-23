@@ -1,6 +1,6 @@
 ---
 title: AnimatedGifInfo
-description: Propiedades de un recurso de archivo GIF animado.
+description: Propiedades de un recurso de archivo de GIF animado.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
@@ -8,13 +8,13 @@ exl-id: b50b39b4-3055-43e3-a8bb-50f8b2f0d1fc
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '49'
-ht-degree: 38%
+ht-degree: 34%
 
 ---
 
 # [!DNL AnimatedGifInfo]{#animatedgifinfo}
 
-Propiedades de un recurso de archivo GIF animado.
+Propiedades de un recurso de archivo de GIF animado.
 
 Sintaxis
 
@@ -32,7 +32,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> [!DNL originalPath]</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>Ruta al archivo GIF. </p> </td> 
+   <td colname="col3"> <p>Ruta al archivo del GIF. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> [!DNL originalFile]</span> </span> </p> </td> 

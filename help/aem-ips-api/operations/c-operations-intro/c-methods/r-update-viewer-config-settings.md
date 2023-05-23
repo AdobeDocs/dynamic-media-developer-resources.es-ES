@@ -31,10 +31,10 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | Gestionar a la empresa. |
-| assetHandle | `xsd:string` | Sí | Identificador de recurso. |
-| configSettingArray | `types:ConfigSettingArray` | Sí | Matriz de ajustes de configuración que desea aplicar al visor. |
+| companyHandle | `xsd:string` | Sí | Gestionar en la empresa. |
+| assetHandle | `xsd:string` | Sí | Controlador de recurso. |
+| configSettingArray | `types:ConfigSettingArray` | Sí | Matriz de opciones de configuración que desea aplicar al visor. |
 
 **Salida (updateViewerConfigSettingsReturn)**
 
-La API IPS no devuelve una respuesta para esta operación.
+La API de IPS no devuelve una respuesta para esta operación.

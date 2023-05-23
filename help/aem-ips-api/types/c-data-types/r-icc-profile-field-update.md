@@ -1,5 +1,5 @@
 ---
-description: Actualice información para las propiedades de perfil ICC.
+description: Actualice la información de las propiedades de perfil ICC.
 solution: Experience Manager
 title: IccProfileFieldUpdate
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # [!DNL IccProfileFieldUpdate]{#iccprofilefieldupdate}
 
-Actualice información para las propiedades de perfil ICC.
+Actualice la información de las propiedades de perfil ICC.
 
 Sintaxis
 
@@ -22,7 +22,7 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| assetHandle | `xsd:string` | Gestionar el recurso de perfil ICC que se va a actualizar. |
+| assetHandle | `xsd:string` | Gestión del recurso de perfil ICC que se va a actualizar. |
 | [!DNL class] | `xsd:string` | Clases de perfil (consulte &quot;Clases de perfil&quot; para ver los valores). |
-| colorSpace | `xsd:string` | Espacio de color del perfil (consulte &quot;Espacios de color&quot; para ver los valores). |
-| pcsType | `xsd:string` | Espacio de conexión del perfil (consulte &quot;Espacios de color&quot; para ver los valores). |
+| colorSpace | `xsd:string` | Espacio de color del perfil (consulte &quot;Espacios de color&quot; para obtener información sobre los valores). |
+| pcsType | `xsd:string` | Espacio de conexión del perfil (consulte &quot;Espacios de color&quot; para obtener información sobre los valores). |

@@ -1,6 +1,6 @@
 ---
 title: Video360Player.playback
-description: Atributo de configuración para el visualizador de vídeo360.
+description: Atributo de configuración para el visor de Video360.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: e5a56195-c3ca-4748-aef6-e1f143ac254d
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
 source-wordcount: '124'
-ht-degree: 6%
+ht-degree: 5%
 
 ---
 
 # Video360Player.playback{#video-player-playback}
 
-Atributo de configuración para el visualizador de vídeo360.
+Atributo de configuración para el visor de Video360.
 
 `[Video360Player.|<containerId>_video360Player.]playback=auto|progressive`
 
@@ -22,14 +22,14 @@ Atributo de configuración para el visualizador de vídeo360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|progresivo</span> </p> </td> 
-   <td colname="col2"> <p> Define el tipo de reproducción que utiliza el visor. </p> <p>Cuando se configura <span class="codeph"> auto</span>, en la mayoría de los navegadores de escritorio y en todos los dispositivos iOS, el visor utiliza vídeo de flujo continuo HTML5 en formato HLS. Y, vuelve a la reproducción progresiva de HTML5 en determinados sistemas, como Internet Explorer y Android™. </p> <p>Cuando se establece <span class="codeph"> progresivo</span>, el visor solo se basa en la reproducción de HTML5 como admitida de forma nativa por los navegadores y reproduce vídeo progresivamente en todos los sistemas. </p> <p>Para obtener más información sobre la selección de reproducción en los modos nativo <span class="codeph"> auto</span> y <span class="codeph"> progresivo</span>, consulte la Guía del usuario del SDK de visores de HTML5. </p> </td> 
+   <td colname="col2"> <p> Establece el tipo de reproducción que utiliza el visor. </p> <p>Cuándo <span class="codeph"> auto</span> se configura, en la mayoría de los navegadores de escritorio y en todos los dispositivos iOS, el visualizador utiliza el flujo de vídeo HTML5 en formato HLS. Y vuelve a la reproducción progresiva de HTML5 en ciertos sistemas como el antiguo Internet Explorer y Android™. </p> <p>Cuándo <span class="codeph"> progresista</span> está configurado, el visor solo depende de la reproducción de HTML 5, ya que es compatible de forma nativa con los navegadores y reproduce vídeo progresivamente en todos los sistemas. </p> <p>Para obtener más información sobre la selección de reproducción en <span class="codeph"> auto</span> y <span class="codeph"> progresista</span> modos nativos, consulte la Guía del usuario del SDK de visores de HTML5. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Propiedades {#section-1e637b22e8a44d759d588e47576891e6}
 
-Opcional. Se omite cuando el visor trabaja con vídeo externo.
+Opcional. Se ignora cuando el visor trabaja con vídeo externo.
 
 Consulte [Compatibilidad con vídeo externo](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760) para obtener más información.
 

@@ -1,6 +1,6 @@
 ---
-title: Puntos interactivos y mapas de imágenes
-description: El visor muestra iconos de zonas interactivas en la vista principal en los lugares donde las zonas interactivas se crearon originalmente en Dynamic Media de AEM Assets, On Demand.
+title: Puntos interactivos y mapas de imagen
+description: El visor muestra los iconos de puntos interactivos en la vista principal en lugares donde los puntos interactivos se crearon originalmente en Dynamic Media de AEM Assets bajo demanda.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 2%
 
 ---
 
-# Puntos interactivos y mapas de imágenes{#hotspots-and-image-maps}
+# Puntos interactivos y mapas de imagen{#hotspots-and-image-maps}
 
-El visor muestra iconos de zonas interactivas en la vista principal en los lugares donde las zonas interactivas se crearon originalmente en Dynamic Media de AEM Assets, On Demand.
+El visor muestra los iconos de puntos interactivos en la vista principal en lugares donde los puntos interactivos se crearon originalmente en Dynamic Media de AEM Assets bajo demanda.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propiedades CSS del área principal del visor**
+**Propiedades CSS del área del visor principal**
 
-El aspecto del icono de zona interactiva se controla con el siguiente selector de clase CSS:
+El aspecto del icono del punto interactivo se controla con el siguiente selector de clase CSS:
 
 ```
 .s7carouselviewer .s7imagemapeffect .s7icon
@@ -29,31 +29,31 @@ El aspecto del icono de zona interactiva se controla con el siguiente selector d
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS, propiedad </p> </th> 
+   <th colname="col1" class="entry"> <p> Propiedad CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Descripción </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagen de fondo  </span> </p> </td> 
-   <td colname="col2"> <p>Icono de zona interactiva. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p>Icono de punto interactivo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posición de fondo  </span> </p> </td> 
-   <td colname="col2"> <p>Sitúe el elemento en el sprite de ilustración si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p>Coloque dentro del icono de ilustración si se utilizan iconos CSS. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Anchura del icono de zona interactiva. </p> </td> 
+   <td colname="col2"> <p>Anchura del icono del punto interactivo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Altura del icono de zona interactiva. </p> </td> 
+   <td colname="col2"> <p>Altura del icono de punto interactivo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ejemplo: configure un icono de zona interactiva de 56 x 56 píxeles que muestre una imagen diferente para cada uno de los dos estados de icono diferentes:
+Ejemplo: configure un icono de punto interactivo de 56 x 56 píxeles que muestre una imagen diferente para cada uno de los dos estados de icono diferentes:
 
 ```
 .s7interactiveimage .s7imagemapeffect .s7icon { 
@@ -70,29 +70,29 @@ Ejemplo: configure un icono de zona interactiva de 56 x 56 píxeles que muestre 
 
 **Propiedades CSS de la región del mapa de imagen**
 
-El aspecto de la región del mapa de imagen se controla con el siguiente selector de clase CSS:
+El aspecto del área del mapa de imagen se controla con el siguiente selector de clase CSS:
 
 `.s7carouselviewer .s7imagemapeffect .s7region`
 
 <table id="table_DAE7A78AA4A74DC78B2D94F29E8E236B"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS, propiedad </p> </th> 
+   <th colname="col1" class="entry"> <p> Propiedad CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Descripción </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> fondo  </span> </p> </td> 
-   <td colname="col2"> <p>Color de relleno de la región del mapa de imagen. </p> <p>Especifique este color en los formatos <span class="codeph"> #RGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> o <span class="codeph"> RGBA(R,G,B,A) </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> fondo </span> </p> </td> 
+   <td colname="col2"> <p>Color de relleno de región de mapa de imagen. </p> <p>Especificar este color en <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span>, o <span class="codeph"> RGBA(R,G,B,A) </span> formatos. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p>Color de relleno de la región del mapa de imagen. </p> <p>Especifique este color en los formatos <span class="codeph"> #RGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> o <span class="codeph"> RGBA(R,G,B,A) </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p>Color de relleno de región de mapa de imagen. </p> <p>Especificar este color en <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span>, o <span class="codeph"> RGBA(R,G,B,A) </span> formatos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> borde </span> </p> </td> 
-   <td colname="col2"> <p> Estilo del borde de la región del mapa de imágenes. Debe especificarse como " <span class="codeph"> anchura </span> <span class="codeph"> color sólido </span>", donde <span class="codeph"> anchura </span> se expresa en píxeles, y <span class="codeph"> color </span> se establece como <span class="codeph"> #RGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> 1/&gt; o <span class="codeph"> RGBA(R,G,B,A) </span>. </p> </td> 
+   <td colname="col2"> <p> Estilo de borde de región de mapa de imagen. Debe especificarse como " <span class="codeph"> anchura </span> <span class="codeph"> color sólido </span>", donde <span class="codeph"> anchura </span> se expresa en píxeles, y <span class="codeph"> color </span> se ha establecido como <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span>, o <span class="codeph"> RGBA(R,G,B,A) </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

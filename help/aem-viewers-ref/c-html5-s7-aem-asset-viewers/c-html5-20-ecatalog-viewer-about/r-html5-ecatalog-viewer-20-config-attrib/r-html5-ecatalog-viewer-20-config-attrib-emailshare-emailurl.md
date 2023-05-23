@@ -8,19 +8,19 @@ exl-id: 074b8a74-9df9-4f0b-9196-a61783dda14b
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '20'
-ht-degree: 20%
+ht-degree: 15%
 
 ---
 
 # EmailShare.emailurl{#emailshare-emailurl}
 
-` [EmailShare.|<containerId>_emailShare.]emailurl= *`email`*`
+` [EmailShare.|<containerId>_emailShare.]emailurl= *`emailurl`*`
 
 <table id="table_5321841E90C941678F32AAF995CDC257"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> email</span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica la URL base para el servicio de correo electrónico de Dynamic Media Classic OnDemand. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> emailurl</span></span> </p> </td> 
+   <td colname="col2"> <p> Especifica la dirección URL base del servicio de correo electrónico de Dynamic Media Classic OnDemand. </p> </td> 
   </tr> 
  </tbody> 
 </table>

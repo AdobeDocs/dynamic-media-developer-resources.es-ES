@@ -1,5 +1,5 @@
 ---
-title: 'Referencia de comandos: Atributos de configuración'
+title: 'Referencia de comando: atributos de configuración'
 description: Documentación de atributos de configuración para el visualizador de medios mixtos.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 ---
 
-# Referencia de comandos: Atributos de configuración{#command-reference-configuration-attributes}
+# Referencia de comando: atributos de configuración{#command-reference-configuration-attributes}
 
 Documentación de atributos de configuración para el visualizador de medios mixtos.
 
-Cualquier comando de configuración se puede configurar en la dirección URL o utilizando `setParam()`o `setParams()`, o ambos, métodos de API. Cualquier atributo de configuración también se puede especificar en el registro de configuración del lado del servidor.
+Cualquier comando de configuración se puede establecer en la dirección URL o mediante `setParam()`, o `setParams()`, o ambos, métodos API. También se puede especificar cualquier atributo de configuración en el registro de configuración del lado del servidor.
 
-Algunos comandos de configuración pueden tener el prefijo class name o instance name del componente correspondiente del SDK de visor. Un nombre de instancia del componente es dinámico y depende del ID del elemento DOM del contenedor de visor pasado a `setContainerId()` método de API. La documentación incluye un prefijo opcional para estos comandos. Por ejemplo, `zoomstep` se documenta de la siguiente manera:
+Algunos comandos de configuración pueden ir precedidos del nombre de clase o el nombre de instancia del componente SDK de visor correspondiente. Un nombre de instancia del componente es dinámico y depende del ID del elemento DOM contenedor de visor que se pasa a `setContainerId()` Método de API. La documentación incluye un prefijo opcional para estos comandos. Por ejemplo, `zoomstep` Este comando se documenta de la siguiente manera:
 
 `[ZoomView.|<containerId>_zoomView].zoomstep`
 
@@ -26,6 +26,6 @@ Lo que significa que puede utilizar este comando de la siguiente manera
 
 * `zoomstep` (sintaxis corta)
 * `ZoomView.zoomstep` (cualificado con nombre de clase de componente)
-* `cont_zoomView.zoomstep` (cualificado con ID de componente, suponiendo `cont` es el ID del elemento contenedor)
+* `cont_zoomView.zoomstep` (cualificado con ID de componente, suponiendo que `cont` es el ID del elemento contenedor)
 
-Consulte también [Referencia de comando común a todos los visores: Atributos de configuración](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)
+Consulte también [Referencia de comando común a todos los visores: atributos de configuración](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)

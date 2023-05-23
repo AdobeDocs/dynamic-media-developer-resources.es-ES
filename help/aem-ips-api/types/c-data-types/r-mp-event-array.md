@@ -1,5 +1,5 @@
 ---
-description: Matriz de eventos de MediaPortal.
+description: Una matriz de eventos de MediaPortal.
 solution: Experience Manager
 title: MPEventArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 30%
 
 # [!DNL MPEventArray]{#mpeventarray}
 
-Matriz de eventos de MediaPortal.
+Una matriz de eventos de MediaPortal.
 
 Sintaxis
 

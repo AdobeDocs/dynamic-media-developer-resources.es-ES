@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 9aca6693-32ac-4abd-9595-95bce60050ec
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '78'
 ht-degree: 1%
 
 ---
@@ -22,14 +22,14 @@ Este parámetro:
 
 <table id="simpletable_AACB976615FF4888A0816328DC48DCA3"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> jobid</span> </p> </td> 
-  <td class="stentry"> <p>ID de trabajo obtenido en el momento del envío. </p></td> 
+  <td class="stentry"> <p><span class="codeph"> trabajadora</span> </p> </td> 
+  <td class="stentry"> <p>ID de trabajo que se obtuvo en el momento del envío. </p></td> 
  </tr> 
 </table>
 
 Devuelve:
 
-Estado del trabajo en el momento en que se recibió la solicitud de eliminación, error si `jobid` no es válido o el trabajo ya se había eliminado.
+Estado del trabajo en el momento en que se recibió la solicitud de eliminación, error si `jobid` no es válido o el trabajo ya se ha eliminado.
 
 ## Ejemplo {#section-e0df8fc8e6554ba58e1fa937b8241ecf}
 

@@ -1,5 +1,5 @@
 ---
-description: Matriz de conjuntos de propiedades.
+description: Una matriz de conjuntos de propiedades.
 solution: Experience Manager
 title: PropertySetArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 30%
 
 # [!DNL PropertySetArray]{#propertysetarray}
 
-Matriz de conjuntos de propiedades.
+Una matriz de conjuntos de propiedades.
 
 Sintaxis
 
@@ -22,4 +22,4 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| elementos | `types:PropertySet` | Conjunto de propiedades . |
+| elementos | `types:PropertySet` | Conjunto de propiedades matriz. |

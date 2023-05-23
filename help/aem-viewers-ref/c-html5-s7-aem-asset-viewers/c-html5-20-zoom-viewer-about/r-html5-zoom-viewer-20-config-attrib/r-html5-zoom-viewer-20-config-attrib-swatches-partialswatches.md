@@ -8,7 +8,7 @@ exl-id: b2a65077-c322-446a-8d71-bded292215bf
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
 source-wordcount: '34'
-ht-degree: 14%
+ht-degree: 11%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 14%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> Especifica si el componente permite detener el desplazamiento cuando cualquiera de las muestras está parcialmente visible (el desplazamiento no está alineado). El valor recomendado es <span class="codeph"> false</span> o <span class="codeph"> 0</span>. </p> </td> 
+   <td> <p> Especifica si el componente permite detener el desplazamiento cuando cualquiera de las muestras están visibles parcialmente (el desplazamiento no está alineado). El valor recomendado es <span class="codeph"> false</span> o <span class="codeph"> 0</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

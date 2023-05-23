@@ -1,5 +1,5 @@
 ---
-description: Devuelve carpetas y subcarpetas en una estructura de árbol jerárquica. La respuesta getFolderTree está limitada a un máximo de 100 000 carpetas
+description: Devuelve carpetas y subcarpetas en una estructura de árbol jerárquica. La respuesta de getFolderTree está limitada a un máximo de 100 000 carpetas
 solution: Experience Manager
 title: getFolderTree
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # getFolderTree{#getfoldertree}
 
-Devuelve carpetas y subcarpetas en una estructura de árbol jerárquica. La respuesta getFolderTree está limitada a un máximo de 100 000 carpetas
+Devuelve carpetas y subcarpetas en una estructura de árbol jerárquica. La respuesta de getFolderTree está limitada a un máximo de 100 000 carpetas
 
 Sintaxis
 
@@ -30,7 +30,7 @@ Sintaxis
 
 >[!NOTE]
 >
->El usuario debe tener acceso de lectura a la carpeta para devolver datos.
+>El usuario debe tener acceso de lectura a la carpeta para devolver datos sobre ella.
 
 ## Parámetros {#section-0c2b30513f1e439cbd840e8cc6465b3a}
 
@@ -38,14 +38,14 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | El identificador de la empresa. |
+| companyHandle | `xsd:string` | Sí | El identificador de la compañía. |
 | accessUserHandle | `xsd:string` | No | Solo lo utilizan los administradores para suplantar a un usuario específico. |
-| accessGroupHandle | `xsd:string` | No | Se utiliza para filtrar por un grupo específico, incluidos aquellos a los que pertenece la empresa. |
-| folderPath | `xsd:string` | No | La carpeta raíz para recuperar carpetas y todas las subcarpetas en el nivel de hoja. Si se excluye, se utiliza la raíz de la empresa. |
-| profundidad | `xsd:int` | Sí | Un valor de cero obtiene la carpeta de nivel superior. Cualquier otro valor especifica la profundidad que se desciende en el árbol. |
+| accessGroupHandle | `xsd:string` | No | Se utiliza para filtrar por un grupo específico, incluidos aquellos a los que pertenece la compañía. |
+| folderPath | `xsd:string` | No | La carpeta raíz para recuperar carpetas y todas las subcarpetas al nivel de hoja. Si se excluye, se utiliza la raíz de la empresa. |
+| profundidad | `xsd:int` | Sí | Un valor de cero obtiene la carpeta de nivel superior. Cualquier otro valor especifica la profundidad que se debe descender en el árbol. |
 | assetTypeArray | `types:StringArray` | No | Devuelve carpetas que solo contienen tipos de recursos especificados. |
-| responseFieldArray | `types:StringArray` | No | Contiene una lista de campos que desea incluir en la respuesta. |
-| excludeFieldArray | `types:StringArray` | No | Contiene una lista de campos que desea excluir en la respuesta. |
+| responseFieldArray | `types:StringArray` | No | Contiene una lista de los campos que desea incluir en la respuesta. |
+| excludeFieldArray | `types:StringArray` | No | Contiene una lista de los campos que desea excluir en la respuesta. |
 
 **Salida (getFolderTreeReturn)**
 
@@ -56,7 +56,7 @@ Sintaxis
 
 ## Ejemplos {#section-a9fd2edb56574dd9bf8b0f2fd89367e4}
 
-Este ejemplo de código utiliza un control de empresa y un parámetro de profundidad para determinar el nivel de profundidad que debe devolver la respuesta. La respuesta contiene carpetas y matrices de subcarpetas relacionadas. Defina el valor de profundidad en un número menor para buscar más profundamente en el árbol de carpetas.
+En este ejemplo de código se utiliza un identificador de compañía y un parámetro de profundidad para determinar el nivel de profundidad que debe devolver la respuesta. La respuesta contiene carpetas y matrices de subcarpetas con elementos relacionados. Establezca el valor de profundidad en un número menor para buscar más profundamente en el árbol de carpetas.
 
 **Solicitar**
 

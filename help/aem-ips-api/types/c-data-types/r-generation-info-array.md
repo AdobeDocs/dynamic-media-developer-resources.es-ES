@@ -1,5 +1,5 @@
 ---
-description: Matriz de propiedades de generación.
+description: Una matriz de propiedades de generación.
 solution: Experience Manager
 title: GenerationInfoArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 27%
 
 # [!DNL GenerationInfoArray]{#generationinfoarray}
 
-Matriz de propiedades de generación.
+Una matriz de propiedades de generación.
 
 Sintaxis
 
@@ -22,4 +22,4 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| elementos | `types:GenerationInfo` | Matriz de propiedades de generación. |
+| elementos | `types:GenerationInfo` | Una matriz de propiedades de generación. |

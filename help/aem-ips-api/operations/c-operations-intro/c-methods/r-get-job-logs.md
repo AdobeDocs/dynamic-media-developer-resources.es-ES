@@ -36,13 +36,13 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | No | El control de la empresa. |
-| userHandle | `xsd:string` | No | Obtiene registros de trabajos enviados por un usuario específico. |
-| sortBy | `xsd:string` | No | Permite seleccionar campos de ordenación. |
+| companyHandle | `xsd:string` | No | El nombre de la empresa. |
+| userHandle | `xsd:string` | No | Obtiene registros para los trabajos enviados por un usuario específico. |
+| sortBy | `xsd:string` | No | Permite seleccionar los campos de ordenación. |
 | sortDirection | `xsd:string` | No | Orden (ascendente o descendente). |
-| startDate | `xsd:dateTime` | No | La fecha y hora del inicio del registro de trabajos. Proporcione la zona horaria con la solicitud para este campo. |
+| startDate | `xsd:dateTime` | No | La fecha y hora de inicio del registro de trabajos. Proporcione la zona horaria con la solicitud para este campo. |
 | endDate | `xsd:dateTime` | No | La fecha y hora del final del registro de trabajos. Proporcione la zona horaria con la solicitud para este campo. |
-| numRows | `xsd:int` | No | Número máximo de filas que se van a devolver. |
+| numRows | `xsd:int` | No | Número máximo de filas que se devolverán. |
 
 **Salida (getJobLogsReturn)**
 
@@ -52,7 +52,7 @@ Sintaxis
 
 ## Ejemplos {#section-35871c94b4a44559912577efddbc46a6}
 
-Este ejemplo de código devuelve registros de trabajo IPS para una empresa específica. También puede utilizarla para devolver registros de trabajo para un usuario o empresa y usuario específicos.
+Este ejemplo de código devuelve los registros de trabajos de IPS de una compañía específica. También puede utilizarlo para devolver registros de trabajo de un usuario o compañía y usuario específicos.
 
 **Solicitar**
 

@@ -1,23 +1,24 @@
 ---
-title: Uso compartido en medios sociales
-description: La herramienta de uso compartido en redes sociales aparece en la esquina superior derecha de forma predeterminada. Consiste en un botón y un panel que se expanden cuando el usuario hace clic o pulsa un botón y contiene herramientas de uso compartido individuales.
+title: Uso compartido social
+description: La herramienta Compartir en redes sociales aparece en la esquina superior derecha de forma predeterminada. Consiste en un botón y un panel que se expande cuando el usuario hace clic o pulsa un botón y contiene herramientas de uso compartido individuales.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 650e1a57-9b0e-4132-a9b0-42c33cacdc04
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 1%
 
 ---
 
-# Uso compartido en medios sociales{#social-share}
+# Uso compartido social{#social-share}
 
-La herramienta de uso compartido en redes sociales aparece en la esquina superior derecha de forma predeterminada. Consiste en un botón y un panel que se expanden cuando el usuario hace clic o pulsa un botón y contiene herramientas de uso compartido individuales.
+La herramienta Compartir en redes sociales aparece en la esquina superior derecha de forma predeterminada. Consiste en un botón y un panel que se expande cuando el usuario hace clic o pulsa un botón y contiene herramientas de uso compartido individuales.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-La posición y el tamaño de la herramienta de uso compartido en redes sociales en la interfaz de usuario del visor se controlan con lo siguiente:
+La posición y el tamaño de la herramienta de uso compartido en redes sociales de la interfaz de usuario del visor se controlan de la siguiente manera:
 
 ```
 .s7smartcropvideoviewer .s7socialshare
@@ -46,7 +47,7 @@ La posición y el tamaño de la herramienta de uso compartido en redes sociales 
  </tbody> 
 </table>
 
-Ejemplo: configure una herramienta de uso compartido en redes sociales que se sitúe a cuatro píxeles de la parte superior y a cinco píxeles de la derecha del contenedor de visor y cuyo tamaño sea de 28 x 28 píxeles.
+Ejemplo: configure una herramienta de uso compartido en redes sociales que esté colocada a cuatro píxeles de la parte superior y a cinco píxeles de la derecha del contenedor del visor y cuyo tamaño sea de 28 x 28 píxeles.
 
 ```
 .s7smartcropvideoviewer .s7socialshare { 
@@ -68,23 +69,23 @@ El aspecto del botón de la herramienta de uso compartido en redes sociales se c
 <table id="table_A18B6978EC304C378F5FE92DD44D138D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagen de fondo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> Imagen que se muestra para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posición de fondo </span> </p> </td> 
-   <td colname="col2"> <p> Sitúe dentro de la ilustración sprite, si se utilizan sprites CSS. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Coloque dentro del icono de ilustración si se utilizan iconos CSS. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Este botón admite la variable `state` selector de atributos, que se puede utilizar para aplicar diferentes aspectos a distintos estados de botones.
+>Este botón admite el `state` selector de atributos, que se puede utilizar para aplicar distintos aspectos a distintos estados de botón.
 
-La información del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
+La información del objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
 
-Ejemplo: configure un botón de herramienta de uso compartido en redes sociales que muestre una imagen diferente para cada uno de los cuatro estados de botón diferentes.
+Ejemplo: configure un botón de la herramienta de uso compartido en redes sociales que muestre una imagen diferente para cada uno de los cuatro estados de botón diferentes.
 
 ```
 .s7smartcropvideoviewer .s7socialshare .s7socialbutton[state='up'] { 
@@ -101,7 +102,7 @@ background-image:url(images/v2/SocialShare_dark_disabled.png);
 }
 ```
 
-El aspecto del panel que contiene los iconos individuales de uso compartido en redes sociales se controla con el siguiente selector de clase CSS:
+El aspecto del panel que contiene los iconos individuales de uso compartido en medios sociales se controla con el siguiente selector de clase CSS:
 
 ```
 .s7smartcropvideoviewer .s7socialshare .s7socialsharepanel
@@ -118,7 +119,7 @@ El aspecto del panel que contiene los iconos individuales de uso compartido en r
  </tbody> 
 </table>
 
-Ejemplo: configure un panel para que tenga un color transparente:
+Ejemplo: Configuración de un panel para que tenga un color transparente:
 
 ```
 .s7smartcropvideoviewer .s7socialshare .s7socialsharepanel { 

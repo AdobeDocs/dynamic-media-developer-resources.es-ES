@@ -1,5 +1,5 @@
 ---
-description: Matriz de mapas de imágenes.
+description: Matriz de mapas de imagen.
 solution: Experience Manager
 title: ImageMapArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL ImageMapArray]{#imagemaparray}
 
-Matriz de mapas de imágenes.
+Matriz de mapas de imagen.
 
 Sintaxis
 

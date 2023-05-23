@@ -1,5 +1,5 @@
 ---
-description: Tipo de miniatura predeterminado. Proporciona un valor predeterminado para el tipo de miniatura en caso de que un registro de catálogo en particular no contenga un valor de catálogo ThumbType válido.
+description: Tipo de miniatura predeterminado. Proporciona un tipo de miniatura predeterminado en el caso de que el valor de catálogo ThumbType no sea válido en un registro de catálogo determinado.
 solution: Experience Manager
 title: ThumbType
 feature: Dynamic Media Classic,SDK/API
@@ -7,25 +7,25 @@ role: Developer,User
 exl-id: ac29ac3a-8c6b-4c87-954f-37d1ddec76f5
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 4%
+source-wordcount: '79'
+ht-degree: 3%
 
 ---
 
 # ThumbType{#thumbtype}
 
-Tipo de miniatura predeterminado. Proporciona un valor predeterminado para el tipo de miniatura en caso de que un registro de catálogo en particular no contenga un valor de catálogo válido::ThumbType .
+Tipo de miniatura predeterminado. Proporciona un tipo de miniatura predeterminado en el caso de que el valor de catálogo::ThumbType no sea válido en un registro de catálogo determinado.
 
-Solo se utiliza para solicitudes de miniaturas ( `req=tmb`).
+Solo se usa para solicitudes de miniaturas ( `req=tmb`).
 
 ## Propiedades {#section-ae0babfe3c8e4c8ebe0124bc55051265}
 
-Enum. Los valores permitidos son 1, 2 y 3, para los tipos de miniaturas *`crop`*, *`fit`* y *`texture`* respectivamente.
+Enumeración. Los valores permitidos son 1, 2 y 3, para *`crop`*, *`fit`*, y *`texture`* tipos de miniaturas, respectivamente.
 
 ## Predeterminado {#section-0237fcae4f304c5b876fceaa839b6b05}
 
-Se hereda de `default::ThumbType`si no está definido o si está vacío.
+Heredado de `default::ThumbType`si no se define o si está vacío.
 
 ## Véase también {#section-986c97470c494bfd8f179cecf8cc3ccc}
 
-[catálogo::ThumbType](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-thumbtype-cat.md#reference-41149ddffc8749cba2f8d9c8e2611e03)
+[catalog::ThumbType](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-thumbtype-cat.md#reference-41149ddffc8749cba2f8d9c8e2611e03)

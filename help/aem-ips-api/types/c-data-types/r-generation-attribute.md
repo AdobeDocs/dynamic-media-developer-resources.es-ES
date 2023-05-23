@@ -1,5 +1,5 @@
 ---
-description: Un par nombre-valor que contiene información sobre un paso de generación de recursos. Consulte getGenerationInfo.
+description: Par de nombre-valor que contiene información sobre un paso de generación de recursos. Consulte getGenerationInfo.
 solution: Experience Manager
 title: GenerationAttribute
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 18%
 
 # [!DNL GenerationAttribute]{#generationattribute}
 
-Un par nombre-valor que contiene información sobre un paso de generación de recursos. Consulte getGenerationInfo.
+Par de nombre-valor que contiene información sobre un paso de generación de recursos. Consulte getGenerationInfo.
 
 Sintaxis
 
@@ -22,5 +22,5 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| name | `xsd:string` | Nombre del atributo. |
+| nombre | `xsd:string` | Nombre del atributo. |
 | valor | `xsd:string` | Valor de atributo. |

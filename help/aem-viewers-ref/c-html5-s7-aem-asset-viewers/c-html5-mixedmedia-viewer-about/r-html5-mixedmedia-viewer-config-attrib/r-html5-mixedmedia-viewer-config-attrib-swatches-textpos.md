@@ -8,7 +8,7 @@ exl-id: 4b3b91f9-e564-462a-a4f3-494dd5511c26
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '48'
-ht-degree: 8%
+ht-degree: 6%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td> <p> Especifica dónde se dibuja la etiqueta en relación con la imagen en miniatura de la muestra. Es decir, la etiqueta se centra en la ubicación especificada en relación con la miniatura de la muestra. When <span class="codeph"> tooltip</span> no se dibuja ninguna etiqueta. </p> </td> 
+   <td> <p> Especifica la posición de la etiqueta en relación con la imagen en miniatura de la muestra. Es decir, la etiqueta se centra en la ubicación especificada en relación con la miniatura de la muestra. Cuándo <span class="codeph"> información sobre herramientas</span> se ha especificado, no se dibuja ninguna etiqueta. </p> </td> 
   </tr> 
  </tbody> 
 </table>

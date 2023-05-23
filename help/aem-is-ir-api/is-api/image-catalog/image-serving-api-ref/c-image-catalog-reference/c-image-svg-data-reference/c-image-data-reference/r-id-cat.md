@@ -1,5 +1,5 @@
 ---
-description: Identificador de registro del catálogo
+description: Identificador de registro de catálogo
 solution: Experience Manager
 title: Id
 feature: Dynamic Media Classic,SDK/API
@@ -8,19 +8,19 @@ exl-id: 37945115-c93d-4f59-b3d3-a2c4ee7fc990
 source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
 source-wordcount: '98'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
 # Id {#id}
 
-El valor de clave de índice mediante el cual la variable busca los registros del archivo de datos de imagen [!DNL Platform Server].
+Valor de clave de índice según el cual el usuario busca los registros del archivo de datos de imagen [!DNL Platform Server].
 
-Normalmente, un identificador de imagen corto y único, como un número SKU, posiblemente con algún tipo de sufijo de imagen, si un SKU tiene varias imágenes. Puede ser también una cadena más compleja que se parezca más a una ruta de archivo, para admitir una fácil adaptación retro de los sitios web con Image Serving.
+Normalmente, un identificador de imagen corto y único, como un número SKU, posiblemente con algún tipo de sufijo de imagen, si un SKU tiene varias imágenes. También puede ser una cadena más compleja que se asemeje más a una ruta de archivo, para admitir un ajuste retro sencillo de los sitios web con el servicio de imágenes.
 
 ## Propiedades {#id-properties}
 
-Cadena de texto. Obligatorio. Clave de índice principal para la tabla de datos de imagen. Cada valor de catálogo::Id debe ser único dentro de la tabla.
+Cadena de texto. Obligatorio. Clave de índice principal para la tabla de datos de imagen. Cada valor catalog::Id debe ser único dentro de la tabla.
 
 ## Predeterminado {#id-default}
 
@@ -28,4 +28,4 @@ Ninguno.
 
 ## Véase también {#id-seealso}
 
-[atributo::RootId](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootid.md)
+[attribute::RootId](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootid.md)

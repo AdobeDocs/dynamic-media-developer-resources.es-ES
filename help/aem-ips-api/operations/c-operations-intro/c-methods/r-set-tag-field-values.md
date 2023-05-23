@@ -1,5 +1,5 @@
 ---
-description: Define los valores del diccionario de etiquetas para un campo de etiqueta existente.
+description: Establece los valores del diccionario de etiquetas para un campo de etiqueta existente.
 solution: Experience Manager
 title: setTagFieldValues
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 16%
 
 # setTagFieldValues{#settagfieldvalues}
 
-Define los valores del diccionario de etiquetas para un campo de etiqueta existente.
+Establece los valores del diccionario de etiquetas para un campo de etiqueta existente.
 
 Sintaxis
 
@@ -30,13 +30,13 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | Identificador de la empresa. |
-| fieldHandle | `xsd:string` | Sí | Identificador de campo de etiqueta. |
-| valueArray | `types:StringArray` | Sí | Matriz de valores de etiqueta que reemplazan al diccionario existente del campo. Las asociaciones de recursos se mantienen cuando un nuevo valor coincide con un valor existente. |
+| companyHandle | `xsd:string` | Sí | Manejo de la compañía. |
+| fieldHandle | `xsd:string` | Sí | Controlador de campo de etiqueta. |
+| valueArray | `types:StringArray` | Sí | Matriz de valores de etiqueta que reemplazan el diccionario existente del campo. Las asociaciones de recursos se mantienen cuando un nuevo valor coincide con un valor existente. |
 
 **Salida (setTagFieldValuesReturn)**
 
-La API IPS no devuelve una respuesta para esta operación.
+La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-b11cafd9bed54ab5836c737cc075c918}
 

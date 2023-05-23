@@ -1,5 +1,5 @@
 ---
-description: Devuelve todos los campos de metadatos agrupados por tipo de recurso.
+description: Devuelve todos los campos de metadatos, agrupados por tipo de recurso.
 solution: Experience Manager
 title: getAssetMetadataFields
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 23%
 
 # getAssetMetadataFields{#getassetmetadatafields}
 
-Devuelve todos los campos de metadatos agrupados por tipo de recurso.
+Devuelve todos los campos de metadatos, agrupados por tipo de recurso.
 
 Sintaxis
 
@@ -34,7 +34,7 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | Identificador de la empresa cuyos metadatos desea recuperar. |
+| companyHandle | `xsd:string` | Sí | El identificador de la compañía cuyos metadatos desea recuperar. |
 
 **Salida (getAssetMetadataFieldsReturn)**
 

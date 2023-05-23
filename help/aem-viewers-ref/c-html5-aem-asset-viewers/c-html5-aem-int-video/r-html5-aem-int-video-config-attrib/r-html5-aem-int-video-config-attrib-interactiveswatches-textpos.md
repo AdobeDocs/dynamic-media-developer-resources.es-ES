@@ -8,7 +8,7 @@ exl-id: 875d36cc-7372-454e-9a04-32492a2e558e
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '74'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,7 @@ Atributo de configuración para el visualizador de vídeo interactivo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td colname="col2"> <p> Especifica dónde se dibuja la etiqueta en relación con la imagen de muestra. Es decir, la etiqueta se centra en la ubicación especificada en relación con la miniatura. </p> <p>Cuando se especifica <span class="codeph"> tooltip</span> , el texto de la etiqueta se muestra como una información de objeto flotante sobre la imagen en miniatura. </p> <p>Configúrelo en <span class="codeph"> ninguno</span> para desactivar la etiqueta. </p> </td> 
+   <td colname="col2"> <p> Especifica la posición de la etiqueta en relación con la imagen de la muestra. Es decir, la etiqueta se centra en la ubicación especificada en relación con la miniatura. </p> <p>Cuándo <span class="codeph"> información sobre herramientas</span> se especifica, el texto de la etiqueta se muestra como información de objeto flotante sobre la imagen en miniatura. </p> <p>Configure como. <span class="codeph"> ninguno</span> para desactivar la etiqueta. </p> </td> 
   </tr> 
  </tbody> 
 </table>

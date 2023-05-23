@@ -32,22 +32,22 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Identificador de campo. </td> 
+   <td colname="col3"> Controlador de campo. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> op</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Opción de operadores de comparación de cadenas. </td> 
+   <td colname="col3"> Elección de operadores de comparación de cadenas. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> value</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> valor</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Valor que probar. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> boolVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> Valor de comparación booleano (solo para campos con tipo booleano). </td> 
+   <td colname="col3"> Valor de comparación booleano (solo para campos de tipo booleano). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> longVal</span> </span> </td> 
@@ -57,47 +57,47 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> minLong</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> Valor mínimo largo en comparación de rango (solo para campos con tipo int). </td> 
+   <td colname="col3"> Valor largo mínimo en la comparación de intervalos (sólo para campos con tipo int). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> maxLong</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> Valor máximo largo en comparación de rango (solo para campos con tipo int). </td> 
+   <td colname="col3"> Valor largo máximo en la comparación de intervalos (sólo para campos con tipo int). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> doubleVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
-   <td colname="col3"> Valor de comparación doble (solo para campos con tipo flotante). </td> 
+   <td colname="col3"> Valor de comparación doble (solo para campos de tipo flotante). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> minDouble</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
-   <td colname="col3"> Valor mínimo doble en comparación de rango (solo para campos con tipo flotante). </td> 
+   <td colname="col3"> Valor doble mínimo en la comparación de intervalos (sólo para campos de tipo flotante). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> maxDouble</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
-   <td colname="col3"> Valor máximo doble en comparación de rango (solo para campos con tipo flotante). </td> 
+   <td colname="col3"> Valor doble máximo en la comparación de intervalos (solo para campos de tipo flotante). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> dateVale</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> dateValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> Valor de comparación de fecha (solo para campos con fecha y tipo). </td> 
+   <td colname="col3"> Valor de comparación de fechas (solo para campos con tipo de fecha). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> minDate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> Valor de fecha mínimo en la comparación de intervalos (solo para campos con fecha y escritura). </td> 
+   <td colname="col3"> Valor de fecha mínimo en la comparación de intervalos (solo para campos con fecha escrita). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> maxDate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> Valor máximo de fecha en comparación de intervalo (solo para campos con fecha y escritura). </td> 
+   <td colname="col3"> Valor de fecha máximo en la comparación de intervalos (solo para campos con tipo de fecha). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> caseSensitive</span> </span> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> Establece la distinción entre mayúsculas y minúsculas para el servidor de metadatos. Se usa en la variable <span class="codeph"> searchAssetsByMetadata</span> llamada a . </p> <p>Consulte <a href="../../operations/c-operations-intro/c-methods/r-search-assets-by-metadata.md#reference-609ec73944a34ce49b152389fbb40414" format="dita" scope="local"> searchAssetsByMetadata</a>. </p> </td> 
+   <td colname="col3"> <p> Establece la distinción entre mayúsculas y minúsculas en el servidor de metadatos. Se utiliza en <span class="codeph"> searchAssetsByMetadata</span> llamada. </p> <p>Consulte <a href="../../operations/c-operations-intro/c-methods/r-search-assets-by-metadata.md#reference-609ec73944a34ce49b152389fbb40414" format="dita" scope="local"> searchAssetsByMetadata</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

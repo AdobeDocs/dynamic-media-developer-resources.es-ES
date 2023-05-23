@@ -1,7 +1,7 @@
 ---
 description: Cambia el nombre de un proyecto.
 solution: Experience Manager
-title: changeProject
+title: RenameProject
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 1bf74ebf-1fce-408b-9953-7fdf2ae9d10b
@@ -12,7 +12,7 @@ ht-degree: 23%
 
 ---
 
-# changeProject{#renameproject}
+# RenameProject{#renameproject}
 
 Cambia el nombre de un proyecto.
 
@@ -29,19 +29,19 @@ Sintaxis
 
 ## Parámetros {#section-43ccd77648784be4a259a723c3e1db40}
 
-**Entrada (cambiar nombre de ProjectParam)**
+**Entrada (RenameProjectParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyName | `xsd:string` | Sí | Gestione a la empresa con el proyecto cuyo nombre desea cambiar. |
-| projectHandle | `xsd:string` | Sí | Gestione el proyecto. |
-| projectName | `xsd:string` | Sí | Nuevo nombre del proyecto. |
+| companyName | `xsd:string` | Sí | Envíe a la empresa el proyecto cuyo nombre desea cambiar. |
+| projectHandle | `xsd:string` | Sí | Administrar al proyecto. |
+| projectName | `xsd:string` | Sí | Nuevo nombre de proyecto. |
 
-**Salida (filenameProjectParam)**
+**Salida (RenameProjectParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| projectHandle | `xsd:string` | Sí | Identificador del proyecto cuyo nombre ha cambiado. |
+| projectHandle | `xsd:string` | Sí | El identificador del proyecto cuyo nombre se ha cambiado. |
 
 ## Ejemplos {#section-a0a06d9244774795b695a10b92b2a5e7}
 

@@ -1,6 +1,6 @@
 ---
-title: Referencia de API de servicio de imágenes
-description: Vea la Ayuda de referencia de la API de Dynamic Media Image Serving.
+title: Referencia de API del servicio de imágenes
+description: Consulte la Ayuda de referencia de la API del servicio de imágenes de Dynamic Media.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,6 +12,6 @@ ht-degree: 0%
 ---
 
 
-# Referencia de API de servicio de imágenes {#image-serving-api-reference}
+# Referencia de API del servicio de imágenes {#image-serving-api-reference}
 
-Vea la Ayuda de referencia de la API de Dynamic Media Image Serving.
+Consulte la Ayuda de referencia de la API del servicio de imágenes de Dynamic Media.

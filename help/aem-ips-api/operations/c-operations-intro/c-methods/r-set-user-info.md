@@ -1,5 +1,5 @@
 ---
-description: Establece los atributos de usuario (por ejemplo, nombre, correo electrónico, función, etc.)
+description: Establece atributos de usuario (por ejemplo, nombre, correo electrónico, función, etc.)
 solution: Experience Manager
 title: setUserInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 21%
 
 # setUserInfo{#setuserinfo}
 
-Establece los atributos de usuario (por ejemplo, nombre, correo electrónico, función, etc.)
+Establece atributos de usuario (por ejemplo, nombre, correo electrónico, función, etc.)
 
 Sintaxis
 
@@ -31,18 +31,18 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| userHandle | `xsd:string` | No | Control de usuario. |
+| userHandle | `xsd:string` | No | Controlador de usuario. |
 | firstName | `xsd:string` | Sí | Nombre. |
 | lastName | `xsd:string` | Sí | Apellido. |
 | correo electrónico | `xsd:string` | Sí | Correo electrónico del usuario. |
-| defaultRole | `xsd:string` | Sí | Establece la función de un usuario en cada empresa a la que pertenece. No obstante, tenga en cuenta que `IpsAdmin` reemplaza otras configuraciones por empresa. |
-| passwordExpires | `xsd:dateTime` | No | Establezca la fecha de caducidad de la contraseña. |
-| isValid | `xsd:boolean` | Sí | Determina si el usuario es un usuario IPS válido. |
-| membershipArray | `types:CompanyMembershipUpdateArray` | Sí | Matriz de controladores de empresa. |
+| defaultRole | `xsd:string` | Sí | Establece la función de un usuario en cada compañía a la que pertenece. Sin embargo, tenga en cuenta que `IpsAdmin` la función anula otras configuraciones por empresa. |
+| passwordExpires | `xsd:dateTime` | No | Fecha de caducidad de la contraseña del conjunto. |
+| isValid | `xsd:boolean` | Sí | Determina si el usuario es un usuario de IPS válido. |
+| subscriptionArray | `types:CompanyMembershipUpdateArray` | Sí | Una matriz de identificadores de empresa. |
 
 **Salida (setUserInfoReturn)**
 
-La API IPS no devuelve una respuesta para esta operación.
+La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-272c103076fb4de0a53729e2f6bfb895}
 

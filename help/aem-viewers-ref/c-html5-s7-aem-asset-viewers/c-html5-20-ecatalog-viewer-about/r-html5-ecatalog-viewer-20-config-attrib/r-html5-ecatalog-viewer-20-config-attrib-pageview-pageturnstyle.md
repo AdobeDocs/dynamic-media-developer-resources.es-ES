@@ -8,7 +8,7 @@ exl-id: 00706c64-c051-4b62-8194-61d0a1c565e9
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '120'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -16,33 +16,33 @@ ht-degree: 3%
 
 ` [PageView.|<containerId>_pageView.]pageturnstyle= *`dividerWidth`*, *`dividerColor`*, *`dividerOpacity`*, *`borderOnOff`*, *`borderColor`*, *`fillColor`*`
 
-Controla el aspecto del componente cuando un `PageView.frametransition` está configurado como `turn` o `auto` en sistemas de escritorio.
+Controla el aspecto del componente cuando una `PageView.frametransition` se establece en `turn` o a `auto` en sistemas de sobremesa.
 
 <table id="table_A8CDA1AE2680402A99BCD5DD371B225F"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> dividerWidth</span></span> </p> </td> 
-   <td colname="col2"> <p> Ancho en píxeles de la sombra del divisor de página que separa las páginas izquierda y derecha del pliego. También controla la anchura de la sombra en ejecución que se muestra al lado de la página de retorno. </p> </td> 
+   <td colname="col2"> <p> Ancho en píxeles de la sombra divisoria de página que separa las páginas izquierda y derecha del pliego. También controla el ancho de la sombra que se muestra junto a la página de paso. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> dividerOpacity</span></span> </p> </td> 
-   <td colname="col2"> <p> Color de sombra en formato RGGBB. </p> </td> 
+   <td colname="col2"> <p> El color de sombra en formato RRGGBB. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> dividerOpacity</span></span> </p> </td> 
-   <td colname="col2"> <p>La opacidad de la sombra en el rango de <span class="codeph"> 0</span> a <span class="codeph"> 1</span>. </p> </td> 
+   <td colname="col2"> <p>La opacidad de la sombra en el intervalo de <span class="codeph"> 0</span> hasta <span class="codeph"> 1</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> borderOnOff</span></span> </p> </td> 
-   <td colname="col2"> <p> El indicador (o bien <span class="codeph"> 0</span> o <span class="codeph"> 1</span>) que activa y desactiva el borde alrededor de la página de giro. </p> </td> 
+   <td colname="col2"> <p> El indicador (o bien <span class="codeph"> 0</span> o <span class="codeph"> 1</span>) que activa y desactiva el borde alrededor de la página de cambio. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> borderColor</span></span> </p> </td> 
-   <td colname="col2"> <p> El color del borde en formato RGGBB. </p> </td> 
+   <td colname="col2"> <p> El color del borde en formato RRGGBB. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> fillColor</span></span> </p> </td> 
-   <td colname="col2"> <p> El color del relleno sólido del área de componente utilizada durante la animación de pase de página, en formato RGGBB. </p> </td> 
+   <td colname="col2"> <p> Color del relleno sólido del área de componentes utilizado durante la animación de paso de página, en formato RRGGBB. </p> </td> 
   </tr> 
  </tbody> 
 </table>

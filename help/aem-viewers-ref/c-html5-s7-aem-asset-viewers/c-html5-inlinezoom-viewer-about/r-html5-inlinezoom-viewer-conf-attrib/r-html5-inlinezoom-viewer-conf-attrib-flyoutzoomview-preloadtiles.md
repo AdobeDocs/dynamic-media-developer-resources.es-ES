@@ -8,7 +8,7 @@ exl-id: f50ea45a-afd5-4e4f-967d-c45cecc5fb7b
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
 source-wordcount: '60'
-ht-degree: 8%
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Establecer como <span class="codeph"> 1</span> para habilitar la precarga de la imagen ampliada o establecer en <span class="codeph"> 0</span> para cargar la imagen de zoom de forma incremental, según sea necesario. </p> <p> <p>Nota: Si habilita esta opción, puede aumentar considerablemente el uso del ancho de banda. La imagen ampliada se carga en su totalidad, aunque el usuario no inicie una acción de zoom. </p> </p> </td> 
+   <td colname="col2"> <p> Configure como. <span class="codeph"> 1</span> para activar la precarga de la imagen ampliada, o establezca en <span class="codeph"> 0</span> para cargar la imagen de zoom de forma incremental, según sea necesario. </p> <p> <p>Nota: Si activa esta opción, puede aumentar considerablemente el uso del ancho de banda. La imagen ampliada se carga en su totalidad, incluso si el usuario no inicia una acción de zoom. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

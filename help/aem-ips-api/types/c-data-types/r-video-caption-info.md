@@ -1,5 +1,5 @@
 ---
-description: Propiedades de los subtítulos de vídeo
+description: Propiedades del pie de ilustración del vídeo
 title: VideoCaptionInfo
 feature: Dynamic Media Classic,SDK/API,Video
 role: Developer,Admin
@@ -7,13 +7,13 @@ exl-id: 75788ce3-7b89-4c7a-81b0-d36b13a89463
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '33'
-ht-degree: 36%
+ht-degree: 30%
 
 ---
 
 # [!DNL VideoCaptionInfo]{#videocaptioninfo}
 
-Propiedades de los subtítulos de vídeo
+Propiedades del pie de ilustración del vídeo
 
 ## Parámetros {#section-14d2cf17c4404266b6d85ffbaaee94e1}
 

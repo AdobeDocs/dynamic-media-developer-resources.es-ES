@@ -1,5 +1,5 @@
 ---
-description: Define la imagen en miniatura de uno o varios recursos.
+description: Establece la imagen en miniatura de uno o varios recursos.
 solution: Experience Manager
 title: batchSetThumbAsset
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -8,19 +8,19 @@ exl-id: f7d7ddd9-a3c3-47c4-8da6-d693851d0d7f
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 14%
+ht-degree: 12%
 
 ---
 
 # batchSetThumbAsset{#batchsetthumbasset}
 
-Define la imagen en miniatura de uno o varios recursos.
+Establece la imagen en miniatura de uno o varios recursos.
 
 Sintaxis
 
-## Tipos de recursos en miniatura {#section-4edc2a6a8f824213b0aaddb1d437268c}
+## Tipos de recursos de miniaturas {#section-4edc2a6a8f824213b0aaddb1d437268c}
 
-Los tipos de recurso de miniaturas permitidos están formados por lo siguiente:
+Los tipos de recursos de miniaturas permitidos son los siguientes:
 
 * Imagen
 * Vista ajustada
@@ -39,7 +39,7 @@ Los tipos de recurso de miniaturas permitidos están formados por lo siguiente:
 
 >[!NOTE]
 >
->El usuario debe tener acceso de lectura y escritura al recurso de destino y acceso de lectura al recurso en miniatura.
+>El usuario debe tener acceso de lectura y escritura al recurso de destino y acceso de lectura al recurso de la miniatura.
 
 ## Parámetros {#section-9c6efa000b384b3db6c013def20cf40b}
 
@@ -47,16 +47,16 @@ Los tipos de recurso de miniaturas permitidos están formados por lo siguiente:
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | El identificador de la empresa que contiene los recursos. |
-| updateArray | `types:ThumbAssetUpdateArray` | Sí | Matriz de actualizaciones. |
+| companyHandle | `xsd:string` | Sí | El identificador de la compañía que contiene los recursos. |
+| updateArray | `types:ThumbAssetUpdateArray` | Sí | La matriz de actualizaciones. |
 
 **Salida (batchSetThumbAssetParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| successCount | `xsd:int` | Sí | Número de miniaturas establecidas correctamente. |
-| warningCount | `xsd:int` | Sí | Número de advertencias generadas cuando la operación intentó establecer las miniaturas. |
-| errorCount | `xsd:int` | Sí | Número de errores generados cuando la operación intentó establecer las miniaturas. |
+| successCount | `xsd:int` | Sí | El número de miniaturas configuradas correctamente. |
+| warningCount | `xsd:int` | Sí | El número de advertencias generadas cuando la operación intentó establecer las miniaturas. |
+| errorCount | `xsd:int` | Sí | El número de errores generados cuando la operación intentó establecer las miniaturas. |
 | warningDetailArray | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados con los recursos que generaron advertencias cuando la operación intentó aplicar las actualizaciones. |
 | errorDetailArray | `types:AssetOperationFaultArray` | No | Matriz de detalles asociados con los recursos que generaron errores cuando la operación intentó aplicar las actualizaciones. |
 

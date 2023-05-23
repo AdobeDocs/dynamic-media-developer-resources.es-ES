@@ -1,6 +1,6 @@
 ---
 title: VideoTime.timepattern
-description: Atributo de configuración para el visualizador de vídeo360.
+description: Atributo de configuración para el visor de Video360.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: a3a4f3f9-b6ef-4ee2-b006-578b743698ad
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
 source-wordcount: '114'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
 # VideoTime.timepattern{#videotime-timepattern}
 
-Atributo de configuración para el visualizador de vídeo360.
+Atributo de configuración para el visor de Video360.
 
 `[VideoTime.|<containerId>_videoTime.]timepattern=[h:]m|mm:s|ss`
 
@@ -22,7 +22,7 @@ Atributo de configuración para el visualizador de vídeo360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> [h:]m|mm:s|ss</span> </p> </td> 
-   <td colname="col2"> <p> Establece el patrón para el tiempo que se muestra en la barra de control, donde <span class="codeph"> h</span> es horas, <span class="codeph"> m</span> es minutos y <span class="codeph"> s</span> es segundos. </p> <p>El número de letras utilizado para cada unidad de tiempo determina el número de dígitos que se mostrarán para la unidad. Si el número no cabe en los dígitos dados, el valor equivalente se muestra en la unidad siguiente. </p> <p>Por ejemplo, si el tiempo de la película actual es de 67 minutos y 5 segundos, el patrón de tiempo <span class="codeph"> m:ss</span> se muestra como 67:05. La misma hora se muestra como 1:07:5 si el patrón de tiempo dado es <span class="codeph"> h:mm:s</span>. </p> </td> 
+   <td colname="col2"> <p> Define el patrón para el tiempo que se muestra en la barra de control, donde <span class="codeph"> h</span> es horas, <span class="codeph"> m</span> es minutos, y <span class="codeph"> s</span> es segundos. </p> <p>El número de letras utilizado para cada unidad de tiempo determina el número de dígitos que se mostrarán para la unidad. Si el número no cabe en los dígitos seleccionados, se muestra el valor equivalente en la unidad siguiente. </p> <p>Por ejemplo, si el tiempo de la película actual es de 67 minutos y 5 segundos, el patrón de tiempo <span class="codeph"> m:ss</span> se muestra a las 67:05. El mismo tiempo se muestra como 1:07:5 si el patrón de tiempo dado es <span class="codeph"> h:mm:s</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

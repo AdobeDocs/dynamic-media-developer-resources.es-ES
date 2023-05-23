@@ -1,6 +1,6 @@
 ---
-title: Información sobre herramientas
-description: En los sistemas de escritorio, algunos elementos de la interfaz de usuario, como los botones, tienen información sobre herramientas que se muestra al pasar el ratón por encima.
+title: Tooltips
+description: En sistemas de escritorio, algunos elementos de la interfaz de usuario, como los botones, incluyen información sobre herramientas que se muestra al pasar el ratón por encima.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
@@ -8,19 +8,19 @@ exl-id: 1bc1a67b-7345-44bc-aed9-d20a61929e21
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '136'
-ht-degree: 6%
+ht-degree: 2%
 
 ---
 
-# Información sobre herramientas{#tooltips}
+# Tooltips{#tooltips}
 
-En los sistemas de escritorio, algunos elementos de la interfaz de usuario, como los botones, tienen información sobre herramientas que se muestra al pasar el ratón por encima.
+En sistemas de escritorio, algunos elementos de la interfaz de usuario, como los botones, incluyen información sobre herramientas que se muestra al pasar el ratón por encima.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propiedades CSS del área principal del visor**
+**Propiedades CSS del área del visor principal**
 
-El aspecto de las informaciones de objeto se controla con el siguiente selector de clase CSS:
+El aspecto de la información del objeto se controla con el siguiente selector de clase CSS:
 
 ```
 .s7tooltip
@@ -29,18 +29,18 @@ El aspecto de las informaciones de objeto se controla con el siguiente selector 
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS, propiedad </p> </th> 
+   <th colname="col1" class="entry"> <p> Propiedad CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Descripción </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
-   <td colname="col2"> <p> Radio del borde de fondo. </p> </td> 
+   <td colname="col2"> <p> Radio de borde de fondo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> borde-color </span> </p> </td> 
-   <td colname="col2"> <p> Color del borde del fondo. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-color </span> </p> </td> 
+   <td colname="col2"> <p> Color de borde de fondo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
@@ -48,7 +48,7 @@ El aspecto de las informaciones de objeto se controla con el siguiente selector 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>Color de texto. </p> </td> 
+   <td colname="col2"> <p>Color del texto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
@@ -63,9 +63,9 @@ El aspecto de las informaciones de objeto se controla con el siguiente selector 
 
 >[!NOTE]
 >
->En caso de que los estilos de información sobre herramientas se personalicen desde la página web de incrustación, todas las propiedades deben contener `!IMPORTANT` regla. Esta regla no es necesaria si la información de objeto se personaliza en el archivo CSS del visor.
+>Si los estilos de la información sobre herramientas se personalizan desde la página web en la que se incorpora, todas las propiedades deben contener `!IMPORTANT` regla. Esta regla no es necesaria si la información de objeto se personaliza en el archivo CSS del visor.
 
-Ejemplo: para configurar informaciones de objeto que tengan un borde gris con un radio de esquina de 3 píxeles, fondo negro y texto blanco escrito con Arial®, un tamaño de 11 píxeles:
+Ejemplo: para configurar información de objeto que tenga un borde gris con un radio de esquina de 3 píxeles, fondo negro y texto blanco escrito con Arial®, tamaño de 11 píxeles:
 
 ```
 .s7tooltip { 

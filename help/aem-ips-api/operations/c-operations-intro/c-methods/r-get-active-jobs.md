@@ -35,7 +35,7 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | No | El identificador de la empresa. |
+| companyHandle | `xsd:string` | No | El identificador de la compañía. |
 | jobHandle | `xsd:string` | No | El identificador del trabajo. |
 | originalName | `xsd:string` | No | Nombre del trabajo original. |
 
@@ -47,7 +47,7 @@ Sintaxis
 
 ## Ejemplos {#section-4ac5dbbf9cd94fdeb013d055f8ee7add}
 
-Este ejemplo de código devuelve todos los trabajos activos de una empresa que se ejecuta en IPS. En este caso, la respuesta es inusual porque el coordinador de programación IPS está deshabilitado sin trabajos activos en ejecución. En circunstancias normales, la respuesta devolverá una serie de trabajos activos.
+Este ejemplo de código devuelve todos los trabajos activos de una empresa que se ejecuta en IPS. En este caso, la respuesta es inusual porque el coordinador de programación de IPS está deshabilitado y no se están ejecutando trabajos activos. En circunstancias normales, la respuesta devolverá una serie de trabajos activos.
 
 **Solicitar**
 

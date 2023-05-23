@@ -1,7 +1,7 @@
 ---
 description: Actualiza los permisos de recursos.
 solution: Experience Manager
-title: updateAssetPermisos
+title: updateAssetPermissions
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 12972a52-7b70-405c-9c73-e5ce6ab7dd9b
@@ -12,7 +12,7 @@ ht-degree: 24%
 
 ---
 
-# updateAssetPermisos{#updateassetpermissons}
+# updateAssetPermissions{#updateassetpermissons}
 
 Actualiza los permisos de recursos.
 
@@ -30,13 +30,13 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | Identificador de la empresa. |
-| assetHandle | `xsd:string` | Sí | Identificador de recurso. |
+| companyHandle | `xsd:string` | Sí | Manejo de la compañía. |
+| assetHandle | `xsd:string` | Sí | Controlador de recurso. |
 | updateArray | `types:PermissionUpdateArray` | Sí | Permisos que desea aplicar al recurso. |
 
 **Salida (updateAssetPermissionsReturn)**
 
-La API IPS no devuelve una respuesta para esta operación.
+La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-1b7b7dbfdab34c819a53f3d33004e1f9}
 

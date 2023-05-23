@@ -30,13 +30,13 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | El identificador de la empresa que contiene el campo de etiqueta. |
-| fieldHandle | `xsd:string` | Sí | El controlador del campo de etiqueta que se va a modificar. |
-| valueArray | `xsd:string` | Sí | Matriz de valores de etiqueta que se agregarán al diccionario existente del campo. |
+| companyHandle | `xsd:string` | Sí | El identificador de la compañía que contiene el campo de etiqueta. |
+| fieldHandle | `xsd:string` | Sí | El identificador del campo de etiqueta que se va a modificar. |
+| valueArray | `xsd:string` | Sí | Matriz de valores de etiqueta que se agregan al diccionario existente del campo. |
 
 **Salida (addTagFieldValuesParam)**
 
-La API IPS no devuelve una respuesta para esta operación.
+La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-c4049392f1c548f883b8b1f8f167bada}
 

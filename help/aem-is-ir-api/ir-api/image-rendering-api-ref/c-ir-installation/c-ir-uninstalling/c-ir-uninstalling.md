@@ -16,6 +16,6 @@ ht-degree: 0%
 
 Si alguna vez es necesario, puede desinstalar Image Rendering.
 
-La desinstalación puede quitar algunos documentos de usuario de la carpeta de instalación. Haga una copia de seguridad de todos los archivos que desee conservar antes de la desinstalación.
+La desinstalación podría quitar algunos documentos de usuario de la carpeta de instalación. Haga una copia de seguridad de todos los archivos que desee conservar antes de desinstalar.
 
 Antes de desinstalar, inicie sesión en el host del servidor con privilegios administrativos o de raíz.

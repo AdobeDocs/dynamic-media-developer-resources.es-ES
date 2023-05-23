@@ -1,5 +1,5 @@
 ---
-description: Determina qué motor de generación y tipo de recurso generado se excluirán de los resultados de búsqueda.
+description: Determina qué motor de generación y tipo de recurso generado se excluirá de los resultados de búsqueda.
 solution: Experience Manager
 title: ExcludeByproductCondition
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # [!DNL ExcludeByproductCondition]{#excludebyproductcondition}
 
-Determina qué motor de generación y tipo de recurso generado se excluirán de los resultados de búsqueda.
+Determina qué motor de generación y tipo de recurso generado se excluirá de los resultados de búsqueda.
 
 Sintaxis
 
@@ -22,5 +22,5 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| [!DNL engine] | `xsd:string` | Motor de generación que creó los recursos que desea excluir. Consulte Información de generación para conocer los valores. |
-| generatedAssetType | `xsd:string` | Tipo de recurso excluido. Consulte Tipos de recursos para ver los valores. |
+| [!DNL engine] | `xsd:string` | El motor de generación que creó los recursos que desea excluir. Consulte Información de generación para ver los valores. |
+| generateAssetType | `xsd:string` | Tipo de recurso excluido. Consulte Tipos de recursos para ver los valores. |

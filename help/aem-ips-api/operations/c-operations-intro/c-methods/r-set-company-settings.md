@@ -1,5 +1,5 @@
 ---
-description: Establece varios valores de configuración específicos de la empresa.
+description: Establece varios valores de configuración específicos de la compañía.
 solution: Experience Manager
 title: setCompanySettings
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # setCompanySettings{#setcompanysettings}
 
-Establece varios valores de configuración específicos de la empresa.
+Establece varios valores de configuración específicos de la compañía.
 
 Sintaxis
 
@@ -31,23 +31,23 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | Identificador de la empresa. |
+| companyHandle | `xsd:string` | Sí | Manejo de la compañía. |
 | overwriteMode | `xsd:string` | No | Modo de sobrescritura de recursos. |
-| keepPublishState | `xsd:boolean` | No | Establecer como `true` para conservar el estado de publicación cuando se vuelve a cargar un recurso. |
+| keepPublishState | `xsd:boolean` | No | Configure como. `true` para conservar el estado de publicación cuando se vuelva a cargar un recurso. |
 | defaultSourceProfileHandle | `xsd:string` | No | Recurso IccProfile que se utilizará como perfil de color de origen predeterminado. |
 | defaultDisplayProfileHandle | `xsd:string` | No | Recurso IccProfile que se utilizará como perfil de color de visualización predeterminado. |
 | iptcExifMappingXsltHandle | `xsd:string` | No | Recurso XSL utilizado para asignar metadatos IPTC y EXIF a campos de metadatos IPS. |
-| xmpMappingXsltHandle | `xsd:string` | No | Recurso XSL utilizado para asignar metadatos de XMP a campos de metadatos IPS. |
-| diskSpaceWarningMin | `xsd:int` | No | Espacio mínimo en disco libre (en KB) disponible antes de enviar un mensaje de advertencia. |
-| emailTrashCleanupWarning | `xsd:boolean` | No | Establecer como `true` para enviar a los administradores de la empresa una notificación siempre que los recursos se vacíen de la papelera. |
+| xmpMappingXsltHandle | `xsd:string` | No | XMP Recurso XSL utilizado para asignar metadatos de la a campos de metadatos IPS. |
+| diskSpaceWarningMin | `xsd:int` | No | Espacio en disco mínimo (en KB) disponible antes de enviar un mensaje de advertencia. |
+| emailTrashCleanupWarning | `xsd:boolean` | No | Configure como. `true` para enviar a los administradores de la empresa una notificación cada vez que se eliminen recursos de la papelera. |
 
 **Salida (setCompanySettingsReturn)**
 
-La API IPS no devuelve una respuesta para esta operación.
+La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-d10bf1d3d86f46f7bcf78dc1a2c363c5}
 
-Este ejemplo de código establece la configuración de una empresa.
+Este ejemplo de código establece la configuración de una compañía.
 
 **Solicitar**
 

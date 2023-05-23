@@ -1,5 +1,5 @@
 ---
-description: Valores válidos para los campos PropertySetType y createPropertySetTypeParam .
+description: Valores válidos para los campos PropertySetType y createPropertySetTypeParam.
 solution: Experience Manager
 title: PropertySetType
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 17%
 
 # [!DNL PropertySetType]{#propertysettype}
 
-Valores válidos para los campos PropertySetType y createPropertySetTypeParam .
+Valores válidos para los campos PropertySetType y createPropertySetTypeParam.
 
 Los valores incluyen:
 
@@ -41,7 +41,7 @@ Los valores incluyen:
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Identificador de la empresa. <p>Nota: El tipo es global si el identificador de la empresa no está presente. </p></td> 
+   <td colname="col3">Manejo de la compañía. <p>Nota: El tipo es global si el identificador de la empresa no está presente. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
@@ -51,12 +51,12 @@ Los valores incluyen:
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> propertyType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Uno de los tipos de conjunto de propiedades. Consulte Entrada (<span class="codeph"> createPropertySetTypeParam</span>). </td> 
+   <td colname="col3">Uno de los tipos de conjuntos de propiedades. Consulte Entrada (<span class="codeph"> createPropertySetTypeParam</span>). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> allowMultiple</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> Si se permiten varias instancias de conjuntos de propiedades para asociarlas a un objeto para este tipo. </td> 
+   <td colname="col3"> Si se permiten varias instancias de conjuntos de propiedades para adjuntarse a un objeto para este tipo. </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,5 +1,5 @@
 ---
-description: Devuelve datos de archivo zip.
+description: Devuelve los datos del archivo Zip.
 solution: Experience Manager
 title: getZipEntries
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 22%
 
 # getZipEntries{#getzipentries}
 
-Devuelve datos de archivo zip.
+Devuelve los datos del archivo Zip.
 
 Sintaxis
 
@@ -36,18 +36,18 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sí | El identificador de la empresa que contiene el archivo Zip. |
-| assetHandle | `xsd:string` | Sí | Gestionar en el archivo Zip. |
+| companyHandle | `xsd:string` | Sí | El identificador de la compañía que contiene el archivo Zip. |
+| assetHandle | `xsd:string` | Sí | Manejar al archivo Zip. |
 
 **Salida (getZipEntriesReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| zipArray | `types:ZipEntryArray` | Sí | Matriz de entradas en un archivo Zip. |
+| zipArray | `types:ZipEntryArray` | Sí | Matriz de entradas de un archivo Zip. |
 
 ## Ejemplos {#section-1fc0ad8fa448492cb5a135d3e3d161ac}
 
-Este ejemplo de código devuelve información del archivo zip, incluido el tamaño comprimido y sin comprimir.
+Este ejemplo de código devuelve información del archivo Zip, incluido el tamaño comprimido y sin comprimir.
 
 **Solicitar**
 
