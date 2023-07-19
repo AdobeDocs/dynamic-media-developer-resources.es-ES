@@ -1,14 +1,14 @@
 ---
-description: Vencimiento
-solution: Experience Manager
 title: Vencimiento
+description: Se utiliza para administrar el almacenamiento en caché de clientes y servidores proxy. El servidor calcula la fecha y hora de caducidad de los datos de respuesta HTTP agregando este valor a la fecha y hora de la transmisión.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 064dab12-5f58-4e19-a6b1-fbd20182e3aa
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c1a4dad7888d31e0b78f0fc5091700ad8104e685
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 2%
+source-wordcount: '291'
+ht-degree: 1%
 
 ---
 

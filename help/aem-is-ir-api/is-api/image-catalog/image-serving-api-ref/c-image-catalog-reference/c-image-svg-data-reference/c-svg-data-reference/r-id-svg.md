@@ -1,14 +1,14 @@
 ---
-description: Id
-solution: Experience Manager
 title: Id
+description: Normalmente, un identificador corto y único, como un número SKU, posiblemente con algún tipo de sufijo, como si un SKU tiene varias imágenes o variaciones específicas de la configuración regional.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d7b37180-cc93-41cd-bf14-5c262b046fbc
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c1a4dad7888d31e0b78f0fc5091700ad8104e685
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 4%
+source-wordcount: '191'
+ht-degree: 3%
 
 ---
 
