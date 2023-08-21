@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 959cb193-d0b7-4aa9-a747-fa17484f80c7
-source-git-commit: 187de979d7d1f7ce92b7b4c8b7661a787ab6889f
+source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '324'
 ht-degree: 6%
 
 ---
@@ -57,6 +57,7 @@ Consulte también Dynamic Media [Opciones de ajustes preestablecidos de imagen](
 * [recorte](r-crop.md)
 * [cropPathE](r-croppath.md)
 * [defaultImage](r-is-http-defaultimage.md)
+* [dpr](r-dpr.md)
 * [efecto](r-effect.md)
 * [effectMask](r-effectmask.md)
 * [extender](r-extend.md)
@@ -75,6 +76,7 @@ Consulte también Dynamic Media [Opciones de ajustes preestablecidos de imagen](
 * [mapa](r-map.md)
 * [enmascarar](r-mask.md)
 * [maskUse](r-maskuse.md)
+* [red](r-network.md)
 * [op_blur](r-op-blur.md)
 * [op_bright](r-op-brightness.md)
 * [op_colorbalance](r-op-colorbalance.md)

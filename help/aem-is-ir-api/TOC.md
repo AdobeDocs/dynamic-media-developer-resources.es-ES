@@ -4,9 +4,9 @@ user-guide-title: API de servicio y procesamiento de imágenes de Dynamic Media
 breadcrumb-title: API de servicio y procesamiento de imágenes de Dynamic Media
 feature-set: Experience Manager Assets
 user-guide-description: Vea documentación sobre las API de IS (Image Serving) e IR (Image Rendering), y tecnologías relacionadas.
-source-git-commit: f64229a72bef887f356b118a1da4ba5177c28bbc
+source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1468'
 ht-degree: 9%
 
 ---
@@ -185,6 +185,7 @@ ht-degree: 9%
          + [recorte](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md)
          + [cropPathE](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-croppath.md)
          + [defaultImage](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-defaultimage.md)
+         + [dpr](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-dpr.md)
          + [efecto](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-effect.md)
          + [effectMask](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-effectmask.md)
          + [extender](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md)
@@ -203,6 +204,7 @@ ht-degree: 9%
          + [mapa](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-map.md)
          + [enmascarar](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md)
          + [maskUse](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-maskuse.md)
+         + [red](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md)
          + [op_blur](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-blur.md)
          + [op_bright](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-brightness.md)
          + [op_colorbalance](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-colorbalance.md)
