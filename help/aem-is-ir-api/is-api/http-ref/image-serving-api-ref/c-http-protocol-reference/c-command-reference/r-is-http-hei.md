@@ -1,11 +1,11 @@
 ---
+title: hei
 description: Ver altura. Especifica la altura de la imagen de respuesta (ver imagen) cuando el ajuste no está presente en la solicitud.
 solution: Experience Manager
-title: hei
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c812c7f0-4ac1-42cb-be47-7baebd8caf60
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 2%
@@ -21,7 +21,7 @@ Ver altura. Especifica la altura de la imagen de respuesta (ver imagen) cuando e
 <table id="simpletable_1A36827B6E6647888A4E6E868975D716"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> var </span> </span> </p> </td> 
-  <td class="stentry"> <p>Alto de la imagen en píxeles (int bueno que 0). </p> </td> 
+  <td class="stentry"> <p>Altura de la imagen en píxeles (int mayor que 0). </p> </td> 
  </tr> 
 </table>
 

@@ -1,11 +1,11 @@
 ---
+title: op_grew
 description: Dilate/erode la imagen. Aplica un dilatado morfológico (radio > 0) o erosionado (radio < 0) a los datos de la imagen.
 solution: Experience Manager
-title: op_grew
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4c5bef4e-f80e-454d-8e93-30bf33d7ec9e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 2%

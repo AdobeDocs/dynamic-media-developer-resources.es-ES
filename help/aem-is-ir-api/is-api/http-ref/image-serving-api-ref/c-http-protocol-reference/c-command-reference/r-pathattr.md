@@ -1,11 +1,11 @@
 ---
+title: pathAttr
 description: Atributos de texto en ruta.
 solution: Experience Manager
-title: pathAttr
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fdf9274a-70d0-4692-a7a9-c108abb9ab84
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 2%
@@ -41,7 +41,7 @@ Especificar `norm` para dibujar texto que comience cerca del primer vértice de 
 
 Atributo de capa. Se ignora si la capa no incluye `textPs=` y `textPath=` comandos.
 
-*`startPos`* debe ser bueno o igual a 0 y menor que 1,0. *`endPos`* debe ser bueno que *`startPos`* y menor o igual que 1,0 cuando se aplica a una ruta abierta, o menor o igual que ( *`startPos`* + 1,0) cuando se aplica a una ruta cerrada.
+*`startPos`* debe ser mayor o igual que 0 y menor que 1,0. *`endPos`* debe ser mayor que *`startPos`* y menor o igual que 1,0 cuando se aplica a una ruta abierta, o menor o igual que ( *`startPos`* + 1,0) cuando se aplica a una ruta cerrada.
 
 ## Predeterminado {#section-3e757970885c45e7b6100e78dc08626f}
 

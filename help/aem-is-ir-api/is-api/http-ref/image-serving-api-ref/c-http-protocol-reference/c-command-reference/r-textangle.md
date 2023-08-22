@@ -1,11 +1,11 @@
 ---
+title: textAngle
 description: Dirección de procesamiento de texto. Especifica el ángulo con el que se coloca y se representa el texto especificado con textPs= en el cuadro de texto (definido con size= o textFlowPath=).
 solution: Experience Manager
-title: textAngle
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 102dbdc0-77b8-4c60-b456-6cf693e0b38b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 2%

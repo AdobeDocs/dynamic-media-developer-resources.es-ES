@@ -1,11 +1,11 @@
 ---
+title: alinear
 description: Alinear imagen con vista. Alinea la imagen compuesta (posiblemente después del escalado, si también se especifica scl=) dentro del rectángulo de vista definido por wid= y hei=.
 solution: Experience Manager
-title: alinear
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 01001cc6-1a60-4d6b-a27f-ea5822be6d11
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 1%

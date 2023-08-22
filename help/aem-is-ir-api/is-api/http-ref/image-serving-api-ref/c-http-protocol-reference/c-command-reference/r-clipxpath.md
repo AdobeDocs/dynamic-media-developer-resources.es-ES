@@ -1,11 +1,11 @@
 ---
+title: clipXPath
 description: Ruta de clip de capa invertida. Especifica una ruta de recorte de exclusión para la capa actual. Todas las partes de la capa que se encuentren dentro del área definida por clipXPath= se procesarán como transparentes.
 solution: Experience Manager
-title: clipXPath
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7d7e92f5-856f-4d62-a5d3-4726d7b43792
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 5%

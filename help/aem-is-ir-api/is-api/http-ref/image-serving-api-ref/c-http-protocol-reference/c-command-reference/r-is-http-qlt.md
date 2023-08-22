@@ -1,11 +1,11 @@
 ---
+title: qlt
 description: Calidad JPEG. Especifica atributos de codificación del JPEG para controlar el nivel de compresión. Esto, a su vez, varía el tamaño del archivo (cantidad de datos de respuesta) e, indirectamente, la calidad visual de la imagen resultante.
 solution: Experience Manager
-title: qlt
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c2a611a8-f331-4e01-a262-34340ce67b21
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 6%

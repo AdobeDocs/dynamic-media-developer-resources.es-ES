@@ -1,11 +1,11 @@
 ---
+title: op_grewMask
 description: Dilate/erode la imagen. Aplica un dilato morfológico (radio > 0) o erosión (radio < 0) a los datos de la máscara.
 solution: Experience Manager
-title: op_grewMask
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 322d97af-bb1b-44bb-90f1-cda9984b78b5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 2%

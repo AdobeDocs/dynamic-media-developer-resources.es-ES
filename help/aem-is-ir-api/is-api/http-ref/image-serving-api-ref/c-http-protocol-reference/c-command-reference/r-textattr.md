@@ -1,11 +1,11 @@
 ---
+title: textAttr
 description: Atributos de capa de texto. Especifica atributos adicionales para las capas de texto que no están disponibles como comandos rtf.
 solution: Experience Manager
-title: textAttr
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0c8a3d2a-2524-436a-8bc7-60241af0fd17
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 1%
@@ -21,7 +21,7 @@ Atributos de capa de texto. Especifica atributos adicionales para las capas de t
 <table id="simpletable_0072BF7DF52B4959A14EDEF60A6EBDEE"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> res </span> </span> </p> </td> 
-  <td class="stentry"> <p>Proporciona un medio para cambiar la escala de la capa de texto sin cambiar el tamaño de la fuente. Los valores de resolución más altos aumentan el tamaño del texto procesado en relación con el tamaño del lienzo; los valores más pequeños reducen el tamaño del texto. Resolución de texto en puntos por pulgada (en bueno de 0). </p> </td> 
+  <td class="stentry"> <p>Proporciona un medio para cambiar la escala de la capa de texto sin cambiar el tamaño de la fuente. Los valores de resolución más altos aumentan el tamaño del texto procesado en relación con el tamaño del lienzo; los valores más pequeños reducen el tamaño del texto. Resolución de texto en puntos por pulgada (int mayor que 0). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> suavizado </span> </span> </p> </td> 

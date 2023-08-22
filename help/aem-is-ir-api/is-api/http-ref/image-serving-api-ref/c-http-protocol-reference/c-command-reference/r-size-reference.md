@@ -1,11 +1,11 @@
 ---
+title: tamaño
 description: Tamaño de capa. Especifica el tamaño o el tamaño máximo de capa de una capa, antes de aplicar rotate=, perspectiva= y extend= a la capa.
 solution: Experience Manager
-title: tamaño
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 55feeb32-b69d-4b95-80fb-c77f2612d255
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 1%
@@ -23,7 +23,7 @@ Tamaño de capa. Especifica el tamaño o el tamaño máximo de capa de una capa,
 <table id="simpletable_FBE17D736F93485AA0053BF447B4CC9F"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> anchura </span>, <span class="varname"> altura </span> </span> </p> </td> 
-  <td class="stentry"> <p>Restricción de tamaño de capa en píxeles (int, int, 0 o bueno). </p> </td> 
+  <td class="stentry"> <p>Restricción de tamaño de capa en píxeles (int, int, 0 o superior). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> widthN </span>, <span class="varname"> heightN </span> </span> </p> </td> 

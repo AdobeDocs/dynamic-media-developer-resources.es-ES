@@ -1,11 +1,11 @@
 ---
+title: op_colorize
 description: Colorear imagen. Colorea los datos de la imagen conservando las sombras y los resaltados.
 solution: Experience Manager
-title: op_colorize
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1abbde32-867a-4596-a46b-12ec50d59170
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 4%
@@ -39,7 +39,7 @@ Colorear imagen. Colorea los datos de la imagen conservando las sombras y los re
 
 El segundo argumento especifica si el brillo de la imagen de origen debe ajustarse antes de colorear. Especificar `off` para desactivar la compensación automática de brillo o `norm` ajustar el brillo automáticamente para que el valor de la mediana tenga una intensidad del 50%.
 
-Configure las variables *`contrast`* valor 0 para conservar el intervalo de contraste de la imagen de entrada o especifique un intervalo de contraste deseado con un valor bueno a 0. Un valor de 100 maximiza el contraste. Los valores habituales pueden estar entre 30 y 70.
+Configure las variables *`contrast`* valor 0 para conservar el intervalo de contraste de la imagen de entrada o especifique un intervalo de contraste deseado con un valor mayor que 0. Un valor de 100 maximiza el contraste. Los valores habituales pueden estar entre 30 y 70.
 
 Además de los ajustes integrados de brillo y contraste, `op_brightness=` y `op_contrast=` puede utilizarse para ajustar aún más el efecto colorante.
 

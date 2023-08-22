@@ -1,11 +1,11 @@
 ---
+title: scale
 description: Escalar imagen. Escala una imagen de origen de capa por factor en relación con la imagen de resolución completa.
 solution: Experience Manager
-title: scale
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c2cd37de-f81e-4b08-9a3e-ff05a72c363c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 9%
@@ -21,7 +21,7 @@ Escalar imagen. Escala una imagen de origen de capa por factor en relación con 
 <table id="simpletable_AC596A87494A4213A7D1C76612E8F2FD"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> factor</span> </p> </td> 
-  <td class="stentry"> <p>Factor de escala (real, bueno a 0,0). </p></td> 
+  <td class="stentry"> <p>Factor de escala (real, mayor que 0,0). </p></td> 
  </tr> 
 </table>
 

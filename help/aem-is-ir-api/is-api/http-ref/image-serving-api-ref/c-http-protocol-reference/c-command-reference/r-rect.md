@@ -1,11 +1,11 @@
 ---
+title: recto
 description: Rectángulo de vista final. Permite desmontar la imagen de vista final en varias tiras o mosaicos, que el cliente puede enviar por separado y volver a montar sin problemas, sin artefactos a lo largo de los bordes.
 solution: Experience Manager
-title: recto
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1870001b-7904-470f-9582-984d453509ca
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 1%

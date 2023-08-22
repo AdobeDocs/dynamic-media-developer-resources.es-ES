@@ -1,11 +1,11 @@
 ---
+title: perspectiva
 description: Transformación en perspectiva. Aplique una transformación de perspectiva a la imagen de origen de la capa para rellenar la región especificada con el cuadrilátero. Otras áreas de la capa permanecen transparentes.
 solution: Experience Manager
-title: perspectiva
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2e0297b0-c9a4-4bbd-9f06-368f722288d4
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 1%

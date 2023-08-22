@@ -1,11 +1,11 @@
 ---
+title: textPs
 description: Texto de capa (compatible con Adobe Photoshop). Especifica el cuerpo del texto de una capa de texto.
 solution: Experience Manager
-title: textPs
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 95f343ce-bea3-425e-9a25-d1d141a976d9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 4%

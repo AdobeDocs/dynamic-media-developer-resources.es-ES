@@ -1,11 +1,11 @@
 ---
+title: rotar
 description: Rotar imagen. Gira la capa de color sólido, de texto o de imagen según el ángulo especificado.
 solution: Experience Manager
-title: rotar
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9f1b2d6f-4e67-4530-9ec6-870b97687ce0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 2%

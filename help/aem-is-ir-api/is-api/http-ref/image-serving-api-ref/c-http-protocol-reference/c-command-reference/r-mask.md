@@ -1,11 +1,11 @@
 ---
+title: enmascarar
 description: Máscara de imagen. Especifica una imagen de máscara independiente que se utilizará como máscara no asociada.
 solution: Experience Manager
-title: enmascarar
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5785844b-945b-4dd0-ac59-efbf1360b7cd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 1%

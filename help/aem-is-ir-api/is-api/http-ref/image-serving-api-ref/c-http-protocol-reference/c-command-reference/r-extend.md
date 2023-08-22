@@ -1,11 +1,11 @@
 ---
+title: extender
 description: Extender capa. Agrega márgenes a una capa o recorta el rectángulo de la capa.
 solution: Experience Manager
-title: extender
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 03db6555-6851-49d4-b0de-5570bf56ad76
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 1%

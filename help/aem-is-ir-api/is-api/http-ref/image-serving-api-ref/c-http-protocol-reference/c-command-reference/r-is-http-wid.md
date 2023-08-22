@@ -1,11 +1,11 @@
 ---
+title: wid
 description: Ver anchura. Especifica la anchura de la imagen de respuesta (ver imagen) cuando fit= no está presente en la solicitud.
 solution: Experience Manager
-title: wid
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ba22c79b-da59-4993-aa1c-2c990a0c4be5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 2%
@@ -21,7 +21,7 @@ Ver anchura. Especifica la anchura de la imagen de respuesta (ver imagen) cuando
 <table id="simpletable_E217453246F5441C896C1F69EA4D4218"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> val </span> </p> </td> 
-  <td class="stentry"> <p>Ancho de la imagen en píxeles (int bueno que 0). </p> </td> 
+  <td class="stentry"> <p>Ancho de la imagen en píxeles (int mayor que 0). </p> </td> 
  </tr> 
 </table>
 

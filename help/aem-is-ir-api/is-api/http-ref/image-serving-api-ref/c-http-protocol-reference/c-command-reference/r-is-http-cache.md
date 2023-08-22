@@ -1,11 +1,11 @@
 ---
+title: escondrijo
 description: Control de caché. Permite deshabilitar selectivamente el almacenamiento en caché del lado del cliente (explorador, servidores proxy, sistemas de almacenamiento en caché de red) y el almacenamiento en caché en el [!DNL Platform Server] caché.
 solution: Experience Manager
-title: escondrijo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8b631836-e5a8-4a56-a09a-35bb2474cc84
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 1%

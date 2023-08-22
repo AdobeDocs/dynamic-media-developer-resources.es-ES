@@ -1,11 +1,11 @@
 ---
+title: scl
 description: Vista de escala. Ajusta la escala de la imagen compuesta según la inversa de invFactor.
 solution: Experience Manager
-title: scl
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 297d187c-3a52-45ff-b73d-0b0e4b956080
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 8%
@@ -21,7 +21,7 @@ Vista de escala. Ajusta la escala de la imagen compuesta según la inversa de in
 <table id="simpletable_A09F5EECAC2B4E0F8633D71C6AD36D8D"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> invFactor</span> </p> </td> 
-  <td class="stentry"> <p>Factor de escala inversa (real bueno a 0,0). </p></td> 
+  <td class="stentry"> <p>Factor de escala inversa (real mayor que 0,0). </p></td> 
  </tr> 
 </table>
 

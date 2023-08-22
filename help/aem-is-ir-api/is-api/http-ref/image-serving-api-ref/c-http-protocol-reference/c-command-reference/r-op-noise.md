@@ -1,11 +1,11 @@
 ---
+title: op_sound
 description: Añada ruido. Añade ruido aleatorio a los datos de imagen de primer plano o al primer plano de una capa de efecto.
 solution: Experience Manager
-title: op_sound
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: eeadd3ab-80ff-4f9b-b5b7-4f3da6feebde
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 1%
