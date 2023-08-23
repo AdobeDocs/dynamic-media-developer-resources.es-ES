@@ -4,10 +4,10 @@ description: Obtenga información acerca de cómo utilizar la optimización del 
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
-source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
+source-git-commit: 96b60fd5f6e3550993cd7640138df4c9bbf6b955
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 2%
+source-wordcount: '145'
+ht-degree: 4%
 
 ---
 
@@ -26,7 +26,7 @@ Si lo desea, su empresa puede excluirse de la optimización del ancho de banda d
  </tr> 
 </table>
 
-Los valores de RGPD y ancho de banda de red se basan en los valores detectados del lado del cliente de la CDN agrupada. Estos valores a veces son inexactos. Por ejemplo, iPhone5 con `dpr=2`y iPhone12 con `dpr=3`, ambas se muestran `dpr=2`. Sin embargo, para dispositivos de alta resolución, enviar `dpr=2` es mejor que enviar dpr=1. Sin embargo, la mejor manera de superar esta inexactitud es utilizar la DPR del lado del cliente para ofrecerle valores 100% precisos. Y funciona para cualquier dispositivo, ya sea Apple o cualquier otro dispositivo que se haya iniciado. Consulte [Uso de imágenes inteligentes con proporción de píxeles de dispositivo del lado del cliente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/client-side-dpr.html?lang=en).
+Los valores del ancho de banda de la red se basan en los valores detectados del lado del cliente de la CDN agrupada.
 
 ## Propiedades
 
@@ -42,4 +42,4 @@ Los valores de RGPD y ancho de banda de red se basan en los valores detectados d
 
 ## Véase también
 
-[gota](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-dpr.md), [Imágenes inteligentes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=en)
+[bfc](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bfc.md), [gota](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-dpr.md), [Imágenes inteligentes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=en)
