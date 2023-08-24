@@ -4,10 +4,10 @@ description: Obtenga información acerca de cómo utilizar la optimización del 
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
-source-git-commit: 96b60fd5f6e3550993cd7640138df4c9bbf6b955
+source-git-commit: a6e0db8238ba5f2209089c6eda7b42c42f66b25f
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 4%
+source-wordcount: '157'
+ht-degree: 3%
 
 ---
 
@@ -30,7 +30,7 @@ Los valores del ancho de banda de la red se basan en los valores detectados del 
 
 ## Propiedades
 
-
+Un atributo de solicitud. No tiene ningún efecto si las condiciones de la red son excelentes.
 
 ## Predeterminado
 
