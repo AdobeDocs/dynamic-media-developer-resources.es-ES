@@ -1,20 +1,20 @@
 ---
-description: Permite a los administradores crear nuevos campos de metadatos para coordinar con los sistemas de administración de contenido o para operaciones de plantilla. Algunos ejemplos de campos de metadatos creados son palabras clave, información sobre el autor de la imagen o información sobre el titular del copyright.
-solution: Experience Manager
 title: createMetadataField
+description: Permite a los administradores crear campos de metadatos para coordinarlos con los sistemas de administración de contenido o para operaciones de plantilla. Algunos ejemplos de campos de metadatos creados son palabras clave, información sobre el autor de la imagen o información sobre el titular del copyright.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: eac7fa54-ebe2-4f42-a478-d9a6fb54d1b6
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '284'
 ht-degree: 13%
 
 ---
 
 # createMetadataField{#createmetadatafield}
 
-Permite a los administradores crear nuevos campos de metadatos para coordinar con los sistemas de administración de contenido o para operaciones de plantilla. Algunos ejemplos de campos de metadatos creados son palabras clave, información sobre el autor de la imagen o información sobre el titular del copyright.
+Permite a los administradores crear campos de metadatos para coordinarlos con los sistemas de administración de contenido o para operaciones de plantilla. Algunos ejemplos de campos de metadatos creados son palabras clave, información sobre el autor de la imagen o información sobre el titular del copyright.
 
 Sintaxis
 
@@ -40,7 +40,7 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> Nombre de la empresa a la que pertenece el campo de metadatos. </td> 
+   <td colname="col4"> El nombre de la empresa a la que pertenece el campo de metadatos. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetType</span> </span> </td> 
@@ -82,7 +82,7 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Permite crear un conjunto de valores enumerados compartidos a los que pueden apuntar las etiquetas seleccionadas. </td> 
+   <td colname="col4"> Permite crear un conjunto de valores específicos compartidos a los que pueden apuntar las etiquetas seleccionadas. </td> 
   </tr> 
  </tbody> 
 </table>

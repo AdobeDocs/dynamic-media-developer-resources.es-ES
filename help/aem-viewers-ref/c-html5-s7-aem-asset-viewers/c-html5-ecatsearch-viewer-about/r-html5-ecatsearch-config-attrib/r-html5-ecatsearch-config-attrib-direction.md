@@ -1,13 +1,13 @@
 ---
+title: dirección
 description: dirección
 solution: Experience Manager
-title: dirección
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 0f78a835-9057-4c79-843a-52b33a1bdd3f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '192'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
-   <td colname="col2"> <p>Especifica la forma en que se muestran las páginas en la vista principal y en las miniaturas. También especifica la forma en que el usuario interactúa con la interfaz de usuario del visor para cambiar entre marcos del catálogo. </p> <p>Cuándo <span class="codeph"> left </span> se utiliza para establecer la alineación a la derecha de la página inicial y la alineación a la izquierda de la última página. Vincula subimágenes de página individuales para el orden de procesamiento de izquierda a derecha. También establece la vista principal para utilizar la animación de diapositiva de derecha a izquierda para avanzar el catálogo (en caso de que <span class="codeph"> PageView.frametransition </span> se ha definido en diapositiva). Por último, las miniaturas se establecen para un orden de relleno de izquierda a derecha. </p> <p>Del mismo modo, cuando <span class="codeph"> derecha </span> se utiliza para establecer la alineación izquierda de la página inicial y la alineación derecha de la última página. Vincula subimágenes de página individuales para el orden de procesamiento de derecha a izquierda. También establece la vista principal para utilizar la animación de diapositiva de izquierda a derecha para avanzar el catálogo (en caso de que <span class="codeph"> PageView.frametransition </span> se ha definido en diapositiva). Por último, invierte el orden de las miniaturas para que se rellenen en la dirección de derecha a izquierda, de arriba a abajo. </p> <p>Cuándo <span class="codeph"> auto </span> se establece, se aplica el visor <span class="codeph"> derecha </span> modo cuando la configuración regional está establecida en <span class="codeph"> ja; </span>de lo contrario, utiliza <span class="codeph"> left </span> modo. </p> </td> 
+   <td colname="col2"> <p>Especifica la forma en que se muestran las páginas en la vista principal y en las miniaturas. También especifica la forma en que el usuario interactúa con la interfaz de usuario del visor para cambiar entre marcos del catálogo. </p> <p>Cuándo <span class="codeph"> left </span> se utiliza para establecer la alineación derecha de la página inicial y la alineación izquierda de la última página. Vincula subimágenes de página individuales para el orden de procesamiento de izquierda a derecha. También establece la vista principal para utilizar la animación de diapositiva de derecha a izquierda para avanzar el catálogo (en caso de que <span class="codeph"> PageView.frametransition </span> se ha definido en diapositiva). Por último, las miniaturas se establecen para un orden de relleno de izquierda a derecha. </p> <p>Del mismo modo, cuando <span class="codeph"> derecha </span> se utiliza para establecer la alineación izquierda de la página inicial y la alineación derecha de la última página. Vincula subimágenes de página individuales para el orden de procesamiento de derecha a izquierda. También establece la vista principal para utilizar la animación de diapositiva de izquierda a derecha para avanzar el catálogo (en caso de que <span class="codeph"> PageView.frametransition </span> se ha definido en diapositiva). Por último, invierte el orden de las miniaturas para que se rellenen en la dirección de derecha a izquierda, de arriba a abajo. </p> <p>Cuándo <span class="codeph"> auto </span> se establece, se aplica el visor <span class="codeph"> derecha </span> modo cuando la configuración regional está establecida en <span class="codeph"> ja; </span>de lo contrario, utiliza <span class="codeph"> left </span> modo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

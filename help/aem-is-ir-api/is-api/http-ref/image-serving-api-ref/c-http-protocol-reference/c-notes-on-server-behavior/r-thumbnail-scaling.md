@@ -1,13 +1,13 @@
 ---
+title: Escala de miniaturas
 description: El paso 2 de la transformación de la capa de imagen se modifica de la siguiente manera para las miniaturas (es decir, si req=tmb).
 solution: Experience Manager
-title: Escala de miniaturas
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 08290258-4fc8-4a6a-ba8f-6bdcd969fa3c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---

@@ -1,13 +1,13 @@
 ---
+title: PageView.maxloadradius
 description: PageView.maxloadradius
 solution: Experience Manager
-title: PageView.maxloadradius
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: cf769b2d-be4e-4d93-9620-00a438157693
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '67'
 ht-degree: 4%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p>Especifica el comportamiento de carga previa del componente. </p> <p>Cuando se establece en <span class="codeph"> -1</span> el componente carga de forma previa todos los fotogramas de catálogo cuando está en espera. </p> <p> Cuando se establece en <span class="codeph"> 0</span> el componente solo carga el fotograma que está visible actualmente, el fotograma anterior y el siguiente. </p> <p>Establecer <span class="codeph"><span class="varname"> preloadnbr</span></span> para definir cuántos fotogramas invisibles alrededor del fotograma mostrado actualmente se cargan previamente en estado inactivo. </p> </td> 
+   <td colname="col2"> <p>Especifica el comportamiento de carga previa del componente. </p> <p>Cuando se establece en <span class="codeph"> -1</span> el componente carga de forma previa todos los fotogramas de catálogo cuando está en espera. </p> <p> Cuando se establece en <span class="codeph"> 0</span> el componente solo carga el fotograma visible, el fotograma anterior y el fotograma siguiente. </p> <p>Establecer <span class="codeph"><span class="varname"> preloadnbr</span></span> para definir cuántos fotogramas invisibles alrededor del fotograma mostrado actualmente se cargan previamente en estado inactivo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

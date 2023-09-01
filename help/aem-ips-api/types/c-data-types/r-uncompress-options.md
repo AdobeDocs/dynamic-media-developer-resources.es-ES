@@ -1,13 +1,13 @@
 ---
+title: DescomprimirOpciones
 description: Cargue la configuración para procesar los archivos ZIP y TAR como recursos principales (Ninguno) o para extraer y cargar su contenido (Descomprimir).
 solution: Experience Manager
-title: DescomprimirOpciones
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 89222959-3701-4ea6-bcae-98ceec93764f
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '97'
 ht-degree: 7%
 
 ---
@@ -18,7 +18,7 @@ Cargue la configuración para procesar los archivos ZIP y TAR como recursos prin
 
 >[!NOTE]
 >
->`None` es el valor predeterminado.
+>El entorno `None` es el valor predeterminado.
 
 ## Parámetros {#section-10e49e27f60743da970a4ff1c4587eab}
 
@@ -37,8 +37,8 @@ Cargue la configuración para procesar los archivos ZIP y TAR como recursos prin
    <td colname="col3"> <p>Controla el procesamiento de archivos ZIP y TAR. Proporciona dos opciones: 
      <ul id="ul_F34E2F3B9B74450CA7E76BD9FD7137C2">
       <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> Ninguno:</span> Procesar como recursos principales. </li>
-      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> Descomprimir:</span> Extraer y procesar contenido. </li>
-     </ul><p>Nota: Las constantes de cadena distinguen entre mayúsculas y minúsculas. Uso <span class="codeph"> Descomprimir</span>, no <span class="codeph"> descomprimir</span> o <span class="codeph"> descomprimir</span>. </p></p> </td> 
+      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> Descomprimir:</span> Extraer y procesar el contenido. </li>
+     </ul><p>Nota: Las constantes de cadena distinguen entre mayúsculas y minúsculas. Uso <span class="codeph"> Descomprimir</span>, no <span class="codeph"> descomprimir</span>, o <span class="codeph"> descomprimir</span>. </p></p> </td> 
   </tr> 
  </tbody> 
 </table>

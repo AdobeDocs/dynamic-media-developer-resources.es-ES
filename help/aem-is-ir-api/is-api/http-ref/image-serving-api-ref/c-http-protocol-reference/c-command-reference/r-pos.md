@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c2e9a1f3-7216-4ab0-9c37-57f083119cef
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '163'
 ht-degree: 2%
 
 ---
@@ -31,11 +31,11 @@ posN= *`coordN`*
  </tr> 
 </table>
 
-En el caso de las capas de imagen, texto y color sólido, `pos=` especifica la posición de un anclaje de capa en relación con el anclaje de capa 0. `posN=` los valores de coordenadas se normalizan en relación con el tamaño real de la capa 0 rect.
+Si hay una imagen, texto y capas de color sólido, `pos=` especifica la posición de un anclaje de capa en relación con el anclaje de capa 0. El `posN=` los valores de coordenadas se normalizan en relación con el tamaño real de la capa 0 rect.
 
-En el caso de capas de efecto, `pos=` desplaza la capa de efecto en relación con la capa principal.
+Si hay capas de efecto, `pos=` desplaza la capa de efecto en relación con la capa principal.
 
-Los valores positivos mueven la capa hacia la derecha/abajo, los negativos hacia la izquierda/arriba. `posN=0.5,0.5` mueve la capa a la mitad de la anchura y altura de la capa 0 hacia abajo y hacia la derecha.
+Los valores positivos mueven la capa hacia la derecha/abajo y los negativos hacia la izquierda/arriba. Entrada `posN=0.5,0.5`, mueve la capa a la mitad de la anchura y altura de la capa 0 hacia abajo y hacia la derecha.
 
 ## Propiedades {#section-51a60cdc52d040538fef378ace7c2e7d}
 
@@ -43,7 +43,7 @@ Atributo de capa. Ignorado si `layer=0` o `layer=comp`.
 
 ## Predeterminado {#section-70a6bc71ded5494e843194dfb6bf5a6c}
 
-`posN=0,0`. Esto coloca el anclaje de la capa en la misma ubicación que el anclaje de la capa 0 si se trata de una capa de imagen, texto o color sólido. Coloca una capa de efecto directamente encima o debajo de su capa principal.
+`posN=0,0`. Esta coordenada coloca el anclaje de la capa en la misma ubicación que el anclaje de la capa 0 si se trata de una capa de imagen, texto o color sólido. Coloca una capa de efecto directamente encima o debajo de su capa principal.
 
 ## Ejemplo {#section-a89a02c22f6b4260bfcf7c842cd6069d}
 

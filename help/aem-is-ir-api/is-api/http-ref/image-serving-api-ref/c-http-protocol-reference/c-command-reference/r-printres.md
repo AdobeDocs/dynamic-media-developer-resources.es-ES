@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 81c4c3b8-946d-401b-a279-ba3f426ea5a4
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '125'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ Resolución de impresión. Anula el valor de resolución de impresión incrustad
  </tr> 
 </table>
 
-La resolución de impresión se define normalmente por `catalog::PrintResolution` en el caso de una entrada de catálogo, o por el valor de resolución de impresión incrustado en la imagen de origen. En el caso de una plantilla o una imagen compuesta con capas, la resolución de impresión predeterminada incrustada en el archivo de respuesta es la resolución de impresión de la imagen de capa con el número de capa más bajo.
+La resolución de impresión se define normalmente por `catalog::PrintResolution` si es una entrada de catálogo, de lo contrario, por el valor de resolución de impresión incrustado en la imagen de origen. Si hay una plantilla o una imagen compuesta con capas, la resolución de impresión predeterminada incrustada en el archivo de respuesta es la resolución de impresión de la imagen de capa con el número de capa más bajo.
 
 La configuración de la resolución de impresión no cambia el tamaño en píxeles de la imagen de respuesta.
 
@@ -35,7 +35,8 @@ Atributo de solicitud. Se aplica independientemente de la configuración de capa
 
 ## Predeterminado {#section-d7d89fd235cc418fb381014612530f00}
 
-`catalog::PrintResolution` o la resolución de impresión incrustada en la imagen de origen.
+`catalog::PrintResolution`
+O la resolución de impresión incrustada en la imagen de origen.
 
 ## Véase también {#section-4c479b6d6ccd41fc9ce8b239a28e726d}
 

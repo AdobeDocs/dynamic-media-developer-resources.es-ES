@@ -1,13 +1,13 @@
 ---
+title: mapa
 description: Datos de mapa de imagen.
 solution: Experience Manager
-title: mapa
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3330f49a-934e-492a-804c-ace4d147c65a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '217'
 ht-degree: 4%
 
 ---
@@ -29,13 +29,13 @@ Datos de mapa de imagen.
  </tr> 
 </table>
 
-Devuelve `catalog::Map` sin modificación al consultar una entrada de catálogo simple sin comandos adicionales especificados (no se escalará a `catalog::maxPix`).
+Devuelve `catalog::Map` sin modificación al consultar una entrada de catálogo simple sin comandos adicionales especificados (no se escala a `catalog::maxPix`).
 
-Si se especifican otros comandos en la solicitud, se devuelve un mapa de imagen compuesto, que se deriva escalando, recortando, rotando y superponiendo todas las capas `catalog::Map` y/o `map=` comandos incluidos en la solicitud, tal como lo serían los datos de imagen con `req=img`.
+Si se especifican otros comandos en la solicitud, se devuelve un mapa de imagen compuesto. El mapa de imagen compuesto se deriva escalando, recortando, girando y superponiendo capas `catalog::Map` y/o `map=` comandos incluidos en la solicitud, tal como lo serían los datos de imagen con `req=img`.
 
-Especificar `text` o bien omita el segundo parámetro para devolver los datos del mapa de imagen en forma de `HTML <AREA>` cadena de elemento con tipo MIME de respuesta `text/plain`.
+Especificar `text` o omita el segundo parámetro para que pueda devolver los datos del mapa de imagen en forma de `HTML <AREA>` cadena de elemento con tipo MIME de respuesta `text/plain`.
 
-Especificar `xml` para dar formato a la respuesta como XML en lugar de como HTML. Se puede especificar la codificación de texto de forma opcional. El valor predeterminado es `UTF-8`.
+Especificar `xml` para que pueda dar formato a la respuesta como XML en lugar de como HTML. Se puede especificar la codificación de texto de forma opcional. El valor predeterminado es `UTF-8`.
 
 Devuelve una cadena vacía (o vacía) `<AREA>` ) si no se encontraron datos de asignación para los objetos de catálogo especificados, o si no se encontraron datos de asignación para los objetos de catálogo especificados `<AREA>` después de recortar las imágenes, los elementos permanecen.
 
@@ -45,6 +45,6 @@ Las solicitudes compatibles con el formato de respuesta JSONP permiten especific
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` es el nombre del controlador JS presente en la respuesta JSONP. Solo se permiten los caracteres a-z, A-Z y 0-9. Opcional. El valor predeterminado es `s7jsonResponse`.
+El `<reqHandler>` es el nombre del controlador JS presente en la respuesta JSONP. Solo se permiten los caracteres a-z, A-Z y 0-9. Opcional. El valor predeterminado es `s7jsonResponse`.
 
 Consulte [Mapas de imagen](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md#reference-ff7d1bac2a064104b0c508a81316fdab).

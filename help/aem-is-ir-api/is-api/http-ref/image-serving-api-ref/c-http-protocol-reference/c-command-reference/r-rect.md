@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1870001b-7904-470f-9582-984d453509ca
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '361'
 ht-degree: 1%
 
 ---
@@ -37,11 +37,11 @@ Con este comando, el servicio de imágenes puede enviar imágenes grandes a trav
 
 >[!NOTE]
 >
->Para obtener mejores resultados cuando se utiliza la compresión del JPEG, el tamaño de la tira o del mosaico debe ser un múltiplo del tamaño del mosaico de codificación del JPEG (16 x 16 píxeles).
+>Para obtener los mejores resultados, cuando se utiliza la compresión del JPEG, el tamaño de la tira o del mosaico debe ser un múltiplo del tamaño del mosaico de codificación del JPEG (16 x 16 píxeles).
 
 ## Ejemplo {#section-932fcfcb41d74a29bc929e4430c49601}
 
-Separe una imagen CMYK imprimible en varias tiras de resolución completa para reducir los tamaños de archivo de descarga. Si se solicitara una imagen contigua:
+Separe una imagen CMYK imprimible en varias tiras de resolución completa para reducir los tamaños de archivo de descarga. Si ha solicitado una imagen contigua:
 
 `http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&fmt=tif&icc=WebCoated`
 
@@ -53,9 +53,9 @@ La respuesta de texto incluye estas propiedades:
 
 `image.width=2000 image.height=2400 image.version=37JK6NTvpvC42F5gOuLEVY`
 
-Basándonos en esta información, decidimos que queremos cuatro tiras de 600x2000 píxeles. El `rect=` El comando se utiliza para describir los tamaños y las posiciones de las bandas.
+Según esta información, se desean cuatro tiras de píxeles de 600x2000. El `rect=` El comando se utiliza para describir los tamaños y las posiciones de las bandas.
 
-Dado que esta imagen cambia con frecuencia, incluiremos el `id=` para minimizar la posibilidad de que terminemos con una o más tiras de una versión anterior de la imagen que puede haberse almacenado en caché en un servidor CDN o proxy. El valor del `image.version` La propiedad se utiliza para este fin.
+Dado que esta imagen cambia con frecuencia, la variable `id=` se incluye el comando. Al hacerlo, se minimiza la posibilidad de terminar con una o más tiras de una versión anterior de la imagen que puede haberse almacenado en caché en un servidor CDN o proxy. El valor del `image.version` La propiedad se utiliza para este fin.
 
 `http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,0,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,600,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,1200,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,1800,2000,600`
 

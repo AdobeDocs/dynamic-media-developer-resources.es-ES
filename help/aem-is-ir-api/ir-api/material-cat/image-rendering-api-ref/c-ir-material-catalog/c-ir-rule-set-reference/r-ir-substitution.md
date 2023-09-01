@@ -1,11 +1,11 @@
 ---
+title: sustitución
 description: Elemento de cadena de sustitución. Opcional en <rule> elementos.
 solution: Experience Manager
-title: sustitución
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ea44d940-e8dd-4a25-a082-3ed3c0f57e45
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 3%
@@ -26,7 +26,7 @@ Cadena de sustitución.
 
 ## Descripción {#section-b6ab78ca5b0b4d508c71e553566cc9f3}
 
-Define una cadena de reemplazo para la cadena o subcadena coincidente en la ruta de acceso o consulta.
+Define una cadena de reemplazo para la cadena o subcadena coincidente de la ruta de acceso o consulta.
 
 Si la expresión de patrón incluye subexpresiones (delimitadas por paréntesis), la primera subcadena coincidente se reemplaza por la cadena de sustitución. Si la expresión de patrón no incluye subexpresiones, se sustituye toda la cadena coincidente.
 

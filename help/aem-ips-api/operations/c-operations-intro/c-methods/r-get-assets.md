@@ -1,20 +1,20 @@
 ---
-description: Devuelve recursos de IPS.
-solution: Experience Manager
 title: getAssets
+description: Devuelve recursos del sistema de producción de imágenes (IPS).
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 3b63da9c-f10a-40bf-8e3c-4f0bfc53d74c
-source-git-commit: e7370f699fea8a2c248a33ebc8925d98231e6b26
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 21%
+source-wordcount: '131'
+ht-degree: 19%
 
 ---
 
 # getAssets{#getassets}
 
-Devuelve recursos de IPS.
+Devuelve recursos del sistema de producción de imágenes (IPS).
 
 Sintaxis
 

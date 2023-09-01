@@ -1,13 +1,13 @@
 ---
+title: req
 description: Tipo de solicitud. Especifica el tipo de solicitud.
 solution: Experience Manager
-title: req
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9242c873-5a85-4ede-82b6-4ef15feecf50
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '243'
 ht-degree: 3%
 
 ---
@@ -36,11 +36,11 @@ Tipo de solicitud. Especifica el tipo de solicitud.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> estado de superposición</span> </p> </td> 
-   <td colname="col2"> <p>Devuelve la lista XML de los cuales <span class="codeph"> &lt;richtext /&gt;</span> elementos están desbordados. </p> <p>Devuelve una lista xml de <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> elementos que se desbordan para procesarse en el lado del cliente. Solo <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> se devuelven los elementos desbordados. <span class="+ topic/ph pr-d/codeph codeph"> s7:elementid</span> es un obligatorio <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> atributo al usar <span class="+ topic/ph pr-d/codeph codeph"> req=oversetstatus</span>. Cualquier desbordamiento <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> elementos sin un <span class="+ topic/ph pr-d/codeph codeph"> s7:elementid</span> no aparece en la lista. Cada <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> de la lista tiene el <span class="+ topic/ph pr-d/codeph codeph"> s7:elementid</span>, <span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span>y el cuadro delimitador del marco de texto desbordado. El <span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span> El atributo indica el índice de texto en el artículo hasta el cual el texto cabía en el marco. <span class="+ topic/ph pr-d/codeph codeph"> Req=oversetstatus</span> solo se aplica a <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> elementos en el FXG solicitado. No se mostrará ninguna <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> elementos de cualquier FXG incrustado. </p> </td> 
+   <td colname="col2"> <p>Devuelve una lista XML de la cual <span class="codeph"> &lt;richtext /&gt;</span> elementos están desbordados. </p> <p>Devuelve una lista xml de <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> elementos que se desbordan para procesarse en el lado del cliente. Solo <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> se devuelven los elementos desbordados. El <span class="+ topic/ph pr-d/codeph codeph"> s7:elementid</span> es un obligatorio <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> atributo al usar <span class="+ topic/ph pr-d/codeph codeph"> req=oversetstatus</span>. Cualquier desbordamiento <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> elementos sin un <span class="+ topic/ph pr-d/codeph codeph"> s7:elementid</span> no aparece en la lista. Cada <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> de la lista tiene el <span class="+ topic/ph pr-d/codeph codeph"> s7:elementid</span>, <span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span>y el cuadro delimitador del marco de texto desbordado. El <span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span> El atributo indica el índice de texto en el artículo hasta el cual el texto cabía en el marco. El <span class="+ topic/ph pr-d/codeph codeph"> Req=oversetstatus</span> solo se aplica a <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> elementos en el FXG solicitado. No se muestra ninguna <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> elementos de cualquier FXG incrustado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> existe</span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> req=exists[,text|javascript|xml|{json[&amp;id=reqId]}]</span> </p> <p>identificador único de solicitud reqId </p> <p>Devuelve una sola propiedad denominada catalogRecord.exists. El valor de la propiedad se establece en "1" si la entrada de catálogo especificada existe en la imagen o en el catálogo predeterminado; de lo contrario, se establece en "0". req=exists solicitudes contra el contexto /is/content indicará la presencia o ausencia de un registro especificado en el catálogo de contenido estático. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> req=exists[,text|javascript|xml|{json[&amp;id=reqId]}]</span> </p> <p>identificador único de solicitud reqId </p> <p>Devuelve una sola propiedad denominada catalogRecord.exists. El valor de la propiedad se establece en "1" si la entrada de catálogo especificada existe en la imagen o en el catálogo predeterminado; de lo contrario, se establece en "0". req=exists indica la presencia o ausencia de un registro especificado en el catálogo de contenido estático. </p> </td> 
   </tr> 
  </tbody> 
 </table>

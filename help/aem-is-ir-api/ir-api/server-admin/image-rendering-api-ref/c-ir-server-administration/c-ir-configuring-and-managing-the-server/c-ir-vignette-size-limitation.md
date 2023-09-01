@@ -1,13 +1,13 @@
 ---
+title: Limitación de tamaño de viñeta
 description: El procesamiento de imágenes impone una limitación de tamaño de dos megapíxeles para las viñetas que no son piramidales.
 solution: Experience Manager
-title: Limitación de tamaño de viñeta
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 69116b7f-45c0-42ed-9114-d01db3ce16be
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '73'
 ht-degree: 0%
 
 ---
@@ -20,4 +20,4 @@ Modifique el valor de `IrMaxNonPyrVignetteSize` en [!DNL *[!DNL install_root]* /
 
 >[!NOTE]
 >
->`attribute::MaxPix` y `IS::MaxMessageSize` también puede ser necesario ajustar para permitir tamaños de imagen de respuesta inusualmente grandes. Consulte la documentación del servicio de imágenes para obtener más información.
+>Ajuste de los atributos `attribute::MaxPix` y `IS::MaxMessageSize` para permitir tamaños de imagen de respuesta inusualmente grandes. Consulte la documentación del servicio de imágenes para obtener más información.

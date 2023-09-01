@@ -1,20 +1,20 @@
 ---
 title: perspectiva
-description: Transformación en perspectiva. Aplique una transformación de perspectiva a la imagen de origen de la capa para rellenar la región especificada con el cuadrilátero. Otras áreas de la capa permanecen transparentes.
+description: Transformación en perspectiva. Aplique una transformación de perspectiva a la imagen de origen de la capa para que rellene la región especificada con el cuadrilátero. Otras áreas de la capa permanecen transparentes.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2e0297b0-c9a4-4bbd-9f06-368f722288d4
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '461'
 ht-degree: 1%
 
 ---
 
 # perspectiva{#perspective}
 
-Transformación en perspectiva. Aplique una transformación de perspectiva a la imagen de origen de la capa para rellenar la región especificada con el cuadrilátero. Otras áreas de la capa permanecen transparentes.
+Transformación en perspectiva. Aplique una transformación de perspectiva a la imagen de origen de la capa para que rellene la región especificada con el cuadrilátero. Otras áreas de la capa permanecen transparentes.
 
 `perspective= *`perspQuad`*[, *`resOptions`*]`
 
@@ -35,27 +35,27 @@ Transformación en perspectiva. Aplique una transformación de perspectiva a la 
  </tr> 
 </table>
 
-*`perspQuad`* consta de cuatro valores de coordenadas de píxel en el espacio de coordenadas compuesto (o capa 0), que se origina en la esquina superior izquierda de la imagen compuesta.
+El modificador *`perspQuad`* consta de cuatro valores de coordenadas de píxel en el espacio de coordenadas compuesto (o capa 0), que se origina en la esquina superior izquierda de la imagen compuesta.
 
-`perspQuadN` consta de cuatro valores de coordenadas normalizados, donde `0.0,0.0` corresponde a la esquina superior izquierda de la imagen compuesta/de capa 0 y `1.0,1.0` en la esquina inferior derecha.
+El modificador `perspQuadN` consta de cuatro valores de coordenadas normalizados, donde `0.0,0.0` corresponde a la esquina superior izquierda de la imagen compuesta/de capa 0 y `1.0,1.0` en la esquina inferior derecha.
 
 La imagen de entrada se transforma de modo que la esquina superior izquierda de la imagen de entrada se asigna al primer valor de coordenada de `perspQuad[N]`, la esquina superior derecha a la segunda coordenada, la esquina inferior derecha a la tercera coordenada y la esquina inferior izquierda a la cuarta coordenada.
 
 >[!NOTE]
 >
->`pos=` se puede utilizar para situar aún más la capa transformada en la imagen compuesta.
+>El modificador `pos=` se puede utilizar para colocar aún más la capa transformada en la imagen compuesta.
 
 Las coordenadas cuadrilaterales en perspectiva pueden estar ubicadas fuera de la imagen compuesta.
 
-El comportamiento es indefinido si el cuadrilátero no es adecuado para una transformación en perspectiva (por ejemplo, si dos o más vértices coinciden, si tres o todos los vértices están en la misma línea o si el cuadrilátero es autointersecante o cóncavo).
+El comportamiento es indefinido si el cuadrilátero no es adecuado para una transformación en perspectiva. Por ejemplo, si dos o más vértices coinciden, si tres o todos los vértices están en la misma línea, o si el cuadrilátero es autointersecante o cóncavo.
 
 ## Consideraciones de calidad {#section-7cc9056afa614300a9b8844d39739fc3}
 
-Aunque la implementación predeterminada produce un compromiso razonable entre calidad y rendimiento, a veces puede ser necesario aumentar la resolución de la imagen de origen para mejorar la nitidez o reducirla para reducir los defectos de solapamiento.
+Aunque la implementación predeterminada produce un compromiso razonable entre calidad y rendimiento, puede ser necesario aumentar la resolución de la imagen de origen para mejorar la nitidez o reducirla para reducir los defectos de solapamiento.
 
-Si el origen es una imagen, utilice `scale=` para elegir una resolución diferente (relativa a la resolución completa de la imagen). El especificado `scale=` El valor se redondea al siguiente nivel de resolución PTIF superior. En el caso de un origen de solicitud anidado, el tamaño de la imagen producido por la solicitud anidada se puede ajustar para lograr la nitidez deseada. Para las capas de texto, la resolución de la imagen de entrada (el texto procesado) se ajusta seleccionando un tamaño= valor más grande junto con el aumento de la resolución especificada con `textAttr=`.
+Si el origen es una imagen, utilice `scale=` para elegir una resolución diferente (relativa a la resolución completa de la imagen). El especificado `scale=` El valor se redondea al siguiente nivel de resolución PTIF superior. Si hay un origen de solicitud anidado, el tamaño de la imagen producido por la solicitud anidada se puede ajustar para lograr la nitidez deseada. Para las capas de texto, la resolución de la imagen de entrada (el texto procesado) se ajusta seleccionando un tamaño= valor más grande al aumentar la resolución especificada con `textAttr=`.
 
-*`resOptions`* permite seleccionar un algoritmo de remuestreo alternativo. Se admiten los siguientes valores (distingue entre mayúsculas y minúsculas):
+El modificador *`resOptions`* permite seleccionar un algoritmo de remuestreo alternativo. Se admiten los siguientes valores (distingue entre mayúsculas y minúsculas):
 
 <table id="table_0F20007986324E228096888ED37219C0"> 
  <thead> 
@@ -88,7 +88,7 @@ Si el origen es una imagen, utilice `scale=` para elegir una resolución diferen
 
 Capa, comando. Se aplica a la capa actual o a la capa 0 si `layer=comp`. Ignorado por las capas de efecto.
 
-`res=` siempre se ignora cuando la perspectiva está presente en la misma capa. `size=` se ignora cuando se especifica para capas de imagen. `size=` y `res=` en capas con `perspective=` están reservadas para uso futuro.
+El modificador `res=` siempre se ignora cuando la perspectiva está presente en la misma capa. El modificador `size=` se ignora cuando se especifica para capas de imagen. Los modificadores `size=` y `res=` en capas con `perspective=` están reservadas para uso futuro.
 
 ## Predeterminado {#section-e35683395d514d4eb6b32924e1bf8f2f}
 

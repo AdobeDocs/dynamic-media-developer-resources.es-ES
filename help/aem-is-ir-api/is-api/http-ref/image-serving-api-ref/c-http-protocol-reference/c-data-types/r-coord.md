@@ -1,20 +1,20 @@
 ---
 title: coord
-description: Coordenadas en píxeles. Se utiliza para especificar coordenadas de imagen en forma de desplazamiento de píxel con relación a la esquina superior izquierda de un rectángulo de imagen o capa. Estos suelen utilizarse en desplazamientos de imagen o parámetros de recorte.
+description: Coordenadas en píxeles. Se utiliza para especificar coordenadas de imagen en forma de desplazamiento de píxel con relación a la esquina superior izquierda de un rectángulo de imagen o capa. Estas coordenadas se utilizan a menudo en desplazamientos de imagen o parámetros de recorte.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 12ca4002-a540-4eb9-bb11-824d7cb41d30
-source-git-commit: 13991f71ab54d1003a79a496b861d53a61899bdc
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
 
 # coord{#coord}
 
-Coordenadas en píxeles. Se utiliza para especificar coordenadas de imagen en forma de desplazamiento de píxel con relación a la esquina superior izquierda de un rectángulo de imagen o capa. Estos suelen utilizarse en desplazamientos de imagen o parámetros de recorte.
+Coordenadas en píxeles. Se utiliza para especificar coordenadas de imagen en forma de desplazamiento de píxel con relación a la esquina superior izquierda de un rectángulo de imagen o capa. Estas coordenadas se utilizan a menudo en desplazamientos de imagen o parámetros de recorte.
 
 <table id="simpletable_A686120953124ACB8803CB9C877252AB"> 
  <tr class="strow"> 

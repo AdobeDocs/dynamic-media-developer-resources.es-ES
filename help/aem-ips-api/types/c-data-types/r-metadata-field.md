@@ -1,13 +1,13 @@
 ---
+title: MetadataField
 description: Definiciones de campo definidas por el usuario para recursos específicos.
 solution: Experience Manager
-title: MetadataField
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 97175076-9078-4bc4-b3ea-73c3ea772f6a
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '145'
 ht-degree: 15%
 
 ---
@@ -72,7 +72,7 @@ Recupere las definiciones de campo de etiqueta con la variable `getMetadataField
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Permite crear un conjunto de valores enumerados compartidos a los que pueden apuntar las etiquetas seleccionadas. </td> 
+   <td colname="col3"> Permite crear un conjunto de valores especificados compartidos a los que pueden apuntar las etiquetas seleccionadas. </td> 
   </tr> 
  </tbody> 
 </table>

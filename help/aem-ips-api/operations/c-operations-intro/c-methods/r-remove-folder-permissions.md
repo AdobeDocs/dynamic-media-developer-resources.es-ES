@@ -1,14 +1,14 @@
 ---
+title: removeFolderPermissions
 description: Quita los permisos de carpeta.
 solution: Experience Manager
-title: removeFolderPermissions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 10830980-d504-4610-96c9-730937453256
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 17%
+source-wordcount: '105'
+ht-degree: 18%
 
 ---
 
@@ -56,7 +56,7 @@ Sintaxis
    <td colname="col3"> Sí </td> 
    <td colname="col4"> <p>Cuándo <span class="codeph"> true</span>: 
      <ul id="ul_1305D060E0F34A61AA3C827E43F296E6"> 
-      <li id="li_AB8705F3CEAD4B8A8F1C28291A6F7EC8">La eliminación de permisos se propaga a través de todas las operaciones de permisos de carpetas. </li> 
+      <li id="li_AB8705F3CEAD4B8A8F1C28291A6F7EC8">La eliminación de permisos se propaga a través de todas las operaciones de permisos de carpeta. </li> 
      </ul> </p> <p>Cuándo <span class="codeph"> false</span>: 
      <ul id="ul_19AEE80F1FC84B64AD623E050C12A0CD"> 
       <li id="li_B8B78851004C43DB8CB7958E380AF510">La operación solo afecta a la carpeta especificada. </li> 
@@ -71,7 +71,7 @@ La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-04390f0ec7cc460cb5d34d518e33e7a5}
 
-Este ejemplo de código quita los permisos de una carpeta y sus subcarpetas. Establecer `updateChildren` hasta `false` si solo necesita quitar permisos de la carpeta principal.
+Este ejemplo de código quita los permisos de una carpeta y sus subcarpetas. Establecer `updateChildren` hasta `false` para quitar permisos únicamente de la carpeta principal.
 
 **Solicitar**
 

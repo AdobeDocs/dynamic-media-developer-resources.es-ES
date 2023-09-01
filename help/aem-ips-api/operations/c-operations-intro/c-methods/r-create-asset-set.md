@@ -1,11 +1,11 @@
 ---
+title: createAssetSet
 description: Crea un conjunto de recursos genérico con una cadena de definición de conjunto sin procesar para publicarlo en un servidor de imágenes.
 solution: Experience Manager
-title: createAssetSet
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 4565eb4f-eeb7-4b98-bfef-1a59e9a931af
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 10%
@@ -45,7 +45,7 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> El identificador de la compañía que contendrá el conjunto de recursos. </td> 
+   <td colname="col4"> El identificador de la compañía que contiene el conjunto de recursos. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle </span> </span> </td> 
@@ -69,7 +69,7 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Los parámetros de la cadena de definición del conjunto. <p>Deben resolverse en el formato especificado por el visor de destino. </p> </td> 
+   <td colname="col4"> Los parámetros de la cadena de definición del conjunto. <p>Estos parámetros deben resolverse en el formato especificado por el visor de destino. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle </span> </span> </td> 
@@ -82,7 +82,7 @@ Sintaxis
 
 **Funciones de sustitución para setDefinition**
 
-Puede especificar funciones de sustitución en línea que se resuelven durante la búsqueda o publicación del catálogo. Las cadenas de sustitución tienen el formato `${<substitution_func>}`. A continuación se enumeran las funciones disponibles.
+Puede especificar funciones de sustitución en línea que se resuelven durante la búsqueda o publicación del catálogo. Las cadenas de sustitución tienen el formato `${<substitution_func>}`. Las funciones disponibles se describen a continuación.
 
 >[!NOTE]
 >
@@ -102,7 +102,7 @@ ${getCatalogId([a|1664|22|1664])};${getCatalogId([a|1664|22|1664])};1,${getFileP
 6|19|144])};${getCatalogId([a|452|1|433])};2;${getMetadata([a|1036|19|144], [m|1|ASSET|SharedDateField])} 
 ```
 
-En el momento de la búsqueda o publicación del catálogo, esto se resuelve en una cadena similar a la siguiente:
+En la búsqueda del catálogo o en el momento de la publicación, este proceso se resuelve en una cadena similar a la siguiente:
 
 ```java
 jcompany/myRenderSet;jcompany/myRenderSet;1,jcompany/Videos/Somebodys_N08275_flv.flv;jcomp any/myimg-1;2;20090703 10:05:53

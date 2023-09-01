@@ -1,24 +1,24 @@
 ---
-description: La configuración de esta sección solo debe tenerse en cuenta si se requiere la renderización del SVG.
-solution: Experience Manager
 title: SVG
+description: La configuración de esta sección debe tenerse en cuenta solo si se requiere la renderización del SVG.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 2863cc86-1f79-4db3-bd6f-a42839ef3439
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '267'
 ht-degree: 1%
 
 ---
 
 # SVG{#svg}
 
-La configuración de esta sección solo debe tenerse en cuenta si se requiere la renderización del SVG.
+La configuración de esta sección debe tenerse en cuenta solo si se requiere la renderización del SVG.
 
 ## SV::SvgHeapSize: Tamaño de pila del SVG {#section-59ab17681daa4be8b5d794713e1a504e}
 
-El tamaño de la pila Java para el procesador de SVG. El valor predeterminado es 200 m (200 Mbytes).
+El tamaño de la pila Java para el procesador de SVG. El valor predeterminado es 200 m (200 MB).
 
 ## PS::svgProvider.rootPaths: carpetas raíz de datos de SVG {#section-70fe575b0ad54e3b8b6d3a01ea8f1f44}
 
@@ -30,7 +30,7 @@ Tamaño máximo del archivo de origen del SVG en kBytes. El servidor devuelve un
 
 ## IS::SvgMAxRenderRgnPixels: límite de tamaño de imagen de salida del SVG {#section-5be1fd9639424d878a5ffd11736d3920}
 
-Limita el tamaño de las imágenes que puede producir SVGRender. Valor entero mayor que 0 en millones de píxeles. Se devuelve un error si una operación de procesamiento supera el límite de tamaño. El valor predeterminado es 4.
+Limita el tamaño de las imágenes que SVGRender puede producir. Valor entero mayor que 0 en millones de píxeles. Se devuelve un error si una operación de procesamiento supera el límite de tamaño. El valor predeterminado es 4.
 
 ## PS::svgProvider.port - [!DNL Platform Server] Puerto de escucha {#section-f7e42a96c2dd4523b46f0557c239e659}
 
@@ -40,7 +40,7 @@ Importante: Para el correcto funcionamiento del componente SVGRender, esta opci�
 
 ## PS::svgProvider.fontRoot: carpeta de archivos de fuentes del SVG {#section-a8d45b0d68504945b8780f5eac351b0d}
 
-Especifica dónde encontrará SvgRender los archivos de fuente necesarios para representar el texto del SVG; normalmente, una de las rutas especificadas en `IS::RootPaths`. El valor predeterminado es [!DNL  *[!DNL install_folder]*/images].
+Especifica dónde encuentra SvgRender los archivos de fuente necesarios para representar el texto del SVG; normalmente, una de las rutas especificadas en `IS::RootPaths`. El valor predeterminado es [!DNL  *[!DNL install_folder]*/images].
 
 ## SVG::SVGRender.port, IS::SVGTcpPort: puerto de comunicaciones del SVG {#section-608687123aa644b7b58fe42385d71b79}
 

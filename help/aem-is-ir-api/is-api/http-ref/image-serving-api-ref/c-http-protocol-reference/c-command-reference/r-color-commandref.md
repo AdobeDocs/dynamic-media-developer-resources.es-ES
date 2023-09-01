@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b937e699-8e1e-4211-86a6-fdc155a0e3ed
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '195'
 ht-degree: 3%
 
 ---
@@ -25,13 +25,13 @@ Color de capa. Especifica el color de primer plano y la opacidad de las capas de
  </tr> 
 </table>
 
-En el caso de las capas de imagen y texto, `color=` rellena las áreas transparentes y semiopacas dentro del rectángulo delimitador de la capa con el color especificado* antes* `rotate=` y `extend=` se aplican.
+Si hay capas de imagen y texto, `color=` rellena las áreas transparentes y semiopacas dentro del rectángulo delimitador de la capa con el color especificado* antes* `rotate=` y `extend=` se aplican.
 
 ## Propiedades {#section-d6e74c36a49547849212e4db8927e678}
 
 Atributo de capa. Se aplica a la capa actual o a la capa 0 si `layer=comp`.
 
-*`color`* se supone que existe en el espacio de color de trabajo correspondiente al tipo de píxel de *`color`*. *`color`* se convierte con precisión si la imagen de capa tiene un tipo de píxel diferente en el momento de la combinación.
+El modificador *`color`* se supone que existe en el espacio de color de trabajo correspondiente al tipo de píxel de *`color`*. Y *`color`* se convierte con precisión si la imagen de capa tiene un tipo de píxel diferente en el momento de la combinación.
 
 ## Predeterminado {#section-60611c72876b4c45b5c85ce35608e5ec}
 
@@ -39,7 +39,7 @@ No hay valor predeterminado para capas de efectos y colores sólidos; se debe es
 
 ## Ejemplo {#section-2d090493f4ec4e188bbc5565aa151a05}
 
-En el siguiente fragmento de plantilla establecemos el fondo del texto en un color opaco del 50 % y utilizamos el mismo color para añadir un borde semitransparente de 10 píxeles alrededor de la imagen de capa 2:
+En el siguiente fragmento de plantilla, el fondo del texto se establece en un color opaco del 50 % y se utiliza el mismo color para añadir un borde semitransparente de 10 píxeles alrededor de la imagen de capa 2:
 
 `…&$color=214,245,130,128& layer=1&text=my-text-string&color=$color$&… layer=2&src=myRootId/myImageId&extend=10,10,10,10&bgColor=$color$&…`
 

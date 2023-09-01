@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 71d59961-848e-4d78-875e-066e842ac1bf
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '228'
 ht-degree: 3%
 
 ---
@@ -43,7 +43,7 @@ Cuantificación de color. Especifica atributos de cuantificación de color para 
 
 Atributo de solicitud. Se aplica independientemente de la configuración de capa actual. Solo se usa si `fmt=gif`, `fmt=gif-alpha`, `fmt=png8`, o `fmt=png8-alpha`. Se ignora en caso contrario.
 
-Los colores especificados con *`colorList`* debe constar de valores de RGB en formato hex6 (consulte [color](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md) sin `0x` prefijo. No se permiten otros especificadores de color. *`numColors`* debe estar entre 2 y 256.
+Los colores especificados con *`colorList`* debe constar de valores de RGB en formato hex6 (consulte [color](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md) sin `0x` prefijo. No se permiten otros especificadores de color. El modificador *`numColors`* debe estar entre 2 y 256.
 
 ## Predeterminado {#section-ca3e817617244e8798ccff67b2023a32}
 
@@ -53,11 +53,11 @@ Los colores especificados con *`colorList`* debe constar de valores de RGB en fo
 
 Genere una miniatura de GIF utilizando `web` y sin tramado:
 
-` http:// *`server`*/myRootId/myImageId?req=tmb&fmt=gif&quantize=web,off`
+`http:// *`*Servidores*`*/myRootId/myImageId?req=tmb&fmt=gif&quantize=web,off`
 
 Convierta la imagen en un GIF bi-tonal con transparencia de key-color y fuerza los colores a blanco y negro:
 
-` http:// *`server`*/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`
+`http:// *`*Servidores*`*/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`
 
 ## Véase también {#section-ea5e8de6084540cf86010370a4d0f01f}
 

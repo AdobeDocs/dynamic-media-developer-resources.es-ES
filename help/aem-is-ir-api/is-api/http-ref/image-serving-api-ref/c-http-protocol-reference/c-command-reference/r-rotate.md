@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9f1b2d6f-4e67-4530-9ec6-870b97687ce0
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '255'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ Rotar imagen. Gira la capa de color sólido, de texto o de imagen según el áng
  </tr> 
 </table>
 
-Los ángulos positivos giran en sentido horario. El punto de anclaje de capa ( `anchor=` o `catalog::Anchor`) sirve como centro de rotación. El rectángulo de capa se amplía y se ajusta alrededor de los datos girados según sea necesario para evitar el recorte. La rotación se aplica después de rellenar el área de fondo de la capa con `color=`. `bgColor=` se puede utilizar para añadir color de fondo al rectángulo delimitador después de la rotación.
+Los ángulos positivos giran en sentido horario. El punto de anclaje de capa ( `anchor=` o `catalog::Anchor`) sirve como centro de rotación. El rectángulo de capa se amplía y se ajusta alrededor de los datos girados según sea necesario para evitar el recorte. La rotación se aplica después de rellenar el área de fondo de la capa con `color=`. El modificador `bgColor=` se puede utilizar para añadir color de fondo al rectángulo delimitador después de la rotación.
 
 ## Propiedades {#section-8b5a9bb9062f48dbb8d4e9953ff39e39}
 
@@ -37,13 +37,13 @@ Capa, comando. Se aplica a la capa actual o a la capa 0 si `layer=comp`. Ignorad
 
 ## Ejemplo {#section-e8ab3ba8a8624b43aeaaa8f089fc2f00}
 
-Coloque una etiqueta &quot;En venta&quot; cerca de la esquina superior izquierda de las imágenes de un catálogo de imágenes. La imagen de la etiqueta ya tiene el tamaño correcto para la vista de 300x300 y debe girarse 30 grados a la izquierda. Rellene el cuadro de texto con un color blanco y semiopaco para mejorar la etiqueta.
+Coloque una etiqueta &quot;En venta&quot; cerca de la esquina superior izquierda de las imágenes de un catálogo de imágenes. La imagen de la etiqueta ya tiene el tamaño correcto para la vista de 300x300 y debe girarse 30° a la izquierda. Para mejorar la etiqueta, rellene el cuadro de texto con un color blanco y semiopaco.
 
 `http:// *`server`*/myRootId/myImageId?scl=1&size=300,300&origin=-0.5,-0.5 &layer=1&src=labelImage&origin=-0.5,-0.5&rotate=-30&color=ffffff40`
 
-Nosotros aplicamos `size=` a la capa 0 para establecer el tamaño de la vista, en lugar de utilizar `wid=` y `hei=`. Esto permite `myImageId` se redimensionará sin cambiar el tamaño final de `labelImage`. También tenemos que especificar `scl=1`, de lo contrario, la imagen compuesta podría escalarse a `attribute::DefaultPix` (a menos que esté ajustado en 0,0). `color=` agrega el color de fondo semiopaco al cuadro de texto antes de la rotación.
+Aplicar `size=` a la capa 0 para establecer el tamaño de la vista, en lugar de utilizar `wid=` y `hei=`. Este método permite `myImageId` se redimensionará sin cambiar el tamaño final de `labelImage`. Además, especifique `scl=1`, de lo contrario, la imagen compuesta podría escalarse a `attribute::DefaultPix` (a menos que esté ajustado en 0,0). El modificador `color=` agrega el color de fondo semiopaco al cuadro de texto antes de la rotación.
 
-El origen de ambas capas se establece en las esquinas superiores izquierdas para lograr la alineación deseada. Observe que el punto de origen de la capa 1 se aplica a `labelImage`después de haberla girado.
+El origen de ambas capas se define en la esquina superior izquierda para lograr la alineación deseada. El punto de origen de la capa 1 se aplica a `labelImage`después de girarlo.
 
 Consulte [Ejemplo A](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md#reference-c78ea82e8a1646738e764fa6685dfbac) in [Plantillas](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e) para ver un ejemplo de texto girado.
 

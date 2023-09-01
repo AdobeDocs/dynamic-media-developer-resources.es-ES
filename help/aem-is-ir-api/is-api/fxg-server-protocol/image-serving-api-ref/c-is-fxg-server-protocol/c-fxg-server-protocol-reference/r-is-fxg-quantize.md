@@ -1,11 +1,11 @@
 ---
+title: cuantificar
 description: Cuantificación de color. Especifica atributos de cuantificación de color para la conversión de salida del GIF.
 solution: Experience Manager
-title: cuantificar
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67247016-a038-4ed4-90ed-751eaf9c4881
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 1%
@@ -45,8 +45,8 @@ Cuantificación de color. Especifica atributos de cuantificación de color para 
 
 Genera una miniatura de GIF utilizando &#39; `web`&#39; y sin tramado:
 
-[!DNL http://server/myRootId/myImageId?req=tmb&fmt=gif&quantize=web,off]
+[!DNL `http://server/myRootId/myImageId?req=tmb&fmt=gif&quantize=web,off`]
 
 Convierta la imagen en un GIF bi-tonal con transparencia de key-color y fuerza los colores a blanco y negro:
 
-[!DNL http://server/is/agm/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff]
+[!DNL `http://server/is/agm/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`]

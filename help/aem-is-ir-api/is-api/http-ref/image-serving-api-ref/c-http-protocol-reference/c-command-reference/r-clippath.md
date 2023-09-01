@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 86c87cd1-6e08-40cb-80e6-35a9f49b6572
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '548'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ Ruta de clip de capa. Especifica un trazado de recorte para la capa actual.
  </tr> 
 </table>
 
-Partes de la capa que se encuentran fuera del área definida por `clipPath=` son transparentes.
+Cualquier parte de la capa que se encuentre fuera del área definida por `clipPath=` son transparentes.
 
 `*`pathName`*` es el nombre de un trazado incrustado en la imagen de origen de la capa. La ruta se transforma automáticamente para mantener la alineación relativa con el contenido de la imagen. Si hay más de uno `*`pathName`*` se especifica, el servidor recorta la imagen a la intersección de estas rutas. Cualquiera `*`pathName`*` no encontrado en la imagen de origen se ignora.
 
@@ -43,7 +43,7 @@ Partes de la capa que se encuentran fuera del área definida por `clipPath=` son
 
 If `size=` se especifica y no 0,0, la capa está presionada. En este caso, las coordenadas de trazado son relativas a la esquina superior izquierda del rectángulo de capa y la capa se coloca basándose en `origin=` o su valor predeterminado. Cualquier región del trazado fuera del rectángulo de capa permanecerá transparente.
 
-If `size=` no se ha especificado para una capa de texto o color sólido, la capa se considera de tamaño propio con la extensión del trazado que determina su tamaño. If `origin=` no se ha especificado, el valor por defecto es (0,0) del espacio de coordenadas de trazado. Esto permite especificar las coordenadas de ruta relativas al origen de la capa 0.
+If `size=` no se ha especificado para una capa de texto o color sólido, la capa se considera de tamaño propio con la extensión del trazado que determina su tamaño. If `origin=` no se ha especificado, el valor por defecto es (0,0) del espacio de coordenadas de trazado. Este proceso de flujo de trabajo permite especificar de forma eficaz las coordenadas de ruta en relación con el origen de la capa 0.
 
 >[!NOTE]
 >
@@ -105,13 +105,13 @@ Si una subruta comienza con un movimiento relativo (&#39;m&#39;), es relativa a 
 
 * El punto de partida de la subruta anterior, si se cerró con &quot;z&quot; o &quot;Z&quot;.
 * El punto final de la subruta anterior, si no se cerró explícitamente.
-* 0,0, si este es el primer subtrazado.
+* 0,0, si es el primer subtrazado.
 
 ## Propiedades {#section-d4127db0dac54e3cbd44f7ea1e001960}
 
 Atributo de capa. Se aplica a la capa actual o a la imagen compuesta si `layer=comp`. Las capas de efectos lo ignoran.
 
-`clipPathE=` se ignora si no se encuentra ninguna ruta con el nombre especificado en la imagen de origen de la capa o si el origen de la capa no es una imagen.
+El modificador `clipPathE=` se ignora si no se encuentra ninguna ruta con el nombre especificado en la imagen de origen de la capa o si el origen de la capa no es una imagen.
 
 ## Predeterminado {#section-076c35ea37fa4a44ada253b4c2dec1dd}
 

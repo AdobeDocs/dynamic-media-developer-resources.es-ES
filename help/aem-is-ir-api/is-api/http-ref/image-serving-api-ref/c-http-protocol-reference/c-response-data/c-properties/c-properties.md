@@ -1,11 +1,11 @@
 ---
+title: Propiedades
 description: Los datos de propiedad se devuelven en respuesta a varios tipos req=.
 solution: Experience Manager
-title: Propiedades
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 748f68a1-f3ec-4249-a257-1115bcb3ee4c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 4%

@@ -1,13 +1,13 @@
 ---
+title: getPublishContexts
 description: getPublishContexts
 solution: Experience Manager
-title: getPublishContexts
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7b26e659-71b9-40c4-9df4-94e78c3e4baf
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '86'
 ht-degree: 24%
 
 ---
@@ -33,7 +33,6 @@ Sintaxis
 >* El usuario debe tener acceso de lectura para devolver los recursos.
 >* Todos los usuarios tienen acceso a la compañía compartida.
 >
-
 
 ## Parámetros {#section-d08e2175d3f84774b55b91bc590b8b3f}
 

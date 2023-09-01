@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8be7be8c-a23d-4a5b-93e4-44231155616b
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '279'
 ht-degree: 3%
 
 ---
@@ -37,15 +37,15 @@ Perfil de color de salida.
  </tr> 
 </table>
 
-*`object`* especifica el perfil del espacio de color de salida al que se debe convertir la imagen si es diferente al perfil de trabajo. *`profile`* debe ser un válido `icc::Name` definido en el mapa de perfil ICC de un catálogo de imágenes o catálogo predeterminado, o una ruta relativa a un archivo de perfil (normalmente con [!DNL .icc] o [!DNL .icm] sufijo). Consulte [*`object`*](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0) para obtener más información.
+El valor *`object`* especifica el perfil del espacio de color de salida al que se debe convertir la imagen si es diferente del perfil de trabajo. El valor *`profile`* debe ser un válido `icc::Name` definido en el mapa de perfil ICC de un catálogo de imágenes o catálogo predeterminado, o una ruta relativa a un archivo de perfil (normalmente con [!DNL .icc] o [!DNL .icm] sufijo). Consulte [*`object`*](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0) para obtener más información.
 
 >[!NOTE]
 >
->*`object`* no puede incluir los caracteres &quot;,&quot; aunque tengan codificación HTTP.
+>El valor *`object`* no puede incluir los caracteres &quot;,&quot; aunque tengan codificación HTTP.
 
-*`renderIntent`* permite anular la interpretación predeterminada.
+El valor *`renderIntent`* permite anular la interpretación predeterminada.
 
-*`blackpointComp`* activa la compensación de punto negro si el perfil de salida admite esta función.
+El valor *`blackpointComp`* activa la compensación de punto negro si el perfil de salida admite esta función.
 
 >[!NOTE]
 >
@@ -53,17 +53,17 @@ Perfil de color de salida.
 
 Nota
 
-*`dither`* habilita el tramado (en realidad difusión por error), que puede evitar o reducir los defectos de las bandas de colores.
+El modificador *`dither`* habilita el tramado (en realidad difusión por error), que puede evitar o reducir los defectos de las bandas de colores.
 
 ## Propiedades {#section-9fcd3e7bd1fd43c887b0f18a2f3c7259}
 
-Atributo de solicitud. El servidor devolverá un error si se especifica un tipo de imagen con `fmt=` que no coincide *`profile`*.
+Atributo de solicitud. El servidor devuelve un error si se especifica un tipo de imagen con `fmt=` que no coincide *`profile`*.
 
-*`renderIntent`* y *`blackpointComp`* se ignoran si no son compatibles con el perfil ICC especificado. Es más probable que los perfiles de dispositivo de salida CMYK admitan distintas intenciones de procesamiento.
+Los modificadores *`renderIntent`* y *`blackpointComp`* se ignoran si no son compatibles con el perfil ICC especificado. Es más probable que los perfiles de dispositivo de salida CMYK admitan distintas intenciones de procesamiento.
 
 ## Predeterminado {#section-0b9fe2eb428447df8ae9948f11ab5aae}
 
-Si la administración de color está habilitada y `icc=` no se ha especificado, el servidor enviará la imagen convertida al perfil de salida ( `attribute::IccProfile*`) que coincide con el tipo de imagen especificado por `fmt=`.
+Si la administración de color está habilitada y `icc=` no se ha especificado, el servidor envía la imagen convertida al perfil de salida ( `attribute::IccProfile*`) que coincide con el tipo de imagen especificado por `fmt=`.
 
 Si no se especifica, *`renderIntent`* se hereda de `attribute::IccRenderIntent`, *`blackpointComp`* se hereda de `attribute::IccBlackPointCompensation`, y *`dither`* se hereda de `attribute::IccDither`.
 
