@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 451d8b4d-0f22-41f3-ac86-435797c23ea3
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 2%
@@ -21,11 +21,11 @@ Voltear capa. Voltea la capa horizontal, verticalmente o ambas, después de apli
 <table id="simpletable_072CA0E24B7146D48AEFD70E51E849C2"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> lr </span> </p> </td> 
-  <td class="stentry"> <p>Voltear la capa horizontalmente (izquierda-derecha). </p> </td> 
+  <td class="stentry"> <p>Voltee la capa horizontalmente (izquierda-derecha). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> ud </span> </p> </td> 
-  <td class="stentry"> <p>Voltear la capa verticalmente (arriba-abajo). </p> </td> 
+  <td class="stentry"> <p>Voltee la capa verticalmente (arriba-abajo). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> rudo </span> </p> </td> 
@@ -39,7 +39,7 @@ Algunos comandos, incluidos `extend=`, se aplica implícitamente a la capa 0 en 
 
 >[!NOTE]
 >
->La capa volteada se coloca en función del anclaje de la capa; si el anclaje no se encuentra en el centro de la capa, los diferentes valores de flip= resultarán en diferentes posiciones de la capa.
+>La capa volteada se coloca en función del anclaje de la capa. Different `flip=` Los valores de dan como resultado diferentes posiciones de la capa cuando el anclaje no está en el centro de la capa.
 
 ## Propiedades {#section-294da2af7be746b5adfc35e29ee68217}
 

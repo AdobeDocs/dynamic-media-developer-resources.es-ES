@@ -1,13 +1,13 @@
 ---
-description: Además del espacio necesario para instalar el software, el servicio de imágenes cuenta con los siguientes requisitos de espacio en disco
-solution: Experience Manager
 title: Requisitos y recomendaciones de espacio en disco
+description: Además del espacio necesario para instalar el software, el servicio de imágenes tiene los siguientes requisitos de espacio en disco.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 35486f3f-f0aa-4b69-a1d2-4bc6b5e41c43
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -42,12 +42,12 @@ Además del espacio necesario para instalar el software, el servicio de imágene
   </tr> 
   <tr> 
    <td> <p><b>Datos de registro</b> </p> <p> <span class="filepath"> <span class="varname"> carpeta_instalación </span>/logs </span> </p> <p> <span class="codeph"> PS::LogFolder </span> </p> <p> <span class="codeph"> IS::LogFile </span> </p> <p> <span class="codeph"> SV::LogFile </span> </p> </td> 
-   <td> <p>100 Mbytes o más. </p> </td> 
+   <td> <p>100 MB o más. </p> </td> 
    <td> <p>Varía según la configuración de registro y el uso del servidor. </p> </td> 
   </tr> 
   <tr> 
    <td> <p><b>Archivos temporales del servidor de imágenes</b> </p> <p> <span class="filepath"> <span class="varname"> carpeta_instalación </span>/temp </span> </p> <p> <span class="codeph"> IS::TempDirectory </span> </p> <p> <span class="codeph"> SV::TempDirectory </span> </p> </td> 
-   <td> <p>100 MBytes es suficiente para la mayoría de los usos. </p> </td> 
+   <td> <p>100 MB es suficiente para la mayoría de los usos. </p> </td> 
    <td> <p>Datos de corta duración; pueden ser necesarios para imágenes de origen distintas de PTIFF y ciertos formatos de imagen de respuesta. </p> </td> 
   </tr> 
  </tbody> 
@@ -55,14 +55,14 @@ Además del espacio necesario para instalar el software, el servicio de imágene
 
 ## Requisitos de espacio en disco para imágenes de origen {#section-317da75099ad480d9a461c7e706d4f1c}
 
-Se recomienda convertir todas las imágenes de origen al formato de archivo TIFF piramidal (PTIFF) con la herramienta de línea de comandos (IC) Image Converter. Esta conversión garantiza el rendimiento óptimo del tiempo de ejecución del servicio de imágenes para todas las aplicaciones. Aunque el servidor de imágenes puede procesar todos los formatos de archivo de origen aceptados por IC, Dynamic Media no proporciona soporte para estos usos.
+Adobe recomienda convertir todas las imágenes de origen al formato de archivo TIFF piramidal (PTIFF) mediante la herramienta de línea de comandos (IC) del convertidor de imágenes. Esta conversión garantiza el rendimiento óptimo del tiempo de ejecución del servicio de imágenes para todas las aplicaciones. Aunque el servidor de imágenes puede procesar todos los formatos de archivo de origen aceptados por IC, Dynamic Media no admite estos usos.
 
 Cuando se utilizan archivos PTIFF, las siguientes reglas pueden ayudarle a determinar los requisitos de espacio.
 
-*`total_space`* (bytes) = *`number_of_images`* x(2000 + *`avg_pixel_count`* x *`avg_num_components`* x *`p_factor`*)
+*`total_space`* (bytes) = *`number_of_images`*  × (más de 2000) *`avg_pixel_count`* x *`avg_num_components`*  ×  *`p_factor`*)
 
-* *`avg_pixel_count`* El tamaño de píxel promedio (anchura x altura) de todas las imágenes de origen originales. Por ejemplo, si las imágenes originales tienen normalmente unos píxeles de 2k x 2k, sería de 4M píxeles.
-* *`avg_num_components`* Depende del tipo de imágenes. Para imágenes mayoritariamente RGB es 3, para imágenes mayoritariamente CMYK o RGBA es 4. Utilice 3,5 si la mitad de las imágenes son RGB y la otra mitad es RGBA.
+* *`avg_pixel_count`* El tamaño de píxel promedio (anchura x altura) de todas las imágenes de origen originales. Por ejemplo, si las imágenes originales suelen tener alrededor de 2k × 2k píxeles, esto sería de 4 megapíxeles.
+* *`avg_num_components`* Depende del tipo de imágenes. Para imágenes mayoritariamente RGB, es 3; para imágenes CMYK o RGBA, es 4. Utilice 3,5 si la mitad de las imágenes son RGB y la otra mitad es RGBA.
 * *`p_factor`* Depende del tipo de compresión y de la calidad establecida cuando las imágenes se convierten con IC.
 
 <table id="table_89995BECF30243569954819D07DA2A2F"> 
@@ -94,8 +94,8 @@ Cuando se utilizan archivos PTIFF, las siguientes reglas pueden ayudarle a deter
 
 **Ejemplo**
 
-Una implementación del servicio de imágenes espera utilizar 30 000 imágenes heredadas de baja resolución, con un tamaño medio de 500 x 500 píxeles de RGB. Se espera añadir nuevos datos de calidad de impresión a un ritmo de 10.000 al año. El tamaño de imagen CMYK típico es de 4 k x 6 k bytes. Todos los datos tienen una compresión JPEG de alta calidad. La cantidad total de espacio en disco después de 3 años de uso se estima de la siguiente manera:
+Una implementación del servicio de imágenes espera utilizar 30 000 imágenes heredadas de baja resolución, con un tamaño medio de 500 × 500 píxeles de RGB. Se añaden nuevos datos de calidad de impresión a razón de 10.000 al año. El tamaño de imagen CMYK típico es de 4 k × 6 k bytes. Todos los datos tienen una compresión JPEG de alta calidad. La cantidad total de espacio en disco después de tres años de uso se estima de la siguiente manera:
 
-*`total_space`* = 30 000 x (2 k + 0,5 k x 0,5 k x 3 x 0,1) + 3 x 10 000 x (2 k + 4 k x 6 k x 4 x 0,1) = 2,2 G + 268 GB = aproximadamente 270 GB
+*`total_space`* = 30 000 × (2k + 0,5k × 0,5k × 3 × 0,1) + 3 × 10 000 × (2k + 4k × 6k × 4 × 0,1) = 2,2 G + 268 GB = aproximadamente 270 GB
 
-Para garantizar la mejor calidad, se puede utilizar la compresión deflate (zip). Suponiendo un *`p_factor`* de 0,4, la cantidad total de espacio en disco necesario es aproximadamente 4 veces mayor. En este caso, un poco más de 1 TB.
+Para garantizar la mejor calidad, se podría utilizar una compresión como zip. Suponiendo un *`p_factor`* de 0,4, la cantidad total de espacio en disco necesario es aproximadamente cuatro veces mayor. En este caso, un poco más de 1 terabyte.

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c812c7f0-4ac1-42cb-be47-7baebd8caf60
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '282'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ Ver altura. Especifica la altura de la imagen de respuesta (ver imagen) cuando e
 
 Si ambos `wid=` y `scl=` se especifican, la imagen compuesta se puede recortar según el `align=`atributo. Cuándo `fit=` está presente, `hei=` especifica la altura de imagen de respuesta exacta, mínima o máxima; consulte la descripción de [fit=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md) para obtener más información.
 
-If `scl=` no se ha especificado, la imagen compuesta se escala para ajustarse. Si ambos `wid=` y `hei=` se especifican, y `scl=` Si no se especifica, la imagen se escala para que quepa completamente dentro del rectángulo anchura/altura, dejando tan poca área de fondo expuesta como sea posible; en este caso, la imagen se coloca dentro del rectángulo de vista de acuerdo con la `align=` atributo. El área de fondo está llena de `bgc=`, o, si no se especifica con `attribute::BkgColor`.
+If `scl=` no se ha especificado, la imagen compuesta se escala para ajustarse. Si ambos `wid=` y `hei=` se especifican, y `scl=` no se especifica, la imagen se escala para ajustarse por completo al rectángulo wid/hei, dejando el menor área de fondo expuesta como sea posible. En este caso, la imagen se coloca dentro del rectángulo de vista según la variable `align=` atributo. El área de fondo está llena de `bgc=`, o, si no se especifica con `attribute::BkgColor`.
 
 >[!NOTE]
 >
@@ -43,11 +43,11 @@ Si ninguno `wid=`, `hei=`, ni `scl=` , la imagen de respuesta tendrá el tamaño
 
 ## Ejemplos {#section-eb10df7cd67e4733984810aaffd0b9e2}
 
-Solicite que una imagen se ajuste a un rectángulo de 200 x 200; en la parte superior izquierda, alinee la imagen si no es cuadrada. Cualquier área del fondo está llena de `attribute::BkgColor`.
+Solicite una imagen para que quepa en un rectángulo de 200 x 200; alinee la imagen en la parte superior izquierda si no es cuadrada. Cualquier área del fondo está llena de `attribute::BkgColor`.
 
 `http://server/myRootId/myImageId?wid=200&hei=200&align=-1,-1`
 
-La misma imagen, entregada a una altura fija de 200 píxeles, pero con una anchura variable para que coincida con la proporción de aspecto de la imagen. En este caso, la imagen devuelta nunca tendrá áreas de relleno de fondo. Tenga en cuenta que en este caso `align=` no tendría ningún efecto en absoluto.
+La misma imagen, entregada a una altura fija de 200 píxeles, pero con una anchura variable para que coincida con la proporción de aspecto de la imagen. En este caso, la imagen devuelta nunca tendrá áreas de relleno de fondo. Y, en este caso, `align=` no tendría ningún efecto en absoluto.
 
 `http://server/myRootId/myImageId?hei=200`
 

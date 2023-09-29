@@ -1,11 +1,11 @@
 ---
+title: encabezado
 description: Elemento de encabezado de respuesta HTTP. Opcional en <rule> elementos.
 solution: Experience Manager
-title: encabezado
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 40849602-16b2-471b-9128-14653e84a45a
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 4%
@@ -20,7 +20,7 @@ Elemento de encabezado de respuesta HTTP. Opcional en `<rule>` elementos.
 
 **`Name`= &quot;*texto*&quot;** : obligatorio. Especifica el nombre del encabezado HTTP.
 
-**`Action`= &quot;set&quot; |`"add"`**: Opcional. El valor predeterminado es `"set"`, que reemplaza cualquier valor de encabezado actual. Especificar `"add"` para anexar el valor del encabezado, separado con una coma.
+**`Action`= &quot;set&quot; |`"add"`**: Opcional. El valor predeterminado es `"set"`, que reemplaza cualquier valor de encabezado actual. Especificar `"add"` para que pueda anexar el valor del encabezado, separado con una coma.
 
 ## Datos {#section-a387f541396c49d99c29692a38032914}
 
@@ -28,7 +28,7 @@ Valor del encabezado.
 
 ## Descripción {#section-fb2a8ad79bc5414d8bb0d0e8199f3269}
 
-Permite añadir nuevos encabezados de respuesta HTTP, así como añadir o reemplazar valores de encabezados predefinidos. Los nombres y valores deben cumplir con los estándares HTTP. No se aplica ninguna codificación adicional.
+Permite añadir nuevos encabezados de respuesta HTTP y añadir o reemplazar valores de encabezados predefinidos. Los nombres y valores deben cumplir con los estándares HTTP. No se aplica ninguna codificación adicional.
 
 Las variables de sustitución del servicio de imágenes se pueden utilizar en el nombre y el valor del encabezado. Esto permite controlar ambas cadenas desde la solicitud.
 

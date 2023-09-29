@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0c8a3d2a-2524-436a-8bc7-60241af0fd17
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '449'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Atributos de capa de texto. Especifica atributos adicionales para las capas de t
 <table id="simpletable_0072BF7DF52B4959A14EDEF60A6EBDEE"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> res </span> </span> </p> </td> 
-  <td class="stentry"> <p>Proporciona un medio para cambiar la escala de la capa de texto sin cambiar el tamaño de la fuente. Los valores de resolución más altos aumentan el tamaño del texto procesado en relación con el tamaño del lienzo; los valores más pequeños reducen el tamaño del texto. Resolución de texto en puntos por pulgada (int mayor que 0). </p> </td> 
+  <td class="stentry"> <p>Proporciona un medio para cambiar el tamaño de la capa de texto sin cambiar el tamaño de la fuente. Los valores de resolución más altos aumentan el tamaño del texto procesado en relación con el tamaño del lienzo; los valores más pequeños reducen el tamaño del texto. Resolución de texto en puntos por pulgada (int mayor que 0). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> suavizado </span> </span> </p> </td> 
@@ -55,17 +55,17 @@ Atributos de capa de texto. Especifica atributos adicionales para las capas de t
     <table id="simpletable_2CFC06DB37154C7C92614FDF7A818DB5"> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> fixedRes </span> </p> </td> 
-      <td class="stentry"> <p>Utilizar la resolución especificada. </p> <p>Utilícelo si el texto se va a representar en un tamaño exacto en relación con el lienzo de composición. El texto se puede recortar al tamaño de la capa (si se especifica) si el cuadro de texto es demasiado pequeño. Este es el único <span class="varname"> resMode </span> opción admitida por <span class="codeph"> textPs= </span>. </p> </td> 
+      <td class="stentry"> <p>Utilizar la resolución especificada. </p> <p>Utilícelo si el texto se va a representar en un tamaño exacto en relación con el lienzo compuesto. El texto se puede recortar al tamaño de la capa (si se especifica) si el cuadro de texto es demasiado pequeño. Este es el único <span class="varname"> resMode </span> opción admitida por <span class="codeph"> textPs= </span>. </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> autoRes </span> </p> </td> 
-      <td class="stentry"> <p>Ajuste la resolución automáticamente para rellenar mejor la capa con el texto. </p> <p>Utilícelo para ajustar automáticamente el tamaño del texto de modo que el cuadro de texto se rellene en la medida de lo posible, sin riesgo de truncamiento. Si el ajuste de texto está habilitado, el texto se puede ajustar de nuevo a la resolución final. <span class="varname"> res </span> se ignora si <span class="codeph"> autoRes </span> está seleccionado. No compatible con <span class="codeph"> textPs= </span>. </p> </td> 
+      <td class="stentry"> <p>Ajuste la resolución automáticamente para rellenar mejor la capa con el texto. </p> <p>Utilícelo para ajustar automáticamente el tamaño del texto de modo que el cuadro de texto se rellene en la medida de lo posible, sin riesgo de truncamiento. Si el ajuste de texto está habilitado, el texto se puede ajustar de nuevo a la resolución final. El <span class="varname"> res </span> se ignora si <span class="codeph"> autoRes </span> está seleccionado. No compatible con <span class="codeph"> textPs= </span>. </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> maxRes </span> </p> </td> 
-      <td class="stentry"> <p>Utilice la resolución especificada; reduzca si es necesario para evitar que el texto se trunque a la capa recta. </p> <p>Se utiliza para representar texto con la resolución exacta especificada, siempre que no se produzca ningún recorte. En el caso del recorte, la resolución se reduce automáticamente para garantizar que todo el texto esté contenido completamente dentro del cuadro de texto. Si el ajuste de texto está habilitado, el texto se puede ajustar de nuevo a la resolución final. No compatible con <span class="codeph"> textPs= </span>. </p> </td> 
+      <td class="stentry"> <p>Utilice la resolución especificada; reduzca si es necesario para evitar que el texto se trunque a la capa recta. </p> <p>Se utiliza para representar texto con la resolución especificada, siempre que no se produzca ningún recorte. Si hay recorte, la resolución se reduce automáticamente para garantizar que todo el texto esté contenido completamente dentro del cuadro de texto. Si el ajuste de texto está habilitado, el texto se puede ajustar de nuevo a la resolución final. No compatible con <span class="codeph"> textPs= </span>. </p> </td> 
      </tr> 
-    </table> </p> <p>Si el tamaño de la capa de texto no se especifica con size= o si solo se especifica la anchura, los ajustes "autoRes" y "maxRes" se omiten y la resolución especificada se utiliza para procesar el texto. </p> </td> 
+    </table> </p> <p>Si el tamaño de la capa de texto no se especifica con size= o si solo se especifica la anchura, se omiten los ajustes 'autoRes' y 'maxRes'. En estos casos, la resolución especificada se utiliza para representar el texto. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> wordWrap </span> </span> </p> </td> 
@@ -77,11 +77,11 @@ Atributos de capa de texto. Especifica atributos adicionales para las capas de t
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> ajuste </span> </p> </td> 
-      <td class="stentry"> <p>Activar ajuste de palabras estándar. </p> <p>Interrumpe palabras largas si es necesario. <span class="codeph"> textPs= </span> solo admite <span class="codeph"> envolver </span>. </p> </td> 
+      <td class="stentry"> <p>Activar ajuste de palabras estándar. </p> <p>Si es necesario, rompe palabras largas. <span class="codeph"> textPs= </span> solo admite <span class="codeph"> envolver </span>. </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> nbWrap </span> </p> </td> 
-      <td class="stentry"> <p>Activar ajuste de palabras de no separación. </p> <p>Nunca rompe una palabra, incluso si se trunca al final. Se suele usar junto con <span class="codeph"> autoRes </span> o <span class="codeph"> maxRes </span> para asegurarse de que las palabras largas nunca se rompan. </p> </td> 
+      <td class="stentry"> <p>Activar ajuste de palabras de no separación. </p> <p>Nunca rompe una palabra, incluso si se trunca al final. Normalmente se utiliza con <span class="codeph"> autoRes </span> o <span class="codeph"> maxRes </span> para asegurarse de que las palabras largas nunca se rompan. </p> </td> 
      </tr> 
     </table> </p> <p>Ambos <span class="codeph"> envolver </span> y <span class="codeph"> nbwrap </span> ajuste automático en límites de palabras y guiones. </p> </td> 
  </tr> 

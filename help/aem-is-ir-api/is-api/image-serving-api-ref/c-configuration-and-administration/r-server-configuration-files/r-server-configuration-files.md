@@ -1,24 +1,24 @@
 ---
-description: Todos los archivos de configuración se encuentran en install_folder/conf y se pueden editar con la mayoría de los editores de texto. Es posible que sea necesario reiniciar el servidor para que los cambios surtan efecto.
-solution: Experience Manager
 title: Archivos de configuración del servidor
+description: Todos los archivos de configuración se encuentran en la carpeta install_folder/conf y se pueden editar con la mayoría de los editores de texto. Reinicie el servidor para que los cambios surtan efecto.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 6261844c-b63d-477b-8a48-963be868aa22
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '133'
 ht-degree: 1%
 
 ---
 
 # Archivos de configuración del servidor{#server-configuration-files}
 
-Todos los archivos de configuración se encuentran en install_folder/conf y se pueden editar con la mayoría de los editores de texto. Es posible que sea necesario reiniciar el servidor para que los cambios surtan efecto.
+Todos los archivos de configuración se encuentran en `install_folder/conf` y son editables con la mayoría de los editores de texto. Reinicie el servidor para que los cambios surtan efecto.
 
 >[!NOTE]
 >
->La mayoría de los archivos de configuración del servidor contienen propiedades y valores adicionales que no se describen en este documento. Estas propiedades son para uso interno del servidor y no deben modificarse a menos que el servicio de asistencia técnica de Dynamic Media lo indique específicamente.
+>La mayoría de los archivos de configuración del servidor contienen propiedades y valores adicionales que no se describen en este documento. Estas propiedades son para uso interno del servidor y no se deben modificar a menos que así lo indique el servicio de asistencia técnica de Dynamic Media.
 
 Este documento analiza la configuración de los siguientes archivos de configuración:
 

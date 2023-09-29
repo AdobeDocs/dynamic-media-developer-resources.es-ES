@@ -1,13 +1,13 @@
 ---
+title: Illum
 description: Selector de mapa de iluminación. Permite la selección explícita del mapa de iluminación que se utilizará al procesar este material.
 solution: Experience Manager
-title: Illum
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5e74b3e8-6289-4114-aa11-a6f91671363e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '85'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ Selector de mapa de iluminación. Permite la selección explícita del mapa de i
 
 Enumeración. Establezca el valor en -1 para la selección automática del mapa de iluminación en función del valor de catalog::Gloss.
 
-Ajuste en 0, 1 o 2 para seleccionar el mapa de iluminación A, B o C. El procesador elegirá el mapa de iluminación más cercano disponible en la viñeta.
+Ajuste en 0, 1 o 2 para seleccionar el mapa de iluminación A, B o C. El procesador elige el mapa de iluminación más cercano disponible en la viñeta.
 
 ## Predeterminado {#section-ac386d31ef90423b8a367010a60bddc7}
 

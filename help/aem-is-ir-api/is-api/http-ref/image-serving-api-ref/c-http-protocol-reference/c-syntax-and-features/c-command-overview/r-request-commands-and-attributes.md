@@ -1,20 +1,20 @@
 ---
-description: Estos comandos se aplican independientemente del lugar de la solicitud en el que aparecen.
-solution: Experience Manager
 title: Solicitar comandos
+description: Estos comandos se aplican independientemente de dónde aparezcan en la solicitud.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3f794f46-e7f0-4899-90fa-898a698dd629
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '145'
 ht-degree: 2%
 
 ---
 
 # Solicitar comandos{#request-commands}
 
-Estos comandos se aplican independientemente del lugar de la solicitud en el que aparecen.
+Estos comandos se aplican independientemente de dónde aparezcan en la solicitud.
 
 <table id="simpletable_3F7C17FB9E374EFDAD01EB24F57EC367"> 
  <tr class="strow"> 
@@ -39,7 +39,7 @@ Estos comandos se aplican independientemente del lugar de la solicitud en el que
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pathembed.md#reference-9ccf0771d6634cf68c1c9c33cd428301" type="reference" format="dita" scope="local"> pathEmbed</a> </p></td> 
-  <td class="stentry"> <p>Incrusta los datos de rutas de Photoshop en la imagen de respuesta. </p></td> 
+  <td class="stentry"> <p>Incrusta los datos de ruta de Photoshop en la imagen de respuesta. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-xmpembed.md#reference-46ecf40a40a0442fa62de3a85dcb03e8" type="reference" format="dita" scope="local"> xmpEmbed</a> </p></td> 

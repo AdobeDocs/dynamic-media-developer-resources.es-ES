@@ -1,20 +1,20 @@
 ---
-description: El servicio de imágenes de Scene7 consta de los siguientes componentes
-solution: Experience Manager
 title: Componentes del servicio de imágenes
+description: El servicio de imágenes de Dynamic Media consta de los siguientes componentes.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67dd37f3-b11e-42d6-b308-7c1e76a8f2a9
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '206'
 ht-degree: 2%
 
 ---
 
 # Componentes del servicio de imágenes{#image-serving-components}
 
-El servicio de imágenes de Scene7 consta de los siguientes componentes:
+El servicio de imágenes de Dynamic Media consta de los siguientes componentes:
 
 <table id="table_534AF33FE5C4453EACAE0DF35E8E3B63"> 
  <thead> 
@@ -26,7 +26,7 @@ El servicio de imágenes de Scene7 consta de los siguientes componentes:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Supervisor del servidor </p> </td> 
-   <td colname="col2"> <p>Ejecutable independiente responsable de iniciar, detener y garantizar el estado de los demás componentes. </p> </td> 
+   <td colname="col2"> <p>Un ejecutable independiente responsable de iniciar, detener y garantizar el estado de los demás componentes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Apache Tomcat </p> </td> 
@@ -46,7 +46,7 @@ El servicio de imágenes de Scene7 consta de los siguientes componentes:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Image Server </p> </td> 
-   <td colname="col2"> <p>Realiza todas las operaciones de E/S de procesamiento de imágenes y archivos de imagen. Los ejecutables de 32 y 64 bits están disponibles para Linux (solo 32 bits para Windows). </p> </td> 
+   <td colname="col2"> <p>Realiza todas las operaciones de E/S de procesamiento de imágenes y archivos de imagen. Los ejecutables de 32 y 64 bits están disponibles para Linux® (solo 32 bits para Windows). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Componente de procesamiento de texto ATE </p> </td> 
@@ -54,7 +54,7 @@ El servicio de imágenes de Scene7 consta de los siguientes componentes:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Componente de procesamiento de SVG </p> </td> 
-   <td colname="col2"> <p>Aplicación Java independiente (no alojada por Tomcat). </p> </td> 
+   <td colname="col2"> <p>Aplicación Java™ independiente (no alojada en Tomcat). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dynamic Media Image Rendering (también conocido como. Render Server) </p> </td> 

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 297d187c-3a52-45ff-b73d-0b0e4b956080
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '134'
 ht-degree: 8%
 
 ---
@@ -25,7 +25,7 @@ Vista de escala. Ajusta la escala de la imagen compuesta según la inversa de in
  </tr> 
 </table>
 
-No se aplica ninguna escala cuando `scl=1`. *`invFactor`* con una escala inferior a 1,0 y inferior a 1,0, la imagen compuesta se amplía.
+No se aplica ninguna escala cuando `scl=1`. Un *`invFactor`* un valor mayor que 1,0 de escala descendente y menor que 1,0 amplía la imagen compuesta.
 
 If `scl=` se especifica, y `wid=` y/o `hei=` también están presentes, la imagen se recorta a `wid=` y/o `hei=` después del escalado.
 
@@ -39,7 +39,7 @@ Ver atributo. Se aplica independientemente de la configuración de capa actual.
 
 ## Predeterminado {#section-32502fa218a24e1f9c65f41c0260b56a}
 
-Si ninguno `wid=`, `hei=`, ni `scl=` se han especificado, la imagen de respuesta tendrá el tamaño de la imagen compuesta o `attribute::DefaultPix`, el que sea más pequeño.
+Si ninguno `wid=`, `hei=`, ni `scl=` , la imagen de respuesta tendrá el tamaño de la imagen compuesta o `attribute::DefaultPix`, el que sea más pequeño.
 
 ## Ejemplo {#section-a33f6239476a4b438d939656ad99aa76}
 
