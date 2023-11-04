@@ -5,9 +5,9 @@ title: validar
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 78d50fe9-95c6-4335-98d8-3322839ee02d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '278'
 ht-degree: 1%
 
 ---

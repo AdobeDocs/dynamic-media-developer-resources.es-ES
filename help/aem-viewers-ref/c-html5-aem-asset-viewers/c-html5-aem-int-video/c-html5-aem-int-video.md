@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: e54b0b1f-b015-4592-82e2-99f5080543e3
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2211'
+source-wordcount: '2212'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ El visor muestra un panel con muestras interactivas a la derecha del área de vi
 
 Es posible navegar rápidamente por el contenido del vídeo cuando se activa el capítulo de vídeo. Los capítulos de vídeo se muestran como marcadores en la pista de selección manual de vídeo y muestran el título y la descripción del capítulo al pasar el ratón por encima (o en un solo toque en sistemas táctiles). El cliente puede &quot;buscar&quot; un capítulo en particular haciendo clic en un marcador de capítulo o pulsando una burbuja de descripción de capítulo.
 
-El visualizador también admite varias herramientas de uso compartido de medios sociales. Están disponibles como un solo botón en la interfaz de usuario que se expande hasta una barra de herramientas compartida cuando el usuario hace clic o pulsa en ella. La barra de herramientas de uso compartido contiene un icono para cada tipo de canal de uso compartido admitido, como Facebook, Twitter, correo electrónico compartido, código compartido incrustado y vínculo compartido. Cuando se activan las herramientas de uso compartido de correo electrónico, de incrustar recursos compartidos o de vincular recursos compartidos, el visor muestra un cuadro de diálogo modal con el formulario de entrada de datos correspondiente. Cuando se llama a Facebook o Twitter, el visor redirige al usuario a un cuadro de diálogo de uso compartido estándar desde un servicio de medios sociales. Además, cuando se activa una herramienta de uso compartido, la reproducción de vídeo se detiene automáticamente. Las herramientas de uso compartido no están disponibles en el modo de pantalla completa debido a las restricciones de seguridad del explorador web.
+El visualizador también admite varias herramientas de uso compartido de medios sociales. Están disponibles como un solo botón en la interfaz de usuario que se expande hasta una barra de herramientas compartida cuando el usuario hace clic o pulsa en ella. La barra de herramientas de uso compartido contiene un icono para cada tipo de canal de uso compartido admitido, como Facebook, Twitter, correo electrónico compartido, código compartido incrustado y vínculo compartido. Cuando se activan las herramientas de uso compartido de correo electrónico, de incrustación de recursos compartidos o de vínculo compartido, el visor muestra un cuadro de diálogo modal con el formulario de entrada de datos correspondiente. Cuando se llama a Facebook o a un Twitter, el visor redirige al usuario a un cuadro de diálogo de uso compartido estándar desde un servicio de medios sociales. Además, cuando se activa una herramienta de uso compartido, la reproducción de vídeo se detiene automáticamente. Las herramientas de uso compartido no están disponibles en el modo de pantalla completa debido a las restricciones de seguridad del explorador web.
 
 El visor es totalmente accesible mediante el teclado. Consulte [Navegación y accesibilidad del teclado](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 

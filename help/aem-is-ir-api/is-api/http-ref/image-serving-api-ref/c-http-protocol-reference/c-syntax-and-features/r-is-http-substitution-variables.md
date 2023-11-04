@@ -5,9 +5,9 @@ title: Variables de sustitución
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9fd73d16-e8bd-4fdb-a4e6-e86e5d219114
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '730'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ El nombre de la variable *`var`* no distingue entre mayúsculas y minúsculas y 
 >
 >*`value`* debe tener codificación URL de un solo paso para la transmisión HTTP segura. La codificación doble es necesaria si *`value`* se retransmite mediante HTTP. Este es el caso cuando *`value`* se sustituye en una solicitud externa anidada o en el atributo href de un SVG `<image>` Elemento.
 
-Las referencias de variable consisten en el nombre de variable delimitado por &#39;$&#39; ($) al principio y al final *var*$). Las referencias pueden producirse en cualquier parte de la porción de valor de cualquier comando IS (es decir, entre el signo &quot;=&quot; después del nombre del comando y el signo &quot;&amp;&quot; o el final de la solicitud). Las variables personalizadas no se pueden aplicar al `layer=` y `effect=` comandos. Se permiten varias variables en el mismo valor de comando. El servidor sustituye cada incidencia de ` $ *`var`*$` con *`value`*.
+Las referencias de variable consisten en el nombre de variable delimitado por &#39;$&#39; ($) al principio y al final *var*$). Las referencias pueden producirse en cualquier parte de la porción de valor de cualquier comando IS (es decir, entre el signo &quot;=&quot; después del nombre del comando y el signo &quot;&amp;&quot; posterior o el final de la solicitud). Las variables personalizadas no se pueden aplicar al `layer=` y `effect=` comandos. Se permiten varias variables en el mismo valor de comando. El servidor sustituye cada incidencia de ` $ *`var`*$` con *`value`*.
 
 Las referencias de variables no pueden estar anidadas. Cualquier incidencia de ` $ *`var`*$` dentro *`value`* no se sustituyen.
 
@@ -81,7 +81,7 @@ Los valores de variable que se sustituyen en solicitudes externas suelen ser de 
 
 El *`object`* especificado en la ruta de solicitud se asigna a la variable predefinida `*`$object`*`. &#39; ` $ *`objeto`*$`&#39; puede colocarse en cualquier lugar de la solicitud, en la plantilla a la que hace referencia la solicitud o en una solicitud anidada o incrustada en la que dicho objeto esté permitido, incluido el valor de `src=` y `mask=`y la ruta de una solicitud anidada o incrustada.
 
-Por ejemplo, la siguiente solicitud reutilizará la imagen especificada en la ruta como origen de una capa en una solicitud anidada:
+Por ejemplo, la siguiente solicitud reutiliza la imagen especificada en la ruta como origen de una capa en una solicitud anidada:
 
 `/is/image/a/b?…&layer=3&src=is{…&src=$object$}&…`
 
@@ -95,7 +95,7 @@ La variable de ruta predefinida se utiliza comúnmente junto con `template=`.
 
 ## Predeterminado {#section-b02483d15529444586a2e9504805b155}
 
-Ninguno. El servidor solo sustituye las variables que se han definido (excepto la variable de ruta predefinida $object, que siempre se sustituirá). Cualquier incidencia de ` $ *`var`*$` permanecer literal si `*`var`*`no coincide con una definición de variable existente.
+Ninguno. El servidor solo sustituye las variables que se han definido (excepto la variable de ruta predefinida $object, que siempre se sustituye). Cualquier incidencia de ` $ *`var`*$` permanecer literal si `*`var`*`no coincide con una definición de variable existente.
 
 ## Ejemplos {#section-fba9393df6984247b7e30b3f93992e86}
 

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8f99bb3d-c5d6-4215-a76b-58ba7689ff02
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '481'
 ht-degree: 2%
 
 ---
@@ -22,11 +22,11 @@ Se puede adjuntar cualquier número de efectos de capa a una sola capa principal
 
 ## Efectos internos y externos {#section-2dade7ee98e041d1b4d1725e6f98a515}
 
-*Efectos internos* se representan sobre la capa principal y sólo son visibles en las áreas opacas de la capa principal. *Efectos externos* se procesan detrás de la capa principal (por lo tanto, nunca serán visibles dentro de las áreas opacas de la capa principal) y se pueden colocar en cualquier lugar dentro del lienzo de composición. Un efecto interior o exterior se elige asignando un número de capa de efecto positivo o negativo con el `effect=` comando. El `effect=` Este comando también controla el orden z entre varias capas de efectos conectadas a la misma capa principal.
+*Efectos internos* se representan sobre la capa principal y sólo son visibles en las áreas opacas de la capa principal. *Efectos externos* se procesan detrás de la capa principal (por lo que nunca son visibles dentro de las áreas opacas de la capa principal) y se pueden colocar en cualquier lugar dentro del lienzo de composición. Un efecto interior o exterior se elige asignando un número de capa de efecto positivo o negativo con el `effect=` comando. El `effect=` Este comando también controla el orden z entre varias capas de efectos conectadas a la misma capa principal.
 
 ## Relación con la capa principal {#section-eb8bfc4f754a42fc973b562821d6f2d3}
 
-Las capas de efectos se dimensionan automáticamente y se colocan para que coincidan con la capa principal (es decir, la capa de efecto hereda la capa `size=` y `origin=` valores de la capa principal). `pos=` se puede utilizar para desplazar la capa de efecto fuera de la capa principal, como suele ser necesario para los efectos de sombra y sombra interna. Mientras que para las capas estándar `pos=` especifica un desplazamiento entre los orígenes de esta capa y la capa 0, para las capas de efecto `pos=` especifica el desplazamiento entre los orígenes de la capa de efecto y la capa principal.
+Las capas de efectos se dimensionan automáticamente y se colocan para que coincidan con la capa principal (es decir, la capa de efecto hereda el `size=` y `origin=` valores de la capa principal). `pos=` se puede utilizar para desplazar la capa de efecto fuera de la capa principal, como suele ser necesario para los efectos de sombra y sombra interna. Mientras que para las capas estándar `pos=` especifica un desplazamiento entre los orígenes de esta capa y la capa 0, para las capas de efecto `pos=` especifica el desplazamiento entre los orígenes de la capa de efecto y la capa principal.
 
 ## Comandos y atributos admitidos {#section-035fc6bcba7d4e7ab4bd46687c1d8879}
 

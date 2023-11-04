@@ -5,9 +5,9 @@ title: Administración de color de procesamiento de imágenes *
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fa772ab2-8a32-4c1a-9ee3-c1cf4a0b3095
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Archivos de estilo de armario (.vnc) y archivos de estilo de cubiertas de ventan
 
 **Véase también**
 
-[International Color Consortium](https://www.color.org/index.xalter) , [ `icc=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-icc.md#reference-86a2fff3cef24982ad2063d977a16e06) , [ `iccEmbed=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f) , `attribute::IccProfile*` , `attribute::IccProfileSrc*`, `attribute::IccRenderIntent` , `attribute::IccBlackPointCompensation` , `attribute::IccDither` , mapas de perfil ICC
+[International Color Consortium](https://www.color.org/index.xalter) , [`icc=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-icc.md#reference-86a2fff3cef24982ad2063d977a16e06) , [`iccEmbed=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f) , `attribute::IccProfile*` , `attribute::IccProfileSrc*`, `attribute::IccRenderIntent` , `attribute::IccBlackPointCompensation` , `attribute::IccDither` , mapas de perfil ICC
 
 ## Espacios de color predeterminados {#section-8ce27edf42e746febe4654f8f19b9c0c}
 
@@ -42,7 +42,7 @@ Normalmente, el espacio de color de trabajo se define mediante el perfil de colo
 
 Todas las operaciones de procesamiento se ejecutan en el espacio de color de trabajo.
 
-**Importante:** El perfil ICC para el espacio de color de trabajo debe admitir transformaciones de entrada y salida. Si se utiliza un perfil de sólo salida como espacio de color de trabajo, IR no podrá convertir materiales en él. Este perfil de color podrá seguir utilizándose si existen materiales en el mismo espacio de color de trabajo. Si intenta aplicar materiales en otros espacios de color, no podrá hacerlo.
+**Importante:** El perfil ICC para el espacio de color de trabajo debe admitir transformaciones de entrada y salida. Si se utiliza un perfil de sólo salida como espacio de color de trabajo, IR no puede convertir materiales en él. Este perfil de color podrá seguir utilizándose si existen materiales en el mismo espacio de color de trabajo. Error al intentar aplicar materiales en otros espacios de color.
 
 ## Valores de color explícitos {#section-31727bf1b23e477ca92572fbbf422d2f}
 
@@ -54,7 +54,7 @@ Los archivos de imagen de material (imágenes de textura y calcomanía) pueden t
 
 Las imágenes materiales obtenidas de las solicitudes anidadas de servicio o procesamiento de imágenes suelen incluir un perfil de color. Si no es así, las imágenes se asocian al espacio de color de entrada predeterminado correspondiente al tipo de píxel.
 
-Si el espacio de color del archivo de imagen es diferente al espacio de color de trabajo, se utiliza una conversión de color precisa para convertirlo al espacio de color de trabajo. La conversión de tipo nativa se utiliza cuando no hay ningún perfil incrustado ni se define ningún perfil de entrada predeterminado.
+Si el espacio de color del archivo de imagen es diferente del espacio de color de trabajo, se utiliza una conversión de color precisa para convertirlo al espacio de color de trabajo. La conversión de tipo nativa se utiliza cuando no hay ningún perfil incrustado ni se define ningún perfil de entrada predeterminado.
 
 Otros archivos de datos de material, como archivos de estilo de archivador ( [!DNL .vnc]) o la ventana que cubre los archivos ( [!DNL .vnw]) no incrustan perfiles de color y siempre se supone que están en el espacio de color de trabajo.
 

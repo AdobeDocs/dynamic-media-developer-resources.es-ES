@@ -5,7 +5,7 @@ title: getFolders
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 71fe3343-2560-4d74-8ec3-1229d83a62e1
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 8%
@@ -18,7 +18,7 @@ Devuelve todas las carpetas y subcarpetas, empezando por la ruta de carpeta. La 
 
 ## Finalidad de las carpetas {#section-66e344d5333f42f1b060a0cba25935c3}
 
-Una carpeta permite organizar subcarpetas y recursos. Todos los nombres de carpetas y recursos deben ser únicos. Las carpetas y recursos que comparten el mismo nombre causarán un conflicto de área de nombres, incluso si están en jerarquías de carpetas diferentes.
+Una carpeta permite organizar subcarpetas y recursos. Todos los nombres de carpetas y recursos deben ser únicos. Las carpetas y recursos que comparten el mismo nombre causan un conflicto de área de nombres, incluso si están en jerarquías de carpetas diferentes.
 Sintaxis
 
 ## Tipos de usuarios autorizados {#section-0dc7e17cb60f4cf7bcdb76648e5d2f8e}

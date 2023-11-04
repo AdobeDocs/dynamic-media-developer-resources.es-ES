@@ -1,20 +1,20 @@
 ---
 title: Servir contenido estático (que no sea de imagen)
-description: Puede utilizar el servicio de imágenes para administrar el contenido que no es de imagen en los catálogos y servirlo a través de un contexto /is/content independiente.
+description: Puede utilizar el servicio de imágenes para administrar el contenido que no es de imagen en los catálogos y servirlo mediante un contexto /is/content independiente.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: adc3d972-b02d-40db-992e-acaa06b848ff
-source-git-commit: d1df6e943747f9db12c08003647aee840fdfcc0a
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '467'
 ht-degree: 1%
 
 ---
 
 # Servir contenido estático (que no sea de imagen){#serving-static-non-image-contents}
 
-Puede utilizar el servicio de imágenes para administrar el contenido que no es de imagen en los catálogos y servirlo a través de un contexto /is/content independiente.
+Puede utilizar el servicio de imágenes para administrar el contenido que no es de imagen en los catálogos y servirlo mediante un contexto /is/content independiente.
 
 Esta capacidad permite configurar el TTL para cada elemento por separado.
 

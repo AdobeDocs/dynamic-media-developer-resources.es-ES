@@ -1,11 +1,11 @@
 ---
-description: Se actualiza un metadato para los recursos de la miniatura.
+description: Una actualización de metadatos para los recursos de la miniatura.
 solution: Experience Manager
 title: ThumbAssetUpdateArray
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 58893b74-9a32-47f6-9c97-80db67ae1739
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '25'
 ht-degree: 24%
@@ -14,7 +14,7 @@ ht-degree: 24%
 
 # [!DNL ThumbAssetUpdateArray]{#thumbassetupdatearray}
 
-Se actualiza un metadato para los recursos de la miniatura.
+Una actualización de metadatos para los recursos de la miniatura.
 
 Sintaxis
 

@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 25057e72-f079-4221-91c2-760d99d30633
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '1469'
 ht-degree: 2%
@@ -59,7 +59,7 @@ El aspecto del botón de impresión se controla con el siguiente selector de cla
 >
 >Este botón admite el `state` selector de atributos, que se puede utilizar para aplicar distintos aspectos a distintos estados de botón.
 
-La información del objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
+La información del objeto del botón se puede localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
 Ejemplo: configurar un botón de impresión de 28 x 28 píxeles y mostrar una imagen diferente para cada uno de los cuatro estados de botón diferentes.
 
@@ -280,7 +280,7 @@ El botón Cerrar se controla con el siguiente selector de clase CSS:
 >
 >Este botón admite el `state` selector de atributos, que se puede utilizar para aplicar distintos aspectos a distintos estados de botón.
 
-Se puede localizar la información del objeto del botón Cerrar y el título del cuadro de diálogo. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
+Se puede localizar la información del objeto del botón Cerrar y el título del cuadro de diálogo. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
 Ejemplo: Para configurar el encabezado del cuadro de diálogo con relleno, icono de 22 x 22 píxeles y un título de 16 puntos en negrita. Por último, un botón Cerrar de 28 x 28 píxeles colocado a dos píxeles de la parte superior y a dos píxeles de la derecha del contenedor del cuadro de diálogo:
 
@@ -459,7 +459,7 @@ Además, ambos botones comparten una clase CSS común que puede contener configu
  </tbody> 
 </table>
 
-La información sobre herramientas de los botones se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
+La información sobre herramientas de los botones se puede localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
 Ejemplo: para configurar un pie de página de cuadro de diálogo con un botón Cancelar de 64 x 34 y un botón Enviar a imprimir de 96 x 34, con el color del texto y el color de fondo diferentes para cada estado de botón:
 
@@ -667,7 +667,7 @@ Esta clase no es adecuada para controlar el tamaño o la posición de la etiquet
  </tbody> 
 </table>
 
-Las etiquetas de los cuadros de diálogo se pueden localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
+Las etiquetas de los cuadros de diálogo se pueden localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
 Ejemplo: para configurar todas las etiquetas como grises, negrita y con una fuente de nueve píxeles:
 

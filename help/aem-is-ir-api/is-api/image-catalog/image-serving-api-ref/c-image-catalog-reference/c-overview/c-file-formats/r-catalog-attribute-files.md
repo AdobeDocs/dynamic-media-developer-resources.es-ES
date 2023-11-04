@@ -5,9 +5,9 @@ title: Archivos de atributos de catálogo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 79d9439d-7749-4ae1-aa73-e88e01cf7555
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '194'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Los archivos de atributos de catálogo constan de un conjunto de registros de te
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> name</span> </p> </td> 
-  <td class="stentry"> <p>Nombre del atributo. Puede constar de una o más letras, números, - y _. No distingue mayúsculas de minúsculas. </p></td> 
+  <td class="stentry"> <p>Nombre del atributo. Puede constar de una o más letras, números, - y _. No distingue entre mayúsculas y minúsculas. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> val</span> </p></td> 

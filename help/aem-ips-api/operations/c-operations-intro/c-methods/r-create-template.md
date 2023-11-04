@@ -5,10 +5,10 @@ title: createTemplate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 228b4228-8c42-4e42-9fb1-d6aea61b9c4a
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 10%
+source-wordcount: '190'
+ht-degree: 11%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 10%
 
 Crea una imagen con capas que puede tener varias capas de texto e imagen.
 
-El `urlModifier` especifica los comandos de protocolo del servidor de imágenes almacenados en el catálogo del servidor de imágenes aplicado antes de cualquier comando proporcionado por el usuario en la dirección URL. El `urlPostApplyModifier` especifica los comandos de protocolo aplicados después de los comandos de URL, que anularán cualquier configuración proporcionada por el usuario que esté en conflicto.
+El `urlModifier` especifica los comandos de protocolo del servidor de imágenes almacenados en el catálogo del servidor de imágenes aplicado antes de cualquier comando proporcionado por el usuario en la dirección URL. El `urlPostApplyModifier` especifica los comandos de protocolo aplicados después de los comandos de URL, que anulan cualquier configuración proporcionada por el usuario que esté en conflicto.
 
 ## Tipos de usuarios autorizados {#section-9fb615d8e75f452eab2893cc3decfbe6}
 
@@ -37,7 +37,7 @@ El `urlModifier` especifica los comandos de protocolo del servidor de imágenes 
 | nombre | `xsd:string` | Sí | Nombre de plantilla. |
 | tipo | `xsd:string` | Sí | Tipo de plantilla. |
 | urlModifier | `xsd:string` | Sí | Especifica los comandos del servidor de imágenes almacenados en el catálogo de IS que se aplican antes de cualquier comando proporcionado por el usuario en la dirección URL. |
-| urlPostApplyModifier | `xsd:string` | No | Especifica los comandos de protocolo aplicados después de los comandos de dirección URL, que anularán cualquier configuración proporcionada por el usuario que esté en conflicto. |
+| urlPostApplyModifier | `xsd:string` | No | Especifica los comandos de protocolo aplicados después de los comandos de dirección URL, lo que anula cualquier configuración proporcionada por el usuario que esté en conflicto. |
 
 **Salida (createTemplateParam)**
 

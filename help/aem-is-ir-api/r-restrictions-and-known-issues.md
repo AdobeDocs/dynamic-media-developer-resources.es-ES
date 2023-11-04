@@ -5,9 +5,9 @@ title: Restricciones y problemas conocidos
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fd32456b-9d99-4e82-a61c-2fc4d7030630
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1221'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Existen algunas restricciones y problemas conocidos que deben tenerse en cuenta 
 
 ## erratas de documentación {#section-b1579410b11e41e488c7de9ecc7e8d5c}
 
-* El número de líneas no superará el máximo del `\copyfitmaxlines` configuración y el número de líneas explícitas en la entrada de texto.
+* El número de líneas no supera el máximo del `\copyfitmaxlines` configuración y el número de líneas explícitas en la entrada de texto.
 * En los conjuntos de imágenes se requieren llaves y paréntesis coincidentes. Si no coinciden los paréntesis angulares y los paréntesis, deben codificarse con la dirección URL.
 * La alerta de tiempo de respuesta global del lado del servidor incluye respuestas de error.
 * El `id=` se requiere actualmente al utilizar el comando `rect=` con una solicitud de imagen o máscara.
@@ -42,10 +42,10 @@ Existen algunas restricciones y problemas conocidos que deben tenerse en cuenta 
 
 * Omisión del carácter de subrayado ( `\_`) en una cadena RTF no funciona con todas las fuentes que utilizan `textPs=`
 
-* Compatibilidad con la gestión de macros sin distinción de mayúsculas.
+* Compatibilidad con la gestión de macros sin distinción de mayúsculas y minúsculas.
 * La caché del catálogo se ha reducido de 60 a 10 segundos.
 * La función de redirección de errores ahora solo redirige solicitudes que hacen referencia a imágenes, fuentes, perfiles de color e imágenes dañadas publicadas en un catálogo, pero que no se encuentran en el disco.
-* `posN=`, `anchor=`, `anchorN=`, `origin=`, y `originN=` ahora devuelve un error de análisis si alguno de los valores de modificador es bueno que 2147483648.
+* `posN=`, `anchor=`, `anchorN=`, `origin=`, y `originN=` ahora devuelve un error de análisis si alguno de los valores de modificador es mayor que 2147483648.
 
 * No se admite la codificación de solicitudes anidadas. Realice la transición al nuevo comportamiento y descodifique los valores de solicitud anidados que se encuentren en las solicitudes de URL del sitio y en los catálogos de la empresa.
 * DefaultImage ahora aplica atributos de miniatura al utilizar `req=tmb`.
@@ -61,48 +61,48 @@ La biblioteca Digimarc rechaza aplicar una marca de agua Digimarc a una imagen s
 * Las direcciones URL remotas que devuelven un redireccionamiento (estados HTTP 301, 302 o 303) se rechazan.
 * Al configurar `errorRedirect.rootUrl` la dirección IP definida en esta propiedad debe incluirse en el conjunto de reglas `<addressfilter>` valor de etiqueta en ese servidor.
 
-   *Ejemplo*:
+  *Ejemplo*:
 
-   El servidor A ha definido `errorRedirect.rootUrl=10.10.10.10` .
+  El servidor A ha definido `errorRedirect.rootUrl=10.10.10.10` .
 
-   El servidor B, que tiene la dirección IP 10.10.10.10, establece el `<addressfilter>` en el archivo del conjunto de reglas para incluir su dirección IP (10.10.10.10).
+  El servidor B que tiene la dirección IP 10.10.10.10, establece el `<addressfilter>` en el archivo del conjunto de reglas para incluir su dirección IP (10.10.10.10).
 
 * El texto de punto y el trazado de texto con posición pueden mostrar recorte.
 * `text=` solo se aplica `\sa` y `\sb` a todo el bloque de texto y no por párrafo.
 
 * Al utilizar una compañía definida en la URL y otra compañía definida para la `src=` o `mask=` modificador, se debe anteponer una barra diagonal a la compañía definida para `src=` o `mask=` para que este formulario de solicitud funcione.
 
-   *Ejemplo*:
+  *Ejemplo*:
 
-   `/is/image/MyCompany?src=/YourCompany/MyImage` .
+  `/is/image/MyCompany?src=/YourCompany/MyImage` .
 
-   En lugar de: `/is/image/MyCompany?src=YourCompany/MyImage` .
+  En lugar de: `/is/image/MyCompany?src=YourCompany/MyImage` .
 
 * Las solicitudes de tiff o viñeta no piramidadas generan un mensaje de error similar al siguiente
 
-   *&quot;Imagen `C:\Program Files\Scene7\ImageRendering\resources\MyVignette.vnt` no tiene DSF válido, y el área de 2.25MPixel supera el máximo de 2MPixel&quot;* .
+  *&quot;Imagen `C:\Program Files\Scene7\ImageRendering\resources\MyVignette.vnt` no tiene DSF válido, y el área de 2.25MPixel supera el máximo de 2MPixel&quot;* .
 
-   La práctica recomendada es utilizar tiffs y viñetas piramidales. Si necesita utilizar tiffs o viñetas no piramidales, siga las instrucciones a continuación para aumentar el límite de tamaño.
+  La práctica recomendada es utilizar tiffs y viñetas piramidales. Si necesita utilizar tiffs o viñetas no piramidales, siga las instrucciones a continuación para aumentar el límite de tamaño.
 
-   *Solución alternativa*:
+  *Solución alternativa*:
 
-   Para viñetas no piramidadas de procesamiento de imágenes, aumente el valor de la propiedad para IrMaxNonPyrVignetteSize en [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] archivo de configuración.
+  Para viñetas no piramidadas de procesamiento de imágenes, aumente el valor de la propiedad para IrMaxNonPyrVignetteSize en [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] archivo de configuración.
 
-   Para TIFF no piramidales del servicio de imágenes, aumente el valor de la propiedad para `MaxNonDsfSize` en el [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] archivo de configuración.
+  Para TIFF no piramidales del servicio de imágenes, aumente el valor de la propiedad para `MaxNonDsfSize` en el [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] archivo de configuración.
 
 * Adobe [!DNL Photoshop] CS3 no guarda archivos de PSD con capas de forma predeterminada como imagen compuesta.
 
-   *Síntomas*:
+  *Síntomas*:
 
-   El Adobe [!DNL Photoshop] El archivo de PSD en capas CS3 se muestra en negro con un texto que indica: &quot;Esta capa [!DNL Photoshop] el archivo no se ha guardado con una imagen compuesta.&quot; para la imagen de respuesta del servicio de imágenes o en IPS.
+  El Adobe [!DNL Photoshop] El archivo de PSD en capas CS3 se muestra en negro con un texto que indica: &quot;Esta capa [!DNL Photoshop] el archivo no se ha guardado con una imagen compuesta.&quot; para la imagen de respuesta del servicio de imágenes o en IPS.
 
-   *Solución*:
+  *Solución*:
 
-   Guardar el Adobe [!DNL Photoshop] Archivo CS3 con la máxima compatibilidad activada.
+  Guardar el Adobe [!DNL Photoshop] Archivo CS3 con la máxima compatibilidad activada.
 
 * Al asignar un perfil ICC a una imagen de respuesta CMYK/JPEG, los colores se invierten en algunos exploradores.*Solución alternativa*:
 
-   Cambiar el formato de imagen de respuesta mediante `fmt=`
+  Cambiar el formato de imagen de respuesta mediante `fmt=`
 
 * El tamaño de los datos de imagen de respuesta HTTP tras la compresión, incluido el encabezado de archivo, está limitado a 16 MB.
 * &quot;...&quot; no está permitido en ningún elemento de ruta en solicitudes HTTP.
@@ -120,19 +120,19 @@ La biblioteca Digimarc rechaza aplicar una marca de agua Digimarc a una imagen s
 * Actualmente, el servicio de imágenes no admite el procesamiento de archivos de TIFF exportados con Adobe Media Encoder 4.0.1 o versiones anteriores. Adobe Media Encoder se incluye con Premiere Pro CS4, After Effects CS4 y Creative Suite 4 Production Premium.
 * Uso de `text=` con capas de tamaño propio no admite cadenas RTF que utilicen más de una configuración para la justificación de líneas.
 
-   *Ejemplo*
+  *Ejemplo*
 
-   La cadena RTF no puede utilizar justificación de línea izquierda y derecha para una capa de texto de tamaño personalizado.
+  La cadena RTF no puede utilizar justificación de línea izquierda y derecha para una capa de texto de tamaño personalizado.
 
 * SVG tiene su propia propiedad para la ruta de búsqueda de fuentes de referencia que no están incrustadas en el archivo del SVG.
 
-   *Síntomas*
+  *Síntomas*
 
-   Las imágenes de SVG procesadas que contienen definiciones de fuentes utilizan la fuente incorrecta.
+  Las imágenes de SVG procesadas que contienen definiciones de fuentes utilizan la fuente incorrecta.
 
-   *Solución*
+  *Solución*
 
-   Establezca la propiedad `svgProvider.fontRoot=` in [!DNL install_root/ImageServing/conf/PlatformServer.conf] .
+  Establezca la propiedad `svgProvider.fontRoot=` in [!DNL install_root/ImageServing/conf/PlatformServer.conf] .
 
 * El recorte está utilizando actualmente `bgColor=` en lugar de `color=` para rellenar cualquier área recién extendida.
 
@@ -146,9 +146,9 @@ La biblioteca Digimarc rechaza aplicar una marca de agua Digimarc a una imagen s
 
 * Los motores JavaScript de Netscape y Opera almacenan los datos de respuesta en caché incluso si se ha definido el encabezado nocache. Esto interfiere con el funcionamiento adecuado de las solicitudes con estado.
 
-   *Solución*
+  *Solución*
 
-   Anexe una marca de tiempo u otro identificador único a la cadena de solicitud, como `"&.ts=currentTime`.
+  Anexe una marca de tiempo u otro identificador único a la cadena de solicitud, como `"&.ts=currentTime`.
 
 ## Restricciones aplicables solo a las utilidades {#section-906a6b2378154b3da122b2332983f7a5}
 

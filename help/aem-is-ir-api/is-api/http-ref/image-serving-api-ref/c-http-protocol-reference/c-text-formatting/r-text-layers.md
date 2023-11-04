@@ -5,9 +5,9 @@ title: Capas de texto
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6793eb7d-6c10-4136-b6d4-186a698a8e52
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Las reglas y definiciones comunes son las siguientes:
 
 ## Texto puntual (ajuste automático) {#section-db99ec98eb114458b2dbc9911a58f74a}
 
-El texto de punto de estilo Photoshop se simula cuando `textPs=` se especifica sin `size=`, `textPath=`, o `textFlowPath=`. El tamaño de la capa se determina horizontalmente por la anchura del texto procesado y verticalmente por el interlineado. El texto nunca se ajustará automáticamente.
+El texto de punto de estilo Photoshop se simula cuando `textPs=` se especifica sin `size=`, `textPath=`, o `textFlowPath=`. El tamaño de la capa se determina horizontalmente por la anchura del texto procesado y verticalmente por el interlineado. El texto nunca se ajusta automáticamente.
 
 Si ninguno `anchor=` ni `origin=` se especifican, la primera línea del texto se coloca inmediatamente encima del origen de la capa; los párrafos marcados con `\ql` se sitúan a la derecha del origen de la capa, los párrafos que incluyen `\qr` se representan a la izquierda del origen y los párrafos con `\qc` se centran horizontalmente alrededor del origen. Las reglas de colocación de capa estándar se aplican si `anchor=` o `origin=` se han especificado.
 
@@ -75,7 +75,7 @@ Los siguientes comandos RTF se omiten:
 
 If `size=` se especifica junto con `textFlowPath=`, el tamaño de la capa está predeterminado. (0,0) del espacio de coordenadas de píxel utilizado para definir los trazados se encuentra en la esquina superior izquierda del rectángulo de capa.
 
-El `textFlowPath=` Las regiones pueden estar situadas fuera del rectángulo de capa. El texto siempre tendrá una posición variable y se procesará en todas las áreas de trazado, incluso si esto hace que el texto se procese fuera del rectángulo de capa. `extend=0,0,0,0`se puede utilizar para recortar el texto procesado en el rectángulo de capa.
+El `textFlowPath=` Las regiones pueden estar situadas fuera del rectángulo de capa. El texto siempre fluye y se procesa en todas las áreas de trazado, incluso si esto hace que el texto se procese fuera del rectángulo de capa. `extend=0,0,0,0`se puede utilizar para recortar el texto procesado en el rectángulo de capa.
 
 Para el posicionamiento de capas, el rectángulo de capa se basa en el especificado `size=`, independientemente de la cantidad de texto que se procese realmente, incluso si parte de él se encuentra fuera del rectángulo de capa. Se aplica la posición de capa estándar.
 
@@ -105,7 +105,7 @@ Cualquier texto después del primero `\par` o `\line` se ignora.
 
 If `size=` se especifica junto con `textPath=`, el tamaño de la capa está predeterminado. (0,0) del espacio de coordenadas de píxel utilizado para definir los trazados se encuentra en la esquina superior izquierda del rectángulo de capa.
 
-Los trazados pueden estar situados parcial o totalmente fuera del rectángulo de capa. El texto siempre se aplicará y procesará a lo largo de todo el trazado, incluso fuera del rectángulo de capa. `extend=0,0,0,0` se puede utilizar para recortar el texto procesado en el rectángulo de capa.
+Los trazados pueden estar situados parcial o totalmente fuera del rectángulo de capa. El texto siempre se aplica y se procesa a lo largo de todo el trazado, incluso fuera del rectángulo de capa. `extend=0,0,0,0` se puede utilizar para recortar el texto procesado en el rectángulo de capa.
 
 Para el posicionamiento de capas, el rectángulo de capa se basa en el especificado `size=`, incluso si parte del texto se procesa fuera del rectángulo de capa. Se aplica la posición de capa estándar.
 

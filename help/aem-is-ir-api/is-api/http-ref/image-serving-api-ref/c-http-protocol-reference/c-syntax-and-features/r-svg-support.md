@@ -5,9 +5,9 @@ title: soporte de SVG
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 60e40195-710f-4f03-b152-52eaa10c5b21
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Especifique una solicitud de servicio de imágenes completa, empezando por `http
 
 ## Gestión de color {#section-ea76e2bc4e1842638aa97a2d470c8a68}
 
-Todos los valores de color incrustados en archivos de SVG y pasados a plantillas de SVG mediante variables de sustitución se presupone que existen en `sRgb` espacio de color.
+Todos los valores de color incrustados en archivos de SVG y pasados a plantillas de SVG mediante variables de sustitución se suponen que existen en `sRgb` espacio de color.
 
 No se realiza ninguna conversión de color cuando las imágenes están incrustadas en el SVG. Para garantizar la fidelidad del color, asegúrese de especificar `icc=sRgb` para todas las solicitudes de imagen incrustadas.
 

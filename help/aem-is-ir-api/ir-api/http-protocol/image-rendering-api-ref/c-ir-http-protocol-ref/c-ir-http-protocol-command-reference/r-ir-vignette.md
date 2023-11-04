@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8419d68d-7579-4e62-abbd-7dc0a736ae23
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '121'
 ht-degree: 4%
 
 ---
@@ -35,7 +35,7 @@ Archivo de viñeta. Especifica la viñeta que se va a utilizar para la solicitud
 
 Puede especificar una entrada de mapa de viñetas o un archivo de viñetas. No se permiten direcciones URL remotas.
 
-`vignette=` Se puede utilizar como alternativa para especificar la viñeta en la ruta de URL de la solicitud. Se utiliza para especificar viñetas a través de variables en las plantillas.
+`vignette=` Se puede utilizar como alternativa para especificar la viñeta en la ruta de URL de la solicitud. Se utiliza para especificar viñetas mediante variables en las plantillas.
 
 If *`catId`* no se ha especificado, se utiliza el catálogo de sesiones.
 

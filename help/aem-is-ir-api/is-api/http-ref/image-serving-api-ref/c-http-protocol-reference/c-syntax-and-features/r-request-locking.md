@@ -5,9 +5,9 @@ title: Solicitar bloqueo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7ac727ef-3775-4884-b9db-bfae171a0f9d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Para reducir las oportunidades de manipulación de solicitudes, se proporciona una facilidad de bloqueo simple.
 
-Si se establece attribute::RequestLock, se debe anexar un valor de bloqueo a la solicitud en forma de `&xxxx`, siendo xxxx un valor hexadecimal de cuatro dígitos. Este valor hexadecimal se genera utilizando un algoritmo hash simple aplicado a *modificadores* parte de la solicitud (después de &quot;?&quot; que separa la ruta URL de la *modificadores*). Esto debe hacerse después de que la solicitud esté completamente codificada en http, pero antes de que (opcionalmente) se confunda. Después de eliminar la ofuscación de la solicitud, el servidor utilizará el mismo algoritmo hash en la cadena del modificador (excluyendo los últimos 5 caracteres, que contienen el valor de bloqueo). Si la clave generada no coincide con el bloqueo, se rechaza la solicitud.
+Si se establece attribute::RequestLock, se debe anexar un valor de bloqueo a la solicitud en forma de `&xxxx`, siendo xxxx un valor hexadecimal de cuatro dígitos. Este valor hexadecimal se genera utilizando un algoritmo hash simple aplicado a *modificadores* parte de la solicitud (después de &quot;?&quot; que separa la ruta URL de la *modificadores*). Esto debe hacerse después de que la solicitud esté completamente codificada en http, pero antes de que (opcionalmente) se confunda. Después de eliminar la ofuscación de la solicitud, el servidor utiliza el mismo algoritmo hash en la cadena del modificador (excluyendo los últimos 5 caracteres, que contienen el valor de bloqueo). Si la clave generada no coincide con el bloqueo, se rechaza la solicitud.
 
 >[!IMPORTANT]
 >

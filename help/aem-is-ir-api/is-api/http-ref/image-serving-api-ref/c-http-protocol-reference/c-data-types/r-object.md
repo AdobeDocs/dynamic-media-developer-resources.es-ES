@@ -5,9 +5,9 @@ title: objeto
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 64846f8f-ebc6-446c-8277-04c45111dc24
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '490'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ Especificador de objeto de origen. Los objetos de perfil de imagen, SVG e ICC se
 
 *`rootId`* identifica un catálogo de imágenes. (Consulte [Catálogo de imágenes](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) para obtener más información). If *`rootId`* se especifica en la ruta URL, ese catálogo se convierte en el *catálogo principal* para esta solicitud. De lo contrario, el catálogo predeterminado se utiliza como catálogo principal. Se pueden utilizar varios catálogos de imágenes diferentes en la misma solicitud.
 
-El servidor supone inicialmente que *`rootId`* se omite en `src=`, `mask=`, y `icc=` e intentará encontrar una entrada de catálogo en el catálogo principal. Efectivamente, el servidor intenta usar el *`object`* cadena como *`objId.`*
+El servidor supone inicialmente que *`rootId`* se omite en `src=`, `mask=`, y `icc=` comandos e intenta encontrar una entrada de catálogo en el catálogo principal. Efectivamente, el servidor intenta usar el *`object`* cadena como *`objId.`*
 
 Si se encuentra una entrada de catálogo, se utiliza; de lo contrario, el servidor intenta buscar la coincidencia en el *`rootId`* de un catálogo de imágenes. Si se identifica un catálogo, se busca *`objId`*. Si se encuentra la entrada y, se utiliza.
 

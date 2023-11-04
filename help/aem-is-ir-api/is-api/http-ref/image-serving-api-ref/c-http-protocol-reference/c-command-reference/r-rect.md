@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1870001b-7904-470f-9582-984d453509ca
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '363'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Rectángulo de vista final. Permite desmontar la imagen de vista final en varias
  </tr> 
 </table>
 
-Con este comando, el servicio de imágenes puede enviar imágenes grandes a través de HTTP que, de lo contrario, superarían el límite de tamaño configurado con `attribute::MaxPix`.
+Con este comando, el servicio de imágenes puede entregar imágenes grandes mediante HTTP que, de lo contrario, superaría el límite de tamaño configurado con `attribute::MaxPix`.
 
 >[!NOTE]
 >

@@ -5,7 +5,7 @@ title: Traducción de ID de objeto
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7a3bd6a1-2ad4-4da2-944c-489b7d18fdc1
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 9%
@@ -16,7 +16,7 @@ ht-degree: 9%
 
 El servicio de imágenes proporciona un mecanismo para traducir los ID de objeto externos a ID de objeto (catálogo) específicos de la configuración regional. La aplicación principal se utiliza para proporcionar contenido específico de la configuración regional y contenido compartido entre varias configuraciones regionales sin que la aplicación cliente necesite conocer los ID de objeto específicos de la configuración regional.
 
-La aplicación se puede escribir utilizando únicamente ID de objeto globales y el servicio de imágenes sustituirá automáticamente las imágenes específicas de la configuración regional y otro contenido cuando esté disponible.
+La aplicación se puede escribir utilizando únicamente ID de objeto globales y el servicio de imágenes sustituye automáticamente las imágenes específicas de la configuración regional y otro contenido cuando está disponible.
 
 El *`locale`* se especifica en las solicitudes del servicio de imágenes con `locale=` comando.
 
@@ -48,7 +48,7 @@ En el ejemplo anterior, el servidor busca primero la variable *`locale`* &quot; 
 
 ## Configuraciones regionales desconocidas {#section-b2f3c83f2dc845d69b5908107b775537}
 
-En el ejemplo anterior, `attribute::LocaleMap` incluye un vacío *`locale`* que define la regla de traducción predeterminada, utilizada para desconocido `locale=` valores (es decir, aquellos que no estén enumerados explícitamente en el mapa de traducción). Si este mapa de traducción se aplicó a la solicitud `/is/image/myCat/myImg?locale=ja`, se resolvería en `myCat/myImg_E`, si existe, o de otro modo `myCat/myImg`.
+En el ejemplo anterior, `attribute::LocaleMap` incluye un vacío *`locale`* que define la regla de traducción predeterminada, utilizada para desconocido `locale=` valores (es decir, los que no estén enumerados explícitamente en el mapa de traducción). Si este mapa de traducción se aplicó a la solicitud `/is/image/myCat/myImg?locale=ja`, se resolvería en `myCat/myImg_E`, si existe, o de otro modo `myCat/myImg`.
 
 Si una asignación de traducción no especifica una regla de traducción predeterminada, se devuelve un error para todas las solicitudes con desconocido `locale=` valores.
 

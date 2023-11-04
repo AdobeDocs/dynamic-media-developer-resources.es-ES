@@ -1,21 +1,21 @@
 ---
 title: Catálogo electrónico
-description: eCatalog Viewer es un visor de catálogos que muestra folletos electrónicos en un pliego por pliego o página por página. El catálogo electrónico permite a los usuarios navegar por el catálogo utilizando elementos de interfaz de usuario adicionales o el modo de miniaturas dedicadas. Los usuarios también pueden ampliar cada página para obtener buenos detalles.
+description: eCatalog Viewer es un visor de catálogos que muestra folletos electrónicos en un pliego por pliego o página por página. El catálogo electrónico permite a los usuarios navegar por el catálogo utilizando elementos de interfaz de usuario adicionales o el modo de miniaturas dedicadas. Los usuarios también pueden ampliar cada página para obtener más información.
 keywords: adaptable
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 8e243fa5-e375-41ce-8b49-2571023130c1
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2160'
+source-wordcount: '2158'
 ht-degree: 0%
 
 ---
 
 # Catálogo electrónico{#ecatalog}
 
-eCatalog Viewer es un visor de catálogos que muestra folletos electrónicos en un pliego por pliego o página por página. El catálogo electrónico permite a los usuarios navegar por el catálogo utilizando elementos de interfaz de usuario adicionales o el modo de miniaturas dedicadas. Los usuarios también pueden ampliar cada página para obtener buenos detalles.
+eCatalog Viewer es un visor de catálogos que muestra folletos electrónicos en un pliego por pliego o página por página. El catálogo electrónico permite a los usuarios navegar por el catálogo utilizando elementos de interfaz de usuario adicionales o el modo de miniaturas dedicadas. Los usuarios también pueden ampliar cada página para obtener más información.
 
 >[!NOTE]
 >
@@ -86,7 +86,7 @@ Este visor es totalmente accesible mediante el teclado, tal como se describe en 
 
 El visor de catálogos electrónicos admite herramientas de uso compartido en redes sociales. Están disponibles como un botón en la barra de control principal que se expande a una barra de herramientas para compartir cuando un usuario hace clic o toca en ella.
 
-La barra de herramientas de uso compartido contiene iconos para cada tipo de canal de uso compartido admitido, que incluye Facebook, Twitter, correo electrónico compartido, código compartido incrustado y vínculo compartido. Cuando se activan las herramientas de uso compartido de correo electrónico, de incrustar recursos compartidos o de vincular recursos compartidos, el visor muestra un cuadro de diálogo modal con el formulario de entrada de datos correspondiente. Cuando se llama a Facebook o Twitter, el visor redirige al usuario a un cuadro de diálogo de uso compartido estándar desde un servicio social. Las herramientas de uso compartido no están disponibles en el modo de pantalla completa debido a las restricciones de seguridad del explorador web.
+La barra de herramientas de uso compartido contiene iconos para cada tipo de canal de uso compartido admitido, que incluye Facebook, Twitter, recurso compartido de correo electrónico, código compartido incrustado y recurso compartido de vínculos. Cuando se activan las herramientas de uso compartido de correo electrónico, de incrustación de recursos compartidos o de vínculo compartido, el visor muestra un cuadro de diálogo modal con el formulario de entrada de datos correspondiente. Cuando se llama a Facebook o a un Twitter, el visor redirige al usuario a un cuadro de diálogo de uso compartido estándar desde un servicio social. Las herramientas de uso compartido no están disponibles en el modo de pantalla completa debido a las restricciones de seguridad del explorador web.
 
 ## Incrustación del visor de catálogos electrónicos {#section-6bb5d3c502544ad18a58eafe12a13435}
 

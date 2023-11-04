@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 31dfbc55-0efd-417b-be4a-67c878772388
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '227'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ Solo debe habilitarse si se utiliza una red de almacenamiento en caché distribu
 >
 >Se debe tener cuidado al utilizar encabezados Last-Modified en un entorno de equilibrio de carga que implica varios hosts de servicio/renderización de imágenes. El almacenamiento en caché de clientes puede no funcionar y la carga del servidor puede aumentar si, por alguna razón, los servidores tienen marcas de tiempo diferentes para las mismas entradas de catálogo. Esta situación puede ocurrir de la siguiente manera:
 
-* `catalog::TimeStamp`, `vignette::TimeStamp`, o `attribute::TimeStamp` no está definida, de modo que la hora de modificación del [!DNL catalog.ini] se utiliza como valor predeterminado para `catalog::TimeStamp`.
+* `catalog::TimeStamp`, `vignette::TimeStamp`, o `attribute::TimeStamp` no está definida, de modo que la hora de modificación del [!DNL catalog.ini] El archivo de se utiliza como predeterminado para `catalog::TimeStamp`.
 
 * En lugar de compartir los archivos del catálogo de materiales mediante un montaje en red, cada servidor tiene su propia instancia de los archivos de catálogo en un sistema de archivos local.
 * Dos o más instancias del mismo [!DNL catalog.ini] Los archivos tienen fechas de modificación diferentes, posiblemente a causa de una copia incorrecta de los archivos.

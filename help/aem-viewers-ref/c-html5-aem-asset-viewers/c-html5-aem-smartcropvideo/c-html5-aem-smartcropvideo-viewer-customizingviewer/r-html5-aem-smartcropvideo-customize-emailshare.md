@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: f2685d59-6b92-49cf-9359-dda602af4297
-source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '2994'
 ht-degree: 2%
@@ -51,7 +51,7 @@ Este botón admite el `state` selector de atributos, que se puede utilizar para 
 
 Es posible quitar el botón del panel Compartir en redes sociales mediante la configuración `display:none` Propiedad CSS en su clase CSS.
 
-La información del objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
+La información del objeto del botón se puede localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
 
 Ejemplo: para configurar un botón de uso compartido de correo electrónico de 28 x 28 píxeles y que muestre una imagen diferente para cada uno de los cuatro estados de botón diferentes.
 
@@ -280,7 +280,7 @@ El botón Cerrar se controla con el siguiente selector de clase CSS:
 >
 >Este botón admite el `state` selector de atributos, que se puede utilizar para aplicar distintos aspectos a distintos estados de botón.
 
-Se puede localizar la información del objeto del botón Cerrar y el título del cuadro de diálogo. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
+Se puede localizar la información del objeto del botón Cerrar y el título del cuadro de diálogo. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
 
 Ejemplo: Para configurar el encabezado del cuadro de diálogo con relleno, icono de 24 x 17 píxeles y un título de 16 puntos en negrita. Y finalmente, un botón Cerrar de 28 x 28 píxeles, colocado a dos píxeles de la parte superior y a dos píxeles de la derecha del contenedor de diálogo:
 
@@ -459,7 +459,7 @@ Además, ambos botones comparten una clase CSS común que puede contener configu
  </tbody> 
 </table>
 
-La información sobre herramientas de los botones se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
+La información sobre herramientas de los botones se puede localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
 
 Ejemplo: Para configurar un pie de página de cuadro de diálogo con un botón Cancelar de 64 x 34 y un botón Enviar correo electrónico de 82 x 34. Y, por último, el color del texto y el color de fondo son diferentes para cada estado del botón:
 
@@ -646,7 +646,7 @@ Esta clase no es adecuada para controlar el tamaño o la posición de las etique
  </tbody> 
 </table>
 
-Las etiquetas del cuadro de diálogo se pueden localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
+Las etiquetas del cuadro de diálogo se pueden localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
 
 Ejemplo: para configurar todas las etiquetas como grises, negrita con una fuente de nueve píxeles:
 
@@ -864,7 +864,7 @@ El botón &quot;Añadir otra dirección de correo electrónico&quot; permite al 
 >
 >Este botón admite el `state` selector de atributos, que se puede utilizar para aplicar distintos aspectos a distintos estados de botón.
 
-La información del objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
+La información del objeto del botón se puede localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
 
 Ejemplo: para configurar el botón &quot;Añadir otra dirección de correo electrónico&quot; para que tenga 25 píxeles de altura, utilice una fuente en negrita de 12 puntos con alineación derecha y un color de texto e imagen diferentes para cada estado:
 
@@ -930,7 +930,7 @@ El botón &quot;Eliminar&quot; permite al usuario eliminar direcciones adicional
 >
 >Este botón admite el `state` selector de atributos, que se puede utilizar para aplicar distintos aspectos a distintos estados de botón.
 
-La información del objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
+La información del objeto del botón se puede localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
 
 Ejemplo: para configurar un botón &quot;Eliminar&quot; de 25 x 25 píxeles y utilizar una imagen diferente para cada estado:
 
@@ -1212,7 +1212,7 @@ Cuando un usuario introduce datos de entrada incorrectos y falla la validación 
 >
 >Este mensaje admite el `state` selector de atributos con los siguientes valores posibles: `verifyerror`, `senderror`, y `sendsuccess`. El valor `verifyerror` se establece cuando se muestra un mensaje debido a un error de validación de entrada en línea. El valor `senderror` se establece cuando un servicio de correo electrónico back-end informa de un error. El `sendsuccess` se establece cuando el correo electrónico se envía correctamente. De este modo, es posible aplicar un estilo diferente al mensaje en función del estado del cuadro de diálogo.
 
-El mensaje de error se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
+El mensaje de error se puede localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
 
 Ejemplo: Para configurar un mensaje para que utilice una fuente en negrita de diez puntos, tenga una altura de línea de 25 píxeles y un relleno de 20 píxeles a la izquierda. Utilice también un icono de signo de exclamación, texto rojo si hay un error y ningún icono, y texto verde si hay éxito:
 
@@ -1374,7 +1374,7 @@ El pulgar de la barra de desplazamiento se mueve verticalmente dentro de un áre
 >
 >La miniatura admite `state` selector de atributos, que se puede utilizar para aplicar diferentes aspectos a diferentes estados de la miniatura: `up`, `down`, `over`, y `disabled`.
 
-La información sobre herramientas de los botones se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
+La información sobre herramientas de los botones se puede localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
 
 Ejemplo: para configurar el miniatura de la barra de desplazamiento de 28 x 45 píxeles, tiene un margen de diez píxeles en la parte superior e inferior y tiene diferentes ilustraciones para cada estado:
 

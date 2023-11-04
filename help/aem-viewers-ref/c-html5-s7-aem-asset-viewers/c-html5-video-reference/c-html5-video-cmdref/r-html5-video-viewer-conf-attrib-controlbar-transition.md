@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 133717c7-38d9-47b6-86bb-e23ebd8f147a
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '117'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ Atributo de configuración para el visor de vídeo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|fade</span> </p> </td> 
-   <td colname="col2"> <p> Especifica el tipo de efecto utilizado para mostrar u ocultar la barra de control y su contenido. </p> <p>Uso <span class="codeph"> ninguno</span> para mostrarlo y ocultarlo al instante. Uso <span class="codeph"> atenuación</span> para proporcionar un efecto de fundido de entrada y salida gradual. </p> <p>Fade no es compatible con Internet Explorer 8. </p> </td> 
+   <td colname="col2"> <p> Especifica el tipo de efecto utilizado para mostrar u ocultar la barra de control y su contenido. </p> <p>Uso <span class="codeph"> ninguno</span> para mostrarlo y ocultarlo al instante. Uso <span class="codeph"> atenuación</span> para proporcionar un efecto gradual de fundido de entrada y salida. </p> <p>Fade no es compatible con Internet Explorer 8. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> dilatar para ocultar</span> </span> </p> </td> 

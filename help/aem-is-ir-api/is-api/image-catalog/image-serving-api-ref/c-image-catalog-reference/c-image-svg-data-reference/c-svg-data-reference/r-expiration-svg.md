@@ -5,9 +5,9 @@ title: Vencimiento
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 62d2368b-ea56-4964-ab9c-07454e19540c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '264'
 ht-degree: 2%
 
 ---
@@ -26,11 +26,11 @@ La caducidad se utiliza para estos tipos de respuesta:
 * `req=userdata`
 * `req=map`
 
-Algunos tipos de respuesta (por ejemplo, respuestas de error) siempre se marcan para su caducidad inmediata (o se etiquetan como no almacenables en caché), mientras que otros (por ejemplo, respuestas de propiedad o de imagen predeterminadas) utilizan configuraciones de caducidad especiales ( `attribute::NonImgExpiration` y `attribute::DefaultExpiration`).
+Ciertos tipos de respuestas (por ejemplo, respuestas de error) siempre se marcan para su caducidad inmediata (o se etiquetan como no almacenables en caché), mientras que otros (por ejemplo, respuestas de propiedad o de imagen predeterminadas) utilizan configuraciones de caducidad especiales ( `attribute::NonImgExpiration` y `attribute::DefaultExpiration`).
 
 ## Propiedades {#section-7f5173d090cf48df8fa1a2c72b8c8c60}
 
-Número real, -2, -1 o 0 o bueno. Número de horas hasta la caducidad desde que se generó la imagen de respuesta. Si se establece en 0, la imagen de respuesta siempre caducará inmediatamente, lo que deshabilita el almacenamiento en caché del cliente. Establezca en -1 para marcar como *`never expire`*. En este caso, el servidor siempre devuelve el estado 304 (sin modificar) en respuesta a solicitudes de GET condicionales sin comprobar si el archivo ha cambiado realmente. Establezca el valor en -2 para utilizar el valor predeterminado proporcionado por `attribute::Expiration`.
+Número real, -2, -1 o 0 o superior. Número de horas hasta la caducidad desde que se generó la imagen de respuesta. Si se establece en 0, la imagen de respuesta siempre caducará inmediatamente, lo que deshabilita el almacenamiento en caché del cliente. Establezca en -1 para marcar como *`never expire`*. En este caso, el servidor siempre devuelve el estado 304 (sin modificar) en respuesta a solicitudes de GET condicionales sin comprobar si el archivo ha cambiado realmente. Establezca el valor en -2 para utilizar el valor predeterminado proporcionado por `attribute::Expiration`.
 
 ## Predeterminado {#section-ec72cc1dfc5e4f278174d37da2e39462}
 

@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 9eb2ef38-9b86-4c60-90a2-6609cb3fcc39
-source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '1385'
 ht-degree: 2%
@@ -53,7 +53,7 @@ El aspecto del botón para compartir vínculos se controla con el siguiente sele
 
 Es posible quitar el botón del panel Compartir en redes sociales mediante la configuración `display:none` Propiedad CSS en su clase CSS.
 
-La información del objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+La información del objeto del botón se puede localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
 Ejemplo: para configurar un botón de uso compartido de vínculos de 28 x 28 píxeles y mostrar una imagen diferente para cada uno de los cuatro estados de botón diferentes:
 
@@ -282,7 +282,7 @@ El botón Cerrar se controla con el siguiente selector de clase CSS:
 >
 >Este botón admite el `state` selector de atributos, que se puede utilizar para aplicar distintos aspectos a distintos estados de botón.
 
-Se puede localizar la información del objeto del botón Cerrar y el título del cuadro de diálogo. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+Se puede localizar la información del objeto del botón Cerrar y el título del cuadro de diálogo. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
 **Ejemplo** - Para configurar un encabezado de cuadro de diálogo con relleno, icono de 22 x 12 píxeles y un título en negrita de 16 puntos. Y, por último, un botón Cerrar de 28 x 28 píxeles situado a dos píxeles de la parte superior y a dos píxeles de la derecha del contenedor del cuadro de diálogo:
 
@@ -463,7 +463,7 @@ Además, ambos botones comparten una clase CSS común que puede contener configu
  </tbody> 
 </table>
 
-La información sobre herramientas de los botones se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+La información sobre herramientas de los botones se puede localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
 **Ejemplo** - para configurar un pie de página de cuadro de diálogo con un botón Cancelar de 64 x 34, con colores de fondo y color de texto que son diferentes para cada estado de botón:
 
@@ -616,7 +616,7 @@ Esta clase no es adecuada para controlar el tamaño o la posición de la etiquet
  </tbody> 
 </table>
 
-Las etiquetas del cuadro de diálogo se pueden localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+Las etiquetas del cuadro de diálogo se pueden localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
 **Ejemplo** - para configurar todas las etiquetas como grises, negrita con una fuente de nueve píxeles:
 

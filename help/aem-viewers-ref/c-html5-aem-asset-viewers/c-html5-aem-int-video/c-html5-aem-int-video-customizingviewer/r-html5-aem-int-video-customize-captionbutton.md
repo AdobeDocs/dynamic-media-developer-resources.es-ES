@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 322062a5-1741-45ce-96d7-8710a8246cd6
-source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '255'
 ht-degree: 2%
 
 ---
@@ -69,7 +69,7 @@ El aspecto de este botón se controla con el siguiente selector de clase CSS:
 >
 >Este botón es compatible con el `state` y `selected` selectores de atributos, que se pueden utilizar para aplicar diferentes aspectos a diferentes estados de botones. En particular, `selected='true'` corresponde al estado cuando los subtítulos son visibles y `selected='false'` se utiliza cuando los subtítulos están ocultos.
 
-La información del objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
+La información del objeto del botón se puede localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
 ## Ejemplo {#section-e8caea0a303c425a8a637c2a47c06355}
 

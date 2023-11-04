@@ -5,9 +5,9 @@ title: Sistema de monitorización y alertas
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: fe672d1b-93e5-466a-a329-3032095c6ba8
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ La dirección de correo electrónico que debe usarse en la **[!UICONTROL Desde]*
 
 ## AS::monitorAlertGenerator.alertInterval: intervalo de monitorización {#section-99cb2e3380c1499e9d5aec3671ed73c7}
 
-El sistema de monitorización acumulará condiciones de alerta durante el intervalo de alerta y enviará un correo electrónico de alerta con todas las alertas acumuladas al final de cada intervalo. Milisegundos, valor entero, 60000 o mayor. Normalmente se establece en 5 o 10 minutos.
+El sistema de monitorización acumula condiciones de alerta durante el intervalo de alerta y envía un correo electrónico de alerta que contiene todas las alertas acumuladas al final de cada intervalo. Milisegundos, valor entero, 60000 o mayor. Normalmente se establece en 5 o 10 minutos.
 
 ## AS::monitorAlertGenerator.heapSpaceResetInterval: Intervalo de alerta de espacio de pila {#section-fd5a2bf04ed44fdcaef20f77084151a8}
 

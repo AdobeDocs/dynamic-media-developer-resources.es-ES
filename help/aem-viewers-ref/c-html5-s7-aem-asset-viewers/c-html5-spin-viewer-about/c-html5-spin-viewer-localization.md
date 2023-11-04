@@ -1,22 +1,22 @@
 ---
-title: Localización de los elementos de la interfaz de usuario
+title: Localización de elementos de la interfaz de usuario
 description: Determinado contenido que muestra el Visor de giros está sujeto a la localización, incluidos los botones de zoom y un botón de pantalla completa.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: f4c0f16b-dbb9-4505-a3f2-d504ae21c3f0
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
 
-# Localización de los elementos de la interfaz de usuario{#localization-of-user-interface-elements}
+# Localización de elementos de la interfaz de usuario{#localization-of-user-interface-elements}
 
 Determinado contenido que muestra el Visor de giros está sujeto a la localización, incluidos los botones de zoom y un botón de pantalla completa.
 
-Cada contenido textual del visualizador que se puede localizar se representa mediante un identificador especial del SDK del visualizador llamado SYMBOL. Cualquier SYMBOL tiene un valor de texto asociado predeterminado para la configuración regional en inglés ( `"en"`) se suministra con el visor incorporado. También puede tener valores definidos por el usuario configurados para tantas configuraciones regionales como sea necesario.
+Cada contenido textual del visualizador que se puede localizar se representa mediante un identificador especial del SDK del visualizador llamado SYMBOL. Cualquier SYMBOL tiene un valor de texto asociado por defecto para la configuración regional en inglés ( `"en"`) se suministra con el visor incorporado. También puede tener valores definidos por el usuario configurados para tantas configuraciones regionales como sea necesario.
 
 Cuando se inicia el visor, comprueba la configuración regional actual para ver si hay un valor definido por el usuario para cada SÍMBOLO admitido para la configuración regional. Si existe, utiliza el valor definido por el usuario; de lo contrario, vuelve al texto predeterminado predeterminado.
 
@@ -82,11 +82,11 @@ Se admiten los siguientes SYMBOL:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED </span> </p> </td> 
-   <td colname="col2"> <p>Botón Pantalla completa en estado normal. </p> </td> 
+   <td colname="col2"> <p>botón de pantalla completa en estado normal. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECTED </span> </p> </td> 
-   <td colname="col2"> <p>Botón Pantalla completa en estado de pantalla completa. </p> </td> 
+   <td colname="col2"> <p>botón de pantalla completa en estado de pantalla completa. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PanLeftButton.TOOLTIP </span> </p> </td> 

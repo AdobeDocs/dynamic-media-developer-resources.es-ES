@@ -1,12 +1,12 @@
 ---
 title: Spin
-description: El visualizador de giros es un visualizador de imágenes que proporciona una vista de 360 grados de la imagen o incluso una vista multidimensional si se está utilizando un conjunto de giros adecuado. Tiene herramientas de zoom y giro, compatibilidad con pantalla completa y un botón de cierre opcional. Está diseñado para trabajar en equipos de escritorio y dispositivos móviles.
+description: El visualizador de giros es un visualizador de imágenes que proporciona una vista de 360 grados de la imagen o incluso una vista multidimensional si se está utilizando un conjunto de giros adecuado. Tiene herramientas de zoom y giro, soporte de pantalla completa y un botón de cierre opcional. Está diseñado para trabajar en equipos de escritorio y dispositivos móviles.
 keywords: adaptable
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 4c802d42-ea5b-4f28-b6ef-2689aa16839d
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '2130'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Spin{#spin}
 
-El visualizador de giros es un visualizador de imágenes que proporciona una vista de 360 grados de la imagen o incluso una vista multidimensional si se está utilizando un conjunto de giros adecuado. Tiene herramientas de zoom y giro, compatibilidad con pantalla completa y un botón de cierre opcional. Está diseñado para trabajar en equipos de escritorio y dispositivos móviles.
+El visualizador de giros es un visualizador de imágenes que proporciona una vista de 360 grados de la imagen o incluso una vista multidimensional si se está utilizando un conjunto de giros adecuado. Tiene herramientas de zoom y giro, soporte de pantalla completa y un botón de cierre opcional. Está diseñado para trabajar en equipos de escritorio y dispositivos móviles.
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ Spin Viewer representa un archivo JavaScript principal y un conjunto de archivos
 
 El visor de giros se puede utilizar en el modo emergente utilizando la página del HTML lista para la producción proporcionada con los visores de IS o en el modo incrustado, donde se integra en la página web de destino mediante la API documentada.
 
-La configuración y el desollado son similares a los de otros visores. Todo el desollamiento se puede lograr a través de CSS personalizado.
+La configuración y el desollado son similares a los de otros visores. Todo el desollado se puede lograr mediante CSS personalizado.
 
 Consulte [Referencia de comando común a todos los visores: atributos de configuración](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) y [Referencia de comando común a todos los visores: URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 

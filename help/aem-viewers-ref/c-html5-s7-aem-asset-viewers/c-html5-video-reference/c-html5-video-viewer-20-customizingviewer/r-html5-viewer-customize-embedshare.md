@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: e29a81b8-67f3-4367-b21c-d5902420bc85
-source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '2585'
 ht-degree: 2%
@@ -53,7 +53,7 @@ El aspecto del botón para compartir incrustado se controla con el siguiente sel
 
 Es posible quitar el botón del panel Compartir en redes sociales mediante la configuración `display:none` Propiedad CSS en su clase CSS.
 
-La información del objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
+La información del objeto del botón se puede localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
 
 Ejemplo: Para configurar un botón de uso compartido incrustado de 28 x 28 píxeles y mostrar una imagen diferente para cada uno de los cuatro estados de botón diferentes:
 
@@ -282,7 +282,7 @@ El botón Cerrar se controla con el siguiente selector de clase CSS:
 >
 >Este botón admite el `state` selector de atributos, que se puede utilizar para aplicar distintos aspectos a distintos estados de botón.
 
-Se puede localizar la información del objeto del botón Cerrar y el título del cuadro de diálogo. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
+Se puede localizar la información del objeto del botón Cerrar y el título del cuadro de diálogo. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
 
 Ejemplo: Para configurar el encabezado del cuadro de diálogo con relleno, icono de 24 x 14 píxeles, título en negrita de 16 puntos. Y finalmente, un botón de cierre de 28 x 28 píxeles, colocado a dos píxeles de la parte superior, y a dos píxeles de la derecha del contenedor de cuadro de diálogo:
 
@@ -463,7 +463,7 @@ Además, ambos botones comparten una clase CSS común que puede contener configu
  </tbody> 
 </table>
 
-La información sobre herramientas de los botones se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
+La información sobre herramientas de los botones se puede localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
 
 Ejemplo: para configurar un pie de página de cuadro de diálogo con un botón Cancelar de 64 x 34, con un color de texto y un color de fondo diferentes para cada estado de botón:
 
@@ -618,7 +618,7 @@ Esta clase no es adecuada para controlar el tamaño o la posición de la etiquet
  </tbody> 
 </table>
 
-La información sobre herramientas de etiquetas del cuadro de diálogo se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
+La información sobre herramientas de etiquetas del cuadro de diálogo se puede localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
 
 Ejemplo: para configurar todas las etiquetas como grises, negrita con una fuente de nueve píxeles:
 
@@ -1243,7 +1243,7 @@ No es posible colocar botones de desplazamiento mediante las propiedades CSS top
 >
 >Estos botones admiten el `state` selector de atributos, que se puede utilizar para aplicar diferentes aspectos a distintos estados de botones: `up`, `down`, `over`, y `disabled`.
 
-La información sobre herramientas de los botones se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
+La información sobre herramientas de los botones se puede localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
 
 Ejemplo: para configurar botones de desplazamiento de 28 x 32 píxeles con ilustraciones diferentes para cada estado:
 

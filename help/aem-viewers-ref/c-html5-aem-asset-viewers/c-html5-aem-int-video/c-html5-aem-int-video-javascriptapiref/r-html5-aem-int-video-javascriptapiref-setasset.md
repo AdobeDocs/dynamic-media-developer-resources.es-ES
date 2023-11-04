@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 24d8d11d-4688-4ca0-92ae-824a5e984a10
-source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '141'
 ht-degree: 2%
 
 ---
@@ -30,7 +30,7 @@ Consulte también [init](../../../c-html5-aem-asset-viewers/c-html5-aem-int-vide
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> data </span> </p> </td> 
-   <td colname="col2"> <p> { <span class="codeph"> JSON </span>} objeto JSON con los siguientes campos opcionales (distingue mayúsculas de minúsculas): </p> <p> 
+   <td colname="col2"> <p> { <span class="codeph"> JSON </span>} objeto JSON con los siguientes campos opcionales (distingue entre mayúsculas y minúsculas): </p> <p> 
      <ul id="ul_924FB99ACF0F43699CD229593F1C1384"> 
       <li id="li_F3CFEF28BCB7450991EFE0BD4EB28E36"> <span class="codeph"> posterimage </span> : imagen que se mostrará en el primer fotograma antes de que comience la reproducción del vídeo. Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-posterimage.md#reference-8e8e2b3e7e9c4ee8b6dadf90cef494f7" format="dita" scope="local"> VideoPlayer.posterimage </a>. </li> 
       <li id="li_D6C3E543C70942C582020780E2DF74C8"> <span class="codeph"> caption </span> : ubicación del nuevo archivo de subtítulos. Si no se especifica, el botón de título no estará visible en la interfaz de usuario. </li> 

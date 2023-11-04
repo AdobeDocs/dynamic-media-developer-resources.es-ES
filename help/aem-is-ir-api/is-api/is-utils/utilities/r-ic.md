@@ -5,9 +5,9 @@ title: ic
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ab653aae-532b-4f3d-8541-f6296fbf9172
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1204'
 ht-degree: 2%
 
 ---

@@ -5,9 +5,9 @@ title: conjunto de imágenes
 feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,User
 exl-id: 730e7db9-47f0-4e96-8948-18b8185a5b7a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '160'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ Datos del conjunto de imágenes del catálogo de imágenes. Devuelve los datos d
  </tr> 
 </table>
 
-El contenido de `catalog::ImageSet` se devuelve sin más modificaciones (excepto la localización de cadenas, si corresponde), seguida de un terminador de una sola línea (CR/LF). Si la ruta URL no se resuelve en una entrada de catálogo válida, la respuesta consiste únicamente en un terminador de línea única.
+El contenido de `catalog::ImageSet` se devuelve sin más modificaciones (excepto la localización de cadenas, si corresponde), seguida de un terminador de una sola línea (CR/LF). Si la ruta URL no se resuelve en una entrada de catálogo válida, la respuesta consiste únicamente en un terminador de una sola línea.
 
 Se omiten otros comandos de la cadena de solicitud. La respuesta HTTP se puede almacenar en caché con el TTL en función de `catalog::NonImgExpiration`.
 

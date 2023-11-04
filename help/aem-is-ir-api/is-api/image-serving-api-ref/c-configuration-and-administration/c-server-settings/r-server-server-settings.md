@@ -5,9 +5,9 @@ title: Servidores
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 10970ca8-b209-4adf-b027-6eb8d7a15db6
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Linux dispone de una versión de 32 y 64 bits del servidor de imágenes. Especif
 
 >[!NOTE]
 >
->Windows no admite el modo de 64 bits. Solo `ImageServer32` se puede especificar. De lo contrario, el servicio de imágenes no se iniciará.
+>Windows no admite el modo de 64 bits. Solo `ImageServer32` se puede especificar. De lo contrario, el servicio de imágenes no se inicia.
 
 ## SV::PsHeapSize - [!DNL Platform Server] Tamaño de pila {#section-fd83715948764aeda58d6b3a9f9f8be9}
 
@@ -44,11 +44,11 @@ Especifica el puerto utilizado para la comunicación entre los [!DNL Platform Se
 
 Límite aproximado de datos de imagen en memoria, expresado como porcentaje de memoria física. El intervalo válido es del 10 % al 90 %. El servidor de imágenes intenta restringir el uso de la memoria de imágenes a la cantidad especificada, si es posible. El límite puede superarse temporalmente durante una intensa actividad de procesamiento.
 
-## IS::WorkerThreads: número de subprocesos de trabajo del servidor de imágenes {#section-e2946063b13c4f728cdf5dba3d8b4de1}
+## IS::WorkerThreads: número de Image Server Worker Threads {#section-e2946063b13c4f728cdf5dba3d8b4de1}
 
 Número máximo de subprocesos que utiliza el servidor de imágenes para procesar los datos de imagen. El valor predeterminado es 0, lo que permite al servidor de imágenes optimizar el recuento de subprocesos automáticamente.
 
-Algunos sistemas operativos tienen modelos de subprocesos con una alta sobrecarga de conmutación de contexto. En tal circunstancia, el rendimiento general del servidor puede mejorar cuando se selecciona un recuento de hilos específico (por ejemplo, un hilo por CPU). Es posible que se requiera cierta experimentación para encontrar el escenario óptimo. Consulte las notas de la versión del servicio de imágenes y la documentación del sistema operativo para obtener más información.
+Algunos sistemas operativos tienen modelos de subprocesos con una alta sobrecarga de conmutación de contexto. En tales circunstancias, el rendimiento general del servidor puede mejorar cuando se selecciona un recuento de hilos específico (por ejemplo, un hilo por CPU). Es posible que se requiera cierta experimentación para encontrar el escenario óptimo. Consulte las notas de la versión del servicio de imágenes y la documentación del sistema operativo para obtener más información.
 
 ## IS::NumberOfTextServers: número de instancias de servidor de texto {#section-971e20a90c1a473598fba738ed95671a}
 

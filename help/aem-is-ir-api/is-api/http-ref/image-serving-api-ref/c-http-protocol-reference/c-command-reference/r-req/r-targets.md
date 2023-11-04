@@ -5,9 +5,9 @@ title: objetivo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 58f7b1ad-8762-4d23-b320-6f69e75ecf63
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '179'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ Destinos de zoom datos del catálogo de imágenes. Devuelve los datos de destino
  </tr> 
 </table>
 
-El contenido de `catalog::Targets` se devuelven. Cuando se solicita el formato &quot;texto&quot;, todas las instancias de `??` in `catalog::Targets` se sustituyen por terminadores de línea y un terminador de línea único ( `CR/LF`) se anexa al final. Si la ruta URL no se resuelve en una entrada de catálogo válida, la respuesta consiste únicamente en un terminador de línea única. Se aplica el formato adecuado cuando se solicita el formato &quot;xml&quot; o &quot;json&quot;.
+El contenido de `catalog::Targets` se devuelven. Cuando se solicita el formato &quot;texto&quot;, todas las instancias de `??` in `catalog::Targets` se sustituyen por terminadores de línea y un terminador de línea única ( `CR/LF`) se anexa al final. Si la ruta URL no se resuelve en una entrada de catálogo válida, la respuesta consiste únicamente en un terminador de una sola línea. Se aplica el formato adecuado cuando se solicita el formato &quot;xml&quot; o &quot;json&quot;.
 
 Se omiten otros comandos de la cadena de solicitud.
 

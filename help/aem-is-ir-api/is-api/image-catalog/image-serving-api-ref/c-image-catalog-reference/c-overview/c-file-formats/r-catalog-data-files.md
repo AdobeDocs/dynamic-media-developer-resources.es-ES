@@ -5,9 +5,9 @@ title: Archivos de datos de catálogo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4aa20abe-4f84-470b-b5a1-3d9246ab1792
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ En los registros de datos, dos adyacentes `<TAB>` Los caracteres indican un camp
 
 Los campos de datos se pueden incluir opcionalmente entre comillas dobles. No deben contener `<CR>`, `<LF>`, o `<TAB>` caracteres, a menos que el valor de los datos sea de tipo texto y esté entre comillas dobles. Los campos de datos no deben tener codificación HTTP.
 
-Si hay varios valores de datos en el mismo campo, se separan con comas, a menos que se indique lo contrario.
+A menos que se indique lo contrario, los valores de datos múltiples del mismo campo se separan con comas.
 
 Columnas cuyos nombres empiezan por &quot;.&quot; se ignoran. Esto permite almacenar los datos en catálogos de imágenes, lo que no interesa al servicio de imágenes. Las columnas con nombres de encabezado desconocidos se omiten y se escribe una advertencia en el archivo de registro.
 

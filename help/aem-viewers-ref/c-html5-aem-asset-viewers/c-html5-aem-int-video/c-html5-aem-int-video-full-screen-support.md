@@ -1,18 +1,18 @@
 ---
-title: Compatibilidad con pantalla completa
+title: compatibilidad con pantalla completa
 description: El visor admite el modo de funcionamiento a pantalla completa.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 6a3d4a58-c3aa-4663-a848-ee5c1285ff75
-source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
 
-# Compatibilidad con pantalla completa{#full-screen-support}
+# compatibilidad con pantalla completa{#full-screen-support}
 
 El visor admite el modo de funcionamiento a pantalla completa.
 
@@ -20,4 +20,4 @@ En los navegadores de escritorio modernos, excepto Internet Explorer 10 y versio
 
 En dispositivos iOS y en exploradores Internet Explorer más antiguos, el visor utiliza el modo de pantalla completa &quot;simulado&quot; en su lugar. En este modo, el visor cambia de tamaño para ocupar toda el área de la ventana del explorador web. Además, la interfaz de usuario del explorador web y otras ventanas siguen estando visibles en la pantalla.
 
-Un usuario entra y sale del modo de pantalla completa al pulsar el botón Pantalla completa en la interfaz de usuario del visor. Cuando se utiliza el modo de pantalla completa &quot;nativo&quot; en el escritorio, también es posible salir de él pulsando **Esc**.
+Un usuario entra y sale del modo de pantalla completa al pulsar el botón de pantalla completa en la interfaz de usuario del visor. Cuando se utiliza el modo de pantalla completa &quot;nativo&quot; en el escritorio, también es posible salir de él pulsando **Esc**.

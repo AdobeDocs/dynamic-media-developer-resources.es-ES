@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 08ba7a29-8b17-4167-a9f3-82aa4cf65556
-source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '2599'
 ht-degree: 2%
@@ -53,7 +53,7 @@ El aspecto del botón para compartir incrustado se controla con el siguiente sel
 
 Es posible quitar el botón del panel Compartir en redes sociales mediante la configuración `display:none` Propiedad CSS en su clase CSS.
 
-La información del objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obtener más información.
+La información del objeto del botón se puede localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obtener más información.
 
 **Ejemplo** : Para configurar un botón de uso compartido incrustado de 28 x 28 píxeles, que muestra una imagen diferente para cada uno de los cuatro estados de botón diferentes:
 
@@ -282,7 +282,7 @@ El botón Cerrar se controla con el siguiente selector de clase CSS:
 >
 >Este botón admite el `state` selector de atributos, que se puede utilizar para aplicar distintos aspectos a distintos estados de botón.
 
-La información del objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obtener más información.
+La información del objeto del botón se puede localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obtener más información.
 
 **Ejemplo** : Para configurar el encabezado del cuadro de diálogo con relleno, icono de 24 x 14 píxeles y un título en negrita de 16 puntos. Y finalmente, un botón Cerrar de 28 x 28 píxeles, colocado a dos píxeles de la parte superior y a dos píxeles de la derecha del contenedor de diálogo:
 
@@ -463,7 +463,7 @@ Además, ambos botones comparten una clase CSS común que puede contener configu
  </tbody> 
 </table>
 
-La información del objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obtener más información.
+La información del objeto del botón se puede localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obtener más información.
 
 **Ejemplo** - para configurar un pie de página de cuadro de diálogo con un botón Cancelar de 64 x 34, con un color de texto y un color de fondo diferentes para cada estado de botón:
 
@@ -618,7 +618,7 @@ Esta clase no es adecuada para controlar el tamaño o la posición de la etiquet
  </tbody> 
 </table>
 
-Las etiquetas de los cuadros de diálogo se pueden localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obtener más información.
+Las etiquetas de los cuadros de diálogo se pueden localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obtener más información.
 
 **Ejemplo** - para configurar todas las etiquetas como grises, negrita con una fuente de nueve píxeles:
 
@@ -1249,7 +1249,7 @@ No es posible colocar botones de desplazamiento mediante CSS `top`, `left`, `bot
 >
 >Estos botones admiten el `state` selector de atributos, que se puede utilizar para aplicar diferentes aspectos a distintos estados de botones: `up`, `down`, `over`, y `disabled`.
 
-La información sobre herramientas de los botones se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obtener más información.
+La información sobre herramientas de los botones se puede localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obtener más información.
 
 **Ejemplo** - para configurar botones de desplazamiento de 28 x 32 píxeles con ilustraciones diferentes para cada estado:
 

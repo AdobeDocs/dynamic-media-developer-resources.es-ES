@@ -5,7 +5,7 @@ title: Acerca de la biblioteca de imágenes adaptables
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f853b9b4-917c-4744-b2a5-25fde2532356
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 0%
@@ -45,7 +45,7 @@ El caso de uso más sencillo de la biblioteca de imágenes adaptables es definir
    <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/image-presets.html" format="https" scope="external"> https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/image-presets.html</a> </p> <p> 
      <!--http://sasha.s7qa.com/jira-bugs/S7-7729/image-presets.html--> </p> </td> 
-   <td colname="col2"> <p>En el siguiente ejemplo, se utilizan ajustes preestablecidos de imagen de diferente calidad y formato para diferentes tamaños de punto de interrupción. Para un pequeño punto de interrupción, se aplica un ajuste preestablecido de baja calidad que obliga al servicio de imágenes a devolver la imagen del GIF comprimida solo a seis colores. Un punto de interrupción medio utiliza un ajuste preestablecido de imagen configurado para un JPEG con compresión alta. El punto de interrupción más grande está asociado a un ajuste preestablecido de imagen de alta calidad que utiliza PNG sin pérdidas. Este método garantiza la entrega de imágenes de alta calidad a dichos dispositivos, partiendo del supuesto de que los dispositivos con pantallas más grandes disponen de un ancho de banda y una potencia de procesamiento buenos. </p> <p>Haga clic en la dirección URL para abrir la página web, cambiar el tamaño de la ventana del explorador web de mayor a menor y observar cómo se degrada la calidad de la imagen. </p> </td> 
+   <td colname="col2"> <p>En el siguiente ejemplo, se utilizan ajustes preestablecidos de imagen de diferente calidad y formato para diferentes tamaños de punto de interrupción. Para un pequeño punto de interrupción, se aplica un ajuste preestablecido de baja calidad que obliga al servicio de imágenes a devolver la imagen del GIF comprimida solo a seis colores. Un punto de interrupción medio utiliza un ajuste preestablecido de imagen configurado para un JPEG con compresión alta. El punto de interrupción más grande está asociado a un ajuste preestablecido de imagen de alta calidad que utiliza PNG sin pérdidas. Este método garantiza la entrega de imágenes de alta calidad a dichos dispositivos, partiendo del supuesto de que los dispositivos con pantallas más grandes tienen un mayor ancho de banda y potencia de procesamiento. </p> <p>Haga clic en la dirección URL para abrir la página web, cambiar el tamaño de la ventana del explorador web de mayor a menor y observar cómo se degrada la calidad de la imagen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>4 </p> </td> 

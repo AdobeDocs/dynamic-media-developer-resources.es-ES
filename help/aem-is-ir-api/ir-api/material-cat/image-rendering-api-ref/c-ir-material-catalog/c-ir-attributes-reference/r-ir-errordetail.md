@@ -1,20 +1,20 @@
 ---
 title: ErrorDetail
-description: Detalle del mensaje de error. Especifica el nivel de detalle de los mensajes de error devueltos mediante HTTP como valor error.message.
+description: Detalle del mensaje de error. Especifica el nivel de detalle de los mensajes de error devueltos por HTTP como valor error.message.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 39d7fc44-7605-4f93-b2f9-0a6e8bc76ec7
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '166'
 ht-degree: 4%
 
 ---
 
 # ErrorDetail{#errordetail}
 
-Detalle del mensaje de error. Especifica el nivel de detalle de los mensajes de error devueltos mediante HTTP como valor error.message.
+Detalle del mensaje de error. Especifica el nivel de detalle de los mensajes de error devueltos por HTTP como valor error.message.
 
 ## Título {#section-c10d75d72ee24d16a67cc8d927f1deba}
 

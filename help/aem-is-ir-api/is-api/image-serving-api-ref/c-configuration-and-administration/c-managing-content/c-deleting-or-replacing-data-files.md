@@ -5,9 +5,9 @@ title: Eliminar o reemplazar archivos de datos
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 1624e1b5-ba79-45db-8309-457a44fddab8
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,6 @@ Aunque la adición de nuevos archivos de datos es sencilla y directa, se debe te
 
 En todos los casos, recuerde que la variable [!DNL Platform Server] y las entradas de caché del cliente deben quedar obsoletas antes de que el cliente vea los datos actualizados. Las entradas de caché específicas se pueden actualizar inmediatamente utilizando el `cache=validate` comando.
 
-El administrador de caché no realiza un seguimiento directo de los cambios en los archivos de fuente y los archivos de perfil ICC. Si se modifica un recurso de este tipo sin cambiar su ID, la caché del servidor no conocerá el cambio y `cache=validate` no provocará que se actualice la entrada de caché. `cache=update` se puede utilizar para forzar la regeneración de estas entradas de caché.
+El administrador de caché no realiza un seguimiento directo de los cambios en los archivos de fuente y los archivos de perfil ICC. Si se modifica un recurso de este tipo sin cambiar su ID, la caché del servidor no conoce el cambio y `cache=validate` no hace que se actualice la entrada de caché. `cache=update` se puede utilizar para forzar la regeneración de estas entradas de caché.
 
-Para evitar las complicaciones derivadas de reemplazar archivos, se recomienda dar un nuevo nombre al archivo de reemplazo y actualizar las entradas de catálogo correspondientes. Esto permitirá reemplazar cualquier archivo de datos mientras el servidor esté activo y hará que las entradas de la caché del servidor queden obsoletas inmediatamente sin ninguna intervención adicional. Este método se puede utilizar para perfiles ICC, fuentes y todas las imágenes gestionadas por catálogos de imágenes.
+Para evitar las complicaciones derivadas de reemplazar archivos, se recomienda dar un nuevo nombre al archivo de reemplazo y actualizar las entradas de catálogo correspondientes. Esto permite reemplazar cualquier archivo de datos mientras el servidor esté activo y hace que las entradas de la caché del servidor queden obsoletas inmediatamente sin ninguna intervención adicional. Este método se puede utilizar para perfiles ICC, fuentes y todas las imágenes gestionadas por catálogos de imágenes.

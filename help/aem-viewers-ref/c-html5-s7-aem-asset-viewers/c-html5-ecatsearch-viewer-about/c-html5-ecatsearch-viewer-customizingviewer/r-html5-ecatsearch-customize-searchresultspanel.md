@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: ffbbc2ae-60da-4c3d-a350-6dbcb64e189d
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 1%
@@ -216,7 +216,7 @@ El panel de resultados de búsqueda puede mostrar un mensaje de texto cuando se 
 >
 >Este panel de texto admite `state` selector de atributos, que se puede utilizar para aplicar estilos diferentes a mensajes de texto diferentes. En particular, `state='prompt'` corresponde al mensaje de texto que se muestra cuando se llama al panel por primera vez. El `state='results'` corresponde al texto con información sobre las visitas de búsqueda. Y finalmente, el `state='no_results'` corresponde al texto que se muestra cuando la consulta de búsqueda no devolvió ningún resultado.
 
-El texto del mensaje se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
+El texto del mensaje se puede localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
 Ejemplo: Para configurar un panel de texto que utilice una fuente gris de 18 píxeles:
 
@@ -358,7 +358,7 @@ No es posible colocar botones de desplazamiento mediante las propiedades CSS top
 >
 >Este botón admite el `state` selector de atributos, que se puede utilizar para aplicar diferentes aspectos a `"up"`, `"down"`, `"over"`, y `"disabled"` estados de botón.
 
-La información sobre herramientas de los botones se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
+La información sobre herramientas de los botones se puede localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
 Ejemplo: Configuración de un botón de desplazamiento hacia arriba de 125 x 35 píxeles con ilustraciones diferentes para cada estado:
 

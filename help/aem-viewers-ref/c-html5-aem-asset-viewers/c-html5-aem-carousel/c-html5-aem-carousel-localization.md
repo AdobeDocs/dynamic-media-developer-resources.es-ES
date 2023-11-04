@@ -1,22 +1,22 @@
 ---
-title: Localización de los elementos de la interfaz de usuario
+title: Localización de elementos de la interfaz de usuario
 description: Cierto contenido que muestra el Visor de carrusel está sujeto a la localización. Este contenido incluye botones de navegación con diapositivas.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 05f5abe0-1124-4114-864d-440699bcdc39
-source-git-commit: 4aaa77b1fb58b30b02ee15f6080169fa354d5907
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
 
-# Localización de los elementos de la interfaz de usuario{#localization-of-user-interface-elements}
+# Localización de elementos de la interfaz de usuario{#localization-of-user-interface-elements}
 
 Cierto contenido que muestra el Visor de carrusel está sujeto a la localización. Este contenido incluye botones de navegación con diapositivas.
 
-Cada contenido textual del visualizador que se puede localizar se representa mediante el identificador especial del SDK del visualizador, denominado SYMBOL. Cualquier SYMBOL tiene un valor de texto asociado predeterminado para una configuración regional en inglés ( `"en"`) se suministra con el visor predeterminado y también puede tener valores definidos por el usuario para tantas configuraciones regionales como sea necesario.
+Cada contenido textual del visualizador que se puede localizar se representa mediante el identificador especial del SDK del visualizador, denominado SYMBOL. Cualquier SYMBOL tiene un valor de texto asociado por defecto para una configuración regional en inglés ( `"en"`) se suministra con el visor predeterminado y también puede tener valores definidos por el usuario para tantas configuraciones regionales como sea necesario.
 
 Cuando se inicia el visor, comprueba la configuración regional actual para ver si hay un valor definido por el usuario para cada SYMBOL admitido para dicha configuración regional. Si existe, utiliza el valor definido por el usuario; de lo contrario, vuelve al texto predeterminado predeterminado.
 

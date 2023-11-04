@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 4db16599-ede0-47ae-bb5a-840655d3620b
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '657'
 ht-degree: 1%
 
 ---
@@ -142,7 +142,7 @@ El aspecto de este botón se controla con el siguiente selector de clase CSS:
 >
 >Este botón admite el `state` y `selected` selectores de atributos, que se pueden utilizar para aplicar diferentes aspectos a diferentes estados de botones. En particular, `state="selected"` corresponde al estado inicial del botón de desplazamiento cuando es posible desplazar el contenido de la barra de control hacia la izquierda. El atributo `state="default"` corresponde al estado en el que el contenido se desplaza completamente hacia la izquierda y el botón de desplazamiento sugiere devolverlo al estado inicial.
 
-La información del objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
+La información del objeto del botón se puede localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
 **Ejemplo** - Para activar la función de desplazamiento en la barra de control principal para teléfonos móviles. Y configure un botón de desplazamiento de 64 x 64 píxeles que muestre una imagen diferente para cada uno de los 4 estados de botón diferentes cuando se selecciona o no se selecciona:
 

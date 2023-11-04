@@ -1,22 +1,22 @@
 ---
-title: Localización de los elementos de la interfaz de usuario
+title: Localización de elementos de la interfaz de usuario
 description: Cierto contenido que muestra el usuario está sujeto a la localización. Este contenido incluye información sobre herramientas de elementos de la interfaz de usuario y un mensaje de error que se muestra cuando el vídeo no se puede reproducir.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: d54fd841-2246-4d2e-8bf9-7da56f2487f3
-source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
 
-# Localización de los elementos de la interfaz de usuario{#localization-of-user-interface-elements}
+# Localización de elementos de la interfaz de usuario{#localization-of-user-interface-elements}
 
 Cierto contenido que muestra el usuario está sujeto a la localización. Este contenido incluye información sobre herramientas de elementos de la interfaz de usuario y un mensaje de error que se muestra cuando el vídeo no se puede reproducir.
 
-Cada contenido textual del visualizador que se puede localizar se representa mediante un identificador especial del SDK del visualizador llamado SYMBOL. Cualquier SYMBOL tiene un valor de texto asociado predeterminado para la configuración regional en inglés ( `"en"`) se suministra con el visor incorporado. También puede tener valores definidos por el usuario configurados para tantas configuraciones regionales como sea necesario.
+Cada contenido textual del visualizador que se puede localizar se representa mediante un identificador especial del SDK del visualizador llamado SYMBOL. Cualquier SYMBOL tiene un valor de texto asociado por defecto para la configuración regional en inglés ( `"en"`) se suministra con el visor incorporado. También puede tener valores definidos por el usuario configurados para tantas configuraciones regionales como sea necesario.
 
 Cuando se inicia el visor, comprueba la configuración regional actual para ver si hay un valor definido por el usuario para cada SÍMBOLO admitido para la configuración regional. Si existe, utiliza el valor definido por el usuario; de lo contrario, vuelve al texto predeterminado predeterminado.
 
@@ -90,11 +90,11 @@ Se admiten los siguientes SYMBOL:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED </span> </p> </td> 
-   <td colname="col2"> <p>Botón Pantalla completa en estado normal. </p> </td> 
+   <td colname="col2"> <p>botón de pantalla completa en estado normal. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECTED </span> </p> </td> 
-   <td colname="col2"> <p>Botón Pantalla completa en estado de pantalla completa. </p> </td> 
+   <td colname="col2"> <p>botón de pantalla completa en estado de pantalla completa. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SocialShare.TOOLTIP </span> </p> </td> 
@@ -178,7 +178,7 @@ Se admiten los siguientes SYMBOL:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Botón Compartir de Twitter. </p> </td> 
+   <td colname="col2"> <p>El botón Compartir del Twitter. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Video360Player.ERROR </span> </p> </td> 

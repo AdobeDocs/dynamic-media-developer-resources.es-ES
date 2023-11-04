@@ -5,9 +5,9 @@ title: Catálogos de imágenes
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 54c83ad2-a932-4df2-92ff-ab34d4a5b1a7
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ Los catálogos de imágenes ofrecen las siguientes funciones:
 
 * Permite la asociación persistente de imágenes con determinados metadatos y comandos modificadores.
 
-   Se hace referencia a las entradas de los catálogos de imágenes mediante una notación de acceso directo `*`rootId/objId`*`, donde `*`rootId`*` identifica el catálogo de imágenes y `*`objId`*` identifica un registro de datos en el catálogo.
+  Se hace referencia a las entradas de los catálogos de imágenes mediante una notación de acceso directo `*`rootId/objId`*`, donde `*`rootId`*` identifica el catálogo de imágenes y `*`objId`*` identifica un registro de datos en el catálogo.
 * Proporcione valores predeterminados para determinados atributos de solicitud, como la calidad del JPEG o si se va a aplicar una marca de agua.
 * Administrar fuentes, perfiles ICC, definiciones de macros y plantillas de solicitudes
 
-Aunque no se haya definido ningún catálogo de imágenes específico, todas las funciones de los catálogos de imágenes están disponibles a través del catálogo predeterminado ( [!DNL default.ini]).
+Aunque no se haya definido ningún catálogo de imágenes específico, todas las funciones de los catálogos de imágenes están disponibles mediante el catálogo predeterminado ( [!DNL default.ini]).
 
 If `*`rootId`*` en la ruta URL de la solicitud, la ruta coincide `attribute::RootId` de un catálogo de imágenes específico, ese catálogo se convierte en el catálogo principal para esta solicitud. El catálogo principal proporciona los atributos y la configuración predeterminados para toda la solicitud. Si no se encuentra ninguna coincidencia, se utiliza el catálogo predeterminado en su lugar.
 

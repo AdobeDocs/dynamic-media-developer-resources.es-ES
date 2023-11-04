@@ -1,18 +1,18 @@
 ---
-title: Botón Pantalla completa
+title: botón de pantalla completa
 description: Este botón hace que el usuario entre o salga del modo de pantalla completa cuando lo selecciona. Se utiliza cuando el visor muestra imágenes o conjuntos de giros. Este botón no se muestra si el visor funciona en modo emergente y el sistema no admite pantalla completa nativa. Puede cambiar el tamaño, la apariencia y la posición de este botón mediante CSS.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 1df99614-9493-4c8a-bc51-4426b8c5467a
-source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '303'
 ht-degree: 2%
 
 ---
 
-# Botón Pantalla completa{#full-screen-button}
+# botón de pantalla completa{#full-screen-button}
 
 Este botón hace que el usuario entre o salga del modo de pantalla completa cuando lo selecciona. Se utiliza cuando el visor muestra imágenes o conjuntos de giros. Este botón no se muestra si el visor funciona en modo emergente y el sistema no admite pantalla completa nativa. Puede cambiar el tamaño, la apariencia y la posición de este botón mediante CSS.
 
@@ -73,7 +73,7 @@ El aspecto del botón se controla con el siguiente selector de clase CSS:
 >
 >Este botón es compatible con el `state` y `selected` selectores de atributos, que se pueden utilizar para aplicar diferentes aspectos a diferentes estados de botones. En particular, `selected='true'` corresponde al estado &quot;pantalla completa&quot; y `selected='false'` corresponde al estado &quot;normal&quot;.
 
-La información del objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obtener más información.
+La información del objeto del botón se puede localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obtener más información.
 
 Ejemplo: Para configurar un botón de pantalla completa de 32 x 32 píxeles y colocado a seis píxeles de la parte superior y el borde derecho del visor. Y, por último, muestra una imagen diferente para cada uno de los cuatro estados de botón cuando se selecciona o no se selecciona:
 

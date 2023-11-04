@@ -5,9 +5,9 @@ title: Datos de origen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: de2d8fa2-6793-49ba-b873-adf723369cce
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,6 @@ Si se trata de un catálogo de materiales, el fichero especificado en el catálo
 
 Si no hay ningún catálogo de imágenes involucrado, la ruta se combina con `default::RootPath` y luego procesado como se indica arriba.
 
-La ubicación física de los archivos de datos de origen se suele especificar con [ir.resourceRootPaths](../../../../../../ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-resource-root-folders.md#concept-39a34d2239934079bb396e1bf568a9c2). Se pueden especificar varios valores para permitir que los archivos de datos de origen se distribuyan en varios sistemas de archivos. El servidor de procesamiento probará cada ruta en el orden especificado hasta que se encuentre el archivo de datos.
+La ubicación física de los archivos de datos de origen se suele especificar con [ir.resourceRootPaths](../../../../../../ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-resource-root-folders.md#concept-39a34d2239934079bb396e1bf568a9c2). Se pueden especificar varios valores para permitir que los archivos de datos de origen se distribuyan en varios sistemas de archivos. El servidor de procesamiento intenta cada ruta en el orden especificado hasta que se encuentra el archivo de datos.
 
 Se pueden agregar nuevos archivos de datos de cualquier tipo en cualquier momento sin detener el servidor.

@@ -5,7 +5,7 @@ title: Conjunto de imágenes
 feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,User
 exl-id: eacf0553-8cec-4a1d-80a5-6fe37b92b5bf
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 2%
@@ -16,9 +16,9 @@ ht-degree: 2%
 
 Datos del conjunto de imágenes. Proporciona un mecanismo para definir conjuntos ordenados de imágenes y atributos de control utilizados por los visualizadores de Dynamic Media.
 
-Un conjunto de imágenes consta de una lista de elementos ordenada y separada por comas, cada uno de los cuales consta de uno o más subelementos (id de imagen, id de muestra, rutas de archivo de medios, etiquetas, etc.), separados por punto y coma o dos puntos.
+Un conjunto de imágenes consta de una lista de elementos ordenada y separada por comas. Cada elemento consta de uno o más subelementos (ID de imagen, ID de muestra, rutas de archivos multimedia, etiquetas, etc.), separados por punto y coma, dos puntos o ambos.
 
-Llaves `{ }` y paréntesis `( )` se puede utilizar para delimitar cierto contenido (como valores de color) o indicar conjuntos anidados. Las llaves o paréntesis utilizados de esta forma no deben codificarse y deben aparecer siempre como pares coincidentes; de lo contrario, se producirá un error de análisis del catálogo.
+Llaves `{ }` y paréntesis `( )` se puede utilizar para delimitar cierto contenido (como valores de color) o indicar conjuntos anidados. Los corchetes o paréntesis utilizados de esta forma no deben codificarse y deben aparecer siempre como pares coincidentes; de lo contrario, se produce un error en el análisis del catálogo.
 
 >[!NOTE]
 >
@@ -31,7 +31,6 @@ Llaves `{ }` y paréntesis `( )` se puede utilizar para delimitar cierto conteni
 >* `}`
 >* `(`
 >* `)`
-
 
 
 Consulte la documentación de los visualizadores del servicio de imágenes para obtener más información sobre la estructura y el uso de los conjuntos de imágenes.

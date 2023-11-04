@@ -5,16 +5,16 @@ title: Servir contenido estático (que no sea de imagen)
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e2c79bdc-5d70-46d9-85f4-ffebd7621944
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '286'
 ht-degree: 1%
 
 ---
 
 # Servir contenido estático (que no sea de imagen){#serving-static-non-image-content}
 
-El servicio de imágenes proporciona un mecanismo para administrar el contenido que no es de imagen en los catálogos y ofrecerlo de forma independiente `context /is/content`. El mecanismo permite configurar el TTL para cada elemento por separado.
+El servicio de imágenes proporciona un mecanismo para administrar el contenido que no es de imagen en los catálogos y ofrecerlo por separado `context /is/content`. El mecanismo permite configurar el TTL para cada elemento por separado.
 
 ## Sintaxis básica {#section-a986baaca8644d04bcd0ddf781ae916e}
 
@@ -113,7 +113,7 @@ Los catálogos de contenido estático son similares a los catálogos de imágene
 
 ## Filtrado de contenido estático {#section-896c37cf68bc446eb0766fb378898262}
 
-Este mecanismo puede ayudar a garantizar que los clientes solo reciban el contenido adecuado para sus necesidades. Suponiendo que el contenido estático esté etiquetado con lo apropiado `catalog::UserType`valores, el cliente puede agregar los `type=` a la solicitud. El servicio de imágenes comparará el valor proporcionado con la variable `type=` comando al valor de `catalog::UserType` y, en caso de discrepancia, devuelve un error en lugar de contenido potencialmente inapropiado.
+Este mecanismo puede ayudar a garantizar que los clientes solo reciban el contenido adecuado para sus necesidades. Suponiendo que el contenido estático esté etiquetado con lo apropiado `catalog::UserType`valores, el cliente puede agregar los `type=` a la solicitud. El servicio de imágenes compara el valor proporcionado con la variable `type=` comando al valor de `catalog::UserType` y, en caso de discrepancia, devuelve un error en lugar de contenido potencialmente inapropiado.
 
 ## Véase también {#section-91c7b686aacf4d3ca974f35a3fe3d6ec}
 

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4fabd469-c80c-422a-80b0-3d31ce191d58
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '296'
 ht-degree: 7%
 
 ---
@@ -53,7 +53,7 @@ Solicitar elemento de regla. Una o más reglas son opcionales en la variable `<r
 
 **`Name = "text"`**: Opcional. Se utiliza para identificar el `<rule>` en los registros de depuración y los mensajes de error.
 
-`  *`Atributo`* ="value"`: Opcional. `<rule>` Los elementos pueden definir cualquiera de los atributos siguientes en cualquier combinación. Si se especifica y la regla se ajusta correctamente, anularán los atributos de catálogo correspondientes para esta solicitud. El valor predeterminado es `RequestType="is"`.
+`  *`Atributo`* ="value"`: Opcional. `<rule>` Los elementos pueden definir cualquiera de los atributos siguientes en cualquier combinación. Si se especifica y la regla se ajusta correctamente, anulan los atributos de catálogo correspondientes para esta solicitud. El valor predeterminado es `RequestType="is"`.
 
 <table id="table_67AED5BEADDF4DAC99B5EF46438C1ABC"> 
  <thead> 

@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: e6ff32bf-f85a-4288-a0e5-34487229a9d9
-source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 2%
@@ -200,7 +200,7 @@ No es posible colocar botones de desplazamiento mediante CSS `top`, `left`, `bot
 >
 >Este botón admite el `state` selector de atributos, que se puede utilizar para aplicar diferentes aspectos a distintos estados de botones: `up`, `down`, `over`, y `disabled`.
 
-La información sobre herramientas de los botones se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obtener más información.
+La información sobre herramientas de los botones se puede localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obtener más información.
 
 Por ejemplo, para configurar botones de desplazamiento de 56 x 56 píxeles con ilustraciones diferentes para cada estado.
 

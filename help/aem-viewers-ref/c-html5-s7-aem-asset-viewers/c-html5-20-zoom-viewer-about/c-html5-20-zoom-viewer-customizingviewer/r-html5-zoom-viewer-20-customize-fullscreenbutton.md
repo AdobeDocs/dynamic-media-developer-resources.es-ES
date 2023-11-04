@@ -1,18 +1,18 @@
 ---
-title: Botón Pantalla completa
+title: botón de pantalla completa
 description: Hace que el usuario seleccione el modo de pantalla completa para entrar o salir del visor. Este botón no aparece si el visor funciona en modo emergente y el sistema no admite pantalla completa nativa. Puede cambiar el tamaño, la apariencia y la posición de este botón mediante CSS.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: bbbf32db-15ce-4273-acc0-b6725b5405fb
-source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '272'
 ht-degree: 2%
 
 ---
 
-# Botón Pantalla completa{#full-screen-button}
+# botón de pantalla completa{#full-screen-button}
 
 Hace que el usuario seleccione el modo de pantalla completa para entrar o salir del visor. Este botón no aparece si el visor funciona en modo emergente y el sistema no admite pantalla completa nativa. Puede cambiar el tamaño, la apariencia y la posición de este botón mediante CSS.
 
@@ -73,7 +73,7 @@ El aspecto del botón se controla con el siguiente selector de clase CSS:
 >
 >Este botón es compatible con el `state` y `selected` selectores de atributos, que se pueden utilizar para aplicar diferentes aspectos a diferentes estados de botones. En particular, `selected='true'` corresponde al estado &quot;pantalla completa&quot; y `selected='false'` corresponde al estado &quot;normal&quot;.
 
-La información del objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+La información del objeto del botón se puede localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Ejemplo: Para configurar un botón de pantalla completa de 32 x 32 píxeles y colocado a seis píxeles de la parte superior y el borde derecho del visor. Y, por último, muestra una imagen diferente para cada uno de los cuatro estados de botón cuando se selecciona o no se selecciona:
 

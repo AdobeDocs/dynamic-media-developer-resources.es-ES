@@ -1,18 +1,18 @@
 ---
-title: Botón Pantalla completa
+title: botón de pantalla completa
 description: Hace que el usuario seleccione el modo de pantalla completa para entrar o salir del visor. Este botón aparece en la barra de control principal. Este botón no se muestra si el visor funciona en modo emergente y el sistema no admite pantalla completa nativa. Puede cambiar el tamaño, la apariencia y la posición del botón mediante CSS.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 3f56fbd2-4d2e-4cfa-bc97-350bc2bb708e
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '315'
 ht-degree: 2%
 
 ---
 
-# Botón Pantalla completa{#full-screen-button}
+# botón de pantalla completa{#full-screen-button}
 
 Hace que el usuario seleccione el modo de pantalla completa para entrar o salir del visor. Este botón aparece en la barra de control principal. Este botón no se muestra si el visor funciona en modo emergente y el sistema no admite pantalla completa nativa. Puede cambiar el tamaño, la apariencia y la posición del botón mediante CSS.
 
@@ -71,7 +71,7 @@ El aspecto del botón se controla con el siguiente selector de clase CSS:
 >
 >Este botón es compatible con el `state` y `selected` selectores de atributos, que se pueden utilizar para aplicar diferentes aspectos a diferentes estados de botones. En particular, `selected='true'` corresponde al estado &quot;pantalla completa&quot; y `selected='false'` corresponde al estado &quot;normal&quot;.
 
-La información del objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
+La información del objeto del botón se puede localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
 Ejemplo: Para configurar un botón de pantalla completa de 28 x 28 píxeles y situado a 4 píxeles de la parte inferior y a 5 píxeles del borde derecho de la barra de control principal. Y, por último, muestra una imagen diferente para cada uno de los cuatro estados de botón cuando se selecciona o no se selecciona.
 

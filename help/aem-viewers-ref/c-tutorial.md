@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 3a798595-6c65-4a12-983d-3cdc53830d28
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 0%
@@ -115,7 +115,7 @@ Este tutorial incluye el siguiente orden de tareas para ayudarle a crear un viso
 
 1. Guarde el archivo como una plantilla vacía. Puede utilizar cualquier nombre de archivo que desee.
 
-   Utilizará este archivo de plantilla vacío como referencia cuando cree visualizadores en el futuro. Esta plantilla funciona localmente y cuando se sirve desde un servidor web.
+   Puede utilizar este archivo de plantilla vacío como referencia cuando cree visualizadores en el futuro. Esta plantilla funciona localmente y cuando se sirve desde un servidor web.
 
 Ahora, agregue estilo al visor.
 
@@ -178,8 +178,8 @@ Ahora, incluya los componentes `Container` y `ZoomView`.
    
    /* Create a viewer container as a parent component for other user interface components that  
       are part of the viewer application and associate event handlers for resize and  
-      full screen notification. The advantage of using Container as the parent is the  
-      component's ability to resize and bring itself and its children to full screen. */ 
+      full-screen notification. The advantage of using Container as the parent is the  
+      component's ability to resize and bring itself and its children to full-screen. */ 
    container = new s7sdk.common.Container(null, params, "s7container"); 
    container.addEventListener(s7sdk.event.ResizeEvent.COMPONENT_RESIZE, containerResize, false); 
    

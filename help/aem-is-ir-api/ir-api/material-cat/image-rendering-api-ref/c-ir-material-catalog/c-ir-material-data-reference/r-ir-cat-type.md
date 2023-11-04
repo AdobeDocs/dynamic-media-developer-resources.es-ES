@@ -5,9 +5,9 @@ title: Tipo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 912e2535-9980-4174-bca7-f44789eb39b4
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '132'
 ht-degree: 19%
 
 ---
@@ -105,7 +105,7 @@ Enumeración. Opcional para todos los materiales. Se ignora si la viñeta no tie
 
 ## Predeterminado {#section-247f73b22cb846b7b7d7cc6e8af949ca}
 
-0; el servidor determinará un valor predeterminado adecuado en función de otros atributos del material.
+0; el servidor determina un valor predeterminado adecuado en función de otros atributos de material.
 
 ## Véase también {#section-a51850093b7140e683a0f8b07845843c}
 

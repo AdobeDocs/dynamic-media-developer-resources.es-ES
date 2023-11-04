@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 7040edf2-4356-4493-b886-8c5694f5863a
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 3%
@@ -183,7 +183,7 @@ No es posible colocar botones de desplazamiento mediante CSS `top`, `left`, `bot
 >
 >Este botón admite el `state` selector de atributos, que se utiliza para aplicar diferentes aspectos a los estados de los botones `up`, `down`, `over`, y `disabled`.
 
-La información sobre herramientas de los botones se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) para obtener más información.
+La información sobre herramientas de los botones se puede localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) para obtener más información.
 
 Ejemplo: para configurar botones de desplazamiento de 56 x 56 píxeles con ilustraciones diferentes para cada estado:
 

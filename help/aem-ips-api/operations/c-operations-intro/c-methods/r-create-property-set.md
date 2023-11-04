@@ -1,20 +1,20 @@
 ---
-description: Los conjuntos de propiedades son conjuntos de pares de nombre-valor específicos de la aplicación que se pueden adjuntar a varios objetos IPS, en función del tipo de conjunto de propiedades. Si el tipo de conjunto de propiedades no permite que se adjunten varios conjuntos a un objeto (PropertySetType/allowMultipleisfalse) y el objeto ya tiene un conjunto asociado del mismo tipo, el nuevo conjunto reemplazará al existente.
+description: Los conjuntos de propiedades son conjuntos de pares de nombre-valor específicos de la aplicación que se pueden adjuntar a varios objetos IPS, en función del tipo de conjunto de propiedades. Si el tipo de conjunto de propiedades no permite que se adjunten varios conjuntos a un objeto (PropertySetType/allowMultipleisfalse) y el objeto ya tiene un conjunto asociado del mismo tipo, el nuevo conjunto reemplaza al existente.
 solution: Experience Manager
 title: createPropertySet
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e9f85e65-4a2f-4b82-b7b8-d0d60b8345cd
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '213'
 ht-degree: 8%
 
 ---
 
 # createPropertySet{#createpropertyset}
 
-Los conjuntos de propiedades son conjuntos de pares de nombre-valor específicos de la aplicación que se pueden adjuntar a varios objetos IPS, en función del tipo de conjunto de propiedades. Si el tipo de conjunto de propiedades no permite que se adjunten varios conjuntos a un objeto (PropertySetType/allowMultipleisfalse) y el objeto ya tiene un conjunto asociado del mismo tipo, el nuevo conjunto reemplazará al existente.
+Los conjuntos de propiedades son conjuntos de pares de nombre-valor específicos de la aplicación que se pueden adjuntar a varios objetos IPS, en función del tipo de conjunto de propiedades. Si el tipo de conjunto de propiedades no permite que se adjunten varios conjuntos a un objeto (PropertySetType/allowMultipleisfalse) y el objeto ya tiene un conjunto asociado del mismo tipo, el nuevo conjunto reemplaza al existente.
 
 Sintaxis
 

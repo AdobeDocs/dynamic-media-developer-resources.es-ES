@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: a879994d-2f26-4fdd-9a51-73644fc033cd
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '3046'
 ht-degree: 2%
@@ -53,7 +53,7 @@ El aspecto del botón de uso compartido de correo electrónico se controla con e
 
 Es posible quitar el botón del panel Compartir en redes sociales mediante la configuración `display:none` Propiedad CSS en su clase CSS.
 
-La información del objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
+La información del objeto del botón se puede localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
 Ejemplo: Para configurar un botón de uso compartido de correo electrónico de 28 x 28 píxeles y que muestre una imagen diferente para cada uno de los cuatro estados de botón diferentes.
 
@@ -282,7 +282,7 @@ El botón Cerrar se controla con el siguiente selector de clase CSS:
 >
 >Este botón admite el `state` selector de atributos, que se puede utilizar para aplicar distintos aspectos a distintos estados de botón.
 
-Se puede localizar la información del objeto del botón Cerrar y el título del cuadro de diálogo. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
+Se puede localizar la información del objeto del botón Cerrar y el título del cuadro de diálogo. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
 Ejemplo: Para configurar el encabezado del cuadro de diálogo con relleno, icono de 24 x 17 píxeles y título de 16 puntos en negrita. Y finalmente, y un botón Cerrar de 28 x 28 píxeles colocado a dos píxeles de la parte superior y a dos píxeles de la derecha del contenedor de cuadro de diálogo:
 
@@ -461,7 +461,7 @@ Además, ambos botones comparten una clase CSS común que puede contener configu
  </tbody> 
 </table>
 
-Se puede localizar la información del objeto de este botón. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
+Se puede localizar la información del objeto de este botón. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
 Ejemplo: para configurar un pie de página de cuadro de diálogo con un botón Cancelar de 64 x 34 y un botón Enviar correo electrónico de 82 x 34, con el color del texto y el color de fondo diferentes para cada estado de botón:
 
@@ -648,7 +648,7 @@ Esta clase no es adecuada para controlar el tamaño o la posición de las etique
  </tbody> 
 </table>
 
-Las etiquetas de los cuadros de diálogo se pueden localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
+Las etiquetas de los cuadros de diálogo se pueden localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
 Ejemplo: para configurar todas las etiquetas como grises, negrita y con una fuente de nueve píxeles:
 
@@ -866,7 +866,7 @@ El botón Añadir otra dirección de correo electrónico permite al usuario aña
 >
 >Este botón admite el `state` selector de atributos, que se puede utilizar para aplicar distintos aspectos a distintos estados de botón.
 
-La información del objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
+La información del objeto del botón se puede localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
 Ejemplo: para configurar el botón &quot;Añadir otra dirección de correo electrónico&quot; para que tenga 25 píxeles de altura, utilice una fuente en negrita de 12 puntos con alineación derecha y un color de texto e imagen diferentes para cada estado:
 
@@ -932,7 +932,7 @@ El botón Eliminar permite al usuario eliminar direcciones adicionales del formu
 >
 >Este botón admite el `state` selector de atributos, que se puede utilizar para aplicar distintos aspectos a distintos estados de botón.
 
-La información del objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
+La información del objeto del botón se puede localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
 Ejemplo: para configurar un botón Eliminar de modo que tenga un tamaño de 25 x 25 píxeles y utilizar una imagen diferente para cada estado:
 
@@ -1216,7 +1216,7 @@ Cuando un usuario introduce datos de entrada incorrectos y la validación en lí
 
 La información del objeto del botón se puede localizar.
 
-Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
+Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
 Ejemplo: Para configurar un mensaje para que utilice una fuente en negrita de diez puntos, tenga una altura de línea de 25 píxeles y un relleno de 20 píxeles a la izquierda. Y, finalmente, utilice un icono de signo de exclamación, texto rojo si hay un error y ningún icono y texto verde si hay éxito:
 
@@ -1440,7 +1440,7 @@ No es posible colocar botones de desplazamiento mediante CSS `top`, `left`, `bot
 >
 >Estos botones admiten el `state` selector de atributos, que se puede utilizar para aplicar diferentes aspectos a distintos estados de botones: `up`, `down`, `over`, y `disabled`.
 
-La información del objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
+La información del objeto del botón se puede localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
 Ejemplo: para configurar botones de desplazamiento de 28 x 32 píxeles con ilustraciones diferentes para cada estado:
 

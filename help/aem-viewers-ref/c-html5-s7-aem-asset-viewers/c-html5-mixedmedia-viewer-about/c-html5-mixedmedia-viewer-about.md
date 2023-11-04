@@ -6,9 +6,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 65a54308-f9db-4458-a9c3-ccb1433af43c
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2645'
+source-wordcount: '2642'
 ht-degree: 0%
 
 ---
@@ -160,7 +160,7 @@ La ruta relativa tiene el siguiente aspecto:
 
    El DIV de marcador de posición es un elemento posicionado, lo que significa que la variable `position` La propiedad CSS se establece en `relative` o `absolute`.
 
-   Asegúrese de que la función de pantalla completa funciona correctamente en Internet Explorer. Asegúrese de que no haya otros elementos en el DOM que tengan un orden de apilamiento más alto que el DIV de marcador de posición.
+   Asegúrese de que la característica de pantalla completa funciona correctamente en Internet Explorer. Asegúrese de que no haya otros elementos en el DOM que tengan un orden de apilamiento más alto que el DIV de marcador de posición.
 
    A continuación se muestra un ejemplo de un elemento DIV de marcador de posición definido:
 

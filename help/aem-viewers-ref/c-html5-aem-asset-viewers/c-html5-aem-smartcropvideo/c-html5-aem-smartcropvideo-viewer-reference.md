@@ -6,9 +6,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 937be8a2-307e-47bb-9fc8-d354f780a214
-source-git-commit: 96504ebdc86ff81e9ce69e2d708ede1d0a88d9b5
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2403'
+source-wordcount: '2399'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ El Visor de recorte inteligente de vídeos proporciona un conjunto de controles 
 * Burbuja de tiempo de vídeo del depurador de vídeo.
 * Indicador de tiempo reproducido/tiempo total.
 * Control de volumen.
-* Botón Pantalla completa.
+* botón de pantalla completa.
 * Alternar subtítulos opcionales.
 
 Todos estos controles se agrupan en una barra de control en la parte inferior de la interfaz de usuario del visor.
@@ -68,7 +68,7 @@ Consulte [Navegación y accesibilidad del teclado](../../c-keyboard-accessibilit
 
 El Visor de recorte inteligente de vídeos es compatible con las herramientas de uso compartido de medios sociales. Están disponibles como un solo botón en la interfaz de usuario que se expande hasta una barra de herramientas compartida cuando el usuario hace clic o pulsa en ella.
 
-La barra de herramientas de uso compartido contiene un icono para cada tipo de canal de uso compartido admitido, como Facebook, Twitter, correo electrónico compartido, código compartido incrustado y vínculo compartido. Cuando se activan las herramientas de uso compartido de correo electrónico, de incrustar recursos compartidos o de vincular recursos compartidos, el visor muestra un cuadro de diálogo modal con el formulario de entrada de datos correspondiente. Cuando se llama a Facebook o Twitter, el visor redirige al usuario a un cuadro de diálogo de uso compartido estándar desde un servicio de medios sociales. Además, cuando se activa una herramienta de uso compartido, la reproducción de vídeo se detiene automáticamente.
+La barra de herramientas de uso compartido contiene un icono para cada tipo de canal de uso compartido admitido, como Facebook, Twitter, correo electrónico compartido, código compartido incrustado y vínculo compartido. Cuando se activan las herramientas de uso compartido de correo electrónico, de incrustación de recursos compartidos o de vínculo compartido, el visor muestra un cuadro de diálogo modal con el formulario de entrada de datos correspondiente. Cuando se llama a Facebook o a un Twitter, el visor redirige al usuario a un cuadro de diálogo de uso compartido estándar desde un servicio de medios sociales. Además, cuando se activa una herramienta de uso compartido, la reproducción de vídeo se detiene automáticamente.
 
 Las herramientas de uso compartido no están disponibles en el modo de pantalla completa debido a las restricciones de seguridad del explorador web.
 
@@ -146,7 +146,7 @@ La ruta relativa tiene el siguiente aspecto:
 
    El DIV de marcador de posición es un elemento posicionado, lo que significa que la variable `position` La propiedad CSS se establece en `relative` o `absolute`.
 
-   Asegúrese de que la función de pantalla completa funciona correctamente en Internet Explorer. Asegúrese de que no haya otros elementos en el DOM que tengan un orden de apilamiento más alto que el DIV de marcador de posición.
+   Asegúrese de que la característica de pantalla completa funciona correctamente en Internet Explorer. Asegúrese de que no haya otros elementos en el DOM que tengan un orden de apilamiento más alto que el DIV de marcador de posición.
 
    A continuación se muestra un ejemplo de un elemento DIV de marcador de posición definido:
 

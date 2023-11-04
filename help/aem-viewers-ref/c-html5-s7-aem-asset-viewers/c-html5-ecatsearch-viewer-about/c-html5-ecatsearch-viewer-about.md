@@ -1,21 +1,21 @@
 ---
-description: El visor de búsqueda en el catálogo electrónico es un visor de catálogos que muestra folletos electrónicos en un pliego por pliego o página por página. El catálogo electrónico permite a los usuarios navegar por el catálogo utilizando elementos de interfaz de usuario adicionales o un modo de miniaturas dedicado. Los usuarios también pueden ampliar cada página para obtener buenos detalles.
+description: El visor de búsqueda en el catálogo electrónico es un visor de catálogos que muestra folletos electrónicos en un pliego por pliego o página por página. El catálogo electrónico permite a los usuarios navegar por el catálogo utilizando elementos de interfaz de usuario adicionales o el modo de miniaturas dedicadas. Los usuarios también pueden ampliar cada página para obtener más información.
 keywords: adaptable
 solution: Experience Manager
 title: Búsqueda en catálogo electrónico
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 915e628e-65e7-44c6-a2aa-d4ae7ed03b8e
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2180'
+source-wordcount: '2178'
 ht-degree: 0%
 
 ---
 
 # Búsqueda en catálogo electrónico{#ecatalog-search}
 
-El visor de búsqueda en el catálogo electrónico es un visor de catálogos que muestra folletos electrónicos en un pliego por pliego o página por página. El catálogo electrónico permite a los usuarios navegar por el catálogo utilizando elementos de interfaz de usuario adicionales o un modo de miniaturas dedicado. Los usuarios también pueden ampliar cada página para obtener buenos detalles.
+El visor de búsqueda en el catálogo electrónico es un visor de catálogos que muestra folletos electrónicos en un pliego por pliego o página por página. El catálogo electrónico permite a los usuarios navegar por el catálogo utilizando elementos de interfaz de usuario adicionales o el modo de miniaturas dedicadas. Los usuarios también pueden ampliar cada página para obtener más información.
 
 Este visor funciona con catálogos electrónicos y admite mapas de imágenes opcionales y herramientas de uso compartido en medios sociales. Tiene herramientas de zoom, herramientas de navegación de catálogo, soporte para pantalla completa, miniaturas y un botón de cierre opcional. El visor también admite herramientas de uso compartido en redes sociales, Imprimir, Descargar y Favoritos. Está diseñado para trabajar en equipos de escritorio y dispositivos móviles.
 
@@ -84,9 +84,9 @@ Este visor también admite la entrada táctil y la entrada del ratón en disposi
 
 ## Herramientas de uso compartido de medios sociales con el Visor de búsquedas en catálogos electrónicos {#section-eb575084a99647c3a9591f439f40b412}
 
-El visor de búsqueda en el catálogo electrónico admite herramientas de uso compartido en medios sociales. Están disponibles como un botón en la barra de control principal que se expande a una barra de herramientas de uso compartido cuando un usuario hace clic o pulsa en ella.
+El visor de búsqueda en el catálogo electrónico admite herramientas de uso compartido en redes sociales. Están disponibles como un botón en la barra de control principal que se expande a una barra de herramientas para compartir cuando un usuario hace clic o toca en ella.
 
-La barra de herramientas de uso compartido contiene iconos para cada tipo de canal de uso compartido admitido, que incluye Facebook, Twitter, correo electrónico compartido, código compartido incrustado y vínculo compartido. Cuando se activan las herramientas de uso compartido de correo electrónico, de incrustar recursos compartidos o de vincular recursos compartidos, el visor muestra un cuadro de diálogo modal con el formulario de entrada de datos correspondiente. Cuando se llama a Facebook o Twitter, el visor redirige al usuario a un cuadro de diálogo de uso compartido estándar desde un servicio social. Las herramientas de uso compartido no están disponibles en el modo de pantalla completa debido a las restricciones de seguridad del explorador web.
+La barra de herramientas de uso compartido contiene iconos para cada tipo de canal de uso compartido admitido, que incluye Facebook, Twitter, recurso compartido de correo electrónico, código compartido incrustado y recurso compartido de vínculos. Cuando se activan las herramientas de uso compartido de correo electrónico, de incrustación de recursos compartidos o de vínculo compartido, el visor muestra un cuadro de diálogo modal con el formulario de entrada de datos correspondiente. Cuando se llama a Facebook o a un Twitter, el visor redirige al usuario a un cuadro de diálogo de uso compartido estándar desde un servicio social. Las herramientas de uso compartido no están disponibles en el modo de pantalla completa debido a las restricciones de seguridad del explorador web.
 
 La función Buscar del visor está disponible como icono de espejo en la barra de herramientas principal. Al tocar o hacer clic en el icono, se activa el panel Buscar con un campo de entrada. Después de escribir una palabra clave o frase y pulsar Intro, el visor procesa los resultados de búsqueda en el panel y resalta las palabras encontradas en la vista principal.
 

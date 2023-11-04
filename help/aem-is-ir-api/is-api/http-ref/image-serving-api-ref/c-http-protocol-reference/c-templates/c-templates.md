@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ef49cf8a-4621-4114-aae5-5178f6a5160d
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Se pueden utilizar variables personalizadas para simplificar aún más el uso de
 
 Las plantillas se almacenan como registros en catálogos de imágenes, con el cuerpo de la plantilla en la `catalog::Modifier` y el campo `catalog::Path` vacío o especificando una imagen de fondo estática que no se puede cambiar dinámicamente.
 
-Las plantillas se especifican con `template=` o en el componente de ruta de la URL de solicitud. Para la mayoría de las aplicaciones, se recomienda utilizar la variable `template=` para especificar plantillas. El `template=`El comando no debe aparecer en `catalog::PostModifier` y solo pueden aparecer en el campo `catalog::Modifier` en una solicitud IS anidada (es decir, en una `src=is{...}` construcción). No se puede hacer referencia a los registros de plantilla en `src=` o `mask=`comandos.
+Las plantillas se especifican con `template=` o en el componente de ruta de la URL de solicitud. Para la mayoría de las aplicaciones, se recomienda utilizar la variable `template=` para especificar plantillas. El `template=`El comando no debe aparecer en `catalog::PostModifier` y solo pueden aparecer en el campo `catalog::Modifier` en una solicitud IS anidada (es decir, en un campo `src=is{...}` construcción). No se puede hacer referencia a los registros de plantilla en `src=` o `mask=`comandos.
 
 Cualquiera `src=` o `mask=`los comandos incrustados en la plantilla pueden resolverse en el catálogo principal de la solicitud o en un catálogo de imágenes diferente. Si no `rootId` se especifica explícitamente, se asume el catálogo principal. La plantilla especificada con `template=` también puede encontrarse en el catálogo principal o en un catálogo de imágenes diferente.
 

@@ -5,9 +5,9 @@ title: ControlBar.transition
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 2e08a62b-9499-41f8-927b-89bed972b4eb
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '116'
 ht-degree: 2%
 
 ---

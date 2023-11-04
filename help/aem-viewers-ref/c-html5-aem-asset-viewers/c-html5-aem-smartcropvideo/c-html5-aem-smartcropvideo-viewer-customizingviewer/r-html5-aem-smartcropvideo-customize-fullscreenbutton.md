@@ -1,18 +1,18 @@
 ---
-title: Botón Pantalla completa
+title: botón de pantalla completa
 description: El botón de pantalla completa hace que el reproductor de recorte inteligente de vídeo entre o salga del modo de pantalla completa cuando un usuario hace clic en él.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 79b57f6d-17d2-48af-9414-b0ab9d24fbdc
-source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '241'
 ht-degree: 2%
 
 ---
 
-# Botón Pantalla completa{#full-screen-button}
+# botón de pantalla completa{#full-screen-button}
 
 El botón de pantalla completa hace que el reproductor de recorte inteligente de vídeo entre o salga del modo de pantalla completa cuando un usuario hace clic en él.
 
@@ -69,7 +69,7 @@ El aspecto del botón de pantalla completa se controla con el selector de clases
 >
 >Este botón es compatible con el `state` y `selected` selectores de atributos, que se pueden utilizar para aplicar diferentes aspectos a diferentes estados de botones. En particular, `selected='true'` corresponde al estado &quot;pantalla completa&quot; y `selected='false'` corresponde al estado &quot;normal&quot;.
 
-La información del objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
+La información del objeto del botón se puede localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obtener más información.
 
 ## Ejemplo {#section-e8caea0a303c425a8a637c2a47c06355}
 

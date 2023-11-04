@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: cdb3ed5e-c396-483d-aea0-2b3f24efe56e
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '157'
 ht-degree: 4%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 4%
 
 Los materiales de los archivadores especifican un archivo de estilo de archivador (extensión de archivo .vnc), un archivo de datos especial que contiene representaciones fotográficas de los archivadores junto con definiciones de diseño paramétrico y otra información necesaria para procesar los frentes de los archivadores.
 
-[!DNL vnc] los archivos pueden incluir una textura de grano de madera repetible o la textura se puede proporcionar externamente mediante un segundo argumento a `src=`. Cierto [!DNL vnc] los archivos permiten colorear o texturar áreas seleccionadas de los frentes del archivador (normalmente se utiliza para estilos de archivador laminado).
+[!DNL vnc] los ficheros pueden incluir una textura de grano de madera repetible, o la textura puede proporcionarse externamente mediante un segundo argumento a `src=`. Cierto [!DNL vnc] los archivos permiten colorear o texturar áreas seleccionadas de los frentes del archivador (normalmente se utiliza para estilos de archivador laminado).
 
-Los materiales del gabinete solo se pueden aplicar a objetos del gabinete.
+Los materiales de gabinete solo se pueden aplicar a objetos de gabinete.
 
 <table id="table_0B16200886FE4DFEBB1E4BE8FBA67EE4"> 
  <thead> 

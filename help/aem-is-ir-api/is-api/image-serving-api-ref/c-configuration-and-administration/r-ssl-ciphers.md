@@ -5,9 +5,9 @@ title: Definición de cifrados SSL
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 7734ba02-4442-4a3d-acbf-e14d8ad66279
-source-git-commit: 370444b85cb2636d109df4e2681e3e078d6f1e1a
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ De forma predeterminada, todas las cifras están disponibles. La lista está sep
 
 <!-- WEAK CQDOC-19433 `TLS_RSA_WITH_AES_128_CBC_SHA` -->
 
-Si alguno de los valores es incorrecto, Tomcat activará cada cifrado. Por lo tanto, es esencial consultar con una herramienta externa después de la configuración para ver qué cifrados están realmente activados.
+Si alguno de los valores es incorrecto, Tomcat activa cada cifrado individual. Por lo tanto, es esencial consultar con una herramienta externa después de la configuración para ver qué cifrados están realmente activados.
 
 Por ejemplo, la siguiente configuración solo habilita los grupos de cifrados de &quot;128 bits&quot; y superiores:
 

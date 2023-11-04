@@ -5,9 +5,9 @@ title: Mapa
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e9490b5c-0f85-4256-8590-0d6aa52a19d5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '130'
 ht-degree: 4%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 Datos de mapa de imagen. Ninguno o más HTML completos `<AREA>` elementos, ordenados de adelante hacia atrás.
 
-El servidor interpretará y puede cambiar los atributos SHAPE y COORDS. (SHAPE=CIRCLE no se admite en esta versión). Todos los demás atributos de `<AREA>` se pasan sin modificaciones. Los valores de coordenadas especificados con el atributo COORDS deben ser desplazamientos de píxeles desde la esquina superior izquierda de la imagen de origen sin modificar. (`%` las coordenadas no son compatibles con esta versión y es posible que no se procesen correctamente).
+El servidor interpreta y puede cambiar los atributos SHAPE y COORDS (SHAPE=CIRCLE no se admite en esta versión). Todos los demás atributos de `<AREA>` se pasan sin modificaciones. Los valores de coordenadas especificados con el atributo COORDS deben ser desplazamientos de píxeles desde la esquina superior izquierda de la imagen de origen sin modificar. (`%` las coordenadas no son compatibles con esta versión y es posible que no se procesen correctamente).
 
 ## Propiedades {#section-f52d89fd399b4356ac05277e6c12f956}
 

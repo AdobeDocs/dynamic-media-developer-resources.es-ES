@@ -5,9 +5,9 @@ title: LocaleMap
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c1d74154-721b-46cc-9f0b-8dae5647b179
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '208'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ Mapa de traducción de ID. Especifica las reglas utilizadas para traducir los ID
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> locId</span> </p></td> 
-  <td class="stentry"> <p>ID de configuración regional (sin distinción de mayúsculas y minúsculas). </p></td> 
+  <td class="stentry"> <p>ID de configuración regional (no distingue entre mayúsculas y minúsculas). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> locSuffix</span> </p></td> 
@@ -45,7 +45,7 @@ Cuando la traducción de ID está habilitada, se aplica a todos los ID que hacen
 
 ## Propiedades {#section-f4c6f058bc5348ee9a3fb19e394b37e3}
 
-Uno o más elementos, separados con |, donde cada elemento consta de dos o más valores de cadena separados por comas. *`locId`* y `locale=` se comparan. No distingue mayúsculas de minúsculas.
+Uno o más elementos, separados con |, donde cada elemento consta de dos o más valores de cadena separados por comas. *`locId`* y `locale=` se comparan. No distingue entre mayúsculas y minúsculas.
 
 ## Véase también {#section-19fba6d5be59439c8bf8ec7513c1a6da}
 

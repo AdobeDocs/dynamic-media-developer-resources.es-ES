@@ -1,22 +1,22 @@
 ---
-title: Localización de los elementos de la interfaz de usuario
+title: Localización de elementos de la interfaz de usuario
 description: Determinado contenido que muestra el visor de catálogos electrónicos está sujeto a la localización, incluidos los botones de zoom, los botones de cambio de página, el botón de miniaturas, el botón de pantalla completa, el botón de cierre y los botones de la barra de desplazamiento.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 1d7e9eba-b30c-4f85-b551-6842f73dc22c
-source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
 
-# Localización de los elementos de la interfaz de usuario{#localization-of-user-interface-elements}
+# Localización de elementos de la interfaz de usuario{#localization-of-user-interface-elements}
 
 Determinado contenido que muestra el visor de catálogos electrónicos está sujeto a la localización, incluidos los botones de zoom, los botones de cambio de página, el botón de miniaturas, el botón de pantalla completa, el botón de cierre y los botones de la barra de desplazamiento.
 
-Cada contenido textual del visualizador que se puede localizar se representa mediante un identificador especial del SDK del visualizador llamado SYMBOL. Cualquier SYMBOL tiene un valor de texto asociado predeterminado para la configuración regional en inglés ( `"en"`) se suministra con el visor predeterminado y también puede tener valores definidos por el usuario para tantas configuraciones regionales como sea necesario.
+Cada contenido textual del visualizador que se puede localizar se representa mediante un identificador especial del SDK del visualizador llamado SYMBOL. Cualquier SYMBOL tiene un valor de texto asociado por defecto para la configuración regional en inglés ( `"en"`) se suministra con el visor predeterminado y también puede tener valores definidos por el usuario para tantas configuraciones regionales como sea necesario.
 
 Cuando se inicia el visor, comprueba la configuración regional actual para ver si hay un valor definido por el usuario para cada SYMBOL admitido en la configuración regional. Si existe, utiliza el valor definido por el usuario; de lo contrario, vuelve al texto predeterminado predeterminado.
 
@@ -82,11 +82,11 @@ Se admiten los siguientes SYMBOL (suponiendo que containerId es el ID del conten
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED </span> </p> </td> 
-   <td colname="col2"> <p>Botón Pantalla completa en estado normal. </p> </td> 
+   <td colname="col2"> <p>botón de pantalla completa en estado normal. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECTED </span> </p> </td> 
-   <td colname="col2"> <p>Botón Pantalla completa en estado de pantalla completa. </p> </td> 
+   <td colname="col2"> <p>botón de pantalla completa en estado de pantalla completa. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ScrollUpButton.TOOLTIP </span> </p> </td> 
@@ -298,7 +298,7 @@ Se admiten los siguientes SYMBOL (suponiendo que containerId es el ID del conten
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Botón Compartir de twitter. </p> </td> 
+   <td colname="col2"> <p>botón Compartir en twitter. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.TOOLTIP </span> </p> </td> 

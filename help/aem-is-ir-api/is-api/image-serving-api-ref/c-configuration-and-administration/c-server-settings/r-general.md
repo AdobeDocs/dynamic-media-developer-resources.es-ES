@@ -5,9 +5,9 @@ title: General
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 3e4079e7-6def-4938-bb5b-c8122502712d
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '227'
 ht-degree: 1%
 
 ---
@@ -22,15 +22,15 @@ Especifica el puerto de escucha principal para [!DNL Platform Server]. Este puer
 
 ## IS::CacheServerUrl: URL raíz del servicio de almacenamiento en caché {#section-bcca227a1f91453b834db4ea050968e2}
 
-Especifica la ruta raíz HTTP para permitir que el servidor de imágenes acceda al servicio de almacenamiento en caché. Debe configurarse como [!DNL http://localhost:TC::PsPort /is/cache/secondary], con el número de puerto coincidente `TC::PsPort`.
+Especifica la ruta raíz HTTP para permitir que el servidor de imágenes acceda al servicio de almacenamiento en caché. Debe configurarse como [!DNL http://localhost:TC::PsPort /is/cache/secondary], con el número de puerto correspondiente `TC::PsPort`.
 
 ## IS::RemoteUrlDefaultExpiration: TTL predeterminado de Image Source remoto {#section-e4c31228b459492cacd2f482d9575f71}
 
-El TTL para imágenes en caché obtenidas a través de HTTP desde una fuente remota utilizando `src={…}` construir. Solo se utiliza cuando el servidor remoto no incluye un encabezado Caducidad en su respuesta HTTP. Valor entero en segundos.
+El TTL para imágenes en caché obtenidas a través de HTTP desde un origen remoto utilizando `src={…}` construir. Solo se utiliza cuando el servidor remoto no incluye un encabezado Caducidad en su respuesta HTTP. Valor entero en segundos.
 
 ## IS::RemoteUrlTimeout: tiempo de espera de Image Source remoto {#section-437646c479cc4bea81dae42100a3c50a}
 
-El tiempo que el servidor de imágenes esperará a que un servidor remoto envíe el archivo de imagen solicitado a través de HTTP antes de devolver un error. Valor entero en segundos.
+El tiempo que el servidor de imágenes espera a que un servidor remoto envíe el archivo de imagen solicitado a través de HTTP antes de devolver un error. Valor entero en segundos.
 
 ## PS::allowDefaultCatalogRequests: habilitar/deshabilitar solicitudes de catálogo predeterminadas {#section-484e442a115a49b4ac269d1718b351e1}
 

@@ -5,9 +5,9 @@ title: Clúster de caché
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: bd0267e7-ebf5-4995-b55e-89cb1a58de6d
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,8 @@ Se establece en &#39;Yes&#39; si una entrada de caché proporcionada por un serv
 
 ## PS::cacheCluster.queryTimeout: tiempo de espera de consulta {#section-8d2b10e15b3e44078d2d9bdb7c25bde0}
 
-Al solicitar una entrada de caché de servidores del mismo nivel, el servidor esperará hasta que un servidor responda que tiene este elemento de datos concreto, hasta que todos los servidores del mismo nivel hayan respondido que no tienen el elemento de datos o hasta que la hora especificada con esta configuración (en ms) haya caducado.
+Al solicitar una entrada de caché de servidores del mismo nivel, el servidor espera hasta que un servidor responda que tiene este elemento de datos concreto, hasta que todos los servidores del mismo nivel hayan respondido que no tienen el elemento de datos o hasta que la hora especificada con esta configuración (en ms) haya caducado.
 
 ## PS::cacheCluster.fetchTimeout: tiempo de espera de recuperación {#section-41c42a29a26f43dc9cff50ad9fae1f14}
 
-Especifica el número máximo de milisegundos que el servidor esperará a que el servidor del mismo nivel envíe los datos de caché reales. Si no se han entregado todos los datos antes de que expire el tiempo de espera, el servidor asume que el interlocutor no está disponible. A continuación, la entrada de caché se genera localmente.
+Especifica el número máximo de ms que el servidor espera a que los datos de caché reales se envíen desde el servidor del mismo nivel. Si no se han entregado todos los datos antes de que expire el tiempo de espera, el servidor asume que el interlocutor no está disponible. A continuación, la entrada de caché se genera localmente.

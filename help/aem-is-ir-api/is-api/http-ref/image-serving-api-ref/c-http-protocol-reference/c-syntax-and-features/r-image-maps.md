@@ -5,9 +5,9 @@ title: Mapas de imagen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9a685f9d-205d-43b3-b5fe-3ae324fe153e
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 IS ofrece mecanismos para simplificar el uso de mapas de imagen HTML. Los visores basados en JAVA y en Flash de IS también incluyen compatibilidad limitada con los mapas de imágenes.
 
-Los mapas de imagen de origen se proporcionan a IS a través de `catalog::Map` o con el `map=` y los mapas procesados se recuperan mediante el comando `req=map` comando.
+Los mapas de imagen de origen se proporcionan a IS mediante `catalog::Map` o con el `map=` y los mapas procesados se recuperan mediante el comando `req=map` comando.
 
-Un mapa de imagen consta de uno o más elementos AREA del HTML, delimitados correctamente con &#39;&lt;&#39; y &#39;>&#39;. Si se proporciona mediante catalog::Map, se asume que todos los valores de coordenadas de píxel están en la resolución de imagen original y en relación con la esquina superior izquierda de la imagen de origen (sin modificar). Cuando se proporciona a través de una `map=` , se supone que los valores de coordenadas son coordenadas de capa, relativas a la esquina superior izquierda de la capa (después de `rotate=` y `extend=`).
+Un mapa de imagen consta de uno o más elementos AREA del HTML, delimitados correctamente con &#39;&lt;&#39; y &#39;>&#39;. Si se proporciona a través de catalog::Map, se asume que todos los valores de coordenadas de píxel están en la resolución de imagen original y en relación con la esquina superior izquierda de la imagen de origen (sin modificar). Cuando se proporcione mediante un `map=` , se supone que los valores de coordenadas son coordenadas de capa, relativas a la esquina superior izquierda de la capa (después de `rotate=` y `extend=`).
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ Un mapa de imagen consta de uno o más elementos AREA del HTML, delimitados corr
 
 IS genera un mapa de imagen compuesto a partir de los mapas de imagen de origen de cada capa constituyente aplicando las transformaciones espaciales (como el escalado y la rotación) a las coordenadas del mapa y, a continuación, montando los mapas de capa procesados en el orden z adecuado (de delante hacia atrás) y con la posición adecuada.
 
-Los siguientes comandos se tienen en cuenta para el procesamiento de mapas de imágenes cuando se proporcionan junto con `req=map` (directamente en la solicitud, a través de plantillas de catálogo o en `catalog::Modifier` cadenas):
+Los siguientes comandos se tienen en cuenta para el procesamiento de mapas de imágenes cuando se proporcionan junto con `req=map` (ya sea directamente en la solicitud, a través de plantillas de catálogo o en `catalog::Modifier` cadenas):
 
 * `align=`
 * `wid=`
@@ -51,7 +51,7 @@ El `SHAPE` y `COORDS` atributos de un `AREA` pueden modificarse durante el proce
 
 Cualquiera `AREA` los elementos que se vacían durante el procesamiento se eliminan por completo. Si un mapa está asociado con `layer=comp` se coloca detrás de todos los demás mapas. Los datos se devuelven en texto desde uno como HTML o más `AREA` elementos. Una cadena de respuesta vacía indica que no existe ningún mapa de imagen para los objetos especificados.
 
-La transparencia de capa no se tiene en cuenta para el procesamiento de mapas. Una capa totalmente transparente puede seguir teniendo asociado un mapa de imagen. El mapa de una capa parcialmente transparente no se recortará a las regiones transparentes.
+La transparencia de capa no se tiene en cuenta para el procesamiento de mapas. Una capa totalmente transparente puede seguir teniendo asociado un mapa de imagen. El mapa de una capa parcialmente transparente no se recorta a las regiones transparentes.
 
 ## Véase también {#see-also}
 

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 950b1230-5c4b-4222-87e2-d069287fc3ff
-source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '115'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ Atributo de configuración para el visor de Video360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|fade</span> </p> </td> 
-   <td colname="col2"> <p> Especifica el tipo de efecto utilizado para mostrar u ocultar la barra de control y su contenido. </p> <p>Uso <span class="codeph"> ninguno</span> para mostrarlo y ocultarlo al instante. Uso <span class="codeph"> atenuación</span> para proporcionar un efecto de fundido de entrada y salida gradual. </p> <p>Fade no es compatible con Internet Explorer 8. </p> </td> 
+   <td colname="col2"> <p> Especifica el tipo de efecto utilizado para mostrar u ocultar la barra de control y su contenido. </p> <p>Uso <span class="codeph"> ninguno</span> para mostrarlo y ocultarlo al instante. Uso <span class="codeph"> atenuación</span> para proporcionar un efecto gradual de fundido de entrada y salida. </p> <p>Fade no es compatible con Internet Explorer 8. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> dilatar para ocultar</span> </span> </p> </td> 

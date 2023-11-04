@@ -5,7 +5,7 @@ title: Resolución de problemas
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b80d3c9a-a0c4-4944-9f91-e791a072cd5f
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 1%
@@ -37,7 +37,7 @@ Esto no indica ningún problema. La sobrecarga del sistema de archivos no se inc
 
 **Imágenes rotas en los ejemplos de is-docs**
 
-Esto ocurre si Image Server no se está ejecutando. También se produce si la ruta raíz del catálogo o la ruta raíz de la imagen han cambiado desde la instalación predeterminada, pero las imágenes y los catálogos de ejemplo no se han movido a las nuevas ubicaciones. Compruebe el valor de Ruta raíz del servidor de imágenes en los archivos de configuración. Si es necesario, mueva la carpeta de demostración que contiene las imágenes de ejemplo a la raíz de la imagen actual y mueva [!DNL sample*.*] a la raíz del catálogo actual.
+Esto ocurre si Image Server no se está ejecutando. También se produce si la ruta raíz del catálogo o la ruta raíz de la imagen han cambiado desde la instalación predeterminada, pero las imágenes y los catálogos de ejemplo no se han movido a las nuevas ubicaciones. Compruebe el valor de Ruta de acceso raíz del servidor de imágenes en los archivos de configuración. Si es necesario, mueva la carpeta de demostración que contiene las imágenes de ejemplo a la raíz de la imagen actual y mueva [!DNL sample*.*] a la raíz del catálogo actual.
 
 Los ejemplos también suponen que ciertas configuraciones en [!DNL default.ini] son estándar (por ejemplo, la ofuscación o el bloqueo no deben estar activados).
 
@@ -51,8 +51,8 @@ El servidor de imágenes y [!DNL Platform Server] inicie un nuevo archivo de reg
 
 **Si tiene instalado el software antivirus en el servidor**
 
-Se recomienda desactivar el análisis de directorios del servicio de imágenes. De lo contrario, el análisis de directorios de lectura/escritura de gran volumen (como caché, imágenes, fuentes, perfiles y directorios de catálogo) causará problemas.
+Se recomienda desactivar el análisis de directorios del servicio de imágenes. De lo contrario, el análisis de directorios de lectura/escritura de gran volumen (como caché, imágenes, fuentes, perfiles y directorios de catálogo) puede causar problemas.
 
 **Digimarc causa problemas de rendimiento en las imágenes con zoom**
 
-No utilice Digimarc en imágenes con zoom ampliado. El rendimiento no será aceptable. Si es necesario, cree un catálogo independiente para las imágenes que se utilizarán para ampliar o reducir y deshabilite Digimarc para este catálogo.
+No utilice Digimarc en imágenes con zoom ampliado. El rendimiento no es aceptable. Si es necesario, cree un catálogo independiente para las imágenes que se utilizarán para ampliar o reducir y deshabilite Digimarc para este catálogo.

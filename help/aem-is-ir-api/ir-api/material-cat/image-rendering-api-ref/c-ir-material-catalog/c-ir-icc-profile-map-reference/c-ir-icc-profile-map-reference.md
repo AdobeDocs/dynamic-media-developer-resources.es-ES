@@ -5,9 +5,9 @@ title: Referencia de mapa de perfiles ICC
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3c90a1fa-fa38-4d20-9694-1654ac9690e2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '96'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,6 @@ ht-degree: 0%
 
 Si se requiere un mapa de perfiles ICC para un catálogo de imágenes, la ruta relativa o absoluta del archivo de mapa de perfiles debe especificarse en attribute::IccProfileMapFile.
 
-Las entradas en el mapa de perfiles ICC de un catálogo de materiales específico anulan las entradas del mapa de perfiles ICC del catálogo por defecto.
+Las entradas en el mapa de perfiles ICC de un catálogo de materiales específico sustituyen las entradas en el mapa de perfiles ICC del catálogo por defecto.
 
 El procesamiento de imágenes admite archivos de perfil de color que se ajustan a la especificación ICC.

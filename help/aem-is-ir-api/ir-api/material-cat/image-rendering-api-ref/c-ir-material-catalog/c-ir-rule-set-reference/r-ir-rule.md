@@ -5,9 +5,9 @@ title: regla
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8f56012c-d01c-489c-9d18-91e256f72012
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '191'
 ht-degree: 5%
 
 ---
@@ -80,7 +80,7 @@ El atributo Expiration solo anula el valor de atributo predeterminado; se ignora
 
 Si ambos `<expression>` y `<substitution>` se especifican y no se utilizan subcadenas capturadas, la primera subcadena coincidente se reemplaza por `<substitution>`.
 
-If `<expression>` no se ha especificado, cualquier ruta coincidirá con y `<substitution>` se anexa al final de la ruta.
+If `<expression>` no se ha especificado, cualquier ruta coincide con y `<substitution>` se anexa al final de la ruta.
 
 If `<substitution>` no se ha especificado, se elimina la subcadena coincidente.
 

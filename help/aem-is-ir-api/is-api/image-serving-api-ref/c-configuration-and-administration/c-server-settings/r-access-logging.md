@@ -5,9 +5,9 @@ title: Registro de acceso
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: e677a617-115d-4f6e-9eb5-bdc14ad7ff24
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '673'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ La carpeta a la que [!DNL Platform Server] escribe archivos de registro. Puede s
 
 ## TC::maxDays: número de días para conservar los archivos de registro {#section-45cbecffc5694c87b7d5c176a44a4885}
 
-Se debe conservar el número de días que los archivos de registro. Todos los días a medianoche se crean nuevos archivos de registro. En este momento, el servidor eliminará todos los archivos de la carpeta de archivos de registro que tengan una antigüedad mayor que el número de días especificado, incluidos los escritos por el servidor de imágenes o el servidor de procesamiento. El valor predeterminado es 10.
+Se debe conservar el número de días que los archivos de registro. Todos los días a medianoche se crean nuevos archivos de registro. En este momento, el servidor elimina todos los archivos de la carpeta de archivos de registro que tengan una antigüedad mayor que el número de días especificado, incluidos los escritos por el servidor de imágenes o el servidor de procesamiento. El valor predeterminado es 10.
 
 ## TC::prefix - Nombre del archivo de registro de acceso {#section-1003856323b844049632710a5a056aa7}
 
@@ -198,7 +198,7 @@ Se admiten las siguientes variables de patrón:
    <td> <p>Like <span class="codeph"> %B </span>, pero incluye valores para respuestas 304 (no modificadas). </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{TransformationUrl}r </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{TransformedUrl}r </span> </p> </td> 
    <td> <p>La dirección URL final después de todas las transformaciones del conjunto de reglas. </p> </td> 
   </tr> 
   <tr> 

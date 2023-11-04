@@ -5,9 +5,9 @@ title: Solicitud de anidación e incrustación
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b9c9d241-5a3d-4637-a90a-d8cdf29cc968
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1044'
 ht-degree: 0%
 
 ---
@@ -129,7 +129,7 @@ Este mecanismo admite los mismos formatos de archivo de imagen que la utilidad I
 
 >[!NOTE]
 >
->El servicio de imágenes ejecutará automáticamente la utilidad validate cuando se utilice por primera vez una imagen externa, para garantizar que la imagen sea válida y no se haya dañado durante la transmisión. Esto puede causar un ligero retraso en el primer acceso. Para obtener el mejor rendimiento, se recomienda limitar el tamaño de dichas imágenes o utilizar un formato de archivo de imagen que se comprima bien.
+>El servicio de imágenes ejecuta automáticamente la utilidad validate cuando se utiliza una imagen externa por primera vez, para garantizar que la imagen sea válida y que no se haya dañado durante la transmisión. Esto puede causar un ligero retraso en el primer acceso. Para obtener el mejor rendimiento, se recomienda limitar el tamaño de dichas imágenes o utilizar un formato de archivo de imagen que se comprima bien.
 
 ## Restricciones {#section-fb68e3f0d40947feb94d7bf183b64929}
 

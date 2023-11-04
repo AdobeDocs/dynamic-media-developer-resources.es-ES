@@ -5,16 +5,16 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 45811efa-95f6-4b6d-96f8-9e5437a55f0e
-source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '309'
 ht-degree: 2%
 
 ---
 
 # Botón de pantalla completa de vídeo{#video-full-screen-button}
 
-El botón Pantalla completa hace que el usuario entre o salga del modo de pantalla completa cuando lo selecciona. Se utiliza cuando el visor muestra el vídeo y se coloca en la barra de control. Este botón no se muestra si el visor funciona en modo emergente y el sistema no admite pantalla completa nativa.
+El botón de pantalla completa hace que el usuario entre o salga del modo de pantalla completa cuando lo selecciona. Se utiliza cuando el visor muestra el vídeo y se coloca en la barra de control. Este botón no se muestra si el visor funciona en modo emergente y el sistema no admite pantalla completa nativa.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -69,7 +69,7 @@ El aspecto del botón de pantalla completa se controla con el selector de clases
 >
 >Este botón es compatible con el `state` y `selected` selectores de atributos, que se pueden utilizar para aplicar diferentes aspectos a diferentes estados de botones. En particular, `selected='true'` corresponde al estado &quot;pantalla completa&quot; y `selected='false'` corresponde al estado &quot;normal&quot;.
 
-La información del objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obtener más información.
+La información del objeto del botón se puede localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obtener más información.
 
 ## Ejemplo {#section-e8caea0a303c425a8a637c2a47c06355}
 

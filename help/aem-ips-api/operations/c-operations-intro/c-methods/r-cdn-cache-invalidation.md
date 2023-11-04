@@ -5,9 +5,9 @@ title: cdnCacheInvalidation
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 65b758f2-b49a-4616-b657-a64808c9202a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '472'
 ht-degree: 5%
 
 ---
@@ -18,11 +18,11 @@ Reenvía la lista proporcionada de direcciones URL al proveedor de CDN (red de d
 
 ## cdnCacheInvalidation: Acerca de {#section-4f70d2bc79d64288b961836ab17e9690}
 
-La invalidación de la caché de CDN fuerza a todas las solicitudes HTTP para estas URL a revalidarse con los datos publicados actuales en la red de Dynamic Media después de que esta solicitud de invalidación se procese a través de la red de CDN. Cualquier dirección URL que no esté conectada a la estructura de direcciones URL del servicio Dynamic Media y que coincida directamente con el ID raíz de la empresa de Dynamic Media asignado cuando se crea la empresa producirá un error de API para toda la solicitud. Cualquier dirección URL no válida que la CDN no admita y que considere no válida también provocará un error de API para toda la solicitud.
+La invalidación de la caché de CDN fuerza a todas las solicitudes HTTP para estas URL a revalidarse con los datos publicados actuales en la red de Dynamic Media después de que esta solicitud de invalidación se procese a través de la red de CDN. Cualquier dirección URL que no esté conectada a la estructura de direcciones URL del servicio Dynamic Media y que coincida directamente con el ID raíz de la empresa de Dynamic Media asignado cuando se crea la empresa provoca un error de API en toda la solicitud. Cualquier dirección URL no válida que la CDN no admita y que considere no válida también provoca un error de API para toda la solicitud.
 
 **Frecuencia de uso: Reglas**
 
-Las reglas que rigen la frecuencia de uso de esta función están controladas por los socios de CDN de Dynamic Media. La CDN conserva la discreción de degradar la capacidad de respuesta de estas invalidaciones para mantener un rendimiento óptimo de su servicio a sus usuarios. Si se notifica a Dynamic Media del uso excesivo de esta función, tendremos que recurrir a la deshabilitación de la función por empresa o por completo en todo el servicio.
+Las reglas que rigen la frecuencia de uso de esta función están controladas por los socios de CDN de Dynamic Media. La CDN conserva la discreción de degradar la capacidad de respuesta de estas invalidaciones para mantener un rendimiento óptimo de su servicio a sus usuarios. Si se notifica a Dynamic Media de un uso excesivo de esta función, el Adobe debe recurrir a deshabilitarla por empresa o por completo en todo el servicio.
 
 **Correos electrónicos de confirmación**
 

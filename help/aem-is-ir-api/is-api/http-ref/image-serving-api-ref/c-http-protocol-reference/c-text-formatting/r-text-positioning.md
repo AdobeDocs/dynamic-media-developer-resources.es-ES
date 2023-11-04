@@ -1,20 +1,20 @@
 ---
 title: Posición del texto
-description: El procesador text= coloca el texto en una posición fundamentalmente diferente a textPs= renderer cuando se aplica a capas predimensionadas (es decir, cuando size= también se especifica).
+description: El procesador text= coloca el texto en una posición fundamentalmente diferente al procesador textPs= cuando se aplica a capas con tamaño previo (es decir, cuando se especifica size=).
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 092444bf-9964-4d97-b06e-3add033da284
-source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
 
 # Posición del texto{#text-positioning}
 
-El `text=` el procesador coloca el texto de forma fundamentalmente diferente al textPs= renderer cuando se aplica a capas de tamaño previo (es decir, cuando se especifica size= también).
+El `text=` el procesador coloca el texto de forma fundamentalmente diferente al textoPs= procesador cuando se aplica a capas de tamaño previo (es decir, cuando se especifica size= también).
 
 Autonivelado `text=`y `textPs=` las capas tienen un aspecto y una posición similares.
 

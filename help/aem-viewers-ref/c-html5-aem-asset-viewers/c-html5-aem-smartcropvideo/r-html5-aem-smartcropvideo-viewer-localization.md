@@ -1,22 +1,22 @@
 ---
-title: Localización de los elementos de la interfaz de usuario
+title: Localización de elementos de la interfaz de usuario
 description: Determinado contenido que muestra el Visor de recorte inteligente de vídeos está sujeto a la localización. Este contenido incluye información sobre las herramientas de elementos de la interfaz de usuario y un mensaje de error que se muestra cuando no se puede reproducir el vídeo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: e5019948-d8ed-4bb2-b652-2936b6f694c9
-source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
 
-# Localización de los elementos de la interfaz de usuario{#localization-of-user-interface-elements}
+# Localización de elementos de la interfaz de usuario{#localization-of-user-interface-elements}
 
 Determinado contenido que muestra el Visor de recorte inteligente de vídeos está sujeto a la localización. Este contenido incluye información sobre las herramientas de elementos de la interfaz de usuario y un mensaje de error que se muestra cuando no se puede reproducir el vídeo.
 
-Cada contenido textual del visualizador que se puede localizar se representa mediante un identificador especial del SDK del visualizador llamado SYMBOL. Cualquier SYMBOL tiene un valor de texto asociado predeterminado para la configuración regional en inglés ( `"en"`) se suministra con el visor incorporado. También puede tener valores definidos por el usuario configurados para tantas configuraciones regionales como sea necesario.
+Cada contenido textual del visualizador que se puede localizar se representa mediante un identificador especial del SDK del visualizador llamado SYMBOL. Cualquier SYMBOL tiene un valor de texto asociado por defecto para la configuración regional en inglés ( `"en"`) se suministra con el visor incorporado. También puede tener valores definidos por el usuario configurados para tantas configuraciones regionales como sea necesario.
 
 Cuando se inicia el visor, comprueba la configuración regional actual para ver si hay un valor definido por el usuario para cada SÍMBOLO admitido para la configuración regional. Si existe, utiliza el valor definido por el usuario; de lo contrario, vuelve al texto predeterminado predeterminado.
 
@@ -258,7 +258,7 @@ Se admiten los siguientes SYMBOL:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Información del objeto del botón Compartir de Twitter. </p> </td> 
+   <td colname="col2"> <p>Información del objeto del botón Compartir Twitter. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SmartCropVideoPlayer.ERROR </span> </p> </td> 

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f1200d86-d88c-4990-ae36-2ce96ae94343
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Seleccione Capa. Selecciona una capa e inicia un nuevo segmento de definición d
 <table id="simpletable_22DE3365A6454949B0D30C6D7110476E"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> n</span></span> </p></td> 
-  <td class="stentry"> <p>Número de capas que se van a seleccionar (0 o bueno int). </p></td> 
+  <td class="stentry"> <p>Número de capas que se van a seleccionar (0 o mayor int). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> comp</span> </p></td> 
@@ -65,13 +65,13 @@ Capa, comando. Las referencias de variables de sustitución no son compatibles c
 * Si el mismo nombre se asigna a una sola capa varias veces (por ejemplo: `layer=1,image&layer=1,image`), el ámbito se establece de la forma habitual, sin errores.
 * Se admiten varios nombres para la misma capa.
 
-   Se puede utilizar cualquiera de los nombres para hacer referencia a la capa (por ejemplo: `layer=1,image&layer=1,picture`).
+  Se puede utilizar cualquiera de los nombres para hacer referencia a la capa (por ejemplo: `layer=1,image&layer=1,picture`).
 * Si un nombre al que se hace referencia nunca se asigna a un número de capa (por ejemplo: `layer=1,image&layer=picture`), se produce un error.
 * Las variables de sustitución no son compatibles con los modificadores de capa (por ejemplo: `layer=$image$`).
 
-   Esto se aplica a todas las permutaciones, no solo a los nombres de las capas, sino también a los modificadores de capas en general.
+  Esto se aplica a todas las permutaciones, no solo a los nombres de las capas, sino también a los modificadores de capas en general.
 
-* Todas las reglas de combinación y anulación deben funcionar exactamente como cuando se hace referencia a la misma capa en varias fuentes (registros de catálogo de solicitudes, modificadores anteriores o posteriores, macros, etc.).
+* Todas las reglas de combinación y anulación deben funcionar exactamente como cuando se hace referencia a la misma capa en varias fuentes (registros de catálogo de modificadores de solicitud, previos o posteriores, macros, etc.).
 
 ## Ejemplo {#section-cc40de6a0a754178aa752601539c815b}
 

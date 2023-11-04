@@ -1,18 +1,18 @@
 ---
-title: Botón Pantalla completa
+title: botón de pantalla completa
 description: El botón de pantalla completa hace que el reproductor de vídeo entre o salga del modo de pantalla completa cuando un usuario hace clic en él.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: ed9c9d37-f871-4094-9c6e-931d0f6edff1
-source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '237'
 ht-degree: 2%
 
 ---
 
-# Botón Pantalla completa{#full-screen-button}
+# botón de pantalla completa{#full-screen-button}
 
 El botón de pantalla completa hace que el reproductor de vídeo entre o salga del modo de pantalla completa cuando un usuario hace clic en él.
 
@@ -69,7 +69,7 @@ El aspecto del botón de pantalla completa se controla con el selector de clases
 >
 >Este botón es compatible con el `state` y `selected` selectores de atributos, que se pueden utilizar para aplicar diferentes aspectos a diferentes estados de botones. En particular, `selected='true'` corresponde al estado &quot;pantalla completa&quot; y `selected='false'` corresponde al estado &quot;normal&quot;.
 
-La información del objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
+La información del objeto del botón se puede localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
 ## Ejemplo {#section-e8caea0a303c425a8a637c2a47c06355}
 

@@ -5,9 +5,9 @@ title: Ruta
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f2d17309-c4d0-477f-a8d8-b40f05a1a60b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '128'
 ht-degree: 5%
 
 ---

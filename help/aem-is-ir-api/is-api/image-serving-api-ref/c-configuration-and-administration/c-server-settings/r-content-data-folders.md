@@ -5,7 +5,7 @@ title: Carpetas de datos de contenido
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 9aa4121f-25f8-49d0-a304-7ae756c046f5
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%
@@ -18,11 +18,11 @@ Utilice esta configuración del servidor para las carpetas de datos de contenido
 
 ## IS::RootPath: carpetas raíz de datos de imagen {#section-5c57569514bb4d00b19de31d2e137e3b}
 
-La ubicación de todos los datos de origen, incluidas imágenes, fuentes y perfiles ICC. Puede ser una o más rutas de archivo absolutas o rutas relativas a *[!DNL install_folder]*, separados con punto y coma. Si está vacío, *[!DNL install_folder]* es la raíz predeterminada. Se pueden especificar varios valores para distribuir los datos de imagen entre varios sistemas de archivos. El servidor de imágenes probará las rutas raíz en el orden especificado hasta que se encuentre el archivo solicitado.
+La ubicación de todos los datos de origen, incluidas imágenes, fuentes y perfiles ICC. Puede ser una o más rutas de archivo absolutas o rutas relativas a *[!DNL install_folder]*, separados con punto y coma. Si está vacío, *[!DNL install_folder]* es la raíz predeterminada. Se pueden especificar varios valores para distribuir los datos de imagen entre varios sistemas de archivos. El servidor de imágenes prueba las rutas raíz en el orden especificado hasta que se encuentre el archivo solicitado.
 
 ## PS::staticContent.rootPath: carpetas raíz de datos de contenido estático {#section-a4f5b6942b7b4abdbf825b1f2e932cfe}
 
-La ubicación de los datos de origen del contenido estático que se van a enviar a través de la variable [!DNL /is/static] contexto. Puede ser una o más rutas de archivo absolutas o rutas relativas a *[!DNL install_folder]*, separados con punto y coma. Si está vacío, *[!DNL install_folder]* es la raíz predeterminada.
+La ubicación de los datos de origen de contenido estático que se van a enviar mediante la variable [!DNL /is/static] contexto. Puede ser una o más rutas de archivo absolutas o rutas relativas a *[!DNL install_folder]*, separados con punto y coma. Si está vacío, *[!DNL install_folder]* es la raíz predeterminada.
 
 Se pueden especificar varios valores, separados por punto y coma, para distribuir el contenido estático entre varios sistemas de archivos. Normalmente se establece con los mismos valores que `IS::RootPath`.
 
@@ -34,4 +34,4 @@ El [!DNL Platform Server] prueba las rutas de acceso raíz en el orden especific
 
 ## IS::SaveDirectory - Archivo Guardar carpeta raíz {#section-1c517f8d49ce4cb8b9013e520bf309c9}
 
-La ruta raíz para `attribute::SavePath` (usado por `req=saveToFile`). El servidor de imágenes debe tener permisos de creación de acceso para la subcarpeta en la que creará los archivos de imagen.
+La ruta raíz para `attribute::SavePath` (usado por `req=saveToFile`). El servidor de imágenes debe tener permisos de creación de acceso para la subcarpeta en la que crea archivos de imagen.

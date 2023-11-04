@@ -5,9 +5,9 @@ title: Datos de origen de contenido estático
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 3cf01fc2-c925-4039-8e03-cb909cca6a51
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
@@ -26,4 +26,4 @@ Todo ` *[!DNL rootPath]*` los segmentos pueden ser segmentos de ruta vacíos, re
 
 ` *[!DNL catalogPath]*` es una ruta de acceso o un nombre de archivo absoluto o relativo. *[!DNL requestPath]* debe ser una ruta/nombre de archivo relativo.
 
-Múltiple `PS::staticContent.rootPaths` Los valores se pueden definir en [!DNL PlatformServer.conf]. Esto permite distribuir los archivos de datos de origen entre varios sistemas de archivos. El [!DNL Platform Server] intentará rutas alternativas en el orden especificado hasta que se encuentre el archivo de datos.
+Múltiple `PS::staticContent.rootPaths` Los valores se pueden definir en [!DNL PlatformServer.conf]. Esto permite distribuir los archivos de datos de origen entre varios sistemas de archivos. El [!DNL Platform Server] intenta establecer rutas alternativas en el orden especificado hasta encontrar el archivo de datos.

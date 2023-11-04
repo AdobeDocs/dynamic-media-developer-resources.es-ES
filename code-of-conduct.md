@@ -1,7 +1,7 @@
 ---
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Los administradores de proyectos tienen el derecho y la responsabilidad de elimi
 
 ## Ámbito
 
-Este Código de conducta se aplica tanto dentro de los espacios del proyecto como en los espacios públicos cuando un individuo representa al proyecto o a su comunidad. Algunos ejemplos de representación de un proyecto o comunidad incluyen el uso de una dirección de correo electrónico oficial del proyecto, la publicación a través de una cuenta oficial de medios sociales o la actuación como representante designado en un evento en línea o sin conexión. Los administradores de proyectos podrán definir y aclarar con mayor detalle la representación de un proyecto.
+Este Código de conducta se aplica tanto dentro de los espacios del proyecto como en los espacios públicos cuando un individuo representa al proyecto o a su comunidad. Algunos ejemplos de representación de un proyecto o comunidad incluyen el uso de una dirección oficial de correo electrónico, publicaciones a través de una cuenta oficial de medios sociales o actuar como representante designado en un evento en línea o sin conexión. Los administradores de proyectos podrán definir y aclarar con mayor detalle la representación de un proyecto.
 
 ## Aplicación
 

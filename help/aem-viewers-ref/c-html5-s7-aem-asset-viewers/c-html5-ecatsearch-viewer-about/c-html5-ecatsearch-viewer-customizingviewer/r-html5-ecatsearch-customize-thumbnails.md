@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 25032917-237c-4227-92bd-ce66a6d003a0
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '890'
 ht-degree: 2%
@@ -360,7 +360,7 @@ No es posible colocar los botones de desplazamiento mediante CSS `top`, `left`, 
 >
 >Estos botones admiten el `state` selector de atributos, que se puede utilizar para aplicar distintos aspectos a los distintos estados de los botones `up`, `down`, `over`, y `disabled`.
 
-La información del objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
+La información del objeto del botón se puede localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
 Ejemplo: para configurar botones de desplazamiento de 28 x 32 píxeles con ilustraciones diferentes para cada estado.
 

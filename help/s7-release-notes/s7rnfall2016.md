@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic
 role: Developer,User
 exl-id: 23091ef7-750a-4ec2-9d03-1d713f436991
-source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2209'
+source-wordcount: '2204'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Para obtener toda la documentación, consulte [Guía de referencia del visor](ht
 
 * Compatibilidad con las bibliotecas RequireJS y DOJO.
 
-   Almacenamiento en caché de SDK JS consolidado durante la implementación del visor.
+  Almacenamiento en caché de SDK JS consolidado durante la implementación del visor.
 
 ## Visualizadores (servicio de imágenes 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
@@ -99,7 +99,7 @@ Para obtener toda la documentación, consulte [Guía de referencia del visor](ht
 
    * La escala del lado del explorador puede provocar que la interfaz de usuario y las imágenes se vuelvan borrosas a medida que el usuario amplía la página. El formato de la IU también puede mostrarse incorrectamente en función del zoom. Este efecto se transmite a pantalla completa.
    * Debido a la limitación de tamaño en dispositivos móviles, el visualizador de medios mixtos utiliza el gesto de diapositiva para intercambiar fotogramas en conjuntos de imágenes incrustados en lugar de pulsar el componente de muestras incrustado. El componente se encuentra allí como indicador visual.
-   * En los exploradores Internet Explorer y en algunos dispositivos táctiles, el modo de pantalla completa no ocupa toda la pantalla del dispositivo. En su lugar, cambia el tamaño de la aplicación según el tamaño de la ventana del explorador.
+   * En los exploradores de Internet Explorer y en algunos dispositivos táctiles, el modo de pantalla completa no ocupa toda la pantalla del dispositivo. En su lugar, cambia el tamaño de la aplicación según el tamaño de la ventana del explorador.
    * El botón Cerrar no funciona en iOS 8.0 ni 8.1, pero ya no se utiliza en iOS 8.2
 
 * Galaxia SIII
@@ -109,7 +109,7 @@ Para obtener toda la documentación, consulte [Guía de referencia del visor](ht
 
 * Galaxy S4
 
-   * El dispositivo se ha detectado como tablet en modo vertical con la opción Pantalla completa activada en la configuración del navegador.
+   * El dispositivo se ha detectado como tablet en modo vertical con pantalla completa activada en la configuración del navegador.
 
 * Nexo galáctico
 
@@ -135,7 +135,7 @@ Para obtener toda la documentación, consulte [Guía de referencia del visor](ht
 * Internet Explorer
 
    * Actualmente no se admite el modo Quirks.
-   * El modo de compatibilidad no es compatible actualmente.
+   * Actualmente no se admite el modo de compatibilidad.
    * Internet Explorer en dispositivos móviles no es compatible actualmente.
 
 * iOS
@@ -153,7 +153,7 @@ Para obtener toda la documentación, consulte [Guía de referencia del visor](ht
 
 * Los modificadores del servicio de imágenes de `iscommands` no se añaden a `req=set` solicitud por diseño. Los modificadores que solo afectan a la visualización de la imagen funcionan bien. Los modificadores que afectan al tamaño deben utilizarse en un recurso complejo. Por ejemplo:
 
-   `https://s7d9.scene7.com/s7viewers/html5/BasicZoomViewer.html?asset= {Scene7SharedAssets/Backpack_B?extendn=0.5%252C0.5%252C0.5%252C0.5}`
+  `https://s7d9.scene7.com/s7viewers/html5/BasicZoomViewer.html?asset= {Scene7SharedAssets/Backpack_B?extendn=0.5%252C0.5%252C0.5%252C0.5}`
 
 * [Flotante] IE9 a veces permanece en pantalla después de desactivar el ratón.
 * El cambio de tamaño del explorador provoca un cambio de tamaño incorrecto.
@@ -162,7 +162,7 @@ Para obtener toda la documentación, consulte [Guía de referencia del visor](ht
 
    * No se admiten marcas de agua, ofuscación ni bloqueo.
    * No se admiten ajustes preestablecidos de imagen.
-   * Adición o eliminación del visor del DOM mediante `display:none` CSS o desasociándolo dinámicamente del nodo principal no es compatible actualmente.
+   * Adición o eliminación del visor del DOM mediante `display:none` Actualmente no se admite CSS o desasociándolo dinámicamente del nodo principal.
 
 * HTML 5 Todos los visores
 
@@ -234,7 +234,7 @@ La Guía del usuario se encuentra en la carpeta del SDK del visor de Adobe HTML5
 
    * Para deshabilitar el valor predeterminado, resalte en azul la siguiente regla CSS debe agregarse para el componente:
 
-      `-webkit-tap-highlight-color: rgba(0,0,0,0);`
+     `-webkit-tap-highlight-color: rgba(0,0,0,0);`
 
 * Blackberry®
 
@@ -265,7 +265,7 @@ La Guía del usuario se encuentra en la carpeta del SDK del visor de Adobe HTML5
 
 * Internet Explorer
 
-   * En IE 10 y versiones anteriores, el modo de pantalla completa no ocupa toda la pantalla, sino que solo cambia el tamaño de la aplicación al tamaño de la ventana del navegador.
+   * En IE 10 y versiones anteriores, el modo de pantalla completa no ocupa toda la pantalla, sino que solo cambia el tamaño de la aplicación al tamaño de la ventana del explorador.
    * El modo de procesamiento Quirks no es compatible.
    * Internet Explorer en dispositivos móviles no es compatible actualmente.
    * Util.js puede no cargarse si se incluye asincrónicamente.
@@ -279,9 +279,9 @@ La Guía del usuario se encuentra en la carpeta del SDK del visor de Adobe HTML5
 
 * Dispositivos táctiles
 
-   * El modo de pantalla completa no ocupa toda la pantalla del dispositivo, sino que solo cambia el tamaño de la aplicación al tamaño de la ventana del explorador.
+   * el modo de pantalla completa no ocupa toda la pantalla del dispositivo, sino que solo cambia el tamaño de la aplicación al tamaño de la ventana del explorador.
    * Los cursores personalizados no funcionan en dispositivos táctiles.
-   * Actualmente, no se admite el escalado de página en dispositivos táctiles. La incrustación de visores de HTML5 requiere una metaetiqueta de ventanilla móvil con la configuración adecuada.
+   * Actualmente no se admite el escalado de página en dispositivos táctiles. La incrustación de visores de HTML5 requiere una metaetiqueta de ventanilla móvil con la configuración adecuada.
 
 * Xoom
 
@@ -294,7 +294,7 @@ La Guía del usuario se encuentra en la carpeta del SDK del visor de Adobe HTML5
    * En las versiones 2.7.2 y anteriores, algunos componentes se añadían al DOM mediante `insertBefore()` API. Como resultado, estos componentes se colocarían en la parte inferior del orden de apilamiento, independientemente de cuándo se cree una instancia de componente en relación con otros componentes. Con la versión 2.8.1, todos los componentes utilizan `appendChild()` ahora, lo que significa que el orden de apilamiento de componentes coincidiría con el orden de creación de instancias.
 
    * Uso de `iscommand` no se admite el modificador para establecer el formato de canal alfa de imagen. Usar componente `FMT` en su lugar.
-   * Actualmente, la propiedad de transformación CSS no es compatible.
+   * Actualmente, la propiedad de transformación de CSS no es compatible.
 
 * Dispositivos táctiles
 

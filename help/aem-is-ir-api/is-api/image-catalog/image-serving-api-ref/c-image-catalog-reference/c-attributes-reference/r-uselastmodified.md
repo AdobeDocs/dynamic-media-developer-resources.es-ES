@@ -5,9 +5,9 @@ title: UseLastModified
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4908da5d-636e-44d2-bd49-40e01c8b5f79
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '219'
 ht-degree: 1%
 
 ---
@@ -24,12 +24,11 @@ Solo debe habilitarse si se utiliza una red de almacenamiento en caché distribu
 >
 >Se debe tener cuidado al utilizar encabezados Last-Modified en un entorno de carga equilibrada que implica varios hosts del servicio de imágenes. El almacenamiento en caché de clientes puede no funcionar y la carga del servidor puede aumentar si, por alguna razón, los servidores tienen marcas de tiempo diferentes para las mismas entradas de catálogo. Esta situación puede ocurrir de la siguiente manera:
 >
->* Ninguna `catalog::TimeStamp` ni `attribute::TimeStamp`, para que la hora de modificación del [!DNL catalog.ini] se utiliza como valor predeterminado para `catalog::TimeStamp`.
+>* Ninguna `catalog::TimeStamp` ni `attribute::TimeStamp`, para que la hora de modificación del [!DNL catalog.ini] El archivo de se utiliza como predeterminado para `catalog::TimeStamp`.
 >
->* En lugar de compartir los archivos del catálogo de imágenes mediante un montaje en red, cada servidor tiene su propia instancia de los archivos de catálogo en un sistema de archivos local.
+>* En lugar de compartir los archivos de catálogo de imágenes mediante un montaje en red, cada servidor tiene su propia instancia de los archivos de catálogo en un sistema de archivos local.
 >* Dos o más instancias del mismo [!DNL catalog.ini] Los archivos tienen fechas de modificación diferentes, posiblemente a causa de una copia incorrecta de los archivos.
 >
-
 
 ## Propiedades {#section-7e26009b7d0a4a3ab234bf2a37f599e0}
 

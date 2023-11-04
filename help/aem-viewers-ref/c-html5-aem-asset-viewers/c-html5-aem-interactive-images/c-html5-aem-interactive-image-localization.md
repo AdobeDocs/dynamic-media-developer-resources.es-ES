@@ -1,21 +1,21 @@
 ---
-title: Localización de los elementos de la interfaz de usuario
+title: Localización de elementos de la interfaz de usuario
 description: Determinado contenido que muestra el visualizador de imágenes interactivo está sujeto a la localización. Este contenido incluye información sobre herramientas de elementos de la interfaz de usuario y un mensaje informativo que se muestra en la vista de zoom flotante al cargar.
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 19749c74-5c31-4dcf-ab07-0e7f10176a86
-source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
 
-# Localización de los elementos de la interfaz de usuario{#localization-of-user-interface-elements}
+# Localización de elementos de la interfaz de usuario{#localization-of-user-interface-elements}
 
 Determinado contenido que muestra el visualizador de imágenes interactivo está sujeto a la localización. Este contenido incluye información sobre herramientas de elementos de la interfaz de usuario y un mensaje informativo que se muestra en la vista de zoom flotante al cargar.
 
-Cada contenido textual del visualizador que se puede localizar se representa mediante el identificador especial del SDK del visualizador, denominado SYMBOL. Cualquier SYMBOL tiene un valor de texto asociado predeterminado para una configuración regional en inglés ( `"en"`) se suministra con el visor predeterminado y puede tener valores definidos por el usuario para tantas configuraciones regionales como sea necesario.
+Cada contenido textual del visualizador que se puede localizar se representa mediante el identificador especial del SDK del visualizador, denominado SYMBOL. Cualquier SYMBOL tiene un valor de texto asociado por defecto para una configuración regional en inglés ( `"en"`) se suministra con el visor predeterminado y puede tener valores definidos por el usuario para tantas configuraciones regionales como sea necesario.
 
 Cuando se inicia el visor, comprueba la configuración regional actual para ver si hay un valor definido por el usuario para cada SYMBOL admitido para dicha configuración regional. Si existe, utiliza el valor definido por el usuario; de lo contrario, vuelve al texto predeterminado predeterminado.
 

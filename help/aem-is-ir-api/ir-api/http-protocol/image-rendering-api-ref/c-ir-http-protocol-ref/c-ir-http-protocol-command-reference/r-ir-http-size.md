@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 756d8b9f-076a-48d6-95c9-e0d6caeed3dd
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 2%
@@ -35,7 +35,7 @@ If *`thickness`* se especifica, se representa una sombra paralela si el objeto d
 
 ## Propiedades {#section-818e01e91fed4015951189c818ef28d8}
 
-Atributo de material. Solo se usa por calcomanías; ignorado por todos los demás materiales. `res=` se ignora si width o height son buenas a 0. Los valores no deben ser negativos.
+Atributo de material. Solo se usa por calcomanías; ignorado por todos los demás materiales. `res=` se omite si la anchura o la altura son superiores a 0. Los valores no deben ser negativos.
 
 ## Predeterminado {#section-f91f516c6af54f0eb4d8c964b923cae0}
 

@@ -5,9 +5,9 @@ title: Métodos de operaciones
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 020c8e63-ad4e-4c0d-8da6-b51efb2b89a5
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ De forma predeterminada, las operaciones que requieren permisos de acceso (leer,
 
 **responseFieldArray y excludeFieldArray**
 
-Algunas operaciones permiten al autor de la llamada restringir qué campos se incluyen en la respuesta. Limitar los campos puede ayudar a reducir el tiempo y la memoria necesarios para procesar la solicitud y el tamaño de los datos de respuesta. El autor de la llamada puede solicitar una lista específica de campos pasando un `responseFieldArray` o con una lista enumerada de campos excluidos a través de la variable `excludeFieldArray` parámetro.
+Algunas operaciones permiten al autor de la llamada restringir qué campos se incluyen en la respuesta. Limitar los campos puede ayudar a reducir el tiempo y la memoria necesarios para procesar la solicitud y el tamaño de los datos de respuesta. El autor de la llamada puede solicitar una lista específica de campos pasando un `responseFieldArray` o con una lista enumerada de campos excluidos mediante el parámetro `excludeFieldArray` parámetro.
 
 Ambos `responseFieldArray` y `excludeFieldArray` especificar campos mediante una ruta de nodo separada por `/`. Por ejemplo, para especificar que `searchAssets` devuelve únicamente el nombre, la última fecha de modificación y los metadatos de cada recurso hacen referencia a lo siguiente:
 
@@ -102,7 +102,7 @@ Si no incluye `responseFieldArray` o `excludeFieldArray` en una solicitud, se de
 
 Desde IPS 4.0, la API de IPS admite la configuración regional del contexto de una operación pasando el `authHeader` Parámetro de configuración regional. Si el parámetro locale no está presente, el encabezado HTTP `Accept-Language` se utiliza. Si este encabezado tampoco está presente, se utilizará la configuración regional predeterminada del servidor IPS.
 
-Algunas operaciones también toman parámetros de configuración regional explícitos, que pueden ser diferentes al contexto de la configuración regional de la operación. Por ejemplo, la variable `submitJob` la operación requiere un `locale` parámetro que establece la configuración regional utilizada para el registro de trabajos y las notificaciones por correo electrónico.
+Algunas operaciones también toman parámetros de configuración regional explícitos, que pueden ser diferentes del contexto de la configuración regional de la operación. Por ejemplo, la variable `submitJob` la operación requiere un `locale` parámetro que establece la configuración regional utilizada para el registro de trabajos y las notificaciones por correo electrónico.
 
 Los parámetros locales utilizan el formato `<language_code>[-<country_code>]`
 

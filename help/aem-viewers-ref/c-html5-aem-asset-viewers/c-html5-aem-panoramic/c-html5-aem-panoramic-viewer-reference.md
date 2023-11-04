@@ -5,9 +5,9 @@ keywords: adaptable
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '1955'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Tipo de visor 514.
 
 HTML 5 Visor panorámico representa un archivo JavaScript principal y un conjunto de archivos de ayuda descargados por el visor en tiempo de ejecución. El conjunto de archivos de ayuda es una sola inclusión de JavaScript con todos los componentes del SDK de HTML5 Viewer utilizados por este visor, recursos y CSS en particular.
 El visor panorámico HTML5 se puede utilizar en modo emergente utilizando la página del HTML lista para la producción proporcionada con visores IS o en modo incrustado, donde se integra en la página web de destino mediante una API documentada.
-La configuración y el desollado son similares a los de los otros visores de HTML5. Todo el desollamiento se puede lograr a través de CSS personalizado.
+La configuración y el desollado son similares a los de los otros visores de HTML5. Todo el desollado se puede lograr mediante CSS personalizado.
 
 Consulte [Referencia de comando común a todos los visores: atributos de configuración](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) y [Referencia de comando común a todos los visores: URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
