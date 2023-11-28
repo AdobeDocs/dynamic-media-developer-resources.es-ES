@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f24edd53-4b21-4147-9b50-95e616279aa8
-source-git-commit: e1f0f8bdac2b7a8397adac3bb9ba38d0c519f8fb
+source-git-commit: e8e3ce9850ab8059aed81e720574d0c93f867a22
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 0%
+source-wordcount: '132'
+ht-degree: 1%
 
 ---
 
@@ -20,22 +20,22 @@ La mejor calidad para el texto en cursiva y en negrita se logra registrando los 
 
 La fuente especificada con `attribute::DefaultFont` se utiliza cuando no se especifica ninguno explícitamente en la cadena RTF.
 
-El servicio de imágenes admite fuentes TrueType, OpenType y Adobe Type 1 (solo Windows).
+El servicio de imágenes admite fuentes TrueType, OpenType ®, Adobe Type 1 (solo Windows).
 
-## Compatibilidad con fuentes Photofont® {#section-74560ae898cf4708aba4c8b4093f5f00}
+<!-- THIS APPEARS TO BE VERY OLD OUTDATED INFORMATION; URL IS DEAD TOO ## Photofont&reg; font support {#section-74560ae898cf4708aba4c8b4093f5f00}
 
-`textPs=` admite fuentes Photofont®, con las restricciones siguientes:
+Photofont&reg; fonts support `textPs=`, with the following restrictions:
 
-* `\cf` se omite en los espacios de texto que especifican una fuente Photofont; las caras de fuente Photofont tienen colores predefinidos
-* No se admiten estilos de fuente sintetizados; uso de `\b` y `\i`requerir las entradas de mapa de fuentes correspondientes; de lo contrario, se devuelve un error
+* `\cf` is ignored in text spans that specify a Photofont font; Photofont font faces have predefined colors 
+* Synthesized font styles are not supported; use of `\b` and `\i`require corresponding font map entries, otherwise an error is returned 
 
-* No se admite el flujo de texto vertical
-* No se admiten fuentes de fuentes fotográficas con imágenes de 16 bits
-* No se admiten fuentes de fuentes fotográficas con varios glifos por imagen
-* La conversión de color nativa se aplica a menos que las imágenes de glifo de Photofont incrusten perfiles de color; en este caso, siempre se aplican la interpretación colorimétrica relativa y la compensación de punto negro
+* Vertical text flow is not supported 
+* Photofont fonts with 16-bit images are not supported 
+* Photofont fonts with multiple glyphs per image are not supported 
+* Naïve color conversion is applied unless the Photofont glyph images embed color profiles; in this case, relative colorimetric render intent and blackpoint compensation are always applied
 
-Consulte [www.photofont.com](https://www.photofont.com) para obtener más información.
+See [https://www.photofont.com](https://www.photofont.com) for additional information. -->
 
 ## Véase también {#section-6cb8a802aa044836bbe449d559093f3a}
 
-[Referencia de mapa de fuentes](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/c-font-map-reference.md#concept-f81f319d03c646c5a8ef87b3277dd37d), [attribute::SynthesizeFontStyles](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md#reference-1b12ba881b9146c793bcb07407cacb15), [attribute::FuentePredeterminada](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultfont.md#reference-48b763ac254545e89a25c76ff7581107), [ [!DNL www.photofont.com] ](https://www.photofont.com)
+[Referencia de mapa de fuentes](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/c-font-map-reference.md#concept-f81f319d03c646c5a8ef87b3277dd37d), [attribute::SynthesizeFontStyles](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md#reference-1b12ba881b9146c793bcb07407cacb15), [attribute::FuentePredeterminada](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultfont.md#reference-48b763ac254545e89a25c76ff7581107)
