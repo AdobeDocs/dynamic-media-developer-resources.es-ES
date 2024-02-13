@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 9ed415c5ab4444a2d404782bfd96ded3c47c26cd
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 5%
+source-wordcount: '904'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +18,7 @@ Formato de imagen de respuesta.
 
 `fmt=format[,` `[`*`pixelType`*`]`,`[`*`compression`*`]]`
 
-*`format`* - avif-alpha | avif | eps | f4m | gif-alpha | gif | jpeg | jpeg2000-alpha | jpeg2000 | jpegxr-alpha | jpegxr | jpg | m3u8 | pdf | pjpeg | png-alpha | png | png8-alpha | png8 | swf-alpha | swf | swf3-alpha | swf3 | tif-alpha | tif | web-alpha | webp
+*`format`* - avif-alpha | avif | eps | f4m | gif-alpha | gif | héico | jpeg | jpeg2000-alpha | jpeg2000 | jpegxr-alpha | jpegxr | jpg | m3u8 | pdf | pjpeg | png-alpha | png | png8-alpha | png8 | swf-alpha | swf | swf3-alpha | swf3 | tif-alpha | tif | web-alpha | webp
 
 | *`format`* | Descripción |
 |---|---|
@@ -26,8 +26,9 @@ Formato de imagen de respuesta.
 | `avif` | AVIF con pérdidas y sin pérdidas. |
 | `eps` | PostScript encapsulado binario sin comprimir. |
 | `f4m` | Formato de manifiesto del servidor de flujo de Flash. |
-| `gif-alpha` | GIF con entre 2 y 255 colores más transparencia de color clave. |
+| `gif-alpha` | GIF con 2 a 255 colores más transparencia de color clave. |
 | `gif` | GIF con 2 a 256 colores. |
+| `heic` | HEIC sin pérdidas. Este formato se descarga de forma predeterminada desde el explorador si no es compatible. |
 | `jpeg` | JPEG perdedor. |
 | `jpeg2000-alpha` | JPEG 2000 sin pérdidas y con canal alfa. |
 | `jpeg2000` | JPEG 2000 sin pérdidas y sin pérdidas. |
@@ -50,14 +51,14 @@ Formato de imagen de respuesta.
 | `webp-alpha` | WebP sin pérdidas y con canal alfa. |
 | `webp` | WebP con pérdidas y sin pérdidas. |
 
-| *`pixelType`* – rgb | gris | cmyk |
+| *`pixelType`* - rgb | gris | cmyk |
 | *`pixelType`* | Descripción |
 |---|---|
 | `cmyk` | Devuelve datos de imagen CMYK. |
 | `gray` | Devuelve datos de imagen en escala de grises. |
 | `rgb` | Devuelve datos de imagen del RGB. |
 
-| *`compression`* – none | lzw | zip | jpeg | con pérdidas | sin pérdidas |
+| *`compression`* - jpeg | con pérdidas | sin pérdidas | lzw | ninguno | zip |
 | *`compression`* | Descripción |
 |---|---|
 | `jpeg` | Compresión JPEG (con pérdida). |
