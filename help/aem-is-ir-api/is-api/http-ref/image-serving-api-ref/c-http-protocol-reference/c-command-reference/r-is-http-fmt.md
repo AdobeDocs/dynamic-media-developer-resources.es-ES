@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 9ed415c5ab4444a2d404782bfd96ded3c47c26cd
+source-git-commit: 17ccca8fcf75eaa902527837d83b03776c1386b9
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '907'
 ht-degree: 2%
 
 ---
@@ -62,8 +62,8 @@ Formato de imagen de respuesta.
 | *`compression`* | Descripción |
 |---|---|
 | `jpeg` | Compresión JPEG (con pérdida). |
-| `lossy` | Compresión WebP, JPEG 2000 y JPEG XR (con pérdida). |
-| `lossless` | Compresión WebP, JPEG 2000 y JPEG XR (sin pérdidas). |
+| `lossy` | JPEG 2000, compresión XR del JPEG (con pérdida) y WebP. |
+| `lossless` | compresión HEIC, JPEG 2000 y JPEG XR (sin pérdidas) y WebP. |
 | `lzw` | Compresión LZW (Lempel-Ziv-Welch) (sin pérdidas). |
 | `none` | Sin comprimir. |
 | `zip` | Compresión &quot;Deflate&quot; (sin pérdidas). |
