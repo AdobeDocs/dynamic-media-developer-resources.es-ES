@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 71d59961-848e-4d78-875e-066e842ac1bf
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 3%
+source-wordcount: '231'
+ht-degree: 1%
 
 ---
 
@@ -22,19 +22,19 @@ Cuantificación de color. Especifica atributos de cuantificación de color para 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> type </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {adaptive|web|mac} </span> </p> <p>Especifica el tipo de paleta. </p> <p>Configure como. <span class="codeph"> adaptable </span> para calcular una paleta óptima para la imagen. </p> <p>Configure como. <span class="codeph"> web </span> o <span class="codeph"> mac </span> para elegir una paleta predefinida. </p> <p> <p>Nota: La <span class="codeph"> mac </span> el tipo de pallet solo se admite para los formatos GIF y PNG8, pero no para los formatos GIF-Alpha y PNG8-Alpha. </p> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {adaptive|web|mac} </span> </p> <p>Especifica el tipo de paleta. </p> <p>Configure como. <span class="codeph"> adaptable </span> para calcular una paleta óptima para la imagen. </p> <p>Configure como. <span class="codeph"> web </span> o <span class="codeph"> mac </span> para elegir una paleta predefinida. </p> <p> <p>Nota: La <span class="codeph"> mac </span> el tipo de pallet solo se admite para los formatos GIF y PNG8, pero no para los formatos GIF-Alpha y PNG8-Alpha.</p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> estremecimiento </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {difusa|desactivada} </span> </p> <p>Especifica las opciones de tramado. </p> <p>Configure como. <span class="codeph"> difuso </span> para la difusión de errores de Floyd-Steinberg </p> <p>Configure como. <span class="codeph"> desactivado </span> para deshabilitar el tramado. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {difusa|desactivada} </span> </p> <p>Especifica las opciones de tramado. </p> <p>Configure como. <span class="codeph"> difuso </span> para la difusión de errores de Floyd-Steinberg </p> <p>Configure como. <span class="codeph"> desactivado </span> para deshabilitar el tramado.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> numColors </span> </span> </p> </td> 
-   <td colname="col2"> <p>Número de colores de salida (2-256) </p> <p>Especifica cuántos colores se incluyen en la variable <span class="codeph"> adaptable </span> paleta. </p> </td> 
+   <td colname="col2"> <p>Número de colores de salida (2-256) </p> <p>Especifica cuántos colores se incluyen en la variable <span class="codeph"> adaptable </span> paleta.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> colorList </span> </span> </p> </td> 
-   <td colname="col2"> <p>Lista separada por comas de colores de RGB forzados en formato hex6 </p> <p>Permite especificar los colores que se incluirán en una <span class="codeph"> adaptable </span> paleta. Si el número de colores especificado es menor que <span class="codeph"> <span class="varname"> numColors </span> </span>Sin embargo, los colores adicionales se calculan en función del contenido de la imagen. </p> </td> 
+   <td colname="col2"> <p>Lista separada por comas de colores de RGB forzados en formato hex6 </p> <p>Permite especificar los colores que se incluirán en una <span class="codeph"> adaptable </span> paleta. Si el número de colores especificado es menor que <span class="codeph"> <span class="varname"> numColors </span> </span>Sin embargo, los colores adicionales se calculan en función del contenido de la imagen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,11 +53,11 @@ Los colores especificados con *`colorList`* debe constar de valores de RGB en fo
 
 Genere una miniatura de GIF utilizando `web` y sin tramado:
 
-`http:// *`*Servidores*`*/myRootId/myImageId?req=tmb&fmt=gif&quantize=web,off`
+`http:// *`*Servidor*`*/myRootId/myImageId?req=tmb&fmt=gif&quantize=web,off`
 
-Convierta la imagen en un GIF bi-tonal con transparencia de key-color y fuerza los colores a blanco y negro:
+Convierta la imagen en un GIF bi-tonal con transparencia de color clave. Y, fuerza los colores a blanco y negro:
 
-`http:// *`*Servidores*`*/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`
+`http:// *`*Servidor*`*/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`
 
 ## Véase también {#section-ea5e8de6084540cf86010370a4d0f01f}
 

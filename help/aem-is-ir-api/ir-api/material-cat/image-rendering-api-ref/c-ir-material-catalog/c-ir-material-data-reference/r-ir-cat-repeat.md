@@ -1,18 +1,18 @@
 ---
 description: Modo de repetición de textura. Especifica la forma en que las imágenes de textura se muestran en mosaico para rellenar la superficie de destino.
 solution: Experience Manager
-title: Repeat
+title: Repetir
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6d6946b0-a827-4ee6-963b-84529ad35ee9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 20%
+source-wordcount: '128'
+ht-degree: 17%
 
 ---
 
-# Repeat{#repeat}
+# Repetir{#repeat}
 
 Modo de repetición de textura. Especifica la forma en que las imágenes de textura se muestran en mosaico para rellenar la superficie de destino.
 
@@ -41,27 +41,27 @@ Se permiten los siguientes valores para los materiales de textura repetible:
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>4 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Un cuarto de gota de papel tapiz cuelgan. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Un cuarto de gota de papel tapiz colgando. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>5 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Colgar papel tapiz de tercera gota. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Tercer gota de papel tapiz colgando. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>6 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Colgar papel tapiz de media gota. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Papel pintado de media gota colgando. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>7 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Colgar papel pintado de quinta gota. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Fondo de pantalla de quinta gota colgando. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>8 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Revirtiendo el papel tapiz colgado. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Revertir el papel tapiz colgante. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>9 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Colgar papel pintado aleatorio. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Colgante de papel pintado aleatorio. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>10 </p></td> 
@@ -111,4 +111,4 @@ Se permiten los siguientes valores para los materiales de textura repetible:
 
 ## Véase también {#section-a08887a91db34ed3b183899c69c9f74f}
 
-[repetir=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-repeat.md#reference-37749da8233f42599ecf4731055fb7d8)
+[repeat=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-repeat.md#reference-37749da8233f42599ecf4731055fb7d8)

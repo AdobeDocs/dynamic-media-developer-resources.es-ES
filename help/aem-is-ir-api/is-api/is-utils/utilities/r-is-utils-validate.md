@@ -5,18 +5,18 @@ title: validar
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 78d50fe9-95c6-4335-98d8-3322839ee02d
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '279'
 ht-degree: 1%
 
 ---
 
 # validar{#validate}
 
-Utilidad de validación de imágenes. Esta utilidad de línea de comandos verifica los archivos de imagen para asegurarse de que son válidos y de que el servicio de imágenes puede leerlos sin dificultad.
+Utilidad de validación de imágenes. Esta utilidad de línea de comandos verifica los archivos de imagen para asegurarse de que son válidos y de que el servicio de imágenes los puede leer sin dificultad.
 
-Todos los archivos de imagen que no son PTIFF deben pasar el parámetro validate antes de que el archivo esté disponible para el servicio de imágenes como imagen de origen. Las imágenes PTIFF deben validarse después de operaciones de copia potencialmente poco fiables.
+Todos los archivos de imagen que no son PTIFF deben pasar la validación antes de que el archivo esté disponible para el servicio de imágenes como imagen de origen. Las imágenes PTIFF deben validarse después de operaciones de copia potencialmente poco fiables.
 
 ## Uso {#usage}
 
@@ -54,7 +54,7 @@ Todos los archivos de imagen que no son PTIFF deben pasar el parámetro validate
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -validatecolorprofile </span> </p> </td> 
-  <td class="stentry"> <p>Comprueba la validez del perfil de color incrustado. De forma predeterminada, el cuerpo del perfil no está marcado. </p> </td> 
+  <td class="stentry"> <p>Comprueba la validez del perfil de color incrustado. De forma predeterminada, el perfil de cuerpo no está marcado. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -reject16BitPerComponent </span> </p> </td> 
@@ -73,7 +73,7 @@ Todos los archivos de imagen que no son PTIFF deben pasar el parámetro validate
   <td class="stentry"> <p>Termina el procesamiento cuando se produce un error de validación de archivo, incluso si aún no se han validado los archivos adicionales. De forma predeterminada, el procesamiento continúa cuando se produce un error de validación </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> -versión </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -version </span> </p> </td> 
   <td class="stentry"> <p>Devuelve la información de versión de esta utilidad. Especifique sin ninguna otra opción. </p> </td> 
  </tr> 
 </table>

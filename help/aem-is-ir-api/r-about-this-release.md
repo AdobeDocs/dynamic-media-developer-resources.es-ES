@@ -5,9 +5,9 @@ title: Acerca de esta versión
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f837191b-1151-4c29-8059-b4d3e09e304e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '132'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ Esta versión (Image Serving 6.6.1 e Image Rendering 6.6.1) reemplaza a Image Se
 ## Problemas conocidos y cambios de comportamiento {#section-9dbc05206187477f926a78e8108a34e1}
 
 * Ya no se admite el uso del carácter de signo de interrogación en los ID de recurso, aunque el carácter tenga codificación URL.
-* Titular dinámico `/xfl/flash/` Las solicitudes de ya no son compatibles y ahora devuelven un código de error http 404.
+* Titular dinámico `/xfl/flash/` Las solicitudes de ya no son compatibles y ahora devuelven un código de error HTTP 404.
 * W2P `/is/agm/` Las solicitudes de ya no son compatibles.
 * Algunos mensajes de error ya no se representan en el explorador. Como tal, debe revisar el registro de seguimiento para depurarlo.
 

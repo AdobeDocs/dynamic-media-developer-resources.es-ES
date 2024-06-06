@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6cc82742-4ba0-4524-a87b-586539d7fe38
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '156'
 ht-degree: 16%
 
 ---
@@ -37,27 +37,27 @@ Modo de repetición de textura. Especifica el modo de repetición para los mater
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 
-  <td class="stentry"> <p>Un cuarto de gota de papel tapiz cuelgan. </p> </td> 
+  <td class="stentry"> <p>Un cuarto de gota de papel tapiz colgando. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p> </td> 
-  <td class="stentry"> <p>Colgar papel tapiz de tercera gota. </p> </td> 
+  <td class="stentry"> <p>Tercer gota de papel tapiz colgando. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>6 </p> </td> 
-  <td class="stentry"> <p>Colgar papel tapiz de media gota. </p> </td> 
+  <td class="stentry"> <p>Papel pintado de media gota colgando. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>7 </p> </td> 
-  <td class="stentry"> <p>Colgar papel pintado de quinta gota. </p> </td> 
+  <td class="stentry"> <p>Fondo de pantalla de quinta gota colgando. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>8 </p> </td> 
-  <td class="stentry"> <p>Cuelgue el papel tapiz inverso. </p> </td> 
+  <td class="stentry"> <p>Papel pintado invertido colgando. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>9 </p> </td> 
-  <td class="stentry"> <p>Colgar papel pintado aleatorio. </p> </td> 
+  <td class="stentry"> <p>Colgante de papel pintado aleatorio. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>10 </p> </td> 

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8b5afb99-3201-4e43-93e7-e8998354204f
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Los archivos de atributos de catálogo constan de un conjunto de registros de te
 <table id="simpletable_8454AD549FDA421BA1469CDA44132773"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> name </span> </span> </p> </td> 
-  <td class="stentry"> <p>Nombre del atributo; puede constar de una o más letras, número, '-' y '_'; no distingue entre mayúsculas y minúsculas. </p> </td> 
+  <td class="stentry"> <p>Nombre del atributo; puede constar de una o más letras, números, - (guión) y _ (guion bajo); no distingue entre mayúsculas y minúsculas.</p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> valor </span> </span> </p> </td> 
@@ -32,7 +32,7 @@ Los archivos de atributos de catálogo constan de un conjunto de registros de te
 </table>
 
 * El espacio en blanco entre tokens es opcional.
-* El operador ignora los registros con nombres de atributo desconocidos [!DNL Platform Server].
-* Los nombres de atributo pueden consistir en cualquier combinación de letras ASCII, números y &quot;-&quot;, &quot;_&quot; y &quot;.&quot;
+* El [!DNL Platform Server] ignora los registros con nombres de atributo desconocidos.
+* Los nombres de atributo pueden constar de cualquier combinación de letras ASCII, números y `-`, `_`, y `.` caracteres.
 * Si el mismo nombre de atributo aparece más de una vez en el mismo archivo de atributos, prevalecerá el último que se encuentre.
-* Utilice &#39;#&#39; como primer carácter para marcar cualquier registro como comentario que el analizador ignora.
+* Uso `#` como el primer carácter que marca un registro como comentario que el analizador ignora.

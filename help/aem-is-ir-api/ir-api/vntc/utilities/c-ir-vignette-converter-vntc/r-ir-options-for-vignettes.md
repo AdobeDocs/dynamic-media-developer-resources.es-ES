@@ -5,9 +5,9 @@ title: Opciones para viñetas
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7f9c2b43-9264-46a4-9519-64148aebf258
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Las siguientes opciones controlan el procesamiento de archivos de viñeta. Se om
 
 <table id="simpletable_6D0C967EB84947FBAC34B46C4BB23AF0"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> -contenido</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> -content</span> </p></td> 
   <td class="stentry"> <p>Crea un archivo XML que representa la jerarquía de objetos e incluye los atributos de objetos seleccionados. El contenido del archivo es el mismo que el devuelto por el <span class="codeph"> req=content</span> comando. El archivo tiene el mismo nombre que el archivo de origen, pero con un <span class="filepath"> .xml</span> sufijo. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -39,10 +39,10 @@ Las siguientes opciones controlan el procesamiento de archivos de viñeta. Se om
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> -imagemap</span> </p></td> 
-  <td class="stentry"> <p>Habilite la extracción del archivo de mapa de imagen de la viñeta. Los datos de asignación se escriben en un archivo de HTML que contiene solo un <span class="codeph"> &lt;map&gt;</span> Elemento. El nombre del archivo de salida es el mismo que el del archivo de imagen de salida, pero con un <span class="filepath"> .htm</span> sufijo. Se genera un mensaje de advertencia y no se crea ningún archivo si se especifica el comando, pero no hay datos de asignación en la viñeta. </p></td> 
+  <td class="stentry"> <p>Habilite la extracción del archivo de mapa de imagen de la viñeta. Los datos de asignación se escriben en un archivo de HTML que contiene únicamente un <span class="codeph"> &lt;map&gt;</span> Elemento. El nombre del archivo de salida es el mismo que el del archivo de imagen de salida, pero con un <span class="filepath"> .htm</span> sufijo. Se genera un mensaje de advertencia y no se crea ningún archivo si se especifica el comando, pero no hay datos de asignación en la viñeta. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> -perfil</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> -profile</span> </p></td> 
   <td class="stentry"> <p>Guarda una copia del perfil ICC incrustado en la viñeta en un archivo. Se genera un mensaje de advertencia y no se crea ningún archivo de perfil ICC si se especifica el comando pero no hay ningún perfil ICC en la viñeta. </p></td> 
  </tr> 
  <tr class="strow"> 
