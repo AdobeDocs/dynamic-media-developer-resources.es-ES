@@ -8,7 +8,7 @@ exl-id: b6078246-54e1-4119-b4f8-ba6a28577cff
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 5%
+ht-degree: 2%
 
 ---
 
@@ -52,7 +52,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> preserveCrop</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
-   <td colname="col3"> <p>Controla la conservación de cualquier definición de recorte existente. El valor predeterminado es true.</p> <p>Si proporciona el parámetro manualCropOptions y los valores correspondientes, los nuevos valores (excluyendo 0,0,0,0) se aplicarán al recurso independientemente del valor preserveCrop.</p><p>Si lo hace <i>no</i> Si se proporciona el parámetro manualCropOptions, se mantiene el valor de preserveCrop. Y, en caso de true, se conservan los valores preserveCrop existentes; en caso de false, se eliminan los valores preserveCrop.</p><p>Ejemplo:</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />   &lt;left&gt;190&lt;/left&gt;<br />   &lt;right&gt;310&lt;/right&gt;<br />   &lt;top&gt;160&lt;/top&gt;<br />   &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p> </td> 
+   <td colname="col3"> <p>Controla la conservación de cualquier definición de recorte existente. El valor predeterminado es true.</p> <p>Si proporciona el parámetro manualCropOptions y los valores correspondientes, los nuevos valores (excluyendo 0,0,0,0) se aplicarán al recurso independientemente del valor preserveCrop.</p><p>Si <i>not</i> proporciona el parámetro manualCropOptions, se mantiene el valor de preserveCrop. Y, en caso de true, se conservan los valores preserveCrop existentes; en caso de false, se eliminan los valores preserveCrop.</p><p>Ejemplo:</p><p><p>&lt;preserveCrop&gt;false&lt;/preserveCrop&gt;<br />&lt;manualCropOptions&gt;<br />   &lt;left&gt;190&lt;/left&gt;<br />   &lt;right&gt;310&lt;/right&gt;<br />   &lt;top&gt;160&lt;/top&gt;<br />   &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualCropOptions&gt;</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </p> </td> 
@@ -76,8 +76,8 @@ Sintaxis
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postScriptOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> tipos:OpcionesPostScript</span> </p> </td> 
-   <td colname="col3"> <p>Opciones para cargar archivos PostScript en el servidor de imágenes. </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> tipos:PostScriptOptions</span> </p> </td> 
+   <td colname="col3"> <p>Opciones para cargar archivos de PostScript en el servidor de imágenes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> pdfOptions</span> </span> </p> </td> 
@@ -86,12 +86,12 @@ Sintaxis
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> mediaOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> tipos:OpcionesMedios</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> tipos:MediaOptions</span> </p> </td> 
    <td colname="col3"> <p>Opciones de archivo de medios A/V. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> illustratorOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> tipos:Opciones de Illustrator</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> tipos:IllustratorOptions</span> </p> </td> 
    <td colname="col3"> <p>Opciones para cargar archivos de Illustrator en el servidor de imágenes. </p> </td> 
   </tr> 
   <tr> 
@@ -146,12 +146,12 @@ Sintaxis
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> knockoutBackground</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> tipos:OpcionesFondoCobertura</span> </p> </td> 
-   <td colname="col3"> <p>Enmascarar el fondo de las imágenes seleccionadas. Esto permite superponerlas en otras capas con una transparencia fuera de la imagen del sujeto. </p> <p>Opcional. </p> <p>Consulte<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> tipos:KnockoutBackgroundOptions</span> </p> </td> 
+   <td colname="col3"> <p>Enmascarar el fondo de las imágenes seleccionadas. Esto permite superponerlas en otras capas con una transparencia fuera de la imagen del sujeto. </p> <p>Opcional. </p> <p>Ver <a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> tipos:OpcionesMáscaraDeEnfoque</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> tipos:UnsharpMaskOptions</span> </p> </td> 
    <td colname="col3"> <p>Opciones que permiten controlar los ajustes de máscara de enfoque al crear un archivo TIF piramidal optimizado. Utilice esta configuración para mejorar la nitidez de la imagen. </p> <p>Consulte <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnsharpMaskOptions</a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -159,13 +159,13 @@ Sintaxis
 
 **Notas**
 
-Opciones de `*CropOptions` incluir:
+Las opciones de `*CropOptions` incluyen:
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-Opciones de `*PublishJob` incluir:
+Las opciones de `*PublishJob` incluyen:
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`

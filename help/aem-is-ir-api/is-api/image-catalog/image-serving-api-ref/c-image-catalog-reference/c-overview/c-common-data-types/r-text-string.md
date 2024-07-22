@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Tipo de datos de cadena de texto.
 
-Los delimitadores de cadena son opcionales, a menos que la cadena contenga alguno `<CR>`, `<LF>`, o `<TAB>` caracteres. Se pueden utilizar comillas simples o dobles como delimitadores. Si se utilizan comillas, cualquier comilla incrustada dentro de la cadena debe omitirse usando dos comillas consecutivas (por ejemplo, la oferta especial de este mes).
+Los delimitadores de cadena son opcionales, a menos que la cadena contenga `<CR>`, `<LF>` o `<TAB>` caracteres. Se pueden utilizar comillas simples o dobles como delimitadores. Si se utilizan comillas, cualquier comilla incrustada dentro de la cadena debe omitirse usando dos comillas consecutivas (por ejemplo, la oferta especial de este mes).

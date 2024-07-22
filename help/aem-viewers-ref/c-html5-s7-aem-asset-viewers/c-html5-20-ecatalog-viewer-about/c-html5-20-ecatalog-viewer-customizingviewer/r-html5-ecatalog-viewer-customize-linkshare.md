@@ -24,12 +24,12 @@ El aspecto del botón para compartir vínculos se controla con el siguiente sele
 .s7ecatalogviewer .s7linkshare
 ```
 
-**Propiedades CSS de la herramienta de uso compartido de vínculos**
+**Propiedades CSS de la herramienta para compartir vínculos**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> anchura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ancho </span> </p> </td> 
    <td colname="col2"> <p>Ancho del botón. </p> </td> 
   </tr> 
   <tr> 
@@ -37,11 +37,11 @@ El aspecto del botón para compartir vínculos se controla con el siguiente sele
    <td colname="col2"> <p>Altura del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo </span> </p> </td> 
    <td colname="col2"> <p> Imagen que se muestra para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo </span> </p> </td> 
    <td colname="col2"> <p> Coloque dentro del icono de ilustración si se utilizan iconos CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -49,9 +49,9 @@ El aspecto del botón para compartir vínculos se controla con el siguiente sele
 
 >[!NOTE]
 >
->Este botón admite el `state` selector de atributos, que se puede utilizar para aplicar distintos aspectos a distintos estados de botón.
+>Este botón es compatible con el selector de atributos `state`, que se puede utilizar para aplicar diferentes aspectos a diferentes estados de botones.
 
-Es posible quitar el botón del panel Compartir en redes sociales mediante la configuración `display:none` Propiedad CSS en su clase CSS.
+Es posible quitar el botón del panel Compartir en redes sociales estableciendo la propiedad CSS `display:none` en su clase CSS.
 
 La información del objeto del botón se puede localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
@@ -82,7 +82,7 @@ La superposición de fondo que cubre la página web cuando el cuadro de diálogo
 .s7ecatalogviewer .s7linkdialog .s7backoverlay
 ```
 
-**Propiedades CSS de la superposición de fondo**
+**Propiedades CSS de la superposición en segundo plano**
 
 <table id="table_DB4183CE8061425084D495A355A941F8"> 
  <tbody> 
@@ -91,7 +91,7 @@ La superposición de fondo que cubre la página web cuando el cuadro de diálogo
    <td colname="col2"> <p>Opacidad de superposición de fondo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color de fondo </span> </p> </td> 
    <td colname="col2"> <p>Color de superposición de fondo. </p> </td> 
   </tr> 
  </tbody> 
@@ -117,15 +117,15 @@ De forma predeterminada, el cuadro de diálogo modal se muestra centrado en la p
 <table id="table_E31711ADF4C7446182549244362199A3"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> borde-radio </span> </p> </td> 
    <td colname="col2"> <p> Radio del borde del cuadro de diálogo, en caso de que el cuadro de diálogo no ocupe todo el explorador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color de fondo </span> </p> </td> 
    <td colname="col2"> <p>Color de fondo del cuadro de diálogo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> anchura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ancho </span> </p> </td> 
    <td colname="col2"> <p>Debe estar desconfigurado o configurado al 100 %, en cuyo caso el cuadro de diálogo ocupa toda la ventana del explorador (este modo es preferido en dispositivos táctiles). </p> </td> 
   </tr> 
   <tr> 
@@ -185,12 +185,12 @@ El icono de encabezado se controla con el siguiente selector de clase CSS
 .s7ecatalogviewer .s7linkdialog .s7dialogheadericon
 ```
 
-**Propiedades CSS del icono del encabezado del cuadro de diálogo**
+**Propiedades CSS del icono de encabezado del cuadro de diálogo**
 
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> anchura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ancho </span> </p> </td> 
    <td colname="col2"> <p>Ancho del icono. </p> </td> 
   </tr> 
   <tr> 
@@ -198,11 +198,11 @@ El icono de encabezado se controla con el siguiente selector de clase CSS
    <td colname="col2"> <p>Altura del icono. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo </span> </p> </td> 
    <td colname="col2"> <p>Imagen del icono. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo </span> </p> </td> 
    <td colname="col2"> <p> Coloque dentro del icono de ilustración si se utilizan iconos CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -223,7 +223,7 @@ El título del encabezado se controla con el siguiente selector de clase CSS:
    <td colname="col2"> <p>Grosor de fuente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamaño de fuente </span> </p> </td> 
    <td colname="col2"> <p>Altura de la fuente. </p> </td> 
   </tr> 
   <tr> 
@@ -248,15 +248,15 @@ El botón Cerrar se controla con el siguiente selector de clase CSS:
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> </span> principales </p> </td> 
    <td colname="col2"> <p> Posición vertical del botón en relación con el contenedor de encabezado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> derecha </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> derecho </span> </p> </td> 
    <td colname="col2"> <p> Posición horizontal del botón relativa al contenedor del encabezado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> anchura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ancho </span> </p> </td> 
    <td colname="col2"> <p>Ancho del botón. </p> </td> 
   </tr> 
   <tr> 
@@ -268,11 +268,11 @@ El botón Cerrar se controla con el siguiente selector de clase CSS:
    <td colname="col2"> <p>Relleno interior del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo </span> </p> </td> 
    <td colname="col2"> <p>Imagen de botón para cada estado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo </span> </p> </td> 
    <td colname="col2"> <p> Coloque dentro del icono de ilustración si se utilizan iconos CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -280,7 +280,7 @@ El botón Cerrar se controla con el siguiente selector de clase CSS:
 
 >[!NOTE]
 >
->Este botón admite el `state` selector de atributos, que se puede utilizar para aplicar distintos aspectos a distintos estados de botón.
+>Este botón es compatible con el selector de atributos `state`, que se puede utilizar para aplicar diferentes aspectos a diferentes estados de botones.
 
 Se puede localizar la información del objeto del botón Cerrar y el título del cuadro de diálogo. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
@@ -371,7 +371,7 @@ El botón sólo está disponible en sistemas de escritorio.
 <table id="table_021D0467632F49FEBFDF4CF96D2D67C7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> anchura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ancho </span> </p> </td> 
    <td colname="col2"> <p>Ancho del botón. </p> </td> 
   </tr> 
   <tr> 
@@ -383,7 +383,7 @@ El botón sólo está disponible en sistemas de escritorio.
    <td colname="col2"> <p> Color del texto del botón para cada estado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color de fondo </span> </p> </td> 
    <td colname="col2"> <p> Color de fondo del botón para cada estado. </p> </td> 
   </tr> 
  </tbody> 
@@ -391,7 +391,7 @@ El botón sólo está disponible en sistemas de escritorio.
 
 >[!NOTE]
 >
->El botón Seleccionar todo admite el `state` selector de atributos, que se puede utilizar para aplicar distintos aspectos a distintos estados de botón.
+>El botón Seleccionar todo es compatible con el selector de atributos `state`, que se puede utilizar para aplicar distintas máscaras a distintos estados de botón.
 
 El botón Cancelar se controla con el siguiente selector de clase CSS:
 
@@ -404,7 +404,7 @@ El botón Cancelar se controla con el siguiente selector de clase CSS:
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> anchura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ancho </span> </p> </td> 
    <td colname="col2"> <p>Ancho del botón. </p> </td> 
   </tr> 
   <tr> 
@@ -416,7 +416,7 @@ El botón Cancelar se controla con el siguiente selector de clase CSS:
    <td colname="col2"> <p> Color del texto del botón para cada estado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color de fondo </span> </p> </td> 
    <td colname="col2"> <p> Color de fondo del botón para cada estado. </p> </td> 
   </tr> 
  </tbody> 
@@ -424,7 +424,7 @@ El botón Cancelar se controla con el siguiente selector de clase CSS:
 
 >[!NOTE]
 >
->Este botón admite el `state` selector de atributos, que se puede utilizar para aplicar distintos aspectos a distintos estados de botón.
+>Este botón es compatible con el selector de atributos `state`, que se puede utilizar para aplicar diferentes aspectos a diferentes estados de botones.
 
 Además, ambos botones comparten una clase CSS común que puede contener configuraciones de CSS iguales para otros botones de cuadro de diálogo:
 
@@ -441,7 +441,7 @@ Además, ambos botones comparten una clase CSS común que puede contener configu
    <td colname="col2"> <p>Grosor de fuente del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamaño de fuente </span> </p> </td> 
    <td colname="col2"> <p>Tamaño de fuente del botón. </p> </td> 
   </tr> 
   <tr> 
@@ -453,11 +453,11 @@ Además, ambos botones comparten una clase CSS común que puede contener configu
    <td colname="col2"> <p> Altura del texto dentro del botón. Afecta a la alineación vertical. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> caja-sombra </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> box-shadow </span> </p> </td> 
    <td colname="col2"> <p>Sombra paralela. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margen derecho </span> </p> </td> 
    <td colname="col2"> <p>Margen del botón derecho. </p> </td> 
   </tr> 
  </tbody> 
@@ -540,7 +540,7 @@ El área de diálogo principal, entre el encabezado y el pie de página, contien
    <td colname="col2"> <p> Alto del área del cuadro de diálogo principal. Sólo debe especificarse cuando el cuadro de diálogo funciona en modo escritorio. No es aplicable cuando el tamaño del cuadro de diálogo es tal que ocupa toda la ventana del explorador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color de fondo </span> </p> </td> 
    <td colname="col2"> <p>Color de fondo del área del cuadro de diálogo principal. </p> </td> 
   </tr> 
   <tr> 
@@ -602,7 +602,7 @@ Esta clase no es adecuada para controlar el tamaño o la posición de la etiquet
    <td colname="col2"> <p>Grosor de fuente de etiqueta. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamaño de fuente </span> </p> </td> 
    <td colname="col2"> <p>Tamaño de fuente de etiqueta. </p> </td> 
   </tr> 
   <tr> 
@@ -634,12 +634,12 @@ El tamaño de la copia de texto que se muestra sobre el vínculo se controla con
 .s7ecatalogviewer .s7linkdialog .s7dialoginputwide
 ```
 
-**Propiedades CSS del campo de toda la entrada del cuadro de diálogo**
+**Propiedades CSS del campo que abarca toda la entrada del cuadro de diálogo**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> anchura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ancho </span> </p> </td> 
    <td colname="col2"> <p>Ancho del texto. </p> </td> 
   </tr> 
   <tr> 
@@ -699,7 +699,7 @@ El vínculo compartido en sí se controla con el siguiente selector de clase CSS
 <table id="table_65CF778F5BDA45118208538DCBE203FB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> anchura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ancho </span> </p> </td> 
    <td colname="col2"> <p>Compartir la anchura del vínculo. </p> </td> 
   </tr> 
  </tbody> 

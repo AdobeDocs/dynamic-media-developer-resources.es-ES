@@ -8,7 +8,7 @@ exl-id: 240a3884-68dd-474c-83a6-d79fc5b6c300
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '108'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Rutas del archivo de datos de imagen. Especifica los archivos que contienen los datos de imagen para este catálogo.
 
-Los archivos de datos de imagen se cargan en el orden especificado. Si es el mismo `catalog::Id` Si el valor aparece en más de un registro (en el mismo o en distintos archivos de catálogo), prevalecerá la última instancia.
+Los archivos de datos de imagen se cargan en el orden especificado. Si el mismo valor `catalog::Id` aparece en más de un registro (en el mismo archivo de catálogo o en varios), prevalecerá la última instancia.
 
 ## Propiedades {#section-6da55f145ecd4e31a5de52637a436983}
 

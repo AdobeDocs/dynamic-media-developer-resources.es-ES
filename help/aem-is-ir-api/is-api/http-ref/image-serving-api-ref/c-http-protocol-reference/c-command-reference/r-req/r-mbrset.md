@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 0568a4a1-7d6a-453e-83bc-05c0cde0c0f8
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
@@ -31,14 +31,14 @@ Datos de velocidad de bits múltiple.
 
 Devuelve una respuesta de texto o xml que contiene una lista de direcciones URL (y las tasas de bits correspondientes) que corresponden a entradas de vídeo válidas en el conjunto de vídeos asociado con el ID de ruta de acceso de red.
 
-El requisito anterior de que una entrada de vídeo válida contenga un valor para `catalog::VideoBitRate` ahora se ha relajado. La entrada puede contener un valor para `catalog::VideoBitRate`*o* `catalog::AudioBitRate`*o* `catalog::TotalStreamBitRate`. Solo es necesario definir una de ellas para que la entrada de vídeo sea válida. Tenga en cuenta que los requisitos para `catalog::Path` y una extensión de archivo de vídeo válida no han cambiado.
+Se ha relajado el requisito anterior de que una entrada de vídeo válida contenga un valor para `catalog::VideoBitRate`. La entrada puede contener un valor para `catalog::VideoBitRate`*o* `catalog::AudioBitRate`*o* `catalog::TotalStreamBitRate`. Solo es necesario definir una de ellas para que la entrada de vídeo sea válida. Tenga en cuenta que los requisitos de `catalog::Path` y una extensión de archivo de vídeo válida no han cambiado.
 
-Las respuestas están pensadas para que las consuman los servidores de flujo continuo de Flash y Apple y, por lo tanto, cumplen estructuralmente esas especificaciones. Las direcciones URL se generan mediante prefijos `attribute::HttpAppleStreamingContext` y `attribute::HttpFlashStreamingContext`.
+Las respuestas están pensadas para que las consuman los servidores de flujo continuo de Flash y Apple y, por lo tanto, cumplen estructuralmente esas especificaciones. Las direcciones URL se generan utilizando los prefijos `attribute::HttpAppleStreamingContext` y `attribute::HttpFlashStreamingContext`.
 
 Las respuestas m3u8 solo contienen archivos mp4 si hay alguno presente en el conjunto de vídeos. Si no hay archivos mp4, estas respuestas solo contienen archivos f4v. Si no hay archivos mp4 ni f4v, la respuesta está vacía.
 
 Las respuestas de f4m solo contienen archivos f4v si hay alguno presente en el conjunto de vídeos. Si no hay archivos f4v, estas respuestas solo contienen archivos mp4. Si no hay archivos f4v ni archivos mp4, la respuesta está vacía.
 
-Las tasas de bits que aparecen en las respuestas de f4m/m3u8 corresponden a los valores de `catalog::TotalStreamBitRate` (convertido en unidades adecuadas). If `catalog::TotalStreamBitRate` no está definida, la suma de `catalog::VideoBitRate` y `catalog::AudioBitRate` se utiliza.
+Las tasas de bits que aparecen en las respuestas de f4m/m3u8 corresponden a los valores de `catalog::TotalStreamBitRate` (convertidos en unidades adecuadas). Si `catalog::TotalStreamBitRate` no está definido, se usa la suma de `catalog::VideoBitRate` y `catalog::AudioBitRate`.
 
-La respuesta HTTP se puede almacenar en caché con el TTL en función de `catalog::NonImgExpiration`.
+La respuesta HTTP se puede almacenar en caché con el TTL basado en `catalog::NonImgExpiration`.

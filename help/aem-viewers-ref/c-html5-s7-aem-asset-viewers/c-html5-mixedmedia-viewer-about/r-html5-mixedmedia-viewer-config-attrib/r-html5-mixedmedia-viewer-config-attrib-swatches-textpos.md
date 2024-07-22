@@ -21,8 +21,8 @@ ht-degree: 6%
 <table id="table_B3B03B00DCF0466DB332E851F4DDF610"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td> <p> Especifica la posición de la etiqueta en relación con la imagen en miniatura de la muestra. Es decir, la etiqueta se centra en la ubicación especificada en relación con la miniatura de la muestra. Cuándo <span class="codeph"> información sobre herramientas</span> se ha especificado, no se dibuja ninguna etiqueta. </p> </td> 
+   <td> <p> <span class="codeph"> inferior|superior|izquierdo|ninguno|información sobre herramientas</span> </p> </td> 
+   <td> <p> Especifica la posición de la etiqueta en relación con la imagen en miniatura de la muestra. Es decir, la etiqueta se centra en la ubicación especificada en relación con la miniatura de la muestra. Cuando se especifica <span class="codeph"> tooltip</span>, no se dibuja ninguna etiqueta. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 6cd9c375-8890-4033-b187-b95b26dd6009
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 2%
+source-wordcount: '118'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ El área de vista principal es el área ocupada por la imagen de giro. Normalmen
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propiedades CSS del área del visor principal**
+**Propiedades CSS del área de visor principal**
 
 El aspecto del área de visualización se controla con el siguiente selector de clase CSS:
 
@@ -35,21 +35,21 @@ El aspecto del área de visualización se controla con el siguiente selector de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ancho </span> </p> </td> 
    <td colname="col2"> <p>La anchura del visor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p>La altura del visor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color de fondo </span> </p> </td> 
    <td colname="col2"> <p> Color de fondo en formato hexadecimal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ejemplo - para configurar un visor con un fondo blanco ( `#FFFFFF`) y hacer su tamaño 512 x 288 píxeles.
+Ejemplo: para configurar un visor con un fondo blanco ( `#FFFFFF`) y hacer que su tamaño sea de 512 x 288 píxeles.
 
 ```
 .s7spinviewer { 

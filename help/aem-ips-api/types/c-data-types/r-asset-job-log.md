@@ -8,7 +8,7 @@ exl-id: 2c8ebec2-a664-46cd-b843-9893bfa0a9d1
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 19%
+ht-degree: 5%
 
 ---
 
@@ -42,7 +42,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL logMessage]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Mensaje en el registro de trabajos. <p><span class="codeph"> [!DNL logMessage]</span> el campo de respuesta está localizado en función de <span class="codeph"> authHeader</span> campo configuración regional. </p></td> 
+   <td colname="col3">Mensaje en el registro de trabajos. <p>El campo de respuesta <span class="codeph"> [!DNL logMessage]</span> está localizado en función del campo de configuración regional <span class="codeph"> authHeader</span>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL logType]</span> </span> </td> 

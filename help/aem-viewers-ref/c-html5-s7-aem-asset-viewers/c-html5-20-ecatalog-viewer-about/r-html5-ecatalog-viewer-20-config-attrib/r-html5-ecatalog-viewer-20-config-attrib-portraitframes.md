@@ -19,8 +19,8 @@ ht-degree: 6%
 <table id="table_1D425B7685D448459CD3FE8D683C813C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> split|solid</span> </p> </td> 
-   <td colname="col2"> <p>Configure como. <span class="codeph"> split</span> para permitir que el visor muestre pliegos de doble página como una página independiente cuando se utiliza en un dispositivo móvil con orientación vertical. Configure como. <span class="codeph"> sólido</span> para mostrar siempre los pliegos de doble página como una imagen sólida, independientemente de la orientación del dispositivo. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> división|sólido</span> </p> </td> 
+   <td colname="col2"> <p>Se establece en <span class="codeph"> split</span> para permitir que el visor muestre pliegos de doble página como una página independiente cuando se utiliza en un dispositivo móvil con orientación vertical. Establezca <span class="codeph"> solid</span> para mostrar siempre los pliegos de doble página como imagen sólida, independientemente de la orientación del dispositivo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

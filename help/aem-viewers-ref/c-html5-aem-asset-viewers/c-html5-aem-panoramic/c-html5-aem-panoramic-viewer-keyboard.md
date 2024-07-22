@@ -15,6 +15,6 @@ ht-degree: 0%
 # Accesibilidad y navegación mediante teclado{#keyboard-accessibility-and-navigation}
 
 Todas las funciones expuestas en la interfaz de usuario del visor son accesibles mediante el teclado.
-El usuario final puede utilizar `Left`, `Right`, `UP`, y `DOWN` pulsaciones de teclas para desplazarse por la imagen.
-El `Esc` la pulsación de tecla se puede utilizar para restablecer la imagen.
+El usuario final puede usar las pulsaciones de teclas `Left`, `Right`, `UP` y `DOWN` para recorrer la imagen.
+La pulsación de tecla `Esc` se puede utilizar para restablecer la imagen.
 

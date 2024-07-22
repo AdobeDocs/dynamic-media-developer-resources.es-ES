@@ -21,7 +21,7 @@ Especifica la alineación interna (anclaje) del contenedor de muestras dentro de
 <table id="table_33CC037517964DA89EE0C005BB6B32BB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> left|center|right</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> izquierda|centro|derecha</span> </p> </td> 
    <td colname="col2"> <p> Define la alineación de las muestras horizontales. </p> </td> 
   </tr> 
   <tr> 

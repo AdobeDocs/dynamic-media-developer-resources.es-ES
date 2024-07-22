@@ -8,7 +8,7 @@ exl-id: e8aaee4e-56d5-46e4-8499-d5c9a6ba5d3b
 source-git-commit: 96ac67e5645c2c55920cc971806ba2f14ae57044
 workflow-type: tm+mt
 source-wordcount: '73'
-ht-degree: 4%
+ht-degree: 2%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 Referencia de la API de JavaScript para el Visor de carrusel.
 
-` setAsset( *`asset`*)`
+` setAsset( *`recurso`*)`
 
 Establece el nuevo recurso. Puede llamar a este parámetro en cualquier momento, antes o después de `init()`. Si se llama después de `init()`, el visor intercambia el recurso durante la ejecución.
 
@@ -26,7 +26,7 @@ Consulte también [init](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> recurso</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> Cadena</span>} nuevo ID de recurso. </p> <p>Las imágenes que utilizan IR (Image Rendering) o UGC (User-Generated Content) no son compatibles con este visor. </p> </td>
+   <td colname="col2"> <p>{<span class="codeph"> cadena</span>} ID de recurso nuevo. </p> <p>Las imágenes que utilizan IR (Image Rendering) o UGC (User-Generated Content) no son compatibles con este visor. </p> </td>
   </tr>
  </tbody>
 </table>

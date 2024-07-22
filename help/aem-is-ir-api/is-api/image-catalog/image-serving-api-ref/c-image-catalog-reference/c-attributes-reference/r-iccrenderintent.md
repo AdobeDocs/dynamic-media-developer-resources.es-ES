@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 732b1935-6556-4420-a056-4e00cb3ed152
 source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 4%
+source-wordcount: '78'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ Enumeración. Establezca el valor en 0 para perceptual, 1 para colorimétrico re
 
 ## Predeterminado {#section-61a05067905b44099c228e15de279dbd}
 
-Heredado de `default::IccRenderIntent` si no se define o si está vacío.
+Se hereda de `default::IccRenderIntent` si no se ha definido o está vacío.
 
 ## Véase también {#section-7da9ff3038ca452a9f7375a1ca0581af}
 

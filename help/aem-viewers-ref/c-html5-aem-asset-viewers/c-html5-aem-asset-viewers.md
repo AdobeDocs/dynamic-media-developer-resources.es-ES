@@ -8,13 +8,13 @@ exl-id: f0668991-8619-4670-bc69-85a7a96893dd
 source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
 source-wordcount: '34'
-ht-degree: 5%
+ht-degree: 2%
 
 ---
 
 # Solo visores para AEM Assets{#viewers-for-aem-assets-only}
 
-Los siguientes visualizadores funcionan exclusivamente en Adobe Experience Manager Assets.
+Los siguientes visores trabajan exclusivamente con Adobe Experience Manager Assets.
 
 * [Carrusel](c-html5-aem-carousel/c-html5-aem-carousel.md)
 * [Imagen interactiva](c-html5-aem-interactive-images/c-html5-aem-interactive-images.md)

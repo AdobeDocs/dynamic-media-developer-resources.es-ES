@@ -25,25 +25,25 @@ Imagen de respuesta predeterminada. Especifica la imagen o la entrada de catálo
  </tr> 
 </table>
 
-*`object`* puede ser una entrada de catálogo (incluida una plantilla) o una ruta de archivo de imagen simple. Útil para sustituir imágenes que faltan por imágenes predeterminadas. Este valor anula el valor del catálogo correspondiente `attribute::DefaultImage`. Un valor vacío ( `defaultImage=`) deshabilita la administración de imágenes predeterminada.
+*`object`* puede ser una entrada de catálogo (incluida una plantilla) o una ruta de archivo de imagen simple. Útil para sustituir imágenes que faltan por imágenes predeterminadas. Este valor anula el valor del catálogo correspondiente `attribute::DefaultImage`. Un valor vacío (`defaultImage=`) deshabilita la administración predeterminada de imágenes.
 
 >[!NOTE]
 >
 >El mecanismo de imagen predeterminado no se aplica a los objetos del SVG. Se devuelve un error si no se encuentra el objeto SVG especificado en la solicitud.
 
-If `attribute::DefaultImageMode=0`, *`object`* reemplaza la solicitud original completa, incluso si sólo falta una imagen en una composición de varias imágenes. Los únicos comandos retenidos de la solicitud original son: `wid=`, `hei=`, `fmt=`, `qlt=`.
+Si `attribute::DefaultImageMode=0`, *`object`* reemplaza toda la solicitud original, aunque solo falte una imagen en la composición de varias imágenes. Los únicos comandos retenidos de la solicitud original son: `wid=`, `hei=`, `fmt=`, `qlt=`.
 
-If `attribute::DefaultImageMode=1`, el objeto reemplaza únicamente la imagen de capa que falta; los atributos de la capa que falta se aplican y el compuesto se procesa y se devuelve como de costumbre.
+Si `attribute::DefaultImageMode=1`, el objeto reemplaza solamente la imagen de capa que falta; los atributos de la capa que falta se aplican y el compuesto se procesa y se devuelve como de costumbre.
 
 ## Propiedades {#section-d30923d8dc4042eba10989212dd70887}
 
-Atributo de solicitud. Se aplica independientemente de la configuración de capa actual. Ignorado si `req=` es distinto de `img` o `tmb`.
+Atributo de solicitud. Se aplica independientemente de la configuración de capa actual. Se ignora si `req=` es distinto de `img` o `tmb`.
 
 ## Restricciones {#section-30df31bc8cac41cd917f1e45196779c2}
 
 El mecanismo de imagen predeterminado no cubre los orígenes de imagen externos; se devuelve un error si un origen de imagen externo no es válido.
 
-El servicio de imágenes vuelve a `DefaultImageMode=0` cuando las solicitudes de procesamiento FXG o procesamiento de Image Rendering anidadas fallan.
+El servicio de imágenes vuelve a `DefaultImageMode=0` cuando las solicitudes de procesamiento FXG o de procesamiento de imágenes anidadas fallan.
 
 ## Predeterminado {#section-0676c66b233c46a3a3a1517da4ace998}
 

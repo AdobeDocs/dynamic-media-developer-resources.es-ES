@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 7150b4a8-a44d-4858-96f2-6004d5f48e77
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 13%
+source-wordcount: '189'
+ht-degree: 11%
 
 ---
 
@@ -20,7 +20,7 @@ Configuración que ayuda a mejorar la nitidez de la imagen para archivos TIF pir
 
 ## Parámetros {#section-c3f0d03136ba4422819cb463bd393885}
 
-Especifique un valor para `unsharpMaskOptions` opciones con `minOccurs=" *`n`*".`
+Especifique un valor para las opciones de `unsharpMaskOptions` con `minOccurs=" *`n`*".`
 
 <table id="table_D1392963C5694969A9D546F82DB6F45C">
  <thead>
@@ -62,7 +62,7 @@ Especifique un valor para `unsharpMaskOptions` opciones con `minOccurs=" *`n`*".
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> monocromo</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:int</span></td>
-   <td colname="col3"><p>Los valores incluyen <span class="codeph"> 0</span> o <span class="codeph"> 1</span> solo. </p><p>Configure como. <span class="codeph"> 0</span> para aplicar a cada componente de color por separado o para <span class="codeph"> 1</span> para aplicarlo únicamente al brillo (intensidad) de la imagen. La máscara de capa o la máscara compuesta también se enfoca </p><p><span class="codeph"><span class="varname"> monocromo</span></span> se ignora en las imágenes en escala de grises. </p></td>
+   <td colname="col3"><p>Los valores incluyen <span class="codeph"> 0</span> o <span class="codeph"> 1</span> solamente. </p><p>Establezca el valor en <span class="codeph"> 0</span> para aplicarlo a cada componente de color por separado o en <span class="codeph"> 1</span> para aplicarlo únicamente al brillo (intensidad) de la imagen. La máscara de capa o la máscara compuesta también se enfoca </p><p><span class="codeph"><span class="varname"> monocromo</span></span> se omite para imágenes en escala de grises. </p></td>
   </tr>
  </tbody>
 </table>
@@ -83,7 +83,7 @@ Especifique un valor para `unsharpMaskOptions` opciones con `minOccurs=" *`n`*".
 
 ## Utilizado por {#section-db8124a5468b498694a780f8a56a4560}
 
-El `unsharpMaskOptions` lo utilizan:
+El tipo `unsharpMaskOptions` lo utiliza:
 
 * [ReprocessAssetsJob](../../types/c-data-types/r-reprocess-assets-job.md#reference-a303f7832ae44fdab1dca7cc8bef3fa3)
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
@@ -92,5 +92,4 @@ El `unsharpMaskOptions` lo utilizan:
 
 >[!MORELIKETHIS]
 >
->* [Referencia de API del servicio de imágenes: op_usm](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html)
-
+>* [Referencia de API de servicio de imágenes: op_usm](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html)

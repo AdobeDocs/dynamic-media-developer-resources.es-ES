@@ -8,7 +8,7 @@ exl-id: 2f834fe8-a621-4a41-9473-8ef53294b348
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '170'
-ht-degree: 12%
+ht-degree: 7%
 
 ---
 
@@ -47,7 +47,7 @@ Cuando se invoca esta operación, el sistema obtiene un tipo companyInfo que con
    <td colname="col4"> <p>Nombre de la compañía que se va a agregar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> expires</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> caduca </span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:dateTime</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
    <td colname="col4"> <p>La fecha de caducidad de la empresa. Proporcione la zona horaria con la solicitud para este campo. Las zonas horarias se ajustan a la Hora central. </p> </td> 
@@ -68,7 +68,7 @@ Cuando se invoca esta operación, el sistema obtiene un tipo companyInfo que con
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> informaciónDeEmpresa</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sí </p> </td> 
    <td colname="col4"> <p>Gestionar y nombre, ruta raíz, fecha de caducidad y hora de la nueva empresa. </p> </td> 
@@ -80,7 +80,7 @@ Cuando se invoca esta operación, el sistema obtiene un tipo companyInfo que con
 
 En este ejemplo se muestra una solicitud para agregar una compañía al sistema IPS y la respuesta que detalla la información acerca de la compañía agregada necesaria para realizar otras operaciones.
 
-**Solicitar**
+**Solicitud**
 
 ```java {.line-numbers}
 <ns1:addCompanyParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

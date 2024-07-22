@@ -8,7 +8,7 @@ exl-id: 06c381f6-5896-4d9b-b6f4-a907b3774d08
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '109'
-ht-degree: 3%
+ht-degree: 1%
 
 ---
 
@@ -40,10 +40,10 @@ ht-degree: 3%
 * [Modos de nomenclatura de capas Photoshop](r-photoshop-layer-naming-modes.md)
 * [Modos de espacio de color PostScript](r-postscript-colorspace-modes.md)
 * [Clases de perfil](r-profile-classes.md)
-* [Estado de publicación](r-publish-state.md)
+* [Estado de Publish](r-publish-state.md)
 * [Tipos de conjuntos de propiedades](r-property-set-types.md)
-* [Contexto de publicación](r-publish-context.md)
-* [Tipos de publicación](r-publish-types.md)
+* [Contexto de Publish](r-publish-context.md)
+* [Tipos de Publish](r-publish-types.md)
 * [Forma de región](r-region-shape.md)
 * [Buscar modos de coincidencia](r-search-match-modes.md)
 * [Ordenar direcciones](r-sort-directions.md)

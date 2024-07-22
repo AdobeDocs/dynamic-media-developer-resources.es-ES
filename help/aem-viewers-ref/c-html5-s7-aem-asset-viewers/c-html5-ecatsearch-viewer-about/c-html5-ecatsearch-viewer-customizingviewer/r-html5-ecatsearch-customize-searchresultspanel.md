@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: ffbbc2ae-60da-4c3d-a350-6dbcb64e189d
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 1%
+source-wordcount: '938'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ El panel Resultados de la búsqueda consta del cuadro de entrada de búsqueda en
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propiedades CSS del área del visor principal**
+**Propiedades CSS del área de visor principal**
 
 Cuando el panel está activo, la interfaz de usuario del visor se cubre con un relleno semitransparente. El color y la opacidad de este relleno se controlan con el siguiente selector de clase CSS:
 
@@ -35,7 +35,7 @@ Cuando el panel está activo, la interfaz de usuario del visor se cubre con un r
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color de fondo </span> </p> </td> 
    <td colname="col2"> <p>Color de la superposición. </p> </td> 
   </tr> 
   <tr> 
@@ -56,7 +56,7 @@ El panel de resultados de búsqueda siempre ocupa toda la altura de visor dispon
 <table id="table_1A0C28D8C81D413C83D73DEAC53057C5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ancho </span> </p> </td> 
    <td colname="col2"> <p> Anchura del espacio de resultados de búsqueda. </p> </td> 
   </tr> 
  </tbody> 
@@ -101,11 +101,11 @@ El campo de entrada de búsqueda está controlado por el siguiente selector de c
 <table id="table_9FB5E89847BF4C889DC22AD7E842C0F7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p>Altura del campo de entrada de búsqueda. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> relleno-izquierdo </span> </p> </td> 
    <td colname="col2"> <p> El relleno interno entre los límites del campo de entrada y el texto de entrada. </p> </td> 
   </tr> 
   <tr> 
@@ -113,11 +113,11 @@ El campo de entrada de búsqueda está controlado por el siguiente selector de c
    <td colname="col2"> <p>Borde del campo de entrada de búsqueda. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margen </span> </p> </td> 
    <td colname="col2"> <p>Margen del campo de entrada de búsqueda </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamaño de fuente </span> </p> </td> 
    <td colname="col2"> <p>Tamaño de la fuente del texto. </p> </td> 
   </tr> 
  </tbody> 
@@ -144,19 +144,19 @@ El botón de búsqueda a la izquierda del campo de entrada de búsqueda en forma
 <table id="table_CDD818B40BB1416CB47B7C52F799DE0C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ancho </span> </p> </td> 
    <td colname="col2"> <p>Ancho del botón de entrada de búsqueda. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p>Altura del botón de entrada de búsqueda. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo </span> </p> </td> 
    <td colname="col2"> <p>La URL de la imagen del icono "espejo". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamaño de fondo </span> </p> </td> 
    <td colname="col2"> <p>El tamaño del icono "espejo". </p> </td> 
   </tr> 
   <tr> 
@@ -164,7 +164,7 @@ El botón de búsqueda a la izquierda del campo de entrada de búsqueda en forma
    <td colname="col2"> <p>Borde del botón de entrada de búsqueda. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margen </span> </p> </td> 
    <td colname="col2"> <p>Margen del botón de entrada de búsqueda. </p> </td> 
   </tr> 
  </tbody> 
@@ -202,11 +202,11 @@ El panel de resultados de búsqueda puede mostrar un mensaje de texto cuando se 
    <td colname="col2"> <p>Nombre de la fuente del texto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> alinear fuentes </span> </p> </td> 
    <td colname="col2"> <p>Alineación de texto horizontal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamaño de fuente </span> </p> </td> 
    <td colname="col2"> <p>Tamaño del texto de la fuente. </p> </td> 
   </tr> 
  </tbody> 
@@ -214,7 +214,7 @@ El panel de resultados de búsqueda puede mostrar un mensaje de texto cuando se 
 
 >[!NOTE]
 >
->Este panel de texto admite `state` selector de atributos, que se puede utilizar para aplicar estilos diferentes a mensajes de texto diferentes. En particular, `state='prompt'` corresponde al mensaje de texto que se muestra cuando se llama al panel por primera vez. El `state='results'` corresponde al texto con información sobre las visitas de búsqueda. Y finalmente, el `state='no_results'` corresponde al texto que se muestra cuando la consulta de búsqueda no devolvió ningún resultado.
+>Este panel de texto es compatible con el selector de atributos `state`, que se puede usar para aplicar estilos diferentes a mensajes de texto diferentes. En particular, `state='prompt'` corresponde al mensaje de texto que se muestra cuando se llama al panel por primera vez. `state='results'` corresponde al texto con información sobre las visitas de búsqueda. Y, por último, `state='no_results'` corresponde al texto mostrado cuando la consulta de búsqueda no devolvió ningún resultado.
 
 El texto del mensaje se puede localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 
@@ -238,8 +238,8 @@ Los resultados de búsqueda se representan como una sola columna o una sola fila
 <table id="table_26974E509F6943BB98CBC1E4BAE62D68"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> El tamaño del margen vertical alrededor de cada miniatura. El espaciado real de las miniaturas es igual a la suma de los márgenes superior e inferior establecidos para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margen </span> </p> </td> 
+   <td colname="col2"> <p> El tamaño del margen vertical alrededor de cada miniatura. El espaciado de miniaturas real es igual a la suma de los márgenes superior e inferior establecidos para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -263,11 +263,11 @@ El aspecto de las miniaturas individuales se controla con el siguiente selector 
 <table id="table_00829E44F75040A4B2AE19ACD550DA1E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ancho </span> </p> </td> 
    <td colname="col2"> <p>Ancho de la miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p>Altura de la miniatura. </p> </td> 
   </tr> 
   <tr> 
@@ -306,7 +306,7 @@ El aspecto de la etiqueta de miniatura se controla con el siguiente selector de 
    <td colname="col2"> <p>Nombre de la fuente del texto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamaño de fuente </span> </p> </td> 
    <td colname="col2"> <p>Tamaño de la fuente del texto. </p> </td> 
   </tr> 
  </tbody> 
@@ -336,19 +336,19 @@ No es posible colocar botones de desplazamiento mediante las propiedades CSS top
 <table id="table_11063C7F428D4707A8138F17650F8F5F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ancho </span> </p> </td> 
    <td colname="col2"> <p>Ancho del botón de desplazamiento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p>Altura del botón de desplazamiento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo </span> </p> </td> 
    <td colname="col2"> <p> Imagen que se muestra para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo </span> </p> </td> 
    <td colname="col2"> <p> Coloque dentro del icono de ilustración si se utilizan iconos CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -356,7 +356,7 @@ No es posible colocar botones de desplazamiento mediante las propiedades CSS top
 
 >[!NOTE]
 >
->Este botón admite el `state` selector de atributos, que se puede utilizar para aplicar diferentes aspectos a `"up"`, `"down"`, `"over"`, y `"disabled"` estados de botón.
+>Este botón es compatible con el selector de atributos `state`, que se puede utilizar para aplicar distintas máscaras a los estados de los botones `"up"`, `"down"`, `"over"` y `"disabled"`.
 
 La información sobre herramientas de los botones se puede localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obtener más información.
 

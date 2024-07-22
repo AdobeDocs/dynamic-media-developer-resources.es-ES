@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 1f11a686-7239-4922-a608-5330864184ac
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 6%
+source-wordcount: '50'
+ht-degree: 2%
 
 ---
 
@@ -40,14 +40,14 @@ Sintaxis
 
 **searchAsset**
 
-* Eliminado `name` parámetro.
-* Agregado `excludeFieldArray`.
+* Se eliminó el parámetro `name`.
+* Se agregó `excludeFieldArray`.
 
 **getFolders**
 
-* Agregado `excludeFieldArray`.
+* Se agregó `excludeFieldArray`.
 
 **getFolderTree**
 
-* Añadido `excludeFieldArray` y `getUniqueMetadataValues`.
-* Creado `fieldHandle` un parámetro requerido.
+* Se agregaron `excludeFieldArray` y `getUniqueMetadataValues`.
+* Se ha hecho de `fieldHandle` un parámetro requerido.

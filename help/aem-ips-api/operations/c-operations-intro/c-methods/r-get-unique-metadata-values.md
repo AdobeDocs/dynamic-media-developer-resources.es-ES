@@ -8,7 +8,7 @@ exl-id: ac5f5667-6c94-425c-bc01-f9df48d16e00
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '57'
-ht-degree: 28%
+ht-degree: 24%
 
 ---
 
@@ -47,7 +47,7 @@ Sintaxis
 
 Este ejemplo de código utiliza un identificador de campo para devolver valores de metadatos específicos.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <ns1:getUniqueMetadataValuesParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

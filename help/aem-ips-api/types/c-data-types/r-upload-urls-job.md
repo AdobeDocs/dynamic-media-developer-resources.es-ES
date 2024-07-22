@@ -8,7 +8,7 @@ exl-id: 28bca473-670f-4588-93fb-a6d6a692ce30
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '440'
-ht-degree: 5%
+ht-degree: 1%
 
 ---
 
@@ -60,8 +60,8 @@ Sintaxis
    <td colname="col3"> Opción de configuración de correo electrónico. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> Opciones de Illustrator</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:Opciones de Illustrator</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> IllustratorOptions</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:IllustratorOptions</span> </td> 
    <td colname="col3"> Opciones para cargar archivos de Illustrator en el servidor de imágenes. </td> 
   </tr> 
   <tr> 
@@ -71,8 +71,8 @@ Sintaxis
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> knockoutBackground</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:OpcionesFondoCobertura</span> </td> 
-   <td colname="col3">Enmascarar el fondo de las imágenes seleccionadas. Esto permite superponerlas en otras capas con una transparencia fuera de la imagen del sujeto. Opcional. Consulte<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a>. </td> 
+   <td colname="col2"> <span class="codeph"> tipos:KnockoutBackgroundOptions</span> </td> 
+   <td colname="col3">Enmascarar el fondo de las imágenes seleccionadas. Esto permite superponerlas en otras capas con una transparencia fuera de la imagen del sujeto. Opcional. Ver <a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </td> 
@@ -81,8 +81,8 @@ Sintaxis
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> mediaOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:OpcionesMedios</span> </td> 
-   <td colname="col3">Opciones que permiten establecer una imagen en miniatura del vídeo. Consulte <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> OpcionesDeMedios</a>. </td> 
+   <td colname="col2"> <span class="codeph"> tipos:MediaOptions</span> </td> 
+   <td colname="col3">Opciones que permiten establecer una imagen en miniatura del vídeo. Consulte <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> opciones de medios</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> numUrls</span> </span> </td> 
@@ -121,7 +121,7 @@ Sintaxis
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> postScriptOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:OpcionesPostScript</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:PostScriptOptions</span> </td> 
    <td colname="col3"> Opciones para cargar archivos Post Script en el servidor de imágenes. </td> 
   </tr> 
   <tr> 
@@ -156,7 +156,7 @@ Sintaxis
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:OpcionesMáscaraDeEnfoque</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:UnsharpMaskOptions</span> </td> 
    <td colname="col3">Opciones que permiten controlar los ajustes de máscara de enfoque al crear un archivo TIF piramidal optimizado. Utilice esta configuración para mejorar la nitidez de la imagen. Consulte <a href="../../types/c-data-types/r-unsharp-mask-options.md#reference-b9a96244d7ee4424bc4ac3c23be3be3d" format="dita" scope="local"> UnsharpMaskOptions</a>. </td> 
   </tr> 
   <tr> 

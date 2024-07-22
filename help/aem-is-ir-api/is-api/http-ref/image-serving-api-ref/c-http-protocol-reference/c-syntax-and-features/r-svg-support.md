@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 60e40195-710f-4f03-b152-52eaa10c5b21
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ El servicio de imágenes admite archivos de gráficos vectoriales escalables (SV
 
 El servicio de imágenes solo reconoce contenido estático del SVG; no se admiten animaciones, scripts ni otro contenido interactivo.
 
-Se puede especificar el SVG siempre que se permitan archivos de imagen (ruta de URL, `src=`, y `mask=`). Una vez rasterizado el contenido del archivo de SVG, se gestiona como una imagen.
+Se puede especificar el SVG siempre que se permitan los archivos de imagen (ruta de acceso de la dirección URL, `src=` y `mask=`). Una vez rasterizado el contenido del archivo de SVG, se gestiona como una imagen.
 
 De forma similar a las imágenes, los archivos de SVG se pueden especificar como entradas de catálogo de imágenes o como rutas de archivo relativas.
 
 ## Variables de sustitución {#section-83b149f13f244193901df39b204c975b}
 
-` $ *[!DNL var]*$` las variables de sustitución pueden incluirse en el archivo SVG en las cadenas de valor `<text>` y cualquier atributo de elemento.
+` $ *[!DNL var]*$` variables de sustitución pueden incluirse en el archivo SVG en los elementos de cadenas de valor `<text>` y en cualquier atributo de elemento.
 
 Las variables importantes en la parte de consulta de las solicitudes del servicio de imágenes incrustadas no se sustituyen directamente. En su lugar, todas las definiciones de variables disponibles se anexan a la solicitud, lo que permite al servicio de imágenes sustituir variables al analizar la solicitud.
 
@@ -32,9 +32,9 @@ Consulte [Variables de sustitución](../../../../../is-api/http-ref/image-servin
 
 ## Referencias de imagen {#section-a7680f9e6aca4b1a83560637cc9fac66}
 
-Las imágenes pueden insertarse en el SVG utilizando `<image>` Elemento. Imágenes a las que hace referencia el `xlink::href` atributo del `<image>` el elemento debe ser una solicitud de servicio de imágenes válida. No se permiten direcciones URL externas.
+Las imágenes se pueden insertar en el SVG utilizando el elemento `<image>`. Las imágenes a las que hace referencia el atributo `xlink::href` del elemento `<image>` deben ser solicitudes de servicio de imágenes válidas. No se permiten direcciones URL externas.
 
-Especifique una solicitud de servicio de imágenes completa, empezando por `http://`o una dirección url relativa, empezando por `/is/image`. Si se especifica una ruta HTTP completa, el nombre de dominio se elimina de la ruta para convertirlo al formato relativo. El uso de una ruta HTTP completa puede ser beneficioso, ya que permite previsualizar el archivo con un procesador de SVG de terceros.
+Especifique una solicitud de servicio de imágenes completa, que comience por `http://`, o una dirección URL relativa, que comience por `/is/image`. Si se especifica una ruta HTTP completa, el nombre de dominio se elimina de la ruta para convertirlo al formato relativo. El uso de una ruta HTTP completa puede ser beneficioso, ya que permite previsualizar el archivo con un procesador de SVG de terceros.
 
 >[!NOTE]
 >
@@ -42,11 +42,11 @@ Especifique una solicitud de servicio de imágenes completa, empezando por `http
 
 >[!NOTE]
 >
->Las imágenes incrustadas en SVG no cambian de tamaño automáticamente en este momento. Asegúrese de que todas las href de imagen incluyan los comandos necesarios del servicio de imágenes para establecer el tamaño de imagen deseado (por ejemplo, `wid=`). Si el tamaño de la imagen no se establece explícitamente, `attribute::DefaultPix` se aplica.
+>Las imágenes incrustadas en SVG no cambian de tamaño automáticamente en este momento. Asegúrese de que todas las hrefs de imagen incluyan los comandos necesarios del servicio de imágenes para establecer el tamaño de imagen deseado (por ejemplo, `wid=`). Si el tamaño de la imagen no se establece explícitamente, se aplica `attribute::DefaultPix`.
 
 ## Gestión de color {#section-ea76e2bc4e1842638aa97a2d470c8a68}
 
-Todos los valores de color incrustados en archivos de SVG y pasados a plantillas de SVG mediante variables de sustitución se suponen que existen en `sRgb` espacio de color.
+Se supone que todos los valores de color incrustados en archivos de SVG y pasados a plantillas de SVG mediante variables de sustitución existen en el espacio de color `sRgb`.
 
 No se realiza ninguna conversión de color cuando las imágenes están incrustadas en el SVG. Para garantizar la fidelidad del color, asegúrese de especificar `icc=sRgb` para todas las solicitudes de imagen incrustadas.
 
@@ -70,8 +70,8 @@ Solo se procesa el contenido estático. Animación, funciones interactivas, como
 
 Las especificaciones de color basadas en perfiles ICC no son compatibles en este momento.
 
-`<script>` Los elementos de pueden estar presentes, pero siempre se ignoran.
+`<script>` elementos pueden estar presentes, pero siempre se omiten.
 
 ## Véase también {#section-901dd1775fd24154a766dcfbe5032b67}
 
-[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) , [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [Especificación de SVG 1.1](https://www.w3.org/TR/SVG11/)
+[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) , [máscara=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [especificación del SVG 1.1](https://www.w3.org/TR/SVG11/)

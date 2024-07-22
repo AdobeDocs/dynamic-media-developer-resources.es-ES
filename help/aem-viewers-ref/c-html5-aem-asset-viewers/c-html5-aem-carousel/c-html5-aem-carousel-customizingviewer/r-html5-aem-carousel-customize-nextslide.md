@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: c64889bb-bcbe-49c6-a0be-b4013ead7b90
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 3%
+source-wordcount: '235'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ Al seleccionar el botón de diapositiva Siguiente, el usuario pasa a la siguient
 
 Este botón no se muestra en dispositivos táctiles. Puede cambiar el tamaño, la apariencia y la posición de este botón mediante CSS.
 
-**Propiedades CSS del área del visor principal**
+**Propiedades CSS del área de visor principal**
 
 El aspecto del botón se controla con el siguiente selector de clase CSS:
 
@@ -35,36 +35,36 @@ El aspecto del botón se controla con el siguiente selector de clase CSS:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> parte superior </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> </span> principales </p> </td> 
    <td colname="col2"> <p>Posición desde la parte superior del borde del visor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> derecha </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> derecho </span> </p> </td> 
    <td colname="col2"> <p>Posición desde la derecha del borde del visor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> izquierda </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> dejó </span> </p> </td> 
    <td colname="col2"> <p>Posición desde la izquierda del visor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> parte inferior </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> inferior </span> </p> </td> 
    <td colname="col2"> <p>Posición desde la parte inferior del borde del visor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ancho </span> </p> </td> 
    <td colname="col2"> <p>Ancho del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p>Altura del botón. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo </span> </p> </td> 
    <td colname="col2"> <p>Imagen que se muestra para un estado de botón determinado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Coloque dentro del icono de ilustración si se utilizan iconos CSS. </p> <p>Consulte también <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo </span> </p> </td> 
+   <td colname="col2"> <p> Coloque dentro del icono de ilustración si se utilizan iconos CSS. </p> <p>Consulte también <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> sprites CSS </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> cursor </span> </p> </td> 
@@ -75,9 +75,9 @@ El aspecto del botón se controla con el siguiente selector de clase CSS:
 
 >[!NOTE]
 >
->Este botón admite el `state` selector de atributos, que se puede utilizar para aplicar distintos aspectos a distintos estados de botón.
+>Este botón es compatible con el selector de atributos `state`, que se puede utilizar para aplicar diferentes aspectos a diferentes estados de botones.
 
-La información del objeto del botón se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) para obtener más información.
+La información del objeto del botón se puede localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) para obtener más información.
 
 Por ejemplo, supongamos que desea configurar un botón de diapositiva anterior de 60 x 60 píxeles. Desea que el botón se coloque a diez píxeles del borde derecho del visor y centrado verticalmente. Y desea que muestre una imagen diferente para cada uno de los cuatro estados de botón diferentes.
 

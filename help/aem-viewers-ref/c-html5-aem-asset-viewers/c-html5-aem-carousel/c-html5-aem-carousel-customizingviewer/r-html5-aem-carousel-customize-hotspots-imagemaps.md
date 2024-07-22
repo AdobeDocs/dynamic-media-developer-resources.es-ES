@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 70517201-9d59-4d9c-986d-a6e9655b7956
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 2%
+source-wordcount: '230'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ El visor muestra los iconos de puntos interactivos en la vista principal en luga
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propiedades CSS del área del visor principal**
+**Propiedades CSS del área de visor principal**
 
 El aspecto del icono del punto interactivo se controla con el siguiente selector de clase CSS:
 
@@ -35,19 +35,19 @@ El aspecto del icono del punto interactivo se controla con el siguiente selector
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo </span> </p> </td> 
    <td colname="col2"> <p>Icono de punto interactivo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p>Coloque dentro del icono de ilustración si se utilizan iconos CSS. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo </span> </p> </td> 
+   <td colname="col2"> <p>Coloque dentro del icono de ilustración si se utilizan iconos CSS. </p> <p>Ver <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> sprites CSS </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ancho </span> </p> </td> 
    <td colname="col2"> <p>Anchura del icono del punto interactivo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p>Altura del icono de punto interactivo. </p> </td> 
   </tr> 
  </tbody> 
@@ -84,15 +84,15 @@ El aspecto del área del mapa de imagen se controla con el siguiente selector de
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> fondo </span> </p> </td> 
-   <td colname="col2"> <p>Color de relleno de región de mapa de imagen. </p> <p>Especificar este color en <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span>, o <span class="codeph"> RGBA(R,G,B,A) </span> formatos. </p> </td> 
+   <td colname="col2"> <p>Color de relleno de región de mapa de imagen. </p> <p>Especifique este color en <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> o <span class="codeph"> formatos RGBA(R,G,B,A) </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>Color de relleno de región de mapa de imagen. </p> <p>Especificar este color en <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span>, o <span class="codeph"> RGBA(R,G,B,A) </span> formatos. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color de fondo </span> </p> </td> 
+   <td colname="col2"> <p>Color de relleno de región de mapa de imagen. </p> <p>Especifique este color en <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> o <span class="codeph"> formatos RGBA(R,G,B,A) </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> borde </span> </p> </td> 
-   <td colname="col2"> <p> Estilo de borde de región de mapa de imagen. Debe especificarse como " <span class="codeph"> anchura </span> <span class="codeph"> color sólido </span>", donde <span class="codeph"> anchura </span> se expresa en píxeles, y <span class="codeph"> color </span> se ha establecido como <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span>, o <span class="codeph"> RGBA(R,G,B,A) </span>. </p> </td> 
+   <td colname="col2"> <p> Estilo de borde de región de mapa de imagen. Debe especificarse como " <span class="codeph"> anchura </span> <span class="codeph"> color sólido </span>", donde <span class="codeph"> anchura </span> se expresa en píxeles, y <span class="codeph"> color </span> se establece como <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span>, o <span class="codeph"> RGBA(R,G,B,A) </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

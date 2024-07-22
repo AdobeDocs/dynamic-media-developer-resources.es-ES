@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: f30a9653-7aed-4233-8361-18ca6561d420
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 3%
+source-wordcount: '135'
+ht-degree: 0%
 
 ---
 
@@ -66,7 +66,7 @@ Estos comandos se aplican a las capas de imagen, texto y color sólido. También
   <td class="stentry"> <p>Voltea la capa horizontal o verticalmente. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096" type="reference" format="dita" scope="local"> rotate</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096" type="reference" format="dita" scope="local"> rotar</a> </p></td> 
   <td class="stentry"> <p>Gira la capa. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -74,7 +74,7 @@ Estos comandos se aplican a las capas de imagen, texto y color sólido. También
   <td class="stentry"> <p>Transforme la capa en perspectiva. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d" type="reference" format="dita" scope="local"> clipPath</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d" type="reference" format="dita" scope="local"> rutaDeAccesoDeClip</a> </p></td> 
   <td class="stentry"> <p>Especifica las formas de clip para la capa. </p></td> 
  </tr> 
  <tr class="strow"> 

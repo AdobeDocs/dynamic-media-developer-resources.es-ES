@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 38241e96-ee7f-4dc1-a2a6-4a76e25b00dc
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 4%
+source-wordcount: '256'
+ht-degree: 0%
 
 ---
 
@@ -29,27 +29,27 @@ El indicador de página de apariencia se controla con el siguiente selector de c
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> parte superior </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> </span> principales </p> </td> 
    <td colname="col2"> <p>Posición desde el borde superior de la barra de control principal (en sistemas de escritorio y tabletas) o la barra de control secundaria (en teléfonos móviles), incluido el relleno. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> derecha </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> derecho </span> </p> </td> 
    <td colname="col2"> <p>Posición desde el borde derecho de la barra de control principal (en sistemas de escritorio y tabletas) o la barra de control secundaria (en teléfonos móviles), incluido el relleno. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> izquierda </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> dejó </span> </p> </td> 
    <td colname="col2"> <p>Posición desde el borde izquierdo de la barra de control principal (en sistemas de escritorio y tabletas) o la barra de control secundaria (en teléfonos móviles), incluido el relleno. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> parte inferior </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> inferior </span> </p> </td> 
    <td colname="col2"> <p>Posición desde el borde inferior de la barra de control principal (en sistemas de escritorio y tabletas) o la barra de control secundaria (en teléfonos móviles), incluido el relleno. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ancho </span> </p> </td> 
    <td colname="col2"> <p>Anchura del indicador de página. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p>Altura del indicador de página. </p> </td> 
   </tr> 
   <tr> 
@@ -61,7 +61,7 @@ El indicador de página de apariencia se controla con el siguiente selector de c
    <td colname="col2"> <p>Nombre de la fuente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamaño de fuente </span> </p> </td> 
    <td colname="col2"> <p>Tamaño de fuente. </p> </td> 
   </tr> 
  </tbody> 

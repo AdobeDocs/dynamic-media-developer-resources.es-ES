@@ -8,7 +8,7 @@ exl-id: 91e40549-9b26-41f2-a3ab-7e9bec8f9ba7
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '253'
-ht-degree: 16%
+ht-degree: 8%
 
 ---
 
@@ -64,7 +64,7 @@ Sintaxis
    <td colname="col4"> El identificador del mapa de imagen. Crea un mapa de imagen si es NULL. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> nombre </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Sí </td> 
    <td colname="col4"> Nombre del mapa de imagen que se crea o guarda. </td> 
@@ -85,16 +85,16 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> acción </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> <p>El <span class="codeph"> href </span> valor asociado al mapa de imagen según se especifica en la interfaz IPS. </p> <p>Para obtener la <span class="codeph"> href </span> , haga clic en la imagen en la interfaz IPS, copie y pegue la dirección URL en este elemento y, a continuación, aplique formato a la dirección URL IPS como dirección URL correcta. Por ejemplo, <span class="codeph"> &amp; </span> pasa a <span class="codeph"> &amp;amp; </span>. </p> </td> 
+   <td colname="col4"> <p>El valor <span class="codeph"> href </span> asociado con el mapa de imagen según se ha especificado en la interfaz IPS. </p> <p>Para obtener el valor <span class="codeph"> href </span>, haga clic en la imagen en la interfaz IPS, copie y pegue la dirección URL en este elemento y, a continuación, dé formato a la dirección URL de IPS como una dirección URL adecuada. Por ejemplo, <span class="codeph"> y </span> se convierte en <span class="codeph"> &amp;amp; </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> position </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> posición </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int </span> </td> 
    <td colname="col3"> Sí </td> 
    <td colname="col4"> El orden en la lista de mapas de imagen (el eje Z). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> activado </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> habilitado </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean </span> </td> 
    <td colname="col3"> Sí </td> 
    <td colname="col4"></td> 
@@ -112,7 +112,7 @@ Sintaxis
 
 Este ejemplo de código crea un nuevo mapa de imagen para un recurso. Utiliza un tipo de forma determinado por una constante de cadena de forma de región y devuelve un controlador al nuevo mapa de imagen.
 
-**Solicitar**
+**Solicitud**
 
 ```
 <saveImageMapParam xmlns="http://www.scene7.com/IpsApi/xsd"> 

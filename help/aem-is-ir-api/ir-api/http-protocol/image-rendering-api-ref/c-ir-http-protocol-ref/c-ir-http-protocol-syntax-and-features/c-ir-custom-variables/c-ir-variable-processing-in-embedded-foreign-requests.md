@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Procesamiento de variables en solicitudes externas incrustadas{#variable-processing-in-embedded-foreign-requests}
 
-Cualquiera `$var$` las referencias que se producen en cualquier lugar dentro de las llaves de una solicitud externa incrustada se sustituyen por valores de definición de variable coincidentes.
+Cualquier referencia `$var$` que aparezca en cualquier lugar dentro de las llaves de una solicitud externa incrustada se sustituirá con valores de definición de variable coincidentes.
 
 Permite colocar solicitudes externas incrustadas en una plantilla de un catálogo de imágenes.
 

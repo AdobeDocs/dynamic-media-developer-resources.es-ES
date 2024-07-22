@@ -8,7 +8,7 @@ exl-id: 4d01e2e7-9b68-4dfa-9fe8-08a22cb4bfd5
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '95'
-ht-degree: 15%
+ht-degree: 13%
 
 ---
 
@@ -47,7 +47,7 @@ Sintaxis
 
 Este ejemplo de código devuelve recursos de metadatos para el tipo y la compañía especificados. La respuesta contiene una matriz de campos de metadatos en una matriz de campos. No todos los recursos tienen los mismos metadatos. El usuario de IPS define el campo de metadatos del recurso.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <ns1:getMetadataFieldsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

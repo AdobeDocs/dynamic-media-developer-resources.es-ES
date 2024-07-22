@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 08cecb09-100f-4671-b335-d59c88b0e1ef
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '158'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ Tamaño JPEG en Kilobytes. Especifica el tamaño máximo de la respuesta del JPE
 
 <table id="simpletable_EC2A8D8B65854B45B9CB184DA1069355"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> talla</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> tamaño</span></span> </p> </td> 
   <td class="stentry"> <p>Tamaño en kilobytes. </p></td> 
  </tr> 
 </table>
@@ -47,4 +47,4 @@ El tamaño de la garantía no es demasiado grande para entregarlo a un dispositi
 
 ## Véase también {#section-98d472b39d6547969fce6dd86748c153}
 
-[fmt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a) , [attribute::JpegQuality](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-jpegquality.md#reference-4a879e7c46024c8a898a9fd226f9eb09)
+[fmt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a) , [atributo::JpegQuality](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-jpegquality.md#reference-4a879e7c46024c8a898a9fd226f9eb09)

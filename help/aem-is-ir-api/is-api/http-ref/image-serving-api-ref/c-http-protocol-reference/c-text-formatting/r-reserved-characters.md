@@ -16,10 +16,10 @@ ht-degree: 0%
 
 Esta sección enumera los caracteres reservados para fines específicos.
 
-RTF utiliza llaves &#39; `{`&#39; y &#39; `}`&#39; como delimitadores de grupo. Deben producirse por pares y pueden estar anidados. Para mostrar llaves en cadenas de texto, utilice &#39; `\{`&#39; y &#39; `\}`&#39;, respectivamente.
+RTF utiliza llaves &#39; `{`&#39; y &#39; `}`&#39; como delimitadores de grupo. Deben producirse por pares y pueden estar anidados. Para mostrar llaves en cadenas de texto, use &#39; `\{`&#39; y &#39; `\}`&#39;, respectivamente.
 
 >[!NOTE]
 >
 >Debe codificar mediante URL todas las llaves utilizadas en RTF.
 
-Las barras invertidas &#39;\&#39; se utilizan para introducir comandos RTF y palabras clave. Para mostrar una barra invertida, utilice `'\\'`.
+Las barras invertidas &#39;\&#39; se utilizan para introducir comandos RTF y palabras clave. Para mostrar una barra invertida, use `'\\'`.

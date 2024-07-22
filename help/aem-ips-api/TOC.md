@@ -5,8 +5,8 @@ feature-set: Experience Manager Assets
 user-guide-description: La API del servicio web IPS (Image Production System) permite a las aplicaciones externas y a los desarrolladores terceros acceder mediante programación a los recursos y las funciones de IPS.
 source-git-commit: 72f9cd1b1de82cbeeb8d41fb0f1cf0b51744a8a3
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 2%
+source-wordcount: '661'
+ht-degree: 3%
 
 ---
 
@@ -425,10 +425,10 @@ ht-degree: 2%
    + [Modos de nomenclatura de capas Photoshop](string-constants/c-string-constants/r-photoshop-layer-naming-modes.md)
    + [Modos de espacio de color PostScript](string-constants/c-string-constants/r-postscript-colorspace-modes.md)
    + [Clases de perfil](string-constants/c-string-constants/r-profile-classes.md)
-   + [Estado de publicación](string-constants/c-string-constants/r-publish-state.md)
+   + [Estado de Publish](string-constants/c-string-constants/r-publish-state.md)
    + [Tipos de conjuntos de propiedades](string-constants/c-string-constants/r-property-set-types.md)
-   + [Contexto de publicación](string-constants/c-string-constants/r-publish-context.md)
-   + [Tipos de publicación](string-constants/c-string-constants/r-publish-types.md)
+   + [Contexto de Publish](string-constants/c-string-constants/r-publish-context.md)
+   + [Tipos de Publish](string-constants/c-string-constants/r-publish-types.md)
    + [Forma de región](string-constants/c-string-constants/r-region-shape.md)
    + [Buscar modos de coincidencia](string-constants/c-string-constants/r-search-match-modes.md)
    + [Ordenar direcciones](string-constants/c-string-constants/r-sort-directions.md)
@@ -438,7 +438,7 @@ ht-degree: 2%
    + [Funciones del usuario](string-constants/c-string-constants/r-user-roles.md)
    + [Campos de ordenación de usuario](string-constants/c-string-constants/r-user-sort-fields.md)
    + [Tipo de visor](string-constants/c-string-constants/r-viewer-type.md)
-+ Fallos {#faults}
++ Errores {#faults}
    + [Resumen de errores](faults/c-faults/c-faults.md)
    + [authenticationFault](faults/c-faults/r-authentication-fault.md)
    + [authorizationFault](faults/c-faults/r-authorization-fault.md)

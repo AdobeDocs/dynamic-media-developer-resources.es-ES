@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 71fe3343-2560-4d74-8ec3-1229d83a62e1
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 8%
+source-wordcount: '240'
+ht-degree: 7%
 
 ---
 
@@ -62,7 +62,7 @@ Sintaxis
 
 Este ejemplo de código devuelve una matriz que contiene todas las carpetas de una compañía junto con información específica sobre cada carpeta.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <ns1:getFoldersParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

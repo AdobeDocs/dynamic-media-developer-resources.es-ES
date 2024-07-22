@@ -18,4 +18,4 @@ Los datos de imagen intermedios producidos por las solicitudes de servicio de im
 
 Las imágenes obtenidas de servidores HTTP externos también se almacenan en la caché de datos de respuesta. Estas imágenes se validan automáticamente con la utilidad validate antes de generar la entrada de caché.
 
-El [!DNL Platform Server] recopila datos del catálogo de imágenes para obtener un acceso eficaz. Estos datos se almacenan en `CS::CatalogCacheFolder`.
+[!DNL Platform Server] compila los datos del catálogo de imágenes para obtener un acceso eficiente. Estos datos se almacenan en `CS::CatalogCacheFolder`.

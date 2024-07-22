@@ -1,5 +1,5 @@
 ---
-title: wid
+title: enredar
 description: Ver anchura. Especifica la anchura de la imagen de respuesta (ver imagen) cuando fit= no está presente en la solicitud.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
@@ -7,12 +7,12 @@ role: Developer,User
 exl-id: ba22c79b-da59-4993-aa1c-2c990a0c4be5
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 2%
+source-wordcount: '273'
+ht-degree: 1%
 
 ---
 
-# wid{#wid}
+# enredar{#wid}
 
 Ver anchura. Especifica la anchura de la imagen de respuesta (ver imagen) cuando fit= no está presente en la solicitud.
 
@@ -25,9 +25,9 @@ Ver anchura. Especifica la anchura de la imagen de respuesta (ver imagen) cuando
  </tr> 
 </table>
 
-Si ambos `hei=` y `scl=` se especifican, la imagen compuesta se puede recortar según el `align=` atributo. Cuándo `fit=` está presente, `wid=` especifica el ancho de imagen de respuesta exacto, mínimo o máximo; consulte la descripción de `fit=` para obtener más información.
+Si se especifican `hei=` y `scl=`, la imagen compuesta se puede recortar según el atributo `align=`. Cuando `fit=` está presente, `wid=` especifica el ancho de imagen de respuesta exacto, mínimo o máximo; consulte la descripción de `fit=` para obtener detalles.
 
-If `scl=` no se ha especificado, la imagen compuesta se escala para ajustarse. Si ambos `wid=` y `hei=` se especifican, y `scl=` no se especifica, la imagen se escala para ajustarse por completo al rectángulo wid/hei, dejando el menor área de fondo expuesta como sea posible. En este caso, la imagen se coloca dentro del rectángulo de vista según la variable `align=` atributo.
+Si no se especifica `scl=`, la imagen compuesta se ajustará para ajustarse. Si se especifican `wid=` y `hei=`, y no se especifica `scl=`, la imagen se ajustará para ajustarse por completo al rectángulo de anchura/altura, dejando tan poca área de fondo expuesta como sea posible. En este caso, la imagen se coloca dentro del rectángulo de vista según el atributo `align=`.
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ If `scl=` no se ha especificado, la imagen compuesta se escala para ajustarse. S
 
 ## Predeterminado {#section-976d4c8554a34c899f85d172f6ac6f58}
 
-Si ninguno `wid=`, `hei=`, ni `scl=` , la imagen de respuesta tendrá el tamaño de la imagen compuesta o `attribute::DefaultPix`, el que sea más pequeño.
+Si no se especifican `wid=`, `hei=` ni `scl=`, la imagen de respuesta tendrá el tamaño de la imagen compuesta o `attribute::DefaultPix`, el que sea menor.
 
 ## Propiedades {#section-c93b7ce1b0d2475f80b06264b45d1285}
 
@@ -43,13 +43,13 @@ Ver atributo. Se aplica independientemente de la configuración de capa actual.
 
 ## Ejemplo {#section-82bc98b7c15a451bbe9b915d414c0470}
 
-Solicite una imagen para que quepa en un rectángulo de 200 x 200; alinee la imagen en la parte superior derecha si no es cuadrada. Cualquier área del fondo está llena de `attribute::BkgColor`.
+Solicite una imagen para que quepa en un rectángulo de 200 x 200; alinee la imagen en la parte superior derecha si no es cuadrada. Cualquier área del fondo está llena con `attribute::BkgColor`.
 
-` http:// *`Servidores`*/myRootId/myImageId?wid=200&hei=200&align=1,-1`
+` http:// *`Servidor`*/myRootId/myImageId?wid=200&hei=200&align=1,-1`
 
-La misma imagen, entregada a una anchura fija de 200 píxeles, pero con una altura variable para mantener la proporción de aspecto de la imagen. En este caso, la imagen devuelta nunca tendrá áreas de relleno de fondo. En este caso, `align=` no tendría ningún efecto en absoluto.
+La misma imagen, entregada a una anchura fija de 200 píxeles, pero con una altura variable para mantener la proporción de aspecto de la imagen. En este caso, la imagen devuelta nunca tendrá áreas de relleno de fondo. En este caso, `align=` no tendría ningún efecto.
 
-` http:// *`Servidores`*/myRootId/myImageId?wid=200`
+` http:// *`Servidor`*/myRootId/myImageId?wid=200`
 
 ## Véase también {#section-4e9659238d6545498378ca8b1f3ec4ae}
 

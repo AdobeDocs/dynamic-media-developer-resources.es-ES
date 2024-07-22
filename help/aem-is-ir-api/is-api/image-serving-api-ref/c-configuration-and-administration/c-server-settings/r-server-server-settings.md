@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: 10970ca8-b209-4adf-b027-6eb8d7a15db6
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
@@ -26,19 +26,19 @@ Linux dispone de una versión de 32 y 64 bits del servidor de imágenes. Especif
 
 >[!NOTE]
 >
->Windows no admite el modo de 64 bits. Solo `ImageServer32` se puede especificar. De lo contrario, el servicio de imágenes no se inicia.
+>Windows no admite el modo de 64 bits. Solo se puede especificar `ImageServer32`. De lo contrario, el servicio de imágenes no se inicia.
 
-## SV::PsHeapSize - [!DNL Platform Server] Tamaño de pila {#section-fd83715948764aeda58d6b3a9f9f8be9}
+## SV::PsHeapSize - [!DNL Platform Server] tamaño de pila {#section-fd83715948764aeda58d6b3a9f9f8be9}
 
-El tamaño de la pila Java para [!DNL Platform Server]. El valor predeterminado es &quot; `512m`&quot; (512 Mbytes).
+Tamaño de la pila Java para [!DNL Platform Server]. El valor predeterminado es &quot; `512m`&quot; (512 Mbytes).
 
 ## IS::TcpPort, PS::isConnection.port: Puerto de escucha del servidor de imágenes {#section-5421bfd2ca2a4a979faf812b6fdb2887}
 
-Especifica el puerto utilizado para la comunicación entre los [!DNL Platform Server] y el servidor de imágenes. Asegúrese de especificar un número de puerto que no se utilice en caso contrario en el sistema host.
+Especifica el puerto utilizado para la comunicación entre [!DNL Platform Server] y el servidor de imágenes. Asegúrese de especificar un número de puerto que no se utilice en caso contrario en el sistema host.
 
 >[!NOTE]
 >
->Para que el servicio de imágenes funcione correctamente, se debe configurar el mismo valor para `IS::TcpPort` y `PS::isConnection.port`.
+>Para que el servicio de imágenes funcione correctamente, se debe establecer el mismo valor para `IS::TcpPort` y `PS::isConnection.port`.
 
 ## IS::PhysicalMemory: límite de memoria del servidor de imágenes {#section-85e37aa2ac6e456eb698da716dd3247d}
 

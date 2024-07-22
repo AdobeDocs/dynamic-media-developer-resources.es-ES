@@ -8,7 +8,7 @@ exl-id: 28758709-26ae-4261-b11e-34e37b9d1b8c
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '207'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 Ruta del archivo de imagen. Ruta relativa y nombre de un archivo de imagen de textura o calcomanía.
 
-El servidor combina este valor con `attribute::RootPath` para crear la ruta real del archivo de imagen. También puede ser una ruta absoluta.
+El servidor combina este valor con `attribute::RootPath` para generar la ruta real del archivo de imagen. También puede ser una ruta absoluta.
 
 Se utiliza para especificar el archivo de imagen de textura para los materiales de revestimiento de textura, gabinete y ventana, y el archivo de imagen RGB o RGBA para los materiales de borde de pared y calcomanía. No todos los materiales de revestimiento de vitrinas y vitrinas requieren una imagen de textura repetible por separado.
 
@@ -38,4 +38,4 @@ Ninguno.
 
 ## Véase también {#section-1bf37fab8e5f4c42a03b785abafc53bd}
 
-[Utilidad IC](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md) , [attribute::RootPath](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md), [src=](/help/aem-is-ir-api/ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md)
+[Utilidad IC](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md) , [atributo::RootPath](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md), [src=](/help/aem-is-ir-api/ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md)

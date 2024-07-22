@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 16c9c70a-352d-4a21-bb14-2f9e266a83e8
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '71'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ Atributo de configuración para el visualizador de vídeo interactivo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica el comportamiento de carga previa del componente. </p> <p>Cuando se establece en <span class="codeph"> -1</span> todas las muestras se cargan simultáneamente cuando se inicializa el componente o se cambia el recurso. </p> <p>Cuando se establece en <span class="codeph"> 0</span> solo se cargan las muestras visibles. </p> <p>Configure como. <span class="codeph"><span class="varname"> preloadnbr</span></span> para definir el número de filas/columnas invisibles que se cargan previamente alrededor del área visible. </p> </td> 
+   <td colname="col2"> <p> Especifica el comportamiento de carga previa del componente. </p> <p>Cuando se establece en <span class="codeph"> -1</span>, todas las muestras se cargan simultáneamente cuando se inicializa el componente o se cambia el recurso. </p> <p>Cuando se establece en <span class="codeph"> 0</span>, solo se cargan las muestras visibles. </p> <p>Se establece en <span class="codeph"><span class="varname"> preloadnbr</span></span> para definir el número de filas/columnas invisibles que se cargarán previamente alrededor del área visible. </p> </td> 
   </tr> 
  </tbody> 
 </table>

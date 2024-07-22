@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 959cb193-d0b7-4aa9-a747-fa17484f80c7
 source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 6%
+source-wordcount: '294'
+ht-degree: 4%
 
 ---
 
@@ -18,20 +18,20 @@ En esta sección se describen los comandos del protocolo HTTP.
 
 >[!TIP]
 >
->Pruebe y descubra las ventajas de los modificadores de imagen de Dynamic Media y de las imágenes inteligentes con Dynamic Media [_Instantánea_](https://snapshot.scene7.com/).
+>Pruebe y descubra las ventajas de los modificadores de imagen de Dynamic Media y de las imágenes inteligentes con Dynamic Media [_Snapshot_](https://snapshot.scene7.com/).
 >
 > Snapshot es una herramienta de demostración visual diseñada para ilustrar la potencia de Dynamic Media para la entrega de imágenes optimizadas y dinámicas. Experimente con imágenes de prueba o direcciones URL de Dynamic Media para observar visualmente la salida de varios modificadores de imagen de Dynamic Media y optimizaciones de imágenes inteligentes para lo siguiente:
 >* Tamaño de archivo (con envío WebP y AVIF)
 >* Ancho de banda de red
 >* DPR (proporción de píxeles del dispositivo)
 >
->Para aprender lo fácil que es usar Snapshot, juegue el [Vídeo de formación de instantáneas](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) (3 minutos y 17 segundos).
+>Para aprender lo fácil que es usar Snapshot, reproduzca el [vídeo de entrenamiento Snapshot](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) (3 minutos y 17 segundos).
 
 
-**Solo para Dynamic Media en Adobe Experience Manager** - Más allá de los ajustes de imagen básicos disponibles en la interfaz de usuario, [!DNL Dynamic Media] AEM en la [!DNL Adobe Experience Manager]) admite varias modificaciones avanzadas de imagen que puede especificar en la variable **Modificadores de imagen** field. Estos parámetros se definen a continuación. Sin embargo, tenga en cuenta que la siguiente funcionalidad no es compatible con Dynamic Media AEM en el caso de los usuarios de.
+**Solo para Dynamic Media en Adobe Experience Manager AEM**: más allá de la configuración de imagen básica disponible en la interfaz de usuario, [!DNL Dynamic Media] en ( [!DNL Adobe Experience Manager]) admite numerosas modificaciones de imagen avanzadas que se pueden especificar en el campo **Modificadores de imagen**. Estos parámetros se definen a continuación. Sin embargo, tenga en cuenta que la siguiente funcionalidad no es compatible con Dynamic Media AEM en el caso de los usuarios de.
 
 * Comandos de corrección de color: `icc=` y `iccEmbed=`.
-* Plantillas básicas y comandos de renderización de texto: `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` y `textPs=`.
+* Plantillas básicas y comandos de procesamiento de texto: `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` y `textPs=`.
 * Comandos de localización: `locale=` y `req=xlate`.
 * `req=set` no está disponible para uso general.
 * `req=mbrset`
@@ -42,14 +42,14 @@ En esta sección se describen los comandos del protocolo HTTP.
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-Consulte también Dynamic Media [Opciones de ajustes preestablecidos de imagen](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) AEM en la documentación de 6.5.
+Consulte también las [Opciones de ajustes preestablecidos de imagen](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) de Dynamic Media AEM en la documentación de la versión 6.5 de la documentación de la.
 
 * [alinear](r-align.md)
 * [delimitador](r-anchor.md)
 * [bfc](r-bfc.md)
 * [bgc](r-bgc.md)
 * [bgColor](r-bgcolor.md)
-* [blendMode](r-blendmode.md)
+* [mixedMode](r-blendmode.md)
 * [escondrijo](r-is-http-cache.md)
 * [clipPath](r-clippath.md)
 * [clipXPath](r-clipxpath.md)
@@ -108,7 +108,7 @@ Consulte también Dynamic Media [Opciones de ajustes preestablecidos de imagen](
 * [resMode](r-is-http-resmode.md)
 * [rgn](r-rgn.md)
 * [rotar](r-rotate.md)
-* [scale](r-is-http-scale.md)
+* [desconchar](r-is-http-scale.md)
 * [scl](r-scl.md)
 * [tamaño](r-size-reference.md)
 * [src](r-src.md)
@@ -121,5 +121,5 @@ Consulte también Dynamic Media [Opciones de ajustes preestablecidos de imagen](
 * [textPath](r-textpath.md)
 * [textPs](r-textps.md)
 * [tipo](r-type.md)
-* [wid](r-is-http-wid.md)
+* [enredar](r-is-http-wid.md)
 * [xmpEmbed](r-xmpembed.md)

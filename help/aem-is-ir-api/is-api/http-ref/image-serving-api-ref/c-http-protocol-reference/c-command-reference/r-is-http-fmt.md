@@ -34,7 +34,7 @@ Formato de imagen de respuesta.
 | `jpeg2000` | JPEG 2000 sin pérdidas y sin pérdidas. |
 | `jpegxr-alpha` | JPEG XR sin pérdidas y con canal alfa. |
 | `jpegxr` | JPEG XR con pérdidas y sin pérdidas. |
-| `jpg` | JPG perdedor. |
+| `jpg` | Perdió a su JPG. |
 | `m3u8` | Formato de manifiesto del servidor de flujo Apple. |
 | `pdf` | Imagen incrustada en el PDF. |
 | `pjpeg` | JPEG progresista. |
@@ -44,7 +44,7 @@ Formato de imagen de respuesta.
 | `png8` | PNG sin pérdidas de 8 bits. |
 | `swf-alpha` | JPEG con pérdida y máscara comprimida con desinflado incrustada en un archivo swf AS2 de Adobe. |
 | `swf` | JPEG con pérdida incrustado en un archivo swf AS2 de Adobe. |
-| `swf3-alpha` | JPEG con pérdida y máscara comprimida con desinflado incrustada en un archivo swf AS3 de Adobe. **Nota:** los formatos swf y swf-alpha se utilizan mejor para aplicaciones de ActionScript 2 (Flash Player 8 y anteriores). Los formatos swf3 y swf3-alpha se recomiendan para su uso en aplicaciones ActionScript 3 (Flash Player 9 y posteriores). |
+| `swf3-alpha` | JPEG con pérdida y máscara comprimida con desinflado incrustada en un archivo swf AS3 de Adobe. **Nota:** los formatos swf y swf-alpha se usan mejor para las aplicaciones de ActionScript 2 (Flash Player 8 y anteriores). Los formatos swf3 y swf3-alpha se recomiendan para su uso en aplicaciones ActionScript 3 (Flash Player 9 y posteriores). |
 | `swf3` | JPEG con pérdida incrustado en un archivo swf AS3 de Adobe. |
 | `tif-alpha` | TIFF con canal alfa. |
 | `tif` | TIFF. |
@@ -69,26 +69,26 @@ Formato de imagen de respuesta.
 | `zip` | Compresión &quot;Deflate&quot; (sin pérdidas). |
 
 * *`format`* especifica el formato de codificación de imagen para los datos de imagen enviados al cliente y el tipo MIME de respuesta correspondiente para el encabezado de respuesta HTTP.
-* *`pixelType`* se puede utilizar para realizar la conversión del espacio de color de salida cuando `icc=` no especificado.
+* *`pixelType`* se puede usar para efectuar la conversión del espacio de color de salida cuando `icc=` no se especifica.
 
-  El perfil de color predeterminado correspondiente a *`pixelType`* se aplica. Si la gestión de colores está desactivada, se aplica una conversión naïve. *`pixelType`* se ignora cuando `icc=` se especifica, que determina el tipo de píxel de salida.
+  Se aplica el perfil de color predeterminado correspondiente a *`pixelType`*. Si la gestión de colores está desactivada, se aplica una conversión naïve. *`pixelType`* se omite cuando se especifica `icc=`, lo que determina el tipo de píxel de salida.
 
-* *`compression`* solo se permite si `tif`, `tif-alpha`, `pdf`, `webp`, `webp-alpha`, `jpeg2000`, `jpeg2000-alpha`, `jpegxr`, o `jpegxr-alpha` se especifica como *`format`*. Consulte la tabla siguiente para ver las opciones de compresión admitidas para estos formatos de imagen.
+* *`compression`* solo se permite si `tif`, `tif-alpha`, `pdf`, `webp`, `webp-alpha`, `jpeg2000`, `jpeg2000-alpha`, `jpegxr` o `jpegxr-alpha` se especifica como *`format`*. Consulte la tabla siguiente para ver las opciones de compresión admitidas para estos formatos de imagen.
 
-Puede utilizar `qlt=` para definir las opciones de codificación de JPEG para estos formatos: JPEG, TIFF con compresión de JPEG, PDF con compresión de JPEG y SWF. WebP, JPEG 2000 y JPEG XR también utilizan `qlt=` pero los valores dan como resultado calidades diferentes para los distintos formatos. Uso `quantize=` if `fmt=gif` o `fmt=gif-alpha`. Consulte las descripciones de los comandos para obtener más información. Los demás formatos no tienen opciones configurables.
+Puede usar `qlt=` para establecer las opciones de codificación de JPEG para estos formatos: JPEG, TIFF con compresión de JPEG, PDF con compresión de JPEG y SWF. WebP, JPEG 2000 y JPEG XR también usan `qlt=`, pero los valores dan como resultado calidades diferentes para los distintos formatos. Use `quantize=` si `fmt=gif` o `fmt=gif-alpha`. Consulte las descripciones de los comandos para obtener más información. Los demás formatos no tienen opciones configurables.
 
-Se devuelven 8 bits por componente de píxel para todos los *`formats`* y *`pixelTypes`* (8 bits por píxel para GIF).
+Se devuelven 8 bits por componente de píxel para todos los *`formats`* y *`pixelTypes`* (8 bits por píxel para el GIF).
 
-En la tabla siguiente se enumeran las combinaciones válidas de *`format`*y *`pixelType`*, los tipos MIME de respuesta HTTP correspondientes, si los perfiles ICC se pueden incrustar (consulte [iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e)) y qué opciones específicas de formato puede aplicar.
+En la tabla siguiente se enumeran las combinaciones válidas de *`format`*y *`pixelType`*, los tipos MIME de respuesta HTTP correspondientes, si los perfiles ICC se pueden incrustar (consulte [iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e)) y qué opciones específicas de formato se pueden aplicar.
 
 <table id="table_12F897A34D1D47F3AA492D4F074F09D5"> 
  <thead> 
   <tr> 
    <th class="entry"> <b> <i> formato</i> </b> </th> 
    <th class="entry"> <b> <i> pixelType</i> </b> </th> 
-   <th class="entry"> <b> Tipo MIME de respuesta</b> </th> 
+   <th class="entry"> <b> tipo MIME de respuesta</b> </th> 
    <th class="entry"> <b>Incrustar perfil ICC</b> </th> 
-   <th class="entry"> <b> Opciones</b> </th> 
+   <th class="entry"> <b> opciones</b> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -97,7 +97,7 @@ En la tabla siguiente se enumeran las combinaciones válidas de *`format`*y *`pi
    <td> <p>rgb</p> </td> 
    <td> <p> <span class="codeph"> &lt;image/avif&gt; </span> </p> </td> 
    <td> <p>No </p> </td> 
-   <td> <p> <span class="codeph"> <span class="varname"> compresión </span> </span> ( <span class="codeph"> con pérdidas </span>, <span class="codeph"> sin pérdidas </span>) </p> <p> <span class="codeph"> qlt= </span> se ignora para <span class="codeph"> sin pérdidas </span>. </p> <p>Dado que no existe el concepto de disminución de resolución de crominancia con el formato WebP, si utiliza un segundo valor con <span class="codeph"> qlt </span> (por ejemplo, <span class="codeph"> qlt=80,1 </span>) el segundo valor ( <span class="codeph"> 1 </span>) se ignora. </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> compresión </span> </span> ( <span class="codeph"> con pérdida </span>, <span class="codeph"> sin pérdida </span>) </p> <p> <span class="codeph"> qlt= </span> se omite para <span class="codeph"> sin pérdidas </span>. </p> <p>Dado que no existe ningún concepto de disminución de resolución de crominancia con el formato WebP, si utiliza un segundo valor con <span class="codeph"> qlt </span> (por ejemplo, <span class="codeph"> qlt=80,1 </span>), se omitirá el segundo valor ( <span class="codeph"> 1 </span>). </p> </td> 
   </tr>
   <tr valign="top"> 
    <td colname="col1"> <p> eps </p> </td> 
@@ -111,7 +111,7 @@ En la tabla siguiente se enumeran las combinaciones válidas de *`format`*y *`pi
    <td colname="col2"> <p>rgb, gris </p> <p>Los datos se convierten a la paleta después de la conversión a gris o rgb. </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;image/gif&gt; </span> </p> </td> 
    <td colname="col4"> <p>No </p> </td> 
-   <td colname="col5"> <p> <span class="codeph"> Quantize= </span> </p> </td> 
+   <td colname="col5"> <p> <span class="codeph"> cuantizar= </span> </p> </td> 
   </tr>
   <tr valign="top"> 
    <td colname="col1"> <p> héico </p> </td> 
@@ -125,28 +125,28 @@ En la tabla siguiente se enumeran las combinaciones válidas de *`format`*y *`pi
    <td> <p>rgb, gris </p> </td> 
    <td> <p> <span class="codeph"> &lt;image/jp2&gt; </span> </p> </td> 
    <td> <p>No </p> </td> 
-   <td> <p> <span class="codeph"> <span class="varname"> compresión </span> </span> ( <span class="codeph"> con pérdidas </span>, <span class="codeph"> sin pérdidas </span>) </p> <p> <span class="codeph"> qlt= </span> se ignora para <span class="codeph"> sin pérdidas </span>. </p> <p>Dado que no existe el concepto de disminución de resolución de crominancia con el formato WebP, si utiliza un segundo valor con <span class="codeph"> qlt </span> (por ejemplo, <span class="codeph"> qlt=80,1 </span>) el segundo valor ( <span class="codeph"> 1 </span>) se ignora. </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> compresión </span> </span> ( <span class="codeph"> con pérdida </span>, <span class="codeph"> sin pérdida </span>) </p> <p> <span class="codeph"> qlt= </span> se omite para <span class="codeph"> sin pérdidas </span>. </p> <p>Dado que no existe ningún concepto de disminución de resolución de crominancia con el formato WebP, si utiliza un segundo valor con <span class="codeph"> qlt </span> (por ejemplo, <span class="codeph"> qlt=80,1 </span>), se omitirá el segundo valor ( <span class="codeph"> 1 </span>). </p> </td> 
   </tr>
   <tr valign="top"> 
    <td colname="col1"> <p> JPEG, JPG, JPEG </p> </td> 
    <td colname="col2"> <p>rgb, gris, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;image/jpeg&gt; </span> </p> </td> 
    <td colname="col4"> <p>Sí </p> </td> 
-   <td colname="col5"> <p> <span class="codeph"> pathEmbed= </span>, <span class="codeph"> pscan= </span>, <span class="codeph"> qlt= </span>, <span class="codeph"> xmpEmbed= </span> </p> <p>El <span class="codeph"> pscan= </span> El parámetro solo se aplica al formato pjpeg. </p> </td> 
+   <td colname="col5"> <p> <span class="codeph"> pathEmbed= </span>, <span class="codeph"> pscan= </span>, <span class="codeph"> qlt= </span>, <span class="codeph"> xmpEmbed= </span> </p> <p>El parámetro <span class="codeph"> pscan= </span> solo se aplica al formato pjpeg. </p> </td> 
   </tr>
   <tr valign="top"> 
    <td> <p>jpegxr, jpegxr-alpha </p> </td> 
    <td> <p>rgb </p> </td> 
    <td> <p> <span class="codeph"> &lt;image/vnd.ms-photo&gt; </span> </p> </td> 
    <td> <p>No </p> </td> 
-   <td> <p> <span class="codeph"> <span class="varname"> compresión </span> </span> ( <span class="codeph"> con pérdidas </span>, <span class="codeph"> sin pérdidas </span>) </p> <p> <span class="codeph"> qlt= </span> se ignora para <span class="codeph"> sin pérdidas </span>. </p> <p>Dado que no existe el concepto de disminución de resolución de crominancia con el formato WebP, si utiliza un segundo valor con <span class="codeph"> qlt </span> (por ejemplo, <span class="codeph"> qlt=80,1 </span>) el segundo valor ( <span class="codeph"> 1 </span>) se ignora. </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> compresión </span> </span> ( <span class="codeph"> con pérdida </span>, <span class="codeph"> sin pérdida </span>) </p> <p> <span class="codeph"> qlt= </span> se omite para <span class="codeph"> sin pérdidas </span>. </p> <p>Dado que no existe ningún concepto de disminución de resolución de crominancia con el formato WebP, si utiliza un segundo valor con <span class="codeph"> qlt </span> (por ejemplo, <span class="codeph"> qlt=80,1 </span>), se omitirá el segundo valor ( <span class="codeph"> 1 </span>). </p> </td> 
   </tr>
   <tr valign="top"> 
    <td colname="col1"> <p> pdf </p> </td> 
    <td colname="col2"> <p>rgb, gris, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/pdf&gt; </span> </p> </td> 
    <td colname="col4"> <p>Sí </p> </td> 
-   <td colname="col5"> <span class="codeph"> <span class="varname"> compresión </span> </span> <p> ( <span class="codeph"> none|zip|jpeg </span>), <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> se ignora a menos que <span class="codeph"> <span class="varname"> compresión </span> </span> se establece en <span class="codeph"> jpeg </span>. </p> </td> 
+   <td colname="col5"> <span class="codeph"> <span class="varname"> compresión </span> </span> <p> ( <span class="codeph"> none|zip|jpeg </span>), <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> se omite a menos que la compresión <span class="codeph"> <span class="varname"> </span> </span> se establezca en <span class="codeph"> jpeg </span>. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>png8, png8-alpha </p> </td> 
@@ -167,78 +167,78 @@ En la tabla siguiente se enumeran las combinaciones válidas de *`format`*y *`pi
    <td colname="col2"> <p>rgb, gris </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/x-shockwave-flash&gt; </span> </p> </td> 
    <td colname="col4"> <p>No </p> <p> <p>Nota: El Flash Player de Adobe ignora los perfiles ICC incrustados. </p> </p> </td> 
-   <td colname="col5"> <p> <span class="codeph"> qlt= </span>, <span class="codeph"> attribute::TrustedDomains </span> </p> </td> 
+   <td colname="col5"> <p> <span class="codeph"> qlt= </span>, <span class="codeph"> atributo::TrustedDomains </span> </p> </td> 
   </tr>
   <tr valign="top"> 
    <td colname="col1"> <p> tif, tif-alpha </p> </td> 
    <td colname="col2"> <p>rgb, gris, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;image/tiff&gt; </span> </p> </td> 
    <td colname="col4"> <p>Sí </p> </td> 
-   <td colname="col5"> <span class="codeph"> <span class="varname"> compresión </span> </span> <p> ( <span class="codeph"> none|lzw|zip|jpeg </span>) </p> <p>solo 'tiff'; 'tiff-alpha' no admite la compresión jpeg. </p> <p> <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> se ignora a menos que <span class="varname"> compresión </span> se establece en <span class="codeph"> jpeg </span>. </p> <p>, pathEmbed=, xmpEmbed= </p> </td> 
+   <td colname="col5"> <span class="codeph"> <span class="varname"> compresión </span> </span> <p> ( <span class="codeph"> none|lzw|zip|jpeg </span>) </p> <p>solo 'tiff'; 'tiff-alpha' no admite la compresión jpeg. </p> <p> <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> se omite a menos que la compresión <span class="varname"> </span> se establezca en <span class="codeph"> jpeg </span>. </p> <p>, pathEmbed=, xmpEmbed= </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p>webp, webp-alpha </p> </td> 
    <td> <p>rgb </p> </td> 
    <td> <p> <span class="codeph"> &lt;image/webp&gt; </span> </p> </td> 
    <td> <p>No </p> </td> 
-   <td> <p> <span class="codeph"> <span class="varname"> compresión </span> </span> ( <span class="codeph"> con pérdidas </span>, <span class="codeph"> sin pérdidas </span>) </p> <p> <span class="codeph"> qlt= </span> se ignora para <span class="codeph"> sin pérdidas </span>. </p> <p>Dado que no existe el concepto de disminución de resolución de crominancia con el formato WebP, si utiliza un segundo valor con <span class="codeph"> qlt </span> (por ejemplo, <span class="codeph"> qlt=80,1 </span>) el segundo valor ( <span class="codeph"> 1 </span>) se ignora. </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> compresión </span> </span> ( <span class="codeph"> con pérdida </span>, <span class="codeph"> sin pérdida </span>) </p> <p> <span class="codeph"> qlt= </span> se omite para <span class="codeph"> sin pérdidas </span>. </p> <p>Dado que no existe ningún concepto de disminución de resolución de crominancia con el formato WebP, si utiliza un segundo valor con <span class="codeph"> qlt </span> (por ejemplo, <span class="codeph"> qlt=80,1 </span>), se omitirá el segundo valor ( <span class="codeph"> 1 </span>). </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Propiedades {#section-5f96b0ce7c5a4df1bf52e24ea78c3dae}
 
-Atributo de solicitud. Se aplica independientemente de la configuración de capa actual si `req=img` (predeterminado) o `req=mask`; se ignorará en caso contrario.
+Atributo de solicitud. Se aplica independientemente de la configuración de capa actual si `req=img` (predeterminado) o `req=mask`; se omite en caso contrario.
 
-*`type`* se ignora si `iccProfile=` se ha especificado.
+*`type`* se omite si se especifica `iccProfile=`.
 
 ## Predeterminado {#section-f885a785b32c44fea347db15fdb2ab1f}
 
-` fmt=jpeg, *`defaultType`*,none`, donde la variable *`defaultType`* se gestiona de la siguiente manera: Si `icc=` se ha especificado, *`defaultType`* corresponde al tipo de píxel del perfil ICC especificado. If `icc=` no se ha especificado, *`defaultType`* es `gray` if `req=mask`, de lo contrario `rgb`.
+` fmt=jpeg, *`defaultType`*,none`, donde *`defaultType`* se administra de la siguiente manera: Si se especifica `icc=`, *`defaultType`* corresponde al tipo de píxel del perfil ICC especificado. Si no se especifica `icc=`, *`defaultType`* es `gray` si `req=mask`; en caso contrario, es `rgb`.
 
 ## Ejemplos {#section-b93222e652df404a84c69025247f07df}
 
-**Solicite una imagen de vista previa pequeña y de baja calidad en formato JPEG (predeterminado):**
+**Solicitar una imagen de vista previa pequeña y de baja calidad en formato JPEG (predeterminado):**
 
-` http:// *`server`*/myRootId/myImageId?qlt=60&wid=200`
+` http:// *`servidor`*/myRootId/myImageId?qlt=60&wid=200`
 
 **Solicitar la misma imagen convertida a escala de grises:**
 
-` http:// *`server`*/myRootId/myImageId?fmt=jpeg,gray&qlt=60&wid=200`
+` http:// *`servidor`*/myRootId/myImageId?fmt=jpeg,gray&qlt=60&wid=200`
 
 **Solicite la misma imagen en un formato sin pérdidas con canal alfa y en alta resolución:**
 
-` http:// *`server`*/myRootId/myImageId?fmt=png-alpha&wid=300`
+` http:// *`servidor`*/myRootId/myImageId?fmt=png-alpha&wid=300`
 
 **Solicite el canal alfa para la misma imagen que una imagen de TIFF en escala de grises:**
 
-` http:// *`server`*/myRootId/myImageId?req=mask&fmt=tif,gray&wid=300`
+` http:// *`servidor`*/myRootId/myImageId?req=mask&fmt=tif,gray&wid=300`
 
-**Convierta la misma imagen a cmyk con los perfiles ICC predeterminados:**
+**Convertir la misma imagen a cmyk con los perfiles ICC predeterminados:**
 
-` http:// *`server`*/myRootId/myImageId?fmt=tif,cmyk&wid=300`
+` http:// *`servidor`*/myRootId/myImageId?fmt=tif,cmyk&wid=300`
 
-**Convierta la misma imagen a cmyk con un perfil ICC diferente e incruste el perfil en la imagen del TIFF:**
+**Convierta la misma imagen a cmyk usando un perfil ICC diferente e incruste el perfil en la imagen del TIFF:**
 
-` http:// *`server`*/myRootId/myImageId?fmt=tif&wid=300&icc=myPrinterProfile&iccEmbed=1`
+` http:// *`servidor`*/myRootId/myImageId?fmt=tif&wid=300&icc=myPrinterProfile&iccEmbed=1`
 
-**Distribuya esta imagen como un archivo TIF con compresión JPEG sin conversión de tipo de píxel:**
+**Enviar esta imagen como archivo TIF con compresión JPEG sin conversión de tipo de píxel:**
 
-` http:// *`server`*/myRootId/myImageId?fmt=tif,,jpeg&qlt=95&wid=300`
+` http:// *`servidor`*/myRootId/myImageId?fmt=tif,,jpeg&qlt=95&wid=300`
 
-**Convierta la imagen en un GIF bi-tonal con transparencia de key-color y fuerza los colores a blanco y negro:**
+**Convierta la imagen en un GIF bi-tonal con transparencia de clave de color y fuerza de los colores a blanco y negro:**
 
-` http:// *`server`*/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`
+` http:// *`servidor`*/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`
 
-**Perezoso con un ajuste de calidad de 80:**
+**Perdedor con una configuración de calidad de 80:**
 
-` http:// *`server`*/myRootId/myImageId?wid=300&fmt=webp&qlt=80`
+` http:// *`servidor`*/myRootId/myImageId?wid=300&fmt=webp&qlt=80`
 
 **Sin pérdidas con alfa:**
 
-` http:// *`server`*/myRootId/myImageId?wid=300&fmt=webp-alpha,,lossless`
+` http:// *`servidor`*/myRootId/myImageId?wid=300&fmt=webp-alpha,,lossless`
 
-**Perezoso con un ajuste de calidad de 80:**
+**Perdedor con una configuración de calidad de 80:**
 
 `http://server/myRootId/myImageId?wid=300&fmt=jpeg2000&qlt=80`
 
@@ -246,7 +246,7 @@ Atributo de solicitud. Se aplica independientemente de la configuración de capa
 
 `http://server/myRootId/myImageId?wid=300&fmt=jpeg2000-alpha,,lossless`
 
-**Perezoso con un ajuste de calidad de 80:**
+**Perdedor con una configuración de calidad de 80:**
 
 `http://server/myRootId/myImageId?wid=300&fmt=jpegxr&qlt=80`
 

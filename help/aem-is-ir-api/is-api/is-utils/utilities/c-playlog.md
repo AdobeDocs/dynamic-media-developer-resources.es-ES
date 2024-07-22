@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: e0213978-3a1d-44b4-82bf-4527b980b29e
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 1%
+source-wordcount: '422'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ La utilidad playlog se puede utilizar para generar previamente contenido para la
 
 No se garantiza que la caché de respuesta HTTP del servicio de imágenes existente pueda utilizarse después de una actualización de versión principal (cuando cambia el primer o el segundo dígito del número de versión). Si el servidor se va a activar en condiciones de carga completa después de la actualización, es posible que se sobrecargue administrando las primeras horas de solicitudes de pérdida de caché hasta que la caché se rellene razonablemente y la tasa de visitas de caché aumente.
 
-Para evitar este pico de carga inicial, la variable `playlog` se puede utilizar para generar previamente contenido para la caché de respuestas HTTP. `playlog` extrae solicitudes HTTP de un archivo de registro de acceso existente y las envía al servidor para generar entradas de caché. En situaciones de uso habituales, es suficiente reproducir un único archivo de registro de acceso que contenga tráfico de un día completo.
+Para evitar este pico de carga inicial, se puede usar la utilidad `playlog` para generar previamente contenido para la caché de respuestas HTTP. `playlog` extrae solicitudes HTTP de un archivo de registro de acceso existente y lo envía al servidor para generar entradas de caché. En situaciones de uso habituales, es suficiente reproducir un único archivo de registro de acceso que contenga tráfico de un día completo.
 
 Además de preparar la caché de respuestas HTTP después de las instalaciones de actualización, la utilidad también se utiliza para generar previamente el contenido de la caché al añadir un nuevo servidor a un entorno de equilibrio de carga; simplemente reproduzca un archivo de registro reciente de uno de los otros servidores.
 
@@ -43,7 +43,7 @@ Además de preparar la caché de respuestas HTTP después de las instalaciones d
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -m <span class="varname"> marcador </span> </span> </p> </td> 
-  <td class="stentry"> <p>Marcador de solicitud; identifica las solicitudes en el archivo de registro que deben reproducirse; patrón de expresión regular. </p> <p>Predeterminado: <span class="codeph"> Solicitud: </span>) </p> </td> 
+  <td class="stentry"> <p>Marcador de solicitud; identifica las solicitudes en el archivo de registro que deben reproducirse; patrón de expresión regular. </p> <p>Predeterminado: <span class="codeph"> (Solicitud: </span>) </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -x <span class="varname"> sufijo </span> </span> </p> </td> 
@@ -51,15 +51,15 @@ Además de preparar la caché de respuestas HTTP después de las instalaciones d
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -v </span> </p> </td> 
-  <td class="stentry"> <p>En modo detallado, imprime las direcciones URL de solicitud generadas en <span class="codeph"> robusto </span>. </p> </td> 
+  <td class="stentry"> <p>En modo detallado, imprime las direcciones URL de solicitud generadas en <span class="codeph"> stdout </span>. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -h </span> </p> </td> 
-  <td class="stentry"> <p>Imprimir una sinopsis en <span class="codeph"> robusto </span>. </p> </td> 
+  <td class="stentry"> <p>Imprimir una sinopsis en <span class="codeph"> stdout </span>. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -r </span> </p> </td> 
-  <td class="stentry"> <p>request-method - método de petición HTTP para usar ( <span class="codeph"> get|post|head|smart </span>). </p> <p>Predeterminado: <span class="codeph"> inteligente </span>) </p> </td> 
+  <td class="stentry"> <p>request-method: método de solicitud HTTP para usar ( <span class="codeph"> get|post|head|smart </span>). </p> <p>Predeterminado: <span class="codeph"> (inteligente </span>) </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -o </span> </p> </td> 
@@ -67,7 +67,7 @@ Además de preparar la caché de respuestas HTTP después de las instalaciones d
  </tr> 
 </table>
 
-Para Windows, el nombre de archivo es [!DNL playlog.bat] y en Linux lo es [!DNL playlog.sh].
+Para Windows, el nombre de archivo es [!DNL playlog.bat] y en Linux es [!DNL playlog.sh].
 
 ## Ejemplos {#section-716e5c35e9fa4ee3a4b0687381fcea40}
 

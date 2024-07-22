@@ -16,7 +16,7 @@ ht-degree: 0%
 
 En esta documentación se analizan los problemas de administración del servidor y se describen los ajustes de configuración de Dynamic Media Image Rendering.
 
-**Destinatarios previstos**
+**Audiencia prevista**
 
 Esta documentación está destinada a administradores del sistema y maestros de web que necesitan instalar, configurar y administrar el procesamiento de imágenes de Dynamic Media.
 

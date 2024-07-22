@@ -8,7 +8,7 @@ exl-id: b9f41405-8a45-416c-acec-ef22c2ee119e
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '64'
-ht-degree: 25%
+ht-degree: 21%
 
 ---
 
@@ -43,7 +43,7 @@ Sintaxis
 
 Este ejemplo de código devuelve todos los ajustes de IPS de una empresa específica.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <ns1:getCompanySettingsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd/2008-01-15">

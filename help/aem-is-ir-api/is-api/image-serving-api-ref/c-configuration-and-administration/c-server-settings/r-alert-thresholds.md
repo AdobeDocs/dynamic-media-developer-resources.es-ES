@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: 1ae76692-2688-4902-82a0-d0751408eee7
 source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Se envía una alerta de tráfico mínimo cuando el número promedio de solicitud
 
 ## AS::monitorAlertGenerator.minFreeHeapSpace: umbral de espacio libre en la pila {#section-ce6705045f6842769030ccb1894594cc}
 
-Especifica el espacio mínimo disponible en la pila de Java. Se envía una alerta de prioridad inmediatamente después de un ciclo de recolección de elementos no utilizados de Java cuando el espacio libre en la pila está por debajo de este umbral. Se recomiendan 50 MB para un funcionamiento seguro del [!DNL Platform Server]. Mantener el espacio libre en la pila por encima de este valor reduce la frecuencia de los ciclos de recolección de elementos no utilizados, lo que puede mejorar el rendimiento general del servidor. Valor entero en bytes, 0 o superior.
+Especifica el espacio mínimo disponible en la pila de Java. Se envía una alerta de prioridad inmediatamente después de un ciclo de recolección de elementos no utilizados de Java cuando el espacio libre en la pila está por debajo de este umbral. Se recomiendan 50 MB para un funcionamiento seguro de [!DNL Platform Server]. Mantener el espacio libre en la pila por encima de este valor reduce la frecuencia de los ciclos de recolección de elementos no utilizados, lo que puede mejorar el rendimiento general del servidor. Valor entero en bytes, 0 o superior.
 
 ## AS::monitorAlertGenerator.maxOverlap: número máximo de solicitudes simultáneas {#section-ddc6925bff944758ab19bcc9cf3f2589}
 

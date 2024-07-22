@@ -6,7 +6,7 @@ role: Developer,User
 exl-id: 19749c74-5c31-4dcf-ab07-0e7f10176a86
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Determinado contenido que muestra el visualizador de imágenes interactivo está sujeto a la localización. Este contenido incluye información sobre herramientas de elementos de la interfaz de usuario y un mensaje informativo que se muestra en la vista de zoom flotante al cargar.
 
-Cada contenido textual del visualizador que se puede localizar se representa mediante el identificador especial del SDK del visualizador, denominado SYMBOL. Cualquier SYMBOL tiene un valor de texto asociado por defecto para una configuración regional en inglés ( `"en"`) se suministra con el visor predeterminado y puede tener valores definidos por el usuario para tantas configuraciones regionales como sea necesario.
+Cada contenido textual del visualizador que se puede localizar se representa mediante el identificador especial del SDK del visualizador, denominado SYMBOL. Cualquier SYMBOL tiene un valor de texto asociado predeterminado para una configuración regional en inglés (`"en"`) que se proporciona con el visor predeterminado y puede tener valores definidos por el usuario para tantas configuraciones regionales como sea necesario.
 
 Cuando se inicia el visor, comprueba la configuración regional actual para ver si hay un valor definido por el usuario para cada SYMBOL admitido para dicha configuración regional. Si existe, utiliza el valor definido por el usuario; de lo contrario, vuelve al texto predeterminado predeterminado.
 
@@ -37,7 +37,7 @@ defaultLocale:"en"
 
 En el ejemplo anterior, el objeto de localización define dos configuraciones regionales ( `"en"` y `"fr"`) y proporciona localización para dos elementos de interfaz de usuario en cada configuración regional.
 
-El código de la página web debe pasar el objeto de localización al constructor del visor como un valor de `localizedTexts` del objeto de configuración. Una opción alternativa es pasar el objeto de localización llamando a `setLocalizedTexts(localizationInfo)` método.
+El código de la página web debe pasar el objeto de localización al constructor del visor, como valor del campo `localizedTexts` del objeto de configuración. Una opción alternativa es pasar el objeto de localización llamando al método `setLocalizedTexts(localizationInfo)`.
 
 Se admiten los siguientes SYMBOL:
 

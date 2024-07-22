@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: c04c4b8f-4e63-4e84-98c0-aa0781608130
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 2%
+source-wordcount: '644'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +37,7 @@ El aspecto de la vista principal se controla con el siguiente selector de clase 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color de fondo </span> </p> </td> 
    <td colname="col2"> <p> Color de fondo de la vista principal. </p> </td> 
   </tr> 
  </tbody> 
@@ -68,19 +68,19 @@ El aspecto de la vista flotante se controla con el siguiente selector de clase C
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> izquierda </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> dejó </span> </p> </td> 
    <td colname="col2"> <p> La posición horizontal de la vista flotante, en relación con la esquina superior izquierda de la vista principal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> parte superior </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> </span> principales </p> </td> 
    <td colname="col2"> <p> Posición vertical de la vista flotante, con relación a la esquina superior izquierda de la vista principal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ancho </span> </p> </td> 
    <td colname="col2"> <p> Ancho de la vista flotante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p>Altura de la vista flotante. </p> </td> 
   </tr> 
   <tr> 
@@ -120,12 +120,12 @@ Es posible controlar los atributos de fondo, borde, transparencia y similares me
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color de fondo </span> </p> </td> 
    <td colname="col2"> <p> El color del resaltado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> opacidad </span> </p> </td> 
-   <td colname="col2"> <p> Resaltar la opacidad. </p> <p>Para Internet Explorer 8, utilice <span class="codeph"> filter:alpha(opacity-...) ); </span> </p> </td> 
+   <td colname="col2"> <p> Resaltar la opacidad. </p> <p>Para Internet Explorer 8, utilice el filtro <span class="codeph">: alpha(opacity-...) ); </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> borde </span> </p> </td> 
@@ -147,7 +147,7 @@ Ejemplo: para configurar el resaltado verde con un 40 % de transparencia y un bo
 
 **Propiedades CSS del cursor**
 
-Cuándo `highlightmode` El parámetro se ha establecido en `cursor`, las áreas resaltadas en la vista principal se sustituyen por ilustraciones de cursor de tamaño fijo, que se controlan con el selector de clases CSS:
+Cuando el parámetro `highlightmode` está establecido en `cursor`, el área resaltada en la vista principal se reemplaza con ilustraciones de cursor de tamaño fijo, que se controla con el selector de clase CSS:
 
 ```
  .s7flyoutviewer .s7flyoutzoomview 
@@ -167,15 +167,15 @@ Las propiedades CSS aplicables incluyen:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo </span> </p> </td> 
    <td colname="col2"> <p>Ilustración del cursor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ancho </span> </p> </td> 
    <td colname="col2"> <p>Ancho del cursor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p>Altura del cursor. </p> </td> 
   </tr> 
  </tbody> 
@@ -183,11 +183,11 @@ Las propiedades CSS aplicables incluyen:
 
 >[!NOTE]
 >
->El cursor admite `input` selector de atributos, que se puede utilizar para aplicar distintas ilustraciones de cursor y tamaños a distintos dispositivos. En particular, `input="mouse"` corresponde a los sistemas de escritorio y `input="touch"` corresponde a los dispositivos táctiles.
+>El cursor admite el selector de atributos `input`, que se puede utilizar para aplicar ilustraciones de cursor y tamaños diferentes para distintos dispositivos. En particular, `input="mouse"` corresponde a los sistemas de escritorio y `input="touch"` a los dispositivos táctiles.
 
 **Propiedades CSS de la superposición**
 
-Si la variable `overlay` El parámetro se ha establecido en `1`, el área alrededor del marco resaltado o la imagen del cursor se controla con el selector de clases CSS:
+Cuando el parámetro `overlay` se establece en `1`, el área alrededor del marco de resaltado o la imagen del cursor se controla con el selector de clases CSS:
 
 ```
  .s7flyoutviewer .s7flyoutzoomview 
@@ -203,7 +203,7 @@ Si la variable `overlay` El parámetro se ha establecido en `1`, el área alrede
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color de fondo </span> </p> </td> 
    <td colname="col2"> <p>Color de superposición. </p> </td> 
   </tr> 
   <tr> 
@@ -221,7 +221,7 @@ El aspecto del mensaje de sugerencia se controla con el siguiente selector de cl
 .s7flyoutviewer .s7flyoutzoomview .s7tip
 ```
 
-Es posible configurar el estilo, el tamaño, el aspecto y el desplazamiento vertical de la fuente mediante CSS. Sin embargo, la alineación horizontal la administra la lógica del visor. Anularlo mediante CSS mediante `left` o `right` no se admite esta propiedad.
+Es posible configurar el estilo, el tamaño, el aspecto y el desplazamiento vertical de la fuente mediante CSS. Sin embargo, la alineación horizontal la administra la lógica del visor. No se admite anularlo mediante CSS utilizando las propiedades `left` o `right`.
 
 <table id="table_DCF6B69A9D8C4DB7A10C4572F7484799"> 
  <thead> 
@@ -232,7 +232,7 @@ Es posible configurar el estilo, el tamaño, el aspecto y el desplazamiento vert
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> parte inferior </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> inferior </span> </p> </td> 
    <td colname="col2"> <p>Desplazamiento desde la parte inferior de la vista principal. </p> </td> 
   </tr> 
   <tr> 
@@ -244,7 +244,7 @@ Es posible configurar el estilo, el tamaño, el aspecto y el desplazamiento vert
    <td colname="col2"> <p>Nombre de la fuente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamaño de fuente </span> </p> </td> 
    <td colname="col2"> <p>Tamaño de fuente. </p> </td> 
   </tr> 
   <tr> 
@@ -252,21 +252,21 @@ Es posible configurar el estilo, el tamaño, el aspecto y el desplazamiento vert
    <td colname="col2"> <p>Relleno alrededor del texto del mensaje. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color de fondo </span> </p> </td> 
    <td colname="col2"> <p>Color de relleno de fondo del texto del mensaje. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> borde-radio </span> </p> </td> 
    <td colname="col2"> <p>Radio del borde de fondo del texto del mensaje. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> opacidad </span> </p> </td> 
-   <td colname="col2"> <p>Opacidad de fondo del texto del mensaje. </p> <p>Para Internet Explorer 8, utilice <span class="codeph"> filtro:alfa(opacidad-...) ) </span> </p> </td> 
+   <td colname="col2"> <p>Opacidad de fondo del texto del mensaje. </p> <p>Para Internet Explorer 8, use <span class="codeph"> filter:alpha(opacity-...) ) </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-El mensaje de sugerencia se puede localizar. Consulte [Localización de los elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) para obtener más información.
+El mensaje de sugerencia se puede localizar. Consulte [Localización de elementos de la interfaz de usuario](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) para obtener más información.
 
 Ejemplo: para configurar un mensaje de sugerencia semitransparente con una fuente Arial® blanca de 12 píxeles, un desplazamiento de 50 píxeles desde la parte inferior de la vista principal, relleno y borde redondeado:
 

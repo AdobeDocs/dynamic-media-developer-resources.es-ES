@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: fdf9274a-70d0-4692-a7a9-c108abb9ab84
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 2%
+source-wordcount: '152'
+ht-degree: 1%
 
 ---
 
@@ -16,15 +16,15 @@ ht-degree: 2%
 
 Atributos de texto en ruta.
 
-` pathAttr= *`dirección`*[, *`startPost`*[, *`endPos`*]]`
+` pathAttr= *`direction`*[, *`startPos`*[, *`endPos`*]]`
 
 <table id="simpletable_EC76095316AF4F07B1DDCC0D72B814CF"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> dirección </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> norma </span> | <span class="codeph"> reverso </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> norma </span> | <span class="codeph"> inverso </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> startPost </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> startPos </span> </p> </td> 
   <td class="stentry"> <p>Posición de inicio del texto en la ruta (real 0.0...1.0). </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -33,15 +33,15 @@ Atributos de texto en ruta.
  </tr> 
 </table>
 
-Especificar `norm` para dibujar texto que comience cerca del primer vértice de trazado y `reverse` para dibujar texto en dirección opuesta, empezando cerca del último vértice.
+Especifique `norm` para dibujar texto comenzando cerca del primer vértice de ruta de acceso y `reverse` para dibujar texto en la dirección opuesta, comenzando cerca del último vértice.
 
-*`startPos`* y *`endPos`* permite ajustar en qué parte del trazado se dibuja el texto. 0,0 corresponde al primer vértice del trazado y 1,0 al último vértice; los valores intermedios expresan la distancia a lo largo del trazado entre el primer y el último vértice.
+*`startPos`* y *`endPos`* permiten ajustar dónde se dibuja el texto en la ruta. 0,0 corresponde al primer vértice del trazado y 1,0 al último vértice; los valores intermedios expresan la distancia a lo largo del trazado entre el primer y el último vértice.
 
 ## Propiedades {#section-80f266da4e2549d89f022a3f9ff4584d}
 
-Atributo de capa. Se ignora si la capa no incluye `textPs=` y `textPath=` comandos.
+Atributo de capa. Se omite si la capa no incluye los comandos `textPs=` y `textPath=`.
 
-*`startPos`* debe ser mayor o igual que 0 y menor que 1,0. *`endPos`* debe ser mayor que *`startPos`* y menor o igual que 1,0 cuando se aplica a una ruta abierta, o menor o igual que ( *`startPos`* + 1,0) cuando se aplica a una ruta cerrada.
+*`startPos`* debe ser mayor o igual que 0 y menor que 1.0. *`endPos`* debe ser mayor o igual que *`startPos`* y menor o igual que 1.0 cuando se aplica a una ruta de acceso abierta, o menor o igual que ( *`startPos`* + 1.0) cuando se aplica a una ruta de acceso cerrada.
 
 ## Predeterminado {#section-3e757970885c45e7b6100e78dc08626f}
 

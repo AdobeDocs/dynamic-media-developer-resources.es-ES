@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: e25a3b9d-88ef-4214-9b6b-2527ebf0f145
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 1%
+source-wordcount: '171'
+ht-degree: 0%
 
 ---
 
@@ -29,27 +29,27 @@ El aspecto del icono de reproducción se controla con el siguiente selector de c
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo </span> </p> </td> 
    <td colname="col2"> <p> La imagen mostrada para el icono de reproducción. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Coloque dentro del icono de ilustración si se utilizan iconos CSS. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo </span> </p> </td> 
+   <td colname="col2"> <p> Coloque dentro del icono de ilustración si se utilizan iconos CSS. </p> <p>Ver <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ancho </span> </p> </td> 
    <td colname="col2"> <p> La anchura del icono de reproducción. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p>Altura del icono de reproducción. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-El efecto de icono admite `state` selector de atributos. El selector de atributos `state="play"` se utiliza cuando el vídeo se pone en pausa en mitad de la reproducción y `state="replay"` se utiliza cuando el cabezal de reproducción está al final del flujo.
+El efecto de icono admite el selector de atributos `state`. El selector de atributos `state="play"` se usa cuando el vídeo se pone en pausa en mitad de la reproducción y `state="replay"` cuando el cabezal de reproducción está al final del flujo.
 
-**Ejemplo** - Configuración de un icono de reproducción de 100 x 100 píxeles.
+**Ejemplo** - Configurar un icono de reproducción de 100 x 100 píxeles.
 
 ```
 .s7video360viewer .s7videoplayer .s7iconeffect { 

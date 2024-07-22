@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 45b12324-3148-4530-82cd-0ee32e9f98f8
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 7%
+source-wordcount: '102'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,7 @@ Número real, mayor que 0. Necesario para los materiales de textura y calcomaní
 
 ## Predeterminado {#section-b1d044e211194242a900aaef4a8c8e6f}
 
-`attribute::Resolution` se utiliza si el campo no está presente, si el valor es 0 o negativo o si el campo está vacío.
+`attribute::Resolution` se usa si el campo no está presente, si el valor es 0 o negativo o si el campo está vacío.
 
 ## Véase también {#section-2d04df523d7345f6929178cbc637da78}
 

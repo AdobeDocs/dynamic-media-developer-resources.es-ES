@@ -22,5 +22,5 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| [!DNL Code Phrase] | `Code Phrase` |  |
+| [!DNL Code Phrase] | `Code Phrase` | |
 

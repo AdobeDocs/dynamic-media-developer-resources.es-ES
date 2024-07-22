@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Una lista de rutas, delimitada por punto y coma, sirve como raíz para todos los archivos de datos con rutas de archivo relativas.
 
-Puede ser rutas absolutas o rutas relativas a *[!DNL install_folder]*. Cuando se especifican varias rutas, el servidor intenta cada raíz en el orden dado hasta que se encuentra el archivo. El valor predeterminado es [!DNL ./resources], para una ruta raíz predeterminada de [!DNL install_folder/resources].
+Puede ser rutas de acceso absolutas o rutas de acceso relativas a *[!DNL install_folder]*. Cuando se especifican varias rutas, el servidor intenta cada raíz en el orden dado hasta que se encuentra el archivo. El valor predeterminado es [!DNL ./resources], para una ruta de acceso raíz predeterminada de [!DNL install_folder/resources].

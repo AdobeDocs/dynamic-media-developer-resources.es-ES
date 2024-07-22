@@ -8,7 +8,7 @@ exl-id: 0b0a88a0-d736-4ab8-a25f-15d1689b0a48
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
 source-wordcount: '62'
-ht-degree: 9%
+ht-degree: 6%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 9%
 <table id="table_FC34B37AACFB4E92A37E1D2D93D5F0D2"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> none|fade</span> </p> </td> 
-   <td colname="col2"> <p> Especifica el tipo del efecto aplicado a la vista principal cuando cambia el recurso. El <span class="codeph"> ninguno</span> significa que no hay transición, el cambio de la vista principal se produce instantáneamente. El <span class="codeph"> atenuación</span> activa la transición de fundido cruzado en la que la imagen antigua desaparece y la nueva aparece </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ninguno|fundido</span> </p> </td> 
+   <td colname="col2"> <p> Especifica el tipo del efecto aplicado a la vista principal cuando cambia el recurso. <span class="codeph"> none</span> significa que no hay transición; el cambio de la vista principal se produce de forma inmediata. La transición de fundido <span class="codeph"></span> activa una transición de fundido cruzado en la que la imagen antigua desaparece y la nueva aparece </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> duración</span></span> </p> </td> 

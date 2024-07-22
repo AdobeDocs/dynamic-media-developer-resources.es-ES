@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 7ad499b1-7da6-483b-ab11-cff2eb9271da
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 1%
+source-wordcount: '412'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 Notas de compatibilidad para sistemas operativos, exploradores y dispositivos móviles.
 
-## Blackberry® {#section-0c465ac3775d47fd838e2695a00abc45}
+## BlackBerry® {#section-0c465ac3775d47fd838e2695a00abc45}
 
 * Incompatibilidad con conjuntos de vídeos adaptables anteriores. Vuelva a cargar los conjuntos de vídeos adaptables para permitir la reproducción.
 
@@ -53,7 +53,7 @@ Notas de compatibilidad para sistemas operativos, exploradores y dispositivos m�
 
 ## Visor de vídeo de HTML5 {#section-3c2dd1220dea4093b17ca2dd0a688307}
 
-* `IntialBitRate` El modificador solo es compatible con el software de reproducción HLS y Flash HDS. No funciona cuando la reproducción utiliza el reproductor nativo.
+* El modificador `IntialBitRate` solo se admite con la reproducción de software HLS y Flash HDS. No funciona cuando la reproducción utiliza el reproductor nativo.
 * No se admite la reproducción progresiva OGG y WebM.
 * La escala del explorador hace que el reproductor de vídeo se muestre en un tamaño incorrecto (incluye la configuración de visualización del Panel de control de Campaign de Windows®).
 * Las búsquedas de vídeo mediante el streaming HLS en Safari son incoherentes.

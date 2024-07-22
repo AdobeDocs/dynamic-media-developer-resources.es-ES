@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 35486f3f-f0aa-4b69-a1d2-4bc6b5e41c43
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -19,34 +19,34 @@ Además del espacio necesario para instalar el software, el servicio de imágene
 <table id="table_0AE363AB76304F258A19E43500FE8423"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b>Descripción/ Ubicación predeterminada/ Definir con</b> </th> 
+   <th class="entry"> <b>Descripción/ Ubicación/ Conjunto Predeterminado Con</b> </th> 
    <th class="entry"> <b>Cálculo/ Recomendación</b> </th> 
    <th class="entry"> <b>Comentarios</b> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td> <p><b>Imágenes de origen, fuentes, perfiles ICC</b> </p> <p> <span class="filepath"> <span class="varname"> carpeta_instalación </span>/images </span> <span class="codeph"></span> </p> <p> <span class="codeph"> IS::RootPaths </span> </p> </td> 
+   <td> <p><b>imágenes, fuentes y perfiles ICC de Source</b> </p> <p> <span class="filepath"> <span class="varname"> install_folder </span>/images </span> <span class="codeph"></span> </p> <p> <span class="codeph"> ES::RootPaths </span> </p> </td> 
    <td> <p>Varía; consulte los comentarios siguientes. </p> </td> 
    <td> <p>Solo debe ser accesible para el servidor de imágenes; los servidores nunca modifican los datos. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>Caché de datos de respuesta HTTP</b> </p> <p> <span class="filepath"> <span class="varname"> carpeta_instalación </span>/cache/is-response </span> </p> <p> <span class="codeph"> PS::ResponseCacheFolders </span> </p> </td> 
+   <td> <p><b>Caché de datos de respuesta HTTP</b> </p> <p> <span class="filepath"> <span class="varname"> install_folder </span>/cache/is-response </span> </p> <p> <span class="codeph"> PS::ResponseCacheFolders </span> </p> </td> 
    <td> <p> <span class="codeph"> PlatformServer::cache.maxSize </span> x 2; se recomiendan al menos 2 GB. </p> </td> 
    <td> <p>Esta caché también almacena datos anidados/incrustados e imágenes de origen externo. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>Caché de datos del catálogo de imágenes</b> </p> <p> <span class="filepath"> <span class="varname"> carpeta_instalación </span>/cache/catalog </span> </p> <p> <span class="codeph"> CS::CatalogCacheFolder </span> </p> </td> 
+   <td> <p><b>Caché de datos del catálogo de imágenes</b> </p> <p> <span class="filepath"> <span class="varname"> install_folder </span>/cache/catalog </span> </p> <p> <span class="codeph"> CS::CatalogCacheFolder </span> </p> </td> 
    <td> <p>Permita que la carpeta del catálogo utilice 1,5 veces el espacio. </p> </td> 
    <td> <p>Se rellena cuando los catálogos se cargan inicialmente. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>Datos de registro</b> </p> <p> <span class="filepath"> <span class="varname"> carpeta_instalación </span>/logs </span> </p> <p> <span class="codeph"> PS::LogFolder </span> </p> <p> <span class="codeph"> IS::LogFile </span> </p> <p> <span class="codeph"> SV::LogFile </span> </p> </td> 
+   <td> <p><b>Datos de registro</b> </p> <p> <span class="filepath"> <span class="varname"> install_folder </span>/logs </span> </p> <p> <span class="codeph"> PS::LogFolder </span> </p> <p> <span class="codeph"> ES::ArchivoRegistro </span> </p> <p> <span class="codeph"> SV::ArchivoRegistro </span> </p> </td> 
    <td> <p>100 MB o más. </p> </td> 
    <td> <p>Varía según la configuración de registro y el uso del servidor. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>Archivos temporales del servidor de imágenes</b> </p> <p> <span class="filepath"> <span class="varname"> carpeta_instalación </span>/temp </span> </p> <p> <span class="codeph"> IS::TempDirectory </span> </p> <p> <span class="codeph"> SV::TempDirectory </span> </p> </td> 
+   <td> <p><b>Archivos temporales del servidor de imágenes</b> </p> <p> <span class="filepath"> <span class="varname"> install_folder </span>/temp </span> </p> <p> <span class="codeph"> ES::TempDirectory </span> </p> <p> <span class="codeph"> SV::TempDirectory </span> </p> </td> 
    <td> <p>100 MB es suficiente para la mayoría de los usos. </p> </td> 
    <td> <p>Datos de corta duración; pueden ser necesarios para imágenes de origen distintas de PTIFF y ciertos formatos de imagen de respuesta. </p> </td> 
   </tr> 
@@ -59,17 +59,17 @@ Adobe recomienda convertir todas las imágenes de origen al formato de archivo T
 
 Cuando se utilizan archivos PTIFF, las siguientes reglas pueden ayudarle a determinar los requisitos de espacio.
 
-*`total_space`* (bytes) = *`number_of_images`*  × (más de 2000) *`avg_pixel_count`* x *`avg_num_components`*  ×  *`p_factor`*)
+*`total_space`* (bytes) = *`number_of_images`* × (2000 + *`avg_pixel_count`* x *`avg_num_components`* × *`p_factor`*)
 
-* *`avg_pixel_count`* El tamaño de píxel promedio (anchura x altura) de todas las imágenes de origen originales. Por ejemplo, si las imágenes originales suelen tener alrededor de 2k × 2k píxeles, esto sería de 4 megapíxeles.
-* *`avg_num_components`* Depende del tipo de imágenes. Para imágenes mayoritariamente RGB, es 3; para imágenes CMYK o RGBA, es 4. Utilice 3,5 si la mitad de las imágenes son RGB y la otra mitad es RGBA.
+* *`avg_pixel_count`* El tamaño promedio de píxel (ancho x alto) de todas las imágenes de origen originales. Por ejemplo, si las imágenes originales suelen tener alrededor de 2k × 2k píxeles, esto sería de 4 megapíxeles.
+* *`avg_num_components`* depende del tipo de imágenes. Para imágenes mayoritariamente RGB, es 3; para imágenes CMYK o RGBA, es 4. Utilice 3,5 si la mitad de las imágenes son RGB y la otra mitad es RGBA.
 * *`p_factor`* Depende del tipo de compresión y de la calidad establecida cuando las imágenes se convierten con IC.
 
 <table id="table_89995BECF30243569954819D07DA2A2F"> 
  <thead> 
   <tr> 
    <th class="entry"> <b>Compresión PTIFF</b> </th> 
-   <th class="entry"> <b><i>p_factor</i></b> </th> 
+   <th class="entry"> <b><i>factor_p</i></b> </th> 
   </tr> 
  </thead>
  <tbody> 

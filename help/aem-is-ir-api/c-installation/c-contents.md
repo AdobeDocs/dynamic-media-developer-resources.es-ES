@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 5b03e68e-a4c2-4b4f-8579-d253d7c112de
 source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 2%
+source-wordcount: '333'
+ht-degree: 0%
 
 ---
 
@@ -44,7 +44,7 @@ Después de la instalación, la jerarquía de carpetas en install_root incluye l
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> BACKUP/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> COPIA DE SEGURIDAD/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>Copias de seguridad de archivos de configuración de instalaciones anteriores del servicio de imágenes. </p> </td> 
   </tr> 
@@ -81,7 +81,7 @@ Después de la instalación, la jerarquía de carpetas en install_root incluye l
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> <span class="filepath"> validate (.exe) </span> </p> </td> 
+   <td colname="col3"> <p> <span class="filepath"> validar (.exe) </span> </p> </td> 
    <td colname="col4"> <p>Utilidad de validación de imágenes del servicio de imágenes. </p> </td> 
   </tr> 
   <tr> 
@@ -92,14 +92,14 @@ Después de la instalación, la jerarquía de carpetas en install_root incluye l
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> cache/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> caché/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>Carpeta de cachés de datos; configurable al instalar o al editar manualmente archivos de configuración. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> <span class="filepath"> catalog-bin/ </span> </p> </td> 
+   <td colname="col3"> <p> <span class="filepath"> catálogo-bin/ </span> </p> </td> 
    <td colname="col4"> <p>PS guarda aquí los datos del catálogo compilado. </p> </td> 
   </tr> 
   <tr> 
@@ -111,12 +111,12 @@ Después de la instalación, la jerarquía de carpetas en install_root incluye l
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> <span class="filepath"> is-response/ </span> </p> </td> 
+   <td colname="col3"> <p> <span class="filepath"> es-response/ </span> </p> </td> 
    <td colname="col4"> <p>La caché de respuestas HTTP principal. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> catalog/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> catálogo/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>Carpeta de catálogos de imágenes de IS; se puede configurar al instalar o al editar manualmente los archivos de configuración. </p> </td> 
   </tr> 
@@ -130,7 +130,7 @@ Después de la instalación, la jerarquía de carpetas en install_root incluye l
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> default.ini </span> </p> </td> 
-   <td colname="col4"> <p> <span class="codeph"> Default.ini </span> es necesario para que el servidor funcione. </p> </td> 
+   <td colname="col4"> <p> Se requiere el archivo Default.ini </span> de <span class="codeph"> para que el servidor funcione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -146,13 +146,13 @@ Después de la instalación, la jerarquía de carpetas en install_root incluye l
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> default-fonts/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> fuentes predeterminadas/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>Contiene las fuentes predeterminadas. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> default-profiles/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> perfiles predeterminados/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>Contiene los perfiles predeterminados para el servicio de imágenes. </p> </td> 
   </tr> 
@@ -177,7 +177,7 @@ Después de la instalación, la jerarquía de carpetas en install_root incluye l
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> <span class="filepath"> access-*.log </span> </p> </td> 
+   <td colname="col3"> <p> <span class="filepath"> acceso-*.log </span> </p> </td> 
    <td colname="col4"> <p>Registros de acceso HTTP. </p> </td> 
   </tr> 
   <tr> 
@@ -200,13 +200,13 @@ Después de la instalación, la jerarquía de carpetas en install_root incluye l
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> Léame.htm </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> archivo ReadMe.htm </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> static-content/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> contenido estático/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>Carpeta de fuente de datos de contenido estático; editar archivos de configuración manualmente. </p> </td> 
   </tr> 
@@ -224,7 +224,7 @@ Después de la instalación, la jerarquía de carpetas en install_root incluye l
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> webapps/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> aplicaciones web/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>Implemente aplicaciones web Java™ aquí (incluidos is-docs, ir-docs y is-viewers). </p> </td> 
   </tr> 
@@ -236,13 +236,13 @@ Después de la instalación, la jerarquía de carpetas en install_root incluye l
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> BACKUP/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> COPIA DE SEGURIDAD/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>Copias de seguridad del archivo de configuración de instalaciones anteriores. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> catalog/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> catálogo/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>Carpeta de catálogos de procesamiento de imágenes; configurable al instalar o al editar manualmente archivos de configuración. </p> </td> 
   </tr> 
@@ -262,11 +262,11 @@ Después de la instalación, la jerarquía de carpetas en install_root incluye l
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> default.ini </span> </p> </td> 
-   <td colname="col4"> <p> <span class="codeph"> Default.ini </span> es necesario para que el servidor funcione. </p> </td> 
+   <td colname="col4"> <p> Se requiere el archivo Default.ini </span> de <span class="codeph"> para que el servidor funcione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> default-profiles/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> perfiles predeterminados/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>Contiene los perfiles predeterminados para el procesamiento de imágenes. </p> </td> 
   </tr> 

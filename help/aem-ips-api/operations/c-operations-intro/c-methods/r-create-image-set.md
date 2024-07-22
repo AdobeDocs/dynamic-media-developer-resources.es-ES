@@ -8,7 +8,7 @@ exl-id: 01ccc705-97e4-4e75-a322-e24bb78cb496
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '136'
-ht-degree: 15%
+ht-degree: 13%
 
 ---
 
@@ -43,7 +43,7 @@ Sintaxis
 | tipo | `xsd:string` | Sí | Tipo de conjunto de imágenes. |
 | thumbAssetHandle | `xsd:string` | No | Controlador del recurso que actúa como miniatura para el nuevo conjunto de imágenes. Si no se especifica, IPS intenta utilizar el primer recurso de imagen al que hace referencia el conjunto. |
 
-**Output**
+**Salida**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
@@ -53,7 +53,7 @@ Sintaxis
 
 Este ejemplo de código crea un conjunto de imágenes especificado por empresa, carpeta, nombre y tipo. La respuesta es un identificador de recursos del conjunto de imágenes recién creado.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <ns1:createImageSetParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

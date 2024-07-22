@@ -8,7 +8,7 @@ exl-id: ff9c3d24-577c-4a9c-8820-60c2a33773bc
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '153'
-ht-degree: 11%
+ht-degree: 9%
 
 ---
 
@@ -52,7 +52,7 @@ Sintaxis
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> tipo</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:PropertySetType</span> </td> 
    <td colname="col3"> Sí </td> 
    <td colname="col4">Estructura de tipo que contiene: 
@@ -70,7 +70,7 @@ Sintaxis
 
 Este ejemplo de código devuelve un tipo de conjunto de propiedades por nombre.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <getPropertySetTypeParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

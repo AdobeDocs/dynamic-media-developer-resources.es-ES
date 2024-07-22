@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: ea2dfec9-0a42-4ccb-8442-6f7c4a39eda1
 source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ El servidor debe cumplir los siguientes requisitos de hardware.
 
 >[!NOTE]
 >
->Los sistemas con procesadores con AMD64 e Intel® EM64T suelen configurarse como plataformas NUMA (arquitectura de memoria no uniforme). Esto significa que el núcleo construye varios nodos de memoria en el momento del arranque en lugar de construir un solo nodo de memoria. La construcción de varios nodos puede causar agotamiento de la memoria en uno o más de los nodos antes de que otros nodos se agoten. Cuando se agota la memoria, el núcleo puede decidir matar procesos (por ejemplo, el servidor de imágenes o [!DNL Platform Server]) aunque haya memoria disponible. Por lo tanto, Adobe recomienda que si está ejecutando un sistema de este tipo, desactive NUMA. Utilice el `numa=off` para evitar que el núcleo detenga estos procesos.
+>Los sistemas con procesadores con AMD64 e Intel® EM64T suelen configurarse como plataformas NUMA (arquitectura de memoria no uniforme). Esto significa que el núcleo construye varios nodos de memoria en el momento del arranque en lugar de construir un solo nodo de memoria. La construcción de varios nodos puede causar agotamiento de la memoria en uno o más de los nodos antes de que otros nodos se agoten. Cuando se agota la memoria, el núcleo puede decidir matar procesos (por ejemplo, el servidor de imágenes o [!DNL Platform Server]) aunque haya memoria disponible. Por lo tanto, Adobe recomienda que si está ejecutando un sistema de este tipo, desactive NUMA. Utilice la opción de inicio `numa=off` para evitar que el núcleo detenga estos procesos.
 
 **Windows**
 
@@ -40,7 +40,7 @@ El servidor debe cumplir los siguientes requisitos de hardware.
 * 2 GB de espacio disponible en el disco duro para la instalación y el funcionamiento básico; se requiere espacio adicional en el disco para las imágenes de origen, los registros, las cachés de datos y los archivos de manifiesto.
 * Tarjeta de interfaz de red Fast Ethernet.
 
-**Nota (Linux®):** El servicio de imágenes no funciona con SELinux activado. Esta opción está habilitada de forma predeterminada. Para desactivar SELinux, edite el [!DNL /etc/selinux/config] y cambie el valor de SELinux de:
+**Nota (Linux®):** El servicio de imágenes no funciona con SELinux activado. Esta opción está habilitada de forma predeterminada. Para deshabilitar SELinux, edite el archivo [!DNL /etc/selinux/config] y cambie el valor de SELinux de:
 
 `SELINUX=enforcing`
 
@@ -48,7 +48,7 @@ A
 
 `SELINUX=disabled`
 
-**Nota (Linux®):** Asegúrese de que el nombre de host del servidor se pueda resolver en una dirección IP. Si no es posible, agregue el nombre de host completo y la dirección IP a [!DNL /etc/hosts] como en el ejemplo siguiente.
+**Nota (Linux®):** Asegúrese de que el nombre de host del servidor se puede resolver en una dirección IP. Si no es posible, agregue el nombre de host completo y la dirección IP a [!DNL /etc/hosts], como en el ejemplo siguiente.
 
 `<ip address> <fully qualified hostname>`
 
@@ -66,4 +66,4 @@ El servicio de imágenes de Dynamic Media requiere el siguiente software de serv
 * Red Hat® Enterprise 5 o CentOS 5.5 y versiones posteriores, con los parches de correcciones más recientes.
 * Sistema operativo de 64 bits.
 
-**Nota:** Para utilizar el servicio de imágenes en Windows, debe instalar Microsoft® Visual Studio 2010.
+**Nota:** Para usar el servicio de imágenes en Windows, debe instalar Microsoft® Visual Studio 2010.

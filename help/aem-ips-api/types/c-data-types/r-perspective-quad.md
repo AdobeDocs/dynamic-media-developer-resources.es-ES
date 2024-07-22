@@ -8,7 +8,7 @@ exl-id: dae44565-083d-47f5-8a08-2567590315a4
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '71'
-ht-degree: 19%
+ht-degree: 8%
 
 ---
 
@@ -33,7 +33,7 @@ Sintaxis
 
 ## Ejemplo {#section-19ed4409ff3a41c9b52a9c9424612927}
 
-El `PerspectiveQuad` type devuelve los datos en este orden:
+El tipo `PerspectiveQuad` devuelve datos en este orden:
 
 ```
 <complexType name="PerspectiveQuad">
@@ -52,4 +52,3 @@ El `PerspectiveQuad` type devuelve los datos en este orden:
 >[!MORELIKETHIS]
 >
 >* [getPhotoshopPath](../../operations/c-operations-intro/c-methods/r-get-photoshop-path.md#reference-545f902f84194951ac04e947fdc803b9)
-

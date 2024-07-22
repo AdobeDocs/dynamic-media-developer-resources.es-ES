@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 691c5421-0754-45ce-b454-dd0ceff47a58
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '577'
 ht-degree: 4%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 Formato de imagen de respuesta. Especifica el formato de codificación de imagen para los datos de imagen enviados al cliente y el tipo MIME de respuesta correspondiente para el encabezado de respuesta HTTP.
 
-` fmt= *`formato`*[,[ *`pixelType`*][, *`tiffCompression`*]]`
+` fmt= *`format`*[,[ *`pixelType`*][, *`tiffCompression`*]]`
 
 <table id="simpletable_200779AA8D8D49A089A295AED5C98C8F"> 
  <tr class="strow"> 
@@ -27,7 +27,7 @@ Formato de imagen de respuesta. Especifica el formato de codificación de imagen
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>jpg </p> </td> 
-  <td class="stentry"> <p>JPG perdedor. </p> </td> 
+  <td class="stentry"> <p>Perdió a su JPG. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
@@ -116,11 +116,11 @@ Formato de imagen de respuesta. Especifica el formato de codificación de imagen
  </tr> 
 </table>
 
-*`pixelType`* Conversión del espacio de color de salida cuando `icc=` no se ha especificado; el perfil de color predeterminado correspondiente a *`pixelType`* se aplica. Si la gestión de colores está desactivada, se aplica una conversión naïve. *`pixelType`* Se ignora cuando `icc=` se especifica, que determina el tipo de píxel de salida.
+*`pixelType`* Efectos de la conversión del espacio de color de salida cuando no se especifica `icc=`; se aplica el perfil de color predeterminado correspondiente a *`pixelType`*. Si la gestión de colores está desactivada, se aplica una conversión naïve. *`pixelType`* se omite cuando se especifica `icc=`, lo que determina el tipo de píxel de salida.
 
-*`compression`* Solo se permite si se especifican los valores tif, tif-alpha o PDF como *`format`*. Consulte la tabla siguiente para ver las opciones de compresión admitidas para estos formatos de imagen.
+*`compression`* solo se permite si se especifican los valores tif, tif-alpha o PDF como *`format`*. Consulte la tabla siguiente para ver las opciones de compresión admitidas para estos formatos de imagen.
 
-`qlt-` Establece las opciones de codificación del JPEG para estos formatos: JPEG, TIFF con compresión del JPEG, PDF con compresión del JPEG y archivo del SWF. Uso `quantize=` if `fmt=gif` o `fmt=gif-alpha`. Consulte las descripciones de los comandos para obtener más información. Los demás formatos no tienen opciones configurables.
+`qlt-` Establece las opciones de codificación de JPEG para estos formatos: JPEG, TIFF con compresión de JPEG, PDF con compresión de JPEG y archivo de SWF. Use `quantize=` si `fmt=gif` o `fmt=gif-alpha`. Consulte las descripciones de los comandos para obtener más información. Los demás formatos no tienen opciones configurables.
 
 Se devuelven ocho bits por componente de píxel para todos los formatos y tipos de píxeles.
 
@@ -163,21 +163,21 @@ En la tabla siguiente se enumeran las combinaciones válidas de *`format`* y *`p
    <td colname="col2"> <p>rgb, gris, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;image/tiff&gt; </span> </p> </td> 
    <td colname="col4"> <p>Sí </p> </td> 
-   <td colname="col5"> <p> <span class="varname"> tiffCompression </span> </p> <p> <span class="codeph"> (none|lzw|zip|jpeg), pathEmbed=, qlt </span> </p> <p>( <span class="codeph"> qlt= </span> se ignora a menos que <span class="varname"> tiffCompression </span> tiene el valor 'jpeg'.) </p> </td> 
+   <td colname="col5"> <p> <span class="varname"> tiffCompression </span> </p> <p> <span class="codeph"> (none|lzw|zip|jpeg), pathEmbed=, qlt </span> </p> <p>( <span class="codeph"> qlt= </span> se omite a menos que <span class="varname"> tiffCompression </span> se establezca en 'jpeg'.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>swf, swf-alfa </p> </td> 
    <td colname="col2"> <p>rgb, gris </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/x-shockwave-flash&gt; </span> </p> </td> 
    <td colname="col4"> <p>No </p> <p>(El Flash Player ignora los perfiles ICC incrustados). </p> </td> 
-   <td colname="col5"> <p> <span class="codeph"> qlt= </span>, <span class="codeph"> attribute::TrustedDomains </span> </p> </td> 
+   <td colname="col5"> <p> <span class="codeph"> qlt= </span>, <span class="codeph"> atributo::TrustedDomains </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>pdf </p> </td> 
    <td colname="col2"> <p>rgb, gris, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/pdf&gt; </span> </p> </td> 
    <td colname="col4"> <p>Sí </p> </td> 
-   <td colname="col5"> <p> <span class="varname"> tiffCompression </span> </p> <p> <span class="codeph"> (none|zip|jpeg),qlt= </span> </p> <p> ( <span class="codeph"> qlt= </span> se ignora a menos que <span class="varname"> tiffCompression </span> tiene el valor 'jpeg'.) </p> </td> 
+   <td colname="col5"> <p> <span class="varname"> tiffCompression </span> </p> <p> <span class="codeph"> (ninguno|zip|jpeg),qlt= </span> </p> <p> ( <span class="codeph"> qlt= </span> se omite a menos que <span class="varname"> tiffCompression </span> se establezca en 'jpeg'.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eps </p> </td> 
@@ -198,7 +198,7 @@ En la tabla siguiente se enumeran las combinaciones válidas de *`format`* y *`p
 
 Especifica el formato de codificación para los datos de imagen de respuesta enviados al cliente y el tipo MIME de respuesta correspondiente para el encabezado de respuesta HTTP.
 
-`png-alpha` Devuelve alfa no asociado (es decir, alfa no multiplica previamente los valores en píxeles), mientras que `tif-alpha`, y `swf-alpha` devuelve el valor alfa asociado (es decir, los valores alfa se multiplican previamente con los valores alfa). El canal alfa corresponde al inverso de la máscara de fondo de la viñeta para `req=img`y a la máscara de grupo u objeto, si existe `req=object`. Para aplicar alfa al utilizar una solicitud IR anidada, agregue `fmt=` con el formato de archivo alfa adecuado a la solicitud IR incrustada y a la solicitud principal. No se devuelve ningún dato alfa si se especifica un perfil ICC en CMYK o en escala de grises con `icc=`.
+`png-alpha` devuelve alfa no asociado (es decir, alfa no multiplica previamente los valores de píxeles), mientras que `tif-alpha` y `swf-alpha` devuelven alfa asociado (es decir, los valores alfa se multiplican previamente con los valores alfa). El canal alfa corresponde al inverso de la máscara de fondo de la viñeta para `req=img` y al grupo o la máscara de objeto si hay `req=object`. Para aplicar alfa al utilizar una solicitud de infrarrojos anidada, agregue `fmt=` con el formato de archivo alfa adecuado a la solicitud de infrarrojos incrustada y a la solicitud principal. No se devuelve ningún dato alfa si se especifica un perfil ICC CMYK o en escala de grises con `icc=`.
 
 ## Propiedades {#section-eb12a82c69d84622bcea153dd84d95b3}
 
@@ -206,8 +206,8 @@ Se puede producir en cualquier parte de la solicitud.
 
 ## Predeterminado {#section-d2c2af11fa974e1a84e0c6cb7fb646fe}
 
-*`format`* El valor predeterminado es `attribute::Format`y *`tiffCompression`* el valor predeterminado es `attribute::TiffEncoding`. *`pixelType`* El valor predeterminado es `rgb` if `icc=` no se ha especificado; de lo contrario, corresponde al tipo de píxel del perfil ICC especificado.
+*`format`* toma el valor predeterminado `attribute::Format` y *`tiffCompression`* el valor predeterminado `attribute::TiffEncoding`. *`pixelType`* Toma el valor predeterminado `rgb` si no se especifica `icc=`; de lo contrario, corresponde al tipo de píxel del perfil ICC especificado.
 
 ## Véase también {#section-c55efc881fc94c70bff91b870e026a7b}
 
-[attribute::Formato](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-format.md#reference-da5207242f1c4f1c8fa4df6027121ff2) , [attribute::JpegQuality](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-jpegquality.md#reference-d86fc5ad18bb436891efdbe1f98fea50), [attribute::TiffEncoding](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-tiffencoding.md#reference-a3425191166042d59db766c468857d0e), [qlt=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-qlt.md#reference-27b91c226eb241d0a14a29af3b3afdbd), [iccEmbed=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f), [pathEmbed=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-pathembed.md#reference-dfff01079fc74dbd896362cc740d7f5f), [req=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-req.md#reference-792b1a663fb64261bd2de2a209b847fb), [Quantize=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-quantize.md#reference-b8069670fa474e4799ac29f0d693ca38)
+[attribute::Format](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-format.md#reference-da5207242f1c4f1c8fa4df6027121ff2) , [attribute::JpegQuality](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-jpegquality.md#reference-d86fc5ad18bb436891efdbe1f98fea50), [attribute::TiffEncoding](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-tiffencoding.md#reference-a3425191166042d59db766c468857d0e), [qlt=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-qlt.md#reference-27b91c226eb241d0a14a29af3b3afdbd), [iccEmbed=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f), [pathEmbed=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-pathembed.md#reference-dfff01079fc74dbd896362cc740d7f5f), [req=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-req.md#reference-792b1a663fb64261bd2de2a209b847fb), [Quantize=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-quantize.md#reference-b8069670fa474e4799ac29f0d693ca38)

@@ -8,7 +8,7 @@ exl-id: f337e7f9-1af6-4164-b9bd-e697548e2850
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '89'
-ht-degree: 17%
+ht-degree: 15%
 
 ---
 
@@ -49,7 +49,7 @@ Sintaxis
 
 Este ejemplo de código devuelve el historial de publicación de un recurso. Un recurso nunca se ha publicado si el servidor devuelve una matriz vacía.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <getAssetPublishHistoryParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

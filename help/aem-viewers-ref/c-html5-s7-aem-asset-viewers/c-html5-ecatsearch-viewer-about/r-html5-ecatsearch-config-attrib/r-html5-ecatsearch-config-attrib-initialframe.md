@@ -8,19 +8,19 @@ exl-id: 15241738-a1b6-4723-b6fc-ebc8f7dedb03
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '58'
-ht-degree: 8%
+ht-degree: 5%
 
 ---
 
 # InitialFrame{#initialframe}
 
-[!DNL ` initialFrame= *`frame`*`]
+[!DNL ` initialFrame= *`fotograma`*`]
 
 <table id="table_06B5F795889E402FB6BCEA4D882E1422"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> frame</span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica un índice de pliego basado en cero que se mostrará al cargar el visor. El índice coincide con el índice del pliego en modo horizontal. Si el visor gira para colocarse en posición vertical, muestra la página situada más a la izquierda del pliego al que apunta <span class="codeph"> frameIdx</span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> fotograma</span></span> </p> </td> 
+   <td colname="col2"> <p> Especifica un índice de pliego basado en cero que se mostrará al cargar el visor. El índice coincide con el índice del pliego en modo horizontal. Si el visor gira para mostrarlo en vertical, mostrará la página situada más a la izquierda del pliego al que apunta <span class="codeph"> frameIdx</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

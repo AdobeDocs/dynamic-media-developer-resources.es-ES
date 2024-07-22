@@ -8,7 +8,7 @@ exl-id: dce324e4-cf86-4a65-ab00-8cd2bba20f8f
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '151'
-ht-degree: 12%
+ht-degree: 11%
 
 ---
 
@@ -54,7 +54,7 @@ Esta es la versión por lotes de [setAssetState](../../../operations/c-operation
 
 Este ejemplo de código establece el estado de publicación de un recurso.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <element name="setAssetsPublishStateParam">

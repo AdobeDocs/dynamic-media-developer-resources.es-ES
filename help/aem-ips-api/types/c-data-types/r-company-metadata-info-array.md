@@ -22,5 +22,5 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| Frase de código | `Code Phrase` |  |
-| Frase de código | `Code Phrase` |  |
+| Frase de código | `Code Phrase` | |
+| Frase de código | `Code Phrase` | |

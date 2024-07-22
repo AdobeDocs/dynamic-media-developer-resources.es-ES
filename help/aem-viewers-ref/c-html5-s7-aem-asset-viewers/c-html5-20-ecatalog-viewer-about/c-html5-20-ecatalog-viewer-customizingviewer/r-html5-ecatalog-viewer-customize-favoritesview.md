@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 10536242-1015-49ff-ae27-59671f30d886
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 2%
+source-wordcount: '291'
+ht-degree: 0%
 
 ---
 
@@ -31,11 +31,11 @@ La vista administra la posición y la altura de la vista Favoritos; en CSS solo 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color de fondo </span> </p> </td> 
    <td colname="col2"> <p> Color de fondo de la vista Favoritos. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ancho </span> </p> </td> 
    <td colname="col2"> <p>Ancho de la vista. </p> </td> 
   </tr> 
  </tbody> 
@@ -56,12 +56,12 @@ El espaciado entre las miniaturas de Favoritos se controla con el siguiente sele
 .s7ecatalogviewer .s7favoritesview .s7thumbcell
 ```
 
-**Propiedades CSS de las miniaturas Favoritos**
+**Propiedades CSS de las miniaturas de Favoritos**
 
 <table id="table_EED8CE63D805458196DE0E87C7E9945F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margen </span> </p> </td> 
    <td colname="col2"> <p> El tamaño del margen vertical alrededor de cada miniatura. El espaciado de miniaturas real es igual a la suma de los márgenes superior e inferior establecidos para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
@@ -81,16 +81,16 @@ El aspecto de la miniatura individual se controla con el siguiente selector de c
 .s7ecatalogviewer .s7favoritesview .s7thumb
 ```
 
-**Propiedades CSS de las miniaturas Favoritos**
+**Propiedades CSS de las miniaturas de Favoritos**
 
 <table id="table_6F5B1438CAFA49E9B33400C6970ABDA1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ancho </span> </p> </td> 
    <td colname="col2"> <p>Ancho de la miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p>Altura de la miniatura. </p> </td> 
   </tr> 
   <tr> 
@@ -102,7 +102,7 @@ El aspecto de la miniatura individual se controla con el siguiente selector de c
 
 >[!NOTE]
 >
->La miniatura admite `state` selector de atributos, que se puede utilizar para aplicar diferentes aspectos a diferentes estados de miniaturas. En particular, `state="selected"` corresponde a la miniatura seleccionada recientemente por el usuario. El atributo `state="default"` corresponde al resto de las miniaturas. Y, el atributo `state="over"` se utiliza al pasar el ratón por encima.
+>La miniatura admite el selector de atributos `state`, que se puede utilizar para aplicar diferentes aspectos a diferentes estados de miniaturas. En particular, `state="selected"` corresponde a la miniatura seleccionada recientemente por el usuario. El atributo `state="default"` corresponde al resto de las miniaturas. Y, el atributo `state="over"` se usa al pasar el ratón por encima.
 
 Ejemplo: Para configurar miniaturas de 75 x 75 píxeles, tenga un borde predeterminado de gris claro y un borde seleccionado de gris oscuro:
 
@@ -130,11 +130,11 @@ El aspecto de la etiqueta de miniatura se controla con el siguiente selector de 
 <table id="table_B41339A16ACB46CB87D3EB1FD05FA2CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> familia de fuentes </span> </p> </td> 
    <td colname="col2"> <p>Nombre de la fuente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamaño de fuente </span> </p> </td> 
    <td colname="col2"> <p>Tamaño de fuente. </p> </td> 
   </tr> 
  </tbody> 

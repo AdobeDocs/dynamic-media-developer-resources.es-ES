@@ -8,7 +8,7 @@ exl-id: eb691988-9f03-463f-bed5-2c230431f537
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '222'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ En la tabla siguiente se describe cada tipo de alerta estándar.
  <thead> 
   <tr> 
    <th class="entry"> <b>Tipo de alerta</b> </th> 
-   <th class="entry"> <b>ID de título</b> </th> 
+   <th class="entry"> <b>Id. de título</b> </th> 
    <th class="entry"> <b>Descripción</b> </th> 
   </tr> 
  </thead>
@@ -35,7 +35,7 @@ En la tabla siguiente se describe cada tipo de alerta estándar.
   <tr> 
    <td> <p>Alta concurrencia </p> </td> 
    <td> <p>Conc </p> </td> 
-   <td> Se emite cuando el número de solicitudes que se procesan simultáneamente (el <i>solapar</i>) supera el umbral especificado. Puede indicar una condición de sobrecarga del servidor. </td> 
+   <td> Se emite cuando el número de solicitudes que se procesan simultáneamente (la <i>superposición</i>) supera el umbral especificado. Puede indicar una condición de sobrecarga del servidor. </td> 
   </tr> 
   <tr> 
    <td> <p>Tráfico mínimo </p> </td> 

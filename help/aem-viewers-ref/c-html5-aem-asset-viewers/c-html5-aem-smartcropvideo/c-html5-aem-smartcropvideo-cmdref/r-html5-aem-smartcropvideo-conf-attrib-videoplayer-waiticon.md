@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 8c86d721-e1c9-4114-9896-e2dd134fb625
 source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 13%
+source-wordcount: '30'
+ht-degree: 10%
 
 ---
 
@@ -21,7 +21,7 @@ Atributo de configuración para el visor de recorte inteligente de vídeos.
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
    <td colname="col2"> <p> Activa o desactiva la visualización de la animación almacenada en búfer (icono de espera). </p> </td> 
   </tr> 
  </tbody> 

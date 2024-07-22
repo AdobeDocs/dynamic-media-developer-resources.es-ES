@@ -18,7 +18,7 @@ En este ejemplo se utiliza el servicio de imágenes para colorear un objeto y ap
 
 Las variables IR se utilizan para identificar la viñeta, la imagen del logotipo y el texto personalizado.
 
-El `vignette::Modifier` en el registro llamado *plantilla* en el mapa de viñetas del catálogo de materiales `myCat` contiene lo siguiente:
+El campo `vignette::Modifier` del registro denominado *plantilla* en el mapa de viñetas del catálogo de materiales `myCat` contiene lo siguiente:
 
 `$vig=defaultVignette&$text=text_goes_here&$color=220,220,220&vignette=myCat/$vig$&obj=group/object&color=$color$&decal&src=is{?size=300,100&text={\qc\fs36 $text$}}`
 
@@ -32,4 +32,4 @@ La siguiente solicitud especifica el contenido que se va a procesar:
 
 [!DNL `https://server/myCat/template?$vig=specialCup&$text=Happy%20Birthday!\line%20Pauline&$color=230,20,20`]
 
-Consulte la Documentación del servicio de imágenes para obtener más información sobre el servicio de imágenes `text=` comando.
+Consulte la documentación del servicio de imágenes para obtener detalles sobre el comando `text=` del servicio de imágenes.

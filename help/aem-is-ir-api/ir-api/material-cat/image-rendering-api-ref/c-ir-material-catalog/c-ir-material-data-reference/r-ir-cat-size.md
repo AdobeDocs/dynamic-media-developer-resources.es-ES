@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 964cb4c1-5256-40eb-94ea-761916174b79
 source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 4%
+source-wordcount: '218'
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ Tamaño de calco. Anchura, altura y grosor de un objeto de material de calcoman�
 
 Tres números reales separados por comas. No debe ser negativo. Establezca los valores no utilizados en 0. Pueden omitirse los ceros finales.
 
-Especifique la anchura y la altura únicamente si la imagen debe estirarse para ajustarse al tamaño especificado (la proporción de aspecto puede cambiar). Defina la anchura o la altura para escalar la imagen proporcionalmente. Establezca anchura y altura en 0 para usar `catalog::Resolution`para determinar el tamaño del objeto.
+Especifique la anchura y la altura únicamente si la imagen debe estirarse para ajustarse al tamaño especificado (la proporción de aspecto puede cambiar). Defina la anchura o la altura para escalar la imagen proporcionalmente. Establezca anchura y altura en 0 para usar `catalog::Resolution` y determinar el tamaño del objeto.
 
 Proporcione un valor de grosor para añadir una sombra paralela al objeto de calco. Opcional para los materiales de calcomanía, ignorada por todos los demás materiales.
 

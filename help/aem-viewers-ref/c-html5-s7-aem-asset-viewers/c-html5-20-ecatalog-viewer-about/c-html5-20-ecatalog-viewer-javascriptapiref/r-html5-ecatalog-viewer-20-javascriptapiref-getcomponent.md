@@ -1,28 +1,28 @@
 ---
 title: getComponent
-description: Referencia de la API de JavaScript para eCatalog Viewer
+description: Referencia de la API de JavaScript para el visor de catálogos electrónicos
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 86f0802c-a53e-426d-9f64-21d8002b8b69
 source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 1%
+source-wordcount: '237'
+ht-degree: 0%
 
 ---
 
 # getComponent{#getcomponent}
 
-Referencia de la API de JavaScript para eCatalog Viewer
+Referencia de la API de JavaScript para el visor de catálogos electrónicos
 
 `getComponent(componentId)`
 
-Devuelve una referencia al componente del SDK del visor que utiliza el visor. La página web puede utilizar este método para ampliar o personalizar el comportamiento del visualizador integrado. Llame a este método solo después de que `initComplete` la llamada de retorno del visor se ha ejecutado; de lo contrario, es posible que la lógica del visor aún no haya creado el componente.
+Devuelve una referencia al componente del SDK del visor que utiliza el visor. La página web puede utilizar este método para ampliar o personalizar el comportamiento del visualizador integrado. Llame a este método únicamente después de que se haya ejecutado la devolución de llamada del visor `initComplete`; de lo contrario, es posible que la lógica del visor aún no haya creado el componente.
 
 ## Parámetros {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`componentID`*` - `{String}` un ID del componente del SDK del visor utilizado por el visor. Este visor es compatible con los siguientes ID de componente:
+`*`componentID`*` - `{String}` es un ID del componente de SDK de visor que usa el visor. Este visor es compatible con los siguientes ID de componente:
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
@@ -49,11 +49,11 @@ Devuelve una referencia al componente del SDK del visor que utiliza el visor. La
    <td colname="col2"> <p> <span class="codeph"> s7sdk.set.PageView </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> primaryControls </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> controles principales </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ControlBar </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> secondaryControls </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> controles secundarios </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ControlBar </span> </p> </td> 
   </tr> 
   <tr> 
@@ -173,7 +173,7 @@ Devuelve una referencia al componente del SDK del visor que utiliza el visor. La
    <td colname="col2"> <p> <span class="codeph"> s7sdk.favorites.FavoritesView </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> favoritesMenu </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> favoritosMenu </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.favorites.FavoritesMenu </span> </p> </td> 
   </tr> 
   <tr> 
@@ -191,13 +191,13 @@ Devuelve una referencia al componente del SDK del visor que utiliza el visor. La
  </tbody> 
 </table>
 
-Al trabajar con las API de SDK, es importante utilizar un espacio de nombres de SDK completo correcto, tal como se describe en [Espacio de nombres del SDK de visor](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-html5-viewer-sdk-namespace.md#concept-16ce67bfbdc64ffc8fc7ad174f208f05).
+Al trabajar con las API de SDK, es importante usar un espacio de nombres de SDK correcto y completo, tal como se describe en [espacio de nombres de SDK de visor](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-html5-viewer-sdk-namespace.md#concept-16ce67bfbdc64ffc8fc7ad174f208f05).
 
-Consulte la *API de SDK de visor* para obtener más información sobre un componente en particular.
+Consulte la documentación de *Viewer SDK API* para obtener más información sobre un componente en particular.
 
 ## Devuelve {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` Una referencia al componente SDK de visor. El método devuelve `null` si la variable `componentId` no es un componente de visor compatible o si la lógica del visor aún no ha creado el componente.
+`{Object}` Una referencia al componente SDK del visor. El método devuelve `null` si `componentId` no es un componente de visor compatible o si la lógica del visor aún no ha creado el componente.
 
 ## Ejemplo {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

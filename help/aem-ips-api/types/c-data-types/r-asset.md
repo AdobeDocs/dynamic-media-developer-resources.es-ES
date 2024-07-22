@@ -8,7 +8,7 @@ exl-id: 943e653a-ed30-4c75-9bad-6ef5b72f5219
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 9%
+ht-degree: 1%
 
 ---
 
@@ -51,7 +51,7 @@ Sintaxis
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL cabinetInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:InformaciónArchivador</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:CabinetInfo</span> </td> 
    <td colname="col3"> Propiedades para un tipo de recurso de archivador. </td> 
   </tr> 
   <tr> 
@@ -82,7 +82,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL fileName]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Devuelve el nombre de archivo virtual. La ruta completa del archivo virtual es <span class="codeph"> carpeta</span>+<span class="codeph"> fileName</span>. </td> 
+   <td colname="col3">Devuelve el nombre de archivo virtual. La ruta de acceso completa del archivo virtual es <span class="codeph"> folder</span>+<span class="codeph"> fileName</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL flashInfo]</span> </span> </td> 
@@ -132,7 +132,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL javascriptInfo]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:JavascriptInfo</span> </td> 
-   <td colname="col3"> Detalles sobre un archivo JavaScript. </td> 
+   <td colname="col3"> Detalles acerca de un archivo JavaScript. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL lastModified]</span> </span> </td> 
@@ -252,7 +252,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL type]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Tipo de recurso. Consulte <a href="../../string-constants/c-string-constants/r-asset-types.md#reference-2fe75d230663419d88632d30f1144a10" format="dita" scope="local"> Tipos de recursos</a> para valores. </td> 
+   <td colname="col3">Tipo de recurso. Consulte <a href="../../string-constants/c-string-constants/r-asset-types.md#reference-2fe75d230663419d88632d30f1144a10" format="dita" scope="local"> tipos de recursos</a> para obtener valores. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL videoCaptionInfo]</span> </span> </td> 
@@ -276,7 +276,7 @@ Sintaxis
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL vignetteInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:InformaciónDeViñeta</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:VignetteInfo</span> </td> 
    <td colname="col3"> Propiedades de un recurso de viñeta. </td> 
   </tr> 
   <tr> 

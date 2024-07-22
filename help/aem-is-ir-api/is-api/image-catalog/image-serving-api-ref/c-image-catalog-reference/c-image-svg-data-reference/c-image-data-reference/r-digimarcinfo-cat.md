@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 87f4d8f0-02b9-4511-9151-89c58116c78d
 source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 15%
+source-wordcount: '243'
+ht-degree: 2%
 
 ---
 
@@ -20,14 +20,14 @@ Información de imagen de Digimarc. Habilita la incrustación de Digimarc y espe
 
 Cuatro valores enteros, separados por comas.
 
-`*`type`*, *`banderas`*, *`val1`*, *`val2`*`
+`*`type`*, *`flags`*, *`val1`*, *`val2`*`
 
 `*`type`*` habilita la incrustación de Digimarc y especifica el tipo de marca de agua:
 
 <table id="table_3648951F14D94C5BAD097CFB783F1EE7"> 
  <thead> 
   <tr> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> type</span> </span> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname"> tipo</span> </span> </p> </th> 
    <th class="entry"> <p><b>Tipo de filigrana</b> </p> </th> 
   </tr> 
  </thead>
@@ -38,7 +38,7 @@ Cuatro valores enteros, separados por comas.
   </tr> 
   <tr> 
    <td> <p><b>1</b> </p> </td> 
-   <td> <p>Básica. </p> </td> 
+   <td> <p>Básico. </p> </td> 
   </tr> 
   <tr> 
    <td> <p><b>2</b> </p> </td> 
@@ -46,7 +46,7 @@ Cuatro valores enteros, separados por comas.
   </tr> 
   <tr> 
    <td> <p><b>3</b> </p> </td> 
-   <td> <p>ID de la transacción. </p> </td> 
+   <td> <p>ID de transacción. </p> </td> 
   </tr> 
   <tr> 
    <td> <p><b>4</b> </p> </td> 
@@ -55,12 +55,12 @@ Cuatro valores enteros, separados por comas.
  </tbody> 
 </table>
 
-`*`banderas`*` es un campo de bits con tres valores. Establezca el bit 0 para indicar contenido protegido contra copia, el bit 1 para indicar contenido restringido y el bit 2 para indicar contenido adulto:
+`*`flags`*` es un campo de bits con tres valores. Establezca el bit 0 para indicar contenido protegido contra copia, el bit 1 para indicar contenido restringido y el bit 2 para indicar contenido adulto:
 
 <table id="table_00F218515FBE484F9D05CBAF14F9D045"> 
  <thead> 
   <tr> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> banderas</span> </span> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname"> indicadores</span> </span> </p> </th> 
    <th class="entry"> <p><b>Descripción</b> </p> </th> 
   </tr> 
  </thead>
@@ -100,12 +100,12 @@ Cuatro valores enteros, separados por comas.
  </tbody> 
 </table>
 
-La interpretación de `*`val1`*` y `*`val2`*` depender de `*`type`*`:
+La interpretación de `*`val1`*` y `*`val2`*` depende de `*`type`*`:
 
 <table id="table_6B29F76BC1974C12AB7124BF84B29EC2"> 
  <thead> 
   <tr> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> type</span> </span> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname"> tipo</span> </span> </p> </th> 
    <th class="entry"> <p><span class="codeph"> <span class="varname"> val1 </span> </span> </p> </th> 
    <th class="entry"> <p><span class="codeph"> <span class="varname"> val2 </span> </span> </p> </th> 
   </tr> 
@@ -128,7 +128,7 @@ La interpretación de `*`val1`*` y `*`val2`*` depender de `*`type`*`:
   </tr> 
   <tr> 
    <td> <p><b>3</b> </p> </td> 
-   <td> <p>ID de la transacción. </p> </td> 
+   <td> <p>ID de transacción. </p> </td> 
    <td> <p>No se usa. </p> </td> 
   </tr> 
   <tr> 

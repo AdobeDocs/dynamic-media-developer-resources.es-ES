@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: e11c38d0-8255-4363-ae60-f47be37a1495
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 5%
+source-wordcount: '102'
+ht-degree: 4%
 
 ---
 
@@ -35,10 +35,10 @@ Las imágenes de textura de borde de pared pueden incluir un canal alfa para def
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-res.md#reference-0ad9de8887144c83a6db97b4994f7c04" type="reference" format="dita" scope="local"> <span class="codeph"> res= </span> </a> </p> </td> 
    <td colname="col2"> <p>Resolución de textura </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> attribute::Resolution </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> atributo::Resolution </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26" type="reference" format="dita" scope="local"> <span class="codeph"> anchor= </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26" type="reference" format="dita" scope="local"> <span class="codeph"> anclaje= </span> </a> </p> </td> 
    <td colname="col2"> <p>Alineación de textura horizontal (se omite el valor y) </p> </td> 
    <td colname="col3"> <p>0 (borde de la imagen izquierda) </p> </td> 
   </tr> 

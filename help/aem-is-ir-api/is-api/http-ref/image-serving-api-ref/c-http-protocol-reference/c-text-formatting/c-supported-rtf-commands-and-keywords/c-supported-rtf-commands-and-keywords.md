@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: a63bc7f1-34a9-485d-aadd-c65e3e26034a
 source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 A continuación se muestra la lista de palabras clave y comandos admitidos por el motor de texto del servicio de imágenes de Scene7.
 
-Consulte la publicación de [Especificación de RTF 1.6](https://msdn.microsoft.com/en-us/library/aa140277%28v=office.10%29.aspx) para obtener detalles acerca de cada palabra clave o comando.
+Consulte la [especificación RTF 1.6](https://msdn.microsoft.com/en-us/library/aa140277%28v=office.10%29.aspx) publicada para obtener detalles sobre cada palabra clave o comando.
 
 El analizador ignora los comandos RTF que no aparecen enumerados a continuación.
 

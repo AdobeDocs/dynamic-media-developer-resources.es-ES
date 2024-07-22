@@ -1,5 +1,5 @@
 ---
-description: Elemento de cadena de sustitución. Opcional en <rule> elementos.
+description: Elemento de cadena de sustitución. Opcional en elementos <rule>.
 solution: Experience Manager
 title: sustitución
 feature: Dynamic Media Classic,SDK/API
@@ -30,13 +30,13 @@ Define una cadena de reemplazo para la cadena o subcadena coincidente de la ruta
 
 Si la expresión de patrón incluye subexpresiones (delimitadas por paréntesis), la primera subcadena coincidente se reemplaza por la cadena de sustitución. Si la expresión de patrón no incluye subexpresiones, se sustituye toda la cadena coincidente.
 
-If `<expression>` está vacía o ausente, la cadena de sustitución se anexa a la ruta o consulta.
+Si `<expression>` está vacío o ausente, la cadena de sustitución se anexa a la ruta de acceso o consulta.
 
-If `<substitution>` está vacío, se elimina la cadena o subcadena coincidente. If `<substitution>` no se ha especificado, no se ha modificado la ruta de acceso o la cadena de consulta.
+Si `<substitution>` está vacío, se quita la cadena o subcadena coincidente. Si no se especifica `<substitution>`, no se modifica la ruta de acceso o la cadena de consulta.
 
 >[!NOTE]
 >
->Todas las coincidencias de la cadena de entrada se sustituyen cuando `replace="all"` se especifica en la `<rule>`,elemento al que se aplica `<substitution>` el elemento pertenece. De forma predeterminada, solo la primera coincidencia se reemplaza con la cadena de sustitución.
+>Todas las coincidencias de la cadena de entrada se sustituyen cuando `replace="all"` se especifica en el elemento `<rule>`, al que pertenece este elemento `<substitution>`. De forma predeterminada, solo la primera coincidencia se reemplaza con la cadena de sustitución.
 
 ## Nota {#section-cedf2adabaaf441c9f598fb0ea180246}
 

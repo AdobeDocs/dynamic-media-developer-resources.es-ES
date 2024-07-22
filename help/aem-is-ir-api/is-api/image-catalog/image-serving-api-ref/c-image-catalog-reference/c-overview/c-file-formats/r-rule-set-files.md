@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Los archivos de conjunto de reglas son archivos de texto con formato XML y deben cumplir los estándares y convenciones correspondientes.
 
-[!DNL RuleSet.xsd] está instalado en la carpeta de catálogo predeterminada y debe utilizarse para validar los archivos del conjunto de reglas antes de enviarlos al servicio de imágenes. Se aplica un análisis estricto y los archivos del conjunto de reglas que no se ajustan a [!DNL RuleSet.xsd] no cargar.
+[!DNL RuleSet.xsd] está instalado en la carpeta de catálogo predeterminada y debe usarse para validar los archivos del conjunto de reglas antes de enviarlos al servicio de imágenes. Se aplica un análisis estricto y los archivos del conjunto de reglas que no se ajustan a [!DNL RuleSet.xsd] no se cargan.

@@ -24,10 +24,10 @@ Los tiempos de espera y otras medidas de seguridad garantizan que el sistema sig
 
 El clúster de caché puede funcionar en una de las dos configuraciones básicas:
 
-* Cuándo `PS::cacheCluster.updateLocalCache` está activada (predeterminada), cualquier entrada de caché encontrada en un servidor del mismo nivel se copia en la caché local.
+* Cuando `PS::cacheCluster.updateLocalCache` está habilitado (predeterminado), cualquier entrada de caché encontrada en un servidor del mismo nivel se copia en la caché local.
 
-   Esta configuración reduce el tráfico entre los servidores del mismo nivel. También proporciona los tiempos de respuesta más rápidos a costa de replicar todas las entradas de caché en todos los servidores del clúster. Esta es la configuración recomendada.
+  Esta configuración reduce el tráfico entre los servidores del mismo nivel. También proporciona los tiempos de respuesta más rápidos a costa de replicar todas las entradas de caché en todos los servidores del clúster. Esta es la configuración recomendada.
 
-* Cuándo `PS::cacheCluster.updateLocalCache` está deshabilitado, los datos de otros servidores de no se copian en la caché local.
+* Cuando `PS::cacheCluster.updateLocalCache` está deshabilitado, los datos de otros servidores no se copian en la caché local.
 
-   Esto multiplica el espacio disponible en disco para los datos de la caché. Sin embargo, aumenta el tráfico entre los servidores del mismo nivel y reduce los tiempos de respuesta generales. Utilice esta configuración solo cuando vea tasas bajas de visitas a la caché.
+  Esto multiplica el espacio disponible en disco para los datos de la caché. Sin embargo, aumenta el tráfico entre los servidores del mismo nivel y reduce los tiempos de respuesta generales. Utilice esta configuración solo cuando vea tasas bajas de visitas a la caché.

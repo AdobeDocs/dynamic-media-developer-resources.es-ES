@@ -8,7 +8,7 @@ exl-id: 63c1c028-0378-4a38-8018-e358491786d8
 source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
 source-wordcount: '262'
-ht-degree: 6%
+ht-degree: 1%
 
 ---
 
@@ -30,7 +30,7 @@ Modo de remuestreo. Elige el algoritmo de remuestreo o interpolación que se uti
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> sharp2 </span> </p> </td> 
-   <td colname="col2"> <p>selecciona una función de ventana Lanczos modificada como un algoritmo de interpolación. Puede producir resultados ligeramente más nítidos que los bicúbicos a un mayor coste de CPU. <span class="codeph"> afilado </span> se ha reemplazado por <span class="codeph"> sharp2 </span>, que tiene una menor probabilidad de causar artefactos de solapamiento (Moiré). </p> </td> 
+   <td colname="col2"> <p>Selecciona una función de ventana de Lanczos modificada como algoritmo de interpolación. Puede producir resultados ligeramente más nítidos que los bicúbicos a un mayor coste de CPU. <span class="codeph"> sharp </span> se ha reemplazado por <span class="codeph"> sharp2 </span>, que tiene una menor probabilidad de causar artefactos de solapamiento (Moiré). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bisharp </span> </p> </td> 
@@ -41,7 +41,7 @@ Modo de remuestreo. Elige el algoritmo de remuestreo o interpolación que se uti
 
 >[!IMPORTANT]
 >
->Para mantener la proporción de aspecto de una imagen cuando se utilizan ambos `resMode=bisharp` y `fit=stretch`Sin embargo, se recomienda utilizar el parámetro width o el parámetro height. Si se deben definir ambos parámetros, se pueden envolver en una capa diferente como se muestra en el siguiente ejemplo:
+>Para mantener la proporción de aspecto de una imagen cuando se usan `resMode=bisharp` y `fit=stretch`, se recomienda usar el parámetro width o el parámetro height. Si se deben definir ambos parámetros, se pueden envolver en una capa diferente como se muestra en el siguiente ejemplo:
 >
 >`/is/image/is/image/companyname?layer=0&src=is(companyname/imagename?wid=30&hei=30&fit=stretch)&resmode=bisharp`
 
@@ -57,7 +57,7 @@ Atributo de solicitud. Se aplica a todas las operaciones de escalado implicadas 
 
 Recupere una representación de la mejor calidad de una imagen con capas almacenada en un catálogo de imágenes. La imagen puede incluir texto. La imagen se procesa posteriormente en una aplicación de edición de imágenes y, por lo tanto, se solicita un canal alfa con la imagen.
 
-` http:// *`server`*/myLayeredImage?fmt=tif-alpha,,lzw&resMode=sharp2&wid=1800`
+` http:// *`servidor`*/myLayeredImage?fmt=tif-alpha,,lzw&resMode=sharp2&wid=1800`
 
 ## Véase también {#section-5f7b17f66bc940d197f8e77e6b4f9657}
 

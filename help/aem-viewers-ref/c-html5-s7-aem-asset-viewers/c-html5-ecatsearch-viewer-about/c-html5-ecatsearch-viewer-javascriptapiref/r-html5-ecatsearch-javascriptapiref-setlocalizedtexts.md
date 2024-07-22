@@ -1,5 +1,5 @@
 ---
-description: Referencia de la API de JavaScript para el visualizador de vídeos.
+description: Referencia de la API de JavaScript para el visor de vídeo.
 solution: Experience Manager
 title: setLocalizedTexts
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # setLocalizedTexts{#setlocalizedtexts}
 
-Referencia de la API de JavaScript para el visualizador de vídeos.
+Referencia de la API de JavaScript para el visor de vídeo.
 
 [!DNL ` setLocalizedTexts( *`localizationInfo`*)`]
 
@@ -22,7 +22,7 @@ Referencia de la API de JavaScript para el visualizador de vídeos.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo</span> </span> </p> </td> 
-   <td colname="col2"> <p> {<span class="codeph"> Objeto</span>} objeto JSON con datos de localización. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74" format="dita" scope="local"> Localización de los elementos de la interfaz de usuario</a> para obtener más información. </p> <p>Consulte también la <i>Guía del usuario de Viewer SDK</i> y el ejemplo para obtener más información sobre el contenido del objeto. </p> </td> 
+   <td colname="col2"> <p> Objeto JSON {<span class="codeph">}</span> con datos de localización. </p> <p>Consulte Localización de <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74" format="dita" scope="local"> elementos de la interfaz de usuario </a> para obtener más información. </p> <p>Consulte también la <i>Guía del usuario de Viewer SDK</i> y el ejemplo para obtener más información sobre el contenido del objeto. </p> </td> 
   </tr> 
  </tbody> 
 </table>

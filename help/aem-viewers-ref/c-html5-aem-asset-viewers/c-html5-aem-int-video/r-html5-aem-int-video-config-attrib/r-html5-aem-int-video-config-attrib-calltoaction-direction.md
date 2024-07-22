@@ -21,8 +21,8 @@ Atributo de configuración para el visualizador de vídeo interactivo.
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
-   <td colname="col2"> <p> Especifica la forma en que la vista se rellena con miniaturas. </p> <p>Configure como. <span class="codeph"> left </span> para establecer el orden de relleno de izquierda a derecha. </p> <p>Configure como. <span class="codeph"> derecha </span> invierte el orden para que la vista se rellene en una dirección de derecha a izquierda, de arriba a abajo. </p> <p>Configure como. <span class="codeph"> auto </span> para que el componente aplique el modo correcto cuando la configuración regional esté configurada como <span class="codeph"> "ja" </span>; de lo contrario, <span class="codeph"> left </span> se utiliza. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> auto|izquierda|derecha </span> </p> </td> 
+   <td colname="col2"> <p> Especifica la forma en que la vista se rellena con miniaturas. </p> <p>Establezca <span class="codeph"> left </span> para establecer el orden de relleno de izquierda a derecha. </p> <p>Definir en <span class="codeph"> right </span> invierte el orden para que se rellene en la dirección de derecha a izquierda, de arriba a abajo. </p> <p>Se establece en <span class="codeph"> auto </span> para que el componente aplique el modo derecho cuando la configuración regional se establezca en <span class="codeph"> "ja" </span>; de lo contrario, se utiliza <span class="codeph"> left </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

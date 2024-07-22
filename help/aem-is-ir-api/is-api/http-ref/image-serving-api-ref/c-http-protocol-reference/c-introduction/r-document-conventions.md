@@ -30,24 +30,24 @@ Este documento utiliza las siguientes convenciones.
   <td class="stentry"> <p>La cursiva indica una variable o un parámetro que se va a sustituir por un valor real. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> command= </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> comando= </span> </p> </td> 
   <td class="stentry"> <p>Un nombre con un "=" final hace referencia a un comando del protocolo HTTP del servicio de imágenes. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> attribute::Item </span> </p> </td> 
-  <td class="stentry"> <p>Un nombre con el prefijo <span class="codeph"> atributo:: </span> hace referencia a un atributo del catálogo de imágenes. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> atributo::Elemento </span> </p> </td> 
+  <td class="stentry"> <p>Un nombre con el prefijo <span class="codeph"> atributo: </span> hace referencia a un atributo de catálogo de imágenes. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> catalog::Item </span> </p> </td> 
-  <td class="stentry"> <p>Un nombre con el prefijo <span class="codeph"> catálogo: </span> hace referencia a un campo de datos del catálogo de imágenes. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> catálogo::Elemento </span> </p> </td> 
+  <td class="stentry"> <p>Un nombre con el prefijo <span class="codeph"> del catálogo: </span> hace referencia a un campo de datos del catálogo de imágenes. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> icc::Item </span> </p> </td> 
-  <td class="stentry"> <p>Un nombre con el prefijo <span class="codeph"> icc: </span> hace referencia a un campo del mapa de perfiles de color ICC. </p> </td> 
+  <td class="stentry"> <p>Un nombre con el prefijo <span class="codeph"> icc: </span> hace referencia a un campo en el mapa de perfiles de color ICC. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> font::Item </span> </p> </td> 
-  <td class="stentry"> <p>Un nombre con el prefijo <span class="codeph"> fuente:: </span> hace referencia a un campo del mapa de fuentes. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> fuente::Elemento </span> </p> </td> 
+  <td class="stentry"> <p>Un nombre con el prefijo <span class="codeph"> de fuente: </span> hace referencia a un campo en el mapa de fuentes. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> macro: Elemento </span> </p> </td> 
@@ -55,26 +55,26 @@ Este documento utiliza las siguientes convenciones.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> conjunto de reglas::Elemento </span> </p> </td> 
-  <td class="stentry"> <p>Un nombre con el prefijo <span class="codeph"> conjunto de reglas: </span> hace referencia a un elemento de un conjunto de reglas de preprocesamiento de URL. </p> </td> 
+  <td class="stentry"> <p>Un nombre con el prefijo <span class="codeph"> conjunto de reglas: </span> hace referencia a un elemento de un conjunto de reglas de procesamiento previo de URL. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> predeterminado::Elemento </span> </p> </td> 
   <td class="stentry"> <p>Un nombre con el prefijo <span class="codeph"> predeterminado: </span> hace referencia a un atributo del catálogo de imágenes predeterminado. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> [ <span class="varname"> opcional </span>] </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> [ <span class="varname"> </span> opcional] </span> </p> </td> 
   <td class="stentry"> <p>Los elementos de sintaxis opcionales están entre corchetes. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> *[ <span class="varname"> opcional </span>] </span> </p> </td> 
-  <td class="stentry"> <p>El <span class="varname"> opcional </span> el elemento de sintaxis se puede repetir una o más veces. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> *[ <span class="varname"> </span> opcional] </span> </p> </td> 
+  <td class="stentry"> <p>El elemento de sintaxis <span class="varname"> </span> opcional se puede repetir una o más veces. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> item1 </span>| <span class="varname"> item2 </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> elemento1 </span>| <span class="varname"> elemento2 </span> </span> </p> </td> 
   <td class="stentry"> <p>Una barra vertical indica que se puede utilizar el único elemento de sintaxis a la izquierda o el elemento a la derecha. Se debe seleccionar exactamente un elemento. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> { <span class="varname"> grupo </span>} </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> { <span class="varname"> grupo </span> </span> </p> </td> 
   <td class="stentry"> <p>Las llaves se utilizan para agrupar elementos de sintaxis. </p> </td> 
  </tr> 
  <tr class="strow"> 

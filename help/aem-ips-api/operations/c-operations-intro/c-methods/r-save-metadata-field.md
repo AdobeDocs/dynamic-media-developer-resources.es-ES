@@ -8,7 +8,7 @@ exl-id: 56a45324-5027-4375-a790-c965f682e4b9
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 16%
+ht-degree: 8%
 
 ---
 
@@ -60,7 +60,7 @@ Cree o edite un campo de metadatos. Omita el identificador de campo opcional par
    <td colname="col4"> Elección de tipos de recursos desde los que guardar metadatos. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> nombre</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sí </td> 
    <td colname="col4"> Nombre del campo. </td> 
@@ -100,9 +100,9 @@ Cree o edite un campo de metadatos. Omita el identificador de campo opcional par
 
 ## Ejemplos {#section-4441c26d1f41466ba972b43dd5189e89}
 
-Este ejemplo de código crea un campo de metadatos restringido por las constantes de cadena Tipo de recurso y Tipos de campo de metadatos. Si la variable `fieldHandle` tiene un valor de identificador de campo válido, cambia los valores de los metadatos y obtiene el mismo identificador de campo que especificó en la solicitud.
+Este ejemplo de código crea un campo de metadatos restringido por las constantes de cadena Tipo de recurso y Tipos de campo de metadatos. Si el elemento `fieldHandle` tiene un valor de identificador de campo válido, cambia los valores de los metadatos y obtiene el mismo identificador de campo que especificó en la solicitud.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <ns1:saveMetadataFieldParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

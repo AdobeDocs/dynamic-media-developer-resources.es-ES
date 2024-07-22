@@ -24,7 +24,7 @@ Cadena de texto.
 
 ## Predeterminado {#section-82e5a885e142414f996c609efbb962b1}
 
-Heredado de `default::PublishInfo` si no se define o si está vacío.
+Se hereda de `default::PublishInfo` si no se ha definido o está vacío.
 
 ## Véase también {#section-d61c31afb3dd4ae2abc6285db80c4f8a}
 

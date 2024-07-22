@@ -8,7 +8,7 @@ exl-id: 2694bd6d-b1ba-4146-a155-12829d9dfa47
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '87'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -38,7 +38,7 @@ La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-92f9e575a6da491caa09e264b4d6ee55}
 
-**Solicitar**
+**Solicitud**
 
 ```java
 deleteTagFieldValuesParam xmlns="http://www.scene7.com/IpsApi/xsd/2010-01-31">

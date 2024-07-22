@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 9aca6693-32ac-4abd-9595-95bce60050ec
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '78'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ Este parámetro:
 
 Devuelve:
 
-Estado del trabajo en el momento en que se recibió la solicitud de eliminación, error si `jobid` no es válido o el trabajo ya se ha eliminado.
+Estado del trabajo en el momento en que se recibió la solicitud de eliminación, error si `jobid` no es válido o el trabajo ya se había eliminado.
 
 ## Ejemplo {#section-e0df8fc8e6554ba58e1fa937b8241ecf}
 

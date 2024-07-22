@@ -1,5 +1,5 @@
 ---
-title: Referencia de la API de JavaScript para visor flotante
+title: Referencia de la API de JavaScript para el visor flotante
 description: La clase principal del Visor flotante es FlyoutViewer. Se declara en el área de nombres de s7viewers. Esta API de JavaScript cubre el constructor, los métodos y las llamadas de retorno de esta clase en particular.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 ---
 
-# Referencia de la API de JavaScript para visor flotante{#javascript-api-reference-for-flyout-viewer}
+# Referencia de la API de JavaScript para el visor flotante{#javascript-api-reference-for-flyout-viewer}
 
 La clase principal del Visor flotante es FlyoutViewer. Se declara en el área de nombres de s7viewers. Esta API de JavaScript cubre el constructor, los métodos y las llamadas de retorno de esta clase en particular.
 
-En todos los ejemplos siguientes, `<instance>` significa el nombre real del objeto de visor de JavaScript del que se crean instancias a partir de `s7viewers.FlyoutViewer` clase.
+En todos los ejemplos siguientes, `<instance>` significa el nombre real del objeto de visor de JavaScript que se crea a partir de la clase `s7viewers.FlyoutViewer`.
 
 * [disponer](r-html5-flyout-viewer-20-javascriptapiref-dispose.md)
 * [FlyoutViewer](r-html5-flyout-viewer-20-javascriptapiref-flyoutviewer.md)

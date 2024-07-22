@@ -8,7 +8,7 @@ exl-id: 50f437d6-fec5-4961-884e-fdb75d201ab7
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 16%
+ht-degree: 13%
 
 ---
 
@@ -40,7 +40,7 @@ La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-b11cafd9bed54ab5836c737cc075c918}
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <setTagFieldValuesParam xmlns="http://www.scene7.com/IpsApi/xsd/2010-01-31">

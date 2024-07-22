@@ -27,9 +27,9 @@ Aplique indicadores. Especifica opciones de procesamiento adicionales.
 
 Actualmente se utiliza solo para materiales de gabinete.
 
-`flags=0` (Por defecto) Procesa los archivadores superiores con puertas sólidas.
+`flags=0` (predeterminado) procesa los archivadores superiores con puertas sólidas.
 
-`flags=1` Procesa los archivadores superiores con puertas de vidrio (si la viñeta se creó con puertas de vidrio).
+`flags=1` procesa los gabinetes superiores con puertas de vidrio (si la viñeta fue creada con puertas de vidrio).
 
 ## Propiedades {#section-a2b00d7bb15e449ea85178acb92d8285}
 
@@ -37,4 +37,4 @@ Atributo de material. Se ignora si no es un material de armario, o si el objeto 
 
 ## Predeterminado {#section-4c134b02a1da4ffb9841233f98f6e97c}
 
-`flags=0` Para ninguna puerta de cristal.
+`flags=0` para puertas sin cristal.

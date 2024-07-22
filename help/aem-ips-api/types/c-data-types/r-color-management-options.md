@@ -23,5 +23,5 @@ Sintaxis
 | Nombre | Tipo | Descripción |
 |---|---|---|
 | colorManagement | `xsd:string` | Opción de modo de gestión de color. |
-| sourceProfileHandle | `xsd:string` | Identificador del perfil de origen. |
+| sourceProfileHandle | `xsd:string` | Identificador de perfil de Source. |
 | outputProfileHandle | `xsd:string` | Controlador del perfil de salida. |

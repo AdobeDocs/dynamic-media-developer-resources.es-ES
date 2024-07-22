@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: dcc9311d-4157-490b-9fc4-47060ddb0e37
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 4%
+source-wordcount: '171'
+ht-degree: 2%
 
 ---
 
@@ -25,13 +25,13 @@ Ver altura. Especifica la altura de la imagen de respuesta.
  </tr> 
 </table>
 
-Los formatos de trama se representan con el tamaño de vista predeterminado (o el valor DefaultPix ). Seleccionar **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Ajustes de publicación]** > **[!UICONTROL Servidor de imágenes]** y, a continuación, introduzca los valores de anchura y altura. Los tamaños más pequeños proporcionan un mejor rendimiento. Guarde la configuración y realice una publicación para servicio de imágenes para aplicar un cambio.
+Los formatos de trama se representan con el tamaño de vista predeterminado (o el valor DefaultPix ). Seleccione **[!UICONTROL Configuración de aplicación]** > **[!UICONTROL Configuración de Publish]** > **[!UICONTROL Servidor de imágenes]** y, a continuación, introduzca los valores de anchura y altura. Los tamaños más pequeños proporcionan un mejor rendimiento. Guarde la configuración y realice un Publish de servicio de imágenes para aplicar un cambio.
 
-Si aplica una `scale=1` , se procesa una solicitud de formato rasterizado con el tamaño especificado en el FXG.
+Si aplica un comando `scale=1`, se procesará una solicitud de formato de trama con el tamaño especificado en el FXG.
 
 ## Predeterminado {#section-76ee3daa77cb468ab310821357cc9404}
 
-If `wid=`, `hei=`, o `scale=` no se han especificado, la imagen de respuesta es el tamaño de vista predeterminado especificado en el archivo FXG.
+Si no se especifican `wid=`, `hei=` o `scale=`, la imagen de respuesta es el tamaño de vista predeterminado especificado en el archivo FXG.
 
 ## Ejemplo {#section-a91c14d31e71481ba054412d9f642885}
 

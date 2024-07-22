@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: c44bfb38-a523-4399-8dbd-936830bb7cac
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1057'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Determinado contenido que muestra el visor de catálogos electrónicos está sujeto a la localización, incluidos los botones de zoom, los botones de cambio de página, el botón de miniaturas, el botón de pantalla completa, el botón de cierre y los botones de la barra de desplazamiento.
 
-Cada contenido textual del visualizador que se puede localizar se representa mediante un identificador especial del SDK del visualizador llamado SYMBOL. Cualquier SYMBOL tiene un valor de texto asociado por defecto para la configuración regional en inglés ( `"en"`) se suministra con el visor predeterminado y también puede tener valores definidos por el usuario para tantas configuraciones regionales como sea necesario.
+Cada contenido textual del visualizador que se puede localizar se representa mediante un identificador especial del SDK del visualizador llamado SYMBOL. Cualquier SYMBOL tiene un valor de texto asociado predeterminado para la configuración regional en inglés (`"en"`) que se proporciona con el visor predeterminado, y también puede tener valores definidos por el usuario para tantas configuraciones regionales como sea necesario.
 
 Cuando se inicia el visor, comprueba la configuración regional actual para ver si hay un valor definido por el usuario para cada SYMBOL admitido en la configuración regional. Si existe, utiliza el valor definido por el usuario; de lo contrario, vuelve al texto predeterminado predeterminado.
 
@@ -40,7 +40,7 @@ defaultLocale:"en"
 
 En el ejemplo anterior, el objeto de localización define dos configuraciones regionales ( `"en"` y `"fr"`) y proporciona localización para dos elementos de interfaz de usuario en cada configuración regional.
 
-El código de la página web debe pasar dicho objeto de localización al constructor del visor como un valor de `localizedTexts` del objeto de configuración. Una opción alternativa es pasar el objeto de localización llamando a `setLocalizedTexts(localizationInfo)` método.
+El código de la página web debe pasar dicho objeto de localización al constructor del visor como un valor del campo `localizedTexts` del objeto de configuración. Una opción alternativa es pasar el objeto de localización llamando al método `setLocalizedTexts(localizationInfo)`.
 
 Se admiten los siguientes SYMBOL (suponiendo que containerId es el ID del contenedor del visor):
 
@@ -97,35 +97,35 @@ Se admiten los siguientes SYMBOL (suponiendo que containerId es el ID del conten
    <td colname="col2"> <p>Botón de desplazamiento hacia abajo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_rightButton.PanRightButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_rightButton.PanRightButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Botón grande de página siguiente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_leftButton.PanLeftButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_leftButton.PanLeftButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Botón grande de la página anterior. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_lastPageButton.PanRightButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_lastPageButton.PanRightButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Botón Última página. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_secondaryLastPageButton.PanRightButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_secondaryLastPageButton.PanRightButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Botón Última página. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_firstPageButton.PanLeftButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_firstPageButton.PanLeftButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Botón Primera página. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_secondaryFirstPageButton.PanLeftButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_secondaryFirstPageButton.PanLeftButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Botón Primera página. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_toolBarRightButton.PanRightButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_toolBarRightButton.PanRightButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Botón Página siguiente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_toolBarLeftButton.PanLeftButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_toolBarLeftButton.PanLeftButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Botón Página anterior. </p> </td> 
   </tr> 
   <tr> 
@@ -145,7 +145,7 @@ Se admiten los siguientes SYMBOL (suponiendo que containerId es el ID del conten
    <td colname="col2"> <p>Botón Cerrar del panel de información. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SocialShare.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">: SocialShare.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Herramienta Compartir en redes sociales. </p> </td> 
   </tr> 
   <tr> 
@@ -201,7 +201,7 @@ Se admiten los siguientes SYMBOL (suponiendo que containerId es el ID del conten
    <td colname="col2"> <p>Pie de ilustración para el botón Seleccionar todo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP_ACTION </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">: EmbedShare.TOOLTIP_ACTION </span> </p> </td> 
    <td colname="col2"> <p>Botón Seleccionar todo. </p> </td> 
   </tr> 
   <tr> 
@@ -229,7 +229,7 @@ Se admiten los siguientes SYMBOL (suponiendo que containerId es el ID del conten
    <td colname="col2"> <p>Mensaje de error que se muestra cuando el correo electrónico no se ha enviado correctamente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">: EmbedShare.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Botón Compartir incrustado. </p> </td> 
   </tr> 
   <tr> 
@@ -394,7 +394,7 @@ Se admiten los siguientes SYMBOL (suponiendo que containerId es el ID del conten
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_XX[_YY] </span> </p> </td> 
-   <td colname="col2"> <p>Etiqueta de página que genera el visor en el momento de la carga. </p> <p>El nombre de ese símbolo es una plantilla, donde <span class="codeph"> XX </span> es un índice de pliego basado en cero con orientación horizontal y opcional <span class="codeph"> YY </span> es un índice de página basado en cero dentro del pliego al que se dirige <span class="codeph"> XX </span>. </p> <p>Solo se aplica al recurso cargado inicialmente; se ignora si se cambia un recurso mediante <span class="codeph"> setAsset() </span> Llamada de API. </p> </td> 
+   <td colname="col2"> <p>Etiqueta de página que genera el visor en el momento de la carga. </p> <p>El nombre de ese símbolo es una plantilla, donde <span class="codeph"> XX </span> es un índice de pliego basado en cero con orientación horizontal y <span class="codeph"> YY </span> opcional es un índice de página basado en cero dentro del pliego al que se dirige <span class="codeph"> XX </span>. </p> <p>Solo se aplica al recurso cargado inicialmente; se omite si se cambia un recurso mediante la llamada de API setAsset() <span class="codeph"> </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_DELIM </span> </p> </td> 
@@ -424,9 +424,9 @@ Se admiten los siguientes SYMBOL (suponiendo que containerId es el ID del conten
    <td colname="col1"> <p> <span class="codeph"> SearchPanel.INFO_RESULTS </span> </p> </td> 
    <td colname="col2"> <p>Se muestra un mensaje localizado cuando la búsqueda se completa correctamente y devuelve al menos un resultado. </p> <p>Este símbolo admite los siguientes tokens de reemplazo en tiempo de ejecución: </p> <p> 
      <ul id="ul_30B76EAB921848069BE843A5F91F697A"> 
-      <li id="li_16AF3EFCC4BF4180B66DE5EA82CC77F4"> <span class="codeph"> $SEARCH_TEXT$ </span> : el texto de búsqueda introducido por el usuario. </li> 
-      <li id="li_A0FBF12344B04BF0B702A2B7473330A8"> <span class="codeph"> $HIT_COUNT$ </span> - Número total de visitas de búsqueda encontradas. </li> 
-      <li id="li_9EB7B41A989B455ABEC72E052284F117"> <span class="codeph"> $PAGE_COUNT$ </span> : el número de páginas del catálogo que contienen al menos una visita de búsqueda. </li> 
+      <li id="li_16AF3EFCC4BF4180B66DE5EA82CC77F4"> <span class="codeph"> $SEARCH_TEXT$ </span>: el texto de búsqueda introducido por el usuario. </li> 
+      <li id="li_A0FBF12344B04BF0B702A2B7473330A8"> <span class="codeph"> $HIT_COUNT$ </span>: el número total de visitas de búsqueda encontradas. </li> 
+      <li id="li_9EB7B41A989B455ABEC72E052284F117"> <span class="codeph"> $PAGE_COUNT$ </span>: el número de páginas del catálogo que contienen al menos una visita de búsqueda. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -434,12 +434,12 @@ Se admiten los siguientes SYMBOL (suponiendo que containerId es el ID del conten
    <td colname="col2"> <p>Etiqueta localizada para la miniatura de los resultados del panel de búsqueda. </p> <p>Este símbolo admite los siguientes tokens de reemplazo en tiempo de ejecución: </p> <p> 
      <ul id="ul_7620C59FA56544CD9CE9E49B1871BCC1"> 
       <li id="li_FAF092734B4B4B55A309413690DA3FCC"> <span class="codeph"> $PAGE$ </span> - Número de página. </li> 
-      <li id="li_3414176505BB4A768FB42341A315E96F"> <span class="codeph"> $PAGE_HIT_COUNT$ </span> : el número de resultados de búsqueda encontrados en la página. </li> 
+      <li id="li_3414176505BB4A768FB42341A315E96F"> <span class="codeph"> $PAGE_HIT_COUNT$ </span>: el número de resultados de búsqueda encontrados en la página. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SearchPanel.LABEL </span> </p> </td> 
-   <td colname="col2"> <p>Define un valor de <span class="codeph"> aria-label </span> Atributo ARIA para todo el panel de búsqueda. </p> </td> 
+   <td colname="col2"> <p>Define un valor del atributo ARIA-label </span> de <span class="codeph"> para todo el panel de búsqueda. </p> </td> 
   </tr> 
  </tbody> 
 </table>

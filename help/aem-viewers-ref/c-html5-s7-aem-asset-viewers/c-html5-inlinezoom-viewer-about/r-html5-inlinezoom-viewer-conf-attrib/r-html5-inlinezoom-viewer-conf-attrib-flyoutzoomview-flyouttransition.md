@@ -14,16 +14,16 @@ ht-degree: 2%
 
 # FlyoutZoomView.flyouttransition{#flyoutzoomview-flyouttransition}
 
-` [FlyoutZoomView.|<containerId>_flyout.]flyouttransition=[none|slide|fade][, *`hora del espectáculo`*[, *`showdelay`*[, *`esconderse`*[, *`hidedelay`*]]]]`
+` [FlyoutZoomView.|<containerId>_flyout.]flyouttransition=[none|slide|fade][, *`showtime`*[, *`showdelay`*[, *`hidetime`*[, *`hidedelay`*]]]]`
 
 <table id="table_AB421835D2454ECD8AA40DBFADBAC65F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> none|slide|fade </span> </span> </p> </td> 
-   <td colname="col2"> <p> Especifica el tipo el efecto aplicado cuando se muestra o se oculta la vista flotante. Con <span class="codeph"> ninguno </span>, la imagen flotante aparece instantáneamente cuando se activa y está lista; <span class="codeph"> diapositiva </span> hace que la animación de diapositiva se reproduzca en dirección de izquierda a derecha; <span class="codeph"> atenuación </span> aplica una transición alfa a la imagen flotante. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ninguno|diapositiva|fundido </span> </span> </p> </td> 
+   <td colname="col2"> <p> Especifica el tipo el efecto aplicado cuando se muestra o se oculta la vista flotante. Con <span class="codeph"> ninguno </span>, la imagen flotante aparece instantáneamente cuando se activa y está lista; con la diapositiva <span class="codeph"> </span>, la animación de diapositiva se reproduce en la dirección de izquierda a derecha; con <span class="codeph">, el fundido </span> aplica una transición alfa a la imagen flotante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> hora del espectáculo </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> tiempo de muestra </span> </span> </p> </td> 
    <td colname="col2"> <p> Número de segundos necesarios para completar la animación de mostrar. </p> </td> 
   </tr> 
   <tr> 
@@ -31,7 +31,7 @@ ht-degree: 2%
    <td colname="col2"> <p> Retraso en segundos entre la acción del usuario que inicia la animación de mostrar y el inicio de dicha animación. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> esconderse </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> hidetime </span> </span> </p> </td> 
    <td colname="col2"> <p> Número de segundos que la animación de ocultar tarda en completarse. </p> </td> 
   </tr> 
   <tr> 

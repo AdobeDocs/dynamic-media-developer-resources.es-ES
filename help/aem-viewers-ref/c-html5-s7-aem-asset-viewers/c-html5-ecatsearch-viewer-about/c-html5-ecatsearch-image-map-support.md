@@ -22,36 +22,36 @@ Los mapas de imagen realizan una de las tres acciones siguientes: redireccionar 
 
 ## Redirigir a una página web externa {#section-32ebe3c3a7f74892a428c5d48801de4d}
 
-El `href` El atributo del mapa de imagen tiene una dirección URL del recurso externo, especificada explícitamente o ajustada a una de las funciones de plantilla JavaScript admitidas: `loadProduct()`, `loadProductCW()`, y `loadProductPW()`.
+El atributo `href` del mapa de imagen tiene una dirección URL del recurso externo, especificada explícitamente o incluida en una de las funciones de plantilla de JavaScript admitidas: `loadProduct()`, `loadProductCW()` y `loadProductPW()`.
 
 El siguiente es un ejemplo de redireccionamiento de URL simple:
 
 `href=http://www.adobe.com`
 
-En este ejemplo, la misma dirección URL se incluye con el `loadProduct()` función:
+En este ejemplo, la misma dirección URL está ajustada con la función `loadProduct()`:
 
 `href=javascript:loadProduct("http://www.adobe.com");void(0);`
 
-Tenga en cuenta que cuando agregue el código JavaScript a la variable `HREF` del mapa de imagen, el código se ejecuta en el equipo del cliente. Por lo tanto, asegúrese de que el código JavaScript sea seguro.
+Tenga en cuenta que cuando agrega el código JavaScript al atributo `HREF` de su mapa de imagen, el código se ejecuta en el equipo del cliente. Por lo tanto, asegúrese de que el código de JavaScript sea seguro.
 
 ## Activación emergente del panel de información {#section-7aa036420af646d1ad8cdc388add0b57}
 
-Para trabajar con paneles de información, un mapa de imagen tiene el `ROLLOVER_KEY` conjunto de atributos. Además, configure el `href` al mismo tiempo, de lo contrario el procesamiento de URL externo interfiere con la activación emergente del panel Información.
+Para trabajar con paneles de información, un mapa de imagen tiene establecido el atributo `ROLLOVER_KEY`. Además, establezca el atributo `href` al mismo tiempo; de lo contrario, el procesamiento de la URL externa interfiere con la activación de la ventana emergente del panel Información.
 
-Por último, asegúrese de que la configuración del visor incluye los valores adecuados para `InfoPanelPopup.template` y, opcionalmente, `InfoPanelPopup.infoServerUrl` parámetros.
+Finalmente, asegúrese de que la configuración del visor incluye los valores apropiados para `InfoPanelPopup.template` y, opcionalmente, `InfoPanelPopup.infoServerUrl` parámetros.
 
 >[!NOTE]
 >
->Tenga en cuenta que, al configurar el elemento emergente del Panel de información, el código de HTML y el código JavaScript que se pasan al Panel de información se ejecutan en el equipo del cliente. Por lo tanto, asegúrese de que dicho código de HTML y código JavaScript sean seguros.
+>Tenga en cuenta que, al configurar el menú emergente del Panel de información, el código del HTML y el código de JavaScript que se pasan al Panel de información se ejecutan en el equipo del cliente. Por lo tanto, asegúrese de que dicho código de HTML y código de JavaScript sean seguros.
 
 ## Hipervínculos internos {#section-6afa4fb2fe564c429e0201f019a95849}
 
-Al hacer clic en un mapa de imagen, se realiza un intercambio de página interno dentro del visor. Para utilizar esa función, puede `href` el atributo en el mapa de imagen tiene el siguiente formato especial:
+Al hacer clic en un mapa de imagen, se realiza un intercambio de página interno dentro del visor. Para usar esa característica, un atributo `href` del mapa de imagen tiene el siguiente formato especial:
 
 ` href=target: *`idx`*`
 
 donde `*`idx`*` es un índice de base cero del pliego de catálogos.
 
-El siguiente es un ejemplo de un `href` para un mapa de imagen que apunta a la propagación 3D en el catálogo electrónico:
+A continuación se muestra un ejemplo de un atributo `href` para un mapa de imagen que señala a la propagación 3D en el catálogo electrónico:
 
 `href=target:2`

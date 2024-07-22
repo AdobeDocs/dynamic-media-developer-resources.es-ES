@@ -8,7 +8,7 @@ exl-id: 1dd980e7-eb38-4c90-b4fc-83327d4a95f5
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 22%
+ht-degree: 18%
 
 ---
 
@@ -45,7 +45,7 @@ Sintaxis
 
 En este ejemplo de código se crea un grupo que pertenece a una compañía específica. Si el grupo ya existe, se guarda con los valores de parámetro especificados.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <ns1:saveGroupParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

@@ -8,7 +8,7 @@ exl-id: 04d85dba-cc86-4069-ab5d-9a5b3fe542c9
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '68'
-ht-degree: 26%
+ht-degree: 23%
 
 ---
 
@@ -36,7 +36,7 @@ Sintaxis
 |---|---|---|---|
 | companyHandle | `xsd:string` | Sí | Manejo de la compañía. |
 | assetHandle | `xsd:string` | Sí | Controlador de recurso. |
-| compressedPacket | `xsd:Base 64 binary` | Sí | [!DNL zlib-compressed] XMP paquete de datos que desea configurar o actualizar. |
+| compressedPacket | `xsd:Base 64 binary` | Sí | XMP [!DNL zlib-compressed] paquete de que desea establecer o actualizar. |
 
 **Salida (updateXMPPacketReturn)**
 
@@ -46,7 +46,7 @@ Sintaxis
 
 ## Ejemplos {#section-38b556b94e5044bf97a954519ff6c212}
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <ns:updateXMPPacketParam>

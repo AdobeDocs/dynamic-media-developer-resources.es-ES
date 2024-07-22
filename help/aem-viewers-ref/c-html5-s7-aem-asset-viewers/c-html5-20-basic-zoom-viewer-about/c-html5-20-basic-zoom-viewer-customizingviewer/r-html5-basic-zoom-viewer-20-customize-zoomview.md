@@ -8,7 +8,7 @@ exl-id: 286b9df4-88db-4e5d-aab4-9cbe01195e57
 source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
 source-wordcount: '164'
-ht-degree: 3%
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ La vista principal consiste en la imagen ampliable.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propiedades CSS del área del visor principal**
+**Propiedades CSS del área de visor principal**
 
 El aspecto del área de visualización se controla con el siguiente selector de clase CSS:
 
@@ -35,7 +35,7 @@ El aspecto del área de visualización se controla con el siguiente selector de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color de fondo </span> </p> </td> 
    <td colname="col2"> <p> Color de fondo en formato hexadecimal de la vista principal. </p> </td> 
   </tr> 
   <tr> 
@@ -53,7 +53,7 @@ Ejemplo: para hacer transparente la vista principal.
 }
 ```
 
-En sistemas de escritorio, el componente admite el `cursortype` selector de atributos que se puede aplicar al `.s7zoomview` y controla el tipo de cursor en función del estado del componente y la acción del usuario. Lo siguiente `cursortype` se admiten estos valores:
+En sistemas de escritorio, el componente admite el selector de atributos `cursortype` que se puede aplicar a la clase `.s7zoomview` y controla el tipo de cursor en función del estado del componente y la acción del usuario. Se admiten los siguientes `cursortype` valores:
 
 <table id="table_BC9FC40DA27B4A85995F4E9431AABF33"> 
  <thead> 
@@ -72,7 +72,7 @@ En sistemas de escritorio, el componente admite el `cursortype` selector de atri
    <td colname="col2"> <p>Se muestra cuando se puede ampliar la imagen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> restablecer </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> restableció </span> </p> </td> 
    <td colname="col2"> <p>Se muestra cuando la imagen está en el nivel de zoom máximo y se puede restablecer a su estado inicial. </p> </td> 
   </tr> 
   <tr> 

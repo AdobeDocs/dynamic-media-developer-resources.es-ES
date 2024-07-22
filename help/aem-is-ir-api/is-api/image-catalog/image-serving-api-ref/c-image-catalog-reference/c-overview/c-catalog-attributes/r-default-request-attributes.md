@@ -23,11 +23,11 @@ Los archivos de atributos de catálogo reconocen estos atributos de solicitud pr
    <td colname="col2"> <p> Sufijo de archivo de imagen predeterminado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultfont.md#reference-48b763ac254545e89a25c76ff7581107" format="dita" scope="local"> DefaultFont</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultfont.md#reference-48b763ac254545e89a25c76ff7581107" format="dita" scope="local"> fuente predeterminada</a></span> </p> </td> 
    <td colname="col2"> <p> Nombre de fuente predeterminada. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-defaultimage.md#reference-8e9900e129f54ed68462a3c2fc3bc433" format="dita" scope="local"> DefaultImage</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-defaultimage.md#reference-8e9900e129f54ed68462a3c2fc3bc433" format="dita" scope="local"> imagenPredeterminada</a></span> </p> </td> 
    <td colname="col2"> <p> Imagen de respuesta predeterminada. </p> </td> 
   </tr> 
   <tr> 
@@ -47,7 +47,7 @@ Los archivos de atributos de catálogo reconocen estos atributos de solicitud pr
    <td colname="col2"> <p> Configuración predeterminada del codificador del JPEG. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-resmode.md#reference-609095ef568743a086f28d87c54dafa2" format="dita" scope="local"> ResMode</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-resmode.md#reference-609095ef568743a086f28d87c54dafa2" format="dita" scope="local"> modoDeReinicio</a></span> </p> </td> 
    <td colname="col2"> <p> Modo de remuestreo predeterminado. </p> </td> 
   </tr> 
   <tr> 

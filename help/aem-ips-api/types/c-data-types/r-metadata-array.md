@@ -30,7 +30,7 @@ Sintaxis
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> items</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> elementos</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipo:Metadatos</span> </p> </td> 
    <td colname="col3"> <p>Una matriz de metadatos. </p> </td> 
   </tr> 

@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: 339dada7-064b-4cdc-bd34-76b6053b9965
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 10%
+source-wordcount: '57'
+ht-degree: 7%
 
 ---
 
 # HttpAppleStreamingContext{#httpapplestreamingcontext}
 
-Prefijo de URL del servidor de flujo Apple. Prefijo de URL del servidor de streaming de Apple que se utiliza al generar respuestas m3u8 de velocidad de bits múltiple con `req=mbrSet`.
+Prefijo de URL del servidor de flujo Apple. Prefijo de URL del servidor de flujo continuo de Apple utilizado al generar respuestas m3u8 de velocidad de bits múltiple con `req=mbrSet`.
 
 ## Propiedades {#properties}
 

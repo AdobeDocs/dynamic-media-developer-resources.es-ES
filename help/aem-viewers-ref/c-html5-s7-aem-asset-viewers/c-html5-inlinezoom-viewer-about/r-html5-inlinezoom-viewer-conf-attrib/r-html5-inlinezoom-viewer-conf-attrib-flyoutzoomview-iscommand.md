@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 2ae17dc8-2728-4ee5-ba88-45d78a0f4d9a
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '69'
 ht-degree: 5%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span> </span> </p> </td> 
-   <td colname="col2"> <p> </p> <p>La cadena de comando del servicio de imágenes que se aplica a la imagen principal FlyoutZoomView y a la vista ampliada. Si se especifica en la dirección URL, asegúrese de codificar mediante HTTP todas las apariciones de <span class="codeph"> &amp;</span> y <span class="codeph"> =</span> as <span class="codeph"> %26</span> y <span class="codeph"> %3D</span>, respectivamente. </p> <p> <p>Nota: No se admiten los comandos de manipulación de tamaño de imagen. </p> </p> </td> 
+   <td colname="col2"> <p> </p> <p>La cadena de comando del servicio de imágenes que se aplica a la imagen principal FlyoutZoomView y a la vista ampliada. Si se especifica en la dirección URL, asegúrese de codificar mediante HTTP todas las ocurrencias de <span class="codeph"> &amp;</span> y <span class="codeph"> =</span> como <span class="codeph"> %26</span> y <span class="codeph"> %3D</span>, respectivamente. </p> <p> <p>Nota: No se admiten los comandos de manipulación de tamaño de imagen. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

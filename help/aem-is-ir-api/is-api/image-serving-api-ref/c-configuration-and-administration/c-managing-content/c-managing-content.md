@@ -17,6 +17,6 @@ ht-degree: 0%
 Estos temas contienen información sobre la administración de contenido.
 
 * [Catálogos de imágenes](c-image-catalogs.md)
-* [Datos de origen](r-source-data.md)
+* [Datos de Source](r-source-data.md)
 * [Datos de origen de contenido estático](c-static-content-source-data.md)
 * [Eliminar o reemplazar archivos de datos](c-deleting-or-replacing-data-files.md)

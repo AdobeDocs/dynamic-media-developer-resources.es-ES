@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: a03f08f7-e9cc-458f-9ff0-7721f1dbc4cc
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '88'
 ht-degree: 2%
 
 ---
@@ -46,7 +46,7 @@ Utilice los siguientes comandos para codificar caracteres.
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \hich </span> </td> 
+   <td> <span class="codeph"> \qué </span> </td> 
    <td> <p>Caracteres del área ANSI superior. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 

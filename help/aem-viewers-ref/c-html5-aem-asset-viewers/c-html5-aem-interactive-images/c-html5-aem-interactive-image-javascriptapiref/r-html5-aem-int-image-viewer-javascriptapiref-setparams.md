@@ -1,6 +1,6 @@
 ---
 title: setParams
-description: Referencia de la API de JavaScript del Visor de imágenes de vídeo.
+description: Referencia de la API de JavaScript para el visualizador de imágenes de vídeo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 3%
 
 # setParams{#setparams}
 
-Referencia de la API de JavaScript del Visor de imágenes de vídeo.
+Referencia de la API de JavaScript para el visualizador de imágenes de vídeo.
 
 ` setParams( *`parámetros`*)`
 
-Establece uno o varios parámetros en un valor determinado. La sintaxis del argumento de método es idéntica a una cadena de consulta de dirección URL. Es decir, representa pares nombre=valor separados con `&`. En una cadena de consulta, los nombres y valores se codifican con porcentajes mediante UTF8. Antes de llamar a `init()`, este parámetro debe llamarse.
+Establece uno o varios parámetros en un valor determinado. La sintaxis del argumento de método es idéntica a una cadena de consulta de dirección URL. Es decir, representa pares nombre=valor separados con `&`. En una cadena de consulta, los nombres y valores se codifican con porcentajes mediante UTF8. Antes de llamar a `init()`, se debe llamar a este parámetro.
 
-Este método es opcional si la información de configuración del visor se pasó con `config` Objeto JSON al constructor.
+Este método es opcional si la información de configuración del visor se pasó con el objeto JSON `config` al constructor.
 
 Consulte también [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
@@ -30,7 +30,7 @@ Consulte también [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-v
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> parámetros</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}</span> pares de parámetros nombre=valor separados con <span class="codeph"> &amp;</span>. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}</span> pares de parámetro name=value separados con <span class="codeph"> &amp;</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -8,7 +8,7 @@ role: Developer,User
 exl-id: f392d830-5c75-45dd-bab8-29a38218790d
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '1337'
+source-wordcount: '1343'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,13 @@ ht-degree: 0%
 
 Toda la personalización visual y la mayor parte de la personalización del comportamiento del Visor de carrusel se realizan creando un CSS personalizado.
 
-El flujo de trabajo sugerido es tomar el archivo CSS predeterminado para el visor apropiado, copiarlo en una ubicación diferente, personalizarlo y especificar la ubicación del archivo personalizado en la `style=` comando.
+El flujo de trabajo sugerido es tomar el archivo CSS predeterminado para el visor apropiado, copiarlo en una ubicación diferente, personalizarlo y especificar la ubicación del archivo personalizado en el comando `style=`.
 
 Los archivos CSS predeterminados se encuentran en la siguiente ubicación:
 
 `<s7viewers_root>/etc/dam/viewers/s7viewers/html5/CarouselViewer_dotted_light.css`
 
-El visor incluye cuatro archivos CSS predeterminados, para indicadores de conjunto numérico y de puntos, cada uno en un esquema de colores &quot;claro&quot; y &quot;oscuro&quot;. La versión &quot;Dotted light&quot; se utiliza de forma predeterminada, pero es fácil cambiar a una versión diferente utilizando diferentes CSS estándar y configurando el `SetIndicator.mode` parámetro. Otros CSS estándar se encuentran en la siguiente ubicación:
+El visor incluye cuatro archivos CSS predeterminados, para indicadores de conjunto numérico y de puntos, cada uno en un esquema de colores &quot;claro&quot; y &quot;oscuro&quot;. La versión &quot;Luz de puntos&quot; se usa de forma predeterminada, pero es fácil cambiar a una versión diferente usando CSS estándar diferente y estableciendo el parámetro `SetIndicator.mode`. Otros CSS estándar se encuentran en la siguiente ubicación:
 
 `<s7_viewers_root>/html5/CarouselViewer_dotted_dark.css`
 
@@ -35,7 +35,7 @@ El archivo CSS personalizado debe contener las mismas declaraciones de clase que
 
 Una forma alternativa de proporcionar reglas CSS personalizadas es utilizar estilos incrustados directamente en la página web o en una de las reglas CSS externas vinculadas.
 
-Al crear CSS personalizado, tenga en cuenta que el visor asigna `.s7carouselviewer` a su elemento DOM contenedor. Si utiliza un archivo CSS externo pasado con la variable `style=` comando, use `.s7carouselviewer` como clase principal en el selector descendente de las reglas CSS. Si está agregando estilos incrustados en la página web, también debe clasificar este selector con un ID del elemento DOM contenedor de la siguiente manera:
+Al crear CSS personalizado, tenga en cuenta que el visor asigna la clase `.s7carouselviewer` a su elemento DOM contenedor. Si está usando un archivo CSS externo pasado con el comando `style=`, use la clase `.s7carouselviewer` como clase principal en el selector descendiente para las reglas CSS. Si está agregando estilos incrustados en la página web, también debe clasificar este selector con un ID del elemento DOM contenedor de la siguiente manera:
 
 `#<containerId>.s7carouselviewer`
 
@@ -45,13 +45,13 @@ Es posible segmentar diferentes dispositivos y tamaños de incrustación en CSS 
 
 El visor admite dos mecanismos para crear CSS diseñadas de forma interactiva: marcadores CSS y consultas de medios CSS estándar. Puede utilizar estos dos mecanismos de forma independiente o conjunta.
 
-**Marcadores CSS**
+**marcadores CSS**
 
 Para ayudar a crear CSS diseñado interactivo, el visor admite marcadores CSS. Estos marcadores son clases CSS especiales que se asignan dinámicamente al elemento contenedor del visor de nivel superior. Se basan en el tamaño del visor en tiempo de ejecución y en el tipo de entrada utilizado en el dispositivo actual.
 
-El primer grupo de marcadores CSS contiene `.s7size_large`, `.s7size_medium`, y `.s7size_small` clases. Se aplican en función del área de tiempo de ejecución del contenedor de visor. Por ejemplo, si el área del visor es igual o mayor que el tamaño de un monitor de escritorio común, utilice `.s7size_large`. Si el área está cerca de un dispositivo de tableta común, asigne `.s7size_medium`. Para áreas similares a las pantallas de un teléfono móvil, utilice `.s7size_small`. El propósito principal de estos marcadores CSS es crear diferentes diseños de interfaz de usuario para diferentes pantallas y tamaños de visor.
+El primer grupo de marcadores CSS contiene las clases `.s7size_large`, `.s7size_medium` y `.s7size_small`. Se aplican en función del área de tiempo de ejecución del contenedor de visor. Por ejemplo, si el área del visor es igual o mayor que el tamaño de un monitor de escritorio común, use `.s7size_large`. Si el área está cerca de un dispositivo tablet común, asigne `.s7size_medium`. Para áreas similares a las pantallas de teléfonos móviles, use `.s7size_small`. El propósito principal de estos marcadores CSS es crear diferentes diseños de interfaz de usuario para diferentes pantallas y tamaños de visor.
 
-El segundo grupo de marcadores CSS contiene `.s7mouseinput` y `.s7touchinput`. El marcador CSS `.s7touchinput` se establece si el dispositivo actual es una entrada táctil. De lo contrario, `.s7mouseinput` se utiliza. Estos marcadores están pensados principalmente para crear elementos de entrada de interfaz de usuario con diferentes tamaños de pantalla para diferentes tipos de entrada, ya que normalmente la entrada táctil requiere elementos más grandes.
+El segundo grupo de marcadores CSS contiene `.s7mouseinput` y `.s7touchinput`. El marcador CSS `.s7touchinput` se establece si el dispositivo actual es de entrada táctil. De lo contrario, se utiliza `.s7mouseinput`. Estos marcadores están pensados principalmente para crear elementos de entrada de interfaz de usuario con diferentes tamaños de pantalla para diferentes tipos de entrada, ya que normalmente la entrada táctil requiere elementos más grandes.
 
 El siguiente CSS de ejemplo establece el tamaño del botón de zoom en 28 x 28 píxeles en sistemas con entrada de ratón y en 56 x 56 píxeles en dispositivos de entrada táctil. Si el tamaño del visor es aún menor, se establece en 20 x 20 píxeles.
 
@@ -82,7 +82,7 @@ El uso de marcadores CSS es la forma más flexible de crear CSS diseñado intera
 
 Puede utilizar el archivo CSS del visor predeterminado como ejemplo de enfoque de marcadores CSS.
 
-**Consultas de medios CSS**
+**consultas de medios CSS**
 
 También puede realizar la detección de dispositivos utilizando consultas de medios CSS puras. Todo lo incluido dentro de un bloque de consulta de medios determinado se aplica solo cuando se ejecuta en un dispositivo correspondiente.
 
@@ -135,7 +135,7 @@ No es necesario duplicar todo el visor de CSS en cada consulta de medios. Solo l
 
 ## Sprites CSS {#section-9b6d8d601cb441d08214dada7bb4eddc}
 
-Muchos elementos de la interfaz de usuario del visor tienen un estilo que utiliza ilustraciones de mapa de bits y tienen más de un estado visual distinto. Un buen ejemplo es un botón que normalmente tiene al menos tres estados diferentes: `up`, `over`, y `down`. Cada estado requiere su propia ilustración de mapa de bits asignada.
+Muchos elementos de la interfaz de usuario del visor tienen un estilo que utiliza ilustraciones de mapa de bits y tienen más de un estado visual distinto. Un buen ejemplo es un botón que normalmente tiene al menos tres estados diferentes: `up`, `over` y `down`. Cada estado requiere su propia ilustración de mapa de bits asignada.
 
 Con un enfoque clásico del estilo, el CSS tendría una referencia independiente al archivo de imagen individual en el servidor para cada estado del elemento de interfaz de usuario. El siguiente es un ejemplo de CSS para aplicar estilo a un botón de zoom:
 
@@ -150,7 +150,7 @@ background-image: url(images/v2/imagemap/ImageMapEffect_icon1_light_over_touch.p
 
 El inconveniente de este enfoque es que el usuario final experimenta parpadeos o una respuesta retrasada en la interfaz de usuario cuando el elemento interactúa con por primera vez. Esta acción se produce porque la ilustración de la imagen para el nuevo estado del elemento aún no se ha descargado. Además, este método puede tener un ligero impacto negativo en el rendimiento debido al aumento en el número de llamadas HTTP al servidor.
 
-Los sprites CSS son un enfoque diferente en el que la ilustración de la imagen para todos los estados de elementos se combina en un solo archivo PNG llamado &quot;sprite&quot;. Este &quot;sprite&quot; tiene todos los estados visuales para el elemento dado colocados uno tras otro. Al aplicar estilo a un elemento de interfaz de usuario con sprites, se hace referencia a la misma imagen sprite para todos los estados diferentes en CSS. Además, la variable `background-position` se utiliza la propiedad para cada estado para especificar qué parte de la imagen &quot;sprite&quot; se utiliza. Puede estructurar una imagen &quot;sprite&quot; de cualquier manera adecuada. Los visualizadores normalmente lo tienen apilado verticalmente.
+Los sprites CSS son un enfoque diferente en el que la ilustración de la imagen para todos los estados de elementos se combina en un solo archivo PNG llamado &quot;sprite&quot;. Este &quot;sprite&quot; tiene todos los estados visuales para el elemento dado colocados uno tras otro. Al aplicar estilo a un elemento de interfaz de usuario con sprites, se hace referencia a la misma imagen sprite para todos los estados diferentes en CSS. Además, la propiedad `background-position` se usa en cada estado para especificar qué parte de la imagen &quot;sprite&quot; se usa. Puede estructurar una imagen &quot;sprite&quot; de cualquier manera adecuada. Los visualizadores normalmente lo tienen apilado verticalmente.
 
 El siguiente es un ejemplo basado en &quot;sprite&quot; de cómo aplicar estilo al mismo icono de punto interactivo:
 
@@ -166,14 +166,14 @@ background-position: -0px -0px; width: 56px; height: 56px;
 
 ## Notas y consejos generales sobre estilo {#section-95855dccbbc444e79970f1aaa3260b7b}
 
-* Al personalizar la interfaz de usuario del visor con CSS, el uso de `!IMPORTANT` La regla de no es compatible con los elementos del visor de estilo. En particular, `!IMPORTANT` La regla no debe utilizarse para anular ningún estilo predeterminado o de tiempo de ejecución proporcionado por el visor o el SDK del visor. El motivo es que puede afectar al comportamiento de los componentes adecuados. En su lugar, debe utilizar selectores CSS con la especificidad adecuada para establecer las propiedades CSS documentadas en esta guía de referencia de visores.
+* Al personalizar la interfaz de usuario del visor con CSS, no se admite el uso de la regla `!IMPORTANT` para aplicar estilo a los elementos del visor. En particular, la regla `!IMPORTANT` no debe usarse para anular ningún estilo predeterminado o de tiempo de ejecución proporcionado por el visor o el SDK del visor. El motivo es que puede afectar al comportamiento de los componentes adecuados. En su lugar, debe utilizar selectores CSS con la especificidad adecuada para establecer las propiedades CSS documentadas en esta guía de referencia de visores.
 * Todas las rutas a recursos externos dentro de CSS se resuelven en la ubicación de CSS, no en la ubicación de la página del HTML del visor. Tenga en cuenta esta regla al copiar el CSS predeterminado en una ubicación diferente. Copie también los recursos predeterminados o actualice todas las rutas dentro del CSS personalizado.
 * El formato preferido para las ilustraciones de mapa de bits es PNG.
-* La ilustración de mapa de bits se asigna a los elementos de interfaz de usuario utilizando `background-image` propiedad.
-* El `width` y `height` Las propiedades de un elemento de interfaz de usuario definen su tamaño lógico. El tamaño del mapa de bits pasado a `background-image` no afecta a su tamaño lógico.
-* Para utilizar la alta densidad de píxeles de pantallas de alta resolución como Retina, especifique ilustraciones de mapa de bits dos veces más grandes que el tamaño del elemento de interfaz de usuario lógico. A continuación, aplique la variable `-webkit-background-size:contain` para reducir el fondo al tamaño del elemento de la interfaz de usuario lógica.
-* Para quitar un botón de la interfaz de usuario, agregue. `display:none` a su clase CSS.
-* Puede utilizar varios formatos para los valores de color que admite CSS. Si necesita transparencia, utilice el formato `rgba(R,G,B,A)`. De lo contrario, puede utilizar el formato `#RRGGBB`.
+* La ilustración de mapa de bits se ha asignado a elementos de interfaz de usuario utilizando la propiedad `background-image`.
+* Las propiedades `width` y `height` de un elemento de interfaz de usuario definen su tamaño lógico. El tamaño del mapa de bits pasado a `background-image` no afecta a su tamaño lógico.
+* Para utilizar la alta densidad de píxeles de pantallas de alta resolución como Retina, especifique ilustraciones de mapa de bits dos veces más grandes que el tamaño del elemento de interfaz de usuario lógico. A continuación, aplique la propiedad `-webkit-background-size:contain` para reducir el fondo al tamaño del elemento de la interfaz de usuario lógica.
+* Para quitar un botón de la interfaz de usuario, agregue `display:none` a su clase CSS.
+* Puede utilizar varios formatos para los valores de color que admite CSS. Si necesita transparencia, use el formato `rgba(R,G,B,A)`. De lo contrario, puede utilizar el formato `#RRGGBB`.
 
 ## Elementos comunes de la interfaz de usuario {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
 

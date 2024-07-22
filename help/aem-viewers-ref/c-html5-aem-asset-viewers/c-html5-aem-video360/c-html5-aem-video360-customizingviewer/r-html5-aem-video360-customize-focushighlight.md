@@ -18,7 +18,7 @@ El resaltado de enfoque de entrada que se muestra alrededor del elemento de inte
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propiedades de CSS**
+**propiedades CSS**
 
 El aspecto se controla con el siguiente selector de clase CSS:
 
@@ -35,7 +35,7 @@ El aspecto se controla con el siguiente selector de clase CSS:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> contorno </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> descripción </span> </p> </td> 
    <td colname="col2"> <p>Estilo de resalte de enfoque. </p> </td> 
   </tr> 
  </tbody> 

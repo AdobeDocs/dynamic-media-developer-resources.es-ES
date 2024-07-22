@@ -1,5 +1,5 @@
 ---
-description: Recursos que pertenecen a un conjunto de imágenes.
+description: Assets que pertenecen a un conjunto de imágenes.
 solution: Experience Manager
 title: ImageSetMember
 feature: Dynamic Media Classic,SDK/API,Image Sets
@@ -14,13 +14,13 @@ ht-degree: 7%
 
 # [!DNL ImageSetMember]{#imagesetmember}
 
-Recursos que pertenecen a un conjunto de imágenes.
+Assets que pertenecen a un conjunto de imágenes.
 
-Restablecer página significa que una [!DNL eCatalog] debería iniciar una nueva página. `RenderSet` indica que forma parte de un `RenderSet` muestra. Se fuerza el valor en `true` para `eCatalog` y `RenderSet` establece.
+Restablecer página significa que un [!DNL eCatalog] debe iniciar una nueva página. `RenderSet` indica que forma parte de una muestra `RenderSet`. Se forzó el valor a `true` para `eCatalog` y `RenderSet` conjuntos.
 
 ## Parámetros {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| asset | `type:Asset` | Recursos en la matriz del conjunto de imágenes. |
-| pageReset | `xsd:boolean` | Inicia una nueva página. Se ignora la configuración y se fuerza el valor en `true` para `eCatalog` y `RenderSet` establece. |
+| asset | `type:Asset` | Assets en la matriz del conjunto de imágenes. |
+| pageReset | `xsd:boolean` | Inicia una nueva página. Se omite la configuración y se fuerza el valor en `true` para `eCatalog` y `RenderSet` conjuntos. |

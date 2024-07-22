@@ -8,7 +8,7 @@ exl-id: c042b87b-3f60-4608-8ed5-0fc031a66c03
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -48,7 +48,7 @@ La API de IPS no devuelve una respuesta para esta operación.
 
 Este código de ejemplo elimina una carpeta de la raíz de la compañía. Requiere un identificador de carpeta, que debe obtener de otra operación.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <ns1:deleteFolderParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

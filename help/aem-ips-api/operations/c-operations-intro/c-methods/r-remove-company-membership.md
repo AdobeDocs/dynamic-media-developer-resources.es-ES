@@ -8,7 +8,7 @@ exl-id: 1cb9a286-48a0-4542-a80a-c97fd973474e
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '100'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -42,7 +42,7 @@ La API de IPS no devuelve una respuesta para esta operación.
 
 Este ejemplo de código quita un usuario de una compañía. Omita el identificador de usuario opcional para quitar todos los usuarios de las empresas especificadas en la matriz de identificadores de la empresa.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <ns1:removeCompanyMembershipParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

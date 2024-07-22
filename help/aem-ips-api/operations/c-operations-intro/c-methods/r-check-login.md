@@ -8,7 +8,7 @@ exl-id: 1f96f376-574c-464b-9c89-c215f6454b81
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '145'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -50,9 +50,9 @@ Comprueba si un usuario con una compañía específica (identificada por el iden
 
 ## Ejemplos {#section-23f90100a9d94bc7b4045634cccd1b98}
 
-Este código de ejemplo utiliza un parámetro de identificador de compañía, una dirección de correo electrónico y una contraseña para determinar si un usuario puede iniciar sesión en IPS. Si el usuario *lata* Inicie sesión, este método devuelve la cadena, `ValidLogin`. Si el usuario *no puede* Inicie sesión, este método devuelve la cadena, `InvalidLogin`.
+Este código de ejemplo utiliza un parámetro de identificador de compañía, una dirección de correo electrónico y una contraseña para determinar si un usuario puede iniciar sesión en IPS. Si el usuario *puede* iniciar sesión, este método devuelve la cadena `ValidLogin`. Si el usuario *no puede* iniciar sesión, este método devuelve la cadena `InvalidLogin`.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <ns1:checkLoginParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

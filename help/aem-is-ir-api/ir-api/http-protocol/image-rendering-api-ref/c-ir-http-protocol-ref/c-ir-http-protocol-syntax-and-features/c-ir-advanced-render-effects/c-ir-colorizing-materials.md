@@ -16,6 +16,6 @@ ht-degree: 0%
 
 La mayoría de los materiales se pueden colorear dinámicamente.
 
-El algoritmo de colorización es simplista y funciona mejor con imágenes de material que tienen un rango de tonalidades limitado. Para colorear un material, el procesador simplemente resta el `bgc=` y añade el `color=` a cada valor de píxel.
+El algoritmo de colorización es simplista y funciona mejor con imágenes de material que tienen un rango de tonalidades limitado. Para colorear un material, el procesador simplemente resta el valor `bgc=` y agrega el valor `color=` a cada valor de píxel.
 
-La coloración está desactivada si `color=` no especificado. El `bgc=` los materiales del armario ignoran el atributo; el valor del color base está incrustado en el [!DNL vnc] se utiliza el archivo en su lugar.
+La colorización está deshabilitada si no se especifica `color=`. Los materiales del archivador omiten el atributo `bgc=`; en su lugar se utiliza el valor de color base incrustado en el archivo [!DNL vnc].

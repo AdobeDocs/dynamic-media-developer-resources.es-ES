@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 3f93b479-f5da-47a0-b80c-c23c1460e8e1
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '59'
 ht-degree: 6%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 6%
 >
 >Este atributo se aplica al Visor de zoom, Visor de vídeo, Visor de giro, Visor de imágenes interactivo, Visor de vídeo interactivo y Visor de carrusel.
 
-`stageSize= *`anchura`*, *`altura`*`
+`stageSize= *`ancho`*, *`alto`*`
 
 <table id="table_0070E5402099428DBEA2A900CADB2BAA"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> anchura</span>,<span class="varname"> altura</span></span> </p> </td> 
-   <td colname="col2"> <p> La anchura y altura total del visor. El valor de <span class="codeph"> 0,0</span> significa que el tamaño del visor se ajusta a las reglas CSS y al diseño de la página web. </p> </td> 
+   <td colname="col2"> <p> La anchura y altura total del visor. El valor de <span class="codeph"> 0,0</span> significa que el tamaño del visor depende de las reglas CSS y del diseño de la página web. </p> </td> 
   </tr> 
  </tbody> 
 </table>

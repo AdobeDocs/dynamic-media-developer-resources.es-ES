@@ -22,6 +22,6 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| url | `xsd:string` | URL del servidor de imágenes que representa la plantilla. Combinaciones `urlModifier` y `urlPostAp- plyModifier` campos. |
+| url | `xsd:string` | URL del servidor de imágenes que representa la plantilla. Combina `urlModifier` y `urlPostAp- plyModifier` campos. |
 | urlModifier | `xsd:string` | Comandos de protocolo de servicio de imágenes que se aplicarán antes de la solicitud o `urlPostApplyModifier` comandos. |
-| urlPostApplyModifier | `xsd:string` | Comandos de protocolo de servicio de imágenes para aplicar después de `urlModifier` y solicitar comandos. |
+| urlPostApplyModifier | `xsd:string` | Comandos de protocolo de servicio de imágenes para aplicar después de `urlModifier` y comandos de solicitud. |

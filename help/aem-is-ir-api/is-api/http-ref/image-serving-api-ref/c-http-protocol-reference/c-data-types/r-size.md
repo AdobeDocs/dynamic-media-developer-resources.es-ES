@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 644659a7-8f34-4de0-aa94-bc33909ff361
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '55'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ Tamaño de píxel. Se utiliza para especificar tamaños de imagen o tamaños de 
 
 <table id="simpletable_06761BED6FF14C2A83745A78B10D3419"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> talla</span> </span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> tamaño</span> </span> </p> </td> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> px, py</span> </span> </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -27,4 +27,4 @@ Tamaño de píxel. Se utiliza para especificar tamaños de imagen o tamaños de 
  </tr> 
 </table>
 
-Ambos *`px`* y *`py`* debe ser bueno que 0. `0,0` puede indicar que se debe utilizar un valor predeterminado específico.
+Tanto *`px`* como *`py`* deben ser mayores que 0. `0,0` puede indicar que se debe usar un valor predeterminado específico.

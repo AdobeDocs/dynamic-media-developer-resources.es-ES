@@ -8,7 +8,7 @@ exl-id: 0dc195ee-9229-40a3-ad8b-8f00c2c9ff97
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '95'
-ht-degree: 20%
+ht-degree: 11%
 
 ---
 
@@ -75,7 +75,7 @@ Sintaxis
  </tbody> 
 </table>
 
-**Output**
+**Salida**
 
 La API de IPS no devuelve una respuesta para esta operación.
 
@@ -83,7 +83,7 @@ La API de IPS no devuelve una respuesta para esta operación.
 
 Este ejemplo de código establece el estado de publicación de un recurso mediante `NotMarkedForPublish`.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <setAssetPublishStateParam xmlns="http://www.scene7.com/IpsApi/xsd">

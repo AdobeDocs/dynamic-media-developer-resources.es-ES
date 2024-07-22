@@ -8,7 +8,7 @@ exl-id: d10a30ca-afa7-4ef0-8cef-0329b0068bf3
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '137'
-ht-degree: 14%
+ht-degree: 13%
 
 ---
 
@@ -29,7 +29,7 @@ Sintaxis
 
 ## Parámetros {#section-75a02b55ae0d444ca26b59aac6e86d6f}
 
-**Entrada (batchSetIccProfileFields)**
+**Campos de entrada (batchSetIccProfile)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
@@ -48,7 +48,7 @@ Sintaxis
 
 ## Ejemplos {#section-5dc90cfbd9b1411485b44859032f7cb9}
 
-**Solicitar**
+**Solicitud**
 
 ```java {.line-numbers}
 <batchSetIccProfileFieldsParam xmlns="http://www.scene7.com/IpsApi/xsd/2009-07-31">

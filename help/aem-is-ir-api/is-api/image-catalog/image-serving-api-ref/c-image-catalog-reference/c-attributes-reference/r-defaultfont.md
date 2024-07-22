@@ -22,8 +22,8 @@ Cadena de texto. Si se especifica, debe ser un valor font::Name válido en el ma
 
 ## Predeterminado {#section-ed0199be32a24e31a47b345ce7d109f6}
 
-Heredado de `default::DefaultFont` si no se define o si está vacío.
+Se hereda de `default::DefaultFont` si no se ha definido o está vacío.
 
 ## Véase también {#section-b012591f90a2428a8062afe4f3b6ce33}
 
-[font::Name](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-name-font.md#reference-c55889877dc54aabb60734dcde86ee76) , [attribute::ArchivoMapaDeFuentes](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-fontmapfile.md#reference-22e077d4595b45b6a6e549b8499ecb76)
+[font::Name](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-name-font.md#reference-c55889877dc54aabb60734dcde86ee76) , [attribute::FontMapFile](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-fontmapfile.md#reference-22e077d4595b45b6a6e549b8499ecb76)

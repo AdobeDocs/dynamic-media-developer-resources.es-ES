@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 71efed33-6248-4d23-ab4e-2caec3449171
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Los visualizadores pueden utilizar este mecanismo para generar respuestas que in
 
 ## Sintaxis de solicitud {#section-d72b1d95e4ce4bb1b332ce096c2b99f1}
 
-La respuesta establecida para un `catalog::ImageSet` se puede recuperar mediante la variable `req=set` modificador y referencia al id de registro de catálogo en la ruta siguiente. Como alternativa, el conjunto de imágenes se puede especificar directamente en la dirección URL utilizando `imageset=` modificador. Si la variable `imageset=` Cuando se utiliza un modificador para especificar el conjunto de imágenes, todo el valor debe incluirse entre llaves para omitir el valor del conjunto de imágenes y garantizar que los modificadores incluidos no se interpreten como parte de la cadena de consulta URL.
+La respuesta establecida para un(a) `catalog::ImageSet` se puede recuperar mediante el modificador `req=set` y haciendo referencia al id. de registro de catálogo en la ruta de acceso siguiente. Como alternativa, el conjunto de imágenes se puede especificar directamente en la dirección URL mediante el modificador `imageset=`. Si se usa el modificador `imageset=` para especificar el conjunto de imágenes, todo el valor debe incluirse entre llaves para omitir el valor del conjunto de imágenes y garantizar que los modificadores incluidos no se interpreten como parte de la cadena de consulta de la dirección URL.
 
 ## Tipos de respuestas del conjunto {#section-93eb0a1f70344da2a888e56372ad3896}
 
@@ -29,7 +29,7 @@ El mecanismo de conjunto admite los siguientes tipos de respuestas:
 <table id="simpletable_3718A93699F64805A41BC8A24D7962D2"> 
  <tr class="strow"> 
   <td class="stentry"> <p>imágenes simples </p></td> 
-  <td class="stentry"> <p>Un registro de imagen sin <span class="codeph"> catalog::ImageSet</span> definido. </p></td> 
+  <td class="stentry"> <p>Un registro de imagen sin el catálogo <span class="codeph">::ImageSet</span> definido. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>vídeos simples </p></td> 
@@ -67,9 +67,9 @@ El mecanismo de conjunto admite los siguientes tipos de respuestas:
 
 ## Detección del tipo de conjunto externo {#section-3dd6e453528d46898e559d31458a59ba}
 
-Cuando un `req=set` Si se recibe la solicitud, el tipo de respuesta que se va a generar se determina mediante el valor de `catalog::AssetType`. If `catalog::AssetType` no está definida, el tipo de respuesta viene determinado por las siguientes reglas:
+Cuando se recibe una solicitud `req=set`, el tipo de respuesta que se va a generar se determina mediante el valor de `catalog::AssetType`. Si `catalog::AssetType` no está definido, el tipo de respuesta está determinado por las siguientes reglas:
 
-* Si el registro se encuentra en el catálogo de imágenes Y `catalog::ImageSet` está definido
+* Si se encuentra el registro en el catálogo de imágenes Y se ha definido `catalog::ImageSet`
 
    * Supongamos que el catálogo electrónico se ha definido si al menos una entrada del campo de registro Conjunto de imágenes contiene dos puntos
    * Supongamos que el conjunto de medios está establecido si al menos una entrada del campo de conjunto de imágenes de registro contiene dos punto y coma.
@@ -100,7 +100,7 @@ En todos los casos, la respuesta xml resultante se ajusta al documento XML espec
 
 ## Detección del tipo de conjunto interno {#section-8f46490e467247e69ce284704def06f3}
 
-Cuando se detecta el conjunto externo como un conjunto de medios de tipo, la respuesta contiene un conjunto de elementos de conjunto de medios correspondientes a cada entrada de conjunto de medios en `catalog::ImageSet`. Si se especifica el parámetro de tipo opcional para una entrada de conjunto de medios determinada, se asigna a un tipo de salida según la tabla siguiente:
+Cuando se detecta el conjunto externo como un conjunto de medios de tipo, la respuesta contiene un conjunto de elementos del conjunto de medios correspondientes a cada entrada del conjunto de medios en `catalog::ImageSet`. Si se especifica el parámetro de tipo opcional para una entrada de conjunto de medios determinada, se asigna a un tipo de salida según la tabla siguiente:
 
 | Tipo de entrada | Tipo de salida |
 |---|---|
@@ -126,22 +126,22 @@ La respuesta xml devuelta se ajusta a la siguiente especificación:
 
 ## LabelKey {#section-bf565de6f7294cf89620343c9071f415}
 
-El `labelkey=` se utiliza junto con el modificador `catalog::UserData`para generar etiquetas para imágenes y muestras. El `catalog:UserData` El campo se analiza como un conjunto de pares clave/valor y los índices labelkey se incluyen en este conjunto para recuperar el valor de la clave dada. Este valor se devuelve en la variable *`l`* para el *`s`* y *`i`*.
+El modificador `labelkey=` se usa junto con el campo `catalog::UserData` para generar etiquetas para imágenes y muestras. El campo `catalog:UserData` se analiza como un conjunto de pares clave/valor y los índices labelkey se incluyen en este conjunto para recuperar el valor de la clave dada. Este valor se devuelve en el atributo *`l`* para *`s`* y *`i`*.
 
 ## Restricciones forzadas {#section-b9f042873bee45a5ae11b69fd42f2bca}
 
-Para limitar el tamaño de la respuesta y evitar problemas de autorreferencia, la propiedad del servidor controla la profundidad máxima de anidación `PS::fvctx.nestingLimit`. Si se supera este límite, se devuelve un error.
+Para limitar el tamaño de la respuesta y evitar problemas de autorreferencia, la profundidad máxima de anidación está controlada por la propiedad del servidor `PS::fvctx.nestingLimit`. Si se supera este límite, se devuelve un error.
 
-Para limitar el tamaño de las respuestas xml de los grandes conjuntos de catálogos electrónicos, se suprimen los metadatos privados para los elementos de conjuntos de folletos según la propiedad del servidor `PS::fvctx.brochureLimit`. Todos los metadatos privados asociados con el folleto se exportan hasta que se alcanza el límite. Una vez superado el límite, los mapas privados y los datos de usuario se suprimen y se establece un indicador correspondiente para indicar qué tipo de datos se suprimió.
+Para limitar el tamaño de las respuestas xml de los grandes conjuntos de catálogos electrónicos, se suprimen los metadatos privados para los elementos del conjunto de folletos según la propiedad del servidor `PS::fvctx.brochureLimit`. Todos los metadatos privados asociados con el folleto se exportan hasta que se alcanza el límite. Una vez superado el límite, los mapas privados y los datos de usuario se suprimen y se establece un indicador correspondiente para indicar qué tipo de datos se suprimió.
 
 No se admiten conjuntos de medios anidados. Un conjunto de medios anidado se define como un conjunto de medios que contiene un elemento del conjunto de medios del tipo conjunto de medios. Si se detecta esta condición, se devuelve un error.
 
 ## Ejemplos {#section-588c9d33aa05482c86cd2b1936887228}
 
-Para respuestas XML de ejemplo para `req=set` , consulte la página Propiedades en el encabezado Ejemplos de HTML.
+Para obtener respuestas XML de ejemplo para la solicitud `req=set`, consulte la página Propiedades en el encabezado Ejemplos de HTML.
 
 `http://crc.scene7.com/is-docs/examples/properties.htm`
 
 ## Véase también {#section-625ec466c948476e800dc0c52a4532d3}
 
-[req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76) , [imageset=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-imageset-req.md#reference-c42935490db84830b31e9e649895dee3), [catalog::ImageSet](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md), [Referencia de catálogo de imágenes](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)
+[req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76) , [imageset=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-imageset-req.md#reference-c42935490db84830b31e9e649895dee3), [catálogo::ImageSet](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md), [Referencia de catálogo de imágenes](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)

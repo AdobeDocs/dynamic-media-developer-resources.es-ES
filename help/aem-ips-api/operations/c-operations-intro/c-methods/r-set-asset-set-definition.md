@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: f3fbe13b-e650-4a5d-9c46-a492b11fa13e
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 6%
+source-wordcount: '198'
+ht-degree: 5%
 
 ---
 
@@ -45,11 +45,11 @@ La API de IPS no devuelve una respuesta para esta operación.
 
 **Funciones setDefinition**
 
-Especificar `setDefinition` funciones de sustitución en línea. Se resuelven durante una búsqueda en el catálogo o en la publicación. Las cadenas de sustitución tienen el formato `${<substitution_func>}`e incluir lo siguiente:
+Especificar `setDefinition` funciones de sustitución en línea. Se resuelven durante una búsqueda en el catálogo o en la publicación. Las cadenas de sustitución tienen el formato `${<substitution_func>}` e incluyen lo siguiente:
 
 >[!NOTE]
 >
->Los literales de control de las listas de parámetros deben estar entre corchetes `([])`. El texto fuera de una cadena de sustitución se copia en la cadena de salida durante la resolución.
+>Los literales de identificador de las listas de parámetros deben estar entre corchetes `([])`. El texto fuera de una cadena de sustitución se copia en la cadena de salida durante la resolución.
 
 <table id="table_A93D2C273B694C289208AA926B2597CD"> 
  <thead> 
@@ -97,7 +97,7 @@ jcompany/myRenderSet;jcompany/myRenderSet;
 
 ## Ejemplos {#section-739b42eec3074cafae285ec015a2d088}
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <setAssetSetDefinitionParam xmlns="http://www.scene7.com/IpsApi/xsd/2009-07-31"> 

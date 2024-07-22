@@ -19,8 +19,8 @@ ht-degree: 4%
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td colname="col2"> <p> Especifica la posición de la etiqueta en relación con la imagen en miniatura. Es decir, la etiqueta se centra en la ubicación especificada en relación con la miniatura. </p> <p>Cuándo <span class="codeph"> información sobre herramientas</span> se especifica, el texto de la etiqueta se muestra como información de objeto flotante sobre la imagen en miniatura. </p> <p>Cuando se establece en <span class="codeph"> ninguno</span>, desactiva la visualización de etiquetas. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> inferior|superior|izquierdo|ninguno|información sobre herramientas</span> </p> </td> 
+   <td colname="col2"> <p> Especifica la posición de la etiqueta en relación con la imagen en miniatura. Es decir, la etiqueta se centra en la ubicación especificada en relación con la miniatura. </p> <p>Cuando se especifica <span class="codeph"> tooltip</span>, el texto de la etiqueta se muestra como información de objeto flotante sobre la imagen en miniatura. </p> <p>Cuando se establece en <span class="codeph"> none</span>, se desactiva la visualización de etiquetas. </p> </td> 
   </tr> 
  </tbody> 
 </table>

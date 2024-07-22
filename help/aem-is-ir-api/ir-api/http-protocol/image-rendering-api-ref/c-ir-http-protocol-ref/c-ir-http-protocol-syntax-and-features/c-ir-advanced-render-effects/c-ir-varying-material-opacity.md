@@ -16,8 +16,8 @@ ht-degree: 0%
 
 La opacidad variable se admite para el color sólido y las texturas repetibles aplicadas a objetos superpuestos, así como para calcomanías y materiales que cubren las ventanas.
 
-La información de opacidad se puede proporcionar simplemente utilizando una imagen de RGB con un canal alfa. Además, la opacidad global puede variar con el `opacity=` (para imágenes de RGB y RGBA).
+La información de opacidad se puede proporcionar simplemente utilizando una imagen de RGB con un canal alfa. Además, la opacidad general se puede variar con el comando `opacity=` (tanto para imágenes RGB como RGBA).
 
 Los bordes de pared también admiten imágenes RGBA, principalmente para apoyar bordes troquelados.
 
-El [!DNL vnw] los ficheros que definen las cubiertas de ventana pueden incluir un canal de opacidad. Lo combina el procesador con el canal alfa de la textura repetible y la `opacity=` valor para proporcionar una gama completa de efectos de opacidad para tratamientos de ventanas transparentes y translúcidas.
+Los [!DNL vnw] archivos que definen las cubiertas de ventana pueden incluir un canal de opacidad. Lo combina el procesador con el canal alfa de la textura repetible y el valor `opacity=` para proporcionar una gama completa de efectos de opacidad para tratamientos de ventana transparente y translúcida.

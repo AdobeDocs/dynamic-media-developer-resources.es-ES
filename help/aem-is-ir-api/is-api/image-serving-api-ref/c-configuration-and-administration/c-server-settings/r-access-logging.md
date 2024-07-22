@@ -7,8 +7,8 @@ role: Developer,Admin,User
 exl-id: e677a617-115d-4f6e-9eb5-bdc14ad7ff24
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 3%
+source-wordcount: '676'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ Sintaxis
 
 ## TC::directory: carpeta de archivos de registro {#section-5d9e2168d4504bbe9868b7d6051c9d67}
 
-La carpeta a la que [!DNL Platform Server] escribe archivos de registro. Puede ser una ruta absoluta o una ruta relativa a *`install_folder`*. El valor predeterminado es [!DNL  *`install_folder`*/logs].
+Carpeta en la que [!DNL Platform Server] escribe archivos de registro. Puede ser una ruta absoluta o una ruta relativa a *`install_folder`*. El valor predeterminado es [!DNL  *`install_folder`*/logs].
 
 >[!NOTE]
 >
@@ -36,9 +36,9 @@ Prefijo de nombre del archivo en el que se escriben los datos del registro de ac
 
 ## TC::pattern: patrón de registro de acceso {#section-22775ea85cee444d8a7d7336a3b1feef}
 
-Especifica el patrón de datos para [!DNL Platform Server] acceder a registros de registro. La cadena pattern especifica variables que se sustituyen por sus valores correspondientes. Todos los demás caracteres de la cadena de patrón se transfieren literalmente al registro de registro.
+Especifica el patrón de datos de [!DNL Platform Server] registros de registro de acceso. La cadena pattern especifica variables que se sustituyen por sus valores correspondientes. Todos los demás caracteres de la cadena de patrón se transfieren literalmente al registro de registro.
 
-Para utilizar la utilidad de calentamiento de caché, los espacios deben utilizarse como separadores de campo. El [!DNL Platform Server] reemplaza todos los espacios y caracteres &quot;%&quot; en los valores de campo por `%20` y `%25`, respectivamente.
+Para utilizar la utilidad de calentamiento de caché, los espacios deben utilizarse como separadores de campo. [!DNL Platform Server] reemplaza todos los espacios y los caracteres &#39;%&#39; de los valores de campo por `%20` y `%25`, respectivamente.
 
 Se admiten las siguientes variables de patrón:
 
@@ -76,7 +76,7 @@ Se admiten las siguientes variables de patrón:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %G </span> </p> </td> 
-   <td> <p>fecha y hora, con el formato <span class="codeph"> <span class="varname"> yyyy </span>- <span class="varname"> MM </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>: <span class="varname"> mm </span>: <span class="varname"> ss </span>. <span class="varname"> SSS </span> offset </span> </p> <p> ( <span class="varname"> SSS </span> son ms, <span class="varname"> offset </span> es la diferencia horaria GMT); el valor de hora se captura cuando la respuesta se envía al cliente. </p> </td> 
+   <td> <p>fecha y hora, con formato <span class="codeph"> <span class="varname"> aaaa </span>- <span class="varname"> MM </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>: <span class="varname"> mm </span>: <span class="varname"> ss </span>. <span class="varname"> SSS </span> desplazamiento </span> </p> <p> ( <span class="varname"> SMS </span> se miden ms, <span class="varname"> el desplazamiento </span> es el desplazamiento de tiempo GMT); el valor de tiempo se captura cuando se envía la respuesta al cliente. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %m </span> </p> </td> 
@@ -100,7 +100,7 @@ Se admiten las siguientes variables de patrón:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %R </span> </p> </td> 
-   <td> <p>Igual que <span class="codeph"> %r </span>, pero aplica una codificación HTTP limitada al URI para evitar problemas de análisis de registros. </p> </td> 
+   <td> <p>Igual que <span class="codeph"> %r </span>, pero aplica codificación HTTP limitada al URI para evitar problemas de análisis de registro. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %s </span> </p> </td> 
@@ -127,7 +127,7 @@ Se admiten las siguientes variables de patrón:
    <td> <p>Nombre del servidor local. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> % </span> </p> </td> 
+   <td> <p> <span class="codeph"> %T </span> </p> </td> 
    <td> <p>Tiempo de procesamiento de la solicitud en segundos. </p> </td> 
   </tr> 
   <tr> 
@@ -136,7 +136,7 @@ Se admiten las siguientes variables de patrón:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{CacheUse}r </span> </p> </td> 
-   <td> <p>[!DNL Platform Server] palabra clave de administración de caché: <span class="codeph"> { REUTILIZADO | CREADO | ACTUALIZADO | REMOTO | REMOTE_CREATED | REMOTE_UPDATED | CACHÉ_REMOTA | VALIDADO | IGNORADO | UNDEFINED } </span>. </p> </td> 
+   <td> <p>[!DNL Platform Server] palabra clave de administración de caché: <span class="codeph"> { REUSED | CREADO | ACTUALIZADO | REMOTO | REMOTE_CREATED | REMOTE_UPDATED | REMOTE_CACHE | VALIDADO | IGNORADO | UNDEFINED } </span>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{ContentType}r </span> </p> </td> 
@@ -148,7 +148,7 @@ Se admiten las siguientes variables de patrón:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{Digest}r </span> </p> </td> 
-   <td> <p>El <span class="codeph"> etag </span> valor del encabezado de respuesta (firma MD5 de los datos de respuesta). </p> </td> 
+   <td> <p>El valor del encabezado de respuesta <span class="codeph"> etag </span> (firma MD5 de los datos de respuesta). </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{Exception}r </span> </p> </td> 
@@ -168,7 +168,7 @@ Se admiten las siguientes variables de patrón:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{PeerServer}r </span> </p> </td> 
-   <td> <p>Dirección IP del servidor del mismo nivel en el clúster de caché que entregó la entrada de caché o "-" si <span class="codeph"> CacheUse </span> es ninguna <span class="codeph"> REMOTE_CREATED </span> ni <span class="codeph"> REMOTE_UPDATED </span>. </p> </td> 
+   <td> <p>Dirección IP del servidor del mismo nivel en el clúster de caché que entregó la entrada de caché o '-' si <span class="codeph"> CacheUse </span> no es <span class="codeph"> REMOTE_CREATED </span> ni <span class="codeph"> REMOTE_UPDATED </span>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{ProcessingStatus}r </span> </p> </td> 
@@ -191,11 +191,11 @@ Se admiten las siguientes variables de patrón:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{SendTime}r </span> </p> </td> 
-   <td> <p>El tiempo que tarda [!DNL Platform Server] para enviar una respuesta después de escribir datos en el flujo de salida. </p> </td> 
+   <td> <p>Tiempo que tarda [!DNL Platform Server] en enviar la respuesta después de escribir datos en el flujo de salida. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{Size}r </span> </p> </td> 
-   <td> <p>Like <span class="codeph"> %B </span>, pero incluye valores para respuestas 304 (no modificadas). </p> </td> 
+   <td> <p>Como <span class="codeph"> %B </span>, pero incluye valores para respuestas 304 (no modificadas). </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{TransformedUrl}r </span> </p> </td> 

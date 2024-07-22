@@ -29,7 +29,7 @@ Cada catálogo de imágenes consta de un archivo de atributos de catálogo neces
 
 Los archivos de datos de catálogo se asocian a los catálogos de imágenes mediante referencias de archivo en el archivo de atributos de catálogo. Varios catálogos de imágenes pueden compartir el mismo archivo de datos de catálogo.
 
-Los archivos de atributos de catálogo deben tener un [!DNL .ini] file y debe estar ubicado en el [!DNL Platform Server]Carpeta de catálogo de ( `PlatformServer::catalog.rootPath`). Los archivos de datos de catálogo se pueden encontrar en la misma carpeta o en cualquier otra carpeta accesible para el [!DNL Platform Server].
+Los archivos de atributos de catálogo deben tener un sufijo de archivo [!DNL .ini] y deben estar ubicados en la carpeta de catálogo de [!DNL Platform Server] ( `PlatformServer::catalog.rootPath`). Los archivos de datos de catálogo se pueden encontrar en la misma carpeta o en cualquier otra carpeta a la que tenga acceso [!DNL Platform Server].
 
 En este documento se describe el formato de archivo del catálogo de imágenes para el sistema de servicio de imágenes de Dynamic Media. La audiencia a la que se dirige son programadores con experiencia y desarrolladores de sitios web que desean aprovechar el servicio de imágenes de Dynamic Media para una aplicación web o personalizada.
 

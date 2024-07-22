@@ -8,7 +8,7 @@ exl-id: 010e969a-911e-49fc-8577-66c18cd4329c
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '61'
-ht-degree: 19%
+ht-degree: 16%
 
 ---
 
@@ -46,7 +46,7 @@ La API de IPS no devuelve una respuesta para esta operación.
 
 Este ejemplo de código pone en pausa un trabajo activo.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <pauseJobParam xmlns="http://www.scene7.com/IpsApi/xsd">

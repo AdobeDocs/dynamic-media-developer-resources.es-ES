@@ -22,7 +22,7 @@ Puede aplicar el siguiente comando desde la cadena de consulta URL y la configur
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> cssPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> Ubicación CSS relativa o absoluta. </p> <p>Especifica la ubicación del archivo CSS personalizado. Si la variable <span class="codeph"><span class="varname"> cssPath</span></span> es relativo, se resuelve con la ubicación de la página del HTML del visor y el valor de <span class="codeph"> contentUrl=</span> parámetro. </p> </td> 
+   <td colname="col2"> <p> Ubicación CSS relativa o absoluta. </p> <p>Especifica la ubicación del archivo CSS personalizado. Si <span class="codeph"><span class="varname"> cssPath</span></span> es relativo, se resuelve con la ubicación de la página del HTML del visor y el valor de <span class="codeph"> contentUrl=</span> parámetro. </p> </td> 
   </tr> 
  </tbody> 
 </table>

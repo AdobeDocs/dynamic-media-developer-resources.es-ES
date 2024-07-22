@@ -34,7 +34,7 @@ Sintaxis
 | companyHandle | `xsd:string` | Sí | Gestionar en la empresa. |
 | assetHandle | `xsd:string` | Sí | Administre en el recurso. |
 
-**Salida (getViewerConfigSettingsReturn)**
+**Salida (getViewerCofigSettingsReturn)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|

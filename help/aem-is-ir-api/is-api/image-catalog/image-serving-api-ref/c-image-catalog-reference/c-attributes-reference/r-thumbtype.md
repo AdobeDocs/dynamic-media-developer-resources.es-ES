@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: ac29ac3a-8c6b-4c87-954f-37d1ddec76f5
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '82'
 ht-degree: 3%
 
 ---
@@ -20,11 +20,11 @@ Solo se usa para solicitudes de miniaturas ( `req=tmb`).
 
 ## Propiedades {#section-ae0babfe3c8e4c8ebe0124bc55051265}
 
-Enumeración. Los valores permitidos son 1, 2 y 3, para *`crop`*, *`fit`*, y *`texture`* tipos de miniaturas, respectivamente.
+Enumeración. Los valores permitidos son 1, 2 y 3, para los tipos de miniaturas *`crop`*, *`fit`* y *`texture`*, respectivamente.
 
 ## Predeterminado {#section-0237fcae4f304c5b876fceaa839b6b05}
 
-Heredado de `default::ThumbType`si no se define o si está vacío.
+Se hereda de `default::ThumbType` si no se ha definido o está vacío.
 
 ## Véase también {#section-986c97470c494bfd8f179cecf8cc3ccc}
 

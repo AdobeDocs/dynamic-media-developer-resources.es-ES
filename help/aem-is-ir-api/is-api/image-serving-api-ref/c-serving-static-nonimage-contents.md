@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: adc3d972-b02d-40db-992e-acaa06b848ff
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 1%
+source-wordcount: '459'
+ht-degree: 0%
 
 ---
 
@@ -22,15 +22,15 @@ El servicio de imágenes admite los siguientes comandos en [!DNL /is/content]:
 
 <table id="simpletable_8A3AB1D1D20F4B6CBE86767E94735980"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-type.md#reference-89094fd1c50c444eb082cd266769cccb" format="dita" scope="local"> type </a> </p> </td> 
+  <td class="stentry"> <p> <a href="../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-type.md#reference-89094fd1c50c444eb082cd266769cccb" format="dita" scope="local"> tipo </a> </p> </td> 
   <td class="stentry"> <p>Filtro de tipo de contenido. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76" format="dita" scope="local"> req </a> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> req=userdata </span>, <span class="codeph"> req=props </span>, y <span class="codeph"> req=exists </span> solo. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> req=userdata </span>, <span class="codeph"> req=props </span> y <span class="codeph"> req=exists </span> solamente. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-cache.md#reference-168189bee4ce4d1189d427891f22be2e" format="dita" scope="local"> escondrijo </a> </p> </td> 
+  <td class="stentry"> <p> <a href="../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-cache.md#reference-168189bee4ce4d1189d427891f22be2e" format="dita" scope="local"> caché </a> </p> </td> 
   <td class="stentry"> <p>Permite deshabilitar el almacenamiento en caché del lado del cliente. </p> </td> 
  </tr> 
 </table>
@@ -40,26 +40,26 @@ El servicio de imágenes admite los siguientes comandos en [!DNL /is/content]:
 <table id="simpletable_2F039A5BFA2C4E22B014F42ECBCDA0A2"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> solicitud </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="filepath"> http:// <span class="varname"> server </span>/is/content[/catalog/ <span class="varname"> artículo </span>][? <span class="varname"> modificadores </span>] </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="filepath"> http:// <span class="varname"> servidor </span>/is/content[/catalog/ <span class="varname"> elemento </span>][? <span class="varname"> modificadores </span>] </span> </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> server </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> server_address </span>[ : <span class="varname"> puerto </span>] </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> servidor </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> dirección_servidor </span>[ : <span class="varname"> puerto </span>] </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> catalogar </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> catálogo </span> </span> </p> </td> 
   <td class="stentry"> <p>Identificador de catálogo. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> artículo </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> elemento </span> </span> </p> </td> 
   <td class="stentry"> <p>ID de elemento de contenido estático. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> modificadores </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> mando </span>*[&amp; <span class="varname"> mando </span>] </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> comando </span>*[&amp; <span class="varname"> comando </span>] </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> mando </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> comando </span> </span> </p> </td> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> cmdName </span>= <span class="varname"> valor </span> </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -85,35 +85,35 @@ Los catálogos de contenido estático son similares a los catálogos de imágene
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> catalog::Id </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> catálogo::Id </span> </p> </td> 
    <td colname="col2"> <p>El identificador de registro de catálogo para este elemento de contenido estático. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> catalog::Path </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> catálogo::Ruta </span> </p> </td> 
    <td colname="col2"> <p>Ruta de archivo para este elemento de contenido. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> catalog::Expiration </span> </p> </td> 
-   <td colname="col2"> <p>El TTL para este elemento de contenido; <span class="codeph"> attribute::Caducidad </span> se utiliza si no se especifica o si está vacío. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> catálogo::Caducidad </span> </p> </td> 
+   <td colname="col2"> <p>El TTL para este elemento de contenido; <span class="codeph"> attribute::Expiration </span> se usa si no se especifica o si está vacío. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> catalog::TimeStamp </span> </p> </td> 
-   <td colname="col2"> <p>Marca de tiempo de modificación de archivos; necesaria cuando la validación basada en catálogo está habilitada con <span class="codeph"> attribute::CacheValidationPolicy </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> catálogo::TimeStamp </span> </p> </td> 
+   <td colname="col2"> <p>Marca de tiempo de modificación de archivo; necesaria cuando la validación basada en catálogo está habilitada con el atributo <span class="codeph">::CacheValidationPolicy </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> catalog::UserData </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> catálogo::UserData </span> </p> </td> 
    <td colname="col2"> <p>Metadatos opcionales asociados con este elemento de contenido estático; disponibles para el cliente con <span class="codeph"> req=userdata </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> catalog::UserType </span> </p> </td> 
-   <td colname="col2"> <p>Tipo de datos opcional; se puede utilizar para filtrar solicitudes de contenido estático con <span class="codeph"> type= comando </span>. </p> </td> 
+   <td colname="col1"> <p> Catálogo <span class="codeph">::UserType </span> </p> </td> 
+   <td colname="col2"> <p>Tipo de datos opcional; se puede usar para filtrar solicitudes de contenido estático con el comando <span class="codeph"> type= </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Filtrado de contenido estático {#section-4c41bf41ff994910840c1352683d1f37}
 
-Este mecanismo puede ayudar a garantizar que los clientes solo reciban el contenido adecuado para sus necesidades. Suponiendo que el contenido estático esté etiquetado con lo apropiado `catalog::UserType` valores, el cliente puede agregar los `type=` a la solicitud. El servicio de imágenes compara el valor proporcionado con la variable `type=` comando al valor de `catalog::UserType` y, si hay una discrepancia, devuelve un error en lugar de contenido potencialmente inapropiado.
+Este mecanismo puede ayudar a garantizar que los clientes solo reciban el contenido adecuado para sus necesidades. Suponiendo que el contenido estático esté etiquetado con los valores `catalog::UserType` adecuados, el cliente puede agregar el comando `type=` a la solicitud. El servicio de imágenes compara el valor proporcionado con el comando `type=` con el valor de `catalog::UserType` y, si no coincide, devuelve un error en lugar de contenido potencialmente inapropiado.
 
 ## Archivos de subtítulos de vídeo {#section-1ad25e10399e43eaa8ecb09b531dbf1a}
 

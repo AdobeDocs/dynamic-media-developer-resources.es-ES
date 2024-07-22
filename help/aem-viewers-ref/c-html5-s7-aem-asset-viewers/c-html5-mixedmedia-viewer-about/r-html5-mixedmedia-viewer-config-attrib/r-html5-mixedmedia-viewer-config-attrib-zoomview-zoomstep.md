@@ -7,24 +7,24 @@ role: Developer,User
 exl-id: 5d978d21-7942-4bd6-b742-9bf4b6fd3ebe
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 6%
+source-wordcount: '82'
+ht-degree: 3%
 
 ---
 
 # ZoomView.zoomstep{#zoomview-zoomstep}
 
-` [ZoomView.|<containerId>_zoomView.]zoomstep= *`escalón`*[, *`límite`*]`
+` [ZoomView.|<containerId>_zoomView.]zoomstep= *`paso`*[, *`límite`*]`
 
 <table id="table_1D425B7685D448459CD3FE8D683C813C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> paso</span></span> </p> </td> 
-   <td colname="col2"> <p> Configura el número de acciones de ampliar y alejar necesarias para aumentar o disminuir la resolución mediante un factor de dos. El cambio de resolución para cada acción de zoom es de 2^1 por paso. Configure como. <span class="codeph"> 0</span> para ampliar a resolución completa con una única acción de zoom. </p> </td> 
+   <td colname="col2"> <p> Configura el número de acciones de ampliar y alejar necesarias para aumentar o disminuir la resolución mediante un factor de dos. El cambio de resolución para cada acción de zoom es de 2^1 por paso. Definir en <span class="codeph"> 0</span> para ampliar a la resolución completa con una única acción de zoom. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> límite</span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica la resolución de zoom máxima en relación con la imagen con resolución completa. El valor predeterminado es <span class="codeph"> 1,0</span>, que no permite un zoom superior a la resolución completa. </p> </td> 
+   <td colname="col2"> <p> Especifica la resolución de zoom máxima en relación con la imagen con resolución completa. El valor predeterminado es <span class="codeph"> 1.0</span>, que no permite un zoom superior a la resolución completa. </p> </td> 
   </tr> 
  </tbody> 
 </table>

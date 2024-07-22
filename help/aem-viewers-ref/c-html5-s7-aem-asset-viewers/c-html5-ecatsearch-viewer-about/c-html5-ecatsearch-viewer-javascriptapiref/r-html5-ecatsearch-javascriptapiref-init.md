@@ -1,6 +1,6 @@
 ---
 title: init
-description: Referencia de la API de JavaScript para eCatalog Viewer.
+description: Referencia de la API de JavaScript para el visor de catálogos electrónicos.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 2%
 
 # init{#init}
 
-Referencia de la API de JavaScript para eCatalog Viewer.
+Referencia de la API de JavaScript para el visor de catálogos electrónicos.
 
 [!DNL `init()`]
 
 Inicia la inicialización del visor de catálogos electrónicos. Para este momento, se debe crear el elemento DOM contenedor para que el código del visor pueda encontrarlo por su ID.
 
-Si el elemento contenedor aún no forma parte del diseño de la página web; por ejemplo, puede ocultarse utilizando [!DNL `display:none`] estilo asignado a él: el visor suspende su proceso de inicialización. Lo hace hasta el momento en que la página web devuelve el elemento contenedor al diseño. Cuando este evento se produce, la carga del visor se reanuda automáticamente.
+Si el elemento contenedor aún no forma parte del diseño de la página web (por ejemplo, se puede ocultar usando el estilo [!DNL `display:none`] asignado), el visor suspende el proceso de inicialización. Lo hace hasta el momento en que la página web devuelve el elemento contenedor al diseño. Cuando este evento se produce, la carga del visor se reanuda automáticamente.
 
 Llame a este método solo una vez durante el ciclo de vida del visor; las llamadas posteriores se omiten.
 

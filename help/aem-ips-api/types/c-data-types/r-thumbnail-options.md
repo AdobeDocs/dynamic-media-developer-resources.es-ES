@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 7d84590d-2227-4d9a-9cb0-0f4b1fcabd8e
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '95'
 ht-degree: 6%
 
 ---
@@ -32,7 +32,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailTime</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> <p>Establece el tiempo (en milisegundos desde el inicio del vídeo) para el fotograma que desea utilizar para la miniatura de vídeo. Los valores van del 0 al final del vídeo. <p>Nota: El sistema utiliza el primer fotograma del vídeo para la miniatura si se especifica la hora de forma incorrecta. Consulte <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> OpcionesDeMedios</a>. </p></p> </td> 
+   <td colname="col3"> <p>Establece el tiempo (en milisegundos desde el inicio del vídeo) para el fotograma que desea utilizar para la miniatura de vídeo. Los valores van del 0 al final del vídeo. <p>Nota: El sistema utiliza el primer fotograma del vídeo para la miniatura si se especifica la hora de forma incorrecta. Consulte <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> opciones de medios</a>. </p></p> </td> 
   </tr> 
  </tbody> 
 </table>

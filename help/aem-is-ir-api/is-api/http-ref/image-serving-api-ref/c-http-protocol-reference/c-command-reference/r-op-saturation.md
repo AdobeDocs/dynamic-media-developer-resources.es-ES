@@ -25,7 +25,7 @@ Ajuste la saturación. Cambia la saturación de cada píxel visible de la capa o
  </tr> 
 </table>
 
-`op_saturation=-100` desaturar completamente la imagen.
+`op_saturation=-100` desaturará completamente la imagen.
 
 ## Propiedades {#section-9a3cc9ff060049449554dfa69d92fd53}
 
@@ -33,7 +33,7 @@ Capa, comando. Se aplica a la capa actual o a la imagen compuesta si `layer=comp
 
 ## Predeterminado {#section-ef0e78f55c8b4d22aee09104dad6410a}
 
-`op_saturation=0`, para no cambiar la saturación. Las imágenes o capas CMYK se convierten en RGB antes de que se aplique la operación.
+`op_saturation=0`, sin cambios en la saturación. Las imágenes o capas CMYK se convierten en RGB antes de que se aplique la operación.
 
 ## Ejemplo {#section-033b272f1b7e4efeb94e841fd8095357}
 

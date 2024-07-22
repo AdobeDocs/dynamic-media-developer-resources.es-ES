@@ -8,7 +8,7 @@ exl-id: ba1f62a7-2698-4300-b6de-6d07ac764b0c
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '97'
-ht-degree: 16%
+ht-degree: 14%
 
 ---
 
@@ -36,7 +36,6 @@ Sintaxis
 >* Todos los usuarios tienen acceso a la compañía compartida.
 >
 
-
 ## Parámetros {#section-1742fcb196224545b270eb8241f757a8}
 
 **Entrada (batchGetAssetPublishContextsParam)**
@@ -44,7 +43,7 @@ Sintaxis
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Sí | Gestionar en la empresa. |
-| assetHandleArray | ` `tipos:HandleArray&quot; | Sí | Una lista de los recursos que desea consultar para contextos activos (marcados para publicación). |
+| assetHandleArray | ` `types:HandleArray&quot; | Sí | Una lista de los recursos que desea consultar para contextos activos (marcados para publicación). |
 
 **Salida (batchGetAssetPublishContextsReturn)**
 
@@ -54,7 +53,7 @@ Sintaxis
 
 ## Ejemplos {#section-457f6809ccfa425b9a0976313d613f4e}
 
-**Solicitar**
+**Solicitud**
 
 ```java {.line-numbers}
 <batchGetAssetPublishContextsParam xmlns="http://www.scene7.com/IpsApi/xsd/2011-11-04">

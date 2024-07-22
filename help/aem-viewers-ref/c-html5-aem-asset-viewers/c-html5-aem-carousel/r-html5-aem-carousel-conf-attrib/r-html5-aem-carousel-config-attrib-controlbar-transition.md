@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 260a1767-e49a-46e3-9c3d-23efa5c3228e
 source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 3%
+source-wordcount: '123'
+ht-degree: 1%
 
 ---
 
@@ -16,17 +16,17 @@ ht-degree: 3%
 
 Atributo de configuración para el visualizador de carrusel.
 
-` [ControlBar.|<containerId>_controlBar.]transition=none|fade[, *`dilatar para ocultar`*[, *`duration`*]`
+` [ControlBar.|<containerId>_controlBar.]transition=none|fade[, *`delaytohide`*[, *`duration`*]`
 
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> none|fade</span> </p> </td> 
-   <td colname="col2"> <p> Especifica el tipo de efecto utilizado para mostrar u ocultar la barra de control y su contenido. </p> <p>Configure como. <span class="codeph"> ninguno</span> para mostrar u ocultar instantáneamente. </p> <p>Configure como. <span class="codeph"> atenuación</span> para proporcionar un efecto de fundido de entrada y salida gradual. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ninguno|fundido</span> </p> </td> 
+   <td colname="col2"> <p> Especifica el tipo de efecto utilizado para mostrar u ocultar la barra de control y su contenido. </p> <p>Definir en <span class="codeph"> none</span> para mostrar u ocultar instantáneamente. </p> <p>Se establece en <span class="codeph"> fade</span> para proporcionar un efecto de fundido de entrada y salida gradual. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> dilatar para ocultar</span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica el tiempo en segundos entre el último evento táctil o de ratón registrado por la barra de control y el momento en que se oculta la barra de control. </p> <p>Si se establece en <span class="codeph"> -1</span> el componente nunca déclencheur su efecto de ocultación automática y, por lo tanto, siempre permanece visible en la pantalla. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> retraso para ocultar</span></span> </p> </td> 
+   <td colname="col2"> <p> Especifica el tiempo en segundos entre el último evento táctil o de ratón registrado por la barra de control y el momento en que se oculta la barra de control. </p> <p>Si se establece en <span class="codeph"> -1</span>, el componente nunca déclencheur su efecto de ocultación automática y, por lo tanto, siempre permanece visible en la pantalla. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> duración</span></span> </p> </td> 

@@ -1,5 +1,5 @@
 ---
-description: Referencia de la API de JavaScript para eCatalog Viewer.
+description: Referencia de la API de JavaScript para el visor de catálogos electrónicos.
 solution: Experience Manager
 title: setParams
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
@@ -14,13 +14,13 @@ ht-degree: 2%
 
 # setParams{#setparams}
 
-Referencia de la API de JavaScript para eCatalog Viewer.
+Referencia de la API de JavaScript para el visor de catálogos electrónicos.
 
 [!DNL ` setParams( *`parámetros`*)`]
 
-Establece uno o varios parámetros en un valor determinado. La sintaxis del argumento de método es idéntica a una cadena de consulta de dirección URL. Es decir, representa pares nombre=valor separados con [!DNL `&`]. Al igual que en una cadena de consulta, los nombres y valores se codifican con porcentajes mediante UTF8. Antes de llamar a [!DNL `init()`], este parámetro debe llamarse.
+Establece uno o varios parámetros en un valor determinado. La sintaxis del argumento de método es idéntica a una cadena de consulta de dirección URL. Es decir, representa pares nombre=valor separados con [!DNL `&`]. Al igual que en una cadena de consulta, los nombres y valores se codifican con porcentajes mediante UTF8. Antes de llamar a [!DNL `init()`], se debe llamar a este parámetro.
 
-Este método es opcional si la información de configuración del visor se pasa con [!DNL `config`] Objeto JSON al constructor.
+Este método es opcional si la información de configuración del visor se pasa con el objeto JSON [!DNL `config`] al constructor.
 
 Consulte también [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
@@ -28,7 +28,7 @@ Consulte también [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatal
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> parámetros</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}</span> pares de parámetros nombre=valor separados con <span class="codeph"> &amp;</span>. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}</span> pares de parámetro name=value separados con <span class="codeph"> &amp;</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

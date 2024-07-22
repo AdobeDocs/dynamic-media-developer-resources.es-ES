@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 9314782f-703b-4e9c-a026-62970d1c752f
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 2%
+source-wordcount: '202'
+ht-degree: 1%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 Si una solicitud no se puede completar correctamente, el servidor devuelve una imagen de error o un estado de respuesta HTTP distinto de 200 junto con un mensaje de error.
 
-El valor del estado de respuesta depende del tipo de error; para los errores más comunes es &quot;403&quot;. Las respuestas de error para tipos de solicitud que no son de imagen se ajustan al formato especificado con `req=`. (Es posible que no se implemente de forma coherente en este momento).
+El valor del estado de respuesta depende del tipo de error; para los errores más comunes es &quot;403&quot;. Las respuestas de error para los tipos de solicitud que no son de imagen se ajustan al formato especificado con `req=`. (Es posible que no se implemente de forma coherente en este momento).
 
 La cantidad de detalles incluidos en el mensaje de error se puede configurar con `attribute::ErrorDetail`.
 
@@ -30,7 +30,7 @@ Si la imagen de error se genera correctamente, el estado de respuesta HTTP es 20
 
 ## Imagen predeterminada {#section-66bf25fe6b434081bfae96d38d9be25e}
 
-El servicio de imágenes se puede configurar para sustituir una imagen que falta por una imagen predeterminada. La imagen predeterminada se puede especificar con `attribute::DefaultImage` o el `defaultImage=` comando.
+El servicio de imágenes se puede configurar para sustituir una imagen que falta por una imagen predeterminada. La imagen predeterminada se puede especificar con `attribute::DefaultImage` o el comando `defaultImage=`.
 
 ## Véase también {#section-e261d7f224ca4546bb64bf8cb909db08}
 

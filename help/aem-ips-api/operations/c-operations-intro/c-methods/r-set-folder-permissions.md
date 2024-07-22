@@ -8,7 +8,7 @@ exl-id: 0da05679-207e-4dc8-9bfe-2cf09a8c3f17
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '91'
-ht-degree: 15%
+ht-degree: 13%
 
 ---
 
@@ -43,7 +43,7 @@ La API de IPS no devuelve una respuesta para esta operación.
 
 Este ejemplo de código especifica un identificador de compañía, un identificador de carpeta y una matriz de permisos con información detallada sobre la carpeta. Aplica los mismos permisos a los elementos secundarios de la carpeta principal.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <setFolderPermissionsParam xmlns="http://www.scene7.com/IpsApi/xsd">

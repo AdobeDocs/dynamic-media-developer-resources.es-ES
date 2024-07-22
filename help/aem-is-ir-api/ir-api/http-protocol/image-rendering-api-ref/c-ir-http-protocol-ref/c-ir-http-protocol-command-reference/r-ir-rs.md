@@ -37,7 +37,7 @@ Atributo de material.
 
 ## Ejemplo {#section-47e4811882574441a4d517e42a35f352}
 
-Después de algunos experimentos en la creación de imágenes, se determina que el enmascaramiento de enfoque (USM) proporciona la cantidad correcta de enfoque para la aplicación y el material dados. La cadena de configuración de procesamiento que configura USM se copia en `rs=` para utilizar con este material:
+Después de algunos experimentos en la creación de imágenes, se determina que el enmascaramiento de enfoque (USM) proporciona la cantidad correcta de enfoque para la aplicación y el material dados. La cadena de configuración de procesamiento que configura USM se copia en el comando `rs=` para su uso con este material:
 
 `…&rs=U2V20W50X2&…`
 

@@ -8,7 +8,7 @@ exl-id: 7f9f1bfe-c68f-4ad4-a4a3-e0a8952e07af
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 5%
+ht-degree: 3%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 5%
 
 Atributo de configuración para el visor de vídeo.
 
-` [VideoPlayer.|<containerId>_videoPlayer.]progressivebitrate= *`basado en IP`*`
+` [VideoPlayer.|<containerId>_videoPlayer.]progressivebitrate= *`valor`*`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> basado en IP</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> valor</span> </p> </td> 
    <td colname="col2"> <p> Especifica la velocidad de bits de vídeo deseada (en kilobits por segundos o kbps) para la reproducción de un conjunto de vídeos adaptables en caso de que el sistema operativo no admita la reproducción de vídeo adaptable. </p> <p>El componente detectará el flujo de vídeo con la velocidad más cercana posible al valor especificado (pero sin sobrepasarla). Si todos los flujos de vídeo del conjunto de vídeos adaptables tienen una calidad mayor que el valor especificado, la lógica elige la velocidad de bits con la calidad más baja. </p> </td> 
   </tr> 
  </tbody> 

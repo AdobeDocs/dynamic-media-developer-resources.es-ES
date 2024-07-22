@@ -31,7 +31,7 @@ Capa, comando. Se aplica a la capa actual o a la imagen compuesta si `layer=comp
 
 ## Predeterminado {#section-be56be0759634c79b4f264f194a94dbc}
 
-`op_brightness=0`, para que no cambie el brillo.
+`op_brightness=0`, sin cambio de brillo.
 
 ## Ejemplo {#section-c25f952f1b77409abb9ccf885862d75c}
 

@@ -18,7 +18,7 @@ El visor muestra las regiones de resultados de búsqueda en la vista principal p
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propiedades CSS del área del visor principal**
+**Propiedades CSS del área de visor principal**
 
 El aspecto de las regiones de resultados de búsqueda se controla con el siguiente selector de clase CSS:
 

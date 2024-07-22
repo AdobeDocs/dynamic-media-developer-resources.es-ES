@@ -8,7 +8,7 @@ exl-id: da6923c3-9b86-4595-8205-645fb10e03b0
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '90'
-ht-degree: 18%
+ht-degree: 16%
 
 ---
 
@@ -50,7 +50,7 @@ Sintaxis
 
 Este ejemplo de código devuelve conjuntos de propiedades de su propietario principal, especificados por un identificador de tipo.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <getPropertySetsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

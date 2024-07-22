@@ -1,6 +1,6 @@
 ---
 title: setVideo
-description: Referencia de la API de JavaScript para el visor de Video360
+description: Referencia de la API de JavaScript para el visualizador Video360
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 5%
 
 # setVideo{#setvideo}
 
-Referencia de la API de JavaScript para el visor de Video360
+Referencia de la API de JavaScript para el visualizador Video360
 
 `setVideo(videoUrl)`
 
-Establece un nuevo vídeo externo. Se puede llamar a en cualquier momento, tanto antes como después de `init()`. Si se llama después de `init()`, el visualizador intercambia el vídeo en tiempo de ejecución.
+Establece un nuevo vídeo externo. Se puede llamar en cualquier momento, tanto antes como después de `init()`. Si se llama después de `init()`, el visor intercambia el vídeo en tiempo de ejecución.
 
 Consulte también [init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-init.md#reference-3b570ba8b35045d6b30fb178c21a66c6).
 
@@ -28,7 +28,7 @@ Consulte también [init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-ref
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> videoUrl </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> Cadena</span>} una URL absoluta para el nuevo vídeo. </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> cadena</span>} una dirección URL absoluta para el nuevo vídeo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -8,7 +8,7 @@ exl-id: 569130ae-5515-4b14-a410-2bd6f9fc7638
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '118'
-ht-degree: 19%
+ht-degree: 17%
 
 ---
 
@@ -18,7 +18,7 @@ Crea una carpeta.
 
 >[!NOTE]
 >
->La nueva carpeta está subordinada a la carpeta Imágenes, incluso si especifica una `/` para indicar la raíz de la compañía.
+>La nueva carpeta está subordinada a la carpeta Imágenes, aunque especifique un `/` para indicar la raíz de la compañía.
 
 Sintaxis
 
@@ -54,7 +54,7 @@ Sintaxis
 
 Este código de ejemplo crea una carpeta en la raíz de una compañía. La respuesta devuelve el identificador de la carpeta recién creada.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <ns1:createFolderParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

@@ -34,6 +34,6 @@ El servidor de imágenes está instalado como daemon de Linux®.
 
 [!DNL  http:// *[!DNL server:port]*/ir/render]
 
-En las respuestas, compruebe la presencia de elementos que empiecen por `imageServer`, que indican que la variable [!DNL Platform Server] se ha podido comunicar correctamente con el servidor de imágenes.
+En las respuestas, compruebe la presencia de elementos que empiecen por `imageServer`, lo que indica que [!DNL Platform Server] se pudo comunicar correctamente con el servidor de imágenes.
 
 >Se puede realizar una verificación adicional utilizando las páginas de muestra de los paquetes de documentación y demostración, si están instalados.

@@ -8,7 +8,7 @@ exl-id: 3f794f46-e7f0-4899-90fa-898a698dd629
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
 source-wordcount: '145'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ Estos comandos se aplican independientemente de dónde aparezcan en la solicitud
 
 <table id="simpletable_3F7C17FB9E374EFDAD01EB24F57EC367"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-cache.md#reference-168189bee4ce4d1189d427891f22be2e" type="reference" format="dita" scope="local"> escondrijo</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-cache.md#reference-168189bee4ce4d1189d427891f22be2e" type="reference" format="dita" scope="local"> caché</a> </p></td> 
   <td class="stentry"> <p>Anula el comportamiento predeterminado de almacenamiento en caché de respuestas. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -70,7 +70,7 @@ Estos comandos se aplican independientemente de dónde aparezcan en la solicitud
   <td class="stentry"> <p>Especifica una plantilla de composición. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-locale.md#reference-8a846b2fbc004a12821b956ed3b25cfb" type="reference" format="dita" scope="local"> locale</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-locale.md#reference-8a846b2fbc004a12821b956ed3b25cfb" type="reference" format="dita" scope="local"> configuración regional</a> </p></td> 
   <td class="stentry"> <p>Especifica una plantilla de composición. </p></td> 
  </tr> 
  <tr class="strow"> 

@@ -16,4 +16,4 @@ ht-degree: 6%
 
 No hay valor predeterminado.
 
-El servidor solo sustituye las variables definidas. Cualquier incidencia de `$ *[!DNL name]*$` que no coinciden con ninguna variable personalizada definida siguen siendo literales.
+El servidor solo sustituye las variables definidas. Cualquier aparición de `$ *[!DNL name]*$` que no coincida con ninguna variable personalizada definida seguirá siendo literal.

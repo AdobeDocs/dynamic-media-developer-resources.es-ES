@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: f0cb5a99-814f-4c4d-bfe3-bb670c8f9926
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '181'
 ht-degree: 1%
 
 ---
@@ -18,11 +18,11 @@ Referencia de la API de JavaScript para el visor de giros
 
 `getComponent(componentId)`
 
-Devuelve una referencia al componente del SDK del visor que utiliza el visor. La página web puede utilizar este método para ampliar o personalizar el comportamiento del visualizador integrado. Llame a este método solo después de que `initComplete` la llamada de retorno del visor se ha ejecutado; de lo contrario, es posible que la lógica del visor aún no haya creado el componente.
+Devuelve una referencia al componente del SDK del visor que utiliza el visor. La página web puede utilizar este método para ampliar o personalizar el comportamiento del visualizador integrado. Llame a este método únicamente después de que se haya ejecutado la devolución de llamada del visor `initComplete`; de lo contrario, es posible que la lógica del visor aún no haya creado el componente.
 
 ## Parámetros {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`componentID`*` - `{String}` un ID del componente del SDK del visor utilizado por el visor. Este visor es compatible con los siguientes ID de componente:
+`*`componentID`*` - `{String}` es un ID del componente de SDK de visor que usa el visor. Este visor es compatible con los siguientes ID de componente:
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
@@ -79,13 +79,13 @@ Devuelve una referencia al componente del SDK del visor que utiliza el visor. La
  </tbody> 
 </table>
 
-Al trabajar con las API de SDK, es importante utilizar un área de nombres de SDK correcta y completa, tal como se describe en [SDK de visor](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-namespace.md#concept-fa293878c9ff4758ae888415c70fbeef).
+Al trabajar con las API de SDK, es importante usar un espacio de nombres de SDK correcto y completo, tal como se describe en [SDK de visor](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-namespace.md#concept-fa293878c9ff4758ae888415c70fbeef).
 
 Consulte la documentación de la API del SDK de Viewer para obtener más información sobre un componente en particular.
 
 ## Devuelve {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` Una referencia al componente SDK de visor. El método devuelve `null` si la variable `componentId` no es un componente de visor compatible o si la lógica del visor aún no ha creado el componente.
+`{Object}` Una referencia al componente SDK del visor. El método devuelve `null` si `componentId` no es un componente de visor compatible o si la lógica del visor aún no ha creado el componente.
 
 ## Ejemplo {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

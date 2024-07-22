@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: c9dccf8d-56b3-4608-ac05-9c17babc609e
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '122'
 ht-degree: 4%
 
 ---
@@ -18,11 +18,11 @@ Duración predeterminada de la caché del cliente. Proporciona un intervalo de c
 
 ## Propiedades {#section-063be3b2f13a48a3a5ab8080718e9812}
 
-Número real, 0 o bueno. Número de horas hasta la caducidad desde que se generaron los datos de respuesta. Si se establece en 0, la imagen de respuesta siempre caducará inmediatamente, lo que deshabilita el almacenamiento en caché del cliente. Establezca en -1 para marcar como `never expire`.
+Número real, 0 o superior. Número de horas hasta la caducidad desde que se generaron los datos de respuesta. Si se establece en 0, la imagen de respuesta siempre caducará inmediatamente, lo que deshabilita el almacenamiento en caché del cliente. Establezca en -1 para marcar como `never expire`.
 
 ## Predeterminado {#section-f55308b195c04083996f6717c8537634}
 
-Heredado de `default::Expiration` si no se define o si está vacío.
+Se hereda de `default::Expiration` si no se ha definido o está vacío.
 
 TTL (Tiempo de vida) es la duración antes de que caduque la caché. El TTL predeterminado es 10 horas.
 

@@ -8,7 +8,7 @@ exl-id: 8ea6dbb8-4d32-43e5-961f-31110f983663
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '192'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
@@ -50,7 +50,7 @@ Sintaxis
 
 En este ejemplo se establecen los datos de los campos de dos imágenes de una matriz de actualización. En la matriz, las imágenes se especifican mediante sus controladores de recursos y contienen resolución en píxeles, coordenadas de anclaje de posición x e y y datos de usuario. La respuesta indica que los campos de ambas imágenes se configuraron correctamente.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <batchSetImageFieldsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

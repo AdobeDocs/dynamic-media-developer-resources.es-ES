@@ -22,7 +22,7 @@ Permite recortar hasta el cuadro delimitador de una ruta con nombre incrustada. 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> pathName</span></span> </p> </td> 
-   <td colname="col2"> <p>Nombre de la ruta incrustada en la imagen de origen de la capa (solo ASCII). </p> <p> <span class="codeph"><span class="varname"> pathName</span></span> es el nombre de un trazado incrustado en la imagen de origen de la capa. La ruta se transforma automáticamente según sea necesario para mantener la alineación relativa con el contenido de la imagen. Si hay más de uno <span class="codeph"><span class="varname"> pathName</span></span> se especifica, el servidor recorta el cuadro delimitador de cada ruta de acceso, de uno en uno. Cualquiera <span class="codeph"><span class="varname"> pathName</span></span> no encontrado en la imagen de origen se ignora. </p> </td> 
+   <td colname="col2"> <p>Nombre de la ruta incrustada en la imagen de origen de la capa (solo ASCII). </p> <p> <span class="codeph"><span class="varname"> pathName</span></span> es el nombre de una ruta incrustada en la imagen de origen de la capa. La ruta se transforma automáticamente según sea necesario para mantener la alineación relativa con el contenido de la imagen. Si se especifica más de un <span class="codeph"><span class="varname"> pathName</span></span>, el servidor recorta el cuadro delimitador de cada ruta de acceso, de uno en uno. Se omite cualquier <span class="codeph"><span class="varname"> pathName</span></span> que no se encuentre en la imagen de origen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -31,7 +31,7 @@ Permite recortar hasta el cuadro delimitador de una ruta con nombre incrustada. 
 
 Atributo de capa. Se aplica a la capa actual o a la imagen compuesta si `layer=comp`. Ignorado por las capas de efecto.
 
-`cropPathE=` se ignora si no se encuentra ninguna ruta con el nombre especificado en la imagen de origen de la capa o si el origen de la capa no es una imagen.
+`cropPathE=` se omitirá si no se encuentra ninguna ruta de acceso con el nombre especificado en la imagen de origen de la capa o si el origen de la capa no es una imagen.
 
 ## Predeterminado {#section-d1986aa31af14767aeb1b4a57add67f4}
 
@@ -39,4 +39,4 @@ Ninguno, ya que no hay recorte adicional de la capa.
 
 ## Véase también {#section-a60f6e37ebf14e458519fcc4d2cc911d}
 
-[recorte](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab), [clipPathE](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)
+[recorte](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab), [rutaDeAccesoDeClip](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)

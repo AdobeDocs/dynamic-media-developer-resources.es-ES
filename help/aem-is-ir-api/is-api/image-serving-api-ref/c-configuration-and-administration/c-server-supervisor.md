@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: 83b6a63f-6bb8-4a14-b8d5-389d23fae57c
 source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Además de iniciar y detener otros componentes del servicio de imágenes, el sup
 
 ## Iniciar y detener {#section-061d28d74e034a30adc39ea3e2031cd0}
 
-El Supervisor de servidor se inicia, detiene y reinicia con el script de la utilidad de servicio de imágenes. Consulte la [Documentación de utilidades](../../../is-api/is-utils/utilities/c-location-of-utilities.md#concept-bae61e53344449af978502cac6be8b5f) para obtener más información.
+El Supervisor de servidor se inicia, detiene y reinicia con el script de la utilidad de servicio de imágenes. Consulte la [documentación de utilidades](../../../is-api/is-utils/utilities/c-location-of-utilities.md#concept-bae61e53344449af978502cac6be8b5f) para obtener más información.
 
 Al iniciar y detener el Supervisor de servidor, se inician y detienen automáticamente todos los demás componentes del servicio de imágenes.
 

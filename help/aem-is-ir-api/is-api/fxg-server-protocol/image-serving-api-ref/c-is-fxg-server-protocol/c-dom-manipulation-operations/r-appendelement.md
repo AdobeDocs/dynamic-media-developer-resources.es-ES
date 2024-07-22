@@ -18,12 +18,12 @@ Anexe XML a s7:elementID.
 
 `appendElement.elementID=<XML>`
 
-Si un elemento de nodo FXG tiene un `s7:elementID` definida, la variable `<XML>` El valor de se anexa como elemento secundario. El `<XML>` debe estar codificado.
+Si un elemento de nodo FXG tiene un `s7:elementID` definido, el valor `<XML>` se anexa como elemento secundario. Se debe codificar `<XML>`.
 
 ## Ejemplo {#section-4368570aa198485d91b73b4d0741478f}
 
-Supongamos que `s7:elementID="group1"` El atributo está definido para un nodo Group y, a continuación, es válido lo siguiente:
+Supongamos que se ha definido un atributo `s7:elementID="group1"` para un nodo Group y que es válido lo siguiente:
 
 `&appendElement.group1=<TextGraphic+fontFamily%3D"DefaultFont"+fontSize%3D"50"+x%3D"20"+y%3D"500" ><content><p><span>New+Text+Graphic+Tag+For+Demo<%2Fspan><%2Fp><%2Fcontent><%2FTextGraphic>`
 
-En este ejemplo se anexa un elemento secundario de gráfico de texto a `group1`.
+Este ejemplo anexa un elemento secundario de gráfico de texto a `group1`.

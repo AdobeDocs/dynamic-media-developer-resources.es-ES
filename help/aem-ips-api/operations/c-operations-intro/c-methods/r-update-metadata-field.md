@@ -8,7 +8,7 @@ exl-id: 67506e76-aa23-46a7-a900-03d89b4266fd
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '153'
-ht-degree: 22%
+ht-degree: 11%
 
 ---
 
@@ -51,7 +51,7 @@ Sintaxis
    <td colname="col4"> Controlador de campo de metadatos. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> nombre</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> Nombre del campo de metadatos. </td> 
@@ -93,7 +93,7 @@ Sintaxis
 
 Esta actualización de ejemplo de código asigna un nuevo nombre y un valor predeterminado a un campo de metadatos. La respuesta devuelve un identificador al campo actualizado.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <updateMetadataFieldParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

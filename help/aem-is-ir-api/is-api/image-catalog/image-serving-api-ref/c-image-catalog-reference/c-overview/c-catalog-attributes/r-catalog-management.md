@@ -18,31 +18,31 @@ Los archivos de atributos del catálogo reconocen estos atributos de administrac
 
 <table id="simpletable_010A9494BFEB45F0A46FE9709E0404CA"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-catalogfile.md#reference-16498bb4cb33458697c1ab002ea8db79" type="reference" format="dita" scope="local"> CatalogFile</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-catalogfile.md#reference-16498bb4cb33458697c1ab002ea8db79" type="reference" format="dita" scope="local"> archivoDeCatálogo</a> </span> </p></td> 
   <td class="stentry"> <p>Nombres de los archivos de datos de imagen asociados. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-svgcatalogfile.md#reference-cd61769073f145e1ac37aa4fd53ae58d" type="reference" format="dita" scope="local"> SvgCatalogFile</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-svgcatalogfile.md#reference-cd61769073f145e1ac37aa4fd53ae58d" type="reference" format="dita" scope="local"> archivoCatálogoSvg</a> </span> </p></td> 
   <td class="stentry"> <p>Nombres de los archivos de datos del SVG asociados. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-staticcontentcatalogfile.md#reference-1d5505d9d1b74fe5ba63fbdf7893eb0d" type="reference" format="dita" scope="local"> ArchivoCatálogoContenidoEstático</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-staticcontentcatalogfile.md#reference-1d5505d9d1b74fe5ba63fbdf7893eb0d" type="reference" format="dita" scope="local"> StaticContentCatalogFile</a> </span> </p></td> 
   <td class="stentry"> <p>Nombres de los archivos de datos de contenido estático asociados. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-fontmapfile.md#reference-22e077d4595b45b6a6e549b8499ecb76" type="reference" format="dita" scope="local"> ArchivoMapaDeFuente</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-fontmapfile.md#reference-22e077d4595b45b6a6e549b8499ecb76" type="reference" format="dita" scope="local"> archivoDeMapaDeFuentes</a> </span> </p></td> 
   <td class="stentry"> <p>Nombre del archivo de mapa de fuentes asociado. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-macrofile.md#reference-f91d717b3847458ca0f1fe95387554a2" type="reference" format="dita" scope="local"> MacroFile</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-macrofile.md#reference-f91d717b3847458ca0f1fe95387554a2" type="reference" format="dita" scope="local"> archivoDeMacro</a> </span> </p></td> 
   <td class="stentry"> <p>Nombre del archivo de definición de macro asociado. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilemapfile.md#reference-0ebacea00a9644f58810b30422cb8087" type="reference" format="dita" scope="local"> ArchivoMapaPerfilIcc</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilemapfile.md#reference-0ebacea00a9644f58810b30422cb8087" type="reference" format="dita" scope="local"> archivoMapaPerfilIcc</a> </span> </p></td> 
   <td class="stentry"> <p>Nombre del archivo de asignación de perfiles ICC asociado. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rulesetfile.md#reference-b8513e76a0c947ea85515cdfa31193de" type="reference" format="dita" scope="local"> RuleSetFile</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rulesetfile.md#reference-b8513e76a0c947ea85515cdfa31193de" type="reference" format="dita" scope="local"> archivoConjuntoReglas</a> </span> </p></td> 
   <td class="stentry"> <p>Nombre del archivo asociado que define las reglas de preprocesador de URL. </p></td> 
  </tr> 
  <tr class="strow"> 

@@ -22,7 +22,7 @@ Los campos siguientes se reconocen en los ficheros de mapa de perfiles de color 
   <td class="stentry"> <p>Nombre del perfil de color (clave de índice). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/r-profilepath-icc.md#reference-d0db8b059a60437992fe1ae35761cb95" type="reference" format="dita" scope="local"> ProfilePath</a></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/r-profilepath-icc.md#reference-d0db8b059a60437992fe1ae35761cb95" type="reference" format="dita" scope="local"> rutaDeAccesoDePerfil</a></span> </p> </td> 
   <td class="stentry"> <p>Ruta del archivo de perfil de color ICC. </p></td> 
  </tr> 
 </table>

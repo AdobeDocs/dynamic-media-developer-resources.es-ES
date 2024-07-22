@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: d7a6079e-286e-4e62-b2ff-551ef4a5815c
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '901'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ https://<IPS_hostname:<IPS_port>/<IPS_webapp>/
 webservice/IpsApi[-<API_version>].wsdl 
 ```
 
-El valor predeterminado para `<IPS_webapp>` es `scene7`.
+El valor predeterminado de `<IPS_webapp>` es `scene7`.
 
 **Ubicación del servicio**
 
@@ -36,7 +36,7 @@ https://<IPS_hostname>:<IPS_port>/<IPS_webapp>/
 services/IpsApiService 
 ```
 
-**Acceso a direcciones URL para regiones de Dynamic Media**
+**URL de acceso para regiones de Dynamic Media**
 
 <table id="table_45BB314ABCDA49F38DF7BECF95CC984A"> 
  <thead> 
@@ -94,22 +94,22 @@ Recuerde que es posible que tenga que modificar el código si desea utilizar car
    <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2012-02-14 </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4.5 </p> </td> 
+   <td colname="col1"> <p>4,5 </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> IpsApi-2010-01-31.wsdl </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2010-01-31 </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4.4 </p> </td> 
+   <td colname="col1"> <p>4,4 </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> IpsApi-2009-07-31.wsdl </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2009-07-31 </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4.2 </p> </td> 
+   <td colname="col1"> <p>4,2 </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> IpsApi-2008-09-10.wsdl </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2008-09-10 </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4.0 </p> </td> 
+   <td colname="col1"> <p>4,0 </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> IpsApi-2008-01-15.wsdl </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2008-01-15 </span> </p> </td> 
   </tr> 
@@ -123,27 +123,27 @@ Recuerde que es posible que tenga que modificar el código si desea utilizar car
 
 Las aplicaciones existentes que necesiten modificarse para utilizar nuevas funciones deben actualizarse a la última versión de la API y es posible que tengan que realizar cambios en el código existente. Consulte el registro de cambios para obtener más información.
 
-## JABÓN {#section-51e7ecbd1d7f451b9e4f6bf7e1579cae}
+## SOAP {#section-51e7ecbd1d7f451b9e4f6bf7e1579cae}
 
 **Enlaces**
 
-El servicio web de la API de IPS sólo admite un enlace SOAP.
+SOAP El servicio web de la API de IPS solo admite un enlace de.
 
 **Transportes compatibles**
 
-El enlace SOAP de la API de IPS solo admite el transporte HTTP. Realice todas las solicitudes SOAP utilizando el método del POST HTTPS.
+SOAP El enlace de la API de IPS solo admite transporte HTTP. SOAP Realice todas las peticiones de la utilizando el método del POST HTTPS.
 
-**Encabezado de acción SOAP**
+SOAP **Encabezado de acción de**
 
 Para procesar una solicitud, establezca el encabezado HTTP SOAPAction en el nombre de la operación solicitada. El atributo de nombre de operación de la sección de enlace de WSDL especifica el nombre.
 
 **Formato del mensaje**
 
-El estilo documento/literal se utiliza para todos los mensajes de entrada y salida con tipos basados en el lenguaje de definición de esquema XML ( [https://www.w3.org/TR/xmlschema-0/](https://www.w3.org/TR/xmlschema-0/)) y se especifica en el archivo WSDL. Todos los tipos requieren nombres completos utilizando el valor de área de nombres de destino especificado en el archivo WSDL.
+El estilo documento/literal se utiliza para todos los mensajes de entrada y salida con tipos basados en el lenguaje de definición de esquema XML ( [https://www.w3.org/TR/xmlschema-0/](https://www.w3.org/TR/xmlschema-0/)) y especificados en el archivo WSDL. Todos los tipos requieren nombres completos utilizando el valor de área de nombres de destino especificado en el archivo WSDL.
 
 **Solicitar autenticación**
 
-El método preferido para pasar credenciales de autenticación en solicitudes de API es utilizar la variable `authHeader` tal como se define en el WSDL de la API de IPS.
+El método preferido para pasar credenciales de autenticación en solicitudes de API es utilizar el elemento `authHeader` tal como se define en el WSDL de la API de IPS.
 
 ```
 <element name="authHeader"> 
@@ -180,7 +180,7 @@ El método preferido para pasar credenciales de autenticación en solicitudes de
    <td colname="col2"> <p>Contraseña de la cuenta de usuario. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> locale </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> configuración regional </span> </p> </td> 
    <td colname="col2"> <p> Configuración regional opcional para la solicitud. Consulte <b>Configuración regional</b> para obtener más información. </p> </td> 
   </tr> 
   <tr> 
@@ -202,9 +202,9 @@ El método preferido para pasar credenciales de autenticación en solicitudes de
  </tbody> 
 </table>
 
-El `authHeader` siempre se define en el área de nombres `http://www.scene7.com/IpsApi/xsd`, independientemente de la versión de la API.
+El elemento `authHeader` siempre se define en el espacio de nombres `http://www.scene7.com/IpsApi/xsd`, independientemente de la versión de la API.
 
-A continuación se muestra un ejemplo de uso de `authHeader` en un encabezado SOAP de solicitud:
+SOAP A continuación se muestra un ejemplo del uso del elemento `authHeader` en un encabezado de solicitud de la:
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
@@ -219,17 +219,17 @@ A continuación se muestra un ejemplo de uso de `authHeader` en un encabezado SO
 
 **Otros métodos de autenticación de solicitudes**
 
-Si, por alguna razón, no es posible que la aplicación cliente pase el `authHeader` Encabezado SOAP, las solicitudes de API también pueden especificar credenciales mediante la autenticación HTTP Basic (como se especifica en RFC 2617).
+SOAP Si, por algún motivo, la aplicación cliente no puede pasar el encabezado de `authHeader`, las solicitudes de API también pueden especificar credenciales mediante la autenticación HTTP Basic (como se especifica en RFC 2617).
 
-Para la autenticación HTTP Basic, la sección de encabezado HTTP de cada solicitud del POST SOAP debe incluir un encabezado con el siguiente formato:
+SOAP Para la autenticación HTTP Basic, la sección de encabezado HTTP de cada solicitud de POST de la debe incluir un encabezado con el siguiente formato:
 
 `Authorization: Basic base64(<IPS_user_email>:<password>)`
 
-Donde `base64()` aplica la codificación estándar Base64, `<IPS_user_email>` es la dirección de correo electrónico de un usuario de IPS válido y `<password>` es la contraseña del usuario.
+Donde `base64()` aplica la codificación Base64 estándar, `<IPS_user_email>` es la dirección de correo electrónico de un usuario IPS válido y `<password>` es la contraseña del usuario.
 
-Envíe el encabezado Autorización de forma preventiva con la solicitud inicial. Si no se incluyen credenciales de autenticación en la solicitud, `IpsApiService` no responde con un código de estado de `401 (Unauthorized)`. En su lugar, un código de estado de `500 (Internal Server Error)` se devuelve con un cuerpo de error SOAP que indica que la solicitud no se pudo autenticar.
+Envíe el encabezado Autorización de forma preventiva con la solicitud inicial. Si no se incluyen credenciales de autenticación en la solicitud, `IpsApiService` no responde con un código de estado de `401 (Unauthorized)`. SOAP En su lugar, se devuelve un código de estado de `500 (Internal Server Error)` con un cuerpo de error de que indica que no se pudo autenticar la solicitud.
 
-Antes de IPS 3.8, la autenticación mediante el encabezado SOAP se implementaba utilizando `AuthUser` y `AuthPassword` elementos en el área de nombres `http://www.scene7.com/IpsApi`. Por ejemplo:
+SOAP Antes de IPS 3.8, la autenticación mediante el encabezado de la se implementaba utilizando los elementos `AuthUser` y `AuthPassword` en el espacio de nombres `http://www.scene7.com/IpsApi`. Por ejemplo:
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
@@ -238,15 +238,15 @@ Antes de IPS 3.8, la autenticación mediante el encabezado SOAP se implementaba 
 </soap:Header>
 ```
 
-Este estilo sigue siendo compatible con la compatibilidad con versiones anteriores, pero ha quedado obsoleto en favor de la `authHeader` Elemento.
+Este estilo sigue siendo compatible con la compatibilidad con versiones anteriores, pero ha quedado obsoleto en favor del elemento `authHeader`.
 
 **Solicitar autorización**
 
 Una vez autenticadas las credenciales del llamador, se comprueba la solicitud para asegurarse de que el llamador está autorizado para realizar la operación solicitada. La autorización se basa en la función de usuario del autor de la llamada y también puede requerir la comprobación de la compañía, el usuario y otros parámetros de operación de destino. Además, los usuarios del portal de imágenes deben pertenecer a un grupo con los permisos necesarios para realizar determinadas operaciones de carpetas y recursos. La sección de referencia Operaciones detalla los requisitos de autorización para cada operación.
 
-**Ejemplo de solicitud y respuesta de SOAP**
+SOAP **Solicitud y respuesta de ejemplo de la lista de distribución**
 
-El siguiente ejemplo muestra una `addCompany` operación, incluidos los encabezados HTTP:
+El ejemplo siguiente muestra una operación `addCompany` completa, incluidos los encabezados HTTP:
 
 ```
 POST /scene7/services/IpsApiService HTTP/1.1 
@@ -298,9 +298,9 @@ xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
 </soapenv:Envelope>
 ```
 
-**Errores de SOAP**
+SOAP **fallas de la**
 
-Cuando una operación encuentra una condición de excepción, se devuelve un error SOAP como el cuerpo del mensaje SOAP en lugar de la respuesta normal. Por ejemplo, si un usuario no administrador intenta enviar el anterior `addCompany` solicitud, se devuelve la siguiente respuesta:
+SOAP SOAP Cuando una operación encuentra una condición de excepción, se devuelve un error de como el cuerpo del mensaje de error en lugar de la respuesta normal. Por ejemplo, si un usuario no administrador intenta enviar la solicitud `addCompany` anterior, se devuelve la siguiente respuesta:
 
 ```
 HTTP/1.1 500 Internal Server Error 

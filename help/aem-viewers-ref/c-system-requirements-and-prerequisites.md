@@ -8,8 +8,8 @@ role: Developer,User
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 1%
+source-wordcount: '361'
+ht-degree: 0%
 
 ---
 
@@ -26,9 +26,9 @@ Requisitos del sistema para visores Dynamic Media HTML5.
 <!-- Updated March 03, 2022 Contact is now Deepa Gupta -->
 
 * Adobe Dynamic Media Image Serving 6.7.1 o posterior.
-* Los visores de HTML5 requieren bibliotecas de SDK JavaScript del lado del servidor 3.11.5 o posteriores.
-* *Enviar un correo electrónico a un amigo* las funciones sociales requieren s7ondemand 5.0.9 o posterior.
-* Visor de catálogos electrónicos - [Ventana emergente del panel Información](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) la compatibilidad con requiere info server 2.1.8 o posterior.
+* Los visores de HTML5 requieren bibliotecas 3.11.5 o posteriores del lado del servidor de SDK JavaScript.
+* Las funciones sociales de *Enviar correo electrónico a un amigo* requieren s7ondemand 5.0.9 o posterior.
+* Visor de catálogos electrónicos - La compatibilidad con [Panel de información emergente](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) requiere el servidor de información 2.1.8 o posterior.
 * Los componentes de funciones de búsqueda requieren s7search 2.3.0 o posterior.
 
 ## Requisitos del sistema de visores {#section-cc72b1e209524d038b4d5b92b35e998e}
@@ -45,12 +45,12 @@ Requisitos del sistema para visores Dynamic Media HTML5.
    * Edge
    * Firefox 77
    * Internet Explorer 11
-   * iOS6
+   * IOS6
    * iPad 2 (solo exploradores Safari y Chrome)
    * iPhone 3GS
    * Safari 11
 * No se admite Internet Explorer en dispositivos móviles.
-* *Visor panorámico* es compatible con las siguientes versiones de navegador/plataforma o posteriores:
+* *PanoramicViewer* es compatible con las siguientes versiones de navegador/plataforma o posterior:
    * Android™ 4.4 (solo dispositivos móviles)
    * Chrome 82
    * Edge
@@ -58,14 +58,14 @@ Requisitos del sistema para visores Dynamic Media HTML5.
    * Internet Explorer 11
    * iOS 10
    * Safari 11
-* *Video360Viewer* y *VisorDimensional* es compatible con las siguientes versiones de navegador/plataforma o posteriores:
+* *Video360Viewer* y *DimensionalViewer* son compatibles con las siguientes versiones de navegador/plataforma o posteriores:
    * Android™ 5 (solo dispositivos móviles)
    * Chrome 82
    * Edge
    * Firefox 77
    * iOS 12
    * Safari 12
-* *ZoomVerticalViewer* es compatible con las siguientes versiones de navegador/plataforma o posteriores:
+* *ZoomVerticalViewer* es compatible con las siguientes versiones de navegador/plataforma o posterior:
    * Android™ 4.x
    * Chrome 82
    * Edge

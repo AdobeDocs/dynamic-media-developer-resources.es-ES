@@ -1,5 +1,5 @@
 ---
-description: Propiedades de la imagen de origen. Devuelve las propiedades seleccionadas del archivo de imagen o la entrada de catálogo especificada en la ruta URL.
+description: Propiedades de imagen de Source. Devuelve las propiedades seleccionadas del archivo de imagen o la entrada de catálogo especificada en la ruta URL.
 solution: Experience Manager
 title: imageprops
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: b4337c20-8e47-4d61-b234-19434f5c5216
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 7%
+source-wordcount: '334'
+ht-degree: 4%
 
 ---
 
 # imageprops{#imageprops}
 
-Propiedades de la imagen de origen. Devuelve las propiedades seleccionadas del archivo de imagen o la entrada de catálogo especificada en la ruta URL.
+Propiedades de imagen de Source. Devuelve las propiedades seleccionadas del archivo de imagen o la entrada de catálogo especificada en la ruta URL.
 
 `req=imageprops[,text|javascript|xml|{json[&id= *`reqId`*]}]`
 
@@ -25,11 +25,11 @@ Propiedades de la imagen de origen. Devuelve las propiedades seleccionadas del a
  </tr> 
 </table>
 
-La respuesta HTTP se puede almacenar en caché con el TTL en función de `attribute::NonImgExpiration`.
+La respuesta HTTP se puede almacenar en caché con el TTL basado en `attribute::NonImgExpiration`.
 
 Se omiten otros comandos de la cadena de solicitud.
 
-Las solicitudes compatibles con el formato de respuesta JSONP permiten especificar el nombre del controlador de devolución de llamada JS mediante la sintaxis extendida de `req=` parámetro:
+Las solicitudes compatibles con el formato de respuesta JSONP le permiten especificar el nombre del controlador de devolución de llamada JS mediante la sintaxis extendida del parámetro `req=`:
 
 `req=...,json [&handler = reqHandler ]`
 
@@ -40,8 +40,8 @@ Se devuelven las siguientes propiedades:
 <table id="table_5F289E2E21594A5598DF98E65DEDDFA0"> 
  <tbody> 
   <tr> 
-   <td> <b> Propiedad</b> </td> 
-   <td> <b> Tipo</b> </td> 
+   <td> <b> propiedad</b> </td> 
+   <td> <b> tipo</b> </td> 
    <td> <b> Descripción</b> </td> 
   </tr> 
   <tr> 
@@ -52,7 +52,7 @@ Se devuelven las siguientes propiedades:
   <tr> 
    <td> <p> <span class="codeph"> image.expiration</span> </p> </td> 
    <td> <p> doble </p> </td> 
-   <td> <p> <span class="codeph"> catalog::Expiration</span> o el tiempo de vida predeterminado </p> </td> 
+   <td> <p> <span class="codeph"> catálogo::Caducidad</span> o el tiempo de vida predeterminado </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.height</span> </p> </td> 
@@ -70,7 +70,7 @@ Se devuelven las siguientes propiedades:
    <td> <p> 1 si el perfil asociado está incrustado en la imagen </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> image.embedded.PhotoshopPaths</span> </p> </td> 
+   <td> <p> <span class="codeph"> image.embedded PhotoshopPaths</span> </p> </td> 
    <td> <p> booleano </p> </td> 
    <td> <p> 1 si la imagen incluye datos de ruta de Photoshop </p> </td> 
   </tr> 
@@ -87,7 +87,7 @@ Se devuelven las siguientes propiedades:
   <tr> 
    <td> <p> <span class="codeph"> image.modifier</span> </p> </td> 
    <td> <p> cadena </p> </td> 
-   <td> <p> <span class="codeph"> catalog::Modificador</span> o vacío si no es una entrada de catálogo </p> </td> 
+   <td> <p> <span class="codeph"> catálogo::Modificador</span> o vacío si no es una entrada de catálogo </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> imagen. photoshopPathNames</span> </p> </td> 
@@ -112,22 +112,22 @@ Se devuelven las siguientes propiedades:
   <tr> 
    <td> <p> <span class="codeph"> image.resolution</span> </p> </td> 
    <td> <p> real </p> </td> 
-   <td> <p> <span class="codeph"> catalog::Resolution</span> o la resolución de objeto predeterminada </p> </td> 
+   <td> <p> <span class="codeph"> catálogo::Resolution</span> o la resolución de objeto predeterminada </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.timeStamp</span> </p> </td> 
    <td> <p> cadena </p> </td> 
-   <td> <p>Fecha y hora de modificación (desde <span class="codeph"> catalog::TimeStamp</span> o el archivo de imagen) </p> </td> 
+   <td> <p>Fecha y hora de modificación (del catálogo <span class="codeph">::TimeStamp</span> o del archivo de imagen) </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.thumbRes</span> </p> </td> 
    <td> <p> real </p> </td> 
-   <td> <p> <span class="codeph"> catalog::ThumbRes</span> o la resolución de miniatura predeterminada </p> </td> 
+   <td> <p> <span class="codeph"> catálogo::ThumbRes</span> o la resolución de miniatura predeterminada </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.thumbType</span> </p> </td> 
    <td> <p> enum </p> </td> 
-   <td> <p> <span class="codeph"> catalog::ThumbType</span> o el tipo de miniatura predeterminado </p> </td> 
+   <td> <p> <span class="codeph"> catálogo::ThumbType</span> o el tipo de miniatura predeterminado </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.width</span> </p> </td> 
@@ -137,7 +137,7 @@ Se devuelven las siguientes propiedades:
   <tr> 
    <td> <p> <span class="codeph"> image.translatedId</span> </p> </td> 
    <td> <p> cadena </p> </td> 
-   <td> <p> ID de catálogo al que pertenece el <span class="varname"> objeto</span> especificado en la ruta se ha resuelto (consulte <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414" type="reference" format="dita" scope="local"> Traducción de ID de objeto</a>). </p> </td> 
+   <td> <p> Id. de catálogo al que se ha resuelto el objeto <span class="varname"> </span> especificado en la ruta de acceso (consulte Traducción de id. de objeto <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414" type="reference" format="dita" scope="local"> </a>). </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -29,7 +29,7 @@ El aspecto del resaltado de enfoque se controla con el siguiente selector de cla
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> contorno </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> descripción </span> </p> </td> 
    <td colname="col2"> <p> Estilo de resalte de enfoque. </p> </td> 
   </tr> 
  </tbody> 

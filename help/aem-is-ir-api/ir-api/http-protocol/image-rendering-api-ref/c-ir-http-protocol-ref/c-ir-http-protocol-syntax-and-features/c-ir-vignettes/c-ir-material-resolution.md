@@ -18,4 +18,4 @@ El valor de resolución de una textura repetible u otro material define el tama�
 
 Los valores de resolución de textura se especifican en píxeles por pulgada (o las unidades que dicte la viñeta para su espacio de coordenadas de escena).
 
-La resolución del material se especifica con `res=`.
+La resolución del material se especificó con `res=`.

@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Esta categoría de materiales incluye pinturas para paredes, carpintería y embellecedores, automoción y cualquier otra aplicación donde no se requieran texturas.
 
-Por ejemplo, puede utilizar colores sólidos para variar el color de un artículo de ropa cuando no sea necesario cambiar la textura, o para establecer el color del embellecedor de plástico y la alfombra de un interior de automóvil. Un material se considera un color sólido si no hay `src=` El valor está presente en el SMS.
+Por ejemplo, puede utilizar colores sólidos para variar el color de un artículo de ropa cuando no sea necesario cambiar la textura, o para establecer el color del embellecedor de plástico y la alfombra de un interior de automóvil. Un material se considera un color sólido si no hay ningún valor `src=` en el SMS.
 
 Los colores sólidos se pueden aplicar a todos los objetos procesables.
 

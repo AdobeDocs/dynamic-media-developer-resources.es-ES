@@ -8,7 +8,7 @@ exl-id: 4565eb4f-eeb7-4b98-bfef-1a59e9a931af
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '302'
-ht-degree: 10%
+ht-degree: 5%
 
 ---
 
@@ -54,13 +54,13 @@ Sintaxis
    <td colname="col4"> El identificador de la carpeta en la que se crea el nuevo conjunto de recursos. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> nombre </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Sí </td> 
    <td colname="col4"> Nombre del recurso. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> subType </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> subtipo </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Sí </td> 
    <td colname="col4"> Un identificador único creado por el cliente para el tipo de conjunto de recursos. </td> 
@@ -86,7 +86,7 @@ Puede especificar funciones de sustitución en línea que se resuelven durante l
 
 >[!NOTE]
 >
->Los literales de controlador de las listas de parámetros deben estar entre corchetes `([])`. Todo el texto que esté fuera de una cadena de sustitución se copia literalmente en la cadena de salida durante la resolución.
+>Los literales de identificador de las listas de parámetros deben estar entre corchetes `([])`. Todo el texto que esté fuera de una cadena de sustitución se copia literalmente en la cadena de salida durante la resolución.
 
 | **Función de sustitución** | **Devuelve** |
 |---|---|
@@ -116,7 +116,7 @@ jcompany/myRenderSet;jcompany/myRenderSet;1,jcompany/Videos/Somebodys_N08275_flv
 
 ## Ejemplos {#section-fed53089de824d67ab96cd9103d384b4}
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <createAssetSetParam xmlns="http://www.scene7.com/IpsApi/xsd/2009-07-31"> 

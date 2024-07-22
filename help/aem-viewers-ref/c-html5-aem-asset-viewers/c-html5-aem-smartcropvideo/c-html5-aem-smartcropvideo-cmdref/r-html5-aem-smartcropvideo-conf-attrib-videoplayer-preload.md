@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 7a83a02e-7b75-4f15-b8c1-aa7b64e6d3bd
 source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 3%
+source-wordcount: '121'
+ht-degree: 2%
 
 ---
 
@@ -21,8 +21,8 @@ Indica si el visualizador comienza a cargar contenido de vídeo antes de que com
 <table id="table_AE7AAFA9B4374E31B51D06511EB96401"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Si se establece en <span class="codeph"> 1 </span> el vídeo comienza a descargarse justo después de configurar el recurso; de lo contrario, la carga previa solo se inicia después de que el usuario final o una llamada de API inicien la reproducción. </p> <p>Si se establece en <span class="codeph"> 0 </span> es posible que algunas funciones no funcionen hasta que se vuelva a iniciar la reproducción; en concreto, la operación de búsqueda no actualiza el fotograma de vídeo. Si la imagen de póster está desactivada, el visor se muestra como un área vacía en lugar del primer fotograma de vídeo. </p> <p>La desactivación de la precarga de vídeo se puede ignorar en ciertas versiones de Internet Explorer 11 y los navegadores Edge. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col2"> <p> Si se establece en <span class="codeph"> 1 </span>, el vídeo comienza a descargarse justo después de configurar el recurso; de lo contrario, la carga previa solo se inicia después de que el usuario final o una llamada de API inicien la reproducción. </p> <p>Si se establece en <span class="codeph"> 0 </span>, es posible que algunas características no funcionen hasta que se inicie de nuevo la reproducción; en concreto, la operación de búsqueda no actualiza el fotograma de vídeo. Si la imagen de póster está desactivada, el visor se muestra como un área vacía en lugar del primer fotograma de vídeo. </p> <p>La desactivación de la precarga de vídeo puede ignorarse en determinadas versiones de Internet Explorer 11 y de los navegadores Edge. </p> </td> 
   </tr> 
  </tbody> 
 </table>

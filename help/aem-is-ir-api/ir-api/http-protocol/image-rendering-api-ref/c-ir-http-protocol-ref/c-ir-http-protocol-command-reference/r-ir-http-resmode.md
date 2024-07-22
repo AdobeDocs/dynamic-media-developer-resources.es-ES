@@ -8,13 +8,13 @@ exl-id: 0926dcfe-881c-4b52-b08d-c56afa0ba04d
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 14%
+ht-degree: 7%
 
 ---
 
 # resMode{#resmode}
 
-Modo de remuestreo. Selecciona el algoritmo de remuestreo o interpolación que se utilizará para escalar la imagen procesada al tamaño especificado con `wid=`, `hei=`, o `scl=`.
+Modo de remuestreo. Selecciona el algoritmo de remuestreo o interpolación que se utilizará para escalar la imagen procesada al tamaño especificado con `wid=`, `hei=` o `scl=`.
 
 ` `resMode=bilin|bicub|sharp2|bisharp&quot;
 
@@ -30,11 +30,11 @@ Modo de remuestreo. Selecciona el algoritmo de remuestreo o interpolación que s
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph"> sharp2 </span> </p> </td> 
-   <td colname="col2"> <p>selecciona una función de ventana Lanczos modificada como un algoritmo de interpolación. Puede producir resultados ligeramente más nítidos que los bicúbicos a un coste de CPU más alto. </p> <p> <span class="codeph"> afilado </span> se ha reemplazado por <span class="codeph"> sharp2 </span>, que tiene una menor probabilidad de causar artefactos de solapamiento, también conocido como Moiré. </p> </td> 
+   <td colname="col2"> <p>Selecciona una función de ventana de Lanczos modificada como algoritmo de interpolación. Puede producir resultados ligeramente más nítidos que los bicúbicos a un coste de CPU más alto. </p> <p> <span class="codeph"> sharp </span> ha sido reemplazado por <span class="codeph"> sharp2 </span>, lo que tiene una menor probabilidad de causar artefactos de solapamiento, también conocidos como Moiré. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bisharp </span> </p> </td> 
-   <td colname="col2"> <p>Selecciona el <span class="keyword"> Adobe Photoshop </span> remuestreador predeterminado para reducir el tamaño de imagen, denominado "enfoque bicúbico" en <span class="keyword"> Adobe Photoshop </span>. </p> </td> 
+   <td colname="col2"> <p>Selecciona el remuestreador predeterminado de <span class="keyword"> Adobe Photoshop </span> para reducir el tamaño de la imagen, que se denomina "enfoque bicúbico" en <span class="keyword"> Adobe Photoshop </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

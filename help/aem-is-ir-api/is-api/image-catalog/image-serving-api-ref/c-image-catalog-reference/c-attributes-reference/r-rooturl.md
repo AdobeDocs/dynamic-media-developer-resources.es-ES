@@ -16,7 +16,7 @@ ht-degree: 3%
 
 URL raíz para URL de imágenes relativas. Especifica la dirección URL raíz para las direcciones URL de imagen relativas.
 
-`attribute::RootUrl` se utiliza en lugar de `attribute::RootPath` cuando un `src=` o `mask=` el valor está entre {curly braces} o (paréntesis).
+`attribute::RootUrl` se usa en lugar de `attribute::RootPath` cuando un valor `src=` o `mask=` está entre {curly braces} o (paréntesis).
 
 ## Propiedades {#section-fe02269b4b724319a5d1f2cfcae31cba}
 
@@ -24,8 +24,8 @@ Valor de cadena de texto. Ruta de acceso raíz de URL absoluta, incluido el iden
 
 ## Predeterminado {#section-fa5e3fc993c04086bc2b06dfeea4ae5c}
 
-Heredado de `default::RootUrl` si no está definido. Si se definen pero están vacías, este catálogo de imágenes no admite direcciones URL relativas.
+Se hereda de `default::RootUrl` si no se define. Si se definen pero están vacías, este catálogo de imágenes no admite direcciones URL relativas.
 
 ## Véase también {#section-ade4789086df4e76ae041cd4acfa2f85}
 
-[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) , [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [attribute:RutaRaíz](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md#reference-17d57e5967be403b8408fa7214017494), [ruleset::PathRule](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md#concept-3e5058cf3507470b82cac638df23ea8e)
+[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) , [máscara=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [atributo:RootPath](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md#reference-17d57e5967be403b8408fa7214017494), [conjunto de reglas::PathRule](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md#concept-3e5058cf3507470b82cac638df23ea8e)

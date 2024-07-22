@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 23091ef7-750a-4ec2-9d03-1d713f436991
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2204'
+source-wordcount: '2236'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## Versión de otoño de 2016 de Scene7 {#topic-791cdf80f91e457fbb63bfedf79f5a94}
 
-Últimas notas de la versión de [!DNL Adobe Scene7] Versión de otoño de 2016 de [!DNL Adobe Experience Manager] solución en el [!DNL Adobe Experience Cloud].
+Últimas notas de la versión de [!DNL Adobe Scene7]: parte de la versión de otoño de 2016 de la solución [!DNL Adobe Experience Manager] en [!DNL Adobe Experience Cloud].
 
 * [General](s7rnfall2016.md#section-52afeb72ecb34c1585ea67a5051825a2)
 * [Scene7](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)
@@ -40,10 +40,10 @@ Para obtener toda la documentación, consulte [https://experienceleague.adobe.co
 
 **Nuevas funciones, mejoras y correcciones de errores**
 
-* Función de reedición de vídeo eliminada de [!DNL Adobe Scene7 Publishing System] interfaz de usuario.
+* Se ha eliminado la característica de reedición de vídeo de la interfaz de usuario [!DNL Adobe Scene7 Publishing System].
 * Se ha agregado autenticación a todos los servlets de Scene7 donde es necesario y posible
 * Corrección de errores que implicaban la vista de lista en la papelera.
-* Eliminado **Crear administrador de Dynamic Media Classic (Scene7)** función de usuario de Administración de usuarios por motivos de seguridad.
+* Se ha eliminado la función de usuario **Crear administrador de Dynamic Media Classic (Scene7)** de Administración de usuarios debido a problemas de seguridad.
 * FTP WebAdmin ahora admite la autenticación OKTA.
 * Se ha eliminado la función de la contraseña predeterminada que se creó para los nuevos usuarios de Media Portal.
 * Corrección de errores que implica la contraseña temporal que se generó cuando se agregó un usuario nuevo. La contraseña no cumplía los requisitos de contraseña necesarios.
@@ -58,9 +58,9 @@ Para obtener toda la documentación, consulte [https://experienceleague.adobe.co
 
 ## Visualizadores (Image Serving 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-Para obtener toda la documentación, consulte [Guía de referencia del visor](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+Para obtener documentación completa, consulte [Guía de referencia de visores](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
-**Correcciones de errores para Image Serving 5.5.3**
+**Correcciones de errores para el servicio de imágenes 5.5.3**
 
 * Compatibilidad con las bibliotecas RequireJS y DOJO.
 
@@ -68,30 +68,30 @@ Para obtener toda la documentación, consulte [Guía de referencia del visor](ht
 
 ## Visualizadores (servicio de imágenes 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-Para obtener toda la documentación, consulte [Guía de referencia del visor](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+Para obtener documentación completa, consulte [Guía de referencia de visores](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
-**Correcciones de errores para Image Serving 5.5.2**
+**Correcciones de errores para el servicio de imágenes 5.5.2**
 
 * No se pudo reproducir el vídeo en Internet Explorer 11 en Windows 7.
 * `initialframe` no afectaba al modo vertical en dispositivos móviles para el catálogo electrónico de HTML5.
 
 ## Visualizadores (Image Serving 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-Para obtener toda la documentación, consulte [Guía de referencia del visor](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+Para obtener documentación completa, consulte [Guía de referencia de visores](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
-**Nuevas funciones, mejoras y correcciones de errores para Image Serving 5.5.1**
+**Nuevas funciones, mejoras y correcciones de errores para el servicio de imágenes 5.5.1**
 
 * Visor de catálogos electrónicos de HTML5 con función de búsqueda.
 * Se ha añadido la reproducción de vídeo de flujo HLS como método de entrega de vídeo predeterminado para la mayoría de los sistemas de escritorio. La transmisión de vídeo HDS basada en Flash sigue estando disponible como opción de reproducción alternativa.
-* Se ha agregado compatibilidad para dispositivos con entrada táctil y ratón que ejecutan el explorador Chrome.
+* Se ha agregado compatibilidad para dispositivos con entrada táctil y de ratón que ejecutan el explorador Chrome.
 * Se ha agregado compatibilidad con ID de organización de Experience Cloud a la integración de Analytics.
 * Actualice la biblioteca JavaScript de AppMeasurement a la versión 1.6.1.
 * Se ha añadido compatibilidad con la orientación de derecha a izquierda en el visor de catálogos electrónicos.
-* Se corrigió un problema en el cual `tip=0,-1,0` ha causado un error fuera del intervalo.
+* Se ha corregido un problema en el cual `tip=0,-1,0` provocaba un error fuera del intervalo.
 
 **Notas de compatibilidad**
 
-* Blackberry®
+* BlackBerry®
 
    * Incompatibilidad con conjuntos AVS más antiguos. Los clientes deben volver a cargar los conjuntos de AVS para permitir la reproducción.
 
@@ -127,7 +127,7 @@ Para obtener toda la documentación, consulte [Guía de referencia del visor](ht
 * Vídeo de HTML 5
 
    * Internet Explorer 9: las imágenes de póster personalizadas no se muestran.
-   * `IntialBitRate` El modificador solo es compatible con el software de reproducción HLS y Flash HDS. No funciona cuando la reproducción utiliza el reproductor nativo.
+   * El modificador `IntialBitRate` solo se admite con la reproducción de software HLS y Flash HDS. No funciona cuando la reproducción utiliza el reproductor nativo.
    * Actualmente no se admite la reproducción progresiva OGG y WebM.
    * La escala del explorador puede hacer que el reproductor de vídeo se muestre en un tamaño incorrecto (incluye la configuración de pantalla del panel de control del sistema operativo Windows).
    * La búsqueda de vídeo mediante el streaming HLS en Safari puede ser incoherente.
@@ -151,26 +151,26 @@ Para obtener toda la documentación, consulte [Guía de referencia del visor](ht
 
 **Problemas y restricciones conocidos**
 
-* Los modificadores del servicio de imágenes de `iscommands` no se añaden a `req=set` solicitud por diseño. Los modificadores que solo afectan a la visualización de la imagen funcionan bien. Los modificadores que afectan al tamaño deben utilizarse en un recurso complejo. Por ejemplo:
+* Los modificadores del servicio de imágenes de `iscommands` no se agregan a la solicitud `req=set` por diseño. Los modificadores que solo afectan a la visualización de la imagen funcionan bien. Los modificadores que afectan al tamaño deben utilizarse en un recurso complejo. Por ejemplo:
 
   `https://s7d9.scene7.com/s7viewers/html5/BasicZoomViewer.html?asset= {Scene7SharedAssets/Backpack_B?extendn=0.5%252C0.5%252C0.5%252C0.5}`
 
-* [Flotante] IE9 a veces permanece en pantalla después de desactivar el ratón.
+* [Flotante] IE9 permanece a veces en pantalla después de que el ratón se apague.
 * El cambio de tamaño del explorador provoca un cambio de tamaño incorrecto.
 * iPad 2: El recurso de catálogo electrónico grande bloquea Safari en iOS.
 * Todos los visores
 
    * No se admiten marcas de agua, ofuscación ni bloqueo.
    * No se admiten ajustes preestablecidos de imagen.
-   * Adición o eliminación del visor del DOM mediante `display:none` Actualmente no se admite CSS o desasociándolo dinámicamente del nodo principal.
+   * Actualmente no se admite agregar o quitar el visor del DOM mediante CSS `display:none` o desasociándolo dinámicamente del nodo principal.
 
 * HTML 5 Todos los visores
 
    * La incrustación del visor en la tabla puede provocar un tamaño o una ubicación incorrectos del visor en un modo de pantalla completa no nativo. Sugiera usar DIV en su lugar.
-   * Los parámetros con nombres de instancia explícitos en el código también requieren nombres de instancia en la dirección URL para que se sobrescriban (por ejemplo, `zoomView.iconfeffect=0`).
+   * Los parámetros con nombres de instancia explícitos en el código también requieren nombres de instancia en la dirección URL para sobrescribirse (por ejemplo, `zoomView.iconfeffect=0`).
    * Actualmente no se admite el recorte de comandos del servicio de imágenes.
    * El botón Cerrar solo funciona si el visor está abierto en la ventana secundaria.
-   * El `iscommands` El modificador no admite modificadores del servicio de imágenes que afecten al tamaño de la imagen.
+   * El modificador `iscommands` no admite modificadores del servicio de imágenes que afecten al tamaño de la imagen.
 
 * Catálogo electrónico de HTML5
 
@@ -186,19 +186,19 @@ Para obtener toda la documentación, consulte [Guía de referencia del visor](ht
 
 * HTML5 Social
 
-   * Para procesar las miniaturas correctamente en el correo electrónico saliente, la variable `serverurl` el modificador debe tener una dirección URL absoluta.
+   * Para procesar las miniaturas correctamente en el correo electrónico saliente, el modificador `serverurl` debe tener una dirección URL absoluta.
 
 * Vídeo de HTML 5
 
-   * La imagen del póster puede encontrar el error &quot;tamaño máximo&quot;. La compañía debe aumentar el ajuste de límite para la publicación del servicio de imágenes.
+   * La imagen del póster puede encontrar el error &quot;tamaño máximo&quot;. La compañía debe aumentar el ajuste de límite para el servicio de imágenes de Publish.
    * Los subtítulos de vídeo requieren un conjunto de reglas de empresa si el alojamiento de la página del HTML se proporciona desde un servidor externo (no un servidor de Scene7). Póngase en contacto con Soporte técnico de Adobe para obtener ayuda.
    * El seguimiento de Analytics puede informar de un porcentaje de reproducción incorrecto debido al almacenamiento en búfer
    * El marco negro en lugar de la imagen del póster puede mostrarse en dispositivos iPad o Android™.
    * El marco negro puede parpadear en la pantalla durante la carga del visor en dispositivos iPad o Android™.
    * Los bordes negros se muestran en la parte lateral del componente VideoPlayer cuando el fondo está establecido en blanco/transparente en dispositivos iPad.
    * El último fotograma de vídeo puede distorsionarse en iPad con iOS 7.
-   * Se puede producir ocasionalmente un bloqueo de macros durante la búsqueda de vídeo en el modo de flujo HLS en los navegadores Chrome, Firefox e Internet Explorer.
-      * Es posible que la imagen de póster no se muestre en el explorador Microsoft® Edge por primera vez como visitante.
+   * Se puede producir ocasionalmente un bloqueo de macros durante la búsqueda de vídeo en el modo de transmisión HLS en los navegadores Chrome, Firefox e Internet Explorer.
+      * Es posible que la imagen del póster no se muestre en el explorador Microsoft® Edge por primera vez en el visitante.
       * La imagen de póster puede ocultarse después de la carga del vídeo en Internet Explorer 9 cuando se utiliza la reproducción progresiva.
 
 ## SDK 3.0.2 de Scene7 HTML5 Viewer {#section-30e2392859c442d1aab2766d0f1d1580}
@@ -208,7 +208,7 @@ La Guía del usuario se encuentra en la carpeta del SDK del visor de Adobe HTML5
 **Correcciones de errores para 3.0.2**
 
 * VideoPlayer: error al reproducir el vídeo en Internet Explorer 11 en Windows 7.
-* Tabla de contenido -  `initialframe` no afectó al modo vertical en dispositivos móviles para el visor de catálogos electrónicos de HTML5.
+* TableOfContents - `initialframe` no afectó al modo vertical en dispositivos móviles para el visor de catálogos electrónicos de HTML 5.
 
 **Nuevas funciones, mejoras y correcciones de errores para 3.0.1**
 
@@ -216,7 +216,7 @@ La Guía del usuario se encuentra en la carpeta del SDK del visor de Adobe HTML5
 
    * Se ha añadido la reproducción de vídeo de flujo HLS como método de entrega de vídeo predeterminado para la mayoría de los sistemas de escritorio. La transmisión de vídeo HDS basada en Flash sigue estando disponible como opción de reproducción alternativa.
    * Se han agregado los componentes SearchManager, SearchPanel, SearchEffect y SearchButton para admitir la nueva función de búsqueda en los visores de catálogos electrónicos.
-   * Se ha agregado compatibilidad para dispositivos con entrada táctil y de ratón en el navegador Chrome.
+   * Se ha agregado compatibilidad para dispositivos con entrada táctil y de ratón en ejecución en el explorador Chrome.
    * Se ha refactorizado la detección de versiones de Android™ para admitir versiones futuras del sistema operativo.
    * Agregue compatibilidad para la orientación de derecha a izquierda en los componentes de SDK específicos del catálogo electrónico.
 
@@ -226,7 +226,7 @@ La Guía del usuario se encuentra en la carpeta del SDK del visor de Adobe HTML5
 
 * FlyoutzoomView
 
-   * Se corrigió un caso en que `tip=0,-1,0` ha causado un error fuera del intervalo.
+   * Se ha corregido un caso en el cual `tip=0,-1,0` provocaba un error fuera del intervalo.
 
 **Notas de compatibilidad**
 
@@ -236,7 +236,7 @@ La Guía del usuario se encuentra en la carpeta del SDK del visor de Adobe HTML5
 
      `-webkit-tap-highlight-color: rgba(0,0,0,0);`
 
-* Blackberry®
+* BlackBerry®
 
    * La reproducción de vídeo puede interrumpirse al cambiar la velocidad de bits de los flujos en conjuntos AVS.
 
@@ -259,7 +259,7 @@ La Guía del usuario se encuentra en la carpeta del SDK del visor de Adobe HTML5
 
    * El iPad 3 tiene una resolución nativa de 2048 x 1536. Esta resolución puede causar problemas de visualización si se publica el servicio de imágenes de la empresa y el límite de tamaño de imagen se establece en un nivel inferior.
 
-* iPhone4
+* IPHONE4
 
    * Icono Icono de reproducción reemplazado por icono de reproducción después de desplazarse por la página.
 
@@ -291,9 +291,9 @@ La Guía del usuario se encuentra en la carpeta del SDK del visor de Adobe HTML5
 
 * Todos los componentes
 
-   * En las versiones 2.7.2 y anteriores, algunos componentes se añadían al DOM mediante `insertBefore()` API. Como resultado, estos componentes se colocarían en la parte inferior del orden de apilamiento, independientemente de cuándo se cree una instancia de componente en relación con otros componentes. Con la versión 2.8.1, todos los componentes utilizan `appendChild()` ahora, lo que significa que el orden de apilamiento de componentes coincidiría con el orden de creación de instancias.
+   * En las versiones 2.7.2 y anteriores, algunos componentes se añadían al DOM mediante la API `insertBefore()`. Como resultado, estos componentes se colocarían en la parte inferior del orden de apilamiento, independientemente de cuándo se cree una instancia de componente en relación con otros componentes. Con la versión 2.8.1, todos los componentes utilizan ahora la API `appendChild()`, lo que significa que el orden de apilamiento de los componentes coincidirá con el orden de creación de la instancia.
 
-   * Uso de `iscommand` no se admite el modificador para establecer el formato de canal alfa de imagen. Usar componente `FMT` en su lugar.
+   * No se admite el uso del modificador `iscommand` para establecer el formato de canal alfa de imagen. En su lugar, utilice el parámetro `FMT` del componente.
    * Actualmente, la propiedad de transformación de CSS no es compatible.
 
 * Dispositivos táctiles
@@ -311,7 +311,7 @@ La Guía del usuario se encuentra en la carpeta del SDK del visor de Adobe HTML5
 
 * Componente IconEffect
 
-   * IconEffect generará un error de secuencia de comandos en Internet Explorer si `autohide` está desactivado (se establece en `0`).
+   * IconEffect genera un error de script en Internet Explorer si `autohide` está deshabilitado (establecido en `0`).
 
 * Componente ImageMapEffect
 
@@ -327,7 +327,7 @@ La Guía del usuario se encuentra en la carpeta del SDK del visor de Adobe HTML5
 
 * Componente PageScrubber
 
-   * En iPhone 5, cuando la burbuja PageScrubber está configurada como texto, muestra artefactos al deslizar el botón a lo largo de la pista. Uso de `-webkit-background-clip: content;` en el estilo trabaja en torno al problema.
+   * En iPhone 5, cuando la burbuja PageScrubber está configurada como texto, muestra artefactos al deslizar el botón a lo largo de la pista. Usar `-webkit-background-clip: content;` en el estilo soluciona el problema.
 
 * Componente SpinView
 
@@ -336,16 +336,16 @@ La Guía del usuario se encuentra en la carpeta del SDK del visor de Adobe HTML5
 * Componente Muestras
 
    * Al seleccionar una muestra fuera de los límites, se muestran dos puntos resaltados.
-   * Desplazamiento automático con `selectSwatch()` método que funciona incorrectamente.
+   * El desplazamiento automático con el método `selectSwatch()` no funciona correctamente.
 
 * VideoPlayer
 
    * El fotograma de vídeo no se actualiza si la búsqueda se establece en el 100 % y la reserva en auto.
-   * En ocasiones, se pueden producir bloqueos de macros durante la búsqueda de vídeo en el modo de flujo HLS en los navegadores Chrome, Firefox e Internet Explorer.
-   * Es posible que la imagen de póster no se muestre en el explorador Microsoft® Edge por primera vez como visitante.
+   * En ocasiones, se pueden producir bloqueos de macros durante la búsqueda de vídeo en el modo de transmisión HLS en los navegadores Chrome, Firefox e Internet Explorer.
+   * Es posible que la imagen del póster no se muestre en el explorador Microsoft® Edge por primera vez en el visitante.
    * La imagen de póster puede ocultarse después de la carga del vídeo en Internet Explorer 9 cuando se utiliza la reproducción progresiva.
 
 ## Dynamic Media Image Serving 6.3.2 e Image Rendering 6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
 
-* Utilidad IC - `downsample2x2` ya no se admite el indicador. Este indicador era un downsampler 2x2 de baja calidad que ya no se utiliza en IPS.
-* Encabezado CORS: Actualmente, el encabezado CORS está configurado para `/is/content/` solicitudes.
+* Utilidad IC: ya no se admite el indicador `downsample2x2`. Este indicador era un downsampler 2x2 de baja calidad que ya no se utiliza en IPS.
+* Encabezado CORS: actualmente, el encabezado CORS está configurado para `/is/content/` solicitudes.

@@ -24,9 +24,9 @@ XMP Incrustar metadatos de la. XMP Especifica si se deben incluir metadatos de l
 
 ## Propiedades {#section-27024c4272f44d9a8c264a0629193af2}
 
-Atributo de solicitud. XMP Se ignora si la imagen de origen no contiene datos de la. XMP Solo los datos de la imagen de origen de `layer=0` se procesan. XMP Se ignoran los datos de otras imágenes de capa.
+Atributo de solicitud. XMP Se ignora si la imagen de origen no contiene datos de la. XMP Solo se procesan los datos de la imagen de origen de `layer=0`. XMP Se ignoran los datos de otras imágenes de capa.
 
-XMP Se ignora si el formato de imagen de salida no admite la incrustación de. Consulte la descripción de `fmt=` XMP para obtener una lista de formatos de imagen de salida que admitan la incrustación de.
+XMP Se ignora si el formato de imagen de salida no admite la incrustación de. XMP Consulte la descripción de `fmt=` para obtener una lista de los formatos de imagen de salida que admiten la incrustación de la.
 
 ## Predeterminado {#section-aedbedd04d664ba184b2cfe35644b960}
 

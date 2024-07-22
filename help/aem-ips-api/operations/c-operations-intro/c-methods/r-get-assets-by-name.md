@@ -8,7 +8,7 @@ exl-id: e48574e3-9d16-45fb-b4c8-98b5e092e611
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 15%
+ht-degree: 10%
 
 ---
 
@@ -93,7 +93,7 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> strictSubTypeCheck</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>If <span class="codeph"> true</span> y <span class="codeph"> assetSubTypeArray</span> no está vacío, solo recursos cuyos subtipos están en <span class="codeph"> assetSubTypeArray</span> se devuelven. </p> <p>If <span class="codeph"> false</span>A continuación, se incluyen los recursos sin subtipo definido. </p> <p>El valor predeterminado es <span class="codeph"> false</span>. </p> </td> 
+   <td colname="col4"> <p>Si <span class="codeph"> true</span> y <span class="codeph"> assetSubTypeArray</span> no están vacíos, solo se devuelven los recursos cuyos subtipos están en <span class="codeph"> assetSubTypeArray</span>. </p> <p>Si <span class="codeph"> es false</span>, se incluyen los recursos sin un subtipo definido. </p> <p>El valor predeterminado es <span class="codeph"> false</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </td> 
@@ -120,7 +120,7 @@ Sintaxis
 
 Este ejemplo de código devuelve dos recursos de tipo de imagen.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <getAssetsByNameParam xmlns="http://www.scene7.com/IpsApi/xsd/2010-01-31">

@@ -8,7 +8,7 @@ exl-id: da5e5a48-2e0b-4ccc-a71e-b5b746484d4a
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '89'
-ht-degree: 17%
+ht-degree: 15%
 
 ---
 
@@ -44,7 +44,7 @@ Sintaxis
 
 Este ejemplo de código devuelve todos los miembros de una compañía en una matriz de usuarios. La respuesta se ha truncado para ser breve.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <ns1:getCompanyMembersParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

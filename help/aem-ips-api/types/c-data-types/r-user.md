@@ -26,6 +26,6 @@ Sintaxis
 | firstName | `xsd:string` | Nombre del usuario. |
 | lastName | `xsd:string` | Apellidos del usuario. |
 | correo electrónico | `xsd:string` | dirección de correo electrónico |
-| defaultRole | `xsd:string` | Establece la función de un usuario en cada compañía a la que pertenece. Sin embargo, la función de usuario `IpsAmin` reemplaza otras funciones de usuario. |
+| defaultRole | `xsd:string` | Establece la función de un usuario en cada compañía a la que pertenece. Sin embargo, el rol de usuario `IpsAmin` invalida otros roles de usuario. |
 | isValid | `xsd:boolean` | Determina si el usuario es válido. |
 | passwordExpires | `xsd:dateTime` | Establece fecha de caducidad de contraseña. |

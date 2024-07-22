@@ -8,7 +8,7 @@ exl-id: 60aa2846-b41e-4131-b465-82aa832434f7
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -49,9 +49,9 @@ Sintaxis
 
 ## Ejemplos {#section-bee5be2402f54cb9a3a02cc07def4135}
 
-En este ejemplo se agrega un solo recurso (al que se hace referencia mediante su identificador) en una matriz de identificadores de recursos a un proyecto especificado en la solicitud. La operación se completó correctamente cuando la respuesta `successCount` devoluciones `1`.
+En este ejemplo se agrega un solo recurso (al que se hace referencia mediante su identificador) en una matriz de identificadores de recursos a un proyecto especificado en la solicitud. La operación se completó correctamente cuando la respuesta `successCount` devuelve `1`.
 
-**Solicitar**
+**Solicitud**
 
 ```java {.line-numbers}
 <addProjectAssetsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 0ef09f06-c2d5-4c84-8ff9-4e94e9e54d40
 source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 2%
+source-wordcount: '197'
+ht-degree: 0%
 
 ---
 
@@ -31,23 +31,23 @@ El aspecto del tiempo del vídeo se controla con el siguiente selector de clase 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> parte superior </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> </span> principales </p> </td> 
    <td colname="col2"> <p>Posición desde el borde superior, incluido el relleno. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> derecha </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> derecho </span> </p> </td> 
    <td colname="col2"> <p>Posición desde el borde derecho, incluido el relleno. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> Ancho del control de tiempo del vídeo. Esta propiedad es necesaria para que Internet Explorer 8 o bueno funcione correctamente. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ancho </span> </p> </td> 
+   <td colname="col2"> <p> Ancho del control de tiempo del vídeo. Esta propiedad es necesaria para que Internet Explorer 8 o posterior funcione correctamente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>La familia de fuentes que se utilizará para el texto de visualización del tiempo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamaño de fuente </span> </p> </td> 
    <td colname="col2"> <p>El tamaño de fuente que se utilizará para el texto de visualización de tiempo. </p> </td> 
   </tr> 
   <tr> 
@@ -59,7 +59,7 @@ El aspecto del tiempo del vídeo se controla con el siguiente selector de clase 
 
 ## Ejemplo {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Establecer la hora del vídeo en gris claro (hexadecimal) `#BBBBBB`), con un tamaño de 12 píxeles, colocados a 15 píxeles de la parte superior de la barra de control y a 80 píxeles del borde derecho de la barra de control.
+Establezca el tiempo del vídeo en gris claro (hexadecimal `#BBBBBB`), con un tamaño de 12 píxeles, situado a 15 píxeles de la parte superior de la barra de control y a 80 píxeles de los bordes derechos de la barra de control.
 
 ```
 .s7smartcropvideoviewer .s7videotime { 

@@ -35,4 +35,4 @@ Una respuesta típica de propiedades de texto tiene esta estructura general:
 
 *`propertyValue`* puede estar vacío. El espacio en blanco es opcional al principio y al final de cada línea y antes y después del separador =. Se pueden utilizar comillas simples o dobles para incluir valores de cadena, pero no son necesarias.
 
-Los valores de cadena pueden contener caracteres de escape de estilo JAVA, como `\n`, `\t`, `\:`, o `\\`.
+Los valores de cadena pueden contener caracteres de escape de estilo JAVA, como `\n`, `\t`, `\:` o `\\`.

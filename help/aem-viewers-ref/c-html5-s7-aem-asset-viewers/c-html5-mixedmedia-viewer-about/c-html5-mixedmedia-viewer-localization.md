@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 119d8dde-145b-4762-a1ab-882a29e0f6a6
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Determinado contenido que muestra el visualizador de medios mixtos está sujeto a la localización. Esta guía incluye botones de zoom, botones de giro, controles de vídeo, botón de cierre, botón de pantalla completa y botones de desplazamiento de muestra.
 
-Cada contenido textual del visualizador que se puede localizar se representa mediante un identificador especial del SDK del visualizador llamado SYMBOL. Cualquier SYMBOL tiene un valor de texto asociado por defecto para la configuración regional en inglés ( `"en"`) se suministra con el visor incorporado. También puede tener valores definidos por el usuario configurados para tantas configuraciones regionales como sea necesario.
+Cada contenido textual del visualizador que se puede localizar se representa mediante un identificador especial del SDK del visualizador llamado SYMBOL. Cualquier SYMBOL tiene un valor de texto asociado predeterminado para la configuración regional en inglés (`"en"`) que se proporciona con el visor predeterminado. También puede tener valores definidos por el usuario configurados para tantas configuraciones regionales como sea necesario.
 
 Cuando se inicia el visor, comprueba la configuración regional actual para ver si hay un valor definido por el usuario para cada SÍMBOLO admitido para la configuración regional. Si existe, utiliza el valor definido por el usuario; de lo contrario, vuelve al texto predeterminado predeterminado.
 
@@ -40,7 +40,7 @@ defaultLocale:"en"
 
 En el ejemplo anterior, el objeto de localización define dos configuraciones regionales ( `"en"` y `"fr"`) y proporciona localización para dos elementos de interfaz de usuario en cada configuración regional.
 
-El código de la página web debe pasar el objeto de localización al constructor del visor como un valor del `localizedTexts` del objeto de configuración. Una opción alternativa es pasar el objeto de localización llamando a la variable `setLocalizedTexts(localizationInfo)` método.
+El código de la página web debe pasar el objeto de localización al constructor del visor como un valor del campo `localizedTexts` del objeto de configuración. Una opción alternativa es pasar el objeto de localización llamando al método `setLocalizedTexts(localizationInfo)`.
 
 Se admiten los siguientes SYMBOL:
 
@@ -98,11 +98,11 @@ Se admiten los siguientes SYMBOL:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.TIP_BUBBLE_OVER </span> </p> </td> 
-   <td colname="col2"> <p>Sistemas de escritorio en <span class="codeph"> en línea </span> modo de zoom. </p> </td> 
+   <td colname="col2"> <p>Sistemas de escritorio en <span class="codeph"> modo de zoom </span> en línea. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.TIP_BUBBLE_TAP </span> </p> </td> 
-   <td colname="col2"> <p>Dispositivos táctiles en <span class="codeph"> en línea </span> modo de zoom. </p> </td> 
+   <td colname="col2"> <p>Dispositivos táctiles en el modo de zoom </span> en línea de <span class="codeph">. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED </span> </p> </td> 
@@ -157,7 +157,7 @@ Se admiten los siguientes SYMBOL:
    <td colname="col2"> <p>Estado del botón de pausa de reproducción. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> VideoScrubber.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">: VideoScrubber.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Limpiador de video. </p> </td> 
   </tr> 
   <tr> 
@@ -174,7 +174,7 @@ Se admiten los siguientes SYMBOL:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_VOLUME </span> </p> </td> 
-   <td colname="col2"> <p>Etiqueta del control deslizante de volumen expuesta a través de ARIA <span class="codeph"> aria-valuetext </span> atributo. </p> </td> 
+   <td colname="col2"> <p>Etiqueta de control deslizante de volumen expuesta mediante ARIA <span class="codeph"> atributo aria-valuetext </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> VideoPlayer.ERROR </span> </p> </td> 

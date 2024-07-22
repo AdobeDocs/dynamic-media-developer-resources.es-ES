@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 0c8e6536-0b9c-4fcc-b71f-511afc670089
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 11%
+source-wordcount: '134'
+ht-degree: 10%
 
 ---
 
@@ -47,7 +47,7 @@ Ya debe haber creado los mapas de imagen. Los mapas de imagen se aplican en orde
 
 Este ejemplo de código establece 2 mapas de imagen para un recurso de imagen. El código especifica el tipo de forma, la región y las acciones que se realizarán cuando se invoquen los mapas de imagen. La respuesta contiene una matriz con controladores para los mapas de imagen.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <setImageMapsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

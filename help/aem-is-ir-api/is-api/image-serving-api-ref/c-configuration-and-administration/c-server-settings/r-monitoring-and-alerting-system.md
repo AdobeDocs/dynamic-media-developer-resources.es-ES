@@ -18,7 +18,7 @@ Utilice esta configuración del servidor para configurar el sistema de supervisi
 
 ## AS::monitorAlertGenerator.enableGlobalAlerting: activación del sistema de alertas {#section-612f8ea61794426ab205e22e5f665fa9}
 
-Habilite las notificaciones por correo electrónico estableciendo como &quot;true&quot; y configurando las opciones de notificaciones por correo electrónico. Estableciendo en `false` desactiva todas las alertas de correo electrónico: esto puede resultar útil cuando se desconecta un servidor para fines de mantenimiento. Booleano.
+Habilite las notificaciones por correo electrónico estableciendo como &quot;true&quot; y configurando las opciones de notificaciones por correo electrónico. Si se establece en `false`, se desactivan todas las alertas de correo electrónico; esto puede resultar útil cuando se desconecta un servidor para realizar tareas de mantenimiento. Booleano.
 
 ## AS::mailSender.host: host SMTP {#section-151df07e7b44446581339bb7abeeba7a}
 
@@ -34,7 +34,7 @@ Una o más direcciones de correo electrónico a las que se deben enviar alertas.
 
 ## AS::monitorAlertGenerator.messageFrom: remitente de mensajes {#section-db320cba4ac2438ca1cfe6abce4aed87}
 
-La dirección de correo electrónico que debe usarse en la **[!UICONTROL Desde]** campo de correo electrónico.
+La dirección de correo electrónico que se debe usar en el campo de correo electrónico **[!UICONTROL De]**.
 
 ## AS::monitorAlertGenerator.alertInterval: intervalo de monitorización {#section-99cb2e3380c1499e9d5aec3671ed73c7}
 

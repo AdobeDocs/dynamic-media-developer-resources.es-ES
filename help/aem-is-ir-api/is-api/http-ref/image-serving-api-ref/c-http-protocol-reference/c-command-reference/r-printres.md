@@ -25,7 +25,7 @@ Resolución de impresión. Anula el valor de resolución de impresión incrustad
  </tr> 
 </table>
 
-La resolución de impresión se define normalmente por `catalog::PrintResolution` si es una entrada de catálogo, de lo contrario, por el valor de resolución de impresión incrustado en la imagen de origen. Si hay una plantilla o una imagen compuesta con capas, la resolución de impresión predeterminada incrustada en el archivo de respuesta es la resolución de impresión de la imagen de capa con el número de capa más bajo.
+La resolución de impresión se define normalmente por `catalog::PrintResolution` si es una entrada de catálogo; de lo contrario, se define por el valor de resolución de impresión incrustado en la imagen de origen. Si hay una plantilla o una imagen compuesta con capas, la resolución de impresión predeterminada incrustada en el archivo de respuesta es la resolución de impresión de la imagen de capa con el número de capa más bajo.
 
 La configuración de la resolución de impresión no cambia el tamaño en píxeles de la imagen de respuesta.
 

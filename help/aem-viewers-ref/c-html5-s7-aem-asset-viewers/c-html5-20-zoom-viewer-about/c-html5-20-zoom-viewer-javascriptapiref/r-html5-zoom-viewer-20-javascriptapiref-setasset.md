@@ -1,6 +1,6 @@
 ---
 title: setAsset
-description: Referencia de la API de JavaScript para el visualizador de vídeos.
+description: Referencia de la API de JavaScript para el visor de vídeo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
@@ -8,21 +8,21 @@ exl-id: 4fc94f30-e330-4c8a-b6da-d870e4f8e4ab
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
 source-wordcount: '135'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
 # setAsset{#setasset}
 
-Referencia de la API de JavaScript para el visualizador de vídeos.
+Referencia de la API de JavaScript para el visor de vídeo.
 
-` setAsset( *`asset`*)`
+` setAsset( *`recurso`*)`
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> recurso </span> </span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="codeph"> Cadena </span>} nuevo id de recurso, conjunto de imágenes explícito o conjunto de imágenes explícito con modificadores de servicio de imágenes específicos de fotograma, con modificadores globales de servicio de imágenes opcionales anexados después de "?". </p> <p> Las imágenes que utilizan IR (Image Rendering) o UGC (User-Generated Content) no son compatibles con este visor. </p> </td> 
+   <td colname="col2"> <p>{ <span class="codeph"> cadena </span>} nuevo id de recurso, conjunto de imágenes explícito o conjunto de imágenes explícito con modificadores de servicio de imágenes específicos de fotograma, con modificadores globales de servicio de imágenes opcionales anexados después de "?". </p> <p> Las imágenes que utilizan IR (Image Rendering) o UGC (User-Generated Content) no son compatibles con este visor. </p> </td> 
   </tr> 
  </tbody> 
 </table>

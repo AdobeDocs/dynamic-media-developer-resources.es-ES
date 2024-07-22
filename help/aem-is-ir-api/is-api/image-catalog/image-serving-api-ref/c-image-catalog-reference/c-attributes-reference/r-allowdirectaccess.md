@@ -16,16 +16,16 @@ ht-degree: 0%
 
 Permitir el acceso directo a los recursos basados en rutas.
 
-Cuando se define este atributo, se permite o restringe el acceso basado en rutas para los tipos de objeto especificados, dependiendo de si la variable `include` o `exclude` se utiliza la palabra clave.
+Cuando se define este atributo, se permite o restringe el acceso basado en rutas para los tipos de objeto especificados, dependiendo de si se utiliza la palabra clave `include` o `exclude`.
 
 >[!NOTE]
 >
->Si la variable `AllowDirectAccess` no se ha especificado el atributo, el valor predeterminado es `exclude`.
+>Si no se especifica el atributo `AllowDirectAccess`, el valor predeterminado es `exclude`.
 
 * `include` permite el acceso para los tipos de objeto especificados y restringe el acceso para todos los demás.
 * `exclude` restringe el acceso para los tipos de objeto especificados y permite el acceso para todos los demás.
 
-Si ninguno `include` ni `exclude` se ha especificado, `include` se asume.
+Si no se especifica ni `include` ni `exclude`, se asume `include`.
 
 Se pueden controlar los siguientes tipos:
 
@@ -39,26 +39,26 @@ Se pueden controlar los siguientes tipos:
 
 ## Ejemplos {#section-4c3765ebaa4245a799b454fc196f9237}
 
-* Permitir acceso directo solo para `IS` y `STATIC` tipos de objeto
+* Permitir acceso directo solo para los tipos de objeto `IS` y `STATIC`
 
   `AllowDirectAccess=include:IS,STATIC`
 
 * Permitir acceso directo a todos los tipos de objetos excepto `IS` y `STATIC``AllowDirectAccess=exclude:IS,STATIC`
 
-* Permitir acceso directo para *no* tipos de objeto (es decir, no incluir ninguno)
+* Permitir acceso directo a *no* tipos de objetos (es decir, no incluir ninguno)
 
   `AllowDirectAccess=include:`
 
-* Permitir acceso directo para *todo* tipos de objeto (es decir, no excluir ninguno)
+* Permitir acceso directo a *todos* los tipos de objetos (es decir, no excluir ninguno)
 
   `AllowDirectAccess=exclude:`
 
-* Equivalente a `include:IS,STATIC` (if `include`/ `exclude` no está presente, `include` se supone)
+* Equivalente a `include:IS,STATIC` (si `include`/ `exclude` no está presente, se supone que `include`)
 
   `AllowDirectAccess=IS,STATIC`
 
-  Tenga en cuenta que es el valor predeterminado que se utiliza si `AllowDirectAccess` no se ha especificado el atributo para esta empresa.
+  Tenga en cuenta que es el valor predeterminado que se utiliza si el atributo `AllowDirectAccess` no se especifica para esta compañía.
 
-* Incluir ninguno, equivalente a `include:` (if `include`/ `exclude` no está presente, `include` se supone)
+* Incluir ninguno, equivalente a `include:` (si `include`/ `exclude` no está presente, se supone que `include`)
 
   `AllowDirectAccess=`

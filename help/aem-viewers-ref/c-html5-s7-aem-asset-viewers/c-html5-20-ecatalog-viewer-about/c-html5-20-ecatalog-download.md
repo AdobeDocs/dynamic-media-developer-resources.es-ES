@@ -19,5 +19,5 @@ Es posible descargar el catálogo electrónico como un archivo de PDF utilizando
 El botón &quot;Descargar&quot; está disponible automáticamente en la interfaz de usuario del visor cuando se produce lo siguiente:
 
 * Hay un archivo de PDF real en la compañía del cliente.
-* El nombre coincide con el nombre del recurso de catálogo electrónico que se pasa al visor e incluye un `.pdf` extensión.
+* El nombre coincide con el nombre del recurso de catálogo electrónico que se pasó al visor e incluye una extensión `.pdf`.
 * El archivo del PDF se publica en Dynamic Media Classic.

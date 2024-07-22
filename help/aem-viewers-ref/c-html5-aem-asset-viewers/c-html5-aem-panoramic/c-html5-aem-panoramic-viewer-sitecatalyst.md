@@ -8,7 +8,7 @@ exl-id: fb58a388-e4da-475d-b726-d5a32e99cce0
 source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
 source-wordcount: '91'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ De forma predeterminada, el visor envía una única solicitud HTTP de seguimient
 
 ## Seguimiento personalizado {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Para integrarse con sistemas de análisis de terceros, es necesario escuchar `trackEvent` proceso y llamada de retorno del visor `eventInfo` de la función de llamada de retorno según sea necesario. El siguiente código es un ejemplo de esta función de controlador:
+Para integrarse con sistemas de análisis de terceros, es necesario escuchar la llamada de retorno del visor `trackEvent` y procesar el argumento `eventInfo` de la función de llamada de retorno según sea necesario. El siguiente código es un ejemplo de esta función de controlador:
 
 ```javascript {.line-numbers}
 var panoramicViewer = new s7viewers.PanoramicViewer({
@@ -53,7 +53,7 @@ El visor realiza un seguimiento de los siguientes eventos de usuarios del SDK:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> CARGAR </span> </p> </td> 
    <td colname="col2"> <p>cuando el visor se carga primero. </p> </td> 
   </tr> 
  </tbody> 

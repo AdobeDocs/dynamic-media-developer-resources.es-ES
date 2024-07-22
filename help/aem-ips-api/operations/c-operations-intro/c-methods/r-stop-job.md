@@ -8,7 +8,7 @@ exl-id: 90e61cf1-11f1-4504-8007-126ba4fe436a
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '54'
-ht-degree: 22%
+ht-degree: 18%
 
 ---
 
@@ -38,13 +38,13 @@ Sintaxis
 | companyHandle | `xsd:string` | Sí | Manejo de la compañía. |
 | jobHandle | `xsd:string` | Sí | Gestione el trabajo que desea detener. |
 
-**Salida (stopJobReturn0)**
+**Salida (stopJobReturn0**
 
 La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-f7e07fa09ae24dc89685533f20ab3b81}
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <stopJobParam xmlns="http://www.scene7.com/IpsApi/xsd">

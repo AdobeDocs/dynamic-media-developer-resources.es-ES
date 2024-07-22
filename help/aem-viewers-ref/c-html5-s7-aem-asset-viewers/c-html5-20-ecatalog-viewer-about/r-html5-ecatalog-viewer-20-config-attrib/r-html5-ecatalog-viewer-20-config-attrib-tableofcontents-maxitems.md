@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: d3196158-5eab-46de-8a29-8f08f4797185
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '60'
 ht-degree: 5%
 
 ---
@@ -19,8 +19,8 @@ ht-degree: 5%
 <table id="table_F9BC656721B04870AC628ACBC47E7200"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"><span class="varname"> maxitems</span></span> </p> </td> 
-   <td> <p>Número máximo de elementos en la tabla de contenido desplegable. </p> <p>Además, puede reducir el número de elementos visibles en la lista desplegable en caso de que el contenedor externo la recorte. </p> <p>Cuando se establece en <span class="codeph"> 0</span> ese componente muestra tantos elementos como sea posible según el contenedor al que se agregue. </p> </td> 
+   <td> <p> <span class="codeph"><span class="varname"> elementos máximos</span></span> </p> </td> 
+   <td> <p>Número máximo de elementos en la tabla de contenido desplegable. </p> <p>Además, puede reducir el número de elementos visibles en la lista desplegable en caso de que el contenedor externo la recorte. </p> <p>Cuando se establece en <span class="codeph"> 0</span>, ese componente muestra tantos elementos como sea posible según el contenedor al que se agregue. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -20,8 +20,8 @@ Si no se encuentra un atributo concreto en un catálogo de imágenes específico
 
 Además, el catálogo predeterminado proporciona todos los atributos y registros de datos (macros, fuentes, perfiles ICC, reglas de preprocesamiento de solicitudes) cuando no hay ningún catálogo de imágenes específico involucrado en una operación.
 
-Para el correcto funcionamiento del [!DNL Platform Server] el nombre del archivo de atributos de catálogo para el catálogo predeterminado debe ser [!DNL default.ini], siempre debe existir en la carpeta del catálogo y debe rellenarse completamente con todos los atributos necesarios, excluyendo `attribute::RootId` y las referencias a los distintos archivos de datos del catálogo, que son opcionales.
+Para el correcto funcionamiento de [!DNL Platform Server], el archivo de atributos de catálogo para el catálogo predeterminado debe llamarse [!DNL default.ini], debe existir siempre en la carpeta de catálogo y debe rellenarse completamente con todos los atributos necesarios, excluyendo `attribute::RootId` y las referencias a los distintos archivos de datos de catálogo, que son todos opcionales.
 
 >[!NOTE]
 >
->Todos los archivos de atributos de catálogo excepto [!DNL default.ini] debe contener un único `attribute::RootId` valor. `attribute::RootId` in [!DNL default.ini] debe estar vacío.
+>Todos los archivos de atributos de catálogo excepto [!DNL default.ini] deben contener un valor `attribute::RootId` único. `attribute::RootId` en [!DNL default.ini] debe estar vacío.

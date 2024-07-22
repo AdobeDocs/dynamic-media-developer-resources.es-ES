@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 67dd37f3-b11e-42d6-b308-7c1e76a8f2a9
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 2%
+source-wordcount: '204'
+ht-degree: 1%
 
 ---
 
@@ -42,7 +42,7 @@ El servicio de imágenes de Dynamic Media consta de los siguientes componentes:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Servicio de almacenamiento en caché </p> </td> 
-   <td colname="col2"> <p>aplicación J2EE. Gestiona el [!DNL Platform Server]Las cachés de datos de. Acceso HTTP en /is/cache. </p> </td> 
+   <td colname="col2"> <p>aplicación J2EE. Administra las cachés de datos de [!DNL Platform Server]. Acceso HTTP en /is/cache. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Image Server </p> </td> 
@@ -50,17 +50,17 @@ El servicio de imágenes de Dynamic Media consta de los siguientes componentes:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Componente de procesamiento de texto ATE </p> </td> 
-   <td colname="col2"> <p>Una o más instancias del servicio de renderización de texto pueden estar activas cuando <span class="codeph"> textPs=</span> se ejecutan las operaciones. </p> </td> 
+   <td colname="col2"> <p>Una o más instancias del servicio de procesamiento de texto pueden estar activas cuando se ejecutan <span class="codeph"> operaciones textPs=</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Componente de procesamiento de SVG </p> </td> 
    <td colname="col2"> <p>Aplicación Java™ independiente (no alojada en Tomcat). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Dynamic Media Image Rendering (también conocido como. Render Server) </p> </td> 
-   <td colname="col2"> <p>Se necesita una licencia independiente para activarla. Acceso HTTP en <span class="filepath"> /ir/render</span>. Toda la funcionalidad de procesamiento de imágenes está integrada en la [!DNL Platform Server] y el servidor de imágenes, sin componentes ejecutables independientes. </p> </td> 
+   <td colname="col1"> <p>Dynamic Media Image Rendering (también conocido como. Servidor de procesamiento) </p> </td> 
+   <td colname="col2"> <p>Se necesita una licencia independiente para activarla. Acceso HTTP en <span class="filepath"> /ir/render</span>. Toda la funcionalidad de procesamiento de imágenes está integrada en [!DNL Platform Server] y el servidor de imágenes, sin componentes ejecutables independientes. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-El catálogo predeterminado ( ) proporciona ajustes de configuración adicionales [!DNL default.ini]) o catálogos de imágenes específicos (consulte [Catálogos de imágenes](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) para obtener más información).
+El catálogo predeterminado ([!DNL default.ini]) o catálogos de imágenes específicos proporcionan opciones de configuración adicionales (consulte [Catálogos de imágenes](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) para obtener detalles).

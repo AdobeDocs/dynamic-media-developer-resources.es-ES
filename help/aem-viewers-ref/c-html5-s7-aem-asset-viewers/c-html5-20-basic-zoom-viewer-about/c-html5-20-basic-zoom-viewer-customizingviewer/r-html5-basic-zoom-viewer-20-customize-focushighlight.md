@@ -33,7 +33,7 @@ El aspecto se controla con el siguiente selector de clase CSS:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> contorno </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> descripción </span> </p> </td> 
    <td colname="col2"> <p>Estilo de resalte de enfoque. </p> </td> 
   </tr> 
  </tbody> 

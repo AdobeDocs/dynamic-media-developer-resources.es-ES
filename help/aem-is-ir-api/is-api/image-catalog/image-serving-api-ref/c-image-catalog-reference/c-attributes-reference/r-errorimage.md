@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: f412a379-525e-42fc-97bf-b10e00da6a20
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '275'
 ht-degree: 1%
 
 ---
@@ -16,23 +16,23 @@ ht-degree: 1%
 
 Imagen de respuesta de error. El servicio de imágenes normalmente devuelve un estado de error con un mensaje de texto cuando se produce un error.
 
-`attribute::ErrorImage` permite devolver una imagen, una entrada de catálogo o una plantilla en caso de error.
+`attribute::ErrorImage` permite que se devuelva una imagen, una entrada de catálogo o una plantilla en caso de error.
 
 >[!NOTE]
 >
->Las imágenes que faltan también se pueden gestionar con `attribute::DefaultImage`.
+>Las imágenes que faltan también se pueden administrar con `attribute::DefaultImage`.
 
-Se puede configurar una plantilla del servicio de imágenes que pueda representar el texto del mensaje de error en la imagen de respuesta. Las siguientes variables predefinidas pueden incluirse en la variable `$error.title` , que se sustituye por una breve descripción del error, y `$error.message`, que se sustituye por una descripción de error más detallada (el nivel de detalle se configura con `attribute::ErrorDetail`).
+Se puede configurar una plantilla del servicio de imágenes que pueda representar el texto del mensaje de error en la imagen de respuesta. Las siguientes variables predefinidas se pueden incluir en la plantilla `$error.title`, que se sustituye por una breve descripción del error, y `$error.message`, que se sustituye por una descripción del error más detallada (el nivel de detalle se configura con `attribute::ErrorDetail`).
 
 Se devuelve el estado HTTP 200 si la imagen o plantilla de error se puede procesar correctamente. Si se produce un error durante este procesamiento, se devuelve el estado de error HTTP y un mensaje de texto.
 
 ## Propiedades {#section-f460c6c2dd1f46b29f9a79b093575f45}
 
-Cadena de texto. Si se especifica, debe ser un valor catalog::Id válido en un catálogo de imágenes o un relativo (a `attribute::RootPath`) o ruta absoluta a un archivo de imagen accesible mediante el servidor de imágenes.
+Cadena de texto. Si se especifica, debe ser un valor catalog::Id válido en un catálogo de imágenes o una ruta relativa (a `attribute::RootPath`) o absoluta a un archivo de imagen accesible mediante el servidor de imágenes.
 
 ## Predeterminado {#section-2885f289e5714ddca665a6aee401967f}
 
-Heredado de `default::ErrorImage` si no está definido. Si se define pero está vacío, el comportamiento de la imagen de error se desactiva, incluso si `default::ErrorImage` se define y se devuelve un estado de error HTTP y un mensaje de texto.
+Se hereda de `default::ErrorImage` si no se define. Si se define pero está vacío, el comportamiento de la imagen de error se deshabilita, incluso si se define `default::ErrorImage`, y se devuelve un estado de error HTTP y un mensaje de texto.
 
 ## Ejemplo {#section-c92090abe1d247529542a8dd4960c2e6}
 
@@ -40,7 +40,7 @@ Para obtener imágenes de respuesta con el mensaje de error representado en la i
 
 `size=300,300&bgc=ffffff&text=$error.message$`
 
-La plantilla está registrada en `attribute::ErrorImage`:
+La plantilla está registrada con `attribute::ErrorImage`:
 
 `ErrorImage=myCatalog/onError`
 

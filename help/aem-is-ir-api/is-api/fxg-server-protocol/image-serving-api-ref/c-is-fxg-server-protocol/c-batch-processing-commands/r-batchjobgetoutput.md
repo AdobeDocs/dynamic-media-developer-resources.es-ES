@@ -20,14 +20,14 @@ Este parámetro:
 
 <table id="simpletable_D8AA325968AD4FAEA7B214F0CBBF3F08"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> trabajadora </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> id. de trabajo </span> </p> </td> 
   <td class="stentry"> <p>ID de trabajo que se obtuvo en el momento del envío. </p> </td> 
  </tr> 
 </table>
 
 Devuelve:
 
-La salida del PDF del trabajo se transmite en respuesta; error si `jobid` no es válido o se ha eliminado el trabajo.
+La salida del PDF del trabajo se transmite en respuesta; error si `jobid` no es válido o el trabajo se ha eliminado.
 
 ## Ejemplo {#section-0319e615fa254132a9dab59351b4c252}
 

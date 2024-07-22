@@ -16,9 +16,9 @@ ht-degree: 10%
 
 Tipos de recursos y recuento de una compañía.
 
-Los tipos de recursos incluyen [!DNL ViewerSWf], [!DNL PDF], [!DNL Cabinet], y otros.
+Los tipos de recursos incluyen [!DNL ViewerSWf], [!DNL PDF], [!DNL Cabinet] y otros.
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
 | assetType | `xsd:string` | Tipo de recurso asociado al recuento. |
-| contar | `sd:int` | Número de `assetType` activos en la empresa. |
+| contar | `sd:int` | Número de `assetType` activos en la compañía. |

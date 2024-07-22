@@ -18,4 +18,4 @@ Ajuste el margen de recorte. Define el margen de recorte definido en el fichero 
 
 ` trimMargin=[ *[!DNL top]*[, *[!DNL left]*= *[!DNL top]*[, *[!DNL bottom]*= *[!DNL top]*[, *[!DNL right]*= *[!DNL left]*]]]]` en puntos
 
-De forma predeterminada, la variable `trimMargin` se establece en el tamaño completo del documento definido por `viewWidth` y `viewHeight`. El *[!DNL left]*, *[!DNL bottom]*, y *[!DNL right]* Los valores predeterminados son *[!DNL top]* valor si no se especifica.
+De manera predeterminada, `trimMargin` está establecido en el tamaño completo del documento definido por `viewWidth` y `viewHeight`. Los valores *[!DNL left]*, *[!DNL bottom]* y *[!DNL right]* tienen de manera predeterminada el valor *[!DNL top]* si no se especifican.

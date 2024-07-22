@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 0350bdbc-3e3d-4bc0-98f6-5d7bf4121d9a
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 2%
+source-wordcount: '143'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ En sistemas de escritorio, algunos elementos de la interfaz de usuario, como los
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propiedades CSS del área del visor principal**
+**Propiedades CSS del área de visor principal**
 
 El aspecto de la información del objeto se controla con el siguiente selector de clase CSS:
 
@@ -35,15 +35,15 @@ El aspecto de la información del objeto se controla con el siguiente selector d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> borde-radio </span> </p> </td> 
    <td colname="col2"> <p> Radio de borde de fondo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color de borde </span> </p> </td> 
    <td colname="col2"> <p> Color de borde de fondo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color de fondo </span> </p> </td> 
    <td colname="col2"> <p> Color de fondo. </p> </td> 
   </tr> 
   <tr> 
@@ -55,7 +55,7 @@ El aspecto de la información del objeto se controla con el siguiente selector d
    <td colname="col2"> <p>Nombre de fuente del texto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamaño de fuente </span> </p> </td> 
    <td colname="col2"> <p>Tamaño de fuente del texto. </p> </td> 
   </tr> 
  </tbody> 
@@ -63,7 +63,7 @@ El aspecto de la información del objeto se controla con el siguiente selector d
 
 >[!NOTE]
 >
->En caso de que los estilos de información del objeto se personalicen desde la página web en la que se incorpora, todas las propiedades deben contener `!IMPORTANT` regla. Esta regla no es necesaria si la información del objeto se personaliza en el archivo CSS del visor.
+>En caso de que los estilos de información del objeto se personalicen desde la página web en la que se incorpora, todas las propiedades deben contener la regla `!IMPORTANT`. Esta regla no es necesaria si la información del objeto se personaliza en el archivo CSS del visor.
 
 Ejemplo: Para configurar la información del objeto que tiene un borde gris con un radio de esquina de 3 píxeles, fondo negro y texto blanco escrito con Arial®, tamaño de 11 píxeles:
 

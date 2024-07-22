@@ -18,11 +18,11 @@ Utilice esta configuración de servidor para cachés de servidor.
 
 ## PS::cache.rootPaths - Carpetas de datos de caché {#section-f0aa808304d74ecdb0c3644f11906c53}
 
-Las carpetas raíz para el [!DNL Platform Server]Caché de disco de. Una o varias rutas de acceso o rutas de acceso de archivo absolutas relativas a *[!DNL install_folder]*, separados por punto y coma (;). Los datos de la caché de respuestas HTTP se distribuyen de forma uniforme en todas las carpetas especificadas. Las cachés para las cachés auxiliares (catálogos de imágenes compiladas y datos de imágenes externas) se encuentran en la carpeta de caché principal (la primera carpeta de la lista).
+Las carpetas raíz de la caché de disco de [!DNL Platform Server]. Una o varias rutas de acceso o rutas de acceso de archivo absolutas relativas a *[!DNL install_folder]*, separadas por punto y coma (;). Los datos de la caché de respuestas HTTP se distribuyen de forma uniforme en todas las carpetas especificadas. Las cachés para las cachés auxiliares (catálogos de imágenes compiladas y datos de imágenes externas) se encuentran en la carpeta de caché principal (la primera carpeta de la lista).
 
 ## PS::cache.maxSize: tamaño del almacenamiento de datos de respuesta {#section-ed2e1e7ba4bd4e13b77bb20c4cacddb4}
 
-Tamaño máximo de la caché de respuestas HTTP en bytes. Esta configuración limita la cantidad de datos reales que se van a almacenar en caché; no tiene en cuenta la sobrecarga del sistema de archivos. (Consulte [Caché de datos de respuesta](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-response-data-cache.md#concept-81ea996c242441f2a69f7e9d9b3a29ca).) Si se especifican varias carpetas de datos de caché, los datos de la caché se distribuyen de forma uniforme en todas las carpetas. El valor de `cache.maxSize` in [!DNL PlatformServer.conf] está en bytes.
+Tamaño máximo de la caché de respuestas HTTP en bytes. Esta configuración limita la cantidad de datos reales que se van a almacenar en caché; no tiene en cuenta la sobrecarga del sistema de archivos. (Consulte [Caché de datos de respuesta](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-response-data-cache.md#concept-81ea996c242441f2a69f7e9d9b3a29ca).) Si se especifican varias carpetas de datos de caché, los datos de la caché se distribuyen de forma uniforme en todas las carpetas. El valor de `cache.maxSize` en [!DNL PlatformServer.conf] se encuentra en bytes.
 
 ## PS::cache.maxEntries - Entradas máximas de caché de datos de respuesta {#section-5603e327e90542a5b50aeeb27b080410}
 
@@ -42,7 +42,7 @@ En ocasiones, el servidor de imágenes necesita guardar datos intermedios en el 
 
 ## SV::temp - Carpeta de archivos temporales del Supervisor del servidor {#section-fd2cd5ef7e814a4bb56aaf5525e1a154}
 
-El Supervisor de servidor necesita guardar ocasionalmente los datos intermedios en el disco. La ruta puede ser absoluta o relativa a *[!DNL install_folder]*. El valor predeterminado es [!DNL  *[!DNL install_folder]*/temp].
+El Supervisor de servidor necesita guardar ocasionalmente los datos intermedios en el disco. La ruta puede ser absoluta o relativa a *[!DNL install_folder]*. El valor predeterminado es [!DNL *[!DNL install_folder]*/temp].
 
 >[!NOTE]
 >

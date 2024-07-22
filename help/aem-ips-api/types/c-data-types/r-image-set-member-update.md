@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 4c598afb-a80c-4fac-997f-ef1c7175430c
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 7%
+source-wordcount: '102'
+ht-degree: 3%
 
 ---
 
@@ -39,7 +39,7 @@ Dentro de este tipo, el campo pageReset es significativo para los tipos de recur
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> pageReset</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">Restablece la página. <p>La configuración se ignora y el valor se fuerza en true para <span class="codeph"> ImageSet</span> y <span class="codeph"> SpinSet</span>. </p></td> 
+   <td colname="col3">Restablece la página. <p>Se omite la configuración y se fuerza el valor en true para <span class="codeph"> ImageSet</span> y <span class="codeph"> SpinSet</span>. </p></td> 
   </tr> 
  </tbody> 
 </table>

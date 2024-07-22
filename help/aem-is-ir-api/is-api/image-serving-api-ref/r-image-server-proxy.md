@@ -18,7 +18,7 @@ Se puede utilizar un proxy de servidor de imágenes para cambiar el tamaño de l
 
 ## Formato URL {#section-2e8c40b0547c4f99874cdf502b338940}
 
-El formato de URL del proxy IS es muy similar a las solicitudes IS normales. Cualquier modificador IS pasado al proxy se pasa al servidor de imágenes. Puede encontrar información sobre los modificadores IS en [Referencia de protocolo HTTP](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-introduction.md#concept-dbbd5241bc6248ad9b9d7f6c635c311e).
+El formato de URL del proxy IS es muy similar a las solicitudes IS normales. Cualquier modificador IS pasado al proxy se pasa al servidor de imágenes. Puede encontrar información sobre los modificadores IS en la [Referencia de protocolo HTTP](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-introduction.md#concept-dbbd5241bc6248ad9b9d7f6c635c311e).
 
 `http://<server>/is-proxy/image/<company><asset>?<modifiers>`
 
@@ -28,11 +28,11 @@ El formato de URL del proxy IS es muy similar a las solicitudes IS normales. Cua
 
 <table id="simpletable_40C1DFB183B54A79BCF65D51ED480CE0"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> widpercent = &lt;number&gt;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> widpercent = &lt;número&gt;</span> </p></td> 
   <td class="stentry"> <p>Especifica el porcentaje del ancho utilizable del dispositivo que se utilizará como ancho de imagen. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> heipercent = &lt;number&gt;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> heipercent = &lt;número&gt;</span> </p></td> 
   <td class="stentry"> <p>Especifica el porcentaje de la altura utilizable del dispositivo que se utilizará como altura de la imagen. </p></td> 
  </tr> 
  <tr class="strow"> 

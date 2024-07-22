@@ -8,7 +8,7 @@ exl-id: 0e339ecf-83b5-410c-8683-f3d73bd92339
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '70'
-ht-degree: 21%
+ht-degree: 18%
 
 ---
 
@@ -40,7 +40,7 @@ Sintaxis
 
 Este ejemplo de código devuelve todas las empresas de IPS de una matriz. Tenga en cuenta que la respuesta de ejemplo se trunca por su brevedad.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <ns1:getAllCompaniesParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

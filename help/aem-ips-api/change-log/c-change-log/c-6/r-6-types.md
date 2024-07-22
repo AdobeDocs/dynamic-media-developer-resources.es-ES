@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: d3bcd718-cf27-4d31-850f-a3205564be60
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 4%
+source-wordcount: '71'
+ht-degree: 1%
 
 ---
 
@@ -38,21 +38,21 @@ Sintaxis
 
 ## Tipos modificados {#section-56b834b1a3b843279d8715b4a4f3890b}
 
-**Agregado**
+**Se agregó**
 
-* Añadido `numUrls` hasta `UploadUrlsJob`.
+* Se agregó `numUrls` a `UploadUrlsJob`.
 
-* Añadido `fileName` hasta `Asset.`
+* Agregó `fileName` a `Asset.`
 
-* Añadido `isHidden` hasta `MetadataField`.
+* Se agregó `isHidden` a `MetadataField`.
 
-* Añadido `taskState` hasta `TaskProgress`.
+* Se agregó `taskState` a `TaskProgress`.
 
-* Añadido `exportJob` hasta `ActiveJob` y `ScheduledJob`.
+* Se agregó `exportJob` a `ActiveJob` y `ScheduledJob`.
 
-* Añadido `optmizedPath` y `optimizedFile` hasta `PsdInfo`.
+* Se agregaron `optmizedPath` y `optimizedFile` a `PsdInfo`.
 
-* Añadido `contextHandle` hasta:
+* Se agregó `contextHandle` a:
 
    * `ImageRenderingPublishJob`
    * `VideoPublishJob`
@@ -64,10 +64,10 @@ Sintaxis
    * `cssInfo`
    * `javascriptInfo`
 
-**Se cambió**
+**Cambiado**
 
-* Entrada `User`, cambiado `role` hasta `defaultRole`.
+* En `User`, cambió `role` a `defaultRole`.
 
-* Entrada `Folder`, cambiado `permissions` hasta `permissionsSetHandle`.
+* En `Folder`, cambió `permissions` a `permissionsSetHandle`.
 
-* Entrada `AssetSummary`, `type` y `name` ahora son opcionales.
+* En `AssetSummary`, `type` y `name` son ahora opcionales.

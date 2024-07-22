@@ -8,7 +8,7 @@ exl-id: 8a9b7d54-d11b-41a8-9783-573a316e0ac6
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '117'
-ht-degree: 10%
+ht-degree: 8%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 10%
 
 Quita los usuarios de la empresa de un grupo específico.
 
-**Diferencias entre los comandos Quitar**
+**Diferencias entre los comandos de eliminación**
 
-* `removeGroupMembers`: elimina varios usuarios de un grupo.
+* `removeGroupMembers`: quita varios usuarios de un grupo.
 * `removeGroupMembership`: quita un usuario individual de una matriz de grupos.
 
 ## Tipos de usuarios autorizados {#section-2c64cdac15184fbba6c7b2945b5d87f7}
@@ -45,7 +45,7 @@ La API de IPS no devuelve una respuesta para esta operación.
 
 Este ejemplo de código quita un usuario de la compañía especificada. Quitar varios usuarios de un grupo con la matriz de identificadores de usuario.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <ns1:removeGroupMembersParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

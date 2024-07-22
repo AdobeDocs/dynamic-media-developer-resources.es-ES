@@ -1,6 +1,6 @@
 ---
 title: encabezado
-description: Elemento de encabezado de respuesta HTTP. Opcional en <rule> elementos.
+description: Elemento de encabezado de respuesta HTTP. Opcional en elementos <rule>.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -20,7 +20,7 @@ Elemento de encabezado de respuesta HTTP. Opcional en `<rule>` elementos.
 
 **`Name`= &quot;*texto*&quot;** : obligatorio. Especifica el nombre del encabezado HTTP.
 
-**`Action`= &quot;set&quot; |`"add"`**: Opcional. El valor predeterminado es `"set"`, que reemplaza cualquier valor de encabezado actual. Especificar `"add"` para que pueda anexar el valor del encabezado, separado con una coma.
+**`Action`= &quot;establecido&quot; |`"add"`**: Opcional. El valor predeterminado es `"set"`, que reemplaza cualquier valor del encabezado actual. Especifique `"add"` para que pueda anexar el valor del encabezado, separado con una coma.
 
 ## Datos {#section-a387f541396c49d99c29692a38032914}
 
@@ -43,6 +43,6 @@ La siguiente regla aplica un encabezado personalizado cuando el valor del encabe
 </rule>
 ```
 
-Esta regla se activa mediante la siguiente solicitud, que configura el encabezado de respuesta HTTP `Edge-Control::no-store`:
+Esta regla se activa mediante la siguiente solicitud, que establece el encabezado de respuesta HTTP `Edge-Control::no-store`:
 
 `http://server/is/image/cat/id?$Edge-Control=no-store`

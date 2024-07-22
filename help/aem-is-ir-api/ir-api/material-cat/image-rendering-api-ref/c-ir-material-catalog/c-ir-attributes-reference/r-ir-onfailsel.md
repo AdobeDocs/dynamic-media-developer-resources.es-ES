@@ -14,7 +14,7 @@ ht-degree: 6%
 
 # OnFailSel{#onfailsel}
 
-Gestión de errores de selección. Especifica la acción que debe realizarse si la variable `sel=` El comando falla porque la ubicación de píxeles especificada no está dentro del área de máscara de un objeto seleccionable.
+Gestión de errores de selección. Especifica las acciones que deben realizarse si el comando `sel=` falla porque la ubicación de píxeles especificada no se encuentra en el área de máscara de un objeto seleccionable.
 
 ## Propiedades {#section-cec491e6c5c744f9bfafaaa9d8774f83}
 
@@ -45,8 +45,8 @@ Enumeración.
 
 ## Predeterminado {#section-c25f458f9f8f4236963a95779529e664}
 
-Heredado de `default::OnFailSel` si no está definido.
+Se hereda de `default::OnFailSel` si no se define.
 
 ## Véase también {#section-f8b15dd64c674c5484d190dd9e3016af}
 
-[sel=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-sel.md#reference-01322c58d414481385c29fcdd27a090b) , [attribute::OnFailObj](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-onfailobj.md#reference-4c6ba90418e84da5831f8573bbbf2c8d)
+[sel=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-sel.md#reference-01322c58d414481385c29fcdd27a090b) , [atributo::OnFailObj](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-onfailobj.md#reference-4c6ba90418e84da5831f8573bbbf2c8d)

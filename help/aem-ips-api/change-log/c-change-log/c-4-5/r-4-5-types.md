@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 45024d75-8058-40f8-b3e3-9b28b4cdc3f7
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 3%
+source-wordcount: '62'
+ht-degree: 1%
 
 ---
 
@@ -41,10 +41,10 @@ Sintaxis
 
 ## Tipos modificados {#section-6ecdf752cc1a4636a583b4c546a0fccf}
 
-* El recurso incluye un nuevo `fileName` que devuelve el nombre del archivo virtual.
-* `AssetSummary` devuelve un valor `type` y `name` campo
+* El recurso incluye un nuevo campo `fileName` que devuelve el nombre del archivo virtual.
+* `AssetSummary` devuelve un campo `type` y `name`
 
 * `MetadataField` incluye `isHidden`
 
 * `MetadataUpdate`
-* `UploadUrlsJob` requiere un `urlArray` y añade un `numUrls` count
+* `UploadUrlsJob` requiere `urlArray` y agrega un recuento `numUrls` opcional

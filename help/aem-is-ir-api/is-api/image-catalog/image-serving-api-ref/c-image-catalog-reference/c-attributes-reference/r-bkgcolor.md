@@ -8,7 +8,7 @@ exl-id: f008c834-30fb-4a49-8e6c-1110e55af280
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '60'
-ht-degree: 6%
+ht-degree: 5%
 
 ---
 
@@ -22,7 +22,7 @@ Color.
 
 ## Predeterminado {#section-9c2c5794b82a4ef89a09551f08d03dbc}
 
-Heredado de `default::BkgColor` si no se define o si está vacío.
+Se hereda de `default::BkgColor` si no se ha definido o está vacío.
 
 ## Véase también {#section-90967e515a0d46bd8a9361fd49fc43cf}
 

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: d3bd6d4d-d7bd-4c9b-bc9e-7edaaac6378e
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 7%
+source-wordcount: '127'
+ht-degree: 2%
 
 ---
 
@@ -26,9 +26,9 @@ Utilice los siguientes comandos para aplicar un formato básico a los caracteres
  </thead>
  <tbody> 
   <tr> 
-   <td> <span class="codeph"> \sin formato </span> </td> 
+   <td> <span class="codeph"> \plain </span> </td> 
    <td> <p>Restablecer el formato de caracteres al valor predeterminado. </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> solo. </p> </td> 
+   <td> <p> <span class="codeph"> textPs= </span> solamente. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \f <span class="varname"> N </span> </span> </td> 
@@ -78,7 +78,7 @@ Utilice los siguientes comandos para aplicar un formato básico a los caracteres
       <li id="li_482CCC6F5D8544CCA69DF2A070097ABD"> <span class="codeph"> \ulth </span> </li> 
       <li id="li_F11C79A6640B4C0684CA5D9733E49F43"> <span class="codeph"> \ulw </span> </li> 
       <li id="li_84F94D17372B4C0494A9F8AEC951C556"> <span class="codeph"> \ulwave </span> </li> 
-     </ul> </p> <p>Estas se implementan en este momento como estándar <span class="codeph"> \ul </span> subrayado. Todos los demás comandos de subrayado RTF se omiten. </p> </td> 
+     </ul> </p> <p>Se implementan en este momento como un subrayado estándar de <span class="codeph"> \ul </span>. Todos los demás comandos de subrayado RTF se omiten. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \ulnone </span> </td> 
@@ -93,12 +93,12 @@ Utilice los siguientes comandos para aplicar un formato básico a los caracteres
   <tr> 
    <td> <span class="codeph"> \caps </span> </td> 
    <td> <p>mayúsculas </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> solo. </p> </td> 
+   <td> <p> <span class="codeph"> textPs= </span> solamente. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \scaps </span> </td> 
    <td> <p>minúsculas ("versales") </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> solo. </p> </td> 
+   <td> <p> <span class="codeph"> textPs= </span> solamente. </p> </td> 
   </tr> 
  </tbody> 
 </table>

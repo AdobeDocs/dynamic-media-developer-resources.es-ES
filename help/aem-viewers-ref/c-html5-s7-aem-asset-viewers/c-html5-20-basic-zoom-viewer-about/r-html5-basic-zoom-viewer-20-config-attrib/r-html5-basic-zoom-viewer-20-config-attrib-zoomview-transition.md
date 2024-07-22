@@ -7,23 +7,23 @@ role: Developer,User
 exl-id: 3ae12e0a-0647-4cb1-9785-c854b4586c47
 source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '108'
 ht-degree: 2%
 
 ---
 
 # ZoomView.transition{#zoomview-transition}
 
-` [ZoomView.|<containerId>_zoomView.]transition= *`hora`*[, *`relajación`*]`
+` [ZoomView.|<containerId>_zoomView.]transition= *`tiempo`*[, *`aliviando`*]`
 
 <table id="table_9E7BB12BF371419F88DD4D24EF04632C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> hora</span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> vez</span> </span> </p> </td> 
    <td colname="col2"> <p> Especifica el tiempo en segundos que tarda la animación para una única acción de paso de zoom. </p> </td> 
   </tr>
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> relajación</span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> suavizando </span> </span> </p> </td> 
    <td colname="col2"> <p> Crea una ilusión de aceleración o desaceleración que hace que la transición parezca más natural. Puede establecer la aceleración en una de las siguientes opciones: </p> <p> 
      <ul id="ul_DA0D1CF2F2484410BFCCACA86661702E"> 
       <li id="li_93A2D53A53314D9594CEDC9EB20381D4">0 (automático) </li> 

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 7d0827c5-f420-4804-983c-5298ee92b276
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 1%
+source-wordcount: '343'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ Establecer indicador es una serie de puntos que se representan en la parte infer
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propiedades CSS del indicador determinado**
+**Propiedades CSS del indicador establecido**
 
 El aspecto del contenedor del indicador determinado se controla con el siguiente selector de clase CSS:
 
@@ -35,7 +35,7 @@ El aspecto del contenedor del indicador determinado se controla con el siguiente
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color de fondo </span> </p> </td> 
    <td colname="col2"> <p>El color de fondo en formato hexadecimal del indicador determinado. </p> </td> 
   </tr> 
  </tbody> 
@@ -66,35 +66,35 @@ El aspecto de un punto indicador de conjunto individual se controla con el selec
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ancho </span> </p> </td> 
    <td colname="col2"> <p>Anchura del punto del indicador definido. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p>Altura del punto del indicador definido. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margen restante </span> </p> </td> 
    <td colname="col2"> <p>Margen izquierdo en píxeles. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margen superior </span> </p> </td> 
    <td colname="col2"> <p>Margen superior en píxeles. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margen derecho </span> </p> </td> 
    <td colname="col2"> <p>Margen derecho en píxeles. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margen inferior </span> </p> </td> 
    <td colname="col2"> <p>Margen inferior en píxeles. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> borde-radio </span> </p> </td> 
    <td colname="col2"> <p>Radio de borde en píxeles. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color de fondo </span> </p> </td> 
    <td colname="col2"> <p>Color de fondo en formato hexadecimal. </p> </td> 
   </tr> 
   <tr> 
@@ -102,7 +102,7 @@ El aspecto de un punto indicador de conjunto individual se controla con el selec
    <td colname="col2"> <p>Nombre de la fuente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamaño de fuente </span> </p> </td> 
    <td colname="col2"> <p>Tamaño de la fuente. </p> </td> 
   </tr> 
   <tr> 
@@ -110,7 +110,7 @@ El aspecto de un punto indicador de conjunto individual se controla con el selec
    <td colname="col2"> <p>Color de la fuente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vertical-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> alinear verticalmente </span> </p> </td> 
    <td colname="col2"> <p>Alineación vertical del índice del titular. </p> </td> 
   </tr> 
   <tr> 
@@ -122,7 +122,7 @@ El aspecto de un punto indicador de conjunto individual se controla con el selec
 
 >[!NOTE]
 >
->Establecer elementos indicadores que admitan el `state` selector de atributos, que se puede utilizar para aplicar diferentes aspectos a diferentes estados de miniaturas. En particular, `state="selected"` corresponde al elemento actual del conjunto; `state="unselected"` corresponde al estado predeterminado del elemento.
+>Los elementos indicadores establecidos admiten el selector de atributos `state`, que se puede utilizar para aplicar diferentes aspectos a diferentes estados de miniaturas. En particular, `state="selected"` corresponde al elemento actual del conjunto; `state="unselected"` corresponde al estado de elemento predeterminado.
 
 Por ejemplo, supongamos que desea configurar un indicador definido en modo de puntos para sistemas de escritorio. Desea que se coloque a 20 píxeles de la parte inferior del visor. Y, desea que los puntos no seleccionados sean negros con una transparencia del 50%, 15 x 15 píxeles con esquinas redondeadas de siete píxeles. Los puntos seleccionados son de color negro con una transparencia del 90 %, 18 x 18 píxeles con esquinas redondeadas de nueve píxeles. El espacio entre puntos es de cinco píxeles.
 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 08a363d0-918d-48e9-aef0-5a8554c2708a
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '167'
 ht-degree: 4%
 
 ---
@@ -43,7 +43,7 @@ El valor enumerado debe ser 0, 1, 2 o 3.
 
 ## Predeterminado {#section-8f27098e509945a18676aca0675c8f41}
 
-Heredado de `default::ErrorDetail` si no se especifica o si está vacío.
+Se hereda de `default::ErrorDetail` si no se especifica o si está vacío.
 
 ## Véase también {#section-5451b0525ed74121950bfc34726c3970}
 

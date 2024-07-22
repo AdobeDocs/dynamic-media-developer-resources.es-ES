@@ -18,7 +18,7 @@ Los siguientes comandos comprenden la API de procesamiento por lotes expuesta po
 
 Se especifican en el formato de solicitud especial como: `?req=<command>`
 
-Los ejemplos mostrados para estos comandos utilizan un `PlatformServer` URL &quot; [!DNL scene7.adobe.com:8080]&quot; y una compañía ficticia llamada AcmeCorp. El ID de trabajo también es ficticio.
+Los ejemplos mostrados para estos comandos utilizan una URL `PlatformServer` ficticia &quot;[!DNL scene7.adobe.com:8080]&quot; y una compañía ficticia llamada AcmeCorp. El ID de trabajo también es ficticio.
 
 * [batchjobbriefStatus](r-batchjobbriefstatus.md)
 * [batchjobdelete](r-batchjobdelete.md)

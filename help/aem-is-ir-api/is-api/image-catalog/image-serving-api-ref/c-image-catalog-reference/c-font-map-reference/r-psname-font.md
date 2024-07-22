@@ -8,7 +8,7 @@ exl-id: 8d48dead-e544-4fd1-8e8a-70933389b668
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
 source-wordcount: '59'
-ht-degree: 8%
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ Actualmente, solo el procesador FXG puede hacer referencia a las fuentes por sus
 
 ## Propiedades {#section-a560f8bfc69a4d88aeb0b53c1625153b}
 
-Cadena de texto. Opcional. Clave de índice secundaria para el mapa de fuentes. Lo mismo `font::PsName` el valor solo puede aparecer una vez en el mismo archivo de mapa de fuentes.
+Cadena de texto. Opcional. Clave de índice secundaria para el mapa de fuentes. El mismo valor `font::PsName` solo puede aparecer una vez en el mismo archivo de asignación de fuentes.
 
 ## Predeterminado {#section-c5903d5340e740b69ec0150d2303a893}
 

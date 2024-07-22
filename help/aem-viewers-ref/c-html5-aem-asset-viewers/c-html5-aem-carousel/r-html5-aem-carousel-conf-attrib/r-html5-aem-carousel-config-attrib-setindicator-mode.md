@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> numérico|punteado</span> </p> </td> 
-   <td colname="col2"> <p> Configura el estilo de representación del indicador determinado. </p> <p>Cuando se establece en <span class="codeph"> punteado </span>, el componente procesa indicadores idénticos para todas las páginas. </p> <p>Cuando se establece en <span class="codeph"> numérico</span> coloca un número de página basado en 1 dentro de cada elemento indicador. </p> <p>El <span class="codeph"> numérico</span> el modo de operación no es compatible con dispositivos que tengan entrada táctil. En su lugar, el componente utiliza <span class="codeph"> punteado</span> en dichos dispositivos. </p> </td> 
+   <td colname="col2"> <p> Configura el estilo de representación del indicador determinado. </p> <p>Cuando se establece en <span class="codeph"> </span> punteado, el componente procesa indicadores idénticos para todas las páginas. </p> <p>Cuando se establece en <span class="codeph"> numeric</span>, coloca un número de página basado en 1 dentro de cada elemento indicador. </p> <p>El modo de operación <span class="codeph"> numeric</span> no es compatible con dispositivos con entrada táctil. En su lugar, el componente utiliza <span class="codeph"> dotted</span> en dichos dispositivos. </p> </td> 
   </tr> 
  </tbody> 
 </table>

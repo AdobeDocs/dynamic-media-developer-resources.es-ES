@@ -26,4 +26,4 @@ Ninguno.
 
 ## Véase también {#section-b8dfd2f3bdb24334bcd759d2b366e3c7}
 
-[type=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-type.md) , [Protocolo HTTP: servicio de contenido estático](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-serving-static-non-image-content.md)
+[type=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-type.md) , [Protocolo HTTP - Sirviendo contenido estático](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-serving-static-non-image-content.md)

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 730e7db9-47f0-4e96-8948-18b8185a5b7a
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 2%
+source-wordcount: '166'
+ht-degree: 0%
 
 ---
 
@@ -31,9 +31,9 @@ Datos del conjunto de imágenes del catálogo de imágenes. Devuelve los datos d
 
 El contenido de `catalog::ImageSet` se devuelve sin más modificaciones (excepto la localización de cadenas, si corresponde), seguida de un terminador de una sola línea (CR/LF). Si la ruta URL no se resuelve en una entrada de catálogo válida, la respuesta consiste únicamente en un terminador de una sola línea.
 
-Se omiten otros comandos de la cadena de solicitud. La respuesta HTTP se puede almacenar en caché con el TTL en función de `catalog::NonImgExpiration`.
+Se omiten otros comandos de la cadena de solicitud. La respuesta HTTP se puede almacenar en caché con el TTL basado en `catalog::NonImgExpiration`.
 
-Las solicitudes compatibles con el formato de respuesta JSONP permiten especificar el nombre del controlador de devolución de llamada JS mediante la sintaxis extendida de `req=` parámetro:
+Las solicitudes compatibles con el formato de respuesta JSONP le permiten especificar el nombre del controlador de devolución de llamada JS mediante la sintaxis extendida del parámetro `req=`:
 
 `req=...,json [&handler = reqHandler ]`
 

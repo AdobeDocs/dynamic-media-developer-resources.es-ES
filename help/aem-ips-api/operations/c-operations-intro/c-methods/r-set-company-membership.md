@@ -8,7 +8,7 @@ exl-id: 43144c75-1d83-4e1d-8319-c3275d349a2f
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '76'
-ht-degree: 15%
+ht-degree: 13%
 
 ---
 
@@ -42,7 +42,7 @@ La API de IPS no devuelve una respuesta para esta operación.
 
 Este ejemplo de código agrega un usuario a una compañía. Especifique varias empresas en la matriz de identificadores de la empresa si es necesario.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <ns1:setCompanyMembershipParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

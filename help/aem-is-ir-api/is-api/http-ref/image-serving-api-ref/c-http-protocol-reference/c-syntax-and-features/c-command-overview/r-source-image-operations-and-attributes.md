@@ -1,18 +1,18 @@
 ---
 description: Estos comandos se aplican a las imágenes de origen utilizadas en solicitudes simples o en capas de imagen, así como a las máscaras conectadas a capas de color sólido.
 solution: Experience Manager
-title: Operaciones de imagen de origen
+title: Operaciones de imagen de Source
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2024e193-3c46-4c51-971d-c7d335657ac8
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
-# Operaciones de imagen de origen{#source-image-operations}
+# Operaciones de imagen de Source{#source-image-operations}
 
 Estos comandos se aplican a las imágenes de origen utilizadas en solicitudes simples o en capas de imagen, así como a las máscaras conectadas a capas de color sólido.
 
@@ -26,7 +26,7 @@ Estos comandos se aplican a las imágenes de origen utilizadas en solicitudes si
   <td class="stentry"> <p>Recorta o amplía la imagen de origen. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e" type="reference" format="dita" scope="local"> enmascarar</a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e" type="reference" format="dita" scope="local"> máscara</a> </p></td> 
   <td class="stentry"> <p>Especifica una máscara de imagen de origen independiente. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -38,7 +38,7 @@ Estos comandos se aplican a las imágenes de origen utilizadas en solicitudes si
   <td class="stentry"> <p>Escala la imagen de origen en función de la resolución. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-scale.md#reference-098c30cea1764f189e6f7c7e400cc065" type="reference" format="dita" scope="local"> scale</a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-scale.md#reference-098c30cea1764f189e6f7c7e400cc065" type="reference" format="dita" scope="local"> escala</a> </p></td> 
   <td class="stentry"> <p>Escala la imagen de origen mediante el factor de escala. </p></td> 
  </tr> 
 </table>

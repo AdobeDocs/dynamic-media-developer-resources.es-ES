@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 0fd990cf-a54f-4574-8328-8988368d5875
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '99'
 ht-degree: 3%
 
 ---
@@ -16,15 +16,15 @@ ht-degree: 3%
 
 Límite de tamaño de imagen de respuesta. Anchura y altura máximas para la imagen de respuesta que se devuelve al cliente.
 
-El servidor devuelve un error si una solicitud origina una imagen de respuesta con una anchura o altura superiores a `attribute::MaxPix`.
+El servidor devuelve un error si una solicitud origina una imagen de respuesta con una anchura o altura superior a `attribute::MaxPix`.
 
 ## Propiedades {#section-b175425b9e9f48e0b1a71640f6a9e936}
 
-Dos números enteros mayores que 0 separados por una coma. Ancho y alto en píxeles. También se puede configurar en `0,0` para permitir cualquier tamaño de imagen de respuesta sin limitaciones.
+Dos números enteros mayores que 0 separados por una coma. Ancho y alto en píxeles. También se puede establecer en `0,0` para permitir cualquier tamaño de imagen de respuesta sin limitaciones.
 
 ## Predeterminado {#section-1003537434da432fb2af100ecdbf9d72}
 
-Heredado de `default::MaxPix` si no se define o si está vacío.
+Se hereda de `default::MaxPix` si no se ha definido o está vacío.
 
 ## Véase también {#section-7385697a1b86482bba19db894f7af95b}
 

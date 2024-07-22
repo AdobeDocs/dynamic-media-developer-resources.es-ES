@@ -16,6 +16,6 @@ ht-degree: 0%
 
 Tenga en cuenta estas reglas para las miniaturas.
 
-1. If `catalog::ThumbType=Crop`A continuación, la imagen (recortada) se escala al tamaño más pequeño posible mientras sigue cubriendo toda la recta de destino. If `catalog::ThumbType=Fit`A continuación, la imagen (recortada) se escala al mayor tamaño posible sin dejar de encajar toda la imagen en la parte recta de destino. If `catalog::ThumbType=Texture`, la imagen (recortada) se escala a la proporción de `catalog::ThumbRes` hasta `catalog::Resolution`.
-1. Alinee la imagen a escala con la recta de destino basándose en `attribute::ThumbHorizAlign` y `attribute::ThumbVertAlign`.
+1. Si se usa `catalog::ThumbType=Crop`, la imagen (recortada) se escala al tamaño más pequeño posible mientras se sigue cubriendo todo el recto de destino. Si es `catalog::ThumbType=Fit`, la imagen (recortada) se escala al tamaño más grande posible mientras se sigue ajustando toda la imagen en la dirección de destino. Si `catalog::ThumbType=Texture`, la imagen (recortada) se escala a la proporción de `catalog::ThumbRes` a `catalog::Resolution`.
+1. Alinee la imagen a escala con el destino rect basado en `attribute::ThumbHorizAlign` y `attribute::ThumbVertAlign`.
 1. Recorte el resultado en la dirección correcta de destino.

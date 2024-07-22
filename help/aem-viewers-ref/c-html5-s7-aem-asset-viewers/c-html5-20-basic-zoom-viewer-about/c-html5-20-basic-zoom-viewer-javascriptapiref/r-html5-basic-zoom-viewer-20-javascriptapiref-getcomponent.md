@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: e9bf641f-5bc9-42d9-a030-5591cd883373
 source-git-commit: 61e3a1fd0e21d336eaf5232096f5b1b54f2a6353
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '182'
 ht-degree: 1%
 
 ---
@@ -18,11 +18,11 @@ Referencia de la API de JavaScript para el visor de zoom básico
 
 `getComponent(componentId)`
 
-Devuelve una referencia al componente del SDK del visor que utiliza el visor. La página web puede utilizar este método para ampliar o personalizar el comportamiento del visualizador integrado. Llame a este método solo después de que `initComplete` la llamada de retorno del visor se ha ejecutado; de lo contrario, es posible que la lógica del visor aún no haya creado el componente.
+Devuelve una referencia al componente del SDK del visor que utiliza el visor. La página web puede utilizar este método para ampliar o personalizar el comportamiento del visualizador integrado. Llame a este método únicamente después de que se haya ejecutado la devolución de llamada del visor `initComplete`; de lo contrario, es posible que la lógica del visor aún no haya creado el componente.
 
 ## Parámetros {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`componentID`*` - `{String}` un ID del componente del SDK del visor utilizado por el visor. Este visor es compatible con los siguientes ID de componente:
+`*`componentID`*` - `{String}` es un ID del componente de SDK de visor que usa el visor. Este visor es compatible con los siguientes ID de componente:
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
@@ -77,7 +77,7 @@ Consulte la documentación de la API del SDK de visualizadores para obtener más
 
 ## Devuelve {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-El `{Object}` es una referencia al componente SDK de visor. El método devuelve `null` si la variable `componentId` no es un componente de visor compatible o si la lógica del visor aún no ha creado el componente.
+`{Object}` es una referencia al componente SDK del visor. El método devuelve `null` si `componentId` no es un componente de visor compatible o si la lógica del visor aún no ha creado el componente.
 
 ## Ejemplo {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

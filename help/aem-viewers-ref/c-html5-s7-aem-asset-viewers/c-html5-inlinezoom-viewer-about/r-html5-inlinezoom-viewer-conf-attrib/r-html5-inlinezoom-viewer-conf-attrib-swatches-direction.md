@@ -19,8 +19,8 @@ ht-degree: 5%
 <table id="table_8DA8AC17A6FB4EC09DC9384B812D841C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
-   <td colname="col2"> <p> Especifica la forma en que la vista se rellena con muestras. </p> <p> <span class="codeph"> left </span> establece el orden de relleno de izquierda a derecha; <span class="codeph"> derecha </span> invierte el orden para que la vista se rellene en la dirección de derecha a izquierda, de arriba a abajo. Cuándo <span class="codeph"> auto </span> se establece, el componente aplica el modo correcto cuando locale se establece en <span class="codeph"> "ja" </span>y utiliza left en caso contrario. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> auto|izquierda|derecha </span> </p> </td> 
+   <td colname="col2"> <p> Especifica la forma en que la vista se rellena con muestras. </p> <p> <span class="codeph"> left </span> establece el orden de relleno de izquierda a derecha; <span class="codeph"> right </span> invierte el orden para que se rellene en la dirección de derecha a izquierda, de arriba a abajo. Cuando se establece <span class="codeph"> auto </span>, el componente aplica el modo derecho cuando la configuración regional se establece en <span class="codeph"> "ja" </span> y, en caso contrario, utiliza left. </p> </td> 
   </tr> 
  </tbody> 
 </table>

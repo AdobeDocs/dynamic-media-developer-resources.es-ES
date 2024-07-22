@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 8fb29232-e276-49fc-9b97-466dbb1914a8
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
@@ -20,4 +20,4 @@ En los navegadores de escritorio modernos, excepto Internet Explorer 10 y versio
 
 En dispositivos iOS y en exploradores Internet Explorer más antiguos, el visor utiliza el modo de pantalla completa &quot;simulado&quot; en su lugar. En este modo, el visualizador simplemente cambia de tamaño para ocupar todo el área de la ventana del explorador web. Además, la interfaz de usuario del explorador web y otras ventanas siguen estando visibles en la pantalla.
 
-Un usuario final entra y sale del modo de pantalla completa al pulsar el botón de pantalla completa en la interfaz de usuario del visor. Cuando se utiliza el modo de pantalla completa &quot;nativo&quot; en el escritorio, también es posible salir de él pulsando **Esc**.
+Un usuario final entra y sale del modo de pantalla completa al pulsar el botón de pantalla completa en la interfaz de usuario del visor. Cuando se usa el modo de pantalla completa &quot;nativo&quot; en el escritorio, también es posible salir de él pulsando **Esc**.

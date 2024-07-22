@@ -8,7 +8,7 @@ exl-id: bbe6a664-b6e1-4b46-867d-a134070b13da
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '85'
-ht-degree: 15%
+ht-degree: 12%
 
 ---
 
@@ -37,7 +37,7 @@ Sintaxis
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
 | setHandle | `xsd:string` | Sí | Handle al conjunto de propiedades. |
-| replaceProperties | `xsd:string` | No | Configure como. `true` para reemplazar propiedades. |
+| replaceProperties | `xsd:string` | No | Establezca `true` para reemplazar propiedades. |
 | propertyArray | `types:PropertyArray` | Sí | Matriz de propiedades actualizadas para el conjunto de propiedades. |
 
 **Salida (updatePropertySetReturn)**
@@ -48,7 +48,7 @@ La API de IPS no devuelve una respuesta para esta operación.
 
 Este ejemplo de código actualiza un conjunto de propiedades con propiedades en la matriz de propiedades.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <updatePropertySetParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

@@ -19,7 +19,7 @@ ht-degree: 4%
 <table id="table_95890560230C48BBB03A8082F56382CA"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> left|center|right</span> </p> </td> 
+   <td> <p> <span class="codeph"> izquierda|centro|derecha</span> </p> </td> 
    <td> <p> Especifica la alineación horizontal interna (anclaje) del contenedor de miniaturas dentro del área del componente. En ThumbnailGridView, el tamaño del contenedor de miniaturas interno es tal que solo se muestra un número entero de miniaturas. Como resultado, hay cierto relleno entre los límites del contenedor interno y el componente externo. Este modificador especifica cómo se coloca el contenedor de miniaturas interno de forma horizontal dentro del componente. </p> </td> 
   </tr> 
  </tbody> 

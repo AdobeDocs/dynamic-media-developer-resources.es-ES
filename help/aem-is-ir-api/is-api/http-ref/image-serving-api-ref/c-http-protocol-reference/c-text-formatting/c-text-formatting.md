@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 2c120ed1-b556-4caf-a30e-63ae48cc2104
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 7%
+source-wordcount: '560'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ El servicio de imágenes proporciona varias alternativas para representar texto,
 
 >[!NOTE]
 >
->Además de las diferencias enumeradas en otra parte, `text=` produce sutiles diferencias en el texto procesado al compararlo con `textPs=`. Por ejemplo, los subrayados no tienen el mismo grosor y posición, y la cursiva sintetizada se procesa en un ángulo ligeramente diferente. Si el texto no cabe en el espacio disponible, `text=` puede recortar parcialmente la última línea, mientras que `textPs=` solo procesa líneas completas.
+>Además de las diferencias enumeradas en otra parte, `text=` produce diferencias sutiles en el texto procesado al compararlo con `textPs=`. Por ejemplo, los subrayados no tienen el mismo grosor y posición, y la cursiva sintetizada se procesa en un ángulo ligeramente diferente. Si el texto no cabe en el espacio disponible, `text=` puede recortar parcialmente la última línea, mientras que `textPs=` solo procesa líneas completas.
 
 Todos los comandos de texto aceptan texto con formato basado en un subconjunto de la especificación RTF (formato de texto enriquecido). Cada capa de texto puede especificar un comando de texto diferente.
 
@@ -29,10 +29,10 @@ En la tabla siguiente se enumeran las funciones clave disponibles para cada coma
 <table id="table_9C41CBDA94C24805B538E5049B0137C6"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> Función</b> </th> 
+   <th class="entry"> <b> característica</b> </th> 
    <th class="entry"> <b> texto=</b> </th> 
    <th class="entry"> <b> textPs=</b> </th> 
-   <th class="entry"> <b> Véase también</b> </th> 
+   <th class="entry"> <b> Ver también</b> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -153,7 +153,7 @@ Algunos procesadores de texto generan archivos bastante grandes, que incluyen pr
 
 Las cadenas RTF admiten la codificación de idioma basada en los estándares UTF-8 e ISO como alternativa a los mecanismos de codificación de caracteres RTF estándar. Esto permite a las aplicaciones enviar texto que no esté en inglés al servidor sin tener conocimientos de codificación RTF.
 
-Todos los caracteres no compatibles con HTTP deben escapar correctamente, si la cadena se va a transmitir mediante HTTP. Solo es necesario aplicar secuencias de escape a &#39;=&#39;, &#39;&amp;&#39; y &#39;%&#39; si la cadena se incorpora a `catalog::Modifiers` de un registro de catálogo de imágenes. Caracteres de control, incluidos `<CR>`, `<LF>`, y `<TAB>` siempre se debe eliminar.
+Todos los caracteres no compatibles con HTTP deben escapar correctamente, si la cadena se va a transmitir mediante HTTP. Solo es necesario aplicar secuencias de escape a &#39;=&#39;, &#39;&amp;&#39; y &#39;%&#39; si la cadena se incorpora al campo `catalog::Modifiers` de un registro de catálogo de imágenes. Los caracteres de control, incluidos `<CR>`, `<LF>` y `<TAB>`, siempre se deben quitar.
 
 Los motores de texto del servicio de imágenes interpretan un subconjunto de comandos definidos por la especificación de formato de texto enriquecido (RTF), versión 1.6. Este subconjunto se centra en el formato de fuentes/caracteres, el formato de párrafo sencillo y la compatibilidad con fuentes internacionales y conjuntos de caracteres. En este momento no se admiten construcciones de formato más avanzadas, como hojas de estilo y tablas.
 

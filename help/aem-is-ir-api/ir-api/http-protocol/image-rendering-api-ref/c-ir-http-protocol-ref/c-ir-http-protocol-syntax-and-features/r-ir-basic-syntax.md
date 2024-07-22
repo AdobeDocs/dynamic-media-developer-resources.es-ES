@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 8bf5920a-7ada-4db5-9796-05c5a17532c8
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 4%
+source-wordcount: '226'
+ht-degree: 0%
 
 ---
 
@@ -25,12 +25,12 @@ En esta sección se describe la sintaxis básica del protocolo HTTP del procesam
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="varname"> request</span> </p> </td> 
-   <td colname="col2"> <p>http://<span class="varname"> server</span>/ir/render[/<span class="varname"> viñeta</span> ] [ ?<span class="varname"> modificadores</span> ] </p> </td> 
+   <td colname="col1"> <p><span class="varname"> solicitud</span> </p> </td> 
+   <td colname="col2"> <p>http://<span class="varname"> server</span>/ir/render[/<span class="varname"> vignette</span> ] [ ?<span class="varname"> modificadores</span> ] </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="varname"> server </span> </p> </td> 
-   <td colname="col2"> <p><span class="varname"> server_address</span> [ :<span class="varname"> puerto</span> ] </p> </td> 
+   <td colname="col1"> <p><span class="varname"> servidor </span> </p> </td> 
+   <td colname="col2"> <p><span class="varname"> dirección_servidor</span> [ :<span class="varname"> puerto</span> ] </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> viñeta </span> </p> </td> 
@@ -38,14 +38,14 @@ En esta sección se describe la sintaxis básica del protocolo HTTP del procesam
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> modificadores </span> </p> </td> 
-   <td colname="col2"> <p><span class="varname"> modificador</span> *[ &amp; <span class="varname"> modificador</span> ] </p> </td> 
+   <td colname="col2"> <p>Modificador <span class="varname"></span> *[ &amp; <span class="varname"> modificador</span> ] </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="varname"> modificador </span> </p> </td> 
-   <td colname="col2"> <p><span class="varname"> mando</span> | { $ <span class="varname"> macro</span> $ } | { .<span class="varname"> comentario</span> } </p> </td> 
+   <td colname="col1"> <p>Modificador <span class="varname"> </span> </p> </td> 
+   <td colname="col2"> <p><span class="varname"> comando</span> | { $ <span class="varname"> macro</span> $ } | { .<span class="varname"> comentario</span> } </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="varname"> mando </span> </p> </td> 
+   <td colname="col1"> <p><span class="varname">, comando </span> </p> </td> 
    <td colname="col2"> <p>{ <span class="varname"> cmdName</span> | { $<span class="varname"> var</span> } } [ = <span class="varname"> valor</span> ] </p> </td> 
   </tr> 
   <tr> 
@@ -65,17 +65,17 @@ En esta sección se describe la sintaxis básica del protocolo HTTP del procesam
    <td colname="col2"> <p>Nombre de una variable personalizada. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="varname"> basado en IP </span> </p> </td> 
+   <td colname="col1"> <p><span class="varname"> valor </span> </p> </td> 
    <td colname="col2"> <p>Comando o valor de variable. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*`server`*, *`cmdName`*, *`macro`*, y *`var`* no distinguen entre mayúsculas y minúsculas. El servidor conserva las mayúsculas y minúsculas de todos los demás valores de cadena.
+*`server`*, *`cmdName`*, *`macro`* y *`var`* no distinguen entre mayúsculas y minúsculas. El servidor conserva las mayúsculas y minúsculas de todos los demás valores de cadena.
 
-**Identificador del servidor**
+**Identificador de servidor**
 
-El &#39; `/ir/render`El contexto raíz de es necesario para todas las solicitudes HTTP a Image Rendering.
+El contexto raíz &#39; `/ir/render`&#39; es necesario para todas las solicitudes HTTP a Image Rendering.
 
 **Comentarios**
 
@@ -83,4 +83,4 @@ Los comentarios pueden incrustarse en las cadenas de solicitud en cualquier luga
 
 **Descodificación HTTP**
 
-Primeros extractos del procesamiento de imágenes *`object`* y *`modifiers`* de la solicitud entrante. El *`object`* a continuación, se separa en elementos de ruta que se descodifican individualmente en HTTP. El *`modifiers`* la cadena está separada por *`command`*= *`value`* pares, y *`value`* se descodifica mediante HTTP antes del procesamiento específico del comando.
+El procesamiento de imágenes primero extrae *`object`* y *`modifiers`* de la solicitud entrante. A continuación, *`object`* se separa en elementos de ruta que se descodifican individualmente en HTTP. La cadena *`modifiers`* está separada en pares *`command`*= *`value`* y *`value`* se descodifica en HTTP antes del procesamiento específico del comando.

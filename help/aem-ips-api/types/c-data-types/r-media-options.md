@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: f37d935d-fe74-4878-8477-d2144d58d982
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 7%
+source-wordcount: '124'
+ht-degree: 4%
 
 ---
 
@@ -41,8 +41,8 @@ Sintaxis
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:Opciones de miniatura</span> </td> 
-   <td colname="col3">Opcional. Permite elegir un fotograma de vídeo concreto para utilizarlo como imagen en miniatura. <p>Para especificar una imagen en miniatura, pase el tiempo (en milisegundos desde el inicio del vídeo) para el fotograma que desee utilizar. Los valores van del 0 al final del vídeo. <p>Nota: Si especifica la hora de forma incorrecta, <span class="codeph"> generateThumbnail</span> el valor predeterminado es true. </p></p><p>Consulte <a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> ThumbnailOptions</a>. </p></td> 
+   <td colname="col2"> <span class="codeph"> tipos:ThumbnailOptions</span> </td> 
+   <td colname="col3">Opcional. Permite elegir un fotograma de vídeo concreto para utilizarlo como imagen en miniatura. <p>Para especificar una imagen en miniatura, pase el tiempo (en milisegundos desde el inicio del vídeo) para el fotograma que desee utilizar. Los valores van del 0 al final del vídeo. <p>Nota: Si especifica la hora incorrectamente, <span class="codeph"> generateThumbnail</span> toma el valor predeterminado true. </p></p><p>Ver <a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> ThumbnailOptions</a>. </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,7 +61,7 @@ Sintaxis
 
 ## Utilizado por {#section-87cb83407198432c95eaa2db9f12f9db}
 
-El `mediaOptions` lo utilizan:
+El tipo `mediaOptions` lo utiliza:
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)

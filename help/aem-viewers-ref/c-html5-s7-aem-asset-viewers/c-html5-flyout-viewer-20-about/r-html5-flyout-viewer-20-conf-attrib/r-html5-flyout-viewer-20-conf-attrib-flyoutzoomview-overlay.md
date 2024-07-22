@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 7fbf24c6-900f-4e94-b879-3a8f95dc5c08
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 3%
+source-wordcount: '103'
+ht-degree: 2%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 3%
 <table id="table_D052090D052D4273B37872C0C7E09E4B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Controla la apariencia del resalte de la vista principal cuando el menú flotante está activo. Cuando se establece en <span class="codeph"> 0</span>, el área visible actualmente en la ventana flotante se resalta con los estilos proporcionados por <span class="codeph"> .s7highlight</span> o por <span class="codeph"> .s7cursor</span> Nombres de clase CSS (según el valor de ) <span class="codeph"> highlightmode</span> modificador). Cuando se establece en <span class="codeph"> 1</span> el componente entra en modo "inverso" donde el área visualizada actualmente es completamente transparente (en caso de que <span class="codeph"> highlightmode</span> se establece en <span class="codeph"> resaltar</span>) o con estilo <span class="codeph"> .s7cursor</span> Nombre de clase CSS (en caso de que <span class="codeph"> highlightmode</span> se establece en <span class="codeph"> cursor</span>), pero el área circundante se rellena con estilos proporcionados por <span class="codeph"> .s7overlay</span> Nombre de clase CSS. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> 0|1</span> </p> </td> 
+   <td colname="col2"> <p> Controla la apariencia del resalte de la vista principal cuando el menú flotante está activo. Cuando se establece en <span class="codeph"> 0</span>, el área visible actualmente en la ventana flotante se resalta con los estilos proporcionados por <span class="codeph"> .s7highlight</span> o por <span class="codeph"> .s7cursor</span> nombres de clase CSS (según el valor del modificador <span class="codeph"> highlightmode</span>). Cuando se establece en <span class="codeph">, el componente 1</span> entra en modo "inverso" donde el área visualizada actualmente es totalmente transparente (en el caso de que <span class="codeph"> highlightmode</span> se establezca en <span class="codeph"> highlight</span>) o está diseñado con <span class="codeph"> .s7cursor</span> nombre de clase CSS (en el caso de que <span class="codeph"> highlightmode</span> se establezca en <span class="codeph"> cursor</span>), pero el área adyacente se rellena con los estilos proporcionados por <span class="codeph"> .s7overlay</span> nombre de clase CSS. </p> </td> 
   </tr> 
  </tbody> 
 </table>

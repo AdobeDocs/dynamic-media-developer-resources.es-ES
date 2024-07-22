@@ -8,7 +8,7 @@ exl-id: 7920637e-b289-410c-ae5c-e67cd7b21aba
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '75'
-ht-degree: 22%
+ht-degree: 20%
 
 ---
 
@@ -49,7 +49,7 @@ Sintaxis
 
 Este ejemplo de código devuelve todos los trabajos programados de una matriz de trabajos. La propia matriz contiene información detallada sobre los trabajos.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <getScheduledJobsParam xmlns="http://www.scene7.com/IpsApi/xsd">

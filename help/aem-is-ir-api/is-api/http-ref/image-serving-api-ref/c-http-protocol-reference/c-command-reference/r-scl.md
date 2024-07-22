@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 297d187c-3a52-45ff-b73d-0b0e4b956080
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 8%
+source-wordcount: '137'
+ht-degree: 2%
 
 ---
 
@@ -25,9 +25,9 @@ Vista de escala. Ajusta la escala de la imagen compuesta según la inversa de in
  </tr> 
 </table>
 
-No se aplica ninguna escala cuando `scl=1`. Un *`invFactor`* un valor mayor que 1,0 de escala descendente y menor que 1,0 amplía la imagen compuesta.
+No se aplica ninguna escala cuando `scl=1`. Un valor de *`invFactor`* mayor que 1,0 escala hacia abajo y menor que 1,0 aumenta el tamaño de la imagen compuesta.
 
-If `scl=` se especifica, y `wid=` y/o `hei=` también están presentes, la imagen se recorta a `wid=` y/o `hei=` después del escalado.
+Si se especifica `scl=` y `wid=` y/o `hei=` también están presentes, la imagen se recorta a `wid=` y/o `hei=` después del escalado.
 
 >[!NOTE]
 >
@@ -39,12 +39,12 @@ Ver atributo. Se aplica independientemente de la configuración de capa actual.
 
 ## Predeterminado {#section-32502fa218a24e1f9c65f41c0260b56a}
 
-Si ninguno `wid=`, `hei=`, ni `scl=` , la imagen de respuesta tendrá el tamaño de la imagen compuesta o `attribute::DefaultPix`, el que sea más pequeño.
+Si no se especifican `wid=`, `hei=` ni `scl=`, la imagen de respuesta tendrá el tamaño de la imagen compuesta o `attribute::DefaultPix`, el que sea menor.
 
 ## Ejemplo {#section-a33f6239476a4b438d939656ad99aa76}
 
-Consulte el ejemplo en [rotate=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096) para una aplicación común de `scl=`.
+Vea el ejemplo en [rotate=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096) para una aplicación común de `scl=`.
 
 ## Véase también {#section-ccefd5de59924059903d66d4974ce317}
 
-[wid=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-wid.md#reference-bfeadcb67bf4485f851eb21345527e47) , [hei=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-hei.md#reference-6d6f556ccc0e4b98a815e8a5c1944a96), [attribute::DefaultPix](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultpix.md#reference-996b2c22b30f4fd9b970c84063306df1)
+[wid=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-wid.md#reference-bfeadcb67bf4485f851eb21345527e47) , [hei=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-hei.md#reference-6d6f556ccc0e4b98a815e8a5c1944a96), [atributo::DefaultPix](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultpix.md#reference-996b2c22b30f4fd9b970c84063306df1)

@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 3d878207-99e4-4c75-ab12-b38a37c82fb7
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 9%
+source-wordcount: '370'
+ht-degree: 1%
 
 ---
 
@@ -53,22 +53,22 @@ Para devolver el tipo de trabajo, especifique un valor de tipo de trabajo. Puede
    <td colname="col3"> Gestionar para el trabajo. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> nombre</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Nombre único del trabajo. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Nombre original de <span class="codeph"> ActiveJob</span> tipo enviado con el trabajo. </td> 
+   <td colname="col3">Nombre original del tipo <span class="codeph"> ActiveJob</span> enviado con el trabajo. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> tipo</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Elección de los tipos de trabajo devueltos por el sistema. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> state</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> estado</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Elección de los estados de trabajo activos devueltos por el sistema. </td> 
   </tr> 
@@ -78,12 +78,12 @@ Para devolver el tipo de trabajo, especifique un valor de tipo de trabajo. Puede
    <td colname="col3"> dirección de correo electrónico del usuario que programó el trabajo. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> locale</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> configuración regional </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">La configuración regional para los detalles del registro de trabajos y la localización por correo electrónico. <p>Especificar configuraciones regionales como <span class="codeph"> &lt;language_code&gt;[-&lt;country_code&gt;]</span>, donde el código de idioma es un código en minúsculas de dos letras como se especifica en la norma ISO-639, y el código de país opcional es un código en mayúsculas de dos letras como se especifica en la norma ISO-3166. Por ejemplo, la cadena de configuración regional para inglés (Estados Unidos) sería: <span class="codeph"> en-US</span>. </p></td> 
+   <td colname="col3">La configuración regional para los detalles del registro de trabajos y la localización por correo electrónico. <p>Especifique configuraciones regionales como <span class="codeph"> &lt;language_code&gt;[-&lt;country_code&gt;]</span>, donde el código de idioma es un código de dos letras en minúsculas según se especifica en la norma ISO-639, y el código de país opcional es un código de dos letras en mayúsculas según se especifica en la norma ISO-3166. Por ejemplo, la cadena de configuración regional para inglés (Estados Unidos) sería: <span class="codeph"> en-US</span>. </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> description</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> descripción</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3">Descripción de trabajo especificada originalmente en <span class="codeph"> submitJob</span>. </td> 
   </tr> 
@@ -159,7 +159,7 @@ Para devolver el tipo de trabajo, especifique un valor de tipo de trabajo. Puede
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> reprocessAssetsJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:ReprocesarActivosTrabajo</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:ReprocessAssetsJob</span> </td> 
    <td colname="col3"></td> 
   </tr> 
   <tr> 
@@ -170,7 +170,7 @@ Para devolver el tipo de trabajo, especifique un valor de tipo de trabajo. Puede
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:ExportJob</span> </td> 
-   <td colname="col3">Permitir la exportación autorizada de archivos cargados anteriormente. Consulte <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> Trabajo de exportación</a>. </td> 
+   <td colname="col3">Permitir la exportación autorizada de archivos cargados anteriormente. Ver <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> trabajo de exportación</a>. </td> 
   </tr> 
  </tbody> 
 </table>

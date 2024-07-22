@@ -1,5 +1,5 @@
 ---
-description: Elemento de filtro de dirección. Opcional en <rule> y <pathrule> elementos.
+description: Elemento de filtro de dirección. Opcional en los elementos <rule> y <pathrule>.
 solution: Experience Manager
 title: addressFilter
 feature: Dynamic Media Classic,SDK/API
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 Elemento de filtro de dirección. Opcional en `<rule>` y `<pathrule>` elementos.
 
-Invalidaciones `attribute::ClientAddressFilter` cuando se aplique la regla.
+Anula `attribute::ClientAddressFilter` cuando se aplica la regla.
 
 ## Atributos {#section-31e9ad29e9934933ac154bccbc729172}
 
@@ -24,15 +24,15 @@ Ninguno.
 
 ## Datos {#section-c762bdfe425140d689ea5abf25e9a48a}
 
-Lista de direcciones IP separadas por comas. Cada dirección individual puede incluir un sufijo de máscara de red opcional para permitir la especificación de intervalos de direcciones IP. Consulte `attribute::ClientAddressFilter` para obtener más información.
+Lista de direcciones IP separadas por comas. Cada dirección individual puede incluir un sufijo de máscara de red opcional para permitir la especificación de intervalos de direcciones IP. Consulte `attribute::ClientAddressFilter` para obtener detalles.
 
 ## Descripción {#section-d561b2485e004ef8a2085997d0f4bca6}
 
-El acceso a este catálogo de imágenes se puede restringir a una o más direcciones IP de cliente específicas especificándolas en un `<addressfilter>` Elemento. Se devuelve un error &quot;solicitud rechazada&quot; al cliente si la dirección IP del cliente no coincide.
+El acceso a este catálogo de imágenes se puede restringir a una o más direcciones IP de cliente específicas especificándolas en un elemento `<addressfilter>`. Se devuelve un error &quot;solicitud rechazada&quot; al cliente si la dirección IP del cliente no coincide.
 
 El acceso no está restringido si `<addressfilter>` está vacío o no se ha especificado.
 
-Si la variable `<expression>` en el `<rule>` está ausente o vacío, el elemento `<addressfilter>` se aplica a todas las solicitudes.
+Si el elemento `<expression>` del elemento `<rule>` está ausente o vacío, el elemento `<addressfilter>` se aplica a todas las solicitudes.
 
 ## Véase también {#section-6f51ec2218d9450bb7642f9fdad1988a}
 

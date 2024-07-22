@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: b3cc32ef-dd6c-47a3-9e55-86a43e874a84
 source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 6%
+source-wordcount: '77'
+ht-degree: 3%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 6%
 <table id="table_0BEA0B5FFDF64E5594B534B2A87A6D88"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> always|never|limit</span> </p> </td> 
-   <td colname="col2"> <p> Activar, limitar o desactivar la optimización para dispositivos en los que <span class="codeph"> devicePixelRatio</span> es bueno que <span class="codeph"> 1</span>. Afecta a dispositivos con visualización de alta densidad como iPhone4 y dispositivos similares. Si está activo, el componente limita el tamaño de la solicitud de imagen del servicio de imágenes como si el dispositivo tuviera una proporción de píxeles de <span class="codeph"> 1</span>, reduciendo el ancho de banda. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> siempre|nunca|límite</span> </p> </td> 
+   <td colname="col2"> <p> Activar, limitar o desactivar la optimización para dispositivos donde <span class="codeph"> devicePixelRatio</span> es mayor que <span class="codeph"> 1</span>. Afecta a dispositivos con visualización de alta densidad como iPhone4 y dispositivos similares. Si está activo, el componente limita el tamaño de la solicitud de imagen del servicio de imágenes como si el dispositivo tuviera una proporción de píxeles de <span class="codeph"> 1</span>, lo que reduce el ancho de banda. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> número</span></span> </p> </td> 

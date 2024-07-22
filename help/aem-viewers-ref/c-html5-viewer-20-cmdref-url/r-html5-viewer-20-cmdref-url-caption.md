@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 06ce5520-944b-4ab0-8f59-67c273bd8314
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 6%
+source-wordcount: '272'
+ht-degree: 2%
 
 ---
 
@@ -29,7 +29,7 @@ Parámetro común a todos los visualizadores.
    <td colname="col2"> <p> Especifica una dirección URL o una ruta al contenido de subtítulos WebVTT. El servicio de imágenes proporciona el archivo WebVTT. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
    <td colname="col2"> <p> Especifica el estado predeterminado del título. Habilitado es <span class="codeph"> 1 </span>. </p> </td> 
   </tr> 
  </tbody> 
@@ -50,26 +50,26 @@ Este visor admite subtítulos mediante archivos WebVTT alojados. Los subtítulos
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> A </span> </p> </td> 
    <td colname="col2"> <p>alineación de prueba </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> left|right|middle|start|end </span> </p> </td> 
-   <td colname="col4"> <p> Controla la alineación del texto. </p> <p>El valor predeterminado es <span class="codeph"> centro </span>. </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> izquierda|derecha|centro|inicio|final </span> </p> </td> 
+   <td colname="col4"> <p> Controla la alineación del texto. </p> <p>El valor predeterminado es <span class="codeph"> en el medio </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph">  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> A </span> </p> </td> 
    <td colname="col2"> <p>posición del texto </p> </td> 
-   <td colname="col3"> <p> 0%-100% </p> </td> 
-   <td colname="col4"> <p> Porcentaje de margen en el componente VideoPlayer para el principio del texto del rótulo. </p> <p>El valor predeterminado es <span class="codeph"> 0 % </span>. </p> </td> 
+   <td colname="col3"> <p> 0-100% </p> </td> 
+   <td colname="col4"> <p> Porcentaje de margen en el componente VideoPlayer para el principio del texto del rótulo. </p> <p>El valor predeterminado es <span class="codeph"> 0% </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> S </span> </p> </td> 
    <td colname="col2"> <p>tamaño de línea </p> </td> 
-   <td colname="col3"> <p> 0%-100% </p> </td> 
-   <td colname="col4"> <p> Porcentaje de anchura del vídeo utilizado para los subtítulos. </p> <p>El valor predeterminado es <span class="codeph"> 100 % </span>. </p> </td> 
+   <td colname="col3"> <p> 0-100% </p> </td> 
+   <td colname="col4"> <p> Porcentaje de anchura del vídeo utilizado para los subtítulos. </p> <p>El valor predeterminado es <span class="codeph"> 100% </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> L </span> </p> </td> 
    <td colname="col2"> <p>posición de línea </p> </td> 
    <td colname="col3"> <p> 0%-100%|entero </p> </td> 
-   <td colname="col4"> <p> Determina la posición de la línea en la página. </p> <p>Si se expresa como un entero sin signo de porcentaje, entonces es el número de líneas de la parte superior donde se muestra el texto. </p> <p>Si se expresa como un porcentaje (el símbolo de porcentaje es el último carácter), el texto del rótulo se mostrará ese porcentaje en el área de visualización. </p> <p>El valor predeterminado es <span class="codeph"> 100 % </span>. </p> </td> 
+   <td colname="col4"> <p> Determina la posición de la línea en la página. </p> <p>Si se expresa como un entero sin signo de porcentaje, entonces es el número de líneas de la parte superior donde se muestra el texto. </p> <p>Si se expresa como un porcentaje (el símbolo de porcentaje es el último carácter), el texto del rótulo se mostrará ese porcentaje en el área de visualización. </p> <p>El valor predeterminado es <span class="codeph"> 100% </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -83,7 +83,7 @@ Si hay otras funciones WebVTT presentes en el archivo WebVTT, no son compatibles
    <td colname="col2"> <p> Especifica una dirección URL o una ruta al contenido de subtítulos WebVTT. El archivo WebVTT lo proporciona el servicio de imágenes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
    <td colname="col2"> <p> Especifica el estado predeterminado del título. </p> <p>Habilitado es <span class="codeph"> 1 </span>. </p> </td> 
   </tr> 
  </tbody> 

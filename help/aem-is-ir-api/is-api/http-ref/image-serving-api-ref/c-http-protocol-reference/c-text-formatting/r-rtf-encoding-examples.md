@@ -22,19 +22,19 @@ Los siguientes ejemplos muestran un ejemplo de comandos de texto y cómo afectan
 
 `http://server?fmt=png&size=300,50&bgc=f0f0f0&text=\fs48normal,%20\b1Bold\b0,%20\i1italic\i0`
 
-![Imagen de ejemplo de codificación RTF de dos](assets/rtf02.png)
+![Ejemplo de codificación RTF en dos imágenes](assets/rtf02.png)
 
 `http://server?fmt=png&size=300,50&bgc=f0f0f0&text={\fonttbl{\f0\fcharset0%20Arial;}{\f1\fcharset0%20Courier%20New;}{\f2\fcharset0%20Palatino%20Linotype;}}\f0\fs50%20Arial,%20\f1%20Courier,%20\f2%20Palatino`
 
-![Imagen de ejemplo tres de codificación RTF](assets/rtf03.png)
+![Ejemplo de codificación RTF en tres imágenes](assets/rtf03.png)
 
 `http://server?fmt=png&size=300,50&bgc=f0f0f0&text={\colortbl%20;\red255\green0\blue0;\red0\green128\blue0;\red0\green0\blue255;}\fs48\cf1red,%20\cf2green,%20\cf3blue`
 
-![Ejemplo de codificación RTF de cuatro imágenes](assets/rtf04.png)
+![Ejemplo de codificación RTF en cuatro imágenes](assets/rtf04.png)
 
 `http://server?fmt=png&size=300,50&bgc=f0f0f0&text=top-left&layer=1&sizen=1,1&text=\vertalc\qc%20center&layer=2&sizen=1,1&text=\vertalb\qr%20bottom -right`
 
-![Imagen de ejemplo cinco con codificación RTF](assets/rtf05.png)
+![Ejemplo de codificación RTF de cinco imágenes](assets/rtf05.png)
 
 `http://server?fmt=png&size=300,50&bgc=f0f0f0&text=\fs36normal{\super%20superscript}normal{\sub%20subscript}`
 
@@ -46,11 +46,11 @@ Los siguientes ejemplos muestran un ejemplo de comandos de texto y cómo afectan
 
 `http://server?fmt=png&size=300,100&bgc=f0f0f0&text=\fs80F.P.T.V.W.Y.{\fs20(kerning%20on)}\line{\kerning0F.P.T.V.W.Y.}{\fs20(kerning%20off)}`
 
-![Ejemplo de ocho imágenes de codificación RTF](assets/rtf08.png)
+![Ejemplo de codificación RTF con ocho imágenes](assets/rtf08.png)
 
 `http://server?fmt=png&size=300,50&bgc=f0f0f0&text={\fonttbl{\f0\fmodern\fprq1\fcharset0%20Courier%20New;}}\f0\fs72{\rtlch%20desrever}`
 
-![Imagen de ejemplo diez de codificación RTF](assets/rtf09.png)
+![Ejemplo de codificación RTF en diez imágenes](assets/rtf09.png)
 
 ## Véase también {#section-e702276fd0e847779cb75a6ccb92fbc8}
 

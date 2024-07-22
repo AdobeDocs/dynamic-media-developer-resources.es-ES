@@ -8,7 +8,7 @@ exl-id: 7a787b45-3cda-44f2-8357-8b6217b679e0
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '215'
-ht-degree: 5%
+ht-degree: 2%
 
 ---
 
@@ -58,7 +58,7 @@ Proceso que recupera un recurso de PDF existente.
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postScriptOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> tipos:OpcionesPostScript</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> tipos:PostScriptOptions</span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
   </tr> 
   <tr> 
@@ -68,7 +68,7 @@ Proceso que recupera un recurso de PDF existente.
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> illustratorOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> tipos:Opciones de Illustrator</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> tipos:IllustratorOptions</span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
   </tr> 
   <tr> 
@@ -113,21 +113,21 @@ Proceso que recupera un recurso de PDF existente.
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> knockoutBackground</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> tipos:OpcionesFondoCobertura</span> </p> </td> 
-   <td colname="col3"> <p>Enmascarar el fondo de las imágenes seleccionadas. Esta capacidad permite superponerlas en otras capas con una transparencia fuera de la imagen del sujeto. </p> <p>Opcional. </p> <p>Consulte<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> tipos:KnockoutBackgroundOptions</span> </p> </td> 
+   <td colname="col3"> <p>Enmascarar el fondo de las imágenes seleccionadas. Esta capacidad permite superponerlas en otras capas con una transparencia fuera de la imagen del sujeto. </p> <p>Opcional. </p> <p>Ver <a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Notas {#section-0822e70fa4784131baa5ad0ba8c0fb3b}
 
-Opciones de `*CropOptions` incluir:
+Las opciones de `*CropOptions` incluyen:
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-Opciones de `*PublishJob` incluir:
+Las opciones de `*PublishJob` incluyen:
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`

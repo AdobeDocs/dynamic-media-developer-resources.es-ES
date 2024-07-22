@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 07190abd-9f6f-46b5-bf77-cd97c48fc9be
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 3%
+source-wordcount: '225'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ Los materiales de calco incluyen construcciones de ropa como apliques, estampado
 
 Un material se considera una calcomanía si se especifica en una calcomanía MSS. Una calcomanía es normalmente una imagen RGBA, con el canal alfa definiendo la forma de la calcomanía.
 
-Se puede aplicar una calcomanía a cada objeto plano, de línea de flujo, de esbozo, de plano o de pared (a menos que se defina la marca &quot;Sin textura&quot;). Las calcomanías se aplican al objeto alineando la etiqueta `anchor=` con el punto de origen de la calcomanía del objeto vignette. La posición se puede ajustar aún más con `pos=`.
+Se puede aplicar una calcomanía a cada objeto plano, de línea de flujo, de esbozo, de plano o de pared (a menos que se defina la marca &quot;Sin textura&quot;). Las calcomanías se aplican al objeto alineando el `anchor=` de la calcomanía con el punto de origen de la calcomanía del objeto de viñeta. La posición se puede ajustar aún más con `pos=`.
 
 Se representa una sombra paralela si el material de calcomanía define un grosor y el objeto de viñeta define un vector claro.
 
@@ -37,17 +37,17 @@ Se representa una sombra paralela si el material de calcomanía define un grosor
    <td colname="col3"> <p>Ninguno. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-size.md#reference-1220d6fbcde4479aba91de7adacdc988" type="reference" format="dita" scope="local"> <span class="codeph"> size= </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-size.md#reference-1220d6fbcde4479aba91de7adacdc988" type="reference" format="dita" scope="local"> <span class="codeph"> tamaño= </span> </a> </p> </td> 
    <td colname="col2"> <p>Anchura, altura y grosor de calcomanía (para sombras paralelas). </p> </td> 
    <td colname="col3"> <p> <span class="varname"> imageWidth </span> x <span class="codeph"> res </span>, <span class="varname"> imageHeight </span> x <span class="codeph"> res, 0 </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-res.md#reference-0ad9de8887144c83a6db97b4994f7c04" type="reference" format="dita" scope="local"> <span class="codeph"> res= </span> </a> </p> </td> 
    <td colname="col2"> <p>Resolución de textura (se ignora si size= especificado). </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> attribute::Resolution </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> atributo::Resolution </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26" type="reference" format="dita" scope="local"> <span class="codeph"> anchor= </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26" type="reference" format="dita" scope="local"> <span class="codeph"> anclaje= </span> </a> </p> </td> 
    <td colname="col2"> <p>Punto de alineación de calco. </p> </td> 
    <td colname="col3"> <p>Centro de imágenes. </p> </td> 
   </tr> 
@@ -59,7 +59,7 @@ Se representa una sombra paralela si el material de calcomanía define un grosor
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-opac.md#reference-136b8563da714313a9e103f4ce179c5b" type="reference" format="dita" scope="local"> <span class="codeph"> opac= </span> </a> </p> </td> 
    <td colname="col2"> <p>Opacidad de calco. </p> </td> 
-   <td colname="col3"> <p>100% </p> </td> 
+   <td colname="col3"> <p>100 % </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> sharp= </span> </a> </td> 

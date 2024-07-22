@@ -8,7 +8,7 @@ exl-id: cf49719f-5d79-4e64-a785-bf3b2fe200c7
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 8%
+ht-degree: 5%
 
 ---
 
@@ -108,7 +108,7 @@ Sintaxis
    <td colname="col4"> <p>Matriz de recursos que poseen el recurso especificado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> derivatedArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> derivaciónArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:AssetArray</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
    <td colname="col4"> <p>Matriz de recursos que se utilizaron para generar el recurso especificado. </p> </td> 
@@ -117,30 +117,30 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> generatorArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:GenerationInfoArray</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>El <span class="codeph"> generatorArray</span> enumera la forma en que se creó este recurso. Por ejemplo, si <span class="codeph"> assetHandler</span> era una página de imagen de un PDF, que contenía la herramienta de procesador de PDF y hacía referencia al recurso PdfFile. </p> </td> 
+   <td colname="col4"> <p>La matriz generatorArray</span> de <span class="codeph"> enumera la forma en que se creó este recurso. Por ejemplo, si <span class="codeph"> assetHandler</span> era una página de imagen de un PDF, entonces contendría la herramienta de procesador de PDF y haría referencia al recurso PdfFile. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> generateArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> generatedArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:GenerationInfoArray</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>El <span class="codeph"> generateArray</span> invierte la forma en que se creó este recurso. Por ejemplo, la variable <span class="codeph"> generateArray</span> podría contener la lista de imágenes generadas a partir de esta <span class="codeph"> assetHandler</span> si se trata de un recurso PdfFile. </p> </td> 
+   <td colname="col4"> <p><span class="codeph"> generatedArray</span> invierte la forma en que se creó este recurso. Por ejemplo, <span class="codeph"> generatedArray</span> podría contener la lista de imágenes generadas a partir de este <span class="codeph"> assetHandler</span> si se trata de un recurso PdfFile. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAsset</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:recurso</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:Recurso</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
    <td colname="col4"> <p>La información del recurso de miniatura asociado con el recurso de solicitud. Si no se asigna ningún recurso de miniatura, el campo se omite en la respuesta. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Puede utilizar los parámetros `responseFieldArray` o `excludeFieldArray` para limitar el tamaño de la respuesta. En particular, la `GenerationInfo` elementos devueltos en `generatorArray` o `generatedArray` de forma predeterminada, se incluyen los registros de recursos generados y del creador. Para un tipo de recurso de PDF, este comportamiento da como resultado varias copias no deseadas del registro de recurso de PDF &quot;originador&quot; en la respuesta. Puede eliminar este problema añadiendo `generatedArray/items/originator` hasta `excludeFieldArray`. O bien, puede especificar una lista explícita de los campos de respuesta que desea incluir en `responseFieldArray`.
+Puede usar los parámetros `responseFieldArray` o `excludeFieldArray` para limitar el tamaño de la respuesta. En particular, los `GenerationInfo` elementos devueltos en `generatorArray` o `generatedArray` tienen de forma predeterminada la inclusión de los registros de recursos generados y del creador. Para un tipo de recurso de PDF, este comportamiento da como resultado varias copias no deseadas del registro de recurso de PDF &quot;originador&quot; en la respuesta. Puede eliminar este problema agregando `generatedArray/items/originator` a `excludeFieldArray`. O bien, puede especificar una lista explícita de los campos de respuesta que desea incluir en `responseFieldArray`.
 
 ## Ejemplos {#section-8946ea4b9cb94912a8408249c897f192}
 
-El siguiente ejemplo básico es una solicitud del identificador del generador de una imagen extraída de un PDF. Incluye un `containerArray` de longitud uno con un elemento que incluye el `assetHandle` del PDF.
+El siguiente ejemplo básico es una solicitud del identificador del generador de una imagen extraída de un PDF. Incluye un(a) `containerArray` de longitud uno con un elemento que incluye el(la) `assetHandle` del PDF.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:beta="http://www.scene7.com/IpsApi/xsd/2013-08-29-beta">
@@ -174,7 +174,7 @@ El siguiente ejemplo básico es una solicitud del identificador del generador de
 
 Lo contrario del ejemplo anterior es lo siguiente:
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:beta="http://www.scene7.com/IpsApi/xsd/2013-08-29-beta">
@@ -255,7 +255,7 @@ Lo contrario del ejemplo anterior es lo siguiente:
 
 En el siguiente ejemplo, se agrega un grupo a una compañía con `groupHandleArray`. Este ejemplo utiliza solo un grupo.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <ns1:addGroupMembershipParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

@@ -8,7 +8,7 @@ exl-id: 55e92ebc-d153-49b5-bf2e-c69d042e15b6
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '101'
-ht-degree: 16%
+ht-degree: 14%
 
 ---
 
@@ -49,7 +49,7 @@ Sintaxis
 
 Este ejemplo de código devuelve todos los trabajos activos de una empresa que se ejecuta en IPS. En este caso, la respuesta es inusual porque el coordinador de programación de IPS está deshabilitado y no se están ejecutando trabajos activos. En circunstancias normales, la respuesta devolverá una serie de trabajos activos.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <ns1:getActiveJobsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 62cbb3e6-e766-40a3-9c01-d22ade82b604
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 1%
+source-wordcount: '169'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ El área de vista principal es el área ocupada por la imagen de zoom y las mues
 
 Cuando se trabaja en modo incrustado (cuando se asigna un tamaño explícito al área del visor principal), el visor reduce automáticamente la altura de su área principal según la altura del componente Muestras que está en uso con la imagen única y, por lo tanto, no se necesitan muestras.
 
-**Propiedades CSS del área del visor principal**
+**Propiedades CSS del área de visor principal**
 
 El aspecto del área de visualización se controla con el siguiente selector de clase CSS:
 
@@ -37,21 +37,21 @@ El aspecto del área de visualización se controla con el siguiente selector de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ancho </span> </p> </td> 
    <td colname="col2"> <p>La anchura del visor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p>La altura del visor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color de fondo </span> </p> </td> 
    <td colname="col2"> <p> Color de fondo en formato hexadecimal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ejemplo - para configurar un visor con un fondo blanco ( `#FFFFFF`) y hacer su tamaño 512 x 288 píxeles.
+Ejemplo: para configurar un visor con un fondo blanco ( `#FFFFFF`) y hacer que su tamaño sea de 512 x 288 píxeles.
 
 ```
 .s7zoomviewer { 

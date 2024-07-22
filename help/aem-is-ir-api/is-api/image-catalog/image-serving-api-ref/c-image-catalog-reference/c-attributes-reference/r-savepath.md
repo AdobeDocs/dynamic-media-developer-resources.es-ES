@@ -16,15 +16,15 @@ ht-degree: 3%
 
 Ruta raíz para saveToFile=. Ruta relativa para la carpeta raíz en la que se deben escribir las imágenes generadas con req=saveToFile.
 
-`SavePath` es un valor de cadena de texto.
+`SavePath` es una cadena de texto.
 
 ## Propiedades {#section-343d1371e966491c92854a8df14c3c50}
 
-Cadena de texto. Debe estar vacío o una ruta de carpeta relativa válida. Siempre combinado con la ruta raíz absoluta configurada con `ImageServer::SaveDirectory`.
+Cadena de texto. Debe estar vacío o una ruta de carpeta relativa válida. Siempre se combina con la ruta de acceso raíz absoluta configurada con `ImageServer::SaveDirectory`.
 
 ## Predeterminado {#section-ae751eea97654f399c6aaee3f3252cbb}
 
-Heredado de `default::SavePath` si no está definido. Guardar en archivos está deshabilitado si el valor resuelto está vacío.
+Se hereda de `default::SavePath` si no se define. Guardar en archivos está deshabilitado si el valor resuelto está vacío.
 
 ## Véase también {#section-b38b045bbf084ca5a4b24ea12c4877ae}
 

@@ -8,7 +8,7 @@ exl-id: 546b8b3f-9e37-4e8d-bf0c-db8c12696b2b
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '90'
-ht-degree: 15%
+ht-degree: 10%
 
 ---
 
@@ -39,8 +39,8 @@ Tipo de solicitud. Especifica el tipo de solicitud.
 * [xlate](r-xlate.md)
 * [xmp](r-xmp.md)
 
-A menos que se indique lo contrario en las descripciones detalladas, el servidor devuelve `text` respuestas con tipo MIME `text/plain`. Muchos tipos de solicitud permiten especificar un tipo de respuesta, como `text` que suele ser el valor predeterminado, `javascript`, `xml`, o `json`. Los tipos MIME de respuesta asociados son `text/plain`, `text/javascript`, `text/xml`, y `text/javascript`, respectivamente.
+A menos que se indique lo contrario en las descripciones detalladas, el servidor devuelve `text` respuestas con el tipo MIME `text/plain`. Muchos tipos de solicitud le permiten especificar un tipo de respuesta, como `text`, que suele ser el tipo predeterminado: `javascript`, `xml` o `json`. Los tipos MIME de respuesta asociados son `text/plain`, `text/javascript`, `text/xml` y `text/javascript`, respectivamente.
 
 A menos que se indique lo contrario, las respuestas dan formato a la respuesta como un conjunto de `name=value` pares.
 
-Consulte [Propiedades](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9).
+Ver [Propiedades](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9).

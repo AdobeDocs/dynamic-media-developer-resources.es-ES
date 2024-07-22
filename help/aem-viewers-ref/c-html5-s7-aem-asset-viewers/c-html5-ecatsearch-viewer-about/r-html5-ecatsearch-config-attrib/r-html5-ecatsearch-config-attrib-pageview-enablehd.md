@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 394b79cd-0611-4496-86e3-366a2ffc6ca7
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 2%
+source-wordcount: '310'
+ht-degree: 1%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 2%
 <table id="table_0BEA0B5FFDF64E5594B534B2A87A6D88"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> always|never|limit</span> </p> </td> 
-   <td colname="col2"> <p> Activar, limitar o desactivar la optimización para dispositivos en los que <span class="codeph"> devicePixelRatio</span> es bueno que <span class="codeph"> 1</span>, es decir, dispositivos con visualización de alta densidad como iPhone4 y similares. Si está activo, el componente limita el tamaño de la solicitud de imagen del servicio de imágenes como si el dispositivo solo tuviera una proporción de píxeles de <span class="codeph"> 1</span> y así reducir el ancho de banda. </p> <p>Consulte el ejemplo siguiente </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> siempre|nunca|límite</span> </p> </td> 
+   <td colname="col2"> <p> Activar, limitar o desactivar la optimización para dispositivos donde <span class="codeph"> devicePixelRatio</span> es mayor que <span class="codeph"> 1</span>, es decir, dispositivos con visualización de alta densidad como iPhone4 y similares. Si está activo, el componente limita el tamaño de la solicitud de imagen del servicio de imágenes como si el dispositivo solo tuviera una proporción de píxeles de <span class="codeph"> 1</span> y, de esa manera, se reduce el ancho de banda. </p> <p>Consulte el ejemplo siguiente </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> número</span></span> </p> </td> 
@@ -63,12 +63,12 @@ Los siguientes son los resultados esperados cuando se utiliza este atributo de c
    <td colname="col2"> <p>Siempre utiliza una densidad de píxeles de 1 e ignora la capacidad HD del dispositivo. Por lo tanto, la imagen solicitada siempre es 1000 x 1000. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> límite&lt;number&gt;</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> límite&lt;número&gt;</span> </p> </td> 
    <td colname="col2"> <p>Se solicita una densidad de píxeles de dispositivo y se sirve solo si la imagen resultante está por debajo del límite especificado. </p> <p>El número límite se aplica tanto a la dimensión de anchura como a la de altura. </p> <p> 
      <ul id="ul_CEC06B2280164951BA1A0ADED99E8050"> 
       <li id="li_CA7A0980ACC54690A4F212DF53E2DC8A"> <p>Si el número límite es 1600 y la densidad de píxeles es 1,5, se proporciona la imagen de 1500 x 1500. </p> </li> 
       <li id="li_A4AAD7FBFA0347B082789511CA6768A5"> <p>Si el número límite es 1600 y la densidad de píxeles es 2, la imagen de 1000 x 1000 se proporciona porque la imagen de 2000 x 2000 supera el límite. </p> </li> 
-     </ul> </p> <p><b>Práctica recomendada</b>: el número límite debe funcionar junto con el ajuste de la empresa para una imagen de tamaño máximo. Por lo tanto, establezca el número límite para que sea igual a la configuración del tamaño máximo de imagen de la empresa. </p> </td> 
+     </ul> </p> <p><b>Práctica recomendada</b>: el número límite debe funcionar junto con la configuración de la empresa para la imagen de tamaño máximo. Por lo tanto, establezca el número límite para que sea igual a la configuración del tamaño máximo de imagen de la empresa. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -7,8 +7,8 @@ role: Developer,User,Data Engineer,Data Architect
 exl-id: fb58a388-e4da-475d-b726-d5a32e99cce0
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 5%
+source-wordcount: '142'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ De forma predeterminada, el visor envía una única solicitud HTTP de seguimient
 
 ## Seguimiento personalizado {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Para integrarse con sistemas de análisis de terceros, es necesario escuchar el `trackEvent` llamada de retorno del visor y procesar `eventInfo` de la función de llamada de retorno según sea necesario. El siguiente código es un ejemplo de esta función de controlador:
+Para integrarse con sistemas de análisis de terceros, es necesario escuchar la llamada de retorno del visor `trackEvent` y procesar el argumento `eventInfo` de la función de llamada de retorno según sea necesario. El siguiente código es un ejemplo de esta función de controlador:
 
 ```javascript {.line-numbers}
 var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({ 
@@ -60,27 +60,27 @@ El visor realiza un seguimiento de los siguientes eventos de usuarios del SDK:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> CARGAR </span> </p> </td> 
    <td colname="col2"> <p>cuando el visor se carga primero. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>cuando se intercambia un recurso en el visor mediante <span class="codeph"> setAsset() </span> API. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> INTERCAMBIAR </span> </p> </td> 
+   <td colname="col2"> <p>cuando se intercambia un recurso en el visor mediante la API setAsset() </span> de <span class="codeph">. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> REPRODUCIR </span> </p> </td> 
    <td colname="col2"> <p>cuando comienza la reproducción. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PAUSE </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PAUSAR </span> </p> </td> 
    <td colname="col2"> <p>cuando se pausa la reproducción. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> STOP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> DETENER </span> </p> </td> 
    <td colname="col2"> <p>cuando se detiene la reproducción. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> MILESTONE </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> HITO </span> </p> </td> 
    <td colname="col2"> <p>cuando la reproducción alcanza uno de los siguientes hitos: 0 %, 25 %, 50 %, 75 % o 100 %. </p> </td> 
   </tr> 
   <tr> 

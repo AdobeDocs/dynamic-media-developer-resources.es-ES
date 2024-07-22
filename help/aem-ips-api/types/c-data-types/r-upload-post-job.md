@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 60163016-fe96-4ac2-9208-da8192042d0f
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 10%
+source-wordcount: '471'
+ht-degree: 5%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 10%
 
 Utiliza getActiveJobs para realizar un seguimiento de las cargas de escritorio.
 
-Consulte también [Cargando recursos mediante HTTP POST en la carga...](../../c-http-post.md#concept-457855c0cdc943339ca1f1bed356991d).
+Consulte también [Carga de recursos mediante HTTP POST en la carga...](../../c-http-post.md#concept-457855c0cdc943339ca1f1bed356991d).
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ Consulte también [Cargando recursos mediante HTTP POST en la carga...](../../c-
   <tr> 
    <th colname="col1" class="entry"> <p>Nombre </p> </th> 
    <th colname="col2" class="entry"> <p>Tipo </p> </th> 
-   <th colname="col3" class="entry"> <p>Obligatorio? </p> </th> 
+   <th colname="col3" class="entry"> <p>¿Requerido? </p> </th> 
    <th colname="col4" class="entry"> <p>Descripción </p> </th> 
   </tr> 
  </thead>
@@ -77,16 +77,16 @@ Consulte también [Cargando recursos mediante HTTP POST en la carga...](../../c-
    <td colname="col4"> <p>Opciones para cargar archivos de InDesign en el servidor de imágenes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> Opciones de Illustrator</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:Opciones de Illustrator</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> IllustratorOptions</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:IllustratorOptions</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
    <td colname="col4"> <p>Opciones para cargar archivos de Illustrator en el servidor de imágenes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> knockoutBackground</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:OpcionesFondoCobertura</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:KnockoutBackgroundOptions</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Enmascarar el fondo de las imágenes seleccionadas. Esto permite superponerlas en otras capas con una transparencia fuera de la imagen del sujeto. Opcional. </p> <p>Consulte<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a>. </p> </td> 
+   <td colname="col4"> <p>Enmascarar el fondo de las imágenes seleccionadas. Esto permite superponerlas en otras capas con una transparencia fuera de la imagen del sujeto. Opcional. </p> <p>Ver <a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </td> 
@@ -96,9 +96,9 @@ Consulte también [Cargando recursos mediante HTTP POST en la carga...](../../c-
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> mediaOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:OpcionesMedios</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:MediaOptions</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Opciones que permiten establecer una imagen en miniatura del vídeo. </p> <p>Consulte <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> OpcionesDeMedios</a>. </p> </td> 
+   <td colname="col4"> <p>Opciones que permiten establecer una imagen en miniatura del vídeo. </p> <p>Consulte <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> opciones de medios</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sobrescribir</span> </span> </td> 
@@ -126,7 +126,7 @@ Consulte también [Cargando recursos mediante HTTP POST en la carga...](../../c-
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> postScriptOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:OpcionesPostScript</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:PostScriptOptions</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
    <td colname="col4"> <p>Opciones para cargar archivos Post Script en el servidor de imágenes. </p> </td> 
   </tr> 
@@ -134,7 +134,7 @@ Consulte también [Cargando recursos mediante HTTP POST en la carga...](../../c-
    <td colname="col1"> <span class="codeph"> <span class="varname"> preserveCrop</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Controla la conservación de cualquier definición de recorte existente. El valor predeterminado es true.</p> <p>Si proporciona el parámetro manualCropOptions y los valores correspondientes, los nuevos valores (excluyendo 0,0,0,0) se aplicarán al recurso independientemente del valor preserveCrop.</p><p>Si lo hace <i>no</i> Si se proporciona el parámetro manualCropOptions, se mantiene el valor de preserveCrop. Y, en caso de true, se conservan los valores preserveCrop existentes; en caso de false, se eliminan los valores preserveCrop.</p><p>Ejemplo:</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />   &lt;left&gt;190&lt;/left&gt;<br />   &lt;right&gt;310&lt;/right&gt;<br />   &lt;top&gt;160&lt;/top&gt;<br />   &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p></td> 
+   <td colname="col4"> <p>Controla la conservación de cualquier definición de recorte existente. El valor predeterminado es true.</p> <p>Si proporciona el parámetro manualCropOptions y los valores correspondientes, los nuevos valores (excluyendo 0,0,0,0) se aplicarán al recurso independientemente del valor preserveCrop.</p><p>Si <i>not</i> proporciona el parámetro manualCropOptions, se mantiene el valor de preserveCrop. Y, en caso de true, se conservan los valores preserveCrop existentes; en caso de false, se eliminan los valores preserveCrop.</p><p>Ejemplo:</p><p><p>&lt;preserveCrop&gt;false&lt;/preserveCrop&gt;<br />&lt;manualCropOptions&gt;<br />   &lt;left&gt;190&lt;/left&gt;<br />   &lt;right&gt;310&lt;/right&gt;<br />   &lt;top&gt;160&lt;/top&gt;<br />   &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualCropOptions&gt;</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> preservePublishState</span> </span> </td> 
@@ -162,7 +162,7 @@ Consulte también [Cargando recursos mediante HTTP POST en la carga...](../../c-
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:OpcionesMáscaraDeEnfoque</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:UnsharpMaskOptions</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
    <td colname="col4"> <p>Opciones que permiten controlar los ajustes de máscara de enfoque al crear un archivo TIF piramidal optimizado. Utilice esta configuración para mejorar la nitidez de la imagen. </p> <p>Consulte <a href="../../types/c-data-types/r-unsharp-mask-options.md#reference-b9a96244d7ee4424bc4ac3c23be3be3d" format="dita" scope="local"> UnsharpMaskOptions</a>. </p> </td> 
   </tr> 

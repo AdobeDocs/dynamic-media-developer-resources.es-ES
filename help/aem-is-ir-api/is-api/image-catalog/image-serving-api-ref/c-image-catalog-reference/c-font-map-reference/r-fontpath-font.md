@@ -8,7 +8,7 @@ exl-id: 251ded53-47db-4855-a40b-7078dfc24d87
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '52'
-ht-degree: 9%
+ht-degree: 7%
 
 ---
 
@@ -18,7 +18,7 @@ Ruta del archivo de fuente. Ruta de acceso y nombre del archivo de fuente princi
 
 ## Propiedades {#section-ae2b7daf74a4419ebcec8f13aa8c1462}
 
-Cadena de texto. Obligatorio. Debe especificar una ruta de archivo del servidor de imágenes válida, absoluta o relativa a `attribute::RootPath`.
+Cadena de texto. Requerido. Debe especificar una ruta de acceso al archivo del servidor de imágenes válida, ya sea absoluta o relativa a `attribute::RootPath`.
 
 ## Predeterminado {#section-3fb42f362de84fdb8ba9fe4cc9628aa3}
 

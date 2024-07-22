@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Referencia de la API de JavaScript para el visualizador de medios mixtos.
 
-` setAsset( *`asset`*[,data]))`
+` setAsset( *`recurso`*[,data]))`
 
 Establece el nuevo recurso y los datos de recurso adicionales opcionales. Puede llamar a este parámetro en cualquier momento, antes o después de `init()`. Si se llama después de `init()`, el visor intercambia el recurso durante la ejecución.
 
@@ -28,7 +28,7 @@ Consulte también [init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedi
 
 Las imágenes que utilizan IR (Image Rendering) o UGC (User-Generated Content) no son compatibles con este visor.
 
-`*`datos`*` - { `JSON`} ubicación del nuevo archivo de rótulo.
+`*`datos`*` - {`JSON`} ubicación del nuevo archivo de subtítulos.
 
 Si no se especifica, el botón de título no estará visible en la interfaz de usuario. Los subtítulos especificados con este parámetro se aplican al vídeo que aparece primero en el conjunto de medios mixtos; los vídeos posteriores se reproducen sin subtítulos. Este visor es compatible con los siguientes ID de componente:
 
@@ -41,11 +41,11 @@ Si no se especifica, el botón de título no estará visible en la interfaz de u
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posterimage </span> </p> </td> 
-   <td colname="col2"> <p>Imagen que se mostrará en el primer fotograma antes de que comience la reproducción del vídeo. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-posterimage.md#reference-f424ad0f278b4d14b86ea55e3a73c52b" format="dita" scope="local"> VideoPlayer.posterimage </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de póster </span> </p> </td> 
+   <td colname="col2"> <p>Imagen que se mostrará en el primer fotograma antes de que comience la reproducción del vídeo. </p> <p>Ver <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-posterimage.md#reference-f424ad0f278b4d14b86ea55e3a73c52b" format="dita" scope="local"> VideoPlayer.posterimage </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> caption </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> pie de ilustración </span> </p> </td> 
    <td colname="col2"> <p> Ubicación del nuevo archivo de rótulo. </p> <p>Si no se especifica, el botón de título no estará visible en la interfaz de usuario. Los subtítulos especificados con este parámetro se aplican al vídeo que aparece primero en el conjunto de medios. Los vídeos posteriores se reproducen sin subtítulos. </p> </td> 
   </tr> 
  </tbody> 

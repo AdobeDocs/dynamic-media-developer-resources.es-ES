@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 11436c4f-acd4-4328-a3de-cc00a80cae2b
 source-git-commit: 632b8255a60ad211d86443d883b724e19b137b47
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 La clase principal del Visor de búsqueda en catálogo electrónico es eCatalogSearchViewer. Se declara en el área de nombres de s7viewers. Esta API de JavaScript cubre el constructor, los métodos y las llamadas de retorno de esta clase en particular.
 
-En todos los ejemplos siguientes, `<instance>` significa el nombre real del objeto de visor de JavaScript del que se crean instancias a partir de `s7viewers.eCatalogSearchViewer` clase.
+En todos los ejemplos siguientes, `<instance>` significa el nombre real del objeto de visor de JavaScript que se crea a partir de la clase `s7viewers.eCatalogSearchViewer`.
 
 * [disponer](r-html5-ecatsearch-javascriptapiref-dispose.md)
 * [eCatalogSearchViewer](r-html5-ecatsearch-javascriptapiref-ecatalogsearchviewer.md)

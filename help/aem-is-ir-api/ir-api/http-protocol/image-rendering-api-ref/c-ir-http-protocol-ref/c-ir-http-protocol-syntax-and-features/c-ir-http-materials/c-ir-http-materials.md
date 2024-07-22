@@ -16,7 +16,7 @@ ht-degree: 0%
 
 El procesamiento de imágenes aplica materiales a grupos u objetos en viñetas.
 
-Un material consta de un conjunto de *atributos*. Algunos atributos son necesarios para ciertos materiales, otros son opcionales y algunos se omiten si están presentes. Muchos atributos tienen valores predeterminados. No todos los materiales pueden aplicarse a todos los objetos (por ejemplo, un material de gabinete no puede aplicarse a un sofá).
+Un material consiste en un conjunto de *atributos*. Algunos atributos son necesarios para ciertos materiales, otros son opcionales y algunos se omiten si están presentes. Muchos atributos tienen valores predeterminados. No todos los materiales pueden aplicarse a todos los objetos (por ejemplo, un material de gabinete no puede aplicarse a un sofá).
 
 El servidor ignora cualquier atributo que aparezca dentro de un segmento de especificación de material (MSS) pero que no aparezca en la lista anterior o en las tablas de material específicas siguientes.
 

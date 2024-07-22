@@ -1,5 +1,5 @@
 ---
-description: Contains [!DNL Platform Server] configuración.
+description: Contiene [!DNL Platform Server] configuración.
 solution: Experience Manager
 title: PlatformServer.conf
 feature: Dynamic Media Classic,SDK/API
@@ -7,24 +7,24 @@ role: Developer,Admin,User
 exl-id: 00d55453-e7e6-4242-be83-7efa12764e5d
 source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 1%
+source-wordcount: '155'
+ht-degree: 0%
 
 ---
 
 # PlatformServer.conf{#platformserver-conf}
 
-Contains [!DNL Platform Server] configuración.
+Contiene la configuración de [!DNL Platform Server].
 
-Este archivo es un archivo de propiedades JAVA. Se debe tener cuidado de seguir las convenciones apropiadas; de lo contrario, la [!DNL Platform Server] puede fallar al iniciar. Utilice una doble barra invertida &#39;\\&#39; o una sola barra diagonal &#39;/&#39; en lugar de una barra invertida &#39;\&#39; en las rutas de archivos de Windows. La barra invertida se utiliza como carácter de escape en este tipo de archivo.
+Este archivo es un archivo de propiedades JAVA. Se debe tener cuidado de seguir las convenciones apropiadas; de lo contrario, [!DNL Platform Server] podría no iniciarse. Utilice una doble barra invertida &#39;\\&#39; o una sola barra diagonal &#39;/&#39; en lugar de una barra invertida &#39;\&#39; en las rutas de archivos de Windows. La barra invertida se utiliza como carácter de escape en este tipo de archivo.
 
 Los cambios en este archivo se aplicarán después de guardar el archivo.
 
-Solo se pueden cambiar las configuraciones enumeradas a continuación en [!DNL PlatformServer.conf]. Si una configuración en particular está ausente, se puede agregar en cualquier parte del archivo. Solo puede haber una instancia de cada configuración.
+Solo se puede cambiar la configuración que se enumera a continuación en [!DNL PlatformServer.conf]. Si una configuración en particular está ausente, se puede agregar en cualquier parte del archivo. Solo puede haber una instancia de cada configuración.
 
 <table id="simpletable_38244750F50A46E5B0077F5F860B125C"> 
  <tr class="strow"> 
-  <td class="stentry"> <p>General [!DNL Platform Server] configuración </p> </td> 
+  <td class="stentry"> <p>Configuración general [!DNL Platform Server] </p> </td> 
   <td class="stentry"> <p> <span class="codeph"> cache.rootPaths=./cache </span> </p> <p> <span class="codeph"> cache.maxEntries=1000000 </span> </p> <p> <span class="codeph"> cache.maxSize=1073741824 </span> </p> <p> <span class="codeph"> isConnection.port=27345 </span> </p> <p> <span class="codeph"> allowDefaultCatalogRequests=true </span> </p> <p> <span class="codeph"> saveToFile.saveTimeout=60000 </span> </p> <p> <span class="codeph"> staticContent.rootPaths=./static-content </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -37,7 +37,7 @@ Solo se pueden cambiar las configuraciones enumeradas a continuación en [!DNL P
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Configuración del SVG </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> svgProvider.rootPaths=./imágenes </span> </p> <p> <span class="codeph"> svgProvider.SVGFileSizeLimit=1024 </span> </p> <p> <span class="codeph"> svgProvider.port=8080 </span> </p> <p> <span class="codeph"> svgProvider.fontRoot=./imágenes </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> svgProvider.rootPaths=./images </span> </p> <p> <span class="codeph"> svgProvider.SVGFileSizeLimit=1024 </span> </p> <p> <span class="codeph"> svgProvider.port=8080 </span> </p> <p> <span class="codeph"> svgProvider.fontRoot=./images </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Respuestas del conjunto de medios </p> </td> 

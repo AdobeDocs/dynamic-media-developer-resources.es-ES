@@ -101,7 +101,7 @@ Se permiten los siguientes valores para los materiales de textura repetible:
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>19 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Edge randomizer. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Edge aleatorio. </p></td> 
  </tr> 
 </table>
 

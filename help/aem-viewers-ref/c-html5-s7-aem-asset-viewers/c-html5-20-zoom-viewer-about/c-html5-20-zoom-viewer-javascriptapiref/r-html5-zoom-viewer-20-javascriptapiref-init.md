@@ -1,6 +1,6 @@
 ---
 title: init
-description: Referencia de la API de JavaScript para el visualizador de vídeos.
+description: Referencia de la API de JavaScript para el visor de vídeo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 2%
 
 # init{#init}
 
-Referencia de la API de JavaScript para el visualizador de vídeos.
+Referencia de la API de JavaScript para el visor de vídeo.
 
 `init()`
 
 Inicia la inicialización del Visor de vídeo. Para este momento, se debe crear el elemento DOM contenedor para que el código del visor pueda encontrarlo por su ID.
 
-Si el elemento contenedor aún no forma parte del diseño de la página web (por ejemplo, puede estar oculto mediante `display:none` style), el usuario suspende el proceso de inicialización. Lo hace hasta el momento en que la página web devuelve el elemento contenedor al diseño. Cuando se produce este proceso, la carga del visor se reanuda automáticamente.
+Si el elemento contenedor aún no forma parte del diseño de la página web (por ejemplo, puede estar oculto mediante el estilo `display:none`), el visor suspende su proceso de inicialización. Lo hace hasta el momento en que la página web devuelve el elemento contenedor al diseño. Cuando se produce este proceso, la carga del visor se reanuda automáticamente.
 
 Llame a este método solo una vez durante el ciclo de vida del visor; las llamadas posteriores se omiten.
 

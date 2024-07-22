@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Documentación de referencia de comandos común a todos los visores.
 
-Los comandos enumerados a continuación se aplican mediante URL o mediante API `setParam()` o `setParams()` métodos.
+Los comandos que se enumeran a continuación se aplican mediante URL o mediante los métodos de API `setParam()` o `setParams()`.

@@ -8,7 +8,7 @@ exl-id: 72429030-200d-4e13-a537-10a728998a26
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '83'
-ht-degree: 13%
+ht-degree: 10%
 
 ---
 
@@ -39,9 +39,9 @@ La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-cf319fc8f86a40ab9cbd838b031973fe}
 
-Este ejemplo de código utiliza el identificador del conjunto como campo en la variable `deletePropertySetParam` se envía al servidor de servicios Web IPS para eliminar el conjunto de propiedades.
+Este ejemplo de código utiliza el identificador del conjunto como un campo del `deletePropertySetParam` enviado al servidor de servicios web IPS para eliminar el conjunto de propiedades.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <deletePropertySetParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

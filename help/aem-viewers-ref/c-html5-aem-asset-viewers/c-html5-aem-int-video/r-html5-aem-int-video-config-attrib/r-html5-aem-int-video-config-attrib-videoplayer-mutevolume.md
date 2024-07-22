@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 84deb0d4-ac7e-4ba0-884f-675a0dcc827b
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 7%
+source-wordcount: '58'
+ht-degree: 5%
 
 ---
 
@@ -21,8 +21,8 @@ Atributo de configuración para el visualizador de vídeo interactivo.
 <table id="table_2A4F898BBF88417DB0834B7F78637F5D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Establece el modo silencioso para la reproducción de vídeo en la carga inicial. Si se establece en <span class="codeph"> 1 </span> el volumen está silenciado; de lo contrario, el vídeo se reproduce con sonido. En ciertos dispositivos, silenciar la reproducción de vídeo al cargar también permite la reproducción automática del vídeo. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col2"> <p> Establece el modo silencioso para la reproducción de vídeo en la carga inicial. Si se establece en <span class="codeph"> 1 </span>, el volumen se silencia; de lo contrario, el vídeo se reproduce con sonido. En ciertos dispositivos, silenciar la reproducción de vídeo al cargar también permite la reproducción automática del vídeo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

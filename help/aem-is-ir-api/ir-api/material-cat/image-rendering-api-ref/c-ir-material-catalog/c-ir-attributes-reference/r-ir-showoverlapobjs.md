@@ -8,7 +8,7 @@ exl-id: 7fdf1c2d-9db9-4f37-a6d0-b6692b51155c
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '39'
-ht-degree: 5%
+ht-degree: 2%
 
 ---
 
@@ -22,4 +22,4 @@ Indicador.
 
 ## Predeterminado {#section-e6f7e33a629b4592979bab6d14700e8f}
 
-Heredado de `default::ShowOverlapObjs` si no se define o si está vacío.
+Se hereda de `default::ShowOverlapObjs` si no se ha definido o está vacío.

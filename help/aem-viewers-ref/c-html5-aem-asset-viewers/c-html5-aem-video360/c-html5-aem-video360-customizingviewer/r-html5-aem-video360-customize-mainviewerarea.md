@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 912cb4b3-6409-48ed-9b9c-968b63718a1b
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 3%
+source-wordcount: '118'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ El área de vista principal es el área ocupada por el vídeo 360. Se configura 
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propiedades CSS del área del visor principal**
+**Propiedades CSS del área de visor principal**
 
 El aspecto del área de visualización se controla con el siguiente selector de clase CSS:
 
@@ -35,15 +35,15 @@ El aspecto del área de visualización se controla con el siguiente selector de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ancho </span> </p> </td> 
    <td colname="col2"> <p>La anchura del visor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p>La altura del visor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color de fondo </span> </p> </td> 
    <td colname="col2"> <p> Color de fondo en formato hexadecimal. </p> </td> 
   </tr> 
  </tbody> 
@@ -51,7 +51,7 @@ El aspecto del área de visualización se controla con el siguiente selector de 
 
 ## Ejemplo {#section-ee18025b182a42dc98052de5f133ddfe}
 
-Para configurar un visor con fondo blanco ( `#FFFFFF`) y hacer su tamaño 512 x 288 píxeles.
+Para configurar un visor con fondo blanco (`#FFFFFF`) y hacer que su tamaño sea de 512 x 288 píxeles.
 
 ```
 .s7video360viewer { 

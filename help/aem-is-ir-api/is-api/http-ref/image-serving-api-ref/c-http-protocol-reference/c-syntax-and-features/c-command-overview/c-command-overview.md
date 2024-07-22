@@ -19,7 +19,7 @@ A continuación se enumeran los comandos admitidos por el servicio de imágenes,
 * [Solicitar comandos](r-request-commands-and-attributes.md)
 * [Ver comandos](r-view-commands-and-attributes.md)
 * [Operaciones comunes](r-common-operations-and-attributes.md)
-* [Operaciones de imagen de origen](r-source-image-operations-and-attributes.md)
+* [Operaciones de imagen de Source](r-source-image-operations-and-attributes.md)
 * [Comandos comunes de capa](r-common-layer-commands-and-attributes.md)
 * [Comandos de capa de imagen](r-image-layer-commands-and-attributes.md)
 * [Comandos de capa de texto](r-text-layer-commands-and-attributes.md)

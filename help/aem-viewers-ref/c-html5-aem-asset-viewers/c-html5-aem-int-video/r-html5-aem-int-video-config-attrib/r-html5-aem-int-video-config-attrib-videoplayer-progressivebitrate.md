@@ -8,7 +8,7 @@ exl-id: 69f3c4c0-00d9-46ef-aebb-3116a0d83c85
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '95'
-ht-degree: 5%
+ht-degree: 3%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 5%
 
 Atributo de configuración para el visualizador de vídeo interactivo.
 
-` [VideoPlayer.|<containerId>_videoPlayer.]progressivebitrate= *`basado en IP`*`
+` [VideoPlayer.|<containerId>_videoPlayer.]progressivebitrate= *`valor`*`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> basado en IP</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> valor</span> </p> </td> 
    <td colname="col2"> <p> Especifica la velocidad de bits de vídeo deseada para la reproducción de un conjunto de vídeos adaptables en kilobits por segundos (kbps) en caso de que el sistema operativo no admita la reproducción de vídeo adaptable. </p> <p>El componente capta el flujo de vídeo con la velocidad más cercana posible al valor especificado (pero sin sobrepasarla). Si todos los flujos de vídeo del conjunto de vídeos adaptables tienen una calidad mayor que el valor especificado, la lógica elige la velocidad de bits con la calidad más baja. </p> </td> 
   </tr> 
  </tbody> 

@@ -8,7 +8,7 @@ exl-id: f0c51e67-6927-4b9f-9935-222e6a194c13
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '80'
-ht-degree: 17%
+ht-degree: 5%
 
 ---
 
@@ -44,7 +44,7 @@ Los valores incluyen:
    <td colname="col3">Manejo de la compañía. <p>Nota: El tipo es global si el identificador de la empresa no está presente. </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> nombre</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Escriba el nombre. </td> 
   </tr> 

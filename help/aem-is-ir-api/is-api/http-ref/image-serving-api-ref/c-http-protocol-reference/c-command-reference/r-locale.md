@@ -25,16 +25,16 @@ ID de configuración regional de traducción. Especifica el ID de configuración
  </tr> 
 </table>
 
-Usar este ID y las reglas especificadas con `attribute::LocaleMap` y `attribute::LocaleStrMap`, el servicio de imágenes aplica la traducción del ID de catálogo y la localización de cadenas opcionales.
+Con este id. y las reglas especificadas con `attribute::LocaleMap` y `attribute::LocaleStrMap`, el servicio de imágenes aplica la traducción del id. de catálogo y la localización de cadenas opcionales.
 
 ## Propiedades {#section-1854a9902b884d9b8e8e713b6635723f}
 
-Solicitar comando. Se aplica a toda la solicitud, incluidas las solicitudes anidadas/incrustadas, independientemente de dónde se especifique. `locId` solo debe incluir caracteres ASCII imprimibles. Se ignora si no se definen mapas de localización en el catálogo principal de esta solicitud. Se devuelve un error si está vacío o no es válido `locId` se ha especificado y no se ha definido ninguna regla predeterminada en `attribute::DefaultLocale`.
+Solicitar comando. Se aplica a toda la solicitud, incluidas las solicitudes anidadas/incrustadas, independientemente de dónde se especifique. `locId` solo debe incluir caracteres ASCII imprimibles. Se ignora si no se definen mapas de localización en el catálogo principal de esta solicitud. Se devuelve un error si se especifica `locId` vacío o no válido y no se define ninguna regla predeterminada en `attribute::DefaultLocale`.
 
 ## Predeterminado {#section-9699fbc26de6453e9029e0003c79a7ef}
 
-`attribute::DefaultLocale` se utiliza cuando locale= no se especifica.
+`attribute::DefaultLocale` se usa cuando locale= no se especifica.
 
 ## Véase también {#section-28a586d43ac4429d98e318a580c92af4}
 
-[attribute::DefaultLocale](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultlocale.md#reference-69462ad9923f464f80c2c012342a6b6b) , [attribute::LocaleMap](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-localemap.md#reference-49bbf598f8ea47c3a563755cef306318), [attribute::LocaleStrMap](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-localestrmap.md#reference-98c42070a4bc4baf92537132be2b5b1e), Compatibilidad con localización
+[attribute::DefaultLocale](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultlocale.md#reference-69462ad9923f464f80c2c012342a6b6b) , [attribute::LocaleMap](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-localemap.md#reference-49bbf598f8ea47c3a563755cef306318), [attribute::LocaleStrMap](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-localestrmap.md#reference-98c42070a4bc4baf92537132be2b5b1e), compatibilidad con la localización

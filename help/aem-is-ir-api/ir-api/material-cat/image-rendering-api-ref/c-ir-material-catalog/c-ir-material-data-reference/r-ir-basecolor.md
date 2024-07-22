@@ -8,7 +8,7 @@ exl-id: 57de25f9-ed99-4d4c-ac0e-08d382e8a36f
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '77'
-ht-degree: 5%
+ht-degree: 3%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 Color de imagen dominante. Color sustractivo, utilizado para colorear texturas. Debe ser el color dominante promedio en la imagen de textura.
 
-También puede utilizar `BaseColor`como color de relleno si el material de textura no tiene `catalog::Color` se aplica a un objeto de viñeta no texturable.
+También puede usar `BaseColor` como color de relleno si se aplica un material de textura que no tiene `catalog::Color` a un objeto de viñeta no texturable.
 
 ## Propiedades {#section-d9aec235f28b402581cf2277f5fc6fbb}
 

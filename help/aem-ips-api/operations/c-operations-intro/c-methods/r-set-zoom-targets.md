@@ -8,7 +8,7 @@ exl-id: 1b4ac729-00cf-4ea2-9098-60b4af3c7e6d
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '121'
-ht-degree: 14%
+ht-degree: 12%
 
 ---
 
@@ -47,7 +47,7 @@ Sintaxis
 
 Este ejemplo de código define una matriz de destinos de zoom por nombre, posición (eje x e y), anchura, altura y asigna la matriz a un recurso. La respuesta contiene controladores para los destinos de zoom recién creados.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <setZoomTargetsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

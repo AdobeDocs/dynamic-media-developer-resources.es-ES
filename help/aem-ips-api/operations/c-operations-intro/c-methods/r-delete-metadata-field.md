@@ -8,7 +8,7 @@ exl-id: 1922fc1b-2abc-4d31-985a-65c788af4d46
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '98'
-ht-degree: 11%
+ht-degree: 9%
 
 ---
 
@@ -39,9 +39,9 @@ La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-e1c474ea91a040609ecd7c2400f4fa3c}
 
-Este ejemplo de código elimina el campo de metadatos de una empresa. Utiliza el identificador de la empresa y el identificador de metadatos como campos en la `deleteMetadataFieldParam` pasado al servidor de servicios Web IPS para realizar esta acción.
+Este ejemplo de código elimina el campo de metadatos de una empresa. Utiliza el identificador de empresa y el identificador de metadatos como campos del `deleteMetadataFieldParam` pasado al servidor de servicios web IPS para realizar esta acción.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <deleteMetadataFieldParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

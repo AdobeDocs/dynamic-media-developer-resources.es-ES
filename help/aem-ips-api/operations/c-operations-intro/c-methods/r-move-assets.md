@@ -8,7 +8,7 @@ exl-id: e5bb2188-d262-4324-9f71-68634b6af654
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '209'
-ht-degree: 12%
+ht-degree: 8%
 
 ---
 
@@ -70,9 +70,9 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:AssetOperationFaultArray</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span>que contienen el: 
+   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span>que contienen: 
     <ul id="ul_689F4A87A68140F18DFB43868226A409"> 
-     <li id="li_274C8BF5932F4AF584AA92F25E0F33C6">Recursos que generaron advertencias. </li> 
+     <li id="li_274C8BF5932F4AF584AA92F25E0F33C6">Assets que lanzó las advertencias. </li> 
      <li id="li_5CC4A9120CA94F968CAF0D0135C49E0A">Códigos de advertencia. </li> 
      <li id="li_AEC91FA68B2E43BC8BAA108C743F5667">Razón de la advertencia. </li> 
     </ul> </td> 
@@ -81,9 +81,9 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:AssetOperationFaultArray</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span>que contienen el: 
+   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span>que contienen: 
     <ul id="ul_C397BC384A134F429D01ADA28DF2E097"> 
-     <li id="li_EAEBB5F539164480BA9EAA7C8FFBF69A">Recursos que arrojaron los errores. </li> 
+     <li id="li_EAEBB5F539164480BA9EAA7C8FFBF69A">Assets que arrojó los errores. </li> 
      <li id="li_F96D5FBB2F7A402AA36D8DFA3971391D">Códigos de error. </li> 
      <li id="li_F610415E416F43DDA4B1DBF1897E2F61">Razón de los errores. </li> 
     </ul> </td> 
@@ -93,9 +93,9 @@ Sintaxis
 
 ## Ejemplos {#section-c31ed4c004ab4b3fa42c96d26ceb5ce7}
 
-Este ejemplo de código mueve recursos a una ubicación específica especificada por el `assetMoveArray`. La matriz incluye el identificador de recursos y su identificador de carpetas. La respuesta indica que los recursos se movieron correctamente.
+Este ejemplo de código mueve recursos a una ubicación específica especificada por `assetMoveArray`. La matriz incluye el identificador de recursos y su identificador de carpetas. La respuesta indica que los recursos se movieron correctamente.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <moveAssetsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

@@ -8,7 +8,7 @@ exl-id: dfdcbcdd-232f-4c73-9520-c7c958eedf54
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '208'
-ht-degree: 11%
+ht-degree: 9%
 
 ---
 
@@ -31,7 +31,7 @@ Obtiene una matriz de usuarios según lo especificado por los identificadores de
 | companyHandleArray | `types:HandleArray` | No | Filtrar los resultados por empresa. |
 | groupHandleArray | `types:HandleArray` | No | Filtrar los resultados por grupo. |
 | userRoleArray | `types:StringArray` | No | Filtrar los resultados por función de usuario. |
-| charFilterField | `xsd:string` | No | Filtrar los resultados por prefijo de cadena del campo (consulte [!DNL Trash State).] |
+| charFilterField | `xsd:string` | No | Filtrar los resultados por prefijo de cadena de campo (consulte [!DNL Trash State).] |
 | charFilter | `xsd:string` | No | Filtrar los resultados por un carácter específico. |
 | sortBy | `xsd:string` | No | Elección de los campos de ordenación del usuario. |
 | recordsPerPage | `xsd:int` | No | Devuelve el número especificado de registros por página. |
@@ -47,7 +47,7 @@ Obtiene una matriz de usuarios según lo especificado por los identificadores de
 
 Este ejemplo de código devuelve la matriz de usuarios para varios parámetros opcionales. Las funciones de usuario, los campos de filtro de caracteres de usuario y los campos de ordenación de usuarios se determinan mediante constantes de cadena específicas.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <ns1:getUsersParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

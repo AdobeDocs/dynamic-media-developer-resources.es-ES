@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 0d7000d0-9181-4c6e-a94e-31ab5ad17fa4
 source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 11%
+source-wordcount: '209'
+ht-degree: 5%
 
 ---
 
@@ -33,19 +33,19 @@ El visor admite subtítulos a través de archivos WebVTT alojados. No se admiten
   <tr> 
    <td colname="col1"> <p> A </p> </td> 
    <td colname="col2"> <p>alineación de texto </p> </td> 
-   <td colname="col3"> <p><span class="codeph"> left|right|middle|start|end</span> </p> </td> 
-   <td colname="col4"> <p> Controle la alineación del texto. </p> <p>El valor predeterminado es <span class="codeph"> centro</span>. </p> </td> 
+   <td colname="col3"> <p><span class="codeph"> izquierda|derecha|medio|inicio|final</span> </p> </td> 
+   <td colname="col4"> <p> Controle la alineación del texto. </p> <p>El valor predeterminado es <span class="codeph"> middle</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>T </p> </td> 
    <td colname="col2"> <p>posición del texto </p> </td> 
-   <td colname="col3"> <p> 0%-100% </p> </td> 
+   <td colname="col3"> <p> 0-100% </p> </td> 
    <td colname="col4"> <p> Porcentaje de margen en el componente VideoPlayer para el principio del texto del rótulo. </p> <p>El valor predeterminado es 0%. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>S </p> </td> 
    <td colname="col2"> <p>tamaño de línea </p> </td> 
-   <td colname="col3"> <p> 0%-100% </p> </td> 
+   <td colname="col3"> <p> 0-100% </p> </td> 
    <td colname="col4"> <p> Porcentaje de anchura del vídeo utilizado para los subtítulos. </p> <p>El valor predeterminado es 100%. </p> </td> 
   </tr> 
   <tr> 
@@ -66,8 +66,8 @@ Otras funciones WebVTT presentes en el archivo WebVTT no son compatibles, pero n
    <td colname="col2"> <p> Especifica una dirección URL o una ruta al contenido de subtítulos WebVTT. Proporcione el archivo WebVTT mediante ImageServing. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Especifica el estado predeterminado de los subtítulos (la opción habilitada es <span class="codeph"> 1</span>). </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> 0|1</span> </p> </td> 
+   <td colname="col2"> <p> Especifica el estado predeterminado del título (habilitado es <span class="codeph"> 1</span>). </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 487f83e6-f713-40e9-a442-e1179b30012c
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 16%
+source-wordcount: '176'
+ht-degree: 10%
 
 ---
 
@@ -103,9 +103,9 @@ Sintaxis
 
 ## Ejemplos {#section-aaad1933bf86479eb6cb476cec7d4587}
 
-Este ejemplo de código envía un identificador a una compañía y una matriz de identificadores de recursos en una `deleteAssetsParam` solicitud al servidor de servicios web. `deleteAssetsReturn` devuelve un recuento correcto de 2, que indica que ambos recursos se eliminaron.
+Este ejemplo de código envía un identificador a una compañía y una matriz de identificadores de recursos en una solicitud de `deleteAssetsParam` al servidor de servicios web. `deleteAssetsReturn` devuelve un recuento de éxito de 2, lo que indica que ambos recursos se eliminaron.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <deleteAssetsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

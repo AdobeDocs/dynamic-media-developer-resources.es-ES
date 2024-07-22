@@ -8,7 +8,7 @@ exl-id: 252e12d9-703e-4fbb-a156-8dcdc3bc4f2e
 source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
 source-wordcount: '147'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ Script de control del servicio de imágenes. Este script se utiliza para iniciar
 
 ## Uso {#section-6832b5b10404442a9d3a3eca92041002}
 
-` ImageServing *`mando`*`
+` ImageServing *`comando`*`
 
 ## Comandos {#section-90436a0b0f70435f9ac42dafeed2c17b}
 
@@ -31,11 +31,11 @@ Script de control del servicio de imágenes. Este script se utiliza para iniciar
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> inicio </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> iniciar </span> </p> </td> 
    <td colname="col2"> <p> Inicie el Supervisor de servidor y todos los demás componentes del servicio de imágenes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> parada </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> detener </span> </p> </td> 
    <td colname="col2"> <p> Detenga todos los componentes del servicio de imágenes, incluido el Supervisor de servidor. </p> </td> 
   </tr> 
   <tr> 
@@ -48,7 +48,7 @@ Script de control del servicio de imágenes. Este script se utiliza para iniciar
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> estado [ ps | es | svg ] </span> </p> </td> 
-   <td colname="col2"> <p>Devuelve la información de tiempo de actividad y uso de memoria actual para el servidor de imágenes, Tomcat/[!DNL Platform Server], y SVGserver, o el estado solo del servidor especificado; se devuelve un mensaje informativo si el Supervisor del servidor no se está ejecutando. </p> </td> 
+   <td colname="col2"> <p>Devuelve la información de tiempo de actividad y uso de memoria actual para Image Server, Tomcat/[!DNL Platform Server] y SVGserver, o el estado solo del servidor especificado; en su lugar, se devuelve un mensaje informativo si el Supervisor del servidor no se está ejecutando. </p> </td> 
   </tr> 
  </tbody> 
 </table>

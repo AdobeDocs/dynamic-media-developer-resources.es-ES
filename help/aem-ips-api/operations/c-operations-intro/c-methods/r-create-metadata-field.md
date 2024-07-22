@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: eac7fa54-ebe2-4f42-a478-d9a6fb54d1b6
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 13%
+source-wordcount: '285'
+ht-degree: 6%
 
 ---
 
@@ -49,7 +49,7 @@ Sintaxis
    <td colname="col4"> Tipo de recurso. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> nombre</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sí </td> 
    <td colname="col4"> Nombre del campo de metadatos que está creando. </td> 
@@ -64,7 +64,7 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>El valor predeterminado del campo de metadatos que se va a crear (por ejemplo, <span class="codeph"> Scene7</span>). </p> <p>Los valores predeterminados no son compatibles con los tipos de campos de etiqueta y deben omitirse. Si se especifica un valor predeterminado no vacío para un tipo de campo de etiqueta, se devuelve un error. </p> </td> 
+   <td colname="col4"> <p>El valor predeterminado del campo de metadatos que se va a crear (por ejemplo, <span class="codeph"> Scene 7</span>). </p> <p>Los valores predeterminados no son compatibles con los tipos de campos de etiqueta y deben omitirse. Si se especifica un valor predeterminado no vacío para un tipo de campo de etiqueta, se devuelve un error. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
@@ -97,7 +97,7 @@ Sintaxis
 
 Este ejemplo de código crea un campo de metadatos de tipo cadena denominado `createMetadataField`. La respuesta devuelve el identificador al nuevo campo de metadatos.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <createMetadataFieldParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

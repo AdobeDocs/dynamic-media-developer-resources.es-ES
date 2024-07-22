@@ -8,7 +8,7 @@ exl-id: f1ad16c8-cba2-4ef0-9558-6a4086c71393
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '66'
-ht-degree: 21%
+ht-degree: 18%
 
 ---
 
@@ -30,9 +30,9 @@ Sintaxis
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> items</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> elementos</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Una lista de palabras clave separadas por comas que se combinan en la variable <span class="codeph"> dc:subject=</span> XMP nodo de propiedad de. Si aparece una coma en cualquiera de los valores individuales, debe especificarse una barra invertida (\) como carácter de escape. Una barra invertida literal es la barra invertida doble habitual (\\). </p> </td> 
+   <td colname="col3"> <p>XMP Lista de palabras clave separadas por comas que se combinan en el nodo de propiedades <span class="codeph"> dc:subject=</span> de la propiedad de la propiedad de la propiedad de la propiedad de la propiedad de la aplicación. Si aparece una coma en cualquiera de los valores individuales, debe especificarse una barra invertida (\) como carácter de escape. Una barra invertida literal es la barra invertida doble habitual (\\). </p> </td> 
   </tr> 
  </tbody> 
 </table>

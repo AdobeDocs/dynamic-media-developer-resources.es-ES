@@ -8,7 +8,7 @@ exl-id: 9a540b86-4d00-47db-8a1d-1d2b186ce87b
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '48'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -22,7 +22,7 @@ Indicador.
 
 ## Predeterminado {#section-e6f1f81ef5c949a488b2002581bda0d0}
 
-Heredado de `default::Sharpen` si no se define o si está vacío.
+Se hereda de `default::Sharpen` si no se ha definido o está vacío.
 
 ## Véase también {#section-85393c62428f49739a2510f9427d3607}
 

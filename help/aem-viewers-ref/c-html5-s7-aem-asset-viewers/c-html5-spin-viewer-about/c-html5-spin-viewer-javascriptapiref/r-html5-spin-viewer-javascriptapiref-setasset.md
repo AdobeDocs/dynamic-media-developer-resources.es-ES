@@ -8,7 +8,7 @@ exl-id: c94c8db4-d448-4c1c-875a-3a33a03f7dd8
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '101'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 2%
 
 Referencia de la API de JavaScript para el visor de giros.
 
-` setAsset( *`asset`*)`
+` setAsset( *`recurso`*)`
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> recurso</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> Cadena</span>} nuevo id de recurso, conjunto de giros unidimensional o multidimensional con modificadores opcionales del servicio de imágenes anexados después de <span class="codeph"> ?</span>. </p> <p> Las imágenes que utilizan IR (Image Rendering) o UGC (User-Generated Content) no son compatibles con este visor. </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> cadena</span>} nuevo id. de recurso, conjunto de giros único o multidimensional con modificadores opcionales para servicio de imágenes anexados después de <span class="codeph"> ?</span>. </p> <p> Las imágenes que utilizan IR (Image Rendering) o UGC (User-Generated Content) no son compatibles con este visor. </p> </td> 
   </tr> 
  </tbody> 
 </table>

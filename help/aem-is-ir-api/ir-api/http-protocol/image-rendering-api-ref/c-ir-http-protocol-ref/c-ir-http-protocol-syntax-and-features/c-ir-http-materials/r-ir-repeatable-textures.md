@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 3693498b-994a-460a-8b2e-780a1482d37a
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '243'
 ht-degree: 3%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 3%
 
 Las texturas repetibles incluyen materiales interiores y exteriores, como telas (tanto prendas de vestir como tapicerías), revestimientos de suelos de pared a pared, papeles pintados, materiales de encimera, texturas de grano de madera, materiales para techos y revestimientos, y cualquier otra textura genérica.
 
-Las texturas repetibles pueden aplicarse a objetos planos, de línea de flujo, de esbozo, planos, de pared y de armario. Cuando se aplica a un objeto no texturable, el objeto se pinta con `color=` (o `bgc=` if `color=` no especificado).
+Las texturas repetibles pueden aplicarse a objetos planos, de línea de flujo, de esbozo, planos, de pared y de armario. Cuando se aplica a un objeto no texturable, el objeto se pinta con `color=` (o `bgc=` si no se especifica `color=`).
 
-Un material se considera una textura si incluye una `src=` que especifica una imagen y si se produce en un SMS que no sea un borde de pared o calcomanía.
+Un material se considera una textura si incluye un atributo `src=` que especifica una imagen y si se produce en un SMS que no sea una calcomanía o un borde de pared.
 
-Al procesar, la textura se alinea con el objeto haciendo coincidir el `anchor=` punto del material de textura con el punto de origen de la textura del objeto (tal como se crea en la viñeta).
+Al procesar, la textura se alinea con el objeto haciendo coincidir el punto `anchor=` del material de textura con el punto de origen de la textura del objeto (tal como se creó en la viñeta).
 
 <table id="table_992A6E93E4274B598A236F8F728F017A"> 
  <thead> 
@@ -39,15 +39,15 @@ Al procesar, la textura se alinea con el objeto haciendo coincidir el `anchor=` 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-res.md#reference-0ad9de8887144c83a6db97b4994f7c04" type="reference" format="dita" scope="local"> <span class="codeph"> res= </span> </a> </p> </td> 
    <td colname="col2"> <p>Resolución de textura </p> </td> 
-   <td colname="col3"> <span class="codeph"> attribute::Resolution </span> </td> 
+   <td colname="col3"> <span class="codeph"> atributo::Resolution </span> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26" type="reference" format="dita" scope="local"> <span class="codeph"> anchor= </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26" type="reference" format="dita" scope="local"> <span class="codeph"> anclaje= </span> </a> </p> </td> 
    <td colname="col2"> <p>Punto de alineación de textura </p> </td> 
    <td colname="col3"> <p>Esquina superior izquierda. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-repeat.md#reference-37749da8233f42599ecf4731055fb7d8" type="reference" format="dita" scope="local"> <span class="codeph"> repeat= </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-repeat.md#reference-37749da8233f42599ecf4731055fb7d8" type="reference" format="dita" scope="local"> <span class="codeph"> repetición= </span> </a> </p> </td> 
    <td colname="col2"> <p>Modo de repetición </p> </td> 
    <td colname="col3"> <p>0 (repetición recta). </p> </td> 
   </tr> 
@@ -81,7 +81,7 @@ Además de estos atributos básicos, las texturas repetibles admiten los siguien
    <td colname="col3"> <p>Centrado-coincidente </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rotate.md#reference-3745d74a913e4065b7ac009fb4fd9e3c" type="reference" format="dita" scope="local"> <span class="codeph"> rotate= </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rotate.md#reference-3745d74a913e4065b7ac009fb4fd9e3c" type="reference" format="dita" scope="local"> <span class="codeph"> rotar= </span> </a> </p> </td> 
    <td colname="col2"> <p>Ángulo de rotación de textura; no admitido por objetos de pared </p> </td> 
    <td colname="col3"> <p>0 (sin rotación) </p> </td> 
   </tr> 

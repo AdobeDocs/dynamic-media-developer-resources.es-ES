@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: e5019948-d8ed-4bb2-b652-2936b6f694c9
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Determinado contenido que muestra el Visor de recorte inteligente de vídeos está sujeto a la localización. Este contenido incluye información sobre las herramientas de elementos de la interfaz de usuario y un mensaje de error que se muestra cuando no se puede reproducir el vídeo.
 
-Cada contenido textual del visualizador que se puede localizar se representa mediante un identificador especial del SDK del visualizador llamado SYMBOL. Cualquier SYMBOL tiene un valor de texto asociado por defecto para la configuración regional en inglés ( `"en"`) se suministra con el visor incorporado. También puede tener valores definidos por el usuario configurados para tantas configuraciones regionales como sea necesario.
+Cada contenido textual del visualizador que se puede localizar se representa mediante un identificador especial del SDK del visualizador llamado SYMBOL. Cualquier SYMBOL tiene un valor de texto asociado predeterminado para la configuración regional en inglés (`"en"`) que se proporciona con el visor predeterminado. También puede tener valores definidos por el usuario configurados para tantas configuraciones regionales como sea necesario.
 
 Cuando se inicia el visor, comprueba la configuración regional actual para ver si hay un valor definido por el usuario para cada SÍMBOLO admitido para la configuración regional. Si existe, utiliza el valor definido por el usuario; de lo contrario, vuelve al texto predeterminado predeterminado.
 
@@ -40,7 +40,7 @@ defaultLocale:"en"
 
 En el ejemplo anterior, el objeto de localización define dos configuraciones regionales ( `"en"` y `"fr"`) y proporciona localización para dos elementos de interfaz de usuario en cada configuración regional.
 
-El código de la página web debe pasar dicho objeto de localización al constructor del visor como un valor de `localizedTexts` del objeto de configuración. Una opción alternativa es pasar el objeto de localización llamando a la variable `setLocalizedTexts(localizationInfo)` método.
+El código de la página web debe pasar dicho objeto de localización al constructor del visor como un valor del campo `localizedTexts` del objeto de configuración. Una opción alternativa es pasar el objeto de localización llamando al método `setLocalizedTexts(localizationInfo)`.
 
 Se admiten los siguientes SYMBOL:
 
@@ -69,7 +69,7 @@ Se admiten los siguientes SYMBOL:
    <td colname="col2"> <p>Información del objeto para el estado del botón de pausa de reproducción. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> VideoScrubber.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">: VideoScrubber.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Información del objeto para la selección manual de vídeo. </p> </td> 
   </tr> 
   <tr> 
@@ -86,7 +86,7 @@ Se admiten los siguientes SYMBOL:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_VOLUME </span> </p> </td> 
-   <td colname="col2"> <p> Etiqueta del control deslizante de volumen expuesta a través del ARIA <span class="codeph"> aria-valuetext </span> atributo. </p> </td> 
+   <td colname="col2"> <p> Etiqueta del control deslizante de volumen expuesta mediante el atributo ARIA <span class="codeph"> aria-valuetext </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED </span> </p> </td> 
@@ -105,7 +105,7 @@ Se admiten los siguientes SYMBOL:
    <td colname="col2"> <p>Información del objeto para el estado del botón de subtítulo cerrado no seleccionado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SocialShare.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">: SocialShare.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Información del objeto para la herramienta compartir en redes sociales. </p> </td> 
   </tr> 
   <tr> 
@@ -181,7 +181,7 @@ Se admiten los siguientes SYMBOL:
    <td colname="col2"> <p>Mensaje de error que se muestra cuando el correo electrónico no se ha enviado correctamente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">: EmbedShare.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Información del objeto para el botón Compartir incrustado. </p> </td> 
   </tr> 
   <tr> 
@@ -213,7 +213,7 @@ Se admiten los siguientes SYMBOL:
    <td colname="col2"> <p>Rótulo del botón "Seleccionar todo". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP ACTION </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">: acción EmbedShare.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Información de objeto del botón Seleccionar todo. </p> </td> 
   </tr> 
   <tr> 

@@ -17,7 +17,7 @@ ht-degree: 0%
 Los temas de esta sección describen la sintaxis y las características de los protocolos HTTP.
 
 * [Sintaxis básica del protocolo HTTP del servicio de imágenes](r-basic-syntax.md)
-* [Información general del comando del protocolo HTTP del servicio de imágenes](c-command-overview/c-command-overview.md)
+* [Comando del protocolo HTTP del servicio de imágenes   descripción general](c-command-overview/c-command-overview.md)
 * [Introducción a capas](c-layering-overview/c-layering-overview.md)
 * [Operaciones de capa](c-layering-overview/c-layer-operations.md)
 * [Efectos de capa](r-layer-effects.md)

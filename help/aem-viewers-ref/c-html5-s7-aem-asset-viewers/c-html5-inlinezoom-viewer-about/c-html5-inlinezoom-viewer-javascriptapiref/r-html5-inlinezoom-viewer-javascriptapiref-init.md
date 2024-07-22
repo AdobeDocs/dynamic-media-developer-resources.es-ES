@@ -20,7 +20,7 @@ Referencia de la API de JavaScript para el visor de zoom en línea.
 
 Inicia la inicialización del visor para que el código del visor pueda encontrarlo por su ID. Para este momento, se debe crear el elemento DOM contenedor.
 
-Si el elemento contenedor aún no forma parte del diseño de la página web (por ejemplo, puede ocultarse) utilizando `display:none` estilo asignado a él: el visualizador suspende el proceso de inicialización. Lo hace hasta el momento en que la página web devuelve el elemento contenedor al diseño. Cuando se produce esta acción, la carga del visor se reanuda automáticamente.
+Si el elemento contenedor aún no forma parte del diseño de la página web (por ejemplo, si se le asigna el estilo `display:none`), el visor suspende el proceso de inicialización. Lo hace hasta el momento en que la página web devuelve el elemento contenedor al diseño. Cuando se produce esta acción, la carga del visor se reanuda automáticamente.
 
 Llame a este método solo una vez durante el ciclo de vida del visor; las llamadas posteriores se omiten.
 

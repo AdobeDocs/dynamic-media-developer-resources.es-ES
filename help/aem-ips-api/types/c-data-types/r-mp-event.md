@@ -8,7 +8,7 @@ exl-id: 642c82d1-aea1-4430-a599-b526fdbc8091
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 14%
+ht-degree: 3%
 
 ---
 
@@ -29,8 +29,8 @@ Sintaxis
 | companyName | `xsd:string` | Nombre de la empresa. |
 | jobName | `xsd:string` | Un nombre de trabajo único. |
 | jobDescription | `xsd:string` | Una descripción útil para el trabajo. |
-| string1 | `xsd:string` | Titular para información de cadena (opcional). |
-| string2 | `xsd:string` | Titular para información de cadena (opcional). |
+| cadena1 | `xsd:string` | Titular para información de cadena (opcional). |
+| cadena2 | `xsd:string` | Titular para información de cadena (opcional). |
 | string3 | `xsd:string` | Titular para información de cadena (opcional). |
 | string4 | `xsd:string` | Titular para información de cadena (opcional). |
 | string5 | `xsd:string` | Titular para información de cadena (opcional). |

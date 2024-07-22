@@ -8,7 +8,7 @@ exl-id: b6e6e9bd-5ee2-4750-9182-49e7a3e3486c
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '83'
-ht-degree: 20%
+ht-degree: 18%
 
 ---
 
@@ -47,7 +47,7 @@ Sintaxis
 
 Este ejemplo de código asigna un recurso a un proyecto. La solicitud devuelve un recuento de éxito de uno.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <setProjectAssetsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

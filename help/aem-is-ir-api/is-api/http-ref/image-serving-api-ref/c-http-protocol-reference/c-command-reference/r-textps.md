@@ -8,7 +8,7 @@ exl-id: 95f343ce-bea3-425e-9a25-d1d141a976d9
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '122'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -27,13 +27,13 @@ Texto de capa (compatible con Adobe Photoshop). Especifica el cuerpo del texto d
 
 Todo el control de la fuente, el color de fuente y el formato de párrafo se logra mediante comandos RTF.
 
-Consulte [Formato de texto](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md#concept-0d3136db7f6f49668274541cd4b6364c).
+Ver [Formato de texto](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md#concept-0d3136db7f6f49668274541cd4b6364c).
 
-`textPs=` admite funciones ampliadas, como la justificación, el flujo de texto en regiones no rectangulares definidas con `textFlowPath=` y/o `textFlowXPath=`, y procesamiento de texto a lo largo de rutas arbitrarias definidas con `textPath=`.
+`textPs=` admite características extendidas, como justificación, flujo de texto en regiones no rectangulares definidas con `textFlowPath=` y/o `textFlowXPath=`, y representación de texto a lo largo de rutas arbitrarias definidas con `textPath=`.
 
 ## Propiedades {#section-a289dc26b6534b41998b1e241d5f2f92}
 
-Atributo de capa. Se aplica a `layer=0` if `layer=comp`. Exclusivo de forma mutua con `src=` y `text=` en la misma capa. La última incidencia de `text=`, `textPs=`, y `src=` prevalece y determina si se trata de una imagen o de una capa de texto. Ignorado por las capas de efecto.
+Atributo de capa. Se aplica a `layer=0` si `layer=comp`. Exclusivo de manera mutua con `src=` y `text=` en la misma capa. La última aparición de `text=`, `textPs=` y `src=` prevalece y determina si se trata de una imagen o de una capa de texto. Ignorado por las capas de efecto.
 
 ## Predeterminado {#section-11c2ae2c96d64a0a9c207252df663e4d}
 

@@ -1,6 +1,6 @@
 ---
 title: setHandlers
-description: Referencia de la API de JavaScript para el visor de Video360
+description: Referencia de la API de JavaScript para el visualizador Video360
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # setHandlers{#sethandlers}
 
-Referencia de la API de JavaScript para el visor de Video360
+Referencia de la API de JavaScript para el visualizador Video360
 
 `setHandlers(handlers)`
 
@@ -26,7 +26,7 @@ Especifica cero o más controladores de devolución de llamada. Una llamada a es
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> controladores </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {Object} </span> Objeto JSON con llamadas de retorno a evento de visor, donde el nombre de propiedad es el nombre del evento de visor admitido y el valor de propiedad es una referencia de función de JavaScript a una llamada de retorno adecuada. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local"> Llamadas de retorno de eventos </a> para obtener más información sobre los eventos de visor. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {Object} </span> objeto JSON con llamadas de retorno de evento del visor, donde el nombre de propiedad es el nombre del evento del visor admitido y el valor de propiedad es una referencia de función de JavaScript a una llamada de retorno adecuada. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local"> devoluciones de llamadas de evento </a> para obtener más información sobre los eventos de visor. </p> </td> 
   </tr> 
  </tbody> 
 </table>

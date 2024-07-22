@@ -24,6 +24,6 @@ Sintaxis
 |---|---|---|
 | nombre | `xsd:string` | Nombre de la definición del mapa de imagen. |
 | shapeType | `xsd:string` | Uno de los valores de forma de región. |
-| región | `xsd:string` | Coordenadas de mapa de imagen. El formato se basa en el HTML `<area>` atributos de etiqueta. |
-| action | `xsd:string` | Otros atributos que se incluyen en el HTML `<area>` , incluida la etiqueta `href` URL. |
+| región | `xsd:string` | Coordenadas de mapa de imagen. El formato se basa en los atributos de HTML `<area>`. |
+| action | `xsd:string` | Otros atributos que se incluyen en la etiqueta de HTML `<area>`, incluida la dirección URL `href`. |
 | habilitada | `xsd:boolean` | True si el mapa de imagen está habilitado. |

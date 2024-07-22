@@ -23,7 +23,7 @@ Los campos de catálogo utilizan estos valores predeterminados.
    <td colname="col2"> <p>Información de imagen Digimarc predeterminada. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-expiration-cat.md#reference-a7afd668ecbb4d2da65d86259aa6a28a" type="reference" format="dita" scope="local"> Caducidad</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-expiration-cat.md#reference-a7afd668ecbb4d2da65d86259aa6a28a" type="reference" format="dita" scope="local"> Vencimiento</a></span> </p> </td> 
    <td colname="col2"> <p>Duración predeterminada de la caché del cliente. </p> </td> 
   </tr> 
   <tr> 

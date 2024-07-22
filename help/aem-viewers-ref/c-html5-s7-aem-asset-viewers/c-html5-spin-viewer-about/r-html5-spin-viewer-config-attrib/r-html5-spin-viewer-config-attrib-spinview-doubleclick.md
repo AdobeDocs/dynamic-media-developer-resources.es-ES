@@ -19,8 +19,8 @@ ht-degree: 3%
 <table id="table_E314540D347D47699C04EB80D20C0721"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> none|zoom|reset|zoomReset </span> </p> </td> 
-   <td colname="col2"> <p> Configura la asignación del doble clic/toque para las acciones de giro. Estableciendo en <span class="codeph"> ninguno </span> deshabilita los giros de doble clic o toque. Si se establece en <span class="codeph"> zoom </span>, al hacer clic en la imagen, se gira en un paso de giro; CTRL y clic gira un paso de giro. Estableciendo en <span class="codeph"> restablecer </span> hace que un solo clic en la imagen restablezca el giro al nivel inicial. Para <span class="codeph"> zoomReset </span>, se aplica reset si el factor de giro actual está en el límite especificado o por encima de él; de lo contrario, se aplica spin. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ninguno|zoom|reset|zoomReset </span> </p> </td> 
+   <td colname="col2"> <p> Configura la asignación del doble clic/toque para las acciones de giro. Si se establece en <span class="codeph"> none </span>, se deshabilita el giro de doble clic/toque. Si se establece en <span class="codeph"> zoom </span>, al hacer clic en la imagen, se gira en un paso de giro; CTRL y clic gira un paso de giro. Si se establece en <span class="codeph">, restablecer </span>, con un solo clic en la imagen se restablecerá el giro al nivel inicial de giro. Para <span class="codeph"> zoomReset </span>, se aplica reset si el factor de giro actual está en el límite especificado o por encima de este; de lo contrario, se aplica el giro. </p> </td> 
   </tr> 
  </tbody> 
 </table>

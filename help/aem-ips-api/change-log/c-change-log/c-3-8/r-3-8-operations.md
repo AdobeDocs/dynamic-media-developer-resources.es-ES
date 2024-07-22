@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 8f4fe698-afe8-4ce6-904d-42fa67dee4dd
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: '62'
 ht-degree: 1%
 
 ---
@@ -32,8 +32,8 @@ Sintaxis
 
 **searchAssets**
 
-* El opcional `publishState` El parámetro permite buscar en `MarkedForPublish/NotMarkedForPublish` estado del recurso.
+* El parámetro opcional `publishState` le permite buscar en el estado del recurso `MarkedForPublish/NotMarkedForPublish`.
 
 **getJobLogs**
 
-* El opcional `userHandle` El parámetro permite recuperar los registros de trabajos enviados por un usuario específico.
+* El parámetro opcional `userHandle` le permite recuperar los registros de trabajo enviados por un usuario específico.

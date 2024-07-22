@@ -7,7 +7,7 @@ exl-id: e73eab03-fbda-435c-be3c-98781f8630a5
 source-git-commit: 6ec990016827895e136d41f3ae1e87ffd826647e
 workflow-type: tm+mt
 source-wordcount: '54'
-ht-degree: 12%
+ht-degree: 9%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 12%
 
 >[!IMPORTANT]
 >
->El Adobe va a dejar de ofrecer asistencia para `ExcludeMasterVideoFromAVS` parámetro 1 de septiembre de 2022. Consulte también [Llamadas obsoletas](/help/aem-ips-api/c-deprecated-calls.md).
+>El Adobe va a finalizar la compatibilidad con el parámetro `ExcludeMasterVideoFromAVS` el 1 de septiembre de 2022. Consulte también [llamadas obsoletas](/help/aem-ips-api/c-deprecated-calls.md).
 
 Excluye el vídeo principal del conjunto de vídeos adaptables.
 
@@ -35,7 +35,7 @@ Sintaxis
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> true|false</span> </td> 
+   <td colname="col1"> <span class="codeph"> verdadero|falso</span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>Excluye el archivo de vídeo principal del conjunto de vídeos adaptables. </p> <p>El valor predeterminado es True. </p> </td> 
   </tr> 

@@ -28,7 +28,7 @@ El comando, o el material, o ambos, se especifican después de este comando de s
   <td class="stentry"> <p>Seleccione un grupo de viñetas u objeto por ubicación de píxeles. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-decal.md#reference-3a5f1adc7fe24c91aa5655d64038e857" type="reference" format="dita" scope="local"> etiqueta</a></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-decal.md#reference-3a5f1adc7fe24c91aa5655d64038e857" type="reference" format="dita" scope="local"> calcomanía</a></span> </p></td> 
   <td class="stentry"> <p>Seleccione el área de calcomanía del objeto seleccionado. </p></td> 
  </tr> 
  <tr class="strow"> 

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: fd0e94dc-34ce-4fc1-8d52-f8647c8312b8
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 1%
+source-wordcount: '249'
+ht-degree: 0%
 
 ---
 
@@ -43,7 +43,7 @@ Utilice los siguientes comandos para aplicar formato de texto avanzado.
   <tr> 
    <td> <span class="codeph"> \kerningoptical </span> </td> 
    <td> <p>Seleccione kerning óptico. </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> solo. </p> </td> 
+   <td> <p> <span class="codeph"> textPs= </span> solamente. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \kerningmetric </span> </td> 
@@ -68,7 +68,7 @@ Utilice los siguientes comandos para aplicar formato de texto avanzado.
   <tr> 
    <td> <span class="codeph"> \charscaley <span class="varname"> N </span> </span> </td> 
    <td> <p>Escala de caracteres vertical. </p> </td> 
-   <td> <p>Porcentaje positivo o negativo; el valor predeterminado es 100; extensión de Dynamic Media. </p> <p> <span class="codeph"> \charscaley </span> también adapta el interlineado cuando se aplica con <span class="codeph"> text= </span>. <span class="codeph"> textPs= </span> conserva siempre el interlineado independientemente de la escala vertical de caracteres. </p> </td> 
+   <td> <p>Porcentaje positivo o negativo; el valor predeterminado es 100; extensión de Dynamic Media. </p> <p> <span class="codeph"> \charscaley </span> también escala el interlineado al aplicar <span class="codeph"> text= </span>. <span class="codeph"> textPs= </span> conserva siempre el interlineado independientemente de la escala vertical de caracteres. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \ltrch </span> </td> 
@@ -78,27 +78,27 @@ Utilice los siguientes comandos para aplicar formato de texto avanzado.
   <tr> 
    <td> <span class="codeph"> \rtlch </span> </td> 
    <td> <p>Seleccione el flujo de caracteres de derecha a izquierda. </p> </td> 
-   <td> <p> <span class="codeph"> text= </span> solo. </p> </td> 
+   <td> <p> <span class="codeph"> text= </span> solamente. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \copyfit <span class="varname"> N </span> </span> </td> 
    <td> <p>Active el ajuste de copia y defina el tamaño de fuente más grande permitido. </p> </td> 
-   <td> <p>Tamaño de la fuente en medios puntos; <span class="codeph"> textPs= </span> solo; extensión de Dynamic Media. </p> </td> 
+   <td> <p>Tamaño de fuente en medios puntos; <span class="codeph"> textPs= </span> solamente; extensión de Dynamic Media. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \copyfitlines <span class="varname"> N </span> </span> </td> 
    <td> <p>Máximo de líneas de ajuste de copia (límite suave). </p> </td> 
-   <td> <p>0 para la ausencia de límites de línea; <span class="codeph"> textPs= </span> solo; extensión de Dynamic Media. </p> </td> 
+   <td> <p>0 para ninguna limitación de línea; <span class="codeph"> textPs= </span> solamente; extensión de Dynamic Media. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \copyfitmaxlines <span class="varname"> N </span> </span> </td> 
    <td> <p>Máximo de líneas de ajuste de copia (truncado). </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> solo; extensión de Dynamic Media. </p> </td> 
+   <td> <p> <span class="codeph"> textPs= </span> solamente; extensión de Dynamic Media. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \baselinedir <span class="varname"> N </span> </span> </td> 
    <td> <p>Orientación de caracteres. </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> sólo; omitido para fuentes no romanas; omitido cuando <span class="codeph"> \stextflow1 </span> no está en vigor. </p> <p>0 vertical (valor predeterminado). </p> <p>1 girado 90 grados a la derecha. </p> </td> 
+   <td> <p> <span class="codeph"> textPs= </span> solamente; omitido para fuentes no romanas; omitido cuando <span class="codeph"> \stextflow1 </span> no está en vigor. </p> <p>0 vertical (valor predeterminado). </p> <p>1 girado 90 grados a la derecha. </p> </td> 
   </tr> 
  </tbody> 
 </table>

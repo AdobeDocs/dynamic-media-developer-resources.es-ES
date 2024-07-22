@@ -8,7 +8,7 @@ exl-id: 18e1ee40-fe34-435a-be97-849b08618d48
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -34,7 +34,7 @@ Estos comandos son independientes de la posición y pueden producirse en cualqui
   <td class="stentry"> <p>Escalar la imagen procesada a la altura especificada. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-wid.md#reference-b7e691b0624941168c94b2749ae233ec" type="reference" format="dita" scope="local"> enredar</a></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-wid.md#reference-b7e691b0624941168c94b2749ae233ec" type="reference" format="dita" scope="local"> ancho</a></span> </p></td> 
   <td class="stentry"> <p>Escalar la imagen procesada al ancho especificado. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -46,7 +46,7 @@ Estos comandos son independientes de la posición y pueden producirse en cualqui
   <td class="stentry"> <p>Modo de remuestreo para el escalado final de la imagen. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharpen.md#reference-13034d22d176483cb99ccafc2a4f6a6e" type="reference" format="dita" scope="local"> afilar</a></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharpen.md#reference-13034d22d176483cb99ccafc2a4f6a6e" type="reference" format="dita" scope="local"> enfoque</a></span> </p></td> 
   <td class="stentry"> <p>Enfoque de imagen de respuesta. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -66,7 +66,7 @@ Estos comandos son independientes de la posición y pueden producirse en cualqui
   <td class="stentry"> <p>Viñeta. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-cache.md#reference-a83329ce7c914ee4b518b0bda71f0438" type="reference" format="dita" scope="local"> escondrijo</a></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-cache.md#reference-a83329ce7c914ee4b518b0bda71f0438" type="reference" format="dita" scope="local"> caché</a></span> </p> </td> 
   <td class="stentry"> <p>Anule el comportamiento predeterminado de almacenamiento en caché de respuestas. </p></td> 
  </tr> 
 </table>

@@ -22,7 +22,7 @@ Los campos siguientes se reconocen en los ficheros de definición de macros.
   <td class="stentry"> <p>Nombre de la macro (clave de índice). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-macro-definition-reference/r-definition-macro.md" type="reference" format="dita" scope="local"> Definición</a></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-macro-definition-reference/r-definition-macro.md" type="reference" format="dita" scope="local"> definición</a></span> </p></td> 
   <td class="stentry"> <p>Definición de macro. </p></td> 
  </tr> 
 </table>

@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo </span> </span> </p> </td> 
-   <td colname="col2"> <p> { <span class="codeph"> Objeto </span>} objeto JSON con datos de localización. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-namespace.md#concept-679bfabb3e3e4c12a285c4e9c4144153" format="dita" scope="local"> Espacio de nombres del SDK de visor </a> para obtener más información. </p> <p>Consulte la <i>Guía del usuario de Viewer SDK</i> y el ejemplo para obtener más información sobre el contenido del objeto. Opcional. </p> </td> 
+   <td colname="col2"> <p> Objeto <span class="codeph"> </span> objeto JSON de {} con datos de localización. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-namespace.md#concept-679bfabb3e3e4c12a285c4e9c4144153" format="dita" scope="local"> espacio de nombres del SDK de visor </a> para obtener más información. </p> <p>Consulte la <i>Guía de usuario del SDK de visor</i> y el ejemplo para obtener más información sobre el contenido del objeto. Opcional. </p> </td> 
   </tr> 
  </tbody> 
 </table>

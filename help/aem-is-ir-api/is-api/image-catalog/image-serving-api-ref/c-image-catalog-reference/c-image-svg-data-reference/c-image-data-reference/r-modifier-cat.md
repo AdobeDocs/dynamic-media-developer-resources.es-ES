@@ -18,9 +18,9 @@ Cadena de modificador de solicitud de prefijo. Ninguno o más comandos del servi
 
 Se utiliza para modificar imágenes de forma persistente y almacenar el cuerpo de las plantillas.
 
-Los comandos de este campo se sustituyen por los mismos comandos de la solicitud o plantilla desde la que se hace referencia a este registro, y por comandos de `catalog::PostModifier`
+Los comandos de este campo son reemplazados por los mismos comandos de la solicitud o plantilla desde la que se hace referencia a este registro, y por comandos de `catalog::PostModifier`
 
-Se permiten macros en `catalog::Modifier`, siempre que se definan en el mismo catálogo o en el catálogo predeterminado. También se pueden utilizar variables personalizadas.
+Las macros están permitidas en `catalog::Modifier`, siempre y cuando se definan en el mismo catálogo o en el catálogo predeterminado. También se pueden utilizar variables personalizadas.
 
 ## Propiedades {#section-6674388f77d644469371a17e8809c45f}
 

@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 36866dc8-6a16-4445-942f-d0ea3c168272
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 8%
+source-wordcount: '259'
+ht-degree: 7%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 8%
 
 Vacía los recursos de la papelera IPS.
 
-Los recursos permanecen en la papelera hasta que se eliminan manualmente o hasta que se agota el tiempo de espera de la papelera. Si se vacían manualmente, se almacenan en la papelera hasta el siguiente trabajo de limpieza (normalmente todas las noches) cuando finalmente se eliminan del sistema. Si se agota el tiempo de espera de la papelera, los recursos se limpian como parte de esa misma actividad de limpieza. El tiempo de espera es configurable (el valor predeterminado es de 7 días).
+Assets vive en la papelera hasta que se vacía manualmente o hasta que se agota el tiempo de espera de la papelera. Si se vacían manualmente, se almacenan en la papelera hasta el siguiente trabajo de limpieza (normalmente todas las noches) cuando finalmente se eliminan del sistema. Si se agota el tiempo de espera de la papelera, los recursos se limpian como parte de esa misma actividad de limpieza. El tiempo de espera es configurable (el valor predeterminado es de 7 días).
 
 ## Tipos de usuarios autorizados {#section-24dee2bf5f9f4714a64955c80f2803b4}
 
@@ -50,7 +50,7 @@ Los recursos permanecen en la papelera hasta que se eliminan manualmente o hasta
 
 Este ejemplo de código utiliza el identificador de la empresa y una matriz de identificadores de recursos que contiene los identificadores de los recursos que se van a eliminar de la papelera.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <emptyAssetsFromTrashParam xmlns="http://www.scene7.com/IpsApi/xsd/2023-01-15">

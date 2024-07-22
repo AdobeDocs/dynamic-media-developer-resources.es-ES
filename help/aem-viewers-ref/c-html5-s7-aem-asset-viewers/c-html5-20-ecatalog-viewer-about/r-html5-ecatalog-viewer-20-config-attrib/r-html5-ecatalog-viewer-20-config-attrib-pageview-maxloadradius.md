@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 02925e09-f1ab-4afb-a900-d216efd323fe
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '69'
 ht-degree: 4%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p>Especifica el comportamiento de carga previa del componente. </p> <p>Cuando se establece en <span class="codeph"> -1</span> el componente carga de forma previa todos los fotogramas de catálogo cuando está en espera. </p> <p> Cuando se establece en <span class="codeph"> 0</span> el componente solo carga el marco que está visible actualmente, el anterior y el siguiente. </p> <p>Establecer <span class="codeph"><span class="varname"> preloadnbr</span></span> para definir cuántos fotogramas invisibles alrededor del fotograma mostrado actualmente se cargan previamente en estado inactivo. </p> </td> 
+   <td colname="col2"> <p>Especifica el comportamiento de carga previa del componente. </p> <p>Cuando se establece en <span class="codeph"> -1</span>, el componente carga de forma previa todos los fotogramas de catálogo cuando esté en espera. </p> <p> Cuando se establece en <span class="codeph"> 0</span>, el componente solo carga el fotograma que está visible actualmente, el fotograma anterior y el fotograma siguiente. </p> <p>Establezca <span class="codeph"><span class="varname"> preloadnbr</span></span> para definir la cantidad de fotogramas invisibles alrededor del fotograma mostrado actualmente que se cargan en estado de reposo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

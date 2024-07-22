@@ -14,7 +14,7 @@ ht-degree: 6%
 
 # Resolución{#resolution}
 
-Resolución predeterminada. Proporciona una resolución predeterminada en el caso de que un registro de catálogo determinado no contenga un `catalog::Resolution` valor.
+Resolución predeterminada. Proporciona una resolución predeterminada en el caso de que un registro de catálogo determinado no contenga un valor `catalog::Resolution` válido.
 
 ## Propiedades {#section-06d519158b9f479896f945747c670736}
 
@@ -22,8 +22,8 @@ Número real, mayor que `0`. Normalmente se expresa como píxeles por pulgada, p
 
 ## Predeterminado {#section-eea922c37c224e1dbcab3bc53ee13aca}
 
-Heredado de `default::Resolution` si no se define o si está vacío.
+Se hereda de `default::Resolution` si no se ha definido o está vacío.
 
 ## Véase también {#section-fa286e5440f04d0aa07c7326cc0d72f1}
 
-[catalog::Resolution](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-resolution-dataref.md#reference-6a2d64c2d72b438fade58a3391569da7) , [res=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-res.md#reference-0ad9de8887144c83a6db97b4994f7c04)
+[catálogo::Resolución](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-resolution-dataref.md#reference-6a2d64c2d72b438fade58a3391569da7) , [res=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-res.md#reference-0ad9de8887144c83a6db97b4994f7c04)

@@ -8,7 +8,7 @@ exl-id: 8419d68d-7579-4e62-abbd-7dc0a736ae23
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '121'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -21,11 +21,11 @@ Archivo de viñeta. Especifica la viñeta que se va a utilizar para la solicitud
 <table id="simpletable_432EC5501CA3431B83A762C3EE4E8DD2"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p> </td> 
-  <td class="stentry"> <p>ID de catálogo de materiales (confrontado con <span class="codeph"> attribute::RootId</span>). </p></td> 
+  <td class="stentry"> <p>Id. de catálogo de materiales (coincidente con <span class="codeph"> atributo::RootId</span>). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> recId</span> </p></td> 
-  <td class="stentry"> <p>ID de viñeta (coincidente con <span class="codeph"> viñeta::Id</span>). </p></td> 
+  <td class="stentry"> <p>ID de viñeta (coincidió con <span class="codeph"> viñeta::Id</span>). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> archivo</span> </p></td> 
@@ -35,9 +35,9 @@ Archivo de viñeta. Especifica la viñeta que se va a utilizar para la solicitud
 
 Puede especificar una entrada de mapa de viñetas o un archivo de viñetas. No se permiten direcciones URL remotas.
 
-`vignette=` Se puede utilizar como alternativa para especificar la viñeta en la ruta de URL de la solicitud. Se utiliza para especificar viñetas mediante variables en las plantillas.
+`vignette=` se puede usar como alternativa para especificar la viñeta en la ruta de la dirección URL de la solicitud. Se utiliza para especificar viñetas mediante variables en las plantillas.
 
-If *`catId`* no se ha especificado, se utiliza el catálogo de sesiones.
+Si no se especifica *`catId`*, se utilizará el catálogo de sesiones.
 
 ## Propiedades {#section-f58661fc78d7496e8e3d0fb98b945c4b}
 

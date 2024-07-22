@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 2168d72a-1f2b-4833-9e6e-ba3d2ddb6d2b
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 6%
+source-wordcount: '68'
+ht-degree: 5%
 
 ---
 
@@ -24,7 +24,7 @@ Número entero mayor que 0. Se expresa en puntos por pulgada. Opcional.
 
 ## Predeterminado {#section-0cac992554ec4247ab05f70d9840a045}
 
-`attribute::PrintResolution` se utiliza si el campo no está presente, si el valor es 0 o si el campo está vacío.
+`attribute::PrintResolution` se usa si el campo no está presente, si el valor es 0 o si el campo está vacío.
 
 ## Véase también {#section-0593faefffe341c5ab8a4aa5da589a04}
 

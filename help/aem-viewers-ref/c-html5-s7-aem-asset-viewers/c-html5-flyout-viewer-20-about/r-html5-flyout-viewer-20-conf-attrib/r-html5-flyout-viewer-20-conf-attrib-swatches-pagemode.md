@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 6d6aa024-2a31-4119-8bb3-feb02d838941
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 6%
+source-wordcount: '64'
+ht-degree: 4%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 6%
 <table id="table_52306D2150BC4EE2BD4CE4C718E96CC0"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
    <td colname="col2"> <p> Cuando se alternan, los botones de desplazamiento hacen que las muestras pasen automáticamente a una longitud de pantalla completa. </p> <p>Se muestra espacio en blanco adicional en la última página si las muestras no caben. Además, la última página tiene el mismo número de celdas que cualquier página anterior. </p> <p>El paso de desplazamiento se omite y el desplazamiento del ratón solo se fija en páginas completas. </p> </td> 
   </tr> 
  </tbody> 

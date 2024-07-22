@@ -20,11 +20,11 @@ Si se especifica, el servidor aplica la marca de agua a los datos de imagen soli
 
 ## Propiedades {#section-fad6ffff4c5f4b5c8010281bc1377055}
 
-Cadena de texto. Si se especifica, debe ser un válido `Catalog::Id` valor en este catálogo de imágenes (o en el catálogo predeterminado, si se especifica en [!DNL default.ini]).
+Cadena de texto. Si se especifica, debe ser un valor `Catalog::Id` válido en este catálogo de imágenes (o en el catálogo predeterminado, si se especifica en [!DNL default.ini]).
 
 ## Predeterminado {#section-f8a2029b5b8740b2af149bdbfa28fbae}
 
-Heredado de `default::Watermark` si no está definido. Si se define pero está vacío, no se aplica ninguna marca de agua a este catálogo de imágenes, aunque `default::Watermark` está definida.
+Se hereda de `default::Watermark` si no se define. Si se define pero está vacío, no se aplica ninguna marca de agua a este catálogo de imágenes, aunque se defina `default::Watermark`.
 
 ## Véase también {#section-f15dbe31013849828d78588742dde58e}
 

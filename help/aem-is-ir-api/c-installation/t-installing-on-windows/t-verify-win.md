@@ -18,12 +18,12 @@ Después de instalar el servicio de imágenes de Dynamic Media, debe comprobar l
 
 El servidor de imágenes está instalado como servicio de Windows.
 
-1. Abra el Panel de control de Campaign Servicios y compruebe que `Dynamic Media Image Serving` tiene un estado de `Started`.
+1. Abra el Panel de control de Campaign Servicios y compruebe que `Dynamic Media Image Serving` se encuentra presente con el estado `Started`.
 1. Abra un explorador de Internet en el mismo host o en otro distinto y compruebe las respuestas predeterminadas del servidor:
 
    `http:// server:port /is/image`
 
 [!DNL  http:// *[!DNL server:port]*/ir/render]
 
-Compruebe la presencia de &quot; `imageServer.`&quot; elementos en la respuesta, que indican que el servidor de imágenes está escuchando.
+Compruebe la presencia de &quot;`imageServer.`&quot; elementos en la respuesta, lo que indica que el servidor de imágenes está escuchando.
 >Se puede realizar una verificación adicional utilizando las páginas de muestra de los paquetes de documentación y demostración, si están instalados.

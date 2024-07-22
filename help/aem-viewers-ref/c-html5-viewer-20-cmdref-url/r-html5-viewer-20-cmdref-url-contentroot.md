@@ -22,7 +22,7 @@ Parámetro común a todos los visualizadores.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> contentUrlPath</span> </span> </p> </td> 
-   <td colname="col2"> <p>Especifica la ruta base a los archivos CSS personalizados, cualquier contenido de subtítulos o contenido de navegación. </p> <p>Si la ruta no tiene un interlineado <span class="filepath"> /</span>, es relativa a la ubicación de la página del HTML del visor. Si la ruta tiene un interlineado <span class="filepath"> /</span>, especifica una ruta absoluta en el mismo servidor. </p> <p> No afecta a la carga del archivo CSS predeterminado cuando no se especifica un comando de estilo. </p> </td> 
+   <td colname="col2"> <p>Especifica la ruta base a los archivos CSS personalizados, cualquier contenido de subtítulos o contenido de navegación. </p> <p>Si la ruta de acceso no tiene un <span class="filepath"> /</span> a la izquierda, es relativa a la ubicación de la página del HTML del visor. Si la ruta de acceso tiene un <span class="filepath"> /</span> a la izquierda, especifica una ruta de acceso absoluta en el mismo servidor. </p> <p> No afecta a la carga del archivo CSS predeterminado cuando no se especifica un comando de estilo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

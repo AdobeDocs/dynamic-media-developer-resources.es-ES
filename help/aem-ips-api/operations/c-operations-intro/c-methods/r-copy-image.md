@@ -8,7 +8,7 @@ exl-id: 059ebbca-2341-444b-850a-1ec9582692ec
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 22%
+ht-degree: 12%
 
 ---
 
@@ -60,7 +60,7 @@ Sintaxis
    <td colname="col4"> <p>El identificador de la carpeta donde se copiará la imagen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> name</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> nombre</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sí </p> </td> 
    <td colname="col4"> <p>Nombre de la nueva imagen. </p> </td> 
@@ -99,7 +99,7 @@ Sintaxis
 
 El código de ejemplo copia una imagen especificada por la compañía, el recurso, el identificador de carpeta y el nombre.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <copyImageParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

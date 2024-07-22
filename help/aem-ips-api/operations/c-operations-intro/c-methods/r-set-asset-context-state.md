@@ -8,7 +8,7 @@ exl-id: 28d0a67b-3e36-43fc-800d-17c841dca3a0
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '158'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -54,7 +54,7 @@ Establezca o actualice el estado de publicación para uno o varios recursos. Pue
 
 Este ejemplo de código establece el estado de publicación de un recurso mediante `NotMarkedForPublish`.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <setAssetsContextStateParam xmlns="http://www.scene7.com/IpsApi/xsd/2011-11-04">

@@ -40,7 +40,7 @@ Sintaxis
   <td class="stentry"> <p>Modo de bloqueo de solicitud. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-watermark.md#reference-942b50acb2dd43a5ae498dc41ea9ac9b" type="reference" format="dita" scope="local"> Filigrana</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-watermark.md#reference-942b50acb2dd43a5ae498dc41ea9ac9b" type="reference" format="dita" scope="local"> marca de agua</a> </span> </p></td> 
   <td class="stentry"> <p>Selector de plantilla de filigrana. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -52,7 +52,7 @@ Sintaxis
   <td class="stentry"> <p>Detalle del mensaje de error. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-trusteddomains.md#reference-563bd5c54f914d9abcd2304ab292e12f" type="reference" format="dita" scope="local"> TrustedDomains</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-trusteddomains.md#reference-563bd5c54f914d9abcd2304ab292e12f" type="reference" format="dita" scope="local"> dominios de confianza</a> </span> </p></td> 
   <td class="stentry"> <p>Dominios web con permiso para acceder a imágenes de respuesta SWF. </p></td> 
  </tr> 
  <tr class="strow"> 

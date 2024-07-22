@@ -8,7 +8,7 @@ exl-id: aed39e73-f528-4c26-8f62-c3d796e9101a
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 13%
 
 Crea una cuenta de usuario y la agrega a una o varias empresas.
 
-Cuando agregue un usuario a varias empresas, especifique las empresas por sus identificadores de empresa en `companyHandleArray`. Esta operación devuelve el identificador al usuario que acaba de agregar.
+Cuando agregue un usuario a varias empresas, especifique esas empresas por sus identificadores de empresa en `companyHandleArray`. Esta operación devuelve el identificador al usuario que acaba de agregar.
 
 ## Tipos de usuarios autorizados {#section-126ad42f844444fea11ecf8ad01fe1ec}
 
@@ -34,7 +34,7 @@ Cuando agregue un usuario a varias empresas, especifique las empresas por sus id
 | firstName | `xsd:string` | Sí | El nombre del usuario. |
 | lastName | `xsd:string` | Sí | El apellido del usuario. |
 | correo electrónico | `xsd:string` | Sí | La dirección de correo electrónico del usuario. |
-| defaultRole | `xsd:string` | Sí | Establece la función de un usuario en cada compañía a la que pertenece. Sin embargo, tenga en cuenta que `IpsAdmin` la función anula otras configuraciones por empresa. |
+| defaultRole | `xsd:string` | Sí | Establece la función de un usuario en cada compañía a la que pertenece. Sin embargo, tenga en cuenta que el rol `IpsAdmin` anula otras configuraciones por compañía. |
 | contraseña | `xsd:string` | Sí | Establece la contraseña del usuario |
 | passwordExpires | `xsd:dateTime` | No | Establece el período de caducidad de la contraseña. Proporcione la zona horaria al pasar la solicitud. Las zonas horarias se ajustan a la Hora central. |
 | isValid | `xsd:boolean` | Sí | Determina si el usuario es válido. |
@@ -50,7 +50,7 @@ Cuando agregue un usuario a varias empresas, especifique las empresas por sus id
 
 La API de IPS devuelve un elemento de identificador de usuario que especifica el nuevo usuario.
 
-**Solicitar**
+**Solicitud**
 
 ```java {.line-numbers}
 <ns1:addUserParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

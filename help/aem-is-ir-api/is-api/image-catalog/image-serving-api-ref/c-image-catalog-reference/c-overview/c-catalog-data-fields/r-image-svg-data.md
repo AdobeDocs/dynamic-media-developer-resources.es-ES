@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 5392e08f-3614-4588-8846-4262d32f3ce1
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 3%
+source-wordcount: '114'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +36,7 @@ Los campos siguientes se reconocen en los archivos de datos de imagen y SVG.
    <td colname="col2"> <p>Información específica de imagen para la incrustación de Digimarc. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-expiration-cat.md#reference-a7afd668ecbb4d2da65d86259aa6a28a" type="reference" format="dita" scope="local"> Caducidad</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-expiration-cat.md#reference-a7afd668ecbb4d2da65d86259aa6a28a" type="reference" format="dita" scope="local"> Vencimiento</a></span> </p> </td> 
    <td colname="col2"> <p>Caducidad de la caché (tiempo de vida) para imágenes de respuesta. </p> </td> 
   </tr> 
   <tr> 
@@ -59,7 +59,7 @@ Los campos siguientes se reconocen en los archivos de datos de imagen y SVG.
 <table id="table_F2A33C2EB17A4EACB00DDEF7FB1BB0D4"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-anchor-cat.md" type="reference" format="dita" scope="local"> Anclaje</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-anchor-cat.md" type="reference" format="dita" scope="local"> delimitador</a></span> </p> </td> 
    <td colname="col2"> <p>Punto de anclaje de imagen. </p> </td> 
   </tr> 
   <tr> 
@@ -67,7 +67,7 @@ Los campos siguientes se reconocen en los archivos de datos de imagen y SVG.
    <td colname="col2"> <p>Ruta del archivo de máscara. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md" type="reference" format="dita" scope="local"> Ruta</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md" type="reference" format="dita" scope="local"> ruta</a></span> </p> </td> 
    <td colname="col2"> <p>Ruta del archivo de imagen/SVG. </p> </td> 
   </tr> 
   <tr> 
@@ -109,7 +109,7 @@ Los campos siguientes se reconocen en los archivos de datos de imagen y SVG.
    <td colname="col2"> <p>Tipo de recurso. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md" type="reference" format="dita" scope="local"> ImageSet</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md" type="reference" format="dita" scope="local"> conjunto de imágenes</a></span> </p> </td> 
    <td colname="col2"> <p>Datos del conjunto de imágenes. </p> </td> 
   </tr> 
   <tr> 
@@ -117,11 +117,11 @@ Los campos siguientes se reconocen en los archivos de datos de imagen y SVG.
    <td colname="col2"> <p>Datos de mapa de imagen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-targets-cat.md" type="reference" format="dita" scope="local"> Objetivos</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-targets-cat.md" type="reference" format="dita" scope="local"> Destinos</a></span> </p> </td> 
    <td colname="col2"> <p>Datos de destino de zoom. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md" type="reference" format="dita" scope="local"> UserData</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md" type="reference" format="dita" scope="local"> Datos de usuario</a></span> </p> </td> 
    <td colname="col2"> <p>Datos definidos por el usuario. </p> </td> 
   </tr> 
  </tbody> 

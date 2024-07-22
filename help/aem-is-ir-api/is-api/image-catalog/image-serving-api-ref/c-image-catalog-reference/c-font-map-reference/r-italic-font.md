@@ -8,7 +8,7 @@ exl-id: 46575243-4472-44fe-89ce-30d9c875c7d2
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '44'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 13%
 
 Indicador de cursiva.
 
-Especifica si el archivo de fuentes al que hace referencia este registro de mapa de fuentes debe utilizarse cuando lo solicita la cursiva RTF ( `\i`), comando.
+Especifica si el archivo de fuente al que hace referencia este registro de mapa de fuentes debe usarse cuando lo solicite el comando RTF italics ( `\i`).
 
 ## Propiedades {#section-607e76490e87418496d1c6763018a14f}
 

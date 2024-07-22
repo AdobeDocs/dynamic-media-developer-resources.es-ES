@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 1d7e9eba-b30c-4f85-b551-6842f73dc22c
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '892'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Determinado contenido que muestra el visor de catálogos electrónicos está sujeto a la localización, incluidos los botones de zoom, los botones de cambio de página, el botón de miniaturas, el botón de pantalla completa, el botón de cierre y los botones de la barra de desplazamiento.
 
-Cada contenido textual del visualizador que se puede localizar se representa mediante un identificador especial del SDK del visualizador llamado SYMBOL. Cualquier SYMBOL tiene un valor de texto asociado por defecto para la configuración regional en inglés ( `"en"`) se suministra con el visor predeterminado y también puede tener valores definidos por el usuario para tantas configuraciones regionales como sea necesario.
+Cada contenido textual del visualizador que se puede localizar se representa mediante un identificador especial del SDK del visualizador llamado SYMBOL. Cualquier SYMBOL tiene un valor de texto asociado predeterminado para la configuración regional en inglés (`"en"`) que se proporciona con el visor predeterminado, y también puede tener valores definidos por el usuario para tantas configuraciones regionales como sea necesario.
 
 Cuando se inicia el visor, comprueba la configuración regional actual para ver si hay un valor definido por el usuario para cada SYMBOL admitido en la configuración regional. Si existe, utiliza el valor definido por el usuario; de lo contrario, vuelve al texto predeterminado predeterminado.
 
@@ -40,7 +40,7 @@ defaultLocale:"en"
 
 En el ejemplo anterior, el objeto de localización define dos configuraciones regionales ( `"en"` y `"fr"`) y proporciona localización para dos elementos de interfaz de usuario en cada configuración regional.
 
-El código de la página web debe pasar dicho objeto de localización al constructor del visor como un valor de `localizedTexts` del objeto de configuración. Una opción alternativa es pasar el objeto de localización llamando a `setLocalizedTexts(localizationInfo)` método.
+El código de la página web debe pasar dicho objeto de localización al constructor del visor como un valor del campo `localizedTexts` del objeto de configuración. Una opción alternativa es pasar el objeto de localización llamando al método `setLocalizedTexts(localizationInfo)`.
 
 Se admiten los siguientes SYMBOL (suponiendo que containerId es el ID del contenedor del visor):
 
@@ -97,35 +97,35 @@ Se admiten los siguientes SYMBOL (suponiendo que containerId es el ID del conten
    <td colname="col2"> <p>Botón de desplazamiento hacia abajo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_rightButton.PanRightButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_rightButton.PanRightButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Botón grande de página siguiente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_leftButton.PanLeftButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_leftButton.PanLeftButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Botón grande de la página anterior. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_lastPageButton.PanRightButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_lastPageButton.PanRightButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Botón Última página. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_secondaryLastPageButton.PanRightButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_secondaryLastPageButton.PanRightButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Botón Última página. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_firstPageButton.PanLeftButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_firstPageButton.PanLeftButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Botón Primera página. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_secondaryFirstPageButton.PanLeftButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_secondaryFirstPageButton.PanLeftButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Botón Primera página. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_toolBarRightButton.PanRightButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_toolBarRightButton.PanRightButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Botón Página siguiente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_toolBarLeftButton.PanLeftButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_toolBarLeftButton.PanLeftButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Botón Página anterior. </p> </td> 
   </tr> 
   <tr> 
@@ -145,7 +145,7 @@ Se admiten los siguientes SYMBOL (suponiendo que containerId es el ID del conten
    <td colname="col2"> <p>Botón Cerrar del panel de información. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SocialShare.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">: SocialShare.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Herramienta Compartir en redes sociales. </p> </td> 
   </tr> 
   <tr> 
@@ -201,7 +201,7 @@ Se admiten los siguientes SYMBOL (suponiendo que containerId es el ID del conten
    <td colname="col2"> <p>Pie de ilustración para el botón Seleccionar todo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP_ACTION </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">: EmbedShare.TOOLTIP_ACTION </span> </p> </td> 
    <td colname="col2"> <p>Botón Seleccionar todo. </p> </td> 
   </tr> 
   <tr> 
@@ -229,7 +229,7 @@ Se admiten los siguientes SYMBOL (suponiendo que containerId es el ID del conten
    <td colname="col2"> <p>Mensaje de error que se muestra cuando el correo electrónico no se ha enviado correctamente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">: EmbedShare.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Botón Compartir incrustado. </p> </td> 
   </tr> 
   <tr> 
@@ -394,7 +394,7 @@ Se admiten los siguientes SYMBOL (suponiendo que containerId es el ID del conten
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_XX[_YY] </span> </p> </td> 
-   <td colname="col2"> <p>Etiqueta de página que genera el visor en el momento de la carga. </p> <p>El nombre de ese símbolo es una plantilla, donde <span class="codeph"> XX </span> es un índice de pliego basado en cero con orientación horizontal y opcional <span class="codeph"> YY </span> es un índice de página basado en cero dentro del pliego al que se dirige <span class="codeph"> XX </span>. </p> <p>Solo se aplica al recurso cargado inicialmente; se ignora si se cambia un recurso mediante <span class="codeph"> setAsset() </span> Llamada de API. </p> </td> 
+   <td colname="col2"> <p>Etiqueta de página que genera el visor en el momento de la carga. </p> <p>El nombre de ese símbolo es una plantilla, donde <span class="codeph"> XX </span> es un índice de pliego basado en cero con orientación horizontal y <span class="codeph"> YY </span> opcional es un índice de página basado en cero dentro del pliego al que se dirige <span class="codeph"> XX </span>. </p> <p>Solo se aplica al recurso cargado inicialmente; se omite si se cambia un recurso mediante la llamada de API setAsset() <span class="codeph"> </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_DELIM </span> </p> </td> 

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: dfb44ed5-5f4f-4a2c-a3b4-d49502556399
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 10%
+source-wordcount: '68'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,7 @@ Atributo de configuración para el visor de Video360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|playPause</span> </p> </td> 
-   <td colname="col2"> <p> Configura la asignación del clic/toque en la activación o desactivación de reproducción/pausa. Estableciendo en <span class="codeph"> ninguno</span> deshabilita el clic/toque en la reproducción/pausa. Si se establece en <span class="codeph"> playPause</span>A continuación, al seleccionar el vídeo, se alterna entre reproducir y pausar. En algunos dispositivos, puede utilizar controles nativos. En este caso, una <span class="codeph"> de un solo clic</span> el comportamiento está desactivado. </p> </td> 
+   <td colname="col2"> <p> Configura la asignación del clic/toque en la activación o desactivación de reproducción/pausa. Si se establece en <span class="codeph"> none</span>, se deshabilita el clic/toque en la reproducción/pausa. Si se establece en <span class="codeph"> playPause</span>, al seleccionar el vídeo se alternará entre reproducir y pausar. En algunos dispositivos, puede utilizar controles nativos. En este caso, se deshabilita un comportamiento <span class="codeph"> singleclick</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

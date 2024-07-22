@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 7acd50b2-5c0c-492e-b5a8-105dc027ebcc
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 2%
+source-wordcount: '106'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ Las siguientes combinaciones de material y objeto admiten opacidad variable:
 * Materiales de revestimiento de ventanas aplicados a objetos de marco de revestimiento de ventanas.
 * Calcomanías aplicadas a objetos de textura u objetos de pared.
 
-Si el material incluye una imagen con un canal alfa, `opac=` puede utilizarse para hacer que la imagen sea más transparente, pero no más opaca.
+Si el material incluye una imagen con un canal alfa, `opac=` se puede usar para hacer la imagen más transparente, pero no más opaca.
 
 ## Propiedades {#section-352f7b82ede54159b6afb90ae4b559ec}
 

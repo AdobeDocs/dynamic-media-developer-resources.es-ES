@@ -16,7 +16,7 @@ ht-degree: 4%
 
 Ruta del archivo de imagen.
 
-Ruta relativa o absoluta y nombre del archivo de imagen de origen asociado a este registro de catálogo. El servidor utiliza las reglas de resolución de rutas descritas en Administración de datos de origen para encontrar el archivo de datos.
+Ruta relativa o absoluta y nombre del archivo de imagen de origen asociado a este registro de catálogo. El servidor utiliza las reglas de resolución de rutas descritas en Administración de datos de Source para encontrar el archivo de datos.
 
 ## Propiedades {#path-properties}
 
@@ -34,6 +34,6 @@ Ninguno.
 
 ## Véase también {#path-seealso}
 
-[Utilidad IC](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md) , [attribute::RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md) , [attribute::DefaultExt](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultext.md) , [src=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md)
+[IC Utility](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md) , [attribute::RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md) , [attribute::DefaultExt](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultext.md) , [src=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md)
 
 <!-- [attribute::LowerCasePaths]() -->

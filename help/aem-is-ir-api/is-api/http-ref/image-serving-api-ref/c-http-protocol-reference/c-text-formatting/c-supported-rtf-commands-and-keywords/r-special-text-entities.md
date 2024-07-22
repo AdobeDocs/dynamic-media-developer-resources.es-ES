@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 3798dd83-897a-441c-a7c4-ef7325b20f16
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 4%
+source-wordcount: '66'
+ht-degree: 3%
 
 ---
 
@@ -31,7 +31,7 @@ Utilice las siguientes entidades especiales al dar formato al texto.
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \línea </span> </td> 
+   <td> <span class="codeph"> \line </span> </td> 
    <td> <p>Salto de línea. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
@@ -41,7 +41,7 @@ Utilice las siguientes entidades especiales al dar formato al texto.
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;llave; </span> </td> 
+   <td> <span class="codeph"> &amp;lbrace; </span> </td> 
    <td> <p>Llave rizada abierta. </p> </td> 
    <td> <p>La llave debe tener codificación HTTP. </p> </td> 
   </tr> 
@@ -53,17 +53,17 @@ Utilice las siguientes entidades especiales al dar formato al texto.
   <tr> 
    <td> <span class="codeph"> \~ </span> </td> 
    <td> <p>Espacio de no separación. </p> </td> 
-   <td> <p><span class="codeph"> textPs=</span> solo. </p> </td> 
+   <td> <p>Solo <span class="codeph"> textPs=</span>. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \_</span> </td> 
    <td> <p>Guión sin saltos. </p> </td> 
-   <td> <p><span class="codeph"> textPs=</span> solo. </p> </td> 
+   <td> <p>Solo <span class="codeph"> textPs=</span>. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \- </span> </td> 
    <td> <p>Guión opcional. </p> </td> 
-   <td> <p><span class="codeph"> textPs=</span> solo. </p> </td> 
+   <td> <p>Solo <span class="codeph"> textPs=</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

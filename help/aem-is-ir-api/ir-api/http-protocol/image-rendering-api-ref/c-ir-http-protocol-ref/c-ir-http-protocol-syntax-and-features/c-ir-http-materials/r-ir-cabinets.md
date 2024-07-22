@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: cdb3ed5e-c396-483d-aea0-2b3f24efe56e
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 4%
+source-wordcount: '159'
+ht-degree: 3%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 Los materiales de los archivadores especifican un archivo de estilo de archivador (extensión de archivo .vnc), un archivo de datos especial que contiene representaciones fotográficas de los archivadores junto con definiciones de diseño paramétrico y otra información necesaria para procesar los frentes de los archivadores.
 
-[!DNL vnc] los ficheros pueden incluir una textura de grano de madera repetible, o la textura puede proporcionarse externamente mediante un segundo argumento a `src=`. Cierto [!DNL vnc] los archivos permiten colorear o texturar áreas seleccionadas de los frentes del archivador (normalmente se utiliza para estilos de archivador laminado).
+[!DNL vnc] archivos pueden incluir una textura de grano de madera repetible o la textura se puede proporcionar externamente mediante un segundo argumento de `src=`. Algunos archivos [!DNL vnc] permiten colorear o texturar áreas seleccionadas de los frentes del archivador (generalmente se utilizan para estilos de archivador laminado).
 
 Los materiales de gabinete solo se pueden aplicar a objetos de gabinete.
 
@@ -42,7 +42,7 @@ Los materiales de gabinete solo se pueden aplicar a objetos de gabinete.
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-res.md#reference-0ad9de8887144c83a6db97b4994f7c04" type="reference" format="dita" scope="local"> <span class="codeph"> res= </span> </a> </p> </td> 
    <td colname="col2"> <p>Resolución de textura opcional. </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> attribute::Resolution </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> atributo::Resolution </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa" type="reference" format="dita" scope="local"> <span class="codeph"> color= </span> </a> </p> </td> 
@@ -55,7 +55,7 @@ Los materiales de gabinete solo se pueden aplicar a objetos de gabinete.
    <td colname="col3"> <p>0 (sin enfoque) </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-flags.md#reference-3a4844f0f21346d79e6508aaad9a9ac9" type="reference" format="dita" scope="local"> <span class="codeph"> flags= </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-flags.md#reference-3a4844f0f21346d79e6508aaad9a9ac9" type="reference" format="dita" scope="local"> <span class="codeph"> marcadores= </span> </a> </p> </td> 
    <td colname="col2"> <p>Indicadores de procesamiento especiales. </p> </td> 
    <td colname="col3"> <p>0 (sin indicadores) </p> </td> 
   </tr> 

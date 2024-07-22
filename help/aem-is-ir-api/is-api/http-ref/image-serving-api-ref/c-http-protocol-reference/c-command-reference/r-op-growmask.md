@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 322d97af-bb1b-44bb-90f1-cda9984b78b5
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '103'
 ht-degree: 2%
 
 ---
@@ -29,11 +29,11 @@ Se utiliza principalmente para aumentar o reducir ligeramente una máscara para 
 
 ## Propiedades {#section-b1c66d65168d4ea695e8662ea690bd4e}
 
-Se aplica a la capa actual o a la capa `0` if `layer=comp`.
+Se aplica a la capa actual o a la capa `0` si `layer=comp`.
 
 ## Predeterminado {#section-14c908bb87cb42acbea709effea2f964}
 
-`op_growMask=0`, para no cambiarlo.
+`op_growMask=0`, sin ningún cambio.
 
 ## Véase también {#section-ad3e5cecfc3448a38ea06093e015c88a}
 

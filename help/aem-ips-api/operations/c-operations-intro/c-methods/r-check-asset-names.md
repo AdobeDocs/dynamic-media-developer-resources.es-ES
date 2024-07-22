@@ -8,7 +8,7 @@ exl-id: 0756c4fc-64ec-4022-a6aa-fcf1542b41b0
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '116'
-ht-degree: 12%
+ht-degree: 11%
 
 ---
 
@@ -48,7 +48,7 @@ Sintaxis
 
 Este código de ejemplo solicita los nombres de recurso en uso para una compañía especificada. La respuesta devuelve una matriz de nombres de recursos que están en uso.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <checkAssetNamesParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-09-10">

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 026c2fc5-0460-481c-aca9-ddd25371779c
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 4%
+source-wordcount: '125'
+ht-degree: 3%
 
 ---
 
@@ -19,17 +19,17 @@ ht-degree: 4%
 <table id="table_625D0EEDA21B46FEA3F5CF7DDF769B50"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> diapositiva|convertir|auto</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> diapositiva|turno|automático</span> </p> </td> 
    <td colname="col2"> <p> Especifica el tipo de efecto aplicado al cambio de fotograma. </p> <p> 
      <ul id="ul_4224B7C2722A4185A8BD48703D019AA1"> 
-      <li id="li_8482037F8E1C4F11A84DF51790A073FE"> <p><span class="codeph"> diapositiva</span> activa una transición en la que el fotograma antiguo se desliza fuera de la vista y el nuevo se desliza hacia la vista. </p> </li> 
-      <li id="li_CE9A99564DF348D0A76AB2A5945155A5"> <p><span class="codeph"> dar vuelta</span> activa un efecto de salto de página, cuando un usuario puede arrastrar una de las cuatro esquinas del pliego y realizar un giro de página interactivo. </p> <p>Cuándo <span class="codeph"> dar vuelta</span> se utiliza cuando el aspecto del componente se controla con la variable <span class="codeph"> pageturnstyle</span> y el modificador <span class="codeph"> .s7pagedivider</span> Se omite la clase CSS. </p> <p>Nota:  <p><span class="codeph"> dar vuelta</span> Motorola Xoom no admite la animación de. </p> </p> </li> 
-      <li id="li_79F85B0429CD4B389399FB3823FE767F"> <p> <span class="codeph"> auto</span> establece la transición de fotogramas de giro en sistemas de escritorio y la transición de diapositivas en dispositivos táctiles. </p> </li> 
+      <li id="li_8482037F8E1C4F11A84DF51790A073FE"> <p><span class="codeph"> diapositiva</span> activa una transición en la que el marco anterior se desliza fuera de la vista y el nuevo marco se desliza hacia la vista. </p> </li> 
+      <li id="li_CE9A99564DF348D0A76AB2A5945155A5"> <p><span class="codeph"> turno</span> habilita un efecto de voltear página, cuando un usuario puede arrastrar una de las cuatro esquinas del pliego y realizar un giro de página interactivo. </p> <p>Cuando se usa <span class="codeph"> turn</span>, el aspecto del componente se controla con el modificador <span class="codeph"> pageturnstyle</span> y se omite la clase CSS <span class="codeph"> .s7pagedivider</span>. </p> <p>Nota:  <p>La animación <span class="codeph"> turn</span> no es compatible con Motorola Xoom. </p> </p> </li> 
+      <li id="li_79F85B0429CD4B389399FB3823FE767F"> <p> <span class="codeph"> auto</span> establece la transición de fotogramas de giro en los sistemas de escritorio y la transición de diapositivas en los dispositivos táctiles. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> duración</span></span> </p> </td> 
-   <td colname="col2"> <p>Especifica la duración en segundos de una <span class="codeph"> diapositiva</span> o <span class="codeph"> dar vuelta</span> efecto de transición. </p> </td> 
+   <td colname="col2"> <p>Especifica la duración en segundos de un efecto de transición <span class="codeph"> diapositiva</span> o <span class="codeph"> turno</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

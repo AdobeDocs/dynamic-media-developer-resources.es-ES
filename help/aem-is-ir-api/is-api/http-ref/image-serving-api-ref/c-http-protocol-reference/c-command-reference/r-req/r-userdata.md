@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: b1d85ea6-0e12-49a8-b1dc-4c64a672770b
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 2%
+source-wordcount: '189'
+ht-degree: 0%
 
 ---
 
@@ -25,17 +25,17 @@ Datos de usuario del catálogo de imágenes. Devuelve los datos de usuario de la
  </tr> 
 </table>
 
-El contenido de `catalog::UserData` se devuelven. Cuando se especifica el formato &quot;texto&quot;, todas las instancias de `??` in `catalog::UserData`se sustituyen por terminadores de línea y se anexa un terminador de línea única (CR/LF) al final. Si la ruta URL no se resuelve en una entrada de catálogo válida, la respuesta consiste únicamente en un terminador de una sola línea. Se aplica el formato adecuado cuando se solicita el formato &quot;xml&quot; o &quot;json&quot;.
+Se devuelve el contenido de `catalog::UserData`. Cuando se especifica el formato &#39;text&#39;, todas las instancias de `??` en `catalog::UserData`se reemplazan por terminadores de línea y se anexa un terminador de una sola línea (CR/LF) al final. Si la ruta URL no se resuelve en una entrada de catálogo válida, la respuesta consiste únicamente en un terminador de una sola línea. Se aplica el formato adecuado cuando se solicita el formato &quot;xml&quot; o &quot;json&quot;.
 
 Se omiten otros comandos de la cadena de solicitud.
 
-La respuesta HTTP se puede almacenar en caché con el TTL en función de `catalog::Expiration`.
+La respuesta HTTP se puede almacenar en caché con el TTL basado en `catalog::Expiration`.
 
 >[!NOTE]
 >
 >No se permite el carácter de dos puntos en los nombres de clave de propiedad userdata.
 
-Las solicitudes compatibles con el formato de respuesta JSONP permiten especificar el nombre del controlador de devolución de llamada JS mediante la sintaxis extendida de `req=` parámetro:
+Las solicitudes compatibles con el formato de respuesta JSONP le permiten especificar el nombre del controlador de devolución de llamada JS mediante la sintaxis extendida del parámetro `req=`:
 
 `req=...,json [&handler = reqHandler ]`
 

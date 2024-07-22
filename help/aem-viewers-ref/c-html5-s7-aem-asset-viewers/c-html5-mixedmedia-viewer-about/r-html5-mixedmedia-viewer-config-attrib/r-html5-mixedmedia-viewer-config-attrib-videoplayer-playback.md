@@ -21,8 +21,8 @@ Atributo de configuración para el visualizador de vídeos de medios mixtos.
 <table id="table_27B4B2DDD44D4D1CB46DD1906A92B2FD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> auto|progresivo</span> </p> </td> 
-   <td colname="col2"> <p> Establece el tipo de reproducción que utiliza el visor. Cuándo <span class="codeph"> auto</span> está configurado; en la mayoría de los navegadores de escritorio y en todos los dispositivos iOS, el visor utiliza flujo de vídeo HTML5 en formato HLS. Vuelve a la reproducción progresiva de HTML 5 en ciertos sistemas como el antiguo Internet Explorer y Android™. </p> <p>If <span class="codeph"> progresista</span> se especifica, el visor solo utiliza la reproducción de HTML 5 admitida de forma nativa por los navegadores y reproduce vídeo de forma progresiva en todos los sistemas. </p> <p>Para obtener más información sobre la selección de reproducción en los modos automático y progresivo, consulte la Guía del usuario de Viewer SDK. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> automático|progresivo</span> </p> </td> 
+   <td colname="col2"> <p> Establece el tipo de reproducción que utiliza el visor. Cuando se establece <span class="codeph"> auto</span>, en la mayoría de los navegadores de escritorio y en todos los dispositivos iOS, el visor usa flujo de vídeo HTML5 en formato HLS. Vuelve a la reproducción progresiva de HTML 5 en ciertos sistemas como el antiguo Internet Explorer y Android™. </p> <p>Si se especifica <span class="codeph"> progressive</span>, el visor solo depende de la reproducción de HTML 5, ya que los exploradores la admiten de forma nativa, y reproduce el vídeo de forma progresiva en todos los sistemas. </p> <p>Para obtener más información sobre la selección de reproducción en los modos automático y progresivo, consulte la Guía del usuario de Viewer SDK. </p> </td> 
   </tr> 
  </tbody> 
 </table>

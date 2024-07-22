@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # Visores para AEM Assets y Dynamic Media Classic{#viewers-for-aem-assets-and-dynamic-media-classic}
 
-Los siguientes visores funcionan en Adobe Experience Manager Assets y también en Dynamic Media Classic.
+Los siguientes visualizadores funcionan con Adobe Experience Manager Assets y también con Dynamic Media Classic.
 
 * [Zoom básico](c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-about.md)
 * [Catálogo electrónico](c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-about.md)

@@ -8,7 +8,7 @@ exl-id: 228b4228-8c42-4e42-9fb1-d6aea61b9c4a
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '190'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 Crea una imagen con capas que puede tener varias capas de texto e imagen.
 
-El `urlModifier` especifica los comandos de protocolo del servidor de imágenes almacenados en el catálogo del servidor de imágenes aplicado antes de cualquier comando proporcionado por el usuario en la dirección URL. El `urlPostApplyModifier` especifica los comandos de protocolo aplicados después de los comandos de URL, que anulan cualquier configuración proporcionada por el usuario que esté en conflicto.
+El parámetro `urlModifier` especifica los comandos de protocolo del servidor de imágenes almacenados en el catálogo del servidor de imágenes aplicado antes de cualquier comando proporcionado por el usuario en la dirección URL. El parámetro `urlPostApplyModifier` especifica los comandos de protocolo aplicados después de cualquier comando de URL, lo que anula cualquier configuración proporcionada por el usuario que esté en conflicto.
 
 ## Tipos de usuarios autorizados {#section-9fb615d8e75f452eab2893cc3decfbe6}
 
@@ -47,9 +47,9 @@ El `urlModifier` especifica los comandos de protocolo del servidor de imágenes 
 
 ## Ejemplos {#section-09adb4d2f0c944af875c4463a461f55d}
 
-Este ejemplo de código crea una plantilla en una carpeta especificada por un identificador, con un nombre de `APIcreateTemplate`, a `urlModifier`, y a `urlPostApplyModifier`. La respuesta devuelve el identificador a la plantilla recién creada.
+Este ejemplo de código crea una plantilla en una carpeta especificada por un identificador, con el nombre `APIcreateTemplate`, `urlModifier` y `urlPostApplyModifier`. La respuesta devuelve el identificador a la plantilla recién creada.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <createTemplateParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

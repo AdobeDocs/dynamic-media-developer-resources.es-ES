@@ -8,7 +8,7 @@ exl-id: bd717c08-6da4-47f1-8614-e4ba79d8176c
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 11%
+ht-degree: 9%
 
 ---
 
@@ -42,7 +42,7 @@ La API de IPS no devuelve una respuesta para esta operación.
 
 Este ejemplo de código elimina un formato de imagen de una empresa. Obtenga el controlador de formato de imagen de otra operación.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <deleteImageFormatParam xmlns="http://www.scene7.com/IpsApi/xsd">

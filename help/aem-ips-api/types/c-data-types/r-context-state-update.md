@@ -20,7 +20,7 @@ Sintaxis
 
 ## Parámetros {#section-9f747df071854c6896fdbb95684ad947}
 
-Definir el estado del contexto de publicación de un recurso con `setAssetsContextState`.
+Establecer el estado del contexto de publicación de un recurso con `setAssetsContextState`.
 
 <table id="table_FD172CEA4EFE44E08ADA22D090DC06CA">
  <thead>
@@ -51,5 +51,4 @@ Definir el estado del contexto de publicación de un recurso con `setAssetsConte
 
 >[!MORELIKETHIS]
 >
->* [Estado de publicación](../../string-constants/c-string-constants/r-publish-state.md#reference-a9d80231514b4272b39d10c1a7aadca8)
-
+>* [Estado de Publish](../../string-constants/c-string-constants/r-publish-state.md#reference-a9d80231514b4272b39d10c1a7aadca8)

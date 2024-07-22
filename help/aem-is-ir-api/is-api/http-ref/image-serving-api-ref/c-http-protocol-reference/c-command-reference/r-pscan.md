@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 1afd3a60-e0b6-47d1-b7e4-98a3145782a2
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '181'
 ht-degree: 2%
 
 ---
@@ -20,9 +20,9 @@ Análisis progresivo del JPEG. El JPEG progresivo muestra una imagen de tal mane
 
 La velocidad real de cada análisis depende de la velocidad de transmisión del sistema del usuario y del equipo que recibe y descomprime los datos.
 
-`Auto` utiliza la configuración de escaneo calculada por la biblioteca de JPEG independiente y depende del modelo de color. Los valores de `3`, `4`, `5` corresponde a la configuración Análisis que se encuentra en Adobe Photoshop al guardar un archivo de JPEG como pjpeg (JPEG progresivo).
+`Auto` utiliza la configuración de digitalización calculada por la biblioteca de JPEG independiente y depende del modelo de color. Los valores de `3`, `4`, `5` corresponden a la configuración de análisis encontrada en Adobe Photoshop al guardar un archivo de JPEG como pjpeg (JPEG progresivo).
 
-If `pscan` no se ha definido, el valor predeterminado es `auto`.
+Si `pscan` no está establecido, el valor predeterminado es `auto`.
 
 ## Propiedades {#section-e36aa3c63a974b969d9e4f43fe5a37ab}
 

@@ -18,4 +18,4 @@ El procesamiento de imágenes permite incrustar solicitudes de servicio de imág
 
 Estos mecanismos no son compatibles con los materiales de revestimiento de armarios y ventanas.
 
-Consulte también [src=](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272) y Referencia del servicio de imágenes.
+Consulte también [src=](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272) y la referencia del servicio de imágenes.

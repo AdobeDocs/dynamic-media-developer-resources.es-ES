@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: fee22d02-172c-4f82-9b6c-e06db530f400
 source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 1%
+source-wordcount: '164'
+ht-degree: 0%
 
 ---
 
@@ -33,19 +33,19 @@ El aspecto del área de visualización se controla con el siguiente selector de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagen de fondo </span> </p> </td> 
    <td colname="col2"> <p> Ilustración del indicador de zoom. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posición de fondo </span> </p> </td> 
    <td colname="col2"> <p> Coloque dentro del icono de ilustración si se utilizan iconos CSS. </p> <p>Consulte también <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ancho </span> </p> </td> 
    <td colname="col2"> <p>Ancho del indicador de zoom en píxeles. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p>Altura del indicador de zoom en píxeles. </p> </td> 
   </tr> 
  </tbody> 
@@ -53,7 +53,7 @@ El aspecto del área de visualización se controla con el siguiente selector de 
 
 >[!NOTE]
 >
->El efecto de icono admite `media-type` selector de atributos, que puede utilizar para aplicar diferentes efectos de icono en distintos dispositivos. En particular, `media-type='standard'` corresponde a los sistemas de sobremesa en los que se utiliza normalmente la entrada de ratón y `media-type='multitouch'` corresponde a dispositivos con entrada táctil.
+>El efecto de icono es compatible con el selector de atributos `media-type`, que puede utilizar para aplicar distintos efectos de icono en distintos dispositivos. En particular, `media-type='standard'` corresponde a sistemas de escritorio donde la entrada del ratón se utiliza normalmente y `media-type='multitouch'` corresponde a dispositivos con entrada táctil.
 
 Ejemplo: configurar un indicador de zoom de 100 x 100 píxeles con diferentes ilustraciones para sistemas de escritorio y dispositivos táctiles.
 

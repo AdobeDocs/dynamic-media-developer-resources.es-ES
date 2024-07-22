@@ -18,9 +18,9 @@ Referencia de la API de JavaScript para el visor de giros.
 
 `init()`
 
-Inicia la inicialización del visor de giros. En este momento, el contenedor `DOM` debe crearse para que el código del visor pueda encontrarlo por su ID.
+Inicia la inicialización del visor de giros. Para este momento, se debe crear el elemento contenedor `DOM` para que el código de visor pueda encontrarlo por su ID.
 
-Si el elemento contenedor aún no forma parte del diseño de la página web (por ejemplo, puede ocultarse) utilizando `display:none` estilo: el visualizador suspende el proceso de inicialización. Se suspende hasta el momento en que la página web devuelve el elemento contenedor al diseño, momento en el que la carga del visualizador se reanuda automáticamente.
+Si el elemento contenedor aún no forma parte del diseño de la página web (por ejemplo, si se oculta con el estilo `display:none`), el visor suspende el proceso de inicialización. Se suspende hasta el momento en que la página web devuelve el elemento contenedor al diseño, momento en el que la carga del visualizador se reanuda automáticamente.
 
 Llame a este método solo una vez durante el ciclo de vida del visor; las llamadas posteriores se omiten.
 

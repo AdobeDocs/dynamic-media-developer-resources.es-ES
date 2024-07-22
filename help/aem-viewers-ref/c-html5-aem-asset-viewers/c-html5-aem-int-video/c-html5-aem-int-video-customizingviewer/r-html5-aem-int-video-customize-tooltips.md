@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 430809d8-3d51-49b7-b6bf-c3c3c77501ff
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 3%
+source-wordcount: '139'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ En sistemas de escritorio, algunos elementos de la interfaz de usuario, como los
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propiedades CSS del área del visor principal**
+**Propiedades CSS del área de visor principal**
 
 El aspecto de la información del objeto se controla con el siguiente selector de clase CSS:
 
@@ -35,15 +35,15 @@ El aspecto de la información del objeto se controla con el siguiente selector d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> borde-radio </span> </p> </td> 
    <td colname="col2"> <p> Radio de borde de fondo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color de borde </span> </p> </td> 
    <td colname="col2"> <p> Color de borde de fondo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color de fondo </span> </p> </td> 
    <td colname="col2"> <p> Color de fondo. </p> </td> 
   </tr> 
   <tr> 
@@ -55,7 +55,7 @@ El aspecto de la información del objeto se controla con el siguiente selector d
    <td colname="col2"> <p>Nombre de fuente del texto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamaño de fuente </span> </p> </td> 
    <td colname="col2"> <p>Tamaño de fuente del texto. </p> </td> 
   </tr> 
  </tbody> 
@@ -63,7 +63,7 @@ El aspecto de la información del objeto se controla con el siguiente selector d
 
 >[!NOTE]
 >
->Si los estilos de la información sobre herramientas se personalizan desde la página web en la que se incorpora, todas las propiedades deben contener el `!IMPORTANT` regla. Esta nota no es necesaria si la información del objeto se personaliza en el archivo CSS del visor.
+>Si los estilos de información de objeto se personalizan desde la página web en la que se incorpora, todas las propiedades deben contener la regla `!IMPORTANT`. Esta nota no es necesaria si la información del objeto se personaliza en el archivo CSS del visor.
 
 ## Ejemplo {#section-59e009fd05b14019936aba04d7ca779d}
 

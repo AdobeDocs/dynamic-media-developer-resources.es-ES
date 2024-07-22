@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: aec8463f-f72a-4203-89ab-8a4f0ad9d6f9
 source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 23%
+source-wordcount: '227'
+ht-degree: 16%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 23%
 
 Los valores de comando deben estar codificados en http mediante secuencias de escape %xx, de forma que las cadenas de valor no incluyan los caracteres reservados &quot;=&quot;, &quot;&amp;&quot; y &quot;%&quot;.
 
-De lo contrario, se aplican reglas de codificación HTTP estándar. La especificación HTTP requiere la codificación de los caracteres no seguros, así como de cualquier carácter de control, como `<return>` y `<tab>`. La codificación URL de un carácter consiste en un símbolo &quot;%&quot;, seguido de la representación hexadecimal de dos dígitos (sin distinción de mayúsculas y minúsculas) del punto de código ISO-latino del carácter. Los caracteres no seguros y los puntos de código son:
+De lo contrario, se aplican reglas de codificación HTTP estándar. La especificación HTTP requiere la codificación de los caracteres no seguros, así como cualquier carácter de control, como `<return>` y `<tab>`. La codificación URL de un carácter consiste en un símbolo &quot;%&quot;, seguido de la representación hexadecimal de dos dígitos (sin distinción de mayúsculas y minúsculas) del punto de código ISO-latino del carácter. Los caracteres no seguros y los puntos de código son:
 
 <table id="table_D2C01CADB35E477D82D4C27586424625"> 
  <thead> 
@@ -58,7 +58,7 @@ De lo contrario, se aplican reglas de codificación HTTP estándar. La especific
    <td colname="col3"> <p>37 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&amp;llave; </p> </td> 
+   <td colname="col1"> <p>&amp;lbrace; </p> </td> 
    <td colname="col2"> <p>7B </p> </td> 
    <td colname="col3"> <p>123 </p> </td> 
   </tr> 
@@ -94,7 +94,7 @@ De lo contrario, se aplican reglas de codificación HTTP estándar. La especific
   </tr> 
   <tr> 
    <td colname="col1"> <p>&amp;brack; </p> </td> 
-   <td colname="col2"> <p>5D </p> </td> 
+   <td colname="col2"> <p>5P </p> </td> 
    <td colname="col3"> <p>93 </p> </td> 
   </tr> 
   <tr> 
@@ -183,4 +183,4 @@ Si se aplica la ofuscación, la codificación se puede limitar a eliminar los ca
 
 ## Véase también {#section-295476ec34c74973962d07dfa9eb2180}
 
-[Confusión de solicitud](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d), [Especificación HTTP/1.1 (RFC 2616)](https://www.w3.org/Protocols/rfc2616/rfc2616.html)
+[Confusión de solicitud](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d), [especificación HTTP/1.1 (RFC 2616)](https://www.w3.org/Protocols/rfc2616/rfc2616.html)

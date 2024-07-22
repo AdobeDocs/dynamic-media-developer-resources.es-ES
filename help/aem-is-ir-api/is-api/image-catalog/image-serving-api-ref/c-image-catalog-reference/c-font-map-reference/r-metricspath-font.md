@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 0f1f98a5-b53b-4e20-b4c8-e70482b01a04
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '107'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ Se utiliza para fuentes de Adobe Type 1. Si no se especifica, el servidor intent
 
 ## Propiedades {#section-955268c581574875b05253d9e14544f3}
 
-Cadena de texto. Opcional para archivos de Adobe Type 1. Debe ser una ruta de archivo vacía o válida del servidor de imágenes, absoluta o relativa a `attribute::RootPath`.
+Cadena de texto. Opcional para archivos de Adobe Type 1. Debe estar vacía o ser una ruta de archivo válida del servidor de imágenes, ya sea absoluta o relativa a `attribute::RootPath`.
 
 ## Predeterminado {#section-a6ffbd6879c642caa5a2fd4ed14a3a85}
 

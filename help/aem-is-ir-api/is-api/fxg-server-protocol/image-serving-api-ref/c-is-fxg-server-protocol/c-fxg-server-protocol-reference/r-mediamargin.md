@@ -18,4 +18,4 @@ Establezca el margen de medios. Establece el margen de medios definido en el arc
 
 ` mediaMargin=[ *[!DNL top]*[, *[!DNL left]*= *[!DNL top]*[, *[!DNL bottom]*= *[!DNL top]*[, *[!DNL right]*= *[!DNL left]*]]]]` en puntos
 
-De forma predeterminada, la variable `mediaMargin` se establece en el tamaño completo del documento definido por `viewWidth` y `viewHeight`. El *[!DNL left]*, *[!DNL bottom]*, y *[!DNL right]* Los valores predeterminados son *[!DNL top]* valor si no se especifica.
+De manera predeterminada, `mediaMargin` está establecido en el tamaño completo del documento definido por `viewWidth` y `viewHeight`. Los valores *[!DNL left]*, *[!DNL bottom]* y *[!DNL right]* tienen de manera predeterminada el valor *[!DNL top]* si no se especifican.

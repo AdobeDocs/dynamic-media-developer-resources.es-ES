@@ -8,7 +8,7 @@ exl-id: d38dd1e2-668e-4956-b854-54bf466d6d45
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '90'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -38,7 +38,7 @@ Sintaxis
 | companyHandle | `xsd:string` | Sí | El identificador de la compañía a la que pertenece el trabajo. |
 | jobHandle | `xsd:string` | Sí | El identificador del trabajo que se va a eliminar. |
 
-**Output**
+**Salida**
 
 La API de IPS no devuelve una respuesta para esta operación.
 
@@ -46,7 +46,7 @@ La API de IPS no devuelve una respuesta para esta operación.
 
 Este ejemplo de código elimina un trabajo que se está ejecutando o que está programado para ejecutarse en IPS. Requiere un identificador de trabajo, que debe obtener de otra operación.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <deleteJobParam xmlns="http://www.scene7.com/IpsApi/xsd">

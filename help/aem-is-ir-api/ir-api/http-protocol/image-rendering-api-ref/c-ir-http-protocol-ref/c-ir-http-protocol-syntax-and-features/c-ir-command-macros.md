@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 00f6d27e-9f6b-4eea-8f42-833fbc0f1c38
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 1%
+source-wordcount: '232'
+ht-degree: 0%
 
 ---
 
@@ -24,9 +24,9 @@ Las macros se definen en ficheros de definición de macros independientes, que p
 
 *[!DNL name]* no distingue entre mayúsculas y minúsculas y puede constar de cualquier combinación de letras ASCII, números , &#39;-&#39;, &#39;_&#39; y &#39;.&#39; caracteres.
 
-Invocar macros en cualquier lugar de una solicitud después de &quot;?&quot; o en cualquier lugar dentro de un `vignette::Modifier` field. Las macros solo pueden representar uno o más comandos de procesamiento de imágenes y deben separarse de otros comandos con separadores &quot;&amp;&quot;.
+Invocar macros desde cualquier lugar de una solicitud después de &quot;?&quot; o desde cualquier lugar dentro de un campo de `vignette::Modifier`. Las macros solo pueden representar uno o más comandos de procesamiento de imágenes y deben separarse de otros comandos con separadores &quot;&amp;&quot;.
 
-Las invocaciones a macros se sustituyen por sus cadenas de sustitución al principio del análisis. Los comandos dentro de las macros anulan los mismos comandos de la solicitud si se producen antes de la invocación de la macro en la solicitud. Este flujo de trabajo es diferente al siguiente `vignette::Modifier`, donde los comandos de la cadena de solicitud anulan los comandos de `vignette::Modifier` cadena, independientemente de la posición en la solicitud.
+Las invocaciones a macros se sustituyen por sus cadenas de sustitución al principio del análisis. Los comandos dentro de las macros anulan los mismos comandos de la solicitud si se producen antes de la invocación de la macro en la solicitud. Este flujo de trabajo es diferente de `vignette::Modifier`, donde los comandos de la cadena de solicitud anulan los comandos de la cadena `vignette::Modifier`, independientemente de la posición en la solicitud.
 
 Las macros de comandos no pueden tener valores de argumento, pero se pueden utilizar variables personalizadas para pasar valores de la solicitud a la macro.
 
@@ -46,10 +46,10 @@ La macro se usaría de la siguiente manera:
 
 `http://server/ir/render/cat/vig0?$mat=matc&$render$ http://server/ir/render/cat/vig0?$mat=matc&$render$ http://server/ir/render/cat/vig0?$mat=matc&$render$&qlt=95`
 
-Porque `qlt=` es diferente para la tercera solicitud, el software anula el valor después de invocar la macro (especificando `qlt=` *antes* `$render$`es ineficaz).
+Dado que `qlt=` es diferente para la tercera solicitud, el software anula el valor después de invocar la macro (especificando `qlt=` *antes* `$render$`no es eficaz).
 
-**Véase también**
+**Ver también**
 
-`catalog::MacroFile`, `catalog::Modifier`, Referencia de definición de macro
+`catalog::MacroFile`, `catalog::Modifier`, referencia de definición de macro
 
 <!--<a id="section_297B7FCB285F4891AA76DF8393089931"></a>-->

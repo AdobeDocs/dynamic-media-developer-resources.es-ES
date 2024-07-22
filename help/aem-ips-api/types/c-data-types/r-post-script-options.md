@@ -1,5 +1,5 @@
 ---
-description: Opciones de archivo PostScript.
+description: Opciones de archivo de PostScript.
 solution: Experience Manager
 title: PostScriptOptions
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # [!DNL PostScriptOptions]{#postscriptoptions}
 
-Opciones de archivo PostScript.
+Opciones de archivo de PostScript.
 
 Sintaxis
 
@@ -22,7 +22,7 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| proceso | `xsd:string` | Opción de proceso PostScript. |
+| proceso | `xsd:string` | Elección de proceso de PostScript. |
 | resolution | `xsd:double` | Resolución de archivos. |
 | espacio de color | `xsd:string` | Modo de espacio de color PostScript. |
 | alfa | `xsd:boolean` | Si se rasteriza el archivo en una imagen. Si es así, crea un fondo transparente si el archivo original si se define de esta manera. Generalmente se utiliza para crear logotipos superpuestos. |

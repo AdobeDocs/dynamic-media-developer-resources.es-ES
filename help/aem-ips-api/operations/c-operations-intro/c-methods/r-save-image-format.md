@@ -8,7 +8,7 @@ exl-id: cafbd715-237b-4454-920e-643f0c84e208
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '146'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -18,7 +18,7 @@ Crea un formato de imagen.
 
 >[!NOTE]
 >
->El `urlModifier` el valor del campo debe constar de XML válido. Por ejemplo, cambie `&` hasta `&`. Obtenga la `urlModfier` de la interfaz de usuario de IPS.
+>El valor del campo `urlModifier` debe constar de XML válido. Por ejemplo, cambie `&` a `&`. Obtenga el valor `urlModfier` de la interfaz de usuario de IPS.
 
 ## Tipos de usuarios autorizados {#section-12c9d8d5933f4692bafb194060b4f882}
 
@@ -48,7 +48,7 @@ Crea un formato de imagen.
 
 Este ejemplo de código crea un formato de imagen. En este ejemplo, `urlModifier` se determinó por su valor en la interfaz de usuario de IPS con un formato de HTML válido.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <saveImageFormatParam xmlns="http://www.scene7.com/IpsApi/xsd"> 

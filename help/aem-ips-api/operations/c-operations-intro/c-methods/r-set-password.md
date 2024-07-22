@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: e8d95b55-0a97-4887-b711-7be99833c389
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 8%
+source-wordcount: '236'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,7 @@ La fecha de caducidad de la contraseña es opcional. Si se omite, la contraseña
 
 >[!NOTE]
 >
->*Solo* el `IpsAdmin` El tipo de usuario está autorizado para ejecutar llamadas setPassword contra otros usuarios.
+>*Solo* el tipo de usuario `IpsAdmin` tiene autorización para ejecutar llamadas setPassword contra otros usuarios.
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -65,9 +65,9 @@ La fecha de caducidad de la contraseña es opcional. Si se omite, la contraseña
       <li id="li_C21B6843EA734D1ABE0580185F775408">La contraseña debe contener uno o más caracteres de las siguientes clases: 
        <ul id="ul_D5D3911AD6214035BBD2AB8350A459C7"> 
         <li id="li_6E3F084100104F2CBCF130EF8852C7B7">Caracteres ingleses en minúsculas. Por ejemplo, <span class="codeph"> a b c d e </span> y así sucesivamente </li> 
-        <li id="li_1FDED8D7348842BC857320D797D41217">Caracteres en inglés en mayúsculas. Por ejemplo, <span class="codeph"> A B C D E </span> y demás. </li> 
-        <li id="li_C3C4D5412AA749F3B78F37B2B696CF80">Números. Por ejemplo, <span class="codeph"> 1 2 3 4 5 </span> y demás. </li> 
-        <li id="li_2730798F26E74B878BEDE510CD06D8DD">Caracteres de símbolos especiales. Por ejemplo, puede utilizar cualquiera de las siguientes opciones: <span class="codeph"> &amp;grave; ~! @ # $ % ^ * ( ) _ + - = { } | [ ] y \ : " ; ' &lt; &gt; ? , . / </span> </li> 
+        <li id="li_1FDED8D7348842BC857320D797D41217">Caracteres en inglés en mayúsculas. Por ejemplo, <span class="codeph"> A B C D E </span>, etc. </li> 
+        <li id="li_C3C4D5412AA749F3B78F37B2B696CF80">Números. Por ejemplo, <span class="codeph"> 1 2 3 4 5 </span>, etc. </li> 
+        <li id="li_2730798F26E74B878BEDE510CD06D8DD">Caracteres de símbolos especiales. Por ejemplo, puede usar cualquiera de los siguientes: <span class="codeph"> &amp;grave; ~ ! @ # $ % ^ * ( ) _ + - = { } | [ ] y \ : " ; ' &lt; &gt; ? , . / </span> </li> 
        </ul> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -86,9 +86,9 @@ La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-23a6fbabdb3c4c3180076057e47ae567}
 
-Este ejemplo de código crea una contraseña de usuario. La contraseña nunca caduca porque `passwordExpires` se ha omitido.
+Este ejemplo de código crea una contraseña de usuario. La contraseña nunca caduca porque `passwordExpires` se omitió.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <ns1:setPasswordParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">  

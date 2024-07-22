@@ -8,7 +8,7 @@ exl-id: 9d075434-5ef0-4b6a-ad24-1ef9c57e3e47
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '69'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
@@ -18,11 +18,11 @@ Compensación de punto negro. Especifica si se debe aplicar la compensación de 
 
 ## Propiedades {#section-21fd20b16bea4a22aecab0ae8b81e332}
 
-Indicador. Configure como. `0` para deshabilitar o para `1` para habilitar la compensación de punto negro.
+Indicador. Se establece en `0` para deshabilitar o en `1` para habilitar la compensación de punto negro.
 
 ## Predeterminado {#section-5bc6703a43a149f18af88b70baae568f}
 
-Heredado de `default::IccBlackPointCompensation` si no se define o si está vacío.
+Se hereda de `default::IccBlackPointCompensation` si no se ha definido o está vacío.
 
 ## Véase también {#section-90fcbddf02c54846aa09f85fabc7b4d4}
 

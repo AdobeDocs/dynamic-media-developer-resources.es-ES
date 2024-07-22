@@ -8,7 +8,7 @@ exl-id: c03525e3-6bc4-4c6a-bb5b-b0cb2e6f6d0d
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '101'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -42,7 +42,7 @@ La API de IPS no devuelve una respuesta para esta operación.
 
 En este ejemplo se utiliza addGroupMembersParam para agregar un usuario a una sola compañía. La API de IPS no devuelve una respuesta para esta operación.
 
-**Solicitar**
+**Solicitud**
 
 ```java {.line-numbers}
 <ns1:addGroupMembersParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

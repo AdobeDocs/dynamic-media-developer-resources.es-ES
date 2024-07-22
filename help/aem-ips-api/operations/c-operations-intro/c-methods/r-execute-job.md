@@ -8,7 +8,7 @@ exl-id: 4b2a2a14-d785-43bd-b1fc-2812d9f21964
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '76'
-ht-degree: 21%
+ht-degree: 13%
 
 ---
 
@@ -66,7 +66,7 @@ La API de IPS no devuelve una respuesta para esta operación.
 
 Este ejemplo de código ejecuta un trabajo programado para ejecutarse en IPS.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <executeJobParam xmlns="http://www.scene7.com/IpsApi/xsd">

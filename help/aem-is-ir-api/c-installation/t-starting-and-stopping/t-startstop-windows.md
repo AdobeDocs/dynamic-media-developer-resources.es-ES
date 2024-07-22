@@ -1,6 +1,6 @@
 ---
 title: Iniciar o detener en Windows
-description: Existen varios mecanismos para iniciar o detener el servidor de imágenes y [!DNL Platform Server] en Windows
+description: Existen varios mecanismos para iniciar o detener Image Server y  [!DNL Platform Server] en Windows
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Iniciar o detener en Windows{#starting-or-stopping-on-windows}
 
-Existen varios mecanismos para iniciar o detener el servidor de imágenes y [!DNL Platform Server] en Windows.
+Existen varios mecanismos para iniciar o detener Image Server y [!DNL Platform Server] en Windows.
 
 1. Elija una de las siguientes opciones para iniciar o detener el servicio de imágenes:
 
-* El Panel de control de Campaign de servicio de Windows se puede usar para iniciar, detener, reiniciar y comprobar el estado del `Dynamic Media Image Serving` servicio.
-* **[!UICONTROL Menú Inicio]**> **[!UICONTROL Todos los programas]**> **[!UICONTROL Dynamic Media (Scene7)]**> **[!UICONTROL Servicio de imágenes]**> **[!UICONTROL Servicio de control]** proporciona comandos para Iniciar, Detener y Reiniciar `Dynamic Media Image Serving` servicio.
+* El Panel de control de Campaign de servicio de Windows se puede usar para iniciar, detener, reiniciar y comprobar el estado del servicio `Dynamic Media Image Serving`.
+* **[!UICONTROL Menú Inicio]**> **[!UICONTROL Todos los programas]**> **[!UICONTROL Dynamic Media (Scene7)]**> **[!UICONTROL Servicio de imágenes]**> **[!UICONTROL Servicio de control]** proporciona comandos para iniciar, detener y reiniciar el servicio `Dynamic Media Image Serving`.

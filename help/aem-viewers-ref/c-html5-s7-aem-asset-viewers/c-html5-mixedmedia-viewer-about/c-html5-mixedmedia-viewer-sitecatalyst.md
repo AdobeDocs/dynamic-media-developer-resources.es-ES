@@ -7,8 +7,8 @@ role: Developer,User,Data Engineer,Data Architect
 exl-id: 3b28c853-3747-4805-a141-3cce1398d783
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 5%
+source-wordcount: '187'
+ht-degree: 0%
 
 ---
 
@@ -18,13 +18,13 @@ El visualizador de medios mixtos admite el seguimiento de Adobe Analytics de for
 
 ## Seguimiento listo para usar. {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-El visualizador de medios mixtos admite [!DNL Adobe Analytics] seguimiento listo para usar. Para habilitar el seguimiento, pase el nombre del ajuste preestablecido de empresa adecuado como `config2` parámetro.
+El Visor de medios mixtos admite el seguimiento de [!DNL Adobe Analytics] de forma predeterminada. Para habilitar el seguimiento, pase el nombre del ajuste preestablecido de empresa adecuado como parámetro `config2`.
 
 El visor también envía una única solicitud HTTP de seguimiento al servidor de imágenes configurado con el tipo de visor y la información de versión.
 
 ## Seguimiento personalizado {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Para integrarse con sistemas de análisis de terceros, es necesario escuchar el `trackEvent` llamada de retorno del visor y procesar `eventInfo` de la función de llamada de retorno según sea necesario. El siguiente código es un ejemplo de esta función de controlador:
+Para integrarse con sistemas de análisis de terceros, es necesario escuchar la llamada de retorno del visor `trackEvent` y procesar el argumento `eventInfo` de la función de llamada de retorno según sea necesario. El siguiente código es un ejemplo de esta función de controlador:
 
 ```javascript {.line-numbers}
 var mixedMediaViewer = new s7viewers.MixedMediaViewer({ 
@@ -60,43 +60,43 @@ El visor realiza un seguimiento de los siguientes eventos de usuarios del SDK:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> CARGAR </span> </p> </td> 
    <td colname="col2"> <p>El visor se carga primero. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>se intercambia un recurso en el visor mediante <span class="codeph"> setAsset() </span> API. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> INTERCAMBIAR </span> </p> </td> 
+   <td colname="col2"> <p>se intercambia un recurso en el visor mediante la API setAsset() </span> de <span class="codeph">. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 
    <td colname="col2"> <p>se amplía una imagen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PAN </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PANORÁMICA </span> </p> </td> 
    <td colname="col2"> <p>se panorámica una imagen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SWATCH </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> MUESTRA </span> </p> </td> 
    <td colname="col2"> <p> para cambiar una imagen, toque o haga clic en una muestra. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> REPRODUCIR </span> </p> </td> 
    <td colname="col2"> <p>Se inicia la reproducción. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PAUSE </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PAUSAR </span> </p> </td> 
    <td colname="col2"> <p>la reproducción se detiene. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> STOP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> DETENER </span> </p> </td> 
    <td colname="col2"> <p>la reproducción se ha detenido. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> MILESTONE </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> HITO </span> </p> </td> 
    <td colname="col2"> <p>La reproducción de alcanza uno de los siguientes hitos: 0 %, 25 %, 50 %, 75 % y 100 %. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SPIN </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> GIRO </span> </p> </td> 
    <td colname="col2"> <p>se realiza el giro. </p> </td> 
   </tr> 
  </tbody> 

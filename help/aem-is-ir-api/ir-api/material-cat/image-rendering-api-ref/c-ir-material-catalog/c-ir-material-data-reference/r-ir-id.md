@@ -8,7 +8,7 @@ exl-id: 2525a9c9-8acb-45a4-b6d1-80d08f63f9f8
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
@@ -18,7 +18,7 @@ Identificador de registro de catálogo. Valor clave por el que el servidor de pr
 
 ## Propiedades {#section-9b20bf2545314620808b4210bce7afc9}
 
-Cadena de texto. Obligatorio. Cada `catalog::Id` el valor debe ser único dentro de este catálogo de materiales y no debe contener los caracteres &quot;,&quot;.
+Cadena de texto. Requerido. Cada valor `catalog::Id` debe ser único dentro de este catálogo de materiales y no debe contener los caracteres &quot;,&quot;.
 
 ## Predeterminado {#section-6a517046c43a40a7ba0af0212b5f31d2}
 

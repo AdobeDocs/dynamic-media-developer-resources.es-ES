@@ -8,7 +8,7 @@ exl-id: 5c0c8788-ffe5-4b42-86f6-6b4683dd7c21
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 7%
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ Normalmente, un identificador corto y único, como un número SKU. También pued
 
 ## Propiedades {#section-267bbf34677e4401abbaf6fdce52191b}
 
-Cadena de texto. Obligatorio. Clave de índice principal para la tabla de mapa de viñetas. Cada `vignette::Id` el valor debe ser único dentro de la tabla y no debe contener los caracteres &quot;,&quot;.
+Cadena de texto. Requerido. Clave de índice principal para la tabla de mapa de viñetas. Cada valor `vignette::Id` debe ser único dentro de la tabla y no debe contener los caracteres &quot;,&quot;.
 
 ## Predeterminado {#section-736d3419b19045efa00887cb595b0337}
 

@@ -21,7 +21,7 @@ Atributo de configuración para el visualizador de vídeo interactivo.
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left|center|right</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> izquierda|centro|derecha</span> </p> </td> 
    <td colname="col2"> <p> Especifica la alineación horizontal interna (o anclaje) del contenedor de miniaturas dentro del área del componente. </p> <p>En la llamada a acción, el tamaño del contenedor de miniaturas interno es tal que solo se muestra un número entero de miniaturas. Como resultado, hay cierto relleno entre los límites del contenedor interno y el componente externo. </p> <p>Este modificador especifica cómo se coloca el contenedor de miniaturas interno de forma horizontal dentro del componente. </p> </td> 
   </tr> 
  </tbody> 

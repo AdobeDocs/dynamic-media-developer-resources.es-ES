@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Se envía una alerta de prioridad cuando el espacio libre en la pila de Java está por debajo del umbral especificado inmediatamente después de un ciclo de recolección de elementos no utilizados de Java.
 
-Las alertas repetidas deben solucionarse aumentando el espacio de la pila de Java. Las ocurrencias posteriores de esta condición no resultan en una alerta por correo electrónico hasta el periodo de retraso especificado con `AS::monitorAlertGenerator.heapSpaceResetInterval` ha caducado.
+Las alertas repetidas deben solucionarse aumentando el espacio de la pila de Java. Las ocurrencias posteriores de esta condición no dan como resultado una alerta por correo electrónico hasta que el período de retraso especificado con `AS::monitorAlertGenerator.heapSpaceResetInterval` haya caducado.

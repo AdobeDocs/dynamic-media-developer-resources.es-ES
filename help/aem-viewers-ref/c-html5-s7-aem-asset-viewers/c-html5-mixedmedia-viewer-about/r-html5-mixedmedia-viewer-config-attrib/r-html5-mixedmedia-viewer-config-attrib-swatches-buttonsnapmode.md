@@ -23,11 +23,11 @@ ht-degree: 7%
    <td> <p>Hace que los botones se alineen junto a las muestras. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> salida rápida</span> </span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> instantánea</span> </span> </p> </td> 
    <td> <p>Hace que los botones se alineen junto al borde del componente. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> superposición</span> </span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> superposición </span> </span> </p> </td> 
    <td> <p>Hace que los botones se representen sobre las muestras. </p> </td> 
   </tr> 
  </tbody> 

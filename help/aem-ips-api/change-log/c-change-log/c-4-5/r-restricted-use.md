@@ -52,57 +52,57 @@ Estas operaciones y tipos están sujetos a la desactivación, el cambio o la des
 
 **Tipos modificados**
 
-* Cambiado `ActiveJob` para incluir un `createVideoSitemapJob` type
+* Se cambió `ActiveJob` para incluir un tipo `createVideoSitemapJob`
 
-* Cambiado `ScheduledJob` para incluir un `createVideoSitemapJob` type
+* Se cambió `ScheduledJob` para incluir un tipo `createVideoSitemapJob`
 
-* Cambiado `ImageServingPublishJob` para incluir un `contextHandle`
+* Se cambió `ImageServingPublishJob` para incluir un(a) `contextHandle` opcional
 
-* Cambiado `ImageRenderingPublishJob` para incluir un `contextHandle`
+* Se cambió `ImageRenderingPublishJob` para incluir un(a) `contextHandle` opcional
 
-* Cambiado `MetadataField` para incluir un `initialTagField`
+* Se cambió `MetadataField` para incluir un(a) `initialTagField` opcional
 
-* Cambiado `MetadataCondition` para incluir y opcional `caseSensitive` parámetro
+* Se cambió `MetadataCondition` para incluir el parámetro `caseSensitive` opcional
 
-* Cambiado `PropertySet` para incluir un `PermissionArray` as `permissions`
+* Se cambió `PropertySet` para incluir un(a) `PermissionArray` opcional como `permissions`
 
-* Cambiado `UploadDirectoryJob` para incluir opcional `xmpKeywords`, `xmpTemplateId` y `xmpTemplateOverride` parámetros
+* Se cambió `UploadDirectoryJob` para incluir los parámetros `xmpKeywords`, `xmpTemplateId` y `xmpTemplateOverride` opcionales
 
-* Cambiado `VideoPublishJob` para incluir un `contextHandle`
+* Se cambió `VideoPublishJob` para incluir un(a) `contextHandle` opcional
 
 **Operaciones modificadas**
 
-* Cambiado `createAssetSet` para incluir un `thumbAssetHandle`
+* Se cambió `createAssetSet` para incluir un(a) `thumbAssetHandle` opcional
 
-* Cambiado `createImageSet` para incluir un `thumbAssetHandle`
+* Se cambió `createImageSet` para incluir un(a) `thumbAssetHandle` opcional
 
-* Cambiado `createMetadataField` para incluir un `initialTagValue` parámetro
+* Se cambió `createMetadataField` para incluir un parámetro `initialTagValue` opcional
 
-* Cambiado `createPropertySet` para incluir un `PermissionUpdateArray` as `permissionArray`
+* Se cambió `createPropertySet` para incluir un(a) `PermissionUpdateArray` opcional como `permissionArray`
 
-* Cambiado `getImageServingPublishSettings` para incluir un `contextHandle` parámetro
+* Se cambió `getImageServingPublishSettings` para incluir un parámetro `contextHandle` opcional
 
-* Cambiado `getImageRenderingPublishSettings` para incluir un `contextHandle` parámetro
+* Se cambió `getImageRenderingPublishSettings` para incluir un parámetro `contextHandle` opcional
 
-* Cambiado `searchAssetsByFullText` para incluir una serie de parámetros opcionales:
+* Se cambió `searchAssetsByFullText` para incluir una serie de parámetros opcionales:
 
-   * `SearchFilter` as `filters` parámetro
+   * `SearchFilter` como parámetro `filters`
 
    * `sortBy`
    * `sortDirection`
 
-* Cambiado `searchAssetsByMetadata` para incluir una serie de parámetros opcionales:
+* Se cambió `searchAssetsByMetadata` para incluir una serie de parámetros opcionales:
 
-   * `SearchFilter` as `filters` parámetro
+   * `SearchFilter` como parámetro `filters`
 
    * `sortBy`
    * `sortDirection`
    * `haystackSearch` secuencia de siete parámetros
 
-* Cambiado `setAssetPublishState` para incluir un `HandleArray` as `contextHandleArray`
+* Se cambió `setAssetPublishState` para incluir un(a) `HandleArray` opcional como `contextHandleArray`
 
-* Cambiado `setImageServingPublishSettings` para incluir un `contextHandle` parámetro
+* Se cambió `setImageServingPublishSettings` para incluir un parámetro `contextHandle` opcional
 
-* Cambiado `setImageRenderingPublishSettings` para incluir un `contextHandle`parámetro
+* Se cambió `setImageRenderingPublishSettings` para incluir un parámetro `contextHandle` opcional
 
-* Cambiado `submitJob` para incluir un `createVideoSitemap` tipo de trabajo
+* Se ha cambiado `submitJob` para incluir un tipo de trabajo `createVideoSitemap` opcional

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 028cef35-2862-452c-872c-b953e8ccb195
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '133'
 ht-degree: 3%
 
 ---
@@ -22,12 +22,12 @@ Cuando se especifica, se rechazan las solicitudes a este catálogo de imágenes 
 
 Lista separada por comas de direcciones IP con máscaras de red opcionales (se utiliza la notación CIDR):
 
-`*`ipAddress`*` `[`/ *`netmask`*`]`&#42; `[`,*`ipAddress`*`[`/*`netmask`*`]]`
+`*`direcciónIP`*` `[`/ *`netmask`*`]`&#42; `[`,*`ipAddress`*`[`/*`netmask`*`]]`
 
 <table id="simpletable_9F82BB0D42A9434883F2F70A2A92898C"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> ipAddress</span> </p> </td> 
-  <td class="stentry"> <p>Dirección IP en <span class="varname"> ddd.ddd.ddd.ddd</span> formato. </p></td> 
+  <td class="stentry"> <p><span class="varname"> direcciónIP</span> </p> </td> 
+  <td class="stentry"> <p>Dirección IP en formato <span class="varname"> ddd.ddd.ddd.ddd</span>. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> máscara de red</span> </p></td> 
@@ -35,11 +35,11 @@ Lista separada por comas de direcciones IP con máscaras de red opcionales (se u
  </tr> 
 </table>
 
-Este atributo se ignora cuando una regla de preprocesamiento con un `<addressfilter>` se aplica el elemento.
+Este atributo se omite cuando se aplica una regla de preprocesamiento con un elemento `<addressfilter>`.
 
 ## Predeterminado {#section-de26e8c9225745e985e4beac1f03f4f6}
 
-Heredado de `default::AddressFilter` si no se define o si está vacío.
+Se hereda de `default::AddressFilter` si no se ha definido o está vacío.
 
 ## Ejemplos {#section-a955314d2b6a4213a16c12a8b18d8627}
 

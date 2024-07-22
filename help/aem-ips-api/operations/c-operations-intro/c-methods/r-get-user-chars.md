@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: d6b79c06-0e90-406f-bac8-3b8c2bae5480
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 12%
+source-wordcount: '175'
+ht-degree: 10%
 
 ---
 
@@ -55,7 +55,7 @@ Este ejemplo de código devuelve:
 
 La constante de cadena Campos del filtro de caracteres de usuario determina el tipo de caracteres de usuario devueltos.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <ns1:getUserCharsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

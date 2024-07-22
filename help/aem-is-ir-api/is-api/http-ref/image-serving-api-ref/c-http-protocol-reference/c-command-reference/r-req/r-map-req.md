@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 3330f49a-934e-492a-804c-ace4d147c65a
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 4%
+source-wordcount: '223'
+ht-degree: 0%
 
 ---
 
@@ -29,22 +29,22 @@ Datos de mapa de imagen.
  </tr> 
 </table>
 
-Devuelve `catalog::Map` sin modificación al consultar una entrada de catálogo simple sin comandos adicionales especificados (no se escala a `catalog::maxPix`).
+Devuelve `catalog::Map` sin modificaciones al consultar una entrada de catálogo simple sin comandos adicionales especificados (no se escala a `catalog::maxPix`).
 
-Si se especifican otros comandos en la solicitud, se devuelve un mapa de imagen compuesto. El mapa de imagen compuesto se deriva escalando, recortando, girando y superponiendo capas `catalog::Map` y/o `map=` comandos incluidos en la solicitud, tal como lo serían los datos de imagen con `req=img`.
+Si se especifican otros comandos en la solicitud, se devuelve un mapa de imagen compuesto. El mapa de imagen compuesto se deriva escalando, recortando, girando y superponiendo en capas todos los comandos `catalog::Map` o `map=` incluidos en la solicitud, tal como lo harían los datos de imagen con `req=img`.
 
-Especificar `text` o omita el segundo parámetro para que pueda devolver los datos del mapa de imagen en forma de `HTML <AREA>` cadena de elemento con tipo MIME de respuesta `text/plain`.
+Especifique `text` u omita el segundo parámetro para que pueda devolver los datos del mapa de imagen en forma de cadena de elemento `HTML <AREA>` con el tipo MIME de respuesta `text/plain`.
 
-Especificar `xml` para que pueda dar formato a la respuesta como XML en lugar de como HTML. Se puede especificar la codificación de texto de forma opcional. El valor predeterminado es `UTF-8`.
+Especifique `xml` para que pueda dar formato a la respuesta como XML en lugar de como HTML. Se puede especificar la codificación de texto de forma opcional. El valor predeterminado es `UTF-8`.
 
-Devuelve una cadena vacía (o vacía) `<AREA>` ) si no se encontraron datos de asignación para los objetos de catálogo especificados, o si no se encontraron datos de asignación para los objetos de catálogo especificados `<AREA>` después de recortar las imágenes, los elementos permanecen.
+Devuelve una cadena vacía (o un elemento `<AREA>` vacío) si no se encontraron datos de asignación para los objetos de catálogo especificados o si no queda ningún elemento `<AREA>` después de recortar las imágenes.
 
-La respuesta HTTP se puede almacenar en caché con el TTL en función de `catalog::Expiration`.
+La respuesta HTTP se puede almacenar en caché con el TTL basado en `catalog::Expiration`.
 
-Las solicitudes compatibles con el formato de respuesta JSONP permiten especificar el nombre del controlador de devolución de llamada JS mediante la sintaxis extendida de `req=` parámetro:
+Las solicitudes compatibles con el formato de respuesta JSONP le permiten especificar el nombre del controlador de devolución de llamada JS mediante la sintaxis extendida del parámetro `req=`:
 
 `req=...,json [&handler = reqHandler ]`
 
-El `<reqHandler>` es el nombre del controlador JS presente en la respuesta JSONP. Solo se permiten los caracteres a-z, A-Z y 0-9. Opcional. El valor predeterminado es `s7jsonResponse`.
+`<reqHandler>` es el nombre del controlador JS que está presente en la respuesta JSONP. Solo se permiten los caracteres a-z, A-Z y 0-9. Opcional. El valor predeterminado es `s7jsonResponse`.
 
-Consulte [Mapas de imagen](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md#reference-ff7d1bac2a064104b0c508a81316fdab).
+Ver [mapas de imagen](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md#reference-ff7d1bac2a064104b0c508a81316fdab).

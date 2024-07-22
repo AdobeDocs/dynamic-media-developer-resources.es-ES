@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: d01c2efc-34f3-4719-ad7a-8da35dfa06ef
 source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
@@ -16,4 +16,4 @@ ht-degree: 0%
 
 La clase principal del Visor de zoom básico es BasicZoomViewer. Se declara en el área de nombres de s7viewers. Esta API de JavaScript cubre el constructor, los métodos y las llamadas de retorno de esta clase en particular.
 
-En todos los ejemplos siguientes, `<instance>` significa el nombre real del objeto de visor de JavaScript del que se crean instancias a partir de `s7viewers.BasicZoomViewer` clase.
+En todos los ejemplos siguientes, `<instance>` significa el nombre real del objeto de visor de JavaScript que se crea a partir de la clase `s7viewers.BasicZoomViewer`.

@@ -18,6 +18,6 @@ Imagen (valor predeterminado). Solicita datos de imagen estándar.
 
 `req=img`
 
-El formato de datos de respuesta y el tipo MIME de respuesta están determinados por `fmt=`. El modificador `req=img` es el tipo de solicitud predeterminado y no se necesita explícitamente. La respuesta HTTP se puede almacenar en caché con el TTL en función de `catalog::Expiration`.
+El formato de datos de respuesta y el tipo MIME de respuesta están determinados por `fmt=`. El modificador `req=img` es el tipo de solicitud predeterminado y no se necesita explícitamente. La respuesta HTTP se puede almacenar en caché con el TTL basado en `catalog::Expiration`.
 
 Otros comandos de solicitud se aplican tal y como se documenta.

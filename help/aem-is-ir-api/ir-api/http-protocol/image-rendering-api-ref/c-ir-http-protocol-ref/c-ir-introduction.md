@@ -8,7 +8,7 @@ exl-id: c185e45b-a56c-4576-b05d-22cc0025a7c4
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
 source-wordcount: '384'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ Este documento describe el protocolo HTTP para el procesamiento de imágenes de 
 
 Solo se describen los aspectos del protocolo que están a disposición del público. El servidor puede admitir comandos adicionales reservados para su uso por el software cliente de Dynamic Media.
 
-**Destinatarios previstos**
+**Audiencia prevista**
 
 Este documento está dirigido a programadores y desarrolladores de sitios web experimentados que deseen utilizar el procesamiento de imágenes de Dynamic Media para un sitio web o una aplicación personalizada.
 
@@ -40,11 +40,11 @@ Se da por hecho que el lector está familiarizado con la creación y el procesam
   <td class="stentry"> <p>La cursiva indica una variable o un parámetro que se va a sustituir por un valor real. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> attribute::Item </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> atributo::Elemento </span> </p> </td> 
   <td class="stentry"> <p>Un nombre con el prefijo "attribute:::" hace referencia a un atributo de catálogo de imágenes. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> catalog::Item </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> catálogo::Elemento </span> </p> </td> 
   <td class="stentry"> <p>Un nombre con el prefijo "catalog::" hace referencia a un campo de datos del catálogo de materiales. </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -64,19 +64,19 @@ Se da por hecho que el lector está familiarizado con la creación y el procesam
   <td class="stentry"> <p>Un nombre con el prefijo "default::" hace referencia a un atributo del catálogo de imágenes predeterminado. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <span class="codeph"> viñeta::Item </span> </td> 
+  <td class="stentry"> <span class="codeph"> viñeta::Elemento </span> </td> 
   <td class="stentry"> <p>Un nombre con el prefijo "viñeta::" hace referencia a un campo del mapa de viñetas. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>[ <span class="varname"> opcional </span> ] </p> </td> 
+  <td class="stentry"> <p>[ <span class="varname"> </span> opcional ] </p> </td> 
   <td class="stentry"> <p>Los elementos de sintaxis opcionales están entre corchetes. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>*[ <span class="varname"> opcional </span> ] </p> </td> 
+  <td class="stentry"> <p>*[ <span class="varname"> </span> opcional ] </p> </td> 
   <td class="stentry"> <p>El elemento de sintaxis opcional se puede repetir una o más veces. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> item1 </span>| <span class="varname"> item2 </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> elemento1 </span>| <span class="varname"> elemento2 </span> </p> </td> 
   <td class="stentry"> <p>Una barra vertical indica que se puede utilizar el único elemento de sintaxis a la izquierda o el elemento a la derecha. Se debe seleccionar exactamente un elemento. </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -95,6 +95,6 @@ Se da por hecho que el lector está familiarizado con la creación y el procesam
 
 **Términos comunes**
 
-** *`MSS`* Segmento de Especificación de Material **: un conjunto de atributos de material entre dos comandos de selección de la solicitud.
+** *`MSS`* ** segmento de especificación de material: un conjunto de atributos de material entre dos comandos de selección de la solicitud.
 
-** *`vignette`* ** Imagen preparada en Dynamic Media Image Authoring para su uso con Image Rendering.
+** *`vignette`* ** Una imagen preparada en Dynamic Media Image Authoring para usarla con Image Rendering.

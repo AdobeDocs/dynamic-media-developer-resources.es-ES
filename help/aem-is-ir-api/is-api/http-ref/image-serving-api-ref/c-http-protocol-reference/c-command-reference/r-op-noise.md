@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: eeadd3ab-80ff-4f9b-b5b7-4f3da6feebde
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '93'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ Añada ruido. Añade ruido aleatorio a los datos de imagen de primer plano o al 
  </tbody> 
 </table>
 
-*`monochrome`* se ignora en las imágenes en escala de grises.
+*`monochrome`* se omite para imágenes en escala de grises.
 
 ## Propiedades {#section-1f1a64c791f545a3bf1abd0b0e575d87}
 
@@ -47,4 +47,4 @@ Capa, comando. Se aplica a la capa actual o a la imagen compuesta si `layer=comp
 
 ## Predeterminado {#section-d548868fa4b64a60bcb481cad1f8113e}
 
-`op_noise=0,uniform,0`, para que no haya ruido.
+`op_noise=0,uniform,0`, sin ruido.

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 3d5eb17d-668a-4ad8-9f84-5684941d450d
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 5%
+source-wordcount: '81'
+ht-degree: 3%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 5%
 <table id="table_2671D63442B54F659C32C4A3CC61DD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p>Especifica cuándo mostrar el panel de información. </p> <p>Si se establece en <span class="codeph"> 1</span>, el panel de información se muestra cuando el ratón entra en el área del mapa de imagen (en caso de que el mapa de imagen no esté vacío, <span class="codeph"> rollover_key</span> atributo). </p> <p>Si se establece en <span class="codeph"> 0</span> el panel de información se activa cuando se selecciona el mapa de imagen (si el mapa de imagen no está vacío) <span class="codeph"> rollover_key</span> y vacío <span class="codeph"> href</span> atributos). </p> <p> Se ignora en dispositivos táctiles, incluidos los sistemas de escritorio táctiles, y se establece automáticamente como <span class="codeph"> 0</span>. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> 0|1</span> </p> </td> 
+   <td colname="col2"> <p>Especifica cuándo mostrar el panel de información. </p> <p>Si se establece en <span class="codeph"> 1</span>, el panel de información se mostrará cuando el mouse entre en el área del mapa de imagen (en caso de que el mapa de imagen no esté vacío, <span class="codeph"> rollover_key</span> attribute). </p> <p>Si se establece en <span class="codeph"> 0</span>, el panel de información se activará cuando se seleccione el mapa de imagen (si el mapa de imagen tiene una clave de rollover <span class="codeph"> </span> que no está vacía y atributos <span class="codeph"> href</span> vacíos). </p> <p> Se omite en dispositivos táctiles, incluidos los sistemas de escritorio táctiles, y se establece automáticamente en <span class="codeph"> 0</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

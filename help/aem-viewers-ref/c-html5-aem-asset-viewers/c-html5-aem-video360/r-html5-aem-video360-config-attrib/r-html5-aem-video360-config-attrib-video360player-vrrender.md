@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: bdc9b086-b9cc-4df0-b044-0ab2b694d01a
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 25%
+source-wordcount: '30'
+ht-degree: 10%
 
 ---
 
@@ -21,7 +21,7 @@ Atributo de configuración para el visor de Video360.
 <table id="table_2A4F898BBF88417DB0834B7F78637F5D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
    <td colname="col2"> <p>Especifica si el modo de representación de realidad virtual está activado. Se ignora en los auriculares de realidad virtual. </p> </td> 
   </tr> 
  </tbody> 

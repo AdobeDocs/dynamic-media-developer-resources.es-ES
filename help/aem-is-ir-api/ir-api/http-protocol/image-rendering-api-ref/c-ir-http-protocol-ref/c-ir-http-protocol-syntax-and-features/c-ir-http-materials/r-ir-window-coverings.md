@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: ce6543a1-2438-4661-95bf-ff3d956013bc
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 4%
+source-wordcount: '153'
+ht-degree: 3%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 4%
 
 Los materiales de revestimiento de ventanas incluyen tanto revestimientos de ventanas suaves (cortinas, vallas, cortinas de café), como revestimientos de ventanas duras (persianas y persianas).
 
-Los materiales de recubrimiento de ventanas especifican un *archivo de estilos de recubrimiento de ventanas* ( [!DNL .vnw] extensión de archivo), un archivo de datos especial similar a una viñeta que contiene datos de máscara, iluminación, diseño y textura que definen el recubrimiento de la ventana.
+Los materiales de cobertura de ventana especifican un *archivo de estilo de cobertura de ventana* (extensión de archivo [!DNL .vnw]), un archivo de datos especial similar a una viñeta que contiene datos de máscara, iluminación, diseño y textura que definen la cobertura de ventana.
 
-[!DNL vnw] los ficheros no incluyen el color y la textura (tejido) para el recubrimiento de la ventana. Esta información se especifica por separado, de forma similar a las texturas repetibles.
+[!DNL vnw] archivos no incluyen el color y la textura (tejido) para el recubrimiento de la ventana. Esta información se especifica por separado, de forma similar a las texturas repetibles.
 
 Los materiales de recubrimiento de ventanas sólo se pueden aplicar a objetos de marco de recubrimiento de ventanas, que son objetos superpuestos.
 
@@ -44,10 +44,10 @@ Los materiales de recubrimiento de ventanas sólo se pueden aplicar a objetos de
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-res.md#reference-0ad9de8887144c83a6db97b4994f7c04" type="reference" format="dita" scope="local"> <span class="codeph"> res= </span> </a> </p> </td> 
    <td colname="col2"> <p>Resolución de textura. </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> attribute::Resolution </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> atributo::Resolution </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-repeat.md#reference-37749da8233f42599ecf4731055fb7d8" type="reference" format="dita" scope="local"> <span class="codeph"> repeat= </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-repeat.md#reference-37749da8233f42599ecf4731055fb7d8" type="reference" format="dita" scope="local"> <span class="codeph"> repetición= </span> </a> </p> </td> 
    <td colname="col2"> <p>Modo de repetición. </p> </td> 
    <td colname="col3"> <p>0 (repetición recta) </p> </td> 
   </tr> 

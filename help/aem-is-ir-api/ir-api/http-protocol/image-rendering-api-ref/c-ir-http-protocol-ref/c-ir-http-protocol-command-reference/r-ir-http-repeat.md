@@ -97,7 +97,7 @@ Modo de repetición de textura. Especifica el modo de repetición para los mater
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>19 </p> </td> 
-  <td class="stentry"> <p>Edge randomizer. </p> </td> 
+  <td class="stentry"> <p>Edge aleatorio. </p> </td> 
  </tr> 
 </table>
 
@@ -109,7 +109,7 @@ Atributo de material. Ignorado por los materiales de color sólido, calcomanía 
 
 ## Predeterminado {#section-e5bbd7d9fbb74852849e605d20f550bb}
 
-`catalog::Repeat`, si el material se basa en una entrada de catálogo, en caso contrario `0` (repetición recta).
+`catalog::Repeat`, si el material se basa en una entrada de catálogo; en caso contrario, `0` (repetición directa).
 
 ## Véase también {#section-ac99113b64654d75a3a86e41db546269}
 

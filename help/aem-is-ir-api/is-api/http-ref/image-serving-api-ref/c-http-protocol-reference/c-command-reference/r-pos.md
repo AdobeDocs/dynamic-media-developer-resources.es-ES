@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: c2e9a1f3-7216-4ab0-9c37-57f083119cef
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '169'
 ht-degree: 2%
 
 ---
@@ -31,15 +31,15 @@ posN= *`coordN`*
  </tr> 
 </table>
 
-Si hay una imagen, texto y capas de color sólido, `pos=` especifica la posición de un anclaje de capa en relación con el anclaje de capa 0. El `posN=` los valores de coordenadas se normalizan en relación con el tamaño real de la capa 0 rect.
+Si hay una capa de imagen, texto y capas de color sólido, `pos=` especifica la posición de un anclaje de capa en relación con el anclaje de capa 0. Los valores de las coordenadas `posN=` se normalizan en relación con el tamaño correcto de la capa 0 real.
 
-Si hay capas de efecto, `pos=` desplaza la capa de efecto en relación con la capa principal.
+Si hay capas de efecto, `pos=` cambia la capa de efecto en relación con la capa principal.
 
-Los valores positivos mueven la capa hacia la derecha/abajo y los negativos hacia la izquierda/arriba. Entrada `posN=0.5,0.5`, mueve la capa a la mitad de la anchura y altura de la capa 0 hacia abajo y hacia la derecha.
+Los valores positivos mueven la capa hacia la derecha/abajo y los negativos hacia la izquierda/arriba. En `posN=0.5,0.5`, mueve la capa a la mitad de la anchura y altura de la capa 0 hacia abajo y hacia la derecha.
 
 ## Propiedades {#section-51a60cdc52d040538fef378ace7c2e7d}
 
-Atributo de capa. Ignorado si `layer=0` o `layer=comp`.
+Atributo de capa. Se ignoró si `layer=0` o `layer=comp`.
 
 ## Predeterminado {#section-70a6bc71ded5494e843194dfb6bf5a6c}
 
@@ -47,7 +47,7 @@ Atributo de capa. Ignorado si `layer=0` o `layer=comp`.
 
 ## Ejemplo {#section-a89a02c22f6b4260bfcf7c842cd6069d}
 
-Consulte el Ejemplo A en [Plantillas](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e).
+Consulte el ejemplo A en [Plantillas](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e).
 
 ## Véase también {#section-812d95575ba542808e8387d0a8650606}
 

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 7a2b2529-4e8f-44aa-800e-87bdd6fe2519
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 6%
+source-wordcount: '63'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,7 @@ Indicador. Establezca el valor en 0 para deshabilitar el bloqueo de solicitudes 
 
 ## Predeterminado {#section-fd5b5f0417bd444189b20494d179193e}
 
-Heredado de `default::RequestLock` si no se define o si está vacío.
+Se hereda de `default::RequestLock` si no se ha definido o está vacío.
 
 ## Véase también {#section-851a0b6c15ce4ea8b88dedfb579e9736}
 

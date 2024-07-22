@@ -8,7 +8,7 @@ exl-id: 811e44e1-774a-49bd-a2bd-a7504e5f7f5f
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 10%
+ht-degree: 8%
 
 ---
 
@@ -49,7 +49,7 @@ La API de IPS no devuelve una respuesta para esta operación.
 
 Este ejemplo de código utiliza una matriz de actualizaciones de metadatos para establecer los metadatos del recurso especificado.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <ns1:setAssetMetadataParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

@@ -8,7 +8,7 @@ exl-id: 06fdd9f5-5021-4f0b-b312-4465df9bda25
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -41,7 +41,7 @@ Devuelve información sobre la estructura de una empresa (número de archivos, e
 
 El nombre de esta solicitud es engañoso. En lugar de devolver simplemente un valor escalar que refleje cuánto espacio en disco está utilizando una empresa, también obtiene otra información sobre la estructura de una empresa.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <ns1:getDiskUsageParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 70e2a0c7-8614-432a-9e20-c6d60441bb6c
 source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 3%
+source-wordcount: '118'
+ht-degree: 2%
 
 ---
 
@@ -28,15 +28,15 @@ Consulte también [init]
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> asset </span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="codeph"> Cadena </span>} nuevo ID de recurso. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> recurso </span> </p> </td> 
+   <td colname="col2"> <p>{ <span class="codeph"> cadena </span>} ID de recurso nuevo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> data </span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="codeph"> JSON </span>} objeto JSON con los siguientes campos opcionales (distingue entre mayúsculas y minúsculas): </p> <p> 
+   <td colname="col1"> <p> <span class="codeph"> datos </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> JSON </span> objeto JSON con los siguientes campos opcionales (distingue mayúsculas de minúsculas): </p> <p> 
      <ul id="ul_26121393BC7145FF8A43C05ACCBEFF36"> 
-      <li id="li_DA50E073F3D4460CBC34243A2CBCC895"> <span class="codeph"> posterimage </span> : imagen que se mostrará en el primer fotograma antes de que comience la reproducción del vídeo. Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-videoplayer-posterimage.md#reference-9739abeeb9f64c02b5d2f7a0d1706103" format="dita" scope="local"> VideoPlayer.posterimage </a>. </li> 
-      <li id="li_BBFF3965B69A4AC8A469FDB69097B25A"> <span class="codeph"> caption </span> : ubicación del nuevo archivo de subtítulos. Si no se especifica el archivo, el botón de subtítulos opcionales no estará visible en la interfaz de usuario. </li> 
+      <li id="li_DA50E073F3D4460CBC34243A2CBCC895"> <span class="codeph"> posterimage </span>: imagen que se mostrará en el primer fotograma antes de que comience la reproducción del vídeo. Ver <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-videoplayer-posterimage.md#reference-9739abeeb9f64c02b5d2f7a0d1706103" format="dita" scope="local"> VideoPlayer.posterimage </a>. </li> 
+      <li id="li_BBFF3965B69A4AC8A469FDB69097B25A"> <span class="codeph"> pie de ilustración </span> - ubicación del nuevo archivo de pie de ilustración cerrado. Si no se especifica el archivo, el botón de subtítulos opcionales no estará visible en la interfaz de usuario. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 

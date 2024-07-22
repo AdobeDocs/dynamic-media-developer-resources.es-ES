@@ -22,11 +22,11 @@ Todas las funciones expuestas en la interfaz de visor Zoom básico, Catálogo el
 
 Todas las funciones expuestas en la interfaz de visor Zoom básico, Catálogo electrónico, Búsqueda en el catálogo electrónico, Flotante, Zoom en línea, Medios mixtos, Giro, Vídeo, Zoom, Carrusel, Dimensional (3D), Imagen interactiva, Vídeo interactivo y Vídeo360 son accesibles mediante el teclado.
 
-Un usuario final puede navegar entre los elementos de la interfaz de usuario del visor mediante **[!UICONTROL Ficha]** y **[!UICONTROL Mayús + Tab]** pulsaciones de teclas. Uso de **[!UICONTROL Ficha]** avanza el enfoque de entrada al siguiente elemento de interfaz de usuario en el orden de tabulación; utilizando **[!UICONTROL Mayús + Tab]** vuelve a enfocar la entrada al elemento de interfaz de usuario anterior. La inversión del enfoque sigue la ubicación natural del elemento de la interfaz de usuario en la pantalla y se mueve de izquierda a derecha y, a continuación, de arriba a abajo.
+Un usuario final puede navegar entre los elementos de la interfaz de usuario del visor con las pulsaciones de teclas **[!UICONTROL Tab]** y **[!UICONTROL Mayús+Tab]**. Al usar **[!UICONTROL Tab]**, el foco de entrada se mueve al siguiente elemento de la interfaz de usuario en el orden de tabulación; al usar **[!UICONTROL Mayús+Tab]**, el foco de entrada se vuelve a colocar en el elemento de interfaz de usuario anterior. La inversión del enfoque sigue la ubicación natural del elemento de la interfaz de usuario en la pantalla y se mueve de izquierda a derecha y, a continuación, de arriba a abajo.
 
 Según la configuración del sistema operativo y del explorador web, el elemento de interfaz de usuario que tiene el enfoque de entrada recibe una indicación de enfoque visual. Por ejemplo, el indicador visual puede ser un borde delgado representado alrededor del elemento de interfaz de usuario.
 
-Es posible deshabilitar o personalizar dicho resaltado de enfoque en el visor CSS. En la tabla de contenido de este sistema de Ayuda, bajo un nombre de visor específico (por ejemplo, Zoom básico o Vídeo interactivo), haga clic en **Personalización *nombre del visor*** >** Enfoque destacado **.
+Es posible deshabilitar o personalizar dicho resaltado de enfoque en el visor CSS. En la tabla de contenido de este sistema de ayuda, bajo un nombre de visor específico (por ejemplo, Zoom básico o Vídeo interactivo), haga clic en **Personalizar *nombre del visor*** >** Enfoque destacado **.
 
 Las pulsaciones de teclas compatibles con los elementos de la interfaz de usuario del visor individual son, en la mayoría de los casos, obvias y fáciles de descubrir.
 

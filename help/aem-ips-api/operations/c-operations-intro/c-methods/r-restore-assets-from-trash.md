@@ -8,7 +8,7 @@ exl-id: b1cde1a9-d726-4ebc-9d49-ee72a6b56fc9
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 12%
+ht-degree: 11%
 
 ---
 
@@ -50,7 +50,7 @@ Sintaxis
 
 Este ejemplo de código restaura los recursos de la papelera. La respuesta indica que la operación se ha completado correctamente.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <restoreAssetsFromTrashParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

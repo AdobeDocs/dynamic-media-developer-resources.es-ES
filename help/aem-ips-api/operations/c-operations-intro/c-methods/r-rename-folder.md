@@ -8,7 +8,7 @@ exl-id: 2d4f1059-8018-4efb-a1ec-8eb560b1a58f
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '75'
-ht-degree: 22%
+ht-degree: 20%
 
 ---
 
@@ -51,7 +51,7 @@ Sintaxis
 
 Este ejemplo de código cambia el nombre de una carpeta.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <ns1:renameFolderParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

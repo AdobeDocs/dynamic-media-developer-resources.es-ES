@@ -24,7 +24,7 @@ Cadena que contiene una lista de nombres de dominio web separados por comas. Si 
 
 ## Predeterminado {#section-5c52ed3c7310488380f5a6f9540bf981}
 
-Heredado de `default::TrustedDomains` si no está presente.
+Se hereda de `default::TrustedDomains` si no está presente.
 
 ## Véase también {#section-65d0846e41674882a4d0d56a8f6d524b}
 

@@ -8,7 +8,7 @@ exl-id: 6ee166db-09a8-4804-926f-8b1ebddb3c77
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '53'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -18,7 +18,7 @@ Nombre del acceso directo del perfil. Un nombre de acceso directo para el perfil
 
 ## Propiedades {#section-52a4b91bbfa045c49c9541444fad2027}
 
-Cadena de texto. Obligatorio. Clave de índice principal para el mapa de perfiles ICC. Cada `icc::Name` el valor debe ser único dentro de la tabla y no debe contener los caracteres &quot;,&quot;.
+Cadena de texto. Requerido. Clave de índice principal para el mapa de perfiles ICC. Cada valor `icc::Name` debe ser único dentro de la tabla y no debe contener los caracteres &quot;,&quot;.
 
 ## Predeterminado {#section-9d23d9b082f541b5b29b4ff92e942942}
 

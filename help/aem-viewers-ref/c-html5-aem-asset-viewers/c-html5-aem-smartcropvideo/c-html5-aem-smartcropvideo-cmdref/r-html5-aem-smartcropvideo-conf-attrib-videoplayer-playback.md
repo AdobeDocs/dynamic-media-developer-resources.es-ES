@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 6df94fe7-30ea-42f1-a39e-50219259a098
 source-git-commit: 8c49595fe0efb684b59601fb268bd8bf97fae555
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '124'
 ht-degree: 2%
 
 ---
@@ -21,8 +21,8 @@ Atributo de configuración para el visor de recorte inteligente de vídeos.
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> auto|progresivo</span> </p> </td> 
-   <td colname="col2"> <p> Establece el tipo de reproducción que utiliza el visor. Cuándo <span class="codeph"> auto</span> está configurado; en la mayoría de los navegadores de escritorio y en todos los dispositivos iOS, el visor utiliza flujo de vídeo HTML5 en formato HLS. Vuelve a la reproducción progresiva de HTML 5 en ciertos sistemas como el antiguo Internet Explorer y Android™. </p> <p>If <span class="codeph"> progresista</span> se especifica, el visor solo utiliza la reproducción de HTML 5 admitida de forma nativa por los navegadores y reproduce vídeo de forma progresiva en todos los sistemas. </p> <p>Para obtener más información sobre la selección de reproducción en los modos automático y progresivo, consulte la Guía del usuario de Viewer SDK. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> automático|progresivo</span> </p> </td> 
+   <td colname="col2"> <p> Establece el tipo de reproducción que utiliza el visor. Cuando se establece <span class="codeph"> auto</span>, en la mayoría de los navegadores de escritorio y en todos los dispositivos iOS, el visor usa flujo de vídeo HTML5 en formato HLS. Vuelve a la reproducción progresiva de HTML 5 en ciertos sistemas como el antiguo Internet Explorer y Android™. </p> <p>Si se especifica <span class="codeph"> progressive</span>, el visor solo depende de la reproducción de HTML 5, ya que los exploradores la admiten de forma nativa, y reproduce el vídeo de forma progresiva en todos los sistemas. </p> <p>Para obtener más información sobre la selección de reproducción en los modos automático y progresivo, consulte la Guía del usuario de Viewer SDK. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -31,7 +31,7 @@ Atributo de configuración para el visor de recorte inteligente de vídeos.
 
 Opcional.
 
-Se ignora cuando el visor funciona con vídeo externo. Consulte [Compatibilidad con vídeo externo]
+Se ignora cuando el visor funciona con vídeo externo. Ver [Compatibilidad con vídeo externo]
 (../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3).
 
 ## Predeterminado {#section-d016470e92a74f98a18c4ab3489410a5}

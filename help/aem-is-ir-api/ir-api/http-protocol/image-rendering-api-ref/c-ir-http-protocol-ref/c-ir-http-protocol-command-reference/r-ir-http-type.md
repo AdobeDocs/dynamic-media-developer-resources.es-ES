@@ -101,7 +101,7 @@ Tipo de superficie de material. Especifica el tipo de superficie del material.
  </tr> 
 </table>
 
-Se utiliza con `gloss=` y `rough=` para controlar los comportamientos de reflexión y efecto de brillo. Diferentes materiales producen diferentes efectos, incluso si `gloss=` y `rough=` son iguales.
+Se usa con `gloss=` y `rough=` para controlar los comportamientos de reflexión y efecto de brillo. Diferentes materiales producen efectos diferentes, incluso si `gloss=` y `rough=` son iguales.
 
 ## Propiedades {#section-2345b2508273426295ce8ac46182ea64}
 
@@ -109,8 +109,8 @@ Atributo de material. Se ignora si la viñeta no incluye datos de reflexión 3D 
 
 ## Predeterminado {#section-0989055fb74a41a3b2f2a47fe7d90a42}
 
-`catalog::Type` Si el material se basa en una entrada de catálogo. Caso contrario `type=0`. Si no se especifica, o si `type=0`, el servidor selecciona un valor por defecto adecuado en función del objeto de destino y de los demás atributos de material.
+`catalog::Type` Si el material se basa en una entrada del catálogo. De lo contrario `type=0`. Si no se especifica, o si es `type=0`, el servidor selecciona un valor predeterminado adecuado según el objeto de destino y los demás atributos de material.
 
 ## Véase también {#section-7cf808b0bb3d4b4fbb7b9a850d5a038b}
 
-[gloss=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) , [áspero=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180)
+[brillo=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) , [aproximado=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180)

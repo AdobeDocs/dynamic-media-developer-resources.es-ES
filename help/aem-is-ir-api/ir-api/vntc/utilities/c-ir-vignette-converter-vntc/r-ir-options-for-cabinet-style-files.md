@@ -18,7 +18,7 @@ Las siguientes opciones controlan el procesamiento de los archivos de estilo arc
 
 <table id="simpletable_332B78DDEB6540708844AB54AE321F9B"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph">-resolution <span class="varname"> val</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph">-resolución <span class="varname"> val</span></span> </p> </td> 
   <td class="stentry"> <p>Especifica la resolución de destino para los archivos de estilo de archivador. Valor real en píxeles por pulgada. Si no se especifica, el archivo de estilo del contenedor de producción tiene la misma resolución que el archivo de origen. </p></td> 
  </tr> 
 </table>

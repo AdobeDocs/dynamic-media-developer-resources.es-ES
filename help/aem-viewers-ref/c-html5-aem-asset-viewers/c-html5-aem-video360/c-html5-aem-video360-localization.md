@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: d54fd841-2246-4d2e-8bf9-7da56f2487f3
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Cierto contenido que muestra el usuario está sujeto a la localización. Este contenido incluye información sobre herramientas de elementos de la interfaz de usuario y un mensaje de error que se muestra cuando el vídeo no se puede reproducir.
 
-Cada contenido textual del visualizador que se puede localizar se representa mediante un identificador especial del SDK del visualizador llamado SYMBOL. Cualquier SYMBOL tiene un valor de texto asociado por defecto para la configuración regional en inglés ( `"en"`) se suministra con el visor incorporado. También puede tener valores definidos por el usuario configurados para tantas configuraciones regionales como sea necesario.
+Cada contenido textual del visualizador que se puede localizar se representa mediante un identificador especial del SDK del visualizador llamado SYMBOL. Cualquier SYMBOL tiene un valor de texto asociado predeterminado para la configuración regional en inglés (`"en"`) que se proporciona con el visor predeterminado. También puede tener valores definidos por el usuario configurados para tantas configuraciones regionales como sea necesario.
 
 Cuando se inicia el visor, comprueba la configuración regional actual para ver si hay un valor definido por el usuario para cada SÍMBOLO admitido para la configuración regional. Si existe, utiliza el valor definido por el usuario; de lo contrario, vuelve al texto predeterminado predeterminado.
 
@@ -40,7 +40,7 @@ defaultLocale:"en"
 
 En el ejemplo anterior, el objeto de localización define dos configuraciones regionales ( `"en"` y `"fr"`) y proporciona localización para dos elementos de interfaz de usuario en cada configuración regional.
 
-El código de la página web debe pasar el objeto de localización al constructor del visor como un valor del `localizedTexts` del objeto de configuración. Una opción alternativa es pasar el objeto de localización llamando a la variable `setLocalizedTexts(localizationInfo)` método.
+El código de la página web debe pasar el objeto de localización al constructor del visor como un valor del campo `localizedTexts` del objeto de configuración. Una opción alternativa es pasar el objeto de localización llamando al método `setLocalizedTexts(localizationInfo)`.
 
 Se admiten los siguientes SYMBOL:
 
@@ -69,7 +69,7 @@ Se admiten los siguientes SYMBOL:
    <td colname="col2"> <p>Estado del botón de pausa de reproducción. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> VideoScrubber.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">: VideoScrubber.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Limpiador de video. </p> </td> 
   </tr> 
   <tr> 
@@ -86,7 +86,7 @@ Se admiten los siguientes SYMBOL:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_VOLUME </span> </p> </td> 
-   <td colname="col2"> <p>Etiqueta del control deslizante de volumen expuesta a través de ARIA <span class="codeph"> aria-valuetext </span> atributo. </p> </td> 
+   <td colname="col2"> <p>Etiqueta de control deslizante de volumen expuesta mediante ARIA <span class="codeph"> atributo aria-valuetext </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED </span> </p> </td> 
@@ -97,11 +97,11 @@ Se admiten los siguientes SYMBOL:
    <td colname="col2"> <p>botón de pantalla completa en estado de pantalla completa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SocialShare.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">: SocialShare.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Herramienta Compartir en redes sociales. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">: EmbedShare.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Botón Insertar recurso compartido. </p> </td> 
   </tr> 
   <tr> 
@@ -133,7 +133,7 @@ Se admiten los siguientes SYMBOL:
    <td colname="col2"> <p>El botón "Seleccionar todo". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP ACTION </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">: acción EmbedShare.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>El botón "Seleccionar todo". </p> </td> 
   </tr> 
   <tr> 

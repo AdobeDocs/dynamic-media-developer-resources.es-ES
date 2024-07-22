@@ -24,6 +24,6 @@ Tenga en cuenta que eliminar o reemplazar un archivo de datos de origen solo hac
 
 El servidor de procesamiento debe detenerse para reemplazar otros archivos de datos.
 
-[!DNL Platform Server] las entradas de la caché se invalidan automáticamente cuando se sustituyen archivos de material o viñetas. La sustitución de archivos de perfil ICC no invalida las cachés.
+[!DNL Platform Server] entradas de caché se invalidan automáticamente cuando se reemplazan archivos de material o viñetas. La sustitución de archivos de perfil ICC no invalida las cachés.
 
 Para evitar las complicaciones derivadas de reemplazar archivos, se recomienda dar un nuevo nombre al archivo de reemplazo y actualizar las entradas de catálogo correspondientes. Esto permite reemplazar cualquier archivo de datos mientras el servidor esté activo y hace que las entradas de la caché del servidor queden obsoletas automáticamente sin ninguna intervención adicional. Este método se puede utilizar para todos los archivos de datos administrados por catálogos de imágenes.

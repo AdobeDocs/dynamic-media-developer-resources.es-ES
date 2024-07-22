@@ -16,8 +16,8 @@ ht-degree: 0%
 
 Las referencias $var$ pueden producirse en cualquier lugar dentro de las llaves de una solicitud de servicio o procesamiento de imágenes anidada, incluso a la izquierda de &quot;?&quot; separar la ruta de la consulta.
 
-El servidor sustituye estas referencias por valores (desde la dirección URL o desde `catalog::Modifier` del catálogo de imágenes principal) antes de seguir analizando y procesando la solicitud anidada.
+El servidor sustituye estas referencias por valores (desde la dirección URL o desde `catalog::Modifier` del catálogo de imágenes principal) antes de analizar y procesar más la solicitud anidada.
 
-Además, todas las `$ *[!DNL var]*=` definiciones de la url y `catalog::Modifier` se reenvían a todas las solicitudes anidadas de servicio y procesamiento de imágenes. Al hacerlo, se asegura de que todas las definiciones de variables estén disponibles para todas las plantillas, independientemente del nivel de anidación.
+Además, todas las definiciones de `$ *[!DNL var]*=` de la dirección URL y `catalog::Modifier` se reenvían a todas las solicitudes anidadas de servicio y procesamiento de imágenes. Al hacerlo, se asegura de que todas las definiciones de variables estén disponibles para todas las plantillas, independientemente del nivel de anidación.
 
 Independientemente del nivel de anidamiento, solo se debe aplicar la codificación HTTP de un solo paso a los valores de variable que se van a sustituir en cualquier lugar de las solicitudes anidadas de Image Rendering o Image Serving.

@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Resolución de miniatura predeterminada. Proporciona una resolución de miniatura predeterminada en el caso de que el valor de catálogo::ThumbRes no sea válido en un registro de catálogo determinado.
 
-Solo se usa para solicitudes de miniaturas ( `req=tmb`) y cuándo `catalog::ThumbType=3`.
+Solo se usa para solicitudes de miniaturas (`req=tmb`) y cuando `catalog::ThumbType=3`.
 
 ## Propiedades {#section-88d37d0e030f4879a9e584dd2cc780f3}
 
@@ -24,7 +24,7 @@ Número real, mayor de 0,Se expresa normalmente como píxeles por pulgada, pero 
 
 ## Predeterminado {#section-86588899ec9b4276a98b03d7faf64003}
 
-Heredado de `default::ThumbRes` si no se define o si está vacío.
+Se hereda de `default::ThumbRes` si no se ha definido o está vacío.
 
 ## Véase también {#section-a6d2cce2e404441a996dba98a95c8e16}
 

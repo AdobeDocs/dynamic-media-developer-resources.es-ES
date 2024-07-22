@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 8e7224e7-d801-4550-b95e-24d15734043a
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 48%
+source-wordcount: '239'
+ht-degree: 38%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 48%
 
 Aplicar opciones de trabajo de PDF. Un archivo de opciones de trabajo o ajuste preestablecido de PDF es un archivo generado por Illustrator en el cuadro de diálogo de opciones Guardar como PDF o en Ajustes preestablecidos de PDF en InDesign.
 
-` joboption= *`basado en IP`*`
+` joboption= *`valor`*`
 
 <table id="simpletable_BA7B58BE0B0740298D45DDEBE7832D93"> 
  <tr class="strow"> 
@@ -36,7 +36,7 @@ Actualmente se admiten las siguientes opciones:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Imágenes </p></td> 
-  <td class="stentry"> <p> Disminuir resolución, Resolución, Umbral y Compresión para color, gris y mono </p> </td> 
+  <td class="stentry"> <p> Disminución de resolución, resolución, umbral y compresión para color, gris y mono </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Fuentes </p></td> 
@@ -44,7 +44,7 @@ Actualmente se admiten las siguientes opciones:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Color </p></td> 
-  <td class="stentry"> <p> Estrategia de color (el etiquetado exclusivo de imágenes se interpreta como etiquetar todo) </p> <p> Calidad de representación del documento </p> <p> Solo se admiten los espacios de trabajo siguientes en 4.2.5. </p> <p> 
+  <td class="stentry"> <p> Estrategia de color (las imágenes solo de etiqueta se tratan como etiqueta de todo) </p> <p> Calidad de representación del documento </p> <p> Solo se admiten los siguientes espacios de trabajo para 4.2.5. </p> <p> 
     <ul id="ul_3F3EFDFB6A3340978AE31DEDF0FDA2C8"> 
      <li id="li_17A9FA99D6CA4C5182E383A85F0E3C90"> RGB <p> 
        <ul id="ul_1DD0C264DA1248319E751ADD18140C6D"> 
@@ -73,7 +73,7 @@ Actualmente se admiten las siguientes opciones:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Avanzado </p></td> 
-  <td class="stentry"> <p>Conservar comentarios OPI (siempre activado). </p></td> 
+  <td class="stentry"> <p>Conservar comentarios OPI siempre está activado. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Estándares </p></td> 

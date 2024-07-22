@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: e4f7e5a8-0021-4dd3-be1b-8cb656cabdac
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '320'
 ht-degree: 1%
 
 ---
@@ -26,12 +26,12 @@ La caducidad se establece principalmente para las respuestas de datos de imagen.
 
 ## Propiedades {#section-e87e8f6b6d224c6ea2eeaad695c04be8}
 
-Número real, -2, -1, 0 o superior. Número de horas hasta la caducidad desde que se generó la imagen de respuesta. Establezca el valor en 0 para que la imagen de respuesta siempre caduque inmediatamente, lo que deshabilita de forma eficaz el almacenamiento en caché del cliente. Establezca en -1 para marcar como `never expire`. En este caso, el servidor siempre devuelve el estado 304 (no modificado) en respuesta a una condición `GET` solicita sin comprobar si el archivo ha cambiado realmente. Establezca el valor en -2 para utilizar el valor predeterminado proporcionado por `attribute::Expiration`.
+Número real, -2, -1, 0 o superior. Número de horas hasta la caducidad desde que se generó la imagen de respuesta. Establezca el valor en 0 para que la imagen de respuesta siempre caduque inmediatamente, lo que deshabilita de forma eficaz el almacenamiento en caché del cliente. Establezca en -1 para marcar como `never expire`. En este caso, el servidor siempre devuelve el estado 304 (sin modificar) en respuesta a solicitudes `GET` condicionales sin comprobar si el archivo ha cambiado realmente. Establezca el valor en -2 para utilizar el valor predeterminado proporcionado por `attribute::Expiration`.
 
 ## Predeterminado {#section-79d71706e12a4493a69d7febc3a1f271}
 
-`attribute::Expiration` se utiliza si el campo no está presente, si el valor es -2 o si el campo está vacío.
+`attribute::Expiration` se usa si el campo no está presente, si el valor es -2 o si el campo está vacío.
 
 ## Véase también {#section-9d46a9d346fe42f3911edb3bd79f4121}
 
-[attribute::Caducidad](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-expiration.md#reference-0f68ad8199c64bd4bc8d27dd78b7d996) , [viñeta::Expiration](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-expiration-vignette.md#reference-df80829da93e4c0ab3f97a1792d9c74c), [req=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-req.md#reference-792b1a663fb64261bd2de2a209b847fb)
+[attribute::Expiration](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-expiration.md#reference-0f68ad8199c64bd4bc8d27dd78b7d996) , [viñeta::Expiration](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-expiration-vignette.md#reference-df80829da93e4c0ab3f97a1792d9c74c), [req=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-req.md#reference-792b1a663fb64261bd2de2a209b847fb)

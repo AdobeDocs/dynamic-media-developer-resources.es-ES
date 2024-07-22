@@ -8,7 +8,7 @@ exl-id: 17e8937f-e328-46a4-b7d9-1fd39ab2e8bd
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 De forma predeterminada, el visor envía una única solicitud HTTP de seguimiento al servidor de imágenes configurado con el tipo de visor y la información de versión.
 
-Para integrarse con sistemas de análisis de terceros, es necesario escuchar el `trackEvent` llamada de retorno del visor y procesar `eventInfo` de la función de llamada de retorno según sea necesario. El siguiente código es un ejemplo de esta función de controlador:
+Para integrarse con sistemas de análisis de terceros, es necesario escuchar la llamada de retorno del visor `trackEvent` y procesar el argumento `eventInfo` de la función de llamada de retorno según sea necesario. El siguiente código es un ejemplo de esta función de controlador:
 
 ```javascript {.line-numbers}
 var interactiveImage = new s7viewers.InteractiveImage({ 
@@ -53,7 +53,7 @@ El visor realiza un seguimiento de los siguientes eventos de usuarios del SDK:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> CARGAR </span> </p> </td> 
    <td colname="col2"> <p>El visor se carga primero. </p> </td> 
   </tr> 
   <tr> 

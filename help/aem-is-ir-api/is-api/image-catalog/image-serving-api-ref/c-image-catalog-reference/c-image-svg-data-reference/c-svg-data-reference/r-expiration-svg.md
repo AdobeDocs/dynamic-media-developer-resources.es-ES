@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 62d2368b-ea56-4964-ab9c-07454e19540c
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '273'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,7 @@ La caducidad se utiliza para estos tipos de respuesta:
 * `req=userdata`
 * `req=map`
 
-Ciertos tipos de respuestas (por ejemplo, respuestas de error) siempre se marcan para su caducidad inmediata (o se etiquetan como no almacenables en caché), mientras que otros (por ejemplo, respuestas de propiedad o de imagen predeterminadas) utilizan configuraciones de caducidad especiales ( `attribute::NonImgExpiration` y `attribute::DefaultExpiration`).
+Ciertos tipos de respuestas (por ejemplo, respuestas de error) siempre se marcan para la caducidad inmediata (o se etiquetan como no almacenables en caché), mientras que otros (por ejemplo, respuestas de propiedad o de imagen predeterminadas) utilizan configuraciones de caducidad especiales ( `attribute::NonImgExpiration` y `attribute::DefaultExpiration`).
 
 ## Propiedades {#section-7f5173d090cf48df8fa1a2c72b8c8c60}
 
@@ -34,8 +34,8 @@ Número real, -2, -1 o 0 o superior. Número de horas hasta la caducidad desde q
 
 ## Predeterminado {#section-ec72cc1dfc5e4f278174d37da2e39462}
 
-`attribute::Expiration` se utiliza si el campo no está presente, si el valor es -2 o si el campo está vacío.
+`attribute::Expiration` se usa si el campo no está presente, si el valor es -2 o si el campo está vacío.
 
 ## Véase también {#section-0e5e8595aad641c689726828712a8902}
 
-[attribute::Caducidad](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-expiration.md#reference-a0bf4686425d4e00b8014c4950fb62b7), [attribute::DefaultExpiration](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultexpiration.md#reference-0526166fab654fceb243b75d1ea4f0cf), [attribute::NonImgExpiration](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-nonimgexpiration.md#reference-a8066cd0d24b4ea98100ade4821f1f9d), [req=](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76)
+[attribute::Expiration](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-expiration.md#reference-a0bf4686425d4e00b8014c4950fb62b7), [attribute::DefaultExpiration](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultexpiration.md#reference-0526166fab654fceb243b75d1ea4f0cf), [attribute::NonImgExpiration](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-nonimgexpiration.md#reference-a8066cd0d24b4ea98100ade4821f1f9d), [req=](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76)

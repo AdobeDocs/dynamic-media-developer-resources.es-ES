@@ -20,7 +20,7 @@ Sintaxis
 
 ## Parámetros {#section-577d46cc75774c7c8fbdcff203a0d9ac}
 
-Los recursos mantienen un marcador independiente para cada estado y contexto de publicación. Definir el estado de publicación con [setAssetsContextState](../../operations/c-operations-intro/c-methods/r-set-asset-context-state.md#reference-da96f9caef734f2883fddaf58cd886d7).
+Assets mantiene un marcador independiente para cada estado y contexto de publicación. Establezca el estado de publicación con [setAssetsContextState](../../operations/c-operations-intro/c-methods/r-set-asset-context-state.md#reference-da96f9caef734f2883fddaf58cd886d7).
 
 <table id="table_1165D5DDC89140CD8222E5A04B39048E">
  <thead>
@@ -57,5 +57,4 @@ Los recursos mantienen un marcador independiente para cada estado y contexto de 
 
 >[!MORELIKETHIS]
 >
->* [Contexto de publicación](../../string-constants/c-string-constants/r-publish-context.md#reference-3ade116df0df40deb86154eb0ac7c12a)
-
+>* [Contexto de Publish](../../string-constants/c-string-constants/r-publish-context.md#reference-3ade116df0df40deb86154eb0ac7c12a)

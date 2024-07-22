@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: c95d198c-757f-405e-ba08-094cd402c929
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 3%
+source-wordcount: '137'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ Estos comandos se aplican a las capas de imagen, texto y color sólido. La mayor
 
 <table id="simpletable_8A74E965537D4E8CB91E95AEAE9673E0"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-blendmode.md#reference-8be10dde1d584429966cb61ac8e7d172" type="reference" format="dita" scope="local"> blendMode</a> </p> </td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-blendmode.md#reference-8be10dde1d584429966cb61ac8e7d172" type="reference" format="dita" scope="local"> modoCombinación</a> </p> </td> 
   <td class="stentry"> <p>Especifica el modo de fusión de capas. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -26,7 +26,7 @@ Estos comandos se aplican a las capas de imagen, texto y color sólido. La mayor
   <td class="stentry"> <p>Especifica un color de fondo de capa y una opacidad. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac" type="reference" format="dita" scope="local"> extender</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac" type="reference" format="dita" scope="local"> ampliar</a> </p></td> 
   <td class="stentry"> <p>Extiende (o recorta) el rectángulo de capa. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -42,7 +42,7 @@ Estos comandos se aplican a las capas de imagen, texto y color sólido. La mayor
   <td class="stentry"> <p>Define un mapa de imagen para esta capa. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-opac.md#reference-d2269b51aca34599a08d0a46ee5c27e5" type="reference" format="dita" scope="local"> opaco</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-opac.md#reference-d2269b51aca34599a08d0a46ee5c27e5" type="reference" format="dita" scope="local"> opac</a> </p></td> 
   <td class="stentry"> <p>Reduce la opacidad de la capa. </p></td> 
  </tr> 
  <tr class="strow"> 

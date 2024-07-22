@@ -8,13 +8,13 @@ exl-id: 5f7ce5e7-7351-42e0-88ce-6783b5c2e507
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '29'
-ht-degree: 17%
+ht-degree: 10%
 
 ---
 
 # InfoPanelPopup.showhidetransition{#infopanelpopup-showhidetransition}
 
-` [InfoPanelPopup.|<containerId>_infoPanelPopup.]showhidetranstion=fade|none[, *`tiempo`*]`
+` [InfoPanelPopup.|<containerId>_infoPanelPopup.]showhidetranstion=fade|none[, *`hora`*]`
 
 <table id="table_863763B730A949AA8C0E11E6F8461E3A"> 
  <tbody> 
@@ -23,7 +23,7 @@ ht-degree: 17%
    <td colname="col2"> <p> Especifica el tipo de animación de mostrar/ocultar del panel de información. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"><span class="varname"> tiempo</span></span> </p> </td> 
+   <td> <p> <span class="codeph"><span class="varname"> vez</span></span> </p> </td> 
    <td> <p> Duración (en segundos) de la animación para mostrar u ocultar. </p> </td> 
   </tr> 
  </tbody> 

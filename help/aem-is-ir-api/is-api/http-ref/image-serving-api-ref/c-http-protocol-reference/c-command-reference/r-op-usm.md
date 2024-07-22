@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: a83d6326-9029-4c5c-a069-92bc81120866
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 6%
+source-wordcount: '151'
+ht-degree: 1%
 
 ---
 
@@ -22,7 +22,7 @@ Se supone que los parámetros se aplican a la imagen de resolución completa y s
 
 <table id="simpletable_0697E3BCB45F41C494D93A6017ADD2BF"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"><span class="varname"> cantidad</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"><span class="varname"> importe</span></span> </p></td> 
   <td class="stentry"> <p>Factor de intensidad del filtro (real 0...5). </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -35,7 +35,7 @@ Se supone que los parámetros se aplican a la imagen de resolución completa y s
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> monocromo</span></span> </p></td> 
-  <td class="stentry"> <p>Establezca el valor en 0 para aplicarlo a cada componente de color por separado o en 1 para aplicarlo únicamente al brillo (intensidad) de la imagen. </p> <p> <span class="codeph"><span class="varname"> monocromo</span></span> se ignora en las imágenes en escala de grises. </p></td> 
+  <td class="stentry"> <p>Establezca el valor en 0 para aplicarlo a cada componente de color por separado o en 1 para aplicarlo únicamente al brillo (intensidad) de la imagen. </p> <p> <span class="codeph"><span class="varname"> monocromo</span></span> se omite para imágenes en escala de grises. </p></td> 
  </tr> 
 </table>
 

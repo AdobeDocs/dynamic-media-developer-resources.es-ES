@@ -8,7 +8,7 @@ exl-id: ba8818ff-3040-463c-80d3-b7cfd1e01f77
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '67'
-ht-degree: 17%
+ht-degree: 14%
 
 ---
 
@@ -46,7 +46,7 @@ La API de IPS no devuelve una respuesta para esta operación.
 
 Este ejemplo de código reinicia un trabajo en pausa.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <resumeJobParam xmlns="http://www.scene7.com/IpsApi/xsd">

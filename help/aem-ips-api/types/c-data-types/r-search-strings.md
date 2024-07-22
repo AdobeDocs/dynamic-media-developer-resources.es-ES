@@ -8,7 +8,7 @@ exl-id: 3f67ba8a-12dd-4698-9502-7cbdec9cb25d
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 14%
+ht-degree: 12%
 
 ---
 

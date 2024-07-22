@@ -8,7 +8,7 @@ exl-id: 2af7c949-46cf-4570-9043-1b6296a2e467
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '48'
-ht-degree: 14%
+ht-degree: 10%
 
 ---
 
@@ -32,7 +32,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> forceUpdate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">Genera el mapa del sitio cuando se establece en <span class="codeph"> true</span>. <p><p>Nota: Si la configuración de generación de mapas del sitio se establece en manual y <span class="codeph"> forceUpdate</span> no se ha establecido, el mapa del sitio no se ha generado. </p></p></td> 
+   <td colname="col3">Genera el mapa del sitio cuando se establece en <span class="codeph"> true</span>. <p><p>Nota: Si la configuración de generación de mapas del sitio se establece en manual y <span class="codeph"> forceUpdate</span> no se establece, no se generará el mapa del sitio. </p></p></td> 
   </tr> 
  </tbody> 
 </table>

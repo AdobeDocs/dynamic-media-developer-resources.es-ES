@@ -7,23 +7,23 @@ role: Developer,User
 exl-id: aa12a210-88d9-4b96-b598-6967496ac668
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 3%
+source-wordcount: '108'
+ht-degree: 2%
 
 ---
 
 # PageView.transition{#pageview-transition}
 
-` [PageView.|<containerId>_pageView.]transition= *`hora`*[, *`relajación`*]`
+` [PageView.|<containerId>_pageView.]transition= *`tiempo`*[, *`aliviando`*]`
 
 <table id="table_E314540D347D47699C04EB80D20C0721"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> tiempo</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> vez</span></span> </p> </td> 
    <td colname="col2"> <p> Especifica el tiempo en segundos que tarda la animación para una única acción de paso de zoom. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> relajación</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> aliviando</span></span> </p> </td> 
    <td colname="col2"> <p> Crea una ilusión de aceleración o desaceleración que hace que la transición parezca más natural. Puede establecer la aceleración en una de las siguientes opciones: </p> <p> 
      <ul id="ul_DA0D1CF2F2484410BFCCACA86661702E"> 
       <li id="li_93A2D53A53314D9594CEDC9EB20381D4">0 (automático) </li> 

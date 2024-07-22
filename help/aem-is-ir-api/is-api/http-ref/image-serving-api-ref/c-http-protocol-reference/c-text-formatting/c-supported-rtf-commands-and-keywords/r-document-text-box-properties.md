@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: e9d21a39-4d98-4115-8179-ab5acf713c80
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 1%
+source-wordcount: '225'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,7 @@ Las siguientes propiedades de documento son compatibles con los cuadros de texto
   </tr> 
   <tr> 
    <td> <span class="codeph"> \fcharset <span class="varname"> N </span> </span> </td> 
-   <td> <p>Conjunto de caracteres para fuente <i>N</i>. </p> </td> 
+   <td> <p>Conjunto de caracteres para la fuente <i>N</i>. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
@@ -48,42 +48,42 @@ Las siguientes propiedades de documento son compatibles con los cuadros de texto
   <tr> 
    <td> <span class="codeph"> \*\iscolortbl </span> </td> 
    <td> <p>Tabla de colores para los colores del servicio de imágenes. </p> </td> 
-   <td> <p>extensión de Dynamic Media; <span class="codeph"> textPs= </span> solamente </p> </td> 
+   <td> <p>Extensión de Dynamic Media; <span class="codeph"> textPs= </span> solamente </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \red <span class="varname"> N </span> </span> </td> 
    <td> <p>Componente de color rojo. </p> </td> 
-   <td> <p>Solo puede aparecer en <span class="codeph"> \colortbl </span>; 0...255 </p> </td> 
+   <td> <p>Puede aparecer solamente en <span class="codeph"> \colortbl </span>; 0...255 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \green <span class="varname"> N </span> </span> </td> 
    <td> <p>Componente de color verde. </p> </td> 
-   <td> <p>Solo puede aparecer en <span class="codeph"> \colortbl </span>; 0...255 </p> </td> 
+   <td> <p>Puede aparecer solamente en <span class="codeph"> \colortbl </span>; 0...255 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \blue <span class="varname"> N </span> </span> </td> 
    <td> <p>Componente de color azul. </p> </td> 
-   <td> <p>Solo puede aparecer en <span class="codeph"> \colortbl </span>; 0...255 </p> </td> 
+   <td> <p>Puede aparecer solamente en <span class="codeph"> \colortbl </span>; 0...255 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \cian <span class="varname"> N </span> </span> </td> 
    <td> <p>Componente de color cian. </p> </td> 
-   <td> <p>extensión de Dynamic Media; solo puede aparecer en <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
+   <td> <p>Dynamic Media extension; solo puede aparecer en <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \magenta <span class="varname"> N </span> </span> </td> 
    <td> <p>Componente de color magenta. </p> </td> 
-   <td> <p>extensión de Dynamic Media; solo puede aparecer en <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
+   <td> <p>Dynamic Media extension; solo puede aparecer en <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \amarillo <span class="varname"> N </span> </span> </td> 
    <td> <p>Componente de color amarillo. </p> </td> 
-   <td> <p>extensión de Dynamic Media; solo puede aparecer en <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
+   <td> <p>Dynamic Media extension; solo puede aparecer en <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \black <span class="varname"> N </span> </span> </td> 
    <td> <p>Componente de color negro. </p> </td> 
-   <td> <p>extensión de Dynamic Media; solo puede aparecer en <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
+   <td> <p>Dynamic Media extension; solo puede aparecer en <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \margl <span class="varname"> N </span> </span> </td> 
@@ -123,7 +123,7 @@ Las siguientes propiedades de documento son compatibles con los cuadros de texto
   <tr> 
    <td> <span class="codeph"> \stextflow <span class="varname"> N </span> </span> </td> 
    <td> <p>Orientación del flujo de texto. </p> </td> 
-   <td> <p>Flujo de texto específico del idioma; <span class="codeph"> textPs= </span> solo 0 (predeterminado) izquierda-derecha, arriba-abajo (europeo) 1 arriba-abajo, derecha-izquierda (extremo oriental) </p> </td> 
+   <td> <p>Flujo de texto específico del idioma; <span class="codeph"> textPs= </span> solamente 0 (predeterminado) left-right, top-bottom (europeo) 1 top-bottom, right-left (extremo oriental) </p> </td> 
   </tr> 
  </tbody> 
 </table>

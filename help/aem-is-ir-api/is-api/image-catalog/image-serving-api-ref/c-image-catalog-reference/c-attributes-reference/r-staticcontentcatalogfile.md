@@ -8,7 +8,7 @@ exl-id: ff6f0ad8-189f-4172-89cb-f138d2df8fe4
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '116'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Rutas del archivo de datos del catálogo de contenido estático. Especifica los archivos que contienen los datos de contenido estático para este catálogo.
 
-Los archivos de datos del catálogo de contenido estático se cargan en el orden especificado. Si es el mismo `static::Id` Si el valor aparece en más de un registro (en el mismo o en distintos archivos de catálogo), prevalecerá la última instancia.
+Los archivos de datos del catálogo de contenido estático se cargan en el orden especificado. Si el mismo valor `static::Id` aparece en más de un registro (en el mismo archivo de catálogo o en varios), prevalecerá la última instancia.
 
 ## Propiedades {#section-3f8dc8d21fa84fbeb71db6ca1ecbdd8c}
 

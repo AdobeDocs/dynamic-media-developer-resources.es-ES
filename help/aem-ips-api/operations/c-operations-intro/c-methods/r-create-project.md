@@ -8,7 +8,7 @@ exl-id: dd9c07df-9a8f-4b67-9838-31dd96fd127b
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '76'
-ht-degree: 19%
+ht-degree: 18%
 
 ---
 
@@ -44,9 +44,9 @@ Sintaxis
 
 ## Ejemplos {#section-a0cd532b67e346d088fbec141231a0e5}
 
-Este ejemplo de código crea un proyecto llamado `ApiTestProject` en una compañía especificada por su identificador. La respuesta devuelve el identificador del proyecto.
+Este ejemplo de código crea un proyecto denominado `ApiTestProject` en una compañía especificada por su identificador. La respuesta devuelve el identificador del proyecto.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <createProjectParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

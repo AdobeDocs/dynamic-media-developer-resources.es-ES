@@ -8,7 +8,7 @@ exl-id: 1cdb9c45-329d-44df-92c3-8cba5b2b1339
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '328'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Este documento describe el catálogo de materiales para el procesamiento de imágenes de Dynamic Media.
 
-**Destinatarios previstos**
+**Audiencia prevista**
 
 Este documento está diseñado para programadores con experiencia y desarrolladores de sitios web que deseen aprovechar el procesamiento de imágenes de Dynamic Media para un sitio web o una aplicación personalizada.
 
@@ -38,11 +38,11 @@ Se da por hecho que el lector está familiarizado con la creación y el procesam
   <td class="stentry"> <p>La cursiva indica una variable o un parámetro que se va a sustituir por un valor real. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> attribute::Item </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> atributo::Elemento </span> </p> </td> 
   <td class="stentry"> <p>Un nombre con el prefijo "attribute:::" hace referencia a un atributo de catálogo de imágenes. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <span class="codeph"> catalog::Item </span> </td> 
+  <td class="stentry"> <span class="codeph"> catálogo::Elemento </span> </td> 
   <td class="stentry"> <p>Un nombre con el prefijo "catalog::" hace referencia a un campo de datos del catálogo de materiales. </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -62,19 +62,19 @@ Se da por hecho que el lector está familiarizado con la creación y el procesam
   <td class="stentry"> <p>Un nombre con el prefijo "default::" hace referencia a un atributo del catálogo de imágenes predeterminado. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> viñeta::Item </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> viñeta::Elemento </span> </p> </td> 
   <td class="stentry"> <p>Un nombre con el prefijo "viñeta::" hace referencia a un campo del mapa de viñetas. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>[ <span class="varname"> opcional </span> ] </p> </td> 
+  <td class="stentry"> <p>[ <span class="varname"> </span> opcional ] </p> </td> 
   <td class="stentry"> <p>Los elementos de sintaxis opcionales están entre corchetes. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>*[ <span class="varname"> opcional </span> ] </p> </td> 
+  <td class="stentry"> <p>*[ <span class="varname"> </span> opcional ] </p> </td> 
   <td class="stentry"> <p>El elemento de sintaxis opcional se puede repetir una o más veces. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> item1 </span>| <span class="varname"> item2 </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> elemento1 </span>| <span class="varname"> elemento2 </span> </p> </td> 
   <td class="stentry"> <p>Una barra vertical indica que se puede utilizar el único elemento de sintaxis a la izquierda o el elemento a la derecha. Se debe seleccionar exactamente un elemento. </p> </td> 
  </tr> 
  <tr class="strow"> 

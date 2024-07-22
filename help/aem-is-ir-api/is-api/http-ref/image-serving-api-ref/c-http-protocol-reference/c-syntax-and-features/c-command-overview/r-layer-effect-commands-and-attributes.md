@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 483b1f24-9cd2-45e0-9d18-0dc0fbe8abcf
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 1%
+source-wordcount: '116'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ Estos comandos se pueden utilizar para definir efectos de capa, como sombras par
 
 <table id="simpletable_3094B9783772437FAACF9B382F7A32EE"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-blendmode.md#reference-8be10dde1d584429966cb61ac8e7d172" type="reference" format="dita" scope="local"> blendMode</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-blendmode.md#reference-8be10dde1d584429966cb61ac8e7d172" type="reference" format="dita" scope="local"> modoCombinación</a> </p></td> 
   <td class="stentry"> <p>Especifica el modo de fusión de capas. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -26,7 +26,7 @@ Estos comandos se pueden utilizar para definir efectos de capa, como sombras par
   <td class="stentry"> <p>Especifica el color y la opacidad del efecto principal. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-effect.md#reference-b1296c4afed047fb921bbc1e33752135" type="reference" format="dita" scope="local"> efecto</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-effect.md#reference-b1296c4afed047fb921bbc1e33752135" type="reference" format="dita" scope="local">, efecto</a> </p></td> 
   <td class="stentry"> <p>Inicia el segmento de capa de efecto y especifica el orden Z. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -46,7 +46,7 @@ Estos comandos se pueden utilizar para definir efectos de capa, como sombras par
   <td class="stentry"> <p>Añade ruido al efecto. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-opac.md#reference-d2269b51aca34599a08d0a46ee5c27e5" type="reference" format="dita" scope="local"> opaco</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-opac.md#reference-d2269b51aca34599a08d0a46ee5c27e5" type="reference" format="dita" scope="local"> opac</a> </p></td> 
   <td class="stentry"> <p>Reduce la opacidad de la capa. </p></td> 
  </tr> 
  <tr class="strow"> 

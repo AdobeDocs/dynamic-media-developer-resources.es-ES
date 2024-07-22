@@ -8,7 +8,7 @@ exl-id: a3c4c1cd-0fcc-4e7a-a4aa-884d0ce2f208
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '50'
-ht-degree: 14%
+ht-degree: 10%
 
 ---
 
@@ -23,7 +23,7 @@ Sintaxis
 | Nombre | Tipo | Descripción |
 |---|---|---|
 | companyHandle | `xsd:string` | Manejo de la compañía. |
-| companyName | `xsd:string` | Nombre de empresa. |
+| companyName | `xsd:string` | Nombre de la empresa. |
 | imageCount | `xsd:int` | Número de imágenes almacenadas. |
 | diskSpaceUsage | `xsd:long` | Cara total del archivo en kilobytes. |
-| lastModified | `xsd:dateTime` | Fecha, hora y zona horaria de la `DiskUsage` el tipo se modificó por última vez. |
+| lastModified | `xsd:dateTime` | Fecha, hora y zona horaria de la última modificación del tipo `DiskUsage`. |

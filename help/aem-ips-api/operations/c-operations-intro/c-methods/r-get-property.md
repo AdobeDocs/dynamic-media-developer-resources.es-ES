@@ -8,7 +8,7 @@ exl-id: 2297b785-28c7-49c6-8891-00986f35ea88
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '132'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -22,10 +22,10 @@ Entre las propiedades del sistema compatibles se incluyen:
 * `IpsImageServerUrl`: prefijo de URL externo completo para el servidor de imágenes IPS.
 * `VideoRootUrl`
 * `swfRootUrl`
-* `SvgRenderRootUrl`: prefijo URL para procesar recursos del SVG.
-* `SvgRenderEnabled`: True si los recursos de SVG se pueden representar mediante `SvgRenderRootUrl`.
+* `SvgRenderRootUrl`: prefijo de URL para procesar recursos del SVG.
+* `SvgRenderEnabled`: True si `SvgRenderRootUrl` puede representar los recursos de SVG.
 
-* `UploadPostMaxFileSize`: Tamaño máximo (en bytes) de datos de archivo permitido en una carga [!DNL POST]. El sistema rechaza los archivos que superan el límite máximo.
+* `UploadPostMaxFileSize`: tamaño máximo (en bytes) de datos de archivo permitido en una carga [!DNL POST]. El sistema rechaza los archivos que superan el límite máximo.
 
 ## Tipos de usuarios autorizados {#section-2cd36bbd46ed414b8753569d5895530e}
 
@@ -57,7 +57,7 @@ Entre las propiedades del sistema compatibles se incluyen:
 
 Este ejemplo de código utiliza una constante de cadena de propiedades IPS para devolver un valor específico. En este ejemplo, la propiedad IPS es la versión del servidor IPS.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <ns1:getPropertyParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

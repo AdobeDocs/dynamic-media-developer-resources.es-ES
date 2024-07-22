@@ -8,7 +8,7 @@ exl-id: d8f8fe53-a874-4b77-9084-9a369862a672
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 20%
+ht-degree: 18%
 
 ---
 
@@ -35,7 +35,7 @@ Sintaxis
 | firstName | `xsd:string` | Sí | Nombre. |
 | lastName | `xsd:string` | Sí | Apellido. |
 | correo electrónico | `xsd:string` | Sí | Correo electrónico del usuario. |
-| defaultRole | `xsd:string` | Sí | Establece la función de un usuario en cada compañía a la que pertenece. Sin embargo, tenga en cuenta que `IpsAdmin` la función anula otras configuraciones por empresa. |
+| defaultRole | `xsd:string` | Sí | Establece la función de un usuario en cada compañía a la que pertenece. Sin embargo, tenga en cuenta que el rol `IpsAdmin` anula otras configuraciones por compañía. |
 | passwordExpires | `xsd:dateTime` | No | Fecha de caducidad de la contraseña del conjunto. |
 | isValid | `xsd:boolean` | Sí | Determina si el usuario es un usuario de IPS válido. |
 | subscriptionArray | `types:CompanyMembershipUpdateArray` | Sí | Una matriz de identificadores de empresa. |
@@ -46,7 +46,7 @@ La API de IPS no devuelve una respuesta para esta operación.
 
 ## Ejemplos {#section-272c103076fb4de0a53729e2f6bfb895}
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <setUserInfoParam xmlns="http://www.scene7.com/IpsApi/xsd">

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 2f02371c-39c7-46fd-95a6-909efacac72c
 source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '195'
 ht-degree: 1%
 
 ---
@@ -18,11 +18,11 @@ Referencia de la API de JavaScript para el visor de vídeo
 
 `getComponent(componentId)`
 
-Devuelve una referencia al componente del SDK del visor que utiliza el visor. La página web puede utilizar este método para ampliar o personalizar el comportamiento del visualizador integrado. Llame a este método solo después de que `initComplete` la llamada de retorno del visor se ha ejecutado; de lo contrario, es posible que la lógica del visor aún no haya creado el componente.
+Devuelve una referencia al componente del SDK del visor que utiliza el visor. La página web puede utilizar este método para ampliar o personalizar el comportamiento del visualizador integrado. Llame a este método únicamente después de que se haya ejecutado la devolución de llamada del visor `initComplete`; de lo contrario, es posible que la lógica del visor aún no haya creado el componente.
 
 ## Parámetros {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`componentID`*` - `{String}` un ID del componente del SDK del visor utilizado por el visor. Este visor es compatible con los siguientes ID de componente:
+`*`componentID`*` - `{String}` es un ID del componente de SDK de visor que usa el visor. Este visor es compatible con los siguientes ID de componente:
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
@@ -103,13 +103,13 @@ Devuelve una referencia al componente del SDK del visor que utiliza el visor. La
  </tbody> 
 </table>
 
-Al trabajar con las API de SDK, es importante utilizar el espacio de nombres del SDK completo correcto, tal como se describe en [Espacio de nombres del SDK de visor](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-namespace.md#concept-679bfabb3e3e4c12a285c4e9c4144153).
+Al trabajar con las API de SDK, es importante usar el espacio de nombres completo del SDK correcto tal como se describe en [Espacio de nombres del SDK del visor](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-namespace.md#concept-679bfabb3e3e4c12a285c4e9c4144153).
 
 Consulte la documentación de la API del SDK de visualizadores para obtener más información sobre un componente en particular.
 
 ## Devuelve {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` Una referencia al componente SDK de visor. El método devuelve `null` si la variable `componentId` no es un componente de visor compatible o si la lógica del visor aún no ha creado el componente.
+`{Object}` Una referencia al componente SDK del visor. El método devuelve `null` si `componentId` no es un componente de visor compatible o si la lógica del visor aún no ha creado el componente.
 
 ## Ejemplo {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

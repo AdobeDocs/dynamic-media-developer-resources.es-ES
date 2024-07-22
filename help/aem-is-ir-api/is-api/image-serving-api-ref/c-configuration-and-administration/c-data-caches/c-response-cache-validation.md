@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: d2baa6e6-2700-450f-af1e-88b6d33d0e0c
 source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 Las entradas de caché se actualizan automáticamente mediante la validación de caché basada en el catálogo o en la caducidad, tal como se selecciona con attribute::CacheValidationPolicy (en default.ini o el archivo .ini de un catálogo de imágenes específico).
 
-Con la validación basada en el catálogo, una entrada de caché existente se considera obsoleta si `catalog::LastModified` (o `attribute::LastModified`, o la hora de modificación del archivo de [!DNL catalog.ini] file) es más reciente que la vez que se creó la entrada de caché.
+Con la validación basada en el catálogo, una entrada de caché existente se considera obsoleta si `catalog::LastModified` (o `attribute::LastModified`, o la hora de modificación del archivo [!DNL catalog.ini]) es más reciente que la hora en la que se creó la entrada de caché.
 
 Con la validación basada en la caducidad, una entrada de caché queda obsoleta pasados 5 minutos desde la validación más reciente. En ambos casos, el servidor valida las entradas de caché obsoletas comprobando las fechas de los archivos de imagen que se utilizaron para crear la solicitud. Si las fechas del archivo no han cambiado, la marca de tiempo de la entrada de caché se actualiza y la fecha en caché se considera válida.
 
-Para las aplicaciones típicas que implican principalmente imágenes registradas en catálogos de imágenes, la validación basada en catálogos proporciona una ventaja de rendimiento. Las aplicaciones que no implican catálogos de imágenes deben utilizar la validación de caché basada en la caducidad. Una forma de lograrlo es establecer `attribute::cacheValidationPolicy=0` in [!DNL default.ini], y a `1` en todos los archivos de catálogo de imágenes específicos.
+Para las aplicaciones típicas que implican principalmente imágenes registradas en catálogos de imágenes, la validación basada en catálogos proporciona una ventaja de rendimiento. Las aplicaciones que no implican catálogos de imágenes deben utilizar la validación de caché basada en la caducidad. Una manera de conseguirlo es establecer `attribute::cacheValidationPolicy=0` en [!DNL default.ini] y `1` en todos los archivos específicos del catálogo de imágenes.
 
-Las entradas de caché dejan de ser válidas y están sujetas a regeneración cuando una entrada de catálogo relacionada con la solicitud cambia de una manera que probablemente causaría un cambio en la imagen de respuesta. Por ejemplo, el contenido de `catalog::Modifier` cambios.
+Las entradas de caché dejan de ser válidas y están sujetas a regeneración cuando una entrada de catálogo relacionada con la solicitud cambia de una manera que probablemente causaría un cambio en la imagen de respuesta. Por ejemplo, cambia el contenido de `catalog::Modifier`.
 
 >[!NOTE]
 >

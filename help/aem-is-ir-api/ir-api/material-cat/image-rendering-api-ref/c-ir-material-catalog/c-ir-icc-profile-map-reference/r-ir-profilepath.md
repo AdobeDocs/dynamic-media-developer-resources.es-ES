@@ -8,7 +8,7 @@ exl-id: f3ab11a6-d14d-426b-aaa8-af14f062532c
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '55'
-ht-degree: 9%
+ht-degree: 7%
 
 ---
 
@@ -18,7 +18,7 @@ Ruta del archivo de perfil. Ruta y nombre del archivo de perfil de color ICC, in
 
 ## Propiedades {#section-5b75d459083f49f3bbd89ce8458559f7}
 
-Cadena de texto. Obligatorio. Debe ser una ruta de archivo válida del servidor de imágenes, absoluta o relativa a `attribute::RootPath`.
+Cadena de texto. Requerido. Debe ser una ruta de acceso al archivo del servidor de imágenes válida, absoluta o relativa a `attribute::RootPath`.
 
 ## Predeterminado {#section-67b79d62b3e24c62aff6844cc5e04251}
 

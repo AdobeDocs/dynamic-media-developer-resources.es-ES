@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: d58e1290-8a79-4129-99ce-776b919dea13
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 5%
+source-wordcount: '520'
+ht-degree: 4%
 
 ---
 
@@ -48,7 +48,7 @@ Las versiones más recientes del servidor de procesamiento de imágenes admiten 
    <td colname="col4"> Identificador de la compañía a la que pertenece la viñeta. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> nombre</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
    <td colname="col3"> Sí </td> 
    <td colname="col4"> Nombre para identificar el formato de publicación de viñeta. </td> 
@@ -90,7 +90,7 @@ Las versiones más recientes del servidor de procesamiento de imágenes admiten 
    <td colname="col4"> Especifica el carácter que separa el nombre de la viñeta y el sufijo que indica su anchura. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> afilar</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> enfoque</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> Aplica enfoque a la imagen de vista principal para cada tamaño de viñeta de publicación. El enfoque puede compensar el desenfoque que se produce cuando las viñetas se reducen o se agrandan. </td> 
@@ -126,7 +126,7 @@ Las versiones más recientes del servidor de procesamiento de imágenes admiten 
 
 Este código crea un formato de publicación de viñeta. La solicitud de creación especifica un nombre, una anchura y altura de destino y otros valores necesarios.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <createVignettePublishFormatParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

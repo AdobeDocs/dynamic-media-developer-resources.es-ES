@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 05f5abe0-1124-4114-864d-440699bcdc39
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Cierto contenido que muestra el Visor de carrusel está sujeto a la localización. Este contenido incluye botones de navegación con diapositivas.
 
-Cada contenido textual del visualizador que se puede localizar se representa mediante el identificador especial del SDK del visualizador, denominado SYMBOL. Cualquier SYMBOL tiene un valor de texto asociado por defecto para una configuración regional en inglés ( `"en"`) se suministra con el visor predeterminado y también puede tener valores definidos por el usuario para tantas configuraciones regionales como sea necesario.
+Cada contenido textual del visualizador que se puede localizar se representa mediante el identificador especial del SDK del visualizador, denominado SYMBOL. Cualquier SYMBOL tiene un valor de texto asociado predeterminado para una configuración regional en inglés (`"en"`) que se proporciona con el visor predeterminado, y también puede tener valores definidos por el usuario para tantas configuraciones regionales como sea necesario.
 
 Cuando se inicia el visor, comprueba la configuración regional actual para ver si hay un valor definido por el usuario para cada SYMBOL admitido para dicha configuración regional. Si existe, utiliza el valor definido por el usuario; de lo contrario, vuelve al texto predeterminado predeterminado.
 
@@ -40,7 +40,7 @@ defaultLocale:"en"
 
 En el ejemplo anterior, el objeto de localización define dos configuraciones regionales ( `"en"` y `"fr"`) y proporciona localización para dos elementos de interfaz de usuario en cada configuración regional.
 
-El código de la página web debe pasar el objeto de localización al constructor del visor como un valor de `localizedTexts` del objeto de configuración. Una opción alternativa es pasar el objeto de localización llamando a `setLocalizedTexts(localizationInfo)` método.
+El código de la página web debe pasar el objeto de localización al constructor del visor, como valor del campo `localizedTexts` del objeto de configuración. Una opción alternativa es pasar el objeto de localización llamando al método `setLocalizedTexts(localizationInfo)`.
 
 Se admiten los siguientes SYMBOL:
 
@@ -62,7 +62,7 @@ Se admiten los siguientes SYMBOL:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> CAROUSELVIEWER_TOOLTIP_GOTO </span> </p> </td> 
-   <td colname="col2"> <p> Información del objeto y etiqueta ARIA para los botones de diapositiva anterior y siguiente. </p> <p>Acepta dos tokens de reemplazo: <span class="codeph"> $CURRENT_FRAME$ </span> para el índice de diapositiva actual y <span class="codeph"> $TOTAL_FRAMES$ </span> para el número total de diapositivas. </p> </td> 
+   <td colname="col2"> <p> Información del objeto y etiqueta ARIA para los botones de diapositiva anterior y siguiente. </p> <p>Acepta dos tokens de reemplazo: <span class="codeph"> $CURRENT_FRAME$ </span> para el índice de la diapositiva actual y <span class="codeph"> $TOTAL_FRAMES$ </span> para el número total de diapositivas. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Container.LABEL </span> </p> </td> 

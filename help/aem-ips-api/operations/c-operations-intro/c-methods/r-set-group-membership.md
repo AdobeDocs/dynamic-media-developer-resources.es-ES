@@ -8,7 +8,7 @@ exl-id: 0a355a34-1c2d-48c1-ba12-7d07d1673d09
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -42,7 +42,7 @@ La API de IPS no devuelve una respuesta para esta operación.
 
 Este ejemplo de código convierte al usuario en miembro de un grupo. Agregue un usuario a varios grupos con la matriz de identificadores de grupo.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <ns1:setGroupMembershipParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: a0e01edb-c52b-436d-a166-e24cc6861c49
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 11%
+source-wordcount: '334'
+ht-degree: 7%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 Busca los términos de búsqueda dados en el repositorio de índices de metadatos. Devuelve datos de recurso como el método searchAssets.
 
-While `searchAssetsByMetadata` le permite buscar campos de metadatos definidos por el usuario, que no se devuelven si se especifican en la variable `responseMetadataArray`. Para ilustrar este punto, vea el siguiente ejemplo de código:
+Aunque `searchAssetsByMetadata` le permite buscar campos de metadatos definidos por el usuario, esos campos no se devuelven si se especifican en `responseMetadataArray`. Para ilustrar este punto, vea el siguiente ejemplo de código:
 
 ```java
 <ns:responseMetadataArray>
@@ -33,7 +33,7 @@ devuelve un valor nulo:
 </items>
 ```
 
-Para solucionar este problema, puede usar la variable `fieldHandles` de los recursos que se devuelven de la búsqueda para ejecutarse. `getAssets` (consulte también [getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)). Este método obtiene los valores de Campos definidos por el usuario para los recursos en cuestión. Utilice el siguiente ejemplo de sintaxis para buscar campos de metadatos definidos por el usuario:
+Para solucionar este problema, puede usar `fieldHandles` de los recursos que se devuelven de la búsqueda para ejecutar `getAssets` (consulte también [getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)). Este método obtiene los valores de Campos definidos por el usuario para los recursos en cuestión. Utilice el siguiente ejemplo de sintaxis para buscar campos de metadatos definidos por el usuario:
 
 ```java
 <ns:metadataConditionArray>
@@ -76,20 +76,20 @@ Para solucionar este problema, puede usar la variable `fieldHandles` de los recu
    <td colname="col4"> <p>El identificador de la compañía. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> Filtrar</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> type:FiltroBúsqueda</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> Filtro</span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> type:SearchFilter</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Filtros que ayudan a definir los criterios de búsqueda. </p> <p>Consulte <a href="../../../types/c-data-types/r-search-filter.md#reference-0e2eb87bccae4b69be6717267bcb80aa" format="dita" scope="local"> SearchFilter</a>. </p> </td> 
+   <td colname="col4"> <p>Filtros que ayudan a definir los criterios de búsqueda. </p> <p>Ver <a href="../../../types/c-data-types/r-search-filter.md#reference-0e2eb87bccae4b69be6717267bcb80aa" format="dita" scope="local"> SearchFilter</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> metadataConditionArray</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> type:MetadataConditionArray</span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> tipo:MetadataConditionArray</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
    <td colname="col4"> <p>Condiciones que definen los criterios de búsqueda. Consulte a continuación para obtener más información. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> responseMetadataArray</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> type:StringArray</span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> tipo:StringArray</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
    <td colname="col4"> <p>Campos adicionales que desee rellenar en la respuesta del resumen del recurso. Los campos deben especificarse en el formato normalizado. </p> </td> 
   </tr> 
@@ -103,7 +103,7 @@ Para solucionar este problema, puede usar la variable `fieldHandles` de los recu
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Especifica la página de resultados que se va a devolver en función de <span class="codeph"> recordsPerPage</span> tamaño de página. </p> </td> 
+   <td colname="col4"> <p>Especifica la página de resultados que se va a devolver, en función de <span class="codeph"> recordsPerPage</span> tamaño de página. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> sortBy</span> </span> </p> </td> 
@@ -131,7 +131,7 @@ Para solucionar este problema, puede usar la variable `fieldHandles` de los recu
 
 **Estructura del elemento**
 
-`metadataConditionArray` La estructura es la siguiente:
+La estructura de `metadataConditionArray` es la siguiente:
 
 ```java
 <ns1:items>
@@ -156,13 +156,13 @@ Para solucionar este problema, puede usar la variable `fieldHandles` de los recu
 * `sku`
 * `modified_at`
 * `modified_by`
-* `created_at` (igual que `modified_at` (Fecha en formato: vie jul 25 2014 22:13:45 GMT-0500 (CDT)
+* `created_at` (igual que `modified_at` (fecha con el formato: viernes, 25 de julio de 2014 22:13:45 GMT-0500 (CDT))
 
 * `created_by`
 
 **Operadores permitidos**
 
-El [!DNL operator] define cómo comparar el valor e incluir:
+[!DNL operator] define cómo comparar el valor e incluir:
 
 * `Equals`
 * `NotEquals`
@@ -171,17 +171,17 @@ El [!DNL operator] define cómo comparar el valor e incluir:
 * `StartsWith`
 * `EndsWith`
 
-El `comparison_value` es el término que se debe buscar.
+`comparison_value` es el término que se debe buscar.
 
 ## Ejemplos {#section-53a12b9c023e4e629eddf5719c955ad4}
 
 Este ejemplo de código realiza una búsqueda con los siguientes criterios de metadatos:
 
-* `name` el campo contiene `1000801`.
+* El campo `name` contiene `1000801`.
 
-* `dc.rights` field es igual a `Per Jessen Schmidt`.
+* `dc.rights` campo es igual a `Per Jessen Schmidt`.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"

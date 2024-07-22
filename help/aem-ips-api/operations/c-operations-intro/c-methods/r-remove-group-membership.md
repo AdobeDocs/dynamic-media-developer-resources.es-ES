@@ -8,7 +8,7 @@ exl-id: 892ee01c-e07b-4321-b0b7-5bb606036340
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 10%
+ht-degree: 8%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 10%
 
 Quita usuarios de una matriz de grupos.
 
-**Diferencias entre los comandos Quitar**
+**Diferencias entre los comandos de eliminación**
 
-* `removeGroupMembers`: elimina varios usuarios de un grupo.
+* `removeGroupMembers`: quita varios usuarios de un grupo.
 * `removeGroupMembership`: quita un usuario individual de una matriz de grupos.
 
 ## Tipos de usuarios autorizados {#section-83f3048bbe5a4f62b7b14dc9efdd951a}
@@ -44,7 +44,7 @@ La API de IPS no devuelve una respuesta para esta operación.
 
 Este ejemplo de código quita un usuario de un grupo.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <ns1:removeGroupMembershipParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

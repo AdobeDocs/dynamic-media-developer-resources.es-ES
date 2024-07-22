@@ -25,7 +25,7 @@ Desenfocar imagen. Aplica un filtro de desenfoque a los datos de imagen.
  </tr> 
 </table>
 
-*`radius`* está en píxeles con relación a la imagen compuesta. También se utiliza para desvanecer efectos de capa.
+*`radius`* se encuentra en píxeles con relación a la imagen compuesta. También se utiliza para desvanecer efectos de capa.
 
 ## Propiedades {#section-92573fe2c07746a7bab93a81fc3d208d}
 
@@ -37,6 +37,6 @@ Capa, comando. Se aplica a la capa actual o a la imagen compuesta si `layer=comp
 
 ## Ejemplo {#section-1ebacde68388492eb108ae0fcd7424db}
 
-Desenfocar el fondo de una imagen. Se hace referencia a una imagen de máscara independiente mediante `catalog::MaskPath`. Tenga en cuenta que `layer=0`debe especificarse explícitamente; en caso contrario `op_blur` se aplicaría a toda la imagen compuesta.
+Desenfocar el fondo de una imagen. `catalog::MaskPath` hace referencia a una imagen de máscara independiente. Tenga en cuenta que `layer=0` debe especificarse explícitamente, de lo contrario `op_blur` se aplicaría a toda la imagen compuesta.
 
 `http://server/myRootId/myImageId?wid=500&layer=0&maskUse=invert&op_blur=20&layer=1&src=myRootId/myImageId`

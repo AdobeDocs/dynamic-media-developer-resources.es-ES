@@ -8,7 +8,7 @@ exl-id: c30df5fe-e355-45d4-8c06-e396caca0d58
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '124'
-ht-degree: 12%
+ht-degree: 8%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 12%
 
 Establece la lista de recursos asociados a un conjunto de imágenes.
 
-Esta operación ignora la variable `pageReset` parámetro para `ImageSets` y `SpinSets` y fuerza el valor en true.
+Esta operación ignora el parámetro `pageReset` de `ImageSets` y `SpinSets` y fuerza el valor a true.
 
 ## Tipos de usuarios autorizados {#section-8968d6a39a344cfc8521020d92ae8916}
 
@@ -74,7 +74,7 @@ La API de IPS no devuelve una respuesta para esta operación.
 
 Este ejemplo de código utiliza una matriz de miembros para establecer los miembros de un conjunto de imágenes.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <setImageSetMembersParam xmlns="http://www.scene7.com/IpsApi/xsd">

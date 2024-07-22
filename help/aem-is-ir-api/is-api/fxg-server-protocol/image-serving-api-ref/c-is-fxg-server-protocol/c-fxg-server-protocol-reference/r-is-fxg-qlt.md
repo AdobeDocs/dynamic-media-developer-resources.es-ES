@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 8801a650-303c-47a3-8136-c8b2b7a80e9d
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '192'
 ht-degree: 15%
 
 ---
@@ -33,9 +33,9 @@ Solo se usa si `fmt=jpg`. Ignorado de otro modo
 
 Unos valores de calidad altos aumentan el tamaño del archivo y la calidad; unos valores bajos reducen el tamaño de los archivos y la calidad de imagen percibida. Si el valor es superior a 90, suele generar imágenes que no se distinguen de la imagen sin comprimir.
 
-Configure las variables `chroma` Indicador que desactiva la disminución de resolución de cromaticidad RGB empleada por los codificadores JPEG típicos. Esto puede aumentar la nitidez percibida de los bordes de una imagen cuando el borde se define por un cambio en el tono en lugar de en el brillo. La configuración de este indicador puede provocar un ligero aumento en el tamaño del archivo. Experimente con esta configuración si el texto parece ligeramente borroso.
+Establezca el indicador `chroma` para deshabilitar la disminución de resolución de cromaticidad RGB empleada por los codificadores JPEG típicos. Esto puede aumentar la nitidez percibida de los bordes de una imagen cuando el borde se define por un cambio en el tono en lugar de en el brillo. La configuración de este indicador puede provocar un ligero aumento en el tamaño del archivo. Experimente con esta configuración si el texto parece ligeramente borroso.
 
-El `chroma` se ignora si el tipo de píxel de salida es CMYK o gris.
+Se omite `chroma` si el tipo de píxel de salida es CMYK o gris.
 
 ## Ejemplo {#section-a6c263f15c29424a86ef267c96a6630a}
 

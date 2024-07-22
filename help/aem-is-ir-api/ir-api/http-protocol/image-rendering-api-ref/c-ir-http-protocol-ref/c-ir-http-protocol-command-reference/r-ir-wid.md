@@ -1,5 +1,5 @@
 ---
-title: wid
+title: enredar
 description: Ancho de imagen de respuesta. Especifica la escala de la imagen procesada para que la imagen de respuesta no sea más alta que el valor especificado, manteniendo al mismo tiempo la proporción de aspecto de la imagen.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
@@ -7,12 +7,12 @@ role: Developer,User
 exl-id: a77b71c3-8600-4d7a-ba52-e158cf9668eb
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 2%
+source-wordcount: '235'
+ht-degree: 1%
 
 ---
 
-# wid{#wid}
+# enredar{#wid}
 
 Ancho de imagen de respuesta. Especifica la escala de la imagen procesada para que la imagen de respuesta no sea más alta que el valor especificado, manteniendo al mismo tiempo la proporción de aspecto de la imagen.
 
@@ -21,15 +21,15 @@ Ancho de imagen de respuesta. Especifica la escala de la imagen procesada para q
 <table id="simpletable_1C898A7B99114BE986EC5553F6A31E82"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> val</span> </p> </td> 
-  <td class="stentry"> <p>Ancho de la imagen en píxeles (int bueno que 0). </p></td> 
+  <td class="stentry"> <p>Ancho de la imagen en píxeles (int mayor que 0). </p></td> 
  </tr> 
 </table>
 
-La imagen no se rellena si `wid=` y `hei=` se ha especificado y `wid`/ `hei` es diferente a la proporción de aspecto de la imagen.
+La imagen no se rellena si se han especificado `wid=` y `hei=`, y `wid`/ `hei` es diferente de la proporción de aspecto de la imagen.
 
-`wid=` y `hei=` trabajen juntos para definir el tamaño de la imagen que devuelve el servidor. If `scl=` viene después de `wid=` o `hei=` en la dirección URL, cancela esos comandos y `scl=` define el tamaño de la imagen que devuelve el servidor.
+`wid=` y `hei=` trabajan juntos para definir el tamaño de la imagen que devuelve el servidor. Si `scl=` va después de `wid=` o `hei=` en la dirección URL, cancela esos comandos y `scl=` define el tamaño de la imagen que devuelve el servidor.
 
-Sin embargo, si `wid=` o `hei=` viene después de `scl=` en la dirección URL, cancelan `scl=` y `wid=`/ `hei=` defina el tamaño de la imagen que devuelve el servidor.
+Sin embargo, si `wid=` o `hei=` van después de `scl=` en la dirección URL, cancelan `scl=` y `wid=`/ `hei=` definen el tamaño de la imagen devuelta por el servidor.
 
 >[!NOTE]
 >
@@ -37,11 +37,11 @@ Sin embargo, si `wid=` o `hei=` viene después de `scl=` en la dirección URL, c
 
 ## Propiedades {#section-2d067c6d371748e19cb157684700a49d}
 
-Puede producirse en cualquier lugar dentro de la solicitud. Cambiar el tamaño de la imagen con `wid=`, `hei=`, o `scl=` no cambia el valor de resolución de impresión incrustado en la imagen de respuesta. Ignorado si `scl=` ocurre después de `wid=` o `hei=` en la secuencia de comandos.
+Puede producirse en cualquier lugar dentro de la solicitud. Al cambiar el tamaño de la imagen con `wid=`, `hei=` o `scl=`, no se cambia el valor de resolución de impresión incrustado en la imagen de respuesta. Se omite si `scl=` se produce después de `wid=` o `hei=` en la secuencia de comandos.
 
 ## Predeterminado {#section-c7c6efa03d864592a3398b6f1de5a0b0}
 
-If `wid=`, `hei=`, o `scl=` no se han especificado, la imagen de respuesta se escala para ajustarse al tamaño definido por `attribute::DefaultPix`. If `attribute::DefaultPix` está vacía, la imagen de respuesta tiene el mismo tamaño que la imagen de vista de la viñeta.
+Si no se especifica `wid=`, `hei=` o `scl=`, la imagen de respuesta se ajustará para ajustarse al tamaño definido por `attribute::DefaultPix`. Si `attribute::DefaultPix` está vacío, la imagen de respuesta tendrá el mismo tamaño que la imagen de vista de la viñeta.
 
 ## Véase también {#section-450dfc12b1d440e2a3172a69d91db51f}
 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 539d8863-e94d-45dc-bb8c-3db7bead0051
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Las variables de sustitución se utilizan para transferir valores desde la dirección URL de la solicitud a las plantillas FXG almacenadas en el servidor.
 
-` $ *`var`*= *`valor`*`
+` $ *`var`*= *`value`*`
 
 <table id="simpletable_76B381800C0D411F87CD551FC30B0579"> 
  <tr class="strow"> 
@@ -31,5 +31,5 @@ Las variables de sustitución se utilizan para transferir valores desde la direc
 
 * Las definiciones y referencias de variables pueden producirse en la parte de consulta de la dirección URL de la solicitud.
 * Las variables se definen como se ha indicado anteriormente, de forma similar a otros comandos IS; el &#39;$&#39; inicial identifica el comando como una definición de variable.
-* El nombre de la variable `*`var`*` distingue entre mayúsculas y minúsculas y puede consistir en cualquier combinación de letras, números, &#39;-&#39; y &#39;_&#39;.
+* El nombre de variable `*`var`*` distingue entre mayúsculas y minúsculas y puede constar de cualquier combinación de letras, números, &#39;-&#39; y &#39;_&#39;.
 * El valor importante debe tener codificación URL de un solo paso para la transmisión HTTP segura.

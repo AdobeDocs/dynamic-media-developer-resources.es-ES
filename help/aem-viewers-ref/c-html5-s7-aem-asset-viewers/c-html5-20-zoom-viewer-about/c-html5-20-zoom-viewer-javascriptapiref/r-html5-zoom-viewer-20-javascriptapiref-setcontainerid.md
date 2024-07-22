@@ -1,6 +1,6 @@
 ---
 title: setContainerId
-description: Referencia de la API de JavaScript para el visualizador de vídeos.
+description: Referencia de la API de JavaScript para el visor de vídeo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 2%
 
 # setContainerId{#setcontainerid}
 
-Referencia de la API de JavaScript para el visualizador de vídeos.
+Referencia de la API de JavaScript para el visor de vídeo.
 
 ` setContainerId( *`containerId`*)`
 
-Establece el ID del contenedor DOM (normalmente un DIV) en el que se inserta el visor. No es necesario tener el elemento contenedor creado para el momento en que se llama a este método. Sin embargo, el contenedor debe existir cuando `init()` se ejecuta. Debe llamarse antes de `init()`.
+Establece el ID del contenedor DOM (normalmente un DIV) en el que se inserta el visor. No es necesario tener el elemento contenedor creado para el momento en que se llama a este método. Sin embargo, el contenedor debe existir cuando se ejecute `init()`. Se debe llamar antes de `init()`.
 
-Este método es opcional si la información de configuración del visor se pasó con `config` Objeto JSON al constructor.
+Este método es opcional si la información de configuración del visor se pasó con el objeto JSON `config` al constructor.
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 

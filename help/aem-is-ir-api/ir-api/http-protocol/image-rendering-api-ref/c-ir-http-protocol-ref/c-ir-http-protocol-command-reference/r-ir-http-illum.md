@@ -20,7 +20,7 @@ Selector de mapa de iluminación. Especifica el mapa de iluminación con el que 
 
 Si el mapa de iluminación especificado no está disponible en la viñeta de destino, se utiliza el mapa disponible más cercano.
 
-`illum=-1` Especifica que el mapa de iluminación se selecciona automáticamente en función de la `gloss=` valor.
+`illum=-1` Especifica que el mapa de iluminación se selecciona automáticamente en función del valor `gloss=`.
 
 ## Propiedades {#section-aace8466566e4cf1a0c5a6c0167245c9}
 

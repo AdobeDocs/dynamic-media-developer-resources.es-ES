@@ -16,7 +16,7 @@ ht-degree: 0%
 
 La clase principal del Visor de zoom en línea es FlyoutViewer. Se declara en el área de nombres de s7viewers. Esta API de JavaScript cubre el constructor, los métodos y las llamadas de retorno de esta clase en particular.
 
-En todos los ejemplos siguientes, `<instance>` significa el nombre real del objeto de visor de JavaScript del que se crean instancias a partir de `s7viewers.FlyoutViewer` clase.
+En todos los ejemplos siguientes, `<instance>` significa el nombre real del objeto de visor de JavaScript que se crea a partir de la clase `s7viewers.FlyoutViewer`.
 
 * [disponer](r-html5-inlinezoom-viewer-javascriptapiref-dispose.md)
 * [FlyoutViewer](r-html5-inlinezoom-viewer-javascriptapiref-inlinezoomviewer.md)

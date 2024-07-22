@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 0ad8f4b4-dd9c-43f5-aacc-67a564e34d92
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 25%
+source-wordcount: '576'
+ht-degree: 18%
 
 ---
 
@@ -20,7 +20,7 @@ La herramienta de creación de viñetas (parte del paquete de Dynamic Media Imag
 >
 >Configuración de procesamiento es una función avanzada de procesamiento de imágenes y creación de imágenes. Póngase en contacto con el Soporte técnico de Adobe o con su asesor de Adobe para recibir formación, consultas o ambas sobre el uso de la Configuración de procesamiento.
 
-Estos ajustes se controlan de forma interactiva en Image Authoring. Es posible aplicar la misma configuración en el procesamiento de imágenes utilizando `rs=` (o con el comando `catalog::RenderSettings` valor). Este mecanismo se utiliza para seleccionar diferentes opciones de enfoque para cada material y modificar el comportamiento de los algoritmos de renderización de la iluminación, como la variación de la saturación de los resaltados o el contraste en las sombras.
+Estos ajustes se controlan de forma interactiva en Image Authoring. Es posible aplicar la misma configuración en el procesamiento de imágenes utilizando el comando `rs=` (o con el valor `catalog::RenderSettings`). Este mecanismo se utiliza para seleccionar diferentes opciones de enfoque para cada material y modificar el comportamiento de los algoritmos de renderización de la iluminación, como la variación de la saturación de los resaltados o el contraste en las sombras.
 
 ## Valores de configuración de procesamiento avanzada (rs=) {#section-d9e7f341ebd44f07a4e90f1f5910726b}
 
@@ -96,7 +96,7 @@ Estos ajustes se controlan de forma interactiva en Image Authoring. Es posible a
       <li id="li_CA93566F5D4F4D3CAA1D0816562A3851">Bilinear </li> 
       <li id="li_D334ACF969E749A89A464B21C96CE8A6">Supermuestreo </li> 
       <li id="li_FAC72C36FF4A418F8A5B05F3B4E7C5D8">Adaptable </li> 
-      <li id="li_6E9D81045A0C4804A4D35D9B239F6486">Muestreo Poisson </li> 
+      <li id="li_6E9D81045A0C4804A4D35D9B239F6486">Poisson Sampler </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -149,7 +149,7 @@ Estos ajustes se controlan de forma interactiva en Image Authoring. Es posible a
    <td colname="col5"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b>Efectos de procesamiento (sombreado más antiguo)</b> </td> 
+   <td colname="col1"><b>Efectos de procesamiento (sombreador más antiguo)</b> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> </td> 
@@ -205,7 +205,7 @@ Estos ajustes se controlan de forma interactiva en Image Authoring. Es posible a
    <td colname="col5"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b>Sombreado alternativo</b> </td> 
+   <td colname="col1"><b>sombreado alternativo</b> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> </td> 

@@ -8,7 +8,7 @@ exl-id: 1fcd7dbe-d122-4501-92f4-3ce93a94a933
 source-git-commit: 8aebcacd5abdc23565aab1bc3506c36f055b6439
 workflow-type: tm+mt
 source-wordcount: '69'
-ht-degree: 4%
+ht-degree: 2%
 
 ---
 
@@ -25,8 +25,8 @@ Consulte también [init](../../../c-html5-aem-asset-viewers/c-html5-aem-panorami
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> asset </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> Cadena</span>} nuevo id de recurso. Este visor no admite imágenes que utilicen procesamiento de imágenes (IR) o contenido generado por el usuario (UGC). </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> recurso </span> </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> cadena</span>} id. de recurso nuevo. Este visor no admite imágenes que utilicen procesamiento de imágenes (IR) o contenido generado por el usuario (UGC). </p> </td> 
   </tr> 
  </tbody> 
 </table>

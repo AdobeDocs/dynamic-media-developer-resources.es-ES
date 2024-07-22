@@ -1,5 +1,5 @@
 ---
-description: Ruta del archivo de viñeta. Ruta relativa y nombre de un archivo de viñeta.
+description: Ruta del archivo de viñeta. Ruta de acceso relativa y nombre de un archivo de viñeta.
 solution: Experience Manager
 title: Ruta
 feature: Dynamic Media Classic,SDK/API
@@ -8,19 +8,19 @@ exl-id: 5562b0e0-0476-4dd0-acce-058601b9af0a
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '72'
-ht-degree: 9%
+ht-degree: 8%
 
 ---
 
 # Ruta{#path}
 
-Ruta del archivo de viñeta. Ruta relativa y nombre de un archivo de viñeta.
+Ruta del archivo de viñeta. Ruta de acceso relativa y nombre de un archivo de viñeta.
 
-El servidor combina este valor con `attribute::RootPath` para crear la ruta real del archivo de viñeta. También puede ser una ruta absoluta.
+El servidor combina este valor con `attribute::RootPath` para generar la ruta real del archivo de viñeta. También puede ser una ruta absoluta.
 
 ## Propiedades {#section-b3b295feac084b56bd8a153c04987153}
 
-Cadena de texto. Opcional. Si se especifica, debe ser una ruta de archivo relativa o absoluta válida. Si está vacío, `vignette::Modifier` debe incluir el `vignette=` comando.
+Cadena de texto. Opcional. Si se especifica, debe ser una ruta de archivo relativa o absoluta válida. Si está vacío, `vignette::Modifier` debe incluir el comando `vignette=`.
 
 ## Predeterminado {#section-a1d2133856084eb79a5be8230a4b38fd}
 

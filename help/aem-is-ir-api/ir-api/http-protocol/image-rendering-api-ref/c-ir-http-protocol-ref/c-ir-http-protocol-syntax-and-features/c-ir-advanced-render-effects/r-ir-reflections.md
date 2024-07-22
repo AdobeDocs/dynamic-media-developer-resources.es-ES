@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: f67ede68-03c0-461f-a16d-a308f76fd24c
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 4%
+source-wordcount: '137'
+ht-degree: 2%
 
 ---
 
@@ -28,7 +28,7 @@ Si así se ha creado, se utilizan los siguientes atributos de material para defi
  </thead>
  <tbody> 
   <tr> 
-   <td> <p><a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca" type="reference" format="dita" scope="local"> <span class="codeph"> gloss=</span> </a> </p> </td> 
+   <td> <p><a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca" type="reference" format="dita" scope="local"> <span class="codeph"> brillo=</span> </a> </p> </td> 
    <td> <p>Brillo superficial </p> </td> 
    <td> <p>Desde la viñeta </p> </td> 
   </tr> 
@@ -38,18 +38,18 @@ Si así se ha creado, se utilizan los siguientes atributos de material para defi
    <td> <p>Ninguno </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180" type="reference" format="dita" scope="local"> <span class="codeph"> áspero= </span> </a> </p> </td> 
+   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180" type="reference" format="dita" scope="local"> <span class="codeph"> aproximado= </span> </a> </p> </td> 
    <td> <p>Rugosidad superficial </p> </td> 
-   <td> <p>40% </p> </td> 
+   <td> <p>40 % </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-type.md#reference-128c7de89e2d46838019b560f3f84a35" type="reference" format="dita" scope="local"> <span class="codeph"> type=</span> </a> </p> </td> 
+   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-type.md#reference-128c7de89e2d46838019b560f3f84a35" type="reference" format="dita" scope="local"> <span class="codeph"> tipo=</span> </a> </p> </td> 
    <td> <p>Tipo de material </p> </td> 
    <td> <p>0 (desconocido) </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-El procesador ajusta el intervalo del `gloss=` y `rough=` atribuir según `type=`. Algunos tipos de material, como la tela, son menos reflectantes que otros como la piedra o el metal. Además, la misma cantidad de brillo especificada para uno suele producir un efecto de reflexión diferente al otro. El atributo `gloss=` y la fracturación tienen una gama bastante amplia si `type=` no se ha especificado o se ha establecido en `0`.
+El procesador ajusta el intervalo del atributo `gloss=` y `rough=` según `type=`. Algunos tipos de material, como la tela, son menos reflectantes que otros como la piedra o el metal. Además, la misma cantidad de brillo especificada para uno suele producir un efecto de reflexión diferente al otro. El atributo `gloss=` y la rugosidad tienen una gama bastante amplia si `type=` no se especifica o se establece en `0`.
 
-`glossmap=` Se utiliza para controlar el brillo de un material píxel a píxel.
+`glossmap=` Se usa para controlar el brillo de un material píxel a píxel.

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: d1a560f3-f92c-4143-b80a-e1674c8a4207
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -18,52 +18,52 @@ textPs= implementa un algoritmo patentado de ajuste de copia que ajusta automát
 
 El ajuste de copia se puede activar y controlar colectivamente para toda la capa de texto, en base a párrafo, incluso para un intervalo de texto individual.
 
-Especifique el tamaño mínimo de la fuente con `\fs` y el tamaño de fuente máximo con `\copyfit`. Se permite cualquier número de intervalos en la misma cadena RTF. Los tamaños de todos los rangos varían proporcionalmente, lo que garantiza que se mantengan las relaciones de tamaño de fuente deseadas.
+Especifique el tamaño de fuente mínimo con `\fs` y el tamaño de fuente máximo con `\copyfit`. Se permite cualquier número de intervalos en la misma cadena RTF. Los tamaños de todos los rangos varían proporcionalmente, lo que garantiza que se mantengan las relaciones de tamaño de fuente deseadas.
 
 `\copyfit` se considera un comando de formato de caracteres y tiene reglas de ámbito como `\fs` y `\b`.
 
-La copia de conexión se desactiva al especificar `\copyfit` con un tamaño igual o menor que el especificado con `\fs`.
+Se deshabilitó el ajuste de copia al especificar `\copyfit` con un tamaño igual o menor que el especificado con `\fs`.
 
 ## Limitación del número de líneas {#section-e5aee0f039e04842afc3d6884ed681ac}
 
-Además de especificar el rango de tamaños de fuente, el comportamiento del algoritmo de ajuste de copia se puede controlar aún más con la variable `\copyfitlines` o `\copyfitmaxlines` , que limitan el número de líneas que genera el algoritmo. Ambos comandos aceptan un parámetro de recuento de líneas o 0, para no limitar el número de líneas en la región de ajuste de copia.
+Además de especificar el intervalo de tamaños de fuente, el comportamiento del algoritmo de ajuste de copia se puede controlar aún más con los comandos `\copyfitlines` o `\copyfitmaxlines`, que limitan el número de líneas que genera el algoritmo. Ambos comandos aceptan un parámetro de recuento de líneas o 0, para no limitar el número de líneas en la región de ajuste de copia.
 
-`\copyfitlines` permite que el texto se desborde en líneas adicionales cuando no cabe en el número de líneas especificado. Siempre se respetan los saltos de línea explícitos en el segmento de texto que se va a copiar.
+`\copyfitlines` permite que el texto se desborde a líneas adicionales cuando no cabe en el número de líneas especificado. Siempre se respetan los saltos de línea explícitos en el segmento de texto que se va a copiar.
 
-`\copyfitmaxlines` siempre trunca las líneas de salida adicionales que exceden el límite especificado. Nunca se supera el número de líneas especificado, aunque haya saltos de línea explícitos. Para esta versión de Image Serving, no más de N-1 `\line` los marcadores pueden estar presentes en el intervalo de texto copiado. El comportamiento es indefinido si se supera este límite.
+`\copyfitmaxlines` siempre trunca las líneas de salida adicionales que exceden el límite especificado. Nunca se supera el número de líneas especificado, aunque haya saltos de línea explícitos. Para esta versión del servicio de imágenes, no puede haber más de marcadores N-1 `\line` en la extensión de texto ajustada a la copia. El comportamiento es indefinido si se supera este límite.
 
 ## Ejemplos {#section-f4ddbbfade444560be30a813d90c2c1b}
 
-En los ejemplos siguientes se supone que los cuerpos de texto se proporcionan con variables denominadas *[!DNL $A$]*, *[!DNL $B$]*, y *[!DNL $C$]*.
+En los ejemplos siguientes se supone que los cuerpos de texto se proporcionan con variables denominadas *[!DNL $A$]*, *[!DNL $B$]* y *[!DNL $C$]*.
 
 **Mantenga la misma relación entre los tamaños de fuente en todo el intervalo:**
 
 `{\fs10\copyfit100 $A${\fs20\copyfit200 $B$}$C$}`
 
-*[!DNL $B$]* siempre se representa el doble de grande que el resto del texto. Cuando se especifica mucho texto, *[!DNL $A$]* y *[!DNL $C$]* se procesa con `\fs10` y *[!DNL $B$]* con `\fs20`. Con poco texto, *[!DNL $A$]* y *[!DNL $C$]* use `\fs100` y *[!DNL $B$]* `\fs200`.
+*[!DNL $B$]* siempre se representa el doble de grande que el resto del texto. Cuando se especifica mucho texto, *[!DNL $A$]* y *[!DNL $C$]* se representan con `\fs10` y *[!DNL $B$]* con `\fs20`. Con poco texto, *[!DNL $A$]* y *[!DNL $C$]* utilizan `\fs100` y *[!DNL $B$]* `\fs200`.
 
-**Convierta a un tamaño de fuente grande común si solo se dibuja una pequeña cantidad de texto:**
+**Converge a un tamaño de fuente grande común si solo se dibuja una pequeña cantidad de texto:**
 
 `{\copyfit100\fs10 $A${\fs20 $B$}$C$}`
 
-En el extremo más pequeño del rango, *[!DNL $B$]* se procesa con `\fs20`, dos veces más grande que *[!DNL $A$]* y *[!DNL $C$]* en `\fs10`. Todo el texto se dibuja en `\fs100` (50 pts) en el extremo opuesto del rango.
+En el extremo más pequeño del intervalo, *[!DNL $B$]* se representa con `\fs20`, el doble de grande que *[!DNL $A$]* y *[!DNL $C$]* en `\fs10`. Todo el texto se dibuja en `\fs100` (50 puntos) en el extremo opuesto del intervalo.
 
-**Converge a un tamaño de fuente pequeño común si se va a representar mucho texto:**
+**Cambiar a un tamaño de fuente pequeño común si se va a representar mucho texto:**
 
 `{\fs10\copyfit100 $A${\copyfit200 $B$}$C$}`
 
-Todo el texto se dibuja con \fs10 en el extremo pequeño del intervalo, mientras que en el mayor, *[!DNL $A$]* y *[!DNL $C$]* se procesan con `\fs100` y *[!DNL $B$]* con `\fs200`.
+Todo el texto se dibuja con \fs10 en el extremo pequeño del intervalo, mientras que en el mayor, *[!DNL $A$]* y *[!DNL $C$]* se representan con `\fs100` y *[!DNL $B$]* con `\fs200`.
 
-**Desactivar el ajuste de copia para un intervalo de texto interno:**
+**Deshabilitar el ajuste de copia para un intervalo de texto interno:**
 
 `{\fs10\copyfit100 $A${\fs50\copyfit0 $B$}$C$}`
 
-El tamaño de fuente de *[!DNL $A$]* y *[!DNL $C$]* puede variar entre 10 y 100, mientras que *[!DNL $B$]* siempre se procesa con `\fs50`.
+El tamaño de fuente de *[!DNL $A$]* y *[!DNL $C$]* puede variar entre 10 y 100, mientras que *[!DNL $B$]* siempre se representa con `\fs50`.
 
-**Limite la salida a una sola línea, incluso si hay más espacio vertical disponible, pero permita que se desborde a líneas adicionales si se especifica demasiado texto para caber en una sola línea en `\fs10`:**
+**Limitar el resultado a una sola línea, incluso si hay más espacio vertical disponible, pero permitir que se desborde a líneas adicionales si se especifica demasiado texto para caber en una sola línea en `\fs10`:**
 
 `{\fs10\copyfit100 \copyfitlines1 $A$}`
 
-**Limite la salida a una sola línea, incluso si hay más espacio vertical disponible. Si se especifica demasiado texto para caber en una sola línea en `\fs10` se trunca:**
+**Limita el resultado a una sola línea, incluso si hay más espacio vertical disponible. Si se especifica demasiado texto para caber en una sola línea en `\fs10`, se trunca:**
 
 `{\fs10\copyfit100 \copyfitmaxlines1 $A$}`

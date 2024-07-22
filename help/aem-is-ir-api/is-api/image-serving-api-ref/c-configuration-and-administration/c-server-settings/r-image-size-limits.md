@@ -7,8 +7,8 @@ role: Developer,Admin,User
 exl-id: 75ec58ee-8c98-46cb-96b2-79d1c32e576f
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 0%
+source-wordcount: '229'
+ht-degree: 1%
 
 ---
 
@@ -26,7 +26,7 @@ Limita el tamaño de las imágenes que puede producir el servidor de imágenes (
 
 ## IS::MaxSavePixels: límite de tamaño para guardar en archivos {#section-d1547c4afa88467080ab08356f775e06}
 
-Limita el tamaño de las imágenes que el servidor de imágenes escribe en los archivos con `req=saveToFile` comando. Valor entero mayor que 0 en millones de píxeles. Se devuelve un error si la operación de guardar el archivo supera ese límite. El valor predeterminado es 100 millones de píxeles.
+Limita el tamaño de las imágenes que el servidor de imágenes escribe en los archivos con el comando `req=saveToFile`. Valor entero mayor que 0 en millones de píxeles. Se devuelve un error si la operación de guardar el archivo supera ese límite. El valor predeterminado es 100 millones de píxeles.
 
 ## IS::MaxNonDsfSize: Límite de tamaño para imágenes de entrada no PTIFF {#section-50de28a7158a436393cce5da0d1e4d46}
 

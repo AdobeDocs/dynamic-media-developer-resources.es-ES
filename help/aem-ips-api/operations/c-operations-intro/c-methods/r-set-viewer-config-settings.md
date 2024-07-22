@@ -35,7 +35,7 @@ Sintaxis
 | assetHandle | `xsd:string` | Sí | Controlador de recurso. |
 | nombre | `xsd:string` | Sí | Nombre del recurso. |
 | tipo | `xsd:string` | Sí | El tipo de recurso al que desea aplicar la configuración del visor. |
-| configSettingArray | `types:ConfigSettingArray` | Sí | La matriz de `ConfigSettings` aplicado al recurso.. |
+| configSettingArray | `types:ConfigSettingArray` | Sí | La matriz de `ConfigSettings` aplicada al recurso. |
 
 **Salida (setViewerConfigSettingsParam)**
 

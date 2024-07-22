@@ -8,7 +8,7 @@ exl-id: f7d7ddd9-a3c3-47c4-8da6-d693851d0d7f
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 12%
+ht-degree: 11%
 
 ---
 
@@ -62,7 +62,7 @@ Los tipos de recursos de miniaturas permitidos son los siguientes:
 
 ## Ejemplos {#section-6de69a8680c24c1486c5f01488393381}
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <batchSetThumbAssetParam xmlns="http://www.scene7.com/IpsApi/xsd/2010-01-31">

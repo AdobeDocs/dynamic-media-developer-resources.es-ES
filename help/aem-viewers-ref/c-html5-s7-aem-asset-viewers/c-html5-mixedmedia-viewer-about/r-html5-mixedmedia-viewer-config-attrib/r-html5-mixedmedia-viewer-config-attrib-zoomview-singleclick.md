@@ -19,8 +19,8 @@ ht-degree: 3%
 <table id="table_82C9252157DB41B5B98505855975D2F5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> none|zoom|reset|zoomReset </span> </p> </td> 
-   <td colname="col2"> <p> Configura la asignación del clic/toque en acciones de zoom. Estableciendo en <span class="codeph"> ninguno </span> desactiva el zoom de un solo clic/toque. Si se establece en <span class="codeph"> zoom </span> al hacer clic en la imagen, se amplía un paso de zoom; CTRL y clic reduce un paso de zoom. Estableciendo en <span class="codeph"> restablecer </span> hace que un solo clic en la imagen restablezca el zoom al nivel inicial. Para <span class="codeph"> zoomReset </span>, se aplica reset si el factor de zoom actual está en el límite especificado o por encima de él; de lo contrario, se aplica zoom. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ninguno|zoom|reset|zoomReset </span> </p> </td> 
+   <td colname="col2"> <p> Configura la asignación del clic/toque en acciones de zoom. Si se establece en <span class="codeph"> none </span>, se deshabilita el zoom de un solo clic/toque. Si se establece en <span class="codeph">, el zoom </span> al hacer clic en la imagen se amplía un paso de zoom; CTRL y clic reduce un paso de zoom. Si se establece en <span class="codeph"> reset </span>, con un solo clic en la imagen se restablecerá el zoom al nivel inicial de zoom. Para <span class="codeph"> zoomReset </span>, se aplica reset si el factor de zoom actual está en el límite especificado o por encima de este; de lo contrario, se aplica zoom. </p> </td> 
   </tr> 
  </tbody> 
 </table>

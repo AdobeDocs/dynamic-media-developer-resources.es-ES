@@ -14,9 +14,9 @@ ht-degree: 4%
 
 # TiffEncoding{#tiffencoding}
 
-formato de codificación del TIFF. Especifica el formato de compresión para las imágenes de TIFF (el predeterminado para el tercer valor del `fmt=` ).
+formato de codificación del TIFF. Especifica el formato de compresión de las imágenes del TIFF (que es el predeterminado para el tercer valor del comando `fmt=`).
 
-Configure como. `0` para la ausencia de compresión, `1` para LZW, `2` para deflate (ZIP), y `3` para una compresión JPEG.
+Establezca `0` para la compresión sin compresión, `1` para LZW, `2` para deflate (ZIP) y `3` para la compresión JPEG.
 
 ## Propiedades {#section-469f5a1225464542866f5353edd92db3}
 
@@ -24,7 +24,7 @@ Enumeración.
 
 ## Predeterminado {#section-a3c5152a9f464e4987ed7c05d35b1169}
 
-Heredado de `default::TiffEncoding` si no se define o si está vacío.
+Se hereda de `default::TiffEncoding` si no se ha definido o está vacío.
 
 ## Véase también {#section-1601425e5ac3486da4df8e7fa55981b2}
 

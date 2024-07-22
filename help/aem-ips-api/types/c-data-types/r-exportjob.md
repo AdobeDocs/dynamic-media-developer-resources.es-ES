@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: f0266b9f-c6e0-4843-b002-0bc068d43424
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 17%
+source-wordcount: '192'
+ht-degree: 11%
 
 ---
 
@@ -39,21 +39,21 @@ ExportJob no admite los siguientes tipos de recursos:
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL assetHandleArray]</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> tipos:HandleArray</span> </p> </td> 
-   <td colname="col3" valign="top"> <p>Lista de <span class="codeph"> assetHandle</span> que deben exportarse. Consulte <a href="../../types/c-data-types/r-handle-array.md#reference-1b93fefb5477459faf9253b54349b5f9" type="reference" format="dita" scope="local"> HandleArray</a>. </p> </td> 
+   <td colname="col3" valign="top"> <p>Lista de <span class="codeph"> assetHandle</span> que se deben exportar. Consulte <a href="../../types/c-data-types/r-handle-array.md#reference-1b93fefb5477459faf9253b54349b5f9" type="reference" format="dita" scope="local"> HandleArray</a>. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL fmt]</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
-   <td colname="col3"> <p>Especifica el tipo de <span class="codeph"> export.Possible Values</span>: [original, convertir] </p> <p> 
+   <td colname="col3"> <p>Especifica el tipo de exportación de <span class="codeph">. Valores posibles: </span>: [orig, convert] </p> <p> 
      <ul id="ul_16EF4B14100C4C7AA464CA9CF7F11D1C"> 
-      <li id="li_DAB2844CC55145C88A18A1F8EC4527F9">If <span class="codeph"> fmt=orig</span>, los recursos se exportan como originales </li> 
-      <li id="li_07F2F8D159934D889FDC1022AB12B564">If <span class="codeph"> fmt=convertir</span>, los recursos se convierten al formato especificado en la variable <span class="codeph"> is_modier</span> o <span class="codeph"> macro</span> parámetros de entrada </li> 
+      <li id="li_DAB2844CC55145C88A18A1F8EC4527F9">Si <span class="codeph"> fmt=orig</span>, los recursos se exportan como originales </li> 
+      <li id="li_07F2F8D159934D889FDC1022AB12B564">Si <span class="codeph"> fmt=convert</span>, los recursos se convierten al formato especificado en los parámetros de entrada <span class="codeph"> is_modier</span> o <span class="codeph"> macro</span> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL is_modifier]</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
-   <td colname="col3"> <p>Especifica el <span class="codeph"> ImageServer</span> procesar la cadena URL, que se anexa al ExportJob <span class="codeph"> convertir</span> solicitud. </p> <p>Consulte la <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html" scope="external" format="html"> Documentación de IS</a> para obtener más información sobre el envío de modificadores IS. </p> </td> 
+   <td colname="col3"> <p>Especifica la cadena de URL de procesamiento <span class="codeph"> ImageServer</span>, que se anexa a la solicitud ExportJob <span class="codeph"> convert</span>. </p> <p>Consulte la <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html" scope="external" format="html"> documentación de IS</a> para obtener detalles sobre cómo enviar los modificadores de IS. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL macro]</span> </span> </p> </td> 
@@ -80,7 +80,7 @@ ExportJob no admite los siguientes tipos de recursos:
  </tbody> 
 </table>
 
-Para solicitudes ExportJob donde `fmt=convert` y ambos `is_modifier` y `macro` , el archivo de destino respetará el formato proporcionado por `macro`. Por ejemplo:
+Para las solicitudes ExportJob en las que se proporcionan `fmt=convert` y `is_modifier` y `macro`, el archivo de destino respeta el formato proporcionado por `macro`. Por ejemplo:
 
 ```
 input_file = fileToExport.jpg

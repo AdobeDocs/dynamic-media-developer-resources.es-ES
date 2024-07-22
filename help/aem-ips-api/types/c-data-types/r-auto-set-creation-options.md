@@ -22,4 +22,4 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| autoSetsArray | `types:HandleArray` | Matriz de [!DNL PropertySet] controla la definición de los scripts de generación de conjunto automática aplicados durante la carga. |
+| autoSetsArray | `types:HandleArray` | La matriz de [!DNL PropertySet] administra la definición de los scripts de generación de conjunto automática aplicados durante la carga. |

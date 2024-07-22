@@ -8,7 +8,7 @@ exl-id: 1e73c305-cda5-4c30-9380-ec4cd8309933
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '125'
-ht-degree: 9%
+ht-degree: 8%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 9%
 
 Establece los permisos de un solo recurso mediante un recurso de permiso.
 
-Los recursos heredan los permisos de su carpeta principal de forma predeterminada. Una vez configurados los permisos en un recurso, ya no hereda los permisos de su elemento principal a menos que llame a `removeAssetPermissions`.
+Assets hereda los permisos de su carpeta principal de forma predeterminada. Una vez configurados los permisos en un recurso, ya no heredará los permisos de su elemento principal a menos que llame a `removeAssetPermissions`.
 
 ## Tipos de usuarios autorizados {#section-91fafc170c734ed2a77beafda9221768}
 
@@ -26,7 +26,7 @@ Los recursos heredan los permisos de su carpeta principal de forma predeterminad
 
 ## Parámetros {#section-e05abbce6453450fb38747101cb5e228}
 
-**Entrada (setAssetPermissionsParam)**
+**Entrada (setAssetPermisosParam)**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
@@ -42,7 +42,7 @@ La API de IPS no devuelve una respuesta para esta operación.
 
 Este ejemplo de código establece permisos en un recurso. Contiene el identificador de la empresa y el recurso, así como una matriz de permisos.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <setAssetPermissionsParam xmlns="http://www.scene7.com/IpsApi/xsd">

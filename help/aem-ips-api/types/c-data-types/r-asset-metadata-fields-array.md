@@ -22,4 +22,4 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| elementos | `types:AssetMetadataFields` | Un `AssetMetadataFields` elemento de matriz. |
+| elementos | `types:AssetMetadataFields` | Un elemento de matriz `AssetMetadataFields`. |

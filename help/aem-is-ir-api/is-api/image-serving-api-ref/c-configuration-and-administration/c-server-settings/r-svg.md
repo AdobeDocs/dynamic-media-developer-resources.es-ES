@@ -7,8 +7,8 @@ role: Developer,Admin,User
 exl-id: 2863cc86-1f79-4db3-bd6f-a42839ef3439
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 1%
+source-wordcount: '269'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ El tamaño de la pila Java para el procesador de SVG. El valor predeterminado es
 
 ## PS::svgProvider.rootPaths: carpetas raíz de datos de SVG {#section-70fe575b0ad54e3b8b6d3a01ea8f1f44}
 
-Ubicación de los archivos de datos de origen del SVG. Puede ser una o más rutas de archivo absolutas o rutas relativas a *[!DNL install_folder]*, separados con punto y coma. Normalmente se establece con el mismo valor que `IS::RootPath`.
+Ubicación de los archivos de datos de origen del SVG. Puede ser una o más rutas de acceso de archivo absolutas o rutas de acceso relativas a *[!DNL install_folder]*, separadas por punto y coma. Normalmente se establece con el mismo valor que `IS::RootPath`.
 
 ## PS::svgProvider.SVGFileSizeLimit: tamaño máximo de archivo del SVG {#section-b9c81e3e104642ebbdd9f000843d3256}
 
@@ -32,15 +32,15 @@ Tamaño máximo del archivo de origen del SVG en kBytes. El servidor devuelve un
 
 Limita el tamaño de las imágenes que SVGRender puede producir. Valor entero mayor que 0 en millones de píxeles. Se devuelve un error si una operación de procesamiento supera el límite de tamaño. El valor predeterminado es 4.
 
-## PS::svgProvider.port - [!DNL Platform Server] Puerto de escucha {#section-f7e42a96c2dd4523b46f0557c239e659}
+## PS::svgProvider.port - Puerto de escucha [!DNL Platform Server] {#section-f7e42a96c2dd4523b46f0557c239e659}
 
-El puerto utilizado por SvgRender para obtener imágenes del [!DNL Platform Server] para incrustarlo en las representaciones de SVG.
+Puerto utilizado por SvgRender para obtener imágenes de [!DNL Platform Server] que se van a incrustar en las representaciones de SVG.
 
-Importante: Para el correcto funcionamiento del componente SVGRender, esta opción de configuración debe configurarse con el mismo valor que `TC::PsPort`.
+Importante: Para que el componente SVGRender funcione correctamente, esta opción de configuración debe establecerse con el mismo valor que `TC::PsPort`.
 
 ## PS::svgProvider.fontRoot: carpeta de archivos de fuentes del SVG {#section-a8d45b0d68504945b8780f5eac351b0d}
 
-Especifica dónde encuentra SvgRender los archivos de fuente necesarios para representar el texto del SVG; normalmente, una de las rutas especificadas en `IS::RootPaths`. El valor predeterminado es [!DNL  *[!DNL install_folder]*/images].
+Especifica dónde encuentra SvgRender los archivos de fuente necesarios para representar el texto del SVG; normalmente, una de las rutas especificadas en `IS::RootPaths`. El valor predeterminado es [!DNL *[!DNL install_folder]*/images].
 
 ## SVG::SVGRender.port, IS::SVGTcpPort: puerto de comunicaciones del SVG {#section-608687123aa644b7b58fe42385d71b79}
 

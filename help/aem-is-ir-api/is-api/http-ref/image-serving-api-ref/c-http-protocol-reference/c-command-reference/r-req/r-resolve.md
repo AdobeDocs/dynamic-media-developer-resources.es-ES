@@ -18,6 +18,6 @@ Solicitud de depuración. Este comando de depuración analiza y preprocesa la so
 
 `req=resolve`
 
-Se devuelve la cadena de solicitud final, en lugar de la imagen resultante, con tipo MIME `text/plain`.
+Se devuelve la cadena de solicitud final, en lugar de la imagen resultante, con el tipo MIME `text/plain`.
 
 La respuesta HTTP no se puede almacenar en caché.

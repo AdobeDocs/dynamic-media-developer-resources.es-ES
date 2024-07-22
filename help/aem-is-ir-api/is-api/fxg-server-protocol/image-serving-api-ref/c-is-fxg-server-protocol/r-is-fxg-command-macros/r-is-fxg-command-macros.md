@@ -18,9 +18,9 @@ Las macros de comandos proporcionan accesos directos con nombre para conjuntos d
 
 Las macros se definen en archivos de definición de macros independientes, que se pueden adjuntar a los catálogos de imágenes o al catálogo predeterminado.
 
-Las macros pueden invocarse en cualquier lugar de una solicitud después de &quot;?&quot; y en cualquier lugar dentro de un `catalog::Modifier` field. Las macros solo pueden representar uno o más comandos completos de servicio de imágenes; por lo tanto, debe ir entre separadores &quot;&amp;&quot; (excepto cuando se encuentra al principio o al final de la cadena del modificador).
+Las macros pueden invocarse en cualquier lugar de una solicitud después de &quot;?&quot; y en cualquier lugar dentro de un campo `catalog::Modifier`. Las macros solo pueden representar uno o más comandos completos de servicio de imágenes; por lo tanto, debe ir entre separadores &quot;&amp;&quot; (excepto cuando se encuentra al principio o al final de la cadena del modificador).
 
-Las invocaciones a macros se sustituyen por sus cadenas de sustitución al principio del análisis. Los comandos dentro de las macros anulan los mismos comandos de la solicitud si se producen antes de la invocación de la macro en la solicitud. Este flujo es diferente al siguiente `catalog::Modifier`, donde los comandos de la cadena de solicitud siempre anulan los comandos de `catalog::Modifier` cadena, independientemente de la posición en la solicitud.
+Las invocaciones a macros se sustituyen por sus cadenas de sustitución al principio del análisis. Los comandos dentro de las macros anulan los mismos comandos de la solicitud si se producen antes de la invocación de la macro en la solicitud. Este flujo es diferente de `catalog::Modifier`, donde los comandos de la cadena de solicitud siempre anulan los comandos de la cadena `catalog::Modifier`, independientemente de la posición en la solicitud.
 
 Las macros se pueden anidar. Sin embargo, una macro sólo se puede invocar si ya está definida en el momento de analizar la definición de la macro. Este flujo se lleva a cabo apareciendo anteriormente en el mismo archivo de definición de macro o colocando la definición de dicha macro incrustada en el archivo de definición de macro predeterminado.
 
@@ -44,6 +44,6 @@ La macro se usaría de la siguiente manera:
 
 [!DNL `http://server/cat/8243?$view$&wid=480`]
 
-Porque `wid=` es diferente para la tercera solicitud, solo tiene que anular el valor *después* se invoca la macro (especificando `wid=` *antes* `$view$` no tiene ningún efecto).
+Dado que `wid=` es diferente para la tercera solicitud, simplemente invalide el valor *después de* cuando se invoque la macro (especificando `wid=` *antes* `$view$` no tiene ningún efecto).
 
 + [nombre](r-name.md)

@@ -8,7 +8,7 @@ exl-id: 72bd223b-c99a-48a3-9c0a-d1af392d904c
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 10%
+ht-degree: 7%
 
 ---
 
@@ -46,13 +46,13 @@ Sintaxis
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>Cualquiera <span class="codeph"> <span class="varname"> companyHandle</span> </span> o <span class="codeph"> <span class="varname"> companyName</span> </span> es obligatorio. </p> </td> 
+   <td colname="col3"> <p>Se requiere <span class="codeph"> <span class="varname"> companyHandle</span> </span> o <span class="codeph"> <span class="varname"> companyName</span> </span>. </p> </td> 
    <td colname="col4"> <p>El identificador de la compañía cuya información desea obtener. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>Cualquiera <span class="codeph"> <span class="varname"> companyHandle</span> </span> o <span class="codeph"> <span class="varname"> companyName</span> </span> es obligatorio. </p> </td> 
+   <td colname="col3"> <p>Se requiere <span class="codeph"> <span class="varname"> companyHandle</span> </span> o <span class="codeph"> <span class="varname"> companyName</span> </span>. </p> </td> 
    <td colname="col4"> <p>El nombre de la compañía cuya información desea obtener. </p> </td> 
   </tr> 
  </tbody> 
@@ -71,8 +71,8 @@ Sintaxis
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> tipos:Compañía</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> informaciónDeEmpresa</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> tipos:Empresa</span> </p> </td> 
    <td colname="col3"> <p>Sí </p> </td> 
    <td colname="col4"> <p>Información descriptiva sobre la empresa y del identificador. </p> </td> 
   </tr> 
@@ -83,7 +83,7 @@ Sintaxis
 
 Este ejemplo de código devuelve toda la información sobre una compañía utilizando un nombre de compañía y un identificador. Devuelve datos similares a la respuesta recibida al crear una empresa.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <ns1:getCompanyInfoParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

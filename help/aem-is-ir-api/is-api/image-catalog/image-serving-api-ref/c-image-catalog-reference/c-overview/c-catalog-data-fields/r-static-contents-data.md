@@ -8,7 +8,7 @@ exl-id: df47cbb2-0ed6-4fbd-988e-be5b7a7ad657
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '57'
-ht-degree: 5%
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Los siguientes campos son compatibles con los catálogos de contenido estático 
   <td class="stentry"> <p>Identificador de registro de catálogo (clave de índice). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-static-content-data-reference/r-expiration-static.md#reference-a7afd668ecbb4d2da65d86259aa6a28a" type="reference" format="dita" scope="local"> Caducidad</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-static-content-data-reference/r-expiration-static.md#reference-a7afd668ecbb4d2da65d86259aa6a28a" type="reference" format="dita" scope="local"> Vencimiento</a> </span> </p></td> 
   <td class="stentry"> <p>Caducidad (tiempo de vida) de las respuestas HTTP. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -34,7 +34,7 @@ Los siguientes campos son compatibles con los catálogos de contenido estático 
   <td class="stentry"> <p>Tipo de objeto definido por el usuario. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md" type="reference" format="dita" scope="local"> UserData</a></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md" type="reference" format="dita" scope="local"> Datos de usuario</a></span> </p></td> 
   <td class="stentry"> <p>Propiedades definidas por el usuario. </p></td> 
  </tr> 
  <tr class="strow"> 

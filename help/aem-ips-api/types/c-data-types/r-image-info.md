@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 058c74b2-634c-49b9-88ab-ab72a030983c
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 24%
+source-wordcount: '169'
+ht-degree: 2%
 
 ---
 
@@ -37,7 +37,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"><span class="varname"> [!DNL originalFile]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Nombre del archivo. </p> </td> 
+   <td colname="col3"> <p>Nombre de archivo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"><span class="varname"> [!DNL optimizedPath]</span> </span> </td> 
@@ -117,7 +117,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL urlPostApplyModifier]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Parámetros concatenados al final del <span class="codeph"> urlModifier</span>. La lista de formatos de cadena de consulta de parámetros que son comandos para el servidor de imágenes. Los valores se muestran en la guía de protocolo del servidor de imágenes. </p> </td> 
+   <td colname="col3"> <p>Parámetros concatenados al final de <span class="codeph"> urlModifier</span>. La lista de formatos de cadena de consulta de parámetros que son comandos para el servidor de imágenes. Los valores se muestran en la guía de protocolo del servidor de imágenes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL zoomTargets]</span> </span> </td> 

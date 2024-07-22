@@ -16,7 +16,7 @@ ht-degree: 6%
 
 Condición de búsqueda de campo del sistema para la operación searchAssets.
 
-Para comparaciones unarias, pase exactamente un valor ( `boolVal`, `longVal`, `doubleVal`, o `dateVal`) según el tipo de campo del sistema. Para los intervalos de búsqueda, pase `min<Type>` y `max<Type>` parámetros y pasar un `op` valor de `Between` o `NotBetween`.
+Para comparaciones unarias, pase exactamente un valor ( `boolVal`, `longVal`, `doubleVal` o `dateVal`) según el tipo de campo del sistema. Para los intervalos de búsqueda, pase los parámetros `min<Type>` y `max<Type>` y pase un valor `op` de `Between` o `NotBetween`.
 
 ## Parámetros {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 

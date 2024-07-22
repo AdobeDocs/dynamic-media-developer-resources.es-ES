@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 03db6555-6851-49d4-b0de-5570bf56ad76
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '233'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Extender capa. Agrega márgenes a una capa o recorta el rectángulo de la capa.
 
-`extend= *`left`*, *`top`*, *`derecha`*, *`bottom`*`
+`extend= *`izquierda`*, *`superior`*, *`derecha`*, *`inferior`*`
 
 `extendN= *`leftN`*, *`topN`*, *`rightN`*, *`bottomN`*`
 
@@ -31,11 +31,11 @@ Extender capa. Agrega márgenes a una capa o recorta el rectángulo de la capa.
  </tr> 
 </table>
 
-`extend=` se aplica a la capa *después* la imagen se recorta ( `crop=`) y todas las transformaciones de capa, incluyendo `rotate=`, se han aplicado.
+`extend=` se ha aplicado a la capa *después de* de recortar la imagen (`crop=`) y se han aplicado todas las transformaciones de capa, incluida `rotate=`.
 
-El área extendida está llena de `bgColor=`, o, si no se especifica, permanece transparente.
+El área extendida está llena con `bgColor=` o, si no se especifica, permanece transparente.
 
-Valores de argumento para `extendN=` se normalizan en relación con el tamaño de la capa recta después de las transformaciones de capa, lo que incluye `rotate=` se han aplicado.
+Los valores de argumento de `extendN=` se normalizan en relación con el tamaño de la capa directamente después de aplicar las transformaciones de capa, incluido `rotate=`.
 
 ## Propiedades {#section-8fc94de871f841f3bf5e1df135972ca9}
 
@@ -43,15 +43,15 @@ Atributo de capa. Se aplica a la capa 0 si `layer=comp`. Ignorado por las capas 
 
 ## Predeterminado {#section-de7473649cb9406b8d99028c74c4b8dc}
 
-`extend=0,0,0,0`, para que no se produzca ningún cambio en el rectángulo de capa.
+`extend=0,0,0,0`, sin cambiar el rectángulo de capa.
 
 ## Ejemplos {#section-cc6d8e76f3dd4607ac31cb095d86c9fe}
 
-**Recorte una imagen y, a continuación, añada un borde rojo de 5 píxeles de ancho:**
+**Recortar una imagen y, a continuación, agregar un borde rojo de 5 píxeles de ancho:**
 
 `…&cropN=.2,.3,.8,.9&extend=5,5,5,5&bgColor=255,0,0&…`
 
-**Escale una imagen a una anchura de 200 píxeles y añada texto de título a un margen de 30 píxeles por encima de la imagen.**
+**Escale una imagen a una anchura de 200 píxeles y agregue texto de título a un margen de 30 píxeles por encima de la imagen.**
 
 Tenga en cuenta que la altura de la imagen compuesta varía en función de la relación de aspecto de la imagen.
 
@@ -59,4 +59,4 @@ Tenga en cuenta que la altura de la imagen compuesta varía en función de la re
 
 ## Véase también {#section-2d9572be32ca4602b60920b3810f3638}
 
-[crop=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab) , [color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md), [size=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-size.md#reference-04d383f32c7b4003bed9978cb854747b), [origin=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md#reference-e11c7ac06e2240cc884c3fec98f05138), [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)
+[recorte=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab) , [color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md), [tamaño=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-size.md#reference-04d383f32c7b4003bed9978cb854747b), [origen=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md#reference-e11c7ac06e2240cc884c3fec98f05138), [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)

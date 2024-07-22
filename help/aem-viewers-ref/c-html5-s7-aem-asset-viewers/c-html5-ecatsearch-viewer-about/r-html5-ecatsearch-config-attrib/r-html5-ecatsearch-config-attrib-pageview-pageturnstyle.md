@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 2669c8e2-c942-420f-8262-9d76d5c499a2
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '124'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 [!DNL `[PageView.|<containerId>_pageView.]pageturnstyle= *`dividerWidth`*, *`dividerColor`*, *`dividerOpacity`*, *`borderOnOff`*, *`borderColor`*, *`fillColor`*`]
 
-Controla el aspecto del componente cuando una [!DNL `PageView.frametransition`] se establece en [!DNL `turn`] o a [!DNL `auto`] en sistemas de sobremesa.
+Controla la apariencia del componente cuando un(a) [!DNL `PageView.frametransition`] se establece en [!DNL `turn`] o en [!DNL `auto`] en sistemas de escritorio.
 
 <table id="table_A8CDA1AE2680402A99BCD5DD371B225F"> 
  <tbody> 
@@ -30,11 +30,11 @@ Controla el aspecto del componente cuando una [!DNL `PageView.frametransition`] 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> dividerOpacity</span></span> </p> </td> 
-   <td colname="col2"> <p>La opacidad de la sombra en el intervalo de <span class="codeph"> 0</span> hasta <span class="codeph"> 1</span>. </p> </td> 
+   <td colname="col2"> <p>Opacidad de la sombra en el intervalo de <span class="codeph"> 0</span> a <span class="codeph"> 1</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> borderOnOff</span></span> </p> </td> 
-   <td colname="col2"> <p> El indicador (o bien <span class="codeph"> 0</span> o <span class="codeph"> 1</span>) que activa y desactiva el borde alrededor de la página de cambio. </p> </td> 
+   <td colname="col2"> <p> El marcador (<span class="codeph"> 0</span> o <span class="codeph"> 1</span>) que activa y desactiva el borde alrededor de la página de activación. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> borderColor</span></span> </p> </td> 

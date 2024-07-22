@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: bf5b3cb7-9792-4eca-a1aa-55aa4089b4d4
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 4%
+source-wordcount: '109'
+ht-degree: 1%
 
 ---
 
@@ -25,15 +25,15 @@ Versiones específicas de la configuración regional disponibles. Devuelve una l
  </tr> 
 </table>
 
-Consulte [Traducción de ID de objeto](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414).
+Ver [Traducción de id. de objeto](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414).
 
 Por ejemplo:
 
 `xlate.translatedIds=image,image_fr,image_de`
 
-La respuesta HTTP se puede almacenar en caché con el TTL en función de `catalog::Expiration`.
+La respuesta HTTP se puede almacenar en caché con el TTL basado en `catalog::Expiration`.
 
-Las solicitudes compatibles con el formato de respuesta JSONP permiten especificar el nombre del controlador de devolución de llamada JS mediante la sintaxis extendida de `req=` parámetro:
+Las solicitudes compatibles con el formato de respuesta JSONP le permiten especificar el nombre del controlador de devolución de llamada JS mediante la sintaxis extendida del parámetro `req=`:
 
 `req=...,json [&handler = reqHandler ]`
 

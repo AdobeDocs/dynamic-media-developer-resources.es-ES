@@ -19,8 +19,8 @@ Esta versión (Image Serving 6.6.1 e Image Rendering 6.6.1) reemplaza a Image Se
 ## Problemas conocidos y cambios de comportamiento {#section-9dbc05206187477f926a78e8108a34e1}
 
 * Ya no se admite el uso del carácter de signo de interrogación en los ID de recurso, aunque el carácter tenga codificación URL.
-* Titular dinámico `/xfl/flash/` Las solicitudes de ya no son compatibles y ahora devuelven un código de error HTTP 404.
-* W2P `/is/agm/` Las solicitudes de ya no son compatibles.
+* Las solicitudes del titular dinámico `/xfl/flash/` ya no son compatibles y ahora devuelven un código de error HTTP 404.
+* Ya no se admiten las solicitudes W2P `/is/agm/`.
 * Algunos mensajes de error ya no se representan en el explorador. Como tal, debe revisar el registro de seguimiento para depurarlo.
 
 ## Nuevas características {#section-b1386e36cb4544ebb79766a06b16842d}
@@ -30,4 +30,4 @@ Esta versión (Image Serving 6.6.1 e Image Rendering 6.6.1) reemplaza a Image Se
 
 ## Corrección de errores {#section-58dff74d56f64edeadf8f8b97b7a4161}
 
-* Se ha corregido un problema por el que `\qc` La opción RTF seguida de un espacio hizo que una solicitud no se procesara.
+* Se corrigió un problema en el cual la opción RTF `\qc` seguida de un espacio provocaba que una solicitud no se procesara.

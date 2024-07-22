@@ -8,7 +8,7 @@ exl-id: 847e4982-219d-47fd-b94c-f7d520ba1367
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '80'
-ht-degree: 20%
+ht-degree: 17%
 
 ---
 
@@ -47,7 +47,7 @@ Sintaxis
 
 Este ejemplo de código devuelve todos los miembros de un grupo. Como los identificadores de empresa y usuario son opcionales, la operación puede devolver todos los miembros de todos los grupos.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <ns1:getGroupMembershipParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

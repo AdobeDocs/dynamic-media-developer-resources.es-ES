@@ -18,13 +18,13 @@ Formato de imagen de respuesta predeterminado. Especifica el formato predetermin
 
 ## Propiedades {#section-3cbea775a174443aaf14e9e58a3c2300}
 
-Cadena de texto. Debe ser uno de los tokens de formato admitidos por el `fmt=` comando:
+Cadena de texto. Debe ser uno de los tokens de formato admitidos por el comando `fmt=`:
 
 `jpg | jpeg | png | png-alpha | tif | tif-alpha | swf | swf-alpha | pdf | eps | gif | gif-alpha`
 
 ## Predeterminado {#section-256b0f8afdd846eaac68ec2019258708}
 
-Heredado de `default::Format` si no se define o si está vacío.
+Se hereda de `default::Format` si no se ha definido o está vacío.
 
 ## Véase también {#section-d6dc53ae28ab4133a9f8f9ec0bc159a6}
 

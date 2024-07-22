@@ -7,27 +7,27 @@ role: Developer,User
 exl-id: 122c6406-6fd7-4e45-bff2-11022a3f2cf7
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '99'
 ht-degree: 3%
 
 ---
 
 # FlyoutZoomView.tip{#flyoutzoomview-tip}
 
-` [FlyoutZoomView.|<containerId>_flyout.]tip= *`duration`*[, *`count`*][, *`atenuación`*]`
+` [FlyoutZoomView.|<containerId>_flyout.]tip= *`duration`*[, *`count`*][, *`fade`*]`
 
 <table id="table_3BA079B51B644219BB8E2A68A13A8D90"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duration</span> </span> </p> </td> 
-   <td colname="col2"> <p>Especifica el número de segundos que el texto de sugerencia se muestra antes de ocultarse. Cuando se establece en <span class="codeph"> -1</span>, el mensaje siempre se muestra, incluso si el usuario activa el menú flotante. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duración</span> </span> </p> </td> 
+   <td colname="col2"> <p>Especifica el número de segundos que el texto de sugerencia se muestra antes de ocultarse. Cuando se establece en <span class="codeph"> -1</span>, el mensaje siempre se muestra, aunque el usuario active el menú flotante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> count</span> </span> </p> </td> 
-   <td colname="col2"> <p>Especifica el número de veces que se muestra el texto al ver nuevas imágenes del conjunto. Un valor de <span class="codeph"> -1</span> significa que el texto siempre se muestra cuando se visualiza cualquier imagen del conjunto. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> recuento</span> </span> </p> </td> 
+   <td colname="col2"> <p>Especifica el número de veces que se muestra el texto al ver nuevas imágenes del conjunto. Un valor de <span class="codeph"> -1</span> significa que el texto siempre se muestra al ver cualquier imagen del conjunto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> atenuación</span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fundido</span> </span> </p> </td> 
    <td colname="col2"> <p>Especifica la duración de una animación de transición que se produce cuando el texto aparece o desaparece. Un valor de <span class="codeph"> 0</span> significa que no hay transición de fundido. </p> </td> 
   </tr> 
  </tbody> 

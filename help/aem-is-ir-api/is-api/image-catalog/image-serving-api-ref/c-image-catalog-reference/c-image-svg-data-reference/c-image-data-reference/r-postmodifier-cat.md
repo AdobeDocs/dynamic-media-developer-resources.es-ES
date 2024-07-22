@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 7d6c9408-1f09-464d-8a69-eabdf7c0117d
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '128'
 ht-degree: 3%
 
 ---
@@ -16,15 +16,15 @@ ht-degree: 3%
 
 Cadena de modificador de solicitud Postfix. Ninguno o más comandos del servicio de imágenes separados por caracteres &quot;&amp;&quot;.
 
-Los comandos de este campo siempre anulan los comandos de la solicitud HTTP y en `catalog::Modifier`.
+Los comandos de este campo siempre anulan los comandos de la solicitud HTTP y de `catalog::Modifier`.
 
-`catalog::PostModifier` es útil si determinadas imágenes requieren ajustes especiales que normalmente se controlan desde la dirección URL, como `qlt=` o `resmode=`. `catalog::Modifier` debe utilizarse para configurar la mayoría de los comandos IS en el catálogo de imágenes.
+`catalog::PostModifier` resulta útil si determinadas imágenes requieren una configuración especial que normalmente se controla desde la dirección URL, como `qlt=` o `resmode=`. `catalog::Modifier` debe usarse para configurar la mayoría de los comandos IS en el catálogo de imágenes.
 
-Se permiten macros en `catalog::PostModifier`, siempre que se definan en el mismo catálogo o en el catálogo predeterminado. También se pueden utilizar variables personalizadas.
+Las macros están permitidas en `catalog::PostModifier`, siempre y cuando se definan en el mismo catálogo o en el catálogo predeterminado. También se pueden utilizar variables personalizadas.
 
 >[!NOTE]
 >
->Si una solicitud incluye varias capas, solo el contenido de `catalog::PostModifier` de la capa 0. `catalog::PostModifier` de todas las demás capas se omite.
+>Si una solicitud involucra varias capas, solo se aplica el contenido de `catalog::PostModifier` de la capa 0. Se omite `catalog::PostModifier` de todas las demás capas.
 
 ## Propiedades {#section-6d5b0462ba1245b8ac3ddfd15c059f42}
 

@@ -1,6 +1,6 @@
 ---
 title: disponer
-description: Referencia de la API de JavaScript del Visor de imágenes de vídeo.
+description: Referencia de la API de JavaScript para el visualizador de imágenes de vídeo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # disponer{#dispose}
 
-Referencia de la API de JavaScript del Visor de imágenes de vídeo.
+Referencia de la API de JavaScript para el visualizador de imágenes de vídeo.
 
 `dispose()`
 
@@ -22,9 +22,9 @@ Desecha esta instancia del visor liberando todos los recursos utilizados por la 
 
 El código de la página web también debe eliminar la variable de la instancia del visor para eliminar por completo el visor de la memoria del explorador web.
 
-Si el código de la página web ha registrado detectores de eventos directamente en los componentes del SDK del visor utilizados por el visor (o si ha almacenado referencias externas a dichos componentes), el código de la página web debe anular el registro de dichos detectores de forma explícita. Además, estas referencias de componentes externos deben eliminarse antes de llamar a `dispose()`.
+Si el código de la página web ha registrado detectores de eventos directamente en los componentes del SDK del visor utilizados por el visor (o si ha almacenado referencias externas a dichos componentes), el código de la página web debe anular el registro de dichos detectores de forma explícita. Además, dichas referencias a componentes externos deben eliminarse antes de llamar a `dispose()`.
 
-Ya no acceda a la API del visor después de `dispose()` se llama.
+Ya no acceda a la API del visor después de llamar a `dispose()`.
 
 ## Parámetros {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 

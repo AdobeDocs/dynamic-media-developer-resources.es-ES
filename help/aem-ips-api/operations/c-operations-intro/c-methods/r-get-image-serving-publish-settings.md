@@ -34,7 +34,7 @@ Sintaxis
 | companyHandle | `xsd:string` | Sí | El identificador de la empresa con la configuración de publicación del servicio de imágenes. |
 | contextHandle | `xsd:string` | Sí | Administrar en el contexto de publicación. |
 
-**Output**
+**Salida**
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|

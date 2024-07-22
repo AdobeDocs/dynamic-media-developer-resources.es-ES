@@ -1,5 +1,5 @@
 ---
-description: Elemento de filtro de dirección. Opcional en <rule> elementos. Anula el atributo ClientAddressFilter cuando se aplica la regla.
+description: Elemento de filtro de dirección. Opcional en elementos <rule>. Anula el atributo ClientAddressFilter cuando se aplica la regla.
 solution: Experience Manager
 title: addressFilter
 feature: Dynamic Media Classic,SDK/API
@@ -26,13 +26,13 @@ Lista de direcciones IP separadas por comas. Cada dirección individual puede in
 
 ## Descripción {#section-099b7839c4be40c68cbff29dad14e7d5}
 
-El acceso a este catálogo de imágenes se puede restringir a una o más direcciones IP específicas especificándolas en un `<addressfilter>` Elemento. Se devuelve un error &quot;solicitud rechazada&quot; al cliente si la dirección IP del cliente no coincide.
+El acceso a este catálogo de imágenes se puede restringir a una o más direcciones IP específicas especificándolas en un elemento `<addressfilter>`. Se devuelve un error &quot;solicitud rechazada&quot; al cliente si la dirección IP del cliente no coincide.
 
 El acceso no está restringido si `<addressfilter>` está vacío o no se ha especificado.
 
-Si la variable `<expression>` en el `<rule>` está ausente o vacío, el elemento `<addressfilter>` se aplica a todas las solicitudes.
+Si el elemento `<expression>` del elemento `<rule>` está ausente o vacío, el elemento `<addressfilter>` se aplica a todas las solicitudes.
 
-`localhost` siempre forma parte implícitamente de la variable `ClientAddressFilter` definición, incluso si no se especifica explícitamente. Solicitudes procedentes de `localhost` nunca se rechazan, independientemente de `ClientAddressFilter` especificación.
+`localhost` siempre forma parte implícitamente de la definición de `ClientAddressFilter`, aunque no se haya especificado explícitamente. Las solicitudes procedentes de `localhost` nunca se rechazan, independientemente de la especificación `ClientAddressFilter`.
 
 ## SeeAlso {#section-02056065e0c042e1b155b2f3e5b84ef7}
 

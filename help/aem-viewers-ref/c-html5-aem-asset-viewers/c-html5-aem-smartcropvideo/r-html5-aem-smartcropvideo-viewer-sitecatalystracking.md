@@ -7,8 +7,8 @@ role: Developer,User,Data Engineer,Data Architect
 exl-id: 0d91ca94-79fc-40de-8095-0252688ebe76
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 3%
+source-wordcount: '164'
+ht-degree: 0%
 
 ---
 
@@ -20,13 +20,13 @@ El Visor de recorte inteligente de vídeos admite el seguimiento de Adobe Analyt
 
 El Visor de recorte inteligente de vídeos admite el seguimiento de Adobe Analytics de forma predeterminada.
 
-Para habilitar el seguimiento, pase el nombre del ajuste preestablecido de empresa adecuado como `config2` parámetro.
+Para habilitar el seguimiento, pase el nombre del ajuste preestablecido de empresa adecuado como parámetro `config2`.
 
 El visor también envía una única solicitud HTTP de seguimiento al servidor de imágenes configurado con el tipo de visor y la información de versión.
 
 ## Seguimiento personalizado {#section-ab10bd7caf184721a366cf3953071934}
 
-Para integrarse con sistemas de análisis de terceros, es necesario escuchar `trackEvent` proceso y llamada de retorno del visor `eventInfo` de la función de llamada de retorno según sea necesario. El siguiente código es un ejemplo de esta función de controlador:
+Para integrarse con sistemas de análisis de terceros, es necesario escuchar la llamada de retorno del visor `trackEvent` y procesar el argumento `eventInfo` de la función de llamada de retorno según sea necesario. El siguiente código es un ejemplo de esta función de controlador:
 
 ```javascript {.line-numbers}
 var smartCropVideoViewer = new s7viewers.SmartCropVideoViewer({ 
@@ -62,27 +62,27 @@ El visor realiza un seguimiento de los siguientes eventos de usuarios del SDK:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> CARGAR </span> </p> </td> 
    <td colname="col2"> <p>El visor se carga primero. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>se intercambia un recurso en el visor mediante <span class="codeph"> setAsset() </span> API. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> INTERCAMBIAR </span> </p> </td> 
+   <td colname="col2"> <p>se intercambia un recurso en el visor mediante la API setAsset() </span> de <span class="codeph">. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> REPRODUCIR </span> </p> </td> 
    <td colname="col2"> <p>Se inicia la reproducción. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PAUSE </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PAUSAR </span> </p> </td> 
    <td colname="col2"> <p>la reproducción se detiene. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> STOP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> DETENER </span> </p> </td> 
    <td colname="col2"> <p>la reproducción se ha detenido. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> MILESTONE </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> HITO </span> </p> </td> 
    <td colname="col2"> <p>La reproducción de alcanza uno de los siguientes hitos: 0 %, 25 %, 50 %, 75 % y 100 %. </p> </td> 
   </tr> 
  </tbody> 

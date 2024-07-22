@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Después de la instalación, configure los servicios para que se ejecuten con la otra cuenta de usuario.
 
-1. Para obtener acceso a la configuración de la directiva de seguridad local de Windows, seleccione **[!UICONTROL Menú Inicio]** > **[!UICONTROL Configuración]** > **[!UICONTROL Panel de control de Campaign]** > **[!UICONTROL Herramientas de administración]** > **[!UICONTROL Política de seguridad local]**.
-1. Seleccionar **[!UICONTROL Configuración de seguridad]** > **[!UICONTROL Directivas locales]** > **[!UICONTROL Asignación de derechos de usuario]**.
-1. Haga doble clic en **[!UICONTROL Iniciar sesión como servicio]** directiva.
-1. Seleccionar **[!UICONTROL Agregar...]** y seleccione el usuario o grupo, y luego seleccione **[!UICONTROL Ok]** para confirmar.
+1. Para obtener acceso a la configuración de la directiva de seguridad local de Windows, seleccione **[!UICONTROL Menú Inicio]** > **[!UICONTROL Configuración]** > **[!UICONTROL Panel de control de Campaign]** > **[!UICONTROL Herramientas de administración]** > **[!UICONTROL Directiva de seguridad local]**.
+1. Seleccione **[!UICONTROL Configuración de seguridad]** > **[!UICONTROL Directivas locales]** > **[!UICONTROL Asignación de derechos de usuario]**.
+1. Haga doble clic en la directiva **[!UICONTROL Iniciar sesión como servicio]**.
+1. Seleccione **[!UICONTROL Agregar...]** y seleccione el usuario o grupo; a continuación, seleccione **[!UICONTROL Aceptar]** para confirmar.

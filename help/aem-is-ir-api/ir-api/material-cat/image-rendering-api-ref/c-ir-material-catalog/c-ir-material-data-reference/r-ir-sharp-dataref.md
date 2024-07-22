@@ -8,7 +8,7 @@ exl-id: ce08ed97-33b7-4d28-8f7f-3f3ef8598ad6
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '111'
-ht-degree: 9%
+ht-degree: 8%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 9%
 
 Enfoque. Atributo de enfoque, determina cuándo se enfoca el material durante la renderización.
 
-El tipo y la cantidad de enfoque están controlados por la viñeta mediante una plantilla de material por defecto o con `catalog::RenderSettings`.
+El tipo y la cantidad de enfoque están controlados por la viñeta mediante una plantilla de material predeterminada o con `catalog::RenderSettings`.
 
 ## Propiedades {#section-aac81b1a611b4bca90b8544eae7896df}
 
@@ -45,8 +45,8 @@ Ignorado por materiales de color sólido, opcional para todos los demás materia
 
 ## Predeterminado {#section-a6bc204d552b4cc3ae6a77ec232c26ff}
 
-`attribute::Sharpening` se utiliza si el campo no está presente, si está vacío o si el valor no es una de las opciones admitidas.
+`attribute::Sharpening` se usa si el campo no está presente, si está vacío o si el valor no es una de las opciones admitidas.
 
 ## Véase también {#section-b462f9ad9ae347e1a1993abf2f2daa8e}
 
-[atributo::Enfoque](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharp.md#reference-c706450cf95347f98f86c696f9167297) , [catalog::RenderSettings](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rendersettings.md#reference-f3ae5e18095d40b2a8edef957dd82fbd), [sharp=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a)
+[atributo::Enfoque](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharp.md#reference-c706450cf95347f98f86c696f9167297) , [catálogo::RenderSettings](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rendersettings.md#reference-f3ae5e18095d40b2a8edef957dd82fbd), [sharp=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a)

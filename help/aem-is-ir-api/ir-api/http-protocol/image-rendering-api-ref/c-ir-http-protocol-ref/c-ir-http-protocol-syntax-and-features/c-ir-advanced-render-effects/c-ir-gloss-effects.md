@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Si así se habilita en la viñeta, el procesador varía el algoritmo de iluminación para simular una variación del brillo del material (principalmente controlando el contraste).
 
-Este efecto es independiente de la representación de la reflexión y lo complementa simulando reflexiones especulares. El efecto se controla con el mismo `gloss=`, `glossmap=`, y `type=` atributos que se utilizan para controlar las reflexiones.
+Este efecto es independiente de la representación de la reflexión y lo complementa simulando reflexiones especulares. El efecto se controla con los mismos atributos `gloss=`, `glossmap=` y `type=` que se utilizan para controlar las reflexiones.

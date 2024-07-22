@@ -7,23 +7,23 @@ role: Developer,User
 exl-id: 85dbd5cd-b212-4c77-8f5a-ffbdaca27fdb
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 3%
+source-wordcount: '108'
+ht-degree: 2%
 
 ---
 
 # SpinView.transition{#spinview-transition}
 
-` [SpinView.|<containerId>_spinView.]transition= *`hora`*[, *`relajación`*]`
+` [SpinView.|<containerId>_spinView.]transition= *`tiempo`*[, *`aliviando`*]`
 
 <table id="table_9E7BB12BF371419F88DD4D24EF04632C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> tiempo</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> vez</span></span> </p> </td> 
    <td colname="col2"> <p> Especifica el tiempo en segundos que tarda la animación para una única acción de paso de zoom. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> relajación</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> aliviando</span></span> </p> </td> 
    <td colname="col2"> <p> Crea una ilusión de aceleración o desaceleración que hace que la transición parezca más natural. Puede establecer la aceleración en una de las siguientes opciones: </p> <p> 
      <ul id="ul_DA0D1CF2F2484410BFCCACA86661702E"> 
       <li id="li_93A2D53A53314D9594CEDC9EB20381D4">0 (automático) </li> 

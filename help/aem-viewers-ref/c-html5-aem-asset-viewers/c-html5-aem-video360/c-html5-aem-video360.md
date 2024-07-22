@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 74dca3f6-ce89-4c5b-8459-c2c4ca8ed27c
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2568'
+source-wordcount: '2562'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ HTML 5 El visor Video360 se puede utilizar en modo emergente utilizando la pági
 
 La configuración y el desollado son similares a los de los demás visores descritos en esta guía. Todo el desollado se logra mediante hojas de estilo en cascada personalizadas (CSS).
 
-Consulte [Referencia de comando común a todos los visores: atributos de configuración](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) y [Referencia de comando común a todos los visores: URL](../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-cmdref-url/c-html5-aem-video360-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+Ver [Referencia de comando común a todos los visores: atributos de configuración](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) y [Referencia de comando común a todos los visores: URL](../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-cmdref-url/c-html5-aem-video360-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
 El contenido de vídeo 360 requiere ajustes de codificación más altos que el vídeo estándar que no es 360. En otras palabras, el contenido 360 debe tener una resolución mayor que el vídeo no 360 para lograr la misma calidad perceptible. Se recomienda tener en cuenta los siguientes ajustes preestablecidos de vídeo adaptable para vídeo 360:
 
@@ -70,15 +70,15 @@ El visor admite la reproducción de vídeo 360 en los siguientes casos:
 
 No es necesaria ninguna configuración adicional para ver contenido de vídeo 360 en auriculares de realidad virtual. El visor detecta automáticamente la presencia de auriculares de realidad virtual y muestra el botón &quot;VR&quot; encima del contenido de vídeo. Al activar este botón &quot;VR&quot;, el procesamiento de vídeo cambia al modo VR. El visor solo admite el procesamiento de RV en exploradores compatibles con WebVR.
 
-Para utilizar VR HMD monta el `Video360Player.vrrender` el modificador debe definirse en `1` en la configuración del visor, que fuerza la renderización estereoscópica.
+Para usar montajes VR HMD, el modificador `Video360Player.vrrender` debe establecerse en `1` en la configuración del visor, lo que fuerza la representación estereoscópica.
 
 En los auriculares de realidad virtual y los soportes VR HMD, el cambio de punto de vista se produce en respuesta al movimiento de los auriculares, no se proporciona ningún otro control de reproducción en el modo VR.
 
 Al ver vídeo 360 en dispositivos que no tienen VR habilitado, el usuario final puede utilizar el ratón, el tacto o el teclado para controlar la reproducción del vídeo y el punto de vista.
 
-El visor admite la entrada táctil y la entrada de ratón en dispositivos Windows con pantalla táctil y ratón; sin embargo, esta compatibilidad se limita únicamente a los exploradores web Chrome, Internet Explorer 11 y Edge.
+El visor admite la entrada táctil y la entrada del ratón en dispositivos Windows con pantalla táctil y ratón; sin embargo, esta compatibilidad se limita únicamente a los exploradores web Chrome, Internet Explorer 11 y Edge.
 
-El visor es totalmente accesible mediante el teclado. Consulte [Navegación y accesibilidad del teclado](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
+El visor es totalmente accesible mediante el teclado. Consulte [Navegación y accesibilidad por teclado](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
 ## Incrustación del visor de Video360 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
@@ -86,13 +86,13 @@ Las distintas páginas web tienen diferentes necesidades de comportamiento del v
 
 La incrustación de varios vídeos en la misma página es compatible con tabletas y dispositivos móviles. Normalmente, sólo se puede reproducir un vídeo a la vez. Cuando un usuario comienza a reproducir un vídeo y luego intenta reproducir otro, el primer vídeo se pausa automáticamente. El vídeo en pausa automática recuerda su tiempo de reproducción actual, por lo que el usuario siempre puede volver a él y reanudar la reproducción. La única excepción a esta regla es el navegador Chrome en dispositivos Android™ 4.x, que puede reproducir vídeos en paralelo.
 
-**Acerca del modo emergente**
+**Modo emergente**
 
 En el modo emergente, el visor se abre en una ventana o pestaña independiente del explorador web. Ocupa todo el área de la ventana del explorador y se ajusta en caso de que se cambie el tamaño del explorador o la orientación del dispositivo.
 
-Este modo es el más común para dispositivos móviles. La página web carga el visor mediante `window.open()` Llamada de JavaScript, correctamente configurada `A` elemento HTML o cualquier otro método adecuado.
+Este modo es el más común para dispositivos móviles. La página web carga el visor mediante la llamada de JavaScript `window.open()`, el elemento de HTML `A` configurado correctamente o cualquier otro método adecuado.
 
-Se recomienda utilizar una página de HTML predeterminada para el modo de operación emergente. Se llama. [!DNL Video360Viewer.html] y se encuentra debajo de la [!DNL html5/] de la implementación estándar de IS-Viewers:
+Se recomienda utilizar una página de HTML predeterminada para el modo de operación emergente. Se llama [!DNL Video360Viewer.html] y se encuentra en la subcarpeta [!DNL html5/] de su implementación estándar de IS-Viewers:
 
 [!DNL <s7viewers_root>/html5/Video360Viewer.html]
 
@@ -112,24 +112,24 @@ Los casos de uso principales son páginas web orientadas para equipos de escrito
 
 La incrustación de tamaño fijo se utiliza cuando el visor no cambia su tamaño después de la carga inicial. Este método es la mejor opción para las páginas web que tienen un diseño estático.
 
-La incrustación de diseño interactivo supone que el visualizador debe cambiar de tamaño durante la ejecución en respuesta al cambio de tamaño de su contenedor `DIV`. El caso de uso más común es añadir un visor a una página web que utilice un diseño de página flexible.
+La incrustación de diseño interactivo supone que el visor debe cambiar de tamaño durante la ejecución en respuesta al cambio de tamaño de su contenedor `DIV`. El caso de uso más común es añadir un visor a una página web que utilice un diseño de página flexible.
 
-En el modo de incrustación de diseño interactivo, el visor se comporta de forma diferente según la forma en que la página web ajusta el tamaño de su contenedor `DIV`. Si la página web establece únicamente la anchura del contenedor `DIV`Sin embargo, y sin restricciones de altura, el visualizador elige automáticamente su altura según la relación de aspecto del recurso utilizado. Esta funcionalidad garantiza que el recurso se ajuste perfectamente a la vista sin ningún relleno en los lados. Este caso de uso es el más común para páginas web que utilizan marcos de diseño web adaptables como Bootstrap y Foundation.
+En el modo de incrustación de diseño interactivo, el visor se comporta de forma diferente según la forma en que la página web ajusta el tamaño de su contenedor `DIV`. Si la página web establece únicamente la anchura del contenedor `DIV` y deja su altura sin restricciones, el visor elige automáticamente su altura según la proporción de aspecto del recurso que se utilice. Esta funcionalidad garantiza que el recurso se ajuste perfectamente a la vista sin ningún relleno en los lados. Este caso de uso es el más común para páginas web que utilizan marcos de diseño web adaptables como Bootstrap y Foundation.
 
-En caso contrario, si la página web establece tanto la anchura como la altura del contenedor del visor `DIV`, el visor rellena solo esa área y sigue el tamaño que proporciona el diseño de página web. Un buen ejemplo es la incrustación del visualizador en una superposición modal, donde el tamaño de la superposición depende del tamaño de la ventana del explorador web.
+De lo contrario, si la página web establece tanto la anchura como la altura del contenedor del visor `DIV`, el visor rellena sólo esa área y sigue el tamaño que proporciona el diseño de página web. Un buen ejemplo es la incrustación del visualizador en una superposición modal, donde el tamaño de la superposición depende del tamaño de la ventana del explorador web.
 
 **Incrustación de tamaño fijo**
 
 Para agregar el visor a una página web, haga lo siguiente:
 
-1. Añadir el archivo JavaScript del visor a la página web.
-1. Definición del contenedor `DIV`.
+1. Añadir el archivo de JavaScript del visor a la página web.
+1. Definir el contenedor `DIV`.
 1. Configuración del tamaño del visor.
 1. Creación e inicialización del visor.
 
-1. Añadir el archivo JavaScript del visor a la página web.
+1. Añadir el archivo de JavaScript del visor a la página web.
 
-   La creación de un visor requiere que añada una etiqueta de script en el encabezado del HTML. Antes de usar la API de visor, asegúrese de incluir lo siguiente [!DNL Video360Viewer.js]. El [!DNL Video360Viewer.js] El archivo se encuentra en [!DNL html5/js/] de la implementación estándar de IS-Viewers:
+   La creación de un visor requiere que añada una etiqueta de script en el encabezado del HTML. Antes de usar la API de visor, asegúrese de incluir [!DNL Video360Viewer.js]. El archivo [!DNL Video360Viewer.js] se encuentra en la subcarpeta [!DNL html5/js/] de su implementación estándar de visores IS:
 
 [!DNL <s7viewers_root>/etc/dam/viewers/s7viewers/html5/js/Video360Viewer.js]
 
@@ -143,20 +143,20 @@ La ruta relativa tiene el siguiente aspecto:
 
 >[!NOTE]
 >
->Solo referencia al visor principal JavaScript `include` en la página. No haga referencia a ningún archivo JavaScript adicional en el código de la página web que la lógica del visor pueda descargar durante la ejecución. En concreto, no haga referencia directamente al SDK de HTML5 `Utils.js` biblioteca cargada por el visor desde `/s7viewers` ruta de contexto (denominado SDK consolidado) `include`). El motivo es que la ubicación de `Utils.js` Para bibliotecas de visualizadores en tiempo de ejecución similares, la lógica del visualizador las gestiona completamente y la ubicación cambia entre versiones del visualizador. El Adobe no mantiene las versiones anteriores del visor secundario `includes` en el servidor.
+>Solo haga referencia al archivo de JavaScript `include` del visor principal en su página. No haga referencia a ningún archivo JavaScript adicional en el código de la página web que la lógica del visor pueda descargar durante la ejecución. En particular, no haga referencia directamente a la biblioteca `Utils.js` del SDK de HTML5 cargada por el visor desde la ruta de contexto `/s7viewers` (denominado SDK consolidado `include`). El motivo es que la ubicación de `Utils.js` o bibliotecas similares del visor en tiempo de ejecución está completamente administrada por la lógica del visor y la ubicación cambia entre versiones del visor. El Adobe no mantiene versiones anteriores del visor secundario `includes` en el servidor.
 >
 >
->Como resultado, se hace referencia directa a cualquier JavaScript secundario `include` que el usuario utiliza en la página interrumpe la funcionalidad del usuario en el futuro cuando se implemente una nueva versión del producto.
+>Como resultado, al establecer una referencia directa a cualquier JavaScript `include` secundario que use el visor en la página, se interrumpe la funcionalidad del visor en el futuro cuando se implemente una nueva versión del producto.
 
-1. Definición del contenedor `DIV`.
+1. Definir el contenedor `DIV`.
 
-   Añadir un vacío `DIV` a la página donde desea que aparezca el visor. El `DIV` debe tener su ID definido, ya que este ID se pasa posteriormente a la API del visor. El DIV tiene su tamaño especificado mediante CSS.
+   Agregue un elemento `DIV` vacío a la página donde desea que aparezca el visor. El elemento `DIV` debe tener su ID definido, ya que este ID se pasa posteriormente a la API del visor. El DIV tiene su tamaño especificado mediante CSS.
 
-   El marcador de posición `DIV` es un elemento posicionado, lo que significa que la variable `position` La propiedad CSS se establece en `relative` o `absolute`.
+   El marcador de posición `DIV` es un elemento posicionado, lo que significa que la propiedad CSS `position` está establecida en `relative` o `absolute`.
 
-   Para que la función de pantalla completa funcione correctamente en Internet Explorer, asegúrese de que no haya otros elementos en el DOM que tengan un orden de apilamiento mayor que el marcador de posición `DIV`.
+   Para que la característica de pantalla completa funcione correctamente en Internet Explorer, asegúrese de que no haya otros elementos en el DOM que tengan un orden de apilamiento mayor que el marcador de posición `DIV`.
 
-   El siguiente es un ejemplo de marcador de posición definido `DIV` elemento:
+   A continuación se muestra un ejemplo de un elemento `DIV` de marcador de posición definido:
 
    ```html {.line-numbers}
    <div id="s7viewer" style="position:relative;width:640px;height:360px;"></div>
@@ -164,11 +164,11 @@ La ruta relativa tiene el siguiente aspecto:
 
 1. Configuración del tamaño del visor
 
-   Puede establecer el tamaño estático del visor declarándolo para `.s7video360viewer` clase CSS de nivel superior en unidades absolutas o utilizando `stagesize` modificador.
+   Puede establecer el tamaño estático del visor declarándolo para la clase CSS de nivel superior `.s7video360viewer` en unidades absolutas o utilizando el modificador `stagesize`.
 
-   Puede colocar el tamaño en CSS directamente en la página del HTML o en un archivo CSS de visor personalizado, que luego se asigna a un registro de ajuste preestablecido de visor en Adobe Experience Manager Assets: bajo demanda o se pasa explícitamente mediante `style` comando.
+   Puede establecer el tamaño en CSS directamente en la página del HTML o en un archivo CSS de visor personalizado, que luego se asigna a un registro de ajuste preestablecido de visor en Adobe Experience Manager Assets bajo demanda o se pasa explícitamente mediante el comando `style`.
 
-   Consulte [Personalizar el visor Video360](../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) para obtener más información sobre cómo aplicar estilo al visor con CSS.
+   Consulte [Personalización del visor de Video360](../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) para obtener más información sobre cómo aplicar estilo al visor con CSS.
 
    A continuación se muestra un ejemplo de definición de un tamaño de visor estático en la página del HTML:
 
@@ -179,7 +179,7 @@ La ruta relativa tiene el siguiente aspecto:
    }
    ```
 
-   Puede configurar las variables `stagesize` modificador en el registro de ajuste preestablecido de visualizador en AEM Assets: bajo demanda. O bien, puede pasarlo explícitamente con el código de inicialización del visor con `params` o como una llamada API como se describe en la sección Referencia de comandos, de esta manera:
+   Puede establecer el modificador `stagesize` en el registro de ajustes preestablecidos de visor en AEM Assets bajo demanda. O bien, puede pasarlo explícitamente con el código de inicialización del visor con la colección `params`, o como una llamada de API como se describe en la sección Referencia de comandos, de esta manera:
 
    ```html {.line-numbers}
    video360viewer.setParam("stagesize", "640,640");
@@ -189,18 +189,18 @@ La ruta relativa tiene el siguiente aspecto:
 
 1. Creación e inicialización del visor.
 
-   Cuando haya completado los pasos anteriores, cree una instancia de `s7viewers.Video360Viewer` , pase toda la información de configuración a su constructor y llame a `init()` en una instancia de visor. La información de configuración se pasa al constructor como un objeto JSON. Como mínimo, este objeto debe tener `containerId` campo que contiene el nombre del ID de contenedor del visor y anidado `params` Objeto JSON con parámetros de configuración admitidos por el visor.
+   Cuando haya completado los pasos anteriores, cree una instancia de la clase `s7viewers.Video360Viewer`, pase toda la información de configuración a su constructor y llame al método `init()` en una instancia de visor. La información de configuración se pasa al constructor como un objeto JSON. Como mínimo, este objeto debe tener el campo `containerId` que contiene el nombre del ID del contenedor del visor y el objeto JSON `params` anidado con parámetros de configuración admitidos por el visor.
 
-   En este caso, la variable `params` el objeto debe tener al menos la URL del servicio de imágenes pasada como `serverUrl` y el recurso inicial como `asset` parámetro. La API de inicialización basada en JSON permite crear e iniciar el visor con una sola línea de código, pasando la URL del servidor de vídeo como `videoserverurl` propiedad, recurso inicial como `asset` parámetro y datos interactivos como `interactivedata` propiedad. La API de inicialización basada en JSON permite crear e iniciar el visor con una sola línea de código.
+   En este caso, el objeto `params` debe tener al menos la dirección URL del servicio de imágenes pasada como propiedad `serverUrl` y el recurso inicial como parámetro `asset`. La API de inicialización basada en JSON le permite crear e iniciar el visor con una sola línea de código, la URL del servidor de vídeo pasada como propiedad de `videoserverurl`, el recurso inicial como parámetro de `asset` y los datos interactivos como propiedad de `interactivedata`. La API de inicialización basada en JSON permite crear e iniciar el visor con una sola línea de código.
 
-   Es importante tener el contenedor del visor añadido al DOM para que el código del visor pueda encontrar el elemento contenedor por su ID. Algunos exploradores retrasan la creación de DOM hasta el final de la página web. Para conseguir la máxima compatibilidad, llame al método `init()` método justo antes del cierre `BODY` o en el cuerpo `onload()` evento.
+   Es importante tener el contenedor del visor añadido al DOM para que el código del visor pueda encontrar el elemento contenedor por su ID. Algunos exploradores retrasan la creación de DOM hasta el final de la página web. Para conseguir la máxima compatibilidad, llame al método `init()` justo antes de la etiqueta de cierre `BODY` o en el evento `onload()` del cuerpo.
 
-   Al mismo tiempo, el elemento contenedor no debe formar parte necesariamente del diseño de la página web todavía. Por ejemplo, se puede ocultar usando `display:none` estilo asignado a él. En este caso, el visor retrasa su proceso de inicialización hasta el momento en que la página web devuelve el elemento contenedor al diseño. Cuando esto sucede, la carga del visualizador se reanuda automáticamente.
+   Al mismo tiempo, el elemento contenedor no debe formar parte necesariamente del diseño de la página web todavía. Por ejemplo, se puede ocultar usando el estilo `display:none` asignado a él. En este caso, el visor retrasa su proceso de inicialización hasta el momento en que la página web devuelve el elemento contenedor al diseño. Cuando esto sucede, la carga del visualizador se reanuda automáticamente.
 
-   A continuación se muestra un ejemplo de cómo crear una instancia de visor, pasar las opciones de configuración mínimas necesarias al constructor y llamar a `init()` método. El ejemplo supone lo siguiente:
+   A continuación se muestra un ejemplo de cómo crear una instancia de visor, pasar las opciones de configuración mínimas necesarias al constructor y llamar al método `init()`. El ejemplo supone lo siguiente:
 
    * La instancia del visor es `video360Viewer`.
-   * Nombre del marcador de posición `DIV` es `s7viewer`.
+   * El nombre del marcador de posición `DIV` es `s7viewer`.
    * La URL del servicio de imágenes es `https://s7d9.scene7.com/is/image`.
    * La URL del servidor de vídeo es `https://s7d9.scene7.com/is/content`.
    * El recurso es `Viewers/space_station_360-AVS`.
@@ -250,7 +250,7 @@ La ruta relativa tiene el siguiente aspecto:
 
 **Inserción de diseño interactivo con altura sin restricciones**
 
-Con incrustación de diseño interactivo, la página web normalmente tiene algún tipo de diseño flexible que dicta el tamaño de tiempo de ejecución del contenedor del visualizador `DIV`. En el siguiente ejemplo, supongamos que la página web permite el contenedor del visor `DIV` para ocupar el 40 % del tamaño de la ventana del explorador web, sin restringir su altura. El código del HTML de la página web tendría el siguiente aspecto:
+Con incrustación de diseño interactivo, la página web normalmente tiene algún tipo de diseño flexible que dicta el tamaño de tiempo de ejecución del contenedor del visor `DIV`. En el siguiente ejemplo, supongamos que la página web permite que el contenedor del visor `DIV` ocupe el 40% del tamaño de la ventana del explorador web, sin restringir su altura. El código del HTML de la página web tendría el siguiente aspecto:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -270,11 +270,11 @@ Con incrustación de diseño interactivo, la página web normalmente tiene algú
 
 Añadir el visor a una página de este tipo es similar a los pasos para la incrustación de tamaño fijo. La única diferencia es que no es necesario definir explícitamente el tamaño del visor.
 
-1. Añadir el archivo JavaScript del visor a la página web.
+1. Añadir el archivo de JavaScript del visor a la página web.
 1. Definición del DIV de contenedor.
 1. Creación e inicialización del visor.
 
-Todos los pasos anteriores son los mismos que con la incrustación de tamaño fijo. Agregue el DIV contenedor al existente `"holder"` DIV. El siguiente código es un ejemplo completo. Observe cómo cambia el tamaño del visor cuando se cambia el tamaño del explorador y cómo la proporción de aspecto del visor coincide con el recurso.
+Todos los pasos anteriores son los mismos que con la incrustación de tamaño fijo. Agregue el DIV contenedor al DIV `"holder"` existente. El siguiente código es un ejemplo completo. Observe cómo cambia el tamaño del visor cuando se cambia el tamaño del explorador y cómo la proporción de aspecto del visor coincide con el recurso.
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -307,7 +307,7 @@ var video360Viewer = new s7viewers.Video360Viewer({
 
 **Incrustación interactiva con anchura y altura definidas**
 
-Si hay una incrustación adaptable con anchura y altura definidas, el estilo de la página web es diferente. Proporciona ambos tamaños a la `"holder"` DIV y centrarlo en la ventana del explorador. Además, la página web establece el tamaño del `HTML` y `BODY` elemento al 100 por ciento.
+Si hay una incrustación adaptable con anchura y altura definidas, el estilo de la página web es diferente. Proporciona ambos tamaños al DIV `"holder"` y lo centra en la ventana del explorador. Además, la página web establece el tamaño del elemento `HTML` y `BODY` en un 100 por ciento.
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -372,9 +372,9 @@ var video360Viewer = new s7viewers.Video360Viewer({
 </html>
 ```
 
-**Incrustación mediante una API basada en el establecedor**
+**Incrustación mediante API basada en el establecedor**
 
-En lugar de utilizar la inicialización basada en JSON, es posible utilizar la API basada en establecedores y el constructor sin argumentos. El uso de este constructor de API no toma ningún parámetro y los parámetros de configuración se especifican mediante `setContainerId()`, `setParam()`, y `setAsset()` Métodos de API con llamadas de JavaScript independientes.
+En lugar de utilizar la inicialización basada en JSON, es posible utilizar la API basada en establecedores y el constructor sin argumentos. El uso de este constructor de API no toma ningún parámetro y los parámetros de configuración se especifican mediante los métodos de API `setContainerId()`, `setParam()` y `setAsset()` con llamadas de JavaScript independientes.
 
 El siguiente ejemplo ilustra el uso de la incrustación de tamaño fijo con la API basada en establecedores:
 

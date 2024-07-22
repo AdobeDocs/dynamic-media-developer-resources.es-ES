@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: d2e4eea6-041b-4a80-beda-cbb8d74cd50b
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 18%
+source-wordcount: '216'
+ht-degree: 11%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 18%
 
 Obtiene los detalles del registro de trabajo de una compañía.
 
-El `logMessage` el campo de respuesta se localiza en función de `authHeader` `locale` field.
+El campo de respuesta `logMessage` está localizado en función del campo `authHeader` `locale`.
 
 ## Tipos de usuarios autorizados {#section-6f720a7baad64eb3805868c88af9a960}
 
@@ -77,7 +77,7 @@ El `logMessage` el campo de respuesta se localiza en función de `authHeader` `l
    <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4">Número de página de <span class="codeph"> recordsPerPage</span>-resultados para devolver. El valor predeterminado es 1. </td> 
+   <td colname="col4">Número de página de <span class="codeph"> recordsPerPage</span>-results que se van a devolver. El valor predeterminado es 1. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 
@@ -104,7 +104,7 @@ El `logMessage` el campo de respuesta se localiza en función de `authHeader` `l
 
 Este ejemplo de código devuelve todos los detalles del registro de trabajos de una compañía específica. La primera matriz contiene detalles de registro de trabajos estándar. Una matriz incrustada devuelve información adicional sobre el trabajo.
 
-**Solicitar**
+**Solicitud**
 
 ```java
 <ns1:getJobLogDetailsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 86c87cd1-6e08-40cb-80e6-35a9f49b6572
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 1%
+source-wordcount: '533'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ Ruta de clip de capa. Especifica un trazado de recorte para la capa actual.
 <table id="simpletable_275E2A5FAB804C6388BD110D2ACA3C82"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> pathDefinition</span> </span> </p> </td> 
-  <td class="stentry"> <p>Path data. </p></td> 
+  <td class="stentry"> <p>Datos de ruta. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> pathName</span></span> </p> </td> 
@@ -31,25 +31,25 @@ Ruta de clip de capa. Especifica un trazado de recorte para la capa actual.
  </tr> 
 </table>
 
-Cualquier parte de la capa que se encuentre fuera del área definida por `clipPath=` son transparentes.
+Cualquier parte de la capa que se encuentre fuera del área definida por `clipPath=` se procesará como transparente.
 
-`*`pathName`*` es el nombre de un trazado incrustado en la imagen de origen de la capa. La ruta se transforma automáticamente para mantener la alineación relativa con el contenido de la imagen. Si hay más de uno `*`pathName`*` se especifica, el servidor recorta la imagen a la intersección de estas rutas. Cualquiera `*`pathName`*` no encontrado en la imagen de origen se ignora.
-
->[!NOTE]
->
->Solo se admiten cadenas ASCII para `*`pathName`*`.
-
-`*`pathDefinition`*` permite especificar datos de ruta explícitos en coordenadas de píxel de capa.
-
-If `size=` se especifica y no 0,0, la capa está presionada. En este caso, las coordenadas de trazado son relativas a la esquina superior izquierda del rectángulo de capa y la capa se coloca basándose en `origin=` o su valor predeterminado. Cualquier región del trazado fuera del rectángulo de capa permanecerá transparente.
-
-If `size=` no se ha especificado para una capa de texto o color sólido, la capa se considera de tamaño propio con la extensión del trazado que determina su tamaño. If `origin=` no se ha especificado, el valor por defecto es (0,0) del espacio de coordenadas de trazado. Este proceso de flujo de trabajo permite especificar de forma eficaz las coordenadas de ruta en relación con el origen de la capa 0.
+`*`pathName`*` es el nombre de una ruta incrustada en la imagen de origen de la capa. La ruta se transforma automáticamente para mantener la alineación relativa con el contenido de la imagen. Si se especifica más de `*`pathName`*`, el servidor recorta la imagen a la intersección de estas rutas. Se hace caso omiso de `*`pathName`*` que no se encuentre en la imagen de origen.
 
 >[!NOTE]
 >
->`scale=`, `rotate=`, y `anchor=` no se permiten comandos para capas de color sólido de tamaño propio.
+>`*`pathName`*` solo admite cadenas ASCII.
 
-`*`pathDefinition`*` acepta una cadena similar al valor de `d=` atributo del SVG `<path>` , excepto que se utilizan comas en lugar de espacios para separar valores. `*`pathDefinition`*` puede incluir una o más subrutas de bucle cerrado.
+`*`pathDefinition`*` permite especificar datos de ruta explícitos en coordenadas de píxeles de capa.
+
+Si se especifica `size=` y no 0,0, la capa se mantiene presionada. En este caso, las coordenadas de ruta son relativas a la esquina superior izquierda del rectángulo de capa y la capa se coloca en función de `origin=` o su valor predeterminado. Cualquier región del trazado fuera del rectángulo de capa permanecerá transparente.
+
+Si no se especifica `size=` para una capa de texto o color sólido, la capa se considerará de tamaño automático y la extensión de la ruta determinará su tamaño. Si no se especifica `origin=`, el valor predeterminado es (0,0) del espacio de coordenadas de ruta. Este proceso de flujo de trabajo permite especificar de forma eficaz las coordenadas de ruta en relación con el origen de la capa 0.
+
+>[!NOTE]
+>
+>No se permiten los comandos `scale=`, `rotate=` y `anchor=` para capas de color sólido de tamaño personalizado.
+
+`*`pathDefinition`*` acepta una cadena similar al valor del atributo `d=` del elemento SVG `<path>`, excepto que se utilizan comas en lugar de espacios para separar valores. `*`pathDefinition`*` puede incluir una o más subrutas de bucle cerrado.
 
 Los siguientes comandos de ruta son compatibles con `*`pathDefinition`*`:
 
@@ -91,7 +91,7 @@ Los siguientes comandos de ruta son compatibles con `*`pathDefinition`*`:
   </tr> 
   <tr valign="top"> 
    <td> <b> Z</b> | <b>z</b> </td> 
-   <td> <p> closepath </p> </td> 
+   <td> <p> estrecho </p> </td> 
    <td> <p> Cierre el subtrazado actual con una línea recta. </p> </td> 
   </tr> 
  </tbody> 
@@ -111,7 +111,7 @@ Si una subruta comienza con un movimiento relativo (&#39;m&#39;), es relativa a 
 
 Atributo de capa. Se aplica a la capa actual o a la imagen compuesta si `layer=comp`. Las capas de efectos lo ignoran.
 
-El modificador `clipPathE=` se ignora si no se encuentra ninguna ruta con el nombre especificado en la imagen de origen de la capa o si el origen de la capa no es una imagen.
+El modificador `clipPathE=` se omite si no se encuentra ninguna ruta de acceso con el nombre especificado en la imagen de origen de la capa o si el origen de la capa no es una imagen.
 
 ## Predeterminado {#section-076c35ea37fa4a44ada253b4c2dec1dd}
 
@@ -119,4 +119,4 @@ Ninguno, ya que no hay recorte adicional de la capa.
 
 ## Véase también {#section-dd8110fb6f5c45eba6284c5ec5f49056}
 
-[clipXpath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clipxpath.md#reference-17e5e4da3e044943af8f963f58a45f53) , [textFlowPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md#reference-0b8d9493d71342f0b6a64a6d221584ef) , [extension=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac)
+[clipXpath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clipxpath.md#reference-17e5e4da3e044943af8f963f58a45f53) , [textFlowPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md#reference-0b8d9493d71342f0b6a64a6d221584ef) , [extend=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac)

@@ -1,18 +1,18 @@
 ---
 description: Escalar imagen. Escala una imagen por factor en relación con la imagen de resolución completa.
 solution: Experience Manager
-title: scale
+title: desconchar
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 89701a15-a0b6-460d-b0c1-5e25f3305380
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 9%
+source-wordcount: '43'
+ht-degree: 4%
 
 ---
 
-# scale{#scale}
+# desconchar{#scale}
 
 Escalar imagen. Escala una imagen por factor en relación con la imagen de resolución completa.
 

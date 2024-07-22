@@ -33,4 +33,4 @@ Capa, comando. Se aplica a la capa actual o a la imagen compuesta si `layer=comp
 
 ## Predeterminado {#section-7314580251f5456fa1f381ec9e99e0bb}
 
-`op_hue=0`, para que no haya cambios de tono.
+`op_hue=0`, sin cambio de tono.
