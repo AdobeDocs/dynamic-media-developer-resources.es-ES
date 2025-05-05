@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # Guía de referencia de visores de Dynamic Media {#library}
 
-+ [Guía de referencia de visores de Dynamic Media](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en) -->
++ [Guía de referencia de visores de Dynamic Media](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=es) -->
 + [ejemplos de biblioteca de visor](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 + [Requisitos del sistema](c-system-requirements-and-prerequisites.md)
 + [Instalación de varios visores en el mismo servidor](t-installing-the-viewers.md)

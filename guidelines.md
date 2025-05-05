@@ -37,7 +37,7 @@ Las excepciones a esta regla se aplican a las notas de la versión, donde los pr
 
 Cualquier idea que tenga para mejorar la documentación de es bienvenida como contribución. Sin embargo, los comentarios, los problemas y las solicitudes de extracción están destinados a *contribuciones* solo. No están pensados para utilizarse para responder a sus preguntas sobre cómo utilizar Dynamic Media, implementar su proyecto de o resolver problemas técnicos.
 
-Cualquier pregunta sobre el uso de Dynamic Media o errores técnicos que pueda tener debe notificarse a través de la [Portal de soporte Enterprise de Experience Cloud](https://experienceleague.adobe.com/?support-solution=General&amp;support-tab=home#support) o discutido en el [comunidad Experience Manager.](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
+Cualquier pregunta sobre el uso de Dynamic Media o errores técnicos que pueda tener debe notificarse a través de la [Portal de soporte Enterprise de Experience Cloud](https://experienceleague.adobe.com/es?support-solution=General&amp;support-tab=home#support) o discutido en el [comunidad Experience Manager.](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=es)
 
 ***Las contribuciones a la documentación no sustituyen al Servicio de atención al cliente de Adobe*** y se rechazará cualquier contribución de este tipo que busque respuestas a preguntas relacionadas con la asistencia.
 

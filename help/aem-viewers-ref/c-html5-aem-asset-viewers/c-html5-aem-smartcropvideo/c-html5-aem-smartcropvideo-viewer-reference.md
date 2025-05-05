@@ -293,7 +293,7 @@ La siguiente página de ejemplos ilustra un uso más real de la incrustación de
 
 [Demostraciones en vivo](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Ubicación de demostración alternativa](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+[Ubicación de demostración alternativa](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=es)
 
 **Incrustación de diseño interactivo con anchura y altura definidas**
 

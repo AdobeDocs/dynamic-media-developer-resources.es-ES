@@ -24,7 +24,7 @@ Tipo de visor 508.
 
 ## URL de demostración {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
 
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage.html)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage.html?lang=es](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage.html?lang=es)
 
 ## Requisitos del sistema {#section-b7270cc4290043399681dc504f043609}
 
@@ -244,7 +244,7 @@ var interactiveImage = new s7viewers.InteractiveImage({
 
 La siguiente página de ejemplos ilustra usos más reales del diseño interactivo incrustado con una altura sin restricciones:
 
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage-responsive-unrestricted-height.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage-responsive-unrestricted-height.html)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage-responsive-unrestricted-height.html?lang=es](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage-responsive-unrestricted-height.html?lang=es)
 
 **Incrustación de tamaño flexible con anchura y altura definidas**
 
