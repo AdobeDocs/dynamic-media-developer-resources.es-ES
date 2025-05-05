@@ -1,5 +1,5 @@
 ---
-description: Nombre de la fuente. El nombre de la fuente, exactamente como se especifica en el comando RTF \fonttbl.
+description: Nombre de la fuente. El nombre de la fuente, exactamente como se especifica en el comando RTF fonttbl.
 solution: Experience Manager
 title: Nombre
 feature: Dynamic Media Classic,SDK/API

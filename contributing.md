@@ -42,7 +42,7 @@ Las incidencias permiten describir fácilmente su idea para mejorar los document
 
 Si ve un problema y sabe exactamente cómo solucionarlo, plantéese crear una solicitud de extracción. Las solicitudes de extracción le permiten realizar sus propios cambios en la documentación, que luego son revisados para su inclusión por un miembro del equipo de documentación. Para realizar los cambios sugeridos y crear la solicitud de extracción, seleccione **Editar esta página** en la parte superior del panel de navegación derecho en cualquier página.
 
-Todas las solicitudes de extracción deben ir acompañadas de un [contrato de licencia de colaborador o CLA](https://opensource.adobe.com/cla.html. Este proceso otorga permiso al Adobe para redistribuir las aportaciones como parte del proyecto. Envíe un contrato de licencia de colaborador de Adobe solo una vez. Si ha enviado uno anteriormente, ya está listo para comenzar.
+Todas las solicitudes de extracción deben ir acompañadas de un [contrato de licencia de colaborador o CLA] (https://opensource.adobe.com/cla.html. Este proceso otorga permiso al Adobe para redistribuir las aportaciones como parte del proyecto. Envíe un contrato de licencia de colaborador de Adobe solo una vez. Si ha enviado uno anteriormente, ya está listo para comenzar.
 
 ### Introducción rápida en vídeo
 

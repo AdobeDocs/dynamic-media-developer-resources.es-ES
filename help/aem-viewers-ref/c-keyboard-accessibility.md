@@ -26,7 +26,7 @@ Un usuario final puede navegar entre los elementos de la interfaz de usuario del
 
 Según la configuración del sistema operativo y del explorador web, el elemento de interfaz de usuario que tiene el enfoque de entrada recibe una indicación de enfoque visual. Por ejemplo, el indicador visual puede ser un borde delgado representado alrededor del elemento de interfaz de usuario.
 
-Es posible deshabilitar o personalizar dicho resaltado de enfoque en el visor CSS. En la tabla de contenido de este sistema de ayuda, bajo un nombre de visor específico (por ejemplo, Zoom básico o Vídeo interactivo), haga clic en **Personalizar *nombre del visor*** >** Enfoque destacado **.
+Es posible deshabilitar o personalizar dicho resaltado de enfoque en el visor CSS. En la tabla de contenido de este sistema de ayuda, bajo un nombre de visor específico (por ejemplo, Zoom básico o Vídeo interactivo), haga clic en **Personalizar *nombre del visor*** >**&#x200B; Enfoque destacado &#x200B;**.
 
 Las pulsaciones de teclas compatibles con los elementos de la interfaz de usuario del visor individual son, en la mayoría de los casos, obvias y fáciles de descubrir.
 

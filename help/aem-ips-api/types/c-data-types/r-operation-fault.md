@@ -22,7 +22,7 @@ Mensaje detallado que responde a una de las direcciones URL proporcionadas en la
 
 ## Parámetros {#section-cf4b0c923cef4c14869319af73ace58b}
 
-| ** nombre** | ** tipo** | ** descripción** |
+| **&#x200B; nombre** | **&#x200B; tipo** | **&#x200B; descripción** |
 |---|---|---|
 | código | `xsd:int` | Código de error proporcionado desde la CDN |
 | razón | `xsd:string` | Mensaje de error proporcionado desde la CDN |

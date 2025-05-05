@@ -95,6 +95,6 @@ Se da por hecho que el lector está familiarizado con la creación y el procesam
 
 **Términos comunes**
 
-** *`MSS`* ** segmento de especificación de material: un conjunto de atributos de material entre dos comandos de selección de la solicitud.
+**&#x200B; *`MSS`* &#x200B;** segmento de especificación de material: un conjunto de atributos de material entre dos comandos de selección de la solicitud.
 
-** *`vignette`* ** Una imagen preparada en Dynamic Media Image Authoring para usarla con Image Rendering.
+**&#x200B; *`vignette`* &#x200B;** Una imagen preparada en Dynamic Media Image Authoring para usarla con Image Rendering.

@@ -65,7 +65,7 @@ El trabajo de carga consiste en uno o más POST HTTP que utilizan un `jobHandle`
 
 |  Parte del formulario del POST HTTP  |  Descripción  |
 |---|---|
-| `auth`  |   Requerido. Documento XML authHeader que especifica la información de autenticación y de cliente. SOAP Ver **Solicitud de autenticación** en [](/help/aem-ips-api/c-wsdl-versions.md). |
+| `auth`  |   Requerido. Documento XML authHeader que especifica la información de autenticación y de cliente. SOAP Ver **Solicitud de autenticación** en [&#128279;](/help/aem-ips-api/c-wsdl-versions.md). |
 | `file params`  |   Opcional. Puede incluir uno o más archivos para cargar con cada solicitud de POST. Cada parte del archivo puede incluir un parámetro filename en el encabezado Content-Disposition que se utiliza como nombre de archivo de destino en IPS si no se especifica ningún parámetro `uploadPostParams/fileName`. |
 
 |  Parte del formulario del POST HTTP   |  Nombre del elemento uploadPostParams   |  Tipo   |  Descripción   |

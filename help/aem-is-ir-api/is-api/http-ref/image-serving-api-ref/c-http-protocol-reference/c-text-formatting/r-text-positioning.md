@@ -28,25 +28,25 @@ Aunque `text=` puede ser un poco más fácil de usar para aplicaciones sencillas
 
 Los siguientes ejemplos son para texto con tamaño previo. El comportamiento para el texto de tamaño personalizado es diferente.
 
-** `Text=` siempre proporciona un margen estrecho en la parte superior:**
+**&#x200B; `Text=` siempre proporciona un margen estrecho en la parte superior:**
 
 ![Ejemplo de colocación de texto en una imagen](assets/tp01.png)
 
 `/is/image/?size=230,50&bgc=f0f0f0&fmt=png&text=\fs40Normal%20Normal%20Normal`
 
-** `textPs=` procesa el texto alineado con precisión con la parte superior del cuadro de texto, lo que da como resultado un ligero recorte, incluso para fuentes comunes como Arial®:**
+**&#x200B; `textPs=` procesa el texto alineado con precisión con la parte superior del cuadro de texto, lo que da como resultado un ligero recorte, incluso para fuentes comunes como Arial®:**
 
 ![Ejemplo de colocación de texto en dos imágenes](assets/tp02.png)
 
 `/is/image/?size=230,50&bgc=f0f0f0&fmt=png&textPs=\fs40Normal%20Normal%20Normal`
 
-** `text=` desplaza automáticamente el texto procesado hacia abajo para evitar el recorte:**
+**&#x200B; `text=` desplaza automáticamente el texto procesado hacia abajo para evitar el recorte:**
 
 ![Ejemplo de colocación de texto en tres imágenes](assets/tp03.png)
 
 `/is/image?size=230,50&bgc=f0f0f0&fmt=png&text=\fs40Normal%20{\up20Raised%20}Normal`
 
-** `textPs=` no mueve el texto que contiene partes elevadas, lo que provoca un recorte significativo si el texto se encuentra en la capa 0:**
+**&#x200B; `textPs=` no mueve el texto que contiene partes elevadas, lo que provoca un recorte significativo si el texto se encuentra en la capa 0:**
 
 ![Ejemplo de colocación de texto en cuatro imágenes](assets/tp04.png)
 

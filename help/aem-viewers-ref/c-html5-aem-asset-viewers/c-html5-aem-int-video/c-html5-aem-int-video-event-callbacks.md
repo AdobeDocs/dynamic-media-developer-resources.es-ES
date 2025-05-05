@@ -31,7 +31,7 @@ Los eventos de visor admitidos son los siguientes:
 
 * `quickViewActivate`: déclencheur cuando un usuario pulsa o hace clic en una muestra interactiva dentro del componente de muestras interactivas o en la pantalla &quot;llamada a la acción&quot; que se muestra al final de la reproducción de vídeo. El controlador de devolución de llamada toma el único argumento que es un objeto JSON con los siguientes campos:
 
-   * Valor de SKU de `sku` { `String` asociado a la muestra interactiva.
+   * Valor de SKU de `sku` &lbrace; `String` asociado a la muestra interactiva.
    * `<additionalVariable>` { `String`} cero o más variables adicionales asociadas con la muestra interactiva.
 
 Consulte también [InteractiveVideoViewer](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-interactivevideo.md#reference-bd16cadc0c054fafb0db4994741d47cd) y [setHandlers](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-sethandlers.md#reference-d76f126ac4354dc282e56afd49a0c643).

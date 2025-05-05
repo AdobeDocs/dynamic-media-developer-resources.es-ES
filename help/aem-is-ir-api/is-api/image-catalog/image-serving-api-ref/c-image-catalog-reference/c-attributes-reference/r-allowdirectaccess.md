@@ -43,7 +43,7 @@ Se pueden controlar los siguientes tipos:
 
   `AllowDirectAccess=include:IS,STATIC`
 
-* Permitir acceso directo a todos los tipos de objetos excepto `IS` y `STATIC``AllowDirectAccess=exclude:IS,STATIC`
+* Permitir acceso directo a todos los tipos de objetos excepto `IS` y `STATIC` `AllowDirectAccess=exclude:IS,STATIC`
 
 * Permitir acceso directo a *no* tipos de objetos (es decir, no incluir ninguno)
 
