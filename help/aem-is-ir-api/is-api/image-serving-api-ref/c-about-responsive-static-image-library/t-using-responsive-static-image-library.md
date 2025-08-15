@@ -18,7 +18,7 @@ Para añadir la biblioteca de imágenes adaptables a una página web y administr
 
 **Para usar la biblioteca de imágenes adaptables**
 
-1. En Dynamic Media Classic, [cree un ajuste preestablecido de imagen](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing) en caso de que planee usar la biblioteca de imágenes adaptables con ajustes preestablecidos.
+1. En Dynamic Media Classic, [cree un ajuste preestablecido de imagen](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html?lang=es#image-sizing) en caso de que planee usar la biblioteca de imágenes adaptables con ajustes preestablecidos.
 
    Cuando defina ajustes preestablecidos de imagen que se utilizan con la biblioteca de imágenes adaptables, no utilice ninguna configuración que afecte al tamaño de la imagen, como `wid=`, `hei=` o `scl=`. No especifique ningún campo de tamaño en el ajuste preestablecido de imagen. En su lugar, déjelos como valores en blanco.
 1. Añada el archivo JavaScript de biblioteca a la página web.

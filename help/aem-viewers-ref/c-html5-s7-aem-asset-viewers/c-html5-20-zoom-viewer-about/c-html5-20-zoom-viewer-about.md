@@ -178,7 +178,7 @@ La ruta relativa tiene el siguiente aspecto:
 
    Puede ver el comportamiento con un visor exterior fijo en el siguiente ejemplo. Tenga en cuenta que cuando cambia entre conjuntos, el tamaño del visor exterior no cambia:
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html?lang=es](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html?lang=es)
 
    Para que las dimensiones de la vista principal sean estáticas, defina el tamaño del visor en unidades absolutas para el componente SDK `Container` interno mediante el selector CSS `.s7zoomviewer` `.s7container` o mediante el modificador `stagesize`.
 
@@ -193,7 +193,7 @@ La ruta relativa tiene el siguiente aspecto:
 
    La siguiente página de demostración muestra el comportamiento del visor con un tamaño de vista principal fijo. Tenga en cuenta que cuando cambia entre conjuntos, la vista principal permanece estática y el contenido de la página web se mueve verticalmente.
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html?lang=es](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html?lang=es)
 
    Puede establecer el modificador `stagesize` en el registro de ajuste preestablecido de visualizador en Dynamic Media Classic. O bien, puede pasarlo explícitamente con el código de inicialización del visor con la colección `params` o como una llamada de API como se describe en la sección Referencia de comandos de esta Ayuda, como en el ejemplo siguiente:
 

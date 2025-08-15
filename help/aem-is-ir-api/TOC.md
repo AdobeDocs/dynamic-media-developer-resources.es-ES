@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # API de servicio y procesamiento de imágenes de Dynamic Media {#image-serving-api}
 
-+ [Página de inicio de API de servicio y procesamiento de imágenes de Dynamic Media](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html) -->
++ [Página de inicio de API de servicio y procesamiento de imágenes de Dynamic Media](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html?lang=es) -->
 + [Acerca de esta versión](r-about-this-release.md)
 + [Requisitos y requisitos previos del sistema](r-requirements-and-prerequisites.md)
 + [Requisitos y recomendaciones de espacio en disco](r-disk-space-reqs.md)

@@ -152,7 +152,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipos:UnsharpMaskOptions</span> </p> </td> 
-   <td colname="col3"> <p>Opciones que permiten controlar los ajustes de máscara de enfoque al crear un archivo TIF piramidal optimizado. Utilice esta configuración para mejorar la nitidez de la imagen. </p> <p>Consulte <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnsharpMaskOptions</a>. </p> </td> 
+   <td colname="col3"> <p>Opciones que permiten controlar los ajustes de máscara de enfoque al crear un archivo TIF piramidal optimizado. Utilice esta configuración para mejorar la nitidez de la imagen. </p> <p>Consulte <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html?lang=es"> UnsharpMaskOptions</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
