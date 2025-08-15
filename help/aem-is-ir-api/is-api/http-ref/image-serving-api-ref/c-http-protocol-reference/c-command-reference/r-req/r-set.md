@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Información del conjunto de medios.
 
-req=set[,xml[, *`encoding`*]|{json[&amp;id=*`reqId`*]]
+req=set[,xml[, *`encoding`*]|&lbrace;json[&amp;id=*`reqId`*]]
 
 <table id="simpletable_02C955F4EBAD4251A728F0FC68F432B5"> 
  <tr class="strow"> 

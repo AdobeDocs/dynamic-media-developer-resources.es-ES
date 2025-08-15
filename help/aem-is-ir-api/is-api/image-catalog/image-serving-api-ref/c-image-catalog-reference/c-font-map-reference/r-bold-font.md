@@ -1,5 +1,5 @@
 ---
-description: Bandera en negrita. Especifica si el archivo de fuentes al que hace referencia este registro de mapa de fuentes debe utilizarse cuando lo solicita el comando RTF boldface (\b).
+description: Bandera en negrita. Especifica si el archivo de fuentes al que hace referencia este registro de mapa de fuentes debe utilizarse cuando lo solicita el comando RTF boldface (b).
 solution: Experience Manager
 title: Negrita
 feature: Dynamic Media Classic,SDK/API

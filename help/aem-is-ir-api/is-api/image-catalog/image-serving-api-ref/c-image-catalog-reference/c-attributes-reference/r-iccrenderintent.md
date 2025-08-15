@@ -1,6 +1,6 @@
 ---
 title: IccRenderIntent
-description: Interpretación de la conversión de color. Proporciona la interpretación predeterminada para las conversiones de color cuando `icc=` no se especifica para la interpretación.
+description: Interpretación de la conversión de color. Proporciona la interpretación predeterminada para las conversiones de color cuando &grave;icc=&grave; no se especifica para la interpretación.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User

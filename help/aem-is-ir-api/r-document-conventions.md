@@ -74,7 +74,7 @@ Este documento utiliza las siguientes convenciones.
   <td class="stentry"> <p>Una barra vertical indica que se puede utilizar el único elemento de sintaxis a la izquierda o el elemento a la derecha. Se debe seleccionar exactamente un elemento. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> { <span class="varname"> grupo </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> &lbrace; <span class="varname"> grupo </span> </span> </p> </td> 
   <td class="stentry"> <p>Las llaves se utilizan para agrupar elementos de sintaxis. </p> </td> 
  </tr> 
  <tr class="strow"> 
