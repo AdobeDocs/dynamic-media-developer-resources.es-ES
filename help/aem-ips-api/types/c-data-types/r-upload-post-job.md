@@ -20,7 +20,7 @@ Consulte también [Carga de recursos mediante HTTP POST en la carga...](../../c-
 
 >[!NOTE]
 >
->Todas las solicitudes de POST para un trabajo de carga deben proceder de la misma dirección IP.
+>Todas las peticiones POST de un trabajo de carga deben proceder de la misma dirección IP.
 
 ## Parámetros {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -110,7 +110,7 @@ Consulte también [Carga de recursos mediante HTTP POST en la carga...](../../c-
    <td colname="col1"> <span class="codeph"> <span class="varname"> pdfOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:PDFOptions</span> </td> 
    <td colname="col3"> <p>No</p> </td> 
-   <td colname="col4"> <p>Opciones para cargar archivos del PDF en el servidor de imágenes. </p> </td> 
+   <td colname="col4"> <p>Opciones para cargar archivos de PDF en el servidor de imágenes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> photoshopOptions</span> </span> </td> 

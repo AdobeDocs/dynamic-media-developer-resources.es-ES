@@ -22,7 +22,7 @@ Desecha esta instancia del visor liberando todos los recursos utilizados por la 
 
 El código de la página web también debe eliminar la variable de la instancia del visor para eliminar por completo el visor de la memoria del explorador web.
 
-Si el código de la página web ha registrado detectores de eventos directamente en los componentes del SDK del visor utilizados por el visor, o si ha almacenado referencias externas a dichos componentes, debe anular el registro de dichos detectores de forma explícita mediante el código de la página web. Además, debe eliminar dichas referencias a componentes externos antes de llamar a `dispose()`.
+Si el código de la página web ha registrado detectores de eventos directamente en los componentes de Viewer SDK utilizados por el visor (o si ha almacenado referencias externas a dichos componentes), el código de la página web debe anular explícitamente el registro de dichos detectores. Además, debe eliminar dichas referencias a componentes externos antes de llamar a `dispose()`.
 
 Ya no acceda a la API del visor después de llamar a `dispose()`.
 

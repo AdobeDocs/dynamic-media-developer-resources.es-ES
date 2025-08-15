@@ -42,4 +42,4 @@ Sintaxis
 
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
-| contextArray | `types:StringArray` | Sí | La matriz de contextos de publicación activos, que pueden incluir cero o más valores del contexto de Publish. |
+| contextArray | `types:StringArray` | Sí | Matriz de contextos de publicación activos, que pueden incluir cero o más valores del contexto de publicación. |

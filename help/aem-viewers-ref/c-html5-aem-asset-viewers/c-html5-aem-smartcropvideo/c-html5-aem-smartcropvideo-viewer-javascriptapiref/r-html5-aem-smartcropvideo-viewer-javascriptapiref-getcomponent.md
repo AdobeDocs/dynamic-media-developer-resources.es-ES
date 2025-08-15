@@ -18,7 +18,7 @@ Referencia de la API de JavaScript para el visualizador de recorte inteligente d
 
 `getComponent(componentId)`
 
-Devuelve una referencia al componente del SDK del visor que utiliza el visor. La página web puede utilizar este método para ampliar o personalizar el comportamiento del visualizador integrado. Llame a este método únicamente después de que se haya ejecutado la devolución de llamada del visor `initComplete`; de lo contrario, es posible que la lógica del visor aún no haya creado el componente.
+Devuelve una referencia al componente de SDK del visor que utiliza el visor. La página web puede utilizar este método para ampliar o personalizar el comportamiento del visualizador integrado. Llame a este método únicamente después de que se haya ejecutado la devolución de llamada del visor `initComplete`; de lo contrario, es posible que la lógica del visor aún no haya creado el componente.
 
 ## Parámetros {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
@@ -28,7 +28,7 @@ Devuelve una referencia al componente del SDK del visor que utiliza el visor. La
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>ID de componente </p> </th> 
-   <th colname="col2" class="entry"> <p>Nombre de clase de componente de SDK de visor </p> </th> 
+   <th colname="col2" class="entry"> <p>Nombre de clase de componente de visor SDK </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -103,14 +103,14 @@ Devuelve una referencia al componente del SDK del visor que utiliza el visor. La
  </tbody> 
 </table>
 
-Al trabajar con las API de SDK, es importante usar un espacio de nombres de SDK correcto y completo, tal como se describe en [espacio de nombres de SDK de visor]
+Al trabajar con las API de SDK, es importante usar el espacio de nombres de SDK correcto y completo, tal como se describe en [Espacio de nombres de SDK de visor]
 (../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-namespace.md#concept-679bfabb3e3e4c12a285c4e9c4144153).
 
-Consulte la documentación de la API del SDK de visualizadores para obtener más información sobre un componente en particular.
+Consulte la documentación de la API de Viewer SDK para obtener más información sobre un componente en particular.
 
 ## Devuelve {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` Una referencia al componente SDK del visor. El método devuelve `null` si `componentId` no es un componente de visor compatible o si la lógica del visor aún no ha creado el componente.
+`{Object}` Una referencia al componente de SDK del visor. El método devuelve `null` si `componentId` no es un componente de visor compatible o si la lógica del visor aún no ha creado el componente.
 
 ## Ejemplo {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

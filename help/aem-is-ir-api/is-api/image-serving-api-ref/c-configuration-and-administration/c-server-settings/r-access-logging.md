@@ -20,7 +20,7 @@ Sintaxis
 
 ## TC::directory: carpeta de archivos de registro {#section-5d9e2168d4504bbe9868b7d6051c9d67}
 
-Carpeta en la que [!DNL Platform Server] escribe archivos de registro. Puede ser una ruta absoluta o una ruta relativa a *`install_folder`*. El valor predeterminado es [!DNL &#x200B; *`install_folder`*/logs].
+Carpeta en la que [!DNL Platform Server] escribe archivos de registro. Puede ser una ruta absoluta o una ruta relativa a *`install_folder`*. El valor predeterminado es [!DNL  *`install_folder`*/logs].
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ Se debe conservar el número de días que los archivos de registro. Todos los d�
 
 ## TC::prefix - Nombre del archivo de registro de acceso {#section-1003856323b844049632710a5a056aa7}
 
-Prefijo de nombre del archivo en el que se escriben los datos del registro de acceso. La fecha y el sufijo de archivo ( [!DNL &#x200B; *`yyyy`*-*`mm`*-*`dd`*.log]) se anexan a la cadena especificada. El nombre del archivo de registro de acceso debe ser diferente del del archivo de registro de seguimiento. El valor predeterminado es &quot; `access-`&quot;.
+Prefijo de nombre del archivo en el que se escriben los datos del registro de acceso. La fecha y el sufijo de archivo ( [!DNL  *`yyyy`*-*`mm`*-*`dd`*.log]) se anexan a la cadena especificada. El nombre del archivo de registro de acceso debe ser diferente del del archivo de registro de seguimiento. El valor predeterminado es &quot; `access-`&quot;.
 
 ## TC::pattern: patrón de registro de acceso {#section-22775ea85cee444d8a7d7336a3b1feef}
 

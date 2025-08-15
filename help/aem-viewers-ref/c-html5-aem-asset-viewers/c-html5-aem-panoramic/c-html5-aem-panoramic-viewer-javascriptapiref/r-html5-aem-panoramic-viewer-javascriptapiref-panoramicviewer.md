@@ -6,7 +6,7 @@ feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '161'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ config
 {Object} objeto de configuración JSON opcional, permite pasar todas las configuraciones del visor al constructor y evitar llamar a métodos de establecedor individuales. Contiene las siguientes propiedades:
 
 * containerId: {String} ID del contenedor DOM (normalmente un DIV) en el que se inserta el visor. No es necesario tener el elemento container creado para el momento en que se llama a este método, sin embargo el contenedor debe existir cuando se ejecuta init(). Obligatorio
-* parámetros: objeto JSON {Object} con parámetros de configuración del visor donde el nombre de la propiedad es una opción de configuración específica del visor o un modificador del SDK, y el valor de esa propiedad es un valor de configuración correspondiente. Obligatorio
+* parámetros: objeto JSON {Object} con parámetros de configuración del visor donde el nombre de la propiedad es una opción de configuración específica del visor o un modificador SDK, y el valor de esa propiedad es un valor de configuración correspondiente. Obligatorio
 * controladores: {Object} objeto JSON con llamadas de retorno de evento del visor, donde el nombre de la propiedad es el nombre del evento del visor admitido y el valor de la propiedad es una referencia de función de JavaScript a la llamada de retorno adecuada. Consulte la sección Llamadas de retorno de eventos para obtener más información sobre los eventos de visor. Opcional.
 
 

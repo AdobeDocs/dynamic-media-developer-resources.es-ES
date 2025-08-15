@@ -37,7 +37,7 @@ Sintaxis
 | defaultSourceProfileHandle | `xsd:string` | No | Recurso IccProfile que se utilizará como perfil de color de origen predeterminado. |
 | defaultDisplayProfileHandle | `xsd:string` | No | Recurso IccProfile que se utilizará como perfil de color de visualización predeterminado. |
 | iptcExifMappingXsltHandle | `xsd:string` | No | Recurso XSL utilizado para asignar metadatos IPTC y EXIF a campos de metadatos IPS. |
-| xmpMappingXsltHandle | `xsd:string` | No | XMP Recurso XSL utilizado para asignar metadatos de la a campos de metadatos IPS. |
+| xmpMappingXsltHandle | `xsd:string` | No | Recurso XSL utilizado para asignar metadatos de XMP a campos de metadatos IPS. |
 | diskSpaceWarningMin | `xsd:int` | No | Espacio en disco mínimo (en KB) disponible antes de enviar un mensaje de advertencia. |
 | emailTrashCleanupWarning | `xsd:boolean` | No | Se establece en `true` para enviar una notificación a los administradores de la empresa cada vez que se eliminen recursos de la papelera. |
 

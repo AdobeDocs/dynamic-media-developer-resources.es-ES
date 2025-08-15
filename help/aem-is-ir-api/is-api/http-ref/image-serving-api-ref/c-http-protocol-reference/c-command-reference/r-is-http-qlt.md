@@ -1,6 +1,6 @@
 ---
 title: qlt
-description: Calidad JPEG. Especifica atributos de codificación del JPEG para controlar el nivel de compresión. Esto, a su vez, varía el tamaño del archivo (cantidad de datos de respuesta) e, indirectamente, la calidad visual de la imagen resultante.
+description: Calidad JPEG. Especifica atributos de codificación de JPEG para controlar el nivel de compresión. Esto, a su vez, varía el tamaño del archivo (cantidad de datos de respuesta) e, indirectamente, la calidad visual de la imagen resultante.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,28 +14,28 @@ ht-degree: 6%
 
 # qlt{#qlt}
 
-Calidad JPEG. Especifica atributos de codificación del JPEG para controlar el nivel de compresión. Esto, a su vez, varía el tamaño del archivo (cantidad de datos de respuesta) e, indirectamente, la calidad visual de la imagen resultante.
+Calidad JPEG. Especifica atributos de codificación de JPEG para controlar el nivel de compresión. Esto, a su vez, varía el tamaño del archivo (cantidad de datos de respuesta) e, indirectamente, la calidad visual de la imagen resultante.
 
 ` qlt= *`calidad`*[, *`croma`*]`
 
 <table id="simpletable_FB8090D4BEBF42FD83A64A7AAB6D7F92"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> calidad </span> </p> </td> 
-  <td class="stentry"> <p>Calidad de codificación JPEG (1...100 int). </p> </td> 
+  <td class="stentry"> <p>Calidad de codificación de JPEG (1...100 int). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> croma </span> </p> </td> 
-  <td class="stentry"> <p>Disminución de resolución de cromaticidad del JPEG (0=normal, 1=deshabilitar); opcional, el valor predeterminado es 0. </p> </td> 
+  <td class="stentry"> <p>Disminución de resolución de cromaticidad de JPEG (0=normal, 1=deshabilitar); opcional, el valor predeterminado es 0. </p> </td> 
  </tr> 
 </table>
 
 Los valores *`quality`* más altos aumentan el tamaño y la calidad del archivo, los valores más bajos reducen el tamaño del archivo y reducen la calidad de imagen percibida. Si el valor es superior a 90, suele generar imágenes que no se distinguen de la imagen sin comprimir.
 
-Establezca el indicador *`chroma`* para deshabilitar la disminución de resolución de cromaticidad RGB empleada por los codificadores JPEG típicos. Esto puede aumentar la nitidez percibida de los bordes de una imagen cuando el borde se define por un cambio en el tono en lugar de en el brillo. La configuración de este indicador puede provocar un ligero aumento en el tamaño del archivo. Experimente con esta configuración si el texto parece ligeramente borroso.
+Establezca el indicador *`chroma`* para deshabilitar la disminución de resolución de cromaticidad de RGB empleada por los codificadores de JPEG típicos. Esto puede aumentar la nitidez percibida de los bordes de una imagen cuando el borde se define por un cambio en el tono en lugar de en el brillo. La configuración de este indicador puede provocar un ligero aumento en el tamaño del archivo. Experimente con esta configuración si el texto parece ligeramente borroso.
 
 ## Propiedades {#section-925a44cbdc9042db8d4eb149cd073d21}
 
-Atributo de solicitud. Se aplica independientemente de la configuración de capa actual. Se ignora si el formato del archivo de imagen de salida no admite la codificación del JPEG. Consulte la descripción de `fmt=` para obtener información sobre los formatos de imagen de salida que admiten `qlt=`.
+Atributo de solicitud. Se aplica independientemente de la configuración de capa actual. Se ignora si el formato del archivo de imagen de salida no admite la codificación JPEG. Consulte la descripción de `fmt=` para obtener información sobre los formatos de imagen de salida que admiten `qlt=`.
 
 *`chroma`* se omite si el tipo de píxel de salida es CMYK o gris.
 

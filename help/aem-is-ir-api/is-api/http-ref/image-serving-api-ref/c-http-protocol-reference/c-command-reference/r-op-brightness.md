@@ -27,7 +27,7 @@ Ajuste el brillo. Reduce o aumenta el brillo de la imagen.
 
 ## Propiedades {#section-c7e757f63b2c4b5ebaacbadb51c72ce4}
 
-Capa, comando. Se aplica a la capa actual o a la imagen compuesta si `layer=comp`. Ignorado por las capas de efecto. Las imágenes o capas CMYK se convierten en RGB antes de que se aplique la operación.
+Capa, comando. Se aplica a la capa actual o a la imagen compuesta si `layer=comp`. Ignorado por las capas de efecto. Las imágenes o capas CMYK se convierten a RGB antes de que se aplique la operación.
 
 ## Predeterminado {#section-be56be0759634c79b4f264f194a94dbc}
 

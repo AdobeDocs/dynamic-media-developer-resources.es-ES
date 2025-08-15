@@ -26,4 +26,4 @@ Estos tipos de puntos interactivos o mapas de imagen deben crearse con el tipo d
 
 ## Redirigir a página web externa {#section-ef820c71251e4215800bb99c0c9ebe16}
 
-Puntos interactivos o mapas de imagen creados para el tipo de acción &quot;Vista rápida&quot; en Dynamic Media of Experience Manager redirige al usuario a una URL externa. Según la configuración realizada durante la creación, la URL se abre en una nueva pestaña del explorador, en la misma ventana o en la ventana denominada del explorador.
+Los puntos interactivos o los mapas de imagen creados para el tipo de acción &quot;Vista rápida&quot; en Dynamic Media de Experience Manager redirigen al usuario a una URL externa. Según la configuración realizada durante la creación, la URL se abre en una nueva pestaña del explorador, en la misma ventana o en la ventana denominada del explorador.

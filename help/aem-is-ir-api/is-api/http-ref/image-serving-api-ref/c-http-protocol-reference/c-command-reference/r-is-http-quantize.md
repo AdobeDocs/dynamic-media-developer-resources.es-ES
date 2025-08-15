@@ -1,6 +1,6 @@
 ---
 title: cuantificar
-description: Cuantificación de color. Especifica atributos de cuantificación de color para la conversión de salida del GIF.
+description: Cuantificación de color. Especifica atributos de cuantificación de color para la conversión de salida de GIF.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # cuantificar{#quantize}
 
-Cuantificación de color. Especifica atributos de cuantificación de color para la conversión de salida del GIF.
+Cuantificación de color. Especifica atributos de cuantificación de color para la conversión de salida de GIF.
 
 ` quantize= *`type`*[, *`dither`*[, *`numColors`*[, *`colorList`*]]]`
 
@@ -34,7 +34,7 @@ Cuantificación de color. Especifica atributos de cuantificación de color para 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> lista de colores </span> </span> </p> </td> 
-   <td colname="col2"> <p>Lista separada por comas de colores de RGB forzados en formato hex6 </p> <p>Permite especificar los colores que se incluirán en una paleta <span class="codeph"> </span> adaptable. Si el número de colores especificado es menor que <span class="codeph"> <span class="varname"> numColors </span> </span>, se calculan colores adicionales basados en el contenido de la imagen.</p> </td> 
+   <td colname="col2"> <p>Lista separada por comas de los colores RGB forzados en formato hex6 </p> <p>Permite especificar los colores que se incluirán en una paleta <span class="codeph"> </span> adaptable. Si el número de colores especificado es menor que <span class="codeph"> <span class="varname"> numColors </span> </span>, se calculan colores adicionales basados en el contenido de la imagen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -43,7 +43,7 @@ Cuantificación de color. Especifica atributos de cuantificación de color para 
 
 Atributo de solicitud. Se aplica independientemente de la configuración de capa actual. Solo se usa si `fmt=gif`, `fmt=gif-alpha`, `fmt=png8` o `fmt=png8-alpha`. Se ignora en caso contrario.
 
-Los colores especificados con *`colorList`* deben constar de valores de RGB en formato hex6 (vea [color](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md) sin prefijo `0x`. No se permiten otros especificadores de color. El modificador *`numColors`* debe ser 2-256.
+Los colores especificados con *`colorList`* deben constar de valores RGB en formato hex6 (vea [color](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md) sin prefijo `0x`. No se permiten otros especificadores de color. El modificador *`numColors`* debe ser 2-256.
 
 ## Predeterminado {#section-ca3e817617244e8798ccff67b2023a32}
 
@@ -55,7 +55,7 @@ Genere una miniatura de GIF con la paleta `web` y sin tramado:
 
 `http:// *`*Servidor*`*/myRootId/myImageId?req=tmb&fmt=gif&quantize=web,off`
 
-Convierta la imagen en un GIF bi-tonal con transparencia de color clave. Y, fuerza los colores a blanco y negro:
+Convierta la imagen en un GIF bitono con transparencia de clave de color. Y, fuerza los colores a blanco y negro:
 
 `http:// *`*Servidor*`*/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`
 

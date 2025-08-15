@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: 094b5143-d4f0-412f-92cf-3522157cbeca
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '86'
 ht-degree: 3%
 
 ---
 
 # RootUrl{#rooturl}
 
-URL raíz para URL de imágenes relativas. Especifica la dirección URL raíz para las direcciones URL de imagen relativas. Se usa `attribute::RootUrl` en lugar de `attribute::RootPath` cuando un valor `src=` está entre { llaves }.
+URL raíz para URL de imágenes relativas. Especifica la dirección URL raíz para las direcciones URL de imagen relativas. Se usa `attribute::RootUrl` en lugar de `attribute::RootPath` cuando `src=` encierra un valor {curly braces}.
 
 ## Propiedades {#section-69cd0f71ea614770a8778c745d23197a}
 

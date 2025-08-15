@@ -25,7 +25,7 @@ Los eventos de visor admitidos son los siguientes:
 
    * `objID {String}` no se usa actualmente.
    * `compClass {String}` no se usa actualmente.
-   * `instName {String}` un nombre de instancia del componente de SDK de visor de HTML 5 que activó el evento.
+   * `instName {String}` un nombre de instancia del componente SDK del visor de HTML5 que activó el evento.
    * `timeStamp {Number}` marca de tiempo del evento.
    * `eventInfo {String}` carga útil de evento.
 

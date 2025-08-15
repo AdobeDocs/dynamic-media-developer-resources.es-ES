@@ -1,5 +1,5 @@
 ---
-description: XMP Establece o actualiza un paquete de metadatos de para un recurso.
+description: Establece o actualiza un paquete de metadatos de XMP para un recurso.
 solution: Experience Manager
 title: updateXMPPacket
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 23%
 
 # updateXMPPacket{#updatexmppacket}
 
-XMP Establece o actualiza un paquete de metadatos de para un recurso.
+Establece o actualiza un paquete de metadatos de XMP para un recurso.
 
 Sintaxis
 
@@ -36,7 +36,7 @@ Sintaxis
 |---|---|---|---|
 | companyHandle | `xsd:string` | Sí | Manejo de la compañía. |
 | assetHandle | `xsd:string` | Sí | Controlador de recurso. |
-| compressedPacket | `xsd:Base 64 binary` | Sí | XMP [!DNL zlib-compressed] paquete de que desea establecer o actualizar. |
+| compressedPacket | `xsd:Base 64 binary` | Sí | [!DNL zlib-compressed] paquete de XMP que desea establecer o actualizar. |
 
 **Salida (updateXMPPacketReturn)**
 

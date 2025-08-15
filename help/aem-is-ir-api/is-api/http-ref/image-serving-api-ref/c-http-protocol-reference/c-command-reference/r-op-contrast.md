@@ -31,7 +31,7 @@ Capa, comando. Se aplica a la capa actual o a la imagen compuesta si `layer=comp
 
 ## Predeterminado {#section-896d1b1f7f084e929355a4684f3e833b}
 
-`op_contrast=0`, sin cambio de contraste. Las imágenes o capas CMYK se convierten en RGB antes de que se aplique la operación.
+`op_contrast=0`, sin cambio de contraste. Las imágenes o capas CMYK se convierten a RGB antes de que se aplique la operación.
 
 ## Ejemplo {#section-94bc4348b4bc4f0e9768ea1c45ca8340}
 

@@ -1,5 +1,5 @@
 ---
-description: Propiedades de un recurso de archivo del SWF del visor.
+description: Propiedades de un recurso de archivo de visualizador SWF.
 solution: Experience Manager
 title: ViewerSwfInfo
 feature: Dynamic Media Classic,SDK/API,Viewers
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # [!DNL ViewerSwfInfo]{#viewerswfinfo}
 
-Propiedades de un recurso de archivo del SWF del visor.
+Propiedades de un recurso de archivo de visualizador SWF.
 
 Sintaxis
 
@@ -22,6 +22,6 @@ Sintaxis
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| originalPath | `xsd:string` | Ruta relativa al archivo del SWF del visor cargado originalmente. |
-| originalFile | `xsd:string` | Nombre del archivo del archivo SWF del visor original. |
+| originalPath | `xsd:string` | Ruta relativa al archivo SWF del visor cargado originalmente. |
+| originalFile | `xsd:string` | Nombre del archivo SWF del visor original. |
 | fileSize | `xsd:int` | Tamaño de archivo. |

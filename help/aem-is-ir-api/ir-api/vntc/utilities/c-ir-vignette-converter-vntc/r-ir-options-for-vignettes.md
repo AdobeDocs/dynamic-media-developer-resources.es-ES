@@ -39,7 +39,7 @@ Las siguientes opciones controlan el procesamiento de archivos de viñeta. Se om
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> -imagemap</span> </p></td> 
-  <td class="stentry"> <p>Habilite la extracción del archivo de mapa de imagen de la viñeta. Los datos del mapa se escriben en un archivo HTML que contiene solamente un elemento &lt;map&gt;</span> de tipo <span class="codeph">. El nombre del archivo de salida es el mismo que el del archivo de imagen de salida, pero con un sufijo <span class="filepath"> .htm</span>. Se genera un mensaje de advertencia y no se crea ningún archivo si se especifica el comando, pero no hay datos de asignación en la viñeta. </p></td> 
+  <td class="stentry"> <p>Habilite la extracción del archivo de mapa de imagen de la viñeta. Los datos del mapa se escriben en un archivo HTML que contiene solo un elemento &lt;map&gt;<span class="codeph"> de tipo </span>. El nombre del archivo de salida es el mismo que el del archivo de imagen de salida, pero con un sufijo <span class="filepath"> .htm</span>. Se genera un mensaje de advertencia y no se crea ningún archivo si se especifica el comando, pero no hay datos de asignación en la viñeta. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> -perfil</span> </p></td> 

@@ -1,5 +1,5 @@
 ---
-description: Rutas del archivo de datos del SVG. Especifica los archivos que contienen los datos del SVG para este catálogo.
+description: Rutas del archivo de datos de SVG. Especifica los archivos que contienen los datos de SVG para este catálogo.
 solution: Experience Manager
 title: SvgCatalogFile
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 2%
 
 # SvgCatalogFile{#svgcatalogfile}
 
-Rutas del archivo de datos del SVG. Especifica los archivos que contienen los datos del SVG para este catálogo.
+Rutas del archivo de datos de SVG. Especifica los archivos que contienen los datos de SVG para este catálogo.
 
-Los archivos de datos del SVG se cargan después de todos los archivos de datos de imagen, en el orden exacto especificado. Si el mismo valor `catalog::Id` aparece en más de un registro (en la misma imagen o en distintos archivos de catálogo de SVG), prevalecerá la última instancia.
+Los archivos de datos de SVG se cargan después de todos los archivos de datos de imagen, en el orden exacto especificado. Si el mismo valor `catalog::Id` aparece en más de un registro (en la misma imagen o en distintos archivos de catálogo de SVG), prevalecerá la última instancia.
 
 ## Propiedades {#section-fc2d549f76474792837b2b92ec2087ea}
 

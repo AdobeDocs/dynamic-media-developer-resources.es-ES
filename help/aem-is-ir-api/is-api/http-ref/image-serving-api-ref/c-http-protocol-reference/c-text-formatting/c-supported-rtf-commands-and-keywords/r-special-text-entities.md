@@ -41,12 +41,12 @@ Utilice las siguientes entidades especiales al dar formato al texto.
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &lbrace; </span> </td> 
+   <td> <span class="codeph"> &amp;lbrace; </span> </td> 
    <td> <p>Llave rizada abierta. </p> </td> 
    <td> <p>La llave debe tener codificación HTTP. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &brace; </span> </td> 
+   <td> <span class="codeph"> &amp;brace; </span> </td> 
    <td> <p>Llave de cierre rizada. </p> </td> 
    <td> <p>La llave debe tener codificación HTTP. </p> </td> 
   </tr> 

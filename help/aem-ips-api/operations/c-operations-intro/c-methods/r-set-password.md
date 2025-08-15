@@ -67,7 +67,7 @@ La fecha de caducidad de la contraseña es opcional. Si se omite, la contraseña
         <li id="li_6E3F084100104F2CBCF130EF8852C7B7">Caracteres ingleses en minúsculas. Por ejemplo, <span class="codeph"> a b c d e </span> y así sucesivamente </li> 
         <li id="li_1FDED8D7348842BC857320D797D41217">Caracteres en inglés en mayúsculas. Por ejemplo, <span class="codeph"> A B C D E </span>, etc. </li> 
         <li id="li_C3C4D5412AA749F3B78F37B2B696CF80">Números. Por ejemplo, <span class="codeph"> 1 2 3 4 5 </span>, etc. </li> 
-        <li id="li_2730798F26E74B878BEDE510CD06D8DD">Caracteres de símbolos especiales. Por ejemplo, puede usar cualquiera de los siguientes: <span class="codeph"> &grave; ~ ! @ # $ % ^ * ( ) _ + - = { } | [ ] y \ : " ; ' &lt; &gt; ? , . / </span> </li> 
+        <li id="li_2730798F26E74B878BEDE510CD06D8DD">Caracteres de símbolos especiales. Por ejemplo, puede usar cualquiera de los siguientes: <span class="codeph"> &amp;grave; ~ ! @ # $ % ^ * ( ) _ + - = { } | [ ] y \ : " ; ' &lt; &gt; ? , . / </span> </li> 
        </ul> </li> 
      </ul> </p> </td> 
   </tr> 

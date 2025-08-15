@@ -1,6 +1,6 @@
 ---
 title: Referencia de API de procesamiento de imágenes
-description: Consulte la Ayuda de referencia de la API de procesamiento de imágenes de Dynamic Media.
+description: Consulte la Ayuda de la API de procesamiento de imágenes de Dynamic Media.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # Referencia de API de procesamiento de imágenes {#image-rendering-api-reference}
 
-Consulte la Ayuda de referencia de la API de procesamiento de imágenes de Dynamic Media.
+Consulte la Ayuda de la API de procesamiento de imágenes de Dynamic Media.

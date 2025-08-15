@@ -18,7 +18,7 @@ Si se requiere un mapa de fuentes para un catálogo de imágenes, la ruta relati
 
 Las entradas en el mapa de fuentes de un catálogo de imágenes específico anulan las entradas en el mapa de fuentes del catálogo predeterminado.
 
-El servicio de imágenes admite las fuentes Adobe Type 1, OpenType y TrueType.
+El servicio de imágenes admite fuentes Adobe Type 1, OpenType y TrueType.
 
 `textPs=` también admite fuentes CID, ATC y fuentes de mapa de bits.
 

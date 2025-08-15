@@ -130,7 +130,7 @@ Después de la instalación, la jerarquía de carpetas en install_root incluye l
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> default.ini </span> </p> </td> 
-   <td colname="col4"> <p> Se requiere el archivo Default.ini </span> de <span class="codeph"> para que el servidor funcione. </p> </td> 
+   <td colname="col4"> <p> Se requiere el archivo Default.ini <span class="codeph"> de </span> para que el servidor funcione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -262,7 +262,7 @@ Después de la instalación, la jerarquía de carpetas en install_root incluye l
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> default.ini </span> </p> </td> 
-   <td colname="col4"> <p> Se requiere el archivo Default.ini </span> de <span class="codeph"> para que el servidor funcione. </p> </td> 
+   <td colname="col4"> <p> Se requiere el archivo Default.ini <span class="codeph"> de </span> para que el servidor funcione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 

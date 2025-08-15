@@ -23,8 +23,8 @@ Las reglas de preprocesamiento de solicitudes pueden modificar las partes de las
 Las reglas de preprocesamiento de solicitudes son adecuadas para varias aplicaciones, algunas de las cuales se enumeran a continuación:
 
 * Implemente un mecanismo de *rutas virtuales*, que permita reasignar la ruta de solicitud a rutas de archivo, FTP y HTTP.
-* No permitir el uso de comandos de uso intensivo de la CPU para evitar el uso indebido del servidor.
-* Controle la configuración de calidad de la imagen (como la calidad del JPEG o el enfoque) según la ruta de solicitud o el nombre de la imagen.
+* No permitir el uso de comandos intensivos en CPU para evitar el uso indebido del servidor.
+* Controle la configuración de calidad de la imagen (como la calidad de la JPEG o el enfoque) según la ruta de solicitud o el nombre de la imagen.
 
 Encontrará información detallada sobre cómo crear, utilizar y administrar conjuntos de reglas en la Referencia del conjunto de reglas.
 

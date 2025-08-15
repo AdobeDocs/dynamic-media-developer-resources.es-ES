@@ -1,5 +1,5 @@
 ---
-description: Actualiza los ajustes de configuración del visor del SWF.
+description: Actualiza los ajustes de configuración del visor de SWF.
 solution: Experience Manager
 title: updateViewerConfigSettings
 feature: Dynamic Media Classic,SDK/API,Viewer Presets
@@ -14,7 +14,7 @@ ht-degree: 15%
 
 # updateViewerConfigSettings{#updateviewerconfigsettings}
 
-Actualiza los ajustes de configuración del visor del SWF.
+Actualiza los ajustes de configuración del visor de SWF.
 
 Sintaxis
 

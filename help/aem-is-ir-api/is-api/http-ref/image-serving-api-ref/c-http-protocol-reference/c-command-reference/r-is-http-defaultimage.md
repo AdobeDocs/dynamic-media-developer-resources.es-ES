@@ -29,7 +29,7 @@ Imagen de respuesta predeterminada. Especifica la imagen o la entrada de catálo
 
 >[!NOTE]
 >
->El mecanismo de imagen predeterminado no se aplica a los objetos del SVG. Se devuelve un error si no se encuentra el objeto SVG especificado en la solicitud.
+>El mecanismo de imagen predeterminado no se aplica a los objetos de SVG. Se devuelve un error si no se encuentra el objeto SVG especificado en la solicitud.
 
 Si `attribute::DefaultImageMode=0`, *`object`* reemplaza toda la solicitud original, aunque solo falte una imagen en la composición de varias imágenes. Los únicos comandos retenidos de la solicitud original son: `wid=`, `hei=`, `fmt=`, `qlt=`.
 

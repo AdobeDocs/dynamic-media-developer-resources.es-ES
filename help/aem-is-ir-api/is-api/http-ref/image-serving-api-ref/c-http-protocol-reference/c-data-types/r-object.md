@@ -37,7 +37,7 @@ Especificador de objetos Source. Los objetos de perfil de imagen, SVG e ICC se p
  </tr> 
 </table>
 
-*`rootId`* identifica un catálogo de imágenes. (Consulte [Catálogo de imágenes](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) para obtener más información). Si se especifica *`rootId`* en la ruta de acceso de la dirección URL, ese catálogo se convertirá en el *catálogo principal* para esta solicitud. De lo contrario, el catálogo predeterminado se utiliza como catálogo principal. Se pueden utilizar varios catálogos de imágenes diferentes en la misma solicitud.
+*`rootId`* identifica un catálogo de imágenes. (Consulte [Catálogo de imágenes](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) para obtener más información). Si se especifica *`rootId`* en la ruta de acceso de la dirección URL, ese catálogo se convierte en el *catálogo principal* para esta solicitud. De lo contrario, el catálogo predeterminado se utiliza como catálogo principal. Se pueden utilizar varios catálogos de imágenes diferentes en la misma solicitud.
 
 El servidor supone inicialmente que *`rootId`* se omite en los comandos `src=`, `mask=` y `icc=` e intenta encontrar una entrada de catálogo en el catálogo principal. En la práctica, el servidor intenta usar toda la cadena *`object`* como *`objId.`*
 
@@ -59,7 +59,7 @@ Consulte *Administración de contenido* en la *Guía de configuración del servi
 
 Consulte la descripción de la utilidad IC (Image Converter) para obtener una lista completa de los formatos de archivo compatibles.
 
-Las aplicaciones que requieren datos de imagen en varias resoluciones diferentes funcionan mejor cuando se utiliza el formato de varias resoluciones del TIFF piramidal de Dynamic Media (PTIF). La utilidad IC se utiliza para crear imágenes PTIF a partir de cualquier formato de imagen admitido.
+Las aplicaciones que requieren datos de imagen en varias resoluciones diferentes funcionan mejor cuando se utiliza el formato de varias resoluciones Dynamic Media Pyramid TIFF (PTIF). La utilidad IC se utiliza para crear imágenes PTIF a partir de cualquier formato de imagen admitido.
 
 ## Ejemplos {#section-728ca9b566b54ea1afdf8f5f0a031a57}
 

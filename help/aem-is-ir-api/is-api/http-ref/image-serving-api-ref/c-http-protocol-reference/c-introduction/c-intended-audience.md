@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Programadores y desarrolladores de sitios web experimentados que deseen aprovechar el servicio de imágenes de Dynamic Media para un sitio web o una aplicación personalizada.
 
-Se da por hecho que el lector está familiarizado en general con el sistema de servicio de imágenes de Dynamic Media, las normas y convenciones generales del protocolo HTTP y la terminología básica de las imágenes.
+Se da por hecho que el lector está familiarizado en general con el sistema de servicio de imágenes de Dynamic Media, las normas y convenciones generales del protocolo HTTP y la terminología básica de imágenes.

@@ -54,7 +54,7 @@ El resultado de imagen de una solicitud de IS anidada se puede almacenar en cach
 
 ## Solicitudes de procesamiento de imágenes incrustadas {#section-69c5548db930412b9b90d9b2951a6969}
 
-Cuando el procesamiento de imágenes de Dynamic Media está habilitado en el servidor, las solicitudes de procesamiento se pueden utilizar como fuentes de capas especificándolas en el comando src= (o mask=). Utilice la siguiente sintaxis:
+Cuando el procesamiento de imágenes de Dynamic Media está habilitado en el servidor, las solicitudes de procesamiento se pueden utilizar como fuentes de capa especificándolas en el comando src= (o mask=). Utilice la siguiente sintaxis:
 
 ` …&src=ir( *[!DNL renderRequest]*)&…`
 
@@ -89,7 +89,7 @@ El token `fxg` distingue entre mayúsculas y minúsculas.
 
 >[!NOTE]
 >
->El procesamiento de gráficos FXG solo está disponible en el entorno alojado de Dynamic Media y puede requerir licencias adicionales. Póngase en contacto con el soporte técnico de Dynamic Media para obtener más información.
+>La representación de gráficos FXG solo está disponible en el entorno alojado de Dynamic Media y puede requerir licencias adicionales. Póngase en contacto con el soporte técnico de Dynamic Media para obtener más información.
 
 *[!DNL renderRequest]* es la solicitud de procesamiento FXG habitual, excluyendo la ruta raíz HTTP ` http:// *[!DNL server]*/agm/render/`.
 
@@ -151,7 +151,7 @@ Con pequeñas modificaciones, podemos escalar previamente la imagen de capa 0 y 
 
 **Incrustación de solicitudes para el procesamiento de imágenes de Dynamic Media**
 
-Usando una plantilla almacenada en [!DNL myCatalog/myTemplate]; genere la imagen para la capa 2 de la plantilla usando el procesamiento de imágenes de Dynamic Media:
+Utilizando una plantilla almacenada en [!DNL myCatalog/myTemplate]; genere la imagen para la capa 2 de la plantilla mediante el procesamiento de imágenes de Dynamic Media:
 
 `http://server/is/image/myCatalog/myTemplate?layer=2&src=ir(myRenderCatalog/myRenderObject?id=myIdValue&sel=group&src=is(myCatalog/myTexture1?res=30)&res=30)&wid=300`
 

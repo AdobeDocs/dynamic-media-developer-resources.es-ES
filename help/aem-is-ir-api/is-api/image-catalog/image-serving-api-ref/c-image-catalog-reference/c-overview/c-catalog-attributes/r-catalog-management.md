@@ -23,7 +23,7 @@ Los archivos de atributos del catálogo reconocen estos atributos de administrac
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-svgcatalogfile.md#reference-cd61769073f145e1ac37aa4fd53ae58d" type="reference" format="dita" scope="local"> archivoCatálogoSvg</a> </span> </p></td> 
-  <td class="stentry"> <p>Nombres de los archivos de datos del SVG asociados. </p></td> 
+  <td class="stentry"> <p>Nombres de los archivos de datos de SVG asociados. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-staticcontentcatalogfile.md#reference-1d5505d9d1b74fe5ba63fbdf7893eb0d" type="reference" format="dita" scope="local"> StaticContentCatalogFile</a> </span> </p></td> 

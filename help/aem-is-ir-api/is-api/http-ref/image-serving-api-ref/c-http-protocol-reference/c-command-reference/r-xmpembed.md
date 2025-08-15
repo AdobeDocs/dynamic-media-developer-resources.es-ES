@@ -1,6 +1,6 @@
 ---
 title: xmpEmbed
-description: XMP Incrustar metadatos de la. XMP Especifica si se deben incluir metadatos de la en la imagen de respuesta.
+description: Incrustar metadatos de XMP. Especifica si los metadatos de XMP deben incluirse en la imagen de respuesta.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,19 +14,19 @@ ht-degree: 2%
 
 # xmpEmbed{#xmpembed}
 
-XMP Incrustar metadatos de la. XMP Especifica si se deben incluir metadatos de la en la imagen de respuesta.
+Incrustar metadatos de XMP. Especifica si los metadatos de XMP deben incluirse en la imagen de respuesta.
 
 `xmpEmbed=0|1`
 
 >[!NOTE]
 >
->XMP Los datos de la imagen de origen se pasan a la imagen de respuesta sin modificaciones. Esto puede hacer que se incrusten datos incorrectos en la imagen de respuesta.
+>Los datos de XMP se pasan de la imagen de origen a la imagen de respuesta sin realizar modificaciones. Esto puede hacer que se incrusten datos incorrectos en la imagen de respuesta.
 
 ## Propiedades {#section-27024c4272f44d9a8c264a0629193af2}
 
-Atributo de solicitud. XMP Se ignora si la imagen de origen no contiene datos de la. XMP Solo se procesan los datos de la imagen de origen de `layer=0`. XMP Se ignoran los datos de otras imágenes de capa.
+Atributo de solicitud. Se ignora si la imagen de origen no contiene datos de XMP. Solo se procesan los datos de XMP de la imagen de origen de `layer=0`. Se omiten los datos de XMP de otras imágenes de capa.
 
-XMP Se ignora si el formato de imagen de salida no admite la incrustación de. XMP Consulte la descripción de `fmt=` para obtener una lista de los formatos de imagen de salida que admiten la incrustación de la.
+Se ignora si el formato de imagen de salida no admite la incrustación de XMP. Consulte la descripción de `fmt=` para obtener una lista de los formatos de imagen de salida que admiten la incrustación de XMP.
 
 ## Predeterminado {#section-aedbedd04d664ba184b2cfe35644b960}
 

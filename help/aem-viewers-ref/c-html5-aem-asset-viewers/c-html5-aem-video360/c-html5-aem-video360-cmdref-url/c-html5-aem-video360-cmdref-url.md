@@ -18,7 +18,7 @@ Documentación de referencia de comandos para el visor de Video360.
 
 Puede establecer cualquier comando de configuración en la dirección URL. O bien, puede usar los métodos de API `setParam()`, `setParams()` o ambos para establecer cualquier comando de configuración. También puede especificar cualquier atributo de configuración en el registro de configuración del lado del servidor.
 
-Puede codificar algunos comandos de configuración con el nombre de clase o el nombre de instancia del componente correspondiente del SDK de HTML5 Viewer. Un nombre de instancia del componente es dinámico y depende del ID del elemento DOM contenedor de visor pasado al método de API `setContainerId()`. La documentación incluye prefijos opcionales para estos comandos. Por ejemplo, `playback` está documentado de la siguiente manera:
+Algunos comandos de configuración se pueden prefijar con el nombre de clase o el nombre de instancia del componente SDK correspondiente del visor de HTML5. Un nombre de instancia del componente es dinámico y depende del ID del elemento DOM contenedor de visor pasado al método de API `setContainerId()`. La documentación incluye prefijos opcionales para estos comandos. Por ejemplo, `playback` está documentado de la siguiente manera:
 
 ```
 [Video360Player.|<containerId>_video360Player].playback

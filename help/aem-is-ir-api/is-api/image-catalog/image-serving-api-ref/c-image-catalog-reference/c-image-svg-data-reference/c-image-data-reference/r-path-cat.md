@@ -26,7 +26,7 @@ Cadena de texto. Necesario para registros de imagen; puede estar vacío para reg
 
 Consulte la descripción de la utilidad Image Converter (IC) para obtener una lista completa de los formatos de archivo compatibles.
 
-Las aplicaciones que requieren datos de imagen en varias resoluciones diferentes funcionan mejor cuando se utiliza el formato de varias resoluciones del TIFF piramidal de Dynamic Media (PTIFF). La utilidad IC se utiliza para crear imágenes PTIFF a partir de cualquier formato de imagen admitido.
+Las aplicaciones que requieren datos de imagen en varias resoluciones diferentes funcionan mejor cuando utilizan el formato de varias resoluciones Dynamic Media Pyramid TIFF (PTIFF). La utilidad IC se utiliza para crear imágenes PTIFF a partir de cualquier formato de imagen admitido.
 
 ## Predeterminado {#path-default}
 

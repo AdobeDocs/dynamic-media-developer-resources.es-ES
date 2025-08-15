@@ -77,7 +77,7 @@ Se devuelven las siguientes propiedades:
   <tr> 
    <td> <p> <span class="codeph"> imagen. embeddedXmpData</span> </p> </td> 
    <td> <p> booleano </p> </td> 
-   <td> <p> XMP 1 si la imagen incluye datos de la </p> </td> 
+   <td> <p> 1 si la imagen incluye datos de XMP </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.mask</span> </p> </td> 

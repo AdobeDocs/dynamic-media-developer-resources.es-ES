@@ -14,10 +14,10 @@ ht-degree: 3%
 
 # Descargar{#download}
 
-Es posible descargar el catálogo electrónico como un archivo de PDF utilizando el botón &quot;Descargar&quot; en la barra de control.
+Es posible descargar el catálogo electrónico como un archivo PDF utilizando el botón &quot;Descargar&quot; en la barra de control.
 
 El botón &quot;Descargar&quot; está disponible automáticamente en la interfaz de usuario del visor cuando se produce lo siguiente:
 
-* Hay un archivo de PDF real en la compañía del cliente.
+* Hay un archivo PDF real en la empresa del cliente.
 * El nombre coincide con el nombre del recurso de catálogo electrónico que se pasó al visor e incluye una extensión `.pdf`.
-* El archivo del PDF se publica en Dynamic Media Classic.
+* El archivo PDF se publica en Dynamic Media Classic.

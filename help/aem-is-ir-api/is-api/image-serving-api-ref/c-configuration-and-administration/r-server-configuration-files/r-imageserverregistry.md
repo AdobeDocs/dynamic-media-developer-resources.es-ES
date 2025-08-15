@@ -18,7 +18,7 @@ Contiene las opciones de configuración de Image Server.
 
 Al modificar este archivo XML, debe tener cuidado de mantener una sintaxis XML válida; de lo contrario, es posible que el servidor de imágenes no se inicie correctamente.
 
-Para que los cambios surtan efecto, reinicie el servidor de imágenes después de editar este archivo. Solo se admiten para la modificación los valores de elemento que se enumeran a continuación. Edite cualquier otro contenido de este archivo solo cuando el servicio de asistencia técnica de Dynamic Media lo aconseje.
+Para que los cambios surtan efecto, reinicie el servidor de imágenes después de editar este archivo. Solo se admiten para la modificación los valores de elemento que se enumeran a continuación. Edite cualquier otro contenido de este archivo solo cuando lo aconseje el servicio de asistencia técnica de Dynamic Media.
 
 >[!NOTE]
 >

@@ -27,4 +27,4 @@ Recuperar página. Recupera una página específica en un FXG de varias páginas
 
 ## Predeterminado {#section-3fd7fcc525b947c7a95457e50414ac9e}
 
-Si no se especifica `page`, se devuelve la primera página para la salida de trama y todas las páginas para la salida del PDF.
+Si no se especifica `page`, se devuelve la primera página para la salida de trama y todas las páginas para la salida de PDF.

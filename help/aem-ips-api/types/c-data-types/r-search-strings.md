@@ -1,5 +1,5 @@
 ---
-description: Registro de cadena de búsqueda extraído de un archivo de PDF.
+description: Registro de cadena de búsqueda extraído de un archivo PDF.
 solution: Experience Manager
 title: SearchStrings
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # [!DNL SearchStrings]{#searchstrings}
 
-Registro de cadena de búsqueda extraído de un archivo de PDF.
+Registro de cadena de búsqueda extraído de un archivo PDF.
 
 Sintaxis
 

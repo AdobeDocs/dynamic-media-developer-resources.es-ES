@@ -17,7 +17,7 @@ Documentación de atributos de configuración para el visor panorámico.
 
 Cualquier comando de configuración se puede establecer en la dirección URL o mediante `setParam()` o `setParams()` métodos de API. También se puede especificar cualquier atributo de configuración en el registro de configuración del lado del servidor.
 
-Algunos comandos de configuración pueden ir precedidos del nombre de clase o del nombre de instancia del componente de SDK de HTML5 correspondiente. Un nombre de instancia del componente es dinámico y depende del ID del elemento DOM contenedor de visor pasado al método de API `setContainerId()`. La documentación incluye un prefijo opcional para estos comandos. Por ejemplo, el comando `vrrender` está documentado de la siguiente manera:
+Algunos comandos de configuración pueden ir precedidos del nombre de clase o del nombre de instancia del componente SDK de HTML5 correspondiente. Un nombre de instancia del componente es dinámico y depende del ID del elemento DOM contenedor de visor pasado al método de API `setContainerId()`. La documentación incluye un prefijo opcional para estos comandos. Por ejemplo, el comando `vrrender` está documentado de la siguiente manera:
 
 ```
 [PanoramicView.|<containerId>_panoramicView].vrrender

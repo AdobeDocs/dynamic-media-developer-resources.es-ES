@@ -1,5 +1,5 @@
 ---
-description: Propiedades del archivo del PDF.
+description: Propiedades del archivo PDF.
 solution: Experience Manager
 title: PdfInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 23%
 
 # [!DNL PdfInfo]{#pdfinfo}
 
-Propiedades del archivo del PDF.
+Propiedades del archivo PDF.
 
 Sintaxis
 

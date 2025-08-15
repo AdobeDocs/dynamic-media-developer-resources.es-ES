@@ -1,5 +1,5 @@
 ---
-description: La guía de utilidades del servicio de imágenes contiene información sobre las utilidades utilizadas con Dynamic Media Image Server y el procesamiento de imágenes.
+description: La guía de utilidades del servicio de imágenes contiene información sobre las utilidades utilizadas con el servidor de imágenes y el procesamiento de imágenes de Dynamic Media.
 solution: Experience Manager
 title: Utilidades del servicio de imágenes
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Utilidades del servicio de imágenes{#image-serving-utilities}
 
-La guía de utilidades del servicio de imágenes contiene información sobre las utilidades utilizadas con Dynamic Media Image Server y el procesamiento de imágenes.
+La guía de utilidades del servicio de imágenes contiene información sobre las utilidades utilizadas con el servidor de imágenes y el procesamiento de imágenes de Dynamic Media.
 
 * [Ubicación de las utilidades](c-location-of-utilities.md)
 * [ic](r-ic.md)

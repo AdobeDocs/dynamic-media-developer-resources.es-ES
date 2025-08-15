@@ -1,6 +1,6 @@
 ---
 title: Viñetas
-description: Las viñetas son imágenes creadas con Dynamic Media Image Authoring para utilizarlas con Image Rendering.
+description: Las viñetas son imágenes creadas con la creación de imágenes de Dynamic Media para su uso con el procesamiento de imágenes.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Viñetas{#vignettes}
 
-Las viñetas son imágenes creadas con Dynamic Media Image Authoring para utilizarlas con Image Rendering.
+Las viñetas son imágenes creadas con la creación de imágenes de Dynamic Media para su uso con el procesamiento de imágenes.
 
 IR admite dos tipos básicos de viñetas: *2D* y *3D*. Las escenas de habitación suelen ser viñetas 3D que pueden representar reflejos, mientras que la mayoría de las otras escenas, como ropa o tapicería, son normalmente viñetas 2D que no tienen capacidad de representación de la reflexión.
 

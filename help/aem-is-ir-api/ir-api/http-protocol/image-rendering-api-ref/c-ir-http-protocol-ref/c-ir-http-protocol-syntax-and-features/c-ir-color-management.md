@@ -38,7 +38,7 @@ Las imágenes de material pueden incrustar perfiles ICC para definir el espacio 
 
 ## Espacio de color de trabajo {#section-645d9cfa5b0347a190a0ece218f5b5e1}
 
-Normalmente, el espacio de color de trabajo se define mediante el perfil de color ICC incrustado en la viñeta. Si la viñeta no incluye un perfil, se utiliza el perfil de entrada predeterminado del RGB ( `attribute::IccProfileSrcRgb` del catálogo de sesiones) para el espacio de color de trabajo.
+Normalmente, el espacio de color de trabajo se define mediante el perfil de color ICC incrustado en la viñeta. Si la viñeta no incluye un perfil, se utiliza el perfil de entrada predeterminado de RGB ( `attribute::IccProfileSrcRgb` del catálogo de sesiones) para el espacio de color de trabajo.
 
 Todas las operaciones de procesamiento se ejecutan en el espacio de color de trabajo.
 
@@ -50,7 +50,7 @@ Se supone que los valores de color de RGB especificados con `color=`, `bgc=`, `c
 
 ## Archivos de datos de material {#section-33f7a170a6664c02b8479fb89cc0aea3}
 
-Los archivos de imagen de material (imágenes de textura y calcomanía) pueden tener un tipo de píxel RGB, de escala de grises o CMYK y pueden incrustar un perfil de color. Si no hay ningún perfil de color incrustado, el espacio de color de entrada predeterminado se asocia a la imagen (por ejemplo, el perfil de color del catálogo de materiales que corresponde al tipo de píxel de la imagen).
+Los archivos de imagen de material (imágenes de textura y calcomanía) pueden tener el tipo de píxel RGB, escala de grises o CMYK y pueden incrustar un perfil de color. Si no hay ningún perfil de color incrustado, el espacio de color de entrada predeterminado se asocia a la imagen (por ejemplo, el perfil de color del catálogo de materiales que corresponde al tipo de píxel de la imagen).
 
 Las imágenes materiales obtenidas de las solicitudes anidadas de servicio o procesamiento de imágenes suelen incluir un perfil de color. Si no es así, las imágenes se asocian al espacio de color de entrada predeterminado correspondiente al tipo de píxel.
 

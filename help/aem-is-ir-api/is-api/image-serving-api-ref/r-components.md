@@ -57,7 +57,7 @@ El servicio de imágenes de Dynamic Media consta de los siguientes componentes:
    <td colname="col2"> <p>Aplicación Java™ independiente (no alojada en Tomcat). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Dynamic Media Image Rendering (también conocido como. Servidor de procesamiento) </p> </td> 
+   <td colname="col1"> <p>Renderización de imágenes de Dynamic Media (también conocido como. Servidor de procesamiento) </p> </td> 
    <td colname="col2"> <p>Se necesita una licencia independiente para activarla. Acceso HTTP en <span class="filepath"> /ir/render</span>. Toda la funcionalidad de procesamiento de imágenes está integrada en [!DNL Platform Server] y el servidor de imágenes, sin componentes ejecutables independientes. </p> </td> 
   </tr> 
  </tbody> 

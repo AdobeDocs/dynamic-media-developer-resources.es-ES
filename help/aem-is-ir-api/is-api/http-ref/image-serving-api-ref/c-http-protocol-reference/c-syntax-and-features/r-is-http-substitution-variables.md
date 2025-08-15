@@ -37,7 +37,7 @@ El nombre de variable *`var`* no distingue entre mayúsculas y minúsculas y pue
 
 >[!NOTE]
 >
->*`value`* debe tener codificación URL de un solo paso para la transmisión HTTP segura. La codificación doble es necesaria si *`value`* se retransmite mediante HTTP. Este es el caso cuando *`value`* se sustituye en una solicitud externa anidada o en el atributo href de un elemento del SVG `<image>`.
+>*`value`* debe tener codificación URL de un solo paso para la transmisión HTTP segura. La codificación doble es necesaria si *`value`* se retransmite mediante HTTP. Este es el caso cuando *`value`* se sustituye en una solicitud externa anidada o en el atributo href de un elemento `<image>` de SVG.
 
 Las referencias de variables consisten en el nombre de variable delimitado por &#39;$$&#39; inicial y final ($*var*$). Las referencias pueden producirse en cualquier parte de la porción de valor de cualquier comando IS (es decir, entre el signo &quot;=&quot; después del nombre del comando y el signo &quot;&amp;&quot; posterior o el final de la solicitud). No se pueden aplicar variables personalizadas a los comandos `layer=` y `effect=`. Se permiten varias variables en el mismo valor de comando. El servidor reemplaza cada ocurrencia de ` $ *`var`*$` con *`value`*.
 
@@ -69,9 +69,9 @@ Las referencias ` $ *`var`*$` que se producen en cualquier lugar dentro de las l
 
 Los valores de variable que se sustituyen en solicitudes externas suelen ser de codificación doble, ya que no se aplica ninguna recodificación antes de que el servidor intente transmitir la dirección URL externa final.
 
-## Procesamiento de variables en archivos de SVG {#section-a8359f9909764142b6a18ae778dca913}
+## Procesamiento de variables en archivos SVG {#section-a8359f9909764142b6a18ae778dca913}
 
-Las referencias ` $ *`var`*$` pueden aparecer en archivos de SVG en valores de atributo y en cadenas de `<text>`. El servicio de imágenes los sustituye por las definiciones ` $ *`var`*=` coincidentes conocidas en el nivel de anidamiento de solicitud en el que se especifica el archivo SVG.
+Las referencias ` $ *`var`*$` pueden aparecer en archivos SVG en valores de atributo y en cadenas `<text>`. El servicio de imágenes los sustituye por las definiciones ` $ *`var`*=` coincidentes conocidas en el nivel de anidamiento de solicitud en el que se especifica el archivo SVG.
 
 >[!NOTE]
 >

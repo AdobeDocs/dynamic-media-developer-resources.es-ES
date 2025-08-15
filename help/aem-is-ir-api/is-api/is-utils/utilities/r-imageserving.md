@@ -44,7 +44,7 @@ Script de control del servicio de imágenes. Este script se utiliza para iniciar
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> reiniciar { ps | es | svg } </span> </p> </td> 
-   <td colname="col2"> <p> Reinicia Tomcat/[!DNL Platform Server], el servidor de imágenes o el SVG. </p> </td> 
+   <td colname="col2"> <p> Reinicia Tomcat/[!DNL Platform Server], el servidor de imágenes o SVG. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> estado [ ps | es | svg ] </span> </p> </td> 

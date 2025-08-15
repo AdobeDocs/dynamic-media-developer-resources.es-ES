@@ -1,5 +1,5 @@
 ---
-description: Atributos de codificación de JPEG predeterminados. Especifica los atributos predeterminados para las imágenes de respuesta del JPEG.
+description: Atributos de codificación de JPEG predeterminados. Especifica los atributos predeterminados para las imágenes de respuesta de JPEG.
 solution: Experience Manager
 title: JpegQuality
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 3%
 
 # JpegQuality{#jpegquality}
 
-Atributos de codificación de JPEG predeterminados. Especifica los atributos predeterminados para las imágenes de respuesta del JPEG.
+Atributos de codificación de JPEG predeterminados. Especifica los atributos predeterminados para las imágenes de respuesta de JPEG.
 
 ## Propiedades {#section-7a75ebaf11bd4b778d287c2c5c150d0c}
 
-Número entero e indicador, separados por coma. El primer valor está en el rango 1.. 100 y define la calidad. El segundo valor puede ser 0 para el comportamiento normal o 1 para deshabilitar la disminución de resolución de cromaticidad RGB que suelen emplear los codificadores JPEG.
+Número entero e indicador, separados por coma. El primer valor está en el rango 1.. 100 y define la calidad. El segundo valor puede ser 0 para un comportamiento normal o 1 para deshabilitar la disminución de resolución de cromaticidad de RGB que suelen emplear los codificadores JPEG.
 
 ## Predeterminado {#section-0b25eddd59bc434abfe38eeea9d45df3}
 

@@ -1,6 +1,6 @@
 ---
 title: Instalación de varios visores de Dynamic Media en el mismo servidor
-description: Instrucciones para instalar la API de visores de Dynamic Media.
+description: Instrucciones para instalar la API de visualizadores de Dynamic Media.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -24,7 +24,7 @@ Copie los archivos de visores de IIS en el disco duro y, a continuación, implem
 
 >[!NOTE]
 >
->No hay ninguna instalación de actualización para los visores del servicio de imágenes. El Adobe recomienda realizar una copia de seguridad de cualquier directorio de visores de Dynamic Media (s7viewers) existente antes de continuar con la instalación.
+>No hay ninguna instalación de actualización para los visores del servicio de imágenes. Adobe recomienda realizar una copia de seguridad de cualquier directorio de visores de Dynamic Media (s7viewers) existente antes de continuar con la instalación.
 
 **Para instalar varios visores en el mismo servidor:**
 

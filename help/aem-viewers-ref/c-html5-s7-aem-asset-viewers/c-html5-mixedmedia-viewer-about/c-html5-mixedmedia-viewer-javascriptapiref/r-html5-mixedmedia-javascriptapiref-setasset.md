@@ -36,7 +36,7 @@ Si no se especifica, el botón de título no estará visible en la interfaz de u
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>ID de componente </p> </th> 
-   <th colname="col2" class="entry"> <p>Nombre de clase de componente de SDK de visor </p> </th> 
+   <th colname="col2" class="entry"> <p>Nombre de clase de componente de visor SDK </p> </th> 
   </tr> 
  </thead>
  <tbody> 

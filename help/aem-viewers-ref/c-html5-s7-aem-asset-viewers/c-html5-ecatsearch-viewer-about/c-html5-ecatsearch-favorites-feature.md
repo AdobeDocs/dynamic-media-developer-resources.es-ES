@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Función de búsqueda{#search-feature}
 
-El visor admite la búsqueda de texto en el contenido del catálogo. Para que la función de búsqueda funcione, la función &quot;Extraer palabras de búsqueda&quot; del catálogo debe activarse cuando se cargue el archivo del PDF de origen en Dynamic Media Classic.
+El visor admite la búsqueda de texto en el contenido del catálogo. Para que la función de búsqueda funcione, la función &quot;Extraer palabras de búsqueda&quot; del catálogo debe activarse cuando se carga el archivo PDF de origen en Dynamic Media Classic.
 
 La función Buscar se activa activando un botón Buscar en la barra de herramientas principal. Esta acción abre un panel de resultados de búsqueda con un campo de entrada de texto. Un usuario puede ejecutar una búsqueda utilizando palabras clave que se separan con espacios o utilizando frases que están entre comillas dobles.
 

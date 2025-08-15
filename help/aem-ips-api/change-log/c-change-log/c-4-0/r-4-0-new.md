@@ -39,7 +39,7 @@ Se implementó el parámetro `trashState` para `searchAssets`.
 
 Se implementó la operación `getAssetPublishHistory`.
 
-SOAP Se ha agregado el encabezado opcional `faultHttpStatusCode` de la para habilitar la administración de errores en Flex. Para Flex, use `<faultHttpStatusCode>200</faultHttpStatusCode>`. El código de estado predeterminado para las respuestas de errores es `500 (Internal Server Error)`.
+Se agregó el encabezado opcional de SOAP `faultHttpStatusCode` para habilitar la administración de errores en Flex. Para Flex, use `<faultHttpStatusCode>200</faultHttpStatusCode>`. El código de estado predeterminado para las respuestas de errores es `500 (Internal Server Error)`.
 
 Se han añadido operaciones para restaurar recursos de la papelera y vaciar recursos de la papelera.
 
@@ -79,7 +79,7 @@ Se agregó la operación `createTemplate`. Llame a para crear recursos de planti
 
 Configuración de empresa de IPS, `CompanySettings`, transferida a la API de servicios web.
 
-Se agregó el indicador de filtro `excludeByproducts` a la operación `searchAssets`. Si se establece este indicador como verdadero, se ejecutan `PSDlayer` imágenes y el PDF copió imágenes.
+Se agregó el indicador de filtro `excludeByproducts` a la operación `searchAssets`. Si se establece este indicador como verdadero, se ejecutan `PSDlayer` imágenes e imágenes copiadas desde PDF.
 
 Se agregó la operación `getGenerationInfo`.
 
@@ -115,7 +115,7 @@ Las máscaras del visor admiten dos parámetros: `skinFg` y `skinBg`. El código
 
 Se implementó la operación `getAssociatedAssets`.
 
-Se ha agregado el tipo de trabajo `ReprocessAssets` para permitir el reprocesamiento de archivos de origen principales cargados anteriormente, incluida la reextracción de PDF y la reoptimización de imágenes.
+Se ha agregado el tipo de trabajo `ReprocessAssets` para permitir el reprocesamiento de archivos de origen principales cargados anteriormente, incluida la copia de archivos PDF y la reoptimización de imágenes.
 
 Se cambió el nombre del tipo de campo `PropertySetType` a `propertyType`. Este cambio de nombre afecta al parámetro `createPropertySetType` y a la respuesta `getPropertySetType/getPropertySetTypes`.
 
@@ -160,11 +160,11 @@ Se implementó la operación `getSearchStrings`. Devuelve una matriz de cadenas 
 
 Se han agregado parámetros de configuración regional para trabajos y un mecanismo para establecer la configuración regional de operaciones de API. La cadena de configuración regional debe tener el formato `<language_code>[-<country_code>]`. El código de idioma es un código en minúsculas de dos letras como se especifica en la norma ISO-639, y el código de país opcional es un código en mayúsculas de dos letras como se especifica en la norma ISO-3166.
 
-SOAP Se ha agregado un parámetro de configuración regional opcional al encabezado `authHeader` para establecer la configuración regional para las operaciones de la API. Si este parámetro no está presente, se utiliza el encabezado HTTP `Accept-Language`. Si este encabezado tampoco está presente, se utilizará la configuración regional predeterminada del servidor IPS.
+Se ha agregado un parámetro de configuración regional opcional al encabezado de SOAP `authHeader` para establecer la configuración regional de las operaciones de API. Si este parámetro no está presente, se utiliza el encabezado HTTP `Accept-Language`. Si este encabezado tampoco está presente, se utilizará la configuración regional predeterminada del servidor IPS.
 
 Se ha agregado la compatibilidad de obtener/establecer para campos de metadatos con establecimiento inflexible de tipos.
 
-SOAP Se ha implementado compatibilidad con encabezados HTTP y de para el control de respuesta gzip.
+Se ha implementado compatibilidad con encabezados HTTP y SOAP para el control de respuesta gzip.
 
 Se agregó la marca `gzipResponse` a `authHeader`. Si no está presente, la API comprueba el encabezado HTTP `Accept-Encoding`.
 
@@ -327,7 +327,7 @@ Se agregaron opciones adicionales a `UploadDirectoryJob` y `UploadUrlsJob` para 
   <tr> 
    <td colname="col2"> <p> <span class="codeph"> extractSearchWords </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;booleano&gt; </span> </p> </td> 
-   <td colname="col4"> <p>Define si las palabras del PDF se extraen en la base de datos para su posterior suministro a un servidor de búsqueda (el valor predeterminado es falso). </p> </td> 
+   <td colname="col4"> <p>Define si las palabras de PDF se extraen en la base de datos para su posterior suministro a un servidor de búsqueda (el valor predeterminado es falso). </p> </td> 
   </tr> 
  </tbody> 
 </table>

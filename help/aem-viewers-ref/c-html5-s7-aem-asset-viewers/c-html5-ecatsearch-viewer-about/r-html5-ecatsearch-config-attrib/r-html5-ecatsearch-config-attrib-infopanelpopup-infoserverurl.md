@@ -27,7 +27,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->Tenga en cuenta que, al configurar el menú emergente del Panel de información, el código del HTML y el código de JavaScript que se pasan al Panel de información se ejecutan en el equipo del cliente. Por lo tanto, asegúrese de que dicho código de HTML y código de JavaScript sean seguros.
+>Tenga en cuenta que, al configurar la ventana emergente del Panel de información, el código HTML y el código JavaScript que se pasan al Panel de información se ejecutan en el equipo del cliente. Por lo tanto, asegúrese de que dicho código de HTML y código de JavaScript sean seguros.
 
 ## Propiedades {#section-71356e3c13244e62b0582980d9d05328}
 

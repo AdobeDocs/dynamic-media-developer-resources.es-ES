@@ -1,6 +1,6 @@
 ---
 title: Licencias
-description: Para utilizar el servicio de imágenes, se requiere una clave de licencia del servicio de imágenes de Dynamic Media, que debe instalarse en todos los sistemas en los que se vaya a utilizar.
+description: Para utilizar el servicio de imágenes, se requiere una clave de licencia del servicio de imágenes de Dynamic Media que debe instalarse en todos los sistemas en los que se vaya a utilizar el servicio de imágenes.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Licencias{#licensing}
 
-Para utilizar el servicio de imágenes, se requiere una clave de licencia del servicio de imágenes de Dynamic Media, que debe instalarse en todos los sistemas en los que se vaya a utilizar.
+Para utilizar el servicio de imágenes, se requiere una clave de licencia del servicio de imágenes de Dynamic Media que debe instalarse en todos los sistemas en los que se vaya a utilizar el servicio de imágenes.
 
 Del mismo modo, para utilizar el procesamiento de imágenes, se requiere una clave de licencia de procesamiento de imágenes de Dynamic Media. El procesamiento de imágenes se puede utilizar sin una licencia de servicio de imágenes y a la inversa.
 

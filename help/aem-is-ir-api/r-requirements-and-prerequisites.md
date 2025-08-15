@@ -26,7 +26,7 @@ El servidor debe cumplir los siguientes requisitos de hardware.
 
 **Windows**
 
-* CPU Intel Xeon® o AMD® Opteron con al menos cuatro núcleos.
+* Intel Xeon® o AMD® Opteron CPU con al menos cuatro núcleos.
 * 1 GB de RAM como mínimo.
 * El espacio de intercambio es igual al menos al doble de la cantidad de memoria física (RAM).
 * 2 GB de espacio disponible en el disco duro para la instalación y el funcionamiento básico; se requiere espacio adicional en el disco para las imágenes de origen, los registros, las cachés de datos y los archivos de manifiesto.
@@ -34,7 +34,7 @@ El servidor debe cumplir los siguientes requisitos de hardware.
 
 **Linux®**
 
-* CPU Intel Xeon® o AMD® Opteron con al menos cuatro núcleos.
+* Intel Xeon® o AMD® Opteron CPU con al menos cuatro núcleos.
 * 16 GB de RAM como mínimo.
 * Intercambio desactivado (recomendado).
 * 2 GB de espacio disponible en el disco duro para la instalación y el funcionamiento básico; se requiere espacio adicional en el disco para las imágenes de origen, los registros, las cachés de datos y los archivos de manifiesto.

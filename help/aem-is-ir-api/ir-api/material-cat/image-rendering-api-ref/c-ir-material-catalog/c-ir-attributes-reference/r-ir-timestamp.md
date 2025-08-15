@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 0b6d8fa6-0ad9-4f72-8d6d-1427e5d59df3
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '215'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Valor de fecha y hora en formato Java™. Puede ser el número entero de miliseg
 
 *[!DNL zzz]* es un código de zona horaria de tres o cuatro caracteres como &quot;GMT&quot; o &quot;PST&quot;. El horario de verano se debe contabilizar en el código de zona horaria (por ejemplo, &quot;PST&quot; para el horario estándar del Pacífico frente a &quot;PDT&quot; para el horario de verano del Pacífico).
 
-*[!DNL offset]* es un desplazamiento de zona horaria en horas u horas:minutos, en relación con la hora GMT. Por ejemplo, &quot;PDT&quot; equivale a &quot;GMT -7&quot;.
+*[!DNL offset]* es un desplazamiento de zona horaria en horas u horas:minutes, en relación con la zona GMT. Por ejemplo, &quot;PDT&quot; equivale a &quot;GMT -7&quot;.
 
 Todos los elementos de los valores de fecha y hora con formato de cadena deben estar presentes. Si el valor de fecha y hora no tiene el formato correcto, se omitirá y se utilizará en su lugar la hora de modificación del archivo [!DNL *[!DNL catalog]*.ini].
 

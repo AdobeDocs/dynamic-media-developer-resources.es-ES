@@ -77,7 +77,7 @@ Puede utilizar el archivo CSS del visor predeterminado como ejemplo de un enfoqu
 
 También puede realizar la detección de dispositivos utilizando consultas de medios CSS puras. Todo lo incluido dentro de un bloque de consulta de medios determinado se aplica solo cuando se ejecuta en un dispositivo correspondiente.
 
-Cuando se aplican a visores móviles de HTML5, estos utilizan cuatro consultas de medios CSS, definidas en el CSS, en el orden indicado a continuación:
+Cuando se aplican a visores móviles de HTML5, se utilizan cuatro consultas de medios CSS, definidas en el CSS, en el orden indicado a continuación:
 
 1. Contiene solo reglas específicas para todos los dispositivos táctiles.
 
@@ -205,7 +205,7 @@ background-position: -0px -1120px;
 
 ## Notas y consejos generales sobre estilo {#section-95855dccbbc444e79970f1aaa3260b7b}
 
-* Todas las rutas a recursos externos dentro de CSS se resuelven en la ubicación de CSS, no en la ubicación de la página del HTML del visor. Tenga en cuenta esta regla al copiar el CSS predeterminado en una ubicación diferente. Copie también los recursos predeterminados o actualice las rutas dentro del CSS personalizado.
+* Todas las rutas a recursos externos dentro de CSS se resuelven en la ubicación de CSS, no en la ubicación de la página de HTML del visor. Tenga en cuenta esta regla al copiar el CSS predeterminado en una ubicación diferente. Copie también los recursos predeterminados o actualice las rutas dentro del CSS personalizado.
 * El formato preferido para las ilustraciones de mapa de bits es PNG.
 * La ilustración de mapa de bits se ha asignado a elementos de interfaz de usuario utilizando la propiedad `background-image`.
 * Las propiedades `width` y `height` de un elemento de interfaz de usuario definen su tamaño lógico. El tamaño del mapa de bits pasado a `background-image` no afecta al tamaño lógico.
@@ -214,7 +214,7 @@ background-position: -0px -1120px;
 * Para quitar un botón de la interfaz de usuario, agregue `display:none` a su clase CSS.
 * Puede utilizar varios formatos para los valores de color que admite CSS. Si necesita transparencia, use el formato `rgba(R,G,B,A)`. De lo contrario, puede utilizar el formato `#RRGGBB`.
 
-* Al personalizar la interfaz de usuario del visor con CSS, no se admite el uso de la regla `!IMPORTANT` para aplicar estilo a los elementos del visor. En particular, la regla `!IMPORTANT` no debe usarse para anular ningún estilo predeterminado o en tiempo de ejecución proporcionado por el visor o el SDK del visor. El motivo es que puede afectar al comportamiento de los componentes adecuados. En su lugar, debe utilizar selectores de CSS con la especificidad adecuada para establecer las propiedades CSS documentadas en esta guía de referencia.
+* Al personalizar la interfaz de usuario del visor con CSS, no se admite el uso de la regla `!IMPORTANT` para aplicar estilo a los elementos del visor. En particular, la regla `!IMPORTANT` no debe usarse para anular ningún estilo predeterminado o en tiempo de ejecución proporcionado por el visor o por Viewer SDK. El motivo es que puede afectar al comportamiento de los componentes adecuados. En su lugar, debe utilizar selectores de CSS con la especificidad adecuada para establecer las propiedades CSS documentadas en esta guía de referencia.
 
 ## Elementos comunes de la interfaz de usuario {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
 

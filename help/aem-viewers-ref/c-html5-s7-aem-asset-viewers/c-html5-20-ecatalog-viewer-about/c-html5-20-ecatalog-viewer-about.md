@@ -33,9 +33,9 @@ Este visor funciona con catálogos electrónicos y admite mapas de imágenes opc
 
 ## Uso del visor de catálogos electrónicos {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-eCatalog Viewer representa un archivo JavaScript principal y un conjunto de archivos de ayuda (una sola inclusión JavaScript con todos los componentes SDK del visor utilizados por este visor, recursos, CSS) descargados por el visor en tiempo de ejecución
+eCatalog Viewer representa un archivo de JavaScript principal y un conjunto de archivos de ayuda (una sola inclusión de JavaScript con todos los componentes de SDK de Viewer utilizados por este visor, recursos, CSS) descargados por el visor en tiempo de ejecución
 
-Puede utilizar eCatalog Viewer en el modo emergente mediante una página de HTML lista para la producción proporcionada con IS-Viewers o en el modo incrustado, donde se integra en la página web de destino mediante la API documentada.
+Puede utilizar el Visor de catálogos electrónicos en modo emergente utilizando una página de HTML lista para la producción proporcionada con visores IS o en modo incrustado, donde se integra en la página web de destino mediante una API documentada.
 
 La configuración y el desollado son similares a los de otros visores. Todo el desollado se logra mediante CSS personalizado.
 
@@ -86,7 +86,7 @@ Este visor es totalmente accesible mediante el teclado, tal como se describe en 
 
 El visor de catálogos electrónicos admite herramientas de uso compartido en redes sociales. Están disponibles como un botón en la barra de control principal que se expande a una barra de herramientas para compartir cuando un usuario hace clic o toca en ella.
 
-La barra de herramientas de uso compartido contiene iconos para cada tipo de canal de uso compartido admitido, que incluye Facebook, Twitter, recurso compartido de correo electrónico, código compartido incrustado y recurso compartido de vínculos. Cuando se activan las herramientas de uso compartido de correo electrónico, de incrustación de recursos compartidos o de vínculo compartido, el visor muestra un cuadro de diálogo modal con el formulario de entrada de datos correspondiente. Cuando se llama a Facebook o a un Twitter, el visor redirige al usuario a un cuadro de diálogo de uso compartido estándar desde un servicio social. Las herramientas de uso compartido no están disponibles en el modo de pantalla completa debido a las restricciones de seguridad del explorador web.
+La barra de herramientas de uso compartido contiene iconos para cada tipo de canal de uso compartido admitido, que incluye Facebook, Twitter, correo electrónico compartido, código compartido incrustado y vínculo compartido. Cuando se activan las herramientas de uso compartido de correo electrónico, de incrustación de recursos compartidos o de vínculo compartido, el visor muestra un cuadro de diálogo modal con el formulario de entrada de datos correspondiente. Cuando se llama a Facebook o Twitter, el visor redirige al usuario a un cuadro de diálogo de uso compartido estándar desde un servicio social. Las herramientas de uso compartido no están disponibles en el modo de pantalla completa debido a las restricciones de seguridad del explorador web.
 
 ## Incrustación del visor de catálogos electrónicos {#section-6bb5d3c502544ad18a58eafe12a13435}
 
@@ -96,7 +96,7 @@ Las distintas páginas web tienen diferentes necesidades de comportamiento del v
 
 En el modo emergente, el visor se abre en una ventana o pestaña independiente del explorador web. Ocupa todo el área de la ventana del explorador y se ajusta en caso de que cambie el tamaño del explorador o la orientación de un dispositivo móvil.
 
-El modo emergente es el más común en dispositivos móviles. La página web carga el visor mediante la llamada de JavaScript `window.open()`, el elemento de HTML `A` configurado correctamente o cualquier otro método adecuado.
+El modo emergente es el más común en dispositivos móviles. La página web carga el visor mediante la llamada de JavaScript `window.open()`, el elemento HTML `A` configurado correctamente o cualquier otro método adecuado.
 
 Se recomienda utilizar una página de HTML predeterminada para el modo de operación emergente. En este caso, se llama [!DNL eCatalogViewer.html] y se encuentra dentro de la subcarpeta [!DNL html5/] de su implementación estándar de IS-Viewers:
 
@@ -104,7 +104,7 @@ Se recomienda utilizar una página de HTML predeterminada para el modo de operac
 
 Puede conseguir una personalización visual aplicando CSS personalizado.
 
-A continuación se muestra un ejemplo de código de HTML que abre el visor en una nueva ventana:
+A continuación se muestra un ejemplo de código HTML que abre el visor en una nueva ventana:
 
 ```html {.line-numbers}
 <a href="https://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist" target="_blank">Open popup viewer</a>
@@ -135,7 +135,7 @@ Para agregar el visor a una página web, haga lo siguiente:
 
 1. Añadir el archivo de JavaScript del visor a la página web.
 
-   La creación de un visor requiere que añada una etiqueta de script en el encabezado del HTML. Antes de usar la API de visor, asegúrese de incluir [!DNL eCatalogViewer.js]. El archivo [!DNL eCatalogViewer.js] se encuentra en la subcarpeta [!DNL html5/js/] de su implementación estándar de visores IS:
+   La creación de un visor requiere que añada una etiqueta de script en el encabezado de HTML. Antes de usar la API de visor, asegúrese de incluir [!DNL eCatalogViewer.js]. El archivo [!DNL eCatalogViewer.js] se encuentra en la subcarpeta [!DNL html5/js/] de su implementación estándar de visores IS:
 
 [!DNL <s7viewers_root>/html5/js/eCatalogViewer.js]
 
@@ -149,7 +149,7 @@ La ruta relativa tiene el siguiente aspecto:
 
 >[!NOTE]
 >
->Solo haga referencia al archivo de JavaScript `include` del visor principal en su página. No haga referencia a ningún archivo JavaScript adicional en el código de la página web que la lógica del visor pueda descargar durante la ejecución. En particular, no haga referencia directamente a la biblioteca `Utils.js` del SDK de HTML5 cargada por el visor desde la ruta de contexto `/s7viewers` (denominado SDK consolidado `include`). El motivo es que la ubicación de `Utils.js` o bibliotecas similares del visor en tiempo de ejecución está completamente administrada por la lógica del visor y la ubicación cambia entre versiones del visor. El Adobe no mantiene versiones anteriores del visor secundario `includes` en el servidor.
+>Solo haga referencia al archivo de JavaScript `include` del visor principal en su página. No haga referencia a ningún archivo JavaScript adicional en el código de la página web que la lógica del visor pueda descargar durante la ejecución. En particular, no haga referencia directamente a la biblioteca HTML5 SDK `Utils.js` cargada por el visor desde la ruta de contexto `/s7viewers` (denominada SDK consolidado `include`). El motivo es que la ubicación de `Utils.js` o bibliotecas similares del visor en tiempo de ejecución está completamente administrada por la lógica del visor y la ubicación cambia entre versiones del visor. Adobe no mantiene versiones anteriores del visor secundario `includes` en el servidor.
 >
 >
 >Como resultado, al establecer una referencia directa a cualquier JavaScript `include` secundario que use el visor en la página, se interrumpe la funcionalidad del visor en el futuro cuando se implemente una nueva versión del producto.
@@ -170,7 +170,7 @@ La ruta relativa tiene el siguiente aspecto:
 
    Puede establecer el tamaño estático del visor declarándolo para la clase CSS de nivel superior `.s7ecatalogviewer` en unidades absolutas o utilizando el modificador `stagesize`.
 
-   Puede poner el tamaño en CSS directamente en la página del HTML. O bien, coloque el tamaño en un archivo CSS de visor personalizado, que luego se asignará a un registro de ajuste preestablecido de visor en Dynamic Media Classic, o bien se pasará explícitamente mediante un comando de estilo.
+   Puede poner el tamaño en CSS directamente en la página de HTML. O bien, coloque el tamaño en un archivo CSS de visor personalizado, que luego se asignará a un registro de ajuste preestablecido de visor en Dynamic Media Classic, o bien se pasará explícitamente mediante un comando de estilo.
 
    Consulte [Personalización del visor de catálogo electrónico](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) para obtener más información sobre cómo aplicar estilo al visor con CSS.
 
@@ -243,7 +243,7 @@ La ruta relativa tiene el siguiente aspecto:
 
 **Inserción de diseño interactivo con altura sin restricciones**
 
-Con incrustación de diseño interactivo, la página web normalmente tiene algún tipo de diseño flexible que dicta el tamaño de tiempo de ejecución del contenedor del visor `DIV`. A efectos de este ejemplo, supongamos que la página web permite que el contenedor del visor `DIV` ocupe el 40% del tamaño de la ventana del explorador web, sin restringir su altura. El código de HTML de página web resultante tiene el siguiente aspecto:
+Con incrustación de diseño interactivo, la página web normalmente tiene algún tipo de diseño flexible que dicta el tamaño de tiempo de ejecución del contenedor del visor `DIV`. A efectos de este ejemplo, supongamos que la página web permite que el contenedor del visor `DIV` ocupe el 40% del tamaño de la ventana del explorador web, sin restringir su altura. El código HTML de la página web resultante tiene el siguiente aspecto:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 

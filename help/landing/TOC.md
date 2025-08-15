@@ -1,10 +1,10 @@
 ---
-title: Adobe Recursos para desarrolladores de Dynamic Media
+title: Recursos para desarrolladores de Dynamic Media de Adobe
 cloud: Experience Cloud
 product: adobe dynamic media classic
 solution: Dynamic Media Classic
 audience: end-user
-user-guide-title: Adobe Recursos para desarrolladores de Dynamic Media
+user-guide-title: Recursos para desarrolladores de Dynamic Media de Adobe
 breadcrumb-title: Recursos para desarrolladores de Dynamic Media
 user-guide-description: Acceda a recursos de desarrolladores de Dynamic Media como la Guía de referencia de visores, la API de Image Production System, la API de servicio y procesamiento de imágenes y las notas de la versión archivadas de Scene7.
 feature-set: Experience Manager Assets

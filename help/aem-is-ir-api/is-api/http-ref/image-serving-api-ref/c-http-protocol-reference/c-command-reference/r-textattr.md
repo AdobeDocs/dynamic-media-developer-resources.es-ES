@@ -59,7 +59,7 @@ Atributos de capa de texto. Especifica atributos adicionales para las capas de t
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> autoRes </span> </p> </td> 
-      <td class="stentry"> <p>Ajuste la resolución automáticamente para rellenar mejor la capa con el texto. </p> <p>Utilícelo para ajustar automáticamente el tamaño del texto de modo que el cuadro de texto se rellene en la medida de lo posible, sin riesgo de truncamiento. Si el ajuste de texto está habilitado, el texto se puede ajustar de nuevo a la resolución final. La res </span> <span class="varname"> se omite si se selecciona <span class="codeph"> autoRes </span>. No admitido por <span class="codeph"> textPs= </span>. </p> </td> 
+      <td class="stentry"> <p>Ajuste la resolución automáticamente para rellenar mejor la capa con el texto. </p> <p>Utilícelo para ajustar automáticamente el tamaño del texto de modo que el cuadro de texto se rellene en la medida de lo posible, sin riesgo de truncamiento. Si el ajuste de texto está habilitado, el texto se puede ajustar de nuevo a la resolución final. La res <span class="varname"> </span> se omite si se selecciona <span class="codeph"> autoRes </span>. No admitido por <span class="codeph"> textPs= </span>. </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> maxRes </span> </p> </td> 

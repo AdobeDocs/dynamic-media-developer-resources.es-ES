@@ -48,11 +48,11 @@ Límite aproximado de datos de imagen en memoria, expresado como porcentaje de m
 
 Número máximo de subprocesos que utiliza el servidor de imágenes para procesar los datos de imagen. El valor predeterminado es 0, lo que permite al servidor de imágenes optimizar el recuento de subprocesos automáticamente.
 
-Algunos sistemas operativos tienen modelos de subprocesos con una alta sobrecarga de conmutación de contexto. En tales circunstancias, el rendimiento general del servidor puede mejorar cuando se selecciona un recuento de hilos específico (por ejemplo, un hilo por CPU). Es posible que se requiera cierta experimentación para encontrar el escenario óptimo. Consulte las notas de la versión del servicio de imágenes y la documentación del sistema operativo para obtener más información.
+Algunos sistemas operativos tienen modelos de subprocesos con una alta sobrecarga de conmutación de contexto. En tal circunstancia, el rendimiento general del servidor puede mejorar cuando se selecciona un recuento de hilos específico (por ejemplo, un hilo por CPU). Es posible que se requiera cierta experimentación para encontrar el escenario óptimo. Consulte las notas de la versión del servicio de imágenes y la documentación del sistema operativo para obtener más información.
 
 ## IS::NumberOfTextServers: número de instancias de servidor de texto {#section-971e20a90c1a473598fba738ed95671a}
 
-Número máximo de procesadores de texto que se activarán simultáneamente. 0 (predeterminado) equivale a 1,5 veces el número de núcleos de CPU disponibles.
+Número máximo de procesadores de texto que se activarán simultáneamente. 0 (valor predeterminado) equivale a 1,5 veces el número de núcleos de CPU disponibles.
 
 ## IS::TextServerTcpPortRange: puertos de comunicación del servidor de texto {#section-a13465de88ed4df09931e5ba840c1942}
 

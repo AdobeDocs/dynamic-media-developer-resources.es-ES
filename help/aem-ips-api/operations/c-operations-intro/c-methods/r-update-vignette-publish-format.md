@@ -30,8 +30,8 @@ Actualiza la configuración del formato de publicación de viñeta.
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Sí | Manejo de la compañía. |
-| vignetteFormatHandle | `xsd:string` | Sí | Controlador de formato Publish. |
-| nombre | `xsd:string` | No | Nombre de formato de Publish. |
+| vignetteFormatHandle | `xsd:string` | Sí | Controlador de formato de publicación. |
+| nombre | `xsd:string` | No | Nombre del formato de publicación. |
 | targetWidth | `xsd:int` | Sí | Especifica la anchura de destino de la vista de viñeta resultante en píxeles. Utilice cero para que la viñeta de salida tenga el mismo tamaño que la viñeta principal. |
 | targetHeight | `xsd:int` | Sí | Especifica la altura de destino de la vista de viñeta resultante en píxeles. Utilice cero para que la viñeta de salida tenga el mismo tamaño que la viñeta principal. |
 | createPyramid | `xsd:boolean` | Sí | Crea una viñeta piramidal optimizada para la ampliación y la reducción en el servidor de procesamiento de imágenes. Empezando por el tamaño máximo, definido por los campos de tamaño de viñeta de destino, esto crea múltiples vistas de tamaño en un solo archivo de salida de viñeta. Cada tamaño de vista posterior se reduce a la mitad hasta que la anchura y la altura tengan un valor inferior a 128 x 128 píxeles. |

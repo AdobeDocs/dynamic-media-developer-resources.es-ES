@@ -1,5 +1,5 @@
 ---
-description: Tipo de trabajo para permitir el reprocesamiento de archivos principales cargados anteriormente, incluida la reextracción de PDF y la reoptimización de imágenes.
+description: Tipo de trabajo para permitir el reprocesamiento de archivos principales cargados anteriormente, incluida la reproducción de PDF y la reoptimización de imágenes.
 solution: Experience Manager
 title: ReprocessAssetsJob
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # [!DNL ReprocessAssetsJob]{#reprocessassetsjob}
 
-Tipo de trabajo para permitir el reprocesamiento de archivos principales cargados anteriormente, incluida la reextracción de PDF y la reoptimización de imágenes.
+Tipo de trabajo para permitir el reprocesamiento de archivos principales cargados anteriormente, incluida la reproducción de PDF y la reoptimización de imágenes.
 
 Sintaxis
 
@@ -82,7 +82,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> pdfOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipos:PDFOptions</span> </p> </td> 
-   <td colname="col3"> <p>Opciones para cargar archivos del PDF en el servidor de imágenes. </p> </td> 
+   <td colname="col3"> <p>Opciones para cargar archivos de PDF en el servidor de imágenes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> mediaOptions</span> </span> </p> </td> 
@@ -152,7 +152,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipos:UnsharpMaskOptions</span> </p> </td> 
-   <td colname="col3"> <p>Opciones que permiten controlar los ajustes de máscara de enfoque al crear un archivo TIF piramidal optimizado. Utilice esta configuración para mejorar la nitidez de la imagen. </p> <p>Consulte <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html?lang=es"> UnsharpMaskOptions</a>. </p> </td> 
+   <td colname="col3"> <p>Opciones que permiten controlar los ajustes de máscara de enfoque al crear un archivo TIF piramidal optimizado. Utilice esta configuración para mejorar la nitidez de la imagen. </p> <p>Consulte <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnsharpMaskOptions</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

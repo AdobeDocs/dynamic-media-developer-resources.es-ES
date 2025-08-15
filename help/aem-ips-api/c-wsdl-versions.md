@@ -127,13 +127,13 @@ Las aplicaciones existentes que necesiten modificarse para utilizar nuevas funci
 
 **Enlaces**
 
-SOAP El servicio web de la API de IPS solo admite un enlace de.
+El servicio web de la API de IPS sólo admite un enlace de SOAP.
 
 **Transportes compatibles**
 
-SOAP El enlace de la API de IPS solo admite transporte HTTP. SOAP Realice todas las peticiones de la utilizando el método del POST HTTPS.
+El enlace de SOAP de la API de IPS solo admite el transporte HTTP. Realice todas las solicitudes de SOAP utilizando el método HTTPS POST.
 
-SOAP **Encabezado de acción de**
+**Encabezado de acción de SOAP**
 
 Para procesar una solicitud, establezca el encabezado HTTP SOAPAction en el nombre de la operación solicitada. El atributo de nombre de operación de la sección de enlace de WSDL especifica el nombre.
 
@@ -197,14 +197,14 @@ El método preferido para pasar credenciales de autenticación en solicitudes de
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> failureHttpStatusCode </span> </p> </td> 
-   <td colname="col2"> <p> Parámetro opcional para anular el código de estado HTTP para las respuestas de errores. De forma predeterminada, las respuestas de errores devuelven el código de estado HTTP 500 (error interno del servidor). Algunas plataformas cliente, incluido el Flash de Adobe, no pueden leer el cuerpo de la respuesta a menos que se devuelva un código de estado 200 (OK). </p> </td> 
+   <td colname="col2"> <p> Parámetro opcional para anular el código de estado HTTP para las respuestas de errores. De forma predeterminada, las respuestas de errores devuelven el código de estado HTTP 500 (error interno del servidor). Algunas plataformas cliente, incluido Adobe Flash, no pueden leer el cuerpo de la respuesta a menos que devuelva un código de estado 200 (OK). </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 El elemento `authHeader` siempre se define en el espacio de nombres `http://www.scene7.com/IpsApi/xsd`, independientemente de la versión de la API.
 
-SOAP A continuación se muestra un ejemplo del uso del elemento `authHeader` en un encabezado de solicitud de la:
+A continuación se muestra un ejemplo del uso del elemento `authHeader` en un encabezado de solicitud de SOAP:
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
@@ -219,17 +219,17 @@ SOAP A continuación se muestra un ejemplo del uso del elemento `authHeader` en 
 
 **Otros métodos de autenticación de solicitudes**
 
-SOAP Si, por algún motivo, la aplicación cliente no puede pasar el encabezado de `authHeader`, las solicitudes de API también pueden especificar credenciales mediante la autenticación HTTP Basic (como se especifica en RFC 2617).
+Si, por algún motivo, la aplicación cliente no puede pasar el encabezado SOAP `authHeader`, las solicitudes de API también pueden especificar credenciales mediante la autenticación HTTP Basic (como se especifica en RFC 2617).
 
-SOAP Para la autenticación HTTP Basic, la sección de encabezado HTTP de cada solicitud de POST de la debe incluir un encabezado con el siguiente formato:
+Para la autenticación HTTP Basic, la sección de encabezado HTTP de cada petición POST de SOAP debe incluir un encabezado con el siguiente formato:
 
 `Authorization: Basic base64(<IPS_user_email>:<password>)`
 
 Donde `base64()` aplica la codificación Base64 estándar, `<IPS_user_email>` es la dirección de correo electrónico de un usuario IPS válido y `<password>` es la contraseña del usuario.
 
-Envíe el encabezado Autorización de forma preventiva con la solicitud inicial. Si no se incluyen credenciales de autenticación en la solicitud, `IpsApiService` no responde con un código de estado de `401 (Unauthorized)`. SOAP En su lugar, se devuelve un código de estado de `500 (Internal Server Error)` con un cuerpo de error de que indica que no se pudo autenticar la solicitud.
+Envíe el encabezado Autorización de forma preventiva con la solicitud inicial. Si no se incluyen credenciales de autenticación en la solicitud, `IpsApiService` no responde con un código de estado de `401 (Unauthorized)`. En su lugar, se devuelve un código de estado de `500 (Internal Server Error)` con un cuerpo de error de SOAP que indica que no se pudo autenticar la solicitud.
 
-SOAP Antes de IPS 3.8, la autenticación mediante el encabezado de la se implementaba utilizando los elementos `AuthUser` y `AuthPassword` en el espacio de nombres `http://www.scene7.com/IpsApi`. Por ejemplo:
+Antes de IPS 3.8, la autenticación mediante el encabezado SOAP se implementaba utilizando los elementos `AuthUser` y `AuthPassword` en el espacio de nombres `http://www.scene7.com/IpsApi`. Por ejemplo:
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
@@ -244,7 +244,7 @@ Este estilo sigue siendo compatible con la compatibilidad con versiones anterior
 
 Una vez autenticadas las credenciales del llamador, se comprueba la solicitud para asegurarse de que el llamador está autorizado para realizar la operación solicitada. La autorización se basa en la función de usuario del autor de la llamada y también puede requerir la comprobación de la compañía, el usuario y otros parámetros de operación de destino. Además, los usuarios del portal de imágenes deben pertenecer a un grupo con los permisos necesarios para realizar determinadas operaciones de carpetas y recursos. La sección de referencia Operaciones detalla los requisitos de autorización para cada operación.
 
-SOAP **Solicitud y respuesta de ejemplo de la lista de distribución**
+**Ejemplo de solicitud y respuesta de SOAP**
 
 El ejemplo siguiente muestra una operación `addCompany` completa, incluidos los encabezados HTTP:
 
@@ -298,9 +298,9 @@ xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
 </soapenv:Envelope>
 ```
 
-SOAP **fallas de la**
+**errores de SOAP**
 
-SOAP SOAP Cuando una operación encuentra una condición de excepción, se devuelve un error de como el cuerpo del mensaje de error en lugar de la respuesta normal. Por ejemplo, si un usuario no administrador intenta enviar la solicitud `addCompany` anterior, se devuelve la siguiente respuesta:
+Cuando una operación encuentra una condición de excepción, se devuelve un error de SOAP como el cuerpo del mensaje de SOAP en lugar de la respuesta normal. Por ejemplo, si un usuario no administrador intenta enviar la solicitud `addCompany` anterior, se devuelve la siguiente respuesta:
 
 ```
 HTTP/1.1 500 Internal Server Error 

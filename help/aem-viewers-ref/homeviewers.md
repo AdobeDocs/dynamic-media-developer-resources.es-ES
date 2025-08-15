@@ -1,6 +1,6 @@
 ---
-title: Adobe Guía de referencia de visores de Dynamic Media
-description: Adobe Guía de referencia de visores de Dynamic Media para visores de 360 visores de vídeo, vídeo interactivo, vídeo interactivo, vídeo interactivo, vídeo interactivo, vídeo, zoom básico, catálogo electrónico, zoom, zoom, búsqueda de catálogo electrónico, flotante, zoom en línea, medios mixtos, giro, vídeo, carrusel y vídeo.
+title: Guía de referencia de visores de Dynamic Media de Adobe
+description: Guía de referencia de visores de Dynamic Media de Adobe para visores de 360 de vídeo, vídeo interactivo, vídeo interactivo, vídeo, vídeo, dimensiones, zoom básico, catálogo electrónico, zoom, zoom, catálogo electrónico, búsqueda, flotante, zoom en línea, medios mixtos, giro, vídeo y carrusel.
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: ad8ef5f3-684a-49e9-a21e-ececd8d3af5f

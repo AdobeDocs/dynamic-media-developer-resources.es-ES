@@ -23,7 +23,7 @@ Conversión de formato del explorador. Especifica si la funcionalidad de convers
 <table id="simpletable_998CF426296945FEA48D19E33B71A17E"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> verdadero|falso </span> </p> </td> 
-  <td class="stentry"> <p>Especifica si la funcionalidad de conversión de formato de explorador -convertir imágenes JPEG o PNG a formatos de archivo específicos de explorador más pequeños- está activada ( <span class="codeph"> true </span>) o desactivada ( <span class="codeph"> false </span>). </p> </td> 
+  <td class="stentry"> <p>Especifica si la funcionalidad de conversión de formato de explorador (convertir imágenes JPEG o PNG a formatos de archivo específicos de explorador más pequeños) está activada ( <span class="codeph"> true </span>) o desactivada ( <span class="codeph"> false </span>). </p> </td> 
  </tr> 
 </table>
 
@@ -33,4 +33,4 @@ Conversión de formato del explorador. Especifica si la funcionalidad de convers
 
 ## Véase también
 
-[bfc](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-bfc.md), [dpr](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-dpr.md), [red](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md), [Imágenes inteligentes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=es)
+[bfc](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-bfc.md), [dpr](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-dpr.md), [red](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md), [Imágenes inteligentes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=en)

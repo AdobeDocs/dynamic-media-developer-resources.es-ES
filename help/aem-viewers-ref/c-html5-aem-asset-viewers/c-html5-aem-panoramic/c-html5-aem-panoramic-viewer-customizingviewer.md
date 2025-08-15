@@ -34,10 +34,10 @@ Al crear CSS personalizado, tenga en cuenta que el visor asigna la clase `.s7pan
 
 ## Notas y consejos generales sobre estilo {#section-95855dccbbc444e79970f1aaa3260b7b}
 
-* Todas las rutas a recursos externos dentro de CSS se resuelven en la ubicación de CSS, no en la ubicación de la página del HTML del visor. Tenga esto en cuenta a la hora de copiar el CSS predeterminado en una ubicación diferente: puede ser necesario copiar también los recursos predeterminados o actualizar las rutas dentro del CSS personalizado.
+* Todas las rutas a recursos externos dentro de CSS se resuelven en la ubicación de CSS, no en la ubicación de la página de HTML del visor. Tenga esto en cuenta a la hora de copiar el CSS predeterminado en una ubicación diferente: puede ser necesario copiar también los recursos predeterminados o actualizar las rutas dentro del CSS personalizado.
 * Puede utilizar varios formatos para los valores de color admitidos por CSS. Si se necesita transparencia, se sugiere el formato `rgba(R,G,B,A)`. De lo contrario, no se requiere transparencia `#RRGGBB`.
 
-Al personalizar la interfaz de usuario del visor con CSS, no se admite el uso de la regla `!IMPORTANT` para aplicar estilo a los elementos del visor. En particular, la regla `!IMPORTANT` no debe usarse para anular ningún estilo predeterminado o en tiempo de ejecución proporcionado por el visor o el SDK del visor, ya que puede afectar al comportamiento adecuado de los componentes. En su lugar, se deben utilizar selectores CSS con la especificidad adecuada para establecer las propiedades CSS documentadas en esta guía de referencia.
+Al personalizar la interfaz de usuario del visor con CSS, no se admite el uso de la regla `!IMPORTANT` para aplicar estilo a los elementos del visor. En particular, la regla `!IMPORTANT` no debe usarse para anular ningún estilo predeterminado o en tiempo de ejecución proporcionado por el visor o Viewer SDK, ya que puede afectar al comportamiento adecuado de los componentes. En su lugar, se deben utilizar selectores CSS con la especificidad adecuada para establecer las propiedades CSS documentadas en esta guía de referencia.
 
 ## Visor panorámico CSS {#section-9b6d8d601cb441d08214dada7bb4eddc}
 

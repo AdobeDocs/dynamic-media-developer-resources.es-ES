@@ -30,7 +30,7 @@ URL de la imagen que sirve el servicio de imágenes. Si la dirección URL no est
 
 ## src {#section-5dbc1f9a3c274705adb9702e4c7af0b1}
 
-Si se establece `data-src`, `src` es opcional y puede contener cualquier dirección URL que desee agregar. Por ejemplo, puede contener una URL a la misma imagen basada en el servicio de imágenes que utiliza la biblioteca. O bien, puede contener un marcador de posición de GIF o incluso un URI de datos para evitar un viaje de ida y vuelta al servidor adicional durante el inicio.
+Si se establece `data-src`, `src` es opcional y puede contener cualquier dirección URL que desee agregar. Por ejemplo, puede contener una URL a la misma imagen basada en el servicio de imágenes que utiliza la biblioteca. O bien, puede contener un marcador de posición GIF o incluso un URI de datos para evitar un viaje de ida y vuelta al servidor adicional al inicio.
 
 Si `data-src` no está establecido, `src` es obligatorio y debe contener una URL a la imagen que suministra el servicio de imágenes.
 
@@ -72,7 +72,7 @@ Los nombres de varios comandos del servicio de imágenes o ajustes preestablecid
 
 ## data-mode {#section-97caf43cf5ab4ca8b1b866d8f394a9a4}
 
-AEM Los dos modos de recorte inteligente siguientes están disponibles en la versión 6.4 y posteriores de la y en los visores de Dynamic Media 5.9 y posteriores:
+Los dos modos de recorte inteligente siguientes están disponibles en AEM 6.4 y versiones posteriores y en Dynamic Media Viewers 5.9 y versiones posteriores:
 
 * **Manual**: los puntos de interrupción definidos por el usuario y los comandos correspondientes del servicio de imágenes se definen dentro de un atributo en el elemento de imagen.
 * **Recorte inteligente**: las representaciones de recorte inteligente calculadas se recuperan automáticamente del servidor de entrega. La mejor representación se selecciona utilizando el tamaño de tiempo de ejecución del elemento de imagen.

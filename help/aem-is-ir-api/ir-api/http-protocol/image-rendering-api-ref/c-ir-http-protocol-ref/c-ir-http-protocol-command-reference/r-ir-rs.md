@@ -25,7 +25,7 @@ Configuración de procesamiento avanzada. Especifica la configuración de proces
  </tr> 
 </table>
 
-Se utiliza para ajustar la apariencia del procesamiento. Para crear cadenas de configuración de procesamiento, utilice la función de procesamiento de la herramienta de creación de viñetas (parte del paquete de Dynamic Media Image Authoring).
+Se utiliza para ajustar la apariencia del procesamiento. Para crear cadenas de configuración de procesamiento, utilice la función de procesamiento de la herramienta de creación de viñetas (parte del paquete de creación de imágenes de Dynamic Media).
 
 ## Propiedades {#section-9a2b2228789046658cb80eddf343af75}
 

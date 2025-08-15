@@ -1,6 +1,6 @@
 ---
 title: Versión de otoño de 2016 de Scene7
-description: '"Las notas de la versión más recientes de la versión de otoño de 2016 de Adobe Scene7, parte de la solución Adobe Experience Manager en Adobe Experience Cloud".'
+description: Últimas notas de la versión de Adobe Scene7 de otoño de 2016, parte de la solución Adobe Experience Manager en Adobe Experience Cloud.
 solution: Experience Manager
 feature: Dynamic Media Classic
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Versión de otoño de 2016 de Scene7{#scene-fall-release}
 
-Últimas notas de la versión de otoño de 2016 de Adobe Scene7: parte de la solución Adobe Experience Manager en Adobe Experience Cloud.
+Últimas notas de la versión de Adobe Scene7: parte de la solución Adobe Experience Manager de otoño de 2016 en Adobe Experience Cloud.
 
 ## Versión de otoño de 2016 de Scene7 {#topic-791cdf80f91e457fbb63bfedf79f5a94}
 
@@ -25,23 +25,23 @@ ht-degree: 0%
 * [Visualizadores (Image Serving 5.5.3)](s7rnfall2016.md#section-1d59bcd5825d487b80b59a6d1a08ed30)
 * [Visualizadores (servicio de imágenes 5.5.2)](s7rnfall2016.md#section-9932c988cfee45749594af481dfc6476)
 * [Visualizadores (Image Serving 5.5.1)](s7rnfall2016.md#section-833ab92c91c941d2bfdc27f233f582ad)
-* [HTML 5 Viewer SDK 3.0.1](s7rnfall2016.md#section-30e2392859c442d1aab2766d0f1d1580)
+* [HTML5 Viewer SDK 3.0.1](s7rnfall2016.md#section-30e2392859c442d1aab2766d0f1d1580)
 * [Dynamic Media Classic Image Serving 6.3.2 e Image Rendering 6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
 
 ## General {#section-52afeb72ecb34c1585ea67a5051825a2}
 
-El Adobe anuncia la disponibilidad del envío de contenido HTTP/2 con el beneficio general de mejorar el rendimiento.
+Adobe anuncia la disponibilidad del envío de contenido HTTP/2 con el beneficio general de mejorar el rendimiento.
 
-Consulte [Preguntas frecuentes sobre la entrega de contenido HTTP2](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html?lang=es#dynamic).
+Consulte [Preguntas frecuentes sobre la entrega de contenido HTTP2](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
 
 ## Scene7 Publishing System {#section-24487cb493444d808fb7193f0a00cdd4}
 
-Para obtener toda la documentación, consulte [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=es](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=es)
+Para obtener toda la documentación, consulte [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)
 
 **Nuevas funciones, mejoras y correcciones de errores**
 
 * Se ha eliminado la característica de reedición de vídeo de la interfaz de usuario [!DNL Adobe Scene7 Publishing System].
-* Se ha agregado autenticación a todos los servlets de Scene7 donde es necesario y posible
+* Se ha añadido autenticación a todos los servlets de Scene7 cuando era necesario y posible
 * Corrección de errores que implicaban la vista de lista en la papelera.
 * Se ha eliminado la función de usuario **Crear administrador de Dynamic Media Classic (Scene7)** de Administración de usuarios debido a problemas de seguridad.
 * FTP WebAdmin ahora admite la autenticación OKTA.
@@ -54,11 +54,11 @@ Para obtener toda la documentación, consulte [https://experienceleague.adobe.co
 * Corrección de errores que implica un error al recuperar una lista de carpetas FTP si alguna carpeta tenía caracteres especiales en su nombre.
 * Configure los proveedores de servicios OKTA para los entornos de Scene7.
 * Se ha agregado compatibilidad con el ID de organización de Experience Cloud para Viewer Analytics.
-* Se ha implementado Scene7 SAML Consumer.
+* Se ha implementado Scene7 SAML consumer.
 
 ## Visualizadores (Image Serving 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-Para obtener documentación completa, consulte [Guía de referencia de visores](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=es).
+Para obtener documentación completa, consulte [Guía de referencia de visores](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Correcciones de errores para el servicio de imágenes 5.5.3**
 
@@ -68,7 +68,7 @@ Para obtener documentación completa, consulte [Guía de referencia de visores](
 
 ## Visualizadores (servicio de imágenes 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-Para obtener documentación completa, consulte [Guía de referencia de visores](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=es).
+Para obtener documentación completa, consulte [Guía de referencia de visores](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Correcciones de errores para el servicio de imágenes 5.5.2**
 
@@ -77,12 +77,12 @@ Para obtener documentación completa, consulte [Guía de referencia de visores](
 
 ## Visualizadores (Image Serving 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-Para obtener documentación completa, consulte [Guía de referencia de visores](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=es).
+Para obtener documentación completa, consulte [Guía de referencia de visores](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Nuevas funciones, mejoras y correcciones de errores para el servicio de imágenes 5.5.1**
 
-* Visor de catálogos electrónicos de HTML5 con función de búsqueda.
-* Se ha añadido la reproducción de vídeo de flujo HLS como método de entrega de vídeo predeterminado para la mayoría de los sistemas de escritorio. La transmisión de vídeo HDS basada en Flash sigue estando disponible como opción de reproducción alternativa.
+* Visor de catálogos electrónicos HTML5 con función de búsqueda.
+* Se ha añadido la reproducción de vídeo de flujo continuo de HLS como método de entrega de vídeo predeterminado para la mayoría de los sistemas de escritorio. La transmisión de vídeo HDS basada en Flash sigue estando disponible como opción de reproducción alternativa.
 * Se ha agregado compatibilidad para dispositivos con entrada táctil y de ratón que ejecutan el explorador Chrome.
 * Se ha agregado compatibilidad con ID de organización de Experience Cloud a la integración de Analytics.
 * Actualice la biblioteca JavaScript de AppMeasurement a la versión 1.6.1.
@@ -121,16 +121,16 @@ Para obtener documentación completa, consulte [Guía de referencia de visores](
 
 * Dispositivos móviles HTC
 
-   * Los hallazgos del Adobe de dispositivos móviles de HTC muestran que la incapacidad para deshabilitar el zoom de pellizco nativo es una &quot;característica&quot; del envoltorio de la interfaz de usuario de HTC (HTC Sense). Este problema puede hacer que toda la página se haga zoom al utilizar el gesto de &quot;pellizco para zoom&quot; en el visor. Sugiera utilizar el doble toque en su lugar.
+   * Los resultados de Adobe muestran que la incapacidad para deshabilitar el zoom de pellizco nativo es una &quot;característica&quot; del envoltorio de la interfaz de usuario de HTC (HTC Sense). Este problema puede hacer que toda la página se haga zoom al utilizar el gesto de &quot;pellizco para zoom&quot; en el visor. Sugiera utilizar el doble toque en su lugar.
    * Los iconos de mapa de imagen pueden superponerse si los mapas de imagen son pequeños y están muy juntos.
 
-* Vídeo de HTML 5
+* Vídeo de HTML5
 
    * Internet Explorer 9: las imágenes de póster personalizadas no se muestran.
-   * El modificador `IntialBitRate` solo se admite con la reproducción de software HLS y Flash HDS. No funciona cuando la reproducción utiliza el reproductor nativo.
+   * El modificador `IntialBitRate` solo se admite con la reproducción de HLS y Flash HDS de software. No funciona cuando la reproducción utiliza el reproductor nativo.
    * Actualmente no se admite la reproducción progresiva OGG y WebM.
    * La escala del explorador puede hacer que el reproductor de vídeo se muestre en un tamaño incorrecto (incluye la configuración de pantalla del panel de control del sistema operativo Windows).
-   * La búsqueda de vídeo mediante el streaming HLS en Safari puede ser incoherente.
+   * La búsqueda de vídeo mediante el streaming de HLS en Safari puede ser incoherente.
 
 * Internet Explorer
 
@@ -145,9 +145,9 @@ Para obtener documentación completa, consulte [Guía de referencia de visores](
 
 * Safari
 
-   * Safari 6.1 o posterior: la configuración de los complementos de Internet puede impedir la reproducción de vídeo en Flash.
+   * Safari 6.1 o posterior: la configuración de los complementos de Internet puede impedir la reproducción de vídeo Flash.
    * La búsqueda de vídeo mediante el streaming de HLS en Safari puede ser incoherente.
-   * No se puede buscar el final del vídeo en Safari 6 mediante flujo HLS.
+   * No se puede buscar el final del vídeo en Safari 6 mediante el streaming de HLS.
 
 **Problemas y restricciones conocidos**
 
@@ -164,7 +164,7 @@ Para obtener documentación completa, consulte [Guía de referencia de visores](
    * No se admiten ajustes preestablecidos de imagen.
    * Actualmente no se admite agregar o quitar el visor del DOM mediante CSS `display:none` o desasociándolo dinámicamente del nodo principal.
 
-* HTML 5 Todos los visores
+* Todos los visores de HTML5
 
    * La incrustación del visor en la tabla puede provocar un tamaño o una ubicación incorrectos del visor en un modo de pantalla completa no nativo. Sugiera usar DIV en su lugar.
    * Los parámetros con nombres de instancia explícitos en el código también requieren nombres de instancia en la dirección URL para sobrescribirse (por ejemplo, `zoomView.iconfeffect=0`).
@@ -180,7 +180,7 @@ Para obtener documentación completa, consulte [Guía de referencia de visores](
    * InitialFrame vincula únicamente a la página situada más a la izquierda en pliegos de varias páginas. Afecta a los dispositivos móviles en modo vertical.
    * Debido a las limitaciones del explorador, la función de impresión no está disponible en IE9.
 
-* Medios mixtos de HTML5
+* Medios mixtos HTML5
 
    * No se admite la reproducción de banda sonora.
 
@@ -188,37 +188,37 @@ Para obtener documentación completa, consulte [Guía de referencia de visores](
 
    * Para procesar las miniaturas correctamente en el correo electrónico saliente, el modificador `serverurl` debe tener una dirección URL absoluta.
 
-* Vídeo de HTML 5
+* Vídeo de HTML5
 
-   * La imagen del póster puede encontrar el error &quot;tamaño máximo&quot;. La compañía debe aumentar el ajuste de límite para el servicio de imágenes de Publish.
-   * Los subtítulos de vídeo requieren un conjunto de reglas de empresa si el alojamiento de la página del HTML se proporciona desde un servidor externo (no un servidor de Scene7). Póngase en contacto con Soporte técnico de Adobe para obtener ayuda.
+   * La imagen del póster puede encontrar el error &quot;tamaño máximo&quot;. La compañía debe aumentar el ajuste de límite para la publicación del servicio de imágenes.
+   * Los subtítulos de vídeo requieren un conjunto de reglas de empresa si el alojamiento de la página de HTML se proporciona desde un servidor externo (no desde un servidor de Scene7). Póngase en contacto con el Soporte técnico de Adobe para obtener ayuda.
    * El seguimiento de Analytics puede informar de un porcentaje de reproducción incorrecto debido al almacenamiento en búfer
    * El marco negro en lugar de la imagen del póster puede mostrarse en dispositivos iPad o Android™.
    * El marco negro puede parpadear en la pantalla durante la carga del visor en dispositivos iPad o Android™.
    * Los bordes negros se muestran en la parte lateral del componente VideoPlayer cuando el fondo está establecido en blanco/transparente en dispositivos iPad.
    * El último fotograma de vídeo puede distorsionarse en iPad con iOS 7.
-   * Se puede producir ocasionalmente un bloqueo de macros durante la búsqueda de vídeo en el modo de transmisión HLS en los navegadores Chrome, Firefox e Internet Explorer.
+   * Se pueden producir ocasionalmente bloqueos de macros durante la búsqueda de vídeo en el modo de streaming de HLS en los navegadores Chrome, Firefox e Internet Explorer.
       * Es posible que la imagen del póster no se muestre en el explorador Microsoft® Edge por primera vez en el visitante.
       * La imagen de póster puede ocultarse después de la carga del vídeo en Internet Explorer 9 cuando se utiliza la reproducción progresiva.
 
-## SDK 3.0.2 de Scene7 HTML5 Viewer {#section-30e2392859c442d1aab2766d0f1d1580}
+## Scene7 HTML5 Viewer SDK 3.0.2 {#section-30e2392859c442d1aab2766d0f1d1580}
 
-La Guía del usuario se encuentra en la carpeta del SDK del visor de Adobe HTML5 de la instalación del cliente. La documentación de la API de componente se encuentra en la subcarpeta docs de la instalación del cliente.
+La Guía del usuario se encuentra en la carpeta Adobe HTML5 Viewer SDK de la instalación del cliente. La documentación de la API de componente se encuentra en la subcarpeta docs de la instalación del cliente.
 
 **Correcciones de errores para 3.0.2**
 
 * VideoPlayer: error al reproducir el vídeo en Internet Explorer 11 en Windows 7.
-* TableOfContents - `initialframe` no afectó al modo vertical en dispositivos móviles para el visor de catálogos electrónicos de HTML 5.
+* TableOfContents - `initialframe` no afectó al modo vertical en dispositivos móviles para el visor de catálogos electrónicos HTML5.
 
 **Nuevas funciones, mejoras y correcciones de errores para 3.0.1**
 
 * General
 
-   * Se ha añadido la reproducción de vídeo de flujo HLS como método de entrega de vídeo predeterminado para la mayoría de los sistemas de escritorio. La transmisión de vídeo HDS basada en Flash sigue estando disponible como opción de reproducción alternativa.
+   * Se ha añadido la reproducción de vídeo de flujo continuo de HLS como método de entrega de vídeo predeterminado para la mayoría de los sistemas de escritorio. La transmisión de vídeo HDS basada en Flash sigue estando disponible como opción de reproducción alternativa.
    * Se han agregado los componentes SearchManager, SearchPanel, SearchEffect y SearchButton para admitir la nueva función de búsqueda en los visores de catálogos electrónicos.
    * Se ha agregado compatibilidad para dispositivos con entrada táctil y de ratón en ejecución en el explorador Chrome.
    * Se ha refactorizado la detección de versiones de Android™ para admitir versiones futuras del sistema operativo.
-   * Agregue compatibilidad para la orientación de derecha a izquierda en los componentes de SDK específicos del catálogo electrónico.
+   * Añada compatibilidad con la orientación de derecha a izquierda en los componentes SDK específicos del catálogo electrónico.
 
 * BarraDeControl
 
@@ -302,7 +302,7 @@ La Guía del usuario se encuentra en la carpeta del SDK del visor de Adobe HTML5
 
 * Contenedor
 
-   * No se admite el borde, relleno y márgenes del contenedor. El Adobe sugiere añadir elementos de estilo al DIV principal.
+   * No se admite el borde, relleno y márgenes del contenedor. Adobe sugiere agregar elementos de estilo al DIV principal.
    * Debe establecer explícitamente el tamaño del contenedor o los componentes pueden tener un tamaño correcto.
 
 * Imprimir componente
@@ -341,7 +341,7 @@ La Guía del usuario se encuentra en la carpeta del SDK del visor de Adobe HTML5
 * VideoPlayer
 
    * El fotograma de vídeo no se actualiza si la búsqueda se establece en el 100 % y la reserva en auto.
-   * En ocasiones, se pueden producir bloqueos de macros durante la búsqueda de vídeo en el modo de transmisión HLS en los navegadores Chrome, Firefox e Internet Explorer.
+   * En ocasiones, se pueden producir bloqueos de macros durante la búsqueda de vídeo en el modo de flujo continuo de HLS en los navegadores Chrome, Firefox e Internet Explorer.
    * Es posible que la imagen del póster no se muestre en el explorador Microsoft® Edge por primera vez en el visitante.
    * La imagen de póster puede ocultarse después de la carga del vídeo en Internet Explorer 9 cuando se utiliza la reproducción progresiva.
 

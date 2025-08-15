@@ -21,7 +21,7 @@ Colorear imagen. Colorea los datos de la imagen conservando las sombras y los re
 <table id="simpletable_768D6CDF3F734E7F89DC7AB2EAAC0C77"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> color </span> </p> </td> 
-  <td class="stentry"> <p>Color de RGB de repuesto. </p> </td> 
+  <td class="stentry"> <p>Color RGB de repuesto. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> de </span> </p> </td> 
@@ -51,13 +51,13 @@ Además de los ajustes integrados de brillo y contraste, `op_brightness=` y `op_
 
 Capa, comando. Se aplica a la capa actual o a la imagen compuesta si `layer=comp`. Ignorado por las capas de efecto.
 
-*`color`* debe ser un valor de RGB; no se admiten valores *`color`* grises o CMYK.
+*`color`* debe ser un valor RGB; no se admiten valores *`color`* grises o CMYK.
 
 El valor *`contrast`* se omite si la compensación de brillo está desactivada.
 
 Se supone que *`color`* existe en el espacio de color de trabajo correspondiente al tipo de píxel de *`color`*. *`color`* se convierte con precisión si la imagen de capa tiene un tipo de píxel diferente en el momento de la combinación.
 
-Las imágenes CMYK se convierten en RGB antes de que se aplique la operación.
+Las imágenes CMYK se convierten a RGB antes de que se aplique la operación.
 
 ## Predeterminado {#section-0c3ea13efbac432c8970862d223e39b3}
 

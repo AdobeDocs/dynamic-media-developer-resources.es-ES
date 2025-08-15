@@ -31,11 +31,11 @@ Consulte [Requisitos y requisitos previos del sistema](../../c-system-requiremen
 
 ## URL de demostración {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
-[https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d9.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&amp;contenturl=https://s7d9.scene7.com/skins/&amp;asset=Viewers/Pluralist&amp;searchserverurl=https://s7search1.scene7.com/s7search/](https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d9.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&amp;contenturl=https://s7d9.scene7.com/skins/&amp;asset=Viewers/Pluralist&amp;searchserverurl=https://s7search1.scene7.com/s7search/)
+[https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d9.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&amp;contenturl=https://s7d9.scene7.com/skins/&amp;asset=Viewers/Pluralist&amp;searchserverurl=https://s7search1.scene7.com/s7search/](https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&serverUrl=https://s7d9.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&contenturl=https://s7d9.scene7.com/skins/&asset=Viewers/Pluralist&searchserverurl=https://s7search1.scene7.com/s7search/)
 
 ## Uso del visor de catálogos electrónicos {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-Visor de búsqueda en catálogo electrónico representa un archivo JavaScript principal y un conjunto de archivos de ayuda (una sola inclusión JavaScript con todos los componentes SDK del visor utilizados por este visor, recursos y CSS) descargados por el visor en tiempo de ejecución
+Visor de búsqueda en catálogo electrónico representa un archivo JavaScript principal y un conjunto de archivos de ayuda (una sola inclusión JavaScript con todos los componentes de SDK de visor utilizados por este visor, recursos y CSS) descargados por el visor en tiempo de ejecución
 
 Puede utilizar el Visor de búsqueda en catálogo electrónico en modo emergente utilizando una página de HTML lista para la producción proporcionada con visores IS o en modo incrustado, donde se integra en la página web de destino mediante una API documentada.
 
@@ -86,7 +86,7 @@ Este visor también admite la entrada táctil y la entrada del ratón en disposi
 
 El visor de búsqueda en el catálogo electrónico admite herramientas de uso compartido en redes sociales. Están disponibles como un botón en la barra de control principal que se expande a una barra de herramientas para compartir cuando un usuario hace clic o toca en ella.
 
-La barra de herramientas de uso compartido contiene iconos para cada tipo de canal de uso compartido admitido, que incluye Facebook, Twitter, recurso compartido de correo electrónico, código compartido incrustado y recurso compartido de vínculos. Cuando se activan las herramientas de uso compartido de correo electrónico, de incrustación de recursos compartidos o de vínculo compartido, el visor muestra un cuadro de diálogo modal con el formulario de entrada de datos correspondiente. Cuando se llama a Facebook o a un Twitter, el visor redirige al usuario a un cuadro de diálogo de uso compartido estándar desde un servicio social. Las herramientas de uso compartido no están disponibles en el modo de pantalla completa debido a las restricciones de seguridad del explorador web.
+La barra de herramientas de uso compartido contiene iconos para cada tipo de canal de uso compartido admitido, que incluye Facebook, Twitter, correo electrónico compartido, código compartido incrustado y vínculo compartido. Cuando se activan las herramientas de uso compartido de correo electrónico, de incrustación de recursos compartidos o de vínculo compartido, el visor muestra un cuadro de diálogo modal con el formulario de entrada de datos correspondiente. Cuando se llama a Facebook o Twitter, el visor redirige al usuario a un cuadro de diálogo de uso compartido estándar desde un servicio social. Las herramientas de uso compartido no están disponibles en el modo de pantalla completa debido a las restricciones de seguridad del explorador web.
 
 La función Buscar del visor está disponible como icono de espejo en la barra de herramientas principal. Al tocar o hacer clic en el icono, se activa el panel Buscar con un campo de entrada. Después de escribir una palabra clave o frase y pulsar Intro, el visor procesa los resultados de búsqueda en el panel y resalta las palabras encontradas en la vista principal.
 
@@ -98,7 +98,7 @@ Las distintas páginas web tienen diferentes necesidades de comportamiento del v
 
 En el modo emergente, el visor se abre en una ventana o pestaña independiente del explorador web. Ocupa todo el área de la ventana del explorador y se ajusta en caso de que cambie el tamaño del explorador o la orientación de un dispositivo móvil.
 
-El modo emergente es el más común en dispositivos móviles. La página web carga el visor mediante la llamada de JavaScript `window.open()`, el elemento de HTML `A` configurado correctamente o cualquier otro método adecuado.
+El modo emergente es el más común en dispositivos móviles. La página web carga el visor mediante la llamada de JavaScript `window.open()`, el elemento HTML `A` configurado correctamente o cualquier otro método adecuado.
 
 Se recomienda utilizar una página de HTML predeterminada para el modo de operación emergente. En este caso, se llama [!DNL eCatalogSearchViewer.html] y se encuentra dentro de la subcarpeta [!DNL html5/] de su implementación estándar de IS-Viewers:
 
@@ -106,7 +106,7 @@ Se recomienda utilizar una página de HTML predeterminada para el modo de operac
 
 Puede conseguir una personalización visual aplicando CSS personalizado.
 
-A continuación se muestra un ejemplo de código de HTML que abre el visor en una nueva ventana:
+A continuación se muestra un ejemplo de código HTML que abre el visor en una nueva ventana:
 
 ```html {.line-numbers}
 <a href="https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&serverUrl=https://s7d9.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&contenturl=https://s7d9.scene7.com/skins/&asset=Viewers/Pluralist&searchserverurl=https://s7search1.scene7.com/s7search/" target="_blank">Open pop-up viewer</a>
@@ -137,7 +137,7 @@ Para agregar el visor a una página web, haga lo siguiente:
 
 1. Añadir el archivo de JavaScript del visor a la página web.
 
-   La creación de un visor requiere que añada una etiqueta de script en el encabezado del HTML. Antes de usar la API de visor, asegúrese de incluir [!DNL eCatalogSearchViewer.js]. El archivo [!DNL eCatalogSearchViewer.js] se encuentra en la subcarpeta [!DNL html5/js/] de su implementación estándar de visores IS:
+   La creación de un visor requiere que añada una etiqueta de script en el encabezado de HTML. Antes de usar la API de visor, asegúrese de incluir [!DNL eCatalogSearchViewer.js]. El archivo [!DNL eCatalogSearchViewer.js] se encuentra en la subcarpeta [!DNL html5/js/] de su implementación estándar de visores IS:
 
 [!DNL <s7viewers_root>/html5/js/eCatalogSearchViewer.js]
 
@@ -165,7 +165,7 @@ La ruta relativa tiene el siguiente aspecto:
 
    Puede establecer el tamaño estático del visor declarándolo para la clase CSS de nivel superior `.s7ecatalogsearchviewer` en unidades absolutas o utilizando el modificador `stagesize`.
 
-   Puede establecer el tamaño en CSS directamente en la página del HTML o en un archivo CSS de visor personalizado, que luego se asigna a un registro de ajuste preestablecido de visor en Dynamic Media Classic, o se pasa explícitamente mediante un comando de estilo.
+   Puede establecer el tamaño en CSS directamente en la página de HTML o en un archivo CSS de visor personalizado, que luego se asigna a un registro de ajuste preestablecido de visor en Dynamic Media Classic, o se pasa explícitamente mediante un comando de estilo.
 
    Consulte [Personalización del visor de catálogo electrónico](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) para obtener más información sobre cómo aplicar estilo al visor con CSS.
 
@@ -240,7 +240,7 @@ La ruta relativa tiene el siguiente aspecto:
 
 **Inserción de diseño interactivo con altura sin restricciones**
 
-Con incrustación de diseño interactivo, la página web normalmente tiene algún tipo de diseño flexible que dicta el tamaño de tiempo de ejecución del contenedor del visor `DIV`. A efectos de este ejemplo, supongamos que la página web permite que el contenedor del visor `DIV` ocupe el 40% del tamaño de la ventana del explorador web, sin restringir su altura. El código de HTML de página web resultante tiene el siguiente aspecto:
+Con incrustación de diseño interactivo, la página web normalmente tiene algún tipo de diseño flexible que dicta el tamaño de tiempo de ejecución del contenedor del visor `DIV`. A efectos de este ejemplo, supongamos que la página web permite que el contenedor del visor `DIV` ocupe el 40% del tamaño de la ventana del explorador web, sin restringir su altura. El código HTML de la página web resultante tiene el siguiente aspecto:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 

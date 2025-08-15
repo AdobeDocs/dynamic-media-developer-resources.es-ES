@@ -96,7 +96,7 @@ Limite el tamaño del conjunto de datos con los parámetros `responseFieldArray`
    <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Opción de estado de Publish. </td> 
+   <td colname="col4"> Opción de estado de publicación. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> trashState</span> </span> </td> 
@@ -180,7 +180,7 @@ Limite el tamaño del conjunto de datos con los parámetros `responseFieldArray`
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeByproducts</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Si el valor es True, los recursos de subproductos generados durante la ingesta de un recurso principal, como las imágenes de página de PDF copiadas desde CD, se excluyen de los resultados de búsqueda. El valor predeterminado es false. </td> 
+   <td colname="col4"> Si el valor es True, los recursos de subproductos generados durante la ingesta de un recurso principal, como imágenes de página de PDF copiadas, se excluyen de los resultados de búsqueda. El valor predeterminado es false. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludByproductArray</span> </span> </td> 

@@ -28,7 +28,7 @@ Cadena de texto. Necesario para los materiales de textura y calcomanía, opciona
 
 El procesamiento de imágenes admite los mismos formatos de imagen de origen que el servicio de imágenes de Dynamic Media.
 
-Las aplicaciones que requieren datos de imagen en varias resoluciones diferentes funcionan mejor cuando se utiliza el formato de varias resoluciones del TIFF piramidal de Dynamic Media (PTIFF). El servicio de imágenes incluye la utilidad Image Converter (IC) que crea imágenes PTIFF a partir de cualquier formato compatible.
+Las aplicaciones que requieren datos de imagen en varias resoluciones diferentes funcionan mejor cuando se utiliza el formato de varias resoluciones Dynamic Media Pyramid TIFF (PTIFF). El servicio de imágenes incluye la utilidad Image Converter (IC) que crea imágenes PTIFF a partir de cualquier formato compatible.
 
 Consulte la descripción de la utilidad IC en la documentación del servicio de imágenes para obtener una lista completa de los formatos de archivo admitidos.
 

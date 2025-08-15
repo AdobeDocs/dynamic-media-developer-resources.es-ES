@@ -22,7 +22,7 @@ Parámetro común a todos los visualizadores.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p>Ruta raíz relativa o absoluta del servicio de imágenes. </p> <p> Especifica una ruta relativa o absoluta al servicio de imágenes, desde donde el visor recupera las imágenes. Si la ruta de acceso no tiene un <span class="filepath"> /</span> a la izquierda, es relativa a la ubicación de la página del HTML del visor. Si la ruta de acceso tiene un <span class="filepath"> /</span> a la izquierda, especifica una ruta de acceso absoluta en el mismo servidor. </p> <p> Utilice únicamente una ruta absoluta en caso de que el módulo Uso compartido de correo electrónico esté habilitado en el visor. </p> </td> 
+   <td colname="col2"> <p>Ruta raíz relativa o absoluta del servicio de imágenes. </p> <p> Especifica una ruta relativa o absoluta al servicio de imágenes, desde donde el visor recupera las imágenes. Si la ruta de acceso no tiene un <span class="filepath"> /</span> a la izquierda, es relativa a la ubicación de la página de HTML del visor. Si la ruta de acceso tiene un <span class="filepath"> /</span> a la izquierda, especifica una ruta de acceso absoluta en el mismo servidor. </p> <p> Utilice únicamente una ruta absoluta en caso de que el módulo Uso compartido de correo electrónico esté habilitado en el visor. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,6 +1,6 @@
 ---
 title: op_colorbalance
-description: Ajuste el equilibrio de color. Ajusta el valor de cada componente de color del RGB por separado.
+description: Ajuste el equilibrio de color. Ajusta el valor de cada componente de color de RGB por separado.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # op_colorbalance{#op-colorbalance}
 
-Ajuste el equilibrio de color. Ajusta el valor de cada componente de color del RGB por separado.
+Ajuste el equilibrio de color. Ajusta el valor de cada componente de color de RGB por separado.
 
 `op_colorbalance= *`redAdj`*, *`greenAdj`*, *`blueAdj`*`
 
@@ -33,11 +33,11 @@ Ajuste el equilibrio de color. Ajusta el valor de cada componente de color del R
  </tr> 
 </table>
 
-Los datos de imagen de entrada de gris y CMYK se convierten en RGB mediante conversión naive, que no es precisa cuando la administración de color está habilitada.
+Los datos de imagen de entrada de gris y CMYK se convierten a RGB mediante conversión naive, que no es precisa cuando la administración de color está habilitada.
 
 ## Propiedades {#section-dff9c934f7c1442bbd02379b688d82e2}
 
-Capa, comando. Se aplica a la capa actual o a la imagen compuesta si `layer=comp`. Ignorado por las capas de efecto. Las imágenes y las capas CMYK se convierten en RGB antes de que se aplique la operación.
+Capa, comando. Se aplica a la capa actual o a la imagen compuesta si `layer=comp`. Ignorado por las capas de efecto. Las imágenes y las capas CMYK se convierten a RGB antes de que se aplique la operación.
 
 ## Predeterminado {#section-08d84ef715964f7daea86f5ef237d199}
 

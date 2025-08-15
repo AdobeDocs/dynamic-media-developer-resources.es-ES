@@ -51,12 +51,12 @@ Notas de compatibilidad para sistemas operativos, exploradores y dispositivos m�
 * La incapacidad para deshabilitar el zoom de pellizco nativo es una &quot;función&quot; del envoltorio de la interfaz de usuario de HTC (HTC Sense). Esta función puede hacer que toda una página se haga zoom al utilizar el gesto de &quot;pellizco para zoom&quot; en el visor. En su lugar, pulse dos veces.
 * Los iconos de mapa de imagen se superponen si los mapas de imagen son pequeños y están muy juntos.
 
-## Visor de vídeo de HTML5 {#section-3c2dd1220dea4093b17ca2dd0a688307}
+## Visor de vídeo HTML5 {#section-3c2dd1220dea4093b17ca2dd0a688307}
 
-* El modificador `IntialBitRate` solo se admite con la reproducción de software HLS y Flash HDS. No funciona cuando la reproducción utiliza el reproductor nativo.
+* El modificador `IntialBitRate` solo se admite con la reproducción de HLS y Flash HDS de software. No funciona cuando la reproducción utiliza el reproductor nativo.
 * No se admite la reproducción progresiva OGG y WebM.
 * La escala del explorador hace que el reproductor de vídeo se muestre en un tamaño incorrecto (incluye la configuración de visualización del Panel de control de Campaign de Windows®).
-* Las búsquedas de vídeo mediante el streaming HLS en Safari son incoherentes.
+* Las búsquedas de vídeo mediante el streaming de HLS en Safari son incoherentes.
 
 ## Internet Explorer {#section-a18e8df396954f0b807017787c00aac7}
 
@@ -70,6 +70,6 @@ Notas de compatibilidad para sistemas operativos, exploradores y dispositivos m�
 
 ## Safari {#section-f8de598293d349188aa02c82cd3af8b6}
 
-* Safari 6.1 o posterior: la configuración del complemento de Internet impide la reproducción de vídeo en Flash.
-* Las búsquedas de vídeo mediante el streaming HLS en Safari son incoherentes.
-* No se puede buscar el final del vídeo en Safari 6 mediante flujo HLS.
+* Safari 6.1 o posterior: la configuración del complemento de Internet impide la reproducción de vídeo Flash.
+* Las búsquedas de vídeo mediante el streaming de HLS en Safari son incoherentes.
+* No se puede buscar el final del vídeo en Safari 6 mediante el streaming de HLS.

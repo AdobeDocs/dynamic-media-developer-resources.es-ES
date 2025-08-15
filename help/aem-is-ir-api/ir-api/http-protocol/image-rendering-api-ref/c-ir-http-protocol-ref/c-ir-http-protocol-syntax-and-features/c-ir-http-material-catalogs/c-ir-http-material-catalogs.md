@@ -19,7 +19,7 @@ Los catálogos de materiales ofrecen varias características.
 * Permitir la definición persistente de materiales, incluidas todas las propiedades de los materiales.
 
   Se puede hacer referencia a los materiales definidos en el catálogo de materiales mediante una ID simple, en lugar de un conjunto de propiedades de material.
-* Proporcione valores predeterminados para determinados atributos de solicitud, como la calidad JPEG o un tamaño de imagen de respuesta predeterminado.
+* Proporcione valores predeterminados para determinados atributos de solicitud, como la calidad de JPEG o un tamaño de imagen de respuesta predeterminado.
 * Administre viñetas, perfiles ICC y plantillas de solicitud.
 
 Aunque no se definan catálogos de material específicos, todas las características de los catálogos de material están disponibles a través del catálogo predeterminado ( [!DNL default.ini]).

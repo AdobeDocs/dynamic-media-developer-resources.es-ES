@@ -18,7 +18,7 @@ Documentación de atributos de configuración para eCatalog Viewer.
 
 Cualquier comando de configuración se puede establecer en la dirección URL o mediante `setParam()`, `setParams()` o ambos métodos API. También puede especificar cualquier atributo de configuración especificado en el registro de configuración del lado del servidor.
 
-Para algunos comandos de configuración, puede añadirlos como prefijo al nombre de clase o al nombre de instancia del componente SDK de visor correspondiente. Un nombre de instancia del componente es dinámico y depende del ID del elemento DOM contenedor de visor pasado al método de API `setContainerId()`. La documentación incluye un prefijo opcional para estos comandos. Por ejemplo, el comando `zoomstep` está documentado de la siguiente manera:
+Para algunos comandos de configuración, puede añadirlos como prefijo al nombre de clase o al nombre de instancia del componente correspondiente de Viewer SDK. Un nombre de instancia del componente es dinámico y depende del ID del elemento DOM contenedor de visor pasado al método de API `setContainerId()`. La documentación incluye un prefijo opcional para estos comandos. Por ejemplo, el comando `zoomstep` está documentado de la siguiente manera:
 
 `[PageView.|<containerId>_pageView].zoomstep`
 

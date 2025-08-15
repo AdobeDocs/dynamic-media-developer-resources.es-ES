@@ -22,7 +22,7 @@ Normalmente, un identificador corto y único, como un número SKU, posiblemente 
 
 ## Propiedades {#section-874a6853f67b4b229341ca76682884ae}
 
-Cadena de texto. Requerido. Identificador de registro para la imagen/SVG o la tabla de datos de contenido estático. Cada valor `catalog::Id` dentro de este catálogo de imágenes/catálogo de SVG o dentro de este catálogo de contenido estático debe ser único y no debe incluir los caracteres &quot;,&quot;.
+Cadena de texto. Requerido. Identificador de registro para la tabla de datos de contenido estático o de imagen/SVG. Cada valor `catalog::Id` de este catálogo de imágenes/catálogo de SVG o de este catálogo de contenido estático debe ser único y no debe incluir los caracteres &quot;,&quot;.
 
 ## Predeterminado {#section-a26e7d83a5ee44b5918baef82ee48e14}
 

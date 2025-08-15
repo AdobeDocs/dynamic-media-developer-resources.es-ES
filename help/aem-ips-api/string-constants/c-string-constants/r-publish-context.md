@@ -1,7 +1,7 @@
 ---
 description: Lo utiliza getActivePublishContextsReturn/publishContext.
 solution: Experience Manager
-title: Contexto de Publish
+title: Contexto de publicación
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2eaa6771-18e9-4758-bfa9-23cce278bee7
@@ -12,7 +12,7 @@ ht-degree: 14%
 
 ---
 
-# Contexto de Publish{#publish-context}
+# Contexto de publicación{#publish-context}
 
 Lo utiliza getActivePublishContextsReturn/publishContext.
 

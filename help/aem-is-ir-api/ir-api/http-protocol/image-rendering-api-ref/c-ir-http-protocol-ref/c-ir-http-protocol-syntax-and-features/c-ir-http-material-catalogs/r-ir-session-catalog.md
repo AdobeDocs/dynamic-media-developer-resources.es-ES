@@ -70,7 +70,7 @@ El catálogo de sesiones proporciona los siguientes valores predeterminados de s
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> atributo::TiffEncoding</span> </p> </td> 
-   <td> <p> Tipo de compresión para la salida de imagen del TIFF </p> </td> 
+   <td> <p> Tipo de compresión para la salida de imagen de TIFF </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> atributo::Enfoque</span> </p> </td> 

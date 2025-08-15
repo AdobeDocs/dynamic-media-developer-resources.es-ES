@@ -26,7 +26,7 @@ El *`locale`* se ha especificado en las solicitudes del servicio de imágenes co
 
 ## Ámbito {#section-66fcd5bd467c4eeaa1574583cbe9756d}
 
-Todas las referencias a entradas en los catálogos de imagen, SVG y contenido estático se tienen en cuenta para las fuentes de traducción y las referencias de perfil ICC no se traducen. Además de *`object`* en la ruta de acceso de [!DNL /is/image] y [!DNL /is/static requests], estos comandos y atributos de catálogo están sujetos a la traducción de id.: `src=`, `mask=`, `template=`, `defaultImage=`, `attribute::DefaultImage` y `attribute::Watermark`.
+Todas las referencias a entradas en los catálogos de imágenes, SVG y contenido estático se tienen en cuenta para las fuentes de traducción y las referencias de perfil ICC no se traducen. Además de *`object`* en la ruta de acceso de [!DNL /is/image] y [!DNL /is/static requests], estos comandos y atributos de catálogo están sujetos a la traducción de id.: `src=`, `mask=`, `template=`, `defaultImage=`, `attribute::DefaultImage` y `attribute::Watermark`.
 
 ## Mapa de traducción de ID {#section-9e417b352c314dfe94e831fdd62cddc8}
 

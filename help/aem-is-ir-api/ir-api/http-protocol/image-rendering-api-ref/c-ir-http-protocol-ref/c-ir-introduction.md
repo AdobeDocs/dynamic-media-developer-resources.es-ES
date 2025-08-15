@@ -20,9 +20,9 @@ Solo se describen los aspectos del protocolo que están a disposición del públ
 
 **Audiencia prevista**
 
-Este documento está dirigido a programadores y desarrolladores de sitios web experimentados que deseen utilizar el procesamiento de imágenes de Dynamic Media para un sitio web o una aplicación personalizada.
+Este documento está dirigido a programadores con experiencia y desarrolladores de sitios web que deseen utilizar el procesamiento de imágenes de Dynamic Media para un sitio web o una aplicación personalizada.
 
-Se da por hecho que el lector está familiarizado con la creación y el procesamiento de imágenes de Dynamic Media, las convenciones y los estándares generales del protocolo HTTP y la terminología básica de las imágenes.
+Se da por hecho que el lector está familiarizado con la creación y el procesamiento de imágenes de Dynamic Media, las convenciones y los estándares generales del protocolo HTTP y la terminología básica de imágenes.
 
 **Convenciones de documentos**
 
@@ -95,6 +95,6 @@ Se da por hecho que el lector está familiarizado con la creación y el procesam
 
 **Términos comunes**
 
-**&#x200B; *`MSS`* &#x200B;** segmento de especificación de material: un conjunto de atributos de material entre dos comandos de selección de la solicitud.
+** *`MSS`* ** segmento de especificación de material: un conjunto de atributos de material entre dos comandos de selección de la solicitud.
 
-**&#x200B; *`vignette`* &#x200B;** Una imagen preparada en Dynamic Media Image Authoring para usarla con Image Rendering.
+** *`vignette`* ** Una imagen preparada en la creación de imágenes de Dynamic Media para su uso con el procesamiento de imágenes.

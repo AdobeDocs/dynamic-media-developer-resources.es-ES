@@ -1,6 +1,6 @@
 ---
-title: Requisitos del sistema para visores Dynamic Media HTML5
-description: Requisitos del sistema para visores Dynamic Media HTML5.
+title: Requisitos del sistema para visores de Dynamic Media HTML5
+description: Requisitos del sistema para visores de Dynamic Media HTML5.
 solution: Experience Manager
 contentOwner: Rick Brough
 feature: Dynamic Media Classic,Viewers,SDK/API
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# Requisitos del sistema para visores Dynamic Media HTML5{#system-requirements}
+# Requisitos del sistema para visores de Dynamic Media HTML5{#system-requirements}
 
-Requisitos del sistema para visores Dynamic Media HTML5.
+Requisitos del sistema para visores de Dynamic Media HTML5.
 
 <!-- Updated March 03, 2022 Contact is now Deepa Gupta -->
 
@@ -26,7 +26,7 @@ Requisitos del sistema para visores Dynamic Media HTML5.
 <!-- Updated March 03, 2022 Contact is now Deepa Gupta -->
 
 * Adobe Dynamic Media Image Serving 6.7.1 o posterior.
-* Los visores de HTML5 requieren bibliotecas 3.11.5 o posteriores del lado del servidor de SDK JavaScript.
+* Los visores HTML5 requieren bibliotecas del lado del servidor 3.11.5 o posterior de SDK JavaScript.
 * Las funciones sociales de *Enviar correo electrónico a un amigo* requieren s7ondemand 5.0.9 o posterior.
 * Visor de catálogos electrónicos - La compatibilidad con [Panel de información emergente](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) requiere el servidor de información 2.1.8 o posterior.
 * Los componentes de funciones de búsqueda requieren s7search 2.3.0 o posterior.
@@ -78,7 +78,7 @@ Requisitos del sistema para visores Dynamic Media HTML5.
 
 <!-- CQDOC-19433 -->
 
-A partir del 30 de septiembre de 2022, los visores de Dynamic Media de Adobe dejarán de ofrecer asistencia para lo siguiente:
+A partir del 30 de septiembre de 2022, los visualizadores de Dynamic Media de Adobe dejarán de ofrecer asistencia para lo siguiente:
 
 * TLS (Transport Layer Security) 1.0 y 1.1
 * Los siguientes cifrados débiles en TLS 1.2:
@@ -101,7 +101,7 @@ A partir del 30 de septiembre de 2022, los visores de Dynamic Media de Adobe dej
 
 <!-- CQDOC-19433 -->
 
-Adobe Los visores de Dynamic Media no admiten las siguientes combinaciones de explorador web y sistema operativo:
+Los visores de Dynamic Media de Adobe no admiten las siguientes combinaciones de explorador web y sistema operativo:
 
 * Internet Explorer 11 + Windows 7
 * Internet Explorer 11 + Windows 8.1

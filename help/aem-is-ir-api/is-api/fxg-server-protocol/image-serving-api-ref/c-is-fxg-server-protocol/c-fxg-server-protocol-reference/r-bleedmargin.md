@@ -1,5 +1,5 @@
 ---
-description: Establecer margen de sangrado. Establece el margen de sangrado que se establece en el archivo de PDF.
+description: Establecer margen de sangrado. Establece el margen de sangrado que se establece en el archivo PDF.
 solution: Experience Manager
 title: margen de sangrado
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # margen de sangrado{#bleedmargin}
 
-Establecer margen de sangrado. Establece el margen de sangrado que se establece en el archivo de PDF.
+Establecer margen de sangrado. Establece el margen de sangrado que se establece en el archivo PDF.
 
 `bleedMargin=[ *[!DNL top]*[, *[!DNL left]*= *[!DNL top]*[, *[!DNL bottom]*= *[!DNL top]*[, *[!DNL right]*= *[!DNL left]*]]]]` en puntos
 

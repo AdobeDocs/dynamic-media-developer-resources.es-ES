@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Si se establece `attribute::UseLastModified`, el valor `catalog::TimeStamp` se devuelve en la respuesta HTTP como un encabezado HTTP de última modificación. El encabezado Última modificación siempre se devuelve para el contenido estático, aunque no se haya establecido `attribute::UseLastModified`.
 
-Para el contenido de imágenes y SVG, `catalog::TimeStamp` también se usa para la validación de caché basada en catálogos (vea [attribute::CacheValidationPolicy](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-cachevalidationpolicy.md).
+Para el contenido de imagen y SVG, `catalog::TimeStamp` también se usa para la validación de caché basada en catálogo (consulte [attribute::CacheValidationPolicy](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-cachevalidationpolicy.md).
 
 ## Propiedades {#section-2298a384b5cb43929542655c5a49beb2}
 

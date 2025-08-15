@@ -1,6 +1,6 @@
 ---
 title: Puntos interactivos y mapas de imagen
-description: El visor muestra los iconos de puntos interactivos en la vista principal en lugares donde los puntos interactivos se crearon originalmente en Dynamic Media de AEM Assets bajo demanda.
+description: El visor muestra los iconos de puntos interactivos en la vista principal en lugares donde los puntos interactivos se crearon originalmente en Dynamic Media of AEM Assets (bajo demanda).
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Puntos interactivos y mapas de imagen{#hotspots-and-image-maps}
 
-El visor muestra los iconos de puntos interactivos en la vista principal en lugares donde los puntos interactivos se crearon originalmente en Dynamic Media de AEM Assets bajo demanda.
+El visor muestra los iconos de puntos interactivos en la vista principal en lugares donde los puntos interactivos se crearon originalmente en Dynamic Media of AEM Assets (bajo demanda).
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -92,7 +92,7 @@ El aspecto del área del mapa de imagen se controla con el siguiente selector de
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> borde </span> </p> </td> 
-   <td colname="col2"> <p> Estilo de borde de región de mapa de imagen. Debe especificarse como " <span class="codeph"> anchura </span> <span class="codeph"> color sólido </span>", donde <span class="codeph"> anchura </span> se expresa en píxeles, y <span class="codeph"> color </span> se establece como <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span>, o <span class="codeph"> RGBA(R,G,B,A) </span>. </p> </td> 
+   <td colname="col2"> <p> Estilo de borde de región de mapa de imagen. Debe especificarse como " <span class="codeph"> anchura </span> <span class="codeph"> color sólido </span>", donde <span class="codeph"> anchura </span> se expresa en píxeles, y <span class="codeph"> color </span> se establece como <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> o <span class="codeph"> RGBA(R,G,B,A) </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

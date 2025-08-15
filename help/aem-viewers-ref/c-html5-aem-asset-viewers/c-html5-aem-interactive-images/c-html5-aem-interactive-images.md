@@ -24,7 +24,7 @@ Tipo de visor 508.
 
 ## URL de demostración {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
 
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage.html?lang=es](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage.html?lang=es)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage.html)
 
 ## Requisitos del sistema {#section-b7270cc4290043399681dc504f043609}
 
@@ -32,7 +32,7 @@ Consulte [Requisitos del sistema](../../c-system-requirements-and-prerequisites.
 
 ## Uso del visualizador de imágenes interactivo {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-El visualizador de imágenes interactivo representa un archivo JavaScript principal y un conjunto de archivos de ayuda (una sola inclusión JavaScript con todos los componentes SDK del visualizador utilizados por este visualizador, los recursos y el CSS) descargados por el visualizador en tiempo de ejecución.
+El visualizador de imágenes interactivo representa un archivo de JavaScript principal y un conjunto de archivos de ayuda (una sola inclusión de JavaScript con todos los componentes de SDK del visualizador, los recursos y el CSS) descargados por el visualizador en tiempo de ejecución.
 
 El visualizador de imágenes interactivo solo se puede utilizar en modo incrustado, donde se integra en la página web de destino mediante la API documentada.
 
@@ -79,7 +79,7 @@ Para agregar el visor a una página web, haga lo siguiente:
 
 1. Añadir el archivo de JavaScript del visor a la página web.
 
-   La creación de un visor requiere que añada una etiqueta de script en el encabezado del HTML. Antes de usar la API de visor, asegúrese de incluir [!DNL InterativeImage.js]. El archivo [!DNL InteractiveImage.js] se encuentra en la subcarpeta [!DNL html5/js/] de su implementación estándar de visores IS:
+   La creación de un visor requiere que añada una etiqueta de script en el encabezado de HTML. Antes de usar la API de visor, asegúrese de incluir [!DNL InterativeImage.js]. El archivo [!DNL InteractiveImage.js] se encuentra en la subcarpeta [!DNL html5/js/] de su implementación estándar de visores IS:
 
 [!DNL <s7viewers_root>/etc/dam/viewers/s7viewers/html5/js/InteractiveImage.js]
 
@@ -93,7 +93,7 @@ La ruta relativa tiene el siguiente aspecto:
 
 >[!NOTE]
 >
->Solo haga referencia al archivo de JavaScript `include` del visor principal en su página. No haga referencia a ningún archivo JavaScript adicional en el código de la página web que la lógica del visor pueda descargar durante la ejecución. En particular, no haga referencia directamente a la biblioteca `Utils.js` del SDK de HTML5 cargada por el visor desde la ruta de contexto `/s7viewers` (denominado SDK consolidado `include`). El motivo es que la ubicación de `Utils.js` o bibliotecas similares del visor en tiempo de ejecución está completamente administrada por la lógica del visor y la ubicación cambia entre versiones del visor. El Adobe no mantiene versiones anteriores del visor secundario `includes` en el servidor.
+>Solo haga referencia al archivo de JavaScript `include` del visor principal en su página. No haga referencia a ningún archivo JavaScript adicional en el código de la página web que la lógica del visor pueda descargar durante la ejecución. En particular, no haga referencia directamente a la biblioteca HTML5 SDK `Utils.js` cargada por el visor desde la ruta de contexto `/s7viewers` (denominada SDK consolidado `include`). El motivo es que la ubicación de `Utils.js` o bibliotecas similares del visor en tiempo de ejecución está completamente administrada por la lógica del visor y la ubicación cambia entre versiones del visor. Adobe no mantiene versiones anteriores del visor secundario `includes` en el servidor.
 >
 >
 >Como resultado, al establecer una referencia directa a cualquier JavaScript `include` secundario que use el visor en la página, se interrumpe la funcionalidad del visor en el futuro cuando se implemente una nueva versión del producto.
@@ -114,11 +114,11 @@ La ruta relativa tiene el siguiente aspecto:
 
    Puede establecer el tamaño estático del visor declarándolo para la clase CSS de nivel superior `.s7interactiveimage` en unidades absolutas o utilizando el modificador `stagesize`.
 
-   Puede poner el tamaño en CSS directamente en la página del HTML. O bien, puede colocar el tamaño en un archivo CSS de visor personalizado, que luego se asigna a un registro de ajuste preestablecido de visor en Adobe Experience Manager Assets - Bajo demanda, o se pasa explícitamente mediante el comando `style`.
+   Puede poner el tamaño en CSS directamente en la página de HTML. O bien, puede colocar el tamaño en un archivo CSS de visor personalizado, que luego se asigna a un registro de ajuste preestablecido de visor en Adobe Experience Manager Assets - Bajo demanda, o se pasa explícitamente mediante el comando `style`.
 
    Consulte [Vídeo](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) para obtener más información sobre cómo aplicar estilo al visor con CSS.
 
-   A continuación se muestra un ejemplo de definición de un tamaño de visor estático en la página del HTML:
+   A continuación se muestra un ejemplo de definición de un tamaño de visor estático en la página de HTML:
 
    ```html {.line-numbers}
    #s7viewer.s7interactiveimage { 
@@ -188,7 +188,7 @@ La ruta relativa tiene el siguiente aspecto:
 
 **Inserción de diseño interactivo con altura sin restricciones**
 
-Con incrustación de diseño interactivo, la página web normalmente tiene algún tipo de diseño flexible que dicta el tamaño de tiempo de ejecución del contenedor del visor `DIV`. En el siguiente ejemplo, supongamos que la página web permite que el contenedor del visor `DIV` ocupe el 40% del tamaño de la ventana del explorador web. Y, su altura se deja sin restricciones. El código del HTML de la página web tendría el siguiente aspecto:
+Con incrustación de diseño interactivo, la página web normalmente tiene algún tipo de diseño flexible que dicta el tamaño de tiempo de ejecución del contenedor del visor `DIV`. En el siguiente ejemplo, supongamos que la página web permite que el contenedor del visor `DIV` ocupe el 40% del tamaño de la ventana del explorador web. Y, su altura se deja sin restricciones. El código HTML de la página web tendría el siguiente aspecto:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -244,7 +244,7 @@ var interactiveImage = new s7viewers.InteractiveImage({
 
 La siguiente página de ejemplos ilustra usos más reales del diseño interactivo incrustado con una altura sin restricciones:
 
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage-responsive-unrestricted-height.html?lang=es](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage-responsive-unrestricted-height.html?lang=es)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage-responsive-unrestricted-height.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage-responsive-unrestricted-height.html)
 
 **Incrustación de tamaño flexible con anchura y altura definidas**
 

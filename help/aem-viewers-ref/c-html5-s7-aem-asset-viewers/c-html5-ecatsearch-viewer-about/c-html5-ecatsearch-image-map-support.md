@@ -42,7 +42,7 @@ Finalmente, asegúrese de que la configuración del visor incluye los valores ap
 
 >[!NOTE]
 >
->Tenga en cuenta que, al configurar el menú emergente del Panel de información, el código del HTML y el código de JavaScript que se pasan al Panel de información se ejecutan en el equipo del cliente. Por lo tanto, asegúrese de que dicho código de HTML y código de JavaScript sean seguros.
+>Tenga en cuenta que, al configurar la ventana emergente del Panel de información, el código HTML y el código JavaScript que se pasan al Panel de información se ejecutan en el equipo del cliente. Por lo tanto, asegúrese de que dicho código de HTML y código de JavaScript sean seguros.
 
 ## Hipervínculos internos {#section-6afa4fb2fe564c429e0201f019a95849}
 

@@ -29,7 +29,7 @@ Basado en un rango de matices de 360 grados.
 
 ## Propiedades {#section-55779644700b4c808a624cdf5a04447e}
 
-Capa, comando. Se aplica a la capa actual o a la imagen compuesta si `layer=comp`. Ignorado por las capas de efecto. Las imágenes o capas CMYK se convierten en RGB antes de que se aplique la operación.
+Capa, comando. Se aplica a la capa actual o a la imagen compuesta si `layer=comp`. Ignorado por las capas de efecto. Las imágenes o capas CMYK se convierten a RGB antes de que se aplique la operación.
 
 ## Predeterminado {#section-7314580251f5456fa1f381ec9e99e0bb}
 

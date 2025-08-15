@@ -18,7 +18,7 @@ Configuración general del servidor
 
 ## TC::PsPort: puerto de escucha principal {#section-d31d3051aa994a76b60b70c3d9f7e89f}
 
-Especifica el puerto de escucha principal de [!DNL Platform Server]. Este puerto también se utiliza para acceder a la documentación y a las páginas de ejemplo del servicio de imágenes, el procesamiento de imágenes y los visores de Dynamic Media (si están instalados).
+Especifica el puerto de escucha principal de [!DNL Platform Server]. Este puerto también se utiliza para acceder a la documentación y a las páginas de ejemplo del servicio de imágenes, el procesamiento de imágenes y los visualizadores de Dynamic Media (si están instalados).
 
 ## IS::CacheServerUrl: URL raíz del servicio de almacenamiento en caché {#section-bcca227a1f91453b834db4ea050968e2}
 

@@ -1,5 +1,5 @@
 ---
-description: Color de fondo predeterminado para las miniaturas. Valor de RGB utilizado para rellenar el área de una imagen en miniatura de salida que no contiene datos de imagen reales.
+description: Color de fondo predeterminado para las miniaturas. Valor de RGB que se utiliza para rellenar el área de una imagen en miniatura de salida que no contiene datos de imagen reales.
 solution: Experience Manager
 title: ThumbBkgColor
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # ThumbBkgColor{#thumbbkgcolor}
 
-Color de fondo predeterminado para las miniaturas. Valor de RGB utilizado para rellenar el área de una imagen en miniatura de salida que no contiene datos de imagen reales.
+Color de fondo predeterminado para las miniaturas. Valor de RGB que se utiliza para rellenar el área de una imagen en miniatura de salida que no contiene datos de imagen reales.
 
 Solo se usa para solicitudes de miniaturas (`req=tmb`) y cuando `catalog::ThumbType` está establecido en 2 o 3.
 

@@ -1,6 +1,6 @@
 ---
 title: Sintaxis y características del protocolo HTTP
-description: En esta sección se describe la sintaxis y la función del protocolo HTTP para Dynamic Media Image Rendering.
+description: En esta sección se describe la sintaxis y la función del protocolo HTTP para el procesamiento de imágenes de Dynamic Media.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Sintaxis y características del protocolo HTTP{#http-protocol-syntax-and-features}
 
-En esta sección se describe la sintaxis y la función del protocolo HTTP para Dynamic Media Image Rendering.
+En esta sección se describe la sintaxis y la función del protocolo HTTP para el procesamiento de imágenes de Dynamic Media.
 
 * [Sintaxis básica del protocolo HTTP de procesamiento de imágenes](r-ir-basic-syntax.md)
 * [Información general sobre el comando del protocolo HTTP Image Rendering](c-ir-command-overview/c-ir-command-overview.md)

@@ -62,7 +62,7 @@ Cuando se utilizan archivos PTIFF, las siguientes reglas pueden ayudarle a deter
 *`total_space`* (bytes) = *`number_of_images`* × (2000 + *`avg_pixel_count`* x *`avg_num_components`* × *`p_factor`*)
 
 * *`avg_pixel_count`* El tamaño promedio de píxel (ancho x alto) de todas las imágenes de origen originales. Por ejemplo, si las imágenes originales suelen tener alrededor de 2k × 2k píxeles, esto sería de 4 megapíxeles.
-* *`avg_num_components`* depende del tipo de imágenes. Para imágenes mayoritariamente RGB, es 3; para imágenes CMYK o RGBA, es 4. Utilice 3,5 si la mitad de las imágenes son RGB y la otra mitad es RGBA.
+* *`avg_num_components`* depende del tipo de imágenes. Para la mayoría de las imágenes de RGB, es 3; para la mayoría de las imágenes CMYK o RGBA, es 4. Utilice 3.5 si la mitad de las imágenes son RGB y la otra mitad es RGBA.
 * *`p_factor`* Depende del tipo de compresión y de la calidad establecida cuando las imágenes se convierten con IC.
 
 <table id="table_89995BECF30243569954819D07DA2A2F"> 
@@ -82,7 +82,7 @@ Cuando se utilizan archivos PTIFF, las siguientes reglas pueden ayudarle a deter
    <td> <p> 25-0,75, según la imagen </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Compresión de JPEG </p> </td> 
+   <td> <p>Compresión JPEG </p> </td> 
    <td> <p> 1 (típico de calidad JPEG 95) </p> </td> 
   </tr> 
  </tbody> 
@@ -94,7 +94,7 @@ Cuando se utilizan archivos PTIFF, las siguientes reglas pueden ayudarle a deter
 
 **Ejemplo**
 
-Una implementación del servicio de imágenes espera utilizar 30 000 imágenes heredadas de baja resolución, con un tamaño medio de 500 × 500 píxeles de RGB. Se añaden nuevos datos de calidad de impresión a razón de 10.000 al año. El tamaño de imagen CMYK típico es de 4 k × 6 k bytes. Todos los datos tienen una compresión JPEG de alta calidad. La cantidad total de espacio en disco después de tres años de uso se estima de la siguiente manera:
+Una implementación del servicio de imágenes espera utilizar 30 000 imágenes heredadas de baja resolución, con un tamaño medio de 500 × 500 píxeles de RGB. Se añaden nuevos datos de calidad de impresión a razón de 10.000 al año. El tamaño de imagen CMYK típico es de 4 k × 6 k bytes. Todos los datos están comprimidos por JPEG con alta calidad. La cantidad total de espacio en disco después de tres años de uso se estima de la siguiente manera:
 
 *`total_space`* = 30 000 × (2k + 0,5k × 0,5k × 3 × 0,1) + 3 × 10 000 × (2k + 4k × 6k × 4 × 0,1) = 2,2 G + 268 GB = aproximadamente 270 GB
 

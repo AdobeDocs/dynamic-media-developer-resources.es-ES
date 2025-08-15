@@ -27,7 +27,7 @@ Los temas de esta sección describen la sintaxis y las características de los p
 * [Catálogos de imágenes](r-image-catalogs.md)
 * [Traducción de ID de objeto](r-object-id-translation.md)
 * [Localización de cadenas de texto](r-text-string-localization.md)
-* [soporte de SVG](r-svg-support.md)
+* [Compatibilidad con SVG](r-svg-support.md)
 * [Solicitar preprocesamiento](r-request-preprocessing.md)
 * [Mapas de imagen](r-image-maps.md)
 * [Administración de color del servicio de imágenes](r-color-management.md)

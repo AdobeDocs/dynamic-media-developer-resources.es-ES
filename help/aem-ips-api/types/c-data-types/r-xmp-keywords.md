@@ -32,7 +32,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> elementos</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>XMP Lista de palabras clave separadas por comas que se combinan en el nodo de propiedades <span class="codeph"> dc:subject=</span> de la propiedad de la propiedad de la propiedad de la propiedad de la propiedad de la aplicación. Si aparece una coma en cualquiera de los valores individuales, debe especificarse una barra invertida (\) como carácter de escape. Una barra invertida literal es la barra invertida doble habitual (\\). </p> </td> 
+   <td colname="col3"> <p>Lista de palabras clave separadas por comas que se combinan en el nodo de propiedades de XMP <span class="codeph"> dc:subject=</span>. Si aparece una coma en cualquiera de los valores individuales, debe especificarse una barra invertida (\) como carácter de escape. Una barra invertida literal es la barra invertida doble habitual (\\). </p> </td> 
   </tr> 
  </tbody> 
 </table>

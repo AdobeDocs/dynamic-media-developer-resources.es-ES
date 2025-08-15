@@ -1,6 +1,6 @@
 ---
 title: RipPdfsJob
-description: Proceso que recupera un recurso de PDF existente.
+description: Proceso que reabsorbe un recurso de PDF existente.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # [!DNL RipPdfsJob]{#rippdfsjob}
 
-Proceso que recupera un recurso de PDF existente.
+Proceso que reabsorbe un recurso de PDF existente.
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ Proceso que recupera un recurso de PDF existente.
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> pdfHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipos:HandleArray</span> </p> </td> 
-   <td colname="col3"> <p>Gestionar en la matriz de archivos de PDF que se van a copiar. </p> </td> 
+   <td colname="col3"> <p>Gestionar en la matriz de archivos PDF que se van a copiar. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> createMask</span> </span> </p> </td> 

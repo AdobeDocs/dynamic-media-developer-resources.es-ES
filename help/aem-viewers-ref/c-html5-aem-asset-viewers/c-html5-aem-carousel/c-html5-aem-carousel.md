@@ -24,7 +24,7 @@ Tipo de visor 511.
 
 ## URL de demostración {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
 
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html?lang=es](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html?lang=es)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html)
 
 ## Requisitos del sistema {#section-b7270cc4290043399681dc504f043609}
 
@@ -32,9 +32,9 @@ Consulte [Requisitos del sistema](../../c-system-requirements-and-prerequisites.
 
 ## Uso del Visor de carrusel {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-Visor de carrusel representa un archivo JavaScript principal y un conjunto de archivos de ayuda (una sola inclusión JavaScript con todos los componentes SDK del visor utilizados por este visor, recursos y CSS) descargados por el visor en tiempo de ejecución.
+Visor de carrusel representa un archivo JavaScript principal y un conjunto de archivos de ayuda (una sola inclusión JavaScript con todos los componentes SDK de visor utilizados por este visor, recursos y CSS en particular) descargados por el visor en tiempo de ejecución.
 
-El Visor de carrusel se puede utilizar en modo emergente utilizando una página de HTML lista para la producción proporcionada con visores IS o en modo incrustado donde se integra en la página web de destino mediante una API documentada.
+El visualizador de carrusel se puede utilizar en el modo emergente utilizando una página de HTML lista para la producción proporcionada con visores IS o en el modo incrustado donde se integra en la página web de destino mediante una API documentada.
 
 La configuración y el aspecto son similares a los de los otros visores descritos en esta Ayuda. Todo el desollado se logra mediante CSS personalizado.
 
@@ -58,7 +58,7 @@ Consulte [Navegación y accesibilidad por teclado](../../c-keyboard-accessibilit
 
 En el modo emergente, el visor se abre en una ventana o pestaña independiente del explorador web. Ocupa todo el área de la ventana del explorador y se ajusta en caso de que cambie el tamaño del explorador o la orientación de un dispositivo móvil.
 
-El modo emergente es el más común en dispositivos móviles. La página web carga el visor mediante la llamada de JavaScript `window.open()`, el elemento de HTML `A` configurado correctamente o cualquier otro método adecuado.
+El modo emergente es el más común en dispositivos móviles. La página web carga el visor mediante la llamada de JavaScript `window.open()`, el elemento HTML `A` configurado correctamente o cualquier otro método adecuado.
 
 Se recomienda utilizar una página de HTML predeterminada para el modo de operación emergente. En este caso, se llama `CarouselViewer.html` y se encuentra dentro de la subcarpeta `html5/` de su implementación estándar de IS-Viewers:
 
@@ -66,7 +66,7 @@ Se recomienda utilizar una página de HTML predeterminada para el modo de operac
 
 Puede conseguir una personalización visual aplicando CSS personalizado.
 
-A continuación se muestra un ejemplo de código de HTML que abre el visor en una nueva ventana:
+A continuación se muestra un ejemplo de código HTML que abre el visor en una nueva ventana:
 
 ```html {.line-numbers}
 <a href="https://demos-pub.assetsadobe.com/etc/dam/viewers/s7viewers/html5/CarouselViewer.html?asset=/content/dam/dm-public-facing-live-demo-page/04_shoppable_carousel/05_shoppable_banner&serverurl=https://adobedemo62-h.assetsadobe.com/is/image" target="_blank">Open popup viewer</a>
@@ -97,7 +97,7 @@ Para agregar el visor a una página web, haga lo siguiente:
 
 1. Añadir el archivo de JavaScript del visor a la página web.
 
-   La creación de un visor requiere que añada una etiqueta de script en el encabezado del HTML. Antes de usar la API de visor, asegúrese de incluir [!DNL CarouselViewer.js]. El archivo [!DNL CarouselViewer.js] se encuentra en la subcarpeta [!DNL html5/js/] de su implementación estándar de visores IS:
+   La creación de un visor requiere que añada una etiqueta de script en el encabezado de HTML. Antes de usar la API de visor, asegúrese de incluir [!DNL CarouselViewer.js]. El archivo [!DNL CarouselViewer.js] se encuentra en la subcarpeta [!DNL html5/js/] de su implementación estándar de visores IS:
 
 [!DNL <s7viewers_root>/etc/dam/viewers/s7viewers/html5/js/CarouselViewer.js]
 
@@ -111,7 +111,7 @@ La ruta relativa tiene el siguiente aspecto:
 
 >[!NOTE]
 >
->Solo haga referencia al archivo de JavaScript `include` del visor principal en su página. No haga referencia a ningún archivo JavaScript adicional en el código de la página web que la lógica del visor pueda descargar durante la ejecución. En particular, no haga referencia directamente a la biblioteca `Utils.js` del SDK de HTML5 cargada por el visor desde la ruta de contexto `/s7viewers` (denominado SDK consolidado `include`). El motivo es que la ubicación de `Utils.js` o bibliotecas similares del visor en tiempo de ejecución está completamente administrada por la lógica del visor y la ubicación cambia entre versiones del visor. El Adobe no mantiene versiones anteriores del visor secundario `includes` en el servidor.
+>Solo haga referencia al archivo de JavaScript `include` del visor principal en su página. No haga referencia a ningún archivo JavaScript adicional en el código de la página web que la lógica del visor pueda descargar durante la ejecución. En particular, no haga referencia directamente a la biblioteca HTML5 SDK `Utils.js` cargada por el visor desde la ruta de contexto `/s7viewers` (denominada SDK consolidado `include`). El motivo es que la ubicación de `Utils.js` o bibliotecas similares del visor en tiempo de ejecución está completamente administrada por la lógica del visor y la ubicación cambia entre versiones del visor. Adobe no mantiene versiones anteriores del visor secundario `includes` en el servidor.
 >
 >
 >Como resultado, al establecer una referencia directa a cualquier JavaScript `include` secundario que use el visor en la página, se interrumpe la funcionalidad del visor en el futuro cuando se implemente una nueva versión del producto.
@@ -132,11 +132,11 @@ La ruta relativa tiene el siguiente aspecto:
 
    Puede establecer el tamaño estático del visor declarándolo para la clase CSS de nivel superior `.s7carouselviewer` en unidades absolutas o utilizando el modificador `stagesize`.
 
-   Puede poner el tamaño en CSS directamente en la página del HTML. O bien, puede colocar el tamaño en un archivo CSS de visor personalizado, que luego se asigna a un registro de ajuste preestablecido de visor en AEM Assets - Bajo demanda, o se pasa explícitamente mediante el comando `style`.
+   Puede poner el tamaño en CSS directamente en la página de HTML. O bien, puede colocar el tamaño en un archivo CSS de visor personalizado, que luego se asigna a un registro de ajuste preestablecido de visor en AEM Assets bajo demanda o se pasa explícitamente mediante el comando `style`.
 
    Consulte [Personalización del visor de carrusel](../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) para obtener más información sobre cómo aplicar estilo al visor con CSS.
 
-   A continuación se muestra un ejemplo de definición de un tamaño de visor estático en la página del HTML:
+   A continuación se muestra un ejemplo de definición de un tamaño de visor estático en la página de HTML:
 
    ```CSS {.line-numbers}
    #s7viewer.s7carouselviewer { 
@@ -206,7 +206,7 @@ La ruta relativa tiene el siguiente aspecto:
 
 **Inserción de diseño interactivo con altura sin restricciones**
 
-Con incrustación de diseño interactivo, la página web normalmente tiene algún tipo de diseño flexible que dicta el tamaño de tiempo de ejecución del contenedor del visor `DIV`. En el siguiente ejemplo, supongamos que la página web permite que el contenedor del visor `DIV` ocupe el 40% del tamaño de la ventana del explorador web. Y, su altura se deja sin restricciones. El código del HTML de la página web tendría el siguiente aspecto:
+Con incrustación de diseño interactivo, la página web normalmente tiene algún tipo de diseño flexible que dicta el tamaño de tiempo de ejecución del contenedor del visor `DIV`. En el siguiente ejemplo, supongamos que la página web permite que el contenedor del visor `DIV` ocupe el 40% del tamaño de la ventana del explorador web. Y, su altura se deja sin restricciones. El código HTML de la página web tendría el siguiente aspecto:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -262,7 +262,7 @@ var carouselViewer = new s7viewers.CarouselViewer({
 
 La siguiente página de ejemplos ilustra usos más reales del diseño interactivo incrustado con una altura sin restricciones:
 
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html?lang=es](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html?lang=es)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html)
 
 **Incrustación de tamaño flexible con anchura y altura definidas**
 

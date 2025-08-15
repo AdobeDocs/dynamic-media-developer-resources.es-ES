@@ -26,7 +26,7 @@ Los eventos de visor admitidos son los siguientes:
 
    * `objID {String}` no se usa actualmente.
    * `compClass {String}` no se usa actualmente.
-   * `instName {String}` un nombre de instancia del componente SDK de visor que activó el evento.
+   * `instName {String}` un nombre de instancia del componente de visor de SDK que activó el evento.
    * `timeStamp {Number}` marca de tiempo del evento.
    * `eventInfo {String}` carga útil de evento.
 

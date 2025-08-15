@@ -1,6 +1,6 @@
 ---
 title: Sintaxis básica del protocolo HTTP de procesamiento de imágenes
-description: En esta sección se describe la sintaxis básica del protocolo HTTP del procesamiento de imágenes de Dynamic Media.
+description: En esta sección se describe la sintaxis básica del protocolo HTTP de procesamiento de imágenes de Dynamic Media.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Sintaxis básica del protocolo HTTP de procesamiento de imágenes{#image-rendering-http-protocol-basic-syntax}
 
-En esta sección se describe la sintaxis básica del protocolo HTTP del procesamiento de imágenes de Dynamic Media.
+En esta sección se describe la sintaxis básica del protocolo HTTP de procesamiento de imágenes de Dynamic Media.
 
 <table id="table_0A7D7207EE6D4B08B62BE8620EBE0B25"> 
  <thead> 

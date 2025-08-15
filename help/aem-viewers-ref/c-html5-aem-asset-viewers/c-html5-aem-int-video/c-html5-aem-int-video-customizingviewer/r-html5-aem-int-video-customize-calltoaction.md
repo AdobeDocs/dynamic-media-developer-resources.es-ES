@@ -1,6 +1,6 @@
 ---
 title: Llamada a acción
-description: El panel Llamada a la acción aparece cuando finaliza el vídeo y muestra todas las muestras interactivas asociadas con el vídeo en cuestión.
+description: El panel Call to action aparece cuando termina el vídeo y muestra todas las muestras interactivas asociadas con el vídeo en cuestión.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,36 +14,36 @@ ht-degree: 1%
 
 # Llamada a acción{#call-to-action}
 
-El panel Llamada a la acción aparece cuando finaliza el vídeo y muestra todas las muestras interactivas asociadas con el vídeo en cuestión.
+El panel Call to action aparece cuando termina el vídeo y muestra todas las muestras interactivas asociadas con el vídeo en cuestión.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 El panel consta de un área de encabezado que muestra el título del vídeo, un botón de reproducción en la esquina superior derecha y muestras interactivas reales que se muestran como una cuadrícula desplazable. Puede deshabilitar el panel con el atributo de configuración [callToActionRecap](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-calltoactionrecap.md#reference-3720b68800684ddabf523e9d81644ce6).
 
-El panel Llamada a la acción siempre ocupa toda el área de visor disponible.
+El panel call to action siempre ocupa toda el área de visor disponible.
 
 <!--<a id="section_3A619BE925C04AFA87A6B7846C5C7E2B"></a>-->
 
-El siguiente selector de clase CSS controla el aspecto del color de fondo en el panel de llamada a la acción:
+El siguiente selector de clase CSS controla el aspecto del color de fondo en el panel call to action:
 
 ```
 .s7interactivevideoviewer .s7calltoaction
 ```
 
-## Propiedades CSS del color de fondo del panel de llamada a la acción {#css-properties-of-the-background-color-of-the-call-to-action-panel}
+## Propiedades CSS del color de fondo del panel call to action {#css-properties-of-the-background-color-of-the-call-to-action-panel}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color de fondo </span> </p> </td> 
-   <td colname="col2"> <p> Color de fondo del panel de llamada a la acción. </p> </td> 
+   <td colname="col2"> <p> Color de fondo del panel call to action. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Ejemplo {#example}
 
-Para configurar un panel de llamada a la acción con fondo gris oscuro:
+Para configurar un panel de call to action con fondo gris oscuro:
 
 ```
 .s7interactivevideoviewer .s7calltoaction { 
@@ -53,13 +53,13 @@ Para configurar un panel de llamada a la acción con fondo gris oscuro:
 
 <!--<a id="section_AD18C770788B49989BEDAA608ECA804C"></a>-->
 
-El siguiente selector de clase CSS controla el aspecto del encabezado en el panel llamada a la acción:
+El siguiente selector de clase CSS controla el aspecto del encabezado en el panel call to action:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7header
 ```
 
-## Propiedades CSS del encabezado del panel de llamada a la acción {#css-properties-of-the-call-to-action-panel-header}
+## Propiedades CSS del encabezado del panel de call to action {#css-properties-of-the-call-to-action-panel-header}
 
 <table id="table_DAA1770AB3074845B5E1B700CD6FC18A"> 
  <tbody> 
@@ -92,13 +92,13 @@ Para configurar un encabezado con una altura de 70 píxeles, con un fondo gris o
 
 <!--<a id="section_B0333FC1A2CC4E089C68D34B839E5156"></a>-->
 
-El siguiente selector de clase CSS controla el aspecto del título del encabezado en el panel llamada a la acción:
+El siguiente selector de clase CSS controla el aspecto del título del encabezado en el panel call to action:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7header .s7title
 ```
 
-## Propiedades CSS del título del encabezado en el panel llamada a la acción:  {#css-properties-of-the-header-title-in-the-call-to-action-panel}
+## Propiedades CSS del título del encabezado en el panel call to action:  {#css-properties-of-the-header-title-in-the-call-to-action-panel}
 
 <table id="table_A5E36A5C4C664346B6DAE9A02B36C3D2"> 
  <tbody> 
@@ -148,13 +148,13 @@ Para configurar un título de vídeo con una altura de línea de 70 píxeles, un
 
 <!--<a id="section_D23A6D4BA0614286A060982B359E3C08"></a>-->
 
-El siguiente selector de clase CSS controla el aspecto del botón cerrar en el panel llamada a la acción:
+El siguiente selector de clase CSS controla el aspecto del botón cerrar en el panel call to action:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7closebutton
 ```
 
-## Propiedades CSS del botón Cerrar en el panel Llamada a la acción: {#css-properties-of-the-close-button-in-the-call-to-action-panel}
+## Propiedades CSS del botón Cerrar en el panel call to action: {#css-properties-of-the-close-button-in-the-call-to-action-panel}
 
 <table id="table_CB0BCBE70DB447BC8D31034A96308924"> 
  <tbody> 
@@ -220,13 +220,13 @@ Para configurar un botón de reproducción de 28 x 28 píxeles. El botón debe c
 
 <!--<a id="section_3975B58E78DE4E81B469372FB8A3A348"></a>-->
 
-El siguiente selector de clase CSS controla el aspecto de la vista de cuadrícula en miniatura en el panel llamada a la acción:
+El siguiente selector de clase CSS controla el aspecto de la vista de cuadrícula en miniatura en el panel call to action:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview
 ```
 
-## Propiedades CSS de la vista de cuadrícula en miniatura del panel llamada a la acción:  {#css-properties-of-the-thumbnail-grid-view-in-the-call-to-action-panel}
+## Propiedades CSS de la vista de cuadrícula en miniatura en el panel call to action:  {#css-properties-of-the-thumbnail-grid-view-in-the-call-to-action-panel}
 
 <table id="table_A0DDD21C84944D48A639F51FCC8DF065"> 
  <tbody> 
@@ -249,13 +249,13 @@ Para configurar un área de miniaturas con un fondo gris oscuro:
 
 <!--<a id="section_D2E5AADFCE0345468DC0D2977E2765D2"></a>-->
 
-El siguiente selector de clase CSS controla el aspecto de la celda de la miniatura en el panel llamada a la acción:
+El siguiente selector de clase CSS controla el aspecto de la celda de la miniatura en el panel call to action:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbcell
 ```
 
-## Propiedades CSS de la celda de la miniatura en el panel llamada a la acción: {#css-properties-of-the-thumbcell-in-the-call-to-action-panel}
+## Propiedades CSS de la celda de la miniatura en el panel call to action: {#css-properties-of-the-thumbcell-in-the-call-to-action-panel}
 
 <table id="table_9CEBEF6FC7024F02840A581AEEF612B4"> 
  <tbody> 
@@ -281,13 +281,13 @@ Para configurar un espaciado horizontal de 24 píxeles y un espaciado vertical d
 
 <!--<a id="section_D06CF9F709A3447F83DC6E1CE7CA58B5"></a>-->
 
-El siguiente selector de clase CSS controla el aspecto de la miniatura en el panel llamada a la acción:
+El siguiente selector de clase CSS controla el aspecto de la miniatura en el panel call to action:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumb
 ```
 
-## Propiedades CSS de la miniatura en el panel llamada a la acción: {#css-properties-of-the-thumbnail-in-the-call-to-action-panel}
+## Propiedades CSS de la miniatura en el panel call to action: {#css-properties-of-the-thumbnail-in-the-call-to-action-panel}
 
 <table id="table_ECD7477F4BE94BA8943210FA8B6B8D01"> 
  <tbody> 
@@ -323,13 +323,13 @@ Para configurar miniaturas de 94 x 100 píxeles:
 
 <!--<a id="section_F1B7E3FA3ABD4D71848586A3B308F9E2"></a>-->
 
-El siguiente selector de clase CSS controla el aspecto de la etiqueta de miniatura en el panel llamada a la acción:
+El siguiente selector de clase CSS controla el aspecto de la etiqueta de miniaturas en el panel call to action:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7label
 ```
 
-## Propiedades CSS de la etiqueta de miniatura en el panel llamada a la acción: {#css-properties-of-the-thumbnail-label-in-the-call-to-action-panel}
+## Propiedades CSS de la etiqueta de miniatura en el panel call to action: {#css-properties-of-the-thumbnail-label-in-the-call-to-action-panel}
 
 <table id="table_E2C9F21EBD9140FD9D20A4BBAD117E2F"> 
  <tbody> 
@@ -367,15 +367,15 @@ Para configurar etiquetas que utilicen un color blanco, alinearse en el centro c
 
 <!--<a id="section_2C011101EB804513B942EFB4CBD38E62"></a>-->
 
-Si hay más miniaturas de las que caben verticalmente en la vista, las miniaturas representan una barra de desplazamiento vertical a la derecha. De forma predeterminada, la llamada al panel de acción procesa una pequeña barra vertical sin botones de desplazamiento y miniatura. Sin embargo, es posible personalizar la barra modificando el visor CSS.
+Si hay más miniaturas de las que caben verticalmente en la vista, las miniaturas representan una barra de desplazamiento vertical a la derecha. De forma predeterminada, el panel call to action representa una pequeña barra vertical sin botones de desplazamiento y miniatura. Sin embargo, es posible personalizar la barra modificando el visor CSS.
 
-El siguiente selector de clase CSS controla el aspecto del área de la barra de desplazamiento en el panel de llamada a la acción:
+El siguiente selector de clase CSS controla el aspecto del área de la barra de desplazamiento en el panel call to action:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar
 ```
 
-## Propiedades CSS del área de la barra de desplazamiento del panel Llamada a la acción: {#css-properties-of-the-scroll-bar-area-in-the-call-to-action-panel}
+## Propiedades CSS del área de la barra de desplazamiento del panel call to action: {#css-properties-of-the-scroll-bar-area-in-the-call-to-action-panel}
 
 <table id="table_6D3A4A68BFDB44259A6E2E632B9195F3"> 
  <tbody> 
@@ -415,7 +415,7 @@ Para configurar una barra de desplazamiento con un ancho de 22 píxeles y sin ma
 
 La pista de la barra de desplazamiento es el área entre los botones de la barra de desplazamiento superior e inferior. El componente establece automáticamente la posición y la altura de la pista.
 
-El siguiente selector de clase CSS controla el aspecto de la pista de la barra de desplazamiento en el panel de llamada a la acción:
+El siguiente selector de clase CSS controla el aspecto de la pista de la barra de desplazamiento en el panel call to action:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar .s7scrolltrack
@@ -457,7 +457,7 @@ El siguiente selector de clase CSS controla el aspecto de la altura de la miniat
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar .s7scrollthumb
 ```
 
-## Propiedades CSS de la altura de la miniatura en el panel llamada a la acción: {#css-properties-of-the-thumb-height-in-the-call-to-action-panel}
+## Propiedades CSS de la altura de la miniatura en el panel call to action: {#css-properties-of-the-thumb-height-in-the-call-to-action-panel}
 
 <table id="table_1F39948FC3924FA4B7F851B65B2D860B"> 
  <tbody> 
@@ -524,9 +524,9 @@ El siguiente selector de clase CSS controla el aspecto de los botones de desplaz
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar .s7scrolldownbutton
 ```
 
-No es posible colocar botones de desplazamiento mediante las propiedades CSS top, left, bottom o right; la lógica del visor los coloca automáticamente. El panel de llamada a la acción del visor de vídeo interactivo no utiliza estos botones en la barra de desplazamiento, por lo que su tamaño se establece en 0 píxeles en la CSS predeterminada.
+No es posible colocar botones de desplazamiento mediante las propiedades CSS top, left, bottom o right; la lógica del visor los coloca automáticamente. El panel call to action del visor de vídeo interactivo no utiliza estos botones en la barra de desplazamiento, por lo que su tamaño se establece en 0 píxeles en la CSS predeterminada.
 
-## Propiedades CSS de los botones de desplazamiento superior e inferior del panel de llamada a la acción:  {#css-properties-of-the-top-and-bottom-scroll-buttons-in-the-call-to-action-panel}
+## Propiedades CSS de los botones de desplazamiento superior e inferior del panel call to action:  {#css-properties-of-the-top-and-bottom-scroll-buttons-in-the-call-to-action-panel}
 
 <table id="table_FE17D19E0545424EADB0256524361359"> 
  <tbody> 

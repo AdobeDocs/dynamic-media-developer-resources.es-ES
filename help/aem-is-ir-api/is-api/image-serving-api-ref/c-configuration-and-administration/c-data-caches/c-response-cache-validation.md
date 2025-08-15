@@ -26,6 +26,6 @@ Las entradas de caché dejan de ser válidas y están sujetas a regeneración cu
 
 >[!NOTE]
 >
->Las imágenes del TIFF piramidal de Dynamic Media (PTIFF) mantienen la fecha del archivo internamente en el encabezado del archivo con fines de validación. El tiempo de modificación del archivo mantenido por el sistema de archivos se utiliza para comprobar si ha cambiado un archivo que no es PTIFF.
+>Las imágenes de TIFF piramidal de Dynamic Media (PTIFF) mantienen la fecha del archivo internamente en el encabezado del archivo con fines de validación. El tiempo de modificación del archivo mantenido por el sistema de archivos se utiliza para comprobar si ha cambiado un archivo que no es PTIFF.
 
 Solo los archivos de imagen participan en el proceso de validación de caché. Los cambios en los archivos de fuente o en los archivos de perfil ICC no provocan la invalidación automática de las entradas de la caché.

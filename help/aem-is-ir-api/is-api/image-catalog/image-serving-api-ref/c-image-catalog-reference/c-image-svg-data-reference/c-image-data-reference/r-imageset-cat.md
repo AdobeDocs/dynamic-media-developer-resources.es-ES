@@ -52,7 +52,7 @@ Cada elemento de un conjunto de muestras básico consta de una referencia a un r
 | `*`imageId`*` | Referencia de imagen del servicio de imágenes (catálogo/id) |
 | `*`swatchId`*` | Referencia de imagen del servicio de imágenes (catálogo/id) |
 | `*`solidColorSpecifier`*` | ` '{0x' *`rrggbb`* [ *`etiqueta`*]'}'` |
-| `*`rrggbb`*` | Valor de color de RGB hexadecimal de 6 dígitos empaquetado para muestras de color sólido |
+| `*`rrggbb`*` | Valor hexadecimal de color RGB de 6 dígitos empaquetado para muestras de color sólido |
 | `*`etiqueta`*` | Etiqueta de texto opcional para muestras de color sólido |
 
 **Conjuntos de muestras jerárquicos**

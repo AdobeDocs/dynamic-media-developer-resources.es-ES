@@ -1,5 +1,5 @@
 ---
-description: Establezca el margen de medios. Establece el margen de medios definido en el archivo de PDF.
+description: Establezca el margen de medios. Establece el margen de medios que se establece en el archivo PDF.
 solution: Experience Manager
 title: mediaMargin
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # mediaMargin{#mediamargin}
 
-Establezca el margen de medios. Establece el margen de medios definido en el archivo de PDF.
+Establezca el margen de medios. Establece el margen de medios que se establece en el archivo PDF.
 
 ` mediaMargin=[ *[!DNL top]*[, *[!DNL left]*= *[!DNL top]*[, *[!DNL bottom]*= *[!DNL top]*[, *[!DNL right]*= *[!DNL left]*]]]]` en puntos
 

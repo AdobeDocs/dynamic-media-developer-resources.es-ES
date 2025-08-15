@@ -18,7 +18,7 @@ Los atributos y campos de catálogo pueden contener datos de uno de los siguient
 
 **Color**
 
-Valor de color. Valor hexadecimal, RGB empaquetado, precedido opcionalmente por 0x. Por ejemplo, el valor de RGB `128,255,0` se puede especificar como `0x80ff00` o `80ff00`.
+Valor de color. Hexadecimal, valor RGB empaquetado, precedido opcionalmente por 0x. Por ejemplo, el valor de RGB `128,255,0` se puede especificar como `0x80ff00` o `80ff00`.
 
 **Indicador**
 

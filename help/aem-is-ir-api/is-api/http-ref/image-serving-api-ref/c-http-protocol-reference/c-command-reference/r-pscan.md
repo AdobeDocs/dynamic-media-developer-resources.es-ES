@@ -1,6 +1,6 @@
 ---
 title: pscan
-description: Análisis progresivo del JPEG. El JPEG progresivo muestra una imagen de tal manera que inicialmente muestra una fotografía borrosa o de baja calidad en su totalidad.
+description: Análisis progresivo de JPEG. Progressive JPEG muestra una imagen de tal manera que inicialmente muestra una fotografía borrosa o de baja calidad en su totalidad.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,19 +14,19 @@ ht-degree: 2%
 
 # pscan{#pscan}
 
-Análisis progresivo del JPEG. El JPEG progresivo muestra una imagen de tal manera que inicialmente muestra una fotografía borrosa o de baja calidad en su totalidad. A medida que el escaneo continúa, se vuelve más claro a medida que los datos de la imagen se descargan más completamente. Este parámetro permite definir el número de análisis que se deben realizar (3, 4 o 5) para que aparezca toda la imagen.
+Análisis progresivo de JPEG. Progressive JPEG muestra una imagen de tal manera que inicialmente muestra una fotografía borrosa o de baja calidad en su totalidad. A medida que el escaneo continúa, se vuelve más claro a medida que los datos de la imagen se descargan más completamente. Este parámetro permite definir el número de análisis que se deben realizar (3, 4 o 5) para que aparezca toda la imagen.
 
 `pscan=auto|3|4|5`
 
 La velocidad real de cada análisis depende de la velocidad de transmisión del sistema del usuario y del equipo que recibe y descomprime los datos.
 
-`Auto` utiliza la configuración de digitalización calculada por la biblioteca de JPEG independiente y depende del modelo de color. Los valores de `3`, `4`, `5` corresponden a la configuración de análisis encontrada en Adobe Photoshop al guardar un archivo de JPEG como pjpeg (JPEG progresivo).
+`Auto` utiliza la configuración de digitalización calculada por la biblioteca independiente de JPEG y depende del modelo de color. Los valores de `3`, `4`, `5` corresponden a la configuración de análisis encontrada en Adobe Photoshop al guardar un archivo JPEG como pjpeg (JPEG progresivo).
 
 Si `pscan` no está establecido, el valor predeterminado es `auto`.
 
 ## Propiedades {#section-e36aa3c63a974b969d9e4f43fe5a37ab}
 
-Atributo de solicitud. Se aplica independientemente de la configuración de capa actual. Se ignora si el formato de salida no es un JPEG progresivo.
+Atributo de solicitud. Se aplica independientemente de la configuración de capa actual. Se ignora si el formato de salida no es JPEG progresivo.
 
 ## Predeterminado {#section-01948f6cd7a2415091004cd7526436c7}
 

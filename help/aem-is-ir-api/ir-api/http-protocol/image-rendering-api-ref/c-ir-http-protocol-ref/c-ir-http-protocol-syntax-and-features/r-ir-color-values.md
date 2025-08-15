@@ -27,7 +27,7 @@ Los valores de color para los atributos `color=` y `bgc=` se pueden especificar 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><i>hex6</i> </p></td> 
-  <td class="stentry"> <p>Valor de color de RGB hexadecimal de seis dígitos empaquetado (RRGGBB). </p></td> 
+  <td class="stentry"> <p>Valor de color RGB hexadecimal de seis dígitos empaquetado (RRGGBB). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><i>hex2</i> </p></td> 
@@ -37,7 +37,7 @@ Los valores de color para los atributos `color=` y `bgc=` se pueden especificar 
 
 ## Ejemplos {#section-a78732151d584e84abeb99f9ce8d7c24}
 
-Algunos ejemplos de especificadores de color válidos y su correspondiente interpretación del valor de color del RGB:
+Algunos ejemplos de especificadores de color válidos y su correspondiente interpretación del valor de color de RGB:
 
 <table id="simpletable_837B3173020240A5B7B2DB2F4CC57352"> 
  <tr class="strow"> 

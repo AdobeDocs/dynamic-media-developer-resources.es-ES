@@ -1,5 +1,5 @@
 ---
-description: XMP metadatos de la. XMP Devuelve los metadatos de la asociados con la imagen especificada en la ruta de solicitud.
+description: Metadatos de XMP. Devuelve los metadatos de XMP asociados a la imagen especificada en la ruta de solicitud.
 solution: Experience Manager
 title: xmp
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # xmp{#xmp}
 
-XMP metadatos de la. XMP Devuelve los metadatos de la asociados con la imagen especificada en la ruta de solicitud.
+Metadatos de XMP. Devuelve los metadatos de XMP asociados a la imagen especificada en la ruta de solicitud.
 
 `req=xmp`
 
@@ -48,7 +48,7 @@ Consultar propiedades del catálogo de imágenes:
 
 ` http:// *`servidor`*/myRootId?req=catalogprops`
 
-Acceda a las propiedades de una entrada de catálogo de imágenes desde JavaScript del lado del cliente incrustado en un archivo de HTML:
+Acceda a las propiedades de una entrada de catálogo de imágenes desde JavaScript del lado del cliente incrustado en un archivo HTML:
 
 ```
 <script language="JavaScript"> 

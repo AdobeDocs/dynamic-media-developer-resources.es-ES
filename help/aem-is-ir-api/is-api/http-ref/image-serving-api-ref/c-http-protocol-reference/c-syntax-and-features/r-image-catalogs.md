@@ -21,7 +21,7 @@ Los catálogos de imágenes ofrecen las siguientes funciones:
 * Permite la asociación persistente de imágenes con determinados metadatos y comandos modificadores.
 
   Se hace referencia a las entradas de los catálogos de imágenes mediante una notación de acceso directo `*`rootId/objId`*`, donde `*`rootId`*` identifica el catálogo de imágenes y `*`objId`*` identifica un registro de datos en el catálogo.
-* Proporcione valores predeterminados para determinados atributos de solicitud, como la calidad del JPEG o si se va a aplicar una marca de agua.
+* Proporcione valores predeterminados para determinados atributos de solicitud, como la calidad de JPEG o si se va a aplicar una marca de agua.
 * Administrar fuentes, perfiles ICC, definiciones de macros y plantillas de solicitudes
 
 Aunque no se haya definido ningún catálogo de imágenes específico, todas las características de los catálogos de imágenes están disponibles mediante el catálogo predeterminado ( [!DNL default.ini]).

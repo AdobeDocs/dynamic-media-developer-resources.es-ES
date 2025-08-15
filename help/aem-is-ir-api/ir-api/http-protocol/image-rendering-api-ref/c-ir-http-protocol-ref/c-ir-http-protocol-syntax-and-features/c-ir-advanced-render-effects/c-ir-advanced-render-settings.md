@@ -1,6 +1,6 @@
 ---
 title: Configuración avanzada de procesamiento
-description: La herramienta de creación de viñetas (parte del paquete de Dynamic Media Image Authoring) proporciona mecanismos para controlar aspectos de bajo nivel del motor de procesamiento de viñetas.
+description: La herramienta de creación de viñetas (parte del paquete de creación de imágenes de Dynamic Media) proporciona mecanismos para controlar aspectos de bajo nivel del motor de procesamiento de viñetas.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 18%
 
 # Configuración avanzada de procesamiento{#advanced-render-settings}
 
-La herramienta de creación de viñetas (parte del paquete de Dynamic Media Image Authoring) proporciona mecanismos para controlar aspectos de bajo nivel del motor de procesamiento de viñetas.
+La herramienta de creación de viñetas (parte del paquete de creación de imágenes de Dynamic Media) proporciona mecanismos para controlar aspectos de bajo nivel del motor de procesamiento de viñetas.
 
 >[!NOTE]
 >
->Configuración de procesamiento es una función avanzada de procesamiento de imágenes y creación de imágenes. Póngase en contacto con el Soporte técnico de Adobe o con su asesor de Adobe para recibir formación, consultas o ambas sobre el uso de la Configuración de procesamiento.
+>Configuración de procesamiento es una función avanzada de procesamiento de imágenes y creación de imágenes. Póngase en contacto con el servicio de asistencia técnica de Adobe o con su representante de consultoría de Adobe para obtener formación, consultas o ambos sobre el uso de la configuración de procesamiento.
 
 Estos ajustes se controlan de forma interactiva en Image Authoring. Es posible aplicar la misma configuración en el procesamiento de imágenes utilizando el comando `rs=` (o con el valor `catalog::RenderSettings`). Este mecanismo se utiliza para seleccionar diferentes opciones de enfoque para cada material y modificar el comportamiento de los algoritmos de renderización de la iluminación, como la variación de la saturación de los resaltados o el contraste en las sombras.
 

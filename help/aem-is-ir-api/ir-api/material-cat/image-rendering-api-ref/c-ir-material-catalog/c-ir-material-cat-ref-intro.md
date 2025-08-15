@@ -20,7 +20,7 @@ Este documento describe el catálogo de materiales para el procesamiento de imá
 
 Este documento está diseñado para programadores con experiencia y desarrolladores de sitios web que deseen aprovechar el procesamiento de imágenes de Dynamic Media para un sitio web o una aplicación personalizada.
 
-Se da por hecho que el lector está familiarizado con la creación y el procesamiento de imágenes de Dynamic Media, las convenciones y los estándares generales del protocolo HTTP y la terminología básica de las imágenes.
+Se da por hecho que el lector está familiarizado con la creación y el procesamiento de imágenes de Dynamic Media, las convenciones y los estándares generales del protocolo HTTP y la terminología básica de imágenes.
 
 **Convenciones de documentos**
 

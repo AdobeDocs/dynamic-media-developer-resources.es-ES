@@ -21,7 +21,7 @@ Color de fondo. Especifica el color de sustracción de las texturas y calcomaní
 <table id="simpletable_131302355CAB4900A7B45FED903A1AAD" class="- topic/simpletable "> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p><span class="+ topic/keyword sw-d/varname varname"> color</span> </p> </td> 
-  <td class="- topic/stentry stentry"> <p>RGB o valor de color gris. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Valor de color RGB o gris. </p></td> 
  </tr> 
 </table>
 
@@ -41,7 +41,7 @@ Atributo de material. Ignorado por el color sólido y los materiales del gabinet
 
 ## Ejemplo {#section-bf5f0f296bc448ed9d5a84afabcf81e6}
 
-Colorear un tejido de ropa cuya textura tenga el color RGB dominante 120,34,193:
+Colorea un tejido de ropa cuya textura tenga el color RGB dominante 120,34,193:
 
 `…&src=fabrics/d213.jpg&res=40&bgc=120,34,193&color=140,95,100&…`
 

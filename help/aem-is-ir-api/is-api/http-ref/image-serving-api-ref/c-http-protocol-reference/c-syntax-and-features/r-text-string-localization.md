@@ -149,7 +149,7 @@ En la tabla siguiente se describe el resultado de algunas combinaciones represen
    <td> <p>Inglés </p> <p>RU-inglés </p> <p>Alemán </p> <p>austriaco </p> <p>- </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> ^ loc=en^English^loc=USE^US-English^loc=D^German^loc=DDE^Deutsch </span> </p> <p> Para este ejemplo, el DDE locId </span> de <span class="varname"> no existe en <span class="codeph"> attribute::LocaleStrMap </span> y, por lo tanto, la subcadena asociada a este locId </span> de <span class="varname"> nunca se devuelve. </p> </td> 
+   <td> <p> <span class="codeph"> ^ loc=en^English^loc=USE^US-English^loc=D^German^loc=DDE^Deutsch </span> </p> <p> Para este ejemplo, el DDE locId <span class="varname"> de </span> no existe en <span class="codeph"> attribute::LocaleStrMap </span> y, por lo tanto, la subcadena asociada a este locId <span class="varname"> de </span> nunca se devuelve. </p> </td> 
    <td> <p> en, en_uk </p> <p> en_us </p> <p> de, de_at, de_de </p> <p>todos los demás </p> </td> 
    <td> <p>Inglés </p> <p>inglés estadounidense </p> <p>Alemán </p> <p>- </p> </td> 
   </tr> 

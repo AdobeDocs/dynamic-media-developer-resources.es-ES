@@ -26,9 +26,9 @@ Las reglas de preprocesamiento de solicitudes son adecuadas para una variedad de
 * Aplicar selectivamente funciones de seguridad, como marca de agua, filtradas por nombre de imagen o ruta.
 * Omitir marcas de agua u otras características de seguridad al acceder al servidor desde direcciones IP específicas.
 * Forzar la aplicación de comandos, como `defaultImage=`, a todas las solicitudes o solicitudes que muestran un patrón específico en la ruta de acceso de la dirección URL o en las cadenas de consulta.
-* No permitir el uso de comandos que requieren mucha CPU para evitar el uso indebido del servidor.
+* No permitir el uso de comandos intensivos en CPU para evitar el uso indebido del servidor.
 * Permite que las imágenes de origen se ubiquen en servidores HTTP o FTP sin dejar de especificarlas en la ruta de solicitud, en lugar de `src=`.
-* Controle la configuración de calidad de la imagen (como la calidad del JPEG o el enfoque) según la ruta de solicitud o el nombre de la imagen.
+* Controle la configuración de calidad de la imagen (como la calidad de la JPEG o el enfoque) según la ruta de solicitud o el nombre de la imagen.
 
 Encontrará información detallada sobre la creación, el uso y la administración de conjuntos de reglas en la [Referencia del conjunto de reglas](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md#concept-3e5058cf3507470b82cac638df23ea8e).
 

@@ -1,6 +1,6 @@
 ---
 title: Puntos interactivos
-description: El visor muestra los iconos de puntos interactivos en la vista principal en lugares donde los puntos interactivos se crearon originalmente en Dynamic Media de AEM Assets bajo demanda.
+description: El visor muestra los iconos de puntos interactivos en la vista principal en lugares donde los puntos interactivos se crearon originalmente en Dynamic Media of AEM Assets (bajo demanda).
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Puntos interactivos{#hotspots}
 
-El visor muestra los iconos de puntos interactivos en la vista principal en lugares donde los puntos interactivos se crearon originalmente en Dynamic Media de AEM Assets bajo demanda.
+El visor muestra los iconos de puntos interactivos en la vista principal en lugares donde los puntos interactivos se crearon originalmente en Dynamic Media of AEM Assets (bajo demanda).
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

@@ -20,7 +20,7 @@ Utilice la información de esta sección para configurar y administrar su servid
 * [Cachés de datos](c-data-caches/c-data-caches.md)
 * [Configuración del servidor](c-server-settings/c-server-settings.md)
 * [Redirigir por error](c-redirect-on-error.md)
-* [Configuración del SVG](c-configuring-svg.md)
+* [Configuración de SVG](c-configuring-svg.md)
 * [Configuración del servidor](c-manual-server-configuration.md)
 * [Definición de cifrados SSL](r-ssl-ciphers.md)
 * [Supervisor del servidor](c-server-supervisor.md)

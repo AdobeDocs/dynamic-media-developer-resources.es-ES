@@ -1,7 +1,7 @@
 ---
-description: El servicio de imágenes admite archivos de gráficos vectoriales escalables (SVG) como datos de origen. Se requiere la conformidad con el SVG 1.1.
+description: El servicio de imágenes admite archivos de gráficos vectoriales escalables (SVG) como datos de origen. Se requiere la conformidad con SVG 1.1.
 solution: Experience Manager
-title: soporte de SVG
+title: Compatibilidad con SVG
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 60e40195-710f-4f03-b152-52eaa10c5b21
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 ---
 
-# soporte de SVG{#svg-support}
+# Compatibilidad con SVG{#svg-support}
 
-El servicio de imágenes admite archivos de gráficos vectoriales escalables (SVG) como datos de origen. Se requiere la conformidad con el SVG 1.1.
+El servicio de imágenes admite archivos de gráficos vectoriales escalables (SVG) como datos de origen. Se requiere la conformidad con SVG 1.1.
 
-El servicio de imágenes solo reconoce contenido estático del SVG; no se admiten animaciones, scripts ni otro contenido interactivo.
+El servicio de imágenes solo reconoce contenido estático de SVG; no se admiten animaciones, scripts ni otro contenido interactivo.
 
-Se puede especificar el SVG siempre que se permitan los archivos de imagen (ruta de acceso de la dirección URL, `src=` y `mask=`). Una vez rasterizado el contenido del archivo de SVG, se gestiona como una imagen.
+Se puede especificar SVG donde se permitan los archivos de imagen (ruta de acceso de la dirección URL, `src=` y `mask=`). Una vez rasterizado el contenido del archivo SVG, se gestiona como una imagen.
 
-De forma similar a las imágenes, los archivos de SVG se pueden especificar como entradas de catálogo de imágenes o como rutas de archivo relativas.
+De forma similar a las imágenes, los archivos SVG se pueden especificar como entradas de catálogo de imágenes o como rutas de archivo relativas.
 
 ## Variables de sustitución {#section-83b149f13f244193901df39b204c975b}
 
@@ -32,13 +32,13 @@ Consulte [Variables de sustitución](../../../../../is-api/http-ref/image-servin
 
 ## Referencias de imagen {#section-a7680f9e6aca4b1a83560637cc9fac66}
 
-Las imágenes se pueden insertar en el SVG utilizando el elemento `<image>`. Las imágenes a las que hace referencia el atributo `xlink::href` del elemento `<image>` deben ser solicitudes de servicio de imágenes válidas. No se permiten direcciones URL externas.
+Las imágenes se pueden insertar en SVG usando el elemento `<image>`. Las imágenes a las que hace referencia el atributo `xlink::href` del elemento `<image>` deben ser solicitudes de servicio de imágenes válidas. No se permiten direcciones URL externas.
 
-Especifique una solicitud de servicio de imágenes completa, que comience por `http://`, o una dirección URL relativa, que comience por `/is/image`. Si se especifica una ruta HTTP completa, el nombre de dominio se elimina de la ruta para convertirlo al formato relativo. El uso de una ruta HTTP completa puede ser beneficioso, ya que permite previsualizar el archivo con un procesador de SVG de terceros.
+Especifique una solicitud de servicio de imágenes completa, que comience por `http://`, o una dirección URL relativa, que comience por `/is/image`. Si se especifica una ruta HTTP completa, el nombre de dominio se elimina de la ruta para convertirlo al formato relativo. El uso de una ruta HTTP completa puede ser beneficioso, ya que permite previsualizar el archivo con un procesador SVG de terceros.
 
 >[!NOTE]
 >
->La compatibilidad con el procesamiento de imágenes en esta versión del servicio de imágenes es limitada. Las referencias a imágenes desde el SVG solo deben utilizarse en situaciones en las que los mecanismos tradicionales de asignación de capas y creación de plantillas del servicio de imágenes no sean suficientes para lograr el resultado deseado. En ningún caso SVG debe utilizarse para generar composiciones de varias imágenes.
+>La compatibilidad con el procesamiento de imágenes en esta versión del servicio de imágenes es limitada. Las referencias a imágenes desde SVG solo deben utilizarse en situaciones en las que los mecanismos tradicionales de asignación de capas y creación de plantillas del servicio de imágenes no sean suficientes para lograr el resultado deseado. SVG no debe utilizarse en ningún caso para generar composiciones de varias imágenes.
 
 >[!NOTE]
 >
@@ -46,11 +46,11 @@ Especifique una solicitud de servicio de imágenes completa, que comience por `h
 
 ## Gestión de color {#section-ea76e2bc4e1842638aa97a2d470c8a68}
 
-Se supone que todos los valores de color incrustados en archivos de SVG y pasados a plantillas de SVG mediante variables de sustitución existen en el espacio de color `sRgb`.
+Se supone que todos los valores de color incrustados en archivos SVG y pasados a plantillas de SVG mediante variables de sustitución existen en el espacio de color `sRgb`.
 
-No se realiza ninguna conversión de color cuando las imágenes están incrustadas en el SVG. Para garantizar la fidelidad del color, asegúrese de especificar `icc=sRgb` para todas las solicitudes de imagen incrustadas.
+No se realiza ninguna conversión de color cuando las imágenes están incrustadas en SVG. Para garantizar la fidelidad del color, asegúrese de especificar `icc=sRgb` para todas las solicitudes de imagen incrustadas.
 
-Después de la rasterización, la imagen del SVG participa en la gestión del color como cualquier otra imagen.
+Después de la rasterización, la imagen de SVG participa en la administración de color como cualquier otra imagen.
 
 ## Ejemplo {#section-036cdd45abd449849ee00a8f21788c28}
 
@@ -64,7 +64,7 @@ Esta plantilla de SVG se puede utilizar de la siguiente manera:
 
 ## Restricciones {#section-daa5eccd07204aaf993be41e87822d54}
 
-Los archivos de SVG deben ser independientes y no deben hacer referencia a ningún archivo o recurso secundario, excepto a las imágenes externas a las que se hace referencia con solicitudes de servicio o procesamiento de imágenes (ver arriba).
+Los archivos SVG deben ser independientes y no deben hacer referencia a ningún archivo o recurso secundario, excepto a las imágenes externas a las que se hace referencia con solicitudes de servicio o procesamiento de imágenes (ver arriba).
 
 Solo se procesa el contenido estático. Animación, funciones interactivas, como botones, etc. puede estar presente, pero no procesarse según lo esperado.
 
@@ -74,4 +74,4 @@ Las especificaciones de color basadas en perfiles ICC no son compatibles en este
 
 ## Véase también {#section-901dd1775fd24154a766dcfbe5032b67}
 
-[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) , [máscara=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [especificación del SVG 1.1](https://www.w3.org/TR/SVG11/)
+[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) , [máscara=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [especificación de SVG 1.1](https://www.w3.org/TR/SVG11/)

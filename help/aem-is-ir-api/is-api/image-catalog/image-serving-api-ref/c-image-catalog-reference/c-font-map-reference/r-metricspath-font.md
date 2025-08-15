@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Ruta del archivo de métricas de fuente. Ruta y nombre de un archivo de métricas de fuentes, incluido el sufijo de archivo.
 
-Se utiliza para fuentes de Adobe Type 1. Si no se especifica, el servidor intenta encontrar un archivo de métricas de fuentes en la misma carpeta en la que se encuentra el archivo de fuentes principal. Se produce un error si no se encuentra un archivo de métricas de fuente requerido en el momento del procesamiento.
+Se utiliza para fuentes Adobe Type 1. Si no se especifica, el servidor intenta encontrar un archivo de métricas de fuentes en la misma carpeta en la que se encuentra el archivo de fuentes principal. Se produce un error si no se encuentra un archivo de métricas de fuente requerido en el momento del procesamiento.
 
 ## Propiedades {#section-955268c581574875b05253d9e14544f3}
 

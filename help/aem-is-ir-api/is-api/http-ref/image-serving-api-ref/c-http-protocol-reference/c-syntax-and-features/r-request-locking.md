@@ -20,7 +20,7 @@ Si se establece attribute::RequestLock, se debe anexar un valor de bloqueo a la 
 
 >[!IMPORTANT]
 >
->Si habilita esta característica, tenga en cuenta que existen ciertas limitaciones en su uso que incluyen lo siguiente:<br>- Es posible que la interfaz de usuario de Dynamic Media no muestre los detalles correctos para el campo **[!UICONTROL Última publicación]**. Sin embargo, este efecto no afecta a la publicación.<br>: actualmente, la transmisión de vídeo HLS no funciona cuando **[!UICONTROL Solicitar ofuscación]** y **[!UICONTROL Solicitar bloqueo]** están habilitados.<br>- Actualmente, algunos visores de Dynamic Media no funcionan cuando **[!UICONTROL Solicitar ofuscación]** y **[!UICONTROL Solicitar bloqueo]** están habilitados.
+>Si habilita esta característica, tenga en cuenta que existen ciertas limitaciones en su uso que incluyen lo siguiente:<br>- Es posible que la interfaz de usuario de Dynamic Media no muestre los detalles correctos para el campo **[!UICONTROL Última publicación]**. Sin embargo, este efecto no afecta a la publicación.<br>: actualmente, la transmisión de vídeo de HLS no funciona cuando **[!UICONTROL Solicitar ofuscación]** y **[!UICONTROL Solicitar bloqueo]** están habilitados.<br>- Actualmente, algunos visores de Dynamic Media no funcionan cuando **[!UICONTROL Solicitar ofuscación]** y **[!UICONTROL Solicitar bloqueo]** están habilitados.
 
 Código de ejemplo de C++ para generar el valor de bloqueo de la solicitud:
 

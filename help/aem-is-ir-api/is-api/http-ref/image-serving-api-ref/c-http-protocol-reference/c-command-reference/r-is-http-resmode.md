@@ -30,7 +30,7 @@ Modo de remuestreo. Elige el algoritmo de remuestreo o interpolación que se uti
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> sharp2 </span> </p> </td> 
-   <td colname="col2"> <p>Selecciona una función de ventana de Lanczos modificada como algoritmo de interpolación. Puede producir resultados ligeramente más nítidos que los bicúbicos a un mayor coste de CPU. <span class="codeph"> sharp </span> se ha reemplazado por <span class="codeph"> sharp2 </span>, que tiene una menor probabilidad de causar artefactos de solapamiento (Moiré). </p> </td> 
+   <td colname="col2"> <p>Selecciona una función de ventana de Lanczos modificada como algoritmo de interpolación. Puede producir resultados ligeramente más nítidos que los bicúbicos a un coste de CPU más alto. <span class="codeph"> sharp </span> se ha reemplazado por <span class="codeph"> sharp2 </span>, que tiene una menor probabilidad de causar artefactos de solapamiento (Moiré). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bisharp </span> </p> </td> 

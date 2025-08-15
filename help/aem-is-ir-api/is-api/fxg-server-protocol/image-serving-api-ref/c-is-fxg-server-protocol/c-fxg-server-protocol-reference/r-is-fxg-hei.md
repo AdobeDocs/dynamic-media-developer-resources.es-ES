@@ -25,7 +25,7 @@ Ver altura. Especifica la altura de la imagen de respuesta.
  </tr> 
 </table>
 
-Los formatos de trama se representan con el tamaño de vista predeterminado (o el valor DefaultPix ). Seleccione **[!UICONTROL Configuración de aplicación]** > **[!UICONTROL Configuración de Publish]** > **[!UICONTROL Servidor de imágenes]** y, a continuación, introduzca los valores de anchura y altura. Los tamaños más pequeños proporcionan un mejor rendimiento. Guarde la configuración y realice un Publish de servicio de imágenes para aplicar un cambio.
+Los formatos de trama se representan con el tamaño de vista predeterminado (o el valor DefaultPix ). Seleccione **[!UICONTROL Configuración de aplicación]** > **[!UICONTROL Configuración de publicación]** > **[!UICONTROL Servidor de imágenes]** y, a continuación, introduzca los valores de anchura y altura. Los tamaños más pequeños proporcionan un mejor rendimiento. Guarde la configuración y realice una publicación para servicio de imágenes para aplicar un cambio.
 
 Si aplica un comando `scale=1`, se procesará una solicitud de formato de trama con el tamaño especificado en el FXG.
 
@@ -37,13 +37,13 @@ Si no se especifican `wid=`, `hei=` o `scale=`, la imagen de respuesta es el tam
 
 [!DNL `http://server/is/agm/myRootId/myImageId?hei=200`]
 
-A menos que se especifique un formato, la imagen se procesa como un archivo de SWF. En este caso, el alto y el ancho no tienen significado, ya que el SWF suele ampliarse al tamaño de la ventana del explorador. Como resultado, hei y wid solo se aplican a formatos rasterizados o PDF. Los formatos de trama incluyen:
+A menos que se especifique un formato, la imagen se procesará como un archivo SWF. En este caso, la altura y la anchura no tienen significado, ya que SWF suele ampliarse al tamaño de la ventana del explorador. Como resultado, hei y wid solo se aplican a los formatos raster o PDF. Los formatos de trama incluyen:
 
 * GIF
 * TIF
 * PNG
 * JPG
 * JPEG
-* GIF-alfa
+* GIF-alpha
 * TIF-alpha
 * PNG-alpha

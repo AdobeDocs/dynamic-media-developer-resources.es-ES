@@ -24,7 +24,7 @@ Se admiten cuatro tipos generales de viñetas de producción.
   Se recomienda cuando se conocen todos los tamaños de imagen de procesamiento deseados. Proporciona una mejor calidad y una representación más rápida que las viñetas piramidales y de una sola resolución, ya que no es necesario escalar la imagen después del procesamiento.
 * Pirámide
 
-  Ideal para todos los usos, se recomienda cuando se necesitan varios tamaños de imagen y los tamaños exactos no están predeterminados y cuando se utiliza el visor de zoom de Dynamic Media.
+  Para todos los usos, se recomienda cuando se necesitan varios tamaños de imagen y los tamaños exactos no están predeterminados y cuando se utiliza el visualizador de zoom de Dynamic Media.
 * Pirámide con una o más resoluciones adicionales
 
   Proporciona alta calidad para tamaños específicos y, al mismo tiempo, proporciona flexibilidad y compatibilidad con el visor de zoom.

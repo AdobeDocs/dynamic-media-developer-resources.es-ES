@@ -21,7 +21,7 @@ Color frontal. Especifica el color de los materiales de color sólido o el color
 <table id="simpletable_C5AF9074CCA64EA5921772DF3F7E0F55"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> color</span> </p> </td> 
-  <td class="stentry"> <p>RGB o valor de color gris. </p></td> 
+  <td class="stentry"> <p>Valor de color RGB o gris. </p></td> 
  </tr> 
 </table>
 

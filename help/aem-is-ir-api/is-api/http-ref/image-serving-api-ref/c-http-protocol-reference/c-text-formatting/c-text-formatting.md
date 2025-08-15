@@ -149,7 +149,7 @@ En la tabla siguiente se enumeran las funciones clave disponibles para cada coma
 
 Las cadenas compatibles con RTF se pueden ensamblar manualmente o dando formato al texto deseado en un editor de texto o procesador de texto capaz de guardar archivos RTF. El archivo RTF se puede abrir en un editor de texto sin formato y el contenido RTF sin procesar relevante del archivo se copia en la dirección URL de la solicitud.
 
-Algunos procesadores de texto generan archivos bastante grandes, que incluyen preámbulos importantes que no se utilizan en el servicio de imágenes de Dynamic Media. Se recomienda eliminar los elementos RTF no utilizados de la cadena antes de pasar la cadena a los comandos de texto.
+Algunos procesadores de texto generan archivos bastante grandes, que incluyen preámbulos sustanciales que no se utilizan en el servicio de imágenes de Dynamic Media. Se recomienda eliminar los elementos RTF no utilizados de la cadena antes de pasar la cadena a los comandos de texto.
 
 Las cadenas RTF admiten la codificación de idioma basada en los estándares UTF-8 e ISO como alternativa a los mecanismos de codificación de caracteres RTF estándar. Esto permite a las aplicaciones enviar texto que no esté en inglés al servidor sin tener conocimientos de codificación RTF.
 

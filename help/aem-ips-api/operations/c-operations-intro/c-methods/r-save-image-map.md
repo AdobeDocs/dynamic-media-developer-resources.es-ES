@@ -85,7 +85,7 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> acción </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Sí </td> 
-   <td colname="col4"> <p>El valor <span class="codeph"> href </span> asociado con el mapa de imagen según se ha especificado en la interfaz IPS. </p> <p>Para obtener el valor <span class="codeph"> href </span>, haga clic en la imagen en la interfaz IPS, copie y pegue la dirección URL en este elemento y, a continuación, dé formato a la dirección URL de IPS como una dirección URL adecuada. Por ejemplo, <span class="codeph"> y </span> se convierte en <span class="codeph"> &amp; </span>. </p> </td> 
+   <td colname="col4"> <p>El valor <span class="codeph"> href </span> asociado con el mapa de imagen según se ha especificado en la interfaz IPS. </p> <p>Para obtener el valor <span class="codeph"> href </span>, haga clic en la imagen en la interfaz IPS, copie y pegue la dirección URL en este elemento y, a continuación, dé formato a la dirección URL de IPS como una dirección URL adecuada. Por ejemplo, <span class="codeph"> y </span> se convierte en <span class="codeph"> &amp;amp; </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> posición </span> </span> </td> 

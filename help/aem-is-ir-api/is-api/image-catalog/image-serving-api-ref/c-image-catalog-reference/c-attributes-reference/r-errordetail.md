@@ -33,7 +33,7 @@ Se permiten los siguientes valores:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>Información de depuración completa. Agrega seguimientos de pila Java cuando corresponde. Las imágenes de error nunca incluyen seguimientos de pila y, en su lugar, devuelven información de nivel 2 en <span class="codeph"> $error.message</span>. Esta información puede resultar útil cuando se notifican problemas al servicio de asistencia técnica de Dynamic Media. </p></td> 
+  <td class="stentry"> <p>Información de depuración completa. Agrega seguimientos de pila Java cuando corresponde. Las imágenes de error nunca incluyen seguimientos de pila y, en su lugar, devuelven información de nivel 2 en <span class="codeph"> $error.message</span>. Esta información puede resultar útil cuando se notifican problemas al soporte técnico de Dynamic Media. </p></td> 
  </tr> 
 </table>
 

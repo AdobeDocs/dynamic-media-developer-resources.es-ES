@@ -31,7 +31,7 @@ Consulte [Requisitos y requisitos previos del sistema](../../c-system-requiremen
 
 ## Uso del visor de zoom básico {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-Visor de zoom básico representa un archivo JavaScript y un conjunto de archivos de ayuda que el visor descarga durante la ejecución. Básicamente, se trata de una sola inclusión de JavaScript con todos los componentes del SDK del visor utilizados por este visor, recursos y CSS en particular.
+Visor de zoom básico representa un archivo JavaScript y un conjunto de archivos de ayuda que el visor descarga durante la ejecución. Básicamente, se trata de una sola inclusión de JavaScript con todos los componentes de SDK de visor utilizados por este visor, recursos y CSS en particular.
 
 Puede utilizar el Visor de zoom básico en modo emergente utilizando una página de HTML lista para la producción proporcionada con visores IS o en modo incrustado, donde se integra en la página web de destino mediante una API documentada.
 
@@ -94,7 +94,7 @@ Se recomienda utilizar una página de HTML predeterminada para el modo de operac
 
 Puede conseguir una personalización visual aplicando CSS personalizado.
 
-A continuación se muestra un ejemplo de código de HTML que abre el visor en una nueva ventana:
+A continuación se muestra un ejemplo de código HTML que abre el visor en una nueva ventana:
 
 ```html {.line-numbers}
 <a href="http://s7d1.scene7.com/s7viewers/html5/BasicZoomViewer.html?asset=Scene7SharedAssets/Backpack_B" target="_blank">Open popup viewer</a>
@@ -125,7 +125,7 @@ Para agregar el visor a una página web, haga lo siguiente:
 
 1. Añadir el archivo de JavaScript del visor a la página web.
 
-   La creación de un visor requiere que añada una etiqueta de script en el encabezado del HTML. Antes de usar la API de visor, asegúrese de incluir [!DNL BasicZoomViewer.js]. El archivo [!DNL BasicZoomViewer.js] se encuentra en la subcarpeta [!DNL html5/js/] de su implementación estándar de visores IS:
+   La creación de un visor requiere que añada una etiqueta de script en el encabezado de HTML. Antes de usar la API de visor, asegúrese de incluir [!DNL BasicZoomViewer.js]. El archivo [!DNL BasicZoomViewer.js] se encuentra en la subcarpeta [!DNL html5/js/] de su implementación estándar de visores IS:
 
 [!DNL <s7viewers_root>/html5/js/BasicZoomViewer.js]
 
@@ -139,7 +139,7 @@ La ruta relativa tiene el siguiente aspecto:
 
 >[!NOTE]
 >
->Solo haga referencia al archivo de JavaScript `include` del visor principal en su página. No haga referencia a ningún archivo JavaScript adicional en el código de la página web que la lógica del visor pueda descargar durante la ejecución. En particular, no haga referencia directamente a la biblioteca `Utils.js` del SDK de HTML5 cargada por el visor desde la ruta de contexto `/s7viewers` (denominado SDK consolidado `include`). El motivo es que la ubicación de `Utils.js` o bibliotecas similares del visor en tiempo de ejecución está completamente administrada por la lógica del visor y la ubicación cambia entre versiones del visor. El Adobe no mantiene versiones anteriores del visor secundario `includes` en el servidor.
+>Solo haga referencia al archivo de JavaScript `include` del visor principal en su página. No haga referencia a ningún archivo JavaScript adicional en el código de la página web que la lógica del visor pueda descargar durante la ejecución. En particular, no haga referencia directamente a la biblioteca HTML5 SDK `Utils.js` cargada por el visor desde la ruta de contexto `/s7viewers` (denominada SDK consolidado `include`). El motivo es que la ubicación de `Utils.js` o bibliotecas similares del visor en tiempo de ejecución está completamente administrada por la lógica del visor y la ubicación cambia entre versiones del visor. Adobe no mantiene versiones anteriores del visor secundario `includes` en el servidor.
 >
 >
 >Como resultado, al establecer una referencia directa a cualquier JavaScript `include` secundario que use el visor en la página, se interrumpe la funcionalidad del visor en el futuro cuando se implemente una nueva versión del producto.
@@ -160,7 +160,7 @@ La ruta relativa tiene el siguiente aspecto:
 
    Puede establecer el tamaño estático del visor declarándolo para la clase CSS de nivel superior `.s7basiczoomviewer` en unidades absolutas o utilizando el modificador `stagesize`.
 
-   Aplique el tamaño en CSS directamente en la página del HTML o en un archivo CSS de visor personalizado. A continuación, se asigna a un registro de ajuste preestablecido de visualizador en Dynamic Media Classic o se pasa explícitamente mediante un comando de estilo.
+   Aplique el tamaño en CSS directamente en la página de HTML o en un archivo CSS de visor personalizado. A continuación, se asigna a un registro de ajuste preestablecido de visualizador en Dynamic Media Classic o se pasa explícitamente mediante un comando de estilo.
 
    Consulte [Personalización del visor de zoom básico](../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/c-html5-20-basic-zoom-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) para obtener más información sobre cómo aplicar estilo al visor con CSS.
 
@@ -234,7 +234,7 @@ La ruta relativa tiene el siguiente aspecto:
 
 **Inserción de diseño interactivo con altura sin restricciones**
 
-Con incrustación de diseño interactivo, la página web normalmente tiene algún tipo de diseño flexible que dicta el tamaño de tiempo de ejecución del contenedor del visor `DIV`. En el siguiente ejemplo, supongamos que la página web permite que el contenedor del visor `DIV` ocupe el 40% del tamaño de la ventana del explorador web, sin restringir su altura. El código del HTML de la página web tendría el siguiente aspecto:
+Con incrustación de diseño interactivo, la página web normalmente tiene algún tipo de diseño flexible que dicta el tamaño de tiempo de ejecución del contenedor del visor `DIV`. En el siguiente ejemplo, supongamos que la página web permite que el contenedor del visor `DIV` ocupe el 40% del tamaño de la ventana del explorador web, sin restringir su altura. El código HTML de la página web tendría el siguiente aspecto:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 

@@ -22,12 +22,12 @@ Formato de imagen de respuesta. Especifica el formato de codificación de imagen
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> formato </span> </p> </td> 
   <td class="stentry"> <p>jpeg </p> </td> 
-  <td class="stentry"> <p>JPEG perdedor. </p> </td> 
+  <td class="stentry"> <p>JPEG con pérdida. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>jpg </p> </td> 
-  <td class="stentry"> <p>Perdió a su JPG. </p> </td> 
+  <td class="stentry"> <p>JPG con pérdida. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
@@ -57,12 +57,12 @@ Formato de imagen de respuesta. Especifica el formato de codificación de imagen
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>swf-alpha </p> </td> 
-  <td class="stentry"> <p>JPEG con pérdida y máscara comprimida con desinflado incrustada en un archivo swf de Macromedia. </p> </td> 
+  <td class="stentry"> <p>JPEG con pérdida y una máscara comprimida con desinflado incrustada en un archivo swf de Macromedia. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>pdf </p> </td> 
-  <td class="stentry"> <p>Imagen incrustada en el PDF. </p> </td> 
+  <td class="stentry"> <p>Imagen incrustada en PDF. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
@@ -82,7 +82,7 @@ Formato de imagen de respuesta. Especifica el formato de codificación de imagen
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> pixelType </span> </p> </td> 
   <td class="stentry"> <p>rgb </p> </td> 
-  <td class="stentry"> <p>Devuelve datos de imagen del RGB. </p> </td> 
+  <td class="stentry"> <p>Devolver datos de imagen de RGB. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
@@ -112,7 +112,7 @@ Formato de imagen de respuesta. Especifica el formato de codificación de imagen
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>jpeg </p> </td> 
-  <td class="stentry"> <p>Compresión JPEG (con pérdida). </p> </td> 
+  <td class="stentry"> <p>Compresión de JPEG (con pérdida). </p> </td> 
  </tr> 
 </table>
 
@@ -120,7 +120,7 @@ Formato de imagen de respuesta. Especifica el formato de codificación de imagen
 
 *`compression`* solo se permite si se especifican los valores tif, tif-alpha o PDF como *`format`*. Consulte la tabla siguiente para ver las opciones de compresión admitidas para estos formatos de imagen.
 
-`qlt-` Establece las opciones de codificación de JPEG para estos formatos: JPEG, TIFF con compresión de JPEG, PDF con compresión de JPEG y archivo de SWF. Use `quantize=` si `fmt=gif` o `fmt=gif-alpha`. Consulte las descripciones de los comandos para obtener más información. Los demás formatos no tienen opciones configurables.
+`qlt-` Establece las opciones de codificación de JPEG para estos formatos: JPEG, TIFF con compresión JPEG, PDF con compresión JPEG y archivo SWF. Use `quantize=` si `fmt=gif` o `fmt=gif-alpha`. Consulte las descripciones de los comandos para obtener más información. Los demás formatos no tienen opciones configurables.
 
 Se devuelven ocho bits por componente de píxel para todos los formatos y tipos de píxeles.
 
@@ -169,7 +169,7 @@ En la tabla siguiente se enumeran las combinaciones válidas de *`format`* y *`p
    <td colname="col1"> <p>swf, swf-alfa </p> </td> 
    <td colname="col2"> <p>rgb, gris </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/x-shockwave-flash&gt; </span> </p> </td> 
-   <td colname="col4"> <p>No </p> <p>(El Flash Player ignora los perfiles ICC incrustados). </p> </td> 
+   <td colname="col4"> <p>No </p> <p>(Flash Player ignora los perfiles ICC incrustados.) </p> </td> 
    <td colname="col5"> <p> <span class="codeph"> qlt= </span>, <span class="codeph"> atributo::TrustedDomains </span> </p> </td> 
   </tr> 
   <tr> 

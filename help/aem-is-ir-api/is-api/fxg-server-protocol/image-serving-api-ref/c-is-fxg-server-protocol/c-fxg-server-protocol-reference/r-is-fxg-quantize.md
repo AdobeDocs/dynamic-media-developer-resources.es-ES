@@ -1,6 +1,6 @@
 ---
 title: cuantificar
-description: Cuantificación de color. Especifica atributos de cuantificación de color para la conversión de salida del GIF.
+description: Cuantificación de color. Especifica atributos de cuantificación de color para la conversión de salida de GIF.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # cuantificar{#quantize}
 
-Cuantificación de color. Especifica atributos de cuantificación de color para la conversión de salida del GIF.
+Cuantificación de color. Especifica atributos de cuantificación de color para la conversión de salida de GIF.
 
 ` quantize= *`type`*[, *`dither`*[, *`numColors`*[, *`colorList`*]]]`
 
@@ -33,7 +33,7 @@ Cuantificación de color. Especifica atributos de cuantificación de color para 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> lista de colores </span> </span> </p> </td> 
-  <td class="stentry"> <p>Lista separada por comas de colores de RGB forzados en formato hex6. Permite especificar los colores forzados que se incluirán en una paleta <span class="codeph"> </span> adaptable. Si el número de colores especificado es menor que <span class="codeph"> numColors </span>, se calculan colores adicionales basados en el contenido de la imagen. </p> <p>Solo se usa si <span class="codeph"> fmt=gif </span> o <span class="codeph"> fmt=gif-alpha </span>. Se ignora en caso contrario. Los colores especificados con <span class="codeph"> <span class="varname"> colorList </span> </span> deben ser valores de RGB en formato hex6 (vea <span class="codeph"> color </span>); no se permiten otros especificadores de color. </p> </td> 
+  <td class="stentry"> <p>Lista separada por comas de los colores RGB forzados en formato hex6. Permite especificar los colores forzados que se incluirán en una paleta <span class="codeph"> </span> adaptable. Si el número de colores especificado es menor que <span class="codeph"> numColors </span>, se calculan colores adicionales basados en el contenido de la imagen. </p> <p>Solo se usa si <span class="codeph"> fmt=gif </span> o <span class="codeph"> fmt=gif-alpha </span>. Se ignora en caso contrario. Los colores especificados con <span class="codeph"> <span class="varname"> colorList </span> </span> deben ser valores RGB en formato hex6 (vea <span class="codeph"> color </span>); no se permiten otros especificadores de color. </p> </td> 
  </tr> 
 </table>
 
@@ -47,6 +47,6 @@ Genere una miniatura de GIF con la paleta &#39; `web`&#39; y sin tramado:
 
 [!DNL `http://server/myRootId/myImageId?req=tmb&fmt=gif&quantize=web,off`]
 
-Convierta la imagen en un GIF bi-tonal con transparencia de key-color y fuerza los colores a blanco y negro:
+Convierta la imagen a un GIF biconal con transparencia de clave de color y colores fuertes a blanco y negro:
 
 [!DNL `http://server/is/agm/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`]

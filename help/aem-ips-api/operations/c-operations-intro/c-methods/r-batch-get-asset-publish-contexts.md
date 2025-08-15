@@ -43,7 +43,7 @@ Sintaxis
 | Nombre | Tipo | Obligatorio | Descripción |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Sí | Gestionar en la empresa. |
-| assetHandleArray | ` `types:HandleArray&quot; | Sí | Una lista de los recursos que desea consultar para contextos activos (marcados para publicación). |
+| assetHandleArray | ` `tipos:HandleArray&quot; | Sí | Una lista de los recursos que desea consultar para contextos activos (marcados para publicación). |
 
 **Salida (batchGetAssetPublishContextsReturn)**
 

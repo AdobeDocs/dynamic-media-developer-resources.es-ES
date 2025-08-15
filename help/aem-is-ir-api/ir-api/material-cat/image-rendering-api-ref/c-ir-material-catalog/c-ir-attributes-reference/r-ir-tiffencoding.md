@@ -1,6 +1,6 @@
 ---
 title: TiffEncoding
-description: formato de codificación del TIFF. Especifica el formato de compresión de las imágenes del TIFF (que es el predeterminado para el tercer valor del comando fmt=).
+description: Formato de codificación TIFF. Especifica el formato de compresión de las imágenes de TIFF (el predeterminado para el tercer valor del comando fmt= ).
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,9 +14,9 @@ ht-degree: 4%
 
 # TiffEncoding{#tiffencoding}
 
-formato de codificación del TIFF. Especifica el formato de compresión de las imágenes del TIFF (que es el predeterminado para el tercer valor del comando `fmt=`).
+Formato de codificación TIFF. Especifica el formato de compresión de las imágenes de TIFF (el predeterminado para el tercer valor del comando `fmt=`).
 
-Establezca `0` para la compresión sin compresión, `1` para LZW, `2` para deflate (ZIP) y `3` para la compresión JPEG.
+Establezca `0` para la compresión sin compresión, `1` para la compresión LZW, `2` para la compresión deflate (ZIP) y `3` para la compresión JPEG.
 
 ## Propiedades {#section-469f5a1225464542866f5353edd92db3}
 

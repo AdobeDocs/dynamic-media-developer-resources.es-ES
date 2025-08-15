@@ -1,6 +1,6 @@
 ---
 title: Visor panorámico
-description: HTML 5 Visor panorámico es un visor de imágenes que muestra una imagen panorámica. El objetivo de este visor es mostrar un panorama esférico, también conocido como imagen equirectangular. Admite la panorámica automática y la panorámica mediante movimiento giroscópico. Está diseñado para trabajar en equipos de escritorio y dispositivos móviles. El modo de visualización de realidad virtual está disponible en dispositivos móviles compatibles.
+description: El visualizador panorámico HTML5 es un visualizador de imágenes que muestra una imagen panorámica. El objetivo de este visor es mostrar un panorama esférico, también conocido como imagen equirectangular. Admite la panorámica automática y la panorámica mediante movimiento giroscópico. Está diseñado para trabajar en equipos de escritorio y dispositivos móviles. El modo de visualización de realidad virtual está disponible en dispositivos móviles compatibles.
 keywords: adaptable
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Panorámica{#panoramic}
 
-HTML 5 Visor panorámico es un visor de imágenes que muestra una imagen panorámica. El objetivo de este visor es mostrar un panorama esférico, también conocido como imagen equirectangular. Admite la panorámica automática y la panorámica mediante movimiento giroscópico. Está diseñado para trabajar en equipos de escritorio y dispositivos móviles. El modo de visualización de realidad virtual está disponible en dispositivos móviles compatibles.
+El visualizador panorámico HTML5 es un visualizador de imágenes que muestra una imagen panorámica. El objetivo de este visor es mostrar un panorama esférico, también conocido como imagen equirectangular. Admite la panorámica automática y la panorámica mediante movimiento giroscópico. Está diseñado para trabajar en equipos de escritorio y dispositivos móviles. El modo de visualización de realidad virtual está disponible en dispositivos móviles compatibles.
 
 Consulte [Requisitos y requisitos previos del sistema](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
@@ -27,15 +27,15 @@ Tipo de visor 514.
 
 ## Uso del visor panorámico {#section-f21ac23d3f6449ad9765588d69584772}
 
-HTML 5 Visor panorámico representa un archivo JavaScript principal y un conjunto de archivos de ayuda descargados por el visor en tiempo de ejecución. El conjunto de archivos de ayuda es una sola inclusión de JavaScript con todos los componentes del SDK de HTML5 Viewer utilizados por este visor, recursos y CSS en particular.
-El visor panorámico HTML5 se puede utilizar en modo emergente utilizando la página del HTML lista para la producción proporcionada con visores IS o en modo incrustado, donde se integra en la página web de destino mediante una API documentada.
-La configuración y el desollado son similares a los de los otros visores de HTML5. Todo el desollado se puede lograr mediante CSS personalizado.
+El visor panorámico HTML5 representa un archivo JavaScript principal y un conjunto de archivos de ayuda descargados por el visor en tiempo de ejecución. El conjunto de archivos de ayuda es una sola inclusión de JavaScript con todos los componentes de HTML5 Viewer SDK utilizados por este visor, recursos y CSS en particular.
+El visor panorámico HTML5 se puede utilizar en modo emergente utilizando la página de HTML lista para la producción proporcionada con visores IS o en modo incrustado, donde se integra en la página web de destino mediante una API documentada.
+La configuración y el aspecto son similares a los de otros visores de HTML5. Todo el desollado se puede lograr mediante CSS personalizado.
 
 Ver [Referencia de comando común a todos los visores: atributos de configuración](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) y [Referencia de comando común a todos los visores: URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
 ## Interacción con el visor panorámico HTML5 {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
-El visor panorámico HTML5 admite el desplazamiento y la navegación automáticos mediante el movimiento giratorio o de arrastre.
+El visor panorámico HTML5 admite la panorámica y la navegación automáticas mediante el movimiento giroscópico o de arrastre.
 
 <table id="table_panoramic"> 
  <thead> 
@@ -76,7 +76,7 @@ Se recomienda utilizar una página de HTML predeterminada para el modo de operac
 
 La personalización visual se puede lograr aplicando CSS personalizado.
 
-Este es un ejemplo de código de HTML que abre el visor en la nueva ventana:
+Este es un ejemplo de código HTML que abre el visor en la nueva ventana:
 
 ```html {.line-numbers}
 <a href="http://s7d1.scene7.com/s7viewers/html5/PanoramicViewer.html?asset=Scene7SharedAssets/PanoramicImage-Sample" target="_blank">Open popup viewer</a>
@@ -92,7 +92,7 @@ La incrustación de tamaño fijo se utiliza cuando el visor no cambia su tamaño
 
 La incrustación interactiva supone que el visualizador debe cambiar de tamaño en tiempo de ejecución en respuesta al cambio de tamaño de su DIV contenedor. El caso de uso más común es añadir un visor a una página web que utiliza un diseño flexible.
 
-En el modo interactivo, el comportamiento del visor varía en función de la forma en que la página web ajusta el tamaño de su contenedor DIV. Si la página web establece únicamente la anchura del DIV contenedor y deja su altura sin restricciones, el visor elige automáticamente su altura según la proporción de aspecto del recurso utilizado. Este método garantiza que el recurso se ajuste perfectamente a la vista sin ningún relleno en los lados. Este caso de uso es el más común para páginas web que utilizan marcos de diseño adaptables como Bootstrap, Foundation y similares.
+En el modo interactivo, el comportamiento del visor varía en función de la forma en que la página web ajusta el tamaño de su contenedor DIV. Si la página web establece únicamente la anchura del DIV contenedor y deja su altura sin restricciones, el visor elige automáticamente su altura según la proporción de aspecto del recurso utilizado. Este método garantiza que el recurso se ajuste perfectamente a la vista sin ningún relleno en los lados. Este caso de uso es el más común para páginas web que utilizan marcos de diseño adaptables como Bootstrap, Foundation y otros.
 
 De lo contrario, si la página web establece la anchura y la altura del DIV contenedor del visor, este rellenará esa área y seguirá el tamaño proporcionado por el diseño de página web. Un buen ejemplo es la incrustación del visualizador en una superposición modal, donde el tamaño de la superposición depende del tamaño de la ventana del explorador web.
 
@@ -107,7 +107,7 @@ Para agregar el visor a una página web, haga lo siguiente:
 
 1. Añadir el archivo de JavaScript del visor a la página web.
 
-   La creación de un visor requiere que añada una etiqueta de script en el encabezado del HTML. Antes de usar la API de visor, asegúrese de incluir [!DNL PanoramicViewer.js]. El archivo [!DNL PanoramicViewer.js] se encuentra en la subcarpeta [!DNL html5/js/] de su implementación estándar de visores IS:
+   La creación de un visor requiere que añada una etiqueta de script en el encabezado de HTML. Antes de usar la API de visor, asegúrese de incluir [!DNL PanoramicViewer.js]. El archivo [!DNL PanoramicViewer.js] se encuentra en la subcarpeta [!DNL html5/js/] de su implementación estándar de visores IS:
 
 [!DNL <s7viewers_root>/html5/js/PanoramicViewer.js]
 
@@ -121,7 +121,7 @@ La ruta relativa tiene el siguiente aspecto:
 
 >[!NOTE]
 >
->Solo haga referencia al archivo de JavaScript `include` del visor principal en su página. No haga referencia a ningún archivo JavaScript adicional en el código de la página web que la lógica del visor pueda descargar durante la ejecución. En particular, no haga referencia directamente a la biblioteca `Utils.js` del SDK de HTML5 cargada por el visor desde la ruta de contexto `/s7viewers` (denominado SDK consolidado `include`). El motivo es que la ubicación de `Utils.js` o bibliotecas similares del visor en tiempo de ejecución está completamente administrada por la lógica del visor y la ubicación cambia entre versiones del visor. El Adobe no mantiene versiones anteriores del visor secundario `includes` en el servidor.
+>Solo haga referencia al archivo de JavaScript `include` del visor principal en su página. No haga referencia a ningún archivo JavaScript adicional en el código de la página web que la lógica del visor pueda descargar durante la ejecución. En particular, no haga referencia directamente a la biblioteca HTML5 SDK `Utils.js` cargada por el visor desde la ruta de contexto `/s7viewers` (denominada SDK consolidado `include`). El motivo es que la ubicación de `Utils.js` o bibliotecas similares del visor en tiempo de ejecución está completamente administrada por la lógica del visor y la ubicación cambia entre versiones del visor. Adobe no mantiene versiones anteriores del visor secundario `includes` en el servidor.
 >
 >
 >Como resultado, al establecer una referencia directa a cualquier JavaScript `include` secundario que use el visor en la página, se interrumpe la funcionalidad del visor en el futuro cuando se implemente una nueva versión del producto.
@@ -143,7 +143,7 @@ La ruta relativa tiene el siguiente aspecto:
 
    Puede establecer el tamaño estático del visor declarándolo para la clase CSS de nivel superior `.s7panoramicviewer` en unidades absolutas o utilizando el modificador `stagesize`.
 
-   El tamaño en CSS se puede ajustar directamente en la página del HTML o en el archivo CSS de visor personalizado, que luego se asigna a un registro de ajuste preestablecido de visor en AOD o se pasa explícitamente mediante el comando de estilo. Consulte Personalización del visor para obtener más información sobre cómo aplicar estilo al visor con CSS. A continuación se muestra un ejemplo de definición del tamaño del visor estático en la página del HTML:
+   El tamaño en CSS se puede ajustar directamente en la página de HTML o en el archivo CSS de visor personalizado, que luego se asigna a un registro de ajuste preestablecido de visor en AOD o se pasa explícitamente mediante el comando de estilo. Consulte Personalización del visor para obtener más información sobre cómo aplicar estilo al visor con CSS. A continuación se muestra un ejemplo de definición del tamaño del visor estático en la página de HTML:
 
    ```html {.line-numbers}
    #s7viewer.s7panoramicviewer {
@@ -213,7 +213,7 @@ La ruta relativa tiene el siguiente aspecto:
 
 **Inserción de diseño interactivo con altura sin restricciones**
 
-Con la incrustación adaptable, la página web normalmente tiene algún tipo de diseño flexible que dicta el tamaño en tiempo de ejecución del DIV contenedor del visualizador. A los efectos de este ejemplo, supongamos que la página web permite que el DIV contenedor del visor ocupe el 80 % del tamaño de la ventana del explorador web, dejando su altura sin restricciones. El código del HTML de la página web puede tener este aspecto:
+Con la incrustación adaptable, la página web normalmente tiene algún tipo de diseño flexible que dicta el tamaño en tiempo de ejecución del DIV contenedor del visualizador. A los efectos de este ejemplo, supongamos que la página web permite que el DIV contenedor del visor ocupe el 80 % del tamaño de la ventana del explorador web, dejando su altura sin restricciones. El código HTML de la página web puede tener este aspecto:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -271,7 +271,7 @@ La siguiente página de ejemplos ilustra un uso más real de la incrustación de
 
 [Demostraciones en vivo](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Ubicación de demostración alternativa](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=es)
+[Ubicación de demostración alternativa](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 **Incrustación de diseño interactivo con anchura y altura definidas**
 

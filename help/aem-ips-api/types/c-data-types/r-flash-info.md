@@ -1,5 +1,5 @@
 ---
-description: Propiedades de un archivo de Flash.
+description: Propiedades de un archivo Flash.
 solution: Experience Manager
 title: FlashInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 20%
 
 # [!DNL FlashInfo]{#flashinfo}
 
-Propiedades de un archivo de Flash.
+Propiedades de un archivo Flash.
 
 Sintaxis
 

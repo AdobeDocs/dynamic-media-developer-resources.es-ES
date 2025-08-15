@@ -97,7 +97,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> pdfOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:PDFOptions</span> </td> 
-   <td colname="col3"> Opciones para cargar archivos del PDF en el servidor de imágenes. </td> 
+   <td colname="col3"> Opciones para cargar archivos de PDF en el servidor de imágenes. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> photoshopOptions</span> </span> </td> 

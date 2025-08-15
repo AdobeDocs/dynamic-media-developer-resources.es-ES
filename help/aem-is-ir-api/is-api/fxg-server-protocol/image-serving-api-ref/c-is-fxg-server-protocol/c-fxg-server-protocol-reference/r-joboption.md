@@ -1,5 +1,5 @@
 ---
-description: Aplicar opciones de trabajo de PDF. Un archivo de opciones de trabajo o ajuste preestablecido de PDF es un archivo generado por Illustrator en el cuadro de diálogo de opciones Guardar como PDF o en Ajustes preestablecidos de PDF en InDesign.
+description: Aplicar opciones de trabajo de PDF. Un archivo de opciones de trabajo o ajuste preestablecido de PDF es un archivo generado por Illustrator en el cuadro de diálogo de opciones Guardar como PDF o Ajustes preestablecidos de PDF en InDesign.
 solution: Experience Manager
 title: opción de trabajo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 38%
 
 # opción de trabajo{#joboption}
 
-Aplicar opciones de trabajo de PDF. Un archivo de opciones de trabajo o ajuste preestablecido de PDF es un archivo generado por Illustrator en el cuadro de diálogo de opciones Guardar como PDF o en Ajustes preestablecidos de PDF en InDesign.
+Aplicar opciones de trabajo de PDF. Un archivo de opciones de trabajo o ajuste preestablecido de PDF es un archivo generado por Illustrator en el cuadro de diálogo de opciones Guardar como PDF o Ajustes preestablecidos de PDF en InDesign.
 
 ` joboption= *`valor`*`
 
@@ -25,7 +25,7 @@ Aplicar opciones de trabajo de PDF. Un archivo de opciones de trabajo o ajuste p
  </tr> 
 </table>
 
-IPS/Dynamic Media Classic puede cargar y publicar el archivo de opciones de trabajo. Las opciones del PDF contenidas en el fichero de opciones de trabajo se utilizan cuando se genera el PDF.
+IPS/Dynamic Media Classic puede cargar y publicar el archivo de opciones de trabajo. Las opciones de PDF contenidas en el archivo de opciones de trabajo se utilizan cuando se genera PDF.
 
 Actualmente se admiten las siguientes opciones:
 

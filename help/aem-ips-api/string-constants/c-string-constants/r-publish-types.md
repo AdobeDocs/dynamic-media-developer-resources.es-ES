@@ -1,7 +1,7 @@
 ---
 description: Lo utiliza ImageServingPublishJob/publishType.
 solution: Experience Manager
-title: Tipos de Publish
+title: Tipos de publicación
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2bf45005-c1ad-4df9-9042-d3557b7b028c
@@ -12,7 +12,7 @@ ht-degree: 14%
 
 ---
 
-# Tipos de Publish{#publish-types}
+# Tipos de publicación{#publish-types}
 
 Lo utiliza ImageServingPublishJob/publishType.
 

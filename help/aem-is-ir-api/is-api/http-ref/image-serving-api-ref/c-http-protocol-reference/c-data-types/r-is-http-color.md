@@ -19,7 +19,7 @@ Valores de color. Puede especificar valores de color mediante notación hexadeci
 <table id="simpletable_9EBE66066E854ABE978F8F7ADC66BDE3"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> color</span> </span> </p></td> 
-  <td class="stentry"> <p> <span class="codeph">&club;&club;<span class="varname"> gray</span>[,<span class="varname"> alpha</span>][g]&rcub;|</span> </p> <p> <span class="codeph"> {<span class="varname"> rojo</span>,<span class="varname"> verde</span>,<span class="varname"> azul</span>[ ,<span class="varname"> rgbAlpha</span>][r]}|</span> </p> <p> <span class="codeph"> {<span class="varname"> cian</span>, <span class="varname"> magenta</span>, <span class="varname"> amarillo</span>, <span class="varname"> negro</span>[,alfa]k}|</span> </p> <p> <span class="codeph"> {0x{hex2|hex4}[g]}|</span> </p> <p> <span class="codeph">&lbrace;[0x]{<span class="varname"> hex6</span>|<span class="varname"> hex8</span>[r]}|</span> </p> <p> <span class="codeph"> {[0x]{<span class="varname"> hex8</span>|<span class="varname"> hex10</span>}k}&rcub;[s]</span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph">&amp;club;&amp;club;<span class="varname"> gray</span>[,<span class="varname"> alpha</span>][g]&amp;rcub;|</span> </p> <p> <span class="codeph"> {<span class="varname"> rojo</span>,<span class="varname"> verde</span>,<span class="varname"> azul</span>[ ,<span class="varname"> rgbAlpha</span>][r]}|</span> </p> <p> <span class="codeph"> {<span class="varname"> cian</span>, <span class="varname"> magenta</span>, <span class="varname"> amarillo</span>, <span class="varname"> negro</span>[,alfa]k}|</span> </p> <p> <span class="codeph"> {0x{hex2|hex4}[g]}|</span> </p> <p> <span class="codeph">{[0x]{<span class="varname"> hex6</span>|<span class="varname"> hex8</span>[r]}|</span> </p> <p> <span class="codeph"> {[0x]{<span class="varname"> hex8</span>|<span class="varname"> hex10</span>}k}&amp;rcub;[s]</span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> rojo</span>, <span class="varname"> verde</span>, <span class="varname"> azul</span>, <span class="varname"> rgbAlpha</span></span> </p> </td> 
@@ -61,7 +61,7 @@ Los valores de los componentes de color se suponen independientes del valor alfa
 
 Todos los valores de color, prefijos y sufijos no distinguen entre mayúsculas y minúsculas.
 
-Se requiere el sufijo de tipo &#39;k&#39; para los valores de color CMYK. Opcionalmente, se puede especificar un sufijo de tipo para los valores de color RGB y gris.
+Se requiere el sufijo de tipo &#39;k&#39; para los valores de color CMYK. Opcionalmente, se puede especificar un sufijo de tipo para los valores de color gris y RGB.
 
 El prefijo &quot;0x&quot; es necesario para valores hexadecimales de color gris.
 

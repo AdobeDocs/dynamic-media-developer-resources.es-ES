@@ -35,11 +35,11 @@ La sintaxis básica del protocolo HTTP es la siguiente:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> modificador</span> </span> </p></td> 
-  <td class="stentry"> <p><span class="codeph">comando|{$<span class="varname"> macro</span>$}|&lbrace;.<span class="varname"> comentario</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">comando|{$<span class="varname"> macro</span>$}|{.<span class="varname"> comentario</span></span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> comando</span> </span> </p> </td> 
-  <td class="stentry"> <p>&lbrace;<span class="varname"> cmdName</span>|{$<span class="varname"> var</span>}[=<span class="varname"> value</span>] </p></td> 
+  <td class="stentry"> <p>{<span class="varname"> cmdName</span>|{$<span class="varname"> var</span>}[=<span class="varname"> value</span>] </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> macro</span> </span> </p> </td> 
@@ -81,7 +81,7 @@ El servicio de imágenes primero extrae *`object`* y *`modifiers`* de la solicit
 
 ## Comentarios {#section-69ef0be0f17a418c87a0eba21c2ddb00}
 
-Los comentarios se pueden incrustar en cadenas de solicitud en cualquier lugar y se identifican con un punto (.) inmediatamente después del separador de comandos (&amp;). El comentario termina con la siguiente aparición de un separador de comandos (no codificado). Esta función se puede utilizar para agregar información a la solicitud que no sea para uso del servicio de imágenes, como marcas de tiempo e ID de bases de datos.
+Los comentarios pueden incrustarse en las cadenas de solicitud en cualquier lugar y se identifican con un punto (.) inmediatamente después del comando separator(&amp;). El comentario termina con la siguiente aparición de un separador de comandos (no codificado). Esta función se puede utilizar para agregar información a la solicitud que no sea para uso del servicio de imágenes, como marcas de tiempo e ID de bases de datos.
 
 ## Véase también {#section-d0b836568c31454b8dbeb136e6bbe0f0}
 

@@ -97,7 +97,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> caseSensitive</span> </span> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> Establece la distinción entre mayúsculas y minúsculas en el servidor de metadatos. Se utiliza en la llamada a searchAssetsByMetadata</span> de <span class="codeph">. </p> <p>Consulte <a href="../../operations/c-operations-intro/c-methods/r-search-assets-by-metadata.md#reference-609ec73944a34ce49b152389fbb40414" format="dita" scope="local"> searchAssetsByMetadata</a>. </p> </td> 
+   <td colname="col3"> <p> Establece la distinción entre mayúsculas y minúsculas en el servidor de metadatos. Se utiliza en la llamada a searchAssetsByMetadata<span class="codeph"> de </span>. </p> <p>Consulte <a href="../../operations/c-operations-intro/c-methods/r-search-assets-by-metadata.md#reference-609ec73944a34ce49b152389fbb40414" format="dita" scope="local"> searchAssetsByMetadata</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

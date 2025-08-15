@@ -1,7 +1,7 @@
 ---
 description: Utilizado por PDFOptions/type.
 solution: Experience Manager
-title: Procesos del PDF
+title: Procesos de PDF
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 4b389448-8611-4306-921a-bb1dd9361932
@@ -12,7 +12,7 @@ ht-degree: 14%
 
 ---
 
-# Procesos del PDF{#pdf-processes}
+# Procesos de PDF{#pdf-processes}
 
 Utilizado por PDFOptions/type.
 

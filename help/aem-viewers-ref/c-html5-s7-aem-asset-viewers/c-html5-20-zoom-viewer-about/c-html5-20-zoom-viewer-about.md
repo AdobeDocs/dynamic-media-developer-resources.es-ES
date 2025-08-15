@@ -33,7 +33,7 @@ Consulte [Requisitos y requisitos previos del sistema](../../c-system-requiremen
 
 Visor de zoom representa un archivo JavaScript principal y un conjunto de archivos de ayuda (una sola inclusión JavaScript con todos los componentes SDK del visor utilizados por este visor, recursos y CSS en particular) descargados por el visor en tiempo de ejecución.
 
-Puede utilizar el visualizador de zoom en modo emergente mediante una página de HTML lista para la producción proporcionada con visores IS o en modo incrustado, donde se integra en la página web de destino mediante una API documentada.
+Puede utilizar el Visor de zoom en modo emergente utilizando una página de HTML lista para la producción proporcionada con visores IS o en modo incrustado, donde se integra en la página web de destino mediante una API documentada.
 
 La configuración y el desollado son similares a los de otros visores. Todo el desollado se logra mediante CSS personalizado.
 
@@ -88,15 +88,15 @@ Las distintas páginas web tienen diferentes necesidades de comportamiento del v
 
 En el modo emergente, el visor se abre en una ventana o pestaña independiente del explorador web. Ocupa todo el área de la ventana del explorador y se ajusta en caso de que se cambie el tamaño del explorador o la orientación del dispositivo.
 
-Este modo es el más común para dispositivos móviles. La página web carga el visor mediante la llamada de JavaScript `window.open()`, el elemento de HTML `A` configurado correctamente o cualquier otro método adecuado.
+Este modo es el más común para dispositivos móviles. La página web carga el visor mediante la llamada de JavaScript `window.open()`, el elemento HTML `A` configurado correctamente o cualquier otro método adecuado.
 
-Se recomienda utilizar una página de HTML predeterminada para el modo de operación emergente. La página de HTML predeterminada se llama `ZoomViewer.html` y se encuentra en la subcarpeta `html5/` de su implementación estándar de visores de servicio de Internet (IS-Viewers), como se muestra a continuación:
+Se recomienda utilizar una página de HTML predeterminada para el modo de operación emergente. La página predeterminada de HTML se llama `ZoomViewer.html` y se encuentra en la subcarpeta `html5/` de su implementación estándar de visores de servicio de imágenes, como se muestra a continuación:
 
 `<s7viewers_root>/html5/ZoomViewer.html`
 
 Aplique CSS personalizado para lograr un aspecto personalizado para la página.
 
-A continuación se muestra un ejemplo de código de HTML que abre el visor en la nueva ventana:
+A continuación se muestra un ejemplo de código HTML que abre el visor en la nueva ventana:
 
 ```html {.line-numbers}
  <a href="http://s7d1.scene7.com/s7viewers/html5/ZoomViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample" 
@@ -113,7 +113,7 @@ La incrustación de tamaño fijo se utiliza cuando el visor no cambia su tamaño
 
 El modo de incrustación de diseño interactivo supone que es necesario cambiar el tamaño del visor durante el tiempo de ejecución debido al cambio de tamaño de su contenedor `DIV`. El caso de uso más común es añadir un visor a una página web que utilice un diseño flexible.
 
-En el modo de incrustación de diseño interactivo, el visor se comporta de forma diferente según la forma en que la página web ajusta el tamaño de su contenedor `DIV`. Si la página web solo establece la anchura del contenedor `DIV` y deja su altura sin restricciones, el visor elige automáticamente su altura según la proporción de aspecto del recurso que se utilice. Esta lógica garantiza que el recurso se ajuste perfectamente a la vista sin ningún relleno en los lados. Este caso de uso es el más común para páginas web que utilizan marcos de diseño adaptables, como Bootstrap y Foundation.
+En el modo de incrustación de diseño interactivo, el visor se comporta de forma diferente según la forma en que la página web ajusta el tamaño de su contenedor `DIV`. Si la página web solo establece la anchura del contenedor `DIV` y deja su altura sin restricciones, el visor elige automáticamente su altura según la proporción de aspecto del recurso que se utilice. Esta lógica garantiza que el recurso se ajuste perfectamente a la vista sin ningún relleno en los lados. Este caso de uso es el más común para páginas web que utilizan marcos de diseño adaptables como Bootstrap y Foundation.
 
 Si la página web establece tanto la anchura como la altura del contenedor del visor `DIV`, el visor rellena ese área y sigue el tamaño que proporciona la página web. Por ejemplo, al incrustar el visor en una superposición modal, donde el tamaño de la superposición depende del tamaño de la ventana del explorador web.
 
@@ -128,7 +128,7 @@ Para agregar el visor a una página web, haga lo siguiente:
 
 1. Añadir el archivo de JavaScript del visor a la página web.
 
-   La creación de un visor requiere que añada una etiqueta de script en el encabezado del HTML. Antes de usar la API de visor, asegúrese de incluir [!DNL ZoomViewer.js]. El archivo [!DNL ZoomViewer.js] se encuentra en la subcarpeta [!DNL html5/js/] de su implementación estándar de visores IS:
+   La creación de un visor requiere que añada una etiqueta de script en el encabezado de HTML. Antes de usar la API de visor, asegúrese de incluir [!DNL ZoomViewer.js]. El archivo [!DNL ZoomViewer.js] se encuentra en la subcarpeta [!DNL html5/js/] de su implementación estándar de visores IS:
 
 [!DNL <s7viewers_root>/html5/js/ZoomViewer.js]
 
@@ -142,7 +142,7 @@ La ruta relativa tiene el siguiente aspecto:
 
 >[!NOTE]
 >
->Solo haga referencia al archivo de JavaScript `include` del visor principal en su página. No haga referencia a ningún archivo JavaScript adicional en el código de la página web que la lógica del visor pueda descargar durante la ejecución. En particular, no haga referencia directamente a la biblioteca `Utils.js` del SDK de HTML5 cargada por el visor desde la ruta de contexto `/s7viewers` (denominado SDK consolidado `include`). El motivo es que la ubicación de `Utils.js` o bibliotecas similares del visor en tiempo de ejecución está completamente administrada por la lógica del visor y la ubicación cambia entre versiones del visor. El Adobe no mantiene versiones anteriores del visor secundario `includes` en el servidor.
+>Solo haga referencia al archivo de JavaScript `include` del visor principal en su página. No haga referencia a ningún archivo JavaScript adicional en el código de la página web que la lógica del visor pueda descargar durante la ejecución. En particular, no haga referencia directamente a la biblioteca HTML5 SDK `Utils.js` cargada por el visor desde la ruta de contexto `/s7viewers` (denominada SDK consolidado `include`). El motivo es que la ubicación de `Utils.js` o bibliotecas similares del visor en tiempo de ejecución está completamente administrada por la lógica del visor y la ubicación cambia entre versiones del visor. Adobe no mantiene versiones anteriores del visor secundario `includes` en el servidor.
 >
 >
 >Como resultado, al establecer una referencia directa a cualquier JavaScript `include` secundario que use el visor en la página, se interrumpe la funcionalidad del visor en el futuro cuando se implemente una nueva versión del producto.
@@ -163,11 +163,11 @@ La ruta relativa tiene el siguiente aspecto:
 
    Este visor muestra miniaturas cuando se trabaja con conjuntos de varios elementos; en los sistemas de escritorio, las miniaturas se colocan debajo de la vista principal. Al mismo tiempo, el visor permite el intercambio del recurso principal en tiempo de ejecución mediante la API `setAsset()`. Como desarrollador, tiene control sobre cómo administra el visor el área de miniaturas en la parte inferior cuando el nuevo recurso solo tiene un elemento. Es posible mantener intacto el tamaño del visor exterior y permitir que la vista principal aumente su altura y ocupe el área de miniaturas. O bien, puede mantener el tamaño de la vista principal estático y contraer el área del visor exterior, permitiendo que el contenido de la página web se mueva hacia arriba, y utilizar los bienes raíces en pantalla libre que quedan de las miniaturas.
 
-   Para mantener intactos los límites del visor exterior, defina el tamaño de la clase CSS de nivel superior `.s7zoomviewer` en unidades absolutas. El tamaño en CSS se puede ajustar directamente en la página del HTML. O bien, se puede colocar en un archivo CSS de visor personalizado, que luego se asigna a un registro de ajuste preestablecido de visor en Dynamic Media Classic o se pasa explícitamente mediante un comando de estilo.
+   Para mantener intactos los límites del visor exterior, defina el tamaño de la clase CSS de nivel superior `.s7zoomviewer` en unidades absolutas. El tamaño en CSS se puede ajustar directamente en la página de HTML. O bien, se puede colocar en un archivo CSS de visor personalizado, que luego se asigna a un registro de ajuste preestablecido de visor en Dynamic Media Classic o se pasa explícitamente mediante un comando de estilo.
 
    Consulte [Personalización del visor de zoom](../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/c-html5-20-zoom-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) para obtener más información sobre cómo aplicar estilo al visor con CSS.
 
-   A continuación se muestra un ejemplo de definición de un tamaño de visor externo estático en una página de HTML:
+   A continuación se muestra un ejemplo de definición de un tamaño de visor exterior estático en una página de HTML:
 
    ```html {.line-numbers}
    #s7viewer.s7zoomviewer { 
@@ -178,7 +178,7 @@ La ruta relativa tiene el siguiente aspecto:
 
    Puede ver el comportamiento con un visor exterior fijo en el siguiente ejemplo. Tenga en cuenta que cuando cambia entre conjuntos, el tamaño del visor exterior no cambia:
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html?lang=es](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html?lang=es)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html)
 
    Para que las dimensiones de la vista principal sean estáticas, defina el tamaño del visor en unidades absolutas para el componente SDK `Container` interno mediante el selector CSS `.s7zoomviewer` `.s7container` o mediante el modificador `stagesize`.
 
@@ -193,7 +193,7 @@ La ruta relativa tiene el siguiente aspecto:
 
    La siguiente página de demostración muestra el comportamiento del visor con un tamaño de vista principal fijo. Tenga en cuenta que cuando cambia entre conjuntos, la vista principal permanece estática y el contenido de la página web se mueve verticalmente.
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html?lang=es](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html?lang=es)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html)
 
    Puede establecer el modificador `stagesize` en el registro de ajuste preestablecido de visualizador en Dynamic Media Classic. O bien, puede pasarlo explícitamente con el código de inicialización del visor con la colección `params` o como una llamada de API como se describe en la sección Referencia de comandos de esta Ayuda, como en el ejemplo siguiente:
 
@@ -259,7 +259,7 @@ La ruta relativa tiene el siguiente aspecto:
 
 ## Inserción de diseño interactivo con altura sin restricciones {#section-b9ca11a7e7aa4f74ab43244cbca37ae0}
 
-Con incrustación de diseño interactivo, la página web normalmente tiene algún tipo de diseño flexible que dicta el tamaño de tiempo de ejecución del contenedor del visor `DIV`. En el siguiente ejemplo, supongamos que la página web permite que el contenedor del visor `DIV` ocupe el 40% del tamaño de la ventana del explorador web, sin restringir su altura. El código del HTML de la página web tendría el siguiente aspecto:
+Con incrustación de diseño interactivo, la página web normalmente tiene algún tipo de diseño flexible que dicta el tamaño de tiempo de ejecución del contenedor del visor `DIV`. En el siguiente ejemplo, supongamos que la página web permite que el contenedor del visor `DIV` ocupe el 40% del tamaño de la ventana del explorador web, sin restringir su altura. El código HTML de la página web tendría el siguiente aspecto:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 

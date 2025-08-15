@@ -1,19 +1,19 @@
 ---
 cloud: Experience Cloud
-user-guide-title: API del sistema de producción de imágenes Dynamic Media
+user-guide-title: API del sistema de producción de imágenes de Dynamic Media
 feature-set: Experience Manager Assets
 user-guide-description: La API del servicio web IPS (Image Production System) permite a las aplicaciones externas y a los desarrolladores terceros acceder mediante programación a los recursos y las funciones de IPS.
 source-git-commit: 72f9cd1b1de82cbeeb8d41fb0f1cf0b51744a8a3
 workflow-type: tm+mt
 source-wordcount: '661'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
 
-# API del sistema de producción de imágenes Dynamic Media {#image-production-api}
+# API del sistema de producción de imágenes de Dynamic Media {#image-production-api}
 
-+ [Acerca de la API del sistema de producción de imágenes Dynamic Media](c-overview.md)
++ [Acerca de la API del sistema de producción de imágenes de Dynamic Media](c-overview.md)
 + [Llamadas obsoletas](c-deprecated-calls.md)
 + [Versiones WSDL del servicio web IPS](c-wsdl-versions.md)
 + Métodos de operación {#operation-methods}
@@ -419,16 +419,16 @@ ht-degree: 3%
    + [Tipos de trabajos](string-constants/c-string-constants/r-job-types.md)
    + [Tipos de campos de metadatos](string-constants/c-string-constants/r-metadata-field-types.md)
    + [Operadores de comparación numéricos/de fecha](string-constants/c-string-constants/r-numeric-date-comparison-operators.md)
-   + [Procesos del PDF](string-constants/c-string-constants/r-pdf-processes.md)
+   + [Procesos de PDF](string-constants/c-string-constants/r-pdf-processes.md)
    + [Tipos de permisos](string-constants/c-string-constants/r-permission-types.md)
    + [Modos de anclaje de Photoshop](string-constants/c-string-constants/r-photoshop-anchor-modes.md)
    + [Modos de nomenclatura de capas Photoshop](string-constants/c-string-constants/r-photoshop-layer-naming-modes.md)
    + [Modos de espacio de color PostScript](string-constants/c-string-constants/r-postscript-colorspace-modes.md)
    + [Clases de perfil](string-constants/c-string-constants/r-profile-classes.md)
-   + [Estado de Publish](string-constants/c-string-constants/r-publish-state.md)
+   + [Estado de publicación](string-constants/c-string-constants/r-publish-state.md)
    + [Tipos de conjuntos de propiedades](string-constants/c-string-constants/r-property-set-types.md)
-   + [Contexto de Publish](string-constants/c-string-constants/r-publish-context.md)
-   + [Tipos de Publish](string-constants/c-string-constants/r-publish-types.md)
+   + [Contexto de publicación](string-constants/c-string-constants/r-publish-context.md)
+   + [Tipos de publicación](string-constants/c-string-constants/r-publish-types.md)
    + [Forma de región](string-constants/c-string-constants/r-region-shape.md)
    + [Buscar modos de coincidencia](string-constants/c-string-constants/r-search-match-modes.md)
    + [Ordenar direcciones](string-constants/c-string-constants/r-sort-directions.md)
@@ -438,7 +438,7 @@ ht-degree: 3%
    + [Funciones del usuario](string-constants/c-string-constants/r-user-roles.md)
    + [Campos de ordenación de usuario](string-constants/c-string-constants/r-user-sort-fields.md)
    + [Tipo de visor](string-constants/c-string-constants/r-viewer-type.md)
-+ Errores {#faults}
++ Fallos {#faults}
    + [Resumen de errores](faults/c-faults/c-faults.md)
    + [authenticationFault](faults/c-faults/r-authentication-fault.md)
    + [authorizationFault](faults/c-faults/r-authorization-fault.md)

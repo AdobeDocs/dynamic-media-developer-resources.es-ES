@@ -41,7 +41,7 @@ Se permiten los siguientes valores:
 
 * Se recomienda el nivel 0 para servidores activos a los que se puede acceder públicamente.
 * Se recomienda el nivel 2 para los servidores de ensayo, garantía de calidad y desarrollo de aplicaciones.
-* La información del nivel 3 puede resultar útil cuando se informa de problemas al servicio de asistencia técnica de Dynamic Media.
+* La información de nivel 3 puede resultar útil cuando se notifican problemas al servicio de asistencia técnica de Dynamic Media.
 
 ## Propiedades {#section-f03f9a8edd6a4d99aff38fbec41c4b80}
 

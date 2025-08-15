@@ -1,5 +1,5 @@
 ---
-description: Ajuste el margen de recorte. Define el margen de recorte definido en el fichero de PDF.
+description: Ajuste el margen de recorte. Define el margen de recorte definido en el archivo PDF.
 solution: Experience Manager
 title: trimMargin
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # trimMargin{#trimmargin}
 
-Ajuste el margen de recorte. Define el margen de recorte definido en el fichero de PDF.
+Ajuste el margen de recorte. Define el margen de recorte definido en el archivo PDF.
 
 ` trimMargin=[ *[!DNL top]*[, *[!DNL left]*= *[!DNL top]*[, *[!DNL bottom]*= *[!DNL top]*[, *[!DNL right]*= *[!DNL left]*]]]]` en puntos
 

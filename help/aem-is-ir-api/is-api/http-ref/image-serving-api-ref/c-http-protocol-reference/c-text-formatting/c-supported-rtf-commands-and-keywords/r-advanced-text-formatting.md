@@ -88,7 +88,7 @@ Utilice los siguientes comandos para aplicar formato de texto avanzado.
   <tr> 
    <td> <span class="codeph"> \copyfitlines <span class="varname"> N </span> </span> </td> 
    <td> <p>Máximo de líneas de ajuste de copia (límite suave). </p> </td> 
-   <td> <p>0 para ninguna limitación de línea; <span class="codeph"> textPs= </span> solamente; extensión de Dynamic Media. </p> </td> 
+   <td> <p>0 para la limitación sin líneas; solo <span class="codeph"> textPs= </span>; extensión de Dynamic Media. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \copyfitmaxlines <span class="varname"> N </span> </span> </td> 

@@ -18,7 +18,7 @@ Para añadir la biblioteca de imágenes adaptables a una página web y administr
 
 **Para usar la biblioteca de imágenes adaptables**
 
-1. En Dynamic Media Classic, [cree un ajuste preestablecido de imagen](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html?lang=es#image-sizing) en caso de que planee usar la biblioteca de imágenes adaptables con ajustes preestablecidos.
+1. En Dynamic Media Classic, [cree un ajuste preestablecido de imagen](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing) en caso de que planee usar la biblioteca de imágenes adaptables con ajustes preestablecidos.
 
    Cuando defina ajustes preestablecidos de imagen que se utilizan con la biblioteca de imágenes adaptables, no utilice ninguna configuración que afecte al tamaño de la imagen, como `wid=`, `hei=` o `scl=`. No especifique ningún campo de tamaño en el ajuste preestablecido de imagen. En su lugar, déjelos como valores en blanco.
 1. Añada el archivo JavaScript de biblioteca a la página web.
@@ -30,9 +30,9 @@ Para añadir la biblioteca de imágenes adaptables a una página web y administr
 
    La biblioteca lee ciertos atributos de configuración de una instancia de imagen con la que está trabajando. Defina los atributos antes de que se llame a la función de API `s7responsiveImage` para dicha imagen.
 
-   También se recomienda colocar la dirección URL de la imagen existente en el atributo `data-src`. A continuación, configure el atributo `src` existente para que tenga una imagen de GIF 1x1 codificada como URI de datos. Al hacerlo, reduce el número de solicitudes HTTP que envía la página web en el momento de la carga. Sin embargo, tenga en cuenta que si se necesita SEO (optimización del motor de búsqueda), es mejor configurar un atributo `title` en la instancia de imagen.
+   También se recomienda colocar la dirección URL de la imagen existente en el atributo `data-src`. A continuación, configure el atributo `src` existente para que tenga una imagen GIF 1x1 codificada como URI de datos. Al hacerlo, reduce el número de solicitudes HTTP que envía la página web en el momento de la carga. Sin embargo, tenga en cuenta que si se necesita SEO (optimización del motor de búsqueda), es mejor configurar un atributo `title` en la instancia de imagen.
 
-   A continuación se muestra un ejemplo de la definición del atributo `data-breakpoints` para la imagen y el uso de un GIF 1x1 codificado como URI de datos:
+   A continuación se muestra un ejemplo de la definición del atributo `data-breakpoints` para la imagen y el uso de una GIF 1x1 codificada como URI de datos:
 
    ```
    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
@@ -85,7 +85,7 @@ El siguiente código es un ejemplo completo de una página web trivial que tiene
 
 **Usando recorte inteligente**
 
-AEM Hay dos modos de recorte inteligente disponibles en la versión 6.4 de la versión y en la versión 5.9 de los visores de Dynamic Media:
+Hay dos modos de recorte inteligente disponibles en AEM 6.4 y Dynamic Media Viewers 5.9:
 
 * **Manual**: los puntos de interrupción definidos por el usuario y los comandos correspondientes del servicio de imágenes se definen dentro de un atributo en el elemento de imagen.
 * **Recorte inteligente**: las representaciones de recorte inteligente calculadas se recuperan automáticamente del servidor de entrega. La mejor representación se selecciona utilizando el tamaño de tiempo de ejecución del elemento de imagen.

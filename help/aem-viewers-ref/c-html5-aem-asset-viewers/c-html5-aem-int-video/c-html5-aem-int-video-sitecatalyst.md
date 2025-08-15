@@ -1,6 +1,6 @@
 ---
 title: Compatibilidad con el seguimiento de Adobe Analytics
-description: El Visor HTML 5 Video360 es compatible con el seguimiento de Adobe Analytics de forma predeterminada.
+description: El visor HTML5 Video360 es compatible con el seguimiento de Adobe Analytics de forma predeterminada.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User,Data Engineer,Data Architect
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Compatibilidad con el seguimiento de Adobe Analytics{#support-for-adobe-analytics-tracking}
 
-El Visor HTML 5 Video360 es compatible con el seguimiento de Adobe Analytics de forma predeterminada.
+El visor HTML5 Video360 es compatible con el seguimiento de Adobe Analytics de forma predeterminada.
 
 Para habilitar el seguimiento, pase el nombre del ajuste preestablecido de empresa adecuado como parámetro `config2`.
 
@@ -47,12 +47,12 @@ var video360Viewer = new s7viewers.Video360Viewer({
 });
 ```
 
-El visor realiza un seguimiento de los siguientes eventos de usuarios del SDK:
+El visor realiza un seguimiento de los siguientes eventos de usuarios de SDK:
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Evento de usuario del SDK </p> </th> 
+   <th colname="col1" class="entry"> <p>Evento de usuario de SDK </p> </th> 
    <th colname="col2" class="entry"> <p>Enviado... </p> </th> 
   </tr> 
  </thead>
@@ -63,7 +63,7 @@ El visor realiza un seguimiento de los siguientes eventos de usuarios del SDK:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> INTERCAMBIAR </span> </p> </td> 
-   <td colname="col2"> <p>cuando se intercambia un recurso en el visor mediante la API setAsset() </span> de <span class="codeph">. </p> </td> 
+   <td colname="col2"> <p>cuando se intercambia un recurso en el visor mediante la API setAsset() <span class="codeph"> de </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> REPRODUCIR </span> </p> </td> 

@@ -27,7 +27,7 @@ Conversión de formato del explorador. Especifica si la funcionalidad de convers
 
 ## Propiedades {#section-19dfc13e997f4a33889a1df1e4ad50b9}
 
-Atributo de solicitud. No tiene ningún efecto si no se solicita un archivo PNG o de JPEG.
+Atributo de solicitud. No tiene ningún efecto si no se solicita un archivo JPEG o PNG.
 
 ## Predeterminado {#section-ecc2385ed8c0408cbab3f5cf9c079dad}
 
@@ -35,4 +35,4 @@ Atributo de solicitud. No tiene ningún efecto si no se solicita un archivo PNG 
 
 ## Véase también {#section-64b3f153c6d94ab58f46e77324697818}
 
-[Bfc](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-bfc.md#reference-5217a41d9d7447d6b0624077eb38d3de), [dpr](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-dpr.md), [red](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md), [Imágenes inteligentes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=es)
+[Bfc](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-bfc.md#reference-5217a41d9d7447d6b0624077eb38d3de), [dpr](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-dpr.md), [red](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md), [Imágenes inteligentes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=en)

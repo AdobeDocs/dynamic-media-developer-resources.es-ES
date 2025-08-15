@@ -20,6 +20,6 @@ El registro de acceso está configurado en server.xml.
 
 >[!NOTE]
 >
->Además del tráfico de cliente para el servicio de imágenes ([!DNL /is/image/*]) y el procesamiento de imágenes ([!DNL /ir/render/*]), el registro de acceso puede incluir cierto tráfico interno: acceso al sistema de catálogo [!DNL Platform Server] ([!DNL /is-catalog/*]), uso compartido de caché y solicitudes de redirección de error ([!DNL /is/cache/*]), acceso a otros paquetes implementados en [!DNL Platform Server], como los visores de Dynamic Media ([!DNL /is-viewers/*]), tráfico estático y solicitudes de contenido estático atendidas por [!DNL Platform Server] (por ejemplo, [!DNL /is-docs/*]).
+>Además del tráfico de cliente para el servicio de imágenes ([!DNL /is/image/*]) y el procesamiento de imágenes ([!DNL /ir/render/*]), el registro de acceso puede incluir cierto tráfico interno: acceso al sistema de catálogos [!DNL Platform Server] ([!DNL /is-catalog/*]), solicitudes de redirección de error y uso compartido de caché ([!DNL /is/cache/*]), acceso a otros paquetes implementados en [!DNL Platform Server], como los visores de Dynamic Media ([!DNL /is-viewers/*]), tráfico estático y solicitudes de contenido estático atendidas por [!DNL Platform Server] (por ejemplo, [!DNL /is-docs/*]).
 
 Las solicitudes con [!DNL /is-catalog] y [!DNL /is/cache] rutas de acceso raíz siempre deben excluirse de cualquier análisis de tráfico de cliente.

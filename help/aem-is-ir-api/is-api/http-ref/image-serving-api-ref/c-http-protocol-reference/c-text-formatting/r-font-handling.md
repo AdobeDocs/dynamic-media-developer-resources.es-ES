@@ -20,7 +20,7 @@ La mejor calidad para el texto en cursiva y en negrita se logra registrando los 
 
 La fuente especificada con `attribute::DefaultFont` se usa cuando ninguna se especifica explícitamente en la cadena RTF.
 
-El servicio de imágenes admite fuentes TrueType, OpenType ®, Adobe Type 1 (solo Windows).
+El servicio de imágenes admite fuentes TrueType, OpenType® y Adobe Type 1 (solo Windows).
 
 <!-- THIS APPEARS TO BE VERY OLD OUTDATED INFORMATION; URL IS DEAD TOO ## Photofont&reg; font support {#section-74560ae898cf4708aba4c8b4093f5f00}
 

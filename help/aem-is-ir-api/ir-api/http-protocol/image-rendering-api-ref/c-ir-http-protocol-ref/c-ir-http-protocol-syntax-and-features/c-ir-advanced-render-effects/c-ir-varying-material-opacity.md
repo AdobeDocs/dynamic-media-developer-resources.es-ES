@@ -16,7 +16,7 @@ ht-degree: 0%
 
 La opacidad variable se admite para el color sólido y las texturas repetibles aplicadas a objetos superpuestos, así como para calcomanías y materiales que cubren las ventanas.
 
-La información de opacidad se puede proporcionar simplemente utilizando una imagen de RGB con un canal alfa. Además, la opacidad general se puede variar con el comando `opacity=` (tanto para imágenes RGB como RGBA).
+La información de opacidad se puede proporcionar simplemente utilizando una imagen de RGB con un canal alfa. Además, la opacidad general puede variar con el comando `opacity=` (tanto para imágenes RGB como RGBA).
 
 Los bordes de pared también admiten imágenes RGBA, principalmente para apoyar bordes troquelados.
 

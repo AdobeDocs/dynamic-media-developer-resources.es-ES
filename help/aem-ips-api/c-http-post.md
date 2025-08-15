@@ -1,6 +1,6 @@
 ---
 title: Carga de recursos mediante POST HTTP en el servlet UploadFile
-description: La carga de recursos en  [!DNL Dynamic Media] Classic implica una o más solicitudes de POST HTTP que configuran un trabajo para coordinar toda la actividad de registro asociada con los archivos cargados.
+description: La carga de recursos en  [!DNL Dynamic Media] Classic implica una o más solicitudes HTTP POST que configuran un trabajo para coordinar toda la actividad de registro asociada con los archivos cargados.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Carga de recursos mediante POST HTTP en el servlet UploadFile{#uploading-assets-by-way-of-http-posts-to-the-uploadfile-servlet}
 
-La carga de recursos en Dynamic Media Classic implica una o más solicitudes de POST HTTP que configuran un trabajo para coordinar toda la actividad de registro asociada con los archivos cargados.
+La carga de recursos en Dynamic Media Classic implica una o más solicitudes HTTP POST que configuran un trabajo para coordinar toda la actividad de registro asociada con los archivos cargados.
 
 Utilice la siguiente URL para acceder al servlet UploadFile:
 
@@ -24,7 +24,7 @@ https://<server>/scene7/UploadFile
 
 >[!NOTE]
 >
->Todas las solicitudes de POST para un trabajo de carga deben proceder de la misma dirección IP.
+>Todas las peticiones POST de un trabajo de carga deben proceder de la misma dirección IP.
 
 **URL de acceso para regiones de Dynamic Media**
 
@@ -61,14 +61,14 @@ El trabajo de carga consiste en uno o más POST HTTP que utilizan un `jobHandle`
 
 >[!NOTE]
 >
->Todas las solicitudes de POST para un trabajo de carga deben proceder de la misma dirección IP.
+>Todas las peticiones POST de un trabajo de carga deben proceder de la misma dirección IP.
 
-|  Parte del formulario del POST HTTP  |  Descripción  |
+|  parte del formulario HTTP POST  |  Descripción  |
 |---|---|
-| `auth`  |   Requerido. Documento XML authHeader que especifica la información de autenticación y de cliente. SOAP Ver **Solicitud de autenticación** en [&#128279;](/help/aem-ips-api/c-wsdl-versions.md). |
-| `file params`  |   Opcional. Puede incluir uno o más archivos para cargar con cada solicitud de POST. Cada parte del archivo puede incluir un parámetro filename en el encabezado Content-Disposition que se utiliza como nombre de archivo de destino en IPS si no se especifica ningún parámetro `uploadPostParams/fileName`. |
+| `auth`  |   Requerido. Documento XML authHeader que especifica la información de autenticación y de cliente. Ver **Solicitud de autenticación** en [SOAP](/help/aem-ips-api/c-wsdl-versions.md). |
+| `file params`  |   Opcional. Puede incluir uno o más archivos para cargar con cada petición POST. Cada parte del archivo puede incluir un parámetro filename en el encabezado Content-Disposition que se utiliza como nombre de archivo de destino en IPS si no se especifica ningún parámetro `uploadPostParams/fileName`. |
 
-|  Parte del formulario del POST HTTP   |  Nombre del elemento uploadPostParams   |  Tipo   |  Descripción   |
+|  parte del formulario HTTP POST   |  Nombre del elemento uploadPostParams   |  Tipo   |  Descripción   |
 |---|---|---|---|
 | `uploadParams` (obligatorio). Un documento XML `uploadParams` que especifica los parámetros de carga)   |   `companyHandle`  |  `xsd:string`  | Requerido. Identificador de la empresa a la que se carga el archivo.  |
 | `uploadParams` (obligatorio). Un documento XML `uploadParams` que especifica los parámetros de carga) | `jobName`  |  `xsd:string`  | Se requiere `jobName` o `jobHandle`. Nombre del trabajo de carga.  |
@@ -86,13 +86,13 @@ Consulte [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca23
 
 Aunque puede suponer que el parámetro `uploadParams` puede cambiar para archivos individuales como parte del mismo trabajo, no es el caso. Usar los mismos `uploadParams` parámetros para todo el trabajo.
 
-La solicitud inicial del POST para un nuevo trabajo de carga debe especificar el parámetro `jobName`, preferiblemente con un nombre de trabajo único para simplificar las consultas subsiguientes de sondeo de estado de trabajo y registro de trabajo. Las solicitudes de POST adicionales para el mismo trabajo de carga deben especificar el parámetro `jobHandle` en lugar de `jobName`, utilizando el valor `jobHandle` devuelto desde la solicitud inicial.
+La solicitud de POST inicial para un nuevo trabajo de carga debe especificar el parámetro `jobName`, preferiblemente mediante un nombre de trabajo único para simplificar las consultas de registro y sondeo de estado del trabajo subsiguientes. Las solicitudes POST adicionales para el mismo trabajo de carga deben especificar el parámetro `jobHandle` en lugar de `jobName`, utilizando el valor `jobHandle` devuelto desde la solicitud inicial.
 
-La solicitud final del POST para un trabajo de carga debe establecer el parámetro `endJob` en true para que no se publiquen archivos futuros para este trabajo. A su vez, esto permite que el trabajo se complete inmediatamente después de ingerir todos los archivos POSTed. De lo contrario, se agota el tiempo de espera del trabajo si no se reciben solicitudes de POST adicionales en un plazo de 30 minutos.
+La petición POST final para un trabajo de carga debe establecer el parámetro `endJob` en true para que no se publiquen archivos futuros para este trabajo. A su vez, esto permite que el trabajo se complete inmediatamente después de ingerir todos los archivos POSTed. De lo contrario, se agota el tiempo de espera del trabajo si no se reciben solicitudes POST adicionales en un plazo de 30 minutos.
 
 ## Respuesta de UploadPOST {#section-421df5cc04d44e23a464059aad86d64e}
 
-Para una solicitud de POST correcta, el cuerpo de respuesta es un documento XML `uploadPostReturn`, como especifica el XSD en lo siguiente:
+Para una solicitud POST correcta, el cuerpo de respuesta es un documento XML `uploadPostReturn`, como especifica el XSD en lo siguiente:
 
 ```xml {.line-numbers}
 <element name="uploadPostReturn"> 
@@ -104,11 +104,11 @@ Para una solicitud de POST correcta, el cuerpo de respuesta es un documento XML 
     </element>
 ```
 
-El `jobHandle` devuelto se pasa en el parámetro `uploadPostParams`/ `jobHandle` para cualquier solicitud de POST posterior para el mismo trabajo. También puede utilizarlo para sondear el estado del trabajo con la operación `getActiveJobs` o para consultar los registros del trabajo con la operación `getJobLogDetails`.
+El `jobHandle` devuelto se pasa en el parámetro `uploadPostParams`/ `jobHandle` para cualquier petición POST posterior para el mismo trabajo. También puede utilizarlo para sondear el estado del trabajo con la operación `getActiveJobs` o para consultar los registros del trabajo con la operación `getJobLogDetails`.
 
-Si hay un error al procesar la solicitud del POST, el cuerpo de respuesta consta de uno de los tipos de errores de API como se describe en [Errores](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b).
+Si hay un error al procesar la petición POST, el cuerpo de respuesta consta de uno de los tipos de errores de API como se describe en [Errores](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b).
 
-## Ejemplo de solicitud de POST {#section-810fe32abdb9426ba0fea488dffadd1e}
+## Ejemplo de solicitud POST {#section-810fe32abdb9426ba0fea488dffadd1e}
 
 ```{.line-numbers}
 POST /scene7/UploadFile HTTP/1.1 
@@ -178,7 +178,7 @@ Content-Transfer-Encoding: binary
 --O9-ba7tieRtqA4QRSaVk-eDq6658SPrYfvUcJ--
 ```
 
-## Ejemplo de respuesta del POST: correcta {#section-0d515ba14c454ed0b5196ac8d1bb156e}
+## Ejemplo de respuesta POST: correcta {#section-0d515ba14c454ed0b5196ac8d1bb156e}
 
 ```{.line-numbers}
 HTTP/1.1 200 OK 
@@ -192,7 +192,7 @@ Server: Unknown
 </uploadPostReturn>
 ```
 
-## Ejemplo de respuesta del POST: error {#section-efc32bb371554982858b8690b05090ec}
+## Ejemplo de respuesta POST: error {#section-efc32bb371554982858b8690b05090ec}
 
 ```{.line-numbers}
 HTTP/1.1 200 OK 

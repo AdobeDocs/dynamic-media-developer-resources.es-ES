@@ -25,7 +25,7 @@ Se generan las siguientes propiedades:
 <table id="simpletable_32AAA1A2DDB04BC6B86885E6223BF609"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">bgc=<span class="varname"> ival</span>,<span class="varname"> ival</span>,<span class="varname"> ival</span></span> </p> </td> 
-  <td class="stentry"> <p>El color de fondo RGB del estilo de armario. Solo estilos de armario. </p></td> 
+  <td class="stentry"> <p>El color de fondo RGB del estilo de archivador. Solo estilos de armario. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">defaultFileVersion=<span class="varname"> ival</span></span> </p></td> 
@@ -57,11 +57,11 @@ Se generan las siguientes propiedades:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">master=<span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p><span class="varname"> ival</span> es 0 si <span class="varname"> sourceFile</span> es un estilo de contenedor que contiene datos de imagen del JPEG (en este caso también se muestra una advertencia), 1 en caso contrario. Sólo archivos de estilo de recubrimiento de armario y ventana. </p></td> 
+  <td class="stentry"> <p><span class="varname"> ival</span> es 0 si <span class="varname"> sourceFile</span> es un estilo de contenedor que contiene datos de imagen de JPEG (en este caso también se muestra una advertencia), 1 en caso contrario. Sólo archivos de estilo de recubrimiento de armario y ventana. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">maxMem=<span class="varname"> cadena</span></span> </p></td> 
-  <td class="stentry"> <p>Límite máximo de memoria que se aplica al proceso vntc</span> en ejecución de <span class="filepath">. <span class="varname"> cadena</span> es <span class="varname"> ival</span>, <span class="varname"> ivalK</span>, <span class="varname"> ivalM</span>, <span class="varname"> ivalG</span> o <span class="codeph"> 0</span> (deshabilitado). Donde <span class="varname"> K</span>, <span class="varname"> M</span> y <span class="varname"> G</span> se refieren a kilobytes (1024 bytes), megabytes (1048576 bytes) y gigabytes (1073741824 bytes). </p></td> 
+  <td class="stentry"> <p>Límite máximo de memoria que se aplica al proceso vntc<span class="filepath"> en ejecución de </span>. <span class="varname"> cadena</span> es <span class="varname"> ival</span>, <span class="varname"> ivalK</span>, <span class="varname"> ivalM</span>, <span class="varname"> ivalG</span> o <span class="codeph"> 0</span> (deshabilitado). Donde <span class="varname"> K</span>, <span class="varname"> M</span> y <span class="varname"> G</span> se refieren a kilobytes (1024 bytes), megabytes (1048576 bytes) y gigabytes (1073741824 bytes). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">maxScl=<span class="varname"> ival</span></span> </p></td> 

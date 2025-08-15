@@ -25,27 +25,27 @@ Formato de imagen de respuesta.
 | `avif-alpha` | AVIF con pérdida y sin pérdida con canal alfa. |
 | `avif` | AVIF con pérdidas y sin pérdidas. |
 | `eps` | PostScript encapsulado binario sin comprimir. |
-| `f4m` | Formato de manifiesto del servidor de flujo de Flash. |
-| `gif-alpha` | GIF con 2 a 255 colores más transparencia de color clave. |
+| `f4m` | Formato de manifiesto de Flash Streaming Server. |
+| `gif-alpha` | GIF con 2 a 255 colores más transparencia key-color. |
 | `gif` | GIF con 2 a 256 colores. |
 | `heic` | HEIC sin pérdidas. Este formato se descarga de forma predeterminada desde el explorador si no es compatible. |
-| `jpeg` | JPEG perdedor. |
-| `jpeg2000-alpha` | JPEG 2000 sin pérdidas y con canal alfa. |
-| `jpeg2000` | JPEG 2000 sin pérdidas y sin pérdidas. |
+| `jpeg` | JPEG con pérdida. |
+| `jpeg2000-alpha` | JPEG 2000 sin pérdidas ni pérdidas con canal alfa. |
+| `jpeg2000` | JPEG 2000 sin pérdidas ni pérdidas. |
 | `jpegxr-alpha` | JPEG XR sin pérdidas y con canal alfa. |
 | `jpegxr` | JPEG XR con pérdidas y sin pérdidas. |
-| `jpg` | Perdió a su JPG. |
+| `jpg` | JPG con pérdida. |
 | `m3u8` | Formato de manifiesto del servidor de flujo Apple. |
-| `pdf` | Imagen incrustada en el PDF. |
-| `pjpeg` | JPEG progresista. |
+| `pdf` | Imagen incrustada en PDF. |
+| `pjpeg` | Progressive JPEG. |
 | `png-alpha` | PNG sin pérdidas de 24 bits con canal alfa. |
 | `png` | PNG sin pérdidas de 24 bits. |
 | `png8-alpha` | PNG sin pérdidas de 8 bits con canal alfa. |
 | `png8` | PNG sin pérdidas de 8 bits. |
-| `swf-alpha` | JPEG con pérdida y máscara comprimida con desinflado incrustada en un archivo swf AS2 de Adobe. |
-| `swf` | JPEG con pérdida incrustado en un archivo swf AS2 de Adobe. |
-| `swf3-alpha` | JPEG con pérdida y máscara comprimida con desinflado incrustada en un archivo swf AS3 de Adobe. **Nota:** los formatos swf y swf-alpha se usan mejor para las aplicaciones de ActionScript 2 (Flash Player 8 y anteriores). Los formatos swf3 y swf3-alpha se recomiendan para su uso en aplicaciones ActionScript 3 (Flash Player 9 y posteriores). |
-| `swf3` | JPEG con pérdida incrustado en un archivo swf AS3 de Adobe. |
+| `swf-alpha` | Lossy JPEG y una máscara comprimida de desinflado incrustada en un archivo swf AS2 de Adobe. |
+| `swf` | JPEG con pérdida incrustado en un archivo swf de Adobe AS2. |
+| `swf3-alpha` | Lossy JPEG y una máscara comprimida de desinflado incrustada en un archivo swf de Adobe AS3. **Nota:** los formatos swf y swf-alpha se usan mejor para las aplicaciones ActionScript 2 (Flash Player 8 y versiones anteriores). Se recomienda utilizar los formatos swf3 y swf3-alpha para las aplicaciones ActionScript3 (Flash Player 9 y posterior). |
+| `swf3` | JPEG con pérdida incrustado en un archivo swf de Adobe AS3. |
 | `tif-alpha` | TIFF con canal alfa. |
 | `tif` | TIFF. |
 | `webp-alpha` | WebP sin pérdidas y con canal alfa. |
@@ -57,15 +57,15 @@ Formato de imagen de respuesta.
 |---|---|
 | `cmyk` | Devuelve datos de imagen CMYK. |
 | `gray` | Devuelve datos de imagen en escala de grises. |
-| `rgb` | Devuelve datos de imagen del RGB. |
+| `rgb` | Devolver datos de imagen de RGB. |
 
 *`compression`* - jpeg | con pérdidas | sin pérdidas | lzw | ninguno | zip
 
 | *`compression`* | Descripción |
 |---|---|
-| `jpeg` | Compresión JPEG (con pérdida). |
-| `lossy` | JPEG 2000, compresión XR del JPEG (con pérdida) y WebP. |
-| `lossless` | compresión HEIC, JPEG 2000 y JPEG XR (sin pérdidas) y WebP. |
+| `jpeg` | Compresión de JPEG (con pérdida). |
+| `lossy` | JPEG 2000 y compresión JPEG XR (con pérdida) y WebP. |
+| `lossless` | HEIC, JPEG 2000, compresión JPEG XR (sin pérdidas) y WebP. |
 | `lzw` | Compresión LZW (Lempel-Ziv-Welch) (sin pérdidas). |
 | `none` | Sin comprimir. |
 | `zip` | Compresión &quot;Deflate&quot; (sin pérdidas). |
@@ -77,9 +77,9 @@ Formato de imagen de respuesta.
 
 * *`compression`* solo se permite si `tif`, `tif-alpha`, `pdf`, `webp`, `webp-alpha`, `jpeg2000`, `jpeg2000-alpha`, `jpegxr` o `jpegxr-alpha` se especifica como *`format`*. Consulte la tabla siguiente para ver las opciones de compresión admitidas para estos formatos de imagen.
 
-Puede usar `qlt=` para establecer las opciones de codificación de JPEG para estos formatos: JPEG, TIFF con compresión de JPEG, PDF con compresión de JPEG y SWF. WebP, JPEG 2000 y JPEG XR también usan `qlt=`, pero los valores dan como resultado calidades diferentes para los distintos formatos. Use `quantize=` si `fmt=gif` o `fmt=gif-alpha`. Consulte las descripciones de los comandos para obtener más información. Los demás formatos no tienen opciones configurables.
+Puede usar `qlt=` para establecer las opciones de codificación de JPEG para estos formatos: JPEG, TIFF con compresión JPEG, PDF con compresión JPEG y SWF. WebP, JPEG 2000 y JPEG XR también usan `qlt=`, pero los valores dan como resultado calidades diferentes para los distintos formatos. Use `quantize=` si `fmt=gif` o `fmt=gif-alpha`. Consulte las descripciones de los comandos para obtener más información. Los demás formatos no tienen opciones configurables.
 
-Se devuelven 8 bits por componente de píxel para todos los *`formats`* y *`pixelTypes`* (8 bits por píxel para el GIF).
+Se devuelven 8 bits por componente de píxel para todos los *`formats`* y *`pixelTypes`* (8 bits por píxel para GIF).
 
 En la tabla siguiente se enumeran las combinaciones válidas de *`format`*y *`pixelType`*, los tipos MIME de respuesta HTTP correspondientes, si los perfiles ICC se pueden incrustar (consulte [iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e)) y qué opciones específicas de formato se pueden aplicar.
 
@@ -168,7 +168,7 @@ En la tabla siguiente se enumeran las combinaciones válidas de *`format`*y *`pi
    <td colname="col1"> <p> swf,swf3, swf-alfa, swf-alfa3 </p> </td> 
    <td colname="col2"> <p>rgb, gris </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/x-shockwave-flash&gt; </span> </p> </td> 
-   <td colname="col4"> <p>No </p> <p> <p>Nota: El Flash Player de Adobe ignora los perfiles ICC incrustados. </p> </p> </td> 
+   <td colname="col4"> <p>No </p> <p> <p>Nota: Adobe Flash Player ignora los perfiles ICC incrustados. </p> </p> </td> 
    <td colname="col5"> <p> <span class="codeph"> qlt= </span>, <span class="codeph"> atributo::TrustedDomains </span> </p> </td> 
   </tr>
   <tr valign="top"> 
@@ -212,7 +212,7 @@ Atributo de solicitud. Se aplica independientemente de la configuración de capa
 
 ` http:// *`servidor`*/myRootId/myImageId?fmt=png-alpha&wid=300`
 
-**Solicite el canal alfa para la misma imagen que una imagen de TIFF en escala de grises:**
+**Solicite el canal alfa para la misma imagen que una imagen TIFF en escala de grises:**
 
 ` http:// *`servidor`*/myRootId/myImageId?req=mask&fmt=tif,gray&wid=300`
 
@@ -220,7 +220,7 @@ Atributo de solicitud. Se aplica independientemente de la configuración de capa
 
 ` http:// *`servidor`*/myRootId/myImageId?fmt=tif,cmyk&wid=300`
 
-**Convierta la misma imagen a cmyk usando un perfil ICC diferente e incruste el perfil en la imagen del TIFF:**
+**Convierta la misma imagen a cmyk usando un perfil ICC diferente e incruste el perfil en la imagen de TIFF:**
 
 ` http:// *`servidor`*/myRootId/myImageId?fmt=tif&wid=300&icc=myPrinterProfile&iccEmbed=1`
 
@@ -228,7 +228,7 @@ Atributo de solicitud. Se aplica independientemente de la configuración de capa
 
 ` http:// *`servidor`*/myRootId/myImageId?fmt=tif,,jpeg&qlt=95&wid=300`
 
-**Convierta la imagen en un GIF bi-tonal con transparencia de clave de color y fuerza de los colores a blanco y negro:**
+**Convertir la imagen a un GIF bitono con transparencia de clave de color y forzar los colores a blanco y negro:**
 
 ` http:// *`servidor`*/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`
 

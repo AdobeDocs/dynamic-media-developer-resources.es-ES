@@ -31,7 +31,7 @@ Las siguientes opciones se pueden aplicar independientemente del tipo de sourceF
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -jpegquality <span class="varname"> ival </span> </span> </p> </td> 
-  <td class="stentry"> <p>Selecciona la codificación del JPEG con pérdidas para los datos de imagen de RGB y escala de grises incrustados en el archivo de salida, en lugar de PNG sin pérdidas. Las imágenes con alfa (RGBA) siempre se guardan con codificación PNG. <span class="varname"> vial </span> especifica la calidad JPEG (1...100); se recomienda 85 o superior. El valor predeterminado es <span class="codeph"> -jpegquality 0 </span>, que selecciona la codificación PNG. </p> </td> 
+  <td class="stentry"> <p>Selecciona la codificación de JPEG con pérdidas para los datos de imagen en escala de grises y RGB incrustados en el archivo de salida, en lugar de PNG sin pérdidas. Las imágenes con alfa (RGBA) siempre se guardan con codificación PNG. <span class="varname"> vial </span> especifica la calidad de JPEG (1...100); se recomienda 85 o superior. El valor predeterminado es <span class="codeph"> -jpegquality 0 </span>, que selecciona la codificación PNG. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -log <span class="varname"> ruta de acceso </span> </span> </p> </td> 
@@ -39,7 +39,7 @@ Las siguientes opciones se pueden aplicar independientemente del tipo de sourceF
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> - prioridad inferior <span class="varname"> ival </span> </span> </p> </td> 
-  <td class="stentry"> <p>Reduzca la prioridad del proceso <span class="filepath"> vntc </span>. Este proceso se puede utilizar para que <span class="filepath"> vntc </span> no se haga cargo de una CPU completa mientras se procesa una viñeta. Permite al sistema operativo dar más tiempo a otros procesos, más importantes. <span class="varname"> vial </span> especifica el porcentaje de prioridad inferior (0..100). El valor predeterminado es <span class="codeph"> -lowerpriority 0 </span>, que no reduce la prioridad del proceso <span class="filepath"> vntc </span>. </p> </td> 
+  <td class="stentry"> <p>Reduzca la prioridad del proceso <span class="filepath"> vntc </span>. Este proceso se puede utilizar para que <span class="filepath"> vntc </span> no se haga cargo de un CPU completo mientras se procesa una viñeta. Permite al sistema operativo dar más tiempo a otros procesos, más importantes. <span class="varname"> vial </span> especifica el porcentaje de prioridad inferior (0..100). El valor predeterminado es <span class="codeph"> -lowerpriority 0 </span>, que no reduce la prioridad del proceso <span class="filepath"> vntc </span>. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -maxmem <span class="varname"> ival </span> </span> </p> </td> 

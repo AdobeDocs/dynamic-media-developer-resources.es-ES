@@ -37,7 +37,7 @@ Las siguientes propiedades de documento son compatibles con los cuadros de texto
   </tr> 
   <tr> 
    <td> <span class="codeph"> \colortbl </span> </td> 
-   <td> <p>Tabla de colores del RGB. </p> </td> 
+   <td> <p>Tabla de color de RGB. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
@@ -68,22 +68,22 @@ Las siguientes propiedades de documento son compatibles con los cuadros de texto
   <tr> 
    <td> <span class="codeph"> \cian <span class="varname"> N </span> </span> </td> 
    <td> <p>Componente de color cian. </p> </td> 
-   <td> <p>Dynamic Media extension; solo puede aparecer en <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
+   <td> <p>Extensión de Dynamic Media; solo puede aparecer en <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \magenta <span class="varname"> N </span> </span> </td> 
    <td> <p>Componente de color magenta. </p> </td> 
-   <td> <p>Dynamic Media extension; solo puede aparecer en <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
+   <td> <p>Extensión de Dynamic Media; solo puede aparecer en <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \amarillo <span class="varname"> N </span> </span> </td> 
    <td> <p>Componente de color amarillo. </p> </td> 
-   <td> <p>Dynamic Media extension; solo puede aparecer en <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
+   <td> <p>Extensión de Dynamic Media; solo puede aparecer en <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \black <span class="varname"> N </span> </span> </td> 
    <td> <p>Componente de color negro. </p> </td> 
-   <td> <p>Dynamic Media extension; solo puede aparecer en <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
+   <td> <p>Extensión de Dynamic Media; solo puede aparecer en <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \margl <span class="varname"> N </span> </span> </td> 

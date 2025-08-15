@@ -19,7 +19,7 @@ Visor de medios mixtos es un visor de medios. Admite conjuntos de medios que con
 
 Una miniatura en la parte inferior del visor representa cada elemento del conjunto de medios, junto con su indicador de tipo de recurso. Cuando se selecciona un elemento del conjunto de muestras, aparece una fila secundaria de muestras para permitir la selección de la variación de color dentro del conjunto de muestras. Las imágenes y los elementos de conjuntos de muestras admiten el zoom en modo continuo o en línea; los conjuntos de giros admiten el zoom y el giro. Los vídeos y los conjuntos de vídeos adaptables admiten todos los controles básicos de reproducción, siempre y cuando se muestren subtítulos opcionales encima del contenido de vídeo. Un usuario puede cambiar a pantalla completa en cualquier momento haciendo clic en el botón de pantalla completa. El visor tiene un botón de cierre opcional. Está diseñado para trabajar en equipos de escritorio y dispositivos móviles.
 
-El visualizador de medios mixtos utiliza la reproducción de vídeo de flujo HTML 5 en formato HLS en su configuración predeterminada siempre que el sistema subyacente admita eso. En sistemas que no admiten el streaming de HTML 5, el visor vuelve a recibir la entrega de vídeo progresivo de HTML 5.
+El visualizador de medios mixtos utiliza la reproducción de vídeo de flujo HTML5 en formato HLS en su configuración predeterminada siempre que el sistema subyacente admita eso. En sistemas que no admiten el streaming de HTML5, el visor vuelve a recibir la entrega de vídeo progresivo de HTML5.
 
 >[!NOTE]
 >
@@ -35,9 +35,9 @@ Consulte [Requisitos y requisitos previos del sistema](../../c-system-requiremen
 
 ## Uso del visualizador de medios mixtos {#section-f21ac23d3f6449ad9765588d69584772}
 
-Mixed Media Viewer representa un archivo JavaScript principal y un conjunto de archivos de ayuda (una sola inclusión JavaScript con todos los componentes del SDK del visor utilizados por este visor, recursos y CSS) descargados por el visor en tiempo de ejecución.
+El visualizador de medios mixtos representa un archivo JavaScript principal y un conjunto de archivos de ayuda (una sola inclusión JavaScript con todos los componentes de SDK del visualizador utilizados por este visualizador, recursos y CSS) descargados por el visualizador en tiempo de ejecución.
 
-Puede utilizar el visualizador de medios mixtos en el modo emergente mediante la página de HTML lista para la producción proporcionada con visores IS. O bien, puede utilizar el visualizador en modo incrustado, donde se integra en una página web de destino mediante la API documentada.
+Puede utilizar el visualizador de medios mixtos en el modo emergente utilizando la página de HTML lista para la producción proporcionada con los visualizadores de IS. O bien, puede utilizar el visualizador en modo incrustado, donde se integra en una página web de destino mediante la API documentada.
 
 La tarea de configurar y desollar el visor es similar a la de otros visores. Todo el desollado se logra mediante CSS personalizado.
 
@@ -61,11 +61,11 @@ El visualizador de medios mixtos admite gestos de un solo toque y de varios toqu
   </tr> 
   <tr> 
    <td colname="col1"> <p>Pulse dos veces </p> </td> 
-   <td colname="col2"> <p>En el modo de zoom continuo </span> de <span class="codeph">, se amplía un nivel hasta que se alcanza la ampliación máxima y el siguiente gesto de doble toque se restablece al estado inicial. </p> </td> 
+   <td colname="col2"> <p>En el modo de zoom continuo <span class="codeph"> de </span>, se amplía un nivel hasta que se alcanza la ampliación máxima y el siguiente gesto de doble toque se restablece al estado inicial. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Tocar y mantener </p> </td> 
-   <td colname="col2"> <p> En el modo de zoom </span> dentro de la línea <span class="codeph">, activa la imagen ampliada. </p> </td> 
+   <td colname="col2"> <p> En el modo de zoom <span class="codeph"> dentro de la línea </span>, activa la imagen ampliada. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Pellizco </p> </td> 
@@ -96,7 +96,7 @@ Las distintas páginas web tienen diferentes necesidades de comportamiento del v
 
 En el modo emergente, el visor se abre en una ventana o pestaña independiente del explorador web. Ocupa todo el área de la ventana del explorador y se ajusta en caso de que cambie el tamaño del explorador o la orientación de un dispositivo móvil.
 
-El modo emergente es el más común en dispositivos móviles. La página web carga el visor mediante la llamada de JavaScript `window.open()`, el elemento de HTML `A` configurado correctamente o cualquier otro método adecuado.
+El modo emergente es el más común en dispositivos móviles. La página web carga el visor mediante la llamada de JavaScript `window.open()`, el elemento HTML `A` configurado correctamente o cualquier otro método adecuado.
 
 Se recomienda utilizar una página de HTML predeterminada para el modo de operación emergente. En este caso, se llama [!DNL MixedMediaViewer.html] y se encuentra dentro de la subcarpeta [!DNL html5/] de su implementación estándar de IS-Viewers:
 
@@ -104,7 +104,7 @@ Se recomienda utilizar una página de HTML predeterminada para el modo de operac
 
 Puede conseguir una personalización visual aplicando CSS personalizado.
 
-A continuación se muestra un ejemplo de código de HTML que abre el visor en una nueva ventana:
+A continuación se muestra un ejemplo de código HTML que abre el visor en una nueva ventana:
 
 ```html {.line-numbers}
 <a href="http://s7d1.scene7.com/s7viewers/html5/MixedMediaViewer.html?asset=Scene7SharedAssets/Mixed_Media_Set_Sample" target="_blank">Open popup viewer</a>
@@ -135,7 +135,7 @@ Para agregar el visor a una página web, haga lo siguiente:
 
 1. Añadir el archivo de JavaScript del visor a la página web.
 
-   La creación de un visor requiere que añada una etiqueta de script en el encabezado del HTML. Antes de usar la API de visor, asegúrese de incluir [!DNL MixedMediaViewer.js]. El archivo [!DNL MixedMediaViewer.js] se encuentra en la subcarpeta [!DNL html5/js/] de su implementación estándar de visores IS:
+   La creación de un visor requiere que añada una etiqueta de script en el encabezado de HTML. Antes de usar la API de visor, asegúrese de incluir [!DNL MixedMediaViewer.js]. El archivo [!DNL MixedMediaViewer.js] se encuentra en la subcarpeta [!DNL html5/js/] de su implementación estándar de visores IS:
 
 [!DNL <s7viewers_root>/html5/js/MixedMediaViewer.js]
 
@@ -149,7 +149,7 @@ La ruta relativa tiene el siguiente aspecto:
 
 >[!NOTE]
 >
->Solo haga referencia al archivo de JavaScript `include` del visor principal en su página. No haga referencia a ningún archivo JavaScript adicional en el código de la página web que la lógica del visor pueda descargar durante la ejecución. En particular, no haga referencia directamente a la biblioteca `Utils.js` del SDK de HTML5 cargada por el visor desde la ruta de contexto `/s7viewers` (denominado SDK consolidado `include`). El motivo es que la ubicación de `Utils.js` o bibliotecas similares del visor en tiempo de ejecución está completamente administrada por la lógica del visor y la ubicación cambia entre versiones del visor. El Adobe no mantiene versiones anteriores del visor secundario `includes` en el servidor.
+>Solo haga referencia al archivo de JavaScript `include` del visor principal en su página. No haga referencia a ningún archivo JavaScript adicional en el código de la página web que la lógica del visor pueda descargar durante la ejecución. En particular, no haga referencia directamente a la biblioteca HTML5 SDK `Utils.js` cargada por el visor desde la ruta de contexto `/s7viewers` (denominada SDK consolidado `include`). El motivo es que la ubicación de `Utils.js` o bibliotecas similares del visor en tiempo de ejecución está completamente administrada por la lógica del visor y la ubicación cambia entre versiones del visor. Adobe no mantiene versiones anteriores del visor secundario `includes` en el servidor.
 >
 >
 >Como resultado, al establecer una referencia directa a cualquier JavaScript `include` secundario que use el visor en la página, se interrumpe la funcionalidad del visor en el futuro cuando se implemente una nueva versión del producto.
@@ -172,7 +172,7 @@ La ruta relativa tiene el siguiente aspecto:
 
    Este visor muestra miniaturas cuando se trabaja con conjuntos de varios elementos. En sistemas de escritorio, las miniaturas se colocan debajo de la vista principal. Al mismo tiempo, el visor permite el intercambio del recurso principal durante el tiempo de ejecución mediante la API `setAsset()`. Como desarrollador, tiene control sobre cómo administra el visor el área de miniaturas en la parte inferior cuando el nuevo recurso solo tiene un elemento. Es posible mantener intacto el tamaño del visor exterior y permitir que la vista principal aumente su altura y ocupe el área de miniaturas. O bien, puede mantener el tamaño de la vista principal estático y contraer el área del visor exterior, permitiendo que el contenido de la página web suba. A continuación, utilice los bienes raíces de la página gratuita que se deja desde las miniaturas.
 
-   Para mantener intactos los límites del visor exterior, defina el tamaño de la clase CSS de nivel superior `.s7mixedmediaviewer` en unidades absolutas. El tamaño en CSS se puede ajustar directamente en la página del HTML o en un archivo CSS de visor personalizado, y luego asignarse a un registro de ajuste preestablecido de visor en Dynamic Media Classic, o pasarse explícitamente mediante el comando de estilo.
+   Para mantener intactos los límites del visor exterior, defina el tamaño de la clase CSS de nivel superior `.s7mixedmediaviewer` en unidades absolutas. El tamaño en CSS se puede ajustar directamente en la página de HTML o en un archivo CSS de visor personalizado, y luego asignarse a un registro de ajuste preestablecido de visor en Dynamic Media Classic, o pasarse explícitamente mediante el comando de estilo.
 
    Consulte [Personalización del visor de medios mixtos](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#concept-61b3410f187c4bf3af09ec813c649bf4) para obtener más información sobre cómo aplicar estilo al visor con CSS.
 
@@ -187,7 +187,7 @@ La ruta relativa tiene el siguiente aspecto:
 
    Puede ver el comportamiento con un área de visor exterior fija en la siguiente página de muestra. Tenga en cuenta que cuando cambia entre conjuntos, el tamaño del visor exterior no cambia:
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html?lang=es](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html?lang=es)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html)
 
    Para que las dimensiones de la vista principal sean estáticas, defina el tamaño del visor en unidades absolutas para el componente SDK `Container` interno mediante el selector CSS `.s7mixedmediaviewer .s7container` o mediante el modificador `stagesize`.
 
@@ -202,7 +202,7 @@ La ruta relativa tiene el siguiente aspecto:
 
    La siguiente página de ejemplo muestra el comportamiento del visor con un tamaño de vista principal fijo. Tenga en cuenta que cuando cambia entre conjuntos, la vista principal permanece estática y el contenido de la página web se mueve verticalmente:
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html?lang=es](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html?lang=es)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html)
 
    Puede establecer el modificador `stagesize` en el registro de ajustes preestablecidos de visor de Dynamic Media Classic o pasarlo explícitamente con el código de inicialización del visor con la colección `params`. O bien, como una llamada API como se describe en la sección Referencia de comandos de esta Ayuda, como en el siguiente ejemplo:
 
@@ -270,7 +270,7 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 
 ## Inserción adaptable con altura sin restricciones {#section-056cb574713c4d07be6d07cf3c598839}
 
-Con incrustación de diseño interactivo, la página web normalmente tiene algún tipo de diseño flexible que dicta el tamaño de tiempo de ejecución del contenedor del visor `DIV`. En el siguiente ejemplo, supongamos que la página web permite que el contenedor del visor `DIV` ocupe el 40% del tamaño de la ventana del explorador web, sin restringir su altura. El código del HTML de la página web tendría el siguiente aspecto:
+Con incrustación de diseño interactivo, la página web normalmente tiene algún tipo de diseño flexible que dicta el tamaño de tiempo de ejecución del contenedor del visor `DIV`. En el siguiente ejemplo, supongamos que la página web permite que el contenedor del visor `DIV` ocupe el 40% del tamaño de la ventana del explorador web, sin restringir su altura. El código HTML de la página web tendría el siguiente aspecto:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -329,7 +329,7 @@ La siguiente página de ejemplos ilustra usos más reales del diseño interactiv
 
 [Demostraciones en vivo](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Ubicación de demostración alternativa](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=es)
+[Ubicación de demostración alternativa](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 ## Incrustación de tamaño flexible con anchura y altura definidas {#section-0a329016f9414d199039776645c693de}
 

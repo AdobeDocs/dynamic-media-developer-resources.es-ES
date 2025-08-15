@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: fd32456b-9d99-4e82-a61c-2fc4d7030630
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1233'
 ht-degree: 0%
 
 ---
@@ -88,17 +88,17 @@ La biblioteca Digimarc rechaza aplicar una marca de agua Digimarc a una imagen s
 
   Para viñetas no piramidadas de procesamiento de imágenes, aumente el valor de la propiedad de IrMaxNonPyrVignetteSize en el archivo de configuración [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml].
 
-  Para los TIFF no piramidales del servicio de imágenes, aumente el valor de la propiedad de `MaxNonDsfSize` en el archivo de configuración de [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml].
+  Para los TIFF no piramidados para servicio de imágenes, aumente el valor de propiedad de `MaxNonDsfSize` en el archivo de configuración de [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml].
 
-* El Adobe [!DNL Photoshop] CS3 no guarda archivos de PSD con capas de forma predeterminada como imagen compuesta.
+* Adobe [!DNL Photoshop] CS3 no guarda archivos PSD con capas de forma predeterminada como imagen compuesta.
 
   *Síntomas*:
 
-  El archivo de PSD con capas de Adobe [!DNL Photoshop] CS3 se muestra en negro con un texto que indica: &quot;Este archivo con capas [!DNL Photoshop] no se guardó con una imagen compuesta&quot;. para la imagen de respuesta del servicio de imágenes o en IPS.
+  El archivo PSD con capas Adobe [!DNL Photoshop] CS3 se muestra en negro con un texto que indica: &quot;Este archivo con capas [!DNL Photoshop] no se guardó con una imagen compuesta&quot;. para la imagen de respuesta del servicio de imágenes o en IPS.
 
   *Solución*:
 
-  Guarde el archivo de Adobe [!DNL Photoshop] CS3 con la opción maximizar compatibilidad activada.
+  Guarde el archivo Adobe [!DNL Photoshop] CS3 con la opción maximizar compatibilidad activada.
 
 * Al asignar un perfil ICC a una imagen de respuesta CMYK/JPEG, los colores se invierten en algunos exploradores.*Trabajar*:
 
@@ -117,14 +117,14 @@ La biblioteca Digimarc rechaza aplicar una marca de agua Digimarc a una imagen s
 * Las correcciones de color para imágenes PNG con perfiles de color incrustados utilizan opciones codificadas. La interpretación es colorimétrica relativa y la compensación de punto negro está activada para el texto de PhotoFont.
 * La búsqueda basada en archivos no se admite cuando la traducción de configuración regional está habilitada en el archivo de la empresa [!DNL ini].
 * El servicio de imágenes no escribe correctamente las rutas [!DNL Photoshop] sin cerrar.
-* Actualmente, el servicio de imágenes no admite el procesamiento de archivos de TIFF exportados con Adobe Media Encoder 4.0.1 o versiones anteriores. Adobe Media Encoder se incluye con Premiere Pro CS4, After Effects CS4 y Creative Suite 4 Production Premium.
+* El servicio de imágenes no admite actualmente el procesamiento de archivos TIFF exportados con Adobe Media Encoder 4.0.1 o versiones anteriores. Adobe Media Encoder se incluye con Premiere Pro CS4, After Effects CS4 y Creative Suite 4 Production Premium.
 * El uso de `text=` con capas de tamaño propio no admite cadenas RTF que utilicen más de una configuración para la justificación de líneas.
 
   *Ejemplo*
 
   La cadena RTF no puede utilizar justificación de línea izquierda y derecha para una capa de texto de tamaño personalizado.
 
-* SVG tiene su propia propiedad para la ruta de búsqueda de fuentes de referencia que no están incrustadas en el archivo del SVG.
+* SVG tiene su propia propiedad para la ruta de búsqueda de fuentes de referencia que no están incrustadas en el archivo SVG.
 
   *Síntomas*
 

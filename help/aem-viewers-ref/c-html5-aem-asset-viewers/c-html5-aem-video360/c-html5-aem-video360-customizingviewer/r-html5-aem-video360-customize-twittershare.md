@@ -1,6 +1,6 @@
 ---
-title: Twitter compartido
-description: La herramienta de uso compartido de twitteres consiste en un botón agregado al panel Compartir en redes sociales. Cuando se selecciona el botón, se redirige al usuario a un cuadro de diálogo para compartir proporcionado por un servicio social. La posición del botón se administra completamente mediante la herramienta Compartir en redes sociales.
+title: Uso compartido de Twitter
+description: La herramienta Compartir en Twitter consiste en un botón agregado al panel Compartir en redes sociales. Cuando se selecciona el botón, se redirige al usuario a un cuadro de diálogo para compartir proporcionado por un servicio social. La posición del botón se administra completamente mediante la herramienta Compartir en redes sociales.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 ---
 
-# Twitter compartido{#twitter-share}
+# Uso compartido de Twitter{#twitter-share}
 
-La herramienta de uso compartido de twitteres consiste en un botón agregado al panel Compartir en redes sociales. Cuando se selecciona el botón, se redirige al usuario a un cuadro de diálogo para compartir proporcionado por un servicio social. La posición del botón se administra completamente mediante la herramienta Compartir en redes sociales.
+La herramienta Compartir en Twitter consiste en un botón agregado al panel Compartir en redes sociales. Cuando se selecciona el botón, se redirige al usuario a un cuadro de diálogo para compartir proporcionado por un servicio social. La posición del botón se administra completamente mediante la herramienta Compartir en redes sociales.
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
-El aspecto del botón de uso compartido de Twitter se controla con el siguiente selector de clase CSS:
+El aspecto del botón Compartir de Twitter se controla con el siguiente selector de clase CSS:
 
 ```
 .s7video360viewer .s7twittershare

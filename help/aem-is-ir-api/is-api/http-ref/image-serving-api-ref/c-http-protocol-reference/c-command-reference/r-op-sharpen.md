@@ -30,7 +30,7 @@ Atributo de capa o atributo de vista. Se aplica a la capa actual o a la imagen d
 
 ## Ejemplo {#section-3202122df5db4e14b358ecabfb6d8b85}
 
-Compensa el ligero desenfoque causado por el remuestreo de imágenes. También aumentamos la calidad del JPEG para evitar artefactos JPEG adicionales a lo largo de los bordes afilados.
+Compensa el ligero desenfoque causado por el remuestreo de imágenes. También aumentamos la calidad del JPEG para evitar artefactos de JPEG adicionales a lo largo de los bordes afilados.
 
 `http://server/myRootId/myImageId?qlt=90,1&op_sharpen=1&wid=500`
 

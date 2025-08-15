@@ -48,12 +48,12 @@ var eCatalogViewer = new s7viewers.eCatalogViewer({
 });
 ```
 
-El visor realiza un seguimiento de los siguientes eventos de usuarios del SDK:
+El visor realiza un seguimiento de los siguientes eventos de usuarios de SDK:
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Evento de usuario del SDK </p> </th> 
+   <th colname="col1" class="entry"> <p>Evento de usuario de SDK </p> </th> 
    <th colname="col2" class="entry"> <p>Se envía cuando... </p> </th> 
   </tr> 
  </thead>

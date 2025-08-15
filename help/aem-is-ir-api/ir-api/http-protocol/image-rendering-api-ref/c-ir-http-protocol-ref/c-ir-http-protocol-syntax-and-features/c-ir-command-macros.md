@@ -18,7 +18,7 @@ Las macros de comandos proporcionan accesos directos con nombre para conjuntos d
 
 `$ *[!DNL name]*$`
 
-**&#x200B; *[!DNL name]* &#x200B;** nombre de macro
+** *[!DNL name]* ** nombre de macro
 
 Las macros se definen en ficheros de definición de macros independientes, que pueden adjuntarse a catálogos de material o al catálogo predeterminado.
 

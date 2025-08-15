@@ -1,5 +1,5 @@
 ---
-description: En esta documentación se analizan los problemas de administración del servidor y se describen los ajustes de configuración de Dynamic Media Image Rendering.
+description: Esta documentación analiza los problemas de administración del servidor y describe los ajustes de configuración para el procesamiento de imágenes de Dynamic Media.
 solution: Experience Manager
 title: Prefacio de administración del servidor
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Prefacio de administración del servidor{#server-administration-preface}
 
-En esta documentación se analizan los problemas de administración del servidor y se describen los ajustes de configuración de Dynamic Media Image Rendering.
+Esta documentación analiza los problemas de administración del servidor y describe los ajustes de configuración para el procesamiento de imágenes de Dynamic Media.
 
 **Audiencia prevista**
 
-Esta documentación está destinada a administradores del sistema y maestros de web que necesitan instalar, configurar y administrar el procesamiento de imágenes de Dynamic Media.
+Esta documentación está destinada a administradores de sistemas y maestros de web que necesitan instalar, configurar y administrar el procesamiento de imágenes de Dynamic Media.
 
 **Convenciones de documentos**
 

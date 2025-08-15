@@ -1,6 +1,6 @@
 ---
-title: Tutorial del SDK de visor
-description: El SDK de Viewer proporciona un conjunto de componentes basados en JavaScript para el desarrollo de visualizadores personalizados. Los visores son aplicaciones basadas en la web que permiten incrustar en páginas web contenido multimedia enriquecido proporcionado por Adobe Dynamic Media.
+title: Tutorial de Viewer SDK
+description: Viewer SDK proporciona un conjunto de componentes basados en JavaScript para el desarrollo de visualizadores personalizados. Los visualizadores son aplicaciones basadas en la web que permiten incrustar en páginas web el contenido multimedia enriquecido proporcionado por Adobe Dynamic Media.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -12,39 +12,39 @@ ht-degree: 0%
 
 ---
 
-# Tutorial del SDK de visor{#viewer-sdk-tutorial}
+# Tutorial de Viewer SDK{#viewer-sdk-tutorial}
 
-El SDK de Viewer proporciona un conjunto de componentes basados en JavaScript para el desarrollo de visualizadores personalizados. Los visores son aplicaciones basadas en la web que permiten incrustar en páginas web contenido multimedia enriquecido proporcionado por Adobe Dynamic Media.
+Viewer SDK proporciona un conjunto de componentes basados en JavaScript para el desarrollo de visualizadores personalizados. Los visualizadores son aplicaciones basadas en la web que permiten incrustar en páginas web el contenido multimedia enriquecido proporcionado por Adobe Dynamic Media.
 
-Por ejemplo, el SDK proporciona funciones interactivas de zoom y desplazamiento. También proporciona una vista de 360° y una reproducción de vídeo de los recursos cargados en Adobe Dynamic Media a través de la aplicación back-end denominada Dynamic Media Classic.
+Por ejemplo, SDK proporciona funciones interactivas de zoom y desplazamiento. También proporciona una vista de 360° y una reproducción de vídeo de los recursos cargados en Adobe Dynamic Media a través de la aplicación back-end denominada Dynamic Media Classic.
 
 Aunque los componentes dependen de la funcionalidad de HTML5, están diseñados para funcionar en dispositivos y escritorios Android™ y Apple iOS, incluido Internet Explorer y posterior. Este tipo de experiencia significa que puede proporcionar un solo flujo de trabajo para todas las plataformas admitidas.
 
-El SDK consta de componentes de interfaz de usuario que conforman el contenido del visor. Puede aplicar estilo a estos componentes a través de CSS y a componentes que no sean de interfaz de usuario y que tengan algún tipo de función de soporte, como recuperar definiciones de conjunto y analizar o rastrear. Todos los comportamientos de los componentes se pueden personalizar mediante modificadores que se pueden especificar de varias formas, por ejemplo, como pares `name=value` en la dirección URL.
+SDK consta de componentes de interfaz de usuario que conforman el contenido del visor. Puede aplicar estilo a estos componentes a través de CSS y a componentes que no sean de interfaz de usuario y que tengan algún tipo de función de soporte, como recuperar definiciones de conjunto y analizar o rastrear. Todos los comportamientos de los componentes se pueden personalizar mediante modificadores que se pueden especificar de varias formas, por ejemplo, como pares `name=value` en la dirección URL.
 
 Este tutorial incluye el siguiente orden de tareas para ayudarle a crear un visor de zoom básico:
 
-* [Descargar el último SDK del visor desde Adobe Developer Connection](c-tutorial.md#section-84dc74c9d8e24a2380b6cf8fc28d7127)
-* [Cargar el SDK del visor](c-tutorial.md#section-98596c276faf4cf79ccf558a9f4432c6)
+* [Descargar el último SDK de visor desde Adobe Developer Connection](c-tutorial.md#section-84dc74c9d8e24a2380b6cf8fc28d7127)
+* [Cargar el visor SDK](c-tutorial.md#section-98596c276faf4cf79ccf558a9f4432c6)
 * [Agregando estilo al visor](c-tutorial.md#section-3783125360a1425eae5a5a334867cc32)
 * [Incluyendo contenedor y vista de zoom](c-tutorial.md#section-1a01730663154a508b88cc40c6f35539)
 * [Agregando componentes MediaSet y Swatches al visor](c-tutorial.md#section-02b8c21dd842400e83eae2a48ec265b7)
 * [Agregando botones al visor](c-tutorial.md#section-1fc334fa0d2b47eb9cdad461725c07be)
 * [Configuración vertical de las muestras](c-tutorial.md#section-91a8829d5b5a4d45a35b7faeb097fcc9)
 
-## Descargue el SDK de visor más reciente de Adobe Developer Connection {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
+## Descargue el último SDK de visualización de Adobe Developer Connection {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
 
-1. Descargue el SDK de visor más reciente de Adobe Developer Connection <!-- SDK NO LONGER AVAILABLE TO DOWNLOAD;DOUBLE CHECK WITH AMIT. THIS ENTIRE TOPIC IS LIKELY OBSOLETE. [here](https://marketing.adobe.com/developer/devcenter/scene7/show) -->.
+1. Descargue el último SDK de visor desde Adobe Developer Connection <!-- SDK NO LONGER AVAILABLE TO DOWNLOAD;DOUBLE CHECK WITH AMIT. THIS ENTIRE TOPIC IS LIKELY OBSOLETE. [here](https://marketing.adobe.com/developer/devcenter/scene7/show) -->.
 
    >[!NOTE]
    >
-   >Puede completar este tutorial sin necesidad de descargar el paquete del SDK de Viewer, ya que el SDK se carga de forma remota. Sin embargo, el paquete Visualizador incluye ejemplos adicionales y una guía de referencia de API que pueden ayudarle a crear sus propios visualizadores.
+   >Puede completar este tutorial sin necesidad de descargar el paquete de Viewer SDK, ya que SDK se carga de forma remota. Sin embargo, el paquete Visualizador incluye ejemplos adicionales y una guía de referencia de API que pueden ayudarle a crear sus propios visualizadores.
 
-## Cargar el SDK del visor {#section-98596c276faf4cf79ccf558a9f4432c6}
+## Cargar el visor SDK {#section-98596c276faf4cf79ccf558a9f4432c6}
 
 1. Comience por configurar una nueva página para desarrollar el visor de zoom básico que va a crear.
 
-   Considere esta nueva página como el código del Bootstrap (o cargador) que utiliza para configurar una aplicación vacía del SDK. Abra su editor de texto favorito y pegue el siguiente marcado de HTML en él:
+   Considere esta nueva página como el código de Bootstrap (o del cargador) que utiliza para configurar una aplicación de SDK vacía. Abra su editor de texto favorito y pegue el siguiente marcado de HTML en él:
 
    ```html {.line-numbers}
    <!DOCTYPE html> 
@@ -79,7 +79,7 @@ Este tutorial incluye el siguiente orden de tareas para ayudarle a crear un viso
    </html>
    ```
 
-   Agregue el siguiente código JavaScript dentro de la etiqueta `script` para que inicialice `ParameterManager`. Al hacerlo, podrá prepararse para crear y crear instancias de componentes del SDK dentro de la función `initViewer`:
+   Agregue el siguiente código JavaScript dentro de la etiqueta `script` para que inicialice `ParameterManager`. Al hacerlo, podrá prepararse para crear y crear instancias de los componentes de SDK dentro de la función `initViewer`:
 
    ```javascript {.line-numbers}
    /* We create a self-running anonymous function to encapsulate variable scope. Placing code inside such 
@@ -161,7 +161,7 @@ Ahora incluya los componentes `Container` y `ZoomView`.
    </script>
    ```
 
-1. Ahora cree variables para hacer referencia a los distintos componentes del SDK.
+1. Ahora cree variables para hacer referencia a los distintos componentes de SDK.
 
    Agregue las siguientes variables a la parte superior de la función anónima principal, justo encima de `s7sdk.Util.init()`:
 
@@ -215,7 +215,7 @@ Ahora agregue los componentes `MediaSet` y `Swatches` a su visor.
 
 1. Para que los usuarios puedan seleccionar imágenes de un conjunto, puede agregar los componentes `MediaSet` y `Swatches`.
 
-   Añadir las siguientes inclusiones de SDK:
+   Añadir las siguientes funciones de SDK incluye:
 
    ```javascript {.line-numbers}
    s7sdk.Util.lib.include('s7sdk.set.MediaSet'); 
@@ -389,4 +389,4 @@ Ahora, agregue los botones de ampliar, alejar y restablecer el zoom al visor.
 
    Se ha completado el visor de zoom básico.
 
-   Este tutorial del visor toca los aspectos básicos de lo que proporciona el SDK del visor de Dynamic Media. A medida que trabaja con el SDK, puede utilizar los distintos componentes estándar para crear y diseñar fácilmente experiencias de visualización enriquecidas para las audiencias de destino.
+   Este tutorial del visualizador afecta a los aspectos básicos de lo que proporciona Dynamic Media Viewer SDK. Al trabajar con SDK, puede utilizar los distintos componentes estándar para crear y aplicar estilos fácilmente a las experiencias de visualización enriquecidas para las audiencias de destino.

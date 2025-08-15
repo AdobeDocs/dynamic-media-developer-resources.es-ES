@@ -18,7 +18,7 @@ Documentación de atributos de configuración para el visor flotante
 
 Puede establecer cualquier comando de configuración en la dirección URL. O bien, puede usar `setParam()`, `setParams()` o ambos métodos API. También puede especificar cualquier atributo de configuración en el registro de configuración del lado del servidor.
 
-Algunos comandos de configuración llevan como prefijo el nombre de clase o el nombre de instancia del componente SDK de visor correspondiente. Un nombre de instancia del componente es dinámico y depende del ID del elemento DOM contenedor de visor pasado al método de API `setContainerId()`. La documentación incluye un prefijo opcional para estos comandos. Por ejemplo, el comando `zoomfactor` está documentado de la siguiente manera:
+Algunos comandos de configuración llevan como prefijo el nombre de clase o el nombre de instancia del componente correspondiente de Viewer SDK. Un nombre de instancia del componente es dinámico y depende del ID del elemento DOM contenedor de visor pasado al método de API `setContainerId()`. La documentación incluye un prefijo opcional para estos comandos. Por ejemplo, el comando `zoomfactor` está documentado de la siguiente manera:
 
 `[FlyoutZoomView.|<containerId>_flyout].zoomfactor`
 

@@ -37,7 +37,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL animatedGifInfo]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:AnimatedGifInfo</span> </td> 
-   <td colname="col3"> Detalles sobre un archivo de GIF animado. </td> 
+   <td colname="col3"> Detalles sobre un archivo GIF animado. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL assetHandle]</span> </span> </td> 

@@ -18,11 +18,11 @@ Reenvía la lista proporcionada de direcciones URL al proveedor de CDN (red de d
 
 ## cdnCacheInvalidation: Acerca de {#section-4f70d2bc79d64288b961836ab17e9690}
 
-La invalidación de la caché de CDN fuerza a todas las solicitudes HTTP para estas URL a revalidarse con los datos publicados actuales en la red de Dynamic Media después de que esta solicitud de invalidación se procese a través de la red de CDN. Cualquier dirección URL que no esté conectada a la estructura de direcciones URL del servicio Dynamic Media y que coincida directamente con el ID raíz de la empresa de Dynamic Media asignado cuando se crea la empresa provoca un error de API en toda la solicitud. Cualquier dirección URL no válida que la CDN no admita y que considere no válida también provoca un error de API para toda la solicitud.
+La invalidación de la caché de CDN fuerza a todas las solicitudes HTTP para estas URL a revalidarse con los datos publicados actuales en la red de Dynamic Media después de que esta solicitud de invalidación se procese a través de la red de CDN. Cualquier dirección URL que no esté conectada a la estructura de direcciones URL del servicio de Dynamic Media y que coincida directamente con el ID raíz de la empresa de Dynamic Media asignado cuando se crea la empresa provoca un error de API en toda la solicitud. Cualquier dirección URL no válida que la CDN no admita y que considere no válida también provoca un error de API para toda la solicitud.
 
 **Frecuencia de uso: reglas**
 
-Las reglas que rigen la frecuencia de uso de esta función están controladas por los socios de CDN de Dynamic Media. La CDN conserva la discreción de degradar la capacidad de respuesta de estas invalidaciones para mantener un rendimiento óptimo de su servicio a sus usuarios. Si se notifica a Dynamic Media de un uso excesivo de esta función, el Adobe debe recurrir a deshabilitarla por empresa o por completo en todo el servicio.
+Las reglas que rigen la frecuencia de uso de esta función están controladas por los socios de CDN de Dynamic Media. La CDN conserva la discreción de degradar la capacidad de respuesta de estas invalidaciones para mantener un rendimiento óptimo de su servicio a sus usuarios. Si se notifica a Dynamic Media del uso excesivo de esta función, Adobe debe recurrir a la deshabilitación de la función por empresa o por completo en todo el servicio.
 
 **Correos electrónicos de confirmación**
 
@@ -61,7 +61,7 @@ Los correos electrónicos de confirmación del socio de CDN de Dynamic Media se 
    <td> <p> <span class="codeph"> <span class="varname"> urlArray</span> </span> </p> </td> 
    <td> <p> <span class="codeph"> tipos:UrlArray</span> </p> </td> 
    <td> <p> Sí </p> </td> 
-   <td> <p> Lista de hasta 1000 direcciones URL para invalidar de la caché de CDN. Todas las direcciones URL deben contener el ID raíz de la empresa de Dynamic Media para que se invaliden. </p> </td> 
+   <td> <p> Lista de hasta 1000 direcciones URL para invalidar de la caché de CDN. Todas las direcciones URL deben contener el ID raíz de la empresa de Dynamic Media para que se invalide. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -82,7 +82,7 @@ Los correos electrónicos de confirmación del socio de CDN de Dynamic Media se 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> invalidationHandle</span></span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sí </p> </td> 
-   <td colname="col4"> <p>Un identificador que hace referencia a la solicitud de purga. </p> <p>La API cdnCacheInvalidation</span> de <span class="codeph"> ahora invalida la caché casi inmediatamente (~5 segundos). Como tal, generalmente ya no es necesario sondear el estado de invalidación. </p> 
+   <td colname="col4"> <p>Un identificador que hace referencia a la solicitud de purga. </p> <p>La API cdnCacheInvalidation<span class="codeph"> de </span> ahora invalida la caché casi inmediatamente (~5 segundos). Como tal, generalmente ya no es necesario sondear el estado de invalidación. </p> 
     <!--<p>The next three paragraphs were added as per CQDOC-13840 With the migration from Akamai v2 API's to fast purge, purging time is now approximately 5 seconds. You are no longer required to poll on the purge URL to find out the status of the purge request.</p>--> 
     <!--<p>The cache invalidation handle used to contained the company ID, the user account type used (small or large), and the purge url. With the release of 2019R1, <codeph>invalidationHandle</codeph> now contains just the company ID and the purge ID. </p>--> 
     <!--<p>Prior to 2019R1, two different Akamai users were being used for each geography (for example, <codeph>cdninvalidatesmallemea</codeph> and <codeph>cdninvalidatelargeemea</codeph>) to invalidate requests, depending on the number of URLs in each request. This functionality was done so that a small request was not blocked because of a large request. Now, with fast purge in 2019R1, the purge is nearly instantaneous, two users are no longer needed, and only one account is used. </p>--> </td> 

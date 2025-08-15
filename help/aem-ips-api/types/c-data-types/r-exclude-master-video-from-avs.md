@@ -15,7 +15,7 @@ ht-degree: 9%
 
 >[!IMPORTANT]
 >
->El Adobe va a finalizar la compatibilidad con el parámetro `ExcludeMasterVideoFromAVS` el 1 de septiembre de 2022. Consulte también [llamadas obsoletas](/help/aem-ips-api/c-deprecated-calls.md).
+>Adobe va a dejar de ofrecer compatibilidad con el parámetro `ExcludeMasterVideoFromAVS` el 1 de septiembre de 2022. Consulte también [llamadas obsoletas](/help/aem-ips-api/c-deprecated-calls.md).
 
 Excluye el vídeo principal del conjunto de vídeos adaptables.
 

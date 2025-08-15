@@ -20,7 +20,7 @@ Esta guía de referencia contiene y define todos los servicios, métodos y tipos
 
 ## Estándares y protocolos {#section-d85e71e44b7f432b9c65ce6ca45b7157}
 
-SOAP La API de IPS utiliza los protocolos estándar y HTTP, y es compatible con cualquier cliente que se ajuste a estos estándares. Las pruebas adicionales ayudan a garantizar que la API sea compatible con Java™ (mediante la biblioteca Apache Axis2), Adobe Flex y Microsoft® .NET.
+La API de IPS utiliza los protocolos estándar SOAP y HTTP y es compatible con cualquier cliente que se ajuste a estos estándares. Las pruebas adicionales ayudan a garantizar que la API sea compatible con Java™ (mediante la biblioteca Apache Axis2), Adobe Flex y Microsoft® .NET.
 
 >[!MORELIKETHIS]
 >

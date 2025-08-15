@@ -37,7 +37,7 @@ Con este comando, el servicio de imágenes puede entregar imágenes grandes medi
 
 >[!NOTE]
 >
->Para obtener los mejores resultados, cuando se utiliza la compresión del JPEG, el tamaño de la tira o del mosaico debe ser un múltiplo del tamaño del mosaico de codificación del JPEG (16 x 16 píxeles).
+>Para obtener los mejores resultados, cuando se utiliza la compresión JPEG, el tamaño de la franja o del mosaico debe ser un múltiplo del tamaño del mosaico de codificación de JPEG (16 x 16 píxeles).
 
 ## Ejemplo {#section-932fcfcb41d74a29bc929e4430c49601}
 

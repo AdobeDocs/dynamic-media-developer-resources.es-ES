@@ -1,7 +1,7 @@
 ---
 description: Aunque los datos de imagen y SVG son muy similares, se mantienen en tablas independientes en el catálogo de imágenes.
 solution: Experience Manager
-title: Referencia de datos de imagen/SVG
+title: Referencia de datos de Image/SVG
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d43bf938-efed-4e9f-ab47-6581f8c587c9
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 ---
 
-# Referencia de datos de imagen/SVG{#image-svg-data-reference}
+# Referencia de datos de Image/SVG{#image-svg-data-reference}
 
 Aunque los datos de imagen y SVG son muy similares, se mantienen en tablas independientes en el catálogo de imágenes.
 
-Si se requieren datos de imagen, la ruta relativa o absoluta de los archivos de datos de imagen que desglosan las imágenes debe especificarse en `attribute::CatalogFile`. Si se requieren datos del SVG, la ruta de acceso relativa o absoluta de los archivos de datos del SVG debe especificarse en `attribute::SvgCatalogFile`.
+Si se requieren datos de imagen, la ruta relativa o absoluta de los archivos de datos de imagen que desglosan las imágenes debe especificarse en `attribute::CatalogFile`. Si se requieren datos de SVG, la ruta relativa o absoluta de los archivos de datos de SVG debe especificarse en `attribute::SvgCatalogFile`.
 
 * [Referencia de datos de imagen](c-image-data-reference/c-image-data-reference.md)
-* [Referencia de datos del SVG](c-svg-data-reference/c-svg-data-reference.md)
+* [Referencia de datos de SVG](c-svg-data-reference/c-svg-data-reference.md)

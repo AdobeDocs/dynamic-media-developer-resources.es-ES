@@ -33,7 +33,7 @@ Capa, comando. Se aplica a la capa actual o a la imagen compuesta si `layer=comp
 
 ## Predeterminado {#section-ef0e78f55c8b4d22aee09104dad6410a}
 
-`op_saturation=0`, sin cambios en la saturación. Las imágenes o capas CMYK se convierten en RGB antes de que se aplique la operación.
+`op_saturation=0`, sin cambios en la saturación. Las imágenes o capas CMYK se convierten a RGB antes de que se aplique la operación.
 
 ## Ejemplo {#section-033b272f1b7e4efeb94e841fd8095357}
 
