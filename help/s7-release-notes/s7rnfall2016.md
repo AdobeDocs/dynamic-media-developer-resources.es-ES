@@ -32,11 +32,11 @@ ht-degree: 0%
 
 Adobe anuncia la disponibilidad del envío de contenido HTTP/2 con el beneficio general de mejorar el rendimiento.
 
-Consulte [Preguntas frecuentes sobre la entrega de contenido HTTP2](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
+Consulte [Preguntas frecuentes sobre la entrega de contenido HTTP2](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html?lang=es#dynamic).
 
 ## Scene7 Publishing System {#section-24487cb493444d808fb7193f0a00cdd4}
 
-Para obtener toda la documentación, consulte [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)
+Para obtener toda la documentación, consulte [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=es](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=es)
 
 **Nuevas funciones, mejoras y correcciones de errores**
 
@@ -58,7 +58,7 @@ Para obtener toda la documentación, consulte [https://experienceleague.adobe.co
 
 ## Visualizadores (Image Serving 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-Para obtener documentación completa, consulte [Guía de referencia de visores](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+Para obtener documentación completa, consulte [Guía de referencia de visores](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=es).
 
 **Correcciones de errores para el servicio de imágenes 5.5.3**
 
@@ -68,7 +68,7 @@ Para obtener documentación completa, consulte [Guía de referencia de visores](
 
 ## Visualizadores (servicio de imágenes 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-Para obtener documentación completa, consulte [Guía de referencia de visores](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+Para obtener documentación completa, consulte [Guía de referencia de visores](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=es).
 
 **Correcciones de errores para el servicio de imágenes 5.5.2**
 
@@ -77,7 +77,7 @@ Para obtener documentación completa, consulte [Guía de referencia de visores](
 
 ## Visualizadores (Image Serving 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-Para obtener documentación completa, consulte [Guía de referencia de visores](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+Para obtener documentación completa, consulte [Guía de referencia de visores](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=es).
 
 **Nuevas funciones, mejoras y correcciones de errores para el servicio de imágenes 5.5.1**
 
