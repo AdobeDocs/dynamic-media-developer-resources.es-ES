@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic
 role: Developer,User
 exl-id: 23091ef7-750a-4ec2-9d03-1d713f436991
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
 workflow-type: tm+mt
-source-wordcount: '2236'
+source-wordcount: '2234'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,11 @@ ht-degree: 0%
 
 Adobe anuncia la disponibilidad del envío de contenido HTTP/2 con el beneficio general de mejorar el rendimiento.
 
-Consulte [Preguntas frecuentes sobre la entrega de contenido HTTP2](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html?lang=es#dynamic).
+Consulte [Preguntas frecuentes sobre la entrega de contenido HTTP2](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
 
 ## Scene7 Publishing System {#section-24487cb493444d808fb7193f0a00cdd4}
 
-Para obtener toda la documentación, consulte [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=es](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=es)
+Para obtener toda la documentación, consulte [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)
 
 **Nuevas funciones, mejoras y correcciones de errores**
 
@@ -58,7 +58,7 @@ Para obtener toda la documentación, consulte [https://experienceleague.adobe.co
 
 ## Visualizadores (Image Serving 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-Para obtener documentación completa, consulte [Guía de referencia de visores](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=es).
+Para obtener documentación completa, consulte [Guía de referencia de visores](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Correcciones de errores para el servicio de imágenes 5.5.3**
 
@@ -68,7 +68,7 @@ Para obtener documentación completa, consulte [Guía de referencia de visores](
 
 ## Visualizadores (servicio de imágenes 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-Para obtener documentación completa, consulte [Guía de referencia de visores](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=es).
+Para obtener documentación completa, consulte [Guía de referencia de visores](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Correcciones de errores para el servicio de imágenes 5.5.2**
 
@@ -77,7 +77,7 @@ Para obtener documentación completa, consulte [Guía de referencia de visores](
 
 ## Visualizadores (Image Serving 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-Para obtener documentación completa, consulte [Guía de referencia de visores](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=es).
+Para obtener documentación completa, consulte [Guía de referencia de visores](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Nuevas funciones, mejoras y correcciones de errores para el servicio de imágenes 5.5.1**
 
@@ -151,10 +151,7 @@ Para obtener documentación completa, consulte [Guía de referencia de visores](
 
 **Problemas y restricciones conocidos**
 
-* Los modificadores del servicio de imágenes de `iscommands` no se agregan a la solicitud `req=set` por diseño. Los modificadores que solo afectan a la visualización de la imagen funcionan bien. Los modificadores que afectan al tamaño deben utilizarse en un recurso complejo. Por ejemplo:
-
-  `https://s7d9.scene7.com/s7viewers/html5/BasicZoomViewer.html?asset= {Scene7SharedAssets/Backpack_B?extendn=0.5%252C0.5%252C0.5%252C0.5}`
-
+* Los modificadores del servicio de imágenes de `iscommands` no se agregan a la solicitud `req=set` por diseño. Los modificadores que solo afectan a la visualización de la imagen funcionan bien. Los modificadores que afectan al tamaño deben utilizarse en un recurso complejo.
 * [Flotante] IE9 permanece a veces en pantalla después de que el ratón se apague.
 * El cambio de tamaño del explorador provoca un cambio de tamaño incorrecto.
 * iPad 2: El recurso de catálogo electrónico grande bloquea Safari en iOS.

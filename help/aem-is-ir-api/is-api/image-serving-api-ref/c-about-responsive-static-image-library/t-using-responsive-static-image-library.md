@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2542b9f3-c398-4dbf-afa3-1671fc4fe72a
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Para añadir la biblioteca de imágenes adaptables a una página web y administr
 
 **Para usar la biblioteca de imágenes adaptables**
 
-1. En Dynamic Media Classic, [cree un ajuste preestablecido de imagen](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html?lang=es#image-sizing) en caso de que planee usar la biblioteca de imágenes adaptables con ajustes preestablecidos.
+1. En Dynamic Media Classic, [cree un ajuste preestablecido de imagen](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing) en caso de que planee usar la biblioteca de imágenes adaptables con ajustes preestablecidos.
 
    Cuando defina ajustes preestablecidos de imagen que se utilizan con la biblioteca de imágenes adaptables, no utilice ninguna configuración que afecte al tamaño de la imagen, como `wid=`, `hei=` o `scl=`. No especifique ningún campo de tamaño en el ajuste preestablecido de imagen. En su lugar, déjelos como valores en blanco.
 1. Añada el archivo JavaScript de biblioteca a la página web.
@@ -32,11 +32,13 @@ Para añadir la biblioteca de imágenes adaptables a una página web y administr
 
    También se recomienda colocar la dirección URL de la imagen existente en el atributo `data-src`. A continuación, configure el atributo `src` existente para que tenga una imagen GIF 1x1 codificada como URI de datos. Al hacerlo, reduce el número de solicitudes HTTP que envía la página web en el momento de la carga. Sin embargo, tenga en cuenta que si se necesita SEO (optimización del motor de búsqueda), es mejor configurar un atributo `title` en la instancia de imagen.
 
-   A continuación se muestra un ejemplo de la definición del atributo `data-breakpoints` para la imagen y el uso de una GIF 1x1 codificada como URI de datos:
+<!--
+   The following is an example of defining `data-breakpoints` attribute for the image and using a 1x1 GIF encoded as Data URI:
 
    ```
    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
    ```
+-->
 
 1. Llame a la función de API `s7responsiveImage` para cada instancia de imagen que administre la biblioteca.
 
@@ -56,7 +58,8 @@ La biblioteca admite el trabajo simultáneo con muchas instancias de imagen en l
 
 Es responsabilidad de la página web aplicar estilo al elemento de imagen para que su tamaño sea flexible. La biblioteca de imágenes adaptables en sí no diferencia entre imágenes de tamaño fijo y &quot;fluidas&quot;. Si se aplica a una imagen de tamaño fijo, carga la nueva imagen solo una vez.
 
-El siguiente código es un ejemplo completo de una página web trivial que tiene una sola imagen fluida administrada por la biblioteca de imágenes adaptables. El ejemplo contiene un estilo CSS adicional para que la imagen sea &quot;adaptable&quot; al tamaño de la ventana del explorador web:
+<!--
+The following code is a complete example of a trivial web page that has a single fluid image managed by the Responsive Image library. The example contains extra CSS styling to make the image "responsive" to the web browser window size:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -81,7 +84,9 @@ El siguiente código es un ejemplo completo de una página web trivial que tiene
   </script> 
  </body> 
 </html>
+
 ```
+-->
 
 **Usando recorte inteligente**
 

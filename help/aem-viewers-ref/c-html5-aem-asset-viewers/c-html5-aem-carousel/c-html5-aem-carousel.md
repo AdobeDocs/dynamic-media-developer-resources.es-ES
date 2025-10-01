@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: d506dc6e-8929-4f7f-a205-1683e77681f1
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
 workflow-type: tm+mt
-source-wordcount: '1867'
+source-wordcount: '1851'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,11 @@ Tipo de visor 511.
 
 ## URL de demostración {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
 
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html?lang=es](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html?lang=es)
+[https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+
+<!--
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html)
+-->
 
 ## Requisitos del sistema {#section-b7270cc4290043399681dc504f043609}
 
@@ -66,11 +70,13 @@ Se recomienda utilizar una página de HTML predeterminada para el modo de operac
 
 Puede conseguir una personalización visual aplicando CSS personalizado.
 
-A continuación se muestra un ejemplo de código HTML que abre el visor en una nueva ventana:
+<!--
+The following is an example of HTML code that opens the viewer in a new window:
 
 ```html {.line-numbers}
 <a href="https://demos-pub.assetsadobe.com/etc/dam/viewers/s7viewers/html5/CarouselViewer.html?asset=/content/dam/dm-public-facing-live-demo-page/04_shoppable_carousel/05_shoppable_banner&serverurl=https://adobedemo62-h.assetsadobe.com/is/image" target="_blank">Open popup viewer</a>
 ```
+-->
 
 **Acerca del modo de incrustación de tamaño fijo y el modo de incrustación de diseño interactivo**
 
@@ -161,6 +167,7 @@ La ruta relativa tiene el siguiente aspecto:
 
    Al mismo tiempo, el elemento contenedor no debe formar parte necesariamente del diseño de la página web todavía. Por ejemplo, se puede ocultar usando el estilo `display:none` asignado a él. En este caso, el visor retrasa su proceso de inicialización hasta el momento en que la página web devuelve el elemento contenedor al diseño. Cuando se produce esta funcionalidad, la carga del visor se reanuda automáticamente.
 
+
    A continuación se muestra un ejemplo de cómo crear una instancia de visor, pasar las opciones de configuración mínimas necesarias al constructor y llamar al método `init()`. El ejemplo supone que `carouselViewer` es la instancia del visor; `s7viewer` es el nombre del marcador de posición `DIV`; `https://adobedemo62-h.assetsadobe.com/is/image` es la dirección URL del servicio de imágenes y `/content/dam/dm-public-facing-live-demo-page/04_shoppable_carousel/05_shoppable_banner` es el recurso:
 
    ```javascript {.line-numbers}
@@ -174,6 +181,7 @@ La ruta relativa tiene el siguiente aspecto:
    }).init(); 
    </script>
    ```
+
 
    El siguiente código es un ejemplo completo de una página web trivial que incrusta el Visor de carrusel con un tamaño fijo:
 
@@ -206,7 +214,9 @@ La ruta relativa tiene el siguiente aspecto:
 
 **Inserción de diseño interactivo con altura sin restricciones**
 
-Con incrustación de diseño interactivo, la página web normalmente tiene algún tipo de diseño flexible que dicta el tamaño de tiempo de ejecución del contenedor del visor `DIV`. En el siguiente ejemplo, supongamos que la página web permite que el contenedor del visor `DIV` ocupe el 40% del tamaño de la ventana del explorador web. Y, su altura se deja sin restricciones. El código HTML de la página web tendría el siguiente aspecto:
+Con incrustación de diseño interactivo, la página web normalmente tiene algún tipo de diseño flexible que dicta el tamaño de tiempo de ejecución del contenedor del visor `DIV`.
+
+En el siguiente ejemplo, supongamos que la página web permite que el contenedor del visor `DIV` ocupe el 40% del tamaño de la ventana del explorador web. Y, su altura se deja sin restricciones. El código HTML de la página web tendría el siguiente aspecto:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -262,11 +272,12 @@ var carouselViewer = new s7viewers.CarouselViewer({
 
 La siguiente página de ejemplos ilustra usos más reales del diseño interactivo incrustado con una altura sin restricciones:
 
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html?lang=es](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html?lang=es)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html)
 
 **Incrustación de tamaño flexible con anchura y altura definidas**
 
 En la incrustación de tamaño flexible con la anchura y la altura definidas, el estilo de la página web es diferente. Proporciona ambos tamaños al DIV `"holder"` y lo centra en la ventana del explorador. Además, la página web establece el tamaño del elemento `HTML` y `BODY` en un 100 por ciento.
+
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -330,9 +341,11 @@ var carouselViewer = new s7viewers.CarouselViewer({
 </html>
 ```
 
+
 **Incrustación mediante API basada en el establecedor**
 
 En lugar de utilizar la inicialización basada en JSON, es posible utilizar la API basada en establecedores y el constructor sin argumentos. El uso de este constructor de API no toma ningún parámetro y los parámetros de configuración se especifican mediante los métodos de API `setContainerId()`, `setParam()` y `setAsset()` con llamadas de JavaScript independientes.
+
 
 El siguiente ejemplo ilustra el uso de la incrustación de tamaño fijo con la API basada en establecedores:
 
@@ -360,3 +373,4 @@ carouselViewer.init();
 </body> 
 </html>
 ```
+

@@ -6,9 +6,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 937be8a2-307e-47bb-9fc8-d354f780a214
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
 workflow-type: tm+mt
-source-wordcount: '2368'
+source-wordcount: '2364'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,11 @@ El Visor de recorte inteligente de vídeos utiliza la reproducción de vídeo de
 
 Tipo de visor 518.
 
-## URL de demostración {#section-e1c3106f5b3e445d9b95be337c2f94e2}
+<!--
+## Demo URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
 [https://s7d9.scene7.com/s7viewers/html5/SmartCropVideoViewer.html?asset=html5automation/frisbee-AVS](https://s7d9.scene7.com/s7viewers/html5/SmartCropVideoViewer.html?asset=html5automation/frisbee-AVS)
+-->
 
 ## Uso del Visor de recorte inteligente de vídeos {#section-f21ac23d3f6449ad9765588d69584772}
 
@@ -293,7 +295,7 @@ La siguiente página de ejemplos ilustra un uso más real de la incrustación de
 
 [Demostraciones en vivo](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Ubicación de demostración alternativa](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=es)
+[Ubicación de demostración alternativa](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 **Incrustación de diseño interactivo con anchura y altura definidas**
 

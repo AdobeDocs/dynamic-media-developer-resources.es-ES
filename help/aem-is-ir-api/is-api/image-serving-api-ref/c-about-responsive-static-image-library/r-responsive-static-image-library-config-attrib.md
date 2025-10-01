@@ -5,9 +5,9 @@ title: 'Referencia de comando: atributos de configuración'
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8cc645f8-03fe-4ac7-b23f-36536b60fdf6
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 3df884c468ea89cc55b2b8ce13af01bfad454545
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -21,12 +21,13 @@ Los atributos de configuración se definen como atributos directamente en un ele
 Opcional.
 
 URL de la imagen que sirve el servicio de imágenes. Si la dirección URL no está presente, la biblioteca utiliza el valor establecido en el atributo `src` como alternativa. Este atributo sirve para la imagen inicial y la imagen dinámica que la biblioteca de imágenes interactivas administra desde diferentes ubicaciones.
-
-**Ejemplo**
+<!--
+**Example** 
 
 ```
 <img data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
 ```
+-->
 
 ## src {#section-5dbc1f9a3c274705adb9702e4c7af0b1}
 
@@ -34,13 +35,15 @@ Si se establece `data-src`, `src` es opcional y puede contener cualquier direcci
 
 Si `data-src` no está establecido, `src` es obligatorio y debe contener una URL a la imagen que suministra el servicio de imágenes.
 
-**Ejemplo**
+<!--
+**Example**
 
-Usando URI de datos para el atributo `src` y URL del servicio de imágenes para el atributo `data-src`:
+Using data URI for the `src` attribute and Image Serving URL for the `data-src` attribute:
 
 ```
 <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
 ```
+-->
 
 ## data-breakpoints {#section-3bf62a89ff3e40569848c1fe3ac7886c}
 
@@ -52,23 +55,26 @@ Puede utilizar cualquier comando de servicio de imágenes admitido, excepto los 
 
 Los nombres de varios comandos del servicio de imágenes o ajustes preestablecidos de imagen se separan con el carácter &quot; `&`&quot;. Si un comando del servicio de imágenes tiene una coma en su valor, dicha coma se reemplaza por `%2C`. Los nombres de ajustes preestablecidos de imagen están envueltos en símbolos de dólar ( `$`).
 
-**Ejemplos**
+<!--
+**Examples**
 
-**Solo se usan puntos de interrupción**
+**Using breakpoints only**
 
 `<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720">`
 
-**Usando comandos para servicio de imágenes**
+**Using Image Serving commands**
 
 `<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360:op_sharpen=1,720:resMode=sharp2&op_usm=0.9%2C1.0%2C8%2C0">`
 
-**Utilizando ajustes preestablecidos de imagen**
+**Using Image Presets**
 
 `<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360:$ResponsiveImage_Low$,940:$ResponsiveImage_High$">`
 
-**Usar ajustes preestablecidos de imagen y comandos de servicio de imágenes**
+**Using Image Presets & Image Serving commands**
 
 `<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360:qlt=50,940:$ResponsiveImage_High$">`
+
+-->
 
 ## data-mode {#section-97caf43cf5ab4ca8b1b866d8f394a9a4}
 
