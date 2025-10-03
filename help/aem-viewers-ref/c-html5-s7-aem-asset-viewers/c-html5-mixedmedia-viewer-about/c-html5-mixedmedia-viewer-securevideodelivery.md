@@ -34,7 +34,7 @@ Según el método de publicación de vídeo de Dynamic Media que utilice en Adob
 
 -->
 
-Vea también [(Vinculando direcciones URL a su aplicación web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic)).
+Vea también [(Vinculando direcciones URL a su aplicación web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=es#dynamic)).
 
 * Si publica un vídeo de Dynamic Media con código incrustado, agrega `VideoPlayer.ssl` a la lista de otros parámetros de configuración del visor en el fragmento de código incrustado.
 
@@ -68,4 +68,4 @@ Vea también [(Vinculando direcciones URL a su aplicación web](https://experien
 
 -->
 
-Vea también [(Incrustación del vídeo en una página web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic).
+Vea también [(Incrustación del vídeo en una página web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=es#dynamic).

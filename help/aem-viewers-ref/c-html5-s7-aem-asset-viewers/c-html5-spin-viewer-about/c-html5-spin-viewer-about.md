@@ -296,7 +296,7 @@ La siguiente página de ejemplos ilustra casos de uso más reales de incrustaci�
 
 <!--
 
-[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=es)
 
 -->
 
