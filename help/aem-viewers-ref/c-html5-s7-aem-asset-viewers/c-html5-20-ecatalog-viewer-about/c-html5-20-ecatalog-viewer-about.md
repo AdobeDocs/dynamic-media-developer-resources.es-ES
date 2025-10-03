@@ -6,9 +6,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 8e243fa5-e375-41ce-8b49-2571023130c1
-source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '2130'
+source-wordcount: '2134'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,11 @@ Consulte [Requisitos y requisitos previos del sistema](../../c-system-requiremen
 
 Este visor funciona con catálogos electrónicos y admite mapas de imágenes opcionales y herramientas de uso compartido en medios sociales. Tiene herramientas de zoom, herramientas de navegación de catálogo, soporte para pantalla completa, miniaturas y un botón de cierre opcional. El visor también admite herramientas de uso compartido en redes sociales, Imprimir, Descargar y Favoritos. Está diseñado para trabajar en equipos de escritorio y dispositivos móviles.
 
-<!--
-## Demo URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
+
+## URL de demostración {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
 [https://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist](https://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist)
--->
+
 
 ## Uso del visor de catálogos electrónicos {#section-e6c68406ecdc4de781df182bbd8088b4}
 

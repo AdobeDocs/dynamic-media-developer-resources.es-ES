@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 74a69d01-fa58-4d36-8598-992baf6ae11d
-source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,8 @@ De forma predeterminada, el visor envía una única solicitud HTTP de seguimient
 
 Para integrarse con sistemas de análisis de terceros, es necesario escuchar la llamada de retorno del visor `trackEvent` y procesar el argumento `eventInfo` de la función de llamada de retorno según sea necesario.
 
-<!--
-The following code is an example of such handler function:
+
+El siguiente código es un ejemplo de esta función de controlador:
 
 ```javascript {.line-numbers}
 var video360Viewer = new s7viewers.Video360Viewer({ 
@@ -49,7 +49,7 @@ var video360Viewer = new s7viewers.Video360Viewer({
 } 
 });
 ```
--->
+
 
 El visor realiza un seguimiento de los siguientes eventos de usuarios de SDK:
 
