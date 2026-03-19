@@ -298,7 +298,7 @@ La siguiente página de ejemplos ilustra un uso más real de la incrustación de
 
 <!--
 
-[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=es)
 
 -->
 

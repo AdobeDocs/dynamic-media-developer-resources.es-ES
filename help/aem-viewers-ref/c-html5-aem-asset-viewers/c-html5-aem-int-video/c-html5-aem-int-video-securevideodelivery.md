@@ -36,7 +36,7 @@ Según el método de publicación de [!DNL Dynamic Media] vídeo que utilice en 
 
 -->
 
-Vea también [Vinculación de direcciones URL a su aplicación web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic)
+Vea también [Vinculación de direcciones URL a su aplicación web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=es#dynamic)
 
 * Si publica un vídeo de [!DNL Dynamic Media] con código incrustado, agrega `VideoPlayer.ssl` a la lista de otros parámetros de configuración del visor en el fragmento de código incrustado.
 
@@ -90,4 +90,4 @@ Vea también [Vinculación de direcciones URL a su aplicación web](https://expe
   ```
 -->
 
-Ver también [Incrustación del vídeo en una página web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic).
+Ver también [Incrustación del vídeo en una página web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=es#dynamic).
