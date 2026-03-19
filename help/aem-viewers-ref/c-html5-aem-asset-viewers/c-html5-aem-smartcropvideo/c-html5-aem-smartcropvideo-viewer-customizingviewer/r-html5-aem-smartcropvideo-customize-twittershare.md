@@ -1,11 +1,12 @@
 ---
 title: Uso compartido de Twitter
 description: La herramienta Compartir en Twitter consiste en un botón agregado al panel Compartir en redes sociales. Cuando se selecciona el botón, se redirige al usuario a un cuadro de diálogo para compartir proporcionado por un servicio social. La posición del botón se administra completamente mediante la herramienta Compartir en redes sociales.
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 5bcf6868-7ebb-43ec-971d-2be9e53650bb
-source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 0%

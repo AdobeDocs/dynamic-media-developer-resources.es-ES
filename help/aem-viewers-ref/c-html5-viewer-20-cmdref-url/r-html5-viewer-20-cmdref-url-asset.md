@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: edcd18b6-5292-44da-80be-b7f75ee4c48e
-source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '573'
 ht-degree: 2%
 
 ---
@@ -62,7 +62,7 @@ o
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> multiDimensionalSpinSet </span> </span> </p> </td> 
-   <td colname="col2"> <p>Especifica un conjunto de giros multidimensional explícito utilizando la siguiente sintaxis: </p> <p> <span class="codeph"> (( <span class="varname"> horizontalSpinSet </span>) [,( <span class="varname"> horizontalSpinSet </span>)]) </span> </p> <p> donde <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> es una lista de fotogramas separados por comas para un eje horizontal determinado. Todos los <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> deben tener el mismo número de fotogramas. </p> <p> <p>Nota: Esta función es compatible con Adobe Dynamic Media Classic, no con Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col2"> <p>Especifica un conjunto de giros multidimensional explícito utilizando la siguiente sintaxis: </p> <p> <pre><code>(( horizontalSpinSet )&lbrack;[,( horizontalSpinSet )&rbrack;)</code></pre> </p> <p> donde <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> es una lista de fotogramas separados por comas para un eje horizontal determinado. Todos los <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> deben tener el mismo número de fotogramas. </p> <p> <p>Nota: Esta función es compatible con Adobe Dynamic Media Classic, no con Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> modificadores </span> </span> </p> </td> 

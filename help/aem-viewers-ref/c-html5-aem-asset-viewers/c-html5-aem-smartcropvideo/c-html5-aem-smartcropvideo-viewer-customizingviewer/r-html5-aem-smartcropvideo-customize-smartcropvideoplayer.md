@@ -1,10 +1,11 @@
 ---
 title: Reproductor de vídeo
 description: El reproductor de vídeo de recorte inteligente es el área rectangular en la que se muestra el contenido de vídeo dentro del visor.
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%

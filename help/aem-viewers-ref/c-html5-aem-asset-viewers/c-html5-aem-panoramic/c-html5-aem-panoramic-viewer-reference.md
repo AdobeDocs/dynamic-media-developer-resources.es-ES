@@ -2,10 +2,11 @@
 title: Visor panorámico
 description: El visualizador panorámico HTML5 es un visualizador de imágenes que muestra una imagen panorámica. El objetivo de este visor es mostrar un panorama esférico, también conocido como imagen equirectangular. Admite la panorámica automática y la panorámica mediante movimiento giroscópico. Está diseñado para trabajar en equipos de escritorio y dispositivos móviles. El modo de visualización de realidad virtual está disponible en dispositivos móviles compatibles.
 keywords: adaptable
-solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
-source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '1916'
 ht-degree: 0%
@@ -275,7 +276,7 @@ La siguiente página de ejemplos ilustra un uso más real de la incrustación de
 
 <!--
 
-[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=es)
+[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 -->
 

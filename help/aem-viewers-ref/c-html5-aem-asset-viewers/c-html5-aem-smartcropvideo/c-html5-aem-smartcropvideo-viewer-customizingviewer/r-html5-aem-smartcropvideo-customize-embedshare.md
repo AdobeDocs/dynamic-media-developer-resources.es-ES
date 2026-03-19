@@ -1,11 +1,12 @@
 ---
 title: Incrustar recurso compartido
 description: La herramienta Compartir incrustada consiste en un botón agregado al panel Compartir en redes sociales y el cuadro de diálogo modal que se muestra cuando se activa la herramienta. La posición del botón se administra completamente mediante la herramienta Compartir en redes sociales.
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: d5f8db82-f1f9-45be-990d-ebfef97507b6
-source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '2621'
 ht-degree: 0%
@@ -243,7 +244,7 @@ El botón Cerrar se controla con el siguiente selector de clase CSS:
 .s7smartcropvideoviewer .s7embeddialog .s7closebutton
 ```
 
-**Propiedades CSS del &#x200B;** de botón Cerrar
+**Propiedades CSS del ** de botón Cerrar
 
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
@@ -330,7 +331,7 @@ El pie de página del cuadro de diálogo consiste en el botón &quot;cancelar&qu
 .s7smartcropvideoviewer .s7embeddialog .s7dialogfooter
 ```
 
-**Propiedades CSS de la &#x200B;** de pie de página del cuadro de diálogo
+**Propiedades CSS de la ** de pie de página del cuadro de diálogo
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
@@ -531,7 +532,7 @@ El área de diálogo principal, entre el encabezado y el pie de página, contien
 .s7smartcropvideoviewer .s7embeddialog .s7dialogviewarea
 ```
 
-**Propiedades CSS de la &#x200B;** del área de visualización del cuadro de diálogo
+**Propiedades CSS de la ** del área de visualización del cuadro de diálogo
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
@@ -568,7 +569,7 @@ Todo el contenido del formulario (como etiquetas y campos de entrada) reside den
 
 Si la altura de este contenedor parece ser mayor que el área del cuadro de diálogo principal, el componente activa automáticamente un desplazamiento vertical.
 
-**Propiedades CSS del &#x200B;** de cuerpo del cuadro de diálogo
+**Propiedades CSS del ** de cuerpo del cuadro de diálogo
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
@@ -595,7 +596,7 @@ Todas las etiquetas estáticas del formulario de cuadro de diálogo se controlan
 
 Esta clase no es adecuada para controlar el tamaño o la posición de la etiqueta porque puede aplicarla a textos en varios lugares de la interfaz de usuario del formulario.
 
-**Propiedades CSS de la etiqueta del cuadro de diálogo. &#x200B;**
+**Propiedades CSS de la etiqueta del cuadro de diálogo. **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 

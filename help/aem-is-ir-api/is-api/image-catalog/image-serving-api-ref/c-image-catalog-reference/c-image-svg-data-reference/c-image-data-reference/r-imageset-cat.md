@@ -5,9 +5,9 @@ title: Conjunto de imágenes
 feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,User
 exl-id: eacf0553-8cec-4a1d-80a5-6fe37b92b5bf
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '683'
 ht-degree: 1%
 
 ---
@@ -48,7 +48,7 @@ Cada elemento de un conjunto de muestras básico consta de una referencia a un r
 | `*`basicSwatchSet`*` | `*`elementoMuestra`*&#42;[',' *`elementoMuestra`*]` |
 |---|---|
 | `*`elemento de muestra`*` | `*`imageId`*[';' *`muestra`*]` |
-| `*`muestra`*` | `*`swatchId`*|solidColorSpecifier` |
+| `*`muestra`*` | `*`swatchId`*`\|`solidColorSpecifier` |
 | `*`imageId`*` | Referencia de imagen del servicio de imágenes (catálogo/id) |
 | `*`swatchId`*` | Referencia de imagen del servicio de imágenes (catálogo/id) |
 | `*`solidColorSpecifier`*` | ` '{0x' *`rrggbb`* [ *`etiqueta`*]'}'` |
@@ -61,7 +61,7 @@ Cada elemento de un conjunto de muestras jerárquico puede constar de un element
 
 | `*`conjunto de muestras jerárquico`*` | `*`elementoMuestraJerárquico`* &#42;[ ',' *`elementoMuestraJerárquico`* ]` |
 |---|---|
-| `*`elementoMuestraJerárquico`*` | `*`swatchItem`* | { *`basicSwatchSetId`* ';' *`muestra`* }` |
+| `*`elementoMuestraJerárquico`*` | `*`elemento de muestra`*` \| `{` *`basicSwatchSetId`* &#39;;&#39; *`swatch`* `}` |
 | `*`basicSwatchSetId`*` | Referencia de IS (catalog/id) a un registro de catálogo que define un conjunto de muestras básico |
 
 **Conjuntos de giros básicos**
@@ -76,7 +76,7 @@ Cada elemento de un conjunto de giros bidimensional puede constar de una imagen 
 
 | `*`2dSpinItem`*` | `*`2dSpinSet`* *`2dSpinItem`* &#42;[ ',' *`2dSpinItem`* ]` |
 |---|---|
-| `*`2dSpinItem`*` | `*`imageId`* | { '{' *`basicSpinSet`* '}' } | *`basicSpinSetId`*` |
+| `*`2dSpinItem`*` | `*`imageId`*` \| `{` &#39;{&#39; *`basicSpinSet`* &#39;}&#39; `}` \| `*`basicSpinSetId`*` |
 | `*`basicSpinSetId`*` | Referencia de IS (catálogo/id) a un registro de catálogo que define un conjunto de giros básico |
 
 **Conjuntos de páginas**
@@ -93,12 +93,12 @@ Cada elemento de un conjunto de medios puede constar de una imagen, un conjunto 
 
 | `*`mediaSet`*` | `*`elemento`* &#42;[ , *`elemento`* ]` |
 |---|---|
-| `*`elemento`*` | ` { *`videoItem`* | *`recutItem`* | *`imageItem`*}} | *`setItem`* } [ ; [ *`ID`* ] [ ; [ *`reservado`* ] ] ]` |
+| `*`elemento`*` | `{ *`videoItem`*` \| *`recutItem`* \| *`imageItem`*`}}`\|*`setItem`*`}` `[`; `[`*`ID`*`]` `[`; `[`*`reserved`*`] ] ]` |
 | `*`videoItem`*` | `*`vídeo`* ; *`swatchId`*` |
 | `*`recutItem`*` | `*`rehacer`* ; *`swatchId`*` |
 | `*`imageItem`*` | `*`imageId`* ; [ *`swatchId`* ]` |
-| `*`setItem`*` | ` { *`setId`* | { '{' *`inlineSet`* '}' } } ; *`swatchId`*` |
-| `*`ID`*` | `media type identifier [ img | basic | advanced_image | img | img_set | advanced_imageset | advanced_swatchset | spin | video ]` |
+| `*`setItem`*` | `{ *`setId`*` \| `{` &#39;{&#39; *`inlineSet`* &#39;}&#39; `} }` ; *`swatchId`* |
+| `*`ID`*` | `media type identifier` `[` img \| básico \| advanced_image \| img \| img_set \| advanced_imageset \| advanced_swatchset \| giro \| vídeo `]` |
 | `*`swatchId`*` | ID de imagen IS |
 | `*`vídeo`*` | Ruta del archivo de vídeo/animación o ID de catálogo estático |
 | `*`rehacer`*` | Ruta del archivo XML de definición de reedición o ID de catálogo estático |

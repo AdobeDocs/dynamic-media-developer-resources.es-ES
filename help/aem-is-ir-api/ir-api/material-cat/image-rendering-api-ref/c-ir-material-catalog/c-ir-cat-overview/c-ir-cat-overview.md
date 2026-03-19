@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d26371da-e992-4f63-a5be-190ce60eca2f
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 0%
@@ -39,6 +39,8 @@ Además, el catálogo predeterminado proporciona todos los atributos y registros
 
 Para que el servidor de procesamiento funcione correctamente, el archivo de atributos de catálogo del catálogo predeterminado debe llamarse [!DNL default.ini]. También debe existir siempre en la carpeta del catálogo y debe rellenarse completamente con todos los atributos necesarios, excluyendo `attribute::RootId` y las referencias a los distintos archivos de datos del catálogo, que son todos opcionales.
 
-<!-- **See also**
+<!--
+ **See also**
 
-`PlatformServer::ir.catalogRootPath` -->
+`PlatformServer::ir.catalogRootPath`
+-->
