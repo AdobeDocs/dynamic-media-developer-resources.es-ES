@@ -4,9 +4,9 @@ user-guide-title: API de servicio y procesamiento de imágenes de Dynamic Media
 breadcrumb-title: API de servicio y procesamiento de imágenes de Dynamic Media
 feature-set: Experience Manager Assets
 user-guide-description: Vea documentación sobre las API de IS (Image Serving) e IR (Image Rendering), y tecnologías relacionadas.
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+source-git-commit: 6c2c23327affd02708d05bff3859cf8da746eabf
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1459'
 ht-degree: 8%
 
 ---
@@ -510,7 +510,7 @@ ht-degree: 8%
       + [conjunto de reglas](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-ruleset-rule.md)
       + [sustitución](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-substitution-rule.md)
    + [Proxy de servidor de imágenes](is-api/image-serving-api-ref/r-image-server-proxy.md)
-   + [Ejemplos del servidor de imágenes](is-api/image-serving-api-ref/r-examples-is.md)
+   + {hide-from-toc}[Ejemplos de Image Server](is-api/image-serving-api-ref/r-examples-is.md)
    + Biblioteca de imágenes estáticas adaptable {#responsive-static-image-library}
       + [Biblioteca de imágenes estáticas interactivas](is-api/image-serving-api-ref/c-about-responsive-static-image-library/c-about-responsive-static-image-library.md)
       + [Uso de la biblioteca de imágenes adaptables](is-api/image-serving-api-ref/c-about-responsive-static-image-library/t-using-responsive-static-image-library.md)
@@ -768,6 +768,6 @@ ht-degree: 8%
 
 <!--
 Comment from the first link in the TOC:
-(https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html?lang=es)
+(https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html)
 Comments within the TOC can cause rendering problems.
 -->
