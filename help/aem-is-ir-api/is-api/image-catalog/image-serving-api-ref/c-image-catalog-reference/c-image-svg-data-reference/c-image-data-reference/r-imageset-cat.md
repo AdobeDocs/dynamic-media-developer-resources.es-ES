@@ -5,9 +5,13 @@ title: Conjunto de imágenes
 feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,User
 exl-id: eacf0553-8cec-4a1d-80a5-6fe37b92b5bf
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/wh25AlzBQv0W-lEugybS8B-cIYYFoK8o9I2uGb52Ui4'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: 681
 ht-degree: 1%
 
 ---
@@ -61,7 +65,7 @@ Cada elemento de un conjunto de muestras jerárquico puede constar de un element
 
 | `*`conjunto de muestras jerárquico`*` | `*`elementoMuestraJerárquico`* &#42;[ ',' *`elementoMuestraJerárquico`* ]` |
 |---|---|
-| `*`elementoMuestraJerárquico`*` | `*`elemento de muestra`*` \| `{` *`basicSwatchSetId`* &#39;;&#39; *`swatch`* `}` |
+| `*`elementoMuestraJerárquico`*` | `*`elementoMuestra`*` \| `{` *`basicSwatchSetId`* &#39;;&#39; *`swatch`* `}` |
 | `*`basicSwatchSetId`*` | Referencia de IS (catalog/id) a un registro de catálogo que define un conjunto de muestras básico |
 
 **Conjuntos de giros básicos**
@@ -93,12 +97,12 @@ Cada elemento de un conjunto de medios puede constar de una imagen, un conjunto 
 
 | `*`mediaSet`*` | `*`elemento`* &#42;[ , *`elemento`* ]` |
 |---|---|
-| `*`elemento`*` | `{ *`videoItem`*` \| *`recutItem`* \| *`imageItem`*`}}`\|*`setItem`*`}` `[`; `[`*`ID`*`]` `[`; `[`*`reserved`*`] ] ]` |
+| `*`elemento`*` | `{ *`videoItem`*` \| *`recutItem`* \| *`imageItem`*`}}`\|*`setItem`*`}` `[` ; `[`*`ID`*`]` `[` ; `[`*`reserved`*`] ] ]` |
 | `*`videoItem`*` | `*`vídeo`* ; *`swatchId`*` |
 | `*`recutItem`*` | `*`rehacer`* ; *`swatchId`*` |
 | `*`imageItem`*` | `*`imageId`* ; [ *`swatchId`* ]` |
 | `*`setItem`*` | `{ *`setId`*` \| `{` &#39;{&#39; *`inlineSet`* &#39;}&#39; `} }` ; *`swatchId`* |
-| `*`ID`*` | `media type identifier` `[` img \| básico \| advanced_image \| img \| img_set \| advanced_imageset \| advanced_swatchset \| giro \| vídeo `]` |
+| `*`ID`*` | `media type identifier` `[` img \| basic \| advanced_image \| img \| img_set \| advanced_imageset \| advanced_swatchset \| spin \| vídeo `]` |
 | `*`swatchId`*` | ID de imagen IS |
 | `*`vídeo`*` | Ruta del archivo de vídeo/animación o ID de catálogo estático |
 | `*`rehacer`*` | Ruta del archivo XML de definición de reedición o ID de catálogo estático |

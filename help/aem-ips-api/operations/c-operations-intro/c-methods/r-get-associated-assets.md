@@ -5,10 +5,14 @@ title: getAssociatedAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: cf49719f-5d79-4e64-a785-bf3b2fe200c7
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+TQID: 'https://experienceleague.adobe.com/BXdn8IyYoO-xNDMctD-a--Ux-FZABw4dqJFDD1EtH7Q'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 5%
+source-wordcount: 395
+ht-degree: 6%
 
 ---
 
@@ -117,7 +121,7 @@ Sintaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> generatorArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:GenerationInfoArray</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>La matriz generatorArray<span class="codeph"> de </span> enumera la forma en que se creó este recurso. Por ejemplo, si <span class="codeph"> assetHandler</span> era una página de imagen de un PDF, entonces contendría la herramienta PDF processor y haría referencia al recurso PdfFile. </p> </td> 
+   <td colname="col4"> <p>La matriz generatorArray</span> de <span class="codeph"> enumera la forma en que se creó este recurso. Por ejemplo, si <span class="codeph"> assetHandler</span> era una página de imagen de un PDF, entonces contendría la herramienta PDF processor y haría referencia al recurso PdfFile. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> generatedArray</span> </span> </td> 

@@ -5,9 +5,13 @@ title: objeto
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 64846f8f-ebc6-446c-8277-04c45111dc24
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/UL5jAeFV4IyldSWQDddhTNVUzS3Gt-qN2PyXky6cHrM'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: 490
 ht-degree: 1%
 
 ---
@@ -37,7 +41,7 @@ Especificador de objetos Source. Los objetos de perfil de imagen, SVG e ICC se p
  </tr> 
 </table>
 
-*`rootId`* identifica un catálogo de imágenes. (Consulte [Catálogo de imágenes](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) para obtener más información). Si se especifica *`rootId`* en la ruta de acceso de la dirección URL, ese catálogo se convierte en el *catálogo principal* para esta solicitud. De lo contrario, el catálogo predeterminado se utiliza como catálogo principal. Se pueden utilizar varios catálogos de imágenes diferentes en la misma solicitud.
+*`rootId`* identifica un catálogo de imágenes. (Consulte [Catálogo de imágenes](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) para obtener más información). Si se especifica *`rootId`* en la ruta de acceso de la dirección URL, ese catálogo se convertirá en el *catálogo principal* para esta solicitud. De lo contrario, el catálogo predeterminado se utiliza como catálogo principal. Se pueden utilizar varios catálogos de imágenes diferentes en la misma solicitud.
 
 El servidor supone inicialmente que *`rootId`* se omite en los comandos `src=`, `mask=` y `icc=` e intenta encontrar una entrada de catálogo en el catálogo principal. En la práctica, el servidor intenta usar toda la cadena *`object`* como *`objId.`*
 

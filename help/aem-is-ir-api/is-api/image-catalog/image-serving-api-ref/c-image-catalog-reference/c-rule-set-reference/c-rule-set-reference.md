@@ -5,9 +5,14 @@ title: Referencia del conjunto de reglas
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: dfbb5f5e-d75a-496a-8b97-f102ad1a34d5
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+TQID: 'https://experienceleague.adobe.com/ZRyGq2UXh41F4IpGudN48CV0LxzrDjZKk2yaOQnUP3o'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: 808
 ht-degree: 0%
 
 ---
@@ -132,7 +137,7 @@ La expresión de regla especifica una coincidencia que no distingue entre mayús
 
 `<substitution><![CDATA[&qlt=95,1&resmode=bicub]]></substitution>`
 
-**Ejemplo B.** Una aplicación web en particular no permite cadenas de consulta. Defina una regla que traduzca el elemento de ruta de acceso final `small`, `medium` o `large` a una plantilla, utilizando el resto de la ruta como nombre de imagen. Por ejemplo, `myCat/myImage/small` se traduciría a `myCat/smallTemplate?src=myCat/myImage`.
+**Ejemplo B.** Una aplicación web concreta no permite cadenas de consulta. Defina una regla que traduzca el elemento de ruta de acceso final `small`, `medium` o `large` a una plantilla, utilizando el resto de la ruta como nombre de imagen. Por ejemplo, `myCat/myImage/small` se traduciría a `myCat/smallTemplate?src=myCat/myImage`.
 
 Podemos utilizar subcadenas para reestructurar la solicitud:
 

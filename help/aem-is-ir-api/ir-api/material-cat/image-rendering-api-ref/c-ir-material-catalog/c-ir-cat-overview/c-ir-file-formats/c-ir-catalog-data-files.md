@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1fb91795-f699-40b4-a6bc-6eab3e1ecd1d
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/L4j9Svu1H5DOc55iImhT1g6hRQT6svB0V2kuRsU37GE'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: 301
 ht-degree: 0%
 
 ---
@@ -30,7 +34,7 @@ Los campos de datos no deben contener los caracteres `<CR>`, `<LF>` o `<TAB>`, a
 
 Si hay varios valores de datos en el mismo campo, se separan con comas (&quot;,&quot;), a menos que se indique lo contrario.
 
-Columnas cuyos nombres empiezan por &#39;.&#39; no se tienen en cuenta, lo que permite almacenar datos en catálogos de materiales que no interesan a Image Rendering. Las columnas con nombres de encabezado desconocidos se omiten y se escribe una advertencia en el archivo de registro.
+Se omiten las columnas cuyos nombres comienzan por &quot;.&quot;, lo que permite almacenar datos en catálogos de materiales que no interesan al procesamiento de imágenes. Las columnas con nombres de encabezado desconocidos se omiten y se escribe una advertencia en el archivo de registro.
 
 Los nombres de campo pueden constar de cualquier combinación de letras ASCII, números y &quot;-&quot; y &quot;_&quot;.
 

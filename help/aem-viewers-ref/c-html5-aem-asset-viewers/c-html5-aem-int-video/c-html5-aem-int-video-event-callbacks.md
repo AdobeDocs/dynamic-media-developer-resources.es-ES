@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: af051437-28e5-416f-a61a-0abafb1814b2
-source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
+TQID: 'https://experienceleague.adobe.com/pAXI43BvGyX7rM3--kuoLsAsexeM993-WKoLPCU9Zzg'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: 210
 ht-degree: 0%
 
 ---
@@ -31,7 +35,7 @@ Los eventos de visor admitidos son los siguientes:
 
 * `quickViewActivate`: déclencheur cuando un usuario pulsa o hace clic en una muestra interactiva dentro del componente de muestras interactivas o en la pantalla &quot;call to action&quot; que se muestra al final de la reproducción de vídeo. El controlador de devolución de llamada toma el único argumento que es un objeto JSON con los siguientes campos:
 
-   * Valor de SKU de `sku` &lbrace; `String` asociado a la muestra interactiva.
+   * Valor de SKU de `sku` { `String` asociado a la muestra interactiva.
    * `<additionalVariable>` { `String`} cero o más variables adicionales asociadas con la muestra interactiva.
 
 Consulte también [InteractiveVideoViewer](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-interactivevideo.md#reference-bd16cadc0c054fafb0db4994741d47cd) y [setHandlers](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-sethandlers.md#reference-d76f126ac4354dc282e56afd49a0c643).

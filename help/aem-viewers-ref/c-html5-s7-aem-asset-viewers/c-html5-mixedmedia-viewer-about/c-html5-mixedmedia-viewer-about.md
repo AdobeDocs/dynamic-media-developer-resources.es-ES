@@ -6,9 +6,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 65a54308-f9db-4458-a9c3-ccb1433af43c
-source-git-commit: 4964c2ac68b4baab7347d6d0e26e2237995720e8
+TQID: 'https://experienceleague.adobe.com/saAi4CXj7-PIhaQNp5edDBhMtDleYgAf0QbUPmlDExA'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '2511'
+source-wordcount: 2573
 ht-degree: 0%
 
 ---
@@ -61,11 +66,11 @@ El visualizador de medios mixtos admite gestos de un solo toque y de varios toqu
   </tr> 
   <tr> 
    <td colname="col1"> <p>Pulse dos veces </p> </td> 
-   <td colname="col2"> <p>En el modo de zoom continuo <span class="codeph"> de </span>, se amplía un nivel hasta que se alcanza la ampliación máxima y el siguiente gesto de doble toque se restablece al estado inicial. </p> </td> 
+   <td colname="col2"> <p>En el modo de zoom continuo </span> de <span class="codeph">, se amplía un nivel hasta que se alcanza la ampliación máxima y el siguiente gesto de doble toque se restablece al estado inicial. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Tocar y mantener </p> </td> 
-   <td colname="col2"> <p> En el modo de zoom <span class="codeph"> dentro de la línea </span>, activa la imagen ampliada. </p> </td> 
+   <td colname="col2"> <p> En el modo de zoom </span> dentro de la línea <span class="codeph">, activa la imagen ampliada. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Pellizco </p> </td> 
@@ -189,7 +194,7 @@ La ruta relativa tiene el siguiente aspecto:
 
 <!--
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html?lang=es](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html?lang=es)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html)
 
 -->
 
@@ -209,7 +214,7 @@ A continuación se muestra un ejemplo de definición del tamaño del visor para 
 
 <!--
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html?lang=es](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html?lang=es)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html)
 
    -->
 
@@ -336,11 +341,11 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 
 La siguiente página de ejemplos ilustra usos más reales del diseño interactivo incrustado con una altura sin restricciones:
 
-[Demostraciones en vivo](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+[Demostraciones en directo](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
 <!--
 
-[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=es)
+[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 -->
 

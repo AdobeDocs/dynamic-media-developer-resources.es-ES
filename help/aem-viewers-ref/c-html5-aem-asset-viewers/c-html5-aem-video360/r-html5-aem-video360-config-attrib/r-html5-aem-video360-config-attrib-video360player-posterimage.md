@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: fffd0976-0aeb-4e61-981f-b84e9076f35f
-source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
+TQID: 'https://experienceleague.adobe.com/LtpJ2MbHJ038-dI9WI-b3XUoVoxx2OG11SbAupux-BI'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: 77
 ht-degree: 5%
 
 ---
@@ -24,7 +28,7 @@ Atributo de configuración para el visor de Video360.
    <td colname="col1"> <p> <span class="codeph"> ninguno|[?<span class="varname"> isCommands</span>]</span> </p> </td> 
    <td colname="col2"> <p> Modificadores del servicio de imágenes que controlan la apariencia de la imagen del póster. Si se especifica en la dirección URL, codifique en HTTP lo siguiente: </p> <p> 
      <ul id="ul_B38A687CEFE64C68A0B2C227A68A458F"> 
-      <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> ¿<span class="codeph">?</span> como <span class="codeph"> %3F</span> </p> </li> 
+      <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> <span class="codeph"> ?</span> como <span class="codeph"> %3F</span> </p> </li> 
       <li id="li_391CCF067F734480B2B4AFC9760C479A"> <p> <span class="codeph"> y </span> como <span class="codeph"> %26</span> </p> </li> 
       <li id="li_6824B66A55554C5A8B12874DCF5BFAEE"> <p> <span class="codeph"> =</span> como <span class="codeph"> %3D</span> </p> </li> 
      </ul> </p> <p> Este modificador funciona para el contenido de vídeo alojado en Dynamic Media Classic o Adobe Experience Manager, Dynamic Media. </p> <p>Para evitar que se muestre la imagen de póster predeterminada, especifique <span class="codeph"> none</span> como valor de la imagen de póster. </p> </td> 

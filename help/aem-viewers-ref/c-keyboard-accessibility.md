@@ -5,9 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 0bdf172a-0bde-42d2-900f-f207538fe588
-source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
+TQID: 'https://experienceleague.adobe.com/Yo1xl9U8Ld3nzbeHm6pQxAncRKQIXEWimijQM4FjLtc'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: 588
 ht-degree: 0%
 
 ---
@@ -26,7 +31,7 @@ Un usuario final puede navegar entre los elementos de la interfaz de usuario del
 
 Según la configuración del sistema operativo y del explorador web, el elemento de interfaz de usuario que tiene el enfoque de entrada recibe una indicación de enfoque visual. Por ejemplo, el indicador visual puede ser un borde delgado representado alrededor del elemento de interfaz de usuario.
 
-Es posible deshabilitar o personalizar dicho resaltado de enfoque en el visor CSS. En la tabla de contenido de este sistema de ayuda, bajo un nombre de visor específico (por ejemplo, Zoom básico o Vídeo interactivo), haga clic en **Personalizar *nombre del visor*** >**&#x200B; Enfoque destacado &#x200B;**.
+Es posible deshabilitar o personalizar dicho resaltado de enfoque en el visor CSS. En la tabla de contenido de este sistema de ayuda, bajo un nombre de visor específico (por ejemplo, Zoom básico o Vídeo interactivo), haga clic en **Personalizar *nombre del visor*** >** Enfoque destacado **.
 
 Las pulsaciones de teclas compatibles con los elementos de la interfaz de usuario del visor individual son, en la mayoría de los casos, obvias y fáciles de descubrir.
 

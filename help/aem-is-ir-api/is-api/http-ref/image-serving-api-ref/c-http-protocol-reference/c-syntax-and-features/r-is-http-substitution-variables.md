@@ -5,9 +5,13 @@ title: Variables de sustitución
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9fd73d16-e8bd-4fdb-a4e6-e86e5d219114
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/ZjLvcRUPDVBv8QsWoQGz2j6X0sjxnUL-MTTJNyDDRUs'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: 740
 ht-degree: 0%
 
 ---
@@ -57,7 +61,7 @@ se resuelve en:
 
 ## Procesamiento de variables en solicitudes anidadas {#section-26d63adc446c4fa0808e11e8082abdfa}
 
-` $ *`var`*$` referencias pueden ocurrir en cualquier lugar dentro de las llaves de una solicitud anidada de servicio o procesamiento de imágenes, incluso a la izquierda de &#39;?&#39; separar la ruta de la consulta. El servidor sustituye estas referencias por valores (desde la dirección URL o desde `catalog::Modifier` del catálogo de imágenes principal) antes de analizar y procesar más la solicitud anidada.
+Las referencias ` $ *`var`*$` pueden ocurrir en cualquier lugar dentro de las llaves de una solicitud de servicio o procesamiento de imágenes anidada, incluso a la izquierda de &quot;?&quot; que separa la ruta de acceso de la consulta. El servidor sustituye estas referencias por valores (desde la dirección URL o desde `catalog::Modifier` del catálogo de imágenes principal) antes de analizar y procesar más la solicitud anidada.
 
 Además, todas las definiciones de ` $ *`var`*=` de la dirección URL o `catalog::Modifier` se reenvían a todas las solicitudes anidadas de servicio y procesamiento de imágenes. Esto garantiza que todas las definiciones de variables estén disponibles para todas las plantillas, independientemente del nivel de anidamiento.
 
@@ -95,7 +99,7 @@ La variable de ruta de acceso predefinida se utiliza comúnmente junto con `temp
 
 ## Predeterminado {#section-b02483d15529444586a2e9504805b155}
 
-Ninguna. El servidor solo sustituye las variables que se han definido (excepto la variable de ruta predefinida $object, que siempre se sustituye). Cualquier incidencia de ` $ *`var`*$` será literal si `*`var`*` no coincide con una definición de variable existente.
+Ninguno. El servidor solo sustituye las variables que se han definido (excepto la variable de ruta predefinida $object, que siempre se sustituye). Cualquier incidencia de ` $ *`var`*$` será literal si `*`var`*` no coincide con una definición de variable existente.
 
 ## Ejemplos {#section-fba9393df6984247b7e30b3f93992e86}
 

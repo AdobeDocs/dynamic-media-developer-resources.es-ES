@@ -6,9 +6,13 @@ feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: f2685d59-6b92-49cf-9359-dda602af4297
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/YlrStGGfqLUyd9LmdqzBv-Bb0Ow9GDiYqh6pt4sVJbY'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '3029'
+source-wordcount: 3093
 ht-degree: 0%
 
 ---
@@ -242,7 +246,7 @@ El botón Cerrar se controla con el siguiente selector de clase CSS:
 .s7smartcropvideoviewer .s7emaildialog .s7closebutton
 ```
 
-**Propiedades CSS del &#x200B;** de botón Cerrar
+**Propiedades CSS del ** de botón Cerrar
 
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
@@ -329,7 +333,7 @@ El pie de página del cuadro de diálogo consta de los botones &quot;cancelar&qu
 .s7smartcropvideoviewer .s7emaildialog .s7dialogfooter
 ```
 
-**Propiedades CSS de la &#x200B;** de pie de página del cuadro de diálogo
+**Propiedades CSS de la ** de pie de página del cuadro de diálogo
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
@@ -528,7 +532,7 @@ El área de diálogo principal, entre el encabezado y el pie de página, contien
 .s7smartcropvideoviewer .s7emaildialog .s7dialogviewarea
 ```
 
-**Propiedades CSS de la &#x200B;** del área de visualización del cuadro de diálogo
+**Propiedades CSS de la ** del área de visualización del cuadro de diálogo
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
@@ -572,7 +576,7 @@ Todo el contenido del formulario (como etiquetas y campos de entrada) reside den
 
 Si la altura de este contenedor parece ser mayor que el área del cuadro de diálogo principal, el componente activa automáticamente un desplazamiento vertical.
 
-**Propiedades CSS del &#x200B;** de cuerpo del cuadro de diálogo
+**Propiedades CSS del ** de cuerpo del cuadro de diálogo
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
@@ -624,7 +628,7 @@ Todas las etiquetas estáticas del formulario de cuadro de diálogo se controlan
 
 Esta clase no es adecuada para controlar el tamaño o la posición de las etiquetas porque puede aplicarla a textos en varios lugares de la interfaz de usuario del formulario.
 
-**Propiedades CSS de la etiqueta del cuadro de diálogo. &#x200B;**
+**Propiedades CSS de la etiqueta del cuadro de diálogo. **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
@@ -960,7 +964,7 @@ El contenido que se comparte se muestra en la parte inferior del cuerpo del cuad
 .s7smartcropvideoviewer .s7emaildialog .s7dialogbody .s7dialogcontent
 ```
 
-**Propiedades CSS del &#x200B;** de contenido del cuadro de diálogo
+**Propiedades CSS del ** de contenido del cuadro de diálogo
 
 <table id="table_9C5CBFC2482E4A46BE837573B0B02FE4"> 
  <tbody> 
@@ -1095,7 +1099,7 @@ El origen del contenido se controla con el siguiente selector de clase CSS:
 .s7smartcropvideoviewer .s7emaildialog .s7dialogorigin
 ```
 
-**Propiedades CSS del &#x200B;** de origen de contenido del cuadro de diálogo
+**Propiedades CSS del ** de origen de contenido del cuadro de diálogo
 
 <table id="table_51763B532A9C4AE8AE54B69933A8C0B5"> 
  <tbody> 

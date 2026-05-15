@@ -5,9 +5,13 @@ title: ReprocessAssetsJob
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: b6078246-54e1-4119-b4f8-ba6a28577cff
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+TQID: 'https://experienceleague.adobe.com/soVm4QrX3QSTIstkVAdeQlKPOB3ri38pcHOV51roczI'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: 453
 ht-degree: 2%
 
 ---
@@ -52,7 +56,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> preserveCrop</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
-   <td colname="col3"> <p>Controla la conservación de cualquier definición de recorte existente. El valor predeterminado es true.</p> <p>Si proporciona el parámetro manualCropOptions y los valores correspondientes, los nuevos valores (excluyendo 0,0,0,0) se aplicarán al recurso independientemente del valor preserveCrop.</p><p>Si <i>not</i> proporciona el parámetro manualCropOptions, se mantiene el valor de preserveCrop. Y, en caso de true, se conservan los valores preserveCrop existentes; en caso de false, se eliminan los valores preserveCrop.</p><p>Ejemplo:</p><p><p>&lt;preserveCrop&gt;false&lt;/preserveCrop&gt;<br />&lt;manualCropOptions&gt;<br />   &lt;left&gt;190&lt;/left&gt;<br />   &lt;right&gt;310&lt;/right&gt;<br />   &lt;top&gt;160&lt;/top&gt;<br />   &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualCropOptions&gt;</p> </td> 
+   <td colname="col3"> <p>Controla la conservación de cualquier definición de recorte existente. El valor predeterminado es true.</p> <p>Si proporciona el parámetro manualCropOptions y los valores correspondientes, los nuevos valores (excluyendo 0,0,0,0) se aplicarán al recurso independientemente del valor preserveCrop.</p><p>Si <i>not</i> proporciona el parámetro manualCropOptions, se mantiene el valor de preserveCrop. Y, en caso de true, se conservan los valores preserveCrop existentes; en caso de false, se eliminan los valores preserveCrop.</p><p>Ejemplo:</p><p><p>&lt;preserveCrop&gt;false&lt;/preserveCrop&gt;<br />&lt;manualCropOptions&gt;<br /> &lt;left&gt;190&lt;/left&gt;<br /> &lt;right&gt;310&lt;/right&gt;<br /> &lt;top&gt;160&lt;/top&gt;<br /> &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualCropOptions&gt;</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </p> </td> 
@@ -152,7 +156,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipos:UnsharpMaskOptions</span> </p> </td> 
-   <td colname="col3"> <p>Opciones que permiten controlar los ajustes de máscara de enfoque al crear un archivo TIF piramidal optimizado. Utilice esta configuración para mejorar la nitidez de la imagen. </p> <p>Consulte <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html?lang=es"> UnsharpMaskOptions</a>. </p> </td> 
+   <td colname="col3"> <p>Opciones que permiten controlar los ajustes de máscara de enfoque al crear un archivo TIF piramidal optimizado. Utilice esta configuración para mejorar la nitidez de la imagen. </p> <p>Consulte <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnsharpMaskOptions</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

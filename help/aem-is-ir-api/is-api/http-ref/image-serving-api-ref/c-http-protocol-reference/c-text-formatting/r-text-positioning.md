@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 092444bf-9964-4d97-b06e-3add033da284
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/7I2AvTFME7oJArnXGqgFmm1pqEDGq5syGguLHlkdvfg'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: 312
 ht-degree: 0%
 
 ---
@@ -28,25 +32,25 @@ Aunque `text=` puede ser un poco más fácil de usar para aplicaciones sencillas
 
 Los siguientes ejemplos son para texto con tamaño previo. El comportamiento para el texto de tamaño personalizado es diferente.
 
-**&#x200B; `Text=` siempre proporciona un margen estrecho en la parte superior:**
+** `Text=` siempre proporciona un margen estrecho en la parte superior:**
 
 ![Ejemplo de colocación de texto en una imagen](assets/tp01.png)
 
 `/is/image/?size=230,50&bgc=f0f0f0&fmt=png&text=\fs40Normal%20Normal%20Normal`
 
-**&#x200B; `textPs=` procesa el texto alineado con precisión con la parte superior del cuadro de texto, lo que da como resultado un ligero recorte, incluso para fuentes comunes como Arial®:**
+** `textPs=` procesa el texto alineado con precisión con la parte superior del cuadro de texto, lo que da como resultado un ligero recorte, incluso para fuentes comunes como Arial®:**
 
 ![Ejemplo de colocación de texto en dos imágenes](assets/tp02.png)
 
 `/is/image/?size=230,50&bgc=f0f0f0&fmt=png&textPs=\fs40Normal%20Normal%20Normal`
 
-**&#x200B; `text=` desplaza automáticamente el texto procesado hacia abajo para evitar el recorte:**
+** `text=` desplaza automáticamente el texto procesado hacia abajo para evitar el recorte:**
 
 ![Ejemplo de colocación de texto en tres imágenes](assets/tp03.png)
 
 `/is/image?size=230,50&bgc=f0f0f0&fmt=png&text=\fs40Normal%20{\up20Raised%20}Normal`
 
-**&#x200B; `textPs=` no mueve el texto que contiene partes elevadas, lo que provoca un recorte significativo si el texto se encuentra en la capa 0:**
+** `textPs=` no mueve el texto que contiene partes elevadas, lo que provoca un recorte significativo si el texto se encuentra en la capa 0:**
 
 ![Ejemplo de colocación de texto en cuatro imágenes](assets/tp04.png)
 

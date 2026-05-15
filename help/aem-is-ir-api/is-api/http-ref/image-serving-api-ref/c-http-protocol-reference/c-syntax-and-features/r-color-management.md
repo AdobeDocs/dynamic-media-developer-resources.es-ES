@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0c9a489c-36e0-4934-b9c5-33414a9ce0b8
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/IzOzGIHXhgknu9Wms73sua9vEF17EemCmaWPByRAp5M'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: 1243
 ht-degree: 0%
 
 ---
@@ -20,11 +24,11 @@ El servicio de imágenes admite conversiones del espacio de color basadas en per
 
 Cada catálogo de imágenes (y el catálogo predeterminado) puede definir un conjunto de perfiles ICC que constituyen los espacios de color predeterminados para este catálogo: un perfil de entrada y un perfil de salida para los datos de escala de grises, RGB y CMYK. Consulte
 [atributo::IccProfileRgb](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilergb.md)
-[atributo::IccProfileGray](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilegray.md)
-[attribute::IccProfileCmyk](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilecmyk.md)
-[attribute::IccProfileSrcRgb](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrcrgb.md)
+[attribute::IccProfileGray](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilegray.md)
+[atributo::IccProfileCmyk](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilecmyk.md)
+[atributo::IccProfileSrcRgb](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrcrgb.md)
 [attribute::IccProfileSrcGray](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrcgray.md)
-[attribute::IccProfileSrcCmyk](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrccmyk.md).
+[atributo::IccProfileSrcCmyk](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrccmyk.md).
 
 ## Espacio de color de entrada {#section-9f08e2c1b6aa4fe4815be174972c1944}
 
@@ -103,23 +107,23 @@ Se pueden añadir perfiles adicionales a los perfiles estándar, ya sea al catá
 | `CoatedGraCol` | Revestido GRACoL 2006 (ISO 12647-2:2004) | CoatedGRACoL2006.icc |
 | `EuropeISOCoated` | Europa ISO Coated FOGRA27 | EuropeISOCoatedFOGRA27.icc |
 | `EuroscaleCoated` | Recubierto Euroscale | EuroscaleCoated.icc |
-| `EuroscaleUncoated` | Euroscale Uncovered v2 | EuroscaleUncoated.icc |
+| `EuroscaleUncoated` | Euroscale Uncovered v2 | EuroscaleUncovered.icc |
 | `JapanColorCoated` | Japón Color 2001 Revestido | JapanColor2001Coated.icc |
 | `JapanColorNewspaper` | Japón Color 2002 Periódico | JapanColor2002Newspaper.icc |
-| `JapanColorUncoated` | Japón Color 2001 Sin recubrimiento | JapanColor2001Uncoated.icc |
+| `JapanColorUncoated` | Japón Color 2001 Sin recubrimiento | JapanColor2001Uncovered.icc |
 | `JapanColorWebCoated` | Japón Color 2003 Web Coated | JapanColor2003WebCoated.icc |
 | `JapanWebCoated` | Japón Web Coated (Ad) | JapanWebCoated.icc |
 | `NewsprintSNAP2007` | Boletín de Estados Unidos (SNAP 2007) | USNewsprintSNAP2007.icc |
 | `PS4Default` | CMYK predeterminado de Photoshop 4 | Photoshop4DefaultCMYK.icc |
 | `PS5Default` | CMYK predeterminado de Photoshop 5 | Photoshop5DefaultCMYK.icc |
 | `SheetfedCoated` | U.S. Sheetfed Coated v2 | USSheetfedCoated.icc |
-| `SheetfedUncoated` | U.S. Sheetfed Uncovered v2 | USSheetfedUncoated.icc |
-| `UncoatedFogra29` | FOGRA29 sin revestimiento (ISO 12647-2:2004) | UncoatedFOGRA29.icc |
+| `SheetfedUncoated` | U.S. Sheetfed Uncovered v2 | USSheetfedUncovered.icc |
+| `UncoatedFogra29` | FOGRA29 sin revestimiento (ISO 12647-2:2004) | FOGRA29.icc sin recubrir |
 | `WebCoated` | U.S. Web Coated (SWOP) v2 | USWebCoatedSWOP.icc |
 | `WebCoatedFogra28` | FOGRA28 con revestimiento web (ISO 12647-2:2004) | WebCoatedFOGRA28.icc |
 | `WebCoatedGrade3` | Papel SWOP 2006 Grado 3 Revestido por Web | WebCoatedSWOP2006Grade3.icc |
 | `WebCoatedGrade5` | Papel SWOP 2006 Grado 5 Revestido por Web | WebCoatedSWOP2006Grade5.icc |
-| `WebUncoated` | U.S. Web Uncovered v2 | USWebUncoated.icc |
+| `WebUncoated` | U.S. Web Uncovered v2 | USWebUncovered.icc |
 
 La siguiente tabla se aplica a *Dynamic Media Classic Image Serving* y *Dynamic Media* (que se ejecutan en modo de ejecución de `dynamicmedia_scene7`).
 
@@ -142,23 +146,23 @@ La siguiente tabla se aplica a *Dynamic Media Classic Image Serving* y *Dynamic 
 | `Coated GRACoL 2006 (ISO 12647-2:2004)` | Revestido GRACoL 2006 (ISO 12647-2:2004) | CoatedGRACoL2006.icc |
 | `EuropeISOCoated` | Europa ISO Coated FOGRA27 | EuropeISOCoatedFOGRA27.icc |
 | `Euroscale Coated v2` | Euroscale Coated v2 | EuroscaleCoated.icc |
-| `EuroscaleUncoated` | Euroscale Uncovered v2 | EuroscaleUncoated.icc |
+| `EuroscaleUncoated` | Euroscale Uncovered v2 | EuroscaleUncovered.icc |
 | `JapanColorCoated` | Japón Color 2001 Revestido | JapanColor2001Coated.icc |
 | `JapanColorNewspaper` | Japón Color 2002 Periódico | JapanColor2002Newspaper.icc |
-| `JapanColorUncoated` | Japón Color 2001 Sin recubrimiento | JapanColor2001Uncoated.icc |
+| `JapanColorUncoated` | Japón Color 2001 Sin recubrimiento | JapanColor2001Uncovered.icc |
 | `Japan Color 2003 Web Coated` | Japón Color 2003 Web Coated | JapanColor2003WebCoated.icc |
 | `JapanWebCoated` | Japón Web Coated (Ad) | JapanWebCoated.icc |
 | `PS4Default` | CMYK predeterminado de Photoshop 4 | Photoshop4DefaultCMYK.icc |
 | `PS5Default` | CMYK predeterminado de Photoshop 5 | Photoshop5DefaultCMYK.icc |
 | `SheetfedCoated` | U.S. Sheetfed Coated v2 | USSheetfedCoated.icc |
-| `SheetfedUncoated` | U.S. Sheetfed Uncovered v2 | USSheetfedUncoated.icc |
-| `UncoatedFogra29` | FOGRA29 sin revestimiento (ISO 12647-2:2004) | UncoatedFOGRA29.icc |
+| `SheetfedUncoated` | U.S. Sheetfed Uncovered v2 | USSheetfedUncovered.icc |
+| `UncoatedFogra29` | FOGRA29 sin revestimiento (ISO 12647-2:2004) | FOGRA29.icc sin recubrir |
 | `US Newsprint (SNAP 2007)` | Boletín de Estados Unidos (SNAP 2007) | USNewsprintSNAP2007.icc |
 | `WebCoated` | U.S. Web Coated (SWOP) v2 | USWebCoatedSWOP.icc |
 | `WebCoatedFogra28` | FOGRA28 con revestimiento web (ISO 12647-2:2004) | WebCoatedFOGRA28.icc |
 | `Web Coated SWOP 2006 Grade 3 Paper` | Papel SWOP 2006 Grado 3 Revestido por Web | WebCoatedSWOP2006Grade3.icc |
 | `Web Coated SWOP Grade 5 Paper` | Papel SWOP 2006 Grado 5 Revestido por Web | WebCoatedSWOP2006Grade5.icc |
-| `WebUncoated` | U.S. Web Uncovered v2 | USWebUncoated.icc |
+| `WebUncoated` | U.S. Web Uncovered v2 | USWebUncovered.icc |
 
 ## Véase también {#section-39159397e80b4efca5f631eab8b9aa06}
 

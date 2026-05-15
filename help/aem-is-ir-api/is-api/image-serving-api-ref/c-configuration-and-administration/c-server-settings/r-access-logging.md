@@ -5,9 +5,14 @@ title: Registro de acceso
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: e677a617-115d-4f6e-9eb5-bdc14ad7ff24
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/YY1vKXzVCe8TRK0lYsdkH5ds5EHCGkBOz1TaMx5IMi4'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: 681
 ht-degree: 0%
 
 ---
@@ -20,7 +25,7 @@ Sintaxis
 
 ## TC::directory: carpeta de archivos de registro {#section-5d9e2168d4504bbe9868b7d6051c9d67}
 
-Carpeta en la que [!DNL Platform Server] escribe archivos de registro. Puede ser una ruta absoluta o una ruta relativa a *`install_folder`*. El valor predeterminado es [!DNL &#x200B; *`install_folder`*/logs].
+Carpeta en la que [!DNL Platform Server] escribe archivos de registro. Puede ser una ruta absoluta o una ruta relativa a *`install_folder`*. El valor predeterminado es [!DNL  *`install_folder`*/logs].
 
 >[!NOTE]
 >
@@ -32,7 +37,7 @@ Se debe conservar el número de días que los archivos de registro. Todos los d�
 
 ## TC::prefix - Nombre del archivo de registro de acceso {#section-1003856323b844049632710a5a056aa7}
 
-Prefijo de nombre del archivo en el que se escriben los datos del registro de acceso. La fecha y el sufijo de archivo ( [!DNL &#x200B; *`yyyy`*-*`mm`*-*`dd`*.log]) se anexan a la cadena especificada. El nombre del archivo de registro de acceso debe ser diferente del del archivo de registro de seguimiento. El valor predeterminado es &quot; `access-`&quot;.
+Prefijo de nombre del archivo en el que se escriben los datos del registro de acceso. La fecha y el sufijo de archivo ( [!DNL  *`yyyy`*-*`mm`*-*`dd`*.log]) se anexan a la cadena especificada. El nombre del archivo de registro de acceso debe ser diferente del del archivo de registro de seguimiento. El valor predeterminado es &quot; `access-`&quot;.
 
 ## TC::pattern: patrón de registro de acceso {#section-22775ea85cee444d8a7d7336a3b1feef}
 
@@ -76,7 +81,7 @@ Se admiten las siguientes variables de patrón:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %G </span> </p> </td> 
-   <td> <p>fecha y hora, con formato <span class="codeph"> <span class="varname"> aaaa </span>- <span class="varname"> MM </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>: <span class="varname"> mm </span>: <span class="varname"> ss </span>. <span class="varname"> SSS </span> desplazamiento </span> </p> <p> ( <span class="varname"> SMS </span> se miden ms, <span class="varname"> el desplazamiento </span> es el desplazamiento de tiempo GMT); el valor de tiempo se captura cuando se envía la respuesta al cliente. </p> </td> 
+   <td> <p>fecha y hora, con formato <span class="codeph"> <span class="varname"> yyyy </span>- <span class="varname"> MM </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>: <span class="varname"> mm </span>: <span class="varname"> ss </span>. <span class="varname"> Desplazamiento </span> de SSS </span> </p> <p> ( <span class="varname"> SMS </span> se miden ms, <span class="varname"> el desplazamiento </span> es el desplazamiento de tiempo GMT); el valor de tiempo se captura cuando se envía la respuesta al cliente. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %m </span> </p> </td> 
@@ -92,7 +97,7 @@ Se admiten las siguientes variables de patrón:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %q </span> </p> </td> 
-   <td> <p>Cadena de consulta (precedida de "?") si existe). </p> </td> 
+   <td> <p>Cadena de consulta (precedida por "?" si existe). </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %r </span> </p> </td> 
@@ -136,7 +141,7 @@ Se admiten las siguientes variables de patrón:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{CacheUse}r </span> </p> </td> 
-   <td> <p>[!DNL Platform Server] palabra clave de administración de caché: <span class="codeph"> { REUSED | CREADO | ACTUALIZADO | REMOTO | REMOTE_CREATED | REMOTE_UPDATED | REMOTE_CACHE | VALIDADO | IGNORADO | UNDEFINED } </span>. </p> </td> 
+   <td> <p>[!DNL Platform Server] palabra clave de administración de caché: <span class="codeph"> { REUSED | CREADO | ACTUALIZADO | REMOTO | REMOTE_CREATED | REMOTE_UPDATED | CACHÉ_REMOTA | VALIDADO | IGNORADO | UNDEFINED } </span>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{ContentType}r </span> </p> </td> 
@@ -198,7 +203,7 @@ Se admiten las siguientes variables de patrón:
    <td> <p>Como <span class="codeph"> %B </span>, pero incluye valores para respuestas 304 (no modificadas). </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{TransformedUrl}r </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{TransformationUrl}r </span> </p> </td> 
    <td> <p>La dirección URL final después de todas las transformaciones del conjunto de reglas. </p> </td> 
   </tr> 
   <tr> 
