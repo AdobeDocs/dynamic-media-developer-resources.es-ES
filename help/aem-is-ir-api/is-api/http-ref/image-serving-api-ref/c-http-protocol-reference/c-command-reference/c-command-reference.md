@@ -52,7 +52,7 @@ En esta sección se describen los comandos del protocolo HTTP.
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-Consulte también las [Opciones de ajustes preestablecidos de imagen](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) de Dynamic Media en la documentación de AEM 6.5.
+Consulte también las [Opciones de ajustes preestablecidos de imagen](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html?lang=es#dynamic) de Dynamic Media en la documentación de AEM 6.5.
 
 * [alinear](r-align.md)
 * [delimitador](r-anchor.md)
