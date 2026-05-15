@@ -5,9 +5,17 @@ title: Restricciones y problemas conocidos
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fd32456b-9d99-4e82-a61c-2fc4d7030630
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/TCVO43J9ABVIbKSBwPE6jSfMR8I-2sc-7Nj-gGDEyPM'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '1233'
+source-wordcount: 1250
 ht-degree: 0%
 
 ---
@@ -74,7 +82,7 @@ La biblioteca Digimarc rechaza aplicar una marca de agua Digimarc a una imagen s
 
   *Ejemplo*:
 
-  `/is/image/MyCompany?src=/YourCompany/MyImage`.
+  `/is/image/MyCompany?src=/YourCompany/MyImage` .
 
   En lugar de: `/is/image/MyCompany?src=YourCompany/MyImage` .
 
@@ -105,7 +113,7 @@ La biblioteca Digimarc rechaza aplicar una marca de agua Digimarc a una imagen s
   Cambiar el formato de imagen de respuesta usando `fmt=`
 
 * El tamaño de los datos de imagen de respuesta HTTP tras la compresión, incluido el encabezado de archivo, está limitado a 16 MB.
-* &quot;...&quot; no está permitido en ningún elemento de ruta en solicitudes HTTP.
+* &quot; ..&quot; no está permitido en ningún elemento de ruta en solicitudes HTTP.
 * La desinstalación puede quitar el archivo creado por el usuario o modificado de *[!DNL install_root]* o de cualquier subcarpeta. Copie estos archivos en una ubicación diferente antes de desinstalarlos.
 
 ## Restricciones aplicables solo al servicio de imágenes {#section-b08ad535e4454265b8157dec244c4faf}

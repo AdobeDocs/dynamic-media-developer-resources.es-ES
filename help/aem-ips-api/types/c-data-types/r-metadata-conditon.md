@@ -5,9 +5,19 @@ title: MetadataCondition
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 9226fb81-b3ff-41e4-a3cd-d5a40f359be6
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+TQID: 'https://experienceleague.adobe.com/JcDip5MGpF6iPa1UqHZSe95h4G8lTjQycdBRaIny4N8'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: 171
 ht-degree: 2%
 
 ---
@@ -97,7 +107,7 @@ Sintaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> caseSensitive</span> </span> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> Establece la distinción entre mayúsculas y minúsculas en el servidor de metadatos. Se utiliza en la llamada a searchAssetsByMetadata<span class="codeph"> de </span>. </p> <p>Consulte <a href="../../operations/c-operations-intro/c-methods/r-search-assets-by-metadata.md#reference-609ec73944a34ce49b152389fbb40414" format="dita" scope="local"> searchAssetsByMetadata</a>. </p> </td> 
+   <td colname="col3"> <p> Establece la distinción entre mayúsculas y minúsculas en el servidor de metadatos. Se utiliza en la llamada a searchAssetsByMetadata</span> de <span class="codeph">. </p> <p>Consulte <a href="../../operations/c-operations-intro/c-methods/r-search-assets-by-metadata.md#reference-609ec73944a34ce49b152389fbb40414" format="dita" scope="local"> searchAssetsByMetadata</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

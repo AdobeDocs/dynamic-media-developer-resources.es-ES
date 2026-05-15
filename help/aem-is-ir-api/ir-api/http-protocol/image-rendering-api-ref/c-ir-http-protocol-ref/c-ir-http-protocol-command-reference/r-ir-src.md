@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: aff45f0f-e672-40da-9cc8-db83cf3922ff
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/-PushPHP2ZvNu2IFmB-1akxSvlXtDvxStXgFTAw1t-w'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: 444
 ht-degree: 1%
 
 ---
@@ -99,7 +107,7 @@ Consulte la descripción de la utilidad IC en la documentación del servicio de 
 
 ## Propiedades {#section-e68d03788d534e2184147987d51dfd0f}
 
-Atributo de material. Necesario para todos los materiales excepto el color sólido (no permitido para los materiales de color sólido). Todas las cadenas distinguen entre mayúsculas y minúsculas. *`index`* debe ser 0 o mayor.
+Atributo de material. Necesario para todos los materiales excepto el color sólido (no permitido para los materiales de color sólido). Todas las cadenas distinguen entre mayúsculas y minúsculas. *`index`* Debe ser 0 o mayor.
 
 ## Predeterminado {#section-dde549c1917540dc8f9555962202da3c}
 

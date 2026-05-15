@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 39b25f7c-ed3c-4132-8241-e7f3aab07b00
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+TQID: 'https://experienceleague.adobe.com/vC889xf6GmyiSls7qG81NPIegfh6OMZM2zMc4JKppAU'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: 235
 ht-degree: 1%
 
 ---
@@ -33,7 +41,7 @@ icc= *`profile`*[, *`renderIntent`*[,*`blackpointComp`*]]
  </tr> 
 </table>
 
-*`profile`* Especifica el perfil del espacio de color de salida al que se debe convertir la imagen procesada si es diferente del perfil de trabajo. *`profile`* debe ser un `icc::Name` válido definido en el mapa de perfil ICC de un catálogo de imágenes o catálogo predeterminado, o una ruta relativa a un archivo de perfil (normalmente con el sufijo [!DNL `.icc`] o [!DNL `.icm`]).
+*`profile`* Especifica el perfil del espacio de color de salida al que se debe convertir la imagen procesada si es diferente del perfil de trabajo. *`profile`* Debe ser un `icc::Name` válido definido en el mapa de perfiles ICC de un catálogo de imágenes o catálogo predeterminado, o una ruta relativa a un archivo de perfil (normalmente con el sufijo [!DNL `.icc`] o [!DNL `.icm`]).
 
 >[!NOTE]
 >

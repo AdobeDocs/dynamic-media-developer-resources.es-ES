@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 304d93af-3427-4111-882a-35be9ec3aef5
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+TQID: 'https://experienceleague.adobe.com/a7vbT8heEkiWfmxn3wPudnzYTRN-H-I5D22038P4mJE'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: 311
 ht-degree: 0%
 
 ---
@@ -25,7 +33,7 @@ Las macros de comandos proporcionan accesos directos con nombre para conjuntos d
  </tr> 
 </table>
 
-`*`name`*` no distingue entre mayúsculas y minúsculas y puede estar formado por cualquier combinación de letras ASCII, números , &#39;-&#39;, &#39;_&#39; y &#39;.&#39; caracteres.
+`*`name`*` no distingue entre mayúsculas y minúsculas y puede contener cualquier combinación de letras ASCII, números, caracteres &quot;-&quot;, &quot;_&quot; y &quot;.&quot;.
 
 Las macros pueden invocarse en cualquier lugar de una solicitud después de &quot;?&quot; y en cualquier lugar dentro de un campo `catalog::Modifier` o `catalog::PostModifier`. Las macros solo pueden representar uno o más comandos completos del servicio de imágenes y deben separarse de otros comandos con separadores de `&`.
 

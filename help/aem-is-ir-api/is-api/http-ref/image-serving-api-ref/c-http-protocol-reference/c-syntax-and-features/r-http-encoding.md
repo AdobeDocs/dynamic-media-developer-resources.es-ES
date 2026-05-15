@@ -5,9 +5,17 @@ title: Codificación HTTP del servicio de imágenes
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: aec8463f-f72a-4203-89ab-8a4f0ad9d6f9
-source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
+TQID: 'https://experienceleague.adobe.com/vQIQQhMGQZWbIeWUgnpqCtZj5Rx3Nl-1xUMatQwzeIU'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: 231
 ht-degree: 16%
 
 ---
@@ -58,7 +66,7 @@ De lo contrario, se aplican reglas de codificación HTTP estándar. La especific
    <td colname="col3"> <p>37 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&lbrace; </p> </td> 
+   <td colname="col1"> <p>&llave; </p> </td> 
    <td colname="col2"> <p>7B </p> </td> 
    <td colname="col3"> <p>123 </p> </td> 
   </tr> 

@@ -5,9 +5,20 @@ title: Cachés de servidor
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 6a8d44d3-ecac-4fe0-9f81-28b1cd55e7e1
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+TQID: 'https://experienceleague.adobe.com/UUki7PR7tT4njGw6HktkaobgrM7iwdBZsP-Nbz2TdIY'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: 299
 ht-degree: 0%
 
 ---
@@ -22,7 +33,7 @@ Las carpetas raíz de la caché de disco de [!DNL Platform Server]. Una o varias
 
 ## PS::cache.maxSize: tamaño del almacenamiento de datos de respuesta {#section-ed2e1e7ba4bd4e13b77bb20c4cacddb4}
 
-Tamaño máximo de la caché de respuestas HTTP en bytes. Esta configuración limita la cantidad de datos reales que se van a almacenar en caché; no tiene en cuenta la sobrecarga del sistema de archivos. (Consulte [Caché de datos de respuesta](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-response-data-cache.md#concept-81ea996c242441f2a69f7e9d9b3a29ca).) Si se especifican varias carpetas de datos de caché, los datos de la caché se distribuyen uniformemente en todas las carpetas. El valor de `cache.maxSize` en [!DNL PlatformServer.conf] se encuentra en bytes.
+Tamaño máximo de la caché de respuestas HTTP en bytes. Esta configuración limita la cantidad de datos reales que se van a almacenar en caché; no tiene en cuenta la sobrecarga del sistema de archivos. (Consulte [Caché de datos de respuesta](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-response-data-cache.md#concept-81ea996c242441f2a69f7e9d9b3a29ca).) Si se especifican varias carpetas de datos de caché, los datos de la caché se distribuyen de forma uniforme en todas las carpetas. El valor de `cache.maxSize` en [!DNL PlatformServer.conf] se encuentra en bytes.
 
 ## PS::cache.maxEntries - Entradas máximas de caché de datos de respuesta {#section-5603e327e90542a5b50aeeb27b080410}
 

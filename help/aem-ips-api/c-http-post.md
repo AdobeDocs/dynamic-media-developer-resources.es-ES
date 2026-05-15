@@ -5,10 +5,18 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: e40293be-d00f-44c1-8ae7-521ce3312ca8
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+TQID: 'https://experienceleague.adobe.com/-sHJjbnmxKSlU8TiOx96f1fgRUVWElHZ6KAqhy0HW0c'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 0%
+source-wordcount: 716
+ht-degree: 2%
 
 ---
 
@@ -65,12 +73,12 @@ El trabajo de carga consiste en uno o más POST HTTP que utilizan un `jobHandle`
 
 |  parte del formulario HTTP POST  |  Descripción  |
 |---|---|
-| `auth`  |   Requerido. Documento XML authHeader que especifica la información de autenticación y de cliente. Ver **Solicitud de autenticación** en [SOAP](/help/aem-ips-api/c-wsdl-versions.md). |
+| `auth`  |   Obligatorio. Documento XML authHeader que especifica la información de autenticación y de cliente. Ver **Solicitud de autenticación** en [SOAP](/help/aem-ips-api/c-wsdl-versions.md). |
 | `file params`  |   Opcional. Puede incluir uno o más archivos para cargar con cada petición POST. Cada parte del archivo puede incluir un parámetro filename en el encabezado Content-Disposition que se utiliza como nombre de archivo de destino en IPS si no se especifica ningún parámetro `uploadPostParams/fileName`. |
 
 |  parte del formulario HTTP POST   |  Nombre del elemento uploadPostParams   |  Tipo   |  Descripción   |
 |---|---|---|---|
-| `uploadParams` (obligatorio). Un documento XML `uploadParams` que especifica los parámetros de carga)   |   `companyHandle`  |  `xsd:string`  | Requerido. Identificador de la empresa a la que se carga el archivo.  |
+| `uploadParams` (obligatorio). Un documento XML `uploadParams` que especifica los parámetros de carga)   |   `companyHandle`  |  `xsd:string`  | Obligatorio. Identificador de la empresa a la que se carga el archivo.  |
 | `uploadParams` (obligatorio). Un documento XML `uploadParams` que especifica los parámetros de carga) | `jobName`  |  `xsd:string`  | Se requiere `jobName` o `jobHandle`. Nombre del trabajo de carga.  |
 | `uploadParams` (obligatorio). Un documento XML `uploadParams` que especifica los parámetros de carga) | `jobHandle`  |  `xsd:string`  | Se requiere `jobName` o `jobHandle`. Administrar a un trabajo de carga iniciado en una solicitud anterior.  |
 | `uploadParams` (obligatorio). Un documento XML `uploadParams` que especifica los parámetros de carga) | `locale`  |  `xsd:string`  | Opcional. Código de idioma y país para la localización.  |

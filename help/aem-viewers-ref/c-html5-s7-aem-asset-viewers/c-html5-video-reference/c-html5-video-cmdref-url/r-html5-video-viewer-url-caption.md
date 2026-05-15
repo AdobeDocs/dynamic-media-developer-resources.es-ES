@@ -5,10 +5,18 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: a9af3335-ae18-4399-9014-47ec0306a087
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+TQID: 'https://experienceleague.adobe.com/OEXxm0r9wv92FTzfKdjUwfhhcXLaZ5jMkvVbvvAVQpY'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 5%
+source-wordcount: 205
+ht-degree: 8%
 
 ---
 
@@ -37,15 +45,15 @@ El visor admite subtítulos a través de archivos WebVTT alojados. No se admiten
    <td colname="col4"> <p> Controle la alineación del texto. </p> <p>El valor predeterminado es <span class="codeph"> middle</span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>T </p> </td> 
+   <td colname="col1"> <p> </p> </td> 
    <td colname="col2"> <p>posición del texto </p> </td> 
-   <td colname="col3"> <p> 0-100% </p> </td> 
+   <td colname="col3"> <p> 0%-100% </p> </td> 
    <td colname="col4"> <p> Porcentaje de margen en el componente VideoPlayer para el principio del texto del rótulo. </p> <p>El valor predeterminado es 0%. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>S </p> </td> 
    <td colname="col2"> <p>tamaño de línea </p> </td> 
-   <td colname="col3"> <p> 0-100% </p> </td> 
+   <td colname="col3"> <p> 0%-100% </p> </td> 
    <td colname="col4"> <p> Porcentaje de anchura del vídeo utilizado para los subtítulos. </p> <p>El valor predeterminado es 100%. </p> </td> 
   </tr> 
   <tr> 

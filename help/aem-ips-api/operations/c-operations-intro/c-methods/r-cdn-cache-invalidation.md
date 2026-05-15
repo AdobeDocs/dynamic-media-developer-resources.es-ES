@@ -5,9 +5,17 @@ title: cdnCacheInvalidation
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 65b758f2-b49a-4616-b657-a64808c9202a
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/EiiTKlBO9it1WQXYW2ed-4Vo5qi2YSlR2SageNHMUqI'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: 472
 ht-degree: 1%
 
 ---
@@ -30,7 +38,7 @@ Los correos electrónicos de confirmación del socio de CDN de Dynamic Media se 
 
 **Admitido Desde**
 
-6,0
+6.0
 
 ## Tipos de usuarios autorizados {#section-0d7895e733d54fb68beb8d231a04e4c9}
 
@@ -82,7 +90,7 @@ Los correos electrónicos de confirmación del socio de CDN de Dynamic Media se 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> invalidationHandle</span></span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sí </p> </td> 
-   <td colname="col4"> <p>Un identificador que hace referencia a la solicitud de purga. </p> <p>La API cdnCacheInvalidation<span class="codeph"> de </span> ahora invalida la caché casi inmediatamente (~5 segundos). Como tal, generalmente ya no es necesario sondear el estado de invalidación. </p> 
+   <td colname="col4"> <p>Un identificador que hace referencia a la solicitud de purga. </p> <p>La API cdnCacheInvalidation</span> de <span class="codeph"> ahora invalida la caché casi inmediatamente (~5 segundos). Como tal, generalmente ya no es necesario sondear el estado de invalidación. </p> 
     <!--<p>The next three paragraphs were added as per CQDOC-13840 With the migration from Akamai v2 API's to fast purge, purging time is now approximately 5 seconds. You are no longer required to poll on the purge URL to find out the status of the purge request.</p>--> 
     <!--<p>The cache invalidation handle used to contained the company ID, the user account type used (small or large), and the purge url. With the release of 2019R1, <codeph>invalidationHandle</codeph> now contains just the company ID and the purge ID. </p>--> 
     <!--<p>Prior to 2019R1, two different Akamai users were being used for each geography (for example, <codeph>cdninvalidatesmallemea</codeph> and <codeph>cdninvalidatelargeemea</codeph>) to invalidate requests, depending on the number of URLs in each request. This functionality was done so that a small request was not blocked because of a large request. Now, with fast purge in 2019R1, the purge is nearly instantaneous, two users are no longer needed, and only one account is used. </p>--> </td> 

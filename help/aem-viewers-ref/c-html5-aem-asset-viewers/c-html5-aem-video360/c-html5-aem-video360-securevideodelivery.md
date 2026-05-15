@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 79f7e356-55d1-46e1-b85a-2e73633c9404
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/A5FMzFK6gJ-OCp7WmU7UhTigP4x7ls5sbKTKQqIYLd8'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: 202
 ht-degree: 0%
 
 ---
@@ -36,7 +44,7 @@ Según el método de publicación de vídeo de Dynamic Media que utilice en Adob
 
 -->
 
-Consulte también [Vinculación de direcciones URL a su aplicación web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=es#dynamic).
+Consulte también [Vinculación de direcciones URL a su aplicación web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic).
 
 * Si publica un vídeo de Dynamic Media con código incrustado, agrega `Video360Player.ssl` a la lista de otros parámetros de configuración del visor en el fragmento de código incrustado.
 
@@ -71,4 +79,4 @@ Consulte también [Vinculación de direcciones URL a su aplicación web](https:/
 
 -->
 
-Ver también [Incrustación del vídeo en una página web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=es#dynamic)
+Ver también [Incrustación del vídeo en una página web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic)

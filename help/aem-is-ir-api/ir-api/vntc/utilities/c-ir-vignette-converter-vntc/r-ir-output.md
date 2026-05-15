@@ -5,9 +5,17 @@ title: Output
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 48b15fc2-19c2-4ff8-8059-ba3478a4eec2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/XYdTYt0N200rDYSl4klx7c0kfsDY-650TOy9-ui4cvw'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: 702
 ht-degree: 0%
 
 ---
@@ -61,7 +69,7 @@ Se generan las siguientes propiedades:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">maxMem=<span class="varname"> cadena</span></span> </p></td> 
-  <td class="stentry"> <p>Límite máximo de memoria que se aplica al proceso vntc<span class="filepath"> en ejecución de </span>. <span class="varname"> cadena</span> es <span class="varname"> ival</span>, <span class="varname"> ivalK</span>, <span class="varname"> ivalM</span>, <span class="varname"> ivalG</span> o <span class="codeph"> 0</span> (deshabilitado). Donde <span class="varname"> K</span>, <span class="varname"> M</span> y <span class="varname"> G</span> se refieren a kilobytes (1024 bytes), megabytes (1048576 bytes) y gigabytes (1073741824 bytes). </p></td> 
+  <td class="stentry"> <p>Límite máximo de memoria que se aplica al proceso vntc</span> en ejecución de <span class="filepath">. <span class="varname"> cadena</span> es <span class="varname"> ival</span>, <span class="varname"> ivalK</span>, <span class="varname"> ivalM</span>, <span class="varname"> ivalG</span> o <span class="codeph"> 0</span> (deshabilitado). Donde <span class="varname"> K</span>, <span class="varname"> M</span> y <span class="varname"> G</span> se refieren a kilobytes (1024 bytes), megabytes (1048576 bytes) y gigabytes (1073741824 bytes). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">maxScl=<span class="varname"> ival</span></span> </p></td> 

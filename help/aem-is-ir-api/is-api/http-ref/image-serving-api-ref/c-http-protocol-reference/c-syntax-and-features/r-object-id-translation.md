@@ -5,10 +5,18 @@ title: Traducción de ID de objeto
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7a3bd6a1-2ad4-4da2-944c-489b7d18fdc1
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/jeFY6jJ5HJ4mPK6ng93G9PZ6ENSlk7Wtj8S-GTdMJbM'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 2%
+source-wordcount: 715
+ht-degree: 5%
 
 ---
 
@@ -58,7 +66,7 @@ Si una asignación de traducción no especifica una regla de traducción predete
 
 A menudo es deseable agrupar las configuraciones regionales (por ejemplo, Europa, Oriente Medio y América del Norte) para abordar los estándares regionales. Esto se puede lograr con una búsqueda de varios niveles.
 
-Para este ejemplo, queremos admitir colecciones para uso occidental y de Oriente Medio. Ambas colecciones se basan en la colección de imágenes genéricas y ambas añaden o modifican ciertas imágenes. Ambas colecciones se refinan aún más para configuraciones regionales específicas ( `m1`, `m2` para dos variantes de Oriente medio y `w1`, `w2` y `w3` para tres configuraciones regionales occidentales), excepto que las imágenes se comparten para `w1` y `w3`. Las configuraciones regionales desconocidas solo se asignan a la colección genérica y no tienen acceso a imágenes específicas de la configuración regional.
+Para este ejemplo, queremos admitir colecciones para uso occidental y de Oriente Medio. Ambas colecciones se basan en la colección de imágenes genéricas y ambas añaden o modifican ciertas imágenes. Ambas colecciones se refinan aún más para configuraciones regionales específicas ( `m1`, `m2` para dos variantes de Oriente medio y `w1`, `w2` y `w3` para tres configuraciones regionales occidentales), excepto que las imágenes se comparten para `w1` y `w3`. Las configuraciones regionales desconocidas solo se asignan a la colección genérica y no tienen acceso a las imágenes específicas de configuración regional.
 
 `attribute::LocaleMap: w1,-W,|w2,-W2,-W,|w3,-W,|m1,-M1,-M,|m2,-M2,-M,|,`
 

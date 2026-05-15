@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 691c5421-0754-45ce-b454-dd0ceff47a58
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+TQID: 'https://experienceleague.adobe.com/m3ZesKWdK5ltybJWB9ZTOQa19Bimlu-g7xRE2OrQ-rY'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: 597
 ht-degree: 4%
 
 ---
@@ -116,7 +124,7 @@ Formato de imagen de respuesta. Especifica el formato de codificación de imagen
  </tr> 
 </table>
 
-*`pixelType`* Efectos de la conversión del espacio de color de salida cuando no se especifica `icc=`; se aplica el perfil de color predeterminado correspondiente a *`pixelType`*. Si la gestión de colores está desactivada, se aplica una conversión naïve. *`pixelType`* se omite cuando se especifica `icc=`, lo que determina el tipo de píxel de salida.
+*`pixelType`* Efectos de la conversión del espacio de color de salida cuando no se especifica `icc=`; se aplica el perfil de color predeterminado correspondiente a *`pixelType`*. Si la gestión de colores está desactivada, se aplica una conversión naïve. *`pixelType`* Se omite cuando se especifica `icc=`, que determina el tipo de píxel de salida.
 
 *`compression`* solo se permite si se especifican los valores tif, tif-alpha o PDF como *`format`*. Consulte la tabla siguiente para ver las opciones de compresión admitidas para estos formatos de imagen.
 
@@ -206,7 +214,7 @@ Se puede producir en cualquier parte de la solicitud.
 
 ## Predeterminado {#section-d2c2af11fa974e1a84e0c6cb7fb646fe}
 
-*`format`* toma el valor predeterminado `attribute::Format` y *`tiffCompression`* el valor predeterminado `attribute::TiffEncoding`. *`pixelType`* Toma el valor predeterminado `rgb` si no se especifica `icc=`; de lo contrario, corresponde al tipo de píxel del perfil ICC especificado.
+*`format`* tiene el valor predeterminado `attribute::Format` y *`tiffCompression`* el valor predeterminado `attribute::TiffEncoding`. *`pixelType`* El valor predeterminado es `rgb` si no se especifica `icc=`; de lo contrario, corresponde al tipo de píxel del perfil ICC especificado.
 
 ## Véase también {#section-c55efc881fc94c70bff91b870e026a7b}
 

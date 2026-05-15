@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 320f740e-c6b9-44d6-9369-9c2ec31189c5
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+TQID: 'https://experienceleague.adobe.com/erP5FB4luTC3565rHI8Fc-EtLQ5nkcUpTimRre2y-Z0'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: 205
 ht-degree: 3%
 
 ---
@@ -28,10 +36,10 @@ Constructor, crea una instancia del Visor de zoom básico.
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> configuración </span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> {object} </span> objeto de configuración JSON opcional, permite que toda la configuración del visor pase al constructor para evitar llamar a métodos de establecedor individuales. Contiene las siguientes propiedades: </p> <p> 
      <ul id="ul_789DBD5B72ED4C80B685455B0D59494D"> 
-      <li id="li_28FDCB53E4AD4097A51F21B876C18FB1"> <p> <span class="codeph"> containerId </span> - <span class="codeph"> {String} </span> ID del contenedor DOM (normalmente un DIV <span class="codeph"> de </span>) en el que se inserta el visor. Para el momento en que se llama a este método, no es necesario tener creado el elemento contenedor. Sin embargo, el contenedor debe existir cuando se ejecute <span class="codeph"> init() </span>. Obligatorio. </p> </li> 
+      <li id="li_28FDCB53E4AD4097A51F21B876C18FB1"> <p> <span class="codeph"> containerId </span> - <span class="codeph"> {String} </span> ID del contenedor DOM (normalmente un DIV <span class="codeph"> </span>) en el que se inserta el visor. Para el momento en que se llama a este método, no es necesario tener creado el elemento contenedor. Sin embargo, el contenedor debe existir cuando se ejecute <span class="codeph"> init() </span>. Obligatorio. </p> </li> 
       <li id="li_FDE00392DC1544ABBDD75F81EF814EF2"> <p> <span class="codeph"> parámetros </span> - <span class="codeph"> {Object} </span> objeto JSON con parámetros de configuración del visor donde el nombre de propiedad es una opción de configuración específica del visor o un modificador de SDK, y el valor de esa propiedad es un valor de configuración correspondiente. Obligatorio. </p> </li> 
-      <li id="li_C534D5091CDA4717BCC48E3EBBF09AB8"> <p> Controladores <span class="codeph"> </span> - <span class="codeph"> {Object} </span> objeto JSON con llamadas de retorno de evento del visor, donde el nombre de propiedad es el nombre del evento del visor admitido y el valor de propiedad es una referencia de función de JavaScript a la llamada de retorno adecuada. Opcional. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-event-callbacks.md#concept-8ba57cf86537401999514e1b221ec734" format="dita" scope="local"> devoluciones de llamadas de evento </a> para obtener más información sobre los eventos de visor. </p> </li> 
-      <li id="li_528FE03845F847E08F964E38D6AB6E86"> <p> <span class="codeph"> localizedTexts </span> - <span class="codeph"> {Object} </span> objeto JSON con datos de localización. Opcional. </p> <p>Consulte Localización de elementos de la interfaz de usuario <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74" format="dita" scope="local"> de </a> para obtener más información. </p> <p> Consulte también la <i>Guía del usuario de Viewer SDK</i> y el ejemplo para obtener más información sobre el contenido del objeto. Opcional </p> </li> 
+      <li id="li_C534D5091CDA4717BCC48E3EBBF09AB8"> <p> <span class="codeph"> controladores </span> - <span class="codeph"> {Object} </span> objeto JSON con llamadas de retorno de evento de visor, donde el nombre de propiedad es el nombre del evento de visor admitido y el valor de propiedad es una referencia de función de JavaScript a la llamada de retorno adecuada. Opcional. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-event-callbacks.md#concept-8ba57cf86537401999514e1b221ec734" format="dita" scope="local"> devoluciones de llamadas de evento </a> para obtener más información sobre los eventos de visor. </p> </li> 
+      <li id="li_528FE03845F847E08F964E38D6AB6E86"> <p> <span class="codeph"> localizedTexts </span> - <span class="codeph"> {Object} </span> objeto JSON con datos de localización. Opcional. </p> <p>Consulte Localización de elementos de la interfaz de usuario </a> de <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74" format="dita" scope="local"> para obtener más información. </p> <p> Consulte también la <i>Guía del usuario de Viewer SDK</i> y el ejemplo para obtener más información sobre el contenido del objeto. Opcional </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 

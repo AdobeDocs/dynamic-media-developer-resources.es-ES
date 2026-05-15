@@ -5,10 +5,21 @@ title: ic
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ab653aae-532b-4f3d-8541-f6296fbf9172
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/ALpdD-ZyQbjzCD6-sexqaq2gMQZGAZvMd7MqaDC6Gyo'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 0%
+source-wordcount: 1258
+ht-degree: 2%
 
 ---
 
@@ -183,7 +194,7 @@ Si no está convirtiendo imágenes grandes, no tiene que definir los parámetros
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">: sobrescribir </span> </p> </td> 
-   <td colname="col2"> <p>Permitir sobrescribir un elemento destFile <span class="codeph"> <span class="varname"> de </span> </span> existente. De forma predeterminada, se anexa un sufijo numérico al nombre del archivo para evitar que se sobrescriba. </p> </td> 
+   <td colname="col2"> <p>Permitir sobrescribir un elemento destFile </span> </span> de <span class="codeph"> <span class="varname"> existente. De forma predeterminada, se anexa un sufijo numérico al nombre del archivo para evitar que se sobrescriba. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -skiphidden </span> </p> </td> 
@@ -254,7 +265,7 @@ En la tabla siguiente se enumeran los formatos de archivo de imagen y las opcion
    <td> <b> BMP</b> <p> (Mapa de bits de Windows) </p> </td> 
    <td> <p> RGB | indexado </p> </td> 
    <td> <p> 1 | 5/6 | 8 </p> </td> 
-   <td> <p> sin comprimir | RLE </p> </td> 
+   <td> <p> sin comprimir | REGLA </p> </td> 
    <td> <p> 5/6 bits/canal indica compatibilidad con RGB de 16 bits (5-5-5 y 5-6-5 bits/canal). </p> </td> 
   </tr> 
   <tr> 
@@ -310,7 +321,7 @@ En la tabla siguiente se enumeran los formatos de archivo de imagen y las opcion
    <td> <b> TIFF</b> </td> 
    <td> <p> CMYK | CMYKA | RGB | RGBA | gris | grayA | indexado </p> </td> 
    <td> <p> 1 | 8 | 16 </p> </td> 
-   <td> <p> sin comprimir | ZIP | LZW | JPEG | REGLA CCITT | CCITT G3 | CCITT G4 | Bits de paquete </p> </td> 
+   <td> <p> sin comprimir | ZIP | LZW | JPEG | FUNCIÓN CCITT | CCITT G3 | CCITT G4 | Bits de paquete </p> </td> 
    <td> <p> Con la excepción del primer canal alfa asociado, se omiten los canales adicionales. </p> </td> 
   </tr> 
  </tbody> 

@@ -5,9 +5,17 @@ title: Ofuscación de solicitud
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 358d714b-703d-418b-90c0-5940f5388c7d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/77Q5rV3cP4KoBz3rFKlEmBlumS0TBthuLbLQBETPitE'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: 220
 ht-degree: 1%
 
 ---
@@ -20,7 +28,7 @@ El servidor intenta descodificar si `attribute::RequestObfuscation` está establ
 
 >[!IMPORTANT]
 >
->Si habilita esta característica, tenga en cuenta que existen ciertas limitaciones en su uso que incluyen lo siguiente:<br>- Es posible que la interfaz de usuario de Dynamic Media no muestre los detalles correctos para el campo **[!UICONTROL Última publicación]**. Sin embargo, este efecto no afecta a la publicación.<br>: actualmente, la transmisión de vídeo de HLS no funciona cuando **[!UICONTROL Solicitar ofuscación]** y **[!UICONTROL Solicitar bloqueo]** están habilitados.<br>- Actualmente, algunos visores de Dynamic Media no funcionan cuando **[!UICONTROL Solicitar ofuscación]** y **[!UICONTROL Solicitar bloqueo]** están habilitados.
+>Si habilita esta característica, tenga en cuenta que existen ciertas limitaciones en su uso que incluyen lo siguiente:<br>- Es posible que la interfaz de usuario de Dynamic Media no muestre los detalles correctos para el campo **[!UICONTROL Última publicación]**. Sin embargo, este efecto no afecta a la publicación.<br>- Actualmente, la transmisión de vídeo de HLS no funciona cuando **[!UICONTROL Solicitud de ofuscación]** y **[!UICONTROL Solicitud de bloqueo]** están habilitados.<br>- Actualmente, algunos visores de Dynamic Media no funcionan cuando **[!UICONTROL Solicitud de ofuscación]** y **[!UICONTROL Solicitud de bloqueo]** están habilitados.
 
 ## Ejemplo {#section-dd4bfab19aa040f8ba3f6e397c6b0941}
 

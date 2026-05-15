@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f105c7f2-b544-4c08-bb91-4916e485572d
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+TQID: 'https://experienceleague.adobe.com/iT-q5yLQijvkYDB0xOq3E6r1k3DIbU9BWu3Jkqs8wUI'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: 672
 ht-degree: 1%
 
 ---
@@ -40,7 +48,7 @@ La localización de cadenas de texto se aplica a todos los elementos de cadena q
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catálogo::Objetivos </span> </p> </td> 
-   <td> <p>El valor de cualquier destino <span class="codeph">.*.label </span> y <span class="codeph"> destino.*.userdata </span> propiedad. </p> </td> 
+   <td> <p>El valor de cualquier <span class="codeph"> target.*.label </span> y <span class="codeph"> target.*.userdata </span> propiedad. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catálogo::UserData </span> </p> </td> 
@@ -149,7 +157,7 @@ En la tabla siguiente se describe el resultado de algunas combinaciones represen
    <td> <p>Inglés </p> <p>RU-inglés </p> <p>Alemán </p> <p>austriaco </p> <p>- </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> ^ loc=en^English^loc=USE^US-English^loc=D^German^loc=DDE^Deutsch </span> </p> <p> Para este ejemplo, el DDE locId <span class="varname"> de </span> no existe en <span class="codeph"> attribute::LocaleStrMap </span> y, por lo tanto, la subcadena asociada a este locId <span class="varname"> de </span> nunca se devuelve. </p> </td> 
+   <td> <p> <span class="codeph"> ^ loc=en^English^loc=USE^US-English^loc=D^German^loc=DDE^Deutsch </span> </p> <p> Para este ejemplo, el DDE locId </span> de <span class="varname"> no existe en <span class="codeph"> attribute::LocaleStrMap </span> y, por lo tanto, la subcadena asociada a este locId </span> de <span class="varname"> nunca se devuelve. </p> </td> 
    <td> <p> en, en_uk </p> <p> en_us </p> <p> de, de_at, de_de </p> <p>todos los demás </p> </td> 
    <td> <p>Inglés </p> <p>inglés estadounidense </p> <p>Alemán </p> <p>- </p> </td> 
   </tr> 

@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d2939f86-5dab-471d-ba59-70d91ae1e4fd
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/qCi-M0u1lJZ2SSc3bnezs1jjpXhcqsv-pKCvQ60XSo8'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: 488
 ht-degree: 1%
 
 ---
@@ -41,11 +49,11 @@ En la siguiente descripción de las opciones de modo, se supone que *`xScale`* e
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> se ajustó a </span> </p> </td> 
-   <td colname="col2"> <p>Escala la imagen compuesta de modo que se ajuste al espacio asignado con <span class="codeph"> wid= </span> y <span class="codeph"> hei= </span>, con un espacio en blanco mínimo y sin recorte. La imagen de respuesta tiene el tamaño exacto especificado con <span class="codeph"> wid= </span> y <span class="codeph"> hei= </span>. Se aplica la escala xScale <span class="varname"> y </span> y la escala y <span class="varname"> más pequeñas de </span>. </p> </td> 
+   <td colname="col2"> <p>Escala la imagen compuesta de modo que se ajuste al espacio asignado con <span class="codeph"> wid= </span> y <span class="codeph"> hei= </span>, con un espacio en blanco mínimo y sin recorte. La imagen de respuesta tiene el tamaño exacto especificado con <span class="codeph"> wid= </span> y <span class="codeph"> hei= </span>. Se aplica la escala xScale </span> y <span class="varname"> y la escala y </span> más pequeñas de <span class="varname">. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> restricción </span> </p> </td> 
-   <td colname="col2"> <p>Escala la imagen compuesta como <span class="codeph"> para que se ajuste a </span> de modo que se ajuste al espacio asignado con <span class="codeph"> wid= </span> y <span class="codeph"> hei= </span>, pero la imagen de respuesta real puede ser más pequeña de lo especificado con <span class="codeph"> wid= </span> y <span class="codeph"> hei= </span> para evitar espacios en blanco. Se aplica la escala xScale <span class="varname"> y </span> y la escala y <span class="varname"> más pequeñas de </span>. </p> </td> 
+   <td colname="col2"> <p>Escala la imagen compuesta como <span class="codeph"> para que se ajuste a </span> de modo que se ajuste al espacio asignado con <span class="codeph"> wid= </span> y <span class="codeph"> hei= </span>, pero la imagen de respuesta real puede ser más pequeña de lo especificado con <span class="codeph"> wid= </span> y <span class="codeph"> hei= </span> para evitar espacios en blanco. Se aplica la escala xScale </span> y <span class="varname"> y la escala y </span> más pequeñas de <span class="varname">. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> recorte </span> </p> </td> 
