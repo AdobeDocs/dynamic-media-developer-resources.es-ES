@@ -6,9 +6,13 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c185e45b-a56c-4576-b05d-22cc0025a7c4
 TQID: 'https://experienceleague.adobe.com/I21iWFmYP0Vwunf3evtnLAr3tslHOsTOB0sGWG6l-bc'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
 source-wordcount: 387
@@ -99,6 +103,6 @@ Se da por hecho que el lector está familiarizado con la creación y el procesam
 
 **Términos comunes**
 
-** *`MSS`* ** segmento de especificación de material: un conjunto de atributos de material entre dos comandos de selección de la solicitud.
+**&#x200B; *`MSS`* &#x200B;** segmento de especificación de material: un conjunto de atributos de material entre dos comandos de selección de la solicitud.
 
-** *`vignette`* ** Una imagen preparada en la creación de imágenes de Dynamic Media para su uso con el procesamiento de imágenes.
+**&#x200B; *`vignette`* &#x200B;** Una imagen preparada en la creación de imágenes de Dynamic Media para su uso con el procesamiento de imágenes.
