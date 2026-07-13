@@ -6,14 +6,10 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 71fe3343-2560-4d74-8ec3-1229d83a62e1
 TQID: 'https://experienceleague.adobe.com/155R9mUWjM5flIW9EdpyaxGIlyiCjWOubs90otdHgQ8'
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: ba0745708154402d9b6c7ebf0554deb366dde11b
 workflow-type: tm+mt
 source-wordcount: 240
 ht-degree: 7%
@@ -26,8 +22,7 @@ Devuelve todas las carpetas y subcarpetas, empezando por la ruta de carpeta. La 
 
 ## Finalidad de las carpetas {#section-66e344d5333f42f1b060a0cba25935c3}
 
-Una carpeta permite organizar subcarpetas y recursos. Todos los nombres de carpetas y recursos deben ser únicos. Las carpetas y recursos que comparten el mismo nombre causan un conflicto de área de nombres, incluso si están en jerarquías de carpetas diferentes.
-Sintaxis
+Una carpeta permite organizar subcarpetas y recursos. Todos los nombres de carpetas y recursos deben ser únicos. Las carpetas y recursos que comparten el mismo nombre causan un conflicto de área de nombres, incluso si están en jerarquías de carpetas diferentes.Sintaxis
 
 ## Tipos de usuarios autorizados {#section-0dc7e17cb60f4cf7bcdb76648e5d2f8e}
 
@@ -101,3 +96,4 @@ Este ejemplo de código devuelve una matriz que contiene todas las carpetas de u
    </folderArray>
 </getFoldersReturn>
 ```
+
