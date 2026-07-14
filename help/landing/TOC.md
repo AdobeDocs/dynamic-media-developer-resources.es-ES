@@ -9,7 +9,8 @@ breadcrumb-title: Recursos para desarrolladores de Dynamic Media
 user-guide-description: Acceda a recursos de desarrolladores de Dynamic Media como la Guía de referencia de visores, la API de Image Production System, la API de servicio y procesamiento de imágenes y las notas de la versión archivadas de Scene7.
 feature-set: Experience Manager Assets
 index: true
-source-git-commit: 476d3ecdc678bb0c2cd84dff4084cfe38d594ec4
+nudge: true
+source-git-commit: 6b86b624461759c511dad9a939e258a2f0cc8552
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 2%
@@ -29,4 +30,3 @@ This TOC may not be necessary. Not sure, so leaving it in.
 + [Image Authoring](/help/aem-ia/aem-ia-home.md)
 + [Dynamic Media Classic Release Notes](/help/s7-release-notes/homern.md)
 -->
-
