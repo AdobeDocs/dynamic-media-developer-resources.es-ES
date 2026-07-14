@@ -10,7 +10,8 @@ feature: Dynamic Media Classic
 role: Developer,User
 user-guide-title: Notas de la versión de Adobe Dynamic Media Classic
 user-guide-description: Últimas notas de la versión de Adobe Dynamic Media Classic, parte de la solución Adobe Experience Manager en Adobe Experience Cloud.
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+nudge: true
+source-git-commit: b3ed420d9e4d7adcc76921aa763e253bcfe0d1b3
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 0%
