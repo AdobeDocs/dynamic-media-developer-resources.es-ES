@@ -4,7 +4,8 @@ user-guide-title: API de servicio y procesamiento de imágenes de Dynamic Media
 breadcrumb-title: API de servicio y procesamiento de imágenes de Dynamic Media
 feature-set: Experience Manager Assets
 user-guide-description: Vea documentación sobre las API de IS (Image Serving) e IR (Image Rendering), y tecnologías relacionadas.
-source-git-commit: 6c2c23327affd02708d05bff3859cf8da746eabf
+nudge: true
+source-git-commit: f2f81d61572ac294b836be02e46797b83f4f21cf
 workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 8%
@@ -768,6 +769,6 @@ ht-degree: 8%
 
 <!--
 Comment from the first link in the TOC:
-(https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html?lang=es)
+(https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html)
 Comments within the TOC can cause rendering problems.
 -->
