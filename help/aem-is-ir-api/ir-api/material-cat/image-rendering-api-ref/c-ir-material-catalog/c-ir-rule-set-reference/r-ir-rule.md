@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 192
 ht-degree: 4%
@@ -93,3 +93,4 @@ Si no se especifica `<expression>`, cualquier ruta de acceso coincide y `<substi
 Si no se especifica `<substitution>`, se quitará la subcadena coincidente.
 
 `<addressfilter>` solo se aplica cuando se produce una coincidencia y antes de que se apliquen las reglas de consulta.
+

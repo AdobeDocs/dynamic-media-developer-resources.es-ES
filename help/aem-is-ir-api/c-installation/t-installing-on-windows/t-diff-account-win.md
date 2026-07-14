@@ -17,7 +17,7 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 70c478ebbe0b38d9e35c1bb26074a458c0197b2b
 workflow-type: tm+mt
 source-wordcount: 89
 ht-degree: 0%
@@ -32,3 +32,4 @@ Después de la instalación, configure los servicios para que se ejecuten con la
 1. Seleccione **[!UICONTROL Configuración de seguridad]** > **[!UICONTROL Directivas locales]** > **[!UICONTROL Asignación de derechos de usuario]**.
 1. Haga doble clic en la directiva **[!UICONTROL Iniciar sesión como servicio]**.
 1. Seleccione **[!UICONTROL Agregar...]** y seleccione el usuario o grupo; a continuación, seleccione **[!UICONTROL Aceptar]** para confirmar.
+

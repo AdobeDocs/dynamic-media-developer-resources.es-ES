@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 98
 ht-degree: 0%
@@ -27,3 +27,4 @@ Cualquier referencia `$var$` que aparezca en cualquier lugar dentro de las llave
 Permite colocar solicitudes externas incrustadas en una plantilla de un catálogo de imágenes.
 
 Los valores de variable que se sustituyen en solicitudes externas suelen tener una codificación doble, ya que no se aplica ninguna codificación adicional antes de que el servidor intente transmitir la dirección URL externa final.
+

@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 140
 ht-degree: 3%
@@ -43,7 +43,7 @@ Si así se ha creado, se utilizan los siguientes atributos de material para defi
   <tr> 
    <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-glossmap.md#reference-99940148ae6a401482b2d03c68530f3a" type="reference" format="dita" scope="local"> <span class="codeph"> glossmap= </span> </a> </p> </td> 
    <td> <p>Variación del brillo (imagen en escala de grises) </p> </td> 
-   <td> <p>Ninguno </p> </td> 
+   <td> <p>Ninguna </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180" type="reference" format="dita" scope="local"> <span class="codeph"> aproximado= </span> </a> </p> </td> 
@@ -61,3 +61,4 @@ Si así se ha creado, se utilizan los siguientes atributos de material para defi
 El procesador ajusta el intervalo del atributo `gloss=` y `rough=` según `type=`. Algunos tipos de material, como la tela, son menos reflectantes que otros como la piedra o el metal. Además, la misma cantidad de brillo especificada para uno suele producir un efecto de reflexión diferente al otro. El atributo `gloss=` y la rugosidad tienen una gama bastante amplia si `type=` no se especifica o se establece en `0`.
 
 `glossmap=` Se usa para controlar el brillo de un material píxel a píxel.
+

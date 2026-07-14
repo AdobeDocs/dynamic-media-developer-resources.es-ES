@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 161
 ht-degree: 1%
@@ -35,3 +35,4 @@ Este tema describe la sintaxis de uso de vntc.
 Obligatorio.
 
 *[!DNL destFile]* es la ruta de acceso y el nombre del archivo de viñeta de salida. Si no se especifica, el archivo de salida se coloca en la carpeta especificada con `-destpath`. En esta situación, el nombre de archivo se genera automáticamente a partir del nombre del archivo de entrada y un sufijo de tamaño, separados por la cadena especificada por `-separator`. En el caso de las viñetas, el sufijo de tamaño es la anchura en píxeles de la viñeta de salida de una sola resolución, la anchura de la primera vista de una viñeta de salida de varias resoluciones o &quot;0&quot; si hay una viñeta piramidal. Para archivos de estilo de archivador, la resolución de salida se utiliza como sufijo de archivo. *[!DNL destFile]* se omite cuando se especifica `-info`.
+

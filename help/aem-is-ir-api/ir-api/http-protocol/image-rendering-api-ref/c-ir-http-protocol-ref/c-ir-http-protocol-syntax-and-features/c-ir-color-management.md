@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 741
 ht-degree: 0%
@@ -83,3 +83,4 @@ Todos los perfiles de color utilizados por el servidor deben cumplir con la espe
 Aunque los perfiles de salida se pueden especificar por ruta/nombre de archivo en el comando `icc=`, se recomienda registrar todos los archivos de perfil en el mapa de perfiles ICC del catálogo predeterminado o de un catálogo de materiales específico y utilizar identificadores de acceso directo ( `icc::Name`) en lugar de rutas de archivo.
 
 Los perfiles de trabajo deben registrarse en el mapa de perfiles ICC del catálogo de materiales o del catálogo predeterminado.
+

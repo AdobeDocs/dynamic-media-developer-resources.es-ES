@@ -15,7 +15,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: b658a9f9067d2313c1c838c7e157f4070ebc2b50
 workflow-type: tm+mt
 source-wordcount: 125
 ht-degree: 10%
@@ -44,3 +44,4 @@ Sintaxis
 | metadataArray | `types:MetadataArray` | Una matriz de valores de metadatos asociados al recurso. |
 | puntaje | `xsd:double` | Define la precisión si hay una búsqueda de similitud (0 = sin coincidencia, 1 = coincidencia exacta). |
 | scoreDetail | `xsd:string` | Contiene información detallada sobre áreas similares como resultado de una búsqueda de similitudes. |
+

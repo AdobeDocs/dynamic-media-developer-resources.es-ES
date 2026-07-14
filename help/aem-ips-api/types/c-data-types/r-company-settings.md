@@ -15,7 +15,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: b658a9f9067d2313c1c838c7e157f4070ebc2b50
 workflow-type: tm+mt
 source-wordcount: 244
 ht-degree: 2%
@@ -41,3 +41,4 @@ Sintaxis
 | diskSpaceWarningMin | `xsd:int` | Cantidad mínima de espacio libre en disco en el directorio de imágenes antes de enviar una advertencia. |
 | emailTrashCleanupWarning | `xsd:boolean` | Determina si se enviarán correos electrónicos antes de que los elementos de la papelera se eliminen automáticamente. |
 | javascriptUploadEnabled | `types:Asset` | Determina si se cargarán archivos de JavaScript. Esta opción supone un riesgo de seguridad potencial, por lo que debe utilizarse con cuidado. |
+

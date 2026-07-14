@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 345
 ht-degree: 0%
@@ -46,3 +46,4 @@ En la práctica, las mismas reglas se aplican a las viñetas de varias resolucio
 Se crea una viñeta piramidal especificando `-pyramid`. El nivel de resolución más alto de una viñeta de este tipo se determina exactamente igual que para una viñeta de una sola resolución. Los niveles de resolución adicionales se determinan automáticamente escalando cada nivel a 0,5 veces el nivel anterior, con el nivel más pequeño que no supere los 128 x 128 píxeles.
 
 Se pueden especificar niveles de resolución adicionales para una viñeta piramidal, al igual que para una viñeta de resolución múltiple.
+

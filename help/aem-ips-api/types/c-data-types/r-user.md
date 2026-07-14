@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 70c478ebbe0b38d9e35c1bb26074a458c0197b2b
 workflow-type: tm+mt
 source-wordcount: 71
 ht-degree: 9%
@@ -37,3 +37,4 @@ Sintaxis
 | defaultRole | `xsd:string` | Establece la función de un usuario en cada compañía a la que pertenece. Sin embargo, el rol de usuario `IpsAmin` invalida otros roles de usuario. |
 | isValid | `xsd:boolean` | Determina si el usuario es válido. |
 | passwordExpires | `xsd:dateTime` | Establece fecha de caducidad de contraseña. |
+

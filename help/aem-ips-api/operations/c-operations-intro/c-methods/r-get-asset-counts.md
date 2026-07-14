@@ -15,7 +15,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: ba0745708154402d9b6c7ebf0554deb366dde11b
 workflow-type: tm+mt
 source-wordcount: 141
 ht-degree: 9%
@@ -26,8 +26,7 @@ ht-degree: 9%
 
 Obtiene los recursos y el número de recursos asociados con una compañía específica.
 
-El objeto `countArray` devuelto consiste en una matriz de `assetTypes` (tipo de datos `xsd:string`), cada uno con su propio campo de recuento (tipo de datos `xsd:int`), lo que permite la representación de varios tipos de recursos por elemento de la matriz.
-Sintaxis
+El objeto `countArray` devuelto consiste en una matriz de `assetTypes` (tipo de datos `xsd:string`), cada uno con su propio campo de recuento (tipo de datos `xsd:int`), lo que permite la representación de varios tipos de recursos por elemento de la matriz.Sintaxis
 
 ## Tipos de usuarios autorizados {#section-6234754722184e828352f10eb18fbce9}
 
@@ -83,3 +82,4 @@ Este ejemplo de código utiliza el identificador de la empresa como un campo del
    </countArray>
 </getAssetCountsReturn>
 ```
+

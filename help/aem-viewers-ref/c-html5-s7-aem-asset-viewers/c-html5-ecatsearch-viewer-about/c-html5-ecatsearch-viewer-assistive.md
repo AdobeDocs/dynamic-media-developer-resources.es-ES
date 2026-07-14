@@ -15,7 +15,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: f6432244ef9faba7a81488e9de8e438154ae6123
 workflow-type: tm+mt
 source-wordcount: 398
 ht-degree: 0%
@@ -43,3 +43,4 @@ Las listas desplegables se activan mediante botones con el atributo adicional `a
 La interfaz de usuario de búsqueda se agrupa en el elemento con la función `search`. El campo de entrada de búsqueda tiene el rol `searchbox` y hace referencia a la etiqueta informativa controlada por el símbolo de localización `SearchPanel.INFO_PROMPT` con el atributo `aria-describedby`.
 
 Los cuadros de diálogo modales tienen la función `dialog`. El atributo `aria-labelledby` hace referencia al elemento de encabezado del cuadro de diálogo.
+

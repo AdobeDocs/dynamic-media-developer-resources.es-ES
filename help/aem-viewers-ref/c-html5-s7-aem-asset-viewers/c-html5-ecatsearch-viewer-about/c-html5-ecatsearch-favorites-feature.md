@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: f6432244ef9faba7a81488e9de8e438154ae6123
 workflow-type: tm+mt
 source-wordcount: 156
 ht-degree: 0%
@@ -29,3 +29,4 @@ La función Buscar se activa activando un botón Buscar en la barra de herramien
 Los resultados de la búsqueda se muestran como miniaturas de las páginas en las que se encontró texto de búsqueda. Además, el visor muestra un número total de páginas y visitas que se encontraron durante la búsqueda. El usuario puede tocar o hacer clic en la miniatura de un resultado de búsqueda para desplazarse a la página correspondiente del catálogo.
 
 Por último, el visor resalta las visitas de búsqueda en la vista principal utilizando regiones amarillas semitransparentes.
+

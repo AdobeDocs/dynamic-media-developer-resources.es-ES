@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 83717f155466c1b33cab6f1f8830a9fea68c88c5
 workflow-type: tm+mt
 source-wordcount: 65
 ht-degree: 12%
@@ -35,3 +35,4 @@ Sintaxis
 | espacio de color | `xsd:string` | Modo de espacio de color PostScript. |
 | alfa | `xsd:boolean` | Si se rasteriza el archivo en una imagen. Si es así, crea un fondo transparente si el archivo original si se define de esta manera. Generalmente se utiliza para crear logotipos superpuestos. |
 | extractSearchWords | `xsd:boolean` | Si se extraerán las palabras de búsqueda del archivo PostScript. |
+

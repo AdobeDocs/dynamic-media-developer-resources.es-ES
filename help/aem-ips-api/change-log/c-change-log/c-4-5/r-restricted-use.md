@@ -15,7 +15,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4185012f22b173b569d11ea4d350763a82f98710
 workflow-type: tm+mt
 source-wordcount: 232
 ht-degree: 0%
@@ -116,3 +116,4 @@ Estas operaciones y tipos están sujetos a la desactivación, el cambio o la des
 * Se cambió `setImageRenderingPublishSettings` para incluir un parámetro `contextHandle` opcional
 
 * Se ha cambiado `submitJob` para incluir un tipo de trabajo `createVideoSitemap` opcional
+

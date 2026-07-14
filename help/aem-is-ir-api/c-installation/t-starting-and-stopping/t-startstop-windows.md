@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 70c478ebbe0b38d9e35c1bb26074a458c0197b2b
 workflow-type: tm+mt
 source-wordcount: 84
 ht-degree: 0%
@@ -28,3 +28,4 @@ Existen varios mecanismos para iniciar o detener Image Server y [!DNL Platform S
 
 * El Panel de control de Campaign de servicio de Windows se puede usar para iniciar, detener, reiniciar y comprobar el estado del servicio `Dynamic Media Image Serving`.
 * **[!UICONTROL Menú Inicio]**> **[!UICONTROL Todos los programas]**> **[!UICONTROL Dynamic Media (Scene7)]**> **[!UICONTROL Servicio de imágenes]**> **[!UICONTROL Servicio de control]** proporciona comandos para iniciar, detener y reiniciar el servicio `Dynamic Media Image Serving`.
+

@@ -16,7 +16,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 207
 ht-degree: 0%
@@ -38,3 +38,4 @@ El servidor de procesamiento debe detenerse para reemplazar otros archivos de da
 [!DNL Platform Server] entradas de caché se invalidan automáticamente cuando se reemplazan archivos de material o viñetas. La sustitución de archivos de perfil ICC no invalida las cachés.
 
 Para evitar las complicaciones derivadas de reemplazar archivos, se recomienda dar un nuevo nombre al archivo de reemplazo y actualizar las entradas de catálogo correspondientes. Esto permite reemplazar cualquier archivo de datos mientras el servidor esté activo y hace que las entradas de la caché del servidor queden obsoletas automáticamente sin ninguna intervención adicional. Este método se puede utilizar para todos los archivos de datos administrados por catálogos de imágenes.
+

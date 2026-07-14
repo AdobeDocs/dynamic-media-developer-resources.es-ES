@@ -17,7 +17,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 108
 ht-degree: 0%
@@ -31,3 +31,4 @@ Los catálogos de material proporcionan muchas opciones de configuración de pro
 Los catálogos de materiales asignan ID de viñeta y material utilizados en las solicitudes a las rutas de archivo reales, pueden almacenar todos los metadatos asociados a los materiales y proporcionar contenedores para las plantillas. Realizan un seguimiento de los perfiles ICC y las macros de comandos.
 
 Solo el componente Java de Image Rendering (ubicado conjuntamente con [!DNL Platform Server]) tiene acceso a los catálogos de materiales. Los archivos de atributos de catálogo deben tener un sufijo [!DNL .ini] y colocarse en la carpeta de catálogo registrada ([ir.catalogRootPath](../../../../../../ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-catalog-folder.md#concept-1c1d308112054bb99e3895c3fb8ca5f7)). El catálogo de materiales predeterminado ( [!DNL default.ini]) siempre debe estar presente y debe rellenarse con todos los atributos para que el servicio de imágenes funcione correctamente.
+

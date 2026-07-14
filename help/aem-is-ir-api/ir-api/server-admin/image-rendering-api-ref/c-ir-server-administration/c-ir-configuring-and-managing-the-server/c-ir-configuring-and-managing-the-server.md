@@ -16,7 +16,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 69
 ht-degree: 0%
@@ -32,3 +32,4 @@ Esta sección contiene información para ayudarle a configurar y administrar el 
 >El servicio de imágenes debe estar correctamente configurado y ser funcional para el correcto funcionamiento del procesamiento de imágenes.
 
 Para obtener más información, consulte Referencia de catálogo de materiales, Referencia de protocolo HTTP , Notas de la versión, Documentación del servicio de imágenes
+

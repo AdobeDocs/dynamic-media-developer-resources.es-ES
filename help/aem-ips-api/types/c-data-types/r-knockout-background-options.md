@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 83717f155466c1b33cab6f1f8830a9fea68c88c5
 workflow-type: tm+mt
 source-wordcount: 191
 ht-degree: 2%
@@ -51,8 +51,7 @@ Este tipo de datos es opcional y está desactivado de forma predeterminada.
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> esquina</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Selecciona la esquina con la que desea trabajar. <span class="codeph"> corner</span> acepta estos valores: 
-    <ul id="ul_36C2F07706764A7081010D5521BF3096">
+   <td colname="col3">Selecciona la esquina con la que desea trabajar. <span class="codeph"> corner</span> acepta estos valores: <ul id="ul_36C2F07706764A7081010D5521BF3096">
      <li id="li_CBACE5C6AA8C48D3BEE033D3AE03AF3C"><span class="codeph"> UpperLeft</span></li>
      <li id="li_49AC53536B4B4D2CA3DD89E2A2B2E95D"><span class="codeph"> BottomLeft</span></li>
      <li id="li_7AD372FF4A9B48F0A16964EE9CB3EE88"><span class="codeph"> UpperRight</span></li>
@@ -62,8 +61,7 @@ Este tipo de datos es opcional y está desactivado de forma predeterminada.
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> tolerancia</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
-   <td colname="col3">Una configuración opcional que elimina el espacio en blanco de los bordes de la imagen en función de la transparencia. Acepta un rango de valores de 0,0 a 1,0. Especifique: 
-    <ul id="ul_FE5423B857AE43FCBA7A9AEA76C754CC">
+   <td colname="col3">Una configuración opcional que elimina el espacio en blanco de los bordes de la imagen en función de la transparencia. Acepta un rango de valores de 0,0 a 1,0. Especifique: <ul id="ul_FE5423B857AE43FCBA7A9AEA76C754CC">
      <li id="li_01E3BD0AB8DA4C408B47CB02B269404A">0 para que coincida exactamente con los colores. </li>
      <li id="li_FCE21384265D4ECE9C0D785F1BB32C3A">1 para habilitar la mayoría de las diferencias de color. </li>
     </ul></td> 
@@ -102,3 +100,4 @@ El tipo `KnockoutBackgroundOptions` lo utiliza:
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [CargarTrabajo](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
 * [UploadUrlsJob](../../types/c-data-types/r-upload-urls-job.md#reference-8e9bc895268c4321b233dbeadc990398)
+

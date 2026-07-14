@@ -14,7 +14,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4185012f22b173b569d11ea4d350763a82f98710
 workflow-type: tm+mt
 source-wordcount: 124
 ht-degree: 0%
@@ -33,3 +33,4 @@ Llamadas a la API del sistema de producción de imágenes y sus parámetros asoc
 * `addMediaPortalEvent` - Obsoleto de [operaciones](/help/aem-ips-api/operations/c-operations-intro/c-operations-intro.md). Este parámetro permite agregar un evento de Media Portal a IPS.
 * `getMediaPortalEvent` - Obsoleto de [operaciones](/help/aem-ips-api/operations/c-operations-intro/c-operations-intro.md). Este parámetro permite obtener eventos de portal de medios que coincidan con los criterios especificados.
 * `getCdnCacheInvalidationStatus` - Obsoleto de [operaciones](/help/aem-ips-api/operations/c-operations-intro/c-operations-intro.md). Este parámetro está obsoleto porque el parámetro `cdnCacheInvalidation` invalida la caché casi inmediatamente (~5 segundos). Como tal, ya no es necesario sondear para obtener el estado de invalidación.
+

@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 251
 ht-degree: 0%
@@ -41,3 +41,4 @@ Se hace referencia a las variables incrustando el nombre de la variable (entre u
 Las variables personalizadas no pueden estar anidadas. No se sustituye ninguna aparición de `$ [!DNL name]$` en `[!DNL string]`. Por ejemplo, el fragmento de solicitud `$var2=apple&$var1=my$var2$tree&text=$var1$` se resuelve en `text=my$var2$tree`.
 
 `$` no es un carácter reservado; de lo contrario, puede ocurrir en la solicitud. Por ejemplo, `src=my$texture$file.tif` es un comando válido (suponiendo que existe un archivo de textura o entrada de catálogo de materiales denominado `[!DNL my$texture$file.tif]`), mientras que `wid=$number$` no lo es, porque `wid=` requiere un argumento numérico.
+
