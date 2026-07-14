@@ -6,9 +6,13 @@ feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 0b792a15-ed00-4ee5-90f4-511ac9e035b6
 TQID: 'https://experienceleague.adobe.com/aBphMcWJdGVpUx57KLiEvgrIRKAGVK-2UVecGaHwgVk'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 939895a2a379b02e733e48932434433bfa9663e1
 workflow-type: tm+mt
 source-wordcount: 1425
@@ -247,7 +251,7 @@ El botón Cerrar se controla con el siguiente selector de clase CSS:
 .s7ecatalogsearchviewer .s7linkdialog .s7closebutton
 ```
 
-**Propiedades CSS del ** de botón Cerrar
+**Propiedades CSS del &#x200B;** de botón Cerrar
 
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
@@ -334,7 +338,7 @@ El pie de página del cuadro de diálogo consta de un botón Cancelar. El conten
 .s7ecatalogsearchviewer .s7linkdialog .s7dialogfooter
 ```
 
-**Propiedades CSS de la ** de pie de página del cuadro de diálogo
+**Propiedades CSS de la &#x200B;** de pie de página del cuadro de diálogo
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
@@ -535,7 +539,7 @@ El área de diálogo principal, entre el encabezado y el pie de página, contien
 .s7ecatalogsearchviewer .s7linkdialog .s7dialogviewarea
 ```
 
-**Propiedades CSS de la ** del área de visualización del cuadro de diálogo
+**Propiedades CSS de la &#x200B;** del área de visualización del cuadro de diálogo
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
@@ -570,7 +574,7 @@ Todo el contenido del formulario (como etiquetas y campos de entrada) reside den
 .s7ecatalogsearchviewer .s7linkdialog .s7dialogbody
 ```
 
-**Propiedades CSS del ** de cuerpo del cuadro de diálogo
+**Propiedades CSS del &#x200B;** de cuerpo del cuadro de diálogo
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
@@ -597,7 +601,7 @@ Todas las etiquetas estáticas del formulario de cuadro de diálogo se controlan
 
 Esta clase no es adecuada para controlar el tamaño o la posición de la etiqueta porque puede aplicarla a textos en varios lugares de la interfaz de usuario del formulario.
 
-**Propiedades CSS de la etiqueta del cuadro de diálogo. **
+**Propiedades CSS de la etiqueta del cuadro de diálogo. &#x200B;**
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
