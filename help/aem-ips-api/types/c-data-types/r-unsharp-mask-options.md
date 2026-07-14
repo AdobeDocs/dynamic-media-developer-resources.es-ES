@@ -6,14 +6,10 @@ feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 7150b4a8-a44d-4858-96f2-6004d5f48e77
 TQID: 'https://experienceleague.adobe.com/J9LoVO0ZOapo0ao5gJoyNXc5qu3A3fNDD8ALRAiHudg'
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 70c478ebbe0b38d9e35c1bb26074a458c0197b2b
 workflow-type: tm+mt
 source-wordcount: 205
 ht-degree: 9%
@@ -51,8 +47,7 @@ Especifique un valor para las opciones de `unsharpMaskOptions` con `minOccurs=" 
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> radio</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:double</span></td>
-   <td colname="col3"><p>Controla la nitidez estableciendo el número de píxeles alrededor del borde de una imagen. El valor adecuado depende del tamaño de la imagen. 
-     <ul id="ul_D4391CD407DE4B48AF4523EBD85D0D40">
+   <td colname="col3"><p>Controla la nitidez estableciendo el número de píxeles alrededor del borde de una imagen. El valor adecuado depende del tamaño de la imagen. <ul id="ul_D4391CD407DE4B48AF4523EBD85D0D40">
       <li id="li_8AEF11A489484EFD91416F8A03C4DB25">Intervalo: 0,0 - 250,0 </li>
       <li id="li_9F1D1B52AFBA46B8BDCDF99A21140002">Los valores bajos solo enfocan los píxeles de borde. </li>
       <li id="li_7D9FD8AA4899404283D7AB596364A4AF">Los valores altos enfocan una banda más ancha de píxeles. </li>
@@ -100,4 +95,5 @@ El tipo `unsharpMaskOptions` lo utiliza:
 
 >[!MORELIKETHIS]
 >
->* [Referencia de API de servicio de imágenes: op_usm](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html?lang=es)
+>* [Referencia de API de servicio de imágenes: op_usm](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html)
+
