@@ -6,14 +6,10 @@ feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: b792cddb-f3d2-4609-95b7-105d76fb3d6f
 TQID: 'https://experienceleague.adobe.com/VRC82qSYkgsI0ceaXdKtfGq-aYlw-Y0M-nRtq1pjg7A'
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 939895a2a379b02e733e48932434433bfa9663e1
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 9cbaa81231198414806938d25961167788e93789
 workflow-type: tm+mt
 source-wordcount: 200
 ht-degree: 2%
@@ -28,15 +24,15 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> plantilla</span></span> </p> </td> 
-   <td> <p>Plantilla de contenido en la que se combinan los datos devueltos por el servidor de información. </p> <p>La plantilla de contenido es un XML que sigue esta DTD: </p> <p> <code>&lt;!DOCTYPE&nbsp;info&nbsp;&lbrack;
+   <td> <p>Plantilla de contenido en la que se combinan los datos devueltos por el servidor de información. </p> <p>La plantilla de contenido es un XML que sigue esta DTD: </p> <p> <code>&lt;!DOCTYPE&nbsp;info&nbsp;[
       &lt;!ELEMENT&nbsp;info&nbsp;(var&nbsp;#PCDATA)
       &lt;!ELEMENT&nbsp;var&nbsp;(#PCDATA)&gt;
       &lt;!ATTLIST&nbsp;var&nbsp;
       name&nbsp;CDATA&nbsp;#REQUIRED
       rollover&nbsp;CDATA&nbsp;#IMPLIED&nbsp;&gt;
-      &rbrack;&gt;</code> </p> <p>La sintaxis real de la plantilla de contenido es la siguiente: </p> <p> <code>&lt;info&gt;
+      ]&gt;</code> </p> <p>La sintaxis real de la plantilla de contenido es la siguiente: </p> <p> <code>&lt;info&gt;
       &lt;var&nbsp;name='VAR_NAME'&nbsp;rollover='ROLLOVER_KEY'&gt;&lt;!CDATA[&nbsp;VAR_VALUE&nbsp;]&gt;
-      &lt;!&lbrack;CDATA[&nbsp;TEMPLATE_CONTENT&nbsp;]&gt;
+      &lt;![CDATA[&nbsp;TEMPLATE_CONTENT&nbsp;]&gt;
       &lt;/info&gt;</code> </p> <p>Es decir, la plantilla debe comenzar con el elemento <span class="codeph"> &lt;info&gt;</span> que puede contener elementos opcionales predeterminados <span class="codeph"> &lt;var&gt;</span>. El contenido de la plantilla en sí, <span class="codeph"> TEMPLATE_CONTENT</span> es texto de HTML. Además, la plantilla de contenido puede contener nombres de variables entre <span class="codeph"> $</span> caracteres. Estos caracteres se sustituyen por los valores de variable que devuelve el servidor de información o por los predeterminados. </p> <p>Las variables predeterminadas que se definen en la plantilla pueden ser globales (si no se ha establecido el atributo de rollover) o específicas de una clave de rollover determinada (si está presente el atributo de rollover). </p> <p>Durante el procesamiento de plantillas, las variables específicas para las claves de rollover tienen prioridad sobre las variables globales. </p> </td> 
   </tr> 
  </tbody> 
@@ -59,3 +55,4 @@ Ninguno.
 Suponiendo que la respuesta del servidor de información devuelve el nombre del producto como variable `$1$` y que la dirección URL de la imagen del producto se devuelve como variable `$2$`.
 
 `template=<info><![CDATA[Product description:$1$<br>Product image:<img src="$2$">]]></info>`
+
