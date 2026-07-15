@@ -4,7 +4,7 @@ user-guide-title: Guía de referencia de visores de Dynamic Media
 feature-set: Experience Manager Assets
 user-guide-description: Personalice los visores de Dynamic Media para utilizarlos en dispositivos de escritorio y de pantalla táctil. Incluya imágenes y vídeos interactivos, carruseles, conjuntos de giros y mucho más.
 nudge: true
-source-git-commit: b40d8ed938698a776b4ca6eb8f456b40ad6060f6
+source-git-commit: c9b4e04351d32190a5b27e807c3a752f8a2a26a8
 workflow-type: tm+mt
 source-wordcount: '2082'
 ht-degree: 2%

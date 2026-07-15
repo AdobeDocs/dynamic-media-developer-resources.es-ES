@@ -9,7 +9,8 @@ breadcrumb-title: Recursos para desarrolladores de Dynamic Media
 user-guide-description: Acceda a recursos de desarrolladores de Dynamic Media como la Guía de referencia de visores, la API de Image Production System, la API de servicio y procesamiento de imágenes y las notas de la versión archivadas de Scene7.
 feature-set: Experience Manager Assets
 index: true
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+nudge: true
+source-git-commit: 6b86b624461759c511dad9a939e258a2f0cc8552
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 2%
