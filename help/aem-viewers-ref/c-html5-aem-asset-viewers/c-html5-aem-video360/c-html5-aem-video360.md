@@ -8,28 +8,32 @@ exl-id: 74dca3f6-ce89-4c5b-8459-c2c4ca8ed27c
 TQID: 'https://experienceleague.adobe.com/exFQtdLDWST-H5pFv3m-q7eGCgtjrYe-TgxQal6VA48'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+    internal-label: Security
+source-git-commit: dd9621ba856ee23cfaab63ba430118bccdf0b515
 workflow-type: tm+mt
-source-wordcount: 2620
+source-wordcount: '2621'
 ht-degree: 0%
-
 ---
-
 # Video360{#video}
 
 El visualizador HTML5 Video360 es un reproductor de vídeo de 360 grados que reproduce flujo continuo y vídeo progresivo de 360 codificado en formato H.264, entregado desde Dynamic Media Classic o desde Adobe Experience Manager, Dynamic Media.
 
 Los vídeos de 360 grados, también conocidos como vídeos inmersivos o vídeos esféricos, son grabaciones de vídeo en las que se graba una vista en todas las direcciones al mismo tiempo, grabadas con una cámara omnidireccional o una colección de cámaras. Se admiten conjuntos de vídeos adaptables y de vídeo únicos. El visor también admite el trabajo con flujos de vídeo progresivos y HLS alojados en una ubicación externa.
 
-La proporción de aspecto recomendada para el vídeo de 360 es 2:1. No se admite el sonido espacial. El visor está diseñado para trabajar únicamente con vídeo 360; si se intenta reproducir un vídeo que no sea 360, se producirá una reproducción de vídeo distorsionada.
+La relación de aspecto recomendada para 360 vídeos es de 2:1. No se admite el sonido espacial. El visor está diseñado para trabajar únicamente con vídeo 360; si se intenta reproducir un vídeo que no sea 360, se producirá una reproducción de vídeo distorsionada.
 
 El visor está diseñado para funcionar tanto en exploradores web de escritorio como móviles compatibles con vídeo HTML5. El visor admite herramientas opcionales de uso compartido en redes sociales.
 
@@ -144,22 +148,22 @@ Para agregar el visor a una página web, haga lo siguiente:
 
    La creación de un visor requiere que añada una etiqueta de script en el encabezado de HTML. Antes de usar la API de visor, asegúrese de incluir [!DNL Video360Viewer.js]. El archivo [!DNL Video360Viewer.js] se encuentra en la subcarpeta [!DNL html5/js/] de su implementación estándar de visores IS:
 
-[!DNL <s7viewers_root>/etc/dam/viewers/s7viewers/html5/js/Video360Viewer.js]
+   [!DNL <s7viewers_root>/etc/dam/viewers/s7viewers/html5/js/Video360Viewer.js]
 
-Puede utilizar una ruta relativa si el visor está implementado en uno de los servidores de Adobe Dynamic Media Classic y se proporciona desde el mismo dominio. De lo contrario, especifique una ruta completa a uno de los servidores de Adobe Dynamic Media Classic que tengan instalados los visores de IIS.
+   Puede utilizar una ruta relativa si el visor está implementado en uno de los servidores de Adobe Dynamic Media Classic y se proporciona desde el mismo dominio. De lo contrario, especifique una ruta completa a uno de los servidores de Adobe Dynamic Media Classic que tengan instalados los visores de IIS.
 
-La ruta relativa tiene el siguiente aspecto:
+   La ruta relativa tiene el siguiente aspecto:
 
-```html {.line-numbers}
-<script language="javascript" type="text/javascript" src="/etc/dam/viewers/s7viewers/html5/js/InteractiveVideoViewer.js"></script>
-```
+   ```html {.line-numbers}
+   <script language="javascript" type="text/javascript" src="/etc/dam/viewers/s7viewers/html5/js/InteractiveVideoViewer.js"></script>
+   ```
 
->[!NOTE]
->
->Solo haga referencia al archivo de JavaScript `include` del visor principal en su página. No haga referencia a ningún archivo JavaScript adicional en el código de la página web que la lógica del visor pueda descargar durante la ejecución. En particular, no haga referencia directamente a la biblioteca HTML5 SDK `Utils.js` cargada por el visor desde la ruta de contexto `/s7viewers` (denominada SDK consolidado `include`). El motivo es que la ubicación de `Utils.js` o bibliotecas similares del visor en tiempo de ejecución está completamente administrada por la lógica del visor y la ubicación cambia entre versiones del visor. Adobe no mantiene versiones anteriores del visor secundario `includes` en el servidor.
->
->
->Como resultado, al establecer una referencia directa a cualquier JavaScript `include` secundario que use el visor en la página, se interrumpe la funcionalidad del visor en el futuro cuando se implemente una nueva versión del producto.
+   >[!NOTE]
+   >
+   >Solo haga referencia al archivo de JavaScript `include` del visor principal en su página. No haga referencia a ningún archivo JavaScript adicional en el código de la página web que la lógica del visor pueda descargar durante la ejecución. En particular, no haga referencia directamente a la biblioteca HTML5 SDK `Utils.js` cargada por el visor desde la ruta de contexto `/s7viewers` (denominada SDK consolidado `include`). El motivo es que la ubicación de `Utils.js` o bibliotecas similares del visor en tiempo de ejecución está completamente administrada por la lógica del visor y la ubicación cambia entre versiones del visor. Adobe no mantiene versiones anteriores del visor secundario `includes` en el servidor.
+   >
+   >
+   >Como resultado, al establecer una referencia directa a cualquier JavaScript `include` secundario que use el visor en la página, se interrumpe la funcionalidad del visor en el futuro cuando se implemente una nueva versión del producto.
 
 1. Definir el contenedor `DIV`.
 
