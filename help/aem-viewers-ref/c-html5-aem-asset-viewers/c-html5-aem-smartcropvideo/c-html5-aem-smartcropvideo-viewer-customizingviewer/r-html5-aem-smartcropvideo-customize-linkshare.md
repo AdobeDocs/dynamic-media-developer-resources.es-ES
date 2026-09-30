@@ -9,18 +9,37 @@ exl-id: 6f2b832f-e627-428a-8673-129bfa58c7e2
 TQID: 'https://experienceleague.adobe.com/y9kSFUHZdX5HLf65Zi4K5qRwsX8ghRa2Gj72FSSvzzs'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: fe490c45-63fa-5b99-b5b4-d8cfeda8aa7d
+    internal-label: SDK/API
+  - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
+    internal-label: Dynamic Media
+  - id: d4b6216b-4a89-4ff0-8ac0-5a699ba23100
+    internal-label: Images and videos
+subfeature_v2:
+  - id: c12bda38-aa1a-4647-b62e-42cd4537dac6
+    internal-label: Dynamic Media Classic
+  - id: d17d085a-e808-49dd-b9a6-85a996b999bd
+    internal-label: Viewers
+  - id: a0cde32c-c339-4649-bd06-f1111bc952fc
+    internal-label: Smart Crop
+  - id: cb04d42d-1b70-43b0-9951-45998eb6e842
+    internal-label: Video
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+    internal-label: Developer
+source-git-commit: 0e24e07f8c91d3e7fda5510ed4252f9953e27467
 workflow-type: tm+mt
-source-wordcount: 1415
+source-wordcount: '1415'
 ht-degree: 0%
-
 ---
-
 # Vínculos compartidos{#link-share}
 
 La herramienta para compartir vínculos consiste en un botón agregado al panel Compartir en redes sociales y el cuadro de diálogo modal que se muestra cuando se activa la herramienta. La posición del botón se administra completamente mediante la herramienta Compartir en redes sociales.
@@ -252,7 +271,7 @@ El botón Cerrar se controla con el siguiente selector de clase CSS:
 .s7smartcropvideoviewer .s7linkdialog .s7closebutton
 ```
 
-**Propiedades CSS del &#x200B;** de botón Cerrar
+**Propiedades CSS del ** de botón Cerrar
 
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
@@ -339,7 +358,7 @@ El pie de página del cuadro de diálogo consiste en el botón &quot;cancelar&qu
 .s7smartcropvideoviewer .s7linkdialog .s7dialogfooter
 ```
 
-**Propiedades CSS de la &#x200B;** de pie de página del cuadro de diálogo
+**Propiedades CSS de la ** de pie de página del cuadro de diálogo
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
@@ -540,7 +559,7 @@ El área de diálogo principal, entre el encabezado y el pie de página, contien
 .s7smartcropvideoviewer .s7linkdialog .s7dialogviewarea
 ```
 
-**Propiedades CSS de la &#x200B;** del área de visualización del cuadro de diálogo
+**Propiedades CSS de la ** del área de visualización del cuadro de diálogo
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
@@ -575,7 +594,7 @@ Todo el contenido del formulario (como etiquetas y campos de entrada) reside den
 .s7smartcropvideoviewer .s7linkdialog .s7dialogbody
 ```
 
-**Propiedades CSS del &#x200B;** de cuerpo del cuadro de diálogo
+**Propiedades CSS del ** de cuerpo del cuadro de diálogo
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
@@ -602,7 +621,7 @@ Todas las etiquetas estáticas del formulario de cuadro de diálogo se controlan
 
 Esta clase no es adecuada para controlar el tamaño o la posición de la etiqueta porque puede aplicarla a textos en varios lugares de la interfaz de usuario del formulario.
 
-**Propiedades CSS de la etiqueta del cuadro de diálogo. &#x200B;**
+**Propiedades CSS de la etiqueta del cuadro de diálogo. **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
