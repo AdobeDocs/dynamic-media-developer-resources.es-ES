@@ -30,7 +30,7 @@ El método que elija dependerá de la comodidad con la que edite la documentaci�
 
 >[!NOTE]
 >
->Las contribuciones que envíe estarán cubiertas por las [condiciones de uso de Adobe.](https://www.adobe.com/legal/terms.html)
+>Las contribuciones que envíe estarán cubiertas por las [condiciones de uso de Adobe.](https://www.adobe.com/es/legal/terms.html)
 
 ### Crear una incidencia {#create-an-issue}
 
