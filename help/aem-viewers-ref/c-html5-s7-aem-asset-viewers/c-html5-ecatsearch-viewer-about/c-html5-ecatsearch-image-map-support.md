@@ -34,11 +34,11 @@ El atributo `href` del mapa de imagen tiene una dirección URL del recurso exter
 
 El siguiente es un ejemplo de redireccionamiento de URL simple:
 
-`href=http://www.adobe.com`
+`href=http://www.adobe.com/es`
 
 En este ejemplo, la misma dirección URL está ajustada con la función `loadProduct()`:
 
-`href=javascript:loadProduct("http://www.adobe.com");void(0);`
+`href=javascript:loadProduct("http://www.adobe.com/es");void(0);`
 
 Tenga en cuenta que cuando agrega el código JavaScript al atributo `HREF` de su mapa de imagen, el código se ejecuta en el equipo del cliente. Por lo tanto, asegúrese de que el código de JavaScript sea seguro.
 
