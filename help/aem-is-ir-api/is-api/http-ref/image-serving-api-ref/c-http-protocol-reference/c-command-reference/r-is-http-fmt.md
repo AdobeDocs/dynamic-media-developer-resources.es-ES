@@ -17,13 +17,11 @@ role_v2:
     internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 14d288ca3c2578cb4e0c56a2a08bd794e4b3f8cf
 workflow-type: tm+mt
-source-wordcount: 1061
+source-wordcount: '1249'
 ht-degree: 2%
-
 ---
-
 # fmt{#fmt}
 
 Formato de imagen de respuesta.
@@ -82,18 +80,24 @@ Formato de imagen de respuesta.
 | `none` | Sin comprimir. |
 | `zip` | Compresión &quot;Deflate&quot; (sin pérdidas). |
 
-* *`format`* especifica el formato de codificación de imagen para los datos de imagen enviados al cliente y el tipo MIME de respuesta correspondiente para el encabezado de respuesta HTTP.
+* *`format`* especifica el formato de codificación de imagen para los datos de imagen enviados al cliente y el tipo MIME de respuesta correspondiente para el encabezado de respuesta HTTP. Para las solicitudes JPEG y PNG, la conversión de formato del explorador puede cambiar el formato y el tipo MIME que se devuelven. Consulte la nota que sigue esta lista.
 * *`pixelType`* se puede usar para efectuar la conversión del espacio de color de salida cuando `icc=` no se especifica.
 
   Se aplica el perfil de color predeterminado correspondiente a *`pixelType`*. Si la gestión de colores está desactivada, se aplica una conversión naïve. *`pixelType`* se omite cuando se especifica `icc=`, lo que determina el tipo de píxel de salida.
 
 * *`compression`* solo se permite si `tif`, `tif-alpha`, `pdf`, `webp`, `webp-alpha`, `jpeg2000`, `jpeg2000-alpha`, `jpegxr` o `jpegxr-alpha` se especifica como *`format`*. Consulte la tabla siguiente para ver las opciones de compresión admitidas para estos formatos de imagen.
 
+>[!NOTE]
+>
+>Si [Imágenes inteligentes](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq) está habilitada en tu cuenta, la conversión de formato de navegador puede anular la *`format`* que solicitaste para las imágenes de JPEG y PNG. En ese caso, el servicio de imágenes puede proporcionar un formato más pequeño y específico del explorador, como WebP o AVIF, y el encabezado de respuesta `Content-Type` refleja el formato entregado en lugar del solicitado. Por ejemplo, una solicitud con `fmt=png` puede devolver `Content-Type: image/webp` en lugar de `Content-Type: image/png`.
+>
+>Para recibir el formato exacto y el tipo MIME de respuesta que especifique con `fmt=`, agregue `bfc=off` a la solicitud. Por ejemplo, `fmt=png&bfc=off` devuelve `Content-Type: image/png`. Ver [bfc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bfc.md).
+
 Puede usar `qlt=` para establecer las opciones de codificación de JPEG para estos formatos: JPEG, TIFF con compresión JPEG, PDF con compresión JPEG y SWF. WebP, JPEG 2000 y JPEG XR también usan `qlt=`, pero los valores dan como resultado calidades diferentes para los distintos formatos. Use `quantize=` si `fmt=gif` o `fmt=gif-alpha`. Consulte las descripciones de los comandos para obtener más información. Los demás formatos no tienen opciones configurables.
 
 Se devuelven 8 bits por componente de píxel para todos los *`formats`* y *`pixelTypes`* (8 bits por píxel para GIF).
 
-En la tabla siguiente se enumeran las combinaciones válidas de *`format`*y *`pixelType`*, los tipos MIME de respuesta HTTP correspondientes, si los perfiles ICC se pueden incrustar (consulte [iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e)) y qué opciones específicas de formato se pueden aplicar.
+En la tabla siguiente se enumeran las combinaciones válidas de *`format`*y *`pixelType`*, los tipos MIME de respuesta HTTP correspondientes, si los perfiles ICC se pueden incrustar (consulte [iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e)) y qué opciones específicas de formato se pueden aplicar. Los tipos MIME de respuesta para los formatos JPEG y PNG suponen que no se aplica la conversión de formato del explorador. Para garantizar estos tipos MIME cuando Imágenes inteligentes esté habilitado, incluya `bfc=off` en la solicitud.
 
 <table id="table_12F897A34D1D47F3AA492D4F074F09D5"> 
  <thead> 
@@ -224,6 +228,10 @@ Atributo de solicitud. Se aplica independientemente de la configuración de capa
 
 ` http:// *`servidor`*/myRootId/myImageId?fmt=png-alpha&wid=300`
 
+**Solicitar una imagen PNG y desactivar la conversión de formato del explorador para que el encabezado de respuesta sea `Content-Type: image/png`:**
+
+`http://server/myRootId/myImageId?wid=525&hei=400&fmt=png&bfc=off`
+
 **Solicite el canal alfa para la misma imagen que una imagen TIFF en escala de grises:**
 
 ` http:// *`servidor`*/myRootId/myImageId?req=mask&fmt=tif,gray&wid=300`
@@ -270,4 +278,4 @@ Atributo de solicitud. Se aplica independientemente de la configuración de capa
 
 ## Véase también {#section-fce8d69c74234bf48cf814d799409541}
 
-[qlt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-qlt.md#reference-f69ed0758c784b0385d979820546d352) , [Quantize=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-quantize.md#reference-b8069670fa474e4799ac29f0d693ca38), [req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76), [icc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517), [iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e), [pathEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pathembed.md#reference-9ccf0771d6634cf68c1c9c33cd428301), [pscan](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pscan.md#reference-b8101ed8e6c04dd28173f9597e52b135).
+[bfc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bfc.md), [qlt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-qlt.md#reference-f69ed0758c784b0385d979820546d352), [Quantize=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-quantize.md#reference-b8069670fa474e4799ac29f0d693ca38), [req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76), [icc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517), [iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e), [pathEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pathembed.md#reference-9ccf0771d6634cf68c1c9c33cd428301), [pscan](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pscan.md#reference-b8101ed8e6c04dd28173f9597e52b135), [Imágenes inteligentes](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq).
